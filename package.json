@@ -6,6 +6,12 @@
   "author": "Jack Baron <jackmbaron@gmail.com> (https://www.jackbaron.com)",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "lint": "eslint . --ext js,md,vue",
+    "dev": "vuepress dev wiki",
+    "build": "vuepress build wiki",
+    "build:prod": "cross-env NODE_ENV=production yarn run build"
+  },
   "devDependencies": {
     "@vuepress/plugin-last-updated": "^1.2.0",
     "@vuepress/plugin-medium-zoom": "^1.2.0",
