@@ -5,5 +5,21 @@
   "repository": "git@github.com:beat-saber-modding-group/wiki.git",
   "author": "Jack Baron <jackmbaron@gmail.com> (https://www.jackbaron.com)",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@vuepress/plugin-last-updated": "^1.2.0",
+    "@vuepress/plugin-medium-zoom": "^1.2.0",
+    "@vuepress/plugin-nprogress": "^1.2.0",
+    "@vuepress/plugin-search": "^1.2.0",
+    "babel-eslint": "^10.0.3",
+    "cross-env": "^6.0.3",
+    "dateformat": "^3.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-sora": "^2.1.0",
+    "eslint-plugin-markdown": "^1.0.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-container": "^2.1.0",
+    "vuepress-theme-yuu": "^2.2.0"
+  }
 }
