@@ -7,10 +7,6 @@ actionLink: ./beginners-guide.md
 footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
 ---
 
-<div style="text-align: center">
-  <Bit/>
-</div>
-
 <div class='features'>
 
 ::: feature Getting Started
