@@ -11,3 +11,21 @@ kbd
 .icon.outbound
   top -2px
   left 1px
+
+mark
+  $alphaFactor = 0.65
+
+  color darken($textColor, 20)
+  background-color alpha($accentColor, $alphaFactor)
+
+  .yuu-theme-dark &
+    color $darkTextColor
+
+  .yuu-theme-blue &
+    background-color alpha($blueAccentColor, $alphaFactor)
+
+  .yuu-theme-red &
+    background-color alpha($redAccentColor, $alphaFactor)
+
+  .yuu-theme-purple &
+    background-color alpha($purpleAccentColor, $alphaFactor)
