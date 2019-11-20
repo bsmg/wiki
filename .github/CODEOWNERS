@@ -1,0 +1,14 @@
+# Vuepress and Repo Setup
+.github/**/*          @lolpants
+wiki/.vuepress/**/*   @lolpants
+nginx/**/*            @lolpants
+.dockerignore         @lolpants
+.editorconfig         @lolpants
+.eslintignore         @lolpants
+.eslintrc.js          @lolpants
+.gitattributes        @lolpants
+.gitignore            @lolpants
+Dockerfile            @lolpants
+LICENSE               @lolpants
+package.json          @lolpants
+yarn.lock             @lolpants
