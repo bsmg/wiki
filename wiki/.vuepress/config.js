@@ -51,6 +51,13 @@ module.exports = {
         'extras',
         'linux',
       ]),
+      '/models/': generateSidebar('3D Models', [
+        '',
+        'custom-sabers',
+        'custom-avatars',
+        'custom-platforms',
+        'custom-notes',
+      ]),
     },
 
     nav: [
