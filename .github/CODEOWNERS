@@ -1,6 +1,6 @@
 # Vuepress and Repo Setup
 .github/**/*          @lolpants
-wiki/.vuepress/**/*   @lolpants
+/wiki/.vuepress/**/*  @lolpants
 nginx/**/*            @lolpants
 .dockerignore         @lolpants
 .editorconfig         @lolpants
@@ -12,3 +12,9 @@ Dockerfile            @lolpants
 LICENSE               @lolpants
 package.json          @lolpants
 yarn.lock             @lolpants
+
+# Wiki Admins
+/wiki/**/*.md          @megalon @williums @assistant
+
+# Section Owners
+/wiki/modding/**/*.md  @megalon @williums @assistant @aurosx @caeden117
