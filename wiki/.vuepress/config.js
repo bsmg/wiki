@@ -45,6 +45,12 @@ module.exports = {
         '',
         'install-folder',
       ]),
+      '/modding/': generateSidebar('Modding', [
+        '',
+        'intro',
+        'extras',
+        'linux',
+      ]),
     },
 
     nav: [
