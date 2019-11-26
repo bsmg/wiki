@@ -41,6 +41,10 @@ module.exports = {
         'supports',
         '3d-artists',
       ]),
+      '/faq/': generateSidebar('FAQ', [
+        '',
+        'install-folder',
+      ]),
     },
 
     nav: [
