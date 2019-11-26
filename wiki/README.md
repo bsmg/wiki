@@ -10,7 +10,7 @@ footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 
 <div class='features'>
 
 ::: feature Getting Started
-* [PC Modding](./beginners-guide.md)
+* [PC Modding](./pc-modding.md)
 * [Quest Modding](./quest-modding.md)
 * [Common Problems](./support/)
 * [Grips and Tricks](./grips-and-tricks.md)
@@ -25,7 +25,7 @@ footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 
 ::: feature Other Resources
 * [About Us](/about/)
 * [Health and Safety](./health-and-safety.md)
-* [Mod History](/modding/all-mods.md)
+* [Mod History](https://docs.google.com/spreadsheets/d/1eVRbCUyaXjKUJRSNPZWERUO9tULK415buU0q-H7Z0dY/edit#gid=0)
 * [Frequently Asked Questions](/faq/)
 :::
 
