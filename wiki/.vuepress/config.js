@@ -32,7 +32,16 @@ module.exports = {
     lastUpdated: 'Last Updated',
 
     displayAllHeaders: true,
-    sidebar: {},
+    sidebar: {
+      '/about/': generateSidebar('About', [
+        '',
+        'staff',
+        'moderators',
+        'modders',
+        'supports',
+        '3d-artists',
+      ]),
+    },
 
     nav: [
       { text: 'Home', link: '/' },
@@ -60,12 +69,6 @@ module.exports = {
       after: '</div>',
     }],
   ],
-  markdown: {
-    extendMarkdown: md => {
-      md.use(require('markdown-it-footnote'))
-      md.use(require('markdown-it-mark'))
-    },
-  },
   configureWebpack: {
     resolve: {
       alias: {
