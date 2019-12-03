@@ -205,6 +205,14 @@ Fastest steam notification sending simulator developer in the West. He also crea
 
 [GitHub](https://github.com/vanZeben) | [Twitch](https://www.twitch.tv/vanzeben)
 
+## xyonico
+Original creator of SongLoader and CameraPlus, and a major contributor to the custom avatar plugin. He's since moved on to develop other VR games, like [Waltz of the Wizard](https://store.steampowered.com/app/1094390/Waltz_of_the_Wizard_Extended_Edition/)!
+
+**Roles:** Modder
+**Contributions:** SongLoader, CameraPlus
+
+[GitHub](https://github.com/xyonico/) [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
+
 ## brian (retired)
 Creator of CustomUI, making the creation of new UI components a breeze for modders. He's also created some of the most useful streaming tools used today, including taking over CameraPlus in xyonico's absence and the widely used Enhanced Stream Chat mod. This man wants more hip hop songs, get on it people!
 

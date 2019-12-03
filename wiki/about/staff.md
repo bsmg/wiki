@@ -9,14 +9,6 @@ Overseeer of core services, including BeatSaver and BeatMods servers. The origin
 
 [GitHub](https://github.com/Assistant) | [Donate](https://bs.assistant.moe/Donate) | [Patreon](https://www.patreon.com/AssistantMoe)
 
-## Klouder
-Server Mom. Constantly looking for ways to tweak and improve the discord.
-
-**Roles:** Staff, Support, 3D Artist  
-**Contributions:** ScoreSaber Admin, Moderation
-
-[Twitch](https://www.twitch.tv/klouderrr) | [Donate](https://streamlabs.com/klouderrr)
-
 ## Megalon
 Co-creator of the BSMG as well as Channel Monitor Bot. He's known for his creative stream overlays and amazing ASMR voice.
 
@@ -44,7 +36,7 @@ Official BSMG PR Guy. Events like the 100k Contest wouldn't have been possible w
 ## Steven 🎀
 The manager of many, Steven's always around to lend a helping hand as long as you don't mess with the blue haired cute girls.
 
-**Roles:** Admin, Staff, Support  
+**Roles:** Admin, Staff, Support, Modder
 **Contributions:** THE ModelSaber Admin
 
 [Github](https://github.com/DeadlyKitten) | [Twitch](https://www.twitch.tv/steventhecat)  | [Donate](https://streamlabs.com/steventhecat)
@@ -58,9 +50,9 @@ Project manager, wiki maintainer, bread baker. Despite what everyone says, I lik
 [Twitch](https://www.twitch.tv/williums/) | [Donate](https://ko-fi.com/williums)
 
 ## Umbranox
-ScoreSaber Supreme Leader, creator of the custom leaderboards/ranked system and official developer for Beat Games. Always trying to do way too much work with not enough rest. Remember to pat your Umbranox once a day!
+ScoreSaber Supreme Leader, creator of the custom leaderboards/rank system. Always trying to do way too much work with not enough rest. Remember to pat your Umbranox once a day!
 
-**Roles:** Staff, Offical Dev  
+**Roles:** Staff 
 **Contributions:** ScoreSaber
 
 [Twitch](https://www.twitch.tv/umbranoxius) | [Twitter](https://twitter.com/Umbranoxus) | [Patreon](https://www.patreon.com/scoresaber)
@@ -72,15 +64,6 @@ The first professional Beat Saber player, representing Team Gravity. Admin of th
 **Contributions:** ScoreSaber
 
 [Twitch](https://twitch.tv/orangew2) | [Donate](https://streamlabs.com/orangew2)
-
-## xyonico
-Original creator of SongLoader and CameraPlus, and a major contributor to the custom avatar plugin. He's since moved on to develop other VR games, like [Waltz of the Wizard](https://store.steampowered.com/app/1094390/Waltz_of_the_Wizard_Extended_Edition/)!
-
-**Roles:** Modder, Staff  
-**Contributions:** SongLoader, CameraPlus
-
-[GitHub](https://github.com/xyonico/) [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
-
 ## bobbie
 Remind him to watch his glucose.
 
@@ -101,3 +84,10 @@ Likes pies, tartes, and helping people fix their mods!
 BeatSaver creator - he's the reason we have somewhere to get our custom songs in the first place. He shows up in once in awhile to show off BeatSaver numbers, call us nerds, and present his collection of finely aged memes. He's since stepped down from the staff team but we wouldn't be here without him.
 
 **Contributions:** BeatSaver Creator.
+
+## Klouder (retired)
+Longtime server member and active contributor. She was the server mom!
+
+**Contributions:** ScoreSaber Admin, Moderation
+
+[Twitch](https://www.twitch.tv/klouderrr) | [Donate](https://streamlabs.com/klouderrr)
