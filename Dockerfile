@@ -22,6 +22,11 @@ FROM nginx:alpine
 COPY --from=builder /usr/app/wiki/.vuepress/dist /usr/share/nginx/html
 COPY ./nginx/nginx.conf /etc/nginx/conf.d/default.conf
 
+# Label
+ARG VCS_REF
+LABEL org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.vcs-url="https://github.com/beat-saber-modding-group/wiki"
+
 # Expose port and run
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
