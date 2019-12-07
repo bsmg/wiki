@@ -15,10 +15,10 @@ This guide currently supports both [Mediocre Map Assistant](https://github.com/A
 3. Double click `mediocremapassistant2.exe` to run.
 
 ### First Time Setup
-The first time you run MM you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
+The first time you run MMA2 you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
 
 **If you have VR and Beat Saber:**
-* Give MM the path to the two appropriate folders
+* Give MMA2 the path to the two appropriate folders
 * Steam Example: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`
 * Oculus Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
 
@@ -31,7 +31,7 @@ The first time you run MM you will need to direct it to the location of two fold
 All of your working map files will go into a song name folder within this CustomWIPLevels folder.
 
 ### Editor Settings
-Once you've set up your paths, these core settings are all available from the MM song selection page when you first open the program.
+Once you've set up your paths, these core settings are all available from the song selection page when you first open the program.
 
 ![Song Selection screen in Mediocre Map Assistant](https://i.imgur.com/GTH8rH5.jpg)
 
@@ -46,7 +46,7 @@ The map selection pane has four tabs, each with songs listed alphabetically.
 There are several functions available to you on this screen:
 
 * The <kbd>Refresh Song List</kbd> button refreshes the songs listed.
-* The <kbd>Edit</kbd> button next to a map opens it in MM. 
+* The <kbd>Edit</kbd> button next to a map opens it in MMA2. 
 * The <kbd>Delete</kbd> button next to a map perma-deletes it. **Note:** Once deleted this way maps are gone forever and unrecoverable.
 * The <kbd>Star</kbd> button next to a map favorites it, bumping it to the top of the list.
 
@@ -59,10 +59,10 @@ The settings pane includes global settings for autosaving, zip packaging, folder
 * **Autosave Settings:** Autosave is enabled by default at an interval of 300 seconds (5 minutes). This is generally fine for most users unless you are doing a light-heavy map. Autosave while playing the song in the editor is also enabled by default.
 * **Mapping & Lighting Settings:** 
    - No lighting is off by default, meaning that any lighting events placed on the lighting track will play. Check to prevent lights from playing while mapping.
-   - You have the option to provide MM with an alternate folder to save your packaged songs. By default the packaged song will be found in the same folder where the uncompressed map lives.
+   - You have the option to provide MMA2 with an alternate folder to save your packaged songs. By default the packaged song will be found in the same folder where the uncompressed map lives.
 * **Beta Settings:** If you have the Mapping Extensions mod installed you will have additional checkboxes enabled for "extended" mapping features like precision placement, precision rotation, and six-lane. New mappers are encouraged to skip this until they're more comfortable with the basics.
 * **Legacy Settings:** If you have the Chroma mod installed you can check this box to enable the Chroma lighting toolbar but it has been unsupported for some time.
-* **Other Settings:** Click the <kbd>Clear Settings</kbd> button to revert to default settings. You may also enter new paths for either of your song folders. If for some reason nothing works you can click the <kbd>Everything Inexplicably Broken?</kbd> button to delete your MM config file.
+* **Other Settings:** Click the <kbd>Clear Settings</kbd> button to revert to default settings. You may also enter new paths for either of your song folders. If for some reason nothing works you can click the <kbd>Everything Inexplicably Broken?</kbd> button to delete your config file.
 
 > TIP Double check to make sure that the paths you entered at setup are showing up under the "Songs" and "WIP Songs" fields. Add them if they are missing.
 
