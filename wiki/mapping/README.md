@@ -61,7 +61,7 @@ Interested in making your own editor or converter? You may find the [SongCore re
 
 #### Mediocre Map Assistant
 A fork of a fork of a fork... the most feature rich 3D editor used by the majority of the mapping community, now stripped of memes and all the fun stuff. RIP Bongo cat. Uses the new 2.0 song format and updated BeatSaver data schema. [Mediocre Map Assistant 2 Download](https://github.com/Assistant/MediocreMapAssistant2/releases/latest)
-* Check out the (almost finished) [Mediocre Map Assistant User Guide](/mapping/mediocre-mapper) for info on installation, initial setup, song setup, basic controls, error checking, and more.
+* Check out the (almost finished) [Mediocre Map Assistant User Guide](/mapping/mediocre-map-assistant.html) for info on installation, initial setup, song setup, basic controls, error checking, and more.
 
 #### BeatMapper.app
 A new web-based 3D beat saber editor using the new 2.0 song format. Runs in the browser so it's platform agnostic. [BeatMapper Website](https://beatmapper.app/)
