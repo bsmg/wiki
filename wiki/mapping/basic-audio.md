@@ -8,7 +8,6 @@ _Get your audio file set up and ready for mapping_
 
 **Content in this section is derived from original guides by Kolezan & Nik.**  
 Many thanks to contributors from across the mapping community who made this expanded wiki possible!
-* [Frequently Asked Questions](/mapping/faq.md)
 * [Glossary of Terms](/mapping/glossary.md)
 
 This page provides both new and experienced mappers with general recommendations for setting up a new song file before starting to map. Not all sections may apply for your song, so review the table of contents to the left and skip any sections you deem unnecessary.
