@@ -16,11 +16,6 @@ Do not attack the devs for issues related to mods, and vice versa - modders and 
 Beat Saber natively supports custom songs, so if that's all you're looking for, you don't require more mods! It's a wise idea to install `SongCore` though, as this mod expands upon the base game functionality to improve loading times and provide functionality for other mods like the in-game downloader, custom leaderboards, playlists, etc.
 
 ::: warning
-Every time the game updates, you will have to do this process again to get all compatible mods. 
-Since mods are made by volunteers, you may need to wait for your favorite mod to be fixed for the latest game version. Make sure to check the #server-announcements channel in the discord for the latest updates!
-:::
-
-::: warning
 This guide is for PC-modding on Windows.  
 If you have a Quest, see the [Quest Modding page](/quest-modding.md).  
 If you're on Linux, check out the [Linux page](/modding/linux.md) or [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md)
