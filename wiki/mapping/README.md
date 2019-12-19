@@ -9,7 +9,6 @@ Visit `#mapping-discussion` on the BSMG Discord to get involved!
 :::
 
 **Many thanks to contributors from across the mapping community who have made this expanded wiki possible!**
-* [Frequently Asked Questions](/mapping/faq.md)
 * [Mapping Term Glossary](/mapping/glossary.md)
 
 ## Mapping Quick Start
@@ -62,7 +61,7 @@ Interested in making your own editor or converter? You may find the [SongCore re
 
 #### Mediocre Map Assistant
 A fork of a fork of a fork... the most feature rich 3D editor used by the majority of the mapping community, now stripped of memes and all the fun stuff. RIP Bongo cat. Uses the new 2.0 song format and updated BeatSaver data schema. [Mediocre Map Assistant 2 Download](https://github.com/Assistant/MediocreMapAssistant2/releases/latest)
-* Check out the (almost finished) [Mediocre Map Assistant User Guide](/mapping/mediocre-mapper) for info on installation, initial setup, song setup, basic controls, error checking, and more.
+* Check out the (almost finished) [Mediocre Map Assistant User Guide](/mapping/mediocre-map-assistant.html) for info on installation, initial setup, song setup, basic controls, error checking, and more.
 
 #### BeatMapper.app
 A new web-based 3D beat saber editor using the new 2.0 song format. Runs in the browser so it's platform agnostic. [BeatMapper Website](https://beatmapper.app/)
@@ -74,13 +73,18 @@ The official editor is developed and supported by Beat Games and pre-installed w
 * Megalon's [Official Editor Tutorial Video](https://www.youtube.com/watch?v=5Ex6sOEVgrM)
 
 ### Additional Mapping Resources
-* [BeatMapperTools](https://monroeworld.com/beatmapper-tools/) by Darkuni
-A utility for users of Mediocre Mapper Mk4.0 and earlier to easily convert, test, and package their maps.
-* [Tempo Changer](https://skystudioapps.com/mapping-tools/#tempo-changer) by Rabbit
-A utility for mappers who need to change the BPM of their entire map that will correctly shift block placements. **Works on new format .dat files**
-* [BPM Saber](https://github.com/zevdg/bpm-saber), by Zevdg
+* [BeatMapperTools](https://mappers.beatmappertools.com/) by **Darkuni**
+A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps.
+* [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**
+A suite of tools for mappers that includes:
+  * Schema Fixer: Easily fix maps made in Mediocre Mapper Mk4.1 and Mk5 for upload to Beatsaver
+  * Tempo Changer: For those who need to change the BPM of their entire map that will correctly shift block placements 
+  * Offset Remover: Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error
+  * Note Sorter: Sorts unordered notes/obstacles/events in the map file to fix stack spawning  
+  **Works on new format .dat files**
+* [BPM Saber](https://github.com/zevdg/bpm-saber), by **Zevdg**
 A utility for mappers who need to change the BPM of their entire map that will correctly shift block placements. **Only works on old format .json files**
-* [BPM Saber](https://bsaber.com/bpmsaber/), by Elliotttate
+* [BPM Saber](https://bsaber.com/bpmsaber/), by **Elliotttate**
 A utility for finding the BPM of a song
 * Fayhe's [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t)
 
@@ -115,8 +119,12 @@ A map is not considered complete without some form of lighting included. Lightin
 
 **Lightmap**
 A tool to automatically generate lighting events for a custom song by Freeek and Recrudesce!
-Get it here: https://github.com/recrudesce/lightmap/releases
-Explanation video and examples: https://www.youtube.com/watch?v=ImO9cFW5vyQ&t
+
+::: warning
+The github release and video is for the old .json map format. Lightmap has been integrated into Mediocre Mapper Mk4 and up as well as Mediocre Map Assistant 2 which can be accessed in the error checker menu.
+:::  
+
+Get the standalone version at the [Lightmap Github](https://github.com/recrudesce/lightmap/releases/latest). See [explanation video](https://www.youtube.com/watch?v=ImO9cFW5vyQ&t) for usage but do remember this is for the outdated map format.
 
 ## Playtesting
 Testing your work is a critical part of mapping. Playing your own maps as you work helps you adjust for major playability issues and get a feel for your map. Third-party or “outside” playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
@@ -125,14 +133,18 @@ Testing your work is a critical part of mapping. Playing your own maps as you wo
 You **do not** need to upload your map to Beat Saver in order for you or anyone else to test.
 :::
 
-* If your map is using the 1.0 song format (your files are .json and .ogg) you must convert your map using one of several available tools like [Songe Converter](https://github.com/lolPants/songe-converter) by lolPants or [BeatMapper Tools](https://beatmappertools.com/index.php) by Darkuni. **Update your editor to MMA2 or BeatMapper** See [Community Editors](/mapping#community-editors) for links
-* If your map is using the 2.0 song format (your files are .dat and .egg) you’re ready to test.
+* If your map is using the 1.0 song format (your files are .json and .ogg) you must convert your map using one of several available tools like [Songe Converter](https://github.com/lolPants/songe-converter) by lolPants or [BeatMapper Tools](https://mappers.beatmappertools.com/) by Darkuni. **Update your editor to MMA2 or BeatMapper** See [Community Editors](/mapping#community-editors) for links
+* If your map is using the 2.0 song format (your files are .dat and .ogg/.egg) you’re ready to test.
 
 ### Testing on a PC
 Follow these steps to test any of your maps made with a community editor using PC-based VR.
 
 1. If your WIP song folder isn’t already in Beat Saber_Data\CustomWIPLevels then place a copy there.
 2. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
+
+::: tip NOTE
+You will need to have at least the core mods installed in order to see the CustomWIPLevels category.
+:::  
 
 ### Testing on a Quest
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have [SideQuest](https://sidequestvr.com) and [BMBF](https://github.com/kihecido/BMBF/releases/latest) installed.
@@ -153,7 +165,7 @@ The #testplays channel in the Beat Saber Modding Group discord makes it easy to 
 **Difficulty:** Which difficulties are included
 **Feedback:** Any requests for feedback (specific difficulties to be tested, things to look for etc.)
 **Status:** What state is the map in? (i.e., First draft complete, no lights; 1:45 mapped; release candidate w/ lighting; etc.)
-3. Testers will usually look at your map within 24-48 hours and will use a number of reaction emojis (listed in #testplays pinned posts) to track testing status.
+3. Testers will usually look at your map within 1-7 days and will use a number of reaction emojis (listed in #testplays pinned posts) to track testing status.
 
 You can use the following code to copy and paste into Discord:
 ```
@@ -197,7 +209,7 @@ BeatSaver now enforces a schema in order for your maps to be uploaded, of which 
 Switch to the [Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) editor. Open each difficulty file and save it to correct the schema. Use MMA2 going forward.
 
 **Resolution #2**
-Use the [Schema Updater Utility](https://skystudioapps.com/mapping-tools/#schema-fixer) by **Rabbit** to fix your files before uploading.
+Use the [Schema Updater Utility](https://skystudioapps.com/mapping-tools/#schema-fixer) by **+1 Rabbit** to fix your files before uploading.
 
 **Resolution #3 (The Hard Way):**  
 If you wish to fix this yourself, here is a quick template which shows you where everything should go in order for your map to be compliant with BeatSaver's new schema.

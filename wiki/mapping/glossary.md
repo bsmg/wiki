@@ -5,7 +5,6 @@ sidebar: auto
 _From Arrow Block to Wrist Reset and everything in between. Learn mapping lingo here!_
 
 **Many thanks to contributors from across the mapping community who have made this expanded wiki possible!**
-* [Frequently Asked Questions](/mapping/faq.md)
 
 ::: tip NOTE
 This glossary is a living, breathing, growing work in progress. If there's a term you've come across not listed, let us know in #mapping-discussion!

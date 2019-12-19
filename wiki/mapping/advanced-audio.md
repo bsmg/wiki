@@ -7,7 +7,6 @@ next: false
 _Diving deeper into audio editing_
 
 **Content in this section is derived from original guides by n3tman and LittleAsi, edited by Kolezan. Many thanks to contributors from across the mapping community who made this expanded wiki possible!**
-* [Frequently Asked Questions](/mapping/faq.md)
 * [Glossary of Terms](/mapping/glossary.md)
 
 On this page you will find additional guides and resources for better understanding audio or more advanced techniques of editing audio.
