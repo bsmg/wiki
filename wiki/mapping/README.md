@@ -143,7 +143,8 @@ Follow these steps to test any of your maps made with a community editor using P
 2. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
 
 ::: tip NOTE
-You will need to have at least the core mods installed in order to see the CustomWIPLevels category. :::  
+You will need to have at least the core mods installed in order to see the CustomWIPLevels category.
+:::  
 
 ### Testing on a Quest
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have [SideQuest](https://sidequestvr.com) and [BMBF](https://github.com/kihecido/BMBF/releases/latest) installed.
