@@ -124,8 +124,7 @@ A tool to automatically generate lighting events for a custom song by Freeek and
 The github release and video is for the old .json map format. Lightmap has been integrated into Mediocre Mapper Mk4 and up as well as Mediocre Map Assistant 2 which can be accessed in the error checker menu.
 :::  
 
-Get it here: https://github.com/recrudesce/lightmap/releases
-Explanation video and examples: https://www.youtube.com/watch?v=ImO9cFW5vyQ&t
+Get the standalone version at the [Lightmap Github](https://github.com/recrudesce/lightmap/releases/latest). See [explanation video](https://www.youtube.com/watch?v=ImO9cFW5vyQ&t) for usage but do remember this is for the outdated map format.
 
 ## Playtesting
 Testing your work is a critical part of mapping. Playing your own maps as you work helps you adjust for major playability issues and get a feel for your map. Third-party or “outside” playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
