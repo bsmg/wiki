@@ -3,13 +3,6 @@ sidebar: auto
 ---
 # PC Modding
 # Preface
-::: warning
-This guide is for PC-modding on Windows.  
-If you have a Quest, check out the tutorial on [BeastSaber](https://bsaber.com/oculus-quest-custom-songs/).  
-If you're on Linux, check out the [Linux page](/modding/linux.md) or [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md)
-:::
-
-Beat Saber natively supports custom songs, so if that's all you're looking for, you don't require more mods! It's a wise idea to install `SongCore` though, as this mod expands upon the base game functionality to improve loading times and provide functionality for other mods like the in-game downloader, custom leaderboards, playlists, etc.
 
 ::: danger DISCLAIMER
 By choosing to use mods, you understand that:
@@ -20,9 +13,12 @@ By choosing to use mods, you understand that:
 Do not attack the devs for issues related to mods, and vice versa - modders and devs are two separate groups. Just don't be a jerk ok.
 :::
 
+Beat Saber natively supports custom songs, so if that's all you're looking for, you don't require more mods! It's a wise idea to install `SongCore` though, as this mod expands upon the base game functionality to improve loading times and provide functionality for other mods like the in-game downloader, custom leaderboards, playlists, etc.
+
 ::: warning
-Every time the game updates, you will have to do this process again to get all compatible mods. 
-Since mods are made by volunteers, you may need to wait for your favorite mod to be fixed for the latest game version. Make sure to check the #server-announcements channel in the discord for the latest updates!
+This guide is for PC-modding on Windows.  
+If you have a Quest, see the [Quest Modding page](/quest-modding.md).  
+If you're on Linux, check out the [Linux page](/modding/linux.md) or [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md)
 :::
 
 If you run into problems at any point, please head to the [support page](./support.md#1-4-no-mods-in-game) and see if you can identify what went wrong before asking in the Discord server. Chances are, your answer is on that page!
@@ -36,15 +32,6 @@ __**Run the game at least once**__ before trying to mod the game! This applies t
 A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal and version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
 
 ![ModAssistant](./images/beginners-guide/modassistant.png)
-
-### BeatDrop
-**Run the game at least once** before trying to mod the game! This applies to reinstalling your game too. 
-
-BeatDrop 2 is an iTunes / Spotify-like song manager, downloader, playlist creator and mod installer / manager for Beat Saber, all rolled up into a single beautiful and easy to use app. [Get it over on StarGazer's GitHub!](https://github.com/StarGazer1258/BeatDrop/releases). Here's a [short tutorial](https://www.notion.so/BeatDrop-2-Tutorial-e6a98d87b14a4621bd0941c5f8953be9) that explains how it works.
-
-![BeatDrop](./images/beginners-guide/beatdrop-800.jpg)
-
-Note that BeatDrop is still in development and currently lacks mod updating functionality, but it's highly recommended for song and playlist management. Stay tuned for the addition of more features! To update mods, simply uninstall the mod and redownload it to get the latest version, or use an alternative method to update your mods.
 
 ## How to get more songs
 ### In-game Downloader
