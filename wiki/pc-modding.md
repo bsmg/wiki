@@ -3,13 +3,6 @@ sidebar: auto
 ---
 # PC Modding
 # Preface
-::: warning
-This guide is for PC-modding on Windows.  
-If you have a Quest, check out the tutorial on [BeastSaber](https://bsaber.com/oculus-quest-custom-songs/).  
-If you're on Linux, check out the [Linux page](/modding/linux.md) or [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md)
-:::
-
-Beat Saber natively supports custom songs, so if that's all you're looking for, you don't require more mods! It's a wise idea to install `SongCore` though, as this mod expands upon the base game functionality to improve loading times and provide functionality for other mods like the in-game downloader, custom leaderboards, playlists, etc.
 
 ::: danger DISCLAIMER
 By choosing to use mods, you understand that:
@@ -20,9 +13,17 @@ By choosing to use mods, you understand that:
 Do not attack the devs for issues related to mods, and vice versa - modders and devs are two separate groups. Just don't be a jerk ok.
 :::
 
+Beat Saber natively supports custom songs, so if that's all you're looking for, you don't require more mods! It's a wise idea to install `SongCore` though, as this mod expands upon the base game functionality to improve loading times and provide functionality for other mods like the in-game downloader, custom leaderboards, playlists, etc.
+
 ::: warning
 Every time the game updates, you will have to do this process again to get all compatible mods. 
 Since mods are made by volunteers, you may need to wait for your favorite mod to be fixed for the latest game version. Make sure to check the #server-announcements channel in the discord for the latest updates!
+:::
+
+::: warning
+This guide is for PC-modding on Windows.  
+If you have a Quest, check out the tutorial on [BeastSaber](https://bsaber.com/oculus-quest-custom-songs/).  
+If you're on Linux, check out the [Linux page](/modding/linux.md) or [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md)
 :::
 
 If you run into problems at any point, please head to the [support page](./support.md#1-4-no-mods-in-game) and see if you can identify what went wrong before asking in the Discord server. Chances are, your answer is on that page!
