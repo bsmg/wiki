@@ -22,7 +22,7 @@ Since mods are made by volunteers, you may need to wait for your favorite mod to
 
 ::: warning
 This guide is for PC-modding on Windows.  
-If you have a Quest, check out the tutorial on [BeastSaber](https://bsaber.com/oculus-quest-custom-songs/).  
+If you have a Quest, see the [Quest Modding page](/quest-modding.md).  
 If you're on Linux, check out the [Linux page](/modding/linux.md) or [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md)
 :::
 
