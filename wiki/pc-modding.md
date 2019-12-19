@@ -38,15 +38,6 @@ A simple Beat Saber Mod Installer similar to the mod manager, but with additiona
 
 ![ModAssistant](./images/beginners-guide/modassistant.png)
 
-### BeatDrop
-**Run the game at least once** before trying to mod the game! This applies to reinstalling your game too. 
-
-BeatDrop 2 is an iTunes / Spotify-like song manager, downloader, playlist creator and mod installer / manager for Beat Saber, all rolled up into a single beautiful and easy to use app. [Get it over on StarGazer's GitHub!](https://github.com/StarGazer1258/BeatDrop/releases). Here's a [short tutorial](https://www.notion.so/BeatDrop-2-Tutorial-e6a98d87b14a4621bd0941c5f8953be9) that explains how it works.
-
-![BeatDrop](./images/beginners-guide/beatdrop-800.jpg)
-
-Note that BeatDrop is still in development and currently lacks mod updating functionality, but it's highly recommended for song and playlist management. Stay tuned for the addition of more features! To update mods, simply uninstall the mod and redownload it to get the latest version, or use an alternative method to update your mods.
-
 ## How to get more songs
 ### In-game Downloader
 The `BeatSaver Downloader` Plugin allows you to download maps in-game using the `MORE SONGS` menu button on the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com)
