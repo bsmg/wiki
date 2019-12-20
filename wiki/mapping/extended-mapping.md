@@ -10,7 +10,9 @@ _A quick summary of Extended Mapping_
 This is a stub page. Content to come soon!
 :::
 
-## Set-Up
+## Mapping Extensions
+
+### Set-Up
 
 **Install Mapping Extensions with Beat Saber Installed**
 
@@ -68,9 +70,9 @@ Option 2:
 7. Click Save song infos in the bottom left corner.
 8. Click Edit Level and you are good to go!
 
-## Multi-Lane Mapping
-## Precision Placement
-## Precision Rotation
-## Wall Mapping
-## Bomb Mapping
-## Extended Characteristics
+### Multi-Lane Mapping
+### Precision Placement
+### Precision Rotation
+### Wall Mapping
+### Bomb Mapping
+### Extended Characteristics
