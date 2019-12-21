@@ -2,10 +2,10 @@
 sidebar: auto
 ---
 # Mediocre Map Assistant User Guide
-_Essential information to get up and running using Mediocre Map Assistant_
+_Essential information to get up and running using Mediocre Map Assistant 2_
 
 ::: warning NOTE
-This guide currently supports both [Mediocre Map Assistant](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) by Assistant and Mediocre Mapper Mk5 (final public release) by Squeaksies. All future public development will occur on MMA.
+This guide currently supports both [Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) by Assistant and Mediocre Mapper Mk5 (final public release) by Squeaksies. All future public development will occur on MMA2.
 :::
 
 ## Editor Setup
@@ -33,7 +33,7 @@ All of your working map files will go into a song name folder within this Custom
 ### Editor Settings
 Once you've set up your paths, these core settings are all available from the song selection page when you first open the program.
 
-![Song Selection screen in Mediocre Map Assistant](https://i.imgur.com/GTH8rH5.jpg)
+![Song Selection screen in Mediocre Map Assistant 2](https://i.imgur.com/GTH8rH5.jpg)
 
 #### Map Selection
 The map selection pane has four tabs, each with songs listed alphabetically.
@@ -88,7 +88,7 @@ You have two options to create your song folder:
 Click <kbd>Edit</kbd> to enter your song information and metadata.
 ### Song Info Settings
 The `Song Info` page is the first screen you see every time you edit a map.
-![Mediocre Map Assistant song setup screen](https://i.imgur.com/CiopwiZ.jpg?1)
+![Mediocre Map Assistant 2 song setup screen](https://i.imgur.com/CiopwiZ.jpg?1)
 #### Whole Map Settings
 On the left side of the `Song Info` page is information that applies to your whole map. See [Beat Saber Metadata Criteria](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) for standards on presenting complex song names and multiple artists.
 * **Song Name:** The primary name of the song
@@ -130,7 +130,7 @@ Click <kbd>Edit Level</kbd> when you're ready to start mapping!
 
 ### Mapping Settings
 Mapping settings can be accessed by clicking the hamburger menu in the top right while editing the map. It can also be toggled using the <kbd>ESC</kbd> key. These settings persist throughout your mapping session but will be reset the next time you open the editor. The `Mapping Settings` pane also includes a comprehensive list of keybindings.
-![Mapping Setting screen in Mediocre Map Assistant](https://i.imgur.com/h1DoGjU.jpg?1)
+![Mapping Setting screen in Mediocre Map Assistant 2](https://i.imgur.com/h1DoGjU.jpg?1)
 
 * **<kbd>Move WaveForm to Other Side</kbd>**: This button will shift the wave form from the left of the mapping track to the left of the lighting track. Useful during the lighting process.
 * **Playback Speed:** Will slow down the map and song in the editor. Decimal values representing pecentage (i.e., 1.0 = 100% speed). This feature is helpful when timing particularly gnarly sections of a map.
@@ -150,7 +150,7 @@ There are usually multiple ways to accomplish the same action, however, the keyb
 [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing)
 
 ## Error Checker
-The **Error Checker** functionality is one of the top quality of life features found in MMA. Access the error checker by clicking <kbd>SHIFT+TAB</kbd> to check for vision blocks, double directionals, stacked notes, and view map stats.
+The **Error Checker** functionality is one of the top quality of life features found in MMA2. Access the error checker by clicking <kbd>SHIFT+TAB</kbd> to check for vision blocks, double directionals, stacked notes, and view map stats.
 ### Finding & Interpreting Errors
 This section walks you through basic usage of the error checker's primary functions: **Check for Double Directionals, Check for Vision Blocks**, and **Check for Stacked Notes**
 #### Navigating the Error Checker
