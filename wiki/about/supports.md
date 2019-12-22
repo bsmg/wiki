@@ -14,7 +14,7 @@ The first person to receive the Support role for assisting our Quest userbase.
 **Roles:** Support
 
 ## Pespiri
-He'll give me his bio later today.
+He'll give me his bio later today, or so he says.
 
 **Roles:** Support, Modder
 
