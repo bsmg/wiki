@@ -38,10 +38,8 @@ A simple Beat Saber Mod Installer similar to the mod manager, but with additiona
 The `BeatSaver Downloader` Plugin allows you to download maps in-game using the `MORE SONGS` menu button on the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com)
 
 ### BeatSaver
-[BeatSaver](https://beatsaver.com) is the central repository that holds nearly all custom songs/maps for Beat Saber.
-To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.  You can also use the in-game downloader plugin.
-
-There are a couple more resources to help you find songs over in the [FAQ](./faq.md#more-songs)
+[BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community. Many other tools and sites enhance the experience of downloading custom songs, but this site is the source of truth.
+To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.  You can also use the in-game downloader plugin, BeatList, or Mod Assistant's OneClick Install feature.
 
 ### Beast Saber
 [Beast Saber](https://www.bsaber.com) (bsaber.com) is a site that tries to help make finding fantastic maps to play easier. It does this by categorizing the thousands of songs on beatsaver and lets you sort by a song's genre and many other attribute tags. It also has a full social feature where players can review songs and comment on them. One of the most used features is the "Curator Recommended" feature where a team plays through most songs released each day and recommends the ones that stand out, letting you [automatically download these in-game](https://bsaber.com/beatsync/).
@@ -50,27 +48,46 @@ There are a couple more resources to help you find songs over in the [FAQ](./faq
 * [BeatDrop](https://bsaber.com/beatdrop/) isn't just for mods, it also allows you to download songs and create playlists. 
 * [BeatList](https://github.com/Alaanor/beatlist) is an app to manage playlist and beatmaps, by Alaanor.
 
-## How to uninstall mods
-**Currently the only way to uninstall a mod is to remove the dll from the `Plugins` folder.**
+### Playlists
+Place the playlist file into `Beat Saber/Playlists` and select it in-game, then hit download. You can create and download playlists using one of the programs above.
+
+## Install Folder
+_Where is Beat Saber installed?_
+
+### Default Location
 |  |  |
 | --- | --- |
-| Steam | `\steamapps\common\Beat Saber\Plugins` |
-| Oculus | `\hyperbolic-magnetism-beat-saber\Plugins` | 
+| Steam | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\` |
+| Oculus | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+
+### Other Locations
+**If you have moved your install folder to a different drive, it might be in the location below.**
+Replace the drive letter `F` with the drive your game is installed on.
+|  |  |
+| --- | --- |
+| Steam | `F:\SteamLibrary\steamapps\common\Beat Saber\` |
+| Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+
+## How to uninstall mods
+Either remove the dll from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant.
 
 ## Manual Installation
-Only resort to this if you absolutely know what you're doing! A mod installer is the recommended way to install mods. See the section [above](#installers).
+A mod installer is the recommended way to install mods. See the section [above](#installers). If you have patched the game and just need to install Plugins that are not available in the installer, skip to step 4.
 
 **Run the game at least once** before trying to mod the game! This applies to reinstalling your game too. 
-
+### Install BSIPA 
 1. Download [BSIPA](https://github.com/beat-saber-modding-group/BeatSaber-IPA-Reloaded/releases).
-2. Navigate to your [install folder.](/faq/install-folder.md) and extract the contents of BSPIA into it.
+2. Navigate to your [install folder.](#install-folder) and extract the contents of BSPIA into it.
 ![Directory Clean](./images/beginners-guide/directory-clean.png "Directory Clean")
 ![Directory Ipa](./images/beginners-guide/directory-ipa.png "Directory Ipa")
 3. Double click IPA.exe to patch the game. Any mods in the `Plugins` folder will now be loaded when starting the game. If there are errors, you probably didn't follow step 2 correctly.
 ![Directory Patched](./images/beginners-guide/directory-patched.png "Directory Patched")
-4. Download the mod(s) you wish to install, whether it be from GitHub, the #finished-mods channel, or other sources. **Make sure to download any dependencies required by the mod.**
+
+### Install Mods
+4. Download the mod(s) you wish to install, whether it be from GitHub, the #pc-mods channel, or other sources. **Make sure to download any dependencies required by the mod.**
 ![Directory Plugins](./images/beginners-guide/directory-plugins.png "Directory Plugins")
 5. Some mods have installation instructions, some don't. Generally you can just drag and drop the zip contents into your beat saber install folder, and the files should go into the corresponding folders. 
+
 
 ## Where to go from here
 * [Grips and Tricks](./grips-and-tricks.md)
@@ -82,4 +99,4 @@ Only resort to this if you absolutely know what you're doing! A mod installer is
 * [Making Mods](/modding/)
 
 ## Have questions?
-Visit the [FAQ](/faq/) or drop by the `#support` tab in the [BSMG Discord](https://discord.gg/beatsabermods)!
+Visit the support channels in the [BSMG Discord](https://discord.gg/beatsabermods)!
