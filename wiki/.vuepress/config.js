@@ -85,6 +85,10 @@ module.exports = {
       before: info => `<div class="feature"><h2>${info}</h2>`,
       after: '</div>',
     }],
+    ['named-chunks', {
+      pageChunkName: ({ key }) => `page${key.slice(1)}`,
+      layoutChunkName: ({ componentName }) => `layout-${componentName}`,
+    }],
   ],
   configureWebpack: {
     resolve: {
