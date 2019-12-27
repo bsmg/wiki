@@ -17,6 +17,7 @@ module.exports = {
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['meta', { name: 'theme-color', content: '#2196f3' }],
   ],
 
   theme: 'yuu',
