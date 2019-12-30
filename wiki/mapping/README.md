@@ -8,7 +8,7 @@ There is an active project underway to expand this section of the BSMG wiki.
 Visit `#mapping-discussion` on the BSMG Discord to get involved!
 :::
 
-Much of the contents of 30+ written mapping guides and tutorials has been or is in the process of being added to this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content including **Awfulnaut, BennyDaBeast, Checkthepan, Cyan Snow, Freeek, The Good Boi, Helen Carnate, Hexagonial, Kolezan, LittleAsi, Megalon, MandyNasty, Nik, Puds, Ris, Ryger, Scrappy, Silent Caay, Skyler Wallace, Sykes,** and **Uninstaller.**
+Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content including **Awfulnaut, BennyDaBeast, Checkthepan, Cyan Snow, Freeek, The Good Boi, Helen Carnate, Hexagonial, Kolezan, LittleAsi, Megalon, MandyNasty, Nik, Puds, Ris, Ryger, Scrappy, Silent Caay, Skyler Wallace, Sykes,** and **Uninstaller.**
 * [Mapping Term Glossary](/mapping/glossary.md)
 
 ## Mapping Quick Start
@@ -25,7 +25,7 @@ Go from thinking about mapping to releasing your first map by following this che
 ### Video Tutorials
 * [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) **highly recommended**
 ::: warning
-Benny uses a slightly older version of Mediocre Mapper in these tutorials. The UI and some processes have changed in the most recent MM/MMA version but the rest of the content is great!
+Benny uses a slightly older version of Mediocre Mapper in these tutorials. The UI and some processes have changed in the most recent MMA2 editor but the rest of the content is great!
 :::
 * [Freeek's Mapping and Editor Tutorials](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
 ::: warning
@@ -63,7 +63,7 @@ A new web-based 3D beat saber editor that runs in the browser so it's platform a
 * [BeatMapper User Manual](https://beatmapper.app/docs/manual/getting-started)
 
 #### ChroMapper
-**Coming soon!** ChroMapper is a unity-based full-featured editor, developed by Caeden117, that is in the final rounds of bug fixing and will be entering closed beta soon. It uses the same engine as Beat Saber, which provides a much more true-to-life preview of lights and environments. ChroMapper also has stellar support for lighting and Chroma RGB.
+**Coming soon!** ChroMapper is a unity-based full-featured editor, developed by Caeden117, which is in the final rounds of bug fixing and will be entering closed beta soon. It uses the same engine as Beat Saber, which provides a much more true-to-life preview of lights and environments. ChroMapper also has stellar support for lighting and Chroma RGB.
 
 ::: tip INFO
 Interested in making your own editor or converter? You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [this Pastebin](https://pastebin.com/cTPGrxWY) helpful!
@@ -75,7 +75,7 @@ The official editor is developed and supported by Beat Games and pre-installed w
 * To access, launch the editor from within Beat Saber in your HMD or use fpfc launch parameters to open directly from your PC
 * Check out Megalon's [Official Editor Tutorial Video](https://www.youtube.com/watch?v=5Ex6sOEVgrM) for an overview of standard mapping!
 
-### Additional Mapping Resources
+### Additional Mapping Tools
 * [BeatMapperTools](https://mappers.beatmappertools.com/) by **Darkuni**
 A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps.
 * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**
@@ -119,7 +119,7 @@ A map is not considered complete without some form of lighting included. Lightin
 * [Side Laser Speed Reference](https://docs.google.com/spreadsheets/d/1tIERmSyFI4ssjDkE-oJjBBvUZUJ7eoVhCQyM3_BsJwE/edit?usp=sharing) by LittleAsi
 
 **Lightmap**
-Lightmap has been integrated into Mediocre Mapper Mk4 and up as well as Mediocre Map Assistant 2. It can be accessed in the error checker menu.
+Lightmap is integrated into Mediocre Map Assistant 2. It can be accessed in the error checker menu.
 
 ## Playtesting
 Testing your work is a critical part of mapping. Playing your own maps as you work helps you adjust for major playability issues and get a feel for your map. Third-party or “outside” playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
@@ -153,16 +153,16 @@ Follow these steps to test any of your maps made with a community editor using a
 The #testplays channel in the Beat Saber Modding Group discord makes it easy to have your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in either video or text format in the #mapping-discussion channel.
 
 1. Create a compressed .zip file of the individual song files (not the song folder).
-2. Upload your map to #testplays using the following format:
-**Map:** The name and artist of your map
-**Length:** The length of the song
-**BPM:** The BPM of the song
-**Difficulty:** Which difficulties are included
-**Feedback:** Any requests for feedback (specific difficulties to be tested, things to look for etc.)
+2. Upload your map to #testplays using the following format:  
+**Map:** The name and artist of your map  
+**Length:** The length of the song  
+**BPM:** The BPM of the song  
+**Difficulty:** Which difficulties are included  
+**Feedback:** Any requests for feedback (specific difficulties to be tested, things to look for etc.)  
 **Status:** What state is the map in? (i.e., First draft complete, no lights; 1:45 mapped; release candidate w/ lighting; etc.)
 3. Testers will usually look at your map within 1-7 days and will use a number of reaction emojis (listed in #testplays pinned posts) to track testing status.
 
-You can use the following code to copy and paste into Discord:
+You can copy and paste the following code into Discord:
 ```
 **Map:**
 **Length:**
@@ -172,7 +172,7 @@ You can use the following code to copy and paste into Discord:
 **Status:**
 ```
 ## Publishing Songs
-One your song has been mapped, lighted, and playtested and it’s a finished product you’re ready to release it to the world on [BeatSaver](https://beatsaver.com).
+Once your song has been mapped, lighted, and playtested and it’s a finished product you’re ready to release it to the world on [BeatSaver](https://beatsaver.com).
 
 ::: danger
 Please **do not** upload an incomplete WIP map to BeatSaver; Uploading to BeatSaver equates to "Putting it on the store shelf" and should only be your final version.  

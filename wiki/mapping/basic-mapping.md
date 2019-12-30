@@ -329,7 +329,7 @@ While it’s best to stick within conventional ranges to start, as long as your 
   <img src="./images/ost-extras-nps.png" alt="a table of NPS values from official content">
 </p>
 
-The above OST Extras examples show how tracks like “What The Cat!?” are quite dense at the highest difficulty but the easy is also more dense than other easy levels. In each of these cases there is still a progression from Easy to ExpertPlus
+The above table of average notes per second (NPS) for the OST Extras shows how tracks like “What The Cat!?” are quite dense at the highest difficulty and the easy is also more dense than other easy levels. In each of these cases there is still a progression from Easy to ExpertPlus
 
 ### Pattern Complexity
 Map difficulty should come from pattern complexity with a great deal of attention given to how well they flow together. You might have a lower density expert, for example, that includes a lot of technical patterns that require more time to adequately sightread.
