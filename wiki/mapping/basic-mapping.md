@@ -60,7 +60,7 @@ This is one of the more flexible guidelines for new mappers but it's still helpf
 If you’re using [Mediocre Map Assistant 2](/mapping/mediocre-map-assistant.html) as your editor you can hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd> to open the error checker then click the <kbd>Stat Panel</kbd> button to see this breakdown. 
 :::
 
-For more on row usage in different difficulties, see [Gauging Difficulty](/mapping/basic-mapping.html#gauging-difficulty).
+For more on row usage in different difficulties, see [Gauging Difficulty](/mapping/basic-mapping.html#gauging-difficulty-down-mapping).
 
 ## Timing & Rhythm
 Before you start mapping in earnest you need to think about the rhythm of the song you want to map. You’ll place blocks on one or more of the main instruments in the song: the drum beat, lead instrument, bass, synths, or even vocals. 
@@ -178,7 +178,7 @@ When proper flow is achieved the player should be physically capable of getting 
 
 | 0° Angle | 45° Angle | 90° Angle | 135° Angle | 180° Angle |
 |:----:|:----:|:----:|:----:|:----:|
-| ![0 degree angle change between blocks](./images/0deg.) | ![45 degree angle change between blocks](./images/45deg.png) | ![90 degree angle change between blocks](./images/90deg.png) | ![135 degree angle change between blocks](./images/135deg.png) | ![180 degree angle change between blocks](./images/180deg.png) |
+| ![0 degree angle change between blocks](./images/0deg.png) | ![45 degree angle change between blocks](./images/45deg.png) | ![90 degree angle change between blocks](./images/90deg.png) | ![135 degree angle change between blocks](./images/135deg.png) | ![180 degree angle change between blocks](./images/180deg.png) |
 | No. (DD) | No. (DD) | Maybe in E/N/H. | Yes. | Yes. |
 
 **Basic Flow Concepts:**
