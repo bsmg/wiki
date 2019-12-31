@@ -26,7 +26,7 @@ Before you begin mapping, ensure you have a high quality source file for your so
 Follow these general guidelines as you work on your maps:
 * Use the highest quality source you can find such as **FLAC or WAV(E)** files (lossless format).
 * A close second are high bitrate (+200kbps) **MP3 or AAC** files (lossy formats). 
-* Use a YouTube rip **only** as a last resort. The bitrate is low and the volume is seldom right. In this case some audio editing might be required (see [Editing with Audacity](#)).
+* Use a YouTube rip **only** as a last resort. The bitrate is low and the volume is seldom right. In this case some audio editing might be required (see [Editing with Audacity](/mapping/basic-audio.html#editing-with-audacity)).
 
 > Often an artist’s [Bandcamp](https://bandcamp.com/), [SoundCloud](https://soundcloud.com) (if they offer downloads) or other sites where you can buy the tracks/album will have the highest quality source.
 
@@ -50,7 +50,7 @@ If both methods above fail you will have to manually find the BPM, but this is e
 
 ## Audio Preparation
 To make it easier to map and make sure that the song is synced perfectly to the game's beat you need to set up your audio file correctly. This page will assume you are using [Audacity](https://www.audacityteam.org/).
-If you've used Tool Assisted BPM and offset detection (such as Arrow Vortex) you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio#after-tool-assisted-sync).
+If you've used Tool Assisted BPM and offset detection (such as Arrow Vortex) you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
 
 ### Add a Click Track
 1. Open the song you want to map into Audacity.
@@ -72,18 +72,18 @@ Analyse the intro of the song. Depending on where in the song you want to place 
 3. **Songs with a long intro:** If the song has a very long and uneventful/fade-in intro for **more than ten seconds** it is strongly recommended to shorten the intro so the first note(s) are placed within eight seconds from map start.
 
 In all cases above you will need to time shift the song to an appropriate time based on your needs:
-1. **No intro:** Move the song back in time (to the right in the audio track), placing the first mapped note(s) after two seconds. Then sync the song to the beat (See [Sync the Song to the Beat](/mapping/basic-audio#sync-the-song-to-the-beat)). Later fill the gap with silence (See [Add Silence](/mapping/basic-audio#add-silence)).
-2. **Short Intro:** Sync the song to the beat (See [Sync the Song to the Beat](/mapping/basic-audio#sync-the-song-to-the-beat)) and then fill the gap with silence (See [Add Silence](/mapping/basic-audio#add-silence)) or trim the audio before 0 seconds (See [Trim the Intro](/mapping/basic-audio#trim-the-intro)) depending on which case applies.
-3. **Long intro:** Move the song forward in time (to the left in the audio track), placing the first note(s) within 8 seconds (See [Sync the Song to the Beat](/mapping/basic-audio#sync-the-song-to-the-beat)), then trim the audio before 0 seconds (See [Trim the Intro](/mapping/basic-audio#trim-the-intro)).
+1. **No intro:** Move the song back in time (to the right in the audio track), placing the first mapped note(s) after two seconds. Then sync the song to the beat (See [Sync the Song to the Beat](/mapping/basic-audio.html#sync-the-song-to-the-beat)). Later fill the gap with silence (See [Add Silence](/mapping/basic-audio.html#add-silence)).
+2. **Short Intro:** Sync the song to the beat (See [Sync the Song to the Beat](/mapping/basic-audio.html#sync-the-song-to-the-beat)) and then fill the gap with silence (See [Add Silence](/mapping/basic-audio.html#add-silence)) or trim the audio before 0 seconds (See [Trim the Intro](/mapping/basic-audio.html#trim-the-intro)) depending on which case applies.
+3. **Long intro:** Move the song forward in time (to the left in the audio track), placing the first note(s) within 8 seconds (See [Sync the Song to the Beat](/mapping/basic-audio.html#sync-the-song-to-the-beat)), then trim the audio before 0 seconds (See [Trim the Intro](/mapping/basic-audio.html#trim-the-intro)).
 
 ### Sync the Song to the Beat
 1. Select the Time Shift Tool (![Time Shift Tool](/uploads/wiki/timeshift.png)).
-2. Left click on the song track and hold, then drag the audio so that the first planned mapped note(s) in your song ends up within the appropriate seconds (see timeline above the track) to avoid a "Hot Start" or too long intro (See [Plan Your First Notes](/mapping/basic-audio#plan-your-first-note) if you haven’t already).
+2. Left click on the song track and hold, then drag the audio so that the first planned mapped note(s) in your song ends up within the appropriate seconds (see timeline above the track) to avoid a "Hot Start" or too long intro (See [Plan Your First Notes](/mapping/basic-audio.html#plan-your-first-note) if you haven’t already).
 3. Release to place the audio in the new position.
 4. Play back the audio in this position. The song will be out of sync, so find the closest beat in the click track and align your song to the beat (click track) by moving it backward or forwards in time by small increments. Zoom in for better accuracy. Repeat until it sounds spot on.
 5. When you think you’ve found the beats of the song to match the Click Track review the whole song to ensure that the BPM you have is the correct one and that the song is in the same fixed BPM throughout the whole song. If not, you might have gotten the wrong BPM, in which case try to tap out the BPM manually (again), see "Manual BPM Calculation". 
 ::: warning
-If the BPM is correct for the first part of the song but suddenly change or drifts off then you most likely have a song with Variable BPM, see [Advanced Audio Editing: Variable BPM](/mapping/advanced-audio#variable-bpm) for more info on this subject.
+If the BPM is correct for the first part of the song but suddenly change or drifts off then you most likely have a song with Variable BPM, see [Advanced Audio Editing: Variable BPM](/mapping/advanced-audio.html#variable-bpm) for more info on this subject.
 :::
 
 Below shows how it looks like when the first planned mapped note(s) (cursor position) are placed after 2 seconds and the beats of the song is synced to the BPM/Click Track.
@@ -138,8 +138,8 @@ To check the RMS value in your song do the following:
 2. With the Contrast Analysis window still open, select a part of the chorus section (about 15-20 seconds) of your song
 3. Click any of the `Measure selection` buttons. (We only need to use one.)
 4. In the `Volume output` field you will now find a value. Compare this value to the recommended values above.
-5. If this value is smaller (more negative) than the recommended values, see [Volume Modification: Making Your Song Louder](/mapping/basic-audio#making-your-song-louder).
-6. If this value is bigger than (less negative) than the recommended values see [Volume Modification: Making Your Song Softer](/mapping/basic-audio#making-your-song-softer).
+5. If this value is smaller (more negative) than the recommended values, see [Volume Modification: Making Your Song Louder](/mapping/basic-audio.html#making-your-song-louder).
+6. If this value is bigger than (less negative) than the recommended values see [Volume Modification: Making Your Song Softer](/mapping/basic-audio.html#making-your-song-softer).
 ![Analyzing song volume with Audacity](https://i.imgur.com/EmfULcw.png)
 
 ### Volume Modification
@@ -151,7 +151,7 @@ Doing any kind of audio processing on a song will inevitably change its sound, h
 #### Making Your Song Louder
 If your song’s chorus has a lower RMS value than the recommended **-11db** then you will need to do Compression and/or Limiting to bring the volume up. (Note: Amplify/Gain is not used for this, as anything above 0db will create an unpleasant distortion.)
 
-To check if you need to apply Compressor before Limiter visually analyse the waveform. If there are a lot of sharp peaks with a pretty constant body throughout the song, as shown in the example below, then you will not need to apply compressor. Only a Limiter will suffice (skip to [Limiter](/mapping/basic-audio#limiter)).
+To check if you need to apply Compressor before Limiter visually analyse the waveform. If there are a lot of sharp peaks with a pretty constant body throughout the song, as shown in the example below, then you will not need to apply compressor. Only a Limiter will suffice (skip to [Limiter](/mapping/basic-audio.html#limiter)).
 
 ![Viewing a song that is too quiet](https://i.imgur.com/mcuODfJ.png)
 
@@ -166,7 +166,7 @@ However, if the waveform varies a lot between soft and loud parts then compressi
 Here’s a before (top) and after (bottom) Compressor comparison:
 ![Before and after compression](https://i.imgur.com/M6A60eV.png)
 
-Check the song again and listen for any unnatural distortions, such as volume cut outs after loud peaks. If so, undo (`Ctrl-Z`), tweak the `Threshold` setting to a louder one (less engative) and apply again. If you want to know more about the settings check the [Advanced Audio Editing: Compressor](/mapping/advanced-audio#compressor) page.
+Check the song again and listen for any unnatural distortions, such as volume cut outs after loud peaks. If so, undo (`Ctrl-Z`), tweak the `Threshold` setting to a louder one (less engative) and apply again. If you want to know more about the settings check the [Advanced Audio Editing: Compressor](/mapping/advanced-audio.html#compressor) page.
 
 
 #### Limiter
@@ -177,7 +177,7 @@ The compressor reduces many of the unnecessary peaks and makes the more importan
 ![Limiter in Audacity](https://i.imgur.com/6fAwHCv.png)
 4. Click OK to apply Limiter.
 
-Check the song again and listen for any unnatural distortions, such as crushed/severely distorted peaks. If so, undo (`Ctrl-Z`), tweak the `Input Gain` settings to a lower value (still above 0db) and apply again. Make sure both `Input Gain`values are the same or else the stereo image will be skewed. If you want to know more about the settings of the Limiter effect check the [Advanced Audio Editing: Limiter](/mapping/advanced-audio#limiter) page.
+Check the song again and listen for any unnatural distortions, such as crushed/severely distorted peaks. If so, undo (`Ctrl-Z`), tweak the `Input Gain` settings to a lower value (still above 0db) and apply again. Make sure both `Input Gain`values are the same or else the stereo image will be skewed. If you want to know more about the settings of the Limiter effect check the [Advanced Audio Editing: Limiter](/mapping/advanced-audio.html#limiter) page.
 
 To know if you’ve reached the right volume after compressing and limiting check again with the RMS volume tool:
 1. Open Contrast Analyzer in `Analyze menu -> Contrast…`
@@ -187,7 +187,7 @@ To know if you’ve reached the right volume after compressing and limiting chec
 
 After limiting you will have something like this:
 ![Song after limiting](https://i.imgur.com/TRkvzTc.png)
-You can now skip to [Trimming the Outro](/mapping/basic-audio#trimming-the-outro).
+You can now skip to [Trimming the Outro](/mapping/basic-audio.html#trimming-the-outro).
 
 
 #### Making Your Song Softer
@@ -238,7 +238,7 @@ To generate a compatible sound file to use we need to do the following:
 1. Delete the Click Track (if you haven’t already done so).
 2. Click the `File menu -> Export -> Export as OGG.`
 3. Name your file `song.ogg`.
-4. Choose an appropriate OGG quality ([more info here](/mapping/advanced-audio#choosing-appropriate-ogg-export-quality)):
+4. Choose an appropriate OGG quality ([more info here](/mapping/advanced-audio.html#choosing-appropriate-ogg-export-quality)):
 * a. High quality source (WAVE / FLAC / MP3 / AAC) use 6-9 (unless there is a file size issue.)
 * b. Low quality source (YouTube or such): use 3-5
 5. Click Save.
