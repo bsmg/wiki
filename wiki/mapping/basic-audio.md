@@ -28,7 +28,7 @@ Follow these general guidelines as you work on your maps:
 * A close second are high bitrate (+200kbps) **MP3 or AAC** files (lossy formats). 
 * Use a YouTube rip **only** as a last resort. The bitrate is low and the volume is seldom right. In this case some audio editing might be required (see [Editing with Audacity](#)).
 
-> Often an artist’s [Bandcamp](https://bandcamp.com/), [SoundCloud](https://soundcloud.com) (if they offer downloads) or other sites where you can buy the tracks/album will have the highest quality source.{.is-info}
+> Often an artist’s [Bandcamp](https://bandcamp.com/), [SoundCloud](https://soundcloud.com) (if they offer downloads) or other sites where you can buy the tracks/album will have the highest quality source.
 
 See the [Advanced Audio Editing](/mapping/advanced-audio.md) page for more in-depth techniques and tools for analysing the audio quality of files.
 
@@ -82,8 +82,9 @@ In all cases above you will need to time shift the song to an appropriate time b
 3. Release to place the audio in the new position.
 4. Play back the audio in this position. The song will be out of sync, so find the closest beat in the click track and align your song to the beat (click track) by moving it backward or forwards in time by small increments. Zoom in for better accuracy. Repeat until it sounds spot on.
 5. When you think you’ve found the beats of the song to match the Click Track review the whole song to ensure that the BPM you have is the correct one and that the song is in the same fixed BPM throughout the whole song. If not, you might have gotten the wrong BPM, in which case try to tap out the BPM manually (again), see "Manual BPM Calculation". 
-> If the BPM is correct for the first part of the song but suddenly change or drifts off then you most likely have a song with Variable BPM, see [Advanced Audio Editing: Variable BPM](/mapping/advanced-audio#variable-bpm) for more info on this subject.
-{.is-warning}
+::: warning
+If the BPM is correct for the first part of the song but suddenly change or drifts off then you most likely have a song with Variable BPM, see [Advanced Audio Editing: Variable BPM](/mapping/advanced-audio#variable-bpm) for more info on this subject.
+:::
 
 Below shows how it looks like when the first planned mapped note(s) (cursor position) are placed after 2 seconds and the beats of the song is synced to the BPM/Click Track.
 ![Audacity song lined up with rhythm track](https://i.imgur.com/Znpy0PZ.png)
@@ -126,6 +127,7 @@ If your track has arrows pointing to the left at the start it means you’ve tim
 5. Done.
 
 Before (left) and after trim and fade-in applied (right):
+
 ![Trimming the song intro](https://i.imgur.com/AbKyyl4.png)
 
 ### Check Song Volume
@@ -142,13 +144,17 @@ To check the RMS value in your song do the following:
 
 ### Volume Modification
 Before you continue with the next steps with the song editing it highly recommended to save your current progress as a WAVE file as a backup. This is to ensure that you if you need to go back and redo some of the editing you will have a high quality source to use. (Don’t load the OGG you exported as it will have lost a lot of the source quality.) Remove the Click Track if you haven’t already done so, then go to `File menu -> Export -> Export as WAV`, then save the file to a location of your choice.
-> Doing any kind of audio processing on a song will inevitably change its sound, however, it's an important step to give your players the best map and song experience.{.is-info}
+::: tip NOTE
+Doing any kind of audio processing on a song will inevitably change its sound, however, it's an important step to give your players the best map and song experience.
+:::
 
 #### Making Your Song Louder
 If your song’s chorus has a lower RMS value than the recommended **-11db** then you will need to do Compression and/or Limiting to bring the volume up. (Note: Amplify/Gain is not used for this, as anything above 0db will create an unpleasant distortion.)
 
 To check if you need to apply Compressor before Limiter visually analyse the waveform. If there are a lot of sharp peaks with a pretty constant body throughout the song, as shown in the example below, then you will not need to apply compressor. Only a Limiter will suffice (skip to [Limiter](/mapping/basic-audio#limiter)).
+
 ![Viewing a song that is too quiet](https://i.imgur.com/mcuODfJ.png)
+
 However, if the waveform varies a lot between soft and loud parts then compression will most likely be needed first.
 
 #### Compression
@@ -197,9 +203,8 @@ Before you lower the volume you want to know approximately how much you need to 
 Now let’s use the Amplify effect to lower the volume:
 1. Select the whole song (Double click the song track)
 2. Go to `Effects menu -> Amplify...`
-3. Enter the difference value you calculated earlier (it should be negative) into the `Amplification` field:
-![Amplification menu](https://i.imgur.com/OoyhGek.png)
-`New Peak Amplification` field will repeat what the first input field says, this is normal for a song that is already peaking at 0db.
+3. Enter the difference value you calculated earlier (it should be negative) into the `Amplification` field.
+`New Peak Amplification` field will repeat what the first input field says, this is normal for a song that is already peaking at 0db. ![Amplification menu](https://i.imgur.com/OoyhGek.png)
 4. Click OK to apply a negative Amplify effect.
 5. Done.
 
@@ -239,4 +244,6 @@ To generate a compatible sound file to use we need to do the following:
 5. Click Save.
 
 The song/audio file is now ready to be used in any map editor. Input the same BPM you got earlier in your map editor of choice and make sure to use 0ms offset for all difficulties (since the song is already synced to the beat).
->Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file limit. If this is the case export at a lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord (without Nitro) for playtesting.{.is-info}
+::: warning NOTE
+Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file limit. If this is the case export at a lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord (without Nitro) for playtesting.
+:::
