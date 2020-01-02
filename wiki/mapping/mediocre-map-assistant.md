@@ -25,7 +25,6 @@ The first time you run MMA2 you will need to direct it to the location of two fo
 **If you don't have VR or Beat Saber -OR- have VR but don’t have Beat Saber:**
 * Make two folders called `CustomLevels` and `CustomWIPLevels`
 * Example: `C:\Users\Helen\Documents\CustomWIPLevels`
-
 <p align="center">
 ![Screenshot of Mediocre Mapper path entry](./images/mma2-folder-path.jpg)
 </p>
@@ -34,8 +33,7 @@ All of your working map files will go into a song name folder within this Custom
 
 ### Editor Settings
 Once you've set up your paths, these core settings are all available from the song selection page when you first open the program.
-
-<p align="center"
+<p align="center">
 ![Song Selection screen in Mediocre Map Assistant 2](./images/mma2-song-setup.jpg)
 </p>
 
@@ -76,7 +74,7 @@ Once you've finished one-time editor setup you're ready to create your first map
 ### Song Creation
 You have two options to create your song folder:
 1. Enter your desired folder name in the 'Create New Level' pane and click <kbd>Create Level</kbd>. Your new folder will automatically appear in your map list.
-![Using "Create A New Level" to make a song folder](./images/create-new-level.jpg)
+![Using "Create A New Level" to make a song folder](./images/mma2-create-new-level.jpg)
 2. Navigate to your `CustomWIPLevels` folder and make a folder with your desired folder name. You will need to click <kbd>Refresh Song List</kbd> to see your folder.
 
 Click <kbd>Edit</kbd> to enter your song information and metadata.
@@ -84,7 +82,7 @@ Click <kbd>Edit</kbd> to enter your song information and metadata.
 ### Song Info Settings
 The `Song Info` page is the first screen you see every time you edit a map.
 <p align="center">
-![Mediocre Map Assistant 2 song setup screen](./images/song-setup.jpg)
+![Mediocre Map Assistant 2 song setup screen](./images/mma2-song-setup.jpg)
 </p>
 
 #### Whole Map Settings
@@ -154,6 +152,7 @@ The **Error Checker** functionality is one of the top quality of life features f
 ### Finding & Interpreting Errors
 This section walks you through basic usage of the error checker's primary functions: **Check for Double Directionals, Check for Vision Blocks**, and **Check for Stacked Notes**
 #### Navigating the Error Checker
+Here is the main panel for the Error Checker:
 <p align="center">
 ![Error Checker main panel](./images/mma2-ec-panel.png)
 </p>
