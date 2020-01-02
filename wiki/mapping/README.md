@@ -183,6 +183,10 @@ See the [Playtesting](/mapping/#playtesting) section for instructions.
 ### BeatSaver
 [BeatSaver](https://beatsaver.com/) is the public repository for all custom Beat Saber maps. Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be compatible.
 
+::: danger
+The BeatSaver server is slowly dying due to increased traffic. Uploading maps will be challenging, if not impossible, until the server is replaced.
+:::
+
 #### How to Release a Map
 
 1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver.
