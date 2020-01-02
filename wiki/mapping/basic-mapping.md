@@ -166,11 +166,11 @@ Want to learn more about resets? Read Intermediate Mapping(link coming soon)!
 ### DO: Mapping with Flow
 Outside of easy and normal difficulties, mapping with Flow is an absolute must. Human bodies are incredible machines but there are certain ways that joints are meant to move and using patterns that violate those mechanics is a recipe for injuring your player.
 
-Parity is the concept that Each block direction is played with either a backhand swing or a forehand swing. The black line in the diagram below illustrates this forehand/backhand divider for the left and right sides.
+Parity is the concept that Each block direction is played with either a backhand swing or a forehand swing. The black line in the diagram below illustrates this forehand (above the line)/backhand (below the line) divider for the left and right sides. 
 <p align="center">
 	![Parity diagram showing the forehand/backhand line for each block color](./images/parity_diagram.jpg)
 </p>
-When mapping with flow you are striving to always cross this parity line with the most natural movement possible.
+When mapping with flow you are striving to always cross this parity line with the most natural movement possible. Effectively, your player should always be alternating between forehand and backhand every swing.
 
 ::: tip  
 When proper flow is achieved the player should be physically capable of getting full points on each block, even if they don’t have the skill or interest in doing so. See the [Scoring](/grips-and-tricks.html#scoring) section of the wiki for more info.
@@ -306,7 +306,7 @@ These patterns are OK to use but only in very specific circumstances or with ver
 #### Easy to Miss Patterns
 | Illustration | Editor View | Explanation |
 |:----:|:----:|:---- |
-| ![Illustration of overlapping hitboxes](./images/overlapping-hitboxes.png) | ![Editor view of overlapping hitboxes](./images/overlapping-hitboxes-alt.png) | Generally, try to avoid patterns with overlapping hitboxes, as this makes the pattern difficult to hit consistently. The hitboxes are larger than the note, and most players rarely hit the actual note when they swing, making it easy to hit the smaller hitbox within notes that detects bad hits on patterns like this. See [Hitbox Abuse](./basic-mapping#hitbox-abuse) for more info.  |
+| ![Illustration of overlapping hitboxes](./images/overlapping-hitboxes.png) | ![Editor view of overlapping hitboxes](./images/overlapping-hitboxes-alt.png) | Generally, try to avoid patterns with overlapping hitboxes, as this makes the pattern difficult to hit consistently. The hitboxes are larger than the note, and most players rarely hit the actual note when they swing, making it easy to hit the smaller hitbox within notes that detects bad hits on patterns like this. See [Hitbox Abuse](/mapping/basic-mapping.html#hitbox-abuse) for more info.  |
 
 #### Arm Tangles
 | Illustration | Editor View | Explanation |
@@ -364,7 +364,11 @@ There are several terms related to how the speed of gameplay feels. These are al
 * **Half Jump Distance** is how far in advance blocks appear in time (beats).
 * **Spawn Distance Offset**  is a modifier which increases the spawn distance. This can make the NJS feel slower since the blocks will spawn further away and the player has more time to react.
 
-Changing the NJS or Offset values will modify the half jump and spawn distance. Community editors will show you how these values change when making adjustments. Fine-tuned NJS and offset are a matter of personal taste but try to hit a half jump of 3 or 4 beats and a spawn distance of 30-35 meters.
+Changing the NJS or Offset values will modify the half jump and spawn distance. Community editors will show you how these values change when making adjustments. Fine-tuned NJS and offset are a matter of personal taste but try to hit a half jump of 2 or 3 beats and a spawn distance of 26-30 meters.
+
+::: warning
+Spawn distance should run on the higher end of this range for expert and lower difficulties. Very dense ExpertPlus maps often have very short spawn distances to minimize clutter.
+:::
 
 | Difficulty | Note Jump Speed Range |
 |:----:|:---- |
