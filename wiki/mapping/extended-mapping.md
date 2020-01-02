@@ -28,14 +28,6 @@ Note: This section assumes you have not pointed Mediocre Map Assistant 2 to a di
 To check if it worked navigate to your Beat Saber install and make sure that a MappingExtensions.dll file is present.
 Not sure where Beat Saber is installed? See [install folder](https://bsmg.wiki/faq/install-folder.html).
 
-Oculus: `\Oculus Apps\Software\hyperbolic-magnetism-beat-saber\Plugins`
-
-Steam: `\Steam\steamapps\common\Beat Saber\Plugins`
-
-Note: These paths are relative, you will need to complete the path fully based on where your install is. 
-
-Example: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Plugins`
-
 7. You are now ready to do map setup!
 
 **Install Mapping Extensions without Beat Saber or Maps Stored Elsewhere for Mediocre Mapper**
