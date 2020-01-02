@@ -23,9 +23,11 @@ Quest Modeler that'll dm me details about this entry later.
 **Roles:** 3D Artist
 
 ## laugexd
-Developer of ModelSaber 2.0 (which launches soon™) and crafter of many sabers.
+Developer of ModelSaber 2.0 and crafter of many sabers, and bloqs.
 
 **Roles:** 3D Artist
+
+[Twitter](https://twitter.com/laugexd) | [Youtube](https://www.youtube.com/channel/UCr_JES9nBCUaAR9-UbgDMRw) | [ModelSaber](https://modelsaber.com/Profile/?user=146243483898871808)
 
 ## AkaRaiden
 **Roles:** 3D Artist
