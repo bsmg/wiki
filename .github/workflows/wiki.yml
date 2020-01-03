@@ -18,3 +18,11 @@ jobs:
         DOCKER_REPO=`echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]'`;
         docker push "docker.pkg.github.com/$DOCKER_REPO/wiki"
       if: github.ref == 'refs/heads/master'
+  deploy:
+    if: github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Deploy Wiki
+      run: "curl -X POST -H 'Authorization: Bearer ${{ secrets.HOOK_TOKEN }}' -d `git rev-parse --short HEAD` '${{ secrets.HOOK_URL }}'"

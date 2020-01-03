@@ -2,10 +2,10 @@
 sidebar: auto
 ---
 # Mediocre Map Assistant User Guide
-_Essential information to get up and running using Mediocre Map Assistant_
+_Essential information to get up and running using Mediocre Map Assistant 2_
 
 ::: warning NOTE
-This guide currently supports both [Mediocre Map Assistant](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) by Assistant and Mediocre Mapper Mk5 (final public release) by Squeaksies. All future public development will occur on MMA.
+This guide currently supports both [Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) by Assistant and Mediocre Mapper Mk5 (final public release) by Squeaksies. All future public development will occur on MMA2.
 :::
 
 ## Editor Setup
@@ -22,18 +22,20 @@ The first time you run MMA2 you will need to direct it to the location of two fo
 * Steam Example: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`
 * Oculus Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
 
-**If you do not have VR or Beat Saber OR have VR but don’t have Beat Saber:**
+**If you don't have VR or Beat Saber -OR- have VR but don’t have Beat Saber:**
 * Make two folders called `CustomLevels` and `CustomWIPLevels`
 * Example: `C:\Users\Helen\Documents\CustomWIPLevels`
-
-![Screenshot of Mediocre Mapper path entry](https://i.imgur.com/MqhSM0p.jpg)
+<p align="center">
+![Screenshot of Mediocre Mapper path entry](./images/mma2-folder-path.jpg)
+</p>
 
 All of your working map files will go into a song name folder within this CustomWIPLevels folder.
 
 ### Editor Settings
 Once you've set up your paths, these core settings are all available from the song selection page when you first open the program.
-
-![Song Selection screen in Mediocre Map Assistant](https://i.imgur.com/GTH8rH5.jpg)
+<p align="center">
+![Song Selection screen in Mediocre Map Assistant 2](./images/mma2-song-setup.jpg)
+</p>
 
 #### Map Selection
 The map selection pane has four tabs, each with songs listed alphabetically.
@@ -70,25 +72,19 @@ The settings pane includes global settings for autosaving, zip packaging, folder
 Once you've finished one-time editor setup you're ready to create your first map. 
 
 ### Song Creation
-There are four files (minimum) you need to create a map:
-
-**Mapper-Provided**
-* Your song file in .ogg format (review setup instructions).
-* Your cover file in .jpg or .png. 
-
-**Editor-Created**
-* Info.dat file which contains all of the core data for your map as a whole. Created the first time you open the map.
-* [difficulty].dat file which contains all of the data specific to each difficulty.
-
 You have two options to create your song folder:
 1. Enter your desired folder name in the 'Create New Level' pane and click <kbd>Create Level</kbd>. Your new folder will automatically appear in your map list.
-![Using "Create A New Level" to make a song folder](https://i.imgur.com/HlV7DVd.jpg)
+![Using "Create A New Level" to make a song folder](./images/mma2-create-new-level.jpg)
 2. Navigate to your `CustomWIPLevels` folder and make a folder with your desired folder name. You will need to click <kbd>Refresh Song List</kbd> to see your folder.
 
 Click <kbd>Edit</kbd> to enter your song information and metadata.
+
 ### Song Info Settings
 The `Song Info` page is the first screen you see every time you edit a map.
-![Mediocre Map Assistant song setup screen](https://i.imgur.com/CiopwiZ.jpg?1)
+<p align="center">
+![Mediocre Map Assistant 2 song setup screen](./images/mma2-song-setup.jpg)
+</p>
+
 #### Whole Map Settings
 On the left side of the `Song Info` page is information that applies to your whole map. See [Beat Saber Metadata Criteria](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) for standards on presenting complex song names and multiple artists.
 * **Song Name:** The primary name of the song
@@ -113,8 +109,8 @@ On the right side of the `Song Info` page is the area where you create individua
 2. In the **Difficulty** dropdown select which difficulty you want to make (easy, normal, hard, expert, or expertplus)
 3. In the **Characteristic** dropdown you can select Standard, No Arrows, or Single Saber.
 4. **Difficulty Label** is optional and allows you to give your difficulties custom names in-game, *This feature may not reliably work on all VR models*
-5. The **Start Offset (ms)** field is where you entered an offset value, in milliseconds, if needed based on the way you [setup your audio file](#)
-6. The **Note Jump Speed** field is where you change the speed at which the notes move down the track. Click into the field for a pop-up of helpful information. See [Basic Mapping Practices](#) for guidance on setting an appropriate NJS for your difficulty.
+5. The **Start Offset (ms)** field is where you entered an offset value, in milliseconds, if needed based on the way you [setup your audio file](https://bsmg.wiki/mapping/basic-audio.html)
+6. The **Note Jump Speed** field is where you change the speed at which the notes move down the track. Click into the field for a pop-up of helpful information. See [Basic Mapping Practices](/mapping/basic-mapping.html#gauging-difficulty-down-mapping) for guidance on setting an appropriate NJS for your difficulty.
 7. The **Spawn Distance Modifier** field allows you to adjust how far down the track your blocks appear. Changing this value will adjust the "jump distance" guidance pop-up
 
 ::: tip
@@ -130,7 +126,9 @@ Click <kbd>Edit Level</kbd> when you're ready to start mapping!
 
 ### Mapping Settings
 Mapping settings can be accessed by clicking the hamburger menu in the top right while editing the map. It can also be toggled using the <kbd>ESC</kbd> key. These settings persist throughout your mapping session but will be reset the next time you open the editor. The `Mapping Settings` pane also includes a comprehensive list of keybindings.
-![Mapping Setting screen in Mediocre Map Assistant](https://i.imgur.com/h1DoGjU.jpg?1)
+<p align="center">
+![Mapping Setting screen in Mediocre Map Assistant 2](./images/mma2-mapping-settings.jpg)
+</p>
 
 * **<kbd>Move WaveForm to Other Side</kbd>**: This button will shift the wave form from the left of the mapping track to the left of the lighting track. Useful during the lighting process.
 * **Playback Speed:** Will slow down the map and song in the editor. Decimal values representing pecentage (i.e., 1.0 = 100% speed). This feature is helpful when timing particularly gnarly sections of a map.
@@ -147,14 +145,17 @@ Mapping settings can be accessed by clicking the hamburger menu in the top right
 ## Basic Controls
 There are usually multiple ways to accomplish the same action, however, the keyboard shortcuts at the link below are the most efficient.
 
-[Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing)
+* [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing)
 
 ## Error Checker
-The **Error Checker** functionality is one of the top quality of life features found in MMA. Access the error checker by clicking <kbd>SHIFT+TAB</kbd> to check for vision blocks, double directionals, stacked notes, and view map stats.
+The **Error Checker** functionality is one of the top quality of life features found in MMA2. Access the error checker by clicking <kbd>SHIFT+TAB</kbd> to check for vision blocks, double directionals, stacked notes, and view map stats.
 ### Finding & Interpreting Errors
 This section walks you through basic usage of the error checker's primary functions: **Check for Double Directionals, Check for Vision Blocks**, and **Check for Stacked Notes**
 #### Navigating the Error Checker
-![Error Checker main panel](https://i.imgur.com/ZKmFjQH.png)
+Here is the main panel for the Error Checker:
+<p align="center">
+![Error Checker main panel](./images/mma2-ec-panel.png)
+</p>
 
 1. **Minimum Time:** The minimum amount of time in beats that will be checked. Leave it alone.
 2. **Maximum Time:** The maximum amount of time in beats that will be checked. You’ll need to adjust this based on both the BPM and NJS (Note Jump Speed) of your song/level. ***1.5 beats is the minimum recommended for new mappers***
@@ -167,24 +168,20 @@ This section walks you through basic usage of the error checker's primary functi
 9. **Lightmap Integration:** Not part of error checking, and not covered in this guide, but this is how you can add fast (but terrible) lights.
 
 #### Highlighted Errors
-Once you click “Check for [error of your choice]” pay attention to the bottom center of your screen. Red text will pop up that tells you how many errors were found within the specified number of beats:
-
-![122 errors found... don't do this. This is bad.](https://i.imgur.com/X1ZoKYa.png)
+Once you click <kbd>Check for {error of your choice}</kbd> pay attention to the bottom center of your screen. Red text will pop up that tells you how many errors were found within the specified number of beats:
+<p align="center">
+![122 errors found... don't do this. This is bad.](./images/mma2-errors_found.png)
+</p>
 
 * Only one error can be highlighted at a time. 
 * Clicking one error button immediately after the other will wipe out the error highlights and replace them with the next type. 
 * Use the previous and next buttons to jump from error to error to resolve them. 
 
-**For Double-Directionals:** The highlighted block is the second instance of a same color-same direction, so look back in time to see the first block in the sequence. You can change either the first instance or the second instance to correct the error. Once you’ve made your change you can click “Check for Double Directionals” again to see if the issue is resolved. You can change the max time value to suit the speed of your song. 1.5 beats is a good baseline for new mappers but the faster the song the more beats you may need for a reasonable reset (if that is your intention).
-
-::: tip
-Diagonals count as double directionals with BOTH cardinal directions that follow. For example:  
-![Red note up right](https://i.imgur.com/u2XHSJ5.png) is a DD with both ![Red note up](https://i.imgur.com/c5SuWVv.png) and ![Red note right](https://i.imgur.com/ONpMhdc.png)
-:::
+**For Double-Directionals:** The highlighted block is the second instance of a same color-same direction, so look back in time to see the first block in the sequence. You can change either the first instance or the second instance to correct the error. Once you’ve made your change you can click “Check for Double Directionals” again to see if the issue is resolved. You can change the max time value to suit the speed of your song. 2.0 beats is a good baseline for new mappers but the faster the song the more beats you may need for a reasonable reset (if that is your intention).
 
 | Example | Explanation |
 |:---:|:--- |
-| ![Double directional example](https://i.imgur.com/Km2W2it.png) | In this example, max time is set to 0.75 beats.<br />There is a set of down notes 1/2 beat apart and then a set of diagonal notes 1/2 beat after that. The first set of blocks isn't flagged but the next two are because they are double directionals within 3/4 (0.75) of a beat after the first set.<br />You have two options:<br />* Change one of the blocks<br />* Force the player to “reset” (return their arms/hands to a neutral position) if there’s enough time. |
+| ![Double directional example](./images/dd_example.png) | In this example, max time is set to 0.75 beats.<br />There is a set of down notes 1/2 beat apart and then a set of diagonal notes 1/2 beat after that. The first set of blocks isn't flagged but the next two are because they are double directionals within 3/4 (0.75) of a beat after the first set.<br />You have two options:<br />* Change one of the blocks<br />* Force the player to “reset” (return their arms/hands to a neutral position) if there’s enough time. |
 
 ::: tip
 Keep clicking the “Check for Double Directionals” button… sometimes fixing one error can create a new error out of your line of sight. Check early and often!
@@ -194,19 +191,26 @@ Keep clicking the “Check for Double Directionals” button… sometimes fixing
 
 | Example | Explanation |
 |:---:|:--- |
-| ![Vision block example](https://i.imgur.com/hebZIXC.png) | In this example, I have my max beats set to 2 beats<br />At beat 150 there are facenotes blocking everything behind them. At beats 151 and 151.5 there are highlighted red and blue blocks indicating that the previous blocks are a problem.<br />You have two options:<br />* Move/delete the top two blocks (removing the vision block)<br />* Move the back two blocks further out in time so the player has a chance to react to them |
+| ![Vision block example](./images/vb_example.png) | In this example, I have my max beats set to 2 beats<br />At beat 150 there are facenotes blocking everything behind them. At beats 151 and 151.5 there are highlighted red and blue blocks indicating that the previous blocks are a problem.<br />You have two options:<br />* Move/delete the top two blocks (removing the vision block)<br />* Move the back two blocks further out in time so the player has a chance to react to them |
 
 ### Stats Panel
 When you’re ready, click the Stat Panel button to open an incredibly helpful information window. You can get information by hovering over each title.
 
 ::: tip
-Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See this [updated list of OST tracks](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4/edit?usp=sharing) for the latest (and greatly increased) NPS ranges.
+Use <kbd>CTRL</kbd>+scroll to select a section you want to check the stats for, hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd> and click the <kbd>Stats Panel</kbd> button to see values for that section only.
 :::
 
 ::: tip
-Use <kbd>CTRL</kbd>+scroll to select a section you want to check the stats for, hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd> and click the <kbd>Stats Panel</kbd> button to see values for that section only.
+Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See this [updated list of OST tracks](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4/edit?usp=sharing) for the latest (and greatly increased) NPS ranges.
 :::
 
 | Example | Explanation |
 |:---:|:--- |
-| ![Stats panel screenshot](https://i.imgur.com/zHfAsJ8.png) | **Notes:** The total number of notes in your map<br />**Notes per Second:** The number of notes in your map divided by the number of seconds in your map. This number isn’t accurate until you’ve finished mapping, unless you've only selected a small section.<br />**Bombs, Walls, and Lighting:** The number of each event you have in your map.<br />**R/B Ratio:** If you have exactly the same number of red and blue blocks this will be 1.00. Greater than 1 you have more reds. Less than 1 you have more blues.<br />**Vision Blocks:** The percentage of your map’s blocks that are vision blocks at 0.75 beats. Use the vision block checker to correct.<br />**Aggressive Vision Blocks:** The percentage of your map’s blocks that are vision blocks at 1.25 beats. Useful for faster songs.<br />**Top/Middle/Bottom Notes:** The percentage of your blocks that are placed in each row. General guidance is <10% top row and 60-80% bottom row. |
+| ![Stats panel screenshot](./images/mma2-stats-panel.png) | **Notes:** The total number of notes in your map<br />**Notes per Second:** The number of notes in your map divided by the number of seconds in your map. This number isn’t accurate until you’ve finished mapping, unless you've only selected a small section.<br />**Bombs, Walls, and Lighting:** The number of each event you have in your map.<br />**R/B Ratio:** If you have exactly the same number of red and blue blocks this will be 1.00. Greater than 1 you have more reds. Less than 1 you have more blues.<br />**Vision Blocks:** The percentage of your map’s blocks that are vision blocks at 0.75 beats. Use the vision block checker to correct.<br />**Aggressive Vision Blocks:** The percentage of your map’s blocks that are vision blocks at 1.25 beats. Useful for faster songs.<br />**Top/Middle/Bottom Notes:** The percentage of your blocks that are placed in each row. |
+
+## Troubleshooting
+**ISSUE: My song is stuck loading in the editor forever**<br />
+RESOLUTION: This error is usually caused by a missing, corrupted, or invalid audio file. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder.
+
+**ISSUE: I can't figure out how to place dot notes**<br />
+RESOLUTION: Press <kbd>ESC</kbd> and review the in-editor list of keybindings or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). HINT: It's `F`

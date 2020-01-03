@@ -17,6 +17,7 @@ module.exports = {
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['meta', { name: 'theme-color', content: '#2196f3' }],
   ],
 
   theme: 'yuu',
@@ -85,6 +86,11 @@ module.exports = {
       before: info => `<div class="feature"><h2>${info}</h2>`,
       after: '</div>',
     }],
+    ['named-chunks', {
+      pageChunkName: ({ key }) => `page${key.slice(1)}`,
+      layoutChunkName: ({ componentName }) => `layout-${componentName}`,
+    }],
+    'seo',
   ],
   configureWebpack: {
     resolve: {
