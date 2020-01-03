@@ -64,6 +64,7 @@ The first professional Beat Saber player, representing Team Gravity. Admin of th
 **Contributions:** ScoreSaber
 
 [Twitch](https://twitch.tv/orangew2) | [Donate](https://streamlabs.com/orangew2)
+
 ## bobbie
 Remind him to watch his glucose.
 
@@ -79,6 +80,13 @@ Likes pies, tartes, and helping people fix their mods!
 **Roles:** Staff, Support, Moderator
 
 [Twitch](https://www.twitch.tv/mamamelo) | [Donate](https://streamlabs.com/mamamelo)
+
+## Sam
+He's either talking about Steven or being way too patriotic in chat (BS Nordic Admin btw). Don't call him cute, he hates that. He also makes maps, check them out below.
+
+**Roles:** Staff, Moderator, Mapper
+
+[Twitch](https://twitch.tv/justsamuelok) | [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850326)
 
 ## Balsa (retired)
 BeatSaver creator - he's the reason we have somewhere to get our custom songs in the first place. He shows up in once in awhile to show off BeatSaver numbers, call us nerds, and present his collection of finely aged memes. He's since stepped down from the staff team but we wouldn't be here without him.

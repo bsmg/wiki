@@ -34,13 +34,6 @@ Pepega
 
 [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [Youtube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)
 
-## Sam
-He's either talking about Steven or being way too patriotic in chat (BS Nordic Admin btw). Don't call him cute, he hates that. He also makes maps, check them out below.
-
-**Roles:** Moderator
-
-[Twitch](https://twitch.tv/bs_samuel ) | [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850326)
-
 ## InfJager
 Can't hit jumps
 
