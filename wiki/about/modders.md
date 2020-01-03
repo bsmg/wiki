@@ -47,9 +47,9 @@ Creator of the Song Request Manager, which makes twitch requests possible. Check
 *Tracking error detected*
 
 **Roles:** Modder
-**Contributions:** AutoPause, TwitchPlus
+**Contributions:** Enhancements, AlphaTwitch, PlaylistCore
 
-[Github](https://github.com/AurosTV) | [Twitch](https://www.twitch.tv/aurosvr) | [Donate](https://streamlabs.com/aurosvr)
+[Github](https://github.com/AurosX) | [Twitch](https://www.twitch.tv/AurosXT) | [Donate](https://www.ko-fi.com/aurosnex)
 
 ## halsafar
 Helps you sort out your 5000 custom songs in a reasonable manner.
