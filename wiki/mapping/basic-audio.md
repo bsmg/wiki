@@ -28,7 +28,7 @@ Follow these general guidelines as you work on your maps:
 * A close second are high bitrate (+200kbps) **MP3 or AAC** files (lossy formats). 
 * Use a YouTube rip **only** as a last resort. The bitrate is low and the volume is seldom right. In this case some audio editing might be required (see [Editing with Audacity](/mapping/basic-audio.html#editing-with-audacity)).
 
-> Often an artist’s [Bandcamp](https://bandcamp.com/), [SoundCloud](https://soundcloud.com) (if they offer downloads) or other sites where you can buy the tracks/album will have the highest quality source.
+> Often an artist’s [Bandcamp](https://bandcamp.com/) or sites where you can buy the tracks/album will have the highest quality source available.
 
 See the [Advanced Audio Editing](/mapping/advanced-audio.md) page for more in-depth techniques and tools for analysing the audio quality of files.
 
