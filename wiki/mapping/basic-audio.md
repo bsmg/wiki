@@ -167,7 +167,7 @@ However, if the waveform varies a lot between soft and loud parts then compressi
 Here’s a before (top) and after (bottom) Compressor comparison:
 ![Before and after compression](https://i.imgur.com/M6A60eV.png)
 
-Check the song again and listen for any unnatural distortions, such as volume cut outs after loud peaks. If so, undo (`Ctrl-Z`), tweak the `Threshold` setting to a louder one (less engative) and apply again. If you want to know more about the settings check the [Advanced Audio Editing: Compressor](/mapping/advanced-audio.html#compressor) page.
+Check the song again and listen for any unnatural distortions, such as volume cut outs after loud peaks. If so, undo (`Ctrl-Z`), tweak the `Threshold` setting to a louder one (less negative) and apply again. If you want to know more about the settings check the [Advanced Audio Editing: Compressor](/mapping/advanced-audio.html#compressor) page.
 
 
 #### Limiter
