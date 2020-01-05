@@ -39,7 +39,7 @@ There are three ways to find the BPM for the song which you want to map. Try the
 You can search online using a search engine site (e.g. [Google](http://google.com)) in your web browser for `[song name] + [artist] + "bpm"` and often find a number of sites (e.g. [SongBPM.com](https://songbpm.com/)) with this information.
 
 ### Tool-Assisted BPM Calculation
-[Arrow Vortex](https://arrowvortex.ddrnl.com/) is a free tool to analyze a song’s BPM automatically. It will also find the offset needed to line the audio up to the beat in Audacity or your map editor. Ryger’s [Arrow Vortex BPM Analysis Tutorial](https://youtu.be/Z49UKFefu5c) includes both BPM detection and confirmation.
+[Arrow Vortex](https://arrowvortex.ddrnl.com/) is a free tool to analyze a song’s BPM automatically. It will also find the offset needed to line the audio up to the beat in Audacity or your map editor. Ryger’s [Arrow Vortex BPM Analysis Tutorial](https://youtu.be/Z49UKFefu5c) includes both BPM detection and confirmation. After finding the BPM and offset values you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
 
 ### Manual BPM Calculation
 If both methods above fail you will have to manually find the BPM, but this is easier than you might think.
@@ -49,10 +49,11 @@ If both methods above fail you will have to manually find the BPM, but this is e
 4. Take note of the nearest whole value.
 
 ## Audio Preparation
-To make it easier to map and make sure that the song is synced perfectly to the game's beat you need to set up your audio file correctly. This page will assume you are using [Audacity](https://www.audacityteam.org/).
-If you've used Tool Assisted BPM and offset detection (such as Arrow Vortex) you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
+To make it easier to map and make sure that the song is synced perfectly to the game's beat you need to set up your audio file correctly. This section will assume you are using [Audacity](https://www.audacityteam.org/).
+If you have used [Tool Assisted BPM](/mapping/basic-audio.html#tool-assisted-bpm-calculation) and offset detection (such as Arrow Vortex) you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
 
 ### Add a Click Track
+This is to confirm that the BPM you have found online or manually matches the audio file you have. This addition is temporary; you should remove the click track before [exporting your audio](/mapping/basic-audio.html#exporting).
 1. Open the song you want to map into Audacity.
 2. Add a new mono track from `Tracks menu > Add New > Mono Track`
 3. Place the cursor at the start of the new track (Click on the track and press your Home key) and then click `Generate menu > Rhythm Track…`
