@@ -28,19 +28,13 @@ Go from thinking about mapping to releasing your first map by following this che
 ### Video Tutorials
 * [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) **highly recommended**
 ::: warning
-Benny uses a slightly older version of Mediocre Mapper in these tutorials. The UI and some processes have changed in the most recent MMA2 editor but the rest of the content is great!
+Benny uses an older editor called Mediocre Mapper in these tutorials. The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
 :::
 * [Freeek's Mapping and Editor Tutorials](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
 ::: warning
 Freeek uses a very old editor called EditSaber in these tutorials. Many UI elements and processes have changed in newer editors but the rest of the content is great!
 :::
 
-### Written Guides
-* [Best Practices Guide](https://bit.ly/2LjbURw), by Awfulnaut **please for the love of all things good read this!**
-::: tip  
-An updated version of this best practices guide can now be found in [Basic Mapping](/mapping/basic-mapping#pattern-best-practices)
-:::
-* [Mapping Quickstart Guide](https://bsaber.com/mapping-quickstart-guide-ogg-bpm-offset-and-timing/), by SilentCaay
 
 ## Audio Editing Resources
 Before you can start mapping you need to choose a song, find some basic information about it, and set it up using an audio editor. The most commonly used editor is the free [Audacity](https://www.audacityteam.org/) utility. The rest of this audio section will reference how to use this tool to set up and edit your audio file.
@@ -103,6 +97,8 @@ There is no holy bible of mapping but this section of the wiki includes a lot of
 * [**Basic Mapping**](/mapping/basic-mapping.md) - All new mappers need to read this!
 * **Intermediate Mapping** - A more in-depth look at many mapping topics (coming soon... ask in #mapping-discussion if you want more info!)
 * **Extended Mapping** - Mapping Extensions tools and 360/90 mapping (coming soon... ask in #mapping-discussion if you want more info!)
+
+There is also the [Best Practices Guide](https://bit.ly/2LjbURw), by Awfulnaut which has been updated andintegrated into the [**Basic Mapping**](/mapping/basic-mapping.md) page above.
 
 ### Mapper Roles
 To apply for the **Mapper** role on the Beat Saber Modding Group discord you must have released three solid/playable maps (collaborations are acceptable) and complete the [Mapper Role Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSdtl2bmP4T5GwAMEUIGFt5xSb2KMCAkfPuVrcOMgCSmZMw3cg/viewform). Your application and maps will eventually be reviewed, but the wait for approval could be long due to limited staff.
