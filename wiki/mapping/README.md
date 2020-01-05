@@ -3,13 +3,13 @@ sidebar: auto
 ---
 # Mapping
 
+Too many anime maps? Not enough anime maps?  
+Take matters into your own hands and learn to map here!
+
 ::: tip NOTE  
-There is an active project underway to expand this section of the BSMG wiki.  
 If you have feedback on how we can improve the mapping resources fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform)!  
 You can also visit `#mapping-discussion` on the BSMG Discord to get involved!
 :::
-
-Too many anime maps? Not enough anime maps? Take matters into your own hands and learn to map here!
 
 Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content including **Awfulnaut, BennyDaBeast, Bloodcloak, Checkthepan, Cyan Snow, Freeek, The Good Boi, Helen Carnate, Hexagonial, Kolezan, LittleAsi, Megalon, MandyNasty, Nik, Puds, Ris, Ryger, Scrappy, Silent Caay, Skyler Wallace, Sykes,** and **Uninstaller.**
 * [Mapping Term Glossary](/mapping/glossary.md)
