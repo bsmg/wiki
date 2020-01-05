@@ -55,7 +55,7 @@ There are both official and community-developed editors available and preference
 Community editors are often a source of innovation with a lot of beneficial quality of life features for mappers, and can be used by mappers without VR. However, they may also be incomplete, unstable, or unpredictable at times so use with caution.
 
 #### Mediocre Map Assistant 2
-A fork of a fork of a fork... the most feature rich 3D editor used by the majority of the mapping community, now stripped of memes and all the fun stuff. RIP Bongo cat.
+A fork of a fork of a fork... the most feature rich 3D editor based off of Mediocre Mapper and is used by the majority of the mapping community, now stripped of memes and all the fun stuff. RIP Bongo cat.
 
 * [Mediocre Map Assistant 2 Download](https://github.com/Assistant/MediocreMapAssistant2/releases/latest)
 * [Mediocre Map Assistant User Guide](/mapping/mediocre-map-assistant.md)
@@ -66,7 +66,7 @@ A new web-based 3D beat saber editor that runs in the browser so it's platform a
 * [BeatMapper User Manual](https://beatmapper.app/docs/manual/getting-started)
 
 #### ChroMapper
-**Coming soon!** ChroMapper is a unity-based full-featured editor, developed by Caeden117, which is in the final rounds of bug fixing and will be entering closed beta soon. It uses the same engine as Beat Saber, which provides a much more true-to-life preview of lights and environments. ChroMapper also has stellar support for lighting and Chroma RGB.
+**Coming soon!** ChroMapper is a unity-based full-featured editor, developed by Caeden117, which is in the final rounds of bug fixing and is in closed beta. It uses the same engine as Beat Saber, which provides a much more true-to-life preview of lights and environments. ChroMapper also has stellar support for lighting and Chroma RGB.
 
 ::: tip INFO
 Interested in making your own editor or converter? You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [this Pastebin](https://pastebin.com/cTPGrxWY) helpful!
@@ -87,6 +87,7 @@ A suite of tools for mappers **using new format .dat files** that includes:
   * **Tempo Changer:** For those who need to change the BPM of their entire map that will correctly shift block placements 
   * **Offset Remover:** Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error
   * **Note Sorter:** Sorts unordered notes/obstacles/events in the map file to fix stack spawning  
+* [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** A convienient way to checkout how your map might look in game without the game since the lighting preview in some editors, such as MM/MMA2, are not as accurate. IOS and Safari support is pending.
 * [BPM Saber](https://github.com/zevdg/bpm-saber), by **Zevdg**
 A utility for mappers who need to change the BPM of their entire map that will correctly shift block placements. **Only works on old format .json files**
 * [BPM Saber](https://bsaber.com/bpmsaber/), by **Elliotttate**
