@@ -150,17 +150,23 @@ Follow these steps to test any of your maps made with a community editor using a
 4. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
 
 ### Community / Third Party Testing
-The #testplays channel in the Beat Saber Modding Group discord makes it easy to have your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in either video or text format in the #mapping-discussion channel.
+The `#testplays` channel in the Beat Saber Modding Group discord makes it easy to have your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in either video or text format in a DM or in the `#mapping-discussion` channel.
 
 1. Create a compressed .zip file of the individual song files (not the song folder).
-2. Upload your map to #testplays using the following format:  
-**Map:** The name and artist of your map  
-**Length:** The length of the song  
-**BPM:** The BPM of the song  
-**Difficulty:** Which difficulties are included  
-**Feedback:** Any requests for feedback (specific difficulties to be tested, things to look for etc.)  
-**Status:** What state is the map in? (i.e., First draft complete, no lights; 1:45 mapped; release candidate w/ lighting; etc.)
-3. Testers will usually look at your map within 1-7 days and will use a number of reaction emojis (listed in #testplays pinned posts) to track testing status.
+2. Upload your map to `#testplays` using the following format:  
+  * **Map:** The name and artist of your map  
+  * **Length:** The length of the song  
+  * **BPM:** The BPM of the song  
+  * **Difficulty:** Which difficulties are included  
+  * **Feedback:** Any requests for feedback (specific difficulties to be tested, things to look for etc.)  
+  * **Status:** What state is the map in? (i.e., First draft complete, no lights; 1:45 mapped; release candidate w/ lighting; etc.)
+3. Testers will usually look at your map within 1-7 days and will use a number of reaction emojis (listed in `#testplays` pinned posts) to track testing status.
+
+:::warning Remember: If you make changes after posting or getting feedback
+* React with a 🛑 `:octagonal_sign:` to indicate stop testing this version   
+== or ==
+* Delete the testplay posting! 
+:::
 
 You can copy and paste the following code into Discord:
 ```
