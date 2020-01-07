@@ -14,9 +14,11 @@ This is a stub page. Content to come soon!
 
 ### Set-Up
 
-**Install Mapping Extensions with Beat Saber Installed**
+#### Install Mapping Extensions with Beat Saber Installed
 
-Note: This section assumes you have not pointed Mediocre Map Assistant 2 to a different location for your WIP maps. Skip ahead if you don’t have the game or want to store your WIP maps elsewhere.
+::: warning NOTE
+This section assumes you have not pointed Mediocre Map Assistant 2 to a different location for your WIP maps. Skip to [here](#install-mapping-extensions-without-beat-saber-or-maps-stored-elsewhere-for-mediocre-map-assistant-2) if you don’t have the game or want to store your WIP maps elsewhere.
+:::
 
 1. Start Beat Saber and then close out after the game finishes loading. This is to ensure the game is ready for mods to be installed.
 2. Open [ModAssistant](https://github.com/Assistant/ModAssistant/releases/latest)
@@ -28,9 +30,9 @@ Note: This section assumes you have not pointed Mediocre Map Assistant 2 to a di
 To check if it worked navigate to your Beat Saber install and make sure that a MappingExtensions.dll file is present.
 Not sure where Beat Saber is installed? See [install folder](https://bsmg.wiki/faq/install-folder.html).
 
-7. You are now ready to do map setup!
+7. You are now ready to do [map setup!](#map-setup-in-mediocre-map-assistant-2)
 
-**Install Mapping Extensions without Beat Saber or Maps Stored Elsewhere for Mediocre Mapper**
+#### Install Mapping Extensions without Beat Saber or Maps Stored Elsewhere for Mediocre Map Assistant 2
 
 Here you will need to “trick” Mediocre Map Assistant 2 that your folder is a Beat Saber install.
 
@@ -38,7 +40,7 @@ Option 1:
 1. Download this zip for pre-formatted folders and Mapping Extensions Plugin [here](https://drive.google.com/file/d/18MVVZu9jGNY7trf8UuA-4DUZmNdMPsDM/view?usp=sharing).
 2. Extract the zip to a location of your choice.
 3. Enter the path to the CustomLevels and CustomWIPLevels folder when Mediocre Mapper asks for the location. Note: The path can also be modified in the Settings Bar when you open the program, the options are near the bottom of the bar.
-4. You are now ready to do map setup!
+4. You are now ready to do [map setup!](#map-setup-in-mediocre-map-assistant-2)
 
 Option 2:
 1. Create a folder named `Beat Saber` in the location you want to store your maps.
@@ -47,9 +49,9 @@ Option 2:
 4. Enter the path to the CustomLevels and CustomWIPLevels folder when Mediocre Mapper asks for the location. Note: The path can also be modified in the Settings Bar when you open the program, the options are near the bottom of the bar.
 5. If you have maps already go ahead and move your maps to `CustomWIPLevels` you just created.
 6. Go to the “Plugins” folder you made, and drop the latest MappingExtensions.dll inside which can be found on [BeatMods](https://beatmods.com/).
-7. You are now ready to do map setup!
+7. You are now ready to do [map setup!](#map-setup-in-mediocre-map-assistant-2)
 
-**Map Setup in Mediocre Map Assistant 2**
+#### Map Setup in Mediocre Map Assistant 2
 
 1. [Open Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/latest)
 2. In the Settings bar on the right, 3 new tick box options should be available under the Beta section:
