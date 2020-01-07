@@ -28,7 +28,7 @@ Follow these general guidelines as you work on your maps:
 * A close second are high bitrate (+200kbps) **MP3 or AAC** files (lossy formats). 
 * Use a YouTube rip **only** as a last resort. The bitrate is low and the volume is seldom right. In this case some audio editing might be required (see [Editing with Audacity](/mapping/basic-audio.html#editing-with-audacity)).
 
-> Often an artist’s [Bandcamp](https://bandcamp.com/), [SoundCloud](https://soundcloud.com) (if they offer downloads) or other sites where you can buy the tracks/album will have the highest quality source.
+> Often an artist’s [Bandcamp](https://bandcamp.com/) or sites where you can buy the tracks/album will have the highest quality source available.
 
 See the [Advanced Audio Editing](/mapping/advanced-audio.md) page for more in-depth techniques and tools for analysing the audio quality of files.
 
@@ -39,7 +39,7 @@ There are three ways to find the BPM for the song which you want to map. Try the
 You can search online using a search engine site (e.g. [Google](http://google.com)) in your web browser for `[song name] + [artist] + "bpm"` and often find a number of sites (e.g. [SongBPM.com](https://songbpm.com/)) with this information.
 
 ### Tool-Assisted BPM Calculation
-[Arrow Vortex](https://arrowvortex.ddrnl.com/) is a free tool to analyze a song’s BPM automatically. It will also find the offset needed to line the audio up to the beat in Audacity or your map editor. Ryger’s [Arrow Vortex BPM Analysis Tutorial](https://youtu.be/Z49UKFefu5c) includes both BPM detection and confirmation.
+[Arrow Vortex](https://arrowvortex.ddrnl.com/) is a free tool to analyze a song’s BPM automatically. It will also find the offset needed to line the audio up to the beat in Audacity or your map editor. Ryger’s [Arrow Vortex BPM Analysis Tutorial](https://youtu.be/Z49UKFefu5c) includes both BPM detection and confirmation. After finding the BPM and offset values you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
 
 ### Manual BPM Calculation
 If both methods above fail you will have to manually find the BPM, but this is easier than you might think.
@@ -49,10 +49,11 @@ If both methods above fail you will have to manually find the BPM, but this is e
 4. Take note of the nearest whole value.
 
 ## Audio Preparation
-To make it easier to map and make sure that the song is synced perfectly to the game's beat you need to set up your audio file correctly. This page will assume you are using [Audacity](https://www.audacityteam.org/).
-If you've used Tool Assisted BPM and offset detection (such as Arrow Vortex) you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
+To make it easier to map and make sure that the song is synced perfectly to the game's beat you need to set up your audio file correctly. This section will assume you are using [Audacity](https://www.audacityteam.org/).
+If you have used [Tool Assisted BPM](/mapping/basic-audio.html#tool-assisted-bpm-calculation) and offset detection (such as Arrow Vortex) you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
 
 ### Add a Click Track
+This is to confirm that the BPM you have found online or manually matches the audio file you have. This addition is temporary; you should remove the click track before [exporting your audio](/mapping/basic-audio.html#exporting).
 1. Open the song you want to map into Audacity.
 2. Add a new mono track from `Tracks menu > Add New > Mono Track`
 3. Place the cursor at the start of the new track (Click on the track and press your Home key) and then click `Generate menu > Rhythm Track…`
@@ -166,7 +167,7 @@ However, if the waveform varies a lot between soft and loud parts then compressi
 Here’s a before (top) and after (bottom) Compressor comparison:
 ![Before and after compression](https://i.imgur.com/M6A60eV.png)
 
-Check the song again and listen for any unnatural distortions, such as volume cut outs after loud peaks. If so, undo (`Ctrl-Z`), tweak the `Threshold` setting to a louder one (less engative) and apply again. If you want to know more about the settings check the [Advanced Audio Editing: Compressor](/mapping/advanced-audio.html#compressor) page.
+Check the song again and listen for any unnatural distortions, such as volume cut outs after loud peaks. If so, undo (`Ctrl-Z`), tweak the `Threshold` setting to a louder one (less negative) and apply again. If you want to know more about the settings check the [Advanced Audio Editing: Compressor](/mapping/advanced-audio.html#compressor) page.
 
 
 #### Limiter
