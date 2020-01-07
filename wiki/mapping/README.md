@@ -98,7 +98,7 @@ There is no holy bible of mapping but this section of the wiki includes a lot of
 * **Intermediate Mapping** - A more in-depth look at many mapping topics (coming soon... ask in #mapping-discussion if you want more info!)
 * **Extended Mapping** - Mapping Extensions tools and 360/90 mapping (coming soon... ask in #mapping-discussion if you want more info!)
 
-There is also the [Best Practices Guide](https://bit.ly/2LjbURw), by Awfulnaut which has been updated andintegrated into the [**Basic Mapping**](/mapping/basic-mapping.md) page above.
+There is also the [Best Practices Guide](https://bit.ly/2LjbURw), by Awfulnaut which has been updated and integrated into the [**Basic Mapping**](/mapping/basic-mapping.md) page above.
 
 ### Mapper Roles
 To apply for the **Mapper** role on the Beat Saber Modding Group discord you must have released three solid/playable maps (collaborations are acceptable) and complete the [Mapper Role Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSdtl2bmP4T5GwAMEUIGFt5xSb2KMCAkfPuVrcOMgCSmZMw3cg/viewform). Your application and maps will eventually be reviewed, but the wait for approval could be long due to limited staff.
