@@ -113,6 +113,10 @@ Maps that meet specific [Ranking Criteria](https://docs.google.com/document/d/1m
 ## Lighting Practices
 A map is not considered complete without some form of lighting included. Lighting can range from very basic to incredibly detailed using additional mods to enable more features.
 
+* [**Basic Lighting**](/mapping/basic-lighting.md) - Info on how to easily light your maps manually
+
+Below are additional lighting resources as we migrate over to the wiki pages.
+
 * [Beginner's Guide to Lighting](https://docs.google.com/document/d/1wpZgBeOD1-UbJpXf-b6gX5ICNYygCd6UK6LOPm-t5QM/edit) by Puds
 * [Lighting Environment Guide](https://bsaber.com/creating-lighting-environment-guide/) by ManDynasty
 * [Using Flash & Fade Lighting Events](https://bsaber.com/creating-lighting-how-flash-fade-notes-actually-work-in-game/) by ManDynasty
