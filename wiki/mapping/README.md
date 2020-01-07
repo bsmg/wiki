@@ -3,12 +3,15 @@ sidebar: auto
 ---
 # Mapping
 
+Too many anime maps? Not enough anime maps?  
+Take matters into your own hands and learn to map here!
+
 ::: tip NOTE  
-There is an active project underway to expand this section of the BSMG wiki.  
-Visit `#mapping-discussion` on the BSMG Discord to get involved!
+If you have feedback on how we can improve the mapping resources fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform)!  
+You can also visit `#mapping-discussion` on the BSMG Discord to get involved!
 :::
 
-Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content including **Awfulnaut, BennyDaBeast, Checkthepan, Cyan Snow, Freeek, The Good Boi, Helen Carnate, Hexagonial, Kolezan, LittleAsi, Megalon, MandyNasty, Nik, Puds, Ris, Ryger, Scrappy, Silent Caay, Skyler Wallace, Sykes,** and **Uninstaller.**
+Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content including **Awfulnaut, BennyDaBeast, Bloodcloak, Checkthepan, Cyan Snow, Freeek, The Good Boi, Helen Carnate, Hexagonial, Kolezan, LittleAsi, Megalon, MandyNasty, Nik, Puds, Ris, Ryger, Scrappy, Silent Caay, Skyler Wallace, Sykes,** and **Uninstaller.**
 * [Mapping Term Glossary](/mapping/glossary.md)
 
 ## Mapping Quick Start
@@ -25,19 +28,13 @@ Go from thinking about mapping to releasing your first map by following this che
 ### Video Tutorials
 * [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) **highly recommended**
 ::: warning
-Benny uses a slightly older version of Mediocre Mapper in these tutorials. The UI and some processes have changed in the most recent MMA2 editor but the rest of the content is great!
+Benny uses an older editor called Mediocre Mapper in these tutorials. The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
 :::
 * [Freeek's Mapping and Editor Tutorials](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
 ::: warning
 Freeek uses a very old editor called EditSaber in these tutorials. Many UI elements and processes have changed in newer editors but the rest of the content is great!
 :::
 
-### Written Guides
-* [Best Practices Guide](https://bit.ly/2LjbURw), by Awfulnaut **please for the love of all things good read this!**
-::: tip  
-An updated version of this best practices guide can now be found in [Basic Mapping](/mapping/basic-mapping#pattern-best-practices)
-:::
-* [Mapping Quickstart Guide](https://bsaber.com/mapping-quickstart-guide-ogg-bpm-offset-and-timing/), by SilentCaay
 
 ## Audio Editing Resources
 Before you can start mapping you need to choose a song, find some basic information about it, and set it up using an audio editor. The most commonly used editor is the free [Audacity](https://www.audacityteam.org/) utility. The rest of this audio section will reference how to use this tool to set up and edit your audio file.
@@ -52,7 +49,7 @@ There are both official and community-developed editors available and preference
 Community editors are often a source of innovation with a lot of beneficial quality of life features for mappers, and can be used by mappers without VR. However, they may also be incomplete, unstable, or unpredictable at times so use with caution.
 
 #### Mediocre Map Assistant 2
-A fork of a fork of a fork... the most feature rich 3D editor used by the majority of the mapping community, now stripped of memes and all the fun stuff. RIP Bongo cat.
+A fork of a fork of a fork... the most feature rich 3D editor based off of Mediocre Mapper and is used by the majority of the mapping community, now stripped of memes and all the fun stuff. RIP Bongo cat.
 
 * [Mediocre Map Assistant 2 Download](https://github.com/Assistant/MediocreMapAssistant2/releases/latest)
 * [Mediocre Map Assistant User Guide](/mapping/mediocre-map-assistant.md)
@@ -63,7 +60,7 @@ A new web-based 3D beat saber editor that runs in the browser so it's platform a
 * [BeatMapper User Manual](https://beatmapper.app/docs/manual/getting-started)
 
 #### ChroMapper
-**Coming soon!** ChroMapper is a unity-based full-featured editor, developed by Caeden117, which is in the final rounds of bug fixing and will be entering closed beta soon. It uses the same engine as Beat Saber, which provides a much more true-to-life preview of lights and environments. ChroMapper also has stellar support for lighting and Chroma RGB.
+**Coming soon!** ChroMapper is a unity-based full-featured editor, developed by Caeden117, which is in the final rounds of bug fixing and is in closed beta. It uses the same engine as Beat Saber, which provides a much more true-to-life preview of lights and environments. ChroMapper also has stellar support for lighting and Chroma RGB.
 
 ::: tip INFO
 Interested in making your own editor or converter? You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [this Pastebin](https://pastebin.com/cTPGrxWY) helpful!
@@ -84,6 +81,7 @@ A suite of tools for mappers **using new format .dat files** that includes:
   * **Tempo Changer:** For those who need to change the BPM of their entire map that will correctly shift block placements 
   * **Offset Remover:** Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error
   * **Note Sorter:** Sorts unordered notes/obstacles/events in the map file to fix stack spawning  
+* [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** A convienient way to checkout how your map might look in game without the game since the lighting preview in some editors, such as MM/MMA2, are not as accurate. IOS and Safari support is pending.
 * [BPM Saber](https://github.com/zevdg/bpm-saber), by **Zevdg**
 A utility for mappers who need to change the BPM of their entire map that will correctly shift block placements. **Only works on old format .json files**
 * [BPM Saber](https://bsaber.com/bpmsaber/), by **Elliotttate**
@@ -100,6 +98,8 @@ There is no holy bible of mapping but this section of the wiki includes a lot of
 * **Intermediate Mapping** - A more in-depth look at many mapping topics (coming soon... ask in #mapping-discussion if you want more info!)
 * **Extended Mapping** - Mapping Extensions tools and 360/90 mapping (coming soon... ask in #mapping-discussion if you want more info!)
 
+There is also the [Best Practices Guide](https://bit.ly/2LjbURw), by Awfulnaut which has been updated and integrated into the [**Basic Mapping**](/mapping/basic-mapping.md) page above.
+
 ### Mapper Roles
 To apply for the **Mapper** role on the Beat Saber Modding Group discord you must have released three solid/playable maps (collaborations are acceptable) and complete the [Mapper Role Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSdtl2bmP4T5GwAMEUIGFt5xSb2KMCAkfPuVrcOMgCSmZMw3cg/viewform). Your application and maps will eventually be reviewed, but the wait for approval could be long due to limited staff.
 
@@ -112,6 +112,10 @@ Maps that meet specific [Ranking Criteria](https://docs.google.com/document/d/1m
 
 ## Lighting Practices
 A map is not considered complete without some form of lighting included. Lighting can range from very basic to incredibly detailed using additional mods to enable more features.
+
+* [**Basic Lighting**](/mapping/basic-lighting.md) - Info on how to easily light your maps manually
+
+Below are additional lighting resources as we migrate over to the wiki pages.
 
 * [Beginner's Guide to Lighting](https://docs.google.com/document/d/1wpZgBeOD1-UbJpXf-b6gX5ICNYygCd6UK6LOPm-t5QM/edit) by Puds
 * [Lighting Environment Guide](https://bsaber.com/creating-lighting-environment-guide/) by ManDynasty
@@ -150,17 +154,23 @@ Follow these steps to test any of your maps made with a community editor using a
 4. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
 
 ### Community / Third Party Testing
-The #testplays channel in the Beat Saber Modding Group discord makes it easy to have your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in either video or text format in the #mapping-discussion channel.
+The `#testplays` channel in the Beat Saber Modding Group discord makes it easy to have your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in either video or text format in a DM or in the `#mapping-discussion` channel.
 
 1. Create a compressed .zip file of the individual song files (not the song folder).
-2. Upload your map to #testplays using the following format:  
-**Map:** The name and artist of your map  
-**Length:** The length of the song  
-**BPM:** The BPM of the song  
-**Difficulty:** Which difficulties are included  
-**Feedback:** Any requests for feedback (specific difficulties to be tested, things to look for etc.)  
-**Status:** What state is the map in? (i.e., First draft complete, no lights; 1:45 mapped; release candidate w/ lighting; etc.)
-3. Testers will usually look at your map within 1-7 days and will use a number of reaction emojis (listed in #testplays pinned posts) to track testing status.
+2. Upload your map to `#testplays` using the following format:  
+  * **Map:** The name and artist of your map  
+  * **Length:** The length of the song  
+  * **BPM:** The BPM of the song  
+  * **Difficulty:** Which difficulties are included  
+  * **Feedback:** Any requests for feedback (specific difficulties to be tested, things to look for etc.)  
+  * **Status:** What state is the map in? (i.e., First draft complete, no lights; 1:45 mapped; release candidate w/ lighting; etc.)
+3. Testers will usually look at your map within 1-7 days and will use a number of reaction emojis (listed in `#testplays` pinned posts) to track testing status.
+
+:::warning Remember: If you make changes after posting or getting feedback
+* React with a 🛑 `:octagonal_sign:` to indicate stop testing this version   
+== or ==
+* Delete the testplay posting! 
+:::
 
 You can copy and paste the following code into Discord:
 ```
