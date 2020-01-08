@@ -38,7 +38,7 @@ It's impossible to control the duration of a fade out or use a fade in with stan
 ~ Skeelie
 
 
-Lighting truly is a an art which means that it's much more subjective than mapping. There are relatively few best practices to get started and simple manual lighting is almost impossible to do poorly.
+Lighting truly is an art which means that it's much more subjective than mapping. There are relatively few best practices to get started and simple manual lighting is almost impossible to do poorly.
 
 ::: warning NOTE  
 Lighting previews are not realistic in the editors currently available to the public so it’s important to preview your lights in-game often. See [Previewing Your Lights](/mapping/basic-lighting.html#previewing-your-lights) for some tools that can help.
