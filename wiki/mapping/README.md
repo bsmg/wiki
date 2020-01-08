@@ -86,7 +86,7 @@ A suite of tools for mappers **using new format .dat files** that includes:
   * **Offset Remover:** Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error
   * **Note Sorter:** Sorts unordered notes/obstacles/events in the map file to fix stack spawning  
 * [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** A convienient way to checkout how your map might look in game without the game.  
-  * **IOS and Safari are currently not supported.**
+  * IOS and Safari are currently not supported.
 * [BPM Saber](https://github.com/zevdg/bpm-saber), by **Zevdg**
 A utility for mappers who need to change the BPM of their entire map that will correctly shift block placements. **Only works on old format .json files**
 * [BPM Saber](https://bsaber.com/bpmsaber/), by **Elliotttate**
@@ -122,7 +122,7 @@ Review the [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-
 A map is not considered complete without some form of lighting included. Lighting can range from very basic to incredibly detailed using additional mods to enable more features.
 
 * [**Basic Lighting**](/mapping/basic-lighting.md) - Learn the various aspects to lighting your map manually!
-* **Advanced Lighting** - Satsified with making simple lights? Learn more advanced techniques!
+* **Advanced Lighting** - Satsified with making simple lights? Learn more advanced techniques! (coming soon... ask in #mapping-discussion if you want more info!)
 
 Below are additional lighting resources as we migrate over to the wiki pages.
 
@@ -146,7 +146,7 @@ You **do not** need to upload your map to Beat Saver in order for you or anyone 
 ### Testing on a PC
 Follow these steps to test any of your maps made with a community editor using PC-based VR.
 
-1. If your WIP song folder isn’t already in Beat Saber_Data\CustomWIPLevels then place a copy there.
+1. If your WIP song folder isn’t already in `Beat Saber_Data\CustomWIPLevels` then place a copy there.
 2. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
 
 ::: tip NOTE
@@ -160,6 +160,10 @@ Follow these steps to test any of your maps made with a community editor using a
 2. Drag and drop the .zip file onto the BMBF upload window.
 3. Click <kbd>Sync to Beat Saber</kbd>.
 4. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
+
+:::tip
+If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through bmbf.
+:::
 
 ### Community / Third Party Testing
 The `#testplays` channel in the Beat Saber Modding Group discord makes it easy to have your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in either video or text format in a DM or in the `#mapping-discussion` channel.
