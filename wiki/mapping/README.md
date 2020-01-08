@@ -85,7 +85,8 @@ A suite of tools for mappers **using new format .dat files** that includes:
   * **Tempo Changer:** For those who need to change the BPM of their entire map that will correctly shift block placements 
   * **Offset Remover:** Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error
   * **Note Sorter:** Sorts unordered notes/obstacles/events in the map file to fix stack spawning  
-* [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** A convienient way to checkout how your map might look in game without the game since the lighting preview in some editors, such as MM/MMA2, are not as accurate. IOS and Safari support is pending.
+* [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** A convienient way to checkout how your map might look in game without the game.  
+  * **IOS and Safari are currently not supported.**
 * [BPM Saber](https://github.com/zevdg/bpm-saber), by **Zevdg**
 A utility for mappers who need to change the BPM of their entire map that will correctly shift block placements. **Only works on old format .json files**
 * [BPM Saber](https://bsaber.com/bpmsaber/), by **Elliotttate**
