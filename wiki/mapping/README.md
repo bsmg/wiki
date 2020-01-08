@@ -26,7 +26,11 @@ Go from thinking about mapping to releasing your first map by following this che
 7. Once your song has been mapped, lighted, and playtested you’re ready to [release](/mapping/#publishing-songs) your song to the world on Beat Saver.
 
 ### Video Tutorials
-* [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) **highly recommended**
+Text guides aren't your thing? Checkout these video series!
+:::tip Remember: 
+The text guides on this wiki are more up to date as it is easier and quicker to change.
+:::
+* [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) **Recommended Series**
 ::: warning
 Benny uses an older editor called Mediocre Mapper in these tutorials. The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
 :::
@@ -145,7 +149,7 @@ Follow these steps to test any of your maps made with a community editor using P
 2. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
 
 ::: tip NOTE
-You will need to have at least the core mods installed in order to see the CustomWIPLevels category.
+You will need to have the **SongCore** mod installed in order to see the CustomWIPLevels category.
 :::  
 
 ### Testing on a Quest
@@ -196,13 +200,13 @@ See the [Playtesting](/mapping/#playtesting) section for instructions.
 ### BeatSaver
 [BeatSaver](https://beatsaver.com/) is the public repository for all custom Beat Saber maps. Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be compatible.
 
-::: danger
-The BeatSaver server is slowly dying due to increased traffic. Uploading maps will be challenging, if not impossible, until the server is replaced.
+::: danger NOTICE
+The BeatSaver server is slowly dying due to increased traffic. Uploading and deleting maps will be challenging, if not impossible, until the server is replaced.
 :::
 
 #### How to Release a Map
 
-1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver.
+1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver. If you are not recieving a verification email drop into `#mapping-discussion` for assistance.
 2. Click the *Upload* link in the top-right nav bar.
 3. Add your BeatSaver map name and map description. Only the map name is searchable so be sure to include song name, song artist, and other terms that might make it easier to find your map.
 ::: tip
@@ -244,4 +248,4 @@ Alternatively, since `_customData` is **NOT** a required field, you can go ahead
 To be compliant with the new schema, please also find and remove or fill in any **blank fields** in your `Info.dat` or difficulty files.
 
 ### BeastSaber
-[BeastSaber](http://www.bsaber.com) is a song review and curation site with a social side for member profiles, forums, news, and tutorials. All songs published on BeatSaver are mirrored to BeastSaber within 10-15 minutes.
+[BeastSaber](http://www.bsaber.com) is a song review and curation site with a social side for member profiles, forums, news, and tutorials. All songs published on BeatSaver are mirrored to BeastSaber within 10-15 minutes. Additionally, maps deleted from BeatSaver may take up to a day to be removed from BeastSaber.
