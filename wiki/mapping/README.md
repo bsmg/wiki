@@ -62,8 +62,8 @@ A new web-based 3D beat saber editor that runs in the browser so it's platform a
 #### ChroMapper
 **Coming soon!** ChroMapper is a unity-based full-featured editor, developed by Caeden117, which is in the final rounds of bug fixing and is in closed beta. It uses the same engine as Beat Saber, which provides a much more true-to-life preview of lights and environments. ChroMapper also has stellar support for lighting and Chroma RGB.
 
-::: tip INFO
-Interested in making your own editor or converter? You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [this Pastebin](https://pastebin.com/cTPGrxWY) helpful!
+::: tip Interested in making your own editor or converter?
+You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [this Pastebin](https://pastebin.com/cTPGrxWY) helpful!
 :::
 
 ### Official Editor 
@@ -106,14 +106,18 @@ To apply for the **Mapper** role on the Beat Saber Modding Group discord you mus
 ### Modding & Ranking
 Maps that meet specific [Ranking Criteria](https://docs.google.com/document/d/1mtVihRO1LomyptXayoDNDTQYgX_TQPp6ZYDmtwR2jMI/edit) and go through an intensive review process called “modding” have the potential to become ranked, awarding players Performance Points (PP) toward global leaderboards. More information and an in-depth FAQ is available on the [ScoreSaber Discord](https://discord.gg/WpuDMwU)
 
-* Prior to requesting ranking, mappers should thoroughly review the ranking criteria and [metadata standards](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) and have their map modded by a knowledgeable source. *Want an even more detailed look? Review the [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-Do_kpAs567BdeJqWSzT9xazp20biA9Th0o/edit?usp=sharing) for some of the more ambiguous ranking considerations.*
+* Prior to requesting ranking, mappers should thoroughly review the ranking criteria and [metadata standards](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) and have their map modded by a knowledgeable source. 
+:::tip Want an even more detailed look? 
+Review the [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-Do_kpAs567BdeJqWSzT9xazp20biA9Th0o/edit?usp=sharing) for some of the more ambiguous ranking considerations.
+:::
 * Once your map has been modded and revised, it’s ready to be submitted via the ScoreSaber Discord for review by the ranking team (which involves additional rounds of strict modding and revision).
 * If a ranking team member deems the map acceptable it will be added to the ranking request queue to be voted on by the full ranking team.
 
 ## Lighting Practices
 A map is not considered complete without some form of lighting included. Lighting can range from very basic to incredibly detailed using additional mods to enable more features.
 
-* [**Basic Lighting**](/mapping/basic-lighting.md) - Info on how to easily light your maps manually
+* [**Basic Lighting**](/mapping/basic-lighting.md) - Learn the various aspects to lighting your map manually!
+* **Advanced Lighting** - Satsified with making simple lights? Learn more advanced techniques!
 
 Below are additional lighting resources as we migrate over to the wiki pages.
 
@@ -122,8 +126,7 @@ Below are additional lighting resources as we migrate over to the wiki pages.
 * [Using Flash & Fade Lighting Events](https://bsaber.com/creating-lighting-how-flash-fade-notes-actually-work-in-game/) by ManDynasty
 * [Side Laser Speed Reference](https://docs.google.com/spreadsheets/d/1tIERmSyFI4ssjDkE-oJjBBvUZUJ7eoVhCQyM3_BsJwE/edit?usp=sharing) by LittleAsi
 
-**Lightmap**
-Lightmap is integrated into Mediocre Map Assistant 2. It can be accessed in the error checker menu.
+**Lightmap** is an automated way to add lights to your map and is integrated into Mediocre Map Assistant 2 and can be accessed in the error checker menu. Keep in mind that it is not that hard to create simple manual lighting that is better at expressing the atmosphere of the song than lightmap.
 
 ## Playtesting
 Testing your work is a critical part of mapping. Playing your own maps as you work helps you adjust for major playability issues and get a feel for your map. Third-party or “outside” playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
@@ -172,7 +175,7 @@ The `#testplays` channel in the Beat Saber Modding Group discord makes it easy t
 * Delete the testplay posting! 
 :::
 
-You can copy and paste the following code into Discord:
+You can copy and paste the following template into Discord:
 ```
 **Map:**
 **Length:**
