@@ -6,7 +6,7 @@ sidebar: auto
 Too many anime maps? Not enough anime maps?  
 Take matters into your own hands and learn to map here!
 
-::: tip NOTE  
+::: tip INFO  
 If you have feedback on how we can improve the mapping resources fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform)!  
 You can also visit `#mapping-discussion` on the BSMG Discord to get involved!
 :::
