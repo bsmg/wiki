@@ -36,6 +36,8 @@ See the [Advanced Audio Editing](/mapping/advanced-audio.md) page for more in-de
 There are three ways to find the BPM for the song which you want to map. Try them in order (easiest to hardest) if you don't get any results:
 
 ### Tool-Assisted BPM Calculation
+> This is the recommended method for songs with a constant BPM
+
 [Arrow Vortex](https://arrowvortex.ddrnl.com/) is a free tool to analyze a song’s BPM automatically. It will also find the offset needed to line the audio up to the beat in Audacity or your map editor. Ryger’s [Arrow Vortex BPM Analysis Tutorial](https://youtu.be/Z49UKFefu5c) includes both BPM detection and confirmation. After finding the BPM and offset values you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
 
 If the website download does not work, a mirror download is available [here.](https://cdn.discordapp.com/attachments/443569023951568906/662417326771273728/ArrowVortex.zip)
