@@ -6,7 +6,7 @@ sidebar: auto
 Too many anime maps? Not enough anime maps?  
 Take matters into your own hands and learn to map here!
 
-::: tip NOTE  
+::: tip INFO  
 If you have feedback on how we can improve the mapping resources fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform)!  
 You can also visit `#mapping-discussion` on the BSMG Discord to get involved!
 :::
@@ -26,7 +26,11 @@ Go from thinking about mapping to releasing your first map by following this che
 7. Once your song has been mapped, lighted, and playtested you’re ready to [release](/mapping/#publishing-songs) your song to the world on Beat Saver.
 
 ### Video Tutorials
-* [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) **highly recommended**
+Text guides aren't your thing? Checkout these video series!
+:::tip Remember: 
+The text guides on this wiki are more up to date as it is easier and quicker to change.
+:::
+* [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) **Recommended Series**
 ::: warning
 Benny uses an older editor called Mediocre Mapper in these tutorials. The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
 :::
@@ -62,8 +66,8 @@ A new web-based 3D beat saber editor that runs in the browser so it's platform a
 #### ChroMapper
 **Coming soon!** ChroMapper is a unity-based full-featured editor, developed by Caeden117, which is in the final rounds of bug fixing and is in closed beta. It uses the same engine as Beat Saber, which provides a much more true-to-life preview of lights and environments. ChroMapper also has stellar support for lighting and Chroma RGB.
 
-::: tip INFO
-Interested in making your own editor or converter? You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [this Pastebin](https://pastebin.com/cTPGrxWY) helpful!
+::: tip Interested in making your own editor or converter?
+You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [this Pastebin](https://pastebin.com/cTPGrxWY) helpful!
 :::
 
 ### Official Editor 
@@ -81,7 +85,8 @@ A suite of tools for mappers **using new format .dat files** that includes:
   * **Tempo Changer:** For those who need to change the BPM of their entire map that will correctly shift block placements 
   * **Offset Remover:** Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error
   * **Note Sorter:** Sorts unordered notes/obstacles/events in the map file to fix stack spawning  
-* [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** A convienient way to checkout how your map might look in game without the game since the lighting preview in some editors, such as MM/MMA2, are not as accurate. IOS and Safari support is pending.
+* [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** A convienient way to checkout how your map might look in game without the game.  
+  * IOS and Safari are currently not supported.
 * [BPM Saber](https://github.com/zevdg/bpm-saber), by **Zevdg**
 A utility for mappers who need to change the BPM of their entire map that will correctly shift block placements. **Only works on old format .json files**
 * [BPM Saber](https://bsaber.com/bpmsaber/), by **Elliotttate**
@@ -106,14 +111,18 @@ To apply for the **Mapper** role on the Beat Saber Modding Group discord you mus
 ### Modding & Ranking
 Maps that meet specific [Ranking Criteria](https://docs.google.com/document/d/1mtVihRO1LomyptXayoDNDTQYgX_TQPp6ZYDmtwR2jMI/edit) and go through an intensive review process called “modding” have the potential to become ranked, awarding players Performance Points (PP) toward global leaderboards. More information and an in-depth FAQ is available on the [ScoreSaber Discord](https://discord.gg/WpuDMwU)
 
-* Prior to requesting ranking, mappers should thoroughly review the ranking criteria and [metadata standards](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) and have their map modded by a knowledgeable source. *Want an even more detailed look? Review the [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-Do_kpAs567BdeJqWSzT9xazp20biA9Th0o/edit?usp=sharing) for some of the more ambiguous ranking considerations.*
+* Prior to requesting ranking, mappers should thoroughly review the ranking criteria and [metadata standards](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) and have their map modded by a knowledgeable source. 
+:::tip Want an even more detailed look? 
+Review the [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-Do_kpAs567BdeJqWSzT9xazp20biA9Th0o/edit?usp=sharing) for some of the more ambiguous ranking considerations.
+:::
 * Once your map has been modded and revised, it’s ready to be submitted via the ScoreSaber Discord for review by the ranking team (which involves additional rounds of strict modding and revision).
 * If a ranking team member deems the map acceptable it will be added to the ranking request queue to be voted on by the full ranking team.
 
 ## Lighting Practices
 A map is not considered complete without some form of lighting included. Lighting can range from very basic to incredibly detailed using additional mods to enable more features.
 
-* [**Basic Lighting**](/mapping/basic-lighting.md) - Info on how to easily light your maps manually
+* [**Basic Lighting**](/mapping/basic-lighting.md) - Learn the various aspects to lighting your map manually!
+* **Advanced Lighting** - Satsified with making simple lights? Learn more advanced techniques! (coming soon... ask in #mapping-discussion if you want more info!)
 
 Below are additional lighting resources as we migrate over to the wiki pages.
 
@@ -122,8 +131,7 @@ Below are additional lighting resources as we migrate over to the wiki pages.
 * [Using Flash & Fade Lighting Events](https://bsaber.com/creating-lighting-how-flash-fade-notes-actually-work-in-game/) by ManDynasty
 * [Side Laser Speed Reference](https://docs.google.com/spreadsheets/d/1tIERmSyFI4ssjDkE-oJjBBvUZUJ7eoVhCQyM3_BsJwE/edit?usp=sharing) by LittleAsi
 
-**Lightmap**
-Lightmap is integrated into Mediocre Map Assistant 2. It can be accessed in the error checker menu.
+**Lightmap** is an automated way to add lights to your map and is integrated into Mediocre Map Assistant 2 and can be accessed in the error checker menu. Keep in mind that it is not that hard to create simple manual lighting that is better at expressing the atmosphere of the song than lightmap.
 
 ## Playtesting
 Testing your work is a critical part of mapping. Playing your own maps as you work helps you adjust for major playability issues and get a feel for your map. Third-party or “outside” playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
@@ -138,11 +146,11 @@ You **do not** need to upload your map to Beat Saver in order for you or anyone 
 ### Testing on a PC
 Follow these steps to test any of your maps made with a community editor using PC-based VR.
 
-1. If your WIP song folder isn’t already in Beat Saber_Data\CustomWIPLevels then place a copy there.
+1. If your WIP song folder isn’t already in `Beat Saber_Data\CustomWIPLevels` then place a copy there.
 2. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
 
 ::: tip NOTE
-You will need to have at least the core mods installed in order to see the CustomWIPLevels category.
+You will need to have the **SongCore** mod installed in order to see the CustomWIPLevels category.
 :::  
 
 ### Testing on a Quest
@@ -152,6 +160,10 @@ Follow these steps to test any of your maps made with a community editor using a
 2. Drag and drop the .zip file onto the BMBF upload window.
 3. Click <kbd>Sync to Beat Saber</kbd>.
 4. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
+
+:::tip
+If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through bmbf.
+:::
 
 ### Community / Third Party Testing
 The `#testplays` channel in the Beat Saber Modding Group discord makes it easy to have your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in either video or text format in a DM or in the `#mapping-discussion` channel.
@@ -172,7 +184,7 @@ The `#testplays` channel in the Beat Saber Modding Group discord makes it easy t
 * Delete the testplay posting! 
 :::
 
-You can copy and paste the following code into Discord:
+You can copy and paste the following template into Discord:
 ```
 **Map:**
 **Length:**
@@ -193,13 +205,13 @@ See the [Playtesting](/mapping/#playtesting) section for instructions.
 ### BeatSaver
 [BeatSaver](https://beatsaver.com/) is the public repository for all custom Beat Saber maps. Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be compatible.
 
-::: danger
-The BeatSaver server is slowly dying due to increased traffic. Uploading maps will be challenging, if not impossible, until the server is replaced.
+::: danger NOTICE
+The BeatSaver server is slowly dying due to increased traffic. Uploading and deleting maps will be challenging, if not impossible, until the server is replaced.
 :::
 
 #### How to Release a Map
 
-1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver.
+1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver. If you are not recieving a verification email drop into `#mapping-discussion` for assistance.
 2. Click the *Upload* link in the top-right nav bar.
 3. Add your BeatSaver map name and map description. Only the map name is searchable so be sure to include song name, song artist, and other terms that might make it easier to find your map.
 ::: tip
@@ -241,4 +253,4 @@ Alternatively, since `_customData` is **NOT** a required field, you can go ahead
 To be compliant with the new schema, please also find and remove or fill in any **blank fields** in your `Info.dat` or difficulty files.
 
 ### BeastSaber
-[BeastSaber](http://www.bsaber.com) is a song review and curation site with a social side for member profiles, forums, news, and tutorials. All songs published on BeatSaver are mirrored to BeastSaber within 10-15 minutes.
+[BeastSaber](http://www.bsaber.com) is a song review and curation site with a social side for member profiles, forums, news, and tutorials. All songs published on BeatSaver are mirrored to BeastSaber within 10-15 minutes. Additionally, maps deleted from BeatSaver may take up to a day to be removed from BeastSaber.

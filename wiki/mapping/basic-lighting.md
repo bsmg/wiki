@@ -38,7 +38,7 @@ It's impossible to control the duration of a fade out or use a fade in with stan
 ~ Skeelie
 
 
-Lighting truly is a an art which means that it's much more subjective than mapping. There are relatively few best practices to get started and simple manual lighting is almost impossible to do poorly.
+Lighting truly is an art which means that it's much more subjective than mapping. There are relatively few best practices to get started and simple manual lighting is almost impossible to do poorly.
 
 ::: warning NOTE  
 Lighting previews are not realistic in the editors currently available to the public so it’s important to preview your lights in-game often. See [Previewing Your Lights](/mapping/basic-lighting.html#previewing-your-lights) for some tools that can help.
@@ -179,7 +179,7 @@ If you choose to add custom colors to your map this must be the LAST thing you d
 ## Previewing Your Lights
 These tools will help PC Beat Saber users preview their lighting more accurately. Most editors do not show true-to-life lighting effects.
  
-### FPFC
+### In-game with FPFC
 First Person Flying Controller (FPFC) is a launch parameter that can be used by either Steam or Oculus users. You will need the [FPFCToggle](https://cdn.discordapp.com/attachments/441819897941458944/654983047250182144/FPFCToggle.dll) and [Music Escape](https://cdn.discordapp.com/attachments/441819897941458944/655236882715770910/MusicEscape.dll) mods, available through the #pc-mods channel on the BSMG discord. FPFC will open an instance of BeatSaver on your desktop and allow you to control it with your keyboard and mouse.
 
 `FPFCToggle` allows you to use WASD to "fly" around in your map. `Music Escape` allows you to exit your level by hitting the <kbd>ESC</kbd> key (otherwise you must play your song to completion.
@@ -190,3 +190,6 @@ First Person Flying Controller (FPFC) is a launch parameter that can be used by 
 1. Right click on Beat Saber.exe and create a shortcut. 
 2. Edit the Target to add "fpfc" to the end of it.
 For example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" fpfc`
+
+### Online with BS Viewer
+[BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** is an online tool that is a convienient way to checkout how your map might look in game without the game. Just upload your map zip to the website and preview! Unfortunately **IOS and Safari are currently not supported.**
