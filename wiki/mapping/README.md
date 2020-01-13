@@ -67,7 +67,7 @@ A new web-based 3D beat saber editor that runs in the browser so it's platform a
 **Coming soon!** ChroMapper is a unity-based full-featured editor, developed by Caeden117, which is in the final rounds of bug fixing and is in closed beta. It uses the same engine as Beat Saber, which provides a much more true-to-life preview of lights and environments. ChroMapper also has stellar support for lighting and Chroma RGB.
 
 ::: tip Interested in making your own editor or converter?
-You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [this Pastebin](https://pastebin.com/cTPGrxWY) helpful!
+You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and the [Beatmap Schemas](https://github.com/lolPants/beatmap-schemas/tree/master/schemas) helpful!
 :::
 
 ### Official Editor 
@@ -140,8 +140,7 @@ Testing your work is a critical part of mapping. Playing your own maps as you wo
 You **do not** need to upload your map to Beat Saver in order for you or anyone else to test.
 :::
 
-* If your map is using the 1.0 song format (your files are .json and .ogg) you must convert your map using one of several available tools like [Songe Converter](https://github.com/lolPants/songe-converter) by lolPants or [BeatMapper Tools](https://mappers.beatmappertools.com/) by Darkuni. **Update your editor to MMA2 or BeatMapper** See [Community Editors](/mapping#community-editors) for links
-* If your map is using the 2.0 song format (your files are .dat and .ogg/.egg) you’re ready to test.
+> If your map files are in JSON format, you are using an out of date editor and will have to convert. See [Song Format Conversion](/mapping.html#song-format-conversion) for info.
 
 ### Testing on a PC
 Follow these steps to test any of your maps made with a community editor using PC-based VR.
@@ -157,10 +156,13 @@ You will need to have the **SongCore** mod installed in order to see the CustomW
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have [SideQuest](https://sidequestvr.com) and [BMBF](https://github.com/kihecido/BMBF/releases/latest) installed.
 
 1. Create a compressed .zip file of the individual song files (not the song folder).
-2. Drag and drop the .zip file onto the BMBF upload window.
-3. Click <kbd>Sync to Beat Saber</kbd>.
-4. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
-
+2. Connect your Quest to your PC via USB and keep SideQuest open (Optionally, you can turn on Wireless mode to remove it after)
+3. Look at the top of SideQuest, which will give you the IP to get into BMBF
+![SideQuest IP preview](./images/sidequest-ip.png)
+4. Type into any web browser: "192.168.X.XXX:50000" with X being replaced with your IP from the previous step
+5. Drag and drop the files into BMBF's upload page (indicated by /main/upload at the end of the link)
+6. Once uploaded, click Sync to Beat Saber at the top right corner of the page
+![BMBF Sync window](./images/bmbf_browser.png)
 :::tip
 If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through bmbf.
 :::
@@ -254,3 +256,21 @@ To be compliant with the new schema, please also find and remove or fill in any 
 
 ### BeastSaber
 [BeastSaber](http://www.bsaber.com) is a song review and curation site with a social side for member profiles, forums, news, and tutorials. All songs published on BeatSaver are mirrored to BeastSaber within 10-15 minutes. Additionally, maps deleted from BeatSaver may take up to a day to be removed from BeastSaber.
+
+## Legacy Map Information
+This section includes proceses and procedures that should no longer be necessary using current tools and editors.  
+
+### Song Format Conversion
+Mappers still using old editing software will need to convert their map to the current format in order to test, share, or play them in game. You can tell your maps are in the 1.0 song format if your map files are in JSON format. Follow these steps to convert your map(s) then upgrade to the [latest editor](/mapping.html#community-editors)
+
+**If you are a PC Beat Saber user with the SongCore mod installed:**
+1. Make a copy of your song folder (the folder including all of the song files)
+2. Find the `SongeConverter.exe` file in your main Beat Saber folder
+3. Drag the copy of your song folder on top of the `SongeConverter.exe` file (nothing will open... it will look like nothing happened)
+4. Open the song folder. If your files are now in `.dat` format the conversion is complete.
+
+**If you do not have SongCore installed:**
+1. Download [Simple-Converter.exe](https://github.com/lolPants/songe-converter/releases/latest) by lolPants
+2. Place the `simple-converter.exe` whererever you keep your WIP maps
+3. Drag your song folder on top of the `SongeConverter.exe` file (nothing will open... it will look like nothing happened). A copy labeled "[BACKUP]" will be made automatically
+4. Open the song folder. If your files are now in `.dat` format the conversion is complete.
