@@ -49,5 +49,5 @@ Once you've deleted the *Mods* folder go back to the menu and press the circular
 
 * [Oculus Quest BMBF Installation Guide](https://bsaber.com/oculus-quest-custom-songs/)
 * [Quest Asset Modding Guide](https://github.com/sc2ad/beat-saber-community-wiki/blob/master/asset-modding-guide.md)
-* [Collection of Quest Asset Modding Guides](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/RedBrumblers-Asset-Mod-Guide-Wiki)
+* [Collection of All Current Guides for Asset Mods](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/RedBrumblers-Asset-Mod-Guide-Wiki)
 * [Fixing Out of Sync Audio](https://bsaber.com/quest-out-of-sync/)
