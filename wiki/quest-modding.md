@@ -42,7 +42,7 @@ Make sure you've ran the game modded once and go to the `UTILITIES` tab in the a
 ### Restoring from SideQuest
 
 Navigate back to the same menu you used to backup your data and click the `OPEN BACKUPS` button, from there find your newest backup folder, open it, and delete the *Mods* folder, this is to prevent potentially old or incompatible mods from breaking your game.
-Once you've deleted the *Mods* folder go back to the menu and press the circular arrows beside your latest backup to restore your scores, the button is highlighted in the image [here](https://github.com/LDeathh/wiki/blob/master/wiki/quest-modding.md#installing-bmbf-with-sidequest).
+Once you've deleted the *Mods* folder go back to the menu and press the circular arrows beside your latest backup to restore your scores, the button is highlighted in the image [here](https://github.com/beat-saber-modding-group/wiki/blob/master/wiki/quest-modding.md#installing-bmbf-with-sidequest).
 
 
 ## Useful links and alternative guides
