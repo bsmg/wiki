@@ -20,7 +20,9 @@ Once you've done what you need, if you're a new user follow all the steps from s
 
 If you haven't already, download and setup [SideQuest](https://sidequestvr.com/#/setup-howto)
 
-Open SideQuest and connect your Quest to your PC, if you've previously modded Beat Saber or have scores you want to backup, go to `My Apps` located in the top bar of the window and find Beat Saber, click the cog next to it then press the `BACKUP GAME DATA` button, if you have a modded game you also need to uninstall it by pressing the `UNINSTALL APP` button.
+Open SideQuest and connect your Quest to your PC. If you've previously modded Beat Saber or have scores you want to backup, go to `My Apps` located in the top bar of the window and find Beat Saber.
+
+Click the cog next to it then press the `BACKUP GAME DATA` button, if you have a modded game you also need to uninstall it by pressing the `UNINSTALL APP` button.
 
 ![SideQuestUninstall](./images/beginners-guide/sqbackupanduninstall.png)
 
