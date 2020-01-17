@@ -11,7 +11,6 @@ If you have feedback on how we can improve the mapping resources fill out this [
 You can also visit `#mapping-discussion` on the BSMG Discord to get involved!
 :::
 
-Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content including **Awfulnaut, BennyDaBeast, Bloodcloak, Checkthepan, Cyan Snow, Freeek, The Good Boi, Helen Carnate, Hexagonial, Kolezan, LittleAsi, Megalon, MandyNasty, Nik, Puds, Ris, Ryger, Scrappy, Silent Caay, Skyler Wallace, Sykes,** and **Uninstaller.**
 * [Mapping Term Glossary](/mapping/glossary.md)
 
 ## Mapping Quick Start
@@ -21,7 +20,7 @@ Go from thinking about mapping to releasing your first map by following this che
 2. [Set up your audio file](/mapping/#audio-editing-resources) including finding and confirming the BPM and exporting to OGG format. 
 3. Set up your first song in your mapping editor (steps vary by editor but here's the [user guide](/mapping/mediocre-map-assistant.html) for MMA2).
 4. Get mapping! Review [basic mapping practices](/mapping/basic-mapping.html) before you start. [Playtest](/mapping/#playtesting) your own work early and often while mapping.
-5. Get lighting! Review [basic lighting information](/mapping/#lighting-practices). Simple manual lighting is easier than you think!
+5. Get lighting! Review [basic lighting information](/mapping/basic-lighting.html). Simple manual lighting is easier than you think!
 6. Get your map [playtested](/mapping/#playtesting)! Third-party playtesting via the BSMG Discord is highly recommended to get constructive feedback and to get past your own “map blindness.”
 7. Once your song has been mapped, lighted, and playtested you’re ready to [release](/mapping/#publishing-songs) your song to the world on Beat Saver.
 
@@ -254,3 +253,6 @@ To be compliant with the new schema, please also find and remove or fill in any 
 
 ### BeastSaber
 [BeastSaber](http://www.bsaber.com) is a song review and curation site with a social side for member profiles, forums, news, and tutorials. All songs published on BeatSaver are mirrored to BeastSaber within 10-15 minutes. Additionally, maps deleted from BeatSaver may take up to a day to be removed from BeastSaber.
+
+## Credits
+Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content including **Awfulnaut, BennyDaBeast, Bloodcloak, Checkthepan, Cyan Snow, Freeek, The Good Boi, Helen Carnate, Hexagonial, Kolezan, LittleAsi, Megalon, MandyNasty, Nik, Puds, Ris, Ryger, Scrappy, Silent Caay, Skyler Wallace, Sykes,** and **Uninstaller.**
