@@ -12,7 +12,7 @@ For new users, BeatSaberQuestInstaller may be easier to use as it handles some o
 
 Before starting the process go to the utilities tab and backup your scores, if you've previously modded Beat Saber you also need to go there to uninstall the game, make sure you backup **BEFORE** uninstalling.
 
-![BeatSaberQuestInstaller](./images/beginners-guide/qbsioptions.png)
+![BeatSaberQuestInstaller](./images/beginners-guide/bsqioptions.png)
 
 Once you've done what you need, if you're a new user follow all the steps from step 1 and if you're a returning user skip to step 4 in the installer, after completing the steps open BMBF from the channels tab in Oculus TV or Unknown Sources in your library.
 
@@ -24,7 +24,7 @@ Open SideQuest and connect your Quest to your PC. If you've previously modded Be
 
 Click the cog next to it then press the `BACKUP GAME DATA` button, if you have a modded game you also need to uninstall it by pressing the `UNINSTALL APP` button.
 
-![SideQuestUninstall](./images/beginners-guide/sqbackupanduninstall.png)
+![SideQuestUninstall](./images/beginners-guide/squninstall.png)
 
 You can later restore your save from the same menu, after modding.
 
@@ -43,7 +43,7 @@ Make sure you've ran the game modded once and go to the `UTILITIES` tab in the a
 
 ### Restoring from SideQuest
 
-Go back to the same menu you used to backup your data and click the OPEN BACKUPS button.
+Go back to the same menu you used to backup your data and click the `OPEN BACKUPS` button.
 From there, find your newest backup folder, open it, and delete the Mods folder (this is to prevent potentially old or incompatible mods from breaking your game).
 
 Afterwards, go back to the menu and press the circular arrows located beside your latest backup; this is to restore your scores.
