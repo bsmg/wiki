@@ -20,7 +20,7 @@ You can also visit `#mapping-discussion` on the [Beat Saber Modding Group Discor
 3. Set up your song in your mapping editor (steps vary by editor but here's the [user guide](/mapping/mediocre-map-assistant.html) for MMA2).
 4. Get mapping! Review [basic mapping practices](/mapping/basic-mapping.html) before you start. [Playtest](/mapping/#playtesting) your own work early and often while mapping.
 5. Get lighting! Review [basic lighting information](/mapping/#lighting-practices). Simple manual lighting is easier than you think!
-6. Get your map [playtested](/mapping/#playtesting)! Third-party playtesting via the [BSMG Discord](https://discord.gg/beatsabermods) is highly recommended to get constructive feedback and to get past your own “map blindness.”
+6. Get your map [playtested](/mapping/#playtesting)! Third-party playtesting via the [BSMG Discord](https://discord.gg/beatsabermods) is highly recommended to get constructive feedback and to get past your own “map blindness."
 7. Once your song has been mapped, lighted, and playtested you’re ready to [release](/mapping/#publishing-songs) your song to the world on Beat Saver.
 
 ### Video Tutorials

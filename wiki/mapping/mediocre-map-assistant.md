@@ -66,7 +66,9 @@ The settings pane includes global settings for autosaving, zip packaging, folder
 * **Legacy Settings:** If you have the Chroma mod installed you can check this box to enable the Chroma lighting toolbar but it has been unsupported for some time.
 * **Other Settings:** Click the <kbd>Clear Settings</kbd> button to revert to default settings. You may also enter new paths for either of your song folders. If for some reason nothing works you can click the <kbd>Everything Inexplicably Broken?</kbd> button to delete your config file.
 
-> TIP Double check to make sure that the paths you entered at setup are showing up under the "Songs" and "WIP Songs" fields. Add them if they are missing.
+::: warning
+Confirm both folder paths are complete on the Song Selection screen and add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on first use.
+:::
 
 ## Song Setup
 Once you've finished one-time editor setup you're ready to create your first map. 
@@ -108,7 +110,7 @@ On the right side of the `Song Info` page is the area where you create individua
 1. Click the **<kbd>Add Difficulty</kbd>** button. The default difficulty is easy
 2. In the **Difficulty** dropdown select which difficulty you want to make (easy, normal, hard, expert, or expertplus)
 3. In the **Characteristic** dropdown you can select Standard, No Arrows, or Single Saber.
-4. **Difficulty Label** is optional and allows you to give your difficulties custom names in-game, *This feature may not reliably work on all VR models*
+4. **Difficulty Label** is optional and allows you to give your difficulties custom names in-game. If left blank, the difficulty set in the dropdown will be displayed instead. *This feature may not reliably work on all VR models*
 5. The **Start Offset (ms)** field is where you entered an offset value, in milliseconds, if needed based on the way you [setup your audio file](https://bsmg.wiki/mapping/basic-audio.html)
 6. The **Note Jump Speed** field is where you change the speed at which the notes move down the track. Click into the field for a pop-up of helpful information. See [Basic Mapping Practices](/mapping/basic-mapping.html#gauging-difficulty-down-mapping) for guidance on setting an appropriate NJS for your difficulty.
 7. The **Spawn Distance Modifier** field allows you to adjust how far down the track your blocks appear. Changing this value will adjust the "jump distance" guidance pop-up
@@ -209,8 +211,17 @@ Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See t
 | ![Stats panel screenshot](./images/mma2-stats-panel.png) | **Notes:** The total number of notes in your map<br />**Notes per Second:** The number of notes in your map divided by the number of seconds in your map. This number isn’t accurate until you’ve finished mapping, unless you've only selected a small section.<br />**Bombs, Walls, and Lighting:** The number of each event you have in your map.<br />**R/B Ratio:** If you have exactly the same number of red and blue blocks this will be 1.00. Greater than 1 you have more reds. Less than 1 you have more blues.<br />**Vision Blocks:** The percentage of your map’s blocks that are vision blocks at 0.75 beats. Use the vision block checker to correct.<br />**Aggressive Vision Blocks:** The percentage of your map’s blocks that are vision blocks at 1.25 beats. Useful for faster songs.<br />**Top/Middle/Bottom Notes:** The percentage of your blocks that are placed in each row. |
 
 ## Troubleshooting
+**ISSUE: Create Level button does nothing even if a song name is entered**  
+RESOLUTION: Confirm both folder paths are complete on the Song Selection screen and add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on first use.
+
 **ISSUE: My song is stuck loading in the editor forever**<br />
-RESOLUTION: This error is usually caused by a missing, corrupted, or invalid audio file. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder.
+RESOLUTION: This error is usually caused by a missing, corrupted, or invalid audio file. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder. Usage of convert to OGG websites is the common cause of this issue.
 
 **ISSUE: I can't figure out how to place dot notes**<br />
 RESOLUTION: Press <kbd>ESC</kbd> and review the in-editor list of keybindings or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). HINT: It's `F`
+
+**ISSUE: One Saber maps don't load in game**  
+RESOLUTION: Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "One Saber",` and replace with `"_beatmapCharacteristicName": "OneSaber",`
+
+**ISSUE: No Arrows maps don't load in game**  
+RESOLUTION: Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "No Arrows",` and replace with `"_beatmapCharacteristicName": "NoArrows",`

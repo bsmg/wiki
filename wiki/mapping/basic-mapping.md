@@ -47,7 +47,7 @@ When you’re ready to prepare your song for upload you must have a minimum of f
 
 **A few notes about bombs:**
 * Bomb hitboxes are smaller than block hitboxes, smaller even than the bomb model itself
-* Bombs are hard to see when there are no lighting events active. Make sure your map isn’t dark when bombs are coming up. See [Basic Lighting](link) for more tips.
+* Bombs are hard to see when there are no lighting events active. Make sure your map isn’t dark when bombs are coming up. See [Basic Lighting](/mapping/basic-lighting.html) for more tips.
 * Bombs are disabled once they have passed the player
 
 ### Block Distribution
