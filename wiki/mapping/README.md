@@ -151,10 +151,16 @@ You will need to have the **SongCore** mod installed in order to see the CustomW
 ### Testing on a Quest
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have [SideQuest](https://sidequestvr.com) and [BMBF](https://github.com/kihecido/BMBF/releases/latest) installed.
 
-1. Create a compressed .zip file of the individual song files (not the song folder).
-2. Drag and drop the .zip file onto the BMBF upload window.
-3. Click <kbd>Sync to Beat Saber</kbd>.
-4. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
+1. Zip up the song as normal, only zipping the files and not the folder itself
+2. Connect your Oculus Quest to the PC via USB and keep SideQuest open (Optionally, you can turn on Wireless mode to remove it after)
+3. BMBF must be open on the Oculus Quest for the connection to succeed
+4. Look at the top of SideQuest, which will give you the IP to get into BMBF
+5. Type into any web browser: "192.168.X.XXX:50000" with X being replaced with your IP
+![](./images/quest_ip.png)
+6. Drag and drop the files into BMBF's upload page (indicated by /main/upload at the end of the link)
+7. Once uploaded, click Sync to Beat Saber at the top right corner of the page
+![](./images/bmbf_browser.png)
+8. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
 
 :::tip
 If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through BMBF.
