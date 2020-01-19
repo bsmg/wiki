@@ -221,7 +221,7 @@ Map files cannot currently be updated on BeatSaver. If you need to upload a new 
 ### BeatSaver Troubleshooting
 Here are solutions for some common errors when uploading a Beatmap.  
 Encountered something not listed here? Drop into `#mapping-discussion` for assistance.
-  - **Something went wrong. Try again later.**
+  - **Something went wrong! Try again later.**
     - Usually caused by an upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.
   - **Field `._customData._customEnviroment` cannot be blank.**
     - This is caused by using an editor not compliant with the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.
@@ -232,7 +232,7 @@ Encountered something not listed here? Drop into `#mapping-discussion` for assis
   - **Beatmap does not contain an info.dat file!**
     - Usually caused by having the files in a subfolder. You need to zip the files instead of the folder. [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead. **NOTE: MMA2's export button does not include contributor images in the zip.**
   - **Beatmap could not be parsed!**
-    - This is on BeatSaver's end and can be caused by extreme server load. Try again at a later time.
+    - This could be caused by extreme server load. Try again later or ask in `#mapping-discussion`.
 
 #### BeatSaver Data Schema Change - October 27, 2019
 BeatSaver now enforces a schema in order for your maps to be uploaded, of which public MediocreMapper is not compliant with. The most breaking change happened in the difficulty data files, where MM-specific fields were moved inside a `_customData` object.
@@ -267,4 +267,4 @@ To be compliant with the new schema, please also find and remove or fill in any 
 [BeastSaber](http://www.bsaber.com) is a song review and curation site with a social side for member profiles, forums, news, and tutorials. All songs published on BeatSaver are mirrored to BeastSaber within 10-15 minutes. Additionally, maps deleted from BeatSaver may take up to a day to be removed from BeastSaber.
 
 ## Credits
-Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content including **Awfulnaut, BennyDaBeast, Bloodcloak, Checkthepan, Cyan Snow, Freeek, The Good Boi, Helen Carnate, Hexagonial, Kolezan, LittleAsi, Megalon, MandyNasty, Nik, Puds, Ris, Ryger, Scrappy, Silent Caay, Skyler Wallace, Sykes,** and **Uninstaller.**
+Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content including **Awfulnaut, BennyDaBeast, Bloodcloak, Checkthepan, CyanSnow, Freeek, The Good Boi, Helen Carnate, Hexagonial, Kolezan, LittleAsi, Megalon, MandyNasty, Nik, Puds, Ris, Ryger, Scrappy, Silent Caay, Skyler Wallace, Sykes,** and **Uninstaller.**
