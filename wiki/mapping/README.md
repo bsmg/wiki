@@ -66,7 +66,7 @@ A new web-based 3D beat saber editor that runs in the browser so it's platform a
 **Coming soon!** ChroMapper is a unity-based full-featured editor, developed by Caeden117, which is in the final rounds of bug fixing and is in closed beta. It uses the same engine as Beat Saber, which provides a much more true-to-life preview of lights and environments. ChroMapper also has stellar support for lighting and Chroma RGB.
 
 ::: tip Interested in making your own editor or converter?
-You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [this Pastebin](https://pastebin.com/cTPGrxWY) helpful!
+You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [the Beatmap Schemas](https://github.com/lolPants/beatmap-schemas/tree/master/schemas) helpful!
 :::
 
 ### Official Editor 
@@ -204,10 +204,6 @@ See the [Playtesting](/mapping/#playtesting) section for instructions.
 ### BeatSaver
 [BeatSaver](https://beatsaver.com/) is the public repository for all custom Beat Saber maps. Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be compatible.
 
-::: danger NOTICE
-The BeatSaver server is slowly dying due to increased traffic. Uploading and deleting maps will be challenging, if not impossible, until the server is replaced.
-:::
-
 #### How to Release a Map
 
 1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver. If you are not recieving a verification email drop into `#mapping-discussion` for assistance.
@@ -222,11 +218,27 @@ Use "tags" like (Chroma), (OneSaber), or (Mapping Extensions) if your map uses s
 Map files cannot currently be updated on BeatSaver. If you need to upload a new version of your map you will need to delete the old one and re-post.
 :::
 
+### BeatSaver Troubleshooting
+Here are solutions for some common errors when uploading a Beatmap.  
+Encountered something not listed here? Drop into `#mapping-discussion` for assistance.
+  - **Something went wrong. Try again later.**
+    - Usually caused by an upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.
+  - **Field `._customData._customEnviroment` cannot be blank.**
+    - This is caused by using an editor not compliant with the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.
+  - **Beatmap zip contains an illegal file!**
+    - Usually caused by extra/unsupported files, such as gifs, in the zip.
+  - **Beatmap already exists!**
+    - The exact map files were uploaded previously. You must change something small in your map (i.e., remove a light block, save the map, replace the light block, and save again) to be able to upload.
+  - **Beatmap does not contain an info.dat file!**
+    - Usually caused by having the files in a subfolder. You need to zip the files instead of the folder. [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead. **NOTE: MMA2's export button does not include contributor images in the zip.**
+  - **Beatmap could not be parsed!**
+    - This is on BeatSaver's end and can be caused by extreme server load. Try again at a later time.
+
 #### BeatSaver Data Schema Change - October 27, 2019
 BeatSaver now enforces a schema in order for your maps to be uploaded, of which public MediocreMapper is not compliant with. The most breaking change happened in the difficulty data files, where MM-specific fields were moved inside a `_customData` object.
 
 **Resolution #1**
-Switch to the [Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) editor. Open each difficulty file and save it to correct the schema. Use MMA2 going forward.
+Switch to the [Mediocre Map Assistant 2](#mediocre-map-assistant-2) editor. Open each difficulty file and save it to correct the schema. Use MMA2 going forward.
 
 **Resolution #2**
 Use the [Schema Updater Utility](https://skystudioapps.com/mapping-tools/#schema-fixer) by **+1 Rabbit** to fix your files before uploading.
