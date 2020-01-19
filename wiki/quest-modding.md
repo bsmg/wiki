@@ -10,11 +10,11 @@ For new users, BeatSaberQuestInstaller may be easier to use as it handles some o
 
 ### Installing with BeatSaberQuestInstaller
 
-Before starting the process go to the utilities tab and backup your scores, if you've previously modded Beat Saber you also need to go there to uninstall the game, make sure you backup **BEFORE** uninstalling.
+**Make sure you run the installer as administrator**, if you're a new user follow all the steps until you've done step 3, after that go to the utilities tab and backup your scores, if you've previously modded Beat Saber you also need to go there to uninstall the game, make sure you backup **BEFORE** uninstalling.
 
 ![BeatSaberQuestInstaller](./images/beginners-guide/bsqioptions.png)
 
-Once you've done what you need, if you're a new user follow all the steps from step 1 and if you're a returning user skip to step 4 in the installer, after completing the steps open BMBF from the channels tab in Oculus TV or Unknown Sources in your library.
+Once you've done what you need, go to step 4 in the installer, after completing the steps open BMBF from the channels tab in Oculus TV or Unknown Sources in your library.
 
 ### Installing BMBF with SideQuest
 
@@ -39,7 +39,7 @@ once you have you should be put into [bsaber.com](https://www.bsaber.com) this i
 
 ### Restoring from BeatSaberQuestInstaller
 
-Make sure you've ran the game modded once and go to the `UTILITIES` tab in the app and press the `TRANSFER SCORES` button.
+Make sure you've ran the game modded once and go to the `UTILITIES` tab in the app and press the `TRANSFER SCORES` button, you can also do this from step 4 in the installer.
 
 ### Restoring from SideQuest
 
