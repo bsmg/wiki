@@ -47,7 +47,7 @@ Go back to the same menu you used to backup your data and click the `OPEN BACKUP
 From there, find your newest backup folder, open it, and delete the Mods folder (this is to prevent potentially old or incompatible mods from breaking your game).
 
 Afterwards, go back to the menu and press the circular arrows located beside your latest backup; this is to restore your scores.
-The button is highlighted in the image [here](https://github.com/beat-saber-modding-group/wiki/blob/master/wiki/quest-modding.md#installing-bmbf-with-sidequest).
+The button is highlighted in the image [here](#installing-bmbf-with-sidequest).
 
 
 ## Useful links and alternative guides
