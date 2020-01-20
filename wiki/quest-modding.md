@@ -49,6 +49,21 @@ From there, find your newest backup folder, open it, and delete the Mods folder 
 Afterwards, go back to the menu and press the circular arrows located beside your latest backup; this is to restore your scores.
 The button is highlighted in the image [here](#installing-bmbf-with-sidequest).
 
+## Installing mods from your PC
+
+**MAKE SURE YOUR QUEST AND PC ARE ON THE SAME NETWORK**
+
+Open BMBF in your Quest and go to the `Tools` tab, there you should see a web address and a version number similar to what's show below.
+
+![ip](./images/beginners-guide/ip.png)
+
+On your PC open your browser and type the address into the search bar, you should be greeted with this screen.
+
+![bmbfweb](./images/beginners-guide/bmbfweb.png)
+
+Now just drag any Quest compatible mods into the upload box and sync, if the mod was originally made for an older version it won't automatically enable so go to the `Mods` tab and enable it from there.
+
+If you want to use the same method of downloading songs as you do in BMBF in your Quest, just replace `upload` in the URL with `browser`.
 
 ## Useful links and alternative guides
 
