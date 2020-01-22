@@ -63,7 +63,7 @@ A 3D editor that runs in the browser, allowing anyone with a web browser to map.
 A full-featured editor that is currently in closed beta. ChroMapper shares similar assets with Beat Saber, so the visuals match better. It also has stellar support for lighting and Chroma RGB.
 
 ::: tip Interested in making your own editor or converter?
-You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [this Pastebin](https://pastebin.com/cTPGrxWY) helpful!
+You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [the Beatmap Schemas](https://github.com/lolPants/beatmap-schemas/tree/master/schemas) helpful!
 :::
 
 ### Official Editor 
@@ -206,10 +206,6 @@ See the [Playtesting](/mapping/#playtesting) section for instructions.
 ### BeatSaver
 [BeatSaver](https://beatsaver.com/) is the public repository for all custom Beat Saber maps. Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be compatible.
 
-::: danger NOTICE
-The BeatSaver server is slowly dying due to increased traffic. Uploading and deleting maps will be challenging, if not impossible, until the server is replaced.
-:::
-
 #### How to Release a Map
 
 1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver. If you are not receiving a verification email, drop into `#mapping-discussion` for assistance.
@@ -224,11 +220,27 @@ Use "tags" like (Chroma), (OneSaber), or (Mapping Extensions) if your map uses s
 Map files cannot currently be updated on BeatSaver. If you need to upload a new version of your map you will need to delete the old one and re-post.
 :::
 
+### BeatSaver Troubleshooting
+Here are solutions for some common errors when uploading a Beatmap.  
+Encountered something not listed here? Drop into `#mapping-discussion` for assistance.
+  - **Something went wrong! Try again later.**
+    - Usually caused by an upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.
+  - **Field `._customData._customEnviroment` cannot be blank.**
+    - This is caused by using an editor not compliant with the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.
+  - **Beatmap zip contains an illegal file!**
+    - Usually caused by extra/unsupported files, such as gifs, in the zip.
+  - **Beatmap already exists!**
+    - The exact map files were uploaded previously. You must change something small in your map (i.e., remove a light block, save the map, replace the light block, and save again) to be able to upload.
+  - **Beatmap does not contain an info.dat file!**
+    - Usually caused by having the files in a subfolder. You need to zip the files instead of the folder. [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead. **NOTE: MMA2's export button does not include contributor images in the zip.**
+  - **Beatmap could not be parsed!**
+    - This could be caused by extreme server load. Try again later or ask in `#mapping-discussion`.
+
 #### BeatSaver Data Schema Change - October 27, 2019
 BeatSaver now enforces a schema in order for your maps to be uploaded, of which public MediocreMapper is not compliant with. The most breaking change happened in the difficulty data files, where MM-specific fields were moved inside a `_customData` object.
 
 **Resolution #1**
-Switch to the [Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) editor. Open each difficulty file and save it to correct the schema. Use MMA2 going forward.
+Switch to the [Mediocre Map Assistant 2](#mediocre-map-assistant-2) editor. Open each difficulty file and save it to correct the schema. Use MMA2 going forward.
 
 **Resolution #2**
 Use the [Schema Updater Utility](https://skystudioapps.com/mapping-tools/#schema-fixer) by **+1 Rabbit** to fix your files before uploading.
@@ -257,4 +269,4 @@ To be compliant with the new schema, please also find and remove or fill in any 
 [BeastSaber](http://www.bsaber.com) is a song review and curation site with a social side for member profiles, forums, news, and tutorials. All songs published on BeatSaver are mirrored to BeastSaber within 10-15 minutes. Additionally, maps deleted from BeatSaver may take up to a day to be removed from BeastSaber.
 
 ## Credits
-Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content including **Awfulnaut, BennyDaBeast, Bloodcloak, Checkthepan, Cyan Snow, Freeek, The Good Boi, Helen Carnate, Hexagonial, Kolezan, LittleAsi, Megalon, MandyNasty, Nik, Puds, Ris, Ryger, Scrappy, Silent Caay, Skyler Wallace, Sykes,** and **Uninstaller.**
+Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content including **Awfulnaut, BennyDaBeast, Bloodcloak, Checkthepan, CyanSnow, Freeek, The Good Boi, Helen Carnate, Hexagonial, Kolezan, LittleAsi, Megalon, MandyNasty, Nik, Puds, Ris, Ryger, Scrappy, Silent Caay, Skyler Wallace, Sykes,** and **Uninstaller.**
