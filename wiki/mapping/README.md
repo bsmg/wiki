@@ -8,20 +8,19 @@ Take matters into your own hands and learn to map here!
 
 ::: tip INFO  
 If you have feedback on how we can improve the mapping resources fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform)!  
-You can also visit `#mapping-discussion` on the BSMG Discord to get involved!
+You can also visit `#mapping-discussion` on the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) to get involved!
 :::
 
 * [Mapping Term Glossary](/mapping/glossary.md)
 
 ## Mapping Quick Start
-Go from thinking about mapping to releasing your first map by following this checklist.
 
 1. Download the necessary tools for mapping: an [audio editor](https://www.audacityteam.org/) and a [map editor](/mapping/#map-editing-resources).
-2. [Set up your audio file](/mapping/#audio-editing-resources) including finding and confirming the BPM and exporting to OGG format. 
-3. Set up your first song in your mapping editor (steps vary by editor but here's the [user guide](/mapping/mediocre-map-assistant.html) for MMA2).
+2. [Set up your audio file](/mapping/#audio-editing-resources), find and confirm the BPM, and export in OGG format.
+3. Set up your song in your mapping editor (steps vary by editor but here's the [user guide](/mapping/mediocre-map-assistant.html) for MMA2).
 4. Get mapping! Review [basic mapping practices](/mapping/basic-mapping.html) before you start. [Playtest](/mapping/#playtesting) your own work early and often while mapping.
-5. Get lighting! Review [basic lighting information](/mapping/basic-lighting.html). Simple manual lighting is easier than you think!
-6. Get your map [playtested](/mapping/#playtesting)! Third-party playtesting via the BSMG Discord is highly recommended to get constructive feedback and to get past your own “map blindness.”
+5. Get lighting! Review [basic lighting information](/mapping/#lighting-practices). Simple manual lighting is easier than you think!
+6. Get your map [playtested](/mapping/#playtesting)! Third-party playtesting via the [BSMG Discord](https://discord.gg/beatsabermods) is highly recommended to get constructive feedback and to get past your own “map blindness."
 7. Once your song has been mapped, lighted, and playtested you’re ready to [release](/mapping/#publishing-songs) your song to the world on Beat Saver.
 
 ### Video Tutorials
@@ -29,68 +28,67 @@ Text guides aren't your thing? Checkout these video series!
 :::tip Remember: 
 The text guides on this wiki are more up to date as it is easier and quicker to change.
 :::
-* [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) **Recommended Series**
-::: warning
-Benny uses an older editor called Mediocre Mapper in these tutorials. The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
-:::
+* [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) ***Recommended Series**
 * [Freeek's Mapping and Editor Tutorials](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
 ::: warning
-Freeek uses a very old editor called EditSaber in these tutorials. Many UI elements and processes have changed in newer editors but the rest of the content is great!
+Benny and Freeek use older editors in their tutorials (Mediocre Mapper and EditSaber). The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
 :::
 
 
 ## Audio Editing Resources
-Before you can start mapping you need to choose a song, find some basic information about it, and set it up using an audio editor. The most commonly used editor is the free [Audacity](https://www.audacityteam.org/) utility. The rest of this audio section will reference how to use this tool to set up and edit your audio file.
+Before mapping, you need to get your audio file ready so that it works with your map editor. This section will walk you through how to set up and edit your audio file using a free program called [Audacity](https://www.audacityteam.org/).
 
 * [**Basic Audio Setup**](/mapping/basic-audio.md)
 * [**Advanced Audio Editing**](/mapping/advanced-audio.md)
 
 ## Map Editing Resources
-There are both official and community-developed editors available and preference is highly personal and frequently shifting as new official and community-developed tools come and go.
 
 ### Community Editors
-Community editors are often a source of innovation with a lot of beneficial quality of life features for mappers, and can be used by mappers without VR. However, they may also be incomplete, unstable, or unpredictable at times so use with caution.
+::: warning
+Community editors often have more features and don't require a VR headset, but they can be buggy, so use with caution.
+:::
 
 #### Mediocre Map Assistant 2
-A fork of a fork of a fork... the most feature rich 3D editor based off of Mediocre Mapper and is used by the majority of the mapping community, now stripped of memes and all the fun stuff. RIP Bongo cat.
+MMA2 is the most feature rich 3D editor and is used by the majority of the mapping community.
 
 * [Mediocre Map Assistant 2 Download](https://github.com/Assistant/MediocreMapAssistant2/releases/latest)
 * [Mediocre Map Assistant User Guide](/mapping/mediocre-map-assistant.md)
 
 #### BeatMapper.app
-A new web-based 3D beat saber editor that runs in the browser so it's platform agnostic. Yes, mac and linux users, this means you can map, too! Works best for standard mapping without mapping extensions but new features are being added regularly.
+A 3D editor that runs in the browser, allowing anyone with a web browser to map. It works best for standard mapping without any extensions, but new features are being added.
 * [BeatMapper Website](https://beatmapper.app/)
 * [BeatMapper User Manual](https://beatmapper.app/docs/manual/getting-started)
 
-#### ChroMapper
-**Coming soon!** ChroMapper is a unity-based full-featured editor, developed by Caeden117, which is in the final rounds of bug fixing and is in closed beta. It uses the same engine as Beat Saber, which provides a much more true-to-life preview of lights and environments. ChroMapper also has stellar support for lighting and Chroma RGB.
+#### ChroMapper (*coming soon)
+A full-featured editor that is currently in closed beta. ChroMapper shares similar assets with Beat Saber, so the visuals match better. It also has stellar support for lighting and Chroma RGB.
 
 ::: tip Interested in making your own editor or converter?
 You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [this Pastebin](https://pastebin.com/cTPGrxWY) helpful!
 :::
 
 ### Official Editor 
-The official editor is developed and supported by Beat Games and pre-installed with the Steam VR or Oculus PC versions of the game. It makes playtesting very convenient with one-click access to your work-in-progress in-game. The official editor is 2D and requires good visualization skills to translate well to a 3D play space, which can be challenging for new mappers. The vast majority of mappers use a [Community Editor](https://bsmg.wiki/mapping#community-editors).
+The official editor is developed and supported by Beat Games and pre-installed with the Steam VR or Oculus PC versions of Beat Saber. It makes playtesting very convenient with one-click access to your work-in-progress in-game. The official editor is 2D and requires good visualization skills to translate well to a 3D play space, which can be challenging for new mappers. The vast majority of mappers use a [Community Editor](https://bsmg.wiki/mapping#community-editors).
 
 * To access, launch the editor from within Beat Saber in your HMD or use fpfc launch parameters to open directly from your PC
 * Check out Megalon's [Official Editor Tutorial Video](https://www.youtube.com/watch?v=5Ex6sOEVgrM) for an overview of standard mapping!
 
 ### Additional Mapping Tools
-* [BeatMapperTools](https://mappers.beatmappertools.com/) by **Darkuni**
-A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps.
-* [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**
+* [BeatMapperTools](https://mappers.beatmappertools.com/) by **Darkuni**  
+A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps
+* [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**  
 A suite of tools for mappers **using new format .dat files** that includes:
   * **Schema Fixer:** Easily fix maps made in Mediocre Mapper Mk4.1 and Mk5 for upload to Beatsaver
-  * **Tempo Changer:** For those who need to change the BPM of their entire map that will correctly shift block placements 
+  * **Tempo Changer:** Change the BPM of an entire map and shift block placements accordingly
   * **Offset Remover:** Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error
   * **Note Sorter:** Sorts unordered notes/obstacles/events in the map file to fix stack spawning  
-* [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** A convienient way to checkout how your map might look in game without the game.  
-  * IOS and Safari are currently not supported.
-* [BPM Saber](https://github.com/zevdg/bpm-saber), by **Zevdg**
-A utility for mappers who need to change the BPM of their entire map that will correctly shift block placements. **Only works on old format .json files**
-* [BPM Saber](https://bsaber.com/bpmsaber/), by **Elliotttate**
+* [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
+A convienient way to checkout how your map might look in game without the game. 
+  * IOS and Safari are currently not supported
+* [BPM Saber](https://github.com/zevdg/bpm-saber), by **Zevdg**  
+**Only works on old format .json files.** Change the BPM of an entire map and shift block placements accordingly
+* [BPM Saber](https://bsaber.com/bpmsaber/), by **Elliotttate**  
 A utility for finding the BPM of a song
-* Fayhe's [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t)
+* [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe** 
 
 ## Mapping Practices
 > "You have to know the rules before you can break them."  
@@ -98,14 +96,12 @@ A utility for finding the BPM of a song
       
 There is no holy bible of mapping but this section of the wiki includes a lot of tribal knowledge from the community on best practices at all levels of mapping. Our advice is to follow these rules until you're comfortable with your skills and then get creative, experiment, and innovate!
 
-* [**Basic Mapping**](/mapping/basic-mapping.md) - All new mappers need to read this!
+* [**Basic Mapping**](/mapping/basic-mapping.md) - All new mappers need to read this, **no exceptions!**
 * **Intermediate Mapping** - A more in-depth look at many mapping topics (coming soon... ask in #mapping-discussion if you want more info!)
 * **Extended Mapping** - Mapping Extensions tools and 360/90 mapping (coming soon... ask in #mapping-discussion if you want more info!)
 
-There is also the [Best Practices Guide](https://bit.ly/2LjbURw), by Awfulnaut which has been updated and integrated into the [**Basic Mapping**](/mapping/basic-mapping.md) page above.
-
 ### Mapper Roles
-To apply for the **Mapper** role on the Beat Saber Modding Group discord you must have released three solid/playable maps (collaborations are acceptable) and complete the [Mapper Role Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSdtl2bmP4T5GwAMEUIGFt5xSb2KMCAkfPuVrcOMgCSmZMw3cg/viewform). Your application and maps will eventually be reviewed, but the wait for approval could be long due to limited staff.
+To apply for the **Mapper** role on the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) you must have released three solid/playable maps (collaborations are acceptable) and complete the [Mapper Role Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSdtl2bmP4T5GwAMEUIGFt5xSb2KMCAkfPuVrcOMgCSmZMw3cg/viewform). Your application and maps may take a decent amount of time to be reviewed and approved.
 
 ### Modding & Ranking
 Maps that meet specific [Ranking Criteria](https://docs.google.com/document/d/1mtVihRO1LomyptXayoDNDTQYgX_TQPp6ZYDmtwR2jMI/edit) and go through an intensive review process called “modding” have the potential to become ranked, awarding players Performance Points (PP) toward global leaderboards. More information and an in-depth FAQ is available on the [ScoreSaber Discord](https://discord.gg/WpuDMwU)
@@ -118,10 +114,10 @@ Review the [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-
 * If a ranking team member deems the map acceptable it will be added to the ranking request queue to be voted on by the full ranking team.
 
 ## Lighting Practices
-A map is not considered complete without some form of lighting included. Lighting can range from very basic to incredibly detailed using additional mods to enable more features.
+A map is not finished until some form of lighting is included. Lighting can range from very basic to incredibly detailed using additional mods to enable more features.
 
-* [**Basic Lighting**](/mapping/basic-lighting.md) - Learn the various aspects to lighting your map manually!
-* **Advanced Lighting** - Satsified with making simple lights? Learn more advanced techniques! (coming soon... ask in #mapping-discussion if you want more info!)
+* [**Basic Lighting**](/mapping/basic-lighting.md) - Learn the various aspects to lighting your map manually
+* **Advanced Lighting** - Is basic lighting not enough? Learn more advanced techniques! (coming soon... ask in #mapping-discussion if you want more info!)
 
 Below are additional lighting resources as we migrate over to the wiki pages.
 
@@ -130,16 +126,16 @@ Below are additional lighting resources as we migrate over to the wiki pages.
 * [Using Flash & Fade Lighting Events](https://bsaber.com/creating-lighting-how-flash-fade-notes-actually-work-in-game/) by ManDynasty
 * [Side Laser Speed Reference](https://docs.google.com/spreadsheets/d/1tIERmSyFI4ssjDkE-oJjBBvUZUJ7eoVhCQyM3_BsJwE/edit?usp=sharing) by LittleAsi
 
-**Lightmap** is an automated way to add lights to your map and is integrated into Mediocre Map Assistant 2 and can be accessed in the error checker menu. Keep in mind that it is not that hard to create simple manual lighting that is better at expressing the atmosphere of the song than lightmap.
+**Lightmap** adds automated lights to your map. It is integrated into Mediocre Map Assistant 2 and can be accessed in the error checker menu. However, creating simple manual lighting is not difficult and will always be better at expressing the atmosphere of the song than lightmap.
 
 ## Playtesting
-Testing your work is a critical part of mapping. Playing your own maps as you work helps you adjust for major playability issues and get a feel for your map. Third-party or “outside” playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
+Testing your work is a **critical** part of mapping. Testing as you work helps you adjust for major playability issues and get a feel for your map. Third-party or “outside” playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
 
 ::: warning
 You **do not** need to upload your map to Beat Saver in order for you or anyone else to test.
-:::
+::: 
 
-* If your map is using the 1.0 song format (your files are .json and .ogg) you must convert your map using one of several available tools like [Songe Converter](https://github.com/lolPants/songe-converter) by lolPants or [BeatMapper Tools](https://mappers.beatmappertools.com/) by Darkuni. **Update your editor to MMA2 or BeatMapper** See [Community Editors](/mapping#community-editors) for links
+* If your map is using the 1.0 song format (your files are .json and .ogg) you must convert your map using one of several available tools like [Songe Converter](https://github.com/lolPants/songe-converter) by lolPants or [BeatMapper Tools](https://mappers.beatmappertools.com/) by Darkuni. **Update your editor to MMA2 or BeatMapper**. See [Community Editors](/mapping#community-editors) for links.
 * If your map is using the 2.0 song format (your files are .dat and .ogg/.egg) you’re ready to test.
 
 ### Testing on a PC
@@ -155,17 +151,23 @@ You will need to have the **SongCore** mod installed in order to see the CustomW
 ### Testing on a Quest
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have [SideQuest](https://sidequestvr.com) and [BMBF](https://github.com/kihecido/BMBF/releases/latest) installed.
 
-1. Create a compressed .zip file of the individual song files (not the song folder).
-2. Drag and drop the .zip file onto the BMBF upload window.
-3. Click <kbd>Sync to Beat Saber</kbd>.
-4. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
+1. Zip up the song as normal, only zipping the files and not the folder itself
+2. Connect your Oculus Quest to the PC via USB and keep SideQuest open (Optionally, you can turn on Wireless mode to remove it after)
+3. BMBF must be open on the Oculus Quest for the connection to succeed
+4. Look at the top of SideQuest, which will give you the IP to get into BMBF
+5. Type into any web browser: "192.168.X.XXX:50000" with X being replaced with your IP
+![](./images/quest_ip.png)
+6. Drag and drop the files into BMBF's upload page (indicated by /main/upload at the end of the link)
+7. Once uploaded, click Sync to Beat Saber at the top right corner of the page
+![](./images/bmbf_browser.png)
+8. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
 
 :::tip
-If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through bmbf.
+If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through BMBF.
 :::
 
 ### Community / Third Party Testing
-The `#testplays` channel in the Beat Saber Modding Group discord makes it easy to have your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in either video or text format in a DM or in the `#mapping-discussion` channel.
+The `#testplays` channel in the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) makes it easy to have your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in either video or text format in a DM or in the `#mapping-discussion` channel.
 
 1. Create a compressed .zip file of the individual song files (not the song folder).
 2. Upload your map to `#testplays` using the following format:  
@@ -210,8 +212,8 @@ The BeatSaver server is slowly dying due to increased traffic. Uploading and del
 
 #### How to Release a Map
 
-1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver. If you are not recieving a verification email drop into `#mapping-discussion` for assistance.
-2. Click the *Upload* link in the top-right nav bar.
+1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver. If you are not receiving a verification email, drop into `#mapping-discussion` for assistance.
+2. Click the <kbd>Upload</kbd> link in the top-right.
 3. Add your BeatSaver map name and map description. Only the map name is searchable so be sure to include song name, song artist, and other terms that might make it easier to find your map.
 ::: tip
 Use "tags" like (Chroma), (OneSaber), or (Mapping Extensions) if your map uses some special modifications or characteristics you want to highlight.
