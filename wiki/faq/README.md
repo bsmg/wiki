@@ -13,7 +13,6 @@ If you download maps manually from BeatSaver, extract them into a folder and pla
 ### Song Management Tools
 The following are programs to be used on the desktop to help you download custom songs, with some other features as well.
 * [Beat Saber Downloader](https://drive.google.com/file/d/1QWedF77hWYbqcigIWa2UcpXlhqGTjwR1/view) a map downloader by Sturdyfool0.
-* [BeatDrop](https://bsaber.com/beatdrop/) allows you to download songs, create playlists, and also serves as a mod installer, by StarGazer1258.
 * [BeatList](https://github.com/Alaanor/beatlist) is an app to manage playlist and beatmaps, by Alaanor. 
 
 ## How do I install playlists?
