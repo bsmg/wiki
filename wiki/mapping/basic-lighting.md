@@ -9,12 +9,12 @@ _Make Beat Saber a brighter place by manually lighting your maps_
 **Content in this section was authored by LittleAsi and Kolezan or derived from original guides by Puds and MandyNasty.**  
 Many thanks to contributors from across the mapping community who made this expanded wiki possible!
 * [Glossary of Terms](/mapping/glossary.md)
-
+---
 Every map needs to have lighting of some sort. Once you know the tools at your disposal, simplistic manual lighting can be very easy. [This link](https://streamable.com/s/x7zj0/vrugyj) is a video example of very simple manual lighting  (note: it does use [forced custom colors](/mapping/basic-lighting.html#environment-colors)). You don't need to be an AaltopahWi or a Skeelie to make great lighting!
 
 ## Lighting Types
 The available lighting types are consistent across each of the built-in game environments, though they may be in slightly different positions or not present in some cases.
-* **Bottom/Back/Side or "Track" Lights:** Generally lights along the side of the track, underneath the track, and sometimes a chevron at the back of the track.
+* **Center Lights:** Generally lights along the side of the track, underneath the track, and sometimes a chevron at the back of the track. Sometimes called "Bottom/Back/Side" or "BBS" lights.
 * **Side/Top Lasers:** Sets of rotating lasers to the sides of the track or above/below the track, depending on which environment you’ve selected. Rotation is set using the Laser Speed function.
 * **Back Lasers:** Static lasers, often in an “X” pattern at the back of the track, behind the chevron.
 * **Ring Lights:** Lights attached to the inside of the large outer rings that spin in almost all environments.
@@ -89,20 +89,20 @@ Many thanks to **Aeroluna** for the environment screenshots from game version 1.
 
 | Visual (click to open full size) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Environment |
 |:----:|:---- |
-| ![Image of default environment](./images/default_env16.png) |**The First (Default) Environment**<br />**Info.dat Name:** `DefaultEnvironment` <br />**Default Colors:** Red & Blue<br />**Track Lighting:** :white_check_mark:<BR />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers |
-| ![Image of big mirror environment](./images/big-mirror_env16.png) | **Big Mirror Environment**<br />**Info.dat Name:** `BigMirrorEnvironment`<br />**Default Colors:** Red & Blue<br />**Track Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark: |
-| ![Image of nice environment](./images/nice_env16.png) | **Nice Environment**<br />**Info.dat Name:** `NiceEnvironment`<br />**Default Colors:** Red & Blue<br />**Track Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (top & bottom)<br />**Track Ring:** :white_check_mark: (circle)<br />**Inner Ring:** :white_check_mark: (shape)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers |
-| ![Image of triangle environment](./images/triangle_env16.png) | **Triangle Environment**<br />**Info.dat Name:** `TriangleEnvironment`<br />**Default Colors:** Red & Blue<br />**Track Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (compact square) <br />**Inner Ring:** :white_check_mark: (triangle)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers |
-| ![Image of crab rave environment](./images/crab-rave_env16.png) | **Crab Rave Environment**<br />**Info.dat Name:** `CrabRaveEnvironment`<br />**Default Colors:** Green & Blue<br />**Track Lighting:** :white_check_mark: (& Monstercat Logo)<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top. |
-| ![Image of glass desert environment](./images/glass-desert_env16.png) | **Glass Desert Environment**<br />**Info.dat Name:** `GlassDesertEnvironment`<br />**Default Colors:** Red & Blue<br />**Track Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: <br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark:<br />**Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels. Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top. | 
-| ![Image of Green Day environment](./images/green-day_env16.png) | **Green Day Environment**<br />**Info.dat Name:** `GreenDayEnvironment`<br />**Default Colors:** Green & Cyan<br />**Track Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (helix)<br />**Inner Ring:** :x:<br />**Equalizer:** :x:<br />**Note:** "Green Day" text in the center never turns off. |
-| ![Image of Green Day grenade environment](./images/gd-grenade_env16.png) |**Green Day Grenade Environment**<br />**Info.dat Name:** `GreenDayGrenadeEnvironment`<br />**Default Colors:** Green & Cyan<br />**Track Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :x: <br />**Equalizer:** :x:<br />**Note:** Grenade and "Green Day" text in the center never turn off. |
-| ![Image of Imagine Dragons environment](./images/dragons_env16.png) | **Imagine Dragons Environment**<br />**Info.dat Name:** `DragonsEnvironment`<br />**Default Colors:** Red & Blue<br />**Track Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :white_check_mark: (helix)<br />**Equalizer:** :white_check_mark:<br />**Note:** Back Top Laser position is the two rails on the far edges of the screen. It will always illuminate the opposite color of what you set it. |
-| ![Image of K/DA environment](./images/kda_env16.png) | **K/DA Environment**<br />**Info.dat Name:** `KDAEnvironment`<br />**Default Colors:** Purple & Orange<br />**Track Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :x:<br />**Note:** Ring Light position illuminates the five rails at the top. The lights in the center of the arrows never turn off.|
-| ![Image of Monstercat environment](./images/monstercat_env16.png) | **Monstercat Environment**<br />**Info.dat Name:** `MonstercatEnvironment`<br />**Default Colors:** Red & Blue<br />**Track Lighting:** :white_check_mark: (& Monstercat Logo)<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top. |
-| ![Image of origins environment](./images/origins_env16.png) | **Origins Environment**<br />**Info.dat Name:** `Origins`<br />**Default Colors:** Yellow & Pink notes, Blue & Light Blue lights<br />**Track Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark:<br />**Track Ring:** :white_check_mark:<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark:  |
-| ![Image of Panic at the Disco environment](./images/panic_env16.png) | **Panic at the Disco! Environment**<br />**Info.dat Name:** `PanicEnvironment`<br />**Default Colors:** Red & Blue<br />**Track Lighting:** :white_check_mark: (& windows)<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (helix)<br />**Inner Ring:** :white_check_mark: (helix)<br />**Equalizer:** :white_check_mark:<br />**Note:** Ring Lights are much brighter in this environment than in others. |
-| ![Image of rocket league environment](./images/rocket_env16.png) | **RocketLeague Environment**<br />**Info.dat Name:** `RocketEnvironment`<br />**Default Colors:** Orange & Blue<br />**Track Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :x:  |
+| ![Image of default environment](./images/default_env16.png) |**The First (Default) Environment**<br />**Info.dat Name:** `DefaultEnvironment` <br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<BR />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers |
+| ![Image of origins environment](./images/origins_env16.png) | **Origins Environment**<br />**Info.dat Name:** `Origins`<br />**Default Colors:** Yellow & Pink notes, Blue & Light Blue lights<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark:<br />**Track Ring:** :white_check_mark:<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark:  |
+| ![Image of triangle environment](./images/triangle_env16.png) | **Triangle Environment**<br />**Info.dat Name:** `TriangleEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (compact square) <br />**Inner Ring:** :white_check_mark: (triangle)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers |
+| ![Image of nice environment](./images/nice_env16.png) | **Nice Environment**<br />**Info.dat Name:** `NiceEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (top & bottom)<br />**Track Ring:** :white_check_mark: (circle)<br />**Inner Ring:** :white_check_mark: (shape)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers |
+| ![Image of big mirror environment](./images/big-mirror_env16.png) | **Big Mirror Environment**<br />**Info.dat Name:** `BigMirrorEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark: |
+| ![Image of Imagine Dragons environment](./images/dragons_env16.png) | **Imagine Dragons Environment**<br />**Info.dat Name:** `DragonsEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :white_check_mark: (helix)<br />**Equalizer:** :white_check_mark:<br />**Note:** Back Top Laser position is the two rails on the far edges of the screen. It will always illuminate the opposite color of what you set it. |
+| ![Image of K/DA environment](./images/kda_env16.png) | **K/DA Environment**<br />**Info.dat Name:** `KDAEnvironment`<br />**Default Colors:** Purple & Orange<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :x:<br />**Note:** Ring Light position illuminates the five rails at the top. The lights in the center of the arrows never turn off.|
+| ![Image of Monstercat environment](./images/monstercat_env16.png) | **Monstercat Environment**<br />**Info.dat Name:** `MonstercatEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark: (& Monstercat Logo)<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top. |
+| ![Image of crab rave environment](./images/crab-rave_env16.png) | **Crab Rave Environment**<br />**Info.dat Name:** `CrabRaveEnvironment`<br />**Default Colors:** Green & Blue<br />**Center Lighting:** :white_check_mark: (& Monstercat Logo)<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top. |
+| ![Image of Panic at the Disco environment](./images/panic_env16.png) | **Panic at the Disco! Environment**<br />**Info.dat Name:** `PanicEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark: (& windows)<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (helix)<br />**Inner Ring:** :white_check_mark: (helix)<br />**Equalizer:** :white_check_mark:<br />**Note:** Ring Lights are much brighter in this environment than in others. |
+| ![Image of rocket league environment](./images/rocket_env16.png) | **RocketLeague Environment**<br />**Info.dat Name:** `RocketEnvironment`<br />**Default Colors:** Orange & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :x:  |
+| ![Image of Green Day environment](./images/green-day_env16.png) | **Green Day Environment**<br />**Info.dat Name:** `GreenDayEnvironment`<br />**Default Colors:** Green & Cyan<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (helix)<br />**Inner Ring:** :x:<br />**Equalizer:** :x:<br />**Note:** "Green Day" text in the center never turns off. |
+| ![Image of Green Day grenade environment](./images/gd-grenade_env16.png) |**Green Day Grenade Environment**<br />**Info.dat Name:** `GreenDayGrenadeEnvironment`<br />**Default Colors:** Green & Cyan<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :x: <br />**Equalizer:** :x:<br />**Note:** Grenade and "Green Day" text in the center never turn off. |
+| ![Image of glass desert environment](./images/glass-desert_env16.png) | **Glass Desert Environment**<br />**Info.dat Name:** `GlassDesertEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: <br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark:<br />**Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels. Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top. | 
 
 ### Setting Your Environment
 New default environments become available reasonably often which means that map editors don't always have the complete list available. If the environment you want to use is not an option in your favorite editor's settings you will have to edit your `info.dat` file to add the environment name.
@@ -125,12 +125,14 @@ Setting custom colors is an **optional**, and somewhat more advanced step. If yo
 
 BeatSaber v1.4 allowed users to set the Red/Green/Blue (RGB) colors of notes, lights, and walls for their game. Mappers can "force" colors in their maps with a little bit of JSON/dat editing. As long as the user has the SongCore mod installed and the `Enable Custom Song Colors` option enabled the map will be played with the colors you set.
 
-1. Decide what RGB colors you want notes and/or lights and/or walls to be.
-	1. Your red, green, and blue values will need to be converted from the normal 0-255 scale to the 0-1 scale. Use a site like [EasyRGB](https://www.easyrgb.com/en/convert.php) to convert your values.
+1. Decide what RGB colors you want notes and/or lights and/or walls to be. Use a color scheme utility like [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF) to find complimentary colors.
+	1. **It is HIGHLY recommended that you keep reddish/warm colors on the left and blueish/cold colors on the right to avoid confusing players.**
+	2. Your red, green, and blue values will need to be converted from the normal 0-255 scale to the 0-1 scale. Use a site like [EasyRGB](https://www.easyrgb.com/en/convert.php) to convert your values.
 2. Open your `info.dat` file in the text editor of your choice
 2. Scroll down to the `"_customData": {` section.
 3. Paste whichever code blocks below correspond to the colors you want to force within the `_customData` curly brackets (`{` and `}`) then replace the `"r":`, `"g":`, and `"b":` values with whatever you chose in Step 1.
 	1. The `"r":` and `"g":` values *must* have commas after them.
+	2. See lines 17-41 of this [Pastebin clip](https://pastebin.com/x9zEiHxR) for an example of these code blocks in action in a `.DAT` file.
 
 ::: danger
 If you choose to add custom colors to your map this must be the LAST thing you do before releasing. If you open your map in the editor again after adding colors they will be erased.
@@ -139,33 +141,33 @@ If you choose to add custom colors to your map this must be the LAST thing you d
 **Left Side Block Color (default Red)**
 ```
 "_colorLeft": {
-  "r": 0.013660844415416155,
-  "g": 0,
-  "b": 0.07069587707519531
+  "r": 0.8515625,
+  "g": 0.08984375,
+  "b": 0.08984375
 },
 ```
 **Right Side Block Color (default Blue)**
 ```
 "_colorRight": {
-  "r": 0.0014191981941151946,
-  "g": 0.14107830811467803,
-  "b": 0.07064014358987808
+  "r": 0.1796875,
+  "g": 0.5390625,
+  "b": 0.91015625
 },
 ```
 **Left Side Light Color (default Red)**
 ```
 "_envColorLeft": {
-  "r": 0.013660844415416155,
-  "g": 0,
-  "b": 0.07069587707519531
+  "r": 0.8515625,
+  "g": 0.08984375,
+  "b": 0.08984375
 },
 ```
 **Right Side Light Color (default Blue)**
 ```
 "_envColorRight": {
-  "r": 0.0014191981941151946,
-  "g": 0.14107830811467803,
-  "b": 0.07064014358987808
+  "r": 0.1796875,
+  "g": 0.5390625,
+  "b": 0.91015625
 },
 ```
 **Wall Color (default Red)**
@@ -180,7 +182,7 @@ If you choose to add custom colors to your map this must be the LAST thing you d
 These tools will help PC Beat Saber users preview their lighting more accurately. Most editors do not show true-to-life lighting effects.
  
 ### In-game with FPFC
-First Person Flying Controller (FPFC) is a launch parameter that can be used by either Steam or Oculus users. You will need the [FPFCToggle](https://cdn.discordapp.com/attachments/441819897941458944/654983047250182144/FPFCToggle.dll) and [Music Escape](https://cdn.discordapp.com/attachments/441819897941458944/655236882715770910/MusicEscape.dll) mods, available through the #pc-mods channel on the BSMG discord. FPFC will open an instance of Beat Saber on your desktop and allow you to control it with your keyboard and mouse.
+First Person Flying Controller (FPFC) is a launch parameter that can be used by either Steam or Oculus users. You will need the [FPFCToggle](https://cdn.discordapp.com/attachments/484909350087950338/669685900321488947/FPFCToggle.dll) and [Music Escape](https://cdn.discordapp.com/attachments/484909350087950338/669685882349027328/MusicEscape.dll) mods, available through the #pc-mods channel on the BSMG discord. FPFC will open an instance of Beat Saber on your desktop and allow you to control it with your keyboard and mouse.
 
 `FPFCToggle` allows you to use WASD to "fly" around in your map. `Music Escape` allows you to exit your level by hitting the <kbd>ESC</kbd> key (otherwise you must play your song to completion.
 
