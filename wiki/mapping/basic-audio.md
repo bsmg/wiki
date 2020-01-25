@@ -36,9 +36,27 @@ See the [Advanced Audio Editing](/mapping/advanced-audio.md) page for more in-de
 There are three ways to find the BPM for the song which you want to map. Try them in order (easiest to hardest) if you don't get any results:
 
 ### Tool-Assisted BPM Calculation
-> This is the recommended method for songs with a constant BPM
+::: tip NOTE   
+This is the recommended method for songs with a constant BPM
+:::
 
-[Arrow Vortex](https://arrowvortex.ddrnl.com/) is a free tool to analyze a song’s BPM automatically. It will also find the offset needed to line the audio up to the beat in Audacity or your map editor. Ryger’s [Arrow Vortex BPM Analysis Tutorial](https://youtu.be/Z49UKFefu5c) includes both BPM detection and confirmation. After finding the BPM and offset values you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
+[Arrow Vortex](https://arrowvortex.ddrnl.com/) is a free tool to analyze a song’s BPM automatically. It will also find the offset needed to line the audio up to the beat in Audacity or your map editor. 
+
+**Using Arrow Vortex to find BPM and offset:**  
+These steps are the same as those used in Ryger’s [Arrow Vortex BPM Analysis Tutorial](https://youtu.be/Z49UKFefu5c) (which also includes BPM confirmation). 
+1. Download [Arrow Vortex](https://arrowvortex.ddrnl.com/) (AV), extract the file, and open `ArrowVortex.exe`
+2. Drag your song file into the AV window
+3. Go to the `View` menu and click `Time based (C-mod)` to see the waveform
+	1. Use <kbd>CTRL</kbd> + mouse scroll to zoom
+4. Go to the `Tempo` menu and click `Adjust sync...` or just press <kbd>SHIFT</kbd>+<kbd>S</kbd> to open the adjustment window.
+5. Click the <kbd>Find BPM</kbd> button
+6. If you're lucky, AV will return a single BPM value with 100% confidence. Do not round off a decimal BPM!  
+![AV adjustment window](./images/adjustments.png)
+7. Click the <kbd>Apply BPM</kbd> button
+8. Press <kbd>F3</kbd> to turn on beat ticks to confirm that the beginning, middle, and end of your track are all lined up
+9. Give the player about two seconds to get ready by clicking the `Move first beat` button ![Arrow Vortex move beat button](./images/av_movebeat.png) however many times needed to get your offset close to 2.000.
+	1. **Note:** If your song already has enough intro silence, you only need to add enough beats to make your offset positive.
+10. After finding the BPM and offset values you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
 
 If the website download does not work, a mirror download is available [here.](https://cdn.discordapp.com/attachments/443569023951568906/662417326771273728/ArrowVortex.zip)
 
@@ -63,10 +81,10 @@ This is to confirm that the BPM you have found online or manually matches the au
 3. Place the cursor at the start of the new track (Click on the track and press your Home key) and then click `Generate menu > Rhythm Track…`
 4. Input the nearest whole BPM you got earlier into the `Tempo (bpm)` field and enter the duration of the song in the optional `Rhythm track duration` field (the duration is displayed at the top right of the timeline).
 5. Copy the other recommended settings below:
-![Audacity Rhythm Track Menu](https://i.imgur.com/jC6OU0i.png)
+![Audacity Rhythm Track Menu](./images/clicktrack.png)
 
 If everything was correctly input you will have something like this:
-![Audacity main screen showing song track and rhythm track](https://i.imgur.com/R55YOXZ.png)
+![Audacity main screen showing song track and rhythm track](./images/song_rhythm.png)
 
 This click track is completely in sync with the beats in the map editor and game, but the song is currently not synced. Continue below for how to do that.
 
@@ -82,7 +100,7 @@ In all cases above you will need to time shift the song to an appropriate time b
 3. **Long intro:** Move the song forward in time (to the left in the audio track), placing the first note(s) within 8 seconds (See [Sync the Song to the Beat](/mapping/basic-audio.html#sync-the-song-to-the-beat)), then trim the audio before 0 seconds (See [Trim the Intro](/mapping/basic-audio.html#trim-the-intro)).
 
 ### Sync the Song to the Beat
-1. Select the Time Shift Tool (![Time Shift Tool](/uploads/wiki/timeshift.png)).
+1. Select the Time Shift Tool (![Time Shift Tool](./images/timeshift.png)).
 2. Left click on the song track and hold, then drag the audio so that the first planned mapped note(s) in your song ends up within the appropriate seconds (see timeline above the track) to avoid a "Hot Start" or too long intro (See [Plan Your First Notes](/mapping/basic-audio.html#plan-your-first-note) if you haven’t already).
 3. Release to place the audio in the new position.
 4. Play back the audio in this position. The song will be out of sync, so find the closest beat in the click track and align your song to the beat (click track) by moving it backward or forwards in time by small increments. Zoom in for better accuracy. Repeat until it sounds spot on.
@@ -92,7 +110,7 @@ If the BPM is correct for the first part of the song but suddenly change or drif
 :::
 
 Below shows how it looks like when the first planned mapped note(s) (cursor position) are placed after 2 seconds and the beats of the song is synced to the BPM/Click Track.
-![Audacity song lined up with rhythm track](https://i.imgur.com/Znpy0PZ.png)
+![Audacity song lined up with rhythm track](./images/synced_rhythm.png)
 After time shifting the song you will need to add silence, continue below on how to do that.
 
 ## Editing with Audacity
@@ -101,23 +119,23 @@ After syncing the song to the beat manually or by using tool assisted sync (e.g.
 ### Add Silence
 #### After manual sync:
 If the waveform/audio clip has a gap to the timeline start (0,0 seconds) you will need to add silence to the audio, or else Audacity will export from the start of the audio clip and you will lose any sync you've done. Do the following to add silence:
-1. Switch to the Selection Tool (![Selection Tool](/uploads/wiki/selection.png)).
+1. Switch to the Selection Tool (![Selection Tool](./images/selection.png)).
 2. Select the empty space between the audio clip and the start of the track (Yellow vertical lines will indicate the start and end edges when you make a selection).
 3. Click `Generate menu – > Silence…`
 4. The right amount of silence should already be input automagically so just hit OK.
 5. Done.
-![Adding silence with Audacity](https://i.imgur.com/6lZv03x.png)
+![Adding silence with Audacity](./images/add_silence.png)
 
 After generating the silence you can click the dark line in the song track to get rid of the cut.
 
 #### After tool assisted sync:
 If you've used Arrow Vortex or other tool assisted syncing then do the following to add the right amount of silence to the song track:
-1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](/uploads/wiki/selection.png)).
+1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](./images/selection.png)).
 2. Place the cursor at the start of the song track (Click on the song track and press your `Home` key).
 3. Click `Generate menu – > Silence…`
 4. Input the sync `Music offset` value you got from Arrow Vortex (or similar tool) and then click OK. 
-5. Done.
-![Adding silence with Audacity](https://i.imgur.com/BvPIHr2.png)
+5. Done.  
+![Adding silence with Audacity](./images/av_audacity.png)
 
 After generating the silence you can click the dark line in the song track to get rid of the cut.
 
@@ -126,14 +144,14 @@ This step is optional, but can be useful if you need to make a more graceful fad
 
 If your track has arrows pointing to the left at the start it means you’ve time shifted the audio forward in time outside the timeline. If you’ve done this to shorten the intro, although not necessary, it is beneficial to trim the sound clip and add a fade in. To trim and add a fade in to the song (optional) do the following:
 1. Drag a selection from 0.0 seconds to the end of the audio track (yellow vertical lines).
-2. Click Trim audio outside selection (![Trim audio to selection](https://i.imgur.com/0qOEXjQ.png)). The arrows should now disappear. 
+2. Click Trim audio outside selection (![Trim audio to selection](./images/trim.png)). The arrows should now disappear. 
 3. (Optional) Make a selection from track start (vertical yellow line) to about 0.5-1 seconds (depending on intro).
 4. (Optional) Go to `Effect menu -> Fade In`.
 5. Done.
 
 Before (left) and after trim and fade-in applied (right):
 
-![Trimming the song intro](https://i.imgur.com/AbKyyl4.png)
+![Trimming the song intro](./images/trim_fade.png)
 
 ### Check Song Volume
 To ensure that your song isn’t too soft, or even too loud for that matter, we can measure it using RMS (Root Mean Squared) in Audacity. To have a good balance between note slice sounds and your song the RMS value should be **louder than -11db** (in the verses and/or choruses) or **softer than -8.5db** (at the loudest parts).
@@ -145,7 +163,7 @@ To check the RMS value in your song do the following:
 4. In the `Volume output` field you will now find a value. Compare this value to the recommended values above.
 5. If this value is smaller (more negative) than the recommended values, see [Volume Modification: Making Your Song Louder](/mapping/basic-audio.html#making-your-song-louder).
 6. If this value is bigger than (less negative) than the recommended values see [Volume Modification: Making Your Song Softer](/mapping/basic-audio.html#making-your-song-softer).
-![Analyzing song volume with Audacity](https://i.imgur.com/EmfULcw.png)
+![Analyzing song volume with Audacity](./images/contrast.png)
 
 ### Volume Modification
 Before you continue with the next steps with the song editing it highly recommended to save your current progress as a WAVE file as a backup. This is to ensure that you if you need to go back and redo some of the editing you will have a high quality source to use. (Don’t load the OGG you exported as it will have lost a lot of the source quality.) Remove the Click Track if you haven’t already done so, then go to `File menu -> Export -> Export as WAV`, then save the file to a location of your choice.
@@ -158,7 +176,7 @@ If your song’s chorus has a lower RMS value than the recommended **-11db** the
 
 To check if you need to apply Compressor before Limiter visually analyse the waveform. If there are a lot of sharp peaks with a pretty constant body throughout the song, as shown in the example below, then you will not need to apply compressor. Only a Limiter will suffice (skip to [Limiter](/mapping/basic-audio.html#limiter)).
 
-![Viewing a song that is too quiet](https://i.imgur.com/mcuODfJ.png)
+![Viewing a song that is too quiet](./images/louder.png)
 
 However, if the waveform varies a lot between soft and loud parts then compression will most likely be needed first.
 
@@ -166,10 +184,10 @@ However, if the waveform varies a lot between soft and loud parts then compressi
 1. Select the whole song track (Double click on the track)
 2. Go to `Effects menu -> Compressor`
 3. As a starting point, copy the settings below and click OK. Make sure that `Compress based on Peaks` is checked.
-![Understanding compression](https://i.imgur.com/avQlouA.png)
+![Understanding compression](./images/compression.png)
 
 Here’s a before (top) and after (bottom) Compressor comparison:
-![Before and after compression](https://i.imgur.com/M6A60eV.png)
+![Before and after compression](./images/bna_compression.png)
 
 Check the song again and listen for any unnatural distortions, such as volume cut outs after loud peaks. If so, undo (`Ctrl-Z`), tweak the `Threshold` setting to a louder one (less negative) and apply again. If you want to know more about the settings check the [Advanced Audio Editing: Compressor](/mapping/advanced-audio.html#compressor) page.
 
@@ -178,8 +196,8 @@ Check the song again and listen for any unnatural distortions, such as volume cu
 The compressor reduces many of the unnecessary peaks and makes the more important sounds louder. However, we still haven’t reached the right RMS volume for the song. To achieve this we will remove more of the headroom using the Limiter effect:
 1. Select the whole song (Double click the song track)
 2. Go to `Effects menu -> Limiter…`
-3. As a starting point, copy the settings below:
-![Limiter in Audacity](https://i.imgur.com/6fAwHCv.png)
+3. As a starting point, copy the settings below:  
+![Limiter in Audacity](./images/limiter.png)
 4. Click OK to apply Limiter.
 
 Check the song again and listen for any unnatural distortions, such as crushed/severely distorted peaks. If so, undo (`Ctrl-Z`), tweak the `Input Gain` settings to a lower value (still above 0db) and apply again. Make sure both `Input Gain`values are the same or else the stereo image will be skewed. If you want to know more about the settings of the Limiter effect check the [Advanced Audio Editing: Limiter](/mapping/advanced-audio.html#limiter) page.
@@ -191,7 +209,7 @@ To know if you’ve reached the right volume after compressing and limiting chec
 4. In the `Volume output` field you will now find a value. This value should be between -8.5db and -9.5db for optimal level. If not, undo the limiter process and increment the `Input Gain` by +/-0.5db and try again.
 
 After limiting you will have something like this:
-![Song after limiting](https://i.imgur.com/TRkvzTc.png)
+![Song after limiting](./images/bna_limiting.png)
 You can now skip to [Trimming the Outro](/mapping/basic-audio.html#trimming-the-outro).
 
 
@@ -208,8 +226,8 @@ Before you lower the volume you want to know approximately how much you need to 
 Now let’s use the Amplify effect to lower the volume:
 1. Select the whole song (Double click the song track)
 2. Go to `Effects menu -> Amplify...`
-3. Enter the difference value you calculated earlier (it should be negative) into the `Amplification` field.
-`New Peak Amplification` field will repeat what the first input field says, this is normal for a song that is already peaking at 0db. ![Amplification menu](https://i.imgur.com/OoyhGek.png)
+3. Enter the difference value you calculated earlier (it should be negative) into the `Amplification` field. `New Peak Amplification` field will repeat what the first input field says, this is normal for a song that is already peaking at 0db.   
+![Amplification menu](./images/amplify.png)
 4. Click OK to apply a negative Amplify effect.
 5. Done.
 
@@ -220,7 +238,7 @@ To know if you’ve reached the right volume check again with the RMS volume too
 4. In the `Volume output` field you will now find a value. This value should be between -8.5db and -9.5db for optimal level. If not, undo the Amplify process and increment the Input value by +/- 0.5db and try again.
 
 After the negative value Amplify effect your song will look something like this:
-![Amplification effect](https://i.imgur.com/EIu7AFi.png)
+![Amplification effect](./images/bna_amplify.png)
 
 
 #### Trimming the Outro
