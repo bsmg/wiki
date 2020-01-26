@@ -10,7 +10,19 @@ _Get your audio file set up and ready for mapping_
 Many thanks to contributors from across the mapping community who made this expanded wiki possible!
 * [Glossary of Terms](/mapping/glossary.md)
 
-This page provides both new and experienced mappers with general recommendations for setting up a new song file before starting to map. Not all sections may apply for your song, so review the table of contents to the left and skip any sections you deem unnecessary.
+This page provides both new and experienced mappers with general recommendations for setting up a new song file before starting to map. Review the quick start guide below for steps that are **critical** before you begin mapping vs. those that can be done at any time, if they're needed.
+
+## Audio Setup Quick Start
+::: warning
+Steps 1-4 **MUST** be completed before you start mapping or your audio will be out of sync and may have a [*hot start*](./glossary.html#h).
+:::
+1. [Find the BPM](./basic-audio.html#finding-the-bpm) and offset of your song
+2. [Add a click track](./basic-audio.html#add-a-click-track) to verify your BPM and [sync your song](./basic-audio.html#sync-the-song-to-the-beat)
+3. Figure out if you have [enough intro/silence](./basic-audio.html#plan-your-first-note) at the start of your song and [add silence](./basic-audio.html#add-silence)
+4. Remove your click track then [Export your song](./basic-audio.html#exporting) as an `.ogg` format file
+
+**Any time before upload:**  
+5. [Check your song volume](./basic-audio.html#check-song-volume) and make it [louder](./basic-audio.html#making-your-song-louder) or [softer](./basic-audio.html#making-your-song-softer) as needed
 
 ## Song Selection for New Mappers
 Below are recommendations, **not** requirements, and will help to ease you into mapping. If you want to map 17 minutes of "In A Gadda Da Vida" for your first map then have at it but know that you’ll face a **lot** of additional challenges.
