@@ -75,7 +75,7 @@ Once you've finished one-time editor setup you're ready to create your first map
 
 ### Song Creation
 You have two options to create your song folder:
-1. Enter your desired folder name in the 'Create New Level' pane and click <kbd>Create Level</kbd>. Your new folder will automatically appear in your map list.
+1. Enter your desired folder name in the 'Create New Level' pane and click <kbd>Create Level</kbd>. Your new folder will automatically appear in your map list.  
 ![Using "Create A New Level" to make a song folder](./images/mma2-create-new-level.jpg)
 2. Navigate to your `CustomWIPLevels` folder and make a folder with your desired folder name. You will need to click <kbd>Refresh Song List</kbd> to see your folder.
 
@@ -84,7 +84,7 @@ Click <kbd>Edit</kbd> to enter your song information and metadata.
 ### Song Info Settings
 The `Song Info` page is the first screen you see every time you edit a map.
 <p align="center">
-![Mediocre Map Assistant 2 song setup screen](./images/mma2-song-setup.jpg)
+![Mediocre Map Assistant 2 song setup screen](./images/mma2-song-info.jpg)
 </p>
 
 #### Whole Map Settings
