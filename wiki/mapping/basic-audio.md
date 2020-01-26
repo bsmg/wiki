@@ -93,7 +93,7 @@ This is to confirm that the BPM you have found online or manually matches the au
 3. Place the cursor at the start of the new track (Click on the track and press your Home key) and then click `Generate menu > Rhythm Track…`
 4. Input the nearest whole BPM you got earlier into the `Tempo (bpm)` field and enter the duration of the song in the optional `Rhythm track duration` field (the duration is displayed at the top right of the timeline).
 5. Copy the other recommended settings below:
-![Audacity Rhythm Track Menu](./images/clicktrack.png)
+![Audacity Rhythm Track Menu](./images/click-track-1.png)
 
 If everything was correctly input you will have something like this:
 ![Audacity main screen showing song track and rhythm track](./images/song_rhythm.png)
