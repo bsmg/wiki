@@ -71,6 +71,6 @@ One of the first creators to mass produce avatars, and thus give birth to this r
 
 ::: tip See Also
 **Support:** [Emma](/about/supports.md#emma)
-**Moderators:** [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [DeeJay](/about/moderators.md#DeeJay)
+**Moderators:** [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [DeeJay](/about/moderators.md#DeeJay) | [Pink](/about/moderators.md#Pink)
 **Staff:** [Assistant](/about/staff.md#assistant) | [bobbie](/about/staff.md#bobbie)
 :::
