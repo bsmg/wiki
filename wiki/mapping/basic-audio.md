@@ -14,15 +14,16 @@ This page provides both new and experienced mappers with general recommendations
 
 ## Audio Setup Quick Start
 ::: warning
-Steps 1-4 **MUST** be completed before you start mapping or your audio will be out of sync and may have a [*hot start*](./glossary.html#h).
+Steps 1-5 **MUST** be completed before you start mapping or your audio will be out of sync and may have a [*hot start*](./glossary.html#h).
 :::
-1. [Find the BPM](./basic-audio.html#finding-the-bpm) and offset of your song
-2. [Add a click track](./basic-audio.html#add-a-click-track) to verify your BPM and [sync your song](./basic-audio.html#sync-the-song-to-the-beat)
-3. Figure out if you have [enough intro/silence](./basic-audio.html#plan-your-first-note) at the start of your song and [add silence](./basic-audio.html#add-silence)
-4. Remove your click track then [Export your song](./basic-audio.html#exporting) as an `.ogg` format file
+1. Download and Install [Audacity](https://www.audacityteam.org/)
+2. [Find the BPM](./basic-audio.html#finding-the-bpm) and offset of your song
+3. [Add a click track](./basic-audio.html#add-a-click-track) to verify your BPM and [sync your song](./basic-audio.html#sync-the-song-to-the-beat)
+4. Figure out if you have [enough intro/silence](./basic-audio.html#plan-your-first-note) at the start of your song and [add silence](./basic-audio.html#add-silence)
+5. Remove your click track then [Export your song](./basic-audio.html#exporting) as an `.ogg` format file
 
 **Any time before upload:**  
-5. [Check your song volume](./basic-audio.html#check-song-volume) and make it [louder](./basic-audio.html#making-your-song-louder) or [softer](./basic-audio.html#making-your-song-softer) as needed
+6. [Check your song volume](./basic-audio.html#check-song-volume) and make it [louder](./basic-audio.html#making-your-song-louder) or [softer](./basic-audio.html#making-your-song-softer) as needed
 
 ## Song Selection for New Mappers
 Below are recommendations, **not** requirements, and will help to ease you into mapping. If you want to map 17 minutes of "In A Gadda Da Vida" for your first map then have at it but know that you’ll face a **lot** of additional challenges.

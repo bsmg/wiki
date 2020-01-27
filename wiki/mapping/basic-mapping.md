@@ -32,6 +32,11 @@ Regardless of what editor you choose to map with, every map needs:
 Some editors will automatically create an `Autosaves` folder where you can retrieve older copies of your work if needed. When you’re ready to prepare your song for upload you must have a minimum of four files.
 
 When you’re ready to prepare your song for upload you must have a minimum of four files.
+
+::: warning
+Special characters in languages such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by Beat Saber or Beatsaver. Using these characters in song metadata or in bookmarks can cause problems.
+:::
+
 ### Block Types
 
 | Directional Blocks | Dot Blocks | Bombs | Walls |
