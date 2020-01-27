@@ -31,6 +31,13 @@ The first time you run MMA2 you will need to direct it to the location of two fo
 
 All of your working map files will go into a song name folder within this CustomWIPLevels folder.
 
+::: tip NOTE for Steam Users
+It is a known bug that the autodetect path MMA2 uses is missing a `\` between `Beat Saber` and `Beat Saber_Data` for both folders. If MMA2 gives an error on your path, make sure it is  
+`C:\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`  
+instead of  
+`C:\Steam\steamapps\common\Beat SaberBeat Saber_Data\CustomLevels`
+:::
+
 ### Editor Settings
 Once you've set up your paths, these core settings are all available from the song selection page when you first open the program.
 <p align="center">
@@ -51,6 +58,11 @@ There are several functions available to you on this screen:
 * The <kbd>Edit</kbd> button next to a map opens it in MMA2. 
 * The <kbd>Delete</kbd> button next to a map perma-deletes it. **Note:** Once deleted this way maps are gone forever and unrecoverable.
 * The <kbd>Star</kbd> button next to a map favorites it, bumping it to the top of the list.
+
+::: danger 
+Maps deleted by the delete button in MMA2 are not sent to the Recycle Bin and are **permanently removed.**  
+This includes the autosaves folder. Please be certain and/or keep backups of your work in a separate location.
+:::
 
 #### Map Creation
 Below the map selection pane you can create a new empty song folder in `CustomWIPLevels` by entering the desired name of your folder (typically Song Name or Artist - Song Name) then clicking <kbd>Create Level</kbd>.
@@ -89,6 +101,11 @@ The `Song Info` page is the first screen you see every time you edit a map.
 
 #### Whole Map Settings
 On the left side of the `Song Info` page is information that applies to your whole map. See [Beat Saber Metadata Criteria](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) for standards on presenting complex song names and multiple artists.
+
+::: warning
+Special characters in languages such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by Beat Saber or Beatsaver. Using these characters in song metadata or in bookmarks can cause problems.
+:::
+
 * **Song Name:** The primary name of the song
 * **Song SubName:** Any following tags like (Short Ver.), (SDVX Mix), etc.
 * **Song Artist:** The person or group who authored the song

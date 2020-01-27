@@ -132,7 +132,7 @@ Below are additional lighting resources as we migrate over to the wiki pages.
 Testing your work is a **critical** part of mapping. Testing as you work helps you adjust for major playability issues and get a feel for your map. Third-party or “outside” playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
 
 ::: warning
-You **do not** need to upload your map to Beat Saver in order for you or anyone else to test.
+You **DO NOT** need to upload your map to Beat Saver in order for you or anyone else to test.
 ::: 
 
 * If your map is using the 1.0 song format (your files are .json and .ogg) you must convert your map using one of several available tools like [Songe Converter](https://github.com/lolPants/songe-converter) by lolPants or [BeatMapper Tools](https://mappers.beatmappertools.com/) by Darkuni. **Update your editor to MMA2 or BeatMapper**. See [Community Editors](/mapping#community-editors) for links.
@@ -144,8 +144,9 @@ Follow these steps to test any of your maps made with a community editor using P
 1. If your WIP song folder isn’t already in `Beat Saber_Data\CustomWIPLevels` then place a copy there.
 2. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
 
-::: tip NOTE
-You will need to have the **SongCore** mod installed in order to see the CustomWIPLevels category.
+::: warning NOTE
+* You will need to have the **SongCore** mod installed in order to see the CustomWIPLevels category.
+* Having duplicate map files in `CustomLevels` and `CustomWIPLevels` can cause problems.
 :::  
 
 ### Testing on a Quest
@@ -223,18 +224,18 @@ Map files cannot currently be updated on BeatSaver. If you need to upload a new 
 ### BeatSaver Troubleshooting
 Here are solutions for some common errors when uploading a Beatmap.  
 Encountered something not listed here? Drop into `#mapping-discussion` for assistance.
-  - **Something went wrong! Try again later.**
-    - Usually caused by an upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.
-  - **Field `._customData._customEnviroment` cannot be blank.**
-    - This is caused by using an editor not compliant with the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.
-  - **Beatmap zip contains an illegal file!**
-    - Usually caused by extra/unsupported files, such as gifs, in the zip.
-  - **Beatmap already exists!**
-    - The exact map files were uploaded previously. You must change something small in your map (i.e., remove a light block, save the map, replace the light block, and save again) to be able to upload.
-  - **Beatmap does not contain an info.dat file!**
-    - Usually caused by having the files in a subfolder. You need to zip the files instead of the folder. [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead. **NOTE: MMA2's export button does not include contributor images in the zip.**
-  - **Beatmap could not be parsed!**
-    - This could be caused by extreme server load. Try again later or ask in `#mapping-discussion`.
+  - **Something went wrong! Try again later.**  
+    Usually caused by an upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.
+  - **Field `._customData._customEnviroment` cannot be blank.**  
+    This is caused by using an editor not compliant with the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.
+  - **Beatmap zip contains an illegal file!**  
+    Usually caused by extra/unsupported files, such as gifs, in the zip.
+  - **Beatmap already exists!**  
+    The exact map files were uploaded previously. You must change something small in your map (i.e., remove a light block, save the map, replace the light block, and save again) to be able to upload.
+  - **Beatmap does not contain an info.dat file!**  
+    Usually caused by having the files in a subfolder. You need to zip the files instead of the folder. [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead. **NOTE: MMA2's export button does not include contributor images in the zip.**
+  - **Beatmap could not be parsed!**  
+    This could be caused by extreme server load. Try again later or ask in `#mapping-discussion`.
 
 #### BeatSaver Data Schema Change - October 27, 2019
 BeatSaver now enforces a schema in order for your maps to be uploaded, of which public MediocreMapper is not compliant with. The most breaking change happened in the difficulty data files, where MM-specific fields were moved inside a `_customData` object.
