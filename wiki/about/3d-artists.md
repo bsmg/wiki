@@ -9,9 +9,6 @@ As you can read I make sabers for quest, but generally I've been active in the a
 
 [PayPal](https://paypal.me/RedBrumblerOfficial?locale.x=nl_NL) | [Patreon](https://www.patreon.com/RedBrumbler) | [Ko-Fi](https://ko-fi.com/redbrumbler) | [Youtube](https://www.youtube.com/channel/UCYmzlDob8BQYWrOQWkHtCpQ) | [Facebook](https://www.facebook.com/red.brumbler.7) | [Twitter](https://twitter.com/RedBrumbler) | [Github](https://github.com/RedBrumbler/BeatOnCustomSabers) | [Reddit](https://www.reddit.com/user/RedBrumbler/)
 
-## PinkSaber
-Quest Modeler that'll dm me details about this entry later.
-
 ## Yuuki
 3D Artist and Quest Modder. Supporting the VR community in any way that I can! Primarily focusing on offering niche Beat Saber mods for the Quest and helping enhance gameplay through 3D models.
 
@@ -74,6 +71,6 @@ One of the first creators to mass produce avatars, and thus give birth to this r
 
 ::: tip See Also
 **Support:** [Emma](/about/supports.md#emma)
-**Moderators:** [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [DeeJay](/about/moderators.md#DeeJay)
+**Moderators:** [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [DeeJay](/about/moderators.md#DeeJay) | [Pink](/about/moderators.md#Pink)
 **Staff:** [Assistant](/about/staff.md#assistant) | [bobbie](/about/staff.md#bobbie)
 :::

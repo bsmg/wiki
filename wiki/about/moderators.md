@@ -64,9 +64,22 @@ One hell of a developer and a lover of socks. lolPants laid the groundwork for m
 [GitHub](https://github.com/lolPants) | [Twitch](https://twitch.tv/lolpants_) | [PayPal](https://www.paypal.me/jackbarondev) | [Ko-fi](https://ko-fi.com/lolpants) | [Patreon](https://www.patreon.com/JackBaron) | [Donate](https://monzo.me/jackbaron)
 
 ## Caeden117
-How many statistics could we fit into a single counters mod? A lot apparently. He's also responsible for the modding tutorials on this wiki and Chromapper, a soon to be released mapping software with Chroma RGB light support.
+How many statistics could we fit into a single counters mod? A lot apparently. He's also responsible for the modding tutorials on this wiki and ChroMapper, a soon to be released mapping software with Chroma RGB light support.
 
 **Roles:** Modder, Moderator  
-**Contributions:** CountersPlus, wiki modding tutorials
+**Contributions:** Counters+, wiki modding tutorials
 
 [GitHub](https://github.com/caeden117) | [Donate](https://ko-fi.com/Caeden117)
+
+## Rugtveit
+*"Norweigan dude." I'm not so creative* ~Rugtveit
+
+**Roles:** Modder, Moderator
+**Contributions:** FPSCounter, QSettings+, Short Trail
+[GitHub](https://github.com/Rugtveit)
+
+## Pink
+The only Moderator to ghost us when asked for a description for this page.
+
+**Roles:** 3D Artists, Moderator
+**Contributions:** Advanced Config, plenty of Quest models

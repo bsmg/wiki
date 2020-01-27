@@ -98,12 +98,6 @@ Face off against your friends with his [Versus](https://versusmod.com/) mod.
 **Contributions:** Versus
 [GitHub](https://github.com/raftario)
 
-## Rugtveit
-**Roles:** Modder
-**Contributions:** QSettingsPlus, QParticles
-[GitHub](https://github.com/raftario)
-
-
 ## Shadnix
 Current maintainer of Saber Tailor
 
@@ -243,6 +237,7 @@ Creator of CustomUI, making the creation of new UI components a breeze for modde
 ---
 
 ::: tip See Also
-**Support:** [Pespiri](/about/supports#pespiri)
+**Support:** [Pespiri](/about/supports.mds#pespiri)
+**Moderator:** [Caeden117](/about/moderators.md#Caeden117) | [Rugtveit](/about/moderators.md#Rugtveit)
 **Staff:** [Steven](/about/staff.md#steven-🎀)  | [Reaxt](/about/staff.md#reaxt) | [Megalon](/about/staff.md#megalon)
 :::
