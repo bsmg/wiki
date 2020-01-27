@@ -98,12 +98,6 @@ Face off against your friends with his [Versus](https://versusmod.com/) mod.
 **Contributions:** Versus
 [GitHub](https://github.com/raftario)
 
-## Rugtveit
-**Roles:** Modder
-**Contributions:** QSettingsPlus, QParticles
-[GitHub](https://github.com/raftario)
-
-
 ## Shadnix
 Current maintainer of Saber Tailor
 
