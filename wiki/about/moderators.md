@@ -76,6 +76,7 @@ How many statistics could we fit into a single counters mod? A lot apparently. H
 
 **Roles:** Modder, Moderator  
 **Contributions:** FPSCounter, QSettings+, Short Trail  
+
 [GitHub](https://github.com/Rugtveit)
 
 ## Pink
@@ -88,4 +89,5 @@ The only Moderator to ghost us when asked for a description for this page.
 Any stroopwafels?  
 
 **Roles:** Moderator  
+
 [Twitch](https://twitch.tv/olafstad)
