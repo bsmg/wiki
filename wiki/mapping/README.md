@@ -226,10 +226,12 @@ Here are solutions for some common errors when uploading a Beatmap.
 Encountered something not listed here? Drop into `#mapping-discussion` for assistance. 
 
 **Something went wrong! Try again later.**   
-  **>>** Usually caused by an upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.  
+  This is the default error message, causes include:  
+  **>>** An upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.  
+  **>>** Illegal characters are present in a map file. [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit** may be useful in finding the specific problem.
 
 **Field `._customData._customEnviroment` cannot be blank.**  
-  **>>** This is caused by using an editor not compliant with the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.  
+  **>>** Your files are not compliant the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.  
 
 **Beatmap zip contains an illegal file!**  
   **>>** Usually caused by extra/unsupported files, such as gifs, in the zip.  
@@ -239,6 +241,11 @@ Encountered something not listed here? Drop into `#mapping-discussion` for assis
 
 **Beatmap does not contain an info.dat file!**  
   **>>** Usually caused by having the files in a subfolder. You need to zip the files instead of the folder. [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead. **NOTE: MMA2's export button does not include contributor images in the zip.**  
+
+**One or more beatmap difficulty files cannot be found!**  
+  **>>** You might have forgotten to include all of your difficultiy files are in the zip.  
+  **>>** A difficulty's `"_beatmapFilename"` in the `info.dat` might be using a different file name than what is present in the folder.  
+  **>>** A deleted difficulty is still being referenced in your `info.dat` file. Check to make sure you do not have unintended difficulties in the `"_difficultyBeatmaps"` cluster of each present characteristc.  
 
 **Beatmap could not be parsed!**  
   **>>** This could be caused by extreme server load. Try again later or ask in `#mapping-discussion`.  
