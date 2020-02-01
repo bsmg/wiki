@@ -6,7 +6,6 @@ next: ./intermediate-mapping.md
 # Basic Mapping
 _If you are a new mapper, read this page from top to bottom. Every word. Every picture. This page will give you all the info and best practices you need to make a solid first map!_
 
-Many thanks to contributors from across the mapping community who made this expanded wiki possible!
 * [Glossary of Terms](/mapping/glossary.md)
 
 ## Ready to Map?

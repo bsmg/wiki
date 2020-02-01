@@ -6,8 +6,6 @@ next: ./advanced-audio.md
 # Basic Audio Setup
 _Get your audio file set up and ready for mapping_
 
-**Content in this section is derived from original guides by Kolezan & Nik.**  
-Many thanks to contributors from across the mapping community who made this expanded wiki possible!
 * [Glossary of Terms](/mapping/glossary.md)
 
 This page provides both new and experienced mappers with general recommendations for setting up a new song file before starting to map. Review the quick start guide below for steps that are **critical** before you begin mapping vs. those that can be done at any time, if they're needed.
@@ -282,3 +280,6 @@ The song/audio file is now ready to be used in any map editor. Input the same BP
 ::: warning NOTE
 Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file limit. If this is the case export at a lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord (without Nitro) for playtesting.
 :::
+
+## Credits
+Content on this page is derived from guides by **Kolezan** & **Nik**.
