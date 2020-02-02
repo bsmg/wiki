@@ -21,12 +21,12 @@ It is **VERY** important to unzip the file in step 2 as not doing so will cause 
 ### First Time Setup
 The first time you run MMA2 you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
 
-**If you have VR and Beat Saber:**
+**If you have the Steam or Oculus version installed on the computer:**
 * Give MMA2 the path to the two appropriate folders
 * Steam Example: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`
 * Oculus Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
 
-**If you don't have VR or Beat Saber -OR- have VR but don’t have Beat Saber:**
+**If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
 * Make two folders called `CustomLevels` and `CustomWIPLevels`
 * Example: `C:\Users\Helen\Documents\CustomWIPLevels`
 <p align="center">
