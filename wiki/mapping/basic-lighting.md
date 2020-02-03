@@ -6,11 +6,9 @@ next: false
 # Basic Lighting
 _Make Beat Saber a brighter place by manually lighting your maps_
 
-**Content in this section was authored by LittleAsi and Kolezan or derived from original guides by Puds and MandyNasty.**  
-Many thanks to contributors from across the mapping community who made this expanded wiki possible!
 * [Glossary of Terms](/mapping/glossary.md)
 ---
-Every map needs to have lighting of some sort. Once you know the tools at your disposal, simplistic manual lighting can be very easy. [This link](https://streamable.com/s/x7zj0/vrugyj) is a video example of very simple manual lighting  (note: it does use [forced custom colors](/mapping/basic-lighting.html#environment-colors)). You don't need to be an AaltopahWi or a Skeelie to make great lighting!
+Every map needs to have lighting of some sort. Once you know the tools at your disposal, simplistic manual lighting can be very easy. [This link](https://streamable.com/s/x7zj0/vrugyj) is a video example of very simple manual lighting  (Note: The example uses [Map Color Overrides](/mapping/basic-lighting.html#map-color-overrides)). You don't need to be an AaltopahWi or a Skeelie to make great lighting!
 
 ## Lighting Types
 The available lighting types are consistent across each of the built-in game environments, though they may be in slightly different positions or not present in some cases.
@@ -118,24 +116,29 @@ If you choose to add a different default environment to your map via file editin
 
 > **NOTE:** You cannot use a custom platform in this field. This will be covered in Intermediate Lighting (coming soon!)
 
-## Environment Colors
-::: tip NOTE
-Setting custom colors is an **optional**, and somewhat more advanced step. If you're not comfortable editing your `.dat` files then skip this for now.
+## Map Color Overrides
+Beat Saber v1.4 allows users to set the Red/Green/Blue (RGB) colors of notes, lights, and walls for their game. With these overrides, Mappers can force their own color scheme in-game as long as the user has the SongCore mod installed and the `Enable Custom Song Colors` option is enabled.
+
+:::tip 
+When choosing color overrides for the notes. It is **HIGHLY** recommended that you keep reddish/warm colors on the left and blueish/cold colors on the right to avoid confusing players.
 :::
 
-BeatSaber v1.4 allowed users to set the Red/Green/Blue (RGB) colors of notes, lights, and walls for their game. Mappers can "force" colors in their maps with a little bit of JSON/dat editing. As long as the user has the SongCore mod installed and the `Enable Custom Song Colors` option enabled the map will be played with the colors you set.
+[BeatMapper](/mapping/#beatmapper-app) and [ChroMapper](/mapping/#chromapper-coming-soon) natively support color overrides. Check their respective guides for more information.  
+[MMA2](/mapping/#mediocre-map-assistant-2) does not support color overrides and requires manual editing of your map files or use of [BeatMapperTools](https://mappers.beatmappertools.com/) by **Darkuni**.
 
+### Manually Adding Color Overrides
 1. Decide what RGB colors you want notes and/or lights and/or walls to be. Use a color scheme utility like [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF) to find complimentary colors.
-	1. **It is HIGHLY recommended that you keep reddish/warm colors on the left and blueish/cold colors on the right to avoid confusing players.**
-	2. Your red, green, and blue values will need to be converted from the normal 0-255 scale to the 0-1 scale. Use a site like [EasyRGB](https://www.easyrgb.com/en/convert.php) to convert your values.
+	* Your red, green, and blue values will need to be converted from the normal 0-255 scale to the 0-1 scale. Use a site like [EasyRGB](https://www.easyrgb.com/en/convert.php) to convert your values.
 2. Open your `info.dat` file in the text editor of your choice
 2. Scroll down to the `"_customData": {` section.
 3. Paste whichever code blocks below correspond to the colors you want to force within the `_customData` curly brackets (`{` and `}`) then replace the `"r":`, `"g":`, and `"b":` values with whatever you chose in Step 1.
-	1. The `"r":` and `"g":` values *must* have commas after them.
-	2. See lines 17-41 of this [Pastebin clip](https://pastebin.com/x9zEiHxR) for an example of these code blocks in action in a `.DAT` file.
+	* The `"r":` and `"g":` values **must** have commas after them.
 
-::: danger
-If you choose to add custom colors to your map this must be the LAST thing you do before releasing. If you open your map in the editor again after adding colors they will be erased.
+See lines 17-41 of this [Pastebin clip](https://pastebin.com/x9zEiHxR) for an example of these code blocks in action in a `.DAT` file.
+
+::: danger WARNING for MMA2 Users
+If you choose to manualy add color overrides to your map this must be the **LAST** thing you do before releasing.  
+Opening your map in the editor again will remove your color overrides.
 :::
 
 **Left Side Block Color (default Red)**
@@ -195,3 +198,6 @@ For example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-bea
 
 ### Online with BS Viewer
 [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** is an online tool that is a convienient way to checkout how your map might look in game without the game. Just upload your map zip to the website and preview! Unfortunately **IOS and Safari are currently not supported.**
+
+## Credits
+Content in this section was authored by **LittleAsi** and **Kolezan** or derived from guides by **Puds** and **MandyNasty**. 

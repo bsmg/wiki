@@ -6,7 +6,6 @@ next: false
 # Advanced Audio Editing
 _Diving deeper into audio editing_
 
-**Content in this section is derived from original guides by n3tman and LittleAsi, edited by Kolezan. Many thanks to contributors from across the mapping community who made this expanded wiki possible!**
 * [Glossary of Terms](/mapping/glossary.md)
 
 On this page you will find additional guides and resources for better understanding audio or more advanced techniques of editing audio.
@@ -141,3 +140,6 @@ There are several methods to go about handling variable BPM:
 * Manually time the BPM changes in MedicoreMapper. [Video tutorial by BennyDaBeast here](https://www.youtube.com/watch?v=6AwR4SeaiHU).
 * Use a DAW software and find all the tempo changes using a tempo track editor. Use Jumps instead of Ramps as that’s how MediocreMapper changes tempo. When you’ve found all the tempo changes input those into MediocreMapper. (Remember, DAW softwares usually display measures and beats, but MediocreMapper only displays beats.)
 * Use a DAW software and time warp the sound into a fixed BPM. This, however, could introduce artifacts or warp the sound and could be more easily noticeable by listeners/players.
+
+## Credits
+Content in this section is derived from guides by **n3tman** and **LittleAsi**, edited by **Kolezan**.

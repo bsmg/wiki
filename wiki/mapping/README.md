@@ -59,8 +59,8 @@ A 3D editor that runs in the browser, allowing anyone with a web browser to map.
 * [BeatMapper Website](https://beatmapper.app/)
 * [BeatMapper User Manual](https://beatmapper.app/docs/manual/getting-started)
 
-#### ChroMapper (*coming soon)
-A full-featured editor that is currently in closed beta. ChroMapper shares similar assets with Beat Saber, so the visuals match better. It also has stellar support for lighting and Chroma RGB.
+#### ChroMapper - *Coming Soon*
+A 3D editor that has stellar support for lighting, Chroma RGB, and shares similar assets with Beat Saber, allowing for a more accurate preview. ChroMapper is currently in closed beta with no planned public release date.
 
 ::: tip Interested in making your own editor or converter?
 You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/blob/master/README.md) and [the Beatmap Schemas](https://github.com/lolPants/beatmap-schemas/tree/master/schemas) helpful!
@@ -223,19 +223,32 @@ Map files cannot currently be updated on BeatSaver. If you need to upload a new 
 
 ### BeatSaver Troubleshooting
 Here are solutions for some common errors when uploading a Beatmap.  
-Encountered something not listed here? Drop into `#mapping-discussion` for assistance.
-  - **Something went wrong! Try again later.**  
-    Usually caused by an upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.
-  - **Field `._customData._customEnviroment` cannot be blank.**  
-    This is caused by using an editor not compliant with the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.
-  - **Beatmap zip contains an illegal file!**  
-    Usually caused by extra/unsupported files, such as gifs, in the zip.
-  - **Beatmap already exists!**  
-    The exact map files were uploaded previously. You must change something small in your map (i.e., remove a light block, save the map, replace the light block, and save again) to be able to upload.
-  - **Beatmap does not contain an info.dat file!**  
-    Usually caused by having the files in a subfolder. You need to zip the files instead of the folder. [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead. **NOTE: MMA2's export button does not include contributor images in the zip.**
-  - **Beatmap could not be parsed!**  
-    This could be caused by extreme server load. Try again later or ask in `#mapping-discussion`.
+Encountered something not listed here? Drop into `#mapping-discussion` for assistance. 
+
+**Something went wrong! Try again later.**   
+  This is the default error message, causes include:  
+  * An upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.  
+  * Illegal characters are present in a map file. Make sure your metadata and bookmarks don't contain special characters. [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit** may be useful in finding the specific problem.
+
+**Field `._customData._customEnviroment` cannot be blank.**  
+  * Your files are not compliant the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.  
+
+**Beatmap zip contains an illegal file!**  
+  * Usually caused by extra/unsupported files, such as gifs, in the zip.  
+
+**Beatmap already exists!**  
+  * The exact map files were uploaded previously. You must change something small in your map (i.e., remove a light block, save the map, replace the light block, and save again) to be able to upload.  
+
+**Beatmap does not contain an info.dat file!**  
+  * Usually caused by having the files in a subfolder. You need to zip the files instead of the folder. [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead. **NOTE: MMA2's export button does not include contributor images in the zip.**  
+
+**One or more beatmap difficulty files cannot be found!**  
+  * You might have forgotten to include all of your difficultiy files are in the zip.  
+  * A difficulty's `"_beatmapFilename"` in the `info.dat` might be using a different file name than what is present in the folder.  
+  * A deleted difficulty is still being referenced in your `info.dat` file. Check to make sure you do not have unintended difficulties in the `"_difficultyBeatmaps"` cluster of each present characteristc.  
+
+**Beatmap could not be parsed!**  
+  * This could be caused by extreme server load. Try again later or ask in `#mapping-discussion`.  
 
 #### BeatSaver Data Schema Change - October 27, 2019
 BeatSaver now enforces a schema in order for your maps to be uploaded, of which public MediocreMapper is not compliant with. The most breaking change happened in the difficulty data files, where MM-specific fields were moved inside a `_customData` object.
