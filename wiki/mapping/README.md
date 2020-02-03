@@ -228,7 +228,7 @@ Encountered something not listed here? Drop into `#mapping-discussion` for assis
 **Something went wrong! Try again later.**   
   This is the default error message, causes include:  
   **>>** An upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.  
-  **>>** Illegal characters are present in a map file. [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit** may be useful in finding the specific problem.
+  **>>** Illegal characters are present in a map file. Make sure your metadata and bookmarks don't contain special characters. [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit** may be useful in finding the specific problem.
 
 **Field `._customData._customEnviroment` cannot be blank.**  
   **>>** Your files are not compliant the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.  
