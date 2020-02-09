@@ -117,7 +117,7 @@ Review the [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-
 A map is not finished until some form of lighting is included. Lighting can range from very basic to incredibly detailed using additional mods to enable more features.
 
 * [**Basic Lighting**](/mapping/basic-lighting.md) - Learn the various aspects to lighting your map manually
-* **Advanced Lighting** - Is basic lighting not enough? Learn more advanced techniques! (coming soon... ask in #mapping-discussion if you want more info!)
+* **Advanced Lighting** - Is Basic Lighting not enough? Learn more advanced techniques! (coming soon... ask in #mapping-discussion if you want more info!)
 
 Below are additional lighting resources as we migrate over to the wiki pages.
 
@@ -196,16 +196,16 @@ You can copy and paste the following template into Discord:
 **Status:**
 ```
 ## Publishing Songs
-Once your song has been mapped, lighted, and playtested and it’s a finished product you’re ready to release it to the world on [BeatSaver](https://beatsaver.com).
-
-::: danger
-Please **do not** upload an incomplete WIP map to BeatSaver; Uploading to BeatSaver equates to "Putting it on the store shelf" and should only be your final version.  
-Anyone who plays your WIP without Practice Mode will create a new leaderboard for that map.  
-See the [Playtesting](/mapping/#playtesting) section for instructions.
-:::
+Once your song has been mapped, lighted, and playtested and it’s a finished product you’re ready to release it to the world!
 
 ### BeatSaver
-[BeatSaver](https://beatsaver.com/) is the public repository for all custom Beat Saber maps. Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be compatible.
+[BeatSaver](https://beatsaver.com/) is the public repository for all custom Beat Saber maps. Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be uploaded.
+
+::: danger
+Please **DO NOT** upload an incomplete WIP map to BeatSaver!  
+Uploading to BeatSaver equates to "Putting it on the store shelf" and should **only** be your final version.  
+See the [Playtesting](/mapping/#playtesting) section for instructions on testing your map.
+:::
 
 #### How to Release a Map
 
@@ -218,7 +218,7 @@ Use "tags" like (Chroma), (OneSaber), or (Mapping Extensions) if your map uses s
 4. Add your .zip file and click the <kbd>Upload</kbd> button.”
 
 ::: warning
-Map files cannot currently be updated on BeatSaver. If you need to upload a new version of your map you will need to delete the old one and re-post.
+Map files currently cannot be updated on BeatSaver. If you need to upload a new version of your map you will need to delete the old one and re-post.
 :::
 
 ### BeatSaver Troubleshooting
@@ -228,7 +228,8 @@ Encountered something not listed here? Drop into `#mapping-discussion` for assis
 **Something went wrong! Try again later.**   
   This is the default error message, causes include:  
   * An upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.  
-  * Illegal characters are present in a map file. Make sure your metadata and bookmarks don't contain special characters. [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit** may be useful in finding the specific problem.
+  * Unsupported characters are present in a file. Make sure your metadata and bookmarks don't contain special characters such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accents (Ä/é/ó).  
+    * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit** may be useful in finding the specific problem.
 
 **Field `._customData._customEnviroment` cannot be blank.**  
   * Your files are not compliant the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.  
@@ -253,11 +254,11 @@ Encountered something not listed here? Drop into `#mapping-discussion` for assis
 #### BeatSaver Data Schema Change - October 27, 2019
 BeatSaver now enforces a schema in order for your maps to be uploaded, of which public MediocreMapper is not compliant with. The most breaking change happened in the difficulty data files, where MM-specific fields were moved inside a `_customData` object.
 
-**Resolution #1**
+**Resolution #1:**  
 Switch to the [Mediocre Map Assistant 2](#mediocre-map-assistant-2) editor. Open each difficulty file and save it to correct the schema. Use MMA2 going forward.
 
-**Resolution #2**
-Use the [Schema Updater Utility](https://skystudioapps.com/mapping-tools/#schema-fixer) by **+1 Rabbit** to fix your files before uploading.
+**Resolution #2:**  
+Use the [Schema Updater Utility](https://skystudioapps.com/mapping-tools/#schema-fixer) by **+1 Rabbit** to fix your files before uploading. Then switch to a [supported editor](#community-editors).
 
 **Resolution #3 (The Hard Way):**  
 If you wish to fix this yourself, here is a quick template which shows you where everything should go in order for your map to be compliant with BeatSaver's new schema.
