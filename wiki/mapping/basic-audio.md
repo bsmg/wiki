@@ -278,8 +278,8 @@ To generate a compatible sound file to use we need to do the following:
 2. Click the `File menu -> Export -> Export as OGG.`
 3. Name your file `song.ogg`.
 4. Choose an appropriate OGG quality ([more info here](/mapping/advanced-audio.html#choosing-appropriate-ogg-export-quality)):
-* a. High quality source (WAVE / FLAC / MP3 / AAC) use 6-9 (unless there is a file size issue.)
-* b. Low quality source (YouTube or such): use 3-5
+	* High quality source (WAVE / FLAC / MP3 / AAC) use 6-9 (unless there is a file size issue.)
+	* Low quality source (YouTube or such): use 3-5
 5. Click Save.
 
 The song/audio file is now ready to be used in any map editor. Input the same BPM you got earlier in your map editor of choice and make sure to use 0ms offset for all difficulties (since the song is already synced to the beat).
