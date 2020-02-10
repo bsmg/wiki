@@ -52,7 +52,7 @@ Special characters in languages such as, Japanese (日本語/にほんご), Chin
 **A few notes about bombs:**
 * Bomb hitboxes are smaller than block hitboxes, smaller even than the bomb model itself
 * Bombs are hard to see when there are no lighting events active. Make sure your map isn’t dark when bombs are coming up. See [Basic Lighting](/mapping/basic-lighting.html) for more tips.
-* Bombs are disabled once they have passed the player
+* Bombs can still be hit once they have passed the player.
 
 ### Block Distribution
 As a *very general* rule of thumb for new mappers, blocks should be distributed roughly as follows:
