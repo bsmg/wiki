@@ -163,7 +163,8 @@ This is a critical step! **You can ruin your audio if you do not set the initial
 
 4) Turn off Snap To Grid. It’s the green magnet icon in the top left corner.
 5) Add your audio to the project. Insert > Media File, and find your song.
-6) Drag the whole audio track so that the first beat’s peak lands several beats into the track. Place it exactly on a beat line marker. This prevents a hot start in game allows your song offset to be 0 in the map editor.  
+6) Drag the whole audio track accordingly to prevent a hot start or too-long of an intro. 
+   * See [Basic Audio: Plan Your First Note](/mapping/basic-audio.html#plan-your-first-note) for more info.  
 ![Align Audio Start in Reaper](./images/reaperFirstBeat.png)
 
 #### Lining Up Beats

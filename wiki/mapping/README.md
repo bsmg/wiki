@@ -38,8 +38,8 @@ Benny and Freeek use older editors in their tutorials (Mediocre Mapper and EditS
 ## Audio Editing Resources
 Before mapping, you need to get your audio file ready so that it works with your map editor. This section will walk you through how to set up and edit your audio file using a free program called [Audacity](https://www.audacityteam.org/).
 
-* [**Basic Audio Setup**](/mapping/basic-audio.md)
-* [**Advanced Audio Editing**](/mapping/advanced-audio.md)
+* [**Basic Audio Setup**](/mapping/basic-audio.md) - Can't make a map without audio. Learn how to setup your audio for easy mapping!
+* [**Advanced Audio Editing**](/mapping/advanced-audio.md) - A deeper dive in adjusting audio files such as making shorter versions or working with variable BPM.
 
 ## Map Editing Resources
 
