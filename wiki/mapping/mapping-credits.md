@@ -46,12 +46,13 @@ Wrote a guide on down-mapping lower difficulties that was integrated into the [B
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f2fb) | [BeastSaber](https://bsaber.com/members/hexagonial/)
 
 ## Kolezan
-Full Spread and Single Saber Maps galore. An audio guru that authored content in [Basic Audio Setup](/mapping/basic-audio.md) and [Advanced Audio Editing](/mapping/advanced-audio.md) with [Nik](#nik-n3tman). Additionally, content in [Basic Lighting](/mapping/basic-lighting.md) with [LittleAsi](#littleasi).  
+Full Spread and Single Saber Maps galore.  
+Authored content in [Basic Audio Setup](/mapping/basic-audio.md) and [Advanced Audio Editing](/mapping/advanced-audio.md) with [Nik](#nik-n3tman) and [Basic Lighting](/mapping/basic-lighting.md) with [LittleAsi](#littleasi).  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84fcbb) | [BeastSaber](https://bsaber.com/members/kolezan/)
 
 ## LittleAsi
 A lighting mentor and member of Funrankable, they authored a lot of content to the lighting resources with [Kolezan](#kolezan).   
-[Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c853c2d) | [BeastSaber](https://bsaber.com/members/littleasi/)
+[Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c853c2d) | [BeastSaber](https://bsaber.com/members/littleasi/) | [Funrankable](https://beatsaver.com/uploader/5cff0b7798cc5a672c8561ac)
 
 ## Megalon
 Co-creator of the BSMG as well as Channel Monitor Bot. He's known for his creative stream overlays and amazing ASMR voice. Created a video tutoral on using the [Official Editor](/mapping/#official-editor) and manages the wiki repository.  
@@ -78,7 +79,7 @@ Created a tutorial video on syncing songs using [Arrow Vortex](/mapping/basic-au
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855a42) | [BeastSaber](https://bsaber.com/members/ryger/) | [Youtube](https://www.youtube.com/channel/UCV1H-gl55Q4WgrInng9szzg)
 
 ## Scrappy
-Wrote the original mapping extentions walls guide.  
+Wrote the original mapping extensions walls guide.  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c851beb) | [BeastSaber](https://bsaber.com/members/scrappy/)
 
 ## Silent Caay
@@ -89,6 +90,11 @@ Wrote the original "Quick Start Guide" on mapping on BeastSaber.
 Managed the first anniversary pack and a founder of Bloq Busters. Skyler makes it a point to do full spread mapping.  
 Authored *The Ultimate Beat Saber Mapping Guide* which has been integrated across many of the resources.  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84ea67) | [BeastSaber](https://bsaber.com/members/skylerwallace/)
+
+## Spooky Ghost
+Creator of beatwalls, a command line tool to easily create awesome Mapping Extensions walls.  
+Authored content in [Extended Mapping: Wall Mapping](/mapping/extended-mapping.html#wall-mapping).  
+[Beatsaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c8561a5) | [BeastSaber](https://bsaber.com/members/spookyghost/) | [Github](https://github.com/spookyGh0st)
 
 ## Sykes
 Wrote a guide on what swing music is and how the "shuffle" parameter would make mapping easier.  
