@@ -249,3 +249,6 @@ Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See t
 
 **No Arrows maps don't load in game**  
 * Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "No Arrows",` and replace with `"_beatmapCharacteristicName": "NoArrows",`
+
+## Credits
+Content in this section was authored by [Helen Carnate](/mapping/mapping-credits.html#helen-carnate) and [Bloodcloak](/mapping/mapping-credits.html#bloodcloak).

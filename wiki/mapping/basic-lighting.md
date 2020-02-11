@@ -200,4 +200,4 @@ For example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-bea
 [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** is an online tool that is a convienient way to checkout how your map might look in game without the game. Just upload your map zip to the website and preview! Unfortunately **IOS and Safari are currently not supported.**
 
 ## Credits
-Content in this section was authored by **LittleAsi** and **Kolezan** or derived from guides by **Puds** and **MandyNasty**. 
+Content in this section was authored by [LittleAsi](/mapping/mapping-credits.html#littleasi) and [Kolezan](/mapping/mapping-credits.html#kolezan) or derived from guides by [Puds](/mapping/mapping-credits.html#puds) and [MandyNasty](/mapping/mapping-credits.html#mandynasty). 

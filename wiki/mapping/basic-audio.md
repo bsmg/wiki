@@ -288,4 +288,4 @@ Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file 
 :::
 
 ## Credits
-Content on this page is derived from guides by **Kolezan** & **Nik**.
+Content on this page is derived from guides by [Kolezan](/mapping/mapping-credits.html#kolezan) & [Nik](/mapping/mapping-credits.html#nik-n3tman).

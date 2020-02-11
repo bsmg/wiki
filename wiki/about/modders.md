@@ -84,10 +84,10 @@ The closest thing we have to a beatmods maintainer.
 [GitHub](https://github.com/raftario)
 
 ## +1 Rabbit
-Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)
+Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)  
 **Roles:** Modder
-**Contributions:** BS-Viewer, Mapping Tools
-[GitHub](https://github.com/raftario)
+**Contributions:** BS-Viewer, Mapping Tools  
+[GitHub](https://github.com/PlusOneRabbit)
 
 ## MichaelZoller
 Contributor to the beatsaber hooks used in quest modding and assists with creating infrastructure for the quest modding scene.
