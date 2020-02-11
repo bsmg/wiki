@@ -216,7 +216,5 @@ Once you are done editing your audio, you will want to render it as a `.ogg` fil
 
 ![Audio Render/Export Settings](./images/reaperRenderAudio.png)
 
-
-
 ## Credits
-Content in this section is derived from guides by **n3tman**, **LittleAsi**, and **Ris** who adapted **Heisenberg_IRL**'s method of warping in Ableton. Additional edits by **Kolezan**.
+Content in this section is derived from guides by [Nik](/mapping/mapping-credits.html#nik-n3tman), [LittleAsi](/mapping/mapping-credits.html#littleasi), and [Ris](/mapping/mapping-credits.html#ris) who adapted **Heisenberg_IRL**'s method of warping in Ableton. Additional edits by [Kolezan](/mapping/mapping-credits.html#kolezan).

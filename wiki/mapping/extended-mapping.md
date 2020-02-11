@@ -88,3 +88,6 @@ The text you enter in the requirements has to be exact or else the features will
 ### Wall Mapping
 ### Bomb Mapping
 ### Extended Characteristics
+
+## Credits
+Content in this section was authored by [The Good Boi](/mapping/mapping-credits.html#the-good-boi), [Bloodcloak](/mapping/mapping-credits.html#bloodcloak), and Spooky Ghost.

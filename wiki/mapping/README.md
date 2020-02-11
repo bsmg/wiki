@@ -283,5 +283,5 @@ To be compliant with the new schema, please also find and remove or fill in any 
 ### BeastSaber
 [BeastSaber](http://www.bsaber.com) is a song review and curation site with a social side for member profiles, forums, news, and tutorials. All songs published on BeatSaver are mirrored to BeastSaber within 10-15 minutes. Additionally, maps deleted from BeatSaver may take up to a day to be removed from BeastSaber.
 
-## Credits
-Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content including **Awfulnaut, BennyDaBeast, Bloodcloak, Checkthepan, CyanSnow, Freeek, The Good Boi, Helen Carnate, Hexagonial, Kolezan, LittleAsi, Megalon, MandyNasty, Nik, Puds, Ris, Ryger, Scrappy, Silent Caay, Skyler Wallace, Sykes,** and **Uninstaller.**
+## [Credits](/mapping/mapping-credits.html)
+Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content. Checkout the whole list [here!](/mapping/mapping-credits.html)
