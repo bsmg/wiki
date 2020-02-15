@@ -124,7 +124,7 @@ Wall mapping allows the mapper to get incredibly creative with wall placement we
 [YouTube](https://www.youtube.com/watch?v=LKkRgLkolw8) | [Beat Saver](https://beatsaver.com/beatmap/6709)  
 
 ## Extended Characteristics
-These characteristics (with the exception of 360&deg;/90&deg; mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `info.dat` file.
+These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `info.dat` file.
 
 **To Add a New Characteristic**
 1. Create your new difficulty file in your favorite editor.
@@ -142,12 +142,12 @@ These characteristics (with the exception of 360&deg;/90&deg; mode) take you bey
 
 This [pastebin](https://pastebin.com/vbgFPqn9) link provides an example of a `info.dat` file using two characteristics (Lawless and Standard)
 
-### 360&deg;/90&deg;
+### 360°/90°
 ::: warning
-It is recommended that you understand basic and intermediate mapping before stepping into 360&deg;/90&deg; mode mapping as it requires adapting to different mapping practices and style.
+It is recommended that you understand basic and intermediate mapping before stepping into 360°/90° mode mapping as it requires adapting to different mapping practices and style.
 :::
 
-360&deg;/90&deg; mode introduces new ways to play Beat Saber with notes spawning from different angles and direction, which opens up a lot of mapping potential and freedom as a whole.
+360°/90° mode introduces new ways to play Beat Saber with notes spawning from different angles and direction, which opens up a lot of mapping potential and freedom as a whole.
 
 * **Info.dat Names:**
   * `360Degree`
@@ -170,7 +170,7 @@ The Lightshow characteristic is used for maps with no notes which allow players 
 
 * **Info.dat Name:** `Lightshow`
 
-## 360&deg;/90&deg; Mapping
+## 360°/90° Mapping
 
 ### Rotation Events and Values
 Two new “official” event types were introduced in v1.6.0 as part of the lighting events schema:
@@ -188,13 +188,13 @@ Each event has a value for spawn rotation which is always relative to the player
 * **[7]**   60° rotation (clockwise)
 
 ::: tip NOTE  
-The chevron in the 360&deg; [Glass Desert environment](./basic-lighting.html#environment-previews) rotates corresponding to the rotation event time, both 14 and 15. This is important as it guides the player where to face in gameplay.
+The chevron in the 360° [Glass Desert environment](./basic-lighting.html#environment-previews) rotates corresponding to the rotation event time, both 14 and 15. This is important as it guides the player where to face in gameplay.
 :::
 
-**Do not use spawn rotation events outside of 360&deg;/90&deg; mode.** While they will work, it’s highly recommended that mappers not use this. Standard environments do not have a rotating chevron to indicate movement and the environment itself will block the player’s view.
+**Do not use spawn rotation events outside of 360°/90° mode.** While they will work, it’s highly recommended that mappers not use this. Standard environments do not have a rotating chevron to indicate movement and the environment itself will block the player’s view.
 
-### Editing 360&deg;/90&deg; Maps
-There are multiple ways to map for 360&deg;/90&deg; mode. The following sections cover some pros and cons of each method:
+### Editing 360°/90° Maps
+There are multiple ways to map for 360°/90° mode. The following sections cover some pros and cons of each method:
 
 1. [Official Level Editor](/mapping/extended-mapping.html#official-level-editor) (in-game)
 2. [Mediocre Map Assistant 2](/mapping/extended-mapping.html#mediocre-map-assistant-2)
@@ -202,7 +202,7 @@ There are multiple ways to map for 360&deg;/90&deg; mode. The following sections
 4. [JSON/DAT Editing](/mapping/extended-mapping.html#json-dat-editing)
 
 #### Official Level Editor
-The official editor is accessible to all PCVR users to natively map 360&deg;/90&deg; levels with the least amount of touching individual map files.
+The official editor is accessible to all PCVR users to natively map 360°/90° levels with the least amount of touching individual map files.
 
 ![Official editor events panel](./images/official_events.png)  
 *The official editor events panel.*  
@@ -231,18 +231,18 @@ This is the most preferred and easily accessible method of making 360/90 levels.
 
 This mimics laser speed events as spawn rotation events given the value (see above). It is recommended to use this method with an empty lighting event track to avoid mistakes. Lighting can be added once the laser speed events have been converted.
 
-[BeatMapper Tools](https://mappers.beatmappertools.com/) by **Darkuni** is an amazing utility for mapping 360&deg;/90&deg; mode in MMA2. You can easily make changes within the editor and test them in-game as it creates a copy of the map with 360&deg;/90&deg; mode converted leaving the original file untouched for the editor use.
+[BeatMapper Tools](https://mappers.beatmappertools.com/) by **Darkuni** is an amazing utility for mapping 360°/90° mode in MMA2. You can easily make changes within the editor and test them in-game as it creates a copy of the map with 360°/90° mode converted leaving the original file untouched for the editor use.
 
 To manually replace the values, open the difficulty file in any text editor and replace `"_type":12` or `"_type":13` with `"_type":14` or `"_type":15`. This should be the last step you do otherwise you’ll have to revert the event swaps every time you have to make any changes in the editor. Always create backup in any case.
 
 ::: danger  
-Do not open a 360&deg;/90&deg; map containing event type 14 in MMA2 as it converts the value into BPM changes, which end up crashing the program or triggering weird behavior.
+Do not open a 360°/90° map containing event type 14 in MMA2 as it converts the value into BPM changes, which end up crashing the program or triggering weird behavior.
 :::
 
 #### ChroMapper
 
-* **Pro:** Natively supports 360&deg;/90&deg; mapping 
-* **Pro:** Better visualisation of 360&deg;/90&deg; mapping.
+* **Pro:** Natively supports 360°/90° mapping 
+* **Pro:** Better visualisation of 360°/90° mapping.
 * **Con:** In closed beta and not openly available yet.
 
 #### JSON/DAT Editing
@@ -256,21 +256,21 @@ If you’re feeling adventurous, rotation events can be manually edited into you
 }
 ```
 
-### 360&deg;/90&deg; Best Practices
+### 360°/90° Best Practices
 ::: tip NOTE
 360/90 mapping is still new and these best practices continue to evolve. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::
 
 ![lane rotation overlap](./images/360-note-overlap.png)  
-*Notes overlap, be aware of them. Image for reference (each note row is 1/4 apart at 15&deg; rotation).*
+*Notes overlap, be aware of them. Image for reference (each note row is 1/4 apart at 15° rotation).*
 
 #### DO'S
-* Keep the user’s field of view in mind. They can only see +/-15&deg; with full vision and +/- 30&deg;  with peripheral vision.
+* Keep the user’s field of view in mind. They can only see +/-15° with full vision and +/- 30°  with peripheral vision.
 * Primarily use event 15 (late rotation). This allows you to direct the player where the next lane rotation is with the chevron after the next block hit.
 * Make use of both event 14 (early rotation) and 15 (late rotation):
   * A good example of this would be using walls and notes spawning at nearly the same time but different spawn rotation.
   * This prevents the chevron from twitching in weird ways; very useful if you want to tell the player to keep facing in the same direction while having multiple spawn rotations.
-* Stick to 15&deg; rotational changes and occasionally 30&deg;, given hints and enough time to adjust.
+* Stick to 15° rotational changes and occasionally 30°, given hints and enough time to adjust.
 * Use walls or bombs to telegraph large angle changes if you use them and keep notes to the center 2 lanes  
   * Having notes in the outer lanes is similar to using 6 lanes where the player has to stretch out to hit the notes.
 ![Using walls to telegraph rotation](./images/wall-telegraph.png)  
@@ -283,8 +283,8 @@ If you’re feeling adventurous, rotation events can be manually edited into you
   * Using 1/3 precision, BPM changes, or editor offset can cause precision errors which lead to unintended results.
   * NJS and offset value is important for readability. You’ll have to do plenty of adjustments to get the value that feels natural to read on different spawn rotations.
 * Give the player enough time to read/prepare where the next rotation will be.
-  * Using both -15&deg; and 15&deg; on a section at the same time can be hard to read, especially at speed.
-  * If you have the player to turn >30&deg; rotation, give the player time to adjust and prepare for the next note.
+  * Using both -15° and 15° on a section at the same time can be hard to read, especially at speed.
+  * If you have the player to turn >30° rotation, give the player time to adjust and prepare for the next note.
   * The more you place rotation events that go outside the player's FOV, the more disorienting it gets; it isn’t a bad mapping practice but it’s something to be aware of.
 
 #### DONT'S
@@ -293,11 +293,11 @@ If you’re feeling adventurous, rotation events can be manually edited into you
   * Exception: E+ given plenty of playtesting or when using them for cosmetics such as walls or a chevron spin
 * Don't disembody notes too much,
 * Avoid using dodge wall or bombs that may interfere with the player motion
-* Don’t mix multi-lane with 360&deg;/90&deg; unless the extra lanes are dedicated to walls
+* Don’t mix multi-lane with 360°/90° unless the extra lanes are dedicated to walls
 * Avoid using extreme single rotation events (+/- 45/60 degrees). Instead, consider using multiple 15 degree increments with walls to guide the player.
   * Exception: Plenty of time/warning on any difficulty
 * Copying a Standard map (Especially E+) and slapping rotation events is probably not a good idea. While the conversion can work out without any FOV or vision blocking issues, recreating your map for 360 can allow you to take advantage of wall and chevron spins (which are pretty fun)
-  * Exception: This technique can work ok on lower density (i.e., dancey) maps, though it will still need some adjustments to play well in 360&deg;.
+  * Exception: This technique can work ok on lower density (i.e., dancey) maps, though it will still need some adjustments to play well in 360°.
 * Middle row outer lane notes are most likely going to be a vision block.
   * If you have a middle row block on the outer left lane and you’re rotating to the left, everything on the left will be a vision blocked, and vice versa.
   * You can have middle row block on the left outer lane and rotating to the right as it won’t be a vision block.
