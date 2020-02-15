@@ -85,7 +85,7 @@ The text you enter in the requirements has to be exact or else the features will
 
 ### Multi-Lane Mapping
 ::: tip NOTE
-This is a stub section. If you’d like to contribute, use [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform) to submit suggestions.
+This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::  
 
 6-Lane mapping extends the playable grid to 6 x 3. It is often used with [wall mapping](./extended-mapping.html#wall-mapping) to place fancy walls in the extension area while keeping the standard 4 x 3 play area clear.
@@ -113,7 +113,7 @@ Wall mapping allows the mapper to get incredibly creative with wall placement we
 
 * **Atmospheric Walls:** Walls create an ambience to fit with the mood of the song  
   * **Example:** Air - MrFijiWiji Remix mapped by Gevarred  
-[YouTube](youtube.com/watch?v=V-KFAdSjeKo) | [Beat Saver](https://beatsaver.com/beatmap/67ba)  
+[YouTube](https://www.youtube.com/watch?v=V-KFAdSjeKo) | [Beat Saver](https://beatsaver.com/beatmap/67ba)  
   * **Example:** Sky Fracture VIP (feat. Miss Lina) - Getsix mapped by AnniversaryTeam (level by SpookyGhost)  
 [YouTube](https://www.youtube.com/watch?v=IdZkdxyNfVY) | [Beat Saver](https://beatsaver.com/beatmap/68c5)
 * **Art Walls:** Song lyrics or imagery represented through wall drawings  
@@ -131,7 +131,8 @@ These characteristics (with the exception of 360&deg;/90&deg; mode) take you bey
 2. When finished mapping, rename the difficulty file to include the characteristic name. (example: `EasyLightshow.dat`)
 3. Make the following changes to the `”_beatmapCharacteristicName”` and `”_beatmapFilename”` in your `info.dat` file:
 
-```"_difficultyBeatmapSets": [{
+```
+"_difficultyBeatmapSets": [{
 	"_beatmapCharacteristicName": "Lightshow",
 	"_difficultyBeatmaps": [{
 		"_difficulty": "Easy",

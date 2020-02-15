@@ -21,8 +21,8 @@ Helps maintain and improve the resources building on [Helen Carnate](#helen-carn
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate Ko-Fi](https://ko-fi.com/bloodcloak)
 
 ## Caeden117
-Modder, Moderator, Mapper, EditorMaster... Caeden does it all. As the primary dev on the ChroMapper project (which natively supports 360) he contributed a TON for 360&deg;/90&deg; best practices.
-[Beatsaver]() | [BeastSaber] | [Donate Ko-Fi](https://ko-fi.com/Caeden117)
+Modder, Moderator, Mapper, EditorMaster... Caeden does it all. As the primary dev on the ChroMapper project (which natively supports 360) he contributed a TON for 360&deg;/90&deg; best practices.  
+[Beatsaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ee26) | [BeastSaber](https://bsaber.com/members/caeden117/) | [Donate Ko-Fi](https://ko-fi.com/Caeden117)  
 
 ## Checkthepan
 Some nerd who spends more time writing about mapping than actually doing it. Adapted the theory of parity and wrote a guide on how it applies in Beat Saber mapping as well as contributing to 360&deg;/90&deg; best practices.   
