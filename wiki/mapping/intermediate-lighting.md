@@ -6,11 +6,9 @@ next: ./advanced-lighting.md
 # Intermediate Lighting
 _You've learned the basics and now you want more!_
 
-Many thanks to contributors from across the mapping community who made this expanded wiki possible!
-
 * [Glossary of Terms](/mapping/glossary.md)
 
-> “The first thing when getting into lighting is that you need to learn that you should learn your own style. Don’t think you need to copy others to become decent. Explore a bit.”  
+> "The first thing when getting into lighting is that you need to learn that you should learn your own style. Don’t think you need to copy others to become decent. Explore a bit."
 ~ Puds, Lighting Mentor
 
 You've got your lighting feet wet in [Basic Lighting](/mapping/basic-lighting.md) and have decided that it's not so scary after all... great! Welcome! This page will help you expand on your "vanilla" lighting technique library but as Puds says, now it's time to start exploring and experimenting. Have fun with it!
@@ -18,7 +16,7 @@ You've got your lighting feet wet in [Basic Lighting](/mapping/basic-lighting.md
 ## Off Event Timing
 It's common for new lighters to overlook the importance of the timing of Off events throughout a lightshow. Well timed Off events can have as much impact as any On or Flash, and consistently timed Off events will produce a show that feels much more organic, and less rigid or computer driven. Since most sounds have a much clearer beginning than an end, especially vocals, there's rarely a universally correct timing for Off events.
 
-::: tip
+::: tip NOTE
 Once established, it's essential to apply decisions about Off block placement consistently throughout the entire show.
 :::
 
@@ -48,7 +46,7 @@ Strobing Ring Spin events at 1/64 interval or more will produce extremely fast b
 * You'll get the most predictable results by leaving periods of no activity (~2 full beats) before and after the fast spin pattern.
 
 ## Strobing Practices
-::: Danger
+::: danger  
 Strobing lights can trigger epileptic seizures. Be mindful of your player and include a warning in both your map description and the "Warning" extra field when you use flashy lights.
 :::
 
@@ -95,6 +93,23 @@ As a baseline guide, turn each on in sequence at 1/16 interval, and turn each of
 * Try to avoid picking speeds randomly, setting them inconsistently, or using such high speeds that the variations you do include become imperceptible. 
 * Slow speeds tend to match better with higher pitch and longer notes, with fast speeds especially for short notes. 
 * Aside from their application in laser spins and similar multi-light effects, speed 0 lasers tend to work best for transitory or staccato notes.
+
+## Contrast
+High impact/high energy moments are the result of high contrast, not any specific pattern, technique, or level of saturation.  For example, sticking to one dominant color then switching has more impact than mixing colors throughout; or strobing lights constantly produces a flat energy level, whereas suddenly switching to a strobe effect will seem highly energetic if you otherwise stick mainly to normal lighting. Basically, it's not high volume that creates impact, it's the change in volume that counts. You can create contrast in any number of ways, so be encouraged to experiment. 
+
+**Contrast Practices:**
+* Pick a dominant color, keeping most lights that color and using the secondary for emphasis (accents, maybe snare hits, etc.)
+  * Switch which color is dominant and which is secondary for emphasis at big moments and for contrast between different parts of the song (e.g. verse vs. chorus).
+* Have all the lights totally black-out momentarily before a key moment.
+* Employ major stylistic changes between different sections of the music; for example, map each light type to a different instrument in a dubstep song throughout the verse and build-up, then once the drop hits, switch to using fewer lights at a time to highlight key sounds.
+
+This show features many major stylistic changes throughout, but see the section starting ~1:46 into the one ~1:54 for one example, and even more obvious at ~2:23.
+* Example: Into the Fire ft. Miss Lina - Getsix (Lightshow Only) lighted by LittleAsi  
+[Streamable](https://streamable.com/0qsto) | [Beatsaver](https://beatsaver.com/beatmap/7be2)
+
+This one demonstrates a change from 1:1 instrument:light mapping to a focused emphasis-only style at the drop ~1:17; also note the use of total blackouts after the drop for increased impact despite the fact that the song never actually goes silent during that period.
+* Example: Virtual Friends - DROELOE mapped by Skyler Wallace and lighted by LittleAsi  
+[Streamable](https://streamable.com/6f429) | [Beatsaver](https://beatsaver.com/beatmap/7cd5)
 
 ## Credits
 Content on this page was contributed by [LittleAsi](/mapping/mapping-credits.md#littleasi) and [Puds](/mapping/mapping-credits.md#puds)
