@@ -20,9 +20,12 @@ Really into Japanese and EDM music with the occassional K-pop song creating danc
 Helps maintain and improve the resources building on [Helen Carnate](#helen-carnate)'s work.   
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate Ko-Fi](https://ko-fi.com/bloodcloak)
 
+## Caeden117
+Modder, Moderator, Mapper, EditorMaster... Caeden does it all. As the primary dev on the ChroMapper project (which natively supports 360) he contributed a TON for 360&deg;/90&deg; best practices.  
+[Beatsaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ee26) | [BeastSaber](https://bsaber.com/members/caeden117/) | [Donate Ko-Fi](https://ko-fi.com/Caeden117)  
+
 ## Checkthepan
-Some nerd who spends more time writing about mapping than actually doing it.  
-Adapted the theory of parity and wrote a guide on how it applies in Beat Saber mapping.   
+Some nerd who spends more time writing about mapping than actually doing it. Adapted the theory of parity and wrote a guide on how it applies in Beat Saber mapping as well as contributing to 360&deg;/90&deg; best practices.   
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f3d5) | [BeastSaber](https://bsaber.com/members/checkthepan/)
 
 ## CyanSnow
@@ -42,8 +45,12 @@ The plushie queen who organized the majority of these resources. The guides woul
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c8553d2) | [BeastSaber](https://bsaber.com/members/helencarnate/) | [Etsy Shop](https://www.etsy.com/shop/HelenCarnateDesigns)
 
 ## Hexagonial
-Wrote a guide on down-mapping lower difficulties that was integrated into the [Basic Mapping: Gauging Difficulty & Down-Mapping](/mapping/basic-mapping.html#gauging-difficulty-down-mapping) section. Also is a ranking team member!  
+Wrote a guide on forbidden patterns in E+ maps that was integrated into the [Basic Mapping: Gauging Difficulty & Down-Mapping](/mapping/basic-mapping.html#gauging-difficulty-down-mapping) section. Also is a ranking team member!  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f2fb) | [BeastSaber](https://bsaber.com/members/hexagonial/)
+
+## Kival Evan
+Contributed to the [360&deg;/90&deg; best practices](/mapping/extended-mapping.html#360-90) thanks to extensive experimentation with the new mode.
+[Beatsaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855af3) | [BeastSaber](https://bsaber.com/members/kivalevan/)
 
 ## Kolezan
 Full Spread and Single Saber Maps galore.  
@@ -92,12 +99,11 @@ Authored *The Ultimate Beat Saber Mapping Guide* which has been integrated acros
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84ea67) | [BeastSaber](https://bsaber.com/members/skylerwallace/)
 
 ## Spooky Ghost
-Creator of beatwalls, a command line tool to easily create awesome Mapping Extensions walls.  
-Authored content in [Extended Mapping: Wall Mapping](/mapping/extended-mapping.html#wall-mapping).  
+Creator of beatwalls, a command line tool to easily create awesome Mapping Extensions walls. Contributed content in [Extended Mapping: Wall Mapping](/mapping/extended-mapping.html#wall-mapping).  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c8561a5) | [BeastSaber](https://bsaber.com/members/spookyghost/) | [Github](https://github.com/spookyGh0st)
 
 ## Sykes
-Wrote a guide on what swing music is and how the "shuffle" parameter would make mapping easier.  
+Wrote guides on what "swing" beat is, how the "shuffle" parameter would make mapping easier, and down-mapping lower difficulties. 
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c854602) | [BeastSaber](https://bsaber.com/members/sykes19/)
 
 ## Uninstaller
