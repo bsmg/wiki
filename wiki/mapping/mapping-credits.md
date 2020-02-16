@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 ---
-# Mapping Wiki Credits
+# Mapping Resources Contributors
 
 Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content. Checkout their maps and consider supporting them!
 
@@ -16,13 +16,13 @@ An awesome dance mapper who created a [video tutorial series](https://bsaber.com
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84e98d) | [BeastSaber](https://bsaber.com/members/bennydabeast/)
 
 ## Bloodcloak
-Really into Japanese and EDM music with the occassional K-pop song creating dance style maps with some challenge.  
-Helps maintain and improve the resources building on [Helen Carnate](#helen-carnate)'s work.   
-[Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate Ko-Fi](https://ko-fi.com/bloodcloak)
+Really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps with some challenge.  
+Helps maintain and improve the resources.  
+[Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://ko-fi.com/bloodcloak)
 
 ## Caeden117
 Modder, Moderator, Mapper, EditorMaster... Caeden does it all. As the primary dev on the ChroMapper project (which natively supports 360) he contributed a TON for 360&deg;/90&deg; best practices.  
-[Beatsaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ee26) | [BeastSaber](https://bsaber.com/members/caeden117/) | [Donate Ko-Fi](https://ko-fi.com/Caeden117)  
+[Beatsaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ee26) | [BeastSaber](https://bsaber.com/members/caeden117/) | [Donate](https://ko-fi.com/Caeden117)  
 
 ## Checkthepan
 Some nerd who spends more time writing about mapping than actually doing it. Adapted the theory of parity and wrote a guide on how it applies in Beat Saber mapping as well as contributing to 360&deg;/90&deg; best practices.   
@@ -37,7 +37,7 @@ Works at Beat Games as an Official Mapper. Created one of the first [mapping tut
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84e8ad) | [BeastSaber](https://bsaber.com/members/freeek/)
 
 ## The Good Boi
-Helped organize a convienent spreadsheet that contains all of the controls for the community editors.  
+Helped organize a convenient spreadsheet that contains all of the controls for the community editors.  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85433c) | [BeastSaber](https://bsaber.com/members/thegoodboi/)
 
 ## Helen Carnate
@@ -62,7 +62,7 @@ A lighting mentor and member of Funrankable, they authored a lot of content to t
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c853c2d) | [BeastSaber](https://bsaber.com/members/littleasi/) | [Funrankable](https://beatsaver.com/uploader/5cff0b7798cc5a672c8561ac)
 
 ## Megalon
-Co-creator of the BSMG as well as Channel Monitor Bot. He's known for his creative stream overlays and amazing ASMR voice. Created a video tutoral on using the [Official Editor](/mapping/#official-editor) and manages the wiki repository.  
+Co-creator of the BSMG as well as Channel Monitor Bot. He's known for his creative stream overlays and amazing ASMR voice. Created a video tutorial on using the [Official Editor](/mapping/#official-editor) and manages the wiki repository.  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855407) | [BeastSaber](https://bsaber.com/members/megalon/) | [GitHub](https://github.com/megalon) | [Twitch](https://twitch.tv/megalonttv) | [Donate](https://ko-fi.com/megalon)
 
 ## ManDynasty
