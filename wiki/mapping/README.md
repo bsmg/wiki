@@ -117,7 +117,8 @@ Review the [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-
 A map is not finished until some form of lighting is included. Lighting can range from very basic to incredibly detailed using additional mods to enable more features.
 
 * [**Basic Lighting**](/mapping/basic-lighting.md) - Learn the various aspects to lighting your map manually
-* **Advanced Lighting** - Is Basic Lighting not enough? Learn more advanced techniques! (coming soon... ask in #mapping-discussion if you want more info!)
+* [**Intermediate Lighting**](/mapping/intermediate-lighting.md) - Take your lighting skills a bit further into strobing, ring spins, and contrast practices
+* **Advanced Lighting** - Advanced and nuanced techniques, lighting for custom platforms, and Chroma RGB (coming soon... ask in #mapping-discussion if you want more info!)
 
 Below are additional lighting resources as we migrate over to the wiki pages.
 

@@ -72,7 +72,7 @@ This is a stub section. If you'd like to contribute, submit suggestions via [thi
 :::
 **On/Off** and **Flash/Off** strobes are considered "true" strobes, alternating bright light and darkness in rapid succession. Strobing should be used cautiously as overuse can make it very difficult to concentrate on your map or even harm players with neurological conditions.
 
-As discussed in the [Flash/On](/mapping/intermediate-lighting.md#flash-on) section, "on" lights are at 100% brightness while "Flash" lights begin at 110% and quickly intensify to 125%. Flash/Offs produce a more intense strobe than On/Offs.
+As discussed in the [Flash/On](/mapping/intermediate-lighting.html#flash-on-strobing) section, "on" lights are at 100% brightness while "Flash" lights begin at 110% and quickly intensify to 125%. Flash/Offs produce a more intense strobe than On/Offs.
 
 * Example: Bass Music - Umziky (Cytus II ver.) mapped and lighted by Skeelie (also uses Chroma RGB)  
 [YouTube](https://www.youtube.com/watch?v=Set0lOZ5Yog) | [Beatsaver](https://beatsaver.com/beatmap/7bc4)
