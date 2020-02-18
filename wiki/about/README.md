@@ -24,6 +24,9 @@ Each of your favorite maps is carefully crafted and tested over many hours by a 
 
 > Furthermore, there is a community run discord to help connect mappers/artists with clients if you would like to commission something. We encourage you to reach out in the [Beat Saber Commissions server.](https://discord.gg/4RbcH5G)
 
+### [Mapping Resources Contributors](/mapping/mapping-credits.md)
+A group of experienced mappers that took the time to write down and share their knowledge to help others get started or improve. Checkout their maps and consider supporting them!
+
 ## About This Wiki
 
 This is a wiki for all things relating to modding the game Beat Saber.

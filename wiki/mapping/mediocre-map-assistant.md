@@ -236,19 +236,24 @@ Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See t
 ## Troubleshooting
 **Create Level button does nothing even if a song name is entered**  
 * Confirm both folder paths are complete on the Song Selection screen and add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on first use.
-
+___
 **My song is stuck loading in the editor forever**  
 * This error is usually caused by a missing, corrupted, or invalid audio file. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder. Usage of convert to OGG websites is the common cause of this issue.  
 * Forgetting to unzip the application folder (MMA2.zip) before running the program will also cause this issue.
-
+___
 **I can't figure out how to place dot notes**  
 * Press <kbd>ESC</kbd> and review the in-editor list of keybindings or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). HINT: It's `F`
-
+___
 **One Saber maps don't load in game**  
 * Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "One Saber",` and replace with `"_beatmapCharacteristicName": "OneSaber",`
-
+___
 **No Arrows maps don't load in game**  
 * Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "No Arrows",` and replace with `"_beatmapCharacteristicName": "NoArrows",`
+___
+**When I open the editor, all I see is a grid and block and can't interact with it**  
+![Broken Editor](./images/mma2BrokenApp.png)  
+* Navigate to your `\AppData\Local` and delete the `MediocreMapAssistant2` folder. Then run `mediocremapassistant2.exe` and follow [First Time Setup](#first-time-setup) again.
+   * You can copy and paste this path into the file explorer address bar to quickly get to the folder: `C:\Users\%username%\AppData\Local\MediocreMapAssistant2`
 
 ## Credits
 Content in this section was authored by [Helen Carnate](/mapping/mapping-credits.html#helen-carnate) and [Bloodcloak](/mapping/mapping-credits.html#bloodcloak).
