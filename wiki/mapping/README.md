@@ -223,33 +223,41 @@ Map files currently cannot be updated on BeatSaver. If you need to upload a new 
 
 ### BeatSaver Troubleshooting
 Here are solutions for some common errors when uploading a Beatmap.  
-Encountered something not listed here? Drop into `#mapping-discussion` for assistance. 
+Encountered something not listed here? Drop into `#mapping-discussion` for assistance.
+
+**Remember:** You should have your map [playtested](#playtesting) before uploading!
+___
 
 **Something went wrong! Try again later.**   
   This is the default error message, causes include:  
   * An upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.  
   * Unsupported characters are present in a file. Make sure your metadata and bookmarks don't contain special characters such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accents (Ä/é/ó).  
     * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit** may be useful in finding the specific problem.
-
-**Field `._customData._customEnviroment` cannot be blank.**  
+___
+**Field `._customData._customEnviroment` cannot be blank.**    
   * Your files are not compliant the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.  
-
+___
 **Beatmap zip contains an illegal file!**  
   * Usually caused by extra/unsupported files, such as gifs, in the zip.  
-
+___
 **Beatmap already exists!**  
   * The exact map files were uploaded previously. You must change something small in your map (i.e., remove a light block, save the map, replace the light block, and save again) to be able to upload.  
-
+___
 **Beatmap does not contain an info.dat file!**  
   * Usually caused by having the files in a subfolder. You need to zip the files instead of the folder. [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead. **NOTE: MMA2's export button does not include contributor images in the zip.**  
-
+___
 **One or more beatmap difficulty files cannot be found!**  
   * You might have forgotten to include all of your difficultiy files are in the zip.  
   * A difficulty's `"_beatmapFilename"` in the `info.dat` might be using a different file name than what is present in the folder.  
   * A deleted difficulty is still being referenced in your `info.dat` file. Check to make sure you do not have unintended difficulties in the `"_difficultyBeatmaps"` cluster of each present characteristc.  
-
+___
+  **Error in `MapDifficulty.dat`. Root should NOT have additional property: `_time`.**  
+  `_time` is the common error for this type of message. However, the same solution applies if a different property is flagged.  
+  * Your files are not compliant the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.  
+___
 **Beatmap could not be parsed!**  
   * This could be caused by extreme server load. Try again later or ask in `#mapping-discussion`.  
+___
 
 #### BeatSaver Data Schema Change - October 27, 2019
 BeatSaver now enforces a schema in order for your maps to be uploaded, of which public MediocreMapper is not compliant with. The most breaking change happened in the difficulty data files, where MM-specific fields were moved inside a `_customData` object.
