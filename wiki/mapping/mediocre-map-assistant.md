@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 ---
-# Mediocre Map Assistant User Guide
+# Mediocre Map Assistant 2 User Guide
 _Essential information to get up and running using Mediocre Map Assistant 2_
 
 ::: tip NOTE
@@ -231,7 +231,7 @@ Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See t
 
 | Example | Explanation |
 |:---:|:--- |
-| ![Stats panel screenshot](./images/mma2-stats-panel.png) | **Notes:** The total number of notes in your map<br />**Notes per Second:** The number of notes in your map divided by the number of seconds in your map. This number isn’t accurate until you’ve finished mapping, unless you've only selected a small section.<br />**Bombs, Walls, and Lighting:** The number of each event you have in your map.<br />**R/B Ratio:** If you have exactly the same number of red and blue blocks this will be 1.00. Greater than 1 you have more reds. Less than 1 you have more blues.<br />**Vision Blocks:** The percentage of your map’s blocks that are vision blocks at 0.75 beats. Use the vision block checker to correct.<br />**Aggressive Vision Blocks:** The percentage of your map’s blocks that are vision blocks at 1.25 beats. Useful for faster songs.<br />**Top/Middle/Bottom Notes:** The percentage of your blocks that are placed in each row. |
+| ![Stats panel screenshot](./images/mma2-stats-panel.png) | **Notes:** The total number of notes in your map.<br />**Notes per Second:** The number of notes in your map divided by the number of seconds in your map. This number isn’t accurate until you’ve finished mapping, unless you've only selected a small section.<br />**Bombs, Walls, and Lighting:** The number of each event you have in your map.<br />**R/B Ratio:** If you have exactly the same number of red and blue blocks this will be 1.00. Greater than 1 you have more reds. Less than 1 you have more blues.<br />**Vision Block:** The percentage of your map’s blocks that are vision blocks at 0.75 beats. Use the vision block checker to highlight these blocks.<br />**Vision Block (A):** The percentage of your map’s blocks that are vision blocks at 1.25 beats. Useful for faster songs. Use the vision block checker with a max time of 1.25 to highlight these blocks.<br />**Top/Middle/Bottom Notes:** The percentage of your blocks that are placed in each row. |
 
 ## Troubleshooting
 **Create Level button does nothing even if a song name is entered**  
@@ -249,6 +249,13 @@ ___
 ___
 **No Arrows maps don't load in game**  
 * Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "No Arrows",` and replace with `"_beatmapCharacteristicName": "NoArrows",`
+___
+**Your Audio File Name is Wrong. Enter Only the Name NOT the Path.**  
+![Audio File Name Wrong](./images/mma2-wrongPath.png)
+* You might have unintentionally named your audio file `song.ogg.ogg`. Turn on file extensions in file explorer to make sure it is named `song.ogg`. The option is located here:  
+![Turn on File Extensions](./images/turnOnFileExtend.png)
+
+* Your audio file may be invalid. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder. Usage of convert to OGG websites is a common cause. 
 ___
 **When I open the editor, all I see is a grid and block and can't interact with it**  
 ![Broken Editor](./images/mma2BrokenApp.png)  

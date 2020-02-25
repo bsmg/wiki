@@ -196,6 +196,17 @@ First Person Flying Controller (FPFC) is a launch parameter that can be used by 
 2. Edit the Target to add "fpfc" to the end of it.
 For example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" fpfc`
 
+After installing the mods and adding the launch parameter you should then enter a map. You will start on the floor as always but now if you double press the <kbd>G</kbd> key you will be able to move during the song. You can also open the pause menu out by pressing <kbd>Esc</kbd>.
+
+:::warning NOTE
+- You may encounter issues if you press the <kbd>G</kbd> key before entering a song.
+
+- If you go back into vr and the game doesn't load in the headset either: 
+  - Press the <kbd>G</kbd> key until the headset displays the game  
+**==OR==** 
+  - Quit the game, remove the launch option, and relaunch the game.
+:::
+
 ### Online with BS Viewer
 [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** is an online tool that is a convienient way to checkout how your map might look in game without the game. Just upload your map zip to the website and preview! Unfortunately **IOS and Safari are currently not supported.**
 

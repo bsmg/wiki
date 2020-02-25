@@ -118,7 +118,10 @@ We’ll go into more detail on this in Intermediate Mapping (link coming soon!) 
 
 Many new mappers instinctively want to use double hits all the time, but remember that those are heavy emphasis and if *every sound* is emphasized then *nothing* feels like it has extra weight.
 
-**Consistency** is mapping the same sound with the same weight when it appears. Mapping consistently does NOT always mean to copy/paste/mirror, though there are some times when that is appropriate. If you choose to map a particular big sound as a double, for example, that same sound should always be mapped with a double.
+Another way to think about it is that you want the energy and effort of the hit to match the energy and power of the sound. Nobody screams at the top of their lungs on every vocal, or in every instrument note. You want the powerful notes, the powerful vocals, to stand out from the rest of the song. Even if most of the song might sound loud or (you think) emphasized, there's always notes that sound above them. Be it through volume, or through energy. So when mapping, see what is your baseline energy, map that as singles. Anything above that, then do towers/doubles/windows/jumps, whatever best matches that energy.
+
+**Consistency** is mapping the same sound with the same weight when it appears.  
+Mapping consistently does NOT always mean to copy/paste/mirror, though there are some times when that is appropriate. If you choose to map a particular big sound as a double, for example, that same sound should always be mapped with a double.
 
 ## Pattern Best Practices
 This section details the principles one should follow for a playable and enjoyable map.
