@@ -67,10 +67,22 @@ You may find the [SongCore readme page](https://github.com/Kylemc1413/SongCore/b
 :::
 
 ### Official Editor 
-The official editor is developed and supported by Beat Games and pre-installed with the Steam VR or Oculus PC versions of Beat Saber. It makes playtesting very convenient with one-click access to your work-in-progress in-game. The official editor is 2D and requires good visualization skills to translate well to a 3D play space, which can be challenging for new mappers. The vast majority of mappers use a [Community Editor](https://bsmg.wiki/mapping#community-editors).
+The official editor is developed and supported by Beat Games and pre-installed with the Steam VR or Oculus PC versions of Beat Saber. It makes playtesting convenient with one-click access to your work-in-progress in-game. The official editor is 2D and requires good visualization skills to translate well to a 3D play space, which can be challenging for new mappers. The vast majority of mappers use a [Community Editor](https://bsmg.wiki/mapping#community-editors).  
 
 * To access, launch the editor from within Beat Saber in your HMD or use fpfc launch parameters to open directly from your PC
 * Check out Megalon's [Official Editor Tutorial Video](https://www.youtube.com/watch?v=5Ex6sOEVgrM) for an overview of standard mapping!
+
+Keep in mind the following features that official does not have compared to the [Community Editors](https://bsmg.wiki/mapping#community-editors) available.
+
+- Uncommon Precision such as 1/3 and associated multiples.
+- Autosave and Recovery
+- Flexible mass select, copy, and paste
+- Edit in place (Change the direction of notes without needing to delete)
+- Chroma RGB Support
+- Actual audio offset for syncing. (The parameter in official offsets/delays not only the song but also hitsounds)
+- Error Checker
+- Contributor Fields
+- Mapping Extensions Support
 
 ### Additional Mapping Tools
 * [BeatMapperTools](https://mappers.beatmappertools.com/) by **Darkuni**  
@@ -157,8 +169,9 @@ Follow these steps to test any of your maps made with a community editor using a
 2. Connect your Oculus Quest to the PC via USB and keep SideQuest open (Optionally, you can turn on Wireless mode to remove it after)
 3. BMBF must be open on the Oculus Quest for the connection to succeed
 4. Look at the top of SideQuest, which will give you the IP to get into BMBF
-5. Type into any web browser: "192.168.X.XXX:50000" with X being replaced with your IP
-![](./images/quest_ip.png)
+5. Type into any web browser: "192.168.X.XXX:50000" with X being replaced with the IP displayed in SideQuest.   
+![](./images/quest_ip.png)  
+For example, from the picture you would enter `192.168.0.19:50000` into a web browser of choice (Chrome, Firefox, etc.).
 6. Drag and drop the files into BMBF's upload page (indicated by /main/upload at the end of the link)
 7. Once uploaded, click Sync to Beat Saber at the top right corner of the page
 ![](./images/bmbf_browser.png)
