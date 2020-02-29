@@ -250,12 +250,12 @@ ___
 **No Arrows maps don't load in game**  
 * Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "No Arrows",` and replace with `"_beatmapCharacteristicName": "NoArrows",`
 ___
-**Your Audio File Name is Wrong. Enter Only the Name NOT the Path.**  
+**Your audio file name is wrong. Enter only the name NOT the path.**  
 ![Audio File Name Wrong](./images/mma2-wrongPath.png)
 * You might have unintentionally named your audio file `song.ogg.ogg`. Turn on file extensions in file explorer to make sure it is named `song.ogg`. The option is located here:  
 ![Turn on File Extensions](./images/turnOnFileExtend.png)
 
-* Your audio file may be invalid. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder. Usage of convert to OGG websites is a common cause. 
+* Your audio file may be invalid. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder. This is commonly caused by websites that promise to "convert to OGG" but do not do it properly.
 ___
 **When I open the editor, all I see is a grid and block and can't interact with it**  
 ![Broken Editor](./images/mma2BrokenApp.png)  
