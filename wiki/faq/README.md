@@ -22,7 +22,7 @@ Place the playlist file into `Beat Saber/Playlists` and select it in-game, then 
 See [mapping](/mapping/)!
 
 ## How do I load plugins that aren't in Mod Assistant?
-See [this section](/beginners-guide.md#manual-installation) in the beginners guide.
+See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 ## How does the multiplayer mod work?
 
 The official multiplayer has not been released, but you can use the multiplayer mod by Andruzzzhka.  
