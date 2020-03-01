@@ -21,7 +21,7 @@ Place the playlist file into `Beat Saber/Playlists` and select it in-game, then 
 ## How do I make my own custom levels?
 See [mapping](/mapping/)!
 
-## How do I load plugins that aren't in the Mod Installer?
+## How do I load plugins that aren't in Mod Assistant?
 See [this section](/beginners-guide.md#manual-installation) in the beginners guide.
 ## How does the multiplayer mod work?
 
