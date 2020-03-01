@@ -15,7 +15,7 @@ See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9z
 
 Additionally, here's an image from the devs about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
 
-![Dzdn Pixcaeen](./images/grips-and-tricks/dzdn-pixcaeen.jpg "Dzdn Pixcaeen")
+![Dzdn Pixcaeen](./mapping/images/hitbox-from-split.jpg)
 
 ## Ranking
 *How does global ranking work? What are performance points? What are the numbers in my brackets? Why is my PP so small?*
