@@ -55,26 +55,40 @@ This is the recommended method for songs with a constant BPM
 
 **Using Arrow Vortex to find BPM and offset:**  
 These steps are the same as those used in Ryger’s [Arrow Vortex BPM Analysis Tutorial](https://youtu.be/Z49UKFefu5c) (which also includes BPM confirmation). 
-1. Download [Arrow Vortex](https://arrowvortex.ddrnl.com/) (AV), extract the file, and open `ArrowVortex.exe`
-	- If the website download does not work, a mirror download is available [here.](https://cdn.discordapp.com/attachments/443569023951568906/662417326771273728/ArrowVortex.zip)
+1. Download Arrow Vortex (AV), extract the file, and open `ArrowVortex.exe`
+	- Discord [Zip Download](https://cdn.discordapp.com/attachments/443569023951568906/662417326771273728/ArrowVortex.zip) (Recommended Method)
+	- Arrow Vortex Website [Rar Download](https://arrowvortex.ddrnl.com/)
 2. Export your song to `.ogg` using [Audacity](https://www.audacityteam.org/)
 	* Using other formats (ie. `.mp3` or `.m4a`) adds a delay to the audio that varies every time and is not accounted for when you export your changes for use in editor.
+
+:::danger
+**This is a critical step!**  
+Not using a `.ogg` file or using the export feature in AV **will** desync your song by an inconsistent amount of milliseconds.
+:::
+
 3. Drag the song file into the AV window
 4. Go to the `View` menu and click `Time based (C-mod)` to see the waveform
 	* Use <kbd>CTRL</kbd> + mouse scroll to zoom
 5. Go to the `Tempo` menu and click `Adjust sync...` or just press <kbd>SHIFT</kbd>+<kbd>S</kbd> to open the adjustment window.
 6. Click the <kbd>Find BPM</kbd> button
-7. If you're lucky, AV will return a single BPM value with 100% confidence. Do not round off a decimal BPM!  
-![AV adjustment window](./images/adjustments.png)
+	- If you're lucky, AV will return a single BPM value with 100% confidence.  
+	![AV adjustment window](./images/adjustments.png)
+	- If you get multiple options you will want to listen to the options to see if they match with the song. Most of the time it will be the first option but follow steps 7 and 8 to make sure.  
+	![Multiple BPM Values](./images/alternateAdjustments.png)
 8. Click the <kbd>Apply BPM</kbd> button
-9. Press <kbd>F3</kbd> to turn on beat ticks to confirm that the beginning, middle, and end of your track are all lined up
-10. Give the player about two seconds to get ready by clicking the `Move first beat` button ![Arrow Vortex move beat button](./images/av_movebeat.png) however many times needed to get your offset close to 2.000.
-	* **Note:** If your song already has enough intro silence, you only need to add enough beats to make your offset positive.
-11. After finding the BPM and offset values you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
+9. Press <kbd>F3</kbd> to turn on beat ticks and listen through the song to confirm that the beginning, middle, and end of your track are all lined up.
+	- If only a single result was given and the ticks do not match, this suggests that the song has a variable BPM. 
+	- If the detection gave multiple options and the ticks do not match, select the next option, click the <kbd>Apply BPM</kbd> button and listen again. If none of the options work for the song, this suggests that it has a variable BPM.
 
-:::warning
-Not using a `.ogg` file or using the export feature in AV will desync your song by an inconsistent amount of milliseconds.
+:::warning NOTE on Variable BPM
+It is recommended that newer mappers choose a different song if your song is determined to have variable BPM due to the increased difficulty associated in mapping them.  
+If you have the experience, see [Advanced Audio Editing: Variable BPM](/mapping/advanced-audio.md#variable-bpm) on how to account for this.
 :::
+
+10. Give the player about two seconds to get ready by clicking the `Move first beat` button ![Arrow Vortex move beat button](./images/av_movebeat.png) however many times needed to get your start time close to 2.000 seconds or the starting sound aligned with the first bar.  
+![Aligned with first bar](./images/av_aligned.png)
+	* If your song has too much intro silence, you will end up with a negative `Music offset`. What this means is that you will need to remove silence from intro of the audio file in Audacity. If you are not comfortable with removing the exact amount, you can remove more than needed, export the change `.ogg` and re-sync with the new file to get a positive offset.
+11. After finding the BPM and offset values you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
 
 ### Online Search
 You can search online using a search engine site (e.g. [Google](http://google.com)) in your web browser for `[song name] + [artist] + "bpm"` and often find a number of sites (e.g. [SongBPM.com](https://songbpm.com/)) with this information.
@@ -146,6 +160,12 @@ After generating the silence you can click the dark line in the song track to ge
 
 #### After tool assisted sync:
 If you've used Arrow Vortex or other tool assisted syncing then do the following to add the right amount of silence to the song track:
+
+:::warning NOTE
+If you have a negative offset, you will need to remove that many seconds from the intro instead.  
+If you are not comfortable with removing the exact amount, you can remove more than needed, export the change `.ogg` and [re-sync using your tool](#tool-assisted-bpm-calculation) with the new file to get a positive offset.
+:::
+
 1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](./images/selection.png)).
 2. Place the cursor at the start of the song track (Click on the song track and press your `Home` key).
 3. Click `Generate menu – > Silence…`
