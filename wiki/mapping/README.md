@@ -165,7 +165,7 @@ Follow these steps to test any of your maps made with a community editor using P
 ### Testing on a Quest
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have [SideQuest](https://sidequestvr.com) and [BMBF](https://github.com/kihecido/BMBF/releases/latest) installed.
 
-1. Zip up the song as normal, only zipping the files and not the folder itself
+1. Zip up the song as normal, only zipping the files and not the folder itself. [How to Video](https://streamable.com/u20ci)
 2. Connect your Oculus Quest to the PC via USB and keep SideQuest open (Optionally, you can turn on Wireless mode to remove it after)
 3. BMBF must be open on the Oculus Quest for the connection to succeed
 4. Look at the top of SideQuest, which will give you the IP to get into BMBF
@@ -226,9 +226,8 @@ See the [Playtesting](/mapping/#playtesting) section for instructions on testing
 1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver. If you are not receiving a verification email, drop into `#mapping-discussion` for assistance.
 2. Click the <kbd>Upload</kbd> link in the top-right.
 3. Add your BeatSaver map name and map description. Only the map name is searchable so be sure to include song name, song artist, and other terms that might make it easier to find your map.
-::: tip
-Use "tags" like (Chroma), (OneSaber), or (Mapping Extensions) if your map uses some special modifications or characteristics you want to highlight.
-:::
+    - Use "tags" like (Chroma), (OneSaber), or (Mapping Extensions) if your map uses some special modifications or characteristics you want to highlight.
+    - Putting a link to a playthough video in the map description can help you get more downloads as it is easier to share your map to others and lets people know what to expect. 
 4. Add your .zip file and click the <kbd>Upload</kbd> button.”
 
 ::: warning

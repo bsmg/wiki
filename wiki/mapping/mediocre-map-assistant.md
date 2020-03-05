@@ -237,8 +237,10 @@ Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See t
 **Create Level button does nothing even if a song name is entered**  
 * Confirm both folder paths are complete on the Song Selection screen and add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on first use.
 ___
-**My song is stuck loading in the editor forever**  
+**My song is stuck loading in the editor forever or returns to the edit song screen after briefly loading**  
 * This error is usually caused by a missing, corrupted, or invalid audio file. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder. Usage of convert to OGG websites is the common cause of this issue.  
+* The audio file is not in the correct location. Make sure it is in the folder that MMA2 created for your song!  
+The folder you should put the `.ogg` song file is located to the path you put during [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and should contain at least an `info.dat` file.  
 * Forgetting to unzip the application folder (MMA2.zip) before running the program will also cause this issue.
 ___
 **I can't figure out how to place dot notes**  
