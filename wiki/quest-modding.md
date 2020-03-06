@@ -5,25 +5,8 @@ sidebar: auto
 
 ## Installation 
 
-Currently there are two working tools for installing custom songs and mods on your Quest:
-* [BeatSaberQuestInstaller (windows only GUI for installing BMBF)](https://github.com/NyanBlade/BeatSaberQuestInstaller/releases)
-* [BMBF installed via SideQuest](https://github.com/kihecido/BMBF/releases)
-
-For new users, BeatSaberQuestInstaller may be easier to use as it handles some of the more confusing parts of modding/updating a modded game, such as restoring scores and installing adb.
-
-### Installing with BeatSaberQuestInstaller
-
-:::warning
-Make sure you run the installer as administrator!
-:::
-
-If you're a new user, then follow the first 3 steps in the BeatSaberQuestInstaller, then go to the utilities tab and backup your scores.
-
-If you've previously modded Beat Saber, you also need to go there to uninstall the game, but make sure you backup **BEFORE** uninstalling.
-
-![BeatSaberQuestInstaller](./images/beginners-guide/bsqioptions.png)
-
-Once you've done what you need, go to step 4 in the installer. After completing the steps, open BMBF from the channels tab in Oculus TV or Unknown Sources in your library.
+Currently the only recommended way to install custom songs and mods is BMBF sideloaded with SideQuest.
+* [BMBF apk](https://github.com/kihecido/BMBF/releases)
 
 ### Installing BMBF with SideQuest
 
@@ -49,10 +32,6 @@ Run Beat Saber once and close it before modding!
 After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown Sources in your library. Follow each step exactly as you're told, and then you should be see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
 
 ## Restoring save data
-
-### Restoring from BeatSaberQuestInstaller
-
-Make sure you've run the game modded once, then go to the `UTILITIES` tab in the BeatSaberQuestInstaller and press the `TRANSFER SCORES` button. You can also do this from step 4 in the installer.
 
 ### Restoring from SideQuest
 
