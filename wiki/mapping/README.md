@@ -155,10 +155,13 @@ You **DO NOT** need to upload your map to Beat Saver in order for you or anyone 
 Follow these steps to test any of your maps made with a community editor using PC-based VR.
 
 1. If your WIP song folder isn’t already in `Beat Saber_Data\CustomWIPLevels` then place a copy there.
-2. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
+2. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).  
+
+**Made changes to your map while the game is open?**  
+Click on the game window. Then while you are on the Main Menu or Song Select Menu press <kbd>Ctrl + r</kbd> on your keyboard. Your changes will be loaded without needing to restart the game!
 
 ::: warning NOTE
-* You will need to have the **SongCore** mod installed in order to see the CustomWIPLevels category.
+* You will need to have the **SongCore** mod installed in order to see the CustomWIPLevels category and use the <kbd>Ctrl + r</kbd> shortcut.
 * Having duplicate map files in `CustomLevels` and `CustomWIPLevels` can cause problems.
 :::  
 
@@ -184,7 +187,7 @@ If after deleting an old copy of a map and reuploading it with a new version on 
 ### Community / Third Party Testing
 The `#testplays` channel in the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) makes it easy to have your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in either video or text format in a DM or in the `#mapping-discussion` channel.
 
-1. Create a compressed .zip file of the individual song files (not the song folder).
+1. Create a compressed .zip file of the individual song files [How to Video](https://streamable.com/u20ci).
 2. Upload your map to `#testplays` using the following format:  
   * **Map:** The name and artist of your map  
   * **Length:** The length of the song  
@@ -223,7 +226,8 @@ See the [Playtesting](/mapping/#playtesting) section for instructions on testing
 
 #### How to Release a Map
 
-1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver. If you are not receiving a verification email, drop into `#mapping-discussion` for assistance.
+1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver.  
+    - If you did not receive a verification email, fill out this [contact form](https://beatsaver.com/contact). Note that a valid username *and* email is needed to complete the verification!
 2. Click the <kbd>Upload</kbd> link in the top-right.
 3. Add your BeatSaver map name and map description. Only the map name is searchable so be sure to include song name, song artist, and other terms that might make it easier to find your map.
     - Use "tags" like (Chroma), (OneSaber), or (Mapping Extensions) if your map uses some special modifications or characteristics you want to highlight.

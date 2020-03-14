@@ -1,7 +1,7 @@
 ---
 sidebar: auto
-prev: false
-next: false
+prev: ./basic-mapping.md
+next: ./intermediate-lighting.md
 ---
 # Basic Lighting
 _Make Beat Saber a brighter place by manually lighting your maps_

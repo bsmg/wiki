@@ -54,16 +54,17 @@ This is the recommended method for songs with a constant BPM
 [Arrow Vortex](https://arrowvortex.ddrnl.com/) is a free tool to analyze a song’s BPM automatically. It will also find the offset needed to line the audio up to the beat in Audacity or your map editor. 
 
 **Using Arrow Vortex to find BPM and offset:**  
-These steps are the same as those used in Ryger’s [Arrow Vortex BPM Analysis Tutorial](https://youtu.be/Z49UKFefu5c) (which also includes BPM confirmation). 
+The steps listed below are the same as those used in Ryger’s [Arrow Vortex BPM Analysis Video Tutorial](https://youtu.be/Z49UKFefu5c) (which also includes BPM confirmation). 
 1. Download Arrow Vortex (AV), extract the file, and open `ArrowVortex.exe`
 	- Discord [Zip Download](https://cdn.discordapp.com/attachments/443569023951568906/662417326771273728/ArrowVortex.zip) (Recommended Method)
 	- Arrow Vortex Website [Rar Download](https://arrowvortex.ddrnl.com/)
+		- You will need additional software such as [7zip](https://www.7-zip.org/) to extract `.rar` files such as this one.
 2. Export your song to `.ogg` using [Audacity](https://www.audacityteam.org/)
 	* Using other formats (ie. `.mp3` or `.m4a`) adds a delay to the audio that varies every time and is not accounted for when you export your changes for use in editor.
 
 :::danger
 **This is a critical step!**  
-Not using a `.ogg` file or using the export feature in AV **will** desync your song by an inconsistent amount of milliseconds.
+Not using a `.ogg` file or using the export feature in AV **will** desync your song by an inconsistent amount of time.
 :::
 
 3. Drag the song file into the AV window
@@ -81,12 +82,15 @@ Not using a `.ogg` file or using the export feature in AV **will** desync your s
 	- If the detection gave multiple options and the ticks do not match, select the next option, click the <kbd>Apply BPM</kbd> button and listen again. If none of the options work for the song, this suggests that it has a variable BPM.
 
 :::warning NOTE on Variable BPM
-It is recommended that newer mappers choose a different song if your song is determined to have variable BPM due to the increased difficulty associated in mapping them.  
+It is recommended that newer mappers choose a different song due to the increased difficulty associated in mapping variable BPM.
+Not sure if your song is variable? Drop by BSMG's `#mapping-discussion` and ask!  
+
 If you have the experience, see [Advanced Audio Editing: Variable BPM](/mapping/advanced-audio.md#variable-bpm) on how to account for this.
 :::
 
-10. Give the player about two seconds to get ready by clicking the `Move first beat` button ![Arrow Vortex move beat button](./images/av_movebeat.png) however many times needed to get your start time close to 2.000 seconds or the starting sound aligned with the first bar.  
-![Aligned with first bar](./images/av_aligned.png)
+10. Give the player about two seconds to get ready by clicking the `Move first beat` button ![Arrow Vortex move beat button](./images/av_movebeat.png) however many times needed to get your start time close to 2.000 seconds or the sound you want to place your first note on aligned with the first bar.  
+![Aligned with first bar](./images/av_aligned.png) ![Alternate Aligned with first bar](./images/av_altAligned2.png)
+	* After aligning, you should check the song again to verify that the beats still match.
 	* If your song has too much intro silence, you will end up with a negative `Music offset`. What this means is that you will need to remove silence from intro of the audio file in Audacity. If you are not comfortable with removing the exact amount, you can remove more than needed, export the change `.ogg` and re-sync with the new file to get a positive offset.
 11. After finding the BPM and offset values you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
 
@@ -297,7 +301,8 @@ To generate a compatible sound file to use we need to do the following:
 1. Delete the Click Track (if you haven’t already done so).
 2. Click the `File menu -> Export -> Export as OGG.`
 3. Name your file `song.ogg`.
-4. Choose an appropriate OGG quality ([more info here](/mapping/advanced-audio.html#choosing-appropriate-ogg-export-quality)):
+4. Choose an appropriate OGG quality ([more info here](/mapping/advanced-audio.html#choosing-appropriate-ogg-export-quality)):  
+![Export Quality Slider](./images/export-quality.png)
 	* High quality source (WAVE / FLAC / MP3 / AAC) use 6-9 (unless there is a file size issue.)
 	* Low quality source (YouTube or such): use 3-5
 5. Click Save.
