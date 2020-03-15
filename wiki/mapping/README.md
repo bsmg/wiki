@@ -228,7 +228,7 @@ See the [Playtesting](/mapping/#playtesting) section for instructions on testing
 
 1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver.  
     - If you did not receive a verification email, fill out this [contact form](https://beatsaver.com/contact).  
-    **Note** that a valid username *and* email used to sign up is needed to complete the verification!
+    **Note** you must provide a valid username *and* the email used to sign up in the form to complete the verification!
 2. Click the <kbd>Upload</kbd> link in the top-right.
 3. Add your BeatSaver map name and map description. Only the map name is searchable so be sure to include song name, song artist, and other terms that might make it easier to find your map.
     - Use "tags" like (Chroma), (OneSaber), or (Mapping Extensions) if your map uses some special modifications or characteristics you want to highlight.
