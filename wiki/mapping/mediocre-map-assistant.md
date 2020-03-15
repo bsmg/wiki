@@ -4,6 +4,8 @@ sidebar: auto
 # Mediocre Map Assistant 2 User Guide
 _Essential information to get up and running using Mediocre Map Assistant 2_
 
+* [Glossary of Terms](/mapping/glossary.md)
+
 ::: tip NOTE
 This guide currently supports both [Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) by Assistant and Mediocre Mapper Mk5 (final public release) by Squeaksies. All future public development will occur on MMA2.
 :::
@@ -41,6 +43,10 @@ It is a known bug that the autodetect path MMA2 uses is missing a `\` between `B
 instead of  
 `C:\Steam\steamapps\common\Beat SaberBeat Saber_Data\CustomLevels`
 :::
+
+#### Check the WIP File Path
+It is currently a known bug that the path given from setup does not carry over to the main screen. Make sure the fields have the paths from your setup and are not blank.  
+![Check Paths Not Blank](./images/mma2-checkWipSongPath.png)
 
 ### Editor Settings
 Once you've set up your paths, these core settings are all available from the song selection page when you first open the program.
@@ -257,12 +263,21 @@ ___
 * You might have unintentionally named your audio file `song.ogg.ogg`. Turn on file extensions in file explorer to make sure it is named `song.ogg`. The option is located here:  
 ![Turn on File Extensions](./images/turnOnFileExtend.png)
 
-* Your audio file may be invalid. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder. This is commonly caused by websites that promise to "convert to OGG" but do not do it properly.
+* Your audio file may be invalid. This is commonly caused by websites that promise to "convert to OGG" but do not do it properly. Review [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and that your file is in the correct folder. 
 ___
 **When I open the editor, all I see is a grid and block and can't interact with it**  
 ![Broken Editor](./images/mma2BrokenApp.png)  
 * Navigate to your `\AppData\Local` and delete the `MediocreMapAssistant2` folder. Then run `mediocremapassistant2.exe` and follow [First Time Setup](#first-time-setup) again.
    * You can copy and paste this path into the file explorer address bar to quickly get to the folder: `C:\Users\%username%\AppData\Local\MediocreMapAssistant2`
+___
+**When I open the editor, it crashes with a LowLevelFatalError: [Line 90] Failed to load module**  
+![FatalError](./images/mma2-physXerror.png)
+* If your error matches what is shown in the picture. Close out of the dialog and install this [DirectX driver](https://www.microsoft.com/download/details.aspx?id=35).
+   * If you get this error while installing the driver.  
+   ![directX Install Error](./images/mma2-directXError.png)
+      1) Download and run the [.NET Framework Repair Tool](https://docs.microsoft.com/dotnet/framework/install/repair). 
+      2) Restart your computer and rerun the DirectX driver installer.
+
 
 ## Credits
 Content in this section was authored by [Helen Carnate](/mapping/mapping-credits.html#helen-carnate) and [Bloodcloak](/mapping/mapping-credits.html#bloodcloak).
