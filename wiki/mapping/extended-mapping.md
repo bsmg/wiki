@@ -109,19 +109,39 @@ Precision rotation allows the mapper to rotate blocks at any angle, no longer li
 This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::  
 
-Wall mapping allows the mapper to get incredibly creative with wall placement well outside of the standard grid. Often accomplished through the use of scripting tools like [BeatWalls](https://github.com/spookyGh0st/beatwalls/releases/latest) by **SpookyGhost**
+Wall mapping allows the mapper to get incredibly creative with wall placement well outside of the standard grid. Often accomplished through the use of scripting tools like [BeatWalls](https://github.com/spookyGh0st/beatwalls) by **SpookyGhost**. Here are some examples charts to draw inspiration from.
 
 * **Atmospheric Walls:** Walls create an ambience to fit with the mood of the song  
   * **Example:** Air - MrFijiWiji Remix mapped by Gevarred  
 [YouTube](https://www.youtube.com/watch?v=V-KFAdSjeKo) | [Beat Saver](https://beatsaver.com/beatmap/67ba)  
-  * **Example:** Sky Fracture VIP (feat. Miss Lina) - Getsix mapped by AnniversaryTeam (level by SpookyGhost)  
-[YouTube](https://www.youtube.com/watch?v=IdZkdxyNfVY) | [Beat Saver](https://beatsaver.com/beatmap/68c5)
-* **Art Walls:** Song lyrics or imagery represented through wall drawings  
   * **Example:** Keep the Rave Alive - Jaus x Lazer Lazer Lazer mapped by Skyler Wallace & HeisenbergIRL  
 [YouTube](https://www.youtube.com/watch?v=lxfCwV_NZCA) | [Beat Saver](https://beatsaver.com/beatmap/540b)
-* **Interactive Walls:** Walls add to the motions the player experiences  
+  * **Example:** Cyberdemon - Mick Gordon mapped by Cyan Snow  
+[YouTube](https://www.youtube.com/watch?v=pcqmDzUobEc) | [Beat Saver](https://beatsaver.com/beatmap/6666)
+
+* **Interactive Walls:** Walls add to add cool effects based on the song.
+  * **Example:** Sky Fracture VIP (feat. Miss Lina) - Getsix mapped by AnniversaryTeam (level by SpookyGhost)  
+[YouTube](https://www.youtube.com/watch?v=IdZkdxyNfVY) | [Beat Saver](https://beatsaver.com/beatmap/68c5)
   * **Example:** Assemble by Justin OH and Xilent, mapped by xScaramouche  
 [YouTube](https://www.youtube.com/watch?v=LKkRgLkolw8) | [Beat Saver](https://beatsaver.com/beatmap/6709)  
+  * **Example:** Warzone by Boom Kitty, mapped by Spooky Ghost  
+[YouTube](https://www.youtube.com/watch?v=6UwEjc6VGyM) | [Beat Saver](https://beatsaver.com/beatmap/7702)  
+
+***WARNING:*** Too many walls will create heavy lag. Try to keep the wall-count down.
+
+### Wallmapping using mma2
+After enabling 6 lane mode and adding the Mapping Extension requirement, your grid for placing walls will expand, so you can create Walls anywhere on the Track.
+To change the precision, go into the editor menue (escape) and change the `Precision Snap` value.
+
+### Wallmapping using beatwalls
+[documentation](https://github.com/spookyGh0st/beatwalls/blob/master/README.md) and [examples](https://github.com/spookyGh0st/beatwalls/tree/master/examples) are provided at the github repository.
+
+### fast and hyper walls
+hyper and fast walls are the names for walls that zoom by the player. They are created using a negative Value for the duration according to [this document](https://docs.google.com/spreadsheets/d/1hCbsWwfThH23xVmWk4B-HUKPoZNrsQUeHUHyfNO-yAU). 
+
+- **IN MMA2/CHROMAMAPPER** they are created with pressing `ctrl-f` on a wall, until it is yellow. The length of the wall is its duration, so keep it according to the document linked above.
+- **IN BEATWALLS** they are created by overwriting the duration property with `changeDuration: -3`
+Keep in mind, that too many walls will lag on slower computer, so try to keep your wall-count down.
 
 ## Extended Characteristics
 These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `info.dat` file.
