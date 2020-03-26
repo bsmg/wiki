@@ -109,19 +109,44 @@ Precision rotation allows the mapper to rotate blocks at any angle, no longer li
 This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::  
 
-Wall mapping allows the mapper to get incredibly creative with wall placement well outside of the standard grid. Often accomplished through the use of scripting tools like [BeatWalls](https://github.com/spookyGh0st/beatwalls/releases/latest) by **SpookyGhost**
+Wall mapping allows the mapper to get incredibly creative with wall placement well outside of the standard grid. Editors that support Mapping Extensions can be used in some capacity to create these maps. However, more complex wall sequences are often accomplished through the use of scripting tools like [BeatWalls](#wall-mapping-using-beatwalls) by **SpookyGhost**. There currently are two categories of wall maps.
 
 * **Atmospheric Walls:** Walls create an ambience to fit with the mood of the song  
-  * **Example:** Air - MrFijiWiji Remix mapped by Gevarred  
-[YouTube](https://www.youtube.com/watch?v=V-KFAdSjeKo) | [Beat Saver](https://beatsaver.com/beatmap/67ba)  
-  * **Example:** Sky Fracture VIP (feat. Miss Lina) - Getsix mapped by AnniversaryTeam (level by SpookyGhost)  
-[YouTube](https://www.youtube.com/watch?v=IdZkdxyNfVY) | [Beat Saver](https://beatsaver.com/beatmap/68c5)
-* **Art Walls:** Song lyrics or imagery represented through wall drawings  
-  * **Example:** Keep the Rave Alive - Jaus x Lazer Lazer Lazer mapped by Skyler Wallace & HeisenbergIRL  
+  * **Air (Mr FijiWiji Remix)** - Hellberg & Teqq ft. Taylr Renee mapped by Gevarred  
+[YouTube](https://www.youtube.com/watch?v=V-KFAdSjeKo) | [Beat Saver](https://beatsaver.com/beatmap/67ba)
+  * **Cyberdemon** - Mick Gordon mapped by CyanSnow  
+[YouTube](https://www.youtube.com/watch?v=pcqmDzUobEc) | [Beat Saver](https://beatsaver.com/beatmap/6666)  
+  * **Keep the Rave Alive** - Jaus x Lazer Lazer Lazer mapped by Skyler Wallace & HeisenbergIRL  
 [YouTube](https://www.youtube.com/watch?v=lxfCwV_NZCA) | [Beat Saver](https://beatsaver.com/beatmap/540b)
-* **Interactive Walls:** Walls add to the motions the player experiences  
-  * **Example:** Assemble by Justin OH and Xilent, mapped by xScaramouche  
+
+* **Interactive Walls:** Walls add to add cool effects based on the song.
+  * **Assemble** - Justin OH and Xilent mapped by xScaramouche  
 [YouTube](https://www.youtube.com/watch?v=LKkRgLkolw8) | [Beat Saver](https://beatsaver.com/beatmap/6709)  
+  * **Sky Fracture VIP** - Getsix ft. Miss Lina mapped by AnniversaryTeam (level by SpookyGhost)  
+[YouTube](https://www.youtube.com/watch?v=IdZkdxyNfVY) | [Beat Saver](https://beatsaver.com/beatmap/68c5)
+  * **Warzone** - Boom Kitty mapped by Spooky Ghost  
+[YouTube](https://www.youtube.com/watch?v=6UwEjc6VGyM) | [Beat Saver](https://beatsaver.com/beatmap/7702)  
+
+:::warning NOTE
+Too many walls will create heavy lag. Especially for players that do not have powerful computers. Test frequently and try to keep the wall-count down to keep your experience accessible for most players.
+:::
+
+#### Wall Mapping using MMA2
+After [editor setup](#set-up), check that you have at least 6 Lane Mode and Precision Placement enabled.   
+When editing your map, if you select the wall placement tool the grid will expand, allowing you to place walls anywhere on the track similar to regular wall placement. To make smaller walls, you need to change the precision. Go into the editor menu by pressing <kbd>Esc</kbd> or clicking the hamburger in the top right and change the `Precision Snap` value. This is a similar to the `Cursor Precision` setting.
+
+#### Wall Mapping using Beatwalls
+For setup and usage, see the [documentation](https://github.com/spookyGh0st/beatwalls#readme) and [examples](https://github.com/spookyGh0st/beatwalls/tree/master/examples) in the github repository.
+
+#### Fast and Hyper Walls
+Walls that zoom by the player are called Fast and Hyper walls. They are created using a negative value for the duration parameter which varies based on half-jump and wall duration. Values for the type of wall can be found in this [negative walls document](https://docs.google.com/spreadsheets/d/1hCbsWwfThH23xVmWk4B-HUKPoZNrsQUeHUHyfNO-yAU). 
+
+- **MMA2/ChroMapper:** You can create fast/hyper walls by pressing <kbd>ctrl + f</kbd> while your cursor is on a wall until it is yellow. The length of the wall is the duration, see the [negative walls document](https://docs.google.com/spreadsheets/d/1hCbsWwfThH23xVmWk4B-HUKPoZNrsQUeHUHyfNO-yAU) for the appropriate length.
+- **Beatwalls:** Fast/hyper walls are created by overwriting the duration property with `changeDuration: -3`.
+
+:::tip Remember!
+Too many walls will create heavy lag. Especially for players that do not have powerful computers. Test frequently and try to keep the wall-count down to keep your experience accessible for most players.
+:::
 
 ## Extended Characteristics
 These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `info.dat` file.
