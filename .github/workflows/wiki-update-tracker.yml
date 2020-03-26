@@ -25,7 +25,7 @@ jobs:
           APP_ID: ${{ secrets.APP_ID }}
 
       - name: Check original pages status and update issues
-        uses: Awagi/wiki-update-tracker@v1.3
+        uses: Awagi/wiki-update-tracker@v1.4
         with:
           repo-path: $GITHUB_WORKSPACE
           original-path: "wiki"
