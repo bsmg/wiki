@@ -203,7 +203,7 @@ These are called forbidden patterns for a reason. There is no reason in the worl
 #### Handclaps
 | Illustration | Editor View | Explanation |
 |:----:|:----:|:---- |
-| ![Illustration of a handclap](./images/controller-smash.png) | ![Editor view of a handclap](./images/controller-smash-alt.png) | Pointing blocks at each other may cause the player to smash their controllers together when playing for max points. Don’t do it, no exceptions.<br /><br />Note: Different VR sets have different controllers. Vive wands are much bigger than Oculus touch controllers and Index knuckles... don’t put your players’ hardware at risk! *AKA Controller clash, Controller smash* |
+| ![Illustration of a handclap](./images/controller-smash.png) | ![Editor view of a handclap](./images/controller-smash-alt.png) | Pointing blocks at each other may cause the player to smash their controllers together when playing for max points. Don’t do it, no exceptions.<br /><br />Note: Different VR sets have different controllers. Vive wands are much bigger than Oculus touch controllers and Index knuckles... don’t put your players’ hardware at risk! *AKA Controller clash, Controller smash* <br /><br /> [Example Video](https://clips.twitch.tv/FantasticTenderTortoiseDancingBanana)|
 
 #### Hammer Hits
 | Illustration | Editor View | Explanation |

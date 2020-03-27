@@ -203,14 +203,14 @@ Two new “official” event types were introduced in v1.6.0 as part of the ligh
 * **Event Type 15 (Late Rotation):** Rotates spawn point while ignoring the notes/obstacles at the same time as the event.
 
 Each event has a value for spawn rotation which is always relative to the player’s current position:
-* **[0]**  -60° rotation (counter-clockwise)
-* **[1]**  -45° rotation (counter-clockwise)
-* **[2]**  -30° rotation (counter-clockwise)
-* **[3]**  -15° rotation (counter-clockwise)
-* **[4]**   15° rotation (clockwise)
-* **[5]**   30° rotation (clockwise)
-* **[6]**   45° rotation (clockwise)
-* **[7]**   60° rotation (clockwise)
+* **[0]**  60° rotation counter-clockwise (Left)
+* **[1]**  45° rotation counter-clockwise (Left)
+* **[2]**  30° rotation counter-clockwise (Left)
+* **[3]**  15° rotation counter-clockwise (Left)
+* **[4]**  15° rotation clockwise (Right)
+* **[5]**  30° rotation clockwise (Right)
+* **[6]**  45° rotation clockwise (Right)
+* **[7]**  60° rotation clockwise (Right)
 
 ::: tip NOTE  
 The chevron in the 360° [Glass Desert environment](./basic-lighting.html#environment-previews) rotates corresponding to the rotation event time, both 14 and 15. This is important as it guides the player where to face in gameplay.

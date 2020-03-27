@@ -84,6 +84,26 @@ Keep in mind the following features that official does not have compared to the 
 - Contributor Fields
 - Mapping Extensions Support
 
+#### Migrating from Official Editor to a Community Editor
+Although it is recommended to start setup again following the [Quick Start](#mapping-quick-start) guides with a [Community Editor](https://bsmg.wiki/mapping#community-editors). It is possible to transfer your work in the Official Editor over.
+1. Install a [Community Editor](https://bsmg.wiki/mapping#community-editors)
+2. Locate your map files in your game's `CustomLevels` folder.
+    * Steam Example Location: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`
+    * Oculus Example Location: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomLevels`
+3. Move it to the folder your editor is looking in. This is commonly the `CustomWIPLevels` in the `Beat Saber_Data` folder.
+    * Steam: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomWIPLevels`
+    * Oculus: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
+4. Convert your audio file to the `.ogg` format from `.wav` if you have not done so.
+    1. Download and Install [Audacity](https://www.audacityteam.org/) 
+    2. Open the `.wav` file in Audacity
+    2. Click the `File menu -> Export -> Export as OGG.`
+    3. Name your file `song.ogg` and click <kbd>Save</kbd>.
+    4. Place the `song.ogg` file into the map folder.
+        * You no longer need the `.wav` song file in this folder
+5. Open the map in the community editor and change the song file name to `song.ogg` and click the save button.
+
+You are now ready to continue editing your map!
+
 ### Additional Mapping Tools
 * [BeatMapperTools](https://mappers.beatmappertools.com/) by **Darkuni**  
 A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps
@@ -96,11 +116,16 @@ A suite of tools for mappers **using new format .dat files** that includes:
 * [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
 A convienient way to checkout how your map might look in game without the game. 
   * IOS and Safari are currently not supported
-* [BPM Saber](https://github.com/zevdg/bpm-saber), by **Zevdg**  
-**Only works on old format .json files.** Change the BPM of an entire map and shift block placements accordingly
-* [BPM Saber](https://bsaber.com/bpmsaber/), by **Elliotttate**  
-A utility for finding the BPM of a song
-* [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe** 
+* [Cinder](https://github.com/zhaey/cinder#readme) by **zhaey**  
+Python program that converts stepmania `.sm` files to Beat Saber `.dat` files for timing notes.
+* [BPM Saber](https://bsaber.com/bpmsaber/) by **Elliotttate**  
+A utility for finding the BPM of a song by upload or tapping.
+* [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
+Video guide on using the timing feature of osu!'s editor to find map bpm.
+
+#### Legacy Tools
+* [BPM Saber](https://github.com/zevdg/bpm-saber#readme), by **Zevdg**  
+**Only works on old format .json files. For new format .dat maps use the Tempo Changer in +1 Rabbit's Mapping Tools.** Change the BPM of an entire map and shift block placements accordingly
 
 ## Mapping Practices
 > "You have to know the rules before you can break them."  
@@ -139,7 +164,11 @@ Below are additional lighting resources as we migrate over to the wiki pages.
 * [Using Flash & Fade Lighting Events](https://bsaber.com/creating-lighting-how-flash-fade-notes-actually-work-in-game/) by ManDynasty
 * [Side Laser Speed Reference](https://docs.google.com/spreadsheets/d/1tIERmSyFI4ssjDkE-oJjBBvUZUJ7eoVhCQyM3_BsJwE/edit?usp=sharing) by LittleAsi
 
-**Lightmap** adds automated lights to your map. It is integrated into Mediocre Map Assistant 2 and can be accessed in the error checker menu. However, creating simple manual lighting is not difficult and will always be better at expressing the atmosphere of the song than lightmap.
+### Automated Lights
+Not ready to make your own lighting? Here are some programs to do it for you. Keep in mind, creating simple manual lighting is not difficult and will always be better at expressing the atmosphere of the song than using these programs.
+
+* [Lolighter](https://discordapp.com/channels/441805394323439646/442372806705938434/683052261294997541) by **Loloppe#6435** - Standalone program available in the `#other-files` channel in BSMG.
+* **Lightmap** - It is integrated into Mediocre Map Assistant 2 and can be accessed in the error checker menu. 
 
 ## Playtesting
 Testing your work is a **critical** part of mapping. Testing as you work helps you adjust for major playability issues and get a feel for your map. Third-party or “outside” playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
@@ -249,7 +278,7 @@ ___
 **Something went wrong! Try again later.**   
   This is the default error message, causes include:  
   * An upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.  
-  * Unsupported characters are present in a file. Make sure your metadata and bookmarks don't contain special characters such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accents (Ä/é/ó).  
+  * Unsupported characters are present in a file. Make sure your metadata and bookmarks don't contain special characters such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ).  
     * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit** may be useful in finding the specific problem.
 ___
 **Field `._customData._customEnviroment` cannot be blank.**    
