@@ -1,6 +1,6 @@
 # Custom Sabers
 ## Installation
-The latest Custom Saber plugin can be found in [Mod Assistant](https://github.com/Assistant/ModAssistant/releases/latest). Run ModAssistant, select the Custom Saber plugin, and click Install.
+The latest Custom Saber plugin can be found in [Mod Assistant](https://github.com/Assistant/ModAssistant/releases/latest). The custom sabers mod can also be found on [BMBF](https://bsmg.wiki/quest-modding.html). Run ModAssistant, select the Custom Saber plugin, and click Install.
 Once you've installed it you will see a folder called `CustomSabers` in [your install folder](/faq/install-folder.md), this is where you should place the `*.saber` files you want to use. You can download more sabers on [ModelSaber](https://modelsaber.com/Sabers/).
 
 ## Usage
