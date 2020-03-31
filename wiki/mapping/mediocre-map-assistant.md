@@ -14,10 +14,10 @@ This guide currently supports both [Mediocre Map Assistant 2](https://github.com
 ### Installation
 1. Download MMA2.zip from [GitHub](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) 
 2. Unzip the file and place the extracted folder wherever you like on your hard drive.
-3. Double click `mediocremapassistant2.exe` to run.
+3. Double click `mediocremapassistant2.exe` in the extracted folder to run.
 
 ::: warning 
-It is **VERY** important to unzip the file in step 2 as not doing so will cause issues with map creation and editing!
+It is **VERY** important to unzip the file in step 2 and only run the exe in the new folder instead of the one inside the zip as not doing so will cause issues with map creation and editing!
 :::
 
 ### First Time Setup
@@ -45,7 +45,7 @@ instead of
 :::
 
 #### Check the WIP File Path
-It is currently a known bug that the path given from setup does not carry over to the main screen. Make sure the fields have the paths from your setup and are not blank.  
+It is currently a known bug that the path given from setup does not carry over to the main screen. Make sure the fields have the paths from your setup and are not blank. If blank, add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and press <kbd>Enter</kbd> to confirm!  
 ![Check Paths Not Blank](./images/mma2-checkWipSongPath.png)
 
 ### Editor Settings
@@ -113,7 +113,7 @@ The `Song Info` page is the first screen you see every time you edit a map.
 On the left side of the `Song Info` page is information that applies to your whole map. See [Beat Saber Metadata Criteria](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) for standards on presenting complex song names and multiple artists.
 
 ::: warning
-Special characters in languages such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by Beat Saber or Beatsaver. Using these characters in song metadata or in bookmarks can cause problems.
+Special characters such as those found in, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ) are not fully supported by Beat Saber or Beatsaver. Using these characters in song metadata or in bookmarks will cause problems.
 :::
 
 * **Song Name:** The primary name of the song
@@ -241,13 +241,15 @@ Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See t
 
 ## Troubleshooting
 **Create Level button does nothing even if a song name is entered**  
-* Confirm both folder paths are complete on the Song Selection screen and add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on first use.
+* [Check both folder paths](#check-the-wip-file-path) are complete on the Song Selection screen and add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on first use.
+* Make sure the Song Name field below the button is not blank/has text.
+* Make sure you are launching the editor from the extracted folder, not the zip (MMA2.zip) you downloaded.
 ___
 **My song is stuck loading in the editor forever or returns to the edit song screen after briefly loading**  
 * This error is usually caused by a missing, corrupted, or invalid audio file. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder. Usage of convert to OGG websites is the common cause of this issue.  
 * The audio file is not in the correct location. Make sure it is in the folder that MMA2 created for your song!  
-The folder you should put the `.ogg` song file is located to the path you put during [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and should contain at least an `info.dat` file.  
-* Forgetting to unzip the application folder (MMA2.zip) before running the program will also cause this issue.
+   * The folder you should put the `.ogg` song file is located to the path you put during [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and should contain at least an `info.dat` file.  
+* Make sure you are launching the editor from the extracted folder, not the zip (MMA2.zip) you downloaded.
 ___
 **I can't figure out how to place dot notes**  
 * Press <kbd>ESC</kbd> and review the in-editor list of keybindings or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). HINT: It's `F`

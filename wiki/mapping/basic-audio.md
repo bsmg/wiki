@@ -76,8 +76,8 @@ Not using a `.ogg` file or using the export feature in AV **will** desync your s
 	![AV adjustment window](./images/adjustments.png)
 	- If you get multiple options you will want to listen to the options to see if they match with the song. Most of the time it will be the first option but follow steps 7 and 8 to make sure.  
 	![Multiple BPM Values](./images/alternateAdjustments.png)
-8. Click the <kbd>Apply BPM</kbd> button
-9. Press <kbd>F3</kbd> to turn on beat ticks and listen through the song to confirm that the beginning, middle, and end of your track are all lined up.
+7. Click the <kbd>Apply BPM</kbd> button
+8. Press <kbd>F3</kbd> to turn on beat ticks and press <kbd>Spacebar</kbd> to listen through the song to confirm that the beginning, middle, and end of your track are all lined up.
 	- If only a single result was given and the ticks do not match, this suggests that the song has a variable BPM. 
 	- If the detection gave multiple options and the ticks do not match, select the next option, click the <kbd>Apply BPM</kbd> button and listen again. If none of the options work for the song, this suggests that it has a variable BPM.
 

@@ -61,7 +61,7 @@ When strobing lighting events (vs. spin events) there are two main variants you 
 ### Flash/On Strobing
 You can produce a pulsating glow effect by strobing Flash and On events in sequence rather than the On/Off or Flash/Off sequences used in standard strobes. 
 
-Flash events begin at ~110% the intensity of On events, increasing rapidly to ~125% intensity, then ramping back down to the standard 100% intensity of On events. An On event placed at any point during the Flash animation will immediately set the intensity to 100%, disrupting the ongoing transition. Therefore, you can produce very different results by strobing these two events at different intervals, ranging from a pulsating glow at ~1/4 interval to something of a vibrating "hum" at ~1/16 (tempo dependant).
+Flash events start ~37.1% brighter than On events and then quickly fades to the intensity of On. An On event placed at any point during the Flash animation will disrupt the ongoing transition, immediately set the intensity to On. Therefore, you can produce very different results by strobing these two events at different intervals, ranging from a pulsating glow at ~1/4 interval to something of a vibrating "hum" at ~1/16 (tempo dependant).
 
 * Example of 1/4 interval at ~0:17: Don't Give Up On Me - Jason Ross ft. Dia Frampton mapped and lighted by LittleAsi  
 [Streamable](https://streamable.com/d1jm6) | [Beatsaver](https://beatsaver.com/beatmap/7c00)
@@ -72,7 +72,7 @@ This is a stub section. If you'd like to contribute, submit suggestions via [thi
 :::
 **On/Off** and **Flash/Off** strobes are considered "true" strobes, alternating bright light and darkness in rapid succession. Strobing should be used cautiously as overuse can make it very difficult to concentrate on your map or even harm players with neurological conditions.
 
-As discussed in the [Flash/On](/mapping/intermediate-lighting.html#flash-on-strobing) section, "on" lights are at 100% brightness while "Flash" lights begin at 110% and quickly intensify to 125%. Flash/Offs produce a more intense strobe than On/Offs.
+As discussed in the [Flash/On](/mapping/intermediate-lighting.html#flash-on-strobing) section, "on" lights are at 100% brightness while "Flash" lights begin ~37.1% brighter than On events and then quickly fades to the intensity of On. Flash/Offs produce a more intense strobe than On/Offs.
 
 * Example: Bass Music - Umziky (Cytus II ver.) mapped and lighted by Skeelie (also uses Chroma RGB)  
 [YouTube](https://www.youtube.com/watch?v=Set0lOZ5Yog) | [Beatsaver](https://beatsaver.com/beatmap/7bc4)
