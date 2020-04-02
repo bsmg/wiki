@@ -21,3 +21,4 @@ wiki/.vuepress/dist
 
 # Temp files for dev build
 .temp
+/.vs
