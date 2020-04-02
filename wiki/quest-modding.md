@@ -6,7 +6,7 @@ sidebar: auto
 ## Installation 
 
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with SideQuest.
-* [BMBF apk](https://github.com/kihecido/BMBF/releases)
+* [BMBF apk](https://bmbf.dev/stable)
 
 ### Installing BMBF with SideQuest
 

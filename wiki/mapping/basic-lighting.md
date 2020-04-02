@@ -117,7 +117,9 @@ If you choose to add a different default environment to your map via file editin
 > **NOTE:** You cannot use a custom platform in this field. This will be covered in Intermediate Lighting (coming soon!)
 
 ## Map Color Overrides
-Beat Saber v1.4 allows users to set the Red/Green/Blue (RGB) colors of notes, lights, and walls for their game. With these overrides, Mappers can force their own color scheme in-game as long as the user has the SongCore mod installed and the `Enable Custom Song Colors` option is enabled.
+You can force your own map color scheme in-game as long as the user has the SongCore mod installed and has enabled the `Enable Custom Song Colors` option in the mod settings.
+
+Since Beat Saber version 1.4, users can set the Red/Green/Blue (RGB) colors of notes, lights, and walls for their game. However, they will be overridden with the colors defined in the `info.dat` if the user has the `Enable Custom Song Colors` option enabled.
 
 :::tip 
 When choosing color overrides for the notes. It is **HIGHLY** recommended that you keep reddish/warm colors on the left and blueish/cold colors on the right to avoid confusing players.

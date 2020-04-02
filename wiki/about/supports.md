@@ -5,7 +5,7 @@ The Support role is a symbol of thanks. Thanks for the thousands of messages and
 ## Kolezan
 He'll teach you to fix your plugins and your terribly off-beat first map. We've all been there.
 
-**Roles:** Support, Mapper
+**Roles:** Support, Mapping Support, Mapper
 
 [Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
 
