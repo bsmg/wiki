@@ -104,14 +104,14 @@ Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) 
 ## MichaelZoller
 Contributor to the beatsaber hooks used in quest modding and assists with creating infrastructure for the quest modding scene.
 
-## nate1290
+## nate1280
 Face off against your friends with his [Versus](https://versusmod.com/) mod.
 
 **Roles:** Modder
 
 **Contributions:** Versus
 
-[GitHub](https://github.com/raftario)
+[GitHub](https://github.com/nate1280)
 
 ## Shadnix
 Current maintainer of Saber Tailor
