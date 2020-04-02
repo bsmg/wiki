@@ -4,7 +4,7 @@ sidebar: auto
 # Support
 ::: danger NOTE
 This page is exclusive to the PC version of the game.  
-For help with the Quest version, please visit `#quest-mod-support` on the [BSMG Discord](https://discord.gg/beatsabermods).
+For help with the Quest version, please visit `#quest-help` on the [BSMG Discord](https://discord.gg/beatsabermods).
 :::
 
 ## Table of Contents

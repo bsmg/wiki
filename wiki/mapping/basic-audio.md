@@ -6,23 +6,22 @@ next: ./advanced-audio.md
 # Basic Audio Setup
 _Get your audio file set up and ready for mapping_
 
-**Content in this section is derived from original guides by Kolezan & Nik.**  
-Many thanks to contributors from across the mapping community who made this expanded wiki possible!
 * [Glossary of Terms](/mapping/glossary.md)
 
 This page provides both new and experienced mappers with general recommendations for setting up a new song file before starting to map. Review the quick start guide below for steps that are **critical** before you begin mapping vs. those that can be done at any time, if they're needed.
 
 ## Audio Setup Quick Start
 ::: warning
-Steps 1-4 **MUST** be completed before you start mapping or your audio will be out of sync and may have a [*hot start*](./glossary.html#h).
+Steps 1-5 **MUST** be completed before you start mapping or your audio will be out of sync and may have a [*hot start*](./glossary.html#h).
 :::
-1. [Find the BPM](./basic-audio.html#finding-the-bpm) and offset of your song
-2. [Add a click track](./basic-audio.html#add-a-click-track) to verify your BPM and [sync your song](./basic-audio.html#sync-the-song-to-the-beat)
-3. Figure out if you have [enough intro/silence](./basic-audio.html#plan-your-first-note) at the start of your song and [add silence](./basic-audio.html#add-silence)
-4. Remove your click track then [Export your song](./basic-audio.html#exporting) as an `.ogg` format file
+1. Download and Install [Audacity](https://www.audacityteam.org/)
+2. [Find the BPM](./basic-audio.html#finding-the-bpm) and offset of your song
+3. [Add a click track](./basic-audio.html#add-a-click-track) to verify your BPM and [sync your song](./basic-audio.html#sync-the-song-to-the-beat)
+4. Figure out if you have [enough intro/silence](./basic-audio.html#plan-your-first-note) at the start of your song and [add silence](./basic-audio.html#add-silence)
+5. Remove your click track then [Export your song](./basic-audio.html#exporting) as an `.ogg` format file
 
 **Any time before upload:**  
-5. [Check your song volume](./basic-audio.html#check-song-volume) and make it [louder](./basic-audio.html#making-your-song-louder) or [softer](./basic-audio.html#making-your-song-softer) as needed
+6. [Check your song volume](./basic-audio.html#check-song-volume) and make it [louder](./basic-audio.html#making-your-song-louder) or [softer](./basic-audio.html#making-your-song-softer) as needed
 
 ## Song Selection for New Mappers
 Below are recommendations, **not** requirements, and will help to ease you into mapping. If you want to map 17 minutes of "In A Gadda Da Vida" for your first map then have at it but know that you’ll face a **lot** of additional challenges.
@@ -55,22 +54,45 @@ This is the recommended method for songs with a constant BPM
 [Arrow Vortex](https://arrowvortex.ddrnl.com/) is a free tool to analyze a song’s BPM automatically. It will also find the offset needed to line the audio up to the beat in Audacity or your map editor. 
 
 **Using Arrow Vortex to find BPM and offset:**  
-These steps are the same as those used in Ryger’s [Arrow Vortex BPM Analysis Tutorial](https://youtu.be/Z49UKFefu5c) (which also includes BPM confirmation). 
-1. Download [Arrow Vortex](https://arrowvortex.ddrnl.com/) (AV), extract the file, and open `ArrowVortex.exe`
-2. Drag your song file into the AV window
-3. Go to the `View` menu and click `Time based (C-mod)` to see the waveform
-	1. Use <kbd>CTRL</kbd> + mouse scroll to zoom
-4. Go to the `Tempo` menu and click `Adjust sync...` or just press <kbd>SHIFT</kbd>+<kbd>S</kbd> to open the adjustment window.
-5. Click the <kbd>Find BPM</kbd> button
-6. If you're lucky, AV will return a single BPM value with 100% confidence. Do not round off a decimal BPM!  
-![AV adjustment window](./images/adjustments.png)
-7. Click the <kbd>Apply BPM</kbd> button
-8. Press <kbd>F3</kbd> to turn on beat ticks to confirm that the beginning, middle, and end of your track are all lined up
-9. Give the player about two seconds to get ready by clicking the `Move first beat` button ![Arrow Vortex move beat button](./images/av_movebeat.png) however many times needed to get your offset close to 2.000.
-	1. **Note:** If your song already has enough intro silence, you only need to add enough beats to make your offset positive.
-10. After finding the BPM and offset values you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
+The steps listed below are the same as those used in Ryger’s [Arrow Vortex BPM Analysis Video Tutorial](https://youtu.be/Z49UKFefu5c) (which also includes BPM confirmation). 
+1. Download Arrow Vortex (AV), extract the file, and open `ArrowVortex.exe`
+	- Discord [Zip Download](https://cdn.discordapp.com/attachments/443569023951568906/662417326771273728/ArrowVortex.zip) (Recommended Method)
+	- Arrow Vortex Website [Rar Download](https://arrowvortex.ddrnl.com/)
+		- You will need additional software such as [7zip](https://www.7-zip.org/) to extract `.rar` files such as this one.
+2. Export your song to `.ogg` using [Audacity](https://www.audacityteam.org/)
+	* Using other formats (ie. `.mp3` or `.m4a`) adds a delay to the audio that varies every time and is not accounted for when you export your changes for use in editor.
 
-If the website download does not work, a mirror download is available [here.](https://cdn.discordapp.com/attachments/443569023951568906/662417326771273728/ArrowVortex.zip)
+:::danger
+**This is a critical step!**  
+Not using a `.ogg` file or using the export feature in AV **will** desync your song by an inconsistent amount of time.
+:::
+
+3. Drag the song file into the AV window
+4. Go to the `View` menu and click `Time based (C-mod)` to see the waveform
+	* Use <kbd>CTRL</kbd> + mouse scroll to zoom
+5. Go to the `Tempo` menu and click `Adjust sync...` or just press <kbd>SHIFT</kbd>+<kbd>S</kbd> to open the adjustment window.
+6. Click the <kbd>Find BPM</kbd> button
+	- If you're lucky, AV will return a single BPM value with 100% confidence.  
+	![AV adjustment window](./images/adjustments.png)
+	- If you get multiple options you will want to listen to the options to see if they match with the song. Most of the time it will be the first option but follow steps 7 and 8 to make sure.  
+	![Multiple BPM Values](./images/alternateAdjustments.png)
+7. Click the <kbd>Apply BPM</kbd> button
+8. Press <kbd>F3</kbd> to turn on beat ticks and press <kbd>Spacebar</kbd> to listen through the song to confirm that the beginning, middle, and end of your track are all lined up.
+	- If only a single result was given and the ticks do not match, this suggests that the song has a variable BPM. 
+	- If the detection gave multiple options and the ticks do not match, select the next option, click the <kbd>Apply BPM</kbd> button and listen again. If none of the options work for the song, this suggests that it has a variable BPM.
+
+:::warning NOTE on Variable BPM
+It is recommended that newer mappers choose a different song due to the increased difficulty associated in mapping variable BPM.
+Not sure if your song is variable? Drop by BSMG's `#mapping-discussion` and ask!  
+
+If you have the experience, see [Advanced Audio Editing: Variable BPM](/mapping/advanced-audio.md#variable-bpm) on how to account for this.
+:::
+
+10. Give the player about two seconds to get ready by clicking the `Move first beat` button ![Arrow Vortex move beat button](./images/av_movebeat.png) however many times needed to get your start time close to 2.000 seconds or the sound you want to place your first note on aligned with the first bar.  
+![Aligned with first bar](./images/av_aligned.png) ![Alternate Aligned with first bar](./images/av_altAligned2.png)
+	* After aligning, you should check the song again to verify that the beats still match.
+	* If your song has too much intro silence, you will end up with a negative `Music offset`. What this means is that you will need to remove silence from intro of the audio file in Audacity. If you are not comfortable with removing the exact amount, you can remove more than needed, export the change `.ogg` and re-sync with the new file to get a positive offset.
+11. After finding the BPM and offset values you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
 
 ### Online Search
 You can search online using a search engine site (e.g. [Google](http://google.com)) in your web browser for `[song name] + [artist] + "bpm"` and often find a number of sites (e.g. [SongBPM.com](https://songbpm.com/)) with this information.
@@ -86,6 +108,17 @@ If both methods above fail you will have to manually find the BPM, but this is e
 To make it easier to map and make sure that the song is synced perfectly to the game's beat you need to set up your audio file correctly. This section will assume you are using [Audacity](https://www.audacityteam.org/).
 If you have used [Tool Assisted BPM](/mapping/basic-audio.html#tool-assisted-bpm-calculation) and offset detection (such as Arrow Vortex) you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
 
+### Plan Your First Note
+Analyse the intro of the song. Depending on where in the song you want to place your first block, you'll need to avoid both a *hot start* (not enough time before the first block) and a too-long intro. Your song will fit into one of three categories:
+1. **Songs with no intro:** It is critical to leave at **minimum two seconds** of preparation time for the player before the first playable note(s) in your map, otherwise this is known as a "Hot Start."
+2. **Songs with a short intro:** If your song has a short intro that is **less than eight seconds** it is OK for the music to start playing immediately.
+3. **Songs with a long intro:** If the song has a very long and uneventful/fade-in intro for **more than ten seconds** it is strongly recommended to shorten the intro so the first note(s) are placed within eight seconds from map start.
+
+In all cases above you will need to time shift the song to an appropriate time based on your needs:
+1. **No intro:** Move the song back in time (to the right in the audio track), placing the first mapped note(s) after two seconds. Then sync the song to the beat (See [Sync the Song to the Beat](/mapping/basic-audio.html#sync-the-song-to-the-beat)). Later fill the gap with silence (See [Add Silence](/mapping/basic-audio.html#add-silence)).
+2. **Short Intro:** Sync the song to the beat (See [Sync the Song to the Beat](/mapping/basic-audio.html#sync-the-song-to-the-beat)) and then fill the gap with silence (See [Add Silence](/mapping/basic-audio.html#add-silence)) or trim the audio before 0 seconds (See [Trim the Intro](/mapping/basic-audio.html#trim-the-intro)) depending on which case applies.
+3. **Long intro:** Move the song forward in time (to the left in the audio track), placing the first note(s) within 8 seconds (See [Sync the Song to the Beat](/mapping/basic-audio.html#sync-the-song-to-the-beat)), then trim the audio before 0 seconds (See [Trim the Intro](/mapping/basic-audio.html#trim-the-intro)).
+
 ### Add a Click Track
 This is to confirm that the BPM you have found online or manually matches the audio file you have. This addition is temporary; you should remove the click track before [exporting your audio](/mapping/basic-audio.html#exporting).
 1. Open the song you want to map into Audacity.
@@ -99,17 +132,6 @@ If everything was correctly input you will have something like this:
 ![Audacity main screen showing song track and rhythm track](./images/song_rhythm.png)
 
 This click track is completely in sync with the beats in the map editor and game, but the song is currently not synced. Continue below for how to do that.
-
-### Plan Your First Note
-Analyse the intro of the song. Depending on where in the song you want to place your first block, you'll need to avoid both a *hot start* (not enough time before the first block) and a too-long intro. Your song will fit into one of three categories:
-1. **Songs with no intro:** It is critical to leave at **minimum two seconds** of preparation time for the player before the first playable note(s) in your map, otherwise this is known as a "Hot Start."
-2. **Songs with a short intro:** If your song has a short intro that is **less than eight seconds** it is OK for the music to start playing immediately.
-3. **Songs with a long intro:** If the song has a very long and uneventful/fade-in intro for **more than ten seconds** it is strongly recommended to shorten the intro so the first note(s) are placed within eight seconds from map start.
-
-In all cases above you will need to time shift the song to an appropriate time based on your needs:
-1. **No intro:** Move the song back in time (to the right in the audio track), placing the first mapped note(s) after two seconds. Then sync the song to the beat (See [Sync the Song to the Beat](/mapping/basic-audio.html#sync-the-song-to-the-beat)). Later fill the gap with silence (See [Add Silence](/mapping/basic-audio.html#add-silence)).
-2. **Short Intro:** Sync the song to the beat (See [Sync the Song to the Beat](/mapping/basic-audio.html#sync-the-song-to-the-beat)) and then fill the gap with silence (See [Add Silence](/mapping/basic-audio.html#add-silence)) or trim the audio before 0 seconds (See [Trim the Intro](/mapping/basic-audio.html#trim-the-intro)) depending on which case applies.
-3. **Long intro:** Move the song forward in time (to the left in the audio track), placing the first note(s) within 8 seconds (See [Sync the Song to the Beat](/mapping/basic-audio.html#sync-the-song-to-the-beat)), then trim the audio before 0 seconds (See [Trim the Intro](/mapping/basic-audio.html#trim-the-intro)).
 
 ### Sync the Song to the Beat
 1. Select the Time Shift Tool (![Time Shift Tool](./images/timeshift.png)).
@@ -142,6 +164,12 @@ After generating the silence you can click the dark line in the song track to ge
 
 #### After tool assisted sync:
 If you've used Arrow Vortex or other tool assisted syncing then do the following to add the right amount of silence to the song track:
+
+:::warning NOTE
+If you have a negative offset, you will need to remove that many seconds from the intro instead.  
+If you are not comfortable with removing the exact amount, you can remove more than needed, export the change `.ogg` and [re-sync using your tool](#tool-assisted-bpm-calculation) with the new file to get a positive offset.
+:::
+
 1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](./images/selection.png)).
 2. Place the cursor at the start of the song track (Click on the song track and press your `Home` key).
 3. Click `Generate menu – > Silence…`
@@ -273,12 +301,16 @@ To generate a compatible sound file to use we need to do the following:
 1. Delete the Click Track (if you haven’t already done so).
 2. Click the `File menu -> Export -> Export as OGG.`
 3. Name your file `song.ogg`.
-4. Choose an appropriate OGG quality ([more info here](/mapping/advanced-audio.html#choosing-appropriate-ogg-export-quality)):
-* a. High quality source (WAVE / FLAC / MP3 / AAC) use 6-9 (unless there is a file size issue.)
-* b. Low quality source (YouTube or such): use 3-5
+4. Choose an appropriate OGG quality ([more info here](/mapping/advanced-audio.html#choosing-appropriate-ogg-export-quality)):  
+![Export Quality Slider](./images/export-quality.png)
+	* High quality source (WAVE / FLAC / MP3 / AAC) use 6-9 (unless there is a file size issue.)
+	* Low quality source (YouTube or such): use 3-5
 5. Click Save.
 
 The song/audio file is now ready to be used in any map editor. Input the same BPM you got earlier in your map editor of choice and make sure to use 0ms offset for all difficulties (since the song is already synced to the beat).
 ::: warning NOTE
 Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file limit. If this is the case export at a lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord (without Nitro) for playtesting.
 :::
+
+## Credits
+Content on this page is derived from guides by [Kolezan](/mapping/mapping-credits.html#kolezan) & [Nik](/mapping/mapping-credits.html#nik-n3tman).

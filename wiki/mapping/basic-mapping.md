@@ -6,7 +6,6 @@ next: ./intermediate-mapping.md
 # Basic Mapping
 _If you are a new mapper, read this page from top to bottom. Every word. Every picture. This page will give you all the info and best practices you need to make a solid first map!_
 
-Many thanks to contributors from across the mapping community who made this expanded wiki possible!
 * [Glossary of Terms](/mapping/glossary.md)
 
 ## Ready to Map?
@@ -32,6 +31,11 @@ Regardless of what editor you choose to map with, every map needs:
 Some editors will automatically create an `Autosaves` folder where you can retrieve older copies of your work if needed. When you’re ready to prepare your song for upload you must have a minimum of four files.
 
 When you’re ready to prepare your song for upload you must have a minimum of four files.
+
+::: warning
+Special characters in languages such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by Beat Saber or Beatsaver. Using these characters in song metadata or in bookmarks can cause problems.
+:::
+
 ### Block Types
 
 | Directional Blocks | Dot Blocks | Bombs | Walls |
@@ -48,7 +52,7 @@ When you’re ready to prepare your song for upload you must have a minimum of f
 **A few notes about bombs:**
 * Bomb hitboxes are smaller than block hitboxes, smaller even than the bomb model itself
 * Bombs are hard to see when there are no lighting events active. Make sure your map isn’t dark when bombs are coming up. See [Basic Lighting](/mapping/basic-lighting.html) for more tips.
-* Bombs are disabled once they have passed the player
+* Bombs can still be hit once they have passed the player.
 
 ### Block Distribution
 As a *very general* rule of thumb for new mappers, blocks should be distributed roughly as follows:
@@ -114,10 +118,13 @@ We’ll go into more detail on this in Intermediate Mapping (link coming soon!) 
 
 Many new mappers instinctively want to use double hits all the time, but remember that those are heavy emphasis and if *every sound* is emphasized then *nothing* feels like it has extra weight.
 
-**Consistency** is mapping the same sound with the same weight when it appears. Mapping consistently does NOT always mean to copy/paste/mirror, though there are some times when that is appropriate. If you choose to map a particular big sound as a double, for example, that same sound should always be mapped with a double.
+Another way to think about it is that you want the energy and effort of the hit to match the energy and power of the sound. Nobody screams at the top of their lungs on every vocal, or in every instrument note. You want the powerful notes, the powerful vocals, to stand out from the rest of the song. Even if most of the song might sound loud or (you think) emphasized, there's always notes that sound above them. Be it through volume, or through energy. So when mapping, see what is your baseline energy, map that as singles. Anything above that, then do towers/doubles/windows/jumps, whatever best matches that energy.
+
+**Consistency** is mapping the same sound with the same weight when it appears.  
+Mapping consistently does NOT always mean to copy/paste/mirror, though there are some times when that is appropriate. If you choose to map a particular big sound as a double, for example, that same sound should always be mapped with a double.
 
 ## Pattern Best Practices
-Much of this section is derived from **Awfulnaut's** incredibly helpful *Beat Saber Custom Mapping Best Practices for Block Placement* guide. Many thanks to Awfulnaut for blazing a trail and documenting it for new mappers!
+This section details the principles one should follow for a playable and enjoyable map.
  
 ### Vision Blocks
 Vision blocks are any patterns that obscure the player’s vision and make it difficult to sight read a map, if not outright uncomfortable. The primary cause of vision blocks is use of the middle two positions of the track, but there’s risk of a block any time the middle row is used.
@@ -196,7 +203,7 @@ These are called forbidden patterns for a reason. There is no reason in the worl
 #### Handclaps
 | Illustration | Editor View | Explanation |
 |:----:|:----:|:---- |
-| ![Illustration of a handclap](./images/controller-smash.png) | ![Editor view of a handclap](./images/controller-smash-alt.png) | Pointing blocks at each other may cause the player to smash their controllers together when playing for max points. Don’t do it, no exceptions.<br /><br />Note: Different VR sets have different controllers. Vive wands are much bigger than Oculus touch controllers and Index knuckles... don’t put your players’ hardware at risk! *AKA Controller clash, Controller smash* |
+| ![Illustration of a handclap](./images/controller-smash.png) | ![Editor view of a handclap](./images/controller-smash-alt.png) | Pointing blocks at each other may cause the player to smash their controllers together when playing for max points. Don’t do it, no exceptions.<br /><br />Note: Different VR sets have different controllers. Vive wands are much bigger than Oculus touch controllers and Index knuckles... don’t put your players’ hardware at risk! *AKA Controller clash, Controller smash* <br /><br /> [Example Video](https://clips.twitch.tv/FantasticTenderTortoiseDancingBanana)|
 
 #### Hammer Hits
 | Illustration | Editor View | Explanation |
@@ -345,9 +352,9 @@ Remember that you are teaching players different patterns and sight reading skil
 |:----:|:---- |
 | Easy | &#8227; All cardinal directions (down, left, right, the occasional up)<br /> &#8227; Knock yourself out with DDs. Players will reset after every hit at this speed.<br />&#8227; Use up/down doubles for big emphasis if the music calls for it before or after a break.<br />&#8227; Blocks placed generally every other beat (depending on tempo)<br />&#8227; Very few obstacles, if any, which are easy to avoid with no simultaneous notes<br />&#8227; Almost all blocks should be in the bottom row. Use the middle row as a flourish for emphasis.Use the top row very sparingly with dot notes only<br />&#8227; Red stays in lanes 1 and 2, Blue stays in lanes 3 and 4 |
 | Normal | &#8227; All cardinal directions and the very occasional diagonal with lots of time to react and recover<br />&#8227; Begin to introduce up/down flow, especially anywhere you have notes that are close together, but DDs are still present especially after breaks<br />&#8227; Up/down and left/right doubles used for emphasis as appropriate<br />&#8227; Blocks generally placed every beat to two beats - mix it up a bit<br />&#8227; Keep your obstacles easy to avoid but start to introduce blocks sprinkled in with lots of time to react<br />&#8227; Almost all blocks still on the bottom row but higher use of middle row sides. Keep top notes rare and still as dots<br />&#8227; OK to let your red start drifting into lane 3 and your blues into lane 2 but still not crossing over each other |
-| Hard | &#8227; All cardinal directions and limited diagonals with time to react<br />&#8227; Flow is now critical unless you have a break of 5+ beats. Try to cross the parity line with every swing.<br />&#8227; All doubles are fair game including inverted doubles with sabers going opposite directions, ok to start introducing stacks with plenty of reaction time<br />&#8227; Notes mostly every beat with some 1/2 beats and the occasional 1/4 thrown in with the rhythm.<br />&#8227; Keep 1/2 sections short, no more than 6-8 beats without a break. If a burst of 1/4 is used, keep it to 3-4 blocks with a break.<br />&#8227; All obstacles are fair game but make sure you’re not creating vision blocks<br />&#8227; Mixing bottom, middle, and top rows with top notes transitioning from dots to directional blocks<br />&#8227; Any color, any lane is fine but give lots of reaction time before any occasional “true” crossover where the players arms have to cross to hit. |
-| Expert | &#8227; Anything goes in expert but players are still improving sight reading skills. Keep patterns either fast and basic or slower and more technical… combine the two and you have an ExpertPlus!<br />&#8227; All note types viable here in any proportion<br />&#8227; Flow is critical; DDs will make or break your map<br />All emphasis options on the table including sliders with 1/12 or 1/16 precision<br />&#8227; Mostly 1/2 beats with 1/4 mixed in to fit the rhythm. Make sure there is the occasional break in long streams.<br />&#8227; Anything good obstacle placement practices available - the gloves are off!<br />&#8227; Expert introduces a lot more jumps,  though they still require enough reaction time<br />&#8227; Crossovers should be used wisely and not combined with other weird patterns.|
-| ExpertPlus | &#8227; Welcome to the wild wild west! You can throw any good mapping practices at your player here.<br />&#8227; At high tempo and note density, patterns you could use effectively at hard and maybe expert start to become cursed. Players are often using their wrists instead of arm movements so body mechanics change at this level.<br />&#8227; Breaking the parity line with every swing is now crucial. You will get skewered if you don’t<br />&#8227; Stay away from any 90° hits, dot notes, triangles, DDs, VBs, same-lane crossovers, 1/4 precision gallops, top row far-lane crossovers (face-punchers), and 1/4 single hand hits (flicks). Courtesy of **Hexagonial**|
+| Hard | &#8227; All cardinal directions and limited diagonals with time to react<br />&#8227; Flow is now critical unless you have a break of 5+ beats. Try to cross the parity line with every swing.<br />&#8227; All doubles are fair game including inverted doubles with sabers going opposite directions, ok to start introducing stacks with plenty of reaction time<br />&#8227; Notes mostly every beat with some 1/2 beats and the occasional 1/4 thrown in with the rhythm.<br />&#8227; Keep 1/2 sections short, no more than 6-8 beats without a break. If a burst of 1/4 is used, keep it to 3-4 blocks with a break.<br />&#8227; All obstacles are fair game but make sure you are not creating vision blocks<br />&#8227; Mixing bottom, middle, and top rows with top notes transitioning from dots to directional blocks<br />&#8227; Any color, any lane is fine but give lots of reaction time before any occasional “true” crossover where the players arms have to cross to hit. |
+| Expert | &#8227; Anything goes in expert but players are still improving sight reading skills. Keep patterns either fast and basic or slower and more technical… combine the two and you have an ExpertPlus!<br />&#8227; All note types viable here in any proportion<br />&#8227; Flow is critical; DDs will make or break your map<br />All emphasis options on the table including sliders with 1/12 or 1/16 precision<br />&#8227; Mostly 1/2 beats with 1/4 mixed in to fit the rhythm. Make sure there is the occasional break in long streams.<br />&#8227; All obstacles are fair game but make sure you are not creating vision blocks.<br />&#8227; Expert introduces a lot more jumps,  though they still require enough reaction time<br />&#8227; Crossovers should be used wisely and not combined with other weird patterns.|
+| ExpertPlus | &#8227; Welcome to the wild wild west! You can throw any good mapping practices at your player here.<br />&#8227; At high tempo and note density, patterns you could use effectively at hard and maybe expert start to become cursed. Players are often using their wrists instead of arm movements so body mechanics change at this level.<br />&#8227; Breaking the parity line with every swing is now crucial. You will get skewered if you don’t<br />&#8227; Stay away from any 90° hits, dot notes, triangles, DDs, VBs, same-lane crossovers, 1/4 precision gallops, top row far-lane crossovers (face-punchers), and 1/4 single hand hits (flicks). 
 
 ### Note Density
 Notes per Second is a measure of note density - how many notes does the player have to hit in a certain amount of time. The values below are from the [OST Analysis Spreadsheet](https://drive.google.com/open?id=13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4) which shows NPS ranges for all OST, Extras, and DLC content.
@@ -395,3 +402,6 @@ Already mentioned in detail on the [Mapping Home Page](/mapping.html#playtesting
 1. Use the #testplays channel on BSMG wisely. There are experienced mappers who will play your pre-release map and provide constructive feedback. Sometimes there’s a LOT of constructive feedback and that’s ok. Those experienced mappers were once newbies with terrible maps themselves. If you’ve read and absorbed the info on this page you will be much better off!
 
 **HAPPY MAPPING!** Visit `#mapping-discussion` on the BSMG Discord with questions!
+
+## Credits
+Content in this section has been derived from guides by [Awfulnaut](/mapping/mapping-credits.html#awfulnaut) and [Hexagonial](/mapping/mapping-credits.html#hexagonial).
