@@ -18,3 +18,4 @@ jspm_packages
 
 # Compiled Vuepress Files
 wiki/.vuepress/dist
+/.vs
