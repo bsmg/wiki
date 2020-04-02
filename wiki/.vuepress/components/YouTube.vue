@@ -5,7 +5,8 @@
       :src='link'
       frameborder='0'
       allow='autoplay; encrypted-media'
-      allowfullscreen>
+      allowfullscreen
+    >
     </iframe>
   </div>
 

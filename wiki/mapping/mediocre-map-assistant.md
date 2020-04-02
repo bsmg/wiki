@@ -1,10 +1,12 @@
 ---
 sidebar: auto
 ---
-# Mediocre Map Assistant User Guide
+# Mediocre Map Assistant 2 User Guide
 _Essential information to get up and running using Mediocre Map Assistant 2_
 
-::: warning NOTE
+* [Glossary of Terms](/mapping/glossary.md)
+
+::: tip NOTE
 This guide currently supports both [Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) by Assistant and Mediocre Mapper Mk5 (final public release) by Squeaksies. All future public development will occur on MMA2.
 :::
 
@@ -12,17 +14,21 @@ This guide currently supports both [Mediocre Map Assistant 2](https://github.com
 ### Installation
 1. Download MMA2.zip from [GitHub](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) 
 2. Unzip the file and place the extracted folder wherever you like on your hard drive.
-3. Double click `mediocremapassistant2.exe` to run.
+3. Double click `mediocremapassistant2.exe` in the extracted folder to run.
+
+::: warning 
+It is **VERY** important to unzip the file in step 2 and only run the exe in the new folder instead of the one inside the zip as not doing so will cause issues with map creation and editing!
+:::
 
 ### First Time Setup
 The first time you run MMA2 you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
 
-**If you have VR and Beat Saber:**
+**If you have Beat Saber installed on the computer:**
 * Give MMA2 the path to the two appropriate folders
 * Steam Example: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`
 * Oculus Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
 
-**If you don't have VR or Beat Saber -OR- have VR but don’t have Beat Saber:**
+**If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
 * Make two folders called `CustomLevels` and `CustomWIPLevels`
 * Example: `C:\Users\Helen\Documents\CustomWIPLevels`
 <p align="center">
@@ -30,6 +36,17 @@ The first time you run MMA2 you will need to direct it to the location of two fo
 </p>
 
 All of your working map files will go into a song name folder within this CustomWIPLevels folder.
+
+::: tip NOTE for Steam Users
+It is a known bug that the autodetect path MMA2 uses is missing a `\` between `Beat Saber` and `Beat Saber_Data` for both folders. If MMA2 gives an error on your path, make sure it is  
+`C:\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`  
+instead of  
+`C:\Steam\steamapps\common\Beat SaberBeat Saber_Data\CustomLevels`
+:::
+
+#### Check the WIP File Path
+It is currently a known bug that the path given from setup does not carry over to the main screen. Make sure the fields have the paths from your setup and are not blank. If blank, add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and press <kbd>Enter</kbd> to confirm!  
+![Check Paths Not Blank](./images/mma2-checkWipSongPath.png)
 
 ### Editor Settings
 Once you've set up your paths, these core settings are all available from the song selection page when you first open the program.
@@ -51,6 +68,11 @@ There are several functions available to you on this screen:
 * The <kbd>Edit</kbd> button next to a map opens it in MMA2. 
 * The <kbd>Delete</kbd> button next to a map perma-deletes it. **Note:** Once deleted this way maps are gone forever and unrecoverable.
 * The <kbd>Star</kbd> button next to a map favorites it, bumping it to the top of the list.
+
+::: danger 
+Maps deleted by the delete button in MMA2 are not sent to the Recycle Bin and are **permanently removed.**  
+This includes the autosaves folder. Please be certain and/or keep backups of your work in a separate location.
+:::
 
 #### Map Creation
 Below the map selection pane you can create a new empty song folder in `CustomWIPLevels` by entering the desired name of your folder (typically Song Name or Artist - Song Name) then clicking <kbd>Create Level</kbd>.
@@ -89,6 +111,11 @@ The `Song Info` page is the first screen you see every time you edit a map.
 
 #### Whole Map Settings
 On the left side of the `Song Info` page is information that applies to your whole map. See [Beat Saber Metadata Criteria](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) for standards on presenting complex song names and multiple artists.
+
+::: warning
+Special characters such as those found in, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ) are not fully supported by Beat Saber or Beatsaver. Using these characters in song metadata or in bookmarks will cause problems.
+:::
+
 * **Song Name:** The primary name of the song
 * **Song SubName:** Any following tags like (Short Ver.), (SDVX Mix), etc.
 * **Song Artist:** The person or group who authored the song
@@ -144,10 +171,12 @@ Mapping settings can be accessed by clicking the hamburger menu in the top right
 * **<kbd>Apply Move:</kbd>** This button will commit the note movement specified above
 * **<kbd>Make/Delete Bookmark</kbd>**: This button will add a bookmark at the current cursor placement if one doesn't exist (add a name and hit enter to save) or will delete an existing bookmark
 * **<kbd>Set Preview Start at Cursor</kbd>**: This button allows you to quickly reset the beginning of your in-game music preview at the cursor location
+
 ## Basic Controls
 There are usually multiple ways to accomplish the same action, however, the keyboard shortcuts at the link below are the most efficient.
 
 * [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing)
+* To get the lighting menu, press <kbd>Tab</kbd> while editing the map.
 
 ## Error Checker
 The **Error Checker** functionality is one of the top quality of life features found in MMA2. Access the error checker by clicking <kbd>SHIFT+TAB</kbd> to check for vision blocks, double directionals, stacked notes, and view map stats.
@@ -208,20 +237,49 @@ Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See t
 
 | Example | Explanation |
 |:---:|:--- |
-| ![Stats panel screenshot](./images/mma2-stats-panel.png) | **Notes:** The total number of notes in your map<br />**Notes per Second:** The number of notes in your map divided by the number of seconds in your map. This number isn’t accurate until you’ve finished mapping, unless you've only selected a small section.<br />**Bombs, Walls, and Lighting:** The number of each event you have in your map.<br />**R/B Ratio:** If you have exactly the same number of red and blue blocks this will be 1.00. Greater than 1 you have more reds. Less than 1 you have more blues.<br />**Vision Blocks:** The percentage of your map’s blocks that are vision blocks at 0.75 beats. Use the vision block checker to correct.<br />**Aggressive Vision Blocks:** The percentage of your map’s blocks that are vision blocks at 1.25 beats. Useful for faster songs.<br />**Top/Middle/Bottom Notes:** The percentage of your blocks that are placed in each row. |
+| ![Stats panel screenshot](./images/mma2-stats-panel.png) | **Notes:** The total number of notes in your map.<br />**Notes per Second:** The number of notes in your map divided by the number of seconds in your map. This number isn’t accurate until you’ve finished mapping, unless you've only selected a small section.<br />**Bombs, Walls, and Lighting:** The number of each event you have in your map.<br />**R/B Ratio:** If you have exactly the same number of red and blue blocks this will be 1.00. Greater than 1 you have more reds. Less than 1 you have more blues.<br />**Vision Block:** The percentage of your map’s blocks that are vision blocks at 0.75 beats. Use the vision block checker to highlight these blocks.<br />**Vision Block (A):** The percentage of your map’s blocks that are vision blocks at 1.25 beats. Useful for faster songs. Use the vision block checker with a max time of 1.25 to highlight these blocks.<br />**Top/Middle/Bottom Notes:** The percentage of your blocks that are placed in each row. |
 
 ## Troubleshooting
-**ISSUE: Create Level button does nothing even if a song name is entered**  
-RESOLUTION: Confirm both folder paths are complete on the Song Selection screen and add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on first use.
+**Create Level button does nothing even if a song name is entered**  
+* [Check both folder paths](#check-the-wip-file-path) are complete on the Song Selection screen and add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on first use.
+* Make sure the Song Name field below the button is not blank/has text.
+* Make sure you are launching the editor from the extracted folder, not the zip (MMA2.zip) you downloaded.
+___
+**My song is stuck loading in the editor forever or returns to the edit song screen after briefly loading**  
+* This error is usually caused by a missing, corrupted, or invalid audio file. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder. Usage of convert to OGG websites is the common cause of this issue.  
+* The audio file is not in the correct location. Make sure it is in the folder that MMA2 created for your song!  
+   * The folder you should put the `.ogg` song file is located to the path you put during [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and should contain at least an `info.dat` file.  
+* Make sure you are launching the editor from the extracted folder, not the zip (MMA2.zip) you downloaded.
+___
+**I can't figure out how to place dot notes**  
+* Press <kbd>ESC</kbd> and review the in-editor list of keybindings or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). HINT: It's `F`
+___
+**One Saber maps don't load in game**  
+* Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "One Saber",` and replace with `"_beatmapCharacteristicName": "OneSaber",`
+___
+**No Arrows maps don't load in game**  
+* Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "No Arrows",` and replace with `"_beatmapCharacteristicName": "NoArrows",`
+___
+**Your audio file name is wrong. Enter only the name NOT the path.**  
+![Audio File Name Wrong](./images/mma2-wrongPath.png)
+* You might have unintentionally named your audio file `song.ogg.ogg`. Turn on file extensions in file explorer to make sure it is named `song.ogg`. The option is located here:  
+![Turn on File Extensions](./images/turnOnFileExtend.png)
 
-**ISSUE: My song is stuck loading in the editor forever**<br />
-RESOLUTION: This error is usually caused by a missing, corrupted, or invalid audio file. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder. Usage of convert to OGG websites is the common cause of this issue.
+* Your audio file may be invalid. This is commonly caused by websites that promise to "convert to OGG" but do not do it properly. Review [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and that your file is in the correct folder. 
+___
+**When I open the editor, all I see is a grid and block and can't interact with it**  
+![Broken Editor](./images/mma2BrokenApp.png)  
+* Navigate to your `\AppData\Local` and delete the `MediocreMapAssistant2` folder. Then run `mediocremapassistant2.exe` and follow [First Time Setup](#first-time-setup) again.
+   * You can copy and paste this path into the file explorer address bar to quickly get to the folder: `C:\Users\%username%\AppData\Local\MediocreMapAssistant2`
+___
+**When I open the editor, it crashes with a LowLevelFatalError: [Line 90] Failed to load module**  
+![FatalError](./images/mma2-physXerror.png)
+* If your error matches what is shown in the picture. Close out of the dialog and install this [DirectX driver](https://www.microsoft.com/download/details.aspx?id=35).
+   * If you get this error while installing the driver.  
+   ![directX Install Error](./images/mma2-directXError.png)
+      1) Download and run the [.NET Framework Repair Tool](https://docs.microsoft.com/dotnet/framework/install/repair). 
+      2) Restart your computer and rerun the DirectX driver installer.
 
-**ISSUE: I can't figure out how to place dot notes**<br />
-RESOLUTION: Press <kbd>ESC</kbd> and review the in-editor list of keybindings or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). HINT: It's `F`
 
-**ISSUE: One Saber maps don't load in game**  
-RESOLUTION: Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "One Saber",` and replace with `"_beatmapCharacteristicName": "OneSaber",`
-
-**ISSUE: No Arrows maps don't load in game**  
-RESOLUTION: Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "No Arrows",` and replace with `"_beatmapCharacteristicName": "NoArrows",`
+## Credits
+Content in this section was authored by [Helen Carnate](/mapping/mapping-credits.html#helen-carnate) and [Bloodcloak](/mapping/mapping-credits.html#bloodcloak).
