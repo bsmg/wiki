@@ -87,7 +87,8 @@ The closest thing we have to a beatmods maintainer.
 Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)  
 **Roles:** Modder
 **Contributions:** BS-Viewer, Mapping Tools  
-[GitHub](https://github.com/PlusOneRabbit)
+
+[GitHub](https://github.com/PlusOneRabbit) | [Twitch](https://www.twitch.tv/plusonerabbit) | [Donate](https://ko-fi.com/plusonerabbit)
 
 ## MichaelZoller
 Contributor to the beatsaber hooks used in quest modding and assists with creating infrastructure for the quest modding scene.
