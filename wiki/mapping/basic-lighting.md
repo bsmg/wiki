@@ -190,7 +190,7 @@ These tools will help PC Beat Saber users preview their lighting more accurately
 First Person Flying Controller (FPFC) is a launch parameter that can be used by either Steam or Oculus users. FPFC will open an instance of Beat Saber on your desktop and allow you to control it with your keyboard and mouse. You will need the [FPFCToggle](https://github.com/DeadlyKitten/FPFCToggle/releases/latest) and [Music Escape](https://github.com/DeadlyKitten/MusicEscape/releases/latest) mods in order to interact while a map is playing. 
 
 **FPFCToggle:** allows you to use WASD to "fly" around in your map.  
-**Music Escape:** allows you to open the pause menu by hitting the <kbd>F2</kbd>  key or exit your level by hitting the <kbd>ESC</kbd> key (otherwise you must play your song to completion).
+**Music Escape:** allows you to open the pause menu by hitting the <kbd>F2</kbd> key or exit your level by hitting the <kbd>ESC</kbd> key (otherwise you must play your song to completion).
 
 **For Steam Users:** Open the game properties and add `fpfc` to the Steam launch options.  
 ![Fpfc launch options](./images/fpfc.png)

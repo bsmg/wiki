@@ -252,7 +252,8 @@ ___
 * Make sure you are launching the editor from the extracted folder, not the zip (MMA2.zip) you downloaded.
 ___
 **I can't figure out how to place dot notes**  
-* Press <kbd>ESC</kbd> and review the in-editor list of keybindings or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). HINT: It's `F`
+* Press `F`  
+   * You can review the keybindings by pressing <kbd>ESC</kbd> for the in-editor list or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). 
 ___
 **One Saber maps don't load in game**  
 * Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "One Saber",` and replace with `"_beatmapCharacteristicName": "OneSaber",`
@@ -265,7 +266,12 @@ ___
 * You might have unintentionally named your audio file `song.ogg.ogg`. Turn on file extensions in file explorer to make sure it is named `song.ogg`. The option is located here:  
 ![Turn on File Extensions](./images/turnOnFileExtend.png)
 
-* Your audio file may be invalid. This is commonly caused by websites that promise to "convert to OGG" but do not do it properly. Review [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and that your file is in the correct folder. 
+* [Check both folder paths](#check-the-wip-file-path) are complete on the Song Selection screen and add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on first use.
+* Your audio file name contains extra periods `.`  
+   * For example `Sick Beats feat. CMB (Nightcore Ver.).ogg` will cause this issue due to the `.` after "feat" and "Ver".
+      * To prevent this in the future, it is easier to name your audio files `song.ogg`.
+      * You can also rename the audio file removing the extra `.` for example, `Sick Beats feat CMB (Nightcore Ver).ogg`
+* Your audio file may be invalid. This is commonly caused by websites that promise to "convert to OGG" but do not do it properly. Review [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and that your file is in the correct folder.  
 ___
 **When I open the editor, all I see is a grid and block and can't interact with it**  
 ![Broken Editor](./images/mma2BrokenApp.png)  
