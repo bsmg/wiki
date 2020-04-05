@@ -18,7 +18,7 @@ footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 
 
 ::: feature Créer du contenu
 * [Guide du Modder](/fr/modding/)
-* [Ressources du Mapper](/fr/mapping/)
+* [Ressources pour créer des maps](/fr/mapping/)
 * [Guide des Modèles 3D](/fr/models/)
 :::
 
@@ -35,9 +35,9 @@ footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 
 ## Liens externes
 * [Rejoindre le serveur Discord !](https://discord.gg/beatsabermods) (en anglais)
 * [BeatMods](https://beatmods.com) - Référentiel des mods téléchargés depuis les installeurs comme ModAssistant
-* [BeatSaver](https://beatsaver.com/) - Téléchargez les musiques personnalisées ici
-* [BeastSaber](https://bsaber.com/) - Critiques, articles, playlists, et plus !
-* [ModelSaber](https://modelsaber.com/) - Téléchargez des sabres personnalisés, des avatars, et des plateformes !
+* [BeatSaver](https://beatsaver.com/) - Téléchargez les custom songs ici
+* [BeastSaber](https://bsaber.com/) - Critiques, articles, playlists, et bien plus !
+* [ModelSaber](https://modelsaber.com/) - Téléchargez des sabres personnalisés, des avatars, des blocs et des plateformes personnalisées !
 * [ScoreSaber](https://scoresaber.com/) - Classement et tableaux des scores
 * [Page du magasin Steam](https://store.steampowered.com/app/620980/Beat_Saber/)
 * [Page du magasin Oculus](https://www.oculus.com/experiences/rift/1304877726278670/)
