@@ -21,3 +21,6 @@ wiki/.vuepress/dist
 
 # Temp files for dev build
 .temp
+
+# Visual Studio-created directory for... something?
+/.vs

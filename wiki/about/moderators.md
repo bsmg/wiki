@@ -74,12 +74,20 @@ How many statistics could we fit into a single counters mod? A lot apparently. H
 ## Rugtveit
 *"Norweigan dude." I'm not so creative* ~Rugtveit
 
-**Roles:** Modder, Moderator
-**Contributions:** FPSCounter, QSettings+, Short Trail
+**Roles:** Modder, Moderator  
+**Contributions:** FPSCounter, QSettings+, Short Trail  
+
 [GitHub](https://github.com/Rugtveit)
 
 ## Pink
 The only Moderator to ghost us when asked for a description for this page.
 
 **Roles:** 3D Artists, Moderator, Support
-**Contributions:** Advanced Config, plenty of Quest models
+**Contributions:** Advanced Config, plenty of Quest models  
+
+## Olaf
+Any stroopwafels?  
+
+**Roles:** Moderator  
+
+[Twitch](https://twitch.tv/olafstad)

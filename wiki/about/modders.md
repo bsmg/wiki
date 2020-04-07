@@ -87,16 +87,18 @@ The closest thing we have to a beatmods maintainer.
 Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)  
 **Roles:** Modder
 **Contributions:** BS-Viewer, Mapping Tools  
-[GitHub](https://github.com/PlusOneRabbit)
+
+[GitHub](https://github.com/PlusOneRabbit) | [Twitch](https://www.twitch.tv/plusonerabbit) | [Donate](https://ko-fi.com/plusonerabbit)
 
 ## MichaelZoller
 Contributor to the beatsaber hooks used in quest modding and assists with creating infrastructure for the quest modding scene.
 
-## nate1290
+## nate1280
 Face off against your friends with his [Versus](https://versusmod.com/) mod.
 **Roles:** Modder
 **Contributions:** Versus
-[GitHub](https://github.com/raftario)
+
+[GitHub](https://github.com/nate1280)
 
 ## Shadnix
 Current maintainer of Saber Tailor
@@ -227,7 +229,7 @@ Original creator of SongLoader and CameraPlus, and a major contributor to the cu
 
 [GitHub](https://github.com/xyonico/) [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
 
-## brian (retired)
+## brian
 Creator of CustomUI, making the creation of new UI components a breeze for modders. He's also created some of the most useful streaming tools used today, including taking over CameraPlus in xyonico's absence and the widely used Enhanced Stream Chat mod. This man wants more hip hop songs, get on it people!
 
 **Contributions:** CustomUI, CameraPlus, Enhanced Stream Chat, StreamCore, SongRequestManager, Hidden Blocks, SyncSaber
