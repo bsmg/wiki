@@ -239,7 +239,7 @@ Creator of CustomUI, making the creation of new UI components a breeze for modde
 ---
 
 ::: tip See Also
-**Support:** [Pespiri](/about/supports.mds#pespiri)
+**Support:** [Pespiri](/about/supports.md#pespiri)
 **Moderator:** [Caeden117](/about/moderators.md#Caeden117) | [Rugtveit](/about/moderators.md#Rugtveit)
 **Staff:** [Steven](/about/staff.md#steven-🎀)  | [Reaxt](/about/staff.md#reaxt) | [Megalon](/about/staff.md#megalon)
 :::

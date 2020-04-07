@@ -5,13 +5,9 @@ The Support role is a symbol of thanks. Thanks for the thousands of messages and
 ## Kolezan
 He'll teach you to fix your plugins and your terribly off-beat first map. We've all been there.
 
-**Roles:** Support, Mapper
+**Roles:** Support, Mapping Support, Mapper
 
 [Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
-
-## L_Death
-The first person to receive the Support role for assisting our Quest userbase.
-**Roles:** Support
 
 ## Pespiri
 He'll give me his bio later today, or so he says.
@@ -34,6 +30,10 @@ You might know them for their spectacular platforms, or for more refined individ
 
 [Twitch](https://www.twitch.tv/therealkleinba)
 
+## Nobby76
+Heart of gold, nerves of steel.... And a knob of butter  
+**Roles:** Support
+
 ## Channel Monitor Bot
 The bot that holds it all together.
 Created by Megalon, recreated by lolPants, and personified by Rolo!
@@ -45,5 +45,5 @@ Created by Megalon, recreated by lolPants, and personified by Rolo!
 ::: tip See Also
 **Modders:** [Kyle1413](/about/modders.md#kyle1413)
 **Staff:** [Assistant](/about/staff.md#assistant) | [Klouder](/about/staff.md#klouder) | [Megalon](/about/staff.md#megalon) | [Steven](/about/staff.md#steven) | [williums](/about/staff.md#williums) | [Melopod ƸӜƷ](/about/staff.md#melopod-ƹӝʒ)
-**Moderators:** [Razor](/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯)
+**Moderators:** [Razor](/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [Pink](/about/moderators.md#pink)
 :::

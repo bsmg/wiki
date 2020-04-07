@@ -14,7 +14,7 @@ Regardez cette vidéo, par la chaîne [Cube Community YT](https://www.youtube.co
 
 Par ailleurs, voici une image des développeurs précisant le système de [hitboxes](https://twitter.com/Split82/status/979365834324889600) (tweet en anglais).
 
-![Dzdn Pixcaeen](./images/grips-and-tricks/dzdn-pixcaeen.jpg "Dzdn Pixcaeen")
+![Bloq Hitbox](./mapping/images/hitbox-from-split.jpg)
 
 ## Classement
 *Comment le classement général fonctionne ? Que sont les Performance Points ? Que sont ces nombres dans mes tableaux ? Pourquoi mon PP est si petit ?*
