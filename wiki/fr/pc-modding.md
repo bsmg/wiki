@@ -21,7 +21,7 @@ Si vous êtes sur Quest, voyez plutôt la [page sur le modding sur Quest](/fr/qu
 Si vous êtes sur Linux, dirigez vous vers la [page pour Linux](/fr/modding/linux.md) ou [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md).
 :::
 
-Si vous rencontrez des problèmes à un point donné, veuillez vous rendre sur la [page de support](./support.md#1-4-no-mods-in-game) et voyez si vous pouvez identifier ce qui a pu mal se dérouler avant de demander sur le serveur Discord. Dans la majorité des cas, la réponse que vous cherchez est sur cette page !
+Si vous rencontrez des problèmes à un point donné, veuillez vous rendre sur la [page de support](./support) et voyez si vous pouvez identifier ce qui a pu mal se dérouler avant de demander sur le serveur Discord. Dans la majorité des cas, la réponse que vous cherchez est sur cette page !
 
 ## Installateurs
 ### Mod Assistant
@@ -38,39 +38,55 @@ Un installateur de mod Beat Saber simple, similaire à l'ancien Mod Manager, mai
 L'extension `BeatSaver Downloader` vous permet de télécharger des maps en jeu en utilisant le bouton `MORE SONGS` dans le menu `MODS`. Cela télécharge les maps directement depuis [BeatSaver](https://beatsaver.com).
 
 ### BeatSaver
-[BeatSaver](https://beatsaver.com) est le dépôt central qui détient presque toutes les musiques personnalisées pour Beat Saber.
-Pour installer les musiques personnalisées depuis le site, décompressez-les dans un dossier et placez-les dans `Beat Saber/Beat Saber_Data/CustomLevels`. Vous pouvez également utiliser l'extension `BeatSaver Downloader` mentionnée ci-dessus.
-
-Il y a des ressources supplémentaires pour vous aider à trouver les musiques dans la [FAQ](./faq.md#more-songs).
+[BeatSaver](https://beatsaver.com) est le dépôt principal des custom songs réalisées par la communauté. Beaucoup d'autres outils et sites améliorent le téléchargement des custom songs, mais ce site est la source de confiance.
+Pour installer les musiques personnalisées depuis le site, décompressez-les dans un dossier et placez-le dans `Beat Saber/Beat Saber_Data/CustomLevels`. Vous pouvez également utiliser l'extension `BeatSaver Downloader` mentionnée ci-dessus, BeatList ou la fonctionnalité OneClick de ModAssistant.
 
 ### Beast Saber
 [Beast Saber](https://www.bsaber.com) (bsaber.com) est un site web qui a pour but de mettre en lumière les maps fantastiques à jouer pour les trouver facilement. Pour ce faire, les milliers de musiques présentes sur BeatSaver sont catégorisées, afin que vous puissiez filtrer par genre de musique et autres étiquettes appropriées. Le site dispose également d'une fonctionnalité communautaire où les joueurs peuvent laisser leurs critiques et impressions sur les musiques. L'une des fonctionnalités les plus utilisées est le "*Curator Recommended*" où une équipe joue la plupart des musiques sorties chaque jour et recommande celles qui sortent du lot, permettant [de les télécharger automatiquement en jeu](https://bsaber.com/beatsync/).
 
 ### Application de gestion des musiques
-* [BeatDrop](https://bsaber.com/beatdrop/) n'est pas qu'un installateur de mods, l'outil permet aussi de télécharger des musiques et de créer des playlists.
 * [BeatList](https://github.com/Alaanor/beatlist) est une application à pour gérer des playlists et maps, par Alaanor.
 
-## Comment désinstaller des mods
-**Actuellement, le seul moyen de désinstaller un mod est de supprimer le `.dll` associé dans le dossier `Plugins`.**
-| Plateforme | Chemin des extensions / mods |
+### Playlists
+Placez le fichier de playlist dans `Beat Saber/Playlists` et sélectionnez-la en jeu, puis appuyez sur Download. Vous pouvez créer et télécharger des playlists en utilisant l'un des programmes ci-dessus.
+
+## Dossier d'installation
+_Où est installé Beat Saber ?_
+
+### Emplacement par défaut
+|  |  |
 | --- | --- |
-| Steam | `\steamapps\common\Beat Saber\Plugins` |
-| Oculus | `\hyperbolic-magnetism-beat-saber\Plugins` | 
+| Steam | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\` |
+| Oculus | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` | 
+
+### Autre emplacement
+**Si vous avez déplacé votre dossier d'installation sur un autre disque dur, ça pourrait être l'emplacement suivant.**
+Remplacez la lettre du disque `F` avec celle du disque sur lequel est installé votre jeu.
+|  |  |
+| --- | --- |
+| Steam | `F:\SteamLibrary\steamapps\common\Beat Saber\` |
+| Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+
+## Comment désinstaller les mods
+Supprimez le dll depuis le dossier `Plugins`, ou bien cliquez sur le bouton `Uninstall` dans Mod Assistant.
 
 ## Installation manuelle
-N'ayez recours à cette solution que si vous savez précisément ce que vous faites ! Un installateur de mods est le moyen recommandé pour installer des mods. Lisez la section [ci-dessus](#installers).
+Un installateur de mods est le moyen recommandé pour installer des mods. Lisez la section [ci-dessus](#installers). Si vous avez patché le jeu et avez juste besoin d'installer les extensions qui ne sont pas disponibles dans l'installateur, passez à l'étape 4.
 
 **Lancez le jeu au moins une fois** avant d'essayer de modder votre jeu ! Cela s'applique après chaque réinstallation du jeu également, et après chaque mise à jour.
-
+### Installer BSIPA
 1. Télécharger [BSIPA](https://github.com/beat-saber-modding-group/BeatSaber-IPA-Reloaded/releases).
-2. Se rendre dans [le dossier d'installation](/fr/faq/install-folder.md) et y extraire le contenu de BSIPA.
+2. Se rendre dans [le dossier d'installation](#dossier-d-installation) et y extraire le contenu de BSIPA.
 ![Répertoire propre](./images/beginners-guide/directory-clean.png "Répertoire propre")
 ![Répertoire avec IPA](./images/beginners-guide/directory-ipa.png "Répertoire avec IPA")
 3. Double-cliquer sur `IPA.exe` pour patcher le jeu. Chaque mod présent dans le dossier `Plugins` sera désormais chargé au lancement du jeu. En cas d'erreur, s'assurer d'avoir bien suivi l'étape 2.
 ![Répertoire patché](./images/beginners-guide/directory-patched.png "Répertoire patché")
-4. Télécharger les mods souhaités, soit depuis Github, soit depuis le canal Discord `#finished-mods`, soit d'autres sources other sources. **S'assurer de télécharger toutes dépendances requises par les mods.**
+
+# Installer les mods
+4. Télécharger les mods souhaités, soit depuis Github, soit depuis le canal Discord `#pc-mods`, soit d'autres sources. **S'assurer de télécharger toutes dépendances requises par les mods.**
 ![Répertoire Plugins](./images/beginners-guide/directory-plugins.png "Répertoire Plugins")
 5. Certains mods ont des instructions d'installation précises, certains non. Généralement, il suffit de glisser-déposer le contenu du zip dans le dossier d'installation du jeu, et les fichiers doivent aller dans les dossiers correspondant.
+
 
 ## Où se rendre d'ici
 * [Grips et Astuces](./grips-and-tricks.md)
@@ -82,4 +98,4 @@ N'ayez recours à cette solution que si vous savez précisément ce que vous fai
 * [Créer ses propres mods](/fr/modding/)
 
 ## Des questions ?
-Visiter la [FAQ](/fr/faq/) ou poser-les dans le canal `#support` du [Discord BSMG](https://discord.gg/beatsabermods) !
+Visitez les canaux d'assistance sur le [Discord BSMG](https://discord.gg/beatsabermods) !

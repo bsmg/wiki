@@ -5,7 +5,7 @@ sidebar: auto
 _Impossible de taper les bloq avec des bras en compote_
 
 ## Conseils généraux
-Beat Saber peut être un jeu particulièrement exigeant en termes d'effort physique et il est important de traiter chaque session de jeu comme un exercice sportif. Nous recommandons fortement de vous étirer et de vous échauffer avant chacune de vos sessions de jeu pour éviter des lésions ou dommages physiques, incluant les lésions aux poignets et aux épaules. Les blessures les plus courantes incluent notamment les troubles musculo-squelettiques (TMS) aux poignets et aux épaules. 
+Beat Saber peut être un jeu particulièrement exigeant en termes d'effort physique et il est important de traiter chaque session de jeu comme un exercice sportif. Nous recommandons fortement de vous étirer et de vous échauffer avant chacune de vos sessions de jeu pour éviter des lésions ou dommages physiques, incluant les lésions aux poignets et aux épaules. Les blessures les plus courantes incluent notamment les troubles musculo-squelettiques (TMS) aux poignets et aux épaules.
 
 S'étirer n'est pas seulement limité aux joueurs les plus aguerris non plus, vous pouvez vous blesser même si une map semble courte ou simple.
 

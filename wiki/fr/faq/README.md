@@ -13,7 +13,6 @@ Si vous télécharges des maps manuellement depuis BeatSaver, décompressez le f
 ### Outils de gestion de musiques
 Les programmes suivants peuvent être utilisés sur votre ordinateur pour vous aider à télécharger des musiques personnalisées, avec des fonctionnalités supplémentaires.
 * [Beat Saber Downloader](https://drive.google.com/file/d/1QWedF77hWYbqcigIWa2UcpXlhqGTjwR1/view), un téléchargeur de maps par Sturdyfool0.
-* [BeatDrop](https://bsaber.com/beatdrop/) vous permet de télécharger des musiques, créer des playlists, et fait office d'installateur de mods, par StarGazer1258.
 * [BeatList](https://github.com/Alaanor/beatlist) est une application pour gérer des playlists et des beatmaps par Alaanor.
 
 ## Comment installer des playlists ?
@@ -22,8 +21,8 @@ Placez le fichier de playlist dans `Beat Saber/Playlists` et sélectionnez la en
 ## Comment faire mes propres niveaux personnalisés ?
 Rendez-vous dans la [catégorie mapping](/fr/mapping/) !
 
-## Comment charger des extensions / mods qui ne sont pas dans l'installateur de mods ?
-Rendez-vous dans [cette section](/fr/beginners-guide.md#manual-installation) du guide du Débutant.
+## Comment charger des extensions / mods qui ne sont pas dans Mod Assistant ?
+Rendez-vous dans [cette section](/fr/pc-modding.md#manual-installation) du guide du Débutant.
 
 ## Comment le mod pour le multijoueur fonctionne-t-il ?
 Le multijoueur officiel n'est pas encore sortie, mais vous pouvez utiliser le mod multijoueur créé par Andruzzzhka.
