@@ -24,5 +24,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - name: Skip Deploy Wiki Step?
+      if: github.repository != 'beat-saber-modding-group/wiki'
+      run: echo Current repository is not the BSMG wiki repository, skipping deployment... 
     - name: Deploy Wiki
+      if: github.repository == 'beat-saber-modding-group/wiki'
       run: "curl -X POST -H 'Authorization: Bearer ${{ secrets.HOOK_TOKEN }}' -d `git rev-parse --short HEAD` '${{ secrets.HOOK_URL }}'"
