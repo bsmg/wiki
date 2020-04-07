@@ -60,6 +60,7 @@ module.exports = {
             'moderators',
             'modders',
             'supports',
+            'mapping-supports',
             '3d-artists',
           ]),
           '/faq/': generateSidebar('FAQ', [
@@ -99,6 +100,7 @@ module.exports = {
             'moderators',
             'modders',
             'supports',
+            'mapping-supports',
             '3d-artists',
           ]),
           '/fr/faq/': generateSidebar('FAQ', [

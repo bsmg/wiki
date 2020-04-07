@@ -16,9 +16,9 @@ An awesome dance mapper who created a [video tutorial series](https://bsaber.com
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84e98d) | [BeastSaber](https://bsaber.com/members/bennydabeast/)
 
 ## Bloodcloak
-Really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps with some challenge.  
+Really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps.  
 Helps maintain and improve the resources.  
-[Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://ko-fi.com/bloodcloak)
+[Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
 
 ## Caeden117
 Modder, Moderator, Mapper, EditorMaster... Caeden does it all. As the primary dev on the ChroMapper project (which natively supports 360) he contributed a TON for 360&deg;/90&deg; best practices.  
@@ -49,7 +49,7 @@ Wrote a guide on forbidden patterns in E+ maps that was integrated into the [Bas
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f2fb) | [BeastSaber](https://bsaber.com/members/hexagonial/)
 
 ## Kival Evan
-Contributed to the [360&deg;/90&deg; best practices](/mapping/extended-mapping.html#360-90) thanks to extensive experimentation with the new mode.
+Contributed to the [360&deg;/90&deg; best practices](/mapping/extended-mapping.html#360-90) thanks to extensive experimentation with the new mode.  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855af3) | [BeastSaber](https://bsaber.com/members/kivalevan/)
 
 ## Kolezan
@@ -103,7 +103,7 @@ Creator of beatwalls, a command line tool to easily create awesome Mapping Exten
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c8561a5) | [BeastSaber](https://bsaber.com/members/spookyghost/) | [Github](https://github.com/spookyGh0st)
 
 ## Sykes
-Wrote guides on what "swing" beat is, how the "shuffle" parameter would make mapping easier, and down-mapping lower difficulties. 
+Wrote guides on what "swing" beat is, how the "shuffle" parameter would make mapping easier, and down-mapping lower difficulties.   
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c854602) | [BeastSaber](https://bsaber.com/members/sykes19/)
 
 ## Uninstaller

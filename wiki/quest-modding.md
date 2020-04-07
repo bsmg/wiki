@@ -6,7 +6,7 @@ sidebar: auto
 ## Installation 
 
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with SideQuest.
-* [BMBF apk](https://github.com/kihecido/BMBF/releases)
+* [BMBF apk](https://bmbf.dev/stable)
 
 ### Installing BMBF with SideQuest
 
@@ -67,3 +67,35 @@ If you want to use the same method of downloading songs as you do in BMBF in you
 * [General Guide by Sc2ad for Learning The Basics of Asset Modding](https://github.com/sc2ad/beat-saber-community-wiki/blob/master/asset-modding-guide.md)
 * [Collection of All Current Guides for Asset Mods Such As Sabers and Notes Made by RedBrumbler](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/RedBrumblers-Asset-Mod-Guide-Wiki)
 * [Fixing Out of Sync Audio](https://bsaber.com/quest-out-of-sync/)
+
+
+## Troubleshooting
+### Adding mods from the headset/bsaber.com doesn't work
+The reason adding mods and sabers from [Beastsaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface (pcbmbf)  
+Get Quest compatible Sabers and Mods from `#quest-mods`, `#quest-assets`, or [RedBrumbler's Github](https://github.com/RedBrumbler/BMBFCustomSabers) in the Beat Saber Modding Group Discord and use the .zips you download to install them in the BMBF Web Interface.
+___
+### BMBF web interface not loading
+If your BMBF Web Interface is not loading be sure that you're typing the ip from the tools tab into your browser on your computer thats on the same network.
+Make sure that:
+1) Your IP is not `127.0.0.1`
+2) BMBF is open in the headset
+3) There is `http://` at the beginning of the link, not `https://`
+4) You have `:50000` at the end of your link
+___
+### BMBF not loading configuration after a few minutes
+This is likely due to using an outdated version of Beat Saber being used with BMBF.
+If you are not using an outdated version then try restarting your headset, and if it continues use the BMBF Web Interface to click Quick Fix. 
+___
+### My Sabers and Mods wont enable/work!
+This is most likely due to having an outdated BMBF Client, grab the latest [BMBF Release](https://bmbf.dev/stable). If the BMBF version for your Beat Saber is not there then please wait a while for the unicorns to update BMBF.  
+* If your mod is supposed to be compatible with your version of BMBF, then make sure there is no folder separating the contents of the .zip file. 
+* If your level doesn't load then try installing mapping extensions from #quest-mods
+* If your BMBF is on the latest version and mods wont be enabled in game then uninstall Beat Saber with the uninstall BS button in the BMBF Tools tab and reinstall and remod.
+___
+### My Beat Saber gets 3 dots when I launch!
+If your Beat Saber is getting 3 dots when launching make sure that:
+1) You launched and played one song before modding the game
+2) You're not using a pirated version of the game
+3) Make sure you're using the latest version of BMBF
+
+
