@@ -9,6 +9,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    if: github.repository == 'beat-saber-modding-group/wiki'
 
     steps:
       - name: Checkout git repository
@@ -35,3 +36,11 @@ jobs:
           bot-label: "BOT"
           token: ${{ steps.get_token.outputs.app_token }}
           log-level: "DEBUG"
+
+  skipTracking:
+    runs-on: ubuntu-latest
+    if: github.repository != 'beat-saber-modding-group/wiki'
+    
+    steps:
+      - name: Info - Workflow skipped
+        run: echo Current repository is not the BSMG wiki repository, skipping page tracking... 
