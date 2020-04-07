@@ -169,7 +169,7 @@ This [pastebin](https://pastebin.com/vbgFPqn9) link provides an example of a `in
 
 ### 360°/90°
 ::: warning
-It is recommended that you understand basic and intermediate mapping before stepping into 360°/90° mode mapping as it requires adapting to different mapping practices and style.
+It is recommended that you understand [basic](./basic-mapping.md) and [intermediate](./intermediate-mapping.md) mapping practices before stepping into 360°/90° mapping as it requires adapting to different mapping practices and style.
 :::
 
 360°/90° mode introduces new ways to play Beat Saber with notes spawning from different angles and direction, which opens up a lot of mapping potential and freedom as a whole.
@@ -196,6 +196,10 @@ The Lightshow characteristic is used for maps with no notes which allow players 
 * **Info.dat Name:** `Lightshow`
 
 ## 360°/90° Mapping
+
+::: warning
+It is recommended that you understand [basic](./basic-mapping.md) and [intermediate](./intermediate-mapping.md) mapping practices before stepping into 360°/90° mapping as it requires adapting to different mapping practices and style.
+:::
 
 ### Rotation Events and Values
 Two new “official” event types were introduced in v1.6.0 as part of the lighting events schema:
