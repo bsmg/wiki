@@ -23,12 +23,16 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
     - name: Skip Deploy Wiki Step?
-      if: env.ENABLE_SECRET != 1
+      if: env.ENABLE != 1
       run: echo ENABLE_CI_DEPLOY Secret not set to 1, skipping deployment... 
+
+    - name: Checkout git repository
+      if: env.ENABLE == 1      
+      uses: actions/checkout@v1
+      
     - name: Deploy Wiki
-      if: env.ENABLE_SECRET == 1
+      if: env.ENABLE == 1
       run: "curl -X POST -H 'Authorization: Bearer ${{ secrets.HOOK_TOKEN }}' -d `git rev-parse --short HEAD` '${{ secrets.HOOK_URL }}'"
     env:
-      ENABLE_SECRET: ${{ secrets.ENABLE_CI_DEPLOY }}
+      ENABLE: ${{ secrets.ENABLE_CI_DEPLOY }}
