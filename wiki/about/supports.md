@@ -32,8 +32,25 @@ You might know them for their spectacular platforms, or for more refined individ
 
 ## Nobby76
 Heart of gold, nerves of steel.... And a knob of butter  
+
 **Roles:** Support
 
+## Chara_
+SmileW :)
+
+**Roles:** Support
+
+[Discord](https://discord.gg/NXnPYEh) | [Youtube](https://www.youtube.com/c/CharaHere)
+## Pink
+*boop*
+
+**Roles:** Moderator, Support
+
+## RedBrumbler
+Loves his big Meat Saber ;)
+**Roles:** Support, 3D Artists
+
+[GitHub](https://github.com/RedBrumbler/BMBFCustomSabers)
 ## Channel Monitor Bot
 The bot that holds it all together.
 Created by Megalon, recreated by lolPants, and personified by Rolo!
@@ -45,5 +62,5 @@ Created by Megalon, recreated by lolPants, and personified by Rolo!
 ::: tip See Also
 **Modders:** [Kyle1413](/about/modders.md#kyle1413)
 **Staff:** [Assistant](/about/staff.md#assistant) | [Klouder](/about/staff.md#klouder) | [Megalon](/about/staff.md#megalon) | [Steven](/about/staff.md#steven) | [williums](/about/staff.md#williums) | [Melopod ƸӜƷ](/about/staff.md#melopod-ƹӝʒ)
-**Moderators:** [Razor](/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [Pink](/about/moderators.md#pink)
+**Moderators:** [Razor](/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) 
 :::
