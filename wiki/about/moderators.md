@@ -82,8 +82,9 @@ How many statistics could we fit into a single counters mod? A lot apparently. H
 ## Pink
 The only Moderator to ghost us when asked for a description for this page.
 
-**Roles:** 3D Artists, Moderator, Support
-**Contributions:** Advanced Config, plenty of Quest models  
+**Roles:** 3D Artists, Moderator, Support 
+
+**Contributions:** A bunch of Quest mods and models  
 
 ## Olaf
 Any stroopwafels?  
