@@ -11,13 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Skip Tracking Steps?
+        if: env.ENABLE != 1
+        run: echo ENABLE_WUT Secret not set to 1, skipping page tracking... 
+
       - name: Checkout git repository
+        if: env.ENABLE == 1
         uses: actions/checkout@v2
         with:
           ref: master
           fetch-depth: 0
 
       - name: Get custom App JWT
+        if: env.ENABLE == 1
         id: get_token
         uses: machine-learning-apps/actions-app-token@0.21
         with:
@@ -25,6 +31,7 @@ jobs:
           APP_ID: ${{ secrets.APP_ID }}
 
       - name: Check original pages status and update issues
+        if: env.ENABLE == 1
         uses: Awagi/wiki-update-tracker@v1.4
         with:
           repo-path: $GITHUB_WORKSPACE
@@ -35,3 +42,5 @@ jobs:
           bot-label: "BOT"
           token: ${{ steps.get_token.outputs.app_token }}
           log-level: "DEBUG"
+    env:
+        ENABLE: ${{ secrets.ENABLE_WUT }}
