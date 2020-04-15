@@ -24,7 +24,7 @@ Vous pouvez aussi visiter le channel `#mappin-discussion` sur le [discord Beat S
 4.Commencez le mapping ! passez en revue les [méthodes de mapping de base](https://bsmg.wiki/mapping/basic-mapping.html) avant de commencer. [Testez en jeu](https://bsmg.wiki/mapping/#playtesting) votre propre travail dès le début et tout au long de votre mapping.
 5.Commencez à éclairer ! Lisez les [informations de base](https://bsmg.wiki/mapping/#lighting-practices) concernant l'éclairage. Mettre des lumières basiques est plus simple que vous ne le pensez !
 6. Faites [tester](https://bsmg.wiki/mapping/#playtesting) votre map ! Tester votre map via le [discord BSMG](https://discordapp.com/invite/beatsabermods) est fortement conseillé pour obtenir des retours constructifs et pour passer votre "map blindness".
-7.Une fois que votre musique a été map, éclairé et testé vous êtes prêt pour la [dévoiler](https://bsmg.wiki/mapping/#publishing-songs) au monde sur Beat Saver.
+7.Une fois que votre musique a été map, éclairé et testé vous êtes prêt pour la [mettre en ligne](https://bsmg.wiki/mapping/#publishing-songs) sur Beat Saver.
 
 
 # Tutoriels Vidéo
@@ -123,3 +123,68 @@ Même s'il est conseillé de recommencer l'installation en suivant le [Guide Rap
 
 Vous êtes maintenant prêt à continuer à éditer vos map !
   
+## Outils de mapping supplémentaire
+
+* [BenMapperTools](https://mappers.beatmappertools.com/) de **Darkuni**
+  Un outil pour les utilisateurs de Mediocre Mapper et Mediocre Map Assistant 2 pour facilement convertir, tester et "package" leurs maps.
+* [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) de **+1 Rabbit**
+  Une suite d'outil pour les mappers **utilisant le nouveau format de fichier .dat** contenant:
+    * **Schema Fixer**: Répare facilement les maps faites dans Mediocre Mapper Mk4.1 et Mk5 pour les mettre en ligne sur BeatSaver
+    * **Tempo Changer**: Change le BPM d'une map entière et déplace les blocs en conséquence
+    * **Offset Remover**: Enlève le décalage mis par l'auteur et "snaps notes/obstacles/events to common precisions to try and mitigate floating point error" (ici je ne comprend pas l'action du tout, impossible pour moi de traduire)
+    * **Note Sorter**: Trie les notes/obstacles/événements non ordonnés dans le fichier de la map pour réparer le "stack spawning" (même problème, je ne connais pas)
+* [BS Viewer](https://skystudioapps.com/bs-viewer/) de **+1 Rabbit**
+    Un outil pratique pour vérifier à quoi peut ressembler votre map sans passer par le jeu.
+    * IOS et Safari ne sont pas supportés pour l'instant
+* [Cinder](https://github.com/zhaey/cinder#readme) de **zhaey**
+  Un programme python qui convertit les fichiers stepmania `.sm` en fichier Beat Saber `.dat`pour le timing des notes.
+* [BPM Saber](https://bsaber.com/bpmsaber/) de **Elliotttate**
+  Un outil pour trouver le BPM d'une musique en la mettant en ligne ou en la recherchant.
+* [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t=) de **Fayhe**
+  Un guide pour savoir utiliser la fonction "timing" de l'éditeur d'osu! pour trouver le BPM d'une map.
+  
+  ### Outils "Legacy"
+  * [BPM Saber](https://github.com/zevdg/bpm-saber#readme) de **Zevdg**
+  **ne fonctionne que sur l'ancien format de fichier .json. Pour le nouveau format .dat, les maps utilisent le Tempo Changer du +1 Rabbit's Mapping Tools**
+  Change le BPM de la map entière et déplace les blocs en conséquence
+
+
+# Pratique concernant le Mapping
+> "Vous devez connaitre les règles avant de pouvoir les briser."
+  ~ Uninstaller
+
+Il n'y a pas de Bible de la création de map mais cette section du wiki contient beaucoup de connaissance venant de la communauté et de tous les niveaux de mapping. Nous vous conseillons de suivre les règles jusqu'à ce que vous développiez vos talents de mapper, vous pourrez ensuite être créatif, faire des expérimentations et innover !
+* [Basic Mapping](https://bsmg.wiki/mapping/basic-mapping.html) - Tous les mappers débutants doivent lire ceci, **sans exception !**
+* **Intermediate Mapping** - Un regard plus approfondi sur de nombreux de thèmes concernant le mapping (arrive bientôt... si vous voulez plus d'info, demandez dans #mapping-discussion !)
+* [Extended Mapping](https://bsmg.wiki/mapping/extended-mapping.html) - Des extensions pour le mapping, des caractéristiques supplémentaires et le mapping à 90°/360°
+
+## Le rôle de Mapper
+
+Pour candidater pour le rôle de **Mapper** sur le [discord Beat Saber Modding Group](https://discordapp.com/invite/beatsabermods) vous devez avoir mis en ligne trois maps considérées comme jouable (les collaborations sont acceptées) et vous devez aussi compléter le [formulaire pour le rôle de Mapper](https://docs.google.com/forms/d/e/1FAIpQLSdtl2bmP4T5GwAMEUIGFt5xSb2KMCAkfPuVrcOMgCSmZMw3cg/viewform). Votre candidature et vos maps peuvent prendre un certain temps avant d'être vérifié et validé.
+
+## Utiliser les mods et Classement
+
+Les maps remplissant des [critères de classement](https://docs.google.com/document/d/1mtVihRO1LomyptXayoDNDTQYgX_TQPp6ZYDmtwR2jMI/edit)  spécifique et ayant été vérifié à travers un procédé intense appelé "modding" peuvent potentiellement devenir classé, récompensant ainsi le joueur avec des Perfomances Points (PP) pour le classement mondial. Plus de d'informations et une FAQ détaillée sont disponible sur le [discord ScoreSaber](https://discordapp.com/invite/WpuDMwU)
+
+* Avant de demander à ce que sa map soit classé, les mappers devraient examiner en détails les critères de classement et les "metadata standars" (connais pas), en plus de voir leur map vérifié par une source solide.
+
+::: tip Vous voulez en savoir plus ?
+Aller voir le [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-Do_kpAs567BdeJqWSzT9xazp20biA9Th0o/edit) pour connaître les critères de classement les plus ambigus.
+:::
+
+* Une fois que vos maps ont bien été moddé et revu, ils sont prêtes à être soumise à l'équipe s'occupant du classement via le discord ScoreSaber (ce qui implique que les maps seront moddées et revues à nouveau).
+* Si un membre de cette équipe juge la map correct, elle sera ajouter à la file d'attente des maps classés afin que l'équipe entière vote.
+
+# Pratique concernant l'éclairage
+
+Une map n'est pas complète jusqu'à ce qu'on y ajoutent une forme d'éclairage. l'éclairage peut être très rudimentaire ou extrêmement détaillé en utilisant des mods pour utiliser de nouvelles fonctions.
+
+* [Basic Lighting](https://bsmg.wiki/mapping/basic-lighting.html) - Découvrez différents moyens pour éclairer votre map manuellement
+* [Intermediate Lighting](https://bsmg.wiki/mapping/intermediate-lighting.html) - Apprenez à faire des éclairages un peu plus complexes avec l'utilisation de "strobing, ring spins, and contast practices"
+* **Advanced Lighting** - Techniques avancées et nuancées, éclairage pour des plateformes personnalisées et de l'éclairage Chroma RGB (arrive bientôt... si vous voulez plus d'info, demandez dans #mapping-discussion !)
+
+Ci-dessous se trouve des ressources concernant l'éclairage le temps que nous mettions en place d'autre page du wiki.
+* [Beginner's Guide to Lighting](https://docs.google.com/document/d/1wpZgBeOD1-UbJpXf-b6gX5ICNYygCd6UK6LOPm-t5QM/edit) de Puds
+* [Lighting Environnement Guide](https://bsaber.com/creating-lighting-environment-guide/) de ManDynasty
+* [Using Flash & Fade Lighting Events](https://bsaber.com/creating-lighting-how-flash-fade-notes-actually-work-in-game/) de ManDynasty
+* [Side Laser Speed Reference](https://docs.google.com/spreadsheets/d/1tIERmSyFI4ssjDkE-oJjBBvUZUJ7eoVhCQyM3_BsJwE/edit#gid=0) de LittleAsi
