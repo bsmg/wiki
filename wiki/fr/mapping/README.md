@@ -389,6 +389,6 @@ Pour être compatible avec le nouveau schéma, trouvez tous les et supprimez ou 
 ## BeastSaber
 [BeastSaber](https://bsaber.com/) est un site d'analyse et de tri avec un côté social incluant des profils pour les membres, des forums, des news et des tutoriels. Toutes les maps publiées sur BeatSaver le sont aussi sur BeastSaber 10 à 15 minutes après. De plus, les maps supprimées de BeatSaver peuvent prendre jusqu'à 1 jour pour être supprimé de BeastSaber.
 
-## [Credits](/mapping/mapping-credits.html)
+## [Crédits](/mapping/mapping-credits.html)
 
 Plus de 30 guides et de tutoriels concernant la création de map ont été combiné dans ce wiki pour qu'il puisse être entretenu globalement par la communauté. Un **très grand MERCI** aux mappers qui ont inittié cela et ont contribué à sa création. Jetez un oeuil à la liste entière [ici](https://bsmg.wiki/mapping/mapping-credits.html) !
