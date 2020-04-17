@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+translation-done: false
 ---
 # Guide utilisateur de Mediocre Map Assistant
 _Des informations essentielles pour partir sur des bases saines en utilisant Mediocre Map Assistant 2_

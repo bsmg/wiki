@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-lighting.md
 next: false
+translation-done: false
 ---
 # Lighting avancé
 _Un résumé rapide du lighting chevronné_
