@@ -60,7 +60,7 @@ C'est un éditeur 3D qui fonctionne dans le navigateur, qui permet à n'importe 
 * [Manuel d'utilisation BeatMapper](https://beatmapper.app/docs/manual/getting-started) (en anglais)
 
 #### ChroMapper - *Prochainement*
-C'est un éditeur 3D qui supporte excellemment bien les lumières, Chroma RGB, et qui partage des fonctions similaires avec Beat Saber, ce qui permet d'avoir une meilleure prévisualisation. ChroMapper est actuellement en béta fermée et n'a pas de date de sortie publique.
+C'est un éditeur 3D qui supporte excellemment bien les lumières, Chroma RVB, et qui partage des fonctions similaires avec Beat Saber, ce qui permet d'avoir une meilleure prévisualisation. ChroMapper est actuellement en béta fermée et n'a pas de date de sortie publique.
 
 ::: tip Créer votre propre éditeur ou convertisseur vous intéresse ?
 Vous pourriez trouver les pages [Readme de SongCore](https://github.com/Kylemc1413/SongCore/blob/master/README.md) (en anglais) et [Beatmap Schemas](https://github.com/lolPants/beatmap-schemas/tree/master/schemas) (en anglais) utiles !
