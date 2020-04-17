@@ -32,7 +32,7 @@ jobs:
 
       - name: Check original pages status and update issues
         if: env.ENABLE == '1ENABLED'
-        uses: Awagi/wiki-update-tracker@v1.4
+        uses: Awagi/wiki-update-tracker@v1.5
         with:
           repo-path: $GITHUB_WORKSPACE
           original-path: "wiki"

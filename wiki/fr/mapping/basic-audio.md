@@ -2,6 +2,7 @@
 sidebar: auto
 prev: false
 next: ./advanced-audio.md
+translation-done: false
 ---
 # Mise en place de l'audio basique
 _Préparez votre audio pour le mapping_

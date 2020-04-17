@@ -2,6 +2,7 @@
 sidebar: auto
 prev: false
 next: ./advanced-lighting.md
+translation-done: false
 ---
 # Les bases du lighting
 _Un résumé rapide sur les bases du lighting_
