@@ -155,7 +155,7 @@ Une map n'est pas complète jusqu'à ce qu'on y ajoute une forme d'éclairage. L
 
 * [Basic Lighting](/fr/mapping/basic-lighting.html) - Découvrez différents moyens pour éclairer votre map manuellement
 * [Intermediate Lighting](/fr/mapping/intermediate-lighting.html) - Apprenez à faire des éclairages un peu plus complexes avec l'utilisation des lumières stroboscopiques, de rotation des anneaux et des contrastes
-* **Advanced Lighting** - Techniques avancées et nuancées, éclairage pour des plateformes personnalisées et de l'éclairage Chroma RGB (arrive bientôt... si vous voulez plus d'info, demandez dans #mapping-discussion !)
+* **Advanced Lighting** - Techniques avancées et nuancées, éclairage pour des plateformes personnalisées et de l'éclairage Chroma RVB (arrive bientôt... si vous voulez plus d'info, demandez dans #mapping-discussion !)
 
 Ci-dessous se trouvent des ressources concernant l'éclairage le temps que nous mettions en place d'autres pages sur le wiki.
 
