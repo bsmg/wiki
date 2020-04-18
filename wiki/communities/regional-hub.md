@@ -10,7 +10,7 @@ A list of other regional communities outside of the Beat Saber Modding Group.
 
 ## Africa
 
-(None yet!)
+*None yet*
 
 ---
 
@@ -27,8 +27,6 @@ The official (private) discord for the Canadian beat saber community!
 ---
 
 ## Asia
-
-### Asia (All)
 
 **Beat Saber Asia**
 
@@ -134,6 +132,6 @@ We have tea!
 
 ## Oceania
 
-(None yet!)
+*None yet*
 
 ---

@@ -8,6 +8,28 @@ A list of other communities outside of the Beat Saber Modding Group.
 
 ---
 
+## 115 Guild
+
+A community for all accuracy related discussions and events. Whether you want to show off and compare your skills or seek to improve and learn, everyone is welcome! We also have an accuracy campaign for earning ranks in the server, how far can you get?
+
+[Discord](https://discord.gg/j8m8cxr)
+
+---
+
+## BeatKhana
+
+We are BeatKhana, a Beat Saber community focused around pushing tournaments forward!
+What do we do?
+- We update and announce upcoming online tournaments, giving you all the information you need
+- Archive old tournaments so you can always find them back
+- Provide a place for people to promote their own tournaments and find suitable coordinators and casters
+- Host our own tournaments
+- Manage a pleasant Beat Saber community
+
+[Discord](https://discord.gg/5NjfSAC)
+
+---
+
 ## Beat Saber Commissions
 
 Have a model, map, or mod that you'd like done? Get in contact with the professionals here.
@@ -64,3 +86,11 @@ Custom leaderboards and global ranking!
 
 [Discord](https://discord.gg/WpuDMwU)
 [Twitter](https://twitter.com/scoresaber)
+
+---
+
+## QuestSaber Community
+
+A community focused around providing Custom Sabers from the PC platform for Quest users! We are trying to improve and grow the community of the Quest Custom Sabers (Not asset sabers) and improve the overall experience of the custom sabers for quest such as adding custom animations, textures, and much more!
+
+[Discord](https://discord.gg/NXnPYEh)
