@@ -76,10 +76,19 @@ Combien de statistiques pouvont nous faire rentrer dans un seul mod de compteurs
 
 **Rôles :** Moddeur, Modérateur
 **Contributions :** FPSCounter, QSettings+, Short Trail
+
 [GitHub](https://github.com/Rugtveit)
 
 ## Pink
 Le seul modérateur à nous ignorer quand on demande une description pour cette page.
 
-**Rôles :** Artiste 3D, Modérateur
-**Contributions :** Advanced Config, de nombreux modèles Quest
+**Rôles :** Artiste 3D, Modérateur, Support
+
+**Contributions :** Un tas de modèles et mods Quest
+
+## Olaf
+Des stroopwafels ?
+
+**Rôles :** Modérateur
+
+[Twitch](https://twitch.tv/olafstad)

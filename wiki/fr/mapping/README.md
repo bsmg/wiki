@@ -11,7 +11,7 @@ Si vous avez des idées pour améliorer les ressources concernant le mapping, re
 Vous pouvez aussi visiter le channel `#mapping-discussion` sur le [Discord Beat Saber Modding Group](https://discordapp.com/invite/beatsabermods) pour participer !
 :::
 
-* [Glossaire des termes de mapping](https://bsmg.wiki/mapping/glossary.html)
+* [Glossaire des termes de mapping](/fr/mapping/glossary.html)
 
 ## Guide rapide pour le mapping
 
@@ -19,7 +19,7 @@ Vous pouvez aussi visiter le channel `#mapping-discussion` sur le [Discord Beat 
 2. [Installez votre fichier audio](/fr/mapping/#ressources-pour-l-edition-audio), trouvez et vérifiez les BPM, et exportez-le au format OGG.
 3. Installez votre musique dans l'éditeur de map (les étapes peuvent varier selon l'éditeur mais voici le [guide](/fr/mapping/mediocre-map-assistant.html) pour MMA2).
 4. Commencez le mapping ! Passez en revue les [méthodes de mapping de base](/fr/mapping/basic-mapping.html) avant de commencer. [Testez en jeu](/fr/mapping/#test-en-jeu) votre propre travail dès le début et tout au long de votre mapping.
-5. Commencez à éclairer ! Lisez les [informations de base](/fr/mapping/#pratiques-d-eclairage) concernant l'éclairage. Mettre des lumières basiques est plus simple que vous ne le pensez !
+5. Commencez à éclairer ! Lisez les [informations de base](/fr/mapping/#pratiques-sur-l-eclairage) concernant l'éclairage. Mettre des lumières basiques est plus simple que vous ne le pensez !
 6. Faites [tester](/fr/mapping/#test-en-jeu) votre map ! Tester votre map via le [Discord BSMG](https://discordapp.com/invite/beatsabermods) est fortement conseillé pour obtenir des retours constructifs d'un point de vue différent du vôtre.
 7. Une fois que votre musique a été mappée, éclairée et testée vous êtes prêt pour la [mettre en ligne](/fr/mapping/#publier-des-maps) sur Beat Saver.
 
@@ -48,11 +48,11 @@ Avant de créer des maps, vous devez mettre en forme vos fichiers audio pour qu'
 Les éditeurs communautaires ont souvent des fonctions supplémentaires et n'utilisent pas de casque VR, mais ils peuvent être buggués, ils sont donc à utiliser avec précaution.
 :::
 
-### Mediocre Map Assistant 2
+#### Mediocre Map Assistant 2
 MMA2 est l'éditeur 3D disposant du plus grand nombre de fonctions et il est utilisé par la majorité de la communauté de mapping.
 
 * [Téléchargement Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/tag/v4.2.0.69)
-* [Guide utilisateur Mediocre Map Assistant](https://bsmg.wiki/mapping/mediocre-map-assistant.html)
+* [Guide utilisateur Mediocre Map Assistant](/fr/mapping/mediocre-map-assistant.html)
 
 #### BeatMapper.app
 C'est un éditeur 3D qui fonctionne dans le navigateur, qui permet à n'importe qui d'utiliser son navigateur internet pour créer une map. Ça marche mieux pour des maps basiques sans aucune extension, mais de nouvelles fonctions sont ajoutées.
@@ -91,45 +91,45 @@ Même s'il est conseillé de recommencer l'installation en suivant le [guide rap
   * Exemple d'emplacement via Steam `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`.
   * Exemple d'emplacement via Oculus `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomLevels`
 3. Déplacez-le dans le dossier dans lequel votre éditeur regarde. Habituellement il regarde dans le dossier `CustomWIPLevels` dans `Beat Saber_Data`.
-  * Steam : `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomWIPLevels`
-  * Oculus : `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
+    * Steam : `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomWIPLevels`
+    * Oculus : `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
 4. Convertissez votre fichier audio au format `.ogg` depuis le format `.wav` si ce n'est pas déjà fait.
-  1. Téléchargez et installez [Audacity](https://www.audacityteam.org/)
-  2. Ouvrez le ficher `.wav` dans Audacity
-  3. Cliquez sur `Fichier -> Exporter -> Exporter en OGG`
-  4. Nommer votre fichier `song.ogg`et cliquer sur <kbd>Sauvegarder</kbd>.
-  5. Placez votre fichier `song.ogg` dans le dossier de map.
-    * Vous n'avez plus besoin du `.wav` dans ce dossier.
+    1. Téléchargez et installez [Audacity](https://www.audacityteam.org/)
+    2. Ouvrez le ficher `.wav` dans Audacity
+    3. Cliquez sur `Fichier -> Exporter -> Exporter en OGG`
+    4. Nommer votre fichier `song.ogg`et cliquer sur <kbd>Sauvegarder</kbd>.
+    5. Placez votre fichier `song.ogg` dans le dossier de map.
+        * Vous n'avez plus besoin du `.wav` dans ce dossier.
 5. Ouvrez la map dans l'éditeur communautaire et changez le nom du fichier en `song.ogg`et cliquez sur le bouton sauvegarder.
 
 Vous êtes maintenant prêt à continuer à éditer vos map !
-  
+
 ### Outils de mapping supplémentaires
 * [BenMapperTools](https://mappers.beatmappertools.com/) de **Darkuni**
-  Un outil pour les utilisateurs de Mediocre Mapper et Mediocre Map Assistant 2 pour facilement convertir, tester et "package" leurs maps.
+Un outil pour les utilisateurs de Mediocre Mapper et Mediocre Map Assistant 2 pour facilement convertir, tester et "package" leurs maps.
 * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) de **+1 Rabbit**
-  Une suite d'outil pour les mappers **utilisant le nouveau format de fichier .dat** contenant:
-    * **Schema Fixer**: Répare facilement les maps faites dans Mediocre Mapper Mk4.1 et Mk5 pour les mettre en ligne sur BeatSaver
-    * **Tempo Changer**: Change le BPM d'une map entière et déplace les blocs en conséquence
-    * **Offset Remover**: Enlève le décalage mis par l'auteur et "snaps notes/obstacles/events to common precisions to try and mitigate floating point error" (ici je ne comprend pas l'action du tout, impossible pour moi de traduire)
-    * **Note Sorter**: Trie les notes/obstacles/événements non ordonnés dans le fichier de la map pour réparer le "stack spawning" (même problème, je ne connais pas)
+Une suite d'outil pour les mappers **utilisant le nouveau format de fichier .dat** contenant:
+  * **Schema Fixer** : Répare facilement les maps faites dans Mediocre Mapper Mk4.1 et Mk5 pour les mettre en ligne sur BeatSaver
+  * **Tempo Changer** : Change le BPM d'une map entière et déplace les blocs en conséquence
+  * **Offset Remover** : Enlève le décalage créé par l'éditeur et place les notes / obstacles / évènements sur des précisions communes pour éviter les erreurs de décimales
+  * **Note Sorter** : Trie les notes/obstacles/événements non ordonnés dans le fichier de la map pour éviter l'accumulation de notes
 * [BS Viewer](https://skystudioapps.com/bs-viewer/) de **+1 Rabbit**
-    Un outil pratique pour vérifier à quoi peut ressembler votre map sans passer par le jeu.
-    * IOS et Safari ne sont pas supportés pour l'instant
+Un outil pratique pour vérifier à quoi peut ressembler votre map sans passer par le jeu.
+  * IOS et Safari ne sont pas supportés pour l'instant
 * [Cinder](https://github.com/zhaey/cinder#readme) de **zhaey**
-  Un programme python qui convertit les fichiers stepmania `.sm` en fichier Beat Saber `.dat`pour le timing des notes.
+Un programme python qui convertit les fichiers stepmania `.sm` en fichier Beat Saber `.dat`pour le timing des notes.
 * [BPM Saber](https://bsaber.com/bpmsaber/) de **Elliotttate**
-  Un outil pour trouver le BPM d'une musique en la mettant en ligne ou en la recherchant.
+Un outil pour trouver le BPM d'une musique en la mettant en ligne ou en la recherchant.
 * [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t=) de **Fayhe**
-  Un guide pour savoir utiliser la fonction "timing" de l'éditeur d'osu! pour trouver le BPM d'une map.
+Un guide (en anglais) pour savoir utiliser la fonction "timing" de l'éditeur d'osu! pour trouver le BPM d'une map.
   
-#### Outils "Legacy"
-  * [BPM Saber](https://github.com/zevdg/bpm-saber#readme) de **Zevdg**
-  **ne fonctionne que sur l'ancien format de fichier .json. Pour le nouveau format .dat, les maps utilisent le Tempo Changer du +1 Rabbit's Mapping Tools.** Change le BPM de la map entière et déplace les blocs en conséquence
+#### Outils notables
+* [BPM Saber](https://github.com/zevdg/bpm-saber#readme) de **Zevdg**
+**ne fonctionne que sur l'ancien format de fichier .json. Pour le nouveau format .dat, les maps utilisent le Tempo Changer du +1 Rabbit's Mapping Tools.** Change le BPM de la map entière et déplace les blocs en conséquence
 
 ## Pratiques sur le Mapping
 > "Vous devez connaitre les règles avant de pouvoir les briser."
-      ~ Uninstaller (traduit)
+      ~ Uninstaller (traduit de l'anglais)
 
 Il n'y a pas de Bible de la création de map mais cette section du wiki contient beaucoup de connaissances venant de la communauté et pour tous les niveaux de mapping. Nous vous conseillons de suivre les règles jusqu'à ce que vous développiez vos talents de mapper, vous pourrez ensuite être créatif, faire des expérimentations et innover !
 
@@ -141,16 +141,16 @@ Il n'y a pas de Bible de la création de map mais cette section du wiki contient
 Pour candidater pour le rôle de **Mapper** sur le [Discord Beat Saber Modding Group](https://discord.gg/beatsabermods) vous devez avoir mis en ligne trois maps considérées comme jouables (les collaborations sont acceptées) et vous devez aussi compléter le [formulaire pour le rôle de Mapper](https://docs.google.com/forms/d/e/1FAIpQLSdtl2bmP4T5GwAMEUIGFt5xSb2KMCAkfPuVrcOMgCSmZMw3cg/viewform). Votre candidature et vos maps peuvent prendre un certain temps avant d'être vérifiées et validées.
 
 ### Modding et Classement
-Les maps remplissant des [critères de classement](https://docs.google.com/document/d/1mtVihRO1LomyptXayoDNDTQYgX_TQPp6ZYDmtwR2jMI/edit) (document en anglais) spécifiques et ayant été vérifiées à travers un procédé intense appelé le "modding" peuvent potentiellement devenir classées, récompensant ainsi le joueur avec des Performances Points (PP) pour le classement mondial. Plus d'informations et une FAQ détaillée sont disponibles sur le [Discord ScoreSaber](https://discord.gg/WpuDMwU).
+Les maps remplissant des [critères de classement](https://docs.google.com/document/d/1mtVihRO1LomyptXayoDNDTQYgX_TQPp6ZYDmtwR2jMI/edit) (document en anglais) spécifiques et ayant été vérifiées à travers un procédé intense appelé le "modding" peuvent potentiellement devenir classées, récompensant ainsi le joueur avec des Performances Points (PP) pour le classement mondial. Plus d'informations et une FAQ détaillée sont disponibles sur le [Discord ScoreSaber](https://discord.gg/WpuDMwU) (serveur anglophone).
 
-* Avant de demander à ce que leur map soit classée, les mappers doivent examiner en détail les critères de classement et les [standards pour les métadonnées](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit), en plus de voir leur map vérifiée (ou moddée) par une source solide.
+* Avant de demander à ce que leur map soit classée, les mappers doivent examiner en détail les critères de classement et les [standards pour les métadonnées](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) (document en anglais), en plus de voir leur map vérifiée (ou moddée) par une source solide.
 ::: tip Vous voulez en savoir plus ?
-Aller voir le [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-Do_kpAs567BdeJqWSzT9xazp20biA9Th0o/edit) (en anglais) pour connaître les critères de classement les plus ambigus.
+Aller voir le [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-Do_kpAs567BdeJqWSzT9xazp20biA9Th0o/edit) (document en anglais) pour connaître les critères de classement les plus ambigus.
 :::
 * Une fois que vos maps ont bien été moddées et revues, elles sont prêtes à être soumises à l'équipe s'occupant du classement via le Discord ScoreSaber (ce qui implique que les maps seront moddées et revues à nouveau).
 * Si un membre de cette équipe juge la map correcte, elle sera ajoutée à la file d'attente des maps classées afin que l'équipe entière vote.
 
-## Pratiques concernant l'éclairage
+## Pratiques sur l'éclairage
 Une map n'est pas complète jusqu'à ce qu'on y ajoute une forme d'éclairage. L'éclairage peut être très rudimentaire ou extrêmement détaillé en utilisant des mods pour utiliser des fonctions exclusives.
 
 * [Basic Lighting](/fr/mapping/basic-lighting.html) - Découvrez différents moyens pour éclairer votre map manuellement
@@ -214,9 +214,9 @@ Si, après avoir supprimé une ancienne version d'une map et l'avoir remplacé p
 :::
 
 ### Test par la communauté / un tiers
-Le channel `#testplays` du [discord Beat Saber Modding Group](https://discordapp.com/invite/beatsabermods) vous aidera à ce que votre map soit testé par des mappers experimentés. Les testeurs vous fourniront des retours constructifs sur comment améliorer votre map soit avec une vidéo, en message privé ou sur le channel `#mapping-discussion`.
+Le channel `#testplays` du [discord Beat Saber Modding Group](https://discordapp.com/invite/beatsabermods) vous aidera à ce que votre map soit testé par des mappers experimentés. Les testeurs vous fourniront des retours constructifs sur comment améliorer votre map soit avec une vidéo, en message privé ou sur le channel `#mapping-discussion`. Et n'oubliez pas que le serveur Discord BSMG est majoritairement anglophone, posez vos questions et attendez des réponses en anglais.
 
-1. Créez un fichier .zip de votre map : [Guide vidéo](https://streamable.com/u20ci).
+1. Créez un fichier .zip de votre map. [Guide vidéo](https://streamable.com/u20ci).
 2. Mettez en ligne votre map sur le channel `#testplays` en suivant le format suivant (à rédiger en anglais) :
   * **Map**: le nom de votre map et de l'artiste de la map
   * **Length**: la durée de votre map
@@ -228,7 +228,7 @@ Le channel `#testplays` du [discord Beat Saber Modding Group](https://discordapp
 
 ::: warning Rappelez-vous : Si vous faites un changement après avoir créé une requête ou avoir reçu un retour
 * Réagissez avec un 🛑 `:octagonal_sign:` pour indiquer de stopper le test.
-  == ou ==
+== ou ==
 * Supprimez votre demande de test !
 :::
 
@@ -256,12 +256,12 @@ Allez voir la section [Test en jeu](/fr/mapping/#test-en-jeu) pour plus d'inform
 #### Comment mettre en ligne une map
 
 1. [Créez un compte](https://beatsaver.com/auth/register) sur BeatSaver.
-  * Si vous ne recevez pas d'email de vérification, remplissez ce [formulaire de contact](https://docs.google.com/forms/d/e/1FAIpQLSd5ty13fOWO5BjFHTE66DjKBGxX50XZcIvmrW5Mzh0_tJx1GA/viewform?usp=send_form)
+    - Si vous ne recevez pas d'email de vérification, remplissez ce [formulaire de contact](https://docs.google.com/forms/d/e/1FAIpQLSd5ty13fOWO5BjFHTE66DjKBGxX50XZcIvmrW5Mzh0_tJx1GA/viewform?usp=send_form)
     **Note** vous devez fournir un nom d'utilisateur et un email valide pour pouvoir vous identifier et donc compléter la vérification !
 2. Cliquez sur le bouton <kbd>Upload</kbd> en haut à droite.
 3. Ajoutez le nom de votre map ainsi que sa description. Seulement le nom de votre map peut être recherché so assurez vous d'y inclure le nom de la map, le nom de l'artiste et d'autre termes qui pourrez faciliter la recherche de votre map.
-  * Utilisez des "tags" tel que (Chroma), (OneSaber), ou (Mapping Extensions) si votre map utilise des éléments spéciaux que vous voulez mettre en valeur.
-  * Mettre un lien vers une vidéo de votre map dans la description peut aider à avoir plus de téléchargement car votre map sera plus facile à partager et les joueurs sauront à quoi s'attendre.
+    - Utilisez des "tags" tel que (Chroma), (OneSaber), ou (Mapping Extensions) si votre map utilise des éléments spéciaux que vous voulez mettre en valeur.
+    - Mettre un lien vers une vidéo de votre map dans la description peut aider à avoir plus de téléchargement car votre map sera plus facile à partager et les joueurs sauront à quoi s'attendre.
 4. Ajoutez votre fichier .zip et cliquez sur le bouton <kbd>Upload</kbd>.
 
 ::: warning ATTENTION
@@ -270,9 +270,9 @@ Pour l'instant, les fichiers de maps ne peuvent pas être modifiés sur BeatSave
 
 ### Problèmes fréquents liés à BeatSaver
 Vous trouverez ici des solutions pour certaines erreurs fréquemment rencontré quand vous mettez des map en ligne.
-Vous avez rencontré une erreur qui n'est pas répertoriée ? Parlez en dans le channel `#mapping-discussion` pour obtenir de l'aide.
+Vous avez rencontré une erreur qui n'est pas répertoriée ? Parlez-en dans le channel `#mapping-discussion` pour obtenir de l'aide.
 
-**Rappelez-vous**: vos maps doivent être [testées](/fr/mapping/#test-en-jeu] avant de les mettre en ligne !
+**Rappelez-vous**: vos maps doivent être [testées](/fr/mapping/#test-en-jeu) avant d'être mises en ligne !
 ___
 
 **Something went wrong! Try again later.**
@@ -303,7 +303,7 @@ ___
 `_time` est une erreur commune pour ce genre de message. Cependant, la même solution s'applique si une propriété différente est signalé.
 * Vos fichiers ne sont pas conforme au schéma de votre map. Allez voir [Schema Change](/fr/mapping/#problemes-frequents-lies-a-beatsaver) pour trouver une solution.
 ___
-**Beatmap could not be parsed!
+**Beatmap could not be parsed!**
 * Cela pourrait être provoqué par une surchage extrême des serveurs. Essayez plus tard ou demandez dans le channel `#mapping-discussion`.
 ___
 
@@ -334,10 +334,10 @@ Autrement, vu que `_customData` **N'EST PAS** un champ requis, vous pourriez sup
 }
 ```
 
-Pour être compatible avec le nouveau schéma, trouvez tous les et supprimez ou remplissez **tous les champs vides** dans votre `Info.dat` ou dans vos fichiers de difficultés.
+Pour être compatible avec le nouveau schéma, trouvez et supprimez **tous les champs vides** ou remplissez-les dans votre `Info.dat` ou dans vos fichiers de difficulté.
 
 ### BeastSaber
 [BeastSaber](https://bsaber.com/) est un site d'analyse et de tri avec un côté social incluant des profils pour les membres, des forums, des news et des tutoriels. Toutes les maps publiées sur BeatSaver le sont aussi sur BeastSaber 10 à 15 minutes après. De plus, les maps supprimées de BeatSaver peuvent prendre jusqu'à 1 jour pour être supprimé de BeastSaber.
 
 ## [Crédits](/fr/mapping/mapping-credits.html)
-Plus de 30 guides et de tutoriels concernant la création de map ont été combiné dans ce wiki pour qu'il puisse être entretenu globalement par la communauté. Un **très grand MERCI** aux mappers qui ont inittié cela et ont contribué à sa création. Jetez un oeil à la liste entière [ici](/fr/mapping/mapping-credits.html) !
+Plus de 30 guides et de tutoriels concernant la création de map ont été combiné dans ce wiki pour qu'il puisse être entretenu globalement par la communauté. Un **très grand MERCI** aux mappers qui ont initié cela et ont contribué à sa création. Jetez un oeil à la liste entière [ici](/fr/mapping/mapping-credits.html) !
