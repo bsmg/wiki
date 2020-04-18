@@ -16,6 +16,9 @@ Le jeu tel que nous le connaissons n'existerait pas si les gens ne voulaient pas
 ### [Supports](/fr/about/supports.md)
 Le rôle Support est un symbole de remerciement. Merci pour les milliers de messages envoyés dans les canaux de soutien aux personnes en difficulté avec leurs mods, et pour construire une base de connaissance pour le dépannage à travers des macros et le wiki.
 
+### [Mapping Supports](/fr/about/mapping-supports.md)
+Le rôle Mapping Support est un symbole de remerciement. Merci aux milliers de messages envoyés dans le canal de discussion sur le mapping et le temps passé à construire et maintenir les ressources sur le mapping pour aider les personnes à apprendre à faire des maps.
+
 ### [Artistes 3D](/fr/about/3d-artists.md)
 Des sabres aux notes, les modèles personnalisés ont toujours été populaires dans nos versions moddées de Beat Saber, ce qui n'aurait pas pu être possible sans eux.
 

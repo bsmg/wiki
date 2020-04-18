@@ -6,7 +6,7 @@ sidebar: auto
 ## Installation
 
 Actuellement le seul moyen recommandé pour installer les custom songs et les mods est BMBF chargé à travers SideQuest.
-* [BMBF apk](https://github.com/kihecido/BMBF/releases)
+* [BMBF apk](https://bmbf.dev/stable)
 
 ### Installer BMBF avec SideQuest
 
@@ -67,3 +67,36 @@ Si vous voulez utiliser la même méthode de téléchargement de custom songs co
 * [Guide général par Sc2ad pour apprendre les bases du modding statique](https://github.com/sc2ad/beat-saber-community-wiki/blob/master/asset-modding-guide.md) (en anglais)
 * [Collection de tous les guides actuels pour les mods statiques tels que les sabres et les notes, fait par RedBrumbler](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/RedBrumblers-Asset-Mod-Guide-Wiki) (en anglais)
 * [Corriger le problème de synchronisation audio](https://bsaber.com/quest-out-of-sync/) (en anglais)
+
+
+## Dépannage
+### Ajouter des mods depuis bsaber.com ne fonctionne pas
+La raison de pourquoi l'ajout de mods et sabres depuis [BeastSaber](https://bsaber.com/) ne fonctionne pas est que ces mods et sabres sont faits par le PC seulement. Pour ajouter des mods et sabres pour le Quest, utilisez l'interface web BMBF. [Comment accéder à l'interface web BMBF](#installer-les-mods-depuis-votre-PC)
+
+Récupérez les sabres et mods compatibles Quest dans `#quest-mods`, `#quest-assets` sur le Discord Beat Saber Modding Group, ou sur le [Github de RedBrumbler](https://github.com/RedBrumbler/BMBFCustomSabers), et utilisez les `.zip` téléchargés pour les installer dans l'interface web BMBF.
+___
+### L'interface web BMBF ne charge pas
+Si votre interface web BMBF ne charge pas, assurez-vous de bien saisir l'IP de l'onget Tools dans votre navigateur, qui est sur le même réseau.
+Vérifiez que :
+1) Votre IP n'est pas `127.0.0.1`
+2) BMBF n'est pas ouvert dans le casque
+3) Il y a bien `http://` au début du lien, pas `https://`
+4) Vous avez bien `:50000` à la fin du lien
+___
+### BMBF ne charge pas la configuration après quelques minutes
+C'est généralement dû à l'utilisation d'une version obsolète de Beat Saber utilisée avec BMBF.
+Si vous n'utilisez pas une version obsolète essayez de redémarrer votre casque et, si cela continue, cliquez sur Quick Fix dans l'interface web BMBF.
+___
+### Mes sabres et mods ne s'active pas / ne fonctionne pas !
+C'est généralement dû à un client BMBF obsolète, récupérez la [dernière version de BMBF](https://bmbf.dev/stable). Si la version de BMBF pour votre Beat Saber n'y est pas, merci de patienter le temps que les Unicorns mettent à jour BMBF.
+* Si votre mod est normalement compatible avec votre version de BMBF, assurez-vous qu'il n'y a pas de dossier séparant le contenu du fichier `.zip`.
+* Si votre niveau ne charge pas, essayez d'installer Mapping Extensions depuis `#quest-mods`
+* Si votre BMBF est à la dernière version et les mods ne s'activent pas en jeu, désinstallez Beat Saber avec le bouton Uninstall BS dans l'onglet Tools de BMBF, puis réinstallez-le et moddez-le encore.
+___
+### Mon Beat Saber affiche 3 points quand je le lance !
+Si votre Beat Saber affiche 3 points quand il est lancé, assurez-vous que :
+1) Vous avez lancé et joué une chanson avant de modder le jeu
+2) Vous n'utilisez pas une version piratée du jeu
+3) Vous utilisez la dernière version de BMBF
+
+

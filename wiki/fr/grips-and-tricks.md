@@ -5,7 +5,8 @@ sidebar: auto
 _Une compilation de ressurces pour vous aider à taper les bloq_
 
 ## Méga-tutoriel pour monter dans le classement
-Un incroyable rapport de TeknozFR pour vous aider à booster vos PP : [https://bsaber.com/indepth-guide/](https://bsaber.com/indepth-guide/) (document en anglais)
+Un incroyable rapport de TeknozFR pour vous aider à booster vos PP.
+[https://bsaber.com/indepth-guide/](https://bsaber.com/indepth-guide/) (document en anglais)
 
 ## Système de points
 Regardez cette vidéo, par la chaîne [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg), expliquant comment le système de points fonctionne (vidéo en anglais).
@@ -39,25 +40,30 @@ Par exemple, si votre meilleur score est à 260 PP, vous gagnez 260 PP ajustés,
 *Cette section est adaptée du rapport de Tek du Discord Beat Saber canadien.*
 
 ::: tip
-Les musiques sont classées/déclassées par une équipe de classement dans le [discord ScoreSaber](https://discord.gg/WpuDMwU) (serveur Discord anglais).
+Les musiques sont classées/déclassées par une équipe de classement dans le [discord ScoreSaber](https://discord.gg/WpuDMwU) (serveur Discord anglophone).
 Vous pouvez suivre dans ce serveur les modifications apportées !
 :::
 
 ## Grips
-***Grips** est un anglicisme qui indique la façon dont nous tenons les contrôleurs.*
-
 Cube Community a réalisé une vidéo de démonstration de certains grips populaires pour les Oculus Touch (Oculus Rift CV1) et les Vive Wands (vidéos en anglais).
 
+### HTC Vive Wands
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
-<YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
-
-Il n'existe pas encore de vidéo pour les Index Controllers, mais vous trouverez des exemples dans leur canal textuel `#tips-and-grips` !
-[Discord Cube Community](https://discord.gg/dwe8mbC) (serveur Discord anglais)
-
-Retrouvez ci-dessous une liste d'images _**(obsolètes)**_ en guise d'exemples. Ne contactez pas Kyle1413 à propos de ces grips, il vous mangerait la main.
 
 ![Vive Grips Guide](./images/grips-and-tricks/vive-grips-guide.png "Vive Grips Guide")
+
+### Oculus Rift
+<YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
+
 ![Oculus Grips Guide](./images/grips-and-tricks/oculus-grips-guide.png "Oculus Grips Guide")
+
+### Oculus Rift S et Quest
+Il n'existe pas encore de vidéo pour les contrôleurs du Rift S et du Quest, mais vous pouvez trouver des exemples supplémentaires à l'image ci-dessous dans leur canal `#tips-and-grips` ! [CC Discord](https://discord.gg/dwe8mbC) (serveur Discord anglophone)
+![Oculus Rift S/Quest Guide](./images/grips-and-tricks/newOculusGrips.png "Oculus Rift S/Quest Guide")
+
+### Contrôleurs du Valve Index
+Il n'existe pas encore de vidéo pour les Index Controllers, mais vous trouverez des exemples dans leur canal textuel `#tips-and-grips` !
+[Discord Cube Community](https://discord.gg/dwe8mbC) (serveur Discord anglophone)
 
 ## Améliorer le suivi des Vive Controllers
 Votre corps peut obstruer la vision d'une *lighthouse* (lighthouse = l'un des deux capteurs fournis avec le HTC Vive) sur un de vos contrôleurs.
