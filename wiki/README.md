@@ -37,7 +37,7 @@ footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 
 * [BeatMods](https://beatmods.com) - Repository of mods that are reflected in installers like ModAssistant
 * [BeatSaver](https://beatsaver.com/) - Download custom songs here
 * [BeastSaber](https://bsaber.com/) - Reviews, articles, playlists, and more!
-* [ModelSaber](https://modelsaber.com/) - Download custom sabers, avatars, blocks, and platforms!
+* [ModelSaber](https://modelsaber.com/) - Download custom sabers, avatars, bloqs, and platforms!
 * [ScoreSaber](https://scoresaber.com/) - Custom leaderboards
 * [Steam Store Page](https://store.steampowered.com/app/620980/Beat_Saber/)
 * [Oculus Store Page](https://www.oculus.com/experiences/rift/1304877726278670/)
