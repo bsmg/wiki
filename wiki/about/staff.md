@@ -23,7 +23,7 @@ BSMG server owner and rhythm game fanatic. We wouldn't be here today without thi
 **Roles:** Admin, Staff, Modder  
 **Contributions:** Server Owner, Custom Sabers, PodCasts
 
-[GitHub](https://github.com/reaxt00) | [Twitch](https://twitch.tv/reaxt)
+[GitHub](https://github.com/reaxt) | [Twitch](https://twitch.tv/reaxt)
 
 ## elliotttate
 Official BSMG PR Guy. Events like the 100k Contest wouldn't have been possible without his efforts and networking skills. He also runs BeastSaber to help you find the best curated maps.
