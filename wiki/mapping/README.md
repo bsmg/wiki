@@ -201,7 +201,7 @@ Follow these steps to test any of your maps made with a community editor using a
 
 1. Zip up the song as normal, only zipping the files and not the folder itself. [How to Video](https://streamable.com/u20ci)
 2. Connect your Oculus Quest to the PC via USB and keep SideQuest open (Optionally, you can turn on Wireless mode to remove it after)
-3. BMBF must be open on the Oculus Quest for the connection to succeed
+3. Open BMBF on the Oculus Quest. BMBF must be running for the connection to succeed
 4. Look at the top of SideQuest, which will give you the IP to get into BMBF
 5. Type into any web browser: "192.168.X.XXX:50000" with X being replaced with the IP displayed in SideQuest.   
 ![](./images/quest_ip.png)  
