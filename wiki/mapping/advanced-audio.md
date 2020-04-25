@@ -111,7 +111,7 @@ There is also a video of this process [available here](https://www.youtube.com/w
 
 ::: tip
 Utilize a Click Track to make sure the tracks are in time with each other.  
-See [Audio Preparation: Adding Click Track](https://bsmg.wiki/mapping/basic-audio#add-a-click-track).
+See [Audio Preparation: Adding Click Track](/mapping/basic-audio.md#add-a-click-track).
 :::
 
 ![Zoomed syncing](https://i.imgur.com/9jyrzzv.png "Zoomed syncing")
