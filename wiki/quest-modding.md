@@ -67,7 +67,7 @@ If you want to use the same method of downloading songs as you do in BMBF in you
 
 There are two main ways to install songs from inside your Quest. You can either use BeastSaber, the default webpage BMBF loads into, or you can use BeatSaver.
 
-If you're looking for curated maps and pre-made playlists to download BeastSaber is your best bet, however if you just want a specific song, or you aren't a fan of BeastSabers UI, BeatSaver is a much better option as it's search is a lot better.
+If you're looking for curated maps and pre-made playlists to download BeastSaber is your best bet, however if you just want a specific song, or you aren't a fan of BeastSabers UI, BeatSaver is a much better option as it's search is a lot easier to use in the headset.
 
 You can switch between the two sites, and other sites including SideQuest's mod page, using the globe icon in the top right of the browser window.
 
