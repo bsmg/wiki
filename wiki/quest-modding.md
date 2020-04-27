@@ -76,7 +76,7 @@ You can switch between the two sites, and other sites including SideQuest's mod 
 * [Oculus Quest BMBF Installation Guide](https://bsaber.com/oculus-quest-custom-songs/)
 * [General Guide by Sc2ad for Learning The Basics of Asset Modding](https://github.com/sc2ad/beat-saber-community-wiki/blob/master/asset-modding-guide.md)
 * [Collection of All Current Guides for Asset Mods Such As Sabers and Notes Made by RedBrumbler](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/RedBrumblers-Asset-Mod-Guide-Wiki)
-*[Guide for Making Qsabers (PC like sabers on Quest)](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/Creating-Qsabers)
+* [Guide for Making Qsabers (PC like sabers on Quest)](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/Creating-Qsabers)
 * [Fixing Out of Sync Audio](https://bsaber.com/quest-out-of-sync/)
 
 
