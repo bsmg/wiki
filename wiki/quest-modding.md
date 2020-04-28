@@ -41,10 +41,10 @@ From there, find your newest backup folder, open it, and delete the Mods folder 
 Afterwards, go back to the menu and press the circular arrows located beside your latest backup. This is to restore your scores.
 The button is highlighted in the image [here](#installing-bmbf-with-sidequest).
 
-## Installing mods from your PC
+## Installing mods
 
 :::warning
-Make sure your quest and PC are on the same network!
+Make sure your Quest and PC are on the same network!
 :::
 
 Open BMBF in your Quest and go to the `Tools` tab, there you should see a web address and a version number similar to what's show below.
@@ -61,11 +61,32 @@ Now just drag any Quest compatible mods into the upload box and sync. If the mod
 
 If you want to use the same method of downloading songs as you do in BMBF in your Quest, just replace `upload` in the URL with `browser`.
 
+## Installing songs
+
+### Inside your Quest
+There are 2 sources to getting custom maps inside your Quest using the browser window.
+* If you are looking for curated maps and playlists visit [BeastSaber](https://bsaber.com/)
+* If you don't like the UI of BeastSaber you could also try [Beatsaver](https://beatsaver.com/)
+
+Both have a 1click button that easily installs that song onto your Quest. You can switch between these websites using the globe icon in the top right of the browser window.
+
+### Using your PC
+If you are unable to install songs inside your Quest, you can install maps using your computer similar to installing mods. 
+1. Visit [BeastSaber](https://bsaber.com/) or [Beatsaver](https://beatsaver.com/) on your computer
+2. Download the zip
+3. Follow the [Installing mods](#installing-mods) steps up to the upload files screen.
+4. Drag and drop the map zip in and it should be installed!
+
+:::tip 
+If you want to test a map you have created see the [Testing on a Quest](/mapping/#testing-on-a-quest) Section in the Mapping Wiki section for steps on packing it up for testing!
+:::
+
 ## Useful links and alternative guides
 
 * [Oculus Quest BMBF Installation Guide](https://bsaber.com/oculus-quest-custom-songs/)
 * [General Guide by Sc2ad for Learning The Basics of Asset Modding](https://github.com/sc2ad/beat-saber-community-wiki/blob/master/asset-modding-guide.md)
 * [Collection of All Current Guides for Asset Mods Such As Sabers and Notes Made by RedBrumbler](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/RedBrumblers-Asset-Mod-Guide-Wiki)
+* [Guide on creating Qsabers](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/Creating-Qsabers) - Quest specific sabers that would be compatible between game updates
 * [Fixing Out of Sync Audio](https://bsaber.com/quest-out-of-sync/)
 
 
@@ -74,6 +95,11 @@ If you want to use the same method of downloading songs as you do in BMBF in you
 The reason adding mods and sabers from [Beastsaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods-from-your-pc) 
 
 Get Quest compatible Sabers and Mods from `#quest-mods`, `#quest-assets`, or [RedBrumbler's Github](https://github.com/RedBrumbler/BMBFCustomSabers) in the Beat Saber Modding Group Discord and use the .zips you download to install them in the BMBF Web Interface.
+___
+### Sideloading BMBF failed
+When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!"`
+
+You will need to uninstall the BMBF version on your Quest. You can do this from SideQuest's `My Apps` menu.
 ___
 ### BMBF web interface not loading
 If your BMBF Web Interface is not loading be sure that you're typing the ip from the tools tab into your browser on your computer thats on the same network.
