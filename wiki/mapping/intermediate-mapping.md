@@ -82,7 +82,7 @@ Each swing a player makes leaves their arm in a new position. At hard difficulty
 
 | **Poor Positioning** | **Poor Angles** | **Good Position & Angle** |
 |:----:|:----:|:----:|
-| *Picture Here* | *Picture Here* | *Picture Here* |
+| *Picture Here Soon* | *Picture Here Soon* | *Picture Here Soon* |
 | You can see here that the arm is not ready to hid down from the position it is left in.| In order to hit the next block, the arm has to do a lot of extra motion to wind up. | Taking both into consideration, you are left with a smooth motion. |
 
 * Each block has a limited selection of following blocks that feel good to play. 
@@ -98,7 +98,9 @@ Sorted by how awkward they are for the right hand, left being the most awkward a
 If you have to make either a double backhand/forehand or one of the awkward backhands/forehands, the result is a DD or a triangle pattern.
 
 ### Suggested vs. Required Motion
-When mapping unusual patterns that break typical conventions for flow, extra motion is suggested to make the pattern work. An example is a scoop, *Picture Here*. In order to hit the up note following the side note, the arm must take a longer scooping path to be in position. This motion is suggested, where an extra note block down would require the motion instead.
+When mapping unusual patterns that break typical conventions for flow, extra motion is suggested to make the pattern work.   
+An example is a scoop: ![Scoop](../mapping/images/scoop.png)  
+In order to hit the up note following the side note, the arm must take a longer scooping path to be in position. This motion is suggested, where an extra note block down would require the motion instead.
 
 Suggested motion is risky due to the fact that players will read and react to patterns differently than intended. One player may hit a scoop as intended, but another player may recoil and flinch given the pattern and have a negative experience from the pattern. This problem can never be entirely avoided when suggesting motion rather than requiring. Clever use of bombs, walls, or crossovers can help suggest more strongly the intended motion, but must be used with care to avoid vision, tangle, or flow issues.
 
@@ -126,24 +128,27 @@ Walls are a versatile tool in maps that are often overlooked. They provide the m
 ### Moving the Player with Walls
 Walls are a way to encourage the player to move left, right, down, or a combination of the three while playing. They are extremely powerful at doing this since players cannot touch them for too long.
 
-* Left and right movement should feel natural and never be forced
-    * The note pattern should already encourage the player to move in that direction.
-    * There should be enough space between walls if using left/right back to back.
-      * Often 1 beat between the end of one and the start of next is enough. Though depending on the BPM more space is required.
-    * Groove Walls are a situational exception to this but, are hard to execute correctly.
-* Down movement (crouch walls) is trickier as it is easier to do more harm than good
-    * Most players dislike crouch walls, be very selective when using them
-      * Crouch walls should be avoided when the spawn distance is very short and NJS is high as they make even fully telegraphed crouch walls too fast to react to.
-    * Keep them short, there’s rarely a good reason to have them longer than 1-2 beats
-    * If you are ending a crouch wall with notes just after, be extremely careful with what direction you start (up/down)
-      * Starting down too quickly is uncomfortable and almost always unnecessary. 
-      * Starting up too late is also awkward
-    * It is easy to justify a crouch wall if the lyrics in a song say “down”, “under”, or any other reference to a downward motion
-    * Side notes are more natural to hit while under a crouch wall than up/down notes
-    * It is better to have a crouch wall end early than late as it plays better for any player in general. Especially those who have physical trouble crouching for too long. 
-        * If your crouch wall is longer than 1 beat, shorten it by 0.5
-        * If less than 1 beat and greater than 0.5, shorten by 0.25
-        * Otherwise, leave it
+#### Dodge Walls
+Left and right movement should feel natural and never be forced
+  * The note pattern should already encourage the player to move in that direction.
+  * There should be enough space between walls if using left/right back to back.
+    * Often 1 beat between the end of one and the start of next is enough. Though depending on the BPM more space is required.
+  * Groove Walls are a situational exception to this but, are hard to execute correctly.
+
+#### Crouch Walls
+Down movement is trickier as it is easier to do more harm than good
+  * Most players dislike crouch walls, be very selective when using them
+    * Crouch walls should be avoided when the spawn distance is very short and NJS is high as they make even fully telegraphed crouch walls too fast to react to.
+  * Keep them short, there’s rarely a good reason to have them longer than 1-2 beats
+  * If you are ending a crouch wall with notes just after, be extremely careful with what direction you start (up/down)
+    * Starting down too quickly is uncomfortable and almost always unnecessary. 
+    * Starting up too late is also awkward
+  * It is easy to justify a crouch wall if the lyrics in a song say “down”, “under”, or any other reference to a downward motion
+  * Side notes are more natural to hit while under a crouch wall than up/down notes
+  * It is better to have a crouch wall end early than late as it plays better for any player in general. Especially those who have physical trouble crouching for too long. 
+      * If your crouch wall is longer than 1 beat, shorten it by 0.5
+      * If less than 1 beat and greater than 0.5, shorten by 0.25
+      * Otherwise, leave it
 
 ### Aesthetic Walls
 These walls are one option for adding a visual element to the map close to the player. They narrow down the field to a smaller region, making notes feel closer together and faster approaching. They can also be used to represent sounds not mapped by notes, or even used to flesh out quiet/slow/vocal drifting sections. 
