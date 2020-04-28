@@ -19,7 +19,7 @@ This is a stub page, content is a work in progress! Ask in `#mapping-discussion`
 ## Rule Breaking
 Rules are made to be broken. However, they must be thoroughly understood before you can break rules and some have virtually no cases where breaking them is preferred. With experience and [outside](../mapping/#community-third-party-testing) feedback, there is always value to exploring the full design space of beat saber mapping and pushing the limits of the rules.  
 
-Outside feedback is **critical** as the mapper! You know the rhythm and patterns better than any other person and will be ready to perform the motion before the notes ever show up. By getting [third party feedback](../mapping/#community-third-party-testing) on broken rules, such as in the BSMG `#testplay` channel, you can have confidence in your unique patterns and in your map.
+Outside feedback is **critical** as the mapper! You know the rhythm and patterns better than any other person and will be ready to perform the motion before the notes ever show up. By getting [third party feedback](../mapping/#community-third-party-testing) on broken rules, such as in the BSMG `#testplays` channel, you can have confidence in your unique patterns and in your map.
 
 ## Consistency & Variety
 Representing music via consistent note placement when there are similarities in the music and varying mapping when there changes in music are core techniques of intermediate mapping.
