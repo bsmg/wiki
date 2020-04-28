@@ -6,8 +6,6 @@ next: false
 # Extended Mapping
 _Now that you know the rules, it’s time to break them_
 
-Many thanks to contributors from across the mapping community who made this expanded wiki possible!
-
 * [Glossary of Terms](./glossary.html)
 
 This page covers anything and everything that goes beyond standard 4 x 3 grid mapping, including map styles that require additional mods before the player can play and characteristics outside of the “vanilla” ones covered in Intermediate Mapping.
@@ -50,18 +48,16 @@ Here you will need to “trick” Mediocre Map Assistant 2 that your folder is a
 Option 1:
 1. Download this zip for pre-formatted folders and Mapping Extensions Plugin [here](https://drive.google.com/file/d/18MVVZu9jGNY7trf8UuA-4DUZmNdMPsDM/view?usp=sharing).
 2. Extract the zip to a location of your choice.
-3. Enter the path to the CustomLevels and CustomWIPLevels folder when Mediocre Mapper asks for the location. 
-> The path can also be modified in the Settings Bar when you open the program.  
-The settings are located near the bottom of the bar.
+3. Enter the path to the CustomLevels and CustomWIPLevels folder near the bottom of the Settings Bar.
+    * Example Path: `C:\Users\bsmg\Documents\Beat Saber\Beat Saber_Data\CustomWIPLevels`
 4. You are now ready to do [map setup!](#map-setup-in-mediocre-map-assistant-2)
 
 Option 2:
 1. Create a folder named `Beat Saber` in the location you want to store your maps.
 2. In that folder, create two folders, `Beat Saber_Data` and `Plugins`.
 3. In `Beat Saber_Data` create a `CustomWIPLevels` and `CustomLevels` folder.
-4. Enter the path to the CustomLevels and CustomWIPLevels folder when Mediocre Mapper asks for the location. 
-> The path can also be modified in the Settings Bar when you open the program.  
-The settings are located near the bottom of the bar.
+4. Enter the path to the CustomLevels and CustomWIPLevels folder near the bottom of the Settings Bar.
+    * Example Path: `C:\Users\bsmg\Documents\Beat Saber\Beat Saber_Data\CustomWIPLevels`
 5. If you have maps already, go ahead and move your maps to `CustomWIPLevels` you just created.
 6. Go to the `Plugins` folder you made, and drop the latest `MappingExtensions.dll` inside which can be found on [BeatMods](https://beatmods.com/).
 7. You are now ready to do [map setup!](#map-setup-in-mediocre-map-assistant-2)
