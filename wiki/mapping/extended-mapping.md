@@ -144,6 +144,15 @@ Walls that zoom by the player are called Fast and Hyper walls. They are created 
 Too many walls will create heavy lag. Especially for players that do not have powerful computers. Test frequently and try to keep the wall-count down to keep your experience accessible for most players.
 :::
 
+### Testing your map
+While you could playtest your map ingame every time you make changes, this will be unpractically in the long run.
+Luckily there are some mods to help you out.
+
+- [FPFCToggle](https://github.com/DeadlyKitten/FPFCToggle) - lets you fly around the map without vr
+- [MusicEscape](https://github.com/DeadlyKitten/MusicEscape) - lets you quit to menu and pause-menu with your keyboard
+- [ReLoader](https://github.com/Kylemc1413/ReLoader) - hot reloads the map from the pause menu
+- [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) - change Song time, playback speed and more from the pause manu
+
 ## Extended Characteristics
 These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `info.dat` file.
 
