@@ -150,7 +150,7 @@ Luckily there are some mods to help you out.
 
 - [FPFCToggle](https://github.com/DeadlyKitten/FPFCToggle) - lets you fly around the map without vr
 - [MusicEscape](https://github.com/DeadlyKitten/MusicEscape) - lets you quit to menu and pause-menu with your keyboard
-- [ReLoader](https://github.com/Kylemc1413/ReLoader) - hot reloads the map from the pause menu
+- [ReLoader](https://github.com/Kylemc1413/ReLoader) - hot reloads the map 
 - [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) - change Song time, playback speed and more from the pause manu
 
 ## Extended Characteristics
