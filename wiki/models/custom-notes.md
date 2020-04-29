@@ -1,4 +1,3 @@
 # Custom Notes
-::: danger STUB
-This page is a stub, and is not complete yet.
-:::
+## Installation
+The latest Custom Notes plugin can be found in [Mod Assistant](https://github.com/Assistant/ModAssistant/releases/latest).
