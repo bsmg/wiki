@@ -114,7 +114,7 @@ A suite of tools for mappers **using new format .dat files** that includes:
   * **Offset Remover:** Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error
   * **Note Sorter:** Sorts unordered notes/obstacles/events in the map file to fix stack spawning  
 * [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
-A convienient way to checkout how your map might look in game without the game. 
+A convenient way to checkout how your map might look in game without the game. 
   * IOS and Safari are currently not supported
 * [Cinder](https://github.com/zhaey/cinder#readme) by **zhaey**  
 Python program that converts stepmania `.sm` files to Beat Saber `.dat` files for timing notes.

@@ -118,6 +118,8 @@ Un outil pratique pour vérifier à quoi peut ressembler votre map sans passer p
   * IOS et Safari ne sont pas supportés pour l'instant
 * [Cinder](https://github.com/zhaey/cinder#readme) de **zhaey**
 Un programme python qui convertit les fichiers stepmania `.sm` en fichier Beat Saber `.dat`pour le timing des notes.
+* [noodleLister](https://github.com/bloodcloak/noodleLister#readme) de **Bloodcloak**  
+Compile une playlist une playlist du jeu à partir d'un fichier txt contenant des entrées de Beatsaver.
 * [BPM Saber](https://bsaber.com/bpmsaber/) de **Elliotttate**
 Un outil pour trouver le BPM d'une musique en la mettant en ligne ou en la recherchant.
 * [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t=) de **Fayhe**
@@ -133,9 +135,9 @@ Un guide (en anglais) pour savoir utiliser la fonction "timing" de l'éditeur d'
 
 Il n'y a pas de Bible de la création de map mais cette section du wiki contient beaucoup de connaissances venant de la communauté et pour tous les niveaux de mapping. Nous vous conseillons de suivre les règles jusqu'à ce que vous développiez vos talents de mapper, vous pourrez ensuite être créatif, faire des expérimentations et innover !
 
-* [**Basic Mapping**](/fr/mapping/basic-mapping.html) - Tous les mappers débutants doivent lire ceci, **sans exception !**
-* **Intermediate Mapping** - Un regard plus approfondi sur de nombreux de thèmes concernant le mapping (arrive bientôt... si vous voulez plus d'info, demandez dans #mapping-discussion !)
-* [**Extended Mapping**](/fr/mapping/extended-mapping.html) - Des extensions pour le mapping, des caractéristiques supplémentaires et le mapping à 90&deg;/360&deg;
+* [**Basic Mapping**](/fr/mapping/basic-mapping.md) - Tous les mappers débutants doivent lire ceci, **sans exception !**
+* [**Intermediate Mapping**](/fr/mapping/intermediate-mapping.md) - Un regard plus approfondi sur de nombreux de thèmes concernant le mapping **(cette page est encore en cours de construction !)**
+* [**Extended Mapping**](/fr/mapping/extended-mapping.md) - Des extensions pour le mapping, des caractéristiques supplémentaires et le mapping à 90&deg;/360&deg;
 
 ### Le rôle Mapper
 Pour candidater pour le rôle de **Mapper** sur le [Discord Beat Saber Modding Group](https://discord.gg/beatsabermods) vous devez avoir mis en ligne trois maps considérées comme jouables (les collaborations sont acceptées) et vous devez aussi compléter le [formulaire pour le rôle de Mapper](https://docs.google.com/forms/d/e/1FAIpQLSdtl2bmP4T5GwAMEUIGFt5xSb2KMCAkfPuVrcOMgCSmZMw3cg/viewform). Votre candidature et vos maps peuvent prendre un certain temps avant d'être vérifiées et validées.
@@ -167,11 +169,11 @@ Ci-dessous se trouvent des ressources concernant l'éclairage le temps que nous 
 ### Éclairage automatique
 Vous n'êtes pas prêt à faire votre propre éclairage ? Vous trouverez ici des programmes qui le feront pour vous. Gardez à l'esprit que créer des éclairages basiques par vous même n'est pas compliqué et ils seront toujours meilleur pour exprimer l'ambiance de votre musique.
 
-* [Lolighter](https://discordapp.com/channels/441805394323439646/442372806705938434/683052261294997541) de **Loloppe#6435** - Programme autonome disponible dans le channel `#other-files` du discord BSMG.
+* [Lolighter](https://github.com/Loloppe/Lolighter#readme) de **Loloppe#6435** - Programme autonome pour l'éclairage automatique et dispose d'autres fonctionnalités pour modifier vos maps.
 * **Lightmap** - Logiciel intégré dans Mediocre Map Assistant 2 auquel vous pouvez accéder depuis le menu du vérificateur d'erreur.
 
 ## Test en jeu
-Tester votre travail est une partie **primordiale** de la création de map. Faire des tests pendant que vous travaillez vous aidera à enlever la majorité des problèmes et vous permettra de vous faire une idée de votre map. Le test par un tiers est lorsque une personne teste une version non définitive de votre map. Ils pourront vous donner des retours constructifs et vous aideront à repérer des erreurs pour vous ne pourriez pas voir seul.
+Tester votre travail est une partie **primordiale** de la création de map. Faire des tests pendant que vous travaillez vous aidera à enlever la majorité des problèmes et vous permettra de vous faire une idée de votre map. [Le test par un tiers](#test-par-la-communaute-un-tiers) est lorsque une personne teste une version non définitive de votre map. Ils pourront vous donner des retours constructifs et vous aideront à repérer des erreurs pour vous ne pourriez pas voir seul.
 
 ::: warning ATENTTION
 Vous **N'AVEZ PAS** besoin de mettre en ligne votre map sur Beat Saver pour que vous ou qui que ce soit d'autre test votre map.
@@ -199,7 +201,7 @@ Suivez ces étapes pour tester n'importe quelle map faites avec un éditeur comm
 
 1. Compressez votre fichier normalement, compressez uniquement le fichier et non le dossier en lui-même. [Guide vidéo](https://streamable.com/u20ci)
 2. Connectez votre Oculus Quest à votre PC via USB et gardez SideQuest ouvert (Optionnellement, vous pouvez le mettre en mode sans fil pour pouvoir le retirer plus tard).
-3. BMBF doit être ouvert pour que la connection avec l'Oculus Quest fonctionne.
+3. Ouvrez BMBF. BMBF doit être lancé pour que la connexion avec l'Oculus Quest fonctionne.
 4. Regardez en haut de SideQuest pour trouvez l'IP que vous devrez rentrer dans BMBF.
 5. Écrivez dans n'importe quel navigateur: "192.168.X.XXX:50000" en remplaçant les X avec l'IP affichée sur SideQuest.
 ![](./images/quest_ip.png)  
@@ -209,8 +211,9 @@ En prenant l'image comme exemple, vous devriez entrer `192.168.0.19:50000` dans 
 ![](./images/bmbf_browser.png)
 8. Accédez à vos maps en jeu via la catégorie CustomWIPLevels en bas dans le menu des musiques. Utilisez le mode entrainement pour jouer (le petit bouton à côté du bouton play jaune).
 
-::: tip ASTUCE
-Si, après avoir supprimé une ancienne version d'une map et l'avoir remplacé par une nouvelle, c'est l'ancienne version qui est joué il vous faudra renommer le fichier zip avant de le mettre en ligne avec BMBF.
+::: tip Notes
+* Si, après avoir supprimé une ancienne version d'une map et l'avoir remplacé par une nouvelle, c'est l'ancienne version qui est joué il vous faudra renommer le fichier zip avant de le mettre en ligne avec BMBF.
+* BMBF peut avoir des problèmes à l'import de votre map si le nom de votre fichier audio ou de votre image de couverture contient un `-` ou des espaces. Vous pourriez avoir à renommer ces fichiers et mettre à jour la musique conformément pour un envoi réussi.
 :::
 
 ### Test par la communauté / un tiers
@@ -247,13 +250,14 @@ Une fois que votre map a été créée, éclairée, testée et qu'elle est finie
 ### BeatSaver
 [BeatSaver](https://beatsaver.com/) est un site contenant toutes les Custom Songs. Les maps doivent être au format 2.0 (fichier en .dat et .ogg/.egg/.wav) pour pouvoir être publiées.
 
-::: danger AVERTISSEMENT
-**NE METTEZ PAS** en ligne des maps WIP incomplètes sur BeatSaver !
-Mettre en ligne sur BeatSaver équivaut à mettre dans la vitrine du magasin. Vous ne devez donc publier que vos versions finales !
-Allez voir la section [Test en jeu](/fr/mapping/#test-en-jeu) pour plus d'informations concernant le test de vos maps.
-:::
-
 #### Comment mettre en ligne une map
+
+::: danger AVERTISSEMENT
+* **NE METTEZ PAS** en ligne des maps WIP incomplètes sur BeatSaver !
+  * Mettre en ligne sur BeatSaver équivaut à mettre dans la vitrine du magasin. Vous ne devez donc publier que vos versions finales !
+  * Allez voir la section [Test en jeu](/fr/mapping/#test-en-jeu) pour plus d'informations concernant le test de vos maps.
+* **NE METTEZ PAS** en ligne des maps créées par des outils de génération automatique tels que Deepsaber ou Beat Sage. Merci d'utiliser leurs canaux de partage sur Discord pour partager des maps générées !
+:::
 
 1. [Créez un compte](https://beatsaver.com/auth/register) sur BeatSaver.
     - Si vous ne recevez pas d'email de vérification, remplissez ce [formulaire de contact](https://docs.google.com/forms/d/e/1FAIpQLSd5ty13fOWO5BjFHTE66DjKBGxX50XZcIvmrW5Mzh0_tJx1GA/viewform?usp=send_form)
@@ -264,7 +268,7 @@ Allez voir la section [Test en jeu](/fr/mapping/#test-en-jeu) pour plus d'inform
     - Mettre un lien vers une vidéo de votre map dans la description peut aider à avoir plus de téléchargement car votre map sera plus facile à partager et les joueurs sauront à quoi s'attendre.
 4. Ajoutez votre fichier .zip et cliquez sur le bouton <kbd>Upload</kbd>.
 
-::: warning ATTENTION
+::: warning NOTE
 Pour l'instant, les fichiers de maps ne peuvent pas être modifiés sur BeatSaver. Si vous avez besoin de mettre en ligne une nouvelle version, il vous faudra supprimer l'ancienne et la mettre ne ligne à nouveau.
 :::
 
@@ -272,7 +276,10 @@ Pour l'instant, les fichiers de maps ne peuvent pas être modifiés sur BeatSave
 Vous trouverez ici des solutions pour certaines erreurs fréquemment rencontré quand vous mettez des map en ligne.
 Vous avez rencontré une erreur qui n'est pas répertoriée ? Parlez-en dans le channel `#mapping-discussion` pour obtenir de l'aide.
 
-**Rappelez-vous**: vos maps doivent être [testées](/fr/mapping/#test-en-jeu) avant d'être mises en ligne !
+:::warning N'oubliez pas
+* Vos maps doivent être [testées](/fr/mapping/#test-en-jeu) avant d'être mises en ligne !
+* **NE METTEZ PAS** en ligne des maps créées par des outils de génération automatique tels que Deepsaber ou Beat Sage. Merci d'utiliser leurs canaux de partage sur Discord pour partager des maps générées !
+:::
 ___
 
 **Something went wrong! Try again later.**
