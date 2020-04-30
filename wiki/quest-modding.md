@@ -92,7 +92,7 @@ If you want to test a map you have created see the [Testing on a Quest](/mapping
 
 ## Troubleshooting
 ### Adding mods from the headset/bsaber.com doesn't work
-The reason adding mods and sabers from [Beastsaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods-from-your-pc) 
+The reason adding mods and sabers from [Beastsaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods) 
 
 Get Quest compatible Sabers and Mods from `#quest-mods`, `#quest-assets`, or [RedBrumbler's Github](https://github.com/RedBrumbler/BMBFCustomSabers) in the Beat Saber Modding Group Discord and use the .zips you download to install them in the BMBF Web Interface.
 ___
