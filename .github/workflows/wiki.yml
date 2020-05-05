@@ -7,6 +7,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build Docker Image
+      env:
+        DOCKER_BUILDKIT: '1'
       run: |
         DOCKER_REPO=`echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]'`;
         DOCKER_TAG=`git rev-parse --short HEAD`;
