@@ -132,11 +132,12 @@ When choosing color overrides for the notes. It is **HIGHLY** recommended that y
 1. Decide what RGB colors you want notes and/or lights and/or walls to be. Use a color scheme utility like [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF) to find complimentary colors.
 	* Your red, green, and blue values will need to be converted from the normal 0-255 scale to the 0-1 scale. Use a site like [EasyRGB](https://www.easyrgb.com/en/convert.php) to convert your values.
 2. Open your `info.dat` file in the text editor of your choice
-2. Scroll down to the `"_customData": {` section.
-3. Paste whichever code blocks below correspond to the colors you want to force within the `_customData` curly brackets (`{` and `}`) then replace the `"r":`, `"g":`, and `"b":` values with whatever you chose in Step 1.
+3. Scroll down to the `"_customData": {` section of the difficuty you want to color.
+    * Using the global `"_customData": {` outside of the `"_difficultyBeatmapSets": [` array may not work as expected.
+4. Paste whichever code blocks below correspond to the colors you want to force within the `_customData` curly brackets (`{` and `}`) then replace the `"r":`, `"g":`, and `"b":` values with whatever you chose in Step 1.
 	* The `"r":` and `"g":` values **must** have commas after them.
 
-See lines 17-41 of this [Pastebin clip](https://pastebin.com/x9zEiHxR) for an example of these code blocks in action in a `.DAT` file.
+See lines 29-60 and 69-100 of this [Pastebin clip](https://pastebin.com/x9zEiHxR) for an example of these code blocks in action in a `.DAT` file.
 
 ::: danger WARNING for MMA2 Users
 If you choose to manualy add color overrides to your map this must be the **LAST** thing you do before releasing.  
