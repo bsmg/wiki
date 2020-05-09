@@ -12,7 +12,9 @@ This page provides both new and experienced mappers with general recommendations
 
 ## Audio Setup Quick Start
 ::: warning
-Steps 1-5 **MUST** be completed before you start mapping or your audio will be out of sync and may have a [*hot start*](./glossary.html#h).
+* Steps 1-5 **MUST** be completed before you start mapping or your audio will be out of sync and may have a [*hot start*](./glossary.html#h).
+
+* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by the game! Processing and exporting from [Audacity](https://www.audacityteam.org/) is the easiest way to ensure your audio file works as expected.
 :::
 1. Download and Install [Audacity](https://www.audacityteam.org/)
 2. [Find the BPM](./basic-audio.html#finding-the-bpm) and offset of your song
@@ -299,7 +301,8 @@ We now have our finished audio that you will use and hear in the editor and the 
 
 To generate a compatible sound file to use we need to do the following:
 1. Delete the Click Track (if you haven’t already done so).
-2. Click the `File menu -> Export -> Export as OGG.`
+2. Click the `File menu -> Export -> Export as OGG.`  
+![Export As Ogg Location](./images/audacity-export.png)
 3. Name your file `song.ogg`.
 4. Choose an appropriate OGG quality ([more info here](/mapping/advanced-audio.html#choosing-appropriate-ogg-export-quality)):  
 ![Export Quality Slider](./images/export-quality.png)

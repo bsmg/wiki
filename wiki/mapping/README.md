@@ -24,16 +24,17 @@ You can also visit `#mapping-discussion` on the [Beat Saber Modding Group Discor
 7. Once your song has been mapped, lighted, and playtested you’re ready to [release](/mapping/#publishing-songs) your song to the world on Beat Saver.
 
 ### Video Tutorials
-Text guides aren't your thing? Checkout these video series!
-:::tip Remember: 
-The text guides on this wiki are more up to date as it is easier and quicker to change.
-:::
-* [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) ***Recommended Series**
-* [Freeek's Mapping and Editor Tutorials](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
-::: warning
-Benny and Freeek use older editors in their tutorials (Mediocre Mapper and EditSaber). The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
-:::
+Text guides aren't your thing? Checkout these video series!  
+**Remember:** The text guides on this wiki are more up to date as it is easier and quicker to change.
 
+* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) **Recommended Series**
+
+#### Legacy Video Series
+::: warning
+These series use older editors in their tutorials (Mediocre Mapper and EditSaber). The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
+:::
+* [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) 
+* [Freeek's Mapping and Editor Tutorials](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
 
 ## Audio Editing Resources
 Before mapping, you need to get your audio file ready so that it works with your map editor. This section will walk you through how to set up and edit your audio file using a free program called [Audacity](https://www.audacityteam.org/).
@@ -120,6 +121,8 @@ A convenient way to checkout how your map might look in game without the game.
 Python program that converts stepmania `.sm` files to Beat Saber `.dat` files for timing notes.
 * [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
 Easily compile a game playlist from a txt file containing Beatsaver map keys.
+* [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) by **DarkGrisen**  
+Ever thought that it is a lot of annoying work to make big maps with other people or  to perfectly cut the audio files so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map. 
 * [BPM Saber](https://bsaber.com/bpmsaber/) by **Elliotttate**  
 A utility for finding the BPM of a song by upload or tapping.
 * [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
@@ -191,9 +194,10 @@ Follow these steps to test any of your maps made with a community editor using P
 **Made changes to your map while the game is open?**  
 Click on the game window. Then while you are on the Main Menu or Song Select Menu press <kbd>Ctrl + r</kbd> on your keyboard. Your changes will be loaded without needing to restart the game!
 
-::: warning NOTE
+:::tip NOTE
 * You will need to have the **SongCore** mod installed in order to see the CustomWIPLevels category and use the <kbd>Ctrl + r</kbd> shortcut.
 * Having duplicate map files in `CustomLevels` and `CustomWIPLevels` can cause problems.
+* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by the game! Using Audacity and following the steps in [Basic Audio Setup](./mapping/basic-audio.md) is the easiest way to ensure your map loads in-game.
 :::  
 
 ### Testing on a Quest
@@ -211,9 +215,10 @@ For example, from the picture you would enter `192.168.0.19:50000` into a web br
 ![](./images/bmbf_browser.png)
 8. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
 
-:::tip Notes
+:::tip NOTE
 * If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through BMBF.
 * BMBF may have issues importing your map if your song file or cover image name contains `-` or spaces. You may need to rename these files and update the song info accordingly for a successful upload.
+* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by BMBF! Using Audacity and following the steps in [Basic Audio Setup](./mapping/basic-audio.md) is the easiest way to ensure your map loads in-game.
 :::
 
 ### Community / Third Party Testing
@@ -312,6 +317,9 @@ ___
 ___
 **Beatmap could not be parsed!**  
   * This could be caused by extreme server load. Try again later or ask in `#mapping-discussion`.  
+___
+**Field `._customData._contributors[]._iconPath` contains an invalid filename.**  
+* Utilizing the contributors field requires all aspects to be included. Make sure all 3 aspects (Role, Name, iconPath) are filled and there is a unique square image for each iconPath entry in your zip. 
 ___
 
 #### BeatSaver Data Schema Change - October 27, 2019
