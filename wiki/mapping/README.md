@@ -27,7 +27,8 @@ You can also visit `#mapping-discussion` on the [Beat Saber Modding Group Discor
 Text guides aren't your thing? Checkout these video series!  
 **Remember:** The text guides on this wiki are more up to date as it is easier and quicker to change.
 
-* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) **Recommended Series**
+#### Recommended Series
+* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm)
 
 #### Legacy Video Series
 ::: warning
