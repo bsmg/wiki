@@ -320,7 +320,7 @@ Deleting the Appdata folder will also delete your local scores and statistics.
 
 ## 5. Still having issues
 If this page doesn't cover the bases, then feel free to ask a question in the discord! To increase the chance that you'll have your questions answered, consider the following:
-* Use the correct channels please, `#pc-mod-support` for pc mod support and `#quest-mod-help` for quest mod support. Use  `#pc-modeling` and `#quest-asset-dev` for questions about **making your own avatars, platforms, notes, or sabers**, and `#mapping-discussion` for questions about **making maps.**
+* Use the correct channels please, `#pc-help` for pc mod support and `#quest-help` for quest mod support. Use  `#pc-modeling` and `#quest-asset-dev` for questions about **making your own avatars, platforms, notes, or sabers**, and `#mapping-discussion` for questions about **making maps.**
 * Be polite and respectful
 * Describe your problem in detail. "It didn't work" is about as descriptive as telling your doctor you don't feel well. What's not working, and what did you try? Are there any messages that come up on screen? Did your entire screen turn bright purple? 
 
