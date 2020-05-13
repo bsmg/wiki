@@ -20,7 +20,7 @@ Artiste 3D et moddeur sur Quest. Je supporte la communauté VR comme je le peux 
 **Rôles :** Artiste 3D
 
 ## laugexd
-Développeur de ModelSaber 2.0 et créateur de nombreux sabres, et blocs.
+Développeur de ModelSaber 2.0 et créateur de nombreux sabres et blocs.
 
 **Rôles :** Artiste 3D
 

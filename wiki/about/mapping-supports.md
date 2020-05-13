@@ -14,7 +14,7 @@ A furry on Mondays and Wednesdays, makes awesome maps with various gimmicks push
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8543ac) | [BeastSaber](https://bsaber.com/members/cyansnow/)
 
 ## fruhead
-A mapper who focuses on creating accessible low expert+ and below maps. Originally got into mapping in order to add some more rock and metal maps to compete with the weeb and nightcore maps, only to end up making more weeb and nightcore maps. Tests maps on occasion, though has PTSD from 1999 and official editor. Creator of the Beginner's Guide to Mapping tutorial series. (Soon ™)  
+A mapper who focuses on creating accessible low expert+ and below maps. Originally got into mapping in order to add some more rock and metal maps to compete with the weeb and nightcore maps, only to end up making more weeb and nightcore maps. Tests maps on occasion, though has PTSD from 1999 and official editor. Creator of the [Beginner's Guide to Mapping tutorial series](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm).  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c852683) | [BeastSaber](https://bsaber.com/members/fruhead/)
 
 ## Helen Carnate

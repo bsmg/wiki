@@ -20,7 +20,7 @@ As you can read I make sabers for quest, but generally I've been active in the a
 **Roles:** 3D Artist
 
 ## laugexd
-Developer of ModelSaber 2.0 and crafter of many sabers, and bloqs.
+Developer of ModelSaber 2.0 and crafter of many sabers and bloqs.
 
 **Roles:** 3D Artist
 
