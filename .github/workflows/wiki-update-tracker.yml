@@ -32,7 +32,7 @@ jobs:
 
       - name: Check original pages status and update issues
         if: env.ENABLE == '1ENABLED'
-        uses: Awagi/wiki-update-tracker@v1.5
+        uses: Awagi/wiki-update-tracker@v1.6
         with:
           repo-path: $GITHUB_WORKSPACE
           original-path: "wiki"
@@ -42,5 +42,6 @@ jobs:
           bot-label: "BOT"
           token: ${{ steps.get_token.outputs.app_token }}
           log-level: "DEBUG"
+          auto-create: "1"
     env:
         ENABLE: ${{ secrets.ENABLE_WUT }}
