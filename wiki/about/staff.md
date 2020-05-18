@@ -58,7 +58,7 @@ ScoreSaber Supreme Leader, creator of the custom leaderboards/rank system. Alway
 [Twitch](https://www.twitch.tv/umbranoxius) | [Twitter](https://twitter.com/Umbranoxus) | [Patreon](https://www.patreon.com/scoresaber)
 
 ## OrangeW
-The first professional Beat Saber player, representing Team Gravity. Admin of the ScoreSaber global leaderboards.
+The first professional Beat Saber player, representing Team Gravity. Former Admin of the ScoreSaber global leaderboards.
 
 **Roles:** Staff  
 **Contributions:** ScoreSaber
