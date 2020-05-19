@@ -12,7 +12,9 @@ This page provides both new and experienced mappers with general recommendations
 
 ## Audio Setup Quick Start
 ::: warning
-Steps 1-5 **MUST** be completed before you start mapping or your audio will be out of sync and may have a [*hot start*](./glossary.html#h).
+* Steps 1-5 **MUST** be completed before you start mapping or your audio will be out of sync and may have a [*hot start*](./glossary.html#h).
+
+* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by the game! Processing and exporting from [Audacity](https://www.audacityteam.org/) is the easiest way to ensure your audio file works as expected.
 :::
 1. Download and Install [Audacity](https://www.audacityteam.org/)
 2. [Find the BPM](./basic-audio.html#finding-the-bpm) and offset of your song
@@ -154,28 +156,47 @@ After syncing the song to the beat manually or by using tool assisted sync (e.g.
 #### After manual sync:
 If the waveform/audio clip has a gap to the timeline start (0,0 seconds) you will need to add silence to the audio, or else Audacity will export from the start of the audio clip and you will lose any sync you've done. Do the following to add silence:
 1. Switch to the Selection Tool (![Selection Tool](./images/selection.png)).
-2. Select the empty space between the audio clip and the start of the track (Yellow vertical lines will indicate the start and end edges when you make a selection).
-3. Click `Generate menu – > Silence…`
+2. Select the empty space between the audio clip and the start of the track (Yellow vertical lines will indicate the start and end edges when you make a selection).  
+![Adding silence with Audacity](./images/add_silence.png)
+3. Click `Generate menu – > Silence…`  
+![Generate Silence...](./images/audacity-generate_silence.png)
 4. The right amount of silence should already be input automagically so just hit OK.
 5. Done.
-![Adding silence with Audacity](./images/add_silence.png)
+
 
 After generating the silence you can click the dark line in the song track to get rid of the cut.
 
 #### After tool assisted sync:
-If you've used Arrow Vortex or other tool assisted syncing then do the following to add the right amount of silence to the song track:
+If you've used Arrow Vortex or other tool assisted syncing then do the following to add or remove the right amount of silence to the song track.
 
-:::warning NOTE
-If you have a negative offset, you will need to remove that many seconds from the intro instead.  
-If you are not comfortable with removing the exact amount, you can remove more than needed, export the change `.ogg` and [re-sync using your tool](#tool-assisted-bpm-calculation) with the new file to get a positive offset.
-:::
-
+**If you have a positive offset**, you will need to add that amount to the intro.  
 1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](./images/selection.png)).
-2. Place the cursor at the start of the song track (Click on the song track and press your `Home` key).
-3. Click `Generate menu – > Silence…`
+2. Place the cursor at the start of the song track (Click on the song track and press your <kbd>Home</kbd> key).
+3. Click `Generate – > Silence…`  
+![Generate Silence...](./images/audacity-generate_silence.png)
 4. Input the sync `Music offset` value you got from Arrow Vortex (or similar tool) and then click OK. 
-5. Done.  
 ![Adding silence with Audacity](./images/av_audacity.png)
+5. Done.  
+___
+**If you have a negative offset**, you will need to remove that amount from the intro.  
+1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](./images/selection.png)).
+2. Add a new mono track   
+![Add new mono track](./images/audacity-add_new-mono-track.png)
+3. Select the new track and tap the <kbd>Home</kbd> key.
+4. Click `Generate – > Silence…`  
+![Generate Silence...](./images/audacity-generate_silence.png)
+5. Enter the amount of negative offset found in Arrow Vortex (or similar tool) into the Duration field and click OK.
+![Adding silence with Audacity](./images/av_audacity-negative.png)  
+	* You should see something similar to this  
+![Resulting Silence](./images/audacity-neg-generated_silence.png)
+6. Select from the end of the generated silence (yellow vertical line) to the start of the song track selecting the contents of both tracks.  
+![Select up to generated silence](./images/audacity-neg-select_silence.png)
+7. Press the <kbd>Delete</kbd> key.
+8. Click the X on the newest track to delete it.  
+![Delete The Track](./images/audacity-delete_track.png)
+9. Done.
+
+> If you are not comfortable with removing the exact amount, you can remove more than needed, export the change `.ogg` and [re-sync using your tool](#tool-assisted-bpm-calculation) with the new file to get a positive offset.
 
 After generating the silence you can click the dark line in the song track to get rid of the cut.
 
@@ -299,7 +320,8 @@ We now have our finished audio that you will use and hear in the editor and the 
 
 To generate a compatible sound file to use we need to do the following:
 1. Delete the Click Track (if you haven’t already done so).
-2. Click the `File menu -> Export -> Export as OGG.`
+2. Click the `File menu -> Export -> Export as OGG.`  
+![Export As Ogg Location](./images/audacity-export.png)
 3. Name your file `song.ogg`.
 4. Choose an appropriate OGG quality ([more info here](/mapping/advanced-audio.html#choosing-appropriate-ogg-export-quality)):  
 ![Export Quality Slider](./images/export-quality.png)

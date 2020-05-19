@@ -24,16 +24,18 @@ You can also visit `#mapping-discussion` on the [Beat Saber Modding Group Discor
 7. Once your song has been mapped, lighted, and playtested you’re ready to [release](/mapping/#publishing-songs) your song to the world on Beat Saver.
 
 ### Video Tutorials
-Text guides aren't your thing? Checkout these video series!
-:::tip Remember: 
-The text guides on this wiki are more up to date as it is easier and quicker to change.
-:::
-* [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) ***Recommended Series**
-* [Freeek's Mapping and Editor Tutorials](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
-::: warning
-Benny and Freeek use older editors in their tutorials (Mediocre Mapper and EditSaber). The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
-:::
+Text guides aren't your thing? Checkout these video series!  
+**Remember:** The text guides on this wiki are more up to date as it is easier and quicker to change.
 
+#### Recommended Series
+* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm)
+
+#### Legacy Video Series
+::: warning
+These series use older editors in their tutorials (Mediocre Mapper and EditSaber). The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
+:::
+* [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/) 
+* [Freeek's Mapping and Editor Tutorials](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
 
 ## Audio Editing Resources
 Before mapping, you need to get your audio file ready so that it works with your map editor. This section will walk you through how to set up and edit your audio file using a free program called [Audacity](https://www.audacityteam.org/).
@@ -114,10 +116,14 @@ A suite of tools for mappers **using new format .dat files** that includes:
   * **Offset Remover:** Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error
   * **Note Sorter:** Sorts unordered notes/obstacles/events in the map file to fix stack spawning  
 * [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
-A convienient way to checkout how your map might look in game without the game. 
+A convenient way to checkout how your map might look in game without the game. 
   * IOS and Safari are currently not supported
 * [Cinder](https://github.com/zhaey/cinder#readme) by **zhaey**  
 Python program that converts stepmania `.sm` files to Beat Saber `.dat` files for timing notes.
+* [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
+Easily compile a game playlist from a txt file containing Beatsaver map keys.
+* [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) by **DarkGrisen**  
+Ever thought that it is a lot of annoying work to make big maps with other people or  to perfectly cut the audio files so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map. 
 * [BPM Saber](https://bsaber.com/bpmsaber/) by **Elliotttate**  
 A utility for finding the BPM of a song by upload or tapping.
 * [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
@@ -134,7 +140,7 @@ Video guide on using the timing feature of osu!'s editor to find map bpm.
 There is no holy bible of mapping but this section of the wiki includes a lot of tribal knowledge from the community on best practices at all levels of mapping. Our advice is to follow these rules until you're comfortable with your skills and then get creative, experiment, and innovate!
 
 * [**Basic Mapping**](/mapping/basic-mapping.md) - All new mappers need to read this, **no exceptions!**
-* **Intermediate Mapping** - A more in-depth look at many mapping topics (coming soon... ask in #mapping-discussion if you want more info!)
+* [**Intermediate Mapping**](/mapping/intermediate-mapping.md) - A more in-depth look at many mapping topics **(This page is still a work in progress!)**
 * [**Extended Mapping**](/mapping/extended-mapping.md) - Mapping Extensions, Extra Characteristics, and 360&deg;/90&deg; mapping
 
 ### Mapper Roles
@@ -167,11 +173,11 @@ Below are additional lighting resources as we migrate over to the wiki pages.
 ### Automated Lights
 Not ready to make your own lighting? Here are some programs to do it for you. Keep in mind, creating simple manual lighting is not difficult and will always be better at expressing the atmosphere of the song than using these programs.
 
-* [Lolighter](https://discordapp.com/channels/441805394323439646/442372806705938434/683052261294997541) by **Loloppe#6435** - Standalone program available in the `#other-files` channel in BSMG.
+* [Lolighter](https://github.com/Loloppe/Lolighter#readme) by **Loloppe#6435** - Standalone program for automated lighting and has other features to modify your map.
 * **Lightmap** - It is integrated into Mediocre Map Assistant 2 and can be accessed in the error checker menu. 
 
 ## Playtesting
-Testing your work is a **critical** part of mapping. Testing as you work helps you adjust for major playability issues and get a feel for your map. Third-party or “outside” playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
+Testing your work is a **critical** part of mapping. Testing as you work helps you adjust for major playability issues and get a feel for your map. [Third-party or “outside”](#community-third-party-testing) playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
 
 ::: warning
 You **DO NOT** need to upload your map to Beat Saver in order for you or anyone else to test.
@@ -189,9 +195,10 @@ Follow these steps to test any of your maps made with a community editor using P
 **Made changes to your map while the game is open?**  
 Click on the game window. Then while you are on the Main Menu or Song Select Menu press <kbd>Ctrl + r</kbd> on your keyboard. Your changes will be loaded without needing to restart the game!
 
-::: warning NOTE
+:::tip NOTE
 * You will need to have the **SongCore** mod installed in order to see the CustomWIPLevels category and use the <kbd>Ctrl + r</kbd> shortcut.
 * Having duplicate map files in `CustomLevels` and `CustomWIPLevels` can cause problems.
+* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by the game! Using Audacity and following the steps in [Basic Audio Setup](./mapping/basic-audio.md) is the easiest way to ensure your map loads in-game.
 :::  
 
 ### Testing on a Quest
@@ -199,7 +206,7 @@ Follow these steps to test any of your maps made with a community editor using a
 
 1. Zip up the song as normal, only zipping the files and not the folder itself. [How to Video](https://streamable.com/u20ci)
 2. Connect your Oculus Quest to the PC via USB and keep SideQuest open (Optionally, you can turn on Wireless mode to remove it after)
-3. BMBF must be open on the Oculus Quest for the connection to succeed
+3. Open BMBF on the Oculus Quest. BMBF must be running for the connection to succeed
 4. Look at the top of SideQuest, which will give you the IP to get into BMBF
 5. Type into any web browser: "192.168.X.XXX:50000" with X being replaced with the IP displayed in SideQuest.   
 ![](./images/quest_ip.png)  
@@ -209,8 +216,10 @@ For example, from the picture you would enter `192.168.0.19:50000` into a web br
 ![](./images/bmbf_browser.png)
 8. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play (the small button next to the yellow play button).
 
-:::tip
-If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through BMBF.
+:::tip NOTE
+* If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through BMBF.
+* BMBF may have issues importing your map if your song file or cover image name contains `-` or spaces. You may need to rename these files and update the song info accordingly for a successful upload.
+* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by BMBF! Using Audacity and following the steps in [Basic Audio Setup](./mapping/basic-audio.md) is the easiest way to ensure your map loads in-game.
 :::
 
 ### Community / Third Party Testing
@@ -247,13 +256,14 @@ Once your song has been mapped, lighted, and playtested and it’s a finished pr
 ### BeatSaver
 [BeatSaver](https://beatsaver.com/) is the public repository for all custom Beat Saber maps. Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be uploaded.
 
-::: danger
-Please **DO NOT** upload an incomplete WIP map to BeatSaver!  
-Uploading to BeatSaver equates to "Putting it on the store shelf" and should **only** be your final version.  
-See the [Playtesting](/mapping/#playtesting) section for instructions on testing your map.
-:::
-
 #### How to Release a Map
+
+::: danger
+* Please **DO NOT** upload an incomplete WIP map to BeatSaver!  
+  * Uploading to BeatSaver equates to "Putting it on the store shelf" and should **only** be your final version.  
+  * See the [Playtesting](/mapping/#playtesting) section for instructions on testing your map.
+* **DO NOT** upload maps created by auto-generation software such as Deepsaber or Beat Sage. Please use their sharing channel on Discord to share generated maps!
+:::
 
 1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver.  
     - If you did not receive a verification email, fill out this [contact form](https://beatsaver.com/contact).  
@@ -264,7 +274,7 @@ See the [Playtesting](/mapping/#playtesting) section for instructions on testing
     - Putting a link to a playthough video in the map description can help you get more downloads as it is easier to share your map to others and lets people know what to expect. 
 4. Add your .zip file and click the <kbd>Upload</kbd> button.”
 
-::: warning
+::: tip NOTE
 Map files currently cannot be updated on BeatSaver. If you need to upload a new version of your map you will need to delete the old one and re-post.
 :::
 
@@ -272,7 +282,10 @@ Map files currently cannot be updated on BeatSaver. If you need to upload a new 
 Here are solutions for some common errors when uploading a Beatmap.  
 Encountered something not listed here? Drop into `#mapping-discussion` for assistance.
 
-**Remember:** You should have your map [playtested](#playtesting) before uploading!
+:::warning Remember: 
+* You should have your map [playtested](#playtesting) before uploading!  
+* **DO NOT** upload maps created by auto-generation software such as Deepsaber or Beat Sage. Please use their sharing channel on Discord to share generated maps!
+:::
 ___
 
 **Something went wrong! Try again later.**   
@@ -280,6 +293,7 @@ ___
   * An upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.  
   * Unsupported characters are present in a file. Make sure your metadata and bookmarks don't contain special characters such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ).  
     * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit** may be useful in finding the specific problem.
+  * Expired web session. If you refresh the page, you should be logged out. Login and try to upload again.
 ___
 **Field `._customData._customEnviroment` cannot be blank.**    
   * Your files are not compliant the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.  
@@ -304,6 +318,9 @@ ___
 ___
 **Beatmap could not be parsed!**  
   * This could be caused by extreme server load. Try again later or ask in `#mapping-discussion`.  
+___
+**Field `._customData._contributors[]._iconPath` contains an invalid filename.**  
+* Utilizing the contributors field requires all aspects to be included. Make sure all 3 aspects (Role, Name, iconPath) are filled and there is a unique square image for each iconPath entry in your zip. 
 ___
 
 #### BeatSaver Data Schema Change - October 27, 2019

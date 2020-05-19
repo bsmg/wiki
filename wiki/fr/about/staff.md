@@ -23,7 +23,7 @@ Propriétaire du serveur BSMG et fanatique des jeux de rythme. Nous ne serions p
 **Rôles :** Admin, Staff, Moddeur  
 **Contributions :** Propriétaire du serveur, Custom Sabers, Podcasts
 
-[GitHub](https://github.com/reaxt00) | [Twitch](https://twitch.tv/reaxt)
+[GitHub](https://github.com/reaxt) | [Twitch](https://twitch.tv/reaxt)
 
 ## elliotttate
 "Official BSMG PR Guy". Les évènements comme le Tournoi des 100k n'auraient pas pu être possibles sans ses efforts et ses compétences en réseau. Il a également lancé BeasSaber pour vous aider à trouver les meilleurs maps.

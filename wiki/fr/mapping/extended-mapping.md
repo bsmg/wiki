@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./intermediate-mapping.md
 next: false
+translation-done: false
 ---
 # Mapping étendu
 _Un résumé rapide du mapping étendu_

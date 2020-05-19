@@ -29,12 +29,20 @@ Some nerd who spends more time writing about mapping than actually doing it. Ada
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f3d5) | [BeastSaber](https://bsaber.com/members/checkthepan/)
 
 ## CyanSnow
-A furry on Mondays and Wednesdays, makes awesome maps with various gimmicks. Verified information on a lot of things.  
+A furry on Mondays and Wednesdays, makes awesome maps with various gimmicks. Verified information on a lot of things and contributed to the walls section in Intermediate Mapping!  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8543ac) | [BeastSaber](https://bsaber.com/members/cyansnow/)
+
+## DarkGrisen
+Contributed to the Intermediate Mapping page.  
+[Beatsaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84fe44) | [BeastSaber](https://bsaber.com/members/darkgrisen/)
 
 ## Freeek
 Works at Beat Games as an Official Mapper. Created one of the first [mapping tutorial series](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b) and  drops by in `#mapping-discussion` from time to time.  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84e8ad) | [BeastSaber](https://bsaber.com/members/freeek/)
+
+## fruhead
+A mapper who focuses on creating accessible low expert+ and below maps. Originally got into mapping in order to add some more rock and metal maps to compete with the weeb and nightcore maps, only to end up making more weeb and nightcore maps. Tests maps on occasion, though has PTSD from 1999 and official editor. Creator of the [Beginner's Guide to Mapping tutorial series](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm).  
+[Beatsaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c852683) | [BeastSaber](https://bsaber.com/members/fruhead/)
 
 ## The Good Boi
 Helped organize a convenient spreadsheet that contains all of the controls for the community editors.  

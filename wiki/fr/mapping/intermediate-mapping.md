@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-mapping.md
 next: ./extended-mapping.md
+translation-done: false
 ---
 # Mapping intermédiaire
 _Un résumé rapide du mapping chevronné_

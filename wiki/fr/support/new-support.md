@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+translation-done: false
 ---
 # Support
 

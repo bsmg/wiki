@@ -1,3 +1,6 @@
+---
+translation-done: false
+---
 # Guide du modding sur Linux
 
 ::: danger

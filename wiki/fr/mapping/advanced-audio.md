@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-audio.md
 next: false
+translation-done: false
 ---
 # Édition avancée de l'audio
 _Améliorer ses connaissances de l'édition d'un audio_

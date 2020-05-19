@@ -29,8 +29,8 @@ The first time you run MMA2 you will need to direct it to the location of two fo
 * Oculus Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
 
 **If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
-* Make two folders called `CustomLevels` and `CustomWIPLevels`
-* Example: `C:\Users\Helen\Documents\CustomWIPLevels`
+* Make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them.
+   * Example: `C:\Users\Helen\Documents\CustomWIPLevels`
 <p align="center">
 ![Screenshot of Mediocre Mapper path entry](./images/mma2-folder-path.jpg)
 </p>
@@ -120,12 +120,12 @@ Special characters such as those found in, Japanese (日本語/にほんご), Ch
 * **Song SubName:** Any following tags like (Short Ver.), (SDVX Mix), etc.
 * **Song Artist:** The person or group who authored the song
 * **Mapper:** This is YOU! It's recommended you list your name the same as your BeatSaver user name
-* **BPM:** The tempo of the song. It's *critical* to get this right before you start. See [Basic Audio Setup](#) for guidance
+* **BPM:** The tempo of the song. It's *critical* to get this right before you start. See [Basic Audio Setup](../mapping/basic-audio.md) for guidance
 * **Audio File Name:** The name of the song file (including the extension) you have placed in `CustomWIPLevels > [Song Folder]`. Recommended to just name it *song.ogg* to avoid the pitfalls of special characters
 * **Preview Start Time:** Position in the song file, in seconds, of the start of the in-game menu song preview. Defaults to 12s
 * **Preview Duration:** Duration, in seconds, of the in-game menu song preview. Defaults to 10s
 * **Cover Image Name:** The name of the image file (including the extension) you have placed in `CustomWIPLevels > [Song Folder]`. Must be perfectly square and at least 256 px but no more than 512 px
-* **Environment Name:** A dropdown menu of the default environments or platforms available. See [Basic Lighting Practices](#) for an overview of these environments
+* **Environment Name:** A dropdown menu of the default environments or platforms available. See [Basic Lighting Practices](../mapping/basic-lighting.md#environment-previews) for an overview of these environments
 * **Custom Platform:** The copy/pasted name of a custom platform from [ModelSaber](https://modelsaber.com/Platforms/). This feature is glitchy and it's recommended that you JSON edit any custom platform information
 
 The <kbd>Open Song Folder</kbd> button will open your song folder in Windows Explorer. This will help you confirm that you have your files in the right spot.
