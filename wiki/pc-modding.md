@@ -48,7 +48,7 @@ To install songs downloaded from the site, unzip them into a folder and place it
 * [BeatList](https://github.com/Alaanor/beatlist) is an app to manage playlist and beatmaps, by Alaanor.
 
 ### Playlists
-Place the playlist file into `Beat Saber/Playlists` and select it in-game, then hit download. You can create and download playlists using one of the programs above.
+Place the playlist file into `Beat Saber/Playlists`, then use [BeatList](https://github.com/Alaanor/beatlist) to download the maps. (Note: older mods allowed downloading the contents of playlists in-game, but this is currently not possible.)
 
 ## Install Folder
 _Where is Beat Saber installed?_
