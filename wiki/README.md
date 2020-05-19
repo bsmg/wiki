@@ -25,8 +25,8 @@ footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 
 ::: feature Other Resources
 * [About Us](/about/)
 * [Health and Safety](./health-and-safety.md)
-* [Mod History](https://docs.google.com/spreadsheets/d/1eVRbCUyaXjKUJRSNPZWERUO9tULK415buU0q-H7Z0dY/edit#gid=0)
 * [Frequently Asked Questions](/faq/)
+* [Communities](/communities/)
 :::
 
 </div>
@@ -41,3 +41,4 @@ footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 
 * [ScoreSaber](https://scoresaber.com/) - Custom leaderboards
 * [Steam Store Page](https://store.steampowered.com/app/620980/Beat_Saber/)
 * [Oculus Store Page](https://www.oculus.com/experiences/rift/1304877726278670/)
+* [Mod History](https://docs.google.com/spreadsheets/d/1eVRbCUyaXjKUJRSNPZWERUO9tULK415buU0q-H7Z0dY/edit#gid=0)
