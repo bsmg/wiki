@@ -95,7 +95,7 @@ If you want to test a map you have created see the [Testing on a Quest](/mapping
 ### Adding mods from the headset/bsaber.com doesn't work
 The reason adding mods and sabers from [Beastsaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods) 
 
-Get Quest compatible Sabers and Mods from `#quest-mods` or `#quest-assets` in the Beat Saber Modding Group Discord, or you can find Quest compatable sabers on [RedBrumbler's Github](https://github.com/RedBrumbler/BMBFCustomSabers), or [QuestSaber Community]( https://discord.gg/NXnPYEh). One you have your mod zip use the [BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods) to install it.
+Get Quest compatible Sabers and Mods from `#quest-mods` or `#quest-assets` in the Beat Saber Modding Group Discord, or you can find Quest compatable sabers on [RedBrumbler's Github](https://github.com/RedBrumbler/BMBFCustomSabers), or [QuestSaber Community](https://discord.gg/NXnPYEh). One you have your mod zip use the [BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods) to install it.
 ___
 ### Sideloading BMBF failed
 When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!"`
