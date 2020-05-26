@@ -35,12 +35,29 @@ Heart of gold, nerves of steel.... And a knob of butter
 
 **Roles:** Support
 
-## Chara_
-I like smiling and gaming the gamer games SmileW :)
+## boulders2000
+"even though his brain is a mess he knows his stuff (kinda)" something like that (but don't add something like that part, ok?)
 
 **Roles:** Support
 
+## Chara_
+I like smiling and gaming the gamer games SmileW :)
+
+**Roles:** Support, 3D Artists
+
 [Discord](https://discord.gg/NXnPYEh) | [Youtube](https://www.youtube.com/c/CharaHere)
+
+## Simme63
+"Coke Head"
+
+**Roles:** Support
+
+## Sands
+He has no life and he's pretty dumb but he can help with your bmbf and thats all that matters right?
+
+**Roles:** Support
+
+[Youtube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
 
 ## Channel Monitor Bot
 The bot that holds it all together.

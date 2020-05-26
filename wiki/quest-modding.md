@@ -86,6 +86,7 @@ If you want to test a map you have created see the [Testing on a Quest](/mapping
 * [Oculus Quest BMBF Installation Guide](https://bsaber.com/oculus-quest-custom-songs/)
 * [General Guide by Sc2ad for Learning The Basics of Asset Modding](https://github.com/sc2ad/beat-saber-community-wiki/blob/master/asset-modding-guide.md)
 * [Collection of All Current Guides for Asset Mods Such As Sabers and Notes Made by RedBrumbler](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/RedBrumblers-Asset-Mod-Guide-Wiki)
+* [QuestSaber Community](https://discord.gg/NXnPYEh) - Server dedicated to making and using Quest Sabers
 * [Guide on creating Qsabers](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/Creating-Qsabers) - Quest specific sabers that would be compatible between game updates
 * [Fixing Out of Sync Audio](https://bsaber.com/quest-out-of-sync/)
 
@@ -94,7 +95,7 @@ If you want to test a map you have created see the [Testing on a Quest](/mapping
 ### Adding mods from the headset/bsaber.com doesn't work
 The reason adding mods and sabers from [Beastsaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods) 
 
-Get Quest compatible Sabers and Mods from `#quest-mods`, `#quest-assets`, or [RedBrumbler's Github](https://github.com/RedBrumbler/BMBFCustomSabers) in the Beat Saber Modding Group Discord and use the .zips you download to install them in the BMBF Web Interface.
+Get Quest compatible Sabers and Mods from `#quest-mods` or `#quest-assets` in the Beat Saber Modding Group Discord, or you can find Quest compatable sabers on [RedBrumbler's Github](https://github.com/RedBrumbler/BMBFCustomSabers), or [QuestSaber Community]( https://discord.gg/NXnPYEh). One you have your mod zip use the [BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods) to install it.
 ___
 ### Sideloading BMBF failed
 When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!"`
