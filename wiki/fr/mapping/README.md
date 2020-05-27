@@ -25,15 +25,17 @@ Vous pouvez aussi visiter le channel `#mapping-discussion` sur le [Discord Beat 
 
 ### Tutoriels vidéo
 Les guides écrits ne sont pas votre truc ? Regardez cette série de vidéos !
-::: tip N'oubliez pas :
-Les guides écrits de ce wiki sont mieux tenus à jour car ils sont plus simples et plus rapides à changer.
-:::
-* [Tutoriel de mapping de BennyDaBeast](https://bsaber.com/benny-custom-mapping/) (en anglais) ***série recommandée***
-* [Tutoriels de mapping et d'édition de Freeek](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b) (en anglais)
-::: warning ATTENTION
-Benny et Freeek utilisent de vieux éditeurs dans leurs tutoriels (Mediocre Mapper et EditSaber). L'interface et certaines fonctions ont changé dans MMA2, l'éditeur recommandé, mais le reste du contenu est super !
-:::
+**N'oubliez pas :** Les guides écrits de ce wiki sont mieux tenus à jour car ils sont plus simples et plus rapides à changer.
 
+#### Série recommandée
+* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) (en anglais)
+
+#### Séries de vidéos antérieures
+::: warning ATTENTION
+Ces séries utilisent de vieux éditeurs dans leurs tutoriels (Mediocre Mapper et EditSaber). L'interface et certaines fonctions ont changé dans [MMA2](/fr/mapping/mediocre-map-assistant.md), l'éditeur recommandé, mais le reste du contenu est super !
+:::
+* [Tutoriel de mapping de BennyDaBeast](https://bsaber.com/benny-custom-mapping/) (en anglais)
+* [Tutoriels de mapping et d'édition de Freeek](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b) (en anglais)
 
 ## Ressources pour l'édition audio
 Avant de créer des maps, vous devez mettre en forme vos fichiers audio pour qu'ils puissent fonctionner avec votre éditeur de map. Cette section va vous aider à mettre en forme et à modifier vos fichiers audio en utilisant le logiciel gratuit [Audacity](https://www.audacityteam.org/).
@@ -118,8 +120,10 @@ Un outil pratique pour vérifier à quoi peut ressembler votre map sans passer p
   * IOS et Safari ne sont pas supportés pour l'instant
 * [Cinder](https://github.com/zhaey/cinder#readme) de **zhaey**
 Un programme python qui convertit les fichiers stepmania `.sm` en fichier Beat Saber `.dat`pour le timing des notes.
-* [noodleLister](https://github.com/bloodcloak/noodleLister#readme) de **Bloodcloak**  
+* [noodleLister](https://github.com/bloodcloak/noodleLister#readme) de **Bloodcloak**
 Compile une playlist une playlist du jeu à partir d'un fichier txt contenant des entrées de Beatsaver.
+* [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) de **DarkGrisen**
+Vous vous êtes déjà dit que c'était beaucoup de boulot de faire des grosses maps avec d'autres personnes ou de couper parfaitement les fichiers audio afin de pouvoir les fusionner manuellement ensuite ? Cet outils vous permet de fusionner deux maps ou plus en une seule super longue map.
 * [BPM Saber](https://bsaber.com/bpmsaber/) de **Elliotttate**
 Un outil pour trouver le BPM d'une musique en la mettant en ligne ou en la recherchant.
 * [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t=) de **Fayhe**
@@ -191,9 +195,10 @@ Suivez ces étapes pour tester n'importe quelle map faites avec un éditeur comm
 **Vous avez fait des changements alors que le jeu est ouvert ?**
 Assurez-vous d'être sur la fenêtre du jeu. Puis, quand vous êtes dans le menu principal ou le menu de selection d'une musique appuyez sur <kbd>Ctrl + r</kbd> sur votre clavier. Vos changement seront chargés sans avoir besoin de redémarrer le jeu.
 
-:::warning NOTE
+:::tip NOTE
 * Vous aurez besoin du mod **SongCore** installé pour voir la catégorie CustomWIPLevels et pour utiliser le raccourci <kbd>Ctrl + r</kbd>.
 * Avoir des copies des mêmes fichiers dans `CustomLevels` et dans `CustomWIPLevels` peut provoquer des problèmes.
+* Utiliser des sites en ligne pour convertir l'audio en `.ogg` peut rendre un fichier considéré comme invalide et qui ne sera pas chargé par le jeu ! Utiliser Audacity et suivre les étapes de [la mise en place basique de l'audio](./basic-audio.md) est le moyen le plus facile de vous assurer que votre map charge en jeu.
 :::
 
 ### Tester sur Oculus Quest
@@ -211,9 +216,10 @@ En prenant l'image comme exemple, vous devriez entrer `192.168.0.19:50000` dans 
 ![](./images/bmbf_browser.png)
 8. Accédez à vos maps en jeu via la catégorie CustomWIPLevels en bas dans le menu des musiques. Utilisez le mode entrainement pour jouer (le petit bouton à côté du bouton play jaune).
 
-::: tip Notes
+::: tip NOTE
 * Si, après avoir supprimé une ancienne version d'une map et l'avoir remplacé par une nouvelle, c'est l'ancienne version qui est joué il vous faudra renommer le fichier zip avant de le mettre en ligne avec BMBF.
 * BMBF peut avoir des problèmes à l'import de votre map si le nom de votre fichier audio ou de votre image de couverture contient un `-` ou des espaces. Vous pourriez avoir à renommer ces fichiers et mettre à jour la musique conformément pour un envoi réussi.
+* Utiliser des sites en ligne pour convertir l'audio en `.ogg` peut rendre un fichier considéré comme invalide et qui ne sera pas chargé par le jeu ! Utiliser Audacity et suivre les étapes de [la mise en place basique de l'audio](./basic-audio.md) est le moyen le plus facile de vous assurer que votre map charge en jeu.
 :::
 
 ### Test par la communauté / un tiers
@@ -312,6 +318,9 @@ ___
 ___
 **Beatmap could not be parsed!**
 * Cela pourrait être provoqué par une surchage extrême des serveurs. Essayez plus tard ou demandez dans le channel `#mapping-discussion`.
+___
+**Field `._customData._contributors[]._iconPath` contains an invalid filename.**
+* L'utilisation du champ des contributeurs nécessite tous les aspects à inclure. Assurez-vous que les trois aspects (Role, Name, iconPath) sont remplis et qu'il y a une image unique pour chaque entrée iconPath dans votre zip.
 ___
 
 #### Changement des schémas de BeatSaver - 27 Octobre 2019

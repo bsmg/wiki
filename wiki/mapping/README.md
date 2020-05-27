@@ -123,7 +123,7 @@ Python program that converts stepmania `.sm` files to Beat Saber `.dat` files fo
 * [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
 Easily compile a game playlist from a txt file containing Beatsaver map keys.
 * [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) by **DarkGrisen**  
-Ever thought that it is a lot of annoying work to make big maps with other people or  to perfectly cut the audio files so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map. 
+Ever thought that it is a lot of annoying work to make big maps with other people or to perfectly cut the audio files so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map. 
 * [BPM Saber](https://bsaber.com/bpmsaber/) by **Elliotttate**  
 A utility for finding the BPM of a song by upload or tapping.
 * [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
@@ -198,7 +198,7 @@ Click on the game window. Then while you are on the Main Menu or Song Select Men
 :::tip NOTE
 * You will need to have the **SongCore** mod installed in order to see the CustomWIPLevels category and use the <kbd>Ctrl + r</kbd> shortcut.
 * Having duplicate map files in `CustomLevels` and `CustomWIPLevels` can cause problems.
-* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by the game! Using Audacity and following the steps in [Basic Audio Setup](./mapping/basic-audio.md) is the easiest way to ensure your map loads in-game.
+* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by the game! Using Audacity and following the steps in [Basic Audio Setup](./basic-audio.md) is the easiest way to ensure your map loads in-game.
 :::  
 
 ### Testing on a Quest
@@ -219,7 +219,7 @@ For example, from the picture you would enter `192.168.0.19:50000` into a web br
 :::tip NOTE
 * If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through BMBF.
 * BMBF may have issues importing your map if your song file or cover image name contains `-` or spaces. You may need to rename these files and update the song info accordingly for a successful upload.
-* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by BMBF! Using Audacity and following the steps in [Basic Audio Setup](./mapping/basic-audio.md) is the easiest way to ensure your map loads in-game.
+* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by BMBF! Using Audacity and following the steps in [Basic Audio Setup](./basic-audio.md) is the easiest way to ensure your map loads in-game.
 :::
 
 ### Community / Third Party Testing
