@@ -86,6 +86,7 @@ Si vous voules tester une map que vous avez créée, allez voir la section [Test
 * [Guide d'installation de BMBF sur Oculus Quest](https://bsaber.com/oculus-quest-custom-songs/) (en anglais)
 * [Guide général par Sc2ad pour apprendre les bases du modding statique](https://github.com/sc2ad/beat-saber-community-wiki/blob/master/asset-modding-guide.md) (en anglais)
 * [Collection de tous les guides actuels pour les mods statiques tels que les sabres et les notes, fait par RedBrumbler](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/RedBrumblers-Asset-Mod-Guide-Wiki) (en anglais)
+* [QuestSaber Community](https://discord.gg/NXnPYEh) - Un serveur dédié à la création et l'utilisation de sabres pour Quest
 * [Guide pour créer des Qsabers](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/Creating-Qsabers) (en anglais) - Des sabres spécifiques au Quest qui restent compatibles entre les différentes mises à jour du jeu
 * [Corriger le problème de synchronisation audio](https://bsaber.com/quest-out-of-sync/) (en anglais)
 
@@ -94,7 +95,7 @@ Si vous voules tester une map que vous avez créée, allez voir la section [Test
 ### Ajouter des mods depuis bsaber.com ne fonctionne pas
 La raison de pourquoi l'ajout de mods et sabres depuis [BeastSaber](https://bsaber.com/) ne fonctionne pas est que ces mods et sabres sont faits par le PC seulement. Pour ajouter des mods et sabres pour le Quest, utilisez l'interface web BMBF. [Comment accéder à l'interface web BMBF](#installer-les-mods)
 
-Récupérez les sabres et mods compatibles Quest dans `#quest-mods`, `#quest-assets` sur le Discord Beat Saber Modding Group, ou sur le [Github de RedBrumbler](https://github.com/RedBrumbler/BMBFCustomSabers), et utilisez les `.zip` téléchargés pour les installer dans l'interface web BMBF.
+Récupérez les sabres et mods compatibles Quest dans `#quest-mods` ou `#quest-assets` sur le Discord Beat Saber Modding Group, ou bien vous pouvez trouver des sabres pour Quest sur le [Github de RedBrumbler](https://github.com/RedBrumbler/BMBFCustomSabers), ou sur sur le serveur [QuestSaber Community](https://discord.gg/NXnPYEh). Une fois que vous avez votre `.zip`, utilisez [l'interface web BMBF](#installer-les-mods) pour l'installer.
 ___
 ### Le chargement de BMBF ne fonctionne pas
 Quand au chargement de BMBF avec SideQuest vous obtenez l'erreur `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!"`

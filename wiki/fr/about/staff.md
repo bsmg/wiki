@@ -58,7 +58,7 @@ Le chef suprême de ScoreSaber, créateur des tableaux de score personnalisés e
 [Twitch](https://www.twitch.tv/umbranoxius) | [Twitter](https://twitter.com/Umbranoxus) | [Patreon](https://www.patreon.com/scoresaber)
 
 ## OrangeW
-Le premier joueur Beat Saber professionnel, représentant la Team Gravity. Administrateur du classement général de ScoreSaber.
+Le premier joueur Beat Saber professionnel, représentant la Team Gravity. Ex-administrateur du classement général de ScoreSaber.
 
 **Rôles :** Staff
 **Contributions :** ScoreSaber

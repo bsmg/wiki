@@ -1,14 +1,12 @@
 # Créer des mods
 ## Injection de mods
-
 Beat Saber _**ne supporte pas**_ nativement les mods.
 
 Ainsi, la plupart des mods dans l'installateur de mod se basent sur [BSIPA (Beat Saber Illusion Plugin Architecture)](https://github.com/nike4613/BeatSaber-IPA-Reloaded/) pour injecter des extensions dans le jeu, en plus de fournir des outils utiles pour les moddeurs.
 
-Précédemment, nous utilisions [IPA (Illusion Plugin Architecture)](https://github.com/Eusth/IPA). Certaines extensions l'utilise encore, et il IPA est encore supporté par BSIPA. Nous utilisons toujours IPA pour le tutoriel de mods, cependant nous recommandons d'utiliser BSIPA pour toute future entreprise dans le modding.
+Auparavant, nous utilisions [IPA (Illusion Plugin Architecture)](https://github.com/Eusth/IPA). Certaines extensions l'utilise encore, et il IPA est encore supporté par BSIPA. Nous utilisons toujours IPA pour le tutoriel de mods, cependant nous recommandons d'utiliser BSIPA pour toute future entreprise dans le modding.
 
-Pour ceux qui préfèrent [BepInEx](https://github.com/BepInEx/BepInEx) plutôt que ces options, Bepis travaille a priori sur un émulateur BSIPA pour BepInEx, et en a déjà un fonctionnel pour les extensions IPA.
-Cependant, pour développer des extensions Beat Saber pour BepInEx, eh bien, vous devrez vous débrouiller seul. 
+Pour ceux qui préfèrent [BepInEx](https://github.com/BepInEx/BepInEx) plutôt que ces options, Bepis a créé un loader pour les plugins BSIPA, disponible [ici](https://github.com/BepInEx/BepInEx.BSIPA.Loader). Cependant, pour développer des extensions Beat Saber avec l'API du plugin BepInEx, un guide générique existe sur [le site de leur documentation](https://bepinex.github.io/bepinex_docs/v5.0/articles/dev_guide/plugin_tutorial/index.html), autrement vous devrez vous débrouiller tout seul.
 
 ## Mise en place du projet
 Si vous êtes intéressé pour créer un mod Beat Saber, mais n'avez pas de modèle ou de modèle Visual Studio existant, [suivez le guide d'introduction pour démarrer votre projet](./intro.md).

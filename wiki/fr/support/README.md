@@ -45,7 +45,7 @@ Si les pré-requis détaillés dans la section 1.1 sont valides, essayez les sol
 - Faites un backup du dossier `UserData` (optional)
 - Supprimer le dossier `UserData`
 
-::: warning
+::: warning ATTENTION
 Cela va réinitialiser vos paramètres d'extensions !
 :::
 
@@ -108,7 +108,7 @@ Notez que Beat Saber n'utilise que très peu les ressources de la carte graphiqu
 Si la fenêtre principale de votre est vide, vore fichier de sauvegarde est probablement corrompu.
 Pour pallier ce problème, référez-vous à [comment supprimer le dossier Beatsaber dans votre AppData](#supprimer-les-sauvegardes-dans-appdata).
 
-::: warning
+::: warning ATTENTION
 Cela va supprimer vos scores locaux et vos statistiques.
 :::
 
@@ -136,7 +136,8 @@ Appuyez sur le bouton **Home** de votre clavier avec la fenêtre du jeu en premi
 
 #### 3.5 Mes avatars sont cassés
 Assurez-vous que l'extension Custom Avatar est correctement installée et mise à jour, et idem pour les dépendances.
-Vous avez peut-être corrompu / cassé un avatar, avoir un avatar inutilisable peut rendre les autres inutilisables de la même manière que les musiques et les sabres. Référez-vous à [comment trouver les contenus cassés](#4-2-finding-broken-content) si vous pensez avoir des avatars corrompus ou si vous avez vérifié que vos mods et dépendances sont mises à jour mais les avatars ne fonctionnent toujours pas.
+Vous avez peut-être corrompu / cassé un avatar, avoir un avatar inutilisable peut rendre les autres inutilisables de la même manière que les musiques et les sabres.
+Référez-vous à [comment trouver les contenus cassés](#4-2-finding-broken-content) si vous pensez avoir des avatars corrompus ou si vous avez vérifié que vos mods et dépendances sont mises à jour mais les avatars ne fonctionnent toujours pas.
 
 ### Musiques personnalisées
 
@@ -154,7 +155,8 @@ Si cela n'apparaît que sur des maps en particuliers, les fichiers de la musique
 
 ### Camera Plus
 #### 3.8 Camera Plus ne fonctionne pas
-Assurez-vous que le paramètre pour "*Smooth Camera*" est désactivé dans les paramètres de votre jeu de base. Si cela ne fonctionne pas, vérifiez que vous avez le mod correctement installé, essayez de le réinstaller ainsi que toutes ses dépendances.
+Assurez-vous que le paramètre pour "*Smooth Camera*" est désactivé dans les paramètres de votre jeu de base.
+Si cela ne fonctionne pas, vérifiez que vous avez le mod correctement installé, essayez de le réinstaller ainsi que toutes ses dépendances.
 
 #### 3.9 Ma vue sur le PC ne prend qu'une petite portion de l'écran
 Votre affichage CameraPlus ne remplit pas votre écran. Tirez les coins de la fenêtre pour l'agrandir, ou bien faites un clic droit sur la fenêtre et cliquer sur "*Fit to Canvas*".
@@ -185,6 +187,7 @@ Ces messages sont également écrits dans `Beat Saber/Logs`.
 Une liste des erreurs les plus fréquentes peut être trouvée [ici](https://bsmg.wiki/support/exceptions) (en anglais).
 
 ### Vérifier les fichiers du jeu sur Steam
+
 Pour vérifier les fichiers de votre jeu sur Steam, suivez ces étapes :
 1. Assurez-vous que SteamVR est fermé, il ne vous laissera pas vérifier vos fichiers autrement.
 2. Allez dans votre bibliothèque Steam et trouvez Beat Saber.
@@ -224,16 +227,14 @@ Vous pouvez aussi vous rendre dans ce dossier en affichant les éléments masqu�
 
 <YouTube url='https://youtu.be/ONxJcD3Ir3Q' />
 
-::: warning
+::: warning ATTENTION
 Supprimer le dossier des données locales supprimera aussi vos scores locaux et statistiques de jeu.
 :::
 
 #### Mesures désespérées
-
-::: warning
-Désactiver votre antivirus comporte des risques de sécurité, soyez sûr de ce que vous faites et n'oubliez pas de le réactiver dès que vous en avez terminé.
+::: warning ATTENTION
+Désactiver votre antivirus comporte des risques de sécurité, soyez sûr de ce que vous faites (c'est-à-dire ne téléchargez pas et n'ouvrez pas de fichier suspect tant qu'il est désactivé) et n'oubliez pas de le réactiver dès que vous en avez terminé.
 :::
-
 * Assurez-vous que l'utilisateur courant **est un administrateur**
 * Désactivez votre antivirus (le temps d'un test), testez votre jeu, réactivez le
 * Assurez-vous que vous avez la permission de créer des dossiers et éditer des fichiers sur votre disque / votre PC (nous avons eu des problèmes récemment causés par des mises à jour Windows)
@@ -243,7 +244,7 @@ Désactiver votre antivirus comporte des risques de sécurité, soyez sûr de ce
 
 ## 5. J'ai encore des problèmes
 Si cette page ne couvre les bases, n'hésitez pas à poser une question sur le Discord ! Pour augmenter vos chances d'avoir votre réponse, n'oubliez pas :
-* Utilisez les bons canaux de discussion, plus particulièrement l'un des 2 canaux `#support` pour le dépannage des mods. Utilisez `#model-discussion` pour les questions sur **comment créer ses propres avatars, plateformes, notes ou sabres**, et `#mapping-discussion` pour les questions sur **la création de maps.**
+* Utilisez les bons canaux de discussion, `#pc-help` pour le support des mods sur PC et `#quest-help` pour le support des mods sur Quest. Utilisez `#pc-modeling` et `#quest-asset-dev` pour les questions sur **comment créer ses propres avatars, plateformes, notes ou sabres**, et `#mapping-discussion` pour les questions sur **la création de maps.**
 * Soyez poli et respectueux
 * Décrivez votre problème en détail. "*It didn't work*" est aussi pertinent que dire à votre docteur que vous ne vous sentez pas bien. Qu'est-ce qui ne fonctionne pas, et qu'avez-vous essayé ? Y a-t-il des messages qui apparaissent sur l'écran ? Votre écran est-il devenu tout violet ?
 

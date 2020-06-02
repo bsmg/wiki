@@ -14,7 +14,7 @@ Furry les lundis et mercredis, crée des maps impressionnantes avec des stratag�
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8543ac) | [BeastSaber](https://bsaber.com/members/cyansnow/)
 
 ## fruhead
-Un mapper qui se focalise sur la création de maps bas Expert+ et moindre. A originellement commencé le mapping dans le but d'ajouter des maps metal et rock pour rivaliser avec les maps nightcore et weeb, pour finalement se mettre à la création de maps nightcore et weeb. Créateur de la série de tutoriels Beginner's Guide to Mapping. (Soon ™)
+Un mapper qui se focalise sur la création de maps bas Expert+ et moindre. A originellement commencé le mapping dans le but d'ajouter des maps metal et rock pour rivaliser avec les maps nightcore et weeb, pour finalement se mettre à la création de maps nightcore et weeb. Créateur de la série de tutoriels [Beginner's Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) (en anglais).
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c852683) | [BeastSaber](https://bsaber.com/members/fruhead/)
 
 ## Helen Carnate
