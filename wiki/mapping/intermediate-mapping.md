@@ -205,5 +205,12 @@ This is a stub section. If you’d like to contribute, submit suggestions via [t
 This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::  
 
+## Swing In a Song and How Shuffle Helps
+::: tip NOTE
+This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
+:::  
+See this guide by Sykes [What swing is, and how "shuffle" will make your mapping easier
+](https://docs.google.com/document/d/1j7w1X-0QtnJDFVKzyyQc_KR7RE9H3C3JFesIXGR0s1c/edit) on how to use the built in shuffle feature to make mapping songs that have swing easier.
+
 ## Credits
 Content in this section was authored by [Checkthepan](/mapping/mapping-credits.html#checkthepan), [CyanSnow](/mapping/mapping-credits.html#cyansnow), [Uninstaller](/mapping/mapping-credits.html#uninstaller), [Skyler Wallace](/mapping/mapping-credits.html#skyler-wallace), [Kolezan](/mapping/mapping-credits.html#kolezan), and [DarkGrisen](/mapping/mapping-credits.html#darkgrisen).

@@ -49,6 +49,7 @@ Before mapping, you need to get your audio file ready so that it works with your
 ::: warning
 Community editors often have more features and don't require a VR headset, but they can be buggy, so use with caution.
 :::
+Keyboard shortcuts for these editors are available inside their respective in-editor menus with a cross-reference between all of them [available here](/mapping/editor-keybinds.md).
 
 #### Mediocre Map Assistant 2
 MMA2 is the most feature rich 3D editor and is used by the majority of the mapping community.
@@ -290,7 +291,7 @@ ___
 
 **Something went wrong! Try again later.**   
   This is the default error message, causes include:  
-  * An upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.  
+  * An upload that is close to or over the actual file size limit of 14.3 MB. The 15 MB listed is not accurate at this time. Reduce the audio export quality slightly to make space.  
   * Unsupported characters are present in a file. Make sure your metadata and bookmarks don't contain special characters such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ).  
     * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit** may be useful in finding the specific problem.
   * Expired web session. If you refresh the page, you should be logged out. Login and try to upload again.

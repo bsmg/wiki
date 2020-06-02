@@ -394,6 +394,8 @@ When mapping very fast Expert+ maps, make sure you increase the Note Jump Speed,
 Setting your NJS really high is **not** the right way to increase difficulty. Use higher note density and more complex patterns (with good flow).
 :::
 
+For more information, see the [Note Jump Speed & Spawn Distance](/mapping/intermediate-mapping.md#note-jump-speed-spawn-distance) section in Intermediate Mapping
+
 ## Playtesting
 Already mentioned in detail on the [Mapping Home Page](/mapping.html#playtesting) it’s important enough to mention again here:
 1. Test your own work early and often, especially when you’re just starting out
