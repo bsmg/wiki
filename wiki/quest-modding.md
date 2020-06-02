@@ -31,6 +31,10 @@ Run Beat Saber once and close it before modding!
 
 After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown Sources in your library. Follow each step exactly as you're told, and then you should be see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
 
+If, at any point during the install process, you get the `Restore App` popup just click `Close`, there will be no consequences to ignoring it.
+
+![RestoreApp](./images/beginners-guide/restoreapp.png)
+
 ## Restoring save data
 
 ### Restoring from SideQuest
