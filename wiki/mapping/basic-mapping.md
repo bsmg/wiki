@@ -124,8 +124,10 @@ Another way to think about it is that you want the energy and effort of the hit 
 Mapping consistently does NOT always mean to copy/paste/mirror, though there are some times when that is appropriate. If you choose to map a particular big sound as a double, for example, that same sound should always be mapped with a double.
 
 ## Pattern Best Practices
-This section details the principles one should follow for a playable and enjoyable map.
- 
+This section details the principles one should follow for a playable and enjoyable map. 
+
+**Cyrix** has created a summary video, [Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw), of the most common issues that are covered in this section.
+
 ### Vision Blocks
 Vision blocks are any patterns that obscure the player’s vision and make it difficult to sight read a map, if not outright uncomfortable. The primary cause of vision blocks is use of the middle two positions of the track, but there’s risk of a block any time the middle row is used.
 

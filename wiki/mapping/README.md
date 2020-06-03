@@ -27,10 +27,11 @@ You can also visit `#mapping-discussion` on the [Beat Saber Modding Group Discor
 Text guides aren't your thing? Checkout these video series!  
 **Remember:** The text guides on this wiki are more up to date as it is easier and quicker to change.
 
-#### Recommended Series
-* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm)
+#### Recommended
+* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) - a comprehensive series on making your first map.
+* [Cyrix's Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw) - covers the most common issues discussed in [Basic Mapping](/mapping/basic-mapping.md).
 
-#### Legacy Video Series
+#### Legacy Videos
 ::: warning
 These series use older editors in their tutorials (Mediocre Mapper and EditSaber). The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
 :::
