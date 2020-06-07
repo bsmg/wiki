@@ -113,7 +113,7 @@ The `Song Info` page is the first screen you see every time you edit a map.
 On the left side of the `Song Info` page is information that applies to your whole map. See [Beat Saber Metadata Criteria](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) for standards on presenting complex song names and multiple artists.
 
 ::: warning
-Special characters such as those found in, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ) are not fully supported by Beat Saber or Beatsaver. Using these characters in song metadata or in bookmarks will cause problems.
+Special characters such as those found in, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ) are not fully supported by Beatsaver. Using these characters in song metadata or in bookmarks will cause problems.
 :::
 
 * **Song Name:** The primary name of the song
