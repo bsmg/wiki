@@ -178,7 +178,7 @@ Want to learn more about resets? Read [Intermediate Mapping](/mapping/intermedia
 ### DO: Mapping with Flow
 Outside of easy and normal difficulties, mapping with Flow is an absolute must. Human bodies are incredible machines but there are certain ways that joints are meant to move and using patterns that violate those mechanics is a recipe for injuring your player.
 
-Parity is the concept that Each block direction is played with either a backhand swing or a forehand swing. The black line in the diagram below illustrates this forehand (above the line)/backhand (below the line) divider for the left and right sides. 
+Parity is the concept that Each block direction is played with either a backhand swing or a forehand swing. The black line in the diagram below illustrates this forehand (below the line)/backhand (above the line) divider for the left and right sides. 
 <p align="center">
 	![Parity diagram showing the forehand/backhand line for each block color](./images/parity_diagram.jpg)
 </p>
