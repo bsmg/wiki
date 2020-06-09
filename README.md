@@ -2,6 +2,12 @@
 ## ✏️ Contributing
 If you wish to contribute, [submit a pull request](https://github.com/beat-saber-modding-group/wiki/pulls) with your changes. A wiki maintainer will review your changes and merge them in if deemed appropriate.
 
+### A 文 Translating
+Translation efforts are tracked using [GitHub's Project tracker.](https://github.com/bsmg/wiki/projects)
+There you can see the status of each page that needs translating.
+Please [contact the BSMG](http://bit.ly/MessageBSMG) if you'd like to help translate BSMG projects.
+Most of the translation discussion takes place outside of this Git repo, and we can help connect you with the communities working on translation efforts.
+
 ## 🧪 Development
 To run a local copy of the wiki:
 1. Install [Node.js](https://nodejs.org/en/download/)
