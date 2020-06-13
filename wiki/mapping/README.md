@@ -207,7 +207,7 @@ Click on the game window. Then while you are on the Main Menu or Song Select Men
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have [SideQuest](https://sidequestvr.com) and [BMBF](https://github.com/kihecido/BMBF/releases/latest) installed.
 
 1. Zip up the song as normal, only zipping the files and not the folder itself. [How to Video](https://streamable.com/u20ci)
-2. Connect your Oculus Quest to the PC via USB and keep SideQuest open (Optionally, you can turn on Wireless mode to remove it after)
+2. Connect your Oculus Quest to the PC via USB and keep SideQuest open (Optionally, you can turn on and access through Wireless mode. [More Info](https://github.com/the-expanse/SideQuest/wiki/Managing-or-Installing-Songs-and-Mods-on-a-PC-or-on-mobile-devices))
 3. Open BMBF on the Oculus Quest. BMBF must be running for the connection to succeed
 4. Look at the top of SideQuest, which will give you the IP to get into BMBF
 5. Type into any web browser: "192.168.X.XXX:50000" with X being replaced with the IP displayed in SideQuest.   

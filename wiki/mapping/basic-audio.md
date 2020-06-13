@@ -17,6 +17,7 @@ This page provides both new and experienced mappers with general recommendations
 * Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by the game! Processing and exporting from [Audacity](https://www.audacityteam.org/) is the easiest way to ensure your audio file works as expected.
 :::
 1. Download and Install [Audacity](https://www.audacityteam.org/)
+	* Optionally install the [ffmpeg for windows](https://manual.audacityteam.org/man/installing_ffmpeg_for_windows.html) addon to open additional file types such as `.aac` or `.m4a` from iTunes.
 2. [Find the BPM](./basic-audio.html#finding-the-bpm) and offset of your song
 3. [Add a click track](./basic-audio.html#add-a-click-track) to verify your BPM and [sync your song](./basic-audio.html#sync-the-song-to-the-beat)
 4. Figure out if you have [enough intro/silence](./basic-audio.html#plan-your-first-note) at the start of your song and [add silence](./basic-audio.html#add-silence)
