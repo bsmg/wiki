@@ -262,6 +262,11 @@ These are called forbidden patterns for a reason. There is no reason in the worl
 |:----:|:----:|:---- |
 | ![Illustration of a triangle](./images/triangle.png) | ![Editor view of a triangle](./images/triangle-alt.png) | Triangles are patterns that cause incredibly uncomfortable wrist resets  when used at high precision and speed. The pattern breaks the forehand/backhand mechanic and can injure your player. See the [Mapping with Flow](/mapping/basic-mapping.html#do-mapping-with-flow) to revisit this explanation.<br /><br />**Note 1:** Not all triangle shaped patterns are cursed triangles. Make sure you are always crossing the parity line with each swing.<br /><br />**Note 2:** This sort of pattern plays differently at hard difficulties and below when there are a couple of beats between each swing but stay away at Expert and ExpertPlus |
 
+#### Right Triangle
+| Editor View | Explanation |
+|:----:|:---- |
+| ![Editor View of a Right Triangle](./images/right_triangle.png) ![Editor View of a Right Triangle Variant](./images/right_triangle-exit.png) | A variation of a [Triangle](#triangle) that has a 90 degree hit on the first or third note. This is far worse in causing incredibly uncomfortable wrist resets at most speeds compared to a regular Triangle. The pattern breaks the forehand/backhand mechanic and can injure your player. See the [Mapping with Flow](/mapping/basic-mapping.html#do-mapping-with-flow) to revisit this explanation.<br /><br />**Note:** This sort of pattern plays differently at hard difficulties and below when there are a couple of beats between each swing but **absolutely** stay away at Expert and ExpertPlus |
+
 ### MAYBE: Highly Situational Patterns
 These patterns are OK to use but only in very specific circumstances or with very specific setup. It’s best to steer clear of these until you’re much more comfortable with mapping.
 
