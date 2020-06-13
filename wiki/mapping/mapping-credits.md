@@ -85,6 +85,10 @@ Makes playlists and dabbles in audio editing. Authored content in [Basic Audio S
 Wrote *Beginner's Lighting Guideline*, a guide that was integrated into [Basic Lighting](/mapping/basic-lighting.md).  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85380d) | [BeastSaber](https://bsaber.com/members/puds/)
 
+## Pyrowarfare
+A Bsaber curator and contributed the majority of content for [How to Playtest](./how-to-testplay.md).  
+[Beatsaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf) | [BeastSaber](https://bsaber.com/members/pyrowarfare/)
+
 ## Ris
 Wrote *Warping Variable BPM Songs with Reaper* based off of a method by **Heisenberg_IRL** that was integrated into [Advanced Audio Editing: Variable BPM](/mapping/advanced-audio.html#variable-bpm).  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c8535df) | [BeastSaber](https://bsaber.com/members/ris/)

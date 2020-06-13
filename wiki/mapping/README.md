@@ -227,6 +227,8 @@ For example, from the picture you would enter `192.168.0.19:50000` into a web br
 ### Community / Third Party Testing
 The `#testplays` channel in the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) makes it easy to have your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in either video or text format in a DM or in the `#mapping-discussion` channel.
 
+Interested in helping out? See [How to Testplay](./how-to-testplay.md) to get started!
+
 1. Create a compressed .zip file of the individual song files [How to Video](https://streamable.com/u20ci).
 2. Upload your map to `#testplays` using the following format:  
   * **Map:** The name and artist of your map  
