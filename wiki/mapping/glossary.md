@@ -21,7 +21,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 ## B
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
-| **Backhand** | A swing where the majority of the work is done by the back of the hand. See this clip in [Fru's Tutorial Video](https://youtu.be/t9AFj4pfptM?=454) for more info. Related: [Forehand](#f) |
+| **Backhand** | A swing where the majority of the work is done by the back of the hand. See this clip in [Fru's Tutorial Video](https://youtu.be/t9AFj4pfptM?t=454) for more info. Related: [Forehand](#f) |
 | **Beats per Minute** | Defines the *tempo* (speed) of a song. The number of beats that occur in one minute. Abbreviated *BPM* |
 | **BeatSaver** | The repository for all custom songs in Beat Saber. Songs uploaded here feed automatically to Beast Saber. |
 | **Block** | A cube with either an arrow or dot on it. The primary element of gameplay. By default, blocks are red or blue. Also known as *Note* |
@@ -78,7 +78,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **First Person Flying Control** | A launch option available to SteamVR and Oculus users to launch Beat Saber and have limited keyboard and mouse control over the game in a first person view. Very helpful for getting an accurate preview of lighting or walls or accessing the official editor. Abbreviated FPFC |
 | **Fixed BPM** | A song with a consistent BPM from start to finish with no variation. Also known as Single BPM. See also Variable BPM |
 | **Flow** | The concept of placing block patterns so that the next swing a player makes feels natural and allows the body to move in proper ways. |
-| **Forehand** | A swing where the majority of the work is done by the palm side of the hand. See this clip in [Fru's Tutorial Video](https://youtu.be/t9AFj4pfptM?=454) for more info. Related: [Backhand](#b) |
+| **Forehand** | A swing where the majority of the work is done by the palm side of the hand. See this clip in [Fru's Tutorial Video](https://youtu.be/t9AFj4pfptM?t=454) for more info. Related: [Backhand](#b) |
 | **FPFC** | Acronym for First Person Flying Control |
 
 ## G
