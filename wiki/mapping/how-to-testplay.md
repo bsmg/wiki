@@ -24,7 +24,7 @@ It is important that you play the map in Practice Mode in order to prevent creat
 
 6. Write up your feedback! What didn’t feel very good? What did you struggle with? Did you think the map was great and you enjoyed it? Not every map has issues, so if you found the map to be fine, it’s totally acceptable to sum that up with one line. However, if you’re on the fence about anything, just mention it! It’s up to the mapper how they want to receive your feedback.
 
-7. Find the mapper’s name, and @ (ping) them in the #mapping-discussion channel, or DM them, with your feedback. Make sure to remind them to mark their map with :octagonal_sign: upon editing or releasing their map. 
+7. Find the mapper’s name, and @ (ping) them in the `#mapping-discussion` channel, or DM them, with your feedback. Make sure to remind them to mark their map with `:octagonal_sign:` upon editing or releasing their map. 
 
 8. Once you’re done, go back to the post and mark it with `:white_check_mark:` (:white_check_mark:) to indicate you’ve completed the map and given feedback. As well, make sure to mark the map with the letter indicative of the difficulty you tested, if the map has multiple difficulties and you did not test them all. You can find these in the pins of the `#testplays` channel.  
 ![Feedback Reactions](./images/feedback_reactions.png)
@@ -34,7 +34,7 @@ If you found the map you downloaded was too difficult for you to provide feedbac
 :::
 
 ## Stepping it Up with Video
- Enjoyed your first taste of testplaying? you’re not alone! While all feedback is great, some feedback is more helpful with a broader spectrum of issues. If you’re ready to step up your testplaying game, you should look at including a video of your playthrough, and having a grasp over the fundamentals of mapping. 
+ Enjoyed your first taste of testplaying? You’re not alone! While all feedback is great, some feedback is more helpful with a broader spectrum of issues. If you’re ready to step up your testplaying game, you should look at including a video of your playthrough, and having a grasp over the fundamentals of mapping. 
  
  While no one is going to ask you to write a 500 word essay on triangles, you should know what DDs, handclaps, and face blocks are, to help new mappers. All of the mapping fundamentals you could ever need are covered in this wiki on the [Basic Mapping](./basic-mapping.md) page. Just remember, we were all new once, and no one expects you to know everything!
 
