@@ -331,7 +331,7 @@ To generate a compatible sound file to use we need to do the following:
 
 The song/audio file is now ready to be used in any map editor. Input the same BPM you got earlier in your map editor of choice and make sure to use 0ms offset for all difficulties (since the song is already synced to the beat).
 ::: warning NOTE
-Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file limit. If this is the case export at a lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord (without Nitro) for playtesting.
+Audio file should not be larger than ~12 MB due to the BeatSaver 14.3 MB ZIP file limit. The 15 MB listed is not accurate at this time. If this is the case export at a lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord (without Nitro or Server Boost Level 2) for playtesting.
 :::
 
 ## Credits

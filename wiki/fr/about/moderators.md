@@ -82,7 +82,7 @@ Combien de statistiques pouvont nous faire rentrer dans un seul mod de compteurs
 ## Pink
 Le seul modérateur à nous ignorer quand on demande une description pour cette page.
 
-**Rôles :** Artiste 3D, Modérateur, Support
+**Rôles :** Artiste 3D, Modérateur, Support, Moddeur
 
 **Contributions :** Un tas de modèles et mods Quest
 

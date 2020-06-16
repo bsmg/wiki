@@ -27,10 +27,11 @@ You can also visit `#mapping-discussion` on the [Beat Saber Modding Group Discor
 Text guides aren't your thing? Checkout these video series!  
 **Remember:** The text guides on this wiki are more up to date as it is easier and quicker to change.
 
-#### Recommended Series
-* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm)
+#### Recommended
+* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) - a comprehensive series on making your first map.
+* [Cyrix's Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw) - covers the most common issues discussed in [Basic Mapping](/mapping/basic-mapping.md).
 
-#### Legacy Video Series
+#### Legacy Videos
 ::: warning
 These series use older editors in their tutorials (Mediocre Mapper and EditSaber). The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
 :::
@@ -49,6 +50,7 @@ Before mapping, you need to get your audio file ready so that it works with your
 ::: warning
 Community editors often have more features and don't require a VR headset, but they can be buggy, so use with caution.
 :::
+Keyboard shortcuts for these editors are available inside their respective in-editor menus with a cross-reference between all of them [available here](/mapping/editor-keybinds.md).
 
 #### Mediocre Map Assistant 2
 MMA2 is the most feature rich 3D editor and is used by the majority of the mapping community.
@@ -123,7 +125,7 @@ Python program that converts stepmania `.sm` files to Beat Saber `.dat` files fo
 * [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
 Easily compile a game playlist from a txt file containing Beatsaver map keys.
 * [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) by **DarkGrisen**  
-Ever thought that it is a lot of annoying work to make big maps with other people or  to perfectly cut the audio files so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map. 
+Ever thought that it is a lot of annoying work to make big maps with other people or to perfectly cut the audio files so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map. 
 * [BPM Saber](https://bsaber.com/bpmsaber/) by **Elliotttate**  
 A utility for finding the BPM of a song by upload or tapping.
 * [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
@@ -198,7 +200,7 @@ Click on the game window. Then while you are on the Main Menu or Song Select Men
 :::tip NOTE
 * You will need to have the **SongCore** mod installed in order to see the CustomWIPLevels category and use the <kbd>Ctrl + r</kbd> shortcut.
 * Having duplicate map files in `CustomLevels` and `CustomWIPLevels` can cause problems.
-* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by the game! Using Audacity and following the steps in [Basic Audio Setup](./mapping/basic-audio.md) is the easiest way to ensure your map loads in-game.
+* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by the game! Using Audacity and following the steps in [Basic Audio Setup](./basic-audio.md) is the easiest way to ensure your map loads in-game.
 :::  
 
 ### Testing on a Quest
@@ -219,7 +221,7 @@ For example, from the picture you would enter `192.168.0.19:50000` into a web br
 :::tip NOTE
 * If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through BMBF.
 * BMBF may have issues importing your map if your song file or cover image name contains `-` or spaces. You may need to rename these files and update the song info accordingly for a successful upload.
-* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by BMBF! Using Audacity and following the steps in [Basic Audio Setup](./mapping/basic-audio.md) is the easiest way to ensure your map loads in-game.
+* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by BMBF! Using Audacity and following the steps in [Basic Audio Setup](./basic-audio.md) is the easiest way to ensure your map loads in-game.
 :::
 
 ### Community / Third Party Testing
@@ -290,7 +292,7 @@ ___
 
 **Something went wrong! Try again later.**   
   This is the default error message, causes include:  
-  * An upload that is close to the 15 MB limit. Reduce the audio export quality slightly to make space.  
+  * An upload that is close to or over the actual file size limit of 14.3 MB. The 15 MB listed is not accurate at this time. Reduce the audio export quality slightly to make space.  
   * Unsupported characters are present in a file. Make sure your metadata and bookmarks don't contain special characters such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ).  
     * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit** may be useful in finding the specific problem.
   * Expired web session. If you refresh the page, you should be logged out. Login and try to upload again.

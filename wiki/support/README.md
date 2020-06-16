@@ -232,6 +232,9 @@ Deleting the Appdata folder will also delete your local scores and statistics.
 :::
 
 #### Desperate Measures
+::: warning
+Disabling your anti-virus involves security risks, be sure to know what you're doing (i.e don't download or open suspicious files while it's turned off) and don't forget to re-enable it as soon as you finished these steps.
+:::
 * Make sure your current user **is an administrator**
 * Turn your anti-virus **Off** (for the meantime at least)
 * Ensure that you have permission to create folders and edit files within the disk drive/your pc, (from what I heard a windows update recently caused problems for people)
