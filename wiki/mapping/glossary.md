@@ -21,6 +21,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 ## B
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
+| **Backhand** | A swing where the majority of the work is done by the back of the hand. See this clip in [Fru's Tutorial Video](https://youtu.be/t9AFj4pfptM?t=454) for more info. Related: [Forehand](#f) |
 | **Beats per Minute** | Defines the *tempo* (speed) of a song. The number of beats that occur in one minute. Abbreviated *BPM* |
 | **BeatSaver** | The repository for all custom songs in Beat Saber. Songs uploaded here feed automatically to Beast Saber. |
 | **Block** | A cube with either an arrow or dot on it. The primary element of gameplay. By default, blocks are red or blue. Also known as *Note* |
@@ -39,6 +40,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **Cover Image** | The square image associated with the song loaded into the song browser. Must be a minimum of 256x256 pixels but not recommended to be more than 512x512 pixels. |
 | **Crouch Wall** | A *wall* blocking the upper portion of the playspace which forces the player to crouch to avoid.  |
 | **Crossover** | A *block* placed on its opposite-handed side. Example: A blue block placed in lanes one or two, or a red block placed in lanes three or four, primarily when the pattern forces the players’ arms to “cross over” to play. |
+| **Crossover Scissor** | Otherwise known as a *Pickle*, is when a red and blue note are on the same timing, on the opposite-handed side, and are hit simultaneously in opposite directions. Related: [Scissor](#s) ![Crossover Scissor Example](./images/arm-tangle.png) |
 | **Cursor Precision** | The musical duration of the spacing between *notes*. Typically 1/1 (one note per beat), 1/2 (one note per half beat), or 1/4 (one note per quarter beat). Also known as *Precision* |
 
 ## D
@@ -76,6 +78,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **First Person Flying Control** | A launch option available to SteamVR and Oculus users to launch Beat Saber and have limited keyboard and mouse control over the game in a first person view. Very helpful for getting an accurate preview of lighting or walls or accessing the official editor. Abbreviated FPFC |
 | **Fixed BPM** | A song with a consistent BPM from start to finish with no variation. Also known as Single BPM. See also Variable BPM |
 | **Flow** | The concept of placing block patterns so that the next swing a player makes feels natural and allows the body to move in proper ways. |
+| **Forehand** | A swing where the majority of the work is done by the palm side of the hand. See this clip in [Fru's Tutorial Video](https://youtu.be/t9AFj4pfptM?t=454) for more info. Related: [Backhand](#b) |
 | **FPFC** | Acronym for First Person Flying Control |
 
 ## G
@@ -101,6 +104,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **Info File** | The primary map file that includes information and metadata for all difficulties of a map. In 2.0 song format this file is a .dat file. In 1.0 song format this was a .json file. See also Difficulty File |
 | **Inline** | Patterns that remain in one column/lane and row/layer for 2 or more blocks in a row. Typically refers to two alternating colors, but not always. |
 | **Inner Ring** | A small ring around the track found in some in-game environments. |
+| **Invert** | Blocks placed on the outer edge of the grid pointing inwards (towards the center). |
 
 ## JK
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
@@ -124,6 +128,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 ## M
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
+| **Map Blindness** | Mapper blindness arises when a mapper has spent so much time on a map. You know the patterns, you know your intentions. You've self tested it so many times. Eventually, muscle memory and subconscious kicks in, and you can play the map with your eyes closed, regardless of flaws. |
 | **Mapping Extensions** | A mod developed by Kyle1314 that allows mappers access to a number of unique utilities for advanced mapping. See also Precision Placement, Precision Rotation, JSON Walls |
 | **Mediocre Map Assistant 2** | A new fork of Mediocre Mapper by Assistant. The primary map editor used by the mapping community. |
 | **Mediocre Mapper** | An outdated editor, developed by squeaksies as a fork of the original EditSaber editor by Ikiewa. No longer in public development or supported by its author it has been forked to created **Mediocre Map Assistant 2**. |
@@ -177,12 +182,15 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **Release** | The act of publishing a finished map on BeatSaver. Once a map is released it can be downloaded and played by anyone. Do not release unfinished or untested maps |
 | **Reset** | The action of bringing your arms back to their “ready” position, as if no blocks have been hit recently. Mappers can also attempt to reset the player by using bombs to force arm movement. See also Bomb Reset |
 | **RGB** | A style of lighting that requires Chroma and allows lighting events to be any color and often uses more than two colors. |
+| **Right Triangle** | Variation of a [Triangle](#t) where there is a 90 degree hit in the sequence causing major comfort issues at lower precision. |
 | **Row** | Vertical divisions above the track, down which blocks travel. The default track has three rows (bottom, middle, top). Also known as Layer. See also: Lane, Column |
 
 ## S
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
 | **Scoresaber** | The organization responsible for managing the ranked Beat Saber leaderboards. |
+| **Scissor** | Otherwise known as a *Cucumber*, is when a red and blue note are on the same timing, and are hit simultaneously in opposite directions. Related: [Crossover Scissor](#c) ![Scissor Example](./images/scissor-cucumber_example.png) |
+| **Scoop** | A pattern of blocks where the player makes a "scooping" motion to play the pattern. Typically a left or right note followed by an up note, in the bottom row.  Give the player ample time to react when using scoops, a half to full beat is recommended. <br> ![Scoop Example](./images/scoop_example.png) |
 | **Setup** | The process of maneuvering the players arms into position for a pattern via appropriate placement of the preceding blocks. |
 | **Single** | A single block hit with one saber. Typically makes up the majority of patterns in a map. See also Double |
 | **Single BPM** | A song with a consistent BPM from start to finish with no variation. Also known as Fixed BPM. See also Variable BPM |
