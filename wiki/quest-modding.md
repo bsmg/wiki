@@ -29,7 +29,7 @@ Once they've successfully installed, make sure you have the latest version of Be
 Run Beat Saber once and close it before modding!
 :::
 
-After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown Sources in your library. Follow each step exactly as you're told, and then you should be see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
+After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown Sources in your library. Follow each step exactly as you're told, and then you should see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
 
 If, at any point during the install process, you get the `Restore App` popup just click `Close`, the warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences for ignoring it.
 
@@ -109,7 +109,7 @@ ___
 ### BMBF web interface not loading
 If your BMBF Web Interface is not loading be sure that you're typing the ip from the tools tab into your browser on your computer thats on the same network.
 Make sure that:
-1) Your IP is not `127.0.0.1`
+1) Your IP is not `127.0.0.1`, if that shows up try rebooting your headset and/or router.
 2) BMBF is open in the headset
 3) There is `http://` at the beginning of the link, not `https://`
 4) You have `:50000` at the end of your link
