@@ -30,17 +30,20 @@ jobs:
           APP_PEM: ${{ secrets.APP_PEM }}
           APP_ID: ${{ secrets.APP_ID }}
 
-      - name: Check original pages status and update issues
+      - name: Check original pages status and update translation Projects
         if: env.ENABLE == '1ENABLED'
-        uses: Awagi/wiki-update-tracker@v1.5
+        uses: Awagi/wiki-update-tracker@v1.7.1
         with:
           repo-path: $GITHUB_WORKSPACE
           original-path: "wiki"
           ignored-paths: "wiki/LICENSE,wiki/.vuepress"
-          translation-paths: "wiki/fr"
+          translations: "fr:wiki/fr"
           file-suffix: ".md"
           bot-label: "BOT"
           token: ${{ steps.get_token.outputs.app_token }}
           log-level: "DEBUG"
+          auto-create: "1"
+          update-issues: "0"
+          update-projects: "1"
     env:
         ENABLE: ${{ secrets.ENABLE_WUT }}

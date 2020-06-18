@@ -40,13 +40,6 @@ Heart of gold, nerves of steel.... And a knob of butter
 
 **Roles:** Support
 
-## Chara_
-I like smiling and gaming the gamer games SmileW :)
-
-**Roles:** Support, 3D Artists
-
-[Discord](https://discord.gg/NXnPYEh) | [Youtube](https://www.youtube.com/c/CharaHere)
-
 ## Simme63
 "Coke Head"
 
@@ -70,6 +63,6 @@ Created by Megalon, recreated by lolPants, and personified by Rolo!
 ::: tip See Also
 **Modders:** [Kyle1413](/about/modders.md#kyle1413)
 **Staff:** [Assistant](/about/staff.md#assistant) | [Klouder](/about/staff.md#klouder) | [Megalon](/about/staff.md#megalon) | [Steven](/about/staff.md#steven) | [williums](/about/staff.md#williums) | [Melopod ƸӜƷ](/about/staff.md#melopod-ƹӝʒ)
-**Moderators:** [Razor](/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [Pink](/about/moderators.md#pink)
+**Moderators:** [Razor](/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [Pink](/about/moderators.md#pink) | [Chara_](https://bsmg.wiki/about/moderators.html#chara)
 **3D Artists:** [RedBrumbler](/about/3d-artists.md#redbrumbler)
 :::

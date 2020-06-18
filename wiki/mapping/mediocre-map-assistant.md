@@ -113,7 +113,7 @@ The `Song Info` page is the first screen you see every time you edit a map.
 On the left side of the `Song Info` page is information that applies to your whole map. See [Beat Saber Metadata Criteria](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) for standards on presenting complex song names and multiple artists.
 
 ::: warning
-Special characters such as those found in, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ) are not fully supported by Beat Saber or Beatsaver. Using these characters in song metadata or in bookmarks will cause problems.
+Special characters such as those found in, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ) are not fully supported by Beatsaver. Using these characters in song metadata or in bookmarks will cause problems.
 :::
 
 * **Song Name:** The primary name of the song
@@ -172,11 +172,10 @@ Mapping settings can be accessed by clicking the hamburger menu in the top right
 * **<kbd>Make/Delete Bookmark</kbd>**: This button will add a bookmark at the current cursor placement if one doesn't exist (add a name and hit enter to save) or will delete an existing bookmark
 * **<kbd>Set Preview Start at Cursor</kbd>**: This button allows you to quickly reset the beginning of your in-game music preview at the cursor location
 
-## Basic Controls
+## Editor Controls
 There are usually multiple ways to accomplish the same action, however, the keyboard shortcuts at the link below are the most efficient.
 
-* [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing)
-* To get the lighting menu, press <kbd>Tab</kbd> while editing the map.
+* [Editor Keybinds](/mapping/editor-keybinds.md)
 
 ## Error Checker
 The **Error Checker** functionality is one of the top quality of life features found in MMA2. Access the error checker by clicking <kbd>SHIFT+TAB</kbd> to check for vision blocks, double directionals, stacked notes, and view map stats.

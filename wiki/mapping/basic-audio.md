@@ -17,6 +17,7 @@ This page provides both new and experienced mappers with general recommendations
 * Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by the game! Processing and exporting from [Audacity](https://www.audacityteam.org/) is the easiest way to ensure your audio file works as expected.
 :::
 1. Download and Install [Audacity](https://www.audacityteam.org/)
+	* Optionally install the [ffmpeg for windows](https://manual.audacityteam.org/man/installing_ffmpeg_for_windows.html) addon to open additional file types such as `.aac` or `.m4a` from iTunes.
 2. [Find the BPM](./basic-audio.html#finding-the-bpm) and offset of your song
 3. [Add a click track](./basic-audio.html#add-a-click-track) to verify your BPM and [sync your song](./basic-audio.html#sync-the-song-to-the-beat)
 4. Figure out if you have [enough intro/silence](./basic-audio.html#plan-your-first-note) at the start of your song and [add silence](./basic-audio.html#add-silence)
@@ -331,7 +332,7 @@ To generate a compatible sound file to use we need to do the following:
 
 The song/audio file is now ready to be used in any map editor. Input the same BPM you got earlier in your map editor of choice and make sure to use 0ms offset for all difficulties (since the song is already synced to the beat).
 ::: warning NOTE
-Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file limit. If this is the case export at a lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord (without Nitro) for playtesting.
+Audio file should not be larger than ~12 MB due to the BeatSaver 14.3 MB ZIP file limit. The 15 MB listed is not accurate at this time. If this is the case export at a lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord (without Nitro or Server Boost Level 2) for playtesting.
 :::
 
 ## Credits

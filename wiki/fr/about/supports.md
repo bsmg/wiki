@@ -35,12 +35,29 @@ Coeur en or, nerfs d'acier... Et une noix de beurre
 
 **Rôles :** Support
 
-## Chara_
-J'aime sourire et jouer le jeu des joueurs SmileW :)
+## boulders2000
+"même si c'est le bazar dans sa tête il sait ce qu'il fait (plutôt)" quelque chose comme ça (mais n'ajoute pas la partie quelque chose comme ça, ok ?)
 
 **Rôles :** Support
 
+## Chara_
+J'aime sourire et jouer le jeu des joueurs SmileW :)
+
+**Rôles :** Support, Artiste 3D
+
 [Discord](https://discord.gg/NXnPYEh) | [Youtube](https://www.youtube.com/c/CharaHere)
+
+## Simme63
+"Coke Head"
+
+**Rôles :** Support
+
+## Sands
+Il n'a pas de vie et il est un peu bête mais il peut vous aider concernant BMBF et c'est tout ce qui compte n'est-ce pas ?
+
+**Rôles :** Support
+
+[Youtube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
 
 ## Channel Monitor Bot
 Le robot qui maintient tout ensemble.
