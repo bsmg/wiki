@@ -92,3 +92,22 @@ Any stroopwafels?
 **Roles:** Moderator  
 
 [Twitch](https://twitch.tv/olafstad)
+
+## Chara_
+gaming 101
+
+**Roles:** Support, 3D Artists, Moderator
+
+[Discord](https://discord.gg/NXnPYEh) | [Youtube](https://www.youtube.com/c/CharaHere)
+
+## Hydrand
+Camellia is SourPls
+
+**Roles:** Mapper, Moderator
+
+[Twitch](https://www.twitch.tv/hydrandvr)
+
+## Guatapuri
+"Came for the game, Stayed for the hugs"
+
+**Roles:** Mapper, Moderator
