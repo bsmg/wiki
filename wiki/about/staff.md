@@ -52,7 +52,7 @@ Project manager, wiki maintainer, bread baker. Despite what everyone says, I lik
 ## Umbranox
 ScoreSaber Supreme Leader, creator of the custom leaderboards/rank system. Always trying to do way too much work with not enough rest. Remember to pat your Umbranox once a day!
 
-**Roles:** Staff 
+**Roles:** Staff  
 **Contributions:** ScoreSaber
 
 [Twitch](https://www.twitch.tv/umbranoxius) | [Twitter](https://twitter.com/Umbranoxus) | [Patreon](https://www.patreon.com/scoresaber)
@@ -87,6 +87,14 @@ He's either talking about Steven or being way too patriotic in chat (BS Nordic A
 **Roles:** Staff, Moderator, Mapper
 
 [Twitch](https://twitch.tv/justsamuelok) | [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850326)
+
+## Bloodcloak
+Really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps.     
+
+**Roles:** Staff, Mapping Support, Mapper  
+**Contributions:** Wiki Mapping Resources 
+
+[Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
 
 ## Balsa (retired)
 BeatSaver creator - he's the reason we have somewhere to get our custom songs in the first place. He shows up in once in awhile to show off BeatSaver numbers, call us nerds, and present his collection of finely aged memes. He's since stepped down from the staff team but we wouldn't be here without him.

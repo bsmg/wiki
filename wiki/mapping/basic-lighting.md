@@ -210,6 +210,8 @@ After installing the mods and adding the launch parameter you should then enter 
   - Press the <kbd>G</kbd> key until the headset displays the game  
 **==OR==** 
   - Quit the game, remove the launch option, and relaunch the game.
+
+- If the mod doesn't seem to be working, make sure the in-game Smooth Camera setting is disabled. 
 :::
 
 ### Online with BS Viewer

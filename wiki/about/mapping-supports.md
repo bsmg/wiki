@@ -5,10 +5,6 @@ The Mapping Support role is a symbol of thanks. Thanks for the thousands of mess
 For some reason, spends way more time talking about mapping then actually mapping.  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855ce3) | [BeastSaber](https://bsaber.com/members/alzaraf/)
 
-## Bloodcloak
-Really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps.     
-[Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
-
 ## CyanSnow
 A furry on Mondays and Wednesdays, makes awesome maps with various gimmicks pushing mapping to the limit.  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8543ac) | [BeastSaber](https://bsaber.com/members/cyansnow/)
@@ -26,5 +22,5 @@ Bringer of eye damage with his flashy light shows, he can help you make your map
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f) | [BeastSaber](https://bsaber.com/members/skeelie/) | [Youtube](https://www.youtube.com/user/xSkeelie) | [Twitch](https://www.twitch.tv/skeelie)
 
 ::: tip See Also
-**Supports:** [Kolezan](/about/supports.md#kolezan)
+**Staff:** [Bloodcloak](/about/staff.md#bloodcloak) | **Supports:** [Kolezan](/about/supports.md#kolezan)
 :::
