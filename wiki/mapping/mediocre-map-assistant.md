@@ -13,6 +13,10 @@ This guide currently supports both [Mediocre Map Assistant 2](https://github.com
 ## Editor Setup
 ### Installation
 1. Download MMA2.zip from [GitHub](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) 
+:::danger NOTE
+The download link for MMA2 is currently down. We are currently working to resolve this issue. Please hop over to the `#mapping-discussion` channel in the [BSMG Discord](https://discord.gg/beatsabermods) for more info. 
+:::
+
 2. Unzip the file and place the extracted folder wherever you like on your hard drive.
 3. Double click `mediocremapassistant2.exe` in the extracted folder to run.
 
@@ -227,11 +231,8 @@ Keep clicking the “Check for Double Directionals” button… sometimes fixing
 When you’re ready, click the Stat Panel button to open an incredibly helpful information window. You can get information by hovering over each title.
 
 ::: tip
-Use <kbd>CTRL</kbd>+scroll to select a section you want to check the stats for, hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd> and click the <kbd>Stats Panel</kbd> button to see values for that section only.
-:::
-
-::: tip
-Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See this [updated list of OST tracks](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4/edit?usp=sharing) for the latest (and greatly increased) NPS ranges.
+* Use <kbd>CTRL</kbd>+scroll to select a section you want to check the stats for, hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd> and click the <kbd>Stats Panel</kbd> button to see values for that section only.
+* Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See this [updated list of OST tracks](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4/edit?usp=sharing) for the latest (and greatly increased) NPS ranges.
 :::
 
 | Example | Explanation |
