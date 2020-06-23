@@ -304,4 +304,5 @@ ___
 
 
 ## Credits
-Content in this section was authored by [Helen Carnate](/mapping/mapping-credits.html#helen-carnate) and [Bloodcloak](/mapping/mapping-credits.html#bloodcloak).
+Content in this section was authored by [Helen Carnate](/mapping/mapping-credits.html#helen-carnate) and [Bloodcloak](/mapping/mapping-credits.html#bloodcloak).  
+The Linux Install part was written by [Gabmiral](/mapping/mapping-credits.html#gabmiral).
