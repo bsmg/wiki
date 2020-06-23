@@ -45,7 +45,7 @@ A mapper who focuses on creating accessible low expert+ and below maps. Original
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c852683) | [BeastSaber](https://bsaber.com/members/fruhead/)
 
 ## Gabmiral
-Wrote the *MMA2 under Linux* part of the MMA2 tutorial. Actually not a mapper.
+Wrote the *MMA2 under Linux* part of the MMA2 tutorial. Actually not a mapper.  
 [GitHub](https://github.com/gabmiral/)
 
 ## The Good Boi
