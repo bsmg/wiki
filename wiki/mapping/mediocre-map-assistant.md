@@ -69,12 +69,14 @@ It is **VERY** important to unzip the file in step 2 and only run the exe in the
 The first time you run MMA2 you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
 
 **If you have Beat Saber installed on the computer:**
-* Give MMA2 the path to the two appropriate folders
-* Not Known... Let us know what you find by filling out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform)!
+* Give MMA2 the path to the two appropriate folders, precedented by `Z:`.
+  * For example, if the CustomLevels is located at `/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomLevels`, you should write `Z:/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomLevels` (and do the same modification for the `CustomWIPLevels` directory).
+* To find where Beat Saber is installed, right-click Beat Saber in Steam, go to Manage > Browse Local Files.
+* The folders should be located under the `Beat Saber_Data` directory.
 
 **If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
-* Make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them. Note that the usual Linux paths (for example : `/home/bsmg/apps/MMA2/CustomLevels` and `/home/bsmg/apps/MMA2/CustomWIPLevels`) need to be prefixed with `Z:`.
-   * Result (for the example) : `Z:/home/bsmg/apps/MMA2/CustomLevels` and `Z:/home/bsmg/apps/MMA2/CustomWIPLevels` 
+* Make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them. Note that the usual Linux paths (for example : `/home/bsmg/MMA2/CustomLevels` and `/home/bsmg/MMA2/CustomWIPLevels`) need to be prefixed with `Z:`.
+   * Result (for the example) : `Z:/home/bsmg/MMA2/CustomLevels` and `Z:/home/bsmg/MMA2/CustomWIPLevels` 
 <p align="center">
 ![Screenshot of Mediocre Mapper path entry for Linux](./images/mma2-linux-path.png)
 </p>
