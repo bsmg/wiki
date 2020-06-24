@@ -11,7 +11,7 @@ This guide currently supports both [Mediocre Map Assistant 2](https://github.com
 :::
 
 ## Editor Setup
-### Installation
+### Windows Installation
 1. Download MMA2.zip from [GitHub](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) 
 :::danger NOTE
 The download link for MMA2 is currently down. We are currently working to resolve this issue. Please hop over to the `#mapping-discussion` channel in the [BSMG Discord](https://discord.gg/beatsabermods) for more info. 
@@ -24,23 +24,7 @@ The download link for MMA2 is currently down. We are currently working to resolv
 It is **VERY** important to unzip the file in step 2 and only run the exe in the new folder instead of the one inside the zip as not doing so will cause issues with map creation and editing!
 :::
 
-### Installation and First Time Setup under Linux
-1. Download MMA2.zip from [GitHub](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) 
-:::danger NOTE
-The download link for MMA2 is currently down. We are currently working to resolve this issue. Please hop over to the `#mapping-discussion` channel in the [BSMG Discord](https://discord.gg/beatsabermods) for more info. 
-:::
-
-2. Unzip the file and place the extracted folder wherever you like on your hard drive.
-3. Open Steam. At the top of the window, go to Steam > Settings > Steam Play. In the `Advanced` section, check "Enable Steam Play for all other titles" if it isn't already. If you are prompted to restart Steam, do so.
-3. Add MMA2 as a Non-Steam game. On the bottom right of Steam's main window, click "Add a Game", then "Add a Non-Steam Games". A window opens, click "Browse" at the bottom. Select `All Files` as the file type. Find where `MediocreMapAssistant2.exe` is, and add it.
-4. You need to install Proton. To do so, search for "Proton" in the Steam search bar, then install the latest version.
-5. Right-click the MediocreMapAssistant2.exe shortcut, and open the Properties menu. Check "Fprce the use of a specific Steam Play compatibility tool, and select the latest version of Proton in the dropdown menu. At this step, you might also want to rename and add an icon to the shortcut (note: MMA2 does **not** come with any kind of logo in a usable form).
-6. Launch MMA2 (from Steam).
-7. When prompted for your `CustomLevels` and `CustomWIPLevels`, enter their full paths precedented by `Z:` (In my case : `Z:/home/gabmiral/apps/MMA2/CustomLevels` and `Z:/home/gabmiral/apps/MMA2/CustomWIPLevels`). If you don't have BeatSaber on your PC, create these folders somewhere. When it is done, press Enter.
-8. Check on the right part of MMA2's window for paths. If something in wrong or missing, write the paths again, then press <kbd>Enter</kbd>.
-9. You finished installing MMA2 on Linux ! Every time you will want to use MMA2, just start MMA2 via Steam. You can also create a shortcut by right-clicking the MMA2 shortcut in Steam, then clicking "Add Desktop Shortcut" under the "Manage" section.  You can now head over to the [Editor Settings](/mapping/mediocre-map-assistant.html#editor-settings).
-
-### First Time Setup
+#### First Time Setup
 The first time you run MMA2 you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
 
 **If you have Beat Saber installed on the computer:**
@@ -64,7 +48,40 @@ instead of
 `C:\Steam\steamapps\common\Beat SaberBeat Saber_Data\CustomLevels`
 :::
 
-#### Check the WIP File Path
+### Linux Installation
+1. Download MMA2.zip from [GitHub](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) 
+:::danger NOTE
+The download link for MMA2 is currently down. We are currently working to resolve this issue. Please hop over to the `#mapping-discussion` channel in the [BSMG Discord](https://discord.gg/beatsabermods) for more info. 
+:::
+
+2. Unzip the file and place the extracted folder wherever you like on your hard drive.
+3. Open Steam. At the top of the window, go to `Steam > Settings > Steam Play`. In the `Advanced` section, check `Enable Steam Play for all other titles` if it isn't already. Restart Steam if you are prompted to do so.
+3. On the bottom right of Steam's main window, click `Add a Game`, then `Add a Non-Steam Games`. A window opens, click `Browse` at the bottom. Select `All Files` as the file type. Find where `MediocreMapAssistant2.exe` is, and add it.
+4. Search for `Proton` in the Steam search bar, then install the latest version.
+5. Right-click the `MediocreMapAssistant2.exe` shortcut, and open the Properties menu. Check `Force the use of a specific Steam Play compatibility tool`, and select the latest version of Proton in the dropdown menu. At this step, you might also want to rename and add an icon to the shortcut as Linux cannot read the built in logo for MMA2.
+6. You can now use MMA2 by starting it through Steam. You can also create a shortcut by right-clicking the MMA2 shortcut in Steam, then under the `Manage` section clicking `Add Desktop Shortcut`.
+
+::: warning 
+It is **VERY** important to unzip the file in step 2 and only run the exe in the new folder instead of the one inside the zip as not doing so will cause issues with map creation and editing!
+:::
+
+#### Linux First Time Setup
+The first time you run MMA2 you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
+
+**If you have Beat Saber installed on the computer:**
+* Give MMA2 the path to the two appropriate folders
+* Not Known... Let us know what you find by filling out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform)!
+
+**If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
+* Make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them. Note that instead of the usual Linux path `/home/bsmg/apps/MMA2/CustomLevels` and `/home/bsmg/apps/MMA2/CustomWIPLevels`, they need to be prefixed with `Z:`.
+   * Result: `Z:/home/bsmg/apps/MMA2/CustomLevels` and `Z:/home/bsmg/apps/MMA2/CustomWIPLevels` 
+<p align="center">
+![Screenshot of Mediocre Mapper path entry](./images/mma2-folder-path.jpg)
+</p>
+
+All of your working map files will go into a song name folder within this CustomWIPLevels folder.
+
+### Check the WIP File Path
 It is currently a known bug that the path given from setup does not carry over to the main screen. Make sure the fields have the paths from your setup and are not blank. If blank, add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and press <kbd>Enter</kbd> to confirm!  
 ![Check Paths Not Blank](./images/mma2-checkWipSongPath.png)
 
@@ -304,5 +321,4 @@ ___
 
 
 ## Credits
-Content in this section was authored by [Helen Carnate](/mapping/mapping-credits.html#helen-carnate) and [Bloodcloak](/mapping/mapping-credits.html#bloodcloak).  
-The Linux Install part was written by [Gabmiral](/mapping/mapping-credits.html#gabmiral).
+Content in this section was authored by [Helen Carnate](/mapping/mapping-credits.html#helen-carnate), [Bloodcloak](/mapping/mapping-credits.html#bloodcloak), and [Gabmiral](/mapping/mapping-credits.html#gabmiral).
