@@ -73,10 +73,10 @@ The first time you run MMA2 you will need to direct it to the location of two fo
 * Not Known... Let us know what you find by filling out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform)!
 
 **If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
-* Make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them. Note that instead of the usual Linux path `/home/bsmg/apps/MMA2/CustomLevels` and `/home/bsmg/apps/MMA2/CustomWIPLevels`, they need to be prefixed with `Z:`.
-   * Result: `Z:/home/bsmg/apps/MMA2/CustomLevels` and `Z:/home/bsmg/apps/MMA2/CustomWIPLevels` 
+* Make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them. Note that the usual Linux paths (for example : `/home/bsmg/apps/MMA2/CustomLevels` and `/home/bsmg/apps/MMA2/CustomWIPLevels`) need to be prefixed with `Z:`.
+   * Result (for the example) : `Z:/home/bsmg/apps/MMA2/CustomLevels` and `Z:/home/bsmg/apps/MMA2/CustomWIPLevels` 
 <p align="center">
-![Screenshot of Mediocre Mapper path entry](./images/mma2-folder-path.jpg)
+![Screenshot of Mediocre Mapper path entry for Linux](./images/mma2-linux-path.png)
 </p>
 
 All of your working map files will go into a song name folder within this CustomWIPLevels folder.
