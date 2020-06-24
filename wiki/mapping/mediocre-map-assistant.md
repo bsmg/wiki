@@ -61,15 +61,11 @@ The download link for MMA2 is currently down. We are currently working to resolv
 5. Right-click the `MediocreMapAssistant2.exe` shortcut, and open the Properties menu. Check `Force the use of a specific Steam Play compatibility tool`, and select the latest version of Proton in the dropdown menu. At this step, you might also want to rename and add an icon to the shortcut as Linux cannot read the built in logo for MMA2.
 6. You can now use MMA2 by starting it through Steam. You can also create a shortcut by right-clicking the MMA2 shortcut in Steam, then under the `Manage` section clicking `Add Desktop Shortcut`.
 
-::: warning 
-It is **VERY** important to unzip the file in step 2 and only run the exe in the new folder instead of the one inside the zip as not doing so will cause issues with map creation and editing!
-:::
-
 #### Linux First Time Setup
 The first time you run MMA2 you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
 
 **If you have Beat Saber installed on the computer:**
-* Give MMA2 the path to the two appropriate folders, precedented by `Z:`.
+* Give MMA2 the path to the two appropriate folders, prefixed by `Z:`.
   * For example, if the CustomLevels is located at `/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomLevels`, you should write `Z:/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomLevels` (and do the same modification for the `CustomWIPLevels` directory).
 * To find where Beat Saber is installed, right-click Beat Saber in Steam, go to Manage > Browse Local Files.
 * The folders should be located under the `Beat Saber_Data` directory.
