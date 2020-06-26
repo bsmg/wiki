@@ -44,6 +44,10 @@ Works at Beat Games as an Official Mapper. Created one of the first [mapping tut
 A mapper who focuses on creating accessible low expert+ and below maps. Originally got into mapping in order to add some more rock and metal maps to compete with the weeb and nightcore maps, only to end up making more weeb and nightcore maps. Tests maps on occasion, though has PTSD from 1999 and official editor. Creator of the [Beginner's Guide to Mapping tutorial series](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm).  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c852683) | [BeastSaber](https://bsaber.com/members/fruhead/)
 
+## Gabmiral
+Contributed MMA2 installation instructions for Linux. Actually not a mapper.  
+[GitHub](https://github.com/gabmiral/)
+
 ## The Good Boi
 Helped organize a convenient spreadsheet that contains all of the controls for the community editors.  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85433c) | [BeastSaber](https://bsaber.com/members/thegoodboi/)
