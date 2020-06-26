@@ -5,12 +5,9 @@ From sabers to notes, custom models have always been a popular aspect of modded 
 "The guy who made giant glowing dicks in beat saber" ~Emulamer 12th of July 2019
 As you can read I make sabers for quest, but generally I've been active in the asset modding part of beat saber, I've also done some for other games but Beat saber is my main love. If you ever need help making sabers specifically for quest you can always ask me over in the quest modeling channel (until we get that qsaber mod anyways) keep on sabering that meat till it's real tender!
 
-**Roles:** 3D Artist
+**Roles:** 3D Artist, Support
 
 [PayPal](https://paypal.me/RedBrumblerOfficial?locale.x=nl_NL) | [Patreon](https://www.patreon.com/RedBrumbler) | [Ko-Fi](https://ko-fi.com/redbrumbler) | [Youtube](https://www.youtube.com/channel/UCYmzlDob8BQYWrOQWkHtCpQ) | [Facebook](https://www.facebook.com/red.brumbler.7) | [Twitter](https://twitter.com/RedBrumbler) | [Github](https://github.com/RedBrumbler/BeatOnCustomSabers) | [Reddit](https://www.reddit.com/user/RedBrumbler/)
-
-## PinkSaber
-Quest Modeler that'll dm me details about this entry later.
 
 ## Yuuki
 3D Artist and Quest Modder. Supporting the VR community in any way that I can! Primarily focusing on offering niche Beat Saber mods for the Quest and helping enhance gameplay through 3D models.
@@ -23,9 +20,11 @@ Quest Modeler that'll dm me details about this entry later.
 **Roles:** 3D Artist
 
 ## laugexd
-Developer of ModelSaber 2.0 (which launches soon™) and crafter of many sabers.
+Developer of ModelSaber 2.0 and crafter of many sabers and bloqs.
 
 **Roles:** 3D Artist
+
+[Twitter](https://twitter.com/laugexd) | [Youtube](https://www.youtube.com/channel/UCr_JES9nBCUaAR9-UbgDMRw) | [ModelSaber](https://modelsaber.com/Profile/?user=146243483898871808)
 
 ## AkaRaiden
 **Roles:** 3D Artist
@@ -72,6 +71,6 @@ One of the first creators to mass produce avatars, and thus give birth to this r
 
 ::: tip See Also
 **Support:** [Emma](/about/supports.md#emma)
-**Moderators:** [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [DeeJay](/about/moderators.md#DeeJay)
+**Moderators:** [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [DeeJay](/about/moderators.md#DeeJay) | [Pink](/about/moderators.md#Pink)
 **Staff:** [Assistant](/about/staff.md#assistant) | [bobbie](/about/staff.md#bobbie)
 :::

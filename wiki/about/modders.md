@@ -47,9 +47,9 @@ Creator of the Song Request Manager, which makes twitch requests possible. Check
 *Tracking error detected*
 
 **Roles:** Modder
-**Contributions:** AutoPause, TwitchPlus
+**Contributions:** Enhancements, AlphaTwitch, PlaylistCore
 
-[Github](https://github.com/AurosTV) | [Twitch](https://www.twitch.tv/aurosvr) | [Donate](https://streamlabs.com/aurosvr)
+[Github](https://github.com/AurosX) | [Twitch](https://www.twitch.tv/AurosXT) | [Donate](https://www.ko-fi.com/aurosnex)
 
 ## halsafar
 Helps you sort out your 5000 custom songs in a reasonable manner.
@@ -84,25 +84,21 @@ The closest thing we have to a beatmods maintainer.
 [GitHub](https://github.com/raftario)
 
 ## +1 Rabbit
-Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)
+Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)  
 **Roles:** Modder
-**Contributions:** BS-Viewer, Mapping Tools
-[GitHub](https://github.com/raftario)
+**Contributions:** BS-Viewer, Mapping Tools  
+
+[GitHub](https://github.com/PlusOneRabbit) | [Twitch](https://www.twitch.tv/plusonerabbit) | [Donate](https://ko-fi.com/plusonerabbit)
 
 ## MichaelZoller
 Contributor to the beatsaber hooks used in quest modding and assists with creating infrastructure for the quest modding scene.
 
-## nate1290
+## nate1280
 Face off against your friends with his [Versus](https://versusmod.com/) mod.
 **Roles:** Modder
 **Contributions:** Versus
-[GitHub](https://github.com/raftario)
 
-## Rugtveit
-**Roles:** Modder
-**Contributions:** QSettingsPlus, QParticles
-[GitHub](https://github.com/raftario)
-
+[GitHub](https://github.com/nate1280)
 
 ## Shadnix
 Current maintainer of Saber Tailor
@@ -233,7 +229,7 @@ Original creator of SongLoader and CameraPlus, and a major contributor to the cu
 
 [GitHub](https://github.com/xyonico/) [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
 
-## brian (retired)
+## brian
 Creator of CustomUI, making the creation of new UI components a breeze for modders. He's also created some of the most useful streaming tools used today, including taking over CameraPlus in xyonico's absence and the widely used Enhanced Stream Chat mod. This man wants more hip hop songs, get on it people!
 
 **Contributions:** CustomUI, CameraPlus, Enhanced Stream Chat, StreamCore, SongRequestManager, Hidden Blocks, SyncSaber
@@ -243,6 +239,7 @@ Creator of CustomUI, making the creation of new UI components a breeze for modde
 ---
 
 ::: tip See Also
-**Support:** [Pespiri](/about/supports#pespiri)
+**Support:** [Pespiri](/about/supports.md#pespiri)
+**Moderator:** [Caeden117](/about/moderators.md#Caeden117) | [Rugtveit](/about/moderators.md#Rugtveit)
 **Staff:** [Steven](/about/staff.md#steven-🎀)  | [Reaxt](/about/staff.md#reaxt) | [Megalon](/about/staff.md#megalon)
 :::

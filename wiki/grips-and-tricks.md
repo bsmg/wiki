@@ -15,7 +15,7 @@ See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9z
 
 Additionally, here's an image from the devs about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
 
-![Dzdn Pixcaeen](./images/grips-and-tricks/dzdn-pixcaeen.jpg "Dzdn Pixcaeen")
+![Bloq Hitbox](./mapping/images/hitbox-from-split.jpg)
 
 ## Ranking
 *How does global ranking work? What are performance points? What are the numbers in my brackets? Why is my PP so small?*
@@ -47,16 +47,23 @@ You can follow along in this server to see what changes happen!
 ## Grips
 Cube Community made some videos showing off some of the more popular grips for Oculus Touch controllers (CV1) and Vive Wands.
 
+### HTC Vive Wands
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
-<YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
-
-A video has not yet been made for Index controllers, but you can find some examples in their `#tips-and-grips` channel!  
-[CC Discord](https://discord.gg/dwe8mbC)
-
-Below are some _**(outdated)**_ images listing some examples. Do not contact Kyle1413 about his grips, he will eat your hand.
 
 ![Vive Grips Guide](./images/grips-and-tricks/vive-grips-guide.png "Vive Grips Guide")
-![Oculus Grips Guide](./images/grips-and-tricks/oculus-grips-guide.png "Oculus Grips Guide")
+
+### Oculus Rift
+<YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
+
+![Oculus Grips Guide](./images/grips-and-tricks/oculus-grips-guide.png "Oculus Rift Grips Guide")
+
+### Oculus Rift S and Quest
+A video has not yet been made for Rift S and Quest controllers, but you can find some examples in addition to the image below in their `#tips-and-grips` channel! [CC Discord](https://discord.gg/dwe8mbC)  
+![Oculus Rift S/Quest Guide](./images/grips-and-tricks/newOculusGrips.png "Oculus Rift S/Quest Guide")
+
+### Valve Index Controllers
+A video has not yet been made for Index controllers, but you can find some examples in their `#tips-and-grips` channel!  
+[CC Discord](https://discord.gg/dwe8mbC)
 
 ## Improve Vive controller tracking
 Your body may be blocking one lighthouse from seeing one of your controllers.

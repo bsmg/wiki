@@ -13,11 +13,21 @@ function generateSidebar(title, routes, collapsable = false) {
 }
 
 module.exports = {
-  title: 'BSMG Wiki',
-
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['meta', { name: 'theme-color', content: '#2196f3' }],
   ],
+
+  locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'BSMG Wiki',
+    },
+    '/fr/': {
+      lang: 'fr-FR',
+      title: 'Wiki BSMG',
+    },
+  },
 
   theme: 'yuu',
   themeConfig: {
@@ -28,43 +38,91 @@ module.exports = {
     repo: 'beat-saber-modding-group/wiki',
     docsDir: 'wiki',
     editLinks: true,
-    editLinkText: 'Help improve this page!',
-    lastUpdated: 'Last Updated',
 
     displayAllHeaders: true,
-    sidebar: {
-      '/about/': generateSidebar('About', [
-        '',
-        'staff',
-        'moderators',
-        'modders',
-        'supports',
-        '3d-artists',
-      ]),
-      '/faq/': generateSidebar('FAQ', [
-        '',
-        'install-folder',
-      ]),
-      '/modding/': generateSidebar('Modding', [
-        '',
-        'intro',
-        'extras',
-        'linux',
-      ]),
-      '/models/': generateSidebar('3D Models', [
-        '',
-        'custom-sabers',
-        'custom-avatars',
-        'custom-platforms',
-        'custom-notes',
-      ]),
-    },
 
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Beginners Guide', link: '/beginners-guide.md' },
-      { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
-    ],
+    locales: {
+      '/': {
+        selectText: 'Language',
+        label: 'English',
+        ariaLabel: 'Language',
+        editLinkText: 'Help improve this page!',
+        lastUpdated: 'Last Updated',
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'Beginners Guide', link: '/beginners-guide.md' },
+          { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
+        ],
+        sidebar: {
+          '/about/': generateSidebar('About', [
+            '',
+            'staff',
+            'moderators',
+            'modders',
+            'supports',
+            'mapping-supports',
+            '3d-artists',
+          ]),
+          '/faq/': generateSidebar('FAQ', [
+            '',
+            'install-folder',
+          ]),
+          '/modding/': generateSidebar('Modding', [
+            '',
+            'intro',
+            'extras',
+            'linux',
+          ]),
+          '/models/': generateSidebar('3D Models', [
+            '',
+            'custom-sabers',
+            'custom-avatars',
+            'custom-platforms',
+            'custom-notes',
+          ]),
+        },
+      },
+      '/fr/': {
+        selectText: 'Langue',
+        label: 'Français',
+        ariaLabel: 'Langue',
+        editLinkText: 'Aidez à améliorer cette page !',
+        lastUpdated: 'Dernière mise à jour',
+        nav: [
+          { text: 'Accueil', link: '/fr/' },
+          { text: 'Guide du Débutant', link: '/fr/beginners-guide.md' },
+          { text: 'Discord BSMG', link: 'https://discord.gg/beatsabermods' },
+        ],
+        sidebar: {
+          '/fr/about/': generateSidebar('À propos', [
+            '',
+            'staff',
+            'moderators',
+            'modders',
+            'supports',
+            'mapping-supports',
+            '3d-artists',
+          ]),
+          '/fr/faq/': generateSidebar('FAQ', [
+            '',
+            'install-folder',
+          ]),
+          '/fr/modding/': generateSidebar('Modding', [
+            '',
+            'intro',
+            'extras',
+            'linux',
+          ]),
+          '/fr/models/': generateSidebar('Modèles 3D', [
+            '',
+            'custom-sabers',
+            'custom-avatars',
+            'custom-platforms',
+            'custom-notes',
+          ]),
+        },
+      },
+    },
   },
   plugins: [
     ['@vuepress/last-updated', {
@@ -85,6 +143,11 @@ module.exports = {
       before: info => `<div class="feature"><h2>${info}</h2>`,
       after: '</div>',
     }],
+    ['named-chunks', {
+      pageChunkName: ({ key }) => `page${key.slice(1)}`,
+      layoutChunkName: ({ componentName }) => `layout-${componentName}`,
+    }],
+    'seo',
   ],
   configureWebpack: {
     resolve: {

@@ -4,7 +4,7 @@ sidebar: auto
 # Support
 ::: danger NOTE
 This page is exclusive to the PC version of the game.  
-For help with the Quest version, please visit `#quest-mod-support` on the [BSMG Discord](https://discord.gg/beatsabermods).
+For help with the Quest version, please visit `#quest-help` on the [BSMG Discord](https://discord.gg/beatsabermods).
 :::
 
 ## Table of Contents
@@ -13,7 +13,7 @@ For help with the Quest version, please visit `#quest-mod-support` on the [BSMG 
 ---
 
 ## Game Updates
-After the game updates, mods may be broken. The `#server-announcements` channel on the BSMG Discord will have up-to-date information on the status of mods. If your favorite mod is broken, wait a few days and somebody will likely update it.
+After the game updates, mods may be broken. The `#modding-announcements` or `#server-announcements` channels on the BSMG Discord will have up-to-date information on the status of mods. If your favorite mod is broken, wait a few days and somebody will likely update it.
 
 ### Broken mods after an update
 When the game updates, mods are automatically disabled to prevent outdated mods from breaking your game. To fix, simply reinstall your mods using [ModAssistant](/beginners-guide.md#mod-assistant).
@@ -320,7 +320,7 @@ Deleting the Appdata folder will also delete your local scores and statistics.
 
 ## 5. Still having issues
 If this page doesn't cover the bases, then feel free to ask a question in the discord! To increase the chance that you'll have your questions answered, consider the following:
-* Use the correct channels please, most likely one of the 2 `#support` channels for mod troubleshooting. Use  `#model-discussion` for questions about **making your own avatars, platforms, notes, or sabers**, and `#mapping-discussion` for questions about **making maps.**
+* Use the correct channels please, `#pc-help` for pc mod support and `#quest-help` for quest mod support. Use  `#pc-modeling` and `#quest-asset-dev` for questions about **making your own avatars, platforms, notes, or sabers**, and `#mapping-discussion` for questions about **making maps.**
 * Be polite and respectful
 * Describe your problem in detail. "It didn't work" is about as descriptive as telling your doctor you don't feel well. What's not working, and what did you try? Are there any messages that come up on screen? Did your entire screen turn bright purple? 
 

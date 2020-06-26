@@ -34,13 +34,6 @@ Pepega
 
 [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [Youtube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)
 
-## Sam
-He's either talking about Steven or being way too patriotic in chat (BS Nordic Admin btw). Don't call him cute, he hates that. He also makes maps, check them out below.
-
-**Roles:** Moderator
-
-[Twitch](https://twitch.tv/bs_samuel ) | [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850326)
-
 ## InfJager
 Can't hit jumps
 
@@ -71,9 +64,50 @@ One hell of a developer and a lover of socks. lolPants laid the groundwork for m
 [GitHub](https://github.com/lolPants) | [Twitch](https://twitch.tv/lolpants_) | [PayPal](https://www.paypal.me/jackbarondev) | [Ko-fi](https://ko-fi.com/lolpants) | [Patreon](https://www.patreon.com/JackBaron) | [Donate](https://monzo.me/jackbaron)
 
 ## Caeden117
-How many statistics could we fit into a single counters mod? A lot apparently. He's also responsible for the modding tutorials on this wiki and Chromapper, a soon to be released mapping software with Chroma RGB light support.
+How many statistics could we fit into a single counters mod? A lot apparently. He's also responsible for the modding tutorials on this wiki and ChroMapper, a soon to be released mapping software with Chroma RGB light support.
 
 **Roles:** Modder, Moderator  
-**Contributions:** CountersPlus, wiki modding tutorials
+**Contributions:** Counters+, wiki modding tutorials
 
 [GitHub](https://github.com/caeden117) | [Donate](https://ko-fi.com/Caeden117)
+
+## Rugtveit
+*"Norweigan dude." I'm not so creative* ~Rugtveit
+
+**Roles:** Modder, Moderator  
+**Contributions:** FPSCounter, QSettings+, Short Trail  
+
+[GitHub](https://github.com/Rugtveit)
+
+## Pink
+The only Moderator to ghost us when asked for a description for this page.
+
+**Roles:** 3D Artists, Moderator, Support, Modder
+
+**Contributions:** A bunch of Quest mods and models  
+
+## Olaf
+Any stroopwafels?  
+
+**Roles:** Moderator  
+
+[Twitch](https://twitch.tv/olafstad)
+
+## Chara_
+gaming 101
+
+**Roles:** Support, 3D Artists, Moderator
+
+[Discord](https://discord.gg/NXnPYEh) | [Youtube](https://www.youtube.com/c/CharaHere)
+
+## Hydrand
+Camellia is SourPls
+
+**Roles:** Mapper, Moderator
+
+[Twitch](https://www.twitch.tv/hydrandvr)
+
+## Guatapuri
+"Came for the game, Stayed for the hugs"
+
+**Roles:** Mapper, Moderator

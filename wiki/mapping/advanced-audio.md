@@ -6,7 +6,6 @@ next: false
 # Advanced Audio Editing
 _Diving deeper into audio editing_
 
-**Content in this section is derived from original guides by n3tman and LittleAsi, edited by Kolezan. Many thanks to contributors from across the mapping community who made this expanded wiki possible!**
 * [Glossary of Terms](/mapping/glossary.md)
 
 On this page you will find additional guides and resources for better understanding audio or more advanced techniques of editing audio.
@@ -112,7 +111,7 @@ There is also a video of this process [available here](https://www.youtube.com/w
 
 ::: tip
 Utilize a Click Track to make sure the tracks are in time with each other.  
-See [Audio Preparation: Adding Click Track](https://bsmg.wiki/mapping/basic-audio#add-a-click-track).
+See [Audio Preparation: Adding Click Track](/mapping/basic-audio.md#add-a-click-track).
 :::
 
 ![Zoomed syncing](https://i.imgur.com/9jyrzzv.png "Zoomed syncing")
@@ -133,11 +132,90 @@ To avoid overdrive/clipping from two -0db peaking tracks you can set the faders 
 11. Done. You could now proceed with other [Audio Editing](/mapping/basic-audio.md#editing-with-audacity) or finish with [Exporting](/mapping/basic-audio.md#exporting).
 
 ## Variable BPM
-If the song you’re trying to map has a tempo that doesn’t sync up with a fixed BPM (as in, even with BPM values with decimals), such as (older) acoustic pop, rock or metal songs, they were most likely not recorded to a metronome and will thus not easily sync up to a fixed BPM in Audacity or the map editor. No matter what the solution is it always involves brute forcing it by manually adjusting the BPM (tempo track) at intervals, sometimes every beat, to fit the song. This takes a lot of time and patience, so make sure it's worth the extra effort.
+If the song you’re trying to map has a tempo that doesn’t sync up with a fixed BPM (as in, even with BPM values with decimals), such as (older) acoustic pop, rock or metal songs, they were most likely not recorded to a metronome and will thus not easily sync up to a fixed BPM in Audacity or the map editor. This takes a lot of time and patience, so make sure it's worth the extra effort as some solutions involve brute force by manually adjusting the BPM (tempo track) at intervals, sometimes every beat, to fit the song. 
 
 The benefit of having a synced BPM/tempo track is easier and consistent note placement and editing, as well as easier and consistent lighting editing, especially with more than one difficulty in a map.
 
 There are several methods to go about handling variable BPM:
-* Manually time the BPM changes in MedicoreMapper. [Video tutorial by BennyDaBeast here](https://www.youtube.com/watch?v=6AwR4SeaiHU).
-* Use a DAW software and find all the tempo changes using a tempo track editor. Use Jumps instead of Ramps as that’s how MediocreMapper changes tempo. When you’ve found all the tempo changes input those into MediocreMapper. (Remember, DAW softwares usually display measures and beats, but MediocreMapper only displays beats.)
-* Use a DAW software and time warp the sound into a fixed BPM. This, however, could introduce artifacts or warp the sound and could be more easily noticeable by listeners/players.
+* Time warp the sound into a fixed BPM using DAW software. See [Warping with Reaper](#warping-with-reaper) for info.
+
+* Manually time the BPM changes in MMA2.  
+   * [Video tutorial by BennyDaBeast here](https://www.youtube.com/watch?v=6AwR4SeaiHU)  
+**NOTE:** Benny uses an older editor, Mediocire Mapper, in this tutorial. Some UI elements may have changed in the latest editor, [MMA2](/mapping/#mediocre-map-assistant-2) but, the rest of the content is great!
+
+* Use DAW software and find all the tempo changes using a tempo track editor. Use Jumps instead of Ramps as that’s how MMA2 changes tempo. When you’ve found all the tempo changes input those into MMA2. (Remember, DAW softwares usually display measures and beats, but MMA2 only displays beats.)
+
+### Warping with Reaper
+[Reaper](https://www.reaper.fm/) is a DAW (Digital Audio Workstation) that has a permanent free trial and is a great alternative to expensive professional software such as [Ableton Live](https://www.ableton.com/en/live/). If you have and are comfortable with Ableton, you should use it instead of Reaper.
+
+Here we will be using its warp feature to subtly adjust the audio to a consistent tempo. Reducing the amount of BPM changes you will need to set in editor.
+
+#### Getting Started
+1) Download [Reaper](https://www.reaper.fm/) if you have not already.
+2) Create a new project.
+3) Setup your project settings.
+   * File > Project Settings
+   * Set the initial BPM of the song, and set both Timebase dropdowns to `Time` instead of `Beats`.
+![Reaper Project Settings Window](./images/reaperProjectSettings.png)
+:::danger
+This is a critical step! **You can ruin your audio if you do not set the initial BPM and Timebase settings correctly!**
+:::
+
+4) Turn off Snap To Grid. It’s the green magnet icon in the top left corner.
+5) Add your audio to the project. Insert > Media File, and find your song.
+6) Drag the whole audio track accordingly to prevent a hot start or too-long of an intro. 
+   * See [Basic Audio: Plan Your First Note](/mapping/basic-audio.html#plan-your-first-note) for more info.  
+![Align Audio Start in Reaper](./images/reaperFirstBeat.png)
+
+#### Lining Up Beats
+Now the important part. We are going to warp the audio to land perfectly on the BPM we set in the Project Settings.  
+
+You should notice peaks around where the main drum beats are. On a song with consistent BPM, those peaks will land exactly on the beat markers. For your song, the peaks will eventually drift away from those beat markers. When they do, you will need to:
+
+1) Click on the peak.
+2) Use <kbd>Shift + W</kbd> to add a stretch marker.
+3) Drag the stretch marker onto the beat line.
+
+Step 1) ![Peak is not on beat marker](./images/reaperWarpAudioStep1.png) Step 2) ![Stretch Marker Added](./images/reaperWarpAudioStep2.png) Step 3) ![Marker moved onto beat line](./images/reaperWarpAudioStep3.png)
+
+Warping your song is simply a matter of repeating this for the whole song. You should start by doing this every 4 beats or so. Most of the time this is good enough to line up the whole song but, keep an eye out for beats in between stretch markers. If they start drifting, use another stretch marker to fix it.
+
+:::warning NOTE
+Excessive warps could introduce artifacts or significantly alter the song that it is noticeable by listeners/players.
+:::
+
+#### Things to Keep in Mind
+There can be many hidden "gochas" when warping a song. Here are some things you might encounter and their possible solutions.
+
+* If you are warping the beats and notice that the drifting becomes larger and larger, you may want a tempo change so that you don’t warp the audio as much. This might be caused by a BPM change in the song or some bands not caring about tempo.
+   1) Click where you want the tempo change to begin.
+   2) <kbd>Shift + C</kbd> to add a tempo change.
+   3) Edit the position of the change to be exactly on the start of the beat.
+   4) Change the tempo.
+   5) Use trial and error to minimize the amount of drifting over the next chunk of audio.
+   6) **You will need to add the same BPM change in the map editor!**  
+![Change tempo mid-song](./images/reaperChangeTempo.png)
+
+* Some Peaks can be vague, especially when there are several sounds happening at once. There are a couple of ways to test a peak to find where the drum hit is.
+   * By dragging the cursor back and forth over the peak, you should hear a thump as you hit the peak.
+   * If you click just before the peak, then hit spacebar to play the audio, you should instantly hear the drum hit.  
+![Vague Peak](./images/reaperVaguePeak.png)
+
+* Pay attention to how the song is supposed to feel. Not every big drum beat is on a beat marker. For example, some songs have big crash cymbal hits a half or quarter beat before the main beat. You can try finding music tabs or other resources to figure out the intended timing of a song. Just be aware that online tabs are not guaranteed to be accurate in fact, some tabs seen on songsterr are completely made up!
+
+#### Rendering/Exporting the Audio
+Once you are done editing your audio, you will want to render it as a `.ogg` file that Beat Saber can use.
+
+1) File > Render
+2) Uncheck the Tail checkbox unless you want to add silence to the end of the song
+3) Set up the destination path and file name (without the `.ogg` extension, as it gets added automatically)
+4) Select OGG Vorbis as the Output Format
+5) Configure the quality accordingly. Reaper uses a 0 to 1 scale instead of 0 to 10. However, principals outlined in [Basic Audio: Exporting](/mapping/basic-audio.html#exporting) still apply.  
+   * High quality source (WAVE / FLAC / MP3 / AAC) use 0.6-0.9 (unless there is a file size issue.)
+   * Low quality source (YouTube or such): use 0.3-0.5
+6) Click the Render 1 file button. After some time, you’ll have an OGG file with nicely lined up beats!
+
+![Audio Render/Export Settings](./images/reaperRenderAudio.png)
+
+## Credits
+Content in this section is derived from guides by [Nik](/mapping/mapping-credits.html#nik-n3tman), [LittleAsi](/mapping/mapping-credits.html#littleasi), and [Ris](/mapping/mapping-credits.html#ris) who adapted **Heisenberg_IRL**'s method of warping in Ableton. Additional edits by [Kolezan](/mapping/mapping-credits.html#kolezan).

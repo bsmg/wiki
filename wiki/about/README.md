@@ -16,6 +16,9 @@ The game as we know it wouldn't exist if people didn't want to add their own spi
 ### [Supports](/about/supports.md)
 The Support role is a symbol of thanks. Thanks for the thousands of messages sent in the support channels to help people sort out their mods, and for for building a knowledge of troubleshooting base through macros and the wiki. 
 
+### [Mapping Supports](/about/mapping-supports.md)
+The Mapping Support role is a symbol of thanks. Thanks for the thousands of messages sent in the mapping discussion channel and time spent building and maintaining the mapping resources to help people learn how to make maps.
+
 ### [3D Artists](/about/3d-artists.md)
 From sabers to notes, custom models have always been a popular aspect of modded beat saber which wouldn't be possible without them.
 
@@ -23,6 +26,9 @@ From sabers to notes, custom models have always been a popular aspect of modded 
 Each of your favorite maps is carefully crafted and tested over many hours by a talented mapper. As much as we'd love to include them here too, there are WAY too many of them. If you like someone's maps, give it a thumbs up in game, review it on [BeastSaber](https://bsaber.com), or tell them personally! They'll really appreciate it. 
 
 > Furthermore, there is a community run discord to help connect mappers/artists with clients if you would like to commission something. We encourage you to reach out in the [Beat Saber Commissions server.](https://discord.gg/4RbcH5G)
+
+### [Mapping Resources Contributors](/mapping/mapping-credits.md)
+A group of experienced mappers that took the time to write down and share their knowledge to help others get started or improve. Checkout their maps and consider supporting them!
 
 ## About This Wiki
 

@@ -1,6 +1,6 @@
 # Custom Avatars
 ## Installation
-The latest Custom Avatar plugin can be found in the [mod installers](/beginners-guide.md#installers).
+The latest Custom Avatar plugin can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant).
 Once installed you should see a file called `CustomAvatar.dll` inside your `Plugins` folder. You should also see a folder called `CustomAvatars` in the main install folder—this is where you will be placing the `*.avatar` files you want to use. You can download more avatars on [ModelSaber](https://modelsaber.com/Avatars/).
 
 ## Usage

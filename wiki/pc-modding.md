@@ -21,7 +21,7 @@ If you have a Quest, see the [Quest Modding page](/quest-modding.md).
 If you're on Linux, check out the [Linux page](/modding/linux.md) or [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md)
 :::
 
-If you run into problems at any point, please head to the [support page](./support.md#1-4-no-mods-in-game) and see if you can identify what went wrong before asking in the Discord server. Chances are, your answer is on that page!
+If you run into problems at any point, please head to the [support page](./support) and see if you can identify what went wrong before asking in the Discord server. Chances are, your answer is on that page!
 
 ## Installers
 ### Mod Assistant
@@ -48,7 +48,7 @@ To install songs downloaded from the site, unzip them into a folder and place it
 * [BeatList](https://github.com/Alaanor/beatlist) is an app to manage playlist and beatmaps, by Alaanor.
 
 ### Playlists
-Place the playlist file into `Beat Saber/Playlists` and select it in-game, then hit download. You can create and download playlists using one of the programs above.
+Place the playlist file into `Beat Saber/Playlists`, then use [BeatList](https://github.com/Alaanor/beatlist) or [Mod Assistant](https://github.com/Assistant/ModAssistant) to download the maps. (Note: older mods allowed downloading the contents of playlists in-game, but this is currently not possible.)
 
 ## Install Folder
 _Where is Beat Saber installed?_

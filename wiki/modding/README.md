@@ -6,7 +6,7 @@ Instead, most mods within the mod installer rely on [BSIPA (Beat Saber Illusion 
 
 Previously, we used [IPA (Illusion Plugin Architecture)](https://github.com/Eusth/IPA). Some plugins still use this, and is temporarily supported by BSIPA. We still use IPA for the mod tutorial, however it is recommended to use BSIPA for any future modding endeavors.
 
-For those of you who prefer [BepInEx](https://github.com/BepInEx/BepInEx) over either of these options, Bepis is supposedly working on a BSIPA emulator for BepInEx, and already has one available for regular IPA plugins. As for developing Beat Saber plugins for BepInEx, well, you're kinda on your own.
+For those of you who prefer [BepInEx](https://github.com/BepInEx/BepInEx) over either of these options, Bepis has created a loader for BSIPA plugins, available [here](https://github.com/BepInEx/BepInEx.BSIPA.Loader). As for developing Beat Saber plugins with the BepInEx plugin API, a generic guide exists on their [documentation site](https://bepinex.github.io/bepinex_docs/v5.0/articles/dev_guide/plugin_tutorial/index.html), but other than that you're kinda on your own.
 
 ## Project Setup
 If you are interested in creating a Beat Saber mod, but do not have a template or Visual Studio template set up, [follow the Intro guide to get your project all set up](./intro.md).
