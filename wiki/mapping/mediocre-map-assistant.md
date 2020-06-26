@@ -67,7 +67,7 @@ The first time you run MMA2 you will need to direct it to the location of two fo
 **If you have Beat Saber installed on the computer:**
 * Give MMA2 the path to the two appropriate folders, prefixed by `Z:`.
   * Example: `/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels` should be entered as `Z:/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels`. 
-* To find where Beat Saber is installed, right-click Beat Saber in Steam, go to Manage > Browse Local Files.
+* To find where Beat Saber is installed, right-click Beat Saber in Steam, go to `Manage > Browse Local Files`.
 * The folders should be located under the `Beat Saber_Data` directory.
 
 **If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
