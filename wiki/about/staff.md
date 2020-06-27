@@ -72,7 +72,7 @@ Remind him to watch his glucose.
 **Contributions:** Custom Notes, ModelSaber Admin
 
 Make sure he watches his glucose
-[Important](https://i.imgur.com/REWmoI9.jpg) | [Github](https://github.com/legoandmars/) | [Twitter](https://twitter.com/vrbobbie) | [Youtube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ)
+[Important](https://i.imgur.com/REWmoI9.jpg) | [Twitter](https://twitter.com/vrbobbie) | [Youtube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ) | [Donate](https://ko-fi.com/bobbievr)
 
 ## Melopod ƸӜƷ
 Likes pies, tartes, and helping people fix their mods!
