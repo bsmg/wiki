@@ -16,7 +16,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **4-Wide Wall** | A *wall* that spans all four lanes and three rows of the standard *track*, usually causing the player to fail the level unless it is thin. Never considered okay to use. |
 | **90 Mode** | A new map characteristic that allows the track to rotate in 15 degree increments up to 45 degrees in either direction. As of December 2019 these maps can only be made in the official editor. |
 | **Arrow Block** | A *block* with an arrow on it indicating the direction in which it must be hit. Also known as *Arrow Note*. See also *Block, Note, Dot Block/Note* <details><summary><b>Example Image</b></summary>![Picture of Arrow Blocks](./images/arrowblocks.png)</details>|
-| **Arrow Vortex** | The name of a free third party tool that can analyze song *BPM* and calculate *offset*. The download link can be found [here.](https://arrowvortex.ddrnl.com/) |
+| **Arrow Vortex** | The name of a free third party tool that can analyze song *BPM* and calculate *offset*. Download and guide on use is available [here](./basic-audio.md#tool-assisted-bpm-calculation). |
 
 ## B
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
@@ -195,13 +195,13 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **Setup** | The process of maneuvering the players arms into position for a pattern via appropriate placement of the preceding blocks. |
 | **Single** | A single block hit with one saber. Typically makes up the majority of patterns in a map. See also Double |
 | **Single BPM** | A song with a consistent BPM from start to finish with no variation. Also known as Fixed BPM. See also Variable BPM |
-| **Sliders** | A series of same-colored dots or arrow blocks spaced close enough together for the player to sweep the saber through in one motion. Placed at 1/12 or closer precision. <details><summary><b>Example Image</b></summary>![Picture of sliders](./images/sliders.png)</details>|
+| **Sliders** | A series of same-colored dots or arrow blocks spaced close enough together for the player to sweep the saber through in one motion. Placed at 1/12 or higher precision. <details><summary><b>Example Image</b></summary>![Picture of sliders](./images/sliders.png)</details>|
 | **Spawn Distance** | The distance down the track where the blocks and obstacles spawn. Measured in beats; therefore varies in “spatial” distance by BPM . See also Spawn Point, NJS, BPM, and Spawn Offset. Also known as Half Jump Duration. |
 | **Spawn Offset** | A variable denoted as “noteJumpStartBeatOffset” in the map’s Info File that modifies the spawn distance. Can be a floating value, typically between 0.0 and 1.0. Also known as Spawn Distance Modifier |
 | **Spawn Point** | The location on the track where blocks and obstacles first appear, accompanied by a flash of light. See also Spawn Distance |
 | **Spiral** | A slider whose path traces a rotation long enough to return to its original direction or further. See also Bomb Spiral <details><summary><b>Example Image</b></summary>![Picture of spiral](./images/spiral.png)</details>|
 | **Stack** | Two or three same-colored, same-direction blocks placed in a line on the same beat. Results in the player swinging a larger, faster hit. Also known as Tower, Double <details><summary><b>Example Image</b></summary>![Picture of stack](./images/stacks.png)</details>|
-| **Staggers** | Sliders placed with spacing too large for the player to hit in one motion, considered a mismap. Occurs when sliders are placed slower than ⅛ precision. <details><summary><b>Example Image</b></summary>![Picture of stagger](./images/stagger.jpg)</details>|
+| **Staggers** | Sliders placed with spacing too large for the player to hit in one motion, considered a mismap. Occurs when sliders are placed lower than 1/8 precision. <details><summary><b>Example Image</b></summary>![Picture of stagger](./images/stagger.jpg)</details>|
 | **Stream** | A steady, sustained pattern of notes, typically at 1/4 precision. <details><summary><b>Example Image</b></summary>![Picture of stream](./images/stream.png)</details>|
 | **Strobe** | 1) n. A rapidly flashing on/off light 2) v. To cause a light to flash on/off or on/flash when lighting a map. |
 
@@ -220,7 +220,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | - | :- |
 | **Variable BPM** | 1) A song with an intentionally shifting BPM as intended by its composer 2) A song with irregular, unintentionally shifting BPM as a result of fluctuations; for example, a live performance without a metronome. (from Ranking Criteria) Also known as Drifting BPM, See also Fixed BPM, Multiple BPM |
 | **Vibro** | An extremely high speed stream of a pace requiring small wrist motions to hit, typically 1/8. Note that this does NOT apply to dots. Also known as Vibro Stream <details><summary><b>Example Image</b></summary>![Picture of vibro](./images/vibro.jpg)</details>|
-| **Vision Block** | A sequence of blocks, typically using the middle row, that blocks the player’s vision of the following notes. The most common form of vision blocks are Face Notes but blocks outside of the center two squares can also block line of sight to later blocks. Abbreviated VB. <details><summary><b>Example Image</b></summary>![Picture of vision block](./images/vb_example.png)</details>|
+| **Vision Block** | A sequence of blocks, typically using the middle row, that blocks the player’s vision of the following notes. The most common form of vision blocks are Face Notes but blocks outside of the center two squares can also block line of sight to later blocks. Abbreviated *VB*. <details><summary><b>Example Image</b></summary>![Picture of vision block](./images/vb_example.png)</details>|
 
 ## WXYZ
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
