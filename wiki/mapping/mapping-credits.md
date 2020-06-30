@@ -90,7 +90,7 @@ Wrote *Beginner's Lighting Guideline*, a guide that was integrated into [Basic L
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85380d) | [BeastSaber](https://bsaber.com/members/puds/)
 
 ## Pyrowarfare
-A Bsaber curator and contributed the majority of content for [How to Playtest](./how-to-testplay.md).  
+A Bsaber curator who wrote the majority of content for [How to Playtest](./how-to-testplay.md), and contibuted on various other pages.
 [Beatsaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf) | [BeastSaber](https://bsaber.com/members/pyrowarfare/)
 
 ## Ris

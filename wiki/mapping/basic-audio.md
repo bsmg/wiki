@@ -42,7 +42,17 @@ Follow these general guidelines as you work on your maps:
 * A close second are high bitrate (+200kbps) **MP3 or AAC** files (lossy formats). 
 * Use a YouTube rip **only** as a last resort. The bitrate is low and the volume is seldom right. In this case some audio editing might be required (see [Editing with Audacity](/mapping/basic-audio.html#editing-with-audacity)).
 
-> Sites where you can buy the tracks/album, such as an artist’s [Bandcamp](https://bandcamp.com/), usually will have the highest quality source available.
+> Sites where you can buy the tracks/album, such as an artist’s [Bandcamp](https://bandcamp.com/), usually will have the highest quality source available. If the artist does not have a Bandcamp available, Google Play Music, Amazon Music and iTunes are alternatives for high quality MP3 files.
+
+By purchasing and using a high quality audio file, not only are you supporting your artist, but you save yourself a lot of headache while mapping. Look at the difference in quality for the same song, at the same beat. 
+
+| OGG Quality | Youtube Rip | MP3| WAV | FLAC |
+| :----: | :----: | :----: | :----: | :---: |
+| 1 | ![YouTube Rip 1](./images/ytrip1.jpg) | ![MP3 1](./images/mp31.jpg) | ![WAV 1](./images/wav1.jpg) | ![Flac 1](./images/flac1.jpg) |
+| 5 | ![YouTube Rip 5](./images/ytrip5.jpg) | ![MP3 5](./images/mp35.jpg) | ![WAV 5](./images/wav5.jpg) | ![Flac 5](./images/flac5.jpg) |
+| 10 | ![YouTube Rip 10](./images/ytrip10.jpg) | ![MP3 10](./images/mp310.jpg) | ![WAV 10](./images/wav10.jpg) | ![Flac 10](./images/flac10.jpg) |
+
+Can you see the difference? You cannot scale up audio quality; only starting with a high quality audio file can give you clean, percise lines. 
 
 See the [Advanced Audio Editing](/mapping/advanced-audio.md) page for more in-depth techniques and tools for analysing the audio quality of files.
 
