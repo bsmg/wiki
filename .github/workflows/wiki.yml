@@ -11,7 +11,7 @@ jobs:
       - name: Prepare
         id: prepare
         run: |
-          IMAGE_NAME=<image name>
+          IMAGE_NAME=wiki
 
           DOCKER_USER=`echo ${{ github.repository }} | cut -d "/" -f 1 | tr '[:upper:]' '[:lower:]'`
           DOCKER_REPO=`echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]'`
