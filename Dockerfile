@@ -12,7 +12,7 @@ RUN apk add --no-cache tini bash git openssh
 RUN yarn install --frozen-lockfile
 
 # Build source
-COPY . .
+COPY ./wiki ./wiki
 RUN yarn run build:prod
 
 # Static Web Server
