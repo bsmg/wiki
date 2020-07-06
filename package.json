@@ -10,6 +10,7 @@
     "lint": "eslint . --ext js,md,vue",
     "predev": "rimraf .temp",
     "dev": "vuepress dev wiki --temp .temp",
+    "prebuild": "rimraf wiki/.vuepress/dist",
     "build": "vuepress build wiki",
     "build:prod": "cross-env NODE_ENV=production yarn run build"
   },
