@@ -8,6 +8,7 @@
   "private": true,
   "scripts": {
     "lint": "eslint . --ext js,md,vue",
+    "predev": "rimraf .temp",
     "dev": "vuepress dev wiki --temp .temp",
     "build": "vuepress build wiki",
     "build:prod": "cross-env NODE_ENV=production yarn run build"
@@ -26,6 +27,7 @@
     "eslint-plugin-vue": "^5.2.2",
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-mark": "^3.0.0",
+    "rimraf": "^3.0.2",
     "vuepress": "^1.5.0",
     "vuepress-plugin-container": "^2.1.4",
     "vuepress-plugin-named-chunks": "^1.1.3",
