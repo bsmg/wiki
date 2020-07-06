@@ -75,7 +75,7 @@ Un installateur de mods est le moyen recommandé pour installer des mods. Lisez 
 
 **Lancez le jeu au moins une fois** avant d'essayer de modder votre jeu ! Cela s'applique après chaque réinstallation du jeu également, et après chaque mise à jour.
 ### Installer BSIPA
-1. Télécharger [BSIPA](https://github.com/beat-saber-modding-group/BeatSaber-IPA-Reloaded/releases).
+1. Télécharger [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
 2. Se rendre dans [le dossier d'installation](#dossier-d-installation) et y extraire le contenu de BSIPA.
 ![Répertoire propre](./images/beginners-guide/directory-clean.png "Répertoire propre")
 ![Répertoire avec IPA](./images/beginners-guide/directory-ipa.png "Répertoire avec IPA")
