@@ -35,7 +35,7 @@ module.exports = {
       defaultColorTheme: 'blue',
     },
 
-    repo: 'beat-saber-modding-group/wiki',
+    repo: 'bsmg/wiki',
     docsDir: 'wiki',
     editLinks: true,
 
