@@ -222,7 +222,7 @@ For example, from the picture you would enter `192.168.0.19:50000` into a web br
 * If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through BMBF.
 * BMBF may have issues importing your map if your song file or cover image name contains `-` or spaces. You may need to rename these files and update the song info accordingly for a successful upload.
 * Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by BMBF! Using Audacity and following the steps in [Basic Audio Setup](./basic-audio.md) is the easiest way to ensure your map loads in-game.
-* If your song audio file was automatically converted to .egg, you may run into issues when uploading onto BMBF. Try renaming the .egg back to .ogg. 
+* If your song audio file was automatically converted to `.egg`, you may run into issues when uploading onto BMBF. Try renaming the `.egg` back to `.ogg`. 
 :::
 
 ### Community / Third Party Testing
