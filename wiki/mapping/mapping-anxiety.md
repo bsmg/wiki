@@ -2,114 +2,65 @@
 sidebar: auto
 ---
 
-# How to Testplay
-You may have noticed the playtesters that donate their time and energy to helping new and old mappers alike create the best maps they can. 
+# Coping with Mapping Anxiety
+Mapping is a creative artform, and like all the other arts, you put a small piece of yourself into every map. As such, it can be emotionally difficult to receive a lot of downvotes and negative feedback, or even getting no engagement at all. This is especially true for those that are already sensitive by nature, or those that have never put themselves out there before. However, it is important to remember that your maps, and what people think of them, has no bearing on your worth as a person. You’re also not alone in your feelings of imposter syndrome, anxieties around uploading, or trouble coping with harsh criticism. Raising awareness and starting conversations about these feelings in the first step to addressing them. 
 
-Have you been interested in helping out but, don’t know where to begin? Fear not! This page will help you to get started. No matter your skill level, both as a player or as a mapper, your feedback will be appreciated. 
+This page is not a substitute, in any way, for real, professional help. If these sorts of feelings plague you, especially in your day-to-day life, then please consider reaching out to a professional, or someone close to you. There is no shame in needing help; it does not make you weak or needy. It is important to have these sorts of conversations and acknowledge them as very real feelings that anyone can experience, and that sometimes there are greater issues lying beneath the surface. 
 
-## Getting Started
-The only real things you need to get started with testplaying is a willingness to help, and a modded copy of Beat Saber with at least the SongCore mod installed. If you’ve never testplayed before, and feel you want to dip your toes in the water, written feedback instead of video is totally acceptable as you learn the ropes. 
+## Likes and Dislikes
 
-1. Head to the `#testplays` channel and pick out a map(s) that’s within your skill range. As you are getting started, **DO NOT** download any maps that the bot does not respond to. Additionally, it is best to avoid maps that are labelled as a first map until you have an understanding of basic mapping practices, to prevent maps with common rookie errors being overlooked, and then published.  
-2. On the map(s) you have downloaded, drop an `:eyes:` (:eyes:) reaction on the post to indicate that you have downloaded the map and will be reviewing it. You can do this by hovering over the post.   
-![Eyes Reaction Location](./images/eyes_emote-location.png)
-3. Place the map (as a zip) within your Beat Saber `CustomLevels` folder. 
-4. Load up Beat Saber and navigate to your WIP custom songs cache. If the map was created correctly, it should be there. If the map does not appear, it is likely that the map was not zipped correctly, and contains a folder within a folder. You can choose to unzip the map and place it into your CustomWIPLevels folder yourself and continue the testplay, or @ (ping) the mapper and let them know they need to zip *only* the files, not the folder. [How to Zip Map Files Video](https://streamable.com/u20ci)
-5. Play the map 1-2 times in practice mode ![Practice Mode Icon](./images/practice_mode-icon.png), **NOT the big ‘Play’ button.** Ideally, you should only look to play the map once. You want to collect your first impressions and general feedback. If you’re not sure if something is ‘correct’, it’s okay to replay a section, but repeatedly playing the map will skew your muscle memory and cause you to overlook things as you become too adjusted to the map.  
+It is very easy to look at a bunch of numbers, which naturally have a quantitative value, and try and apply them as a way of judging quality. There’s even a public rating system directly attached to Beatsaver for every single map. It can be difficult to look at these and not take them to heart, especially if your map receives a lot of downvotes or very few downloads. However, there are so many factors that can go into these numbers, and it is unfair to you to try and use them to validate your maps, and yourself. If you are feeling anxious over a lot of dislikes or low downloads, consider some of these points:
 
-:::warning
-It is important that you play the map in Practice Mode in order to prevent creating a new scoreboard on Scoresaber if you have the mod installed!  
-![Practice Mode Location](./images/practice_mode-location.png)
-:::
+* They may have misclicked.
+* They may not like the song.
+* They may have been unhappy they failed.
+* The lights may have been uncomfortable.
+* The song could be very unpopular.
+* Your name might not be very well-known.
+* You posted at a bad time.
+* Your map was buried by other maps very quickly.
 
-6. Write up your feedback! What didn’t feel very good? What did you struggle with? Did you think the map was great and you enjoyed it? Not every map has issues, so if you found the map to be fine, it’s totally acceptable to sum that up with one line. However, if you’re on the fence about anything, just mention it! It’s up to the mapper how they want to receive your feedback.
+Of course, it’s also entirely possible that you made mistakes within your map, or that the player did not agree with your mapping choices. That’s okay. There is always something new to learn, especially in the early stages of your mapping journey. Again, a ‘bad’ map doesn’t reflect on you, not even as a mapper. Everyone learns at different speeds, and everyone has different opinions on what does and doesn’t work. If you notice that you’re getting a lot of negative feedback on your maps, take a step back and consider if you need to go back and work on some of the fundamentals. If you do, that’s also okay. You ‘bad’ maps will not haunt you or hang over you forever; they are not permanent, and no one will think about them as much as you do. 
 
-7. Find the mapper’s name, and @ (ping) them in the `#mapping-discussion` channel, or DM them, with your feedback. Make sure to remind them to mark their map with `:octagonal_sign:` upon editing or releasing their map. 
+If you have controversial mapping opinions, or are mapping primarily for yourself and choose to ignore certain mapping rules, you are more likely to attract negative feedback (although you may also attract a very loyal fanbase that love your specific style!). It’s completely fine to map for yourself and to create what makes you happy, but it can be a trade-off that you must be willing to accept as a mapper. It’s possible that, with time, the community’s opinions will grow to be more aligned with your own, but you cannot count on it. As such, everytime you choose to break a commonly accepted mapping rule, consider whether or not you’re okay with your map not being well-recieved.  
 
-8. Once you’re done, go back to the post and mark it with `:white_check_mark:` (:white_check_mark:) to indicate you’ve completed the map and given feedback. As well, make sure to mark the map with the letter indicative of the difficulty you tested, if the map has multiple difficulties and you did not test them all. You can find these in the pins of the `#testplays` channel.  
-![Feedback Reactions](./images/feedback_reactions.png)
+If you’re struggling to cope, consider some of these options:
 
-:::tip
-If you found the map you downloaded was too difficult for you to provide feedback, you can mark a `:skull_and_crossbones:` (:skull_and_crossbones:) on the post and ping them stating it was out of your skill level.
-:::
+* Keep your maps private. If you truly map only for yourself, and you’re unhappy with how people respond to your maps, then there’s no problem with keeping them only for yourself.
 
-## Stepping it Up with Video
- Enjoyed your first taste of testplaying? You’re not alone! While all feedback is great, some feedback is more helpful with a broader spectrum of issues. If you’re ready to step up your testplaying game, you should look at including a video of your playthrough, and having a grasp over the fundamentals of mapping. 
- 
- While no one is going to ask you to write a 500 word essay on triangles, you should know what DDs, handclaps, and face blocks are, to help new mappers. All of the mapping fundamentals you could ever need are covered in this wiki on the [Basic Mapping](./basic-mapping.md) page. Just remember, we were all new once, and no one expects you to know everything!
+* Don’t look at Bsaber or Beatsaver. If you’ve made a habit of it, you might find it difficult to not subconsciously open a new tab and check, but it’s a good habit to break. Obsessing won’t make you happy, and no number will never be large enough for long. 
 
- As for including a video on your playthrough, there are many different ways to go about it. Some people use [Shadowplay](https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay/), some use Windows’ built-in screen recorder, and others use [OBS: Open Brodcaster Software](https://obsproject.com/). All are good options and choosing one depends on your own workflow and in the case of Shadowplay, if you have the appropriate hardware.
+* Review your knowledge and get more testplays. If you don’t understand why your maps are getting so many dislikes, reach out to some more experienced mappers and ask for help.
 
-### Using Shadowplay
-::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
-:::  
+* Take a break from mapping. Mapping should be a fun hobby, and if it causes you a lot of grief, it might be time to step away and take a break.
 
-### Using OBS
-OBS may take longer to set up, but it offers far more freedom and control. If you’ve never used it before, you can checkout this [Quickstart Guide](https://obsproject.com/wiki/OBS-Studio-Quickstart). It is recommended to have your video recorder output set to `.mkv` since others have had corruption issues with other file formats, but `.mkv` works flawlessly.
+* Speak to a professional. It’s only human to feel hurt if someone dislikes your work, but panic attacks or constant intrusive thoughts are a sign of an underlying problem that requires the help of a professional.
 
-### Using Windows Built-In Screen Recorder
-::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
-:::  
 
-### Recommended Mods to Install
-* **PracticePlugin**
-  * Can be found in Mod Assistant under the Practice/Training category that gives you the option to replay sections of a map, and adjust NJS and offset while in game. You’ll be seeing a lot of 12 NJS maps from new mappers, so this mod is a real help!
-* **CameraPlus**
-  * Can be found in Mod Assistant under the Core category allows for various perspectives and tuning, such as a main third person perspective, and a secondary first person perspective in the corner.
-* [OBSControl](https://github.com/Zingabopp/OBSControl#readme)
-  * A plugin for OBS users that can automatically start and stop recording when you begin the map, and leave/complete the map. You can pause as many times as you like with no issues. I always pause my playthrough at the very beginning to briefly discuss the difficulty and NJS, as you do not have any time spent in the menu to discuss these aspects with this mod installed.
+## Critical Feedback
+Not every map you make can be perfect, and sometimes you might hear your map's flaws laid out directly in front of you. This can hurt, and might make you feel defensive, but it’s always best to take a breather first if you find yourself getting emotional.
 
-With this setup, and real time voice commentary, you can easily cut your playtest time down in half. Having a video will take your testplays to the next level and is the best way to give mappers great feedback. 
+Always consider whether the feedback is meant to be constructive, or destructive. Needlessly harsh language, or personal attacks, should never be present in constructive criticism, and can be disregarded. However, people predominantly want to help, especially when giving testplay feedback. After taking a step back, try and take what’s said as having been done so with good intentions, and try and listen objectively. When we spend so long on a map, we can become attached to certain parts of it, and this can feel like an attack on our ideas or abilites, rather than an issue with the map itself. Still, an outside perspective can be invaluable. Try not to let your emotions get in the way, and if you find you’re not able to, consider whether you might need to take a break, and reach out to someone. 
 
-## What to Look For
-So you’re all set up, you’ve learnt the steps to posting a testplay, and you’re familiar with all of the mapping basics. If you’re still not sure what exactly to look for while testplaying a map, don’t sweat it! General feedback of, ‘this doesn’t feel good’, or ‘I found this too hard’, is perfectly acceptable. While it’s nice to be able to give specific reasoning as to why you feel the way you do, that will come with time and experience. 
+Keep in mind that critical feedback on a map is just that; feedback on your map. It has nothing to do with you, personally. Don’t rely on other people to love your map in order for you to feel good about it; you should, first and foremost, be happy with your own work, even if that feels difficult at times. 
 
-:::tip Beware of the Testplayer Bias!
- Try to view things objectively; just because you don’t like sliders, doesn’t mean the mapper used them incorrectly. If a map is full of things you don’t like, considering leaving it for someone else! 
-:::
 
-If you feel more comfortable going into it with a checklist, consider these:
-* Is everything on-time? Sometimes this can be more obvious than others, but it’s worth mentioning if something sounds off.
-* Are there any blatant basic mapping errors? This applies to anything along the lines of DDs, handclaps, face blocks, three wide walls, blatant parity breaks, or any sort of impossible patterns. These are prominent with rookie mappers, and are often ‘solved’ by just referring to the wiki. 
-* Are there any vision blocks? Did you not see any notes because they were hidden by an obstacle/another note?
-* Does something seem too difficult, or like it could have been mapped up? This can also be overmapping or questionable undermapping. If something was previously mapped to 1/4, and is all of the sudden 1/8, that’s worth calling out, even if the mapper chooses to keep it.
-* Do any of the obstacles seem unfair? Wall dodges that were too fast, crouch walls that were too long, and bombs that felt too close, apply here.
-* Is there anything really awkward or uncomfortable? This could be a weird angle on a note, or an improperly set up inward swing, or a nasty triangle. If you’re still learning how triangles and wrist resets work, it’s okay to simply note that something was uncomfortable at a certain point, and refer them to #mapping-discussion to get further opinions.
-* Did you have fun? Was there anything you thought worked well? Good feedback is just as important as finding issues! Don’t nitpick just to find something for the mapper to ‘fix’, if you thought the map was fine.
+## Upload Anxiety
+It is normal to feel some apprehension when uploading a map, and submitting it for ‘public judgement’. For most people, these feelings go away with time and experience, but it can stick around for others. It’s important to consider why you are so nervous about uploading; are you afraid of not getting many downloads, or getting a lot of dislikes? What mdoes those things really mean, to you? Consider whether your fears are realistic and grounded in reality. In example, being afraid that you might upload a map and everyone will hate it so much that they will never play your maps again is catastrophizing. The worst case scenario is that your map only receives dislikes and some bad reviews, but if that is the case, there is nothing stopping you from taking the map down. One bad map (or even multiple, in the grand scheme of things) will not haunt you forever. No one will remember it more than you will. Most mappers have maps that they have taken down as some point or another.
 
-## Tips & Tricks
+## Imposter Syndrome
 
-* Always do a test recording! There is no worse feeling than discovering your audio was borked for the last 20 maps you played. 
-* Voice commentary saves lives! Especially yours. While it may seem daunting to put yourself out there, you can drastically improve the time it takes you to get testplays done by using your voice.
-* If you do choose to use written commentary, use timestamps! This let’s the mapper know exactly what you’re talking about, rather than a vague, ‘there were vision blocks’. 
-* Checking all your maps for folders within folders first will prevent a lot of headaches.
-* Avoid nitpicking whenever possible. Giving suggestions is fine, but spending 30 minutes going over a map for every single missed emphasis block, or trying to remap the entire map yourself by telling the mapper what YOU would do for every section, is not the main purpose of a testplay. Collect your thoughts from your first playthrough, and roll with it. 
-* Don’t overwork yourself! You may feel fine doing 20 maps at once, more than a few times a week, but it will catch up to you. You will find that you repeat yourself almost entirely every 2 maps, and it can be emotionally exhausting, even if you don’t realise it at first. Try not to let it get to you, and if it becomes too much, take a break. 
-* Warm up on a couple easy maps, then work up to the difficult ones, but save the rest of the easy ones for the end. This will ensure you’re playing to your peak for the most difficult maps. I also like to go back and forth between maps when testing maps with full spreads, to prevent myself from going insane listening to the same song 5 times in a row. 
-* Test within your difficulty. While it sucks to leave behind e+/expert/hard maps, you only risk injuring yourself, or causing burnout, by trying to do maps that are above your paygrade. Trust in your fellow testers to pick up the maps that fall between the cracks! 
-* Testplaying a map is doing a favour to the mapper. There is no rule that states you MUST testplay a map if it is in the queue and within your difficulty; if a mapper gives you any hassle, don’t force yourself through testplaying their maps again.
-* Make sure you scroll up and check for maps that got left behind! While again, there are no rules on who’s maps you must play, the best practice is to play older maps first, before new ones. Otherwise, the queue quickly falls into disarray. 
+You might be surprised to know how many of your favourite mappers hate their own maps. Many people - from mappers, to artists, to professionals in other careers - can all feel as if they have no idea what they’re doing, and feel afraid of being ‘found out’. Sometimes, just knowing that you’re not alone in feeling this way can be a great help. We are often our own worst critics, and we have seen the behind-the-scenes of our entire mapping process, not just the polished final product. We know what partof the map we struggled with and are hyper-aware of every little detail, when the vast majority of people would never know. We know what parts of mapping we find challenging, and as we get better, we only become more and more aware of everything we DON’T know. This is all a natural part of learning and growing, but it’s important to understand how far you’ve come, and how much you really do know.
 
-## FAQ
-**I’m not a very good player, can I still test maps?**  
-Yes! In fact, feedback from lower skilled players can be invaluable. Mappers all too often can forget what it was like to be an easy/normal/hard, sometimes even expert, player. You don’t have to know anything about mapping to say, “This was too hard for me”, or, “I really loved it!”. It’s best to avoid maps from new mappers, to prevent common rookie errors from being overlooked, and then published, but your feedback is always appreciated. 
-___
-**My computer isn’t very good. Can I still testplay?**  
-To some degree, yes, of course. Written feedback is still perfectly acceptable and preferable to none. However, if your PC struggles to record video and play Beat Saber and at the same time, you might find it difficult to do a lot of testplays super frequently, as written feedback with no video requires a lot more pausing during playing, and time at the end of the session to write up your thoughts. You can also consider playing around with your recording software and bring down the quality of the video recording to reduce the load on your computer.
-___
-**I play on Quest, can I still testplay?**  
-Yes! Written feedback is of course acceptable, but the Quest is capable of recording, as well.
-___
-**I spent so long working on my feedback, and the mapper completely disregarded me! What do I do?**  
-At the end of the day, it is on the mapper to take the feedback into account how they see fit. Seeing a map get uploaded that’s full of handclaps and DDs is frustrating, but you did what you could. Other times, more subjective opinions may be ruled over in the favour of the mapper’s artistic sense. While you may not agree with the mapper’s call, we can’t do everyone’s map for them. 
-___
-**Where do I upload my testplay videos?**  
-Streamable and YouTube are the most common places to have testplays uploaded. Streamable has a video limit of 10 minutes and file size limit of 1GB without a premium account, and will delete videos after a couple months of inactivity. However, YouTube takes a bit more work to upload, and you risk getting copyright striked (although it is very unlikely to harm your channel). Some testplayers will also stream their testplays on Twitch, and then link the vods, although that also risks copyright strikes. 
-___
-**How long does it take to testplay a map?**  
-This can vary greatly depending on many different factors. A new mapper’s first map with a lot of issues can reach upwards of 15 minutes, while a more solid map can be as long as the map is itself. I would say that, on an average run, you can get 20 maps (just 1 difficulty) done in about 2 and half hours. This is assuming that there is at least one point of discussion per map, and that you are recording videos with real time voice commentary, with no stopping to start/stop recording. Doing written feedback for 20 maps could be anywhere from 3-4 hours, depending on how frequently you write notes, and how much detail you go into. 
+Take a look at some of your older maps, maybe a cringe a bit, and you will realise how much more you know and understand. Maybe you’ve been experimenting recently, and it hasn’t worked out well, but at least you had that knowledge foundation to try new things and expand on everything you’ve learned. 
+
+It’s also very easy to focus on the negatives. It’s possible your last map got 8 downvotes, but what about the other 156 upvotes? Those 156 enjoyed your map enough to actually vote on it. Actively looking for the positives is a great way to combat these feelings.
+
+
+## Helping the Community
+If you’ve ever had someone leave a positive review on your map, or DM you to tell you how much they love your map(s), you’ll know just how amazing it feels. Unfortunately, this is a relatively rare occurrence, even for the best mappers. Still, it doesn’t have to be. Be the change you want to see in the world! Making other people happy can have a profound effect on your own happiness, and a great way to do that is to let other mappers know how much you love their maps. It’s a nice way to form connections with other people within the community, and even one review can inspire other people to do the same thing, which is a snowballing effect. 
+
+It’s important, both as a community and as individuals, to be open about mental health and negative emotions that are large issues in gaming social circles. Knowing that other mappers aren’t infallible, and that we can all experience the same emotions, can be extremely important in helping others to help themselves.
 
 ## Credits
 Content in this section was authored by [Pyrowarfare](./mapping-credits.md#pyrowarfare)
