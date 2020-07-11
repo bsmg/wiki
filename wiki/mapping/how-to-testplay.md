@@ -31,6 +31,8 @@ It is important that you play the map in Practice Mode in order to prevent creat
 
 :::tip
 If you found the map you downloaded was too difficult for you to provide feedback, you can mark a `:skull_and_crossbones:` (:skull_and_crossbones:) on the post and ping them stating it was out of your skill level.
+
+If you are not confident with your feedback and feel the map should get another playtest, you can indicate a completed playtest with `:ballot_box_with_check:` (:ballot_box_with_check:) instead.
 :::
 
 ## Stepping it Up with Video
