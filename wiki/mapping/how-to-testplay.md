@@ -29,10 +29,10 @@ It is important that you play the map in Practice Mode in order to prevent creat
 8. Once you’re done, go back to the post and mark it with `:white_check_mark:` (:white_check_mark:) to indicate you’ve completed the map and given feedback. As well, make sure to mark the map with the letter indicative of the difficulty you tested, if the map has multiple difficulties and you did not test them all. You can find these in the pins of the `#testplays` channel.  
 ![Feedback Reactions](./images/feedback_reactions.png)
 
-:::tip
-If you found the map you downloaded was too difficult for you to provide feedback, you can mark a `:skull_and_crossbones:` (:skull_and_crossbones:) on the post and ping them stating it was out of your skill level.
-
+:::tip NOTE
 If you are not confident with your feedback and feel the map should get another playtest, you can indicate a completed playtest with `:ballot_box_with_check:` (:ballot_box_with_check:) instead.
+
+If you found the map you downloaded was too difficult for you to provide feedback, you can mark a `:skull_and_crossbones:` (:skull_and_crossbones:) on the post and ping them stating it was out of your skill level.
 :::
 
 ## Stepping it Up with Video
