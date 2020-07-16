@@ -165,7 +165,7 @@ Special characters such as those found in, Japanese (日本語/にほんご), Ch
 
 The <kbd>Open Song Folder</kbd> button will open your song folder in Windows Explorer. This will help you confirm that you have your files in the right spot.
 The <kbd>Package Song to Zip</kbd> button will remove your autosaves folder and zip the files for BeatSaver.
-The <kbd>Save Song Info</kbd> button commits all of your metadata to the info.dat file
+The <kbd>Save Song Info</kbd> button commits all of your metadata to the Info.dat file
 #### Difficulty Settings
 On the right side of the `Song Info` page is the area where you create individual difficulties and edit data that only applies to a single diffculty level. To create your first difficulty:
 
@@ -279,7 +279,7 @@ ___
 **My song is stuck loading in the editor forever or returns to the edit song screen after briefly loading**  
 * This error is usually caused by a missing, corrupted, or invalid audio file. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder. Usage of convert to OGG websites is the common cause of this issue.  
 * The audio file is not in the correct location. Make sure it is in the folder that MMA2 created for your song!  
-   * The folder you should put the `.ogg` song file is located to the path you put during [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and should contain at least an `info.dat` file.  
+   * The folder you should put the `.ogg` song file is located to the path you put during [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and should contain at least an `Info.dat` file.  
 * Make sure you are launching the editor from the extracted folder, not the zip (MMA2.zip) you downloaded.
 ___
 **I can't figure out how to place dot notes**  
@@ -287,10 +287,13 @@ ___
    * You can review the keybindings by pressing <kbd>ESC</kbd> for the in-editor list or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). 
 ___
 **One Saber maps don't load in game**  
-* Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "One Saber",` and replace with `"_beatmapCharacteristicName": "OneSaber",`
+* Open the map's Info.dat in a text editor and find the line `"_beatmapCharacteristicName": "One Saber",` and replace with `"_beatmapCharacteristicName": "OneSaber",`
 ___
 **No Arrows maps don't load in game**  
-* Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "No Arrows",` and replace with `"_beatmapCharacteristicName": "NoArrows",`
+* Open the map's Info.dat in a text editor and find the line `"_beatmapCharacteristicName": "No Arrows",` and replace with `"_beatmapCharacteristicName": "NoArrows",`
+___
+**90/360 maps don't use the Glass Desert Environment**
+* Open the map's Info.dat in a text editor and add `"_allDirectionsEnvironmentName": "GlassDesertEnvironment",`
 ___
 **Your audio file name is wrong. Enter only the name NOT the path.**  
 ![Audio File Name Wrong](./images/mma2-wrongPath.png)

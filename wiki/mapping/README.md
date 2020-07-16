@@ -309,13 +309,13 @@ ___
 **Beatmap already exists!**  
   * The exact map files were uploaded previously. You must change something small in your map (i.e., remove a light block, save the map, replace the light block, and save again) to be able to upload.  
 ___
-**Beatmap does not contain an info.dat file!**  
+**Beatmap does not contain an Info.dat file!**  
   * Usually caused by having the files in a subfolder. You need to zip the files instead of the folder. [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead. **NOTE: MMA2's export button does not include contributor images in the zip.**  
 ___
 **One or more beatmap difficulty files cannot be found!**  
   * You might have forgotten to include all of your difficultiy files are in the zip.  
-  * A difficulty's `"_beatmapFilename"` in the `info.dat` might be using a different file name than what is present in the folder.  
-  * A deleted difficulty is still being referenced in your `info.dat` file. Check to make sure you do not have unintended difficulties in the `"_difficultyBeatmaps"` cluster of each present characteristc.  
+  * A difficulty's `"_beatmapFilename"` in the `Info.dat` might be using a different file name than what is present in the folder.  
+  * A deleted difficulty is still being referenced in your `Info.dat` file. Check to make sure you do not have unintended difficulties in the `"_difficultyBeatmaps"` cluster of each present characteristc.  
 ___
   **Error in `MapDifficulty.dat`. Root should NOT have additional property: `_time`.**  
   `_time` is the common error for this type of message. However, the same solution applies if a different property is flagged.  
