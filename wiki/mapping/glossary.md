@@ -145,7 +145,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **NPS** | Abbreviation of Notes Per Second. |
 | **No Arrows Mode** | A map characteristic using only dot notes. Often used by new players or for alternate play styles like "maul mode." |
 | **Note** | A cube with either an arrow or dot on it. The primary element of gameplay. By default, notes are red or blue. Also known as Block |
-| **Note Jump Speed** | The speed that objects approach the player in-game. Labeled in info.dat as "noteJumpMovementSpeed”. Abbreviated NJS |
+| **Note Jump Speed** | The speed that objects approach the player in-game. Labeled in Info.dat as "noteJumpMovementSpeed”. Abbreviated NJS |
 | **Notes Per Second** | A measure of map density. The number of notes that pass the player within one second. A very rough approximate measure of difficulty. Abbreviated NPS |
 
 ## O

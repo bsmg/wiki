@@ -154,12 +154,12 @@ Luckily there are some mods to help you out.
 - [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) - change Song time, playback speed and more from the pause manu
 
 ## Extended Characteristics
-These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `info.dat` file.
+These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `Info.dat` file.
 
 **To Add a New Characteristic**
 1. Create your new difficulty file in your favorite editor.
 2. When finished mapping, rename the difficulty file to include the characteristic name. (example: `EasyLightshow.dat`)
-3. Make the following changes to the `”_beatmapCharacteristicName”` and `”_beatmapFilename”` in your `info.dat` file:
+3. Make the following changes to the `”_beatmapCharacteristicName”` and `”_beatmapFilename”` in your `Info.dat` file:
 
 ```
 "_difficultyBeatmapSets": [{
@@ -170,7 +170,7 @@ These characteristics (with the exception of 360°/90° mode) take you beyond of
 		"_beatmapFilename": "EasyLightshow.dat",
 ```
 
-This [pastebin](https://pastebin.com/vbgFPqn9) link provides an example of a `info.dat` file using two characteristics (Lawless and Standard)
+This [pastebin](https://pastebin.com/vbgFPqn9) link provides an example of a `Info.dat` file using two characteristics (Lawless and Standard)
 
 ### 360°/90°
 ::: warning
