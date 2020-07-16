@@ -7,6 +7,10 @@ Over *thirty* different mapping guides and tutorials have been combined into thi
 
 > Missed you? Want to update your bio? [Let us know!](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform)
 
+## Aeroluna
+Contributed the environment screenshots from game version 1.6 to [Basic Lighting](/mapping/basic-lighting.md) and is the maintainer of Chroma and Noodle Extensions!  
+[Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c854907) | [BeastSaber](https://bsaber.com/members/aeroluna/)
+
 ## Awfulnaut 
 Wrote the *Beat Saber Custom Mapping Best Practices for Block Placement* guide which the majority of [Basic Mapping: Pattern Best Practices](/mapping/basic-mapping.html#pattern-best-practices) was based on.  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84edac) | [BeastSaber](https://bsaber.com/members/awfulnaut/)
@@ -19,6 +23,10 @@ An awesome dance mapper who created a [video tutorial series](https://bsaber.com
 Really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps.  
 Helps maintain and improve the resources.  
 [Beatsaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
+
+## Bullet
+Contributed environment lighting videos in [Basic Lighting](/mapping/basic-lighting.md). Has an interesting username...  
+[Beatsaver](https://beatsaver.com/uploader/5e84a9933f476a000645dd88) | [BeastSaber](https://bsaber.com/members/xace1337manx/)
 
 ## Caeden117
 Modder, Moderator, Mapper, EditorMaster... Caeden does it all. As the primary dev on the ChroMapper project (which natively supports 360) he contributed a TON for 360&deg;/90&deg; best practices.  

@@ -293,7 +293,11 @@ ___
 * Open the map's Info.dat in a text editor and find the line `"_beatmapCharacteristicName": "No Arrows",` and replace with `"_beatmapCharacteristicName": "NoArrows",`
 ___
 **90/360 maps don't use the Glass Desert Environment**
-* Open the map's Info.dat in a text editor and add `"_allDirectionsEnvironmentName": "GlassDesertEnvironment",`
+* Open the map's Info.dat in a text editor and add `"_allDirectionsEnvironmentName": "GlassDesertEnvironment",` after `"_environmentName": "DefaultEnvironment",` or similar if you set a different environment for other difficulties.
+
+:::tip
+If you are not comfortable editing the Info.dat, you can zip up your map and use [Schema Fixer](https://skystudioapps.com/mapping-tools/#schema-fixer) by **+1 Rabbit** to make the one time adjustment!
+:::
 ___
 **Your audio file name is wrong. Enter only the name NOT the path.**  
 ![Audio File Name Wrong](./images/mma2-wrongPath.png)
