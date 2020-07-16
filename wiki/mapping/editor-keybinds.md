@@ -11,6 +11,10 @@ These are the default keybinds which may change at any time. Some editors may al
 
 If this format doesn't work for you, this [google spreadsheet](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing), which this wiki page is based off of, is also available but may be out of date.
 
+::: warning WARNING
+You can find more info on Beatmapper's keybinds [here](https://beatmapper.app/docs/keyboard-shortcuts). There are more than what is listed that are very speciic to Beatmapper, and it is recommended to read through the list. 
+:::
+
 ## General Keybinds
 ### Basic
 |                       |  Mediocre Map Assistant 2 |     Beat Mapper     |         ChroMapper        |
@@ -18,8 +22,8 @@ If this format doesn't work for you, this [google spreadsheet](https://docs.goog
 |           Move camera | Right Click+W/A/S/D/Mouse | Shift+W/A/S/D/Mouse | Right Click+W/A/S/D/Mouse |
 |    Set note direction |         W/A/S/D/F         |      W/A/S/D/F      |         W/A/S/D/F         |
 | Change edit precision |        Ctrl+Scroll        |     Ctrl+Scroll     |        Ctrl+Scroll        |
-|              Red note |             1             |          1          |             1             |
-|             Blue note |             2             |          2          |             2             |
+|              Red note |             1            |          1   or R       |             1             |
+|             Blue note |             2             |          2   or B       |             2             |
 |                  Bomb |             3             |          3          |             3             |
 |                  Wall |             4             |          4          |             4             |
 |              Save map |           Ctrl+S          |   N/A (Autosaves)   |           Ctrl+S          |
@@ -27,9 +31,9 @@ If this format doesn't work for you, this [google spreadsheet](https://docs.goog
 ### Element Selection
 |                   | Mediocre Map Assistant 2 |    Beat Mapper   |                ChroMapper               |
 |-------------------|:------------------------:|:----------------:|:---------------------------------------:|
-|       Select item |             Shift+LClick |     Shift+LClick |                            Shift+LClick |
+|       Select item |             Shift+LClick |     LClick |                            Shift+LClick |
 | Select many items |     Ctrl+LClick ⇒ Scroll | Q ⇒ Fill in info | Ctrl/Alt+LClick or Ctrl+LClick ⇒ Scroll |
-|          Deselect |         Ctrl+A or Ctrl+D |           Ctrl+A |                                  Ctrl+A |
+|          Deselect |         Ctrl+A or Ctrl+D |           LClick |                                  Ctrl+A |
 
 ### Edit Notes
 |                      |         Mediocre Map Assistant 2         |  Beat Mapper |        ChroMapper       |
