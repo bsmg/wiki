@@ -5,15 +5,13 @@ sidebar: auto
 # Editor Keybinds
 There are usually multiple ways to accomplish the same action, however, keyboard shortcuts are the most efficient.
 
-::: tip NOTE
-These are the default keybinds which may change at any time. Some editors may allow you to change the keybinds.
+::: warning NOTE
+* These are the default keybinds which may change at any time. Some editors may also allow you to change the keybinds. 
+
+* You can find more info on Beatmapper's keybinds [here](https://beatmapper.app/docs/keyboard-shortcuts). There are some actions that are very specific to Beatmapper that may not be noted on this page. 
 :::
 
 If this format doesn't work for you, this [google spreadsheet](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing), which this wiki page is based off of, is also available but may be out of date.
-
-::: warning WARNING
-You can find more info on Beatmapper's keybinds [here](https://beatmapper.app/docs/keyboard-shortcuts). There are more than what is listed that are very speciic to Beatmapper, and it is recommended to read through the list. 
-:::
 
 ## General Keybinds
 ### Basic
