@@ -7,16 +7,12 @@ _Essential information to get up and running using Mediocre Map Assistant 2_
 * [Glossary of Terms](/mapping/glossary.md)
 
 ::: tip NOTE
-This guide currently supports both [Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) by Assistant and Mediocre Mapper Mk5 (final public release) by Squeaksies. All future public development will occur on MMA2.
+This guide currently supports both [Mediocre Map Assistant 2](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest) by Assistant and Mediocre Mapper Mk5 (final public release) by Squeaksies. All future public development will occur on MMA2.
 :::
 
 ## Editor Setup
 ### Windows Installation
-1. Download MMA2.zip from [GitHub](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) 
-:::danger NOTE
-The download link for MMA2 is currently down. We are currently working to resolve this issue. Please hop over to the `#mapping-discussion` channel in the [BSMG Discord](https://discord.gg/beatsabermods) for more info. 
-:::
-
+1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest) 
 2. Unzip the file and place the extracted folder wherever you like on your hard drive.
 3. Double click `mediocremapassistant2.exe` in the extracted folder to run.
 
@@ -49,11 +45,7 @@ instead of
 :::
 
 ### Linux Installation
-1. Download MMA2.zip from [GitHub](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) 
-:::danger NOTE
-The download link for MMA2 is currently down. We are currently working to resolve this issue. Please hop over to the `#mapping-discussion` channel in the [BSMG Discord](https://discord.gg/beatsabermods) for more info. 
-:::
-
+1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest) 
 2. Unzip the file and place the extracted folder wherever you like on your hard drive.
 3. Open Steam. At the top of the window, go to `Steam > Settings > Steam Play`. In the `Advanced` section, check `Enable Steam Play for all other titles` if it isn't already. Restart Steam if you are prompted to do so.
 3. On the bottom right of Steam's main window, click `Add a Game`, then `Add a Non-Steam Games`. A window opens, click `Browse` at the bottom. Select `All Files` as the file type. Find where `MediocreMapAssistant2.exe` is, and add it.

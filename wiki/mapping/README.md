@@ -130,6 +130,8 @@ Ever thought that it is a lot of annoying work to make big maps with other peopl
 A utility for finding the BPM of a song by upload or tapping.
 * [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
 Video guide on using the timing feature of osu!'s editor to find map bpm.
+* [Parity Checker](https://galaxymaster2.github.io/bs-parity/) by **GalaxyMaster**  
+An error checker tool that focuses on finding issues with parity in a map.
 
 #### Legacy Tools
 * [BPM Saber](https://github.com/zevdg/bpm-saber#readme), by **Zevdg**  
