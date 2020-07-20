@@ -148,6 +148,7 @@ module.exports = {
       layoutChunkName: ({ componentName }) => `layout-${componentName}`,
     }],
     'seo',
+    'smooth-scroll',
   ],
   configureWebpack: {
     resolve: {
