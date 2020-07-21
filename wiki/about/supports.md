@@ -44,7 +44,7 @@ He has no life and he's pretty dumb but he can help with your bmbf and thats all
 
 **Roles:** Support
 
-[Youtube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
+[YouTube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
 
 ## Simme63
 "Coke Head"

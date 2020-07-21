@@ -24,7 +24,7 @@ Remind him to watch his glucose.
 **Contributions:** Custom Notes, ModelSaber Admin
 
 Make sure he watches his glucose
-[Important](https://i.imgur.com/REWmoI9.jpg) | [Twitter](https://twitter.com/vrbobbie) | [Youtube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ) | [Donate](https://ko-fi.com/bobbievr)
+[Important](https://i.imgur.com/REWmoI9.jpg) | [Twitter](https://twitter.com/vrbobbie) | [YouTube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ) | [Donate](https://ko-fi.com/bobbievr)
 
 ## elliotttate
 Official BSMG PR Guy. Events like the 100k Contest wouldn't have been possible without his efforts and networking skills. He also runs BeastSaber to help you find the best curated maps.

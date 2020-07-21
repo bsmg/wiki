@@ -28,7 +28,7 @@ Developer of ModelSaber 2.0 and crafter of many sabers and bloqs.
 
 **Roles:** 3D Artist
 
-[Twitter](https://twitter.com/laugexd) | [Youtube](https://www.youtube.com/channel/UCr_JES9nBCUaAR9-UbgDMRw) | [ModelSaber](https://modelsaber.com/Profile/?user=146243483898871808)
+[Twitter](https://twitter.com/laugexd) | [YouTube](https://www.youtube.com/channel/UCr_JES9nBCUaAR9-UbgDMRw) | [ModelSaber](https://modelsaber.com/Profile/?user=146243483898871808)
 
 ## MissRaynor
 **Roles:** 3D Artist
@@ -47,7 +47,7 @@ As you can read I make sabers for quest, but generally I've been active in the a
 
 **Roles:** 3D Artist, Support
 
-[PayPal](https://paypal.me/RedBrumblerOfficial?locale.x=nl_NL) | [Patreon](https://www.patreon.com/RedBrumbler) | [Ko-Fi](https://ko-fi.com/redbrumbler) | [Youtube](https://www.youtube.com/channel/UCYmzlDob8BQYWrOQWkHtCpQ) | [Facebook](https://www.facebook.com/red.brumbler.7) | [Twitter](https://twitter.com/RedBrumbler) | [GitHub](https://github.com/RedBrumbler/BeatOnCustomSabers) | [Reddit](https://www.reddit.com/user/RedBrumbler/)
+[PayPal](https://paypal.me/RedBrumblerOfficial?locale.x=nl_NL) | [Patreon](https://www.patreon.com/RedBrumbler) | [Ko-Fi](https://ko-fi.com/redbrumbler) | [YouTube](https://www.youtube.com/channel/UCYmzlDob8BQYWrOQWkHtCpQ) | [Facebook](https://www.facebook.com/red.brumbler.7) | [Twitter](https://twitter.com/RedBrumbler) | [GitHub](https://github.com/RedBrumbler/BeatOnCustomSabers) | [Reddit](https://www.reddit.com/user/RedBrumbler/)
 
 ## SeventyTwo
 Tons and tons of Full Body Tracking support!
@@ -64,7 +64,7 @@ Tons and tons of Full Body Tracking support!
 
 **Roles:** 3D Artist
 
-[Youtube](https://www.youtube.com/channel/UCIH4NTKdVNjnJpfuMrk71Fw) | [Patreon](https://www.patreon.com/yuukisaves) | [Ko-Fi](https://ko-fi.com/supportyuuki)
+[YouTube](https://www.youtube.com/channel/UCIH4NTKdVNjnJpfuMrk71Fw) | [Patreon](https://www.patreon.com/yuukisaves) | [Ko-Fi](https://ko-fi.com/supportyuuki)
 
 ---
 

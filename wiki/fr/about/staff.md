@@ -72,7 +72,7 @@ Rappelez lui de surveiller son glucose.
 **Contributions :** Custom Notes, Admin de ModelSaber
 
 Assurez-vous qu'il surveille son glucose.
-[Important](https://i.imgur.com/REWmoI9.jpg) | [GitHub](https://github.com/legoandmars/) | [Twitter](https://twitter.com/vrbobbie) | [Youtube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ)
+[Important](https://i.imgur.com/REWmoI9.jpg) | [GitHub](https://github.com/legoandmars/) | [Twitter](https://twitter.com/vrbobbie) | [YouTube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ)
 
 ## Melopod ƸӜƷ
 Aime les quiches, les tartes et aider les gens à réparer leurs mods !

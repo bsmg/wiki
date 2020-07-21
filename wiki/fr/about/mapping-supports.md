@@ -23,7 +23,7 @@ La reine peluche qui a organisé la majorité des ressources sur le mapping. Les
 
 ## Skeelie
 Annonciateur de dommage oculaire avec ses spectacles de lumières flashy, il peut vous aider à rendre votre map brillante !
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f) | [BeastSaber](https://bsaber.com/members/skeelie/) | [Youtube](https://www.youtube.com/user/xSkeelie) | [Twitch](https://www.twitch.tv/skeelie)
+[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f) | [BeastSaber](https://bsaber.com/members/skeelie/) | [YouTube](https://www.youtube.com/user/xSkeelie) | [Twitch](https://www.twitch.tv/skeelie)
 
 ::: tip Voir aussi
 **Supports :** [Kolezan](/fr/about/supports.md#kolezan)

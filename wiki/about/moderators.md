@@ -21,7 +21,7 @@ gaming 101
 
 **Roles:** Support, 3D Artists, Moderator
 
-[Discord](https://discord.gg/NXnPYEh) | [Youtube](https://www.youtube.com/c/CharaHere)
+[Discord](https://discord.gg/NXnPYEh) | [YouTube](https://www.youtube.com/c/CharaHere)
 
 ## DeeJay
 Pepega
@@ -102,4 +102,4 @@ Literally no clue what he's doing when it comes to coding, at all, but he can fi
 
 **Roles:** Moderator, Mapper
 
-[Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [Youtube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)
+[Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [YouTube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)

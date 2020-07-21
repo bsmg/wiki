@@ -107,7 +107,7 @@ Wrote *Warping Variable BPM Songs with Reaper* based off of a method by **Heisen
 
 ## Ryger
 Created a tutorial video on syncing songs using [Arrow Vortex](/mapping/basic-audio.html#tool-assisted-bpm-calculation).  
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855a42) | [BeastSaber](https://bsaber.com/members/ryger/) | [Youtube](https://www.youtube.com/channel/UCV1H-gl55Q4WgrInng9szzg)
+[BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855a42) | [BeastSaber](https://bsaber.com/members/ryger/) | [YouTube](https://www.youtube.com/channel/UCV1H-gl55Q4WgrInng9szzg)
 
 ## Scrappy
 Wrote the original mapping extensions walls guide.  

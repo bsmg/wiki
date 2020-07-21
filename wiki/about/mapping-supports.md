@@ -19,7 +19,7 @@ The plushie queen who organized the majority of the mapping resources. The guide
 
 ## Skeelie
 Bringer of eye damage with his flashy light shows, he can help you make your map shine!  
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f) | [BeastSaber](https://bsaber.com/members/skeelie/) | [Youtube](https://www.youtube.com/user/xSkeelie) | [Twitch](https://www.twitch.tv/skeelie)
+[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f) | [BeastSaber](https://bsaber.com/members/skeelie/) | [YouTube](https://www.youtube.com/user/xSkeelie) | [Twitch](https://www.twitch.tv/skeelie)
 
 ::: tip See Also
 **Staff:** [Bloodcloak](/about/staff.md#bloodcloak) | **Supports:** [Kolezan](/about/supports.md#kolezan)
