@@ -236,5 +236,5 @@ Original creator of SongLoader and CameraPlus, and a major contributor to the cu
 ::: tip See Also
 **Support:** [Pespiri](/about/supports.md#pespiri)
 **Moderator:** [Caeden117](/about/moderators.md#Caeden117) | [Rugtveit](/about/moderators.md#Rugtveit)
-**Staff:** [Steven](/about/staff.md#steven-🎀)  | [Reaxt](/about/staff.md#reaxt) | [Megalon](/about/staff.md#megalon)
+**Staff:** [+1 Rabbit](/about/staff.md#_1-rabbit) | [lolPants](/about/staff.md#lolpants) | [Steven](/about/staff.md#steven-🎀) | [Reaxt](/about/staff.md#reaxt) | [Megalon](/about/staff.md#megalon)
 :::
