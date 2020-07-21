@@ -25,6 +25,14 @@ BSMG server owner and rhythm game fanatic. We wouldn't be here today without thi
 
 [GitHub](https://github.com/reaxt) | [Twitch](https://twitch.tv/reaxt)
 
+## lolPants
+One hell of a developer and a lover of socks. lolPants laid the groundwork for many of the policies and procedures during his time as Staff, and continues to help out when his services are needed.
+
+**Roles:** Modder, Admin (Retired), Staff, Moderator  
+**Contributions** CMB, ModSaber, Moderation, BeatSaver Reloaded
+
+[GitHub](https://github.com/lolPants) | [Twitch](https://twitch.tv/lolpants_) | [PayPal](https://www.paypal.me/jackbarondev) | [Ko-fi](https://ko-fi.com/lolpants) | [Patreon](https://www.patreon.com/JackBaron) | [Donate](https://monzo.me/jackbaron)
+
 ## elliotttate
 Official BSMG PR Guy. Events like the 100k Contest wouldn't have been possible without his efforts and networking skills. He also runs BeastSaber to help you find the best curated maps.
 
