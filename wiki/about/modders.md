@@ -1,13 +1,6 @@
 # Modders
 Making sure our games look the way we want them to, one plugin at a time.
 
-## +1 Rabbit
-Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)  
-**Roles:** Modder
-**Contributions:** BS-Viewer, Mapping Tools  
-
-[GitHub](https://github.com/PlusOneRabbit) | [Twitch](https://www.twitch.tv/plusonerabbit) | [Donate](https://ko-fi.com/plusonerabbit)
-
 ## andruzzzhka
 A huge contributor for the in-game downloader mod, and developer of the unofficial multiplayer plugin.
 
