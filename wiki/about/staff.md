@@ -86,7 +86,7 @@ The manager of many, Steven's always around to lend a helping hand as long as yo
 **Roles:** Admin, Staff, Support, Modder
 **Contributions:** THE ModelSaber Admin
 
-[Github](https://github.com/DeadlyKitten) | [Twitch](https://www.twitch.tv/steventhecat)  | [Donate](https://streamlabs.com/steventhecat)
+[GitHub](https://github.com/DeadlyKitten) | [Twitch](https://www.twitch.tv/steventhecat)  | [Donate](https://streamlabs.com/steventhecat)
 
 ## Umbranox
 ScoreSaber Supreme Leader, creator of the custom leaderboards/rank system. Always trying to do way too much work with not enough rest. Remember to pat your Umbranox once a day!

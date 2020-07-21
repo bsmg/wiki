@@ -30,7 +30,7 @@ He'll give me his bio later today, or so he says.
 
 **Roles:** Support, Modder
 
-[Github](https://github.com/pespiri)
+[GitHub](https://github.com/pespiri)
 
 ## Radevirot
 This guy came out of nowhere and started helping in support saying it was some kind of addiction, what a loon.

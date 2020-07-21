@@ -22,7 +22,7 @@ Creator of the Song Request Manager, which makes twitch requests possible. Check
 **Roles:** Modder
 **Contributions:** Enhanced Stream Chat, StreamCore, SongRequestManager
 
-[Github](https://github.com/angturil) | [Donate](https://paypal.me/sehria)
+[GitHub](https://github.com/angturil) | [Donate](https://paypal.me/sehria)
 
 ## Arti
 Somone say text customization mods?
@@ -38,7 +38,7 @@ Somone say text customization mods?
 **Roles:** Modder
 **Contributions:** Enhancements, AlphaTwitch, PlaylistCore
 
-[Github](https://github.com/AurosX) | [Twitch](https://www.twitch.tv/AurosXT) | [Donate](https://www.ko-fi.com/aurosnex)
+[GitHub](https://github.com/AurosX) | [Twitch](https://www.twitch.tv/AurosXT) | [Donate](https://www.ko-fi.com/aurosnex)
 
 ## bigfoot
 Has large feet, maybe??

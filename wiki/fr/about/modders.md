@@ -41,7 +41,7 @@ Créateur du Song Request Manager, qui permet les requêtes Twitch possible. Ren
 **Rôles :** Moddeur
 **Contributions :** Enhanced Stream Chat, StreamCore, SongRequestManager
 
-[Github](https://github.com/angturil) | [Faire un don](https://paypal.me/sehria)
+[GitHub](https://github.com/angturil) | [Faire un don](https://paypal.me/sehria)
 
 ## Auros
 *Erreur de suivi détectée*
@@ -49,7 +49,7 @@ Créateur du Song Request Manager, qui permet les requêtes Twitch possible. Ren
 **Rôles :** Moddeur
 **Contributions :** Enhancements, AlphaTwitch, PlaylistCore
 
-[Github](https://github.com/AurosX) | [Twitch](https://www.twitch.tv/AurosXT) | [Faire un don](https://www.ko-fi.com/aurosnex)
+[GitHub](https://github.com/AurosX) | [Twitch](https://www.twitch.tv/AurosXT) | [Faire un don](https://www.ko-fi.com/aurosnex)
 
 ## halsafar
 Vous aide à organiser vos 5000 musiques personnalisées raisonnablement.

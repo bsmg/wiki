@@ -14,7 +14,7 @@ Il vous donnera sa bio plus tard ce jour, selon lui.
 
 **Rôles :** Support, Modder
 
-[Github](https://github.com/pespiri)
+[GitHub](https://github.com/pespiri)
 
 ## Radevirot
 Ce type est arrivé de nulle part et a commencé à aider dans le support disant que c'était une sorte d'addiction, quel barje.

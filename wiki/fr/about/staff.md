@@ -39,7 +39,7 @@ Le reponsable de beaucoup, Steven est toujours proche pour tendre sa main tant q
 **Rôles :** Admin, Staff, Support, Moddeur
 **Contributions :** THE Admin de ModelSaber
 
-[Github](https://github.com/DeadlyKitten) | [Twitch](https://www.twitch.tv/steventhecat)  | [Faire un don](https://streamlabs.com/steventhecat)
+[GitHub](https://github.com/DeadlyKitten) | [Twitch](https://www.twitch.tv/steventhecat)  | [Faire un don](https://streamlabs.com/steventhecat)
 
 ## williums
 Chef de projet, éditeur du wiki, chef boulanger. Malgré ce que tout le monde dit, j'aime les filles.
@@ -72,7 +72,7 @@ Rappelez lui de surveiller son glucose.
 **Contributions :** Custom Notes, Admin de ModelSaber
 
 Assurez-vous qu'il surveille son glucose.
-[Important](https://i.imgur.com/REWmoI9.jpg) | [Github](https://github.com/legoandmars/) | [Twitter](https://twitter.com/vrbobbie) | [Youtube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ)
+[Important](https://i.imgur.com/REWmoI9.jpg) | [GitHub](https://github.com/legoandmars/) | [Twitter](https://twitter.com/vrbobbie) | [Youtube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ)
 
 ## Melopod ƸӜƷ
 Aime les quiches, les tartes et aider les gens à réparer leurs mods !
