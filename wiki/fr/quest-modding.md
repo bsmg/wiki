@@ -66,13 +66,13 @@ Si vous voulez utiliser la même méthode de téléchargement de custom songs co
 ### Dans votre Quest
 Il y a 2 sources pour récupérer des maps dans votre Quest en utilisant la fenêtre du navigateur.
 * Si vous cherchez des maps et des playlists, visitez [BeastSaber](https://bsaber.com/)
-* Si vous n'aimez pas l'interface de BeastSaber vous pouvez aussi essayer [Beatsaver](https://beatsaver.com/)
+* Si vous n'aimez pas l'interface de BeastSaber vous pouvez aussi essayer [BeatSaver](https://beatsaver.com/)
 
 Les deux ont un bouton en un clic (1click button) qui installe facilement la custom song dans votre Quest. Vous pouvez alterner entre les sites en utilisant l'icône du globe en haut à droite de la fenêtre de votre navigateur.
 
 ### Avec votre PC
 Si vous ne pouvez pas installer des custom songs dans votre Quest, vous pouvez installer les maps en utilisant votre ordinateur de la même manière qu'en installant les mods.
-1. Visitez [BeastSaber](https://bsaber.com/) ou [Beatsaver](https://beatsaver.com/) sur votre ordinateur
+1. Visitez [BeastSaber](https://bsaber.com/) ou [BeatSaver](https://beatsaver.com/) sur votre ordinateur
 2. Téléchargez le zip
 3. Suivez les étapes pour [Installer les mods](#installer-les-mods) jusqu'à l'écran d'upload des fichiers.
 4. Glissez et déposez le zip de la map et elle devrait s'installer !

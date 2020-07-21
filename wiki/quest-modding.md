@@ -70,13 +70,13 @@ If you want to use the same method of downloading songs as you do in BMBF in you
 ### Inside your Quest
 There are 2 sources to getting custom maps inside your Quest using the browser window.
 * If you are looking for curated maps and playlists visit [BeastSaber](https://bsaber.com/)
-* If you don't like the UI of BeastSaber you could also try [Beatsaver](https://beatsaver.com/)
+* If you don't like the UI of BeastSaber you could also try [BeatSaver](https://beatsaver.com/)
 
 Both have a 1click button that easily installs that song onto your Quest. You can switch between these websites using the globe icon in the top right of the browser window.
 
 ### Using your PC
 If you are unable to install songs inside your Quest, you can install maps using your computer similar to installing mods. 
-1. Visit [BeastSaber](https://bsaber.com/) or [Beatsaver](https://beatsaver.com/) on your computer
+1. Visit [BeastSaber](https://bsaber.com/) or [BeatSaver](https://beatsaver.com/) on your computer
 2. Download the zip
 3. Follow the [Installing mods](#installing-mods) steps up to the upload files screen.
 4. Drag and drop the map zip in and it should be installed!
