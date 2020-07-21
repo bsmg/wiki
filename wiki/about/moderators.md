@@ -89,14 +89,6 @@ Literally no clue what he's doing when it comes to coding, at all, but he can fi
 
 [Twitch](https://www.twitch.tv/sarpest_razor) | [Donate](https://streamelements.com/sarpest_razor/tip)
 
-## Rugtveit
-*"Norweigan dude." I'm not so creative* ~Rugtveit
-
-**Roles:** Modder, Moderator  
-**Contributions:** FPSCounter, QSettings+, Short Trail  
-
-[GitHub](https://github.com/Rugtveit)
-
 ## Shad
 "Every channel is just #pc-mod-support"
 

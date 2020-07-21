@@ -60,8 +60,8 @@ Created by Megalon, recreated by lolPants, and personified by Rolo!
 ---
 
 ::: tip See Also
-**Modders:** [Kyle1413](/about/modders.md#kyle1413)
+**3D Artists:** [RedBrumbler](/about/3d-artists.md#redbrumbler)  
+**Modders:** [Kyle1413](/about/modders.md#kyle1413)  
+**Moderators:** [Razor](/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [Pink](/about/moderators.md#pink) | [Chara_](https://bsmg.wiki/about/moderators.html#chara)  
 **Staff:** [Assistant](/about/staff.md#assistant) | [Klouder](/about/staff.md#klouder) | [Megalon](/about/staff.md#megalon) | [Steven](/about/staff.md#steven) | [williums](/about/staff.md#williums) | [Melopod ƸӜƷ](/about/staff.md#melopod-ƹӝʒ)
-**Moderators:** [Razor](/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [Pink](/about/moderators.md#pink) | [Chara_](https://bsmg.wiki/about/moderators.html#chara)
-**3D Artists:** [RedBrumbler](/about/3d-artists.md#redbrumbler)
 :::

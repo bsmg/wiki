@@ -81,6 +81,14 @@ BSMG server owner and rhythm game fanatic. We wouldn't be here today without thi
 
 [GitHub](https://github.com/reaxt) | [Twitch](https://twitch.tv/reaxt)
 
+## Rugtveit
+*"Norweigan dude." I'm not so creative* ~Rugtveit
+
+**Roles:** Modder, Moderator  
+**Contributions:** FPSCounter, QSettings+, Short Trail  
+
+[GitHub](https://github.com/Rugtveit)
+
 ## Sam
 He's either talking about Steven or being way too patriotic in chat (BS Nordic Admin btw). Don't call him cute, he hates that. He also makes maps, check them out below.
 
