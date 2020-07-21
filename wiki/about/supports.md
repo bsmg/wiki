@@ -1,6 +1,17 @@
 # Supports
 The Support role is a symbol of thanks. Thanks for the thousands of messages and hundreds of hours spent helping people sort out their mods, and for for building a knowledge of troubleshooting base through macros and the wiki. We don't typically give this role out, but when we do it's because someone has gone above and beyond for the server.
 
+## boulders2000
+"even though his brain is a mess he knows his stuff (kinda)" something like that (but don't add something like that part, ok?)
+
+**Roles:** Support
+
+## Emma
+You might know them for their spectacular platforms, or for more refined individuals: yeet sabers.
+
+**Roles:** Support, 3D Artist
+
+[Twitch](https://www.twitch.tv/therealkleinba)
 
 ## Kolezan
 He'll teach you to fix your plugins and your terribly off-beat first map. We've all been there.
@@ -8,6 +19,11 @@ He'll teach you to fix your plugins and your terribly off-beat first map. We've 
 **Roles:** Support, Mapping Support, Mapper
 
 [Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
+
+## Nobby76
+Heart of gold, nerves of steel.... And a knob of butter  
+
+**Roles:** Support
 
 ## Pespiri
 He'll give me his bio later today, or so he says.
@@ -23,34 +39,17 @@ This guy came out of nowhere and started helping in support saying it was some k
 
 [Twitter](https://twitter.com/Radevirot) | [Donate](paypal.me/Radevirot)
 
-## Emma
-You might know them for their spectacular platforms, or for more refined individuals: yeet sabers.
-
-**Roles:** Support, 3D Artist
-
-[Twitch](https://www.twitch.tv/therealkleinba)
-
-## Nobby76
-Heart of gold, nerves of steel.... And a knob of butter  
-
-**Roles:** Support
-
-## boulders2000
-"even though his brain is a mess he knows his stuff (kinda)" something like that (but don't add something like that part, ok?)
-
-**Roles:** Support
-
-## Simme63
-"Coke Head"
-
-**Roles:** Support
-
 ## Sands
 He has no life and he's pretty dumb but he can help with your bmbf and thats all that matters right?
 
 **Roles:** Support
 
 [Youtube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
+
+## Simme63
+"Coke Head"
+
+**Roles:** Support
 
 ## Channel Monitor Bot
 The bot that holds it all together.
