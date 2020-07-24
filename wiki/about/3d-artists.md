@@ -70,6 +70,6 @@ Tons and tons of Full Body Tracking support!
 
 ::: tip See Also
 **Support:** [Emma](/about/supports.md#emma)  
-**Moderators:** [DeeJay](/about/moderators.md#DeeJay) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [Pink](/about/moderators.md#Pink)  
+**Moderators:** [DeeJay](/about/moderators.md#deejay) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [Pink](/about/moderators.md#pink)  
 **Staff:** [Assistant](/about/staff.md#assistant) | [Bobbie](/about/staff.md#bobbie)
 :::
