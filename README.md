@@ -1,6 +1,8 @@
 # 📖 BSMG Wiki &nbsp;[![CI Status](https://github.com/bsmg/wiki/workflows/Wiki%20CI/badge.svg)](https://github.com/bsmg/wiki/actions)
 ## ✏️ Contributing
-If you wish to contribute, [submit a pull request](https://github.com/bsmg/wiki/pulls) with your changes. A wiki maintainer will review your changes and merge them in if deemed appropriate.
+If you wish to contribute, [submit a pull request](https://github.com/bsmg/wiki/pulls) with your changes. A wiki maintainer will review your changes and merge them in if deemed appropriate.  
+
+Don't know where to start? Checkout this [crash course](https://docs.google.com/document/d/1r6IP6l3uo8rc__GxfLkpaToxheeXotdYaKEj3oWB2js/edit?usp=sharing) on making contributions!
 
 ### 🌐 Localization
 Translation efforts are tracked using [GitHub's Project tracker.](https://github.com/bsmg/wiki/projects)

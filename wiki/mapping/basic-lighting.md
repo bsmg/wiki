@@ -77,7 +77,7 @@ Custom environment models (platforms) created by the community exist but require
 
 The basic structure of each environment is mostly the same. In the [Mediocre Map Assistant 2](./mediocre-map-assistant.md) editor the lighting track looks like this:
 <p align="center">
-![Screenshot of the MMA2 lighting track from the top down](./images/mma2-lighting-track-1.png)
+![Screenshot of the MMA2 lighting track from the top down](./images/mma2-lighting-track.png)
 </p>
 
 ### Environment Previews 
