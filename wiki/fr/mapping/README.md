@@ -121,7 +121,7 @@ Un outil pratique pour vérifier à quoi peut ressembler votre map sans passer p
 * [Cinder](https://github.com/zhaey/cinder#readme) de **zhaey**
 Un programme python qui convertit les fichiers stepmania `.sm` en fichier Beat Saber `.dat`pour le timing des notes.
 * [noodleLister](https://github.com/bloodcloak/noodleLister#readme) de **Bloodcloak**
-Compile une playlist une playlist du jeu à partir d'un fichier txt contenant des entrées de Beatsaver.
+Compile une playlist une playlist du jeu à partir d'un fichier txt contenant des entrées de BeatSaver.
 * [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) de **DarkGrisen**
 Vous vous êtes déjà dit que c'était beaucoup de boulot de faire des grosses maps avec d'autres personnes ou de couper parfaitement les fichiers audio afin de pouvoir les fusionner manuellement ensuite ? Cet outils vous permet de fusionner deux maps ou plus en une seule super longue map.
 * [BPM Saber](https://bsaber.com/bpmsaber/) de **Elliotttate**

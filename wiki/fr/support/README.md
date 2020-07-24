@@ -161,8 +161,8 @@ Si cela ne fonctionne pas, vérifiez que vous avez le mod correctement installé
 #### 3.9 Ma vue sur le PC ne prend qu'une petite portion de l'écran
 Votre affichage CameraPlus ne remplit pas votre écran. Tirez les coins de la fenêtre pour l'agrandir, ou bien faites un clic droit sur la fenêtre et cliquer sur "*Fit to Canvas*".
 
-### Beatsaver Downloader
-#### 3.10 Le bouton *More Songs* de Beatsaver Downloader
+### BeatSaver Downloader
+#### 3.10 Le bouton *More Songs* de BeatSaver Downloader
 **Le bouton *More Songs* est positionné dans le bouton Mods dans le menu principal**. Si le bouton *More Songs* est grisé, vérifiez que toutes vos musiques sont chargées préalablement, comme présenté dans la barre au-dessus du menu principal.
 Si votre bouton Mods n'y est pas, assurez-vous que vos extensions et dépendances fonctionnent et sont correctement installées, référez-vous à la section 1.1.
 

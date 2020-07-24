@@ -32,7 +32,7 @@ Pepega
 
 **Rôles :** Modérateur, Mappeur
 
-[Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [Youtube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)
+[Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [YouTube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)
 
 ## InfJager
 Ne peut pas toucher les jumps.

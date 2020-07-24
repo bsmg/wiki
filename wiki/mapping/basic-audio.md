@@ -46,7 +46,7 @@ Follow these general guidelines as you work on your maps:
 
 By purchasing and using a high quality audio file, not only are you supporting your artist, but you save yourself a lot of headache while mapping. Look at the difference in quality for the same song, at the same beat. 
 
-| OGG Quality | Youtube Rip | MP3| WAV | FLAC |
+| OGG Quality | YouTube Rip | MP3| WAV | FLAC |
 | :----: | :----: | :----: | :----: | :---: |
 | 1 | ![YouTube Rip 1](./images/ytrip1.jpg) | ![MP3 1](./images/mp31.jpg) | ![WAV 1](./images/wav1.jpg) | ![Flac 1](./images/flac1.jpg) |
 | 5 | ![YouTube Rip 5](./images/ytrip5.jpg) | ![MP3 5](./images/mp35.jpg) | ![WAV 5](./images/wav5.jpg) | ![Flac 5](./images/flac5.jpg) |

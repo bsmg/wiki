@@ -29,7 +29,7 @@ Si vous rencontrez des problèmes à un point donné, veuillez vous rendre sur l
 
 __**Lancez le jeu au moins une fois**__ avant d'essayer de modder votre jeu ! Cela s'applique après chaque réinstallation du jeu également, et après chaque mise à jour.
 
-Un installateur de mod Beat Saber simple, similaire à l'ancien Mod Manager, mais avec des fonctionnalités additionnelles telles que la suppression de mods et la vérification de version ! Téléchargez-le sur [le Github d'Assistant](https://github.com/Assistant/ModAssistant/releases/latest).
+Un installateur de mod Beat Saber simple, similaire à l'ancien Mod Manager, mais avec des fonctionnalités additionnelles telles que la suppression de mods et la vérification de version ! Téléchargez-le sur [le GitHub d'Assistant](https://github.com/Assistant/ModAssistant/releases/latest).
 
 ![ModAssistant](./images/beginners-guide/modassistant.png)
 
@@ -83,7 +83,7 @@ Un installateur de mods est le moyen recommandé pour installer des mods. Lisez 
 ![Répertoire patché](./images/beginners-guide/directory-patched.png "Répertoire patché")
 
 # Installer les mods
-4. Télécharger les mods souhaités, soit depuis Github, soit depuis le canal Discord `#pc-mods`, soit d'autres sources. **S'assurer de télécharger toutes dépendances requises par les mods.**
+4. Télécharger les mods souhaités, soit depuis GitHub, soit depuis le canal Discord `#pc-mods`, soit d'autres sources. **S'assurer de télécharger toutes dépendances requises par les mods.**
 ![Répertoire Plugins](./images/beginners-guide/directory-plugins.png "Répertoire Plugins")
 5. Certains mods ont des instructions d'installation précises, certains non. Généralement, il suffit de glisser-déposer le contenu du zip dans le dossier d'installation du jeu, et les fichiers doivent aller dans les dossiers correspondant.
 

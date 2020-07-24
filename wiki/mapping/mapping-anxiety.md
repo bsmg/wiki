@@ -9,7 +9,7 @@ This page is not a substitute, in any way, for real, professional help. If these
 
 ## Likes and Dislikes
 
-It is very easy to look at a bunch of numbers, which naturally have a quantitative value, and try and apply them as a way of judging quality. There’s even a public rating system directly attached to Beatsaver for every single map. It can be difficult to look at these and not take them to heart, especially if your map receives a lot of downvotes or very few downloads. However, there are so many factors that can go into these numbers, and it is unfair to you to try and use them to validate your maps, and yourself. If you are feeling anxious over a lot of dislikes or low downloads, consider some of these points:
+It is very easy to look at a bunch of numbers, which naturally have a quantitative value, and try and apply them as a way of judging quality. There’s even a public rating system directly attached to BeatSaver for every single map. It can be difficult to look at these and not take them to heart, especially if your map receives a lot of downvotes or very few downloads. However, there are so many factors that can go into these numbers, and it is unfair to you to try and use them to validate your maps, and yourself. If you are feeling anxious over a lot of dislikes or low downloads, consider some of these points:
 
 * They may have misclicked.
 * They may not like the song.
@@ -28,7 +28,7 @@ If you’re struggling to cope, consider some of these options:
 
 * Keep your maps private. If you truly map only for yourself, and you’re unhappy with how people respond to your maps, then there’s no problem with keeping them only for yourself.
 
-* Don’t look at Bsaber or Beatsaver. If you’ve made a habit of it, you might find it difficult to not subconsciously open a new tab and check, but it’s a good habit to break. Obsessing won’t make you happy, and no number will never be large enough for long. 
+* Don’t look at Bsaber or BeatSaver. If you’ve made a habit of it, you might find it difficult to not subconsciously open a new tab and check, but it’s a good habit to break. Obsessing won’t make you happy, and no number will never be large enough for long. 
 
 * Review your knowledge and get more testplays. If you don’t understand why your maps are getting so many dislikes, reach out to some more experienced mappers and ask for help.
 

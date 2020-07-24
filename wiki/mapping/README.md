@@ -115,7 +115,7 @@ You are now ready to continue editing your map!
 A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps
 * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**  
 A suite of tools for mappers **using new format .dat files** that includes:
-  * **Schema Fixer:** Easily fix maps made in Mediocre Mapper Mk4.1 and Mk5 for upload to Beatsaver
+  * **Schema Fixer:** Easily fix maps made in Mediocre Mapper Mk4.1 and Mk5 for upload to BeatSaver
   * **Tempo Changer:** Change the BPM of an entire map and shift block placements accordingly
   * **Offset Remover:** Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error
   * **Note Sorter:** Sorts unordered notes/obstacles/events in the map file to fix stack spawning  
@@ -125,7 +125,7 @@ A convenient way to checkout how your map might look in game without the game.
 * [Cinder](https://github.com/zhaey/cinder#readme) by **zhaey**  
 Python program that converts stepmania `.sm` files to Beat Saber `.dat` files for timing notes.
 * [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
-Easily compile a game playlist from a txt file containing Beatsaver map keys.
+Easily compile a game playlist from a txt file containing BeatSaver map keys.
 * [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) by **DarkGrisen**  
 Ever thought that it is a lot of annoying work to make big maps with other people or to perfectly cut the audio files so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map. 
 * [BPM Saber](https://bsaber.com/bpmsaber/) by **Elliotttate**  

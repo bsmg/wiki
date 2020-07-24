@@ -33,7 +33,7 @@ Some editors will automatically create an `Autosaves` folder where you can retri
 When you’re ready to prepare your song for upload you must have a minimum of four files.
 
 ::: warning
-Special characters in languages such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by Beatsaver. Using these characters in song metadata or in bookmarks can cause problems.
+Special characters in languages such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by BeatSaver. Using these characters in song metadata or in bookmarks can cause problems.
 :::
 
 ### Block Types
