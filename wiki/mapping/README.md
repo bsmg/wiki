@@ -41,8 +41,10 @@ These series use older editors in their tutorials (Mediocre Mapper and EditSaber
 ## Audio Editing Resources
 Before mapping, you need to get your audio file ready so that it works with your map editor. This section will walk you through how to set up and edit your audio file using a free program called [Audacity](https://www.audacityteam.org/).
 
-* [**Basic Audio Setup**](/mapping/basic-audio.md) - Can't make a map without audio. Learn how to setup your audio for easy mapping!
-* [**Advanced Audio Editing**](/mapping/advanced-audio.md) - A deeper dive in adjusting audio files such as making shorter versions or working with variable BPM.
+### [**Basic Audio Setup**](/mapping/basic-audio.md) 
+Can't make a map without audio. Learn how to setup your audio for easy mapping!
+### [**Advanced Audio Editing**](/mapping/advanced-audio.md)
+A deeper dive in adjusting audio files such as making shorter versions or working with variable BPM.
 
 ## Map Editing Resources
 
@@ -143,9 +145,12 @@ An error checker tool that focuses on finding issues with parity in a map.
       
 There is no holy bible of mapping but this section of the wiki includes a lot of tribal knowledge from the community on best practices at all levels of mapping. Our advice is to follow these rules until you're comfortable with your skills and then get creative, experiment, and innovate!
 
-* [**Basic Mapping**](/mapping/basic-mapping.md) - All new mappers need to read this, **no exceptions!**
-* [**Intermediate Mapping**](/mapping/intermediate-mapping.md) - A more in-depth look at many mapping topics **(This page is still a work in progress!)**
-* [**Extended Mapping**](/mapping/extended-mapping.md) - Mapping Extensions, Extra Characteristics, and 360&deg;/90&deg; mapping
+### [**Basic Mapping**](/mapping/basic-mapping.md) 
+All new mappers need to read this, **no exceptions!**
+### [**Intermediate Mapping**](/mapping/intermediate-mapping.md) 
+A more in-depth look at many mapping topics **(This page is still a work in progress!)**
+### [**Extended Mapping**](/mapping/extended-mapping.md) 
+Mapping Extensions, Extra Characteristics, and 360&deg;/90&deg; mapping
 
 ### Mapper Roles
 To apply for the **Mapper** role on the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) you must have released three solid/playable maps (collaborations are acceptable) and complete the [Mapper Role Submission Form](https://forms.gle/mj66J3UopTykFJjXA). Your application and maps may take a decent amount of time to be reviewed and approved.
@@ -163,11 +168,15 @@ Review the [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-
 ## Lighting Practices
 A map is not finished until some form of lighting is included. Lighting can range from very basic to incredibly detailed using additional mods to enable more features.
 
-* [**Basic Lighting**](/mapping/basic-lighting.md) - Learn the various aspects to lighting your map manually
-* [**Intermediate Lighting**](/mapping/intermediate-lighting.md) - Take your lighting skills a bit further into strobing, ring spins, and contrast practices
-* **Advanced Lighting** - Advanced and nuanced techniques, lighting for custom platforms, and Chroma RGB (coming soon... ask in #mapping-discussion if you want more info!)
+### [**Basic Lighting**](/mapping/basic-lighting.md) 
+Learn the various aspects to lighting your map manually
+### [**Intermediate Lighting**](/mapping/intermediate-lighting.md) 
+Take your lighting skills a bit further into strobing, ring spins, and contrast practices
+### **Advanced Lighting** 
+Advanced and nuanced techniques, lighting for custom platforms, and Chroma RGB *(Coming soon... ask in `#mapping-discussion` if you want more info!)*
 
-Below are additional lighting resources as we migrate over to the wiki pages.
+### Additional Resources 
+Older guides linked here as we migrate their content over to the wiki pages.
 
 * [Beginner's Guide to Lighting](https://docs.google.com/document/d/1wpZgBeOD1-UbJpXf-b6gX5ICNYygCd6UK6LOPm-t5QM/edit) by Puds
 * [Lighting Environment Guide](https://bsaber.com/creating-lighting-environment-guide/) by ManDynasty
