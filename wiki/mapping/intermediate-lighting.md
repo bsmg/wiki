@@ -63,7 +63,7 @@ You can produce a pulsating glow effect by strobing Flash and On events in seque
 
 Flash events start ~37.1% brighter than On events and then quickly fades to the intensity of On. An On event placed at any point during the Flash animation will disrupt the ongoing transition, immediately set the intensity to On. Therefore, you can produce very different results by strobing these two events at different intervals, ranging from a pulsating glow at ~1/4 interval to something of a vibrating "hum" at ~1/16 (tempo dependant).
 
-* Example of 1/4 interval at ~0:17: Don't Give Up On Me - Jason Ross ft. Dia Frampton mapped and lighted by LittleAsi  
+* Example of 1/4 interval at ~0:17: Don't Give Up On Me - Jason Ross ft. Dia Frampton mapped by Baxter and lighted by LittleAsi  
 [Streamable](https://streamable.com/d1jm6) | [BeatSaver](https://beatsaver.com/beatmap/7c00)
 
 ### On/Off and Flash/Off Strobing
