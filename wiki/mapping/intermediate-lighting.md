@@ -111,7 +111,35 @@ This one demonstrates a change from 1:1 instrument:light mapping to a focused em
 * Example: Virtual Friends - DROELOE mapped by Skyler Wallace and lighted by LittleAsi  
 [Streamable](https://streamable.com/6f429) | [BeatSaver](https://beatsaver.com/beatmap/7cd5)
 
+## Environment Removal
+When lighting for an environment, you may have wanted to remove unwanted parts of the environment. With the use of the Chroma mod, you can do just that! By specifying the `_environmentRemoval` field under the `_customData` of each difficulty in the `Info.dat`, you can remove specific parts of the environment. Note that Chroma must be listed as a suggestion or requirement in order for environment removal to work.
+
+Example removing the Monstercat logo from the environment:
+```
+"_customData" : {
+  "_suggestions": [
+    "Chroma"
+  ],
+  "_environmentRemoval" : [
+    "MonstercatLogoL", "MonstercatLogoR"
+  ]
+}
+```
+
+Some common elements that are removed from environments:
+* `Spectrograms`, `Spectrogram` - The audio visualisers
+* `MonstercatLogoL`, `MonstercatLogoR` - The logo of the Monstercat environment
+* `RocketCar`, `RocketCar (1)` - The cars in the Rocket League environment
+* `Logo` - The greenday logo
+* `TimbalandLogo`, `TimbalandLogo (1)`, `TimbalandLogo (2)`, `TimbalandLogo (3)` - The logo of the Timbaland environment
+
+*A full list of props that can be removed from environments is being worked on.*
+
+:::warning NOTE
+Please do not remove the platform that the player stands on. This can be rather terrifying for players that are afraid of heights.
+:::
+
 ## Credits
-Content on this page was contributed by [LittleAsi](/mapping/mapping-credits.md#littleasi) and [Puds](/mapping/mapping-credits.md#puds)
+Content on this page was contributed by [LittleAsi](/mapping/mapping-credits.md#littleasi), [Puds](/mapping/mapping-credits.md#puds), and [Bullet](/mapping/mapping-credits.md#bullet).
 
 
