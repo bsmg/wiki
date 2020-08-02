@@ -153,6 +153,9 @@ module.exports = {
       pageChunkName: ({ key }) => `page${key.slice(1)}`,
       layoutChunkName: ({ componentName }) => `layout-${componentName}`,
     }],
+    ['sitemap', {
+      hostname: 'https://bsmg.wiki/'
+    }],
     'seo',
     'smooth-scroll',
   ],
