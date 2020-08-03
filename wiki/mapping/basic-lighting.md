@@ -114,7 +114,7 @@ If you choose to add a different default environment to your map via file editin
 3. Scroll down to the `"_environmentName":` section.
 4. Paste in the name you copied in Step 1.
 
-> **NOTE:** You cannot use a custom platform in this field. This will be covered in Advanced Lighting (coming soon!)
+> **NOTE:** You cannot use a custom platform in this field. This will be covered in [Advanced Lighting](/mapping/advanced-lighting.md#custom-environments). 
 
 ## Map Color Overrides
 You can force your own map color scheme in-game as long as the user has the SongCore mod installed and has enabled the `Enable Custom Song Colors` option in the mod settings.

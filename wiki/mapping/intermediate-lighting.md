@@ -135,8 +135,8 @@ Some common elements that are removed from environments:
 
 *A full list of props that can be removed from environments is being worked on.*
 
-:::warning NOTE
-Please do not remove the platform that the player stands on. This can be rather terrifying for players that are afraid of heights.
+:::warning 
+Removing the platform that the player stands on can limit the group of people that can play your map. This is because it can be rather terrifying if they are afraid of heights or cause motion sickness from the lack of a solid reference point. 
 :::
 
 ## Credits

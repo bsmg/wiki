@@ -11,10 +11,6 @@ _You've dived into lighting and now you want to take it to the next level._
 This is a stub page, content is a work in progress! Ask in `#mapping-discussion` if you want more info!
 :::
 
-## Advanced Info
-
-> Lasers rotate at 20 degrees per second per point of speed. This is not tempo-dependent. - Asi
-
 ## Advanced Lighting Techniques
 
 ### Double Duty Lasers
@@ -31,8 +27,8 @@ Stagger timing for the on/off events across the light types when turning on all 
 
 Instead of flashing or fading all lights simultaneously, flash them on in very fast front-back or back-front sequence, at 1/16 intervals or so; these can end in fades, with simultaneous offs, or similarly cycled offs at the same interval or often half/double that.
 
-Front-back position varies by environment, and it can be a bit ambiguous with the rings and BBS often covering the entire length, but in Big Mirror, Default, and Triangle environments:
-* BBS appears to be the furthest back
+Front-back position varies by environment, and it can be a bit ambiguous with the rings and Center Lights (BBS) often covering the entire length, but in Big Mirror, Default, and Triangle environments:
+* Center Lights (BBS) appears to be the furthest back
 * Then back-top, 
 * Then side lasers
 * Finally, the rings appear the closest to the player. 
@@ -58,7 +54,7 @@ If you strobe inner ring zoom at varying frequencies (~1/4-~1/16 depending on pi
 
 Of the base-game environments, this tends to work best in DefaultEnvironment, as the TriangleEnvironment inner rings have a less appropriate shape for the purpose, and the NiceEnvironment inner rings are prohibitively difficult to keep lit sufficiently for the effect to be noticeable.
 
-Maintaining sufficient inner ring lighting in DefaultEnvironment is not difficult, but you should ideally leave the ring lights, BBS, or both On for the duration of the effect, since more dynamic lighting tends to mask it. Similarly, avoid using ring spins throughout the duration, since the effect becomes nearly unnoticeable while the inner rings are in motion.
+Maintaining sufficient inner ring lighting in DefaultEnvironment is not difficult, but you should ideally leave the ring lights, Center Lights (BBS), or both On for the duration of the effect, since more dynamic lighting tends to mask it. Similarly, avoid using ring spins throughout the duration, since the effect becomes nearly unnoticeable while the inner rings are in motion.
 
 * Examples at ~0:30, ~1:39, and ~2:20:  
 [Streamable](https://youtu.be/YqM_eXIh2Sg) | [BeatSaver](https://beatsaver.com/beatmap/7be1)
@@ -72,7 +68,7 @@ For example, start around 1/16, 1/17, 1/18... 1/32, or even all the way to 1/64 
 The exact starting and ending intervals (on the interval change between events) should be adjusted depending on the nature and duration of the associated sound, and keep in mind you can set intervals to decimals for a change of .5 (for example) with each event.
 
 * Wind-Down example ~1:03, Wind-Up with bounce back ~2:18:  
-[Streamable] (https://streamable.com/zx1sf) | [BeatSaver] (https://beatsaver.com/beatmap/5bb2)
+[Streamable](https://streamable.com/zx1sf) | [BeatSaver](https://beatsaver.com/beatmap/5bb2)
 
 ## Custom Environments
 ::: tip NOTE
@@ -80,16 +76,23 @@ This is an empty section. If you’d like to contribute, submit suggestions via 
 ::: 
 
 ## Chroma (RGB Lights)
-The Chroma mod allows you to use more than two colours for lighting! Learn how to use it below.
+The Chroma mod allows you to use more than two colours for lighting! There are two versions, [Chroma 1.0](#chroma-1-0) and [Chroma 2.0](#chroma-2-0) which are not compatible with each other.
+
+## Chroma 1.0 
+Chroma 1.0 events are less efficient and can affect editor performance once you have more than about 20 thousand events. Additionally, it is not recommended for use in modern maps as support may be dropped at any time. 
+
+A one way converter to 2.0 is available for use before releasing your map. [ChromaNoodleConverter](https://github.com/CyanSnow/ChromaNoodleConverter/releases/latest)
 
 ### Set-up in MMA2
 1. Open MMA2
 2. In the Settings bar on the right, under the Legacy section, click on the ChromaToggle checkbox
 3. Select the level you want to map in and click on the ExtraFields tab to the right of the difficulty select
-4. Click on the Suggestions tab and then type in `Chroma`.
-:::warning
+4. Click on the Suggestions tab and then type in `Chroma`.  
+
+:::warning NOTE
 The text you enter in the suggestions has to be exact or the Chroma lighting effects will not appear in game
 :::
+
 5. Click the Add button to add it to the suggestions.
 6. Click Save song infos in the bottom left corner.
 7. Click Edit Level.
@@ -106,11 +109,11 @@ Pick a colour from an already placed Chroma event by pressing `C` while hovering
 
 Select a vanilla lighting event by clicking on an event from the normal lighting menu.
 
-:::warning NOTE
-MMA2 uses the older format for Chroma and it is recommended that you convert your map to the current format using the [ChromaNoodleConverter](https://github.com/CyanSnow/ChromaNoodleConverter/releases/latest) before releasing it. Be sure to make a backup before using this as the new format does not function in MMA2 and there is no "unconverting".
+:::danger 
+It is **HIGHLY** recommended that you convert your map to the 2.0 format using the [ChromaNoodleConverter](https://github.com/CyanSnow/ChromaNoodleConverter/releases/latest) before release. Be sure to make a backup before using this as the new format does not function in MMA2 and there is no "unconverting".
 :::
 
-### How Chroma Events Function
+### How Chroma 1.0 Events Function
 Chroma events don’t do anything on its own. Chroma events function by acting as a light filter for future events essentially “dying” the normal lighting events to the specified color. In the following example, the orange and pink events don’t do anything until the vanilla blue fade event happens. This functions as an orange fade and then a pink fade.
 <p align="center"> 
 ![Screenshot of the MMA2 lighting track with Chroma events](./images/mma2-chroma.png)
@@ -148,7 +151,7 @@ Chroma 2.0 is the latest version of Chroma providing even more options to spice 
 
 All the available features are listed in the documentation: [GitHub](https://github.com/Aeroluna/Chroma/wiki/Mapping)
 
-:::danger NOTE
+:::danger 
 Chroma 2.0 is currently only supported by ChroMapper.  
 Opening a map in MMA2 will remove any Chroma 2.0 events from the difficulty.
 :::
@@ -195,7 +198,7 @@ Event Types:
 * 1 - Ring Lights  
 * 2 - Left Lasers  
 * 3 - Right Lasers  
-* 4 - Center (BBS) Lights  
+* 4 - Center Lights (BBS)  
 * 8 - Ring Rotation  
 * 9 - Inner Ring Zoom  
 * 12 - Left Laser Speed  
