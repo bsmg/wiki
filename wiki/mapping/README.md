@@ -171,9 +171,9 @@ A map is not finished until some form of lighting is included. Lighting can rang
 ### [**Basic Lighting**](/mapping/basic-lighting.md) 
 Learn the various aspects to lighting your map manually
 ### [**Intermediate Lighting**](/mapping/intermediate-lighting.md) 
-Take your lighting skills a bit further into strobing, ring spins, and contrast practices
-### **Advanced Lighting** 
-Advanced and nuanced techniques, lighting for custom platforms, and Chroma RGB *(Coming soon... ask in `#mapping-discussion` if you want more info!)*
+Take your lighting skills a bit further into strobing, ring spins, and contrast practices 
+### [**Advanced Lighting**](/mapping/advanced-lighting.md)
+Advanced and nuanced techniques, lighting for custom platforms, and Chroma RGB **(This page is still a work in progress!)**
 
 ### Additional Resources 
 Older guides linked here as we migrate their content over to the wiki pages.

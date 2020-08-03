@@ -25,7 +25,7 @@ Helps maintain and improve the resources.
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
 
 ## Bullet
-Contributed environment lighting videos in [Basic Lighting](/mapping/basic-lighting.md). Has an interesting username...  
+Contributed environment lighting videos in [Basic Lighting](/mapping/basic-lighting.md) and Chroma sections in [Intermediate Lighting](/mapping/intermediate-lighting.md) and [Advanced Lighting](/mapping/advanced-lighting.md). Has an interesting username...  
 [BeatSaver](https://beatsaver.com/uploader/5e84a9933f476a000645dd88) | [BeastSaber](https://bsaber.com/members/xace1337manx/)
 
 ## Caeden117
@@ -116,6 +116,10 @@ Wrote the original mapping extensions walls guide.
 ## Silent Caay
 Wrote the original "Quick Start Guide" on mapping on BeastSaber.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ed71) | [BeastSaber](https://bsaber.com/members/silentcaay/)
+
+## Skeelie
+Bringer of eye damage with his flashy light shows, he can help you make your map shine! Contributed to [Advanced Lighting](/mapping/advanced-lighting.md).   
+[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f) | [BeastSaber](https://bsaber.com/members/skeelie/) | [YouTube](https://www.youtube.com/user/xSkeelie) | [Twitch](https://www.twitch.tv/skeelie)
 
 ## Skyler Wallace
 Managed the first anniversary pack and a founder of Bloq Busters. Skyler makes it a point to do full spread mapping.  
