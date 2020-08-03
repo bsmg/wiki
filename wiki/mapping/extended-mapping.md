@@ -185,7 +185,7 @@ It is recommended that you understand [basic](./basic-mapping.md) and [intermedi
 
 ### Lawless
 ::: warning  
-This characteristic requires the SongCore mod to function. Players without the mod, including all Quest players, are unable to play these levels.
+This characteristic requires the SongCore mod to function. Players without the mod, including all Quest players, are unable to play these maps. This includes every difficulty in the map - not just the Lawless difficulties.
 :::
 
 The lawless characteristic is exactly what it sounds like… no rules, just right. Want to get crazy experimental and try some things that might be downvote magnets? Pop them into the Lawless characteristic to separate it from standard levels.
@@ -194,7 +194,7 @@ The lawless characteristic is exactly what it sounds like… no rules, just righ
 
 ### Lightshow
 ::: warning  
-This characteristic requires the SongCore mod to function. Players without the mod, including all Quest players, are unable to play these levels.
+This characteristic requires the SongCore mod to function. Players without the mod, including all Quest players, are unable to play these maps. This includes every difficulty in the map - not just the Lightshow difficulties.
 :::
 The Lightshow characteristic is used for maps with no notes which allow players to enjoy a lightshow experience. Bombs and walls are optional as long as they are not in the way of the players.
 
