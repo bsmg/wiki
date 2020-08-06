@@ -156,7 +156,12 @@ module.exports = {
     ['sitemap', {
       hostname: 'https://bsmg.wiki/'
     }],
-    'seo',
+    ['seo', {
+      customMeta: (add, context) => {
+        const [_, { title }] = Object.entries(context.$site.locales).find(([key, value]) => key === context.$page._localePath)
+        add('og:site_name', title)
+      },
+    }],
     'smooth-scroll',
   ],
   configureWebpack: {
