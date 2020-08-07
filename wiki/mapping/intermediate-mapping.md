@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-mapping.md
 next: ./extended-mapping.md
+description: A more in-depth look at many mapping topics to take your maps to the next level!
 ---
 # Intermediate Mapping
 _A more in-depth look at many mapping topics_

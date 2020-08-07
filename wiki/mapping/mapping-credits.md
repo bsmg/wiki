@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+description: List of all the people who contributed to the Mapping Resources!
 ---
 # Mapping Resources Contributors
 

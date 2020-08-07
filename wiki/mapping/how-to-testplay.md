@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+description: Learn how to get started testing other mappers maps!
 ---
 
 # How to Testplay

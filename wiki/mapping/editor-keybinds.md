@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+description: The list of keyboard shortcuts for modern community editors!
 ---
 
 # Editor Keybinds
