@@ -122,7 +122,7 @@ You can force your own map color scheme in-game as long as the user has the Song
 Since Beat Saber version 1.4, users can set the Red/Green/Blue (RGB) colors of notes, lights, and walls for their game. However, they will be overridden with the colors defined in the `Info.dat` if the user has the `Enable Custom Song Colors` option enabled.
 
 :::tip 
-When choosing color overrides for the notes. It is **HIGHLY** recommended that you keep reddish/warm colors on the left and blueish/cold colors on the right to avoid confusing players.
+When choosing color overrides for the notes. It is **HIGHLY** recommended that you keep reddish/warm/aggressive colors on the left and blueish/cold/soft colors on the right to avoid confusing players.
 :::
 
 [BeatMapper](/mapping/#beatmapper-app) and [ChroMapper](/mapping/#chromapper-coming-soon) natively support color overrides. Check their respective guides for more information.  

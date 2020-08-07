@@ -246,7 +246,7 @@ Interested in helping out? See [How to Testplay](./how-to-testplay.md) to get st
   * **Map:** The name and artist of your map  
   * **Length:** The length of the song  
   * **BPM:** The BPM of the song  
-  * **Difficulty:** Which difficulties are included  
+  * **Difficulty:** Which difficulties are included and the notes per second of each difficulty  
   * **Feedback:** Any requests for feedback (specific difficulties to be tested, things to look for etc.)  
   * **Status:** What state is the map in? (i.e., First draft complete, no lights; 1:45 mapped; release candidate w/ lighting; etc.)
 3. Testers will usually look at your map within 1-7 days and will use a number of reaction emojis (listed in `#testplays` pinned posts) to track testing status.
