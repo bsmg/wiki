@@ -1,5 +1,20 @@
 ---
 sidebar: auto
+description: Essential information to get up and running using Mediocre Map Assistant 2
+
+tags:
+  - Mediocre Map Assistant 2
+  - MMA2
+  - MM
+  - Mediocre Mapper
+  - wiki
+  - beat saber level editor
+  - mapping
+  - make levels
+  - how are beat maps make?
+  - custom level editor
+  - make custom maps
+  - custom chart editor
 ---
 # Mediocre Map Assistant 2 User Guide
 _Essential information to get up and running using Mediocre Map Assistant 2_

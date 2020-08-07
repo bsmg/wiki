@@ -2,6 +2,15 @@
 sidebar: auto
 prev: ./intermediate-mapping.md
 next: false
+tags:
+  - Noodle Extensions
+  - Mapping Extensions
+  - Wallmapping
+  - 360 degree beat saber levels
+  - 90 degree beat saber levels
+description: |
+  Now that you know the rules, it’s time to break them. 
+  Learn more about Noodle and Mapping Extensions, 360/90 mapping, and Extended Characteristics!
 ---
 # Extended Mapping
 _Now that you know the rules, it’s time to break them_

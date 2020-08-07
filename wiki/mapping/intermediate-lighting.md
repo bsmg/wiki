@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-lighting.md
 next: ./advanced-lighting.md
+description: Learn about taking your lighting to the next level!
 ---
 # Intermediate Lighting
 _You've learned the basics and now you want more!_

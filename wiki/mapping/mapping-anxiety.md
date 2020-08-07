@@ -1,5 +1,11 @@
 ---
 sidebar: auto
+tags:
+- mental health
+- beat saber mapping
+description: |
+  Mental health is important!
+  You are not alone in your feelings of imposter syndrome, anxieties around uploading, or trouble coping with harsh criticism. Read more on coping with these feeling here!
 ---
 
 # Coping with Mapping Anxiety

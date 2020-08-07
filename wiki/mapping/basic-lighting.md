@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-mapping.md
 next: ./intermediate-lighting.md
+description: Learn how to get started manually lighting your map!
 ---
 # Basic Lighting
 _Make Beat Saber a brighter place by manually lighting your maps_

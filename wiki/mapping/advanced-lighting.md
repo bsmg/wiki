@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./intermediate-lighting.md
 next: false
+description: Learn about taking your lighting up to 11.
 ---
 # Advanced Lighting
 _You've dived into lighting and now you want to take it to the next level._

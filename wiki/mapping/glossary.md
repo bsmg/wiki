@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+description: The dictionary of most mapping lingo.
 ---
 # Mapping Glossary
 _From Arrow Block to Wrist Reset and everything in between. Learn mapping lingo here!_

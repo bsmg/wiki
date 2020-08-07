@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-audio.md
 next: ./intermediate-mapping.md
+description: Learn all the info and best practices you need to make a solid first map!
 ---
 # Basic Mapping
 _If you are a new mapper, read this page from top to bottom. Every word. Every picture. This page will give you all the info and best practices you need to make a solid first map!_

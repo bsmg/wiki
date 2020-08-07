@@ -1,5 +1,18 @@
 ---
 sidebar: auto
+tags:
+  - bsmg
+  - beat saber
+  - wiki
+  - mapping
+  - make levels
+  - how are beat maps make?
+  - custom levels
+  - make custom maps
+  - custom charts
+description: |
+  Too many anime maps? Not enough anime maps?  
+  Take matters into your own hands and learn to map here!
 ---
 # Mapping
 

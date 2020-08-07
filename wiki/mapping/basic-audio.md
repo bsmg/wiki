@@ -2,6 +2,7 @@
 sidebar: auto
 prev: false
 next: ./advanced-audio.md
+description: How to get your audio file set up and ready for mapping.
 ---
 # Basic Audio Setup
 _Get your audio file set up and ready for mapping_
