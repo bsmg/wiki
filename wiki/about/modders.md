@@ -52,7 +52,7 @@ Creator of CustomUI, making the creation of new UI components a breeze for modde
 Creator of the custom-tailored version of IPA (illusion plugin architecture) BSIPA, a mod injector to allow Beat Saber to use mods. An incredible tool that makes modding beat saber as easy as it is.
 
 **Roles:** Modder
-**Contributions:** BSPIA
+**Contributions:** BSIPA
 
 [GitHub](https://github.com/nike4613) | [Donate](https://ko-fi.com/danike)
 
