@@ -78,7 +78,7 @@ This field describes the main artist, group, band, brand, etc. for the song.
 This field describes the person who created the map. That's you! Or, whoever makes a map using your tool or level editor.
 
 ### _beatsPerMinute
-This describes the Beats Per Minute (BPM) of your song.
+This describes the Beats Per Minute (BPM) of your song. This is a floating point number, so decimal BPMs are supported.
 
 ### _shuffle
 This and [`_shufflePeriod`](#_shuffleperiod) are uncommon in the community. If your song has "swing" in it, where some beats in a measure are intentionally offset from the rest, you can correct potential timing issues in your map by utilizing `_shuffle` and [`_shufflePeriod`](#_shuffleperiod).
@@ -108,10 +108,10 @@ To hopefully help better understand this, here is a table of beats, whether or n
 |1.75|Yes|1.8|
 
 ### _previewStartTime
-This controls the start time (in seconds) for the in-game preview of your map.
+This controls the start time (in seconds) for the in-game preview of your map. This is a floating point number, so decimals are supported.
 
 ### _previewDuration
-This controls the duration (in seconds) of the in-game preview of your map.
+This controls the duration (in seconds) of the in-game preview of your map. This is a floating point number, so decimals are supported.
 
 ### _songFilename
 This is the local location to your map's audio file. The standard practice is to have every map file in the same directory, so in most cases, this is just the name and extension for your audio file (For example, `song.ogg`).
@@ -120,10 +120,10 @@ This is the local location to your map's audio file. The standard practice is to
 This is the local location to your map's cover image. Both `.jpg` and `.png` are supported image types. Similar to [`_songFilename`](#_songfilename), this is most often just the name and extension for the cover image (For example, `cover.jpg`).
 
 ### _environmentName
-This defines the environment that the map uses. To get a complete list of valid environments, see the `Info.dat Name`s of each environment in the [Environment Previews section](./basic-lighting.html#environment-previews).
+This defines the internal ID for the environment that the map uses. To get a complete list of valid environments, see the `Info.dat Name`s of each environment in the [Environment Previews section](./basic-lighting.html#environment-previews).
 
 ### _allDirectionsEnvironmentName
-This defines the environment that the map uses when playing in the `360Degree` or `90Degree` characteristics. To get a complete list of valid 360 environments, see the `Info.dat Name`s of each environment in the [Environment Previews section](./basic-lighting.html#environment-previews).
+This defines the internal ID for the environment that the map uses when playing in 360 Degree or 90 Degree levels. This is a required field, even if the level does not include any 360 or 90 Degree difficulties. To get a complete list of valid 360 environments, see the `Info.dat Name`s of each environment in the [Environment Previews section](./basic-lighting.html#environment-previews).
 
 ### _songTimeOffset
 This is Beat Saber's method for tackling off-sync audio. This offsets the audio in game, based off the value of `_songTimeOffset` in milliseconds.
@@ -177,7 +177,7 @@ Certain characteristics, which are marked in the list below, do not belong to th
 This is an array of [Difficulty Beatmaps](#difficulty-beatmaps) defined within this beatmap set.
 
 ## Difficulty Beatmaps
-Difficulty Beatmaps are each "Difficulty" in a map. They contain information that changes from difficulty to difficulty, such as [Note Jump Speed](#_notejumpmovementspeed), and the location of the difficulty file.
+Difficulty Beatmaps are each "Difficulty" of a map. They contain information that changes from difficulty to difficulty, such as [Note Jump Speed](#_notejumpmovementspeed), and the location of the difficulty file.
 
 ```json
 {
@@ -216,9 +216,9 @@ Contrary to what you might think, this is *not* just a normal string, but rather
 ### _difficultyRank
 This is the sorting order in the song select screen in Beat Saber.
 
-While, yes, this is an ordinary integer, the widely-used Beat Saver schema makes this another Enum, based off of the aforementioned [`_difficulty`](#_difficulty) value:
+While, yes, this is an ordinary integer, the widely-used [BeatSaver Schema](#beatsaver-schema) makes this another Enum, based off of the aforementioned [`_difficulty`](#_difficulty) value:
 
-|`_difficulty` Value|BeatSaver's Expected `_difficultyRank`|
+|`_difficulty`|BeatSaver's Expected `_difficultyRank`|
 |-------------------|:-------------------:|
 |`Easy`|1|
 |`Normal`|3|
@@ -229,9 +229,9 @@ While, yes, this is an ordinary integer, the widely-used Beat Saver schema makes
 ### _beatmapFilename
 This is the local location to the difficulty file, which contains the difficulty's notes, obstacles, and lighting events.
 
-Similar to the [`_songFilename`](#_songfilename) and [`_coverImageFilename`](#_coverimagefilename) from earlier, in most cases this is just the name and extension to the map file.
+Similar to the [`_songFilename`](#_songfilename) and [`_coverImageFilename`](#_coverimagefilename) from earlier, in most cases this is just the name and extension (always `.dat`) to the map file.
 
-When creating *new* difficulties, it is recommended that the name be a the Characteristic name for this difficulty's parent Beatmap Set, followed by the [`_difficulty`](#_difficulty) value. For example, this particular difficulty should have it's difficulty file be named `StandardExpertPlus.dat`.
+When creating *new* difficulties, it is recommended that the name be a the Characteristic name for this difficulty's parent [Beatmap Set](#difficulty-beatmap-sets), followed by the [`_difficulty`](#_difficulty) value. For example, this particular difficulty should have it's difficulty file be named `StandardExpertPlus.dat`.
 
 ### _noteJumpMovementSpeed
 Note Jump Movement Speed (Shortened to "Note Jump Speed", or just "NJS") is the velocity of objects approaching the player, in meters per second. Recommended NJS values for each difficulty is dependent on the mapper, so pinning down any "recommended values" for them is difficult. This can be a floating point number for precise velocity.
@@ -245,7 +245,7 @@ The Player rests in the exact middle of both of these values, so most mappers fi
 - Half Jump Duration is the amount of beats that is needed to reach the Player. It is also the amount of beats, forward in time, where objects spawn.
 
 ### _noteJumpStartBeatOffset
-This value acts as a direct offset to the Half Jump Duration, explained in `_noteJumpMovementSpeed`, which in turn affects the Jump Distance. This can be a floating point number to achieve a precise Jump Duration.
+This value acts as a direct offset to the Half Jump Duration, explained in [`_noteJumpMovementSpeed`](#notejumpmovementspeed), which in turn affects the Jump Distance. This can be a floating point number to achieve a precise Jump Duration.
 
 ### _customData
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
@@ -333,7 +333,7 @@ This indicates the cut direction for the note.
 |`5`|Up Right|
 |`6`|Down Left|
 |`7`|Down Right|
-|`8`|Any (Dot)|
+|`8`|Any (Dot Note)|
 
 ### _customData
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
@@ -401,11 +401,11 @@ An integer number which represents what exact kind of event this object represen
 
 |`_type`|Result|
 |:-------------------:|-------------------|
-|`0`|Controls lights in the `Back Lasers` group|
-|`1`|Controls lights in the `Ring Lights` group|
-|`2`|Controls lights in the `Left Rotating Lasers` group|
-|`3`|Controls lights in the `Right Rotating Lasers` group|
-|`4`|Controls lights in the `Center Lights` group|
+|`0`|Controls lights in the `Back Lasers` group.|
+|`1`|Controls lights in the `Ring Lights` group.|
+|`2`|Controls lights in the `Left Rotating Lasers` group.|
+|`3`|Controls lights in the `Right Rotating Lasers` group.|
+|`4`|Controls lights in the `Center Lights` group.|
 |`5`|Unused.|
 |`6`|Unused.|
 |`7`|Unused.|
