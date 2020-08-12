@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-audio.md
 next: ./intermediate-mapping.md
+description: Learn all the info and best practices you need to make a solid first map!
 ---
 # Basic Mapping
 _If you are a new mapper, read this page from top to bottom. Every word. Every picture. This page will give you all the info and best practices you need to make a solid first map!_
@@ -33,7 +34,7 @@ Some editors will automatically create an `Autosaves` folder where you can retri
 When you’re ready to prepare your song for upload you must have a minimum of four files.
 
 ::: warning
-Special characters in languages such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by Beat Saber or Beatsaver. Using these characters in song metadata or in bookmarks can cause problems.
+Special characters in languages such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by BeatSaver. Using these characters in song metadata or in bookmarks can cause problems.
 :::
 
 ### Block Types
@@ -47,7 +48,7 @@ Special characters in languages such as, Japanese (日本語/にほんご), Chin
 * Standard walls can be read by any headset and have the highest compatibility. New mappers should stick with these until they’re a bit more experienced.
 * There are a few types of “hack” walls that do not require the Mapping Extensions mod: fast walls (fly by you fast), hyper walls (fly by you SUPER fast), and fake walls (look like normal walls but don’t cause damage). 
 * While these wall types are supported in some editors, they exploit base game mechanics and are considered unrankable.
-* Read up more on non-Mapping Extensions walls in Intermediate Mapping (link coming soon!) and read more on “fancy” walls in Extended Mapping (link coming soon!)
+* Read up more on non-Mapping Extensions walls in [Intermediate Mapping](/mapping/intermediate-mapping.md) and read more on “fancy” walls in [Extended Mapping](/mapping/extended-mapping.md)
 
 **A few notes about bombs:**
 * Bomb hitboxes are smaller than block hitboxes, smaller even than the bomb model itself
@@ -108,7 +109,7 @@ Deliberately place blocks that match the music. Don't place more blocks than nec
 * **Undermapping** is the very acceptable practice of skipping some notes/beats (especially at lower difficulties)
 
 ### Emphasis & Consistency
-We’ll go into more detail on this in Intermediate Mapping (link coming soon!) but as a new mapper you should understand at least the basic ideas of emphasis and consistency and how they impact your map. 
+We’ll go into more detail on this in [Intermediate Mapping](/mapping/intermediate-mapping.md) but, as a new mapper you should understand at least the basic ideas of emphasis and consistency and how they impact your map. 
 
 **Emphasis** is how much “weight” you give each hit.
 
@@ -124,8 +125,10 @@ Another way to think about it is that you want the energy and effort of the hit 
 Mapping consistently does NOT always mean to copy/paste/mirror, though there are some times when that is appropriate. If you choose to map a particular big sound as a double, for example, that same sound should always be mapped with a double.
 
 ## Pattern Best Practices
-This section details the principles one should follow for a playable and enjoyable map.
- 
+This section details the principles one should follow for a playable and enjoyable map. 
+
+**Cyrix** has created a summary video, [Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw), of the most common issues that are covered in this section.
+
 ### Vision Blocks
 Vision blocks are any patterns that obscure the player’s vision and make it difficult to sight read a map, if not outright uncomfortable. The primary cause of vision blocks is use of the middle two positions of the track, but there’s risk of a block any time the middle row is used.
 
@@ -171,16 +174,18 @@ Wrist resets are when you change the forehand/backhand flow of a a pattern mid-s
 
 When long periods of time pass between notes, the player will reset their arm position so it’s often preferable to start the new section with a down block.  In gray areas of time, like 3 seconds without notes, it is up to the mapper to reset the player or to continue the flow.
 
-Want to learn more about resets? Read Intermediate Mapping(link coming soon)!
+Want to learn more about resets? Read [Intermediate Mapping](/mapping/intermediate-mapping.md)!
 
 ### DO: Mapping with Flow
 Outside of easy and normal difficulties, mapping with Flow is an absolute must. Human bodies are incredible machines but there are certain ways that joints are meant to move and using patterns that violate those mechanics is a recipe for injuring your player.
 
-Parity is the concept that Each block direction is played with either a backhand swing or a forehand swing. The black line in the diagram below illustrates this forehand (above the line)/backhand (below the line) divider for the left and right sides. 
+Parity is the concept that Each block direction is played with either a backhand swing or a forehand swing. The black line in the diagram below illustrates this forehand (below the line)/backhand (above the line) divider for the left and right sides. 
 <p align="center">
 	![Parity diagram showing the forehand/backhand line for each block color](./images/parity_diagram.jpg)
 </p>
 When mapping with flow you are striving to always cross this parity line with the most natural movement possible. Effectively, your player should always be alternating between forehand and backhand every swing.
+
+A thing important to keep in mind, especially if you are new to the game or mapping, is that the concept of parity is most obvious for wrist players. If you do not play with your palm directly facing the ground, then you might struggle to understand why some parity breaks are uncomfortable. Remember that while it may feel fine to you, players have different grips and styles. Proper parity feels good for everyone, not just some playstyles. 
 
 ::: tip  
 When proper flow is achieved the player should be physically capable of getting full points on each block, even if they don’t have the skill or interest in doing so. See the [Scoring](/grips-and-tricks.html#scoring) section of the wiki for more info.
@@ -259,6 +264,11 @@ These are called forbidden patterns for a reason. There is no reason in the worl
 | Illustration | Editor View | Explanation |
 |:----:|:----:|:---- |
 | ![Illustration of a triangle](./images/triangle.png) | ![Editor view of a triangle](./images/triangle-alt.png) | Triangles are patterns that cause incredibly uncomfortable wrist resets  when used at high precision and speed. The pattern breaks the forehand/backhand mechanic and can injure your player. See the [Mapping with Flow](/mapping/basic-mapping.html#do-mapping-with-flow) to revisit this explanation.<br /><br />**Note 1:** Not all triangle shaped patterns are cursed triangles. Make sure you are always crossing the parity line with each swing.<br /><br />**Note 2:** This sort of pattern plays differently at hard difficulties and below when there are a couple of beats between each swing but stay away at Expert and ExpertPlus |
+
+#### Right Triangle
+| Editor View | Explanation |
+|:----:|:---- |
+| ![Editor View of a Right Triangle](./images/right_triangle.png) ![Editor View of a Right Triangle Variant](./images/right_triangle-exit.png) | A variation of a [Triangle](#triangle) that has a 90 degree hit on the first or third note. This is far worse in causing incredibly uncomfortable wrist resets at most speeds compared to a regular Triangle. The pattern breaks the forehand/backhand mechanic and can injure your player. See the [Mapping with Flow](/mapping/basic-mapping.html#do-mapping-with-flow) to revisit this explanation.<br /><br />**Note:** This sort of pattern plays differently at hard difficulties and below when there are a couple of beats between each swing but **absolutely** stay away at Expert and ExpertPlus |
 
 ### MAYBE: Highly Situational Patterns
 These patterns are OK to use but only in very specific circumstances or with very specific setup. It’s best to steer clear of these until you’re much more comfortable with mapping.
@@ -393,6 +403,8 @@ When mapping very fast Expert+ maps, make sure you increase the Note Jump Speed,
 ::: warning NOTE  
 Setting your NJS really high is **not** the right way to increase difficulty. Use higher note density and more complex patterns (with good flow).
 :::
+
+For more information, see the [Note Jump Speed & Spawn Distance](/mapping/intermediate-mapping.md#note-jump-speed-spawn-distance) section in [Intermediate Mapping](/mapping/intermediate-mapping.md)
 
 ## Playtesting
 Already mentioned in detail on the [Mapping Home Page](/mapping.html#playtesting) it’s important enough to mention again here:

@@ -1,3 +1,6 @@
+---
+translation-done: false
+---
 # Introduction au modding
 _Apprenez à mettre en place le modèle d'extension_
 

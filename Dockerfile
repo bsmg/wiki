@@ -8,24 +8,19 @@ WORKDIR /usr/app
 COPY package.json yarn.lock ./
 
 # Install app dependencies
-RUN apk add --no-cache tini bash git openssh
+RUN apk add --no-cache bash git openssh
 RUN yarn install --frozen-lockfile
 
 # Build source
-COPY . .
+COPY ./wiki ./wiki
 RUN yarn run build:prod
 
 # Static Web Server
 FROM nginx:alpine
 
 # Copy Prod Build
-COPY --from=builder /usr/app/wiki/.vuepress/dist /usr/share/nginx/html
 COPY ./nginx/nginx.conf /etc/nginx/conf.d/default.conf
-
-# Label
-ARG VCS_REF
-LABEL org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="https://github.com/beat-saber-modding-group/wiki"
+COPY --from=builder /usr/app/wiki/.vuepress/dist /usr/share/nginx/html
 
 # Expose port and run
 EXPOSE 80

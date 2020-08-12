@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-mapping.md
 next: ./intermediate-lighting.md
+description: Learn how to get started manually lighting your map!
 ---
 # Basic Lighting
 _Make Beat Saber a brighter place by manually lighting your maps_
@@ -77,52 +78,52 @@ Custom environment models (platforms) created by the community exist but require
 
 The basic structure of each environment is mostly the same. In the [Mediocre Map Assistant 2](./mediocre-map-assistant.md) editor the lighting track looks like this:
 <p align="center">
-![Screenshot of the MMA2 lighting track from the top down](./images/mma2-lighting-track-1.png)
+![Screenshot of the MMA2 lighting track from the top down](./images/mma2-lighting-track.png)
 </p>
 
-### Environment Previews
-Many thanks to **Aeroluna** for the environment screenshots from game version 1.6. 
+### Environment Previews 
+**Note:** The images below were created using a program called ReShade which increases contrast in post-processing to better highlight lights. Environments appear less dark in-game.
 
->**Note:** The images below were created using a program called ReShade which increases contrast in post-processing to better highlight lights. Environments appear less dark in-game.
-
-| Visual (click to open full size) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Environment |
+| Video and Screenshot (click to open full size) | Environment |
 |:----:|:---- |
-| ![Image of default environment](./images/default_env16.png) |**The First (Default) Environment**<br />**Info.dat Name:** `DefaultEnvironment` <br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<BR />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers |
-| ![Image of origins environment](./images/origins_env16.png) | **Origins Environment**<br />**Info.dat Name:** `Origins`<br />**Default Colors:** Yellow & Pink notes, Blue & Light Blue lights<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark:<br />**Track Ring:** :white_check_mark:<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark:  |
-| ![Image of triangle environment](./images/triangle_env16.png) | **Triangle Environment**<br />**Info.dat Name:** `TriangleEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (compact square) <br />**Inner Ring:** :white_check_mark: (triangle)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers |
-| ![Image of nice environment](./images/nice_env16.png) | **Nice Environment**<br />**Info.dat Name:** `NiceEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (top & bottom)<br />**Track Ring:** :white_check_mark: (circle)<br />**Inner Ring:** :white_check_mark: (shape)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers |
-| ![Image of big mirror environment](./images/big-mirror_env16.png) | **Big Mirror Environment**<br />**Info.dat Name:** `BigMirrorEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark: |
-| ![Image of Imagine Dragons environment](./images/dragons_env16.png) | **Imagine Dragons Environment**<br />**Info.dat Name:** `DragonsEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :white_check_mark: (helix)<br />**Equalizer:** :white_check_mark:<br />**Note:** Back Top Laser position is the two rails on the far edges of the screen. It will always illuminate the opposite color of what you set it. |
-| ![Image of K/DA environment](./images/kda_env16.png) | **K/DA Environment**<br />**Info.dat Name:** `KDAEnvironment`<br />**Default Colors:** Purple & Orange<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :x:<br />**Note:** Ring Light position illuminates the five rails at the top. The lights in the center of the arrows never turn off.|
-| ![Image of Monstercat environment](./images/monstercat_env16.png) | **Monstercat Environment**<br />**Info.dat Name:** `MonstercatEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark: (& Monstercat Logo)<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top. |
-| ![Image of crab rave environment](./images/crab-rave_env16.png) | **Crab Rave Environment**<br />**Info.dat Name:** `CrabRaveEnvironment`<br />**Default Colors:** Green & Blue<br />**Center Lighting:** :white_check_mark: (& Monstercat Logo)<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top. |
-| ![Image of Panic at the Disco environment](./images/panic_env16.png) | **Panic at the Disco! Environment**<br />**Info.dat Name:** `PanicEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark: (& windows)<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (helix)<br />**Inner Ring:** :white_check_mark: (helix)<br />**Equalizer:** :white_check_mark:<br />**Note:** Ring Lights are much brighter in this environment than in others. |
-| ![Image of rocket league environment](./images/rocket_env16.png) | **RocketLeague Environment**<br />**Info.dat Name:** `RocketEnvironment`<br />**Default Colors:** Orange & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :x:  |
-| ![Image of Green Day environment](./images/green-day_env16.png) | **Green Day Environment**<br />**Info.dat Name:** `GreenDayEnvironment`<br />**Default Colors:** Green & Cyan<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (helix)<br />**Inner Ring:** :x:<br />**Equalizer:** :x:<br />**Note:** "Green Day" text in the center never turns off. |
-| ![Image of Green Day grenade environment](./images/gd-grenade_env16.png) |**Green Day Grenade Environment**<br />**Info.dat Name:** `GreenDayGrenadeEnvironment`<br />**Default Colors:** Green & Cyan<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :x: <br />**Equalizer:** :x:<br />**Note:** Grenade and "Green Day" text in the center never turn off. |
-| ![Image of glass desert environment](./images/glass-desert_env16.png) | **Glass Desert Environment**<br />**Info.dat Name:** `GlassDesertEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: <br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark:<br />**Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels. Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top. | 
+| ![Image of Default environment](./images/default_env16.png) |**The First (Default) Environment**<br />**Info.dat Name:** `DefaultEnvironment` <br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers <br /><br />**Video Preview:** [Streamable](https://streamable.com/800xuq), [YouTube](https://youtu.be/FOmVUpD4zHU) |
+| ![Image of Origins environment](./images/origins_env16.png) | **Origins Environment**<br />**Info.dat Name:** `OriginsEnvironment`<br />**Default Colors:** Yellow & Pink notes, Blue & Light Blue lights<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark:<br />**Track Ring:** :white_check_mark:<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark: <br /><br /> **Video Preview:** [Streamable](https://streamable.com/itxr1l), [YouTube](https://youtu.be/i5MBTgNs0Ek) |
+| ![Image of Triangle environment](./images/triangle_env16.png) | **Triangle Environment**<br />**Info.dat Name:** `TriangleEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (compact square) <br />**Inner Ring:** :white_check_mark: (triangle)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers <br /><br />**Video Preview:** [Streamable](https://streamable.com/tbvqoq), [YouTube](https://youtu.be/ErRIYIGQKOQ) |
+| ![Image of Nice environment](./images/nice_env16.png) | **Nice Environment**<br />**Info.dat Name:** `NiceEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (top & bottom)<br />**Track Ring:** :white_check_mark: (circle)<br />**Inner Ring:** :white_check_mark: (shape)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers <br /><br />**Video Preview:** [Streamable](https://streamable.com/jrxxeg), [YouTube](https://youtu.be/-kAv1420TXU) |
+| ![Image of Big Mirror environment](./images/big-mirror_env16.png) | **Big Mirror Environment**<br />**Info.dat Name:** `BigMirrorEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark: <br /><br />**Video Preview:**  [Streamable](https://streamable.com/cdxujt), [YouTube](https://youtu.be/S3AQu8y5p2g) |
+| ![Image of Imagine Dragons environment](./images/dragons_env16.png) | **Imagine Dragons Environment**<br />**Info.dat Name:** `DragonsEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :white_check_mark: (helix)<br />**Equalizer:** :white_check_mark:<br />**Note:** Back Top Laser position is the two rails on the far edges of the screen. It will always illuminate the opposite color of what you set it. <br /><br />**Video Preview:** [Streamable](https://streamable.com/y5u7zv), [YouTube](https://youtu.be/HTtwhBxrlrw) |
+| ![Image of K/DA environment](./images/kda_env16.png) | **K/DA Environment**<br />**Info.dat Name:** `KDAEnvironment`<br />**Default Colors:** Orange & Purple<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :x:<br />**Note:** Ring Light position illuminates the five rails at the top. The lights in the center of the arrows never turn off. <br /><br />**Video Preview:** [Streamable](https://streamable.com/iuwenc), [YouTube](https://youtu.be/LigJdd2hpLI) |
+| ![Image of Monstercat environment](./images/monstercat_env16.png) | **Monstercat Environment**<br />**Info.dat Name:** `MonstercatEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark: (& Monstercat Logo)<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top. <br /><br />**Video Preview:** [Streamable](https://streamable.com/g436ij), [YouTube](https://youtu.be/9qjDCkJw-ts) |
+| ![Image of Crab Rave environment](./images/crab-rave_env16.png) | **Crab Rave Environment**<br />**Info.dat Name:** `CrabRaveEnvironment`<br />**Default Colors:** Green & Blue<br />**Center Lighting:** :white_check_mark: (& Monstercat Logo)<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top. <br /><br />**Video Preview:** [Streamable](https://streamable.com/qov023), [YouTube](https://youtu.be/6ygTsCX8Ey4) |
+| ![Image of Panic at the Disco! environment](./images/panic_env16.png) | **Panic at the Disco! Environment**<br />**Info.dat Name:** `PanicEnvironment`<br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark: (& windows)<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (helix)<br />**Inner Ring:** :white_check_mark: (helix)<br />**Equalizer:** :white_check_mark:<br />**Note:** Ring Lights are much brighter in this environment than in others. <br /><br />**Video Preview:** [Streamable](https://streamable.com/tysyou), [YouTube](https://youtu.be/LBUW9mDupxE) |
+| ![Image of Rocket League environment](./images/rocket_env16.png) | **Rocket League Environment**<br />**Info.dat Name:** `RocketEnvironment`<br />**Default Colors:** Orange & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :x: <br /><br />**Video Preview:** [Streamable](https://streamable.com/t624jp), [YouTube](https://youtu.be/r8qO6IUg2Ww) |
+| ![Image of Green Day environment](./images/green-day_env16.png) | **Green Day Environment**<br />**Info.dat Name:** `GreenDayEnvironment`<br />**Default Colors:** Green & Cyan<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (helix)<br />**Inner Ring:** :x:<br />**Equalizer:** :x:<br />**Note:** "Green Day" text in the center never turns off. <br /><br />**Video Preview:** [Streamable](https://streamable.com/o7x37v), [YouTube](https://youtu.be/LuYAEk9iWFw) |
+| ![Image of Green Day Grenade environment](./images/gd-grenade_env16.png) |**Green Day Grenade Environment**<br />**Info.dat Name:** `GreenDayGrenadeEnvironment`<br />**Default Colors:** Green & Cyan<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x:<br />**Inner Ring:** :x: <br />**Equalizer:** :x:<br />**Note:** Grenade and "Green Day" text in the center never turns off. <br /><br />**Video Preview:** [Streamable](https://streamable.com/wddtmm), [YouTube](https://youtu.be/DQHdUGx3UE0) |
+| ![Image of Timbaland environment](./images/timbaland_env.png) |**Timbaland Environment**<br />**Info.dat Name:** `TimbalandEnvironment`<br />**Default Colors:** Grey & Blue notes, Blue & Blue lights (same colors)<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right rings)<br />**Track Ring:** :white_check_mark: (rectangle)<br />**Inner Ring:** :white_check_mark: (rectangle)<br />**Equalizer:** :white_check_mark:<br />**Note:** "Timbaland" text on the sides never turns off. Laser speed affects the back top lasers on the left and right rings. <br /><br />**Video Preview:** [Streamable](https://streamable.com/px7yh5), [YouTube](https://youtu.be/ZoqAITnZQzg) |
+| ![Image of FitBeat environment](./images/fitbeat_env.png) |**FitBeat Environment**<br />**Info.dat Name:** `FitBeatEnvironment`<br />**Default Colors:** Yellow & Pink notes, Brown & Grey lights<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (outer lasers) <br />**Inner Ring:** :white_check_mark: (helix) <br />**Equalizer:** :white_check_mark: <br /><br />**Video Preview:** [Streamable](https://streamable.com/1vqpmw), [YouTube](https://youtu.be/Y5CtZTpCcF4) |
+| ![Image of Glass Desert environment](./images/glass-desert_env16.png) | **Glass Desert Environment**<br />**Info.dat Name:** `GlassDesertEnvironment`<br />**Default Colors:**  Yellow & Pink notes, Blue & Light Blue lights<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: <br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark:<br />**Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels. Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top. <br /><br />**Video Preview:** [Streamable](https://streamable.com/cnie5j), [YouTube](https://youtu.be/Nh6kSjobYB0) | 
 
 ### Setting Your Environment
-New default environments become available reasonably often which means that map editors don't always have the complete list available. If the environment you want to use is not an option in your favorite editor's settings you will have to edit your `info.dat` file to add the environment name.
+New default environments become available reasonably often which means that map editors don't always have the complete list available. If the environment you want to use is not an option in your favorite editor's settings you will have to edit your `Info.dat` file to add the environment name.
 
 ::: danger
 If you choose to add a different default environment to your map via file editing this must be the LAST thing you do before releasing. If you open your map in the editor again the environment will be erased.
 :::
 
-1. Decide which environment you want to use then copy the `info.dat name` from the [Environment Previews](/mapping/basic-lighting.html#environment-previews) section above.
-2. Open your `info.dat` file in the text editor of your choice.
+1. Decide which environment you want to use then copy the `Info.dat name` from the [Environment Previews](/mapping/basic-lighting.html#environment-previews) section above.
+2. Open your `Info.dat` file in the text editor of your choice.
 3. Scroll down to the `"_environmentName":` section.
 4. Paste in the name you copied in Step 1.
 
-> **NOTE:** You cannot use a custom platform in this field. This will be covered in Intermediate Lighting (coming soon!)
+> **NOTE:** You cannot use a custom platform in this field. This will be covered in [Advanced Lighting](/mapping/advanced-lighting.md#custom-environments). 
 
 ## Map Color Overrides
 You can force your own map color scheme in-game as long as the user has the SongCore mod installed and has enabled the `Enable Custom Song Colors` option in the mod settings.
 
-Since Beat Saber version 1.4, users can set the Red/Green/Blue (RGB) colors of notes, lights, and walls for their game. However, they will be overridden with the colors defined in the `info.dat` if the user has the `Enable Custom Song Colors` option enabled.
+Since Beat Saber version 1.4, users can set the Red/Green/Blue (RGB) colors of notes, lights, and walls for their game. However, they will be overridden with the colors defined in the `Info.dat` if the user has the `Enable Custom Song Colors` option enabled.
 
 :::tip 
-When choosing color overrides for the notes. It is **HIGHLY** recommended that you keep reddish/warm colors on the left and blueish/cold colors on the right to avoid confusing players.
+When choosing color overrides for the notes. It is **HIGHLY** recommended that you keep reddish/warm/aggressive colors on the left and blueish/cold/soft colors on the right to avoid confusing players.
 :::
 
 [BeatMapper](/mapping/#beatmapper-app) and [ChroMapper](/mapping/#chromapper-coming-soon) natively support color overrides. Check their respective guides for more information.  
@@ -131,58 +132,20 @@ When choosing color overrides for the notes. It is **HIGHLY** recommended that y
 ### Manually Adding Color Overrides
 1. Decide what RGB colors you want notes and/or lights and/or walls to be. Use a color scheme utility like [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF) to find complimentary colors.
 	* Your red, green, and blue values will need to be converted from the normal 0-255 scale to the 0-1 scale. Use a site like [EasyRGB](https://www.easyrgb.com/en/convert.php) to convert your values.
-2. Open your `info.dat` file in the text editor of your choice
-2. Scroll down to the `"_customData": {` section.
-3. Paste whichever code blocks below correspond to the colors you want to force within the `_customData` curly brackets (`{` and `}`) then replace the `"r":`, `"g":`, and `"b":` values with whatever you chose in Step 1.
+2. Open your `Info.dat` file in the text editor of your choice
+3. Scroll down to the `"_customData": {` section of the difficuty you want to color.
+    * Using the global `"_customData": {` outside of the `"_difficultyBeatmapSets": [` array may not work as expected.
+4. Paste whichever code blocks below correspond to the colors you want to force within the `_customData` curly brackets (`{` and `}`) then replace the `"r":`, `"g":`, and `"b":` values with whatever you chose in Step 1.
 	* The `"r":` and `"g":` values **must** have commas after them.
 
-See lines 17-41 of this [Pastebin clip](https://pastebin.com/x9zEiHxR) for an example of these code blocks in action in a `.DAT` file.
+See lines 29-60 and 69-100 of this [Pastebin clip](https://pastebin.com/x9zEiHxR) for an example of these code blocks in action in a `.DAT` file.  
+See [Environment Default Colours](/mapping/lighting-defaults.html) for a list of default colors used in the environments.
 
 ::: danger WARNING for MMA2 Users
 If you choose to manualy add color overrides to your map this must be the **LAST** thing you do before releasing.  
 Opening your map in the editor again will remove your color overrides.
 :::
 
-**Left Side Block Color (default Red)**
-```
-"_colorLeft": {
-  "r": 0.8515625,
-  "g": 0.08984375,
-  "b": 0.08984375
-},
-```
-**Right Side Block Color (default Blue)**
-```
-"_colorRight": {
-  "r": 0.1796875,
-  "g": 0.5390625,
-  "b": 0.91015625
-},
-```
-**Left Side Light Color (default Red)**
-```
-"_envColorLeft": {
-  "r": 0.8515625,
-  "g": 0.08984375,
-  "b": 0.08984375
-},
-```
-**Right Side Light Color (default Blue)**
-```
-"_envColorRight": {
-  "r": 0.1796875,
-  "g": 0.5390625,
-  "b": 0.91015625
-},
-```
-**Wall Color (default Red)**
-```
-"_obstacleColor": {
-  "r": 1,
-  "g": 0,
-  "b": 0
- },
-```
 ## Previewing Your Lights
 These tools will help PC Beat Saber users preview their lighting more accurately. Most editors do not show true-to-life lighting effects.
  
@@ -209,10 +172,12 @@ After installing the mods and adding the launch parameter you should then enter 
   - Press the <kbd>G</kbd> key until the headset displays the game  
 **==OR==** 
   - Quit the game, remove the launch option, and relaunch the game.
+
+- If the mod doesn't seem to be working, make sure the in-game Smooth Camera setting is disabled. 
 :::
 
 ### Online with BS Viewer
 [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** is an online tool that is a convienient way to checkout how your map might look in game without the game. Just upload your map zip to the website and preview! Unfortunately **IOS and Safari are currently not supported.**
 
 ## Credits
-Content in this section was authored by [LittleAsi](/mapping/mapping-credits.html#littleasi) and [Kolezan](/mapping/mapping-credits.html#kolezan) or derived from guides by [Puds](/mapping/mapping-credits.html#puds) and [MandyNasty](/mapping/mapping-credits.html#mandynasty). 
+Content in this section was authored by [LittleAsi](/mapping/mapping-credits.html#littleasi) and [Kolezan](/mapping/mapping-credits.html#kolezan) or derived from guides by [Puds](/mapping/mapping-credits.html#puds) and [MandyNasty](/mapping/mapping-credits.html#mandynasty). With visual media contributions from [Aeroluna](/mapping/mapping-credits.html#aeroluna) and [Bullet](/mapping/mapping-credits.html#bullet).

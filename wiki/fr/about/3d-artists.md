@@ -5,26 +5,26 @@ Des sabres aux notes, les modèles personnalisés ont toujours été populaires 
 *"The guy who made giant glowing dicks in beat saber"* ~ Emulamer le 12 Juillet 2019
 Tel que vous pouvez le lire je fais des sabres pour Quest, mais j'ai été généralement actif dans le modding statique de Beat Saber, j'ai aussi réalisé des mods pour d'autres jeux mais Beat Saber est mon grand amour. Si vous avez besoin d'aide pour vous aider à faire des sabres spécifiquement pour Quest vous pouvez toujours me demander dans le canal dédié à la création de modèles sur Quest (jusqu'à ce qu'on ait ce mod qsaber en tout cas). Continuez de sabrer la viande jusqu'à ce qu'elle soit vraiment tendre !
 
-**Rôles :** Artiste 3D
+**Rôles :** Artiste 3D, Support
 
-[PayPal](https://paypal.me/RedBrumblerOfficial?locale.x=nl_NL) | [Patreon](https://www.patreon.com/RedBrumbler) | [Ko-Fi](https://ko-fi.com/redbrumbler) | [Youtube](https://www.youtube.com/channel/UCYmzlDob8BQYWrOQWkHtCpQ) | [Facebook](https://www.facebook.com/red.brumbler.7) | [Twitter](https://twitter.com/RedBrumbler) | [Github](https://github.com/RedBrumbler/BeatOnCustomSabers) | [Reddit](https://www.reddit.com/user/RedBrumbler/)
+[PayPal](https://paypal.me/RedBrumblerOfficial?locale.x=nl_NL) | [Patreon](https://www.patreon.com/RedBrumbler) | [Ko-Fi](https://ko-fi.com/redbrumbler) | [YouTube](https://www.youtube.com/channel/UCYmzlDob8BQYWrOQWkHtCpQ) | [Facebook](https://www.facebook.com/red.brumbler.7) | [Twitter](https://twitter.com/RedBrumbler) | [GitHub](https://github.com/RedBrumbler/BeatOnCustomSabers) | [Reddit](https://www.reddit.com/user/RedBrumbler/)
 
 ## Yuuki
 Artiste 3D et moddeur sur Quest. Je supporte la communauté VR comme je le peux ! Mes objectifs premiers sont de dénicher des mods originaux à Beat Saber pour le Quest et d'aider à améliorer l'expérience de jeu à travers les modèles 3D.
 
 **Rôles :** Artiste 3D
 
-[Youtube](https://www.youtube.com/channel/UCIH4NTKdVNjnJpfuMrk71Fw) | [Patreon](https://www.patreon.com/yuukisaves) | [Ko-Fi](https://ko-fi.com/supportyuuki)
+[YouTube](https://www.youtube.com/channel/UCIH4NTKdVNjnJpfuMrk71Fw) | [Patreon](https://www.patreon.com/yuukisaves) | [Ko-Fi](https://ko-fi.com/supportyuuki)
 
 ## MissRaynor
 **Rôles :** Artiste 3D
 
 ## laugexd
-Développeur de ModelSaber 2.0 et créateur de nombreux sabres, et blocs.
+Développeur de ModelSaber 2.0 et créateur de nombreux sabres et blocs.
 
 **Rôles :** Artiste 3D
 
-[Twitter](https://twitter.com/laugexd) | [Youtube](https://www.youtube.com/channel/UCr_JES9nBCUaAR9-UbgDMRw) | [ModelSaber](https://modelsaber.com/Profile/?user=146243483898871808)
+[Twitter](https://twitter.com/laugexd) | [YouTube](https://www.youtube.com/channel/UCr_JES9nBCUaAR9-UbgDMRw) | [ModelSaber](https://modelsaber.com/Profile/?user=146243483898871808)
 
 ## AkaRaiden
 **Rôles :** Artiste 3D

@@ -5,20 +5,16 @@ Le rôle Support est un symbole de remerciement. Merci pour les milliers de mess
 ## Kolezan
 Il vous apprendra à réparer vos extensions et votre première map terriblement désynchronisée. Nous sommes tous passés par là.
 
-**Rôles :** Support, Mappeur
+**Rôles :** Support, Mapping Support, Mappeur
 
 [Twitch](https://www.twitch.tv/kolezan) | [Faire un don](https://paypal.me/kolezan)
-
-## L_Death
-La première personne à recevoir le rôle Support pour l'assistance nos utilisateurs Quest.
-**Rôles :** Support
 
 ## Pespiri
 Il vous donnera sa bio plus tard ce jour, selon lui.
 
 **Rôles :** Support, Modder
 
-[Github](https://github.com/pespiri)
+[GitHub](https://github.com/pespiri)
 
 ## Radevirot
 Ce type est arrivé de nulle part et a commencé à aider dans le support disant que c'était une sorte d'addiction, quel barje.
@@ -34,6 +30,35 @@ Peut-être ses spectaculaires plateformes vous sont parvenus aux oreilles, ou bi
 
 [Twitch](https://www.twitch.tv/therealkleinba)
 
+## Nobby76
+Coeur en or, nerfs d'acier... Et une noix de beurre
+
+**Rôles :** Support
+
+## boulders2000
+"même si c'est le bazar dans sa tête il sait ce qu'il fait (plutôt)" quelque chose comme ça (mais n'ajoute pas la partie quelque chose comme ça, ok ?)
+
+**Rôles :** Support
+
+## Chara_
+J'aime sourire et jouer le jeu des joueurs SmileW :)
+
+**Rôles :** Support, Artiste 3D
+
+[Discord](https://discord.gg/NXnPYEh) | [YouTube](https://www.youtube.com/c/CharaHere)
+
+## Simme63
+"Coke Head"
+
+**Rôles :** Support
+
+## Sands
+Il n'a pas de vie et il est un peu bête mais il peut vous aider concernant BMBF et c'est tout ce qui compte n'est-ce pas ?
+
+**Rôles :** Support
+
+[YouTube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
+
 ## Channel Monitor Bot
 Le robot qui maintient tout ensemble.
 Créé par Megalon, recréé par lolPants et personnifié par Rolo !
@@ -45,5 +70,6 @@ Créé par Megalon, recréé par lolPants et personnifié par Rolo !
 ::: tip Voir aussi
 **Moddeurs :** [Kyle1413](/fr/about/modders.md#kyle1413)
 **Staff :** [Assistant](/fr/about/staff.md#assistant) | [Klouder](/fr/about/staff.md#klouder) | [Megalon](/fr/about/staff.md#megalon) | [Steven](/fr/about/staff.md#steven) | [williums](/fr/about/staff.md#williums) | [Melopod ƸӜƷ](/fr/about/staff.md#melopod-ƹӝʒ)
-**Modérateurs :** [Razor](/fr/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/fr/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯)
+**Modérateurs :** [Razor](/fr/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/fr/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [Pink](/fr/about/moderators.md#pink)
+**Artistes 3D :** [RedBrumbler](/fr/about/3d-artists.md#redbrumbler)
 :::

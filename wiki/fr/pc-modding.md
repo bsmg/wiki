@@ -29,7 +29,7 @@ Si vous rencontrez des problèmes à un point donné, veuillez vous rendre sur l
 
 __**Lancez le jeu au moins une fois**__ avant d'essayer de modder votre jeu ! Cela s'applique après chaque réinstallation du jeu également, et après chaque mise à jour.
 
-Un installateur de mod Beat Saber simple, similaire à l'ancien Mod Manager, mais avec des fonctionnalités additionnelles telles que la suppression de mods et la vérification de version ! Téléchargez-le sur [le Github d'Assistant](https://github.com/Assistant/ModAssistant/releases/latest).
+Un installateur de mod Beat Saber simple, similaire à l'ancien Mod Manager, mais avec des fonctionnalités additionnelles telles que la suppression de mods et la vérification de version ! Téléchargez-le sur [le GitHub d'Assistant](https://github.com/Assistant/ModAssistant/releases/latest).
 
 ![ModAssistant](./images/beginners-guide/modassistant.png)
 
@@ -48,7 +48,7 @@ Pour installer les musiques personnalisées depuis le site, décompressez-les da
 * [BeatList](https://github.com/Alaanor/beatlist) est une application à pour gérer des playlists et maps, par Alaanor.
 
 ### Playlists
-Placez le fichier de playlist dans `Beat Saber/Playlists` et sélectionnez-la en jeu, puis appuyez sur Download. Vous pouvez créer et télécharger des playlists en utilisant l'un des programmes ci-dessus.
+Placez le fichier de playlist dans `Beat Saber/Playlists`, puis utilisez [BeatList](https://github.com/Alaanor/beatlist) ou [Mod Assistant](https://github.com/Assistant/ModAssistant) pour télécharger les maps. (note : d'anciens mods permettaient de télécharger le contenu des playlists en jeu, mais ce n'est actuellement plus possible).
 
 ## Dossier d'installation
 _Où est installé Beat Saber ?_
@@ -75,7 +75,7 @@ Un installateur de mods est le moyen recommandé pour installer des mods. Lisez 
 
 **Lancez le jeu au moins une fois** avant d'essayer de modder votre jeu ! Cela s'applique après chaque réinstallation du jeu également, et après chaque mise à jour.
 ### Installer BSIPA
-1. Télécharger [BSIPA](https://github.com/beat-saber-modding-group/BeatSaber-IPA-Reloaded/releases).
+1. Télécharger [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
 2. Se rendre dans [le dossier d'installation](#dossier-d-installation) et y extraire le contenu de BSIPA.
 ![Répertoire propre](./images/beginners-guide/directory-clean.png "Répertoire propre")
 ![Répertoire avec IPA](./images/beginners-guide/directory-ipa.png "Répertoire avec IPA")
@@ -83,7 +83,7 @@ Un installateur de mods est le moyen recommandé pour installer des mods. Lisez 
 ![Répertoire patché](./images/beginners-guide/directory-patched.png "Répertoire patché")
 
 # Installer les mods
-4. Télécharger les mods souhaités, soit depuis Github, soit depuis le canal Discord `#pc-mods`, soit d'autres sources. **S'assurer de télécharger toutes dépendances requises par les mods.**
+4. Télécharger les mods souhaités, soit depuis GitHub, soit depuis le canal Discord `#pc-mods`, soit d'autres sources. **S'assurer de télécharger toutes dépendances requises par les mods.**
 ![Répertoire Plugins](./images/beginners-guide/directory-plugins.png "Répertoire Plugins")
 5. Certains mods ont des instructions d'installation précises, certains non. Généralement, il suffit de glisser-déposer le contenu du zip dans le dossier d'installation du jeu, et les fichiers doivent aller dans les dossiers correspondant.
 

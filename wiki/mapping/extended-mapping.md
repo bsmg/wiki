@@ -2,11 +2,18 @@
 sidebar: auto
 prev: ./intermediate-mapping.md
 next: false
+tags:
+  - Noodle Extensions
+  - Mapping Extensions
+  - Wallmapping
+  - 360 degree beat saber levels
+  - 90 degree beat saber levels
+description: |
+  Now that you know the rules, it’s time to break them. 
+  Learn more about Noodle and Mapping Extensions, 360/90 mapping, and Extended Characteristics!
 ---
 # Extended Mapping
 _Now that you know the rules, it’s time to break them_
-
-Many thanks to contributors from across the mapping community who made this expanded wiki possible!
 
 * [Glossary of Terms](./glossary.html)
 
@@ -50,18 +57,16 @@ Here you will need to “trick” Mediocre Map Assistant 2 that your folder is a
 Option 1:
 1. Download this zip for pre-formatted folders and Mapping Extensions Plugin [here](https://drive.google.com/file/d/18MVVZu9jGNY7trf8UuA-4DUZmNdMPsDM/view?usp=sharing).
 2. Extract the zip to a location of your choice.
-3. Enter the path to the CustomLevels and CustomWIPLevels folder when Mediocre Mapper asks for the location. 
-> The path can also be modified in the Settings Bar when you open the program.  
-The settings are located near the bottom of the bar.
+3. Enter the path to the CustomLevels and CustomWIPLevels folder near the bottom of the Settings Bar.
+    * Example Path: `C:\Users\bsmg\Documents\Beat Saber\Beat Saber_Data\CustomWIPLevels`
 4. You are now ready to do [map setup!](#map-setup-in-mediocre-map-assistant-2)
 
 Option 2:
 1. Create a folder named `Beat Saber` in the location you want to store your maps.
 2. In that folder, create two folders, `Beat Saber_Data` and `Plugins`.
 3. In `Beat Saber_Data` create a `CustomWIPLevels` and `CustomLevels` folder.
-4. Enter the path to the CustomLevels and CustomWIPLevels folder when Mediocre Mapper asks for the location. 
-> The path can also be modified in the Settings Bar when you open the program.  
-The settings are located near the bottom of the bar.
+4. Enter the path to the CustomLevels and CustomWIPLevels folder near the bottom of the Settings Bar.
+    * Example Path: `C:\Users\bsmg\Documents\Beat Saber\Beat Saber_Data\CustomWIPLevels`
 5. If you have maps already, go ahead and move your maps to `CustomWIPLevels` you just created.
 6. Go to the `Plugins` folder you made, and drop the latest `MappingExtensions.dll` inside which can be found on [BeatMods](https://beatmods.com/).
 7. You are now ready to do [map setup!](#map-setup-in-mediocre-map-assistant-2)
@@ -148,13 +153,22 @@ Walls that zoom by the player are called Fast and Hyper walls. They are created 
 Too many walls will create heavy lag. Especially for players that do not have powerful computers. Test frequently and try to keep the wall-count down to keep your experience accessible for most players.
 :::
 
+### Testing your map
+While you could playtest your map ingame every time you make changes, this will be unpractically in the long run.
+Luckily there are some mods to help you out.
+
+- [FPFCToggle](https://github.com/DeadlyKitten/FPFCToggle) - lets you fly around the map without vr
+- [MusicEscape](https://github.com/DeadlyKitten/MusicEscape) - lets you quit to menu and pause-menu with your keyboard
+- [ReLoader](https://github.com/Kylemc1413/ReLoader) - hot reloads the map 
+- [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) - change Song time, playback speed and more from the pause manu
+
 ## Extended Characteristics
-These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `info.dat` file.
+These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `Info.dat` file.
 
 **To Add a New Characteristic**
 1. Create your new difficulty file in your favorite editor.
 2. When finished mapping, rename the difficulty file to include the characteristic name. (example: `EasyLightshow.dat`)
-3. Make the following changes to the `”_beatmapCharacteristicName”` and `”_beatmapFilename”` in your `info.dat` file:
+3. Make the following changes to the `”_beatmapCharacteristicName”` and `”_beatmapFilename”` in your `Info.dat` file:
 
 ```
 "_difficultyBeatmapSets": [{
@@ -165,11 +179,11 @@ These characteristics (with the exception of 360°/90° mode) take you beyond of
 		"_beatmapFilename": "EasyLightshow.dat",
 ```
 
-This [pastebin](https://pastebin.com/vbgFPqn9) link provides an example of a `info.dat` file using two characteristics (Lawless and Standard)
+This [pastebin](https://pastebin.com/vbgFPqn9) link provides an example of a `Info.dat` file using two characteristics (Lawless and Standard)
 
 ### 360°/90°
 ::: warning
-It is recommended that you understand basic and intermediate mapping before stepping into 360°/90° mode mapping as it requires adapting to different mapping practices and style.
+It is recommended that you understand [basic](./basic-mapping.md) and [intermediate](./intermediate-mapping.md) mapping practices before stepping into 360°/90° mapping as it requires adapting to different mapping practices and style.
 :::
 
 360°/90° mode introduces new ways to play Beat Saber with notes spawning from different angles and direction, which opens up a lot of mapping potential and freedom as a whole.
@@ -180,7 +194,9 @@ It is recommended that you understand basic and intermediate mapping before step
 
 ### Lawless
 ::: warning  
-This characteristic requires the SongCore mod to function. Players without the mod, including all Quest players, are unable to play these levels.
+This characteristic requires the SongCore mod to function. 
+* For PC Players without the mod, the whole map will load indefinitely and will be unable to play any other difficulty in the map.
+* For Quest players, this characteristic will be removed at import. Vanilla characteristics will still be playable.
 :::
 
 The lawless characteristic is exactly what it sounds like… no rules, just right. Want to get crazy experimental and try some things that might be downvote magnets? Pop them into the Lawless characteristic to separate it from standard levels.
@@ -189,13 +205,19 @@ The lawless characteristic is exactly what it sounds like… no rules, just righ
 
 ### Lightshow
 ::: warning  
-This characteristic requires the SongCore mod to function. Players without the mod, including all Quest players, are unable to play these levels.
+This characteristic requires the SongCore mod to function. 
+* For PC Players without the mod, the whole map will load indefinitely and will be unable to play any other difficulty in the map.
+* For Quest players, this characteristic will be removed at import. Vanilla characteristics will still be playable.
 :::
 The Lightshow characteristic is used for maps with no notes which allow players to enjoy a lightshow experience. Bombs and walls are optional as long as they are not in the way of the players.
 
 * **Info.dat Name:** `Lightshow`
 
 ## 360°/90° Mapping
+
+::: warning
+It is recommended that you understand [basic](./basic-mapping.md) and [intermediate](./intermediate-mapping.md) mapping practices before stepping into 360°/90° mapping as it requires adapting to different mapping practices and style.
+:::
 
 ### Rotation Events and Values
 Two new “official” event types were introduced in v1.6.0 as part of the lighting events schema:

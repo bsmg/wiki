@@ -16,7 +16,7 @@ The game as we know it wouldn't exist if people didn't want to add their own spi
 ### [Supports](/about/supports.md)
 The Support role is a symbol of thanks. Thanks for the thousands of messages sent in the support channels to help people sort out their mods, and for for building a knowledge of troubleshooting base through macros and the wiki. 
 
-### [Mapping Supports](/about/mapping-supports)
+### [Mapping Supports](/about/mapping-supports.md)
 The Mapping Support role is a symbol of thanks. Thanks for the thousands of messages sent in the mapping discussion channel and time spent building and maintaining the mapping resources to help people learn how to make maps.
 
 ### [3D Artists](/about/3d-artists.md)

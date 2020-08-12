@@ -48,7 +48,7 @@ To install songs downloaded from the site, unzip them into a folder and place it
 * [BeatList](https://github.com/Alaanor/beatlist) is an app to manage playlist and beatmaps, by Alaanor.
 
 ### Playlists
-Place the playlist file into `Beat Saber/Playlists` and select it in-game, then hit download. You can create and download playlists using one of the programs above.
+Place the playlist file into `Beat Saber/Playlists`, then use [BeatList](https://github.com/Alaanor/beatlist) or [Mod Assistant](https://github.com/Assistant/ModAssistant) to download the maps. (Note: older mods allowed downloading the contents of playlists in-game, but this is currently not possible.)
 
 ## Install Folder
 _Where is Beat Saber installed?_
@@ -75,7 +75,7 @@ A mod installer is the recommended way to install mods. See the section [above](
 
 **Run the game at least once** before trying to mod the game! This applies to reinstalling your game too. 
 ### Install BSIPA 
-1. Download [BSIPA](https://github.com/beat-saber-modding-group/BeatSaber-IPA-Reloaded/releases).
+1. Download [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
 2. Navigate to your [install folder.](#install-folder) and extract the contents of BSPIA into it.
 ![Directory Clean](./images/beginners-guide/directory-clean.png "Directory Clean")
 ![Directory Ipa](./images/beginners-guide/directory-ipa.png "Directory Ipa")

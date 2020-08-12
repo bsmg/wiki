@@ -29,13 +29,19 @@ module.exports = {
     },
   },
 
+  markdown: {
+    extendMarkdown: md => {
+      md.use(require('markdown-it-task-lists'))
+    }
+  },
+
   theme: 'yuu',
   themeConfig: {
     yuu: {
       defaultColorTheme: 'blue',
     },
 
-    repo: 'beat-saber-modding-group/wiki',
+    repo: 'bsmg/wiki',
     docsDir: 'wiki',
     editLinks: true,
 
@@ -147,7 +153,16 @@ module.exports = {
       pageChunkName: ({ key }) => `page${key.slice(1)}`,
       layoutChunkName: ({ componentName }) => `layout-${componentName}`,
     }],
-    'seo',
+    ['sitemap', {
+      hostname: 'https://bsmg.wiki/'
+    }],
+    ['seo', {
+      customMeta: (add, context) => {
+        const [_, { title }] = Object.entries(context.$site.locales).find(([key, value]) => key === context.$page._localePath)
+        add('og:site_name', title)
+      },
+    }],
+    'smooth-scroll',
   ],
   configureWebpack: {
     resolve: {

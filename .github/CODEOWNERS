@@ -14,10 +14,10 @@ package.json          @lolpants
 yarn.lock             @lolpants
 
 # Wiki Admins
-/wiki/**/*.md          @megalon @williums @assistant
+/wiki/**/*.md          @megalon @williums @assistant @bloodcloak
 
 # Section Owners
 /wiki/modding/**/*.md  @megalon @williums @assistant @aurosx @caeden117
-/wiki/mapping/**/*.md  @megalon @williums @assistant @helencarnate
+/wiki/mapping/**/*.md  @megalon @williums @assistant @helencarnate @bloodcloak
 
 /wiki/fr/**/*.md       @Awagi

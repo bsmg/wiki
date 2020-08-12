@@ -32,7 +32,7 @@ Pepega
 
 **Rôles :** Modérateur, Mappeur
 
-[Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [Youtube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)
+[Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [YouTube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)
 
 ## InfJager
 Ne peut pas toucher les jumps.
@@ -76,10 +76,19 @@ Combien de statistiques pouvont nous faire rentrer dans un seul mod de compteurs
 
 **Rôles :** Moddeur, Modérateur
 **Contributions :** FPSCounter, QSettings+, Short Trail
+
 [GitHub](https://github.com/Rugtveit)
 
 ## Pink
 Le seul modérateur à nous ignorer quand on demande une description pour cette page.
 
-**Rôles :** Artiste 3D, Modérateur
-**Contributions :** Advanced Config, de nombreux modèles Quest
+**Rôles :** Artiste 3D, Modérateur, Support, Moddeur
+
+**Contributions :** Un tas de modèles et mods Quest
+
+## Olaf
+Des stroopwafels ?
+
+**Rôles :** Modérateur
+
+[Twitch](https://twitch.tv/olafstad)

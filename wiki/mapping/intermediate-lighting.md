@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-lighting.md
 next: ./advanced-lighting.md
+description: Learn about taking your lighting to the next level!
 ---
 # Intermediate Lighting
 _You've learned the basics and now you want more!_
@@ -63,8 +64,8 @@ You can produce a pulsating glow effect by strobing Flash and On events in seque
 
 Flash events start ~37.1% brighter than On events and then quickly fades to the intensity of On. An On event placed at any point during the Flash animation will disrupt the ongoing transition, immediately set the intensity to On. Therefore, you can produce very different results by strobing these two events at different intervals, ranging from a pulsating glow at ~1/4 interval to something of a vibrating "hum" at ~1/16 (tempo dependant).
 
-* Example of 1/4 interval at ~0:17: Don't Give Up On Me - Jason Ross ft. Dia Frampton mapped and lighted by LittleAsi  
-[Streamable](https://streamable.com/d1jm6) | [Beatsaver](https://beatsaver.com/beatmap/7c00)
+* Example of 1/4 interval at ~0:17: Don't Give Up On Me - Jason Ross ft. Dia Frampton mapped by Baxter and lighted by LittleAsi  
+[Streamable](https://streamable.com/d1jm6) | [BeatSaver](https://beatsaver.com/beatmap/7c00)
 
 ### On/Off and Flash/Off Strobing
 ::: tip NOTE
@@ -75,7 +76,7 @@ This is a stub section. If you'd like to contribute, submit suggestions via [thi
 As discussed in the [Flash/On](/mapping/intermediate-lighting.html#flash-on-strobing) section, "on" lights are at 100% brightness while "Flash" lights begin ~37.1% brighter than On events and then quickly fades to the intensity of On. Flash/Offs produce a more intense strobe than On/Offs.
 
 * Example: Bass Music - Umziky (Cytus II ver.) mapped and lighted by Skeelie (also uses Chroma RGB)  
-[YouTube](https://www.youtube.com/watch?v=Set0lOZ5Yog) | [Beatsaver](https://beatsaver.com/beatmap/7bc4)
+[YouTube](https://www.youtube.com/watch?v=Set0lOZ5Yog) | [BeatSaver](https://beatsaver.com/beatmap/7bc4)
 
 ## Laser Practices
 Synchronizing side lasers is good for emphasis at times, but keeping them synchronized throughout is denying yourself a major dimension of activity, variety, and differentiation. The symmetrical nature of the two side lasers allows for the expression of ideas that other light combinations don't.
@@ -86,7 +87,7 @@ Speed 0 lasers (and rotating lasers, to a lesser degree) can be used either as a
 As a baseline guide, turn each on in sequence at 1/16 interval, and turn each off as the next light is enabled. Adjust the interval as appropriate for the song and tempo, and experiment with the timing of the Off events (or events other than On/Off entirely) for a variety of related effects. This show includes many distinct examples of laser spin effects throughout, but a basic example can be found at ~0:38:
 
 * Example: ShutEmDown - Celldweller mapped by Funrankable and lighted by LittleAsi  
-[Streamable](https://streamable.com/zx1sf) | [Beatsaver](https://beatsaver.com/beatmap/5bb2)
+[Streamable](https://streamable.com/zx1sf) | [BeatSaver](https://beatsaver.com/beatmap/5bb2)
 
 ### Laser Rotation Speed
 * Vary laser rotation speed consistently based on some meaningful parameter, such as the pitch or length of the notes. 
@@ -105,13 +106,41 @@ High impact/high energy moments are the result of high contrast, not any specifi
 
 This show features many major stylistic changes throughout, but see the section starting ~1:46 into the one ~1:54 for one example, and even more obvious at ~2:23.
 * Example: Into the Fire ft. Miss Lina - Getsix (Lightshow Only) lighted by LittleAsi  
-[Streamable](https://streamable.com/0qsto) | [Beatsaver](https://beatsaver.com/beatmap/7be2)
+[Streamable](https://streamable.com/0qsto) | [BeatSaver](https://beatsaver.com/beatmap/7be2)
 
 This one demonstrates a change from 1:1 instrument:light mapping to a focused emphasis-only style at the drop ~1:17; also note the use of total blackouts after the drop for increased impact despite the fact that the song never actually goes silent during that period.
 * Example: Virtual Friends - DROELOE mapped by Skyler Wallace and lighted by LittleAsi  
-[Streamable](https://streamable.com/6f429) | [Beatsaver](https://beatsaver.com/beatmap/7cd5)
+[Streamable](https://streamable.com/6f429) | [BeatSaver](https://beatsaver.com/beatmap/7cd5)
+
+## Environment Removal
+When lighting for an environment, you may have wanted to remove unwanted parts of the environment. With the use of the Chroma mod, you can do just that! By specifying the `_environmentRemoval` field under the `_customData` of each difficulty in the `Info.dat`, you can remove specific parts of the environment. Note that Chroma must be listed as a suggestion or requirement in order for environment removal to work.
+
+Example removing the Monstercat logo from the environment:
+```
+"_customData" : {
+  "_suggestions": [
+    "Chroma"
+  ],
+  "_environmentRemoval" : [
+    "MonstercatLogoL", "MonstercatLogoR"
+  ]
+}
+```
+
+Some common elements that are removed from environments:
+* `Spectrograms`, `Spectrogram` - The audio visualisers
+* `MonstercatLogoL`, `MonstercatLogoR` - The logo of the Monstercat environment
+* `RocketCar`, `RocketCar (1)` - The cars in the Rocket League environment
+* `Logo` - The greenday logo
+* `TimbalandLogo`, `TimbalandLogo (1)`, `TimbalandLogo (2)`, `TimbalandLogo (3)` - The logo of the Timbaland environment
+
+*A full list of props that can be removed from environments is being worked on.*
+
+:::warning 
+Removing the platform that the player stands on can limit the group of people that can play your map. This is because it can be rather terrifying if they are afraid of heights or cause motion sickness from the lack of a solid reference point. 
+:::
 
 ## Credits
-Content on this page was contributed by [LittleAsi](/mapping/mapping-credits.md#littleasi) and [Puds](/mapping/mapping-credits.md#puds)
+Content on this page was contributed by [LittleAsi](/mapping/mapping-credits.md#littleasi), [Puds](/mapping/mapping-credits.md#puds), and [Bullet](/mapping/mapping-credits.md#bullet).
 
 

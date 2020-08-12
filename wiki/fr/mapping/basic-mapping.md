@@ -2,6 +2,7 @@
 sidebar: auto
 prev: false
 next: ./intermediate-mapping.md
+translation-done: false
 ---
 # Les bases du mapping
 _Un résumé rapide des bases du mapping_

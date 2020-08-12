@@ -1,10 +1,21 @@
 ---
 home: true
+title: BSMG Wiki
 heroText: BSMG Wiki
 tagline: Welcome to the Beat Saber Modding Group Wiki!
+description: Welcome to the Beat Saber Modding Group Wiki!
 actionText: Beginners Guide →
 actionLink: ./beginners-guide.md
-footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
+footer: Copyright © 2019-2020 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
+
+tags:
+  - bsmg
+  - beat saber
+  - modding
+  - wiki
+  - support
+  - help
+  - how are beat maps make?
 ---
 
 <div class='features'>
@@ -25,8 +36,8 @@ footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 
 ::: feature Other Resources
 * [About Us](/about/)
 * [Health and Safety](./health-and-safety.md)
-* [Mod History](https://docs.google.com/spreadsheets/d/1eVRbCUyaXjKUJRSNPZWERUO9tULK415buU0q-H7Z0dY/edit#gid=0)
 * [Frequently Asked Questions](/faq/)
+* [Communities](/communities/)
 :::
 
 </div>
@@ -37,7 +48,8 @@ footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 
 * [BeatMods](https://beatmods.com) - Repository of mods that are reflected in installers like ModAssistant
 * [BeatSaver](https://beatsaver.com/) - Download custom songs here
 * [BeastSaber](https://bsaber.com/) - Reviews, articles, playlists, and more!
-* [ModelSaber](https://modelsaber.com/) - Download custom sabers, avatars, blocks, and platforms!
+* [ModelSaber](https://modelsaber.com/) - Download custom sabers, avatars, bloqs, and platforms!
 * [ScoreSaber](https://scoresaber.com/) - Custom leaderboards
 * [Steam Store Page](https://store.steampowered.com/app/620980/Beat_Saber/)
 * [Oculus Store Page](https://www.oculus.com/experiences/rift/1304877726278670/)
+* [Mod History](https://docs.google.com/spreadsheets/d/1eVRbCUyaXjKUJRSNPZWERUO9tULK415buU0q-H7Z0dY/edit#gid=0)

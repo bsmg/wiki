@@ -1,5 +1,20 @@
 ---
 sidebar: auto
+description: Essential information to get up and running using Mediocre Map Assistant 2
+
+tags:
+  - Mediocre Map Assistant 2
+  - MMA2
+  - MM
+  - Mediocre Mapper
+  - wiki
+  - beat saber level editor
+  - mapping
+  - make levels
+  - how are beat maps make?
+  - custom level editor
+  - make custom maps
+  - custom chart editor
 ---
 # Mediocre Map Assistant 2 User Guide
 _Essential information to get up and running using Mediocre Map Assistant 2_
@@ -7,12 +22,12 @@ _Essential information to get up and running using Mediocre Map Assistant 2_
 * [Glossary of Terms](/mapping/glossary.md)
 
 ::: tip NOTE
-This guide currently supports both [Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) by Assistant and Mediocre Mapper Mk5 (final public release) by Squeaksies. All future public development will occur on MMA2.
+This guide currently supports both [Mediocre Map Assistant 2](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest) by Assistant and Mediocre Mapper Mk5 (final public release) by Squeaksies. All future public development will occur on MMA2.
 :::
 
 ## Editor Setup
-### Installation
-1. Download MMA2.zip from [GitHub](https://github.com/Assistant/MediocreMapAssistant2/releases/latest) 
+### Windows Installation
+1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest) 
 2. Unzip the file and place the extracted folder wherever you like on your hard drive.
 3. Double click `mediocremapassistant2.exe` in the extracted folder to run.
 
@@ -20,7 +35,7 @@ This guide currently supports both [Mediocre Map Assistant 2](https://github.com
 It is **VERY** important to unzip the file in step 2 and only run the exe in the new folder instead of the one inside the zip as not doing so will cause issues with map creation and editing!
 :::
 
-### First Time Setup
+#### First Time Setup
 The first time you run MMA2 you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
 
 **If you have Beat Saber installed on the computer:**
@@ -29,8 +44,8 @@ The first time you run MMA2 you will need to direct it to the location of two fo
 * Oculus Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
 
 **If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
-* Make two folders called `CustomLevels` and `CustomWIPLevels`
-* Example: `C:\Users\Helen\Documents\CustomWIPLevels`
+* Make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them.
+   * Example: `C:\Users\Helen\Documents\CustomWIPLevels`
 <p align="center">
 ![Screenshot of Mediocre Mapper path entry](./images/mma2-folder-path.jpg)
 </p>
@@ -44,7 +59,34 @@ instead of
 `C:\Steam\steamapps\common\Beat SaberBeat Saber_Data\CustomLevels`
 :::
 
-#### Check the WIP File Path
+### Linux Installation
+1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest) 
+2. Unzip the file and place the extracted folder wherever you like on your hard drive.
+3. Open Steam. At the top of the window, go to `Steam > Settings > Steam Play`. In the `Advanced` section, check `Enable Steam Play for all other titles` if it isn't already. Restart Steam if you are prompted to do so.
+3. On the bottom right of Steam's main window, click `Add a Game`, then `Add a Non-Steam Games`. A window opens, click `Browse` at the bottom. Select `All Files` as the file type. Find where `MediocreMapAssistant2.exe` is, and add it.
+4. Search for `Proton` in the Steam search bar, then install the latest version.
+5. Right-click the `MediocreMapAssistant2.exe` shortcut, and open the Properties menu. Check `Force the use of a specific Steam Play compatibility tool`, and select the latest version of Proton in the dropdown menu. At this step, you might also want to rename and add an icon to the shortcut as Linux cannot read the built in logo for MMA2.
+6. You can now use MMA2 by starting it through Steam. You can also create a shortcut by right-clicking the MMA2 shortcut in Steam, then under the `Manage` section clicking `Add Desktop Shortcut`.
+
+#### Linux First Time Setup
+The first time you run MMA2 you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
+
+**If you have Beat Saber installed on the computer:**
+* Give MMA2 the path to the two appropriate folders, prefixed by `Z:`.
+  * Example: `/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels` should be entered as `Z:/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels`. 
+* To find where Beat Saber is installed, right-click Beat Saber in Steam, go to `Manage > Browse Local Files`.
+* The folders should be located under the `Beat Saber_Data` directory.
+
+**If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
+* Make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them. Note that the usual Linux paths need to be prefixed with `Z:`.
+   * Example: `/home/bsmg/MMA2/CustomLevels` and `/home/bsmg/MMA2/CustomWIPLevels` should be entered as `Z:/home/bsmg/MMA2/CustomLevels` and `Z:/home/bsmg/MMA2/CustomWIPLevels` 
+<p align="center">
+![Screenshot of Mediocre Mapper path entry for Linux](./images/mma2-linux-path.png)
+</p>
+
+All of your working map files will go into a song name folder within this CustomWIPLevels folder.
+
+### Check the WIP File Path
 It is currently a known bug that the path given from setup does not carry over to the main screen. Make sure the fields have the paths from your setup and are not blank. If blank, add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and press <kbd>Enter</kbd> to confirm!  
 ![Check Paths Not Blank](./images/mma2-checkWipSongPath.png)
 
@@ -113,24 +155,24 @@ The `Song Info` page is the first screen you see every time you edit a map.
 On the left side of the `Song Info` page is information that applies to your whole map. See [Beat Saber Metadata Criteria](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) for standards on presenting complex song names and multiple artists.
 
 ::: warning
-Special characters such as those found in, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ) are not fully supported by Beat Saber or Beatsaver. Using these characters in song metadata or in bookmarks will cause problems.
+Special characters such as those found in, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ) are not fully supported by BeatSaver. Using these characters in song metadata or in bookmarks will cause problems.
 :::
 
 * **Song Name:** The primary name of the song
 * **Song SubName:** Any following tags like (Short Ver.), (SDVX Mix), etc.
 * **Song Artist:** The person or group who authored the song
 * **Mapper:** This is YOU! It's recommended you list your name the same as your BeatSaver user name
-* **BPM:** The tempo of the song. It's *critical* to get this right before you start. See [Basic Audio Setup](#) for guidance
+* **BPM:** The tempo of the song. It's *critical* to get this right before you start. See [Basic Audio Setup](../mapping/basic-audio.md) for guidance
 * **Audio File Name:** The name of the song file (including the extension) you have placed in `CustomWIPLevels > [Song Folder]`. Recommended to just name it *song.ogg* to avoid the pitfalls of special characters
 * **Preview Start Time:** Position in the song file, in seconds, of the start of the in-game menu song preview. Defaults to 12s
 * **Preview Duration:** Duration, in seconds, of the in-game menu song preview. Defaults to 10s
 * **Cover Image Name:** The name of the image file (including the extension) you have placed in `CustomWIPLevels > [Song Folder]`. Must be perfectly square and at least 256 px but no more than 512 px
-* **Environment Name:** A dropdown menu of the default environments or platforms available. See [Basic Lighting Practices](#) for an overview of these environments
+* **Environment Name:** A dropdown menu of the default environments or platforms available. See [Basic Lighting Practices](../mapping/basic-lighting.md#environment-previews) for an overview of these environments
 * **Custom Platform:** The copy/pasted name of a custom platform from [ModelSaber](https://modelsaber.com/Platforms/). This feature is glitchy and it's recommended that you JSON edit any custom platform information
 
 The <kbd>Open Song Folder</kbd> button will open your song folder in Windows Explorer. This will help you confirm that you have your files in the right spot.
 The <kbd>Package Song to Zip</kbd> button will remove your autosaves folder and zip the files for BeatSaver.
-The <kbd>Save Song Info</kbd> button commits all of your metadata to the info.dat file
+The <kbd>Save Song Info</kbd> button commits all of your metadata to the Info.dat file
 #### Difficulty Settings
 On the right side of the `Song Info` page is the area where you create individual difficulties and edit data that only applies to a single diffculty level. To create your first difficulty:
 
@@ -172,11 +214,10 @@ Mapping settings can be accessed by clicking the hamburger menu in the top right
 * **<kbd>Make/Delete Bookmark</kbd>**: This button will add a bookmark at the current cursor placement if one doesn't exist (add a name and hit enter to save) or will delete an existing bookmark
 * **<kbd>Set Preview Start at Cursor</kbd>**: This button allows you to quickly reset the beginning of your in-game music preview at the cursor location
 
-## Basic Controls
+## Editor Controls
 There are usually multiple ways to accomplish the same action, however, the keyboard shortcuts at the link below are the most efficient.
 
-* [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing)
-* To get the lighting menu, press <kbd>Tab</kbd> while editing the map.
+* [Editor Keybinds](/mapping/editor-keybinds.md)
 
 ## Error Checker
 The **Error Checker** functionality is one of the top quality of life features found in MMA2. Access the error checker by clicking <kbd>SHIFT+TAB</kbd> to check for vision blocks, double directionals, stacked notes, and view map stats.
@@ -228,11 +269,8 @@ Keep clicking the “Check for Double Directionals” button… sometimes fixing
 When you’re ready, click the Stat Panel button to open an incredibly helpful information window. You can get information by hovering over each title.
 
 ::: tip
-Use <kbd>CTRL</kbd>+scroll to select a section you want to check the stats for, hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd> and click the <kbd>Stats Panel</kbd> button to see values for that section only.
-:::
-
-::: tip
-Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See this [updated list of OST tracks](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4/edit?usp=sharing) for the latest (and greatly increased) NPS ranges.
+* Use <kbd>CTRL</kbd>+scroll to select a section you want to check the stats for, hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd> and click the <kbd>Stats Panel</kbd> button to see values for that section only.
+* Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See this [updated list of OST tracks](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4/edit?usp=sharing) for the latest (and greatly increased) NPS ranges.
 :::
 
 | Example | Explanation |
@@ -248,7 +286,7 @@ ___
 **My song is stuck loading in the editor forever or returns to the edit song screen after briefly loading**  
 * This error is usually caused by a missing, corrupted, or invalid audio file. Re-read [Basic Audio Setup](/mapping/basic-audio.html) to ensure you've exported everything correctly and make sure that your file is in the correct folder. Usage of convert to OGG websites is the common cause of this issue.  
 * The audio file is not in the correct location. Make sure it is in the folder that MMA2 created for your song!  
-   * The folder you should put the `.ogg` song file is located to the path you put during [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and should contain at least an `info.dat` file.  
+   * The folder you should put the `.ogg` song file is located to the path you put during [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and should contain at least an `Info.dat` file.  
 * Make sure you are launching the editor from the extracted folder, not the zip (MMA2.zip) you downloaded.
 ___
 **I can't figure out how to place dot notes**  
@@ -256,10 +294,17 @@ ___
    * You can review the keybindings by pressing <kbd>ESC</kbd> for the in-editor list or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). 
 ___
 **One Saber maps don't load in game**  
-* Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "One Saber",` and replace with `"_beatmapCharacteristicName": "OneSaber",`
+* Open the map's Info.dat in a text editor and find the line `"_beatmapCharacteristicName": "One Saber",` and replace with `"_beatmapCharacteristicName": "OneSaber",`
 ___
 **No Arrows maps don't load in game**  
-* Open the map's info.dat in a text editor and find the line `"_beatmapCharacteristicName": "No Arrows",` and replace with `"_beatmapCharacteristicName": "NoArrows",`
+* Open the map's Info.dat in a text editor and find the line `"_beatmapCharacteristicName": "No Arrows",` and replace with `"_beatmapCharacteristicName": "NoArrows",`
+___
+**90/360 maps don't use the Glass Desert Environment**
+* Open the map's Info.dat in a text editor and add `"_allDirectionsEnvironmentName": "GlassDesertEnvironment",` after `"_environmentName": "DefaultEnvironment",` or similar if you set a different environment for other difficulties.
+
+:::tip
+If you are not comfortable editing the Info.dat, you can zip up your map and use [Schema Fixer](https://skystudioapps.com/mapping-tools/#schema-fixer) by **+1 Rabbit** to make the one time adjustment!
+:::
 ___
 **Your audio file name is wrong. Enter only the name NOT the path.**  
 ![Audio File Name Wrong](./images/mma2-wrongPath.png)
@@ -288,4 +333,4 @@ ___
 
 
 ## Credits
-Content in this section was authored by [Helen Carnate](/mapping/mapping-credits.html#helen-carnate) and [Bloodcloak](/mapping/mapping-credits.html#bloodcloak).
+Content in this section was authored by [Helen Carnate](/mapping/mapping-credits.html#helen-carnate), [Bloodcloak](/mapping/mapping-credits.html#bloodcloak), and [Gabmiral](/mapping/mapping-credits.html#gabmiral).
