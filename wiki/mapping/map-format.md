@@ -74,7 +74,7 @@ This field describes the person who created the map. That's you! Or, whoever mak
 This describes the Beats Per Minute (BPM) of your song.
 
 ### _shuffle
-:::warning
+:::warning Inconsistent Information
 Information about this field can be incorrect. If corrections need to be made, please use the [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform) or create an issue on the [BSMG Wiki repository](https://github.com/bsmg/wiki).
 :::
 
@@ -243,6 +243,236 @@ The Player rests in the exact middle of both of these values, so most mappers fi
 
 ### _noteJumpStartBeatOffset
 This value acts as a direct offset to the Half Jump Duration, explained in `_noteJumpMovementSpeed`, which in turn affects the Jump Distance. This can be a floating point number to achieve a precise Jump Duration.
+
+### _customData
+This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
+
+The exact specifics of what goes in `_customData` is entirely dependent on community-created content that needs them. As such, we cannot list all `_customData` fields here. You will have to do your own searching throughout the Beat Saber community to find map editors, tools, or mods that use this `_customData` object.
+
+# Difficulty File
+Each Difficulty Beatmap contains a corresponding file which defines the notes, obstacles, events, and other objects for that particular difficulty.
+
+## Base Object
+
+```json
+{
+    "_version": "2.0.0",
+    "_notes": [],
+    "_obstacles": [],
+    "_events": [],
+    "_customData": {
+        // Any custom data will go here. If empty, this should be removed entirely.
+    }
+}
+```
+
+### _version
+This field describes the version of the map format we are using. Currently, Beat Saber's map format is on version `2.0.0`.
+
+### _notes
+This is an array of Note objects for the map.
+
+### _obstacles
+This is an array of Obstacle objects for the map.
+
+### _events
+This is an array of Event objects for the map.
+
+### _customData
+This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
+
+The exact specifics of what goes in `_customData` is entirely dependent on community-created content that needs them. As such, we cannot list all `_customData` fields here. You will have to do your own searching throughout the Beat Saber community to find map editors, tools, or mods that use this `_customData` object.
+
+## Notes
+
+```json
+{
+    "_time": 10,
+    "_lineIndex": 1,
+    "_lineLayer": 0,
+    "_type": 0,
+    "_cutDirection": 1,
+    "_customData": {
+        // Any custom data will go here. If empty, this should be removed entirely.
+    }
+}
+```
+
+### _time
+The time, in beats, where this object reaches the player.
+
+### _lineIndex
+An integer number, from 0 to 3, which represents the column where this note is located. The far left column is located at index 0, and increases to the far right column located at index 3.
+
+### _lineLayer
+An integer number, from 0 to 2, which represents the layer where this note is located. The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+
+### _type
+This indicates the type of note there is. Currently, there are 4 known types, but 1 remains unused:
+
+|`_type`|Result|
+|:-------------------:|-------------------|
+|`0`|Left (Red) Note|
+|`1`|Right (Blue) Note|
+|`2`|"Ghost" Notes**¹**|
+|`3`|Bomb|
+
+**¹**: These are unused, and are superseded by the "Ghost Notes" gameplay modifier.
+
+### _cutDirection
+This indicates the cut direction for the note. Currently, there are 10 known values, but 1 remains unused:
+
+|`_cutDirection`|Result|
+|:-------------------:|-------------------|
+|`0`|Up|
+|`1`|Down|
+|`2`|Left|
+|`3`|Right|
+|`4`|Up Left|
+|`5`|Up Right|
+|`6`|Down Left|
+|`7`|Down Right|
+|`8`|Any (Dot)|
+|`9`|None (Unused)|
+
+### _customData
+This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
+
+The exact specifics of what goes in `_customData` is entirely dependent on community-created content that needs them. As such, we cannot list all `_customData` fields here. You will have to do your own searching throughout the Beat Saber community to find map editors, tools, or mods that use this `_customData` object.
+
+## Obstacles
+
+```json
+{
+    "_time": 10,
+    "_lineIndex": 1,
+    "_type": 0,
+    "_duration": 10,
+    "_width": 1,
+    "_customData": {
+        // Any custom data will go here. If empty, this should be removed entirely.
+    }
+}
+```
+
+### _time
+The time, in beats, where this object reaches the player.
+
+### _lineIndex
+An integer number, from 0 to 3, which represents the column where the left side of the obstacle is located. The far left column is located at index 0, and increases to the far right column located at index 3.
+
+### _type
+An integer number which represents the state of the obstacle. A value of `0` results in a full-height wall, and a value of `1` represents a croutch/duck wall.
+
+### _duration
+The time, in beats, that the obstacle extends for.
+
+### _width
+How many columns the obstacle takes up. A `_width` of `4` will mean that this wall will extend the entire playable grid.
+
+### _customData
+This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
+
+The exact specifics of what goes in `_customData` is entirely dependent on community-created content that needs them. As such, we cannot list all `_customData` fields here. You will have to do your own searching throughout the Beat Saber community to find map editors, tools, or mods that use this `_customData` object.
+
+## Events
+
+```json
+{
+    "_time": 10,
+    "_type": 1,
+    "_value": 3,
+    "_customData": {
+        // Any custom data will go here. If empty, this should be removed entirely.
+    }
+}
+```
+
+### _time
+The time, in beats, where this object reaches the player.
+
+### _type
+An integer number which represents what exact kind of event this object represents.
+
+|`_type`|Result|
+|:-------------------:|-------------------|
+|`0`|Controls lights in the `Back Lasers` group|
+|`1`|Controls lights in the `Ring Lights` group|
+|`2`|Controls lights in the `Left Rotating Lasers` group|
+|`3`|Controls lights in the `Right Rotating Lasers` group|
+|`4`|Controls lights in the `Center Lights` group|
+|`5`|Unused.|
+|`6`|Unused.|
+|`7`|Unused.|
+|`8`|Creates one ring spin in the environment. Is not affected by `_value`.|
+|`9`|Controls zoom for applicable rings. Is not affected by `_value`.|
+|`10`|(Previoulsy unused) Official BPM Changes.|
+|`11`|Unused.|
+|`12`|Controls rotation speed for applicable lights in `Left Rotating Lasers`.|
+|`13`|Controls rotation speed for applicable lights in `Right Rotating Lasers`.|
+|`14`|(Previously unused) 360/90 Early rotation. Rotates future objects, while also rotating objects at the same time.|
+|`15`|(Previously unused) 360/90 Late rotation. Rotates future objects, but ignores rotating objects at the same time.|
+
+:::warning Hold Up!
+Just because an event type is listed as unused, does *not* mean you are freely available to use it
+
+Beat Games is known to repurpose previously unused event types for certain features, such as the introduction of 360/90 levels. This has broken some Beat Saber maps that make use of legacy MediocreMapper BPM Changes, as well as maps that used Custom Platforms that took advantage of the unused event types.
+:::
+
+### _value
+Depending on the aforementioned `_type` of the event, the `_value` of it can do different things.
+
+#### Controlling Lights
+It's default behavior is controlling brightness and color of lights, and follows this table:
+
+|`_value`|Result|
+|:-------------------:|-------------------|
+|`0`|Turns the light group off.|
+|`1`|Changes the lights to blue, and turns the lights on.|
+|`2`|Changes the lights to blue, and flashes brightly before returning to normal.|
+|`3`|Changes the lights to blue, and flashes brightly before fading to black.|
+|`4`|Unused.|
+|`5`|Changes the lights to red, and turns the lights on.|
+|`6`|Changes the lights to red, and flashes brightly before returning to normal.|
+|`7`|Changes the lights to red, and flashes brightly before fading to black.|
+
+#### Controlling Rings
+When the event is used to control ring spin, or ring zoom, the `_value` of the event does nothing.
+
+#### Official BPM Changes
+When the event is used to control the BPM, the `_value` represents the new BPM.
+
+The new BPM does not shift internal `_time` values for future objects. Instead, it essentially recalculates internal game values (Such as Half Jump Duration and Jump Distance) to match the effect of playing the map at the new BPM.
+
+One caveat to this is that the `_value` must *always* be an integer, and does not support floating point numbers (No decimals).
+
+:::warning Hold Up!
+As of Beat Saber `1.10.0`, Official BPM Changes are broken, and produce unwanted effects when used in a level.
+
+If you absolutely want to work around this, you must create a new BPM Change event so that:
+1. This new event *must* have the same exact `_time` as the BPM Change event you want to trigger correctly.
+2. This new event *must* have the same `_value` as the previous BPM Change, or the `_beatsPerMinute` defined in `Info.dat`.
+3. This new event *must* occur before the BPM Change you want to trigger correctly, *even if they share the same `_time` values.*
+:::
+
+#### Controlling Laser Rotation Speed
+When the event is used to control laser speed for a group of lights, the `_value` is used as a multiplier to their base rotational velocity.
+
+If `_value` is `0`, the random rotation offset for each laser will also be reset, causing all rotating lasers to line up perfectly.
+
+#### Controlling 360/90 Rotation
+When the event is used to control rotation in a 360/90 degree level, the `_value` is used to add rotation equal to the following table:
+
+|`_value`|Result|
+|:-------------------:|-------------------|
+|`0`|60 Degrees Counterclockwise|
+|`1`|45 Degrees Counterclockwise|
+|`2`|30 Degrees Counterclockwise|
+|`3`|15 Degrees Counterclockwise|
+|`4`|15 Degrees Clockwise|
+|`5`|30 Degrees Clockwise|
+|`6`|45 Degrees Clockwise|
+|`7`|60 Degrees Clockwise|
 
 ### _customData
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
