@@ -6,14 +6,23 @@ description: Take a deep dive into the format for a Beat Saber map.
 ---
 # Map Format
 
-Sometimes, available tools and map editors do not provide some functionality that you need, and you need to take matters into your own hands. Other times, you'd like to create your own just for various other reasons. One problem, though. What exactly goes into a map file? This is important to understand when developing new tools and editors.
+There's some cases where, available tools and map editors do not provide some functionality that you want. You might also feel inspired to create a tool or map editor for the fun of it.
+
+One problem, though. What *exactly* goes into a map file? This is important to understand when developing new tools, scripts, and editors.
 
 This page will help you understand the internal workings of a full Beat Saber map, and provide information about what each property and value represents.
 
-## !Notice! This is a Stub Page
-:::warning
-This is a stub page, content is a work in progress! Ask in `#mapping-discussion` if you want more info!
-:::
+## Schemas
+A *schema* is essentially the set of rules to a specific kind of file. They have a list of rules that you *may* break, and rules that you *cannot* break.
+
+Beat Saber contains its own schema; it defines what the format for a Beat Saber level should be, and is what we are going to break down. 
+
+### BeatSaver Schema
+However, members of the community have gone together and made their own schema, which re-enforces rules set by Beat Saber's own schema, but also standardizes and sets *new* rules to follow.
+
+This community-made schema is used by BeatSaver, which [you can find here](https://github.com/lolPants/beatmap-schemas). When uploading your map to BeatSaver, it checks against these schema files to determine whether or not it is appropriate for upload. A major changes in this schema is the inclusion of `_customData` objects scattered throughout map files, which is covered in this breakdown.
+
+You can read through the BeatSaver Schema to get a deeper understanding of what goes into a Beat Saber map, as well as ensure that your own program outputs proper maps that are ready to be uploaded to BeatSaver.
 
 # Info.dat
 `Info.dat` is the main file for a Beat Saber map. It describes basic metadata about your map, as well as point to other files to use for difficulties, cover art, and audio.
@@ -62,39 +71,33 @@ This field describes any additional titles that could go into your song. These c
 - Additional artists (Such as featured artists)
 - Any variation in production (Song remix, VIP, etc.)
 
-This can be safely left blank.
-
 ### _songAuthorName
-This field describes the main artist, group, band, brand, etc. for the song. This can be safely left blank, but is unrecommened.
+This field describes the main artist, group, band, brand, etc. for the song.
 
 ### _levelAuthorName
-This field describes the person who created the map. That's you! Or, whoever makes a map using your tool or level editor. This can be safely left blank, but is unrecommended.
+This field describes the person who created the map. That's you! Or, whoever makes a map using your tool or level editor.
 
 ### _beatsPerMinute
 This describes the Beats Per Minute (BPM) of your song.
 
 ### _shuffle
-:::warning Inconsistent Information
-Information about this field can be incorrect. If corrections need to be made, please use the [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform) or create an issue on the [BSMG Wiki repository](https://github.com/bsmg/wiki).
-:::
-
-This and `_shufflePeriod` are uncommon in the community. If your song has "swing" in it, where some beats in a measure are offset from the rest, you can correct potential timing issues in your map by utilizing `_shuffle` and `_shufflePeriod`.
+This and `_shufflePeriod` are uncommon in the community. If your song has "swing" in it, where some beats in a measure are intentionally offset from the rest, you can correct potential timing issues in your map by utilizing `_shuffle` and `_shufflePeriod`.
 
 `_shuffle` indicates how far objects will move when they are determined to be on a swing beat. A positive value means they will be shifted forward in time, and a negative value means they will be shifted back in time.
 
-The total amount they will be offset by will be described when covering `_shufflePeriod`, since they both work together to produce that value.
+The total amount they will be offset by is described in `_shufflePeriod`, since they both work together to produce that value.
 
 ### _shufflePeriod
 `_shufflePeriod` is used to determine *when* a swing beat will occur. More specifically, it is the time (in beats) where a swing beat will occur.
 
 But unfortunately, it's more complicated than this. Beat Saber alternates between a swing beat and a non swing beat using this value. For example, let's assume you have a `_shufflePeriod` of `0.25`. This tells Beat Saber that, every `0.25` beats, it will alternate between a swing beat and a non swing beat, and will apply an offset if it lands on a swing beat.
 
-The offset value that will be applied to objects is approximately equal to `_shuffle * _shufflePeriod` beats.
+The offset value that will be applied to objects on a swing beat is approximately equal to `_shuffle * _shufflePeriod` beats.
 
-To hopefully help better understand this, here is a table of beats, whether or not they are on a swing beat, and the *actual* beat objects at those times will spawn in at. For this example, we will set `_shuffle` to `0.2`, and `_shufflePeriod` to `0.25`.
+To hopefully help better understand this, here is a table of beats, whether or not they are on a swing beat, and the *actual* beat objects at those times will spawn in at. For this example, we will assume that `_shuffle` is `0.2`, and `_shufflePeriod` is `0.25`.
 
-|    Beats from Map     |  Is Swing Beat? |    Actual Beat     |
-|-----------------------|:---------------:|------------------|
+|    Beat from Map File    |  Is Swing Beat? |    Resulting Beat     |
+|--------------------------|:---------------:|-----------------------|
 |0|No|0|
 |0.25|Yes|0.3|
 |0.5|No|0.5|
@@ -156,7 +159,7 @@ Difficulty Beatmap Sets are groups of difficulties, all under one characteristic
 ### _beatmapCharacteristicName
 This is the name of the characteristic attached to this beatmap set.
 
-Here is a list of commonly used characteristics. While they have no "rules" attached to them in Beat Saber, they still have an intended purpose, and should be followed by both the map editor and the mapper creating maps.
+Listed below is all commonly used characteristics. While they have little to no "rules" attached to them in Beat Saber, they still have an intended purpose, and should be followed by both the map editor and the mapper creating maps.
 
 Certain characteristics, which are marked in the list below, do not belong to the base game; rather, they are added by external mods such as SongCore. These modded characteristics will only work if the user has installed mods that add them, and will *not* appear on unmodded copies of Beat Saber.
 
@@ -406,7 +409,7 @@ An integer number which represents what exact kind of event this object represen
 |`7`|Unused.|
 |`8`|Creates one ring spin in the environment. Is not affected by `_value`.|
 |`9`|Controls zoom for applicable rings. Is not affected by `_value`.|
-|`10`|(Previoulsy unused) Official BPM Changes.|
+|`10`|(Previously unused) Official BPM Changes.|
 |`11`|Unused.|
 |`12`|Controls rotation speed for applicable lights in `Left Rotating Lasers`.|
 |`13`|Controls rotation speed for applicable lights in `Right Rotating Lasers`.|
@@ -414,7 +417,7 @@ An integer number which represents what exact kind of event this object represen
 |`15`|(Previously unused) 360/90 Late rotation. Rotates future objects, but ignores rotating objects at the same time.|
 
 :::warning Hold Up!
-Just because an event type is listed as unused, does *not* mean you are freely available to use it
+Just because an event type is listed as unused, does *not* mean you are freely available to use it!
 
 Beat Games is known to repurpose previously unused event types for certain features, such as the introduction of 360/90 levels. This has broken some Beat Saber maps that make use of legacy MediocreMapper BPM Changes, as well as maps that used Custom Platforms that took advantage of the unused event types.
 :::
@@ -478,3 +481,7 @@ When the event is used to control rotation in a 360/90 degree level, the `_value
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
 
 The exact specifics of what goes in `_customData` is entirely dependent on community-created content that needs them. As such, we cannot list all `_customData` fields here. You will have to do your own searching throughout the Beat Saber community to find map editors, tools, or mods that use this `_customData` object.
+
+# Credits
+
+The content on this page was authored by [Caeden117](/mapping/mapping-credits.md#caeden117).
