@@ -87,14 +87,14 @@ The total amount they will be offset by will be described when covering `_shuffl
 ### _shufflePeriod
 `_shufflePeriod` is used to determine *when* a swing beat will occur. More specifically, it is the time (in beats) where a swing beat will occur.
 
-But it's unfortunately more complicated than this. Beat Saber alternates between a swing beat and a non swing beat using this value. For example, let's assume you have a `_shufflePeriod` of `0.25`. This tells Beat Saber that, every `0.25` beats, it will alternate between a swing beat and a non swing beat, and will apply an offset when if lands on a swing beat.
+But unfortunately, it's more complicated than this. Beat Saber alternates between a swing beat and a non swing beat using this value. For example, let's assume you have a `_shufflePeriod` of `0.25`. This tells Beat Saber that, every `0.25` beats, it will alternate between a swing beat and a non swing beat, and will apply an offset if it lands on a swing beat.
 
 The offset value that will be applied to objects is approximately equal to `_shuffle * _shufflePeriod` beats.
 
 To hopefully help better understand this, here is a table of beats, whether or not they are on a swing beat, and the *actual* beat objects at those times will spawn in at. For this example, we will set `_shuffle` to `0.2`, and `_shufflePeriod` to `0.25`.
 
 |    Beats from Map     |  Is Swing Beat? |    Actual Beat     |
-|-----------------------|:---------------:|:------------------:|
+|-----------------------|:---------------:|------------------|
 |0|No|0|
 |0.25|Yes|0.3|
 |0.5|No|0.5|
@@ -114,7 +114,7 @@ This controls the duration (in seconds) of the in-game preview of your map.
 This is the local location to your map's audio file. The standard practice is to have every map file in the same directory, so in most cases, this is just the name and extension for your audio file (For example, `song.ogg`).
 
 ### _coverImageFilename
-This is the local location to your map's cover image. Both `.jpg` and `.png` are supported image types. Similar to the song, this is most often just the name and extension for the cover image (For example, `cover.jpg`).
+This is the local location to your map's cover image. Both `.jpg` and `.png` are supported image types. Similar to the song filename, this is most often just the name and extension for the cover image (For example, `cover.jpg`).
 
 ### _environmentName
 This defines the environment that the map uses. To get a complete list of valid environments, see the `Info.dat Name`s of each environment in the [Environment Previews section](./basic-lighting.html#environment-previews).
@@ -125,7 +125,7 @@ This defines the environment that the map uses when playing in the `360Degree` o
 ### _songTimeOffset
 This is Beat Saber's method for tackling off-sync audio. This offsets the audio in game, based off the value of `_songTimeOffset` in milliseconds.
 
-There is an unfortunate caveat to this: hit sounds are also affected by the same offset. We recommend the mapper sync up thier audio file *before* mapping, as described in the [Basic Audio Setup guide](./basic-audio.html), to circumvent any need for `_songTimeOffset` and related alternatives.
+There is an unfortunate caveat to this: hit sounds are also affected by the same offset. We recommend the mapper sync up their audio file *before* mapping, as described in the [Basic Audio Setup guide](./basic-audio.html), to circumvent any need for `_songTimeOffset` and related alternatives.
 
 ### _customData
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
