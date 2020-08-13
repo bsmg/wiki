@@ -333,6 +333,7 @@ If you’re feeling adventurous, rotation events can be manually edited into you
   * Using both -15° and 15° on a section at the same time can be hard to read, especially at speed.
   * If you have the player to turn >30° rotation, give the player time to adjust and prepare for the next note.
   * The more you place rotation events that go outside the player's FOV, the more disorienting it gets; it isn’t a bad mapping practice but it’s something to be aware of.
+* Be sure to keep in mind where the player's cable will be. While full rotations are fine for Quest, rotating a headset with a cable can cause tangles, which can be a hazard. You can avoid this by spinning the player back around after a full rotation. 
 
 #### DONT'S
 * Don’t force rotational movement on fast paced section. Players’ brains can only handle so much at once.
