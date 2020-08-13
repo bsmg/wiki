@@ -20,14 +20,14 @@ Beat Saber contains its own schema; it defines what the format for a Beat Saber 
 ### BeatSaver Schema
 However, members of the community have gone together and made their own schema, which re-enforces rules set by Beat Saber's own schema, but also standardizes and sets *new* rules to follow.
 
-This community-made schema is used by BeatSaver, which [you can find here](https://github.com/lolPants/beatmap-schemas). When uploading your map to BeatSaver, it checks against these schema files to determine whether or not it is appropriate for upload. A major changes in this schema is the inclusion of `_customData` objects scattered throughout map files, which is covered in this breakdown.
+This community-made schema is used by BeatSaver, which [you can find here](https://github.com/lolPants/beatmap-schemas). When uploading your map to BeatSaver, it checks against these schema files to determine whether or not it is appropriate for upload. A major change in this schema is the inclusion of `_customData` objects scattered throughout map files, which is covered in this breakdown.
 
 You can read through the BeatSaver Schema to get a deeper understanding of what goes into a Beat Saber map, as well as ensure that your own program outputs proper maps that are ready to be uploaded to BeatSaver.
 
 # Info.dat
 `Info.dat` is the main file for a Beat Saber map. It describes basic metadata about your map, as well as point to other files to use for difficulties, cover art, and audio.
 
-It is extremely important that you get this correct, otherwise the level will fail to load in Beat Saber.
+It is extremely important that you get this correct, otherwise the map will fail to load in Beat Saber.
 
 ## Base Object
 
@@ -273,13 +273,13 @@ Each Difficulty Beatmap contains a corresponding file which defines the notes, o
 This field describes the version of the map format we are using. Currently, Beat Saber's map format is on version `2.0.0`.
 
 ### _notes
-This is an array of [Note](#notes) objects for the map.
+This is an array of [Note](#notes-2) objects for the map.
 
 ### _obstacles
-This is an array of [Obstacle](#obstacles) objects for the map.
+This is an array of [Obstacle](#obstacles-2) objects for the map.
 
 ### _events
-This is an array of [Event](#events) objects for the map.
+This is an array of [Event](#events-2) objects for the map.
 
 ### _customData
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
