@@ -230,17 +230,32 @@ Click on the game window. Then while you are on the Main Menu or Song Select Men
 ### Testing on a Quest
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have [SideQuest](https://sidequestvr.com) and [BMBF](https://github.com/kihecido/BMBF/releases/latest) installed.
 
-1. Zip up the song as normal, only zipping the files and not the folder itself. [How to Video](https://streamable.com/u20ci)
-2. Optionally, connect your Oculus Quest to the PC via USB and keep SideQuest open (Optionally, you can turn on and access through Wireless mode. [More Info](https://github.com/the-expanse/SideQuest/wiki/Managing-or-Installing-Songs-and-Mods-on-a-PC-or-on-mobile-devices)) This step is unnessecary if you can access your IP through BMBF's Tools tab.
-3. Open BMBF on the Oculus Quest. BMBF must be running for the connection to succeed
-4. Look at the top of SideQuest, which will give you the IP to get into BMBF. You can also access your IP through the Tools tab of BMBF.
-5. Type into any web browser: "192.168.X.XXX:50000" with X being replaced with the IP displayed in SideQuest, or the Tools tab  
+1. Zip up the song as normal, only zipping the files and not the folder itself. [How to Video](https://streamable.com/u20ci)  
+    * If you are using [MMA2](#mediocre-map-assistant-2) there is a `Package To Zip` Button you can use in the song info screen to do this for you.
+2. Establish a connection to your Quest from your PC. This can be done in two ways, [wired](#connect-wired-usb) and [wirelessly](#connect-wirelessly).
+
+#### Connect Wirelessly
+1. Open BMBF on the Oculus Quest. BMBF must be running for the connection to succeed.
+2. Inside BMBF go to the `Tools` tab. There you should see a web address and a version number similar to what is shown below.  
+![ip](./images/ip.png)
+3. Open a modern web browser on your PC and type the address into the search bar. You should be greeted with this screen below.  
+![BMBF Web](./images/bmbfweb.png)
+4. You are now connected! Continue on to the [Upload Test File to Quest](#upload-test-file-to-quest) steps below.
+
+#### Connect Wired USB
+1. Connect your Oculus Quest to the PC via USB and keep SideQuest open 
+2. Open BMBF on the Oculus Quest. BMBF must be running for the connection to succeed
+3. Look at the top of SideQuest, which will give you the IP to get into BMBF. You can also access your IP through the Tools tab of BMBF.
+4. Type into any web browser: "192.168.X.XXX:50000" with X being replaced with the IP displayed in SideQuest, or the Tools tab  
 ![](./images/quest_ip.png)  
 For example, from the picture you would enter `192.168.0.19:50000` into a web browser of choice (Chrome, Firefox, etc.).
-6. Drag and drop the files into BMBF's upload page (indicated by /main/upload at the end of the link)
-7. Once uploaded, click Sync to Beat Saber at the top right corner of the page
+5. You are now connected! Continue on to the [Upload Test File to Quest](#upload-test-file-to-quest) steps below.
+
+#### Upload Test File to Quest
+1. Drag and drop the files into BMBF's upload page (indicated by /main/upload at the end of the link)
+2. Once uploaded, click Sync to Beat Saber at the top right corner of the page
 ![](./images/bmbf_browser.png)
-8. Access your map in-game via the Custom Songs playist in the bottom song pack menu. Use practice mode to play (the small button next to the play button).
+3. Access your map in-game via the Custom Songs playlist in the bottom song pack menu. Use practice mode to play (the small button next to the play button).
 
 :::tip NOTE
 * If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old version being played, rename the zip file before uploading it through BMBF.
