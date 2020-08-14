@@ -13,6 +13,11 @@ You might know them for their spectacular platforms, or for more refined individ
 
 [Twitch](https://www.twitch.tv/therealkleinba)
 
+## Johnny0403
+He likes playing Beat Saber. He also likes helping people fix their problems so they can play Beat Saber.
+
+**Roles:** Support
+
 ## Kolezan
 He'll teach you to fix your plugins and your terribly off-beat first map. We've all been there.
 
