@@ -39,6 +39,7 @@ jobs:
           original: "wiki"
           translations: |-
             fr:wiki/fr
+            ja:wiki/ja 
           filters: "**/*"
           ignores: |-
             wiki/LICENSE
