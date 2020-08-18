@@ -194,38 +194,7 @@ Many of Chroma's features are far easier to implement and edit using ChroMapper'
 
 It can be helpful to know how a lighting event is encoded in the `.dat` files if you want to edit the file directly or make a script to change the file.
 
-Event Types:  
-* 0 - Back Top Lasers  
-* 1 - Ring Lights  
-* 2 - Left Lasers  
-* 3 - Right Lasers  
-* 4 - Center Lights (BBS)  
-* 8 - Ring Rotation  
-* 9 - Inner Ring Zoom  
-* 12 - Left Laser Speed  
-* 13 - Right Laser Speed  
-
-If the event type is one of the lights (0, 1, 2, 3, or 4), then the values of the event determines what lighting event is used:
-* 0 - Off  
-* 1 - Blue On   
-* 2 - Blue Flash  
-* 3 - Blue Fade  
-* 5 - Red On  
-* 6 - Red Flash  
-* 7 - Red Fade  
-(Replace Blue and Red with the environment’s respective colours)
-
-If the event type is a laser speed (12 or 13), then value of the event determines the laser speed.
-
-An example event showing a Red Fade on the Left Lasers on beat 10:
-```
-{
-  "_time" : 10,
-  "_type" : 2,
-  "_value" : 7
-}
-```
-
+The internal format for a lighting event is described in the dedicated [Map Format page](./map-format.md#events-2).
 
 ## Credits
 
