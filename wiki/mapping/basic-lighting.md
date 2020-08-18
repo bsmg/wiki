@@ -127,6 +127,8 @@ Since Beat Saber version 1.4, users can set the Red/Green/Blue (RGB) colors of n
 When choosing color overrides for the notes. It is **HIGHLY** recommended that you keep reddish/warm/aggressive colors on the left and blueish/cold/soft colors on the right to avoid confusing players.
 :::
 
+See [Environment Default Colours](/mapping/lighting-defaults.html) for a list of default colors used in the environments.
+
 [BeatMapper](/mapping/#beatmapper-app) and [ChroMapper](/mapping/#chromapper-coming-soon) natively support color overrides. Check their respective guides for more information.  
 [MMA2](/mapping/#mediocre-map-assistant-2) does not support color overrides and requires manual editing of your map files or use of [BeatMapperTools](https://mappers.beatmappertools.com/) by **Darkuni**.
 
@@ -140,7 +142,6 @@ When choosing color overrides for the notes. It is **HIGHLY** recommended that y
 	* The `"r":` and `"g":` values **must** have commas after them.
 
 See lines 29-60 and 69-100 of this [Pastebin clip](https://pastebin.com/x9zEiHxR) for an example of these code blocks in action in a `.DAT` file.  
-See [Environment Default Colours](/mapping/lighting-defaults.html) for a list of default colors used in the environments.
 
 ::: danger WARNING for MMA2 Users
 If you choose to manualy add color overrides to your map this must be the **LAST** thing you do before releasing.  
