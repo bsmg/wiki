@@ -381,7 +381,7 @@ Notes per Second is a measure of note density - how many notes does the player h
 There are several terms related to how the speed of gameplay feels. These are all interrelated and modified by the song’s tempo:
 * **Note Jump Speed (NJS)** is the rate at which blocks move down the track at the player. The higher the number the faster the blocks.
 * **Spawn Distance** is how far down the track the blocks will spawn in distance (meters).
-* **Half Jump Distance** is how far in advance blocks appear in time (beats).
+* **Half Jump Duration** is how far in advance blocks appear in time (beats).
 * **Spawn Distance Offset**  is a modifier which increases the spawn distance. This can make the NJS feel slower since the blocks will spawn further away and the player has more time to react.
 
 Changing the NJS or Offset values will modify the half jump and spawn distance. Community editors will show you how these values change when making adjustments. Fine-tuned NJS and offset are a matter of personal taste but try to hit a half jump of 2 or 3 beats and a spawn distance of 26-30 meters.
