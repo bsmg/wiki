@@ -6,7 +6,7 @@ For some reason, spends way more time talking about mapping then actually mappin
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855ce3) | [BeastSaber](https://bsaber.com/members/alzaraf/)
 
 ## Bullet
-Contributed environment lighting videos in [Basic Lighting](/mapping/basic-lighting.md) and Chroma sections in [Intermediate Lighting](/mapping/intermediate-lighting.md) and [Advanced Lighting](/mapping/advanced-lighting.md). Has an interesting username...  
+Contributed lot's of stuff to the Mapping section of the wiki. Has an interesting username...  
 [BeatSaver](https://beatsaver.com/uploader/5e84a9933f476a000645dd88) | [BeastSaber](https://bsaber.com/members/xace1337manx/)
 
 ## CyanSnow
@@ -22,7 +22,7 @@ The plushie queen who organized the majority of the mapping resources. The guide
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c8553d2) | [BeastSaber](https://bsaber.com/members/helencarnate/) | [Etsy Shop](https://www.etsy.com/shop/HelenCarnateDesigns)
 
 ## Pyrowarfare
-A BeastSaber curator who wrote the majority of content for [How to Playtest](./how-to-testplay.md), [Mapping Anxiety](./mapping-anxiety.md), and contibuted on various other pages. Be warned: you will be asked to talk about your feelings. 
+A BeastSaber curator who wrote the majority of content for [How to Playtest](./how-to-testplay.md), [Mapping Anxiety](./mapping-anxiety.md), and contibuted on various other pages. Be warned: you will be asked to talk about your feelings.  
 [BeatSaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf) | [BeastSaber](https://bsaber.com/members/pyrowarfare/)
 
 
