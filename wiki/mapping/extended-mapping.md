@@ -234,7 +234,7 @@ Each event has a value for spawn rotation which is always relative to the player
 * **[6]**  45° rotation clockwise (Right)
 * **[7]**  60° rotation clockwise (Right)
 
-The specific format for a rotation event is defined in the [Map Format page](./map-format.html#controlling-36090-rotation).
+The specific format for a rotation event is defined in the [Map Format page](./map-format.md#controlling-360-90-rotation).
 
 ::: tip NOTE  
 The chevron in the 360° [Glass Desert environment](./basic-lighting.html#environment-previews) rotates corresponding to the rotation event time, both 14 and 15. This is important as it guides the player where to face in gameplay.
