@@ -368,6 +368,51 @@ This is used by the FitBeat enrivonment.
  },
 ```
 
+## Linkin Park
+![Image of Linkin Park colors](./images/color-linkinpark.png)  
+This is used by the Linkin Park enrivonment.
+
+**Left Side Block Color (Red)**
+```
+"_colorLeft": {
+  "r": 0.6627451,
+  "g": 0.1643608,
+  "b": 0.1690187,
+},
+```
+**Right Side Block Color (Dark Blue)**
+```
+"_colorRight": {
+  "r": 0.3870196,
+  "g": 0.5168997,
+  "b": 0.5568628 
+},
+```
+**Left Side Light Color (Beige)**
+```
+"_envColorLeft": {
+  "r": 0.7529412,
+  "g": 0.672753,
+  "b": 0.5925647,
+},
+```
+**Right Side Light Color (White)**
+```
+"_envColorRight": {
+  "r": 0.6241197,
+  "g": 0.6890281,
+  "b": 0.709
+},
+```
+**Wall Color (Red)**
+```
+"_obstacleColor": {
+  "r": 0.6627451,
+  "g": 0.1647059,
+  "b": 0.172549
+ },
+```
+
 ## Noir
 ![Image of Noir colors](./images/color-noir.png)  
 This is not used by any environment. 

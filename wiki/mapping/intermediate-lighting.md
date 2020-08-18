@@ -131,8 +131,10 @@ Some common elements that are removed from environments:
 * `Spectrograms`, `Spectrogram` - The audio visualisers
 * `MonstercatLogoL`, `MonstercatLogoR` - The logo of the Monstercat environment
 * `RocketCar`, `RocketCar (1)` - The cars in the Rocket League environment
-* `Logo` - The greenday logo
+* `Logo` - The Green Day and center Linkin Park logo
 * `TimbalandLogo`, `TimbalandLogo (1)`, `TimbalandLogo (2)`, `TimbalandLogo (3)` - The logo of the Timbaland environment
+* `LinkinParkTextLogoL`, `LinkinParkTextLogoR` - The Linkin Park logo on the walls
+* `LinkinParkSoldier` - The soldier art on the floor of the Linkin Park environment
 
 *A full list of props that can be removed from environments is being worked on.*
 
