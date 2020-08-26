@@ -152,6 +152,16 @@ An error checker tool that focuses on finding issues with parity in a map.
 * [BPM Saber](https://github.com/zevdg/bpm-saber#readme), by **Zevdg**  
 **Only works on old format .json files. For new format .dat maps use the Tempo Changer in +1 Rabbit's Mapping Tools.** Change the BPM of an entire map and shift block placements accordingly
 
+### Useful Mods
+Here are some mods that might make your mapping workflow a little easier.
+
+* [FPFC](/mapping/basic-lighting.md#in-game-with-fpfc) (First Person Flying Control) Mod Suite  
+Allows you to control the game with your keyboard and mouse without a headset connected. See the section in [Basic Lighting](/mapping/basic-lighting.md#in-game-with-fpfc) for links to the mods and how to set it up.
+* [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) by **Kyle1413**  
+Plugin for Beat Saber to control playback speed, seek through songs and set up looping sections. Install the latest version from [ModAssistant](https://github.com/Assistant/ModAssistant#readme)!
+* [ReLoader](https://github.com/Kylemc1413/ReLoader) by **Kyle1413**  
+Allows you to hot reload beatmaps in practice mode without needing to return to the menu to refresh. Really convenient for wall mapping.
+
 ## Mapping Practices
 > "You have to know the rules before you can break them."  
       ~ Uninstaller
@@ -169,7 +179,7 @@ Mapping Extensions, Extra Characteristics, and 360&deg;/90&deg; mapping
 To apply for the **Mapper** role on the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) you must have released three solid/playable maps (collaborations are acceptable) and complete the [Mapper Role Submission Form](https://forms.gle/mj66J3UopTykFJjXA). Your application and maps may take a decent amount of time to be reviewed and approved.
 
 ### Modding & Ranking
-Maps that meet specific [Ranking Criteria](https://docs.google.com/document/d/1mtVihRO1LomyptXayoDNDTQYgX_TQPp6ZYDmtwR2jMI/edit) and go through an intensive review process called “modding” have the potential to become ranked, awarding players Performance Points (PP) toward global leaderboards. More information and an in-depth FAQ is available on the [ScoreSaber Discord](https://discord.gg/WpuDMwU)
+Maps that meet specific [Ranking Criteria](https://scoresaber.com/criteria) and go through an intensive review process called “modding” have the potential to become ranked, awarding players Performance Points (PP) toward global leaderboards. More information and an in-depth FAQ is available on the [ScoreSaber Discord](https://discord.gg/WpuDMwU)
 
 * Prior to requesting ranking, mappers should thoroughly review the ranking criteria and [metadata standards](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) and have their map modded by a knowledgeable source. 
 :::tip Want an even more detailed look? 
@@ -275,6 +285,7 @@ Interested in helping out? See [How to Testplay](./how-to-testplay.md) to get st
   * **Length:** The length of the song  
   * **BPM:** The BPM of the song  
   * **Difficulty:** Which difficulties are included and the notes per second of each difficulty  
+  * **NPS:** The notes per second of each difficulty available  
   * **Feedback:** Any requests for feedback (specific difficulties to be tested, things to look for etc.)  
   * **Status:** What state is the map in? (i.e., First draft complete, no lights; 1:45 mapped; release candidate w/ lighting; etc.)
 3. Testers will usually look at your map within 1-7 days and will use a number of reaction emojis (listed in `#testplays` pinned posts) to track testing status.
@@ -291,6 +302,7 @@ You can copy and paste the following template into Discord:
 **Length:**
 **BPM:**
 **Difficulty:**
+**NPS:**
 **Feedback:**
 **Status:**
 ```
