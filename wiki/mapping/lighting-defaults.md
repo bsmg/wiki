@@ -372,6 +372,8 @@ This is used by the FitBeat enrivonment.
 ![Image of Linkin Park colors](./images/color-linkinpark.png)  
 This is used by the Linkin Park enrivonment.
 
+Introduced in this environment are the boost colors. All other environments fallback to their respective environment colors for boost colors.
+
 **Left Side Block Color (Red)**
 ```
 "_colorLeft": {
@@ -380,7 +382,7 @@ This is used by the Linkin Park enrivonment.
   "b": 0.1690187,
 },
 ```
-**Right Side Block Color (Dark Blue)**
+**Right Side Block Color (Blue-Grey)**
 ```
 "_colorRight": {
   "r": 0.3870196,
@@ -412,6 +414,22 @@ This is used by the Linkin Park enrivonment.
   "b": 0.172549
  },
 ```
+**Left Side Boost Light Color (Orange)**
+```
+"_envColorLeftBoost": {
+  "r": 0.922,
+  "g": 0.5957885,
+  "b": 0.255394
+ },
+```
+**Right Side Boost Light Color (Blue)**
+```
+"_envColorRightBoost": {
+  "r": 0.282353,
+  "g": 0.4586275,
+  "b": 0.6235294
+ },
+```
 
 ## Noir
 ![Image of Noir colors](./images/color-noir.png)  
@@ -425,7 +443,7 @@ This is not used by any environment.
   "b": 0.1792453,
 },
 ```
-**Right Side Block Color (Grey)**
+**Right Side Block Color (Light Grey)**
 ```
 "_colorRight": {
   "r": 0.5943396,
@@ -441,7 +459,7 @@ This is not used by any environment.
   "b": 0.4056604,
 },
 ```
-**Right Side Light Color (Grey)**
+**Right Side Light Color (Light Grey)**
 ```
 "_envColorRight": {
   "r": 0.6037736,
