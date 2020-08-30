@@ -1,11 +1,5 @@
 ---
-translation-done: false
+translation-done: true
 ---
-::: danger
-Sorry, this page has not been translated yet, you can either:
-- refer to the [original English version](<../beginners-guide.md>),
-- wait for a translation to be done,
-- or contribute to translation effort [here](https://github.com/bsmg/wiki).
-:::
-
-_Note for translators: this page was generated automatically, please remove this content before starting translation_
+# 初心者ガイド
+Beat SaberはPCとOculus Questの両方で利用できます。 両方のプラットフォームでモッディングシーンが異なるため、初心者向けガイドは[PC Modding](./pc-modding.md)と[Quest Modding](./quest-modding.md)に分かれています。
