@@ -6,7 +6,7 @@ For some reason, spends way more time talking about mapping then actually mappin
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855ce3) | [BeastSaber](https://bsaber.com/members/alzaraf/)
 
 ## Bullet
-Contributed lot's of stuff to the Mapping section of the wiki. Has an interesting username...  
+Contributed lots of stuff to the Mapping section of the wiki. Has an interesting username...  
 [BeatSaver](https://beatsaver.com/uploader/5e84a9933f476a000645dd88) | [BeastSaber](https://bsaber.com/members/xace1337manx/)
 
 ## CyanSnow

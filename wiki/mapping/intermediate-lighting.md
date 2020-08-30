@@ -128,7 +128,7 @@ Example removing the Monstercat logo from the environment:
 ```
 
 Some common elements that are removed from environments:
-* `Spectrograms`, `Spectrogram` - The audio visualisers
+* `Spectrograms` - The audio visualisers
 * `MonstercatLogoL`, `MonstercatLogoR` - The logo of the Monstercat environment
 * `RocketCar`, `RocketCar (1)` - The cars in the Rocket League environment
 * `Logo` - The Green Day and center Linkin Park logo

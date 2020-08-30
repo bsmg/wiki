@@ -410,7 +410,7 @@ An integer number which represents what exact kind of event this object represen
 |`2`|Controls lights in the `Left Rotating Lasers` group.|
 |`3`|Controls lights in the `Right Rotating Lasers` group.|
 |`4`|Controls lights in the `Center Lights` group.|
-|`5`|Unused.|
+|`5`|(Previously unused) Controls boost light colors (secondary colors).|
 |`6`|Unused.|
 |`7`|Unused.|
 |`8`|Creates one ring spin in the environment. Is not affected by [`_value`](#value).|
@@ -444,6 +444,12 @@ It's default behavior is controlling brightness and color of lights, and follows
 |`5`|Changes the lights to red, and turns the lights on.|
 |`6`|Changes the lights to red, and flashes brightly before returning to normal.|
 |`7`|Changes the lights to red, and flashes brightly before fading to black.|
+
+#### Controlling Boost Colors
+|`_value`|Result|
+|:-------------------:|-------------------|
+|`0`|Turns the event off - switches to first (default) pair of colors.|
+|`1`|Turns the event on - switches to second pair of colors.|
 
 #### Controlling Rings
 When the event is used to control ring spin, or ring zoom, the `_value` of the event does nothing.
