@@ -8,11 +8,11 @@ WORKDIR /usr/app
 COPY package.json yarn.lock ./
 
 # Install app dependencies
-RUN apk add --no-cache tini bash git openssh
+RUN apk add --no-cache bash git openssh
 RUN yarn install --frozen-lockfile
 
 # Build source
-COPY . .
+COPY ./wiki ./wiki
 RUN yarn run build:prod
 
 # Static Web Server

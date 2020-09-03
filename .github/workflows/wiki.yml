@@ -5,36 +5,63 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Build Docker Image
-      env:
-        DOCKER_BUILDKIT: '1'
-      run: |
-        DOCKER_REPO=`echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]'`;
-        DOCKER_TAG=`git rev-parse --short HEAD`;
-        docker build . --file Dockerfile --build-arg VCS_REF="$DOCKER_TAG" --tag "docker.pkg.github.com/$DOCKER_REPO/wiki:$DOCKER_TAG"
-    - name: Login to Docker Registry
-      run: echo ${{ secrets.GITHUB_TOKEN }} | docker login docker.pkg.github.com --username bsmg --password-stdin
-    - name: Push to Docker Registry
-      run: |
-        DOCKER_REPO=`echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]'`;
-        docker push "docker.pkg.github.com/$DOCKER_REPO/wiki"
-      if: github.ref == 'refs/heads/master'
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Prepare
+        id: prepare
+        run: |
+          IMAGE_NAME=wiki
+
+          DOCKER_USER=`echo ${{ github.repository }} | cut -d "/" -f 1 | tr '[:upper:]' '[:lower:]'`
+          DOCKER_REPO=`echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]'`
+          DOCKER_IMAGE=docker.pkg.github.com/$DOCKER_REPO/$IMAGE_NAME
+
+          VERSION=`git rev-parse --short HEAD`
+          if [[ $GITHUB_REF == refs/tags/* ]]; then
+            VERSION=${GITHUB_REF#refs/tags/v}
+          fi
+
+          echo ::set-output name=docker_user::${DOCKER_USER}
+          echo ::set-output name=docker_image::${DOCKER_IMAGE}
+          echo ::set-output name=version::${VERSION}
+      - name: Setup Docker Buildx
+        uses: crazy-max/ghaction-docker-buildx@v3
+      - name: Cache Docker Layers
+        uses: actions/cache@v2
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-buildx-
+      - name: Build Docker Image
+        run: |
+          docker buildx build \
+            --cache-from "type=local,src=/tmp/.buildx-cache" \
+            --cache-to "type=local,dest=/tmp/.buildx-cache" \
+            --output "type=docker" \
+            --tag ${{ steps.prepare.outputs.docker_image }}:${{ steps.prepare.outputs.version }} \
+            --file Dockerfile .
+      - name: Login to Docker Registry
+        run: echo ${{ secrets.GITHUB_TOKEN }} | docker login docker.pkg.github.com --username ${{ steps.prepare.outputs.docker_user }} --password-stdin
+      - name: Push to Docker Registry
+        if: github.ref == 'refs/heads/master'
+        run: docker push ${{ steps.prepare.outputs.docker_image }}:${{ steps.prepare.outputs.version }}
   deploy:
     if: github.ref == 'refs/heads/master'
     needs: build
     runs-on: ubuntu-latest
-    steps:
-    - name: Skip Deploy Wiki Step?
-      if: env.ENABLE != '1ENABLED'
-      run: echo ENABLE_CI_DEPLOY Secret not set to 1ENABLED, skipping deployment... 
-
-    - name: Checkout git repository
-      if: env.ENABLE == '1ENABLED'      
-      uses: actions/checkout@v1
-      
-    - name: Deploy Wiki
-      if: env.ENABLE == '1ENABLED'
-      run: "curl -X POST -H 'Authorization: Bearer ${{ secrets.HOOK_TOKEN }}' -d `git rev-parse --short HEAD` '${{ secrets.HOOK_URL }}'"
     env:
       ENABLE: ${{ secrets.ENABLE_CI_DEPLOY }}
+    steps:
+      - name: Skip Deploy Wiki Step?
+        if: env.ENABLE != '1ENABLED'
+        run: echo ENABLE_CI_DEPLOY Secret not set to 1ENABLED, skipping deployment...
+
+      - name: Checkout git repository
+        if: env.ENABLE == '1ENABLED'
+        uses: actions/checkout@v2
+
+      - name: Deploy Wiki
+        if: env.ENABLE == '1ENABLED'
+        run: "curl -X POST -H 'Authorization: Bearer ${{ secrets.HOOK_TOKEN }}' -d `git rev-parse --short HEAD` '${{ secrets.HOOK_URL }}'"

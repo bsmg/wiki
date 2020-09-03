@@ -161,15 +161,15 @@ If that doesn't work make sure you have the mod installed properly try reinstall
 #### 3.9 My desktop view only takes up a small section of the screen
 Your CameraPlus display isn't filling up your canvas. Either drag the corner to fit the screen, or right click the window and click "Fit to Canvas".
 
-### Beatsaver Downloader
-#### 3.10 Beatsaver Downloader More Songs Button
+### BeatSaver Downloader
+#### 3.10 BeatSaver Downloader More Songs Button
 **The More Songs button is located in the Mods button in the main menu**. If the button for More Songs is greyed out then make sure all your songs loaded first, as seen in the bar on the main menu
 If your Mods button isn't there then kindly make sure your plugins and dependencies are working and installed properly, refer to [No Mods In Game](#1-4-no-mods-in-game).
 
 #### 3.11 Nothing Showing Up In The More Songs Menu
 The probable causes for beatsaver downloader not working are:
 1. Make sure all of your songs have loaded in before, or else the More Songs button will be greyed out.
-2. Your anti-virus or firewall blocking access to beatsaver.
+2. Your anti-virus or firewall blocking access to BeatSaver.
 
 ## 4. Miscellaneous Troubleshooting
 ### Understanding Logs

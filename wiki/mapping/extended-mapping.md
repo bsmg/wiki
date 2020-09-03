@@ -2,6 +2,15 @@
 sidebar: auto
 prev: ./intermediate-mapping.md
 next: false
+tags:
+  - Noodle Extensions
+  - Mapping Extensions
+  - Wallmapping
+  - 360 degree beat saber levels
+  - 90 degree beat saber levels
+description: |
+  Now that you know the rules, it’s time to break them. 
+  Learn more about Noodle and Mapping Extensions, 360/90 mapping, and Extended Characteristics!
 ---
 # Extended Mapping
 _Now that you know the rules, it’s time to break them_
@@ -154,12 +163,12 @@ Luckily there are some mods to help you out.
 - [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) - change Song time, playback speed and more from the pause manu
 
 ## Extended Characteristics
-These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `info.dat` file.
+These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `Info.dat` file.
 
 **To Add a New Characteristic**
 1. Create your new difficulty file in your favorite editor.
 2. When finished mapping, rename the difficulty file to include the characteristic name. (example: `EasyLightshow.dat`)
-3. Make the following changes to the `”_beatmapCharacteristicName”` and `”_beatmapFilename”` in your `info.dat` file:
+3. Make the following changes to the `”_beatmapCharacteristicName”` and `”_beatmapFilename”` in your `Info.dat` file:
 
 ```
 "_difficultyBeatmapSets": [{
@@ -170,7 +179,7 @@ These characteristics (with the exception of 360°/90° mode) take you beyond of
 		"_beatmapFilename": "EasyLightshow.dat",
 ```
 
-This [pastebin](https://pastebin.com/vbgFPqn9) link provides an example of a `info.dat` file using two characteristics (Lawless and Standard)
+This [pastebin](https://pastebin.com/vbgFPqn9) link provides an example of a `Info.dat` file using two characteristics (Lawless and Standard)
 
 ### 360°/90°
 ::: warning
@@ -185,7 +194,9 @@ It is recommended that you understand [basic](./basic-mapping.md) and [intermedi
 
 ### Lawless
 ::: warning  
-This characteristic requires the SongCore mod to function. Players without the mod, including all Quest players, are unable to play these levels.
+This characteristic requires the SongCore mod to function. 
+* For PC Players without the mod, the whole map will load indefinitely and will be unable to play any other difficulty in the map.
+* For Quest players, this characteristic will be removed at import. Vanilla characteristics will still be playable.
 :::
 
 The lawless characteristic is exactly what it sounds like… no rules, just right. Want to get crazy experimental and try some things that might be downvote magnets? Pop them into the Lawless characteristic to separate it from standard levels.
@@ -194,7 +205,9 @@ The lawless characteristic is exactly what it sounds like… no rules, just righ
 
 ### Lightshow
 ::: warning  
-This characteristic requires the SongCore mod to function. Players without the mod, including all Quest players, are unable to play these levels.
+This characteristic requires the SongCore mod to function. 
+* For PC Players without the mod, the whole map will load indefinitely and will be unable to play any other difficulty in the map.
+* For Quest players, this characteristic will be removed at import. Vanilla characteristics will still be playable.
 :::
 The Lightshow characteristic is used for maps with no notes which allow players to enjoy a lightshow experience. Bombs and walls are optional as long as they are not in the way of the players.
 
@@ -220,6 +233,8 @@ Each event has a value for spawn rotation which is always relative to the player
 * **[5]**  30° rotation clockwise (Right)
 * **[6]**  45° rotation clockwise (Right)
 * **[7]**  60° rotation clockwise (Right)
+
+The specific format for a rotation event is defined in the [Map Format page](./map-format.md#controlling-360-90-rotation).
 
 ::: tip NOTE  
 The chevron in the 360° [Glass Desert environment](./basic-lighting.html#environment-previews) rotates corresponding to the rotation event time, both 14 and 15. This is important as it guides the player where to face in gameplay.
@@ -320,6 +335,7 @@ If you’re feeling adventurous, rotation events can be manually edited into you
   * Using both -15° and 15° on a section at the same time can be hard to read, especially at speed.
   * If you have the player to turn >30° rotation, give the player time to adjust and prepare for the next note.
   * The more you place rotation events that go outside the player's FOV, the more disorienting it gets; it isn’t a bad mapping practice but it’s something to be aware of.
+* Be sure to keep in mind where the player's cable will be. While full rotations are fine for Quest, rotating a headset with a cable can cause tangles, which can be a hazard. You can avoid this by spinning the player back around after a full rotation. 
 
 #### DONT'S
 * Don’t force rotational movement on fast paced section. Players’ brains can only handle so much at once.

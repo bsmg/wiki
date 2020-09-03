@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-mapping.md
 next: ./extended-mapping.md
+description: A more in-depth look at many mapping topics to take your maps to the next level!
 ---
 # Intermediate Mapping
 _A more in-depth look at many mapping topics_
@@ -76,6 +77,10 @@ Offset is used to adjust a song’s spawn distance while keeping the NJS the sam
 In [Basic Mapping](../mapping/basic-mapping.md#do-mapping-with-flow) we covered the bare essentials of parity. Now we’ll dig deeper and explore why some hits just feel bad.  
 
 Flow is arguably the most important concept in mapping - how each arm travels to move from one hit to the next. This can be as simple as alternating between “forehand” and “backhand” notes, or as complicated as thinking about how one arm interacts with the other at the edges of the playspace. Since the player must see blocks in order to react to them, flow highly depends on speed and difficulty. Slower songs are far more forgiving and flexible with regards to flow, while a fast song is highly limited.
+
+:::tip TIP 
+Still learning, and not seeing some of the errors testplayers point out? Check out [GalaxyMaster's parity checker](https://galaxymaster2.github.io/bs-parity/) to spot any parity breaks! 
+:::
 
 ### Block Directions & Positions
 Each swing a player makes leaves their arm in a new position. At hard difficulty and higher, the player will leave their arms in this new position while waiting for the next motion. The block that follows must consider the position of the arm.
@@ -197,13 +202,58 @@ While mapping, it is recommended to slow down playback speed of the song to time
 
 
 ## Variable BPM Songs
-::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
-:::  
+If, while mapping, you notice that your song was properly aligned but suddenly changes or starts to fall off beat, then it's likely a BPM issue. 
+
+If the alignment suddenly and dramatically shifts for large parts of the song, but it seems consistent, it is likely your map has multiple BPMs. Depending on how often it occurs, this is relatively easy to fix. You can simply cut the map up into pieces where the grid becomes unaligned, and then run each one through [Arrow Vortex](/mapping/basic-audio.md#finding-the-bpm) to find the correct BPM for each part. You can then use BPM blocks to readjust the grid to align to the beat.
+
+However, if the grid is less consistent and drifts around being aligned with no dramatic changes, then it is likely your song has a drifting BPM. This is common in older songs. This can be more of a hassle to deal with, but it is possible to address. Please see the [variable BPM guide](/mapping/advanced-audio.html#variable-bpm) for more information.
+
 ## Downmapping
-::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
+"Downmapping" is the process of taking your initial difficulty, and then breaking it down to be appropriate for other skill levels. As most mappers start with expert+ or expert, the process is usually referred to as "downmapping", since you work your way down through the difficulties. However, some people can and do work in the reverse, or even just map difficulties sporadically as they see fit. That said, starting from the top and working down gives you the benefit of saving time on timings, as expert+ is typically mapped to all of the most prominent rhythms. 
+
+While it takes a bit more time to downmap, as opposed to releasing just a single difficulty, the results can be very dramatic. Having multiple difficulties, and especially full spreads, helps to keep your maps accessible to a wide audience, as well as making your maps look more professional. A solid difficulty curve keeps players coming back to your maps over and over again as they improve, and allows you to build a reputation among all levels of players that will stick with them for all your future maps. While not every mapper is concerned with big download numbers or cultivating a larger playerbase, downmapping is still something to consider at any point in a mapper’s journey. 
+
+The key to downmapping lies in having a solid understanding of what is fun, and playable, for players of various skill levels. However, another important aspect to consider is how well you’ve represented the music within your mapping. It’s easy enough to throw together a map that a hard player can pass, but the magic of your initial difficulty can be lost if you do not properly translate it to the lower difficulties. You should know what the ‘key’ moments in your song are, and make sure you are highlighting them across all the difficulties. This sometimes requires coming up with multiple - but similar - patterns that fit a wide skill range, but it’s very important to keep life in your map.
+
+You can check out the [Basic Mapping](/mapping/basic-mapping.html#pattern-complexity) guide for some basic structural guidelines on what is and isn’t appropriate for various difficulties. Keep in mind that NPS is NOT a great indicator of difficulty, and pattern complexity is far more important. While your difficulties should gradually drop in NPS as you go down, sometimes slower songs will have more changes in patterns than anything else, and that’s okay. 
+
+::: tip Tip
+Beat Saber’s five set difficulties can create issues for some spreads. It’s perfectly acceptable to have a spread that is considered to be very difficult, but you should consider pushing your labels up if this is the case. A hard player that is expecting to play a hard difficulty, but actually finds a low expert+, is not going to have a fun time. 
+:::
+
+### Easy
+
+Easy is, essentially, the "Grandma Difficulty". Players that can only pass easy maps likely have zero experience with video games, and especially not VR. It is very, very easy to take for granted how much innate knowledge you might have from growing up in a digital age. VR is extremely overwhelming for someone that has never experienced anything even remotely similar to it. Your map might be the first VR experience the player ever has! 
+
+Keeping that in mind, it’s important to keep your easy difficulty as simple as you can. Easy players are soaking in the experience and are learning the most basic of fundamentals, including which arm is which, and even how to orient themselves within a virtual world. They prefer to play the game as a very slow drumming simulator. Outward horizontal swings are a nice way to keep things interesting, as are the occasional dot notes, which they will likely stab. 
+
+### Normal
+
+Most players will start playing Beat Saber on the normal difficulty. You can expect the normal player to be less distracted and have a larger grasp of Beat Saber’s core premise as a game. They are more likely to understand obstacles and actually read notes, as opposed to just swinging at them. 
+
+That said, they still need a good amount of time to properly react and recover, especially from big moments in a map. They will reset at any given opportunity and predominantly enjoy the "drumming" style of play. Big, flashy movements with a lot of time before and after are a great way to win a normal player’s heart. 
+
+### Hard
+
+Hard is where Beat Saber as a game really begins. Players with any sort of background in VR, or even video games as a whole, will likely start off at this difficulty, or will very quickly graduate to it within a matter of hours. Core mapping principles become very important in hard, although the slower speed (compared to expert and above) can make some patterns less egregious. Flow, in particular, should become standard, and every swing should obey parity, although hard players will still reset given enough time. 
+
+Hard players will have an understanding of the mechanics of the game, including how the scoring system is operated. Players in this range are starting to be introduced to different styles of mapping, and may begin to prefer certain styles or gravitate towards competitive play. It’s important to make sure your hard difficulty has some sort of identity, and properly represents the music. Some hard players will be more drawn towards dance maps and larger movements, while others will start to really enjoy very simple and short streams that rely on speed. Consider your hard difficulty to be the entrypoint for your specific mapping style. It should be an introduction to skills they will need in the later difficulties. 
+
+::: tip Tip
+Hard and Expert are considered some of the hardest difficulties to map for. If you’re struggling, try finding a lower skilled player to play your map! You don’t need in-depth feedback; simply knowing if something is too difficult or unfun can be very important. 
 :::  
+
+### Expert
+
+Your expert difficulty should continue to grow and expand upon the style introduced in hard. An expert player can typically do everything at some level; they can read complicated patterns, can play at 1/4 speeds for longer periods of time, and can generally play the game at a higher level. However, it is a trade off. Complicated crossovers, or dramatic jumps, for example, should not be done at high speeds. Sightreading is still a skill that is being developed for most expert players, and you should make sure you’re giving the player enough time to react. 
+
+For non-dancy expert maps, standard mapping conventions become very, very important. Everything should be comfortable and flow well. Even on dancey maps, you should still very carefully weigh the pros and cons of utilizing anything like a 90 degree hit, for example.  Expert players tend to have higher standards and will expect more of the map. Most emphasis options are on the table for expert, but you may still need to make adjustments from your expert+ patterns to better suit expert players. 
+As a whole, expert players tend to enjoy more horizontal movement and good usage of diagonals with flashy doubles as emphasis. Single saber patterns, especially simple polyrhythms, can be a great way to elevate an expert map in a way they enjoy. Be wary of cutting down fast streams from your Expert+ difficulty to slower jumps for Expert; this can be equally as difficult for Expert players, as a good portion play with a lot of arm movement. Excessive top lane hits at fast speed can also be very challenging.
+
+### Expert+
+
+Expert+ can vary greatly and is quite open-ended. However, if you have a spread that works its way up to Expert, consider if the song can actually support an Expert+ difficulty. It's okay to not include one if the difference between your Expert and Expert+ would be minimal. Be wary of overmapping!
+
 
 ## Swing In a Song and How Shuffle Helps
 ::: tip NOTE
@@ -213,4 +263,4 @@ See this guide by Sykes [What swing is, and how "shuffle" will make your mapping
 ](https://docs.google.com/document/d/1j7w1X-0QtnJDFVKzyyQc_KR7RE9H3C3JFesIXGR0s1c/edit) on how to use the built in shuffle feature to make mapping songs that have swing easier.
 
 ## Credits
-Content in this section was authored by [Checkthepan](/mapping/mapping-credits.html#checkthepan), [CyanSnow](/mapping/mapping-credits.html#cyansnow), [Uninstaller](/mapping/mapping-credits.html#uninstaller), [Skyler Wallace](/mapping/mapping-credits.html#skyler-wallace), [Kolezan](/mapping/mapping-credits.html#kolezan), and [DarkGrisen](/mapping/mapping-credits.html#darkgrisen).
+Content in this section was authored by [Checkthepan](/mapping/mapping-credits.html#checkthepan), [CyanSnow](/mapping/mapping-credits.html#cyansnow), [Uninstaller](/mapping/mapping-credits.html#uninstaller), [Skyler Wallace](/mapping/mapping-credits.html#skyler-wallace), [Kolezan](/mapping/mapping-credits.html#kolezan), [Pyrowarfare](/mapping/mapping-credits.html#pyrowarfare) and [DarkGrisen](/mapping/mapping-credits.html#darkgrisen).

@@ -1,10 +1,21 @@
 ---
 home: true
+title: BSMG Wiki
 heroText: BSMG Wiki
 tagline: Welcome to the Beat Saber Modding Group Wiki!
+description: Welcome to the Beat Saber Modding Group Wiki!
 actionText: Beginners Guide →
 actionLink: ./beginners-guide.md
-footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
+footer: Copyright © 2019-2020 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
+
+tags:
+  - bsmg
+  - beat saber
+  - modding
+  - wiki
+  - support
+  - help
+  - how are beat maps make?
 ---
 
 <div class='features'>

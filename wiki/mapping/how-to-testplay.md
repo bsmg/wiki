@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+description: Learn how to get started testing other mappers maps!
 ---
 
 # How to Testplay
@@ -10,8 +11,8 @@ Have you been interested in helping out but, don’t know where to begin? Fear n
 ## Getting Started
 The only real things you need to get started with testplaying is a willingness to help, and a modded copy of Beat Saber with at least the SongCore mod installed. If you’ve never testplayed before, and feel you want to dip your toes in the water, written feedback instead of video is totally acceptable as you learn the ropes. 
 
-1. Head to the `#testplays` channel and pick out a map(s) that’s within your skill range. As you are getting started, it is recommended to **DO NOT** download any maps that the bot does not respond to. Additionally, it is best to avoid maps that are labelled as a first map until you have an understanding of basic mapping practices, to prevent maps with common rookie errors being overlooked, and then published.  
-2. On the maps you have downloaded, drop an `:eyes:` (:eyes:) reaction on the post to indicate that you have downloaded the map and will be reviewing it. You can do this by hovering over the post.   
+1. Head to the `#testplays` channel and pick out a map(s) that’s within your skill range. As you are getting started, **DO NOT** download any maps that the bot does not respond to. Additionally, it is best to avoid maps that are labelled as a first map until you have an understanding of basic mapping practices, to prevent maps with common rookie errors being overlooked, and then published.  
+2. On the map(s) you have downloaded, drop an `:eyes:` (:eyes:) reaction on the post to indicate that you have downloaded the map and will be reviewing it. You can do this by hovering over the post.   
 ![Eyes Reaction Location](./images/eyes_emote-location.png)
 3. Place the map (as a zip) within your Beat Saber `CustomLevels` folder. 
 4. Load up Beat Saber and navigate to your WIP custom songs cache. If the map was created correctly, it should be there. If the map does not appear, it is likely that the map was not zipped correctly, and contains a folder within a folder. You can choose to unzip the map and place it into your CustomWIPLevels folder yourself and continue the testplay, or @ (ping) the mapper and let them know they need to zip *only* the files, not the folder. [How to Zip Map Files Video](https://streamable.com/u20ci)
@@ -29,7 +30,9 @@ It is important that you play the map in Practice Mode in order to prevent creat
 8. Once you’re done, go back to the post and mark it with `:white_check_mark:` (:white_check_mark:) to indicate you’ve completed the map and given feedback. As well, make sure to mark the map with the letter indicative of the difficulty you tested, if the map has multiple difficulties and you did not test them all. You can find these in the pins of the `#testplays` channel.  
 ![Feedback Reactions](./images/feedback_reactions.png)
 
-:::tip
+:::tip NOTE
+If you are not confident with your feedback and feel the map should get another playtest, you can indicate a completed playtest with `:ballot_box_with_check:` (:ballot_box_with_check:) instead.
+
 If you found the map you downloaded was too difficult for you to provide feedback, you can mark a `:skull_and_crossbones:` (:skull_and_crossbones:) on the post and ping them stating it was out of your skill level.
 :::
 
@@ -39,6 +42,10 @@ If you found the map you downloaded was too difficult for you to provide feedbac
  While no one is going to ask you to write a 500 word essay on triangles, you should know what DDs, handclaps, and face blocks are, to help new mappers. All of the mapping fundamentals you could ever need are covered in this wiki on the [Basic Mapping](./basic-mapping.md) page. Just remember, we were all new once, and no one expects you to know everything!
 
  As for including a video on your playthrough, there are many different ways to go about it. Some people use [Shadowplay](https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay/), some use Windows’ built-in screen recorder, and others use [OBS: Open Brodcaster Software](https://obsproject.com/). All are good options and choosing one depends on your own workflow and in the case of Shadowplay, if you have the appropriate hardware.
+
+:::tip TIP
+Audio not working? Double check Windows Sonic (spatial sound) is on/off. Try turning it on if it's off, and vice versa. 
+:::
 
 ### Using Shadowplay
 ::: tip NOTE
@@ -97,7 +104,7 @@ If you feel more comfortable going into it with a checklist, consider these:
 Yes! In fact, feedback from lower skilled players can be invaluable. Mappers all too often can forget what it was like to be an easy/normal/hard, sometimes even expert, player. You don’t have to know anything about mapping to say, “This was too hard for me”, or, “I really loved it!”. It’s best to avoid maps from new mappers, to prevent common rookie errors from being overlooked, and then published, but your feedback is always appreciated. 
 ___
 **My computer isn’t very good. Can I still testplay?**  
-To some degree, yes, of course. Written feedback is still perfectly acceptable and preferable to none. However, if your PC struggles to record video and play Beat Saber and at the same time, you might find it difficult to do a lot of testplays super frequently, as written feedback with no video requires a lot more pausing during playing, and time and the end of the session to write up your thoughts. You can also consider playing around with your recording software, reducing the quality of the video recording to reduce the load on your computer.
+To some degree, yes, of course. Written feedback is still perfectly acceptable and preferable to none. However, if your PC struggles to record video and play Beat Saber and at the same time, you might find it difficult to do a lot of testplays super frequently, as written feedback with no video requires a lot more pausing during playing, and time at the end of the session to write up your thoughts. You can also consider playing around with your recording software and bring down the quality of the video recording to reduce the load on your computer.
 ___
 **I play on Quest, can I still testplay?**  
 Yes! Written feedback is of course acceptable, but the Quest is capable of recording, as well.
@@ -109,7 +116,7 @@ ___
 Streamable and YouTube are the most common places to have testplays uploaded. Streamable has a video limit of 10 minutes and file size limit of 1GB without a premium account, and will delete videos after a couple months of inactivity. However, YouTube takes a bit more work to upload, and you risk getting copyright striked (although it is very unlikely to harm your channel). Some testplayers will also stream their testplays on Twitch, and then link the vods, although that also risks copyright strikes. 
 ___
 **How long does it take to testplay a map?**  
-This can vary greatly depending on many different factors. A new mapper’s first map with a lot of issues can reach upwards of 15 minutes, while a more solid map can be as long as the map is itself. I would say that, on an average run, you can get 20 maps (just 1 difficulty) done in about 2 and half hours. This is assuming that there is at least one point of discussion per map, and that you are recording videos with real time voice commentary, with no stopping to start/stop recording. Doing written feedback for 20 maps could be anywhere from 3-4 hours, depending on frequently you write notes, and much detailed you go. 
+This can vary greatly depending on many different factors. A new mapper’s first map with a lot of issues can reach upwards of 15 minutes, while a more solid map can be as long as the map is itself. I would say that, on an average run, you can get 20 maps (just 1 difficulty) done in about 2 and half hours. This is assuming that there is at least one point of discussion per map, and that you are recording videos with real time voice commentary, with no stopping to start/stop recording. Doing written feedback for 20 maps could be anywhere from 3-4 hours, depending on how frequently you write notes, and how much detail you go into. 
 
 ## Credits
 Content in this section was authored by [Pyrowarfare](./mapping-credits.md#pyrowarfare)

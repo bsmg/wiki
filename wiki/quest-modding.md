@@ -20,7 +20,7 @@ Click the cog next to it then press the `BACKUP GAME DATA` button, if you have a
 
 You can later restore your save from the same menu, after modding.
 
-Install the latest BMBF apks via the `Install APK from folder` button shown below.
+Install the latest BMBF apk via the `Install APK from folder` button shown below.
 
 ![InstallAPK](./images/beginners-guide/apkfromfolder.png)
 
@@ -70,13 +70,13 @@ If you want to use the same method of downloading songs as you do in BMBF in you
 ### Inside your Quest
 There are 2 sources to getting custom maps inside your Quest using the browser window.
 * If you are looking for curated maps and playlists visit [BeastSaber](https://bsaber.com/)
-* If you don't like the UI of BeastSaber you could also try [Beatsaver](https://beatsaver.com/)
+* If you don't like the UI of BeastSaber you could also try [BeatSaver](https://beatsaver.com/)
 
 Both have a 1click button that easily installs that song onto your Quest. You can switch between these websites using the globe icon in the top right of the browser window.
 
 ### Using your PC
 If you are unable to install songs inside your Quest, you can install maps using your computer similar to installing mods. 
-1. Visit [BeastSaber](https://bsaber.com/) or [Beatsaver](https://beatsaver.com/) on your computer
+1. Visit [BeastSaber](https://bsaber.com/) or [BeatSaver](https://beatsaver.com/) on your computer
 2. Download the zip
 3. Follow the [Installing mods](#installing-mods) steps up to the upload files screen.
 4. Drag and drop the map zip in and it should be installed!
@@ -97,9 +97,9 @@ If you want to test a map you have created see the [Testing on a Quest](/mapping
 
 ## Troubleshooting
 ### Adding mods from the headset/bsaber.com doesn't work
-The reason adding mods and sabers from [Beastsaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods) 
+The reason adding mods and sabers from [BeastSaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods) 
 
-Get Quest compatible Sabers and Mods from `#quest-mods` or `#quest-assets` in the Beat Saber Modding Group Discord, or you can find Quest compatible sabers on [RedBrumbler's Github](https://github.com/RedBrumbler/BMBFCustomSabers), or [QuestSaber Community](https://discord.gg/NXnPYEh). Once you have your mod zip use the [BMBF Web Interface](#installing-mods) to install it.
+Get Quest compatible Sabers and Mods from `#quest-mods` or `#quest-assets` in the Beat Saber Modding Group Discord, or you can find Quest compatible sabers on [RedBrumbler's GitHub](https://github.com/RedBrumbler/BMBFCustomSabers), or [QuestSaber Community](https://discord.gg/NXnPYEh). Once you have your mod zip use the [BMBF Web Interface](#installing-mods) to install it.
 ___
 ### Sideloading BMBF failed
 When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!"`
@@ -113,10 +113,23 @@ Make sure that:
 2) BMBF is open in the headset
 3) There is `http://` at the beginning of the link, not `https://`
 4) You have `:50000` at the end of your link
+5) Your PC and Quest are on the same wifi network
+6) Your IP is still the same as it can change from time to time
+
+If none of these work, restart your Quest and go through the list again.
 ___
 ### BMBF not loading configuration after a few minutes
 This is likely due to using an outdated version of Beat Saber being used with BMBF.
 If you are not using an outdated version then try restarting your headset, and if it continues use the BMBF Web Interface to click Quick Fix. 
+___
+### BMBF is unable to enable asset mods (and some qsabers) on game version 1.10
+Your assets locator file may be missing or not updated. Follow these steps to fix: 
+
+1) Obtain the valid locator file [Here](https://github.com/BMBF/resources/raw/master/assets/locator-assets.json)
+2) Hit ctrl+S (or ⌘+S if you're on Mac) and save the contents of this webpage as `locator-assets.json`
+3) Go into your quest's files using SideQuest and find the folder titled BMBFdata 
+4) Add the locator-assets.json  file you just created into this folder. If it already exists there, override it with your newly created one
+5) Restart your quest
 ___
 ### My Sabers and Mods wont enable/work!
 This is most likely due to having an outdated BMBF Client, grab the latest [BMBF Release](https://bmbf.dev/stable). If the BMBF version for your Beat Saber is not there then please wait a while for the unicorns to update BMBF.  

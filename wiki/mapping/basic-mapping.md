@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-audio.md
 next: ./intermediate-mapping.md
+description: Learn all the info and best practices you need to make a solid first map!
 ---
 # Basic Mapping
 _If you are a new mapper, read this page from top to bottom. Every word. Every picture. This page will give you all the info and best practices you need to make a solid first map!_
@@ -33,7 +34,7 @@ Some editors will automatically create an `Autosaves` folder where you can retri
 When you’re ready to prepare your song for upload you must have a minimum of four files.
 
 ::: warning
-Special characters in languages such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by Beatsaver. Using these characters in song metadata or in bookmarks can cause problems.
+Special characters in languages such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by BeatSaver. Using these characters in song metadata or in bookmarks can cause problems.
 :::
 
 ### Block Types
@@ -183,6 +184,8 @@ Parity is the concept that Each block direction is played with either a backhand
 	![Parity diagram showing the forehand/backhand line for each block color](./images/parity_diagram.jpg)
 </p>
 When mapping with flow you are striving to always cross this parity line with the most natural movement possible. Effectively, your player should always be alternating between forehand and backhand every swing.
+
+A thing important to keep in mind, especially if you are new to the game or mapping, is that the concept of parity is most obvious for wrist players. If you do not play with your palm directly facing the ground, then you might struggle to understand why some parity breaks are uncomfortable. Remember that while it may feel fine to you, players have different grips and styles. Proper parity feels good for everyone, not just some playstyles. 
 
 ::: tip  
 When proper flow is achieved the player should be physically capable of getting full points on each block, even if they don’t have the skill or interest in doing so. See the [Scoring](/grips-and-tricks.html#scoring) section of the wiki for more info.
@@ -378,7 +381,7 @@ Notes per Second is a measure of note density - how many notes does the player h
 There are several terms related to how the speed of gameplay feels. These are all interrelated and modified by the song’s tempo:
 * **Note Jump Speed (NJS)** is the rate at which blocks move down the track at the player. The higher the number the faster the blocks.
 * **Spawn Distance** is how far down the track the blocks will spawn in distance (meters).
-* **Half Jump Distance** is how far in advance blocks appear in time (beats).
+* **Half Jump Duration** is how far in advance blocks appear in time (beats).
 * **Spawn Distance Offset**  is a modifier which increases the spawn distance. This can make the NJS feel slower since the blocks will spawn further away and the player has more time to react.
 
 Changing the NJS or Offset values will modify the half jump and spawn distance. Community editors will show you how these values change when making adjustments. Fine-tuned NJS and offset are a matter of personal taste but try to hit a half jump of 2 or 3 beats and a spawn distance of 26-30 meters.

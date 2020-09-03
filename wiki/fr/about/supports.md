@@ -14,7 +14,7 @@ Il vous donnera sa bio plus tard ce jour, selon lui.
 
 **Rôles :** Support, Modder
 
-[Github](https://github.com/pespiri)
+[GitHub](https://github.com/pespiri)
 
 ## Radevirot
 Ce type est arrivé de nulle part et a commencé à aider dans le support disant que c'était une sorte d'addiction, quel barje.
@@ -45,7 +45,7 @@ J'aime sourire et jouer le jeu des joueurs SmileW :)
 
 **Rôles :** Support, Artiste 3D
 
-[Discord](https://discord.gg/NXnPYEh) | [Youtube](https://www.youtube.com/c/CharaHere)
+[Discord](https://discord.gg/NXnPYEh) | [YouTube](https://www.youtube.com/c/CharaHere)
 
 ## Simme63
 "Coke Head"
@@ -57,7 +57,7 @@ Il n'a pas de vie et il est un peu bête mais il peut vous aider concernant BMBF
 
 **Rôles :** Support
 
-[Youtube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
+[YouTube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
 
 ## Channel Monitor Bot
 Le robot qui maintient tout ensemble.

@@ -2,6 +2,7 @@
 sidebar: auto
 prev: ./basic-audio.md
 next: false
+description: Dive deeper into audio editing.
 ---
 # Advanced Audio Editing
 _Diving deeper into audio editing_

@@ -2,13 +2,15 @@
   "name": "@bsmg/wiki",
   "version": "0.1.0",
   "description": "BSMG Wiki",
-  "repository": "git@github.com:beat-saber-modding-group/wiki.git",
+  "repository": "git@github.com:bsmg/wiki.git",
   "author": "Jack Baron <jackmbaron@gmail.com> (https://www.jackbaron.com)",
   "license": "MIT",
   "private": true,
   "scripts": {
     "lint": "eslint . --ext js,md,vue",
+    "predev": "rimraf .temp",
     "dev": "vuepress dev wiki --temp .temp",
+    "prebuild": "rimraf wiki/.vuepress/dist",
     "build": "vuepress build wiki",
     "build:prod": "cross-env NODE_ENV=production yarn run build"
   },
@@ -26,10 +28,14 @@
     "eslint-plugin-vue": "^5.2.2",
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-mark": "^3.0.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "rimraf": "^3.0.2",
     "vuepress": "^1.5.0",
     "vuepress-plugin-container": "^2.1.4",
     "vuepress-plugin-named-chunks": "^1.1.3",
     "vuepress-plugin-seo": "^0.1.3",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-smooth-scroll": "^0.0.9",
     "vuepress-theme-yuu": "^2.3.0"
   }
 }

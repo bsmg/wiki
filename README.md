@@ -1,12 +1,15 @@
-# 📖 BSMG Wiki &nbsp;[![CI Status](https://github.com/beat-saber-modding-group/wiki/workflows/Wiki%20CI/badge.svg)](https://github.com/beat-saber-modding-group/wiki/actions)
+# 📖 BSMG Wiki &nbsp;[![CI Status](https://github.com/bsmg/wiki/workflows/Wiki%20CI/badge.svg)](https://github.com/bsmg/wiki/actions)
 ## ✏️ Contributing
-If you wish to contribute, [submit a pull request](https://github.com/beat-saber-modding-group/wiki/pulls) with your changes. A wiki maintainer will review your changes and merge them in if deemed appropriate.
+If you wish to contribute, [submit a pull request](https://github.com/bsmg/wiki/pulls) with your changes. A wiki maintainer will review your changes and merge them in if deemed appropriate.  
 
-### A 文 Translating
+Don't know where to start? Checkout this [crash course](https://docs.google.com/document/d/1r6IP6l3uo8rc__GxfLkpaToxheeXotdYaKEj3oWB2js/edit?usp=sharing) on making contributions!
+
+### 🌐 Localization
 Translation efforts are tracked using [GitHub's Project tracker.](https://github.com/bsmg/wiki/projects)
 There you can see the status of each page that needs translating.
+
 Please [contact the BSMG](http://bit.ly/MessageBSMG) if you'd like to help translate BSMG projects.
-Most of the translation discussion takes place outside of this Git repo, and we can help connect you with the communities working on translation efforts.
+Most of the translation discussion takes place outside of this repository, and we can help connect you with the communities working on translation efforts.
 
 ## 🧪 Development
 To run a local copy of the wiki:
@@ -22,7 +25,7 @@ When you make changes to your local wiki files, the local website will update th
 Once you have finished making changes, you can either commit them directly using `git` tools, or copy them into the GitHub web interface if you don't know how to use `git`.
 
 ## 🚀 Deploying
-The wiki is deployed using Docker. Pull the [latest image](https://github.com/beat-saber-modding-group/wiki/packages/54581) and run it. It exposes port 80, which can be remapped to whatever.
+The wiki is deployed using Docker. Pull the [latest image](https://github.com/bsmg/wiki/packages/54581) and run it. It exposes port 80, which can be remapped to whatever.
 
 ## 🔐 Licensing
-The code that generates the wiki is licensed under the [MIT License](https://github.com/beat-saber-modding-group/wiki/blob/master/LICENSE). The wiki content is licensed under the [Creative Commons BY-NC-SA 4.0 License](https://github.com/beat-saber-modding-group/wiki/blob/master/wiki/LICENSE)
+The code that generates the wiki is licensed under the [MIT License](https://github.com/bsmg/wiki/blob/master/LICENSE). The wiki content is licensed under the [Creative Commons BY-NC-SA 4.0 License](https://github.com/bsmg/wiki/blob/master/wiki/LICENSE)

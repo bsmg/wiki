@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 ## I just got the game, how do I get started?
-Check out our [beginner's guide](beginners-guide)!
+Check out our [beginner's guide](/beginners-guide.html)!
 
 ## How do I get more songs?
 > [BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community. Many other tools and sites enhance the experience of downloading custom songs, but this site is the source of truth.
