@@ -85,6 +85,7 @@ module.exports = {
             'custom-avatars',
             'custom-platforms',
             'custom-notes',
+            'custom-walls',
           ]),
         },
       },
