@@ -37,6 +37,5 @@
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-smooth-scroll": "^0.0.9",
     "vuepress-theme-yuu": "^2.3.0"
-  },
-  "dependencies": {}
+  }
 }
