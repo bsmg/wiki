@@ -28,7 +28,7 @@ Le Dr Levi a sauvé de nombreux poignets de joueurs avec ses vidéos, et il a r�
 ## Sécurité
 Gardez votre espace de jeu dégagé, vidé de tout obstacle, assurez-vous qu'il soit suffisamment étendu pendant la session, et attachez vos dragonnes à tout moment.
 
-![Allow Adequate Room Around You](./images/health-and-safety/allow-adequate-room-around-you.png "Allow Adequate Room Around You")
+![Allow Adequate Room Around You](~@images/health-and-safety/allow-adequate-room-around-you.png "Allow Adequate Room Around You")
 
 ::: warning NOTE
 Beat Saber n'est pas disponible sur Nintendo Wii, cette image est uniquement utilisée à but informatif.
@@ -37,4 +37,4 @@ Beat Saber n'est pas disponible sur Nintendo Wii, cette image est uniquement uti
 ## Message rapide de TammyMatty
 Pour réduire le risque de blessure physique, rappelez-vous de toujours vous étirer avant et après chaque session de Beat Saber. Veuillez envisager la présente :
 
-![Wammy](./images/health-and-safety/wammy.gif "Wammy")
+![Wammy](~@images/health-and-safety/wammy.gif "Wammy")

@@ -31,7 +31,7 @@ __**Lancez le jeu au moins une fois**__ avant d'essayer de modder votre jeu ! Ce
 
 Un installateur de mod Beat Saber simple, similaire à l'ancien Mod Manager, mais avec des fonctionnalités additionnelles telles que la suppression de mods et la vérification de version ! Téléchargez-le sur [le GitHub d'Assistant](https://github.com/Assistant/ModAssistant/releases/latest).
 
-![ModAssistant](./images/beginners-guide/modassistant.png)
+![ModAssistant](~@images/beginners-guide/modassistant.png)
 
 ## Comment avoir plus de musiques
 ### Téléchargeur en jeu
@@ -77,14 +77,14 @@ Un installateur de mods est le moyen recommandé pour installer des mods. Lisez 
 ### Installer BSIPA
 1. Télécharger [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
 2. Se rendre dans [le dossier d'installation](#dossier-d-installation) et y extraire le contenu de BSIPA.
-![Répertoire propre](./images/beginners-guide/directory-clean.png "Répertoire propre")
-![Répertoire avec IPA](./images/beginners-guide/directory-ipa.png "Répertoire avec IPA")
+![Répertoire propre](~@images/beginners-guide/directory-clean.png "Répertoire propre")
+![Répertoire avec IPA](~@images/beginners-guide/directory-ipa.png "Répertoire avec IPA")
 3. Double-cliquer sur `IPA.exe` pour patcher le jeu. Chaque mod présent dans le dossier `Plugins` sera désormais chargé au lancement du jeu. En cas d'erreur, s'assurer d'avoir bien suivi l'étape 2.
-![Répertoire patché](./images/beginners-guide/directory-patched.png "Répertoire patché")
+![Répertoire patché](~@images/beginners-guide/directory-patched.png "Répertoire patché")
 
 # Installer les mods
 4. Télécharger les mods souhaités, soit depuis GitHub, soit depuis le canal Discord `#pc-mods`, soit d'autres sources. **S'assurer de télécharger toutes dépendances requises par les mods.**
-![Répertoire Plugins](./images/beginners-guide/directory-plugins.png "Répertoire Plugins")
+![Répertoire Plugins](~@images/beginners-guide/directory-plugins.png "Répertoire Plugins")
 5. Certains mods ont des instructions d'installation précises, certains non. Généralement, il suffit de glisser-déposer le contenu du zip dans le dossier d'installation du jeu, et les fichiers doivent aller dans les dossiers correspondant.
 
 

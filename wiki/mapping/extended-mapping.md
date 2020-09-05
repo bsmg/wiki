@@ -253,7 +253,7 @@ There are multiple ways to map for 360°/90° mode. The following sections cover
 #### Official Level Editor
 The official editor is accessible to all PCVR users to natively map 360°/90° levels with the least amount of touching individual map files.
 
-![Official editor events panel](./images/official_events.png)  
+![Official editor events panel](~@images/mapping/official_events.png)  
 *The official editor events panel.*  
 
 The two far right icons in the **EVENTS** section are the early and late spawn rotation events. There’s also rotation angle indication for each spawn rotation event.
@@ -272,7 +272,7 @@ This is the most preferred and easily accessible method of making 360/90 levels.
 * **Pro:** Retains custom map data.
 * **Con:** Can be confusing at first but gets easier the more you work with it.
 
-![Laser speed events acting as rotation events](./images/laser-rotation-360.png)  
+![Laser speed events acting as rotation events](~@images/mapping/laser-rotation-360.png)  
 *Laser speed events being used as spawn rotation events.*  
 
 - Left Laser Speed Position is Spawn Rotation Event 14
@@ -310,7 +310,7 @@ If you’re feeling adventurous, rotation events can be manually edited into you
 360/90 mapping is still new and these best practices continue to evolve. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::
 
-![lane rotation overlap](./images/360-note-overlap.png)  
+![lane rotation overlap](~@images/mapping/360-note-overlap.png)  
 *Notes overlap, be aware of them. Image for reference (each note row is 1/4 apart at 15° rotation).*
 
 #### DO'S
@@ -322,7 +322,7 @@ If you’re feeling adventurous, rotation events can be manually edited into you
 * Stick to 15° rotational changes and occasionally 30°, given hints and enough time to adjust.
 * Use walls or bombs to telegraph large angle changes if you use them and keep notes to the center 2 lanes  
   * Having notes in the outer lanes is similar to using 6 lanes where the player has to stretch out to hit the notes.
-![Using walls to telegraph rotation](./images/wall-telegraph.png)  
+![Using walls to telegraph rotation](~@images/mapping/wall-telegraph.png)  
 * Side hits in the direction of rotation are one of the best ways to indicate rotational change.
 * Use sliders to indicate (big) rotational change.
   * Instead of a conventional slider pattern, the notes are on at the same lane and same row while having rotational event for each note in the sliders. 
