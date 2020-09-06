@@ -16,7 +16,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **360 Mode** | A new map characteristic that allows the track to rotate in 15 degree increments in a full circle. As of December 2019 these maps can only be made in the official editor. |
 | **4-Wide Wall** | A *wall* that spans all four lanes and three rows of the standard *track*, usually causing the player to fail the level unless it is thin. Never considered okay to use. |
 | **90 Mode** | A new map characteristic that allows the track to rotate in 15 degree increments up to 45 degrees in either direction. As of December 2019 these maps can only be made in the official editor. |
-| **Arrow Block** | A *block* with an arrow on it indicating the direction in which it must be hit. Also known as *Arrow Note*. See also *Block, Note, Dot Block/Note* <details><summary><b>Example Image</b></summary>![Picture of Arrow Blocks](~@images/mapping/arrowblocks.png)</details>|
+| **Arrow Block** | A *block* with an arrow on it indicating the direction in which it must be hit. Also known as *Arrow Note*. See also *Block, Note, Dot Block/Note* <details><summary><b>Example Image</b></summary>![Picture of Arrow Blocks](~@images/mapping/arrowblocks.jpg)</details>|
 | **Arrow Vortex** | The name of a free third party tool that can analyze song *BPM* and calculate *offset*. Download and guide on use is available [here](./basic-audio.md#tool-assisted-bpm-calculation). |
 
 ## B
@@ -28,8 +28,8 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **Block** | A cube with either an arrow or dot on it. The primary element of gameplay. By default, blocks are red or blue. Also known as *Note* <details><summary><b>Example Image</b></summary>![Picture of block](~@images/mapping/arrow-block.png)</details>|
 | **BPM** | Acronym for *Beats per Minute*. |
 | **Bomb** | A *block* that looks like a spiky circle and that damages the player if their saber touches it. It is safe for a bomb to pass through the player’s body. Also known as *Mine* <details><summary><b>Example Image</b></summary>![Picture of bomb](~@images/mapping/bomb.png)</details>|
-| **Bomb Reset** | A pattern of *bombs* placed to forcibly reset the player’s arms. See also *Reset* <details><summary><b>Example Image</b></summary>![Picture of bomb reset](~@images/mapping/bombreset.png)</details>|
-| **Bomb Spiral/Helix** | A pattern of *bombs* placed in a spiral or helical pattern, intended to force the player to move their arms in a large circle. <details><summary><b>Example Image</b></summary>![Picture of bomb spiral](~@images/mapping/bombspiral.png)</details> |
+| **Bomb Reset** | A pattern of *bombs* placed to forcibly reset the player’s arms. See also *Reset* <details><summary><b>Example Image</b></summary>![Picture of bomb reset](~@images/mapping/bombreset.jpg)</details>|
+| **Bomb Spiral/Helix** | A pattern of *bombs* placed in a spiral or helical pattern, intended to force the player to move their arms in a large circle. <details><summary><b>Example Image</b></summary>![Picture of bomb spiral](~@images/mapping/bombspiral.jpg)</details> |
 
 ## C
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
@@ -54,7 +54,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **Dot Block/Note** | A block that can be hit from any direction. Often used as top notes in lower difficulty maps or in sliders. Also known as Dot Notes <details><summary><b>Example Image</b></summary>![Picture of dot note](~@images/mapping/bndot.png)</details>|
 | **Dot Spam** | Overuse of dot blocks, typically due to inexperience. See also Dot Block/Note <details><summary><b>Example Image</b></summary>![Picture of dot spam](~@images/mapping/dotspam.png)</details>|
 | **Double Directionals (DD)** | Two sequential same colored blocks with the same or close orientations. Typically considered for blocks within angles of 45 degrees of each other. The playability of this pattern depends on the amount of time given to players to reset. Discouraged within 1.5 beats (longer in higher BPM songs). Also known as Drumsticking (dated) <details><summary><b>Example Image</b></summary>![Picture of double diretionals](~@images/mapping/double-directionals.jpg)</details>|
-| **Doubles** | Two different colored notes on the same timing, hit simultaneously. Can also refer to towers or stacks of two same color notes in any orientation (vertical, horizontal, diagonal). <details><summary><b>Example Image</b></summary>![Picture of doubles](~@images/mapping/doubles.png)</details>|
+| **Doubles** | Two different colored notes on the same timing, hit simultaneously. Can also refer to towers or stacks of two same color notes in any orientation (vertical, horizontal, diagonal). <details><summary><b>Example Image</b></summary>![Picture of doubles](~@images/mapping/doubles.jpg)</details>|
 | **Drumsticking** | Two sequential same colored blocks with the same or close orientations. Dated term for Double Directionals |
 | **Drifting BPM** | An unintentionally shifting song BPM as a result of live performance without a metronome. Also known as Variable BPM, Multiple BPM |
 
@@ -71,8 +71,8 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 ## F
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
-| **Face Bombs** | Bombs placed in the center two positions of the track. Very easily hit by the hilt of the saber even when the player has arms outstretched. <details><summary><b>Example Image</b></summary>![Picture of face bomb](~@images/mapping/facebomb.png)</details>|
-| **Face Note** | Blocks placed in the center two positions of the track (lanes/columns two and three, middle layer/row). These blocks will be at the player’s head/face level if their height is set correctly and are highly discouraged. Also known as Vision Blocks. <details><summary><b>Example Image</b></summary>![Picture of face note](~@images/mapping/facenote.png)</details>|
+| **Face Bombs** | Bombs placed in the center two positions of the track. Very easily hit by the hilt of the saber even when the player has arms outstretched. <details><summary><b>Example Image</b></summary>![Picture of face bomb](~@images/mapping/facebomb.jpg)</details>|
+| **Face Note** | Blocks placed in the center two positions of the track (lanes/columns two and three, middle layer/row). These blocks will be at the player’s head/face level if their height is set correctly and are highly discouraged. Also known as Vision Blocks. <details><summary><b>Example Image</b></summary>![Picture of face note](~@images/mapping/facenote.jpg)</details>|
 | **Face Puncher** | A pattern that consists of one or two diagonal up blocks crossed over into the extreme opposite lane. Many players will overswing trying to reach and end up punching their HMD.  <details><summary><b>Example Image</b></summary>![Picture of face puncher](~@images/mapping/facepuncher.png)</details>|
 | **Face Wall** | Wall occupying one of the two center lanes. Also known as dodge walls. <details><summary><b>Example Image</b></summary>![Picture of face wall](~@images/mapping/facewall.jpg)</details>|
 | **Fake Wall** | Wall with a negative width value, making it harmless to the player. |
@@ -87,7 +87,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
 | **Gallops** | A rapid pattern of two singles followed by a double. Significantly difficult to play and discouraged at high tempos and high precision. Can also add unintended emphasis. <details><summary><b>Example Image</b></summary>![Picture of gallop](~@images/mapping/gallop.png)</details>|
-| **Groove Wall** | A wall that is paired with a note that creates a motion involving both arms and body. See also Dodge Wall, Crouch Wall <details><summary><b>Example Image</b></summary>![Picture of groove wall](~@images/mapping/groovewall.png)</details>|
+| **Groove Wall** | A wall that is paired with a note that creates a motion involving both arms and body. See also Dodge Wall, Crouch Wall <details><summary><b>Example Image</b></summary>![Picture of groove wall](~@images/mapping/groovewall.jpg)</details>|
 
 ## H
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
@@ -113,8 +113,8 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | - | :- |
 | **.json File** | The text file containing most content for that difficulty or song info in the old 1.0 song format. Contains same format but different structure to .dat files, with a different file extension. File format is used for both song info and for map content. See also Info File, Difficulty File  |
 | **JSON Wall** | A style of mapping requiring Mapping Extensions in which the mapper can be extremely creative with non-standard wall types and sizes. Not recommended for novice mappers. |
-| **Jump** | A pattern that moves across multiple lanes/columns (horizontally) or layers/rows (vertically) in rapid succession. Not recommended below 1/2 precision, especially at high tempo. The faster the jumps are, the more difficult they are to execute. See also Jump Stream <details><summary><b>Example Image</b></summary>![Picture of jump](~@images/mapping/jump.png)</details>|
-| **Jump Stream** | A style of mapping that includes jumps within a stream. <details><summary><b>Example Image</b></summary>![Picture of jump stream](~@images/mapping/jumpstream.png)</details>|
+| **Jump** | A pattern that moves across multiple lanes/columns (horizontally) or layers/rows (vertically) in rapid succession. Not recommended below 1/2 precision, especially at high tempo. The faster the jumps are, the more difficult they are to execute. See also Jump Stream <details><summary><b>Example Image</b></summary>![Picture of jump](~@images/mapping/jump.jpg)</details>|
+| **Jump Stream** | A style of mapping that includes jumps within a stream. <details><summary><b>Example Image</b></summary>![Picture of jump stream](~@images/mapping/jumpstream.jpg)</details>|
 
 ## L
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
@@ -200,8 +200,8 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **Spawn Distance** | The distance down the track where the blocks and obstacles spawn. Measured in beats; therefore varies in “spatial” distance by BPM . See also Spawn Point, NJS, BPM, and Spawn Offset. Also known as Half Jump Duration. |
 | **Spawn Offset** | A variable denoted as “noteJumpStartBeatOffset” in the map’s Info File that modifies the spawn distance. Can be a floating value, typically between 0.0 and 1.0. Also known as Spawn Distance Modifier |
 | **Spawn Point** | The location on the track where blocks and obstacles first appear, accompanied by a flash of light. See also Spawn Distance |
-| **Spiral** | A slider whose path traces a rotation long enough to return to its original direction or further. See also Bomb Spiral <details><summary><b>Example Image</b></summary>![Picture of spiral](~@images/mapping/spiral.png)</details>|
-| **Stack** | Two or three same-colored, same-direction blocks placed in a line on the same beat. Results in the player swinging a larger, faster hit. Also known as Tower, Double <details><summary><b>Example Image</b></summary>![Picture of stack](~@images/mapping/stacks.png)</details>|
+| **Spiral** | A slider whose path traces a rotation long enough to return to its original direction or further. See also Bomb Spiral <details><summary><b>Example Image</b></summary>![Picture of spiral](~@images/mapping/spiral.jpg)</details>|
+| **Stack** | Two or three same-colored, same-direction blocks placed in a line on the same beat. Results in the player swinging a larger, faster hit. Also known as Tower, Double <details><summary><b>Example Image</b></summary>![Picture of stack](~@images/mapping/stacks.jpg)</details>|
 | **Staggers** | Sliders placed with spacing too large for the player to hit in one motion, considered a mismap. Occurs when sliders are placed lower than 1/8 precision. <details><summary><b>Example Image</b></summary>![Picture of stagger](~@images/mapping/stagger.jpg)</details>|
 | **Stream** | A steady, sustained pattern of notes, typically at 1/4 precision. <details><summary><b>Example Image</b></summary>![Picture of stream](~@images/mapping/stream.png)</details>|
 | **Strobe** | 1) n. A rapidly flashing on/off light 2) v. To cause a light to flash on/off or on/flash when lighting a map. |
@@ -212,7 +212,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | **Tangle** | A pattern that results in arm paths preventing the next motion from occurring without resetting. Occurs commonly in incorrect crossovers. |
 | **Tempo** | A musical term for the speed of music. Can change throughout the duration of a song. Also known as Speed |
 | **Thin Wall** | A wall that is only a tiny fraction of a beat thick that doesn’t tick any damage on the player. Created in Mediocre Mapper by clicking to add a wall then immediately clicking to “drop” it,  without scrolling for any time duration. See also Wall, Fake Wall <details><summary><b>Example Image</b></summary>![Picture of thin wall](~@images/mapping/thinwall.png)</details> |
-| **Tower** | Two or three same-colored, same-direction blocks placed in a line on the same beat. Results in the player swinging a larger, faster hit. Two-block towers may also be referred to as doubles. Also known as Stack <details><summary><b>Example Image</b></summary>![Picture of tower](~@images/mapping/tower.png)</details>|
+| **Tower** | Two or three same-colored, same-direction blocks placed in a line on the same beat. Results in the player swinging a larger, faster hit. Two-block towers may also be referred to as doubles. Also known as Stack <details><summary><b>Example Image</b></summary>![Picture of tower](~@images/mapping/tower.jpg)</details>|
 | **Track** | The area in an editor where blocks are placed and the are in-game where blocks spawn and move toward the player. In most editors there is a track for notes/blocks and a separate track for lighting. See also Lighting Track |
 | **Triangle** | Three or more notes forming a “triangle” pattern with position and orientation. Causes a Wrist Reset, especially if used in high precision (under 1/1). <details><summary><b>Example Image</b></summary>![Picture of triangle](~@images/mapping/triangle.png)</details>|
 
@@ -227,6 +227,6 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
 | **Wall** | A translucent barrier that damages the player if they put their body in it. It is safe for players to rest their sabers in walls. Also known as Obstacle. See also: Fake Walls <details><summary><b>Example Image</b></summary>![Picture of wall](~@images/mapping/wall.png)</details>|
-| **Window** | A 3-block or larger tower containing a gap allowing for vision through the tower. <details><summary><b>Example Image</b></summary>![Picture of window](~@images/mapping/window.png)</details>|
+| **Window** | A 3-block or larger tower containing a gap allowing for vision through the tower. <details><summary><b>Example Image</b></summary>![Picture of window](~@images/mapping/window.jpg)</details>|
 | **WIP** | Work-In-Progress; not yet finished. WIP maps must be played in either party mode or practice mode until released to prevent stray Scoresaber leaderboards from being created for each revision. |
 | **Wrist Reset** | The action of resetting only your wrist due to a sequence of notes that requires a large twist of the wrist. |
