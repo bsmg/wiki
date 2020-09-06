@@ -16,13 +16,13 @@ Ouvrez SideQuest et connectez votre Quest à votre PC. Si vous avez déjà modd�
 
 Cliquez sur la roue juste à côté et appuyez sur le bouton `BACKUP GAME DATA`, si vous avez un jeu moddé vous devez aussi le désinstaller en utilisant le bouton `UNINSTALL APP`.
 
-![SideQuestUninstall](./images/beginners-guide/squninstall.png)
+![SideQuestUninstall](~@images/beginners-guide/squninstall.png)
 
 Vous pourrez restauré votre sauvegarde depuis le même menu, après le modding.
 
 Installez le dernier APK de BMBF via le bouton `Install APK from folder` indiqué ci-dessous.
 
-![InstallAPK](./images/beginners-guide/apkfromfolder.png)
+![InstallAPK](~@images/beginners-guide/apkfromfolder.png)
 
 Une fois qu'ils sont installés avec succès, assurez-vous que la dernière version de Beat Saber est installée et non moddée.
 :::warning AVERTISSEMENT
@@ -49,13 +49,13 @@ Assurez-vous que votre Quest et votre PC sont sur le même réseau !
 
 Ouvrez BMBF dans votre Quest et rendez-vous dans l'onglet `Tools`, ici vous devriez voir une addresse web et un numéro de version similaires à ce qui est affiché ci-dessous.
 
-![ip](./images/beginners-guide/ip.png)
+![ip](~@images/beginners-guide/ip.png)
 
 Sur votre PC, ouvrez votre navigateur et entrez l'adresse dans la barre de recherche.
 
 Vous devez être accueilli par cet écran.
 
-![bmbfweb](./images/beginners-guide/bmbfweb.png)
+![bmbfweb](~@images/beginners-guide/bmbfweb.png)
 
 Maintenant, glissez simplement n'importe quel mod compatible avec le Quest dans la boîte d'upload et synchronisez. Si le mod est fait pour une autre version à la base, il ne s'activera pas automatiquement. Pour activer un ancien mod, rendez-vous dans l'onglet `Mods` et activez-le d'ici.
 

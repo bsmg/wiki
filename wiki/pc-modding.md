@@ -31,7 +31,7 @@ __**Run the game at least once**__ before trying to mod the game! This applies t
 
 A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal and version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
 
-![ModAssistant](./images/beginners-guide/modassistant.png)
+![ModAssistant](~@images/beginners-guide/modassistant.png)
 
 ## How to get more songs
 ### In-game Downloader
@@ -77,14 +77,14 @@ A mod installer is the recommended way to install mods. See the section [above](
 ### Install BSIPA 
 1. Download [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
 2. Navigate to your [install folder.](#install-folder) and extract the contents of BSPIA into it.
-![Directory Clean](./images/beginners-guide/directory-clean.png "Directory Clean")
-![Directory Ipa](./images/beginners-guide/directory-ipa.png "Directory Ipa")
+![Directory Clean](~@images/beginners-guide/directory-clean.png "Directory Clean")
+![Directory Ipa](~@images/beginners-guide/directory-ipa.png "Directory Ipa")
 3. Double click IPA.exe to patch the game. Any mods in the `Plugins` folder will now be loaded when starting the game. If there are errors, you probably didn't follow step 2 correctly.
-![Directory Patched](./images/beginners-guide/directory-patched.png "Directory Patched")
+![Directory Patched](~@images/beginners-guide/directory-patched.png "Directory Patched")
 
 ### Install Mods
 4. Download the mod(s) you wish to install, whether it be from GitHub, the #pc-mods channel, or other sources. **Make sure to download any dependencies required by the mod.**
-![Directory Plugins](./images/beginners-guide/directory-plugins.png "Directory Plugins")
+![Directory Plugins](~@images/beginners-guide/directory-plugins.png "Directory Plugins")
 5. Some mods have installation instructions, some don't. Generally you can just drag and drop the zip contents into your beat saber install folder, and the files should go into the corresponding folders. 
 
 

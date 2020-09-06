@@ -18,9 +18,9 @@ This is a stub page, content is a work in progress! Ask in `#mapping-discussion`
 :::
 
 ## Rule Breaking
-Rules are made to be broken. However, they must be thoroughly understood before you can break rules and some have virtually no cases where breaking them is preferred. With experience and [outside](../mapping/#community-third-party-testing) feedback, there is always value to exploring the full design space of beat saber mapping and pushing the limits of the rules.  
+Rules are made to be broken. However, they must be thoroughly understood before you can break rules and some have virtually no cases where breaking them is preferred. With experience and [outside](./#community-third-party-testing) feedback, there is always value to exploring the full design space of beat saber mapping and pushing the limits of the rules.  
 
-Outside feedback is **critical** as the mapper! You know the rhythm and patterns better than any other person and will be ready to perform the motion before the notes ever show up. By getting [third party feedback](../mapping/#community-third-party-testing) on broken rules, such as in the BSMG `#testplays` channel, you can have confidence in your unique patterns and in your map.
+Outside feedback is **critical** as the mapper! You know the rhythm and patterns better than any other person and will be ready to perform the motion before the notes ever show up. By getting [third party feedback](./#community-third-party-testing) on broken rules, such as in the BSMG `#testplays` channel, you can have confidence in your unique patterns and in your map.
 
 ## Consistency & Variety
 Representing music via consistent note placement when there are similarities in the music and varying mapping when there changes in music are core techniques of intermediate mapping.
@@ -74,7 +74,7 @@ Offset is used to adjust a song’s spawn distance while keeping the NJS the sam
 | Ultrafast (> 200 BPM) Standard | 23-25 | 18-21 | 19-24 |
 
 ## Understanding Flow
-In [Basic Mapping](../mapping/basic-mapping.md#do-mapping-with-flow) we covered the bare essentials of parity. Now we’ll dig deeper and explore why some hits just feel bad.  
+In [Basic Mapping](./basic-mapping.md#do-mapping-with-flow) we covered the bare essentials of parity. Now we’ll dig deeper and explore why some hits just feel bad.  
 
 Flow is arguably the most important concept in mapping - how each arm travels to move from one hit to the next. This can be as simple as alternating between “forehand” and “backhand” notes, or as complicated as thinking about how one arm interacts with the other at the edges of the playspace. Since the player must see blocks in order to react to them, flow highly depends on speed and difficulty. Slower songs are far more forgiving and flexible with regards to flow, while a fast song is highly limited.
 
@@ -96,15 +96,15 @@ Each swing a player makes leaves their arm in a new position. At hard difficulty
 * Counter-clockwise wrist motions are preferred with the right hand and clockwise wrist motions are preferred with the left hand. Try it yourself and feel the difference!
 
 Sorted by how awkward they are for the right hand, left being the most awkward and right being the least. Note that this is mirrored for the left hand (Red Notes).  
-**Awkward Backhands:** ![](../mapping/images/bnd.png) ![](../mapping/images/bndl.png) ![](../mapping/images/bnl.png)  
-**Questionable Backhands:** ![](../mapping/images/bndr.png)  
-**Awkward Forehands:** ![](../mapping/images/bnu.png) ![](../mapping/images/bnur.png) ![](../mapping/images/bnr.png) ![](../mapping/images/bnul.png)  
+**Awkward Backhands:** ![](~@images/mapping/bnd.png) ![](~@images/mapping/bndl.png) ![](~@images/mapping/bnl.png)  
+**Questionable Backhands:** ![](~@images/mapping/bndr.png)  
+**Awkward Forehands:** ![](~@images/mapping/bnu.png) ![](~@images/mapping/bnur.png) ![](~@images/mapping/bnr.png) ![](~@images/mapping/bnul.png)  
 
 If you have to make either a double backhand/forehand or one of the awkward backhands/forehands, the result is a DD or a triangle pattern.
 
 ### Suggested vs. Required Motion
 When mapping unusual patterns that break typical conventions for flow, extra motion is suggested to make the pattern work.   
-An example is a scoop: ![Scoop](../mapping/images/scoop.png)  
+An example is a scoop: ![Scoop](~@images/mapping/scoop.png)  
 In order to hit the up note following the side note, the arm must take a longer scooping path to be in position. This motion is suggested, where an extra note block down would require the motion instead.
 
 Suggested motion is risky due to the fact that players will read and react to patterns differently than intended. One player may hit a scoop as intended, but another player may recoil and flinch given the pattern and have a negative experience from the pattern. This problem can never be entirely avoided when suggesting motion rather than requiring. Clever use of bombs, walls, or crossovers can help suggest more strongly the intended motion, but must be used with care to avoid vision, tangle, or flow issues.
@@ -185,7 +185,7 @@ Sliders can also cause significant vision blocks when use in bulk even if the ce
 Alternating the hand leading a pattern can be highly effective at providing variety, interesting motions, or unique rhythms but have limitations.  
 
 Typically the player expects patterns to be in the sequence of:   
-![blue down](../mapping/images/bnd.png) To > ![red down](../mapping/images/rnd.png) To > ![blue up](../mapping/images/bnu.png) To > ![red up](../mapping/images/rnu.png)  
+![blue down](~@images/mapping/bnd.png) To > ![red down](~@images/mapping/rnd.png) To > ![blue up](~@images/mapping/bnu.png) To > ![red up](~@images/mapping/rnu.png)  
 Deviating from this can allow for unique motions and crossovers without tangling, but risks being challenging to read or play at higher speeds. For example if done mid-pattern, it requires one hand to flick twice as fast. While this might not be an issue for slower patterns, faster ones with less visibility or more aggressive motions can be problematic.
 
 ## Reading vs. Reacting to Notes

@@ -108,7 +108,7 @@ There is also a video of this process [available here](https://www.youtube.com/w
 
 ![Cut song section](https://i.imgur.com/IRiNCz0.png "Cut song section")
 
-4. Align the tracks by using the Time Shift Tool (![Time Shift Tool](./images/timeshift.png "Timeshift tool")) to move the second track to a place roughly in place so the similar sections are close to each other. Then zoom in and adjust again, then repeat till the waveform changes to dots when you zoom. Align the dots on the bottom track with the similar peaks and lows with the top track, if possible.
+4. Align the tracks by using the Time Shift Tool (![Time Shift Tool](~@images/mapping/timeshift.png "Timeshift tool")) to move the second track to a place roughly in place so the similar sections are close to each other. Then zoom in and adjust again, then repeat till the waveform changes to dots when you zoom. Align the dots on the bottom track with the similar peaks and lows with the top track, if possible.
 
 ::: tip
 Utilize a Click Track to make sure the tracks are in time with each other.  
@@ -157,7 +157,7 @@ Here we will be using its warp feature to subtly adjust the audio to a consisten
 3) Setup your project settings.
    * File > Project Settings
    * Set the initial BPM of the song, and set both Timebase dropdowns to `Time` instead of `Beats`.
-![Reaper Project Settings Window](./images/reaperProjectSettings.png)
+![Reaper Project Settings Window](~@images/mapping/reaperProjectSettings.png)
 :::danger
 This is a critical step! **You can ruin your audio if you do not set the initial BPM and Timebase settings correctly!**
 :::
@@ -166,7 +166,7 @@ This is a critical step! **You can ruin your audio if you do not set the initial
 5) Add your audio to the project. Insert > Media File, and find your song.
 6) Drag the whole audio track accordingly to prevent a hot start or too-long of an intro. 
    * See [Basic Audio: Plan Your First Note](/mapping/basic-audio.html#plan-your-first-note) for more info.  
-![Align Audio Start in Reaper](./images/reaperFirstBeat.png)
+![Align Audio Start in Reaper](~@images/mapping/reaperFirstBeat.png)
 
 #### Lining Up Beats
 Now the important part. We are going to warp the audio to land perfectly on the BPM we set in the Project Settings.  
@@ -177,7 +177,7 @@ You should notice peaks around where the main drum beats are. On a song with con
 2) Use <kbd>Shift + W</kbd> to add a stretch marker.
 3) Drag the stretch marker onto the beat line.
 
-Step 1) ![Peak is not on beat marker](./images/reaperWarpAudioStep1.png) Step 2) ![Stretch Marker Added](./images/reaperWarpAudioStep2.png) Step 3) ![Marker moved onto beat line](./images/reaperWarpAudioStep3.png)
+Step 1) ![Peak is not on beat marker](~@images/mapping/reaperWarpAudioStep1.png) Step 2) ![Stretch Marker Added](~@images/mapping/reaperWarpAudioStep2.png) Step 3) ![Marker moved onto beat line](~@images/mapping/reaperWarpAudioStep3.png)
 
 Warping your song is simply a matter of repeating this for the whole song. You should start by doing this every 4 beats or so. Most of the time this is good enough to line up the whole song but, keep an eye out for beats in between stretch markers. If they start drifting, use another stretch marker to fix it.
 
@@ -195,12 +195,12 @@ There can be many hidden "gochas" when warping a song. Here are some things you 
    4) Change the tempo.
    5) Use trial and error to minimize the amount of drifting over the next chunk of audio.
    6) **You will need to add the same BPM change in the map editor!**  
-![Change tempo mid-song](./images/reaperChangeTempo.png)
+![Change tempo mid-song](~@images/mapping/reaperChangeTempo.png)
 
 * Some Peaks can be vague, especially when there are several sounds happening at once. There are a couple of ways to test a peak to find where the drum hit is.
    * By dragging the cursor back and forth over the peak, you should hear a thump as you hit the peak.
    * If you click just before the peak, then hit spacebar to play the audio, you should instantly hear the drum hit.  
-![Vague Peak](./images/reaperVaguePeak.png)
+![Vague Peak](~@images/mapping/reaperVaguePeak.png)
 
 * Pay attention to how the song is supposed to feel. Not every big drum beat is on a beat marker. For example, some songs have big crash cymbal hits a half or quarter beat before the main beat. You can try finding music tabs or other resources to figure out the intended timing of a song. Just be aware that online tabs are not guaranteed to be accurate in fact, some tabs seen on songsterr are completely made up!
 
@@ -216,7 +216,7 @@ Once you are done editing your audio, you will want to render it as a `.ogg` fil
    * Low quality source (YouTube or such): use 0.3-0.5
 6) Click the Render 1 file button. After some time, you’ll have an OGG file with nicely lined up beats!
 
-![Audio Render/Export Settings](./images/reaperRenderAudio.png)
+![Audio Render/Export Settings](~@images/mapping/reaperRenderAudio.png)
 
 ## Credits
 Content in this section is derived from guides by [Nik](/mapping/mapping-credits.html#nik-n3tman), [LittleAsi](/mapping/mapping-credits.html#littleasi), and [Ris](/mapping/mapping-credits.html#ris) who adapted **Heisenberg_IRL**'s method of warping in Ableton. Additional edits by [Kolezan](/mapping/mapping-credits.html#kolezan).

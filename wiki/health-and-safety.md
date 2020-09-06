@@ -28,7 +28,7 @@ Dr. Levi has saved the wrist of countless players with his videos, and he's made
 ## Safety
 Keep your playspace clear of obstructions, allow adequate room around during gameplay, and always wear your wrist straps. 
 
-![Allow Adequate Room Around You](./images/health-and-safety/allow-adequate-room-around-you.png "Allow Adequate Room Around You")
+![Allow Adequate Room Around You](~@images/health-and-safety/allow-adequate-room-around-you.png "Allow Adequate Room Around You")
 
 ::: warning NOTE
 Beat Saber is not available for the Nintendo Wii, this image is used for informative purposes only.
@@ -37,4 +37,4 @@ Beat Saber is not available for the Nintendo Wii, this image is used for informa
 ## A Short Message from TammyMatty
 To reduce the risk of physical injury, always remember to stretch before and after playing Beat Saber. Please consider the following:
 
-![Wammy](./images/health-and-safety/wammy.gif "Wammy")
+![Wammy](~@images/health-and-safety/wammy.gif "Wammy")

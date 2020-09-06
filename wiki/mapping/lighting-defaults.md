@@ -9,7 +9,7 @@ _A list of the default color palettes used in each environment_
 ---
 
 ## The First (Default) 
-![Image of TheFirst colors](./images/color-thefirst.png)  
+![Image of TheFirst colors](~@images/mapping/color-thefirst.png)  
 This is used by most environments. It it used by The First (Default), Triangle, Nice, Big Mirror, Imagine Dragons, Monstercat, and Panic at the Disco! environments.
 
 **Left Side Block Color (Red)**
@@ -54,7 +54,7 @@ This is used by most environments. It it used by The First (Default), Triangle, 
 ```
 
 ## Origins
-![Image of Origins colors](./images/color-origins.png)  
+![Image of Origins colors](~@images/mapping/color-origins.png)  
 This is used by the Origins environment. These colors are also used in the Glass Desert environment.
 
 **Left Side Block Color (Yellow)**
@@ -99,7 +99,7 @@ This is used by the Origins environment. These colors are also used in the Glass
 ```
 
 ## KDA
-![Image of KDA colors](./images/color-kda.png)  
+![Image of KDA colors](~@images/mapping/color-kda.png)  
 This is used by the K/DA environment.
 
 **Left Side Block Color (Orange)**
@@ -144,7 +144,7 @@ This is used by the K/DA environment.
 ```
 
 ## Crab Rave
-![Image of Crabrave colors](./images/color-crabrave.png)  
+![Image of Crabrave colors](~@images/mapping/color-crabrave.png)  
 This is used by the Crab Rave enrivonment.
 
 **Left Side Block Color (Green)**
@@ -189,7 +189,7 @@ This is used by the Crab Rave enrivonment.
 ```
 
 ## Rocket
-![Image of Rocket colors](./images/color-rocket.png)  
+![Image of Rocket colors](~@images/mapping/color-rocket.png)  
 This is used by the Rocket League enrivonment.
 
 **Left Side Block Color (Orange)**
@@ -234,7 +234,7 @@ This is used by the Rocket League enrivonment.
 ```
 
 ## Green Day
-![Image of GreenDay colors](./images/color-greenday.png)  
+![Image of GreenDay colors](~@images/mapping/color-greenday.png)  
 This is used by the Green Day and Green Day Grenade enrivonment.
 
 **Left Side Block Color (Green)**
@@ -279,7 +279,7 @@ This is used by the Green Day and Green Day Grenade enrivonment.
 ```
 
 ## Timbaland
-![Image of Timbaland colors](./images/color-timbaland.png)  
+![Image of Timbaland colors](~@images/mapping/color-timbaland.png)  
 This is used by the Timbaland enrivonment.
 
 **Left Side Block Color (Grey)**
@@ -324,7 +324,7 @@ This is used by the Timbaland enrivonment.
 ```
 
 ## FitBeat
-![Image of FitBeat colors](./images/color-fitbeat.png)  
+![Image of FitBeat colors](~@images/mapping/color-fitbeat.png)  
 This is used by the FitBeat enrivonment.
 
 **Left Side Block Color (Yellow)**
@@ -369,7 +369,7 @@ This is used by the FitBeat enrivonment.
 ```
 
 ## Linkin Park
-![Image of Linkin Park colors](./images/color-linkinpark.png)  
+![Image of Linkin Park colors](~@images/mapping/color-linkinpark.png)  
 This is used by the Linkin Park enrivonment.
 
 Introduced in this environment are the boost colors. All other environments fallback to their respective environment colors for boost colors.
@@ -432,7 +432,7 @@ Introduced in this environment are the boost colors. All other environments fall
 ```
 
 ## Noir
-![Image of Noir colors](./images/color-noir.png)  
+![Image of Noir colors](~@images/mapping/color-noir.png)  
 This is not used by any environment. 
 
 **Left Side Block Color (Dark Grey)**
@@ -477,7 +477,7 @@ This is not used by any environment.
 ```
 
 ## Default Custom
-![Image of custom colors](./images/color-custom0.png)  
+![Image of custom colors](~@images/mapping/color-custom0.png)  
 This is not used by any environment. These are the colors used with an unmodified custom color profile.
 
 **Left Side Block Color (Red)**
