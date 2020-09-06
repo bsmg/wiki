@@ -50,16 +50,16 @@ Cube Community a réalisé une vidéo de démonstration de certains grips popula
 ### HTC Vive Wands
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
 
-![Vive Grips Guide](~@images/grips-and-tricks/vive-grips-guide.png "Vive Grips Guide")
+![Vive Grips Guide](~@images/grips-and-tricks/vive-grips-guide.jpg "Vive Grips Guide")
 
 ### Oculus Rift
 <YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
 
-![Oculus Grips Guide](~@images/grips-and-tricks/oculus-grips-guide.png "Oculus Grips Guide")
+![Oculus Grips Guide](~@images/grips-and-tricks/oculus-grips-guide.jpg "Oculus Grips Guide")
 
 ### Oculus Rift S et Quest
 Il n'existe pas encore de vidéo pour les contrôleurs du Rift S et du Quest, mais vous pouvez trouver des exemples supplémentaires à l'image ci-dessous dans leur canal `#tips-and-grips` ! [CC Discord](https://discord.gg/dwe8mbC) (serveur Discord anglophone)
-![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/newOculusGrips.png "Oculus Rift S/Quest Guide")
+![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/newOculusGrips.jpg "Oculus Rift S/Quest Guide")
 
 ### Contrôleurs du Valve Index
 Il n'existe pas encore de vidéo pour les Index Controllers, mais vous trouverez des exemples dans leur canal textuel `#tips-and-grips` !
