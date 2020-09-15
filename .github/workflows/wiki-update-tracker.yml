@@ -48,8 +48,6 @@ jobs:
           stub-template: .github/workflows/wut-templates/translation-stub-template.md
           gen-branch: wut-branch
           request-merge: true
-          gen-copy: |-
-            *.png
           token: ${{ steps.get_token.outputs.app_token }}
           instruct-projects: |-
             *.md

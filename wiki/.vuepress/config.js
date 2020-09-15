@@ -1,3 +1,5 @@
+const path = require('path')
+
 /**
  * @param {string} title Sidebar Title
  * @param {string[]} routes Routes
@@ -168,7 +170,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@': '../',
+        '@images': path.resolve(__dirname, '../.assets/images'),
       },
     },
   },

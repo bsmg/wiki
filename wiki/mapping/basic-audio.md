@@ -49,9 +49,9 @@ By purchasing and using a high quality audio file, not only are you supporting y
 
 | OGG Quality | YouTube Rip | MP3| WAV | FLAC |
 | :----: | :----: | :----: | :----: | :---: |
-| 1 | ![YouTube Rip 1](./images/ytrip1.jpg) | ![MP3 1](./images/mp31.jpg) | ![WAV 1](./images/wav1.jpg) | ![Flac 1](./images/flac1.jpg) |
-| 5 | ![YouTube Rip 5](./images/ytrip5.jpg) | ![MP3 5](./images/mp35.jpg) | ![WAV 5](./images/wav5.jpg) | ![Flac 5](./images/flac5.jpg) |
-| 10 | ![YouTube Rip 10](./images/ytrip10.jpg) | ![MP3 10](./images/mp310.jpg) | ![WAV 10](./images/wav10.jpg) | ![Flac 10](./images/flac10.jpg) |
+| 1 | ![YouTube Rip 1](~@images/mapping/ytrip1.jpg) | ![MP3 1](~@images/mapping/mp31.jpg) | ![WAV 1](~@images/mapping/wav1.jpg) | ![Flac 1](~@images/mapping/flac1.jpg) |
+| 5 | ![YouTube Rip 5](~@images/mapping/ytrip5.jpg) | ![MP3 5](~@images/mapping/mp35.jpg) | ![WAV 5](~@images/mapping/wav5.jpg) | ![Flac 5](~@images/mapping/flac5.jpg) |
+| 10 | ![YouTube Rip 10](~@images/mapping/ytrip10.jpg) | ![MP3 10](~@images/mapping/mp310.jpg) | ![WAV 10](~@images/mapping/wav10.jpg) | ![Flac 10](~@images/mapping/flac10.jpg) |
 
 Can you see the difference? You cannot scale up audio quality; only starting with a high quality audio file can give you clean, percise lines. 
 
@@ -87,9 +87,9 @@ Not using a `.ogg` file or using the export feature in AV **will** desync your s
 5. Go to the `Tempo` menu and click `Adjust sync...` or just press <kbd>SHIFT</kbd>+<kbd>S</kbd> to open the adjustment window.
 6. Click the <kbd>Find BPM</kbd> button
 	- If you're lucky, AV will return a single BPM value with 100% confidence.  
-	![AV adjustment window](./images/adjustments.png)
+	![AV adjustment window](~@images/mapping/adjustments.png)
 	- If you get multiple options you will want to listen to the options to see if they match with the song. Most of the time it will be the first option but follow steps 7 and 8 to make sure.  
-	![Multiple BPM Values](./images/alternateAdjustments.png)
+	![Multiple BPM Values](~@images/mapping/alternateAdjustments.png)
 7. Click the <kbd>Apply BPM</kbd> button
 8. Press <kbd>F3</kbd> to turn on beat ticks and press <kbd>Spacebar</kbd> to listen through the song to confirm that the beginning, middle, and end of your track are all lined up.
 	- If only a single result was given and the ticks do not match, this suggests that the song has a variable BPM. 
@@ -102,8 +102,8 @@ Not sure if your song is variable? Drop by BSMG's `#mapping-discussion` and ask!
 If you have the experience, see [Advanced Audio Editing: Variable BPM](/mapping/advanced-audio.md#variable-bpm) on how to account for this.
 :::
 
-10. Give the player about two seconds to get ready by clicking the `Move first beat` button ![Arrow Vortex move beat button](./images/av_movebeat.png) however many times needed to get your start time close to 2.000 seconds or the sound you want to place your first note on aligned with the first bar.  
-![Aligned with first bar](./images/av_aligned.png) ![Alternate Aligned with first bar](./images/av_altAligned2.png)
+10. Give the player about two seconds to get ready by clicking the `Move first beat` button ![Arrow Vortex move beat button](~@images/mapping/av_movebeat.png) however many times needed to get your start time close to 2.000 seconds or the sound you want to place your first note on aligned with the first bar.  
+![Aligned with first bar](~@images/mapping/av_aligned.png) ![Alternate Aligned with first bar](~@images/mapping/av_altAligned2.png)
 	* After aligning, you should check the song again to verify that the beats still match.
 	* If your song has too much intro silence, you will end up with a negative `Music offset`. What this means is that you will need to remove silence from intro of the audio file in Audacity. If you are not comfortable with removing the exact amount, you can remove more than needed, export the change `.ogg` and re-sync with the new file to get a positive offset.
 11. After finding the BPM and offset values you can skip to [Add Silence: After Tool Assisted Sync](/mapping/basic-audio.html#after-tool-assisted-sync).
@@ -140,15 +140,15 @@ This is to confirm that the BPM you have found online or manually matches the au
 3. Place the cursor at the start of the new track (Click on the track and press your Home key) and then click `Generate menu > Rhythm Track…`
 4. Input the nearest whole BPM you got earlier into the `Tempo (bpm)` field and enter the duration of the song in the optional `Rhythm track duration` field (the duration is displayed at the top right of the timeline).
 5. Copy the other recommended settings below:
-![Audacity Rhythm Track Menu](./images/click-track-1.png)
+![Audacity Rhythm Track Menu](~@images/mapping/click-track-1.png)
 
 If everything was correctly input you will have something like this:
-![Audacity main screen showing song track and rhythm track](./images/song_rhythm.png)
+![Audacity main screen showing song track and rhythm track](~@images/mapping/song_rhythm.png)
 
 This click track is completely in sync with the beats in the map editor and game, but the song is currently not synced. Continue below for how to do that.
 
 ### Sync the Song to the Beat
-1. Select the Time Shift Tool (![Time Shift Tool](./images/timeshift.png)).
+1. Select the Time Shift Tool (![Time Shift Tool](~@images/mapping/timeshift.png)).
 2. Left click on the song track and hold, then drag the audio so that the first planned mapped note(s) in your song ends up within the appropriate seconds (see timeline above the track) to avoid a "Hot Start" or too long intro (See [Plan Your First Notes](/mapping/basic-audio.html#plan-your-first-note) if you haven’t already).
 3. Release to place the audio in the new position.
 4. Play back the audio in this position. The song will be out of sync, so find the closest beat in the click track and align your song to the beat (click track) by moving it backward or forwards in time by small increments. Zoom in for better accuracy. Repeat until it sounds spot on.
@@ -158,7 +158,7 @@ If the BPM is correct for the first part of the song but suddenly change or drif
 :::
 
 Below shows how it looks like when the first planned mapped note(s) (cursor position) are placed after 2 seconds and the beats of the song is synced to the BPM/Click Track.
-![Audacity song lined up with rhythm track](./images/synced_rhythm.png)
+![Audacity song lined up with rhythm track](~@images/mapping/synced_rhythm.png)
 After time shifting the song you will need to add silence, continue below on how to do that.
 
 ## Editing with Audacity
@@ -167,11 +167,11 @@ After syncing the song to the beat manually or by using tool assisted sync (e.g.
 ### Add Silence
 #### After manual sync:
 If the waveform/audio clip has a gap to the timeline start (0,0 seconds) you will need to add silence to the audio, or else Audacity will export from the start of the audio clip and you will lose any sync you've done. Do the following to add silence:
-1. Switch to the Selection Tool (![Selection Tool](./images/selection.png)).
+1. Switch to the Selection Tool (![Selection Tool](~@images/mapping/selection.png)).
 2. Select the empty space between the audio clip and the start of the track (Yellow vertical lines will indicate the start and end edges when you make a selection).  
-![Adding silence with Audacity](./images/add_silence.png)
+![Adding silence with Audacity](~@images/mapping/add_silence.png)
 3. Click `Generate menu – > Silence…`  
-![Generate Silence...](./images/audacity-generate_silence.png)
+![Generate Silence...](~@images/mapping/audacity-generate_silence.png)
 4. The right amount of silence should already be input automagically so just hit OK.
 5. Done.
 
@@ -182,30 +182,30 @@ After generating the silence you can click the dark line in the song track to ge
 If you've used Arrow Vortex or other tool assisted syncing then do the following to add or remove the right amount of silence to the song track.
 
 **If you have a positive offset**, you will need to add that amount to the intro.  
-1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](./images/selection.png)).
+1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](~@images/mapping/selection.png)).
 2. Place the cursor at the start of the song track (Click on the song track and press your <kbd>Home</kbd> key).
 3. Click `Generate – > Silence…`  
-![Generate Silence...](./images/audacity-generate_silence.png)
+![Generate Silence...](~@images/mapping/audacity-generate_silence.png)
 4. Input the sync `Music offset` value you got from Arrow Vortex (or similar tool) and then click OK. 
-![Adding silence with Audacity](./images/av_audacity.png)
+![Adding silence with Audacity](~@images/mapping/av_audacity.png)
 5. Done.  
 ___
 **If you have a negative offset**, you will need to remove that amount from the intro.  
-1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](./images/selection.png)).
+1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](~@images/mapping/selection.png)).
 2. Add a new mono track   
-![Add new mono track](./images/audacity-add_new-mono-track.png)
+![Add new mono track](~@images/mapping/audacity-add_new-mono-track.png)
 3. Select the new track and tap the <kbd>Home</kbd> key.
 4. Click `Generate – > Silence…`  
-![Generate Silence...](./images/audacity-generate_silence.png)
+![Generate Silence...](~@images/mapping/audacity-generate_silence.png)
 5. Enter the amount of negative offset found in Arrow Vortex (or similar tool) into the Duration field and click OK.
-![Adding silence with Audacity](./images/av_audacity-negative.png)  
+![Adding silence with Audacity](~@images/mapping/av_audacity-negative.png)  
 	* You should see something similar to this  
-![Resulting Silence](./images/audacity-neg-generated_silence.png)
+![Resulting Silence](~@images/mapping/audacity-neg-generated_silence.png)
 6. Select from the end of the generated silence (yellow vertical line) to the start of the song track selecting the contents of both tracks.  
-![Select up to generated silence](./images/audacity-neg-select_silence.png)
+![Select up to generated silence](~@images/mapping/audacity-neg-select_silence.png)
 7. Press the <kbd>Delete</kbd> key.
 8. Click the X on the newest track to delete it.  
-![Delete The Track](./images/audacity-delete_track.png)
+![Delete The Track](~@images/mapping/audacity-delete_track.png)
 9. Done.
 
 > If you are not comfortable with removing the exact amount, you can remove more than needed, export the change `.ogg` and [re-sync using your tool](#tool-assisted-bpm-calculation) with the new file to get a positive offset.
@@ -217,14 +217,14 @@ This step is optional, but can be useful if you need to make a more graceful fad
 
 If your track has arrows pointing to the left at the start it means you’ve time shifted the audio forward in time outside the timeline. If you’ve done this to shorten the intro, although not necessary, it is beneficial to trim the sound clip and add a fade in. To trim and add a fade in to the song (optional) do the following:
 1. Drag a selection from 0.0 seconds to the end of the audio track (yellow vertical lines).
-2. Click Trim audio outside selection (![Trim audio to selection](./images/trim.png)). The arrows should now disappear. 
+2. Click Trim audio outside selection (![Trim audio to selection](~@images/mapping/trim.png)). The arrows should now disappear. 
 3. (Optional) Make a selection from track start (vertical yellow line) to about 0.5-1 seconds (depending on intro).
 4. (Optional) Go to `Effect menu -> Fade In`.
 5. Done.
 
 Before (left) and after trim and fade-in applied (right):
 
-![Trimming the song intro](./images/trim_fade.png)
+![Trimming the song intro](~@images/mapping/trim_fade.png)
 
 ### Check Song Volume
 To ensure that your song isn’t too soft, or even too loud for that matter, we can measure it using RMS (Root Mean Squared) in Audacity. To have a good balance between note slice sounds and your song the RMS value should be **louder than -11db** (in the verses and/or choruses) or **softer than -8.5db** (at the loudest parts).
@@ -236,7 +236,7 @@ To check the RMS value in your song do the following:
 4. In the `Volume output` field you will now find a value. Compare this value to the recommended values above.
 5. If this value is smaller (more negative) than the recommended values, see [Volume Modification: Making Your Song Louder](/mapping/basic-audio.html#making-your-song-louder).
 6. If this value is bigger than (less negative) than the recommended values see [Volume Modification: Making Your Song Softer](/mapping/basic-audio.html#making-your-song-softer).
-![Analyzing song volume with Audacity](./images/contrast.png)
+![Analyzing song volume with Audacity](~@images/mapping/contrast.png)
 
 ### Volume Modification
 Before you continue with the next steps with the song editing it highly recommended to save your current progress as a WAVE file as a backup. This is to ensure that you if you need to go back and redo some of the editing you will have a high quality source to use. (Don’t load the OGG you exported as it will have lost a lot of the source quality.) Remove the Click Track if you haven’t already done so, then go to `File menu -> Export -> Export as WAV`, then save the file to a location of your choice.
@@ -249,7 +249,7 @@ If your song’s chorus has a lower RMS value than the recommended **-11db** the
 
 To check if you need to apply Compressor before Limiter visually analyse the waveform. If there are a lot of sharp peaks with a pretty constant body throughout the song, as shown in the example below, then you will not need to apply compressor. Only a Limiter will suffice (skip to [Limiter](/mapping/basic-audio.html#limiter)).
 
-![Viewing a song that is too quiet](./images/louder.png)
+![Viewing a song that is too quiet](~@images/mapping/louder.png)
 
 However, if the waveform varies a lot between soft and loud parts then compression will most likely be needed first.
 
@@ -257,10 +257,10 @@ However, if the waveform varies a lot between soft and loud parts then compressi
 1. Select the whole song track (Double click on the track)
 2. Go to `Effects menu -> Compressor`
 3. As a starting point, copy the settings below and click OK. Make sure that `Compress based on Peaks` is checked.
-![Understanding compression](./images/compression.png)
+![Understanding compression](~@images/mapping/compression.png)
 
 Here’s a before (top) and after (bottom) Compressor comparison:
-![Before and after compression](./images/bna_compression.png)
+![Before and after compression](~@images/mapping/bna_compression.png)
 
 Check the song again and listen for any unnatural distortions, such as volume cut outs after loud peaks. If so, undo (`Ctrl-Z`), tweak the `Threshold` setting to a louder one (less negative) and apply again. If you want to know more about the settings check the [Advanced Audio Editing: Compressor](/mapping/advanced-audio.html#compressor) page.
 
@@ -270,7 +270,7 @@ The compressor reduces many of the unnecessary peaks and makes the more importan
 1. Select the whole song (Double click the song track)
 2. Go to `Effects menu -> Limiter…`
 3. As a starting point, copy the settings below:  
-![Limiter in Audacity](./images/limiter.png)
+![Limiter in Audacity](~@images/mapping/limiter.png)
 4. Click OK to apply Limiter.
 
 Check the song again and listen for any unnatural distortions, such as crushed/severely distorted peaks. If so, undo (`Ctrl-Z`), tweak the `Input Gain` settings to a lower value (still above 0db) and apply again. Make sure both `Input Gain`values are the same or else the stereo image will be skewed. If you want to know more about the settings of the Limiter effect check the [Advanced Audio Editing: Limiter](/mapping/advanced-audio.html#limiter) page.
@@ -282,7 +282,7 @@ To know if you’ve reached the right volume after compressing and limiting chec
 4. In the `Volume output` field you will now find a value. This value should be between -8.5db and -9.5db for optimal level. If not, undo the limiter process and increment the `Input Gain` by +/-0.5db and try again.
 
 After limiting you will have something like this:
-![Song after limiting](./images/bna_limiting.png)
+![Song after limiting](~@images/mapping/bna_limiting.png)
 You can now skip to [Trimming the Outro](/mapping/basic-audio.html#trimming-the-outro).
 
 
@@ -300,7 +300,7 @@ Now let’s use the Amplify effect to lower the volume:
 1. Select the whole song (Double click the song track)
 2. Go to `Effects menu -> Amplify...`
 3. Enter the difference value you calculated earlier (it should be negative) into the `Amplification` field. `New Peak Amplification` field will repeat what the first input field says, this is normal for a song that is already peaking at 0db.   
-![Amplification menu](./images/amplify.png)
+![Amplification menu](~@images/mapping/amplify.png)
 4. Click OK to apply a negative Amplify effect.
 5. Done.
 
@@ -311,7 +311,7 @@ To know if you’ve reached the right volume check again with the RMS volume too
 4. In the `Volume output` field you will now find a value. This value should be between -8.5db and -9.5db for optimal level. If not, undo the Amplify process and increment the Input value by +/- 0.5db and try again.
 
 After the negative value Amplify effect your song will look something like this:
-![Amplification effect](./images/bna_amplify.png)
+![Amplification effect](~@images/mapping/bna_amplify.png)
 
 
 #### Trimming the Outro
@@ -333,10 +333,10 @@ We now have our finished audio that you will use and hear in the editor and the 
 To generate a compatible sound file to use we need to do the following:
 1. Delete the Click Track (if you haven’t already done so).
 2. Click the `File menu -> Export -> Export as OGG.`  
-![Export As Ogg Location](./images/audacity-export.png)
+![Export As Ogg Location](~@images/mapping/audacity-export.png)
 3. Name your file `song.ogg`.
 4. Choose an appropriate OGG quality ([more info here](/mapping/advanced-audio.html#choosing-appropriate-ogg-export-quality)):  
-![Export Quality Slider](./images/export-quality.png)
+![Export Quality Slider](~@images/mapping/export-quality.png)
 	* High quality source (WAVE / FLAC / MP3 / AAC) use 6-9 (unless there is a file size issue.)
 	* Low quality source (YouTube or such): use 3-5
 5. Click Save.

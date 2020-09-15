@@ -25,35 +25,35 @@ Extract the Custom Saber Unity project to your desired location.
 
 If you're using Unity hub, Click on Add, select the Custom Saber Unity Project folder, click on Select folder.
 
-![Adding Custom Saber project](./images/sabers/01.png)
+![Adding Custom Saber project](~@images/models/sabers/01.png)
 
 The Custom saber project should appear on the list. Make sure the Unity version is correct for the project.
 
-![Checking that the version is correct](./images/sabers/02.png)
+![Checking that the version is correct](~@images/models/sabers/02.png)
 
 Open the Custom saber project, it should show up like this:
 
-![Checking that the project shows up correctly](./images/sabers/03.png)
+![Checking that the project shows up correctly](~@images/models/sabers/03.png)
 
 Check if the project is functional by double checking that the `Saber Exporter` shows up in the `Window` tab.
 
-![Checking that project has a saber exporter](./images/sabers/04.png)
+![Checking that project has a saber exporter](~@images/models/sabers/04.png)
 
-![Checking that the saber exporter works properly](./images/sabers/05.png)
+![Checking that the saber exporter works properly](~@images/models/sabers/05.png)
 
 The current scene should contain a GameObject called `TemplateSaber`.
 
-![Red circle around TemplateSaber](./images/sabers/06.png)
+![Red circle around TemplateSaber](~@images/models/sabers/06.png)
 
 If it’s your first time opening this project, the Unity viewport will be very far away from the saber. To see the template saber in the viewport, doubleclick on the `TemplateSaber` GameObject.
 
 Click both the `RightSaber` and `LeftSaber` GameObjects and make sure that they have an `Event Manager` component attached.
 
-![Checking that EventManager exists on the RightSaber object](./images/sabers/07.png)
+![Checking that EventManager exists on the RightSaber object](~@images/models/sabers/07.png)
 
 Now try exporting the Template Saber into your `CustomSabers` folder with the Saber Exporter.
 
-![Exporting TemplateSaber](./images/sabers/08.png)
+![Exporting TemplateSaber](~@images/models/sabers/08.png)
 
 If the Template Saber appears and works properly ingame, setup is complete and you’re ready for the next part.
 
@@ -72,7 +72,7 @@ Once the saber is done, you can export it by choosing File-Export, choosing the 
 OBJ is best used for simple sabers. FBX is best used for complex sabers that have rigging or animations.
 :::
 
-![Exporting saber as FBX](./images/sabers/09.png)
+![Exporting saber as FBX](~@images/models/sabers/09.png)
 
 ::: tip NOTE
 You don't have to export both sabers if they both have the exact same shape. If they're identical, exporting one should be good enough.
@@ -109,7 +109,7 @@ Video example of applying materials:
 
 You can add a texture to a material by dragging an image file in the texture slot.
 
-![Adding texture to saber](./images/sabers/10.png)
+![Adding texture to saber](~@images/models/sabers/10.png)
 
 ::: tip NOTE
 NOTE: The `Glow` slider modifies how bright the saber glows. Additionally, when the glow is above 0, that material will be affected by the player's custom colors.
@@ -117,7 +117,7 @@ NOTE: The `Glow` slider modifies how bright the saber glows. Additionally, when 
 
 Once you've completed all of this, you can export your saber. Open up the `Saber Exporter` in the `Window` tab and then fill in the saber's name and author.
 
-![Exporting the saber and adding name + author](./images/sabers/11.png)
+![Exporting the saber and adding name + author](~@images/models/sabers/11.png)
 
 Put your sabers in your `CustomSabers` folder and test them out in game. If they look good ingame, you're all done!
 
@@ -129,7 +129,7 @@ Put your sabers in your `CustomSabers` folder and test them out in game. If they
 This section covers things that aren't included in the main tutorial, such as how to add Events and Trails.
 
 Other scripts are contained in `Assets/CustomSaber.dll`. Click on the little arrow to expand it.
-![Expanding CustomSaber.dll](./images/sabers/12.png)
+![Expanding CustomSaber.dll](~@images/models/sabers/12.png)
 
 ### EventManager
 This component lets you set up an action when an event condition is met. This includes when you hit a note, miss a note, when you start a level, etc...
@@ -138,7 +138,7 @@ To use it, click on the plus button to create a new event, drag the gameobject p
 
 If you want more information on events, read the `Events` section in the Custom Avatars guide **link needed!!!**
 
-![Adding an event](./images/sabers/13.png)
+![Adding an event](~@images/models/sabers/13.png)
 ### Every Nth Combo Filter
 This component lets you perform an action every N combo. It works the same as the `Event Manager`, but with the only trigger being every time you hit N combo.
 ### Custom Trails

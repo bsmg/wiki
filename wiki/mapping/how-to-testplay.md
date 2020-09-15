@@ -13,14 +13,14 @@ The only real things you need to get started with testplaying is a willingness t
 
 1. Head to the `#testplays` channel and pick out a map(s) that’s within your skill range. As you are getting started, **DO NOT** download any maps that the bot does not respond to. Additionally, it is best to avoid maps that are labelled as a first map until you have an understanding of basic mapping practices, to prevent maps with common rookie errors being overlooked, and then published.  
 2. On the map(s) you have downloaded, drop an `:eyes:` (:eyes:) reaction on the post to indicate that you have downloaded the map and will be reviewing it. You can do this by hovering over the post.   
-![Eyes Reaction Location](./images/eyes_emote-location.png)
+![Eyes Reaction Location](~@images/mapping/eyes_emote-location.png)
 3. Place the map (as a zip) within your Beat Saber `CustomLevels` folder. 
 4. Load up Beat Saber and navigate to your WIP custom songs cache. If the map was created correctly, it should be there. If the map does not appear, it is likely that the map was not zipped correctly, and contains a folder within a folder. You can choose to unzip the map and place it into your CustomWIPLevels folder yourself and continue the testplay, or @ (ping) the mapper and let them know they need to zip *only* the files, not the folder. [How to Zip Map Files Video](https://streamable.com/u20ci)
-5. Play the map 1-2 times in practice mode ![Practice Mode Icon](./images/practice_mode-icon.png), **NOT the big ‘Play’ button.** Ideally, you should only look to play the map once. You want to collect your first impressions and general feedback. If you’re not sure if something is ‘correct’, it’s okay to replay a section, but repeatedly playing the map will skew your muscle memory and cause you to overlook things as you become too adjusted to the map.  
+5. Play the map 1-2 times in practice mode ![Practice Mode Icon](~@images/mapping/practice_mode-icon.png), **NOT the big ‘Play’ button.** Ideally, you should only look to play the map once. You want to collect your first impressions and general feedback. If you’re not sure if something is ‘correct’, it’s okay to replay a section, but repeatedly playing the map will skew your muscle memory and cause you to overlook things as you become too adjusted to the map.  
 
 :::warning
 It is important that you play the map in Practice Mode in order to prevent creating a new scoreboard on Scoresaber if you have the mod installed!  
-![Practice Mode Location](./images/practice_mode-location.png)
+![Practice Mode Location](~@images/mapping/practice_mode-location.png)
 :::
 
 6. Write up your feedback! What didn’t feel very good? What did you struggle with? Did you think the map was great and you enjoyed it? Not every map has issues, so if you found the map to be fine, it’s totally acceptable to sum that up with one line. However, if you’re on the fence about anything, just mention it! It’s up to the mapper how they want to receive your feedback.
@@ -28,7 +28,7 @@ It is important that you play the map in Practice Mode in order to prevent creat
 7. Find the mapper’s name, and @ (ping) them in the `#mapping-discussion` channel, or DM them, with your feedback. Make sure to remind them to mark their map with `:octagonal_sign:` upon editing or releasing their map. 
 
 8. Once you’re done, go back to the post and mark it with `:white_check_mark:` (:white_check_mark:) to indicate you’ve completed the map and given feedback. As well, make sure to mark the map with the letter indicative of the difficulty you tested, if the map has multiple difficulties and you did not test them all. You can find these in the pins of the `#testplays` channel.  
-![Feedback Reactions](./images/feedback_reactions.png)
+![Feedback Reactions](~@images/mapping/feedback_reactions.png)
 
 :::tip NOTE
 If you are not confident with your feedback and feel the map should get another playtest, you can indicate a completed playtest with `:ballot_box_with_check:` (:ballot_box_with_check:) instead.

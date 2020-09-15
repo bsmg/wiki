@@ -16,13 +16,13 @@ Open SideQuest and connect your Quest to your PC. If you've previously modded Be
 
 Click the cog next to it then press the `BACKUP GAME DATA` button, if you have a modded game you also need to uninstall it by pressing the `UNINSTALL APP` button.
 
-![SideQuestUninstall](./images/beginners-guide/squninstall.png)
+![SideQuestUninstall](~@images/beginners-guide/squninstall.png)
 
 You can later restore your save from the same menu, after modding.
 
 Install the latest BMBF apk via the `Install APK from folder` button shown below.
 
-![InstallAPK](./images/beginners-guide/apkfromfolder.png)
+![InstallAPK](~@images/beginners-guide/apkfromfolder.png)
 
 Once they've successfully installed, make sure you have the latest version of Beat Saber installed and unmodded. 
 :::warning
@@ -33,7 +33,7 @@ After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown 
 
 If, at any point during the install process, you get the `Restore App` popup just click `Close`, the warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences for ignoring it.
 
-![RestoreApp](./images/beginners-guide/restoreapp.png)
+![RestoreApp](~@images/beginners-guide/restoreapp.png)
 
 ## Restoring save data
 
@@ -53,13 +53,13 @@ Make sure your Quest and PC are on the same network!
 
 Open BMBF in your Quest and go to the `Tools` tab, there you should see a web address and a version number similar to what's show below.
 
-![ip](./images/beginners-guide/ip.png)
+![ip](~@images/beginners-guide/ip.png)
 
 On your PC, open your browser and type the address into the search bar.
 
 You should be greeted with this screen below.
 
-![bmbfweb](./images/beginners-guide/bmbfweb.png)
+![bmbfweb](~@images/beginners-guide/bmbfweb.png)
 
 Now just drag any Quest compatible mods into the upload box and sync. If the mod was originally made for an older version, then it won't automatically enable. To enable an old mod, go to the `Mods` tab and enable it from there.
 
