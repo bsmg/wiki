@@ -1,28 +1,22 @@
 # Custom Avatars
 ## Installation
 The latest Custom Avatar plugin can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant).
-Once installed you should see a file called `CustomAvatar.dll` inside your `Plugins` folder. You should also see a folder called `CustomAvatars` in the main install folder—this is where you will be placing the `*.avatar` files you want to use. You can download more avatars on [ModelSaber](https://modelsaber.com/Avatars/).
+Once installed you should see a file called `CustomAvatar.dll` inside your `Plugins` folder. You should also see a folder called `CustomAvatars` in [your install folder](/faq/install-folder.md) — this is where you will be placing the `*.avatar` files you want to use. 
+
+You can download more avatars on [ModelSaber](https://modelsaber.com/Avatars/).
 
 ## Usage
-::: danger EDITORS NOTE
-This is *very* outdated
-:::
-The plugin uses the keyboard to change the settings. Make sure you have the game in focus, i.e. click on the desktop game window.
-|    Key    | Description                                |
-|:---------:|--------------------------------------------|
-|  Page Up  | Cycles to the next avatar in your list     |
-| Page Down | Cycles to the previous avatar in your list |
-|    Home   | Toggles first person visibility (HMD)            |
+Inside the game in the main menu you will see an `AVATARS` button at the top left of the Mods menu over by the release notes. Pressing it will open up the menu you can use to select which avatar you want to use. There's also additional settings you can change, such as avatar scaling and if the avatar is visible in first person.
 
 ::: warning
 Some avatars were not made with first person view in mind, so they might block your vision if enabled.
 :::
 
 ::: warning
-Avatars are not selected by default. Use Page Up / Page Down with the game in focus to switch to an avatar if none appear at first.
+Avatars are not selected by default. Make sure to go into the right menu and switch to an avatar if none appear at first.
 :::
 
 ## Creating Avatars
-[Assistant's Avatar Guide](https://bs.assistant.moe/Avatars) is a good resource for learning how to make your own avatar.
+[Assistant's Avatar Guide](/models/avatars-guide.html) is a good resource for learning how to make your own avatar.
 
-The guide includes a [short video narrated by Megalon](https://bs.assistant.moe/Avatars#Videos), however it is intended to be an overview and you should watch it in addition to reading the guide, not lieu of.
+The guide includes a [short video narrated by Megalon](/models/avatars-guide.html#videos), however it is intended to be an overview and you should watch it in addition to reading the guide, not lieu of.

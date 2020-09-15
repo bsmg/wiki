@@ -8,6 +8,7 @@ All custom model plugins were created separately by different people. Each mod h
 * [Custom Avatars](./custom-avatars.md)
 * [Custom Platforms](./custom-platforms.md)
 * [Custom Notes](./custom-notes.md)
+* [Custom Walls](./custom-walls.md)
 
 ## Where to find models
 ### ModelSaber
@@ -23,3 +24,10 @@ You can also find an uncurated list _(with potentially more items)_ in the follo
 
 [#pc-models](https://discordapp.com/channels/441805394323439646/599741466201423872/)
 [#quest-models](https://discordapp.com/channels/441805394323439646/599740655857827850/)
+
+## Creating models
+Want to learn how to make your own models? Check out one of our guides down below!
+* [Custom Sabers Guide](./sabers-guide.md)
+* [Custom Avatars Guide](./avatars-guide.md)
+* [Custom Platforms Guide](./platforms-guide.md)
+* [Custom Notes Guide](./notes-guide.md)
