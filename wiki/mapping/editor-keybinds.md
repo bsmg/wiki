@@ -118,11 +118,11 @@ See [General Keybinds: Basic](#basic) for changing edit precision and [Element S
 ### ChroMapper
 #### Strobe Generator
 An advanced tool that allows you to easily generate a strobe or Chroma gradient between two (or more) selected endpoints. It allows you to set what two event types you want to strobe, as well as the two event types you wish to strobe between. You can control the strobe interval, whether or not chroma gradients can form, and much more.  
-![Strobe Generator Window](./images/cm_strobeGenerator.png)
+![Strobe Generator Window](~@images/mapping/cm_strobeGenerator.png)
 
 #### Node Editor
 An advanced tool that allows you to view and edit a selected object as it will appear in the exported map data file. You can manually edit each and every map object, allowing for a degree of control no other editor has. Essentially an easier way to JSON edit your map.  
-![Node Editor Window](./images/cm_nodeEditor.png)
+![Node Editor Window](~@images/mapping/cm_nodeEditor.png)
 
 ## Credits
 Content in this section was authored by [The Good Boi](/mapping/mapping-credits.html#the-good-boi), [Caeden117](/mapping/mapping-credits.html#caeden117), and [Bloodcloak](/mapping/mapping-credits.html#bloodcloak). Idea by [Helen Carnate](/mapping/mapping-credits.html#helen-carnate). 

@@ -61,15 +61,15 @@ Read more about it [here](https://github.com/0xd4d/dnSpy).
 
 If all has been done correctly, things should look something like this, without the large list of files on the left side.
 
-![Dnspy Start](./images/dnspy-start.png "Starting Page")
+![Dnspy Start](~@images/modding/dnspy-start.png "Starting Page")
 
 Then go to `File >> Open`, then locate and open the compiled Beat Saber code located in `\<Beat Saber Directory>\Beat Saber_Data\Managed\Assembly-CSharp.dll`
 
-![Dnspy Start](./images/dnspy-assembly.png "Code Location")
+![Dnspy Start](~@images/modding/dnspy-assembly.png "Code Location")
 
 You can also use dnSpy to view and even edit the code of plugins, even those that have not yet published to GitHub. Be wary, though! Snooping around in other's code without permission is a bad idea.
 
-![dnSpy Example](./images/dnspy-example.png "dnSpy Example")
+![dnSpy Example](~@images/modding/dnspy-example.png "dnSpy Example")
 
 ## Harmony
 Harmony is a library for patching compiled .NET and Mono methods during runtime.
@@ -101,4 +101,4 @@ From there, add `using BS_Utils.Utilities;` to the top of your file and access i
 ### Basic Use
 Here is a basic use case of `ReflectionUtil`, by grabbing the two sabers from the `PlayerController` class.
 
-![ReflectionUtil Example](./images/reflectionutilexample.png "ReflectionUtil Example")
+![ReflectionUtil Example](~@images/modding/reflectionutilexample.png "ReflectionUtil Example")
