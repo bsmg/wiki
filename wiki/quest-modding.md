@@ -5,8 +5,9 @@ sidebar: auto
 
 ## Installation 
 
-Currently the only recommended way to install custom songs and mods is BMBF sideloaded with SideQuest.
-* [BMBF apk](https://bmbf.dev/stable)
+Currently the only recommended way to install custom songs and mods is BMBF sideloaded with SideQuest. You can also do this with ADB (Android Developer Bridge), though the process is a little more complicated.
+* [BMBF apk](https://bmbf.dev/stable) 
+
 
 ### Installing BMBF with SideQuest
 
@@ -34,6 +35,35 @@ After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown 
 If, at any point during the install process, you get the `Restore App` popup just click `Close`, the warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences for ignoring it.
 
 ![RestoreApp](~@images/beginners-guide/restoreapp.png)
+
+### Android Developer Bridge (advanced)
+
+ADB is a tool used to do things such as sideloading apps, transfering files, controlling some basic functions of a device, communicating with a device in fastboot, and even repartitioning a device. The tool is intended to help developers test apps and such, but we can use it to sideload apps.
+
+1. Install ADB
+
+ADB is included in `platform-tools` which you can install from [Android's Webside](https://developer.android.com/studio/command-line/adb), on homebrew with `brew cask install android-platform-tools`, or on linux with `sudo apt install adb`. 
+
+2. Enable Developer mode.
+
+Next, you need to enable developer mode. On the Oculus app, go to Settings > More Settings > Developer Mode > turn on Developer Mode.
+
+3. Connect your quest.
+
+Now you need to connect your headset to ADB. Plug in your Quest, then go to your command line and run `adb devices`. If it gives you an unknown command error, you will need to `cd` to the directory that has `platform-tools` and run `./adb devices`. This will give this output:
+```
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+List of devices attached
+<xxxxxxxxxxx>	unauthorized
+```
+Go to your quest, and when you see the 'authorize this computer' screen, click 'ok.' Run `adb devices` again, and `unauthorized` should turn into `device`.
+
+4. Install the APK
+
+Moment of truth! Install the APK. Run `adb install /path/to/com.weloveoculus.BMBF.apk`. On your quest, launch BMBF and follow the instructions.
+
+
 
 ## Restoring save data
 
