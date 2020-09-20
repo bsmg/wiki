@@ -20,9 +20,9 @@ $ export WINEARCH="win32"
 $ export WINEPREFIX=~/.winemods
 $ wineboot -u
 ```
-2. Install the dotnet472 package using winetricks. If it asks to restart choose 'Restart later'.
+2. Install the dotnet472 and d3dcompiler_47 packages using winetricks. If it asks to restart choose 'Restart later'.
 ```bash
-$ winetricks dotnet472
+$ winetricks dotnet472 d3dcompiler_47
 ```
 
 ![dotnet472](https://i.imgur.com/r62nmZW.png)
