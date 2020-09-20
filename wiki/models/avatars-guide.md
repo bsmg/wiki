@@ -10,7 +10,7 @@ _Assistant's Guide to adding Full Body Avatars to Beat Saber_
 ## Introduction
 Alright boys and girls, your favorite Assistant is going to teach you how to take your favorite anime models and put them into 3D Osu!
 
-I will be assuming you have a basic grasp of blender and Unity and have made avatars for VRChat in the past. If not there's [plenty of tutorials out there](http://bfy.tw/IQ0F). This guide will start at the point when you're ready to export a fbx file to use on Unity. There is [a video](/models/avatars-guide.html#videos) of me creating an avatar if you'd like something to follow along with. It is narrated by Megalon since a freak accident took away my ability to speak and edit videos. CC's coming soon™.
+I will be assuming you have a basic grasp of blender and Unity and have made avatars for VRChat in the past. If not there's [plenty of tutorials out there](http://bfy.tw/IQ0F). This guide will start at the point when you're ready to export a fbx file to use on Unity. There is [a video](#videos) of me creating an avatar if you'd like something to follow along with. It is narrated by Megalon since a freak accident took away my ability to speak and edit videos. CC's coming soon™.
 
 ## Shape Keys: Turning Bad Touch into Good Touch
 So you don't want your waifu to hold the sabers through the sheer power of plot armor and sticky hands, but she doesn't have a fist shape key. To add one, we'll be using blender again, now I know I said we were ready to export, but I'm like 12 and have the attention span of
@@ -45,7 +45,7 @@ Then hit Stop Pose Mode.
 Open the [Avatar Unity Project](https://bs.assistant.moe/Avatars/resources/UnityProject.zip).
 
 ::: danger IMPORTANT
-Use Unity version [2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe). And make sure to follow [these instructions](/models/avatars-guide.html#unity-2018).
+Use Unity version [2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe). And make sure to follow [these instructions](#unity-2018).
 :::
 
 Import the fbx file with your waifu, and create an empty game object with her name, but don't drag her in yet.
@@ -126,7 +126,7 @@ If you're re-exporting an avatar make sure to delete the previous file, it will 
 :::
 
 ::: tip NOTE
-Once you've got your avatar exported, [upload them to ModelSaber](https://modelsaber.com/Upload/) if you want to share it with the world.
+Once you've got your avatar exported, [upload them to ModelSaber](https://modelsaber.com) if you want to share it with the world.
 :::
 
 Now go weeb out to the Nico Nico Nii remix as your waifu or something. Assistant out.

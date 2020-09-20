@@ -50,7 +50,7 @@ The spectrogram script works like the track rings script and also requires a pre
 
 Export the platform trough the script that you previously added to the gameObject to the location of your choosing. Preferably the game's directory `Beat Saber/CustomPlatforms`.
 ::: tip NOTE
-**Once you've got your new sabers working**, [upload them to ModelSaber](https://modelsaber.com/Upload/) if you want to share them with the world.
+**Once you've got your new sabers working**, [upload them to ModelSaber](https://modelsaber.com) if you want to share them with the world.
 :::
 
 ![Cat](~@images/models/platforms/Cat.png)
