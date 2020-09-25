@@ -12,6 +12,7 @@ RUN apk add --no-cache bash git openssh
 RUN yarn install --frozen-lockfile
 
 # Build source
+COPY ./.git ./.git
 COPY ./wiki ./wiki
 RUN yarn run build:prod
 
