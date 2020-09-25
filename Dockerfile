@@ -4,11 +4,8 @@ FROM node:12-alpine AS builder
 # Create app directory
 WORKDIR /usr/app
 
-# Copy package info
-COPY package.json yarn.lock ./
-
 # Install app dependencies
-RUN apk add --no-cache bash git openssh
+COPY package.json yarn.lock ./
 RUN yarn install --frozen-lockfile
 
 # Build source
