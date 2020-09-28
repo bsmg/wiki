@@ -43,6 +43,7 @@ Text guides aren't your thing? Checkout these video series!
 #### Recommended
 * [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) - a comprehensive series on making your first map.
 * [Cyrix's Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw) - covers the most common issues discussed in [Basic Mapping](/mapping/basic-mapping.md).
+* [TranquillizeMe's Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc) - covers various lighting techniques and general lighting tips.
 
 #### Legacy Videos
 ::: warning

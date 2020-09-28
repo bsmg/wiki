@@ -51,7 +51,7 @@ Special characters in languages such as, Japanese (日本語/にほんご), Chin
 * Read up more on non-Mapping Extensions walls in [Intermediate Mapping](/mapping/intermediate-mapping.md) and read more on “fancy” walls in [Extended Mapping](/mapping/extended-mapping.md)
 
 **A few notes about bombs:**
-* Bomb hitboxes are smaller than block hitboxes, smaller even than the bomb model itself
+* Bomb hitboxes are smaller than block hitboxes, smaller even than the bomb model itself.
 * Bombs are hard to see when there are no lighting events active. Make sure your map isn’t dark when bombs are coming up. See [Basic Lighting](/mapping/basic-lighting.html) for more tips.
 * Bombs can still be hit once they have passed the player.
 
@@ -106,7 +106,7 @@ Not everyone uses timing notes but they can be a helpful way to ensure your maps
 Deliberately place blocks that match the music. Don't place more blocks than necessary just for the sake of making the map difficult. Some songs were never meant to be super-dense ExpertPlus maps and that’s ok.
 
 * **Overmapping** is the (bad) practice of placing more blocks than there are sounds. Don’t do it.
-* **Undermapping** is the very acceptable practice of skipping some notes/beats (especially at lower difficulties)
+* **Undermapping** is the very acceptable practice of skipping some notes/beats (especially at lower difficulties).
 
 ### Emphasis & Consistency
 We’ll go into more detail on this in [Intermediate Mapping](/mapping/intermediate-mapping.md) but, as a new mapper you should understand at least the basic ideas of emphasis and consistency and how they impact your map. 
@@ -135,15 +135,15 @@ Vision blocks are any patterns that obscure the player’s vision and make it di
 **Vision blocks can be avoided by:** 
 * Not using the center two positions of the track or
 * Ensuring that blocks following anything in the middle row are either far enough away or in another position to the right or left of the block.
-* Making sure that your player is pushed to the side with either obstacles or patterns so the center positions no longer completely block the player
+* Making sure that your player is pushed to the side with either obstacles or patterns so the center positions no longer completely block the player.
 
 | Ideal Block Placement | Vision Block Placement |
 |:----:|:----:|
 | ![](~@images/mapping/no-vision-blocks.jpg) | ![](~@images/mapping/face-notes.jpg) |
-| When you’re getting started, stick<br />to the perimeter of the track | These are called face notes.<br />Avoid them as a new mapper |
+| When you’re getting started, stick<br />to the perimeter of the track. | These are called face notes.<br />Avoid them as a new mapper. |
 
 ::: tip  
-**Mediocre Map Assistant 2** has a built-in handy-dandy error checker that can find vision blocks. Learn more in the [MMA2 User Guide](/mapping/mediocre-map-assistant#error-checker)
+**Mediocre Map Assistant 2** has a built-in handy-dandy error checker that can find vision blocks. Learn more in the [MMA2 User Guide](/mapping/mediocre-map-assistant#error-checker).
 :::
 
 ### Double Directionals & Resets
@@ -213,7 +213,7 @@ These are called forbidden patterns for a reason. There is no reason in the worl
 #### Hammer Hits
 | Illustration | Editor View | Explanation |
 |:----:|:----:|:---- |
-| ![Illustration of a hammer hit](~@images/mapping/hammer-hit.png) | ![Editor view of a hammer hit](~@images/mapping/hammer-hit-alt.png) | Any directional block pointing towards a bomb on the same plane is just evil (and undermines the [scoring system](link). Don’t do it. No exceptions. |
+| ![Illustration of a hammer hit](~@images/mapping/hammer-hit.png) | ![Editor view of a hammer hit](~@images/mapping/hammer-hit-alt.png) | Any directional block pointing towards a bomb on the same plane is just evil (and undermines the scoring system). Don’t do it. No exceptions. |
 
 #### Disembodied notes
 | Illustration | Editor View | Explanation |
@@ -263,12 +263,12 @@ These are called forbidden patterns for a reason. There is no reason in the worl
 #### Triangle
 | Illustration | Editor View | Explanation |
 |:----:|:----:|:---- |
-| ![Illustration of a triangle](~@images/mapping/triangle.png) | ![Editor view of a triangle](~@images/mapping/triangle-alt.png) | Triangles are patterns that cause incredibly uncomfortable wrist resets  when used at high precision and speed. The pattern breaks the forehand/backhand mechanic and can injure your player. See the [Mapping with Flow](/mapping/basic-mapping.html#do-mapping-with-flow) to revisit this explanation.<br /><br />**Note 1:** Not all triangle shaped patterns are cursed triangles. Make sure you are always crossing the parity line with each swing.<br /><br />**Note 2:** This sort of pattern plays differently at hard difficulties and below when there are a couple of beats between each swing but stay away at Expert and ExpertPlus |
+| ![Illustration of a triangle](~@images/mapping/triangle.png) | ![Editor view of a triangle](~@images/mapping/triangle-alt.png) | Triangles are patterns that cause incredibly uncomfortable wrist resets  when used at high precision and speed. The pattern breaks the forehand/backhand mechanic and can injure your player. See the [Mapping with Flow](/mapping/basic-mapping.html#do-mapping-with-flow) to revisit this explanation.<br /><br />**Note 1:** Not all triangle shaped patterns are cursed triangles. Make sure you are always crossing the parity line with each swing.<br /><br />**Note 2:** This sort of pattern plays differently at hard difficulties and below when there are a couple of beats between each swing but stay away at Expert and ExpertPlus. |
 
 #### Right Triangle
 | Editor View | Explanation |
 |:----:|:---- |
-| ![Editor View of a Right Triangle](~@images/mapping/right_triangle.png) ![Editor View of a Right Triangle Variant](~@images/mapping/right_triangle-exit.png) | A variation of a [Triangle](#triangle) that has a 90 degree hit on the first or third note. This is far worse in causing incredibly uncomfortable wrist resets at most speeds compared to a regular Triangle. The pattern breaks the forehand/backhand mechanic and can injure your player. See the [Mapping with Flow](/mapping/basic-mapping.html#do-mapping-with-flow) to revisit this explanation.<br /><br />**Note:** This sort of pattern plays differently at hard difficulties and below when there are a couple of beats between each swing but **absolutely** stay away at Expert and ExpertPlus |
+| ![Editor View of a Right Triangle](~@images/mapping/right_triangle.png) ![Editor View of a Right Triangle Variant](~@images/mapping/right_triangle-exit.png) | A variation of a [Triangle](#triangle) that has a 90 degree hit on the first or third note. This is far worse in causing incredibly uncomfortable wrist resets at most speeds compared to a regular Triangle. The pattern breaks the forehand/backhand mechanic and can injure your player. See the [Mapping with Flow](/mapping/basic-mapping.html#do-mapping-with-flow) to revisit this explanation.<br /><br />**Note:** This sort of pattern plays differently at hard difficulties and below when there are a couple of beats between each swing but **absolutely** stay away at Expert and ExpertPlus. |
 
 ### MAYBE: Highly Situational Patterns
 These patterns are OK to use but only in very specific circumstances or with very specific setup. It’s best to steer clear of these until you’re much more comfortable with mapping.
@@ -306,7 +306,7 @@ These patterns are OK to use but only in very specific circumstances or with ver
 #### Extended Crouch
 | Illustration | Editor View | Explanation |
 |:----:|:----:|:---- |
-| ![Illustration of extended crouch](~@images/mapping/extended-crouch.png) | ![Editor view of extended crouch](~@images/mapping/extended-crouch-alt.png) | Consider your target audience when using extended sections of top walls. You can't predict all players' physical ability, so use this in moderation. If you have notes immediately following a crouching section, make the starting direction UP, and consider visibility due to the player’s lower position.<br /><br />**Note:** Avoid placing blocks under a crouch wall, but if you must, always place them on the bottom row sides with horizontal slice directions (or dots) |
+| ![Illustration of extended crouch](~@images/mapping/extended-crouch.png) | ![Editor view of extended crouch](~@images/mapping/extended-crouch-alt.png) | Consider your target audience when using extended sections of top walls. You can't predict all players' physical ability, so use this in moderation. If you have notes immediately following a crouching section, make the starting direction UP, and consider visibility due to the player’s lower position.<br /><br />**Note:** Avoid placing blocks under a crouch wall, but if you must, always place them on the bottom row sides with horizontal slice directions (or dots). |
 
 #### Corner Crouch
 | Illustration | Editor View | Explanation |
@@ -333,6 +333,11 @@ These patterns are OK to use but only in very specific circumstances or with ver
 |:----:|:----:|:---- |
 | ![Illustration of arm tangles](~@images/mapping/arm-tangle.png) | ![Editor view of arm tangles](~@images/mapping/arm-tangle-alt.png) | Crossing hands is usually fine, but crossing hands and going in opposite directions vertically causes the player’s arms to hit each other. Reverse these colors and you’re good to go. This is only one example of an arm tangle. Always be aware of where you're leaving your player's arms and how they are going to escape from that position to hit the next pattern. |
 
+#### Face Punchers
+| Editor View | Exaplanation |
+|:----:|:---- |
+| ![Editor view of a face puncher](~@images/mapping/facepuncher-alt.png) | Face punchers are blocks placed in the opposite top corners pointing outwards. This placement requires the player to perform a large crossover in a direction that potentially causes their controllers to smash into their headset. <br></br> **Never** use a double of face punchers. |
+
 ## Gauging Difficulty & Down-Mapping
 Many mappers tend to map the difficulty level at which they play but there are plenty of benefits to mapping lower difficulties:
 
@@ -349,7 +354,7 @@ While it’s best to stick within conventional ranges to start, as long as your 
   <img src="~@images/mapping/ost-extras-nps.png" alt="a table of NPS values from official content">
 </p>
 
-The above table of average notes per second (NPS) for the OST Extras shows how tracks like “What The Cat!?” are quite dense at the highest difficulty and the easy is also more dense than other easy levels. In each of these cases there is still a progression from Easy to ExpertPlus
+The above table of average notes per second (NPS) for the OST Extras shows how tracks like “What The Cat!?” are quite dense at the highest difficulty and the easy is also more dense than other easy levels. In each of these cases there is still a progression from Easy to ExpertPlus.
 
 ### Pattern Complexity
 Map difficulty should come from pattern complexity with a great deal of attention given to how well they flow together. You might have a lower density expert, for example, that includes a lot of technical patterns that require more time to adequately sightread.
@@ -384,6 +389,8 @@ There are several terms related to how the speed of gameplay feels. These are al
 * **Half Jump Duration** is how far in advance blocks appear in time (beats).
 * **Spawn Distance Offset**  is a modifier which increases the spawn distance. This can make the NJS feel slower since the blocks will spawn further away and the player has more time to react.
 
+Summary video demonstrating the effect of these values in-game: [YouTube](https://youtu.be/S70CDoWjdwk), [Streamable](https://streamable.com/2l7fz9).
+
 Changing the NJS or Offset values will modify the half jump and spawn distance. Community editors will show you how these values change when making adjustments. Fine-tuned NJS and offset are a matter of personal taste but try to hit a half jump of 2 or 3 beats and a spawn distance of 26-30 meters.
 
 ::: warning
@@ -404,7 +411,7 @@ When mapping very fast Expert+ maps, make sure you increase the Note Jump Speed,
 Setting your NJS really high is **not** the right way to increase difficulty. Use higher note density and more complex patterns (with good flow).
 :::
 
-For more information, see the [Note Jump Speed & Spawn Distance](/mapping/intermediate-mapping.md#note-jump-speed-spawn-distance) section in [Intermediate Mapping](/mapping/intermediate-mapping.md)
+For more information, see the [Note Jump Speed & Spawn Distance](/mapping/intermediate-mapping.md#note-jump-speed-spawn-distance) section in [Intermediate Mapping](/mapping/intermediate-mapping.md).
 
 ## Playtesting
 Already mentioned in detail on the [Mapping Home Page](/mapping.html#playtesting) it’s important enough to mention again here:
