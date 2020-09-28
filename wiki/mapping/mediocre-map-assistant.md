@@ -293,6 +293,12 @@ ___
 * Press `F`  
    * You can review the keybindings by pressing <kbd>ESC</kbd> for the in-editor list or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). 
 ___
+#### **Map doesn't load in game**
+* This error is caused by incorrect information in the `Info.dat`.
+   * A difficulty's `"_beatmapFilename"` in the `Info.dat` might be using a different file name than what is present in the folder.
+   * A deleted difficulty is still being referenced in your `Info.dat` file. 
+      * Check to make sure you do not have unintended difficulties in the `"_difficultyBeatmaps"` cluster of each present characteristc.  
+___
 #### **One Saber maps don't load in game**  
 * Open the map's Info.dat in a text editor and find the line `"_beatmapCharacteristicName": "One Saber",` and replace with `"_beatmapCharacteristicName": "OneSaber",`
 ___
