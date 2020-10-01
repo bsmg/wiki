@@ -7,7 +7,9 @@ sidebar: auto
 
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with SideQuest.
 * [BMBF apk](https://bmbf.dev/stable)
-
+:::warning
+Installing BMBF will break the base game leaderboards, as Oculus does not allow scores to be authenticated on a modded game.
+:::
 ### Installing BMBF with SideQuest
 
 If you haven't already, download and setup [SideQuest](https://sidequestvr.com/#/setup-howto)
