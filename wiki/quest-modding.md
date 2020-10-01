@@ -97,7 +97,7 @@ If you want to test a map you have created see the [Testing on a Quest](/mapping
 * [QuestSaber Community](https://discord.gg/NXnPYEh) - Server dedicated to making and using Quest Sabers
 * [Guide on creating Qsabers](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/Creating-Qsabers) - Quest specific sabers that would be compatible between game updates
 * [Fixing Out of Sync Audio](https://bsaber.com/quest-out-of-sync/)
-* [ScoreSaber - Leaderboards for Custom Songs](https://new.scoresaber.com/quest)
+* [ScoreSaber](https://new.scoresaber.com/quest) - In-game leaderboards for custom songs
 
 ## Troubleshooting
 ### Adding mods from the headset/bsaber.com doesn't work
