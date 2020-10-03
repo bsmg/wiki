@@ -171,7 +171,7 @@ Comparison of the same red with different alphas.
 
 In comparison to the older format, gradients can be created with a single event using the `_lightGradient` property.
 Example gradient linearly easing from red to blue over 2 beats:
-```
+```json
 "_customData": {
 	"_lightGradient": {
 		"_duration": 2,

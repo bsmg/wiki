@@ -155,7 +155,7 @@ The `Song Info` page is the first screen you see every time you edit a map.
 On the left side of the `Song Info` page is information that applies to your whole map. See [Beat Saber Metadata Criteria](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) for standards on presenting complex song names and multiple artists.
 
 ::: warning
-Special characters such as those found in, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ) are not fully supported by BeatSaver. Using these characters in song metadata or in bookmarks will cause problems.
+Special characters such as those found in, Japanese (日本語/にほんご), Kaomoji (٩(◕‿◕｡)۶), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ) are not fully supported by BeatSaver. Using these characters in song metadata or in bookmarks will cause problems.
 :::
 
 * **Song Name:** The primary name of the song
@@ -292,6 +292,12 @@ ___
 #### **I can't figure out how to place dot notes**  
 * Press `F`  
    * You can review the keybindings by pressing <kbd>ESC</kbd> for the in-editor list or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). 
+___
+#### **Map doesn't load in game**
+* This error is caused by incorrect information in the `Info.dat`.
+   * A difficulty's `"_beatmapFilename"` in the `Info.dat` might be using a different file name than what is present in the folder.
+   * A deleted difficulty is still being referenced in your `Info.dat` file. 
+      * Check to make sure you do not have unintended difficulties in the `"_difficultyBeatmaps"` cluster of each present characteristc.  
 ___
 #### **One Saber maps don't load in game**  
 * Open the map's Info.dat in a text editor and find the line `"_beatmapCharacteristicName": "One Saber",` and replace with `"_beatmapCharacteristicName": "OneSaber",`

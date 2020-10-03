@@ -116,7 +116,7 @@ This one demonstrates a change from 1:1 instrument:light mapping to a focused em
 When lighting for an environment, you may have wanted to remove unwanted parts of the environment. With the use of the Chroma mod, you can do just that! By specifying the `_environmentRemoval` field under the `_customData` of each difficulty in the `Info.dat`, you can remove specific parts of the environment. Note that Chroma must be listed as a suggestion or requirement in order for environment removal to work.
 
 Example removing the Monstercat logo from the environment:
-```
+```json
 "_customData" : {
   "_suggestions": [
     "Chroma"
