@@ -10,7 +10,7 @@ Currently the only recommended way to install custom songs and mods is BMBF side
 :::warning
 Installing BMBF and modding your game will disable viewing and uploading scores on base game leaderboards. This is because Oculus does not authenticate scores from modded games. See [ScoreSaber](https://new.scoresaber.com/quest) for information on setting up ScoreSaber, the community leaderboard system on your Quest. 
 
-Note: Scoresaber does not replace the base game leaderboards, it only adds leaderboards for custom songs.
+Note: ScoreSaber does not replace the base game leaderboards, it only adds leaderboards for custom songs.
 :::
 ### Installing BMBF with SideQuest
 
