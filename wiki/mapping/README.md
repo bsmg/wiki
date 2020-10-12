@@ -45,6 +45,12 @@ Text guides aren't your thing? Checkout these video series!
 * [Cyrix's Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw) - covers the most common issues discussed in [Basic Mapping](/mapping/basic-mapping.md).
 * [TranquillizeMe's Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc) - covers various lighting techniques and general lighting tips.
 
+:::warning I watched this video by Elite Eric, but I got stuck/it didn't work. What gives?
+We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After reviewing much of his content, they contain a large amount of incomplete, erroneous, or straight up incorrect information. Attempts to reach out to him to correct these errors has unfortunately been met with silence and new (also incorrect) tutorials.
+
+Instead, you should follow the written guides here on the wiki, watch the vetted tutorials made by BSMG members linked above, or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
+:::
+
 #### Legacy Videos
 ::: warning
 These series use older editors in their tutorials (Mediocre Mapper and EditSaber). The UI and some processes have changed in the latest recommended editor, [MMA2](/mapping/mediocre-map-assistant.md) but, the rest of the content is great!
@@ -142,8 +148,6 @@ Python program that converts stepmania `.sm` files to Beat Saber `.dat` files fo
 Easily compile a game playlist from a txt file containing BeatSaver map keys.
 * [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) by **DarkGrisen**  
 Ever thought that it is a lot of annoying work to make big maps with other people or to perfectly cut the audio files so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map. 
-* [BPM Saber](https://bsaber.com/bpmsaber/) by **Elliotttate**  
-A utility for finding the BPM of a song by upload or tapping.
 * [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
 Video guide on using the timing feature of osu!'s editor to find map bpm.
 * [Parity Checker](https://galaxymaster2.github.io/bs-parity/) by **GalaxyMaster**  
@@ -152,6 +156,8 @@ An error checker tool that focuses on finding issues with parity in a map.
 #### Legacy Tools
 * [BPM Saber](https://github.com/zevdg/bpm-saber#readme), by **Zevdg**  
 **Only works on old format .json files. For new format .dat maps use the Tempo Changer in +1 Rabbit's Mapping Tools.** Change the BPM of an entire map and shift block placements accordingly
+* [BPM Saber](https://bsaber.com/bpmsaber/) by **Elliotttate**  
+A utility for finding the BPM of a song by upload or tapping.
 
 ### Useful Mods
 Here are some mods that might make your mapping workflow a little easier.

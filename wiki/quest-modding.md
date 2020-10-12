@@ -12,6 +12,7 @@ Installing BMBF and modding your game will disable viewing and uploading scores 
 
 Note: ScoreSaber does not replace the base game leaderboards, it only adds leaderboards for custom songs.
 :::
+
 ### Installing BMBF with SideQuest
 
 If you haven't already, download and setup [SideQuest](https://sidequestvr.com/#/setup-howto)
@@ -100,6 +101,11 @@ If you want to test a map you have created see the [Testing on a Quest](/mapping
 * [ScoreSaber](https://new.scoresaber.com/quest) - In-game leaderboards for custom songs
 
 ## Troubleshooting
+:::warning I watched this video by Elite Eric, but I got stuck/it didn't work. What gives?
+We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After reviewing much of his content, they contain a large amount of incomplete, erroneous, or straight up incorrect information. Attempts to reach out to him to correct these errors has unfortunately been met with silence and new (also incorrect) tutorials.
+
+Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
+:::
 ### Adding mods from the headset/bsaber.com doesn't work
 The reason adding mods and sabers from [BeastSaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods) 
 

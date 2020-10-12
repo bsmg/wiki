@@ -329,7 +329,15 @@ ___
 * Navigate to your `\AppData\Local` and delete the `MediocreMapAssistant2` folder. Then run `mediocremapassistant2.exe` and follow [First Time Setup](#first-time-setup) again.
    * You can copy and paste this path into the file explorer address bar to quickly get to the folder: `C:\Users\%username%\AppData\Local\MediocreMapAssistant2`
 ___
-#### **When I open the editor, it crashes with a LowLevelFatalError: [Line 90] Failed to load module**  
+#### **When I open the editor, it crashes with a Error: The following component(s) are required to run this program: DirectX Runtime**  
+![FatalError](~@images/mapping/mma2-no_directx.jpg)
+* If your error matches what is shown in the picture. Close out of the dialog and install this [DirectX driver](https://www.microsoft.com/download/details.aspx?id=35).
+   * If you get this error while installing the driver.  
+   ![directX Install Error](~@images/mapping/mma2-directXError.png)
+      1) Download and run the [.NET Framework Repair Tool](https://docs.microsoft.com/dotnet/framework/install/repair). 
+      2) Restart your computer and rerun the DirectX driver installer.
+___
+#### **When I open the editor, it crashes with a LowLevelFatalError: [Line XX] Failed to load module**  
 ![FatalError](~@images/mapping/mma2-physXerror.png)
 * If your error matches what is shown in the picture. Close out of the dialog and install this [DirectX driver](https://www.microsoft.com/download/details.aspx?id=35).
    * If you get this error while installing the driver.  
