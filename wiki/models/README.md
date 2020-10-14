@@ -20,10 +20,7 @@ All models are manually approved before appearing on the site.
 :::
 
 ### Discord
-You can also find an uncurated list _(with potentially more items)_ in the following channels on the [BSMG Discord](https://discord.gg/beatsabermods).
-
-[#pc-models](https://discordapp.com/channels/441805394323439646/599741466201423872/)
-[#quest-models](https://discordapp.com/channels/441805394323439646/599740655857827850/)
+You can also find an uncurated list _(with potentially more items)_ in the `#pc-models` channel on the [BSMG Discord](https://discord.gg/beatsabermods) for PC and [Qosmetics Discord](https://discord.gg/MEBVngG) for Quest.
 
 ## Creating models
 Want to learn how to make your own models? Check out one of our guides down below!
