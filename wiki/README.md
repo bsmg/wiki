@@ -45,6 +45,7 @@ tags:
 
 ## External Links
 * [Join the Discord server!](https://discord.gg/beatsabermods)
+* [BSMG Patreon](https://www.patreon.com/beatsabermods) - Support the BSMG Services!
 * [BeatMods](https://beatmods.com) - Repository of mods that are reflected in installers like ModAssistant
 * [BeatSaver](https://beatsaver.com/) - Download custom songs here
 * [BeastSaber](https://bsaber.com/) - Reviews, articles, playlists, and more!
@@ -52,4 +53,3 @@ tags:
 * [ScoreSaber](https://scoresaber.com/) - Custom leaderboards
 * [Steam Store Page](https://store.steampowered.com/app/620980/Beat_Saber/)
 * [Oculus Store Page](https://www.oculus.com/experiences/rift/1304877726278670/)
-* [Mod History](https://docs.google.com/spreadsheets/d/1eVRbCUyaXjKUJRSNPZWERUO9tULK415buU0q-H7Z0dY/edit#gid=0)

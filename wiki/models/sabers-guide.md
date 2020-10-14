@@ -12,7 +12,7 @@ Since people are still having trouble with making custom sabers, we think that i
 ## Preparation
 MUST HAVE:
 * Unity 2018.1.6f1 to make a custom saber file (*.saber). [Download HERE](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe)
-* The Custom Saber Unity project. [Download HERE](https://bs.assistant.moe/Sabers/resources/CustomSaberUnityProject.zip)
+* The Custom Saber Unity project. [Download HERE](https://cdn.discordapp.com/attachments/468249466865057802/703747388556181534/Custom_Sabers-4.3.0-UnityProject.zip)
 * A 3d model file of the saber of your choice. The most common and acceptable file formats are .obj and .fbx files. You can download your saber from 3d model hosting/showcase sites like Sketchfab or turbosquid.
 
 Optional:

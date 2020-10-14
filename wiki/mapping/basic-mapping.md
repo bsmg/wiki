@@ -56,19 +56,15 @@ Special characters in languages such as, Japanese (日本語/にほんご), Chin
 * Bombs can still be hit once they have passed the player.
 
 ### Block Distribution
-As a *very general* rule of thumb for new mappers, blocks should be distributed roughly as follows:
+This varies based on the target difficulty and audience you are mapping for. For example, some players in the lower difficulties might be overwhelmed by a balanced distribution across the three rows compared to a more experienced player that can handle multiple jumps across the rows. Block distribution can also vary between mapping styles at the same difficulty level.
 
-* 60-80% on the bottom row
-* 10% or less on the top row
-* The rest on the middle row
-
-This is one of the more flexible guidelines for new mappers but it's still helpful to stay in this range for your first map or two before experimenting. Certain styles of maps (like dance maps) will have a higher percentage of blocks on the top row but always remember to consider your target audience and their comfort.
+For more on row usage in different difficulties, see [Gauging Difficulty](/mapping/basic-mapping.html#gauging-difficulty-down-mapping).
 
 ::: tip 
 If you’re using [Mediocre Map Assistant 2](/mapping/mediocre-map-assistant.html) as your editor you can hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd> to open the error checker then click the <kbd>Stat Panel</kbd> button to see this breakdown. 
 :::
 
-For more on row usage in different difficulties, see [Gauging Difficulty](/mapping/basic-mapping.html#gauging-difficulty-down-mapping).
+
 
 ## Timing & Rhythm
 Before you start mapping in earnest you need to think about the rhythm of the song you want to map. You’ll place blocks on one or more of the main instruments in the song: the drum beat, lead instrument, bass, synths, or even vocals. 
