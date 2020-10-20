@@ -23,13 +23,14 @@ See [mapping](/mapping/)!
 
 ## How do I load plugins that aren't in Mod Assistant?
 See [this section](/pc-modding.md#manual-installation) in the beginners guide.
-## How does the multiplayer mod work?
 
-The official multiplayer has not been released, but you can use the multiplayer mod by Andruzzzhka.  
-[Here is a guide to set up the multiplayer mod.](https://bs.assistant.moe/Multiplayer/)
+## How does the multiplayer mod work?
+Multiplayer is available Officially as of update 1.12.X. However, the Multiplayer Mod by Andruzzzhka allows for easier ways to play custom songs, as well as more than five players.
+If you want to use the multiplayer mod instead of the Official Multiplayer, [You can find information Here.](https://bs.assistant.moe/Multiplayer/)
+**Note:** This mod has not been updated to version 1.12.X yet, and may not be 100% Compatible.
 
 ## My game updated and now none of my mods are working!
-Each time the game updates it is possible *(and very likely)* that your existing will stop working and need to be updated.
+Each time the game updates it is possible *(and very likely)* that your existing mods will stop working and need to be updated.
 The devs realized this, so when the game updates and you run it for the first time, everything in the `Plugins` folder is moved into the `Incompatible Plugins` folder. **Leave those plugins in there!**
 
 To get mods back, simply **run the installer again.**  
