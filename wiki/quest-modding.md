@@ -2,9 +2,14 @@
 sidebar: auto
 ---
 # Quest Modding
+## Clarification
+- This guide works for both original Quest and Quest 2
+- After modding you will not be able to play Multiplayer or see ost leaderboards.
+- Don't leave bad reviews on Beat Saber because BMBF doesn't work.
+- Nobody has been banned cause of modding atm.
 
 ## Installation 
-**This guide works for both original Quest and Quest 2
+
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with SideQuest.
 * [BMBF apk](https://bmbf.dev/stable)
 :::warning
@@ -35,7 +40,7 @@ Run Beat Saber once and close it before modding!
 :::
 
 After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown Sources in your library.
-![UnknownSourced]()
+![UnknownSourced](https://github.com/ComputerElite/wiki-1/blob/patch-1/wiki/Home%20Menu.jpg)
 
 Follow each step exactly as you're told, and then you should see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
 
