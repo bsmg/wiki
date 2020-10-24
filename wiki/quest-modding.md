@@ -4,7 +4,7 @@ sidebar: auto
 # Quest Modding
 
 ## Installation 
-
+**This guide works for both original Quest and Quest 2
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with SideQuest.
 * [BMBF apk](https://bmbf.dev/stable)
 :::warning
@@ -34,7 +34,10 @@ Once they've successfully installed, make sure you have the latest version of Be
 Run Beat Saber once and close it before modding!
 :::
 
-After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown Sources in your library. Follow each step exactly as you're told, and then you should see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
+After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown Sources in your library.
+![UnknownSourced]()
+
+Follow each step exactly as you're told, and then you should see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
 
 If, at any point during the install process, you get the `Restore App` popup just click `Close`, the warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences for ignoring it.
 
@@ -131,6 +134,9 @@ ___
 ### BMBF not loading configuration after a few minutes
 This is likely due to using an outdated version of Beat Saber being used with BMBF.
 If you are not using an outdated version then try restarting your headset, and if it continues use the BMBF Web Interface to click Quick Fix. 
+___
+### My Beat Saber is black when I launch it
+Open the library on your Quest. Click the three dots next to Beat Saber and then click `Permissions`. In the menu that pops up enable storage permissions. Then try launching Beat Saber again and check if it works now.
 ___
 ### My Sabers and Mods wont enable/work!
 This is most likely due to having an outdated BMBF Client, grab the latest [BMBF Release](https://bmbf.dev/stable). If the BMBF version for your Beat Saber is not there then please wait a while for the unicorns to update BMBF.  
