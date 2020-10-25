@@ -170,6 +170,15 @@ Our own LIV insider and creator of Saber Tailor and the original Custom Colors p
 
 [GitHub](https://github.com/SteffanDonal)
 
+## Sc2ad
+"He plays a massive role in the Quest community and has helped a ton of modders create amazing mods! He uses a lot of his time on improving the core library for the Quest to make it easier for modders and is currently working on a package manager! He's been here from the start, and we appreciate all the work he's done to help the Quest community!"
+- Someone from BSMG
+
+**Roles:** Modder
+**Contributions:** quest.
+
+[GitHub](https://github.com/sc2ad) | [Twitch](https://www.twitch.tv/sc2ad) | [PayPal](https://paypal.me/sc2ad) | [Ko-Fi](https://ko-fi.com/sc2ad_support)
+
 ## Shadnix
 Current maintainer of Saber Tailor
 
