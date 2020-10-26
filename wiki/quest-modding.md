@@ -3,13 +3,28 @@ sidebar: auto
 ---
 # Quest Modding
 
+## Preface
+
+- This guide is for both Quest 1 and Quest 2.
+- Nobody has yet been banned for modding.
+
+::: danger DISCLAIMER
+By choosing to use mods, you understand that:
+- You may experience problems that don't exist in the vanilla game. 99.9% of bugs, crashes, and lag are due to mods.
+- Mods are subject to being broken by updates and that's normal - be patient and respectful when this happens, as modders are volunteers with real lives.
+- Beat Games aren't purposefully trying to break mods. They wish to work on the codebase and sometimes this breaks mods, but they are not out to kill mods.
+
+Do not attack the devs for issues related to mods, and vice versa - modders and devs are two separate groups. Just don't be a jerk ok.
+:::
+
 ## Installation 
 
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with SideQuest.
 * [BMBF apk](https://bmbf.dev/stable)
 :::warning
-Installing BMBF and modding your game will disable viewing and uploading scores on base game leaderboards. This is because Oculus does not authenticate scores from modded games. See [ScoreSaber](https://new.scoresaber.com/quest) for information on setting up ScoreSaber, the community leaderboard system on your Quest. 
+Installing BMBF and modding your game will disable Official Multiplayer, viewing, and uploading scores on base game leaderboards. This is because Oculus does not authenticate modded games. 
 
+See [ScoreSaber](https://new.scoresaber.com/quest) for information on setting up ScoreSaber, the community leaderboard system on your Quest.  
 Note: ScoreSaber does not replace the base game leaderboards, it only adds leaderboards for custom songs.
 :::
 
@@ -34,7 +49,10 @@ Once they've successfully installed, make sure you have the latest version of Be
 Run Beat Saber once and close it before modding!
 :::
 
-After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown Sources in your library. Follow each step exactly as you're told, and then you should see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
+After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown Sources in your library.
+![UnknownSourced](~@images/beginners-guide/quest_home-menu.jpg)
+
+Follow each step exactly as you're told, and then you should see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
 
 If, at any point during the install process, you get the `Restore App` popup just click `Close`, the warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences for ignoring it.
 
@@ -131,6 +149,9 @@ ___
 ### BMBF not loading configuration after a few minutes
 This is likely due to using an outdated version of Beat Saber being used with BMBF.
 If you are not using an outdated version then try restarting your headset, and if it continues use the BMBF Web Interface to click Quick Fix. 
+___
+### Beat Saber is black when I launch it
+Open the library on your Quest. Click the three dots next to Beat Saber and then click `Permissions`. In the menu that pops up, enable storage permissions and try launching the game again.
 ___
 ### My Sabers and Mods wont enable/work!
 This is most likely due to having an outdated BMBF Client, grab the latest [BMBF Release](https://bmbf.dev/stable). If the BMBF version for your Beat Saber is not there then please wait a while for the unicorns to update BMBF.  
