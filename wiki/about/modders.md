@@ -240,6 +240,14 @@ Original creator of SongLoader and CameraPlus, and a major contributor to the cu
 
 [GitHub](https://github.com/xyonico/) [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
 
+## Lauriethefish (TheProff)
+Creator of the discord presence integration mod for quest, as well as the CustomFailText port and AutoDebris.
+
+**Roles:** Modder
+**Contributions:** CustomFailText, Discord Prsence and AutoDebris (quest)
+
+[Github](https://github.com/Lauriethefish)
+
 ---
 
 ::: tip See Also
