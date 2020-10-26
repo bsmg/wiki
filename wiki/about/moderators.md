@@ -17,11 +17,11 @@ How many statistics could we fit into a single counters mod? A lot apparently. H
 [GitHub](https://github.com/caeden117) | [Donate](https://ko-fi.com/Caeden117)
 
 ## Chara_
-gaming 101
+brrrrrr
 
 **Roles:** Support, 3D Artists, Moderator
 
-[Discord](https://discord.gg/NXnPYEh) | [YouTube](https://www.youtube.com/c/CharaHere)
+[Qosmetics Community](https://discord.gg/qosmetics) | [YouTube](https://www.youtube.com/c/CharaHere)
 
 ## DeeJay
 Pepega
@@ -29,6 +29,11 @@ Pepega
 **Roles:** Moderator
 
 [Twitch](https://www.twitch.tv/deejayvr)
+
+## Eradawn
+"Findus says hai"
+
+**Roles:** Moderator
 
 ## Guatapuri
 "Came for the game, Stayed for the hugs"
@@ -76,6 +81,13 @@ The only Moderator to ghost us when asked for a description for this page.
 **Roles:** 3D Artists, Moderator, Support, Modder
 
 **Contributions:** A bunch of Quest mods and models  
+
+## Pyrowarfare
+A BeastSaber admin who wrote the majority of content for [How to Playtest](./how-to-testplay.md), [Mapping Anxiety](./mapping-anxiety.md), and contibuted on various other pages. Be warned: you will be asked to talk about your feelings.  
+
+**Roles:** Moderator, Mapping Support
+
+[BeatSaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf) | [BeastSaber](https://bsaber.com/members/pyrowarfare/)
 
 ## RangeValley
 "My dad worked for years as an admin, but he got laid off when bots took over. He came home that night and told me we had to move into the van, since we couldn't afford rent anymore, then he beat the shit out of me with jumper cables. Shitposting should be legal."
