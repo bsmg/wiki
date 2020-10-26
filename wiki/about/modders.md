@@ -147,10 +147,10 @@ If you've ever played darth maul mode, you have this guy to thank.
 [GitHub](https://github.com/PureDark)
 
 ## raftario
-The closest thing we have to a beatmods maintainer.
+does things sometimes ????
 
 **Roles:** Modder
-**Contributions:** BeatMods
+**Contributions:** Misc Quest stuff, BeatMods
 
 [GitHub](https://github.com/raftario)
 
