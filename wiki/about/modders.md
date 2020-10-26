@@ -98,7 +98,7 @@ Resident Kirby and mod modder. One of the most active modders and a huge part in
 Creator of the discord presence integration mod for quest, as well as the CustomFailText port and AutoDebris.
 
 **Roles:** Modder
-**Contributions:** CustomFailText, Discord Prsence and AutoDebris (quest)
+**Contributions:** CustomFailText, Discord Presence and AutoDebris (quest)
 
 [Github](https://github.com/Lauriethefish)
 
