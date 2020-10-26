@@ -94,6 +94,14 @@ Resident Kirby and mod modder. One of the most active modders and a huge part in
 
 [GitHub](https://github.com/kylemc1413) | [Twitch](https://www.twitch.tv/kyle1413k) | [Donate](https://ko-fi.com/kyle1413k)
 
+## Lauriethefish (TheProff)
+Creator of the discord presence integration mod for quest, as well as the CustomFailText port and AutoDebris.
+
+**Roles:** Modder
+**Contributions:** CustomFailText, Discord Prsence and AutoDebris (quest)
+
+[Github](https://github.com/Lauriethefish)
+
 ## MichaelZoller
 Contributor to the beatsaber hooks used in quest modding and assists with creating infrastructure for the quest modding scene.
 
@@ -239,14 +247,6 @@ Original creator of SongLoader and CameraPlus, and a major contributor to the cu
 **Contributions:** SongLoader, CameraPlus
 
 [GitHub](https://github.com/xyonico/) [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
-
-## Lauriethefish (TheProff)
-Creator of the discord presence integration mod for quest, as well as the CustomFailText port and AutoDebris.
-
-**Roles:** Modder
-**Contributions:** CustomFailText, Discord Prsence and AutoDebris (quest)
-
-[Github](https://github.com/Lauriethefish)
 
 ---
 
