@@ -25,6 +25,7 @@ tags:
 * [Quest Modding](./quest-modding.md)
 * [Common Problems](./support/)
 * [Grips and Tricks](./grips-and-tricks.md)
+* [Ranking & Scoring Guide](./ranking-guide.md)
 :::
 
 ::: feature Creating new Content
