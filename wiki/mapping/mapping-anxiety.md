@@ -71,4 +71,4 @@ If you’ve ever had someone leave a positive review on your map, or DM you to t
 It’s important, both as a community and as individuals, to be open about mental health and negative emotions that are large issues in gaming social circles. Knowing that other mappers aren’t infallible, and that we can all experience the same emotions, can be extremely important in helping others to help themselves.
 
 ## Credits
-Content in this section was authored by [Pyrowarfare](./mapping-credits.md#pyrowarfare)
+Content in this section was authored by [Pyrowarfare](./mapping-credits.md#pyrowarfare).

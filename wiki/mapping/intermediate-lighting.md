@@ -34,7 +34,7 @@ Fast ring spins are resource intensive and will lag both your editor and your pl
 Strobing Ring Spin events at 1/64 interval or more will produce extremely fast but inconsistent ring spins. The timing/interval are tempo dependant,
 
 **How to Light Fast Spins:**
-1. Use your editor's strobe tool at at least 1/64 precision
+1. Use your editor's strobe tool at at least 1/64 precision.
 2. Find the starting point of your spin:
    1. If your environment has rings that extend behind the player, start the spin ~1/2 beat before the desired effect.
    2. If your environment has rings that start in front of the player, start the spin at the point you want the desired effect.
@@ -128,13 +128,16 @@ Example removing the Monstercat logo from the environment:
 ```
 
 Some common elements that are removed from environments:
-* `Spectrograms` - The audio visualisers
-* `MonstercatLogoL`, `MonstercatLogoR` - The logo of the Monstercat environment
-* `RocketCar`, `RocketCar (1)` - The cars in the Rocket League environment
-* `Logo` - The Green Day and center Linkin Park logo
-* `TimbalandLogo`, `TimbalandLogo (1)`, `TimbalandLogo (2)`, `TimbalandLogo (3)` - The logo of the Timbaland environment
-* `LinkinParkTextLogoL`, `LinkinParkTextLogoR` - The Linkin Park logo on the walls
-* `LinkinParkSoldier` - The soldier art on the floor of the Linkin Park environment
+
+|**Object Name**|**Description**|
+|---------------|---------------|
+|`Spectrograms`|The audio visualisers|
+|`MonstercatLogoL`<br>`MonstercatLogoR`|The logo of the Monstercat environment|
+|`RocketCar`<br>`RocketCar (1)`|The cars in the Rocket League environment|
+|`Logo`|The Green Day and center Linkin Park logo|
+|`TimbalandLogo`<br> `TimbalandLogo (1)`<br> `TimbalandLogo (2)`<br> `TimbalandLogo (3)`|The logo of the Timbaland environment|
+|`LinkinParkTextLogoL`<br> `LinkinParkTextLogoR`|The Linkin Park logo on the walls|
+|`LinkinParkSoldier`|The soldier art on the floor of the Linkin Park environment|
 
 *A full list of props that can be removed from environments is being worked on.*
 

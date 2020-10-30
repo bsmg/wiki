@@ -29,9 +29,9 @@ Stagger timing for the on/off events across the light types when turning on all 
 Instead of flashing or fading all lights simultaneously, flash them on in very fast front-back or back-front sequence, at 1/16 intervals or so; these can end in fades, with simultaneous offs, or similarly cycled offs at the same interval or often half/double that.
 
 Front-back position varies by environment, and it can be a bit ambiguous with the rings and Center Lights (BBS) often covering the entire length, but in Big Mirror, Default, and Triangle environments:
-* Center Lights (BBS) appears to be the furthest back
+* Center Lights (BBS) appears to be the furthest back,
 * Then back-top, 
-* Then side lasers
+* Then side lasers,
 * Finally, the rings appear the closest to the player. 
 
 Examples: 
@@ -85,9 +85,9 @@ Chroma 1.0 events are less efficient and can affect editor performance once you 
 A one way converter to 2.0 is available for use before releasing your map. [ChromaNoodleConverter](https://github.com/CyanSnow/ChromaNoodleConverter/releases/latest)
 
 ### Set-up in MMA2
-1. Open MMA2
-2. In the Settings bar on the right, under the Legacy section, click on the ChromaToggle checkbox
-3. Select the level you want to map in and click on the ExtraFields tab to the right of the difficulty select
+1. Open MMA2.
+2. In the Settings bar on the right, under the Legacy section, click on the ChromaToggle checkbox.
+3. Select the level you want to map in and click on the ExtraFields tab to the right of the difficulty select.
 4. Click on the Suggestions tab and then type in `Chroma`.  
 
 :::warning NOTE
