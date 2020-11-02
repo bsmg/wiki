@@ -5,8 +5,8 @@ sidebar: auto
 _A compilation of resources to help you to hit bloq_
 
 ## Ranking Up Mega-Tutorial
-An incredible writeup by TeknozFR to help you get that PP.  
-[https://bsaber.com/indepth-guide/](https://bsaber.com/indepth-guide/)
+An incredible writeup by TeknozFR to help you get that PP.
+[Ranking & Scoring Guide](./ranking-guide)
 
 ## Scoring
 See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) about how the scoring system works.
@@ -26,21 +26,21 @@ You can find your global ranking and PP on [ScoreSaber](https://scoresaber.com/g
 2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays. This curve is 0.965^(x-1) where x is the position of that score on your song list.
 e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play. If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get after the curve applies. Here is a list of my current top 4 plays where the raw PP is in italic and the weighted PP is in bold.
 
-| |
-| --- | 
-| 260pp -> **260pp** (100% of raw PP) |
-| 247pp -> **238pp** (96.5% of raw PP) |
-| 246pp -> **229pp** (93.1% of raw PP) |
-| 244pp -> **219pp**  (89.9% of raw PP) |
+|Raw PP | Weighted PP |
+| --- | --- |
+| 260pp | **260pp** (100% of raw PP) |
+| 247pp | **238pp** (96.5% of raw PP) |
+| 246pp | **229pp** (93.1% of raw PP) |
+| 244pp | **219pp**  (89.9% of raw PP) |
 
-3. To rank up, get scores on new songs that are worth more or a similar amount of PP to your top scores. When you don't have any new high PP songs to play, replay songs on your first pages to get better scores. Here is a [spreadsheet by DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) of all the ranked songs and how much PP they are worth. This list is updated every 24 hours. 
+3. To rank up, get scores on new songs that are worth more or a similar amount of PP to your top scores. When you don't have any new high PP songs to play, replay songs on your first pages to get better scores. Here is a [spreadsheet by DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) of all the ranked songs and how much PP they are worth. This list is updated every 24 hours.
 
 Here is another site by [DuoVR](https://duovr.github.io/BigPP/) where you can input your scoresaber profile and it shows you songs that you should play for a lot of PP.
 
 *This section is adapted from Tek's writeup in the Beat Saber Canadian discord.*
 
 ::: tip
-Songs are ranked/unranked by a ranking team in the [ScoreSaber Discord](https://discord.gg/WpuDMwU).  
+Songs are ranked by the team in the [ScoreSaber Discord](https://discord.gg/WpuDMwU).
 You can follow along in this server to see what changes happen!
 :::
 
@@ -50,30 +50,36 @@ Cube Community made some videos showing off some of the more popular grips for O
 ### HTC Vive Wands
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
 
-![Vive Grips Guide](~@images/grips-and-tricks/vive-grips-guide.jpg "Vive Grips Guide")
+![Vive Grips Guide](~@images/grips-and-tricks/vive-grips-guide.jpg)
 
 ### Oculus Rift
 <YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
 
-![Oculus Grips Guide](~@images/grips-and-tricks/oculus-grips-guide.jpg "Oculus Rift Grips Guide")
+![Oculus Grips Guide](~@images/grips-and-tricks/oculus-grips-guide.jpg)
 
 ### Oculus Rift S and Quest
-A video has not yet been made for Rift S and Quest controllers, but you can find some examples in addition to the image below in their `#tips-and-grips` channel! [CC Discord](https://discord.gg/dwe8mbC)  
-![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/newOculusGrips.jpg "Oculus Rift S/Quest Guide")
+A video has not yet been made for Rift S and Quest controllers, but you can find some examples below!
+![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/touch2-grips.jpg)
 
 ### Valve Index Controllers
-A video has not yet been made for Index controllers, but you can find some examples in their `#tips-and-grips` channel!  
+A video has not yet been made for Index controllers, but you can find some examples in their `#tips-and-grips` channel!
 [CC Discord](https://discord.gg/dwe8mbC)
+
+### Oculus Quest 2
+A video has not yet been made for the Quest 2's controllers, but you can find some examples below!
+![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
+
+Check out Cube Community's `#tips-and-grips` channel for more suggestions and examples in their [Discord](https://discord.gg/dwe8mbC). Please remember that everyone's playstyle and body is different; someone else's grip might not work exactly like you need it to. Don't be afraid to experiment and find what's right for you!
 
 ## Improve Vive controller tracking
 Your body may be blocking one lighthouse from seeing one of your controllers.
 Here are some steps that may help improve tracking.
 
 1. Move into the corner of your playspace.
-2. Rotate your body 45 degrees so that your lighthouses can see both controllers. 
+2. Rotate your body 45 degrees so that your lighthouses can see both controllers.
 3. Rotate the room within Beat Saber's settings to compensate, so that you appear facing forward within the game.
 
-![Vive Tracking Help](~@images/grips-and-tricks/vive-tracking-help.gif "Vive Tracking Help")
+![Vive Tracking Help](~@images/grips-and-tricks/vive-tracking-help.gif)
 
 This can apply to oculus sensors too.
 

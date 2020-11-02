@@ -22,7 +22,7 @@ A list of other regional communities outside of the Beat Saber Modding Group.
 
 The official (private) discord for the Canadian beat saber community!
 
-[Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfWhARJyoYJ_FcbChiVUTAPPkBlVsENsBF2bs5twkJkrbjbGQ/viewform)
+[Discord](https://discord.gg/vvq7wX3)
 
 ---
 
