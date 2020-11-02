@@ -1,27 +1,16 @@
 ---
 sidebar: auto
 ---
-# Beat Saber Guide To Scoring, Modifiers, The Rank System And More
-**Writen by TeknozFR**
+# Ranking & Scoring Guide
+
+Written by TeknozFR
 
 *Big thanks to Flee for correcting grammar mistakes and providing useful information.*
 
-**Disclaimer:** This guide was originally written on February 7th, 2019. It has been updated multiple times but some information may be inaccurate or missing.
+:::warning Disclaimer
+This guide was originally written on February 7th, 2019. It has been updated multiple times but some information may be inaccurate or missing.
 If you notice inaccurate/missing information in this guide, you can submit a pull request on the [BSMG Wiki GitHub](https://github.com/bsmg/wiki#-development) or send me a message on Discord (TeknozFR#6900).
-
-## Table of content
-
-**1. Accuracy and Scoring**
-
-**2. The Ranking Process**
-
-**3. The Ranking System (PP system)**
-
-**4. Modifiers**
-
-**5. Grips**
-
-**6. Useful Tips & Links**
+:::
 
 ## Accuracy and Scoring
 
@@ -35,11 +24,12 @@ Your score multiplier can be seen below, being surrounded by a outer ring. As sa
 
 Scoring well in Beat Saber isn’t as simple as keeping a high combo and not missing notes, it is also determined by your score per block. The maximum score possible to achieve while slicing a block is **115** (without counting the score multiplier). While cutting a block, you must achieve the correct swing angles and you must slice it in the center to achieve the best score for that cut. Here is how score is calculated for a cut :
 
-**100° approach : 70 points**
+| Component         | Point Value |
+|-------------------|-------------|
+| 100° Approach      | 70 Points   |
+| 60° Follow Through | 30 Points   |
+| Cutting in Half   | 15 Points   |
 
-**60° follow through : 30 points**
-
-**cutting in half : 15 points**
 
 This shows how important it is to do proper swings to get the right angles and the best score possible. Remember, it’s better to get a bad cut than a miss since a miss counts as **0 points** and breaks your combo.
 
@@ -51,21 +41,17 @@ A common misconception in Beat Saber would be that most people think that the hi
 
 ### Accuracy
 
-Accuracy is shown on the left after enabling the **Advanced HUD** option in the Player Settings. Accuracy is shown by a percentage and a letter. Because accuracy is a percentage, the best “possible” accuracy is **100%** or named a **SSS**. While such accuracy is practically impossible (since it would require no combo break and 115 cuts on every block), accuracy is still a great way to measure performance on a map and one’s ability to score properly and avoid missing notes. Accuracy is calculated using information such as the scores per hit, the score multiplier and the amount of miss. Here are a few examples of how accuracy is shown with letters :
+Accuracy is shown on the left after enabling the **Advanced HUD** option in the Player Settings. Accuracy is shown by a percentage and a letter. Because accuracy is a percentage, the best “possible” accuracy is **100%** or named a **SSS**. While such accuracy is practically impossible (since it would require no combo break and 115 cuts on every block), accuracy is still a great way to measure performance on a map and one’s ability to score properly and avoid missing notes. Accuracy is calculated using information such as the scores per hit, the score multiplier and the amount of miss. Here is the connection between the letters and accuracy percentage :
 
-**90-99.99% : SS**
-
-**80-89.99% : S**
-
-**65-79.99% : A**
-
-**50-64.99% : B**
-
-**35-49.99% : C**
-
-**20-34.99% : D**
-
-**<19.99% : E**
+| Letter Grade | Accuracy Percentage |
+|--------------|---------------------|
+| SS           | 90-99.99%           |
+| S            | 80-89.99%           |
+| A            | 65-79.99%           |
+| B            | 50-64.99%           |
+| C            | 35-49.99%           |
+| D            | 20-34.99%           |
+| E            | < 19.99%            |
 
 ## The Ranking Process
 
@@ -101,13 +87,12 @@ You might have noticed that in your list, there are 2 numbers which end with PP.
 
 As said before, the amount of weighted PP you will receive is determined by the curve and the placement of that song in your list. As an example, if your top play is a **260 raw PP** play, you will be rewarded **260 weighted PP** which is a **100%** of the raw PP of that play. If your second top play is **247 raw PP**, you will be rewarded **238 weighted PP** which is the actual amount of PP you get after the curve is applied on it. Here is a list of 4 of my old top plays where *raw PP is in italic* while **weighted PP is bold** to demonstrate the curve :
 
-*260 pp* -> **260 pp** : 100% of raw PP
-
-*247 pp* -> **238 pp** : 96.5% of raw PP
-
-*246 pp* -> **229 pp** : 93.1% of raw PP
-
-*244 pp* -> **219 pp** : 89.9% of raw PP
+|Raw PP | Weighted PP |
+| --- | --- |
+| 260pp | **260pp** (100% of raw PP) |
+| 247pp | **238pp** (96.5% of raw PP) |
+| 246pp | **229pp** (93.1% of raw PP) |
+| 244pp | **219pp**  (89.9% of raw PP) |
 
 ### Why is my total PP not increasing as much as the weighted PP I got on my new score?
 
@@ -119,7 +104,7 @@ The only exception to this is if you get a better accuracy on your current top p
 
 To improve and get a better rank in the global ranking, there are quite a few tools you can use to find ranked songs that fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like. The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced) browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep track of your performance.
 
-For more precise tips and tricks, go refer to the **Useful Tips & Links** chapter.
+For more precise tips and tricks, go refer to the [Useful Tips & Links](#useful-tips-links) chapter.
 
 ## Modifiers
 
@@ -131,47 +116,26 @@ Since the **v12.0p1** update, a lot of modifiers got added and some already exis
 
 Removes the health bar which makes it impossible to fail. Contrary to older versions of the game, No Fail will now submit scores on the leaderboard unless used on the Practice Mode.
 
-**No Obstacles (-0.05)**
-
-Removes all of the obstacles (walls) from the map.
-
-**No Bombs (-0.10)**
-
-Removes all of the bombs from the map.
-
-**Slower Song (-0.30)**
-
-Slows down the song to 85% of the original speed.
-
-**Insta Fail (0.00)**
-
-Makes you fail on the first miss you make.
-
-**Battery Energy (0.00)**
-
-Stops the health bar from replenishing. This limits the total amount of misses and bad cuts you can have before failing.
-
-**Disappearing Arrows (+0.07)**
-
-Makes the arrows disappear from the note as they approach you. You still need to remember the direction as you need to cut in the correct direction as always.
-
-**Faster Song (+0.08)**
-
-Speeds up the song to 120% of the original speed.
-
-**Ghost Notes (+0.11)**
-
-Notes are invisible and the arrows disappear shortly before you hit them, similarly to Disappearing Arrows.
+| Modifier                    | Description                                                                                                                                                    |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| No Obstacles (-0.05)        | Removes all of the obstacles (walls) from the map.                                                                                                             |
+| No Bombs (-0.10)            | Removes all of the bombs from the map.                                                                                                                         |
+| Slower Song (-0.30)         | Slows down the song to 85% of the original speed.                                                                                                              |
+| Insta Fail (0.00)           | Makes you fail on the first miss you make.                                                                                                                     |
+| Battery Energy (0.00)       | Stops the health bar from replenishing. This limits the total amount of misses and bad cuts you can have before failing.                                       |
+| Disappearing Arrows (+0.07) | Makes the arrows disappear from the note as they approach you. You still need to remember the direction as you need to cut in the correct direction as always. |
+| Faster Song (+0.08)         | Speeds up the song to 120% of the original speed.                                                                                                              |
+| Ghost Notes (+0.11)         | Notes are invisible and the arrows disappear shortly before you hit them, similarly to Disappearing Arrows.                                                    |
 
 ## Grips
 
 ### Why should I use a grip?
 
-An alternative grip can be an adjustment of the default saber angles, an alternative method of holding the controller, or a combination of both. There's no single grip that works for everyone, and using an alternative grip won't magically make you better at the game. It is not necessarily better than the default way the controller is meant to be held, or the default angles that Beat Saber uses. However, alternative grips can have many benefits, from being more comfortable for long periods of play to helping you optimize your swings. They can redistribute the weight of a poorly balanced Vive wand, or increase the range of wrist motion with a Touch controller. Below are some popular grips used in the competitive community. Don't be afraid to adjust or experiement to find what's right for you!
+An alternative grip can be an adjustment of the default saber angles, an alternative method of holding the controller, or a combination of both. There's no single grip that works for everyone, and using an alternative grip won't magically make you better at the game. It is not necessarily better than the default way the controller is meant to be held, or the default angles that Beat Saber uses. However, alternative grips can have many benefits, from being more comfortable for long periods of play to helping you optimize your swings. They can redistribute the weight of a poorly balanced Vive wand, or increase the range of wrist motion with a Touch controller. Below are some popular grips used in the competitive community. Don't be afraid to adjust or experiment to find what's right for you!
 
 ### Grips
 
-Refer to the Grips section of [Grips And Tricks][./grips-and-tricks.md] in the BSMG Wiki for some examples of commonly used grips used in the community.
+Refer to the Grips section of [Grips And Tricks](./grips-and-tricks.md) for some examples of commonly used grips used in the community.
 
 ## Useful Tips & Links
 
