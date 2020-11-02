@@ -77,15 +77,11 @@ A lot of people (like I did) will spend dozens and dozens of hours without knowi
 
 **Unranked :** An unranked map is any map that has been published on [BeatSaver](https://beatsaver.com/). It does not need to be actually possible to pass and maps can be made by anybody using the a mapping editor. Also, it is not possible to know the difficulty level of an unranked map except by looking at the difficulty name which is not always an accurate measure of the difficulty since the mapper chooses it.
 
-### Criteria and the Ranking Process (Outdated)
+### Criteria and the Ranking Process
 
-*This explanation of the map ranking process is a little outdated. It still represents the general idea of how the ranking process works but a lot has changed, there is now a Quality Assurance team, Nomination Assessment team and more new things about the ranking process. This section will likely be updated in the near future.*
+The ranking team ranks maps through a communal evaluation process. Those maps are then assigned PP based on an algorithm that determines the difficulty once they are ranked based on a variety of factors. PP, which stands for performance points, is given for completing ranked maps based on how high you scored in the level. Full details about the ranking process, criteria, and additional FAQs can be found in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
 
-Since the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU) has been created, a ranking team was put together to apply and enforce the [ranking criteria](https://docs.google.com/document/d/1_EBmvCTHyJ5-0ox5IZgmnItVqAjaBWltWslxqSc5_-4/edit) that were created at about the same time. This now ensures the quality and rankability of new ranked maps which is a lot better then when maps were manually ranked without any specific guidelines. Also, old maps need to respect these criteria now so it leads to a lot of old ranked maps to be remapped or simply unranked. The process is quite simple, a member of the ranking team will put a map in a queue for it to be judged as to whether or not it should be unranked/ranked. Rankers will often take requests made on the Discord Server but not always. After that, there will be a period where other rankers will review that map and will often send a file to the mapper stating what needs to be changed for it to be rankable. Then, there will be a vote where all the members of the ranking team can choose to vote for or against the map being unranked or ranked and, if accepted, the request will be approved and put in action by an Admin such as Umbranox.
-
-*Never forget to show your gratitude toward the ranking team if you ever see them as they spend a lot of their own personal time to do this work. They often get way too criticized for no reason so send them some love <3*
-
-## The Ranking System (PP System)
+## The Ranking System Explained (PP System)
 
 The PP system is probably one of the most misunderstood things when it comes to ranking in the game. Personally, I find it that people misunderstand it so often that I ended up writing a message about it and pinned it on the Beat Saber Canadian Discord so I wouldn’t need to explain it anymore, so here is “all” you need to know about it.
 
@@ -93,7 +89,7 @@ The PP system is probably one of the most misunderstood things when it comes to 
 
 You can find your global ranking on [ScoreSaber](https://scoresaber.com/global) by typing your username in the search bar. Your ScoreSaber profile is tied to your Steam/Oculus profile on which you play the game.
 
-As said earlier, you can earn PP (performance points) by playing ranked maps. The amount of PP a map is worth is determined when the map is ran through a secret algorithm developed by Umbranox, the one and only Panda God. The algorithm is kept secret to prevent mappers from trying to intentionally make songs to only be worth a lot of PP (to avoid breaking the system basically). The exact amount of PP gained by a player is determined by their accuracy on that map and the curve it represents compared to the max amount of PP that map is worth (here is a [spreadsheet by DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) to find out how much songs are worth).
+As said earlier, you can earn PP (performance points) by playing ranked maps. The amount of PP a map is worth is determined when the map is ran through the PP algorithm. The algorithm is kept secret to prevent mappers from trying to intentionally make songs to only be worth a lot of PP (to avoid breaking the system basically). The exact amount of PP gained by a player is determined by their accuracy on that map and the curve it represents compared to the max amount of PP that map is worth. You can find more information in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
 
 ### How does the PP system work and what is weighted PP?
 
@@ -121,7 +117,9 @@ The only exception to this is if you get a better accuracy on your current top p
 
 ### How can I improve and get more PP?
 
-To improve and get a better rank in the global ranking, there are quite a few tools you can use to find ranked songs that fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like. Once you know that, you can go and use [DuoVR’s spreadsheet](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) to find songs that are worth about as much or more then your top scores and try to improve from there. Another tool that can be useful but mainly for players in higher ranks is the [DuoVR PP Enhancement Tool](https://duovr.github.io/BigPP/) that you can use to see the songs you haven’t played or that you could improve on and that could get you a lot of PP. For more precise tips and tricks, go refer to the **Useful Tips & Links** chapter.
+To improve and get a better rank in the global ranking, there are quite a few tools you can use to find ranked songs that fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like. The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced) browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep track of your performance.
+
+For more precise tips and tricks, go refer to the **Useful Tips & Links** chapter.
 
 ## Modifiers
 
@@ -169,11 +167,11 @@ Notes are invisible and the arrows disappear shortly before you hit them, simila
 
 ### Why should I use a grip?
 
-No matter what VR system you use, if you play on an HTC Vive, Oculus Rift or WMR, grips are always something important to consider as they can help a lot with improving as a player (especially for Vive players). When playing, the default grip can be totally enough to improve for a while but will later cause some issues when getting to songs with fast streams or jumps. For example, the Vive controllers are quite unbalanced and heavy so the regular grip needs a lot of force and arm movement to play stream patterns and could end up being painful and damaging for you. It is much better to use your wrists to play then your arms so this is why I recommend any player to find themselves a comfortable grip that they enjoy. You can even experiment and try to create a new grip! After all, that’s how the currently known grips were created in the first place. For inspiration, here is a pretty good list of Oculus and Vive grips made by [Emperor of the Internet](https://scoresaber.com/u/76561198002525703). This list is far from complete as many variants of all grips exist, but it is still pretty good and shows the most used and basic grips.
+An alternative grip can be an adjustment of the default saber angles, an alternative method of holding the controller, or a combination of both. There's no single grip that works for everyone, and using an alternative grip won't magically make you better at the game. It is not necessarily better than the default way the controller is meant to be held, or the default angles that Beat Saber uses. However, alternative grips can have many benefits, from being more comfortable for long periods of play to helping you optimize your swings. They can redistribute the weight of a poorly balanced Vive wand, or increase the range of wrist motion with a Touch controller. Below are some popular grips used in the competitive community. Don't be afraid to adjust or experiement to find what's right for you!
 
 ### Grips
 
-Refer to the Grips section of [Grips And Tricks][./grips-and-tricks.md] in the BSMG Wiki for a list of Vive, Oculus and Valve Index grips.
+Refer to the Grips section of [Grips And Tricks][./grips-and-tricks.md] in the BSMG Wiki for some examples of commonly used grips used in the community.
 
 ## Useful Tips & Links
 
@@ -181,21 +179,21 @@ Refer to the Grips section of [Grips And Tricks][./grips-and-tricks.md] in the B
 
 After all this time playing Beat Saber, I’ve hit many walls. Hitting a wall can be really annoying since it can take time to figure out what to do to keep improving. Here is a small list of tips to improve as a player.
 
-**Challenge yourself**
+**Challenge yourself.**
 
 While it sounds obvious, many players never try to improve and play harder maps and simply play the same maps over and over again. Extend your song list and push yourself to learn the things you are the worst at.
 
-**Don’t only play ranked**
+**Play more.**
 
-While ranked maps seem to be the way to go to improve, they aren’t always the best option. There are a ton of challenge maps that will push you to your limits and make you achieve things you never would have seen yourself do. Ranked songs are great to improve your rank but challenge maps are great to improve your skill.
+You don't get better at playing an instrument without a lot of experience. The same goes for Beat Saber - simply playing more will improve pattern recognition, condition your body, and build muscle memory.
 
-**Record yourself playing.**
+**Evaluate your own gameplay.**
 
-Recording yourself is great to see where you could improve, whichever it’s only your gameplay or it is with a webcam. Analyzing yourself play can be really useful to see your common mistakes.
+Recording yourself is great to see where you could improve, whichever it’s only your gameplay or it is with a webcam. Analyzing yourself play can be really useful to see your common mistakes. You can also watch your own replays by clicking the arrow next to your score in the leaderboard.
 
 **Watch better players play and ask them tips**
 
-If you have an opportunity, try to watch better players and use some of their techniques to improve. Copying everything about a pro player won’t make you one but can surely help you improve. Also if you ever have the opportunity, always ask for tips (just don’t be annoying or disrespectful).
+If you have an opportunity, try to watch better players and use some of their techniques to improve. Copying everything about a pro player won’t make you one but can surely help you improve. Watch their replays and compare their movements to your own. Also if you ever have the opportunity, always ask for tips (just don’t be annoying or disrespectful).
 
 **Don’t overthink it**
 
@@ -203,7 +201,10 @@ If you can’t finish a map or can’t achieve a higher score, don’t overthink
 
 **Practice hard patterns**
 
-Some patterns are common and some are hard and really specific. If you are struggling with the pattern in a certain map (for example, the complex streams of Kero 9 Destiny), I recommend practicing them by playing them on a slower speed using the practice mode. With this you can single out a pattern and learn it by heart.
+If you are struggling with a section of a map, slow it down with the Slower Song modifier or decrease the speed in practice mode.
+
+**BSRA**
+Check out Cube Community's [Beat Saber Replay Analysis playlist](https://www.youtube.com/watch?v=rxf68rH4S20&list=PLwx5EB8PdMNdElyEBfO7VktSWSNZukfqP). This series help viewers understand how top Beat Saber plays are made and how they can improve.
 
 **Have fun**
 
@@ -211,14 +212,7 @@ At the end of the day, this is a game. The important part is that you have fun a
 
 ### Links
 
-*Links may be outdated*
-
 * [ScoreSaber](http://scoresaber.com/) : official website with the leaderboards for all the maps and the global ranking leaderboard
-* [ScoreSaber Discord](https://discordapp.com/invite/WpuDMwU) : official ScoreSaber Discord to get informed about maps getting ranked or unranked, etc
-* [Ranking Criterias](https://docs.google.com/document/d/1mtVihRO1LomyptXayoDNDTQYgX_TQPp6ZYDmtwR2jMI/edit) : all of the Ranking Criterias
-* [BeatSaver](https://beatsaver.com/) : to download custom songs
-* [Beat Saber Modding Group](https://discordapp.com/invite/6JcXMq3) : to find help, information, plugins, custom sabers, etc.
-* [Mod Assistant](https://github.com/Assistant/ModAssistant) : to download the essential mods and plugins for the game and more
-* [DuoVR’s Spreadsheet](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) : to find all the ranked maps and information (star difficulty, how much pp it’s worth, etc)
-* [DuoVR’s PP Farming](https://duovr.github.io/PPFarming/) : same list as the spreadsheet but with direct download links when clicking on the songs
-* [DuoVR’s PP Enhancement](https://duovr.github.io/BigPP/) : to find the songs you need to play to get the most PP
+* [ScoreSaber Discord](https://discordapp.com/invite/WpuDMwU) : official ScoreSaber Discord to get informed about maps getting ranked, criteria, etc
+* [BaliBilo's ScoreSaber Site](https://scoresaber.balibalo.xyz/peepee) : get play suggestions based on your scores to improve your global rank
+* [Beat Savior](https://www.beatsavior.io/): track your ranked stats and performance
