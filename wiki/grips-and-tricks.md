@@ -5,7 +5,7 @@ sidebar: auto
 _A compilation of resources to help you to hit bloq_
 
 ## Ranking Up Mega-Tutorial
-An incredible writeup by TeknozFR to help you get that PP.  
+An incredible writeup by TeknozFR to help you get that PP.
 [Ranking & Scoring Guide](./ranking-guide)
 
 ## Scoring
@@ -40,7 +40,7 @@ Here is another site by [DuoVR](https://duovr.github.io/BigPP/) where you can in
 *This section is adapted from Tek's writeup in the Beat Saber Canadian discord.*
 
 ::: tip
-Songs are ranked/unranked by a ranking team in the [ScoreSaber Discord](https://discord.gg/WpuDMwU).  
+Songs are ranked by the team in the [ScoreSaber Discord](https://discord.gg/WpuDMwU).
 You can follow along in this server to see what changes happen!
 :::
 
@@ -58,12 +58,18 @@ Cube Community made some videos showing off some of the more popular grips for O
 ![Oculus Grips Guide](~@images/grips-and-tricks/oculus-grips-guide.jpg "Oculus Rift Grips Guide")
 
 ### Oculus Rift S and Quest
-A video has not yet been made for Rift S and Quest controllers, but you can find some examples in addition to the image below in their `#tips-and-grips` channel! [CC Discord](https://discord.gg/dwe8mbC)  
-![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/newOculusGrips.jpg "Oculus Rift S/Quest Guide")
+A video has not yet been made for Rift S and Quest controllers, but you can find some examples below!
+![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/touch2-grips.jpg "Oculus Rift S/Quest Guide")
 
 ### Valve Index Controllers
-A video has not yet been made for Index controllers, but you can find some examples in their `#tips-and-grips` channel!  
+A video has not yet been made for Index controllers, but you can find some examples in their `#tips-and-grips` channel!
 [CC Discord](https://discord.gg/dwe8mbC)
+
+### Oculus Quest 2
+A video has not yet been made for the Quest 2's controllers, but you can find some examples below!
+![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg "Oculus Quest 2")
+
+Check out Cube Community's `#tips-and-grips` channel for more suggestions and examples in their [Discord](https://discord.gg/dwe8mbC). Please remember that everyone's playstyle and body is different; someone else's grip might not work exactly like you need it to. Don't be afraid to experiment and find what's right for you!
 
 ## Improve Vive controller tracking
 Your body may be blocking one lighthouse from seeing one of your controllers.
