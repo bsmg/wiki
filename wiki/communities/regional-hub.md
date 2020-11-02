@@ -20,7 +20,7 @@ A list of other regional communities outside of the Beat Saber Modding Group.
 
 **Beat Saber Canada**
 
-The official (private) discord for the Canadian beat saber community!
+The official Discord for the Canadian Beat Saber community!
 
 [Discord](https://discord.gg/vvq7wX3)
 
@@ -104,8 +104,6 @@ Official German Beat Saber Discord for German players, but people from other cou
 
 The Dutch Beat Saber Group, featuring multiplayer rooms, movie nights, VRC nights, and more! Compare your ScoreSaber profile with other players using their custom BeatSaber Bot.
 
-When you join the Discord, we check if you are Dutch by using the '!bs requestverification [Scoresaber ID]' command upon joining.
-
 [Discord](https://discord.gg/sDa7xrE)
 
 ---
@@ -127,6 +125,43 @@ Official Beat Saber Discord for Swiss players, but people from other countries a
 We have tea!
 
 [Discord](https://discord.gg/FC2pzeN)
+
+---
+
+### Norway
+**Beat Saber Norge** 
+
+We are a small community based in the relatively small country of Norway. 
+We want to have an accepting community of people from all countries with the use of our bot made by Rocker!
+
+[Discord](https://discord.gg/nZuY3yM)
+
+---
+
+### Korea
+**B.S. Community for KOR** 
+
+A community of Korean players :) information sharing and problem solving between users
+
+[Discord](https://discord.gg/SEFBZrG)
+
+---
+
+### Ireland
+**Beat Saber Ireland** 
+
+Discord server for the Irish Beat Saber community, international players are welcome too!
+
+[Discord](https://discord.gg/uKQzjRQ)
+
+---
+
+### Israel
+**Beat Saber Israel** 
+
+A server made to bring Isreali Beat Saber players together. International players welcome.
+
+[Discord](https://discord.gg/HHH7sK8)
 
 ---
 
