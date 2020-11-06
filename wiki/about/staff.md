@@ -42,6 +42,15 @@ Official BSMG PR Guy. Events like the 100k Contest wouldn't have been possible w
 
 [Patreon](https://www.patreon.com/beastsaber)
 
+## Lillie
+Makes mods for quest and likes to PP farm in her free time.  
+*Lillie not cutest* 
+
+**Roles:** Modder, Moderator  
+**Contributions:** QuestSounds, QSettings+, FPSCounter.  
+
+[GitHub](https://github.com/Rugtveit)
+
 ## lolPants
 One hell of a developer and a lover of socks. lolPants laid the groundwork for many of the policies and procedures during his time as Staff, and continues to help out when his services are needed.
 
@@ -81,13 +90,6 @@ BSMG server owner and rhythm game fanatic. We wouldn't be here today without thi
 
 [GitHub](https://github.com/reaxt) | [Twitch](https://twitch.tv/reaxt)
 
-## Rugtveit
-*"Norweigan dude." I'm not so creative* ~Rugtveit
-
-**Roles:** Modder, Moderator  
-**Contributions:** FPSCounter, QSettings+, Short Trail  
-
-[GitHub](https://github.com/Rugtveit)
 
 ## Sam
 He's either talking about Steven or being way too patriotic in chat (BS Nordic Admin btw). Don't call him cute, he hates that. He also makes maps, check them out below.
@@ -99,7 +101,7 @@ He's either talking about Steven or being way too patriotic in chat (BS Nordic A
 ## Steven 🎀
 The manager of many, Steven's always around to lend a helping hand as long as you don't mess with the blue haired cute girls.
 
-**Roles:** Admin, Staff, Support, Modder
+**Roles:** Admin, Staff, Support, Modder  
 **Contributions:** THE ModelSaber Admin
 
 [GitHub](https://github.com/DeadlyKitten) | [Twitch](https://www.twitch.tv/steventhecat)  | [Donate](https://streamlabs.com/steventhecat)
