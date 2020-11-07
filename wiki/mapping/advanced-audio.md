@@ -41,7 +41,7 @@ To know what level is ideal for your song you can export your track with differe
 
 You can’t increase audio quality by saving a lossy track with a higher bitrate (e.g. saving a YouTube-sourced track with level 10 quality), you will only bloat the file size. As explained in the previous chapter, information is lost when transcoding to any lossy format and thus can’t be restored. Transcoding one lossless format to another lossless format is fine though, e.g. FLAC to WAV(E).
 
-## Explaning Audio Processing
+## Explaining Audio Processing
 To work with audio and do processing of the soundwaves there are several tools available to help achieve what we want or need. Two of these tools used are *Compressor* and *Limiter* which we used for volume processing in [Volume Modification: Making Your Song Louder](/mapping/basic-audio.md#making-your-song-louder). Below these tools are explained in more detail:
 
 ### Compressor
