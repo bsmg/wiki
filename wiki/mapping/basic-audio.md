@@ -62,7 +62,7 @@ There are three ways to find the BPM for the song which you want to map. Try the
 
 ### Tool-Assisted BPM Calculation
 ::: tip NOTE   
-This is the recommended method for songs with a constant BPM
+This is the recommended method for songs with a constant BPM.
 :::
 
 [Arrow Vortex](https://arrowvortex.ddrnl.com/) is a free tool to analyze a song’s BPM automatically. It will also find the offset needed to line the audio up to the beat in Audacity or your map editor. 

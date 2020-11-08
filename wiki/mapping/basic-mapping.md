@@ -34,7 +34,7 @@ Some editors will automatically create an `Autosaves` folder where you can retri
 When you’re ready to prepare your song for upload you must have a minimum of four files.
 
 ::: warning
-Special characters in languages such as, Japanese (日本語/にほんご), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by BeatSaver. Using these characters in song metadata or in bookmarks can cause problems.
+Special characters in languages such as, Japanese (日本語/にほんご), Kaomoji (٩(◕‿◕｡)۶), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by BeatSaver. Using these characters in song metadata or in bookmarks can cause problems.
 :::
 
 ### Block Types
@@ -173,9 +173,9 @@ When long periods of time pass between notes, the player will reset their arm po
 Want to learn more about resets? Read [Intermediate Mapping](/mapping/intermediate-mapping.md)!
 
 ### DO: Mapping with Flow
-Outside of easy and normal difficulties, mapping with Flow is an absolute must. Human bodies are incredible machines but there are certain ways that joints are meant to move and using patterns that violate those mechanics is a recipe for injuring your player.
+Outside of easy and normal difficulties, mapping with flow is an absolute must. Human bodies are incredible machines but there are certain ways that joints are meant to move and using patterns that violate those mechanics is a recipe for injuring your player.
 
-Parity is the concept that Each block direction is played with either a backhand swing or a forehand swing. The black line in the diagram below illustrates this forehand (below the line)/backhand (above the line) divider for the left and right sides. 
+Parity is the concept that each block direction is played with either a backhand swing or a forehand swing. The black line in the diagram below illustrates this forehand (below the line)/backhand (above the line) divider for the left and right sides. 
 <p align="center">
 	![Parity diagram showing the forehand/backhand line for each block color](~@images/mapping/parity_diagram.jpg)
 </p>
@@ -194,7 +194,7 @@ When proper flow is achieved the player should be physically capable of getting 
 
 **Basic Flow Concepts:**
 * The higher your note precision, the more you want to stick to 180° (up/down) and 135° (up/down/diagonal) patterns.
-* 90° transitions that cross the parity line should only be considered with 1-2 beats in between, more if your map is high tempo. Avoid 90° transitions entirely at Expert and ExpertPlus
+* 90° transitions that cross the parity line should only be considered with 1-2 beats in between, more if your map is high tempo. Avoid 90° transitions entirely at Expert and ExpertPlus.
 * Make sure that you have the right setup (the pattern immediately before) and escape (the pattern immediately after) for a comfortable swing at whatever speed you’re mapping.
 * Be conscious of your timing, you can get away with more at sub-160 BPM tempos with lower note precision than you can in high BPM songs. Map for the style of song you’ve selected.
 
@@ -411,7 +411,7 @@ For more information, see the [Note Jump Speed & Spawn Distance](/mapping/interm
 
 ## Playtesting
 Already mentioned in detail on the [Mapping Home Page](/mapping.html#playtesting) it’s important enough to mention again here:
-1. Test your own work early and often, especially when you’re just starting out
+1. Test your own work early and often, especially when you’re just starting out!
 1. If you can’t test your own work have a friend play it. Just remember that a friend may be more likely to say ”that’s awesome, man!” than to give you honest advice and risk hurting your feelings… even if that’s what you need.
 1. Even if you test your own work you can become “map blind” because you know it so well and may not see playability issues
 1. Use the #testplays channel on BSMG wisely. There are experienced mappers who will play your pre-release map and provide constructive feedback. Sometimes there’s a LOT of constructive feedback and that’s ok. Those experienced mappers were once newbies with terrible maps themselves. If you’ve read and absorbed the info on this page you will be much better off!

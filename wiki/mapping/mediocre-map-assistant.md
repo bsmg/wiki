@@ -27,7 +27,7 @@ This guide currently supports both [Mediocre Map Assistant 2](https://git.bsmg.w
 
 ## Editor Setup
 ### Windows Installation
-1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest) 
+1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest). 
 2. Unzip the file and place the extracted folder wherever you like on your hard drive.
 3. Double click `mediocremapassistant2.exe` in the extracted folder to run.
 
@@ -60,7 +60,7 @@ instead of
 :::
 
 ### Linux Installation
-1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest) 
+1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest). 
 2. Unzip the file and place the extracted folder wherever you like on your hard drive.
 3. Open Steam. At the top of the window, go to `Steam > Settings > Steam Play`. In the `Advanced` section, check `Enable Steam Play for all other titles` if it isn't already. Restart Steam if you are prompted to do so.
 3. On the bottom right of Steam's main window, click `Add a Game`, then `Add a Non-Steam Games`. A window opens, click `Browse` at the bottom. Select `All Files` as the file type. Find where `MediocreMapAssistant2.exe` is, and add it.
@@ -88,7 +88,9 @@ All of your working map files will go into a song name folder within this Custom
 
 ### Check the WIP File Path
 It is currently a known bug that the path given from setup does not carry over to the main screen. Make sure the fields have the paths from your setup and are not blank. If blank, add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and press <kbd>Enter</kbd> to confirm!  
+<p align="center">
 ![Check Paths Not Blank](~@images/mapping/mma2-checkWipSongPath.png)
+</p>
 
 ### Editor Settings
 Once you've set up your paths, these core settings are all available from the song selection page when you first open the program.
@@ -166,7 +168,7 @@ Special characters such as those found in, Japanese (日本語/にほんご), Ka
 * **Audio File Name:** The name of the song file (including the extension) you have placed in `CustomWIPLevels > [Song Folder]`. Recommended to just name it *song.ogg* to avoid the pitfalls of special characters
 * **Preview Start Time:** Position in the song file, in seconds, of the start of the in-game menu song preview. Defaults to 12s
 * **Preview Duration:** Duration, in seconds, of the in-game menu song preview. Defaults to 10s
-* **Cover Image Name:** The name of the image file (including the extension) you have placed in `CustomWIPLevels > [Song Folder]`. Must be perfectly square and at least 256 px but no more than 512 px
+* **Cover Image Name:** The name of the image file (including the extension) you have placed in `CustomWIPLevels > [Song Folder]`. Must be perfectly square and at least 256 px
 * **Environment Name:** A dropdown menu of the default environments or platforms available. See [Basic Lighting Practices](./basic-lighting.md#environment-previews) for an overview of these environments
 * **Custom Platform:** The copy/pasted name of a custom platform from [ModelSaber](https://modelsaber.com/Platforms/). This feature is glitchy and it's recommended that you JSON edit any custom platform information
 
@@ -176,13 +178,13 @@ The <kbd>Save Song Info</kbd> button commits all of your metadata to the Info.da
 #### Difficulty Settings
 On the right side of the `Song Info` page is the area where you create individual difficulties and edit data that only applies to a single diffculty level. To create your first difficulty:
 
-1. Click the **<kbd>Add Difficulty</kbd>** button. The default difficulty is easy
-2. In the **Difficulty** dropdown select which difficulty you want to make (easy, normal, hard, expert, or expertplus)
+1. Click the **<kbd>Add Difficulty</kbd>** button. The default difficulty is easy.
+2. In the **Difficulty** dropdown select which difficulty you want to make (easy, normal, hard, expert, or expertplus).
 3. In the **Characteristic** dropdown you can select Standard, No Arrows, or Single Saber.
-4. **Difficulty Label** is optional and allows you to give your difficulties custom names in-game. If left blank, the difficulty set in the dropdown will be displayed instead. *This feature may not reliably work on all VR models*
-5. The **Start Offset (ms)** field is where you entered an offset value, in milliseconds, if needed based on the way you [setup your audio file](https://bsmg.wiki/mapping/basic-audio.html)
+4. **Difficulty Label** is optional and allows you to give your difficulties custom names in-game. If left blank, the difficulty set in the dropdown will be displayed instead. *This feature may not reliably work on all VR models*.
+5. The **Start Offset (ms)** field is where you entered an offset value, in milliseconds, if needed based on the way you [setup your audio file](https://bsmg.wiki/mapping/basic-audio.html).
 6. The **Note Jump Speed** field is where you change the speed at which the notes move down the track. Click into the field for a pop-up of helpful information. See [Basic Mapping Practices](/mapping/basic-mapping.html#gauging-difficulty-down-mapping) for guidance on setting an appropriate NJS for your difficulty.
-7. The **Spawn Distance Modifier** field allows you to adjust how far down the track your blocks appear. Changing this value will adjust the "jump distance" guidance pop-up
+7. The **Spawn Distance Modifier** field allows you to adjust how far down the track your blocks appear. Changing this value will adjust the "jump distance" guidance pop-up.
 
 ::: tip
 You **must** click <kbd>Apply Modifications</kbd> if you make a change to difficulty settings, otherwise it will not be saved. In MMA2 this appears to automatically happen when you enter a song file for editing.
@@ -230,7 +232,7 @@ Here is the main panel for the Error Checker:
 </p>
 
 1. **Minimum Time:** The minimum amount of time in beats that will be checked. Leave it alone.
-2. **Maximum Time:** The maximum amount of time in beats that will be checked. You’ll need to adjust this based on both the BPM and NJS (Note Jump Speed) of your song/level. ***1.5 beats is the minimum recommended for new mappers***
+2. **Maximum Time:** The maximum amount of time in beats that will be checked. You’ll need to adjust this based on both the BPM and NJS (Note Jump Speed) of your song/level. ***1.5 beats is the minimum recommended for new mappers.***
 3. **Double-Directional Checker:** Highlights any instances of a block of the same color pointing in the same direction within the number of beats specified in *Maximum Time*.
 4. **Vision Block Checker:** Highlights any instances of blocks or walls obscuring or hiding a block within the number of beats specified in *Maximum Time*.
 5. **Stacked Block Checker:** Highlights any instances where multiple blocks are stacked on top of each other.
