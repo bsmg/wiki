@@ -1,94 +1,74 @@
 # Modding Intro
-_Learn how to setup the plugin template_
+_Learn how to get started writing your own PC Mods_
 
-::: danger EDITORS NOTE
-Include new templates  
-[https://github.com/Zingabopp/BeatSaberTemplates](https://github.com/Zingabopp/BeatSaberTemplates)
+::: warning
+This guide is for making mods for the **PC** version of Beat Saber!
+
+Make sure your game is modded before trying to make a mod.  
+See instructions for [modding Beat Saber on PC.](/pc-modding.md)
 :::
 
 ## Getting Started
-Beat Saber is made in Unity 2018.4 using C# with .NET framework 4.6.
+Beat Saber is made in Unity 2019.3 using C# with .NET framework 4.6  
+You will need to download the latest version of [Visual Studio Community](https://visualstudio.microsoft.com/).
 
-Download the latest version of [Visual Studio Community.](https://visualstudio.microsoft.com/)  
-There are multiple templates that you can choose to install.
+## Setup Modding Tools
+We will be using the BeatSaberModdingTools extension in this tutorial, as it comes with modding templates and useful features.  
+BeatSaberModdingTools is maintained by Zingabopp. If you find the tools to be useful, consider throwing some support their way.
 
-### BSIPA
-DaNike includes a [modding template](https://github.com/nike4613/BeatSaber-IPA-Reloaded/releases/latest) if you intend to make your plugin using BSIPA. Simply grab the template `.zip` from the latest release!
+You can download it on their [GitHub](https://github.com/Zingabopp/BeatSaberTemplates/releases/latest).  
+You will need to download `BeatSaberModdingTools.vsix`. (Expand the Assets dropdown if you cannot find it)
 
-### IPA
-If you wish to use the older IPA, the [BS Plugin Template](https://github.com/Kylemc1413/BS-Plugin-Template/releases/download/0.0.1/BS.Plugin.Template.zip) by Kyle1413 includes more options to guide you, as well as a basic use case of CustomUI. We will be using this for the Mod Tutorial, however intend to upgrade to BSIPA in the near future.
-
-However, if you wish to go more barebones, here is the older [Beat Saber Plugin Template](/uploads/modding/beat-saber-plugin-template.zip "Beat Saber Plugin Template") by RQ.
+Once downloaded, open the `.vsix` and it will install itself as a Visual Studio Plugin.  
+If you have any issues, consult the project's [README](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use).
 
 ## Template setup
-Install Instructions:
-1. Open C:\Users\You\Documents\Visual Studio 2019\Templates\ProjectTemplates\Visual C#.
-2. Drop in `BeatSaberIPAProjectTemplate.zip`.  You do not need to extract the contents here, dropping the zipped file will work.
+First, create a new project using the template.  
+We are going to use the `BSIPA4 Plugin (Core)` template, and we'll be calling our mod `BSPlugin1`. You should change the name to whatever you want to call your mod.
 
-After you have place the zip file in the correct directory, open Visual Studio 2019 and create a new project.
-You should see the Beat Saber Plugin Template in the Visual C# section.
-Create a new project using the template.
+![Modding Template Select](~@images/modding/modding-template-select.png "Modding Template Select")  
+![Modding Template Name](~@images/modding/modding-template-name.png "Modding Template Name")
 
-![Modding Plugin Template](~@images/modding/modding-plugin-template.png "Modding Plugin Template")
+You will then need to set your Beat Saber Directory in Visual Studio. Follow the instructions [on the template readme](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use), or see the screenshot below.
 
-If you intend on making a mod to be published to BeatMods, you will have to rename the assembly to your mod. Using the default assembly name won't cut it!
+![Setup Beat Saber Directory](~@images/modding/setup-bs-directory.png "Setup Beat Saber Directory")
 
-### Renaming the Assembly
-1. In the Solution Explorer panel, double click on Properties.  
-![Modding Plugin Prop Selected](~@images/modding/modding-plugin-prop-selected.png "Modding Plugin Prop Selected")
+At this point, **try and build the project**, and it should automatically find the references for you and the build should succeed.  
 
-2. Change the text in the textbox Assembly name.  
-![Modding Plugin Properties](~@images/modding/modding-plugin-properties.png "Modding Plugin Properties")
-
-While you're at it, make sure your Target Framework (Shown above) is above `4.6`, if you're using BSIPA. You can just set it to the highest in that dropdown, such as `4.7.1`.
-
-## Changing Copy Directory
-If you are using Kyle1413's Modding Template, it comes with a built in post-build event that attempts to copy your built file to:  
-`C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Plugins`
-
-If your Beat Saber install is located here, no worries. If not, we need to change this.
-
-1. Under `Project`, click on `<Project Name> Properties...` at the very bottom of the dropdown.
-2. In the menu that pops up, click `Build Events`
-3. Replace the last directory in the Post-build event command line *(The directory should look like the one above)* with the directory to your Plugins folder.
-4. Save and exit that menu.
-
-If the template you're using does not have a build event, add `copy /Y "$(TargetDir)$(TargetName).dll" "C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Plugins\$(TargetName).dll"` to the Post-build event. Match your Beat Saber install folder if you have a different one.
-
-## Inspecting the Code
-In the solution explorer, double click on `Plugin.cs` to open it up.
-You should see something like this. It'll look different depending on the template, but should look similar.
-
-![Plugin C# Example](~@images/modding/plugin-cs-example.png "Plugin C# Example")
+If your build does not succeed, check that you don't have any missing references.
 
 ::: tip
-Note the red squiggly underlines. This is means Visual Studio can't find our references.
+BeatSaberModdingTools will automatically handle references. If your references could not be found, [double-check the instructions](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use).
+
+If you need to manually add references, right click on `References` in the Project folder, then `Beat Saber Reference Manager...`.
+Select your references, then click "Apply".
 :::
 
-## Fixing References
-To do this, right click on `References` in the Solution Explorer, and select `Add Reference...`
+## Inspecting the Code
+You should have 5 files open automatically with the template.
 
-![Add Reference](~@images/modding/add-a-ref.png "Add Reference")
+| Filename | About |
+| - | - |
+| `manifest.json` | Information about your mod for BSIPA. |
+| `Plugin.cs` | The main file that is loaded for your mod. |
+| `AssemblyInfo.cs` | File information about your mod. This is mostly managed by Modding Tools. |
+| `PluginConfig.cs` | A template for enabling config for your mod. This is commented out by default. |
+| `BSPlugin1Controller.cs` | A generic MonoBehaviour for your mod. |
 
-This will open the Reference Manager window, and you can browse to find the DLL files that are missing.
-Most of these files will be located within `\<Beat Saber directory>\Beat Saber_Data\Managed`
+### Edit the Mod's Manifest
+Fill out the `manifest.json` file with your information.  
+The `name` and `id` keys are used to identify your mod. The ID should match the ID used when uploading your mod to BeatMods.  
 
-(For IPA, use `IllusionInjector` and `IllusionPlugin`. For BSIPA, `IPA.Loader` is all that you need)
-
-![Finding References](~@images/modding/dnspy-assembly.png "Finding References")
-
-![References Windows](~@images/modding/plugin-addreferences.png "References Windows")
-
-Some Libraries are located in the Plugins folder as well. Check there for any libraries you forgot to add.
-
-The most popular libraries located in the Plugins folder include:
-* CustomUI
-* BSML
-
-**Can't find your Beat Saber directory?** See [install folder](/faq/install-folder.md).
+::: warning
+Do **not** remove the dependency on BSIPA. As of BSIPA v4.1 this is required for your mod to load.
+:::
 
 ## Compiling
-Once you have fixed all project references, on the top menu bar press `Build -> Build Solution` or <kbd>CTRL + SHIFT + B</kbd>
+Build your plugin with `Build -> Build Solution` or <kbd>CTRL + SHIFT + B</kbd>  
+Your compiled DLL should automatically be copied to the `Plugins` folder in your Beat Saber directory! This will be done for both debug and release builds.
 
-Your compiled DLL should appear in the `\Bin\Debug` folder of your project, or copied over to your Plugins folder, depending on what template you use.
-You can then copy this DLL into the `Plugins` folder within your Beat Saber directory.
+::: tip NOTE
+When you are ready to release your mod, select the `Release` option to make a Release build of your mod.
+
+Building in Release mode will generate a packaged `.zip` file ready to upload to BeatMods.
+:::
