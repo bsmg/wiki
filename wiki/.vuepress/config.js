@@ -78,7 +78,6 @@ module.exports = {
           '/modding/': generateSidebar('Modding', [
             '',
             'intro',
-            'extras',
             'linux',
           ]),
           '/models/': generateSidebar('3D Models', [
@@ -119,7 +118,6 @@ module.exports = {
           '/fr/modding/': generateSidebar('Modding', [
             '',
             'intro',
-            'extras',
             'linux',
           ]),
           '/fr/models/': generateSidebar('Modèles 3D', [
