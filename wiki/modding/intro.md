@@ -55,7 +55,7 @@ You should have 5 files open automatically with the template.
 | `PluginConfig.cs` | A template for enabling config for your mod. This is commented out by default. |
 | `BSPlugin1Controller.cs` | A generic MonoBehaviour for your mod. |
 
-### Edit the Mod's Manifest
+### Edit your mod's Manifest
 Fill out the `manifest.json` file with your information.  
 The `name` and `id` keys are used to identify your mod. The ID should match the ID used when uploading your mod to BeatMods.  
 
@@ -72,3 +72,11 @@ When you are ready to release your mod, select the `Release` option to make a Re
 
 Building in Release mode will generate a packaged `.zip` file ready to upload to BeatMods.
 :::
+
+## Testing your mod in-game
+To test if your mod is loaded in-game, you will need to launch Beat Saber with the BSIPA Console enabled. Add `--verbose` as a launch argument and run the game.  
+For more information on launch arguments, see [here](/modding/#launch-args).
+
+When you launch the game, you should see BSIPA load your mod in the console window.
+
+![Testing console screenshot](~@images/modding/testing-console.png "Testing console screenshot")
