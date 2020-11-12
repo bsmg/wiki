@@ -25,7 +25,7 @@ This page provides both new and experienced mappers with general recommendations
 
 **Any time before upload:**  
 4. [Check your song volume](./basic-audio.html#check-song-volume) and make it [louder](./basic-audio.html#making-your-song-louder) or [softer](./basic-audio.html#making-your-song-softer) as needed  
-5. Check the length of your song outro and [trim it](./basic-audio.html#trimming-the-audio) if needed
+5. Check the length of your song outro and [trim it](./basic-audio.html#trimming-the-outro) if needed
 
 ## Song Selection for New Mappers
 Below are recommendations, **not** requirements, and will help to ease you into mapping. If you want to map 17 minutes of "In A Gadda Da Vida" for your first map then have at it but know that you’ll face a **lot** of additional challenges.
