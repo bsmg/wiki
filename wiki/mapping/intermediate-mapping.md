@@ -99,7 +99,7 @@ Sorted by how awkward they are for the right hand, left being the most awkward a
 **Awkward Backhands:** ![](~@images/mapping/bndl.png) ![](~@images/mapping/bnd.png) ![](~@images/mapping/bnl.png)  
 **Questionable Backhands:** ![](~@images/mapping/bndr.png)  
 **Awkward Forehands:** ![](~@images/mapping/bnur.png) ![](~@images/mapping/bnu.png) ![](~@images/mapping/bnr.png)  
-**Questionable ForeHands:** ![](~@images/mapping/bnul.png)
+**Questionable Forehands:** ![](~@images/mapping/bnul.png)
 
 If you have to make either a double backhand/forehand or one of the awkward backhands/forehands, the result is a DD or a triangle pattern.
 

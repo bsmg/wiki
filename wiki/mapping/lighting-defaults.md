@@ -145,7 +145,7 @@ This is used by the K/DA environment.
 
 ## Crab Rave
 ![Image of Crabrave colors](~@images/mapping/color-crabrave.png)  
-This is used by the Crab Rave enrivonment.
+This is used by the Crab Rave environment.
 
 **Left Side Block Color (Green)**
 ```
@@ -190,7 +190,7 @@ This is used by the Crab Rave enrivonment.
 
 ## Rocket
 ![Image of Rocket colors](~@images/mapping/color-rocket.png)  
-This is used by the Rocket League enrivonment.
+This is used by the Rocket League environment.
 
 **Left Side Block Color (Orange)**
 ```
@@ -235,7 +235,7 @@ This is used by the Rocket League enrivonment.
 
 ## Green Day
 ![Image of GreenDay colors](~@images/mapping/color-greenday.png)  
-This is used by the Green Day and Green Day Grenade enrivonment.
+This is used by the Green Day and Green Day Grenade environment.
 
 **Left Side Block Color (Green)**
 ```
@@ -280,7 +280,7 @@ This is used by the Green Day and Green Day Grenade enrivonment.
 
 ## Timbaland
 ![Image of Timbaland colors](~@images/mapping/color-timbaland.png)  
-This is used by the Timbaland enrivonment.
+This is used by the Timbaland environment.
 
 **Left Side Block Color (Grey)**
 ```
@@ -325,7 +325,7 @@ This is used by the Timbaland enrivonment.
 
 ## FitBeat
 ![Image of FitBeat colors](~@images/mapping/color-fitbeat.png)  
-This is used by the FitBeat enrivonment.
+This is used by the FitBeat environment.
 
 **Left Side Block Color (Yellow)**
 ```
@@ -370,7 +370,7 @@ This is used by the FitBeat enrivonment.
 
 ## Linkin Park
 ![Image of Linkin Park colors](~@images/mapping/color-linkinpark.png)  
-This is used by the Linkin Park enrivonment.
+This is used by the Linkin Park environment.
 
 Introduced in this environment are the boost colors. All other environments fallback to their respective environment colors for boost colors.
 
@@ -428,6 +428,67 @@ Introduced in this environment are the boost colors. All other environments fall
   "r": 0.282353,
   "g": 0.4586275,
   "b": 0.6235294
+ },
+```
+
+## BTS
+![Image of BTS colors](~@images/mapping/color-bts.png)  
+This is used by the BTS environment.
+
+**Left Side Block Color (Red-Purple)**
+```
+"_colorLeft": {
+  "r": 1,
+  "g": 0.09019607,
+  "b": 0.4059771,
+},
+```
+**Right Side Block Color (Purple)**
+```
+"_colorRight": {
+  "r": 0.8018868,
+  "g": 0,
+  "b": 0.7517689
+},
+```
+**Left Side Light Color (Neon Pink)**
+```
+"_envColorLeft": {
+  "r": 0.7843137,
+  "g": 0.1254902,
+  "b": 0.5010797,
+},
+```
+**Right Side Light Color (Purple)**
+```
+"_envColorRight": {
+  "r": 0.6941177,
+  "g": 0.1254902,
+  "b": 0.8666667
+},
+```
+**Wall Color (Red-Purple)**
+```
+"_obstacleColor": {
+  "r": 0.6698113,
+  "g": 0.1800908,
+  "b": 0.5528399
+ },
+```
+**Left Side Boost Light Color (Light Pink)**
+```
+"_envColorLeftBoost": {
+  "r": 0.9019608,
+  "g": 0.5411765,
+  "b": 1
+ },
+```
+**Right Side Boost Light Color (Light Blue)**
+```
+"_envColorRightBoost": {
+  "r": 0.3490196,
+  "g": 0.8078431,
+  "b": 1
  },
 ```
 
