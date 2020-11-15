@@ -40,24 +40,22 @@ The first time you run MMA2 you will need to direct it to the location of two fo
 
 **If you have Beat Saber installed on the computer:**
 * Give MMA2 the path to the two appropriate folders
-* Steam Example: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`
-* Oculus Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
+   * Steam Example: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`
+   * Oculus Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
 
 **If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
-* Make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them.
-   * Example: `C:\Users\Helen\Documents\CustomWIPLevels`
+
+1. Download `mapping-folders.zip` from [BSMG Git](https://git.bsmg.dev/bloodcloak/mapping-qstart/releases/latest) which contains pre-formatted folders that mimics a game install.
+2. Extract the zip to a location of your choice.
+3. Enter the path to the CustomLevels and CustomWIPLevels folder near the bottom of the Settings Bar.
+    * Example Path: `C:\Users\bsmg\Documents\Beat Saber\Beat Saber_Data\CustomWIPLevels`
+
+* Alternatively, you can make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them.
 <p align="center">
 ![Screenshot of Mediocre Mapper path entry](~@images/mapping/mma2-folder-path.jpg)
 </p>
 
 All of your working map files will go into a song name folder within this CustomWIPLevels folder.
-
-::: tip NOTE for Steam Users
-It is a known bug that the autodetect path MMA2 uses is missing a `\` between `Beat Saber` and `Beat Saber_Data` for both folders. If MMA2 gives an error on your path, make sure it is  
-`C:\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`  
-instead of  
-`C:\Steam\steamapps\common\Beat SaberBeat Saber_Data\CustomLevels`
-:::
 
 ### Linux Installation
 1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest). 
@@ -87,7 +85,7 @@ The first time you run MMA2 you will need to direct it to the location of two fo
 All of your working map files will go into a song name folder within this CustomWIPLevels folder.
 
 ### Check the WIP File Path
-It is currently a known bug that the path given from setup does not carry over to the main screen. Make sure the fields have the paths from your setup and are not blank. If blank, add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and press <kbd>Enter</kbd> to confirm!  
+The path given from setup may not carry over from the main screen. Make sure the fields have the paths from your setup and are not blank. If blank, add the path(s) from [First Time Setup](/mapping/mediocre-map-assistant.html#first-time-setup) and press <kbd>Enter</kbd> to confirm!  
 <p align="center">
 ![Check Paths Not Blank](~@images/mapping/mma2-checkWipSongPath.png)
 </p>
