@@ -155,12 +155,15 @@ Opening your map in the editor again will remove your color overrides.
 These tools will help PC Beat Saber users preview their lighting more accurately. Most editors do not show true-to-life lighting effects.
  
 ### In-game with FPFC
-First Person Flying Controller (FPFC) is a launch parameter that can be used by either Steam or Oculus users. FPFC will open an instance of Beat Saber on your desktop and allow you to control it with your keyboard and mouse. You will need the [FPFCToggle](https://github.com/DeadlyKitten/FPFCToggle/releases/latest) and [Music Escape](https://github.com/DeadlyKitten/MusicEscape/releases/latest) mods in order to interact while a map is playing. 
+First Person Flying Controller (FPFC) is a launch parameter that can be used by either Steam or Oculus users. FPFC will open an instance of Beat Saber on your desktop and allow you to control it with your keyboard and mouse. You will need the SiraUtil mod in order to interact while a map is playing.
 
-**FPFCToggle:** allows you to use WASD to "fly" around in your map.  
-**Music Escape:** allows you to open the pause menu by hitting the <kbd>F2</kbd> key or exit your level by hitting the <kbd>ESC</kbd> key (otherwise you must play your song to completion).
+It allows you to use WASD to "fly" around in your map, open the pause menu by hitting the <kbd>F2</kbd> key, or exit your level by hitting the <kbd>ESC</kbd> key (otherwise you must play your song to completion).
 
-**For Steam Users:** Open the game properties and add `fpfc` to the Steam launch options.  
+Install SiraUtil from ModAssistant and run Beat Saber to create a config json file. Edit the `SiraUtil.json` file in your `UserData` folder and change `"Enabled": false` to `"Enabled": true` under FPFCToggle and SongControl then follow the store platform specific steps below.  
+![SiraUtil JSON Setting](~@images/mapping/sirautil-FPFC.png)
+
+**For Steam Users:**   
+Open the game properties and add `fpfc` to the Steam launch options.   
 ![Fpfc launch options](~@images/mapping/fpfc.png)
 
 **For Oculus Users:** 
@@ -168,11 +171,9 @@ First Person Flying Controller (FPFC) is a launch parameter that can be used by 
 2. Edit the Target to add "fpfc" to the end of it.
 For example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" fpfc`
 
-After installing the mods and adding the launch parameter you should then enter a map. You will start on the floor as always but now if you double press the <kbd>G</kbd> key you will be able to move during the song. You can also open the pause menu out by pressing <kbd>Esc</kbd>.
+After installing the mods and adding the launch parameter you can then now move around and pause in a map. The toggle key to switch between headset and mouse/keyboard control is <kbd>G</kbd>.
 
 :::warning NOTE
-- You may encounter issues if you press the <kbd>G</kbd> key before entering a song.
-
 - If you go back into vr and the game doesn't load in the headset either: 
   - Press the <kbd>G</kbd> key until the headset displays the game  
 **==OR==** 
@@ -182,7 +183,7 @@ After installing the mods and adding the launch parameter you should then enter 
 :::
 
 ### Online with BS Viewer
-[BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** is an online tool that is a convienient way to checkout how your map might look in game without the game. Just upload your map zip to the website and preview! Unfortunately **IOS and Safari are currently not supported.**
+[BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** is an online tool that is a convenient way to checkout how your map might look in game without the game. Just upload your map zip to the website and preview! Unfortunately **IOS and Safari are currently not supported.**
 
 ## Credits
 Content in this section was authored by [LittleAsi](/mapping/mapping-credits.html#littleasi) and [Kolezan](/mapping/mapping-credits.html#kolezan) or derived from guides by [Puds](/mapping/mapping-credits.html#puds) and [MandyNasty](/mapping/mapping-credits.html#mandynasty). With visual media contributions from [Aeroluna](/mapping/mapping-credits.html#aeroluna) and [Bullet](/mapping/mapping-credits.html#bullet).
