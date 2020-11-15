@@ -55,7 +55,7 @@ Not sure where Beat Saber is installed? See [FAQ: Install Folder](https://bsmg.w
 Here you will need to “trick” Mediocre Map Assistant 2 that your folder is a Beat Saber install.
 
 Option 1:
-1. Download this zip for pre-formatted folders and Mapping Extensions Plugin [here](https://drive.google.com/file/d/18MVVZu9jGNY7trf8UuA-4DUZmNdMPsDM/view?usp=sharing).
+1. Download this zip for pre-formatted folders and Mapping Extensions Plugin [here](https://git.bsmg.dev/bloodcloak/mapping-qstart/releases/latest).
 2. Extract the zip to a location of your choice.
 3. Enter the path to the CustomLevels and CustomWIPLevels folder near the bottom of the Settings Bar.
     * Example Path: `C:\Users\bsmg\Documents\Beat Saber\Beat Saber_Data\CustomWIPLevels`
