@@ -77,7 +77,7 @@ Option 2:
 2. In the Settings bar on the right, 3 new tick box options should be available under the Beta section:
    - **6 Lane Mode** - Extends the number of lanes available to map blocks to to 6 from 4. Also enables placement of walls outside of the lanes.
    - **Precision Placement** - Allows blocks, walls, and bombs to be placed at a finer resolution than the current grid.
-   - **Prevision Rotation** - Allows blocks to be angled at any angle instead of the default 45-degree increments.
+   - **Precision Rotation** - Allows blocks to be angled at any angle instead of the default 45-degree increments.
 3. Enable the desired features by clicking the checkboxes. For example, wall mapping needs 6 Lane and Precision Placement.
 4. Select the level you want to map in and click on the ExtraFields tab to the right of the difficulty select.
 5. Click the Requirements tab and then type in `Mapping Extensions`. 
