@@ -61,6 +61,14 @@ A massive contributor to the development of quest mods.
 
 **Roles:** Modder
 
+## Eris
+One of many with a very questionable sleep schedule. Creator of MorePrecisePlayerHeight. Ended up maintaining a wild variety of mods after adopting them from their original creators. Also Pink cute.
+
+**Roles:** Modder
+**Contributions:** MorePrecisePlayerHeight, HitScoreVisualizer, ChatCore, EnhancedStreamChat, ...
+
+[GitHub](https://github.com/erisapps) | [Donate](https://ko-fi.com/erisapps)
+
 ## halsafar
 Helps you sort out your 5000 custom songs in a reasonable manner.
 
