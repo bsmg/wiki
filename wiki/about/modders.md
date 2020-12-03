@@ -69,6 +69,14 @@ One of many with a very questionable sleep schedule. Creator of MorePrecisePlaye
 
 [GitHub](https://github.com/erisapps) | [Donate](https://ko-fi.com/erisapps)
 
+## Goobie
+Maintainer of the mods that help you play with friends the right way. Spends way too much time coding, and considers herself best girl.
+
+**Roles:** Modder
+**Contributions:** MultiplayerExtensions, MultiQuestensions
+
+[GitHub](https://github.com/goobwabber) | [Donate](https://ko-fi.com/goobwabber)
+
 ## halsafar
 Helps you sort out your 5000 custom songs in a reasonable manner.
 
