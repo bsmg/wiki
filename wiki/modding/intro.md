@@ -88,7 +88,8 @@ When you launch the game, you should see BSIPA load your mod in the console wind
 
 ## Next Steps
 Here are some useful resources in continuing your modding career.
-* If you need help with developing mods, you can ask in [BSMG's #pc-mod-dev](https://discord.gg/beatsabermods) channel.
-* If you want to decompile code, checkout [dnSpy](https://github.com/dnSpy/dnSpy/releases)
+* If you need help with developing mods, you can ask in `#pc-mod-dev` on the [BSMG Discord](https://discord.gg/beatsabermods).
+* If you want to decompile code, check out [dnSpy](https://github.com/dnSpy/dnSpy/releases)
 * See the BSIPA Documentation for more information about the [configuration system](https://bsmg.github.io/BeatSaber-IPA-Reloaded/tags/4.1.3/articles/start-dev.html#configuring-your-plugin).
-* For experienced developers, you may be interested learning about Zenject for Dependency Injection which the game heavily uses. [SiraUtil](https://github.com/Auros/SiraUtil#readme) is a library that allows you to easily hook into this system.
+* If you need to patch the game's code for your mod, you should use [Harmony](https://github.com/pardeike/Harmony#readme). The `0Harmony.dll` is already installed for modded games.
+* For experienced developers, you may be interested in learning about Zenject, the Dependency Injection system used heavily by Beat Saber. [SiraUtil](https://github.com/Auros/SiraUtil#readme) is a library that allows you to easily hook into this system.
