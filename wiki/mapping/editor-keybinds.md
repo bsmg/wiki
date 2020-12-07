@@ -12,7 +12,7 @@ There are usually multiple ways to accomplish the same action, however, keyboard
 * You can find more info on Beatmapper's keybinds [here](https://beatmapper.app/docs/keyboard-shortcuts). There are some actions that are very specific to Beatmapper that may not be noted on this page. 
 :::
 
-If this format doesn't work for you, this [google spreadsheet](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing), which this wiki page is based off of, is also available but may be out of date.
+If this format doesn't work for you, this [google spreadsheet](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing), which this wiki page is based off of, is also available but is slightly out of date.
 
 ## General Keybinds
 ### Basic

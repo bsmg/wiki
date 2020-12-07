@@ -20,6 +20,7 @@ The available lighting types are consistent across each of the built-in game env
 * **Ring Spins:** Used to create movement in the rings. In environments with both an inner and an our ring, rings spins rotate both rings together.
 * **Ring Zooms:** Used to zoom and unzoom the inner ring in environments that have it. Does not affect the outer ring.
 * **Laser Speed:** Changes the speed of the side laser rotation from stationary (0) to very fast (20). Set independently for the right and left side lasers. Back top lasers do not move. Laser speed increases linearly so **2** is twice as fast as **1** and **5** is five times as fast as **1**.
+* **Boost Event:** Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors.
 
 ## Lighting Events
 Each lighting type can make use of four different lighting events.
@@ -46,7 +47,7 @@ Lighting previews are not realistic in the editors currently available to the pu
 :::
 
 ### Key Bindings
-Each map editor handles lighting differently so you’ll want to get to know the key bindings and how placements work in your editor of choice. Lighting keybinds vary by editor. Consult your editor's user guide or readme or refer to this helpful list [Cross-Editor Keybindings](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit).
+Each map editor handles lighting differently so you’ll want to get to know the key bindings and how placements work in your editor of choice. Lighting keybinds vary by editor. Consult your editor's user guide or readme or refer to this helpful list [Cross-Editor Keybindings](/mapping/editor-keybinds.md).
 
 ### Assigning Lighting Events
 Mappers lighting their first map should start by assigning specific [lighting types](/mapping/basic-lighting.html#lighting-types) to specific instruments, then branch out from there as they get more experienced. This method won't usually produce the most exciting shows, but it's hard to mess up. This might look like:
@@ -80,7 +81,7 @@ Custom environment models (platforms) created by the community exist but require
 
 The basic structure of each environment is mostly the same. In the [Mediocre Map Assistant 2](./mediocre-map-assistant.md) editor the lighting track looks like this:
 <p align="center">
-![Screenshot of the MMA2 lighting track from the top down](~@images/mapping/mma2-lighting-track.png)
+![Screenshot of the MMA2 lighting track from the top down](~@images/mapping/mma2-lighting-track.jpg)
 </p>
 
 ### Environment Previews 
@@ -132,8 +133,7 @@ When choosing color overrides for the notes. It is **HIGHLY** recommended that y
 
 See [Environment Default Colours](/mapping/lighting-defaults.html) for a list of default colors used in the environments.
 
-[BeatMapper](/mapping/#beatmapper-app) and [ChroMapper](/mapping/#chromapper-coming-soon) natively support color overrides. Check their respective guides for more information.  
-[MMA2](/mapping/#mediocre-map-assistant-2) does not support color overrides and requires manual editing of your map files or use of [BeatMapperTools](https://mappers.beatmappertools.com/) by **Darkuni**.
+[BeatMapper](/mapping/#beatmapper-app), [ChroMapper](/mapping/#chromapper-coming-soon), and [MMA2](/mapping/#mediocre-map-assistant-2) natively support color overrides. Check their respective guides for more information.
 
 ### Manually Adding Color Overrides
 1. Decide what RGB colors you want notes and/or lights and/or walls to be. Use a color scheme utility like [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF) to find complimentary colors.
@@ -145,11 +145,6 @@ See [Environment Default Colours](/mapping/lighting-defaults.html) for a list of
 	* The `"r":` and `"g":` values **must** have commas after them.
 
 See lines 29-60 and 69-100 of this [Pastebin clip](https://pastebin.com/x9zEiHxR) for an example of these code blocks in action in a `.DAT` file.  
-
-::: danger WARNING for MMA2 Users
-If you choose to manualy add color overrides to your map this must be the **LAST** thing you do before releasing.  
-Opening your map in the editor again will remove your color overrides.
-:::
 
 ## Previewing Your Lights
 These tools will help PC Beat Saber users preview their lighting more accurately. Most editors do not show true-to-life lighting effects.

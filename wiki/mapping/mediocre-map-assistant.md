@@ -173,10 +173,11 @@ Special characters such as those found in, Japanese (日本語/にほんご), Ka
 The <kbd>Open Song Folder</kbd> button will open your song folder in Windows Explorer. This will help you confirm that you have your files in the right spot.
 The <kbd>Package Song to Zip</kbd> button will remove your autosaves folder and zip the files for BeatSaver.
 The <kbd>Save Song Info</kbd> button commits all of your metadata to the Info.dat file
+
 #### Difficulty Settings
 On the right side of the `Song Info` page is the area where you create individual difficulties and edit data that only applies to a single diffculty level. To create your first difficulty:
 
-1. Click the **<kbd>Add Difficulty</kbd>** button. The default difficulty is easy.
+1. Click the **<kbd>Add Difficulty</kbd>** button.
 2. In the **Difficulty** dropdown select which difficulty you want to make (easy, normal, hard, expert, or expertplus).
 3. In the **Characteristic** dropdown you can select Standard, No Arrows, or Single Saber.
 4. **Difficulty Label** is optional and allows you to give your difficulties custom names in-game. If left blank, the difficulty set in the dropdown will be displayed instead. *This feature may not reliably work on all VR models*.
@@ -189,6 +190,14 @@ You **must** click <kbd>Apply Modifications</kbd> if you make a change to diffic
 :::
 
 Click <kbd>Edit Level</kbd> when you're ready to start mapping!
+
+#### Color Override Settings
+You can set the environment color overrides for the selected difficulty using the squares on the right side of the `Song Info` page. Hovering over a square will list what override the square is for. Clicking on the square will bring up the color picker. Right clicking on the square will remove the overriden color (returning back to the default color).
+
+* `colorLeft` and `colorRight`: Color of the left and right hand blocks
+* `obstacleColor`: Color of the walls
+* `envColorLeft` and `envColorRight`: First pair of lighting colors
+* `envColorLeftBoost` and `envColorRightBoost`: Second pair of lighting colors
 
 #### Other Settings
 * **Contributors Tab:** This left side tab is an optional spot to give credit to mappers, lighters, playtesters or other contributors to your map. Enter the contributor role, their name, and the file name of a square "profile image" which you place in your song folder
