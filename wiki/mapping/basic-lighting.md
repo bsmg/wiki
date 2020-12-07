@@ -47,7 +47,7 @@ Lighting previews are not realistic in the editors currently available to the pu
 :::
 
 ### Key Bindings
-Each map editor handles lighting differently so you’ll want to get to know the key bindings and how placements work in your editor of choice. Lighting keybinds vary by editor. Consult your editor's user guide or readme or refer to this helpful list [Cross-Editor Keybindings](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit).
+Each map editor handles lighting differently so you’ll want to get to know the key bindings and how placements work in your editor of choice. Lighting keybinds vary by editor. Consult your editor's user guide or readme or refer to this helpful list [Cross-Editor Keybindings](/mapping/editor-keybinds.md).
 
 ### Assigning Lighting Events
 Mappers lighting their first map should start by assigning specific [lighting types](/mapping/basic-lighting.html#lighting-types) to specific instruments, then branch out from there as they get more experienced. This method won't usually produce the most exciting shows, but it's hard to mess up. This might look like:
