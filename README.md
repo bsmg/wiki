@@ -5,11 +5,10 @@ If you wish to contribute, [submit a pull request](https://github.com/bsmg/wiki/
 Don't know where to start? Checkout this [crash course](https://docs.google.com/document/d/1r6IP6l3uo8rc__GxfLkpaToxheeXotdYaKEj3oWB2js/edit?usp=sharing) on making contributions!
 
 ### 🌐 Localization
-Translation efforts are tracked using [GitHub's Project tracker.](https://github.com/bsmg/wiki/projects)
-There you can see the status of each page that needs translating.
+Translation efforts are managed using [Crowdin](https://crowdin.com/project/bsmg-wiki)
+There you can see the status of each page that needs translating and contribute by creating an account!
 
-Please [contact the BSMG](http://bit.ly/MessageBSMG) if you'd like to help translate BSMG projects.
-Most of the translation discussion takes place outside of this repository, and we can help connect you with the communities working on translation efforts.
+Don't see your language available to translate? You can [contact us](http://bit.ly/MessageBSMG) and we will be in touch on getting setup.
 
 ## 🧪 Development
 To run a local copy of the wiki:
