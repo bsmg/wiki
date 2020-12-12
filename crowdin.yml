@@ -1,0 +1,7 @@
+files:
+  - source: /wiki/**/*.md
+    ignore:
+      - /wiki/.assets/
+      - /wiki/.vuepress/
+      - /wiki/%two_letters_code%/
+    translation: /wiki/%two_letters_code%/**/%original_file_name%
