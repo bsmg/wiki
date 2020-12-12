@@ -58,7 +58,7 @@ jobs:
     steps:
       - name: Skip Deploy Wiki Step?
         if: env.ENABLE != '1ENABLED'
-        run: echo ENABLE_CI_DEPLOY Secret not set to 1ENABLED, skipping deployment...
+        run: echo "::warning::ENABLE_CI_DEPLOY Secret not set to 1ENABLED, skipping deployment..."
       - name: Deploy Wiki
         if: env.ENABLE == '1ENABLED'
         run: "curl -X POST -H 'Authorization: Bearer ${{ secrets.HOOK_TOKEN }}' -d `git rev-parse --short HEAD` '${{ secrets.HOOK_URL }}'"
