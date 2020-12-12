@@ -6,5 +6,6 @@ npm-debug.log
 .gitignore
 LICENSE
 Dockerfile
+crowdin.yml
 
 wiki/.vuepress/dist

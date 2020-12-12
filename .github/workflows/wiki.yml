@@ -1,5 +1,8 @@
 name: Wiki CI
-on: [push]
+on: 
+  push:
+    branches-ignore:
+      - 'cwdin_**'
 
 jobs:
   build:
