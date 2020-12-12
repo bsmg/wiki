@@ -59,11 +59,6 @@ jobs:
       - name: Skip Deploy Wiki Step?
         if: env.ENABLE != '1ENABLED'
         run: echo ENABLE_CI_DEPLOY Secret not set to 1ENABLED, skipping deployment...
-
-      - name: Checkout git repository
-        if: env.ENABLE == '1ENABLED'
-        uses: actions/checkout@v2
-
       - name: Deploy Wiki
         if: env.ENABLE == '1ENABLED'
         run: "curl -X POST -H 'Authorization: Bearer ${{ secrets.HOOK_TOKEN }}' -d `git rev-parse --short HEAD` '${{ secrets.HOOK_URL }}'"
