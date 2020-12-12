@@ -23,17 +23,14 @@ Rendez-vous dans la [catégorie mapping](/fr/mapping/) !
 
 ## Comment charger des extensions / mods qui ne sont pas dans Mod Assistant ?
 Rendez-vous dans [cette section](/fr/pc-modding.md#manual-installation) du guide du Débutant.
-
 ## Comment le mod pour le multijoueur fonctionne-t-il ?
-Le multijoueur officiel n'est pas encore sortie, mais vous pouvez utiliser le mod multijoueur créé par Andruzzzhka.
-[Voici un guide pour mettre en place le mod multijoueur](https://bs.assistant.moe/Multiplayer/) (en anglais).
+
+Le multijoueur officiel n'est pas encore sortie, mais vous pouvez utiliser le mod multijoueur créé par Andruzzzhka. [Voici un guide pour mettre en place le mod multijoueur](https://bs.assistant.moe/Multiplayer/) (en anglais).
 
 ## Mon jeu a été mis à jour et mes mods ne fonctionnent plus !
-Chaque fois que le jeu est mis à jour, il est possible *(est très probable)* que vos mods installés précédemment ne fonctionnent plus. Ils doivent être mis à jour également.
-Les développeurs l'ont réalisé, ainsi quand le jeu se met à jour et que vous le lancez pour la première fois, tout ce qui se trouve dans le dossier `Plugins` est déplacé dans le dossier `Incompatible Plugins`. **Laissez-les à cet emplacement !**
+Chaque fois que le jeu est mis à jour, il est possible *(est très probable)* que vos mods installés précédemment ne fonctionnent plus. Ils doivent être mis à jour également. Les développeurs l'ont réalisé, ainsi quand le jeu se met à jour et que vous le lancez pour la première fois, tout ce qui se trouve dans le dossier `Plugins` est déplacé dans le dossier `Incompatible Plugins`. **Laissez-les à cet emplacement !**
 
-Pour récupérer vos mods, **lancez simplement l'installateur de mods.**
-Vous y trouverez les mods qui fonctionnent pour la dernière version du jeu, qui sont incluent dans le dépôt BeatMods.
+Pour récupérer vos mods, **lancez simplement l'installateur de mods.** Vous y trouverez les mods qui fonctionnent pour la dernière version du jeu, qui sont incluent dans le dépôt BeatMods.
 
 Si vous restez sceptique face à ça, visitez le [guide du Débutant](/fr/beginners-guide.md).
 

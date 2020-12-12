@@ -1,11 +1,17 @@
----
-translation-done: false
----
-::: danger
-Sorry, this page has not been translated yet, you can either:
-- refer to the [original English version](<../../models/custom-notes.md>),
-- wait for a translation to be done,
-- or contribute to translation effort [here](https://github.com/bsmg/wiki).
-:::
+# Custom Notes
+## Installation
 
-_Note for translators: this page was generated automatically, please remove this content before starting translation_
+translation-done: false
+
+Once installed, you should see a `CustomNotes` folder in [your install folder](/faq/install-folder.md), with some sample notes installed for you. This folder is also where you will place `*.bloq` files.
+
+You can download more bloqs from [ModelSaber](https://modelsaber.com/Bloqs/).
+
+## Usage
+Inside the game in the main menu you will see a `CUSTOM NOTES` button at the top left of the Mods menu over by the release notes. Pressing it will open up the menu you can use to select which notes you want to use.
+
+## Creating Custom Notes
+
+[Bobbie's Bloq Guide](/models/notes-guide.html) is a good resource for creating custom notes from an existing model.
+
+Note that this guide does not cover 3D modeling the notes. For that, we recommend looking up some tutorials on [Blender](https://www.blender.org/)!

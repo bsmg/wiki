@@ -1,11 +1,15 @@
----
-translation-done: false
----
-::: danger
-Sorry, this page has not been translated yet, you can either:
-- refer to the [original English version](<../../faq/install-folder.md>),
-- wait for a translation to be done,
-- or contribute to translation effort [here](https://github.com/bsmg/wiki).
-:::
+# Install Folder
+_Where is Beat Saber installed?_
 
-_Note for translators: this page was generated automatically, please remove this content before starting translation_
+## Default Location
+|        |                                                                                      |
+| ------ | ------------------------------------------------------------------------------------ |
+| Steam  | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\`                  |
+| Oculus | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+
+## Other Locations
+**If you have moved your install folder to a different drive, it might be in the location below.** Replace the drive letter `F` with the drive your game is installed on.
+|        |                                                                       |
+| ------ | --------------------------------------------------------------------- |
+| Steam  | `F:\SteamLibrary\steamapps\common\Beat Saber\`                 |
+| Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
