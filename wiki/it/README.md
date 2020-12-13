@@ -3,7 +3,7 @@ home: true
 title: BSMG Wiki
 heroText: BSMG Wiki
 tagline: Welcome to the Beat Saber Modding Group Wiki!
-description: Beat Saber Modding Group Wiki はようこそ!
+description: Welcome to the Beat Saber Modding Group Wiki!
 actionText: Beginners Guide →
 actionLink: ./beginners-guide.md
 footer: Copyright © 2019-2020 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
@@ -24,6 +24,7 @@ tags:
 * [Quest Modding](./quest-modding.md)
 * [Common Problems](./support/)
 * [Grips and Tricks](./grips-and-tricks.md)
+* [Ranking & Scoring Guide](./ranking-guide.md)
 :::
 
 ::: feature Creating new Content
