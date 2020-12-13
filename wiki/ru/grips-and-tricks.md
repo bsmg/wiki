@@ -1,9 +1,9 @@
 ---
-sidebar: "false"
+sidebar: auto
 ---
 
-# 持ち方とコツ
-_ブロックを切るようの資料まとめ_
+# Grips And Tricks
+_A compilation of resources to help you to hit bloq_
 
 ## Ranking Up Mega-Tutorial
 An incredible writeup by TeknozFR to help you get that PP. [Ranking & Scoring Guide](./ranking-guide)

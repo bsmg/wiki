@@ -3,7 +3,7 @@ sidebar: auto
 ---
 
 # Grips et Astuces
-_Une compilation de ressurces pour vous aider à taper les bloq_
+_Une compilation de ressources pour vous aider à taper les bloq_
 
 ## Méga-tutoriel pour monter dans le classement
 Un incroyable rapport de TeknozFR pour vous aider à booster vos PP. [https://bsaber.com/indepth-guide/](https://bsaber.com/indepth-guide/) (document en anglais)
@@ -25,12 +25,12 @@ Vous pouvez voir votre rang général et vos PP sur [ScoreSaber](https://scoresa
 1. Des PP (PP = *Performance Points* ou points de performance) sont assignés pour chaque musique classée. Le nombre exact de PP obtenus est déterminé par la précision avec laquelle vous terminez un musique classée. La valeur d'une musique classée en PP est déterminée par un algorithme secret développé par Umbranox, notre Dieu Panda.
 2. Pour éviter que les joueurs les plus aguerris amassent des sommes de points immenses sur les chansons les plus faciles qui valent peu de PP, une courbe est appliquée à vos sessions. Cette courbe est 0.965^(x-1) où x est la position du score dans votre liste de musiques. Par exemple, si votre meilleur score est à 260 PP, vous gagnez 260 PP ajustés, ce qui équivaut à 100 % de vos PP bruts sur ce score. Si votre deuxième meilleur score est à 247 PP, vous gagnez 238 PP ajustés, ce qui équivaut à l'application de la courbe sur vos PP bruts. Voici une liste de mes 4 meilleurs scores où les PP bruts sont en italique et les PP ajustés sont en gras :
 
-| *PP bruts* -> **PP ajustés**            | Weighted PP                  |
-| --------------------------------------- | ---------------------------- |
-| *260pp* -> **260pp** (100% of raw PP)   | **260pp** (100% of raw PP)   |
-| *247pp* -> **238pp** (96.5% of raw PP)  | **238pp** (96.5% of raw PP)  |
-| *246pp* -> **229pp** (93.1% of raw PP)  | **229pp** (93.1% of raw PP)  |
-| *244pp* -> **219pp**  (89.9% of raw PP) | **219pp**  (89.9% of raw PP) |
+| *PP bruts* -> | **PP ajustés**                |
+| ------------- | ----------------------------- |
+| *260pp* ->    | **260pp** (100% du PP brut)   |
+| *247pp* ->    | **238pp** (96.5% du PP brut)  |
+| *246pp* ->    | **229pp** (93.1% du PP brut)  |
+| *244pp* ->    | **219pp**  (89.9% du PP brut) |
 
 3. Pour monter dans le classement, positionnez vos scores sur des nouvelles musiques qui valent plus ou la même quantité de PP que vos meilleurs scores. Quand vous n'avez plus de nouvelles musiques à haut PP à jouer, battez vos scores sur des musiques de vos premières pages. Voici une [feuille de calcul de DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) de toutes les musiques classées et leur valeur en PP. La liste est mise à jour toute les 24 heures.
 
@@ -54,7 +54,7 @@ Cube Community a réalisé une vidéo de démonstration de certains grips popula
 ![Oculus Grips Guide](~@images/grips-and-tricks/oculus-grips-guide.jpg)
 
 ### Oculus Rift S et Quest
-Il n'existe pas encore de vidéo pour les contrôleurs du Rift S et du Quest, mais vous pouvez trouver des exemples supplémentaires à l'image ci-dessous dans leur canal `#tips-and-grips` !![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/touch2-grips.jpg)
+Il n'existe pas encore de vidéo pour les contrôleurs du Rift S et du Quest, mais vous pouvez trouver des exemples supplémentaires à l'image ci-dessous dans leur canal `#tips-and-grips` !![Guide pour Oculus Rift S/Quest](~@images/grips-and-tricks/touch2-grips.jpg)
 
 ### Contrôleurs du Valve Index
 Il n'existe pas encore de vidéo pour les Index Controllers, mais vous trouverez des exemples dans leur canal textuel `#tips-and-grips` ! [Discord Cube Community](https://discord.gg/dwe8mbC) (serveur Discord anglophone)

@@ -1,28 +1,28 @@
 ---
-sidebar: "false"
+sidebar: auto
 ---
 
-# 持ち方とコツ
-_ブロックを切るようの資料まとめ_
+# 그립과 팁
+_노트를 베는 데에 유용한 자료들_
 
-## Ranking Up Mega-Tutorial
-An incredible writeup by TeknozFR to help you get that PP. [Ranking & Scoring Guide](./ranking-guide)
+## 랭킹 올리기 튜토리얼
+PP를 얻는 데 도움을 주는 TeknozFR의 믿을 수 없는 글. [랭킹 & 고득점 가이드](./ranking-guide)
 
-## Scoring
-See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) about how the scoring system works.
+## 고득점
+[Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) 이 영상을 통해 어떻게 점수 시스템이 작동하는지 알 수 있습니다.
 
 <YouTube url='https://www.youtube.com/watch?v=rVbXCGddspA' />
 
-Additionally, here's an image from the devs about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
+추가로, 이 [이미지](https://twitter.com/Split82/status/979365834324889600)를 보면 히트박스가 어떻게 작동하는지 확인할 수 있습니다.
 
 ![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
 
-## Ranking
-*How does global ranking work? What are performance points? What are the numbers in my brackets? Why is my PP so small?*
+## 랭킹
+*세계 랭킹은 어떻게 작동하나요? Performance points는 또 뭔가요? 괄호 안의 숫자는 대체 무엇이죠? 왜 저의 PP는 이렇게 적나요?*
 
-You can find your global ranking and PP on [ScoreSaber](https://scoresaber.com/global) - here you can search for your name. Your scoresaber account is tied to your Steam / Oculus username.
+[ScoreSaber](https://scoresaber.com/global)에서 닉네임을 검색하면, 여러분의 글로벌 랭킹과 PP를 확인할 수 있습니다. Scoresaber 계정은 스팀 / 오큘러스 유저명과 연동되죠.
 
-1. Ranked songs are assigned PP (PP = performance points). The exact amount of PP gained is determined by the accuracy you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by Umbranox, our Panda God.
+1. 랭크 맵에는 PP가 할당되어 있습니다 (PP = performance points). PP 수치는 랭크 곡을 클리어했을 때의 정확도에 의해 결정됩니다. 랭크 맵에 어느 정도의 PP가 매겨지는가는 우리의 귀여운 판다인 Umbranox가 개발한 비밀 알고리즘을 통해 결정됩니다.
 2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays. This curve is 0.965^(x-1) where x is the position of that score on your song list. e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play. If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get after the curve applies. Here is a list of my current top 4 plays where the raw PP is in italic and the weighted PP is in bold.
 
 | Raw PP | Weighted PP                  |
@@ -40,21 +40,21 @@ Here is another site by [DuoVR](https://duovr.github.io/BigPP/) where you can in
 
 ::: tip Songs are ranked by the team in the [ScoreSaber Discord](https://discord.gg/WpuDMwU). You can follow along in this server to see what changes happen! :::
 
-## Grips
+## 컨트롤러 그립법
 Cube Community made some videos showing off some of the more popular grips for Oculus Touch controllers (CV1) and Vive Wands.
 
-### HTC Vive Wands
+### HTC Vive 컨트롤러
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
 
 ![Vive Grips Guide](~@images/grips-and-tricks/vive-grips-guide.jpg)
 
-### Oculus Rift
+### Oculus Rift (CV1)
 <YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
 
 ![Oculus Grips Guide](~@images/grips-and-tricks/oculus-grips-guide.jpg)
 
 ### Oculus Rift S and Quest
-A video has not yet been made for Rift S and Quest controllers, but you can find some examples below! ![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/touch2-grips.jpg)
+아직 Rift S와 퀘스트 컨트롤러를 위한 영상은 제작되지 않았지만, 아래에서 몇몇 그립의 예시를 찾아 볼 수 있습니다. ![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/touch2-grips.jpg)
 
 ### Valve Index Controllers
 A video has not yet been made for Index controllers, but you can find some examples in their `#tips-and-grips` channel! [CC Discord](https://discord.gg/dwe8mbC)

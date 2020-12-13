@@ -26,3 +26,4 @@ Want to learn how to make your own models? Check out one of our guides down belo
 * [Custom Avatars Guide](./avatars-guide.md)
 * [Custom Platforms Guide](./platforms-guide.md)
 * [Custom Notes Guide](./notes-guide.md)
+* [Making Quest Models Guide](https://github.com/RedBrumbler/Qosmetics/wiki)
