@@ -1,6 +1,14 @@
 # Modders
 Making sure our games look the way we want them to, one plugin at a time.
 
+## Aeroluna
+The madman behind Noodle Extensions and the current maintainer for Chroma and Technicolor. He's one of the people that made Mod charts possible!
+
+**Roles:** Modder
+**Contributions:** Noodle Extensions, Chroma, Technicolor
+
+[GitHub](https://github.com/Aeroluna) | [Donate](https://ko-fi.com/aeroluna)
+
 ## andruzzzhka
 A huge contributor for the in-game downloader mod, and developer of the unofficial multiplayer plugin.
 
@@ -220,10 +228,10 @@ Making sure we're all nice and hydrated after cutting the blocks.
 [GitHub](https://github.com/Shoko84) | [Twitch](https://www.twitch.tv/shoko84) | [Donate](https://streamlabs.com/shoko84)
 
 ## SkyKiwi
-The madman behind Chroma. He adds things to the game that suggests that his head isn't screwed on right, as well as created RGB lighting for mappers to use.
+The madman who started Chroma and Chromatoggle. He added things to the game that suggests that his head isn't screwed on right, as well as created RGB lighting for mappers to use.
 
 **Roles:** Modder
-**Contributions:** Chroma
+**Contributions:** Chroma, Chromatoggle
 
 [GitHub](https://github.com/BinaryElement) | [Twitch](https://www.twitch.tv/skykiwitv) | [Donate](https://streamelements.com/skykiwitv/tip)
 

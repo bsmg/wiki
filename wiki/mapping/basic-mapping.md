@@ -26,8 +26,8 @@ Regardless of what editor you choose to map with, every map needs:
 
 * **Song File:** OGG format, you must have this ready before you can map. Name it `song.ogg`
 * **Cover Image:** JPG or PNG, must be perfectly square and 512 pixels per side is recommended. You must have this before you can release your map.  Name it `cover.jpg` or `cover.png`
-* **Info File:** All of the metadata for your map as a whole. Things in this file apply to ALL difficulties (i.e., song name, artist name, mapper name, song file name, cover image name, etc.). This file is automatically created by your editor.
-* **Difficulty Files:** One per difficulty in your map. Things in this file apply to just the one difficulty (i.e., note placement, light placement, note jump speed, etc.). These files are automatically created by your editor.
+* **Info File:** All of the metadata for your map as a whole. Things in this file apply to ALL difficulties (i.e., song name, artist name, mapper name, song file name, cover image name, difficulty note jump speed, etc.). This file is automatically created by your editor.
+* **Difficulty Files:** One per difficulty in your map. Things in this file apply to just the one difficulty (i.e., note placement, light placement, etc.). These files are automatically created by your editor.
 
 Some editors will automatically create an `Autosaves` folder where you can retrieve older copies of your work if needed. When you’re ready to prepare your song for upload you must have a minimum of four files.
 
