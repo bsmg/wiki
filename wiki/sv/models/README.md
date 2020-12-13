@@ -1,5 +1,5 @@
 ---
-title: "false"
+title: Models
 ---
 
 # 3D Models
@@ -15,7 +15,7 @@ All custom model plugins were created separately by different people. Each mod h
 ### ModelSaber
 [ModelSaber](https://modelsaber.com/) is the current repository for sabers, avatars, and platforms. It includes preview images, and OneClick&trade; install links.
 
-or contribute to translation effort [here](https://github.com/bsmg/wiki). :::
+::: tip NOTE All models are manually approved before appearing on the site. :::
 
 ### Discord
 You can also find an uncurated list _(with potentially more items)_ in the `#pc-models` channel on the [BSMG Discord](https://discord.gg/beatsabermods) for PC and [Qosmetics Discord](https://discord.gg/MEBVngG) for Quest.
