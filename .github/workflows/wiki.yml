@@ -4,6 +4,9 @@ on:
     branches-ignore:
       - 'cwdin_**'
 
+env:
+  DEPLOY_URL: 'https://bsmg.wiki/'
+
 jobs:
   build:
     runs-on: ubuntu-20.04
@@ -56,12 +59,36 @@ jobs:
     env:
       ENABLE: ${{ secrets.ENABLE_CI_DEPLOY }}
     steps:
-      - name: Skip Deploy Wiki Step?
+      - name: Skipping Deployment Warning
         if: env.ENABLE != '1ENABLED'
         run: echo "::warning::ENABLE_CI_DEPLOY Secret not set to 1ENABLED, skipping deployment..."
-      - name: Checkout git repository
+      - name: Checkout
         if: env.ENABLE == '1ENABLED'
         uses: actions/checkout@v2
+      - name: Create Deployment
+        if: env.ENABLE == '1ENABLED'
+        uses: chrnorm/deployment-action@releases/v1
+        id: deployment
+        with:
+          token: '${{ github.token }}'
+          environment: production
+          target_url: ${{ env.DEPLOY_URL }}
       - name: Deploy Wiki
         if: env.ENABLE == '1ENABLED'
-        run: "curl -X POST -H 'Authorization: Bearer ${{ secrets.HOOK_TOKEN }}' -d `git rev-parse --short HEAD` '${{ secrets.HOOK_URL }}'"
+        run: "curl --fail -X POST -H 'Authorization: Bearer ${{ secrets.HOOK_TOKEN }}' -d `git rev-parse --short HEAD` '${{ secrets.HOOK_URL }}'"
+      - name: Update Deployment (Success)
+        if: env.ENABLE == '1ENABLED' && success()
+        uses: chrnorm/deployment-status@releases/v1
+        with:
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          token: '${{ github.token }}'
+          state: success
+          target_url: ${{ env.DEPLOY_URL }}
+      - name: Update Deployment (Failure)
+        if: env.ENABLE == '1ENABLED' && failure()
+        uses: chrnorm/deployment-status@releases/v1
+        with:
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          token: '${{ github.token }}'
+          state: failure
+          target_url: ${{ env.DEPLOY_URL }}
