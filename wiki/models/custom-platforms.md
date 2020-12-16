@@ -1,5 +1,11 @@
 # Custom Platforms
+
 ## Installation
+
+:::warning 
+Custom Platforms is a PC only mod.
+:::
+
 The latest Custom Platforms plugin can be found in the can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant). Once you've installed it you will see a folder called `CustomPlatforms` in [your install folder](/faq/install-folder.md). This is where you should place the `*.plat` files you want to use.
 
 You can download more platforms on [ModelSaber](https://modelsaber.com/Platforms/).

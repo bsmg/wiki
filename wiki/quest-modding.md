@@ -125,7 +125,7 @@ We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After
 Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
 :::
 ### Adding mods from the headset/bsaber.com doesn't work
-The reason adding mods and sabers from [BeastSaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods) 
+The reason adding mods and sabers from [BeastSaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](#installing-mods) 
 
 Get Quest compatible Mods and Assets from `#quest-mods` or `#quest-assets` in the Beat Saber Modding Group Discord, or you can find Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/MEBVngG). Once you have your mod zip use the [BMBF Web Interface](#installing-mods) to install it.
 ___

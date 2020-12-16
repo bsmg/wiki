@@ -21,8 +21,8 @@ An awesome dance mapper who created a [video tutorial series](https://bsaber.com
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84e98d) | [BeastSaber](https://bsaber.com/members/bennydabeast/)
 
 ## Bloodcloak
-Really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps.  
-Helps maintain and improve the resources.  
+A mapper that is really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps.  
+Also is a staff member that helps maintain and improve the resources.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
 
 ## Bullet
