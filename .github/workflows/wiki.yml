@@ -71,7 +71,7 @@ jobs:
         id: deployment
         with:
           token: '${{ github.token }}'
-          environment: production
+          environment: Production
           target_url: ${{ env.DEPLOY_URL }}
       - name: Deploy Wiki
         if: env.ENABLE == '1ENABLED'
