@@ -144,32 +144,35 @@ Refer to [Finding Broken Content](#4-2-finding-broken-content) if you think you 
 #### 3.6 My Songs Are Missing
 Make sure your songs are in your `CustomLevels` folder, located at `Beat Saber/Beat Saber_Data/`. This is where the game natively reads custom songs from.
 
-**Do not** place songs in the old `Beat Saber/CustomSongs` folder. This location is deprecated as the format for custom songs has changed. If you have maps in the old format (`.json` and `.ogg` files instead of `.dat` and `.egg`), convert them first using [Songe Converter](https://github.com/lolPants/songe-converter)
+**Do not** place songs in the old `Beat Saber/CustomSongs` folder. This location is deprecated as the format for custom songs has changed. If you have maps in the old format (`.json` and `.ogg` files instead of `.dat` and `.egg`), leave them in the old `Beat Saber/CustomSongs` folder. They will then be automatically converted by the SongCore mod to the new format.
 
-#### 3.6 Red Play Button
+Alternatively, you can manually convert them using [Songe Converter](https://github.com/lolPants/songe-converter)
+
+#### 3.7 Red Play Button
 Click the red (?) button in the top right corner. This should tell you what mods are required to play the song, which you are missing.
 Also try re-installing the plugin again, if that doesn't work reinstall your game, [Clean Install](#clean-installation)
 
-#### 3.7 Map details are infinitely loading
+#### 3.8 Map details are infinitely loading
 If this only happens on particular maps, those song files are probably broken. If it happens to all of your maps, delete your `Plugins` folder and reinstall fresh ones.
 
 ### Camera Plus
-#### 3.8 Camera Plus Isn't Working/Past Health Screen
+#### 3.9 Camera Plus Isn't Working/Past Health Screen
 Make sure the setting for "Smooth Camera" is turned off in your ingame settings,
 If that doesn't work make sure you have the mod installed properly try reinstalling it, and all of its dependencies.
 
-#### 3.9 My desktop view only takes up a small section of the screen
+#### 3.10 My desktop view only takes up a small section of the screen
 Your CameraPlus display isn't filling up your canvas. Either drag the corner to fit the screen, or right click the window and click "Fit to Canvas".
 
 ### BeatSaver Downloader
-#### 3.10 BeatSaver Downloader More Songs Button
-**The More Songs button is located in the Mods button in the main menu**. If the button for More Songs is greyed out then make sure all your songs loaded first, as seen in the bar on the main menu
+#### 3.11 BeatSaver Downloader More Songs Button
+**The More Songs button is located in the Mods button in the main menu**. If the button for More Songs is greyed out then make sure all your songs loaded first, as seen in by the rainbow progress bar on the main menu. 
 If your Mods button isn't there then kindly make sure your plugins and dependencies are working and installed properly, refer to [No Mods In Game](#1-4-no-mods-in-game).
 
-#### 3.11 Nothing Showing Up In The More Songs Menu
+#### 3.12 Nothing Showing Up In The More Songs Menu
 The probable causes for beatsaver downloader not working are:
 1. Make sure all of your songs have loaded in before, or else the More Songs button will be greyed out.
 2. Your anti-virus or firewall blocking access to BeatSaver.
+3. You have hit Beatsaver's rate limit and will have to wait before trying again.
 
 ## 4. Miscellaneous Troubleshooting
 ### Understanding Logs

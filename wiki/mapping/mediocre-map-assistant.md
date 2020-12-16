@@ -300,7 +300,7 @@ ___
 ___
 #### **I can't figure out how to place dot notes**  
 * Press `F`  
-   * You can review the keybindings by pressing <kbd>ESC</kbd> for the in-editor list or consult the list of [Hotkey Shortcuts for All Editors](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing). 
+   * You can review the keybindings by pressing <kbd>ESC</kbd> for the in-editor list or consult the cross-reference list of [Editor Keybinds](/mapping/editor-keybinds.md). 
 ___
 #### **Map doesn't load in game**
 * This error is caused by incorrect information in the `Info.dat`.
