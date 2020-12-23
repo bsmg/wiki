@@ -187,7 +187,7 @@ After adding verbose to your game hopefully it will display any errors regarding
 
 These messages are also written to `Beat Saber/Logs`.
 
-A list of common exceptions can be found [here](https://bsmg.wiki/support/exceptions).
+A list of common exceptions can be found [here](./exceptions.md).
 
 ### Verify Game Files For Steam
 Steam Verify Game Files
