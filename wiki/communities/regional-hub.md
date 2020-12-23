@@ -36,6 +36,24 @@ Community for Asian players and VR organizations. We have a limited quota for In
 
 ---
 
+### Israel
+**Beat Saber Israel** 
+
+A server made to bring Isreali Beat Saber players together. International players welcome.
+
+[Discord](https://discord.gg/HHH7sK8)
+
+---
+
+### Korea
+**B.S. Community for KOR** 
+
+A community of Korean players :) information sharing and problem solving between users
+
+[Discord](https://discord.gg/SEFBZrG)
+
+---
+
 ### Middle East
 
 **Beat Saber Middle East**
@@ -108,6 +126,17 @@ The Dutch Beat Saber Group, featuring multiplayer rooms, movie nights, VRC night
 
 ---
 
+### Sweden
+
+**Beat Saber Sweden**
+
+We're the people who has fika with kanelbulle, and sometimes köttbullar...  
+The official Swedish discord, right here!
+
+[Discord](https://discord.gg/9HavEGBzZz)
+
+---
+
 ### Switzerland
 
 **SwissSaber**
@@ -138,30 +167,12 @@ We want to have an accepting community of people from all countries with the use
 
 ---
 
-### Korea
-**B.S. Community for KOR** 
-
-A community of Korean players :) information sharing and problem solving between users
-
-[Discord](https://discord.gg/SEFBZrG)
-
----
-
 ### Ireland
 **Beat Saber Ireland** 
 
 Discord server for the Irish Beat Saber community, international players are welcome too!
 
 [Discord](https://discord.gg/uKQzjRQ)
-
----
-
-### Israel
-**Beat Saber Israel** 
-
-A server made to bring Isreali Beat Saber players together. International players welcome.
-
-[Discord](https://discord.gg/HHH7sK8)
 
 ---
 

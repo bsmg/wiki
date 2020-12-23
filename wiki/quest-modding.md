@@ -74,7 +74,7 @@ The button is highlighted in the image [here](#installing-bmbf-with-sidequest).
 Make sure your Quest and PC are on the same network!
 :::
 
-Open BMBF in your Quest and go to the `Tools` tab, there you should see a web address and a version number similar to what's show below.
+Open BMBF in your Quest and go to the `Tools` tab, there you should see a web address and a version number similar to what's shown below.
 
 ![ip](~@images/beginners-guide/ip.png)
 
