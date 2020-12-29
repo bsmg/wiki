@@ -158,4 +158,4 @@ Now your materials should have a nice `Custom Colors` checkbox instead of custom
 
 Similarly, if you want to import a non-beatsaber shader to use it on a saber and want it to display correctly ingame, you need to strip the `Alpha` channel out.
 
-Each shader is different, so there's no universal approach to doing this. If you're not sure exactly how to do this, feel free to discuss the process in #pc-modeling in the [Beat Saber Modding Group](https://discord.gg/beatsabermods).
+Each shader is different, so there's no universal approach to doing this. If you're not sure exactly how to do this, feel free to discuss the process in #pc-3d-modeling in the [Beat Saber Modding Group](https://discord.gg/beatsabermods).

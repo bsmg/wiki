@@ -1,7 +1,7 @@
 # About Us
 Ever wonder who made your favorite mod or created the mod installer? This page tells you a little bit about some of the major Beat Saber modding community contributors. The community wouldn't exist without the blood, sweat, and tears of these amazing volunteers.
 
-> *Note: some people could go under multiple sections, so I tried to sort these pages the best I could. If you'd like anything about your section changed, feel free to contact me - williums*
+> *Note: some people could go under multiple sections, so I tried to sort these pages the best I could. If you'd like anything about your section changed, feel free to contact us or contribute yourself!*
 
 ## Who We Are
 ### [Staff](/about/staff.md)
@@ -29,6 +29,9 @@ Each of your favorite maps is carefully crafted and tested over many hours by a 
 
 ### [Mapping Resources Contributors](/mapping/mapping-credits.md)
 A group of experienced mappers that took the time to write down and share their knowledge to help others get started or improve. Checkout their maps and consider supporting them!
+
+### [Event Winner](/about/event-winner.md)
+Winners of past contests/events held in the discord. Keep up with `#server-announcements` for such events happening now, or in the future!
 
 ## About This Wiki
 
