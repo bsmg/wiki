@@ -12,7 +12,7 @@ Once installed, you should see a `CustomWalls` folder in [your install folder](/
 You can download more walls from the [#pc-walls channel](https://discord.gg/beatsabermods) in the BSMG discord.
 
 ### Quest Walls
-Custom Walls for Quest are provided by the Qosmetics mod. The latest version can be found in the [#quest-mods channel](https://discord.gg/beatsabermods) in the BSMG discord. Walls are called `qwalls` and are currently hosted in the [Qosmetics Community Discord](https://discord.gg/MEBVngG). 
+Custom Walls for Quest are provided by the Qosmetics mod. The latest version can be found in the [#quest-mods channel](https://discord.gg/beatsabermods) in the BSMG discord. Walls are called `qwalls` and are currently hosted in the [Qosmetics Community Discord](https://discord.gg/qosmetics). 
 
 ## Usage
 

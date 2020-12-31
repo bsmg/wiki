@@ -113,7 +113,7 @@ If you want to test a map you have created see the [Testing on a Quest](/mapping
 * [Oculus Quest BMBF Installation Guide](https://bsaber.com/oculus-quest-custom-songs/)
 * [General Guide by Sc2ad for Learning The Basics of Asset Modding](https://github.com/sc2ad/beat-saber-community-wiki/blob/master/asset-modding-guide.md)
 * [Collection of All Current Guides for Asset Mods Such As Sabers and Notes Made by RedBrumbler](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/RedBrumblers-Asset-Mod-Guide-Wiki)
-* [Qosmetics Community](https://discord.gg/MEBVngG) - Server dedicated to making and using sabers, bloqs, and walls for Quest.
+* [Qosmetics Community](https://discord.gg/qosmetics) - Server dedicated to making and using sabers, bloqs, and walls for Quest.
 * [Qosmetics Creation Guides](https://github.com/RedBrumbler/Qosmetics/wiki) - Guides to create your own custom sabers, bloqs, and walls for Quest.
 * [Fixing Out of Sync Audio](https://bsaber.com/quest-out-of-sync/)
 * [ScoreSaber](https://new.scoresaber.com/quest) - In-game leaderboards for custom songs
@@ -127,7 +127,7 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 ### Adding mods from the headset/bsaber.com doesn't work
 The reason adding mods and sabers from [BeastSaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](#installing-mods) 
 
-Get Quest compatible Mods and Assets from `#quest-mods` or `#quest-assets` in the Beat Saber Modding Group Discord, or you can find Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/MEBVngG). Once you have your mod zip use the [BMBF Web Interface](#installing-mods) to install it.
+Get Quest compatible Mods and Assets from `#quest-mods` or `#quest-assets` in the Beat Saber Modding Group Discord, or you can find Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/qosmetics). Once you have your mod zip use the [BMBF Web Interface](#installing-mods) to install it.
 ___
 ### Sideloading BMBF failed
 When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!"`
@@ -135,7 +135,7 @@ When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Pac
 You will need to uninstall the BMBF version on your Quest. You can do this from SideQuest's `My Apps` menu.
 ___
 ### BMBF web interface not loading
-If your BMBF Web Interface is not loading be sure that you're typing the ip from the tools tab into your browser on your computer thats on the same network.
+If your BMBF Web Interface is not loading be sure that you're typing the ip from the tools tab into your browser on your computer that's on the same network.
 Make sure that:
 1) Your IP is not `127.0.0.1`, if that shows up try rebooting your headset and/or router.
 2) BMBF is open in the headset
