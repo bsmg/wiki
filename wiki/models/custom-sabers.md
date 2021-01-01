@@ -26,4 +26,4 @@ Once selected, the sabers will only show up only while a song is playing and not
 Upload the saber zip file to your Quest using the [BMBF Web Interface](/quest-modding.md#installing-mods). You can then select which saber is active under the mods tab in BMBF.
 
 ## Creating Sabers
-[MissRaynor's Saber Guide](/models/sabers-guide.html) is an excellent resource for learning how to make your own sabers.
+[MissRaynor's Saber Guide](/models/sabers-guide.md) is an excellent resource for learning how to make your own sabers.

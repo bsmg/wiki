@@ -52,6 +52,6 @@ tags:
 * [BeastSaber](https://bsaber.com/) - Reviews, articles, playlists, and more!
 * [ModelSaber](https://modelsaber.com/) - Download custom sabers, avatars, bloqs, and platforms!
 * [ScoreSaber](https://scoresaber.com/) - Custom leaderboards
-* [Help Translate the Wiki!](https://crowdin.com/project/bsmg-wiki)
+* [Apply to Help Translate the Wiki!](https://forms.gle/e3BqA3poMjESARe76)
 * [Steam Store Page](https://store.steampowered.com/app/620980/Beat_Saber/)
 * [Oculus Store Page](https://www.oculus.com/experiences/rift/1304877726278670/)
