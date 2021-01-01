@@ -24,6 +24,6 @@ Upload the note zip file to your Quest using the [BMBF Web Interface](/quest-mod
 
 ## Creating Custom Notes
 
-[Bobbie's Bloq Guide](/models/notes-guide.html) is a good resource for creating custom notes from an existing model.
+[Bobbie's Bloq Guide](./notes-guide.md) is a good resource for creating custom notes from an existing model.
 
 Note that this guide does not cover 3D modeling the notes. For that, we recommend looking up some tutorials on [Blender](https://www.blender.org/)!

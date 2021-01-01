@@ -15,7 +15,7 @@ description: |
 # Extended Mapping
 _Now that you know the rules, it’s time to break them_
 
-* [Glossary of Terms](./glossary.html)
+* [Glossary of Terms](./glossary.md)
 
 This page covers anything and everything that goes beyond standard 4 x 3 grid mapping, including map styles that require additional mods before the player can play and characteristics outside of the “vanilla” ones covered in Intermediate Mapping.
 
@@ -46,7 +46,7 @@ Follow the [without Beat Saber Installed](#me-setup-for-mma2-without-beat-saber-
 6. Open Beat Saber again to initialize the mods you have installed then quit the game.
 
 To check if it worked navigate to your Beat Saber install and make sure that a MappingExtensions.dll file is present.
-Not sure where Beat Saber is installed? See [FAQ: Install Folder](https://bsmg.wiki/faq/install-folder.html).
+Not sure where Beat Saber is installed? See [FAQ: Install Folder](/faq/install-folder.md).
 
 7. You are now ready to do [map setup!](#map-setup-in-mediocre-map-assistant-2)
 
@@ -93,21 +93,21 @@ The text you enter in the requirements has to be exact or else the features will
 This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::  
 
-6-Lane mapping extends the playable grid to 6 x 3. It is often used with [wall mapping](./extended-mapping.html#wall-mapping) to place fancy walls in the extension area while keeping the standard 4 x 3 play area clear.
+6-Lane mapping extends the playable grid to 6 x 3. It is often used with [wall mapping](#wall-mapping) to place fancy walls in the extension area while keeping the standard 4 x 3 play area clear.
 
 ### Precision Placement
 ::: tip NOTE
 This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::  
 
-Precision placement allows the mapper to place blocks anywhere within the grid, no longer limited to the 12 basic block positions. Often used in tandem with [Precision Rotation](./extended-mapping.html#precision-rotation)
+Precision placement allows the mapper to place blocks anywhere within the grid, no longer limited to the 12 basic block positions. Often used in tandem with [Precision Rotation](#precision-rotation)
 
 ### Precision Rotation
 ::: tip NOTE
 This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::  
 
-Precision rotation allows the mapper to rotate blocks at any angle, no longer limited to only 45 degrees. Often used in tandem with [Precision Placement](./extended-mapping.html#precision-placement)
+Precision rotation allows the mapper to rotate blocks at any angle, no longer limited to only 45 degrees. Often used in tandem with [Precision Placement](#precision-placement)
 
 ### Wall Mapping
 ::: tip NOTE
@@ -237,7 +237,7 @@ Each event has a value for spawn rotation which is always relative to the player
 The specific format for a rotation event is defined in the [Map Format page](./map-format.md#controlling-360-90-rotation).
 
 ::: tip NOTE  
-The chevron in the 360° [Glass Desert environment](./basic-lighting.html#environment-previews) rotates corresponding to the rotation event time, both 14 and 15. This is important as it guides the player where to face in gameplay.
+The chevron in the 360° [Glass Desert environment](./basic-lighting.md#environment-previews) rotates corresponding to the rotation event time, both 14 and 15. This is important as it guides the player where to face in gameplay.
 :::
 
 **Do not use spawn rotation events outside of 360°/90° mode.** While they will work, it’s highly recommended that mappers not use this. Standard environments do not have a rotating chevron to indicate movement and the environment itself will block the player’s view.
@@ -245,10 +245,10 @@ The chevron in the 360° [Glass Desert environment](./basic-lighting.html#enviro
 ### Editing 360°/90° Maps
 There are multiple ways to map for 360°/90° mode. The following sections cover some pros and cons of each method:
 
-1. [Official Level Editor](/mapping/extended-mapping.html#official-level-editor) (in-game)
-2. [Mediocre Map Assistant 2](/mapping/extended-mapping.html#mediocre-map-assistant-2)
-3. [ChroMapper](/mapping/extended-mapping.html#chromapper) (in closed beta)
-4. [JSON/DAT Editing](/mapping/extended-mapping.html#json-dat-editing)
+1. [Official Level Editor](#official-level-editor) (in-game)
+2. [Mediocre Map Assistant 2](#mediocre-map-assistant-2)
+3. [ChroMapper](#chromapper) (in closed beta)
+4. [JSON/DAT Editing](#json-dat-editing)
 
 #### Official Level Editor
 The official editor is accessible to all PCVR users to natively map 360°/90° levels with the least amount of touching individual map files.
@@ -353,4 +353,4 @@ If you’re feeling adventurous, rotation events can be manually edited into you
   * You can have middle row block on the left outer lane and rotating to the right as it won’t be a vision block.
 
 ## Credits
-Content in this section was authored by [The Good Boi](/mapping/mapping-credits.html#the-good-boi), [Bloodcloak](/mapping/mapping-credits.html#bloodcloak), [Spooky Ghost](/mapping/mapping-credits.html#spooky-ghost), [Caeden117](/mapping/mapping-credits.html#caeden117), [Kival Evan](/mapping/mapping-credits.html#kival-evan), and [Checkthepan](/mapping/mapping-credits.html#checkthepan).
+Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi), [Bloodcloak](./mapping-credits.md#bloodcloak), [Spooky Ghost](./mapping-credits.md#spooky-ghost), [Caeden117](./mapping-credits.md#caeden117), [Kival Evan](./mapping-credits.md#kival-evan), and [Checkthepan](./mapping-credits.md#checkthepan).

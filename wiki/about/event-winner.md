@@ -11,7 +11,7 @@ ___
 [Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/791761312807911424)
 
 ### Map Winners
-#### Vanilla/Unmodded
+#### Vanilla
 * **1st:** [PENTATONIX - Sleigh Ride](https://beatsaver.com/beatmap/11c10) by **ETAN**
 * **2nd:** [Majestica - Ghost of Christmas Present ](https://beatsaver.com/beatmap/11c53) by **Cyrix**
 * **3rd:** [BTS - Dynamite (Holiday Remix)](https://beatsaver.com/beatmap/11c07) by **Alekcake**
@@ -31,7 +31,7 @@ ___
 [Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/772231511557799946)
 
 ### Map Winners
-#### Vanilla/Unmodded
+#### Vanilla
 * **1st:** [Marnik - Hocus Pocus (Original Mix) ](https://beatsaver.com/beatmap/10377) by **ETAN**
 * **2nd:** [Tim Ismag - VEDMA](https://beatsaver.com/beatmap/104a0) by **Jamman360**
 * **3rd:** [TryHardNinja - It's Me](https://beatsaver.com/beatmap/10353) by **FireStrike**

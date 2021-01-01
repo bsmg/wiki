@@ -7,12 +7,12 @@ description: Learn about taking your lighting to the next level!
 # Intermediate Lighting
 _You've learned the basics and now you want more!_
 
-* [Glossary of Terms](/mapping/glossary.md)
+* [Glossary of Terms](./glossary.md)
 
 > "The first thing when getting into lighting is that you need to learn that you should learn your own style. Don’t think you need to copy others to become decent. Explore a bit."
 ~ Puds, Lighting Mentor
 
-You've got your lighting feet wet in [Basic Lighting](/mapping/basic-lighting.md) and have decided that it's not so scary after all... great! Welcome! This page will help you expand on your "vanilla" lighting technique library but as Puds says, now it's time to start exploring and experimenting. Have fun with it!
+You've got your lighting feet wet in [Basic Lighting](./basic-lighting.md) and have decided that it's not so scary after all... great! Welcome! This page will help you expand on your "vanilla" lighting technique library but as Puds says, now it's time to start exploring and experimenting. Have fun with it!
 
 ## Off Event Timing
 It's common for new lighters to overlook the importance of the timing of Off events throughout a lightshow. Well timed Off events can have as much impact as any On or Flash, and consistently timed Off events will produce a show that feels much more organic, and less rigid or computer driven. Since most sounds have a much clearer beginning than an end, especially vocals, there's rarely a universally correct timing for Off events.
@@ -73,7 +73,7 @@ This is a stub section. If you'd like to contribute, submit suggestions via [thi
 :::
 **On/Off** and **Flash/Off** strobes are considered "true" strobes, alternating bright light and darkness in rapid succession. Strobing should be used cautiously as overuse can make it very difficult to concentrate on your map or even harm players with neurological conditions.
 
-As discussed in the [Flash/On](/mapping/intermediate-lighting.html#flash-on-strobing) section, "on" lights are at 100% brightness while "Flash" lights begin ~37.1% brighter than On events and then quickly fades to the intensity of On. Flash/Offs produce a more intense strobe than On/Offs.
+As discussed in the [Flash/On](#flash-on-strobing) section, "on" lights are at 100% brightness while "Flash" lights begin ~37.1% brighter than On events and then quickly fades to the intensity of On. Flash/Offs produce a more intense strobe than On/Offs.
 
 * Example: Bass Music - Umziky (Cytus II ver.) mapped and lighted by Skeelie (also uses Chroma RGB)  
 [YouTube](https://www.youtube.com/watch?v=Set0lOZ5Yog) | [BeatSaver](https://beatsaver.com/beatmap/7bc4)
@@ -146,6 +146,6 @@ Removing the platform that the player stands on can limit the group of people th
 :::
 
 ## Credits
-Content on this page was contributed by [LittleAsi](/mapping/mapping-credits.md#littleasi), [Puds](/mapping/mapping-credits.md#puds), and [Bullet](/mapping/mapping-credits.md#bullet).
+Content on this page was contributed by [LittleAsi](./mapping-credits.md#littleasi), [Puds](./mapping-credits.md#puds), and [Bullet](./mapping-credits.md#bullet).
 
 

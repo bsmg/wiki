@@ -20,6 +20,6 @@ Inside the game in the main menu you will see an `AVATARS` button at the top lef
 :::
 
 ## Creating Avatars
-[Assistant's Avatar Guide](/models/avatars-guide.html) is a good resource for learning how to make your own avatar.
+[Assistant's Avatar Guide](./avatars-guide.md) is a good resource for learning how to make your own avatar.
 
-The guide includes a [short video narrated by Megalon](/models/avatars-guide.html#videos), however it is intended to be an overview and you should watch it in addition to reading the guide, not lieu of.
+The guide includes a [short video narrated by Megalon](./avatars-guide.md#videos), however it is intended to be an overview and you should watch it in addition to reading the guide, not lieu of.
