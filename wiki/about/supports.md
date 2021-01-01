@@ -77,8 +77,8 @@ Created by Megalon, recreated by lolPants, and personified by Rolo!
 ---
 
 ::: tip See Also
-**3D Artists:** [RedBrumbler](/about/3d-artists.md#redbrumbler)  
-**Modders:** [Kyle1413](/about/modders.md#kyle1413)  
-**Moderators:** [Razor](/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [Pink](/about/moderators.md#pink) | [Chara_](/about/moderators.md#chara) | [Eradawn](/about/moderators.md#eradawn)  
-**Staff:** [Assistant](/about/staff.md#assistant) | [Klouder](/about/staff.md#klouder) | [Megalon](/about/staff.md#megalon) | [Steven](/about/staff.md#steven-🎀) | [williums](/about/staff.md#williums) | [Melopod ƸӜƷ](/about/staff.md#melopod-ƹӝʒ)
+**3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
+**Modders:** [Kyle1413](./modders.md#kyle1413)  
+**Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink) | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)  
+**Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
 :::

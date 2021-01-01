@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Linux Modding Guide
 ## Preface
 Most Beat Saber mod installers weren't built to run on Linux, so we have to do some small things to get it to work on Linux.
@@ -48,7 +52,7 @@ $ wine BeatSaberModManager.exe
 5. Install your mods. You should now have a Plugins folder.
 6. Close out of the installer and put the Beat Saber folder back into common.
 ![Beat Saber folder](https://i.imgur.com/xWeN0TT.png)
-7. Start Beat Saber and check if the mods are installed. If they aren't you may need to [do a DLL override](/modding/linux.md#dll-override)
+7. Start Beat Saber and check if the mods are installed. If they aren't you may need to [do a DLL override](#dll-override)
 
 ### Using a Virtual Machine
 ::: danger
