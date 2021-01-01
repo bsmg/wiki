@@ -12,7 +12,7 @@ You can download more sabers on [ModelSaber](https://modelsaber.com/Sabers/).
 For those who want more customization to their sabers, [Saber Factory](https://github.com/ToniMacaroni/SaberFactory#readme) allows you to create your own sabers in-game. You download parts and combine them like lego pieces with the ability to change the shape, shaders, material properties, textures and more.
 
 ### Quest Sabers 
-Custom Sabers for Quest are provided by the Qosmetics mod. The latest version can be found in the [#quest-mods channel](https://discord.gg/beatsabermods) in the BSMG discord. Sabers are called `qsabers` and are currently hosted in the [Qosmetics Community Discord](https://discord.gg/MEBVngG). 
+Custom Sabers for Quest are provided by the Qosmetics mod. The latest version can be found in the [#quest-mods channel](https://discord.gg/beatsabermods) in the BSMG discord. Sabers are called `qsabers` and are currently hosted in the [Qosmetics Community Discord](https://discord.gg/qosmetics). 
 
 ## Usage
 

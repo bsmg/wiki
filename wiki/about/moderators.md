@@ -33,7 +33,7 @@ Pepega
 ## Eradawn
 "Findus says hai"
 
-**Roles:** Moderator
+**Roles:** Moderator, Support
 
 ## Guatapuri
 "Came for the game, Stayed for the hugs"

@@ -190,8 +190,7 @@ These messages are also written to `Beat Saber/Logs`.
 A list of common exceptions can be found [here](./exceptions.md).
 
 ### Verify Game Files For Steam
-Steam Verify Game Files
-To verify your game files on steam follow these steps:
+To verify integrity of game files follow these steps:
 1. Make sure steamvr is closed as it wont let you verify your games otherwise. 
 2. Go to your steam library and find Beat Saber
 3. Right click Beat Saber and click on Properties

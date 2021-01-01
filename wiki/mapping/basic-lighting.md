@@ -20,7 +20,7 @@ The available lighting types are consistent across each of the built-in game env
 * **Ring Spins:** Used to create movement in the rings. In environments with both an inner and an our ring, rings spins rotate both rings together.
 * **Ring Zooms:** Used to zoom and unzoom the inner ring in environments that have it. Does not affect the outer ring.
 * **Laser Speed:** Changes the speed of the side laser rotation from stationary (0) to very fast (20). Set independently for the right and left side lasers. Back top lasers do not move. Laser speed increases linearly so **2** is twice as fast as **1** and **5** is five times as fast as **1**.
-* **Boost Event:** Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors.
+* **Boost Event:** Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors. There is no fade or flash option for this event.
 
 ## Lighting Events
 Each lighting type can make use of four different lighting events.
