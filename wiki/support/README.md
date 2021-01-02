@@ -15,7 +15,7 @@ sidebar: auto
 After an update, the BSMG discord `#server-announcements` channel should have the most up to date instructions on the status of mods. The following are more detailed instructions of the most common procedure.
 
 #### Update broke my mods
-**Run the game once** on the new update. Then, reinstall your mods using an installer linked in the [beginner's guide](/beginners-guide), preferably Mod Assistant.
+**Run the game once** on the new update. Then, reinstall your mods using an installer linked in the [beginner's guide](/beginners-guide), such as Mod Assistant.
 
 ## 1. No mods?
 
@@ -79,7 +79,7 @@ This seems to happen when updating Beat Saber and having mods installed previous
 
 ### Framerate Issues
 #### 2.3 The game stutters unbearably after installing mods
-If the game lags so badly that you can barely click the `Continue` button on the Health & Saftey screen, then verify files if you have the game on Steam, or reinstall the game on Oculus Home. 
+If the game lags so badly that you can barely click the `Continue` button on the Health & Safety screen, then verify files if you have the game on Steam, or reinstall the game on Oculus Home. 
 Do the same if it won't start up at all and shows no error messages when trying to launch the game.
 
 If that didn't solve the issue, then check section [2.4 Improving framerate](#framerate-issues)
@@ -93,11 +93,11 @@ If [2.3](#2-3-the-game-stutters-unbearably-after-installing-mods) didn't improve
 * The custom saber **Plasma Katanas** have tons of custom events and are known to introduce lag if you miss.
 * CameraPlus can be very taxing, especially if you have multiple cameras and increase the FOV.
 * Turn down Render Scale, Anti-Aliasing, mirror, fog, etc in the base game settings.
-* For Oculus players: consider using 2 sensors instead of 3+. 
+* For Oculus CV1 or Rift players: consider using 2 sensors instead of 3+. 
 * Reduce your total mod and song count. 
-* Perform a clean reinstall of the game files. [Clean Installation](#clean-installation)
+* Perform a [Clean Installation](#clean-installation) of the game files. 
 * Low framerate can also be caused by something going wrong within your application data folder, to fix this refer to [Deleting The Beatsaber Folder Within Your App Data](#deleting-your-beat-saber-saves-in-app-data)
-* CountersPlus counters like scorecounter and swing speed can be expensive. [See this github wiki page on performance with Counters+](https://github.com/Caeden117/CountersPlus/wiki/Performance-and-Optimization)
+* Disable CountersPlus counters like score counter and swing speed as they can be expensive. 
 * HTTPStatus mod can cause lag spikes. Test without this mod to see if the lag spikes go away.
 
 VR is very CPU intensive, especially if you add mods. If you're struggling to run the game with the mods you want, consider upgrading your hardware. 
@@ -126,7 +126,7 @@ If this isn't the cause of your rumble issues and the following are true regardi
 
 Then there is a good chance that Beat Saber is overloading your motherboard's USB controller. Oculus devours your USB controller bandwidth and most motherboards come with a very cheap controller. Beat Saber pushes it harder than any other game, which is why other games and menus might be fine. There is no clear-cut solution, so try the following:
 * Shuffle the sensor and HMD USB cables around in different ports
-* Unplug unecessary USB devices
+* Unplug unnecessary USB devices
 * Buy a PCI-E USB hub
 * Use `-vrmode oculus` if you're using SteamVR to bypass it and use the oculus SDK instead
 
@@ -146,7 +146,7 @@ Make sure your songs are in your `CustomLevels` folder, located at `Beat Saber/B
 
 **Do not** place songs in the old `Beat Saber/CustomSongs` folder. This location is deprecated as the format for custom songs has changed. If you have maps in the old format (`.json` and `.ogg` files instead of `.dat` and `.egg`), leave them in the old `Beat Saber/CustomSongs` folder. They will then be automatically converted by the SongCore mod to the new format.
 
-Alternatively, you can manually convert them using [Songe Converter](https://github.com/lolPants/songe-converter)
+Alternatively, you can manually convert them using [Song Converter](https://github.com/lolPants/songe-converter)
 
 #### 3.7 Red Play Button
 Click the red (?) button in the top right corner. This should tell you what mods are required to play the song, which you are missing.
@@ -157,7 +157,7 @@ If this only happens on particular maps, those song files are probably broken. I
 
 ### Camera Plus
 #### 3.9 Camera Plus Isn't Working/Past Health Screen
-Make sure the setting for "Smooth Camera" is turned off in your ingame settings,
+Make sure the setting for "Smooth Camera" is turned off in your in-game settings,
 If that doesn't work make sure you have the mod installed properly try reinstalling it, and all of its dependencies.
 
 #### 3.10 My desktop view only takes up a small section of the screen
@@ -166,7 +166,7 @@ Your CameraPlus display isn't filling up your canvas. Either drag the corner to 
 ### BeatSaver Downloader
 #### 3.11 BeatSaver Downloader More Songs Button
 **The More Songs button is located in the Mods button in the main menu**. If the button for More Songs is greyed out then make sure all your songs loaded first, as seen in by the rainbow progress bar on the main menu. 
-If your Mods button isn't there then kindly make sure your plugins and dependencies are working and installed properly, refer to [No Mods In Game](#1-4-no-mods-in-game).
+If your Mods button isn't there then make sure your plugins and dependencies are working and installed properly, refer to the [No Mods?](#_1-no-mods) section.
 
 #### 3.12 Nothing Showing Up In The More Songs Menu
 The probable causes for beatsaver downloader not working are:

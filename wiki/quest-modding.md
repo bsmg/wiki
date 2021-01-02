@@ -127,7 +127,7 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 ### Adding mods from the headset/bsaber.com doesn't work
 The reason adding mods and sabers from [BeastSaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](#installing-mods) 
 
-Get Quest compatible Mods and Assets from `#quest-mods` or `#quest-assets` in the Beat Saber Modding Group Discord, or you can find Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/qosmetics). Once you have your mod zip use the [BMBF Web Interface](#installing-mods) to install it.
+Get Quest compatible Mods from `#quest-mods` in the Beat Saber Modding Group Discord, with Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/qosmetics). Once you have your mod zip use the [BMBF Web Interface](#installing-mods) to install it.
 ___
 ### Sideloading BMBF failed
 When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!"`
@@ -157,7 +157,8 @@ ___
 This is most likely due to having an outdated BMBF Client, grab the latest [BMBF Release](https://bmbf.dev/stable). If the BMBF version for your Beat Saber is not there then please wait a while for the unicorns to update BMBF.  
 * If your mod is supposed to be compatible with your version of BMBF, then make sure there is no folder separating the contents of the .zip file. 
 * If your level doesn't load then try installing mapping extensions from #quest-mods
-* If your BMBF is on the latest version and mods wont be enabled in game then uninstall Beat Saber with the uninstall BS button in the BMBF Tools tab and reinstall and remod.
+* If your BMBF is on the latest version and mods wont be enabled in game, uninstall Beat Saber with the uninstall BS button in the BMBF Tools tab then reinstall and remod.
+* In very very very rare cases, BMBF does not have file permissions to copy mods into the right location. Check in SideQuest to make sure BMBF has file permissions.
 ___
 ### My Beat Saber gets 3 dots when I launch!
 If your Beat Saber is getting 3 dots when launching make sure that:
