@@ -87,8 +87,7 @@ If that didn't solve the issue, then check section [2.4 Improving framerate](#fr
 #### 2.4 Improving Framerate
 If [2.3](#2-3-the-game-stutters-unbearably-after-installing-mods) didn't improve your fps, then your PC might simply be struggling to keep up with the stress caused by mods. Here are some things you can do to improve framerate, in no particular order:
 
-**NVIDIA GEFORCE EXPERIENCE NOW OPTIMIZES BEATSABER, IT USUALLY SETS YOUR GAMES RENDERING SCALE PAST 1.0 (DEFAULT), USUALLY TO 1.4 OR 1.8. THIS IS THE COMMON REASON FOR LAG RECENTLY.**
-
+* Check to see if NVIDIA GEFORCE EXPERIENCE set the rendering scale for Beat Saber past the default of 1.0. It may have set it to a higher number to 1.4 or 1.8 which significantly increases the GPU load.
 * Use a less complex custom avatar.
 * The custom saber **Plasma Katanas** have tons of custom events and are known to introduce lag if you miss.
 * CameraPlus can be very taxing, especially if you have multiple cameras and increase the FOV.
@@ -144,28 +143,28 @@ Refer to [Finding Broken Content](#4-2-finding-broken-content) if you think you 
 #### 3.6 My Songs Are Missing
 Make sure your songs are in your `CustomLevels` folder, located at `Beat Saber/Beat Saber_Data/`. This is where the game natively reads custom songs from.
 
-**Do not** place songs in the old `Beat Saber/CustomSongs` folder. This location is deprecated as the format for custom songs has changed. If you have maps in the old format (`.json` and `.ogg` files instead of `.dat` and `.egg`), leave them in the old `Beat Saber/CustomSongs` folder. They will then be automatically converted by the SongCore mod to the new format.
+**Do not** place songs in the old `Beat Saber/CustomSongs` folder. This location is deprecated as the format for custom songs has changed. If you have maps in the old format (`.json` and `.ogg` files instead of `.dat` and `.egg`), leave them in the old `Beat Saber/CustomSongs` folder. They will then be automatically converted by the SongCore mod.
 
 Alternatively, you can manually convert them using [Song Converter](https://github.com/lolPants/songe-converter)
 
 #### 3.7 Red Play Button
-Click the red (?) button in the top right corner. This should tell you what mods are required to play the song, which you are missing.
-Also try re-installing the plugin again, if that doesn't work reinstall your game, [Clean Install](#clean-installation)
+Click the red (?) button in the top right corner. This should tell you what mods are required to play the song, which you are missing and should install.
+If it is still not working, try re-installing the required plugin. Otherwise try a [Clean Install](#clean-installation).
 
 #### 3.8 Map details are infinitely loading
 If this only happens on particular maps, those song files are probably broken. If it happens to all of your maps, delete your `Plugins` folder and reinstall fresh ones.
 
 ### Camera Plus
 #### 3.9 Camera Plus Isn't Working/Past Health Screen
-Make sure the setting for "Smooth Camera" is turned off in your in-game settings,
-If that doesn't work make sure you have the mod installed properly try reinstalling it, and all of its dependencies.
+Make sure the in-game setting for "Smooth Camera" is turned off in your in-game settings.
+If that does not work, try reinstalling it and associated dependencies. 
 
 #### 3.10 My desktop view only takes up a small section of the screen
 Your CameraPlus display isn't filling up your canvas. Either drag the corner to fit the screen, or right click the window and click "Fit to Canvas".
 
 ### BeatSaver Downloader
 #### 3.11 BeatSaver Downloader More Songs Button
-**The More Songs button is located in the Mods button in the main menu**. If the button for More Songs is greyed out then make sure all your songs loaded first, as seen in by the rainbow progress bar on the main menu. 
+**The More Songs button is located in the main menu to the left under the Mods text.** If the button for More Songs is greyed out then make sure all your songs loaded first, as seen in by the rainbow progress bar on the main menu. 
 If your Mods button isn't there then make sure your plugins and dependencies are working and installed properly, refer to the [No Mods?](#_1-no-mods) section.
 
 #### 3.12 Nothing Showing Up In The More Songs Menu

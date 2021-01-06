@@ -43,7 +43,7 @@ The BeatTogether mod is the current solution for cross-platform play between the
 
 ## My game updated and now none of my mods are working!
 Each time the game updates it is possible *(and very likely)* that your existing mods will stop working and need to be updated.
-The devs realized this, so when the game updates and you run it for the first time, everything in the `Plugins` folder is moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins in there!**
+The game developers realized this, so when the game updates and you run it for the first time, everything in the `Plugins` folder is moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins in there!**
 
 To get mods back, simply **run the installer again.**  
 The BeatMods repository only includes mods that have been confirmed to work on the latest version of the game!

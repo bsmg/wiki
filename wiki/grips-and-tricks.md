@@ -13,7 +13,7 @@ See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9z
 
 <YouTube url='https://www.youtube.com/watch?v=rVbXCGddspA' />
 
-Additionally, here's an image from the devs about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
+Additionally, here's an image from the game developers about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
 
 ![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
 

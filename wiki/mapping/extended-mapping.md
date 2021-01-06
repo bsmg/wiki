@@ -118,19 +118,19 @@ Wall mapping allows the mapper to get incredibly creative with wall placement we
 
 * **Atmospheric Walls:** Walls create an ambience to fit with the mood of the song  
   * **Air (Mr FijiWiji Remix)** - Hellberg & Teqq ft. Taylr Renee mapped by Gevarred  
-[YouTube](https://www.youtube.com/watch?v=V-KFAdSjeKo) | [Beat Saver](https://beatsaver.com/beatmap/67ba)
+[YouTube](https://www.youtube.com/watch?v=V-KFAdSjeKo) | [BeatSaver](https://beatsaver.com/beatmap/67ba)
   * **Cyberdemon** - Mick Gordon mapped by CyanSnow  
-[YouTube](https://www.youtube.com/watch?v=pcqmDzUobEc) | [Beat Saver](https://beatsaver.com/beatmap/6666)  
+[YouTube](https://www.youtube.com/watch?v=pcqmDzUobEc) | [BeatSaver](https://beatsaver.com/beatmap/6666)  
   * **Keep the Rave Alive** - Jaus x Lazer Lazer Lazer mapped by Skyler Wallace & HeisenbergIRL  
-[YouTube](https://www.youtube.com/watch?v=lxfCwV_NZCA) | [Beat Saver](https://beatsaver.com/beatmap/540b)
+[YouTube](https://www.youtube.com/watch?v=lxfCwV_NZCA) | [BeatSaver](https://beatsaver.com/beatmap/540b)
 
 * **Interactive Walls:** Walls add to add cool effects based on the song.
   * **Assemble** - Justin OH and Xilent mapped by xScaramouche  
-[YouTube](https://www.youtube.com/watch?v=LKkRgLkolw8) | [Beat Saver](https://beatsaver.com/beatmap/6709)  
+[YouTube](https://www.youtube.com/watch?v=LKkRgLkolw8) | [BeatSaver](https://beatsaver.com/beatmap/6709)  
   * **Sky Fracture VIP** - Getsix ft. Miss Lina mapped by AnniversaryTeam (level by SpookyGhost)  
-[YouTube](https://www.youtube.com/watch?v=IdZkdxyNfVY) | [Beat Saver](https://beatsaver.com/beatmap/68c5)
+[YouTube](https://www.youtube.com/watch?v=IdZkdxyNfVY) | [BeatSaver](https://beatsaver.com/beatmap/68c5)
   * **Warzone** - Boom Kitty mapped by Spooky Ghost  
-[YouTube](https://www.youtube.com/watch?v=6UwEjc6VGyM) | [Beat Saver](https://beatsaver.com/beatmap/7702)  
+[YouTube](https://www.youtube.com/watch?v=6UwEjc6VGyM) | [BeatSaver](https://beatsaver.com/beatmap/7702)  
 
 :::warning NOTE
 Too many walls will create heavy lag. Especially for players that do not have powerful computers. Test frequently and try to keep the wall-count down to keep your experience accessible for most players.
