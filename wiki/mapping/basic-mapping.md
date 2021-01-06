@@ -64,21 +64,19 @@ For more on row usage in different difficulties, see [Gauging Difficulty](#gaugi
 If you’re using [Mediocre Map Assistant 2](./mediocre-map-assistant.md) as your editor you can hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd> to open the error checker then click the <kbd>Stat Panel</kbd> button to see this breakdown. 
 :::
 
-
-
 ## Timing & Rhythm
 Before you start mapping in earnest you need to think about the rhythm of the song you want to map. You’ll place blocks on one or more of the main instruments in the song: the drum beat, lead instrument, bass, synths, or even vocals. 
 
-To place blocks in time with the rhythm you’ll need to change your cursor precision. Most (but not all) songs will use 1/1, 1/2, or 1/4 cursor precision to get on beat. Some songs may use “triplets” or 1/3 cursor precision but this is more rare. You should not need to use less than 1/4 cursor precision for most songs *including* mapping to vocals.
+To place blocks in time with the rhythm you’ll need to change your cursor precision. Most (but not all) songs will use 1/1, 1/2, or 1/4 cursor precision to get on beat. Some songs may use “triplets” or 1/3 cursor precision which can be hard to tell from 1/4 to an inexperienced ear. You should not need to use less than 1/4 cursor precision for most songs *including* mapping to vocals.
 
 ::: warning  
 90% of the time, mapping with high precision (1/8, 1/16, 1/32, or 1/64) will make your song mistimed. If you need high precision to get your notes to line up then you have an issue with your audio file setup. STOP and review [Basic Audio Setup](./basic-audio.md) to ensure you’re in sync!
 :::  
 
-| 1/1 Cursor Precision | 1/2 Cursor Precision | 1/4 Cursor Precision |
-|:----:|:----:|:----:|
-| ![1/1 Cursor precision screenshot](~@images/mapping/1-1_precision.png) | ![1/2 Cursore precision screenshot](~@images/mapping/1-2_precision.png) | ![1/4 Cursor precision screenshot](~@images/mapping/1-4_precision.png) |
-| 1 block per beat | 2 blocks per beat | 4 blocks per beat |
+| 1/1 Cursor Precision | 1/2 Cursor Precision | 1/3 Cursor Precision | 1/4 Cursor Precision |
+|:----:|:----:|:----:|:----:|
+| ![1/1 Cursor precision screenshot](~@images/mapping/1-1_precision.png) | ![1/2 Cursor precision screenshot](~@images/mapping/1-2_precision.png) | ![1/3 Cursor precision screenshot](~@images/mapping/1-3_precision.jpg) | ![1/4 Cursor precision screenshot](~@images/mapping/1-4_precision.png) |
+| 1 block per beat | 2 blocks per beat | 3 blocks per beat | 4 blocks per beat |
 
 When timing out your map you’ll want to double check EARLY that the waveform in your editor is lined up with the major lines of the editor track. If your waveform isn't lined up, revisit the [Basic Audio Setup](./basic-audio.md) page of the wiki for tips.
 
@@ -244,7 +242,7 @@ These are called forbidden patterns for a reason. There is no reason in the worl
 #### Hitbox Abuse
 | Illustration | Editor View | Explanation |
 |:----:|:----:|:---- |
-| ![Illustration of some hitbox abuse](~@images/mapping/hitbox-abuse.png) | ![](~@images/mapping/hitbox-abuse-alt.png) | Leave room for the player to swing at each block. In the patterns depicted here, there is not enough room for the saber to slice each block without hitting the other. These are technically still possible to hit, but only by coming in at an angle, and if you have to come in at an angle, you may as well change the block direction to a diagonal anyway.<br /><br />The illustration below from Split, one of the game devs, shows the size of the block hitbox. The **large** outer box is for good hits and the small inner box is for bad hits.<br />![Illustration of block collider hitboxes](~@images/mapping/hitbox-from-split.jpg) |
+| ![Illustration of some hitbox abuse](~@images/mapping/hitbox-abuse.png) | ![](~@images/mapping/hitbox-abuse-alt.png) | Leave room for the player to swing at each block. In the patterns depicted here, there is not enough room for the saber to slice each block without hitting the other. These are technically still possible to hit, but only by coming in at an angle, and if you have to come in at an angle, you may as well change the block direction to a diagonal anyway.<br /><br />The illustration below from Split, one of the game developers, shows the size of the block hitbox. The **large** outer box is for good hits and the small inner box is for bad hits.<br />![Illustration of block collider hitboxes](~@images/mapping/hitbox-from-split.jpg) |
 
 #### Wide Precision
 | Illustration | Editor View | Explanation |

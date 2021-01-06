@@ -11,10 +11,10 @@ The team that runs the show at the forefront and behind the scenes. Whether it c
 With a server so large, a lot of moderation is required to keep everything under control. You can thank this team for keeping the streets clean.
 
 ### [Modders](./modders.md)
-The game as we know it wouldn't exist if people didn't want to add their own spin to it. These are the modders who have spent countless of their own hours to help us personalize the the game.
+The game as we know it wouldn't exist if people didn't want to add their own spin to it. These are the modders who have spent countless of their own hours to help us personalize the game.
 
 ### [Supports](./supports.md)
-The Support role is a symbol of thanks. Thanks for the thousands of messages sent in the support channels to help people sort out their mods, and for for building a knowledge of troubleshooting base through macros and the wiki. 
+The Support role is a symbol of thanks. Thanks for the thousands of messages sent in the support channels to help people sort out their mods, and for building a knowledge of troubleshooting base through macros and the wiki. 
 
 ### [Mapping Supports](./mapping-supports.md)
 The Mapping Support role is a symbol of thanks. Thanks for the thousands of messages sent in the mapping discussion channel and time spent building and maintaining the mapping resources to help people learn how to make maps.
@@ -30,7 +30,7 @@ Each of your favorite maps is carefully crafted and tested over many hours by a 
 ### [Mapping Resources Contributors](/mapping/mapping-credits.md)
 A group of experienced mappers that took the time to write down and share their knowledge to help others get started or improve. Checkout their maps and consider supporting them!
 
-### [Event Winner](./event-winner.md)
+### [Event Winners](./event-winner.md)
 Winners of past contests/events held in the discord. Keep up with `#server-announcements` for such events happening now, or in the future!
 
 ## About This Wiki

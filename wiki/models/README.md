@@ -12,7 +12,7 @@ All custom model plugins were created separately by different people. Each mod h
 
 ## Where to find models
 ### ModelSaber
-[ModelSaber](https://modelsaber.com/) is the current repository for sabers, avatars, and platforms.
+[ModelSaber](https://modelsaber.com/) is the current repository for sabers, avatars, bloqs, and platforms.
 It includes preview images, and OneClick&trade; install links.
 
 ::: tip NOTE

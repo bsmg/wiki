@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-# Event Winner
+# Event Winners
 Winners of past contests/events held in the discord. Keep up with `#server-announcements` for such events happening now, or in the future!
 
 ## 2020 Christmas Contest

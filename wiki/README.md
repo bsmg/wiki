@@ -51,7 +51,7 @@ tags:
 * [BeatSaver](https://beatsaver.com/) - Download custom songs here
 * [BeastSaber](https://bsaber.com/) - Reviews, articles, playlists, and more!
 * [ModelSaber](https://modelsaber.com/) - Download PC custom sabers, avatars, bloqs, and platforms!
-* [Qosmetics Discord](https://discord.gg/qosmetics) - Download Quest custom sabers, avatars, and bloqs!
+* [Qosmetics Discord](https://discord.gg/qosmetics) - Download Quest custom sabers, walls, and bloqs!
 * [ScoreSaber](https://scoresaber.com/) - Custom map leaderboards
 * [Apply to Help Translate the Wiki!](https://forms.gle/e3BqA3poMjESARe76) - Localize the wiki to your language!
 * [Steam Store Page](https://store.steampowered.com/app/620980/Beat_Saber/)

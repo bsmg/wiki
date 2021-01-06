@@ -34,7 +34,7 @@ You can also visit `#mapping-discussion` on the [Beat Saber Modding Group Discor
 4. Get mapping! Review [basic mapping practices](./basic-mapping.md) before you start. [Playtest](#playtesting) your own work early and often while mapping.
 5. Get lighting! Review [basic lighting information](#lighting-practices). Simple manual lighting is easier than you think!
 6. Get your map [playtested](#playtesting)! Third-party playtesting via the [BSMG Discord](https://discord.gg/beatsabermods) is highly recommended to get constructive feedback and to get past your own “map blindness."
-7. Once your song has been mapped, lighted, and playtested you’re ready to [release](#publishing-songs) your song to the world on Beat Saver.
+7. Once your song has been mapped, lighted, and playtested you’re ready to [release](#publishing-songs) your song to the world on BeatSaver.
 
 ### Video Tutorials
 Text guides aren't your thing? Checkout these video series!  
@@ -108,7 +108,7 @@ Keep in mind the following features that official does not have compared to the 
 - Actual audio offset for syncing. (The parameter in official offsets/delays not only the song but also hitsounds)
 - Error Checker
 - Contributor Fields
-- Mapping Extensions Support
+- Mapping or Noodle Extensions Support
 
 #### Migrating from Official Editor to a Community Editor
 Although it is recommended to start setup again following the [Quick Start](#mapping-quick-start) guides with a [Community Editor](#community-editors). It is possible to transfer your work in the Official Editor over.
@@ -134,11 +134,14 @@ You are now ready to continue editing your map!
 * [BeatMapperTools](https://mappers.beatmappertools.com/) by **Darkuni**  
 A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps
 * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**  
-A suite of tools for mappers **using new format .dat files** that includes:
-  * **Schema Fixer:** Easily fix maps made in Mediocre Mapper Mk4.1 and Mk5 for upload to BeatSaver
-  * **Tempo Changer:** Change the BPM of an entire map and shift block placements accordingly
-  * **Offset Remover:** Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error
-  * **Note Sorter:** Sorts unordered notes/obstacles/events in the map file to fix stack spawning  
+A suite of tools for mappers that includes:
+  * **Schema Fixer:** Easily fix maps made in Mediocre Mapper Mk4.1 and Mk5 for upload to BeatSaver.
+  * **Tempo Changer:** Change the BPM of an entire map and shift block placements accordingly.
+  * **Offset Remover:** Removes editor offset and snaps notes/obstacles/events to common precisions to try and mitigate floating point error.
+  * **Note Sorter:** Sorts unordered notes/obstacles/events in the map file to fix stack spawning.  
+  * **Copy Timing:** Moves notes in one difficulty based on another within a certain window. Useful to apply small timing changes across all difficulties for specific sounds.
+  * **Copy Lighting:** Copies all of the lights, with the option to include/exclude custom events from one difficulty to all other difficulties.
+  * **Map Diff:** Compare between two versions of a map. Useful for testplayers and Ranking Team members to see if any changes were made.
 * [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
 A convenient way to checkout how your map might look in game without the game. 
   * IOS and Safari are currently not supported
@@ -154,16 +157,16 @@ Video guide on using the timing feature of osu!'s editor to find map bpm.
 An error checker tool that focuses on finding issues with parity in a map.
 
 #### Legacy Tools
-* [BPM Saber](https://github.com/zevdg/bpm-saber#readme), by **Zevdg**  
-**Only works on old format .json files. For new format .dat maps use the Tempo Changer in +1 Rabbit's Mapping Tools.** Change the BPM of an entire map and shift block placements accordingly
+* [BPM Saber](https://github.com/zevdg/bpm-saber#readme) by **Zevdg**  
+**Only works on old format .json files. For .dat maps use the Tempo Changer in +1 Rabbit's Mapping Tools.** Change the BPM of an entire map and shift block placements accordingly
 * [BPM Saber](https://bsaber.com/bpmsaber/) by **Elliotttate**  
 A utility for finding the BPM of a song by upload or tapping.
 
 ### Useful Mods
 Here are some mods that might make your mapping workflow a little easier.
 
-* [FPFC](./basic-lighting.md#in-game-with-fpfc) (First Person Flying Control) Mod Suite  
-Allows you to control the game with your keyboard and mouse without a headset connected. See the section in [Basic Lighting](./basic-lighting.md#in-game-with-fpfc) for links to the mods and how to set it up.
+* [SiraUtil](./basic-lighting.md#in-game-with-fpfc) by **auros**  
+With the First Person Flying Controller (FPFC) launch parameter, this allows you to control the game with your keyboard and mouse without a headset connected. See the section in [Basic Lighting](./basic-lighting.md#in-game-with-fpfc) for links to the mods and how to set it up.
 * [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) by **Kyle1413**  
 Plugin for Beat Saber to control playback speed, seek through songs and set up looping sections. Install the latest version from [ModAssistant](https://github.com/Assistant/ModAssistant#readme)!
 * [ReLoader](https://github.com/Kylemc1413/ReLoader) by **Kyle1413**  
@@ -223,7 +226,7 @@ Not ready to make your own lighting? Here are some programs to do it for you. Ke
 Testing your work is a **critical** part of mapping. Testing as you work helps you adjust for major playability issues and get a feel for your map. [Third-party or “outside”](#community-third-party-testing) playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
 
 ::: warning
-You **DO NOT** need to upload your map to Beat Saver in order for you or anyone else to test.
+You **DO NOT** need to upload your map to BeatSaver in order for you or anyone else to test.
 ::: 
 
 * If your map is using the 1.0 song format (your files are .json and .ogg) you must convert your map using one of several available tools like [Songe Converter](https://github.com/lolPants/songe-converter) by lolPants or [BeatMapper Tools](https://mappers.beatmappertools.com/) by Darkuni. **Update your editor to MMA2 or BeatMapper**. See [Community Editors](.#community-editors) for links.
@@ -334,7 +337,7 @@ Once your song has been mapped, lighted, and playtested and it’s a finished pr
 2. Click the <kbd>Upload</kbd> link in the top-right.
 3. Add your BeatSaver map name and map description. Only the map name is searchable so be sure to include song name, song artist, and other terms that might make it easier to find your map.
     - Use "tags" like (Chroma), (OneSaber), or (Mapping Extensions) if your map uses some special modifications or characteristics you want to highlight.
-    - Putting a link to a playthough video in the map description can help you get more downloads as it is easier to share your map to others and lets people know what to expect. 
+    - Putting a link to a playthrough video in the map description can help you get more downloads as it is easier to share your map to others and lets people know what to expect. 
 4. Add your .zip file and click the <kbd>Upload</kbd> button.”
 
 ::: tip NOTE
@@ -358,7 +361,7 @@ ___
     * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit** may be useful in finding the specific problem.
   * Expired web session. If you refresh the page, you should be logged out. Login and try to upload again.
 ___
-**Field `._customData._customEnviroment` cannot be blank.**    
+**Field `._customData._customEnvironment` cannot be blank.**    
   * Your files are not compliant the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.  
 ___
 **Beatmap zip contains an illegal file!**  
@@ -371,9 +374,9 @@ ___
   * Usually caused by having the files in a subfolder. You need to zip the files instead of the folder. [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead. **NOTE: MMA2's export button does not include contributor images in the zip.**  
 ___
 **One or more beatmap difficulty files cannot be found!**  
-  * You might have forgotten to include all of your difficultiy files are in the zip.  
+  * You might have forgotten to include all of your difficulty files are in the zip.  
   * A difficulty's `"_beatmapFilename"` in the `Info.dat` might be using a different file name than what is present in the folder.  
-  * A deleted difficulty is still being referenced in your `Info.dat` file. Check to make sure you do not have unintended difficulties in the `"_difficultyBeatmaps"` cluster of each present characteristc.  
+  * A deleted difficulty is still being referenced in your `Info.dat` file. Check to make sure you do not have unintended difficulties in the `"_difficultyBeatmaps"` cluster of each present characteristic.  
 ___
   **Error in `MapDifficulty.dat`. Root should NOT have additional property: `_time`.**  
   `_time` is the common error for this type of message. However, the same solution applies if a different property is flagged.  

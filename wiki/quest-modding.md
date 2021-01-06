@@ -14,7 +14,7 @@ By choosing to use mods, you understand that:
 - Mods are subject to being broken by updates and that's normal - be patient and respectful when this happens, as modders are volunteers with real lives.
 - Beat Games aren't purposefully trying to break mods. They wish to work on the codebase and sometimes this breaks mods, but they are not out to kill mods.
 
-Do not attack the devs for issues related to mods, and vice versa - modders and devs are two separate groups. Just don't be a jerk ok.
+Do not attack the game developers for issues related to mods, and vice versa - modders and game developers are two separate groups. Just don't be a jerk ok.
 :::
 
 ## Installation 
@@ -34,7 +34,7 @@ If you haven't already, download and setup [SideQuest](https://sidequestvr.com/#
 
 Open SideQuest and connect your Quest to your PC. If you've previously modded Beat Saber or have scores you want to backup, go to `My Apps` located in the top bar of the window and find Beat Saber.
 
-Click the cog next to it then press the `BACKUP GAME DATA` button, if you have a modded game you also need to uninstall it by pressing the `UNINSTALL APP` button.
+Click the cog next to it then press the `BACKUP GAME DATA` button. If you have a modded game you also need to uninstall it by pressing the `UNINSTALL APP` button.
 
 ![SideQuestUninstall](~@images/beginners-guide/squninstall.png)
 
@@ -54,7 +54,7 @@ After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown 
 
 Follow each step exactly as you're told, and then you should see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
 
-If, at any point during the install process, you get the `Restore App` popup just click `Close`, the warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences for ignoring it.
+If at any point during the install process, you get the `Restore App` popup just click `Close`. This warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences for ignoring it.
 
 ![RestoreApp](~@images/beginners-guide/restoreapp.png)
 
@@ -124,13 +124,13 @@ We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After
 
 Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
 :::
-### Adding mods from the headset/bsaber.com doesn't work
-The reason adding mods and sabers from [BeastSaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](#installing-mods) 
+### Adding mods from beatmods.com or models from modelsaber.com does not work
+The reason adding mods from [BeatMods](https://beatmods.com/) or models from [ModelSaber](https://modelsaber.com/) doesn't work is because those mods and sabers are for PC Only.
 
-Get Quest compatible Mods from `#quest-mods` in the Beat Saber Modding Group Discord, with Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/qosmetics). Once you have your mod zip use the [BMBF Web Interface](#installing-mods) to install it.
+Get Quest compatible Mods from [Questboard](https://www.questmodding.com/) or `#quest-mods` in the Beat Saber Modding Group Discord, with Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/qosmetics). Once you have your mod or model zip use the [BMBF Web Interface](#installing-mods) to install it.
 ___
 ### Sideloading BMBF failed
-When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!"`
+When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!`
 
 You will need to uninstall the BMBF version on your Quest. You can do this from SideQuest's `My Apps` menu.
 ___
@@ -147,8 +147,8 @@ Make sure that:
 If none of these work, restart your Quest and go through the list again.
 ___
 ### BMBF not loading configuration after a few minutes
-This is likely due to using an outdated version of Beat Saber being used with BMBF.
-If you are not using an outdated version then try restarting your headset, and if it continues use the BMBF Web Interface to click Quick Fix. 
+This is likely due to using BMBF on a game version it was not built for. Such as using BMBF for Beat Saber version `1.13.0` when the version of the game installed on the headset is `1.12.2`.  
+If the game version matches what the BMBF release page says its built for, try restarting your headset. If it still does not work use the [BMBF Web Interface](#installing-mods) and click `Quick Fix` in the Tools tab. 
 ___
 ### Beat Saber is black when I launch it
 Open the library on your Quest. Click the three dots next to Beat Saber and then click `Permissions`. In the menu that pops up, enable storage permissions and try launching the game again.
