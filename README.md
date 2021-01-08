@@ -8,7 +8,7 @@ Don't know where to start? Checkout this [crash course](https://docs.google.com/
 Translation efforts are managed using [Crowdin](https://crowdin.com/project/bsmg-wiki).
 There you can see the status of each language available that needs translating. Want to help out? [Apply Here](https://forms.gle/e3BqA3poMjESARe76) and we will be in touch!
 
-Don't see your language available to translate? You can [contact us](http://bit.ly/MessageBSMG) and let us know you are interested!
+If you don't see your language available on Crowdin you can still [apply](https://forms.gle/e3BqA3poMjESARe76) and we will add it once you are accepted!
 
 ## 🧪 Development
 To run a local copy of the wiki:

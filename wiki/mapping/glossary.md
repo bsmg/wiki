@@ -219,9 +219,9 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | - | :- |
 | **Tangle** | A pattern that results in arm paths preventing the next motion from occurring without resetting. Occurs commonly in incorrect crossovers. |
 | **Tempo** | A musical term for the speed of music. Can change throughout the duration of a song. Also known as Speed |
-| **Thin Wall** | A wall that is only a tiny fraction of a beat thick that sometimes doesn't tick for any damage on the player. Created in Mediocre Map Assistant 2 by clicking to add a wall then immediately clicking to "drop" it, without scrolling for any time duration. See also Wall, Fake Wall <details><summary><b>Example Image</b></summary>![Picture of thin wall](~@images/mapping/thinwall.png)</details> |
+| **Thin Wall** | A wall that is only a tiny fraction of a beat thick that sometimes doesn't tick for any damage on the player. Created in Mediocre Map Assistant 2 by clicking to add a wall then immediately clicking to "drop" it, without scrolling for any time duration. See also [Wall](#wxyz), [Fake Wall](#f) <details><summary><b>Example Image</b></summary>![Picture of thin wall](~@images/mapping/thinwall.png)</details> |
 | **Tower** | Three same-colored, same-direction blocks placed in a line on the same beat. Results in the player swinging a larger, faster hit. Related: [Stack](#s) <details><summary><b>Example Image</b></summary>![Picture of tower](~@images/mapping/tower.jpg)</details>|
-| **Track** | The area in an editor where blocks are placed and the are in-game where blocks spawn and move toward the player. In most editors there is a track for notes/blocks and a separate track for lighting. See also Lighting Track |
+| **Track** | The area in an editor where blocks are placed and the are in-game where blocks spawn and move toward the player. In most editors there is a track for notes/blocks and a separate track for lighting. See also [Lighting Track](#l) |
 | **Triangle** | Three or more notes forming a “triangle” pattern with position and orientation. Causes a Wrist Reset, especially if used in high precision (under 1/1). <details><summary><b>Example Image</b></summary>![Picture of triangle](~@images/mapping/triangle.png)</details>|
 
 ## UV
