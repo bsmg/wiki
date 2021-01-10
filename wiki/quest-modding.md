@@ -52,7 +52,7 @@ Run Beat Saber once and close it before modding!
 After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown Sources in your library.
 ![UnknownSourced](~@images/beginners-guide/quest_home-menu.jpg)
 
-Follow each step exactly as you're told, and then you should see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
+Follow each step exactly as you're told. Then, you should see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
 
 If at any point during the install process, you get the `Restore App` popup just click `Close`. This warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences for ignoring it.
 
@@ -95,7 +95,7 @@ There are 2 sources to getting custom maps inside your Quest using the browser w
 * If you are looking for curated maps and playlists visit [BeastSaber](https://bsaber.com/)
 * If you don't like the UI of BeastSaber you could also try [BeatSaver](https://beatsaver.com/)
 
-Both have a 1click button that easily installs that song onto your Quest. You can switch between these websites using the globe icon in the top right of the browser window.
+Both have a OneClick™ button that easily installs that song onto your Quest. You can switch between these websites using the globe icon in the top right of the browser window.
 
 ### Using your PC
 If you are unable to install songs inside your Quest, you can install maps using your computer similar to installing mods. 
@@ -135,7 +135,7 @@ When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Pac
 You will need to uninstall the BMBF version on your Quest. You can do this from SideQuest's `My Apps` menu.
 ___
 ### BMBF web interface not loading
-If your BMBF Web Interface is not loading be sure that you're typing the ip from the tools tab into your browser on your computer that's on the same network.
+If your BMBF Web Interface is not loading, be sure that you're typing the IP from the tools tab into your browser on your computer that's on the same network.
 Make sure that:
 1) Your IP is not `127.0.0.1`, if that shows up try rebooting your headset and/or router.
 2) BMBF is open in the headset
