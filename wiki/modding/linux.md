@@ -11,6 +11,31 @@ It is very similar to a Windows install, but you will need some workarounds.
 Using mods in Linux isn't supported by mod developers, so you might encounter bugs!
 :::
 
+### Using Beataroni
+
+::: danger
+**Run the game at least once** before trying to mod the game! This applies to reinstalling your game too.
+:::
+
+1. Download Beataroni from [GitHub](https://github.com/geefr/beatsaber-linux-goodies/releases) and extract it to a directory on your system. 
+```
+tar -xzf Beataroni-linux64-1.0.tar.gz
+```
+2. Run `Beataroni-Linux.sh`.
+3. Type in your Beat Saber installation location and select the correct version then press **continue**.
+
+![Beataroni Beat Saber Installation and Version Select Screen](~@images/modding/beataroni-start.png)
+
+4. Select the mods you want to install then press **continue**. You will need `BSIPA` (at the top of the list) as it is a dependency for all other mods.
+
+![Beataroni Mod List Screen](~@images/modding/beataroni-mod-list.png)
+
+5. Wait for your mods to finish installing.
+
+![Beataroni Log Screen](~@images/modding/beataroni-end.png)
+
+6. Start Beat Saber. Your mods should be installed.
+
 ### Using Wine and Winetricks
 ::: danger
 **Run the game at least once** before trying to mod the game! This applies to reinstalling your game too.
