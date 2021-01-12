@@ -70,6 +70,24 @@ The button is highlighted in the image [here](#installing-bmbf-with-sidequest).
 
 ## Installing mods
 
+### Through your Quest
+:::warning
+Not all mods are available in QuestBoard! If a mod is not seen in here, you should use your PC to upload mods as instructed [here](#uploading-via-pc)
+:::
+
+Open BMBF in your Quest and go to the `Browser` tab, there you should see a globe icon similar to what's shown below. Click it, then click the `QuestBoard` button.
+
+![globequestboard](~@images/beginners-guide/globequestboard.png)
+
+You should be greeted with the QuestBoard website below. Next, select the `DOWNLOAD MODS` tab.
+
+![questboardhome](~@images/beginners-guide/questboardhome.png)
+
+Scroll down with your thumbsticks. You can now select any mod from the list, seen below, and download it by hitting the download button next to it. Some downloads may redirect you to a website or GitHub page. If so, follow the instructions onscreen, or select the latest `.zip` in the Releases list, respectively.
+
+![questboardmods](~@images/beginners-guide/questboardmods.png)
+
+### Uploading via PC
 :::warning
 Make sure your Quest and PC are on the same network!
 :::
