@@ -72,7 +72,8 @@ The button is highlighted in the image [here](#installing-bmbf-with-sidequest).
 
 ### Inside your Quest
 :::warning
-Not all mods are available in QuestBoard! If a mod is not seen in here, you should use your PC to upload mods as instructed [here](#using-your-pc)
+Not all mods are available in QuestBoard!  
+If a mod is not seen in here, you should follow the [Using Your PC](#using-your-pc) method instead.
 :::
 
 Open BMBF in your Quest and go to the `Browser` tab, there you should see a globe icon similar to what's shown below. Click it, then click the `QuestBoard` button.
