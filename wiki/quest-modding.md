@@ -70,6 +70,25 @@ The button is highlighted in the image [here](#installing-bmbf-with-sidequest).
 
 ## Installing mods
 
+### Inside your Quest
+:::warning
+Not all mods are available in QuestBoard!  
+If a mod is not seen in here, you should follow the [Using Your PC](#using-your-pc) method instead.
+:::
+
+Open BMBF in your Quest and go to the `Browser` tab, there you should see a globe icon similar to what's shown below. Click it, then click the `QuestBoard` button.
+
+![globequestboard](~@images/beginners-guide/globequestboard.png)
+
+You should be greeted with the QuestBoard website below. Next, select the `DOWNLOAD MODS` tab.
+
+![questboardhome](~@images/beginners-guide/questboardhome.png)
+
+Scroll down with your thumbsticks. You can now select any mod from the list, seen below, and download it by hitting the download button next to it. Some downloads may redirect you to a website or GitHub page. If so, follow the instructions onscreen, or select the latest `.zip` in the Releases list, respectively.
+
+![questboardmods](~@images/beginners-guide/questboardmods.png)
+
+### Using your PC
 :::warning
 Make sure your Quest and PC are on the same network!
 :::
@@ -101,7 +120,7 @@ Both have a OneClick™ button that easily installs that song onto your Quest. Y
 If you are unable to install songs inside your Quest, you can install maps using your computer similar to installing mods. 
 1. Visit [BeastSaber](https://bsaber.com/) or [BeatSaver](https://beatsaver.com/) on your computer
 2. Download the zip
-3. Follow the [Installing mods](#installing-mods) steps up to the upload files screen.
+3. Follow the [Installing mods using your PC](#using-your-pc) steps up to the upload files screen.
 4. Drag and drop the map zip in and it should be installed!
 
 :::tip 
@@ -127,7 +146,7 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 ### Adding mods from beatmods.com or models from modelsaber.com does not work
 The reason adding mods from [BeatMods](https://beatmods.com/) or models from [ModelSaber](https://modelsaber.com/) doesn't work is because those mods and sabers are for PC Only.
 
-Get Quest compatible Mods from [Questboard](https://www.questmodding.com/) or `#quest-mods` in the Beat Saber Modding Group Discord, with Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/qosmetics). Once you have your mod or model zip use the [BMBF Web Interface](#installing-mods) to install it.
+Get Quest compatible Mods from [Questboard](https://www.questmodding.com/) or `#quest-mods` in the Beat Saber Modding Group Discord, with Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/qosmetics). Once you have your mod or model zip use the [BMBF Web Interface](#using-your-pc) to install it.
 ___
 ### Sideloading BMBF failed
 When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!`
@@ -148,7 +167,7 @@ If none of these work, restart your Quest and go through the list again.
 ___
 ### BMBF not loading configuration after a few minutes
 This is likely due to using BMBF on a game version it was not built for. Such as using BMBF for Beat Saber version `1.13.0` when the version of the game installed on the headset is `1.12.2`.  
-If the game version matches what the BMBF release page says its built for, try restarting your headset. If it still does not work use the [BMBF Web Interface](#installing-mods) and click `Quick Fix` in the Tools tab. 
+If the game version matches what the BMBF release page says its built for, try restarting your headset. If it still does not work use the [BMBF Web Interface](#using-your-pc) and click `Quick Fix` in the Tools tab. 
 ___
 ### Beat Saber is black when I launch it
 Open the library on your Quest. Click the three dots next to Beat Saber and then click `Permissions`. In the menu that pops up, enable storage permissions and try launching the game again.
