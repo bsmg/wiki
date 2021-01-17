@@ -81,7 +81,7 @@ Here are some steps that may help improve tracking.
 
 ![Vive Tracking Help](~@images/grips-and-tricks/vive-tracking-help.gif)
 
-This can apply to oculus sensors too.
+This can apply to Oculus sensors too.
 
 ## Touch Controller Battery Disconnect
 The force of your swings in Beat Saber can cause the spring in the touch controllers to compress and disconnect the battery for a brief moment. This is what happens when you see your saber lose positional tracking but still rotate in place. To alleviate this, ragesaq recommends adding extra springs inside the battery compartment to decrease the likelihood of battery disconnects happening, explained in this [Reddit post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)

@@ -35,7 +35,7 @@ If the details in section 1.1 above are correct, try the solutions below, in des
 - Run `IPA.exe`
 
 **Solution 2.**
--  [Verify your game files](#verify-game-files-for-steam) (Steam only, oculus users refer to Solution 4)
+-  [Verify your game files](#verify-game-files-for-steam) (Steam only, Oculus users refer to Solution 4)
 - Update BSIPA to the latest version
 - Go into your Beat Saber folder
 - Run `IPA.exe`
@@ -95,7 +95,7 @@ If [2.3](#2-3-the-game-stutters-unbearably-after-installing-mods) didn't improve
 * For Oculus CV1 or Rift players: consider using 2 sensors instead of 3+. 
 * Reduce your total mod and song count. 
 * Perform a [Clean Installation](#clean-installation) of the game files. 
-* Low framerate can also be caused by something going wrong within your application data folder, to fix this refer to [Deleting The Beatsaber Folder Within Your App Data](#deleting-your-beat-saber-saves-in-app-data)
+* Low framerate can also be caused by something going wrong within your application data folder, to fix this refer to [Deleting The Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
 * Disable CountersPlus counters like score counter and swing speed as they can be expensive. 
 * HTTPStatus mod can cause lag spikes. Test without this mod to see if the lag spikes go away.
 
@@ -105,7 +105,7 @@ Note that Beat Saber doesn't utilize the GPU very much as visually it's a fairly
 ## 3. Common Questions
 #### 3.1 Blank Menu, No Buttons
 If your main window in game is blank, your save file likely got corrupted.
-To fix this refer to [Delete Beatsaber Folder Within Your App Data](#deleting-your-save-in-app-data)
+To fix this refer to [Delete Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
 
 ::: warning
 This will delete your local scores and statistics.
@@ -115,19 +115,19 @@ This will delete your local scores and statistics.
 If you're using Mod Assistant, click the mod and hit the "Mod Info" button. http://beatmods.com has a "More Info" button on each mod as well.
 
 #### 3.3 Rumble Issues
-Gameplay Modifiers Plus adds a toggle to enable/disable controller rumble. If you disabled it then removed the mod, you'll need to modify the configuration file that it writes to manually. Open `%appdata%/../locallow/hyperbolic magnetism/beat saber` and set `controllerRumbleEnabled` to `true`.
+Gameplay Modifiers Plus adds a toggle to enable/disable controller rumble. If you disabled it then removed the mod, you'll need to modify the save data file that it writes to manually. Open `%appdata%/../locallow/hyperbolic magnetism/beat saber` and set `constrollersRumbleEnabled` to `true`.
 
 If this isn't the cause of your rumble issues and the following are true regarding your haptics:
 * haptics are miniscule
 * there is no vibration when hitting multiple blocks
 * there is a slight delay when touching sabers together
-* you are using oculus touch controllers
+* you are using Oculus touch controllers
 
 Then there is a good chance that Beat Saber is overloading your motherboard's USB controller. Oculus devours your USB controller bandwidth and most motherboards come with a very cheap controller. Beat Saber pushes it harder than any other game, which is why other games and menus might be fine. There is no clear-cut solution, so try the following:
 * Shuffle the sensor and HMD USB cables around in different ports
 * Unplug unnecessary USB devices
 * Buy a PCI-E USB hub
-* Use `-vrmode oculus` if you're using SteamVR to bypass it and use the oculus SDK instead
+* Use `-vrmode oculus` if you're using SteamVR to bypass it and use the Oculus SDK instead
 
 ### Custom Avatars
 #### 3.4 Custom Avatars (Not) Showing Ingame
@@ -136,7 +136,6 @@ Click the **Home** button on your keyboard with the game in focus to toggle visi
 #### 3.5 My Avatars Are Broken
 Make sure your custom avatars plugin is installed properly and updated, also make sure your dependencies are too.
 You might have a corrupted/broken avatar, having one avatar break can break all of your avatars likewise with songs and sabers.
-Refer to [Finding Broken Content](#4-2-finding-broken-content) if you think you have corrupted avatars or if you've made sure your mods and dependencies are updated but avatars still are broken.
 
 ### Custom Songs
 
@@ -147,8 +146,8 @@ Make sure your songs are in your `CustomLevels` folder, located at `Beat Saber/B
 
 Alternatively, you can manually convert them using [Song Converter](https://github.com/lolPants/songe-converter)
 
-#### 3.7 Red Play Button
-Click the red (?) button in the top right corner. This should tell you what mods are required to play the song, which you are missing and should install.
+#### 3.7 Grayed Out Play Button
+Click the shiny blue question mark (?) button in the top right corner. This should tell you what mods are required to play the song, which you are missing and should install.
 If it is still not working, try re-installing the required plugin. Otherwise try a [Clean Install](#clean-installation).
 
 #### 3.8 Map details are infinitely loading
@@ -165,7 +164,7 @@ Your CameraPlus display isn't filling up your canvas. Either drag the corner to 
 ### BeatSaver Downloader
 #### 3.11 BeatSaver Downloader More Songs Button
 **The More Songs button is located in the main menu to the left under the Mods text.** If the button for More Songs is greyed out then make sure all your songs loaded first, as seen in by the rainbow progress bar on the main menu. 
-If your Mods button isn't there then make sure your plugins and dependencies are working and installed properly, refer to the [No Mods?](#_1-no-mods) section.
+If your Mods menu isn't there then make sure your plugins and dependencies are working and installed properly, refer to the [No Mods?](#_1-no-mods) section.
 
 #### 3.12 Nothing Showing Up In The More Songs Menu
 The probable causes for beatsaver downloader not working are:
@@ -194,11 +193,12 @@ To verify integrity of game files follow these steps:
 2. Go to your steam library and find Beat Saber
 3. Right click Beat Saber and click on Properties
 4. Go to the "Local Files" tab in properties
-5. Select the last option "Verify Integrity Of Game Files"
+5. Select the "Verify Integrity Of Game Files" option.
 6. Let it finish verifying and downloading any missing files and you should be good to go.
 
 <YouTube url='https://www.youtube.com/watch?v=EBFfT4-ZiIc' />
-
+___  
+  
 ### Clean Installation
 1. (Optional) Back up your downloaded custom content by making a copy of the following folders:
 * `Beat Saber\Beat Saber_Data\CustomLevels`
@@ -215,7 +215,7 @@ To verify integrity of game files follow these steps:
 4. **Before modding, launch the game once** 
 5. Run Mod Assistant, install your mods, and boot up the game.
 
-(Optional) If you want to take it one step further, refer To: [Deleting The Beatsaber Folder Within Your App Data](#deleting-your-save-in-app-data)
+(Optional) If you want to take it one step further, refer To: [Deleting The Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
 
 ### Deleting Your Save in AppData
 This will delete your scores and local data, but not your custom leaderboard/ScoreSaber stats. You can find the folder at 

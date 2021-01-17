@@ -8,7 +8,7 @@ description: Emma's Guide to making Custom Platforms!
 _Emma's Guide to making Custom Platforms_
 
 ## Project
-Open the current [Custom Platforms Project](https://github.com/rolopogo/CustomPlatforms/releases) with [Unity 2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe).
+Open the current [Custom Platforms Project](https://github.com/affederaffe/CustomPlatformsUnityProject/releases/) with [Unity 2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe).
 
 ## First Steps
 ![Custom Platform Script](~@images/models/platforms/CustomPlatformScript.png)

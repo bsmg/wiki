@@ -45,7 +45,7 @@ The `BeatSaver Downloader` Plugin allows you to download maps in-game using the 
 
 ### BeatSaver
 [BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community. Many other tools and sites enhance the experience of downloading custom songs, but this site is the source of truth.
-To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.  You can also use the in-game downloader plugin, BeatList, or Mod Assistant's OneClick Install feature.
+To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.  You can also use the in-game downloader plugin, BeatList, or Mod Assistant's OneClick™ Install feature.
 
 ### Beast Saber
 [Beast Saber](https://www.bsaber.com) (bsaber.com) is a site that tries to help make finding fantastic maps to play easier. It does this by categorizing the thousands of songs on beatsaver and lets you sort by a song's genre and many other attribute tags. It also has a full social feature where players can review songs and comment on them. One of the most used features is the "Curator Recommended" feature where a team plays through most songs released each day and recommends the ones that stand out, letting you [automatically download these in-game](https://bsaber.com/beatsync/).
@@ -82,7 +82,7 @@ A mod installer is the recommended way to install mods. See the section [above](
 **Run the game at least once** before trying to mod the game! This applies to reinstalling your game too. 
 ### Install BSIPA 
 1. Download [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
-2. Navigate to your [install folder.](#install-folder) and extract the contents of BSPIA into it.
+2. Navigate to your [install folder.](#install-folder) and extract the contents of BSIPA into it.
 ![Directory Clean](~@images/beginners-guide/directory-clean.png "Directory Clean")
 ![Directory Ipa](~@images/beginners-guide/directory-ipa.png "Directory Ipa")
 3. Double click IPA.exe to patch the game. Any mods in the `Plugins` folder will now be loaded when starting the game. If there are errors, you probably didn't follow step 2 correctly.

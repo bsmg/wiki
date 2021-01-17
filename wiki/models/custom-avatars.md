@@ -12,7 +12,7 @@ Once installed you should see a file called `CustomAvatar.dll` inside your `Plug
 You can download more avatars on [ModelSaber](https://modelsaber.com/Avatars/).
 
 ## Usage
-Inside the game in the main menu you will see an `AVATARS` button at the top left of the Mods menu over by the release notes. Pressing it will open up the menu you can use to select which avatar you want to use. There's also additional settings you can change, such as avatar scaling and if the avatar is visible in first person.
+Inside the game in the main menu you will see an `AVATARS` button to the left of the main menu. Pressing it will open up the menu you can use to select which avatar you want to use. There's also additional settings you can change, such as avatar scaling and if the avatar is visible in first person.
 
 ::: warning NOTE
 * Avatars are not selected by default. Make sure to go into the right menu and switch to an avatar if none appear at first.
