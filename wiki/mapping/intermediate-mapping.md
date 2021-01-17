@@ -183,6 +183,17 @@ Note that there are directions that work more comfortably than others. Namely, s
 
 Sliders can also cause significant vision blocks when use in bulk even if the center two positions are not used due to how much visual space the dots fill. Window sliders (3-note sliders that omit the center note) can be used to avoid face notes and clear up vision, but risk being hard to read.
 
+## Inverts
+Inverts are notes that are placed in a location which forces the player to swing considerably more than if they were located in a more traditional position. They add emphasis to the map and require proper setup to play comfortably. 
+
+Be aware that inverts can be quite hard to read especially in rapid succession or at higher speeds.
+
+**Example placements**
+|![blue down right](~@images/mapping/bndr.png)|![blue down](~@images/mapping/bnd.png)|![blue down](~@images/mapping/bnd.png)|![blue down left](~@images/mapping/bndl.png)|
+|:----:|:----:|:----:|:----:|
+|![blue right](~@images/mapping/bnr.png)| | |![blue left](~@images/mapping/bnl.png)|
+|![blue up right](~@images/mapping/bnur.png)|![blue up](~@images/mapping/bnu.png)|![blue up](~@images/mapping/bnu.png)|![blue up left](~@images/mapping/bnul.png)|
+
 ## Single Saber/Handedness Switches
 Alternating the hand leading a pattern can be highly effective at providing variety, interesting motions, or unique rhythms but have limitations.  
 
