@@ -16,7 +16,7 @@ All custom model plugins were created separately by different people. Each mod h
 It includes preview images, and OneClick&trade; install links.
 
 ::: tip NOTE
-All models are manually approved before appearing on the site.
+All models are manually approved before appearing on the site. Please do not reupload any already existing models to the website.
 :::
 
 ### Discord
