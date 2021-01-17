@@ -143,6 +143,9 @@ When editing your map, if you select the wall placement tool the grid will expan
 #### Wall Mapping using Beatwalls
 For setup and usage, see the [documentation](https://github.com/spookyGh0st/beatwalls#readme) and [examples](https://github.com/spookyGh0st/beatwalls/tree/master/examples) in the github repository.
 
+#### Wall Mapping using ScuffedWalls
+Inspired off of Beatwalls it strives to provide additional features to make working with NE animations and other map object custom data easier. Repository with download and documentation is available [here](https://github.com/thelightdesigner/ScuffedWalls#readme)
+
 #### Fast and Hyper Walls
 Walls that zoom by the player are called Fast and Hyper walls. They are created using a negative value for the duration parameter which varies based on half-jump and wall duration. Values for the type of wall can be found in this [negative walls document](https://docs.google.com/spreadsheets/d/1hCbsWwfThH23xVmWk4B-HUKPoZNrsQUeHUHyfNO-yAU). 
 

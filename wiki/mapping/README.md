@@ -27,6 +27,9 @@ You can also visit `#mapping-discussion` on the [Beat Saber Modding Group Discor
 * [Mapping Term Glossary](./glossary.md)
 
 ## Mapping Quick Start
+> The wiki is your building blocks, the community is your inspiration, and you are the creativity.  
+
+Great mappers are not made in a day. It takes dedication with no one really able to hold your hand. The best we can do is provide you the tools with this wiki and clarify any questions you have to succeed in your mapping career!
 
 1. Download the necessary tools for mapping: an [audio editor](https://www.audacityteam.org/) and a [map editor](#map-editing-resources).
 2. [Set up your audio file](#audio-editing-resources), find and confirm the BPM, and export in OGG format.
@@ -100,8 +103,8 @@ The official editor is developed and supported by Beat Games and pre-installed w
 
 Keep in mind the following features that official does not have compared to the [Community Editors](#community-editors) available.
 
-- Uncommon Precision such as 1/3 and associated multiples.
-- Autosave and Recovery
+- Uncommon Precision such as 1/5 and associated multiples.
+- Regular autosave and recovery (Editor only autosaves when testing or saving)
 - Flexible mass select, copy, and paste
 - Edit in place (Change the direction of notes without needing to delete)
 - Chroma RGB Support
@@ -111,7 +114,7 @@ Keep in mind the following features that official does not have compared to the 
 - Mapping or Noodle Extensions Support
 
 #### Migrating from Official Editor to a Community Editor
-Although it is recommended to start setup again following the [Quick Start](#mapping-quick-start) guides with a [Community Editor](#community-editors). It is possible to transfer your work in the Official Editor over.
+Although it is recommended to start setup again following the [Quick Start](#mapping-quick-start) guides with a [Community Editor](#community-editors), it is possible to transfer your work in the Official Editor over.
 1. Install a [Community Editor](#community-editors)
 2. Locate your map files in your game's `CustomLevels` folder.
     * Steam Example Location: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`
@@ -166,7 +169,7 @@ A utility for finding the BPM of a song by upload or tapping.
 Here are some mods that might make your mapping workflow a little easier.
 
 * [SiraUtil](./basic-lighting.md#in-game-with-fpfc) by **auros**  
-With the First Person Flying Controller (FPFC) launch parameter, this allows you to control the game with your keyboard and mouse without a headset connected. See the section in [Basic Lighting](./basic-lighting.md#in-game-with-fpfc) for links to the mods and how to set it up.
+With the First Person Flying Controller (FPFC) launch parameter, this allows you to control the game while a map is playing with your keyboard and mouse without using a headset. See the section in [Basic Lighting](./basic-lighting.md#in-game-with-fpfc) for links to the mods and how to set it up.
 * [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) by **Kyle1413**  
 Plugin for Beat Saber to control playback speed, seek through songs and set up looping sections. Install the latest version from [ModAssistant](https://github.com/Assistant/ModAssistant#readme)!
 * [ReLoader](https://github.com/Kylemc1413/ReLoader) by **Kyle1413**  
@@ -287,6 +290,12 @@ For example, from the picture you would enter `192.168.0.19:50000` into a web br
 ### Community / Third Party Testing
 The `#testplays` channel in the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) makes it easy to have your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in either video or text format in a DM or in the `#mapping-discussion` channel.
 
+:::warning Some things to note...
+* Maps with less than 1 minute done will not get much feedback or be tested. Consider asking in `#mapping-discussion` to see if someone will take a look instead.
+* Challenge/Super High difficulty maps may take longer to get feedback since there are not many playtesters at this skill level. 
+* Please keep to serious posts where you are looking to improve your mapping skills. Meme or Shitpost maps do not belong as they end up wasting the testplayers time.
+:::
+
 Interested in helping out? See [How to Testplay](./how-to-testplay.md) to get started!
 
 1. Create a compressed .zip file of the individual song files [How to Video](https://streamable.com/u20ci).
@@ -301,9 +310,7 @@ Interested in helping out? See [How to Testplay](./how-to-testplay.md) to get st
 3. Testers will usually look at your map within 1-7 days and will use a number of reaction emojis (listed in `#testplays` pinned posts) to track testing status.
 
 :::warning Remember: If you make changes after posting or getting feedback
-* React with a 🛑 `:octagonal_sign:` to indicate stop testing this version   
-== or ==
-* Delete the testplay posting! 
+React with a 🛑 `:octagonal_sign:` to indicate stop testing this version   
 :::
 
 You can copy and paste the following template into Discord:

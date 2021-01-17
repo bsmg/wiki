@@ -13,9 +13,9 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
 | **3-Wide Wall** | A *wall* that spans 3 lanes, requiring the player to move out of the center of the *track* to avoid. Interchangeably used with any wall requiring the player to move out of the center of the track. Never considered okay to use. |
-| **360 Mode** | A map characteristic that allows the track to rotate in 15 degree increments in a full circle. As of Janurary 2021 these maps can only be made in ChroMapper and in the official editor. |
+| **360 Mode** | A map characteristic that allows the track to rotate in 15 degree increments in a full circle. As of January 2021 these maps can only be made in ChroMapper and in the official editor. |
 | **4-Wide Wall** | A *wall* that spans all four lanes and three rows of the standard *track*, usually causing the player to fail the level unless it is thin. Never considered okay to use. |
-| **90 Mode** | A map characteristic that allows the track to rotate in 15 degree increments up to 45 degrees in either direction. As of Janurary 2021 these maps can only be made in ChroMapper and in the official editor. |
+| **90 Mode** | A map characteristic that allows the track to rotate in 15 degree increments up to 45 degrees in either direction. As of January 2021 these maps can only be made in ChroMapper and in the official editor. |
 | **Arrow Block** | A *block* with an arrow on it indicating the direction in which it must be hit. Also known as *Arrow Note*. See also *Block, Note, Dot Block/Note* <details><summary><b>Example Image</b></summary>![Picture of Arrow Blocks](~@images/mapping/arrowblocks.jpg)</details>|
 | **Arrow Vortex** | The name of a free third party tool that can analyze song *BPM* and calculate *offset*. Download and guide on use is available [here](./basic-audio.md#tool-assisted-bpm-calculation). |
 

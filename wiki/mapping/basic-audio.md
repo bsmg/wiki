@@ -305,7 +305,7 @@ To trim the ending at this point do the following:
 The song will now fade out just before it gets to the end of the map and the player will be presented with the scoring results much faster.
 
 ### Trimming the Intro
-This step can be useful if you need to make a more graceful fade-in for your song, if needed.
+This step can be useful if you need to make a more graceful fade-in for your song.
 
 If your track has arrows pointing to the left at the start it means you’ve time shifted the audio forward in time outside the timeline. If you’ve done this to shorten the intro, although not necessary, it is beneficial to trim the sound clip and add a fade in. To trim and add a fade in to the song (optional) do the following:
 1. Drag a selection from 0.0 seconds to the end of the audio track (yellow vertical lines).

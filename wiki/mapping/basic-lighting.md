@@ -17,7 +17,7 @@ The available lighting types are consistent across each of the built-in game env
 * **Side/Top Lasers:** Sets of rotating lasers to the sides of the track or above/below the track, depending on which environment you’ve selected. Rotation is set using the Laser Speed function.
 * **Back Lasers:** Static lasers, often in an “X” pattern at the back of the track, behind the chevron.
 * **Ring Lights:** Lights attached to the inside of the large outer rings that spin in almost all environments.
-* **Ring Spins:** Used to create movement in the rings. In environments with both an inner and an our ring, rings spins rotate both rings together.
+* **Ring Spins:** Used to create movement in the rings. In environments with both an inner and an outer ring, rings spins rotate both rings together.
 * **Ring Zooms:** Used to zoom and unzoom the inner ring in environments that have it. Does not affect the outer ring.
 * **Laser Speed:** Changes the speed of the side laser rotation from stationary (0) to very fast (20). Set independently for the right and left side lasers. Back top lasers do not move. Laser speed increases linearly so **2** is twice as fast as **1** and **5** is five times as fast as **1**.
 * **Boost Event:** Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors. There is no fade or flash option for this event.
@@ -76,7 +76,7 @@ Be cautious about putting off events exactly in the middle of two lights as it c
 There are various built-in environments in Beat Saber which are part of the base game and can be used easily with a few clicks.
 
 ::: warning NOTE
-Custom environment models (platforms) created by the community exist but require the Custom Platforms mod which is not currently available through Mod Assistant. A beta version may be available in #pc-mods the BSMG Discord.
+Custom environment models (platforms) created by the community exist but require the Custom Platforms mod which is not currently available through Mod Assistant. A beta version may be available in the `#pc-mods` channel of the BSMG Discord.
 :::
 
 The basic structure of each environment is mostly the same. In the [Mediocre Map Assistant 2](./mediocre-map-assistant.md) editor the lighting track looks like this:
@@ -110,10 +110,6 @@ The basic structure of each environment is mostly the same. In the [Mediocre Map
 
 ### Setting Your Environment
 New default environments become available reasonably often which means that map editors don't always have the complete list available. If the environment you want to use is not an option in your favorite editor's settings you will have to edit your `Info.dat` file to add the environment name.
-
-::: danger
-If you choose to add a different default environment to your map via file editing this must be the LAST thing you do before releasing. If you open your map in the editor again the environment will be erased.
-:::
 
 1. Decide which environment you want to use then copy the `Info.dat name` from the [Environment Previews](#environment-previews) section above.
 2. Open your `Info.dat` file in the text editor of your choice.
