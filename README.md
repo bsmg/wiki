@@ -17,7 +17,7 @@ To run a local copy of the wiki:
 3. [Fork this repo](https://guides.github.com/activities/forking/), then clone it. **Make sure to do all work on [another branch](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch).**
 4. Open a command-line window in the directory you just cloned into, then run the command `yarn` to install required packages.
 5. After packages are installed, start the development server with the command `yarn dev`. You can kill the server by closing the terminal or by pressing <kbd>CTRL+C</kbd>
-* 1. : If you run into an error when trying to use `yarn dev` on Windows, try taking out `yarn.ps1` and `yarnpkg.ps1` in `user/Appdata/Roaming/npm`. 
+* If you run into an error when trying to use `yarn dev` on Windows, try taking out `yarn.ps1` and `yarnpkg.ps1` in `user/Appdata/Roaming/npm`. 
 6. Open the link to [`localhost`](http://localhost:8080/) that appears in the console once the development server is running.
 
 When you make changes to your local wiki files, the local website will update those pages as soon as they are saved! **Note:** Sidebar headers do not change due to an issue with Vuepress. They will render correctly if you restart the dev server, and on the final build.
