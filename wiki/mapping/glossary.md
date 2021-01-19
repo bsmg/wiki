@@ -181,7 +181,7 @@ This glossary is a living, breathing, growing work in progress. If there's a ter
 ## Q
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
-| **Quads** | A horizontal pattern of four horizontal blocks of the same color across the track. Almost impossible to score well on the entire hit and highly discouraged. This pattern can easily be replaced with a slider, though 4-wide sliders are not considered rankable.|
+| **Quads** | A horizontal pattern of four horizontal blocks of the same color across the track. Almost impossible to score well on the entire hit and highly discouraged. This pattern can easily be replaced with a slider. <details><summary><b>Example Image</b></summary>![Picture of quad](~@images/mapping/quad.jpg)</details>|
 
 ## R
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
