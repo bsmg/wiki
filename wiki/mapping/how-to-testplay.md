@@ -16,7 +16,7 @@ The only real things you need to get started with testplaying is a willingness t
 ![Eyes Reaction Location](~@images/mapping/eyes_emote-location.png)
 3. Place the map (as a zip) within your Beat Saber `CustomLevels` folder. 
 4. Load up Beat Saber and navigate to your WIP custom songs cache. If the map was created correctly, it should be there. If the map does not appear, it is likely that the map was not zipped correctly, and contains a folder within a folder. You can choose to unzip the map and place it into your CustomWIPLevels folder yourself and continue the testplay, or @ (ping) the mapper and let them know they need to zip *only* the files, not the folder. [How to Zip Map Files Video](https://streamable.com/u20ci)
-5. Play the map 1-2 times in practice mode ![Practice Mode Icon](~@images/mapping/practice_mode-icon.png), **NOT the big ‘Play’ button.** Ideally, you should only look to play the map once. You want to collect your first impressions and general feedback. If you’re not sure if something is ‘correct’, it’s okay to replay a section, but repeatedly playing the map will skew your muscle memory and cause you to overlook things as you become too adjusted to the map.  
+5. Play the map 1-2 times in practice mode ![Practice Mode Icon](~@images/mapping/practice_mode-icon.png), **NOT the big ‘Play’ button.** Ideally, you should only look to play the map once. You want to collect your first impressions and general feedback. If you’re not sure if something is ‘correct’, it’s okay to replay a section, but repeatedly playing the map will skew your muscle memory and cause you to overlook things as you become too adjusted to the map.
 
 :::warning
 It is important that you play the map in Practice Mode in order to prevent creating a new scoreboard on Scoresaber if you have the mod installed!  
@@ -39,7 +39,7 @@ If you found the map you downloaded was too difficult for you to provide feedbac
 ## Stepping it Up with Video
  Enjoyed your first taste of testplaying? You’re not alone! While all feedback is great, some feedback is more helpful with a broader spectrum of issues. If you’re ready to step up your testplaying game, you should look at including a video of your playthrough, and having a grasp over the fundamentals of mapping. 
  
- While no one is going to ask you to write a 500 word essay on triangles, you should know what DDs, handclaps, and face blocks are, to help new mappers. All of the mapping fundamentals you could ever need are covered in this wiki on the [Basic Mapping](./basic-mapping.md) page. Just remember, we were all new once, and no one expects you to know everything!
+ While no one is going to ask you to write a 500 word essay on triangles, you should know what DDs, handclaps, and face blocks are, to help new mappers. All of the mapping fundamentals you could ever need are covered in this wiki on the [Basic Mapping](./basic-mapping.md) page as well as on the [Intermediate Mapping](./intermediate-mapping.md) page. Just remember, we were all new once, and no one expects you to know everything!
 
  As for including a video on your playthrough, there are many different ways to go about it. Some people use [Shadowplay](https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay/), some use Windows’ built-in screen recorder, and others use [OBS: Open Brodcaster Software](https://obsproject.com/). All are good options and choosing one depends on your own workflow and in the case of Shadowplay, if you have the appropriate hardware.
 
@@ -56,13 +56,13 @@ This is a stub section. If you’d like to contribute, submit suggestions via [t
 OBS may take longer to set up, but it offers far more freedom and control. If you’ve never used it before, you can checkout this [Quickstart Guide](https://obsproject.com/wiki/OBS-Studio-Quickstart). It is recommended to have your video recorder output set to `.mkv` since others have had corruption issues with other file formats, but `.mkv` works flawlessly.
 
 ### Using Windows Built-In Screen Recorder
-::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
-:::  
+This is feature is only avaliable on Windows 10. 
+
+While in Beatsaber (or any program) Press <kbd>Win+g</kbd> on your keyboard to bring up the Windows Game Bar, at the top of the bar click on Capture and Audio. Set up your audio so that it's recording the game and make sure that you have the correct mic set. Make sure that the mic is not muted, it is muted by default. If you want to adjust the setting of the recording press <kbd>Win+x</kbd> then press <kbd>n</kbd> (or click on Settings), then press `Gaming` then `Captures`. You should set the audio quality to it's highest setting. The default setting is 128kbps if you do not change it. To start recording, simply press the record button. To stop the recording, simply press the same button to stop the recording. All recordings are saved in `C:\Users\"your user"\Videos\Captures`. 
 
 ### Recommended Mods to Install
 * **PracticePlugin**
-  * Can be found in Mod Assistant under the Practice/Training category that gives you the option to replay sections of a map, and adjust NJS and offset while in game. You’ll be seeing a lot of 12 NJS maps from new mappers, so this mod is a real help!
+  * Can be found in Mod Assistant under the Practice/Training category that gives you the option to replay sections of a map, and adjust NJS and offset while in game. If it is not there, you can try to ask in `#mapping-discussion` if any of the testplayers have a beta verion of the mod. You’ll be seeing a lot of 12 NJS maps from new mappers, so this mod is a real help!
 * **CameraPlus**
   * Can be found in Mod Assistant under the Core category allows for various perspectives and tuning, such as a main third person perspective, and a secondary first person perspective in the corner.
 * [OBSControl](https://github.com/Zingabopp/OBSControl#readme)
@@ -95,9 +95,12 @@ If you feel more comfortable going into it with a checklist, consider these:
 * Avoid nitpicking whenever possible. Giving suggestions is fine, but spending 30 minutes going over a map for every single missed emphasis block, or trying to remap the entire map yourself by telling the mapper what YOU would do for every section, is not the main purpose of a testplay. Collect your thoughts from your first playthrough, and roll with it. 
 * Don’t overwork yourself! You may feel fine doing 20 maps at once, more than a few times a week, but it will catch up to you. You will find that you repeat yourself almost entirely every 2 maps, and it can be emotionally exhausting, even if you don’t realise it at first. Try not to let it get to you, and if it becomes too much, take a break. 
 * Warm up on a couple easy maps, then work up to the difficult ones, but save the rest of the easy ones for the end. This will ensure you’re playing to your peak for the most difficult maps. I also like to go back and forth between maps when testing maps with full spreads, to prevent myself from going insane listening to the same song 5 times in a row. 
-* Test within your difficulty. While it sucks to leave behind e+/expert/hard maps, you only risk injuring yourself, or causing burnout, by trying to do maps that are above your paygrade. Trust in your fellow testers to pick up the maps that fall between the cracks! 
+* Test within your playing difficulty. While it sucks to leave behind e+/expert/hard maps, you only risk injuring yourself, or causing burnout, by trying to do maps that are above your paygrade. Trust in your fellow testers to pick up the maps that fall between the cracks! 
+* It it also fine to test above your playing difficulty, you do not need to play the map at its full speed. You can lower the speed of the song to within your playing abilities and still catch mapping errors. Mappers appreciate this feedback, just be sure to mark their feedback with a :ballot_box_with_check:.
+* This should be obvious but if there is ever a section in a map that is really poorly mapped and causes you to fear hurting yourself or your equipment, let the blocks pass. Always take care of yourself before the map. 
 * Testplaying a map is doing a favour to the mapper. There is no rule that states you MUST testplay a map if it is in the queue and within your difficulty; if a mapper gives you any hassle, don’t force yourself through testplaying their maps again.
 * Make sure you scroll up and check for maps that got left behind! While again, there are no rules on who’s maps you must play, the best practice is to play older maps first, before new ones. Otherwise, the queue quickly falls into disarray. 
+* Watch other playtesters videos to learn what to spot for yourself and or even learn new things. If they failed to identify something in the video and you noticed it, you can even tell them or point out the error to the mapper. 
 
 ## FAQ
 **I’m not a very good player, can I still test maps?**  
@@ -113,10 +116,10 @@ ___
 At the end of the day, it is on the mapper to take the feedback into account how they see fit. Seeing a map get uploaded that’s full of handclaps and DDs is frustrating, but you did what you could. Other times, more subjective opinions may be ruled over in the favour of the mapper’s artistic sense. While you may not agree with the mapper’s call, we can’t do everyone’s map for them. 
 ___
 **Where do I upload my testplay videos?**  
-Streamable and YouTube are the most common places to have testplays uploaded. Streamable has a video limit of 10 minutes and file size limit of 1GB without a premium account, and will delete videos after a couple months of inactivity. However, YouTube takes a bit more work to upload, and you risk getting copyright striked (although it is very unlikely to harm your channel). Some testplayers will also stream their testplays on Twitch, and then link the vods, although that also risks copyright strikes. 
+Streamable and YouTube are the most common places to have testplays uploaded. Streamable has a video limit of 10 minutes and file size limit of 500MB without a premium account, and will delete videos after a couple months of inactivity. However, YouTube takes a bit more work to upload, and you risk getting copyright striked (although it is very unlikely to harm your channel). Some testplayers will also stream their testplays on Twitch, and then link the vods, although that also risks copyright strikes. 
 ___
 **How long does it take to testplay a map?**  
-This can vary greatly depending on many different factors. A new mapper’s first map with a lot of issues can reach upwards of 15 minutes, while a more solid map can be as long as the map is itself. I would say that, on an average run, you can get 20 maps (just 1 difficulty) done in about 2 and half hours. This is assuming that there is at least one point of discussion per map, and that you are recording videos with real time voice commentary, with no stopping to start/stop recording. Doing written feedback for 20 maps could be anywhere from 3-4 hours, depending on how frequently you write notes, and how much detail you go into. 
+This can vary greatly depending on many different factors. A new mapper’s first map with a lot of issues can reach upwards of 10 minutes, while a more solid map can be as long as the map is itself. I would say that, on an average run, you can get 20 maps (just 1 difficulty) done in about 2 and a half hours. This is assuming that there is at least one point of discussion per map, and that you are recording videos with real time voice commentary, with no stopping to start/stop recording. Doing written feedback for 20 maps could be anywhere from 3-4 hours, depending on how frequently you write notes, and how much detail you go into. 
 
 ## Credits
-Content in this section was authored by [Pyrowarfare](./mapping-credits.md#pyrowarfare)
+Content in this section was authored by [Pyrowarfare](./mapping-credits.md#pyrowarfare) and Vaser888
