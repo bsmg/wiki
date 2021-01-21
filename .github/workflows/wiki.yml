@@ -8,7 +8,28 @@ env:
   DEPLOY_URL: 'https://bsmg.wiki/'
 
 jobs:
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+          registry-url: https://registry.npmjs.org
+      - name: Cache node_modules
+        uses: actions/cache@v2
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+      - name: Install packages
+        run: yarn install --frozen-lockfile
+      - name: Lint Markdown Files
+        run: yarn run lint:markdown
+
   build:
+    needs: test
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
