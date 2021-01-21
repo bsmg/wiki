@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "lint:markdown": "markdownlint ./wiki/**/*.md",
+    "lint:markdown": "markdownlint --ignore ./wiki/{fr,ja}/**/*.md ./wiki/**/*.md",
     "lint": "yarn run lint:markdown",
     "predev": "rimraf .temp",
     "dev": "vuepress dev wiki --temp .temp",
