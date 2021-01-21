@@ -26,15 +26,15 @@ Mapping Extensions is a mod by **Kyle1413** which unlocks many special features.
 Every editor is unique in both their setup and support for Mapping Extensions (ME). Editors known to support ME along with instructions on how to setup are as follows:
 
 * **Mediocre Map Assistant 2**
-   * [Setup with Beat Saber Installed on your PC](#me-setup-for-mma2-with-beat-saber-installed)
-   * [Setup without Beat Saber Installed on your PC](#me-setup-for-mma2-without-beat-saber-installed) (e.g., Quest Users)
+  * [Setup with Beat Saber Installed on your PC](#me-setup-for-mma2-with-beat-saber-installed)
+  * [Setup without Beat Saber Installed on your PC](#me-setup-for-mma2-without-beat-saber-installed) (e.g., Quest Users)
 * [BeatMapper](https://beatmapper.app/docs/mods#mapping-extensions)
 * **ChroMapper** Instructions Coming Soon!
 
 #### ME setup for MMA2 with Beat Saber Installed
 
 ::: warning NOTE
-This section assumes you are using the `CustomWIPLevels` folder in a Beat Saber install.   
+This section assumes you are using the `CustomWIPLevels` folder in a Beat Saber install.
 Follow the [without Beat Saber Installed](#me-setup-for-mma2-without-beat-saber-installed) instructions if you store your maps in a different location.
 :::
 
@@ -55,6 +55,7 @@ Not sure where Beat Saber is installed? See [FAQ: Install Folder](/faq/install-f
 Here you will need to “trick” Mediocre Map Assistant 2 that your folder is a Beat Saber install.
 
 Option 1:
+
 1. Download this zip for pre-formatted folders and Mapping Extensions Plugin [here](https://git.bsmg.dev/bloodcloak/mapping-qstart/releases/latest).
 2. Extract the zip to a location of your choice.
 3. Enter the path to the CustomLevels and CustomWIPLevels folder near the bottom of the Settings Bar.
@@ -62,6 +63,7 @@ Option 1:
 4. You are now ready to do [map setup!](#map-setup-in-mediocre-map-assistant-2)
 
 Option 2:
+
 1. Create a folder named `Beat Saber` in the location you want to store your maps.
 2. In that folder, create two folders, `Beat Saber_Data` and `Plugins`.
 3. In `Beat Saber_Data` create a `CustomWIPLevels` and `CustomLevels` folder.
@@ -80,7 +82,7 @@ Option 2:
    - **Precision Rotation** - Allows blocks to be angled at any angle instead of the default 45-degree increments.
 3. Enable the desired features by clicking the checkboxes. For example, wall mapping needs 6 Lane and Precision Placement.
 4. Select the level you want to map in and click on the ExtraFields tab to the right of the difficulty select.
-5. Click the Requirements tab and then type in `Mapping Extensions`. 
+5. Click the Requirements tab and then type in `Mapping Extensions`.
 :::warning
 The text you enter in the requirements has to be exact or else the features will not enable in editor.
 :::
@@ -137,7 +139,7 @@ Too many walls will create heavy lag. Especially for players that do not have po
 :::
 
 #### Wall Mapping using MMA2
-After [editor setup](#set-up), check that you have at least 6 Lane Mode and Precision Placement enabled.   
+After [editor setup](#set-up), check that you have at least 6 Lane Mode and Precision Placement enabled.
 When editing your map, if you select the wall placement tool the grid will expand, allowing you to place walls anywhere on the track similar to regular wall placement. To make smaller walls, you need to change the precision. Go into the editor menu by pressing <kbd>Esc</kbd> or clicking the hamburger in the top right and change the `Precision Snap` value. This is a similar to the `Cursor Precision` setting.
 
 #### Wall Mapping using Beatwalls
@@ -147,7 +149,7 @@ For setup and usage, see the [documentation](https://github.com/spookyGh0st/beat
 Inspired off of Beatwalls it strives to provide additional features to make working with NE animations and other map object custom data easier. Repository with download and documentation is available [here](https://github.com/thelightdesigner/ScuffedWalls#readme)
 
 #### Fast and Hyper Walls
-Walls that zoom by the player are called Fast and Hyper walls. They are created using a negative value for the duration parameter which varies based on half-jump and wall duration. Values for the type of wall can be found in this [negative walls document](https://docs.google.com/spreadsheets/d/1hCbsWwfThH23xVmWk4B-HUKPoZNrsQUeHUHyfNO-yAU). 
+Walls that zoom by the player are called Fast and Hyper walls. They are created using a negative value for the duration parameter which varies based on half-jump and wall duration. Values for the type of wall can be found in this [negative walls document](https://docs.google.com/spreadsheets/d/1hCbsWwfThH23xVmWk4B-HUKPoZNrsQUeHUHyfNO-yAU).
 
 - **MMA2/ChroMapper:** You can create fast/hyper walls by pressing <kbd>ctrl + f</kbd> while your cursor is on a wall until it is yellow. The length of the wall is the duration, see the [negative walls document](https://docs.google.com/spreadsheets/d/1hCbsWwfThH23xVmWk4B-HUKPoZNrsQUeHUHyfNO-yAU) for the appropriate length.
 - **Beatwalls:** Fast/hyper walls are created by overwriting the duration property with `changeDuration: -3`.
@@ -162,24 +164,25 @@ Luckily there are some mods to help you out.
 
 - [FPFCToggle](https://github.com/DeadlyKitten/FPFCToggle) - lets you fly around the map without vr
 - [MusicEscape](https://github.com/DeadlyKitten/MusicEscape) - lets you quit to menu and pause-menu with your keyboard
-- [ReLoader](https://github.com/Kylemc1413/ReLoader) - hot reloads the map 
+- [ReLoader](https://github.com/Kylemc1413/ReLoader) - hot reloads the map
 - [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) - change Song time, playback speed and more from the pause manu
 
 ## Extended Characteristics
 These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `Info.dat` file.
 
 **To Add a New Characteristic**
+
 1. Create your new difficulty file in your favorite editor.
 2. When finished mapping, rename the difficulty file to include the characteristic name. (example: `EasyLightshow.dat`)
 3. Make the following changes to the `”_beatmapCharacteristicName”` and `”_beatmapFilename”` in your `Info.dat` file:
 
 ```
 "_difficultyBeatmapSets": [{
-	"_beatmapCharacteristicName": "Lightshow",
-	"_difficultyBeatmaps": [{
-		"_difficulty": "Easy",
-		"_difficultyRank": 1,
-		"_beatmapFilename": "EasyLightshow.dat",
+ "_beatmapCharacteristicName": "Lightshow",
+ "_difficultyBeatmaps": [{
+  "_difficulty": "Easy",
+  "_difficultyRank": 1,
+  "_beatmapFilename": "EasyLightshow.dat",
 ```
 
 This [pastebin](https://pastebin.com/vbgFPqn9) link provides an example of a `Info.dat` file using two characteristics (Lawless and Standard)
@@ -197,7 +200,8 @@ It is recommended that you understand [basic](./basic-mapping.md) and [intermedi
 
 ### Lawless
 ::: warning  
-This characteristic requires the SongCore mod to function. 
+This characteristic requires the SongCore mod to function.
+
 * For PC Players without the mod, the whole map will load indefinitely and will be unable to play any other difficulty in the map.
 * For Quest players, this characteristic will be removed at import. Vanilla characteristics will still be playable.
 :::
@@ -208,7 +212,8 @@ The lawless characteristic is exactly what it sounds like… no rules, just righ
 
 ### Lightshow
 ::: warning  
-This characteristic requires the SongCore mod to function. 
+This characteristic requires the SongCore mod to function.
+
 * For PC Players without the mod, the whole map will load indefinitely and will be unable to play any other difficulty in the map.
 * For Quest players, this characteristic will be removed at import. Vanilla characteristics will still be playable.
 :::
@@ -224,10 +229,12 @@ It is recommended that you understand [basic](./basic-mapping.md) and [intermedi
 
 ### Rotation Events and Values
 Two new “official” event types were introduced in v1.6.0 as part of the lighting events schema:
+
 * **Event Type 14 (Early Rotation):** Rotates spawn point at the same time as the notes/obstacle.
 * **Event Type 15 (Late Rotation):** Rotates spawn point while ignoring the notes/obstacles at the same time as the event.
 
 Each event has a value for spawn rotation which is always relative to the player’s current position:
+
 * **[0]**  60° rotation counter-clockwise (Left)
 * **[1]**  45° rotation counter-clockwise (Left)
 * **[2]**  30° rotation counter-clockwise (Left)
@@ -268,10 +275,12 @@ The two far right icons in the **EVENTS** section are the early and late spawn r
 This is the most preferred and easily accessible method of making 360/90 levels. Be sure to create a new characteristic, “360Degree” or “90Degree”. If it’s not available, you may need to create one by replacing existing characteristic or creating a new one
 
 **Option 1:** Complete the map in the MediocreMapper then apply rotation events in the Official Level Editor.
+
 * **Pro:** Easy and effective method.
 * **Con:** Can cause offset and BPM change rounding errors and any non-standard custom data will get deleted and need to be edited in afterward.
 
 **Option 2:** Using laser speed event as spawn rotation event (ADVANCED METHOD)
+
 * **Pro:** Retains custom map data.
 * **Con:** Can be confusing at first but gets easier the more you work with it.
 
@@ -293,7 +302,7 @@ Do not open a 360°/90° map containing event type 14 in MMA2 as it converts the
 
 #### ChroMapper
 
-* **Pro:** Natively supports 360°/90° mapping 
+* **Pro:** Natively supports 360°/90° mapping
 * **Pro:** Better visualisation of 360°/90° mapping.
 * **Con:** In closed beta and not openly available yet.
 
@@ -317,6 +326,7 @@ If you’re feeling adventurous, rotation events can be manually edited into you
 *Notes overlap, be aware of them. Image for reference (each note row is 1/4 apart at 15° rotation).*
 
 #### DO'S
+
 * Keep the user’s field of view in mind. They can only see +/-15° with full vision and +/- 30°  with peripheral vision.
 * Primarily use event 15 (late rotation). This allows you to direct the player where the next lane rotation is with the chevron after the next block hit.
 * Make use of both event 14 (early rotation) and 15 (late rotation):
@@ -328,7 +338,7 @@ If you’re feeling adventurous, rotation events can be manually edited into you
 ![Using walls to telegraph rotation](~@images/mapping/wall-telegraph.png)  
 * Side hits in the direction of rotation are one of the best ways to indicate rotational change.
 * Use sliders to indicate (big) rotational change.
-  * Instead of a conventional slider pattern, the notes are on at the same lane and same row while having rotational event for each note in the sliders. 
+  * Instead of a conventional slider pattern, the notes are on at the same lane and same row while having rotational event for each note in the sliders.
   * Example usage by **techbutterfly** [YouTube](https://youtu.be/9778iXFBdjg?t=61)
 * Wide stream patterns help readability when using rotation events during streams.
 * Playtest your map way more frequently then mapping regularly
@@ -338,9 +348,10 @@ If you’re feeling adventurous, rotation events can be manually edited into you
   * Using both -15° and 15° on a section at the same time can be hard to read, especially at speed.
   * If you have the player to turn >30° rotation, give the player time to adjust and prepare for the next note.
   * The more you place rotation events that go outside the player's FOV, the more disorienting it gets; it isn’t a bad mapping practice but it’s something to be aware of.
-* Be sure to keep in mind where the player's cable will be. While full rotations are fine for Quest, rotating a headset with a cable can cause tangles, which can be a hazard. You can avoid this by spinning the player back around after a full rotation. 
+* Be sure to keep in mind where the player's cable will be. While full rotations are fine for Quest, rotating a headset with a cable can cause tangles, which can be a hazard. You can avoid this by spinning the player back around after a full rotation.
 
 #### DONT'S
+
 * Don’t force rotational movement on fast paced section. Players’ brains can only handle so much at once.
 * Using rotation events too quickly (less than 1/2 a beat between events) or too often can be disorienting
   * Exception: E+ given plenty of playtesting or when using them for cosmetics such as walls or a chevron spin

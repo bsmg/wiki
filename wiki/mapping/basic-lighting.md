@@ -8,11 +8,13 @@ description: Learn how to get started manually lighting your map!
 _Make Beat Saber a brighter place by manually lighting your maps_
 
 * [Glossary of Terms](./glossary.md)
+
 ---
 Every map needs to have lighting of some sort. Once you know the tools at your disposal, simplistic manual lighting can be very easy. [This link](https://streamable.com/s/x7zj0/vrugyj) is a video example of very simple manual lighting  (Note: The example uses [Map Color Overrides](#map-color-overrides)). You don't need to be an AaltopahWi or a Skeelie to make great lighting!
 
 ## Lighting Types
 The available lighting types are consistent across each of the built-in game environments, though they may be in slightly different positions or not present in some cases.
+
 * **Center Lights:** Generally lights along the side of the track, underneath the track, and sometimes a chevron at the back of the track. Sometimes called "Bottom/Back/Side" or "BBS" lights.
 * **Side/Top Lasers:** Sets of rotating lasers to the sides of the track or above/below the track, depending on which environment you’ve selected. Rotation is set using the Laser Speed function.
 * **Back Lasers:** Static lasers, often in an “X” pattern at the back of the track, behind the chevron.
@@ -24,6 +26,7 @@ The available lighting types are consistent across each of the built-in game env
 
 ## Lighting Events
 Each lighting type can make use of four different lighting events.
+
 * **On:** Turns a light on that will stay on until you place a different event type.
 * **Off:** Turning a light off can have as much impact as turning it on, or more.
 * **Flash:** Briefly flashes brighter than a standard “on” event then stays on until you place a different event type.
@@ -36,7 +39,6 @@ It's impossible to control the duration of a fade out or use a fade in with stan
 ## Best Practices & Techniques
 > "The only bad lights are **NO** lights.... or lightmap."  
 ~ Skeelie
-
 
 Lighting truly is an art which means that it's much more subjective than mapping. There are relatively few best practices to get started and simple manual lighting is almost impossible to do poorly.
 
@@ -51,6 +53,7 @@ Each map editor handles lighting differently so you’ll want to get to know the
 
 ### Assigning Lighting Events
 Mappers lighting their first map should start by assigning specific [lighting types](#lighting-types) to specific instruments, then branch out from there as they get more experienced. This method won't usually produce the most exciting shows, but it's hard to mess up. This might look like:
+
 - **Track Lights:** Bass or Kick Drum
 - **Lasers:** Melody
 - **Ring Lights:** Synth A or Cymbals
@@ -84,7 +87,7 @@ The basic structure of each environment is mostly the same. In the [Mediocre Map
 ![Screenshot of the MMA2 lighting track from the top down](~@images/mapping/mma2-lighting-track.jpg)
 </p>
 
-### Environment Previews 
+### Environment Previews
 **Note:** The images below were created using a program called ReShade which increases contrast in post-processing to better highlight lights. Environments appear less dark in-game.
 
 | Video and Screenshot (click to open full size) | Environment |
@@ -106,7 +109,7 @@ The basic structure of each environment is mostly the same. In the [Mediocre Map
 | ![Image of FitBeat environment](~@images/mapping/fitbeat_env.jpg) |**FitBeat Environment**<br />**Info.dat Name:** `FitBeatEnvironment`<br />**Default Colors:** Yellow & Pink notes, Brown & Grey lights<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (outer lasers) <br />**Inner Ring:** :white_check_mark: (helix) <br />**Equalizer:** :white_check_mark: <br />**Note:** Back Top Lasers will illuminate the opposite color of what you set it. <br /><br />**Video Preview:** [Streamable](https://streamable.com/1vqpmw), [YouTube](https://youtu.be/Y5CtZTpCcF4) |
 | ![Image of Linkin Park environment](~@images/mapping/linkin-park_env.jpg) |**Linkin Park Environment**<br />**Info.dat Name:** `LinkinParkEnvironment`<br />**Default Colors:** Red & Blue-Grey notes, Beige & White lights<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :x: <br />**Inner Ring:** :x: <br />**Equalizer:** :white_check_mark: (on side wall) <br /><br />**Video Preview:** [Streamable](https://streamable.com/7xzwoz), [YouTube](https://youtu.be/I8tzKUI0xZ0) |
 | ![Image of BTS Park environment](~@images/mapping/bts_env.jpg) |**BTS Environment**<br />**Info.dat Name:** `BTSEnvironment`<br />**Default Colors:** Pink & Purple notes, Pink & Purple lights<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (background pillars) <br />**Inner Ring:** :white_check_mark: (track pillars) <br />**Equalizer:** :x: <br />**Note:** BTS logo in the center never turns off.<br /><br />**Video Preview:** [Streamable](https://streamable.com/vo5x93), [YouTube](https://youtu.be/WOVRxc3lydI) |
-| ![Image of Glass Desert environment](~@images/mapping/glass-desert_env16.jpg) | **Glass Desert Environment**<br />**Info.dat Name:** `GlassDesertEnvironment`<br />**Default Colors:**  Yellow & Pink notes, Blue & Light Blue lights<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: <br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark:<br />**Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels. Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top. <br /><br />**Video Preview:** [Streamable](https://streamable.com/cnie5j), [YouTube](https://youtu.be/Nh6kSjobYB0) | 
+| ![Image of Glass Desert environment](~@images/mapping/glass-desert_env16.jpg) | **Glass Desert Environment**<br />**Info.dat Name:** `GlassDesertEnvironment`<br />**Default Colors:**  Yellow & Pink notes, Blue & Light Blue lights<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: <br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark:<br />**Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels. Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top. <br /><br />**Video Preview:** [Streamable](https://streamable.com/cnie5j), [YouTube](https://youtu.be/Nh6kSjobYB0) |
 
 ### Setting Your Environment
 New default environments become available reasonably often which means that map editors don't always have the complete list available. If the environment you want to use is not an option in your favorite editor's settings you will have to edit your `Info.dat` file to add the environment name.
@@ -116,14 +119,14 @@ New default environments become available reasonably often which means that map 
 3. Scroll down to the `"_environmentName":` section.
 4. Paste in the name you copied in Step 1.
 
-> **NOTE:** You cannot use a custom platform in this field. This will be covered in [Advanced Lighting](./advanced-lighting.md#custom-environments). 
+> **NOTE:** You cannot use a custom platform in this field. This will be covered in [Advanced Lighting](./advanced-lighting.md#custom-environments).
 
 ## Map Color Overrides
 You can force your own map color scheme in-game as long as the user has the SongCore mod installed and has enabled the `Enable Custom Song Colors` option in the mod settings.
 
 Since Beat Saber version 1.4, users can set the Red/Green/Blue (RGB) colors of notes, lights, and walls for their game. However, they will be overridden with the colors defined in the `Info.dat` if the user has the `Enable Custom Song Colors` option enabled.
 
-:::tip 
+:::tip
 When choosing color overrides for the notes. It is **HIGHLY** recommended that you keep reddish/warm/aggressive colors on the left and blueish/cold/soft colors on the right to avoid confusing players.
 :::
 
@@ -132,19 +135,20 @@ See [Environment Default Colours](./lighting-defaults.md) for a list of default 
 [BeatMapper](./#beatmapper-app), [ChroMapper](./#chromapper-coming-soon), and [MMA2](./#mediocre-map-assistant-2) natively support color overrides. Check their respective guides for more information.
 
 ### Manually Adding Color Overrides
+
 1. Decide what RGB colors you want notes and/or lights and/or walls to be. Use a color scheme utility like [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF) to find complimentary colors.
-	* Your red, green, and blue values will need to be converted from the normal 0-255 scale to the 0-1 scale. Use a site like [EasyRGB](https://www.easyrgb.com/en/convert.php) to convert your values.
+ * Your red, green, and blue values will need to be converted from the normal 0-255 scale to the 0-1 scale. Use a site like [EasyRGB](https://www.easyrgb.com/en/convert.php) to convert your values.
 2. Open your `Info.dat` file in the text editor of your choice
 3. Scroll down to the `"_customData": {` section of the difficuty you want to color.
     * Using the global `"_customData": {` outside of the `"_difficultyBeatmapSets": [` array may not work as expected.
 4. Paste whichever code blocks below correspond to the colors you want to force within the `_customData` curly brackets (`{` and `}`) then replace the `"r":`, `"g":`, and `"b":` values with whatever you chose in Step 1.
-	* The `"r":` and `"g":` values **must** have commas after them.
+ * The `"r":` and `"g":` values **must** have commas after them.
 
 See lines 29-60 and 69-100 of this [Pastebin clip](https://pastebin.com/x9zEiHxR) for an example of these code blocks in action in a `.DAT` file.  
 
 ## Previewing Your Lights
 These tools will help PC Beat Saber users preview their lighting more accurately. Most editors do not show true-to-life lighting effects.
- 
+
 ### In-game with FPFC
 First Person Flying Controller (FPFC) is a launch parameter that can be used by either Steam or Oculus users. FPFC will open an instance of Beat Saber on your desktop and allow you to control it with your keyboard and mouse. You will need the SiraUtil mod in order to interact while a map is playing.
 
@@ -153,24 +157,26 @@ It allows you to use WASD to "fly" around in your map, open the pause menu by hi
 Install SiraUtil from ModAssistant and run Beat Saber to create a config json file. Edit the `SiraUtil.json` file in your `UserData` folder and change `"Enabled": false` to `"Enabled": true` under FPFCToggle and SongControl then follow the store platform specific steps below.  
 ![SiraUtil JSON Setting](~@images/mapping/sirautil-FPFC.png)
 
-**For Steam Users:**   
-Open the game properties and add `fpfc` to the Steam launch options.   
+**For Steam Users:**
+Open the game properties and add `fpfc` to the Steam launch options.
 ![Fpfc launch options](~@images/mapping/fpfc.png)
 
-**For Oculus Users:** 
-1. Right click on Beat Saber.exe and create a shortcut. 
+**For Oculus Users:**
+
+1. Right click on Beat Saber.exe and create a shortcut.
 2. Edit the Target to add "fpfc" to the end of it.
 For example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" fpfc`
 
 After installing the mods and adding the launch parameter you can then now move around and pause in a map. The toggle key to switch between headset and mouse/keyboard control is <kbd>G</kbd>.
 
 :::warning NOTE
-- If you go back into vr and the game doesn't load in the headset either: 
+
+- If you go back into vr and the game doesn't load in the headset either:
   - Press the <kbd>G</kbd> key until the headset displays the game  
-**==OR==** 
+**==OR==**
   - Quit the game, remove the launch option, and relaunch the game.
 
-- If the mod doesn't seem to be working, make sure the in-game Smooth Camera setting is disabled. 
+- If the mod doesn't seem to be working, make sure the in-game Smooth Camera setting is disabled.
 :::
 
 ### Online with BS Viewer

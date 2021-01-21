@@ -15,7 +15,7 @@ This page will help you understand the internal workings of a full Beat Saber ma
 ## Schemas
 A *schema* is essentially the set of rules to a specific kind of file. They have a list of rules that you *may* break, and rules that you *cannot* break.
 
-Beat Saber contains its own schema; it defines what the format for a Beat Saber level should be, and is what we are going to break down. 
+Beat Saber contains its own schema; it defines what the format for a Beat Saber level should be, and is what we are going to break down.
 
 ### BeatSaver Schema
 However, members of the community have gone together and made their own schema, which re-enforces rules set by Beat Saber's own schema, but also standardizes and sets *new* rules to follow.
@@ -130,7 +130,7 @@ This defines the internal ID for the environment that the map uses when playing 
 ### _songTimeOffset
 This is Beat Saber's method for tackling off-sync audio. This offsets the audio in game, based off the value of `_songTimeOffset` in milliseconds.
 
-:::warning 
+:::warning
  Hit sounds are also affected by the same offset. We recommend the mapper sync up their audio file *before* mapping, as described in the [Basic Audio Setup guide](./basic-audio.md), to circumvent any need for `_songTimeOffset` and related alternatives.
 :::
 
@@ -211,6 +211,7 @@ Difficulty Beatmaps are each "Difficulty" of a map. They contain information tha
 This is the internal difficulty, read by Beat Saber.
 
 Contrary to what you might think, this is *not* just a normal string, but rather an Enum. Here is a list of all valid difficulties:
+
 - `Easy`
 - `Normal`
 - `Hard`
@@ -241,10 +242,12 @@ When creating *new* difficulties, it is recommended that the name be a the Chara
 Note Jump Movement Speed (Shortened to "Note Jump Speed", or just "NJS") is the velocity of objects approaching the player, in meters per second. Info on recommended NJS values can be found on the [Intermediate Mapping Page](./intermediate-mapping.md#note-jump-speed-spawn-distance). This can be a floating point number for precise velocity.
 
 This is used, along with the defined BPM of the song, to calculate 2 very important values, called Jump Duration and Jump Distance.
+
 - Jump Duration is the amount of beats where objects can be active.
 - Jump Distance is the total amount of distance that objects need to travel within that Jump Duration.
 
 The Player rests in the exact middle of both of these values, so most mappers find it more convenient to have Half Jump Distance and Half Jump Duration.
+
 - Half Jump Distance is the distance from the Player that objects spawn. Some mappers refer to this as the "Spawn Point".
 - Half Jump Duration is the amount of beats that is needed to reach the Player. It is also the amount of beats, forward in time, where objects spawn.
 
@@ -465,6 +468,7 @@ One caveat to this is that the `_value` must *always* be an integer, and does no
 As of Beat Saber `1.10.0`, Official BPM Changes are broken, and produce unwanted effects when used in a level.
 
 If you absolutely want to work around this, you must create a new BPM Change event so that:
+
 1. This new event *must* have the same exact [`_time`](#time-2) as the BPM Change event you want to trigger correctly.
 2. This new event *must* have the same `_value` as the previous BPM Change, or the [`_beatsPerMinute`](#beatsperminute) defined in [`Info.dat`](#info-dat).
 3. This new event *must* occur before the BPM Change you want to trigger correctly, *even if they share the same [`_time`](#time-2) values.*

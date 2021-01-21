@@ -7,14 +7,16 @@ description: The list of keyboard shortcuts for modern community editors!
 There are usually multiple ways to accomplish the same action, however, keyboard shortcuts are the most efficient.
 
 ::: warning NOTE
-* These are the default keybinds which may change at any time. Some editors may also allow you to change the keybinds. 
 
-* You can find more info on Beatmapper's keybinds [here](https://beatmapper.app/docs/keyboard-shortcuts). There are some actions that are very specific to Beatmapper that may not be noted on this page. 
+* These are the default keybinds which may change at any time. Some editors may also allow you to change the keybinds.
+
+* You can find more info on Beatmapper's keybinds [here](https://beatmapper.app/docs/keyboard-shortcuts). There are some actions that are very specific to Beatmapper that may not be noted on this page.
 :::
 
 If this format doesn't work for you, this [google spreadsheet](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing), which this wiki page is based off of, is also available but is slightly out of date.
 
 ## General Keybinds
+
 ### Basic
 |                       |  Mediocre Map Assistant 2 |     Beat Mapper     |         ChroMapper        |
 |-----------------------|:-------------------------:|:-------------------:|:-------------------------:|
@@ -77,6 +79,7 @@ If this format doesn't work for you, this [google spreadsheet](https://docs.goog
 | Edit BPM block | Alt+Click over BPM block |             |            |
 
 ## Lighting Keybinds
+
 ### Basic
 |                       | Mediocre Map Assistant 2 |       Beat Mapper       |      ChroMapper     |
 |-----------------------|:------------------------:|:-----------------------:|:-------------------:|
@@ -115,7 +118,9 @@ See [General Keybinds: Basic](#basic) for changing edit precision and [Element S
 |    Remove color |                          |             | Shift+Left Click Palette |
 
 ## Advanced
+
 ### ChroMapper
+
 #### Strobe Generator
 An advanced tool that allows you to easily generate a strobe or Chroma gradient between two (or more) selected endpoints. It allows you to set what two event types you want to strobe, as well as the two event types you wish to strobe between. You can control the strobe interval, whether or not chroma gradients can form, and much more.  
 ![Strobe Generator Window](~@images/mapping/cm_strobeGenerator.png)
@@ -125,4 +130,4 @@ An advanced tool that allows you to view and edit a selected object as it will a
 ![Node Editor Window](~@images/mapping/cm_nodeEditor.png)
 
 ## Credits
-Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi), [Caeden117](./mapping-credits.md#caeden117), and [Bloodcloak](./mapping-credits.md#bloodcloak). Idea by [Helen Carnate](./mapping-credits.md#helen-carnate). 
+Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi), [Caeden117](./mapping-credits.md#caeden117), and [Bloodcloak](./mapping-credits.md#bloodcloak). Idea by [Helen Carnate](./mapping-credits.md#helen-carnate).

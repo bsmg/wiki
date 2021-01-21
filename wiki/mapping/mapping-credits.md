@@ -12,7 +12,7 @@ Over *thirty* different mapping guides and tutorials have been combined into thi
 Contributed the environment screenshots from game version 1.6 to [Basic Lighting](./basic-lighting.md) and is the maintainer of Chroma and Noodle Extensions!  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c854907) | [BeastSaber](https://bsaber.com/members/aeroluna/)
 
-## Awfulnaut 
+## Awfulnaut
 Wrote the *Beat Saber Custom Mapping Best Practices for Block Placement* guide which the majority of [Basic Mapping: Pattern Best Practices](./basic-mapping.md#pattern-best-practices) was based on.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84edac) | [BeastSaber](https://bsaber.com/members/awfulnaut/)
 
@@ -34,7 +34,7 @@ Modder, Moderator, Mapper, EditorMaster... Caeden does it all. As the primary de
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ee26) | [BeastSaber](https://bsaber.com/members/caeden117/) | [Donate](https://ko-fi.com/Caeden117)  
 
 ## Checkthepan
-Some nerd who spends more time writing about mapping than actually doing it. Adapted the theory of parity and wrote a guide on how it applies in Beat Saber mapping as well as contributing to 360&deg;/90&deg; best practices.   
+Some nerd who spends more time writing about mapping than actually doing it. Adapted the theory of parity and wrote a guide on how it applies in Beat Saber mapping as well as contributing to 360&deg;/90&deg; best practices.
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f3d5) | [BeastSaber](https://bsaber.com/members/checkthepan/)
 
 ## CyanSnow
@@ -79,7 +79,7 @@ Authored content in [Basic Audio Setup](./basic-audio.md) and [Advanced Audio Ed
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84fcbb) | [BeastSaber](https://bsaber.com/members/kolezan/)
 
 ## LittleAsi
-A lighting mentor and member of Funrankable, they authored a lot of content to the lighting resources with [Kolezan](#kolezan).   
+A lighting mentor and member of Funrankable, they authored a lot of content to the lighting resources with [Kolezan](#kolezan).
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c853c2d) | [BeastSaber](https://bsaber.com/members/littleasi/) | [Funrankable](https://beatsaver.com/uploader/5cff0b7798cc5a672c8561ac)
 
 ## Megalon
@@ -119,7 +119,7 @@ Wrote the original "Quick Start Guide" on mapping on BeastSaber.
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ed71) | [BeastSaber](https://bsaber.com/members/silentcaay/)
 
 ## Skeelie
-Bringer of eye damage with his flashy light shows, he can help you make your map shine! Contributed to [Advanced Lighting](./advanced-lighting.md).   
+Bringer of eye damage with his flashy light shows, he can help you make your map shine! Contributed to [Advanced Lighting](./advanced-lighting.md).
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f) | [BeastSaber](https://bsaber.com/members/skeelie/) | [YouTube](https://www.youtube.com/user/xSkeelie) | [Twitch](https://www.twitch.tv/skeelie)
 
 ## Skyler Wallace
@@ -132,7 +132,7 @@ Creator of beatwalls, a command line tool to easily create awesome Mapping Exten
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c8561a5) | [BeastSaber](https://bsaber.com/members/spookyghost/) | [GitHub](https://github.com/spookyGh0st)
 
 ## Sykes
-Wrote guides on what "swing" beat is, how the "shuffle" parameter would make mapping easier, and down-mapping lower difficulties.   
+Wrote guides on what "swing" beat is, how the "shuffle" parameter would make mapping easier, and down-mapping lower difficulties.
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c854602) | [BeastSaber](https://bsaber.com/members/sykes19/)
 
 ## Uninstaller

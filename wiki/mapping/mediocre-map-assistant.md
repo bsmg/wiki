@@ -26,12 +26,14 @@ This guide currently supports both [Mediocre Map Assistant 2](https://git.bsmg.w
 :::
 
 ## Editor Setup
+
 ### Windows Installation
-1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest). 
+
+1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest).
 2. Unzip the file and place the extracted folder wherever you like on your hard drive.
 3. Double click `mediocremapassistant2.exe` in the extracted folder to run.
 
-::: warning 
+::: warning
 It is **VERY** important to unzip the file in step 2 and only run the exe in the new folder instead of the one inside the zip as not doing so will cause issues with map creation and editing!
 :::
 
@@ -39,9 +41,10 @@ It is **VERY** important to unzip the file in step 2 and only run the exe in the
 The first time you run MMA2 you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
 
 **If you have Beat Saber installed on the computer:**
+
 * Give MMA2 the path to the two appropriate folders
-   * Steam Example: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`
-   * Oculus Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
+  * Steam Example: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`
+  * Oculus Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
 
 **If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
 
@@ -51,6 +54,7 @@ The first time you run MMA2 you will need to direct it to the location of two fo
     * Example Path: `C:\Users\bsmg\Documents\Beat Saber\Beat Saber_Data\CustomWIPLevels`
 
 * Alternatively, you can make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them.
+
 <p align="center">
 ![Screenshot of Mediocre Mapper path entry](~@images/mapping/mma2-folder-path.jpg)
 </p>
@@ -58,7 +62,8 @@ The first time you run MMA2 you will need to direct it to the location of two fo
 All of your working map files will go into a song name folder within this CustomWIPLevels folder.
 
 ### Linux Installation
-1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest). 
+
+1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest).
 2. Unzip the file and place the extracted folder wherever you like on your hard drive.
 3. Open Steam. At the top of the window, go to `Steam > Settings > Steam Play`. In the `Advanced` section, check `Enable Steam Play for all other titles` if it isn't already. Restart Steam if you are prompted to do so.
 3. On the bottom left of Steam's main window, click `Add a Game`, then `Add a Non-Steam Games`. A window opens, click `Browse` at the bottom. Select `All Files` as the file type. Find where `MediocreMapAssistant2.exe` is, and add it.
@@ -70,14 +75,17 @@ All of your working map files will go into a song name folder within this Custom
 The first time you run MMA2 you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
 
 **If you have Beat Saber installed on the computer:**
+
 * Give MMA2 the path to the two appropriate folders, prefixed by `Z:`.
-  * Example: `/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels` should be entered as `Z:/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels`. 
+  * Example: `/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels` should be entered as `Z:/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels`.
 * To find where Beat Saber is installed, right-click Beat Saber in Steam, go to `Manage > Browse Local Files`.
 * The folders should be located under the `Beat Saber_Data` directory.
 
 **If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
+
 * Make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them. Note that the usual Linux paths need to be prefixed with `Z:`.
-   * Example: `/home/bsmg/MMA2/CustomLevels` and `/home/bsmg/MMA2/CustomWIPLevels` should be entered as `Z:/home/bsmg/MMA2/CustomLevels` and `Z:/home/bsmg/MMA2/CustomWIPLevels` 
+  * Example: `/home/bsmg/MMA2/CustomLevels` and `/home/bsmg/MMA2/CustomWIPLevels` should be entered as `Z:/home/bsmg/MMA2/CustomLevels` and `Z:/home/bsmg/MMA2/CustomWIPLevels`
+
 <p align="center">
 ![Screenshot of Mediocre Mapper path entry for Linux](~@images/mapping/mma2-linux-path.png)
 </p>
@@ -107,11 +115,11 @@ The map selection pane has four tabs, each with songs listed alphabetically.
 There are several functions available to you on this screen:
 
 * The <kbd>Refresh Song List</kbd> button refreshes the songs listed.
-* The <kbd>Edit</kbd> button next to a map opens it in MMA2. 
+* The <kbd>Edit</kbd> button next to a map opens it in MMA2.
 * The <kbd>Delete</kbd> button next to a map perma-deletes it. **Note:** Once deleted this way maps are gone forever and unrecoverable.
 * The <kbd>Star</kbd> button next to a map favorites it, bumping it to the top of the list.
 
-::: danger 
+::: danger
 Maps deleted by the delete button in MMA2 are not sent to the Recycle Bin and are **permanently removed.**  
 This includes the autosaves folder. Please be certain and/or keep backups of your work in a separate location.
 :::
@@ -123,9 +131,9 @@ Below the map selection pane you can create a new empty song folder in `CustomWI
 The settings pane includes global settings for autosaving, zip packaging, folder paths, and more.
 
 * **Autosave Settings:** Autosave is enabled by default at an interval of 300 seconds (5 minutes). This is generally fine for most users unless you are doing a light-heavy map. Autosave while playing the song in the editor is also enabled by default.
-* **Mapping & Lighting Settings:** 
-   - No lighting is off by default, meaning that any lighting events placed on the lighting track will play. Check to prevent lights from playing while mapping.
-   - You have the option to provide MMA2 with an alternate folder to save your packaged songs. By default the packaged song will be found in the same folder where the uncompressed map lives.
+* **Mapping & Lighting Settings:**
+  - No lighting is off by default, meaning that any lighting events placed on the lighting track will play. Check to prevent lights from playing while mapping.
+  - You have the option to provide MMA2 with an alternate folder to save your packaged songs. By default the packaged song will be found in the same folder where the uncompressed map lives.
 * **Beta Settings:** If you have the Mapping Extensions mod installed you will have additional checkboxes enabled for "extended" mapping features like precision placement, precision rotation, and six-lane. New mappers are encouraged to skip this until they're more comfortable with the basics.
 * **Legacy Settings:** If you have the Chroma mod installed you can check this box to enable the Chroma lighting toolbar but it has been unsupported for some time.
 * **Other Settings:** Click the <kbd>Clear Settings</kbd> button to revert to default settings. You may also enter new paths for either of your song folders. If for some reason nothing works you can click the <kbd>Everything Inexplicably Broken?</kbd> button to delete your config file.
@@ -135,10 +143,11 @@ Confirm both folder paths are complete on the Song Selection screen and add the 
 :::
 
 ## Song Setup
-Once you've finished one-time editor setup you're ready to create your first map. 
+Once you've finished one-time editor setup you're ready to create your first map.
 
 ### Song Creation
 You have two options to create your song folder:
+
 1. Enter your desired folder name in the 'Create New Level' pane and click <kbd>Create Level</kbd>. Your new folder will automatically appear in your map list.  
 ![Using "Create A New Level" to make a song folder](~@images/mapping/mma2-create-new-level.jpg)
 2. Navigate to your `CustomWIPLevels` folder and make a folder with your desired folder name. You will need to click <kbd>Refresh Song List</kbd> to see your folder.
@@ -200,6 +209,7 @@ You can set the environment color overrides for the selected difficulty using th
 * `envColorLeftBoost` and `envColorRightBoost`: Second pair of lighting colors
 
 #### Other Settings
+
 * **Contributors Tab:** This left side tab is an optional spot to give credit to mappers, lighters, playtesters or other contributors to your map. Enter the contributor role, their name, and the file name of a square "profile image" which you place in your song folder
 * **Extra Fields:** This right side tab allows you to include in-game viewable warnings (i.e, Seizure Alert), information, suggestions (i.e. Use Chroma), and requirements (i.e., Mapping Extensions)
 * **Autosaves:** This right side tab allows you to easily restore an autosaved version of your map if you've crashed or need to revert work
@@ -230,8 +240,10 @@ There are usually multiple ways to accomplish the same action, however, the keyb
 
 ## Error Checker
 The **Error Checker** functionality is one of the top quality of life features found in MMA2. Access the error checker by clicking <kbd>SHIFT+TAB</kbd> to check for vision blocks, double directionals, stacked notes, and view map stats.
+
 ### Finding & Interpreting Errors
 This section walks you through basic usage of the error checker's primary functions: **Check for Double Directionals, Check for Vision Blocks**, and **Check for Stacked Notes**
+
 #### Navigating the Error Checker
 Here is the main panel for the Error Checker:
 <p align="center">
@@ -243,7 +255,7 @@ Here is the main panel for the Error Checker:
 3. **Double-Directional Checker:** Highlights any instances of a block of the same color pointing in the same direction within the number of beats specified in *Maximum Time*.
 4. **Vision Block Checker:** Highlights any instances of blocks or walls obscuring or hiding a block within the number of beats specified in *Maximum Time*.
 5. **Stacked Block Checker:** Highlights any instances where multiple blocks are stacked on top of each other.
-6. **Clear Errors:** Clears highlighting from all error blocks. They’re still errors, just not marked. 
+6. **Clear Errors:** Clears highlighting from all error blocks. They’re still errors, just not marked.
 7. **Previous/Next:** Jumps you backwards or forwards through your map to each highlighted error.
 8. **Stat Panel:** A wondrous box of delicious statistical information that can help you ensure that your map is leveled appropriately and follows row placement best practices.
 9. **Lightmap Integration:** Not part of error checking, and not covered in this guide, but this is how you can add fast (but terrible) lights.
@@ -254,15 +266,15 @@ Once you click <kbd>Check for {error of your choice}</kbd> pay attention to the 
 ![122 errors found... don't do this. This is bad.](~@images/mapping/mma2-errors_found.png)
 </p>
 
-* Only one error can be highlighted at a time. 
-* Clicking one error button immediately after the other will wipe out the error highlights and replace them with the next type. 
-* Use the previous and next buttons to jump from error to error to resolve them. 
+* Only one error can be highlighted at a time.
+* Clicking one error button immediately after the other will wipe out the error highlights and replace them with the next type.
+* Use the previous and next buttons to jump from error to error to resolve them.
 
 **For Double-Directionals:** The highlighted block is the second instance of a same color-same direction, so look back in time to see the first block in the sequence. You can change either the first instance or the second instance to correct the error. Once you’ve made your change you can click “Check for Double Directionals” again to see if the issue is resolved. You can change the max time value to suit the speed of your song. 2.0 beats is a good baseline for new mappers but the faster the song the more beats you may need for a reasonable reset (if that is your intention).
 
 | Example | Explanation |
 |:---:|:--- |
-| ![Double directional example](~@images/mapping/dd_example.png) | In this example, max time is set to 0.75 beats.<br />There is a set of down notes 1/2 beat apart and then a set of diagonal notes 1/2 beat after that. The first set of blocks isn't flagged but the next two are because they are double directionals within 3/4 (0.75) of a beat after the first set.<br />You have two options:<br />* Change one of the blocks<br />* Force the player to “reset” (return their arms/hands to a neutral position) if there’s enough time. |
+| ![Double directional example](~@images/mapping/dd_example.png) | In this example, max time is set to 0.75 beats.<br />There is a set of down notes 1/2 beat apart and then a set of diagonal notes 1/2 beat after that. The first set of blocks isn't flagged but the next two are because they are double directionals within 3/4 (0.75) of a beat after the first set.<br />You have two options:<br />*Change one of the blocks<br />* Force the player to “reset” (return their arms/hands to a neutral position) if there’s enough time. |
 
 ::: tip
 Keep clicking the “Check for Double Directionals” button… sometimes fixing one error can create a new error out of your line of sight. Check early and often!
@@ -272,12 +284,13 @@ Keep clicking the “Check for Double Directionals” button… sometimes fixing
 
 | Example | Explanation |
 |:---:|:--- |
-| ![Vision block example](~@images/mapping/vb_example.png) | In this example, I have my max beats set to 2 beats<br />At beat 150 there are facenotes blocking everything behind them. At beats 151 and 151.5 there are highlighted red and blue blocks indicating that the previous blocks are a problem.<br />You have two options:<br />* Move/delete the top two blocks (removing the vision block)<br />* Move the back two blocks further out in time so the player has a chance to react to them |
+| ![Vision block example](~@images/mapping/vb_example.png) | In this example, I have my max beats set to 2 beats<br />At beat 150 there are facenotes blocking everything behind them. At beats 151 and 151.5 there are highlighted red and blue blocks indicating that the previous blocks are a problem.<br />You have two options:<br />*Move/delete the top two blocks (removing the vision block)<br />* Move the back two blocks further out in time so the player has a chance to react to them |
 
 ### Stats Panel
 When you’re ready, click the Stat Panel button to open an incredibly helpful information window. You can get information by hovering over each title.
 
 ::: tip
+
 * Use <kbd>CTRL</kbd>+scroll to select a section you want to check the stats for, hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd> and click the <kbd>Stats Panel</kbd> button to see values for that section only.
 * Hover over the **NPS** value to see the difficulty ranges for OST1 tracks. See this [updated list of OST tracks](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4/edit?usp=sharing) for the latest (and greatly increased) NPS ranges.
 :::
@@ -287,73 +300,99 @@ When you’re ready, click the Stat Panel button to open an incredibly helpful i
 | ![Stats panel screenshot](~@images/mapping/mma2-stats-panel.png) | **Notes:** The total number of notes in your map.<br />**Notes per Second:** The number of notes in your map divided by the number of seconds in your map. This number isn’t accurate until you’ve finished mapping, unless you've only selected a small section.<br />**Bombs, Walls, and Lighting:** The number of each event you have in your map.<br />**R/B Ratio:** If you have exactly the same number of red and blue blocks this will be 1.00. Greater than 1 you have more reds. Less than 1 you have more blues.<br />**Vision Block:** The percentage of your map’s blocks that are vision blocks at 0.75 beats. Use the vision block checker to highlight these blocks.<br />**Vision Block (A):** The percentage of your map’s blocks that are vision blocks at 1.25 beats. Useful for faster songs. Use the vision block checker with a max time of 1.25 to highlight these blocks.<br />**Top/Middle/Bottom Notes:** The percentage of your blocks that are placed in each row. |
 
 ## Troubleshooting
+
 #### **Create Level button does nothing even if a song name is entered**  
+
 * [Check both folder paths](#check-the-wip-file-path) are complete on the Song Selection screen and add the path(s) from [First Time Setup](#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on first use.
 * Make sure the Song Name field below the button is not blank/has text.
 * Make sure you are launching the editor from the extracted folder, not the zip (MMA2.zip) you downloaded.
+
 ___
+
 #### **My song is stuck loading in the editor forever or returns to the edit song screen after briefly loading**  
+
 * This error is usually caused by a missing, corrupted, or invalid audio file. Re-read [Basic Audio Setup](./basic-audio.md) to ensure you've exported everything correctly and make sure that your file is in the correct folder. Usage of convert to OGG websites is the common cause of this issue.  
 * The audio file is not in the correct location. Make sure it is in the folder that MMA2 created for your song!  
-   * The folder you should put the `.ogg` song file is located to the path you put during [First Time Setup](#first-time-setup) and should contain at least an `Info.dat` file.  
+  * The folder you should put the `.ogg` song file is located to the path you put during [First Time Setup](#first-time-setup) and should contain at least an `Info.dat` file.  
 * Make sure you are launching the editor from the extracted folder, not the zip (MMA2.zip) you downloaded.
+
 ___
+
 #### **I can't figure out how to place dot notes**  
+
 * Press `F`  
-   * You can review the keybindings by pressing <kbd>ESC</kbd> for the in-editor list or consult the cross-reference list of [Editor Keybinds](./editor-keybinds.md). 
+  * You can review the keybindings by pressing <kbd>ESC</kbd> for the in-editor list or consult the cross-reference list of [Editor Keybinds](./editor-keybinds.md).
+
 ___
+
 #### **Map doesn't load in game**
+
 * This error is caused by incorrect information in the `Info.dat`.
-   * A difficulty's `"_beatmapFilename"` in the `Info.dat` might be using a different file name than what is present in the folder.
-   * A deleted difficulty is still being referenced in your `Info.dat` file. 
-      * Check to make sure you do not have unintended difficulties in the `"_difficultyBeatmaps"` cluster of each present characteristc.  
+  * A difficulty's `"_beatmapFilename"` in the `Info.dat` might be using a different file name than what is present in the folder.
+  * A deleted difficulty is still being referenced in your `Info.dat` file.
+    * Check to make sure you do not have unintended difficulties in the `"_difficultyBeatmaps"` cluster of each present characteristc.  
+
 ___
+
 #### **One Saber maps don't load in game**  
 * Update to the latest MMA2 on the [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest) then open the map [song info settings](#song-info-settings) and press `Save song info`. 
 ___
+
 #### **No Arrows maps don't load in game**  
 * Update to the latest MMA2 on the [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest) then open the map [song info settings](#song-info-settings) and press `Save song info`. 
 ___
+
 #### **90/360 maps don't use the Glass Desert Environment**
+
 * Open the map's Info.dat in a text editor and add `"_allDirectionsEnvironmentName": "GlassDesertEnvironment",` after `"_environmentName": "DefaultEnvironment",` or similar if you set a different environment for other difficulties.
 
 :::tip
 If you are not comfortable editing the Info.dat, you can zip up your map and use [Schema Fixer](https://skystudioapps.com/mapping-tools/#schema-fixer) by **+1 Rabbit** to make the one time adjustment!
 :::
 ___
+
 #### **Your audio file name is wrong. Enter only the name NOT the path.**  
 ![Audio File Name Wrong](~@images/mapping/mma2-wrongPath.png)
+
 * You might have unintentionally named your audio file `song.ogg.ogg`. Turn on file extensions in file explorer to make sure it is named `song.ogg`. The option is located here:  
 ![Turn on File Extensions](~@images/mapping/turnOnFileExtend.png)
 
 * [Check both folder paths](#check-the-wip-file-path) are complete on the Song Selection screen and add the path(s) from [First Time Setup](#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on first use.
 * Your audio file name contains extra periods `.`  
-   * For example `Sick Beats feat. CMB (Nightcore Ver.).ogg` will cause this issue due to the `.` after "feat" and "Ver".
-      * To prevent this in the future, it is easier to name your audio files `song.ogg`.
-      * You can also rename the audio file removing the extra `.` for example, `Sick Beats feat CMB (Nightcore Ver).ogg`
+  * For example `Sick Beats feat. CMB (Nightcore Ver.).ogg` will cause this issue due to the `.` after "feat" and "Ver".
+    * To prevent this in the future, it is easier to name your audio files `song.ogg`.
+    * You can also rename the audio file removing the extra `.` for example, `Sick Beats feat CMB (Nightcore Ver).ogg`
 * Your audio file may be invalid. This is commonly caused by websites that promise to "convert to OGG" but do not do it properly. Review [Basic Audio Setup](./basic-audio.md) to ensure you've exported everything correctly and that your file is in the correct folder.  
+
 ___
+
 #### **When I open the editor, all I see is a grid and block and can't interact with it**  
 ![Broken Editor](~@images/mapping/mma2BrokenApp.png)  
+
 * Navigate to your `\AppData\Local` and delete the `MediocreMapAssistant2` folder. Then run `mediocremapassistant2.exe` and follow [First Time Setup](#first-time-setup) again.
-   * You can copy and paste this path into the file explorer address bar to quickly get to the folder: `C:\Users\%username%\AppData\Local\MediocreMapAssistant2`
+  * You can copy and paste this path into the file explorer address bar to quickly get to the folder: `C:\Users\%username%\AppData\Local\MediocreMapAssistant2`
+
 ___
+
 #### **When I open the editor, it crashes with a Error: The following component(s) are required to run this program: DirectX Runtime**  
 ![FatalError](~@images/mapping/mma2-no_directx.jpg)
+
 * If your error matches what is shown in the picture. Close out of the dialog and install this [DirectX driver](https://www.microsoft.com/download/details.aspx?id=35).
-   * If you get this error while installing the driver.  
+  * If you get this error while installing the driver.  
    ![directX Install Error](~@images/mapping/mma2-directXError.png)
-      1) Download and run the [.NET Framework Repair Tool](https://docs.microsoft.com/dotnet/framework/install/repair). 
-      2) Restart your computer and rerun the DirectX driver installer.
-___
-#### **When I open the editor, it crashes with a LowLevelFatalError: [Line XX] Failed to load module**  
-![FatalError](~@images/mapping/mma2-physXerror.png)
-* If your error matches what is shown in the picture. Close out of the dialog and install this [DirectX driver](https://www.microsoft.com/download/details.aspx?id=35).
-   * If you get this error while installing the driver.  
-   ![directX Install Error](~@images/mapping/mma2-directXError.png)
-      1) Download and run the [.NET Framework Repair Tool](https://docs.microsoft.com/dotnet/framework/install/repair). 
+      1) Download and run the [.NET Framework Repair Tool](https://docs.microsoft.com/dotnet/framework/install/repair).
       2) Restart your computer and rerun the DirectX driver installer.
 
+___
+
+#### **When I open the editor, it crashes with a LowLevelFatalError: [Line XX] Failed to load module**  
+![FatalError](~@images/mapping/mma2-physXerror.png)
+
+* If your error matches what is shown in the picture. Close out of the dialog and install this [DirectX driver](https://www.microsoft.com/download/details.aspx?id=35).
+  * If you get this error while installing the driver.  
+   ![directX Install Error](~@images/mapping/mma2-directXError.png)
+      1) Download and run the [.NET Framework Repair Tool](https://docs.microsoft.com/dotnet/framework/install/repair).
+      2) Restart your computer and rerun the DirectX driver installer.
 
 ## Credits
 Content in this section was authored by [Helen Carnate](./mapping-credits.md#helen-carnate), [Bloodcloak](./mapping-credits.md#bloodcloak), and [Gabmiral](./mapping-credits.md#gabmiral).
