@@ -24,6 +24,7 @@
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-mark": "^3.0.1",
     "markdown-it-task-lists": "^2.1.1",
+    "markdownlint-cli": "^0.26.0",
     "rimraf": "^3.0.2",
     "vuepress": "^1.8.0",
     "vuepress-plugin-container": "^2.1.5",
