@@ -7,7 +7,7 @@
   "MD022": { "lines_below": 0 },
   "MD024": false,
   "MD029": false,
-  "MD033": { "allowed_elements": ["YouTube", "kbd", "br"] },
+  "MD033": { "allowed_elements": ["YouTube", "kbd", "br", "details", "summary"] },
   "MD035": { "style": "---" },
   "MD048": { "style": "backtick" }
 }
