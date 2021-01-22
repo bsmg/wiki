@@ -43,7 +43,7 @@ is provide you the tools with this wiki and clarify any questions you have to su
   [Playtest](#playtesting) your own work early and often while mapping.
 5. Get lighting! Review [basic lighting information](#lighting-practices). Simple manual lighting is easier than you think!
 6. Get your map [playtested](#playtesting)! Third-party playtesting via the [BSMG Discord](https://discord.gg/beatsabermods)
-  is highly recommended to get constructive feedback and to get past your own “map blindness."
+  is highly recommended to get constructive feedback and to get past your own "map blindness."
 7. Once your song has been mapped, lighted, and playtested you’re ready to [release](#publishing-songs)
   your song to the world on BeatSaver.
 
@@ -248,7 +248,7 @@ time to be reviewed and approved.
 
 ### Modding & Ranking
 Maps that meet specific [Ranking Criteria](https://scoresaber.com/criteria) and go through an intensive review process called
-“modding” have the potential to become ranked, awarding players Performance Points (PP) toward global leaderboards. More
+"modding" have the potential to become ranked, awarding players Performance Points (PP) toward global leaderboards. More
 information and an in-depth FAQ is available on the [ScoreSaber Discord](https://discord.gg/WpuDMwU)
 
 * Prior to requesting ranking, mappers should thoroughly review the ranking criteria and
@@ -300,7 +300,7 @@ is not difficult and will always be better at expressing the atmosphere of the s
 
 ## Playtesting
 Testing your work is a **critical** part of mapping. Testing as you work helps you adjust for major playability issues and
-get a feel for your map. [Third-party or “outside”](#community-third-party-testing) playtesting is when someone other than
+get a feel for your map. [Third-party or "outside"](#community-third-party-testing) playtesting is when someone other than
 yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you
 may be "map blind."
 
@@ -459,7 +459,7 @@ Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be u
       characteristics you want to highlight.
     * *Putting a link to a playthrough video in the map description can help you get more downloads as it is easier
       to share your map to others and lets people know what to expect.
-4. Add your .zip file and click the <kbd>Upload</kbd> button.”
+4. Add your .zip file and click the <kbd>Upload</kbd> button."
 
 ::: tip NOTE
 Map files currently cannot be updated on BeatSaver.

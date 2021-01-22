@@ -45,7 +45,7 @@ let us know in #mapping-discussion!
 | **Cover Image** | The square image associated with the song loaded into the song browser. Must be a minimum of 256x256 pixels but not recommended to be more than 512x512 pixels. |
 | **Crouch Wall** | A *wall* blocking the upper portion of the playspace which forces the player to crouch to avoid.  <details><summary>**Example Image**</summary>![Picture of corner crouch](~@images/mapping/crouch.jpg)</details>|
 | **Croissant** | A stream pattern that has the player swing making a X. The name is due to its shape and being very comfortable, or "tasty". <details><summary>**Example Image**</summary>![Picture of Croissant](~@images/mapping/croissant-pattern.png)</details>|
-| **Crossover** | A *block* placed on its opposite-handed side. Example: A blue block placed in lanes one or two, or a red block placed in lanes three or four, primarily when the pattern forces the players’ arms to “cross over” to play. <details><summary>**Example Image**</summary>![Picture of crossover](~@images/mapping/crossover.png)</details>|
+| **Crossover** | A *block* placed on its opposite-handed side. Example: A blue block placed in lanes one or two, or a red block placed in lanes three or four, primarily when the pattern forces the players’ arms to "cross over" to play. <details><summary>**Example Image**</summary>![Picture of crossover](~@images/mapping/crossover.png)</details>|
 | **Crossover Scissor** | Otherwise known as a *Pickle*, is when a red and blue note are on the same timing, on the opposite-handed side, and are hit simultaneously in opposite directions. Related: [Scissor](#s) <details><summary>**Example Image**</summary>![Picture of crossover scissor](~@images/mapping/arm-tangle-alt.png)</details> |
 | **Cucumber** | Otherwise known as a *Scissor*, is when a red and blue note are on the same timing, and are hit simultaneously in opposite directions. Related: [Crossover Scissor](#c) <details><summary>**Example Image**</summary>![Picture of scissor](~@images/mapping/scissor-cucumber_example.png)</details>
 | **Cursor Precision** | The musical duration of the spacing between *notes*. Typically 1/1 (one note per beat), 1/2 (one note per half beat), or 1/4 (one note per quarter beat). Also known as *Precision* |
@@ -97,7 +97,7 @@ let us know in #mapping-discussion!
 ## H
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
-| **Half Jump Duration** | The distance down the track where the blocks and obstacles spawn. Measured in beats; therefore varies in “spatial” distance by BPM . Also known as Spawn Distance. See also Spawn Point, NJS, BPM, and Spawn Offset.  |
+| **Half Jump Duration** | The distance down the track where the blocks and obstacles spawn. Measured in beats; therefore varies in "spatial" distance by BPM . Also known as Spawn Distance. See also Spawn Point, NJS, BPM, and Spawn Offset.  |
 | **Hammer Hit** | A pattern composed of an arrow block pointing at a bomb,  forcing the player to swing their saber at the block but stop short to avoid the bomb and making it impossible to get full points. Highly discouraged pattern. <details><summary>**Example Image**</summary>![Picture of hammer hit](~@images/mapping/hammer-hit-alt.png)</details> |
 | **Handclap** | Any pattern that directs the players hands inward at each other on the same beat, often leading to the player smashing their hands together. Higher skilled players can sometimes avoid these but they’re still highly discouraged at all levels of mapping. Also known as Controller Clash, Controller Smash  <details><summary>**Example Image**</summary>![Picture of handclap](~@images/mapping/controller-smash-alt.png)</details> |
 | **Hitbox** | The region where the saber collides with an object. Note hitboxes are larger than they visually appear, bomb hitboxes are smaller than they appear, and wall hitboxes are exact |
@@ -154,7 +154,7 @@ let us know in #mapping-discussion!
 | **No Arrows Mode** | A map characteristic using only dot notes. Often used by new players or for alternate play styles like "maul mode." |
 | **Noodle Extensions** | A more advanced version of [Mapping Extensions](#m) that is only available on PC. |
 | **Note** | A cube with either an arrow or dot on it. The primary element of gameplay. By default, notes are red or blue. Also known as Block |
-| **Note Jump Speed** | The speed that objects approach the player in-game. Labeled in Info.dat as "noteJumpMovementSpeed”. Abbreviated NJS |
+| **Note Jump Speed** | The speed that objects approach the player in-game. Labeled in Info.dat as "noteJumpMovementSpeed". Abbreviated NJS |
 | **Notes Per Second** | A measure of map density. The number of notes that pass the player within one second. A very rough approximate measure of difficulty. Abbreviated NPS |
 
 ## O
@@ -192,7 +192,7 @@ let us know in #mapping-discussion!
 | - | :- |
 | **Ranked** | Indicating that the map has been Modded and approved by the Scoresaber ranking team as of a quality appropriate of contributing to the PP leaderboard. Maps should be modded prior to submitting a rank request. |
 | **Release** | The act of publishing a finished map on BeatSaver. Once a map is released it can be downloaded and played by anyone. Do not release unfinished or untested maps |
-| **Reset** | The action of bringing your arms back to their “ready” position, as if no blocks have been hit recently. Mappers can also attempt to reset the player by using bombs to force arm movement. See also Bomb Reset |
+| **Reset** | The action of bringing your arms back to their "ready" position, as if no blocks have been hit recently. Mappers can also attempt to reset the player by using bombs to force arm movement. See also Bomb Reset |
 | **RGB** | A style of lighting that requires Chroma and allows lighting events to be any color and often uses more than two colors. |
 | **Right Triangle** | Variation of a [Triangle](#t) where there is a 90 degree hit in the sequence causing major comfort issues at lower precision. <details><summary>**Example Image**</summary>![Picture of right traingle](~@images/mapping/right-triangle.jpg)</details>|
 | **Righty Stream** | A straight [Stream](#s) where each pair of successive notes going in the same direction starts with the right hand. Related: [Lefty Stream](#l) <details><summary>**Example Image**</summary>![Picture of righty stream](~@images/mapping/righty-stream.jpg)</details> |
@@ -208,7 +208,7 @@ let us know in #mapping-discussion!
 | **Single** | A single block hit with one saber. Typically makes up the majority of patterns in a map. See also Double |
 | **Single BPM** | A song with a consistent BPM from start to finish with no variation. Also known as Fixed BPM. See also Variable BPM |
 | **Sliders** | A series of same-colored dots or arrow blocks spaced close enough together for the player to sweep the saber through in one motion. Placed at 1/12 or higher precision. <details><summary>**Example Image**</summary>![Picture of sliders](~@images/mapping/sliders.png)</details>|
-| **Spawn Distance** | The distance down the track where the blocks and obstacles spawn. Measured in beats; therefore varies in “spatial” distance by BPM . See also Spawn Point, NJS, BPM, and Spawn Offset. Also known as Half Jump Duration. |
+| **Spawn Distance** | The distance down the track where the blocks and obstacles spawn. Measured in beats; therefore varies in "spatial" distance by BPM . See also Spawn Point, NJS, BPM, and Spawn Offset. Also known as Half Jump Duration. |
 | **Spawn Offset** | A variable denoted as `_noteJumpStartBeatOffset` in the map's Info File that modifies the spawn distance. Can be a floating value, typically between -1.0 and 1.0. Also known as Spawn Distance Modifier |
 | **Spawn Point** | The location on the track where blocks and obstacles first appear, accompanied by a flash of light. See also Spawn Distance |
 | **Spiral** | A slider whose path traces a rotation long enough to return to its original direction or further. See also Bomb Spiral <details><summary>**Example Image**</summary>![Picture of spiral](~@images/mapping/spiral.jpg)</details>|
@@ -226,7 +226,7 @@ let us know in #mapping-discussion!
 | **Thin Wall** | A wall that is only a tiny fraction of a beat thick that sometimes doesn't tick for any damage on the player. Created in Mediocre Map Assistant 2 by clicking to add a wall then immediately clicking to "drop" it, without scrolling for any time duration. See also [Wall](#wxyz), [Fake Wall](#f) <details><summary>**Example Image**</summary>![Picture of thin wall](~@images/mapping/thinwall.png)</details> |
 | **Tower** | Three same-colored, same-direction blocks placed in a line on the same beat. Results in the player swinging a larger, faster hit. Related: [Stack](#s) <details><summary>**Example Image**</summary>![Picture of tower](~@images/mapping/tower.jpg)</details>|
 | **Track** | The area in an editor where blocks are placed and the are in-game where blocks spawn and move toward the player. In most editors there is a track for notes/blocks and a separate track for lighting. See also [Lighting Track](#l) |
-| **Triangle** | Three or more notes forming a “triangle” pattern with position and orientation. Causes a Wrist Reset, especially if used in high precision (under 1/1). <details><summary>**Example Image**</summary>![Picture of triangle](~@images/mapping/triangle.png)</details>|
+| **Triangle** | Three or more notes forming a "triangle" pattern with position and orientation. Causes a Wrist Reset, especially if used in high precision (under 1/1). <details><summary>**Example Image**</summary>![Picture of triangle](~@images/mapping/triangle.png)</details>|
 
 ## UV
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |

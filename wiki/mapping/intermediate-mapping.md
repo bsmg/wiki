@@ -7,7 +7,7 @@ description: A more in-depth look at many mapping topics to take your maps to th
 # Intermediate Mapping
 _A more in-depth look at many mapping topics_
 
-Mapping is level design. Design is both an art and a science. There is no “best” answer, but there are many “wrong” answers.  
+Mapping is level design. Design is both an art and a science. There is no "best" answer, but there are many "wrong" answers.  
 The [Basic Mapping](./basic-mapping.md) page is useful for learning what not to do as a new mapper. Once you have a bit of experience it’s time to take your understanding of mapping principles to the next level. Ultimately, the best way to learn to map is to simply keep at it.  
   
 **Try. Adjust. Listen. Repeat.**
@@ -77,7 +77,7 @@ Offset is used to adjust a song’s spawn distance while keeping the NJS the sam
 ## Understanding Flow
 In [Basic Mapping](./basic-mapping.md#do-mapping-with-flow) we covered the bare essentials of parity. Now we’ll dig deeper and explore why some hits just feel bad.  
 
-Flow is arguably the most important concept in mapping - how each arm travels to move from one hit to the next. This can be as simple as alternating between “forehand” and “backhand” notes, or as complicated as thinking about how one arm interacts with the other at the edges of the playspace. Since the player must see blocks in order to react to them, flow highly depends on speed and difficulty. Slower songs are far more forgiving and flexible with regards to flow, while a fast song is highly limited.
+Flow is arguably the most important concept in mapping - how each arm travels to move from one hit to the next. This can be as simple as alternating between "forehand" and "backhand" notes, or as complicated as thinking about how one arm interacts with the other at the edges of the playspace. Since the player must see blocks in order to react to them, flow highly depends on speed and difficulty. Slower songs are far more forgiving and flexible with regards to flow, while a fast song is highly limited.
 
 :::tip TIP
 Still learning and not seeing some of the errors testplayers point out? Check out [GalaxyMaster's parity checker](https://galaxymaster2.github.io/bs-parity/) to spot any parity breaks!
@@ -153,7 +153,7 @@ Down movement is trickier as it is easier to do more harm than good.
 * If you are ending a crouch wall with notes just after, be extremely careful with what direction you start (up/down).
   * Starting down too quickly is uncomfortable and almost always unnecessary.
   * Starting up too late is also awkward.
-* It is easy to justify a crouch wall if the lyrics in a song say “down”, “under”, or any other reference to a downward motion.
+* It is easy to justify a crouch wall if the lyrics in a song say "down", "under", or any other reference to a downward motion.
 * Side notes are more natural to hit while under a crouch wall than up/down notes.
 * It is better to have a crouch wall end early than late as it plays better for any player in general. Especially those who have physical trouble crouching for too long.
   * If your crouch wall is longer than 1 beat, shorten it by 0.5.
@@ -209,7 +209,7 @@ Deviating from this can allow for unique motions and crossovers without tangling
 ## Reading vs. Reacting to Notes
 Fundamentally, the player needs to know how to swing in order to follow notes. As speeds increase, the time to read, process, and move accordingly decreases. This is tempered by following convention at higher speeds, such as following the alternating hand sequence as mentioned in the previous section.
 
-Triangles, switch-ups, unexpected doubles, bombs, walls, etc. can all throw off the expected “reaction” the player will have to incoming notes. This is the reason why offset is so important to consider as dancey, slower patterns need extra time to read and process what approaches while faster songs must keep the screen less cluttered to allow players to follow instinct.
+Triangles, switch-ups, unexpected doubles, bombs, walls, etc. can all throw off the expected "reaction" the player will have to incoming notes. This is the reason why offset is so important to consider as dancey, slower patterns need extra time to read and process what approaches while faster songs must keep the screen less cluttered to allow players to follow instinct.
 
 ## High Speed Mapping
 Playstyle slowly changes as the map reaches extreme speeds (around 200+ BPM). For slower songs, it is easier to perform large arm swings and contort the whole body to hit more unusual patterns. While at high speeds, there is very little time to process what approaches and the game becomes a combination of instinct, precision, and stamina. Patterns and placement gets more and more limited, and visibility becomes of the essence.

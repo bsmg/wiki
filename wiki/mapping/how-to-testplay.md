@@ -108,7 +108,7 @@ If you feel more comfortable going into it with a checklist, consider these:
 
 ## FAQ
 **I’m not a very good player, can I still test maps?**  
-Yes! In fact, feedback from lower skilled players can be invaluable. Mappers all too often can forget what it was like to be an easy/normal/hard, sometimes even expert, player. You don’t have to know anything about mapping to say, “This was too hard for me”, or, “I really loved it!”. It’s best to avoid maps from new mappers, to prevent common rookie errors from being overlooked, and then published, but your feedback is always appreciated.
+Yes! In fact, feedback from lower skilled players can be invaluable. Mappers all too often can forget what it was like to be an easy/normal/hard, sometimes even expert, player. You don’t have to know anything about mapping to say, "This was too hard for me", or, "I really loved it!". It’s best to avoid maps from new mappers, to prevent common rookie errors from being overlooked, and then published, but your feedback is always appreciated.
 ___
 **My computer isn’t very good. Can I still testplay?**  
 To some degree, yes, of course. Written feedback is still perfectly acceptable and preferable to none. However, if your PC struggles to record video and play Beat Saber and at the same time, you might find it difficult to do a lot of testplays super frequently, as written feedback with no video requires a lot more pausing during playing, and time at the end of the session to write up your thoughts. You can also consider playing around with your recording software and bring down the quality of the video recording to reduce the load on your computer.

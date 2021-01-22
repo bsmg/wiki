@@ -51,7 +51,7 @@ the saber to maximize the angle and get the best cut possible.
 
 ### Accuracy
 Accuracy is shown on the left after enabling the **Advanced HUD** option in the Player Settings. Accuracy is shown by a
-percentage and a letter. Because accuracy is a percentage, the best “possible” accuracy is **100%** or named a **SSS**.
+percentage and a letter. Because accuracy is a percentage, the best "possible" accuracy is **100%** or named a **SSS**.
 While such accuracy is practically impossible (since it would require no combo break and 115 cuts on every block), accuracy
 is still a great way to measure performance on a map and one’s ability to score properly and avoid missing notes.
 Accuracy is calculated using information such as the scores per hit, the score multiplier and the amount of miss.
@@ -78,7 +78,7 @@ players to learn what the difference is, especially if they ever decide to try r
 A ranked map is assigned a certain difficulty level measured in stars (★) and is worth a certain amount of PP
 (performance points) for that difficulty. An amount of that PP can be earned by a player for completing the map.
 More PP will be rewarded for a player that got a higher accuracy. Ranked maps *mostly* respect criteria and are
-considered as “good maps”. They are the only way to climb the [global leaderboard](https://scoresaber.com/global).
+considered as "good maps". They are the only way to climb the [global leaderboard](https://scoresaber.com/global).
 
 #### Unranked
 An unranked map is any map that has been published on [BeatSaver](https://beatsaver.com/). It does not need to be actually
@@ -95,7 +95,7 @@ criteria, and additional FAQs can be found in the [ScoreSaber Discord server](ht
 ## The Ranking System Explained (PP System)
 The PP system is probably one of the most misunderstood things when it comes to ranking in the game. Personally, I find
 it that people misunderstand it so often that I ended up writing a message about it and pinned it on the Beat Saber Canadian
-Discord so I wouldn’t need to explain it anymore, so here is “all” you need to know about it.
+Discord so I wouldn’t need to explain it anymore, so here is "all" you need to know about it.
 
 ### How can I earn PP and how does the global ranking work?
 You can find your global ranking on [ScoreSaber](https://scoresaber.com/global) by typing your username in the search bar.
@@ -241,7 +241,7 @@ This series help viewers understand how top Beat Saber plays are made and how th
 
 #### Have fun
 At the end of the day, this is a game. The important part is that you have fun and enjoy playing it. If you hate playing
-this “one ranked map that sucks but is worth so much PP”, then simply don’t play it. Don’t try to force yourself to play
+this "one ranked map that sucks but is worth so much PP", then simply don’t play it. Don’t try to force yourself to play
 songs you dislike and play however you want. It’s when you have fun that you’ll see the time fly by and you’ll improve
 the most. If you don’t care about rank, it’s all good, just have fun 🙂
 

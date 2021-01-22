@@ -168,7 +168,7 @@ on how to account for this.
 
 1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](~@images/mapping/selection.png)).
 2. Place the cursor at the start of the song track (Click on the song track and press your <kbd>Home</kbd> key).
-3. Click `Generate – > Silence…`  
+3. Click `Generate – > Silence...`  
 ![Generate Silence...](~@images/mapping/audacity-generate_silence.png)
 4. Input the sync `Music offset` value you got from Arrow Vortex (or similar tool) and then click OK.
 ![Adding silence with Audacity](~@images/mapping/av_audacity.png)
@@ -184,7 +184,7 @@ After generating the silence you can click the dark line in the song track to ge
 2. Add a new mono track
   ![Add new mono track](~@images/mapping/audacity-add_new-mono-track.png)
 3. Select the new track and tap the <kbd>Home</kbd> key.
-4. Click `Generate – > Silence…`  
+4. Click `Generate – > Silence...`  
   ![Generate Silence...](~@images/mapping/audacity-generate_silence.png)
 5. Enter the amount of negative offset found in Arrow Vortex (or similar tool) into the Duration field and click OK.
   ![Adding silence with Audacity](~@images/mapping/av_audacity-negative.png)  
@@ -220,7 +220,7 @@ you should remove the click track before [exporting your audio](#exporting).
 1. Open the song you want to map into Audacity.
 2. Add a new mono track from `Tracks menu > Add New > Mono Track`
 3. Place the cursor at the start of the new track (Click on the track and press your Home key)
-  and then click `Generate menu > Rhythm Track…`
+  and then click `Generate menu > Rhythm Track...`
 4. Input the nearest whole BPM you got earlier into the `Tempo (bpm)` field and enter the duration
   of the song in the optional `Rhythm track duration` field (the duration is displayed at the top
   right of the timeline).
@@ -265,7 +265,7 @@ to add silence:
 2. Select the empty space between the audio clip and the start of the track (Yellow vertical lines will indicate the
   start and end edges when you make a selection).  
   ![Adding silence with Audacity](~@images/mapping/add_silence.png)
-3. Click `Generate menu – > Silence…`  
+3. Click `Generate menu – > Silence...`  
   ![Generate Silence...](~@images/mapping/audacity-generate_silence.png)
 4. The right amount of silence should already be input automagically so just hit OK.
 5. Done. You can now skip to [exporting](#exporting) or go to [optional audio editing](#optional-audio-editing).
@@ -287,7 +287,7 @@ in Audacity. To have a good balance between note slice sounds and your song the 
 
 To check the RMS value in your song do the following:
 
-1. Open Contrast Analyzer in `Analyze menu -> Contrast…`
+1. Open Contrast Analyzer in `Analyze menu -> Contrast...`
 2. With the Contrast Analysis window still open, select a part of the chorus section (about 15-20 seconds) of your song
 3. Click any of the `Measure selection` buttons. (We only need to use one.)
 4. In the `Volume output` field you will now find a value. Compare this value to the recommended values above.
@@ -339,7 +339,7 @@ The compressor reduces many of the unnecessary peaks and makes the more importan
 reached the right RMS volume for the song. To achieve this we will remove more of the headroom using the Limiter effect:
 
 1. Select the whole song by double clicking the song track.
-2. Go to `Effects menu -> Limiter…`
+2. Go to `Effects menu -> Limiter...`
 3. As a starting point, copy the settings below:  
 ![Limiter in Audacity](~@images/mapping/limiter.png)
 4. Click OK to apply Limiter.
@@ -351,7 +351,7 @@ the [Advanced Audio Editing: Limiter](./advanced-audio.md#limiter) page.
 
 To know if you’ve reached the right volume after compressing and limiting check again with the RMS volume tool:
 
-1. Open Contrast Analyzer in `Analyze menu -> Contrast…`
+1. Open Contrast Analyzer in `Analyze menu -> Contrast...`
 2. With the Contrast Analysis window still open, select a part of the chorus section (about 15-20 seconds) of your song.
 3. Click any of the Measure selection buttons. (We only need to use one.)
 4. In the `Volume output` field you will now find a value. This value should be between -8.5db and -9.5db for optimal level.
@@ -369,7 +369,7 @@ players a much more pleasant experience switching between songs.
 Before you lower the volume you want to know approximately how much you need to lower the volume with.
 Do this by checking with the RMS volume tool:
 
-1. Open Contrast Analyzer in `Analyze menu -> Contrast…`
+1. Open Contrast Analyzer in `Analyze menu -> Contrast...`
 2. With the Contrast Analysis window still open, select a part of the chorus section (about 15-20 seconds) of your song.
 3. Click any of the Measure selection buttons. (We only need to use one.)
 4. In the Volume output field you will now find a value. Calculate the difference between your value and
@@ -379,7 +379,7 @@ Do this by checking with the RMS volume tool:
 Now let’s use the Amplify effect to lower the volume:
 
 1. Select the whole song by double clicking the song track.
-2. Go to `Effects menu -> Amplify…`
+2. Go to `Effects menu -> Amplify...`
 3. Enter the difference value you calculated earlier (it should be negative) into the `Amplification` field.
   `New Peak Amplification` field will repeat what the first input field says, this is normal for a song that
   is already peaking at 0db.
@@ -389,7 +389,7 @@ Now let’s use the Amplify effect to lower the volume:
 
 To know if you’ve reached the right volume check again with the RMS volume tool:
 
-1. Open Contrast Analyzer in `Analyze menu -> Contrast…`
+1. Open Contrast Analyzer in `Analyze menu -> Contrast...`
 2. With the Contrast Analysis window still open, select a part of the chorus section (about 15-20 seconds) of your song.
 3. Click any of the `Measure selection` buttons. (We only need to use one.)
 4. In the `Volume output` field you will now find a value. This value should be between -8.5db and -9.5db for optimal level.

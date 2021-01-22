@@ -17,10 +17,10 @@ _Now that you know the rules, it’s time to break them_
 
 * [Glossary of Terms](./glossary.md)
 
-This page covers anything and everything that goes beyond standard 4 x 3 grid mapping, including map styles that require additional mods before the player can play and characteristics outside of the “vanilla” ones covered in Intermediate Mapping.
+This page covers anything and everything that goes beyond standard 4 x 3 grid mapping, including map styles that require additional mods before the player can play and characteristics outside of the "vanilla" ones covered in Intermediate Mapping.
 
 ## Mapping Extensions
-Mapping Extensions is a mod by **Kyle1413** which unlocks many special features. Maps made with mapping extensions *require* the player to have the mod or the map will not work. Mapping Extensions maps are somewhat unstable and may break during updates… proceed with caution.
+Mapping Extensions is a mod by **Kyle1413** which unlocks many special features. Maps made with mapping extensions *require* the player to have the mod or the map will not work. Mapping Extensions maps are somewhat unstable and may break during updates... proceed with caution.
 
 ### Set-Up
 Every editor is unique in both their setup and support for Mapping Extensions (ME). Editors known to support ME along with instructions on how to setup are as follows:
@@ -52,7 +52,7 @@ Not sure where Beat Saber is installed? See [FAQ: Install Folder](/faq/install-f
 
 #### ME setup for MMA2 without Beat Saber Installed
 
-Here you will need to “trick” Mediocre Map Assistant 2 that your folder is a Beat Saber install.
+Here you will need to "trick" Mediocre Map Assistant 2 that your folder is a Beat Saber install.
 
 Option 1:
 
@@ -174,7 +174,7 @@ These characteristics (with the exception of 360°/90° mode) take you beyond of
 
 1. Create your new difficulty file in your favorite editor.
 2. When finished mapping, rename the difficulty file to include the characteristic name. (example: `EasyLightshow.dat`)
-3. Make the following changes to the `”_beatmapCharacteristicName”` and `”_beatmapFilename”` in your `Info.dat` file:
+3. Make the following changes to the `"_beatmapCharacteristicName"` and `"_beatmapFilename"` in your `Info.dat` file:
 
 ```
 "_difficultyBeatmapSets": [{
@@ -206,7 +206,7 @@ This characteristic requires the SongCore mod to function.
 * For Quest players, this characteristic will be removed at import. Vanilla characteristics will still be playable.
 :::
 
-The lawless characteristic is exactly what it sounds like… no rules, just right. Want to get crazy experimental and try some things that might be downvote magnets? Pop them into the Lawless characteristic to separate it from standard levels.
+The lawless characteristic is exactly what it sounds like... no rules, just right. Want to get crazy experimental and try some things that might be downvote magnets? Pop them into the Lawless characteristic to separate it from standard levels.
 
 * **Info.dat Name:** `Lawless`
 
@@ -228,7 +228,7 @@ It is recommended that you understand [basic](./basic-mapping.md) and [intermedi
 :::
 
 ### Rotation Events and Values
-Two new “official” event types were introduced in v1.6.0 as part of the lighting events schema:
+Two new "official" event types were introduced in v1.6.0 as part of the lighting events schema:
 
 * **Event Type 14 (Early Rotation):** Rotates spawn point at the same time as the notes/obstacle.
 * **Event Type 15 (Late Rotation):** Rotates spawn point while ignoring the notes/obstacles at the same time as the event.
@@ -272,7 +272,7 @@ The two far right icons in the **EVENTS** section are the early and late spawn r
 * **Con:** You have to map in 2D
 
 #### Mediocre Map Assistant 2
-This is the most preferred and easily accessible method of making 360/90 levels. Be sure to create a new characteristic, “360Degree” or “90Degree”. If it’s not available, you may need to create one by replacing existing characteristic or creating a new one
+This is the most preferred and easily accessible method of making 360/90 levels. Be sure to create a new characteristic, "360Degree" or "90Degree". If it’s not available, you may need to create one by replacing existing characteristic or creating a new one
 
 **Option 1:** Complete the map in the MediocreMapper then apply rotation events in the Official Level Editor.
 

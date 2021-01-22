@@ -151,7 +151,7 @@ Be sure to make a backup before using this as the new format does not function i
 
 ### How Chroma 1.0 Events Function
 Chroma events don’t do anything on its own. Chroma events function by acting as a light filter for future events essentially
-“dying” the normal lighting events to the specified color. In the following example, the orange and pink events don’t do
+"dying" the normal lighting events to the specified color. In the following example, the orange and pink events don’t do
 anything until the vanilla blue fade event happens. This functions as an orange fade and then a pink fade.
 
 ::: align center

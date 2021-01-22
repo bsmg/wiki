@@ -17,7 +17,7 @@ The available lighting types are consistent across each of the built-in game env
 
 * **Center Lights:** Generally lights along the side of the track, underneath the track, and sometimes a chevron at the back of the track. Sometimes called "Bottom/Back/Side" or "BBS" lights.
 * **Side/Top Lasers:** Sets of rotating lasers to the sides of the track or above/below the track, depending on which environment you’ve selected. Rotation is set using the Laser Speed function.
-* **Back Lasers:** Static lasers, often in an “X” pattern at the back of the track, behind the chevron.
+* **Back Lasers:** Static lasers, often in an "X" pattern at the back of the track, behind the chevron.
 * **Ring Lights:** Lights attached to the inside of the large outer rings that spin in almost all environments.
 * **Ring Spins:** Used to create movement in the rings. In environments with both an inner and an outer ring, rings spins rotate both rings together.
 * **Ring Zooms:** Used to zoom and unzoom the inner ring in environments that have it. Does not affect the outer ring.
@@ -29,8 +29,8 @@ Each lighting type can make use of four different lighting events.
 
 * **On:** Turns a light on that will stay on until you place a different event type.
 * **Off:** Turning a light off can have as much impact as turning it on, or more.
-* **Flash:** Briefly flashes brighter than a standard “on” event then stays on until you place a different event type.
-* **Fade:** Briefly flashes brighter than a standard “on” event then fades off after a couple of seconds.
+* **Flash:** Briefly flashes brighter than a standard "on" event then stays on until you place a different event type.
+* **Fade:** Briefly flashes brighter than a standard "on" event then fades off after a couple of seconds.
 
 ::: warning NOTE  
 It's impossible to control the duration of a fade out or use a fade in with standard lighting. Custom fade durations require Chroma, which will be discussed in Advanced Lighting (coming soon).
