@@ -39,7 +39,7 @@ Somone say text customization mods?
 **Roles:** Modder
 **Contributions:** Enhancements, AlphaTwitch, PlaylistCore
 
-[GitHub](https://github.com/AurosX) | [Twitch](https://www.twitch.tv/AurosXT) | [Donate](https://www.ko-fi.com/aurosnex)
+[GitHub](https://github.com/Auros) | [Twitch](https://www.twitch.tv/AurosXT) | [Donate](https://donate.auros.dev/)
 
 ## bigfoot
 Has large feet, maybe??
