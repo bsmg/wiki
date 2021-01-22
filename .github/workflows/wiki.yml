@@ -27,6 +27,8 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Lint Markdown Files
         run: yarn run lint:markdown
+      - name: Lint Image Sizes
+        run: yarn run lint:images
 
   build:
     needs: test
