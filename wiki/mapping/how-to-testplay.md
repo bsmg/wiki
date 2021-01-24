@@ -122,4 +122,4 @@ ___
 This can vary greatly depending on many different factors. A new mapper’s first map with a lot of issues can reach upwards of 10 minutes, while a more solid map can be as long as the map is itself. I would say that, on an average run, you can get 20 maps (just 1 difficulty) done in about 2 and a half hours. This is assuming that there is at least one point of discussion per map, and that you are recording videos with real time voice commentary, with no stopping to start/stop recording. Doing written feedback for 20 maps could be anywhere from 3-4 hours, depending on how frequently you write notes, and how much detail you go into. 
 
 ## Credits
-Content in this section was authored by [Pyrowarfare](./mapping-credits.md#pyrowarfare) and Vaser888
+Content in this section was authored by [Pyrowarfare](./mapping-credits.md#pyrowarfare) and [Vaser888](./mapping-credits.md#Vaser888).
