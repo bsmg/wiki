@@ -141,5 +141,4 @@ Ranking team member that authored a guide on modding maps for ranked.
 
 ## Vaser888
 A testplayer that just likes helping out the community.   
-[BeatSaver](https://beatsaver.com/uploader/5f63fb45103cbc00068ee060) |
-[BeastSaber](https://bsaber.com/members/vaser888/)
+[BeatSaver](https://beatsaver.com/uploader/5f63fb45103cbc00068ee060) | [BeastSaber](https://bsaber.com/members/vaser888/)

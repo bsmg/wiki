@@ -188,8 +188,7 @@ Inverts are notes that are placed in a location which forces the player to swing
 
 Be aware that inverts can be quite hard to read especially in rapid succession or at higher speeds.
 
-**Example placements**
-
+**Example placements**  
 ![invert example](~@images/mapping/invert-example-placements.png)
 
 ## Note Alignment for MMA2
