@@ -224,12 +224,12 @@ Example gradient linearly easing from red to blue over 2 beats:
 
 ```json
 "_customData": {
- "_lightGradient": {
-  "_duration": 2,
-  "_startColor": [1,0,0],
-  "_endColor": [0,0,1],
-  "_easing": "easeLinear"
- }
+  "_lightGradient": {
+    "_duration": 2,
+    "_startColor": [1,0,0],
+    "_endColor": [0,0,1],
+    "_easing": "easeLinear"
+  }
 }
 ```
 
