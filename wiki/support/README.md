@@ -196,8 +196,7 @@ To verify integrity of game files follow these steps:
 5. Select the "Verify Integrity Of Game Files" option.
 6. Let it finish verifying and downloading any missing files and you should be good to go.
 
-<YouTube url='https://www.youtube.com/watch?v=EBFfT4-ZiIc' />
-___  
+Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it is on the old steam UI the steps are still the same.
   
 ### Clean Installation
 1. (Optional) Back up your downloaded custom content by making a copy of the following folders:

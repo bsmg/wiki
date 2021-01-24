@@ -90,6 +90,10 @@ The steps listed below are the same as those used in Ryger’s [Arrow Vortex BPM
 2. Export your song to `.ogg` using [Audacity](https://www.audacityteam.org/)
 	* Using other formats (ie. `.mp3` or `.m4a`) adds a delay to the audio that varies every time and is not accounted for when you export your changes for use in editor.
 
+#### Troubleshooting Arrow Vortex
+##### The code execution cannot proceed because MSVCP120.dll was not found.
+* Install [vcredist_x86.exe](https://support.microsoft.com/en-us/help/4032938/update-for-visual-c-2013-redistributable-package) in your preferred language and try again.
+
 :::danger
 **This is a critical step!**  
 Not using a `.ogg` file or using the export feature in AV **will** desync your song by an inconsistent amount of time.

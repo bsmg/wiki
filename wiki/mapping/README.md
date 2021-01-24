@@ -44,7 +44,8 @@ Text guides aren't your thing? Checkout these video series!
 **Remember:** The text guides on this wiki are more up to date as it is easier and quicker to change.
 
 #### Recommended
-* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) - a comprehensive series on making your first map.
+* [Helen Carnate's Mapping Tutorial](https://www.youtube.com/watch?v=6O3sXmh-kAA) - A 17 minute guide to get started mapping!
+* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) - a comprehensive lecture series on making your first map.
 * [Cyrix's Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw) - covers the most common issues discussed in [Basic Mapping](./basic-mapping.md).
 * [TranquillizeMe's Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc) - covers various lighting techniques and general lighting tips.
 
@@ -81,7 +82,7 @@ Keyboard shortcuts for these editors are available inside their respective in-ed
 MMA2 is the most feature rich 3D editor and is used by the majority of the mapping community.
 
 * [Mediocre Map Assistant 2 Download](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest)
-* [Mediocre Map Assistant User Guide](./mediocre-map-assistant.md)
+* [Mediocre Map Assistant 2 User Guide](./mediocre-map-assistant.md)
 
 #### BeatMapper.app
 A 3D editor that runs in the browser, allowing anyone with a web browser to map. It works best for standard mapping without any extensions, but new features are being added.
@@ -158,6 +159,8 @@ Ever thought that it is a lot of annoying work to make big maps with other peopl
 Video guide on using the timing feature of osu!'s editor to find map bpm.
 * [Parity Checker](https://galaxymaster2.github.io/bs-parity/) by **GalaxyMaster**  
 An error checker tool that focuses on finding issues with parity in a map.
+* [Kival Evan's Beat Saber Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) by **Kival Evan**  
+An error checker tool that is much more versatile than the one built into MMA2
 
 #### Legacy Tools
 * [BPM Saber](https://github.com/zevdg/bpm-saber#readme) by **Zevdg**  
