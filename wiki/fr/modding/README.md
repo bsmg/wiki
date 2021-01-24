@@ -23,8 +23,8 @@ Des arguments de lancement utile qui vous aideront à faire des mods / déboguer
 
 ## Autres liens
 * [BeatMods](https://beatmods.com)
-* [BeatMods Approval Guidelines](https://docs.google.com/document/d/15RBVesZdS-U94AvesJ2DJqcnAtgh9E2PZOcbjrQle5Y/edit?usp=sharing)
-* [Unity Scripting API](https://docs.unity3d.com/ScriptReference/index.html)
+* [Lignes directrices pour l'approbation sur BeatMods](https://docs.google.com/document/d/15RBVesZdS-U94AvesJ2DJqcnAtgh9E2PZOcbjrQle5Y/edit?usp=sharing)
+* [API Unity Scripting](https://docs.unity3d.com/ScriptReference/index.html)
 * [dnSpy](https://github.com/0xd4d/dnSpy)
 * [Harmony](https://github.com/pardeike/Harmony)
 * [Beat Saber IPA](https://github.com/nike4613/BeatSaber-IPA-Reloaded)

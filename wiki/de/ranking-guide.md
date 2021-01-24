@@ -2,178 +2,178 @@
 sidebar: auto
 ---
 
-# Ranking & Scoring Guide
+# Anleitung für Ranglisten und Punktzahlen
 
-Written by TeknozFR
+Geschrieben von TeknozFR
 
-*Big thanks to Flee for correcting grammar mistakes and providing useful information.*
+*Vielen Dank an Flee für die Korrektur von Grammatikfehlern und die Bereitstellung nützlicher Informationen.*
 
-:::warning Disclaimer This guide was originally written on February 7th, 2019. It has been updated multiple times but some information may be inaccurate or missing. If you notice inaccurate/missing information in this guide, you can submit a pull request on the [BSMG Wiki GitHub](https://github.com/bsmg/wiki#-development) or send me a message on Discord (TeknozFR#6900). :::
+:::warning Disclaimer Diese Anleitung wurde ursprünglich am 7. Februar 2019 geschrieben. Es wurde mehrfach aktualisiert. Einige Informationen können aber ungenau sein oder fehlen. Wenn du fehlerhafte/ungenaue oder fehlende Informationen in dieser Anleitung findest, kannst du einen Pull-Request auf dem [BSMG Wiki GitHub](https://github.com/bsmg/wiki#readme) einreichen oder mir eine Nachricht auf Discord (TeknozFR#6900) schicken. :::
 
-## Accuracy and Scoring
+## Genauigkeit und Punktzahl
 
-### Score Multiplier
+### Punkte-Multiplikator
 
-Your score multiplier can be seen below, being surrounded by a outer ring. As said in the name, the multiplier has an effect on your score. You start the song with a multiplier of **1x** and the outer ring shows the progression to the next multiplier. When you hit the note that brings you up to the next multiplier, that note is affected by the new multiplier and not the old one. The different multipliers are : **1x, 2x, 4x and 8x**. Every time you lose combo which involves missing a note, cutting in the wrong direction or the with the wrong saber, hitting a bomb or going through an obstacle, your multiplier will be cut in half.
+Dein Punktemultiplikator ist unten zu sehen und wird von einem äußeren Ring umgeben. Wie der Name schon sagt, wirkt sich der Multiplikator auf deine Punktzahl aus. Du beginnst den Song mit einem Multiplikator von**1x** und der äußere Ring zeigt den Fortschritt zum nächsten Multiplikator. Wenn du die Note hittest, die dich zum nächsten Multiplikator bringt, wird diese Note durch den neuen Multiplikator beeinflusst und nicht durch den alten. Die verschiedenen Multiplikatoren sind: **1x, 2x, 4x und 8x**. Jedes Mal, wenn du die Kombo verlierst, bei der du eine Note verpasst, in die falsche Richtung oder mit dem falschen Saber triffst, eine Bombe triffst oder durch eine Wand gehst, wird dein Multiplikator halbiert.
 
-![Score Multiplier](~@images/ranking-guide/score_multiplier.png "Score Multiplier")
+![Punkte-Multiplikator](~@images/ranking-guide/score_multiplier.png "Punkte-Multiplikator")
 
-### Scoring
+### Punktesystem
 
-Scoring well in Beat Saber isn’t as simple as keeping a high combo and not missing notes, it is also determined by your score per block. The maximum score possible to achieve while slicing a block is **115** (without counting the score multiplier). While cutting a block, you must achieve the correct swing angles and you must slice it in the center to achieve the best score for that cut. Here is how score is calculated for a cut :
+Eine gute Punktzahl in Beat Saber hängt nicht nur davon ab dass du eine hohe Combo hältst und keine Noten verpasst, sondern auch von deiner Punktzahl pro Cut. Die maximal mögliche Punktzahl, die beim Schneiden eines Blocks erreicht werden kann, ist **115** (Ohne Berücksichtigung des Punktemultiplikators). Beim Schneiden eines Blocks musst du den richtigen Schwung-Winkel erreichen und den Block in der Mitte durchschneiden, um die beste Punktzahl für diesen Cut zu erzielen. Hier kannst du sehen, wie die Punktzahl für einen Schnitt berechnet wird:
 
-| Component          | Point Value |
-| ------------------ | ----------- |
-| 100° Approach      | 70 Points   |
-| 60° Follow Through | 30 Points   |
-| Cutting in Half    | 15 Points   |
+| Komponent          | Punktewert |
+| ------------------ | ---------- |
+| 100°-Ansatz        | 70 Punkte  |
+| 60° Durchverfolgen | 30 Punkte  |
+| Cut in der Hälfte  | 15 Punkte  |
 
 
-This shows how important it is to do proper swings to get the right angles and the best score possible. Remember, it’s better to get a bad cut than a miss since a miss counts as **0 points** and breaks your combo.
+Dies zeigt wie wichtig es ist, richtige Cuts zu machen, um den richtigen Winkel und die bestmöglichste Punktzahl zu erhalten. Denke daran, dass es besser ist einen schlechten Cut als einen Miss zu bekommen, da ein Fehlschlag als **0 Punkte** zählt und Deine Kombo unterbricht.
 
-### Hitboxes
+### Hitbox
 
-A common misconception in Beat Saber would be that most people think that the hitboxes for the notes are the blocks themselves. While that used to be the case, the hitboxes have changed quite a few times through the different versions of the game and a lot of the pictures out there are mistaken. Here is an image showing the current hitbox. As you can see, the hitbox is pretty big and extends a lot on the sides and the front. With this information, it is recommended to hit with the tip of saber to maximize the angle and get the best cut possible.
+Ein häufiges Missverständnis in Beat Saber wäre, dass die meisten Leute denken, dass die Hitboxen für die Noten die Blöcke selbst sind. Während das früher der Fall war, haben sich die Hitboxen durch die verschiedenen Versionen des Spiels einige Male geändert und viele der Bilder sind falsch. Hier ist ein Bild, das die aktuelle Hitbox zeigt. Wie du sehen kannst, ist die Hitbox ziemlich groß und erstreckt sich stark auf die Seiten und die Vorderseite. Mit diesen Informationen wird empfohlen, mit der Spitze vom Saber zu schlagen, um den Winkel zu maximieren und den bestmöglichen Cut zu erhalten.
 
-![Hitboxes](~@images/ranking-guide/hitbox.png "Hitboxes")
+![Hitboxen](~@images/ranking-guide/hitbox.png "Hitboxen")
 
-### Accuracy
+### Genauigkeit
 
-Accuracy is shown on the left after enabling the **Advanced HUD** option in the Player Settings. Accuracy is shown by a percentage and a letter. Because accuracy is a percentage, the best “possible” accuracy is **100%** or named a **SSS**. While such accuracy is practically impossible (since it would require no combo break and 115 cuts on every block), accuracy is still a great way to measure performance on a map and one’s ability to score properly and avoid missing notes. Accuracy is calculated using information such as the scores per hit, the score multiplier and the amount of miss. Here is the connection between the letters and accuracy percentage :
+Die Genauigkeit wird auf der linken Seite angezeigt, wenn die Option **Advanced HUD** in den Spielereinstellungen aktiviert wurde. Die Genauigkeit wird durch einen Prozentsatz und einen Buchstaben angezeigt. Da die Genauigkeit ein Prozentsatz ist, ist die beste "mögliche" Genauigkeit **100%** oder wird als **SSS** bezeichnet. Obwohl eine solche Genauigkeit praktisch unmöglich ist (Da es keinen Combo-Break und 115 Schnitte bei jedem Block erfordern würde), ist die Genauigkeit dennoch eine großartige Möglichkeit, die Leistung auf einer Map und die eigene Fähigkeit, richtig zu punkten und fehlende Noten zu vermeiden, zu messen. Genauigkeit wird anhand von Informationen wie der Punktzahl pro Treffer, dem Punktemultiplikator und der Anzahl der Verfehlungen berechnet. Hier ist der Zusammenhang zwischen den Buchstaben und der prozentualen Genauigkeit :
 
-| Letter Grade | Accuracy Percentage |
-| ------------ | ------------------- |
-| SS           | 90-99.99%           |
-| S            | 80-89.99%           |
-| A            | 65-79.99%           |
-| B            | 50-64.99%           |
-| C            | 35-49.99%           |
-| D            | 20-34.99%           |
-| E            | < 19.99%            |
+| Buchstabenbewertung | Genauigkeit Prozentsatz |
+| ------------------- | ----------------------- |
+| SS                  | 90-99.99%               |
+| S                   | 80-89.99%               |
+| A                   | 65-79.99%               |
+| B                   | 50-64.99%               |
+| C                   | 35-49.99%               |
+| D                   | 20-34.99%               |
+| E                   | < 19.99%                |
 
-## The Ranking Process
+## Der Ranking-Prozess
 
 ### Ranked / Unranked
 
-A lot of people (like I did) will spend dozens and dozens of hours without knowing the difference between ranked and unranked maps when they start. While a map being ranked doesn’t make it better for any reason, it’s great for new players to learn what the difference is, especially if they ever decide to try ranking up.
+Viele Leute (So wie Ich) werden Dutzende und Aberdutzende von Stunden damit verbringen ohne den Unterschied zwischen Ranked und Unranked Maps zu kennen, wenn sie anfangen. Obwohl eine Karte, die Ranked ist, nicht unbedingt besser ist, ist es für neue Spieler gut, den Unterschied zu erfahren. Vor allem, wenn sie sich jemals entscheiden, einen höheren Rang zu ergattern.
 
-**Ranked :** A ranked map is assigned a certain difficulty level measured in stars (★) and is worth a certain amount of PP (performance points) for that difficulty. An amount of that PP can be earned by a player for completing the map. More PP will be rewarded for a player that got a higher accuracy. Ranked maps *mostly* respect criteria and are considered as “good maps”. They are the only way to climb the [global leaderboard](https://scoresaber.com/global).
+**Ranked :** Einer Ranked-Map wird ein bestimmter Schwierigkeitsgrad zugewiesen, der in Sternen (★) gemessen wird und ist für diesen Schwierigkeitsgrad eine bestimmte Menge an PP (Leistungspunkten) wert. Ein Teil dieser PP kann von einem Spieler für das Abschließen der Map verdient werden. Desto höher deine Genauigkeit ist, deso mehr PP kannst du per Map bekommen. Gerankte Maps erfüllen *meistens* die Kriterien und werden als "gute Maps" angesehen. Sie sind die einzige Möglichkeit, die [Globale Rangliste](https://scoresaber.com/global) zu erklimmen.
 
-**Unranked :** An unranked map is any map that has been published on [BeatSaver](https://beatsaver.com/). It does not need to be actually possible to pass and maps can be made by anybody using the a mapping editor. Also, it is not possible to know the difficulty level of an unranked map except by looking at the difficulty name which is not always an accurate measure of the difficulty since the mapper chooses it.
+**Unranked :** Eine unranked Map ist jede andere Map, die auf [BeatSaver](https://beatsaver.com/) veröffentlicht wurde. Es muss nicht tatsächlich passierbar sein, und die Maps können von jedem mit einem Map-Editor erstellt werden. Außerdem ist es nicht möglich, den Schwierigkeitsgrad einer unranked Map zu kennen, außer durch einen Blick auf den Schwierigkeitsnamen, der nicht immer ein genaues Maß für die Schwierigkeit ist, da der Mapper ihn auswählt.
 
-### Criteria and the Ranking Process
+### Kriterien und Bewertungsprozess
 
-The ranking team ranks maps through a communal evaluation process. Those maps are then assigned PP based on an algorithm that determines the difficulty once they are ranked based on a variety of factors. PP, which stands for performance points, is given for completing ranked maps based on how high you scored in the level. Full details about the ranking process, criteria, and additional FAQs can be found in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
+Das Ranking-Team stuft die Maps durch ein gemeinsames Bewertungsverfahren ein. Diesen Maps wird dann PP zugewiesen, basierend auf einem Algorithmus, der die Schwierigkeit bestimmt, sobald sie auf der Grundlage einer Vielzahl von Faktoren eingestuft sind. PP, was für Performance-Points steht, wird für das Abschließen von Ranked-Maps vergeben, basierend darauf, wie hoch die Punktzahl im Level ist. Alle Details zum Ranking-Prozess, den Kriterien und weitere FAQs findest du auf dem [ScoreSaber Discord-Server](https://discord.com/invite/WpuDMwU).
 
-## The Ranking System Explained (PP System)
+## Das Ranking-System erklärt (PP-System)
 
-The PP system is probably one of the most misunderstood things when it comes to ranking in the game. Personally, I find it that people misunderstand it so often that I ended up writing a message about it and pinned it on the Beat Saber Canadian Discord so I wouldn’t need to explain it anymore, so here is “all” you need to know about it.
+Das PP System ist wahrscheinlich eines der am meisten missverstandenen Dinge, wenn es um Ranking im Spiel geht. Ich persönlich finde, dass die Leute es so oft missverstehen, dass ich am Ende eine Nachricht darüber geschrieben und in den Beat Saber Canadian Discord gepinnt habe, damit ich es nicht mehr erklären muss, also hier ist "alles", was du darüber wissen musst.
 
-### How can I earn PP and how does the global ranking work?
+### Wie bekomme ich mehr PP und wie funktioniert das globale Ranking?
 
-You can find your global ranking on [ScoreSaber](https://scoresaber.com/global) by typing your username in the search bar. Your ScoreSaber profile is tied to your Steam/Oculus profile on which you play the game.
+Deinen globalen Rang kannst du auf [ScoreSaber](https://scoresaber.com/global) finden, indem du deinen Username in die Suchleiste eingibst. Dein ScoreSaber Profil ist mit deinem Steam/Oculus-Profil verknüpft, auf dem du das Spiel spielst.
 
-As said earlier, you can earn PP (performance points) by playing ranked maps. The amount of PP a map is worth is determined when the map is ran through the PP algorithm. The algorithm is kept secret to prevent mappers from trying to intentionally make songs to only be worth a lot of PP (to avoid breaking the system basically). The exact amount of PP gained by a player is determined by their accuracy on that map and the curve it represents compared to the max amount of PP that map is worth. You can find more information in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
+Wie bereits erwähnt kannst du PP (Perfomance-Points) verdienen, indem du Ranked Maps spielst. Die Menge an PP die eine Map wert ist, wird ermittelt, wenn die Map den PP-Algorithmus durchläuft. Der Algorithmus wird geheim gehalten, um zu verhindern, dass Mapper absichtlich versuche, Songs so zu gestalten dass sie nur eine Menge PP wert sind (um das System grundsätzlich nicht zu brechen). Die genaue Menge an PP, die ein Spieler erhält, wird durch seine Genauigkeit auf der Map und der Curve, die sie darstellt, im Vergleich zur maximalen Menge an PP, die die Map wert ist bestimmt. Weitere Informationen kannst du auf dem [ScoreSaber Discord-Server](https://discord.com/invite/WpuDMwU) finden.
 
-### How does the PP system work and what is weighted PP?
+### Wie funktioniert das PP-System und was ist gewichtetes PP?
 
-To prevent skilled players from grinding hundreds of easier maps worth less PP to rank up, a curve is applied to your plays. This curve is **0.965^(x-1)** where **x** is the position of that score on your ranked map list which can be found on your profile.
+Um zu verhindern dass erfahrene Spieler Hunderte von einfacheren Karten mit weniger PP finishen um aufzusteigen, wird eine Curve auf ihre Plays angewendet. Diese Curve ist **0,965^(x-1)**, wobei **x** die Position dieser Punktzahl auf der Ranked Map ist, die du in deinem Profil finden kannst.
 
-You might have noticed that in your list, there are 2 numbers which end with PP. One of these numbers is **blue** and represents the raw amount of PP you get from that play, before the curve is applied. The second number is **(grey)** and shows the actual weighted amount of PP you are getting from that play after the curve is applied.
+Vielleicht ist dir aufgefallen, dass es in deiner Liste 2 Nummern gibt, die mit PP enden. Eine dieser Zahlen ist **Blau** und stellt die "rohe" Menge an PP dar, die du aus diesem Play erhalten hast, bevor die Curve angewendet wird. Die zweite Zahl ist **(Grau)** und zeigt die tatsächliche gewichtete Menge an PP, die du aus diesem Play erhalten hast, nachdem die Curve angewendet wurde.
 
-![Raw and Weighted PP](~@images/ranking-guide/raw&weighted_pp.png "Raw & Weighted PP")
+![PP an sich und gewichtete PP](~@images/ranking-guide/raw&weighted_pp.png "PP an sich & gewichtete PP")
 
-As said before, the amount of weighted PP you will receive is determined by the curve and the placement of that song in your list. As an example, if your top play is a **260 raw PP** play, you will be rewarded **260 weighted PP** which is a **100%** of the raw PP of that play. If your second top play is **247 raw PP**, you will be rewarded **238 weighted PP** which is the actual amount of PP you get after the curve is applied on it. Here is a list of 4 of my old top plays where *raw PP is in italic* while **weighted PP is bold** to demonstrate the curve :
+Wie bereits erwähnt, wird die Menge der gewichteten PP, die du erhälst, durch die Curve und die Platzierung des Songs in deiner Liste bestimmt. Wenn dein Top-Play zum Beispiel ein **260 Raw-PP**-Play ist, wirst du mit **260 gewichteten PP** belohnt, was **100%** der Raw PP dieses Plays entspricht. Wenn dein zweites Top-Play **247 Raw PP** ist, erhälst du **238 gewichtete PP**, was die tatsächliche Menge an PP ist, die du erhälst, nachdem die Curve darauf angewendet wurde. Hier ist ein Beispiel dafür, wie die Curve funktioniert:
 
-| Raw PP | Weighted PP                  |
-| ------ | ---------------------------- |
-| 260pp  | **260pp** (100% of raw PP)   |
-| 247pp  | **238pp** (96.5% of raw PP)  |
-| 246pp  | **229pp** (93.1% of raw PP)  |
-| 244pp  | **219pp**  (89.9% of raw PP) |
+| Raw PP | Gewichtete PP                 |
+| ------ | ----------------------------- |
+| 260pp  | **260pp** (100% der Raw PP)   |
+| 247pp  | **238pp** (96.5% der Raw PP)  |
+| 246pp  | **229pp** (93.1% der Raw PP)  |
+| 244pp  | **219pp**  (89.9% der Raw PP) |
 
-### Why is my total PP not increasing as much as the weighted PP I got on my new score?
+### Warum steigen meine PP nicht so stark an wie die gewichteten PP, den ich bei meinem neuen Ergebnis erhalten habe?
 
-A common question people seem to have when they get a new score worth, for example, **100 weighted PP** is why they are not getting **+100 pp** on their total amount of performance points. As explained earlier, since the effect of the curve on your plays increases the further you go down your list, when you make a new play, it takes the place of an older play which makes all the plays that are under go down 1 place in the list. Even if you are getting **+100 pp** from this new play, all your lower plays are weighed down even more then before so you lose a certain amount of PP on them. This is why when getting a new play or making a better play on a map, you will never (one exception) get the same amount of PP on your total amount of performance points.
+Eine häufige Frage, die Leute zu haben scheinen, wenn sie eine neue Punktzahl erhalten, die z.B. **100 gewichtete PP** wert ist, ist, warum sie nicht **+100 PP** auf ihre Gesamtmenge an PP erhalten. Wie bereits erklärt, nimmt die Auswirkung der Curve auf deine Plays zu, je weiter du in deiner Liste nach unten gehst. Wenn du eine neue Map spielst, nimmt er den Platz eines älteren Standes ein, wodurch alle Map, die darunter liegen, in der Liste um 1 Platz nach unten gehen. Selbst wenn du **+100 PP** aus dem neuen Play erhältst, werden alle niedrigeren Plays noch weniger gewertet als zuvor, so dass du eine gewisse Menge auf diesen Songs an PP verlieren wirst. Das ist der Grund, warum Du bei einem neuen Play oder einem besseren Play auf einer Map nie (eine Ausnahme) die gleiche Menge an PP auf die Gesamtmenge an Leistungspunkten erhältst.
 
-The only exception to this is if you get a better accuracy on your current top play. Since your top play is not affected by the curve, meaning that none of your songs will change places in your list, there will be no lost of PP on your other plays. An example would be if your top play is on Avalanche with **250 pp** and you manage to get a better accuracy and that play is now worth **260 pp**, you will then get **+10 pp** on your total amount of PP.
+Die einzige Ausnahme ist, wenn du eine bessere Genauigkeit für dein aktuelles Top-Play erhältst. Da dein Top-Play nicht von der Curve beeinflusst wird, d. h. wenn keiner deiner Songs den Platz in deiner Liste wechselt, gehen keine PP auf deine anderen Plays verloren. Ein Beispiel wäre, wenn dein Top-Play auf Avalanche mit **250 pp** ist und du es schaffst eine bessere Genauigkeit zu erhalten und dieser Play nun **260 pp** wert ist, erhältst du dann **+10 pp** auf deine Gesamtmenge an PP.
 
-### How can I improve and get more PP?
+### Wie kann ich mich verbessern und mehr PP bekommen?
 
-To improve and get a better rank in the global ranking, there are quite a few tools you can use to find ranked songs that fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like. The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced) browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep track of your performance.
+Um dich zu verbessern und einen besseren Rang im globalen Ranking zu erlangen, gibt es eine ganze Reihe von Tools, die du benutzen kannst, um Songs zu finden, die deinem Skilllevel entsprechen. Zuerst einmal ist es immer gut, auf dein [ScoreSaber](https://scoresaber.com/global)-Profil zu schauen, um immer zu wissen, welche Songs du seit langem nicht mehr gespielt hast, oder auf denen du dich verbessern könntest. Außerdem kannst du hier nach deinen insgesamt besten Punktzahlen schauen. Die [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced) Browsererweiterung kann die Funktionalität deines Profils erweitern. [BaliBilo's ScoreSaber-Seite](https://scoresaber.balibalo.xyz/peepee) und [Beat Savior](https://www.beatsavior.io/) sind externe Seiten, die dir helfen können, Songs zu finden, die dir beim Verbessern helfen können und dich deine Performance besser verfolgen lassen.
 
-For more precise tips and tricks, go refer to the [Useful Tips & Links](#useful-tips-links) chapter.
+Präzisere Tipps und Tricks findest du Im Kapitel [Useful Tips & Links](#useful-tips-links).
 
-## Modifiers
+## Modifier
 
-### Modifiers & Ranked songs
+### Modifier und Ranked Songs
 
-Since the **v12.0p1** update, a lot of modifiers got added and some already existing ones have a different effect. When it comes to ranked maps, all the **Negative Modifiers** apply on the score. This means **Negative Modifiers** can be used on any ranked map but they will obviously penalize your score and reward less PP. As for the **Positive Modifiers**, they only take effect on two ranked maps as of now ; [Overkill mapped by Nuketime](http://scoresaber.com/leaderboard/87194) and [Overkill mapped by Kry](http://scoresaber.com/leaderboard/86492). They are used to test the effects of **Positive Modifiers** on ranked maps and to find a way to integrate them on all the other ranked maps. You can obviously play any other map (including ranked ones) and the modifiers will all work but they will only increase your score and PP on the two versions of Overkill. The modifiers used on any score on the leaderboards can be seen to the right of the score. With this said, here is a list of all the modifiers in the game, their effects on score and how they affect gameplay :
+Seit dem **v12.0p1**-Update wurden viele Modifier hinzugefügt und manche bereits existierenden Modifier haben nun einen anderen Effekt auf das Spielerlebnis. Bei Ranked Maps beeinflussen alle **Negativen Modifier** deine Punktzahl. Das heißt, dass **Negative Modifier** auf jede Ranked Map angewendet werden können, aber durch sie deine Punktzahl auf jener Map beeinträchtigt wird. Was **Positive Modifier** angeht, beeinflussen sie nur deine Punktzahl auf diesen zwei Ranked Maps: [Overkill von Nuketime](http://scoresaber.com/leaderboard/87194) und [Overkill von Kry](http://scoresaber.com/leaderboard/86492). Diese zwei Maps werden genutzt um die Effekte von **Positiven Modifiern** auf Ranked Maps auszutesten und um einen Weg zu finden, sie in alle anderen Ranked Maps zu integrieren. Natürlich kannst du auch jede andere Map (Ranked Maps eingeschlossen) mit Modifiern spielen, allerdings werden sie nur auf den 2 Overkill-Versionen deine Punktzahl und PP erhöhen. Die benutzten Modifier von allen Punktzahlen für eine Map können rechts von der Punktzahl auf den Bestenlisten eingesehen werden. Nun, hier ist eine Liste von allen Modifiern im Spiel und wie sie deine Punktzahl und das Spielerlebnis beeinflussen:
 
 **No Fail (-0.50)**
 
-Removes the health bar which makes it impossible to fail. Contrary to older versions of the game, No Fail will now submit scores on the leaderboard unless used on the Practice Mode.
+Entfernt den Gesundheitsbalken, was das Scheitern an einer Map unmöglich macht. Im Gegensatz zu älteren Versionen des Spiels wird No Fail jetzt deine Punktzahl an die Rangliste einreichen, es sei denn, du benutzt den Modifier im Practice Mode.
 
-| Modifier                    | Description                                                                                                                                                    |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| No Obstacles (-0.05)        | Removes all of the obstacles (walls) from the map.                                                                                                             |
-| No Bombs (-0.10)            | Removes all of the bombs from the map.                                                                                                                         |
-| Slower Song (-0.30)         | Slows down the song to 85% of the original speed.                                                                                                              |
-| Insta Fail (0.00)           | Makes you fail on the first miss you make.                                                                                                                     |
-| Battery Energy (0.00)       | Stops the health bar from replenishing. This limits the total amount of misses and bad cuts you can have before failing.                                       |
-| Disappearing Arrows (+0.07) | Makes the arrows disappear from the note as they approach you. You still need to remember the direction as you need to cut in the correct direction as always. |
-| Faster Song (+0.08)         | Speeds up the song to 120% of the original speed.                                                                                                              |
-| Ghost Notes (+0.11)         | Notes are invisible and the arrows disappear shortly before you hit them, similarly to Disappearing Arrows.                                                    |
+| Modifier                    | Beschreibung                                                                                                                                                                                         |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| No Obstacles (-0.05)        | Entfernt alle Hindernisse (Wände) von der Map.                                                                                                                                                       |
+| No Bombs (-0.10)            | Entfernt alle Bomben von der Map.                                                                                                                                                                    |
+| Slower Song (-0.30)         | Verlangsamt die Map auf 85 % der ursprünglichen Geschwindigkeit.                                                                                                                                     |
+| Insta Fail (0.00)           | Bringt dich schon nach einem einzigen Fehler zum Scheitern.                                                                                                                                          |
+| Battery Energy (0.00)       | Stoppt den Gesundheitsbalken vor der Wiederauffüllung. Dadurch wird die Gesamtmenge an Misses und Bad Cuts begrenzt, die du dir vor dem Scheitern erlauben kannst.                                   |
+| Disappearing Arrows (+0.07) | Lässt die Pfeile auf den Blöcken verschwinden, während sie auf dich zukommen. Du musst dich also an die Richtung der Blöcke erinnern, da du wie sonst auch in die richtige Richtung schneiden musst. |
+| Faster Song (+0.08)         | Beschleunigt die Map auf 120% der ursprünglichen Geschwindigkeit.                                                                                                                                    |
+| Ghost Notes (+0.11)         | Die Noten sind unsichtbar und die Pfeile verschwinden - fast genauso wie bei Disappearing Arrows - kurz bevor du auf sie einschlagen musst.                                                          |
 
-## Grips
+## Griffe (= "Grips")
 
-### Why should I use a grip?
+### Warum sollte ich über meinen Grip nachdenken?
 
-An alternative grip can be an adjustment of the default saber angles, an alternative method of holding the controller, or a combination of both. There's no single grip that works for everyone, and using an alternative grip won't magically make you better at the game. It is not necessarily better than the default way the controller is meant to be held, or the default angles that Beat Saber uses. However, alternative grips can have many benefits, from being more comfortable for long periods of play to helping you optimize your swings. They can redistribute the weight of a poorly balanced Vive wand, or increase the range of wrist motion with a Touch controller. Below are some popular grips used in the competitive community. Don't be afraid to adjust or experiment to find what's right for you!
+Ein alternativer Grip kann eine Anpassung der Standartwinkel der Schwerter sein, eine alternative Methode zum Halten des Controllers, oder auch eine Kombination aus beidem. Bedenke, dass kein Grip für jeden funktioniert und dass dich ein alternativer Grip nicht wie von Zauberhand viel besser machen wird. Er muss nicht besser sein als die Standardeinstellung, wie der Controller gehalten werden soll, oder die Standardwinkel, die Beat Saber benutzt. Allerdings können alternative Grips viele Vorteile mit sich bringen, von der Bequemlichkeit über lange Spielzeiten bis hin zur Optimierung deiner Swings. Sie können das Gewicht von schlecht ausgeglichenen Vive Wands umverteilen oder den maximal erreichbaren Winkel deiner Handgelenke mit den Touch Controllern erhöhen. Unten sind einige beliebte Grips, die in der kompetitiven Community verwendet werden. Habe keine Angst davor, deinen Grip anzupassen oder zu experimentieren, um herauszufinden, was am Besten für dich passt!
 
 ### Grips
 
-Refer to the Grips section of [Grips And Tricks](./grips-and-tricks.md) for some examples of commonly used grips used in the community.
+Schaue dich gerne im Bereich [Grips And Tricks](./grips-and-tricks.md) um, falls du dir ein paar Beispiele für oft benutzte Grips anschauen willst.
 
-## Useful Tips & Links
+## Nützliche Tipps & Links
 
-### Tips & tricks
+### Tipps & Tricks
 
-After all this time playing Beat Saber, I’ve hit many walls. Hitting a wall can be really annoying since it can take time to figure out what to do to keep improving. Here is a small list of tips to improve as a player.
+Nach all dieser Zeit im Spiel gab es schon sehr viele Momente, in denen es schien als würde ich immer nur gegen eine Wand laufen. Ich war anscheinend einfach nicht mehr in der Lage, mich zu verbessern. Sowas kann sehr nervig sein, da es sehr lange dauern kann, bis man eine Möglichkeit auf Verbesserung gefunden hat. Hier ist eine kleine Liste mit Tipps, die Dir helfen können, dich als Spieler zu verbessern.
 
-**Challenge yourself.**
+**Fordere dich selbst heraus.**
 
-While it sounds obvious, many players never try to improve and play harder maps and simply play the same maps over and over again. Extend your song list and push yourself to learn the things you are the worst at.
+Obwohl es offensichtlich scheint, versuchen viele Spieler nicht, sich durch das Spielen von schwereren Maps zu verbessern und spielen einfach immer wieder die gleichen Maps. Erweitere deine Songliste und pushe dich, um die Sachen zu üben, in denen du zurzeit am schlechtesten bist.
 
-**Play more.**
+**Spiele mehr.**
 
-You don't get better at playing an instrument without a lot of experience. The same goes for Beat Saber - simply playing more will improve pattern recognition, condition your body, and build muscle memory.
+Du beherrschst ein Instrument nicht besser, wenn du nicht die nötige Erfahrung dazu hast. Das Gleiche gilt auch für Beat Saber - Wenn du mehr spielst, wirst du dich darin verbessern, Muster zu erkennen; du wirst deinen Körper konditionieren und ein besseres Muskelgedächtnis aufbauen.
 
-**Evaluate your own gameplay.**
+**Bewerte dein eigenes Gameplay.**
 
-Recording yourself is great to see where you could improve, whichever it’s only your gameplay or it is with a webcam. Analyzing yourself play can be really useful to see your common mistakes. You can also watch your own replays by clicking the arrow next to your score in the leaderboard.
+Wenn du dich aufnimmst, kannst du sehr gut sehen, wo du dich verbessern kannst - egal, ob du nur dein Gameplay oder auch dich selbst mit einer Kamera aufnimmst. Dein eigenes Gameplay zu analysieren kann sehr nützlich sein, um zu erkennen, welche Fehler du wie oft machst. Durch den Pfeil neben deiner Punktzahl in der Bestenliste kannst Du auch eine Wiederholung deines Gameplays ansehen.
 
-**Watch better players play and ask them tips**
+**Schaue besseren Spielern zu und frage sie nach Tipps**
 
-If you have an opportunity, try to watch better players and use some of their techniques to improve. Copying everything about a pro player won’t make you one but can surely help you improve. Watch their replays and compare their movements to your own. Also if you ever have the opportunity, always ask for tips (just don’t be annoying or disrespectful).
+Wenn Du die Gelegenheit hast, versuche, Dir bessere Spieler anzuschauen und wende einige von ihren Techniken auf dich selbst an, um dich zu verbessern. Einfach alles von einem der Profis zu kopieren wird Dich nicht zu einem besseren Spieler machen, aber es wird Dir mit Sicherheit helfen, dich zu verbessern. Schaue ihre Wiederholungen und vergleiche ihre Bewegungen mit deinen Eigenen. Und falls du jemals die Gelegenheit hast, frage sie immer nach Tipps, aber sei bitte nicht nervig oder respektlos.
 
-**Don’t overthink it**
+**Nicht überdenken**
 
-If you can’t finish a map or can’t achieve a higher score, don’t overthink it. I made the mistake of getting angry over this way too many times and it will create a mental wall. Simply play another song and come back to it another day.
+Falls Du eine Map nicht schaffst oder keine höhere Punktzahl erreichen kannst, überdenke es nicht. Ich habe viel zu oft den Fehler gemacht, deswegen wütend zu werden und meine Mentalität bremst mich aus. Spiele einfach einen anderen Song und komme einfach irgendwann in aller Frische zurück.
 
-**Practice hard patterns**
+**Übe schwere Muster**
 
-If you are struggling with a section of a map, slow it down with the Slower Song modifier or decrease the speed in practice mode.
+Wenn du mit einem Abschnitt einer Map zu kämpfen hast, verlangsame ihn mit dem Slower Song Modifier oder verringere die Geschwindigkeit im Practice Mode.
 
-**BSRA** Check out Cube Community's [Beat Saber Replay Analysis playlist](https://www.youtube.com/watch?v=rxf68rH4S20&list=PLwx5EB8PdMNdElyEBfO7VktSWSNZukfqP). This series help viewers understand how top Beat Saber plays are made and how they can improve.
+**BSRA** Schaue Dir Cube Community's [Beat Saber Replay Analysis playlist](https://www.youtube.com/watch?v=rxf68rH4S20&list=PLwx5EB8PdMNdElyEBfO7VktSWSNZukfqP) an. Diese Serie hilft Zuschauern, zu verstehen, woraus die Top-Spieler gemacht sind und wie sie sich verbessern können.
 
-**Have fun**
+**Hab Spaß!**
 
-At the end of the day, this is a game. The important part is that you have fun and enjoy playing it. If you hate playing this “one ranked map that sucks but is worth so much PP”, then simply don’t play it. Don’t try to force yourself to play songs you dislike and play however you want. It’s when you have fun that you’ll see the time fly by and you’ll improve the most. If you don’t care about rank, it’s all good, just have fun 🙂
+Letztlich ist Beat Saber nur ein Spiel. Das Wichtigste ist, dass du Spaß hast und das Spiel genießt. Es gibt doch bestimmt "diese eine Ranked Map, die dich zwar ankotzt und du sie eigentlich nicht spielen willst aber soooo viele PP wert ist", oder? Die Lösung zu diesem Problem ist eigentlich ganz einfach: Spiele die Map einfach nicht. Zwinge dich nicht dazu, Songs zu spielen, die du nicht magst und spiele einfach so, wie du willst. Wenn du Spaß am Spiel hast, vergeht die Zeit wie im Flug und Du verbesserst Dich am meisten. Es ist okay, sich nicht für seinen Rang zu interessieren, hab einfach Spaß am Spiel 🙂
 
 ### Links
 
-* [ScoreSaber](http://scoresaber.com/) : official website with the leaderboards for all the maps and the global ranking leaderboard
-* [ScoreSaber Discord](https://discordapp.com/invite/WpuDMwU) : official ScoreSaber Discord to get informed about maps getting ranked, criteria, etc
-* [BaliBilo's ScoreSaber Site](https://scoresaber.balibalo.xyz/peepee) : get play suggestions based on your scores to improve your global rank
-* [Beat Savior](https://www.beatsavior.io/): track your ranked stats and performance
+* [ScoreSaber](http://scoresaber.com/) : Offizielle Webseite mit allen Bestenlisten für alle Maps und den globalen Ranglisten
+* [ScoreSaber Discord](https://discordapp.com/invite/WpuDMwU) : Offizieller ScoreSaber Discord-Server mit allen Informationen darüber, welche Maps geranked werden, die Kriterien dafür, etc
+* [BaliBilo's ScoreSaber-Seite](https://scoresaber.balibalo.xyz/peepee) : Erhalte Spielvorschläge basierend auf deinen Punktzahlen, um deinen globalen Rang zu verbessern
+* [Beat Savior](https://www.beatsavior.io/): Verfolge deine Ranked-Statistiken und deine Performance

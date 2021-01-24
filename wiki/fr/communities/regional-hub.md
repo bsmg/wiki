@@ -36,19 +36,37 @@ Communauté pour les joueurs asiatiques et organisations VR. Nous avons un quota
 
 ---
 
-### Moyen-Orient
+### Israel
+**Beat Saber Israel**
+
+A server made to bring Isreali Beat Saber players together. International players welcome.
+
+[Discord](https://discord.gg/HHH7sK8)
+
+---
+
+### Korea
+**B.S. Community for KOR**
+
+A community of Korean players :) information sharing and problem solving between users
+
+[Discord](https://discord.gg/SEFBZrG)
+
+---
+
+### Middle East
 
 **Beat Saber Middle East**
 
-Un Discord privé pour les joueurs Beat Saber du ou au Moyen-Orient.
+A private Discord for the saber beaters from / in the Middle East
 
-[Formulaire d'inscription](http://bit.ly/BSME_Application)
+[Application form](http://bit.ly/BSME_Application)
 
 ---
 
 ## Europe
 
-### Autriche
+### Austria
 
 **Hit bloq Community Austria**
 
@@ -58,23 +76,23 @@ Un Discord privé pour les joueurs Beat Saber du ou au Moyen-Orient.
 
 ---
 
-### Belgique
+### Belgium
 
 **Belgian Beat Saber Community**
 
-Communauté Beat Saber belge officielle (privée) pour tout joueur de Beat Saber confrère belge.
+Official (private) Belgian Beat Saber Community for our fellow Belgian Beat Saber players
 
-[Formulaire d'inscription](https://forms.gle/26VXi4HmnZnDoPZN7)
+[Application Form](https://forms.gle/26VXi4HmnZnDoPZN7)
 
 ---
 
-### Danemark
+### Denmark
 
 **Dane Saber**
 
-Serveur Beat Saber officiel pour celles et ceux qui savent prononcer "rød grød med fløde" !
+Official Beat Saber server for people that can pronounce "rød grød med fløde"!
 
-[Formulaire d'inscription](https://forms.gle/AhgBFSK7RnRDDMHa9)
+[Application Form](https://forms.gle/AhgBFSK7RnRDDMHa9)
 
 ---
 
@@ -82,47 +100,58 @@ Serveur Beat Saber officiel pour celles et ceux qui savent prononcer "rød grød
 
 **Beat Saber FR**
 
-Une communauté Beat Saber francophone privée pour les joueurs francophones !
+A private French Beat Saber community for francophone players!
 
-[Inscription](https://docs.google.com/forms/d/1Ro79QYJ83gAsT6m_hpRgCNyhKNZDlEiZJ3oSh5mwTG4)
+[Application](https://docs.google.com/forms/d/1Ro79QYJ83gAsT6m_hpRgCNyhKNZDlEiZJ3oSh5mwTG4)
 
 ---
 
-### Allemagne
+### Germany
 
 **German Beat Saber Community**
 
-Discord Beat Saber allemand officiel, mais les personnes d'autres pays sont également bienvenues :)
+Official German Beat Saber Discord for German players, but people from other countries are also welcome :)
 
 [Discord](https://discord.gg/y4G6ruN)
 
 ---
 
-### Les Pays-Bas
+### The Netherlands
 
 **Dutch Beat Saber Group**
 
-Le Dutch Beat Saber Group, présentant des sessions multijoueurs, des soirées films, des soirées VRC et autres ! Comparez votre profil ScoreSaber avec les autres joueurs avec leur bot BeatSaber dédié.
+The Dutch Beat Saber Group, featuring multiplayer rooms, movie nights, VRC nights, and more! Compare your ScoreSaber profile with other players using their custom BeatSaber Bot.
 
 [Discord](https://discord.gg/sDa7xrE)
 
 ---
 
-### Suisse
+### Sweden
+
+**Beat Saber Sweden**
+
+We're the people who has fika with kanelbulle, and sometimes köttbullar...  
+The official Swedish discord, right here!
+
+[Discord](https://discord.gg/9HavEGBzZz)
+
+---
+
+### Switzerland
 
 **SwissSaber**
 
-Discord Beat Saber officiel pour les joueurs suisses, mais les personnes d'autres pays sont bienvenues.
+Official Beat Saber Discord for Swiss players, but people from other countries are also welcome.
 
 [Discord](https://discord.gg/eV6SUUF)
 
 ---
 
-### Royaume-Uni
+### UK
 
 **British Beat Saber Discord**
 
-Nous prenons le thé !
+We have tea!
 
 [Discord](https://discord.gg/FC2pzeN)
 
@@ -137,15 +166,6 @@ We are a small community based in the relatively small country of Norway. We wan
 
 ---
 
-### Korea
-**B.S. Community for KOR**
-
-A community of Korean players :) information sharing and problem solving between users
-
-[Discord](https://discord.gg/SEFBZrG)
-
----
-
 ### Ireland
 **Beat Saber Ireland**
 
@@ -155,17 +175,8 @@ Discord server for the Irish Beat Saber community, international players are wel
 
 ---
 
-### Israel
-**Beat Saber Israel**
+## Océanie
 
-A server made to bring Isreali Beat Saber players together. International players welcome.
-
-[Discord](https://discord.gg/HHH7sK8)
-
----
-
-## Oceania
-
-*Aucune pour le moment*
+*None yet*
 
 ---

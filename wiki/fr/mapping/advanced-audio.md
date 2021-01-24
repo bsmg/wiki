@@ -8,7 +8,7 @@ description: Dive deeper into audio editing.
 # Édition avancée de l'audio
 _Améliorer ses connaissances de l'édition d'un audio_
 
-* [Glossary of Terms](/mapping/glossary.md)
+* [Glossary of Terms](./glossary.md)
 
 On this page you will find additional guides and resources for better understanding audio or more advanced techniques of editing audio.
 
@@ -32,7 +32,7 @@ These two characteristics are what you can look for this when analysing your sou
 To use this tool simply open Spek.exe then drag and drop the audio file from file explorer into the Spek window. You can resize the window for more detail in the graph.
 
 ### Choosing Appropriate OGG Export Quality
-You should aim at preserving most of the source audio data while still having the smallest file size. Keep OGG file size under 14MB (for BeatSaver) or 7MB (for Discord without Nitro). To know what level is ideal for your song you can export your track with different qualities and [compare the spectrals](/mapping/advanced-audio.md#checking-audio-quality). However, as a general recommendation follow these settings:
+You should aim at preserving most of the source audio data while still having the smallest file size. Keep OGG file size under 14MB (for BeatSaver) or 7MB (for Discord without Nitro). To know what level is ideal for your song you can export your track with different qualities and [compare the spectrals](#checking-audio-quality). However, as a general recommendation follow these settings:
 
 * High quality source (WAVE, FLAC or MP3/AAC@+200kbps): choose an OGG quality level between 9 to 6.
 * Low quality source (MP3 / AAC / OGG): choose an OGG quality level between 5 to 3.
@@ -40,12 +40,12 @@ You should aim at preserving most of the source audio data while still having th
 You can’t increase audio quality by saving a lossy track with a higher bitrate (e.g. saving a YouTube-sourced track with level 10 quality), you will only bloat the file size. As explained in the previous chapter, information is lost when transcoding to any lossy format and thus can’t be restored. Transcoding one lossless format to another lossless format is fine though, e.g. FLAC to WAV(E).
 
 ## Explaining Audio Processing
-To work with audio and do processing of the soundwaves there are several tools available to help achieve what we want or need. Two of these tools used are *Compressor* and *Limiter* which we used for volume processing in [Volume Modification: Making Your Song Louder](/mapping/basic-audio.md#making-your-song-louder). Below these tools are explained in more detail:
+To work with audio and do processing of the soundwaves there are several tools available to help achieve what we want or need. Two of these tools used are *Compressor* and *Limiter* which we used for volume processing in [Volume Modification: Making Your Song Louder](./basic-audio.md#making-your-song-louder). Below these tools are explained in more detail:
 
 ### Compressor
 In essence, a Compressor reduces the dynamics above a certain threshold, ultimately making the audio signal less dynamic and lower in volume. When also boosting the signal after a compressor (Make Up Gain/Normalize) you can make the sound be perceived even louder.
 
-The Compressor effect shipped with Audacity is actually not the best tool for music mastering because it is made for more speech oriented audio. However, it is very simple to use which is why it is used in [Volume Modification: Compression](/mapping/basic-audio.md#compression) and basic settings are provided that work for most cases. However, if you're reading this you either noticed an unpleasant distortion in the sound (the sound cuts out a bit after loud peaks) or you're curious about the settings you can adjust in a compressor, so let's take a look at those settings using the more advanced [SC4 plug-in](https://ttmanual.audacityteam.org/o/man/sc4.html) for Audacity (you may need to install the [LADSPA bundle](http://www.audacityteam.org/download/plug-ins/#ladspa) to get access to this tool).
+The Compressor effect shipped with Audacity is actually not the best tool for music mastering because it is made for more speech oriented audio. However, it is very simple to use which is why it is used in [Volume Modification: Compression](./basic-audio.md#compression) and basic settings are provided that work for most cases. However, if you're reading this you either noticed an unpleasant distortion in the sound (the sound cuts out a bit after loud peaks) or you're curious about the settings you can adjust in a compressor, so let's take a look at those settings using the more advanced [SC4 plug-in](https://ttmanual.audacityteam.org/o/man/sc4.html) for Audacity (you may need to install the [LADSPA bundle](http://www.audacityteam.org/download/plug-ins/#ladspa) to get access to this tool).
 
 ![SC4](https://i.imgur.com/koad1gL.png)
 
@@ -107,7 +107,7 @@ There is also a video of this process [available here](https://www.youtube.com/w
 4. Align the tracks by using the Time Shift Tool (![Time Shift Tool](~@images/mapping/timeshift.png "Timeshift tool")) to move the second track to a place roughly in place so the similar sections are close to each other. Then zoom in and adjust again, then repeat till the waveform changes to dots when you zoom. Align the dots on the bottom track with the similar peaks and lows with the top track, if possible.
 
 ::: tip Utilize a Click Track to make sure the tracks are in time with each other.  
-See [Audio Preparation: Adding Click Track](/mapping/basic-audio.md#add-a-click-track). :::
+See [Audio Preparation: Adding Click Track](./basic-audio.md#add-a-click-track). :::
 
 ![Zoomed syncing](https://i.imgur.com/9jyrzzv.png "Zoomed syncing")
 
@@ -122,7 +122,7 @@ See [Audio Preparation: Adding Click Track](/mapping/basic-audio.md#add-a-click-
 
 9. Listen to the overlapping sections again. If all went well, you should now have a perfectly blended transition between the two tracks.
 10. Combine the tracks by selecting all (`Select menu -> All` or `Ctrl+A`) then going to `Tracks menu -> Mix` then `Mix and Render`.
-11. Done. You could now proceed with other [Audio Editing](/mapping/basic-audio.md#editing-with-audacity) or finish with [Exporting](/mapping/basic-audio.md#exporting).
+11. Done. You could now proceed with other [Audio Editing](./basic-audio.md#optional-audio-editing) or finish with [Exporting](./basic-audio.md#exporting).
 
 ## Variable BPM
 If the song you’re trying to map has a tempo that doesn’t sync up with a fixed BPM (as in, even with BPM values with decimals), such as (older) acoustic pop, rock or metal songs, they were most likely not recorded to a metronome and will thus not easily sync up to a fixed BPM in Audacity or the map editor. This takes a lot of time and patience, so make sure it's worth the extra effort as some solutions involve brute force by manually adjusting the BPM (tempo track) at intervals, sometimes every beat, to fit the song.
@@ -134,7 +134,7 @@ There are several methods to go about handling variable BPM:
 
 * Manually time the BPM changes in MMA2.
    * [Video tutorial by BennyDaBeast here](https://www.youtube.com/watch?v=6AwR4SeaiHU)  
-     **NOTE:** Benny uses an older editor, Mediocire Mapper, in this tutorial. Some UI elements may have changed in the latest editor, [MMA2](/mapping/#mediocre-map-assistant-2) but, the rest of the content is great!
+     **NOTE:** Benny uses an older editor, Mediocire Mapper, in this tutorial. Some UI elements may have changed in the latest editor, [MMA2](./#mediocre-map-assistant-2) but, the rest of the content is great!
 
 * Use DAW software and find all the tempo changes using a tempo track editor. Use Jumps instead of Ramps as that’s how MMA2 changes tempo. When you’ve found all the tempo changes input those into MMA2. (Remember, DAW softwares usually display measures and beats, but MMA2 only displays beats.)
 
@@ -149,7 +149,7 @@ Here we will be using its warp feature to subtly adjust the audio to a consisten
    * Set the initial BPM of the song, and set both Timebase dropdowns to `Time` instead of `Beats`. ![Reaper Project Settings Window](~@images/mapping/reaperProjectSettings.png) :::danger This is a critical step! **You can ruin your audio if you do not set the initial BPM and Timebase settings correctly!** :::
 
 4) Turn off Snap To Grid. It’s the green magnet icon in the top left corner. 5) Add your audio to the project. Insert > Media File, and find your song. 6) Drag the whole audio track accordingly to prevent a hot start or too-long of an intro.
-   * See [Basic Audio: Plan Your First Note](/mapping/basic-audio.html#plan-your-first-note) for more info.  
+   * See [Basic Audio: Plan Your First Note](./basic-audio.md#plan-your-first-note) for more info.  
      ![Align Audio Start in Reaper](~@images/mapping/reaperFirstBeat.png)
 
 #### Lining Up Beats
@@ -181,11 +181,11 @@ There can be many hidden "gochas" when warping a song. Here are some things you 
 #### Rendering/Exporting the Audio
 Once you are done editing your audio, you will want to render it as a `.ogg` file that Beat Saber can use.
 
-1) File > Render 2) Uncheck the Tail checkbox unless you want to add silence to the end of the song 3) Set up the destination path and file name (without the `.ogg` extension, as it gets added automatically) 4) Select OGG Vorbis as the Output Format 5) Configure the quality accordingly. Reaper uses a 0 to 1 scale instead of 0 to 10. However, principals outlined in [Basic Audio: Exporting](/mapping/basic-audio.html#exporting) still apply.
+1) File > Render 2) Uncheck the Tail checkbox unless you want to add silence to the end of the song 3) Set up the destination path and file name (without the `.ogg` extension, as it gets added automatically) 4) Select OGG Vorbis as the Output Format 5) Configure the quality accordingly. Reaper uses a 0 to 1 scale instead of 0 to 10. However, principals outlined in [Basic Audio: Exporting](./basic-audio.md#exporting) still apply.
    * High quality source (WAVE / FLAC / MP3 / AAC) use 0.6-0.9 (unless there is a file size issue.)
    * Low quality source (YouTube or such): use 0.3-0.5 6) Click the Render 1 file button. After some time, you’ll have an OGG file with nicely lined up beats!
 
 ![Audio Render/Export Settings](~@images/mapping/reaperRenderAudio.png)
 
 ## Credits
-Content in this section is derived from guides by [Nik](/mapping/mapping-credits.html#nik-n3tman), [LittleAsi](/mapping/mapping-credits.html#littleasi), and [Ris](/mapping/mapping-credits.html#ris) who adapted **Heisenberg_IRL**'s method of warping in Ableton. Additional edits by [Kolezan](/mapping/mapping-credits.html#kolezan).
+Content in this section is derived from guides by [Nik](./mapping-credits.html#nik-n3tman), [LittleAsi](./mapping-credits.html#littleasi), and [Ris](./mapping-credits.html#ris) who adapted **Heisenberg_IRL**'s method of warping in Ableton. Additional edits by [Kolezan](./mapping-credits.html#kolezan).

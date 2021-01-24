@@ -1,17 +1,21 @@
 # Custom Avatars
-## Installation
-The latest Custom Avatar plugin can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant). Once installed you should see a file called `CustomAvatar.dll` inside your `Plugins` folder. You should also see a folder called `CustomAvatars` in [your install folder](/faq/install-folder.md) — this is where you will be placing the `*.avatar` files you want to use.
 
-You can download more avatars on [ModelSaber](https://modelsaber.com/Avatars/).
+## Instalação
 
-## Usage
-Inside the game in the main menu you will see an `AVATARS` button at the top left of the Mods menu over by the release notes. Pressing it will open up the menu you can use to select which avatar you want to use. There's also additional settings you can change, such as avatar scaling and if the avatar is visible in first person.
+:::warning Custom Avatars é um mod exclusivo para PC. :::
 
-::: warning Some avatars were not made with first person view in mind, so they might block your vision if enabled. :::
+A ultima versão do plugin de Custom Avatar pode ser encontrado no [chat #pc-mods](https://discord.gg/beatsabermods) no Discord do BSMG ou no [ModAssistant](https://github.com/Assistant/ModAssistant). Uma vez instalado, você deve ver um arquivo chamado `CustomAvatar.dll` dentro da sua pasta `Plugins`. Você também deve ver uma pasta chamada `CustomAvatars` na [sua pasta de instalação](/faq/install-folder.md) — aqui você irá colocar os arquivos `*.avatar` que você deseja usar.
 
-::: warning Avatars are not selected by default. Make sure to go into the right menu and switch to an avatar if none appear at first. :::
+Você pode baixar mais avatares no [ModelSaber](https://modelsaber.com/Avatars/).
 
-## Creating Avatars
-[Assistant's Avatar Guide](/models/avatars-guide.html) is a good resource for learning how to make your own avatar.
+## Uso
+Dentro do jogo no menu principal, você verá um botão `AVATARS` no canto superior esquerdo do menu Mods perto do release notes. Pressioná-lo abrirá o menu que você pode usar para selecionar qual avatar você deseja usar. Também há configurações adicionais que você pode alterar, como dimensionamento de avatar e se o avatar estará visível na primeira pessoa.
 
-The guide includes a [short video narrated by Megalon](/models/avatars-guide.html#videos), however it is intended to be an overview and you should watch it in addition to reading the guide, not lieu of.
+::: warning NOTA
+* Avatares não estão selecionados por padrão. Certifique-se de ir ao menu à direita e mudar para um avatar se não aparecer primeiro.
+* Alguns avatares não foram feitos com a visão em primeira pessoa em mente, então eles podem bloquear sua visão se habilitado. :::
+
+## Criando Avatares
+O [Guia de Avatar do Assistente](./avatars-guide.md) é um bom recurso para aprender como criar seu próprio avatar.
+
+O guia inclui um [vídeo curto narrado pelo Megalon](./avatars-guide.md#videos), no entanto se destina a ser uma visão geral e você deve acompanhá-lo além de ler o guia.

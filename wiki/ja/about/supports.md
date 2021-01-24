@@ -6,6 +6,13 @@ The Support role is a symbol of thanks. Thanks for the thousands of messages and
 
 **Roles:** Support
 
+## ComputerElite
+He makes programs to support people faster and some others for them to make all easier. (likes to eat BMBF Logs)
+
+**Roles:** Support
+
+[Github](https://github.com/ComputerElite/)
+
 ## Emma
 You might know them for their spectacular platforms, or for more refined individuals: yeet sabers.
 
@@ -44,8 +51,13 @@ This guy came out of nowhere and started helping in support saying it was some k
 
 [Twitter](https://twitter.com/Radevirot) | [Donate](paypal.me/Radevirot)
 
+## rui2015
+Has no creativity and doesn't know what to put here. Is a cool person though.
+
+**Roles:** Support
+
 ## Sands
-He has no life and he's pretty dumb but he can help with your bmbf and thats all that matters right?
+He has no life and he's pretty dumb but he can help with your bmbf and that's all that matters right?
 
 **Roles:** Support
 
@@ -63,7 +75,7 @@ The bot that holds it all together. Created by Megalon, recreated by lolPants, a
 
 ---
 
-::: tip See Also **3D Artists:** [RedBrumbler](/about/3d-artists.md#redbrumbler)  
-**Modders:** [Kyle1413](/about/modders.md#kyle1413)  
-**Moderators:** [Razor](/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [Pink](/about/moderators.md#pink) | [Chara_](/about/moderators.md#chara)  
-**Staff:** [Assistant](/about/staff.md#assistant) | [Klouder](/about/staff.md#klouder) | [Megalon](/about/staff.md#megalon) | [Steven](/about/staff.md#steven-🎀) | [williums](/about/staff.md#williums) | [Melopod ƸӜƷ](/about/staff.md#melopod-ƹӝʒ) :::
+::: tip See Also **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
+**Modders:** [Kyle1413](./modders.md#kyle1413)  
+**Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink) | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)  
+**Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ) :::

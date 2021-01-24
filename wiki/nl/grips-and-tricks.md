@@ -1,82 +1,82 @@
 ---
-sidebar: auto
+sidebar: automatisch
 ---
 
-# Grips And Tricks
-_A compilation of resources to help you to hit bloq_
+# Grepen En Trucs
+_Een compilatie van bronnen om je te helpen met het raken van de blokken_
 
-## Ranking Up Mega-Tutorial
-An incredible writeup by TeknozFR to help you get that PP. [Ranking & Scoring Guide](./ranking-guide)
+## Rangen Klimmen Mega-Handleiding
+Een ongelooflijk schrijven van TeknozFR om je te helpen PP te krijgen. [Rang & Score Gids](./ranking-guide)
 
-## Scoring
-See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) about how the scoring system works.
+## Scores behalen
+Bekijk deze video van de [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) over hoe het score systeem werkt.
 
 <YouTube url='https://www.youtube.com/watch?v=rVbXCGddspA' />
 
-Additionally, here's an image from the devs about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
+Bovendien is hier een afbeelding van de ontwikkelaars over hoe de [hitboxen](https://twitter.com/Split82/status/979365834324889600) werken.
 
 ![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
 
-## Ranking
-*How does global ranking work? What are performance points? What are the numbers in my brackets? Why is my PP so small?*
+## Rangorde
+*Hoe werkt de globale rangschikking? Wat zijn prestatie punten? Wat zijn de getallen in mijn haakjes? Waarom is mijn PP zo klein?*
 
-You can find your global ranking and PP on [ScoreSaber](https://scoresaber.com/global) - here you can search for your name. Your scoresaber account is tied to your Steam / Oculus username.
+Je kunt je globale rang en PP vinden op [ScoreSaber](https://scoresaber.com/global) - hier kun je naar je naam zoeken. Je Scoresaber account is gekoppeld aan je Steam / Oculus gebruikersnaam.
 
-1. Ranked songs are assigned PP (PP = performance points). The exact amount of PP gained is determined by the accuracy you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by Umbranox, our Panda God.
-2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays. This curve is 0.965^(x-1) where x is the position of that score on your song list. e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play. If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get after the curve applies. Here is a list of my current top 4 plays where the raw PP is in italic and the weighted PP is in bold.
+1. Competitieve nummers krijgen PP toegewezen (PP = prestatie punten). De exacte hoeveelheid PP die je krijgt word bepaald door de nauwkeurigheid die je hebt wanneer je een competitief nummer uitspeelt. De hoeveelheid PP die een competitief nummer waard is, word bepaald door een geheim algoritme gemaakt door Umbranox, onze Panda God.
+2. Om te voorkomen dat ervaren spelers veel makkelijkere nummers spele die minder PP waard zijn, wordt er een curve toegepast op je behaalde PP. Deze curve is 0.965^(x-1), waarbij x de positie van die score op je songlijst is. bijv. als je beste score 260 PP is, dan verdien je hier dus 260 gewogen PP mee, wat dus 100% van die onbewerkte PP is die jij hebt verdiend. Als je 2e score 247 PP is, krijg je 238 gewogen PP wat dus de actuele hoeveelheid PP is nadat de curve doorberekend is. Hier is een lijst van mijn huidige top 4 scores waarbij de onbewerkte PP schuingedrukt staat, en de gewogen PP vetgedrukt staat.
 
-| Raw PP | Weighted PP                  |
-| ------ | ---------------------------- |
-| 260pp  | **260pp** (100% of raw PP)   |
-| 247pp  | **238pp** (96.5% of raw PP)  |
-| 246pp  | **229pp** (93.1% of raw PP)  |
-| 244pp  | **219pp**  (89.9% of raw PP) |
+| Onbewerkte PP | Gewogen PP                           |
+| ------------- | ------------------------------------ |
+| 260pp         | **260pp** (100% van onbewerkte PP)   |
+| 247pp         | **238pp** (96.5% van onbewerkte PP)  |
+| 246pp         | **229pp** (93.1% van onbewerkte PP)  |
+| 244pp         | **219pp**  (89.9% van onbewerkte PP) |
 
-3. To rank up, get scores on new songs that are worth more or a similar amount of PP to your top scores. When you don't have any new high PP songs to play, replay songs on your first pages to get better scores. Here is a [spreadsheet by DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) of all the ranked songs and how much PP they are worth. This list is updated every 24 hours.
+3. Om hogere rangen te krijgen, moet je scores krijgen op nieuwe nummers die meer of ongeveer hetzelfde waard zijn als je hoogste scores. Als je geen nieuwe, hoog gewaardeerde (in PP) nummers hebt om te spelen, speel dan de nummers op je eerste pagina's om beter scores te krijgen. Hier is een [spreadsheet door DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) van alle competitieve nummers en hoeveel PP ze waard zijn. Deze lijst word elke 24 uur bijgewerkt.
 
-Here is another site by [DuoVR](https://duovr.github.io/BigPP/) where you can input your scoresaber profile and it shows you songs that you should play for a lot of PP.
+Hier is een andere site door [DuoVR](https://duovr.github.io/BigPP/) waar je je scoresaber profiel kunt invoeren en het laat je nummers zien die je zou kunnen spelen om veel PP te verdienen.
 
-*This section is adapted from Tek's writeup in the Beat Saber Canadian discord.*
+*Dit gedeelte is gebaseerd op Tek's schrijven in de Canadese Beat Saber discord server.*
 
-::: tip Songs are ranked by the team in the [ScoreSaber Discord](https://discord.gg/WpuDMwU). You can follow along in this server to see what changes happen! :::
+::: tip Nummers worden geranked door het team in de [ScoreSaber Discord](https://discord.gg/WpuDMwU). In deze server kun je de laatste aanpassingen volgen! :::
 
-## Grips
-Cube Community made some videos showing off some of the more popular grips for Oculus Touch controllers (CV1) and Vive Wands.
+## Grepen
+Cube Community heeft een aantal videos gemaakt om een aantal van de populaire grips voor Oculus Touch controllers (CV1) en Vive Wands te laten zien.
 
 ### HTC Vive Wands
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
 
-![Vive Grips Guide](~@images/grips-and-tricks/vive-grips-guide.jpg)
+![Vive Grepen Gids](~@images/grips-and-tricks/vive-grips-guide.jpg)
 
 ### Oculus Rift
 <YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
 
-![Oculus Grips Guide](~@images/grips-and-tricks/oculus-grips-guide.jpg)
+![Oculus Grepen Gids](~@images/grips-and-tricks/oculus-grips-guide.jpg)
 
-### Oculus Rift S and Quest
-A video has not yet been made for Rift S and Quest controllers, but you can find some examples below! ![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/touch2-grips.jpg)
+### Oculus Rift S en Quest
+Er is nog geen video gemaakt voor de Rift S en Quest controllers, maar hieronder kun je een aantal voorbeelden vinden! ![Oculus Rift S/Quest Gids](~@images/grips-and-tricks/touch2-grips.jpg)
 
 ### Valve Index Controllers
-A video has not yet been made for Index controllers, but you can find some examples in their `#tips-and-grips` channel! [CC Discord](https://discord.gg/dwe8mbC)
+Er is nog geen video gemaakt voor de Index controllers, maar je kan een aantal voorbeelden vinden in het `#tips-and-grips` kanaal in hun discord: [CC Discord](https://discord.gg/dwe8mbC)
 
 ### Oculus Quest 2
-A video has not yet been made for the Quest 2's controllers, but you can find some examples below! ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
+Er is nog geen video gemaakt voor de Quest 2 controllers, maar hieronder kun je een aantal voorbelden vinden! ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
 
-Check out Cube Community's `#tips-and-grips` channel for more suggestions and examples in their [Discord](https://discord.gg/dwe8mbC). Please remember that everyone's playstyle and body is different; someone else's grip might not work exactly like you need it to. Don't be afraid to experiment and find what's right for you!
+Bekijk Het `#tips-and-grips` kanaal in de [Cube Community Discord ](https://discord.gg/dwe8mbC) voor meer suggesties en voorbeelden. Houd er rekening mee dat ieders speelstijl en lichaam anders is; iemand anders' greep werkt misschien niet precies zoals jij zou willen. Wees niet bang om te experimenteren om te vinden wat goed voor je is!
 
-## Improve Vive controller tracking
-Your body may be blocking one lighthouse from seeing one of your controllers. Here are some steps that may help improve tracking.
+## Vive controller tracking verbeteren
+Je lichaam blokkeert mogelijk je controller voor één van de lighthouses. Hier zijn een aantal stappen die kunnen helpen de tracking te verbeteren.
 
-1. Move into the corner of your playspace.
-2. Rotate your body 45 degrees so that your lighthouses can see both controllers.
-3. Rotate the room within Beat Saber's settings to compensate, so that you appear facing forward within the game.
+1. Ga naar de hoek van je speelruimte.
+2. Draai je lichaam 45 graden zodat je lighthouses beide controllers kunnen zien.
+3. Draai de kamer binnen Beat Saber's instellingen om te compenseren, zodat je naar voren gericht staat binnen het spel.
 
-![Vive Tracking Help](~@images/grips-and-tricks/vive-tracking-help.gif)
+![Vive Tracking Hulp](~@images/grips-and-tricks/vive-tracking-help.gif)
 
-This can apply to oculus sensors too.
+Dit kan ook gelden voor Oculus sensoren.
 
-## Touch Controller Battery Disconnect
-The force of your swings in Beat Saber can cause the spring in the touch controllers to compress and disconnect the battery for a brief moment. This is what happens when you see your saber lose positional tracking but still rotate in place. To alleviate this, ragesaq recommends adding extra springs inside the battery compartment to decrease the likelihood of battery disconnects happening, explained in this [Reddit post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
+## Touch Controller Batterij Verbinding Verbroken
+De kracht van het zwaaien in Beat Saber kan de springveer in je touch controllers laten indrukken en dus de batterij verbinding verbreken voor een kort moment. Dit is wat er gebeurt wanneer je zwaard zijn positionele tracking verliest, maar nog steeds draait op zijn plek. Om dit probleem op te lossen, beveelt ragesaq aan om extra springveren toe te voegen in het batterijvak om de kans dat de batterijverbinding verbroken word te verkleinen, dit word uitgelegd in deze [Reddit post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
 
-## Also Consider
-![Also Consider](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)
+## Overweeg ook
+![Overweeg ook](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)

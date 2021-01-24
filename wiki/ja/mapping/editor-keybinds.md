@@ -124,4 +124,4 @@ An advanced tool that allows you to view and edit a selected object as it will a
 ![Node Editor Window](~@images/mapping/cm_nodeEditor.png)
 
 ## Credits
-Content in this section was authored by [The Good Boi](/mapping/mapping-credits.html#the-good-boi), [Caeden117](/mapping/mapping-credits.html#caeden117), and [Bloodcloak](/mapping/mapping-credits.html#bloodcloak). Idea by [Helen Carnate](/mapping/mapping-credits.html#helen-carnate). 
+Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi), [Caeden117](./mapping-credits.md#caeden117), and [Bloodcloak](./mapping-credits.md#bloodcloak). Idea by [Helen Carnate](./mapping-credits.md#helen-carnate). 

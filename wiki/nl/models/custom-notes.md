@@ -1,17 +1,27 @@
 # Custom Notes
-## Installation
+## Installatie
+::tip OPMERKING Blokken moeten speciaal gemaakt worden voor Quest of PC en zijn niet verwisselbaar tussen beide. Je kan zien voor welk platform een blok bedoeld is aan de hand van het bestandstype. `.bloq` bestanden zijn voor PC terwijl de Quest `.zip` bestanden gebruikt. :::
 
-The latest Custom Notes plugin can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant).
+### PC Blokken
+De nieuwste Custom Notes plugin kan worden gevonden in het [#pc-mods kanaal](https://discord.gg/beatsabermods) in de BSMG discord of in [Mod Assistant](https://github.com/Assistant/ModAssistant).
 
-Once installed, you should see a `CustomNotes` folder in [your install folder](/faq/install-folder.md), with some sample notes installed for you. This folder is also where you will place `*.bloq` files.
+Eenmaal geïnstalleerd (en je het spel één keer hebt gestart), zie je een `CustomNotes` map in [jouw installatie map](/faq/install-folder.md), met enkele voorbeeld blokken voor je. In deze map moet je ook de `*.bloq` bestanden plaatsen.
 
-You can download more bloqs from [ModelSaber](https://modelsaber.com/Bloqs/).
+Je kan meer blokken downloaden via [ModelSaber](https://modelsaber.com/Bloqs/).
 
-## Usage
-Inside the game in the main menu you will see a `CUSTOM NOTES` button at the top left of the Mods menu over by the release notes. Pressing it will open up the menu you can use to select which notes you want to use.
+### Quest Blokken
+Custom blokken voor de Quest worden gegeven met de Qosmetics mod. De laatste versie is te vinden in het [#quest-mods kanaal](https://discord.gg/beatsabermods) in de BSMG discord. Blokken worden `qbloqs` genoemd en zijn momenteel te vinden in de [Qosmetics Community Discord](https://discord.gg/qosmetics).
 
-## Creating Custom Notes
+## Gebruik
 
-[Bobbie's Bloq Guide](/models/notes-guide.html) is a good resource for creating custom notes from an existing model.
+### PC Gebruikers
+Binnen het spel in het hoofdmenu zie je aan de linkerkant de `CUSTOM NOTES` knop in het `Mods` menu. Door erop te drukken open je het menu waarin je kan kiezen welke blokken je wilt gebruiken.
 
-Note that this guide does not cover 3D modeling the notes. For that, we recommend looking up some tutorials on [Blender](https://www.blender.org/)!
+### Quest gebruikers
+Upload het zip-bestand naar jouw Quest via het [BMBF Web Interface](/quest-modding.md#installing-mods). Je kan vervolgens selecteren welk blok actief is onder het tabblad mods in BMBF.
+
+## Het maken van custom blokken
+
+[Bobbie's Bloq Guide](./notes-guide.md) is een goede gids voor het maken van custom blokken vanuit een bestaand model.
+
+Merk op dat deze handleiding niet gaat over het 3D modelleren van de blokken. Hiervoor raden we aan om wat handleidingen voor [Blender](https://www.blender.org/) te bekijken!

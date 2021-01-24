@@ -2,13 +2,13 @@
 sidebar: auto
 prev: ./sabers-guide.md
 next: ./platforms-guide.md
-description: Assistant's Guide to adding Full Body Avatars to Beat Saber!
+description: Guia do Assistant para adicionar Full Body Avatars no Beat Saber!
 ---
 
-# Custom Avatars Guide
-_Assistant's Guide to adding Full Body Avatars to Beat Saber_
+# Guia dos Custom Avatars
+_Guia do Assistant para adicionar Full Body Avatars no Beat Saber_
 
-## Introduction
+## Introdução
 Alright boys and girls, your favorite Assistant is going to teach you how to take your favorite anime models and put them into 3D Osu!
 
 I will be assuming you have a basic grasp of blender and Unity and have made avatars for VRChat in the past. If not there's [plenty of tutorials out there](http://bfy.tw/IQ0F). This guide will start at the point when you're ready to export a fbx file to use on Unity. There is [a video](#videos) of me creating an avatar if you'd like something to follow along with. It is narrated by Megalon since a freak accident took away my ability to speak and edit videos. CC's coming soon™.
@@ -42,10 +42,10 @@ Then hit Stop Pose Mode.
 
 ![Stop pose mode](~@images/models/avatars/stoppose.png)
 
-## To Unity and Beyond
-Open the [Avatar Unity Project](https://bs.assistant.moe/Avatars/resources/UnityProject.zip).
+## Para Unity e Além
+Abra o [Avatar Unity Project](https://bs.assistant.moe/Avatars/resources/UnityProject.zip).
 
-::: danger IMPORTANT Use Unity version [2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe). And make sure to follow [these instructions](#unity-2018). :::
+::: danger IMPORTANTE Use a versão da Unity [2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe). E certifique-se de seguir [estas instruções](#unity-2018). :::
 
 Import the fbx file with your waifu, and create an empty game object with her name, but don't drag her in yet.
 
@@ -122,7 +122,7 @@ The last thing to do is export the avatar. Go to `Window` -> `Avatar Exporter`, 
 
 Now go weeb out to the Nico Nico Nii remix as your waifu or something. Assistant out.
 
-## Animations: It's Alive
+## Animações: Está Vivo
 For the purpose of this guide an animation will be considered any behavior that is not directly caused by the IK scripts or the movements of the HMD and controllers. The most basic form of animations involve what you're probably familiar with, `Animation` files, an `Animator Component`, its corresponding `Animation Controller`, and `Events`. First we need to place an `Animator` component, and we have to be very particular about how we do this. Just playing it on the avatar object will cause it to conflict with the IK scripts, so we have two options: We can set the animation layer in the `Animation Controller` to `Additive Blending`, which will allow us to place the `Animator Component` on the avatar object.
 
 ![Layers](~@images/models/avatars/layers.png)
@@ -204,14 +204,14 @@ You can toggle first person view by pressing `Home`. If they're invisible in you
 ### Only my avatars are T-Posed.
 Well I'm very sorry, but this means that you did something wrong while creating your avatar. There's no way to know just what you did wrong, because so many things have the same effect. The only advice we can give you is make sure that you followed the guides exactly, and maybe watch a video to follow along.
 
-## Videos
+## Vídeos
 Here is a video of me making an avatar, narrated by Megalon. [5:57]
 
 <YouTube url='https://www.youtube.com/watch?v=iBEfl_v71Nw' />
 
 ::: warning DISCLAIMER I know nothing about making avatars or using either Unity or Blender, I just threw shit at the wall blindly for 3 days and this is what stuck. But until someone who actually knows what they're doing makes a guide, this is all there is. :::
 
-## ♥ Special Thanks
+## ♥ Agradecimentos Especiais
 
 **ikeiwa**, for creating this fantastic plugin.
 

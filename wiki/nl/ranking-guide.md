@@ -2,54 +2,54 @@
 sidebar: auto
 ---
 
-# Ranking & Scoring Guide
+# Rang & Scoring Gids
 
-Written by TeknozFR
+Geschreven door TeknozFR
 
-*Big thanks to Flee for correcting grammar mistakes and providing useful information.*
+*Veel dank aan Flee voor het corrigeren van grammatica en het verstrekken van nuttige informatie.*
 
-:::warning Disclaimer This guide was originally written on February 7th, 2019. It has been updated multiple times but some information may be inaccurate or missing. If you notice inaccurate/missing information in this guide, you can submit a pull request on the [BSMG Wiki GitHub](https://github.com/bsmg/wiki#-development) or send me a message on Discord (TeknozFR#6900). :::
+:::warning Disclaimer Deze handleiding is oorspronkelijk geschreven op 7 februari 2019. Het is meerdere keren geüpdatet, maar sommige informatie is mogelijk onjuist of er ontbreekt wat. Als je opmerkt dat je inaccuraat/missende informatie in deze gids, kan je dat doorsturen met een pull aanvraag op de [BSMG Wiki GitHub](https://github.com/bsmg/wiki#readme) of stuur een bericht via Discord (TeknozFR#6900). :::
 
-## Accuracy and Scoring
+## Accuracy en Scoring
 
-### Score Multiplier
+### Score Vermenigvuldiger
 
-Your score multiplier can be seen below, being surrounded by a outer ring. As said in the name, the multiplier has an effect on your score. You start the song with a multiplier of **1x** and the outer ring shows the progression to the next multiplier. When you hit the note that brings you up to the next multiplier, that note is affected by the new multiplier and not the old one. The different multipliers are : **1x, 2x, 4x and 8x**. Every time you lose combo which involves missing a note, cutting in the wrong direction or the with the wrong saber, hitting a bomb or going through an obstacle, your multiplier will be cut in half.
+Je score vermenigvuldiger kan onder je worden gezien, die wordt omgeven door een ring. Zoals gezegd in de naam, heeft de vermenigvuldiger een effect op je score. Je start het nummer met een vermenigvuldiger van **1x** en de buitenring toont de voortgang naar de volgende vermenigvuldiger. Wanneer je het blok raakt die je tot de volgende vermenigvuldiger brengt, dan word dat blok beïnvloed door de nieuwe vermenigvuldiger en niet door de oude. De verschillende vermenigvuldigers zijn: **1x, 2x, 4x en 8x**. Elke keer dat je je combo te verliest, waarvoor je een blok moet missen, zoals in de verkeerde richting snijden of de met de verkeerde saber, een bom raakt of door een obstakel gaat, wordt je vermenigvuldigingsfactor gehalveerd.
 
-![Score Multiplier](~@images/ranking-guide/score_multiplier.png "Score Multiplier")
+![Score Vermenigvuldiger](~@images/ranking-guide/score_multiplier.png "Score Vermenigvuldiger")
 
-### Scoring
+### Scoren
 
-Scoring well in Beat Saber isn’t as simple as keeping a high combo and not missing notes, it is also determined by your score per block. The maximum score possible to achieve while slicing a block is **115** (without counting the score multiplier). While cutting a block, you must achieve the correct swing angles and you must slice it in the center to achieve the best score for that cut. Here is how score is calculated for a cut :
+Goed scoren in Beat Saber is niet zo eenvoudig als het behouden van een hoge combo en het niet missen van blokken, het wordt ook bepaald door je score per blok. De maximale score die je kunt bereiken terwijl je een blok snijdt is **115** (zonder de score vermenigvuldiger mee te tellen). Tijdens het snijden van een blok, je moet de juiste bewegings hoeken bereiken en je moet deze in het midden snijden om de beste score voor die besnijding te bereiken. Zo wordt de score berekend voor een doorhakking:
 
-| Component          | Point Value |
-| ------------------ | ----------- |
-| 100° Approach      | 70 Points   |
-| 60° Follow Through | 30 Points   |
-| Cutting in Half    | 15 Points   |
+| Onderdeel         | Punt Waarde |
+| ----------------- | ----------- |
+| 100° Benadering   | 70 punten   |
+| 60° Vervolging    | 30 punten   |
+| Doormidden hakken | 15 punten   |
 
 
-This shows how important it is to do proper swings to get the right angles and the best score possible. Remember, it’s better to get a bad cut than a miss since a miss counts as **0 points** and breaks your combo.
+Dit toont aan hoe belangrijk het is om de juiste hoeken en de beste scores te krijgen. Vergeet niet dat het beter is om een slechte cut te krijgen dan het is om er een missen, omdat een misser telt als **0 punten** en je combo's breekt.
 
-### Hitboxes
+### Hitboxen
 
-A common misconception in Beat Saber would be that most people think that the hitboxes for the notes are the blocks themselves. While that used to be the case, the hitboxes have changed quite a few times through the different versions of the game and a lot of the pictures out there are mistaken. Here is an image showing the current hitbox. As you can see, the hitbox is pretty big and extends a lot on the sides and the front. With this information, it is recommended to hit with the tip of saber to maximize the angle and get the best cut possible.
+Een veel voorkomende misvatting in Beat Saber is dat de meeste mensen denken dat de hitboxes voor de blokken ook daadwerkelijk de blokken zelf zijn. Hoewel dat vroeger wel het geval was zijn de hitboxes door de verschillende versies van het spel diverse keren veranderd en veel van de foto's die er zijn kloppen niet meer. Hier is een afbeelding die de huidige hitbox toont. Zoals je kunt zien, is de hitbox behoorlijk groot en breidt deze veel uit aan de zij- en voorkant. Met deze informatie, is het aanbevolen om met het punt van je saber de block te raken zodat je een grote zwaai krijgt met de beste snede mogelijk.
 
-![Hitboxes](~@images/ranking-guide/hitbox.png "Hitboxes")
+![Hitboxen](~@images/ranking-guide/hitbox.png "Hitboxen")
 
 ### Accuracy
 
-Accuracy is shown on the left after enabling the **Advanced HUD** option in the Player Settings. Accuracy is shown by a percentage and a letter. Because accuracy is a percentage, the best “possible” accuracy is **100%** or named a **SSS**. While such accuracy is practically impossible (since it would require no combo break and 115 cuts on every block), accuracy is still a great way to measure performance on a map and one’s ability to score properly and avoid missing notes. Accuracy is calculated using information such as the scores per hit, the score multiplier and the amount of miss. Here is the connection between the letters and accuracy percentage :
+Accuraatheid word getoond links na dat je **Advanced HUD** optie aan hebt gezet in de Player Settings. Accuraatheid word getoond door een percentage en een letter. Omdat accuraatheid een percentage is, is de beste "mogelijke" accuraatheid **100%** genaamd **SSS**. Terwijl zo een accuraatheid praktisch onmogelijk is (omdat je niet combo mag verliezen en 115 per block moet krijgen), accuraatheid is nog steeds een goeie weg om je prestaties op een level te zien en om iemand zijn vermogen om te scoren en om noten niet te missen. Accuraatheid word berekend met informatie zoals hoeveel score per slag, de score vermenigvuldiger en de hoeveelheid misses. Hier is een verbinding tussen de letters en accuraatheid percentage :
 
-| Letter Grade | Accuracy Percentage |
-| ------------ | ------------------- |
-| SS           | 90-99.99%           |
-| S            | 80-89.99%           |
-| A            | 65-79.99%           |
-| B            | 50-64.99%           |
-| C            | 35-49.99%           |
-| D            | 20-34.99%           |
-| E            | < 19.99%            |
+| Letter Rang | Accuraatheid Percentage |
+| ----------- | ----------------------- |
+| SS          | 90-99.99%               |
+| S           | 80-89.99%               |
+| A           | 65-79.99%               |
+| B           | 50-64.99%               |
+| C           | 35-49.99%               |
+| D           | 20-34.99%               |
+| E           | < 19,99%                |
 
 ## The Ranking Process
 
@@ -69,32 +69,32 @@ The ranking team ranks maps through a communal evaluation process. Those maps ar
 
 The PP system is probably one of the most misunderstood things when it comes to ranking in the game. Personally, I find it that people misunderstand it so often that I ended up writing a message about it and pinned it on the Beat Saber Canadian Discord so I wouldn’t need to explain it anymore, so here is “all” you need to know about it.
 
-### How can I earn PP and how does the global ranking work?
+### Hoe kan ik PP halen en hoe werkt de globale rang?
 
-You can find your global ranking on [ScoreSaber](https://scoresaber.com/global) by typing your username in the search bar. Your ScoreSaber profile is tied to your Steam/Oculus profile on which you play the game.
+Je kunt de globale rang vinden op [ScoreSaber](https://scoresaber.com/global) door je gebruikersnaam in te vullen in de zoek balk. Je ScoreSaber profiel is verbonden met je Steam/Oculus profiel afhangend van met welke je de game speelt.
 
-As said earlier, you can earn PP (performance points) by playing ranked maps. The amount of PP a map is worth is determined when the map is ran through the PP algorithm. The algorithm is kept secret to prevent mappers from trying to intentionally make songs to only be worth a lot of PP (to avoid breaking the system basically). The exact amount of PP gained by a player is determined by their accuracy on that map and the curve it represents compared to the max amount of PP that map is worth. You can find more information in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
+Zoals eerder gezegd, kunt u PP (prestatiepunten) verdienen door het spelen van ranked levels. De hoeveelheid van PP dat een map waard is word gedetermineerd wanner de map door de PP algoritme word gedaan. De algoritme word geheim gehouden om level makers tegen te houden van opzettelijk liedjes te maken die alleen maar veel PP waard zijn (om geen regels van het systeem te breken). De exacte hoeveelheid van PP verkregen door een speler word gedetermineerd door hun accuraatheid op die map en de curve dat het voorstelt tegenover de max hoeveelheid van PP dat het level waard is. Je kan ook meer informatie vinden in de [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
 
-### How does the PP system work and what is weighted PP?
+### Hoe werkt het PP systeem en wat is gewogen PP?
 
-To prevent skilled players from grinding hundreds of easier maps worth less PP to rank up, a curve is applied to your plays. This curve is **0.965^(x-1)** where **x** is the position of that score on your ranked map list which can be found on your profile.
+Om te voorkomen dat goeie spelers honderden gemakkelijke mappen te spelen die minder PP waard zijn om te stijgen in rang, is er een curve toegepast op je scores. Deze curve is **0.965^(x-1)** waar **x** de positie is van de score op jouw ranked levels lijst die gevonden kan worden op je profiel.
 
-You might have noticed that in your list, there are 2 numbers which end with PP. One of these numbers is **blue** and represents the raw amount of PP you get from that play, before the curve is applied. The second number is **(grey)** and shows the actual weighted amount of PP you are getting from that play after the curve is applied.
+Je kan opgemerkt hebben dat in jouw lijst, dat er 2 nummers zijn die eindigen op PP. Één van deze nummers is **blauw** en toont je rauwe hoeveelheid van PP dat je krijgt van je score, voor de curve word toegepast. De tweede nummer is **(grijs)** en toont de echte gewogen hoeveelheid van PP dat je krijgt van die score na de curve is toegepast.
 
-![Raw and Weighted PP](~@images/ranking-guide/raw&weighted_pp.png "Raw & Weighted PP")
+![Rauwe en gewogen PP](~@images/ranking-guide/raw&weighted_pp.png "Rauwe & gewogen PP")
 
-As said before, the amount of weighted PP you will receive is determined by the curve and the placement of that song in your list. As an example, if your top play is a **260 raw PP** play, you will be rewarded **260 weighted PP** which is a **100%** of the raw PP of that play. If your second top play is **247 raw PP**, you will be rewarded **238 weighted PP** which is the actual amount of PP you get after the curve is applied on it. Here is a list of 4 of my old top plays where *raw PP is in italic* while **weighted PP is bold** to demonstrate the curve :
+Zoals ervoor werd gezegd, de hoeveelheid gewogen PP dat je krijgt is gedetermineerd door de curve en de rang van de song in jouw lijst. Als een voorbeeld, als jouw top score **260 rauwe PP** is, krijg je **260 gewogen PP** dat is **100%** van de rauwe PP van die score. Als jouw tweede top score **247 rauwe PP** is, krijg je **238 gewogen PP** dat is de echte hoeveelheid van PP dat je krijgt na de curve is toegepast. Hier is een voorbeeld van hoe de curve werkt:
 
-| Raw PP | Weighted PP                  |
-| ------ | ---------------------------- |
-| 260pp  | **260pp** (100% of raw PP)   |
-| 247pp  | **238pp** (96.5% of raw PP)  |
-| 246pp  | **229pp** (93.1% of raw PP)  |
-| 244pp  | **219pp**  (89.9% of raw PP) |
+| Rauwe PP | Gewogen PP                      |
+| -------- | ------------------------------- |
+| 260pp    | **260pp** (100% van rauwe PP)   |
+| 247pp    | **238pp** (96.5% van rauwe PP)  |
+| 246pp    | **229pp** (93.1% van rauwe PP)  |
+| 244pp    | **219pp**  (89.9% van rauwe PP) |
 
-### Why is my total PP not increasing as much as the weighted PP I got on my new score?
+### Waarom is mijn totale PP niet omhoog als de hoeveelheid gewogen PP dat ik krijg van een nieuwe score?
 
-A common question people seem to have when they get a new score worth, for example, **100 weighted PP** is why they are not getting **+100 pp** on their total amount of performance points. As explained earlier, since the effect of the curve on your plays increases the further you go down your list, when you make a new play, it takes the place of an older play which makes all the plays that are under go down 1 place in the list. Even if you are getting **+100 pp** from this new play, all your lower plays are weighed down even more then before so you lose a certain amount of PP on them. This is why when getting a new play or making a better play on a map, you will never (one exception) get the same amount of PP on your total amount of performance points.
+Een algemene vraag die veel mensen stellen is wanneer ze bijvoorbeeld een nieuwe score die**100 gewogen PP** waard is, dat niet betekent dat ze **+100 pp** bij hun totale hoeveelheid prestatiepunten. As explained earlier, since the effect of the curve on your plays increases the further you go down your list, when you make a new play, it takes the place of an older play which makes all the plays that are under go down 1 place in the list. Even if you are getting **+100 pp** from this new play, all your lower plays are weighed down even more then before so you lose a certain amount of PP on them. This is why when getting a new play or making a better play on a map, you will never (one exception) get the same amount of PP on your total amount of performance points.
 
 The only exception to this is if you get a better accuracy on your current top play. Since your top play is not affected by the curve, meaning that none of your songs will change places in your list, there will be no lost of PP on your other plays. An example would be if your top play is on Avalanche with **250 pp** and you manage to get a better accuracy and that play is now worth **260 pp**, you will then get **+10 pp** on your total amount of PP.
 
@@ -104,9 +104,9 @@ To improve and get a better rank in the global ranking, there are quite a few to
 
 For more precise tips and tricks, go refer to the [Useful Tips & Links](#useful-tips-links) chapter.
 
-## Modifiers
+## Modificaties
 
-### Modifiers & Ranked songs
+### Modificaties & Ranked liedjes
 
 Since the **v12.0p1** update, a lot of modifiers got added and some already existing ones have a different effect. When it comes to ranked maps, all the **Negative Modifiers** apply on the score. This means **Negative Modifiers** can be used on any ranked map but they will obviously penalize your score and reward less PP. As for the **Positive Modifiers**, they only take effect on two ranked maps as of now ; [Overkill mapped by Nuketime](http://scoresaber.com/leaderboard/87194) and [Overkill mapped by Kry](http://scoresaber.com/leaderboard/86492). They are used to test the effects of **Positive Modifiers** on ranked maps and to find a way to integrate them on all the other ranked maps. You can obviously play any other map (including ranked ones) and the modifiers will all work but they will only increase your score and PP on the two versions of Overkill. The modifiers used on any score on the leaderboards can be seen to the right of the score. With this said, here is a list of all the modifiers in the game, their effects on score and how they affect gameplay :
 
@@ -114,60 +114,60 @@ Since the **v12.0p1** update, a lot of modifiers got added and some already exis
 
 Removes the health bar which makes it impossible to fail. Contrary to older versions of the game, No Fail will now submit scores on the leaderboard unless used on the Practice Mode.
 
-| Modifier                    | Description                                                                                                                                                    |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| No Obstacles (-0.05)        | Removes all of the obstacles (walls) from the map.                                                                                                             |
-| No Bombs (-0.10)            | Removes all of the bombs from the map.                                                                                                                         |
-| Slower Song (-0.30)         | Slows down the song to 85% of the original speed.                                                                                                              |
-| Insta Fail (0.00)           | Makes you fail on the first miss you make.                                                                                                                     |
-| Battery Energy (0.00)       | Stops the health bar from replenishing. This limits the total amount of misses and bad cuts you can have before failing.                                       |
-| Disappearing Arrows (+0.07) | Makes the arrows disappear from the note as they approach you. You still need to remember the direction as you need to cut in the correct direction as always. |
-| Faster Song (+0.08)         | Speeds up the song to 120% of the original speed.                                                                                                              |
-| Ghost Notes (+0.11)         | Notes are invisible and the arrows disappear shortly before you hit them, similarly to Disappearing Arrows.                                                    |
+| Modificatie                 | Descriptie                                                                                                                                                                  |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Geen obstakels(-0.05)       | Verwijdert alle obstakels (muren) van de kaart.                                                                                                                             |
+| Geen Bommen (-0.10)         | Verwijdert alle bommen van een level.                                                                                                                                       |
+| Trager nummer (-0.30)       | Vertraagt het liedje tot 85% van de originele snelheid.                                                                                                                     |
+| Direct Falen (0.00)         | Zorgt ervoor dat je faalt met je eerste miss.                                                                                                                               |
+| Batterij energie (0.00)     | De gezondheidsbalk stopt met aanvullen. Dit zorgt ervoor dat je gelimiteerd bent aan de hoeveelheid misses en slechte sneden die je kan halen voor je faalt.                |
+| Verdwijnende Pijlen (+0.07) | Zorgt ervoor dat de pijlen verdwijnen van een note terwijl ze het je nadert. Je moet nog steeds de richting onthouden die je zoals altijd in de juiste richting moet slaan. |
+| Sneller Liedje (+0.08)      | Versnelt het liedje tot 120% van de originele snelheid.                                                                                                                     |
+| Onzichtbare noten (+0.11)   | Noten zijn onzichtbaar en de pijlen verdwijnen kort voor dat je ze slaat, vergelijkbaar met verdwijnende pijlen.                                                            |
 
-## Grips
+## Grepen
 
-### Why should I use a grip?
+### Waarom zou je een greep gebruiken?
 
 An alternative grip can be an adjustment of the default saber angles, an alternative method of holding the controller, or a combination of both. There's no single grip that works for everyone, and using an alternative grip won't magically make you better at the game. It is not necessarily better than the default way the controller is meant to be held, or the default angles that Beat Saber uses. However, alternative grips can have many benefits, from being more comfortable for long periods of play to helping you optimize your swings. They can redistribute the weight of a poorly balanced Vive wand, or increase the range of wrist motion with a Touch controller. Below are some popular grips used in the competitive community. Don't be afraid to adjust or experiment to find what's right for you!
 
-### Grips
+### Grepen
 
 Refer to the Grips section of [Grips And Tricks](./grips-and-tricks.md) for some examples of commonly used grips used in the community.
 
-## Useful Tips & Links
+## Handige Tips & Links
 
-### Tips & tricks
+### Tips & trucs
 
 After all this time playing Beat Saber, I’ve hit many walls. Hitting a wall can be really annoying since it can take time to figure out what to do to keep improving. Here is a small list of tips to improve as a player.
 
-**Challenge yourself.**
+**Daag jezelf uit.**
 
 While it sounds obvious, many players never try to improve and play harder maps and simply play the same maps over and over again. Extend your song list and push yourself to learn the things you are the worst at.
 
-**Play more.**
+**Speel meer.**
 
 You don't get better at playing an instrument without a lot of experience. The same goes for Beat Saber - simply playing more will improve pattern recognition, condition your body, and build muscle memory.
 
-**Evaluate your own gameplay.**
+**Evalueer je eigen gameplay.**
 
 Recording yourself is great to see where you could improve, whichever it’s only your gameplay or it is with a webcam. Analyzing yourself play can be really useful to see your common mistakes. You can also watch your own replays by clicking the arrow next to your score in the leaderboard.
 
-**Watch better players play and ask them tips**
+**Bekijk betere spelers spelen en vraag hen tips**
 
 If you have an opportunity, try to watch better players and use some of their techniques to improve. Copying everything about a pro player won’t make you one but can surely help you improve. Watch their replays and compare their movements to your own. Also if you ever have the opportunity, always ask for tips (just don’t be annoying or disrespectful).
 
-**Don’t overthink it**
+**Denk er niet te veel over na**
 
 If you can’t finish a map or can’t achieve a higher score, don’t overthink it. I made the mistake of getting angry over this way too many times and it will create a mental wall. Simply play another song and come back to it another day.
 
-**Practice hard patterns**
+**Oefen harde patronen**
 
 If you are struggling with a section of a map, slow it down with the Slower Song modifier or decrease the speed in practice mode.
 
 **BSRA** Check out Cube Community's [Beat Saber Replay Analysis playlist](https://www.youtube.com/watch?v=rxf68rH4S20&list=PLwx5EB8PdMNdElyEBfO7VktSWSNZukfqP). This series help viewers understand how top Beat Saber plays are made and how they can improve.
 
-**Have fun**
+**Heb plezier**
 
 At the end of the day, this is a game. The important part is that you have fun and enjoy playing it. If you hate playing this “one ranked map that sucks but is worth so much PP”, then simply don’t play it. Don’t try to force yourself to play songs you dislike and play however you want. It’s when you have fun that you’ll see the time fly by and you’ll improve the most. If you don’t care about rank, it’s all good, just have fun 🙂
 

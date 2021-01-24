@@ -1,86 +1,86 @@
-# Modding Intro
-_Learn how to get started writing your own PC Mods_
+# Introducción al modeado
+_Aprende cómo empezar a escribir tus propios Mods de PC_
 
-## Getting Started
-::: warning This guide is for making mods for the **PC** version of Beat Saber!
+## Empezando
+::: warning Esta guía es para hacer mods para la versión **PC** de Beat Saber!
 
-Make sure your game is modded before trying to make a mod.  
-See instructions for [modding Beat Saber on PC.](/pc-modding.md)
+Asegúrate de que tu juego se haya modificado antes de intentar hacer un mod.  
+Mira las instrucciones para [modear Beat Saber en PC.](/pc-modding.md)
 
-This guide assumes you have a basic to intermediate understanding of C# and Unity.  
-You may have difficulty understanding what is covered here if you do not have this foundation. :::
+Esta guía asume que usted tiene un entendimiento básico a intermedio de C# y Unity.  
+Puede que tengas dificultades para entender lo que se cubre aquí si no tienes este fundamento. :::
 
-Beat Saber is made in Unity 2019.3 using C# with .NET framework 4.6  
-You will need to download the latest version of [Visual Studio Community](https://visualstudio.microsoft.com/).
+Beat Saber se hace en Unity 2019.3 usando C# con .NET framework 4.6  
+Necesitará descargar la última versión de [Visual Studio Community](https://visualstudio.microsoft.com/).
 
-## Setup Modding Tools
-We will be using the BeatSaberModdingTools extension in this tutorial, as it comes with modding templates and useful features.  
-BeatSaberModdingTools is maintained by Zingabopp. If you find the tools to be useful, consider throwing some support their way.
+## Configurar herramientas de modificación
+Utilizaremos la extensión BeatSaberModdingTools en este tutorial, ya que viene con plantillas de modeado y características útiles.  
+BeatSaberModdingTools es mantenido por Zingabopp. Si usted encuentra que las herramientas son útiles, considere lanzar algo de apoyo hacia ellos.
 
-You can download it on their [GitHub](https://github.com/Zingabopp/BeatSaberTemplates/releases/latest).  
-You will need to download `BeatSaberModdingTools.vsix`. (Expand the Assets dropdown if you cannot find it)
+Puedes descargarlo en su [GitHub](https://github.com/Zingabopp/BeatSaberTemplates/releases/latest).  
+Necesitarás descargar `BeatSaberModdingTools.vsix`. (Ampliar el desplegable de Activos si no puede encontrarlo)
 
-Once downloaded, open the `.vsix` and it will install itself as a Visual Studio Plugin.  
-If you have any issues, consult the project's [README](https://github.com/Zingabopp/BeatSaberModdingTools#readme) and [WIKI](https://github.com/Zingabopp/BeatSaberModdingTools/wiki).
+Una vez descargado, abre el `.vsix` y se instalará como un plugin de Visual Studio.  
+Si tiene algún problema, consulte el proyecto [README](https://github.com/Zingabopp/BeatSaberModdingTools#readme) y [WIKI](https://github.com/Zingabopp/BeatSaberModdingTools/wiki).
 
-## Template setup
-First, create a new project using the template.  
-We are going to use the `BSIPA4 Plugin (Core)` template, and we'll be calling our mod `BSPlugin1`. You should change the name to whatever you want to call your mod.
+## Configuración de la plantilla
+Primero, crea un nuevo proyecto usando la plantilla.  
+Vamos a utilizar la plantilla `BSIPA4 Plugin (Core)`, y llamaremos a nuestro mod `BSPlugin1`. Deberías cambiar el nombre a como quieras llamar tu mod.
 
-![Modding Template Select](~@images/modding/modding-template-select.png "Modding Template Select")  
-![Modding Template Name](~@images/modding/modding-template-name.png "Modding Template Name")
+![Selección de plantilla de modificación](~@images/modding/modding-template-select.png "Selección de plantilla de modificación")  
+![Nombre de la plantilla de modificación](~@images/modding/modding-template-name.png "Nombre de la plantilla de modificación")
 
-You will then need to set your Beat Saber Directory in Visual Studio. Follow the instructions [on the template readme](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use), or see the screenshot below.
+Luego necesitarás configurar tu Directorio de Beat Saber en Visual Studio. Sigue las instrucciones [en la plantilla readme](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use), o vea la siguiente captura de pantalla.
 
-![Setup Beat Saber Directory](~@images/modding/setup-bs-directory.png "Setup Beat Saber Directory")
+![Configurar directorio de beat Saber](~@images/modding/setup-bs-directory.png "Configurar directorio de beat Saber")
 
-At this point, **try and build the project**, and it should automatically find the references for you and the build should succeed.
+En este punto, **intenta construir el proyecto**, y deberías encontrar automáticamente las referencias para ti y la compilación debería tener éxito.
 
-If your build does not succeed, check that you don't have any missing references.
+Si tu compilación no tiene éxito, comprueba que no faltan referencias.
 
-::: tip BeatSaberModdingTools will automatically handle references. If your references could not be found, [double-check the instructions](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use).
+::: tip BeatSaberModdingTools manejará automáticamente las referencias. Si sus referencias no pudieron ser encontradas, [compruebe las instrucciones](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use) de nuevo.
 
-If you need to manually add references, right click on `References` in the Project folder, then `Beat Saber Reference Manager...`. Select your references, then click "Apply".
+Si necesita agregar referencias manualmente, haga clic derecho en `Referencias` en la carpeta del proyecto, entonces `Gestor de referencias de beat Saber...`. Seleccione sus referencias y luego haga clic en "Aplicar".
 
-You can find more information about the reference manager [here](https://github.com/Zingabopp/BeatSaberModdingTools/wiki/Adding-References). :::
+Puede encontrar más información sobre el gestor de referencias [aquí](https://github.com/Zingabopp/BeatSaberModdingTools/wiki/Adding-References). :::
 
-## Inspecting the Code
-You should have 5 files open automatically with the template.
+## Inspeccionando el código
+Debe tener 5 archivos abiertos automáticamente con la plantilla.
 
-| Filename                 | About                                                                          |
-| ------------------------ | ------------------------------------------------------------------------------ |
-| `manifest.json`          | Information about your mod for BSIPA.                                          |
-| `Plugin.cs`              | The main file that is loaded for your mod.                                     |
-| `AssemblyInfo.cs`        | File information about your mod. This is mostly managed by Modding Tools.      |
-| `PluginConfig.cs`        | A template for enabling config for your mod. This is commented out by default. |
-| `BSPlugin1Controller.cs` | A generic MonoBehaviour for your mod.                                          |
+| Nombre del archivo       | Acerca de                                                                                   |
+| ------------------------ | ------------------------------------------------------------------------------------------- |
+| `manifest.json`          | Información sobre su mod para BSIPA.                                                        |
+| `Plugin.cs`              | El archivo principal que se carga para tu mod.                                              |
+| `AssemblyInfo.cs`        | Información de archivo sobre tu mod. Esto es administrado principalmente por Modding Tools. |
+| `PluginConfig.cs`        | Una plantilla para activar la configuración de tu mod. Esto está comentado por defecto.     |
+| `BSPlugin1Controller.cs` | Un MonoBehaviour genérico para tu mod.                                                      |
 
-### Edit your mod's Manifest
-Fill out the `manifest.json` file with your information.  
-The `name` and `id` keys are used to identify your mod. The ID should match the ID used when uploading your mod to BeatMods.
+### Edita el manifiesto de tu mod
+Rellena el archivo `manifest.json` con tu información.  
+Las claves `name` e `id` se utilizan para identificar tu mod. El ID debe coincidir con el ID usado al subir tu mod a BeatMods.
 
-::: warning Do **not** remove the dependency on BSIPA. As of BSIPA v4.1 this is required for your mod to load. :::
+::: warning **No** eliminar la dependencia de BSIPA. A partir de BSIPA v4.1 esto es necesario para que tu mod se cargue. :::
 
-## Compiling
-Build your plugin with `Build -> Build Solution` or <kbd>CTRL + SHIFT + B</kbd>  
-Your compiled DLL should automatically be copied to the `Plugins` folder in your Beat Saber directory! This will be done for both debug and release builds.
+## Compilando
+Construye tu plugin con `Build -> Build Solution` o <kbd>CTRL + SHIFT + B</kbd>  
+¡Tu DLL compilada debería copiarse automáticamente en la carpeta `Plugins` en tu directorio Beat Saber! Esto se hará tanto para la depuración como para la versión de lanzamiento.
 
-::: tip NOTE When you are ready to release your mod, select the `Release` option to make a Release build of your mod.
+::: tip NOTA Cuando estés listo para sacar tu mod, selecciona la opción `Release` para hacer una versión de lanzamiento de tu mod.
 
-Building in Release mode will generate a packaged `.zip` file ready to upload to BeatMods. :::
+Construir en modo Lanzamiento generará un archivo `.zip` empaquetado listo para subir a BeatMods. :::
 
-## Testing your mod in-game
-To test if your mod is loaded in-game, you will need to launch Beat Saber with the BSIPA Console enabled. Add `--verbose` as a launch argument and run the game.  
-For more information on launch arguments, see [here](/modding/#launch-args).
+## Probando tu mod en el juego
+Para probar si tu mod está cargado en el juego, tendrás que iniciar Beat Saber con la consola BSIPA activada. Añade `--verbose` como argumento de lanzamiento y ejecuta el juego.  
+Para más información sobre los argumentos de inicio, mira [aquí](./#launch-args).
 
-When you launch the game, you should see BSIPA load your mod in the console window.
+Cuando inicies el juego, deberías ver BSIPA cargar tu mod en la ventana de la consola.
 
-![Testing console screenshot](~@images/modding/testing-console.png "Testing console screenshot")
+![Captura de la consola de testeo](~@images/modding/testing-console.png "Captura de la consola de testeo")
 
-## Next Steps
-Here are some useful resources in continuing your modding career.
-* If you need help with developing mods, you can ask in `#pc-mod-dev` on the [BSMG Discord](https://discord.gg/beatsabermods).
-* If you want to decompile code, check out [dnSpy](https://github.com/dnSpy/dnSpy/releases)
-* See the BSIPA Documentation for more information about the [configuration system](https://bsmg.github.io/BeatSaber-IPA-Reloaded/tags/4.1.3/articles/start-dev.html#configuring-your-plugin).
-* If you need to patch the game's code for your mod, you should use [Harmony](https://github.com/pardeike/Harmony#readme). The `0Harmony.dll` is already installed for modded games.
-* For experienced developers, you may be interested in learning about Zenject, the Dependency Injection system used heavily by Beat Saber. [SiraUtil](https://github.com/Auros/SiraUtil#readme) is a library that allows you to easily hook into this system.
+## Siguientes pasos
+Aquí tienes algunos recursos útiles para continuar con tu carrera de modeador.
+* Si necesitas ayuda para desarrollar mods, puedes preguntar en `#pc-mod-dev` en el [Discord de BSMG ](https://discord.gg/beatsabermods).
+* Si quieres descompilar código, echa un vistazo a [dnSpy](https://github.com/dnSpy/dnSpy/releases)
+* Consulte la documentación de BSIPA para obtener más información sobre el [sistema de configuración](https://bsmg.github.io/BeatSaber-IPA-Reloaded/tags/4.1.3/articles/start-dev.html#configuring-your-plugin).
+* Si necesitas parchear el código del juego para tu mod, debes usar [Harmony](https://github.com/pardeike/Harmony#readme). El `0Harmony.dll` ya está instalado para juegos modeados.
+* Para desarrolladores experimentados, puede estar interesado en aprender acerca de Zenject, el sistema de inyección de dependencias utilizado fuertemente por Beat Saber. [SiraUtil](https://github.com/Auros/SiraUtil#readme) es una biblioteca que te permite conectar fácilmente con este sistema.

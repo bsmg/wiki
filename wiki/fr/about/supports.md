@@ -4,63 +4,78 @@ Le rôle Support est un symbole de remerciement. Merci pour les milliers de mess
 ## boulders2000
 "même si c'est le bazar dans sa tête il sait ce qu'il fait (plutôt)" quelque chose comme ça (mais n'ajoute pas la partie quelque chose comme ça, ok ?)
 
-**Rôles :** Support, Mapping Support, Mappeur
+**Rôles :** Support
+
+## ComputerElite
+He makes programs to support people faster and some others for them to make all easier. (likes to eat BMBF Logs)
+
+**Roles:** Support
+
+[Github](https://github.com/ComputerElite/)
 
 ## Emma
-[Twitch](https://www.twitch.tv/kolezan) | [Faire un don](https://paypal.me/kolezan)
+You might know them for their spectacular platforms, or for more refined individuals: yeet sabers.
 
-Il vous donnera sa bio plus tard ce jour, selon lui.
+**Roles:** Support, 3D Artist
 
 [Twitch](https://www.twitch.tv/therealkleinba)
 
 ## Johnny0403
 He likes playing Beat Saber. He also likes helping people fix their problems so they can play Beat Saber.
 
-Ce type est arrivé de nulle part et a commencé à aider dans le support disant que c'était une sorte d'addiction, quel barje.
+**Roles:** Support
 
 ## Kolezan
-Il vous apprendra à réparer vos extensions et votre première map terriblement désynchronisée. Nous sommes tous passés par là.
+He'll teach you to fix your plugins and your terribly off-beat first map. We've all been there.
 
-[Twitter](https://twitter.com/Radevirot) | [Faire un don](paypal.me/Radevirot)
+**Roles:** Support, Mapping Support, Mapper
 
-Peut-être ses spectaculaires plateformes vous sont parvenus aux oreilles, ou bien des entités plus raffinées : les Yeet Sabers.
+[Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
 
 ## Nobby76
-Coeur en or, nerfs d'acier... Et une noix de beurre
+Heart of gold, nerves of steel.... And a knob of butter
 
-**Rôles :** Support
+**Roles:** Support
 
 ## Pespiri
 He'll give me his bio later today, or so he says.
 
-**Rôles :** Support
+**Roles:** Support, Modder
 
 [GitHub](https://github.com/pespiri)
 
 ## Radevirot
+This guy came out of nowhere and started helping in support saying it was some kind of addiction, what a loon.
+
 **Rôles :** Support
 
-J'aime sourire et jouer le jeu des joueurs SmileW :)
+[Twitter](https://twitter.com/Radevirot) | [Donate](paypal.me/Radevirot)
 
-**Rôles :** Support, Artiste 3D
+## rui2015
+Has no creativity and doesn't know what to put here. Is a cool person though.
+
+**Rôles :** Support
 
 ## Sands
-[Discord](https://discord.gg/NXnPYEh) | [YouTube](https://www.youtube.com/c/CharaHere)
+He has no life and he's pretty dumb but he can help with your bmbf and that's all that matters right?
 
-**Rôles :** Support
+**Roles:** Support
 
 [YouTube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
 
 ## Simme63
 "Coke Head"
 
-**Rôles :** Support
+**Roles:** Support
 
 ## Channel Monitor Bot
-Le robot qui maintient tout ensemble. Créé par Megalon, recréé par lolPants et personnifié par Rolo !
+The bot that holds it all together. Created by Megalon, recreated by lolPants, and personified by Rolo!
 
 [Merch!](https://www.redbubble.com/people/megalon-gaming/portfolio)
 
 ---
 
-::: tip Voir aussi **Moddeurs :** [Kyle1413](/fr/about/modders.md#kyle1413) **Staff :** [Assistant](/fr/about/staff.md#assistant) | [Klouder](/fr/about/staff.md#klouder) | [Megalon](/fr/about/staff.md#megalon) | [Steven](/fr/about/staff.md#steven) | [williums](/fr/about/staff.md#williums) | [Melopod ƸӜƷ](/fr/about/staff.md#melopod-ƹӝʒ) **Modérateurs :** [Razor](/fr/about/moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/fr/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [Pink](/fr/about/moderators.md#pink) **Artistes 3D :** [RedBrumbler](/fr/about/3d-artists.md#redbrumbler) :::
+::: tip See Also **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
+**Modders:** [Kyle1413](./modders.md#kyle1413)  
+**Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink) | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)  
+**Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ) :::

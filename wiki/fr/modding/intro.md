@@ -1,29 +1,29 @@
 # Introduction au modding
-_Learn how to get started writing your own PC Mods_
+_Apprenez comment débuter à écrire vos propres Mods PC_
 
-## Getting Started
-::: warning This guide is for making mods for the **PC** version of Beat Saber!
+## Pour commencer
+::: attention Ce guide est pour créer des mods pour la version **PC** de Beat Saber !
 
-Make sure your game is modded before trying to make a mod.  
-See instructions for [modding Beat Saber on PC.](/pc-modding.md)
+Assurez-vous que votre jeu est moddé avant de commencer à faire un mod.  
+Regardez les instructions pour [modder Beat Saber sur PC.](/pc-modding.md)
 
-This guide assumes you have a basic to intermediate understanding of C# and Unity.  
-You may have difficulty understanding what is covered here if you do not have this foundation. :::
+Ce quide suppose que vous avez une compréhension basique ou intermédiaire du C# et de Unity.  
+Vous pouvez avoir du mal à comprendre ce qui est expliquer ici si vous n'avez pas cette base. :::
 
-Beat Saber is made in Unity 2019.3 using C# with .NET framework 4.6  
-You will need to download the latest version of [Visual Studio Community](https://visualstudio.microsoft.com/).
+Beat Saber est fait avec Unity 2019.3 utilisant du C# avec .NET framework 4.6  
+Vous aurez besoin de télécharger la dernière version de [Visual Studio Community](https://visualstudio.microsoft.com/).
 
-## Setup Modding Tools
+## Configuration des outils de Modding
 We will be using the BeatSaberModdingTools extension in this tutorial, as it comes with modding templates and useful features.  
 BeatSaberModdingTools is maintained by Zingabopp. If you find the tools to be useful, consider throwing some support their way.
 
 You can download it on their [GitHub](https://github.com/Zingabopp/BeatSaberTemplates/releases/latest).  
-You will need to download `BeatSaberModdingTools.vsix`. (Expand the Assets dropdown if you cannot find it)
+You will need to download `BeatSaberModdingTools.vsix`. (Ouvrer le menu déroulant des Assets si vous ne pouvez pas le trouver)
 
-Once downloaded, open the `.vsix` and it will install itself as a Visual Studio Plugin.  
-If you have any issues, consult the project's [README](https://github.com/Zingabopp/BeatSaberModdingTools#readme) and [WIKI](https://github.com/Zingabopp/BeatSaberModdingTools/wiki).
+Une fois téléchargé, ouvrez le `.vsix` et il s'installera tout seul en tant que plugin Visual Studio.  
+Si vous avez des problèmes, consultez le [README](https://github.com/Zingabopp/BeatSaberModdingTools#readme) et le [WIKI](https://github.com/Zingabopp/BeatSaberModdingTools/wiki) du projet.
 
-## Template setup
+## Configuration du modèle
 First, create a new project using the template.  
 We are going to use the `BSIPA4 Plugin (Core)` template, and we'll be calling our mod `BSPlugin1`. You should change the name to whatever you want to call your mod.
 
@@ -71,7 +71,7 @@ Building in Release mode will generate a packaged `.zip` file ready to upload to
 
 ## Testing your mod in-game
 To test if your mod is loaded in-game, you will need to launch Beat Saber with the BSIPA Console enabled. Add `--verbose` as a launch argument and run the game.  
-For more information on launch arguments, see [here](/modding/#launch-args).
+For more information on launch arguments, see [here](./#launch-args).
 
 When you launch the game, you should see BSIPA load your mod in the console window.
 

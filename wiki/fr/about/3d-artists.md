@@ -66,4 +66,6 @@ Artiste 3D et moddeur sur Quest. Je supporte la communauté VR comme je le peux 
 
 ---
 
-::: tip Voir aussi **Support :** [Emma](/fr/about/supports.md#emma) **Modérateurs :** [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/fr/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [DeeJay](/fr/about/moderators.md#DeeJay) | [Pink](/fr/about/moderators.md#Pink) **Staff :** [Assistant](/fr/about/staff.md#assistant) | [bobbie](/fr/about/staff.md#bobbie) :::
+::: tip See Also **Support:** [Emma](./supports.md#emma)  
+**Moderators:** [DeeJay](./moderators.md#deejay) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)  
+**Staff:** [Assistant](./staff.md#assistant) | [Bobbie](./staff.md#bobbie) :::

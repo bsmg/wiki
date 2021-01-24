@@ -1,17 +1,21 @@
 # Custom Avatars
-## Installation
-The latest Custom Avatar plugin can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant). Once installed you should see a file called `CustomAvatar.dll` inside your `Plugins` folder. You should also see a folder called `CustomAvatars` in [your install folder](/faq/install-folder.md) — this is where you will be placing the `*.avatar` files you want to use.
 
-You can download more avatars on [ModelSaber](https://modelsaber.com/Avatars/).
+## Installatie
 
-## Usage
-Inside the game in the main menu you will see an `AVATARS` button at the top left of the Mods menu over by the release notes. Pressing it will open up the menu you can use to select which avatar you want to use. There's also additional settings you can change, such as avatar scaling and if the avatar is visible in first person.
+:::warning De Custom Avatars mod is alleen geschikt voor een PC. :::
 
-::: warning Some avatars were not made with first person view in mind, so they might block your vision if enabled. :::
+De nieuwste Custom Avatars plugin kan worden gevonden in het [#pc-mods kanaal](https://discord.gg/beatsabermods) in de BSMG discord of in [Mod Assistant](https://github.com/Assistant/ModAssistant). Eenmaal geïnstalleerd (en je het spel één keer hebt gestart) zie je een bestand genaamd `CustomAvatar.dll` in de `Plugins` map. Je zou ook een map met de naam `CustomAvatars` moeten zien in [je installatiemap](/faq/install-folder.md) - dit is waar je de `*.avatar` bestanden die je wilt gebruiken moet plaatsen.
 
-::: warning Avatars are not selected by default. Make sure to go into the right menu and switch to an avatar if none appear at first. :::
+Je kan meer avatars downloaden via [ModelSaber](https://modelsaber.com/Avatars/).
 
-## Creating Avatars
-[Assistant's Avatar Guide](/models/avatars-guide.html) is a good resource for learning how to make your own avatar.
+## Gebruik
+In de game op het hoofd menu zal je zien dat de `AVATARS` knop links van het hoofd menu is te vinden. Door erop te drukken open je het menu waarin je kan kiezen welke avatars je wilt gebruiken. Er zijn ook extra instellingen die je kunt wijzigen, zoals avatar scaling en of de avatar zichtbaar is in de bril of niet.
 
-The guide includes a [short video narrated by Megalon](/models/avatars-guide.html#videos), however it is intended to be an overview and you should watch it in addition to reading the guide, not lieu of.
+::: warning OPMERKING
+* Avatars zijn niet standaard geselecteerd. Zorg ervoor dat je naar het juiste menu gaat en er eentje selecteert als er eerst geen avatar wordt weergegeven.
+* Sommige avatars zijn niet gemaakt met het zicht vanuit de bril in gedachten, dus het kan zijn dat deze je zicht blokkeren. :::
+
+## Het maken van avatars
+[Assistant's Avatar Guide](./avatars-guide.md) is een goede gids om te leren hoe je je eigen avatar maakt.
+
+De handleiding bevat een [korte video van Megalon](./avatars-guide.md#videos), Maar het is bedoeld als een overzicht en je zou het moeten bekijken naast het lezen van de handleiding, niet in plaats van.

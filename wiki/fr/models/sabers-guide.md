@@ -1,5 +1,5 @@
 ---
-sidebar: "false"
+sidebar: auto
 next: ./avatars-guide.md
 description: MissRaynor's guide to making Custom Sabers!
 ---
@@ -108,7 +108,7 @@ Once you've completed all of this, you can export your saber. Open up the `Saber
 
 Put your sabers in your `CustomSabers` folder and test them out in game. If they look good ingame, you're all done!
 
-or contribute to translation effort [here](https://github.com/bsmg/wiki). :::
+::: tip NOTE **Once you've got your new sabers working**, [upload them to ModelSaber](https://modelsaber.com/Upload/) if you want to share them with the world. :::
 
 ## Advanced
 This section covers things that aren't included in the main tutorial, such as how to add Events and Trails.
@@ -142,4 +142,4 @@ Now your materials should have a nice `Custom Colors` checkbox instead of custom
 
 Similarly, if you want to import a non-beatsaber shader to use it on a saber and want it to display correctly ingame, you need to strip the `Alpha` channel out.
 
-Each shader is different, so there's no universal approach to doing this. If you're not sure exactly how to do this, feel free to discuss the process in #pc-modeling in the [Beat Saber Modding Group](https://discord.gg/beatsabermods).
+Each shader is different, so there's no universal approach to doing this. If you're not sure exactly how to do this, feel free to discuss the process in #pc-3d-modeling in the [Beat Saber Modding Group](https://discord.gg/beatsabermods).

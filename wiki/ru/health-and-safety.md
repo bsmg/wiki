@@ -2,38 +2,38 @@
 sidebar: auto
 ---
 
-# Health and Safety
-_Can't hit bloq with vegetable arms_
+# Здоровье и безопасность
+_Рубить кубы покалеченными руками не выйдет_
 
-## General Tips
-Beat Saber can be a pretty physically demanding game and it is important to treat play sessions just like a workout. We strongly recommend that you stretch and warm up before each play session to avoid physical injury, including damage to the wrist and shoulders. Common injuries include repetitive strain injury (RSI) to the wrist and shoulders.
+## Общие советы
+Beat Saber может быть довольно физически напряженной игрой и достаточно важно приравнивать игровые сессии к настоящим тренировкам. Мы настоятельно рекомендуем вам провести растяжку и разогреться перед каждой игровой сессией, чтобы избежать физических травм, в том числе повреждений запястий и плеч. К числу распространенных телесных повреждений относятся хроническая травма от повторяющегося напряжения (repetitive strain injury - RSI) запястьев и плеч, в том числе синдром запястного канала (carpal tunnel syndrome - CTS).
 
-Stretching isn't just limited to people playing crazy custom songs either, you can injure yourself even if a map seems short or simple.
+Травму можно получить не только играя в бешеные быстрые песни, но и при игре в легкую, на первый взгляд, карту.
 
-> _Remember to stay hydrated, and breathe!_
+> _Не забывайте пить воду и дышать побольше!_
 
-## Tino's Guide to Warm Up and Recovery
-Tino is a top 10 player in Canada who kindly wrote a very detailed guide covering proper warm up, recovery, and injury relief. [Check it out here!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
+## Руководство по разминке и восстановлению от игрока Tino
+Tino является топ-10 игроком в Канаде, который любезно написал очень подробное руководство, охватывающее правильную разминку и восстановление после травм. [Посмотрите его здесь!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
 
-## Wrist Care
-### Weights?
-Generally, we **do not recommend** using weights for this game. Beat Saber is already a workout and people hurt themselves all the time without weights. You're basically subjecting your wrists to constant whiplash, and adding weights is only going to make things worse.
+## Способ защиты кистей
+### Стоит ли использовать дополнительные утяжелители для запястий?
+В общем случае мы **не рекомендуем** использовать утяжелители для этой игры. Beat Saber и без этого является тренировкой и люди могут получить травмы даже без утяжелителей. При игре вы постоянно махаете запястьями как хлыстами. Такое частое движение кистей не было предусмотрено анатомией человека. Добавление к этому утяжелителей приведет только к лишним проблемам.
 
-If you insist on using weights then please at least check out [this guide](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) by VR Fitness Insider to minimize the risk of injury.
+Если вы настаиваете на использовании утяжелителей, то пожалуйста, по крайней мере посетите [это руководство](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) от VR Fitness Insider для уменьшения риска травм.
 
-### Dr Levi Harrison's Tips
-Dr. Levi has saved the wrist of countless players with his videos, and he's made a video specifically covering some exercises to help prevent injury from playing Beat Saber! We **highly** recommend his tips!
+### Советы доктора Levi Harisson
+Доктор Live спас запястья множества игроков с помощью своих видео. И он сделал видео, специально описывающее некоторые упражнения, для помощи в предотвращении травм от игры Beat Saber! Мы **очень** рекомендуем его советы!
 
 <YouTube url='https://www.youtube.com/watch?v=IoL1NOKUmoU' />
 
-## Safety
-Keep your playspace clear of obstructions, allow adequate room around during gameplay, and always wear your wrist straps.
+## Безопасность
+Держите игровую площадку чистой от препятствий, используйте подходящую комнату во время игры и всегда надевайте ремешок контроллера на запястье.
 
 ![Allow Adequate Room Around You](~@images/health-and-safety/allow-adequate-room-around-you.png "Allow Adequate Room Around You")
 
-::: warning NOTE Beat Saber is not available for the Nintendo Wii, this image is used for informative purposes only. :::
+::: warning NOTE Beat Saber не доступен для Nintendo Wii, это изображение используется только для информации. :::
 
-## A Short Message from TammyMatty
-To reduce the risk of physical injury, always remember to stretch before and after playing Beat Saber. Please consider the following:
+## Короткое сообщение от TammyMatty
+Чтобы уменьшить риск повреждений, не забывайте проводить растяжку до и после игры в Beat Saber. Пожалуйста, ознакомьтесь с обучающим изображением:
 
 ![Wammy](~@images/health-and-safety/wammy.gif "Wammy")

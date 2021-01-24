@@ -1,17 +1,27 @@
 # Custom Notes
-## Installation
+## Instalação
+:::tip NOTA As notas precisam ser feitas especificamente para a Quest ou PC e não podem ser trocadas entre as duas. Você pode informar para qual plataforma uma nota serve pela extensão do arquivo. Arquivos `.bloq`são para PC enquanto o Quest usa arquivos `.zip`. :::
 
-The latest Custom Notes plugin can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant).
+### PC Notes
+A última versão do plugin de Custom Notes pode ser encontrado no [chat #pc-mods](https://discord.gg/beatsabermods) no Discord do BSMG ou no [ModAssistant](https://github.com/Assistant/ModAssistant).
 
-Once installed, you should see a `CustomNotes` folder in [your install folder](/faq/install-folder.md), with some sample notes installed for you. This folder is also where you will place `*.bloq` files.
+Uma vez instalado, você deve ver uma pasta `CustomNotes` na [sua pasta de instalação](/faq/install-folder.md), com algumas notas de exemplo instaladas para você. Esta pasta também é onde você colocará os arquivos `*.bloq`.
 
-You can download more bloqs from [ModelSaber](https://modelsaber.com/Bloqs/).
+Você pode baixar mais blocos no [ModelSaber](https://modelsaber.com/Bloqs/).
 
-## Usage
-Inside the game in the main menu you will see a `CUSTOM NOTES` button at the top left of the Mods menu over by the release notes. Pressing it will open up the menu you can use to select which notes you want to use.
+### Quest Notes
+Custom Notes para Quest são fornecidas pelo mod Qosmetics. A versão mais recente pode ser encontrada no chat [#quest-mods](https://discord.gg/beatsabermods) no Discord do BSMG. As notas são chamadas de `qbloqs` e atualmente estão hospedadas no [Discord da comunidade do Qosmetics](https://discord.gg/qosmetics).
 
-## Creating Custom Notes
+## Uso
 
-[Bobbie's Bloq Guide](/models/notes-guide.html) is a good resource for creating custom notes from an existing model.
+### Usuários do PC
+Dentro do jogo no menu principal que você verá na esquerda um botão `CUSTOM NOTES` sob a seção `Mods`. Pressioná-lo abrirá o menu que você pode usar para selecionar que nota você deseja usar.
 
-Note that this guide does not cover 3D modeling the notes. For that, we recommend looking up some tutorials on [Blender](https://www.blender.org/)!
+### Usuários do Quest
+Envie o arquivo zip da nota para seu Quest usando a [Interface Web do BMBF](/quest-modding.md#installing-mods). Você pode selecionar qual nota está ativa na aba mods no BMBF.
+
+## Criando Custom Notes
+
+[Bobbie Bloq Guide](./notes-guide.md) é um bom recurso para criar custom notes a partir de um modelo existente.
+
+Note que este guia não cobre a modelagem 3D das notas. Para isso, recomendamos que você procure alguns tutoriais no [Blender](https://www.blender.org/)!

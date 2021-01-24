@@ -1,12 +1,12 @@
 ---
 sidebar: auto
-prev: ./basic-lighting.md
+prev: ./intermediate-lighting.md
 next: false
 description: Learn about taking your lighting up to 11.
 ---
 
 # Lighting avancé
-_Un résumé rapide du lighting chevronné_
+_You've dived into lighting and now you want to take it to the next level._
 
 ## !Notice! This is a Stub Page
 ::: danger Cette page est en cours de traduction et n'est pas viable en l'état. Veuillez vous référer à la [version originale en anglais](/mapping/advanced-lighting.md) en attendant. :::
@@ -186,4 +186,4 @@ The internal format for a lighting event is described in the dedicated [Map Form
 
 ## Credits
 
-The content on this page was authored by [LittleAsi](/mapping/mapping-credits.md#littleasi), [Puds](/mapping/mapping-credits.md#puds), [Skeelie](/mapping/mapping-credits.md#skeelie), and [Bullet](/mapping/mapping-credits.md#bullet).
+The content on this page was authored by [LittleAsi](./mapping-credits.md#littleasi), [Puds](./mapping-credits.md#puds), [Skeelie](./mapping-credits.md#skeelie), and [Bullet](./mapping-credits.md#bullet).

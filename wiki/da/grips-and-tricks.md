@@ -2,81 +2,81 @@
 sidebar: auto
 ---
 
-# Grips And Tricks
-_A compilation of resources to help you to hit bloq_
+# Greb og Tricks
+_En ressourcesamling som hjælper dig med at ramme bloq_
 
-## Ranking Up Mega-Tutorial
-An incredible writeup by TeknozFR to help you get that PP. [Ranking & Scoring Guide](./ranking-guide)
+## Ranking Up Mega-Guide
+En fantastisk opskrivning af TeknozFR der kan hjælpe dig med at få PP. [Rangering & Scoringsguide](./ranking-guide)
 
 ## Scoring
-See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) about how the scoring system works.
+Se denne video af [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) om, hvordan scoringssystemet fungerer.
 
 <YouTube url='https://www.youtube.com/watch?v=rVbXCGddspA' />
 
-Additionally, here's an image from the devs about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
+Derudover er der her et billede fra spillets udviklere om hvordan [hitboxes](https://twitter.com/Split82/status/979365834324889600) fungerer
 
 ![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
 
-## Ranking
-*How does global ranking work? What are performance points? What are the numbers in my brackets? Why is my PP so small?*
+## Rangering
+*Hvordan fungerer global rangering? Hvad er præstations point? Hvad betyder tallene i parentes? Hvorfor er min PP så lille?*
 
-You can find your global ranking and PP on [ScoreSaber](https://scoresaber.com/global) - here you can search for your name. Your scoresaber account is tied to your Steam / Oculus username.
+Du kan finde din globale rang og PP på [Scoresaber](https://scoresaber.com/global) - her kan du søge efter dit navn. Din scoresaber konto er forbundet til dit Steam / Oculus brugernavn.
 
-1. Ranked songs are assigned PP (PP = performance points). The exact amount of PP gained is determined by the accuracy you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by Umbranox, our Panda God.
-2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays. This curve is 0.965^(x-1) where x is the position of that score on your song list. e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play. If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get after the curve applies. Here is a list of my current top 4 plays where the raw PP is in italic and the weighted PP is in bold.
+1. Rangerede sange er tildelt PP (PP = præstations point). Mængden af PP du opnår er bestemt af den nøjagtighed du kan klare en rangeret sang med. Hvor mange PP en rangeret sang er værd, er bestemt af en hemmelig algoritme udviklet af Umbranox, vores Panda Gud.
+2. For at undgå at dygtige spillere grinder mange nemme sange som er mindre PP værd, bliver en kurve ganget på dine scores. Denne kurve er 0.965^(x-1) hvor x er positionen af scoren på din sangliste. f.eks. hvis din bedste score er på 260 PP vil du få 260 vægtede PP, hvilket er 100% af den rå PP fra den score. Hvis din anden højeste score er 247 rå PP, vil du i stedet få 238 vægtede PP. Dette er den faktiske mængde af PP du får når kurven gælder. Her er en liste over mine nuværende top 4 scores, hvor den rå PP er skrevet med kursiv og den vægtede PP med fed.
 
-| Raw PP | Weighted PP                  |
-| ------ | ---------------------------- |
-| 260pp  | **260pp** (100% of raw PP)   |
-| 247pp  | **238pp** (96.5% of raw PP)  |
-| 246pp  | **229pp** (93.1% of raw PP)  |
-| 244pp  | **219pp**  (89.9% of raw PP) |
+| Rå PP | Vægtet PP                   |
+| ----- | --------------------------- |
+| 260pp | **260pp** (100% af rå PP)   |
+| 247pp | **238pp** (96,5 % af rå PP) |
+| 246pp | **229pp** (93,1% af rå PP)  |
+| 244pp | **219pp**  (89,9% af rå PP) |
 
-3. To rank up, get scores on new songs that are worth more or a similar amount of PP to your top scores. When you don't have any new high PP songs to play, replay songs on your first pages to get better scores. Here is a [spreadsheet by DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) of all the ranked songs and how much PP they are worth. This list is updated every 24 hours.
+3. For at stige i rang er det godt at få scores på nye sange som er mere værd, eller en lignende mængde, PP af dine top scores. Når du ikke længere har nye høje PP sange at spille, så genspil sange på din forside for at få bedre scores. Her er et [regneark af DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) af alle rangerede sange og hvor mange PP de er værd. Denne liste opdateres hver 24. time.
 
-Here is another site by [DuoVR](https://duovr.github.io/BigPP/) where you can input your scoresaber profile and it shows you songs that you should play for a lot of PP.
+Her er en anden hjemmeside af [DuoVR](https://duovr.github.io/BigPP/) hvor du kan indtaste din scoresaber profil. Den vil så vise dig sange som du burde spille for en masse PP.
 
-*This section is adapted from Tek's writeup in the Beat Saber Canadian discord.*
+*Denne sektion er indrettet ud fra Tek's opskrivning i den Canadiske Beat Saber discord.*
 
-::: tip Songs are ranked by the team in the [ScoreSaber Discord](https://discord.gg/WpuDMwU). You can follow along in this server to see what changes happen! :::
+::: tip Sange er rangeret af holdet fra [ScoreSaber Discorden](https://discord.gg/WpuDMwU). Du kan følge med på serveren og se hvilke ændringer der sker! :::
 
-## Grips
-Cube Community made some videos showing off some of the more popular grips for Oculus Touch controllers (CV1) and Vive Wands.
+## Greb
+Cube Community har lavet nogle videoer, der viser nogle af de mest populære greb til Oculus Touch controllere (CV1) og Vive Wands.
 
 ### HTC Vive Wands
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
 
-![Vive Grips Guide](~@images/grips-and-tricks/vive-grips-guide.jpg)
+![Guide til Vive Greb](~@images/grips-and-tricks/vive-grips-guide.jpg)
 
 ### Oculus Rift
 <YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
 
-![Oculus Grips Guide](~@images/grips-and-tricks/oculus-grips-guide.jpg)
+![Guide til Oculus Greb](~@images/grips-and-tricks/oculus-grips-guide.jpg)
 
-### Oculus Rift S and Quest
-A video has not yet been made for Rift S and Quest controllers, but you can find some examples below! ![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/touch2-grips.jpg)
+### Oculus Rift S og Quest
+Der er ikke blevet lavet en video til Rift S og Quest controllers endnu, men du kan finde nogle eksempler nedenfor! ![Guide til Oculus Rift S/Quest](~@images/grips-and-tricks/touch2-grips.jpg)
 
 ### Valve Index Controllers
-A video has not yet been made for Index controllers, but you can find some examples in their `#tips-and-grips` channel! [CC Discord](https://discord.gg/dwe8mbC)
+Der er ikke blevet lavet en video til Index controllers endnu, men du kan finde nogle eksempler i deres `#tips-and-grips` kanal! [CC Discord](https://discord.gg/dwe8mbC)
 
 ### Oculus Quest 2
-A video has not yet been made for the Quest 2's controllers, but you can find some examples below! ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
+Der er ikke blevet lavet en video til Quest 2 controllers endnu, men du kan finde nogle eksempler nedenfor! ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
 
-Check out Cube Community's `#tips-and-grips` channel for more suggestions and examples in their [Discord](https://discord.gg/dwe8mbC). Please remember that everyone's playstyle and body is different; someone else's grip might not work exactly like you need it to. Don't be afraid to experiment and find what's right for you!
+Tjek Cube Community's `#tips-and-grips` kanal ud for flere forslag og eksempler i deres [Discord](https://discord.gg/dwe8mbC). Husk venligst at alles spillestil og krop er anderledes. En andens greb fungerer måske ikke præcis som du ønsker det. Vær ikke bange for at eksperimentere og finde hvad der er rigtigt for dig!
 
-## Improve Vive controller tracking
-Your body may be blocking one lighthouse from seeing one of your controllers. Here are some steps that may help improve tracking.
+## Forbedr Vive controller tracking
+Din krop blokerer muligvis et lighthouse fra at se en af dinne controllers. Her er nogle trin som kan hjælpe med at forbedre tracking.
 
-1. Move into the corner of your playspace.
-2. Rotate your body 45 degrees so that your lighthouses can see both controllers.
-3. Rotate the room within Beat Saber's settings to compensate, so that you appear facing forward within the game.
+1. Bevæg dig ind i hjørnet af dit spilleområde.
+2. Roter din krop 45 grader, således at dine lighthouses kan se begge controllers.
+3. Roter rummet i Beat Sabers indstillinger for at kompensere, således du kigger fremad i spillet.
 
-![Vive Tracking Help](~@images/grips-and-tricks/vive-tracking-help.gif)
+![Hjælp til Vive Tracking](~@images/grips-and-tricks/vive-tracking-help.gif)
 
-This can apply to oculus sensors too.
+This can apply to Oculus sensors too.
 
-## Touch Controller Battery Disconnect
-The force of your swings in Beat Saber can cause the spring in the touch controllers to compress and disconnect the battery for a brief moment. This is what happens when you see your saber lose positional tracking but still rotate in place. To alleviate this, ragesaq recommends adding extra springs inside the battery compartment to decrease the likelihood of battery disconnects happening, explained in this [Reddit post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
+## Frakobling af Touch Controllers batteri
+Kraften i dine sving i Beat Saber kan få fjederen i touch controllerne til at komprimere og afbryde batteriet i et kort øjeblik. Dette er hvad der sker når du ser din saber miste positionel tracking, men stadigvæk rotere på stedet. For at afhjælpe dette, anbefaler ragesaq at tilføje ekstra fjedre i batterirummet for at mindske sandsynligheden for at batteriet afbrydes, som forklaret i denne [Reddit Post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
 
-## Also Consider
-![Also Consider](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)
+## Overvej også
+![Overvej også](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)

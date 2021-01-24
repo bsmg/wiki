@@ -1,11 +1,15 @@
 # Custom Platforms
-## Installation
-The latest Custom Platforms plugin can be found in the can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant). Once you've installed it you will see a folder called `CustomPlatforms` in [your install folder](/faq/install-folder.md). This is where you should place the `*.plat` files you want to use.
 
-You can download more platforms on [ModelSaber](https://modelsaber.com/Platforms/).
+## Instalação
 
-## Usage
-Inside the game in the main menu you will see a `PLATFORMS` button at the top left of the Mods menu over by the release notes. Pressing it will open up the menu you can use to select which platform you want to use. Note that if you intend to use Progress Counter from Counters+, most platforms will block the center song timer.
+:::warning Custom Platforms é um mod exclusivo para um PC. :::
 
-## Creating Platforms
-[Emma's Platform Guide](/models/platforms-guide.html) is a great resource for learning how to make your own platforms. 
+A última versão do plugin Custom Platforms pode ser encontrado no [chat #pc-mods](https://discord.gg/beatsabermods) no Discord do BSMG ou no [Mod Assistant](https://github.com/Assistant/ModAssistant). Uma vez instalado, você verá uma pasta chamada `CustomPlatforms` na [sua pasta de instalação](/faq/install-folder.md). Aqui é onde você deve colocar o arquivo `*.plat` que você deseja usar.
+
+Você pode baixar mais plataformas no [ModelSaber](https://modelsaber.com/Platforms/).
+
+## Uso
+Dentro do jogo no menu principal, você verá um botão de `PLATFORMS` no canto superior esquerdo do menu Mods perto do release notes. Pressioná-lo abrirá o menu que você pode usar para selecionar qual plataforma você deseja usar. Note que se você pretende usar o Contador de Progresso do Counters+, a maioria das plataformas irá bloquear o timer principal da música.
+
+## Criando Plataformas
+[Guia de plataforma da Emma](./platforms-guide.md) é um ótimo recurso para aprender como criar suas próprias plataformas. 

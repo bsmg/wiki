@@ -71,7 +71,7 @@ Building in Release mode will generate a packaged `.zip` file ready to upload to
 
 ## Testing your mod in-game
 To test if your mod is loaded in-game, you will need to launch Beat Saber with the BSIPA Console enabled. Add `--verbose` as a launch argument and run the game.  
-For more information on launch arguments, see [here](/modding/#launch-args).
+For more information on launch arguments, see [here](./#launch-args).
 
 When you launch the game, you should see BSIPA load your mod in the console window.
 

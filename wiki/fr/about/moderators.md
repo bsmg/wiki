@@ -1,4 +1,4 @@
-# Moderators
+# Modérateurs
 Avec un serveur aussi vaste, énormément de modération est nécessaire pour faire respecter l'ordre. Vous pouvez remercier cette équipe pour garder les rues propres.
 
 ## BeigeAnimal
@@ -11,14 +11,15 @@ Nous avons dû fouetter cet enfant pour le modeler mais c'est désormais l'un de
 ## Caeden117
 Combien de statistiques pouvont nous faire rentrer dans un seul mod de compteurs ? Beaucoup apparemment. Il est aussi responsable des tutoriels sur le Modding sur ce wiki et de ChroMapper, un logiciel de Mapping supportant des lumières Chroma, sortant bientôt.
 
-**Rôles :** Modérateur
+**Rôles :** Moddeur, Modérateur  
+**Contributions :** Counters+, les tutoriels de Modding du wiki
 
-[Twitch](https://www.twitch.tv/sarpest_razor) | [Faire un don](https://streamelements.com/sarpest_razor/tip)
+[GitHub](https://github.com/caeden117) | [Faire un don](https://ko-fi.com/Caeden117)
 
 ## Chara_
-lolPants
+brrrrrr
 
-**Rôles :** Modérateur
+**Rôles :** Artiste 3D, Modérateur, Support, Moddeur
 
 [Qosmetics Community](https://discord.gg/qosmetics) | [YouTube](https://www.youtube.com/c/CharaHere)
 
@@ -30,79 +31,79 @@ Pepega
 [Twitch](https://www.twitch.tv/deejayvr)
 
 ## Eradawn
+"Findus says hai"
+
+**Roles:** Moderator, Support
+
+## Guatapuri
+"Came for the game, Stayed for the hugs"
+
 **Rôles :** Modérateur, Mappeur
-
-**Rôles :** Support, Modérateur
-
-## InfJager
-Ne peut pas toucher les jumps.
-
-**Rôles :** Modérateur
 
 ## Hydrand
 Camellia is SourPls
 
-Litérallement aucune idée de ce qu'il fait quand on en vient au codage, du tout, mais il peut réparer des extonsions.
+**Rôles :** Modérateur, Mappeur
 
 [Twitch](https://www.twitch.tv/hydrandvr)
 
 ## joelseph
 \+ joelseph
 
-Poi !
+**Rôles :** Modérateur
 
 [Twitch](https://www.twitch.tv/tehjoelseph)
 
 ## 𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯
-Poi!
+Poi !
 
 **Rôles :** Artiste 3D, Support, Modérateur
 
 [Twitch](https://www.twitch.tv/br3uker)
 
 ## Maladaze
-[GitHub](https://github.com/lolPants) | [Twitch](https://twitch.tv/lolpants_) | [PayPal](https://www.paypal.me/jackbarondev) | [Ko-fi](https://ko-fi.com/lolpants) | [Patreon](https://www.patreon.com/JackBaron) | [Faire un don](https://monzo.me/jackbaron)
+Ne peut pas toucher les jumps.
 
-**Rôles :** Moddeur, Modérateur **Contributions :** Counters+, les tutoriels de Modding du wiki
+**Rôles :** Modérateur
 
 [Twitch](https://www.twitch.tv/infjager)
 
 ## Olaf
-[GitHub](https://github.com/caeden117) | [Faire un don](https://ko-fi.com/Caeden117)
-
-**Contributions :** Un tas de modèles et mods Quest
-
-[Twitch](https://twitch.tv/olafstad)
-
-## Pink
-The only Moderator to ghost us when asked for a description for this page.
-
-Le seul modérateur à nous ignorer quand on demande une description pour cette page.
-
-**Rôles :** Artiste 3D, Modérateur, Support, Moddeur
-
-## Pyrowarfare
-A BeastSaber admin who wrote the majority of content for [How to Playtest](./how-to-testplay.md), [Mapping Anxiety](./mapping-anxiety.md), and contibuted on various other pages. Be warned: you will be asked to talk about your feelings.
-
 Des stroopwafels ?
 
 **Rôles :** Modérateur
 
+[Twitch](https://twitch.tv/olafstad)
+
+## Pink
+Le seul modérateur à nous ignorer quand on demande une description pour cette page.
+
+**Rôles :** Artiste 3D, Modérateur, Support, Moddeur
+
+**Contributions :** Un tas de modèles et mods Quest
+
+## Pyrowarfare
+A BeastSaber admin who wrote the majority of content for [How to Playtest](./how-to-testplay.md), [Mapping Anxiety](./mapping-anxiety.md), and contibuted on various other pages. Be warned: you will be asked to talk about your feelings.
+
+**Rôles :** Modérateur, Mapping Support
+
+[BeatSaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf) | [BeastSaber](https://bsaber.com/members/pyrowarfare/)
+
 ## RangeValley
 "Mon père a travailler des années comme admin, mais il s'est fait renvoyé quand les robots ont pris le contrôle. Il est revenu à la maison cette nuit et m'a raconté que nous devions déménager dans le van, puisqu'on ne pouvait plus payer loyer, puis il m'a défoncé à coup de câbles de démarrage. Le shitpost devrait être légal."
 
-**Rôles :** Moddeur, Staff (Retired), Modérateur **Contributions** CMB, ModSaber, Moderation, BeatSaver Reloaded
+**Rôles :** Modérateur
 
 ## Razor
-Literally no clue what he's doing when it comes to coding, at all, but he can fix ploogin.
+Litérallement aucune idée de ce qu'il fait quand on en vient au codage, du tout, mais il peut réparer des extonsions.
 
-**Rôles :** Moddeur, Modérateur **Contributions :** FPSCounter, QSettings+, Short Trail
+**Rôles :** Support, Modérateur
 
-[Twitch](https://www.twitch.tv/sarpest_razor) | [Donate](https://streamelements.com/sarpest_razor/tip)
+[Twitch](https://www.twitch.tv/sarpest_razor) | [Faire un don](https://streamelements.com/sarpest_razor/tip)
 
 ## Shad
 "Chaque canal est simplement #pc-mod-support"
 
-**Roles:** Moderator, Mapper
+**Rôles :** Mappeur, Modérateur
 
 [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [YouTube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)

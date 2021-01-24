@@ -1,29 +1,29 @@
-# Making Mods
-## Injecting Mods
-Beat Saber _**does not**_ have built in mod support.
+# Mods erstellen
+## Mods injizieren
+Beat Saber _**hat keine**_ Mod Unterstützung eingebaut.
 
-Instead, most mods within the mod installer rely on [BSIPA (Beat Saber Illusion Plugin Architecture)](https://github.com/nike4613/BeatSaber-IPA-Reloaded/) to inject plugins into the game, as well as providing some useful tools for us modders.
+Stattdessen verlassen sich die meisten Mods im Mod-Installer auf [BSIPA (Beat Saber Illusion Plugin Architecture)](https://github.com/nike4613/BeatSaber-IPA-Reloaded/) um Plugins ins Spiel zu injizieren, sowie die Bereitstellung einiger nützlicher Werkzeuge für uns Modder.
 
-For those of you who prefer [BepInEx](https://github.com/BepInEx/BepInEx) over either of these options, Bepis has created a loader for BSIPA plugins, available [here](https://github.com/BepInEx/BepInEx.BSIPA.Loader). As for developing Beat Saber plugins with the BepInEx plugin API, a generic guide exists on their [documentation site](https://bepinex.github.io/bepinex_docs/v5.0/articles/dev_guide/plugin_tutorial/index.html), but other than that you're kinda on your own.
+Für diejenigen, die [BepInEx](https://github.com/BepInEx/BepInEx) über einer dieser Optionen bevorzugen, hat Bepis einen Loader für BSIPA-Plugins erstellt, der [hier](https://github.com/BepInEx/BepInEx.BSIPA.Loader) verfügbar ist. Was die Entwicklung von Beat Saber Plugins mit dem BepInEx Plugin API angeht, existiert eine generische Anleitung auf ihrer [Dokumentationsseite](https://bepinex.github.io/bepinex_docs/v5.0/articles/dev_guide/plugin_tutorial/index.html), aber sonst bist du auf dich allein gestellt.
 
-## Project Setup
-If you are interested in creating a Beat Saber mod, but do not have a template or Visual Studio template set up, [follow the Intro guide to get your project all set up](./intro.md).
+## Projekt einrichten
+Wenn du daran interessiert bist, einen Beat Saber Mod zu erstellen, aber keine Vorlage oder Visual Studio Vorlage eingerichtet hast, [folge dem Intro-Guide um dein Projekt komplett einzurichten](./intro.md).
 
-### Ready to go?
-Check out the [links below](#other-links) for documentation relating to Unity and related tooling. If you have any questions, the best place to ask is in the `#pc-mod-dev` channel on the [BSMG Discord](https://discord.gg/beatsabermods)
+### Bereit?
+Schau dir die [Links darunter](#other-links) für die Dokumentation zu Unity und verwandten Werkzeugen an. Wenn du irgendwelche Fragen hast, ist der beste Platz zum fragen im `#pc-mod-dev` Kanal des [BSMG Discord](https://discord.gg/beatsabermods)
 
-## Launch args
-Helpful launch arguments that will make modding / debugging easier.
+## Startargumente
+Hilfreiche Startargumente, die Modding / Debugging einfacher machen.
 
-| Argument&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description                                                                                                                                                                                                           |
-| -------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--verbose`                                                                                  | Enables the output log window for IPA. This will show the debug console that mods use.                                                                                                                                |
-| `fpfc`                                                                                       | "First Person Flying Controller"<br /><br />This allows you to use WASD and the mouse to navigate around the menu in game. This makes testing much easier, because you don't have to put on your headset! |
-| `-vrmode oculus`                                                                             | If you are running Beat Saber through Steam, this allows you to play the game on an Oculus headset.                                                                                                                   |
+| Argument&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Beschreibung                                                                                                                                                                                                             |
+| -------------------------------------------------------------------------------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `--verbose`                                                                                  | Aktiviert das Ausgabeprotokoll-Fenster für IPA. Dies wird die Debug-Konsole anzeigen, die Mods verwenden.                                                                                                                |
+| `fpfc`                                                                                       | "First Person Flying Controller"<br /><br />Dies erlaubt es dir, mit WASD und der Maus durch das Menü im Spiel zu navigieren. Das macht das Testen viel einfacher, da du dein Headset nicht aufsetzen musst! |
+| `-vrmode oculus`                                                                             | Wenn du Beat Saber durch Steam ausführst, kannst du das Spiel auf einem Oculus Headset spielen.                                                                                                                          |
 
-## Other Links
+## Weitere Links
 * [BeatMods](https://beatmods.com)
-* [BeatMods Approval Guidelines](https://docs.google.com/document/d/15RBVesZdS-U94AvesJ2DJqcnAtgh9E2PZOcbjrQle5Y/edit?usp=sharing)
+* [BeatMods Freigaberichtlinien](https://docs.google.com/document/d/15RBVesZdS-U94AvesJ2DJqcnAtgh9E2PZOcbjrQle5Y/edit?usp=sharing)
 * [Unity Scripting API](https://docs.unity3d.com/ScriptReference/index.html)
 * [dnSpy](https://github.com/0xd4d/dnSpy)
 * [Harmony](https://github.com/pardeike/Harmony)

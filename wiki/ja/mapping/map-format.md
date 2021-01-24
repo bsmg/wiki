@@ -121,15 +121,15 @@ This is the local location to your map's audio file. The standard practice is to
 This is the local location to your map's cover image. Both `.jpg` and `.png` are supported image types. Similar to [`_songFilename`](#songfilename), this is most often just the name and extension for the cover image (For example, `cover.jpg`).
 
 ### _environmentName
-This defines the internal ID for the environment that the map uses. To get a complete list of valid environments, see the `Info.dat Name`s of each environment in the [Environment Previews section](./basic-lighting.html#environment-previews).
+This defines the internal ID for the environment that the map uses. To get a complete list of valid environments, see the `Info.dat Name`s of each environment in the [Environment Previews section](./basic-lighting.md#environment-previews).
 
 ### _allDirectionsEnvironmentName
-This defines the internal ID for the environment that the map uses when playing in 360 Degree or 90 Degree levels. This is a required field, even if the level does not include any 360 or 90 Degree difficulties. To get a complete list of valid 360 environments, see the `Info.dat Name`s of each environment in the [Environment Previews section](./basic-lighting.html#environment-previews).
+This defines the internal ID for the environment that the map uses when playing in 360 Degree or 90 Degree levels. This is a required field, even if the level does not include any 360 or 90 Degree difficulties. To get a complete list of valid 360 environments, see the `Info.dat Name`s of each environment in the [Environment Previews section](./basic-lighting.md#environment-previews).
 
 ### _songTimeOffset
 This is Beat Saber's method for tackling off-sync audio. This offsets the audio in game, based off the value of `_songTimeOffset` in milliseconds.
 
-:::warning Hit sounds are also affected by the same offset. We recommend the mapper sync up their audio file *before* mapping, as described in the [Basic Audio Setup guide](./basic-audio.html), to circumvent any need for `_songTimeOffset` and related alternatives. :::
+:::warning Hit sounds are also affected by the same offset. We recommend the mapper sync up their audio file *before* mapping, as described in the [Basic Audio Setup guide](./basic-audio.md), to circumvent any need for `_songTimeOffset` and related alternatives. :::
 
 ### _customData
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
@@ -489,4 +489,4 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
 
 ## Credits
 
-The content on this page was authored by [Caeden117](/mapping/mapping-credits.md#caeden117).
+The content on this page was authored by [Caeden117](./mapping-credits.md#caeden117).

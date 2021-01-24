@@ -3,7 +3,7 @@ title: Models
 ---
 
 # 3D Models
-All custom model plugins were created separately by different people. Each mod has its own dedicated page detailing installation and usage instructions. These are listed below and in the sidebar.
+Todos os plugins de custom model foram criados separadamente por pessoas diferentes. Cada mod tem sua própria página dedicada detalhando as instruções de instalação e uso. Estas são listadas abaixo e na barra lateral.
 
 * [Custom Sabers](./custom-sabers.md)
 * [Custom Avatars](./custom-avatars.md)
@@ -11,19 +11,19 @@ All custom model plugins were created separately by different people. Each mod h
 * [Custom Notes](./custom-notes.md)
 * [Custom Walls](./custom-walls.md)
 
-## Where to find models
+## Onde encontrar modelos
 ### ModelSaber
-[ModelSaber](https://modelsaber.com/) is the current repository for sabers, avatars, and platforms. It includes preview images, and OneClick&trade; install links.
+[ModelSaber](https://modelsaber.com/) é o repositório atual para sabres, avatares, notas, e plataformas. Ele inclui imagens e links de instalação OneClick&trade;.
 
-::: tip NOTE All models are manually approved before appearing on the site. :::
+::: tip NOTA Todos os modelos são aprovados manualmente antes de aparecer no site. Por favor, não reenvie nenhum modelo já existente para o site. :::
 
 ### Discord
-You can also find an uncurated list _(with potentially more items)_ in the `#pc-models` channel on the [BSMG Discord](https://discord.gg/beatsabermods) for PC and [Qosmetics Discord](https://discord.gg/MEBVngG) for Quest.
+Você também pode encontrar uma lista sem curadoria _(com potencialmente mais itens)_ no chat `#pc-models` no [Discord do BSMG](https://discord.gg/beatsabermods) para PC e o [Discord do Qosmetics](https://discord.gg/qosmetics) para Quest.
 
-## Creating models
-Want to learn how to make your own models? Check out one of our guides down below!
-* [Custom Sabers Guide](./sabers-guide.md)
-* [Custom Avatars Guide](./avatars-guide.md)
-* [Custom Platforms Guide](./platforms-guide.md)
-* [Custom Notes Guide](./notes-guide.md)
-* [Making Quest Models Guide](https://github.com/RedBrumbler/Qosmetics/wiki)
+## Criando modelos
+Quer aprender como criar seus próprios modelos? Confira um de nossos guias abaixo!
+* [Guia dos Custom Sabers](./sabers-guide.md)
+* [Guia dos Custom Avatars](./avatars-guide.md)
+* [Guia das Custom Platforms](./platforms-guide.md)
+* [Guia das Custom Notes](./notes-guide.md)
+* [Guia Para Fazer Modelos Para Quest](https://github.com/RedBrumbler/Qosmetics/wiki)

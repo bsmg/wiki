@@ -2,38 +2,38 @@
 sidebar: auto
 ---
 
-# Health and Safety
-_Can't hit bloq with vegetable arms_
+# Saúde e Segurança
+_Não podes acertar em blocos com braços de vegetal_
 
-## General Tips
-Beat Saber can be a pretty physically demanding game and it is important to treat play sessions just like a workout. We strongly recommend that you stretch and warm up before each play session to avoid physical injury, including damage to the wrist and shoulders. Common injuries include repetitive strain injury (RSI) to the wrist and shoulders.
+## Dicas Gerais
+Beat Saber pode ser um jogo bastante exigente em termos físicos e é importante tratar as sessões como um treino. Nós recomendamos fortemente que tu alongues e se aqueças antes de cada sessão para evitar ferimentos físicos, incluindo danos ao pulso e aos ombros. Ferimentos comuns incluem lesões como distensões repetitivas no pulso e ombros.
 
-Stretching isn't just limited to people playing crazy custom songs either, you can injure yourself even if a map seems short or simple.
+Alongar não se limita a pessoas que joguem músicas personalizadas malucas, tu podes magoar-te mesmo que um mapa pareça curto ou simples.
 
-> _Remember to stay hydrated, and breathe!_
+> _Lembra-te de te hidratares e de respirar!_
 
-## Tino's Guide to Warm Up and Recovery
-Tino is a top 10 player in Canada who kindly wrote a very detailed guide covering proper warm up, recovery, and injury relief. [Check it out here!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
+## Guia do Tino para Aquecimento e Recuperação
+O Tino é um dos 10 melhores jogadores no Canadá, que gentilmente escreveu um guia muito detalhado sobre o aquecimento, a recuperação e o alívio sobre lesões. [Podes ver aqui!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
 
-## Wrist Care
-### Weights?
-Generally, we **do not recommend** using weights for this game. Beat Saber is already a workout and people hurt themselves all the time without weights. You're basically subjecting your wrists to constant whiplash, and adding weights is only going to make things worse.
+## Cuidados a ter com o pulso
+### Pesos?
+Geralmente, nós **não recomendamos** o uso de pesos neste jogo. O Beat Saber já é um treino e as pessoas estão sempre a magoar-se mesmo sem pesos. Basicamente estás a sujeitar os teus pulsos a chicotadas constantes, e adicionar pesos só vai piorar as coisas.
 
-If you insist on using weights then please at least check out [this guide](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) by VR Fitness Insider to minimize the risk of injury.
+Se insistires em usar pesos, então por favor, pelo menos confere [este guia](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) feito pelo VR Fitness Insider para minimizar o risco de lesão.
 
-### Dr Levi Harrison's Tips
-Dr. Levi has saved the wrist of countless players with his videos, and he's made a video specifically covering some exercises to help prevent injury from playing Beat Saber! We **highly** recommend his tips!
+### Dicas do Dr. Levi Harrison
+O Dr. Levi salvou o pulso de incontáveis jogadores com os seus vídeos, e ele fez um vídeo especificamente sobre alguns exercícios para ajudar a prevenir ferimentos ao jogar Beat Saber! Nós **recomendamos** sériamente as suas dicas!
 
 <YouTube url='https://www.youtube.com/watch?v=IoL1NOKUmoU' />
 
-## Safety
-Keep your playspace clear of obstructions, allow adequate room around during gameplay, and always wear your wrist straps.
+## Segurança
+Mantem o teu espaço de jogo livre de obstruções, permite um espaço adequado durante a jogabilidade e usa sempre as tuas correias de pulso.
 
-![Allow Adequate Room Around You](~@images/health-and-safety/allow-adequate-room-around-you.png "Allow Adequate Room Around You")
+![Permitir espaço adequado ao teu redor](~@images/health-and-safety/allow-adequate-room-around-you.png "Permitir espaço adequado ao teu redor")
 
-::: warning NOTE Beat Saber is not available for the Nintendo Wii, this image is used for informative purposes only. :::
+::: warning NOTA O Beat Saber não está disponível para a Nintendo Wii, esta imagem é usada apenas para fins informativos. :::
 
-## A Short Message from TammyMatty
-To reduce the risk of physical injury, always remember to stretch before and after playing Beat Saber. Please consider the following:
+## Uma breve mensagem da TammyMatty
+Para reduzir o risco de ferimentos físicos, lembra-te sempre de alongar antes e depois de jogar Beat Saber. Por favor, observa o seguinte:
 
 ![Wammy](~@images/health-and-safety/wammy.gif "Wammy")

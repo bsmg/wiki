@@ -17,10 +17,10 @@ Overseeer of core services, including BeatSaver and BeatMods servers. The origin
 [GitHub](https://github.com/Assistant) | [Donate](https://bs.assistant.moe/Donate) | [Patreon](https://www.patreon.com/AssistantMoe)
 
 ## Bloodcloak
-Really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps.
+A mapper that is really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps. *Totally* hasn't fallen into the vTuber hole.
 
 **Roles:** Staff, Mapping Support, Mapper  
-**Contributions:** Wiki Mapping Resources
+**Contributions:** Wiki Management, Mapping Resources Maintainer
 
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
 

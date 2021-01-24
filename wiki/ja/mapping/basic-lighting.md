@@ -8,9 +8,9 @@ description: Learn how to get started manually lighting your map!
 # Basic Lighting
 _Make Beat Saber a brighter place by manually lighting your maps_
 
-* [Glossary of Terms](/mapping/glossary.md)
+* [Glossary of Terms](./glossary.md)
 ---
-Every map needs to have lighting of some sort. Once you know the tools at your disposal, simplistic manual lighting can be very easy. [This link](https://streamable.com/s/x7zj0/vrugyj) is a video example of very simple manual lighting  (Note: The example uses [Map Color Overrides](/mapping/basic-lighting.html#map-color-overrides)). You don't need to be an AaltopahWi or a Skeelie to make great lighting!
+Every map needs to have lighting of some sort. Once you know the tools at your disposal, simplistic manual lighting can be very easy. [This link](https://streamable.com/s/x7zj0/vrugyj) is a video example of very simple manual lighting  (Note: The example uses [Map Color Overrides](#map-color-overrides)). You don't need to be an AaltopahWi or a Skeelie to make great lighting!
 
 ## Lighting Types
 The available lighting types are consistent across each of the built-in game environments, though they may be in slightly different positions or not present in some cases.
@@ -18,10 +18,10 @@ The available lighting types are consistent across each of the built-in game env
 * **Side/Top Lasers:** Sets of rotating lasers to the sides of the track or above/below the track, depending on which environment you’ve selected. Rotation is set using the Laser Speed function.
 * **Back Lasers:** Static lasers, often in an “X” pattern at the back of the track, behind the chevron.
 * **Ring Lights:** Lights attached to the inside of the large outer rings that spin in almost all environments.
-* **Ring Spins:** Used to create movement in the rings. In environments with both an inner and an our ring, rings spins rotate both rings together.
+* **Ring Spins:** Used to create movement in the rings. In environments with both an inner and an outer ring, rings spins rotate both rings together.
 * **Ring Zooms:** Used to zoom and unzoom the inner ring in environments that have it. Does not affect the outer ring.
 * **Laser Speed:** Changes the speed of the side laser rotation from stationary (0) to very fast (20). Set independently for the right and left side lasers. Back top lasers do not move. Laser speed increases linearly so **2** is twice as fast as **1** and **5** is five times as fast as **1**.
-* **Boost Event:** Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors.
+* **Boost Event:** Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors. There is no fade or flash option for this event.
 
 ## Lighting Events
 Each lighting type can make use of four different lighting events.
@@ -43,13 +43,13 @@ Lighting truly is an art which means that it's much more subjective than mapping
 **TranquillizeMe** has created a lighting tutorial, [Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc), detailing useful lighting techniques and general tips for lighting.
 
 ::: warning NOTE  
-Lighting previews are not realistic in the editors currently available to the public so it’s important to preview your lights in-game often. See [Previewing Your Lights](/mapping/basic-lighting.html#previewing-your-lights) for some tools that can help. :::
+Lighting previews are not realistic in the editors currently available to the public so it’s important to preview your lights in-game often. See [Previewing Your Lights](#previewing-your-lights) for some tools that can help. :::
 
 ### Key Bindings
-Each map editor handles lighting differently so you’ll want to get to know the key bindings and how placements work in your editor of choice. Lighting keybinds vary by editor. Consult your editor's user guide or readme or refer to this helpful list [Cross-Editor Keybindings](/mapping/editor-keybinds.md).
+Each map editor handles lighting differently so you’ll want to get to know the key bindings and how placements work in your editor of choice. Lighting keybinds vary by editor. Consult your editor's user guide or readme or refer to this helpful list [Cross-Editor Keybindings](./editor-keybinds.md).
 
 ### Assigning Lighting Events
-Mappers lighting their first map should start by assigning specific [lighting types](/mapping/basic-lighting.html#lighting-types) to specific instruments, then branch out from there as they get more experienced. This method won't usually produce the most exciting shows, but it's hard to mess up. This might look like:
+Mappers lighting their first map should start by assigning specific [lighting types](#lighting-types) to specific instruments, then branch out from there as they get more experienced. This method won't usually produce the most exciting shows, but it's hard to mess up. This might look like:
 - **Track Lights:** Bass or Kick Drum
 - **Lasers:** Melody
 - **Ring Lights:** Synth A or Cymbals
@@ -74,7 +74,7 @@ Be cautious about putting off events exactly in the middle of two lights as it c
 ## Default Environments
 There are various built-in environments in Beat Saber which are part of the base game and can be used easily with a few clicks.
 
-::: warning NOTE Custom environment models (platforms) created by the community exist but require the Custom Platforms mod which is not currently available through Mod Assistant. A beta version may be available in #pc-mods the BSMG Discord. :::
+::: warning NOTE Custom environment models (platforms) created by the community exist but require the Custom Platforms mod which is not currently available through Mod Assistant. A beta version may be available in the `#pc-mods` channel of the BSMG Discord. :::
 
 The basic structure of each environment is mostly the same. In the [Mediocre Map Assistant 2](./mediocre-map-assistant.md) editor the lighting track looks like this:
 <p align="center">
@@ -108,14 +108,12 @@ The basic structure of each environment is mostly the same. In the [Mediocre Map
 ### Setting Your Environment
 New default environments become available reasonably often which means that map editors don't always have the complete list available. If the environment you want to use is not an option in your favorite editor's settings you will have to edit your `Info.dat` file to add the environment name.
 
-::: danger If you choose to add a different default environment to your map via file editing this must be the LAST thing you do before releasing. If you open your map in the editor again the environment will be erased. :::
-
-1. Decide which environment you want to use then copy the `Info.dat name` from the [Environment Previews](/mapping/basic-lighting.html#environment-previews) section above.
+1. Decide which environment you want to use then copy the `Info.dat name` from the [Environment Previews](#environment-previews) section above.
 2. Open your `Info.dat` file in the text editor of your choice.
 3. Scroll down to the `"_environmentName":` section.
 4. Paste in the name you copied in Step 1.
 
-> **NOTE:** You cannot use a custom platform in this field. This will be covered in [Advanced Lighting](/mapping/advanced-lighting.md#custom-environments).
+> **NOTE:** You cannot use a custom platform in this field. This will be covered in [Advanced Lighting](./advanced-lighting.md#custom-environments).
 
 ## Map Color Overrides
 You can force your own map color scheme in-game as long as the user has the SongCore mod installed and has enabled the `Enable Custom Song Colors` option in the mod settings.
@@ -124,9 +122,9 @@ Since Beat Saber version 1.4, users can set the Red/Green/Blue (RGB) colors of n
 
 :::tip When choosing color overrides for the notes. It is **HIGHLY** recommended that you keep reddish/warm/aggressive colors on the left and blueish/cold/soft colors on the right to avoid confusing players. :::
 
-See [Environment Default Colours](/mapping/lighting-defaults.html) for a list of default colors used in the environments.
+See [Environment Default Colours](./lighting-defaults.md) for a list of default colors used in the environments.
 
-[BeatMapper](/mapping/#beatmapper-app), [ChroMapper](/mapping/#chromapper-coming-soon), and [MMA2](/mapping/#mediocre-map-assistant-2) natively support color overrides. Check their respective guides for more information.
+[BeatMapper](./#beatmapper-app), [ChroMapper](./#chromapper-coming-soon), and [MMA2](./#mediocre-map-assistant-2) natively support color overrides. Check their respective guides for more information.
 
 ### Manually Adding Color Overrides
 1. Decide what RGB colors you want notes and/or lights and/or walls to be. Use a color scheme utility like [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF) to find complimentary colors.
@@ -172,4 +170,4 @@ After installing the mods and adding the launch parameter you can then now move 
 [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** is an online tool that is a convenient way to checkout how your map might look in game without the game. Just upload your map zip to the website and preview! Unfortunately **IOS and Safari are currently not supported.**
 
 ## Credits
-Content in this section was authored by [LittleAsi](/mapping/mapping-credits.html#littleasi) and [Kolezan](/mapping/mapping-credits.html#kolezan) or derived from guides by [Puds](/mapping/mapping-credits.html#puds) and [MandyNasty](/mapping/mapping-credits.html#mandynasty). With visual media contributions from [Aeroluna](/mapping/mapping-credits.html#aeroluna) and [Bullet](/mapping/mapping-credits.html#bullet).
+Content in this section was authored by [LittleAsi](./mapping-credits.md#littleasi) and [Kolezan](./mapping-credits.md#kolezan) or derived from guides by [Puds](./mapping-credits.md#puds) and [MandyNasty](./mapping-credits.md#mandynasty). With visual media contributions from [Aeroluna](./mapping-credits.md#aeroluna) and [Bullet](./mapping-credits.md#bullet).

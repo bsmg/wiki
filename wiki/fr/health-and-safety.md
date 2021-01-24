@@ -29,7 +29,7 @@ Le Dr Levi a sauvé de nombreux poignets de joueurs avec ses vidéos, et il a r�
 ## Sécurité
 Gardez votre espace de jeu dégagé, vidé de tout obstacle, assurez-vous qu'il soit suffisamment étendu pendant la session, et attachez vos dragonnes à tout moment.
 
-![Allow Adequate Room Around You](~@images/health-and-safety/allow-adequate-room-around-you.png "Allow Adequate Room Around You")
+![Permettre un espace suffisant autour de vous](~@images/health-and-safety/allow-adequate-room-around-you.png "Permettre un espace suffisant autour de vous")
 
 ::: warning NOTE Beat Saber n'est pas disponible sur Nintendo Wii, cette image est uniquement utilisée à but informatif. :::
 

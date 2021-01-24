@@ -1,15 +1,25 @@
 # Custom Walls
-## Installation
+## Installatie
+::tip OPMERKING Walls moeten speciaal gemaakt worden voor Quest of PC en zijn niet verwisselbaar tussen beide. Je kan zien voor welk platform een wall bedoeld is aan de hand van het bestandstype. `.pixie` bestanden zijn voor PC terwijl de Quest `.zip` bestanden gebruikt. :::
 
-The latest Custom Walls plugin can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant).
+### PC Walls
+De nieuwste Custom Walls plugin kan worden gevonden in het [#pc-mods kanaal](https://discord.gg/beatsabermods) in de BSMG discord of in [Mod Assistant](https://github.com/Assistant/ModAssistant).
 
-Once installed, you should see a `CustomWalls` folder in [your install folder](/faq/install-folder.md). This folder is where you will place `*.pixie` files.
+Eenmaal geïnstalleerd (en je het spel één keer hebt gestart), zie je een `CustomWalls` map in [jouw installatie map](/faq/install-folder.md). In deze map moet je de `*.pixie` bestanden plaatsen.
 
-You can download more walls from the [#pc-walls channel](https://discord.gg/beatsabermods) in the BSMG discord.
+Je kunt meer walls downloaden via het [#pc-walls kanaal](https://discord.gg/beatsabermods) in de BSMG discord.
 
-## Usage
-Inside the game in the main menu you will see a `CUSTOM WALLS` button at the top left of the Mods menu over by the release notes. Pressing it will open up the menu you can use to select which walls you want to use. There's also additional settings you can change, such as disabling the wall frames.
+### Quest Walls
+Custom walls voor de Quest worden gegeven met de Qosmetics mod. De laatste versie is te vinden in het [#quest-mods kanaal](https://discord.gg/beatsabermods) in de BSMG discord. Walls worden `qwalls` genoemd en zijn momenteel te vinden in de [Qosmetics Community Discord](https://discord.gg/qosmetics).
 
-## Creating Custom Walls
+## Gebruik
 
-Although there's not currently a guide on how to create custom walls, one is in the works.
+### PC Gebruikers
+Binnen het spel in het hoofdmenu zie je aan de linkerkant de `CUSTOM WALLS` knop in het `Mods` menu. Door erop te drukken open je het menu waarin je kan kiezen welke wall je wilt gebruiken. Er zijn ook extra instellingen die je kunt wijzigen, zoals het uitschakelen van de wandframes.
+
+### Quest gebruikers
+Upload het zip-bestand naar jouw Quest via het [BMBF Web Interface](/quest-modding.md#installing-mods). Je kan vervolgens selecteren welke wall actief is onder het tabblad mods in BMBF.
+
+## Het maken van custom walls
+
+Hoewel er momenteel geen gids is over het maken van custom walls, word er momenteel aan een gewerkt.

@@ -10,17 +10,17 @@ sidebar: auto
 - Les mods sont soumis à rupture (arrêt de fonctionnement) par les mises à jour, et c'est normal. Soyez patient et respectueux quand cela arrive : les moddeurs sont des bénévoles et ont une vie.
 - Beat Games ne tente pas de rompre volontairement les mods. Ils souhaitent améliorer la base du jeu et parfois cela casse les mods, mais ce n'est pas dans leur objectif de tuer les mods.
 
-N'attaques pas les développeurs pour des problèmes relatifs aux mods, et inversement. Les moddeurs et les développeurs sont deux groupes séparés. Just don't be a jerk ok. :::
+N'attaquez pas les développeurs pour des problèmes relatifs aux mods, et inversement - les moddeurs et les développeurs sont deux groupes distincts. Ne sois pas idiot ok. :::
 
-Beat Saber supporte nativement les musiques personnalisées, donc si tout ce que vous recherchez vous n'avez pas besoin de mods! C'est tout de même une bonne idée d'installer `SongCore`, puisque le mod développe cette foctionnalité de base du jeu pour améliorer les temps de chargement et permettre à d'autres mods de fonctionner, tels que le téléchargeur en jeu, les tableaux de score personnalisés, les playlists, etc.
+Beat Saber supporte nativement les chansons personnalisées, donc si tout ce que vous recherchez vous n'avez pas besoin de mods! C'est tout de même une bonne idée d'installer `SongCore`, puisque le mod développe cette foctionnalité de base du jeu pour améliorer les temps de chargement et permettre à d'autres mods de fonctionner, tels que le téléchargeur en jeu, les tableaux de score personnalisés, les playlists, etc.
 
 ::: warning Ce guide est pour le modding sur un PC Windows. Si vous êtes sur Quest, voyez plutôt la [page sur le modding sur Quest](/fr/quest-modding.md). Si vous êtes sur Linux, dirigez vous vers la [page pour Linux](/fr/modding/linux.md) ou [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md).
 
 Si vous rencontrez des problèmes à un point donné, veuillez vous rendre sur la [page de support](./support) et voyez si vous pouvez identifier ce qui a pu mal se dérouler avant de demander sur le serveur Discord. Dans la majorité des cas, la réponse que vous cherchez est sur cette page !
 
-:::warning I watched this video by Elite Eric, but I got stuck/it didn't work. What gives? We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After reviewing much of his content, they contain a large amount of incomplete, erroneous, or straight up incorrect information. Attempts to reach out to him to correct these errors has unfortunately been met with silence and new (also incorrect) tutorials.
+:::warning J'ai regardé cette vidéo par Elite Eric, mais je suis coincé / ça n'a pas fonctionné. Comment ça se fait ? Nous, chez BSMG, recommandons **fortement** d'éviter les tutoriels d'Elite Eric. Après avoir examiné une bonne partie de son contenu, il y a une grande quantité d'informations incomplètes, erronées ou complètement fausses. Nos tentatives de le contacter pour corriger ces erreurs n'ont malheureusement pas reçu de réponse et d'autres tutoriels (incorrects également) sont apparus.
 
-Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods). :::
+À la place, vous devriez suivre les guides écrits ici sur le wiki ou chercher de l'aide dans le [Discord BSMG](https://discord.gg/beatsabermods) (anglophone). :::
 
 ## Installateurs
 ### Mod Assistant
@@ -32,17 +32,17 @@ Un installateur de mod Beat Saber simple, similaire à l'ancien Mod Manager, mai
 
 ![ModAssistant](~@images/beginners-guide/modassistant.png)
 
-## Comment avoir plus de musiques
+## Comment avoir plus de chansons
 ### Téléchargeur en jeu
 L'extension `BeatSaver Downloader` vous permet de télécharger des maps en jeu en utilisant le bouton `MORE SONGS` dans le menu `MODS`. Cela télécharge les maps directement depuis [BeatSaver](https://beatsaver.com).
 
 ### BeatSaver
-[BeatSaver](https://beatsaver.com) est le dépôt principal des custom songs réalisées par la communauté. Beaucoup d'autres outils et sites améliorent le téléchargement des custom songs, mais ce site est la source de confiance. Pour installer les musiques personnalisées depuis le site, décompressez-les dans un dossier et placez-le dans `Beat Saber/Beat Saber_Data/CustomLevels`.  Vous pouvez également utiliser l'extension `BeatSaver Downloader` mentionnée ci-dessus, BeatList ou la fonctionnalité OneClick de ModAssistant.
+[BeatSaver](https://beatsaver.com) est le dépôt principal des custom songs réalisées par la communauté. Beaucoup d'autres outils et sites améliorent le téléchargement des custom songs, mais ce site est la source de confiance. Pour installer les chansons personnalisées depuis le site, décompressez-les dans un dossier et placez-le dans `Beat Saber/Beat Saber_Data/CustomLevels`.  Vous pouvez également utiliser le mod BeatSaver Downloader mentionné ci-dessus, BeatList ou la fonctionnalité OneClick de ModAssistant.
 
 ### Beast Saber
-[Beast Saber](https://www.bsaber.com) (bsaber.com) est un site web qui a pour but de mettre en lumière les maps fantastiques à jouer pour les trouver facilement. Pour ce faire, les milliers de musiques présentes sur BeatSaver sont catégorisées, afin que vous puissiez filtrer par genre de musique et autres étiquettes appropriées. Le site dispose également d'une fonctionnalité communautaire où les joueurs peuvent laisser leurs critiques et impressions sur les musiques. L'une des fonctionnalités les plus utilisées est le "*Curator Recommended*" où une équipe joue la plupart des musiques sorties chaque jour et recommande celles qui sortent du lot, permettant [de les télécharger automatiquement en jeu](https://bsaber.com/beatsync/).
+[Beast Saber](https://www.bsaber.com) (bsaber.com) est un site web qui a pour but de mettre en lumière les maps fantastiques à jouer pour les trouver facilement. Pour ce faire, les milliers de chansons présentes sur BeatSaver sont catégorisées, afin que vous puissiez filtrer par genre de musique et autres étiquettes appropriées. Le site dispose également d'une fonctionnalité communautaire où les joueurs peuvent laisser leurs critiques et impressions sur les chansons. L'une des fonctionnalités les plus utilisées est le "*Curator Recommended*" où une équipe joue la plupart des chansons sorties chaque jour et recommande celles qui sortent du lot, permettant [de les télécharger automatiquement en jeu](https://bsaber.com/beatsync/).
 
-### Application de gestion des musiques
+### Application de gestion des chansons
 * [BeatList](https://github.com/Alaanor/beatlist) est une application à pour gérer des playlists et maps, par Alaanor.
 
 ### Playlists
@@ -82,7 +82,7 @@ Un installateur de mods est le moyen recommandé pour installer des mods. Lisez 
 
 
 ## Où se rendre d'ici
-* [Grips et Astuces](./grips-and-tricks.md)
+* [Prises et Astuces](./grips-and-tricks.md)
 * [Créer ses propres beatmaps](/mapping/)
 * [Sabres personnalisés](/models/custom-sabers.md)
 * [Avatars personnalisés](/models/custom-avatars.md)

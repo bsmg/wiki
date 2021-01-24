@@ -1,11 +1,15 @@
 # Custom Platforms
-## Installation
-The latest Custom Platforms plugin can be found in the can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant). Once you've installed it you will see a folder called `CustomPlatforms` in [your install folder](/faq/install-folder.md). This is where you should place the `*.plat` files you want to use.
 
-You can download more platforms on [ModelSaber](https://modelsaber.com/Platforms/).
+## Installatie
 
-## Usage
-Inside the game in the main menu you will see a `PLATFORMS` button at the top left of the Mods menu over by the release notes. Pressing it will open up the menu you can use to select which platform you want to use. Note that if you intend to use Progress Counter from Counters+, most platforms will block the center song timer.
+:::warning De Custom Platforms mod is alleen geschikt voor een PC. :::
 
-## Creating Platforms
-[Emma's Platform Guide](/models/platforms-guide.html) is a great resource for learning how to make your own platforms. 
+De nieuwste Custom Platforms plugin kan worden gevonden in het [#pc-mods kanaal](https://discord.gg/beatsabermods) in de BSMG discord of in [Mod Assistant](https://github.com/Assistant/ModAssistant). Zodra je het hebt geïnstalleerd (en het spel één keer hebt gestart), ziet je een map met de naam `CustomPlatforms` in [jouw installatie map](/faq/install-folder.md). Dit is waar je de `*.plat` bestanden moet plaatsen die je wilt gebruiken.
+
+Je kan meer platforms downloaden via [ModelSaber](https://modelsaber.com/Platforms/).
+
+## Gebruik
+Binnen het spel in het hoofdmenu zie je aan de linkerkant de `CUSTOM PLATFORMS` knop in het <0>Mods</0> menu. Door erop te drukken open je het menu waarin je kan kiezen welke platforms je wilt gebruiken. Merk op dat als je van plan bent om de Progress Counters van counters+ te gebruiken, dat de meeste platforms de middelste nummer klok zullen blokkeren.
+
+## Platforms maken
+[Assistant's Platform Guide](./platforms-guide.md) is een goede gids om te leren hoe je je eigen platforms maakt. 

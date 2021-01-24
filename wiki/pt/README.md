@@ -2,9 +2,9 @@
 home: true
 title: BSMG Wiki
 heroText: BSMG Wiki
-tagline: Welcome to the Beat Saber Modding Group Wiki!
-description: Welcome to the Beat Saber Modding Group Wiki!
-actionText: Beginners Guide →
+tagline: Bem vindo à Wiki do Beat Saber Modding Group!
+description: Bem vindo à Wiki do Beat Saber Modding Group!
+actionText: Guia para Iniciantes →
 actionLink: ./beginners-guide.md
 footer: Copyright © 2019-2020 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
 tags:
@@ -12,19 +12,19 @@ tags:
   - beat saber
   - modding
   - wiki
-  - support
-  - help
-  - how are beat maps make?
+  - suporte
+  - ajuda
+  - como são feitos os mapas para o beat saber?
 ---
 
 <div class='features'>
 
-::: feature Getting Started
+::: feature Começando
 * [PC Modding](./pc-modding.md)
 * [Quest Modding](./quest-modding.md)
-* [Common Problems](./support/)
+* [Problemas Comuns](./support/)
 * [Grips and Tricks](./grips-and-tricks.md)
-* [Ranking & Scoring Guide](./ranking-guide.md)
+* [Ranking & Guia de Pontuação](./ranking-guide.md)
 :::
 
 ::: feature Creating new Content
@@ -34,24 +34,25 @@ tags:
 :::
 
 ::: feature Other Resources
-* [About Us](/about/)
+* [Sobre Nós](/about/)
 * [Health and Safety](./health-and-safety.md)
-* [Frequently Asked Questions](/faq/)
-* [Communities](/communities/)
+* [Perguntas Frequentes](/faq/)
+* [Comunidades](/communities/)
 :::
 
 </div>
 
 <hr />
 
-## External Links
-* [Join the Discord server!](https://discord.gg/beatsabermods)
-* [BSMG Patreon](https://www.patreon.com/beatsabermods) - Support the BSMG Services!
-* [BeatMods](https://beatmods.com) - Repository of mods that are reflected in installers like ModAssistant
-* [BeatSaver](https://beatsaver.com/) - Download custom songs here
-* [BeastSaber](https://bsaber.com/) - Reviews, articles, playlists, and more!
-* [ModelSaber](https://modelsaber.com/) - Download custom sabers, avatars, bloqs, and platforms!
-* [ScoreSaber](https://scoresaber.com/) - Custom leaderboards
-* [Help Translate the Wiki!](https://crowdin.com/project/bsmg-wiki)
-* [Steam Store Page](https://store.steampowered.com/app/620980/Beat_Saber/)
-* [Oculus Store Page](https://www.oculus.com/experiences/rift/1304877726278670/)
+## Links externos
+* [Junta-te ao nosso servidor de Discord!](https://discord.gg/beatsabermods)
+* [Patreon BSMG](https://www.patreon.com/beatsabermods) - Apoia os serviços BSMG!
+* [BeatMods](https://beatmods.com) - Repositório de mods para PC que se refletem em instaladores como o ModAssistant
+* [BeatSaver](https://beatsaver.com/) - Baixa músicas personalizadas aqui
+* [BastSaber](https://bsaber.com/) - Avaliações, artigos, playlists e muito mais!
+* [ModelSaber](https://modelsaber.com/) é o repositório atual para sabres, avatares, notas, e plataformas!
+* [Discord dos Qosmetics](https://discord.gg/qosmetics) - Baixar custom sabers, avatares e blocos para o Quest!
+* [ScoreSaber](https://scoresaber.com/) - Classificações personalizadas para mapas
+* [Candidata-te para ajudar a traduzir a Wiki!](https://forms.gle/e3BqA3poMjESARe76) - Traduz a wiki para o teu idioma!
+* [Página na loja Steam](https://store.steampowered.com/app/620980/Beat_Saber/)
+* [Página na loja Oculus](https://www.oculus.com/experiences/rift/1304877726278670/)

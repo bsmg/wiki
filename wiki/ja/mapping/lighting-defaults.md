@@ -584,7 +584,7 @@ This is not used by any environment. These are the colors used with an unmodifie
 ```
 
 ## Glass Desert
-refer to the [original English version](../../mapping/lighting-defaults.md),
+Identical to the colors in [Origins](#origins).
 
 ## Credits
-Content in this section was authored by [Bullet](/mapping/mapping-credits.html#bullet) with the use of [Aeroluna](/mapping/mapping-credits.html#aeroluna)'s PrintColorScheme mod.
+Content in this section was authored by [Bullet](./mapping-credits.md#bullet) with the use of [Aeroluna](./mapping-credits.md#aeroluna)'s PrintColorScheme mod.

@@ -2,14 +2,14 @@
 sidebar: auto
 prev: ./basic-mapping.md
 next: ./extended-mapping.md
-description: "false"
+description: A more in-depth look at many mapping topics to take your maps to the next level!
 ---
 
-# Mapping intermédiaire
+# Mapping Intermédiaire
 _Un résumé rapide du mapping chevronné_
 
 Mapping is level design. Design is both an art and a science. There is no “best” answer, but there are many “wrong” answers.  
-The [Basic Mapping](/mapping/basic-mapping.html) page is useful for learning what not to do as a new mapper. Once you have a bit of experience it’s time to take your understanding of mapping principles to the next level. Ultimately, the best way to learn to map is to simply keep at it.
+The [Basic Mapping](./basic-mapping.md) page is useful for learning what not to do as a new mapper. Once you have a bit of experience it’s time to take your understanding of mapping principles to the next level. Ultimately, the best way to learn to map is to simply keep at it.
 
 **Try. Adjust. Listen. Repeat.**
 
@@ -157,7 +157,7 @@ Down movement is trickier as it is easier to do more harm than good.
 ### Aesthetic Walls
 These walls are one option for adding a visual element to the map close to the player. They narrow down the field to a smaller region, making notes feel closer together and faster approaching. They can also be used to represent sounds not mapped by notes, or even used to flesh out quiet/slow/vocal drifting sections.
 
-Using Mapping or Noodle Extensions opens up a huge space of possibilities by allowing walls to be of almost any height, width, and location but, requires a significantly larger amount of effort and is not playable without the respective mod. See [Extended Mapping](/mapping/extended-mapping.md#wall-mapping) for more info.
+Using Mapping or Noodle Extensions opens up a huge space of possibilities by allowing walls to be of almost any height, width, and location but, requires a significantly larger amount of effort and is not playable without the respective mod. See [Extended Mapping](./extended-mapping.md#wall-mapping) for more info.
 
 ## Bombs
 The opposite of notes, bombs count as misses when they are hit. This opens up more opportunities for patterns, but have significant limitations. Notes specify the direction, timing, and hand all in one block. Bombs, on the other hand, have very little limitation imposed on the player.
@@ -178,6 +178,19 @@ The using 1/12 vs. 1/16 precision depends on bpm though 1/16 is a safe choice fo
 Note that there are directions that work more comfortably than others. Namely, sliders should travel clockwise for the left hand, and counterclockwise for the right hand. Sliders are almost always restricted to 3 notes or less, as changing directions mid-slider is extremely difficult to score well on. Sliders that end in the opposite lane (Such as left (Red) sliders ending in the rightmost lane) are easy to miss.
 
 Sliders can also cause significant vision blocks when use in bulk even if the center two positions are not used due to how much visual space the dots fill. Window sliders (3-note sliders that omit the center note) can be used to avoid face notes and clear up vision, but risk being hard to read.
+
+## Inverts
+Inverts are notes that are placed in a location which forces the player to swing considerably more than if they were located in a more traditional position. They add emphasis to the map and require proper setup to play comfortably.
+
+Be aware that inverts can be quite hard to read especially in rapid succession or at higher speeds.
+
+**Example placements**  
+![invert example](~@images/mapping/invert-example-placements.png)
+
+## Note Alignment for MMA2
+It is not apparent in MMA2 but this is how some notes align in game.
+
+![mma2 alignment example](~@images/mapping/mma2-alignment-examples.jpg)
 
 ## Single Saber/Handedness Switches
 Alternating the hand leading a pattern can be highly effective at providing variety, interesting motions, or unique rhythms but have limitations.
@@ -201,9 +214,9 @@ While mapping, it is recommended to slow down playback speed of the song to time
 ## Variable BPM Songs
 If, while mapping, you notice that your song was properly aligned but suddenly changes or starts to fall off beat, then it's likely a BPM issue.
 
-If the alignment suddenly and dramatically shifts for large parts of the song, but it seems consistent, it is likely your map has multiple BPMs. Depending on how often it occurs, this is relatively easy to fix. You can simply cut the map up into pieces where the grid becomes unaligned, and then run each one through [Arrow Vortex](/mapping/basic-audio.md#finding-the-bpm) to find the correct BPM for each part. You can then use BPM blocks to readjust the grid to align to the beat.
+If the alignment suddenly and dramatically shifts for large parts of the song, but it seems consistent, it is likely your map has multiple BPMs. Depending on how often it occurs, this is relatively easy to fix. You can simply cut the map up into pieces where the grid becomes unaligned, and then run each one through [Arrow Vortex](./basic-audio.md#sync-using-arrow-vortex) to find the correct BPM for each part. You can then use BPM blocks to readjust the grid to align to the beat.
 
-However, if the grid is less consistent and drifts around being aligned with no dramatic changes, then it is likely your song has a drifting BPM. This is common in older songs. This can be more of a hassle to deal with, but it is possible to address. Please see the [variable BPM guide](/mapping/advanced-audio.html#variable-bpm) for more information.
+However, if the grid is less consistent and drifts around being aligned with no dramatic changes, then it is likely your song has a drifting BPM. This is common in older songs. This can be more of a hassle to deal with, but it is possible to address. Please see the [variable BPM guide](./advanced-audio.md#variable-bpm) for more information.
 
 ## Downmapping
 "Downmapping" is the process of taking your initial difficulty, and then breaking it down to be appropriate for other skill levels. As most mappers start with expert+ or expert, the process is usually referred to as "downmapping", since you work your way down through the difficulties. However, some people can and do work in the reverse, or even just map difficulties sporadically as they see fit. That said, starting from the top and working down gives you the benefit of saving time on timings, as expert+ is typically mapped to all of the most prominent rhythms.
@@ -212,7 +225,7 @@ While it takes a bit more time to downmap, as opposed to releasing just a single
 
 The key to downmapping lies in having a solid understanding of what is fun, and playable, for players of various skill levels. However, another important aspect to consider is how well you’ve represented the music within your mapping. It’s easy enough to throw together a map that a hard player can pass, but the magic of your initial difficulty can be lost if you do not properly translate it to the lower difficulties. You should know what the ‘key’ moments in your song are, and make sure you are highlighting them across all the difficulties. This sometimes requires coming up with multiple - but similar - patterns that fit a wide skill range, but it’s very important to keep life in your map.
 
-You can check out the [Basic Mapping](/mapping/basic-mapping.html#pattern-complexity) guide for some basic structural guidelines on what is and isn’t appropriate for various difficulties. Keep in mind that NPS is NOT a great indicator of difficulty, and pattern complexity is far more important. While your difficulties should gradually drop in NPS as you go down, sometimes slower songs will have more changes in patterns than anything else, and that’s okay.
+You can check out the [Basic Mapping](./basic-mapping.md#pattern-complexity) guide for some basic structural guidelines on what is and isn’t appropriate for various difficulties. Keep in mind that NPS is NOT a great indicator of difficulty, and pattern complexity is far more important. While your difficulties should gradually drop in NPS as you go down, sometimes slower songs will have more changes in patterns than anything else, and that’s okay.
 
 ::: tip Tip Beat Saber’s five set difficulties can create issues for some spreads. It’s perfectly acceptable to have a spread that is considered to be very difficult, but you should consider pushing your labels up if this is the case. A hard player that is expecting to play a hard difficulty, but actually finds a low expert+, is not going to have a fun time. :::
 
@@ -252,4 +265,4 @@ Expert+ can vary greatly and is quite open-ended. However, if you have a spread 
 See this guide by Sykes [What swing is, and how "shuffle" will make your mapping easier ](https://docs.google.com/document/d/1j7w1X-0QtnJDFVKzyyQc_KR7RE9H3C3JFesIXGR0s1c/edit) on how to use the built in shuffle feature to make mapping songs that have swing easier.
 
 ## Credits
-Content in this section was authored by [Checkthepan](/mapping/mapping-credits.html#checkthepan), [CyanSnow](/mapping/mapping-credits.html#cyansnow), [Uninstaller](/mapping/mapping-credits.html#uninstaller), [Skyler Wallace](/mapping/mapping-credits.html#skyler-wallace), [Kolezan](/mapping/mapping-credits.html#kolezan), [Pyrowarfare](/mapping/mapping-credits.html#pyrowarfare) and [DarkGrisen](/mapping/mapping-credits.html#darkgrisen).
+Content in this section was authored by [Checkthepan](./mapping-credits.md#checkthepan), [CyanSnow](./mapping-credits.md#cyansnow), [Uninstaller](./mapping-credits.md#uninstaller), [Skyler Wallace](./mapping-credits.md#skyler-wallace), [Kolezan](./mapping-credits.md#kolezan), [Pyrowarfare](./mapping-credits.md#pyrowarfare), [DarkGrisen](./mapping-credits.md#darkgrisen) and [Vaser888](./mapping-credits.md#Vaser888).

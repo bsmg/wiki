@@ -1,8 +1,15 @@
 # Modders
 translation-done: false
 
+## Aeroluna
+The madman behind Noodle Extensions and the current maintainer for Chroma and Technicolor. He's one of the people that made Mod charts possible!
+
+**Roles:** Modder **Contributions:** Noodle Extensions, Chroma, Technicolor
+
+[GitHub](https://github.com/Aeroluna) | [Donate](https://ko-fi.com/aeroluna)
+
 ## andruzzzhka
-::: danger Sorry, this page has not been translated yet, you can either:
+A huge contributor for the in-game downloader mod, and developer of the unofficial multiplayer plugin.
 
 **Roles:** Modder **Contributions:** BeatSaver Downloader, Unoffical Multiplayer, Custom Menu Music (original)
 
@@ -193,9 +200,9 @@ Making sure we're all nice and hydrated after cutting the blocks.
 [GitHub](https://github.com/Shoko84) | [Twitch](https://www.twitch.tv/shoko84) | [Donate](https://streamlabs.com/shoko84)
 
 ## SkyKiwi
-The madman behind Chroma. He adds things to the game that suggests that his head isn't screwed on right, as well as created RGB lighting for mappers to use.
+The madman who started Chroma and Chromatoggle. He added things to the game that suggests that his head isn't screwed on right, as well as created RGB lighting for mappers to use.
 
-**Roles:** Modder **Contributions:** Chroma
+**Roles:** Modder **Contributions:** Chroma, Chromatoggle
 
 [GitHub](https://github.com/BinaryElement) | [Twitch](https://www.twitch.tv/skykiwitv) | [Donate](https://streamelements.com/skykiwitv/tip)
 
@@ -234,6 +241,6 @@ Original creator of SongLoader and CameraPlus, and a major contributor to the cu
 
 ---
 
-::: tip See Also **Support:** [Pespiri](/about/supports.md#pespiri)  
-**Moderator:** [Caeden117](/about/moderators.md#caeden117)  
-**Staff:** [+1 Rabbit](/about/staff.md#_1-rabbit) | [lolPants](/about/staff.md#lolpants) | [Megalon](/about/staff.md#megalon) | [Reaxt](/about/staff.md#reaxt) | [Rugtveit](/about/staff.md#rugtveit) | [Steven](/about/staff.md#steven-🎀) :::
+::: tip See Also **Support:** [Pespiri](./supports.md#pespiri)  
+**Moderator:** [Caeden117](./moderators.md#caeden117)  
+**Staff:** [+1 Rabbit](./staff.md#_1-rabbit) | [lolPants](./staff.md#lolpants) | [Megalon](./staff.md#megalon) | [Reaxt](./staff.md#reaxt) | [Lillie](./staff.md#lillie) | [Steven](./staff.md#steven-🎀) :::

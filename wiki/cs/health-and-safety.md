@@ -2,22 +2,22 @@
 sidebar: auto
 ---
 
-# Health and Safety
-_Can't hit bloq with vegetable arms_
+# Zdraví a bezpečnost
+_Nemůžete sekat bloky s rukama, jak nudličky_
 
-## General Tips
-Beat Saber can be a pretty physically demanding game and it is important to treat play sessions just like a workout. We strongly recommend that you stretch and warm up before each play session to avoid physical injury, including damage to the wrist and shoulders. Common injuries include repetitive strain injury (RSI) to the wrist and shoulders.
+## Tipy
+Beat Saber může být poměrně fyzicky náročná hra, proto je důležité brát každou hru Beat Saberu, jako takový trénink. Silně doporučujeme si před každou hrou Beat Saberu dát nejdříve pořádnou rozcvičku, abyste se vyhnuli jakémukoliv fyzickému zranění, včetně poškození zápěstí a ramen. Mezi běžná zranění při hraní Beat Saberu patří opakované poranění (Repetetive Strain Injury) zápěstí a ramen.
 
-Stretching isn't just limited to people playing crazy custom songs either, you can injure yourself even if a map seems short or simple.
+Rozcvička není určena pouze pro hráče šílených custom map. Zranit se můžete i při hraní mapy, která se může na první pohled zdát krátká nebo jednoduchá.
 
-> _Remember to stay hydrated, and breathe!_
+> _Nezapomeňte zůstat hydratovaní a dýchat!_
 
-## Tino's Guide to Warm Up and Recovery
-Tino is a top 10 player in Canada who kindly wrote a very detailed guide covering proper warm up, recovery, and injury relief. [Check it out here!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
+## Návod na rozcvičku a zotavení od uživatele Tino
+Tino je top 10 hráč Kanady, který si pro vás ochotně připravil tento návod, který zahrnuje pořádnou rozcvičku, zotavení a úlevu po zranění. [Podívejte se zde!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
 
-## Wrist Care
-### Weights?
-Generally, we **do not recommend** using weights for this game. Beat Saber is already a workout and people hurt themselves all the time without weights. You're basically subjecting your wrists to constant whiplash, and adding weights is only going to make things worse.
+## Péče o zápěstí
+### Závaží?
+Obecně **nedoporučujeme** používat jakékoliv závaží při hraní této hry. Beat Saber je velice fyzicky náročný už sám o sobě a lidé se neustále zraňují i bez používání závaží. Při hraní Beat Saberu v podstatě neustále vystavujete své zápěstí vysoké námaze, pokud přidáte závaží, akorát to bude horší.
 
 If you insist on using weights then please at least check out [this guide](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) by VR Fitness Insider to minimize the risk of injury.
 

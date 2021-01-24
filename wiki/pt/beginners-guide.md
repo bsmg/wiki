@@ -1,2 +1,2 @@
-# Beginners Guide
-Beat Saber is available for both PC and Oculus Quest. Since the modding scene is different for both platforms, the beginners guide is split into [PC Modding](./pc-modding.md) and [Quest Modding](./quest-modding.md).
+# Guia para Iniciantes
+O Beat Saber está disponível para PC e Oculus Quest. Tendo em conta que o cenario de mods é diferente para cada plataforma, o guia para iniciantes é dividido entre [Modding para PC](./pc-modding.md) e [Modding para Quest](./quest-modding.md).

@@ -53,11 +53,11 @@ Un tournoi au format ligue pour Beat Saber !
 
 ---
 
-## Chroma
+## BeatTogether Community
 
-Un serveur dédié à la suite de mods Chroma, qui sont principalement conçus pour ajouter plus de couleur à vos vies bicolores. Appréciez l'éclairage et les notes multicolores !
+Community for the BeatTogether mod. This mod allows crossplay between PC platforms and Quest. This is a place to discuss the mod and follow its progress and releases!
 
-[Discord](https://discord.gg/BBntx2e)
+[Discord](https://discord.com/invite/gezGrFG4tz)
 
 ---
 
@@ -71,7 +71,7 @@ Mises en avant de gameplay Beat Saber, guides sur le scoring, compilation de cli
 
 ## KPOP Beat Saber
 
-Saut ! Nous sommes une petite communauté dédiée au mapping de musiques sur Beat Saber. Points bonus s'il s'agit de Kpop. Mais nous accueillons n'importe qui est intéressé au mapping ou souhaite un feedback ! Nous mettons aussi à jour le serveur avec des sabres stylisés Kpop et des maps de Kpop.
+Salut ! Nous sommes une petite communauté dédiée au mapping de chansons sur Beat Saber. Points bonus s'il s'agit de Kpop. Mais nous accueillons n'importe qui est intéressé au mapping ou souhaite un feedback ! Nous mettons aussi à jour le serveur avec des sabres stylisés Kpop et des maps de Kpop.
 
 [Discord](https://discord.gg/c9uHGYP)
 
@@ -85,8 +85,16 @@ Tableaux des scores et classement global !
 
 ---
 
-## QuestSaber Community
+## Qosmetics Community
 
-Une communauté centrée sur la reproduction de sabres personnalisés depuis le PC pour les utilisateurs de Quest ! Nous essayons d'améliorer et faire grossir la communauté des sabres personnalisés sur Quest (sabres non actifs) et améliorer l'expérience générale des sabres personnalisés pour Quest tel qu'en ajoutant des animations personnalisées, des textures et bien d'autres !
+Qosmetics Community is a community focused around providing Custom models, including sabers bloqs and walls to the quest! We are striving to improve and grow the community of the Quest Custom Content to a whole new level. Come play your way!
 
 [Discord](https://discord.gg/NXnPYEh)
+
+---
+
+## QuestBoard
+
+We are a quest-focused beat saber community server, dedicated to improving the experience for as many players as we can.
+
+[Discord](https://discord.gg/d6DyW9v) [Website](https://www.questmodding.com/)

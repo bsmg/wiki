@@ -184,4 +184,4 @@ The internal format for a lighting event is described in the dedicated [Map Form
 
 ## Credits
 
-The content on this page was authored by [LittleAsi](/mapping/mapping-credits.md#littleasi), [Puds](/mapping/mapping-credits.md#puds), [Skeelie](/mapping/mapping-credits.md#skeelie), and [Bullet](/mapping/mapping-credits.md#bullet).
+The content on this page was authored by [LittleAsi](./mapping-credits.md#littleasi), [Puds](./mapping-credits.md#puds), [Skeelie](./mapping-credits.md#skeelie), and [Bullet](./mapping-credits.md#bullet).

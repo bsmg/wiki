@@ -2,67 +2,84 @@
 sidebar: auto
 ---
 
-# Quest Modding
+# 퀘스트 모드 적용
 
-## Preface
+## 서문
 
-- This guide is for both Quest 1 and Quest 2.
-- Nobody has yet been banned for modding.
+- 이 가이드는 퀘스트 1과 2 모두를 위한 가이드입니다.
+- 아직 아무도 모드 적용을 금지하지 않았습니다.
 
-::: danger DISCLAIMER By choosing to use mods, you understand that:
-- You may experience problems that don't exist in the vanilla game. 99.9% of bugs, crashes, and lag are due to mods.
-- Mods are subject to being broken by updates and that's normal - be patient and respectful when this happens, as modders are volunteers with real lives.
-- Beat Games aren't purposefully trying to break mods. They wish to work on the codebase and sometimes this breaks mods, but they are not out to kill mods.
+::: danger 면책 조항 모드를 사용함에 있어서, 다음을 숙지해야 합니다:
+- 바닐라 게임에는 없는 문제를 경험할 수 있습니다. 버그, 크래시, 랙의 99.9%는 모드 때문에 일어납니다.
+- 모드는 업데이트로 인하여 사용이 불가능해질 수 있으며, 이는 정상적인 현상입니다. 새로운 버전이 올라올 때 까지 기다려주세요. 모더들은 바쁜 속에서도 봉사해주고 있습니다.
+- Beat Games는 고의적으로 모드를 망가트리려 하지 않습니다. 그들은 코드베이스에서 작업하기를 원하고 때때로 이것은 모드를 깨뜨리지만 모드를 죽이려는 것은 아닙니다.
 
-Do not attack the devs for issues related to mods, and vice versa - modders and devs are two separate groups. Just don't be a jerk ok. :::
+Do not attack the game developers for issues related to mods, and vice versa - modders and game developers are two separate groups. 처신 잘하시기 바랍니다. :::
 
-## Installation
+## 설치
 
-Currently the only recommended way to install custom songs and mods is BMBF sideloaded with SideQuest.
-* [BMBF apk](https://bmbf.dev/stable) :::warning Installing BMBF and modding your game will disable Official Multiplayer, viewing, and uploading scores on base game leaderboards. This is because Oculus does not authenticate modded games.
+커스텀 곡과 모드를 설치하기 위해, SideQuest를 통해 BMBF를 설치하는 것을 추천합니다.
+* [BMBF apk](https://bmbf.dev/stable) :::warning BMBF를 설치하고 게임에 모드를 적용하면 공식 멀티플레이어, 기본 리더보드에서의 점수 조회 및 업로드가 비활성화 됩니다. 이는 오큘러스가 게임에 모드를 적용하는 것을 공식적으로 인증하지 않았기 때문입니다.
 
-See [ScoreSaber](https://new.scoresaber.com/quest) for information on setting up ScoreSaber, the community leaderboard system on your Quest.  
-Note: ScoreSaber does not replace the base game leaderboards, it only adds leaderboards for custom songs. :::
+커뮤니티 리더보드 시스템인 [ScoreSaber](https://new.scoresaber.com/quest)를 확인하여 퀘스트에서 ScoreSaber를 적용하는 방법을 확인하세요.  
+메모: ScoreSaber는 기존의 리더보드를 대체하지 않습니다. 단지 커스텀 곡에 대한 리더보드를 추가 할 뿐입니다. :::
 
-### Installing BMBF with SideQuest
+### SideQuest를 통한 BMBF의 설치
 
-If you haven't already, download and setup [SideQuest](https://sidequestvr.com/#/setup-howto)
+준비가 되었다면, [SideQuest](https://sidequestvr.com/#/setup-howto)를 받아 설치해주세요.
 
-Open SideQuest and connect your Quest to your PC. If you've previously modded Beat Saber or have scores you want to backup, go to `My Apps` located in the top bar of the window and find Beat Saber.
+SideQuest를 열고 PC에 퀘스트를 연결하세요. 만약 이전에 비트 세이버에 모드를 적용해본 적이 있거나 점수를 백업하고 싶다면, 상단 바의 `My Apps`로 가서 비트 세이버를 찾아보세요.
 
-Click the cog next to it then press the `BACKUP GAME DATA` button, if you have a modded game you also need to uninstall it by pressing the `UNINSTALL APP` button.
+Click the cog next to it then press the `BACKUP GAME DATA` button. If you have a modded game you also need to uninstall it by pressing the `UNINSTALL APP` button.
 
 ![SideQuestUninstall](~@images/beginners-guide/squninstall.png)
 
-You can later restore your save from the same menu, after modding.
+모드가 적용된 후 동일한 메뉴창에서 세이브 파일을 불러올 수 있습니다.
 
-Install the latest BMBF apk via the `Install APK from folder` button shown below.
+상단 바의 `Install APK from folder` 버튼을 이용해 다운받은 최신 버전의 BMBF apk 파일을 퀘스트에 설치해주세요.
 
 ![InstallAPK](~@images/beginners-guide/apkfromfolder.png)
 
-Once they've successfully installed, make sure you have the latest version of Beat Saber installed and unmodded. :::warning Run Beat Saber once and close it before modding! :::
+BMBF가 성공적으로 설치됐다면, 모드가 적용되지 않은 최신 버전의 비트 세이버가 퀘스트에 설치되어 있도록 합니다. ::warning 모드를 적용하기 전에 비트 세이버를 한 번 켰다가 꺼주세요! :::
 
-After running Beat Saber once, open BMBF from Oculus TV channels tab or Unknown Sources in your library. ![UnknownSourced](~@images/beginners-guide/quest_home-menu.jpg)
+비트 세이버를 한 번 실행하고 난 후에는, Oculus TV 채널이나 라이브러리 - 알 수 없는 출처에서 BMBF를 실행해줍니다.![UnknownSourced](~@images/beginners-guide/quest_home-menu.jpg)
 
-Follow each step exactly as you're told, and then you should see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
+Follow each step exactly as you're told. Then, you should see [bsaber.com](https://www.bsaber.com). This is where you can download any custom songs available.
 
-If, at any point during the install process, you get the `Restore App` popup just click `Close`, the warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences for ignoring it.
+If at any point during the install process, you get the `Restore App` popup just click `Close`. This warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences for ignoring it.
 
 ![RestoreApp](~@images/beginners-guide/restoreapp.png)
 
-## Restoring save data
+## 백업 데이터 복원
 
-### Restoring from SideQuest
+### SideQuest를 통한 복원
 
-Go back to the same menu you used to backup your data and click the `OPEN BACKUPS` button. From there, find your newest backup folder, open it, and delete the Mods folder (this is to prevent potentially old or incompatible mods from breaking your game).
+이전에 백업했던 것과 같은 메뉴로 가서, `OPEN BACKUPS` 버튼을 눌러주세요. 그곳에서 가장 최신의 백업 폴더를 연 다음, Mods 폴더를 지워주세요. (이는 오래됐거나 호환되지 않는 모드들이 게임을 작동하지 않게 하는 것을 방지하기 위함입니다.)
 
-Afterwards, go back to the menu and press the circular arrows located beside your latest backup. This is to restore your scores. The button is highlighted in the image [here](#installing-bmbf-with-sidequest).
+그 다음, 메뉴로 돌아가 최신 백업 옆에 있는 원형 화살표 버튼을 누릅니다. 이는 플레이했던 점수를 복원하기 위함입니다. 그 버튼은 [이 사진](#installing-bmbf-with-sidequest)에서 강조되어 있는 4번 항목입니다.
 
-## Installing mods
+## 모드 설치
 
+### 퀘스트 내부
+:::warning Not all mods are available in QuestBoard!  
+If a mod is not seen in here, you should follow the [Using Your PC](#using-your-pc) method instead. :::
+
+Open BMBF in your Quest and go to the `Browser` tab, there you should see a globe icon similar to what's shown below. Click it, then click the `QuestBoard` button.
+
+![globequestboard](~@images/beginners-guide/globequestboard.png)
+
+You should be greeted with the QuestBoard website below. Next, select the `DOWNLOAD MODS` tab.
+
+![questboardhome](~@images/beginners-guide/questboardhome.png)
+
+Scroll down with your thumbsticks. You can now select any mod from the list, seen below, and download it by hitting the download button next to it. Some downloads may redirect you to a website or GitHub page. If so, follow the instructions onscreen, or select the latest `.zip` in the Releases list, respectively.
+
+![questboardmods](~@images/beginners-guide/questboardmods.png)
+
+### PC 이용
 :::warning Make sure your Quest and PC are on the same network! :::
 
-Open BMBF in your Quest and go to the `Tools` tab, there you should see a web address and a version number similar to what's show below.
+Open BMBF in your Quest and go to the `Tools` tab, there you should see a web address and a version number similar to what's shown below.
 
 ![ip](~@images/beginners-guide/ip.png)
 
@@ -76,64 +93,66 @@ Now just drag any Quest compatible mods into the upload box and sync. If the mod
 
 If you want to use the same method of downloading songs as you do in BMBF in your Quest, just replace `upload` in the URL with `browser`.
 
-## Installing songs
+## 곡 설치
 
 ### Inside your Quest
 There are 2 sources to getting custom maps inside your Quest using the browser window.
-* If you are looking for curated maps and playlists visit [BeastSaber](https://bsaber.com/)
-* If you don't like the UI of BeastSaber you could also try [BeatSaver](https://beatsaver.com/)
+* [BeastSaber](https://bsaber.com/)에는 평가된 맵들과 플레이리스트가 있습니다.
+* BeastSaber의 UI가 맘에 들지 않는다면 [BeatSaver](https://beatsaver.com/)를 이용하세요.
 
-Both have a 1click button that easily installs that song onto your Quest. You can switch between these websites using the globe icon in the top right of the browser window.
+Both have a OneClick™ button that easily installs that song onto your Quest. You can switch between these websites using the globe icon in the top right of the browser window.
 
 ### Using your PC
 If you are unable to install songs inside your Quest, you can install maps using your computer similar to installing mods.
-1. Visit [BeastSaber](https://bsaber.com/) or [BeatSaver](https://beatsaver.com/) on your computer
-2. Download the zip
-3. Follow the [Installing mods](#installing-mods) steps up to the upload files screen.
-4. Drag and drop the map zip in and it should be installed!
+1. 컴퓨터에서 [BeastSaber](https://bsaber.com/) 또는 [BeatSaver](https://beatsaver.com/)로 이동하세요.
+2. zip 파일을 받아주세요.
+3. Follow the [Installing mods using your PC](#using-your-pc) steps up to the upload files screen.
+4. zip 파일을 드래그 앤 드롭하면 설치됩니다!
 
 :::tip If you want to test a map you have created see the [Testing on a Quest](/mapping/#testing-on-a-quest) Section in the Mapping Wiki section for steps on packing it up for testing! :::
 
-## Useful links and alternative guides
+## 유용한 링크와 대체 가이드
 
-* [Oculus Quest BMBF Installation Guide](https://bsaber.com/oculus-quest-custom-songs/)
-* [General Guide by Sc2ad for Learning The Basics of Asset Modding](https://github.com/sc2ad/beat-saber-community-wiki/blob/master/asset-modding-guide.md)
-* [Collection of All Current Guides for Asset Mods Such As Sabers and Notes Made by RedBrumbler](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/RedBrumblers-Asset-Mod-Guide-Wiki)
-* [Qosmetics Community](https://discord.gg/MEBVngG) - Server dedicated to making and using sabers, bloqs, and walls for Quest.
-* [Qosmetics Creation Guides](https://github.com/RedBrumbler/Qosmetics/wiki) - Guides to create your own custom sabers, bloqs, and walls for Quest.
-* [Fixing Out of Sync Audio](https://bsaber.com/quest-out-of-sync/)
-* [ScoreSaber](https://new.scoresaber.com/quest) - In-game leaderboards for custom songs
+* [오큘러스 퀘스트 BMBF 설치 가이드](https://bsaber.com/oculus-quest-custom-songs/)
+* [Sc2ad의 에셋 모드 제작을 위한 기본적인 가이드](https://github.com/sc2ad/beat-saber-community-wiki/blob/master/asset-modding-guide.md)
+* [RedBrumbler의 에셋 모드 (세이버, 노트 등) 를 위한 가이드 모음](https://github.com/RedBrumbler/BMBFCustomSabers/wiki/RedBrumblers-Asset-Mod-Guide-Wiki)
+* [Qosmetics Community](https://discord.gg/qosmetics) - Server dedicated to making and using sabers, bloqs, and walls for Quest.
+* [Qosmetics 제작 가이드](https://github.com/RedBrumbler/Qosmetics/wiki) - 퀘스트를 위한 세이버, 노트, 벽을 만드는 가이드.
+* [오디오 싱크 맞추기](https://bsaber.com/quest-out-of-sync/)
+* [ScoreSaber](https://new.scoresaber.com/quest) - 커스텀 곡을 위한 인게임 리더보드
 
-## Troubleshooting
+## 문제 해결
 :::warning I watched this video by Elite Eric, but I got stuck/it didn't work. What gives? We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After reviewing much of his content, they contain a large amount of incomplete, erroneous, or straight up incorrect information. Attempts to reach out to him to correct these errors has unfortunately been met with silence and new (also incorrect) tutorials.
 
 Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods). :::
-### Adding mods from the headset/bsaber.com doesn't work
-The reason adding mods and sabers from [BeastSaber](https://bsaber.com/) doesn't work is because those mods and sabers are intended for PC Only. To add mods and sabers for the quest use the BMBF Web Interface [How To Access BMBF Web Interface](https://bsmg.wiki/quest-modding.html#installing-mods)
+### Adding mods from beatmods.com or models from modelsaber.com does not work
+The reason adding mods from [BeatMods](https://beatmods.com/) or models from [ModelSaber](https://modelsaber.com/) doesn't work is because those mods and sabers are for PC Only.
 
-Get Quest compatible Mods and Assets from `#quest-mods` or `#quest-assets` in the Beat Saber Modding Group Discord, or you can find Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/MEBVngG). Once you have your mod zip use the [BMBF Web Interface](#installing-mods) to install it.
+Get Quest compatible Mods from [Questboard](https://www.questmodding.com/) or `#quest-mods` in the Beat Saber Modding Group Discord, with Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/qosmetics). Once you have your mod or model zip use the [BMBF Web Interface](#using-your-pc) to install it.
 ___
 ### Sideloading BMBF failed
-When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!"`
+When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!`
 
 You will need to uninstall the BMBF version on your Quest. You can do this from SideQuest's `My Apps` menu.
 ___
 ### BMBF web interface not loading
-If your BMBF Web Interface is not loading be sure that you're typing the ip from the tools tab into your browser on your computer thats on the same network. Make sure that: 1) Your IP is not `127.0.0.1`, if that shows up try rebooting your headset and/or router. 2) BMBF is open in the headset 3) There is `http://` at the beginning of the link, not `https://` 4) You have `:50000` at the end of your link 5) Your PC and Quest are on the same wifi network 6) Your IP is still the same as it can change from time to time
+If your BMBF Web Interface is not loading, be sure that you're typing the IP from the tools tab into your browser on your computer that's on the same network. Make sure that: 1) Your IP is not `127.0.0.1`, if that shows up try rebooting your headset and/or router. 2) BMBF is open in the headset 3) There is `http://` at the beginning of the link, not `https://` 4) You have `:50000` at the end of your link 5) Your PC and Quest are on the same wifi network 6) Your IP is still the same as it can change from time to time
 
 If none of these work, restart your Quest and go through the list again.
 ___
 ### BMBF not loading configuration after a few minutes
-This is likely due to using an outdated version of Beat Saber being used with BMBF. If you are not using an outdated version then try restarting your headset, and if it continues use the BMBF Web Interface to click Quick Fix.
+This is likely due to using BMBF on a game version it was not built for. Such as using BMBF for Beat Saber version `1.13.0` when the version of the game installed on the headset is `1.12.2`.  
+If the game version matches what the BMBF release page says its built for, try restarting your headset. If it still does not work use the [BMBF Web Interface](#using-your-pc) and click `Quick Fix` in the Tools tab.
 ___
 ### Beat Saber is black when I launch it
 Open the library on your Quest. Click the three dots next to Beat Saber and then click `Permissions`. In the menu that pops up, enable storage permissions and try launching the game again.
 ___
 ### My Sabers and Mods wont enable/work!
 This is most likely due to having an outdated BMBF Client, grab the latest [BMBF Release](https://bmbf.dev/stable). If the BMBF version for your Beat Saber is not there then please wait a while for the unicorns to update BMBF.
-* If your mod is supposed to be compatible with your version of BMBF, then make sure there is no folder separating the contents of the .zip file.
-* If your level doesn't load then try installing mapping extensions from #quest-mods
-* If your BMBF is on the latest version and mods wont be enabled in game then uninstall Beat Saber with the uninstall BS button in the BMBF Tools tab and reinstall and remod.
+* 모드가 BMBF 버전과 호환되어야 하는 경우, .zip 파일의 내용을 나누는 폴더가 없는지 확인하세요.
+* 만일 곡이 로딩되지 않는다면 #quest-mods 채널에서 mapping extensions 모드를 설치해보세요.
+* If your BMBF is on the latest version and mods wont be enabled in game, uninstall Beat Saber with the uninstall BS button in the BMBF Tools tab then reinstall and remod.
+* In very very very rare cases, BMBF does not have file permissions to copy mods into the right location. Check in SideQuest to make sure BMBF has file permissions.
 ___
 ### My Beat Saber gets 3 dots when I launch!
 If your Beat Saber is getting 3 dots when launching make sure that: 1) You launched and played one song before modding the game 2) You're not using a pirated version of the game 3) Make sure you're using the latest version of BMBF

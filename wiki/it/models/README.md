@@ -13,12 +13,12 @@ All custom model plugins were created separately by different people. Each mod h
 
 ## Where to find models
 ### ModelSaber
-[ModelSaber](https://modelsaber.com/) is the current repository for sabers, avatars, and platforms. It includes preview images, and OneClick&trade; install links.
+[ModelSaber](https://modelsaber.com/) is the current repository for sabers, avatars, bloqs, and platforms. It includes preview images, and OneClick&trade; install links.
 
-::: tip NOTE All models are manually approved before appearing on the site. :::
+::: tip NOTE All models are manually approved before appearing on the site. Si prega di non caricare di nuovo alcun modello già esistente sul sito. :::
 
 ### Discord
-You can also find an uncurated list _(with potentially more items)_ in the `#pc-models` channel on the [BSMG Discord](https://discord.gg/beatsabermods) for PC and [Qosmetics Discord](https://discord.gg/MEBVngG) for Quest.
+You can also find an uncurated list _(with potentially more items)_ in the `#pc-models` channel on the [BSMG Discord](https://discord.gg/beatsabermods) for PC and [Qosmetics Discord](https://discord.gg/qosmetics) for Quest.
 
 ## Creating models
 Want to learn how to make your own models? Check out one of our guides down below!

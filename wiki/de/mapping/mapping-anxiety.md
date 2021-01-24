@@ -8,7 +8,7 @@ description: |
   You are not alone in your feelings of imposter syndrome, anxieties around uploading, or trouble coping with harsh criticism. Read more on coping with these feeling here!
 ---
 
-# Coping with Mapping Anxiety
+# Umgang mit Mapping-Angst
 Mapping is a creative artform, and like all the other arts, you put a small piece of yourself into every map. As such, it can be emotionally difficult to receive a lot of downvotes and negative feedback, or even getting no engagement at all. This is especially true for those that are already sensitive by nature, or those that have never put themselves out there before. However, it is important to remember that your maps, and what people think of them, has no bearing on your worth as a person. You’re also not alone in your feelings of imposter syndrome, anxieties around uploading, or trouble coping with harsh criticism. Raising awareness and starting conversations about these feelings in the first step to addressing them.
 
 This page is not a substitute, in any way, for real, professional help. If these sorts of feelings plague you, especially in your day-to-day life, then please consider reaching out to a professional, or someone close to you. There is no shame in needing help; it does not make you weak or needy. It is important to have these sorts of conversations and acknowledge them as very real feelings that anyone can experience, and that sometimes there are greater issues lying beneath the surface.

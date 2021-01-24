@@ -53,11 +53,11 @@ A League-style tournament for Beat Saber!
 
 ---
 
-## Chroma
+## BeatTogether Community
 
-A server dedicated to the Chroma suite of mods, which are primarily designed to add more color to your two toned lives. Enjoy multi-colored lights and multi-colored notes!
+Community for the BeatTogether mod. This mod allows crossplay between PC platforms and Quest. This is a place to discuss the mod and follow its progress and releases!
 
-[Discord](https://discord.gg/BBntx2e)
+[Discord](https://discord.com/invite/gezGrFG4tz)
 
 ---
 
@@ -85,8 +85,16 @@ Custom leaderboards and global ranking!
 
 ---
 
-## QuestSaber Community
+## Qosmetics Community
 
-A community focused around providing Custom Sabers from the PC platform for Quest users! We are trying to improve and grow the community of the Quest Custom Sabers (Not asset sabers) and improve the overall experience of the custom sabers for quest such as adding custom animations, textures, and much more!
+Qosmetics Community is a community focused around providing Custom models, including sabers bloqs and walls to the quest! We are striving to improve and grow the community of the Quest Custom Content to a whole new level. Come play your way!
 
 [Discord](https://discord.gg/NXnPYEh)
+
+---
+
+## QuestBoard
+
+We are a quest-focused beat saber community server, dedicated to improving the experience for as many players as we can.
+
+[Discord](https://discord.gg/d6DyW9v) [Website](https://www.questmodding.com/)
