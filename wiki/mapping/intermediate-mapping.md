@@ -188,11 +188,13 @@ Inverts are notes that are placed in a location which forces the player to swing
 
 Be aware that inverts can be quite hard to read especially in rapid succession or at higher speeds.
 
-**Example placements**
-|![blue down right](~@images/mapping/bndr.png)|![blue down](~@images/mapping/bnd.png)|![blue down](~@images/mapping/bnd.png)|![blue down left](~@images/mapping/bndl.png)|
-|:----:|:----:|:----:|:----:|
-|![blue right](~@images/mapping/bnr.png)| | |![blue left](~@images/mapping/bnl.png)|
-|![blue up right](~@images/mapping/bnur.png)|![blue up](~@images/mapping/bnu.png)|![blue up](~@images/mapping/bnu.png)|![blue up left](~@images/mapping/bnul.png)|
+**Example placements**  
+![invert example](~@images/mapping/invert-example-placements.png)
+
+## Note Alignment for MMA2
+It is not apparent in MMA2 but this is how some notes align in game.
+
+![mma2 alignment example](~@images/mapping/mma2-alignment-examples.jpg)
 
 ## Single Saber/Handedness Switches
 Alternating the hand leading a pattern can be highly effective at providing variety, interesting motions, or unique rhythms but have limitations.  
@@ -276,4 +278,4 @@ See this guide by Sykes [What swing is, and how "shuffle" will make your mapping
 ](https://docs.google.com/document/d/1j7w1X-0QtnJDFVKzyyQc_KR7RE9H3C3JFesIXGR0s1c/edit) on how to use the built in shuffle feature to make mapping songs that have swing easier.
 
 ## Credits
-Content in this section was authored by [Checkthepan](./mapping-credits.md#checkthepan), [CyanSnow](./mapping-credits.md#cyansnow), [Uninstaller](./mapping-credits.md#uninstaller), [Skyler Wallace](./mapping-credits.md#skyler-wallace), [Kolezan](./mapping-credits.md#kolezan), [Pyrowarfare](./mapping-credits.md#pyrowarfare) and [DarkGrisen](./mapping-credits.md#darkgrisen).
+Content in this section was authored by [Checkthepan](./mapping-credits.md#checkthepan), [CyanSnow](./mapping-credits.md#cyansnow), [Uninstaller](./mapping-credits.md#uninstaller), [Skyler Wallace](./mapping-credits.md#skyler-wallace), [Kolezan](./mapping-credits.md#kolezan), [Pyrowarfare](./mapping-credits.md#pyrowarfare), [DarkGrisen](./mapping-credits.md#darkgrisen) and [Vaser888](./mapping-credits.md#Vaser888).
