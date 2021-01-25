@@ -49,7 +49,7 @@ Text guides aren't your thing? Checkout these video series!
 * [Cyrix's Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw) - covers the most common issues discussed in [Basic Mapping](./basic-mapping.md).
 * [TranquillizeMe's Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc) - covers various lighting techniques and general lighting tips.
 
-:::warning I watched this video by Elite Eric, but I got stuck/it didn't work. What gives?
+:::danger I watched this video by Elite Eric, but I got stuck/it didn't work. What gives?
 We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After reviewing much of his content, they contain a large amount of incomplete, erroneous, or straight up incorrect information. Attempts to reach out to him to correct these errors has unfortunately been met with silence and new (also incorrect) tutorials.
 
 Instead, you should follow the written guides here on the wiki, watch the vetted tutorials made by BSMG members linked above, or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
@@ -231,7 +231,7 @@ Not ready to make your own lighting? Here are some programs to do it for you. Ke
 ## Playtesting
 Testing your work is a **critical** part of mapping. Testing as you work helps you adjust for major playability issues and get a feel for your map. [Third-party or “outside”](#community-third-party-testing) playtesting is when someone other than yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you may be "map blind."
 
-::: warning
+::: danger 
 You **DO NOT** need to upload your map to BeatSaver in order for you or anyone else to test.
 ::: 
 
@@ -299,9 +299,9 @@ The `#testplays` channel in the [Beat Saber Modding Group Discord](https://disco
 * Please keep to serious posts where you are looking to improve your mapping skills. Meme or Shitpost maps do not belong as they end up wasting the testplayers time.
 :::
 
-Interested in helping out? See [How to Testplay](./how-to-testplay.md) to get started!
-
-1. Create a compressed .zip file of the individual song files [How to Video](https://streamable.com/u20ci).
+1. Press the `Package song to zip` button in [MMA2](#mediocre-map-assistant-2) to create a compressed .zip of your map.  
+![](~@images/mapping/mma2-package-zip.jpg)  
+If you do not have MMA2 watch this [How to Video](https://streamable.com/u20ci)to create a compressed .zip file of the individual song files.
 2. Upload your map to `#testplays` using the following format:  
   * **Map:** The name and artist of your map  
   * **Length:** The length of the song  
@@ -326,6 +326,9 @@ You can copy and paste the following template into Discord:
 **Feedback:**
 **Status:**
 ```
+### Helping Out
+Do you like the idea of playing new songs before they are ever released on BeatSaver? Do you want to help out the community? Consider becoming a testplayer! See [How to Testplay](./how-to-testplay.md) to get started!
+
 ## Publishing Songs
 Once your song has been mapped, lighted, and playtested and it’s a finished product you’re ready to release it to the world!
 
@@ -358,7 +361,7 @@ Map files currently cannot be updated on BeatSaver. If you need to upload a new 
 Here are solutions for some common errors when uploading a Beatmap.  
 Encountered something not listed here? Drop into `#mapping-discussion` for assistance.
 
-:::warning Remember: 
+:::danger Remember: 
 * You should have your map [playtested](#playtesting) before uploading!  
 * **DO NOT** upload maps created by auto-generation software such as Deepsaber or Beat Sage. Please use their sharing channel on Discord to share generated maps!
 :::
