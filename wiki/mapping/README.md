@@ -41,8 +41,9 @@ Great mappers are not made in a day. It takes dedication with no one really able
 
 ### Video Tutorials
 Text guides aren't your thing? Checkout these video series!  
-**Remember:** The text guides on this wiki are more up to date as it is easier and quicker to change.
-
+:::tip Remember:
+The text guides on this wiki are always more up to date as it is easier and quicker to change.
+:::
 #### Recommended
 * [Helen Carnate's Mapping Tutorial](https://www.youtube.com/watch?v=6O3sXmh-kAA) - A 17 minute guide to get started mapping!
 * [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) - a comprehensive lecture series on making your first map.
