@@ -173,7 +173,8 @@ let us know in #mapping-discussion!
 | - | :- |
 | **Parity** | The mathematical term describing the ‘group’ a block belongs to- within the context of Beat Saber, this refers to the forehand/backhand nature of a block. |
 | **Pattern** | A generic name for a sequence of blocks. |
-| **Piano Stream** | A sequence of alternating color and direction blocks that progresses horizontally across lanes on the track. <details><summary>**Example Image**</summary>![Picture of piano stream](~@images/mapping/pianostream.png)</details>|
+| **Paul** | A sequence of inline blocks of the same direction placed at very high precision. This forces the player to hit with a slow continuous swing. This pattern is impossible to score well on. <details><summary><b>Example Image</b></summary>![Picture of paul](~@images/mapping/paul.jpg)</details>|
+| **Piano Stream** | A sequence of alternating color and direction blocks that progresses horizontally across lanes on the track. <details><summary><b>Example Image</b></summary>![Picture of piano stream](~@images/mapping/pianostream.png)</details>|
 | **Playtest** | The act of playing a WIP map to check for errors and improvements. Highly recommended for a quality product. |
 | **Performance Points** | The metric determining ranking on the ScoreSaber leaderboards. Abbreviated PP. |
 | **Platform** | The in-game play area and associated track and lights. Also known as [Environment](#e) |
@@ -214,8 +215,9 @@ let us know in #mapping-discussion!
 | **Spiral** | A slider whose path traces a rotation long enough to return to its original direction or further. See also [Bomb Spiral](#b) <details><summary>**Example Image**</summary>![Picture of spiral](~@images/mapping/spiral.jpg)</details>|
 | **Stack** | Two same-colored, same-direction blocks placed in a line on the same beat. Results in the player swinging a larger, faster hit. Related: [Tower](#t) <details><summary>**Example Image**</summary>![Picture of stack](~@images/mapping/stacks.jpg)</details>|
 | **Staggers** | Sliders placed with spacing too large for the player to hit in one motion, considered a mismap. Occurs when sliders are placed lower than 1/8 precision. <details><summary>**Example Image**</summary>![Picture of stagger](~@images/mapping/stagger.jpg)</details>|
+| **Staircase** | A pattern where a block's direction points towards the following block. Does not include blocks on the same beat. Can be a potential hitbox issue where a block is placed in the postswing of a previous block. <details><summary>**Example Image**</summary>![Picture of staircase](~@images/mapping/staircase.jpg)</details>|
 | **Stream** | A steady, sustained pattern of notes, typically at 1/4 precision. <details><summary>**Example Image**</summary>![Picture of stream](~@images/mapping/stream.png)</details>|
-| **Strobe** | 1) n. A rapidly flashing on/off light 2) v. To cause a light to flash on/off or on/flash when lighting a map. |
+| **Strobe** | 1) n. A rapidly flashing on/off light <br> 2) v. To cause a light to flash on/off or on/flash when lighting a map. |
 | **Swings per second** | A variation on [Notes per second](#n) that isn't inflated by stacks of sliders. Can give a better representation of a map's difficulty. |
 
 ## T
