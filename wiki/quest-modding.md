@@ -80,7 +80,7 @@ Open BMBF in your Quest and go to the `Browser` tab, there you should see a glob
 
 ![globequestboard](~@images/beginners-guide/globequestboard.png)
 
-You should be greeted with the QuestBoard website below. Next, select the `DOWNLOAD MODS` tab.
+You should be greeted with the [QuestBoard](https://www.questmodding.com/) website below. Next, select the `DOWNLOAD MODS` tab.
 
 ![questboardhome](~@images/beginners-guide/questboardhome.png)
 
@@ -89,6 +89,7 @@ Scroll down with your thumbsticks. You can now select any mod from the list, see
 ![questboardmods](~@images/beginners-guide/questboardmods.png)
 
 ### Using your PC
+Find and download other Quest mods from the [BSMG Discord](https://discord.com/invite/beatsabermods) in `#quest-mods`.
 :::warning
 Make sure your Quest and PC are on the same network!
 :::
@@ -108,7 +109,9 @@ Now just drag any Quest compatible mods into the upload box and sync. If the mod
 If you want to use the same method of downloading songs as you do in BMBF in your Quest, just replace `upload` in the URL with `browser`.
 
 ## Installing songs
-
+:::tip Recommended
+Do not filter songs by "Top All", "Rating", "Downloads" or "Plays". Most maps in those sort filters were made before this wiki was created and there were no mapping standards. Try downloading songs from between late 2019 and now to get the best experience in game.
+:::
 ### Inside your Quest
 There are 2 sources to getting custom maps inside your Quest using the browser window.
 * If you are looking for curated maps and playlists visit [BeastSaber](https://bsaber.com/)
@@ -127,6 +130,8 @@ If you are unable to install songs inside your Quest, you can install maps using
 If you want to test a map you have created see the [Testing on a Quest](/mapping/#testing-on-a-quest) Section in the Mapping Wiki section for steps on packing it up for testing!
 :::
 
+## Installing models
+Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your menu title, sabers, bloqs or walls look in game!
 ## Useful links and alternative guides
 
 * [Oculus Quest BMBF Installation Guide](https://bsaber.com/oculus-quest-custom-songs/)
@@ -146,7 +151,7 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 ### Adding mods from beatmods.com or models from modelsaber.com does not work
 The reason adding mods from [BeatMods](https://beatmods.com/) or models from [ModelSaber](https://modelsaber.com/) doesn't work is because those mods and sabers are for PC Only.
 
-Get Quest compatible Mods from [Questboard](https://www.questmodding.com/) or `#quest-mods` in the Beat Saber Modding Group Discord, with Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/qosmetics). Once you have your mod or model zip use the [BMBF Web Interface](#using-your-pc) to install it.
+Get Quest compatible Mods from [QuestBoard](https://www.questmodding.com/) or `#quest-mods` in the Beat Saber Modding Group Discord, with Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/qosmetics). Once you have your mod or model zip use the [BMBF Web Interface](#using-your-pc) to install it.
 ___
 ### Sideloading BMBF failed
 When sideloading BMBF you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF signatures do not match the previously installed version; ignoring!`

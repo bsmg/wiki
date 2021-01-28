@@ -40,6 +40,9 @@ A simple Beat Saber Mod Installer similar to the mod manager, but with additiona
 ![ModAssistant](~@images/beginners-guide/modassistant.png)
 
 ## How to get more songs
+:::tip Recommended
+Do not filter songs by "Top All", "Rating", "Downloads" or "Plays". Most maps in those sort filters were made before this wiki was created and there were no mapping standards. Try downloading songs from between late 2019 and now to get the best experience in game.
+:::
 ### In-game Downloader
 The `BeatSaver Downloader` Plugin allows you to download maps in-game using the `MORE SONGS` menu button on the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com)
 
@@ -73,9 +76,6 @@ Replace the drive letter `F` with the drive your game is installed on.
 | Steam | `F:\SteamLibrary\steamapps\common\Beat Saber\` |
 | Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
 
-## How to uninstall mods
-Either remove the dll from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant.
-
 ## Manual Installation
 A mod installer is the recommended way to install mods. See the section [above](#installers). If you have patched the game and just need to install Plugins that are not available in the installer, skip to step 4.
 
@@ -89,10 +89,12 @@ A mod installer is the recommended way to install mods. See the section [above](
 ![Directory Patched](~@images/beginners-guide/directory-patched.png "Directory Patched")
 
 ### Install Mods
-4. Download the mod(s) you wish to install, whether it be from GitHub, the #pc-mods channel, or other sources. **Make sure to download any dependencies required by the mod.**
+4. Download the mod(s) you wish to install, whether it be from GitHub, the [BSMG Discord](https://discord.com/invite/beatsabermods)`#pc-mods` channel,  [BeatMods](https://beatmods.com/#/mods) or other sources. **Make sure to download any dependencies required by the mod.**
 ![Directory Plugins](~@images/beginners-guide/directory-plugins.png "Directory Plugins")
 5. Some mods have installation instructions, some don't. Generally you can just drag and drop the zip contents into your beat saber install folder, and the files should go into the corresponding folders. 
 
+## How to uninstall mods
+Either remove the dll from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant.
 
 ## Where to go from here
 * [Grips and Tricks](./grips-and-tricks.md)
