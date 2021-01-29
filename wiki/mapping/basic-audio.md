@@ -122,8 +122,11 @@ The steps listed below are the same as those used in Ryger’s [Arrow Vortex BPM
     for when you export your changes for use in editor.
 
 #### Troubleshooting Arrow Vortex
-##### The code execution cannot proceed because MSVCP120.dll was not found.
-* Install [vcredist_x86.exe](https://support.microsoft.com/en-us/help/4032938/update-for-visual-c-2013-redistributable-package) in your preferred language and try again.
+
+##### The code execution cannot proceed because MSVCP120.dll was not found
+
+* Install [vcredist_x86.exe](https://support.microsoft.com/en-us/help/4032938/update-for-visual-c-2013-redistributable-package)
+in your preferred language and try again.
 
 :::danger
 **This is a critical step!**  

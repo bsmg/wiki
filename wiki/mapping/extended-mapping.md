@@ -13,17 +13,21 @@ description: |
   Learn more about Noodle and Mapping Extensions, 360/90 mapping, and Extended Characteristics!
 ---
 # Extended Mapping
-_Now that you know the rules, it’s time to break them_
+_Now that you know the rules, it’s time to break them._
 
 * [Glossary of Terms](./glossary.md)
 
-This page covers anything and everything that goes beyond standard 4 x 3 grid mapping, including map styles that require additional mods before the player can play and characteristics outside of the "vanilla" ones covered in Intermediate Mapping.
+This page covers anything and everything that goes beyond standard 4 x 3 grid mapping, including map styles that require
+additional mods before the player can play and characteristics outside of the "vanilla" ones covered in Intermediate Mapping.
 
 ## Mapping Extensions
-Mapping Extensions is a mod by **Kyle1413** which unlocks many special features. Maps made with mapping extensions *require* the player to have the mod or the map will not work. Mapping Extensions maps are somewhat unstable and may break during updates... proceed with caution.
+Mapping Extensions is a mod by **Kyle1413** which unlocks many special features. Maps made with mapping extensions
+*require* the player to have the mod or the map will not work. Mapping Extensions maps are somewhat unstable and may
+break during updates... proceed with caution.
 
 ### Set-Up
-Every editor is unique in both their setup and support for Mapping Extensions (ME). Editors known to support ME along with instructions on how to setup are as follows:
+Every editor is unique in both their setup and support for Mapping Extensions (ME). Editors known to support ME along
+with instructions on how to setup are as follows:
 
 * **Mediocre Map Assistant 2**
   * [Setup with Beat Saber Installed on your PC](#me-setup-for-mma2-with-beat-saber-installed)
@@ -35,10 +39,12 @@ Every editor is unique in both their setup and support for Mapping Extensions (M
 
 ::: warning NOTE
 This section assumes you are using the `CustomWIPLevels` folder in a Beat Saber install.
-Follow the [without Beat Saber Installed](#me-setup-for-mma2-without-beat-saber-installed) instructions if you store your maps in a different location.
+Follow the [without Beat Saber Installed](#me-setup-for-mma2-without-beat-saber-installed) instructions if you store
+your maps in a different location.
 :::
 
-1. Start Beat Saber and then close out after the game finishes loading. This is to ensure the game is ready for mods to be installed.
+1. Start Beat Saber and then close out after the game finishes loading.
+  This is to ensure the game is ready for mods to be installed.
 2. Open [ModAssistant](https://github.com/Assistant/ModAssistant/releases/latest)
 3. Make sure the version selected in the dropdown is compatible with the Beat Saber version installed on your computer.
 4. Check the checkbox for MappingExtensions. (You can select additional mods to install as well.)
@@ -51,7 +57,6 @@ Not sure where Beat Saber is installed? See [FAQ: Install Folder](/faq/install-f
 7. You are now ready to do [map setup!](#map-setup-in-mediocre-map-assistant-2)
 
 #### ME setup for MMA2 without Beat Saber Installed
-
 Here you will need to "trick" Mediocre Map Assistant 2 that your folder is a Beat Saber install.
 
 Option 1:
@@ -77,9 +82,10 @@ Option 2:
 
 1. [Open Mediocre Map Assistant 2](https://github.com/Assistant/MediocreMapAssistant2/releases/latest)
 2. In the Settings bar on the right, 3 new tick box options should be available under the Beta section:
-   - **6 Lane Mode** - Extends the number of lanes available to map blocks to to 6 from 4. Also enables placement of walls outside of the lanes.
-   - **Precision Placement** - Allows blocks, walls, and bombs to be placed at a finer resolution than the current grid.
-   - **Precision Rotation** - Allows blocks to be angled at any angle instead of the default 45-degree increments.
+   * **6 Lane Mode** - Extends the number of lanes available to map blocks to to 6 from 4.
+    Also enables placement of walls outside of the lanes.
+   * **Precision Placement** - Allows blocks, walls, and bombs to be placed at a finer resolution than the current grid.
+   * **Precision Rotation** - Allows blocks to be angled at any angle instead of the default 45-degree increments.
 3. Enable the desired features by clicking the checkboxes. For example, wall mapping needs 6 Lane and Precision Placement.
 4. Select the level you want to map in and click on the ExtraFields tab to the right of the difficulty select.
 5. Click the Requirements tab and then type in `Mapping Extensions`.
@@ -92,31 +98,41 @@ The text you enter in the requirements has to be exact or else the features will
 
 ### Multi-Lane Mapping
 ::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
+This is a stub section. If you’d like to contribute, submit suggestions via
+[this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::  
 
-6-Lane mapping extends the playable grid to 6 x 3. It is often used with [wall mapping](#wall-mapping) to place fancy walls in the extension area while keeping the standard 4 x 3 play area clear.
+6-Lane mapping extends the playable grid to 6 x 3. It is often used with [wall mapping](#wall-mapping) to place fancy
+walls in the extension area while keeping the standard 4 x 3 play area clear.
 
 ### Precision Placement
 ::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
+This is a stub section. If you’d like to contribute, submit suggestions via
+[this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::  
 
-Precision placement allows the mapper to place blocks anywhere within the grid, no longer limited to the 12 basic block positions. Often used in tandem with [Precision Rotation](#precision-rotation)
+Precision placement allows the mapper to place blocks anywhere within the grid, no longer limited to the 12 basic block
+positions. Often used in tandem with [Precision Rotation](#precision-rotation)
 
 ### Precision Rotation
 ::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
+This is a stub section. If you’d like to contribute, submit suggestions via
+[this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::  
 
-Precision rotation allows the mapper to rotate blocks at any angle, no longer limited to only 45 degrees. Often used in tandem with [Precision Placement](#precision-placement)
+Precision rotation allows the mapper to rotate blocks at any angle, no longer limited to only 45 degrees.
+Often used in tandem with [Precision Placement](#precision-placement)
 
 ### Wall Mapping
 ::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
+This is a stub section. If you’d like to contribute, submit suggestions via
+[this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::  
 
-Wall mapping allows the mapper to get incredibly creative with wall placement well outside of the standard grid. Editors that support Mapping Extensions can be used in some capacity to create these maps. However, more complex wall sequences are often accomplished through the use of scripting tools like [BeatWalls](#wall-mapping-using-beatwalls) by **SpookyGhost**. There currently are two categories of wall maps.
+Wall mapping allows the mapper to get incredibly creative with wall placement well outside of the standard grid. Editors
+that support Mapping Extensions can be used in some capacity to create these maps. However, more complex wall sequences
+are often accomplished through the use of scripting tools like [BeatWalls](#wall-mapping-using-beatwalls) by **SpookyGhost**.
+There currently are two categories of wall maps.
 
 * **Atmospheric Walls:** Walls create an ambience to fit with the mood of the song  
   * **Air (Mr FijiWiji Remix)** - Hellberg & Teqq ft. Taylr Renee mapped by Gevarred  
@@ -135,48 +151,64 @@ Wall mapping allows the mapper to get incredibly creative with wall placement we
 [YouTube](https://www.youtube.com/watch?v=6UwEjc6VGyM) | [BeatSaver](https://beatsaver.com/beatmap/7702)  
 
 :::warning NOTE
-Too many walls will create heavy lag. Especially for players that do not have powerful computers. Test frequently and try to keep the wall-count down to keep your experience accessible for most players.
+Too many walls will create heavy lag. Especially for players that do not have powerful computers.
+Test frequently and try to keep the wall-count down to keep your experience accessible for most players.
 :::
 
 #### Wall Mapping using MMA2
-After [editor setup](#set-up), check that you have at least 6 Lane Mode and Precision Placement enabled.
-When editing your map, if you select the wall placement tool the grid will expand, allowing you to place walls anywhere on the track similar to regular wall placement. To make smaller walls, you need to change the precision. Go into the editor menu by pressing <kbd>Esc</kbd> or clicking the hamburger in the top right and change the `Precision Snap` value. This is a similar to the `Cursor Precision` setting.
+After [editor setup](#set-up), check that you have at least 6 Lane Mode and Precision Placement enabled. When editing
+your map, if you select the wall placement tool the grid will expand, allowing you to place walls anywhere on the track
+similar to regular wall placement. To make smaller walls, you need to change the precision. Go into the editor menu by
+pressing <kbd>ESC</kbd> or clicking the hamburger in the top right and change the `Precision Snap` value. This is a
+similar to the `Cursor Precision` setting.
 
 #### Wall Mapping using Beatwalls
-For setup and usage, see the [documentation](https://github.com/spookyGh0st/beatwalls#readme) and [examples](https://github.com/spookyGh0st/beatwalls/tree/master/examples) in the github repository.
+For setup and usage, see the [documentation](https://github.com/spookyGh0st/beatwalls#readme) and
+[examples](https://github.com/spookyGh0st/beatwalls/tree/master/examples) in the github repository.
 
 #### Wall Mapping using ScuffedWalls
-Inspired off of Beatwalls it strives to provide additional features to make working with NE animations and other map object custom data easier. Repository with download and documentation is available [here](https://github.com/thelightdesigner/ScuffedWalls#readme)
+Inspired off of Beatwalls it strives to provide additional features to make working with NE animations and other map
+object custom data easier. Repository with download and documentation is available
+[here](https://github.com/thelightdesigner/ScuffedWalls#readme)
 
 #### Fast and Hyper Walls
-Walls that zoom by the player are called Fast and Hyper walls. They are created using a negative value for the duration parameter which varies based on half-jump and wall duration. Values for the type of wall can be found in this [negative walls document](https://docs.google.com/spreadsheets/d/1hCbsWwfThH23xVmWk4B-HUKPoZNrsQUeHUHyfNO-yAU).
+Walls that zoom by the player are called Fast and Hyper walls. They are created using a negative value for the duration
+parameter which varies based on half-jump and wall duration. Values for the type of wall can be found in this
+[negative walls document](https://docs.google.com/spreadsheets/d/1hCbsWwfThH23xVmWk4B-HUKPoZNrsQUeHUHyfNO-yAU).
 
-- **MMA2/ChroMapper:** You can create fast/hyper walls by pressing <kbd>ctrl + f</kbd> while your cursor is on a wall until it is yellow. The length of the wall is the duration, see the [negative walls document](https://docs.google.com/spreadsheets/d/1hCbsWwfThH23xVmWk4B-HUKPoZNrsQUeHUHyfNO-yAU) for the appropriate length.
-- **Beatwalls:** Fast/hyper walls are created by overwriting the duration property with `changeDuration: -3`.
+* **MMA2/ChroMapper:** You can create fast/hyper walls by pressing <kbd>CTRL + F</kbd> while your cursor is on a wall
+  until it is yellow. The length of the wall is the duration, see the
+  [negative walls document](https://docs.google.com/spreadsheets/d/1hCbsWwfThH23xVmWk4B-HUKPoZNrsQUeHUHyfNO-yAU)
+  for the appropriate length.
+* **Beatwalls:** Fast/hyper walls are created by overwriting the duration property with `changeDuration: -3`.
 
 :::tip Remember!
-Too many walls will create heavy lag. Especially for players that do not have powerful computers. Test frequently and try to keep the wall-count down to keep your experience accessible for most players.
+Too many walls will create heavy lag. Especially for players that do not have powerful computers.
+Test frequently and try to keep the wall-count down to keep your experience accessible for most players.
 :::
 
 ### Testing your map
 While you could playtest your map ingame every time you make changes, this will be unpractically in the long run.
 Luckily there are some mods to help you out.
 
-- [FPFCToggle](https://github.com/DeadlyKitten/FPFCToggle) - lets you fly around the map without vr
-- [MusicEscape](https://github.com/DeadlyKitten/MusicEscape) - lets you quit to menu and pause-menu with your keyboard
-- [ReLoader](https://github.com/Kylemc1413/ReLoader) - hot reloads the map
-- [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) - change Song time, playback speed and more from the pause manu
+* [FPFCToggle](https://github.com/DeadlyKitten/FPFCToggle) - lets you fly around the map without vr
+* [MusicEscape](https://github.com/DeadlyKitten/MusicEscape) - lets you quit to menu and pause-menu with your keyboard
+* [ReLoader](https://github.com/Kylemc1413/ReLoader) - hot reloads the map
+* [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) - change Song time, playback speed and more from the
+  pause menu
 
 ## Extended Characteristics
-These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the `Info.dat` file.
+These characteristics (with the exception of 360°/90° mode) take you beyond official characteristics like OneSaber or
+NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the
+`Info.dat` file.
 
-**To Add a New Characteristic**
+### To Add a New Characteristic
 
 1. Create your new difficulty file in your favorite editor.
 2. When finished mapping, rename the difficulty file to include the characteristic name. (example: `EasyLightshow.dat`)
 3. Make the following changes to the `"_beatmapCharacteristicName"` and `"_beatmapFilename"` in your `Info.dat` file:
 
-```
+```json
 "_difficultyBeatmapSets": [{
  "_beatmapCharacteristicName": "Lightshow",
  "_difficultyBeatmaps": [{
@@ -185,14 +217,17 @@ These characteristics (with the exception of 360°/90° mode) take you beyond of
   "_beatmapFilename": "EasyLightshow.dat",
 ```
 
-This [pastebin](https://pastebin.com/vbgFPqn9) link provides an example of a `Info.dat` file using two characteristics (Lawless and Standard)
+This [Pastebin](https://pastebin.com/vbgFPqn9) link provides an example of a `Info.dat` file using two characteristics
+(Lawless and Standard)
 
 ### 360°/90°
 ::: warning
-It is recommended that you understand [basic](./basic-mapping.md) and [intermediate](./intermediate-mapping.md) mapping practices before stepping into 360°/90° mapping as it requires adapting to different mapping practices and style.
+It is recommended that you understand [basic](./basic-mapping.md) and [intermediate](./intermediate-mapping.md) mapping
+practices before stepping into 360°/90° mapping as it requires adapting to different mapping practices and style.
 :::
 
-360°/90° mode introduces new ways to play Beat Saber with notes spawning from different angles and direction, which opens up a lot of mapping potential and freedom as a whole.
+360°/90° mode introduces new ways to play Beat Saber with notes spawning from different angles and direction,
+which opens up a lot of mapping potential and freedom as a whole.
 
 * **Info.dat Names:**
   * `360Degree`
@@ -202,11 +237,13 @@ It is recommended that you understand [basic](./basic-mapping.md) and [intermedi
 ::: warning  
 This characteristic requires the SongCore mod to function.
 
-* For PC Players without the mod, the whole map will load indefinitely and will be unable to play any other difficulty in the map.
+* For PC Players without the mod, the whole map will load indefinitely and will be unable to play any
+  other difficulty in the map.
 * For Quest players, this characteristic will be removed at import. Vanilla characteristics will still be playable.
 :::
 
-The lawless characteristic is exactly what it sounds like... no rules, just right. Want to get crazy experimental and try some things that might be downvote magnets? Pop them into the Lawless characteristic to separate it from standard levels.
+The lawless characteristic is exactly what it sounds like... no rules, just right. Want to get crazy experimental and try
+some things that might be downvote magnets? Pop them into the Lawless characteristic to separate it from standard levels.
 
 * **Info.dat Name:** `Lawless`
 
@@ -214,17 +251,20 @@ The lawless characteristic is exactly what it sounds like... no rules, just righ
 ::: warning  
 This characteristic requires the SongCore mod to function.
 
-* For PC Players without the mod, the whole map will load indefinitely and will be unable to play any other difficulty in the map.
+* For PC Players without the mod, the whole map will load indefinitely and will be unable to play any
+  other difficulty in the map.
 * For Quest players, this characteristic will be removed at import. Vanilla characteristics will still be playable.
 :::
-The Lightshow characteristic is used for maps with no notes which allow players to enjoy a lightshow experience. Bombs and walls are optional as long as they are not in the way of the players.
+The Lightshow characteristic is used for maps with no notes which allow players to enjoy a lightshow experience.
+Bombs and walls are optional as long as they are not in the way of the players.
 
 * **Info.dat Name:** `Lightshow`
 
 ## 360°/90° Mapping
 
 ::: warning
-It is recommended that you understand [basic](./basic-mapping.md) and [intermediate](./intermediate-mapping.md) mapping practices before stepping into 360°/90° mapping as it requires adapting to different mapping practices and style.
+It is recommended that you understand [basic](./basic-mapping.md) and [intermediate](./intermediate-mapping.md) mapping
+practices before stepping into 360°/90° mapping as it requires adapting to different mapping practices and style.
 :::
 
 ### Rotation Events and Values
@@ -247,10 +287,13 @@ Each event has a value for spawn rotation which is always relative to the player
 The specific format for a rotation event is defined in the [Map Format page](./map-format.md#controlling-360-90-rotation).
 
 ::: tip NOTE  
-The chevron in the 360° [Glass Desert environment](./basic-lighting.md#environment-previews) rotates corresponding to the rotation event time, both 14 and 15. This is important as it guides the player where to face in gameplay.
+The chevron in the 360° [Glass Desert environment](./basic-lighting.md#environment-previews) rotates corresponding to
+the rotation event time, both 14 and 15. This is important as it guides the player where to face in gameplay.
 :::
 
-**Do not use spawn rotation events outside of 360°/90° mode.** While they will work, it’s highly recommended that mappers not use this. Standard environments do not have a rotating chevron to indicate movement and the environment itself will block the player’s view.
+**Do not use spawn rotation events outside of 360°/90° mode.** While they will work, it’s highly recommended that mappers
+not use this. Standard environments do not have a rotating chevron to indicate movement and the environment itself will
+block the player’s view.
 
 ### Editing 360°/90° Maps
 There are multiple ways to map for 360°/90° mode. The following sections cover some pros and cons of each method:
@@ -261,23 +304,28 @@ There are multiple ways to map for 360°/90° mode. The following sections cover
 4. [JSON/DAT Editing](#json-dat-editing)
 
 #### Official Level Editor
-The official editor is accessible to all PCVR users to natively map 360°/90° levels with the least amount of touching individual map files.
+The official editor is accessible to all PCVR users to natively map 360°/90° levels with the least amount
+of touching individual map files.
 
 ![Official editor events panel](~@images/mapping/official_events.png)  
 *The official editor events panel.*  
 
-The two far right icons in the **EVENTS** section are the early and late spawn rotation events. There’s also rotation angle indication for each spawn rotation event.
+The two far right icons in the **EVENTS** section are the early and late spawn rotation events.
+There’s also rotation angle indication for each spawn rotation event.
 
 * **Pro:** Adding rotation events is very straightforward
 * **Con:** You have to map in 2D
 
 #### Mediocre Map Assistant 2
-This is the most preferred and easily accessible method of making 360/90 levels. Be sure to create a new characteristic, "360Degree" or "90Degree". If it’s not available, you may need to create one by replacing existing characteristic or creating a new one
+This is the most preferred and easily accessible method of making 360/90 levels. Be sure to create a new characteristic,
+"360Degree" or "90Degree". If it’s not available, you may need to create one by replacing existing characteristic or
+creating a new one.
 
 **Option 1:** Complete the map in the MediocreMapper then apply rotation events in the Official Level Editor.
 
 * **Pro:** Easy and effective method.
-* **Con:** Can cause offset and BPM change rounding errors and any non-standard custom data will get deleted and need to be edited in afterward.
+* **Con:** Can cause offset and BPM change rounding errors and any non-standard custom data will get deleted and need to
+  be edited in afterward.
 
 **Option 2:** Using laser speed event as spawn rotation event (ADVANCED METHOD)
 
@@ -287,17 +335,23 @@ This is the most preferred and easily accessible method of making 360/90 levels.
 ![Laser speed events acting as rotation events](~@images/mapping/laser-rotation-360.png)  
 *Laser speed events being used as spawn rotation events.*  
 
-- Left Laser Speed Position is Spawn Rotation Event 14
-- Right Laser Speed Position is Spawn Rotation Event 15
+* Left Laser Speed Position is Spawn Rotation Event 14
+* Right Laser Speed Position is Spawn Rotation Event 15
 
-This mimics laser speed events as spawn rotation events given the value (see above). It is recommended to use this method with an empty lighting event track to avoid mistakes. Lighting can be added once the laser speed events have been converted.
+This mimics laser speed events as spawn rotation events given the value (see above). It is recommended to use this method
+with an empty lighting event track to avoid mistakes. Lighting can be added once the laser speed events have been converted.
 
-[BeatMapper Tools](https://mappers.beatmappertools.com/) by **Darkuni** is an amazing utility for mapping 360°/90° mode in MMA2. You can easily make changes within the editor and test them in-game as it creates a copy of the map with 360°/90° mode converted leaving the original file untouched for the editor use.
+[BeatMapper Tools](https://mappers.beatmappertools.com/) by **Darkuni** is an amazing utility for mapping 360°/90° mode
+in MMA2. You can easily make changes within the editor and test them in-game as it creates a copy of the map with 360°/90°
+mode converted leaving the original file untouched for the editor use.
 
-To manually replace the values, open the difficulty file in any text editor and replace `"_type":12` or `"_type":13` with `"_type":14` or `"_type":15`. This should be the last step you do otherwise you’ll have to revert the event swaps every time you have to make any changes in the editor. Always create backup in any case.
+To manually replace the values, open the difficulty file in any text editor and replace `"_type":12` or `"_type":13` with
+`"_type":14` or `"_type":15`. This should be the last step you do otherwise you’ll have to revert the event swaps every
+time you have to make any changes in the editor. Always create backup in any case.
 
 ::: danger  
-Do not open a 360°/90° map containing event type 14 in MMA2 as it converts the value into BPM changes, which end up crashing the program or triggering weird behavior.
+Do not open a 360°/90° map containing event type 14 in MMA2 as it converts the value into BPM changes, which end up
+crashing the program or triggering weird behavior.
 :::
 
 #### ChroMapper
@@ -307,19 +361,22 @@ Do not open a 360°/90° map containing event type 14 in MMA2 as it converts the
 * **Con:** In closed beta and not openly available yet.
 
 #### JSON/DAT Editing
-If you’re feeling adventurous, rotation events can be manually edited into your `difficulty.dat` files. Just like with lighting events, this has to be sorted by time; otherwise the level will be broken. Use **+1 Rabbit’s** [Note Sorter](https://skystudioapps.com/mapping-tools#note-sorter) to fix your map before uploading.  
+If you’re feeling adventurous, rotation events can be manually edited into your `difficulty.dat` files. Just like with
+lighting events, this has to be sorted by time; otherwise the level will be broken. Use **+1 Rabbit’s**
+[Note Sorter](https://skystudioapps.com/mapping-tools#note-sorter) to fix your map before uploading.
 
-```
-{  
-"_time": #,  
-"_type": 14/15,  
-"_value": #  
+```json
+{
+  "_time": #,
+  "_type": 14/15,
+  "_value": #
 }
 ```
 
 ### 360°/90° Best Practices
 ::: tip NOTE
-360/90 mapping is still new and these best practices continue to evolve. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
+360&deg;/90&deg; mapping is still new and these best practices continue to evolve. If you’d like to contribute, submit suggestions
+via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::
 
 ![lane rotation overlap](~@images/mapping/360-note-overlap.png)  
@@ -328,27 +385,34 @@ If you’re feeling adventurous, rotation events can be manually edited into you
 #### DO'S
 
 * Keep the user’s field of view in mind. They can only see +/-15° with full vision and +/- 30°  with peripheral vision.
-* Primarily use event 15 (late rotation). This allows you to direct the player where the next lane rotation is with the chevron after the next block hit.
+* Primarily use event 15 (late rotation). This allows you to direct the player where the next lane rotation is with the
+  chevron after the next block hit.
 * Make use of both event 14 (early rotation) and 15 (late rotation):
   * A good example of this would be using walls and notes spawning at nearly the same time but different spawn rotation.
-  * This prevents the chevron from twitching in weird ways; very useful if you want to tell the player to keep facing in the same direction while having multiple spawn rotations.
+  * This prevents the chevron from twitching in weird ways; very useful if you want to tell the player to keep facing in
+    the same direction while having multiple spawn rotations.
 * Stick to 15° rotational changes and occasionally 30°, given hints and enough time to adjust.
 * Use walls or bombs to telegraph large angle changes if you use them and keep notes to the center 2 lanes  
   * Having notes in the outer lanes is similar to using 6 lanes where the player has to stretch out to hit the notes.
 ![Using walls to telegraph rotation](~@images/mapping/wall-telegraph.png)  
 * Side hits in the direction of rotation are one of the best ways to indicate rotational change.
 * Use sliders to indicate (big) rotational change.
-  * Instead of a conventional slider pattern, the notes are on at the same lane and same row while having rotational event for each note in the sliders.
+  * Instead of a conventional slider pattern, the notes are on at the same lane and same row while having rotational
+    event for each note in the sliders.
   * Example usage by **techbutterfly** [YouTube](https://youtu.be/9778iXFBdjg?t=61)
 * Wide stream patterns help readability when using rotation events during streams.
 * Playtest your map way more frequently then mapping regularly
   * Using 1/3 precision, BPM changes, or editor offset can cause precision errors which lead to unintended results.
-  * NJS and offset value is important for readability. You’ll have to do plenty of adjustments to get the value that feels natural to read on different spawn rotations.
+  * NJS and offset value is important for readability. You’ll have to do plenty of adjustments to get the value that
+    feels natural to read on different spawn rotations.
 * Give the player enough time to read/prepare where the next rotation will be.
   * Using both -15° and 15° on a section at the same time can be hard to read, especially at speed.
   * If you have the player to turn >30° rotation, give the player time to adjust and prepare for the next note.
-  * The more you place rotation events that go outside the player's FOV, the more disorienting it gets; it isn’t a bad mapping practice but it’s something to be aware of.
-* Be sure to keep in mind where the player's cable will be. While full rotations are fine for Quest, rotating a headset with a cable can cause tangles, which can be a hazard. You can avoid this by spinning the player back around after a full rotation.
+  * The more you place rotation events that go outside the player's FOV, the more disorienting it gets; it isn’t a bad
+    mapping practice but it’s something to be aware of.
+* Be sure to keep in mind where the player's cable will be. While full rotations are fine for Quest, rotating a headset
+  with a cable can cause tangles, which can be a hazard. You can avoid this by spinning the player back around after a
+  full rotation.
 
 #### DONT'S
 
@@ -358,13 +422,21 @@ If you’re feeling adventurous, rotation events can be manually edited into you
 * Don't disembody notes too much,
 * Avoid using dodge wall or bombs that may interfere with the player motion
 * Don’t mix multi-lane with 360°/90° unless the extra lanes are dedicated to walls
-* Avoid using extreme single rotation events (+/- 45/60 degrees). Instead, consider using multiple 15 degree increments with walls to guide the player.
+* Avoid using extreme single rotation events (+/- 45/60 degrees).
+  Instead, consider using multiple 15 degree increments with walls to guide the player.
   * Exception: Plenty of time/warning on any difficulty
-* Copying a Standard map (Especially E+) and slapping rotation events is probably not a good idea. While the conversion can work out without any FOV or vision blocking issues, recreating your map for 360 can allow you to take advantage of wall and chevron spins (which are pretty fun)
-  * Exception: This technique can work ok on lower density (i.e., dancey) maps, though it will still need some adjustments to play well in 360°.
+* Copying a Standard map (Especially E+) and slapping rotation events is probably not a good idea.
+  While the conversion can work out without any FOV or vision blocking issues, recreating your map for 360 can allow you
+  to take advantage of wall and chevron spins (which are pretty fun)
+  * Exception: This technique can work ok on lower density (i.e., dancey) maps,
+    though it will still need some adjustments to play well in 360°.
 * Middle row outer lane notes are most likely going to be a vision block.
-  * If you have a middle row block on the outer left lane and you’re rotating to the left, everything on the left will be a vision blocked, and vice versa.
+  * If you have a middle row block on the outer left lane and you’re rotating to the left, everything on the left will
+    be a vision blocked, and vice versa.
   * You can have middle row block on the left outer lane and rotating to the right as it won’t be a vision block.
 
 ## Credits
-Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi), [Bloodcloak](./mapping-credits.md#bloodcloak), [Spooky Ghost](./mapping-credits.md#spooky-ghost), [Caeden117](./mapping-credits.md#caeden117), [Kival Evan](./mapping-credits.md#kival-evan), and [Checkthepan](./mapping-credits.md#checkthepan).
+Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi),
+[Bloodcloak](./mapping-credits.md#bloodcloak), [Spooky Ghost](./mapping-credits.md#spooky-ghost),
+[Caeden117](./mapping-credits.md#caeden117), [Kival Evan](./mapping-credits.md#kival-evan),
+and [Checkthepan](./mapping-credits.md#checkthepan).

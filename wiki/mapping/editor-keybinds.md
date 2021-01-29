@@ -9,11 +9,13 @@ There are usually multiple ways to accomplish the same action, however, keyboard
 ::: warning NOTE
 
 * These are the default keybinds which may change at any time. Some editors may also allow you to change the keybinds.
-
-* You can find more info on Beatmapper's keybinds [here](https://beatmapper.app/docs/keyboard-shortcuts). There are some actions that are very specific to Beatmapper that may not be noted on this page.
+* You can find more info on Beatmapper's keybinds [here](https://beatmapper.app/docs/keyboard-shortcuts).
+  There are some actions that are very specific to Beatmapper that may not be noted on this page.
 :::
 
-If this format doesn't work for you, this [google spreadsheet](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing), which this wiki page is based off of, is also available but is slightly out of date.
+If this format doesn't work for you, this
+[Google Sheet](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing),
+which this wiki page is based off of, is also available but is slightly out of date.
 
 ## General Keybinds
 
@@ -90,7 +92,8 @@ If this format doesn't work for you, this [google spreadsheet](https://docs.goog
 |                   Off |                        D |                       2 |                   S |
 |                  Edit |                          |                       A |                     |
 
-See [General Keybinds: Basic](#basic) for changing edit precision and [Element Selection](#element-selection) on how to select items.
+See [General Keybinds: Basic](#basic) for changing edit precision and
+[Element Selection](#element-selection) on how to select items.
 
 ### Travel
 |              | Mediocre Map Assistant 2 | Beat Mapper | ChroMapper |
@@ -122,12 +125,20 @@ See [General Keybinds: Basic](#basic) for changing edit precision and [Element S
 ### ChroMapper
 
 #### Strobe Generator
-An advanced tool that allows you to easily generate a strobe or Chroma gradient between two (or more) selected endpoints. It allows you to set what two event types you want to strobe, as well as the two event types you wish to strobe between. You can control the strobe interval, whether or not chroma gradients can form, and much more.  
+An advanced tool that allows you to easily generate a strobe or Chroma gradient between two (or more) selected endpoints.
+It allows you to set what two event types you want to strobe, as well as the two event types you wish to strobe between.
+You can control the strobe interval, whether or not chroma gradients can form, and much more.
+
 ![Strobe Generator Window](~@images/mapping/cm_strobeGenerator.png)
 
 #### Node Editor
-An advanced tool that allows you to view and edit a selected object as it will appear in the exported map data file. You can manually edit each and every map object, allowing for a degree of control no other editor has. Essentially an easier way to JSON edit your map.  
+An advanced tool that allows you to view and edit a selected object as it will appear in the exported map data file. You
+can manually edit each and every map object, allowing for a degree of control no other editor has. Essentially an easier
+way to JSON edit your map.
+
 ![Node Editor Window](~@images/mapping/cm_nodeEditor.png)
 
 ## Credits
-Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi), [Caeden117](./mapping-credits.md#caeden117), and [Bloodcloak](./mapping-credits.md#bloodcloak). Idea by [Helen Carnate](./mapping-credits.md#helen-carnate).
+Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi),
+[Caeden117](./mapping-credits.md#caeden117), and [Bloodcloak](./mapping-credits.md#bloodcloak).
+Idea by [Helen Carnate](./mapping-credits.md#helen-carnate).
