@@ -14,7 +14,7 @@ Escrito por TeknozFR
 
 ### Multiplicador de Pontuação
 
-Your score multiplier can be seen below, being surrounded by a outer ring. As said in the name, the multiplier has an effect on your score. You start the song with a multiplier of **1x** and the outer ring shows the progression to the next multiplier. When you hit the note that brings you up to the next multiplier, that note is affected by the new multiplier and not the old one. The different multipliers are : **1x, 2x, 4x and 8x**. Every time you lose combo which involves missing a note, cutting in the wrong direction or the with the wrong saber, hitting a bomb or going through an obstacle, your multiplier will be cut in half.
+O seu multiplicador de pontuação pode ser visto abaixo, rodeado por um anel externo. Como o nome indica, o multiplicador tem efeito na sua pontuação. Você inicia a música com um multiplicador de **1x** e o anel externo mostra a progressão para o próximo multiplicador. When you hit the note that brings you up to the next multiplier, that note is affected by the new multiplier and not the old one. The different multipliers are : **1x, 2x, 4x and 8x**. Every time you lose combo which involves missing a note, cutting in the wrong direction or the with the wrong saber, hitting a bomb or going through an obstacle, your multiplier will be cut in half.
 
 ![Score Multiplier](~@images/ranking-guide/score_multiplier.png "Score Multiplier")
 

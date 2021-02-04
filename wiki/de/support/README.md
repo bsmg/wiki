@@ -83,14 +83,14 @@ Falls [2.3](#2-3-the-game-stutters-unbearably-after-installing-mods) deine FPS n
 * Überprüfe ob NVIDIA GEFORCE EXPERIENCE die Rendering-Skalierung über den Standardwert von 1 gesetzt hat. Möglicherweise hat es auf eine höhere Zahl von 1,4 oder 1,8 gesetzt, was die GPU-Last erheblich erhöht.
 * Verwende einen weniger komplexen Avatar.
 * The custom saber **Plasma Katanas** have tons of custom events and are known to introduce lag if you miss.
-* CameraPlus can be very taxing, especially if you have multiple cameras and increase the FOV.
-* Turn down Render Scale, Anti-Aliasing, mirror, fog, etc in the base game settings.
-* For Oculus CV1 or Rift players: consider using 2 sensors instead of 3+.
-* Reduce your total mod and song count.
-* Perform a [Clean Installation](#clean-installation) of the game files.
-* Low framerate can also be caused by something going wrong within your application data folder, to fix this refer to [Deleting The Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
-* Disable CountersPlus counters like score counter and swing speed as they can be expensive.
-* HTTPStatus mod can cause lag spikes. Test without this mod to see if the lag spikes go away.
+* CameraPlus kann sehr anfordernd sein, vor allem wenn Du mehrere Kameras aktiviert hast und das FOV erhöhst.
+* Stelle die Renderskallierung, Anti-Aliasing, Mirror, Fog etc. in den Grundeinstellungen aus.
+* Für Rift (CV1)-Spieler: Denke darüber nach, nur 2 Sensoren anstatt 3 oder mehrere zu verwenden.
+* Reduziere deine Gesamtanzahl an Mods und Songs.
+* Führe eine eine [saubere Neuinstallation](#clean-installation) der Spieldateien durch.
+* Eine niedrige Framerate kann auch durch Fehler in deinem Anwendungsdatenordner verursacht werden. Um das zu beheben, überlege dir, [deinen BeatSaber-Ordner im AppData-Verzeichnis zu löschen](#deleting-your-save-in-appdata).
+* Deaktiviere manche CountersPlus-Features, wie zum Beispiel "Score Counter" und "Swing Speed", da sie ziemlich anfordernd werden können.
+* Die HTTPStatus-Mod kann Lagspikes verursachen. Teste dies ohne die Mod, um zu sehen, ob sich deine Lagspikes reduzieren oder verschwinden.
 
 VR is very CPU intensive, especially if you add mods. If you're struggling to run the game with the mods you want, consider upgrading your hardware. Note that Beat Saber doesn't utilize the GPU very much as visually it's a fairly simple game.
 
@@ -107,7 +107,7 @@ Wenn dein Menü leer ist, ist mit hoher Wahrscheinlichkeit deine Speicherdatei d
 Gameplay Modifiers Plus adds a toggle to enable/disable controller rumble. If you disabled it then removed the mod, you'll need to modify the save data file that it writes to manually. Open `%appdata%/../locallow/hyperbolic magnetism/beat saber` and set `constrollersRumbleEnabled` to `true`.
 
 If this isn't the cause of your rumble issues and the following are true regarding your haptics:
-* haptics are miniscule
+* Haptiken sind minimal
 * there is no vibration when hitting multiple blocks
 * there is a slight delay when touching sabers together
 * you are using Oculus touch controllers

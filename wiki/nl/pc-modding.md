@@ -6,9 +6,9 @@ sidebar: auto
 # Voorwoord
 
 ::: danger DISCLAIMER Door mods te gebruiken, begrijp je dat:
-- Je ervaart mogelijk problemen die niet bestaan in het ongemodificeerde spel. 99,9% van de bugs, crashes en achterstand zijn te wijten aan mods.
+- Je ervaart mogelijk problemen die niet bestaan in de niet aangepaste versie van het spel. 99,9% van de bugs, crashes en achterstand zijn te wijten aan mods.
 - Mods worden vrijwel altijd onbruikbaar bij game updates en dat is normaal - wees geduldig en blijf respectvol wanneer dit gebeurt, want de mensen die mods maken zijn vrijwilligers met andere dingen in hun leven naast het maken van mods.
-- Beat Games probeert niet met opzet mods niet te laten werken. Ze willen enkel aan de code werken en soms maakt dit mods onbruikbaar, maar dit betekent niet dat ze expres mods in de weg zitten.
+- Beat Games probeert niet met opzet mods niet meer te laten werken. Ze willen enkel aan de code werken en soms maakt dit mods onbruikbaar, maar dit betekent niet dat ze expres mods in de weg zitten.
 
 Val de ontwikkelaars niet aan voor problemen gerelateerd aan het gebruik van mods, en vice versa - mod makers en de spel ontwikkelaars zijn twee aparte groepen. Wees gewoon geen eikel. :::
 

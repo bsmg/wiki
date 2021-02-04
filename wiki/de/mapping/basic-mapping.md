@@ -60,10 +60,10 @@ Weitere Informationen zu Nutzung der Reihen in [Schwierigkeit Einschätzen](#sch
 ## Timing & Rhythmus
 Bevor du ernsthaft mit dem Mappen anfängst, musst du dir Gedanken über den Rhythmus des Liedes machen, das du mappst. Du wirst die Blöcke auf einem oder mehereren Hauptinstrumente des Liedes platzieren: Dem Drumbeat, dem Leitinstrument, dem Bass, den Synths, oder dem Gesang.
 
-Um die Blöcke im Rhythmus zu platzieren, musst du die Cursor-Präzision variieren. Die meisten (aber nicht alle) Lieder werden 1/1, 1/2 oder 1/4 Cursor-Präzision benötigen, um den Beat zu treffen. Einige Lieder können 1/3 Cursor-Präzision durch Triolen benötigen, die für das unerfahrene Ohr schwer von 1/4 zu unterscheiden sind. You should not need to use less than 1/4 cursor precision for most songs *including* mapping to vocals.
+Um die Blöcke im Rhythmus zu platzieren, musst du die Cursor-Präzision variieren. Die meisten (aber nicht alle) Lieder werden 1/1, 1/2 oder 1/4 Cursor-Präzision benötigen, um den Beat zu treffen. Einige Lieder können 1/3 Cursor-Präzision durch Triolen benötigen, die für das unerfahrene Ohr schwer von 1/4 zu unterscheiden sind. Für die meisten Lieder benötigst du nicht weniger als 1/4 Cursor-Präzision, *auch* wenn du Vocals mappst.
 
 ::: warning  
-90% of the time, mapping with high precision (1/8, 1/16, 1/32, or 1/64) will make your song mistimed. If you need high precision to get your notes to line up then you have an issue with your audio file setup. STOP and review [Basic Audio Setup](./basic-audio.md) to ensure you’re in sync! :::
+90% der Zeit führt hohe Präzision (1/8, 1/16, 1/32, or 1/64) dazu, dass deine Map nicht richtig getimed ist. Wenn du eine sehr hohe Präzision benötigst, damit deine Noten richtig getimed sind, hast du deine Audiodatei nicht richtig vorbereitet. STOP and review [Basic Audio Setup](./basic-audio.md) to ensure you’re in sync! :::
 
 |                            1/1 Cursor-Präzision                            |                            1/2 Cursor-Präzision                            |                            1/3 Cursor-Präzision                            |                            1/4 Cursor-Präzision                            |
 |:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------:|

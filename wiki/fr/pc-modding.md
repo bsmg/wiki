@@ -5,7 +5,7 @@ sidebar: auto
 # Modding sur PC
 # Préface
 
-::: danger DISCLAIMER En choisissant d'utiliser les mods, vous comprenez et acceptez les faits suivants :
+:::danger AVIS DE NON-RESPONSABILITÉ En choisissant d'utiliser des mods, vous comprenez et acceptez les faits suivants :
 - Vous pouvez rencontrer des problèmes qui n'existent pas dans le jeu de base. 99.9% des bugs, crashes et lags sont dus aux mods.
 - Les mods sont soumis à rupture (arrêt de fonctionnement) par les mises à jour, et c'est normal. Soyez patient et respectueux quand cela arrive : les moddeurs sont des bénévoles et ont une vie.
 - Beat Games ne tente pas de rompre volontairement les mods. Ils souhaitent améliorer la base du jeu et parfois cela casse les mods, mais ce n'est pas dans leur objectif de tuer les mods.
@@ -68,7 +68,7 @@ _Où est installé Beat Saber ?_
 Supprimez le dll depuis le dossier `Plugins`, ou bien cliquez sur le bouton `Uninstall` dans Mod Assistant.
 
 ## Installation manuelle
-Un installateur de mods est le moyen recommandé pour installer des mods. Lisez la section [ci-dessus](#installers). Si vous avez patché le jeu et avez juste besoin d'installer les extensions qui ne sont pas disponibles dans l'installateur, passez à l'étape 4.
+Un installateur de mods est le moyen recommandé pour installer des mods. Lisez la section [ci-dessus](#installateurs). Si vous avez patché le jeu et avez juste besoin d'installer les extensions qui ne sont pas disponibles dans l'installateur, passez à l'étape 4.
 
 **Lancez le jeu au moins une fois** avant d'essayer de modder votre jeu ! Cela s'applique après chaque réinstallation du jeu également, et après chaque mise à jour.
 ### Installer BSIPA

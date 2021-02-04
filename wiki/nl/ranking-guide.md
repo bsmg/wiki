@@ -8,7 +8,7 @@ Geschreven door TeknozFR
 
 *Veel dank aan Flee voor het corrigeren van grammatica en het verstrekken van nuttige informatie.*
 
-:::warning Disclaimer Deze handleiding is oorspronkelijk geschreven op 7 februari 2019. Het is meerdere keren geüpdatet, maar sommige informatie is mogelijk onjuist of er ontbreekt wat. Als je opmerkt dat je inaccuraat/missende informatie in deze gids, kan je dat doorsturen met een pull aanvraag op de [BSMG Wiki GitHub](https://github.com/bsmg/wiki#readme) of stuur een bericht via Discord (TeknozFR#6900). :::
+:::warning Disclaimer Deze handleiding is oorspronkelijk geschreven op 7 februari 2019. Het is meerdere keren geüpdatet, maar het is nog steeds mogelijk dat de informatie onjuist is of dat er iets ontbreekt. Als je opmerkt dat je inaccuraat/missende informatie in deze gids, kan je dat doorsturen met een pull aanvraag op de [BSMG Wiki GitHub](https://github.com/bsmg/wiki#readme) of stuur een bericht via Discord (TeknozFR#6900). :::
 
 ## Accuracy en Scoring
 
@@ -139,37 +139,37 @@ Refer to the Grips section of [Grips And Tricks](./grips-and-tricks.md) for some
 
 ### Tips & trucs
 
-After all this time playing Beat Saber, I’ve hit many walls. Hitting a wall can be really annoying since it can take time to figure out what to do to keep improving. Here is a small list of tips to improve as a player.
+Na zoveel tijd Beat Saber te hebben gespeeld, heb ik talloze keren met het hoofd tegen een muur gelopen. Op een muur stoten kan enorm vervelend zijn, omdat het wel wat tijd kan kosten om uit te zoeken wat je precies kan doen om deze te overkomen en verder te verbeteren. Hier is alvast een kleine lijst met tips om te kunnen verbeteren als speler.
 
 **Daag jezelf uit.**
 
-While it sounds obvious, many players never try to improve and play harder maps and simply play the same maps over and over again. Extend your song list and push yourself to learn the things you are the worst at.
+Terwijl het waarschijnlijk heel logisch klinkt, veel spelers proberen nooit te verbeteren en moeilijkere nummers te spelen en spelen simpelweg dezelfde nummers opnieuw en opnieuw. Breid je lijst van nummers uit en push jezelf om dingen te leren waarin je het slechtste bent.
 
 **Speel meer.**
 
-You don't get better at playing an instrument without a lot of experience. The same goes for Beat Saber - simply playing more will improve pattern recognition, condition your body, and build muscle memory.
+Je wordt niet beter in het spelen van een instrument zonder veel ervaring op te doen. Hetzelfde geldt ook voor Beat Saber - simpelweg vaker spelen zal ervoor zorgen dat je beter patronen kan herkennen, dat je je lichaam conditioneert en dat je muscle memory opbouwt.
 
 **Evalueer je eigen gameplay.**
 
-Recording yourself is great to see where you could improve, whichever it’s only your gameplay or it is with a webcam. Analyzing yourself play can be really useful to see your common mistakes. You can also watch your own replays by clicking the arrow next to your score in the leaderboard.
+Jezelf opnemen is een goede manier om te zien hoe/waarin je kan verbeter, ongeacht of het nu je gameplay is of met een webcam. Analyzing yourself play can be really useful to see your common mistakes. You can also watch your own replays by clicking the arrow next to your score in the leaderboard.
 
 **Bekijk betere spelers spelen en vraag hen tips**
 
-If you have an opportunity, try to watch better players and use some of their techniques to improve. Copying everything about a pro player won’t make you one but can surely help you improve. Watch their replays and compare their movements to your own. Also if you ever have the opportunity, always ask for tips (just don’t be annoying or disrespectful).
+Als je de kans hebt, probeer dan naar betere spelers te kijken en probeer enkele van hun technieken te gebruiken om zelf te kunnen verbeteren. Alles kopiëren van een pro speler zal er niet voor zorgen dat je er zelf één wordt, maar kan je alvast wel helpen om zelf te verbeteren. Bekijk hun replays en vergelijk hun bewegingen met die van jezelf. Als je trouwens ooit de kans zou krijgen, dan kan je altijd eens vragen voor tips (wees gewoon niet vervelend of onrespectvol).
 
 **Denk er niet te veel over na**
 
-If you can’t finish a map or can’t achieve a higher score, don’t overthink it. I made the mistake of getting angry over this way too many times and it will create a mental wall. Simply play another song and come back to it another day.
+Als je een nummer niet kan voltooien of je kan geen hogere score neerzetten, denk er dan niet teveel over na. Ik heb maar al te vaak de fout gemaakt om hierover boos te worden en dat creëert enkel maar een mentale muur. Speel gewoon een ander liedje en kom er een andere dag op terug.
 
-**Oefen harde patronen**
+**Oefen moeilijke patronen**
 
-If you are struggling with a section of a map, slow it down with the Slower Song modifier or decrease the speed in practice mode.
+Als je last hebt met een bepaald gedeelte van een nummer, probeer het dan met een lagere snelheid te spelen door middel van de Slower Song modifier of verlaag de snelheid in de oefen modus.
 
-**BSRA** Check out Cube Community's [Beat Saber Replay Analysis playlist](https://www.youtube.com/watch?v=rxf68rH4S20&list=PLwx5EB8PdMNdElyEBfO7VktSWSNZukfqP). This series help viewers understand how top Beat Saber plays are made and how they can improve.
+**BSRA** Bekijk Cube Community's [Beat Saber Replay Analyse afspeellijst](https://www.youtube.com/watch?v=rxf68rH4S20&list=PLwx5EB8PdMNdElyEBfO7VktSWSNZukfqP). Deze serie helpt kijkers te begrijpen hoe top Beat Saber spelers spelen en hoe ze zelf kunnen verbeteren.
 
 **Heb plezier**
 
-At the end of the day, this is a game. The important part is that you have fun and enjoy playing it. If you hate playing this “one ranked map that sucks but is worth so much PP”, then simply don’t play it. Don’t try to force yourself to play songs you dislike and play however you want. It’s when you have fun that you’ll see the time fly by and you’ll improve the most. If you don’t care about rank, it’s all good, just have fun 🙂
+Uiteindelijk is en blijft het een spel. Het belangrijkste is dat je plezier hebt en dat je geniet van het spelen ervan. Als je het spelen van "dat éne gerankte nummer dat slecht is, maar zoveel PP waard is" haat, speel het dan simpelweg niet. Probeer jezelf niet te forceren om liedjes te spelen die je eigenlijk niet leuk vindt en speel gewoon degene die je wil spelen. Het is wanneer je plezier hebt, dat je de tijd voorbij zal zien vliegen en dat je het meeste zal verbeteren. Als je niets om je rang geeft, geen probleem, heb dan gewoon plezier 🙂
 
 ### Links
 

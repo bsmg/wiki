@@ -2,11 +2,11 @@
 Nous nous assurons que nos jeux apparaissent tels que nous voulons qu'ils soient, une extension à la fois.
 
 ## Aeroluna
-The madman behind Noodle Extensions and the current maintainer for Chroma and Technicolor. He's one of the people that made Mod charts possible!
+Le fou derrière Noodle Extensions et le programmeur actuel de Chroma et Technicolor. C'est l'une des personnes qui ont rendue les map moddées possibles !
 
-**Roles:** Modder **Contributions:** Noodle Extensions, Chroma, Technicolor
+**Roles :** Moddeur **Contributions :** Noodle Extensions, Chroma, Technicolor
 
-[GitHub](https://github.com/Aeroluna) | [Donate](https://ko-fi.com/aeroluna)
+[GitHub](https://github.com/Aeroluna) | [Faire un don](https://ko-fi.com/aeroluna)
 
 ## andruzzzhka
 A huge contributor for the in-game downloader mod, and developer of the unofficial multiplayer plugin.

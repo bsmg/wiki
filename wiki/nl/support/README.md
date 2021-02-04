@@ -180,7 +180,7 @@ Om de integriteit van de spelbestanden te verifiëren volg je deze stappen:
 5. Selecteer de optie "Verifieer Integriteit van Spelbestanden".
 6. Wacht tot het controleren en downloaden van ontbrekende bestanden is voltooid, als dit gedaan is ben je klaar om verder te gaan.
 
-Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it is on the old steam UI the steps are still the same.
+Hier is een [video gids](https://www.youtube.com/watch?v=EBFfT4-ZiIc), hoewel deze gemaakt is in de oude Steam UI zijn de stappen nog steeds hetzelfde.
 
 ### Nieuwe installatie
 1. (Optioneel) Maak een back-up van uw gedownloade Custom bestanden door een kopie van de volgende mappen te maken:

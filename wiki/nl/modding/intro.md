@@ -5,7 +5,7 @@ _Leer hoe je jouw eigen PC Mods kunt maken._
 ::: warning WAARSCHUWING Deze handleiding is voor het maken van mods voor de **PC** versie van Beat Saber!
 
 Zorg ervoor dat je spel is gemod voordat je probeert een mod te maken.  
-Zie de instructies voor [modding Beat Saber op de PC.](/pc-modding.md)
+Zie de instructies voor [ het modden van Beat Saber op de PC.](/pc-modding.md)
 
 Deze handleiding gaat er van uit dat je een basis begrip hebt van C# en Unity.  
 Het kan moeilijk zijn om te begrijpen wat hier wordt behandeld als je deze basis niet hebt. :::
@@ -27,12 +27,12 @@ Als je problemen hebt, raadpleeg dan de [README](https://github.com/Zingabopp/Be
 Maak eerst een nieuw project aan met behulp van het sjabloon.  
 We gaan gebruik maken van het `BSIPA4 Plugin (Core)` sjabloon, en we gaan de mod `BSPlugin1` noemen. Je kan de naam veranderen naar hoe je je mod wilt noemen.
 
-![Modding Template Select](~@images/modding/modding-template-select.png "Modding Template Select")  
-![Modding Template Name](~@images/modding/modding-template-name.png "Modding Template Name")
+![Selecteren van de modding template](~@images/modding/modding-template-select.png "Selecteren van de modding template")  
+![Modding template naam](~@images/modding/modding-template-name.png "Modding template naam")
 
 Vervolgens moet je jouw Beat Saber Directory instellen in Visual Studio. Volg de instructies [op de README van het sjabloon](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use)of bekijk de onderstaande schermafbeelding.
 
-![Setup Beat Saber Directory](~@images/modding/setup-bs-directory.png "Setup Beat Saber Directory")
+![Instellen van de Beat Saber directory](~@images/modding/setup-bs-directory.png "Instellen van de Beat Saber directory")
 
 **Probeer nu het project te maken**, het zou automatisch de verwijzingen voor je moeten vinden en het bouwwerk zou moeten slagen.
 
@@ -45,7 +45,7 @@ Als je handmatig referenties wilt toevoegen, klik dan met de rechtermuisknop op 
 Meer informatie over de reference manager kan je [hier](https://github.com/Zingabopp/BeatSaberModdingTools/wiki/Adding-References) vinden. :::
 
 ## De code inspecteren
-You should have 5 files open automatically with the template.
+5 bestanden moeten automatisch geopend worden met het slabloon.
 
 | Bestandsnaam             | Over                                                                                         |
 | ------------------------ | -------------------------------------------------------------------------------------------- |
@@ -61,7 +61,7 @@ De `name` en `id` plekken worden gebruikt om jouw mod te identificeren. De ID mo
 
 ::: warning WAARSCHUWING Verwijder **niet** de afhankelijkheid van BSIPA. Vanaf BSIPA v4.1 is dit vereist voor het laden van jouw mod. :::
 
-## Compiling
+## Compileren
 Bouw jouw plugin met `Build -> Build Solution` of <kbd>CTRL + SHIFT + B</kbd>  
 Jow gecompileerde DLL moet automatisch worden gekopieerd naar de `Plugins` map in jouw Beat Saber map! Dit zal worden gedaan voor zowel debug als release builds.
 
@@ -75,12 +75,12 @@ Voor meer informatie over startargumenten, zie [hier](./#launch-args).
 
 Wanneer je het spel opent, zou je moeten zien dat BSIPA jouw mod laad doormiddel van het console venster.
 
-![Testing console screenshot](~@images/modding/testing-console.png "Testing console screenshot")
+![Screenshot van het test console](~@images/modding/testing-console.png "Screenshot van het test console")
 
 ## Volgende stappen
 Hier zijn enkele nuttige hulpmiddelen om jou verder te helpen met het maken van mods.
 * Als je hulp nodig hebt bij het maken van mods, kun je vragen stellen in het `#pc-mod-dev` kanaal in de [BSMG Discord Discord](https://discord.gg/beatsabermods).
-* If you want to decompile code, check out [dnSpy](https://github.com/dnSpy/dnSpy/releases)
+* Als je code wilt decompileren, bekijk dan [dnSpy](https://github.com/dnSpy/dnSpy/releases)
 * Zie de BSIPA Documentatie voor meer informatie over het [configuratiesysteem](https://bsmg.github.io/BeatSaber-IPA-Reloaded/tags/4.1.3/articles/start-dev.html#configuring-your-plugin).
-* If you need to patch the game's code for your mod, you should use [Harmony](https://github.com/pardeike/Harmony#readme). De `0Harmony.dll` is al geïnstalleerd voor gemodde games.
+* Als je de code van het spel moet patchen voor je mod, moet je [Harmony](https://github.com/pardeike/Harmony#readme) gebruiken. De `0Harmony.dll` is al geïnstalleerd voor gemodde games.
 * Voor ervaren ontwikkelaars, ben je misschien geïnteresseerd in het leren over Zenject, het Dependency Injection system dat sterk gebruikt wordt door Beat Saber. [SiraUtil](https://github.com/Auros/SiraUtil#readme) is een bibliotheek waarmee je dit systeem gemakkelijk kan gebruiken.

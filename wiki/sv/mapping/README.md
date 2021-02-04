@@ -44,10 +44,10 @@ Stora mappare är inte gjorda på en dag. Det krävs engagemang utan att någon 
 **Kom ihåg:** Textguiderna på denna wiki är mer uppdaterade eftersom det är enklare och snabbare att ändra.
 
 #### Rekommenderat
-* [Helen Carnate's Mapping Tutorial](https://www.youtube.com/watch?v=6O3sXmh-kAA) - A 17 minute guide to get started mapping!
-* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) - a comprehensive lecture series on making your first map.
-* [Cyrix's Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw) - covers the most common issues discussed in [Basic Mapping](./basic-mapping.md).
-* [TranquillizeMe's Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc) - covers various lighting techniques and general lighting tips.
+* [Helen Carnates mappningsguide](https://www.youtube.com/watch?v=6O3sXmh-kAA) - En 17 minuters guide för att komma igång med mappning!
+* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) - en omfattande serie om hur du gör din första bana.
+* [Cyrix's Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw) - täcker de vanligaste frågorna som tas upp i [Basic Mapping](./basic-mapping.md).
+* [TranquillizeMe's Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc) - täcker olika belysningstekniker och allmänna belysningstips.
 
 :::warning Jag såg den här videon av Elite Eric, men jag fastnade/det fungerade inte. Varför? Vi på BSMG rekommenderar **starkt** att du inte använder någon video av Elite Eric. Efter att ha granskat hans material fann vi att det innehåller en stor mängd ofullständig eller felaktig information. Försök att nå ut till honom för att rätta till dessa fel har tyvärr mötts med tystnad och nya (och felaktiga) videor.
 
@@ -75,7 +75,7 @@ En mer ingående handledning i justerring av ljudfiler som att göra kortare ver
 MMA2 är den mest innehållsrika 3D-redigeraren och används av majoriteten av mappningsgemenskapen.
 
 * [Nedladdning av Mediocre Map Assistant 2](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest)
-* [Mediocre Map Assistant 2 User Guide](./mediocre-map-assistant.md)
+* [Mediocre Map Assistant 2 användarhandbok](./mediocre-map-assistant.md)
 
 #### BeatMapper.app
 En 3D-redigerare som kan köras i webbläsaren, så att vem som helst kan bygga banor. Det fungerar bäst för standardbanor utan tillägg, men nya funktioner är på väg.
@@ -150,8 +150,8 @@ Du är nu redo att fortsätta redigera din bana!
   Videoguide om att använda timingfunktionen i osu!'s redigerare för att hitta rätt BPM.
 * [Parity Checker](https://galaxymaster2.github.io/bs-parity/) by **GalaxyMaster**  
   Ett felkontrollverktyg som fokuserar på att hitta problem med paritet i en bana.
-* [Kival Evan's Beat Saber Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) by **Kival Evan**  
-  An error checker tool that is much more versatile than the one built into MMA2
+* [Kival Evan's Beat Saber Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) av **Kival Evan**  
+  Ett felkontrollverktyg som är mycket mer mångsidigt än det inbyggda i MMA2
 
 #### Legacy-verktyg
 * [BPM Saber](https://github.com/zevdg/bpm-saber#readme) av **Zevdg**  

@@ -100,38 +100,38 @@ Ersteller einer Vielzahl von Mods sowie des superschicken HitOverlay das einige 
 ## Kyle1413
 Ansässiger Kirby und Mod-Modder. Einer der aktivsten Modder und ein großer Teil der Entwicklung von Mods im Laufe der Zeit wenn die ursprünglichen Modder aufhören an diesen zu arbeiten, einschließlich solcher wie SongLoader/SongCore und Custom Colors. 6 lanes, custom color and platform support, custom walls and custom characteristics are simply some examples of Kyle's contributions to custom map formats.
 
-**Roles:** Modder, Support **Contributions:** A lot. He makes and maintains an extrordinary number of mods, both for PC and Quest.
+**Rollen:** Modder, Support **Beiträge:** Zu viele. Er erstellt und wartet eine riesige Anzahl an Mods, sowohl für PC als auch für die Quest.
 
-[GitHub](https://github.com/kylemc1413) | [Twitch](https://www.twitch.tv/kyle1413k) | [Donate](https://ko-fi.com/kyle1413k)
+[GitHub](https://github.com/kylemc1413) | [Twitch](https://www.twitch.tv/kyle1413k) | [Spenden](https://ko-fi.com/kyle1413k)
 
 ## Lauriethefish (TheProff)
-Creator of the discord presence integration mod for quest, as well as the CustomFailText port and AutoDebris.
+Ersteller der Discord Präsenz Integrationsmod für die Quest, als auch den CustomFailText Port und AutoDebris.
 
-**Roles:** Modder **Contributions:** CustomFailText, Discord Presence and AutoDebris (quest)
+**Rollen:** Modder **Beiträge:** CustomFailText, Discord Presence und AutoDebris (Quest)
 
 [Github](https://github.com/Lauriethefish)
 
 ## MichaelZoller
-Contributor to the beatsaber hooks used in quest modding and assists with creating infrastructure for the quest modding scene.
+Ersteller der Hooks welche für das Quest Modding verwender werden und und hilft beim Aufbau der Intrastruktur zum modden der Quest.
 
-**Roles:** Modder
+**Rollen:** Modder
 
 ## monkeymanboy
 monkey
 
-**Roles:** Modder **Contributions:** Perfection Display, Custom Campaign, CustomUI
+**Rollen:** Modder **Beiträge:** Perfection Display, Custom Campaign, CustomUI
 
-[GitHub](https://github.com/monkeymanboy) | [Twitch](https://www.twitch.tv/monkeymanboy) | [Donate](https://ko-fi.com/monkeymanboy)
+[GitHub](https://github.com/monkeymanboy) | [Twitch](https://www.twitch.tv/monkeymanboy) | [Spenden](https://ko-fi.com/monkeymanboy)
 
 ## Moon
-Does a lot of work with community plugins, like the BS Community Discord event plugins and the Christmas contest voting mod!
+Arbeitet viel mit den Plugins der Community, wie dem BS Community Discord Event Plugins und dem Weihnachtskontest Abstimmungsmod!
 
-**Roles:** Modder **Contributions:** Community Plugins
+**Rollen:** Modder **Beiträge:** Community Plugins
 
 [GitHub](https://github.com/MatrikMoon)
 
 ## nate1280
-Face off against your friends with his [Versus](https://versusmod.com/) mod. **Roles:** Modder **Contributions:** Versus
+Messe dich mit deinen Freunden mit dem [Versus](https://versusmod.com/) Mod. **Rollen:** Modder **Beiträge:** Versus
 
 [GitHub](https://github.com/nate1280)
 

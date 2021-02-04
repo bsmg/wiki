@@ -1,27 +1,27 @@
 # Custom Notes
 ## Installation
-:::tip NOTE Notes need to be made specifically for Quest or PC and are not interchangeable between the two. You can tell which platform a note is for by the file extension. `.bloq` files are for PC while Quest uses `.zip` files. :::
+:::tip ANMERKUNG Notenblöcke müssen speziell für die Quest oder PC erstellt werden, Du kannst also keine PC-Noten auf deiner Quest verwenden oder umgekehrt. Anhand des Dateiformats findest Du heraus, für welche Plattform die Notenblöcke erstellt wurden. `.bloq`-Dateien sind für den PC, `.zip`-Dateien sind für die Quest. :::
 
-### PC Notes
-The latest Custom Notes plugin can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant).
+### PC-Notenblöcke
+Das neueste CustomNotes-Plugin findest Du im [#pc-mods Kanal](https://discord.gg/beatsabermods) im BSMG-Discord oder im [Mod Assistant](https://github.com/Assistant/ModAssistant).
 
-Once installed, you should see a `CustomNotes` folder in [your install folder](/faq/install-folder.md), with some sample notes installed for you. This folder is also where you will place `*.bloq` files.
+Einmal installiert, solltest Du einen `CustomNotes`-Ordner in deinem [Installationsordner](/faq/install-folder.md) mit einigen vorinstallierten Notenblöcken sehen. In diesen Ordner müssen auch Deine `*.bloq`-Dateien gezogen werden.
 
-You can download more bloqs from [ModelSaber](https://modelsaber.com/Bloqs/).
+Weitere Notenblöcke können von [ModelSaber](https://modelsaber.com/Bloqs/) heruntergeladen werden.
 
-### Quest Notes
-Custom Notes for Quest are provided by the Qosmetics mod. The latest version can be found in the [#quest-mods channel](https://discord.gg/beatsabermods) in the BSMG discord. Notes are called `qbloqs` and are currently hosted in the [Qosmetics Community Discord](https://discord.gg/qosmetics).
+### Quest-Notenblöcke
+Custom Notes für die Quest werden von der Qosmetics-Mod bereitgestellt. Die neueste Version findest Du im [#quest-mods Kanal](https://discord.gg/beatsabermods) im BSMG-Discord. Die Notenblöcke heißen `qbloqs` und werden derzeit im [Qosmetics Community Discord](https://discord.gg/qosmetics) gehostet.
 
-## Usage
+## Verwendung
 
-### PC Users
-Inside the game in the main menu you will see on the left a `CUSTOM NOTES` button under the `Mods` section. Pressing it will open up the menu you can use to select which notes you want to use.
+### PC-User
+Innerhalb des Spiels wirst du im Hauptmenü einen `CUSTOM NOTES`-Knopf im `Mods`-Abschnitt finden. Mit einem Klick darauf wird ein Menü geöffnet, mit dem du zwischen den installierten Notenblöcke wählen kannst.
 
-### Quest Users
-Upload the note zip file to your Quest using the [BMBF Web Interface](/quest-modding.md#installing-mods). You can then select which note is active under the mods tab in BMBF.
+### Quest-User
+Lade die ZIP-Datei mit dem [BMBF Web Interface](/quest-modding.md#installing-mods) auf deine Quest. Du kannst dann im Mods-Tab in BMBF auswählen, welche Notenblöcke du verwenden möchtest.
 
-## Creating Custom Notes
+## Custom Notes erstellen
 
-[Bobbie's Bloq Guide](./notes-guide.md) is a good resource for creating custom notes from an existing model.
+[Bobbie's Bloq Guide](./notes-guide.md) ist eine gute Quelle für das Erstellen von Custom Notes aus einem bereits vorhandenen Modell.
 
-Note that this guide does not cover 3D modeling the notes. For that, we recommend looking up some tutorials on [Blender](https://www.blender.org/)!
+Beachte, dass dieser Guide nicht die 3D-Modellierung der Notenblöcke behandelt. Dafür empfehlen wir, dass Du Dir Tutorials zu [Blender](https://www.blender.org/) anschaust!

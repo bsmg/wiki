@@ -19,14 +19,14 @@ ___
 #### Moddé
 * **1er:** [Billie Eilish - Come Out and Play](https://beatsaver.com/beatmap/11bbc) par **SpecVR & Tall_Chilis_Boi**
 
-### Model Winners
-* **1st:** [Christmas Light Show](https://modelsaber.com/files/platform/1608165443/Christams%20LightShow.plat) Platform by **AkaRaiden**
+### Gagnant des modèles
+* **1er :** [ Lightshow de Noël](https://modelsaber.com/files/platform/1608165443/Christams%20LightShow.plat) Plateforme par **AkaRaiden**
 
 ### Grand prix
 [PENTATONIX - Sleigh Ride](https://beatsaver.com/beatmap/11c10) par **ETAN**
 
 ## Concours d'Halloween de 2020
-Le troisième concours d'Halloween. This time with celebrity judges, LostVint, Protostar, Ikeiwa, C418, TougeVR, Mawntee, and PHIABunny. Also **a _whole pumpkin_** was given as part of the Grand Prize courtesy of **Steven 🎀**.
+Le troisième concours d'Halloween. Cette fois, avec des juges célèbres, LostVint, Protostar, Ikeiwa, C418, TougeVR, Mawntee et PHIABunny. Aussi, **une _citrouille entière_** a été donnée dans le cadre du concours de courtoisie de **Steven 🎀**.
 ___
 [Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/772231511557799946)
 

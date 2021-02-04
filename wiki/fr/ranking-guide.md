@@ -8,7 +8,7 @@ sidebar: auto
 
 *Merci beaucoup à Flee pour avoir corrigé les erreurs grammaticales et fourni des informations utiles.*
 
-:::warning DISCLAIMER Ce guide a été écrit à l'origine le 7 février 2019. Il a été mis à jour plusieurs fois mais certaines informations peuvent être inexactes ou manquantes. Si vous constatez des inexactitudes ou informations manquantes dans ce guide, vous pouvez effectuer y apporter des modifications sur la page du [Wiki de BSMG sur Github](https://github.com/bsmg/wiki#readme) ou m'envoyer un message via Discord (TeknozFR#6900). :::
+:::warning AVIS DE NON-RESPONSABILITÉ Ce guide a originalement été écrit le 7 février 2019. Il a été mis à jour plusieurs fois mais certaines informations peuvent être inexactes ou manquantes. Si vous constatez des inexactitudes ou informations manquantes dans ce guide, vous pouvez effectuer y apporter des modifications sur la page du [Wiki de BSMG sur Github](https://github.com/bsmg/wiki#readme) ou m'envoyer un message via Discord (TeknozFR#6900). :::
 
 ## Précision et score
 
@@ -33,7 +33,7 @@ Cela montre à quel point il est important de faire des mouvements de balancier 
 
 ### Zones de collision
 
-Une idée reçue sur Beat Saber serait que la plupart des gens pensent que les zones de collision des notes sont les blocs eux-mêmes. Alors que c'était le cas auparavant, les zones de collision ont changé à plusieurs reprises à travers les différentes versions du jeu et beaucoup d'images se trompent. Voici une image montrant la zone de collision actuelle. Comme vous pouvez le voir, la zone de collision est plutôt grande et s'étend beaucoup sur les côtés et la face avant. With this information, it is recommended to hit with the tip of the saber to maximize the angle and get the best cut possible.
+Une idée reçue sur Beat Saber serait que la plupart des gens pensent que les zones de collision des notes sont les blocs eux-mêmes. Alors que c'était le cas auparavant, les zones de collision ont changé à plusieurs reprises à travers les différentes versions du jeu et beaucoup d'images se trompent. Voici une image montrant la zone de collision actuelle. Comme vous pouvez le voir, la zone de collision est plutôt grande et s'étend beaucoup sur les côtés et la face avant. Avec cette information, il est recommandé de frapper avec la pointe du sabre pour maximiser l'angle et obtenir la meilleure coupe possible.
 
 ![Zones de collision](~@images/ranking-guide/hitbox.png "Zones de collision")
 

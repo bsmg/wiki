@@ -39,19 +39,19 @@ Certains éditeurs créeront automatiquement un dossier `autosaves` (sauvegardes
 |  ![Directional Block](~@images/mapping/arrow-block.png)   |  ![Dot Block](~@images/mapping/dot-block.png)   |                    ![Bomb](~@images/mapping/bomb.png)                    |                  ![Wall](~@images/mapping/wall.png)                  |
 | Doit être coupé dans<br />la direction de la flèche | Peut être coupé dans n'importe quelle direction | Inflige des dégâts lorsque coupé <br />mais est sûr pour le joueur | Inflige des dégâts au joueur mais<br />est sûr pour les sabres |
 
-**A few notes about walls:**
+**Quelques précisions sur les murs:**
 * Les murs standard peuvent être reconnus par n'importe quel casque VR et ont la plus grande compatibilité. Les nouveaux mappers devraient s’en tenir à ces derniers jusqu’à ce qu’ils soient un peu plus expérimentés.
 * There are a few types of “hack” walls that do not require the Mapping Extensions mod: fast walls (fly by you fast), hyper walls (fly by you SUPER fast), and fake walls (look like normal walls but don’t cause damage).
 * Bien que ces types de murs soient pris en charge dans certains éditeurs, ils abusent des mécanismes du jeu de base et sont considérés comme inclassables.
 * Read up more on non-Mapping Extensions walls in [Intermediate Mapping](./intermediate-mapping.md) and read more on “fancy” walls in [Extended Mapping](./extended-mapping.md)
 
-**A few notes about bombs:**
+**Quelques précisions sur les bombes:**
 * Les boîtes de collision des bombes sont plus petites que les boîtes de collision de blocs, elles sont même plus petites que le modèle de la bombe.
 * Les bombes sont difficiles à voir quand l'éclairage n'est pas activé. Vérifiez que votre map n'est pas trop sombre lorsque les bombes arrivent. Consultez [Les bases du lighting](./basic-lighting.md) pour plus de conseils.
 * Les bombes peuvent toujours être coupées après avoir passé le joueur.
 
 ### Répartition des blocs
-This varies based on the target difficulty and audience you are mapping for. For example, some players in the lower difficulties might be overwhelmed by a balanced distribution across the three rows compared to a more experienced player that can handle multiple jumps across the rows. Block distribution can also vary between mapping styles at the same difficulty level.
+This varies based on the target difficulty and audience you are mapping for. Par exemple, certains joueurs dans les difficultés inférieures peuvent être submergés par une répartition équilibrée entre les trois rangées par rapport à un joueur plus expérimenté qui peut gérer plusieurs blocs sur les rangées et colonnes. Block distribution can also vary between mapping styles at the same difficulty level.
 
 For more on row usage in different difficulties, see [Gauging Difficulty](#gauging-difficulty-down-mapping).
 
@@ -70,10 +70,10 @@ To place blocks in time with the rhythm you’ll need to change your cursor prec
 | ![1/1 Cursor precision screenshot](~@images/mapping/1-1_precision.png) | ![1/2 Cursor precision screenshot](~@images/mapping/1-2_precision.png) | ![1/3 Cursor precision screenshot](~@images/mapping/1-3_precision.jpg) | ![1/4 Cursor precision screenshot](~@images/mapping/1-4_precision.png) |
 |                          1 bloc par battement                          |                          2 bloc par battement                          |                          3 bloc par battement                          |                          4 bloc par battement                          |
 
-When timing out your map you’ll want to double check EARLY that the waveform in your editor is lined up with the major lines of the editor track. If your waveform isn't lined up, revisit the [Basic Audio Setup](./basic-audio.md) page of the wiki for tips.
+Quand vous faites le timing d'une map, il est important de vérifier au DEBUT que la musique est bien en rythme avec la piste de l'éditeur. If your waveform isn't lined up, revisit the [Basic Audio Setup](./basic-audio.md) page of the wiki for tips.
 
-::: danger CAUTION  
-If your waveform isn’t lined up it will make it **very** difficult to place blocks in time with the music. Get this right before you start or risk remapping later! :::
+::: danger ATTENTION  
+Si votre musique n'est pas alignée, cela rendra **très** difficile de placer des blocs en rythme avec la musique. Get this right before you start or risk remapping later! :::
 
 |                                 Audio non aligné                                 |                             Audio correctement synchronisé                              |
 |:--------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|

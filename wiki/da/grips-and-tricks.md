@@ -73,7 +73,7 @@ Din krop blokerer muligvis et lighthouse fra at se en af dinne controllers. Her 
 
 ![Hjælp til Vive Tracking](~@images/grips-and-tricks/vive-tracking-help.gif)
 
-This can apply to Oculus sensors too.
+Dette kan også gælde for Oculus sensorer.
 
 ## Frakobling af Touch Controllers batteri
 Kraften i dine sving i Beat Saber kan få fjederen i touch controllerne til at komprimere og afbryde batteriet i et kort øjeblik. Dette er hvad der sker når du ser din saber miste positionel tracking, men stadigvæk rotere på stedet. For at afhjælpe dette, anbefaler ragesaq at tilføje ekstra fjedre i batterirummet for at mindske sandsynligheden for at batteriet afbrydes, som forklaret i denne [Reddit Post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)

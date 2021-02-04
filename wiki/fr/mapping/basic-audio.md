@@ -41,11 +41,11 @@ Avant de commencer à mapper, assurez-vous que vous disposez d'un fichier source
 Suivez ces règles génerales quand vous travaillez sur vos maps:
 * Utilisez des sources de la plus haute qualité possible , comme les fichiers **FLAC ou WAV(E)** (ces formats ne présentent pas ou très peu de pertes audio).
 * Une autre alternative s'en rapprochant serait un fichier **MP3 ou AAC** de plus de 200kbps (qui sont des formats présentent quelques pertes audio).
-* Use a YouTube rip **only** as a last resort. Le bitrate est médiocre et le volume est rarement bon. In this case some audio editing might be required (see [Optional Audio Editing](#optional-audio-editing)).
+* Use a YouTube rip **only** as a last resort. Le bitrate est médiocre et le volume est rarement bon. Dans ce cas, de l'éditing audio peut être nécessaire (voir [ Édition audio optionnelle](#optional-audio-editing)).
 
 > Les sites où vous pouvez acheter les morceaux/albums, tels que le [Bandcamp](https://bandcamp.com/)d'un artiste, seront généralement les sources de la plus haute qualité possible. Si l'artiste n'a pas de Bandcamp disponible, Google Play Music, Amazon Music et iTunes sont des alternatives pour trouver des fichiers MP3 de haute qualité.
 
-By purchasing and using a high quality audio file, not only are you supporting your artist, but you save yourself a lot of headache while mapping. Look at the difference in quality for the same song, at the same beat.
+En achetant et utilisant des fichiers audio de bonne qualité, non seulement vous supportez votre artiste, mais vous vous protéger d'un bon nombre de mots de tête durant le mapping. Regardez la différence de qualité pour la même chanson, à la même pulsation.
 
 | OGG Quality |                   YouTube Rip                   |                  MP3                  |                  WAV                  |                  FLAC                   |
 |:-----------:|:-----------------------------------------------:|:-------------------------------------:|:-------------------------------------:|:---------------------------------------:|
@@ -53,20 +53,20 @@ By purchasing and using a high quality audio file, not only are you supporting y
 |      5      |  ![YouTube Rip 5](~@images/mapping/ytrip5.jpg)  |  ![MP3 5](~@images/mapping/mp35.jpg)  |  ![WAV 5](~@images/mapping/wav5.jpg)  |  ![Flac 5](~@images/mapping/flac5.jpg)  |
 |     10      | ![YouTube Rip 10](~@images/mapping/ytrip10.jpg) | ![MP3 10](~@images/mapping/mp310.jpg) | ![WAV 10](~@images/mapping/wav10.jpg) | ![Flac 10](~@images/mapping/flac10.jpg) |
 
-Can you see the difference? You cannot scale up audio quality; only starting with a high quality audio file can give you clean, percise lines.
+Pouvez-vous voir la différence? Vous ne pouvez pas augmenter la qualité audio. Seulement partir d'un fichier audio de haute qualité peut vous donner des lignes propres et précises.
 
 See the [Advanced Audio Editing](./advanced-audio.md) page for more in-depth techniques and tools for analysing the audio quality of files.
 
 
 ## Synchroniser l'audio
 
-To make it easier to map and make sure that the song is synced perfectly to the game's beat you need to set up your audio file correctly. This section will assume you are using [Audacity](https://www.audacityteam.org/).
+To make it easier to map and make sure that the song is synced perfectly to the game's beat you need to set up your audio file correctly. Cette section suppose que vous utilisez [Audacity](https://www.audacityteam.org/).
 
-### Plan Your First Note
-Analyse the intro of the song. Depending on where in the song you want to place your first block, you'll need to avoid both a *hot start* (not enough time before the first block) and a too-long intro. Your song will fit into one of three categories:
-1. **Songs with no intro:** It is critical to leave at **minimum two seconds** of preparation time for the player before the first playable note(s) in your map, otherwise this is known as a "Hot Start."
-2. **Songs with a short intro:** If your song has a short intro that is **less than eight seconds** it is OK for the music to start playing immediately.
-3. **Songs with a long intro:** If the song has a very long and uneventful/fade-in intro for **more than ten seconds** it is strongly recommended to shorten the intro so the first note(s) are placed within eight seconds from map start.
+### Placez bien votre première note
+Analysez l'intro de la musique. Selon l'endroit dans la chanson où vous voulez placer votre premier bloc, vous devriez éviter à la fois un *début brutal* (pas assez de temps avant le premier bloc) et une intro trop longue. Ta musique rentrera dans l'une de ces trois catégories :
+1. **Musiques sans introduction :** Il est essentiel de laisser **au moins deux secondes** de temps de préparation pour le joueur avant le(s) première(s) note(s) jouable(s) sur votre carte, sinon cela est connu sous le nom de « Début brutal. »
+2. **Musiques avec une courte introduction :** Si votre chanson a une introduction de **moins de huit secondes** il est bon que la map commence dès le début de la musique.
+3. **Musiques avec une introduction longue :** Si la musique a une intro très longue et sans événement ou fondu pendant **plus de dix secondes** il est fortement recommandé de raccourcir l'intro pour que la(les) première(s) note(s) soient placées dans les huit secondes à partir du démarrage de la map.
 
 In all cases above you will need to time shift the song to an appropriate time based on your needs:
 1. **No intro:** Move the song back in time (to the right in the audio track), placing the first mapped note(s) after two seconds. Then sync the song to the beat. Later fill the gap with silence.

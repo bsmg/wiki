@@ -44,10 +44,10 @@ Schriftliche Anleitung sind nicht dein Ding? Schaue dir diese Videoserien an!
 **Bedenke:** Die schriflichen Anleitungen auf dem Wiki sind auf einem aktuellerem Stand, da sie einfacher und schneller geändert werden können.
 
 #### Empfohlen
-* [Helen Carnate's Mapping Tutorial](https://www.youtube.com/watch?v=6O3sXmh-kAA) - A 17 minute guide to get started mapping!
-* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) - a comprehensive lecture series on making your first map.
-* [Cyrix's Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw) - covers the most common issues discussed in [Basic Mapping](./basic-mapping.md).
-* [TranquillizeMe's Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc) - covers various lighting techniques and general lighting tips.
+* [Helen Carnate's Mapping Tutorial](https://www.youtube.com/watch?v=6O3sXmh-kAA) (Englisch) - Eine 17-minütige Anleitung über die Mapping-Grundlagen!
+* [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) (Englisch) - eine umfangreiche Vortragsreihe mit Tipps für deine erste Map.
+* [Cyrix's Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw) (Englisch) - behandelt die häufigsten Fehler neuer Mapper aus [Mapping-Grundlagen](./basic-mapping.md).
+* [TranquillizeMe's Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc) (Englisch) - behandelt verschiedene Lighting-Techniken und bietet weitere Tipps für Lighting.
 
 :::warning Ich habe ein Video von Elite Eric gesehen, aber ich komme nicht weiter/es funktioniert nicht. Wie kommts? BSMG rät **stark** davon ab, jegliche Beat Saber Tutorials von Elite Eric zu verweden. Nachdem wir uns viele seiner Videos angeschaut haben, haben wir festgestellt, dass diese eine Vielzahl unvollständiger, fehlerhafter oder falsche Informationen beinhalten. Auf Anfragen, diese Fehler zu korrigieren, folgte leider nur Schweigen und weitere (ebenfalls fehlerhafte) Tutorials.
 
@@ -150,8 +150,8 @@ Du kannst jetzt du mit dem Mappen fortfahren!
   Video-Anleitung zur Verwendung der Timing-Funktion des osu!-Editors, um die BPM der Map zu finden.
 * [Parity Checker](https://galaxymaster2.github.io/bs-parity/) von **GalaxyMaster**  
   Ein Tool zur Fehlerprüfung, das nach Fehler in der Parität deiner Map sucht.
-* [Kival Evan's Beat Saber Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) by **Kival Evan**  
-  An error checker tool that is much more versatile than the one built into MMA2
+* [Kival Evan's Beat Saber Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) von **Kival Evan**  
+  Ein Werkzeug zur Fehlerüberprüfung, welches bei weitem vielseitiger ist als das, welches in MMA2 eingebaut ist
 
 #### Veraltete Hilfsmittel
 * [BPM Saber](https://github.com/zevdg/bpm-saber#readme) von **Zevdg**  
@@ -173,7 +173,7 @@ Hier sind einige Mods, die deinen Mapping-Workflow erleichtern.
 > "You have to know the rules before you can break them."  
 > ~ Uninstaller
 
-There is no holy bible of mapping but this section of the wiki includes a lot of tribal knowledge from the community on best practices at all levels of mapping. Our advice is to follow these rules until you're comfortable with your skills and then get creative, experiment, and innovate!
+Es gibt keine Bibel des Mappings, aber dieser Abschnitt des Wikis behandelt das gesammelte Fachwissen auf allen Mappingstufen. Wir empfehlen, die Regeln zu befolgen, bis du dich mit ihnen bekannt machst, und später kreativ, emperimentell und kreative zu werden!
 
 ### [**Mapping-Grunlagen**](./basic-mapping.md)
 Alle neuen Mapper sollten das lesen, **ohne Ausnahmen!**
@@ -188,7 +188,7 @@ Du benötigst mindestens drei solide/spielbare Maps (Kollaborationen sind erlaub
 ### Modding & Ranking
 Maps, die spezifischen [Ranking-Kriterien](https://scoresaber.com/criteria) entsprechen und den langwierigen Gutachterverfahren des "Moddings" durchlaufen, haben das Potenzial, "geranked" zu werden. Diese Map verleihen dem Spieler "Performance-Punkte" (PP) auf den globalen Ranglisten. Weitere Informationen und ein ausführliches FAQ findest Du auf dem [ScoreSaber Discord](https://discord.gg/WpuDMwU)
 
-* Bevor ein Mapper auf Ranking seiner Map anfragt, sollte er sich ausführlich mit den Ranking-Kriterien und den [Normen für Metadaten (Englisch)](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) auseinandersetzen und seine Map von einer erfahrenen Person gemoddet haben. :::tip Want an even more detailed look? Review the [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-Do_kpAs567BdeJqWSzT9xazp20biA9Th0o/edit?usp=sharing) for some of the more ambiguous ranking considerations. :::
+* Bevor ein Mapper auf Ranking seiner Map anfragt, sollte er sich ausführlich mit den Ranking-Kriterien und den [Normen für Metadaten (Englisch)](https://docs.google.com/document/d/1ehotupIYMVlc8x41JldO-24m7Am-oTVYnciF9KCRdNM/edit) auseinandersetzen und seine Map von einer erfahrenen Person gemoddet haben. :::tip Willst du noch detaillierter? Review the [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-Do_kpAs567BdeJqWSzT9xazp20biA9Th0o/edit?usp=sharing) for some of the more ambiguous ranking considerations. :::
 * Once your map has been modded and revised, it’s ready to be submitted via the ScoreSaber Discord for review by the ranking team (which involves additional rounds of strict modding and revision).
 * Wenn ein Ranking Team-Mitglied die Map für akzeptabel hält, wird sie zur "Rank Request Queue" hinzugefügt, in der sie von weiteren Mitgliedern überprüft wird.
 

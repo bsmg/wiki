@@ -39,7 +39,7 @@ Det er et simpelt Beat Saber Mod Installationsprogram som ligner mod manager, me
 Plugin'et `BeatSaver Downloader` giver dig mulighed for at downloade baner inde i spillet ved hjælp af menuknappen `MORE SONGS` på menuskærmen `MODS`. Dette trækker baner direkte fra [BeatSaver](https://beatsaver.com)
 
 ### BeatSaver
-[BeatSaver](https://beatsaver.com) er hovedarkivet for brugerskabte baner fra fællesskabet. Mange andre værktøjer og websteder forbedrer oplevelsen af at downloade brugerskabte baner, men dette er stedet, hvor de er opbevaret. For at installere sange downloadet fra BeatSaver, udpak zip-filen i en mappe og placer mappen i `Beat Saber/Beat Saber_Data/CustomLevels`.  You can also use the in-game downloader plugin, BeatList, or Mod Assistant's OneClick™ Install feature.
+[BeatSaver](https://beatsaver.com) er hovedarkivet for brugerskabte baner fra fællesskabet. Mange andre værktøjer og websteder forbedrer oplevelsen af at downloade brugerskabte baner, men dette er stedet, hvor de er opbevaret. For at installere sange downloadet fra BeatSaver, udpak zip-filen i en mappe og placer mappen i `Beat Saber/Beat Saber_Data/CustomLevels`.  Du kan også bruge BeatList til at downloade baner inde fra spillet, eller Mod Assistant's OneClick™ Installer funktion.
 
 ### Beast Saber
 [Beast Saber](https://www.bsaber.com) (bsaber.com) er et websted, der forsøger at hjælpe med at gøre det nemmere at finde fantastiske baner. Det gør den ved at kategorisere de tusindvis af sange på beatsaver og lader dig sortere efter en sangs genre og mange andre karaktertræk. Den har også en social funktion, hvor spillerne kan gennemgå sange og kommentere dem. En af de mest anvendte funktioner er "Kuratorer anbefaler" funktionen, hvor et hold gennemspiller de fleste sange udgivet hver dag og anbefaler dem, der skiller sig ud, lader dig [automatisk downloade disse inde i spillet](https://bsaber.com/beatsync/).
@@ -75,7 +75,7 @@ Et mod-installationsprogram er den anbefalede måde at installere mods. Se afsni
 **Kør spillet mindst én gang** før du forsøger at modde spillet! Dette gælder også for geninstallering af dit spil.
 ### Installer BSIPA
 1. Download [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
-2. Navigate to your [install folder.](#install-folder) and extract the contents of BSIPA into it. ![Direktions Fjernelse](~@images/beginners-guide/directory-clean.png "Direktions Fjernelse") ![Direktions Ipa](~@images/beginners-guide/directory-ipa.png "Direktions Ipa")
+2. Gå til din [installationsmappe.](#install-folder) og udpak indholdet af BSIPA-zipfilen ind i den mappe. ![Direktions Fjernelse](~@images/beginners-guide/directory-clean.png "Direktions Fjernelse") ![Direktions Ipa](~@images/beginners-guide/directory-ipa.png "Direktions Ipa")
 3. Dobbeltklik på IPA.exe for at modde spillet. Alle mods i mappen `Plugins` vil nu blive indlæst, når spillet startes. Hvis der er fejl, har du sandsynligvis ikke fulgt trin 2 korrekt. ![Direktions Modded](~@images/beginners-guide/directory-patched.png "Direktions Modded")
 
 ### Installer Mods

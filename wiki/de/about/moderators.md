@@ -1,5 +1,5 @@
-# Moderators
-With a server so large, a lot of moderation is required to keep everything under control. You can thank this team for keeping the streets clean.
+# Moderatoren
+Mit so riesigen Servern wird einiges an Moderation benötigt, damit nichts aus dem Ruder läuft. Du kannst diesem Team dafür danken, dass alles sauber bleibt.
 
 ## BeigeAnimal
 We had to whip this boy into a bit of shape but he's now one of the most effective moderators. He's not really specialized in any field but he's willing to lend a helping **provided they ask in the right channel.** Also hates sketchfab links.

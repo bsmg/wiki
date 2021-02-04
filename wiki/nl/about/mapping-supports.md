@@ -1,36 +1,36 @@
 # Mapping Supports
-The Mapping Support role is a symbol of thanks. Thanks for the thousands of messages sent in the mapping discussion channel and time spent building and maintaining the mapping resources to help people learn how to make maps. We don't typically give this role out, but when we do it's because someone has gone above and beyond for the server.
+De Mapping Support rol staat symbool voor dank. Bedankt voor de duizenden berichten die verstuurd zijn in het gesprekskanaal en de tijd die besteed is aan het maken van de nummers en het in stand houden van de middelen die nodig zijn om mensen te helpen om hun eigen nummers te maken. Deze rol word niet vaak uitgegeven, maar als we dat wel doen dan is dat omdat iemand veel tijd heeft besteed aan de server en het helpen van mensen.
 
 ## Alzaraf
-For some reason, spends way more time talking about mapping then actually mapping.  
+Spendeert om een of andere reden veel meer tijd over het maken van levels dan ook echt levels maken.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855ce3) | [BeastSaber](https://bsaber.com/members/alzaraf/)
 
 ## Bullet
-Contributed lots of stuff to the Mapping section of the wiki. Has an interesting username...  
+Heeft veel dingen bijgedragen bij aan de Levels maken sectie van de wiki. Heeft een interessante gebruikersnaam...  
 [BeatSaver](https://beatsaver.com/uploader/5e84a9933f476a000645dd88) | [BeastSaber](https://bsaber.com/members/xace1337manx/)
 
 ## CyanSnow
-A furry on Mondays and Wednesdays, makes awesome maps with various gimmicks pushing mapping to the limit.  
+Een furry op maandagen en woensdagen, maakt geweldige levels met verschillende eigenschappen die het maken van levels naar het limiet brengen.   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8543ac) | [BeastSaber](https://bsaber.com/members/cyansnow/)
 
 ## Cyrix
-A mapper and testplayer who focuses on metal music, and lots of multi-diff maps. Might make a video every year or so.
+Een level maker en testspeler die zich richt op metal muziek en veel multi-diff levels. Maakt heel misschien een video eens in het jaar.
 
 [BeatSaver](https://beatsaver.com/uploader/5eb6eb9a7abb000006c85add) | [BeastSaber](https://bsaber.com/members/cyrix/)
 
 ## fruhead
-A mapper who focuses on creating accessible low expert+ and below maps. Originally got into mapping in order to add some more rock and metal maps to compete with the weeb and nightcore maps, only to end up making more weeb and nightcore maps. Tests maps on occasion, though has PTSD from 1999 and official editor. Creator of the [Beginner's Guide to Mapping tutorial series](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm).  
+Een level maker die focust op het maken van toegankelijke expert+ en lager levels. Oorspronkelijk begonnen met het maken van levels om wat meer rock- en metal levels toe te voegen om te concurreren met de weeb en nightcore levels, is uiteindelijk begonnen om zelf weeb en nightcore levels te maken. Test af en toe levels, maar heeft PTSD van 1999 en de officiële editor. Maker van de [Beginner's Guide to Mapping tutorial series](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm).   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c852683) | [BeastSaber](https://bsaber.com/members/fruhead/)
 
 ## Helen Carnate
-The plushie queen who organized the majority of the mapping resources. The guides wouldn't be like they are today without them!  
+De plushie koningin die het grootste deel van de level makers middelen heeft georganiseerd. De handleidingen zouden er niet zijn zoals ze er nu uit zien zonder haar!   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c8553d2) | [BeastSaber](https://bsaber.com/members/helencarnate/) | [Etsy Shop](https://www.etsy.com/shop/HelenCarnateDesigns)
 
 ## Skeelie
-Bringer of eye damage with his flashy light shows, he can help you make your map shine!  
+Brenger van oogschade met zijn flitsende lightshows, hij kan je helpen om je level te laten schijnen!   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f) | [BeastSaber](https://bsaber.com/members/skeelie/) | [YouTube](https://www.youtube.com/user/xSkeelie) | [Twitch](https://www.twitch.tv/skeelie)
 
-::: tip Zie ook **Supports:** [Kolezan](./supports.md#kolezan)  
-**Moderators:** [Pyrowarfare](./moderators.md#pyrowarfare)  
+::: tip Zie ook **Supports:** [Kolezan](./supports.md#kolezan)   
+**Moderators:** [Pyrowarfare](./moderators.md#pyrowarfare)   
 **Staff:** [Bloodcloak](./staff.md#bloodcloak)  
 :::

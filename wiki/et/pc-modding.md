@@ -2,95 +2,95 @@
 sidebar: auto
 ---
 
-# PC Modding
-# Preface
+# PC moddimine
+# Eessõna
 
-::: danger DISCLAIMER By choosing to use mods, you understand that:
-- You may experience problems that don't exist in the vanilla game. 99.9% of bugs, crashes, and lag are due to mods.
-- Mods are subject to being broken by updates and that's normal - be patient and respectful when this happens, as modders are volunteers with real lives.
-- Beat Games aren't purposefully trying to break mods. They wish to work on the codebase and sometimes this breaks mods, but they are not out to kill mods.
+::: danger HOIATUS Otsustades mode kasutada, mõistate et:
+- Võite kogeda tõrkeid, mis modifitseerimata mängus ei ilmne. 99.9% programmivigadest, -sulgumistest ja läägist on põhjustatud modide poolt.
+- Modid on altid mänguvärskenduste tõttu katki minema ja see on normaalne - olge kannatlikud ja lugupidavad, kui see juhtub, sest moddijad on vabatahtlikud inimesed omaenda eludega.
+- Beat Games ei proovi tahtlikult mode lõhkuda. Nad tahavad töötada oma koodibaasi kallal ja mõnikord see takistab modide tööd, kuid nende eesmärk pole mode lõhkuda.
 
-Do not attack the game developers for issues related to mods, and vice versa - modders and game developers are two separate groups. Just don't be a jerk ok. :::
+Ärge rünnake mängu arendajaid modidega seotud probleemide pärast ja vastupidi - moddijad ja mängu arendajad on kaks eraldi gruppi. Lihtsalt ärge olge jobud, okei? :::
 
-Beat Saber natively supports custom songs, so if that's all you're looking for, you don't require more mods! It's a wise idea to install `SongCore` though, as this mod expands upon the base game functionality to improve loading times and provide functionality for other mods like the in-game downloader, custom leaderboards, playlists, etc.
+Beat Saber toetab lisalaule iseenesest, nii et kui see on kõik, mida sa soovid saavutada, pole sul rohkem mode vaja! Siiski on mõistlik installida `SongCore` mod, kuna see mod laiendab baasmängu funktsionaalsust, kiirendades laadimisaegu ja võimaldades toimimist teistele modidele nagu mängusisene laulude allalaadija, edetabelid lisalaulude jaoks, playlistid jne.
 
-::: warning This guide is for PC-modding on Windows.  
-If you have a Quest, see the [Quest Modding page](/quest-modding.md).  
-If you're on Linux, check out the [Linux page](/modding/linux.md) or [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md) :::
+::: warning Need juhised on PC moddimise jaoks Windows operatsioonisüsteemil.  
+Kui kasutate Questi, võite vajada hoopis [Questi moddimise lehte](/et/quest-modding.md).  
+Kui kasutate Linuxit, minge [Linuxi lehele](/et/modding/linux.md) või [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md) lehele. :::
 
-If you run into problems at any point, please head to the [support page](./support) and see if you can identify what went wrong before asking in the Discord server. Chances are, your answer is on that page!
+Kui satute probleemide otsa, palun suunduge [tugilehele](./support) ja proovige ise viga tuvastada enne Discord serveris abi küsimist. Tõenäoliselt on sellel lehel vastus te küsimusele!
 
-:::warning I watched this video by Elite Eric, but I got stuck/it didn't work. What gives? We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After reviewing much of his content, they contain a large amount of incomplete, erroneous, or straight up incorrect information. Attempts to reach out to him to correct these errors has unfortunately been met with silence and new (also incorrect) tutorials.
+:::warning Ma vaatasin mingit Elite Eric'u videot, aga jäin jänni/see ei töötanud. Mis värk on? Meie BSMGs soovitame **tungivalt** vältida Elite Eric'u juhiste kasutamist. Olles üle vaadanud palju tema loomingust, järeldasime, et selles sisaldub hulk puudulikku, ekslikku või lausa otseselt valet informatsiooni. Katsed temaga ühendust võtta, et parandada neid vigu, on kahjuks saanud vastuseks vaid vaikust ja uusi (samuti vigaseid) juhisvideoid.
 
-Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods). :::
+Selle asemel peaksite järgima käesolevas vikis kirjalikke juhendeid või otsima abi [BSMG Discordis](https://discord.gg/beatsabermods). :::
 
-## Installers
+## Installerid
 ### Mod Assistant
-> **THIS IS CURRENTLY THE RECOMMENDED MOD INSTALLER.**
+> **SEE ON PRAEGUNE SOOVITATAV MOD INSTALLER.**
 
-__**Run the game at least once**** before trying to mod the game! This applies to reinstalling your game too.
+__**Käivitage mäng vähemalt üks kord**** enne, kui proovite mängu moddida! See kehtib ka pärast mängu taasinstallimist.
 
-A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal and version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
+Lihtne Beat Saber'i modide installer; sarnane mod managerile, kuid lisafunktsioonidega, nagu näiteks modide eemaldamine ja versioonide võrdlemine! Laadige see alla [Assistant'i GitHubist](https://github.com/Assistant/ModAssistant/releases/latest).
 
 ![ModAssistant](~@images/beginners-guide/modassistant.png)
 
-## How to get more songs
-### In-game Downloader
-The `BeatSaver Downloader` Plugin allows you to download maps in-game using the `MORE SONGS` menu button on the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com)
+## Kuidas saada rohkem laule
+### Mängusisene allalaadija
+Plugin `BeatSaver Downloader` võimaldab mängu sees laadida alla mappe, kasutades `MODS` menüüs nuppu kirjaga `MORE SONGS`. See võtab mappe otse [BeatSaverist](https://beatsaver.com).
 
 ### BeatSaver
-[BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community. Many other tools and sites enhance the experience of downloading custom songs, but this site is the source of truth. To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.  You can also use the in-game downloader plugin, BeatList, or Mod Assistant's OneClick™ Install feature.
+[BeatSaver](https://beatsaver.com) on kogukonna poolt tehtud lisalaulude põhihoidla. Paljud muud vahendid ja veebisaidid täiustavad ja täiendavad lisalaulude allalaadimise protsessi, aga see sait on tõe allikas. Et installida saidilt allalaetud laule, unzippige need kausta ja asetage see kaust asukohta `Beat Saber/Beat Saber_Data/CustomLevels`.  Võite kasutada ka mängusisest allalaadimispluginat BeatList või Mod Assistant'i OneClick™ Install funktsiooni.
 
 ### Beast Saber
-[Beast Saber](https://www.bsaber.com) (bsaber.com) is a site that tries to help make finding fantastic maps to play easier. It does this by categorizing the thousands of songs on beatsaver and lets you sort by a song's genre and many other attribute tags. It also has a full social feature where players can review songs and comment on them. One of the most used features is the "Curator Recommended" feature where a team plays through most songs released each day and recommends the ones that stand out, letting you [automatically download these in-game](https://bsaber.com/beatsync/).
+[Beast Saber](https://www.bsaber.com) (bsaber.com) on veebisait, mille eesmärk on hõlbustada fantastiliste mappide leidmise protsessi. See teeb seda, kategoriseerides beatsaveris olevaid tuhandeid laule, ning laseb kasutajail sorteerida laule žanri ja paljude muude omaduste ja märksõnade järgi. Sel on ka terve sotsiaalne funktsionaalsus, kus mängijad saavad jätta mappidele arvustusi ja kommentaare. Üks enimkasutatud võimalusi on "Curator Recommended" sektsioon - tiim kuraatoreid mängib läbi enamuse igapäevaselt üleslaetavatest lauludest ja soovitab neist silmajäävamaid, lastes teil [neid mängus automaatselt alla laadida](https://bsaber.com/beatsync/).
 
-### Song Management Apps
-* [BeatList](https://github.com/Alaanor/beatlist) is an app to manage playlist and beatmaps, by Alaanor.
+### Laulude haldamise tarkvara
+* [BeatList](https://github.com/Alaanor/beatlist) on Alaanor'i tehtud programm playlistide ja beatmappide haldamiseks.
 
-### Playlists
-Place the playlist file into `Beat Saber/Playlists`, then use [BeatList](https://github.com/Alaanor/beatlist) or [Mod Assistant](https://github.com/Assistant/ModAssistant) to download the maps. (Note: older mods allowed downloading the contents of playlists in-game, but this is currently not possible.)
+### Playlistid
+Asetage playlisti fail kausta `Beat Saber/Playlists` ja seejärel kasutage [BeatList'i](https://github.com/Alaanor/beatlist) või [Mod Assistant'it](https://github.com/Assistant/ModAssistant) mappide allalaadimiseks. (Märkus: varem oli võimalik modidega laadida alla playlistide sisu mängus sees olles, kuid hetkel pole see võimalik.)
 
-## Install Folder
-_Where is Beat Saber installed?_
+## Installkaust
+_Kuhu on Beat Saber installitud?_
 
-### Default Location
+### Vaikimisi asukoht
 |        |                                                                                      |
 | ------ | ------------------------------------------------------------------------------------ |
 | Steam  | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\`                  |
 | Oculus | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
 
-### Other Locations
-**If you have moved your install folder to a different drive, it might be in the location below.** Replace the drive letter `F` with the drive your game is installed on.
+### Muud asukohad
+**Kui olete liigutanud oma installkausta muule kettale, võib see olla alljärgnevas asukohas.** Asendage kettatäht `F` selle ketta tähega, millele teil Beat Saber installitud on.
 |        |                                                                       |
 | ------ | --------------------------------------------------------------------- |
 | Steam  | `F:\SteamLibrary\steamapps\common\Beat Saber\`                 |
 | Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
 
-## How to uninstall mods
-Either remove the dll from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant.
+## Kuidas desinstallida mode
+Eemaldage modi dll fail `Plugins` kaustast või klõpsake `Uninstall` nupul Mod Assistant'is.
 
-## Manual Installation
-A mod installer is the recommended way to install mods. See the section [above](#installers). If you have patched the game and just need to install Plugins that are not available in the installer, skip to step 4.
+## Käsitsi installimine
+Mod installer on soovitatav meetod modide installimiseks. Vt [ülalasuv](#installers) lõik. Kui olete mängu patchinud ja soovite lihtsalt installida Pluginaid, mis pole installeris saadaval, siis minge otse edasi 4. sammule.
 
-**Run the game at least once** before trying to mod the game! This applies to reinstalling your game too.
-### Install BSIPA
-1. Download [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
-2. Navigate to your [install folder.](#install-folder) and extract the contents of BSIPA into it. ![Directory Clean](~@images/beginners-guide/directory-clean.png "Directory Clean") ![Directory Ipa](~@images/beginners-guide/directory-ipa.png "Directory Ipa")
-3. Double click IPA.exe to patch the game. Any mods in the `Plugins` folder will now be loaded when starting the game. If there are errors, you probably didn't follow step 2 correctly. ![Directory Patched](~@images/beginners-guide/directory-patched.png "Directory Patched")
+**Käivitage mäng vähemalt ühe korra** enne, kui proovite seda moddida! See kehtib ka pärast mängu taasinstallimist.
+### Installige BSIPA
+1. Laadige alla [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
+2. Minge oma [installkausta](#install-folder) ja extractige BSIPA sisu sinna. ![Directory Clean](~@images/beginners-guide/directory-clean.png "Directory Clean") ![Directory Ipa](~@images/beginners-guide/directory-ipa.png "Directory Ipa")
+3. Tehke IPA.exe peal topeltklõps, et mängu patchida. Nüüd laeb mäng käivitumisel kõik modid `Plugins` kaustas. Kui tekivad errorid, siis tõenäoliselt te ei järginud sammu 2 õigesti. ![Directory Patched](~@images/beginners-guide/directory-patched.png "Directory Patched")
 
-### Install Mods
-4. Download the mod(s) you wish to install, whether it be from GitHub, the #pc-mods channel, or other sources. **Make sure to download any dependencies required by the mod.** ![Directory Plugins](~@images/beginners-guide/directory-plugins.png "Directory Plugins")
-5. Some mods have installation instructions, some don't. Generally you can just drag and drop the zip contents into your beat saber install folder, and the files should go into the corresponding folders.
+### Installige modid
+4. Laadige alla mod(id), mida soovite installida, olgu GitHubist, #pc-mods kanalist või muudest allikatest. **Kindlasti laadige alla ka kõik modi(de) poolt nõutavad modid/pluginad (dependencies).** ![Directory Plugins](~@images/beginners-guide/directory-plugins.png "Directory Plugins")
+5. Mõndade modidega kaasnevad juhised installimiseks, mõndadega aga mitte. Enamasti saate lihtsalt zipfaili sisu asetada oma Beat Saberi installkausta ja failid peaksid ise sattuma õigetesse kaustadesse.
 
 
-## Where to go from here
-* [Grips and Tricks](./grips-and-tricks.md)
-* [Making Beatmaps](/mapping/)
-* [Custom Sabers](/models/custom-sabers.md)
-* [Custom Avatars](/models/custom-avatars.md)
-* [Custom Platforms](/models/custom-platforms.md)
-* [Setup Multiplayer](https://bs.assistant.moe/Multiplayer/)
-* [Making Mods](/modding/)
+## Mis edasi?
+* [Gripid ja trikid](./grips-and-tricks.md)
+* [Beatmappide tegemine](/mapping/)
+* [Kohandatud saberid](/models/custom-sabers.md)
+* [Kohandatud avatarid](/models/custom-avatars.md)
+* [Kohandatud platformid](/models/custom-platforms.md)
+* [Mitmikmängu seadistamine](https://bs.assistant.moe/Multiplayer/)
+* [Modide tegemine](/modding/)
 
-## Have questions?
-Visit the support channels in the [BSMG Discord](https://discord.gg/beatsabermods)!
+## Tekkis küsimusi?
+Külastage tugikanaleid [BSMG Discordis](https://discord.gg/beatsabermods)!

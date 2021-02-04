@@ -11,10 +11,10 @@ Meeskond, kes korraldab kõike - nii esiplaanil kui ka "kardinate" taga. Olgu te
 Serveril, mis on nii suur nagu meie oma, on vaja palju "korrapidamist", et kõike kontrolli all hoida. Seda tiimi võite tänada "tänavate korrashoiu" eest.
 
 ### [Moddijad](./modders.md)
-Beat Saber sel kujul, mil me seda täna tunneme, ei eksisteeriks, kui inimesed poleks tahtnud mängu oma nägemuse järgi täiendada. These are the modders who have spent countless of their own hours to help us personalize the game.
+Beat Saber sel kujul, mil me seda täna tunneme, ei eksisteeriks, kui inimesed poleks tahtnud mängu oma nägemuse järgi täiendada. Need on moddijad, kes on kulutanud loendamatuid tunde omaenda ajast, et aidata meil Beat Saber'it isikustada.
 
 ### [Kasutajatugi](./supports.md)
-Kasutajatoe roll on tänusümbol. Thanks for the thousands of messages sent in the support channels to help people sort out their mods, and for building a knowledge of troubleshooting base through macros and the wiki.
+Kasutajatoe roll on tänusümbol. Aitäh inimesi modidega aidates abikanalites saadetud tuhandete sõnumite eest ning vikis ja makrodes kasutatava tõrkeotsingu teadmistepagasi ülesehitamise eest.
 
 ### [Mappimise kasutajatugi](./mapping-supports.md)
 Mappimise kasutajatoe roll on tänusümbol. Aitäh mappimise arutelukanalis saadetud tuhandete sõnumite eest ja mappimise ressursside ülesehitamisele ja korrashoiule kulutatud aja eest, aitamaks inimestel mappide tegemist õppida.
@@ -30,7 +30,7 @@ Iga teie lemmikmapi loomiseks kulus tundide viisi meisterdamist ja testimist and
 ### [Mappimise ressursside kaaspanustajad](/mapping/mapping-credits.md)
 Grupp kogenud mappereid, kes võtsid aega, et kirjutada üles ja jagada oma teadmisi, et aidata teistel mappimisega alustada või oma oskusi parendada. Proovige nende mappe ja kaaluge nende toetamist!
 
-### [Event Winners](./event-winner.md)
+### [Sündmuste võitjad](./event-winner.md)
 Meie Discord serveris toimunud sündmuste/võistluste võitjad. Jälgige `#server-announcements` kanalit, et teada saada praegu või ka tulevikus toimuvatest sündmustest!
 
 ## Sellest vikist

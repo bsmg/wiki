@@ -1,11 +1,11 @@
 # 3D Artists
-From sabers to notes, custom models have always been a popular aspect of modded beat saber which wouldn't be possible without them.
+Van sabers tot blokken, andere modellen zijn altijd een populair aspect geweest van modded beat saber dat niet mogelijk zou zijn zonder hen.
 
 ## AkaRaiden
 **Rollen:** 3D Artist
 
 ## angeloid0103
-Wrote the custom saber creation guide among other fantastic contributions.
+Heeft de custom saber gids gemaakt, samen met ander fantastische contributies.
 
 **Rollen:** 3D Artist
 
@@ -13,17 +13,17 @@ Wrote the custom saber creation guide among other fantastic contributions.
 **Rollen:** 3D Artist
 
 ## Fusion
-They've got some impressive shaders and they're not afraid to use them.
+Heeft indrukwekkende shaders en is niet bang om deze te gebruiken.
 
 **Rollen:** 3D Artist
 
 ## Ibodan
-Most well known for their incredibly flashy dance platform and space opera sabers, but it's a little known fact that they also make mods!
+Meest bekend voor hun ongelooflijk fraaie dans platform en space opera sabers, maar het is een redelijk onbekende feit dat ze ook mods maken!
 
 **Rollen:** 3D Artist, Modder **Bijdrage:** Bloom Mod
 
 ## laugexd
-Developer of ModelSaber 2.0 and crafter of many sabers and bloqs.
+Ontwikkelaar van ModelSaber 2.0 en maker van vele sabers en blokken.
 
 **Rollen:** 3D Artist
 
@@ -33,7 +33,7 @@ Developer of ModelSaber 2.0 and crafter of many sabers and bloqs.
 **Rollen:** 3D Artist
 
 ## Mordred
-One of the first creators to mass produce avatars, and thus give birth to this role.
+Een van de eerste makers die op grote schaal avatars produceerde en zo deze rol heeft laten ontstaan.
 
 **Rollen:** 3D Artist
 
@@ -41,14 +41,14 @@ One of the first creators to mass produce avatars, and thus give birth to this r
 **Rollen:** 3D Artist
 
 ## RedBrumbler
-"The guy who made giant glowing dicks in beat saber" ~Emulamer 12th of July 2019 As you can read I make sabers for quest, but generally I've been active in the asset modding part of beat saber, I've also done some for other games but Beat saber is my main love. If you ever need help making sabers specifically for quest you can always ask me over in the quest modeling channel (until we get that qsaber mod anyways) keep on sabering that meat till it's real tender!
+"De man die gigantische gloeiende lullen heeft gemaakt in Beat Saber" ~Emulamer 12 juli 2019. Zoals je kunt lezen maak ik sabers voor de Quest, maar over het algemeen ben ik actief geweest in de asset modding van Beat Saber, ik heb ook wat voor andere spellen gedaan, maar Beat Saber is mijn grootste liefde. Als je ooit hulp nodig hebt bij het maken van sabers specifiek voor quest kun je me altijd vragen stellen in het quest modeling kanaal (totdat we die qsaber mod krijgen in ieder geval) blijf dat vlees slaan tot het echt tender is!
 
 **Rollen:** 3D Artist, Support
 
 [PayPal](https://paypal.me/RedBrumblerOfficial?locale.x=nl_NL) | [Patreon](https://www.patreon.com/RedBrumbler) | [Ko-Fi](https://ko-fi.com/redbrumbler) | [YouTube](https://www.youtube.com/channel/UCYmzlDob8BQYWrOQWkHtCpQ) | [Facebook](https://www.facebook.com/red.brumbler.7) | [Twitter](https://twitter.com/RedBrumbler) | [GitHub](https://github.com/RedBrumbler/BeatOnCustomSabers) | [Reddit](https://www.reddit.com/user/RedBrumbler/)
 
 ## SeventyTwo
-Tons and tons of Full Body Tracking support!
+Heel erg veel Full Body Tracking support!
 
 **Rollen:** 3D Artist
 
@@ -58,7 +58,7 @@ Tons and tons of Full Body Tracking support!
 **Rollen:** 3D Artist
 
 ## Yuuki
-3D Artist and Quest Modder. Supporting the VR community in any way that I can! Primarily focusing on offering niche Beat Saber mods for the Quest and helping enhance gameplay through 3D models.
+3D Artist en Quest Modder. Ik steun de VR-community op elke mogelijke manier! Focust het meest op het aanbieden van niche Beat Saber mods voor de Quest en het helpen in het verbeteren van de gameplay door 3D-modellen.
 
 **Rollen:** 3D Artist
 
@@ -66,6 +66,6 @@ Tons and tons of Full Body Tracking support!
 
 ---
 
-::: tip See Also **Support:** [Emma](./supports.md#emma)  
-**Moderators:** [DeeJay](./moderators.md#deejay) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)  
+::: tip Zie ook **Support:** [Emma](./supports.md#emma)   
+**Moderators:** [DeeJay](./moderators.md#deejay) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)   
 **Staff:** [Assistant](./staff.md#assistant) | [Bobbie](./staff.md#bobbie) :::

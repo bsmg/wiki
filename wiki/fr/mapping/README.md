@@ -27,9 +27,9 @@ Vous pouvez aussi consulter le canal `#mapping-discussion` sur le [Discord Beat 
 * [Glossaire des termes de mapping](./glossary.md)
 
 ## Guide rapide pour le mapping
-> The wiki is your building blocks, the community is your inspiration, and you are the creativity.
+> Ce wiki est vos blocs de construction, la communauté votre inspiration et vous êtes la créativité.
 
-Great mappers are not made in a day. It takes dedication with no one really able to hold your hand. The best we can do is provide you the tools with this wiki and clarify any questions you have to succeed in your mapping career!
+Les grands mappers ne se sont pas fait en une journée. Il faut du dévouement sans que personne ne puisse réellement vous prendre la main. Le mieux que l'on puisse faire est de vous fournir les outils avec ce wiki et de clarifier toutes les questions afin de réussir votre carrière de mapping !
 
 1. Téléchargez les outils nécessaires pour créer une map : un [éditeur audio](https://www.audacityteam.org/) et un [éditeur de map](#ressources-pour-l-edition-de-map).
 2. [Configurez votre fichier audio](#ressources-pour-l-edition-audio), trouvez et vérifiez le BPM, et exportez-le au format OGG.
@@ -40,8 +40,8 @@ Great mappers are not made in a day. It takes dedication with no one really able
 7. Une fois que votre chanson a été mappée, éclairée et testée, vous êtes prêt à la [publier](#publishing-songs) sur Beat Saver.
 
 ### Tutoriels vidéo
-Text guides aren't your thing? Checkout these video series!  
-**Remember:** The text guides on this wiki are more up to date as it is easier and quicker to change.
+Les guides écrits sont pas votre truc ? Regardez cette série de vidéos !  
+** Rappelez-vous :** Les guides écrits sur ce wiki sont plus à jour car ils sont plus facile et rapide à changer.
 
 #### Série recommandée
 * [Helen Carnate's Mapping Tutorial](https://www.youtube.com/watch?v=6O3sXmh-kAA) - A 17 minute guide to get started mapping!
@@ -49,9 +49,9 @@ Text guides aren't your thing? Checkout these video series!
 * [Cyrix's Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw) - covers the most common issues discussed in [Basic Mapping](./basic-mapping.md).
 * [TranquillizeMe's Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc) - covers various lighting techniques and general lighting tips.
 
-:::warning I watched this video by Elite Eric, but I got stuck/it didn't work. What gives? We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After reviewing much of his content, they contain a large amount of incomplete, erroneous, or straight up incorrect information. Attempts to reach out to him to correct these errors has unfortunately been met with silence and new (also incorrect) tutorials.
+:::warning J'ai regardé cette vidéo par Elite Eric, mais je suis coincé/ça ne marche pas. Pourquoi ? Nous, chez BSMG, nous déconseillons **fortement** d'utiliser n'importe quels tutoriels par Elite Eric. Après avoir examiné une partie de son contenu, il contient beaucoup d'information incomplètes, erronées ou complétement fausses. Nos tentatives de contact afin de corriger ces erreurs se sont résultés par du silence et de nouveau (tout aussi incorrectes) tutoriels.
 
-Instead, you should follow the written guides here on the wiki, watch the vetted tutorials made by BSMG members linked above, or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods). :::
+À la place, vous devriez suivre les guides écrits ici sur le wiki, regarder les tutoriels vérifié par le BSMG au-dessus, ou aller chercher de l'aide sur le [Discord du BSMG](https://discord.gg/beatsabermods). :::
 
 #### Séries de vidéos antérieures
 ::: warning These series use older editors in their tutorials (Mediocre Mapper and EditSaber). The UI and some processes have changed in the latest recommended editor, [MMA2](./mediocre-map-assistant.md) but, the rest of the content is great! :::

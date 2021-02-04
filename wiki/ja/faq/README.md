@@ -1,6 +1,6 @@
 # よくある質問
 ## ゲームを始めたばかりですが、どうやって始めるのですか?
-Check out our [beginner's guide](/beginners-guide.md)!
+[初心者ガイド](/beginners-guide.md)
 
 ## どうすれば曲が追加出来る？
 > [BeatSaver](https://beatsaver.com) はコミュニティによって作られたカスタム曲のまとめです。 Many other tools and sites enhance the experience of downloading custom songs, but this place is where they are hosted.

@@ -2,48 +2,48 @@
 sidebar: auto
 ---
 
-# Grips And Tricks
-_A compilation of resources to help you to hit bloq_
+# Gripid ja trikid
+_Kogumik ressursse, aitamaks virutada kuubikutele_
 
-## Ranking Up Mega-Tutorial
-An incredible writeup by TeknozFR to help you get that PP. [Ranking & Scoring Guide](./ranking-guide)
+## Edetabelis tõusmise megajuhend
+Imeline kirjutis TeknozFR poolt, mis aitab saada PPd. [Edetabeli ja skooride juhend](./ranking-guide)
 
-## Scoring
-See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) about how the scoring system works.
+## Skoor
+Vaadake seda [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) videot, mis selgitab, kuidas Beat Saberi skoorisüsteem töötab.
 
 <YouTube url='https://www.youtube.com/watch?v=rVbXCGddspA' />
 
-Additionally, here's an image from the game developers about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
+Lisaks, siin on pilt mängu arendajatelt [hitboxide](https://twitter.com/Split82/status/979365834324889600) töötamise kohta.
 
 ![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
 
-## Ranking
-*How does global ranking work? What are performance points? What are the numbers in my brackets? Why is my PP so small?*
+## Edetabel
+*Kuidas töötab ülemaailmne edetabel? Mis on performance pointid? Mida tähendavad mul numbrid sulgudes? Miks mu PP nii väike?*
 
-You can find your global ranking and PP on [ScoreSaber](https://scoresaber.com/global) - here you can search for your name. Your scoresaber account is tied to your Steam / Oculus username.
+Oma asukoha ülemaailmses edetabelis ja oma PP leiate [ScoreSaberist](https://scoresaber.com/global), otsides oma kasutajanime. Tere scoresaber konto on seotud teie Steami/Oculuse kasutajanimega.
 
-1. Ranked songs are assigned PP (PP = performance points). The exact amount of PP gained is determined by the accuracy you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by Umbranox, our Panda God.
-2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays. This curve is 0.965^(x-1) where x is the position of that score on your song list. e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play. If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get after the curve applies. Here is a list of my current top 4 plays where the raw PP is in italic and the weighted PP is in bold.
+1. Edetabelisse vastuvõetud lauludele määratakse PP väärtus (PP = performance points; ingl k soorituspunktid). Laulu mängimisest saadud PP hulk sõltub ka täpsusest (accuracy), millega edetabeli laulu läbisite. Kui palju PPd edetabeli laul väärt on, määrab kindlaks salajane algoritm, mille lõi Umbranox, meie Pandajumal.
+2. Et vältida olukorda, kus osavamad mängijad mängivad hulgaliselt lihtsamaid laule, et hõlpsasti PPd saada, vähendatakse skoore kõverjoone põhjal. See kõverjoon on 0.965^(x-1), kus x on mõjutatava skoori asukoht mängija parimate skooride nimekirjas. Nt kui teie parim skoor on väärt 260PP, siis saategi selle eest 260 mõjutatud PPd, mis on 100% teie selle skoori bruto-PPst. Kui teie teine parim skoor on väärt 247 bruto-PPd, siis selle eest saate aga tegelikkuses 238 mõjutatud PPd. Näiteks siin on minu 4 parimat skoori, kus bruto-PP on kursiivkirjas ja mõjutatud PP on rasvases kirjas.
 
-| Raw PP | Weighted PP                  |
-| ------ | ---------------------------- |
-| 260pp  | **260pp** (100% of raw PP)   |
-| 247pp  | **238pp** (96.5% of raw PP)  |
-| 246pp  | **229pp** (93.1% of raw PP)  |
-| 244pp  | **219pp**  (89.9% of raw PP) |
+| Bruto-PP | Mõjutatud PP                 |
+| -------- | ---------------------------- |
+| 260pp    | **260pp** (100% bruto-PPst)  |
+| 247pp    | **238pp** (96.5% bruto-PPst) |
+| 246pp    | **229pp** (93.1% bruto-PPst) |
+| 244pp    | **219pp** (89.9% bruto-PPst) |
 
-3. To rank up, get scores on new songs that are worth more or a similar amount of PP to your top scores. When you don't have any new high PP songs to play, replay songs on your first pages to get better scores. Here is a [spreadsheet by DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) of all the ranked songs and how much PP they are worth. This list is updated every 24 hours.
+3. Et tõusta edetabelis, saage skoore uutel lauludel, mis on väärt rohkem või umbes sama palju PPd, kui teie parimad skoorid. Kui teil pole enam järel uusi kõrge-PPlisi laule, mida mängida, proovige saada paremaid skoore oma edetabeli esimeste lehekülgede lauludel. Siin on [DuoVR tehtud](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) tabel kõigist edetabeli lauludest ja nende PP-väärtustest. Seda nimekirja uuendatakse iga 24 tunni tagant.
 
-Here is another site by [DuoVR](https://duovr.github.io/BigPP/) where you can input your scoresaber profile and it shows you songs that you should play for a lot of PP.
+Siin on [veel üks veebileht](https://duovr.github.io/BigPP/) DuoVR poolt, kus saate sisestada oma ScoreSaber'i profiili ja see näitab teile laule, mida võiksite mängida, et saada palju PPd.
 
-*This section is adapted from Tek's writeup in the Beat Saber Canadian discord.*
+*See osa artiklist on kohandatud Tek'i kirjutisest Kanada Beat Saber discord serveris.*
 
-::: tip Songs are ranked by the team in the [ScoreSaber Discord](https://discord.gg/WpuDMwU). You can follow along in this server to see what changes happen! :::
+::: tip Mappe võtab edetabelisse vastu tiim [ScoreSaber'i Discordis](https://discord.gg/WpuDMwU). Võite jälgida sündmusi selles serveris, et näha toimuvaid muutusi! :::
 
-## Grips
-Cube Community made some videos showing off some of the more popular grips for Oculus Touch controllers (CV1) and Vive Wands.
+## Gripid (haarded)
+Cube Community on teinud mõned videod, kus näidatakse populaarsemaid grippe Oculus Touch kontrollerite (CV1) ja Vive Wandide jaoks.
 
-### HTC Vive Wands
+### HTC Vive Wandid
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
 
 ![Vive Grips Guide](~@images/grips-and-tricks/vive-grips-guide.jpg)
@@ -53,16 +53,16 @@ Cube Community made some videos showing off some of the more popular grips for O
 
 ![Oculus Grips Guide](~@images/grips-and-tricks/oculus-grips-guide.jpg)
 
-### Oculus Rift S and Quest
-A video has not yet been made for Rift S and Quest controllers, but you can find some examples below! ![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/touch2-grips.jpg)
+### Oculus Rift S ja Quest
+Rift S'i ja Quest'i kontrollerite kohta pole veel videot tehtud, aga all võite näha mõningaid näiteid! ![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/touch2-grips.jpg)
 
-### Valve Index Controllers
-A video has not yet been made for Index controllers, but you can find some examples in their `#tips-and-grips` channel! [CC Discord](https://discord.gg/dwe8mbC)
+### Valve Index'i kontrollerid
+Index'i kontrollerite kohta pole veel videot tehtud, aga võite leida mõningaid näiteid nende `#tips-and-grips` kanalis! [CC Discord](https://discord.gg/dwe8mbC)
 
 ### Oculus Quest 2
-A video has not yet been made for the Quest 2's controllers, but you can find some examples below! ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
+Quest 2 kontrollerite kohta pole veel videot tehtud, aga all võite näha mõningaid näiteid! ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
 
-Check out Cube Community's `#tips-and-grips` channel for more suggestions and examples in their [Discord](https://discord.gg/dwe8mbC). Please remember that everyone's playstyle and body is different; someone else's grip might not work exactly like you need it to. Don't be afraid to experiment and find what's right for you!
+Vaadake Cube Community [Discord serveris](https://discord.gg/dwe8mbC) `#tips-and-grips` kanalit, et leida veel soovitusi ja näiteid. Palun pidage meeles, et igaühe mängustiil ja keha on erinev; kellegi teise grip ei pruugi funktsioneerida täpselt nii, nagu vajate. Ärge kartke eksperimenteerida, et leida, mis sobib just teile!
 
 ## Improve Vive controller tracking
 Your body may be blocking one lighthouse from seeing one of your controllers. Here are some steps that may help improve tracking.

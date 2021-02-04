@@ -88,7 +88,7 @@ Si la section 2.3 n'a pas amélioré la fréquence d'images, alors votre PC peut
 * Pour les joueurs Oculus Rift CV1 : pensez à utiliser 2 capteurs au lieu de 3 ou plus.
 * Réduisez votre nombre de mods et de chansons.
 * Réalisez une [réinstallation propre](#installation-propre).
-* Low framerate can also be caused by something going wrong within your application data folder, to fix this refer to [Deleting The Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
+* Une fréquence d'images basse peut aussi être causée par quelque chose qui ne va pas dans le dossier des données d'application, pour y remédier référez vous à [comment supprimer le dossier Beatsaber dans votre AppData](#supprimer-les-sauvegardes-dans-appdata).
 * Désactivez des compteurs CountersPlus tels que Score Counter et Swing Speed, car ils peuvent être gourmands en ressources.
 * Le mod HTTPStatus peut causer des pics de ralentissement (*lag spikes*). Testez le jeu sans ce mod pour voir si les pics de ralentissement disparaissent.
 
@@ -96,7 +96,7 @@ La réalité virtuelle est très gourmande en processeur (CPU), surtout si vous 
 
 ## 3. Questions fréquentes
 #### 3.1 Menu vide, pas de bouton
-Si le menu principal de votre jeu est vide, votre fichier de sauvegarde est probablement corrompu. To fix this refer to [Delete Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
+Si le menu principal de votre jeu est vide, votre fichier de sauvegarde est probablement corrompu. Pour pallier ce problème, référez-vous à [comment supprimer le dossier Beatsaber dans votre AppData](#supprimer-les-sauvegardes-dans-appdata).
 
 :: warning Cela va supprimer tous vos scores locaux ainsi que vos statistiques de jeu. :::
 

@@ -1,5 +1,5 @@
 ---
-sidebar: automatisch
+sidebar: auto
 ---
 
 # Grepen En Trucs

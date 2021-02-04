@@ -1,5 +1,5 @@
 ---
-sidebar: automatisch
+sidebar: auto
 ---
 
 # Foutmeldingen
@@ -18,7 +18,7 @@ Het gegeven pad is ongeldig.
 
 ## IOException.
 1. Het opgegeven bestand is in gebruik.
-2. There is an open handle on the file, and the operating system is Windows XP or earlier. This open handle can result from enumerating directories and files.
+2. Er is een open handle op het bestand, en het besturingssysteem is Windows XP of eerder. Deze open handle kan het resultaat zijn van het opsommen van levels en bestanden.
 
 ## NotSupportedException.
 Pad heeft een ongeldig formaat.
@@ -27,9 +27,10 @@ Pad heeft een ongeldig formaat.
 Het opgegeven pad, bestandsnaam of beide overschrijden de door het systeem gedefinieerde maximale lengte.
 
 ## UnauthorizedAccessException.
-1. The caller does not have the required permission.  
-   This could mean that a program is also blocking the user from accessing the file, such as `Anti Viruses,and programs that would block suspicous programs/processes/activity` Other causes would be not having rights aka **lacking admin rights and the likes.** i.e your user or pc has insufficient rights to access/write files and data in anyway.
+1. De beller heeft niet de vereiste toestemming.  
+   Dit kan betekenen dat een programma de gebruiker blokkeert om toegang te krijgen tot het bestand, zoals `Anti Virussen, en programma's die verdachte programma's/processes/activiteit
+blokkeren`, een andere mogelijkheid is het niet hebben van rechten zoals **beheerdersrechten en dergelijke.** d.w.z. je gebruiker of pc heeft onvoldoende rechten om bestanden/gegevens te wijzigen.
 2. Het bestand is een uitvoerbaar bestand dat in gebruik is.
-3. Path is a directory.
+3. Pad is een directory.
 4. Opgegeven pad is een "alleen-lezen" bestand.
 

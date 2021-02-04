@@ -90,9 +90,9 @@ Los pasos listados a continuación son los mismos que los utilizados en el [Vide
 2. Exporta tu canción a `.ogg` usando [Audacity](https://www.audacityteam.org/)
     * Usando otros formatos (por ejemplo, `.mp3` o `.m4a`) añade un retraso al audio que varía cada vez y no se contabiliza cuando exportas los cambios para su uso en el editor.
 
-#### Troubleshooting Arrow Vortex
-##### The code execution cannot proceed because MSVCP120.dll was not found.
-* Install [vcredist_x86.exe](https://support.microsoft.com/en-us/help/4032938/update-for-visual-c-2013-redistributable-package) in your preferred language and try again.
+#### Solución de problemas Arrow Vortex
+##### La ejecución del código no puede continuar porque no se encontró MSVCP120.dll.
+* Instala [vcredist_x86.exe](https://support.microsoft.com/en-us/help/4032938/update-for-visual-c-2013-redistributable-package) en tu idioma preferido e inténtalo de nuevo.
 
 :::danger **¡Este es un paso crítico!**  
 No usar un archivo `.ogg` o usando la función de exportación en AV **desincronizará** la canción por una cantidad inconsistente de tiempo. :::
@@ -117,8 +117,8 @@ Si tienes la experiencia, consulta [Edición avanzada de audio: BPM Variable](./
 
 10. Dale al jugador unos dos segundos para prepararse haciendo clic en el botón `Mover primer beat` ![Arrow Vortex move beat button](~@images/mapping/av_movebeat.png) cuantas veces sea necesario para conseguir que tu inicio este cerca de 2,000 segundos o el sonido donde deseas colocar tu primera nota esté alineada con la primera barra.  
     ![Alternativa alineada con la primera barra](~@images/mapping/av_aligned.png) ![Alternativa alineada con la primera barra](~@images/mapping/av_altAligned2.png)
-    * After aligning, you should check the song again to verify that the beats still match.
-11. Now that you have the BPM and offset, you will need to add or remove the right amount of silence to the song track.
+    * Después de alinear, deberías revisar la canción de nuevo para verificar que los beats todavía coinciden.
+11. Ahora que tienes el BPM y el offset, necesitarás añadir o eliminar la cantidad correcta de silencio a la pista.
 ___
 **Si tienes un offset positivo**, necesitarás añadir esa cantidad a la intro.
 1. Abre la canción en Audacity si aún no lo has hecho, luego cambia a la Herramienta de Selección (![Selection Tool](~@images/mapping/selection.png)).
@@ -136,8 +136,8 @@ ___
 3. Selecciona la nueva pista y pulsa la tecla <kbd>Inicio</kbd>.
 4. Haz clic en `Generar – > Silencio…` ![Generar silencio...](~@images/mapping/audacity-generate_silence.png)
 5. Ingrese la cantidad de desplazamiento negativo encontrada en Arrow Vortex (o herramienta similar) en el campo Duración y haga clic en Aceptar. ![Añadiendo silencio con Audacity](~@images/mapping/av_audacity-negative.png)
-    * You should see something similar to this  
-      ![Resulting Silence](~@images/mapping/audacity-neg-generated_silence.png)
+    * Deberías ver algo similar a esto  
+      ![Silencio resultante](~@images/mapping/audacity-neg-generated_silence.png)
 6. Seleccione desde el final del silencio generado (línea vertical amarilla) hasta el inicio de la canción seleccionando el contenido de ambas pistas.  
    ![Seleccionar hasta el silencio generado](~@images/mapping/audacity-neg-select_silence.png)
 7. Pulsa la tecla <kbd>Eliminar</kbd>.
@@ -149,14 +149,14 @@ ___
 
 ### Sincronizar usando una pista de clic
 
-#### Manual BPM Calculation
+#### Cálculo manual de BPM
 Si el método anterior falla, tendrá que encontrar manualmente el BPM pero esto es más fácil de lo que podría pensar.
 1. Utiliza una calculadora de toques BPM en línea (como la [Herramienta de toques para BPM](https://www.all8.com/tools/bpm.htm), abre la página en tu navegador web).
 2. Reproduce la canción en tu reproductor de música favorito.
 3. Con la página web en foco, pulsa cualquier tecla al ritmo (cada cuarto de nota) durante unos 30 segundos y la herramienta mostrará el BPM de la canción.
 4. Tome nota del valor entero más cercano.
 
-#### Add a Click Track
+#### Añadir una pista de clics
 Esto es para confirmar que el BPM que ha encontrado en línea o manualmente coincide con el archivo de audio que tiene. Esta adición es temporal; debería eliminar la pista de clic antes de [exportar su audio](#exporting).
 1. Abre la canción que quieras mapear en Audacity.
 2. Añadir una nueva pista mono desde el menú `Pistas > Agregar Nuevo > Mono Track`
@@ -168,7 +168,7 @@ Si todo fue correctamente ingresado tendrás algo como esto: ![Pantalla principa
 
 Esta pista de clics está completamente sincronizada con los ritmos del editor de mapas y del juego, pero la canción no está sincronizada actualmente. Continua a continuación para ver cómo hacerlo.
 
-#### Sync the Song to the Beat
+#### Sincroniza la Canción al Beat
 1. Seleccione la Herramienta de Cambio de Tiempo (![Time Shift Tool](~@images/mapping/timeshift.png)).
 2. Clic izquierdo en la canción y espera, luego arrastre el audio para que la primera nota mapeada prevista en su canción termine dentro de los segundos apropiados (ver línea de tiempo por encima de la pista) para evitar un "Inicio caliente" o una introducción demasiado larga (vea [Planifique sus primeras notas](#plan-your-first-note) si no lo ha hecho ya).
 3. Suelta para colocar el audio en la nueva posición.
@@ -189,9 +189,9 @@ Después de generar el silencio puedes hacer clic en la línea oscura de la canc
 
 ## Edición de audio opcional
 En este punto, tu audio está configurado y listo para [exportar](#exporting). Edición de audio adicional, aunque no es necesario, puedes mejorar la experiencia del jugador mediante:
-* Ensuring the audio isn't too soft or too loud;
-* Ensuring the start of the audio is smooth; and
-* Ensuring the player doesn't have to wait too long for the outro to end.
+* Asegurar que el audio no sea demasiado suave o demasiado alto;
+* Asegurar que el inicio del audio sea suave; y
+* Asegurar que el jugador no tenga que esperar demasiado tiempo para que la outro termine.
 
 ### Revisar volumen de canción
 Para asegurar que tu canción no sea demasiado blanda o incluso demasiado fuerte, para que sea así podemos medirlo usando RMS (Root Mean Squared) en Audacity. Para tener un buen equilibrio entre los sonidos de rebanada de notas y su canción, el valor del RMS debe ser **más alto que -11db** (en los versos y/o coros) o **más suave que -8.5db** (en las partes más altas).
@@ -207,7 +207,7 @@ Para comprobar el valor RMS de tu canción haz lo siguiente:
 ### Modificación del volumen
 Antes de continuar con los siguientes pasos con la edición de canciones, es muy recomendable guardar tu progreso actual como un archivo WAVE como copia de seguridad. Esto es para asegurar que si necesitas volver atrás y rehacer parte de la edición tendrás una fuente de alta calidad para usar. (No cargue el OGG que exportó ya que habrá perdido gran parte de la calidad de la fuente.) Quite la pista de clic si aún no lo ha hecho, luego vaya al menú de `Archivo -> Exportar -> Exportar como WAV`, luego guarde el archivo en una ubicación de su elección. ::: tip NOTA Hacer cualquier tipo de procesamiento de audio en una canción inevitablemente cambiará su sonido, sin embargo, es un paso importante para dar a tus jugadores la mejor experiencia de mapas y canciones. :::
 
-#### Making Your Song Louder
+#### Haciendo tu canción más fuerte
 Si el coro de tu canción tiene un valor de RMS menor que el recomendado **-11db** entonces necesitarás hacer Compresión y/o Limitar para subir el volumen. (Nota: Amplificar/Ganancia no se utiliza para esto, ya que cualquier cosa sobre 0db creará una distorsión desagradable.)
 
 Para comprobar si necesitas aplicar el compresor antes de que Limiter analice visualmente la forma de la onda. Si hay muchos picos afilados con un cuerpo bastante constante a lo largo de la canción, como se muestra en el ejemplo de abajo, entonces no necesitará aplicar el compresor. Sólo hará falta un Limitador (saltar a [Limiter](#limiter)).
@@ -216,7 +216,7 @@ Para comprobar si necesitas aplicar el compresor antes de que Limiter analice vi
 
 Sin embargo, si la forma de onda varía mucho entre partes suaves y fuertes, es probable que primero se necesite una compresión.
 
-#### Compression
+#### Compresión
 1. Selecciona toda la canción haciendo doble clic en la pista de canciones.
 2. Ir al menú `Efectos -> Compresor`
 3. Como punto de partida, copia los ajustes a continuación y haga clic en Aceptar. Asegúrate de que `Comprimir basado en Picos` esté seleccionado. ![Entendiendo la compresión](~@images/mapping/compression.png)
@@ -226,7 +226,7 @@ Aquí hay una comparación anterior (arriba) y posterior (abajo) del compresor: 
 Revisa de nuevo la canción y escucha cualquier distorsión antinatural, como cortes de volumen después de picos fuertes. Si es así, deshacer (`Ctrl-Z`), ajustar el umbral `` a uno más alto (menos negativo) y aplicar de nuevo. Si desea saber más sobre los ajustes, compruebe la página [Edición de audio avanzada: Compresor](./advanced-audio.md#compressor).
 
 
-#### Limiter
+#### Limitador
 El compresor reduce muchos de los picos innecesarios y hace que los sonidos más importantes sean más fuertes. Sin embargo, todavía no hemos alcanzado el volumen RMS correcto para la canción. Para lograrlo, eliminaremos más de la cabeza usando el efecto Limitador:
 1. Selecciona toda la canción haciendo doble clic en la pista de canciones.
 2. Ir al menú `Efectos -> Limitador…`
@@ -245,7 +245,7 @@ Para saber si ha alcanzado el volumen correcto después de comprimir y limitar c
 Después de limitar tendrás algo como esto: ![Canción después del limitador](~@images/mapping/bna_limiting.png)
 
 
-#### Making Your Song Softer
+#### Haciendo tu canción más suave
 Algunos productores de música electrónica moderna tienden a hacer que sus canciones sean muy fuertes solo para que sean mas fuertes que otras. En los casos raros tienes este tipo de canción (**valor de RMS por encima de -8.5db**) es **fuertemente recomendado** bajar el volumen de la canción para hacer normalizadas todas las canciones Beat Saber. Esto ayuda a escuchar mejor los cortes de las notas y a dar a los jugadores una experiencia mucho más agradable cambiando entre canciones.
 
 Antes de bajar el volumen necesitas saber aproximadamente cuánto necesitas reducir el volumen. Haz esto comprobando con la herramienta de volumen RMS:
@@ -308,9 +308,9 @@ Para generar un archivo de sonido compatible a utilizar necesitamos hacer lo sig
 3. Nombra tu archivo `canción.ogg`.
 4. Elige una calidad OGG apropiada ([más información aquí](./advanced-audio.md#choosing-appropriate-ogg-export-quality)):  
    ![Exportar deslizador de calidad](~@images/mapping/export-quality.png)
-    * High quality source (WAVE / FLAC / MP3 / AAC) use 6-9 (unless there is a file size issue.)
-    * Low quality source (YouTube or such): use 3-5
-5. Click Save.
+    * Fuente de alta calidad (WAVE / FLAC / MP3 / AAC) usar 6-9 (a menos que haya un problema de tamaño de archivo.)
+    * Fuente de baja calidad (YouTube o tal): usar 3-5
+5. Haz clic en Guardar.
 
 El archivo de canción/audio está listo para ser utilizado en cualquier editor de mapas. Ingresa el mismo BPM que obtuviste antes en tu editor de mapas de elección y asegúrate de usar 0ms de offset para todas las dificultades (ya que la canción ya está sincronizada con el ritmo). ::: warning NOTA El archivo de audio no debe ser mayor de ~12 MB debido al límite de archivos ZIP de 14,3 MB de BeatSaver. Los 15 MB listados no son exactos en este momento. Si este es el caso, exporta a una calidad inferior hasta que el archivo alcance el límite de tamaño del archivo. Los archivos ZIP de más de 8 MB no se pueden compartir directamente en Discord (sin Nitro o Nivel de Aumento del Servidor 2) para las pruebas de juego. :::
 
