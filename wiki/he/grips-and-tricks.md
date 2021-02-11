@@ -2,25 +2,25 @@
 sidebar: auto
 ---
 
-# Grips And Tricks
-_A compilation of resources to help you to hit bloq_
+# טיפים ועצות
+_מקבץ משאבים שיעזור לכם לפגוע בבלוקים_
 
-## Ranking Up Mega-Tutorial
-An incredible writeup by TeknozFR to help you get that PP. [Ranking & Scoring Guide](./ranking-guide)
+## מגה-הדרכה לעלייה בדירוג
+מדריך מדהים של המשתמש TeknozFR שיעזור לכם להשיג את נקודות ה-PP. [מדריך עלייה בדירוג ובניקוד](./ranking-guide)
 
-## Scoring
-See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) about how the scoring system works.
+## ניקוד
+צפה בסרטון [בערוץ היוטיוב](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) של קיוב קומיוניטי לגבי איך מערכת הניקוד עובדת.
 
 <YouTube url='https://www.youtube.com/watch?v=rVbXCGddspA' />
 
-Additionally, here's an image from the game developers about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
+בנוסף, הנה תמונה ממפתחי המשחק לגבי איך עובדים [היטבוקסים](https://twitter.com/Split82/status/979365834324889600)
 
 ![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
 
-## Ranking
-*How does global ranking work? What are performance points? What are the numbers in my brackets? Why is my PP so small?*
+## דירוג
+*איך עובד דירוג עולמי? מהן נקודות ביצועים (PP)? מהם המספרים בסוגריים שלי? למה ה-PP שלי כל כך קטן?*
 
-You can find your global ranking and PP on [ScoreSaber](https://scoresaber.com/global) - here you can search for your name. Your scoresaber account is tied to your Steam / Oculus username.
+אתה יכול למצוא את הדירוג העולמי ואת נקודות ה-PP שלך באתר [ScoreSaber](https://scoresaber.com/global) שבו תוכל לחפש לפי השם שלך. חשבון scoresaber שלך קשור לשם המשתמש שלך בסטים/אוקיולוס.
 
 1. Ranked songs are assigned PP (PP = performance points). The exact amount of PP gained is determined by the accuracy you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by Umbranox, our Panda God.
 2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays. This curve is 0.965^(x-1) where x is the position of that score on your song list. e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play. If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get after the curve applies. Here is a list of my current top 4 plays where the raw PP is in italic and the weighted PP is in bold.

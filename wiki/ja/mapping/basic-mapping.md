@@ -2,62 +2,62 @@
 sidebar: "false"
 prev: ./basic-audio.md
 next: ./intermediate-mapping.md
-description: Learn all the info and best practices you need to make a solid first map!
+description: このページでは、確固とした最初のマップを作成するために必要なすべての情報とベストチュートリアルを提供します!
 ---
 
-# Basic Mapping
-_If you are a new mapper, read this page from top to bottom. Every word. Every picture. This page will give you all the info and best practices you need to make a solid first map!_
+# 基本的なマッピング
+_譜面作成が初めての方は、上から下までこのページをお読みください。 すべての単語。 すべての画像。 このページでは、確固とした最初のマップを作成するために必要なすべての情報とベストチュートリアルを提供します!_
 
-* [Glossary of Terms](./glossary.md)
+* [用語](./glossary.md)
 
-## Ready to Map?
-**Have you…**
-1. [x] [Downloaded Audacity](https://www.audacityteam.org/) and chosen a [map editor](./#map-editing-resources)?
-2. [x] [Set up your audio file](./basic-audio.md) to confirm your bpm and make sure you’ve got a good intro/outro?
-3. [x] [Exported](./basic-audio.md#exporting) your song file as an OGG?
+## 譜面作成の準備はできていますか？
+**準備するもの**
+1. [x] [Audacity](https://www.audacityteam.org/) をダウンロードし、 [マップエディター](./#map-editing-resources) を選んでください
+2. [x] [オーディオファイル](./basic-audio.md) を設定して、bpmを確認し、適切なイントロ/アウトロがあることを確認しますか？
+3. [x] .oggファイルとして曲を[エクスポート](./basic-audio.md#exporting) しましたか？
 
-::: tip Are all these things done? GREAT! You're ready to dive into your favorite editor and start mapping! If not, click the links on the task list for more information. :::
+::: tip これらすべてを完了しましたか？ おつかれさまです！ お気に入りのエディタに飛び込んでマッピングを開始する準備が整いました！ そうでない場合は、タスクリストのリンクをクリックして詳細を確認してください。 :::
 
-## The Essentials
-Before you can even think about mapping, you need to understand the basics.
-### Map Files
-Regardless of what editor you choose to map with, every map needs:
+## 必須項目
+マッピングを考える前に、基本を理解する必要があります。
+### 譜面ファイル
+どのエディタで作成するかに関わらず、すべてのマップに必要なことがあります:
 
-* **Song File:** OGG format, you must have this ready before you can map. Name it `song.ogg`
-* **Cover Image:** JPG or PNG, must be perfectly square and 512 pixels per side is recommended. You must have this before you can release your map.  Name it `cover.jpg` or `cover.png`
-* **Info File:** All of the metadata for your map as a whole. Things in this file apply to ALL difficulties (i.e., song name, artist name, mapper name, song file name, cover image name, difficulty note jump speed, etc.). This file is automatically created by your editor.
-* **Difficulty Files:** One per difficulty in your map. Things in this file apply to just the one difficulty (i.e., note placement, light placement, etc.). These files are automatically created by your editor.
+* **曲ファイル:** OGG形式, 譜面作成の前にこれを準備しておく必要があります. `song.ogg`のように名前を付けます。
+* **カバー画像:** JPG または PNGで、完全に正方形でなければならず、大きさは一辺512 ピクセルを推奨します。 マップをアップロードするには、これが必要です。  `cover.jpg` または `cover.png` と名前を付けてください。
+* **情報ファイル（info.dat）:** マップ全体のメタデータの全て。 このファイル内のものはすべての難易度のレベルに適用されます (例: 曲名、アーティスト名、譜面の作者名、曲ファイル名、カバー画像名、難易度ノートジャンプ速度など。 このファイルは、エディタによって自動的に作成されます。
+* **難易度ファイル:** 各難易度で１つ。 このファイルの内容は、1つの難易度(ノートの配置、光の配置など)にのみ適用されます。 このファイルも、エディタによって自動的に作成されます。
 
-Some editors will automatically create an `Autosaves` folder where you can retrieve older copies of your work if needed. When you’re ready to prepare your song for upload you must have a minimum of four files.
+必要に応じて、古いコピーを取得できる `Autosaves` フォルダを自動的に作成するエディタもあります。 曲をアップロードするには、少なくとも以上の4つのファイルが必要です。
 
-::: warning Special characters in languages such as, Japanese (日本語/にほんご), Kaomoji (٩(◕‿◕｡)۶), Chinese (汉语/漢語), Arabic (اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by BeatSaver. Using these characters in song metadata or in bookmarks can cause problems. :::
+::: warning Japanese (日本語/にほんご), Kaomoji (٩(◕‿◕｡)۶), 中国語 (汉语/漢語), アラビア語 (اَلْعَرَبِيَّةُ‎), アクセント記号 (Ä/é/ó) などの特殊な文字はBeat Saverでサポートされてないことがあります。 情報ファイルやブックマークでこれらの文字を使用すると問題を引き起こす可能性があります。 :::
 
-### Block Types
+### ブロックタイプ
 
-|                   Directional Blocks                   |                  Dot Blocks                  |                           Bombs                           |                      Walls                       |
-|:------------------------------------------------------:|:--------------------------------------------:|:---------------------------------------------------------:|:------------------------------------------------:|
-| ![Directional Block](~@images/mapping/arrow-block.png) | ![Dot Block](~@images/mapping/dot-block.png) |            ![Bomb](~@images/mapping/bomb.png)             |        ![Wall](~@images/mapping/wall.png)        |
-|  Must be hit in the<br />direction of the arrow  |         Can be hit in any direction          | Causes damage when struck<br />but safe for players | Damages players but<br />ok to rest sabers |
+|                         方向ブロック                         |                   ドットブロック                    |                  ボム                  |                     ウォール                     |
+|:------------------------------------------------------:|:--------------------------------------------:|:------------------------------------:|:--------------------------------------------:|
+| ![Directional Block](~@images/mapping/arrow-block.png) | ![Dot Block](~@images/mapping/dot-block.png) |  ![Bomb](~@images/mapping/bomb.png)  |      ![Wall](~@images/mapping/wall.png)      |
+|             矢印の方向に<br />切らなければなりません              |               任意の方向に切ることができます。               | 切るとミス判定が出るが<br />プレイヤーに当たってもよい | プレイヤーにダメージを与えますが、<br />セイバーを休ませるのはOKです |
 
-**A few notes about walls:**
-* Standard walls can be read by any headset and have the highest compatibility. New mappers should stick with these until they’re a bit more experienced.
-* There are a few types of “hack” walls that do not require the Mapping Extensions mod: fast walls (fly by you fast), hyper walls (fly by you SUPER fast), and fake walls (look like normal walls but don’t cause damage).
-* While these wall types are supported in some editors, they exploit base game mechanics and are considered unrankable.
-* Read up more on non-Mapping Extensions walls in [Intermediate Mapping](./intermediate-mapping.md) and read more on “fancy” walls in [Extended Mapping](./extended-mapping.md)
+**壁についていくつかの注意点:**
+* 標準的な壁は、複数のヘッドセットで読み取ることができ、最高の互換性を持っています。 譜面作成初期は経験がもう少し増えるまで標準的な壁の使用をお勧めします。
+* Mapping Extensions modを必要としない「トリック」壁にはいくつかの種類があります：高速ウォール（素早く飛ぶ） 超高速ウォール(超高速で飛ぶ)、フェイクウォール(通常の壁のように見えますが、ミス判定がない)。
+* これらの壁は、いくつかのエディタでサポートされていますが、それらはベースのゲームの仕組みを悪用していて、ランキング化はされにくいでしょう。
+* Extended Mappingを使わないウォールや[Extended Mapping](./extended-mapping.md)を使用する  "ファンシーな" ウォールについては[中級者向けマッピング](./intermediate-mapping.md) を読んでください。
 
-**A few notes about bombs:**
-* Bomb hitboxes are smaller than block hitboxes, smaller even than the bomb model itself.
-* Bombs are hard to see when there are no lighting events active. Make sure your map isn’t dark when bombs are coming up. See [Basic Lighting](./basic-lighting.md) for more tips.
-* Bombs can still be hit once they have passed the player.
+**ボムに関する注意事項:**
+* 爆弾の当たり判定は、ブロックの当たり判定よりも小さく、爆弾の見た目よりも小さいです。
+* 爆弾は照明の効果がない時はとても見づらくなります。 爆弾を配置するときはマップが暗くないことを確認してください。 詳細は [Basic Lighting](./basic-lighting.md) を参照してください。
+* 爆弾はプレイヤーを通過した後でもあたる可能性があります。
 
-### Block Distribution
-This varies based on the target difficulty and audience you are mapping for. For example, some players in the lower difficulties might be overwhelmed by a balanced distribution across the three rows compared to a more experienced player that can handle multiple jumps across the rows. Block distribution can also vary between mapping styles at the same difficulty level.
+### ブロックの配置
+これは、作成する難易度と、プレイしてもらう対象によって異なります。 例えば、難しい譜面もうまくこなせる経験豊富なプレイヤーがとてもよくバランスの取れた列を縦断するような譜面をうまくこなせたとしても、レベルの低いプレイヤーは圧倒されてしまうかもしれない。 ブロックの配置は、同じ難易度でもそれぞれのマッピングスタイルによっても異なります。
 
-For more on row usage in different difficulties, see [Gauging Difficulty](#gauging-difficulty-down-mapping).
+各難易度での列の使い方については、 [難易度の指標](#gauging-difficulty-down-mapping) を参照してください。
 
-::: tip If you’re using [Mediocre Map Assistant 2](./mediocre-map-assistant.md) as your editor you can hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd> to open the error checker then click the <kbd>Stat Panel</kbd> button to see this breakdown. :::
+::: tip エディタで [Mediocre Map Assistant 2](./mediocre-map-assistant.md) を使用している場合は、 <kbd>SHIFT</kbd>+<kbd>TAB</kbd> を押してエラーチェッカーを開き、 <kbd>Stat Panel</kbd> ボタンをクリックしてエラーの内訳を表示します。 :::
 
-## Timing & Rhythm
+## タイミング & リズム
 Before you start mapping in earnest you need to think about the rhythm of the song you want to map. You’ll place blocks on one or more of the main instruments in the song: the drum beat, lead instrument, bass, synths, or even vocals.
 
 To place blocks in time with the rhythm you’ll need to change your cursor precision. Most (but not all) songs will use 1/1, 1/2, or 1/4 cursor precision to get on beat. Some songs may use “triplets” or 1/3 cursor precision which can be hard to tell from 1/4 to an inexperienced ear. You should not need to use less than 1/4 cursor precision for most songs *including* mapping to vocals.
@@ -68,7 +68,7 @@ To place blocks in time with the rhythm you’ll need to change your cursor prec
 |                          1/1 Cursor Precision                          |                          1/2 Cursor Precision                          |                          1/3 Cursor Precision                          |                          1/4 Cursor Precision                          |
 |:----------------------------------------------------------------------:|:----------------------------------------------------------------------:|:----------------------------------------------------------------------:|:----------------------------------------------------------------------:|
 | ![1/1 Cursor precision screenshot](~@images/mapping/1-1_precision.png) | ![1/2 Cursor precision screenshot](~@images/mapping/1-2_precision.png) | ![1/3 Cursor precision screenshot](~@images/mapping/1-3_precision.jpg) | ![1/4 Cursor precision screenshot](~@images/mapping/1-4_precision.png) |
-|                            1 block per beat                            |                           2 blocks per beat                            |                           3 blocks per beat                            |                           4 blocks per beat                            |
+|                              1ビートに1ブロックずつ                              |                              1ビートに2ブロックずつ                              |                              1ビートに3ブロックずつ                              |                              1ビートに4ブロックずつ                              |
 
 When timing out your map you’ll want to double check EARLY that the waveform in your editor is lined up with the major lines of the editor track. If your waveform isn't lined up, revisit the [Basic Audio Setup](./basic-audio.md) page of the wiki for tips.
 

@@ -104,7 +104,7 @@ Als het hoofdmenu van het spel leeg is, dan is jouw installatie waarschijnlijk b
 Als je de Mod Assistant gebruikt, klik je op de mod en druk dan op de "Mod Info" knop. beatmodsheeft ook een "More info" knop op elke mod.
 
 #### 3.3 vibratie problemen
-Gameplay Modifiers Plus adds a toggle to enable/disable controller rumble. Als je het hebt uitschakelt en daarna de mod hebt verwijderd, dan moet je het configuratiebestand waar het in staat wijzigen. Open `%appdata%/../locallow/hyperbolic magnetisme/beat saber` en zet `controllersRumbleEnabled` op `true`.
+Gameplay Modifiers Plus voegt een schakelaar toe om de vibratie van de controller in/uit te schakelen. Als je het hebt uitschakelt en daarna de mod hebt verwijderd, dan moet je het configuratiebestand waar het in staat wijzigen. Open `%appdata%/../locallow/hyperbolic magnetisme/beat saber` en zet `controllersRumbleEnabled` op `true`.
 
 Als dit niet de oorzaak is van je vibratie problemen en het volgende geldt:
 * Vibratie is nauwelijks te merken.

@@ -1,4 +1,4 @@
-# 3D Artists
+# 3D Artists（3Dモデル制作者）
 translation-done: false
 
 ## AkaRaiden

@@ -2,80 +2,80 @@
 De Support rol staat symbool voor dank. Bedankt voor de duizenden berichten die via de hulp kanalen zijn verstuurd om mensen te helpen hun mods te regelen, en voor het bouwen van kennis over probleemoplossing via macro's en de wiki. Deze rol word niet vaak uitgegeven, maar als we dat wel doen dan is dat omdat iemand veel tijd heeft besteed aan de server en het helpen van mensen.
 
 ## boulders2000
-"even though his brain is a mess he knows his stuff (kinda)" something like that (but don't add something like that part, ok?)
+"Ook al zijn zijn hersenen een puinhoop weet hij waar hij het over heeft (ongeveer)", zoiets (maar voeg het zoiets niet toe, ok?)
 
-**Rollen:** Support
+**Rol:** Support.
 
 ## ComputerElite
-He makes programs to support people faster and some others for them to make all easier. (likes to eat BMBF Logs)
+Hij maakt programma's om mensen sneller te kunnen helpen en sommige anderen voor hen om alles makkelijker te maken. (Vindt het leuk om BMBF logs te eten).
 
-**Roles:** Support
+**Rol:** Support.
 
 [Github](https://github.com/ComputerElite/)
 
 ## Emma
-You might know them for their spectacular platforms, or for more refined individuals: yeet sabers.
+Je kent ze misschien van hun spectaculaire platformen, of voor meer verfijnde individuen: yeet sabers.
 
-**Roles:** Support, 3D Artist
+**Rollen:** Support, 3D Artist.
 
 [Twitch](https://www.twitch.tv/therealkleinba)
 
 ## Johnny0403
-He likes playing Beat Saber. He also likes helping people fix their problems so they can play Beat Saber.
+Hij speelt graag Beat Saber. Hij houdt er ook van mensen te helpen hun problemen op te lossen, zodat ze Beat Saber kunnen spelen.
 
-**Roles:** Support
+**Rol:** Support.
 
 ## Kolezan
-He'll teach you to fix your plugins and your terribly off-beat first map. We've all been there.
+Hij zal je leren om je plugins te fixen en je vreselijke off-beat allereerste level te verbeteren. We zijn er allemaal geweest.
 
-**Roles:** Support, Mapping Support, Mapper
+**Rollen:** Support, Mapping Support, Mapper.
 
-[Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
+[Twitch](https://www.twitch.tv/kolezan) | [Doneer](https://paypal.me/kolezan)
 
 ## Nobby76
-Heart of gold, nerves of steel.... And a knob of butter
+Hart van goud, zenuwen van staal.... En een eikel van boter.
 
-**Roles:** Support
+**Rol:** Support.
 
 ## Pespiri
-He'll give me his bio later today, or so he says.
+Hij zal me later vandaag zijn bio geven, dat is wat hij zegt tenminste.
 
-**Roles:** Support, Modder
+**Rollen:** Support, Modder.
 
 [GitHub](https://github.com/pespiri)
 
 ## Radevirot
-This guy came out of nowhere and started helping in support saying it was some kind of addiction, what a loon.
+Deze man kwam uit de lucht vallen en begon te helpen en zij dat het een soort verslaving was, wat een sukkel.
 
-**Rollen:** Support
+**Rol:** Support.
 
-[Twitter](https://twitter.com/Radevirot) | [Donate](paypal.me/Radevirot)
+[Twitter](https://twitter.com/Radevirot) | [Doneer](paypal.me/Radevirot)
 
 ## rui2015
-Has no creativity and doesn't know what to put here. Is a cool person though.
+Heeft geen creativiteit en weet niet wat hij hier moet zeggen. Is wel een gaaf persoon.
 
-**Rollen:** Support
+**Rol:** Support.
 
 ## Sands
-He has no life and he's pretty dumb but he can help with your bmbf and that's all that matters right?
+Hij heeft geen leven en hij is best stom, maar hij kan wel met je BMBF helpen en dat is alles wat belangrijk is, toch?
 
-**Roles:** Support
+**Rol:** Support.
 
 [YouTube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
 
 ## Simme63
 "Coke Head"
 
-**Roles:** Support
+**Rol:** Support.
 
 ## Channel Monitor Bot
-The bot that holds it all together. Created by Megalon, recreated by lolPants, and personified by Rolo!
+De bot die alles bij elkaar houdt. Gemaakt door Megalon, opnieuw gemaakt door lolPants, en gepersonaliseerd door Rolo!
 
 [Merch!](https://www.redbubble.com/people/megalon-gaming/portfolio)
 
 ---
 
-::: tip See Also **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
-**Modders:** [Kyle1413](./modders.md#kyle1413)  
-**Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink) | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)  
+::: tip Zie ook **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)   
+**Modders:** [Kyle1413](./modders.md#kyle1413)   
+**Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink) | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)   
 **Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ) :::

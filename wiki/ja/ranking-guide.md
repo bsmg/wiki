@@ -2,78 +2,78 @@
 sidebar: auto
 ---
 
-# Ranking & Scoring Guide
+# ランキング & スコアのガイド
 
 ::: danger Sorry, this page has not been translated yet, you can either:
 
 *Note for translators: this page was generated automatically, please remove this content before starting translation*
 
-:::warning Disclaimer This guide was originally written on February 7th, 2019. It has been updated multiple times but some information may be inaccurate or missing. If you notice inaccurate/missing information in this guide, you can submit a pull request on the [BSMG Wiki GitHub](https://github.com/bsmg/wiki#readme) or send me a message on Discord (TeknozFR#6900). :::
+:::warning Disclaimer このガイドはもともと2019年2月7日に作成されたものです。 何回か更新されていますが、一部の情報が不正確または不足している可能性があります。 このガイドで間違っていたり不足している情報に気付いた場合 [BSMG Wiki GitHub](https://github.com/bsmg/wiki#readme) でリクエストを送信するか、Discord (TeknozFR#6900) にメッセージを送信してください。 :::
 
-## Accuracy and Scoring
+## 正確性とスコア
 
-### Score Multiplier
+### スコア倍率
 
-Your score multiplier can be seen below, being surrounded by a outer ring. As said in the name, the multiplier has an effect on your score. You start the song with a multiplier of **1x** and the outer ring shows the progression to the next multiplier. When you hit the note that brings you up to the next multiplier, that note is affected by the new multiplier and not the old one. The different multipliers are : **1x, 2x, 4x and 8x**. Every time you lose combo which involves missing a note, cutting in the wrong direction or the with the wrong saber, hitting a bomb or going through an obstacle, your multiplier will be cut in half.
+外側を円で囲われているスコア倍率は以下のように機能します。 名前の通り、スコアに影響します。 曲が始まるとスコア倍率は**1x**からスタートします。外側のリングが完成すると次の倍率が表示されます。 あるノーツを切ったことで次の倍率に移行したとき、そのノーツのスコアは前の倍率ではなく新しい倍率で計算されます。 スコア倍率は**1x, 2x, 4x, 8x**があります。 ノーツを切り逃したり、間違った方向で切ったり、異なるセイバーで切ったとき、ボムを切ったとき、壁に当たり、コンボが途切れるとスコア倍率は半分になります。
 
 ![Score Multiplier](~@images/ranking-guide/score_multiplier.png "Score Multiplier")
 
-### Scoring
+### スコア
 
-Scoring well in Beat Saber isn’t as simple as keeping a high combo and not missing notes, it is also determined by your score per block. The maximum score possible to achieve while slicing a block is **115** (without counting the score multiplier). While cutting a block, you must achieve the correct swing angles and you must slice it in the center to achieve the best score for that cut. Here is how score is calculated for a cut :
+Beat Saberのスコアシステムは、コンボを維持し、ミスをしなければよいというほど簡単ではありません。 ブロックごとにスコアが異なります。 ブロックをカットして得られる最大スコアは **115** です(スコア倍率を考慮しないとき)。 ブロックをカットしようとするとき、正しいスイングアングルを維持する必要があります。そして最高のスコアを達成するために中央をカットしなければなりません カットのスコアは次のように計算されます:
 
-| Component          | Point Value |
-| ------------------ | ----------- |
-| 100° Approach      | 70 Points   |
-| 60° Follow Through | 30 Points   |
-| Cutting in Half    | 15 Points   |
+| 構成要素       | 点数     |
+| ---------- | ------ |
+| 準備角度100°   | 70ポイント |
+| 振り抜き角度60°  | 30ポイント |
+| ちょうど半分にカット | 15ポイント |
 
 
-This shows how important it is to do proper swings to get the right angles and the best score possible. Remember, it’s better to get a bad cut than a miss since a miss counts as **0 points** and breaks your combo.
+これは、可能な限り最高のスコアを得るために適切な角度でスイングを行うことがいかに重要であるかを示しています。 ミスは **0 0 ポイント** としてカウントされ、コンボが途切れるので、ミスよりもBADカットの方が良いことを覚えておいてください。
 
-### Hitboxes
+### Hitboxes（ヒットボックス）
 
-A common misconception in Beat Saber would be that most people think that the hitboxes for the notes are the blocks themselves. While that used to be the case, the hitboxes have changed quite a few times through the different versions of the game and a lot of the pictures out there are mistaken. Here is an image showing the current hitbox. As you can see, the hitbox is pretty big and extends a lot on the sides and the front. With this information, it is recommended to hit with the tip of the saber to maximize the angle and get the best cut possible.
+Beat Saberのよくある誤解は、ほとんどの人がノーツはヒットボックスそのものだと考えているということです。 かつてのゲームではそうでしたが、ヒットボックスはそれぞれのゲームのバージョンで異なっていますが、多くのイメージは間違っています。 現在のヒットボックスを示す画像があります。 ご覧のとおりヒットボックスはかなり大きく、側面と前面に伸びています。 この画像から、角度を最大化し、可能な限り最高のカットを取得するために、セイバーの先端でヒットすることをお勧めします。
 
 ![Hitboxes](~@images/ranking-guide/hitbox.png "Hitboxes")
 
-### Accuracy
+### 達成度
 
-Accuracy is shown on the left after enabling the **Advanced HUD** option in the Player Settings. Accuracy is shown by a percentage and a letter. Because accuracy is a percentage, the best “possible” accuracy is **100%** or named a **SSS**. While such accuracy is practically impossible (since it would require no combo break and 115 cuts on every block), accuracy is still a great way to measure performance on a map and one’s ability to score properly and avoid missing notes. Accuracy is calculated using information such as the scores per hit, the score multiplier and the amount of miss. Here is the connection between the letters and accuracy percentage :
+プレイヤー設定で **Advanced HUDHUD** オプションを有効にすると、左側に達成度が表示されます。 達成度はパーセンテージとランクで表示されます。 達成度はパーセンテージであるため、最高の「可能な」精度は **100%** または **SSS** です。 そのような達成度は現実的に不可能ですが（フルコンボとブロックごとに115点を得る必要になるため） 達成度はまだレベルのパフォーマンスを測定するのに最適な方法です。うまくプレイし、ノーツのミスの少なさを測る指標になります。 ヒットごとのスコア、スコア倍率、ミスの量などの情報を使用して達成度が計算されます。 ランクと達成度は以下のように対応します:
 
-| Letter Grade | Accuracy Percentage |
-| ------------ | ------------------- |
-| SS           | 90-99.99%           |
-| S            | 80-89.99%           |
-| A            | 65-79.99%           |
-| B            | 50-64.99%           |
-| C            | 35-49.99%           |
-| D            | 20-34.99%           |
-| E            | < 19.99%            |
+| ランク | 達成度       |
+| --- | --------- |
+| SS  | 90-99.99% |
+| S   | 80-89.99% |
+| A   | 65-79.99% |
+| B   | 50-64.99% |
+| C   | 35-49.99% |
+| D   | 20-34.99% |
+| E   | < 19.99%  |
 
-## The Ranking Process
+## ランク付けのながれ
 
-### Ranked / Unranked
+### Ranked と Unranked
 
-A lot of people (like I did) will spend dozens and dozens of hours without knowing the difference between ranked and unranked maps when they start. While a map being ranked doesn’t make it better for any reason, it’s great for new players to learn what the difference is, especially if they ever decide to try ranking up.
+(私がそうであったように)多くの人々は、開始時にランク付けされた譜面とランク付けされていない譜面の違いを知らずに数十時間を過ごすでしょう。 ランキングを上げようと決意しない限りは、新規プレイヤーはどの難易度がランキング付けされているかを知る理由はあまりありません。
 
-**Ranked :** A ranked map is assigned a certain difficulty level measured in stars (★) and is worth a certain amount of PP (performance points) for that difficulty. An amount of that PP can be earned by a player for completing the map. More PP will be rewarded for a player that got a higher accuracy. Ranked maps *mostly* respect criteria and are considered as “good maps”. They are the only way to climb the [global leaderboard](https://scoresaber.com/global).
+**Ranked**：ランク付けされた譜面は難易度に応じて星（★）がつき、それに応じたPP（パフォーマンスポイント）が得られます。 そのPPは、マップをクリアするとプレーヤーに付与されます。 より高い達成度を得たプレーヤーに対してPPが多く支払われます。 ランク付けされたマップは *主に* 基準を尊重し、「良いマップ」とみなされます。 これらは [global leaderboard](https://scoresaber.com/global)のランキングを上げる唯一の方法です。
 
-**Unranked :** An unranked map is any map that has been published on [BeatSaver](https://beatsaver.com/). It does not need to be actually possible to pass and maps can be made by anybody using the a mapping editor. Also, it is not possible to know the difficulty level of an unranked map except by looking at the difficulty name which is not always an accurate measure of the difficulty since the mapper chooses it.
+**Unranked :** [BeatSaver](https://beatsaver.com/) で公開されているランク付けされていないすべてのマップを指します。 マッピングエディタを使って誰でもマップを作ることができ、ランク付けの基準をパスする必要はありません。。 また、譜面作成者が難易度を選ぶことができるので、その見かけの難易度と実際の難易度がいつも一致しているとは限りません。
 
-### Criteria and the Ranking Process
+### 基準とランキングプロセス
 
-The ranking team ranks maps through a communal evaluation process. Those maps are then assigned PP based on an algorithm that determines the difficulty once they are ranked based on a variety of factors. PP, which stands for performance points, is given for completing ranked maps based on how high you scored in the level. Full details about the ranking process, criteria, and additional FAQs can be found in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
+ランキングチームは共同評価プロセスを通じてマップをランク付けします。 それらのマップは、さまざまな要因に基づいてランク付けされた難易度を決定するアルゴリズムがPPを割り当てます。 パフォーマンスポイントを表すPPは、レベルでのスコアに基づいてランク付けされたマップをクリアすると得られます。 ランキングプロセス、基準、および追加のFAQの詳細については、 [ScoreSaber Discordサーバー](https://discord.com/invite/WpuDMwU) を参照してください。
 
-## The Ranking System Explained (PP System)
+## ランキングシステムの説明 (PPシステム)
 
-The PP system is probably one of the most misunderstood things when it comes to ranking in the game. Personally, I find it that people misunderstand it so often that I ended up writing a message about it and pinned it on the Beat Saber Canadian Discord so I wouldn’t need to explain it anymore, so here is “all” you need to know about it.
+PPシステムは、おそらくゲーム内のランキングになると、最も誤解されやすいものです。 個人的に私はそれを誤解している人を多く見かけます。そのたびに一から十まで説明してカナダのビートセイバーディスコードサーバのリンクをそれ以上説明しなくてもよいように渡しています。ここにあなたが知るべきすべてのことを書きます。
 
-### How can I earn PP and how does the global ranking work?
+### PPを取得するにはどうすればよいですか?　グローバルランキングはどのよう仕組みですか?
 
-You can find your global ranking on [ScoreSaber](https://scoresaber.com/global) by typing your username in the search bar. Your ScoreSaber profile is tied to your Steam/Oculus profile on which you play the game.
+グローバルランキングとPPは [ScoreSaber](https://scoresaber.com/global) で確認できます。searchにあなたのユーザー名を入力してみて下さい ScoreSaberのプロフィールは、ゲームをプレイするSteam/Oculusのプロフィールに関連付けられています。
 
-As said earlier, you can earn PP (performance points) by playing ranked maps. The amount of PP a map is worth is determined when the map is ran through the PP algorithm. The algorithm is kept secret to prevent mappers from trying to intentionally make songs to only be worth a lot of PP (to avoid breaking the system basically). The exact amount of PP gained by a player is determined by their accuracy on that map and the curve it represents compared to the max amount of PP that map is worth. You can find more information in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
+先ほど述べたように、ランク付けされたマップをプレイすることでPP(パフォーマンスポイント)を獲得することができます。 PPアルゴリズムが実行され、譜面のPPの量が決まります。 アルゴリズムは(システムが意味をなくさないために)PPを稼ぐためだけに曲をつくることを防ぐために秘密に保たれています。 The exact amount of PP gained by a player is determined by their accuracy on that map and the curve it represents compared to the max amount of PP that map is worth. 詳細は [ScoreSaber Discord サーバー](https://discord.com/invite/WpuDMwU) で確認できます。
 
 ### How does the PP system work and what is weighted PP?
 
@@ -85,12 +85,12 @@ You might have noticed that in your list, there are 2 numbers which end with PP.
 
 As said before, the amount of weighted PP you will receive is determined by the curve and the placement of that song in your list. As an example, if your top play is a **260 raw PP** play, you will be rewarded **260 weighted PP** which is a **100%** of the raw PP of that play. If your second top play is **247 raw PP**, you will be rewarded **238 weighted PP** which is the actual amount of PP you get after the curve is applied on it. Here is an example of how the curve works:
 
-| Raw PP | Weighted PP                  |
-| ------ | ---------------------------- |
-| 260pp  | **260pp** (100% of raw PP)   |
-| 247pp  | **238pp** (96.5% of raw PP)  |
-| 246pp  | **229pp** (93.1% of raw PP)  |
-| 244pp  | **219pp**  (89.9% of raw PP) |
+| 元のPP  | 重みのついたPP                     |
+| ----- | ---------------------------- |
+| 260pp | **260pp** (元のPPの100%)        |
+| 247pp | **238pp** (96.5% of raw PP)  |
+| 246pp | **229pp** (93.1% of raw PP)  |
+| 244pp | **219pp**  (89.9% of raw PP) |
 
 ### Why is my total PP not increasing as much as the weighted PP I got on my new score?
 
@@ -114,18 +114,18 @@ Since the **v12.0p1** update, a lot of modifiers got added and some already exis
 
 Removes the health bar which makes it impossible to fail. Contrary to older versions of the game, No Fail will now submit scores on the leaderboard unless used on the Practice Mode.
 
-| Modifier                    | Description                                                                                                                                                    |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| No Obstacles (-0.05)        | Removes all of the obstacles (walls) from the map.                                                                                                             |
-| No Bombs (-0.10)            | Removes all of the bombs from the map.                                                                                                                         |
-| Slower Song (-0.30)         | Slows down the song to 85% of the original speed.                                                                                                              |
-| Insta Fail (0.00)           | Makes you fail on the first miss you make.                                                                                                                     |
-| Battery Energy (0.00)       | Stops the health bar from replenishing. This limits the total amount of misses and bad cuts you can have before failing.                                       |
-| Disappearing Arrows (+0.07) | Makes the arrows disappear from the note as they approach you. You still need to remember the direction as you need to cut in the correct direction as always. |
-| Faster Song (+0.08)         | Speeds up the song to 120% of the original speed.                                                                                                              |
-| Ghost Notes (+0.11)         | Notes are invisible and the arrows disappear shortly before you hit them, similarly to Disappearing Arrows.                                                    |
+| オプション           | 説明                                                                         |
+| --------------- | -------------------------------------------------------------------------- |
+| 障害物なし (-0.05)   | すべての障害物（壁）をマップから削除します。                                                     |
+| 爆弾なし (-0.10)    | すべてのボムをマップから削除します。                                                         |
+| スローダウン（-0.30）   | 曲を元の速度の85%に減速します。                                                          |
+| ノーミス(0.00)      | １回でもミスするとゲーム失敗になります                                                        |
+| バッテリー (0.00)    | ヘルスバーの補充を停止します。 これは、ミスやBADの判定の上限の回数を制限します。                                 |
+| ノーアロー（+0.07）    | 矢印が近づくにつれてノーツから消えます。 あなたはいつものように正しい方向にカットする必要があるので、どの方向に切るべきが覚えておく必要があります。 |
+| スピードアップ(+0.08)  | 曲を元の速度の120%に加速します。                                                         |
+| ゴーストノーツ (+0.11) | ノーツが見えなくなり、矢印は当たる直前に消えます。ノーアローと同様です。                                       |
 
-## Grips
+## 握り方
 
 ### Why should I use a grip?
 

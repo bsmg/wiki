@@ -14,60 +14,60 @@ Heeft de omgevingsschermafbeeldingen van versie 1.6 van het spel bijgedragen aan
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c854907) | [BeastSaber](https://bsaber.com/members/aeroluna/)
 
 ## Awfulnaut
-Wrote the *Beat Saber Custom Mapping Best Practices for Block Placement* guide which the majority of [Basic Mapping: Pattern Best Practices](./basic-mapping.md#pattern-best-practices) was based on.  
+Schreef de *Beat Saber Custom Mapping Best Practices for Block Placement* gids waarvan het grootste deel van [Basic Mapping: Pattern Best Practices](./basic-mapping.md#pattern-best-practices) is gebaseerd.   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84edac) | [BeastSaber](https://bsaber.com/members/awfulnaut/)
 
 ## BennyDaBeast
-An awesome dance mapper who created a [video tutorial series](https://bsaber.com/benny-custom-mapping/) on how to map for those who learn better visually.  
+Een geweldige dans level maker die een [video tutorial series](https://bsaber.com/benny-custom-mapping/) heeft gemaakt over hoe je een level maakt voor degenen die beter visueel leren.   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84e98d) | [BeastSaber](https://bsaber.com/members/bennydabeast/)
 
 ## Bloodcloak
-A mapper that is really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps.  
-Also is a staff member that helps maintain and improve the resources.  
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
+Een level maker die echt van de Japanse en EDM muziek is, met af en toe een K-pop liedje, en houdt van het maken van dansstijl levels.   
+Is ook een staff dat helpt in het onderhouden en te verbeteren van de middelen die we hebben.   
+[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Doneer](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
 
 ## Bullet
-Contributed environment lighting videos in [Basic Lighting](./basic-lighting.md) and Chroma sections in [Intermediate Lighting](./intermediate-lighting.md) and [Advanced Lighting](./advanced-lighting.md). Has an interesting username...  
+Bijgedragen aan de omgevingsverlichtingsvideo's in [Basis verlichting](./basic-lighting.md) en de Chroma secties in [Intermediaire verlichting](./intermediate-lighting.md) en [Geavanceerde verlichting](./advanced-lighting.md). Heeft een interessante gebruikersnaam...   
 [BeatSaver](https://beatsaver.com/uploader/5e84a9933f476a000645dd88) | [BeastSaber](https://bsaber.com/members/xace1337manx/)
 
 ## Caeden117
-Modder, Moderator, Mapper, EditorMaster... Caeden does it all. As the primary dev on the ChroMapper project (which natively supports 360) he contributed a TON for 360&deg;/90&deg; best practices.  
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ee26) | [BeastSaber](https://bsaber.com/members/caeden117/) | [Donate](https://ko-fi.com/Caeden117)
+Modder, moderator, Mapper, EditorMaster... Caeden doet het allemaal. Als de primaire dev van het ChroMapper-project (dat 360 ondersteunt) heeft hij super veel bijgedragen aan de 360&deg;/90&deg; beste praktijken.   
+[BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ee26) | [BeastSaber](https://bsaber.com/members/caeden117/) | [Doneer](https://ko-fi.com/Caeden117)
 
 ## Checkthepan
-Some nerd who spends more time writing about mapping than actually doing it. Adapted the theory of parity and wrote a guide on how it applies in Beat Saber mapping as well as contributing to 360&deg;/90&deg; best practices.   
+Een nerd dat meer tijd besteed aan het schrijven over het maken van levels dan dat hij het daadwerkelijk doet. Heeft de theorie van parity aangepast en schreef er een gids over hoe deze van toepassing is in het maken van Beat Saber levels en heeft ook bijgedragen aan 360&deg;/90&deg; beste praktijken.    
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f3d5) | [BeastSaber](https://bsaber.com/members/checkthepan/)
 
 ## CyanSnow
-A furry on Mondays and Wednesdays, makes awesome maps with various gimmicks. Verified information on a lot of things and contributed to the walls section in Intermediate Mapping!  
+Een furry op maandagen en woensdagen, maakt geweldige levels met verschillende eigenschappen. Verifieerde informatie en heeft heel veel dingen bijgedragen aan de muren sectie in Intermediaire levels maken!   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8543ac) | [BeastSaber](https://bsaber.com/members/cyansnow/)
 
 ## DarkGrisen
-Contributed to the Intermediate Mapping page.  
+Heeft bijgedragen aan de Intermediaire levels maken pagina.   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84fe44) | [BeastSaber](https://bsaber.com/members/darkgrisen/)
 
 ## Freeek
-Works at Beat Games as an Official Mapper. Created one of the first [mapping tutorial series](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b) and  drops by in `#mapping-discussion` from time to time.  
+Werkt bij Beat Games als een Officiële level maker. Heeft een van de eerste [mapping tutorial series](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b) gemaakt. En komt af en toe langs in `#mapping-discussion`.   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84e8ad) | [BeastSaber](https://bsaber.com/members/freeek/)
 
 ## fruhead
-A mapper who focuses on creating accessible low expert+ and below maps. Originally got into mapping in order to add some more rock and metal maps to compete with the weeb and nightcore maps, only to end up making more weeb and nightcore maps. Tests maps on occasion, though has PTSD from 1999 and official editor. Creator of the [Beginner's Guide to Mapping tutorial series](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm).  
+Een level maker die focust op het maken van toegankelijke expert+ en lager levels. Oorspronkelijk begonnen met het maken van levels om wat meer rock- en metal levels toe te voegen om te concurreren met de weeb en nightcore levels, is uiteindelijk begonnen om zelf weeb en nightcore levels te maken. Test af en toe levels, maar heeft PTSD van 1999 en de officiële editor. Maker van de [Beginner's Guide to Mapping tutorial series](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm).   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c852683) | [BeastSaber](https://bsaber.com/members/fruhead/)
 
 ## Gabmiral
-Contributed MMA2 installation instructions for Linux. Actually not a mapper.  
+Heeft installatie instructies van MMA2 op Linux bijgedragen. Eigenlijk geen een level maker.   
 [GitHub](https://github.com/gabmiral/)
 
 ## The Good Boi
-Helped organize a convenient spreadsheet that contains all of the controls for the community editors.  
+Heeft geholpen met het maken van een handige spreadsheet waarin de besturingselementen van de community editors staan.   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85433c) | [BeastSaber](https://bsaber.com/members/thegoodboi/)
 
 ## Helen Carnate
-The plushie queen who organized the majority of these resources. The guides wouldn't be like they are today without them!  
+De plushie koningin die het grootste deel van deze middelen heeft georganiseerd. De handleidingen zouden er niet zijn zoals ze er nu uit zien zonder haar!   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c8553d2) | [BeastSaber](https://bsaber.com/members/helencarnate/) | [Etsy Shop](https://www.etsy.com/shop/HelenCarnateDesigns)
 
 ## Hexagonial
-Wrote a guide on forbidden patterns in E+ maps that was integrated into the [Basic Mapping: Gauging Difficulty & Down-Mapping](./basic-mapping.md#gauging-difficulty-down-mapping) section. Also is a ranking team member!  
+Wrote a guide on forbidden patterns in E+ maps that was integrated into the [Basic Mapping: Gauging Difficulty & Down-Mapping](./basic-mapping.md#gauging-difficulty-down-mapping) section. Is ook een lid van het ranking team!   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f2fb) | [BeastSaber](https://bsaber.com/members/hexagonial/)
 
 ## Kival Evan

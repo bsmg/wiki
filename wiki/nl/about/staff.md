@@ -1,133 +1,133 @@
 # Staff
-_Whether it comes to project management, plugin approval, managing the core services, event coordination, or many of the other secret projects, there's always lots of work to be done. The community wouldn't exist without the countless hours contributed by these incredible individuals, so please give them a virtual round of applause (and help pay for the services if you can...)_
+_Of het nu gaat om projectbeheer, mod goedkeuring, het beheer van de kerndiensten, de coördinatie van gebeurtenissen of veel van de andere geheime projecten. Er is altijd veel werk te doen. De community zou niet bestaan zonder de ontelbare uren die zijn bijgedragen door deze ongelooflijke personen, geef hun dus een virtueel applaus (en help met het betalen van de diensten als u kunt...)_
 
 ## +1 Rabbit
-Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)
+De maker van de [in-browser level previewer](https://skystudioapps.com/bs-viewer/) en diverse [level makers programma's](https://skystudioapps.com/mapping-tools/).
 
-**Rollen:** Staff, Modder **Bijdragen:** BS-Viewer, Mapping Tools
+**Rollen:** Staff, Modder **Bijdragen:** BS-Viewer, Level Makers Programma's.
 
-[GitHub](https://github.com/PlusOneRabbit) | [Twitch](https://www.twitch.tv/plusonerabbit) | [Donate](https://ko-fi.com/plusonerabbit)
+[GitHub](https://github.com/PlusOneRabbit) | [Twitch](https://www.twitch.tv/plusonerabbit) | [Doneer](https://ko-fi.com/plusonerabbit)
 
 ## Assistant
-Overseeer of core services, including BeatSaver and BeatMods servers. The original Support and creator of the custom avatar guide, Mod Assistant, and ModelSaber.
+Toezichthouder van kerndiensten, waaronder de BeatSaver en BeatMods servers. De originele Support en maker van de custom avatar gids, Mod Assistant en ModelSaber.
 
-**Rollen:** Staff, Support, 3D Artist  
-**Bijdragen:** BeatMods Approval Staff, Multiplayer/Saber/Avatar/Platform Creation Guides, Moderation, ModelSaber, BeatSaver Admin, BSMG Podcasts
+**Rollen:** Staff, Support, 3D Artist.   
+**Bijdragen:** BeatMods Approval Staff, Multiplayer/Saber/Avatar/Platform Creation Guides, Moderation, ModelSaber, BeatSaver Admin, BSMG Podcasts.
 
-[GitHub](https://github.com/Assistant) | [Donate](https://bs.assistant.moe/Donate) | [Patreon](https://www.patreon.com/AssistantMoe)
+[GitHub](https://github.com/Assistant) | [Doneer](https://bs.assistant.moe/Donate) | [Patreon](https://www.patreon.com/AssistantMoe)
 
 ## Bloodcloak
-A mapper that is really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps. *Totally* hasn't fallen into the vTuber hole.
+Een level maker die echt van de Japanse en EDM muziek is, met af en toe een K-pop liedje, en houdt van het maken van dansstijl levels. Is *totaal* niet in het vTuber gat gevallen.
 
-**Rollen:** Staff, Mapping Support, Mapper  
-**Bijdragen:** Wiki Management, Mapping Resources Maintainer
+**Rollen:** Staff, Mapping Support, Mapper.   
+**Bijdragen:** Wiki Beheer, Onderhouder van de Level Makers Bronnen.
 
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
+[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Doneer](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
 
 ## Bobbie
-Remind him to watch his glucose.
+Herinner hem eraan zijn glucose in de gaten te houden.
 
-**Rollen:** Staff, Modder, 3D Artist, Moderator  
-**Bijdragen:** Custom Notes, ModelSaber Admin
+**Rollen:** Staff, Modder, 3D Artist, Moderator.   
+**Bijdragen:** Custom Notes, ModelSaber Admin.
 
-Make sure he watches his glucose [Important](https://i.imgur.com/REWmoI9.jpg) | [Twitter](https://twitter.com/vrbobbie) | [YouTube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ) | [Donate](https://ko-fi.com/bobbievr)
+Zorg ervoor dat hij zijn glucose in de gaten houdt. [Belangrijk](https://i.imgur.com/REWmoI9.jpg) | [Twitter](https://twitter.com/vrbobbie) | [YouTube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ) | [Doneer](https://ko-fi.com/bobbievr)
 
 ## elliotttate
-Official BSMG PR Guy. Events like the 100k Contest wouldn't have been possible without his efforts and networking skills. He also runs BeastSaber to help you find the best curated maps.
+De officiële BSMG PR Man. Evenementen zoals de 100k wedstrijd zouden niet mogelijk zijn geweest zonder zijn inspanningen en netwerkvaardigheden. Hij beheert ook BeastSaber om je te helpen de beste curated levels te vinden.
 
-**Rollen:** Staff, BSMG PR  
-**Bijdragen:** BeastSaber, Contest Management
+**Rollen:** Staff, BSMG PR.   
+**Bijdragen:** BeastSaber, Wedstrijd Beheer.
 
 [Patreon](https://www.patreon.com/beastsaber)
 
 ## Lillie
-Makes mods for quest and likes to PP farm in her free time.  
-*Lillie not cutest*
+Maakt in haar vrije tijd mods voor de Quest en vind het leuk om haar vrije tijd PP te winnen.   
+*Lillie is niet de schattigste.*
 
-**Rollen:** Modder, Moderator  
+**Rollen:** Modder, Moderator.   
 **Bijdragen:** QuestSounds, QSettings+, FPSCounter.
 
 [GitHub](https://github.com/Rugtveit)
 
 ## lolPants
-One hell of a developer and a lover of socks. lolPants laid the groundwork for many of the policies and procedures during his time as Staff, and continues to help out when his services are needed.
+Eén hel van een ontwikkelaar en een liefhebber van sokken. lolPants legde de basis voor veel van de beleidsmaatregelen en procedures in zijn tijd als staf, en blijft helpen wanneer zijn diensten nodig zijn.
 
-**Rollen:** Modder, Admin (gepensioneerd), Staff, Moderator  
-**Bijdragen:** CMB, ModSaber, Moderation, BeatSaver Reloaded
+**Rollen:** Modder, Admin (gepensioneerd), Staff, Moderator.   
+**Bijdragen:** CMB, ModSaber, Moderation, BeatSaver Reloaded.
 
-[GitHub](https://github.com/lolPants) | [Twitch](https://twitch.tv/lolpants_) | [PayPal](https://www.paypal.me/jackbarondev) | [Ko-fi](https://ko-fi.com/lolpants) | [Patreon](https://www.patreon.com/JackBaron) | [Donate](https://monzo.me/jackbaron)
+[GitHub](https://github.com/lolPants) | [Twitch](https://twitch.tv/lolpants_) | [PayPal](https://www.paypal.me/jackbarondev) | [Ko-fi](https://ko-fi.com/lolpants) | [Patreon](https://www.patreon.com/JackBaron) | [Doneer](https://monzo.me/jackbaron)
 
 ## Megalon
-Co-creator of the BSMG as well as Channel Monitor Bot. He's known for his creative stream overlays and amazing ASMR voice.
+Co-maker van zowel BSMG als Channel Monitor Bot. Hij staat bekend om zijn creatieve stream overlays en verbazingwekkende ASMR stem.
 
-**Rollen:** Admin, Staff, Support, Modder  
-**Bijdragen:** CMB, BeatMods Approval, Stream Overlays, Moderation, PodCasts, Wiki
+**Rollen:** Admin, Staff, Support, Modder.   
+**Bijdragen:** CMB, BeatMods Approval, Stream Overlays, Moderatie, PodCasts, Wiki.
 
-[GitHub](https://github.com/megalon) | [Twitch](https://twitch.tv/megalonttv) | [Donate](https://ko-fi.com/megalon)
+[GitHub](https://github.com/megalon) | [Twitch](https://twitch.tv/megalonttv) | [Doneer](https://ko-fi.com/megalon)
 
 ## Melopod ƸӜƷ
-Likes pies, tartes, and helping people fix their mods!
+Vind taarten lekker, en vind het leuk om mensen te helpen om hun mods te fixen!
 
-**Roles:** Staff, Support, Moderator
+**Roles:** Staff, Support, Moderator.
 
-[Twitch](https://www.twitch.tv/mamamelo) | [Donate](https://streamlabs.com/mamamelo)
+[Twitch](https://www.twitch.tv/mamamelo) | [Doneer](https://streamlabs.com/mamamelo)
 
 ## OrangeW
-The first professional Beat Saber player, representing Team Gravity. Former Admin of the ScoreSaber global leaderboards.
+De eerste professionele Beat Saber speler, die Team Gravity vertegenwoordigt. Vormalig Admin van de ScoreSaber wereldscoreborden.
 
-**Rollen:** Staff  
-**Bijdragen:** ScoreSaber
+**Rollen:** Staff.   
+**Bijdragen:** ScoreSaber.
 
-[Twitch](https://twitch.tv/orangew2) | [Donate](https://streamlabs.com/orangew2)
+[Twitch](https://twitch.tv/orangew2) | [Doneer](https://streamlabs.com/orangew2)
 
 ## Reaxt
-BSMG server owner and rhythm game fanatic. We wouldn't be here today without this very special boy.
+Eigenaar van de BSMG server en rythm game fanatiek. We zouden hier vandaag niet zijn zonder deze zeer speciale jongen.
 
-**Rollen:** Admin, Staff, Modder  
-**Bijdragen:** Server Owner, Custom Sabers, PodCasts
+**Rollen:** Admin, Staff, Modder.   
+**Bijdragen:** Server Eigenaar, Custom Sabers, PodCasts.
 
 [GitHub](https://github.com/reaxt) | [Twitch](https://twitch.tv/reaxt)
 
 
 ## Sam
-He's either talking about Steven or being way too patriotic in chat (BS Nordic Admin btw). Don't call him cute, he hates that. He also makes maps, check them out below.
+Hij heeft het of over Steven of is veels te patriottisch in de chat (BS Nordic Admin btw). Noem hem niet schattig, hij haat dat. Hij maakt ook levels, bekijk ze hieronder.
 
-**Rollen:** Staff, Moderator, Mapper
+**Rollen:** Staff, Moderator, Mapper.
 
-[Twitch](https://twitch.tv/justsamuelok) | [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850326)
+[Twitch](https://twitch.tv/justsamuelok) | [Levels](https://beatsaver.com/uploader/5cff0b7498cc5a672c850326)
 
 ## Steven 🎀
-The manager of many, Steven's always around to lend a helping hand as long as you don't mess with the blue haired cute girls.
+De manager van allerlei dingen, Steven is altijd aanwezig om een helpende hand te geven zolang je maar niet met de mooie blauwharige meisjes rommelt.
 
-**Rollen:** Admin, Staff, Support, Modder  
-**Bijdragen:** THE ModelSaber Admin
+**Rollen:** Admin, Staff, Support, Modder.   
+**Bijdragen:** DE ModelSaber Admin.
 
-[GitHub](https://github.com/DeadlyKitten) | [Twitch](https://www.twitch.tv/steventhecat)  | [Donate](https://streamlabs.com/steventhecat)
+[GitHub](https://github.com/DeadlyKitten) | [Twitch](https://www.twitch.tv/steventhecat)  | [Doneer](https://streamlabs.com/steventhecat)
 
 ## Umbranox
-ScoreSaber Supreme Leader, creator of the custom leaderboards/rank system. Always trying to do way too much work with not enough rest. Remember to pat your Umbranox once a day!
+ScoreSaber opper leider, maker van het custom leaderbord/rang systeem. Probeert altijd te veel te doen zonder genoeg rust te nemen. Vergeet niet je Umbranox één keer per dag op z'n bol te aaien!
 
-**Rollen:** Staff  
-**Bijdrage:** ScoreSaber
+**Rol:** Staff.   
+**Bijdrage:** ScoreSaber.
 
 [Twitch](https://www.twitch.tv/umbranoxius) | [Twitter](https://twitter.com/Umbranoxus) | [Patreon](https://www.patreon.com/scoresaber)
 
 ## williums
-Project manager, wiki maintainer, bread baker. Despite what everyone says, I like girls.
+Projectmanager, wiki onderhouder, brood bakker. Ondanks wat iedereen zegt, val ik op meisjes.
 
-**Rollen:** Staff, Support  
-**Bijdragen:** Wiki Management, Moderation, Contest Management, BeatMods Approvals
+**Rollen:** Staff, Support.   
+**Bijdragen:** Wiki Onderhoud, Moderatie, Wedstrijd Management, BeatMods Approvals.
 
 [Twitch](https://www.twitch.tv/williums/) | [Donate](https://ko-fi.com/williums)
 
 ## Balsa (gepensioneerd)
-BeatSaver creator - he's the reason we have somewhere to get our custom songs in the first place. He shows up in once in awhile to show off BeatSaver numbers, call us nerds, and present his collection of finely aged memes. He's since stepped down from the staff team but we wouldn't be here without him.
+BeatSaver Maker - hij is de reden dat we een plek hebben om onze custom levels te krijgen. Hij verschijnt eens in de zoveel tijd om BeatSaver nummers te tonen, ons nerds te noemen en zijn collectie van fijne oude memes te presenteren. Hij heeft sindsdien zijn afscheid genomen van het staff team, maar we zouden niet hier zijn zonder hem.
 
 **Bijdragen:** BeatSaver Creator.
 
 ## Klouder (gepensioneerd)
-Longtime server member and active contributor. She was the server mom!
+Langdurig server lid en actieve bijdrager. Zij was de moeder van de server!
 
-**Bijdragen:** ScoreSaber Admin, Moderation
+**Bijdragen:** ScoreSaber Admin, Moderatie.
 
-[Twitch](https://www.twitch.tv/klouderrr) | [Donate](https://streamlabs.com/klouderrr)
+[Twitch](https://www.twitch.tv/klouderrr) | [Doneer](https://streamlabs.com/klouderrr)

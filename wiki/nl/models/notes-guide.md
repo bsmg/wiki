@@ -1,105 +1,105 @@
 ---
 sidebar: auto
 prev: ./platforms-guide.md
-description: Bobbie's guide to making Custom Notes!
+description: Bobbies gids voor het maken van Custom Blokken!
 ---
 
-# Custom Notes Guide
-_Bobbie's guide to making Custom Notes_
+# De Custom Blokken gids
+_Bobbies gids voor het maken van Custom Blokken_
 
-## Intro
-This guide requires basic knowledge on 3d modeling and the Unity Engine. A few things are needed:
+## Introductie
+Deze handleiding vereist basiskennis over 3d modelleren en de Unity Engine. Er zijn een paar dingen nodig:
 
-* The Unity Editor - specifically, [Unity version 2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe)
-* The [custom notes Unity project](https://github.com/legoandmars/CustomNotesUnityProject/archive/master.zip)
-* If you don't already have a mesh you want to use, you'll need a 3d modeling program. I personally suggest [Blender](https://www.blender.org/)
-* Depending on what exactly you're modeling, photo editing software such as [Photoshop](https://www.adobe.com/products/photoshop.html) or [GIMP](https://www.gimp.org/downloads/) may be required.
+* De Unity Editor - specifieker, [Unity version 2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe).
+* Het [custom notes Unity project](https://github.com/legoandmars/CustomNotesUnityProject/archive/master.zip).
+* Als je nog geen mesh hebt wat je wilt gebruiken, heb je een 3d modelleringsprogramma nodig. Persoonlijk stel ik [Blender](https://www.blender.org/) voor.
+* Afhankelijk van wat je precies maakt, is een fotobewerkingssoftware zoals [Photoshop](https://www.adobe.com/products/photoshop.html) of [GIMP](https://www.gimp.org/downloads/) mogelijk nodig.
 
 ## Unity Project
-::: danger DISCLAIMER Make sure you're using Unity version 2018.1.6f1! ::: Open the custom notes project with Unity.
+::: danger WAARSCHUWING Zorg ervoor dat je Unity versie 2018.1.6f1 gebruikt! ::: Open de custom notes project met Unity.
 
 ![Unity Project](~@images/models/notes/unity_window.png)
 
-In the hierarchy window on the left, there are a few example notes.
+In het hiërarchieën venster aan de linker kant zijn er enkele voorbeelden te vinden.
 
 ![Object Hierarchy](~@images/models/notes/02.png)
 
-When you click on one of these example notes, you'll see that it has a `NoteDescriptor` attached to it.
+Als je op een van deze voorbeeld blokken klikt, zie je dat er een `NoteDescriptor` aan gekoppeld is.
 
 ![NoteDescriptor](~@images/models/notes/03.png)
 
-Let's briefly go over what each of these settings do.
+Laten we kort ingaan op wat elk van deze instellingen nou eigenlijk doen.
 ### Note Name & Author Name
-This one is simple enough. Whatever the note and author name is set to is what will appear in the CustomNotes note selection UI, as shown in the image below.
+Deze is redelijk makkelijk. Wat de naam van het blok en de naam van de auteur ook zijn, deze worden in het Custom Notes selectie UI weergegeven, zoals weergegeven in de afbeelding hieronder.
 
 ![Ingame example of note name and author name](~@images/models/notes/04.png)
-### Icon
-This setting takes an image that will be used as an icon. The icon will display in the CustomNotes note selection UI, as seen in the image above.
+### Icoon
+Deze instelling neemt een afbeelding die zal worden gebruikt als icoon. Het icoon wordt weergegeven in de CustomNotes selectie UI, zoals gezien in de bovenstaande afbeelding.
 ### Disable Base Note Arrows
-When enabled, this setting will make the default arrows present on notes invisible. Note: you must have `NoteDotLeft` and `NoteDotRight` gameobjects in your note if you want to enable this option.
+Als deze is ingeschakeld, zal deze instelling de standaard pijlen die aanwezig zijn op de blokken onzichtbaar maken. Opmerking: je moet de `NoteDotLeft` en `NoteDotRight` gameobjecten in jouw blok hebben als je deze optie wilt inschakelen.
 ### Uses Note Color
-When this option is enabled, it uses the player's currently set note colors to tint your notes appropriately. This allows your notes to support `CustomColors`. If you want to use this properly, be sure to read the section dedicated to making your notes work with Custom Colors.
+Als deze optie is ingeschakeld, gebruikt het de huidige kleuren van de speler om je blokken in de goeie kleur te tinten. Dit stelt je blokken in staat om `CustomColors` te ondersteunen. Als je dit goed wilt gebruiken, zorg er dan voor dat je de sectie leest die gericht is aan het maken van jouw blokken met custom kleuren.
 ### Note Color Strength
-This option is only used if `Uses Note Color` is enabled. Note Color Strength defines how strong the tint applied upon your notes is and is one by default. The lower you make this number, the more subtle the tint will be.
+Deze optie wordt alleen gebruikt als `Uses Note Color` is ingeschakeld. Note Color Strength definieert hoe sterk de tint word die op je blokken toegepast is, en is standaard 1. Hoe lager je dit nummer maakt, hoe subtieler de tint zal zijn.
 
-## Creating a note
-You should already have a 3d model that you're going to use for your note. For this tutorial I'm going to be using a simple triangle mesh I made in blender. Go ahead and import your model into the project.
+## Het maken van een blok
+Je zou al een 3D-model moeten hebben wat je gaat gebruiken voor je blok. Voor deze tutorial ga ik een eenvoudig triangle mesh gebruiken wat ik gemaakt heb in blender. Importeer je model in het project.
 
 ![Importing into the unity project](~@images/models/notes/05.png)
 
-Once you've imported your model, create a new empty `GameObject` in the hierarchy view and name it whatever you plan on naming your note. I'll be naming mine `TriangleNote`.
+Nadat je je model hebt geïmporteerd, maak je een nieuw leeg `GameObject` in de hiërarchie weergave en noem het hoe je wilt dat je blok gaat heten. Ik zal die van mij `TriangleNote` noemen.
 
 ![Creating a new gameobject](~@images/models/notes/07.png)
 
-In your note's `GameObject`, click `Add Component` and add a `NoteDescriptor`. Don't worry about changing any of the options in the `NoteDescriptor` right now, we'll do that later.
+In het `GameObject` van jouw blok klik je op `Add Component` en voeg je een `NoteDescriptor` toe. Maak je voor nu geen zorgen over het wijzigen van de opties in de `NoteDescriptor`, dat doen we later.
 
 ![Adding a NoteDescriptor](~@images/models/notes/08.png)
 
-Now we can go ahead and start adding children to our custom note's main GameObject. `NoteLeft` and `NoteRight` are the two required notes, but you can also add a `NoteDotRight`, `NoteDotLeft`, or `NoteBomb` to your main GameObject. For the purposes of this tutorial I'm only going to be making a `NoteLeft` and `NoteRight`.
+Nu kunnen we beginnen met toevoegen van children aan het belangrijkste GameObject van ons blok. `NoteLeft` en `NoteRight` zijn de twee vereiste blokken, maar je kan ook een `NoteDotRight`, `NoteDotLeft` of `NoteBomb` toevoegen aan je hoofd GameObject. Voor het doel van deze gids ga ik alleen maar een `NoteLeft` en `NoteRight` maken.
 
-Go ahead and create a new empty GameObject inside of your main GameObject and name it `NoteLeft`
+Maak een nieuw leeg GameObject in jouw hoofd GameObject en noem het `NoteLeft`.
 
 ![Creating an empty GameObject inside of TriangleNote](~@images/models/notes/09.png)
 
 ![Showing the hierarchy of TriangleNote and NoteLeft](~@images/models/notes/10.png)
 
-`NoteLeft` will serve as a kind of "container" for all of the GameObjects that contain meshes in our note. We'll be able to position and rotate our meshes freely if we put them in a seperate GameObject inside of `NoteLeft`, which we would not be able to do if we simply added mesh components directly to the `NoteLeft` GameObject.
+`NoteLeft` zal dienen als een soort "container" voor alle GameObjecten die meshes bevatten in ons blok. We kunnen onze meshes vrij positioneren en draaien als we ze in een aparte GameObject plaatsen in `NoteLeft`, wat we niet zouden kunnen doen als we gewoon mesh onderdelen direct zouden toevoegen aan het `NoteLeft` GameObject.
 
-Go ahead and drag and drop your imported mesh onto `NoteLeft` in the hierarchy view.
+Sleep jouw geïmporteerde mesh op `NoteLeft` in het hiërarchieën scherm.
 
 ![Dragging mesh onto NoteLeft](~@images/models/notes/note_drag.png)
 
 ![Dragging mesh onto NoteLeft](~@images/models/notes/56.png)
 
-You should now have your a child GameObject of `NoteLeft` containing your mesh. Depending on what modeling program you used, you may need to remove some non-mesh objects. If you see any objects in your mesh named `Camera` or `Lamp`, **MAKE SURE YOU DELETE THEM!** If you see a warning about "breaking the prefab instance", press "Continue".
+Je zou nu een child GameObject van `NoteLeft` moeten hebben waar je mesh in zit. Afhankelijk van het modelleringsprogramma wat je hebt gebruikt, moet je sommige niet-mesh objecten verwijderen. Als je objecten in jouw mesh ziet die `Camera` of `Lamp` heten, **ZORG DAN DAT JE DEZE VERWIJDERT!** Als je de "breaking the prefab instance" waarschuwing ziet, druk dan op "Continue".
 
 ![Showing hierarchy and pointing out Camera](~@images/models/notes/64.png)
 
 ![Saying continue on warning](~@images/models/notes/59.png)
 
-Click on the object you just added and make sure that it has a position of `(0,0,0)`
+Klik op het object wat je net hebt toegevoegd en zorg ervoor dat het een positie heeft van `(0,0,0)`
 
 ![Checking position](~@images/models/notes/61.png)
 
-Once you've selected the mesh you need to properly scale it to be the size of an note in-game. Select `NoteLeft` and move it near the `TemplateNoteSize`. The `TemplateNoteSize` should be the white square in your project. ::: warning WARNING Make sure you select `NoteLeft` when you're moving your note. If you accidentally move the children of `NoteLeft` instead, the meshes will not be aligned! The meshes inside of `NoteLeft` should almost ALWAYS be at position `(0,0,0)` unless you're purposefully adjusting them. :::
+Zodra je het mesh hebt geselecteerd, moet je het naar de grootte van een blok in het spel maken. Selecteer `NoteLeft` en plaats het in de buurt van het `TemplateNotesize`. Het `TemplateNoteSize` zou het witte vierkant moeten zijn in jouw project. ::: warning WAARSCHUWING Zorg ervoor dat je `NoteLeft` selecteert wanneer je jouw blok verplaatst. Als je per ongeluk de children van `NoteLeft` verplaatst, kloppen de meshes niet meer! De meshes in `NoteLeft` zouden bijna ALTIJD op positie `(0,0,0)` moeten zijn, tenzij je ze doelbewust aanpast. :::
 
 ![Showing the mesh next to TemplateNoteSize](~@images/models/notes/62.png)
 
-Once you've moved `NoteLeft` to be near the `TemplateNoteSize`, select the scale tool near the top left of the screen.
+Zodra je de `NoteLeft` hebt verplaatst om dichterbij de `TemplateNotesize` te zijn, selecteer je de scale tool links bovenin van het scherm.
 
 ![Selecting scale tool](~@images/models/notes/63.png)
 
-With the GameObject inside of `NoteLeft` selected, click and drag on the gray square and move your mouse until your note is roughly the same size as the `TemplateNoteSize`.
+Met het GameObject in `NoteLeft` geselecteerd, klik en sleep het grijze vierkant totdat het blok ongeveer dezelfde grootte heeft als het `TemplateNoteSize`.
 
 ![Showing how to use scale tool](~@images/models/notes/60.png)
 
-::: warning WARNING Make sure you're adjusting the scale of the objects INSIDE of `NoteLeft`. `NoteLeft` will always have a forced scale of one, so if you set its scale to anything other than `(1,1,1)` your model will look different in-game! :::
+::: warning WAARSCHUWING Zorg ervoor dat je de schaal van de objecten IN `NoteLeft` aanpast. `NoteLeft` zal altijd een geforceerde schaal hebben van 1, dus als je de schaal op iets anders zet dan `(1,1,1)` zal je model er anders uitzien in het spel! :::
 
 ![Showing the correctly scaled mesh next to TemplateNoteSize](~@images/models/notes/66.png)
 
-As you can see, the scale that worked for my mesh is about `(0.65,0.65,0.65)`. This value will probably be different depending on what mesh you're using. If you can't get the mesh to be exactly the same size as the `TemplateNoteSize` don't worry too much because it doesn't need to be exact. Keep in mind that having a note be slightly too large is generally better than having it be slightly too small. ::: warning WARNING Make sure your notes are facing the correct direction. Look at the direction all of the other notes in the scene and ensure that your meshes are facing the same way. **REMEMBER**: The `NoteLeft` GameObject should always have a rotation of `(0,0,0)`. If you need to rotate your note, don't rotate `NoteLeft`, but instead rotate the meshes inside of it! :::
+Zoals je kunt zien, is de schaal die werkte voor mijn mesh ongeveer `(0,65,0,65)`. Deze waarde zal anders kunnen zijn afhankelijk van het mesh dat je gebruikt. Als je het mesh niet precies even groot kan krijgen als `TemplateNotesize`, maak je dan niet te veel zorgen want het hoeft niet precies te zijn. Houd er rekening mee dat het over het algemeen beter is als een blok beetje te groot is dan dat het een beetje te klein is. ::: warning WAARSCHUWING Zorg ervoor dat je blokken in de juiste richting staan. Kijk naar de richting van alle andere blokken in het scherm, en zorg dat je meshes dezelfde kant op staan. **ONTHOUD**: Het `NoteLeft` GameObject moet altijd een rotatie hebben van `(0,0,0)`. Als je je blok moet roteren, draai dan niet `NoteLeft`, maar draai in plaats daarvan de meshes die er in zitten! :::
 
-## Adding materials
+## Materialen toevoegen
 Now that the mesh is properly scaled we can go ahead and add a material to it. In the project window, right click on `Materials` and then do `Create->Material`. Since this is going to be the material for the mesh of my `LeftNote`, I'll name it `LeftMaterial`.
 
 ![Creating a new material](~@images/models/notes/17.png)

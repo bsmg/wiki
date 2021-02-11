@@ -54,59 +54,59 @@ Les guides écrits sont pas votre truc ? Regardez cette série de vidéos !
 À la place, vous devriez suivre les guides écrits ici sur le wiki, regarder les tutoriels vérifié par le BSMG au-dessus, ou aller chercher de l'aide sur le [Discord du BSMG](https://discord.gg/beatsabermods). :::
 
 #### Séries de vidéos antérieures
-::: warning These series use older editors in their tutorials (Mediocre Mapper and EditSaber). The UI and some processes have changed in the latest recommended editor, [MMA2](./mediocre-map-assistant.md) but, the rest of the content is great! :::
+::: warning ATTENTION Ces séries de tutoriels utilisent des anciens outils (Mediocre Mapper et EditSaber). L'interface et quelques procédés ont changé dans l'éditeur actuellement recommandé, [MMA2](./mediocre-map-assistant.md), mais le reste du contenu est super ! :::
 * [[Tutoriel de mapping de BennyDaBeast](https://bsaber.com/benny-custom-mapping/) (en anglais)](https://bsaber.com/benny-custom-mapping/)
 * [[Tutoriels de mapping et d'édition de Freeek](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b) (en anglais)](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
 
 ## Ressources pour l'édition audio
-Before mapping, you need to get your audio file ready so that it works with your map editor. This section will walk you through how to set up and edit your audio file using a free program called [Audacity](https://www.audacityteam.org/).
+Avant de créer des maps, vous devez préparer votre fichier audio pour qu'il fonctionne avec votre éditeur de map. Cette section va vous guider pour préparer et modifier votre fichier audio en utilisant le logiciel gratuit [Audacity](https://www.audacityteam.org/).
 
 ### [**Configuration audio de base**](./basic-audio.md)
-Can't make a map without audio. Learn how to setup your audio for easy mapping!
+Vous ne pouvez pas faire de map sans musique. Apprenez comment préparer votre fichier audio pour créer facilement des maps !
 ### [**Édition audio avancée**](./advanced-audio.md)
-A deeper dive in adjusting audio files such as making shorter versions or working with variable BPM.
+Un guide plus avancé sur l'ajustement des fichiers audio tel que raccourcir une chanson ou travailler avec un tempo variable.
 
 ## Ressources pour l'édition de map
 
 ### Outils de mapping supplémentaires
-::: warning Community editors often have more features and don't require a VR headset, but they can be buggy, so use with caution. ::: Keyboard shortcuts for these editors are available inside their respective in-editor menus with a cross-reference between all of them [available here](./editor-keybinds.md).
+::: warning ATTENTION Les éditeurs de la communauté ont bien souvent plus de fonctions et ne nécessitent pas de casque VR, mais ils peuvent être buggés, ils sont donc à utiliser avec précaution. ::: Les raccourcis claviers pour ces éditeurs sont disponibles dans leurs menus respectifs, avec une référence croisée entre eux [disponible ici](./editor-keybinds.md).
 
 #### Mediocre Map Assistant 2
-MMA2 is the most feature rich 3D editor and is used by the majority of the mapping community.
+MMA2 est l'éditeur 3D disposant du plus grand nombre de fonctions et il est utilisé par la majorité de la communauté de mapping.
 
-* [Téléchargement Mediocre Map Assistant 2](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest)
-* [Mediocre Map Assistant 2 User Guide](./mediocre-map-assistant.md)
+* [Télécharger Mediocre Map Assistant 2](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest)
+* [Guide utilisateur pour Mediocre Map Assistant 2](./mediocre-map-assistant.md)
 
 #### BeatMapper.app
-A 3D editor that runs in the browser, allowing anyone with a web browser to map. It works best for standard mapping without any extensions, but new features are being added.
+Un éditeur 3D fonctionnant dans le navigateur, permettant à quiconque d'utiliser son navigateur internet pour créer des maps. Il fonctionne mieux pour les maps standard sans extensions, mais de nouvelles fonctionnalités sont ajoutées.
 * [[Site de BeatMapper](https://beatmapper.app/) (en anglais)](https://beatmapper.app/)
 * [[Manuel d'utilisation BeatMapper](https://beatmapper.app/docs/manual/getting-started) (en anglais)](https://beatmapper.app/docs/manual/getting-started)
 
 #### ChroMapper - *Prochainement*
-A 3D editor that has stellar support for lighting, Chroma RGB, and shares similar assets with Beat Saber, allowing for a more accurate preview. ChroMapper is currently in closed beta with no planned public release date.
+Un éditeur 3D qui supporte excellement bien l'éclairage, le RVB Chroma, et utilise des ressources similaires à Beat Saber, permettant une prévisualisation plus correcte.  ChroMapper est actuellement en bêta fermée sans date de sortie publique prévue.
 
-::: tip Interested in making your own editor or converter? You may find the [Map Format Page](./map-format.md) and the [SongCore Readme](https://github.com/Kylemc1413/SongCore/blob/master/README.md) helpful! :::
+::: tip Créer votre propre éditeur ou convertisseur vous intéresse ? Vous pourriez trouver la [page sur le format des maps](./map-format.md) et le [Lisez-moi de SongCore (en anglais)](https://github.com/Kylemc1413/SongCore/blob/master/README.md) utiles ! :::
 
 ### Éditeur officiel
-The official editor is developed and supported by Beat Games and pre-installed with the Steam VR or Oculus PC versions of Beat Saber. It makes playtesting convenient with one-click access to your work-in-progress in-game. The official editor is 2D and requires good visualization skills to translate well to a 3D play space, which can be challenging for new mappers. The vast majority of mappers use a [Community Editor](#community-editors).
+L'éditeur officiel est développé et supporté par Beat Games et pré-installé avec les versions PC (Steam et Oculus) de Beat Saber. Il rend l'essai de vos maps plus pratique avec l'accès en un clic de votre travail directement dans le jeu. L'éditeur officiel est en 2D et requiert des bonnes compétences de visualisation pour transposer ça à un espace 3D, ce qui peut être compliqué pour de nouveaux mappers. La grande majorité des mappeurs utilisent des [éditeurs communautaires](#outils-de-mapping-supplementaires).
 
-* Pour y accéder, lancez l'éditeur depuis Beat Saber en utilisant votre casque VR ou en utilisant le partamètre de lancement "fpfc" pour l'ouvrir directement depuis votre ordinateur.
+* Pour y accéder, lancez l'éditeur depuis Beat Saber en utilisant votre casque VR ou en utilisant l'option de lancement `fpfc` depuis votre ordinateur.
 * Regardez le [tutoriel vidéo sur l'éditeur officiel](https://www.youtube.com/watch?v=5Ex6sOEVgrM) de Megalon (en anglais) pour avoir un aperçu de la création de map basique !
 
-Keep in mind the following features that official does not have compared to the [Community Editors](#community-editors) available.
+Gardez en tête les fonctions suivantes que l'éditeur officiel n'a pas, comparé aux [éditeurs communautaires](#outils-de-mapping-supplementaires) disponibles.
 
-- Uncommon Precision such as 1/5 and associated multiples.
-- Regular autosave and recovery (Editor only autosaves when testing or saving)
+- Précisions peu communes telles que 1/5 et ses multiples.
+- Sauvegardes automatiques régulières et récupération (l'éditeur officiel ne sauvegarde qu'en testant ou sauvegardant manuellement)
 - Sélection en masse flexible, copier/coller.
 - Édition sur place (changer la direction des notes sans avoir besoin de les supprimer)
 - Support du Chroma RVB
-- Décalage audio réel pour la synchronisation. (Le paramètre officiel ne décale non seulement la chanson, mais aussi les hitsounds)
+- Décalage audio réel pour la synchronisation. (Le paramètre officiel décale non seulement la chanson, mais aussi les hitsounds)
 - Un vérificateur d'erreur
 - Les champs pour les contributeurs
 - Le support de Mapping ou Noodle Extensions
 
 #### Migration depuis l'éditeur officiel vers un éditeur communautaire
-Although it is recommended to start setup again following the [Quick Start](#mapping-quick-start) guides with a [Community Editor](#community-editors), it is possible to transfer your work in the Official Editor over.
+Même s'il est recommandé de recommencer l'installation en suivant le [guide rapide d'installation](#guide-rapide-pour-le-mapping) avec un [éditeur communautaire](#outils-de-mapping-supplementaires), il est possible de transférer votre travail depuis l'éditeur officiel.
 1. Installez un [éditeur communautaire](/fr/mapping/#outils-de-mapping-supplementaires)
 2. Trouvez les fichiers de votre map dans le dossier `CustomLevels` de votre jeu.
     * Exemple d'emplacement via Steam `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`.
@@ -123,11 +123,11 @@ Although it is recommended to start setup again following the [Quick Start](#map
         * Vous n'avez plus besoin du `.wav` dans ce dossier.
 5. Ouvrez la map dans l'éditeur communautaire et changez le nom du fichier en `song.ogg`et cliquez sur le bouton sauvegarder.
 
-You are now ready to continue editing your map!
+Vous êtes maintenant prêt à continuer à éditer vos maps !
 
 ### Outils de mapping additionnels
 * [BenMapperTools](https://mappers.beatmappertools.com/) de **Darkuni** Un outil pour les utilisateurs de Mediocre Mapper et Mediocre Map Assistant 2 pour facilement convertir, tester et "package" leurs maps.
-* [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) par **+1 Rabbit**  
+* [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) de **+1 Rabbit**  
   Une boite à outils pour mappeurs qui contient :
   * **Schema Fixer** : Répare facilement les maps créées dans Mediocre Mapper Mk4.1 et Mk5 pour les publier sur Beat Saver.
   * **Tempo Changer** : Change le tempo d'une map entière et déplace les blocs en conséquence.
@@ -142,10 +142,10 @@ You are now ready to continue editing your map!
 * [noodleLister](https://github.com/bloodcloak/noodleLister#readme) de **Bloodcloak** Compile une playlist une playlist du jeu à partir d'un fichier txt contenant des entrées de BeatSaver.
 * [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) de **DarkGrisen** Vous vous êtes déjà dit que c'était beaucoup de boulot de faire des grosses maps avec d'autres personnes ou de couper parfaitement les fichiers audio afin de pouvoir les fusionner manuellement ensuite ? Cet outils vous permet de fusionner deux maps ou plus en une seule super longue map.
 * [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t=) de **Fayhe** Un guide (en anglais) pour savoir utiliser la fonction "timing" de l'éditeur d'osu! pour trouver le BPM d'une map.
-* [Parity Checker](https://galaxymaster2.github.io/bs-parity/) par **GalaxyMaster**  
+* [Parity Checker](https://galaxymaster2.github.io/bs-parity/) de **GalaxyMaster**  
   Un outil d'analyse qui se concentre sur les erreurs de parité dans une map.
-* [Kival Evan's Beat Saber Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) by **Kival Evan**  
-  An error checker tool that is much more versatile than the one built into MMA2
+* [Kiral Evan's Beat Saber Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) de **Kival Evan**  
+  Un outil de vérification d'erreur beaucoup plus polyvalent que celui intégré à MMA2.
 
 #### Anciens outils
 * [BPM Saber](https://github.com/zevdg/bpm-saber#readme) par **Zevdg**  
@@ -154,18 +154,17 @@ You are now ready to continue editing your map!
   Un outil pour trouver le BPM d'une chanson via la mise en ligne ou le tapping.
 
 ### Mods utiles
-Here are some mods that might make your mapping workflow a little easier.
+Voici quelques mods qui pourraient rendre la tâche plus facile.
 
-* [SiraUtil](./basic-lighting.md#in-game-with-fpfc) by **auros**  
-  With the First Person Flying Controller (FPFC) launch parameter, this allows you to control the game while a map is playing with your keyboard and mouse without using a headset. Voir [les bases du Lighting](./basic-lighting.md#in-game-with-fpfc) pour les liens vers le mod et comment le configurer.
-* [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) par **Kyle1413**  
+* [SiraUtil](./basic-lighting.md#en-jeu-avec-fpfc) de **auros**  
+  Avec l'option de lancement FPFC (First Person Flying Controller, ou contrôleur volant en première personne), ceci vous permet de contrôler le jeu pendant une map au clavier et à la souris sans avoir de casque VR. Voir [les bases du Lighting](./basic-lighting.md#in-game-with-fpfc) pour les liens vers le mod et comment le configurer.
+* [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) de **Kyle1413**  
   Plugin pour Beat Saber pour contrôler la vitesse, naviguer dans la chanson et définir des sections de boucle. Installez la dernière version depuis [ModAssistant](https://github.com/Assistant/ModAssistant#readme) !
-* [ReLoader](https://github.com/Kylemc1413/ReLoader) par **Kyle1413**  
+* [ReLoader](https://github.com/Kylemc1413/ReLoader) de **Kyle1413**  
   Permet de recharger à chaud les maps en mode d'entraînement sans avoir à retourner au menu pour l'actualiser. Très pratique pour le mapping des murs.
 
 ## Pratiques sur le Mapping
-> "You have to know the rules before you can break them."  
-> ~ Uninstaller
+> "Vous devez connaître les règles avant de pouvoir les briser." ~ Uninstaller, traduit de l'anglais
 
 There is no holy bible of mapping but this section of the wiki includes a lot of tribal knowledge from the community on best practices at all levels of mapping. Our advice is to follow these rules until you're comfortable with your skills and then get creative, experiment, and innovate!
 

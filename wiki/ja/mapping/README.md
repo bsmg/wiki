@@ -4,7 +4,7 @@ tags:
   - bsmg
   - beat saber
   - wiki
-  - mapping
+  - 譜面作成
   - make levels
   - how are beat maps make?
   - custom levels
@@ -15,14 +15,14 @@ description: |
   Take matters into your own hands and learn to map here!
 ---
 
-# Mapping
+# マッピング
 
 Too many anime maps? Not enough anime maps?  
 Take matters into your own hands and learn to map here!
 
 or contribute to translation effort [here](https://github.com/bsmg/wiki). :::
 
-* [Mapping Term Glossary](./glossary.md)
+* [譜面作成の用語](./glossary.md)
 
 ## Mapping Quick Start
 > The wiki is your building blocks, the community is your inspiration, and you are the creativity.
@@ -37,7 +37,7 @@ Great mappers are not made in a day. It takes dedication with no one really able
 6. Get your map [playtested](#playtesting)! Third-party playtesting via the [BSMG Discord](https://discord.gg/beatsabermods) is highly recommended to get constructive feedback and to get past your own “map blindness."
 7. Once your song has been mapped, lighted, and playtested you’re ready to [release](#publishing-songs) your song to the world on BeatSaver.
 
-### Video Tutorials
+### ビデオチュートリアル
 Text guides aren't your thing? Checkout these video series!  
 **Remember:** The text guides on this wiki are more up to date as it is easier and quicker to change.
 
@@ -51,7 +51,7 @@ Text guides aren't your thing? Checkout these video series!
 
 Instead, you should follow the written guides here on the wiki, watch the vetted tutorials made by BSMG members linked above, or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods). :::
 
-#### Legacy Videos
+#### レガシービデオ
 ::: warning These series use older editors in their tutorials (Mediocre Mapper and EditSaber). The UI and some processes have changed in the latest recommended editor, [MMA2](./mediocre-map-assistant.md) but, the rest of the content is great! :::
 * [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/)
 * [Freeek's Mapping and Editor Tutorials](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
@@ -85,7 +85,7 @@ A 3D editor that has stellar support for lighting, Chroma RGB, and shares simila
 
 ::: tip Interested in making your own editor or converter? You may find the [Map Format Page](./map-format.md) and the [SongCore Readme](https://github.com/Kylemc1413/SongCore/blob/master/README.md) helpful! :::
 
-### Official Editor
+### 公式版エディター
 The official editor is developed and supported by Beat Games and pre-installed with the Steam VR or Oculus PC versions of Beat Saber. It makes playtesting convenient with one-click access to your work-in-progress in-game. The official editor is 2D and requires good visualization skills to translate well to a 3D play space, which can be challenging for new mappers. The vast majority of mappers use a [Community Editor](#community-editors).
 
 * To access, launch the editor from within Beat Saber in your HMD or use fpfc launch parameters to open directly from your PC
@@ -99,7 +99,7 @@ Keep in mind the following features that official does not have compared to the 
 - Edit in place (Change the direction of notes without needing to delete)
 - Chroma RGB Support
 - Actual audio offset for syncing. (The parameter in official offsets/delays not only the song but also hitsounds)
-- Error Checker
+- エラーチェッカー
 - Contributor Fields
 - Mapping or Noodle Extensions Support
 
@@ -121,9 +121,9 @@ Although it is recommended to start setup again following the [Quick Start](#map
         * You no longer need the `.wav` song file in this folder
 5. Open the map in the community editor and change the song file name to `song.ogg` and click the save button.
 
-You are now ready to continue editing your map!
+譜面の編集を続ける準備ができました！
 
-### Additional Mapping Tools
+### 追加のマッピングツール
 * [BeatMapperTools](https://mappers.beatmappertools.com/) by **Darkuni**  
   A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps
 * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**  
@@ -193,9 +193,9 @@ Maps that meet specific [Ranking Criteria](https://scoresaber.com/criteria) and 
 ## Lighting Practices
 A map is not finished until some form of lighting is included. Lighting can range from very basic to incredibly detailed using additional mods to enable more features.
 
-### [**Basic Lighting**](./basic-lighting.md)
+### [**基本的な照明効果**](./basic-lighting.md)
 Learn the various aspects to lighting your map manually
-### [**Intermediate Lighting**](./intermediate-lighting.md)
+### [**中級照明効果**](./intermediate-lighting.md)
 Take your lighting skills a bit further into strobing, ring spins, and contrast practices
 ### [**Advanced Lighting**](./advanced-lighting.md)
 Advanced and nuanced techniques, lighting for custom platforms, and Chroma RGB **(This page is still a work in progress!)**

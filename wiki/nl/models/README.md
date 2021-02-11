@@ -22,8 +22,8 @@ Je kunt ook een lijst vinden met niet goedgekeurde modellen_ (en met mogelijk me
 
 ## Het creëren van modellen
 Wil je leren hoe je je eigen modellen maakt? Bekijk een van onze handleidingen hieronder!
-* [De Custom Sabers gids](./sabers-guide.md)
-* [De Custom Avatars gids](./avatars-guide.md)
-* [De Custom Platforms gids](./platforms-guide.md)
-* [De Custom Notes gids](./notes-guide.md)
-* [De gids voor het maken van Quest modellen](https://github.com/RedBrumbler/Qosmetics/wiki)
+* [De Custom Sabers gids.](./sabers-guide.md)
+* [De Custom Avatars gids.](./avatars-guide.md)
+* [De Custom Platforms gids.](./platforms-guide.md)
+* [De Custom Blokken gids.](./notes-guide.md)
+* [De gids voor het maken van Quest modellen.](https://github.com/RedBrumbler/Qosmetics/wiki)

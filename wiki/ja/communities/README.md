@@ -2,18 +2,18 @@
 title: "false"
 ---
 
-# Beat Saber Communities
+# Beat Saber コミュニティ
 
 ::: danger Sorry, this page has not been translated yet, you can either:
 
 ---
 
-## [Community Hub](./community-hub.md)
+## [コミュニティハブ](./community-hub.md)
 
-The Community Hub is a list of public Beat Saber focused communities.
+コミュニティハブはBeat Saberに焦点を当てたコミュニティのリストです。
 
 ---
 
-## [Regional Hub](./regional-hub.md)
+## [各地域のハブ](./regional-hub.md)
 
-The Regional Hub is a list of public or private Beat Saber focused communities for a specific geographic region.
+地域ハブは、特定の地域のパブリックまたはプライベートのBeat Saberに焦点を当てたコミュニティのリストです。

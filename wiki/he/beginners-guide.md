@@ -1,2 +1,2 @@
-# Beginners Guide
-Beat Saber is available for both PC and Oculus Quest. Since the modding scene is different for both platforms, the beginners guide is split into [PC Modding](./pc-modding.md) and [Quest Modding](./quest-modding.md).
+# המדריך למתחילים
+ביט סייבר זמין גם למחשב וגם למערכת אוקיולוס קווסט. מאחר וסצנת המודים שונה בשתי הפלטפורמות, המדריך למתחילים מפוצל ל - [מודים למחשב](./pc-modding.md) ול - [מודים לקווסט](./quest-modding.md).

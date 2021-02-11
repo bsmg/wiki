@@ -46,7 +46,7 @@ Si les pré-requis détaillés dans la section 1.1 sont valides, essayez les sol
 - Faites un backup du dossier `UserData` (optional)
 - Supprimer le dossier `UserData`
 
-::: warning ATTENTION Cela va réinitialiser vos paramètres d'extensions ! :::
+::: warning ATTENTION Ceci va réinitialiser les paramètres de vos mods ! :::
 
 **Solution 4.**
 - Réalisez une [réinstallation complète](#installation-propre)
@@ -73,12 +73,12 @@ Si le jeu est gelé sur l'écran *Health and Safety*, ou vous voyez un avatar en
 
 ### Problèmes de FPS
 #### 2.3 Le jeu ralentit beaucoup après avoir installé les mods
-Si le jeu est si ralenti (*lag*) que vous pouvez à peine cliquer sur le bouton `Continue` sur l'écran *Health and Safety*, vérifiez vos fichiers si vous avez le jeu sur Steam, ou réinstallez le jeu sur Oculus. Faites de même s'il ne démarre pas du tout et vous affiche des messages d'erreur quand vous essayez de lancer le jeu.
+Si le jeu est si ralenti (*lag*) que vous pouvez à peine cliquer sur le bouton `Continue` sur l'écran *Health & Safety*, vérifiez vos fichiers si vous avez le jeu sur Steam, ou réinstallez le jeu sur Oculus. Faites de même s'il ne démarre pas du tout et vous affiche des messages d'erreur quand vous essayez de lancer le jeu.
 
 Si le problème n'a pas été résolu, essayez la section 2.4.
 
 #### 2.4 Améliorer la fréquence d'images (FPS)
-Si la section 2.3 n'a pas amélioré la fréquence d'images, alors votre PC peut simplement avoir du mal à tenir la charge des mods. Voici quelques propositions que vous pouvez tenter pour améliorer votre fréquence d'affichage, sans ordre particulier :
+Si la [section 2.3](#2-3-le-jeu-ralentit-beaucoup-apres-avoir-installe-les-mods) n'a pas amélioré les performances, alors votre PC peut tout simplement ne pas être assez performant pour tenir le coup avec les mods. Voici quelques propositions que vous pouvez tenter pour améliorer les performances, sans ordre particulier :
 
 * Vérifiez si NVIDIA GEFORCE EXPERIENCE a défini l'échelle de rendu pour Beat Saber au delà de la valeur par défaut de 1.0. Il est possible qu'il aie défini une valeur plus élevée telle que 1.4 ou 1.8, qui augment considérablement la charge GPU.
 * Utilisez un avatar personnalisé moins complexe.
@@ -87,69 +87,69 @@ Si la section 2.3 n'a pas amélioré la fréquence d'images, alors votre PC peut
 * Baissez l'échelle de rendu (Render Scale), l'anticrénelage (Anti-Aliasing), le miroir (Mirror), le brouillard (Smoke) dans les paramètres de base du jeu.
 * Pour les joueurs Oculus Rift CV1 : pensez à utiliser 2 capteurs au lieu de 3 ou plus.
 * Réduisez votre nombre de mods et de chansons.
-* Réalisez une [réinstallation propre](#installation-propre).
-* Une fréquence d'images basse peut aussi être causée par quelque chose qui ne va pas dans le dossier des données d'application, pour y remédier référez vous à [comment supprimer le dossier Beatsaber dans votre AppData](#supprimer-les-sauvegardes-dans-appdata).
+* Réalisez une [réinstallation propre](#installation-propre) du jeu.
+* De faibles performances peuvent aussi être causées par quelque chose qui ne va pas dans le dossier des données d'application, pour y remédier référez vous à [comment supprimer le dossier BeatSaber dans votre AppData](#supprimer-les-sauvegardes-dans-appdata).
 * Désactivez des compteurs CountersPlus tels que Score Counter et Swing Speed, car ils peuvent être gourmands en ressources.
 * Le mod HTTPStatus peut causer des pics de ralentissement (*lag spikes*). Testez le jeu sans ce mod pour voir si les pics de ralentissement disparaissent.
 
-La réalité virtuelle est très gourmande en processeur (CPU), surtout si vous ajoutez des mods. Si vous avez du mal à faire fonctionner le jeu avec les mods que vous voulez utiliser, pensez à améliorer votre matériel. Notez que Beat Saber n'utilise que peu de ressources graphiques (GPU) puisqu'il s'agit d'un jeu simple visuellement.
+La réalité virtuelle est très gourmande en processeur (CPU), surtout si vous ajoutez des mods. Si vous avez du mal à faire fonctionner le jeu avec les mods que vous voulez utiliser, pensez à améliorer votre matériel. Notez que Beat Saber n'utilise que peu de ressources graphiques (GPU) puisqu'il s'agit d'un jeu aux graphismes particulièrement simples.
 
 ## 3. Questions fréquentes
 #### 3.1 Menu vide, pas de bouton
-Si le menu principal de votre jeu est vide, votre fichier de sauvegarde est probablement corrompu. Pour pallier ce problème, référez-vous à [comment supprimer le dossier Beatsaber dans votre AppData](#supprimer-les-sauvegardes-dans-appdata).
+Si le menu principal de votre jeu est vide, votre fichier de sauvegarde est probablement corrompu. Pour résoudre ce problème, référez-vous à [comment supprimer le dossier Beatsaber dans votre AppData](#supprimer-les-sauvegardes-dans-appdata).
 
-:: warning Cela va supprimer tous vos scores locaux ainsi que vos statistiques de jeu. :::
+:::warning ATTENTION Cela va supprimer tous vos scores locaux ainsi que vos statistiques de jeu. :::
 
-#### 3.2 Comment utiliser `x` mod ?
+#### 3.2 Comment utiliser le mod `x` ?
 Si vous utilisez Mod Assistant, cliquez sur le mod puis sur le bouton "Mod Info". https://beatmods.com a également un bouton "More Info" pour chaque mod.
 
 #### 3.3 Problèmes de vibration
-Le mod Gameplay Modifiers Plus ajoute le moyen d'activer/désactiver les vibrations des manettes. If you disabled it then removed the mod, you'll need to modify the save data file that it writes to manually. Open `%appdata%/../locallow/hyperbolic magnetism/beat saber` and set `constrollersRumbleEnabled` to `true`.
+Le mod Gameplay Modifiers Plus ajoute le moyen d'activer/désactiver les vibrations des manettes. Si vous l'avez désactivé puis que vous avez supprimé le mod, vous devrez modifier le fichier de sauvegarde manuellement. Ouvrez `%appdata%\..\LocalLow\Hyperbolic Magnetism\Beat Saber\settings.cfg` et définissez la valeur `controllersRumbleEnabled` à `true`.
 
 Si ceci n'est pas la cause de vos problèmes de vibration et si ce qui suit est correct concernant les vibrations :
 * les tremblements sont faibles
 * il n'y a pas de vibration quand vous tapez un ensemble de blocs
 * il y a un léger délai quand vous faites rencontrer les sabres
-* you are using Oculus touch controllers
+* vous utilisez les contrôleurs Oculus Touch
 
 Dans ce cas, il y a des chances que Beat Saber surcharge le contrôleur USB de votre carte mère. Oculus dévore la bande passante de votre contrôleur USB et la plupart des cartes mères utilisent un contrôleur bon marché. Beat Saber le pousse plus loin que les autres jeux, ce qui explique pourquoi il y a pas de problème dans les menus ainsi que d'autres jeux. Il n'y a pas de solution miracle, donc essayez les propositions suivantes :
-* Changez les câbles USB du casque et des capteurs sur différents ports
+* Essayez de connecter le casque et les capteurs sur différents ports USB
 * Débranchez les appareils USB non essentiels
 * Achetez un hub USB PCI-E
-* Use `-vrmode oculus` if you're using SteamVR to bypass it and use the Oculus SDK instead
+* Utilisez `-vrmode oculus` si vous utilisez SteamVR pour éviter son utilisation et utiliser le SDK Oculus directement à la place
 
 ### Avatars personnalisés
 #### 3.4 Les avatars personnalisés ne s'affichent pas en jeu
 Appuyez sur la touche **Origine** de votre clavier avec la fenêtre du jeu active pour basculer la visibilité de l'avatar dans le casque.
 
 #### 3.5 Mes avatars sont cassés
-Assurez-vous que le mod Custom Avatars est correctement installé est à jour, idem pour ses dépendances. Vous avez peut-être un avatar corrompu/cassé, ce qui peut par extensions casser le reste de vos avatars (idem avec les chansons et les sabres).
+Assurez-vous que le mod Custom Avatars est correctement installé est à jour, idem pour ses dépendances. Vous avez peut-être un avatar corrompu/cassé, ce qui peut par extension casser le reste de vos avatars (idem avec les chansons et les sabres).
 
 ### Musiques personnalisées
 
 #### 3.6 Mes chansons ne s'affichent pas
-Assurez-vous que vos chansons sont dans votre dossier `CustomLevels`, positionné dans `Beat Saber/Beat Saber_Data/`. C'est à cet emplacement que le jeu ira trouver les chansons personnalisées.
+Assurez-vous que vos chansons sont dans votre dossier `CustomLevels`, situé dans `Beat Saber/Beat Saber_Data/`. C'est ici que le jeu lit nativement les chansons personnalisées.
 
-**Ne placez pas** les chansons dans l'ancien dossier `Beat Saber/CustomSongs`. Cet emplacement est déprécié car le format des les chansons personnalisées a changé. Si vous avez des maps dans l'ancien format (fichiers `.json` et `.ogg` au lieu de `.dat` et `.egg`), laissez-les dans l'ancien dossier `Beat Saber/CustomSongs`. Elles seront alors automatiquement converties par le mod SongCore au nouveau format.
+**Ne placez pas** les chansons dans l'ancien dossier `Beat Saber/CustomSongs`. Cet emplacement est déprécié car le format des les chansons personnalisées a changé. Si vous avez des chansons dans l'ancien format (fichiers `.json` et `.ogg` au lieu de `.dat` et `.egg`), laissez-les dans l'ancien dossier `Beat Saber/CustomSongs`. Elles seront alors automatiquement converties par le mod SongCore au nouveau format.
 
-Vous pouvez également les convertir en utilisant [Songe Converter](https://github.com/lolPants/songe-converter)
+Vous pouvez également les convertir en utilisant [Songe Converter](https://github.com/lolPants/songe-converter).
 
-#### 3.7 Grayed Out Play Button
-Click the shiny blue question mark (?) button in the top right corner. Cela devrait vous indiquer quels mods sont nécessaires pour jouer la chansons, que vous n'avez pas et que vous devrez installer. Si cela ne fonctionne toujours pas, essayez de réinstaller les mods nécessaires. Sinon, essayez une [réinstallation propre](#installation-propre).
+#### 3.7 Bouton Play/Jouer grisé
+Cliquez sur le point d'interrogation (?) bleu dans le coin en haut à droite. Cela devrait vous indiquer quels mods sont nécessaires pour jouer la chanson, que vous n'avez pas et que vous devrez installer. Si cela ne fonctionne toujours pas, essayez de réinstaller les mods nécessaires. Sinon, essayez une [réinstallation propre](#installation-propre).
 
 #### 3.8 Les détails de la map chargent indéfiniment
-Si cela ne se produit que sur certaines chansons en particulier, ses fichiers sont probablement cassés. Si en revanche cela se produit sur toutes vos chansons, supprimez votre dossier `Plugins` et réinstallez vos mods.
+Si cela ne se produit que sur certaines chansons en particulier, ses fichiers sont probablement corrompus. Si en revanche cela se produit sur toutes vos chansons, supprimez votre dossier `Plugins` et réinstallez vos mods.
 
 ### Camera Plus
 #### 3.9 Camera Plus ne fonctionne pas / après l'écran Santé
-Assure-vous que l'option "Smooth Camera" (Caméra lisse) du jeu de base est désactivée. Si cela ne fonctionne pas, essayez de réinstaller Camera Plus et ses dépendances.
+Assurez-vous que l'option "Smooth Camera" (Caméra lisse) du jeu de base est désactivée. Si cela ne fonctionne pas, essayez de réinstaller CameraPlus et ses dépendances.
 
 #### 3.10 Ma vue sur le PC ne prend qu'une petite portion de l'écran
 Votre affichage CameraPlus ne remplit pas tout votre écran. Tirez les coins de la fenêtre pour l'agrandir, ou cliquez droit sur la fenêtre et sélectionnez "Fit To Canvas" (Agrandir à l'écran).
 
 ### BeatSaver Downloader
 #### 3.11 Le bouton More Songs de BeatSaver Downloader
-**Le bouton More Songs est placé dans le menu principal à gauche sous le texte Mods.** Si ce bouton est grisé, vérifiez que toutes vos chansons sont chargées à l'aide de la barre de progression arc-en-ciel visible sur le menu principal. If your Mods menu isn't there then make sure your plugins and dependencies are working and installed properly, refer to the [No Mods?](#_1-no-mods) section.
+**Le bouton More Songs est placé dans le menu principal à gauche sous le texte Mods.** Si ce bouton est grisé, vérifiez que toutes vos chansons sont chargées à l'aide de la barre de progression arc-en-ciel visible sur le menu principal. Si votre bouton Mods n'est pas là, assurez-vous que vos extensions et dépendances fonctionnent et sont correctement installées, référez-vous à la section [Pas de mods ?](#1-pas-de-mods).
 
 #### 3.12 Rien n'apparaît dans le menu More Songs
 Les potentielles causes d'échec de BeatSaver Downloader sont :
@@ -177,10 +177,10 @@ Pour vérifier l'intégrité des fichiers du jeu, suivez ces étapes :
 2. Allez dans votre bibliothèque Steam et trouvez Beat Saber.
 3. Faites un clic droit sur Beat Saber et cliquez sur Propriétés...
 4. Allez dans l'onglet "Fichiers locaux" de la fenêtre des propriétés
-5. Select the "Verify Integrity Of Game Files" option.
+5. Sélectionnez l'option "Vérifier l'intégrité des fichiers du jeu..."
 6. Laissez le finir la vérification et télécharger les fichiers manquants et ça devrait être bon.
 
-Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it is on the old steam UI the steps are still the same.
+Voici [un court guide vidéo (texte en anglais)](https://www.youtube.com/watch?v=EBFfT4-ZiIc) - bien que ça soit l'ancienne interface de Steam, les étapes restent identiques.
 
 ### Installation propre
 1. (Facultatif) Faites un backup du contenu personnalisé téléchargé en créant une copie des dossiers suivants :
@@ -198,7 +198,7 @@ Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it
 4. **Avant de le modder, lancez le jeu une fois**
 5. Lancez Mod Assistant, installez vos mods et lancez le jeu.
 
-(Optional) If you want to take it one step further, refer To: [Deleting The Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
+(Facultatif) Si vous voulez aller plus loin dans la démarche, référez-vous à : [Supprimer le dossier BeatSaber dans AppData](#supprimer-les-sauvegardes-dans-appdata)
 
 ### Supprimer les sauvegardes dans AppData
 Cela va supprimer vos scores et données locales, mais pas vos statistiques de classement personnalisé de ScoreSaber. Vous pouvez trouver le dossier à l'emplacement suivant :

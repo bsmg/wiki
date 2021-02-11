@@ -2,56 +2,56 @@
 sidebar: auto
 ---
 
-# Support
-## Table of Contents
-0. [Important Notes](#0-important-notes)
-1. [Installer Issues](#1-installer-issues)
-2. [In-Game Issues](#2-game-issues-post-modding)
-3. [Common Questions](#3-common-questions)
-4. [Troubleshooting](#4-troubleshooting)
-5. [If All Else Fails](#5-if-all-else-fails)
-6. [Still Having Issues](#6-still-having-issues)
+# תמיכה
+## תוכן עניינים
+0. [הערות חשובות](#0-important-notes)
+1. [בעיות באשף ההתקנה](#1-installer-issues)
+2. [בעיות במשחק](#2-game-issues-post-modding)
+3. [שאלות נפוצות](#3-common-questions)
+4. [פתרון בעיות](#4-troubleshooting)
+5. [אם שום דבר לא עזר](#5-if-all-else-fails)
+6. [עדיין יש תקלות?](#6-still-having-issues)
 
-## 0. Updates
-After an update, the BSMG discord `#server-announcements` channel should have the most up to date instructions on the status of mods. The following are more detailed instructions of the most common procedure.
+## 0. עדכונים
+אחרי העדכון, בערוץ הדיסקורד של BSMG, #server-announcements, יהיו ההוראות העדכניות ביותר לגבי מצב המודים. להלן הוראות מפורטות יותר של התהליך הנפוץ ביותר.
 
-#### Update broke my mods
-**Run the game once** on the new update. Then, reinstall your mods using an installer linked in the [beginner's guide](/beginners-guide), such as Mod Assistant.
+#### העדכון שבר את המודים שלי
+**הפעל את המשחק פעם אחת ** על העדכון החדש. לאחר מכן, התקן מחדש את המודים שלך עם האשף שנמצא בלינק בתוך [המדריך למתחילים](/beginners-guide), כמו למשל העוזר למודים.
 
-## 1. No mods?
+## 1. אין מודים?
 
-#### 1.1 No mods appear on a fresh copy of the game
-First, make sure that the following are correct:
-* **You ran the game once before installing mods**. BSIPA removes all mods on the first run of a fresh update to prevent broken old mods from loading on a new version. Reinstall mods again if this is the case.
-* Steam/Oculus is launching Beat Saber from the **same installation** that mods are in. *e.g. mods are on the D drive but steam is launching from the C drive.* Set the correct install location in your choice of installer.
-* If you installed mods manually, make sure you included all the files from the download and put them in the correct folders, as well as their dependencies.
+#### 1.1 לא מופיעים מודים על עותק טרי של המשחק
+ראשית, וודא שהדברים הבאים נכונים:
+* **הרצת את המשחק פעם אחת לפני שהתקנת מודים**. BSIPA מסיר את כל המודים בהרצה הראשונה של עדכון טרי כדי למנוע ממודים ישנים ושבורים להיטען על גרסה חדשה. אם זה המצב, התקן מחדש את המודים.
+* סטים ואוקיולוס מריצים את המשחק "ביט סייבר" </strong> **מאותה התקנה שבה נמצאים המודים. *למשל, מודים נמצאים על כונן D אבל סטים רץ מכונן C *. הגדר את מיקום ההתקנה הנכון באשף ההתקנה לבחירתך.</li>
+* אם התקנת את המודים ידנית, תוודא שכללת את כל הקבצים מההורדה וששמת אותם בתיקיות הנכונות, כמו כן גם את התלויות שלהן.</ul>
 
-#### 1.2 I had mods installed on an older version, but nothing loads after an update
+#### 1.2 התקנתי מודים על גרסה ישנה יותר, אבל שום דבר לא נטען אחרי עדכון
 
-If the details in section 1.1 above are correct, try the solutions below, in descending order.
+אם הפרטים בסעיף 1.1 נכונים, נסה את הפתרונות המפורטים מטה, בסדר יורד.
 
-**Solution 1**
-- Update BSIPA to the latest version (in ModAssistant or manually)
-- Go into your Beat Saber folder
-- Run `IPA.exe`
+**פתרון 1.**
+- תעדכן את BSIPA לגרסה האחרונה שלו (ידנית או דרך ModAssistant)
+- לך לתיקיית Beat Saber שלך
+- תריץ את `IPA.exe`
 
-**Solution 2.**
--  [Verify your game files](#verify-game-files-for-steam) (Steam only, Oculus users refer to Solution 4)
-- Update BSIPA to the latest version
-- Go into your Beat Saber folder
-- Run `IPA.exe`
+**פתרון 2.**
+-  [תוודא בעזרת כפתור verify files integrity את שלמות הקבצים ](#verify-game-files-for-steam) (תקף לתוכנת סטים בלבד, לאוקיולוס פנה לפתרון 4)
+- עדכן את BSIPA לגרסה האחרונה
+- לך לתיקיית Beat Saber שלך
+- תריץ את `IPA.exe`
 
-**Solution 3.**
-- Go into your Beat Saber folder
-- Make a backup of the `UserData` folder (optional)
-- Delete UserData
+**פתרון 3.**
+- לך לתיקיית Beat Saber שלך
+- תגבה את תיקיית `UserData` (לא חובה)
+- תמחק את UserData
 
-::: warning This will reset all plugin settings! :::
+::: warning זה יאתחל את כל הגדרות התוספים! :::
 
-**Solution 4.**
-- Perform a [Clean Installation](#clean-installation)
+**פתרון 4.**
+- תבצע [התקנה נקייה](#clean-installation)
 
-#### 1.2 Mod Assistant doesn't seem to be installing any plugins
+#### 1.2 Mod Assistant לא מתקין לי תוספים
 The installers download mods to `Beat Saber/IPA/Pending`, BSIPA moves these files to root folder when you launch the game. If your game Plugins folder still is empty afterwards, run `IPA.exe` again and make sure that nothing is preventing it from running, e.g. `Anti-viruses, Admin permissions, etc.`
 
 ## 2. Game Issues Post-Modding
@@ -157,7 +157,7 @@ The probable causes for beatsaver downloader not working are:
 2. Your anti-virus or firewall blocking access to BeatSaver.
 3. You have hit Beatsaver's rate limit and will have to wait before trying again.
 
-## 4. Miscellaneous Troubleshooting
+## 4. פתרון תקלות משניות
 ### Understanding Logs
 If you're on Steam you can go to
 > Beat Saber > Properties > Set Launch Options > Add `--verbose` to the text field that appears
@@ -171,7 +171,7 @@ These messages are also written to `Beat Saber/Logs`.
 
 A list of common exceptions can be found [here](./exceptions.md).
 
-### Verify Game Files For Steam
+### וידוא תקינות קבצים בסטים
 To verify integrity of game files follow these steps:
 1. Make sure steamvr is closed as it wont let you verify your games otherwise.
 2. Go to your steam library and find Beat Saber
@@ -182,7 +182,7 @@ To verify integrity of game files follow these steps:
 
 Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it is on the old steam UI the steps are still the same.
 
-### Clean Installation
+### התקנה נקייה
 1. (Optional) Back up your downloaded custom content by making a copy of the following folders:
 * `Beat Saber\Beat Saber_Data\CustomLevels`
 * `Beat Saber\CustomSabers`
@@ -222,7 +222,7 @@ You can also get to this folder by showing hidden items and navigating to your
 * Check that the problem doesn't lie within your headset, or operating system, or your hardware/software
 * Check your internet connection, and that nothing is blocking anything related to beatsaber modding and steam etc.
 
-## 5. Still having issues
+## 5. עדיין יש תקלות?
 If this page doesn't cover the bases, then feel free to ask a question in the discord! To increase the chance that you'll have your questions answered, consider the following:
 * Use the correct channels please, `#pc-help` for pc mod support and `#quest-help` for quest mod support. Use  `#pc-3d-modeling` and `#quest-3d-modeling` for questions about **making your own avatars, platforms, notes, or sabers**, and `#mapping-discussion` for questions about **making maps.**
 * Be polite and respectful

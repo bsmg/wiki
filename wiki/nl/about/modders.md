@@ -6,56 +6,56 @@ De gek achter Noodle Extensions en de huidige onderhouder van Chroma en Technico
 
 **Rollen:** Modder **Bijdragen:** Noodle Extension, Chroma, Technicolor.
 
-[GitHub](https://github.com/Aeroluna) | [Donate](https://ko-fi.com/aeroluna)
+[GitHub](https://github.com/Aeroluna) | [Doneer](https://ko-fi.com/aeroluna)
 
 ## andruzzzhka
 Een enorme bijdrager aan de in-game downloader mod en ontwikkelaar van de onofficiële multiplayer plugin.
 
 **Rollen:** Modder **Bijdragen:** BeatSaver Downloader, Unoffical Multiplayer, Custom Menu Music (original).
 
-[GitHub](https://github.com/andruzzzhka) | [Donate](http://ko-fi.com/andruzzzhka)
+[GitHub](https://github.com/andruzzzhka) | [Doneer](http://ko-fi.com/andruzzzhka)
 
 ## angturil
 Maker van Song Request Manager, wat twitch-requests mogelijk maakt. Bekijk de [stream van zijn vrouw](https://www.twitch.tv/sehria_k).
 
 **Rollen:** Modder **Bijdragen:** Enhanced Stream Chat, StreamCore, SongRequestManager.
 
-[GitHub](https://github.com/angturil) | [Donate](https://paypal.me/sehria)
+[GitHub](https://github.com/angturil) | [Doneer](https://paypal.me/sehria)
 
 ## Arti
 Heeft iemand tekst custimization mods gezegd?
 
 **Rollen:** Modder **Bijdragen:** HitScoreVisualiser, CustomMenuText, CustomFailText.
 
-[GitHub](https://github.com/artemiswkearney) | [GitLab](https://gitlab.com/artemiswkearney) | [Donate](https://ko-fi.com/artibs)
+[GitHub](https://github.com/artemiswkearney) | [GitLab](https://gitlab.com/artemiswkearney) | [Doneer](https://ko-fi.com/artibs)
 
 ## Auros
 *Tracking fout gedetecteerd.*
 
 **Rollen:** Modder **Bijdragen:** Enhancements, AlphaTwitch, PlaylistCore.
 
-[GitHub](https://github.com/AurosX) | [Twitch](https://www.twitch.tv/AurosXT) | [Donate](https://www.ko-fi.com/aurosnex)
+[GitHub](https://github.com/AurosX) | [Twitch](https://www.twitch.tv/AurosXT) | [Doneer](https://www.ko-fi.com/aurosnex)
 
 ## bigfoot
 Heeft grote voeten, misschien??
 
 **Rollen:** Modder **Bijdragen:** Full Combo Display, Immersive Mode, StreamInfo.
 
-[GitHub](https://github.com/bigfoott) | [Twitch](https://www.twitch.tv/bigfooott) | [Donate](https://streamlabs.com/bigfooott)
+[GitHub](https://github.com/bigfoott) | [Twitch](https://www.twitch.tv/bigfooott) | [Doneer](https://streamlabs.com/bigfooott)
 
 ## brian
 De maker van CustomUI wat het maken van nieuwe UI componenten een makkie maakt voor modders. Hij maakte ook enkele van de meest nuttige streamingtools die vandaag worden gebruikt, ook heeft hij CameraPlus overgenomen in xyonico's afwezigheid en de veelgebruikte Enhanced Stream Chat mod gemaakt. Deze man wil meer hip hop liedjes, kom op mensen!
 
 **Bijdragen:** CustomUI, CameraPlus, Enhanced Stream Chat, StreamCore, SongRequestManager, Hidden Blocks, SyncSaber.
 
-[GitHub](https://github.com/brian91292) | [Donate](https://ko-fi.com/brian91292)
+[GitHub](https://github.com/brian91292) | [Doneer](https://ko-fi.com/brian91292)
 
 ## DaNike
 Maker van de op maat gemaakte versie van IPA (illusion plugin architecture) BSIPA, een mod injector wat Beat Saber toe te staat mods te gebruiken. Een ongelooflijk programma dat het modden van Beat Saber zo makkelijk maakt als het is.
 
 **Rollen:** Modder **Bijdragen:** BSIPA.
 
-[GitHub](https://github.com/nike4613) | [Donate](https://ko-fi.com/danike)
+[GitHub](https://github.com/nike4613) | [Doneer](https://ko-fi.com/danike)
 
 ## emulamer
 Een enorme bijdrager aan de ontwikkeling van quest mods.
@@ -67,14 +67,14 @@ Een van de velen met een zeer twijfelachtig slaapschema. Maker van MorePrecisePl
 
 **Rollen:** Modder **Bijdragen:** MorePrecisePlayerHeight, HitScoreVisualizer, ChatCore, EnhancedStreamChat, ...
 
-[GitHub](https://github.com/erisapps) | [Donate](https://ko-fi.com/erisapps)
+[GitHub](https://github.com/erisapps) | [Doneer](https://ko-fi.com/erisapps)
 
 ## Goobie
 Onderhouder van de mods die je helpen om op de juiste manier met je vrienden te spelen. Spendeert te veel tijd aan coderen en beschouwd zichzelf als "best girl".
 
 **Rollen:** Modder **Bijdragen:** MultiplayerExtensions, MultiQuestensions.
 
-[GitHub](https://github.com/goobwabber) | [Donate](https://ko-fi.com/goobwabber)
+[GitHub](https://github.com/goobwabber) | [Doneer](https://ko-fi.com/goobwabber)
 
 ## halsafar
 Helpt je om je 5000 custom levels op een redelijke manier te sorteren.
@@ -102,7 +102,7 @@ Onze eigen Kirby en modder. Een van de meest actieve modders en een enorme rol i
 
 **Rollen:** Modder, Support **Bijdragen:** Veel. Hij maakt en onderhoudt een ongewoon aantal aan mods, zowel voor de PC als voor de Quest.
 
-[GitHub](https://github.com/kylemc1413) | [Twitch](https://www.twitch.tv/kyle1413k) | [Donate](https://ko-fi.com/kyle1413k)
+[GitHub](https://github.com/kylemc1413) | [Twitch](https://www.twitch.tv/kyle1413k) | [Doneer](https://ko-fi.com/kyle1413k)
 
 ## Lauriethefish (TheProff)
 Maker van de discord presence integration mod voor quest, evenals de CustomFailText port en AutoDebris.
@@ -121,7 +121,7 @@ monkey
 
 **Rollen:** Modder **Bijdragen:** Perfection Display, Custom Campaign, CustomUI.
 
-[GitHub](https://github.com/monkeymanboy) | [Twitch](https://www.twitch.tv/monkeymanboy) | [Donate](https://ko-fi.com/monkeymanboy)
+[GitHub](https://github.com/monkeymanboy) | [Twitch](https://www.twitch.tv/monkeymanboy) | [Doneer](https://ko-fi.com/monkeymanboy)
 
 ## Moon
 Werkt veel met community plugins, zoals de BS Community Discord event plugins en de Christman contest voting mod!
@@ -197,21 +197,21 @@ Zorg ervoor dat we allemaal mooi gehydrateerd zijn na het hakken van de blokken.
 
 **Rollen:** Modder **Bijdragen:** Custom Exit, Drink Water Mod.
 
-[GitHub](https://github.com/Shoko84) | [Twitch](https://www.twitch.tv/shoko84) | [Donate](https://streamlabs.com/shoko84)
+[GitHub](https://github.com/Shoko84) | [Twitch](https://www.twitch.tv/shoko84) | [Doneer](https://streamlabs.com/shoko84)
 
 ## SkyKiwi
 De gek die aan Chroma en Chromatoggle begon. Hij voegde dingen toe aan het spel die suggereerden dat zijn hoofd niet helemaal klopte, ook heeft hij RGB-verlichting gecreëerd voor level makers om te gebruiken.
 
 **Rollen:** Modder **Bijdragen:** Chroma, Chromatoggle.
 
-[GitHub](https://github.com/BinaryElement) | [Twitch](https://www.twitch.tv/skykiwitv) | [Donate](https://streamelements.com/skykiwitv/tip)
+[GitHub](https://github.com/BinaryElement) | [Twitch](https://www.twitch.tv/skykiwitv) | [Doneer](https://streamelements.com/skykiwitv/tip)
 
 ## Soliel
 Moeder van de originele `!bsr` mod.
 
 **Rollen:** Modder **Bijdragen:** Original Twitch-integration.
 
-[GitHub](https://github.com/soliel) | [Donate](https://streamlabs.com/soliela)
+[GitHub](https://github.com/soliel) | [Doneer](https://streamlabs.com/soliela)
 
 ## StarGazer1258
 Maker van BeatDrop, de favoriete desktop-applicatie van iedereen voor custom level onderhoud!
@@ -237,7 +237,7 @@ Oorspronkelijke maker van SongLoader en CameraPlus en een belangrijke bijdrager 
 
 **Rollen:** Modder **Bijdragen:** SongLoader, CameraPlus.
 
-[GitHub](https://github.com/xyonico/) | [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
+[GitHub](https://github.com/xyonico/) | [Doneer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
 
 ---
 

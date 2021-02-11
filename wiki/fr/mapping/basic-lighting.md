@@ -140,7 +140,7 @@ See lines 29-60 and 69-100 of this [Pastebin clip](https://pastebin.com/x9zEiHxR
 ## Previewing Your Lights
 These tools will help PC Beat Saber users preview their lighting more accurately. Most editors do not show true-to-life lighting effects.
 
-### In-game with FPFC
+### En jeu avec FPFC
 First Person Flying Controller (FPFC) is a launch parameter that can be used by either Steam or Oculus users. FPFC will open an instance of Beat Saber on your desktop and allow you to control it with your keyboard and mouse. You will need the SiraUtil mod in order to interact while a map is playing.
 
 It allows you to use WASD to "fly" around in your map, open the pause menu by hitting the <kbd>F2</kbd> key, or exit your level by hitting the <kbd>ESC</kbd> key (otherwise you must play your song to completion).

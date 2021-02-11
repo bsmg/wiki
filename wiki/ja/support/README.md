@@ -2,105 +2,105 @@
 sidebar: "false"
 ---
 
-# Support
-## Table of Contents
-0. [Important Notes](#0-important-notes)
-1. [Installer Issues](#1-installer-issues)
-2. [In-Game Issues](#2-game-issues-post-modding)
-3. [Common Questions](#3-common-questions)
-4. [Troubleshooting](#4-troubleshooting)
-5. [If All Else Fails](#5-if-all-else-fails)
-6. [Still Having Issues](#6-still-having-issues)
+# サポート
+## 目次
+0. [重要な注意事項](#0-important-notes)
+1. [インストーラの問題](#1-installer-issues)
+2. [ゲーム内の問題](#2-game-issues-post-modding)
+3. [よくある質問](#3-common-questions)
+4. [トラブルシューティング](#4-troubleshooting)
+5. [そのほかの問題](#5-if-all-else-fails)
+6. [まだ問題が解決しませんか？](#6-still-having-issues)
 
-## 0. Updates
-After an update, the BSMG discord `#server-announcements` channel should have the most up to date instructions on the status of mods. The following are more detailed instructions of the most common procedure.
+## 0. 更新情報
+アップデート後、BSMGのディスコードチャンネル `#server-announcements` は、Modのステータスに関する最新の情報があります。 以下に、最も一般的な手順の詳細な手順を示します。
 
-#### Update broke my mods
-**Run the game once** on the new update. Then, reinstall your mods using an installer linked in the [beginner's guide](/beginners-guide), such as Mod Assistant.
+#### アップデートがModを停止させました。
+**新しいアップデートで** 一度ゲームを実行します。 次に、Mod アシスタントなど、 [初心者ガイド](/beginners-guide)にリンクされているインストーラを使用して Mod を再インストールします。
 
-## 1. No mods?
+## 1. Modがありませんか？
 
-#### 1.1 No mods appear on a fresh copy of the game
-First, make sure that the following are correct:
-* **You ran the game once before installing mods**. BSIPA removes all mods on the first run of a fresh update to prevent broken old mods from loading on a new version. Reinstall mods again if this is the case.
-* Steam/Oculus is launching Beat Saber from the **same installation** that mods are in. *e.g. mods are on the D drive but steam is launching from the C drive.* Set the correct install location in your choice of installer.
-* If you installed mods manually, make sure you included all the files from the download and put them in the correct folders, as well as their dependencies.
+#### 1.1 Mod が表示されません
+まず、以下を確認してください:
+* **Modをインストールする前に一度ゲームを実行します**. BSIPAは、古いModが新しいバージョンにロードされないように、新たなアップデート後の最初の実行時にすべてのModを削除します。 この場合は Mod を再インストールしてください。
+* Steam/OculusはModと **同じドライブ** からBeat Saberを起動します。 *例）DドライブにModがあるが、steamはCドライブからゲームを起動する場合* 正しくドライブの場所を設定してください。
+* Modを手動でインストールした場合は、ダウンロードしたすべてのファイルが含まれていることを確認し、正しいフォルダに入れてください。 依存関係も同様です
 
-#### 1.2 I had mods installed on an older version, but nothing loads after an update
+#### 1.2 古いバージョンで Mod をインストールしましたが、アップデート後は何もインストールしていません
 
-If the details in section 1.1 above are correct, try the solutions below, in descending order.
+上記のセクション1.1を確認した場合は、以下の解決策を番号順に試してみてください。
 
-**Solution 1**
-- Update BSIPA to the latest version (in ModAssistant or manually)
-- Go into your Beat Saber folder
-- Run `IPA.exe`
+**解決策1**
+- BSIPAを最新のバージョンに更新する(ModAssistantまたは手動で)
+- Beat Saberフォルダに移動
+- `IPA.exe` を実行する
 
-**Solution 2.**
--  [Verify your game files](#verify-game-files-for-steam) (Steam only, Oculus users refer to Solution 4)
-- Update BSIPA to the latest version
-- Go into your Beat Saber folder
-- Run `IPA.exe`
+**解決策2**
+-  [ゲームファイルを確認する](#verify-game-files-for-steam) (Oculus ユーザーは 解決策4 を参照)
+- BSIPAを最新のバージョンに更新する
+- Beat Saberフォルダに移動
+- `IPA.exe` を実行する
 
-**Solution 3.**
-- Go into your Beat Saber folder
-- Make a backup of the `UserData` folder (optional)
-- Delete UserData
+**解決策3**
+- Beat Saberフォルダに移動
+- `UserData` フォルダのバックアップを作成します(任意)
+- `UserData`を削除する
 
 or contribute to translation effort [here](https://github.com/bsmg/wiki). :::
 
-**Solution 4.**
-- Perform a [Clean Installation](#clean-installation)
+**解決策4**
+- [クリーンインストール](#clean-installation)を実行する
 
-#### 1.2 Mod Assistant doesn't seem to be installing any plugins
-The installers download mods to `Beat Saber/IPA/Pending`, BSIPA moves these files to root folder when you launch the game. If your game Plugins folder still is empty afterwards, run `IPA.exe` again and make sure that nothing is preventing it from running, e.g. `Anti-viruses, Admin permissions, etc.`
+#### 1.2 Mod Assistantがプラグインをインストールしていません
+インストーラーはModを `Beat Saber/IPA/Pending`にダウンロードし、ゲームを起動するとBSIPAはこれらのファイルをルートフォルダに移動します。 ゲームプラグインフォルダがまだ空の場合は、 `IPA.exe` を再度実行し、実行を妨げるものがないことを確認してください。例： アンチウイルス、管理者権限など。
 
-## 2. Game Issues Post-Modding
-### Game Won't Start
+## 2. Modによるゲーム自体の問題
+### ゲームが起動しません
 
-#### 2.1 GetThreadContext Failed Error
-If a window pops up saying `GetThreadContext Failed` and/or you hear a Windows error sound, you may have software on your PC that breaks Beat Saber mods. Many third-party anti-cheat software like ESEA and FaceIt disrupt BSIPA from applying mods to Beat Saber, even when not running. Some Anti-Virus software also exhibit similar behavior.
+#### 2.1 GetThreadContext のエラー
+`GetThreadContext` のウィンドウが表示された場合、または Windows のエラー音が聞こえた場合。 Beat SaberのModを阻害するソフトウェアがあるかもしれません。 ESEAやFaceltのような多くのサードパーティのアンチチートソフトウェアは、実行していない場合でも、BSIPがBeat SaberにModを適用することを妨げます。 アンチウイルスソフトウェアも同様にBSIPの動作を妨げる場合があります。
 
-To solve this problem:
-1. Uninstall the anti-cheat software.
-2. Reboot your PC.
-3. Check if any remnants of the software still exist in your `AppData` folders.
-4. Run the game. If problems persist then try the following: `Additional Note:The problem can continue to persist due to lacking permissions or exceptions, any program that can block bsipa, or programs marked suspicious can make this problem persist` Steam: [Verify Steam Game Files](#verify-game-files-for-steam) Oculus: Perform a [Clean Installation](#clean-installation)
+この問題を解決するには
+1. アンチチートソフトウェアをアンインストールします。
+2. PCを再起動します。
+3. `AppData` フォルダにソフトウェアが存在しないかを確認します。
+4. ゲームを起動します。 それでも問題が残る場合は以下のように対処してください: `追記:Bsipaをブロックするプログラムや疑問視するプログラムがある場合、不許可や不承認の問題が残る場合があります。` Steam: [Verify Steam Game Files](#verify-game-files-for-steam) Oculus: [クリーンインストール](#clean-installation)を実行する
 
-This should fix the problem.
+これで問題が解決するはずです。
 
-#### 2.2 Frozen on Startup
-If the game is frozen at the Health and Safety screen, or you see an avatar T-posing with no control of the game, [verify your files](#verify-game-files-for-steam) if you have the game on Steam, or reinstall the game on Oculus Home. Refer to [Clean Installation](#clean-installation) This seems to happen when updating Beat Saber and having mods installed previously, but not to users with clean installs of the game.
+#### 2.2 起動時にフリーズしました
+ゲームがHealth and Safetyの画面でフリーズしたり、コントロールできないTポーズのアバターが表示された場合、 Steamプレイヤーは[ファイルを有効にする](#verify-game-files-for-steam) でファイルを確認してください。もしくはOculus Homeでゲームを再インストールしてください。 [Clean Installation](#clean-installation)を参照してください これはModをインストールした後にBeat Saberを更新した場合に発生するようです。クリーンインストールを使ったユーザーは例外です
 
-### Framerate Issues
-#### 2.3 The game stutters unbearably after installing mods
-If the game lags so badly that you can barely click the `Continue` button on the Health & Safety screen, then verify files if you have the game on Steam, or reinstall the game on Oculus Home. Do the same if it won't start up at all and shows no error messages when trying to launch the game.
+### フレームレートの問題
+#### 2.3 Modをインストールした後、ゲームの音ズレに我慢できない。
+ゲームのラグがひどすぎて、Health & Safetyの画面で `Continue` ボタンをクリックすることができなくなった場合、 Steamでゲームをプレイしている場合はファイルを確認するか、Oculus Homeでゲームを再インストールしてください。 ゲームを起動しようとしたときにエラーメッセージが表示されない場合やゲームが起動されないときは同様に対応します。
 
-If that didn't solve the issue, then check section [2.4 Improving framerate](#framerate-issues)
+問題が解決しなかった場合は、セクション [2.4 フレームレートの改善](#framerate-issues) を確認してください。
 
-#### 2.4 Improving Framerate
-If [2.3](#2-3-the-game-stutters-unbearably-after-installing-mods) didn't improve your fps, then your PC might simply be struggling to keep up with the stress caused by mods. Here are some things you can do to improve framerate, in no particular order:
+#### 2.4 フレームレートの改善
+[2.3](#2-3-the-game-stutters-unbearably-after-installing-mods) でFPSが改善しなかった場合、お使いのPCがModによるストレスによって単純に重くなっている可能性があります。 フレームレートを向上させるために、いくつかの方法があります。
 
-* Check to see if NVIDIA GEFORCE EXPERIENCE set the rendering scale for Beat Saber past the default of 1.0. It may have set it to a higher number to 1.4 or 1.8 which significantly increases the GPU load.
-* Use a less complex custom avatar.
-* The custom saber **Plasma Katanas** have tons of custom events and are known to introduce lag if you miss.
-* CameraPlus can be very taxing, especially if you have multiple cameras and increase the FOV.
-* Turn down Render Scale, Anti-Aliasing, mirror, fog, etc in the base game settings.
-* For Oculus CV1 or Rift players: consider using 2 sensors instead of 3+.
-* Reduce your total mod and song count.
-* Perform a [Clean Installation](#clean-installation) of the game files.
-* Low framerate can also be caused by something going wrong within your application data folder, to fix this refer to [Deleting The Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
-* Disable CountersPlus counters like score counter and swing speed as they can be expensive.
-* HTTPStatus mod can cause lag spikes. Test without this mod to see if the lag spikes go away.
+* NVIDIA GEFORCE EXPERIENCE で Beat Saber のレンダリングスケールがデフォルト設定の1.0を超えていないかを確認します。 GPUの負荷が大幅に増加する1.4または1.8に設定されている可能性があります。
+* あまり複雑でないカスタムアバターを使用します。
+* カスタムセイバー **Plasma Katanas** には多くのカスタムイベントがあり、あなたがミスをしたときににラグが発生することが知られています。
+* CameraPlusはとても重たくなりやすいです。特に複数のカメラを表示したり、FOVを大きくすると非常に重たくなりやすいです。
+* ゲーム内の設定でレンダリングスケールやアンチエイリアシングをさげ、ミラー、霧の効果などをオフにします。
+* Oculus CV1やRiftプレーヤー: 3+の代わりに2つのセンサーを使用することを検討してください。
+* Modと曲を減らします。
+* [クリーンインストール](#clean-installation)を実行する.
+* 低フレームレートは、アプリケーションデータフォルダ内で問題が発生する場合もあります。 これを修正するには、 [AppData内のBeatsaberフォルダの削除](#deleting-your-save-in-appdata)を参照してください。
+* 重たい原因になりやすいので、score counterやswing speedのようなCountersPlusカウンターを無効にします。
+* HTTPStatus mod はラグを引き起こす可能性があります。 このMODを無効にしてラグが消えるかどうかをテストします。
 
-VR is very CPU intensive, especially if you add mods. If you're struggling to run the game with the mods you want, consider upgrading your hardware. Note that Beat Saber doesn't utilize the GPU very much as visually it's a fairly simple game.
+VRはModを追加する場合は特に、非常にCPU負荷がかかります。 あなたが望み通りのMODでゲームを実行するのに苦労している場合は、ハードウェアのアップグレードを検討してください。 Beat Saberは、視覚的にはかなりシンプルなゲームであるため、GPUをあまり利用していません。
 
-## 3. Common Questions
-#### 3.1 Blank Menu, No Buttons
+## 3. よくある質問
+#### 3.1 メニューやボタンが表示されない
 If your main window in game is blank, your save file likely got corrupted. To fix this refer to [Delete Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
 
 ::: warning This will delete your local scores and statistics. :::
 
-#### 3.2 How do I use `x` mod?
+#### 3.2 `xxxx` modはどのように使えばいいですか?
 If you're using Mod Assistant, click the mod and hit the "Mod Info" button. http://beatmods.com has a "More Info" button on each mod as well.
 
 #### 3.3 Rumble Issues
@@ -151,7 +151,7 @@ Your CameraPlus display isn't filling up your canvas. Either drag the corner to 
 #### 3.11 BeatSaver Downloader More Songs Button
 **The More Songs button is located in the main menu to the left under the Mods text.** If the button for More Songs is greyed out then make sure all your songs loaded first, as seen in by the rainbow progress bar on the main menu. If your Mods menu isn't there then make sure your plugins and dependencies are working and installed properly, refer to the [No Mods?](#_1-no-mods) section.
 
-#### 3.12 Nothing Showing Up In The More Songs Menu
+#### 3.12 More Songsメニューに表示されません
 The probable causes for beatsaver downloader not working are:
 1. Make sure all of your songs have loaded in before, or else the More Songs button will be greyed out.
 2. Your anti-virus or firewall blocking access to BeatSaver.
@@ -182,7 +182,7 @@ To verify integrity of game files follow these steps:
 
 Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it is on the old steam UI the steps are still the same.
 
-### Clean Installation
+### クリーンインストール
 1. (Optional) Back up your downloaded custom content by making a copy of the following folders:
 * `Beat Saber\Beat Saber_Data\CustomLevels`
 * `Beat Saber\CustomSabers`
@@ -222,7 +222,7 @@ You can also get to this folder by showing hidden items and navigating to your
 * Check that the problem doesn't lie within your headset, or operating system, or your hardware/software
 * Check your internet connection, and that nothing is blocking anything related to beatsaber modding and steam etc.
 
-## 5. Still having issues
+## 5. まだ問題が解決しませんか？
 If this page doesn't cover the bases, then feel free to ask a question in the discord! To increase the chance that you'll have your questions answered, consider the following:
 * Use the correct channels please, `#pc-help` for pc mod support and `#quest-help` for quest mod support. Use  `#pc-3d-modeling` and `#quest-3d-modeling` for questions about **making your own avatars, platforms, notes, or sabers**, and `#mapping-discussion` for questions about **making maps.**
 * Be polite and respectful

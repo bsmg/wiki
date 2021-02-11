@@ -1,20 +1,20 @@
 # Moderators
-With a server so large, a lot of moderation is required to keep everything under control. You can thank this team for keeping the streets clean.
+Met een server die zo groot is, is veel moderatie nodig om alles onder controle te houden. Je kan dit team bedanken voor het feit dat alles schoon blijft.
 
 ## BeigeAnimal
-We had to whip this boy into a bit of shape but he's now one of the most effective moderators. He's not really specialized in any field but he's willing to lend a helping **provided they ask in the right channel.** Also hates sketchfab links.
+We moesten deze jongen een beetje in vorm slaan, maar hij is nu een van de meest effectieve moderators. Hij is niet echt gespecialiseerd in een veld, maar hij is wel bereid om hulp te lenen **mits ze dat in het juiste kanaal vragen.** haat links van sketchfab.
 
 **Rollen:** Moderator, 3D Artist.
 
 [Twitch](https://www.twitch.tv/beigeanimaltv) | [Paypal](https://paypal.me/beigeanimal)
 
 ## Caeden117
-How many statistics could we fit into a single counters mod? A lot apparently. He's also responsible for the modding tutorials on this wiki and ChroMapper, a soon to be released mapping software with Chroma RGB light support.
+Hoeveel statistieken kunnen we in één counters mod passen? Blijkbaar zijn dat best wel veel. Hij is ook verantwoordelijk voor de modding handleidingen op deze wiki en ChroMapper, en een binnenkort verkrijgbare level editor met Chroma RGB verlichtingsondersteuning.
 
-**Rollen:** Modder, Moderator  
+**Rollen:** Modder, Moderator.   
 **Bijdragen:** Counters+, wiki modding tutorials.
 
-[GitHub](https://github.com/caeden117) | [Donate](https://ko-fi.com/Caeden117)
+[GitHub](https://github.com/caeden117) | [Doneer](https://ko-fi.com/Caeden117)
 
 ## Chara_
 brrrrrr
@@ -31,17 +31,17 @@ Pepega
 [Twitch](https://www.twitch.tv/deejayvr)
 
 ## Eradawn
-"Findus says hai"
+"Findoes zegt hai."
 
 **Rollen:** Moderator, Support.
 
 ## Guatapuri
-"Came for the game, Stayed for the hugs"
+"kwam voor het spel, bleef voor de knuffels."
 
-**Rollen:** Mapper, moderator
+**Rollen:** Mapper, moderator.
 
 ## Hydrand
-Camellia is SourPls
+Camellia is SourPls.
 
 **Rollen:** Mapper, moderator.
 
@@ -62,48 +62,48 @@ Poi!
 [Twitch](https://www.twitch.tv/br3uker)
 
 ## Maladaze
-Can't hit jumps
+Kan jumps niet raken.
 
 **Rollen:** Moderator.
 
 [Twitch](https://www.twitch.tv/infjager)
 
 ## Olaf
-Any stroopwafels?
+Stroopwafels?
 
 **Rollen:** Moderator.
 
 [Twitch](https://twitch.tv/olafstad)
 
 ## Pink
-The only Moderator to ghost us when asked for a description for this page.
+De enige moderator die ons negeert wanneer we om een beschrijving voor deze pagina vragen.
 
 **Rollen:** 3D Artists, Moderator, Support, Modder.
 
 **Bijdragen:** Vele Quest mods en models.
 
 ## Pyrowarfare
-A BeastSaber admin who wrote the majority of content for [How to Playtest](./how-to-testplay.md), [Mapping Anxiety](./mapping-anxiety.md), and contibuted on various other pages. Be warned: you will be asked to talk about your feelings.
+Een BeastSaber admin die de meeste inhoud schreef voor [Hoe test je een level](./how-to-testplay.md), [Level makers angst](./mapping-anxiety.md), en op verschillende andere pagina's heeft geholpen. Wees gewaarschuwd: je wordt gevraagd om over jouw gevoelens te praten.
 
 **Rollen:** Moderator, Mapping Support.
 
 [BeatSaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf) | [BeastSaber](https://bsaber.com/members/pyrowarfare/)
 
 ## RangeValley
-"My dad worked for years as an admin, but he got laid off when bots took over. He came home that night and told me we had to move into the van, since we couldn't afford rent anymore, then he beat the shit out of me with jumper cables. Shitposting should be legal."
+"Mijn vader werkte al jaren als admin, maar hij werd ontslagen toen bots de macht overnamen. Hij kwam die nacht thuis en vertelde me dat we in de bus moesten gaan. Aangezien we ons geen huur meer konden betalen, toen sloeg hij me helemaal verrot met jumperkabels. Shitposting zou legaal moeten zijn."
 
 **Rollen:** Moderator.
 
 ## Razor
-Literally no clue what he's doing when it comes to coding, at all, but he can fix ploogin.
+Letterlijk geen idee wat hij doet als het om programmeren gaat, maar hij kan plugins fixen.
 
 **Rollen:** Support, Moderator.
 
-[Twitch](https://www.twitch.tv/sarpest_razor) | [Donate](https://streamelements.com/sarpest_razor/tip)
+[Twitch](https://www.twitch.tv/sarpest_razor) | [Doneer](https://streamelements.com/sarpest_razor/tip)
 
 ## Shad
-"Every channel is just #pc-mod-support"
+"Elk kanaal is gewoon #pc-mod-support"
 
 **Rollen:** Moderator, Mapper.
 
-[Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [YouTube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)
+[Levels](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [YouTube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)

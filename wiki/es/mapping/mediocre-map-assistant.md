@@ -31,7 +31,7 @@ _Información esencial para ponerse en marcha usando Mediocre Map Assistant 2_
 
 ::: warning Es **MUY** importante descomprimir el archivo en el paso 2 y solo ejecutar el exe en la nueva carpeta en lugar del que se encuentra dentro del zip porque no hacerlo causará problemas con la creación y edición del mapa! :::
 
-#### Primera puesta en marcha
+#### Configuración inicial
 La primera vez que ejecutes MMA2 necesitarás dirigirlo a la ubicación de dos carpetas: `CustomLevels` y `CustomWIPLevels`. Tienes varias opciones disponibles:
 
 **Si tienes instalado Beat Saber en el ordenador:**
@@ -54,93 +54,93 @@ La primera vez que ejecutes MMA2 necesitarás dirigirlo a la ubicación de dos c
 Todos los archivos funcionales de tu mapa irán a una carpeta de nombre de canción dentro de esta carpeta CustomWIPLevels.
 
 ### Instalación de Linux
-1. Download MMA2.zip from [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest).
-2. Unzip the file and place the extracted folder wherever you like on your hard drive.
-3. Open Steam. At the top of the window, go to `Steam > Settings > Steam Play`. In the `Advanced` section, check `Enable Steam Play for all other titles` if it isn't already. Restart Steam if you are prompted to do so.
-3. On the bottom left of Steam's main window, click `Add a Game`, then `Add a Non-Steam Games`. A window opens, click `Browse` at the bottom. Select `All Files` as the file type. Find where `MediocreMapAssistant2.exe` is, and add it.
-4. Search for `Proton` in the Steam search bar, then install the latest version.
-5. Right-click the `MediocreMapAssistant2.exe` shortcut, and open the Properties menu. Check `Force the use of a specific Steam Play compatibility tool`, and select the latest version of Proton in the dropdown menu. At this step, you might also want to rename and add an icon to the shortcut as Linux cannot read the built in logo for MMA2.
-6. You can now use MMA2 by starting it through Steam. You can also create a shortcut by right-clicking the MMA2 shortcut in Steam, then under the `Manage` section clicking `Add Desktop Shortcut`.
+1. Descarga MMMA2.zip desde [BSMG Git](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest).
+2. Descomprime el archivo y coloca la carpeta extraída donde quieras en tu disco duro.
+3. Abre Steam. En la parte superior de la ventana, ve a `Steam > Configuración > Steam Play`. En la sección `Avanzado`, comprueba `Activar Steam Play para todos los demás títulos` si no lo esta ya. Reinicia Steam si se te pide que lo hagas.
+3. En la parte inferior izquierda de la ventana principal de Steam, haz clic en `Añadir un juego`y luego `Añadir un juego que no sea de Steam`. Una ventana se abre, haz clic en `Navegar` en la parte inferior. Selecciona `Todos los archivos` como tipo de archivo. Encuentra dónde está `MediocreMapAssistant2.exe`, y añádelo.
+4. Busca `Proton` en la barra de búsqueda de Steam, luego instala la última versión.
+5. Haz clic derecho en el acceso directo de `MediocreMapAssistant2.exe` y abre el menú Propiedades. Marca `Forzar el uso de una herramienta específica de compatibilidad de Steam Play`y selecciona la última versión de Proton en el menú desplegable. En este paso, también podrías querer renombrar y añadir un icono al acceso directo ya que Linux no puede leer el logotipo incorporado para MMA2.
+6. Ahora puedes usar MMMA2 iniciándolo a través de Steam. También puedes crear un acceso directo haciendo clic derecho en el acceso directo de MMA2 en Steam, luego debajo de la sección `Administrar` haciendo clic en `Añadir acceso directo al escritorio`.
 
-#### Linux First Time Setup
-The first time you run MMA2 you will need to direct it to the location of two folders: `CustomLevels` and `CustomWIPLevels`. You have several options available to you:
+#### Configuración inicial en Linux
+La primera vez que ejecutes MMA2 necesitarás dirigirlo a la ubicación de dos carpetas: `CustomLevels` y `CustomWIPLevels`. Tienes varias opciones disponibles:
 
-**If you have Beat Saber installed on the computer:**
-* Give MMA2 the path to the two appropriate folders, prefixed by `Z:`.
-  * Example: `/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels` should be entered as `Z:/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels`.
-* To find where Beat Saber is installed, right-click Beat Saber in Steam, go to `Manage > Browse Local Files`.
-* The folders should be located under the `Beat Saber_Data` directory.
+**Si tienes instalado Beat Saber en el ordenador:**
+* Dale a MMMA2 la ruta a las dos carpetas apropiadas, con prefijo `Z:`.
+  * Ejemplo: `/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels` debe ser ingresado como `Z:/home/bsmg/.local/share/Steam/steamapps/common/Beat Saber/Beat Saber/Beat Saber_Data/CustomWIPLevels`.
+* Para encontrar donde está instalado Beat Saber, haz clic derecho en Beat Saber en Steam, ve a `Administrar > Explorar Archivos Locales`.
+* Las carpetas deben estar ubicadas en el directorio `Beat Saber_Data`.
 
-**If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
-* Make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them. Note that the usual Linux paths need to be prefixed with `Z:`.
-   * Example: `/home/bsmg/MMA2/CustomLevels` and `/home/bsmg/MMA2/CustomWIPLevels` should be entered as `Z:/home/bsmg/MMA2/CustomLevels` and `Z:/home/bsmg/MMA2/CustomWIPLevels` 
+**Si tienes la versión de Quest, O, no tienes instalado Beat Saber en el ordenador:**
+* Crea dos carpetas llamadas `CustomLevels` y `CustomWIPLevels` y luego proporciona la ruta a ellas. Ten en cuenta que las rutas habituales de Linux necesitan ser prefijadas con `Z:`.
+   * Ejemplo: `/home/bsmg/MMA2/CustomLevels` y `/home/bsmg/MMA2/CustomWIPLevels` deben ser ingresados como `Z:/home/bsmg/MMA2/CustomLevels` y `Z:/home/bsmg/MMMA2/CustomWIPLevels` 
 <p align="center">
-![Screenshot of Mediocre Mapper path entry for Linux](~@images/mapping/mma2-linux-path.png)
+![Captura de pantalla de la entrada de ruta de Mediocre Mapper para Linux](~@images/mapping/mma2-linux-path.png)
 </p>
 
-All of your working map files will go into a song name folder within this CustomWIPLevels folder.
+Todos los archivos funcionales de tu mapa irán a una carpeta de nombre de canción dentro de esta carpeta CustomWIPLevels.
 
-### Check the WIP File Path
-The path given from setup may not carry over from the main screen. Make sure the fields have the paths from your setup and are not blank. If blank, add the path(s) from [First Time Setup](#first-time-setup) and press <kbd>Enter</kbd> to confirm!  
+### Comprobar la ruta del archivo WIP
+La ruta indicada desde la configuración puede no ser llevada desde la pantalla principal. Asegúrate de que los campos tienen las rutas de tu configuración y no están en blanco. Si está vacío, añade la(s) ruta(s) desde [Configuración inicial](#first-time-setup) y presiona <kbd>Ingresar</kbd> para confirmar!  
 <p align="center">
-![Check Paths Not Blank](~@images/mapping/mma2-checkWipSongPath.png)
+![Comprobar rutas no en blanco](~@images/mapping/mma2-checkWipSongPath.png)
 </p>
 
-### Editor Settings
-Once you've set up your paths, these core settings are all available from the song selection page when you first open the program.
+### Ajustes del editor
+Una vez que hayas configurado tus rutas, estas opciones básicas están disponibles en la página de selección de canciones cuando abras el programa por primera vez.
 <p align="center">
-![Song Selection screen in Mediocre Map Assistant 2](~@images/mapping/mma2-song-setup.jpg)
+![Pantalla de selección de canciones en Mediocre Map Assistant 2](~@images/mapping/mma2-song-setup.jpg)
 </p>
 
-#### Map Selection
-The map selection pane has four tabs, each with songs listed alphabetically.
+#### Selección de Mapa
+El panel de selección de mapa tiene cuatro pestañas, cada una con canciones listadas alfabéticamente.
 
-* **WIP Songs:** This tab contains all of the map folders saved in your `CustomWIPLevels` folder. New maps are created here and are accessible in-game under "Custom WIP Levels."
-* **Custom Songs:** This tab contains all the downloaded custom songs saved in your `CustomLevels` folder. Maps are accessible in-game under "Custom Levels."
-* **Multi-Mapper:** This tab contains any maps being collboratively worked on via the *Mediocre Mapper Server.*
-* **Temp Loader:** This tab allows you to temporarily "quick preview" zip files online (i.e., from #testplays, BeatSaver, or BeastSaber) without downloading and extracting them.
+* **Canciones WIP:** Esta pestaña contiene todas las carpetas del mapa guardadas en la carpeta `CustomWIPLevels`. Los mapas nuevos se crean aquí y son accesibles en el juego bajo "Custom WIP Levels."
+* **Canciones personalizadas:** Esta pestaña contiene todas las canciones personalizadas descargadas guardadas en tu carpeta `CustomLevels`. Los mapas son accesibles en el juego bajo "Custom Levels."
+* **Multi-Mapper:** Esta pestaña contiene cualquier mapa en el que se trabaje colaborativamente a través del *servidor Mediocre Mapper*
+* **Cargador temporal:** Esta pestaña te permite ver una vista previa temporal de archivos zip en línea (p.ej. de #testplays, BeatSaver, o BeastSaber) sin descargar ni extraerlos.
 
-There are several functions available to you on this screen:
+Hay varias funciones disponibles para ti en esta pantalla:
 
-* The <kbd>Refresh Song List</kbd> button refreshes the songs listed.
-* The <kbd>Edit</kbd> button next to a map opens it in MMA2.
-* The <kbd>Delete</kbd> button next to a map perma-deletes it. **Note:** Once deleted this way maps are gone forever and unrecoverable.
-* The <kbd>Star</kbd> button next to a map favorites it, bumping it to the top of the list.
+* El botón <kbd>Actualizar lista de canciones</kbd> actualiza las canciones listadas.
+* El botón <kbd>Editar</kbd> junto a un mapa lo abre en MMA2.
+* El botón <kbd>Eliminar</kbd> junto a un mapa lo borra permanentemente. **Nota:** Una vez eliminado, los mapas desaparecerán para siempre y serán irrecuperables.
+* La <kbd>estrella</kbd> al lado de un mapa lo marca como favorito, volcándolo al principio de la lista.
 
-::: danger Maps deleted by the delete button in MMA2 are not sent to the Recycle Bin and are **permanently removed.**  
-This includes the autosaves folder. Please be certain and/or keep backups of your work in a separate location. :::
+::: danger Los mapas eliminados por el botón de borrar en MMA2 no se envían a la papelera de reciclaje y se **eliminan de forma permanente.**  
+Esto incluye la carpeta de autoguardados. Por favor, asegúrate y/o mantén copias de seguridad de tu trabajo en un lugar separado. :::
 
-#### Map Creation
-Below the map selection pane you can create a new empty song folder in `CustomWIPLevels` by entering the desired name of your folder (typically Song Name or Artist - Song Name) then clicking <kbd>Create Level</kbd>.
+#### Creación de mapas
+Debajo del panel de selección de mapa puedes crear una nueva carpeta vacía de canciones en `CustomWIPLevels` ingresando el nombre deseado de tu carpeta (típicamente Nombre de Canción o Artista - Nombre de Canción) y luego haciendo clic en <kbd>Crear Nivel</kbd>.
 
-#### Settings
-The settings pane includes global settings for autosaving, zip packaging, folder paths, and more.
+#### Configuración
+El panel de configuración incluye ajustes globales para auto guardar, empaquetar zip, rutas de carpetas y más.
 
-* **Autosave Settings:** Autosave is enabled by default at an interval of 300 seconds (5 minutes). This is generally fine for most users unless you are doing a light-heavy map. Autosave while playing the song in the editor is also enabled by default.
-* **Mapping & Lighting Settings:**
-   - No lighting is off by default, meaning that any lighting events placed on the lighting track will play. Check to prevent lights from playing while mapping.
-   - You have the option to provide MMA2 with an alternate folder to save your packaged songs. By default the packaged song will be found in the same folder where the uncompressed map lives.
-* **Beta Settings:** If you have the Mapping Extensions mod installed you will have additional checkboxes enabled for "extended" mapping features like precision placement, precision rotation, and six-lane. New mappers are encouraged to skip this until they're more comfortable with the basics.
-* **Legacy Settings:** If you have the Chroma mod installed you can check this box to enable the Chroma lighting toolbar but it has been unsupported for some time.
-* **Other Settings:** Click the <kbd>Clear Settings</kbd> button to revert to default settings. You may also enter new paths for either of your song folders. If for some reason nothing works you can click the <kbd>Everything Inexplicably Broken?</kbd> button to delete your config file.
+* **Configuración de guardado automático:** El autoguardado está activado por defecto en un intervalo de 300 segundos (5 minutos). Normalmente esto es bueno para la mayoría de los usuarios a menos que estés haciendo un mapa ligero. Auto guardar mientras se reproduce la canción en el editor también está activado por defecto.
+* **Mapeo & Configuración de iluminación:**
+   - No hay ninguna iluminación apagada por defecto, lo que significa que cualquier evento de iluminación colocado en la pista de iluminación se reproducirá. Marca para evitar que las luces se reproduzcan durante el mapeo.
+   - Tienes la opción de proporcionar a MMA2 una carpeta alternativa para guardar tus canciones empaquetadas. Por defecto, la canción empaquetada se encontrará en la misma carpeta donde vive el mapa no comprimido.
+* **Configuración Beta:** Si tiene instalado el mod de Mapeo de Extensiones tendrás casillas de verificación adicionales habilitadas para características de mapeo "extendidas", como colocación de precisión, rotación de precisión, y seis carriles. Se anima a los nuevos mapeadores a omitir esto hasta que se sientan más cómodos con lo básico.
+* **Configuración antigua:** Si tiene instalado el mod de Chroma, puede marcar esta casilla para habilitar la barra de herramientas de iluminación de Chroma pero no ha sido compatible durante algún tiempo.
+* **Otras configuraciones:** Haz clic en el botón <kbd>Limpiar ajustes</kbd> para revertir a la configuración predeterminada. También puedes introducir nuevas rutas para cualquiera de tus carpetas de canciones. Si por alguna razón nada funciona puedes hacer clic en el botón <kbd>Todo inexplicablemente roto?</kbd> para borrar tu archivo de configuración.
 
-::: warning Confirm both folder paths are complete on the Song Selection screen and add the path(s) from [First Time Setup](#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on first use. :::
+::: warning Confirma que las rutas de ambas carpetas están completas en la pantalla de selección de Canciones y añade la(s) ruta(s) desde [Configuración inicial](#first-time-setup) si están en blanco. Hay un error conocido que elimina la ruta de la carpeta CustomWIPLevels en el primer uso. :::
 
-## Song Setup
-Once you've finished one-time editor setup you're ready to create your first map.
+## Configuración de la canción
+Una vez que hayas terminado la configuración del editor inicial, estarás listo para crear tu primer mapa.
 
-### Song Creation
-You have two options to create your song folder:
-1. Enter your desired folder name in the 'Create New Level' pane and click <kbd>Create Level</kbd>. Your new folder will automatically appear in your map list.  
+### Creación de canciones
+Tienes dos opciones para crear tu carpeta de canciones:
+1. Introduce el nombre de la carpeta deseado en el panel 'Crear nuevo nivel' y haz clic en <kbd>Crear nivel</kbd>. Tu nueva carpeta aparecerá automáticamente en tu lista de mapas.  
    ![Using "Create A New Level" to make a song folder](~@images/mapping/mma2-create-new-level.jpg)
-2. Navigate to your `CustomWIPLevels` folder and make a folder with your desired folder name. You will need to click <kbd>Refresh Song List</kbd> to see your folder.
+2. Ve a la carpeta `CustomWIPLevels` y crea una carpeta con el nombre de la carpeta deseada. Necesitarás hacer clic en <kbd>Actualizar lista de canciones</kbd> para ver tu carpeta.
 
-Click <kbd>Edit</kbd> to enter your song information and metadata.
+Haz clic en <kbd>Editar</kbd> para ingresar la información de tu canción y metadatos.
 
-### Song Info Settings
-The `Song Info` page is the first screen you see every time you edit a map.
+### Ajustes de información de la canción
+La página `Información de la canción` es la primera pantalla que veras cada vez que edites un mapa.
 <p align="center">
-![Mediocre Map Assistant 2 song setup screen](~@images/mapping/mma2-song-info.jpg)
+![Pantalla de configuración de canciones de Mediocre Map Assistant 2](~@images/mapping/mma2-song-info.jpg)
 </p>
 
 #### Whole Map Settings

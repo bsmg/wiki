@@ -2,38 +2,38 @@
 sidebar: auto
 ---
 
-# Health and Safety
-_Can't hit bloq with vegetable arms_
+# 健康と安全
+_貧弱な腕ではブロックは切れない_
 
-## General Tips
-Beat Saber can be a pretty physically demanding game and it is important to treat play sessions just like a workout. We strongly recommend that you stretch and warm up before each play session to avoid physical injury, including damage to the wrist and shoulders. Common injuries include repetitive strain injury (RSI) to the wrist and shoulders.
+## 一般的なヒント
+Beat Saberは身体的に激しいゲームであり、ワークアウトのようにプレイすることが重要です。 手首や肩への損傷や身体的な損傷を避けるために、ゲームをプレイする前にストレッチしてウォームアップすることを強くお勧めします。 よくある損傷の例に手首や肩の反復運動過多損傷（RSI）があります
 
-Stretching isn't just limited to people playing crazy custom songs either, you can injure yourself even if a map seems short or simple.
+ストレッチはクレイジーなカスタム曲をプレイする人々だけに必要なものではなく、譜面が短くて簡単に見えても怪我をしてしまうことがあります。
 
-> _Remember to stay hydrated, and breathe!_
+> _水分補給をこまめに行い、呼吸することを忘れないでください!_
 
-## Tino's Guide to Warm Up and Recovery
-Tino is a top 10 player in Canada who kindly wrote a very detailed guide covering proper warm up, recovery, and injury relief. [Check it out here!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
+## Tinoのウォームアップとリカバリガイド
+Tinoはカナダのトップ10のプレイヤーで、親切に適切なウォームアップ、回復、および怪我の治療について非常に詳細なガイドを書いている。 [こちら](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)をご覧ください！
 
-## Wrist Care
-### Weights?
-Generally, we **do not recommend** using weights for this game. Beat Saber is already a workout and people hurt themselves all the time without weights. You're basically subjecting your wrists to constant whiplash, and adding weights is only going to make things worse.
+## 手首のケア
+### おもりをつける？
+一般的に、重りを使うことは**お勧めしません**。 BeatSaberはすでに激しい運動であり、例え重りがなくても自分自身を傷つけます。 手首には基本的にダメージを受けていて、重りを付け加えるとより事態を悪化させます。
 
-If you insist on using weights then please at least check out [this guide](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) by VR Fitness Insider to minimize the risk of injury.
+それでも重りを使用する場合は、少なくともVRフィットネスインサイダーの [ガイド](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) をご覧ください。
 
-### Dr Levi Harrison's Tips
-Dr. Levi has saved the wrist of countless players with his videos, and he's made a video specifically covering some exercises to help prevent injury from playing Beat Saber! We **highly** recommend his tips!
+### Dr Levi Harrisonのヒント
+Dr. Leviのビデオは多くのプレイヤーの手首を守ってきました。さらに、Beat Saberに特化したケガを防ぐためのエクササイズのビデオを公開しています。 こちらを**強く**お勧めします
 
 <YouTube url='https://www.youtube.com/watch?v=IoL1NOKUmoU' />
 
-## Safety
-Keep your playspace clear of obstructions, allow adequate room around during gameplay, and always wear your wrist straps.
+## 安全のために
+ゲームプレイの妨げになるようなものを片付け、十分なエリアを確保します。常にストラップを着用してください。
 
-![Allow Adequate Room Around You](~@images/health-and-safety/allow-adequate-room-around-you.png "Allow Adequate Room Around You")
+![十分なプレイエリアを確保する](~@images/health-and-safety/allow-adequate-room-around-you.png "十分なプレイエリアを確保する")
 
 or contribute to translation effort [here](https://github.com/bsmg/wiki). :::
 
-## A Short Message from TammyMatty
-To reduce the risk of physical injury, always remember to stretch before and after playing Beat Saber. Please consider the following:
+## TammyMattyからのショートメッセージ
+身体的な怪我のリスクを減らすために、常にBeat Saberをプレイする前と後にストレッチすることを忘れないでください。 以下の点を確認してください。
 
 ![Wammy](~@images/health-and-safety/wammy.gif "Wammy")

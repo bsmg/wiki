@@ -5,25 +5,25 @@ next: ./advanced-audio.md
 description: How to get your audio file set up and ready for mapping.
 ---
 
-# Basic Audio Setup
-_Get your audio file set up and ready for mapping_
+# 基本的なオーディオ設定
+_オーディオファイルをセットアップして譜面作成の準備をしましょう_
 
-* [Glossary of Terms](./glossary.md)
+* [用語](./glossary.md)
 
-This page provides both new and experienced mappers with general recommendations for setting up a new song file before starting to map. Review the quick start guide below for steps that are **critical** before you begin mapping vs. those that can be done at any time, if they're needed.
+このページでは、初心者から経験豊富なマップ作成者に譜面作成を開始するときに新しいファイルを設定するための一般的な推奨事項を提供します。 譜面作成開始する前に、 **非常に重要な** ステップについては、以下のクイックスタートガイドを参照してください。 必要に応じていつでも参照できます。
 
-## Audio Setup Quick Start
+## オーディオ設定のクイックスタート
 ::: warning
-* Steps 1-3 **MUST** be completed before you start mapping or your audio will be out of sync and may have a [*hot start*](./glossary.md#h).
+* ステップ 1-3 は、**マッピングを開始する前に** 完了させる必要があります。さもなければ、オーディオは同期されず、 [*ホットスタート*](./glossary.md#h) される可能性があります。
 
-* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be loaded by the game! Processing and exporting from [Audacity](https://www.audacityteam.org/) is the easiest way to ensure your audio file works as expected. :::
+* オンラインウェブサイトで`.ogg`ファイルを作成すると、エディタで不正なファイルとして扱われ、ロードされない可能性があります。 [Audacity](https://www.audacityteam.org/)からエクスポートする方法が最も簡単であなたが思った通りに機能します。 :::
 
-1. Download and Install [Audacity](https://www.audacityteam.org/)
-    * Optionally install the [ffmpeg for windows](https://manual.audacityteam.org/man/installing_ffmpeg_for_windows.html) addon to open additional file types such as `.aac` or `.m4a` from iTunes.
-2. Find the BPM and offset of your song to [sync your song](#syncing-audio)
-3. [Export your song](#exporting) as an `.ogg` format file
+1. [Audacity](https://www.audacityteam.org/) をダウンロードしてインストールする
+    * 必要に応じて、 Windows用のアドオン[ffmpeg for windows](https://manual.audacityteam.org/man/installing_ffmpeg_for_windows.html) をインストールして、iTunesから`.aac` または `.m4a` などのファイルも開くことができます。
+2. BPMを設定しオフセットをかけ、 [曲を同期する](#syncing-audio)
+3. `.ogg` 形式のファイルとして[エクスポート](#exporting)する
 
-**Any time before upload:**
+**曲をアップロードする前に**
 4. [Check your song volume](#check-song-volume) and make it [louder](#making-your-song-louder) or [softer](#making-your-song-softer) as needed
 5. Check the length of your song outro and [trim it](#trimming-the-outro) if needed
 
@@ -139,7 +139,7 @@ ___
       ![Resulting Silence](~@images/mapping/audacity-neg-generated_silence.png)
 6. Select from the end of the generated silence (yellow vertical line) to the start of the song track selecting the contents of both tracks.  
    ![Select up to generated silence](~@images/mapping/audacity-neg-select_silence.png)
-7. Press the <kbd>Delete</kbd> key.
+7. <kbd>Delete</kbd> キーを押します。
 8. Click the X on the newest track to delete it.  
    ![Delete The Track](~@images/mapping/audacity-delete_track.png)
 9. Done. You can now skip to [exporting](#exporting) or go to [optional audio editing](#optional-audio-editing).

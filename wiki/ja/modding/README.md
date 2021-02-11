@@ -1,4 +1,4 @@
-# Making Mods
+# Modを作る
 ## Injecting Mods
 translation-done: false
 
@@ -6,10 +6,10 @@ translation-done: false
 
 For those of you who prefer [BepInEx](https://github.com/BepInEx/BepInEx) over either of these options, Bepis has created a loader for BSIPA plugins, available [here](https://github.com/BepInEx/BepInEx.BSIPA.Loader). As for developing Beat Saber plugins with the BepInEx plugin API, a generic guide exists on their [documentation site](https://bepinex.github.io/bepinex_docs/v5.0/articles/dev_guide/plugin_tutorial/index.html), but other than that you're kinda on your own.
 
-## Project Setup
+## プロジェクトのセットアップ
 If you are interested in creating a Beat Saber mod, but do not have a template or Visual Studio template set up, [follow the Intro guide to get your project all set up](./intro.md).
 
-### Ready to go?
+### 準備はいいですか?
 Check out the [links below](#other-links) for documentation relating to Unity and related tooling. If you have any questions, the best place to ask is in the `#pc-mod-dev` channel on the [BSMG Discord](https://discord.gg/beatsabermods)
 
 ## Launch args

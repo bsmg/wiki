@@ -12,7 +12,7 @@ tags:
   - beat saber
   - modding
   - wiki
-  - support
+  - サポート
   - ヘルプ
   - how are beat maps make?
 ---

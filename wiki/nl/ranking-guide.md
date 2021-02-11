@@ -51,23 +51,23 @@ Accuraatheid word getoond links na dat je **Advanced HUD** optie aan hebt gezet 
 | D           | 20-34.99%               |
 | E           | < 19,99%                |
 
-## The Ranking Process
+## Het Rangschikkingsproces
 
-### Ranked / Unranked
+### Gerankt / Niet-gerankt
 
-A lot of people (like I did) will spend dozens and dozens of hours without knowing the difference between ranked and unranked maps when they start. While a map being ranked doesn’t make it better for any reason, it’s great for new players to learn what the difference is, especially if they ever decide to try ranking up.
+Veel mensen (net zoals ikzelf) zullen talloze uren doorbrengen zonder het verschil te weten tusssen gerankte en niet-gerankte nummers wanneer ze starten. Hoeweel het gerankt zijn van een nummer het niet automatisch beter maakt om welke reden dan ook, is het enorm goed voor nieuwe spelers om te leren wat precies het verschil is, zeker voor als ze ooit besluiten om deel te nemen aan de rangschikkingen.
 
-**Ranked :** A ranked map is assigned a certain difficulty level measured in stars (★) and is worth a certain amount of PP (performance points) for that difficulty. An amount of that PP can be earned by a player for completing the map. More PP will be rewarded for a player that got a higher accuracy. Ranked maps *mostly* respect criteria and are considered as “good maps”. They are the only way to climb the [global leaderboard](https://scoresaber.com/global).
+**Ranked :** A ranked map is assigned a certain difficulty level measured in stars (★) and is worth a certain amount of PP (performance points) for that difficulty. Een hoeveelheid PP dat kan worden verdiend door een speler voor het voltooien van een nummer. Een speler zal beloond worden met meer PP als ze een hogere accuracy kunnen behalen. Gerankte nummers volgen *meestal* de criteria en worden beschouwd als "goede nummers". Ze zijn de enige manier om in de [globale rangschikkingen](https://scoresaber.com/global) te klimmen.
 
-**Unranked :** An unranked map is any map that has been published on [BeatSaver](https://beatsaver.com/). It does not need to be actually possible to pass and maps can be made by anybody using the a mapping editor. Also, it is not possible to know the difficulty level of an unranked map except by looking at the difficulty name which is not always an accurate measure of the difficulty since the mapper chooses it.
+**Unranked :** An unranked map is any map that has been published on [BeatSaver](https://beatsaver.com/). Het moet niet noodzakelijk mogelijks zijn om een nummer te kunnen voltooien en nummers kunnen worden gemaakt door iedereen die een mapping editor gebruikt. Tevens is het ook niet mogelijk om de moeilijkheidsgraad van een niet-gerangschikt nummer te weten behalve door naar de moeilijkheidsgraad naam te kijken, wat niet altijd een accurate maat is voor de moeilijkheid aangezien de mapper deze kiest.
 
-### Criteria and the Ranking Process
+### Criteria en het Rangschikkingsproces
 
-The ranking team ranks maps through a communal evaluation process. Those maps are then assigned PP based on an algorithm that determines the difficulty once they are ranked based on a variety of factors. PP, which stands for performance points, is given for completing ranked maps based on how high you scored in the level. Full details about the ranking process, criteria, and additional FAQs can be found in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
+Het ranking team rangschikt nummers door middel van een gemeenschappelijk evaluatieproces. Deze nummers krijgen dan een bepaald aantal PP toegewezen van zodra ze worden gerangschikt, gebaseerd op een algoritme dat de moeilijkheid bepaald op basis van verscheidene factoren. PP, dat staat voor Prestatie Punten, wordt gegeven voor het voltooien van gerankte nummers, gebaseerd op hoe goed je scoorde op het nummer. Volledige details over het rangschikkingsprocess, criteria en bijkomende veelgestelde vragen en antwoorden kunnen worden teruggevonden in de [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
 
-## The Ranking System Explained (PP System)
+## Het Ranking Systeem Uitgelegd (PP Systeem)
 
-The PP system is probably one of the most misunderstood things when it comes to ranking in the game. Personally, I find it that people misunderstand it so often that I ended up writing a message about it and pinned it on the Beat Saber Canadian Discord so I wouldn’t need to explain it anymore, so here is “all” you need to know about it.
+Het PP systeem is hoogstwaarschijnlijk één van de meest verkeerd begrepen dingen als het gaat over de ranking in het spel. Persoonlijk vond ik dat mensen het zo vaak verkeerd begrepen dat ik er een bericht over schreef in de Beat Saber Canadian Discord en het vast pinde zodat ik het telkens niet meer opnieuw zou moeten uitleggen. Dus, bij deze is hier "alles" dat je ervan moet weten.
 
 ### Hoe kan ik PP halen en hoe werkt de globale rang?
 
@@ -94,27 +94,27 @@ Zoals ervoor werd gezegd, de hoeveelheid gewogen PP dat je krijgt is gedetermine
 
 ### Waarom is mijn totale PP niet omhoog als de hoeveelheid gewogen PP dat ik krijg van een nieuwe score?
 
-Een algemene vraag die veel mensen stellen is wanneer ze bijvoorbeeld een nieuwe score die**100 gewogen PP** waard is, dat niet betekent dat ze **+100 pp** bij hun totale hoeveelheid prestatiepunten. As explained earlier, since the effect of the curve on your plays increases the further you go down your list, when you make a new play, it takes the place of an older play which makes all the plays that are under go down 1 place in the list. Even if you are getting **+100 pp** from this new play, all your lower plays are weighed down even more then before so you lose a certain amount of PP on them. This is why when getting a new play or making a better play on a map, you will never (one exception) get the same amount of PP on your total amount of performance points.
+Een algemene vraag die veel mensen stellen is wanneer ze bijvoorbeeld een nieuwe score die**100 gewogen PP** waard is, dat niet betekent dat ze **+100 pp** bij hun totale hoeveelheid prestatiepunten. Het was eerder al eens uitgelegd, maar sinds het effect van de curve sterker wordt naarmate je verder naar het einde van je lijst gaat, zal van zodra je een nieuwe score neerzet, deze de plaats van een oudere score innemen waardoor dat alle scores eronder 1 plaats zullen zakken in de lijst. Zelfs wanneer je **+100 pp** krijgt van een nieuwe play, zal dat ervoor zorgen dat de lagere plays harder beïnvloedt zullen worden door de curve zodat je een bepaalde hoeveelheid PP verliest op die nummers. Dit is dus de reden dat, wanneer een nieuwe score neerzetten of een bestaande score verbeterd, je nooit (met één enkele uitzondering) dezelfde hoeveelheid PP zal krijgen bij he totale hoeveelheid prestatie punten.
 
-The only exception to this is if you get a better accuracy on your current top play. Since your top play is not affected by the curve, meaning that none of your songs will change places in your list, there will be no lost of PP on your other plays. An example would be if your top play is on Avalanche with **250 pp** and you manage to get a better accuracy and that play is now worth **260 pp**, you will then get **+10 pp** on your total amount of PP.
+De enige uitzondering op de regel hierboven, is wanneer je de betere accuracy behaald op je huidige top play. Aangezien je top play niet wordt beïnvloed door de curve, betekent dat geen enkele van je bestaande nummers van plaats in de lijst zal veranderen en er dus geen PP verloren zal gaan op je andere scores. Als je top play bijvoorbeeld Avalanche zou zijn met een **250 pp** en je slaagt erin om een nieuwe score met een betere accuracy neer te zetten zodat het nu **260 pp** waard is, dan zal je effectief **+10 pp** ontvangen bij je totale hoeveelheid PP.
 
-### How can I improve and get more PP?
+### Hoe kan ik beter worden en meer PP krijgen?
 
-To improve and get a better rank in the global ranking, there are quite a few tools you can use to find ranked songs that fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like. The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced) browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep track of your performance.
+Om zelf beter te worden en een betere rang in de wereldranglijst te kunnen veroveren, zijn er een nogal wat handige tools die je kan gebruiken om gerankte nummers te vinden die passen bij je vaardigheidsniveau. Als eerste is natuurlijk altijd een goed idee om je eigen [ScoreSaber](https://scoresaber.com/global) profiel te bekijken zodat je weet welke nummers je al een tijdje niet hebt gespeeld, dewelke je mogelijks nog zou kunnen verbeteren en zodat je een idee hebt van hoe je topscores eruit zien. De [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced) browser extensie kan de functionaliteit van je profiel uitbreiden. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) en [Beat Savior](https://www.beatsavior.io/) zijn externe sites die je kunnen helpen met het vinden van nummers die je mogelijks nog kan verbeteren en je prestaties kunnen bijhouden.
 
-For more precise tips and tricks, go refer to the [Useful Tips & Links](#useful-tips-links) chapter.
+Raadpleeg voor meer precieze tips en trucs, de sectie [Handige Tips & Links](#useful-tips-links).
 
 ## Modificaties
 
 ### Modificaties & Ranked liedjes
 
-Since the **v12.0p1** update, a lot of modifiers got added and some already existing ones have a different effect. When it comes to ranked maps, all the **Negative Modifiers** apply on the score. This means **Negative Modifiers** can be used on any ranked map but they will obviously penalize your score and reward less PP. As for the **Positive Modifiers**, they only take effect on two ranked maps as of now ; [Overkill mapped by Nuketime](http://scoresaber.com/leaderboard/87194) and [Overkill mapped by Kry](http://scoresaber.com/leaderboard/86492). They are used to test the effects of **Positive Modifiers** on ranked maps and to find a way to integrate them on all the other ranked maps. You can obviously play any other map (including ranked ones) and the modifiers will all work but they will only increase your score and PP on the two versions of Overkill. The modifiers used on any score on the leaderboards can be seen to the right of the score. With this said, here is a list of all the modifiers in the game, their effects on score and how they affect gameplay :
+Sinds de **v12.0p1** update zijn er veel modificaties toegevoegd en hebben enkele reeds bestaande een ander effect gekregen. Bij gerankte nummers komt het er op neer dat alle **Negatieve Modificaties** worden toegepast op de score. Dit betekent dat **Negatieve Modificaties** kunnen worden gebruikt op elke gerankt nummer, maar dat ze logischerwijs een negatief effect zullen hebben op je score en daardoor minder PP zullen opleveren. Wat betreft de **Positieve Modificaties**, deze zijn enkel van toepassing op 2 gerankte nummers voorlopig ; [Overkill gemapped door Nuketime](http://scoresaber.com/leaderboard/87194) en [Overkill gemapped door Kry](http://scoresaber.com/leaderboard/86492). Ze worden gebruikt om de effecten van **Positieve Modificaties** op gerankte nummers te testen en om een manier te vinden om ze te integreren op alle andere gerankte nummers. Je kan met deze natuurlijk op eender welk nummer spelen (inclusief degene die gerankt zijn) en de modificaties zullen allemaal werken, maar ze zullen enkel je score, en dus ook je PP, verhogen op de twee versies van Overkill. De gebruikte modificaties zijn zichtbaar in de rangschikkingen rechts ten op zichte van de score. Dat gezegd zijnde, hier is een lijst van alle modificaties die beschikbaar zijn in het spel, hun effect op de score en hoe ze de gameplay precies beïnvloeden :
 
 **No Fail (-0.50)**
 
 Removes the health bar which makes it impossible to fail. Contrary to older versions of the game, No Fail will now submit scores on the leaderboard unless used on the Practice Mode.
 
-| Modificatie                 | Descriptie                                                                                                                                                                  |
+| Modificatie                 | Omschrijving                                                                                                                                                                |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Geen obstakels(-0.05)       | Verwijdert alle obstakels (muren) van de kaart.                                                                                                                             |
 | Geen Bommen (-0.10)         | Verwijdert alle bommen van een level.                                                                                                                                       |
@@ -129,11 +129,11 @@ Removes the health bar which makes it impossible to fail. Contrary to older vers
 
 ### Waarom zou je een greep gebruiken?
 
-An alternative grip can be an adjustment of the default saber angles, an alternative method of holding the controller, or a combination of both. There's no single grip that works for everyone, and using an alternative grip won't magically make you better at the game. It is not necessarily better than the default way the controller is meant to be held, or the default angles that Beat Saber uses. However, alternative grips can have many benefits, from being more comfortable for long periods of play to helping you optimize your swings. They can redistribute the weight of a poorly balanced Vive wand, or increase the range of wrist motion with a Touch controller. Below are some popular grips used in the competitive community. Don't be afraid to adjust or experiment to find what's right for you!
+Een alternatieve greep kan een aanpassing van de gewone saber hoeken, een alternatieve manier voor het vasthouden van de controller, of een combinatie zijn van de twee. Er is geen enkele greep die werkt voor iedereen, en het gebruik van een alternatieve grip zal je niet bij de toverslag beter maken in het spel. Het is niet per se beter dan de standaard manier waarop de controller bedoeld is vast te worden gehouden, of de standaardhoeken dat Beat Saber gebruikt. Desalniettemin kunnen alternatieve grepen echter veel voordelen bieden, gaande van het comfortabeler zijn bij gebrijk over langere periodes of het helpen bij het optimaliseren van uw "swings". Ze kunnen het gewicht van een slecht uitgebalanceerde Vive wand herverdelen, of ervoor zorgen dat je je polsen verder kan bewegen/draaien bij het gebruik van bijvoorbeeld een Touch controller. Hieronder kan je enkele populaire grepen vinden die worden gebruikt in de competitieve community. Don't be afraid to adjust or experiment to find what's right for you!
 
 ### Grepen
 
-Refer to the Grips section of [Grips And Tricks](./grips-and-tricks.md) for some examples of commonly used grips used in the community.
+Raadpleeg de Grepen sectie van [Grepen and trucs](./grips-and-tricks.md) voor enkele voorbeelden van veelgebruikte grepen gebruikt in de community.
 
 ## Handige Tips & Links
 
@@ -173,7 +173,7 @@ Uiteindelijk is en blijft het een spel. Het belangrijkste is dat je plezier hebt
 
 ### Links
 
-* [ScoreSaber](http://scoresaber.com/) : official website with the leaderboards for all the maps and the global ranking leaderboard
-* [ScoreSaber Discord](https://discordapp.com/invite/WpuDMwU) : official ScoreSaber Discord to get informed about maps getting ranked, criteria, etc
-* [BaliBilo's ScoreSaber Site](https://scoresaber.balibalo.xyz/peepee) : get play suggestions based on your scores to improve your global rank
-* [Beat Savior](https://www.beatsavior.io/): track your ranked stats and performance
+* [ScoreSaber](http://scoresaber.com/) : De officiële website met rangschikkingen voor alle nummers en een globale rangschikking
+* [ScoreSaber Discord](https://discordapp.com/invite/WpuDMwU) : De officiële ScoreSaber Discord waar je informatie kan krijgen over nummers die worden geranked, criteria aanpassingen, enzovoort
+* [BaliBilo's ScoreSaber Site](https://scoresaber.balibalo.xyz/peepee) : Ontvang suggesties gebaseerd op je huidige scores om zo je globale rang in de rangschikking te verbeteren
+* [Beat Savior](https://www.beatsavior.io/): Volg je gerankte statistieken en prestaties

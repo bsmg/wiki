@@ -2,93 +2,93 @@
 sidebar: auto
 ---
 
-# PC Modding
-# Preface
+# PC用MOD
+# はじめに
 
 ::: danger Sorry, this page has not been translated yet, you can either:
-- You may experience problems that don't exist in the vanilla game. 99.9% of bugs, crashes, and lag are due to mods.
+- 初期設定（バニラ）には存在しない問題が発生する可能性があります。 99.9％のバグ、クラッシュや遅延はMODによるものです。
 - wait for a translation to be done,
-- Beat Games aren't purposefully trying to break mods. They wish to work on the codebase and sometimes this breaks mods, but they are not out to kill mods.
+- Beat Gamesは、意図的にMODを破壊しようとはしていません。 コードベースで動作することを想定しているので、Modを壊すこともありますが、Modを排除しようとはしません。
 
-Do not attack the game developers for issues related to mods, and vice versa - modders and game developers are two separate groups. Just don't be a jerk ok. :::
+Modに関連する問題でゲーム開発者を非難しないでください。 ただのクレーマーになってはいけません。 :::
 
-Beat Saber natively supports custom songs, so if that's all you're looking for, you don't require more mods! It's a wise idea to install `SongCore` though, as this mod expands upon the base game functionality to improve loading times and provide functionality for other mods like the in-game downloader, custom leaderboards, playlists, etc.
+Beat Saberはカスタム曲をネイティブにサポートしているので、カスタム曲をお探しの場合は、多くのModは必要ありません! `SongCore` をインストールするのが賢明なアイデアです。 このModはベースゲームの機能を拡張し、ロード時間を改善し、ゲーム内ダウンローダーやリーダーボード、プレイリストのような他のMODと連携します。
 
 refer to the [original English version](../pc-modding.md),
 
-If you run into problems at any point, please head to the [support page](./support) and see if you can identify what went wrong before asking in the Discord server. Chances are, your answer is on that page!
+問題に遭遇した場合 [サポート ページ](./support) に行き、Discordサーバーで何が間違っているのかを確認してください。 解決法はそのページにある可能性があります！
 
-:::warning I watched this video by Elite Eric, but I got stuck/it didn't work. What gives? We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After reviewing much of his content, they contain a large amount of incomplete, erroneous, or straight up incorrect information. Attempts to reach out to him to correct these errors has unfortunately been met with silence and new (also incorrect) tutorials.
+:::warning Elite Ericのビデオを見ましたが、動かなくなりました。 いったい何が起こったのでしょうか。 BSMGはElite Ericによるチュートリアルを使用しないことを**強く**お勧めします。 彼の内容の多くを見直すと、それらは不完全、誤りがあったり、または間違った情報を多く含んでいます。 たとえこれらのエラーを修正しようとしても、残念ながら返信はなく、新しい(しかし間違った)チュートリアルしかありません。
 
 or contribute to translation effort [here](https://github.com/bsmg/wiki). :::
 
-## Installers
+## インストーラー
 ### Mod Assistant
-> **THIS IS CURRENTLY THE RECOMMENDED MOD INSTALLER.**
+> **これは現在推奨されるMODインストーラーです。**
 
-__**Run the game at least once**** before trying to mod the game! This applies to reinstalling your game too.
+ゲームにModを導入する前に、__**少なくとも一度は**** ゲームを実行してください！ これはゲームの再インストール時にも同じことが言えます。
 
-A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal and version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
+Mod managerに似たシンプルなBeat Saber Modインストーラですが、Modの除去やバージョンチェックなどの追加機能があります! [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest) で取得
 
 ![ModAssistant](~@images/beginners-guide/modassistant.png)
 
-## How to get more songs
-### In-game Downloader
-The `BeatSaver Downloader` Plugin allows you to download maps in-game using the `MORE SONGS` menu button on the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com)
+## どうすれば曲が追加出来る？
+### ゲーム内ダウンローダー
+`BeatSaver Downloader` プラグインを使用すると、 `MODS` メニュー画面の `SONG` メニューボタンを使用してゲーム内でマップをダウンロードできます。 [BeatSaver](https://beatsaver.com)からも直接マップをインストールできます。
 
 ### BeatSaver
-[BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community. Many other tools and sites enhance the experience of downloading custom songs, but this site is the source of truth. To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.  You can also use the in-game downloader plugin, BeatList, or Mod Assistant's OneClick™ Install feature.
+[BeatSaver](https://beatsaver.com) はコミュニティによって作られたカスタム曲のまとめです。 他の多くのツールやサイトは、カスタム曲をダウンロードする方法をより詳細に説明します, しかし、この場所は、ツール作成者自らが運営しています。. サイトからダウンロードした曲をインストールするには、フォルダを解凍し、 `Beat Saber/Beat Saber_Data/CustomLevels` に配置します。  ゲーム内ダウンローダプラグイン、BeatList、Mod AssistantのOneClick™インストール機能を使用することもできます。
 
 ### Beast Saber
-[Beast Saber](https://www.bsaber.com) (bsaber.com) is a site that tries to help make finding fantastic maps to play easier. It does this by categorizing the thousands of songs on beatsaver and lets you sort by a song's genre and many other attribute tags. It also has a full social feature where players can review songs and comment on them. One of the most used features is the "Curator Recommended" feature where a team plays through most songs released each day and recommends the ones that stand out, letting you [automatically download these in-game](https://bsaber.com/beatsync/).
+[Beast Saber](https://www.bsaber.com) (bsaber.com) は、プレイできる素晴らしいマップを見つけるのに役立つサイトです。 これは、beatsaver上の何千もの曲を分類することによって行われ、曲のジャンルや他の多くの属性タグでソートすることができます。 また、プレイヤーが曲をレビューしたり、コメントしたりできるソーシャル機能も備えています。 最も使用されている機能の一つは、リリースされたほとんどの曲をチームが再生し、素晴らしいものを推奨する「キュレーター推奨」機能です。 [ゲーム内で自動的にこれらの](https://bsaber.com/beatsync/)をダウンロードさせます。
 
 ### Song Management Apps
-* [BeatList](https://github.com/Alaanor/beatlist) is an app to manage playlist and beatmaps, by Alaanor.
+* [BeatList](https://github.com/Alaanor/beatlist) は、Alaanorが作成したプレイリストとビートマップを管理するアプリです。
 
-### Playlists
-Place the playlist file into `Beat Saber/Playlists`, then use [BeatList](https://github.com/Alaanor/beatlist) or [Mod Assistant](https://github.com/Assistant/ModAssistant) to download the maps. (Note: older mods allowed downloading the contents of playlists in-game, but this is currently not possible.)
+### プレイリスト
+プレイリストファイルを `Beat Saber/Playlists`に配置し、 [BeatList](https://github.com/Alaanor/beatlist) または [Mod Assistant](https://github.com/Assistant/ModAssistant) を使用して譜面をダウンロードします。 (注意:古いMODはゲーム内でプレイリストのコンテンツをダウンロードできますが、現在はダウンロードできません。
 
-## Install Folder
-_Where is Beat Saber installed?_
+## インストール フォルダ:
+_Beat Saberはどこにインストールされていますか？_
 
-### Default Location
-|        |                                                                                      |
-| ------ | ------------------------------------------------------------------------------------ |
-| Steam  | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\`                  |
-| Oculus | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+### デフォルトの保存場所
+|        |                                                                                     |
+| ------ | ----------------------------------------------------------------------------------- |
+| Steam  | `C:\Program Files (x86)\Steam\steamaps\common\Beat Saber\'                   |
+| Oculus | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\' |
 
-### Other Locations
-**If you have moved your install folder to a different drive, it might be in the location below.** Replace the drive letter `F` with the drive your game is installed on.
+### その他の場所
+**インストールフォルダを別のドライブに移動した場合は、以下の場所にある可能性があります。 ** ゲームがインストールされているドライブにドライブ文字 `F` を置き換えます。
 |        |                                                                       |
 | ------ | --------------------------------------------------------------------- |
 | Steam  | `F:\SteamLibrary\steamapps\common\Beat Saber\`                 |
 | Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
 
-## How to uninstall mods
-Either remove the dll from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant.
+## Modをアンインストールする方法
+`Plugins` フォルダから dll を削除するか、Mod Assistantの `Uninstall` ボタンをクリックします。
 
-## Manual Installation
-A mod installer is the recommended way to install mods. See the section [above](#installers). If you have patched the game and just need to install Plugins that are not available in the installer, skip to step 4.
+## 手動でのインストール
+ModインストーラはMODをインストールするための推奨方法です。 この[セクション](#installers) を参照してください。 ゲームにパッチが適用されていて、インストーラーで利用できないプラグインをインストールする必要がある場合は、ステップ 4 に進んでください。
 
-**Run the game at least once** before trying to mod the game! This applies to reinstalling your game too.
-### Install BSIPA
-1. Download [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
-2. Navigate to your [install folder.](#install-folder) and extract the contents of BSIPA into it. ![Directory Clean](~@images/beginners-guide/directory-clean.png "Directory Clean") ![Directory Ipa](~@images/beginners-guide/directory-ipa.png "Directory Ipa")
-3. Double click IPA.exe to patch the game. Any mods in the `Plugins` folder will now be loaded when starting the game. If there are errors, you probably didn't follow step 2 correctly. ![Directory Patched](~@images/beginners-guide/directory-patched.png "Directory Patched")
+ゲームにModを導入する前に、**少なくとも一度**は ゲームを実行してください！ これはゲームの再インストール時にも同じことが言えます。
+### BSIPAのインストール
+1. [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases) をダウンロード。
+2. [installフォルダ](#install-folder) を設定し、BSIPAの中身を解凍します。 ![Directory Clean](~@images/beginners-guide/directory-clean.png "Directory Clean") ![Directory Ipa](~@images/beginners-guide/directory-ipa.png "Directory Ipa")
+3. IPA.exeをダブルクリックしてゲームにパッチを適用します。 ゲーム開始時に `プラグイン` フォルダ内のMODがロードされるようになります。 エラーがある場合は、おそらくステップ2を正しく実行できていません。 ![Directory Patched](~@images/beginners-guide/directory-patched.png "Directory Patched")
 
-### Install Mods
-4. Download the mod(s) you wish to install, whether it be from GitHub, the #pc-mods channel, or other sources. **Make sure to download any dependencies required by the mod.** ![Directory Plugins](~@images/beginners-guide/directory-plugins.png "Directory Plugins")
-5. Some mods have installation instructions, some don't. Generally you can just drag and drop the zip contents into your beat saber install folder, and the files should go into the corresponding folders.
+### Modをインストール
+4. GitHub、#pc-modsチャネル、または他のソースからインストールしたいModダウンロードしてください。 **Modに必要な環境を確認してからダウンロードしてください。** ![Directory Plugins](~@images/beginners-guide/directory-plugins.png "Directory Plugins")
+5. 特別なインストール方法があるものもあれば、そうでないものもあります。 一般的に、zipコンテンツをビートセイバーのインストールフォルダにドラッグ&ドロップするだけで、ファイルは対応するフォルダに移動します。
 
 
-## Where to go from here
-* [Grips and Tricks](./grips-and-tricks.md)
-* [Making Beatmaps](/mapping/)
-* [Custom Sabers](/models/custom-sabers.md)
-* [Custom Avatars](/models/custom-avatars.md)
-* [Custom Platforms](/models/custom-platforms.md)
-* [Setup Multiplayer](https://bs.assistant.moe/Multiplayer/)
-* [Making Mods](/modding/)
+## さらにカスタムするには
+* [持ち方とコツ](./grips-and-tricks.md)
+* [譜面作成](/mapping/)
+* [カスタムセイバー](/models/custom-sabers.md)
+* [カスタムアバター](/models/custom-avatars.md)
+* [カスタムプラットフォーム](/models/custom-platforms.md)
+* [マルチプレイのセットアップ](https://bs.assistant.moe/Multiplayer/)
+* [Modを作る](/modding/)
 
-## Have questions?
-Visit the support channels in the [BSMG Discord](https://discord.gg/beatsabermods)!
+## 質問がありますか？
+[BSMG Discord](https://discord.gg/beatsabermods) のサポートチャンネルをご覧ください！

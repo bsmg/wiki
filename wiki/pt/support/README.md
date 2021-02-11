@@ -13,7 +13,7 @@ sidebar: auto
 6. [Ainda tens problemas](#6-still-having-issues)
 
 ## 0. Atualizações
-Após uma atualização, o Discord do BSMG `#anúncios-servidor` deverá ter instruções mais atualizadas sobre o estado dos mods. As seguintes são instruções mais pormenorizadas do procedimento mais comum.
+Após uma atualização, o canal no Discord do BSMG `#server-announcements` deverá ter instruções mais atualizadas sobre o estado dos mods. As seguintes são instruções mais pormenorizadas do procedimento mais comum.
 
 #### Uma atualização desativou os meus mods
 **Executa o jogo uma vez** na nova atualização. Em seguida, reinstala seus mods utilizando um instalador linkado no [guia de iniciantes](/beginners-guide), preferencialmente o Mod Assistant.
@@ -46,7 +46,7 @@ Se os detalhes da seção 1.1 acima estiverem corretos, tente as soluções abai
 - Faça um backup da pasta `UserData` (opcional)
 - Exclua a pasta UserData
 
-::: aviso Isto irá redefinir todas as configurações de plugins! :::
+::: warning Isto irá redefinir todas as configurações de plugins! :::
 
 **Solução 4.**
 - Realize uma [Instalação Limpa](#clean-installation)

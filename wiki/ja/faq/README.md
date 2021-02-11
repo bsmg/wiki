@@ -1,58 +1,58 @@
 # よくある質問
-## ゲームを始めたばかりですが、どうやって始めるのですか?
+## ゲームを始めたばかりですが、なにから始めるのですか?
 [初心者ガイド](/beginners-guide.md)
 
 ## どうすれば曲が追加出来る？
-> [BeatSaver](https://beatsaver.com) はコミュニティによって作られたカスタム曲のまとめです。 Many other tools and sites enhance the experience of downloading custom songs, but this place is where they are hosted.
+> [BeatSaver](https://beatsaver.com) はコミュニティによって作られたカスタム曲のまとめです。 他の多くのツールやサイトは、カスタム曲をダウンロードする方法をより詳細に説明します, しかし、この場所は、ツール作成者自らが運営しています。.
 
-If you download maps manually from BeatSaver, extract them into a folder and place the files in `Beat Saber/Beat Saber_Data/CustomLevels`. This is the directory that the game natively reads custom maps from.
+BeatSaverから手動でマップをダウンロードする場合は、それらを解凍し、 `Beat Saber/Beat Saber_Data/CustomLevels`にファイルを置きます。 これは、ゲームがネイティブにカスタム曲を読み込むディレクトリです。
 
 ### BeastSaber
-[Beast Saber](https://www.bsaber.com) is a review site that aims to curate all of the songs on BeatSaver. You can also download playlists, follow mappers, find songs using advanced sorting methods and more.
+[Beast Saber](https://www.bsaber.com) は、BeatSaver上のすべての曲を評価することを目的としたレビューサイトです。 プレイリストをダウンロードしたり、マップ製作者をフォローしたり、様々なソートを使用して曲を見つけたりすることもできます。
 
-### Song Management Tools
-The following are programs to be used on the desktop to help you download custom songs, with some other features as well.
+### カスタム曲管理ツール
+以下は、カスタム曲をダウンロードしたり、そのほかの役に立つ機能も備えたデスクトップ上で使用するプログラムです。
 * refer to the [original English version](../../faq/README.md),
 * wait for a translation to be done,
 
-## How do I install playlists?
-**For PC users:**  
-You need to install the `PlaylistLoaderLite` mod. Then you can either
-* Use the `Install Playlist` tool in the Options tab of Mod Assistant.
-* Place the playlist file into `Beat Saber/Playlists` and select it in BeatList, then hit download all.
+## プレイリストをインストールするにはどうすればいいですか?
+**PCユーザーの場合:**  
+`PlaylistLoaderLite` Modをインストールする必要があります。 次に、どちらかを選択できます。
+* ModAssistantのOptionsタブで `プレイリストインストール` ツールを使用します。
+* プレイリストファイルを `Beat Saber/Playlists` に配置し、BeatListで選択し、すべてダウンロードします。
 
-You should now see the playlist next to the Custom Levels album's in-game. If there are levels missing from the playlist, you will need to download them manually either using BeatList or directly from Beatsaver or Bsaber.
+ゲーム内のカスタムレベルの横にプレイリストが表示されます。 プレイリストに欠けているレベルがある場合は、BeatListを使用するか、BeatsaverまたはBsaberから手動でダウンロードする必要があります。
 
-**For Quest users:**  
-You can use [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) to manage the playlists on your Quest. Note that a custom level can only appear once in-game due to a limitation with BMBF.
+**Questユーザーの場合:**  
+Questのプレイリストを管理するには [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) を使用します。 BMBFの機能により、ゲーム内で一度だけカスタムレベルが表示されることに注意してください。
 
-:::warning WARNING for Quest Users Reloading your Custom Songs Folder resets all playlist organization. :::
+:::warning Quest ユーザーへの注意 カスタムソングフォルダを再読み込みすると、すべてのプレイリストの組み合わせがリセットされます。 :::
 
-## How do I make my own custom levels?
-See [mapping](/mapping/)!
+## カスタム曲を作成するにはどうすればいいですか?
+[譜面作成](/mapping/) を参照してください
 
-## How do I load plugins that aren't in Mod Assistant?
-See [this section](/pc-modding.md#manual-installation) in the beginners guide.
+## Mod Assistantにないプラグインをどのようにロードしますか？
+初心者ガイドの [このセクション](/pc-modding.md#manual-installation) を参照してください。
 
-## Does multiplayer have crossplay?
-Officially, multiplayer is limited to playing with other people in the store version (Oculus/Steam) you purchased. Additionally, modifying the game on Quest disables official multiplayer.
+## マルチプレイヤーにはクロスプレイがあるか？
+公式には、購入したストアバージョン(Oculus/Steam) で他のユーザーとプレイすることができます。 また、QuestでゲームをModで変更すると、公式のマルチプレイヤーが無効になります。
 
-The BeatTogether mod is the current solution for cross-platform play between the modded game versions. Join their [Discord server](https://discord.com/invite/gezGrFG4tz) and check the `#install-instructions` channel for more information.
+BeatTogetherModは、Modが導入されたプラットフォームのクロスプレイのための現行の解決法です。 [Discordサーバー](https://discord.com/invite/gezGrFG4tz) に参加し、詳細については `#install-instructions` チャンネルを確認してください。
 
-## My game updated and now none of my mods are working!
-Each time the game updates it is possible *(and very likely)* that your existing mods will stop working and need to be updated. The game developers realized this, so when the game updates and you run it for the first time, everything in the `Plugins` folder is moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins in there!**
+## ゲームの更新後、私のModがすべて動作していません！
+ゲームがアップデートされるときに、 *（そして非常によく）* 既存のModが動作を停止し、アップデートする必要があります。 アップデート後初めてゲームを起動するとき、ゲームのディベロッパーは `Plugins`にあるすべてのファイルを新しく`Old 1.xx.x Plugins`ファイルに移動させます。 **すべてのプラグインはそこに置いておいてください**
 
-To get mods back, simply **run the installer again.**  
-The BeatMods repository only includes mods that have been confirmed to work on the latest version of the game!
+Modを取り戻すには、 **インストーラを再度実行してください。 ****  
+BeatModリポジトリには、ゲームの最新バージョンで動作することが確認されたModのみが含まれています。</p>
 
-If you're confused by any of this, visit [Beginners Guide](/beginners-guide.md).
+上記で困ったことがある場合は、 [初心者ガイド](/beginners-guide.md) をご覧ください。
 
-## How does the scoring system work in Beat Saber? How does global ranking work?
-We have sections on the [grips and tricks](/grips-and-tricks.md) page dedicated to the scoring and ranking systems, check them out!
+## Beat Saberで得点のシステムはどのようなものですか? グローバルランキングの仕組みは?
+[グリップとトリック](/grips-and-tricks.md) のセクションには、スコアリングとランキングシステム専用のセクションがあります。チェックしてください！
 
-## My menus are blank and I have nothing to click on!
-If the main window in your game is blank, your save file likely got corrupted.
+## メニューは表示されず、クリックするものは何もありません！
+ゲームのメインウィンドウが表示されない場合、保存ファイルが破損している可能性があります。
 
-To fix it, navigate to: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
+修正するには、次の場所に移動します: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
 
-Delete or rename the Beat Saber folder to something else. When you re-enter the game, it'll recreate the save file and should load the main menu properly.
+Beat Saberフォルダを削除または名前を変更します。 ゲームを再度起動すると、保存ファイルが再作成され、メインメニューが正しく読み込まれます。

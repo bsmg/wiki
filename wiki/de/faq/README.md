@@ -10,7 +10,7 @@ Solltest du Maps manuell von BeatSaver downloaden, entpacke diese in einen eigen
 ### BeastSaber
 [Beast Saber](https://www.bsaber.com) ist eine Rezensions-Seite, die sich zum Ziel gesetzt hat, alle Songs auf BeatSaver zu organisieren und zu bewerten. Du kannst Playlists downloaden, Mappern folgen und Lieder mit erweiterten Sortiermethoden finden.
 
-### Song Management Tools
+### Song Verwaltungstools
 Die folgenden Programme können auf dem Desktop verwendet werden, um dir dabei zu helfen, Custom Songs herunterzuladen, sowie einige andere Funktionen.
 * [Beat Saber Downloader](https://drive.google.com/file/d/1QWedF77hWYbqcigIWa2UcpXlhqGTjwR1/view) ist ein Map Downloading-Tool von Sturdyfool0.
 * [BeatList](https://github.com/Alaanor/beatlist) ist eine App zum Verwalten von Playlists und BeatMaps, von Alaanor.
@@ -48,7 +48,7 @@ Die BeatMods Datenbank enthält nur verifizierte Mods, die auch mit der aktuelle
 Solltest du durch irgendetwas verwirrt sein, besuche unsere [Anleitung für Anfänger](/beginners-guide.md).
 
 ## Wie funktioniert das Punktesystem in Beat Saber? Wie funktioniert die gloable Rangliste?
-Wir haben einen Abschnitt auf unserer[Griffe und Tricks](/grips-and-tricks.md) Seite, speziell über das Punkte- und Rangsystem. Schau gern dort vorbei!
+Wir haben einen Abschnitt auf unserer [Griffe und Tricks](/grips-and-tricks.md) Seite, speziell über das Punkte- und Rangsystem. Schau gern dort vorbei!
 
 ## Mein Menü ist leer und Ich kann nirgendwo klicken!
 Wenn dein Menü leer ist, ist wahrscheinlich deine Speicherdatei defekt.

@@ -30,7 +30,7 @@ Si vous ne l'avez pas encore fait, téléchargez et installez [SideQuest](https:
 
 Ouvrez SideQuest et connectez votre Quest à votre PC. Si vous avez déjà moddé Beat Saber ou si vous avez des scores que vous voulez sauvegarder, allez dans `My Apps` situé dans la barre supérieure de la fenêtre et trouvez Beat Saber.
 
-Cliquez sur l'engrenage qui se trouve à côté et appuyez sur le bouton `BACKUP GAME DATA`. Si vous avez déjà moddé le jeu, vous devez également le désinstaller en appuyant sur sur le bouton `UNINSTALL APP`.
+Cliquez sur l'engrenage qui se trouve à côté et appuyez sur le bouton `BACKUP GAME DATA`. Si vous avez déjà moddé le jeu, vous devez également le désinstaller en appuyant sur le bouton `UNINSTALL APP`.
 
 ![SideQuestUninstall](~@images/beginners-guide/squninstall.png)
 
@@ -40,13 +40,13 @@ Installez le dernier APK de BMBF via le bouton `Install APK from folder` indiqu�
 
 ![InstallAPK](~@images/beginners-guide/apkfromfolder.png)
 
-Une fois qu'ils sont installés avec succès, assurez-vous que la dernière version de Beat Saber est installée et non moddée. :::warning AVERTISSEMENT Lancez Beat Saber une fois et fermez-le avant de le modder ! :::
+Une fois qu'ils sont installés avec succès, assurez-vous que la dernière version de Beat Saber est installée et non moddée. :::warning ATTENTION Lancez Beat Saber une fois et fermez-le avant de le modder ! :::
 
 Après avoir lancé Beat Saber une fois, ouvrez BMBF depuis l'onglet `Oculus TV channels` ou `Unknown Sources` dans votre bibliothèque.![UnknownSources](~@images/beginners-guide/quest_home-menu.jpg)
 
 Suivez chaque étape exactement comme indiqué. Vous devriez voir apparaître [bsaber.com](https://www.bsaber.com). C'est ici que vous pouvez télécharger les chansons personnalisées disponibles.
 
-Si à tout moment pendant l'installation vous voyez la pop-up `Restaurer l'app`, cliquez sur `Fermer`. Cet avertissement vise principalement les versions piratées du jeu, donc si vous moddez uniquement le jeu vous pouvez l'ignorer sans problème.
+Si à tout moment pendant l'installation vous voyez la pop-up `Restore App`, cliquez sur `Close`. Cet avertissement vise principalement les versions piratées du jeu, donc si vous moddez uniquement le jeu vous pouvez l'ignorer sans problème.
 
 ![RestoreApp](~@images/beginners-guide/restoreapp.png)
 
@@ -77,7 +77,7 @@ Défilez avec vos joysticks. Vous pouvez sélectionner n'importe quel mod dans l
 ![Mods QuestBoard](~@images/beginners-guide/questboardmods.png)
 
 ### Avec votre PC
-:::warning AVERTISSEMENT Assurez-vous que votre Quest et votre PC sont sur le même réseau ! :::
+:::warning ATTENTION Assurez-vous que votre Quest et votre PC sont sur le même réseau ! :::
 
 Ouvrez BMBF dans votre Quest et rendez-vous dans l'onglet `Tools`, ici vous devriez voir une addresse web et un numéro de version similaires à ce qui est affiché ci-dessous.
 
@@ -119,7 +119,7 @@ Si vous ne pouvez pas installer des custom songs dans votre Quest, vous pouvez i
 * [QuestSaber Community](https://discord.gg/NXnPYEh) (en anglais) - Un serveur dédié à la création et l'utilisation de sabres, bloqs, et murs pour Quest.
 * [Guides de création des Qosmetics](https://github.com/RedBrumbler/Qosmetics/wiki) (en anglais) - Des guides sur la création de vos propres sabres custom, bloqs et murs sur Quest
 * [[Corriger le problème de synchronisation audio](https://bsaber.com/quest-out-of-sync/) (en anglais)](https://bsaber.com/quest-out-of-sync/)
-* [ScoreSaber](https://new.scoresaber.com/quest) - Tableaux des scores en jeu pour les chansons personnalisées
+* [ScoreSaber](https://new.scoresaber.com/quest) - Classements en jeu pour les chansons personnalisées
 
 ## Dépannage
 :::warning ATTENTION J'ai regardé cette vidéo par Elite Eric, mais je me suis retrouvé coincé/ça n'a pas fonctionné. Où est le problème ? Nous, chez BSMG, recommandons **fortement** d'éviter les tutoriels d'Elite Eric. Après avoir passé en revue une bonne partie de son contenu, ils contiennent une grande quantité d'information incomplètes, erronées, voire complètement fausses. Nos tentatives de le contacter pour corriger ses erreurs n'ont malheureusement pas reçu de réponse, et de nouveaux tutoriels (incorrects également) sont sortis.

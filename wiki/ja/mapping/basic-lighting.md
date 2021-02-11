@@ -5,14 +5,14 @@ next: ./intermediate-lighting.md
 description: Learn how to get started manually lighting your map!
 ---
 
-# Basic Lighting
+# 基本的な照明効果
 _Make Beat Saber a brighter place by manually lighting your maps_
 
-* [Glossary of Terms](./glossary.md)
+* [用語](./glossary.md)
 ---
-Every map needs to have lighting of some sort. Once you know the tools at your disposal, simplistic manual lighting can be very easy. [This link](https://streamable.com/s/x7zj0/vrugyj) is a video example of very simple manual lighting  (Note: The example uses [Map Color Overrides](#map-color-overrides)). You don't need to be an AaltopahWi or a Skeelie to make great lighting!
+すべてのマップには、ある種の照明が必要です。 一度その自由でシンプルな使い方を知れば、照明効果をつけるのはとても簡単です。 この[リンク](https://streamable.com/s/x7zj0/vrugyj) は、非常にシンプルな照明効果のビデオ例です (注意: この例では、 [Map Color Overrides](#map-color-overrides) を使用しています)。 素晴らしい照明を作るために、AaltopahWiiやSkeelieになる必要はありません!
 
-## Lighting Types
+## 照明効果の種類
 The available lighting types are consistent across each of the built-in game environments, though they may be in slightly different positions or not present in some cases.
 * **Center Lights:** Generally lights along the side of the track, underneath the track, and sometimes a chevron at the back of the track. Sometimes called "Bottom/Back/Side" or "BBS" lights.
 * **Side/Top Lasers:** Sets of rotating lasers to the sides of the track or above/below the track, depending on which environment you’ve selected. Rotation is set using the Laser Speed function.
@@ -23,7 +23,7 @@ The available lighting types are consistent across each of the built-in game env
 * **Laser Speed:** Changes the speed of the side laser rotation from stationary (0) to very fast (20). Set independently for the right and left side lasers. Back top lasers do not move. Laser speed increases linearly so **2** is twice as fast as **1** and **5** is five times as fast as **1**.
 * **Boost Event:** Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors. There is no fade or flash option for this event.
 
-## Lighting Events
+## ライティングイベント
 Each lighting type can make use of four different lighting events.
 * **On:** Turns a light on that will stay on until you place a different event type.
 * **Off:** Turning a light off can have as much impact as turning it on, or more.

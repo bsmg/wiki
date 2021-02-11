@@ -29,7 +29,7 @@ _Des informations essentielles pour partir sur des bases saines en utilisant Med
 2. Décompressez le fichier et placez-le dossier extrait où vous le souhaitez sur votre disque dur.
 3. Double-cliquez sur `mediocremapassistant2.exe` dans le dossier extrait afin d'exécuter le logiciel.
 
-::: warning Il est **IMPERATIF** de décompresser le fichier comme indiqué dans l'étape 2 et d'uniquement lancer l'exécutable depuis le nouveau dossier au lieu de le lancer directement depuis le fichier zip, tout manquement provoquera des problèmes avec la création et l'édition de niveaux ! :::
+:::warning ATTENTION Il est **IMPERATIF** de décompresser le fichier comme indiqué dans l'étape 2 et d'uniquement lancer l'exécutable depuis le nouveau dossier au lieu de le lancer directement depuis le fichier zip, tout manquement provoquera des problèmes avec la création et l'édition de niveaux ! :::
 
 #### Premier démarrage
 La première fois que vous lancerez MMA2, vous aurez besoin de donner l'emplacement des dossiers: `CustomLevels` et `CustomWIPLevels`. Vous avez plusieurs options à votre disposition :

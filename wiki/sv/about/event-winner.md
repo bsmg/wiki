@@ -2,28 +2,28 @@
 sidebar: auto
 ---
 
-# Event Winners
-Winners of past contests/events held in the discord. Keep up with `#server-announcements` for such events happening now, or in the future!
+# Event Vinnare
+Vinnare över tidigare tävlingar/event som hölls på discordservern. Håll dig uppdaterad med `#server-announcements` för sådana event som händer nu, eller i framtiden!
 
-## 2020 Christmas Contest
-The third Holiday/Winter contest, Christmas 2: Electric Padoru.
+## 2020 Jultävling
+Den tredje Holiday/Winter tävlingen, jul 2: Electric Padoru.
 ___
-[Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/791761312807911424)
+[Vinnare tillkännagivande](https://discord.com/channels/441805394323439646/441807344591044619/791761312807911424)
 
-### Map Winners
-#### Vanilla
-* **1st:** [PENTATONIX - Sleigh Ride](https://beatsaver.com/beatmap/11c10) by **ETAN**
-* **2nd:** [Majestica - Ghost of Christmas Present ](https://beatsaver.com/beatmap/11c53) by **Cyrix**
-* **3rd:** [BTS - Dynamite (Holiday Remix)](https://beatsaver.com/beatmap/11c07) by **Alekcake**
+### Banorna som vann
+#### Klassisk
+* **1:a:** [PENTATONIX - Sleigh Ride](https://beatsaver.com/beatmap/11c10) av **ETAN**
+* **2:a:** [Majestica - Ghost of Christmas Present ](https://beatsaver.com/beatmap/11c53) av **Cyrix**
+* **3:e:** [BTS - Dynamite (Holiday Remix)](https://beatsaver.com/beatmap/11c07) av **Alekcake**
 
-#### Modded
-* **1st:** [Billie Eilish - Come Out and Play](https://beatsaver.com/beatmap/11bbc) by **SpecVR & Tall_Chilis_Boi**
+#### Modifierad
+* **1:a:** [Billie Eilish - Come Out and Play](https://beatsaver.com/beatmap/11bbc) av **SpecVR & Tall_Chilis_Boi**
 
-### Model Winners
-* **1st:** [Christmas Light Show](https://modelsaber.com/files/platform/1608165443/Christams%20LightShow.plat) Platform by **AkaRaiden**
+### Modell vinnare
+* **1:a:** [Julljusshow](https://modelsaber.com/files/platform/1608165443/Christams%20LightShow.plat) Plattform av **AkaRaiden**
 
-### Grand Prize
-[PENTATONIX - Sleigh Ride](https://beatsaver.com/beatmap/11c10) by **ETAN**
+### Förstapris
+[PENTATONIX - Sleigh Ride](https://beatsaver.com/beatmap/11c10) av **ETAN**
 
 ## 2020 Halloween Contest
 The third Halloween contest. This time with celebrity judges, LostVint, Protostar, Ikeiwa, C418, TougeVR, Mawntee, and PHIABunny. Also **a _whole pumpkin_** was given as part of the Grand Prize courtesy of **Steven 🎀**.
