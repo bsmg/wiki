@@ -42,13 +42,14 @@ Your scoresaber account is tied to your Steam / Oculus username.
 | 246pp | **229pp** (93.1% of raw PP) |
 | 244pp | **219pp**  (89.9% of raw PP) |
 
-3. To rank up, get scores on new songs that are worth more or a similar amount of PP to your top scores. When you don't
-  have any new high PP songs to play, replay songs on your first pages to get better scores. Here is a
-  [spreadsheet by DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672)
-  of all the ranked songs and how much PP they are worth. This list is updated every 24 hours.
+3. To get a better rank, there are quite a few tools you can use to find ranked songs that
+fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to
+see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like.
+The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced) browser extension can extend the functionality
+of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) and [Beat Savior](https://www.beatsavior.io/)
+are external sites that can help you find maps to improve on and keep track of your performance.
 
-Here is another site by [DuoVR](https://duovr.github.io/BigPP/) where you can input your scoresaber profile and it shows
-you songs that you should play for a lot of PP.
+You can find more information in the [Ranking & Scoring Guide](./ranking-guide.md).
 
 *This section is adapted from Tek's writeup in the Beat Saber Canadian discord.*
 

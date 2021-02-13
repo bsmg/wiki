@@ -48,7 +48,7 @@ let us know in #mapping-discussion!
 | **Crossover** | A *block* placed on its opposite-handed side. Example: A blue block placed in lanes one or two, or a red block placed in lanes three or four, primarily when the pattern forces the players’ arms to "cross over" to play. <details><summary>**Example Image**</summary>![Picture of crossover](~@images/mapping/crossover.png)</details>|
 | **Crossover Scissor** | Otherwise known as a *Pickle*, is when a red and blue note are on the same timing, on the opposite-handed side, and are hit simultaneously in opposite directions. Related: [Scissor](#s) <details><summary>**Example Image**</summary>![Picture of crossover scissor](~@images/mapping/arm-tangle-alt.png)</details> |
 | **Cucumber** | Otherwise known as a *Scissor*, is when a red and blue note are on the same timing, and are hit simultaneously in opposite directions. Related: [Crossover Scissor](#c) <details><summary>**Example Image**</summary>![Picture of scissor](~@images/mapping/scissor-cucumber_example.png)</details>
-| **Cursor Precision** | The musical duration of the spacing between *notes*. Typically 1/1 (one note per beat), 1/2 (one note per half beat), or 1/4 (one note per quarter beat). Also known as *Precision* |
+| **Cursor Precision** | The musical duration of the spacing between *notes*. Typically 1/1 (one note per beat), 1/2 (one note per half beat), or 1/4 (one note per quarter beat). Also known as [Precision](#p) |
 
 ## D
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
