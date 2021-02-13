@@ -49,7 +49,10 @@ Then hit Stop Pose Mode.
 ![Stop pose mode](~@images/models/avatars/stoppose.png)
 
 ## To Unity and Beyond
-Open the [Avatar Unity Project](https://bs.assistant.moe/Avatars/resources/UnityProject.zip).
+Download and extract the `BeatSaberCustomAvatars-vx.x.x-UnityProject.zip` from the [Custom Avatars Release](https://github.com/nicoco007/BeatSaberCustomAvatars/releases/latest).
+This zip contains a barebones Unity project to get started with creating avatars. You will need to copy `FinalIK.dll`
+ and `DynamicBone.dll` from the game's installation folder into the `Assets\Libraries` folder of the extracted zip
+ **before opening the project in Unity** to get it working.
 
 ::: danger IMPORTANT
 Use Unity version

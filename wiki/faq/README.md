@@ -23,13 +23,13 @@ The following are programs to be used on the desktop to help you download custom
 ## How do I install playlists?
 
 ### PC
-You need to install the `PlaylistLoaderLite` mod. Then you can either
+You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod.
+ Then you can either:
 
 * Use the `Install Playlist` tool in the Options tab of Mod Assistant.
-* Place the playlist file into `Beat Saber/Playlists` and select it in BeatList, then hit download all.
+* Place the playlist file into `Beat Saber/Playlists`, select it in-game, then hit download all songs.
 
-You should now see the playlist next to the Custom Levels album's in-game. If there are levels missing from the playlist,
-you will need to download them manually either using BeatList or directly from Beatsaver or Bsaber.
+You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
 
 ### Quest
 You can use [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) to manage the playlists

@@ -70,7 +70,7 @@ Export the platform trough the script that you previously added to the gameObjec
 Preferably the game's directory `Beat Saber/CustomPlatforms`.
 
 ::: tip NOTE
-**Once you've got your new sabers working**, [upload them to ModelSaber](https://modelsaber.com)
+**Once you've got your new platform working**, [upload them to ModelSaber](https://modelsaber.com)
 if you want to share them with the world.
 :::
 

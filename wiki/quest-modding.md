@@ -185,7 +185,7 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 The reason adding mods from [BeatMods](https://beatmods.com/) or models from [ModelSaber](https://modelsaber.com/)
 doesn't work is because those mods and sabers are for PC Only.
 
-Get Quest compatible Mods from [Questboard](https://www.questmodding.com/) or `#quest-mods` in the
+Get Quest compatible Mods from [QuestBoard](https://www.questmodding.com/) or `#quest-mods` in the
 Beat Saber Modding Group Discord, with Quest compatible sabers, bloqs, and walls in the [Qosmetics Community](https://discord.gg/qosmetics).
 Once you have your mod or model zip use the [BMBF Web Interface](#using-your-pc) to install it.
 

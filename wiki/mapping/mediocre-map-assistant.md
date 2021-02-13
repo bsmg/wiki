@@ -26,6 +26,15 @@ This guide currently supports both [Mediocre Map Assistant 2](https://git.bsmg.w
 by Assistant and Mediocre Mapper Mk5 (final public release) by Squeaksies. All future public development will occur on MMA2.
 :::
 
+## Prefer video tutorials?
+Check out [Helen Carnate's 17 minute mapping guide](https://www.youtube.com/watch?v=6O3sXmh-kAA) or
+[Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm)
+ lecture series.
+
+:::tip Remember:
+The text guides are always more up to date as it is easier and quicker to change.
+:::
+
 ## Editor Setup
 
 ### Windows Installation
@@ -505,7 +514,8 @@ by **+1 Rabbit** to make the one time adjustment!
 <!-- markdownlint-enable MD013 -->
 ![FatalError](~@images/mapping/mma2-no_directx.jpg)
 
-* If your error matches what is shown in the picture. Close out of the dialog and install this [DirectX driver](https://www.microsoft.com/download/details.aspx?id=35).
+* If your error matches what is shown in the picture. Close out of the dialog and install this
+ [Unreal Engine 4 Prerequisite Package](https://mma2.topc.at/UE4PrereqSetup_x64.exe).
   * If you get this error while installing the driver.  
    ![directX Install Error](~@images/mapping/mma2-directXError.png)
       1. Download and run the [.NET Framework Repair Tool](https://docs.microsoft.com/dotnet/framework/install/repair).

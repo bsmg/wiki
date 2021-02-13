@@ -113,8 +113,8 @@ to your plays. This curve is **0.965^(x-1)** where **x** is the position of that
 which can be found on your profile.
 
 You might have noticed that in your list, there are 2 numbers which end with PP. One of these numbers is **blue** and
-represents the raw amount of PP you get from that play, before the curve is applied. The second number is **(grey)** and
-shows the actual weighted amount of PP you are getting from that play after the curve is applied.
+represents the raw amount of PP you get from that play, before the curve is applied. The second number is gray and in parenthesis
+showing the actual weighted amount of PP you are getting from that play after the curve is applied.
 
 ![Raw and Weighted PP](~@images/ranking-guide/raw&weighted_pp.png "Raw & Weighted PP")
 
@@ -148,21 +148,21 @@ amount of PP.
 
 ### How can I improve and get more PP?
 To improve and get a better rank in the global ranking, there are quite a few tools you can use to find ranked songs that
-fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to
-see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like.
-The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced) browser extension can extend the functionality
-of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) and [Beat Savior](https://www.beatsavior.io/)
-are external sites that can help you find maps to improve on and keep track of your performance.
+ fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to
+ see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like.
+ The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) or [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme)
+ browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee)
+ and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep
+ track of your performance.
 
 For more precise tips and tricks, go refer to the [Useful Tips & Links](#useful-tips-links) chapter.
 
 ## Modifiers
 
 ### Modifiers & Ranked songs
-Since the **v12.0p1** update, a lot of modifiers got added and some already existing ones have a different effect.
-When it comes to ranked maps, all the **Negative Modifiers** apply on the score. This means **Negative Modifiers**
+When it comes to ranked maps, all the **Negative Modifiers** such as No Fail apply on the score. This means **Negative Modifiers**
 can be used on any ranked map but they will obviously penalize your score and reward less PP.
-As for the **Positive Modifiers**, they only take effect on two ranked maps as of now;
+**Positive Modifiers** only take effect on two ranked maps as of now;
 [Overkill mapped by Nuketime](http://scoresaber.com/leaderboard/87194) and [Overkill mapped by Kry](http://scoresaber.com/leaderboard/86492).
 They are used to test the effects of **Positive Modifiers** on ranked maps and to find a way to integrate them on all the
 other ranked maps. You can obviously play any other map (including ranked ones) and the modifiers will all work but they
@@ -171,13 +171,10 @@ can be seen to the right of the score.
 
 With this said, here is a list of all the modifiers in the game, their effects on score and how they affect gameplay:
 
-#### No Fail (-0.50)
-Removes the health bar which makes it impossible to fail. Contrary to older versions of the game, No Fail will now
-submit scores on the leaderboard unless used on the Practice Mode.
-
 <!-- markdownlint-disable MD013 -->
 | Modifier | Description |
 | - | - |
+| No Fail (0.00/-0.50) | Acts as a safety net letting you continue playing if you fail. As of version 1.13.2, this modifier applies the score penalty only if you lose all of your health during the song. |
 | No Obstacles (-0.05) | Removes all of the obstacles (walls) from the map. |
 | No Bombs (-0.10) | Removes all of the bombs from the map. |
 | Slower Song (-0.30) | Slows down the song to 85% of the original speed. |
@@ -220,7 +217,9 @@ more will improve pattern recognition, condition your body, and build muscle mem
 #### Evaluate your own gameplay
 Recording yourself is great to see where you could improve, whichever it’s only your gameplay or it is with a webcam.
 Analyzing yourself play can be really useful to see your common mistakes. You can also watch your own replays by
-clicking the arrow next to your score in the leaderboard.
+clicking the info icon next to your score in the leaderboard, then the button in the top right corner of the info card.
+
+Note: Quest currently requires an additional mod to record and watch replays.
 
 #### Watch better players play and ask them tips
 If you have an opportunity, try to watch better players and use some of their techniques to improve. Copying everything

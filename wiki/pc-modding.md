@@ -64,7 +64,7 @@ the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsa
 
 ### BeatSaver
 [BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community.
-Many other tools and sites enhance the experience of downloading custom songs, but this site is the source of truth.
+Many other tools and sites enhance the experience of downloading custom songs, but this site is where they are stored.
 To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.
  You can also use the in-game downloader plugin, BeatList, or Mod Assistant's OneClick™ Install feature.
 
