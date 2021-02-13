@@ -3,6 +3,7 @@ sidebar: auto
 ---
 
 # Linux Modding Guide
+
 ## Preface
 Most Beat Saber mod installers weren't built to run on Linux, so we have to do some small things to get it to work on Linux.
 It is very similar to a Windows install, but you will need some workarounds.
@@ -12,21 +13,24 @@ Using mods in Linux isn't supported by mod developers, so you might encounter bu
 :::
 
 ### Using Beataroni
-
 ::: danger
 **Run the game at least once** before trying to mod the game! This applies to reinstalling your game too.
 :::
 
-1. Download Beataroni from [GitHub](https://github.com/geefr/beatsaber-linux-goodies/releases) and extract it to a directory on your system. 
-```
+1. Download Beataroni from [GitHub](https://github.com/geefr/beatsaber-linux-goodies/releases) and
+extract it to a directory on your system.
+
+```sh
 tar -xzf Beataroni-linux64-1.0.tar.gz
 ```
+
 2. Run `Beataroni-Linux.sh`.
 3. Type in your Beat Saber installation location and select the correct version then press **continue**.
 
 ![Beataroni Beat Saber Installation and Version Select Screen](~@images/modding/beataroni-start.png)
 
-4. Select the mods you want to install then press **continue**. You will need `BSIPA` (at the top of the list) as it is a dependency for all other mods.
+4. Select the mods you want to install then press **continue**. You will need `BSIPA` (at the top of the list)
+as it is a dependency for all other mods.
 
 ![Beataroni Mod List Screen](~@images/modding/beataroni-mod-list.png)
 
@@ -41,17 +45,21 @@ tar -xzf Beataroni-linux64-1.0.tar.gz
 **Run the game at least once** before trying to mod the game! This applies to reinstalling your game too.
 :::
 
-Make sure you have [Wine](https://wiki.winehq.org/Download) and [Winetricks](https://github.com/Winetricks/winetricks/blob/master/README.md) installed before starting.
+Make sure you have [Wine](https://wiki.winehq.org/Download) and [Winetricks](https://github.com/Winetricks/winetricks/blob/master/README.md)
+installed before starting.
 
 1. Make a new 32-bit Wine prefix.
+
 ```bash
-$ export WINEARCH="win32"
-$ export WINEPREFIX=~/.winemods
-$ wineboot -u
+export WINEARCH="win32"
+export WINEPREFIX=~/.winemods
+wineboot -u
 ```
+
 2. Install the dotnet472 and d3dcompiler_47 packages using winetricks. If it asks to restart choose 'Restart later'.
+
 ```bash
-$ winetricks dotnet472 d3dcompiler_47
+winetricks dotnet472 d3dcompiler_47
 ```
 
 ![dotnet472](https://i.imgur.com/r62nmZW.png)
@@ -60,14 +68,15 @@ $ winetricks dotnet472 d3dcompiler_47
 There will be multiple install prompts you will have to go through, this is normal!
 :::
 
-3. Download a [mod installer](/beginners-guide.md#installers) and put it in your [install folder](/faq/install-folder.md).  
-![Install Folder](https://i.imgur.com/ap2ofvE.png)
+3. Download a [mod installer](/beginners-guide.md#installers) and put it in your [install folder](/faq/install-folder.md).
+  <br/>![Install Folder](https://i.imgur.com/ap2ofvE.png)
 4. Move your Beat Saber folder onto your desktop and open a terminal
 5. Navigate to your Beat Saber folder in a terminal and run your installer in Wine.
-```bash
-$ cd Desktop
-$ cd "Beat Saber"
-$ wine BeatSaberModManager.exe
+
+```sh
+cd Desktop
+cd "Beat Saber"
+wine BeatSaberModManager.exe
 ```
 
 ![BeatSaberModManager](https://i.imgur.com/sXUhA8x.png)
@@ -109,7 +118,8 @@ If you messed up the registry file, either verify your game files or reinstall B
 :::
 
 1. Navigate to `/.local/share/Steam/steamapps/compatdata/620980/pfx/` and open `user.reg`
-2. Inside the file, navigate to `[Software\\Wine\\DllOverrides]`. Try <kbd>Ctrl + F</kbd> and type DllOverrides to get there quicker
+2. Inside the file, navigate to `[Software\\Wine\\DllOverrides]`. Try <kbd>Ctrl + F</kbd> and type DllOverrides
+  to get there more quickly
 3. Paste `"winhttp"="native,builtin"` on the bottom below the others, and save the file.
 
 ![DLL Overrides](https://i.imgur.com/dgemtef.png "DLL Overrides")
