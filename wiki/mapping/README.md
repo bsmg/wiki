@@ -258,8 +258,7 @@ information and an in-depth FAQ is available on the [ScoreSaber Discord](https:/
   and have their map modded by a knowledgeable source.
 
 :::tip Want an even more detailed look?
-Review the [Ranking Team Handbook](https://scoresaber.com/criteria)
-for some of the more ambiguous ranking considerations.
+Review the [Ranking Criteria](https://scoresaber.com/criteria) for some of the more ambiguous ranking considerations.
 :::
 
 * Once your map has been modded and revised, it’s ready to be presented to a ranking team member or recruit to review.
@@ -320,7 +319,7 @@ Follow these steps to test any of your maps made with a community editor using P
 
 1. If your WIP song folder isn’t already in `Beat Saber_Data\CustomWIPLevels` then place a copy there.
 2. Access your map in-game via the CustomWIPLevels category in the song pack menu. Use practice mode to play
-  (the small button next to the yellow play button).
+  (the button next to the play button).
 
 **Made changes to your map while the game is open?**  
 Click on the game window. Then while you are on the Main Menu or Song Select Menu press <kbd>Ctrl + r</kbd> on your keyboard.
@@ -371,7 +370,7 @@ Follow these steps to test any of your maps made with a community editor using a
 2. Once uploaded, click Sync to Beat Saber at the top right corner of the page
   <br/>![BMBF Browser](~@images/mapping/bmbf_browser.png)
 3. Access your map in-game via the Custom Songs playlist in the song pack menu. Use practice mode to play
-  (the small button next to the play button).
+  (the button next to the play button).
 
 :::tip NOTE
 
