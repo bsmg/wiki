@@ -136,111 +136,111 @@ Messe dich mit deinen Freunden mit dem [Versus](https://versusmod.com/) Mod. **R
 [GitHub](https://github.com/nate1280)
 
 ## opl
-Creator of the HTTPStatus tool that exposes tons of information about the game for other developers to use, often in fancy overlays for Twitch streams!
+Schöpfer des HTTPStatus Tool, das tonnenweise Informationen über das Spiel für andere Entwickler zur Verfügung stellt. Oft in Form von schicken Overlays für Twitch-Streams!
 
-**Roles:** Modder **Contributions:** HTTPStatus
+**Rollen:** Modder **Beiträge:** HTTPStatus
 
 [GitHub](https://github.com/opl-)
 
 ## PlasmaPower
-A big part of the development for the Chroma suite, and a major contributor for updating plugins to 0.13!
+Ein großer Teil der Entwicklung für die Chroma-Suite und ein wichtiger Beitrag für die Aktualisierung der Plugins auf 0.13!
 
-**Roles:** Modder **Contributions:** CustomUI, Chroma
+**Rollen:** Modder **Beiträge:** CustomUI, Chroma
 
 [GitHub](https://github.com/PlasmaPower)
 
 ## PureDark
-If you've ever played darth maul mode, you have this guy to thank.
+Wenn du jemals den Darth Maul Modus gespielt hast, musst du dem Typen danken.
 
-**Roles:** Modder **Contributions:** Darth Maul Plugin, Reactive Materials, Custom Key Events, Transparent Walls
+**Rollen:** Modder **Beiträge:** Darth Maul Plugin, Reactive Materials, Custom Key Events, Transparent Walls
 
 [GitHub](https://github.com/PureDark)
 
 ## raftario
-does things sometimes ????
+tut manchmal Dinge????
 
-**Roles:** Modder **Contributions:** Misc Quest stuff, BeatMods
+**Rollen:** Modder **Beiträge:** Misc Quest stuff, BeatMods
 
 [GitHub](https://github.com/raftario)
 
 ## Rolo
-Creator of the Custom Platforms plugin and pumpkin carving extrordinaire. Also responsible for MVP so you can watch the Shrek movie as you play it in game!
+Schöpfer des Custom Platforms Plugins und exzellenter Kürbisschnitzer. Auch verantwortlich für MVP damit du den Shrek-Film sehen kannst, während du spielst!
 
-**Roles:** Modder **Contributions:** Custom Platforms, MVP
+**Rollen:** Modder **Beiträge:** Custom Platforms, MVP
 
 [GitHub](https://github.com/rolopogo) | [PayPal](https://www.paypal.me/RobynLovett) | [Ko-Fi](http://ko-fi.com/robynlovett)
 
 ## Ruu
-Our own LIV insider and creator of Saber Tailor and the original Custom Colors plugin.
+Unser eigener LIV-Insider und Schöpfer von Saber Tailor und dem originalen Custom Colors Plugin.
 
-**Roles:** Modder **Contributions:** Saber Tailor (original), Custom Colors (original)
+**Rollen:** Modder **Beiträge:** Saber Tailor (Original), Custom Colors (Original)
 
 [GitHub](https://github.com/SteffanDonal)
 
 ## Sc2ad
-"He plays a massive role in the Quest community and has helped a ton of modders create amazing mods! He uses a lot of his time on improving the core library for the Quest to make it easier for modders and is currently working on a package manager! He's been here from the start, and we appreciate all the work he's done to help the Quest community!"
-- Someone from BSMG
+"Er spielt eine massive Rolle in der Quest-Community und hat einer Menge Modder geholfen, erstaunliche Mods zu erstellen! Er verwendet einen Großteil seiner Zeit für die Verbesserung der Kernbibliothek für die Quest, um es für Modder einfacher zu machen und arbeitet derzeit an einem Paketmanager! Er ist von Anfang an dabei und wir schätzen all die Arbeit, die er für die Quest-Community geleistet hat!"
+- Jemand von BSMG
 
-**Roles:** Modder **Contributions:** quest.
+**Rollen:** Modder **Beiträge:** Quest.
 
 [GitHub](https://github.com/sc2ad) | [Twitch](https://www.twitch.tv/sc2ad) | [PayPal](https://paypal.me/sc2ad) | [Ko-Fi](https://ko-fi.com/sc2ad_support)
 
 ## Shadnix
-Current maintainer of Saber Tailor
+Derzeitiger Betreuer von Saber Tailor
 
-**Roles:** Modder **Contributions:** Saber Tailor, Level Pack Mover
+**Rollen:** Modder **Beiträge:** Saber Tailor, Level Pack Mover
 
 [GitHub](https://github.com/Shadnix-was-taken)
 
 ## Shoko84
-Making sure we're all nice and hydrated after cutting the blocks.
+Stellt sicher, dass wir nach dem Cutten der Blöcke alle schön hydriert sind.
 
-**Roles:** Modder **Contributions:** Custom Exit, Drink Water Mod
+**Rollen:** Modder **Beiträge:** Custom Exit, Drink Water Mod
 
-[GitHub](https://github.com/Shoko84) | [Twitch](https://www.twitch.tv/shoko84) | [Donate](https://streamlabs.com/shoko84)
+[GitHub](https://github.com/Shoko84) | [Twitch](https://www.twitch.tv/shoko84) | [Spenden](https://streamlabs.com/shoko84)
 
 ## SkyKiwi
-The madman who started Chroma and Chromatoggle. He added things to the game that suggests that his head isn't screwed on right, as well as created RGB lighting for mappers to use.
+Der Madman, der Chroma und Chromatoggle ins Leben gerufen hat. Er fügte dem Spiel Dinge hinzu, die darauf hindeuten, dass sein Kopf nicht richtig aufgeschraubt ist und erstellte RGB-Lighting, die Mapper verwenden können.
 
-**Roles:** Modder **Contributions:** Chroma, Chromatoggle
+**Rollen:** Modder **Beiträge:** Chroma, Chromatoggle
 
-[GitHub](https://github.com/BinaryElement) | [Twitch](https://www.twitch.tv/skykiwitv) | [Donate](https://streamelements.com/skykiwitv/tip)
+[GitHub](https://github.com/BinaryElement) | [Twitch](https://www.twitch.tv/skykiwitv) | [Spenden](https://streamelements.com/skykiwitv/tip)
 
 ## Soliel
-Mother of the original `!bsr` mod.
+Mutter des ursprünglichen `!bsr` Mod.
 
-**Roles:** Modder **Contributions:** Original Twitch Integration
+**Rollen:** Modder **Beiträge:** Original Twitch Integration
 
-[GitHub](https://github.com/soliel) | [Donate](https://streamlabs.com/soliela)
+[GitHub](https://github.com/soliel) | [Spenden](https://streamlabs.com/soliela)
 
 ## StarGazer1258
-Creator of BeatDrop, everyone's favorite desktop application for custom song management!
+Schöpfer von BeatDrop, jedermanns Lieblings Desktop Anwendung zur Verwaltung eigener Songs!
 
-**Roles:** Modder **Contributions:** BeatDrop
+**Rollen:** Modder **Beiträge:** BeatDrop
 
-[GitHub](https://github.com/StarGazer1258) | [Donate](https://www.patreon.com/bePatron?u=18487054)
+[GitHub](https://github.com/StarGazer1258) | [Spenden](https://www.patreon.com/bePatron?u=18487054)
 
 ## Trishume
-A massive contributor to the development of quest mods.
+Ein massiv Beitragender zur Entwicklung von Quest-Mods.
 
-**Roles:** Modder
+**Rollen:** Modder
 
 ## vanZeben
-Fastest steam notification sending simulator developer in the West. He also created the mod repository BeatMods!
+Schnellster Steam Simulator für das Senden von Benachrichtigungen Developer im Westen. Er hat auch das Mod-Repository BeatMods erfunden!
 
-**Roles:** Modder **Contributions:** Beat Saber Online, BeatMods Creator
+**Rollen:** Modder **Beiträge:** Beat Saber Online, BeatMods Creator
 
 [GitHub](https://github.com/vanZeben) | [Twitch](https://www.twitch.tv/vanzeben)
 
 ## xyonico
-Original creator of SongLoader and CameraPlus, and a major contributor to the custom avatar plugin. He's since moved on to develop other VR games, like [Waltz of the Wizard](https://store.steampowered.com/app/1094390/Waltz_of_the_Wizard_Extended_Edition/)!
+Ursprünglicher Schöpfer von SongLoader und CameraPlus und einer der Hauptverantwortlichen für das Custom Avatar Plugin. Inzwischen hat er weitere VR-Spiele entwickelt, wie [Waltz of the Wizard](https://store.steampowered.com/app/1094390/Waltz_of_the_Wizard_Extended_Edition/)!
 
-**Roles:** Modder **Contributions:** SongLoader, CameraPlus
+**Rollen:** Modder **Beiträge:** SongLoader, CameraPlus
 
-[GitHub](https://github.com/xyonico/) [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
+[GitHub](https://github.com/xyonico/) [Beiträge](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
 
 ---
 
-::: tip See Also **Support:** [Pespiri](./supports.md#pespiri)  
+::: tip Siehe auch **Support:** [Pespiri](./supports.md#pespiri)  
 **Moderator:** [Caeden117](./moderators.md#caeden117)  
 **Staff:** [+1 Rabbit](./staff.md#_1-rabbit) | [lolPants](./staff.md#lolpants) | [Megalon](./staff.md#megalon) | [Reaxt](./staff.md#reaxt) | [Lillie](./staff.md#lillie) | [Steven](./staff.md#steven-🎀) :::

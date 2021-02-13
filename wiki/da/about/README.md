@@ -1,38 +1,38 @@
 # Om os
-Har du nogensinde undret dig over hvem der har lavet din favorit mod eller lavet mod installeren? This page tells you a little bit about some of the major Beat Saber modding community contributors. The community wouldn't exist without the blood, sweat, and tears of these amazing volunteers.
+Har du nogensinde undret dig over hvem der har lavet din yndlingsmod eller lavet mod installeren? Denne side fortæller dig lidt om nogle af de personer der har haft størst indflydelse på Beat Saber Modding fællesskabet. Dette fællesskab ville ikke kunne eksistere uden de fantastiske frivilliges blod, sved og tårer.
 
-> *Note: some people could go under multiple sections, so I tried to sort these pages the best I could. If you'd like anything about your section changed, feel free to contact us or contribute yourself!*
+> *Bemærk: Nogle personer kunne gå ind under flere sektioner, så disse sider er sorteret efter bedste evne. Hvis du vil have noget i din sektion ændret, er du velkommen til at kontakte os eller bidrage selv!*
 
-## Who We Are
+## Hvem vi er
 ### [Staff](./staff.md)
-The team that runs the show at the forefront and behind the scenes. Whether it comes to project management, plugin approval, managing the core services, event coordination, or many of the other secret projects, there's always lots of work to be done. The community wouldn't exist without the countless hours contributed by these incredible individuals, so please give them a virtual round of applause (and help pay for the services if you can...)
+Det team, der kører showet i forgrunden og bag kulisserne. Uanset om det kommer til projektstyring, plugin godkendelse, styring af de centrale tjenester, arrangementskoordination, eller mange af de andre hemmelige projekter, er der altid masser af arbejde, der skal gøres. Fællesskabet ville ikke eksistere uden de utallige timer, som disse utrolige individer har bidraget med, så giv dem en virtuel klapsalve (og hjælp med at betale for de tjenester, hvis du kan...)
 
 ### [Moderators](./moderators.md)
-With a server so large, a lot of moderation is required to keep everything under control. You can thank this team for keeping the streets clean.
+Det kræver meget moderation at holde en så stor server under kontrol. Du kan takke dette team for at holde gaderne rene.
 
 ### [Modders](./modders.md)
-The game as we know it wouldn't exist if people didn't want to add their own spin to it. These are the modders who have spent countless of their own hours to help us personalize the game.
+Spillet som vi kender det ville ikke eksistere, hvis folk ikke ønskede at tilføje deres eget twist til det. Dette er modderne som har brugt utallige af deres egne timer, for at hjælpe som med at personliggøre spillet.
 
 ### [Supports](./supports.md)
-The Support role is a symbol of thanks. Thanks for the thousands of messages sent in the support channels to help people sort out their mods, and for building a knowledge of troubleshooting base through macros and the wiki.
+Support rollen er et symbol på tak. Tak for de tusindvis af beskeder sendt i support kanalerne for at hjælpe folk med at rede deres mods ud og for at opbygge en vidensbase for fejlfinding gennem makroer og wikien.
 
 ### [Mapping Supports](./mapping-supports.md)
-The Mapping Support role is a symbol of thanks. Thanks for the thousands of messages sent in the mapping discussion channel and time spent building and maintaining the mapping resources to help people learn how to make maps.
+Mapping Support rollen er et symbol på tak. Tak for de tusindvis af beskeder sendt i mapping discussion kanalen og tiden brugt på at opbygge og bibeholde de mapping resurser, der hjælper folk med at lære at lave baner.
 
 ### [3D Artists](./3d-artists.md)
-From sabers to notes, custom models have always been a popular aspect of modded beat saber which wouldn't be possible without them.
+Fra sabers til bloks, brugerlavede modeller har altid været et populært aspekt af moddet beat saber, hvilket ikke ville være muligt uden dem.
 
 ### Mappers
-Each of your favorite maps is carefully crafted and tested over many hours by a talented mapper. As much as we'd love to include them here too, there are WAY too many of them. If you like someone's maps, give it a thumbs up in game, review it on [BeastSaber](https://bsaber.com), or tell them personally! They'll really appreciate it.
+Hver af dine yndlings baner er omhyggeligt udformet og testet over mange timer af en talentfuld mapper. Så meget som vi ville elske at inkludere dem her, er der simpelthen ALT for mange af dem. Hvis du kan lide nogens maps, så opstem den i spillet, giv den et review på [BeastSaber](https://bsaber.com), eller fortæl dem det personligt! De vil virkelig sætte pris på det.
 
-> Furthermore, there is a community run discord to help connect mappers/artists with clients if you would like to commission something. We encourage you to reach out in the [Beat Saber Commissions server.](https://discord.gg/4RbcH5G)
+> Desuden, er der en discord som styres af fællesskabet for at hjælpe mappers/kunstnere med at finde kunder, hvis du ønsker at bestille noget. Vi opfordrer dig til at række ud i [Beat Saber Commissions-serveren.](https://discord.gg/4RbcH5G)
 
 ### [Mapping Resources Contributors](/mapping/mapping-credits.md)
-A group of experienced mappers that took the time to write down and share their knowledge to help others get started or improve. Checkout their maps and consider supporting them!
+En gruppe af erfarne mappers der har taget sig tiden til at nedskrive og dele deres viden for at hjælpe andre med at komme i gang eller forbedre sig. Tjek deres maps ud og overvej at støtte dem!
 
 ### [Event Winners](./event-winner.md)
-Winners of past contests/events held in the discord. Keep up with `#server-announcements` for such events happening now, or in the future!
+Vindere af tidligere konkurrencer/begivenheder afholdt på discorden. Hold trit med `#server-announcements` for sådanne begivenheder der sker nu, eller i fremtiden!
 
-## About This Wiki
+## Om denne Wiki
 
-This is a wiki for all things relating to modding the game Beat Saber. It was originally created to replace the `#beginners-guide` and `#faq` channels of the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods).
+Dette er en wiki til alle ting i forbindelse med modding af spillet Beat Saber. Den blev oprindeligt oprettet for at erstatte `#beginners-guide` og `#fag` kanalerne i [Beat Saber Modding Group Discorden](https://discord.gg/beatsabermods).
