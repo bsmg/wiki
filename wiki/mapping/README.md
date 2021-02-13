@@ -52,6 +52,7 @@ Text guides aren't your thing? Checkout these video series!
 :::tip Remember:
 The text guides on this wiki are always more up to date as it is easier and quicker to change.
 :::
+
 #### Recommended
 
 * [Helen Carnate's Mapping Tutorial](https://www.youtube.com/watch?v=6O3sXmh-kAA) -
@@ -63,7 +64,7 @@ The text guides on this wiki are always more up to date as it is easier and quic
 * [TranquillizeMe's Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc) -
   Covers various lighting techniques and general lighting tips.
 
-:::warning I watched this video by Elite Eric, but I got stuck/it didn't work. What gives?
+:::danger I watched this video by Elite Eric, but I got stuck/it didn't work. What gives?
 We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After reviewing much of his content, they contain
 a large amount of incomplete, erroneous, or straight up incorrect information. Attempts to reach out to him to correct
 these errors has unfortunately been met with silence and new (also incorrect) tutorials.
@@ -305,7 +306,7 @@ get a feel for your map. [Third-party or "outside"](#community-third-party-testi
 yourself tests your pre-release map and provides constructive feedback and is helpful in highlighting issues to which you
 may be "map blind."
 
-::: danger 
+::: danger
 You **DO NOT** need to upload your map to BeatSaver in order for you or anyone else to test.
 :::
 
@@ -401,9 +402,13 @@ either video or text format in a DM or in the `#mapping-discussion` channel.
   Meme or Shitpost maps do not belong as they end up wasting the testplayers time.
 :::
 
-1. Press the `Package song to zip` button in [MMA2](#mediocre-map-assistant-2) to create a compressed .zip of your map.  
-![](~@images/mapping/mma2-package-zip.jpg)  
-If you do not have MMA2 watch this [How to Video](https://streamable.com/u20ci)to create a compressed .zip file of the individual song files.
+1. Create a compressed .zip file of the individual song files.
+    * If you are using [MMA2](./mediocre-map-assistant.md), you can press the `Package Song to Zip` button in the Song Info
+    Settings to create a compressed .zip of your map.  
+    ![Package Song to Zip button](~@images/mapping/mma2-package-zip.jpg)  
+    * If you are using [Beatmapper.app](#beatmapper-app), follow their [downloading instructions](https://beatmapper.app/docs/manual/publishing#downloading-your-map).
+    * You can manually create the zip by following this [How to Video](https://streamable.com/u20ci) if you are not using
+     a web based editor.
 2. Upload your map to `#testplays` using the following format:  
 
 * **Map:** The name and artist of your map  
@@ -433,8 +438,10 @@ You can copy and paste the following template into Discord:
 **Feedback:**
 **Status:**
 ```
-### Helping Out
-Do you like the idea of playing new songs before they are ever released on BeatSaver? Do you want to help out the community? Consider becoming a testplayer! See [How to Testplay](./how-to-testplay.md) to get started!
+
+### Help Playtest
+Do you like the idea of playing new songs before they are ever released on BeatSaver? Do you want to help shape the
+ mapping community? Consider becoming a testplayer! Check out the [How to Testplay](./how-to-testplay.md) guide to get started!
 
 ## Publishing Songs
 Once your song has been mapped, lighted, and playtested and it’s a finished product you’re ready to release it to the world!
@@ -473,9 +480,12 @@ If you need to upload a new version of your map you will need to delete the old 
 Here are solutions for some common errors when uploading a Beatmap.  
 Encountered something not listed here? Drop into `#mapping-discussion` for assistance.
 
-:::danger Remember: 
+:::danger Remember:
+
 * You should have your map [playtested](#playtesting) before uploading!  
-* **DO NOT** upload maps created by auto-generation software such as Deepsaber or Beat Sage. Please use their sharing channel on Discord to share generated maps!
+* You do not need upload maps created by auto-generation software such as Deepsaber or Beat Sage to install them in your
+ game. If you are on PC, you can unzip the files into your `CustomLevels` folder. If you are on Quest, follow the
+ [Testing on a Quest](#testing-on-a-quest) steps to install the map.
 :::
 
 ---

@@ -68,7 +68,7 @@ for ignoring it.
 
 ![RestoreApp](~@images/beginners-guide/restoreapp.png)
 
-## Restoring save data
+## Restoring Save Data
 
 ### Restoring from SideQuest
 Go back to the same menu you used to backup your data and click the `OPEN BACKUPS` button.
@@ -79,7 +79,7 @@ Afterwards, go back to the menu and press the circular arrows located beside you
 This is to restore your scores.
 The button is highlighted in the image [here](#installing-bmbf-with-sidequest).
 
-## Installing mods
+## Installing Mods
 
 ### Inside your Quest
 :::warning
@@ -92,7 +92,8 @@ Click it, then click the `QuestBoard` button.
 
 ![globequestboard](~@images/beginners-guide/globequestboard.png)
 
-You should be greeted with the [QuestBoard](https://www.questmodding.com/) website below. Next, select the `DOWNLOAD MODS` tab.
+You should be greeted with the [QuestBoard](https://www.questmodding.com/) website below.
+Next, select the `DOWNLOAD MODS` tab.
 
 ![questboardhome](~@images/beginners-guide/questboardhome.png)
 
@@ -103,7 +104,9 @@ onscreen, or select the latest `.zip` in the Releases list, respectively.
 ![questboardmods](~@images/beginners-guide/questboardmods.png)
 
 ### Using your PC
-Find and download other Quest mods from the [BSMG Discord](https://discord.com/invite/beatsabermods) in `#quest-mods`.
+You can find and download other Quest mods from the [BSMG Discord](https://discord.com/invite/beatsabermods) in
+the `#quest-mods` channel.
+
 :::warning
 Make sure your Quest and PC are on the same network!
 :::
@@ -125,10 +128,13 @@ then it won't automatically enable. To enable an old mod, go to the `Mods` tab a
 If you want to use the same method of downloading songs as you do in BMBF in your Quest,
 just replace `upload` in the URL with `browser`.
 
-## Installing songs
-:::tip Recommended
-Do not filter songs by "Top All", "Rating", "Downloads" or "Plays". Most maps in those sort filters were made before this wiki was created and there were no mapping standards. Try downloading songs from between late 2019 and now to get the best experience in game.
+## Installing Songs
+::: tip
+Most maps in the "Top All", "Rating", "Downloads" or "Plays" sort filters were created before
+good mapping practices were established. Try downloading songs released between late 2019 and now to get the best
+custom levels experience.
 :::
+
 ### Inside your Quest
 There are 2 sources to getting custom maps inside your Quest using the browser window.
 
@@ -151,9 +157,10 @@ If you want to test a map you have created see the [Testing on a Quest](/mapping
 Mapping Wiki section for steps on packing it up for testing!
 :::
 
-## Installing models
-Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your menu title, sabers, bloqs or walls look in game!
-## Useful links and alternative guides
+## Installing Models
+Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your menu title, sabers, bloqs or walls look in-game!
+
+## Useful Links and Alternative Guides
 
 * [Oculus Quest BMBF Installation Guide](https://bsaber.com/oculus-quest-custom-songs/)
 * [General Guide by Sc2ad for Learning The Basics of Asset Modding](https://github.com/sc2ad/beat-saber-community-wiki/blob/master/asset-modding-guide.md)

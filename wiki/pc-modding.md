@@ -31,7 +31,7 @@ If you're on Linux, check out the [Linux page](/modding/linux.md) or [QBeat](htt
 If you run into problems at any point, please head to the [support page](./support) and see if you can identify what
 went wrong before asking in the Discord server. Chances are, your answer is on that page!
 
-:::warning I watched this video by Elite Eric, but I got stuck/it didn't work. What gives?
+::: warning I watched this video by Elite Eric, but I got stuck/it didn't work. What gives?
 We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After reviewing much of his content, they contain
 a large amount of incomplete, erroneous, or straight up incorrect information. Attempts to reach out to him to correct these
 errors has unfortunately been met with silence and new (also incorrect) tutorials.
@@ -52,9 +52,12 @@ version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/Mo
 ![ModAssistant](~@images/beginners-guide/modassistant.png)
 
 ## How to get more songs
-:::tip Recommended
-Do not filter songs by "Top All", "Rating", "Downloads" or "Plays". Most maps in those sort filters were made before this wiki was created and there were no mapping standards. Try downloading songs from between late 2019 and now to get the best experience in game.
+::: tip
+Most maps in the "Top All", "Rating", "Downloads" or "Plays" sort filters were created before
+good mapping practices were established. Try downloading songs released between late 2019 and now to get the best
+custom levels experience.
 :::
+
 ### In-game Downloader
 The `BeatSaver Downloader` Plugin allows you to download maps in-game using the `MORE SONGS` menu button on
 the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com)
@@ -116,14 +119,17 @@ If you have patched the game and just need to install Plugins that are not avail
 
 ### Install Mods
 
-4. Download the mod(s) you wish to install, whether it be from GitHub, the #pc-mods channel, or other sources.
-  **Make sure to download any dependencies required by the mod.**
+4. Download the mod(s) you wish to install, whether it be from GitHub, the [BSMG Discord](https://discord.com/invite/beatsabermods)
+ `#pc-mods` channel,  [BeatMods](https://beatmods.com/#/mods) or other sources.
+ **Make sure to download any dependencies required by the mod.**
 ![Directory Plugins](~@images/beginners-guide/directory-plugins.png "Directory Plugins")
 5. Some mods have installation instructions, some don't. Generally you can just drag and drop the zip contents into your
   beat saber install folder, and the files should go into the corresponding folders.
 
 ## How to uninstall mods
 Either remove the dll from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant.
+
+## Where to go from here
 
 * [Grips and Tricks](./grips-and-tricks.md)
 * [Making Beatmaps](/mapping/)
