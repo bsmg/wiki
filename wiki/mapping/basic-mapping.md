@@ -61,8 +61,8 @@ metadata or in bookmarks can cause problems.
 * There are a few types of "hack" walls that do not require the Mapping Extensions mod: fast walls (fly by you fast),
   hyper walls (fly by you SUPER fast), and fake walls (look like normal walls but don’t cause damage).
 * While these wall types are supported in some editors, they exploit base game mechanics and are considered unrankable.
-* Read up more on non-Mapping Extensions walls in [Intermediate Mapping](./intermediate-mapping.md) and read more on
-  "fancy" walls in [Extended Mapping](./extended-mapping.md)
+* Read up more on base game walls in [Intermediate Mapping](./intermediate-mapping.md) and
+  "fancy" mapping/noodle extensions walls in [Extended Mapping](./extended-mapping.md)
 
 **A few notes about bombs:**
 

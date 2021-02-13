@@ -441,7 +441,7 @@ An integer number which represents the state of the obstacle.
 |`_type`|Result|
 |:-------------------:|-------------------|
 |`0`|Full height wall|
-|`1`|Croutch/duck wall|
+|`1`|Crouch/duck wall|
 
 #### _duration
 The time, in beats, that the obstacle extends for. While `_duration` can go into negative numbers,

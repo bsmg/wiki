@@ -32,8 +32,7 @@ Your scoresaber account is tied to your Steam / Oculus username.
   This curve is `0.965^(x-1)` where `x` is the position of that score on your song list.
   e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play.
   If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get
-  after the curve applies. Here is a list of my current top 4 plays where the raw PP is in italic and the weighted PP is
-  in bold.
+  after the curve applies. Here is a table to illustrate this system:
 
 |Raw PP | Weighted PP |
 | --- | --- |
@@ -43,11 +42,12 @@ Your scoresaber account is tied to your Steam / Oculus username.
 | 244pp | **219pp**  (89.9% of raw PP) |
 
 3. To get a better rank, there are quite a few tools you can use to find ranked songs that
-fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to
-see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like.
-The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced) browser extension can extend the functionality
-of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) and [Beat Savior](https://www.beatsavior.io/)
-are external sites that can help you find maps to improve on and keep track of your performance.
+ fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to
+ see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like.
+ The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) or [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme)
+ browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee)
+ and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep
+ track of your performance.
 
 You can find more information in the [Ranking & Scoring Guide](./ranking-guide.md).
 

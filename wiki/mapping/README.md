@@ -258,13 +258,12 @@ information and an in-depth FAQ is available on the [ScoreSaber Discord](https:/
   and have their map modded by a knowledgeable source.
 
 :::tip Want an even more detailed look?
-Review the [Ranking Team Handbook](https://docs.google.com/document/d/18sT1CEVc-Do_kpAs567BdeJqWSzT9xazp20biA9Th0o/edit?usp=sharing)
+Review the [Ranking Team Handbook](https://scoresaber.com/criteria)
 for some of the more ambiguous ranking considerations.
 :::
 
-* Once your map has been modded and revised, it’s ready to be submitted via the ScoreSaber Discord for review
-  by the ranking team (which involves additional rounds of strict modding and revision).
-* If a ranking team member deems the map acceptable it will be added to the ranking request queue to be voted
+* Once your map has been modded and revised, it’s ready to be presented to a ranking team member or recruit to review.
+* If the ranking team member deems the map acceptable it will be added to the ranking request queue to be voted
   on by the full ranking team.
 
 ## Lighting Practices
@@ -320,7 +319,7 @@ You **DO NOT** need to upload your map to BeatSaver in order for you or anyone e
 Follow these steps to test any of your maps made with a community editor using PC-based VR.
 
 1. If your WIP song folder isn’t already in `Beat Saber_Data\CustomWIPLevels` then place a copy there.
-2. Access your map in-game via the CustomWIPLevels category in the bottom song pack menu. Use practice mode to play
+2. Access your map in-game via the CustomWIPLevels category in the song pack menu. Use practice mode to play
   (the small button next to the yellow play button).
 
 **Made changes to your map while the game is open?**  
@@ -339,7 +338,7 @@ Your changes will be loaded without needing to restart the game!
 
 ### Testing on a Quest
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have
-[SideQuest](https://sidequestvr.com) and [BMBF](https://github.com/kihecido/BMBF/releases/latest) installed.
+[SideQuest](https://sidequestvr.com) and [BMBF](https://bmbf.dev/stable) installed.
 
 1. Zip up the song as normal, only zipping the files and not the folder itself. [How to Video](https://streamable.com/u20ci)
    * If you are using [MMA2](#mediocre-map-assistant-2) there is a `Package To Zip` button you can use
@@ -371,7 +370,7 @@ Follow these steps to test any of your maps made with a community editor using a
 1. Drag and drop the files into BMBF's upload page (indicated by /main/upload at the end of the link)
 2. Once uploaded, click Sync to Beat Saber at the top right corner of the page
   <br/>![BMBF Browser](~@images/mapping/bmbf_browser.png)
-3. Access your map in-game via the Custom Songs playlist in the bottom song pack menu. Use practice mode to play
+3. Access your map in-game via the Custom Songs playlist in the song pack menu. Use practice mode to play
   (the small button next to the play button).
 
 :::tip NOTE
@@ -414,7 +413,7 @@ either video or text format in a DM or in the `#mapping-discussion` channel.
 * **Map:** The name and artist of your map  
 * **Length:** The length of the song  
 * **BPM:** The BPM of the song  
-* **Difficulty:** Which difficulties are included and the notes per second of each difficulty  
+* **Difficulty:** Which difficulties are included
 * **NPS:** The notes per second of each difficulty available  
 * **Feedback:** Any requests for feedback (specific difficulties to be tested, things to look for etc.)  
 * **Status:** What state is the map in?
@@ -469,7 +468,7 @@ Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be u
       characteristics you want to highlight.
     * *Putting a link to a playthrough video in the map description can help you get more downloads as it is easier
       to share your map to others and lets people know what to expect.
-4. Add your .zip file and click the <kbd>Upload</kbd> button."
+4. Add your .zip file and click the <kbd>Upload</kbd> button.
 
 ::: tip NOTE
 Map files currently cannot be updated on BeatSaver.

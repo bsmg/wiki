@@ -5,13 +5,12 @@ sidebar: auto
 
 ## Table of Contents
 
-0. [Important Notes](#0-important-notes)
-1. [Installer Issues](#1-installer-issues)
-2. [In-Game Issues](#2-game-issues-post-modding)
-3. [Common Questions](#3-common-questions)
-4. [Troubleshooting](#4-troubleshooting)
-5. [If All Else Fails](#5-if-all-else-fails)
-6. [Still Having Issues](#6-still-having-issues)
+0. [Updates](#_0-updates)
+1. [No mods?](#_1-no-mods)
+2. [Game Issues After Modding](#_2-game-issues-post-modding)
+3. [Common Questions](#_3-common-questions)
+4. [Miscellaneous Troubleshooting](#_4-miscellaneous-troubleshooting)
+5. [Still Having Issues](#_5-still-having-issues)
 
 ## 0. Updates
 After an update, the BSMG discord `#server-announcements` channel should have the most up to date instructions
@@ -121,7 +120,7 @@ framerate, in no particular order:
 * The custom saber **Plasma Katanas** have tons of custom events and are known to introduce lag if you miss.
 * CameraPlus can be very taxing, especially if you have multiple cameras and increase the FOV.
 * Turn down Render Scale, Anti-Aliasing, mirror, fog, etc in the base game settings.
-* For Oculus CV1 or Rift players: consider using 2 sensors instead of 3+.
+* For Oculus Rift (CV1) players: consider using 2 sensors instead of 3+.
 * Reduce your total mod and song count.
 * Perform a [Clean Installation](#clean-installation) of the game files.
 * Low framerate can also be caused by something going wrong within your application data folder,
@@ -149,9 +148,9 @@ If you're using Mod Assistant, click the mod and hit the "Mod Info" button.
 <http://beatmods.com> has a "More Info" button on each mod as well.
 
 #### 3.3 Rumble Issues
-Gameplay Modifiers Plus adds a toggle to enable/disable controller rumble. If you disabled it then removed the mod,
+Gameplay Modifiers Plus had a toggle to enable/disable controller rumble. If you disabled it then removed the mod,
 you'll need to modify the save data file that it writes to manually.
-Open `%appdata%/../locallow/hyperbolic magnetism/beat saber` and set `constrollersRumbleEnabled` to `true`.
+Open `%appdata%\..\LocalLow\Hyperbolic Magnetism\Beat Saber\settings.cfg` and set `controllersRumbleEnabled` to `true`.
 
 If this isn't the cause of your rumble issues and the following are true regarding your haptics:
 

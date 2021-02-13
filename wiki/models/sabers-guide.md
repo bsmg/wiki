@@ -126,7 +126,7 @@ You can add a texture to a material by dragging an image file in the texture slo
 ![Adding texture to saber](~@images/models/sabers/10.png)
 
 ::: tip NOTE
-NOTE: The `Glow` slider modifies how bright the saber glows. Additionally, when the glow is above 0,
+The `Glow` slider modifies how bright the saber glows. Additionally, when the glow is above 0,
 that material will be affected by the player's custom colors.
 :::
 
