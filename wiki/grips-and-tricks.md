@@ -30,7 +30,7 @@ Your scoresaber account is tied to your Steam / Oculus username.
   Umbranox, our Panda God.
 2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays.
   This curve is `0.965^(x-1)` where `x` is the position of that score on your song list.
-e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play.
+  e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play.
   If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get
   after the curve applies. Here is a list of my current top 4 plays where the raw PP is in italic and the weighted PP is
   in bold.

@@ -520,10 +520,10 @@ section in [Intermediate Mapping](./intermediate-mapping.md).
 Already mentioned in detail on the [Mapping Home Page](./#playtesting) it’s important enough to mention again here:
 
 1. Test your own work early and often, especially when you’re just starting out!
-1. If you can’t test your own work have a friend play it. Just remember that a friend may be more likely to say "that’s
+2. If you can’t test your own work have a friend play it. Just remember that a friend may be more likely to say "that’s
   awesome, man!" than to give you honest advice and risk hurting your feelings... even if that’s what you need.
-1. Even if you test your own work you can become "map blind" because you know it so well and may not see playability issues
-1. Use the `#testplays` channel on BSMG wisely. There are experienced mappers who will play your pre-release map and
+3. Even if you test your own work you can become "map blind" because you know it so well and may not see playability issues
+4. Use the `#testplays` channel on BSMG wisely. There are experienced mappers who will play your pre-release map and
   provide constructive feedback. Sometimes there’s a LOT of constructive feedback and that’s ok. Those experienced mappers
   were once newbies with terrible maps themselves. If you’ve read and absorbed the info on this page you will be much
   better off!

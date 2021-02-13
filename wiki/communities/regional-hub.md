@@ -65,7 +65,7 @@ A private Discord for the saber beaters from / in the Middle East
 ### Austria
 
 #### Hit bloq Community Austria
-1 unofficial Austrian Beat Saber discord that just recently opened doors for every Beat Saber fan all over the world!
+Unofficial Austrian Beat Saber discord that just recently opened doors for every Beat Saber fan all over the world!
 (We also have a Linus Tech Tip!)
 
 [Discord](https://discord.gg/TvRkNY2)

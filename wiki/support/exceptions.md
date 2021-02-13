@@ -31,7 +31,7 @@ The specified path, file name, or both exceed the system-defined maximum length.
 
 1. The caller does not have the required permission.  
   This could mean that a program is also blocking the user from accessing the file,
-  such as `Anti Viruses,and programs that would block suspicous programs/processes/activity`
+  such as `Anti Viruses, and programs that would block suspicious programs/processes/activity`
   Other causes would be not having rights aka **lacking admin rights and the likes.**
   i.e your user or pc has insufficient rights to access/write files and data in anyway.
 2. The file is an executable file that is in use.

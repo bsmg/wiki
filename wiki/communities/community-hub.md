@@ -48,7 +48,7 @@ A place to plan, post, discuss, and get notifications for events in your area.
 A League-style tournament for Beat Saber!
 
 [Discord](https://discord.gg/nFJDVqS)
-[Website](https://beatsaberleague.com/)
+| [Website](https://beatsaberleague.com/)
 
 ---
 
@@ -64,7 +64,7 @@ This is a place to discuss the mod and follow its progress and releases!
 Beat Saber gameplay spotlights, scoring guides, clip compilations, community events and more!
 
 [Discord](https://discord.gg/dwe8mbC)
-[YouTube](https://youtube.com/CubeCommunity)
+| [YouTube](https://youtube.com/CubeCommunity)
 
 ---
 
@@ -81,7 +81,7 @@ themed sabers and recent Kpop maps.
 Custom leaderboards and global ranking!
 
 [Discord](https://discord.gg/WpuDMwU)
-[Twitter](https://twitter.com/scoresaber)
+| [Twitter](https://twitter.com/scoresaber)
 
 ---
 
@@ -97,4 +97,4 @@ We are striving to improve and grow the community of the Quest Custom Content to
 We are a quest-focused beat saber community server, dedicated to improving the experience for as many players as we can.
 
 [Discord](https://discord.gg/d6DyW9v)
-[Website](https://www.questmodding.com/)
+| [Website](https://www.questmodding.com/)
