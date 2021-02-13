@@ -1,3 +1,7 @@
+---
+description: Check out these lists of other Beat Saber communities around the internet!
+---
+
 # Beat Saber Communities
 Check out these lists of other Beat Saber communities around the internet!
 
