@@ -1,8 +1,12 @@
 # Supports
-The Support role is a symbol of thanks. Thanks for the thousands of messages and hundreds of hours spent helping people sort out their mods, and for for building a knowledge of troubleshooting base through macros and the wiki. We don't typically give this role out, but when we do it's because someone has gone above and beyond for the server.
+_The Support role is a symbol of thanks. Thanks for the thousands of messages and hundreds of hours spent helping people
+sort out their mods, and for for building a knowledge of troubleshooting base through macros and the wiki. We don't typically
+give this role out, but when we do it's because someone has gone above and beyond for the server._
 
 ## boulders2000
-"even though his brain is a mess he knows his stuff (kinda)" something like that (but don't add something like that part, ok?)
+> "even though his brain is a mess he knows his stuff (kinda)"
+>
+> something like that (but don't add something like that part, ok?)
 
 **Roles:** Support
 
@@ -79,6 +83,8 @@ Created by Megalon, recreated by lolPants, and personified by Rolo!
 ::: tip See Also
 **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
 **Modders:** [Kyle1413](./modders.md#kyle1413)  
-**Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink) | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)  
-**Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
+**Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)
+  | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)  
+**Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon)
+  | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
 :::
