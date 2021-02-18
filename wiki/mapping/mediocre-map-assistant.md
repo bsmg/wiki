@@ -251,12 +251,10 @@ To create your first difficulty:
 4. **Difficulty Label** is optional and allows you to give your difficulties custom names in-game.
   If left blank, the difficulty set in the dropdown will be displayed instead.
   *This feature may not reliably work on all VR models*.
-5. The **Start Offset (ms)** field is where you entered an offset value, in milliseconds,
-  if needed based on the way you [setup your audio file](./basic-audio.md).
-6. The **Note Jump Speed** field is where you change the speed at which the notes move down the track.
+5. The **Note Jump Speed** field is where you change the speed at which the notes move down the track.
   Click into the field for a pop-up of helpful information. See [Basic Mapping Practices](./basic-mapping.md#gauging-difficulty-down-mapping)
   for guidance on setting an appropriate NJS for your difficulty.
-7. The **Spawn Distance Modifier** field allows you to adjust how far down the track your blocks appear.
+6. The **Spawn Distance Modifier** field allows you to adjust how far down the track your blocks appear.
   Changing this value will adjust the "jump distance" guidance pop-up.
 
 ::: tip
