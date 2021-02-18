@@ -47,11 +47,12 @@ If you have a modded game you also need to uninstall it by pressing the `UNINSTA
 
 You can later restore your save from the same menu, after modding.
 
-Install the latest BMBF apk via the `Install APK from folder` button shown below.
+Select the `Install APK from folder` button shown below then browse for the latest BMBF apk
+you downloaded and open it. This will install BMBF onto your Quest.
 
 ![InstallAPK](~@images/beginners-guide/apkfromfolder.png)
 
-Once they've successfully installed, make sure you have the latest version of Beat Saber installed and unmodded.
+Once it has been successfully installed, make sure you have the latest version of Beat Saber installed and unmodded.
 :::warning
 Run Beat Saber once and close it before modding!
 :::

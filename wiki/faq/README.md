@@ -24,7 +24,8 @@ The following are programs to be used on the desktop to help you download custom
 
 ### PC
 You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod.
- Then you can either:
+
+Then you can either:
 
 * Use the `Install Playlist` tool in the Options tab of Mod Assistant.
 * Place the playlist file into `Beat Saber/Playlists`, select it in-game, then hit download all songs.

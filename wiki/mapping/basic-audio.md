@@ -30,7 +30,7 @@ that can be done at any time, if they're needed.
 
 **Any time before upload:**  
 4. [Check your song volume](#check-song-volume) and make it [louder](#making-your-song-louder) or
-  [softer](#making-your-song-softer) as needed
+  [softer](#making-your-song-softer) as needed  
 5. Check the length of your song outro and [trim it](#trimming-the-outro) if needed
 
 ## Song Selection for New Mappers
