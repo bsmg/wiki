@@ -20,7 +20,7 @@ which this wiki page is based off of, is also available but is slightly out of d
 ## General Keybinds
 
 ### Basic
-|                       |  Mediocre Map Assistant 2 |     Beat Mapper     |         ChroMapper        |
+|                       |  Mediocre Map Assistant 2 |     Beatmapper     |         ChroMapper        |
 |-----------------------|:-------------------------:|:-------------------:|:-------------------------:|
 |           Move camera | Right Click+W/A/S/D/Mouse | Shift+W/A/S/D/Mouse | Right Click+W/A/S/D/Mouse |
 |    Set note direction |         W/A/S/D/F         |      W/A/S/D/F      |         W/A/S/D/F         |
@@ -32,14 +32,14 @@ which this wiki page is based off of, is also available but is slightly out of d
 |              Save map |           Ctrl+S          |   N/A (Autosaves)   |           Ctrl+S          |
 
 ### Element Selection
-|                   | Mediocre Map Assistant 2 |    Beat Mapper   |                ChroMapper               |
+|                   | Mediocre Map Assistant 2 |    Beatmapper   |                ChroMapper               |
 |-------------------|:------------------------:|:----------------:|:---------------------------------------:|
 |       Select item |             Shift+LClick |     LClick |                            Shift+LClick |
 | Select many items |     Ctrl+LClick ⇒ Scroll | Q ⇒ Fill in info | Ctrl/Alt+LClick or Ctrl+LClick ⇒ Scroll |
 |          Deselect |         Ctrl+A or Ctrl+D |           LClick |                                  Ctrl+A |
 
 ### Edit Notes
-|                      |         Mediocre Map Assistant 2         |  Beat Mapper |        ChroMapper       |
+|                      |         Mediocre Map Assistant 2         |  Beatmapper |        ChroMapper       |
 |----------------------|:----------------------------------------:|:------------:|:-----------------------:|
 |                  Cut |                                   Ctrl+X |       Ctrl+X |                  Ctrl+X |
 |                 Copy |                                   Ctrl+C |       Ctrl+C |                  Ctrl+C |
@@ -53,7 +53,7 @@ which this wiki page is based off of, is also available but is slightly out of d
 |           Swap Color |                             Middle Mouse | Middle Mouse |            Middle Mouse |
 
 ### Travel
-|               | Mediocre Map Assistant 2 | Beat Mapper |      ChroMapper      |
+|               | Mediocre Map Assistant 2 | Beatmapper |      ChroMapper      |
 |---------------|:------------------------:|:-----------:|:--------------------:|
 |  Jump to beat |                          |           J |                      |
 |      Bookmark |                        B |             |                    B |
@@ -61,7 +61,7 @@ which this wiki page is based off of, is also available but is slightly out of d
 |  Jump to Item |          Alt+Shift+Click |             |                      |
 
 ### Useful Tricks
-|                        | Mediocre Map Assistant 2 | Beat Mapper | ChroMapper |
+|                        | Mediocre Map Assistant 2 | Beatmapper | ChroMapper |
 |------------------------|:------------------------:|:-----------:|:----------:|
 |    Custom event window |                          |             |     Ctrl+T |
 | Swap precision palette |                        X |             |            |
@@ -69,13 +69,13 @@ which this wiki page is based off of, is also available but is slightly out of d
 |           Reset camera |                Backspace |   Backspace |            |
 
 ### Mapping Extensions
-|                   | Mediocre Map Assistant 2 | Beat Mapper |       ChroMapper       |
+|                   | Mediocre Map Assistant 2 | Beatmapper |       ChroMapper       |
 |-------------------|:------------------------:|:-----------:|:----------------------:|
 | Swap to fake wall |         Ctrl+F over wall |             | Middle Click over Wall |
 |       Rotate note |     Alt+Scroll over note |             |   Alt+Scroll over note |
 
 ### Advanced
-|                | Mediocre Map Assistant 2 | Beat Mapper | ChroMapper |
+|                | Mediocre Map Assistant 2 | Beatmapper | ChroMapper |
 |----------------|:------------------------:|:-----------:|:----------:|
 |  In-place edit |         Alt+ Right mouse |             |            |
 | Edit BPM block | Alt+Click over BPM block |             |            |
@@ -83,7 +83,7 @@ which this wiki page is based off of, is also available but is slightly out of d
 ## Lighting Keybinds
 
 ### Basic
-|                       | Mediocre Map Assistant 2 |       Beat Mapper       |      ChroMapper     |
+|                       | Mediocre Map Assistant 2 |       Beatmapper       |      ChroMapper     |
 |-----------------------|:------------------------:|:-----------------------:|:-------------------:|
 | Open Lighting Menu    |                      Tab | "Events" Sidebar Button |                 Tab |
 |                    On |                        W |                       1 |                   W |
@@ -96,12 +96,12 @@ See [General Keybinds: Basic](#basic) for changing edit precision and
 [Element Selection](#element-selection) on how to select items.
 
 ### Travel
-|              | Mediocre Map Assistant 2 | Beat Mapper | ChroMapper |
+|              | Mediocre Map Assistant 2 | Beatmapper | ChroMapper |
 |--------------|:------------------------:|:-----------:|:----------:|
 | Jump to beat |                          |           J |            |
 
 ### Advanced Lighting
-|                      |   Mediocre Map Assistant 2  | Beat Mapper |          ChroMapper         |
+|                      |   Mediocre Map Assistant 2  | Beatmapper |          ChroMapper         |
 |----------------------|:---------------------------:|:-----------:|:---------------------------:|
 |               Strobe |                     W/A/D+S |             | See [Strobe Generator](#strobe-generator) |
 |                 Loop |                             |           L |                             |
@@ -110,7 +110,7 @@ See [General Keybinds: Basic](#basic) for changing edit precision and
 | No-off strobe toggle |                          F3 |             | See [Strobe Generator](#strobe-generator) |
 
 ### Chroma
-|                 | Mediocre Map Assistant 2 | Beat Mapper |        ChroMapper        |
+|                 | Mediocre Map Assistant 2 | Beatmapper |        ChroMapper        |
 |-----------------|:------------------------:|:-----------:|:------------------------:|
 |    Magenta note |                        Q |             |                          |
 |      Green note |                        E |             |                          |

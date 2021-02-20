@@ -108,12 +108,12 @@ MMA2 is the most feature rich 3D editor and is used by the majority of the mappi
 * [Mediocre Map Assistant 2 Download](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest)
 * [Mediocre Map Assistant 2 User Guide](./mediocre-map-assistant.md)
 
-#### BeatMapper.app
+#### Beatmapper.app
 A 3D editor that runs in the browser, allowing anyone with a web browser to map. It works best for standard mapping without
 any extensions, but new features are being added.
 
-* [BeatMapper Website](https://beatmapper.app/)
-* [BeatMapper User Manual](https://beatmapper.app/docs/manual/getting-started)
+* [Beatmapper Website](https://beatmapper.app/)
+* [Beatmapper User Manual](https://beatmapper.app/docs/manual/getting-started)
 
 #### ChroMapper - *Coming Soon*
 A 3D editor that has stellar support for lighting, Chroma RGB, and shares similar assets with Beat Saber, allowing for a
@@ -171,7 +171,7 @@ You are now ready to continue editing your map!
 
 ### Additional Mapping Tools
 
-* [BeatMapperTools](https://mappers.beatmappertools.com/) by **Darkuni**  
+* [BeatMapper Tools](https://mappers.beatmappertools.com/) by **Darkuni**  
 A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps
 * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**  
   A suite of tools for mappers that includes:
@@ -311,7 +311,7 @@ You **DO NOT** need to upload your map to BeatSaver in order for you or anyone e
 * If your map is using the 1.0 song format (your files are .json and .ogg) you must convert your map using one of several
   available tools like [Songe Converter](https://github.com/lolPants/songe-converter) by lolPants or
   [BeatMapper Tools](https://mappers.beatmappertools.com/) by Darkuni.
-  **Update your editor to MMA2 or BeatMapper**. See [Community Editors](.#community-editors) for links.
+  **Update your editor to MMA2 or Beatmapper**. See [Community Editors](.#community-editors) for links.
 * If your map is using the 2.0 song format (your files are .dat and .ogg/.egg) you’re ready to test.
 
 ### Testing on a PC

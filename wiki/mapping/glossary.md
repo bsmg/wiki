@@ -175,7 +175,7 @@ let us know in #mapping-discussion!
 | **Pattern** | A generic name for a sequence of blocks. |
 | **Piano Stream** | A sequence of alternating color and direction blocks that progresses horizontally across lanes on the track. <details><summary>**Example Image**</summary>![Picture of piano stream](~@images/mapping/pianostream.png)</details>|
 | **Playtest** | The act of playing a WIP map to check for errors and improvements. Highly recommended for a quality product. |
-| **Performance Points** | The metric determining ranking on the Scoresaber leaderboards. Abbreviated PP. |
+| **Performance Points** | The metric determining ranking on the ScoreSaber leaderboards. Abbreviated PP. |
 | **Platform** | The in-game play area and associated track and lights. Also known as [Environment](#e) |
 | **PP** | Abbreviation of Performance Points. |
 | **Precision** | The division of a beat in an editor; used to place notes consistently. Typically 1/1 (one note per beat), 1/2 (one note per half beat), or 1/4 (one note per quarter beat). Also known as [Cursor Precision](#c) |
@@ -190,7 +190,7 @@ let us know in #mapping-discussion!
 ## R
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
-| **Ranked** | Indicating that the map has been Modded and approved by the Scoresaber ranking team as of a quality appropriate of contributing to the PP leaderboard. Maps should be modded prior to submitting a rank request. |
+| **Ranked** | Indicating that the map has been Modded and approved by the ScoreSaber ranking team as of a quality appropriate of contributing to the PP leaderboard. Maps should be modded prior to submitting a rank request. |
 | **Release** | The act of publishing a finished map on BeatSaver. Once a map is released it can be downloaded and played by anyone. Do not release unfinished or untested maps |
 | **Reset** | The action of bringing your arms back to their "ready" position, as if no blocks have been hit recently. Mappers can also attempt to reset the player by using bombs to force arm movement. See also [Bomb Reset](#b) |
 | **RGB** | A style of lighting that requires Chroma and allows lighting events to be any color and often uses more than two colors. |
@@ -201,7 +201,7 @@ let us know in #mapping-discussion!
 ## S
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
-| **Scoresaber** | The organization responsible for managing the ranked Beat Saber leaderboards. |
+| **ScoreSaber** | The organization responsible for managing the ranked Beat Saber leaderboards. |
 | **Scissor** | Otherwise known as a *Cucumber*, is when a red and blue note are on the same timing, and are hit simultaneously in opposite directions. Related: [Crossover Scissor](#c) <details><summary>**Example Image**</summary>![Picture of scissor](~@images/mapping/scissor-cucumber_example.png)</details> |
 | **Scoop** | A pattern of blocks where the player makes a "scooping" motion to play the pattern. Typically a left or right note followed by an up note, in the bottom row.  Give the player ample time to react when using scoops, a half to full beat is recommended. <details><summary>**Example Image**</summary>![Picture of scoop](~@images/mapping/scoop_example.png)</details> |
 | **Setup** | The process of maneuvering the players arms into position for a pattern via appropriate placement of the preceding blocks. |
@@ -241,5 +241,5 @@ let us know in #mapping-discussion!
 | **Wall** | A translucent barrier that damages the player if they put their body in it. It is safe for players to rest their sabers in walls. Also known as Obstacle. See also: [Fake Walls](#f) <details><summary>**Example Image**</summary>![Picture of wall](~@images/mapping/wall.png)</details>|
 | **Window** | A 3-block or larger tower containing a gap allowing for vision through the tower. <details><summary>**Example Image**</summary>![Picture of window](~@images/mapping/window.jpg)</details>|
 | **Window Slider** | A 3-long [Slider](#s) with the center note removed to allow for better vision. |
-| **WIP** | Work-In-Progress; not yet finished. WIP maps must be played in either party mode or practice mode until released to prevent stray Scoresaber leaderboards from being created for each revision. |
+| **WIP** | Work-In-Progress; not yet finished. WIP maps must be played in either party mode or practice mode until released to prevent stray ScoreSaber leaderboards from being created for each revision. |
 | **Wrist Reset** | The action of resetting only your wrist due to a sequence of notes that requires a large twist of the wrist. |

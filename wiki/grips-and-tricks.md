@@ -23,7 +23,7 @@ Additionally, here's an image from the game developers about how the
 *How does global ranking work? What are performance points? What are the numbers in my brackets? Why is my PP so small?*
 
 You can find your global ranking and PP on [ScoreSaber](https://scoresaber.com/global) - here you can search for your name.
-Your scoresaber account is tied to your Steam / Oculus username.
+Your ScoreSaber account is tied to your Steam / Oculus username.
 
 1. Ranked songs are assigned PP (PP = performance points). The exact amount of PP gained is determined by the accuracy
   you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by

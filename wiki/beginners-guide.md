@@ -31,7 +31,7 @@ Applicable hardware includes:
 One of your favorite songs is not available? Have a mod idea you want to implement? Want a custom model you want to use in-game?
  You can make it happen in one of two ways.
 
-* Commission someone in the community run [Commissions Discord](https://discord.gg/4RbcH5G)
+* Commission someone in the community run [Commissions Discord](https://discord.gg/h8VMkhn)
 * Learn how to make it yourself using the resources below!
 
 ### Making Maps

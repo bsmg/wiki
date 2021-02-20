@@ -32,7 +32,7 @@ with instructions on how to setup are as follows:
 * **Mediocre Map Assistant 2**
   * [Setup with Beat Saber Installed on your PC](#me-setup-for-mma2-with-beat-saber-installed)
   * [Setup without Beat Saber Installed on your PC](#me-setup-for-mma2-without-beat-saber-installed) (e.g., Quest Users)
-* [BeatMapper](https://beatmapper.app/docs/mods#mapping-extensions)
+* [Beatmapper](https://beatmapper.app/docs/mods#mapping-extensions)
 * **ChroMapper** Instructions Coming Soon!
 
 #### ME setup for MMA2 with Beat Saber Installed
