@@ -36,11 +36,6 @@ He'll teach you to fix your plugins and your terribly off-beat first map. We've 
 
 [Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
 
-## Nobby76
-Heart of gold, nerves of steel.... And a knob of butter  
-
-**Roles:** Support
-
 ## Pespiri
 He'll give me his bio later today, or so he says.
 

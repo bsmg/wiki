@@ -45,10 +45,10 @@ If the details in section 1.1 above are correct, try the solutions below, in des
 
 ##### Solution 2
 
-* *[Verify your game files](#verify-game-files-for-steam) (Steam only, Oculus users refer to Solution 4)
-* *Update BSIPA to the latest version
-* *Go into your Beat Saber folder
-* *Run `IPA.exe`
+* [Verify your game files](#verify-game-files-for-steam) (Steam only, Oculus users refer to Solution 4)
+* Update BSIPA to the latest version
+* Go into your Beat Saber folder
+* Run `IPA.exe`
 
 ##### Solution 3
 
@@ -145,7 +145,7 @@ This will delete your local scores and statistics.
 
 #### 3.2 How do I use `x` mod?
 If you're using Mod Assistant, click the mod and hit the "Mod Info" button.
-<http://beatmods.com> has a "More Info" button on each mod as well.
+[BeatMods](http://beatmods.com) has a "More Info" button on each mod as well.
 
 #### 3.3 Rumble Issues
 Gameplay Modifiers Plus had a toggle to enable/disable controller rumble. If you disabled it then removed the mod,
@@ -185,9 +185,10 @@ This is where the game natively reads custom songs from.
 
 **Do not** place songs in the old `Beat Saber/CustomSongs` folder. This location is deprecated as the format for custom
 songs has changed. If you have maps in the old format (`.json` and `.ogg` files instead of `.dat` and `.egg`),
-leave them in the old `Beat Saber/CustomSongs` folder. They will then be automatically converted by the SongCore mod.
+leave them in the old `Beat Saber/CustomSongs` folder. You will need to download them again from BeatSaver.
 
-Alternatively, you can manually convert them using [Song Converter](https://github.com/lolPants/songe-converter)
+Alternatively you can manually convert them using [Song Converter](https://github.com/lolPants/songe-converter) however,
+ you will not get any help with this method and need to compile the program yourself.
 
 #### 3.7 Grayed Out Play Button
 Click the shiny blue question mark (?) button in the top right corner. This should tell you what mods are required to
@@ -195,12 +196,12 @@ y the song, which you are missing and should install. If it is still not working
 Otherwise try a [Clean Install](#clean-installation).
 
 #### 3.8 Map details are infinitely loading
-If this only happens on particular maps, those song files are probably broken. If it happens to all of your maps,
-delete your `Plugins` folder and reinstall fresh ones.
+If this only happens on particular maps, you may be missing required mods or those song files are broken.
+ If it happens to all of your maps, delete your `Plugins` folder and reinstall fresh ones.
 
-### Camera Plus
+### CameraPlus
 
-#### 3.9 Camera Plus Isn't Working/Past Health Screen
+#### 3.9 CameraPlus Isn't Working/Past Health Screen
 Make sure the in-game setting for "Smooth Camera" is turned off in your in-game settings.
 If that does not work, try reinstalling it and associated dependencies.
 

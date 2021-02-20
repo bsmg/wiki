@@ -51,9 +51,9 @@ the saber to maximize the angle and get the best cut possible.
 
 ### Accuracy
 Accuracy is shown on the left after enabling the **Advanced HUD** option in the Player Settings. Accuracy is shown by a
-percentage and a letter. Because accuracy is a percentage, the best "possible" accuracy is **100%** or named a **SSS**.
-While such accuracy is practically impossible (since it would require no combo break and 115 cuts on every block), accuracy
-is still a great way to measure performance on a map and one’s ability to score properly and avoid missing notes.
+percentage and a letter. While the best "possible" accuracy is **100%**, it is practically impossible since it would require
+no combo break and 115 cuts on every block. Even then, accuracy is still a great way to measure performance on a map
+and one’s ability to score properly and avoid missing notes.
 Accuracy is calculated using information such as the scores per hit, the score multiplier and the amount of miss.
 
 Here is the connection between the letters and accuracy percentage:

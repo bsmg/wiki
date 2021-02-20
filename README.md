@@ -27,7 +27,7 @@ To run a local copy of the wiki:
 
 When you make changes to your local wiki files, the local website will update those pages as soon as they are saved! **Note:** Sidebar headers do not change due to an issue with Vuepress. They will render correctly if you restart the dev server, and on the final build.
 
-The Wiki has a built-in linter that runs automatically when you push commits to enforce formatting rules. You can run this on your local copy with the command `yarn lint`. If you need assistance with interpreting the errors, [submit an issue](https://github.com/bsmg/wiki/issues) with a screenshot of the errors attached.
+The Wiki has a built-in linter that runs automatically when you push commits to enforce formatting rules. You can run this on your local copy with the command `yarn lint` to flag issues. You can also run `yarn run lint:markdown --fix` to have the linter try to resolve the issues automatically. If you need assistance with interpreting or fixing the errors, [submit an issue](https://github.com/bsmg/wiki/issues) with a screenshot of the errors attached.
 
 Once you have finished making changes, you can either commit them directly using `git` tools, or copy them into the GitHub web interface if you don't know how to use `git`.
 
