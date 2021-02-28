@@ -173,8 +173,8 @@ let us know in #mapping-discussion!
 | - | :- |
 | **Parity** | The mathematical term describing the ‘group’ a block belongs to- within the context of Beat Saber, this refers to the forehand/backhand nature of a block. |
 | **Pattern** | A generic name for a sequence of blocks. |
-| **Paul** | A sequence of inline blocks of the same direction placed at very high precision. This forces the player to hit with a slow continuous swing. This pattern is impossible to score well on. <details><summary><b>Example Image</b></summary>![Picture of paul](~@images/mapping/paul.jpg)</details>|
-| **Piano Stream** | A sequence of alternating color and direction blocks that progresses horizontally across lanes on the track. <details><summary><b>Example Image</b></summary>![Picture of piano stream](~@images/mapping/pianostream.png)</details>|
+| **Paul** | A sequence of inline blocks of the same direction placed at very high precision. This forces the player to hit with a slow continuous swing. This pattern is impossible to score well on. <details><summary>**Example Image**</summary>![Picture of paul](~@images/mapping/paul.jpg)</details>|
+| **Piano Stream** | A sequence of alternating color and direction blocks that progresses horizontally across lanes on the track. <details><summary>**Example Image**</summary>![Picture of piano stream](~@images/mapping/pianostream.png)</details>|
 | **Playtest** | The act of playing a WIP map to check for errors and improvements. Highly recommended for a quality product. |
 | **Performance Points** | The metric determining ranking on the ScoreSaber leaderboards. Abbreviated PP. |
 | **Platform** | The in-game play area and associated track and lights. Also known as [Environment](#e) |
@@ -224,7 +224,7 @@ let us know in #mapping-discussion!
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
 | **Tangle** | A pattern that results in arm paths preventing the next motion from occurring without resetting. Occurs commonly in incorrect crossovers. |
-| **Tempo** | A musical term for the speed of music. Can change throughout the duration of a song. Also known as *Speed* |
+| **Tempo** | A musical term for the speed of music. Can change throughout the duration of a song. |
 | **Thin Wall** | A wall that is only a tiny fraction of a beat thick that sometimes doesn't tick for any damage on the player. Created in Mediocre Map Assistant 2 by clicking to add a wall then immediately clicking to "drop" it, without scrolling for any time duration. See also [Wall](#wxyz), [Fake Wall](#f) <details><summary>**Example Image**</summary>![Picture of thin wall](~@images/mapping/thinwall.png)</details> |
 | **Tower** | Three same-colored, same-direction blocks placed in a line on the same beat. Results in the player swinging a larger, faster hit. Related: [Stack](#s) <details><summary>**Example Image**</summary>![Picture of tower](~@images/mapping/tower.jpg)</details>|
 | **Track** | The area in an editor where blocks are placed and the are in-game where blocks spawn and move toward the player. In most editors there is a track for notes/blocks and a separate track for lighting. See also [Lighting Track](#l) |
