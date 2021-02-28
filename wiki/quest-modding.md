@@ -22,7 +22,9 @@ modders and game developers are two separate groups. Just don't be a jerk ok.
 :::
 
 ## Installation
-Currently the only recommended way to install custom songs and mods is BMBF sideloaded with SideQuest.
+Currently the only recommended way to install custom songs and mods is BMBF sideloaded with SideQuest using a PC.
+
+If you do not have access to a PC you can use an [Android Phone](#installing-bmbf-with-an-android-phone).
 
 * [BMBF apk](https://bmbf.dev/stable)
 :::warning
@@ -76,24 +78,67 @@ for ignoring it.
 
 ![RestoreApp](~@images/beginners-guide/restoreapp.png)
 
-### Core mods
-Before installing any additional mods look in the top right, you should see a red button that says, `Sync to Beat Saber`.
-Click this and let it finish syncing. Then go to your `mods` tab in BMBF. Make sure that you have the 5 core mods:
+Continue to the [Core Mods](#core-mods) step of the installation process.
 
-* Codegen
-* Goodbye bug
-* PinkCore
-* QuestUI
-* Custom Types
+### Installing BMBF with an Android Phone
+This is **NOT** the recommended way to install BMBF and should only be used if you do not have access to a PC.
 
-:::danger
-If you do not see all of these listed and enabled, all other mods will not work.
+* [Requirements](#requirements)
+* [Setup your Phone](#setup-your-phone)
+* [Installing BMBF with your Phone](#installing-bmbf-with-your-phone)
+* [Setup Beat Saber](#setup-beat-saber)
 
-If one of the core mods does not enable, delete that mod and click `Sync to Beat Saber` again to redownload it.
-Double check to see if it has been downloaded and enabled.
-If it still doesn't work, or mods are appear to be enabled, but not working in-game see [Core Mods don't work](#core-mods-don-t-work)
-for troubleshooting steps.
+#### Requirements
+
+* An Android Phone or Android Tablet (IPhones or IPads are not supported)
+* A **paid** Version of Beat Saber on the Oculus Quest Store
+* A Cable to connect your Quest to your Phone (If your phone charges over USB C the charger that was included with your
+Quest should work)
+
+#### Setup your Phone
+
+1. Download the [bugjaeger app from the Google Play store](https://play.google.com/store/apps/details?id=eu.sisik.hackendebug&hl=gsw&gl=US)
+2. Download the newest [BMBF APK from bmbf.dev/stable](https://bmbf.dev/stable)
+3. Follow [this written guide](https://github.com/ComputerElite/wiki/wiki/Enable-Developer-Mode-for-OQ) to Enable
+Developer Mode on your Quest.
+4. Enable Developer mode on your Phone
+    1. Go into your Android settings
+    2. Scroll to "About phone" and open it
+    3. Tap "Software information"
+    4. Tap the "Build number" field until it says Developer mode enabled. This should take about 7 taps.
+5. Enable USB debugging on your Phone
+    1. Go back to settings
+    2. Tap "Developer options"
+    3. Activate USB debugging
+
+#### Installing BMBF with your Phone
+:::warning
+Before modding, run Beat Saber once, play a level and immediately fail!
 :::
+
+Open bugjaeger on your Phone connect your Quest.
+You should get a USB debugging pop-up in your Quest and on your phone. Select allow on both devices and if you prefer,
+select always allow.
+Once bugjaeger picks your Quest up, install the BMBF APK by doing following:
+
+![installAPKusingPhone.png](~@images/beginners-guide/InstallAPK.png)
+
+After you pressed ok, allow file access and select the download APK file which should be labeled `com.weloveoculus.BMBF.apk`.
+The apk file should now install to your Quest.
+
+#### Setup Beat Saber
+After successfully installing BMBF onto your Quest you should be able to find it in your Quests library under unknown sources.
+
+![UnknownMenu](~@images/beginners-guide/quest_home-menu.jpg)
+
+Open it and allow file access after starting it if prompted. Now follow the on-screen instructions carefully.
+After you finished you should see [BeastSaber](https://bsaber.com).
+
+If at any point during the install process, you get the Restore App popup just click Close.
+This warning is directed to pirated versions of the game so there will likely be no consequences for ignoring it if you
+have a legitimate copy.
+
+Now you can continue to the [Core Mods](#core-mods) step of the installation process.
 
 ## Manage Save Data
 
@@ -118,6 +163,26 @@ Go back to the menu and press the circular arrows located beside your latest bac
 Your scores and settings should now be restored.
 
 ## Installing Mods
+
+### Core Mods
+Before installing any additional mods look in the top right of the BMBF web interface, you should see a red button that
+says, `Sync to Beat Saber`.
+Click this and let it finish syncing. Then go to your `mods` tab in BMBF. Make sure that you have the 5 core mods:
+
+* Codegen
+* Goodbye bug
+* PinkCore
+* QuestUI
+* Custom Types
+
+:::danger
+If you do not see all of these listed and enabled, all other mods will not work.
+
+If one of the core mods does not enable, delete that mod and click `Sync to Beat Saber` again to redownload it.
+Double check to see if it has been downloaded and enabled.
+If it still doesn't work, or mods are appear to be enabled, but not working in-game see [Core Mods don't work](#core-mods-don-t-work)
+for troubleshooting steps.
+:::
 
 ### Inside your Quest
 :::warning
