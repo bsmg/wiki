@@ -141,7 +141,7 @@ let us know in #mapping-discussion!
 | **Mapping Extensions** | A mod developed by Kyle1314 that allows mappers access to a number of unique utilities for advanced mapping. See also [Precision Placement](#p), [Precision Rotation](#p), [JSON Walls](#jk) |
 | **Mediocre Map Assistant 2** | A new fork of Mediocre Mapper by Assistant. The primary map editor used by the mapping community. |
 | **Mediocre Mapper** | An outdated editor, developed by squeaksies as a fork of the original EditSaber editor by Ikiewa. No longer in public development or supported by its author it has been forked to created **Mediocre Map Assistant 2**. |
-| **Mine** | A *block* that looks like a spiky circle and that damages the player if their saber touches it. It is safe for a mine to pass through the player’s body. Also known as *Bomb* |
+| **Mine** | A *block* that looks like a spiky circle and that damages the player if their saber touches it. It is safe for a mine to pass through the player’s body. Also known as [Bomb](#b) |
 | **Mismap** | A mistake, incorrect, or faulty choice in a map. |
 | **Modding** | Modding is a term borrowed from osu!. It is the process of reviewing and providing feedback for a map (for rankability or just general improvement) via editor and in-game analysis. Unrelated to game mods that alter the UI or gameplay of Beat Saber. See this [guide](https://bit.ly/ScoreSaberModding) to get started with modding. |
 | **Multiple BPM** | A song with one or more BPM changes as intended by the song’s composer. Also known as [Variable BPM](#uv) and [Drifting BPM](#d). See also [Fixed BPM](#f) |
@@ -173,6 +173,7 @@ let us know in #mapping-discussion!
 | - | :- |
 | **Parity** | The mathematical term describing the ‘group’ a block belongs to- within the context of Beat Saber, this refers to the forehand/backhand nature of a block. |
 | **Pattern** | A generic name for a sequence of blocks. |
+| **Paul** | A sequence of inline blocks of the same direction placed at very high precision. This forces the player to hit with a slow continuous swing. This pattern is impossible to score well on. <details><summary>**Example Image**</summary>![Picture of paul](~@images/mapping/paul.jpg)</details>|
 | **Piano Stream** | A sequence of alternating color and direction blocks that progresses horizontally across lanes on the track. <details><summary>**Example Image**</summary>![Picture of piano stream](~@images/mapping/pianostream.png)</details>|
 | **Playtest** | The act of playing a WIP map to check for errors and improvements. Highly recommended for a quality product. |
 | **Performance Points** | The metric determining ranking on the ScoreSaber leaderboards. Abbreviated PP. |
@@ -214,15 +215,16 @@ let us know in #mapping-discussion!
 | **Spiral** | A slider whose path traces a rotation long enough to return to its original direction or further. See also [Bomb Spiral](#b) <details><summary>**Example Image**</summary>![Picture of spiral](~@images/mapping/spiral.jpg)</details>|
 | **Stack** | Two same-colored, same-direction blocks placed in a line on the same beat. Results in the player swinging a larger, faster hit. Related: [Tower](#t) <details><summary>**Example Image**</summary>![Picture of stack](~@images/mapping/stacks.jpg)</details>|
 | **Staggers** | Sliders placed with spacing too large for the player to hit in one motion, considered a mismap. Occurs when sliders are placed lower than 1/8 precision. <details><summary>**Example Image**</summary>![Picture of stagger](~@images/mapping/stagger.jpg)</details>|
+| **Staircase** | A pattern where a block's direction points towards the following block. Does not include blocks on the same beat. Can be a potential hitbox issue where a block is placed in the postswing of a previous block. <details><summary>**Example Image**</summary>![Picture of staircase](~@images/mapping/staircase.jpg)</details>|
 | **Stream** | A steady, sustained pattern of notes, typically at 1/4 precision. <details><summary>**Example Image**</summary>![Picture of stream](~@images/mapping/stream.png)</details>|
-| **Strobe** | 1) n. A rapidly flashing on/off light 2) v. To cause a light to flash on/off or on/flash when lighting a map. |
+| **Strobe** | 1) n. A rapidly flashing on/off light <br> 2) v. To cause a light to flash on/off or on/flash when lighting a map. |
 | **Swings per second** | A variation on [Notes per second](#n) that isn't inflated by stacks of sliders. Can give a better representation of a map's difficulty. |
 
 ## T
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
 | **Tangle** | A pattern that results in arm paths preventing the next motion from occurring without resetting. Occurs commonly in incorrect crossovers. |
-| **Tempo** | A musical term for the speed of music. Can change throughout the duration of a song. Also known as [Speed](#s) |
+| **Tempo** | A musical term for the speed of music. Can change throughout the duration of a song. |
 | **Thin Wall** | A wall that is only a tiny fraction of a beat thick that sometimes doesn't tick for any damage on the player. Created in Mediocre Map Assistant 2 by clicking to add a wall then immediately clicking to "drop" it, without scrolling for any time duration. See also [Wall](#wxyz), [Fake Wall](#f) <details><summary>**Example Image**</summary>![Picture of thin wall](~@images/mapping/thinwall.png)</details> |
 | **Tower** | Three same-colored, same-direction blocks placed in a line on the same beat. Results in the player swinging a larger, faster hit. Related: [Stack](#s) <details><summary>**Example Image**</summary>![Picture of tower](~@images/mapping/tower.jpg)</details>|
 | **Track** | The area in an editor where blocks are placed and the are in-game where blocks spawn and move toward the player. In most editors there is a track for notes/blocks and a separate track for lighting. See also [Lighting Track](#l) |
@@ -232,7 +234,7 @@ let us know in #mapping-discussion!
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
 | **Variable BPM** | 1) A song with an intentionally shifting BPM as intended by its composer 2) A song with irregular, unintentionally shifting BPM as a result of fluctuations; for example, a live performance without a metronome. (from Ranking Criteria) Also known as [Drifting BPM](#d) and [Multiple BPM](#m). See also [Fixed BPM](#f) |
-| **Vibro** | An extremely high speed stream of a pace requiring small wrist motions to hit, typically 1/8. Note that this does NOT apply to dots. Also known as Vibro Stream <details><summary>**Example Image**</summary>![Picture of vibro](~@images/mapping/vibro.jpg)</details>|
+| **Vibro** | An extremely high speed stream of a pace requiring small wrist motions to hit, typically 1/8. Note that this does NOT apply to dots. Also known as *Vibro Stream* <details><summary>**Example Image**</summary>![Picture of vibro](~@images/mapping/vibro.jpg)</details>|
 | **Vision Block** | A sequence of blocks, typically using the middle row, that blocks the player’s vision of the following notes. The most common form of vision blocks are Face Notes but blocks outside of the center two squares can also block line of sight to later blocks. Abbreviated *VB*. <details><summary>**Example Image**</summary>![Picture of vision block](~@images/mapping/vb_example.png)</details>|
 
 ## WXYZ
