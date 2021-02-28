@@ -319,7 +319,8 @@ time you open the editor. The `Mapping Settings` pane also includes a comprehens
 There are usually multiple ways to accomplish the same action,
 however the keyboard shortcuts at the link below are the most efficient.
 
-* [Editor Keybinds](./editor-keybinds.md)
+The [Mapping Settings](#mapping-settings) menu has a comprehensive list of keybindings.
+You can also check out the [Editor Keybinds](./editor-keybinds.md) page.
 
 ## Error Checker
 The **Error Checker** functionality is one of the top quality of life features found in MMA2.

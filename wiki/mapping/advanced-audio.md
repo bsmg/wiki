@@ -250,7 +250,9 @@ This is a critical step! **You can ruin your audio if you do not set the initial
 ![Align Audio Start in Reaper](~@images/mapping/reaperFirstBeat.png)
 
 #### Lining Up Beats
-Now the important part. We are going to warp the audio to land perfectly on the BPM we set in the Project Settings.  
+Now the important part. We are going to warp the audio to land perfectly on the BPM we set in the Project Settings.
+
+This process is also demonstrated in [this video](https://www.youtube.com/watch?v=nrd37K3sCF8) by TechButterfly
 
 You should notice peaks around where the main drum beats are. On a song with consistent BPM, those peaks will land exactly
 on the beat markers. For your song, the peaks will eventually drift away from those beat markers.
