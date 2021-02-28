@@ -171,8 +171,9 @@ You are now ready to continue editing your map!
 
 ### Additional Mapping Tools
 
-* [BeatMapper Tools](https://mappers.beatmappertools.com/) by **Darkuni**  
-A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps
+* [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
+  A convenient way to see how your map might look in game without the game.
+  * IOS and Safari are currently not supported
 * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**  
   A suite of tools for mappers that includes:
   * **Schema Fixer:** Easily fix maps made in Mediocre Mapper Mk4.1 and Mk5 for upload to BeatSaver.
@@ -186,22 +187,19 @@ A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily co
     from one difficulty to all other difficulties.
   * **Map Diff:** Compare between two versions of a map. Useful for testplayers and Ranking Team
     members to see if any changes were made.
-* [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
-  A convenient way to checkout how your map might look in game without the game.
-  * IOS and Safari are currently not supported
-* [Cinder](https://github.com/zhaey/cinder#readme) by **zhaey**  
-  Python program that converts stepmania `.sm` files to Beat Saber `.dat` files for timing notes.
+* [Parity Checker](https://galaxymaster2.github.io/bs-parity/) by **GalaxyMaster**  
+  An error checker tool that focuses on finding issues with parity in a map.
+* [Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) by **Kival Evan**  
+  An error checker tool that is much more versatile than the one built into MMA2
+* [BeatMapper Tools](https://mappers.beatmappertools.com/) by **Darkuni**  
+A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps
 * [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
   Easily compile a game playlist from a txt file containing BeatSaver map keys.
 * [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) by **DarkGrisen**  
   Ever thought that it is a lot of annoying work to make big maps with other people or to perfectly cut the audio files
   so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map.
-* [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
-  Video guide on using the timing feature of osu!'s editor to find map bpm.
-* [Parity Checker](https://galaxymaster2.github.io/bs-parity/) by **GalaxyMaster**  
-  An error checker tool that focuses on finding issues with parity in a map.
-* [Kival Evan's Beat Saber Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) by **Kival Evan**  
-  An error checker tool that is much more versatile than the one built into MMA2
+* [Cinder](https://github.com/zhaey/cinder#readme) by **zhaey**  
+  Python program that converts stepmania `.sm` files to Beat Saber `.dat` files for timing notes.
 
 #### Legacy Tools
 
@@ -210,6 +208,8 @@ A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily co
   Change the BPM of an entire map and shift block placements accordingly
 * [BPM Saber](https://bsaber.com/bpmsaber/) by **Elliotttate**  
   A utility for finding the BPM of a song by upload or tapping.
+* [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
+  Video guide on using the timing feature of osu!'s editor to find map bpm.
 
 ### Useful Mods
 Here are some mods that might make your mapping workflow a little easier.
