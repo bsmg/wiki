@@ -2,14 +2,14 @@
 sidebar: auto
 ---
 # Ranking & Scoring Guide
-Written by TeknozFR
+Written by Teknoz
 
 *Big thanks to Flee for correcting grammar mistakes and providing useful information.*
 
 :::warning Disclaimer
 This guide was originally written on February 7th, 2019. It has been updated multiple times but some information may be
 inaccurate or missing. If you notice inaccurate/missing information in this guide, you can submit a pull request on the
-[BSMG Wiki GitHub](https://github.com/bsmg/wiki#readme) or send me a message on Discord (TeknozFR#6900).
+[BSMG Wiki GitHub](https://github.com/bsmg/wiki#readme) or send me a message on Discord (teknoz#6900).
 :::
 
 ## Accuracy and Scoring
