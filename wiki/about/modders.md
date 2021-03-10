@@ -166,6 +166,14 @@ Face off against your friends with his [Versus](https://versusmod.com/) mod.
 
 [GitHub](https://github.com/nate1280)
 
+## nicoco007
+Puts both way too much time and not enough time into Custom Avatars.
+
+**Roles:** Modder
+**Contributions:** Custom Avatars, SiraLocalizer, and a few lines here and there in other mods
+
+[GitHub](https://github.com/nicoco007)
+
 ## opl
 Creator of the HTTPStatus tool that exposes tons of information about the game for other developers to use,
 often in fancy overlays for Twitch streams!
