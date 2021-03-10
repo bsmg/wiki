@@ -106,7 +106,7 @@ Applauds names that have a letter replaced with Q (ex: zenjeqt, reqlay, qosmetic
 **Roles:** Modder
 **Contributions:** Replay, Song Difficulty Chart, Slice Visualizer, and Intro Skip (quest)
 
-[GitHub](https://github.com/goobwabber) | [Donate](https://ko-fi.com/goobwabber)
+[GitHub](https://github.com/henwill8) | [Donate](https://www.patreon.com/henwill8?fan_landing=true)
 
 ## Ikeiwa
 Everyone's favorite french furry. He kicked off modding early on with the original
