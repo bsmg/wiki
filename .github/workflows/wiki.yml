@@ -1,6 +1,8 @@
 name: Wiki CI
 on:
   pull_request:
+    branches:
+      - master
   push:
     branches-ignore:
       - 'cwdin_**'
