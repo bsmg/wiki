@@ -2,29 +2,37 @@
 sidebar: auto
 ---
 # Grips And Tricks
-_A compilation of resources to help you to hit bloq_
+_A compilation of resources to help you to hit bloq._
 
 ## Ranking Up Mega-Tutorial
 An incredible writeup by TeknozFR to help you get that PP.
 [Ranking & Scoring Guide](./ranking-guide)
 
 ## Scoring
-See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) about how the scoring system works.
+See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg)
+about how the scoring system works.
 
 <YouTube url='https://www.youtube.com/watch?v=rVbXCGddspA' />
 
-Additionally, here's an image from the devs about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
+Additionally, here's an image from the game developers about how the
+[hitboxes](https://twitter.com/Split82/status/979365834324889600) work
 
 ![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
 
 ## Ranking
 *How does global ranking work? What are performance points? What are the numbers in my brackets? Why is my PP so small?*
 
-You can find your global ranking and PP on [ScoreSaber](https://scoresaber.com/global) - here you can search for your name. Your scoresaber account is tied to your Steam / Oculus username.
+You can find your global ranking and PP on [ScoreSaber](https://scoresaber.com/global) - here you can search for your name.
+Your ScoreSaber account is tied to your Steam / Oculus username.
 
-1. Ranked songs are assigned PP (PP = performance points). The exact amount of PP gained is determined by the accuracy you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by Umbranox, our Panda God.
-2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays. This curve is 0.965^(x-1) where x is the position of that score on your song list.
-e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play. If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get after the curve applies. Here is a list of my current top 4 plays where the raw PP is in italic and the weighted PP is in bold.
+1. Ranked songs are assigned PP (PP = performance points). The exact amount of PP gained is determined by the accuracy
+  you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by
+  Umbranox, our Panda God.
+2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays.
+  This curve is `0.965^(x-1)` where `x` is the position of that score on your song list.
+  e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play.
+  If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get
+  after the curve applies. Here is a table to illustrate this system:
 
 |Raw PP | Weighted PP |
 | --- | --- |
@@ -33,9 +41,15 @@ e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP whi
 | 246pp | **229pp** (93.1% of raw PP) |
 | 244pp | **219pp**  (89.9% of raw PP) |
 
-3. To rank up, get scores on new songs that are worth more or a similar amount of PP to your top scores. When you don't have any new high PP songs to play, replay songs on your first pages to get better scores. Here is a [spreadsheet by DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) of all the ranked songs and how much PP they are worth. This list is updated every 24 hours.
+3. To get a better rank, there are quite a few tools you can use to find ranked songs that
+ fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to
+ see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like.
+ The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) or [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme)
+ browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee)
+ and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep
+ track of your performance.
 
-Here is another site by [DuoVR](https://duovr.github.io/BigPP/) where you can input your scoresaber profile and it shows you songs that you should play for a lot of PP.
+You can find more information in the [Ranking & Scoring Guide](./ranking-guide.md).
 
 *This section is adapted from Tek's writeup in the Beat Saber Canadian discord.*
 
@@ -69,7 +83,9 @@ A video has not yet been made for Index controllers, but you can find some examp
 A video has not yet been made for the Quest 2's controllers, but you can find some examples below!
 ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
 
-Check out Cube Community's `#tips-and-grips` channel for more suggestions and examples in their [Discord](https://discord.gg/dwe8mbC). Please remember that everyone's playstyle and body is different; someone else's grip might not work exactly like you need it to. Don't be afraid to experiment and find what's right for you!
+Check out Cube Community's `#tips-and-grips` channel for more suggestions and examples in their [Discord](https://discord.gg/dwe8mbC).
+Please remember that everyone's playstyle and body is different; someone else's grip might not work exactly like you need
+it to. Don't be afraid to experiment and find what's right for you!
 
 ## Improve Vive controller tracking
 Your body may be blocking one lighthouse from seeing one of your controllers.
@@ -81,10 +97,14 @@ Here are some steps that may help improve tracking.
 
 ![Vive Tracking Help](~@images/grips-and-tricks/vive-tracking-help.gif)
 
-This can apply to oculus sensors too.
+This can apply to Oculus sensors too.
 
 ## Touch Controller Battery Disconnect
-The force of your swings in Beat Saber can cause the spring in the touch controllers to compress and disconnect the battery for a brief moment. This is what happens when you see your saber lose positional tracking but still rotate in place. To alleviate this, ragesaq recommends adding extra springs inside the battery compartment to decrease the likelihood of battery disconnects happening, explained in this [Reddit post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
+The force of your swings in Beat Saber can cause the spring in the touch controllers to compress and disconnect the battery
+for a brief moment. This is what happens when you see your saber lose positional tracking but still rotate in place. To
+alleviate this, ragesaq recommends adding extra springs inside the battery compartment to decrease the likelihood of
+battery disconnects happening, explained in this
+[Reddit post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
 
 ## Also Consider
 ![Also Consider](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)

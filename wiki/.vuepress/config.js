@@ -78,7 +78,6 @@ module.exports = {
           '/modding/': generateSidebar('Modding', [
             '',
             'intro',
-            'extras',
             'linux',
           ]),
           '/models/': generateSidebar('3D Models', [
@@ -119,7 +118,6 @@ module.exports = {
           '/fr/modding/': generateSidebar('Modding', [
             '',
             'intro',
-            'extras',
             'linux',
           ]),
           '/fr/models/': generateSidebar('Modèles 3D', [
@@ -150,6 +148,11 @@ module.exports = {
     ['container', {
       type: 'feature',
       before: info => `<div class="feature"><h2>${info}</h2>`,
+      after: '</div>',
+    }],
+    ['container', {
+      type: 'align',
+      before: align => `<div align="${align}">`,
       after: '</div>',
     }],
     ['named-chunks', {
