@@ -1,4 +1,4 @@
-# Alpine Node Image
+# syntax = docker/dockerfile:1.2
 FROM node:14-alpine AS builder
 
 # Create app directory
