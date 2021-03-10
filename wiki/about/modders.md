@@ -268,6 +268,15 @@ Creator of BeatDrop, everyone's favorite desktop application for custom song man
 
 [GitHub](https://github.com/StarGazer1258) | [Donate](https://www.patreon.com/bePatron?u=18487054)
 
+## Toni Macaroni
+Create some sabers, throw them and while you are waiting for them to return draw something nice.
+Also official body pillow dealer.
+
+**Roles:** Modder
+**Contributions:** Tricksaber, Saber Factory, Scribble, Custom Pillows
+
+[GitHub](https://github.com/ToniMacaroni) | [Donate](https://ko-fi.com/tonimacaroni)
+
 ## Trishume
 A massive contributor to the development of quest mods.
 
