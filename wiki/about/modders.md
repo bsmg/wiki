@@ -84,12 +84,12 @@ Ended up maintaining a wild variety of mods after adopting them from their origi
 
 ## Goobie
 Maintainer of the mods that help you play with friends the right way.
-Spends way too much time coding, and considers herself best girl.
+Considers herself best girl but thinks that Zenject needs more simps instead.
 
 **Roles:** Modder
 **Contributions:** MultiplayerExtensions, MultiQuestensions
 
-[GitHub](https://github.com/goobwabber) | [Donate](https://ko-fi.com/goobwabber)
+[GitHub](https://github.com/goobwabber) | [Twitch](https://www.twitch.tv/goobwabber) | [Donate](https://ko-fi.com/goobwabber)
 
 ## halsafar
 Helps you sort out your 5000 custom songs in a reasonable manner.
