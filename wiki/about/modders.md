@@ -181,7 +181,7 @@ often in fancy overlays for Twitch streams!
 **Roles:** Modder
 **Contributions:** PlaylistManager, PlaylistLoaderLite
 
-[GitHub](https://github.com/rithik-b) | [Twitch](https://twitch.tv/pixelboom58) | [Donate](https://ko-fi.com/pixelboom) 
+[GitHub](https://github.com/rithik-b) | [Twitch](https://twitch.tv/pixelboom58) | [Donate](https://ko-fi.com/pixelboom)
 
 ## PlasmaPower
 A big part of the development for the Chroma suite, and a major contributor for updating plugins to 0.13!
