@@ -83,7 +83,7 @@ Likes pies, tartes, and helping people fix their mods!
 
 **Roles:** Staff, Support, Moderator
 
-[Twitch](https://www.twitch.tv/mamamelo) | [Donate](https://streamlabs.com/mamamelo)
+[Twitch](https://www.twitch.tv/mamamelo) | [Donate](https://ko-fi.com/melopod)
 
 ## OrangeW
 The first professional Beat Saber player, representing Team Gravity. Former Admin of the ScoreSaber global leaderboards.
