@@ -35,12 +35,12 @@ Somone say text customization mods?
 [GitHub](https://github.com/artemiswkearney) | [GitLab](https://gitlab.com/artemiswkearney) | [Donate](https://ko-fi.com/artibs)
 
 ## Auros
-*Tracking error detected.*
+Built differently. On the goog.
 
 **Roles:** Modder
-**Contributions:** Enhancements, AlphaTwitch, PlaylistCore
+**Contributions:** SiraUtil, Enhancements, The "Di" Series, ImageFactory
 
-[GitHub](https://github.com/Auros) | [Ko-fi](https://www.ko-fi.com/aurosnex) | [Donate](https://donate.auros.dev/)
+[GitHub](https://github.com/Auros) | [Ko-fi](https://www.ko-fi.com/aurosnex)
 
 ## bigfoot
 Has large feet, maybe??
