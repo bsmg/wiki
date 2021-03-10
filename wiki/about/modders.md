@@ -175,6 +175,14 @@ often in fancy overlays for Twitch streams!
 
 [GitHub](https://github.com/opl-)
 
+## PixelBoom
+"I don't really have much to say so uhh... watch Clannad."
+
+**Roles:** Modder
+**Contributions:** PlaylistManager, PlaylistLoaderLite
+
+[GitHub](https://github.com/rithik-b) | [Twitch](https://twitch.tv/pixelboom58) | [Donate](https://ko-fi.com/pixelboom) 
+
 ## PlasmaPower
 A big part of the development for the Chroma suite, and a major contributor for updating plugins to 0.13!
 
