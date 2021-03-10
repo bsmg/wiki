@@ -290,6 +290,14 @@ He's since moved on to develop other VR games, like [Waltz of the Wizard](https:
 
 [GitHub](https://github.com/xyonico/) [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
 
+## kOF.Readie
+Creator of the [BSDataPuller](https://github.com/kOFReadie/BSDataPuller/) mod used for streaming and recording overlays.
+
+**Roles:** Modder
+**Contributions:** BSDataPuller
+
+[GitHub](https://github.com/kofreadie/) [Donate](https://ko-fi.com/kofreadie/)
+
 ---
 
 ::: tip See Also
