@@ -1,5 +1,5 @@
 # Alpine Node Image
-FROM node:12-alpine AS builder
+FROM node:14-alpine AS builder
 
 # Create app directory
 WORKDIR /usr/app
