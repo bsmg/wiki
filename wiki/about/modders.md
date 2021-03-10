@@ -99,6 +99,16 @@ Helps you sort out your 5000 custom songs in a reasonable manner.
 
 [GitHub](https://github.com/halsafar)
 
+## Henwill8
+Quest Modder who made Replay which makes content creators' lives easier.
+Applauds names that have a letter replaced with Q (ex: zenjeqt, reqlay, qosmetics). Probably also blocked by Auros for
+this reason.
+
+**Roles:** Modder
+**Contributions:** Replay, Song Difficulty Chart, Slice Visualizer, and Intro Skip (quest)
+
+[GitHub](https://github.com/henwill8) | [Donate](https://www.patreon.com/henwill8?fan_landing=true)
+
 ## Ikeiwa
 Everyone's favorite french furry. He kicked off modding early on with the original
 EditSaber and the earliest versions of the custom avatar plugin, among many others.
