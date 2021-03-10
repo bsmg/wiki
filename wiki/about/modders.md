@@ -35,7 +35,7 @@ Somone say text customization mods?
 [GitHub](https://github.com/artemiswkearney) | [GitLab](https://gitlab.com/artemiswkearney) | [Donate](https://ko-fi.com/artibs)
 
 ## Auros
-Built differenty. On the goog.
+Built differently. On the goog.
 
 **Roles:** Modder
 **Contributions:** SiraUtil, Enhancements, The "Di" Series, ImageFactory
