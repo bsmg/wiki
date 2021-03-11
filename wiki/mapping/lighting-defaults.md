@@ -414,7 +414,7 @@ This is used by the FitBeat environment.
 },
 ```
 
-#### Left Side Light Color (Brown)
+#### Left Side Light Color (Orange)
 
 ```json
 "_envColorLeft": {
@@ -424,7 +424,7 @@ This is used by the FitBeat environment.
 },
 ```
 
-#### Right Side Light Color (Grey)
+#### Right Side Light Color (Blue)
 
 ```json
 "_envColorRight": {
