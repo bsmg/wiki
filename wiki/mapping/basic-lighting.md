@@ -126,9 +126,6 @@ editor the lighting track looks like this:
 :::
 
 ### Environment Previews
-**Note:** The images below were created using a program called ReShade which increases contrast in post-processing to
-better highlight lights. Environments appear less dark in-game.
-
 | Video and Screenshot (click to open full size) | Environment |
 |:----:|:---- |
 | ![Image of Default environment](~@images/mapping/default_env16.jpg) |**The First (Default) Environment**<br />**Info.dat Name:** `DefaultEnvironment` <br />**Default Colors:** Red & Blue<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark: (left & right)<br />**Track Ring:** :white_check_mark: (square)<br />**Inner Ring:** :white_check_mark: (square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top Lasers are below the Track Lasers <br /><br />**Video Preview:** [Streamable](https://streamable.com/iqo91i), [YouTube](https://youtu.be/wPejfEKf7zo) |
