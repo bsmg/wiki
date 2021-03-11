@@ -726,12 +726,11 @@ Differs to the colors in [Origins](#origins) slighty.
 }
 ```
 
-
 ## Legacy Colors
 This section lists environment colors only if there are different from the section above.
 
 ::: tip NOTE
-This section only contains values from Beat Saber version 1.13.0. 
+This section only contains values from Beat Saber version 1.13.0.
 These are not the full list of changes made to colors over Beat Saber's history.
 :::
 
@@ -868,6 +867,7 @@ These are not the full list of changes made to colors over Beat Saber's history.
 ### 1.13.0 Glass Desert
 
 #### Left Side Light Color (Light Blue)
+
 ```json
 "_envColorLeft": {
   "r":0.2267711,
@@ -875,7 +875,6 @@ These are not the full list of changes made to colors over Beat Saber's history.
   "b":0.52830189
 }
 ```
-
 
 ## Credits
 Content in this section was authored by [Bullet](./mapping-credits.md#bullet)
