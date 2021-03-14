@@ -125,7 +125,7 @@ Creator of the [BSDataPuller](https://github.com/kOFReadie/BSDataPuller/) mod us
 **Roles:** Modder
 **Contributions:** BSDataPuller
 
-[GitHub](https://github.com/kofreadie/) [Donate](https://ko-fi.com/kofreadie/)
+[GitHub](https://github.com/kofreadie/) | [Donate](https://ko-fi.com/kofreadie/)
 
 ## Kyle1413
 Resident Kirby and mod modder. One of the most active modders and a huge part in the evolution of mods over time as the
