@@ -59,13 +59,10 @@ This zip contains a barebones Unity project to get started with creating avatars
  and `DynamicBone.dll` from the game's installation folder into the `Assets\Libraries` folder of the extracted zip
  **before opening the project in Unity** to get it working.
 
-::: danger IMPORTANT CHECKLIST
-
-* Use Unity version
-[2019.3.15f1](https://download.unity3d.com/download_unity/59ff3e03856d/Windows64EditorInstaller/UnitySetup64-2019.3.15f1.exe).
-* Make sure to you have `FinalIK.dll` and `DynamicBone.dll` from the game's installation folder in the `Assets\Libraries`
-folder of the extracted zip **before opening the project in Unity**.
-* Follow [these instructions](#unity-2019).
+::: danger IMPORTANT
+Use Unity version
+[2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe).
+And make sure to follow [these instructions](#unity-2018).
 :::
 
 Import the fbx file with your waifu, and create an empty game object with her name, but don't drag her in yet.
@@ -279,11 +276,11 @@ but feel free to experiment with the values.
 
 ![Full body IK Manager](~@images/models/avatars/fullbodyIKmanager.png)
 
-## Unity 2019
+## Unity 2018
 
-So, you're probably wonder why now I'm telling you to use Unity 2019.3.15f1, when previously we said you shouldn't use any
-2019 version. Well, the game has changed, figuratively, and literally. Beat Saber now uses Unity 2019 instead of Unity 2017
-or 2018, and as such the avatars need to be created with Unity 2019 to work correctly. You will need to set the
+So, you're probably wonder why now I'm telling you to use Unity 2018.1.6f1, when previously we said you shouldn't use any
+2018 version. Well, the game has changed, figuratively, and literally. Beat Saber now uses Unity 2018 instead of Unity 2017,
+and as such the avatars need to be created with Unity 2018 to work correctly. You will need to set the
 `Scripting Runtime Version` to `.NET 4.x Equivalent` if it isn't already. For that you need to go to
 `Edit -> Project Settings -> Player` and in the window that appears open the `Other Settings` tab,
 and scroll down to the `Configuration` section.
@@ -308,13 +305,13 @@ of either `IK Manager` or `IK Manager Advanced` is needed. The controller events
 on their own plugin.
 
 ### I can't find the IK scripts or the Avatar exporter
-Make sure you're using Unity 2019.3.15f1, not 5.6.3p1, not 2017, and you've followed these directions. If your
+Make sure you're using Unity 2018.1.6f1, not 5.6.3p1, not 2017, and you've followed these directions. If your
 CustomAvatar.dll asset doesn't have the arrow that you click to show the scripts, try deleting and re-importing
 the CustomAvatar.dll Asset to Unity.
 
 ### I can export avatars but they're invisible in game. ↵
 You can toggle first person view by pressing `Home`. If they're invisible in your desktop window, make sure that you used
-the correct Beat Saber shaders, and Unity 2019.3.15f1.
+the correct Beat Saber shaders, and Unity 2018.1.6f1.
 
 ### Only my avatars are T-Posed
 Well I'm very sorry, but this means that you did something wrong while creating your avatar. There's no way to know just

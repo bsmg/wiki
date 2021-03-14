@@ -36,6 +36,11 @@ He'll teach you to fix your plugins and your terribly off-beat first map. We've 
 
 [Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
 
+## OneEyed
+2 truths and a lie: Pink cute, CMB sentient, OneEyed has good spelling
+
+**Roles:** Support
+
 ## Pespiri
 He'll give me his bio later today, or so he says.
 
@@ -64,6 +69,18 @@ He has no life and he's pretty dumb but he can help with your bmbf and that's al
 
 ## Simme63
 "Coke Head"
+
+**Roles:** Support
+
+## Squares
+I swear i'm good at Beat Saber and helping just ask Boulders!
+
+**Roles:** Support
+
+[YouTube](https://www.youtube.com/channel/UCaQ7PLj4AqGHZnqQVjc_XBQ)
+
+## Toblersto
+I decided I wanted to help one day, and have been slightly addicted ever since.
 
 **Roles:** Support
 

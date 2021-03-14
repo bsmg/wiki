@@ -10,7 +10,7 @@ Beat Saber is available for both PC and Oculus Quest. Since the modding scene is
 the beginners guide is split into [PC Modding](#pc-modding) and [Quest Modding](#quest-modding).
 
 ### PC Modding
-If you are using SteamVR or the the PC version in the Oculus Store, follow our [PC Modding](./pc-modding.md) guide.
+If you are using SteamVR or the PC version in the Oculus Store, follow our [PC Modding](./pc-modding.md) guide.
 
 Applicable hardware includes:
 

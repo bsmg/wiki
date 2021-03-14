@@ -458,14 +458,16 @@ Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be u
 :::
 
 1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver.  
+    * Beatsaver usernames may only have alphanumeric characters and `-`. Usernames with spaces or `_` for example, are
+    not allowed.
     * If you did not receive a verification email, fill out this [contact form](https://beatsaver.com/contact).  
     **Note** you must provide a valid username *and* the email used to sign up in the form to complete the verification!
 2. Click the <kbd>Upload</kbd> link in the top-right.
 3. Add your BeatSaver map name and map description. Only the map name is searchable so be sure to include song name,
   song artist, and other terms that might make it easier to find your map.
-    * *Use "tags" like (Chroma), (OneSaber), or (Mapping Extensions) if your map uses some special modifications or
+    * Use "tags" like (Chroma), (OneSaber), or (Mapping Extensions) if your map uses some special modifications or
       characteristics you want to highlight.
-    * *Putting a link to a playthrough video in the map description can help you get more downloads as it is easier
+    * Putting a link to a playthrough video in the map description can help you get more downloads as it is easier
       to share your map to others and lets people know what to expect.
 4. Add your .zip file and click the <kbd>Upload</kbd> button.
 

@@ -12,16 +12,6 @@ Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) 
 
 [GitHub](https://github.com/PlusOneRabbit) | [Twitch](https://www.twitch.tv/plusonerabbit) | [Donate](https://ko-fi.com/plusonerabbit)
 
-## Assistant
-Overseeer of core services, including BeatSaver and BeatMods servers.
-The original Support and creator of the custom avatar guide, Mod Assistant, and ModelSaber.
-
-**Roles:** Staff, Support, 3D Artist  
-**Contributions:** BeatMods Approval Staff, Multiplayer/Saber/Avatar/Platform Creation Guides, Moderation,
-ModelSaber, BeatSaver Admin, BSMG Podcasts
-
-[GitHub](https://github.com/Assistant) | [Donate](https://bs.assistant.moe/Donate) | [Patreon](https://www.patreon.com/AssistantMoe)
-
 ## Bloodcloak
 A mapper that is really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps.
 *Totally* hasn't fallen into the vTuber hole.
@@ -134,14 +124,24 @@ Project manager, wiki maintainer, bread baker. Despite what everyone says, I lik
 
 [Twitch](https://www.twitch.tv/williums/) | [Donate](https://ko-fi.com/williums)
 
-## Balsa (retired)
+## Assistant (Retired)
+Overseeer of core services, including BeatSaver and BeatMods servers.
+The original Support and creator of the custom avatar guide, Mod Assistant, and ModelSaber.
+
+**Roles:** Staff, Support, 3D Artist  
+**Contributions:** BeatMods Approval Staff, Multiplayer/Saber/Avatar/Platform Creation Guides, Moderation,
+ModelSaber, BeatSaver Admin, BSMG Podcasts
+
+[GitHub](https://github.com/Assistant) | [Donate](https://bs.assistant.moe/Donate) | [Patreon](https://www.patreon.com/AssistantMoe)
+
+## Balsa (Retired)
 He's the reason we have somewhere to get our custom songs in the first place. He shows up in once in a while to show off
 BeatSaver numbers, call us nerds, and present his collection of finely aged memes. He's since stepped down from the staff
 team, but we wouldn't be here without him.
 
 **Contributions:** BeatSaver Creator.
 
-## Klouder (retired)
+## Klouder (Retired)
 Longtime server member and active contributor. She was the server mom!
 
 **Contributions:** ScoreSaber Admin, Moderation
