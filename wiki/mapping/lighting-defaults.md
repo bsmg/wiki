@@ -8,7 +8,8 @@ _A list of the default color palettes used in each environment._
 
 ---
 
-## Environments
+## 1.13.4 Colors
+These are the colors used in the 1.13.4 version of the game.
 
 ### The First (Default)
 ![Image of TheFirst colors](~@images/mapping/color-thefirst.png)  
@@ -29,8 +30,8 @@ Monstercat, and Panic at the Disco! environments.
 
 ```json
 "_colorRight": {
-  "r": 0,
-  "g": 0.4627451,
+  "r": 0.1568627,
+  "g": 0.5568627,
   "b": 0.8235294
 },
 ```
@@ -39,9 +40,9 @@ Monstercat, and Panic at the Disco! environments.
 
 ```json
 "_envColorLeft": {
-  "r": 0.7843137,
-  "g": 0.07843138,
-  "b": 0.07843138
+  "r": 0.85,
+  "g": 0.08499997,
+  "b": 0.08499997
 },
 ```
 
@@ -50,7 +51,7 @@ Monstercat, and Panic at the Disco! environments.
 ```json
 "_envColorRight": {
   "r": 0.1882353,
-  "g": 0.5960785,
+  "g": 0.675294,
   "b": 1
 },
 ```
@@ -93,9 +94,9 @@ This is used by the Origins environment. These colors are also used in the Glass
 
 ```json
 "_envColorLeft": {
-  "r": 0.2267711,
-  "g": 0.431142,
-  "b": 0.5283019
+  "r": 0.4910995,
+  "g": 0.6862745,
+  "b": 0.7
 },
 ```
 
@@ -104,7 +105,7 @@ This is used by the Origins environment. These colors are also used in the Glass
 ```json
 "_envColorRight": {
   "r": 0.03844783,
-  "g": 0.6223997,
+  "g": 0.6862745,
   "b": 0.9056604
 },
 ```
@@ -255,9 +256,9 @@ This is used by the Rocket League environment.
 
 ```json
 "_envColorLeft": {
-  "r": 0.6745098,
-  "g": 0.3647059,
-  "b": 0.2431373,
+  "r": 0.9,
+  "g": 0.4866279,
+  "b": 0.3244186,
 },
 ```
 
@@ -265,8 +266,8 @@ This is used by the Rocket League environment.
 
 ```json
 "_envColorRight": {
-  "r": 0.1882353,
-  "g": 0.6184419,
+  "r": 0.4,
+  "g": 0.7180724,
   "b": 1
 },
 ```
@@ -353,8 +354,8 @@ This is used by the Timbaland environment.
 
 ```json
 "_colorRight": {
-  "r": 0,
-  "g": 0.5019608,
+  "r": 0.1,
+  "g": 0.5517647,
   "b": 1
 },
 ```
@@ -363,8 +364,8 @@ This is used by the Timbaland environment.
 
 ```json
 "_envColorLeft": {
-  "r": 0,
-  "g": 0.5019608,
+  "r": 0.1,
+  "g": 0.5517647,
   "b": 1,
 },
 ```
@@ -373,8 +374,8 @@ This is used by the Timbaland environment.
 
 ```json
 "_envColorRight": {
-  "r": 0,
-  "g": 0.5019608,
+  "r": 0.1,
+  "g": 0.5517647,
   "b": 1
 },
 ```
@@ -413,23 +414,23 @@ This is used by the FitBeat environment.
 },
 ```
 
-#### Left Side Light Color (Brown)
+#### Left Side Light Color (Orange)
 
 ```json
 "_envColorLeft": {
-  "r": 0.4,
-  "g": 0.28,
-  "b": 0.28,
+  "r": 0.8,
+  "g": 0.5594772,
+  "b": 0.5594772,
 },
 ```
 
-#### Right Side Light Color (Grey)
+#### Right Side Light Color (Blue)
 
 ```json
 "_envColorRight": {
-  "r": 0.28,
-  "g": 0.28,
-  "b": 0.4
+  "r": 0.5594772,
+  "g": 0.5594772,
+  "b": 0.8
 },
 ```
 
@@ -703,7 +704,177 @@ This is not used by any environment. These are the colors used with an unmodifie
 ```
 
 ### Glass Desert
-Identical to the colors in [Origins](#origins).
+Differs to the colors in [Origins](#origins) slighty.
+
+#### Left Side Light Color (Light Blue)
+
+```json
+"_envColorLeft": {
+  "r": 0.32222217,
+  "g": 0.6111111,
+  "b": 0.75
+}
+```
+
+#### Right Side Light Color (Blue)
+
+```json
+"_envColorRight": {
+  "r":0.03844783,
+  "g":0.62239975,
+  "b":0.90566039
+}
+```
+
+## Legacy Colors
+This section lists environment colors only if there are different from the section above.
+
+::: tip NOTE
+This section only contains values from Beat Saber version 1.13.0.
+These are not the full list of changes made to colors over Beat Saber's history.
+:::
+
+### 1.13.0 The First (Default)
+
+#### Right Side Block Color (Blue)
+
+```json
+"_colorRight": {
+  "r": 0,
+  "g": 0.4627451,
+  "b": 0.8235294
+},
+```
+
+#### Left Side Light Color (Red)
+
+```json
+"_envColorLeft": {
+  "r": 0.7843137,
+  "g": 0.07843138,
+  "b": 0.07843138
+},
+```
+
+#### Right Side Light Color (Blue)
+
+```json
+"_envColorRight": {
+  "r": 0.1882353,
+  "g": 0.5960785,
+  "b": 1
+},
+```
+
+### 1.13.0 Origins
+
+#### Left Side Light Color (Light Blue)
+
+```json
+"_envColorLeft": {
+  "r": 0.2267711,
+  "g": 0.431142,
+  "b": 0.5283019
+},
+```
+
+#### Right Side Light Color (Blue)
+
+```json
+"_envColorRight": {
+  "r": 0.03844783,
+  "g": 0.6223997,
+  "b": 0.9056604
+},
+```
+
+### 1.13.0 Rocket
+
+#### Left Side Light Color (Dim Orange)
+
+```json
+"_envColorLeft": {
+  "r": 0.6745098,
+  "g": 0.3647059,
+  "b": 0.2431373,
+},
+```
+
+#### Right Side Light Color (Blue)
+
+```json
+"_envColorRight": {
+  "r": 0.1882353,
+  "g": 0.6184419,
+  "b": 1
+},
+```
+
+### 1.13.0 Timbaland
+
+#### Right Side Block Color (Blue)
+
+```json
+"_colorRight": {
+  "r": 0,
+  "g": 0.5019608,
+  "b": 1
+},
+```
+
+#### Left Side Light Color (Blue)
+
+```json
+"_envColorLeft": {
+  "r": 0,
+  "g": 0.5019608,
+  "b": 1,
+},
+```
+
+#### Right Side Light Color (Blue)
+
+```json
+"_envColorRight": {
+  "r": 0,
+  "g": 0.5019608,
+  "b": 1
+},
+```
+
+### 1.13.0 FitBeat
+
+#### Left Side Light Color (Brown)
+
+```json
+"_envColorLeft": {
+  "r": 0.6,
+  "g": 0.4176471,
+  "b": 0.4176471,
+},
+```
+
+#### Right Side Light Color (Grey)
+
+```json
+"_envColorRight": {
+  "r": 0.4176471,
+  "g": 0.4176471,
+  "b": 0.6
+},
+```
+
+### 1.13.0 Glass Desert
+
+#### Left Side Light Color (Light Blue)
+
+```json
+"_envColorLeft": {
+  "r":0.2267711,
+  "g":0.43114197,
+  "b":0.52830189
+}
+```
 
 ## Credits
 Content in this section was authored by [Bullet](./mapping-credits.md#bullet)
