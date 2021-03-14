@@ -31,7 +31,7 @@ If you do not have access to a PC you can use an [Android Phone](#installing-bmb
 Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
 base game leaderboards.
 If you would like to play modded multiplayer, you need the mod, `Beat Together`, which allows for cross-play between pc
-and quest and allows for custom songs to be used if both parties own said song. The mod can be found in the Beat Saber
+and quest and allows for custom songs to be used if all parties own said song. The mod can be found in the Beat Saber
 Modding Group in `#quest-mods` or on the [Questboard](https://questmodding.com) site.
 
 To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
@@ -116,7 +116,7 @@ Developer Mode on your Quest.
 Before modding, run Beat Saber once, play a level and immediately fail!
 :::
 
-Open bugjaeger on your Phone connect your Quest.
+Open bugjaeger on your Phone and connect your Quest.
 You should get a USB debugging pop-up in your Quest and on your phone. Select allow on both devices and if you prefer,
 select always allow.
 Once bugjaeger picks your Quest up, install the BMBF APK by doing following:
@@ -176,7 +176,7 @@ Click this and let it finish syncing. Then go to your `mods` tab in BMBF. Make s
 * Custom Types
 
 :::danger
-If you do not see all of these listed and enabled, all other mods will not work.
+All other mods will not work if these core mods are not listed and enabled.
 
 If one of the core mods does not enable, delete that mod and click `Sync to Beat Saber` again to redownload it.
 Double check to see if it has been downloaded and enabled.
@@ -253,7 +253,7 @@ or the 50 hardest ranked songs.
 
 Another method is using the `Bookmark` feature on [Beastsaber](https://bsaber.com/). After creating an account you can click
 a little bookmark icon on a song and if you later delete all your songs from the Quest you can redownload the ones that
-are bookmarked with one-click.
+are bookmarked with OneClick™.
 
 ### Using your PC
 If you are unable to install songs inside your Quest, you can install maps using your computer similar to installing mods.
