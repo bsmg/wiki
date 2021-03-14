@@ -119,6 +119,14 @@ that some streamers use to show you how to cut bloq properly.
 
 [GitHub](https://github.com/ItsNovaHere) | [Ko-Fi](https://ko-fi.com/itsnovahere)
 
+## kOF.Readie
+Creator of the [BSDataPuller](https://github.com/kOFReadie/BSDataPuller/) mod used for streaming and recording overlays.
+
+**Roles:** Modder
+**Contributions:** BSDataPuller
+
+[GitHub](https://github.com/kofreadie/) [Donate](https://ko-fi.com/kofreadie/)
+
 ## Kyle1413
 Resident Kirby and mod modder. One of the most active modders and a huge part in the evolution of mods over time as the
 original modders stop working on them, including the likes of SongLoader/SongCore and Custom Colors.
@@ -289,14 +297,6 @@ He's since moved on to develop other VR games, like [Waltz of the Wizard](https:
 **Contributions:** SongLoader, CameraPlus
 
 [GitHub](https://github.com/xyonico/) [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
-
-## kOF.Readie
-Creator of the [BSDataPuller](https://github.com/kOFReadie/BSDataPuller/) mod used for streaming and recording overlays.
-
-**Roles:** Modder
-**Contributions:** BSDataPuller
-
-[GitHub](https://github.com/kofreadie/) [Donate](https://ko-fi.com/kofreadie/)
 
 ---
 
