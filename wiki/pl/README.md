@@ -17,34 +17,40 @@ tags:
   - jak tworzy się beat mapy?
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class='features'>
 
-::: feature Wprowadzenie
-* [Modowanie na PC](./pc-modding.md)
-* [Modowanie na Quest](./quest-modding.md)
-* [Typowe problemy](./support/)
-* [Chwyty i sztuczki](./grips-and-tricks.md)
-* [Poradnik o rankingach i punktacji](./ranking-guide.md)
+::: feature Getting Started
+
+* [PC Modding](./pc-modding.md)
+* [Quest Modding](./quest-modding.md)
+* [Common Problems](./support/)
+* [Grips and Tricks](./grips-and-tricks.md)
+* [Ranking & Scoring Guide](./ranking-guide.md)
 :::
 
-::: feature Tworzenie nowych treści
-* [Poradnik dla Modderów](/modding/)
-* [Zasoby dla Mapperów](/mapping/)
-* [Poradnik o Modelach 3D](/models/)
+::: feature Creating new Content
+
+* [Modder's Guide](/modding/)
+* [Mapper Resources](/mapping/)
+* [3D Models Guide](/models/)
 :::
 
-::: feature Pozostałe zasoby
-* [O nas](/about/)
-* [Zdrowie i bezpieczeństwo](./health-and-safety.md)
-* [Często zadawane pytania](/faq/)
+::: feature Other Resources
+
+* [About Us](/about/)
+* [Health and Safety](./health-and-safety.md)
+* [Frequently Asked Questions](/faq/)
 * [Communities](/communities/)
 :::
 
 </div>
+<!-- markdownlint-enable MD033 -->
 
-<hr />
+---
 
 ## Linki zewnętrzne
+
 * [Dołącz do naszego serwera Discord!](https://discord.gg/beatsabermods)
 * [Patreon BSMG](https://www.patreon.com/beatsabermods) - Wesprzyj usługi BSMG!
 * [BeatMods](https://beatmods.com) - Repozytorium modów na PC odzwierciedlonych w instalatorach takich jak ModAssistant

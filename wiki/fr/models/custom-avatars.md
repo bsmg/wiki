@@ -4,15 +4,16 @@
 
 :::warning Custom Avatars is a PC only mod. :::
 
-The latest Custom Avatar plugin can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant). Once installed you should see a file called `CustomAvatar.dll` inside your `Plugins` folder. You should also see a folder called `CustomAvatars` in [your install folder](/faq/install-folder.md) — this is where you will be placing the `*.avatar` files you want to use.
+La dernière version de l'extension Custom Avatar peut être trouvée dans le [canal textuel #pc-mods](https://discord.gg/beatsabermods) du Discord BSMG ou dans [Mod Assistant](https://github.com/Assistant/ModAssistant). Une fois installée, vous trouverez un fichier nommé `CustomAvatar.dll` dans votre dossier `Plugins`. You should also see a folder called `CustomAvatars` in [your install folder](/faq/install-folder.md) — this is where you will be placing the `*.avatar` files you want to use.
 
-You can download more avatars on [ModelSaber](https://modelsaber.com/Avatars/).
+Vous pouvez télécharger plus d'avatars sur [ModelSaber](https://modelsaber.com/Avatars/).
 
 ## Utilisation
 Inside the game in the main menu you will see an `AVATARS` button to the left of the main menu. Pressing it will open up the menu you can use to select which avatar you want to use. There's also additional settings you can change, such as avatar scaling and if the avatar is visible in first person.
 
 ::: warning NOTE
-* Avatars are not selected by default. Make sure to go into the right menu and switch to an avatar if none appear at first.
+
+* Avatars are not selected by default. Utilisez Page Up ou Page Down avec le jeu en premier plan pour changer l'avatar si aucun n'apparaît au début.
 * Some avatars were not made with first person view in mind, so they might block your vision if enabled. :::
 
 ## Créer des avatars

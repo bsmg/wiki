@@ -6,7 +6,7 @@ description: Guia de Emma para criar Custom Platforms!
 ---
 
 # Guia de Custom Platforms
-_Guia de Emma para criar Custom Platforms_
+_Guia de Emma para criar Custom Platforms._
 
 ## Projeto
 Abra o atual [Custom Platforms Project](https://github.com/affederaffe/CustomPlatformsUnityProject/releases/) com a [Unity 2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe).
@@ -33,7 +33,7 @@ Ativando o step effect altera o espaçamento dos rings quando o evento especific
 ### Tube Light
 ![Tube Light](~@images/models/platforms/TubeLightScript.png)
 
-Este script ativar blinking lights. Colocar isso em um gameObject vazio altera o fundo e adiciona um pouco de cor ao espaço, de acordo com o light ID's. Quando há também um mesh renderer nele, ele vai mudar a cor das meshes de acordo com o light ID's. Quando usar isso, adicionar cores não é necessário, então mude o tamanho no script para 0.
+Este script ativar blinking lights. Coloque isso em um gameObject vazio altera o fundo e adiciona um pouco de cor ao espaço, de acordo com o ID da luz. Quando há também um mesh renderer nele, ele vai mudar a cor das meshes de acordo com o light ID's. Quando usar isso, adicionar cores não é necessário, então mude o tamanho no script para 0.
 
 ### Song Events
 ![Song Event Handler](~@images/models/platforms/SongEventHandler.png)
@@ -43,12 +43,14 @@ O event manager é o script mais útil. Com ele, você pode acionar uma ação e
 ### Spectogram
 ![Spectogram](~@images/models/platforms/Spectogram.png)
 
-O script spectrogram funciona como o script de track rings e também requer um prefab ou gameObject. Isto será esticado e encolhido de acordo com o som do jogo e as variáveis fornecidas. (Também não testei isso).
+O script spectrogram funciona como o script de track rings e também requer um prefab ou gameObject. Isso será esticado e encolhido de acordo com o som do jogo e as variáveis fornecidas. (Também não testei isso).
 
 ## Exporting
 
 ![Saving](~@images/models/platforms/Save.png)
 
-Exporte a plataforma através do script que você adicionou anteriormente ao gameObject para a localização de sua escolha. Preferencialmente, o diretório do jogo `Beat Saber/CustomPlatforms`. ::: dica **Uma vez que você tem seus novos sabres funcionando**, [envie-os para o ModelSaber](https://modelsaber.com) se quiser compartilhá-los com o mundo. :::
+Exporte a plataforma através do script que você adicionou anteriormente ao gameObject para a localização de sua escolha. Preferencialmente, o diretório do jogo `Beat Saber/CustomPlatforms`.
+
+::: dica **Uma vez que você tem seus novos sabres funcionando**, [envie-os para o ModelSaber](https://modelsaber.com) se quiser compartilhá-los com o mundo. :::
 
 ![Cat](~@images/models/platforms/Cat.png)

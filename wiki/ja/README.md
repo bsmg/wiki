@@ -17,22 +17,27 @@ tags:
   - how are beat maps make?
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class='features'>
 
 ::: feature Getting Started
+
 * [PC Modding](./pc-modding.md)
 * [Quest Modding](./quest-modding.md)
 * [Common Problems](./support/)
 * [Grips and Tricks](./grips-and-tricks.md)
+* [Ranking & Scoring Guide](./ranking-guide.md)
 :::
 
 ::: feature Creating new Content
+
 * [Modder's Guide](/modding/)
 * [Mapper Resources](/mapping/)
 * [3D Models Guide](/models/)
 :::
 
 ::: feature Other Resources
+
 * [About Us](/about/)
 * [Health and Safety](./health-and-safety.md)
 * [Frequently Asked Questions](/faq/)
@@ -40,10 +45,12 @@ tags:
 :::
 
 </div>
+<!-- markdownlint-enable MD033 -->
 
-<hr />
+---
 
 ## 外部リンク
+
 * [Discordサーバーに参加する](https://discord.gg/beatsabermods)
 * [BSMG Patreon](https://www.patreon.com/beatsabermods) - BSMGサービスを支援して下さい!
 * [BeatMods](https://beatmods.com) - ModAssistantのようなインストーラーに反映されるPC用MODが保管されています

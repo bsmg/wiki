@@ -3,64 +3,73 @@ sidebar: auto
 ---
 
 # Support
+
 ## Inhalt
-0. [Wichtige Hinweise](#0-important-notes)
-1. [Installation Probleme](#1-installer-issues)
-2. [In-Game Probleme](#2-game-issues-post-modding)
-3. [Übliche Fragen](#3-common-questions)
-4. [Problembehandlung](#4-troubleshooting)
-5. [Wenn alles andere fehlschlägt](#5-if-all-else-fails)
-6. [Immernoch Probleme](#6-still-having-issues)
+
+0. [Updates](#_0-updates)
+1. [Keine Mods?](#_1-no-mods)
+2. [Spielfehler nach dem Modden](#_2-game-issues-post-modding)
+3. [Übliche Fragen](#_3-common-questions)
+4. [Diverse Fehlerbehebungsmethoden](#_4-miscellaneous-troubleshooting)
+5. [Noch immer Fehler](#_5-still-having-issues)
 
 ## 0. Updates
-Nach einem Update sollte der Kanal `#server-announcements` auf dem BSMG Discord die neusten Anleitungen für den Status von Updates haben. Die folgenden Anweisungen sind die häufigsten Verfahren.
+Nach einem Update ist der `#server-announcements` Kanal im BSMG Discord die Quelle der aktuellsten Informationen über den Status von Mods. Die folgenden Anweisungen sind die häufigsten Verfahren.
 
-#### Das Update hat meine Mods kaputt gemacht
-**Starte das Spiel einmal** auf dem neuen Update. Installiere deine Mods dann wieder mit einem Installer, wie er im [Anfänger Guide](/de/beginners-guide) verlinkt ist, vorzugsweise dem Mod Assistant.
+### Das Update hat meine Mods zerstört
+**Starte das Spiel einmal** auf dem neuen Update. Dann installiere die Mods noch einmal mit einem Installer, welcher im [beginner's guide](/beginners-guide) verlinkt ist, wie z. B Mod Assistant.
 
 ## 1. Keine Mods?
 
-#### 1.1 Keine Mods bei einer Neuinstallation des Spiels
+### Diverse Fragen
+
+#### 1.1 Keine Mods erscheinen bei einer neuen Installation des Spiels
 Als erstes, stelle sicher das die folgenden Dinge korrekt sind:
-* **Du hast das Spiel bereits einmal gestartet, bevor du Mods installiert hast**. BSIPA entfernt alle mods beim ersten Start eines neuen Updates, um zu verhindern, dass alte Mods in einer neuen Version laden. Installiere die Mods neu falls das der Fall ist.
-* Steam/Oculus starten Beat Saber von der **gleichen Installation** in welcher die Mods sind. *z.B. Mods sind auf der D: Festplatte, aber Steam startet von der C: Festplatte.* Setze den korrekten Installationsort in deinem Installationsprogramm.
+
+* **Du hast das Spiel bereits einmal gestartet, bevor du Mods installiert hast**. BSIPA entfernt alle Mods beim ersten starten eines neuen Updates, um zu verhindern, dass alte, nicht funktionierende Mods auf der neuen Version laden. Installiere die Mods einfach nochmal falls das der Fall sein sollte.
+* Steam/Oculus starten Beat Saber aus der **gleichen Installation** in der die Mods sind. *z.B Mods sind auf der D: Festplatte aber Steam startet das Spiel von der C: Festplatte.* Setzte den korrekten Installationsort im Installer deiner Wahl.
 * Falls du deine Mods manuell installiert hast, stelle sicher das du alle Dateien vom Download in die korrekten Ordner gepackt hast.
 
-#### 1.2 Ich hatte Mods auf einer älteren Version installiert, aber nichts läd nach dem Update
-
+#### 1.2 Ich hatte Mods in einer alten Version installiert, aber nichts läd nach einem Update
 Falls die Details in Sektion 1.1 korrekt sind, versuche die folgenden Lösungen, in absteigender Reihenfolge.
 
-**Lösung 1.**
-- Update BSIPA auf die neueste Version (in ModAssistant oder manuell)
-- Geh in deinen Beat Saber Ordner
-- Führe `IPA.exe` aus
+##### Lösung 1
 
-**Lösung 2.**
--  [Überprüfe deine Spieldateien](#verify-game-files-for-steam) (nur auf Steam verfügbar, Oculus-Nutzer sollten auf Lösung Nummer 4 zurückgreifen)
-- Update BSIPA auf die neueste Version
-- Geh in deinen Beat Saber Ordner
-- Führe `IPA.exe` aus
+* Update BSIPA auf die neueste Version (in ModAssistant oder manuell)
+* Geh in deinen Beat Saber Ordner
+* Führe `IPA.exe` aus
 
-**Lösung 3.**
-- Geh in deinen Beat Saber Ordner
-- Mach ein Backup des `UserData` Ordners (optional)
-- Lösche `UserData`
+##### Lösung 2
 
-::: warning Das wird alle deine Plugineinstellungen zurücksetzen! :::
+* [Überprüfe deine Spieldateien](#verify-game-files-for-steam) (nur auf Steam verfügbar, Oculus-Nutzer sollten auf Lösung Nummer 4 zurückgreifen)
+* Update BSIPA zu der neuesten Version
+* Geh in deinen Beat Saber Ordner
+* Starte `IPA.exe`
 
-**Lösung 4.**
-- [Führe eine Neuinstallation durch](#clean-installation)
+##### Lösung 3
 
-#### 1.2 ModAssistant scheint keine Plugins zu installieren
+* Geh in deinen Beat Saber Ordner
+* Mach ein Backup des `UserData` Ordners (optional)
+* Lösche `UserData`
+
+::: Warnung Das wird alle Mod-Einstellungen zurücksetzen! :::
+
+##### Lösung 4
+
+* [Führe eine Neuinstallation durch](#clean-installation)
+
+#### 1.2 Mod Assistant tut so als ob es keine Mods installieren würde
 Der Installer läd Mods nach `Beat Saber/IPA/Pending`, BSIPA schiebt die Dateien in das Root-Verzeichnis wenn das Spiel gestartet wird. Falls der Plugin Ordner danach immernoch leer ist, führe `IPA.exe` noch einmal aus und stelle sicher das nichts das Ausführen stoppt, z.B. `Antivirenprogramme, Adminrechte, etc.`
 
 ## 2. Spielfehler nach dem Modden
+
 ### Das Spiel startet nicht
 
-#### 2.1 GetThreadContext Failed
-Falls ein Fenster aufkommt, welcher sagt `GetThreadContext Failed` oder ein Windows Fehler-Sound spielt, hast du möglicherweise Software auf deinem PC welche das funktionieren Beat Saber Mods verhindert. Viele Drittanbieter Anti-Cheat Software wie ESEA oder FaceIT stoppen BSIPA beim anwenden von Mods für Beat Saber, sogar wenn sie nicht laufen. Manche Antivirussoftware weisen ebenfalls ein ähnliches Verhalten auf.
+#### 2.1 GetThreadContext Failed Fehlermeldung
+Falls ein Fenster erscheint, welches sagt `GetThreadContext Failed` und oder du hörst einen Windows Fehler Sound könntest du Software auf deinem PC haben, welches das funktionieren von Beat Saber Mods verhindert. Viele Drittanbieter Anti-Cheat Software wie ESEA oder FaceIT stoppen BSIPA beim anwenden von Mods für Beat Saber, sogar wenn sie nicht laufen. Manche Antivirussoftware weisen ebenfalls ein ähnliches Verhalten auf.
 
 Um das Problem zu lösen:
+
 1. Deinstalliere alle Anti-Cheat Software.
 2. Starte deinen Computer neu.
 3. Überprüfe ob irgendwelche Überreste des Programms noch im `%AppData%` vorhanden sind.
@@ -69,9 +78,12 @@ Um das Problem zu lösen:
 Das sollte das Problem lösen.
 
 #### 2.2 Beim Start eingefroren
-Wenn dein Spiel auf dem Bildschirm für Gesundheit und Sicherheit eingefroren ist oder Du eine Avatar T-Pose ohne Kontrolle im Spiel siehst, [überprüfe deine Dateien](#verify-game-files-for-steam) wenn du das Spiel auf Steam hast oder und deinstalliere und installiere das Spiel auf Oculus Home. Beziehen Sie sich auf [Installation bereinigen](#clean-installation). Dies scheint beim Aktualisieren von Beat Saber und beim Installieren von Mods vor der Installation zu geschehen, nicht aber bei Benutzern mit einer sauberen Installation des Spiels.
+Falls das Spiel im Health and Safety Bereich am Anfang des Spiels einfriert und du keine Kontrolle des Spiels hast, [Überprüfe die Spieldateien auf Fehler](#verify-game-files-for-steam) falls du das Spiel auf Steam haben solltest, oder Installiere das Spiel auf Oculus Home noch einmal. Siehe [Neuinstallation](#clean-installation)
+
+Das scheint beim updaten von Beat Saber zu passieren, während man bereits Mods installiert hatte. Aber nicht zu Nutzern mit einer sauberen Installation des Spiels.
 
 ### FPS Probleme
+
 #### 2.3 Das Spiel stottert unerträglich nach dem installieren von Mods
 Falls das Spiel so schlecht läuft, dass man kaum den `Continue` Knopf im Health & Safety Menü klicken kann, dann: Steam: Überprüfe die Spieldateien, Oculus: Führe eine Neuinstallation durch. Mach das gleiche falls das Spiel überhaupt nicht startet und keine Fehlermeldung erscheint.
 
@@ -80,91 +92,102 @@ Wenn das Problem nicht gelöst wurde, überprüfen Sie Abschnitt [2.4 Framerate 
 #### 2.4 Framerate verbessern
 Falls [2.3](#2-3-the-game-stutters-unbearably-after-installing-mods) deine FPS nicht verbessert hat, dann kann dein PC möglicherweise einfach nicht mit dem Stress, den Mods verursachen zurecht kommen. Hier sind ein paar Dinge, die du tun kannst um deine FPS zu verbessern, in keiner wirklichen Reihenfolge:
 
-* Überprüfe ob NVIDIA GEFORCE EXPERIENCE die Rendering-Skalierung über den Standardwert von 1 gesetzt hat. Möglicherweise hat es auf eine höhere Zahl von 1,4 oder 1,8 gesetzt, was die GPU-Last erheblich erhöht.
+* Überprüfe ob NVIDIA GEFORCE EXPERIENCE die Rendering-Skalierung über den Standardwert von 1 gesetzt hat. Möglicherweise hat es das auf eine höhere Zahl wie 1,4 oder 1,8 gesetzt, was die GPU-Last erheblich erhöht.
 * Verwende einen weniger komplexen Avatar.
-* The custom saber **Plasma Katanas** have tons of custom events and are known to introduce lag if you miss.
+* Der custom saber **Plasma Katanas** hat unglaublich viele Effekte und ist bekannt dafür, Lag einzuführen, wenn du Noten verfehlst.
 * CameraPlus kann sehr anfordernd sein, vor allem wenn Du mehrere Kameras aktiviert hast und das FOV erhöhst.
 * Stelle die Renderskallierung, Anti-Aliasing, Mirror, Fog etc. in den Grundeinstellungen aus.
-* Für Rift (CV1)-Spieler: Denke darüber nach, nur 2 Sensoren anstatt 3 oder mehrere zu verwenden.
+* Für Oculus Rift (CV1) spieler: Versuche 2 anstatt 3 oder mehr Sensoren zu nutzen.
 * Reduziere deine Gesamtanzahl an Mods und Songs.
 * Führe eine eine [saubere Neuinstallation](#clean-installation) der Spieldateien durch.
 * Eine niedrige Framerate kann auch durch Fehler in deinem Anwendungsdatenordner verursacht werden. Um das zu beheben, überlege dir, [deinen BeatSaber-Ordner im AppData-Verzeichnis zu löschen](#deleting-your-save-in-appdata).
-* Deaktiviere manche CountersPlus-Features, wie zum Beispiel "Score Counter" und "Swing Speed", da sie ziemlich anfordernd werden können.
+* Deaktiviere CountersPlus zähler wie Score counter oder Schwinggeschwindigkeit da diese sehr anfordernd sein können.
 * Die HTTPStatus-Mod kann Lagspikes verursachen. Teste dies ohne die Mod, um zu sehen, ob sich deine Lagspikes reduzieren oder verschwinden.
 
-VR is very CPU intensive, especially if you add mods. If you're struggling to run the game with the mods you want, consider upgrading your hardware. Note that Beat Saber doesn't utilize the GPU very much as visually it's a fairly simple game.
+VR ist sehr CPU intensiv, erst recht wenn man Mods hinzufügt. Wenn du Schwierigkeiten hast, das Spiel mit den Mods auszuführen, die du möchtest, Überlege deine Hardware zu ersetzen. Anmerkung: Beat Saber ist nicht sehr GPU intensiv, da das Spiel grafisch sehr simpel ist.
 
 ## 3. FAQ's
-#### 3.1 Leeres Menü, keine UI
-Wenn dein Menü leer ist, ist mit hoher Wahrscheinlichkeit deine Speicherdatei defekt. Um dies zu beheben, [lösche deine kompletten Beat Saber Dateien](#deleting-your-save-in-appdata).
 
-:::warning Dies löscht deine lokalen Scores im Leaderboard und Statistiken. :::
+### Sonstiges
 
-#### 3.2 Wie verwende ich diesen Mod?
-- Wenn Du den Mod Assistant nutzt, klick einfach auf "Mod Info" - http://beatmods.com hat ebenfalls eine solche Schaltfläche.
+#### 3.1 Leeres Menü, keine Schaltflächen
+Wenn dein Menü leer ist, ist mit hoher Wahrscheinlichkeit deine Speicherdatei defekt. Um dies zu beheben, [lösche deine kompletten Beat Saber Dateien](#deleting-your-save-in-appdata)
 
-#### 3.3 Rumble Issues
-Gameplay Modifiers Plus adds a toggle to enable/disable controller rumble. If you disabled it then removed the mod, you'll need to modify the save data file that it writes to manually. Open `%appdata%/../locallow/hyperbolic magnetism/beat saber` and set `constrollersRumbleEnabled` to `true`.
+::: warning Dies löscht deine lokalen Scores im Leaderboard und Statistiken. :::
 
-If this isn't the cause of your rumble issues and the following are true regarding your haptics:
+#### 3.2 Wie verwende ich `X` Mod?
+- Wenn Du Mod Assistant nutzt, klick einfach auf "Mod Info". [BeatMods](http://beatmods.com) hat ebenfalls eine solche Schaltfläche.
+
+#### 3.3 Vibrationsfehler
+Gameplay Modifiers Plus hat eine Option für das Ein/Ausschalten der Controllervibrationen. Wenn Du es deaktiviert hast, dann hat es den Mod entfernt. Du musst die Speicherdatei in die es schreibt, manuell ändern. Öffne`%appdata%\..\LocalLow\Hyperbolic Magnetism\Beat Saber\settings.cfg` und setze `controllersRumbleEnabled` zu `true`.
+
+Wenn dies nicht die Ursache für deine Vibrationsprobleme ist und Folgendes für deine Haptik gilt:
+
 * Haptiken sind minimal
-* there is no vibration when hitting multiple blocks
-* there is a slight delay when touching sabers together
-* you are using Oculus touch controllers
+* beim treffen mehrerer Blöcke ist keine Vibration
+* beim überschneiden von beiden Sabern gibt es eine kleine verzögerung
+* du benutzt Oculus Touch Controllers
 
-Then there is a good chance that Beat Saber is overloading your motherboard's USB controller. Oculus devours your USB controller bandwidth and most motherboards come with a very cheap controller. Beat Saber pushes it harder than any other game, which is why other games and menus might be fine. There is no clear-cut solution, so try the following:
-* Shuffle the sensor and HMD USB cables around in different ports
-* Unplug unnecessary USB devices
-* Buy a PCI-E USB hub
-* Use `-vrmode oculus` if you're using SteamVR to bypass it and use the Oculus SDK instead
+Dann gibt es eine gute Chance, dass Beat Saber den USB-Controller deines Mainboards überlädt. Oculus verschlingt deine USB-Controller Bandbreite und die meisten Mainboards verfügen über einen sehr günstigen Controller. Beat Saber beansprucht den Controller härter als jedes andere Spiel, das ist der Grund wieso andere Spiele und Menüs OK laufen. Es gibt keine einfache Lösung dafür, also versuche folgendes:
 
-### Custom Avatars
-#### 3.4 Custom Avatars (Not) Showing Ingame
-Click the **Home** button on your keyboard with the game in focus to toggle visibility in the headset.
+* Benutze verschiedene Ports für die Sensor und Headset Kabel
+* Unnötige USB-Geräte trennen
+* Kaufe einen PCIe USB Hub
+* Verwende `-vrmode oculus` wenn du SteamVR verwendest um Steam zu umgehen und stattdessen das Oculus SDK zu verwenden
 
-#### 3.5 My Avatars Are Broken
-Make sure your custom avatars plugin is installed properly and updated, also make sure your dependencies are too. You might have a corrupted/broken avatar, having one avatar break can break all of your avatars likewise with songs and sabers.
+### Custom Avatare
+
+#### 3.4 Custom Avatare erscheinen nicht im Spiel
+Klicke auf die **Home** Taste auf deiner Tastatur mit dem Spiel im Fokus um die Sichtbarkeit im Headset umzuschalten.
+
+#### 3.5 Meine Avatare funktionieren nicht
+Stelle sicher, das die neueste version der custom avatars Mod korrekt installiert ist. Stelle auch sicher das die Dinge von denen es Abhängig ist auch auf dem neuesten Stand sind. Du könntest einen kaputten Avatar haben. Nur ein kaputter Avatar kann dazu führen, dass alle Avatare nicht mehr funktionieren. Das gleiche gilt für Songs und Saber.
 
 ### Custom Songs
 
-#### 3.6 My Songs Are Missing
-Make sure your songs are in your `CustomLevels` folder, located at `Beat Saber/Beat Saber_Data/`. This is where the game natively reads custom songs from.
+#### 3.6 Meine Songs fehlen
+Stelle sicher das sich deine Songs im `Custom Levels` Ordner im `Beat Saber\Beat Saber_Data\CustomLevels` Pfad befinden. Hier liest das Spiel nativ Custom Songs aus.
 
-**Do not** place songs in the old `Beat Saber/CustomSongs` folder. This location is deprecated as the format for custom songs has changed. If you have maps in the old format (`.json` and `.ogg` files instead of `.dat` and `.egg`), leave them in the old `Beat Saber/CustomSongs` folder. They will then be automatically converted by the SongCore mod.
+Platziere die Songs **nicht** im alten `Beat Saber/CustomSongs` Ordner. Dieser Standort ist veraltet, da sich das Format für Custom Songs geändert hat. Falls du Maps im alten Format haben solltest (`.json` und `.ogg` anstatt `.dat` und `.egg`) lass sie einfach im alten `Beat Saber/CustomSongs` Ordner. Du musst sie erneut von BeatSaver herunterladen.
 
-Alternatively, you can manually convert them using [Song Converter](https://github.com/lolPants/songe-converter)
+Alternativ kannst du sie auch manuell konvertieren, indem du [Song Converter](https://github.com/lolPants/songe-converter) benutzt. Jedoch wirst du bei der Methode keine Hilfe bekommen und du musst das Programm selbst Compilen.
 
-#### 3.7 Grayed Out Play Button
-Click the shiny blue question mark (?) button in the top right corner. This should tell you what mods are required to play the song, which you are missing and should install. If it is still not working, try re-installing the required plugin. Otherwise try a [Clean Install](#clean-installation).
+#### 3.7 Ausgegrauter Play Button
+Klicke auf den glänzenden (?) Knopf oben rechts im Menü. Der sollte dir sagen welche Mods benötigt sind um den Song zu spielen, welche fehlen und installiert werden sollten. Wenn es immer noch nicht funktioniert, versuche die benötigte Mod neu zu installieren. Sonst probiere eine [Neuinstallation](#clean-installation).
 
-#### 3.8 Map details are infinitely loading
-If this only happens on particular maps, those song files are probably broken. If it happens to all of your maps, delete your `Plugins` folder and reinstall fresh ones.
+#### 3.8 Map details werden unendlich geladen
+Falls das nur bei ein paar bestimmten Maps auftritt, kann es sein das manche Mods fehlen oder das die Songdatei kaputt ist. Falls es bei all deinen Maps passiert, lösche deinen `Plugins` Ordner und installiere deine Mods noch einmal.
 
-### Camera Plus
-#### 3.9 Camera Plus Isn't Working/Past Health Screen
-Make sure the in-game setting for "Smooth Camera" is turned off in your in-game settings. If that does not work, try reinstalling it and associated dependencies.
+### CameraPlus
 
-#### 3.10 My desktop view only takes up a small section of the screen
-Your CameraPlus display isn't filling up your canvas. Either drag the corner to fit the screen, or right click the window and click "Fit to Canvas".
+#### 3.9 CameraPlus funktioniert nicht/nicht nach der Health & Safety Warnung
+Stelle sicher das die Einstellung "Smooth Camera" in den Spieleinstellungen aus ist. Wenn das nicht funktioniert, versuche die Mod und zugehörige Abhängigkeiten neu zu installieren.
+
+#### 3.10 Meine Desktop-Ansicht belegt nur einen kleinen Teil des Bildschirms
+Dein CameraPlus Display füllt nicht die gesamte Leinwand. Entweder ziehst du die Ecke so, dass es auf die Leinwand passt. Oder du klickst auf die "Fit to Canvas" Option im Rechtsklickmenü.
 
 ### BeatSaver Downloader
-#### 3.11 BeatSaver Downloader More Songs Button
-**The More Songs button is located in the main menu to the left under the Mods text.** If the button for More Songs is greyed out then make sure all your songs loaded first, as seen in by the rainbow progress bar on the main menu. If your Mods menu isn't there then make sure your plugins and dependencies are working and installed properly, refer to the [No Mods?](#_1-no-mods) section.
 
-#### 3.12 Nothing Showing Up In The More Songs Menu
-The probable causes for beatsaver downloader not working are:
-1. Make sure all of your songs have loaded in before, or else the More Songs button will be greyed out.
-2. Your anti-virus or firewall blocking access to BeatSaver.
-3. You have hit Beatsaver's rate limit and will have to wait before trying again.
+#### 3.11 BeatSaber Downloader More Songs Button
+**Die More Songs taste ist im Hauptmenü auf der linken Seite unter dem Wort "Mods".** Falls der Knopf ausgegraut ist, stelle sicher das alle deine Mods zuerst einmal geladen sind. Das sieht man am Regenbogenfarbenen Ladebalken im Hauptmenü. Falls das Mod Menü nicht da ist stelle sicher das deine Plugins und Abhängigkeiten korrekt installiert sind und funktionieren. Verweise dich auf die [Keine Mods?](#_1-no-mods) Sektion.
 
-## 4. Miscellaneous Troubleshooting
-### Understanding Logs
-If you're on Steam you can go to
-> Beat Saber > Properties > Set Launch Options > Add `--verbose` to the text field that appears
+#### 3.12 Nichts taucht im More Mods Menü auf
+Die wahrscheinlichen Ursachen für das nicht funktionieren vom BeatSaver downloader sind:
 
-If you're on Oculus then you will have to Right click on Beat Saber.exe and create a shortcut. Edit the Target to add "--verbose" to the end of it. e.g. `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" --verbose`
+1. Stelle sicher das alle deine Songs bereits geladen sind, ansonsten ist die More Songs Fläche ausgegraut.
+2. Dein Antivirus oder die Firewall blockiert deinen Zugriff auf BeatSaver.
+3. Du hast das Datenlimit von BeatSaver erreicht und musst warten, bevor du es erneut versuchen kannst.
+
+## 4. Diverse Problembehebung
+
+### Logs verstehen
+Falls du auf Steam bist kannst du zu
+> Beat Saber > Properties > Allgemein > Startoptionen gehen und `--verbose` im Textfeld eingeben
+
+Falls du auf Oculus bist, musst du auf Beat Saber.exe Rechtsklicken und eine Verknüpfung erstellen. Edit the Target to add "--verbose" to the end of it. e.g. `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" --verbose`
 
 After adding verbose to your game hopefully it will display any errors regarding your avatars, sabers, and songs
+
 * This may not show 100% of the time for avatars and sabers, and you may have to remove all your avatars/sabers and try them one by one to see which one breaks the game.
 
 These messages are also written to `Beat Saber/Logs`.
@@ -173,6 +196,7 @@ A list of common exceptions can be found [here](./exceptions.md).
 
 ### Verify Game Files For Steam
 To verify integrity of game files follow these steps:
+
 1. Make sure steamvr is closed as it wont let you verify your games otherwise.
 2. Go to your steam library and find Beat Saber
 3. Right click Beat Saber and click on Properties
@@ -180,10 +204,12 @@ To verify integrity of game files follow these steps:
 5. Select the "Verify Integrity Of Game Files" option.
 6. Let it finish verifying and downloading any missing files and you should be good to go.
 
-Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it is on the old steam UI the steps are still the same.
+Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it is on the old steam UI, the steps are still the same.
 
 ### Clean Installation
+
 1. (Optional) Back up your downloaded custom content by making a copy of the following folders:
+
 * `Beat Saber\Beat Saber_Data\CustomLevels`
 * `Beat Saber\CustomSabers`
 * `Beat Saber\CustomPlatforms`
@@ -191,7 +217,8 @@ Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it
 * `Beat Saber\CustomAvatars`
 
 2. **Delete the ENTIRE Beat Saber Folder.** This is different from uninstalling the game on steam, as those methods will not remove files that did not come with the game.
-> Steam:     ``\steamapps\common\Beat Saber\`
+
+> Steam: ``\steamapps\common\Beat Saber\`
   Oculus:``\hyperbolic-magnetism-beat-saber\`
 
 3. Reinstall the game via the Steam or Oculus store
@@ -215,6 +242,7 @@ You can also get to this folder by showing hidden items and navigating to your
 
 #### Desperate Measures
 ::: warning Disabling your anti-virus involves security risks, be sure to know what you're doing (i.e don't download or open suspicious files while it's turned off) and don't forget to re-enable it as soon as you finished these steps. :::
+
 * Make sure your current user **is an administrator**
 * Turn your anti-virus **Off** (for the meantime at least)
 * Ensure that you have permission to create folders and edit files within the disk drive/your pc, (from what I heard a windows update recently caused problems for people)
@@ -224,7 +252,8 @@ You can also get to this folder by showing hidden items and navigating to your
 
 ## 5. Still having issues
 If this page doesn't cover the bases, then feel free to ask a question in the discord! To increase the chance that you'll have your questions answered, consider the following:
-* Use the correct channels please, `#pc-help` for pc mod support and `#quest-help` for quest mod support. Use  `#pc-3d-modeling` and `#quest-3d-modeling` for questions about **making your own avatars, platforms, notes, or sabers**, and `#mapping-discussion` for questions about **making maps.**
+
+* Use the correct channels please, `#pc-help` for pc mod support and `#quest-help` for quest mod support. Use `#pc-3d-modeling` and `#quest-3d-modeling` for questions about **making your own avatars, platforms, notes, or sabers**, and `#mapping-discussion` for questions about **making maps.**
 * Be polite and respectful
 * Describe your problem in detail. "It didn't work" is about as descriptive as telling your doctor you don't feel well. What's not working, and what did you try? Are there any messages that come up on screen? Did your entire screen turn bright purple?
 

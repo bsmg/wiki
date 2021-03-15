@@ -1,4 +1,5 @@
 # よくある質問
+
 ## ゲームを始めたばかりですが、なにから始めるのですか?
 [初心者ガイド](/beginners-guide.md)
 
@@ -12,47 +13,52 @@ BeatSaverから手動でマップをダウンロードする場合は、それ�
 
 ### カスタム曲管理ツール
 以下は、カスタム曲をダウンロードしたり、そのほかの役に立つ機能も備えたデスクトップ上で使用するプログラムです。
+
 * refer to the [original English version](../../faq/README.md),
 * wait for a translation to be done,
 
 ## プレイリストをインストールするにはどうすればいいですか?
-**PCユーザーの場合:**  
-`PlaylistLoaderLite` Modをインストールする必要があります。 次に、どちらかを選択できます。
+
+### PC
+[PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) modをインストールする必要があります。
+
+次に、どちらかを選択できます。
+
 * ModAssistantのOptionsタブで `プレイリストインストール` ツールを使用します。
 * プレイリストファイルを `Beat Saber/Playlists` に配置し、BeatListで選択し、すべてダウンロードします。
 
-ゲーム内のカスタムレベルの横にプレイリストが表示されます。 プレイリストに欠けているレベルがある場合は、BeatListを使用するか、BeatsaverまたはBsaberから手動でダウンロードする必要があります。
+ゲーム内のカスタムレベルの横にプレイリストが表示されます。 The mod also supports managing playlists in-game.
 
-**Questユーザーの場合:**  
-Questのプレイリストを管理するには [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) を使用します。 BMBFの機能により、ゲーム内で一度だけカスタムレベルが表示されることに注意してください。
+### Quest
+You can use [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) to manage the playlists on your Quest. Note that a custom level can only appear once in-game due to a limitation with BMBF.
 
-:::warning Quest ユーザーへの注意 カスタムソングフォルダを再読み込みすると、すべてのプレイリストの組み合わせがリセットされます。 :::
+:::warning WARNING for Quest Users Reloading your Custom Songs Folder resets all playlist organization. :::
 
 ## カスタム曲を作成するにはどうすればいいですか?
-[譜面作成](/mapping/) を参照してください
+See [mapping](/mapping/)!
 
 ## Mod Assistantにないプラグインをどのようにロードしますか？
-初心者ガイドの [このセクション](/pc-modding.md#manual-installation) を参照してください。
+See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 
 ## マルチプレイヤーにはクロスプレイがあるか？
-公式には、購入したストアバージョン(Oculus/Steam) で他のユーザーとプレイすることができます。 また、QuestでゲームをModで変更すると、公式のマルチプレイヤーが無効になります。
+Officially, multiplayer is limited to playing with other people in the store version (Oculus/Steam) you purchased. Additionally, modifying the game on Quest disables official multiplayer.
 
-BeatTogetherModは、Modが導入されたプラットフォームのクロスプレイのための現行の解決法です。 [Discordサーバー](https://discord.com/invite/gezGrFG4tz) に参加し、詳細については `#install-instructions` チャンネルを確認してください。
+The BeatTogether mod is the current solution for cross-platform play between the modded game versions. Join their [Discord server](https://discord.com/invite/gezGrFG4tz) and check the `#install-instructions` channel for more information.
 
-## ゲームの更新後、私のModがすべて動作していません！
-ゲームがアップデートされるときに、 *（そして非常によく）* 既存のModが動作を停止し、アップデートする必要があります。 アップデート後初めてゲームを起動するとき、ゲームのディベロッパーは `Plugins`にあるすべてのファイルを新しく`Old 1.xx.x Plugins`ファイルに移動させます。 **すべてのプラグインはそこに置いておいてください**
+## My game updated and now none of my mods are working
+Each time the game updates it is possible *(and very likely)* that your existing mods will stop working and need to be updated. The game developers realized this, so when the game updates and you run it for the first time, everything in the `Plugins` folder is moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins in there!**
 
-Modを取り戻すには、 **インストーラを再度実行してください。 ****  
-BeatModリポジトリには、ゲームの最新バージョンで動作することが確認されたModのみが含まれています。</p>
+To get mods back, simply **run the installer again.**  
+The BeatMods repository only includes mods that have been confirmed to work on the latest version of the game!
 
-上記で困ったことがある場合は、 [初心者ガイド](/beginners-guide.md) をご覧ください。
+If you're confused by any of this, visit [Beginners Guide](/beginners-guide.md).
 
 ## Beat Saberで得点のシステムはどのようなものですか? グローバルランキングの仕組みは?
-[グリップとトリック](/grips-and-tricks.md) のセクションには、スコアリングとランキングシステム専用のセクションがあります。チェックしてください！
+We have sections on the [grips and tricks](/grips-and-tricks.md) page dedicated to the scoring and ranking systems, check them out!
 
-## メニューは表示されず、クリックするものは何もありません！
-ゲームのメインウィンドウが表示されない場合、保存ファイルが破損している可能性があります。
+## My menus are blank and I have nothing to click on
+If the main window in your game is blank, your save file likely got corrupted.
 
-修正するには、次の場所に移動します: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
+To fix it, navigate to: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
 
-Beat Saberフォルダを削除または名前を変更します。 ゲームを再度起動すると、保存ファイルが再作成され、メインメニューが正しく読み込まれます。
+Delete or rename the Beat Saber folder to something else. When you re-enter the game, it'll recreate the save file and should load the main menu properly.

@@ -17,6 +17,7 @@ tags:
   - wie werden beat maps gemacht?
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class='features'>
 
 ::: feature Erste Schritte
@@ -41,10 +42,12 @@ tags:
 :::
 
 </div>
+<!-- markdownlint-enable MD033 -->
 
-<hr />
+---
 
 ## Externe Links
+
 * [Tritt unserem Discord Server bei!](https://discord.gg/beatsabermods)
 * [BSMG Patreon](https://www.patreon.com/beatsabermods) - Unterstütze die BSMG Services!
 * [BeatMods](https://beatmods.com) - Repository für alle PC Mods die in Installern wir Mod Assistant angezeigt werden

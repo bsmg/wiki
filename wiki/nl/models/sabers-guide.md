@@ -5,18 +5,20 @@ description: MissRaynor's gids voor het maken van eigen zwaarden!
 ---
 
 # Zwaarden Gids
-_MissRaynor's gids voor het maken van eigen sabers_
+_MissRaynor's gids voor het maken van custom sabers._
 
 ## Introductie
 Omdat mensen nog steeds moeite hebben met het maken van hun eigen sabers, denken wij dat het het beste is om de huidige handleiding bij te werken. We bedanken angeliod0103 voor het maken van de vorige gids. Aanvullende bijdragen aan deze gids waren van Bobbie en Mdot.
 
 ## Voorbereiding
-VERPLICHT NODIG:
+JE MOET PERSE DEZE DINGEN HEBBEN:
+
 * Unity 2018.1.6f1 voor het maken van een saber bestand (*.saber). [Download HIER](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe)
 * Het Custom Saber Unity Project. [Download HIER](https://cdn.discordapp.com/attachments/468249466865057802/703747388556181534/Custom_Sabers-4.3.0-UnityProject.zip)
 * Een 3D model van een saber naar keuze. De meest gebruikte bestanden zijn .obj en .fbx bestanden. Je kan je saber model downloaden van 3D model websites als Sketchfab en turbosquid.
 
 Optioneel:
+
 * 3D modelleer programma: Blender is een goede gratis optie, of 3dsmax als je er een licentie voor hebt (educatieve licentie is prima)
 * Afbeelding bewerkings programma: [Photoshop](https://www.adobe.com/products/photoshop.html) of [GIMP](https://www.gimp.org/downloads/) werken prima als je je eigen saber texture wilt maken
 * Het saber model dat gebruikt word in deze handleiding. [Download HIER](https://bs.assistant.moe/Sabers/resources/Tutorial_Saber.zip)
@@ -26,7 +28,7 @@ Pak het Custom Saber Unity project uit naar jouw gewenste locatie.
 
 Als je Unity hub gebruikt, klik dan op Add, selecteer de map van het project waar het net uitgepakt is, en klik op Select folder.
 
-![Zwaard project toevoegen](~@images/models/sabers/01.png)
+![Custom Saber project toevoegen](~@images/models/sabers/01.png)
 
 Het saber project zou nu in de lijst moeten verschijnen. Controleer dat de Unity versie correct is voor het project.
 
@@ -71,7 +73,7 @@ Als de saber klaar is, kan je het exporteren door te kiezen voor File-Export, de
 
 ::: tip TIP OBJ is het beste voor simpele sabers. FBX is het beste voor complexe sabers die rigging of animaties hebben. :::
 
-![Exporteer het zwaard als FBX](~@images/models/sabers/09.png)
+![Exporteer het saber als FBX](~@images/models/sabers/09.png)
 
 ::: tip TIP Je hoeft niet beide sabers te exporteren als ze dezelfde vorm hebben. Als ze identiek zijn, is het exporteren van één van de twee goed genoeg. ::: ::: tip TIP Het samenvoegen van meshes met dezelfde kleur/gloeiende attributen zal ERG VEEL helpen op de lange termijn. :::
 
@@ -83,6 +85,7 @@ Om het model te importeren, sleep je het model simpelweg naar het Assets venster
 Vervolgens moet je Beat Saber compatibele materialen aan je sabers toevoegen.
 
 Het project word geleverd met 4 verschillende Beat Saber compatibele shaders en materialen. Hier zijn de belangrijkste verschillen:
+
 * Lit glow is belicht en heeft dus schaduwen. Je kan de richting van het licht veranderen, en hoe sterk het is
 * Metallic maakt het material iets donkerder en laat je een metalen reflectie toevoegen
 * Unlit glow is vergelijkbaar met Lit glow maar is niet belicht en heeft dus geen schaduwen.
@@ -90,7 +93,9 @@ Het project word geleverd met 4 verschillende Beat Saber compatibele shaders en 
 
 De materialen die je zal gebruiken zullen afhangen van de eigenschappen die je zoekt.
 
-::: warning WAARSCHUWING Zorg dat je *ALLEEN* shaders gebruikt die met Beat Saber werken. Als je een shader gebruikt die niet compatibel is (zoals de Unity standaard shader), dan zal je materiaal er gewoon wit uit zien in het spel. ::: ::: tip TIP Voor meer informatie over shader compatibiliteit, raadpleeg de Geavanceerde shader eigenschappen sectie van deze gids. :::
+::: warning WAARSCHUWING Zorg dat je *ALLEEN* shaders gebruikt die met Beat Saber werken. Als je een shader gebruikt die niet compatibel is (zoals de Unity standaard shader), dan zal je materiaal er gewoon wit uit zien in het spel. :::
+
+::: tip TIP Voor meer informatie over shader compatibiliteit, raadpleeg de Geavanceerde shader eigenschappen sectie van deze gids. :::
 
 Video voorbeeld voor het toepassen van materialen:
 
@@ -98,13 +103,13 @@ Video voorbeeld voor het toepassen van materialen:
 
 Je kan een afbeelding toevoegen aan een materiaal door de afbeelding in het afbeelding vak te slepen.
 
-![Voeg afbeelding toe aan zwaard](~@images/models/sabers/10.png)
+![Een texture aan je saber toevoegen](~@images/models/sabers/10.png)
 
-::: tip TIP TIP: De `Glow` schuifregelaar wijzigt hoe helder het zwaard gloeit. Bovendien, als de Glow is ingesteld boven 0, zal dat material de kleur krijgen die de speler heeft ingesteld. :::
+::: tip TIP De `Glow` schuifregelaar wijzigt hoe helder het zwaard gloeit. Bovendien, als de Glow is ingesteld boven 0, zal dat material de kleur krijgen die de speler heeft ingesteld. :::
 
 Wanneer je dit allemaal gedaan hebt, kan je je saber exporteren. Open de `Saber Exporter` in het `Window` tabblad en typ hier de naam van je saber en de auteurs naam in.
 
-![Exporteer het zwaard en voeg naam en auteur toe](~@images/models/sabers/11.png)
+![Exporteer het saber en voeg naam en auteur toe](~@images/models/sabers/11.png)
 
 Plaats je sabers in de `CustomSabers` map en probeer ze uit in het spel. Als ze er goed uitzien, ben je helemaal klaar!
 
@@ -123,17 +128,22 @@ Om het te gebruiken, klik je op de plus knop om een nieuw evenement te maken, sl
 Als je meer informatie wilt over evenementen, lees dan de `Evenementen` sectie in de Avatars gids **link needed!!!**
 
 ![Evenement toevoegen](~@images/models/sabers/13.png)
+
 ### Elke Nde Combo Filter
 Dit component laat je een actie uitvoeren bij elke N combo. Het werkt hetzelfde als de `Evenementen Manager`, maar zal alleen uitvoeren bij elke keer dat je een combo van N hebt.
+
 ### Trails
 Dit component laat je de standaard trails aanpassen voor zwaarden. Voor een uitgebreide handleiding over het gebruik van trails, word [MDot's custom trail guide](https://mdotamaan.github.io/BeatSaber-CustomTrailsGuide/) aangeraden.
+
 ### Animatie
-Als je je sabers een bepaalde animatie wilt laten uitvoeren, dan heb je een `Animator` component nodig. Dit staat je toe om de animatie die je maakt beter te beheren, en ook hoe de animatie overgaat in andere animaties, of wanneer deze uitgevoerd word door middel van de Evenementen Manager. [Meer informatie over het animator component is beschikbaar in de unity documentatie hier](https://docs.unity3d.com/Manual/class-AnimatorController.html).
+Als je je sabers een bepaalde animatie wilt laten spelen, moet je een `Animator` component gebruiken. Dit zal je in staat stellen om beter te beheren welke animatie je maakt, ook het laat het je bepalen hoe de animatie overgaat/afgaat met de Event Manager. [Meer informatie over het animator component is beschikbaar in de unity documentatie hier](https://docs.unity3d.com/Manual/class-AnimatorController.html).
+
 ### Geavanceerde Shader Eigenschappen
 Als je shaders wilt modificeren om de kleuren van de speler te gebruiken zonder de Glow aan te hoeven passen, dan is dit mogelijk om dit te ondersteunen.
 
 Voeg dit code fragment toe aan de `Properties` sectie van je shader. Als je al een eigenschap hebt met de naam `_Color`, zorg dat je die weghaalt!
-```
+
+```hlsl
 _Color ("Color", Color) = (1,1,1,1)
 [MaterialToggle] _CustomColors("Custom Colors", Float) = 0
 ```

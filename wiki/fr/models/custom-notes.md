@@ -1,13 +1,14 @@
 # Notes personnalisées
+
 ## Installation
 :::tip NOTE Notes need to be made specifically for Quest or PC and are not interchangeable between the two. You can tell which platform a note is for by the file extension. `.bloq` files are for PC while Quest uses `.zip` files. :::
 
 ### PC Notes
-The latest Custom Notes plugin can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant).
+La dernière version de l'extension Custom Notes peut être trouvée dans [Mod Assistant](https://github.com/Assistant/ModAssistant/releases/latest) ou dans le [canal textuel #pc-mods](https://discord.gg/beatsabermods) du Discord BSMG.
 
-Once installed, you should see a `CustomNotes` folder in [your install folder](/faq/install-folder.md), with some sample notes installed for you. This folder is also where you will place `*.bloq` files.
+Once installed, you should see a `CustomNotes` folder in [your install folder](/faq/install-folder.md), with some sample notes installed for you. Ce dossier est aussi l'endroit où placer les fichier `.bloq`.
 
-You can download more bloqs from [ModelSaber](https://modelsaber.com/Bloqs/).
+Vous pouvez télécharger plus de bloqs sur [ModelSaber](https://modelsaber.com/Bloqs/).
 
 ### Quest Notes
 Custom Notes for Quest are provided by the Qosmetics mod. The latest version can be found in the [#quest-mods channel](https://discord.gg/beatsabermods) in the BSMG discord. Notes are called `qbloqs` and are currently hosted in the [Qosmetics Community Discord](https://discord.gg/qosmetics).
@@ -24,4 +25,4 @@ Upload the note zip file to your Quest using the [BMBF Web Interface](/quest-mod
 
 [Bobbie's Bloq Guide](./notes-guide.md) is a good resource for creating custom notes from an existing model.
 
-Note that this guide does not cover 3D modeling the notes. For that, we recommend looking up some tutorials on [Blender](https://www.blender.org/)!
+Notez que ce guide ne couvre pas la modélisation 3D des notes. Pour cela, nous recommandée de chercher des tutoriels sur [Blender](https://www.blender.org/) !

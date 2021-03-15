@@ -1,5 +1,5 @@
 # Modding Intro
-_Learn how to get started writing your own PC Mods_
+_Learn how to get started writing your own PC Mods._
 
 ## Getting Started
 ::: warning This guide is for making mods for the **PC** version of Beat Saber!
@@ -79,6 +79,7 @@ When you launch the game, you should see BSIPA load your mod in the console wind
 
 ## Next Steps
 Here are some useful resources in continuing your modding career.
+
 * If you need help with developing mods, you can ask in `#pc-mod-dev` on the [BSMG Discord](https://discord.gg/beatsabermods).
 * If you want to decompile code, check out [dnSpy](https://github.com/dnSpy/dnSpy/releases)
 * See the BSIPA Documentation for more information about the [configuration system](https://bsmg.github.io/BeatSaber-IPA-Reloaded/tags/4.1.3/articles/start-dev.html#configuring-your-plugin).

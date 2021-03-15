@@ -1,7 +1,7 @@
 ---
 home: true
 title: Wiki BSMG
-heroText: BSMG Wiki
+heroText: Wiki BSMG
 tagline: Bienvenue sur le wiki du Beat Saber Modding Group!
 description: Bienvenue sur le wiki du Beat Saber Modding Group!
 actionText: Guide du Débutant →
@@ -17,6 +17,7 @@ tags:
   - comment sont faites les maps ?
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class='features'>
 
 ::: feature Prise en main
@@ -24,6 +25,7 @@ tags:
 * [Utiliser les Mods sur Quest](./quest-modding.md)
 * [Problèmes fréquents](./support/)
 * [Grips et Astuces](./grips-and-tricks.md)
+* [Guide du classement et du score](./ranking-guide.md)
 :::
 
 ::: feature Créer du contenu
@@ -40,10 +42,12 @@ tags:
 :::
 
 </div>
+<!-- markdownlint-enable MD033 -->
 
-<hr />
+---
 
 ## Liens externes
+
 * [[Rejoignez le serveur Discord !](https://discord.gg/beatsabermods) (anglophone)](https://discord.gg/beatsabermods)
 * [Patreon BSMG](https://www.patreon.com/beatsabermods) - Soutenez les services BSMG !
 * [BeatMods](https://beatmods.com) - Dépôt des mods sur PC que l'on retrouve dans les installateurs comme ModAssistant
@@ -51,7 +55,7 @@ tags:
 * [BeastSaber](https://bsaber.com/) - Critiques, articles, playlists, et bien plus !
 * [ModelSaber](https://modelsaber.com/) - Téléchargez des sabres personnalisés, des avatars, des bloqs et des plateformes !
 * [Discord Qosmetics](https://discord.gg/qosmetics) - Téléchargez des sabres, murs et bloqs pour Quest !
-* [ScoreSaber](https://scoresaber.com/) - Tableaux des scores pour les maps personnalisées
+* [ScoreSaber](https://scoresaber.com/) - Classements pour les maps personnalisées
 * [Postulez pour aider à traduire le wiki !](https://forms.gle/e3BqA3poMjESARe76) - Traduisez le wiki dans votre langue !
 * [Page du magasin Steam](https://store.steampowered.com/app/620980/Beat_Saber/)
 * [Page du magasin Oculus](https://www.oculus.com/experiences/rift/1304877726278670/)

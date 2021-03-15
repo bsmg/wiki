@@ -1,9 +1,9 @@
 ---
-title: Modèles
+description: Installation, utilisation, et guides de créations de modèles
 ---
 
 # Modèles 3D
-Toutes les extensions permettant l'utilisation des modèles personnalisés ont été créées par des personnes différentes. Chacun de ces mods a sa propre page dédiée détaillant son installation et et les instructions d'utilisation. Ils sont listés ci-dessous et dans la barre de navigation.
+Toutes les extensions permettant l'utilisation des modèles personnalisés ont été créées par des personnes différentes. Chaque mod a sa propre page dédiée détaillant son installation et ses instructions d'utilisation. Ils sont listés ci-dessous et dans la barre de navigation.
 
 * [Sabres personnalisés](./custom-sabers.md)
 * [Avatars personnalisés](./custom-avatars.md)
@@ -12,6 +12,7 @@ Toutes les extensions permettant l'utilisation des modèles personnalisés ont �
 * [Murs personnalisés](./custom-walls.md)
 
 ## Où trouver les modèles
+
 ### ModelSaber
 [ModelSaber](https://modelsaber.com/) est la source actuelle pour les sabres, avatars, bloqs, et plateformes. Le site inclut la prévisualisation d'images et les liens d'installation OneClick&trade;.
 
@@ -22,6 +23,7 @@ Vous pouvez également trouver une liste désorganisée _(avec potentiellement p
 
 ## Créer des modèles
 Vous voulez apprendre à faire vos propres modèles ? Consultez l'un de nos guides ci-dessous !
+
 * [Guide sur les sabres personnalisés](./sabers-guide.md)
 * [Guide sur les avatars personnalisés](./avatars-guide.md)
 * [Guide sur les plateformes personnalisées](./platforms-guide.md)

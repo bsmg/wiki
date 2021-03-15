@@ -12,6 +12,7 @@ Você pode baixar mais avatares no [ModelSaber](https://modelsaber.com/Avatars/)
 Dentro do jogo no menu principal, você verá um botão `AVATARS` no canto superior esquerdo do menu Mods perto do release notes. Pressioná-lo abrirá o menu que você pode usar para selecionar qual avatar você deseja usar. Também há configurações adicionais que você pode alterar, como dimensionamento de avatar e se o avatar estará visível na primeira pessoa.
 
 ::: warning NOTA
+
 * Avatares não estão selecionados por padrão. Certifique-se de ir ao menu à direita e mudar para um avatar se não aparecer primeiro.
 * Alguns avatares não foram feitos com a visão em primeira pessoa em mente, então eles podem bloquear sua visão se habilitado. :::
 

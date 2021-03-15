@@ -1,81 +1,95 @@
 # Soporte
-El rol de Soporte es un símbolo de agradecimiento. Gracias por los miles de mensajes y cientos de horas dedicadas a ayudar a la gente a resolver sus mods, y para construir un conocimiento de la solución de problemas base a través de macros y el wiki. Normalmente no damos este rol, pero cuando lo hacemos es porque alguien ha ido más allá y más allá para el servidor.
+_The Support role is a symbol of thanks. Thanks for the thousands of messages and hundreds of hours spent helping people sort out their mods, and for for building a knowledge of troubleshooting base through macros and the wiki. We don't typically give this role out, but when we do it's because someone has gone above and beyond for the server._
 
 ## boulders2000
-"a pesar de que su cerebro es un lío, él sabe de lo suyo (mas o menos)" algo así (pero no añadáis algo como esa parte, ¿vale?)
+> "even though his brain is a mess he knows his stuff (kinda)"
+> 
+> something like that (but don't add something like that part, ok?)
 
-**Roles:** Soporte
+**Roles:** Support
 
 ## ComputerElite
-Él hace programas para apoyar a la gente más rápido y algunos otros para que todo sea más fácil. (Le gusta comer troncos de BMBF)
+He makes programs to support people faster and some others for them to make all easier. (likes to eat BMBF Logs)
 
-**Roles:** Soporte
+**Roles:** Support
 
 [Github](https://github.com/ComputerElite/)
 
 ## Emma
-Podrías conocerlas por sus espectaculares plataformas o para personas más refinadas: sables yeet.
+You might know them for their spectacular platforms, or for more refined individuals: yeet sabers.
 
-**Roles:** Soporte, Artista 3D
+**Roles:** Support, 3D Artist
 
 [Twitch](https://www.twitch.tv/therealkleinba)
 
 ## Johnny0403
-Le gusta jugar Beat Saber. También le gusta ayudar a la gente a arreglar sus problemas para que puedan jugar Beat Saber.
+He likes playing Beat Saber. He also likes helping people fix their problems so they can play Beat Saber.
 
-**Roles:** Soporte
+**Roles:** Support
 
 ## Kolezan
-Te enseñará a reparar tus plugins y tu primer mapa terriblemente desincronizado. Todos hemos estado ahí.
+He'll teach you to fix your plugins and your terribly off-beat first map. We've all been there.
 
-**Roles:** Soporte, Mapeo de Soporte, Mapeo
+**Roles:** Support, Mapping Support, Mapper
 
-[Twitch](https://www.twitch.tv/kolezan) | [Donar](https://paypal.me/kolezan)
+[Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
 
-## Nobby76
-Corazón de oro, nervios de acero.... Y un nudo de mantequilla
+## OneEyed
+2 truths and a lie: Pink cute, CMB sentient, OneEyed has good spelling
 
-**Roles:** Soporte
+**Roles:** Support
 
 ## Pespiri
-Me dará su biografía más tarde, o eso dice.
+He'll give me his bio later today, or so he says.
 
-**Roles:** Soporte, Modder
+**Roles:** Support, Modder
 
 [GitHub](https://github.com/pespiri)
 
 ## Radevirot
-Este tipo salió de la nada y comenzó a ayudar en el apoyo diciendo que era una especie de adicción, qué loco.
+This guy came out of nowhere and started helping in support saying it was some kind of addiction, what a loon.
 
-**Roles:** Soporte
+**Roles:** Support
 
-[Twitter](https://twitter.com/Radevirot) | [Donar](paypal.me/Radevirot)
+[Twitter](https://twitter.com/Radevirot) | [Donate](paypal.me/Radevirot)
 
 ## rui2015
-No tiene creatividad y no sabe qué poner aquí. Sin embargo, es una persona guay.
+Has no creativity and doesn't know what to put here. Is a cool person though.
 
-**Roles:** Soporte
+**Roles:** Support
 
 ## Sands
-Él no tiene vida y es bastante tonto, pero puede ayudar con tu bmbf y eso es todo lo que importa vale?
+He has no life and he's pretty dumb but he can help with your bmbf and that's all that matters right?
 
-**Roles:** Soporte
+**Roles:** Support
 
 [YouTube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
 
 ## Simme63
-"Cabeza de coca"
+"Coke Head"
 
-**Roles:** Soporte
+**Roles:** Support
+
+## Squares
+I swear i'm good at Beat Saber and helping just ask Boulders!
+
+**Roles:** Support
+
+[YouTube](https://www.youtube.com/channel/UCaQ7PLj4AqGHZnqQVjc_XBQ)
+
+## Toblersto
+I decided I wanted to help one day, and have been slightly addicted ever since.
+
+**Roles:** Support
 
 ## Channel Monitor Bot
-El bot que lo mantiene todo unido. Creado por Megalon, recreado por lolPants, y personificado por Rolo!
+The bot that holds it all together. Created by Megalon, recreated by lolPants, and personified by Rolo!
 
-[Merchandising!](https://www.redbubble.com/people/megalon-gaming/portfolio)
+[Merch!](https://www.redbubble.com/people/megalon-gaming/portfolio)
 
 ---
 
-::: tip Ver también **Artistas 3d:** [RedBrumbler](./3d-artists.md#redbrumbler)  
+::: tip See Also **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
 **Modders:** [Kyle1413](./modders.md#kyle1413)  
-**Moderadores:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink) | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)  
-**Personal:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ) :::
+**Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink) | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)  
+**Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ) :::

@@ -4,6 +4,7 @@ Ever wonder who made your favorite mod or created the mod installer? This page t
 > *Note: some people could go under multiple sections, so I tried to sort these pages the best I could. If you'd like anything about your section changed, feel free to contact us or contribute yourself!*
 
 ## Who We Are
+
 ### [Staff](./staff.md)
 The team that runs the show at the forefront and behind the scenes. Whether it comes to project management, plugin approval, managing the core services, event coordination, or many of the other secret projects, there's always lots of work to be done. The community wouldn't exist without the countless hours contributed by these incredible individuals, so please give them a virtual round of applause (and help pay for the services if you can...)
 
@@ -34,5 +35,4 @@ A group of experienced mappers that took the time to write down and share their 
 Winners of past contests/events held in the discord. Keep up with `#server-announcements` for such events happening now, or in the future!
 
 ## About This Wiki
-
 This is a wiki for all things relating to modding the game Beat Saber. It was originally created to replace the `#beginners-guide` and `#faq` channels of the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods).

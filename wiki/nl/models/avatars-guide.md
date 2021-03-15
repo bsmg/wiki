@@ -6,62 +6,64 @@ description: Assistants gids voor het toevoegen van full body avatars in Beat Sa
 ---
 
 # De Custom Avatars gids
-_Assistants gids voor het toevoegen van full body avatars in Beat Saber_
+_Assistants gids voor het toevoegen van full body avatars in Beat Saber._
+
+::: danger This guide may have outdated fragments. If you run into issues don't be afraid to ask in the `#pc-3d-modeling` channel in the [BSMG Discord](https://discord.gg/beatsabermods) :::
 
 ## Introductie
-Ok jongens en meisjes, jouw favoriete Assistant gaat jullie leren hoe je je favoriete anime modellen maakt en ze in 3D Osu! stopt!
+Alright boys and girls, your favorite Assistant is going to teach you how to take your favorite anime models and put them into 3D Osu!
 
-Ik ga ervan uit dat je een basiskennis van blender en unity hebt en in het verleden avatars voor VRChat hebt gemaakt. Als dat niet het geval is, zijn er [genoeg gidsen te vinden](http://bfy.tw/IQ0F). Deze handleiding begint op het punt wanneer je klaar bent om een fbx-bestand te exporteren om te gebruiken in unity. Hier is [een video](#videos) van mij die een avatar maakt als je iets wilt volgen terwijl je dit doet. Het word uitgelegd door Megalon omdat een bizar ongeluk mij het vermogen om te spreken en video's te editen heeft weggenomen. CC's coming soon™.
+I will be assuming you have a basic grasp of blender and Unity and have made avatars for VRChat in the past. If not there's [plenty of tutorials out there](http://bfy.tw/IQ0F). This guide will start at the point when you're ready to export a fbx file to use on Unity. There is [a video](#videos) of me creating an avatar if you'd like something to follow along with. It is narrated by Megalon since a freak accident took away my ability to speak and edit videos. CC's coming soon™.
 
 ## Shape Keys: Turning Bad Touch into Good Touch
-Je wilt dus niet dat je waifu de sabers vasthoud doormiddel van pure plot armor en plakkerige handen, maar ze heeft geen fist shape key. Om er een toe te voegen gaan we blender weer gebruiken, nu weet ik dat ik heb gezegd dat we al klaar waren om te exporteren, maar ik ben 12 en heb dan ook de aandacht van
+So you don't want your waifu to hold the sabers through the sheer power of plot armor and sticky hands, but she doesn't have a fist shape key. To add one, we'll be using blender again, now I know I said we were ready to export, but I'm like 12 and have the attention span of
 
-We zullen de CATS blender plugin gebruiken, als je het niet hebt geïnstalleerd, download het [hier](https://github.com/michaeldegroot/cats-blender-plugin/releases).
+We'll be using the CATS blender plugin, If you don't have it installed, download it [here](https://github.com/michaeldegroot/cats-blender-plugin/releases).
 
-Onder het CATS menu.
+Under the CATS menu.
 
 ![CATS menu](~@images/models/avatars/startpose.png)
 
-Klik op Start Pose Mode.
+Click Start Pose Mode.
 
 ![Start pose 2](~@images/models/avatars/startpose2.png)
 
-Met pose mode ingeschakeld, kan je de bones op de gewenste positie plaatsen. Klik met de rechtermuisknop om de bones te selecteren, en gebruik `SHIFT` om er meerdere tegelijkertijd te selecteren.
+With pose mode enabled, you'll be able to position the bones to your liking. `Right Click` to select the bones, use `SHIFT` to select multiple.
 
-![Poseren](~@images/models/avatars/pose.gif)
+![Posing](~@images/models/avatars/pose.gif)
 
-Als het er uit ziet zoals je wilt, klik dan op `Pose To Shape Key`. Dit maakt een shape key om een vuist te sluiten.
+When you've gotten the desired look, click `Pose To Shape Key`. This will create a shape key for closing a fist.
 
 ![Pose to shape key](~@images/models/avatars/posetoshapekey.png)
 
-Druk op `w` en klik op Clear User Transforms (All) om het af te ronden, dit zal de stand van de hand resetten.
+To finish up, hit `w` and click Clear User Transforms (All), this will reset the hand's pose.
 
 ![Clear transforms](~@images/models/avatars/cleartransforms.png)
 
-Klik daarna op Stop Pose Mode.
+Then hit Stop Pose Mode.
 
 ![Stop pose mode](~@images/models/avatars/stoppose.png)
 
 ## Naar Unity en daar voorbij
-Open het [Avatar Unity Project](https://bs.assistant.moe/Avatars/resources/UnityProject.zip).
+Download and extract the `BeatSaberCustomAvatars-vx.x.x-UnityProject.zip` from the [Custom Avatars Release](https://github.com/nicoco007/BeatSaberCustomAvatars/releases/latest). This zip contains a barebones Unity project to get started with creating avatars. You will need to copy `FinalIK.dll` and `DynamicBone.dll` from the game's installation folder into the `Assets\Libraries` folder of the extracted zip **before opening the project in Unity** to get it working.
 
-::: danger BELANGRIJK Gebruik Unity versie [2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe). En zorg ervoor dat je [deze instructies](#unity-2018) volgt. :::
+::: danger IMPORTANT Use Unity version [2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe). And make sure to follow [these instructions](#unity-2018). :::
 
-Importeer het fbx-bestand met jouw waifu, en maak een leeg GameObject met haar naam, maar sleep haar er nog niet in.
+Import the fbx file with your waifu, and create an empty game object with her name, but don't drag her in yet.
 
 ![Assets](~@images/models/avatars/assets.png)
 
-![Hiërarchie](~@images/models/avatars/hierarchy.png)
+![Hierarchy](~@images/models/avatars/hierarchy.png)
 
-De volgende stap is op het Avatar asset klikken, en de rig in te stellen als humanoid, en het vervolgens te configureren. Als je al eerder met VRChat avatars hebt gewerkt dan zou dit bekend moeten klinken, Dus zal ik de configuratie overslaan, die in feite bestaat uit het bij elkaar passen van de ledematen, en het forceren van een T-pose. Nadat je dat hebt gedaan kan je je avatar naar het GameObject slepen dat je eerder al hebt gemaakt.
+Next step will be to click on the Avatar asset, and set its rig as humanoid, and then configure it. If you've worked with VRChat avatars before this should sound familiar, so I'll skip the configuration, which basically is just match the body parts and enforce T-Pose. After doing that you can drag your Avatar into the GameObject that you created before.
 
 ![Humanoid](~@images/models/avatars/humanoid.png)
 
-Maak 4 Lege GameObjecten in de root object, en noem ze `Head`, `Body`, `LeftHand` en `RightHand`.
+Create 4 Empty GameObjects in the root object, and name them `Head`, `Body`, `LeftHand`, and `RightHand`.
 
-Je moet `Head` neerzetten daar waar je je camera wilt hebben, vergelijkbaar met de witte punt van VRChat.
+You want to position `Head` where you want your camera to be, similar to VRChat's white dot.
 
-Voor zowel `LeftHand` als `RightHand` wil je ze op je Avatar neerzetten alsof het je controllers waren. De positieve Y-as wijst omhoog van de controller, dus je wilt dat dat naar je polsen wijst.
+For both `LeftHand` and `RightHand`, you want to position them on your Avatar's hands like if they were your controllers. The positive Y axis points up from the controller, so you want that to point towards your wrists.
 
 ![Head object](~@images/models/avatars/headobject.png)
 
@@ -69,33 +71,33 @@ Voor zowel `LeftHand` als `RightHand` wil je ze op je Avatar neerzetten alsof he
 
 ![Gameobjects](~@images/models/avatars/gameobjects.png)
 
-::: danger BELANGRIJK Zorg ervoor dat je de GameObjects hebt waar je ze wilt hebben, na de volgende stap zijn hun positie definitief. :::
+::: danger IMPORTANT Make sure you have your GameObjects where you want them, after the next step their position is final. :::
 
-We zijn klaar om te beginnen met de pret! Navigeer door de hiërarchie van de Armature totdat je het Head bereikt, selecteer het en klik er met de rechtermuisknop op en klik dan op Create Empty, sleep het vervolgens in het `Head` dat we hebben gemaakt en noem het `HeadTarget`. Dat proces zal ervoor zorgen dat het op de juiste plaats is.
+We're ready to start the fun! Navigate the hierarchy of the Armature until you reach the Head, select it and right-click and Create Empty, then drag it into the `Head` we created and name it `HeadTarget`. That process will make sure that it's in the correct place.
 
 ![Head](~@images/models/avatars/head.png)
 
-Doe hetzelfde met je polsen en plaats ze in `LeftHand` en `RightHand`, en noem ze respectievelijk `LeftHandTarget` en `RightHandTarget`. Het zou er zo moeten uitzien.
+Do the same with your wrists, placing them into the `LeftHand` and `RightHand`, and name them `LeftHandTarget` and `RightHandTarget` respectively. It should look something like this.
 
 ![Targets](~@images/models/avatars/targets.png)
 
-::: danger BELANGRIJK Als je `head`, `LeftHand` of `RightHand` moet verplaatsen NADAT je de targets al hebt geplaatst, moet je de targets verwijderen en ze opnieuw toevoegen nadat je ze hebt verplaatst. :::
+::: danger IMPORTANT If you need to move `Head`, `LeftHand`, or `RightHand` AFTER you've already placed the targets, you'll need to delete the targets and add them again after you're done moving them. :::
 
-Selecteer je Avatar, degene die blauw is op mijn vorige afbeelding, en voeg enkele componenten eraan toe: als eerst heb je `VR IK` en `IK Manager` nodig, je kan ook `IK Manager Advanced` gebruiken als je de IK instellingen wilt wijzigen. Voeg de 3 targets die je zojuist hebt gemaakt toe aan de `IK Manager` van jouw keuze.
+Select your Avatar, the one that is blue in my previous image, and add some components to it: First you'll need `VR IK` and `IK Manager`, or you can use `IK Manager Advanced` if you want to change the IK settings. Add the 3 targets you just created to the `IK Manager` of your choice.
 
 ![Targets 2](~@images/models/avatars/targets2.png)
 
 ![Targets 3](~@images/models/avatars/targets3.png)
 
-Je zou nu een volledig functionele avatar moeten hebben voor Beat Saber, maar druk nog niet op die export knop, we moeten het nog de laatste paar dingetjes geven. Zodra je klaar bent met testen van de Avatar in de Play mode en IK werkt, moet je al je materials instellen om een van de meegeleverde Beat Saber shaders te gebruiken. Als je jouw materials hebt ge-atlased, fantastisch, je kan het lastige werk van ze allemaal te re-texturen overslaan. Omdat die shaders, om een of andere reden, niet dezelfde texture parameter gebruiken als de meeste andere shaders.
+You should have a fully functional avatar for Beat Saber, but don't hit that export button yet, we still need to give it the finishing touches. Once you're done testing out the Avatar in Play mode and IK is working, you'll have to set all your materials to use one of the included Beat Saber shaders, if you've atlased your materials, great, you get to skip the painstakingly arduous job of retexturing each one of them, because for some reason those shaders don't take the same texture parameter as most other shaders.
 
 ![Materials](~@images/models/avatars/materials.png)
 
-Je hebt misschien gemerkt dat je avatar zijn benen kruist alsof het moet plassen wanneer het bukt. Je hebt misschien gespeeld met de IK opties en opgemerkt dat het veranderen van de `Swivel Offset` op de benen dit in fixed in unity, maar dat de wijzigingen niet in het spel verschijnen. Je kan dit oplossen door `IK Manager Advanced` te gebruiken. Door de swivel-offsets toe te voegen aan het `IK Manager Advanced` component zullen deze instellingen in het spel werken. Als je er nog niet eerder mee hebt gespeeld, dit veranderd de hoek waarmee de knieën buigen. Een positieve waarde beweegt de knieën naar rechts, en een negatieve waarde beweegt ze naar links, vanuit het zicht van de avatar.
+You might have noticed that your avatar crosses its legs like it needs to pee when it crouches down. You might have played around with the IK options and noticed that changing the `Swivel Offset` on the legs fixes this in unity, but the changes don't appear in the game. Now you can fix that by using `IK Manager Advanced`. Adding the swivel offsets to the `IK Manager Advanced` component will make those settings work in the game. If you haven't played around with those before, they change the angle at which the knees bend. A positive value moves the knees to the right, and a negative value moves them to the left, from the avatar's perspective.
 
 ![Leg fix](~@images/models/avatars/legsfix.png)
 
-Je kan nu cosmetische dingen doen op je avatar, voeg dynamic bones toe als je dat wilt, maar **gebruik de bijgesloten scripts**. Je kan ook de vingers van je waifu buigen zodat ze ook daadwerkelijk de sabers vasthoudt, ik heb daar Shape Keys voor gebruikt. Avatars zijn nu ook zichtbaar in first person. Je kan het aan/uit zetten met behulp van de `Home` toets op jouw toetsenbord. If you want to be able to see your avatar in first person, but don't want to see the inside of your head, you can use the `First Person Exclusion` component to exclude your head's mesh, note that it will have to be a separate mesh for this to work. Als je je avatar twee keer ziet, alsof je scheel kijkt, moet je een instelling aan passen. Ga naar `Edit` -> `Project Settings` -> `Player`. On the window that appears click on `XR Settings`, Make sure that `Virtual Reality Supported` is turned on, and that `Stereo Rendering Method` is set to `Single Pass`.
+You can now go ahead and do cosmetic stuff to your avatar, add dynamic bones to your liking, but **use the included scripts**. You can also curl your waifu's fingers so she's actually holding the sabers, I used Shape Keys for that. Avatars are now visible in first person view. You can toggle it using the `Home` key on your keyboard. If you want to be able to see your avatar in first person, but don't want to see the inside of your head, you can use the `First Person Exclusion` component to exclude your head's mesh, note that it will have to be a separate mesh for this to work. If you have double vision of your avatar, like if you were cross eyed, you need to change a setting. Go to `Edit` -> `Project Settings` -> `Player`. On the window that appears click on `XR Settings`, Make sure that `Virtual Reality Supported` is turned on, and that `Stereo Rendering Method` is set to `Single Pass`.
 
 ![Player](~@images/models/avatars/player.png)
 
@@ -120,7 +122,7 @@ The last thing to do is export the avatar. Go to `Window` -> `Avatar Exporter`, 
 
 ::: tip NOTE Once you've got your avatar exported, [upload them to ModelSaber](https://modelsaber.com) if you want to share it with the world. :::
 
-Ga nu maar de weeb uithangen op de Nico-Nico Nii remix als je waifu ofzo. Assistant out.
+Now go weeb out to the Nico Nico Nii remix as your waifu or something. Assistant out.
 
 ## Animaties: Het Leeft
 For the purpose of this guide an animation will be considered any behavior that is not directly caused by the IK scripts or the movements of the HMD and controllers. The most basic form of animations involve what you're probably familiar with, `Animation` files, an `Animator Component`, its corresponding `Animation Controller`, and `Events`. First we need to place an `Animator` component, and we have to be very particular about how we do this. Just playing it on the avatar object will cause it to conflict with the IK scripts, so we have two options: We can set the animation layer in the `Animation Controller` to `Additive Blending`, which will allow us to place the `Animator Component` on the avatar object.
@@ -172,7 +174,9 @@ These Objects work exactly the same way as the hand objects, you want to positio
 
 ![Tracker axis](~@images/models/avatars/trackeraxis.png)
 
-Now that they're in the correct place, you'll want to create the targets by navigating the Armature to the feet and pelvis bones, the ones the IK calls `Left Foot`, `Right Foot`, and `Pelvis`. Right click on those bones and select `Create Empty`. an Object called `GameObject` will appear as a child to the bones, you want to rename them into `LeftLegTarget`, `RightLegTarget`, and `PelvisTarget` and drag them into `LeftLeg`, `RightLeg`, and `Pelvis` respectively. Once complete your hierarchy should look something like this:
+Now that they're in the correct place, you'll want to create the targets by navigating the Armature to the feet and pelvis bones, the ones the IK calls `Left Foot`, `Right Foot`, and `Pelvis`. Right click on those bones and select `Create Empty`. An Object called `GameObject` will appear as a child to the bones, you want to rename them into `LeftLegTarget`, `RightLegTarget`, and `PelvisTarget` and drag them into `LeftLeg`, `RightLeg`, and `Pelvis` respectively.
+
+Once complete your hierarchy should look something like this:
 
 ![Full body hierarchy](~@images/models/avatars/fullbodyhierarchy.png)
 
@@ -186,7 +190,7 @@ So, you're probably wonder why now I'm telling you to use Unity 2018.1.6f1, when
 
 ![Script runtime](~@images/models/avatars/scriptruntime.png)
 
-You're going to need to use the new version of `CustomAvatar.dll` in your Unity project. Delete the old one if you have it—this project contains the correct one—and replace it with this one. Preferably in the assets folder while Unity isn't running. You might have to re-add your components. If the asset doesn't have the arrow that lets you see all the scripts, right click it and select `Reimport`.
+You're going to need to use the new version of `CustomAvatar.dll` in your Unity project. Delete the old one if you have it; this project contains the correct one—and replace it with this one. Preferably in the assets folder while Unity isn't running. You might have to re-add your components. If the asset doesn't have the arrow that lets you see all the scripts, right click it and select `Reimport`.
 
 ![New asset](~@images/models/avatars/newasset.png)
 
@@ -195,13 +199,13 @@ You're going to need to use the new version of `CustomAvatar.dll` in your Unity 
 ### PureDarks avatar plugin?
 PureDark's plugin has been integrated into the main plugin. A few things have changed. `Make Children Visible` is no longer needed, first person view is enabled by default, and is toggleable with the `Home` key on your keyboard. To add exclusions to the first person view, you can use the `First Person Exclusion` component. `Avatar VRIK Fix` is now called `IK Manager Advanced`, and since it's all in one plugin it's no longer needed to provide cross compatiblity, so only one of either `IK Manager` or `IK Manager Advanced` is needed. The controller events components were removed, and will appear on their own plugin.
 
-### I can't find the IK scripts or the Avatar exporter.
+### I can't find the IK scripts or the Avatar exporter
 Make sure you're using Unity 2018.1.6f1, not 5.6.3p1, not 2017, and you've followed these directions. If your CustomAvatar.dll asset doesn't have the arrow that you click to show the scripts, try deleting and re-importing the CustomAvatar.dll Asset to Unity.
 
 ### I can export avatars but they're invisible in game. ↵
 You can toggle first person view by pressing `Home`. If they're invisible in your desktop window, make sure that you used the correct Beat Saber shaders, and Unity 2018.1.6f1.
 
-### Only my avatars are T-Posed.
+### Only my avatars are T-Posed
 Well I'm very sorry, but this means that you did something wrong while creating your avatar. There's no way to know just what you did wrong, because so many things have the same effect. The only advice we can give you is make sure that you followed the guides exactly, and maybe watch a video to follow along.
 
 ## Video 's
@@ -213,14 +217,9 @@ Here is a video of me making an avatar, narrated by Megalon. [5:57]
 
 ## ♥ Speciale Dank
 
-**ikeiwa**, for creating this fantastic plugin.
-
-**xyonico**, for rewriting this fantastic plugin.
-
-**PureDark**, for making the fantastic plugin that fixes many issues.
-
-**Emma**, for making the first guide that led me to figuring this out, and helping with this one.
-
-**Megalon**, for providing the ASMR for the video.
-
-**Ella**, for making fun of me until I got gud, helping with the website design, parts of this guide, and putting up with all my dumb questions.
+* **ikeiwa**, for creating this fantastic plugin.
+* **xyonico**, for rewriting this fantastic plugin.
+* **PureDark**, for making the fantastic plugin that fixes many issues.
+* **Emma**, for making the first guide that led me to figuring this out, and helping with this one.
+* **Megalon**, for providing the ASMR for the video.
+* **Ella**, for making fun of me until I got gud, helping with the website design, parts of this guide, and putting up with all my dumb questions.

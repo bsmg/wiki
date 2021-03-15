@@ -4,6 +4,7 @@ Vous êtes-vous déjà demandé qui faisait votre mod favori ou créé l'install
 > *Note : certaines personnes pourraient apparaître dans plusieurs sections, donc j'ai essayé de trier ces pages du mieux que j'ai pu. Si vous souhaitez un changement dans l'une des sections, n'hésitez pas à nous contacter ou d'y contribuer vous-même !*
 
 ## Qui sommes-nous ?
+
 ### [Staff](./staff.md)
 L'équipe qui mène le bal sur scène et en coulisse. Que ce soit la gestion des projets, la validation des extensions, la gestion des services principaux, la coordination d'évènements, ou bien d'autres projets secrets, il y a toujours beaucoup de travail à faire. La communauté n'existerait pas sans ces indénombrables heures de contributions fournies par ces individus géniaux, alors, s'il-vous-plaît, offrez-leur une ovation virtuelle (et aidez à payer les services si vous pouvez...).
 
@@ -34,5 +35,4 @@ Un groupe de mappeurs expérimentés qui ont pris le temps de noter et partager 
 Les vainqueurs des compétitions et événements passés qui se sont déroulés dans le serveur Discord. Suivez `#server-announcements` pour connaître les événements en cours ou ceux à venir !
 
 ## À propos de ce Wiki
-
 Ce wiki est dédié à toute chose liée au modding du jeu Beat Saber. A l'origine, celui-ci a été créé pour remplacer les canaux `#beginners-guide` et `#faq` du [serveur Discord Beat Saber Modding Group](https://discord.gg/beatsabermods).

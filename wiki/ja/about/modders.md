@@ -30,11 +30,11 @@ Somone say text customization mods?
 [GitHub](https://github.com/artemiswkearney) | [GitLab](https://gitlab.com/artemiswkearney) | [Donate](https://ko-fi.com/artibs)
 
 ## Auros
-*Tracking error detected*
+Built differently. On the goog.
 
-**Roles:** Modder **Contributions:** Enhancements, AlphaTwitch, PlaylistCore
+**Roles:** Modder **Contributions:** SiraUtil, Enhancements, The "Di" Series, ImageFactory
 
-[GitHub](https://github.com/AurosX) | [Twitch](https://www.twitch.tv/AurosXT) | [Donate](https://www.ko-fi.com/aurosnex)
+[GitHub](https://github.com/Auros) | [Ko-fi](https://www.ko-fi.com/aurosnex)
 
 ## bigfoot
 Has large feet, maybe??
@@ -70,11 +70,11 @@ One of many with a very questionable sleep schedule. Creator of MorePrecisePlaye
 [GitHub](https://github.com/erisapps) | [Donate](https://ko-fi.com/erisapps)
 
 ## Goobie
-Maintainer of the mods that help you play with friends the right way. Spends way too much time coding, and considers herself best girl.
+Maintainer of the mods that help you play with friends the right way. Considers herself best girl but thinks that Zenject needs more simps instead.
 
 **Roles:** Modder **Contributions:** MultiplayerExtensions, MultiQuestensions
 
-[GitHub](https://github.com/goobwabber) | [Donate](https://ko-fi.com/goobwabber)
+[GitHub](https://github.com/goobwabber) | [Twitch](https://www.twitch.tv/goobwabber) | [Donate](https://ko-fi.com/goobwabber)
 
 ## halsafar
 Helps you sort out your 5000 custom songs in a reasonable manner.
@@ -83,8 +83,17 @@ Helps you sort out your 5000 custom songs in a reasonable manner.
 
 [GitHub](https://github.com/halsafar)
 
+## Henwill8
+Quest Modder who made Replay which makes content creators' lives easier. Applauds names that have a letter replaced with Q (ex: zenjeqt, reqlay, qosmetics). Probably also blocked by Auros for this reason.
+
+**Roles:** Modder **Contributions:** Replay, Song Difficulty Chart, Slice Visualizer, and Intro Skip (quest)
+
+[GitHub](https://github.com/henwill8) | [Donate](https://www.patreon.com/henwill8?fan_landing=true)
+
 ## Ikeiwa
-Everyone's favorite french furry. He kicked off modding early on with the original EditSaber and the earliest versions of the custom avatar plugin, among many others. "C'est pain au chocolat"
+Everyone's favorite french furry. He kicked off modding early on with the original EditSaber and the earliest versions of the custom avatar plugin, among many others.
+
+> C'est pain au chocolat
 
 **Roles:** Modder, 3D Artist, ~~Staff~~ (retired) **Contributions:** EditSaber, Custom Avatars, Custom Sabers, many more legacy plugins
 
@@ -96,6 +105,13 @@ Creator of a variety of mods, as well as the super spiffy HitOverlay that some s
 **Roles:** Modder **Contributions:** HitOverlay, Mega Jump, Random Notes, Nova's Fuckery
 
 [GitHub](https://github.com/ItsNovaHere) | [Ko-Fi](https://ko-fi.com/itsnovahere)
+
+## kOF.Readie
+Creator of the [BSDataPuller](https://github.com/kOFReadie/BSDataPuller/) mod used for streaming and recording overlays.
+
+**Roles:** Modder **Contributions:** BSDataPuller
+
+[GitHub](https://github.com/kofreadie/) | [Donate](https://ko-fi.com/kofreadie/)
 
 ## Kyle1413
 Resident Kirby and mod modder. One of the most active modders and a huge part in the evolution of mods over time as the original modders stop working on them, including the likes of SongLoader/SongCore and Custom Colors. 6 lanes, custom color and platform support, custom walls and custom characteristics are simply some examples of Kyle's contributions to custom map formats.
@@ -135,12 +151,26 @@ Face off against your friends with his [Versus](https://versusmod.com/) mod. **R
 
 [GitHub](https://github.com/nate1280)
 
+## nicoco007
+Puts both way too much time and not enough time into Custom Avatars.
+
+**Roles:** Modder **Contributions:** Custom Avatars, SiraLocalizer, and a few lines here and there in other mods
+
+[GitHub](https://github.com/nicoco007)
+
 ## opl
 Creator of the HTTPStatus tool that exposes tons of information about the game for other developers to use, often in fancy overlays for Twitch streams!
 
 **Roles:** Modder **Contributions:** HTTPStatus
 
 [GitHub](https://github.com/opl-)
+
+## PixelBoom
+"I don't really have much to say so uhh... watch Clannad."
+
+**Roles:** Modder **Contributions:** PlaylistManager, PlaylistLoaderLite
+
+[GitHub](https://github.com/rithik-b) | [Twitch](https://twitch.tv/pixelboom58) | [Donate](https://ko-fi.com/pixelboom)
 
 ## PlasmaPower
 A big part of the development for the Chroma suite, and a major contributor for updating plugins to 0.13!
@@ -178,8 +208,7 @@ Our own LIV insider and creator of Saber Tailor and the original Custom Colors p
 [GitHub](https://github.com/SteffanDonal)
 
 ## Sc2ad
-"He plays a massive role in the Quest community and has helped a ton of modders create amazing mods! He uses a lot of his time on improving the core library for the Quest to make it easier for modders and is currently working on a package manager! He's been here from the start, and we appreciate all the work he's done to help the Quest community!"
-- refer to the [original English version](../../about/modders.md),
+> He plays a massive role in the Quest community and has helped a ton of modders create amazing mods! He uses a lot of his time on improving the core library for the Quest to make it easier for modders and is currently working on a package manager! He's been here from the start, and we appreciate all the work he's done to help the Quest community!<br/>\- Someone from BSMG
 
 **Roles:** Modder **Contributions:** quest.
 
@@ -219,6 +248,14 @@ Creator of BeatDrop, everyone's favorite desktop application for custom song man
 **Roles:** Modder **Contributions:** BeatDrop
 
 [GitHub](https://github.com/StarGazer1258) | [Donate](https://www.patreon.com/bePatron?u=18487054)
+
+## Toni Macaroni
+Create some sabers, throw them and while you are waiting for them to return draw something nice.  
+Also official body pillow dealer.
+
+**Roles:** Modder **Contributions:** Tricksaber, Saber Factory, Scribble, Custom Pillows
+
+[GitHub](https://github.com/ToniMacaroni) | [Donate](https://ko-fi.com/tonimacaroni)
 
 ## Trishume
 A massive contributor to the development of quest mods.

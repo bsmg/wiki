@@ -1,4 +1,5 @@
 # Custom Notes
+
 ## Instalação
 :::tip NOTA As notas precisam ser feitas especificamente para a Quest ou PC e não podem ser trocadas entre as duas. Você pode informar para qual plataforma uma nota serve pela extensão do arquivo. Arquivos `.bloq`são para PC enquanto o Quest usa arquivos `.zip`. :::
 

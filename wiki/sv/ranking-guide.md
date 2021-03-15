@@ -3,177 +3,162 @@ sidebar: auto
 ---
 
 # Rankning och Poängguide
-
-Skriven av TeknozFR
+Written by Teknoz
 
 *Stort tack till Flee för att ha korrigerat grammatikmisstag och gett användbar information.*
 
-:::warning Varning Denna guide skrevs ursprungligen den 7:e februari 2019. Det har uppdaterats flera gånger men viss information kan vara felaktig eller saknas. Om du märker felaktig/saknad information i denna guide kan du skicka en förfrågan på [BSMG Wiki GitHub](https://github.com/bsmg/wiki#readme) eller skicka ett meddelande till mig på Discord (TeknozFR#6900). :::
+:::warning Varning Denna guide skrevs ursprungligen den 7:e februari 2019. It has been updated multiple times but some information may be inaccurate or missing. If you notice inaccurate/missing information in this guide, you can submit a pull request on the [BSMG Wiki GitHub](https://github.com/bsmg/wiki#readme) or send me a message on Discord (teknoz#6900). :::
 
 ## Noggrannhet och poängsättning
 
 ### Poängmultiplikator
-
-Din poängmultiplikator kan ses nedan, omgiven av en yttre ring. Som sagt i namnet har multiplikatorn en effekt på din poäng. Du startar låten med en multiplikator på **1x** och den yttre ringen visar progressionen till nästa multiplikator. När du träffar blocket som tar dig upp till nästa multiplikator kommer det blocket påverkas av den nya multiplikatorn och inte den gamla. De olika multiplikatorerna är: **1x, 2x, 4x och 8x**. Varje gång du förlorar en kombo som händer genom att du missar ett block, skär i fel riktning eller med fel sabel, slår en bomb eller går igenom ett hinder, kommer din multiplikator att delas på hälften.
+Din poängmultiplikator kan ses nedan, omgiven av en yttre ring. As said in the name, the multiplier has an effect on your score. You start the song with a multiplier of **1x** and the outer ring shows the progression to the next multiplier. When you hit the note that brings you up to the next multiplier, that note is affected by the new multiplier and not the old one. De olika multiplikatorerna är: **1x, 2x, 4x och 8x**. Every time you lose combo which involves missing a note, cutting in the wrong direction or the with the wrong saber, hitting a bomb or going through an obstacle, your multiplier will be cut in half.
 
 ![Score Multiplier](~@images/ranking-guide/score_multiplier.png "Score Multiplier")
 
 ### Poängsättning
+Scoring well in Beat Saber isn’t as simple as keeping a high combo and not missing notes, it is also determined by your score per block. Den maximala poängen som går att uppnå när du skär ett block är **115** (utan att räkna med multiplikatorn). While cutting a block, you must achieve the correct swing angles and you must slice it in the center to achieve the best score for that cut.
 
-Att få bra poäng i Beat Saber är inte så enkelt som att hålla en hög combo utan att misas block. Det bestäms också av din poäng per block. Den maximala poängen som går att uppnå när du skär ett block är **115** (utan att räkna med multiplikatorn). När du skär ett block måste du uppnå rätt vinkel och du måste skära det i mitten för att uppnå den bästa poängen för det slaget. Här är hur poängen beräknas för ett snitt:
+Here is how score is calculated for a cut:
+| Component          | Point Value |
+| ------------------ | ----------- |
+| 100° Approach      | 70 Points   |
+| 60° Follow Through | 30 Points   |
+| Cutting in Half    | 15 Points   |
 
-| Komponent           | Poängvärde |
-| ------------------- | ---------- |
-| 100° Före ett block | 70 poäng   |
-| 60° Efter ett block | 30 poäng   |
-| Skärning i mitten   | 15 poäng   |
-
-
-Detta visar hur viktigt det är att ha rätt slag för att de bästa vinklarna och bästa möjliga poäng. Kom ihåg att det är bättre att få ett bad cut än en miss eftersom en miss räknas som **0 poäng** och bryter din combo.
+This shows how important it is to do proper swings to get the right angles and the best score possible. Remember, it’s better to get a bad cut than a miss since a miss counts as **0 points** and breaks your combo.
 
 ### Hitboxar
-
-En vanlig missuppfattning i Beat Saber skulle vara att de flesta människor tror att hitboxarna för block är lika stora som blocket själv. Även om det brukade vara så har hitboxarna ändrats en hel del gånger genom de olika versionerna av spelet, och en hel del av bilderna där ute har fel. Här är en bild som visar den aktuella hitboxen. Som ni kan se är hitboxen ganska stor och sträcker sig mycket på sidorna och framsidan. Med denna information rekommenderas det att slå med spetsen på sabeln för att maximera vinkeln och få bästa möjliga slag.
+A common misconception in Beat Saber would be that most people think that the hitboxes for the notes are the blocks themselves. While that used to be the case, the hitboxes have changed quite a few times through the different versions of the game and a lot of the pictures out there are mistaken. Here is an image showing the current hitbox. As you can see, the hitbox is pretty big and extends a lot on the sides and the front. With this information, it is recommended to hit with the tip of the saber to maximize the angle and get the best cut possible.
 
 ![Hitboxes](~@images/ranking-guide/hitbox.png "Hitboxes")
 
 ### Noggrannhet
+Accuracy is shown on the left after enabling the **Advanced HUD** option in the Player Settings. Accuracy is shown by a percentage and a letter. While the best "possible" accuracy is **100%**, it is practically impossible since it would require no combo break and 115 cuts on every block. Even then, accuracy is still a great way to measure performance on a map and one’s ability to score properly and avoid missing notes. Accuracy is calculated using information such as the scores per hit, the score multiplier and the amount of miss.
 
-Noggrannhet visas till vänster efter att du aktiverat alternativet **Advanced HUD** i Player Settings. Noggrannhet visas av en procentsats och en bokstav. Eftersom noggrannheten är en procentsats är den bästa möjliga noggrannheten **100%** eller **SSS**. Medan en sådan noggrannhet är praktiskt taget omöjlig (eftersom det skulle kräva ingen combo break och 115-slag på varje block) är noggrannhet fortfarande ett bra sätt att mäta prestanda på en bana och ens förmåga att få poäng på rätt sätt och samtidgt undvika att missa block. Noggrannhet beräknas med hjälp av information som poängen per träff, poängmultiplikatorn och mängden missar. Här är sambandet mellan bokstäverna och noggrannheternas procentsatser:
-
-| Bokstavsbetyg | Noggrannhetsprocent |
-| ------------- | ------------------- |
-| SS            | 90-99.99%           |
-| S             | 80-89.99%           |
-| A             | 65-79.99%           |
-| B             | 50-64.99%           |
-| C             | 35-49.99%           |
-| D             | 20-34.99%           |
-| E             | < 19.99%            |
+Here is the connection between the letters and accuracy percentage:
+| Letter Grade | Accuracy Percentage |
+| ------------ | ------------------- |
+| SS           | 90-99.99%           |
+| S            | 80-89.99%           |
+| A            | 65-79.99%           |
+| B            | 50-64.99%           |
+| C            | 35-49.99%           |
+| D            | 20-34.99%           |
+| E            | < 19.99%            |
 
 ## Rankningsprocessen
 
 ### Rankad / Orankad
+A lot of people (like I did) will spend dozens and dozens of hours without knowing the difference between ranked and unranked maps when they start. While a map being ranked doesn’t make it better for any reason, it’s great for new players to learn what the difference is, especially if they ever decide to try ranking up.
 
-Många människor (inklusive jag) kommer att tillbringa dussintals timmar utan att veta skillnaden mellan rankade och orankade banor när de börjar. Medan en rankad bana inte nödvändigtsvis är bättre är det bra för nya spelare att lära sig vad skillnaden är, särskilt om de någonsin bestämmer sig för att försöka ranka upp.
+#### Ranked
+A ranked map is assigned a certain difficulty level measured in stars (★) and is worth a certain amount of PP (performance points) for that difficulty. An amount of that PP can be earned by a player for completing the map. More PP will be rewarded for a player that got a higher accuracy. Ranked maps *mostly* respect criteria and are considered as "good maps". They are the only way to climb the [global leaderboard](https://scoresaber.com/global).
 
-**Rankad:** En rankad karta tilldelas en viss svårighetsgrad mätt i stjärnor (★) och är värd en viss mängd PP (performance points) för den svårigheten. En mängd av den PP som kan tjänas av en spelare när de slutför banor. Mer PP kommer att belönas för en spelare som fick en högre noggrannhet. Rankade banor respekterar *mestadels* kriterier och betraktas som “bra banor”. De är det enda sättet att klättra upp i [globala topplistan](https://scoresaber.com/global).
-
-**Orankad:** En ej rankad bana är vilken bana som helst som har publicerats på [BeatSaver](https://beatsaver.com/). Den behöver inte vara möjlig att passera och banor kan göras av vem som helst med hjälp av en nivåredigerare. Dessutom är det inte möjligt att veta svårighetsgraden av en icke rankad karta förutom genom att titta på svårighetsnamnet, som inte alltid är ett korrekt mått på svårigheten eftersom skaparen av banan väljer det själv.
+#### Unranked
+An unranked map is any map that has been published on [BeatSaver](https://beatsaver.com/). It does not need to be actually possible to pass and maps can be made by anybody using the a mapping editor. Also, it is not possible to know the difficulty level of an unranked map except by looking at the difficulty name which is not always an accurate measure of the difficulty since the mapper chooses it.
 
 ### Kriterier och rankningsprocessen
-
-Rankningsteamet rankar banor genom en gemensam utvärderingsprocess. Dessa kartor tilldelas sedan PP baserat på en algoritm som avgör svårigheten när de rankas, baserat på en mängd olika faktorer. PP, som står för performance points, tilldelas när du klarar av rankade banor, baserat på hur hög din poäng var i nivån. Fullständig information om rankningsprocessen, kriterier och ytterligare frågor och svar finns i [ScoreSabers Discordserver](https://discord.com/invite/WpuDMwU).
+The ranking team ranks maps through a communal evaluation process. Those maps are then assigned PP based on an algorithm that determines the difficulty once they are ranked based on a variety of factors. PP, which stands for performance points, is given for completing ranked maps based on how high you scored in the level. Full details about the ranking process, criteria, and additional FAQs can be found in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
 
 ## Förklaring av rankningssystemet (PP System)
-
-PP systemet är förmodligen en av de mest missförstådda saker när det gäller rankning i spelet. Personligen tycker jag att folk missförstår det så ofta att jag till slut skrev ett meddelande om det och fäste det på den kanadensiska Beat Saber Discordservern, så att jag skulle inte behöva förklara det längre, så här är “allt” du behöver veta om det.
+The PP system is probably one of the most misunderstood things when it comes to ranking in the game. Personally, I find it that people misunderstand it so often that I ended up writing a message about it and pinned it on the Beat Saber Canadian Discord so I wouldn’t need to explain it anymore, so here is "all" you need to know about it.
 
 ### Hur tjänar jag PP och hur fungerar den globala rankningen?
+You can find your global ranking on [ScoreSaber](https://scoresaber.com/global) by typing your username in the search bar. Your ScoreSaber profile is tied to your Steam/Oculus profile on which you play the game.
 
-Du hittar din globala rankning på [ScoreSaber](https://scoresaber.com/global) genom att söka efter ditt namn. Din ScoreSaber-profil är knuten till din Steam/Oculus-profil som du spelar spelet på.
-
-Som sagt tidigare kan du tjäna PP (performance points) genom att spela rankade banor. Mängden PP en bana är värd bestäms när banan körs genom PP-algoritmen. Algoritmen hålls hemlig för att förhindra att banbyggare avsiktligt försöker göra banor som är värde alldeles för mycket PP (för att undvika att systemet kringgås helt enkelt). Den exakta mängden PP som en spelare får bestäms av deras noggrannhet på den kartan och kurvan den representerar jämfört med den maximala mängden PP som banan är värd. Du hittar mer information i [ScoreSabers Discordserver](https://discord.com/invite/WpuDMwU).
+As said earlier, you can earn PP (performance points) by playing ranked maps. The amount of PP a map is worth is determined when the map is ran through the PP algorithm. The algorithm is kept secret to prevent mappers from trying to intentionally make songs to only be worth a lot of PP (to avoid breaking the system basically). The exact amount of PP gained by a player is determined by their accuracy on that map and the curve it represents compared to the max amount of PP that map is worth. You can find more information in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
 
 ### Hur fungerar PP-systemet och vad är viktad PP?
+To prevent skilled players from grinding hundreds of easier maps worth less PP to rank up, a curve is applied to your plays. This curve is **0.965^(x-1)** where **x** is the position of that score on your ranked map list which can be found on your profile.
 
-För att förhindra att skickliga spelare spelar hundratals enklare banor värda mindre PP för att rangordna sig, tillämpas en kurva på dina spelningar. Denna kurva är **0.965^(x-1)** där **x** är positionen för den poängen på din rankade nivålista som finns på din profil.
-
-Du kanske har märkt att det finns 2 nummer som slutar med PP i din lista. Ett av dessa nummer är **blått** och representerar den råa mängden PP du får från din spelning, innan kurvan tillämpas. Det andra numret är **(grått)** och visar den faktiska viktade mängden PP du får från din spelning efter kurvan tillämpas.
+You might have noticed that in your list, there are 2 numbers which end with PP. One of these numbers is **blue** and represents the raw amount of PP you get from that play, before the curve is applied. The second number is gray and in parenthesis showing the actual weighted amount of PP you are getting from that play after the curve is applied.
 
 ![Raw and Weighted PP](~@images/ranking-guide/raw&weighted_pp.png "Raw & Weighted PP")
 
-Som sagt tidigare, mängden viktade PP du kommer att få bestäms av kurvan och placeringen av den banan i din lista. Som ett exempel, om din bästa spelning är en **260 rå PP** spelning kommer du att belönas ** med 260 viktade PP** som är **100%** av den råa PP av din spelning. Om din näst bästa spelning är **247 råa PP** kommer du att belönas **238 viktade PP** vilket är den faktiska mängden PP du får efter kurvan appliceras på den. Här är ett exempel på hur kurvan fungerar:
+As said before, the amount of weighted PP you will receive is determined by the curve and the placement of that song in your list. As an example, if your top play is a **260 raw PP** play, you will be rewarded **260 weighted PP** which is a **100%** of the raw PP of that play. If your second top play is **247 raw PP**, you will be rewarded **238 weighted PP** which is the actual amount of PP you get after the curve is applied on it.
 
-| Rå PP | Viktad PP                   |
-| ----- | --------------------------- |
-| 260pp | **260pp** (100% av rå PP)   |
-| 247pp | **238pp** (96,5% av rå PP)  |
-| 246pp | **229pp** (93,1% av rå PP)  |
-| 244pp | **219pp**  (89,9% av rå PP) |
+Here is an example of how the curve works:
+| Raw PP | Weighted PP                  |
+| ------ | ---------------------------- |
+| 260pp  | **260pp** (100% of raw PP)   |
+| 247pp  | **238pp** (96.5% of raw PP)  |
+| 246pp  | **229pp** (93.1% of raw PP)  |
+| 244pp  | **219pp**  (89.9% of raw PP) |
 
 ### Varför ökar inte min totala PP lika mycket som den viktade PPn jag fick på min nya låt?
+A common question people seem to have when they get a new score worth, for example, **100 weighted PP** is why they are not getting **+100 pp** on their total amount of performance points. As explained earlier, since the effect of the curve on your plays increases the further you go down your list, when you make a new play, it takes the place of an older play which makes all the plays that are under go down 1 place in the list. Even if you are getting **+100 pp** from this new play, all your lower plays are weighed down even more then before so you lose a certain amount of PP on them. This is why when getting a new play or making a better play on a map, you will never (one exception) get the same amount of PP on your total amount of performance points.
 
-En vanlig fråga folk brukar ställa när de sätter en ny poäng värd, till exempel, **100 viktade PP** är varför de inte fick dessa **+100 PP ** på deras totala "Performance Points" eller "PP". Som tidigare förklarats, eftersom effekten av kurvan på dina spelningar ökar ju längre ner du är på listan, när du gör en ny spelning tar den spelningen platsen av en äldre spelning som gör att alla spelningar som ligger under går ner en plats i listan. Även om du får **+100 pp** från denna nya spelningen kommer alla dina lägre spelningar viktas ännu mer än tidigare, så du förlorar en viss mängd PP på dem. Det är därför när du får en ny spelning eller gör en bättre spelning på en karta kommer du aldrig (förutom vid ett undantag) få samma mängd PP på din totala mängd performance points.
-
-Det enda undantaget till detta är om du får en bättre noggrannhet på din nuvarande bästa spelning. Eftersom din toppspelning inte påverkas av kurvan, vilket innebär att ingen av dina avklarade banor kommer att ändra platser i din lista, förloras ingen PP på dina andra spelningar. Ett exempel skulle vara om din toppspelning är på Avalanche med **250 pp** och du lyckas få en bättre noggrannhet och den spelning är nu värd **260 pp** kommer du då att få **+10 pp** på din totala mängd PP.
+The only exception to this is if you get a better accuracy on your current top play. Since your top play is not affected by the curve, meaning that none of your songs will change places in your list, there will be no lost of PP on your other plays. An example would be if your top play is on Avalanche with **250 pp** and you manage to get a better accuracy and that play is now worth **260 pp**, you will then get **+10 pp** on your total amount of PP.
 
 ### Hur kan jag bli bättre och få mer PP?
+To improve and get a better rank in the global ranking, there are quite a few tools you can use to find ranked songs that fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like. The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) or [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme) browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep track of your performance.
 
-För att förbättra och få en bättre placering i den globala rankingen finns en hel del verktyg du kan använda för att hitta rankade banor som passar din skicklighet. Först det är alltid bra att titta på sin egen [ScoreSaber](https://scoresaber.com/global) profil för att se banor som du inte har spelat på ett tag eller som du kan förbättra på och för att veta hur dina toppoäng ser ut. Webbläsartillägget [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced) kan utöka funktionaliteten i din profil. [BaliBilos ScoreSaberwebbplats](https://scoresaber.balibalo.xyz/peepee) och [Beat Savior](https://www.beatsavior.io/) är externa webbplatser som kan hjälpa dig att hitta banor för att förbättra och hålla koll på din prestanda.
-
-För mer exakta tips och tricks, gå till [Användbara tips och länkar](#useful-tips-links) -kapitlet.
+For more precise tips and tricks, go refer to the [Useful Tips & Links](#useful-tips-links) chapter.
 
 ## Modifierare
 
 ### Modifierare och rankade banor
+When it comes to ranked maps, all the **Negative Modifiers** such as No Fail apply on the score. This means **Negative Modifiers** can be used on any ranked map but they will obviously penalize your score and reward less PP. **Positive Modifiers** only take effect on two ranked maps as of now; [Overkill mapped by Nuketime](http://scoresaber.com/leaderboard/87194) and [Overkill mapped by Kry](http://scoresaber.com/leaderboard/86492). They are used to test the effects of **Positive Modifiers** on ranked maps and to find a way to integrate them on all the other ranked maps. You can obviously play any other map (including ranked ones) and the modifiers will all work but they will only increase your score and PP on the two versions of Overkill. The modifiers used on any score on the leaderboards can be seen to the right of the score.
 
-Sedan uppdateringen **v12.0p1** lades en hel del modifierare till, och några redan befintliga har bytat effekt. När det gäller rankade banor gäller alla **negativa modifierare** på poängen. Detta innebär att **negativa modifierare** kan användas på valfri rankad karta, men de kommer självklart att skära ner på din poäng och belöna mindre PP. När det gäller **positiva modifierare**träder de bara i kraft på två rankade banor från och med nu ; [Overkill kartlagd av Nuketime](http://scoresaber.com/leaderboard/87194) och [Overkill kartlagd av Kry](http://scoresaber.com/leaderboard/86492). De används för att testa effekterna av **positiva modifierare** på rankade banor och för att hitta ett sätt att integrera dem på alla andra rankade banor. Du kan naturligtvis spela någon annan banor (inklusive rankade) och modifierarna kommer alla att fungera, men de kommer bara att öka din poäng och PP på de två versionerna av Overkill. De modifierare som används på alla poäng på topplistorna kan ses till höger om poängen. Med detta sagt kommer en lista över alla modifierare i spelet, deras effekter på poäng och hur de påverkar spelet:
+With this said, here is a list of all the modifiers in the game, their effects on score and how they affect gameplay:
 
-**No Fail (-0.50)**
-
-Tar bort din hälsa vilket gör det omöjligt att misslyckas. Jämfört med äldre versioner av spelet kommer No Fail nu att skicka poäng till topplistan såvida de inte används i Practice Mode.
-
-| Modifierare                 | Beskrivning                                                                                                                                          |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| No Obstacles (-0.05)        | Tar bort alla hinder (väggar) från banan.                                                                                                            |
-| No Bombs (-0.10)            | Tar bort alla bomber från banan.                                                                                                                     |
-| Slower Song (-0.30)         | Saktar ner låten till 85% av den ursprungliga hastigheten.                                                                                           |
-| Insta Fail (0.00)           | Gör att du misslyckas på den första miss du gör.                                                                                                     |
-| Battery Energy (0.00)       | Stoppar hälsan från påfyllning. Detta begränsar den totala mängden missar och dåliga slag du kan ha innan du misslyckas.                             |
-| Disappearing Arrows (+0.07) | Gör att pilarna försvinner från blocken när de närmar dig. Du måste fortfarande komma ihåg rätt riktning som du behöver skära i, precis som vanligt. |
-| Faster Song (+0.08)         | Snabbar upp låten till 120% av den ursprungliga hastigheten.                                                                                         |
-| Ghost Notes (+0.11)         | Blocken blir osynliga och pilarna försvinner strax innan du träffar dem, på samma sätt Disappearing Arrows.                                          |
+<!-- markdownlint-disable MD013 -->
+| Modifier                    | Description                                                                                                                                                                       |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| No Fail (0.00/-0.50)        | Acts as a safety net letting you continue playing if you fail. As of version 1.13.2, this modifier applies the score penalty only if you lose all of your health during the song. |
+| No Obstacles (-0.05)        | Removes all of the obstacles (walls) from the map.                                                                                                                                |
+| No Bombs (-0.10)            | Removes all of the bombs from the map.                                                                                                                                            |
+| Slower Song (-0.30)         | Slows down the song to 85% of the original speed.                                                                                                                                 |
+| Insta Fail (0.00)           | Makes you fail on the first miss you make.                                                                                                                                        |
+| Battery Energy (0.00)       | Stops the health bar from replenishing. This limits the total amount of misses and bad cuts you can have before failing.                                                          |
+| Disappearing Arrows (+0.07) | Makes the arrows disappear from the note as they approach you. You still need to remember the direction as you need to cut in the correct direction as always.                    |
+| Faster Song (+0.08)         | Speeds up the song to 120% of the original speed.                                                                                                                                 |
+| Ghost Notes (+0.11)         | Notes are invisible and the arrows disappear shortly before you hit them, similarly to Disappearing Arrows.                                                                       |
+<!-- markdownlint-enable MD013 -->
 
 ## Grepp
 
 ### Varför ska jag använda ett grepp?
+An alternative grip can be an adjustment of the default saber angles, an alternative method of holding the controller, or a combination of both. There's no single grip that works for everyone, and using an alternative grip won't magically make you better at the game. It is not necessarily better than the default way the controller is meant to be held, or the default angles that Beat Saber uses. However, alternative grips can have many benefits, from being more comfortable for long periods of play to helping you optimize your swings. They can redistribute the weight of a poorly balanced Vive wand, or increase the range of wrist motion with a Touch controller. Below are some popular grips used in the competitive community. Don't be afraid to adjust or experiment to find what's right for you!
 
-Ett alternativt grepp kan vara en justering av standardsabelvinklar, en alternativ metod för att hålla kontrollern eller en kombination av båda. Det finns inget perfekt grepp som fungerar för alla, och ett alternativt grepp kommer inte magiskt göra dig bättre på spelet. Det är inte nödvändigtvis bättre än det standardsätt som kontrollen är tänkt att hållas, eller de standardvinklar som Beat Saber använder. Alternativa grepp kan dock ha många fördelar, från att vara mer bekväma under långa perioder i Beat Saber eller för att hjälpa dig att optimera dina slag. De kan omfördela vikten av en dåligt balanserad Vive wand eller göra handledsrörelser med en Touch controller lättare och större. Nedan är några populära grepp som kan används i den tävlingsinriktade gemenskapen. Var inte rädd för att justera och experimentera för att hitta det rätta greppet för dig!
-
-### Grepp
-
-Se Grepp-sektionen i [Grepp och trick](./grips-and-tricks.md) för några exempel på vanliga grepp som används i gemenskapen.
+### List of Grips
+Refer to the Grips section of [Grips And Tricks](./grips-and-tricks.md) for some examples of commonly used grips used in the community.
 
 ## Användbara tips och länkar
 
 ### Tips & tricks
+After all this time playing Beat Saber, I’ve hit many walls. Hitting a wall can be really annoying since it can take time to figure out what to do to keep improving. Here is a small list of tips to improve as a player.
 
-Efter alla dessa timmar i Beat Saber har jag gått in i väggen. Utbrändhet kan vara riktigt irriterande eftersom det kan ta tid att räkna ut vad man ska göra för att förbättras. Här är en liten lista med tips för att förbättra som spelare.
+#### Challenge yourself
+While it sounds obvious, many players never try to improve and play harder maps and simply play the same maps over and over again. Extend your song list and push yourself to learn the things you are the worst at.
 
-**Utmana dig själv.**
+#### Play more
+You don't get better at playing an instrument without a lot of experience. The same goes for Beat Saber - simply playing more will improve pattern recognition, condition your body, and build muscle memory.
 
-Även om det låter självklart försöker många spelare aldrig att förbättra och därmed spela svårare banor. En tendens många har är att dem spelar samma banor om och om igen. Utöka din lista med banor och driv dig själv att lära dig de saker du är sämst på.
+#### Evaluate your own gameplay
+Att spela in sig själv är ett bra sätt att hur var du kan förbättras, oavsett om det bara är ditt spel eller du också använder en webbkamera. Det kan vara riktigt användbart att analysera dig själv för att se dina vanliga misstag. You can also watch your own replays by clicking the info icon next to your score in the leaderboard, then the button in the top right corner of the info card.
 
-**Spela mer.**
+Note: Quest currently requires an additional mod to record and watch replays.
 
-Du blir inte bättre på att spela ett instrument utan mycket erfarenhet. Samma sak gäller Beat Saber - helt enkelt kommer mer speltid förbättra igenkänning av mönster, din kropps kondition och bygga muskelminne.
+#### Watch better players play and ask them tips
+Om du får en möjlighet försök då att titta på bättre spelare och använda några av deras tekniker för att förbättra. Copying everything about a pro player won’t make you one but can surely help you improve. Watch their replays and compare their movements to your own. Dessutom, om du någonsin har möjlighet, be alltid om tips (men var inte irriterande eller respektlös).
 
-**Utvärdera ditt eget spelande.**
+#### Don’t overthink it
+If you can’t finish a map or can’t achieve a higher score, don’t overthink it. I made the mistake of getting angry over this way too many times and it will create a mental wall. Simply play another song and come back to it another day.
 
-Att spela in sig själv är ett bra sätt att hur var du kan förbättras, oavsett om det bara är ditt spel eller du också använder en webbkamera. Det kan vara riktigt användbart att analysera dig själv för att se dina vanliga misstag. Du kan också titta på dina egna repriser genom att klicka på pilen bredvid din poäng i topplistan.
+#### Practice hard patterns
+If you are struggling with a section of a map, slow it down with the Slower Song modifier or decrease the speed in practice mode.
 
-**Titta på bättre spelare och fråga dem efter tips**
+#### BSRA
+Check out Cube Community's [Beat Saber Replay Analysis playlist](https://www.youtube.com/watch?v=rxf68rH4S20&list=PLwx5EB8PdMNdElyEBfO7VktSWSNZukfqP). This series help viewers understand how top Beat Saber plays are made and how they can improve.
 
-Om du får en möjlighet försök då att titta på bättre spelare och använda några av deras tekniker för att förbättra. Att kopiera allt om en proffsspelare kommer inte att göra dig till en men kan säkert hjälpa dig att förbättra. Se deras repriser och jämför deras rörelser med dina egna. Dessutom, om du någonsin har möjlighet, be alltid om tips (men var inte irriterande eller respektlös).
-
-**Övertänk det inte**
-
-Om du inte kan klara av en nivå eller inte kan uppnå en högre poäng, övertänk det inte. Jag gjorde misstaget att bli arg över detta alltför många gånger och det kommer att skapa en mental mur. Spela bara en annan bana och kom tillbaka till den en annan dag.
-
-**Öva på svåra mönster**
-
-Om du kämpar med en specifik del av en bana, sakta då ner den med Slower Song-modifieraren eller minska hastigheten i practice mode.
-
-**BSRA** Kolla in Cube Communitys spellista [Beat Saber Replay Analysis ](https://www.youtube.com/watch?v=rxf68rH4S20&list=PLwx5EB8PdMNdElyEBfO7VktSWSNZukfqP). Denna serie hjälper tittarna att förstå hur de bästa spelningarna i Beat Saber görs och hur de kan förbättras.
-
-**Ha kul**
-
-I slutet av dagen är det bara ett spel. Den viktiga delen är att du har roligt och njuter av att spela det. Om du finner dig själv spela "en rankad bana som suger men är värd så mycket PP", spela helt enkelt inte den. Försök inte att tvinga dig själv att spela nivåer som du ogillar, och spela hur du vill. Det är när du har kul som du kommer att se tiden flyga förbi och då förbättras du som mest. Om du inte bryr dig om rank är det självklart ok, bara ha kul 🙂
+#### Have fun
+At the end of the day, this is a game. The important part is that you have fun and enjoy playing it. If you hate playing this "one ranked map that sucks but is worth so much PP", then simply don’t play it. Don’t try to force yourself to play songs you dislike and play however you want. It’s when you have fun that you’ll see the time fly by and you’ll improve the most. If you don’t care about rank, it’s all good, just have fun 🙂
 
 ### Länkar
 
-* [ScoreSaber](http://scoresaber.com/): den officiella hemsidan med topplistor för alla banor och den globala rankningstopplistan
-* [ScoreSaber Discord](https://discordapp.com/invite/WpuDMwU): den officiella ScoreSaber discorden för att bli informerad om när nya banor blir rankade, kriterier, osv
-* [BaliBilo's ScoreSaber Site](https://scoresaber.balibalo.xyz/peepee): få rekommendationer för banor baserade på dina förra poäng för att förbättra din globala rank
-* [Beat Savior](https://www.beatsavior.io/): se din rankade statistik och prestanda
+* [ScoreSaber](http://scoresaber.com/) Official website with the leaderboards for all the maps and the global ranking leaderboard
+* [ScoreSaber Discord](https://discordapp.com/invite/WpuDMwU) Official ScoreSaber Discord to get informed about maps getting ranked, criteria, etc
+* [BaliBilo's ScoreSaber Site](https://scoresaber.balibalo.xyz/peepee) Get play suggestions based on your scores to improve your global rank
+* [Beat Savior](https://www.beatsavior.io/) Track your ranked stats and performance

@@ -1,4 +1,5 @@
 # Často kladené otázky
+
 ## Právě jsem si pořídil hru, kde mám začít?
 Podívejte se na náš [průvodce pro začátečníky](/beginners-guide.md)!
 
@@ -12,47 +13,52 @@ Pokud stahujete mapy (levely) manuálně z BeatSaveru, rozbalte je do složky a 
 
 ### Nástroje pro správu levelů
 Následující programy vám nejen pomohou stahovat komunitní levely na počítači, ale mají i některé další zajímavé funkce.
+
 * [Beat Saber Downloader](https://drive.google.com/file/d/1QWedF77hWYbqcigIWa2UcpXlhqGTjwR1/view) program na stahování map. Vytvořen uživatelem Sturdyfool0.
 * [BeatList](https://github.com/Alaanor/beatlist) je program na správu playlistů a map. Vytvořen uživatelem Alaanor.
 
 ## Jak nainstaluji playlisty?
-**Pro PC uživatele:**  
-Nainstalujte si mód `PlaylistLoaderLite` . Poté můžete buďto:
+
+### PC
+You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod.
+
+Then you can either:
+
 * Použít `Install Playlist` nástroj v záložce nastavení v Mod Assistantu.
-* Vložte playlist do `Beat Saber/Playlists`, vyberte daný playlist v programu BeatList a zmáčkněte tlačítko "download all".
+* Place the playlist file into `Beat Saber/Playlists`, select it in-game, then hit download all songs.
 
-Nyní byste měli vidět playlist vedle "Custom Levels" alba ve hře. Pokud vám některé levely v playlistu chybí, budete je muset manuálně stáhnout buďto použitím programu BeatList, nebo přímo ze stránky Beatsaver nebo Bsaber.
+You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
 
-**Pro Quest uživatele:**  
-Pro správu playlistů na vašem Questu můžete použít [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) . Berte na vědomí, že komunitní level se vám ve hře ukáže pouze jednou kvůli limitacím BMBF.
+### Quest
+You can use [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) to manage the playlists on your Quest. Note that a custom level can only appear once in-game due to a limitation with BMBF.
 
-:::warning VAROVÁNÍ pro Quest uživatele Znovu načtení vaší složky s komunitními levely vám resetuje uspořádání všech vašich playlistů. :::
+:::warning WARNING for Quest Users Reloading your Custom Songs Folder resets all playlist organization. :::
 
 ## Jak vytvořím svůj vlastní level?
-Podívejte se na [mapování](/mapping/)!
+See [mapping](/mapping/)!
 
 ## Jak nainstaluji pluginy, které nejsou v Mod Assistantu?
-Podívejte se na [tuto sekci](/pc-modding.md#manual-installation) našeho průvodce pro začátečníky.
+See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 
 ## Funguje multiplayer na více platformách dohromady?
-Oficiální multiplayer je limitován pouze na hraní s ostatními lidmi ze stejné platformy (Oculus/Steam), na které jste si hru koupili. Pokud používáte pluginy na Questu, nemůžete hrát oficiální multiplayer.
+Officially, multiplayer is limited to playing with other people in the store version (Oculus/Steam) you purchased. Additionally, modifying the game on Quest disables official multiplayer.
 
-BeatTogether mód je momentální řešení pro cross-platform hraní mezi módovanými verzemi hry. Pro více info se můžete připojit na jejich [Discord server](https://discord.com/invite/gezGrFG4tz) a podívat se do kanálu `#install-instructions` .
+The BeatTogether mod is the current solution for cross-platform play between the modded game versions. Join their [Discord server](https://discord.com/invite/gezGrFG4tz) and check the `#install-instructions` channel for more information.
 
-## Aktualizovala se mi hra a najednou mi nefungují žádné módy!
-Pokaždé, když se hra aktualizuje, tak je možné *(a dost pravděpodobné)*, že vám přestanou fungovat vaše módy a budou vyžadovat aktualizaci. Vývojáři si tohle dobře uvědomují, takže vždy, když se hra aktualizuje a vy ji poprvé spustíte, vše ze složky `Plugins` bude přesunuto do složky `Old 1.xx.x Plugins`. **Tyto pluginy zde nechte!**
+## My game updated and now none of my mods are working
+Each time the game updates it is possible *(and very likely)* that your existing mods will stop working and need to be updated. The game developers realized this, so when the game updates and you run it for the first time, everything in the `Plugins` folder is moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins in there!**
 
-Abyste získali módy zpět, prostě **je všechny znovu nainstalujte.**  
-Úložiště BeatMods obsahuje vždy pouze módy, které jsou potvrzeny, že fungují na nejnovější verzi hry!
+To get mods back, simply **run the installer again.**  
+The BeatMods repository only includes mods that have been confirmed to work on the latest version of the game!
 
-Pokud něco nechápete, podívejte se na náš [průvodce pro začátečníky](/beginners-guide.md).
+If you're confused by any of this, visit [Beginners Guide](/beginners-guide.md).
 
 ## Jak funguje systém hodnocení v Beat Saberu? Jak funguje světové umístění?
-Máme speciální sekci [uchopení a triky](/grips-and-tricks.md), která se věnuje systému hodnocení a umístění. Nezapomeňte se zde podívat!
+We have sections on the [grips and tricks](/grips-and-tricks.md) page dedicated to the scoring and ranking systems, check them out!
 
-## Nemám ve hře žádná tlačítka, ani menu!
-Pokud je vaše hlavní okno hry prázdné, vaše hra je nejspíše poškozená.
+## My menus are blank and I have nothing to click on
+If the main window in your game is blank, your save file likely got corrupted.
 
-Abyste to opravili, jděte do: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
+To fix it, navigate to: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
 
-Smažte nebo přejmenujte vaši Beat Saber složku na něco jiného. Nyní, když se vrátíte zpět do hry, vaše hra by se měla znovu vytvořit a vaše menu by mělo fungovat opět v pořádku.
+Delete or rename the Beat Saber folder to something else. When you re-enter the game, it'll recreate the save file and should load the main menu properly.

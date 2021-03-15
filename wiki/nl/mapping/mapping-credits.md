@@ -4,8 +4,7 @@ description: List of all the people who contributed to the Mapping Resources!
 ---
 
 # Mapping Resources Contributors
-
-Meer dan *30* verschillende handleidingen en gidsen zijn samengevoegd tot deze wiki zodat deze door de community als geheel kan worden onderhouden. Heel heel heel **véél** dank aan de level makers die verantwoordelijk waren voor dit spoor en aan de inhoud hebben bijgedragen. Bekijk hun nummers en overweeg deze mensen te ondersteunen!
+Meer dan *30* verschillende handleidingen en gidsen zijn samengevoegd tot deze wiki zodat deze door de community als geheel kan worden onderhouden. Heel heel heel **véél** dank aan de level makers die verantwoordelijk waren voor dit spoor en aan de inhoud hebben bijgedragen. Bekijk hun levels en overweeg deze mensen te ondersteunen!
 
 > Hebben we je gemist? Will je je bio updated? [Laat het ons weten!](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform)
 
@@ -22,8 +21,7 @@ Een geweldige dans level maker die een [video tutorial series](https://bsaber.co
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84e98d) | [BeastSaber](https://bsaber.com/members/bennydabeast/)
 
 ## Bloodcloak
-Een level maker die echt van de Japanse en EDM muziek is, met af en toe een K-pop liedje, en houdt van het maken van dansstijl levels.   
-Is ook een staff dat helpt in het onderhouden en te verbeteren van de middelen die we hebben.   
+Een level maker die echt van de Japanse en EDM muziek is, met af en toe een K-pop liedje, en houdt van het maken van dansstijl levels. Is ook een staff die helpt met het onderhouden en verbeteren van de bronnen.   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Doneer](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
 
 ## Bullet
@@ -35,8 +33,7 @@ Modder, moderator, Mapper, EditorMaster... Caeden doet het allemaal. Als de prim
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ee26) | [BeastSaber](https://bsaber.com/members/caeden117/) | [Doneer](https://ko-fi.com/Caeden117)
 
 ## Checkthepan
-Een nerd dat meer tijd besteed aan het schrijven over het maken van levels dan dat hij het daadwerkelijk doet. Heeft de theorie van parity aangepast en schreef er een gids over hoe deze van toepassing is in het maken van Beat Saber levels en heeft ook bijgedragen aan 360&deg;/90&deg; beste praktijken.    
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f3d5) | [BeastSaber](https://bsaber.com/members/checkthepan/)
+Een nerd dat meer tijd besteed aan het schrijven over het maken van levels dan dat hij het daadwerkelijk doet. Heeft de theorie van parity op zich genomen en schreef een gids over hoe het werkt in het maken van levels voor Beat Saber, heeft ook bijgedragen aan de 360&deg;/90&deg; beste praktijken. [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f3d5) | [BeastSaber](https://bsaber.com/members/checkthepan/)
 
 ## CyanSnow
 Een furry op maandagen en woensdagen, maakt geweldige levels met verschillende eigenschappen. Verifieerde informatie en heeft heel veel dingen bijgedragen aan de muren sectie in Intermediaire levels maken!   
@@ -51,7 +48,7 @@ Werkt bij Beat Games als een Officiële level maker. Heeft een van de eerste [ma
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84e8ad) | [BeastSaber](https://bsaber.com/members/freeek/)
 
 ## fruhead
-Een level maker die focust op het maken van toegankelijke expert+ en lager levels. Oorspronkelijk begonnen met het maken van levels om wat meer rock- en metal levels toe te voegen om te concurreren met de weeb en nightcore levels, is uiteindelijk begonnen om zelf weeb en nightcore levels te maken. Test af en toe levels, maar heeft PTSD van 1999 en de officiële editor. Maker van de [Beginner's Guide to Mapping tutorial series](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm).   
+Een level maker die focust op het maken van toegankelijke expert+ en lager levels. Oorspronkelijk begonnen met het maken van levels om wat meer rock- en metal levels toe te voegen om te concurreren met de weeb en nightcore levels, is uiteindelijk begonnen om zelf weeb en nightcore levels te maken. Test af en toe levels, maar heeft PTSD van 1999 en de officiële editor. Maker van de [Beginner's Guide to Mapping tutorial series](https://youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm).   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c852683) | [BeastSaber](https://bsaber.com/members/fruhead/)
 
 ## Gabmiral
@@ -75,28 +72,27 @@ Contributed to the [360&deg;/90&deg; best practices](./extended-mapping.md#_360�
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855af3) | [BeastSaber](https://bsaber.com/members/kivalevan/)
 
 ## Kolezan
-Full Spread and Single Saber Maps galore.  
-Authored content in [Basic Audio Setup](./basic-audio.md) and [Advanced Audio Editing](./advanced-audio.md) with [Nik](#nik-n3tman) and [Basic Lighting](./basic-lighting.md) with [LittleAsi](#littleasi).  
+Full Spread en Single Saber levels in overvloed.   
+Heeft inhoud in [Standaard audio setup](./basic-audio.md) en [Geavanceerde audiobewerking](./advanced-audio.md) met [Nik](#nik-n3tman) en [Basis verlichting](./basic-lighting.md) met [LittleAsi](#littleasi) geautoriseerd.   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84fcbb) | [BeastSaber](https://bsaber.com/members/kolezan/)
 
 ## LittleAsi
-A lighting mentor and member of Funrankable, they authored a lot of content to the lighting resources with [Kolezan](#kolezan).   
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c853c2d) | [BeastSaber](https://bsaber.com/members/littleasi/) | [Funrankable](https://beatsaver.com/uploader/5cff0b7798cc5a672c8561ac)
+Een verlichtingsmentor en lid van Funrankable, heeft veel inhoud aan de verlichtingsbronnen met [Kolezan](#kolezan) geautoriseerd. [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c853c2d) | [BeastSaber](https://bsaber.com/members/littleasi/) | [Funrankable](https://beatsaver.com/uploader/5cff0b7798cc5a672c8561ac)
 
 ## Megalon
-Co-creator of the BSMG as well as Channel Monitor Bot. He's known for his creative stream overlays and amazing ASMR voice. Created a video tutorial on using the [Official Editor](./#official-editor) and manages the wiki repository.  
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855407) | [BeastSaber](https://bsaber.com/members/megalon/) | [GitHub](https://github.com/megalon) | [Twitch](https://twitch.tv/megalonttv) | [Donate](https://ko-fi.com/megalon)
+Mede-maker van zowel BSMG als Channel Monitor Bot. Hij staat bekend om zijn creatieve stream overlays en verbazingwekkende ASMR stem. Heeft een video-gids over het gebruik van de [Officiële Editor](./#official-editor) en beheert de wiki.   
+[BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855407) | [BeastSaber](https://bsaber.com/members/megalon/) | [GitHub](https://github.com/megalon) | [Twitch](https://twitch.tv/megalonttv) | [doneer](https://ko-fi.com/megalon)
 
 ## ManDynasty
-Wrote various guides on lighting that was integrated into [Basic Lighting](./basic-lighting.md).  
+Heeft verschillende gidsen geschreven over verlichting die in [Standaard verlichting](./basic-lighting.md) zijn opgenomen.   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ffaa) | [BeastSaber](https://bsaber.com/members/mandynasty/)
 
 ## Nik/n3tman
-Makes playlists and dabbles in audio editing. Authored content in [Basic Audio Setup](./basic-audio.md) and [Advanced Audio Editing](./advanced-audio.md) with [Kolezan](#kolezan).  
+Maakt afspeellijsten en houd zich bezig met audio-bewerking. Heeft inhoud in [Standaard audio setup](./basic-audio.md) en [Geavanceerde audiobewerking](./advanced-audio.md) met [Kolezan](#kolezan) geautoriseerd.   
 [BeastSaber](https://bsaber.com/members/n3tman/)
 
 ## Puds
-Wrote *Beginner's Lighting Guideline*, a guide that was integrated into [Basic Lighting](./basic-lighting.md).  
+Heeft *Beginner's Lighting Guideline* geschreven, een gids dat geïntegreerd is in [Standaard verlichting.](./basic-lighting.md)   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85380d) | [BeastSaber](https://bsaber.com/members/puds/)
 
 ## Pyrowarfare
@@ -104,15 +100,15 @@ A Bsaber curator who wrote the majority of content for [How to Playtest](./how-t
 [BeatSaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf) | [BeastSaber](https://bsaber.com/members/pyrowarfare/)
 
 ## Ris
-Wrote *Warping Variable BPM Songs with Reaper* based off of a method by **Heisenberg_IRL** that was integrated into [Advanced Audio Editing: Variable BPM](./advanced-audio.md#variable-bpm).  
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c8535df) | [BeastSaber](https://bsaber.com/members/ris/)
+Heeft *Warping Variabele BPM Songs with Reaper* geschreven wat gebaseerd is op een methode door **Heisenberg_IRL**, dat werd geïntegreerd in [Geavanceerde Audiobewerking: Variabele BPM](./advanced-audio.md#variable-bpm).   
+[BeatSaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c8535df) | [BeestSaber](https://bsaber.com/members/ris/)
 
 ## Ryger
-Created a tutorial video on syncing songs using [Arrow Vortex](./basic-audio.md#sync-using-arrow-vortex).  
+Heeft een tutorial video gemaakt over het synchroniseren van nummers met [Arrow Vortex](./basic-audio.md#sync-using-arrow-vortex).   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855a42) | [BeastSaber](https://bsaber.com/members/ryger/) | [YouTube](https://www.youtube.com/channel/UCV1H-gl55Q4WgrInng9szzg)
 
 ## Scrappy
-Wrote the original mapping extensions walls guide.  
+Heeft de originele mapping extensions muren gids geschreven.   
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c851beb) | [BeastSaber](https://bsaber.com/members/scrappy/)
 
 ## Silent Caay
@@ -120,8 +116,7 @@ Wrote the original "Quick Start Guide" on mapping on BeastSaber.
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ed71) | [BeastSaber](https://bsaber.com/members/silentcaay/)
 
 ## Skeelie
-Bringer of eye damage with his flashy light shows, he can help you make your map shine! Contributed to [Advanced Lighting](./advanced-lighting.md).   
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f) | [BeastSaber](https://bsaber.com/members/skeelie/) | [YouTube](https://www.youtube.com/user/xSkeelie) | [Twitch](https://www.twitch.tv/skeelie)
+Veroorzaker van oogschade met zijn flitsende lightshows, hij kan je helpen je level te laten schijnen! Heeft bijgedragen aan [Geavanceerde verlichting](./advanced-lighting.md). [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f) | [BeastSaber](https://bsaber.com/members/skeelie/) | [YouTube](https://www.youtube.com/user/xSkeelie) | [Twitch](https://www.twitch.tv/skeelie)
 
 ## Skyler Wallace
 Managed the first anniversary pack and a founder of Bloq Busters. Skyler makes it a point to do full spread mapping.  
@@ -129,17 +124,16 @@ Authored *The Ultimate Beat Saber Mapping Guide* which has been integrated acros
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84ea67) | [BeastSaber](https://bsaber.com/members/skylerwallace/)
 
 ## Spooky Ghost
-Creator of beatwalls, a command line tool to easily create awesome Mapping Extensions walls. Contributed content in [Extended Mapping: Wall Mapping](./extended-mapping.md#wall-mapping).  
+Maker van beatwalls, een command line tool om makkelijk geweldige Mapping Extensions muren te maken. Contributed content in [Extended Mapping: Wall Mapping](./extended-mapping.md#wall-mapping).  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c8561a5) | [BeastSaber](https://bsaber.com/members/spookyghost/) | [GitHub](https://github.com/spookyGh0st)
 
 ## Sykes
-Wrote guides on what "swing" beat is, how the "shuffle" parameter would make mapping easier, and down-mapping lower difficulties.   
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c854602) | [BeastSaber](https://bsaber.com/members/sykes19/)
+Wrote guides on what "swing" beat is, how the "shuffle" parameter would make mapping easier, and down-mapping lower difficulties. [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c854602) | [BeastSaber](https://bsaber.com/members/sykes19/)
 
 ## Uninstaller
 Ranking team member that authored a guide on modding maps for ranked.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c85248e) | [BeastSaber](https://bsaber.com/members/uninstaller/)
 
 ## Vaser888
-Een testspeler die het leuk vind om de community te helpen.    
+Een testspeler die het leuk vind om de community te helpen.   
 [BeatSaver](https://beatsaver.com/uploader/5f63fb45103cbc00068ee060) | [BeastSaber](https://bsaber.com/members/vaser888/)

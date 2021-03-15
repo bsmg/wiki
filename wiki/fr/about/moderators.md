@@ -1,13 +1,6 @@
 # Modérateurs
 Avec un serveur aussi vaste, énormément de modération est nécessaire pour faire respecter l'ordre. Vous pouvez remercier cette équipe pour garder les rues propres.
 
-## BeigeAnimal
-Nous avons dû fouetter cet enfant pour le modeler mais c'est désormais l'un des modérateurs les plus efficaces. Il n'est pas vraiment spécialisé d'ans un domaine en particulier, mais il est prêt à apporter son aide **lorsque c'est demandé dans le bon canal**. Déteste également les liens de sketchfab.
-
-**Rôles :** Modérateur, Artiste 3D
-
-[Twitch](https://www.twitch.tv/beigeanimaltv) | [Paypal](https://paypal.me/beigeanimal)
-
 ## Caeden117
 Combien de statistiques pouvont nous faire rentrer dans un seul mod de compteurs ? Beaucoup apparemment. Il est aussi responsable des tutoriels sur le Modding sur ce wiki et de ChroMapper, un logiciel de Mapping supportant des lumières Chroma, sortant bientôt.
 
@@ -23,22 +16,10 @@ brrrrrr
 
 [Qosmetics Community](https://discord.gg/qosmetics) | [YouTube](https://www.youtube.com/c/CharaHere)
 
-## DeeJay
-Pepega
-
-**Rôles :** Modérateur
-
-[Twitch](https://www.twitch.tv/deejayvr)
-
 ## Eradawn
 "Findus says hai"
 
 **Roles:** Moderator, Support
-
-## Guatapuri
-"Came for the game, Stayed for the hugs"
-
-**Rôles :** Modérateur, Mappeur
 
 ## Hydrand
 Camellia is SourPls
@@ -46,13 +27,6 @@ Camellia is SourPls
 **Rôles :** Modérateur, Mappeur
 
 [Twitch](https://www.twitch.tv/hydrandvr)
-
-## joelseph
-\+ joelseph
-
-**Rôles :** Modérateur
-
-[Twitch](https://www.twitch.tv/tehjoelseph)
 
 ## 𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯
 Poi !
@@ -90,7 +64,7 @@ A BeastSaber admin who wrote the majority of content for [How to Playtest](./how
 [BeatSaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf) | [BeastSaber](https://bsaber.com/members/pyrowarfare/)
 
 ## RangeValley
-"Mon père a travailler des années comme admin, mais il s'est fait renvoyé quand les robots ont pris le contrôle. Il est revenu à la maison cette nuit et m'a raconté que nous devions déménager dans le van, puisqu'on ne pouvait plus payer loyer, puis il m'a défoncé à coup de câbles de démarrage. Le shitpost devrait être légal."
+> Mon père a travailler des années comme admin, mais il s'est fait renvoyé quand les robots ont pris le contrôle. Il est revenu à la maison cette nuit et m'a raconté que nous devions déménager dans le van, puisqu'on ne pouvait plus payer loyer, puis il m'a défoncé à coup de câbles de démarrage. Le shitpost devrait être légal.
 
 **Rôles :** Modérateur
 
@@ -106,4 +80,30 @@ Litérallement aucune idée de ce qu'il fait quand on en vient au codage, du tou
 
 **Rôles :** Mappeur, Modérateur
 
-[Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [YouTube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)
+[BeatSaver](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [YouTube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)
+
+## BeigeAnimal (Retired)
+We had to whip this boy into a bit of shape but he's now one of the most effective moderators. Il n'est pas vraiment spécialisé d'ans un domaine en particulier, mais il est prêt à apporter son aide **lorsque c'est demandé dans le bon canal**. Déteste également les liens de sketchfab.
+
+**Rôles :** Modérateur, Artiste 3D
+
+[Twitch](https://www.twitch.tv/beigeanimaltv) | [Paypal](https://paypal.me/beigeanimal)
+
+## DeeJay (Retired)
+Pepega
+
+**Rôles :** Modérateur
+
+[Twitch](https://www.twitch.tv/deejayvr)
+
+## Guatapuri (Retired)
+"Came for the game, Stayed for the hugs"
+
+**Rôles :** Modérateur, Mappeur
+
+## joelseph (Retired)
+\+ joelseph
+
+**Rôles :** Modérateur
+
+[Twitch](https://www.twitch.tv/tehjoelseph)

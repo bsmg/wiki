@@ -3,7 +3,7 @@ sidebar: auto
 ---
 
 # Gezondheid en Veiligheid
-_Je kan geen blokken raken met lamme armen_
+_Je kan geen blokken raken met lamme armen!_
 
 ## Algemene Tips
 Beat Saber kan fysiek veeleisend zijn, dus het is belangrijk om het spelen hiervan te behandelen als een training. We raden je sterk aan om voor elke sessie op te warmen om lichamelijk letsel, inclusief schade aan de pols en schouders, te voorkomen. Veel voorkomend letsel is repetitive strain injury (RSI, denk aan muisarm of tennisarm) aan de pols en schouders.
@@ -16,6 +16,7 @@ Stretching is niet alleen beperkt tot mensen die extreme zelfgemaakte nummers sp
 Tino is een top 10 speler in Canada die zo vriendelijk is geweest een zeer gedetailleerde gids te schrijven over een goede warm up, herstel, en omgaan met letsel. [Bekijk het hier!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
 
 ## Pols Verzorging
+
 ### Gewichten?
 Over het algemeen **raden we niet aan** om gewichten te gebruiken voor dit spel. Beat Saber is al een training van zichzelf en genoeg mensen hebben zichzelf pijn gedaan zonder het gebruik van gewichten. In feite onderwerp je je polsen constant aan whiplash, en het toevoegen van gewichten maakt het alleen maar erger.
 

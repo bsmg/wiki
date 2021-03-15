@@ -1,5 +1,5 @@
 ---
-title: Modellen
+description: Installatie, gebruik en creatie gidsen voor model mods!
 ---
 
 # 3D modellen
@@ -12,6 +12,7 @@ Alle plugins voor custom modellen zijn afzonderlijk door verschillende personen 
 * [Custom Walls](./custom-walls.md)
 
 ## Waar je modellen kunt vinden
+
 ### ModelSaber
 [ModelSaber](https://modelsaber.com/) is de huidige plek voor custom sabers, avatars, blokken en platforms. Het bevat voorbeeld afbeeldingen en OneClick&trade; installatie links.
 
@@ -22,6 +23,7 @@ Je kunt ook een lijst vinden met niet goedgekeurde modellen_ (en met mogelijk me
 
 ## Het creëren van modellen
 Wil je leren hoe je je eigen modellen maakt? Bekijk een van onze handleidingen hieronder!
+
 * [De Custom Sabers gids.](./sabers-guide.md)
 * [De Custom Avatars gids.](./avatars-guide.md)
 * [De Custom Platforms gids.](./platforms-guide.md)

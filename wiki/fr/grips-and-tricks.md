@@ -3,7 +3,7 @@ sidebar: auto
 ---
 
 # Prises et Astuces
-_Une compilation de ressources pour vous aider à taper les bloq_
+_Une compilation de ressources pour vous aider à taper les bloqs._
 
 ## Méga-tutoriel pour monter dans le classement
 Un incroyable rapport de TeknozFR pour vous aider à booster vos PP. [Guide du classement et du score](./ranking-guide)
@@ -20,10 +20,10 @@ Par ailleurs, voici une image des développeurs du jeu précisant le système de
 ## Classement
 *Comment le classement général fonctionne ? Que sont les Performance Points ? Que sont ces nombres dans mes tableaux ? Pourquoi mon PP est si petit ?*
 
-Vous pouvez voir votre rang général et vos PP sur [ScoreSaber](https://scoresaber.com/global) - ici vous pouvez chercher votre nom de joueur. Votre nom de joueur sur ScoreSaber est lié à votre nom d'utilisateur sur Steam / Oculus.
+Vous pouvez voir votre rang général et vos PP sur [ScoreSaber](https://scoresaber.com/global) - ici vous pouvez chercher votre nom de joueur. Votre nom de joueur ScoreSaber est lié à votre nom d'utilisateur Steam/Oculus.
 
 1. Des PP (PP = *Performance Points* ou points de performance) sont assignés pour chaque musique classée. Le nombre exact de PP obtenus est déterminé par la précision avec laquelle vous terminez un musique classée. La valeur d'une musique classée en PP est déterminée par un algorithme secret développé par Umbranox, notre Dieu Panda.
-2. Pour éviter que les joueurs les plus aguerris amassent des sommes de points immenses sur les chansons les plus faciles qui valent peu de PP, une courbe est appliquée à vos sessions. Cette courbe est 0.965^(x-1) où x est la position du score dans votre liste de chansons. Par exemple, si votre meilleur score est à 260 PP, vous gagnez 260 PP ajustés, ce qui équivaut à 100 % de vos PP bruts sur ce score. Si votre deuxième meilleur score est à 247 PP, vous gagnez 238 PP ajustés, ce qui équivaut à l'application de la courbe sur vos PP bruts. Voici une liste de mes 4 meilleurs scores où les PP bruts sont en italique et les PP ajustés sont en gras :
+2. Pour éviter que les joueurs les plus aguerris amassent des sommes de points immenses sur les chansons les plus faciles qui valent peu de PP, une courbe est appliquée à vos meilleurs scores. Cette courbe est 0.965^(x-1) où x est la position du score dans votre liste de chansons. Par exemple, si votre meilleur score est à 260 PP, vous gagnez 260 PP ajustés, ce qui équivaut à 100 % de vos PP bruts sur ce score. Si votre deuxième meilleur score est à 247 PP, vous gagnez 238 PP ajustés, ce qui équivaut à l'application de la courbe sur vos PP bruts. Voici un tableau pour illustrer ce système :
 
 | *PP bruts* -> | **PP ajustés**                |
 | ------------- | ----------------------------- |
@@ -32,9 +32,9 @@ Vous pouvez voir votre rang général et vos PP sur [ScoreSaber](https://scoresa
 | *246pp* ->    | **229pp** (93.1% du PP brut)  |
 | *244pp* ->    | **219pp**  (89.9% du PP brut) |
 
-3. Pour monter dans le classement, positionnez vos scores sur des nouvelles chansons qui valent plus ou la même quantité de PP que vos meilleurs scores. Quand vous n'avez plus de nouvelles chansons à haut PP à jouer, battez vos scores sur des chansons de vos premières pages. Voici une [feuille de calcul de DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) de toutes les chansons classées et leur valeur en PP. La liste est mise à jour toute les 24 heures.
+3. Afin de vous améliorer et d'obtenir un meilleur rang dans le classement général, il existe plusieurs outils capables de vous aider à trouver des musiques classées qui correspondent à votre niveau. Tout d'abord, vous pouvez vérifier votre propre profil sur [ScoreSaber](https://scoresaber.com/global) afin de voir les musiques auxquelles vous n'avez pas jouées depuis un certain moment ainsi que là où il est possible de vous améliorer, vous pouvez également vous y faire une idée de votre meilleur score. Les extensions de navigateurs [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) et [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme) peuvent étendre les fonctionnalités de votre profil. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) et [Beat Savior](https://www.beatsavior.io/) sont des sites tiers capables de vous aider à trouver des niveaux à améliorer et de garder une trace de vos performances.
 
-[Un autre site de DuoVR](https://duovr.github.io/BigPP/) vous permet d'insérer votre profil ScoreSaber, afin de vous indiquer quelles chansons vous devriez jouer pour augmenter vos PP.
+Vous pouvez trouver plus d'informations dans le [Guide du classement et du score](./ranking-guide.md).
 
 *Cette section est adaptée du rapport de Tek du Discord Beat Saber canadien.*
 

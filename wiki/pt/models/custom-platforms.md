@@ -12,4 +12,4 @@ Você pode baixar mais plataformas no [ModelSaber](https://modelsaber.com/Platfo
 Dentro do jogo no menu principal, você verá um botão de `PLATFORMS` no canto superior esquerdo do menu Mods perto do release notes. Pressioná-lo abrirá o menu que você pode usar para selecionar qual plataforma você deseja usar. Note que se você pretende usar o Contador de Progresso do Counters+, a maioria das plataformas irá bloquear o timer principal da música.
 
 ## Criando Plataformas
-[Guia de plataforma da Emma](./platforms-guide.md) é um ótimo recurso para aprender como criar suas próprias plataformas. 
+[Guia de plataforma da Emma](./platforms-guide.md) é um ótimo recurso para aprender como criar suas próprias plataformas.

@@ -3,14 +3,12 @@ sidebar: auto
 ---
 
 # Regional Hub
-
 Uma lista de outras comunidades regionais fora do Beat Saber Modding Group.
 
 ---
 
 ## África
-
-*Nada ainda*
+*Nada ainda.*
 
 ---
 
@@ -18,8 +16,7 @@ Uma lista de outras comunidades regionais fora do Beat Saber Modding Group.
 
 ### Canadá
 
-**Beat Saber Canada**
-
+#### Beat Saber Canada
 O Discord oficial para a comunidade canadense do Beat Saber!
 
 [Discord](https://discord.gg/vvq7wX3)
@@ -28,8 +25,7 @@ O Discord oficial para a comunidade canadense do Beat Saber!
 
 ## Ásia
 
-**Beat Saber Asia**
-
+### Beat Saber Asia
 Uma comunidade para jogadores asiáticos e organizações VR. Temos um limite para membros internacionais dependendo do tamanho do nosso servidor.
 
 [Aplicação](https://forms.gle/Ga3jWoCkugPBD6BZ6)
@@ -37,8 +33,8 @@ Uma comunidade para jogadores asiáticos e organizações VR. Temos um limite pa
 ---
 
 ### Israel
-**Beat Saber Israel**
 
+#### Beat Saber Israel
 Um servidor feito para unir os jogadores de Beat Saber de Isreali. Jogadores internacionais são bem-vindos.
 
 [Discord](https://discord.gg/HHH7sK8)
@@ -46,8 +42,8 @@ Um servidor feito para unir os jogadores de Beat Saber de Isreali. Jogadores int
 ---
 
 ### Coreia
-**B.S. Community for KOR**
 
+#### B.S. Community for KOR
 Uma comunidade de jogadores coreanos :) compartilhando informações e resolvendo problemas entre usuários
 
 [Discord](https://discord.gg/SEFBZrG)
@@ -56,8 +52,7 @@ Uma comunidade de jogadores coreanos :) compartilhando informações e resolvend
 
 ### Oriente Médio
 
-**Beat Saber Middle East**
-
+#### Beat Saber Middle East
 Um Discord privado para os saber beaters do / no Oriente Médio
 
 [Formulário de Aplicação](http://bit.ly/BSME_Application)
@@ -68,9 +63,8 @@ Um Discord privado para os saber beaters do / no Oriente Médio
 
 ### Áustria
 
-**Hit bloq Community Austria**
-
-# Um Discord Austríaco não oficial de Beat Saber que recentemente abriu portas para os fãs de Beat Saber de todo o mundo! (Nós também temos um Linus Tech Tip!)
+#### Hit bloq Community Austria
+Um Discord Austríaco não oficial de Beat Saber que recentemente abriu portas para os fãs de Beat Saber de todo o mundo! (Nós também temos um Linus Tech Tip!)
 
 [Discord](https://discord.gg/TvRkNY2)
 
@@ -78,8 +72,7 @@ Um Discord privado para os saber beaters do / no Oriente Médio
 
 ### Bélgica
 
-**Belgian Beat Saber Community**
-
+#### Belgian Beat Saber Community
 A Comunidade Belga (privada) Oficial de Beat Saber para nossos colegas Belgas, jogadores de Beat Saber
 
 [Formulário de Aplicação](https://forms.gle/26VXi4HmnZnDoPZN7)
@@ -88,8 +81,7 @@ A Comunidade Belga (privada) Oficial de Beat Saber para nossos colegas Belgas, j
 
 ### Dinamarca
 
-**Dane Saber**
-
+#### Dane Saber
 O servidor Oficial de Beat Saber para pessoas que podem pronunciar "rød grød med fløde"!
 
 [Formulário de Aplicação](https://forms.gle/AhgBFSK7RnRDDMHa9)
@@ -98,8 +90,7 @@ O servidor Oficial de Beat Saber para pessoas que podem pronunciar "rød grød m
 
 ### França
 
-**Beat Saber FR**
-
+#### Beat Saber FR
 Uma comunidade francesa de Beat Saber privada para jogadores de francofone!
 
 [Aplicação](https://docs.google.com/forms/d/1Ro79QYJ83gAsT6m_hpRgCNyhKNZDlEiZJ3oSh5mwTG4)
@@ -108,8 +99,7 @@ Uma comunidade francesa de Beat Saber privada para jogadores de francofone!
 
 ### Alemanha
 
-**German Beat Saber Community**
-
+#### German Beat Saber Community
 Discord oficial de Beat Saber da Alemanha para jogadores alemães, mas pessoas de outros países também são bem-vindas :)
 
 [Discord](https://discord.gg/y4G6ruN)
@@ -118,8 +108,7 @@ Discord oficial de Beat Saber da Alemanha para jogadores alemães, mas pessoas d
 
 ### Holanda
 
-**Dutch Beat Saber Group**
-
+#### Dutch Beat Saber Group
 O Grupo Holandês de Beat Saber, com salas multiplayer, noites de filme, noites no VRC, e muito mais! Compare seu perfil de ScoreSaber com outros jogadores usando o customizado BeatSaber Bot.
 
 [Discord](https://discord.gg/sDa7xrE)
@@ -128,8 +117,7 @@ O Grupo Holandês de Beat Saber, com salas multiplayer, noites de filme, noites 
 
 ### Suécia
 
-**Beat Saber Sweden**
-
+#### Beat Saber Sweden
 Nós somos as pessoas que têm fika com kanelbulle e, às vezes, köttbullar...  
 O Discord oficial suéco, aqui!
 
@@ -139,8 +127,7 @@ O Discord oficial suéco, aqui!
 
 ### Suíça
 
-**SwissSaber**
-
+#### SwissSaber
 O Discord oficial de Beat Saber para jogadores alemães, mas pessoas de outros países também são bem-vindas.
 
 [Discord](https://discord.gg/eV6SUUF)
@@ -149,8 +136,7 @@ O Discord oficial de Beat Saber para jogadores alemães, mas pessoas de outros p
 
 ### UK
 
-**British Beat Saber Discord**
-
+#### British Beat Saber Discord
 Nós temos chá!
 
 [Discord](https://discord.gg/FC2pzeN)
@@ -158,8 +144,8 @@ Nós temos chá!
 ---
 
 ### Noruega
-**Beat Saber Norge**
 
+#### Beat Saber Norge
 Somos uma pequena comunidade sediada no país relativamente pequeno da Noruega. Queremos ter uma comunidade aceitando pessoas de todos os países com o uso do nosso bot feito pelo Rocker!
 
 [Discord](https://discord.gg/nZuY3yM)
@@ -167,8 +153,8 @@ Somos uma pequena comunidade sediada no país relativamente pequeno da Noruega. 
 ---
 
 ### Irlanda
-**Beat Saber Ireland**
 
+#### Beat Saber Ireland
 Um servidor do Discord para a comunidade Irlandesa de Beat Saber, jogadores internacionais também são bem-vindos!
 
 [Discord](https://discord.gg/uKQzjRQ)
@@ -176,7 +162,4 @@ Um servidor do Discord para a comunidade Irlandesa de Beat Saber, jogadores inte
 ---
 
 ## Oceania
-
-*Nada ainda*
-
----
+*Nada ainda.*

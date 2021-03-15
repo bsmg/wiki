@@ -6,7 +6,6 @@ description: Neem een diepe duik in het formaat van een Beat Saber level.
 ---
 
 # Level formaat
-
 Er zijn enkele gevallen waar de beschikbare programma's en level editors niet elke functionaliteit bieden die je wilt. Je voelt je misschien ook geïnspireerd om een programma of level editor te maken gewoon voor de lol.
 
 Klein probleempje dus. Wat *precies* gaat er in een level bestand? Dit is belangrijk om te begrijpen bij het ontwikkelen van nieuwe programma's, scripts en editors.
@@ -14,7 +13,7 @@ Klein probleempje dus. Wat *precies* gaat er in een level bestand? Dit is belang
 Deze pagina helpt je om de interne werking van een volledig Beat Saber level te begrijpen en informatie te verkrijgen over wat elk eigenschap en waarde betekend.
 
 ## Schemas
-Een *schema* is eigenlijk een set van regels voor een specifiek soort bestand. Ze hebben een lijst met regels die je *kan* breken, en regels die je *niet* kan breken.
+Een *schema* is eigenlijk een set van regels voor een specifiek soort bestand. Ze hebben een lijst met regels die je *mag* breken, en regels die je *niet* mag breken.
 
 Beat Saber bevat zijn eigen schema; het definieert wat het formaat van een Beat Saber level moet zijn en dat is wat we hier gaan uitleggen.
 
@@ -25,13 +24,12 @@ Dit door de community gemaakte schema wordt gebruikt door BeatSaver, die [je hie
 
 Je kunt door het BeatSaver Schema lezen om een beter inzicht te krijgen in wat er in een Beat Saber level hoort, en zorg ervoor dat je eigen programma de juiste levels uitvoert die kunnen worden geüpload naar BeatSaver.
 
-## -= Info.dat =-
+## `Info.dat`
 `Info.dat` is het belangrijkste bestand voor een Beat Saber level. It describes basic metadata about your map, as well as point to other files to use for difficulties, cover art, and audio.
 
 :::warning Het is uiterst belangrijk dat je dit correct doet, anders zal het level niet laden in Beat Saber. :::
 
-## Basisobject
-
+### Base Object
 Hier is het basisformaat voor een `Info.dat` bestand. Notice how difficulty beatmap sets are ommitted; they'll be explained later down this page.
 
 ```json
@@ -52,43 +50,45 @@ Hier is het basisformaat voor een `Info.dat` bestand. Notice how difficulty beat
     "_allDirectionsEnvironmentName" : "GlassDesertEnvironment",
     "_songTimeOffset": 0,
     "_customData": {
-        // Elke custom data komt hier. Als dit leeg is, moet dit volledig worden verwijderd.
-    },
+        // Elke custom data komt hier.
+    // Als dit leeg is, moet dit volledig worden verwijderd.
+  },
     "_difficultyBeatmapSets": [
-        // Difficulty beatmap sets (en difficulty beatmaps) worden later op de pagina uitgelegd. Check de zijbalk!
-    ]
+        // Difficulty beatmap sets (en difficulty beatmaps) worden later op de pagina uitgelegd.
+    // Check de zijbalk!
+  ]
 }
 ```
 
-### _version
+#### _version
 Dit veld beschrijft de versie van het level-formaat dat we gebruiken. Op dit moment is Beat Sabers levelformaat op versie `2.0.0`.
 
-### _songName
+#### _songName
 Dit veld beschrijft de naam van jouw nummer.
 
-### _songSubName
+#### _songSubName
 Dit veld beschrijft alle extra titels die in jouw nummer zouden kunnen komen. Deze kunnen bestaan uit het volgende:
 
-- Extra artiesten (zoals speciale artiesten)
-- Elke variatie in productie (Song remix, VIP, etc.)
+* Extra artiesten (zoals speciale artiesten)
+* Elke variatie in productie (Song remix, VIP, etc.)
 
-### _songAuthorName
+#### _songAuthorName
 Dit veld beschrijft de hoofdartiest, groep, band, merk, enz. voor het lied.
 
-### _levelAuthorName
+#### _levelAuthorName
 Dit veld beschrijft de persoon die het level heeft gemaakt. Dat ben jij! Of, degene die een level maakt met jouw programma of level editor.
 
-### _beatsPerMinute
+#### _beatsPerMinute
 Dit beschrijft de Beats Per Minute (BPM) van jouw nummer. This is a floating point number, so decimal BPMs are supported.
 
-### _shuffle
+#### _shuffle
 Dit en [`_shufflePeriod`](#shuffleperiod) zijn ongewoon in de community. Als je liedje "zwaait", waar sommige beats in een maat opzettelijk een offset hebben tegenover de rest, kan je potentiële timing problemen op je level corrigeren door `_shuffle` en [`_shufflePeriod`](#shuffleperiod) te gebruiken.
 
 `_shuffle` geeft aan hoe ver objecten zich bewegen wanneer bepaald wordt dat deze op een swing beat zijn. Een positieve waarde betekent dat ze vooruit in de tijd worden verplaatst en een negatieve waarde betekent dat ze terug in de tijd worden verplaatst.
 
 Het totale hoeveelheid waarmee ze worden verplaatst wordt beschreven in [`_shufflePeriod`](#shuffleperiod), omdat ze allebei samenwerken om die waarde te produceren.
 
-### _shufflePeriod
+#### _shufflePeriod
 `_shufflePeriode` wordt gebruikt om te bepalen* wanneer* een swing beat zal plaatsvinden. Specifieker, het is de tijd (in beats) waar een swing beat zal plaatsvinden.
 
 Maar helaas is het ingewikkelder dan dit. Beat Saber wisselt tussen een swing beat en een normale beat met behulp van deze waarde. Laten we bijvoorbeeld aannemen dat je een `_shufflePeriode` hebt van `0.25`. Dit vertelt Beat Saber dat, elke `0.25` beats, het zal afwisselen tussen een swing beat en een normale beat, en zal een offset toepassen als het in een swing beat terechtkomt.
@@ -96,60 +96,59 @@ Maar helaas is het ingewikkelder dan dit. Beat Saber wisselt tussen een swing be
 De offset waarde die wordt toegepast op objecten op een swing beat is ongeveer gelijk aan `_shuffle * _shufflePperiod` beats.
 
 To hopefully help better understand this, here is a table of beats, whether or not they are on a swing beat, and the *actual* beat objects at those times will spawn in at. Voor dit voorbeeld, gaan we ervan uit dat
-
-`_shuffle</a> 0.2` is, en `_shufflePeriode 0.25` is.</p> 
+`_shuffle</a> 0.2` is, en dat `_shufflePeriode 0.25` is.</p> 
 
 | Beat van levelbestand | Is het een Swing Beat? | Resulterende beat |
-| --------------------- |:----------------------:| ----------------- |
-| 0                     |          Nee           | 0                 |
-| 0.25                  |           Ja           | 0,3               |
-| 0.5                   |          Nee           | 0.5               |
-| 0.75                  |           Ja           | 0.8               |
-| 1                     |          Nee           | 1                 |
-| 1.25                  |           Ja           | 1.3               |
-| 1.5                   |          Nee           | 1.5               |
-| 1.75                  |           Ja           | 1.8               |
+| --------------------- | ---------------------- | ----------------- |
+| 0                     | Nee                    | 0                 |
+| 0.25                  | Ja                     | 0,3               |
+| 0.5                   | Nee                    | 0.5               |
+| 0.75                  | Ja                     | 0.8               |
+| 1                     | Nee                    | 1                 |
+| 1.25                  | Ja                     | 1.3               |
+| 1.5                   | Nee                    | 1.5               |
+| 1.75                  | Ja                     | 1.8               |
 
 
 
 
-### _previewStartTime
+#### _previewStartTime
 
 Dit bepaalt de starttijd (in seconden) voor het in-game voorbeeld van je level. This is a floating point number, so decimals are supported.
 
 
 
-### _previewDuration
+#### _previewDuration
 
 Dit bepaalt de duur (in seconden) van het in-game voorbeeld van je level. This is a floating point number, so decimals are supported.
 
 
 
-### _songFilename
+#### _songFilename
 
-Dit is de lokale locatie naar het audiobestand van je level. The standard practice is to have every map file in the same directory, so in most cases, this is just the name and extension for your audio file (For example, `song.ogg`).
+Dit is de lokale locatie naar het audiobestand van je level. In de meeste gevallen zijn de levelbestanden in dezelfde map dus dan is dit alleen de naam en de extensie voor jouw audiobestand (bijvoorbeeld `song.ogg`).
 
 
 
-### _coverImageFilename
+#### _coverImageFilename
 
 Dit is de lokale locatie naar de omslagfoto van je level. Zowel de `.jpg` als `.png` bestandstypen zijn ondersteund. Vergelijkbaar met [`_songFilename`](#songfilename), is dit is meestal alleen de naam en extensie voor de omslagfoto (bijvoorbeeld `cover.jpg`).
 
 
 
-### _environmentName
+#### _environmentName
 
 Dit definieert de interne ID voor de omgeving die het level gebruikt. Om een volledige lijst met geldige omgevingen te krijgen, zie de `Info.dat` namen van elke omgeving in de [Omgevingsvoorbeelden](./basic-lighting.md#omgevingsvoorbeelden) sectie.
 
 
 
-### _allDirectionsEnvironmentName
+#### _allDirectionsEnvironmentName
 
 Dit definieert de interne ID voor de omgeving die het level gebruikt tijdens het spelen in 360 graden of 90 graden levels. Dit is een verplicht veld, ook al bevat het level geen 360 of 90 graden niveaus. Om een volledige lijst met geldige 360 graden omgevingen te krijgen, zie de `Info.dat` namen van elke omgeving in de [Omgevingsvoorbeelden](./basic-lighting.md#omgevingsvoorbeelden) sectie.
 
 
 
-### _songTimeOffset
+#### _songTimeOffset
 
 Dit is de manier van Beat Saber om off-sync audio aan te pakken. Dit offset de audio in het spel, gebaseerd op de waarde van `_songTimeOffset` in milliseconden.
 
@@ -157,7 +156,7 @@ Dit is de manier van Beat Saber om off-sync audio aan te pakken. Dit offset de a
 
 
 
-### _customData
+#### _customData
 
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
 
@@ -165,13 +164,13 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
 
 
 
-### _difficultyBeatmapSets
+#### _difficultyBeatmapSets
 
 This is an array of all [Difficulty Beatmap Sets](#difficulty-beatmap-sets) defined in the map.
 
 
 
-## Difficulty Beatmap Sets
+### Difficulty Beatmap Sets
 
 Difficulty Beatmap Sets are groups of difficulties, all under one characteristic. These represent your Standard, No Arrow, One Saber, and other characteristics.
 
@@ -179,33 +178,34 @@ Difficulty Beatmap Sets are groups of difficulties, all under one characteristic
 
 ```json
 {
-    // ...De rest van de Info.dat
-    "_songTimeOffset": 0,
+  // ... De rest van de Info.dat ...
+  "_songTimeOffset": 0,
     "_difficultyBeatmapSets": [
         {
             "_beatmapCharacteristicName": "Standard",
             "_difficultyBeatmaps": [
-                // Difficulty beatmap worden later op de pagina uitgelegd. Check de zijbalk!
-            ]
-        }
-    ]
+                // Difficulty beatmap worden later op de pagina uitgelegd.
+        // Check de zijbalk!
+      ]
+    }
+  ]
 }
 ```
 
 
 
 
-### _beatmapCharacteristicName
+#### _beatmapCharacteristicName
 
-This is the name of the characteristic attached to this beatmap set.
+Dit is de naam van het kenmerk dat aan deze level set is gekoppeld.
 
-Listed below is all commonly used characteristics. While they have little to no "rules" attached to them in Beat Saber, they still have an intended purpose, and should be followed by both the map editor and the mapper creating maps.
+Hieronder staan alle veelgebruikte kenmerken. Hoewel ze geen tot weinig "regels" aan zich vast hebben in Beat Saber, hebben ze nog steeds een doel, en zouden ze gevold moeten worden door beide de level editor en de level maker die het level maakt.
 
-Certain characteristics, which are marked in the list below, do not belong to the base game; rather, they are added by external mods such as SongCore. These modded characteristics will only work if the user has installed mods that add them, and will *not* appear on unmodded copies of Beat Saber and could cause the map to not load.
+Bepaalde kenmerken, die in de onderstaande lijst zijn gemarkeerd, komen niet van het basis spel; maar ze worden toegevoegd door externe mods zoals SongCore. Deze modded kenmerken werken alleen als de gebruiker mods heeft geïnstalleerd die ze toevoegen. en zullen *niet* verschijnen op unmodded kopieën van Beat Saber en kan ervoor zorgen dat het level niet geladen wordt.
 
 | Naam van het karakteristiek | Inbegrepen in het spel | Waar het voor bedoeld is                                                                                      |
 |:---------------------------:|:----------------------:| ------------------------------------------------------------------------------------------------------------- |
-|         `Standaard`         |           ✔️           | Vanilla maps following standard mapping guidelines.                                                           |
+|         `Standaard`         |           ✔️           | Standaard levels die de standaard gidsen volgen.                                                              |
 |         `NoArrows`          |           ✔️           | Beperkt blokken tot Dot (alle richtingen) blokken.                                                            |
 |         `OneSaber`          |           ✔️           | Beperkt blokken tot de rechter (blauwe) blokken, en schakelt de linker (rode) blokken uit.                    |
 |         `360Degree`         |           ✔️           | Schakelt rotatie evenementen in zonder beperking op de totale rotatie.                                        |
@@ -216,13 +216,13 @@ Certain characteristics, which are marked in the list below, do not belong to th
 
 
 
-### _difficultyBeatmaps
+#### _difficultyBeatmaps
 
-This is an array of [Difficulty Beatmaps](#difficulty-beatmaps) defined within this beatmap set.
+Dit is een lijst van [Difficulty Beatmaps](#difficulty-beatmaps) gedefinieerd in dit level set.
 
 
 
-## Difficulty Beatmaps
+### Difficulty Beatmaps
 
 Difficulty Beatmaps are each "Difficulty" of a map. They contain information that changes from difficulty to difficulty, such as [Note Jump Speed](#notejumpmovementspeed), and the location of the difficulty file.
 
@@ -230,8 +230,8 @@ Difficulty Beatmaps are each "Difficulty" of a map. They contain information tha
 
 ```json
 {
-    // ...De rest van de Info.dat
-    "_songTimeOffset": 0,
+  // ... De rest van de Info.dat ...
+  "_songTimeOffset": 0,
     "_difficultyBeatmapSets": [
         {
             "_beatmapCharacteristicName": "Standard",
@@ -243,37 +243,38 @@ Difficulty Beatmaps are each "Difficulty" of a map. They contain information tha
                     "_noteJumpMovementSpeed": 18,
                     "_noteJumpStartBeatOffset": 0,
                     "_customData": {
-                        // Elke custom data zal hier komen. Als dit leeg is, moet dit volledig worden verwijderd.
-                    }
-                }
-            ]
+                        // Elke custom data zal hier komen.
+            // Als dit leeg is, moet dit volledig worden verwijderd.
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
 ```
 
 
 
 
-### _difficulty
+#### _difficulty
 
-This is the internal difficulty, read by Beat Saber.
+Dat is het interne niveau, wat geleest word door Beat Saber.
 
-Contrary to what you might think, this is *not* just a normal string, but rather an Enum. Here is a list of all valid difficulties:
+In tegenstelling tot wat je zou kunnen denken, is dit *niet* maar een normale tekenreeks, maar eerder een opsomming. Hier is een lijst van alle geldige niveaus:
 
-- `Easy`
-- `Normal`
-- `Hard`
-- `Expert`
-- `ExpertPlus`
+* `Easy`
+* `Normal`
+* `Hard`
+* `Expert`
+* `ExpertPlus`
 
 
 
-### _difficultyRank
+#### _difficultyRank
 
-This is the sorting order in the song select screen in Beat Saber.
+Dit is de sorteervolgorde in het nummerselectie scherm in Beat Saber.
 
-While, yes, this is an ordinary integer, the widely-used [BeatSaver Schema](#beatsaver-schema) makes this another Enum, based off of the aforementioned [`_difficulty`](#difficulty) value:
+Hoewel dit een gewoon geheel getal is, maakt het veel gebruikte [BeatSaver Schema](#beatsaver-schema) dit nóg een opsomming, gebaseerd op de bovenstaande [`_difficulty`](#difficulty) waarde:
 
 | `_difficulty` | BeatSaver's verwachte `_difficultyRank` |
 | ------------- |:---------------------------------------:|
@@ -286,7 +287,7 @@ While, yes, this is an ordinary integer, the widely-used [BeatSaver Schema](#bea
 
 
 
-### _beatmapFilename
+#### _beatmapFilename
 
 This is the local location to the difficulty file, which contains the difficulty's notes, obstacles, and lighting events.
 
@@ -296,29 +297,29 @@ When creating *new* difficulties, it is recommended that the name be a the Chara
 
 
 
-### _noteJumpMovementSpeed
+#### _noteJumpMovementSpeed
 
 Note Jump Movement Speed (Shortened to "Note Jump Speed", or just "NJS") is the velocity of objects approaching the player, in meters per second. Info on recommended NJS values can be found on the [Intermediate Mapping Page](./intermediate-mapping.md#note-jump-speed-spawn-distance). This can be a floating point number for precise velocity.
 
 This is used, along with the defined BPM of the song, to calculate 2 very important values, called Jump Duration and Jump Distance.
 
-- Jump Duration is the amount of beats where objects can be active.
-- Jump Distance is the total amount of distance that objects need to travel within that Jump Duration.
+* Jump Duration is the amount of beats where objects can be active.
+* Jump Distance is the total amount of distance that objects need to travel within that Jump Duration.
 
 The Player rests in the exact middle of both of these values, so most mappers find it more convenient to have Half Jump Distance and Half Jump Duration.
 
-- Half Jump Distance is the distance from the Player that objects spawn. Some mappers refer to this as the "Spawn Point".
-- Half Jump Duration is the amount of beats that is needed to reach the Player. It is also the amount of beats, forward in time, where objects spawn.
+* Half Jump Distance is the distance from the Player that objects spawn. Some mappers refer to this as the "Spawn Point".
+* Half Jump Duration is the amount of beats that is needed to reach the Player. It is also the amount of beats, forward in time, where objects spawn.
 
 
 
-### _noteJumpStartBeatOffset
+#### _noteJumpStartBeatOffset
 
 This value acts as a direct offset to the Half Jump Duration, explained in [`_noteJumpMovementSpeed`](#notejumpmovementspeed), which in turn affects the Jump Distance. This can be a floating point number to achieve a precise Jump Duration.
 
 
 
-### _customData
+#### _customData
 
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
 
@@ -326,13 +327,13 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
 
 
 
-## -= Difficulty File =-
+## Difficulty File
 
 Each Difficulty Beatmap contains a corresponding file which defines the notes, obstacles, events, and other objects for that particular difficulty.
 
 
 
-## Base Object
+### Base Object
 
 
 
@@ -343,39 +344,40 @@ Each Difficulty Beatmap contains a corresponding file which defines the notes, o
     "_obstacles": [],
     "_events": [],
     "_customData": {
-        // Elke custom data zal hier komen. Als dit leeg is, moet dit volledig worden verwijderd.
-    }
+        // Elke custom data zal hier komen.
+    // Als dit leeg is, moet dit volledig worden verwijderd.
+  }
 }
 ```
 
 
 
 
-### _version
+#### _version
 
-This field describes the version of the map format we are using. Currently, Beat Saber's map format is on version `2.0.0`.
+Dit veld beschrijft de versie van het level-formaat dat we gebruiken. Op dit moment is Beat Sabers levelformaat op versie `2.0.0`.
 
 
 
-### _notes
+#### _notes
 
 This is an array of [Note](#notes-2) objects for the map.
 
 
 
-### _obstacles
+#### _obstacles
 
 This is an array of [Obstacle](#obstacles-2) objects for the map.
 
 
 
-### _events
+#### _events
 
 This is an array of [Event](#events-2) objects for the map.
 
 
 
-### _customData
+#### _customData
 
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
 
@@ -383,7 +385,7 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
 
 
 
-## Notes
+### Notes
 
 
 
@@ -395,33 +397,34 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
     "_type": 0,
     "_cutDirection": 1,
     "_customData": {
-        // Elke custom data zal hier komen. Als dit leeg is, moet dit volledig worden verwijderd.
-    }
+        // Elke custom data zal hier komen.
+    // Als dit leeg is, moet dit volledig worden verwijderd.
+  }
 }
 ```
 
 
 
 
-### _time
+#### _time
 
 The time, in beats, where this object reaches the player.
 
 
 
-### _lineIndex
+#### _lineIndex
 
 An integer number, from 0 to 3, which represents the column where this note is located. The far left column is located at index 0, and increases to the far right column located at index 3.
 
 
 
-### _lineLayer
+#### _lineLayer
 
 An integer number, from 0 to 2, which represents the layer where this note is located. The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
 
 
 
-### _type
+#### _type
 
 This indicates the type of note there is. Currently, there are 4 known types, but 1 remains unused:
 
@@ -435,7 +438,7 @@ This indicates the type of note there is. Currently, there are 4 known types, bu
 
 
 
-### _cutDirection
+#### _cutDirection
 
 This indicates the cut direction for the note.
 
@@ -454,7 +457,7 @@ This indicates the cut direction for the note.
 
 
 
-### _customData
+#### _customData
 
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
 
@@ -462,7 +465,7 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
 
 
 
-## Obstacles
+### Obstacles
 
 
 
@@ -474,51 +477,52 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
     "_duration": 10,
     "_width": 1,
     "_customData": {
-        // Elke custom data zal hier komen. Als dit leeg is, moet dit volledig worden verwijderd.
-    }
+        // Elke custom data zal hier komen.
+    // Als dit leeg is, moet dit volledig worden verwijderd.
+  }
 }
 ```
 
 
 
 
-### _time
+#### _time
 
 The time, in beats, where this object reaches the player.
 
 
 
-### _lineIndex
+#### _lineIndex
 
 An integer number, from 0 to 3, which represents the column where the left side of the obstacle is located. The far left column is located at index 0, and increases to the far right column located at index 3.
 
 
 
-### _type
+#### _type
 
 An integer number which represents the state of the obstacle.
 
 | `_type` | Resultaat             |
 |:-------:| --------------------- |
 |   `0`   | Volledige hoogte muur |
-|   `1`   | Hurk/buk muur         |
+|   `1`   | Crouch/duck wall      |
 
 
 
 
-### _duration
+#### _duration
 
 The time, in beats, that the obstacle extends for. While `_duration` can go into negative numbers, be aware that this has some unintended effects.
 
 
 
-### _width
+#### _width
 
 How many columns the obstacle takes up. A `_width` of `4` will mean that this wall will extend the entire playable grid. While `_width` can go into negative numbers, be aware that this has some unintended effects.
 
 
 
-### _customData
+#### _customData
 
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
 
@@ -526,7 +530,7 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
 
 
 
-## Events
+### Events
 
 
 
@@ -536,21 +540,22 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
     "_type": 1,
     "_value": 3,
     "_customData": {
-        // Elke custom data zal hier komen. Als dit leeg is, moet dit volledig worden verwijderd.
-    }
+        // Elke custom data zal hier komen.
+    // Als dit leeg is, moet dit volledig worden verwijderd.
+  }
 }
 ```
 
 
 
 
-### _time
+#### _time
 
 The time, in beats, where this object reaches the player.
 
 
 
-### _type
+#### _type
 
 An integer number which represents what exact kind of event this object represents.
 
@@ -576,17 +581,17 @@ An integer number which represents what exact kind of event this object represen
 
 :::danger Just because an event type is listed as unused, does *not* mean you are freely available to use it!
 
-Beat Games is known to repurpose previously unused event types for certain features, such as the introduction of 360/90 levels. This has broken some Beat Saber maps that make use of legacy MediocreMapper BPM Changes, as well as maps that used Custom Platforms that took advantage of the unused event types. :::
+Beat Games is known to repurpose previously unused event types for certain features, such as the introduction of 360&deg; / 90&deg; levels. This has broken some Beat Saber maps that make use of legacy MediocreMapper BPM Changes, as well as maps that used Custom Platforms that took advantage of the unused event types. :::
 
 
 
-### _value
+#### _value
 
 Depending on the aforementioned [`_type`](#type) of the event, the `_value` of it can do different things.
 
 
 
-#### Controlling Lights
+##### Controlling Lights
 
 It's default behavior is controlling brightness and color of lights, and follows this table:
 
@@ -604,7 +609,7 @@ It's default behavior is controlling brightness and color of lights, and follows
 
 
 
-#### Het bepalen van Boost Colors
+##### Controlling Boost Colors
 
 | `_value` | Resultaat                                                                       |
 |:--------:| ------------------------------------------------------------------------------- |
@@ -614,13 +619,13 @@ It's default behavior is controlling brightness and color of lights, and follows
 
 
 
-#### Controlling Rings
+##### Controlling Rings
 
 When the event is used to control ring spin, or ring zoom, the `_value` of the event does nothing.
 
 
 
-#### Official BPM Changes
+##### Official BPM Changes
 
 When the event is used to control the BPM, the `_value` represents the new BPM.
 
@@ -634,11 +639,12 @@ If you absolutely want to work around this, you must create a new BPM Change eve
 
 1. This new event *must* have the same exact [`_time`](#time-2) as the BPM Change event you want to trigger correctly.
 2. This new event *must* have the same `_value` as the previous BPM Change, or the [`_beatsPerMinute`](#beatsperminute) defined in [`Info.dat`](#info-dat).
+
 3. This new event *must* occur before the BPM Change you want to trigger correctly, *even if they share the same [`_time`](#time-2) values.* :::
 
 
 
-#### Controlling Laser Rotation Speed
+##### Controlling Laser Rotation Speed
 
 When the event is used to control laser speed for a group of lights, the `_value` is used as a multiplier to their base rotational velocity.
 
@@ -646,7 +652,7 @@ If `_value` is `0`, the random rotation offset for each laser will also be reset
 
 
 
-#### Controlling 360/90 Rotation
+##### Controlling 360/90 Rotation
 
 When the event is used to control rotation in a 360/90 degree level, the `_value` is used to add rotation equal to the following table:
 
@@ -664,7 +670,7 @@ When the event is used to control rotation in a 360/90 degree level, the `_value
 
 
 
-### _customData
+#### _customData
 
 This is an optional field that contains data unrelated to the official Beat Saber level format. If no custom data exists, this object should be removed entirely.
 
@@ -672,6 +678,6 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
 
 
 
-## Credits
+## Bijdragen
 
 De inhoud van deze pagina is geschreven door [Caeden117](./mapping-credits.md#caeden117).

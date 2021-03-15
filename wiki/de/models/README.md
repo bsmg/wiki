@@ -1,5 +1,5 @@
 ---
-title: Modelle
+description: Installation, Verwendung und Erstellungsanleitung für Modelle!
 ---
 
 # 3D Modelle
@@ -12,6 +12,7 @@ Alle benutzerdefinierten Modell-Plugins wurden separat von verschiedenen Leuten 
 * [Custom Walls](./custom-walls.md)
 
 ## Wo man Modelle findet
+
 ### ModelSaber
 [ModelSaber](https://modelsaber.com/) ist die aktuelle Quelle für Saber, Avatare, Notenblöcke und Plattformen. Es enthält Vorschaubilder und OneClick&trade; Installationslinks.
 
@@ -22,6 +23,7 @@ Eine unorganisierte Liste _(möglicherweise mit mehr Objekten)_ findest du im `#
 
 ## Modelle erstellen
 Willst du lernen, wie du deine eigenen Modelle erstellen kannst? Schau dir dazu gerne einen unserer folgenden Guides an:
+
 * [Custom Sabers Guide](./sabers-guide.md)
 * [Custom Avatars Guide](./avatars-guide.md)
 * [Custom Platforms Guide](./platforms-guide.md)

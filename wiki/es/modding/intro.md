@@ -1,5 +1,5 @@
 # Introducción al modeado
-_Aprende cómo empezar a escribir tus propios Mods de PC_
+_Learn how to get started writing your own PC Mods._
 
 ## Empezando
 ::: warning Esta guía es para hacer mods para la versión **PC** de Beat Saber!
@@ -14,8 +14,8 @@ Beat Saber se hace en Unity 2019.3 usando C# con .NET framework 4.6
 Necesitará descargar la última versión de [Visual Studio Community](https://visualstudio.microsoft.com/).
 
 ## Configurar herramientas de modificación
-Utilizaremos la extensión BeatSaberModdingTools en este tutorial, ya que viene con plantillas de modeado y características útiles.  
-BeatSaberModdingTools es mantenido por Zingabopp. Si usted encuentra que las herramientas son útiles, considere lanzar algo de apoyo hacia ellos.
+We will be using the BeatSaberModdingTools extension in this tutorial, as it comes with modding templates and useful features.  
+BeatSaberModdingTools is maintained by Zingabopp. Si usted encuentra que las herramientas son útiles, considere lanzar algo de apoyo hacia ellos.
 
 Puedes descargarlo en su [GitHub](https://github.com/Zingabopp/BeatSaberTemplates/releases/latest).  
 Necesitarás descargar `BeatSaberModdingTools.vsix`. (Ampliar el desplegable de Activos si no puede encontrarlo)
@@ -30,11 +30,11 @@ Vamos a utilizar la plantilla `BSIPA4 Plugin (Core)`, y llamaremos a nuestro mod
 ![Selección de plantilla de modificación](~@images/modding/modding-template-select.png "Selección de plantilla de modificación")  
 ![Nombre de la plantilla de modificación](~@images/modding/modding-template-name.png "Nombre de la plantilla de modificación")
 
-Luego necesitarás configurar tu Directorio de Beat Saber en Visual Studio. Sigue las instrucciones [en la plantilla readme](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use), o vea la siguiente captura de pantalla.
+Luego necesitarás configurar tu Directorio de Beat Saber en Visual Studio. Follow the instructions [on the template readme](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use), or see the screenshot below.
 
 ![Configurar directorio de beat Saber](~@images/modding/setup-bs-directory.png "Configurar directorio de beat Saber")
 
-En este punto, **intenta construir el proyecto**, y deberías encontrar automáticamente las referencias para ti y la compilación debería tener éxito.
+At this point, **try and build the project**, and it should automatically find the references for you and the build should succeed.
 
 Si tu compilación no tiene éxito, comprueba que no faltan referencias.
 
@@ -79,8 +79,9 @@ Cuando inicies el juego, deberías ver BSIPA cargar tu mod en la ventana de la c
 
 ## Siguientes pasos
 Aquí tienes algunos recursos útiles para continuar con tu carrera de modeador.
+
 * Si necesitas ayuda para desarrollar mods, puedes preguntar en `#pc-mod-dev` en el [Discord de BSMG ](https://discord.gg/beatsabermods).
 * Si quieres descompilar código, echa un vistazo a [dnSpy](https://github.com/dnSpy/dnSpy/releases)
 * Consulte la documentación de BSIPA para obtener más información sobre el [sistema de configuración](https://bsmg.github.io/BeatSaber-IPA-Reloaded/tags/4.1.3/articles/start-dev.html#configuring-your-plugin).
-* Si necesitas parchear el código del juego para tu mod, debes usar [Harmony](https://github.com/pardeike/Harmony#readme). El `0Harmony.dll` ya está instalado para juegos modeados.
-* Para desarrolladores experimentados, puede estar interesado en aprender acerca de Zenject, el sistema de inyección de dependencias utilizado fuertemente por Beat Saber. [SiraUtil](https://github.com/Auros/SiraUtil#readme) es una biblioteca que te permite conectar fácilmente con este sistema.
+* If you need to patch the game's code for your mod, you should use [Harmony](https://github.com/pardeike/Harmony#readme). The `0Harmony.dll` is already installed for modded games.
+* For experienced developers, you may be interested in learning about Zenject, the Dependency Injection system used heavily by Beat Saber. [SiraUtil](https://github.com/Auros/SiraUtil#readme) is a library that allows you to easily hook into this system.

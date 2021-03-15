@@ -3,27 +3,27 @@ sidebar: auto
 ---
 
 # טיפים ועצות
-_מקבץ משאבים שיעזור לכם לפגוע בבלוקים_
+_A compilation of resources to help you to hit bloq._
 
 ## מגה-הדרכה לעלייה בדירוג
 מדריך מדהים של המשתמש TeknozFR שיעזור לכם להשיג את נקודות ה-PP. [מדריך עלייה בדירוג ובניקוד](./ranking-guide)
 
 ## ניקוד
-צפה בסרטון [בערוץ היוטיוב](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) של קיוב קומיוניטי לגבי איך מערכת הניקוד עובדת.
+See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) about how the scoring system works.
 
 <YouTube url='https://www.youtube.com/watch?v=rVbXCGddspA' />
 
-בנוסף, הנה תמונה ממפתחי המשחק לגבי איך עובדים [היטבוקסים](https://twitter.com/Split82/status/979365834324889600)
+Additionally, here's an image from the game developers about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
 
 ![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
 
 ## דירוג
 *איך עובד דירוג עולמי? מהן נקודות ביצועים (PP)? מהם המספרים בסוגריים שלי? למה ה-PP שלי כל כך קטן?*
 
-אתה יכול למצוא את הדירוג העולמי ואת נקודות ה-PP שלך באתר [ScoreSaber](https://scoresaber.com/global) שבו תוכל לחפש לפי השם שלך. חשבון scoresaber שלך קשור לשם המשתמש שלך בסטים/אוקיולוס.
+אתה יכול למצוא את הדירוג העולמי ואת נקודות ה-PP שלך באתר [ScoreSaber](https://scoresaber.com/global) שבו תוכל לחפש לפי השם שלך. Your ScoreSaber account is tied to your Steam / Oculus username.
 
 1. Ranked songs are assigned PP (PP = performance points). The exact amount of PP gained is determined by the accuracy you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by Umbranox, our Panda God.
-2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays. This curve is 0.965^(x-1) where x is the position of that score on your song list. e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play. If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get after the curve applies. Here is a list of my current top 4 plays where the raw PP is in italic and the weighted PP is in bold.
+2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays. This curve is `0.965^(x-1)` where `x` is the position of that score on your song list. e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play. If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get after the curve applies. Here is a table to illustrate this system:
 
 | Raw PP | Weighted PP                  |
 | ------ | ---------------------------- |
@@ -32,9 +32,9 @@ _מקבץ משאבים שיעזור לכם לפגוע בבלוקים_
 | 246pp  | **229pp** (93.1% of raw PP)  |
 | 244pp  | **219pp**  (89.9% of raw PP) |
 
-3. To rank up, get scores on new songs that are worth more or a similar amount of PP to your top scores. When you don't have any new high PP songs to play, replay songs on your first pages to get better scores. Here is a [spreadsheet by DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) of all the ranked songs and how much PP they are worth. This list is updated every 24 hours.
+3. To get a better rank, there are quite a few tools you can use to find ranked songs that fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like. The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) or [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme) browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep track of your performance.
 
-Here is another site by [DuoVR](https://duovr.github.io/BigPP/) where you can input your scoresaber profile and it shows you songs that you should play for a lot of PP.
+You can find more information in the [Ranking & Scoring Guide](./ranking-guide.md).
 
 *This section is adapted from Tek's writeup in the Beat Saber Canadian discord.*
 

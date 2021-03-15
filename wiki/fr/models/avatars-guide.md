@@ -5,8 +5,10 @@ next: ./platforms-guide.md
 description: Assistant's Guide to adding Full Body Avatars to Beat Saber!
 ---
 
-# Custom Avatars Guide
-_Assistant's Guide to adding Full Body Avatars to Beat Saber_
+# Guide sur les avatars personnalisés
+_Assistant's Guide to adding Full Body Avatars to Beat Saber._
+
+::: danger This guide may have outdated fragments. If you run into issues don't be afraid to ask in the `#pc-3d-modeling` channel in the [BSMG Discord](https://discord.gg/beatsabermods) :::
 
 ## Introduction
 Alright boys and girls, your favorite Assistant is going to teach you how to take your favorite anime models and put them into 3D Osu!
@@ -43,7 +45,7 @@ Then hit Stop Pose Mode.
 ![Stop pose mode](~@images/models/avatars/stoppose.png)
 
 ## To Unity and Beyond
-Open the [Avatar Unity Project](https://bs.assistant.moe/Avatars/resources/UnityProject.zip).
+Download and extract the `BeatSaberCustomAvatars-vx.x.x-UnityProject.zip` from the [Custom Avatars Release](https://github.com/nicoco007/BeatSaberCustomAvatars/releases/latest). This zip contains a barebones Unity project to get started with creating avatars. You will need to copy `FinalIK.dll` and `DynamicBone.dll` from the game's installation folder into the `Assets\Libraries` folder of the extracted zip **before opening the project in Unity** to get it working.
 
 ::: danger IMPORTANT Use Unity version [2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe). And make sure to follow [these instructions](#unity-2018). :::
 
@@ -69,7 +71,7 @@ For both `LeftHand` and `RightHand`, you want to position them on your Avatar's 
 
 ![Gameobjects](~@images/models/avatars/gameobjects.png)
 
-or contribute to translation effort [here](https://github.com/bsmg/wiki). :::
+::: danger IMPORTANT Make sure you have your GameObjects where you want them, after the next step their position is final. :::
 
 We're ready to start the fun! Navigate the hierarchy of the Armature until you reach the Head, select it and right-click and Create Empty, then drag it into the `Head` we created and name it `HeadTarget`. That process will make sure that it's in the correct place.
 
@@ -137,7 +139,7 @@ Once you have your `Animator Component` and its respective `Animation Controller
 
 Now that you have an animation layer with transitions and triggers, you'll need to set up events to fire them. First you'll want to create an `Event Manager` component on the root object. This provides some events that you can use, and also allows other event scripts to work. The vanilla CustomAvatar.dll also comes with the `Combo Reached Event` and `Every Nth Combo Filter`.
 
-![Event Manager](~@images/models/avatars/eventmanager.png)
+![Gestionnaire d'événements](~@images/models/avatars/eventmanager.png)
 
 ![Event Manager](~@images/models/avatars/comboevents.png)
 
@@ -153,7 +155,7 @@ Once you've selected which event you want to use for your animation, you need to
 
 Once the event is setup, when it fires it will activate the trigger, which will activate the transition on your `Animation Controller`. If you want to setup controller events similar to VRChat gestures, you'll want to set a trigger to activate your transition on a press event, and another for the deactivation transition on a release event.
 
-### Events
+### Événements
 We've seen how to use events to make animations happen, but there's *a lot* more that you can do with them. First lets look at what an event looks like. There's 4 parts to an event that you have to worry about. First, what triggers the event. It can be any of the things in the `Event Manager` component, or the combo components, or even from a third party plugin, like `CustomKeyEvents`. Second, you need to drag a game object into the field that says `None (Object)`, whatever object you pick will be the one affected by the trigger. Third, you have to select which function from that game object you want to use. Click on the field that says `No Function` and pick the function you want the event to use. Here you will see all the public methods with at most 1 argument that are available to the object or its components. Finally, under the function you just picked you will be able to set the argument to that function, if any.
 
 We saw how to do this with the animator component on the previous section, but you can use this for many other things besides triggering events. You can make it play audio clips using the `PlayOneShot` function from an `Audio Source` component. You can start particle systems, or make them emit a certain number of particles. You can turn objects on and off. You can edit materials. There's endless posibilities, so go drag some objects in and see what you can get out of them.
@@ -172,7 +174,9 @@ These Objects work exactly the same way as the hand objects, you want to positio
 
 ![Tracker axis](~@images/models/avatars/trackeraxis.png)
 
-Now that they're in the correct place, you'll want to create the targets by navigating the Armature to the feet and pelvis bones, the ones the IK calls `Left Foot`, `Right Foot`, and `Pelvis`. Right click on those bones and select `Create Empty`. an Object called `GameObject` will appear as a child to the bones, you want to rename them into `LeftLegTarget`, `RightLegTarget`, and `PelvisTarget` and drag them into `LeftLeg`, `RightLeg`, and `Pelvis` respectively. Once complete your hierarchy should look something like this:
+Now that they're in the correct place, you'll want to create the targets by navigating the Armature to the feet and pelvis bones, the ones the IK calls `Left Foot`, `Right Foot`, and `Pelvis`. Right click on those bones and select `Create Empty`. An Object called `GameObject` will appear as a child to the bones, you want to rename them into `LeftLegTarget`, `RightLegTarget`, and `PelvisTarget` and drag them into `LeftLeg`, `RightLeg`, and `Pelvis` respectively.
+
+Once complete your hierarchy should look something like this:
 
 ![Full body hierarchy](~@images/models/avatars/fullbodyhierarchy.png)
 
@@ -186,7 +190,7 @@ So, you're probably wonder why now I'm telling you to use Unity 2018.1.6f1, when
 
 ![Script runtime](~@images/models/avatars/scriptruntime.png)
 
-You're going to need to use the new version of `CustomAvatar.dll` in your Unity project. Delete the old one if you have it—this project contains the correct one—and replace it with this one. Preferably in the assets folder while Unity isn't running. You might have to re-add your components. If the asset doesn't have the arrow that lets you see all the scripts, right click it and select `Reimport`.
+You're going to need to use the new version of `CustomAvatar.dll` in your Unity project. Delete the old one if you have it; this project contains the correct one—and replace it with this one. Preferably in the assets folder while Unity isn't running. You might have to re-add your components. If the asset doesn't have the arrow that lets you see all the scripts, right click it and select `Reimport`.
 
 ![New asset](~@images/models/avatars/newasset.png)
 
@@ -195,16 +199,16 @@ You're going to need to use the new version of `CustomAvatar.dll` in your Unity 
 ### PureDark's avatar plugin?
 PureDark's plugin has been integrated into the main plugin. A few things have changed. `Make Children Visible` is no longer needed, first person view is enabled by default, and is toggleable with the `Home` key on your keyboard. To add exclusions to the first person view, you can use the `First Person Exclusion` component. `Avatar VRIK Fix` is now called `IK Manager Advanced`, and since it's all in one plugin it's no longer needed to provide cross compatiblity, so only one of either `IK Manager` or `IK Manager Advanced` is needed. The controller events components were removed, and will appear on their own plugin.
 
-### I can't find the IK scripts or the Avatar exporter.
+### I can't find the IK scripts or the Avatar exporter
 Make sure you're using Unity 2018.1.6f1, not 5.6.3p1, not 2017, and you've followed these directions. If your CustomAvatar.dll asset doesn't have the arrow that you click to show the scripts, try deleting and re-importing the CustomAvatar.dll Asset to Unity.
 
 ### I can export avatars but they're invisible in game. ↵
 You can toggle first person view by pressing `Home`. If they're invisible in your desktop window, make sure that you used the correct Beat Saber shaders, and Unity 2018.1.6f1.
 
-### Only my avatars are T-Posed.
+### Only my avatars are T-Posed
 Well I'm very sorry, but this means that you did something wrong while creating your avatar. There's no way to know just what you did wrong, because so many things have the same effect. The only advice we can give you is make sure that you followed the guides exactly, and maybe watch a video to follow along.
 
-## Videos
+## Vidéos
 Here is a video of me making an avatar, narrated by Megalon. [5:57]
 
 <YouTube url='https://www.youtube.com/watch?v=iBEfl_v71Nw' />
@@ -213,14 +217,9 @@ Here is a video of me making an avatar, narrated by Megalon. [5:57]
 
 ## ♥ Special Thanks
 
-**ikeiwa**, for creating this fantastic plugin.
-
-**xyonico**, for rewriting this fantastic plugin.
-
-**PureDark**, for making the fantastic plugin that fixes many issues.
-
-**Emma**, for making the first guide that led me to figuring this out, and helping with this one.
-
-**Megalon**, for providing the ASMR for the video.
-
-**Ella**, for making fun of me until I got gud, helping with the website design, parts of this guide, and putting up with all my dumb questions.
+* **ikeiwa**, for creating this fantastic plugin.
+* **xyonico**, for rewriting this fantastic plugin.
+* **PureDark**, for making the fantastic plugin that fixes many issues.
+* **Emma**, for making the first guide that led me to figuring this out, and helping with this one.
+* **Megalon**, for providing the ASMR for the video.
+* **Ella**, for making fun of me until I got gud, helping with the website design, parts of this guide, and putting up with all my dumb questions.

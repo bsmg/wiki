@@ -3,27 +3,27 @@ sidebar: auto
 ---
 
 # Grepp och Trick
-_En sammanställning av resurser för att hjälpa dig att träffa bloq_
+_A compilation of resources to help you to hit bloq._
 
 ## Rankning Mega-Tutorial
 En otrolig uppskrivning av TeknozFR för att hjälpa dig att få PP. [Rankning & Poängguide](./ranking-guide)
 
 ## Poängsättning
-Se denna video av [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) om hur poängsystemet fungerar.
+See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) about how the scoring system works.
 
 <YouTube url='https://www.youtube.com/watch?v=rVbXCGddspA' />
 
-Dessutom finns här en bild från spelutvecklarna om hur [träffområden](https://twitter.com/Split82/status/979365834324889600) fungerar
+Additionally, here's an image from the game developers about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
 
 ![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
 
 ## Rankning
 *Hur fungerar den globala rankningen? Vad är performance points? Vilka är siffrorna i mina parenteser? Varför är min PP så liten?*
 
-Du hittar din globala rankning och PP på [ScoreSaber](https://scoresaber.com/global) - här kan du söka efter ditt namn. Ditt scoresaber-konto är knutet till ditt Steam/Oculus användarnamn.
+Du hittar din globala rankning och PP på [ScoreSaber](https://scoresaber.com/global) - här kan du söka efter ditt namn. Your ScoreSaber account is tied to your Steam / Oculus username.
 
-1. Rankade banor tilldelas PP (PP = performance points). Den exakta mängden PP som tilldelas bestäms av din accuracy på en avklarad rankad bana. Hur mycket PP en rankad bana är värd bestäms av en hemlig algoritm som utvecklats av Umbranox, vår Pandagud.
-2. För att undvika att duktiga spelare spelar massor av enklare låtar som är värda mindre PP appliceras en kurva på dina spelningar. Denna kurva är 0.965 ^ (x-1) där x är positionen för den poängsättningen på din banlista. t.ex. Om din bästa play är en 260 PP play kommer du att belönas 260 viktade PP som är 100% av den råa PP av din play. Om din näst bästa play är 247 råa PP kommer du att belönas 238 viktade PP som är den faktiska mängden PP du får efter kurvan har räknats med. Här är en lista över mina nuvarande topp 4 plays där den råa PPn är i kursiv och den viktade PPn är i fetstilt.
+1. Ranked songs are assigned PP (PP = performance points). The exact amount of PP gained is determined by the accuracy you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by Umbranox, our Panda God.
+2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays. This curve is `0.965^(x-1)` where `x` is the position of that score on your song list. e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play. If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get after the curve applies. Here is a table to illustrate this system:
 
 | Rå PP | Viktad PP                   |
 | ----- | --------------------------- |
@@ -32,9 +32,9 @@ Du hittar din globala rankning och PP på [ScoreSaber](https://scoresaber.com/gl
 | 246pp | **229pp** (93,1% av rå PP)  |
 | 244pp | **219pp**  (89,9% av rå PP) |
 
-3. För att ranka upp, få poäng på nya låtar som är värda mer eller en liknande mängd PP av dina topppoäng. När du inte har några nya banor med höga PP-värden att spela, spela upp banor på dina första sidor för att få bättre poäng. Här är ett [kalkylblad av DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) av alla rankade låtar och hur mycket PP de är värda. Denna lista uppdateras var 24:e timme.
+3. To get a better rank, there are quite a few tools you can use to find ranked songs that fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like. The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) or [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme) browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep track of your performance.
 
-Här är en annan webbplats av [DuoVR](https://duovr.github.io/BigPP/) där du kan mata in din scoresaberprofil. Hemsidan visar dig då banor som du bör spela för en hel del PP.
+You can find more information in the [Ranking & Scoring Guide](./ranking-guide.md).
 
 *Detta avsnitt är anpassat efter Teks uppskrivning i Beat Saber kanadensiska discord.*
 
@@ -62,7 +62,7 @@ En video har ännu inte gjorts för Indexkontroller, men du kan hitta några exe
 ### Oculus Quest 2
 En video har ännu inte gjorts för Quest 2-kontroller, men du kan hitta några exempel nedan! ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
 
-Kolla in Cube Communitys `#tips-and-grips` kanal för fler förslag och exempel i deras [Discord](https://discord.gg/dwe8mbC). Kom ihåg att allas spelstil och kroppar är annorlunda; någon annans grepp kanske inte fungerar precis som du behöver. Var inte rädd för att experimentera och hitta det rätta för dig!
+Kolla in Cube Communitys `#tips-and-grips` kanal för fler förslag och exempel i deras [Discord](https://discord.gg/dwe8mbC). Please remember that everyone's playstyle and body is different; someone else's grip might not work exactly like you need it to. Var inte rädd för att experimentera och hitta det rätta för dig!
 
 ## Förbättra tracking av Vive-kontroller
 Din kropp kan blockera ett lighthouse från att se en av dina kontroller. Här är några steg som kan bidra till att förbättra tracking.
@@ -76,7 +76,7 @@ Din kropp kan blockera ett lighthouse från att se en av dina kontroller. Här �
 Detta kan även gälla Oculus sensorer.
 
 ## Frånkoppling av batteri i Touchkontroller
-Kraften av dina slag i Beat Saber kan orsaka fjädern i handkontrollerna att komprimera och koppla ur batteriet under en kort stund. Detta är vad som händer när du ser din sabel förlora positionsspårning men ändå rotera på plats. För att lindra detta rekommenderar ragesaq att lägga till extra fjädrar inuti batterifacket för att minska sannolikheten att batteriet kopplas ur. Förklaras i denna [Reddittråden](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
+The force of your swings in Beat Saber can cause the spring in the touch controllers to compress and disconnect the battery for a brief moment. Detta är vad som händer när du ser din sabel förlora positionsspårning men ändå rotera på plats. To alleviate this, ragesaq recommends adding extra springs inside the battery compartment to decrease the likelihood of battery disconnects happening, explained in this [Reddit post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
 
 ## Överväg också
 ![Överväg också](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)

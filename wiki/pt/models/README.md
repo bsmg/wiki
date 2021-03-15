@@ -1,5 +1,5 @@
 ---
-title: Models
+description: Instalação, Uso e Guias de Criação para Model Mods!
 ---
 
 # 3D Models
@@ -12,6 +12,7 @@ Todos os plugins de custom model foram criados separadamente por pessoas diferen
 * [Custom Walls](./custom-walls.md)
 
 ## Onde encontrar modelos
+
 ### ModelSaber
 [ModelSaber](https://modelsaber.com/) é o repositório atual para sabres, avatares, notas, e plataformas. Ele inclui imagens e links de instalação OneClick&trade;.
 
@@ -22,6 +23,7 @@ Você também pode encontrar uma lista sem curadoria _(com potencialmente mais i
 
 ## Criando modelos
 Quer aprender como criar seus próprios modelos? Confira um de nossos guias abaixo!
+
 * [Guia dos Custom Sabers](./sabers-guide.md)
 * [Guia dos Custom Avatars](./avatars-guide.md)
 * [Guia das Custom Platforms](./platforms-guide.md)

@@ -1,4 +1,5 @@
 # Custom Walls
+
 ## Instalação
 :::tip NOTA As paredes precisam ser feitas especificamente para Quest ou PC e não podem ser trocadas entre as duas. Você pode dizer para qual plataforma uma parede se destina pela extensão do arquivo. `Arquivos .pixie` são para o PC enquanto o Quest usa arquivos `.zip`. :::
 
@@ -21,5 +22,4 @@ Dentro do jogo no menu principal que você verá à esquerda um botão `CUSTOM W
 Carregue o arquivo zip da parede para seu Quest usando a [Interface Web do BMBF](/quest-modding.md#installing-mods). Você pode selecionar qual parede está ativa na aba mods em BMBF.
 
 ## Criando Custom Walls
-
 Embora não exista atualmente um guia sobre como criar custom walls, um está sendo feito.

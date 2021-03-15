@@ -1,75 +1,89 @@
 # Supports
-Le rôle Support est un symbole de remerciement. Merci pour les milliers de messages envoyés dans les canaux de soutien aux personnes en difficulté avec leurs mods, et pour construire une base de connaissance pour le dépannage à travers des macros et le wiki. Nous ne distribuons pas ce rôle à tout va, mais quand nous le faisons c'est que quelqu'un a énormément donné de soi-même pour le serveur.
+_Le rôle Support est un symbole de remerciement. Merci pour les milliers de messages envoyés dans les canaux de soutien aux personnes en difficulté avec leurs mods, et pour construire une base de connaissance pour le dépannage à travers des macros et le wiki. Nous ne distribuons pas ce rôle à tout va, mais quand nous le faisons c'est que quelqu'un a énormément donné de soi-même pour le serveur._
 
 ## boulders2000
-"même si c'est le bazar dans sa tête il sait ce qu'il fait (plutôt)" quelque chose comme ça (mais n'ajoute pas la partie quelque chose comme ça, ok ?)
+> "even though his brain is a mess he knows his stuff (kinda)"
+> 
+> something like that (but don't add something like that part, ok?)
 
 **Rôles :** Support
 
 ## ComputerElite
 He makes programs to support people faster and some others for them to make all easier. (likes to eat BMBF Logs)
 
-**Roles:** Support
+**Rôles :** Support
 
 [Github](https://github.com/ComputerElite/)
 
 ## Emma
-You might know them for their spectacular platforms, or for more refined individuals: yeet sabers.
+Peut-être ses spectaculaires plateformes vous sont parvenus aux oreilles, ou bien des entités plus raffinées : les Yeet Sabers.
 
-**Roles:** Support, 3D Artist
+**Rôles :** Support, Artiste 3D
 
 [Twitch](https://www.twitch.tv/therealkleinba)
 
 ## Johnny0403
 He likes playing Beat Saber. He also likes helping people fix their problems so they can play Beat Saber.
 
-**Roles:** Support
+**Rôles :** Support
 
 ## Kolezan
-He'll teach you to fix your plugins and your terribly off-beat first map. We've all been there.
+Il vous apprendra à réparer vos extensions et votre première map terriblement désynchronisée. Nous sommes tous passés par là.
 
-**Roles:** Support, Mapping Support, Mapper
+**Rôles :** Support, Mapping Support, Mappeur
 
-[Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
+[Twitch](https://www. twitch.tv/kolezan) | [Faire un don](https://paypal.me/kolezan)
 
-## Nobby76
-Heart of gold, nerves of steel.... And a knob of butter
+## OneEyed
+2 truths and a lie: Pink cute, CMB sentient, OneEyed has good spelling
 
-**Roles:** Support
+**Rôles :** Support
 
 ## Pespiri
-He'll give me his bio later today, or so he says.
+Il vous donnera sa bio plus tard ce jour, selon lui.
 
-**Roles:** Support, Modder
+**Rôles :** Support, Moddeur
 
 [GitHub](https://github.com/pespiri)
 
 ## Radevirot
-This guy came out of nowhere and started helping in support saying it was some kind of addiction, what a loon.
+Ce type est arrivé de nulle part et a commencé à aider dans le support disant que c'était une sorte d'addiction, quel barje.
 
 **Rôles :** Support
 
-[Twitter](https://twitter.com/Radevirot) | [Donate](paypal.me/Radevirot)
+[Twitter](https://twitter.com/Radevirot) | [Faire un don](paypal.me/Radevirot)
 
 ## rui2015
-Has no creativity and doesn't know what to put here. Is a cool person though.
+N'a pas de créativité et ne sait pas quoi mettre ici. Is a cool person though.
 
 **Rôles :** Support
 
 ## Sands
 He has no life and he's pretty dumb but he can help with your bmbf and that's all that matters right?
 
-**Roles:** Support
+**Rôles :** Support
 
 [YouTube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
 
 ## Simme63
 "Coke Head"
 
-**Roles:** Support
+**Rôles :** Support
+
+## Squares
+I swear i'm good at Beat Saber and helping just ask Boulders!
+
+**Rôles :** Support
+
+[YouTube](https://www.youtube.com/channel/UCaQ7PLj4AqGHZnqQVjc_XBQ)
+
+## Toblersto
+I decided I wanted to help one day, and have been slightly addicted ever since.
+
+**Rôles :** Support
 
 ## Channel Monitor Bot
-The bot that holds it all together. Created by Megalon, recreated by lolPants, and personified by Rolo!
+Le robot qui maintient tout ensemble. Créé par Megalon, recréé par lolPants et personnifié par Rolo !
 
 [Merch!](https://www.redbubble.com/people/megalon-gaming/portfolio)
 

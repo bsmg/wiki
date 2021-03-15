@@ -1,9 +1,9 @@
 ---
-title: Models
+description: Installation, Usage, and Creation Guides for Model Mods!
 ---
 
 # 3D модели
-Все пользовательские моды для загрузки моделей были созданы разными пользователями. Каждый мод имеет свою собственную страницу с подробными инструкциями по установке и использованию. Они перечислены ниже и в боковой панели.
+Все пользовательские моды для загрузки моделей были созданы разными пользователями. Each mod has its own dedicated page detailing installation and usage instructions. Они перечислены ниже и в боковой панели.
 
 * [Пользовательские модели мечей](./custom-sabers.md)
 * [Пользовательские модели аватаров](./custom-avatars.md)
@@ -12,6 +12,7 @@ title: Models
 * [Пользовательские модели стен](./custom-walls.md)
 
 ## Где найти модели
+
 ### ModelSaber
 [ModelSaber](https://modelsaber.com/) is the current repository for sabers, avatars, bloqs, and platforms. Он включает в себя предпросмотр изображений и ссылки для использовании функции OneClick&trade;.
 
@@ -22,6 +23,7 @@ You can also find an uncurated list _(with potentially more items)_ in the `#pc-
 
 ## Создание моделей
 Хотите научиться создавать собственные модели? Выберите подходящие руководство ниже!
+
 * [Руководство для создания мечей](./sabers-guide.md)
 * [Руководство для создания аватаров](./avatars-guide.md)
 * [Руководство для создания платформ](./platforms-guide.md)

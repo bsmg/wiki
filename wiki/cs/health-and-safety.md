@@ -3,12 +3,12 @@ sidebar: auto
 ---
 
 # Zdraví a bezpečnost
-_Nemůžete sekat bloky s rukama, jak nudličky_
+_Can't hit bloq with vegetable arms!_
 
 ## Tipy
-Beat Saber může být poměrně fyzicky náročná hra, proto je důležité brát každou hru Beat Saberu, jako takový trénink. Silně doporučujeme si před každou hrou Beat Saberu dát nejdříve pořádnou rozcvičku, abyste se vyhnuli jakémukoliv fyzickému zranění, včetně poškození zápěstí a ramen. Mezi běžná zranění při hraní Beat Saberu patří opakované poranění (Repetetive Strain Injury) zápěstí a ramen.
+Beat Saber může být poměrně fyzicky náročná hra, proto je důležité brát každou hru Beat Saberu, jako takový trénink. We strongly recommend that you stretch and warm up before each play session to avoid physical injury, including damage to the wrist and shoulders. Mezi běžná zranění při hraní Beat Saberu patří opakované poranění (Repetetive Strain Injury) zápěstí a ramen.
 
-Rozcvička není určena pouze pro hráče šílených custom map. Zranit se můžete i při hraní mapy, která se může na první pohled zdát krátká nebo jednoduchá.
+Stretching isn't just limited to people playing crazy custom songs either, you can injure yourself even if a map seems short or simple.
 
 > _Nezapomeňte zůstat hydratovaní a dýchat!_
 
@@ -16,8 +16,9 @@ Rozcvička není určena pouze pro hráče šílených custom map. Zranit se mů
 Tino je top 10 hráč Kanady, který si pro vás ochotně připravil tento návod, který zahrnuje pořádnou rozcvičku, zotavení a úlevu po zranění. [Podívejte se zde!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
 
 ## Péče o zápěstí
+
 ### Závaží?
-Obecně **nedoporučujeme** používat jakékoliv závaží při hraní této hry. Beat Saber je velice fyzicky náročný už sám o sobě a lidé se neustále zraňují i bez používání závaží. Při hraní Beat Saberu v podstatě neustále vystavujete své zápěstí vysoké námaze, pokud přidáte závaží, akorát to bude horší.
+Obecně **nedoporučujeme** používat jakékoliv závaží při hraní této hry. Beat Saber is already a workout and people hurt themselves all the time without weights. You're basically subjecting your wrists to constant whiplash, and adding weights is only going to make things worse.
 
 If you insist on using weights then please at least check out [this guide](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) by VR Fitness Insider to minimize the risk of injury.
 

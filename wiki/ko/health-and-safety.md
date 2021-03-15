@@ -3,12 +3,12 @@ sidebar: auto
 ---
 
 # 건강과 안전
-_종잇장같은 팔로는 노트를 벨 수 없습니다_
+_Can't hit bloq with vegetable arms!_
 
 ## 일반적인 팁
-비트 세이버는 육체적으로 매우 힘든 게임일 수 있습니다. 따라서 게임 플레이를 운동처럼 취급하는 것이 중요합니다. 손목과 어깨 부상을 포함하는 육체적 상해를 피하기 위해, 저희는 게임을 플레이하기 전에 스트레칭과 워밍업을 하는 것을 강력하게 추천합니다. 일반적인 부상들에는 손목과 어깨에 대한 반복사용 긴장성 손상 증후군(RSI) 이 있습니다.
+비트 세이버는 육체적으로 매우 힘든 게임일 수 있습니다. 따라서 게임 플레이를 운동처럼 취급하는 것이 중요합니다. We strongly recommend that you stretch and warm up before each play session to avoid physical injury, including damage to the wrist and shoulders. 일반적인 부상들에는 손목과 어깨에 대한 반복사용 긴장성 손상 증후군(RSI) 이 있습니다.
 
-스트레칭은 매우 어려운 커스텀 곡을 할 때에만 국한되지 않습니다. 간단하거나 짧은 맵을 할 때에도 상해를 입을 가능성이 있습니다.
+Stretching isn't just limited to people playing crazy custom songs either, you can injure yourself even if a map seems short or simple.
 
 > _수분 보충과 숨 쉬는 것을 잊지 마세요!_
 
@@ -16,13 +16,14 @@ _종잇장같은 팔로는 노트를 벨 수 없습니다_
 Tino는 캐나다의 top 10 플레이어로, 적절한 워밍업과 회복, 부상 완화에 대한 친절한 가이드를 만들었습니다. [여기를 확인하세요!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
 
 ## 손목 건강
-### 무게추?
-일반적으로, 저희는 이 게임을 위해 모래주머니와 같은 무게추를 사용하는 것을 **추천하지 않습니다.** 비트 세이버는 무게추 없이도 스스로 다칠 가능성이 존재하는 운동입니다. 기본적으로 손목에 지속적인 무리가 갈 수 있으며, 무게추를 추가하는 것은 상황을 악화시킬 뿐입니다.
 
-무게추 사용을 고집하려면 피해를 줄이기 위해 VR Fitness Insider의 [이 가이드](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/)를 꼭 확인해주세요.
+### 무게추?
+일반적으로, 저희는 이 게임을 위해 모래주머니와 같은 무게추를 사용하는 것을 **추천하지 않습니다.** Beat Saber is already a workout and people hurt themselves all the time without weights. You're basically subjecting your wrists to constant whiplash, and adding weights is only going to make things worse.
+
+If you insist on using weights then please at least check out [this guide](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) by VR Fitness Insider to minimize the risk of injury.
 
 ### Dr Levi Harrison의 팁
-Dr. Levi는 자신의 동영상을 통해 수많은 플레이어들의 손목을 지켰으며, 비트 세이버 플레이로 인한 부상을 방지하기 위한 몇 가지 운동을 구체적으로 다루는 영상을 제작했습니다! 우리는 그의 팁을 **강력하게** 추천합니다!
+Dr. Levi has saved the wrist of countless players with his videos, and he's made a video specifically covering some exercises to help prevent injury from playing Beat Saber! 우리는 그의 팁을 **강력하게** 추천합니다!
 
 <YouTube url='https://www.youtube.com/watch?v=IoL1NOKUmoU' />
 

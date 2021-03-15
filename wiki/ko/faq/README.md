@@ -1,4 +1,5 @@
 # 자주 하는 질문
+
 ## 막 게임을 샀는데, 어떻게 시작해야 하나요?
 [초보자 가이드](/beginners-guide.md)를 확인해주세요!
 
@@ -12,47 +13,52 @@ BeatSaver에서 수동으로 맵을 다운받으려는 경우, 받은 맵을 `Be
 
 ### 곡 관리 도구
 아래의 프로그램들은 데스크탑 환경에서 커스텀 곡을 받는 것을 도와줍니다. 또한 다른 기능들도 존재합니다.
+
 * [Beat Saber Downloader](https://drive.google.com/file/d/1QWedF77hWYbqcigIWa2UcpXlhqGTjwR1/view)는 Sturdyfool0이 만든 맵 다운로더입니다.
 * [BeatList](https://github.com/Alaanor/beatlist)는 Alannor이 만든 플레이리스트와 맵을 관리하는 응용 프로그램입니다.
 
 ## 어떻게 플레이리스트를 설치할 수 있나요?
-**PC:**  
-`PlaylistLoaderLite`모드를 설치해야 합니다. 그 후 아래의 둘 중 하나를 선택하면 됩니다.
+
+### PC
+You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod.
+
+Then you can either:
+
 * 모드 어시스턴트에 있는 `Install Playlist` 툴을 이용합니다.
-* 플레이리스트 파일을 `Beat Saber/Playlists`에 넣고 BeatList에서 선택한 후, download all 버튼을 누릅니다.
+* Place the playlist file into `Beat Saber/Playlists`, select it in-game, then hit download all songs.
 
-이제 플레이리스트를 커스텀 레벨 커버 다음 칸에서 볼 수 있게 됩니다. 만일 플레이리스트에서 누락된 맵이 있다면, Beatsaver 또는 Bsaber에서 수동으로 맵을 다운로드받아야 합니다.
+You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
 
-**Quest:**  
-[Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/)를 이용하여 Quest에서 플레이리스트를 관리할 수 있습니다. 메모 커스텀 레벨은 BMBF에서의 제한으로 인해 인게임에서 한 번만 나타날 수 있습니다.
+### Quest
+You can use [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) to manage the playlists on your Quest. Note that a custom level can only appear once in-game due to a limitation with BMBF.
 
-:::warning Quest 유저를 위한 경고 커스텀 곡 폴더를 다시 로드하면 플레이리스트가 초기화됩니다. :::
+:::warning WARNING for Quest Users Reloading your Custom Songs Folder resets all playlist organization. :::
 
 ## 어떻게 하면 저만의 커스텀 레벨을 만들 수 있나요?
-[매핑](/mapping/) 문서를 참고하세요!
+See [mapping](/mapping/)!
 
 ## 모드 어시스턴트에 없는 플러그인을 설치하려면 어떻게 해야 하나요?
-초보자 가이드의 [이 단락](/pc-modding.md#manual-installation)을 확인하세요.
+See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 
 ## 멀티플레이는 크로스플레이를 지원하나요?
-공식적으로, 멀티플레이는 구매한 스토어 (오큘러스/스팀) 와 같은 곳에서 구매해야 같이 플레이가 가능합니다. 또한, Quest에서 게임에 모드를 적융했을 경우엔 공식 멀티플레이를 사용할 수 없죠.
+Officially, multiplayer is limited to playing with other people in the store version (Oculus/Steam) you purchased. Additionally, modifying the game on Quest disables official multiplayer.
 
-BeatTogether 모드는 크로스플랫폼 플레이를 가능하게 해주는 모드입니다. [디스코드 서버](https://discord.com/invite/gezGrFG4tz)에서 `#install-instructions` 채널을 확인하여 더 많은 정보를 확인해주세요.
+The BeatTogether mod is the current solution for cross-platform play between the modded game versions. Join their [Discord server](https://discord.com/invite/gezGrFG4tz) and check the `#install-instructions` channel for more information.
 
-## 게임이 업데이트되고 모드들이 작동하지 않아요!
-게임이 업데이트 될 때 마다 기존의 모드들을 *(높은 확률로)* 사용하지 못하게 됩니다. 개발자들은 이 점을 숙지하고 있으며, 게임을 업데이트한 후에 처음 실행하면 `Plugins` 폴더의 모든 파일들이 `Old 1.xx.x Plugins` 폴더로 옮겨갑니다. **그 플러그인을 옮기지 마세요!**
+## My game updated and now none of my mods are working
+Each time the game updates it is possible *(and very likely)* that your existing mods will stop working and need to be updated. The game developers realized this, so when the game updates and you run it for the first time, everything in the `Plugins` folder is moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins in there!**
 
-모드를 되돌리려면, 간단하게 **다시 설치하면 됩니다.**   
-BeatMods 저장소는 최신 버전에서 작동하는 모드들만을 저장합니다.
+To get mods back, simply **run the installer again.**  
+The BeatMods repository only includes mods that have been confirmed to work on the latest version of the game!
 
-혼란이 있는 경우에는 [초보자 가이드](/beginners-guide.md)를 확인해주세요.
+If you're confused by any of this, visit [Beginners Guide](/beginners-guide.md).
 
 ## 비트세이버의 점수 시스템은 어떻게 되어있나요? 세계 랭킹은 어떻게 작동하나요?
-[그립과 팁](/grips-and-tricks.md) 페이지에 점수와 랭킹 시스템을 기재해 놓았으니, 확인해주시면 감사하겠습니다!
+We have sections on the [grips and tricks](/grips-and-tricks.md) page dedicated to the scoring and ranking systems, check them out!
 
-## 메뉴가 비어있고 클릭할 버튼이 없어졌어요!
-게임의 메인 화면이 비어있다면, 높은 확률로 세이브 파일이 망가졌을 것입니다.
+## My menus are blank and I have nothing to click on
+If the main window in your game is blank, your save file likely got corrupted.
 
-고치기 위해서는, 다음 폴더로 가주세요: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
+To fix it, navigate to: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
 
-그 안에 Beat Saber라 되어있는 폴더를 삭제하거나 파일명을 변경해주세요. 다시 게임에 접속하면 새로운 세이브 파일을 만들고 정상적으로 메인 메뉴가 로딩될 것입니다.
+Delete or rename the Beat Saber folder to something else. When you re-enter the game, it'll recreate the save file and should load the main menu properly.

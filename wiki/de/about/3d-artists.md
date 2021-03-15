@@ -1,5 +1,5 @@
 # 3D Artists
-Von Schwerten zu Noten, eigene Modelle waren immer ein beliebter Aspekt von gemoddeten Beat Saber, was ohne sie nicht möglich wäre.
+Von Sabern zu Noten, eigene Modelle waren immer ein beliebter Aspekt von gemoddetem Beat Saber, was ohne sie nicht möglich wäre.
 
 ## AkaRaiden
 **Rollen:** 3D Artist
@@ -41,7 +41,9 @@ Einer der ersten Creator, der Avatare in Masse herstellte und damit diese Rolle 
 **Rollen:** 3D Artist
 
 ## RedBrumbler
-"Der Typ, der riesig glühende Schwänze in Beat saber gemacht hat" ~Emulamer 12. Juli 2019 Wie du lesen kannst, mache ich Sabeer für die Quest, bin aber im Allgemeinen im Asset-Modding-Teil von Beat Saber aktiv. Ich habe auch einige für andere Spiele gemacht, aber Beat Saber ist meine Haupt Liebe. Wenn Du jemals Hilfe bei der Herstellung von Sabern speziell für Quests benötigst, kannst du mich immer im Quest-Modeling Channel fragen (bis wir den qsaber-Mod bekommen), säbel das Fleisch weiter, bis es wirklich zart ist!
+"Der Kerl, der riesige leuchtende Schwänze in Beat Saber gemacht hat" ~Emulamer 12. Juli 2019
+
+Wie du lesen kannst, mache ich Saber für die Quest, bin aber im Allgemeinen im Asset-Modding-Teil von Beat Saber aktiv. Ich habe auch einige für andere Spiele gemacht, aber Beat Saber ist meine Hauptliebe. Wenn Du jemals Hilfe bei der Herstellung von Sabern speziell für Quests benötigst, kannst du mich immer im Quest-Modeling Channel fragen (bis wir den qsaber-Mod bekommen), säbel das Fleisch weiter, bis es wirklich zart ist!
 
 **Rollen:** 3D Artist, Support
 
@@ -66,6 +68,7 @@ Tonnenweise Unterstützung beim Full Body Tracking!
 
 ---
 
-::: tip See Also **Support:** [Emma](./supports.md#emma)  
+<!-- markdownlint-disable MD013 -->
+::: tip Siehe auch **Supporter:** [Emma](./supports.md#emma)  
 **Moderatoren:** [DeeJay](./moderators.md#deejay) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)  
 **Staff:** [Assistant](./staff.md#assistant) | [Bobbie](./staff.md#bobbie) :::

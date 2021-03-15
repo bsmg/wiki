@@ -41,7 +41,9 @@ Um dos primeiros criadores a fazer muitos avatares, e dar vida a esse cargo.
 **Cargos:** 3D Artist
 
 ## RedBrumbler
-"The guy who made giant glowing dicks in beat saber" ~Emulamer 12 de julho de 2019 Como você pode ler que eu faço sabres para o Quest, mas geralmente eu estive ativo na parte de asset modding do beat saber, Eu também fiz alguns para outros jogos, mas o Beat saber é o meu amor principal. Se você precisar de ajuda para fazer sabres especificamente para quest, você sempre pode me perguntar no chat de quest modeling (até obtermos aquele mod qsaber de qualquer maneira)
+"O cara que fez paus gigantes brilhantes no sabor da batida" ~Emulamer 12 de julho de 2019
+
+Como você pode ler, eu faço sabre para quest, mas geralmente eu estive ativo na parte de modding de assets de beat saber, Também fiz alguns para outros jogos, mas Beat saber é o meu amor principal. Se você precisar de ajuda para fazer sabres especificamente para quest, você sempre pode me perguntar no chat de quest modeling (até obtermos aquele mod qsaber de qualquer maneira)
 
 **Cargos:** 3D Artist, Support
 
@@ -66,6 +68,7 @@ Toneladas e toneladas de suporte com Full Body Tracking!
 
 ---
 
+<!-- markdownlint-disable MD013 -->
 ::: tip Veja Também **Support:** [Emma](./supports.md#emma)  
 **Moderadores:** [DeeJay](./moderators.md#deejay) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)  
 **Staff:** [Assistant](./staff.md#assistant) | [Bobbie](./staff.md#bobbie) :::

@@ -17,6 +17,7 @@ tags:
   - hoe worden nummers gemaakt?
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class='features'>
 
 ::: feature Aan de slag!
@@ -41,10 +42,12 @@ tags:
 :::
 
 </div>
+<!-- markdownlint-enable MD033 -->
 
-<hr />
+---
 
 ## Externe links
+
 * [Word lid van onze Discord-server!](https://discord.gg/beatsabermods)
 * [BSMG Patreon](https://www.patreon.com/beatsabermods) - Ondersteun de BSMG Services!
 * [BeatMods](https://beatmods.com) - Opslag van PC mods die gereflecteerd worden in installatieprogrammas zoals ModAssistant

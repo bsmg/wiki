@@ -1,4 +1,5 @@
 # Vanliga Frågor
+
 ## Jag fick precis Beat Saber, hur kommer jag igång?
 Kolla in vår [nybörjarguide](/beginners-guide.md)!
 
@@ -12,47 +13,52 @@ Om du laddar ner banor manuellt från BeatSaver, extrahera dem till en mapp och 
 
 ### Verktyg för låthantering
 Följande är program som kan användas för att hjälpa dig att ladda ner banor, med några andra medföljande funktioner.
+
 * [Beat Saber Downloader](https://drive.google.com/file/d/1QWedF77hWYbqcigIWa2UcpXlhqGTjwR1/view), ett nedladdningsprogram av Sturdyfool0.
 * [BeatList](https://github.com/Alaanor/beatlist) är en app som hanterar spellistor och beatmaps, av Alaanor.
 
 ## Hur installerar jag spellistor?
-**För PC-användare:**  
-Du behöver installera moddet `PlaylistLoaderLite`. Sen kan du antingen
+
+### PC
+You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod.
+
+Then you can either:
+
 * Använda verktyget `Install Playlist` som finns i ModAssistants Options-flik.
-* Placera spellistefilen i `Beat Saber/Playlists`, välja den i BeatList, och sedan trycka på Download all.
+* Place the playlist file into `Beat Saber/Playlists`, select it in-game, then hit download all songs.
 
-Du bör nu se spellistan bredvid Custom Levels albumet i spelet. Om det saknas banor från spellistan måste du ladda ner dem manuellt, antingen genom BeatList eller direkt från Beatsaver eller Bsaber.
+You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
 
-**För uppdragsanvändare:**  
-Du kan använda [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) för att hantera spellistor i ditt Quest. Notera att en nedladdad bana endast kan visas en gång i spelet på grund av en begränsning hos BMBF.
+### Quest
+You can use [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) to manage the playlists on your Quest. Note that a custom level can only appear once in-game due to a limitation with BMBF.
 
-::::warning VARNING för Quest-användare Omladdning av mappen Custom Songs återställer alla spellistors organisering. :::
+:::warning WARNING for Quest Users Reloading your Custom Songs Folder resets all playlist organization. :::
 
 ## Hur skapar jag mina egna banor?
-Se [mappning](/mapping/)!
+See [mapping](/mapping/)!
 
 ## Hur laddar jag in plugins som inte finns i ModAssistant?
-Se [denna sektion](/pc-modding.md#manual-installation) i nybörjarguiden.
+See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 
 ## Har multiplayer crossplay?
-Officiellt är multiplayer begränsad till att spela med andra människor i den butiksversion (Oculus eller Steam) du köpt. Dessutom inaktiveras den officiella multiplayern när man modifierar spelet på Quest.
+Officially, multiplayer is limited to playing with other people in the store version (Oculus/Steam) you purchased. Additionally, modifying the game on Quest disables official multiplayer.
 
-Moddet BeatTogether är den nuvarande lösningen för cross-platform mellan de olika moddade spelversionerna. Gå med i deras [Discord-server](https://discord.com/invite/gezGrFG4tz) och se kanalen `#install-instructions` för mer information.
+The BeatTogether mod is the current solution for cross-platform play between the modded game versions. Join their [Discord server](https://discord.com/invite/gezGrFG4tz) and check the `#install-instructions` channel for more information.
 
-## Mitt spel uppdaterades och nu fungerar inget av mina mods!
-Varje gång spelet uppdateras är det möjligt *(och mycket troligt)* att dina befintliga mods kommer att sluta fungera och behöver uppdateras. Spelets developers insåg detta, så när spelet uppdateras och du kör det för första gången, kommer allt i mappen `Plugins` flyttas till en ny mapp som heter `Old 1. x.x Plugins`. **Lämna dessa plugins där!**
+## My game updated and now none of my mods are working
+Each time the game updates it is possible *(and very likely)* that your existing mods will stop working and need to be updated. The game developers realized this, so when the game updates and you run it for the first time, everything in the `Plugins` folder is moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins in there!**
 
-För att få tillbaka mods **kör helt enkelt installationsprogrammet igen.**  
-Samlingen BeatMods innehåller endast mods som har bekräftats att fungera i den senaste versionen av spelet!
+To get mods back, simply **run the installer again.**  
+The BeatMods repository only includes mods that have been confirmed to work on the latest version of the game!
 
-Om något här har förvirrat dig, besök då [Beginners Guide](/beginners-guide.md).
+If you're confused by any of this, visit [Beginners Guide](/beginners-guide.md).
 
 ## Hur fungerar poängsystemet i Beat Saber? Hur fungerar den globala rankningen?
-Vi har sektioner på [grepp och tricks](/grips-and-tricks.md) tillägnad poäng- och rankningssystem, kolla in dem!
+We have sections on the [grips and tricks](/grips-and-tricks.md) page dedicated to the scoring and ranking systems, check them out!
 
-## Mina menyer är tomma och jag har inget att klicka på!
-Om huvudfönstret i ditt spel är tomt är det sannolikt att din sparfil blev korrupt.
+## My menus are blank and I have nothing to click on
+If the main window in your game is blank, your save file likely got corrupted.
 
-För att fixa det, navigera till: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
+To fix it, navigate to: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
 
-Ta bort eller döp om Beat Saber-mappen till något annat. När du går in i spelet igen, återskapas sparfilen och huvudmenyn bör nu laddas in.
+Delete or rename the Beat Saber folder to something else. When you re-enter the game, it'll recreate the save file and should load the main menu properly.

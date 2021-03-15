@@ -5,7 +5,7 @@ description: Bobbies gids voor het maken van Custom Blokken!
 ---
 
 # De Custom Blokken gids
-_Bobbies gids voor het maken van Custom Blokken_
+_Bobbies gids voor het maken van custom blokken._
 
 ## Introductie
 Deze handleiding vereist basiskennis over 3d modelleren en de Unity Engine. Er zijn een paar dingen nodig:
@@ -29,16 +29,21 @@ Als je op een van deze voorbeeld blokken klikt, zie je dat er een `NoteDescripto
 ![NoteDescriptor](~@images/models/notes/03.png)
 
 Laten we kort ingaan op wat elk van deze instellingen nou eigenlijk doen.
+
 ### Note Name & Author Name
 Deze is redelijk makkelijk. Wat de naam van het blok en de naam van de auteur ook zijn, deze worden in het Custom Notes selectie UI weergegeven, zoals weergegeven in de afbeelding hieronder.
 
 ![Voorbeeld van note name en author name in het spel](~@images/models/notes/04.png)
+
 ### Icoon
-Deze instelling neemt een afbeelding die zal worden gebruikt als icoon. Het icoon wordt weergegeven in de CustomNotes selectie UI, zoals gezien in de bovenstaande afbeelding.
+Deze instelling neemt een afbeelding die zal worden gebruikt als icoon. Het icoon wordt weergegeven in de Custom Notes selectie UI, zoals gezien in de bovenstaande afbeelding.
+
 ### Disable Base Note Arrows
 Als deze is ingeschakeld, zal deze instelling de standaard pijlen die aanwezig zijn op de blokken onzichtbaar maken. Opmerking: je moet de `NoteDotLeft` en `NoteDotRight` gameobjecten in jouw blok hebben als je deze optie wilt inschakelen.
+
 ### Uses Note Color
 Als deze optie is ingeschakeld, gebruikt het de huidige kleuren van de speler om je blokken in de goeie kleur te tinten. Dit stelt je blokken in staat om `CustomColors` te ondersteunen. Als je dit goed wilt gebruiken, zorg er dan voor dat je de sectie leest die gericht is aan het maken van jouw blokken met custom kleuren.
+
 ### Note Color Strength
 Deze optie wordt alleen gebruikt als `Uses Note Color` is ingeschakeld. Note Color Strength definieert hoe sterk de tint word die op je blokken toegepast is, en is standaard 1. Hoe lager je dit nummer maakt, hoe subtieler de tint zal zijn.
 
@@ -71,7 +76,7 @@ Sleep jouw geïmporteerde mesh op `NoteLeft` in het hiërarchieën scherm.
 
 ![Het slepen van het mesh op NoteLeft](~@images/models/notes/56.png)
 
-Je zou nu een child GameObject van `NoteLeft` moeten hebben waar je mesh in zit. Afhankelijk van het modelleringsprogramma wat je hebt gebruikt, moet je sommige niet-mesh objecten verwijderen. Als je objecten in jouw mesh ziet die `Camera` of `Lamp` heten, **ZORG DAN DAT JE DEZE VERWIJDERT!** Als je de "breaking the prefab instance" waarschuwing ziet, druk dan op "Continue".
+Je zou nu je geïmporteerde mesh als een child GameObject van `NoteLeft` moeten hebben. Afhankelijk van het modelleringsprogramma wat je hebt gebruikt, moet je sommige niet-mesh objecten verwijderen. Als je objecten in jouw mesh ziet die `Camera` of `Lamp` heten, **ZORG DAN DAT JE DEZE VERWIJDERT!** Als je de "breaking the prefab instance" waarschuwing ziet, druk dan op "Continue".
 
 ![Toont hiërarchie en wijst naar Camera](~@images/models/notes/64.png)
 
@@ -81,7 +86,9 @@ Klik op het object wat je net hebt toegevoegd en zorg ervoor dat het een positie
 
 ![Controleren van positie](~@images/models/notes/61.png)
 
-Zodra je het mesh hebt geselecteerd, moet je het naar de grootte van een blok in het spel maken. Selecteer `NoteLeft` en plaats het in de buurt van het `TemplateNotesize`. Het `TemplateNoteSize` zou het witte vierkant moeten zijn in jouw project. ::: warning WAARSCHUWING Zorg ervoor dat je `NoteLeft` selecteert wanneer je jouw blok verplaatst. Als je per ongeluk de children van `NoteLeft` verplaatst, kloppen de meshes niet meer! De meshes in `NoteLeft` zouden bijna ALTIJD op positie `(0,0,0)` moeten zijn, tenzij je ze doelbewust aanpast. :::
+Zodra je het mesh hebt geselecteerd, moet je het naar de grootte van een blok in het spel maken. Selecteer `NoteLeft` en plaats het in de buurt van het `TemplateNotesize`. Het `TemplateNoteSize` zou het witte vierkant moeten zijn in jouw project.
+
+::: warning WAARSCHUWING Zorg ervoor dat je `NoteLeft` selecteert wanneer je jouw blok verplaatst. Als je per ongeluk de children van `NoteLeft` verplaatst, kloppen de meshes niet meer! De meshes in `NoteLeft` zouden bijna ALTIJD op positie `(0,0,0)` moeten zijn, tenzij je ze doelbewust aanpast. :::
 
 ![Laat het mesh zien naast TemplateNoteSize](~@images/models/notes/62.png)
 
@@ -97,7 +104,9 @@ Met het GameObject in `NoteLeft` geselecteerd, klik en sleep het grijze vierkant
 
 ![Laat het goed geschaalde mesh zien naast TemplateNoteSize](~@images/models/notes/66.png)
 
-Zoals je kunt zien, is de schaal die werkte voor mijn mesh ongeveer `(0,65,0,65)`. Deze waarde zal anders kunnen zijn afhankelijk van het mesh dat je gebruikt. Als je het mesh niet precies even groot kan krijgen als `TemplateNotesize`, maak je dan niet te veel zorgen want het hoeft niet precies te zijn. Houd er rekening mee dat het over het algemeen beter is als een blok beetje te groot is dan dat het een beetje te klein is. ::: warning WAARSCHUWING Zorg ervoor dat je blokken in de juiste richting staan. Kijk naar de richting van alle andere blokken in het scherm, en zorg dat je meshes dezelfde kant op staan. **ONTHOUD**: Het `NoteLeft` GameObject moet altijd een rotatie hebben van `(0,0,0)`. Als je je blok moet roteren, draai dan niet `NoteLeft`, maar draai in plaats daarvan de meshes die er in zitten! :::
+Zoals je kunt zien, is de schaal die werkte voor mijn mesh ongeveer `(0,65,0,65)`. Deze waarde zal anders kunnen zijn afhankelijk van het mesh dat je gebruikt. Als je het mesh niet precies even groot kan krijgen als `TemplateNotesize`, maak je dan niet te veel zorgen want het hoeft niet precies te zijn. Houd er rekening mee dat het over het algemeen beter is als een blok beetje te groot is dan dat het een beetje te klein is.
+
+::: warning WAARSCHUWING Zorg ervoor dat je blokken in de juiste richting staan. Kijk naar de richting van alle andere blokken in het scherm, en zorg dat je meshes dezelfde kant op staan. **ONTHOUD**: Het `NoteLeft` GameObject moet altijd een rotatie hebben van `(0,0,0)`. Als je je blok moet roteren, draai dan niet `NoteLeft`, maar draai in plaats daarvan de meshes die er in zitten! :::
 
 ## Materials toevoegen
 Nu het mesh goed geschaald is, kunnen we er een material aan toevoegen. Klik in het projectvenster met de rechtermuisknop op `Materials` en doe vervolgens `Create->Material`. Omdat dit het material voor de mesh van mijn `LeftNote` zal zijn, noem ik het `LeftMaterial`.
@@ -195,8 +204,6 @@ Jouw blok zou bovenaan de `Note Exporter` moeten staan. Zodra je zeker weet dat 
 
 ![Het exporteren van het blok](~@images/models/notes/40.png)
 
-::: tip TIP Als je Beat Saber op steam hebt en je je blokken wilt zien in het spel zonder je bril op te zetten, dan is het `fpfc` lancering argument erg handig want het stelt je in staat om de camera met jouw muis te besturen. :::
-
 Nu je blokken zijn geëxporteerd, kan je beat saber starten en kan je zien zien hoe ze er in het spel uitzien. Klik in beat saber op `Mods` en vervolgens op `Custom Notes`. Als je alles goed hebt gedaan, zal je jouw blokken in de lijst moeten zien.
 
 ![Het blok preview laten zien in het spel](~@images/models/notes/41.png)
@@ -204,6 +211,33 @@ Nu je blokken zijn geëxporteerd, kan je beat saber starten en kan je zien zien 
 Selecteer je blokken en probeer een level te spelen.
 
 ![Het blok in het spel laten zien](~@images/models/notes/42.png)
+
+### Bekijk jouw blok in het spel zonder je bril op te zetten met FPFC
+First Person Flying Controller (FPFC) is een startparameter wat gebruikt kan worden door Steam of Oculus gebruikers. FPFC opent Beat Saber op je computer en laat je het besturen met je toetsenbord en muis. Je hebt de SiraUtil mod nodig om te kunnen bewegen terwijl een level speelt.
+
+Hiermee kun je WASD gebruiken om rond te "vliegen", het pauzemenu openen door op de <kbd>F2</kbd> toets te drukken, of verlaat je level door op de <kbd>ESC</kbd> toets te drukken (anders moet je wachten tot het eind van het nummer).
+
+Installeer SiraUtil met ModAssistant en start Beat Saber om een configuratie .json bestand aan te maken. Bewerk het `SiraUtil.json` bestand in jouw `UserData` map en verander `"Enabled": false` naar `"Enabled": true` onder FPFCToggle en SongControl en volg vervolgens de platform specifieke stappen hieronder.
+
+![SiraUtil JSON instelling](~@images/mapping/sirautil-FPFC.png)
+
+**Voor Steam Gebruikers:** Open de spel eigenschappen en voeg `fpfc` toe aan de Steam lanceringsopties. ![FPFC lanceringeninstellingen](~@images/mapping/fpfc.png)
+
+**Voor Oculus gebruikers:**
+
+1. Rechtsklik op Beat Saber.exe en maak een snelkoppeling.
+2. Bewerk het doel en voeg "fpfc" toe aan het einde ervan. Bijv: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" fpfc`
+
+Na het installeren van de mods en het toevoegen van het startparameter kan je nu bewegen en pauzeren in een level. De wisselknop om te schakelen tussen bril- en muis/toetsenbord bediening is <kbd>G</kbd>.
+
+:::warning OPMERKING
+
+* Als je weer in vr gaat en het spel niet laadt in de bril:
+  * Druk op de <kbd>G</kbd> toets totdat de bril het spel weergeeft.   
+    **==OF==**
+  * Sluit het spel, verwijder de startparameter en start het spel opnieuw.
+
+* Als de mod niet lijkt te werken, zorg er dan voor dat de in-game Smooth camera instelling is uitgeschakeld. :::
 
 Als alles goed lijkt in het spel, dan zou moet je klaar zijn! Zorg ervoor dat je met je blokken tenminste één keer met de bril op speelt voordat je ze publiceert.
 
@@ -220,7 +254,7 @@ Selecteer nu de shader die je wilt gebruiken voor jouw blok. Als je niet zeker w
 
 ![Een shader selecteren](~@images/models/notes/44.png)
 
-Pas dit material nu toe op zowel de mesh van jouw `NoteLeft` als de mesh van jouw `NoteRight`. Zorg ervoor dat je het toepast op ALLEBEI!
+Pas dit material nu toe op zowel de mesh van jouw NoteLeft als de mesh van jouw NoteRight. Zorg ervoor dat je het toepast op ALLEBEI!
 
 ![Op TriangleMesh klikken](~@images/models/notes/71.png)
 
@@ -228,7 +262,7 @@ Pas dit material nu toe op zowel de mesh van jouw `NoteLeft` als de mesh van jou
 
 ![Material selecteren](~@images/models/notes/47.png)
 
-Nu je klaar bent met het toepassen van het material op het mesh van al je blokken, ga je terug naar het `NoteMaterial` in het scherm. Om te controleren of jouw blokken er goed uitzien wanneer je CustomColors gebruikt, rommel dan met het `Color` eigenschap - dit is het eigenschap dat zal veranderen wanneer de blokken getint zijn.
+Nu je klaar bent met het toepassen van het material op het mesh van al je blokken, ga je terug naar het `NoteMaterial` in het scherm. Om te controleren of jouw blokken er goed uitzien wanneer je CustomColors gebruikt, rommel dan met het `Color` eigenschap; dit is het eigenschap dat zal veranderen wanneer de blokken getint zijn.
 
 ![De kleur van het material veranderen](~@images/models/notes/48.png)
 
@@ -257,4 +291,3 @@ Het enige wat je hoeft te doen is in de GameObjecten te gaan waarvan je niet wil
 ::: warning WAARSCHUWING: Vergeet niet om deze wijzigingen toe te passen op alle blokken in jouw CustomNote! :::
 
 ![Een disable note color on gameobject component toevoegen](~@images/models/notes/54.png)
-

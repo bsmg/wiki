@@ -1,9 +1,10 @@
 # Custom Notes
+
 ## Installatie
 ::tip OPMERKING Blokken moeten speciaal gemaakt worden voor Quest of PC en zijn niet verwisselbaar tussen beide. Je kan zien voor welk platform een blok bedoeld is aan de hand van het bestandstype. `.bloq` bestanden zijn voor PC terwijl de Quest `.zip` bestanden gebruikt. :::
 
 ### PC Blokken
-De nieuwste Custom Notes plugin kan worden gevonden in het [#pc-mods kanaal](https://discord.gg/beatsabermods) in de BSMG discord of in [Mod Assistant](https://github.com/Assistant/ModAssistant).
+De nieuwste Custom Notes plugin kan worden gevonden in het [#pc-mods kanaal](https://discord.gg/beatsabermods) in de BSMG Discord of in [Mod Assistant](https://github.com/Assistant/ModAssistant).
 
 Eenmaal geïnstalleerd (en je het spel één keer hebt gestart), zie je een `CustomNotes` map in [jouw installatie map](/faq/install-folder.md), met enkele voorbeeld blokken voor je. In deze map moet je ook de `*.bloq` bestanden plaatsen.
 

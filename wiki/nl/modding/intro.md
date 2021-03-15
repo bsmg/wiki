@@ -1,5 +1,5 @@
 # Introductie voor modden
-_Leer hoe je jouw eigen PC Mods kunt maken._
+_Leer hoe je jouw eigen PC mods kunt maken._
 
 ## Aan de slag
 ::: warning WAARSCHUWING Deze handleiding is voor het maken van mods voor de **PC** versie van Beat Saber!
@@ -79,8 +79,9 @@ Wanneer je het spel opent, zou je moeten zien dat BSIPA jouw mod laad doormiddel
 
 ## Volgende stappen
 Hier zijn enkele nuttige hulpmiddelen om jou verder te helpen met het maken van mods.
+
 * Als je hulp nodig hebt bij het maken van mods, kun je vragen stellen in het `#pc-mod-dev` kanaal in de [BSMG Discord Discord](https://discord.gg/beatsabermods).
 * Als je code wilt decompileren, bekijk dan [dnSpy](https://github.com/dnSpy/dnSpy/releases)
 * Zie de BSIPA Documentatie voor meer informatie over het [configuratiesysteem](https://bsmg.github.io/BeatSaber-IPA-Reloaded/tags/4.1.3/articles/start-dev.html#configuring-your-plugin).
-* Als je de code van het spel moet patchen voor je mod, moet je [Harmony](https://github.com/pardeike/Harmony#readme) gebruiken. De `0Harmony.dll` is al geïnstalleerd voor gemodde games.
-* Voor ervaren ontwikkelaars, ben je misschien geïnteresseerd in het leren over Zenject, het Dependency Injection system dat sterk gebruikt wordt door Beat Saber. [SiraUtil](https://github.com/Auros/SiraUtil#readme) is een bibliotheek waarmee je dit systeem gemakkelijk kan gebruiken.
+* Als je de code van het spel moet patchen voor je mod, moet je [Harmony](https://github.com/pardeike/Harmony#readme) gebruiken. De `0Harmony.dll` is al geïnstalleerd voor gemodde spellen.
+* Voor ervaren ontwikkelaars, ben je misschien geïnteresseerd in het leren over Zenject, het Dependency Injection system dat veel gebruikt wordt door Beat Saber. [SiraUtil](https://github.com/Auros/SiraUtil#readme) is een bibliotheek waarmee je dit systeem gemakkelijk kan gebruiken.

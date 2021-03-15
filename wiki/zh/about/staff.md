@@ -1,5 +1,5 @@
 # Staff
-_Whether it comes to project management, plugin approval, managing the core services, event coordination, or many of the other secret projects, there's always lots of work to be done. The community wouldn't exist without the countless hours contributed by these incredible individuals, so please give them a virtual round of applause (and help pay for the services if you can...)_
+_Whether it comes to project management, plugin approval, managing the core services, event coordination, or many of the other secret projects, there's always lots of work to be done. The community wouldn't exist without the countless hours contributed by these incredible individuals, so please give them a virtual round of applause (and help pay for the services if you can)._
 
 ## +1 Rabbit
 Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)
@@ -7,14 +7,6 @@ Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) 
 **Roles:** Staff, Modder **Contributions:** BS-Viewer, Mapping Tools
 
 [GitHub](https://github.com/PlusOneRabbit) | [Twitch](https://www.twitch.tv/plusonerabbit) | [Donate](https://ko-fi.com/plusonerabbit)
-
-## Assistant
-Overseeer of core services, including BeatSaver and BeatMods servers. The original Support and creator of the custom avatar guide, Mod Assistant, and ModelSaber.
-
-**Roles:** Staff, Support, 3D Artist  
-**Contributions:** BeatMods Approval Staff, Multiplayer/Saber/Avatar/Platform Creation Guides, Moderation, ModelSaber, BeatSaver Admin, BSMG Podcasts
-
-[GitHub](https://github.com/Assistant) | [Donate](https://bs.assistant.moe/Donate) | [Patreon](https://www.patreon.com/AssistantMoe)
 
 ## Bloodcloak
 A mapper that is really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps. *Totally* hasn't fallen into the vTuber hole.
@@ -50,7 +42,7 @@ Makes mods for quest and likes to PP farm in her free time.
 [GitHub](https://github.com/Rugtveit)
 
 ## lolPants
-One hell of a developer and a lover of socks. lolPants laid the groundwork for many of the policies and procedures during his time as Staff, and continues to help out when his services are needed.
+One hell of a developer and a lover of socks. lolPants laid the groundwork for many of the policies and procedures during their time as Staff, and continues to help out when their services are needed.
 
 **Roles:** Modder, Admin (Retired), Staff, Moderator  
 **Contributions** CMB, ModSaber, Moderation, BeatSaver Reloaded
@@ -70,7 +62,7 @@ Likes pies, tartes, and helping people fix their mods!
 
 **Roles:** Staff, Support, Moderator
 
-[Twitch](https://www.twitch.tv/mamamelo) | [Donate](https://streamlabs.com/mamamelo)
+[Twitch](https://www.twitch.tv/mamamelo) | [Donate](https://ko-fi.com/melopod)
 
 ## OrangeW
 The first professional Beat Saber player, representing Team Gravity. Former Admin of the ScoreSaber global leaderboards.
@@ -87,7 +79,6 @@ BSMG server owner and rhythm game fanatic. We wouldn't be here today without thi
 **Contributions:** Server Owner, Custom Sabers, PodCasts
 
 [GitHub](https://github.com/reaxt) | [Twitch](https://twitch.tv/reaxt)
-
 
 ## Sam
 He's either talking about Steven or being way too patriotic in chat (BS Nordic Admin btw). Don't call him cute, he hates that. He also makes maps, check them out below.
@@ -120,12 +111,20 @@ Project manager, wiki maintainer, bread baker. Despite what everyone says, I lik
 
 [Twitch](https://www.twitch.tv/williums/) | [Donate](https://ko-fi.com/williums)
 
-## Balsa (retired)
-BeatSaver creator - he's the reason we have somewhere to get our custom songs in the first place. He shows up in once in awhile to show off BeatSaver numbers, call us nerds, and present his collection of finely aged memes. He's since stepped down from the staff team but we wouldn't be here without him.
+## Assistant (Retired)
+Overseeer of core services, including BeatSaver and BeatMods servers. The original Support and creator of the custom avatar guide, Mod Assistant, and ModelSaber.
+
+**Roles:** Staff, Support, 3D Artist  
+**Contributions:** BeatMods Approval Staff, Multiplayer/Saber/Avatar/Platform Creation Guides, Moderation, ModelSaber, BeatSaver Admin, BSMG Podcasts
+
+[GitHub](https://github.com/Assistant) | [Donate](https://bs.assistant.moe/Donate) | [Patreon](https://www.patreon.com/AssistantMoe)
+
+## Balsa (Retired)
+He's the reason we have somewhere to get our custom songs in the first place. He shows up in once in a while to show off BeatSaver numbers, call us nerds, and present his collection of finely aged memes. He's since stepped down from the staff team, but we wouldn't be here without him.
 
 **Contributions:** BeatSaver Creator.
 
-## Klouder (retired)
+## Klouder (Retired)
 Longtime server member and active contributor. She was the server mom!
 
 **Contributions:** ScoreSaber Admin, Moderation

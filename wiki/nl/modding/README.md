@@ -1,4 +1,5 @@
 # Het maken van mods
+
 ## Mods injecteren
 Beat Saber _**heeft geen**_ mod ondersteuning ingebouwd.
 
@@ -15,13 +16,16 @@ Bekijk de [links hieronder](#other-links) voor documentatie dat te maken heeft m
 ## Start argumenten
 Handige start argumenten die het modden en debuggen makkelijker maken.
 
-| Argument&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Beschrijving                                                                                                                                                                                                                             |
-| -------------------------------------------------------------------------------------------- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--verbose`                                                                                  | Schakelt het output log-venster voor IPA in. Dit toont de debug console die mods gebruiken.                                                                                                                                              |
-| `fpfc`                                                                                       | "First Person Flying Controller"<br /><br /> Dit zorgt ervoor dat je met je muis en de WASD toetsen in het spel en de menu's kan navigeren. Dit maakt het testen veel makkelijker, omdat je niet in je bril hoeft te zetten! |
-| `-vrmode oculus`                                                                             | Als je Beat Saber in Steam hebt gekocht, zorgt dit ervoor dat je het ook kan spelen met een Oculus bril.                                                                                                                                 |
+<!-- markdownlint-disable MD013 -->
+| Argument&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Omschrijving                                                                                                                                                                                                                              |
+| -------------------------------------------------------------------------------------------- |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `--verbose`                                                                                  | Schakelt het output log-venster voor IPA in. Dit toont het debug console wat gebruikt word door mods.                                                                                                                                     |
+| `fpfc`                                                                                       | "First Person Flying Controller" <br /><br /> Dit zorgt ervoor dat je met je muis en de WASD toetsen in het spel en de menu's kan navigeren. Dit maakt het testen veel makkelijker, omdat je je bril niet hoeft op te zetten! |
+| `-vrmode oculus`                                                                             | Als je Beat Saber in Steam hebt gekocht, zorgt dit ervoor dat je het ook kan spelen met een Oculus bril.                                                                                                                                  |
+<!-- markdownlint-enable MD013 -->
 
 ## Andere links
+
 * [BeatMods](https://beatmods.com)
 * [BeatMods goedkeuringsrichtlijnen](https://docs.google.com/document/d/15RBVesZdS-U94AvesJ2DJqcnAtgh9E2PZOcbjrQle5Y/edit?usp=sharing)
 * [Unity Scripting API](https://docs.unity3d.com/ScriptReference/index.html)

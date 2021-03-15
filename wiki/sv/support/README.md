@@ -3,176 +3,201 @@ sidebar: auto
 ---
 
 # Support
+
 ## Innehållsförteckning
-0. [Viktiga meddelanden](#0-important-notes)
-1. [Problem med installationsprogram](#1-installer-issues)
-2. [Problem i spelet](#2-game-issues-post-modding)
-3. [Vanliga frågor](#3-common-questions)
-4. [Felsökning](#4-troubleshooting)
-5. [Om allt annat misslyckas](#5-if-all-else-fails)
-6. [Har fortfarande problem](#6-still-having-issues)
+
+0. [Updates](#_0-updates)
+1. [No mods?](#_1-no-mods)
+2. [Game Issues After Modding](#_2-game-issues-post-modding)
+3. [Vanliga frågor](#_3-common-questions)
+4. [Miscellaneous Troubleshooting](#_4-miscellaneous-troubleshooting)
+5. [Still Having Issues](#_5-still-having-issues)
 
 ## 0. Uppdateringar
-Efter en uppdatering bör kanalen `#server-announcements` BSMGs discord ha de mest uppdaterade instruktionerna om status för mods. Följande är mer detaljerade instruktioner för den vanligaste proceduren.
+After an update, the BSMG discord `#server-announcements` channel should have the most up to date instructions on the status of mods. Följande är mer detaljerade instruktioner för den vanligaste proceduren.
 
-#### Uppdateringen tog sönder mina mods
-**Kör spelet en gång** i den nya uppdateringen. Installera sedan om dina mods med hjälp av ett installationsprogram länkat i [nybörjarguiden](/beginners-guide), till exempel Mod Assistant.
+### Update broke my mods
+**Kör spelet en gång** i den nya uppdateringen. Then, reinstall your mods using an installer linked in the [beginner's guide](/beginners-guide), such as Mod Assistant.
 
 ## 1. Inga mods?
 
-#### 1.1 Inga mods visas på en ny kopia av spelet
+### Misc Questions
+
+#### 1.1 No mods appear on a fresh copy of the game
 Först, se till att följande stämmer:
-* **Du körde spelet en gång innan du installerade mods**. BSIPA tar bort alla mods på den första körningen av en ny uppdatering för att förhindra att trasiga gamla mods laddas in på en ny version. Installera om mods igen om detta är fallet.
-* Steam/Oculus lanserar Beat Saber från **samma installation** som mods är i. *t.ex. mods finns på D-disken men Steam startar från C-disken.* Ställ in rätt installationsplats i ditt installationsprogram.
-* Om du har installerat mods manuellt, se till att du inkluderade alla filer från nedladdningen och lägg dem i rätt mappar, såväl som deras dependencies.
 
-#### 1.2 Jag hade mods installerade på en äldre version, men inget laddar in efter en uppdatering
+* **You ran the game once before installing mods**. BSIPA removes all mods on the first run of a fresh update to prevent broken old mods from loading on a new version. Reinstall mods again if this is the case.
+* Steam/Oculus is launching Beat Saber from the **same installation** that mods are in. *e.g. mods are on the D drive but steam is launching from the C drive.* Set the correct install location in your choice of installer.
+* If you installed mods manually, make sure you included all the files from the download and put them in the correct folders, as well as their dependencies.
 
+#### 1.2 I had mods installed on an older version, but nothing loads after an update
 Om detaljerna i punkt 1.1 ovan är korrekta prova lösningarna nedan i fallande ordning.
 
-**Lösning 1**
-- Uppdatera BSIPA till den senaste versionen (i ModAssistant eller manuellt)
-- Navigera till din Beat Saber-mapp
-- Kör `IPA.exe`
+##### Solution 1
 
-**Lösning 2.**
--  [Verifiera dina spelfiler](#verify-game-files-for-steam) (Bara för Steam, Oculus användre refererar till Lösning 4)
-- Uppdatera BSIPA till den senaste versionen
-- Navigera till din Beat Saber-mapp
-- Kör `IPA.exe`
+* Uppdatera BSIPA till den senaste versionen (i ModAssistant eller manuellt)
+* Navigera till din Beat Saber-mapp
+* Kör `IPA.exe`
 
-**Lösning 3.**
-- Navigera till din Beat Saber-mapp
-- Gör en backup av mappen `UserData` (valfritt)
-- Ta bort UserData
+##### Solution 2
 
-::: warning Detta kommer att återställa alla plugin-inställningar! :::
+* [Verifiera dina spelfiler](#verify-game-files-for-steam) (Bara för Steam, Oculus användre refererar till Lösning 4)
+* Update BSIPA to the latest version
+* Go into your Beat Saber folder
+* Run `IPA.exe`
 
-**Lösning 4.**
-- Utför en [Clean Installation](#clean-installation)
+##### Solution 3
 
-#### 1.2 ModAssistant verkar inte installera några plugins
-Installatörerna laddar ner mods till `Beat Saber/IPA/Pending`, BSIPA flyttar dessa filer till rotmappen när du startar spelet. Om plugins-mappen för ditt spel fortfarande är tom efteråt, kör `IPA.exe` igen och se till att ingenting hindrar den från att köra, t.ex. `Anti-virus, administratörsbehörigheter etc.`
+* Navigera till din Beat Saber-mapp
+* Gör en backup av mappen `UserData` (valfritt)
+* Ta bort UserData
+
+::: warning This will reset all plugin settings! :::
+
+##### Solution 4
+
+* Utför en [Clean Installation](#clean-installation)
+
+#### 1.2 Mod Assistant doesn't seem to be installing any plugins
+The installers download mods to `Beat Saber/IPA/Pending`, BSIPA moves these files to root folder when you launch the game. If your game Plugins folder still is empty afterwards, run `IPA.exe` again and make sure that nothing is preventing it from running, e.g. `Anti-viruses, Admin permissions, etc.`
 
 ## 2. Spelproblem Post-Modding
-### Spelet startar inte
 
-#### 2.1 GetThreadContext Failed
-Om ett fönster dyker upp som säger `GetThreadContext Failed` och/eller du hör ett Windows felljud kan du ha programvara på datorn som gör att Beat Saber-mods inte fungerar. Många tredjeparts anti-cheat programvara som ESEA och FaceIt stör BSIPA från att tillämpa mods till Beat Saber, även när de inte körs. Vissa antivirusprogram uppvisar också liknande beteende.
+### Game Won't Start
 
-För att lösa detta problem:
+#### 2.1 GetThreadContext Failed Error
+If a window pops up saying `GetThreadContext Failed` and/or you hear a Windows error sound, you may have software on your PC that breaks Beat Saber mods. Many third-party anti-cheat software like ESEA and FaceIt disrupt BSIPA from applying mods to Beat Saber, even when not running. Some Anti-Virus software also exhibit similar behavior.
+
+To solve this problem:
+
 1. Avinstallera anti-cheat programvaran.
 2. Starta om din dator.
 3. Kontrollera om några rester av programvaran fortfarande finns i `AppData` -mapparna.
-4. Kör spelet. Om problem kvarstår, prova följande: `Ytterligare anmärkning: Problemet kan kvarstå på grund av att det saknas behörigheter eller andra undantag. Program som kan blockera BSIPA, eller program markerade misstänkta, kan också få problemet att kvarstå` Steam: [Verify Steam Game Files](#verify-game-files-for-steam) Oculus: Utför en [Clean Installation](#clean-installation)
+4. Kör spelet. If problems persist then try the following: `Additional Note: The problem can continue to persist due to lacking permissions or exceptions, any program that can
+block BSIPA, or programs marked suspicious can make this problem persist` Steam: [Verify Steam Game Files](#verify-game-files-for-steam) Oculus: Perform a [Clean Installation](#clean-installation)
 
-Detta bör åtgärda problemet.
+This should fix the problem.
 
-#### 2.2 Fryst vid start
-Om spelet är fryst på skärmen om hälsa och säkerhet, eller om du ser en avatar som T-poserar, utan kontroll över spelet, [verifiera dina filer](#verify-game-files-for-steam) om du har spelet på Steam eller installera om spelet på Oculus Home. Se [Clean installation](#clean-installation) Detta verkar hända när du uppdaterar Beat Saber och har tidigare installerade mods, men händer inte användare med nya installationer av spelet.
+#### 2.2 Frozen on Startup
+If the game is frozen at the Health and Safety screen, or you see an avatar T-posing with no control of the game, [verify your files](#verify-game-files-for-steam) if you have the game on Steam, or reinstall the game on Oculus Home. Refer to [Clean Installation](#clean-installation)
 
-### Problem med framerate
-#### 2.3 Spelet stammar outhärdligt efter installation av mods
-Om spelet laggar så pass dåligt att du knappt kan klicka på `Continue`-knappen på Health & Safety-skärmen, verifiera då dina filer om du har spelet på Steam, eller installera om spelet på Oculus Home. Gör samma sak om det inte startar upp alls och inte visar några felmeddelanden när du försöker starta spelet.
+This seems to happen when updating Beat Saber and having mods installed previously, but not to users with clean installs of the game.
 
-Om det inte löste problemet kan du läsa avsnittet [2.4 Förbättra framerate](#framerate-issues)
+### Framerate Issues
 
-#### 2.4 Förbättra framerate
-Om [2.3](#2-3-the-game-stutters-unbearably-after-installing-mods) inte förbättrade dina fps, så kan datorn helt enkelt kämpa för att hålla jämna steg med den stress som orsakas av mods. Här är några saker du kan göra för att förbättra framerate, i ingen speciell ordning:
+#### 2.3 The game stutters unbearably after installing mods
+If the game lags so badly that you can barely click the `Continue` button on the Health & Safety screen, then verify files if you have the game on Steam, or reinstall the game on Oculus Home. Do the same if it won't start up at all and shows no error messages when trying to launch the game.
 
-* Kontrollera om NVIDIA GEFORCE EXPERIENCE sätter render scale för Beat Saber förbi standarden 1,0. Det kan ha satt det till ett högre antal som 1,4 eller 1,8 vilket avsevärt ökar GPU-belastningen.
-* Använd en mindre komplex avatar.
+If that didn't solve the issue, then check section [2.4 Improving framerate](#framerate-issues)
+
+#### 2.4 Improving Framerate
+If [2.3](#2-3-the-game-stutters-unbearably-after-installing-mods) didn't improve your fps, then your PC might simply be struggling to keep up with the stress caused by mods. Here are some things you can do to improve framerate, in no particular order:
+
+* Check to see if NVIDIA GEFORCE EXPERIENCE set the rendering scale for Beat Saber past the default of 1.0. It may have set it to a higher number to 1.4 or 1.8 which significantly increases the GPU load.
+* Use a less complex custom avatar.
 * Den anpassade sabeln **Plasma Katanas** har massor av anpassade händelser och är ökända för att lagga ditt spel om du missar.
 * CameraPlus kan vara mycket beskattande, särskilt om du har flera kameror och ökat FOV.
 * Vrid ned Render Scale, Anti-Aliasing, mirror, fog, etc. i spelsinställningarna.
-* För Oculus CV1- eller Riftspelare: överväg att använda 2 sensorer istället för 3+.
+* For Oculus Rift (CV1) players: consider using 2 sensors instead of 3+.
 * Minska ditt totala antal mod och banor.
 * Utför en [Clean Installation](#clean-installation) av dina spelfiler.
-* Låg framerate kan också bero på något som går fel inom din applikationsdata mapp, för att lösa detta hänvisar vi dig till [Radera Beatsaber Mappen i din AppData](#deleting-your-save-in-appdata)
-* Inaktivera CountersPlus counters som poängräknare och svinghastighet eftersom de kan vara tunga.
+* Low framerate can also be caused by something going wrong within your application data folder, to fix this refer to [Deleting The Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
+* Disable CountersPlus counters like score counter and swing speed as they can be expensive.
 * HTTPStatus-moddet kan orsaka lag spikes. Testa utan detta mod för att se om dina lag spikes försvinner.
 
-VR är mycket CPU-intensivt, särskilt om du lägger till mods. Om du kämpar för att köra spelet med de mods du vill, överväg att uppgradera din hårdvara. Observera att Beat Saber inte utnyttjar GPU så mycket då det är ett ganska enkelt spel grafiskt sätt.
+VR is very CPU intensive, especially if you add mods. If you're struggling to run the game with the mods you want, consider upgrading your hardware. Note that Beat Saber doesn't utilize the GPU very much as visually it's a fairly simple game.
 
 ## 3. Vanliga frågor
-#### 3.1 Blank meny, inga knappar
-Om huvudfönstret i ditt spel är tomt är det sannolikt att din sparfil blev korrupt. För att lösa detta hänvisar vi dig till att [Radera Beatsaber mappen i din AppData](#deleting-your-save-in-appdata)
 
-::: warning Detta kommer att ta bort dina lokala poäng och statistiker. :::
+### Misc
 
-#### 3.2 Hur använder jag moddet `x`?
-Om du använder ModAssistant, tryck på moddet och sedan på knappen "Mod Info". http://beatmods.com har en "More Info" knapp på varje mod också.
+#### 3.1 Blank Menu, No Buttons
+If your main window in game is blank, your save file likely got corrupted. To fix this refer to [Delete Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
 
-#### 3.3 Problem med vibration
-Gameplay Modifiers Plus lägger till ett alternativ för att aktivera/inaktivera vibrationer i kontrollerna. Om du inaktiverade den och sedan tog bort moddet måste du ändra sparfilen som den skriver till manuellt. Öppna `%appdata%/../locallow/hyperbolic magnetism/beat saber` och sätt `controllerRumbleEnabled` till `true`.
+::: warning This will delete your local scores and statistics. :::
 
-Om detta inte är orsaken till dina vibrationsproblem och följande är sant när det gäller dina haptiker:
+#### 3.2 How do I use `x` mod?
+If you're using Mod Assistant, click the mod and hit the "Mod Info" button. [BeatMods](http://beatmods.com) has a "More Info" button on each mod as well.
+
+#### 3.3 Rumble Issues
+Gameplay Modifiers Plus had a toggle to enable/disable controller rumble. If you disabled it then removed the mod, you'll need to modify the save data file that it writes to manually. Open `%appdata%\..\LocalLow\Hyperbolic Magnetism\Beat Saber\settings.cfg` and set `controllersRumbleEnabled` to `true`.
+
+If this isn't the cause of your rumble issues and the following are true regarding your haptics:
+
 * haptikerna är minimala
 * det finns ingen vibration när du slår flera block
 * det finns en liten fördröjning när man vidrör sablarna tillsammans
 * du använder oculus touch-kontroller
 
-Då finns det en god chans att Beat Saber överbelastar moderkortets USB-styrenhet. Oculus slukar dina USB-kontrollers bandbredd och de flesta moderkort har en mycket billig styrenhet. Beat Saber belastar dem mer än något annat spel vilket är varför andra spel och menyer kan fungera. Det finns ingen klar lösning, så prova följande:
+Then there is a good chance that Beat Saber is overloading your motherboard's USB controller. Oculus devours your USB controller bandwidth and most motherboards come with a very cheap controller. Beat Saber pushes it harder than any other game, which is why other games and menus might be fine. There is no clear-cut solution, so try the following:
+
 * Koppla in och byta runt kablarna till dina sensorer och dina HMB USB-kablar i andra portar
 * Koppla från onödiga USB-enheter
 * Köp en PCI-E USB-hubb
 * Använd `-vrmode oculus` om du använder SteamVR för att kringgå det och använd Oculus SDK istället
 
-### Anpassade Avatarer
-#### 3.4 Anpassade avatarer som (inte) visas i spelet
-Klicka på knappen **Home** på tangentbordet med spelet i fokus för att växla synlighet i headsetet.
+### Custom Avatars
 
-#### 3.5 Mina avatarer är sönder
-Se till att ditt avatar-plugin är korrekt installerat och uppdaterat. Se till att dina dependencies också är. Du kan även har en korrupt/trasig avatar. Att ha en söndrig avatar kan ta sönder alla dina andra avatarer likaså banor och sablar.
+#### 3.4 Custom Avatars (Not) Showing Ingame
+Click the **Home** button on your keyboard with the game in focus to toggle visibility in the headset.
 
-### Nedladdade banor
+#### 3.5 My Avatars Are Broken
+Make sure your custom avatars plugin is installed properly and updated, also make sure your dependencies are too. You might have a corrupted/broken avatar, having one avatar break can break all of your avatars likewise with songs and sabers.
 
-#### 3.6 Mina banor saknas
-Se till att dina låtar finns i mappen `CustomLevels` som finns i `Beat Saber/Beat Saber_Data/`. Detta är den directory som spelet läser nedladdade banor ifrån.
+### Custom Songs
 
-Placera **inte** banor i mappen `Beat Saber/CustomSongs`. Denna plats är föråldrad då formatet för banor har ändrats. Om du har banor i det gamla formatet (`.json` och `.ogg` istället för `.dat` och `.egg`), lämna dem i den gamla `Beat Saber/CustomSongs`-mappen. De kommer sedan att konverteras automatiskt av SongCore-moddet.
+#### 3.6 My Songs Are Missing
+Make sure your songs are in your `CustomLevels` folder, located at `Beat Saber/Beat Saber_Data/`. This is where the game natively reads custom songs from.
 
-Alternativt kan du manuellt konvertera dem med [Song Converter](https://github.com/lolPants/songe-converter)
+**Do not** place songs in the old `Beat Saber/CustomSongs` folder. This location is deprecated as the format for custom songs has changed. If you have maps in the old format (`.json` and `.ogg` files instead of `.dat` and `.egg`), leave them in the old `Beat Saber/CustomSongs` folder. You will need to download them again from BeatSaver.
 
-#### 3.7 Gråfärgad Play-knapp
-Klicka på det blåa frågetecknet (?) i det övre högra hörnet. Detta bör tala om vilka mods som krävs för att spela banan, som du saknar. Om det fortfarande inte fungerar, prova att installera om banans nödvändiga plugins. Utför en [Clean Installation](#clean-installation).
+Alternatively you can manually convert them using [Song Converter](https://github.com/lolPants/songe-converter) however, you will not get any help with this method and need to compile the program yourself.
 
-#### 3.8 Detaljerna för en bana laddas oändligt
-Om detta bara händer på vissa banor är deras filer förmodligen sönder. Om det händer med alla dina banor ta bort mappen `Plugins` och installera om nya.
+#### 3.7 Grayed Out Play Button
+Click the shiny blue question mark (?) button in the top right corner. This should tell you what mods are required to y the song, which you are missing and should install. If it is still not working, try re-installing the required plugin. Otherwise try a [Clean Install](#clean-installation).
 
-### Camera Plus
-#### 3.9 Camera Plus fungerar inte/förbi hälsoskärmen
-Se till att inställningen i spelet för "Smooth Camera" är avstängd i dina spelinställningar. Om det inte fungerar, försök att installera om det och tillhörande dependencies.
+#### 3.8 Map details are infinitely loading
+If this only happens on particular maps, you may be missing required mods or those song files are broken. If it happens to all of your maps, delete your `Plugins` folder and reinstall fresh ones.
 
-#### 3.10 Min skrivbordsvy tar bara upp en liten del av skärmen
-Din CameraPlus-skärm fyller inte upp din canvas. Dra hörnet för att passa in skärmen, eller högerklicka på fönstret och klicka på "Fit to Canvas".
+### CameraPlus
+
+#### 3.9 CameraPlus Isn't Working/Past Health Screen
+Make sure the in-game setting for "Smooth Camera" is turned off in your in-game settings. If that does not work, try reinstalling it and associated dependencies.
+
+#### 3.10 My desktop view only takes up a small section of the screen
+Your CameraPlus display isn't filling up your canvas. Either drag the corner to fit the screen, or right click the window and click "Fit to Canvas".
 
 ### BeatSaver Downloader
-#### 3.11 BeatSaver Downloader More Songs-knapp
-**Knappen More Songs finns i huvudmenyn till vänster under texten Mods.** Om knappen för fler låtar är gråtonad så se till att alla dina låtar laddas först, som syns i den regnbågsfärgade indikatorn på huvudmenyn. Om din modsmeny inte finns där så se till att dina plugins och dependencies fungerar och installeras korrekt. Se sektionen [No Mods?](#_1-no-mods)
 
-#### 3.12 Ingenting dyker upp i menyn för More Songs
-De troliga orsakerna till att beatsaver downloader inte fungerar är:
+#### 3.11 BeatSaver Downloader More Songs Button
+**The More Songs button is located in the main menu to the left under the Mods text.** If the button for More Songs is greyed out then make sure all your songs loaded first, as seen in by the rainbow progress bar on the main menu. If your Mods menu isn't there then make sure your plugins and dependencies are working and installed properly, refer to the [No Mods?](#_1-no-mods) section.
+
+#### 3.12 Nothing Showing Up In The More Songs Menu
+The probable causes for beatsaver downloader not working are:
+
 1. Se till att alla dina banor har laddats in tidigare, annars kommer More Songs-knappen vara gråtonad.
 2. Ditt anti-virus eller din brandvägg blockerar åtkomst till BeatSaver.
 3. Du har träffat Beatsavers hastighetsbegränsning och måste vänta innan du försöker igen.
 
 ## 4. Diverse felsökning
-### Förstå loggar
-Om du är på Steam kan du gå till
+
+### Understanding Logs
+If you're on Steam you can go to
 > Beat Saber > Properties > Set Launch Options > Lägg till `--verbose` i textfältet som visas
 
-Om du är på Oculus då måste du högerklicka på Beat Saber.exe och skapa en genväg. Redigera målet och lägg till "--verbose" till slutet av det. t.ex. `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe --verbose`
+If you're on Oculus then you will have to Right click on Beat Saber.exe and create a shortcut. Edit the Target to add "--verbose" to the end of it. e.g. `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" --verbose`
 
-Efter att du lagt till verbose till ditt spel kommer det förhoppningsvis att visa eventuella fel när det gäller avatarer, sablar och banor
-* Detta visas kanske inte 100% av tiden för avatarer och sablar, och du kan behöva ta bort alla dina avatarer/sablar och prova dem en efter en för att se vilken som tar sönder spelet.
+After adding verbose to your game hopefully it will display any errors regarding your avatars, sabers, and songs
 
-Dessa meddelanden är också skrivna till `Beat Saber/Logs`.
+* This may not show 100% of the time for avatars and sabers, and you may have to remove all your avatars/sabers and try them one by one to see which one breaks the game.
 
-En lista över vanliga undantag finns [här](./exceptions.md).
+These messages are also written to `Beat Saber/Logs`.
 
-### Verifiera spelfiler för Steam
-För att verifiera integriteten av spelfiler följer du dessa steg:
+A list of common exceptions can be found [here](./exceptions.md).
+
+### Verify Game Files For Steam
+To verify integrity of game files follow these steps:
+
 1. Se till att steamvr är stängt eftersom det inte låter dig verifiera dina spel annars.
 2. Gå till ditt steambibliotek och hitta Beat Saber
 3. Högerklicka på Beat Saber och klicka på Properties
@@ -180,56 +205,61 @@ För att verifiera integriteten av spelfiler följer du dessa steg:
 5. Välj alternativet "Verify Integrity Of Game Files".
 6. Låt verifieringen slutföras och ladda ner saknade filer. Du bör nu vara redo att köra.
 
-Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it is on the old steam UI the steps are still the same.
+Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it is on the old steam UI, the steps are still the same.
 
 ### Clean Installation
+
 1. (Valfritt) Gör en backup av ditt nedladdade innehåll genom att göra en kopia av följande mappar:
+
 * `Beat Saber\Beat Saber_Data\CustomLevels`
 * `Beat Saber\CustomSabers`
 * `Beat Saber\CustomPlatforms`
 * `Beat Saber\CustomNotes`
 * `Beat Saber\CustomAvatars`
 
-2. **Ta bort HELA mappen Beat Saber.** Detta skiljer sig från att avinstallera spelet på Steam, eftersom dessa metoder inte kommer att ta bort filer som inte kom med spelet.
-> Steam:     ``\steamapps\common\Beat Saber\`
+2. **Delete the ENTIRE Beat Saber Folder.** This is different from uninstalling the game on steam, as those methods will not remove files that did not come with the game.
+
+> Steam: ``\steamapps\common\Beat Saber\`
   Oculus:``\hyperbolic-magnetism-beat-saber\`
 
-3. Installera om spelet via Steam eller Oculus store
-4. **Före moddning, starta spelet en gång**
-5. Kör ModAssistant, installera dina mods, och starta upp spelet.
+3. Reinstall the game via the Steam or Oculus store
+4. **Before modding, launch the game once**
+5. Run Mod Assistant, install your mods, and boot up the game.
 
-(Valfritt) Om du vill ta det ett steg längre, se: [Deleting The Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
+(Optional) If you want to take it one step further, refer To: [Deleting The Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
 
-### Ta bort din sparfil i AppData
-Detta kommer att ta bort dina poäng och lokala data, men inte din egen leaderboard/ScoreSaber statistik. Du kan hitta mappen i
+### Deleting Your Save in AppData
+This will delete your scores and local data, but not your custom leaderboard/ScoreSaber stats. You can find the folder at
 > `%appdata%/../locallow/hyperbolic magnetism/beat saber`
 
-Kopiera och klistra in allt från i fältet ovan och klistra in det i adressfältet i utforskaren och ta bort den.
+Copy and paste everything from inside the bar above and paste it to your address bar in file explorer and delete it.
 
-Du kan också komma till denna mapp genom att visa dolda objekt och navigera till din
-> Användare > "ANVÄNDARNAMN" > AppData > Local Low > Hyperbolic-magnetism
+You can also get to this folder by showing hidden items and navigating to your
+> Users > "USER" > AppData > Local Low > Hyperbolic-magnetism
 
 <YouTube url='https://youtu.be/ONxJcD3Ir3Q' />
 
-::: warning Radering av Appdatamappen kommer också att radera dina lokala resultat och statistiker. :::
+::: warning Deleting the Appdata folder will also delete your local scores and statistics. :::
 
-#### Desperata åtgärder
-::: warning Att inaktivera ditt anti-virus innebär säkerhetsrisker, se till att veta vad du gör (ladda t.ex inte ner eller öppna misstänkta filer när den är inaktiverat) och glöm inte att återaktivera anti-viruset så snart du avslutat dessa steg. :::
+#### Desperate Measures
+::: warning Disabling your anti-virus involves security risks, be sure to know what you're doing (i.e don't download or open suspicious files while it's turned off) and don't forget to re-enable it as soon as you finished these steps. :::
+
 * Se till att din nuvarande användare **är en administratör**
 * **Stäng av** ditt anti-virus (tills vidare)
-* Se till att du har behörighet att skapa mappar och redigera filer i diskenheten/din dator, (från vad jag hört har en nylig Windows-uppdatering orsakat problem för vissa)
-* Se till att dina drivrutiner är uppdaterade
+* Ensure that you have permission to create folders and edit files within the disk drive/your pc, (from what I heard a windows update recently caused problems for people)
+* Ensure that your drivers are up to date
 * Kontrollera att problemet inte har med ditt headset eller operativsystem att göra, eller din hårdvara/mjukvara
 * Kontrollera din internetuppkoppling och att ingenting blockerar något i samband med beatsaber moddning eller Steam etc.
 
 ## 5. Har fortfarande problem
-Om denna sida inte täcker 100% är du välkommen att ställa en fråga i diskoteket! För att öka chansen att du får dina frågor besvarade överväg följande:
-* Använd rätt kanaler, `#pc-help` för pc mod support och `#quest-help` för quest mod support. Använd  `#pc-3d-modeling` och `#quest-3d-modeling` för frågor om **att skapa egna avatarer, plattformar, block eller sablar**och `#mapping-discussion` för frågor om **att göra banor.**
-* Var artig och respektfull
+If this page doesn't cover the bases, then feel free to ask a question in the discord! To increase the chance that you'll have your questions answered, consider the following:
+
+* Use the correct channels please, `#pc-help` for pc mod support and `#quest-help` for quest mod support. Use `#pc-3d-modeling` and `#quest-3d-modeling` for questions about **making your own avatars, platforms, notes, or sabers**, and `#mapping-discussion` for questions about **making maps.**
+* Be polite and respectful
 * Beskriv ditt problem i detalj. "Det fungerade inte" är ungefär lika beskrivande som att tala om för din läkare att du inte mår bra. Vad fungerar inte, och vad försökte du? Finns det några meddelanden som kommer upp på skärmen? Blev hela din skärm ljuslila?
 
-::: tip OBS! De med `Support`-rollen är volontärer som kan välja att hjälpa till på fritiden. Supportrollen är ett erkännande av den kunskap och de ansträngningar de har lagt fram, men det betyder inte nödvändigtvis att de kommer att vara aktiva och hjälpa bara för att de är online. :::
+::: tip NOTE Those with the `Support` role are volunteers that might choose to help out in their free time. The support role is in recognition of the knowledge and effort they have put forth, but it doesn't necessarily mean that they'll be around to help just because they're online. :::
 
-Tack!
+Thank you!
 
-> Tack till Saber-Chan för deras hårda arbete på denna sida.
+> Thank you to Saber-Chan for their hard work on this page.

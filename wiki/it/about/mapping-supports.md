@@ -19,15 +19,18 @@ A mapper and testplayer who focuses on metal music, and lots of multi-diff maps.
 [BeatSaver](https://beatsaver.com/uploader/5eb6eb9a7abb000006c85add) | [BeastSaber](https://bsaber.com/members/cyrix/)
 
 ## fruhead
-Un mappatore che si concentra sulla creazione di mappe accessibili per esperti minori e sottostanti. Originalmente entro nella creazione di mappe per aggiungere altre mappe rock e metal per competere con le mappe weeb e nightcore, per poi finire per crearne altre. Testa le mappe a occasioni, sebbene abbia lo Stress Post Traumatico dal 1999 e sia il redattore ufficiale. Creator of the [Beginner's Guide to Mapping tutorial series](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm).  
+Un mappatore che si concentra sulla creazione di mappe accessibili per esperti minori e sottostanti. Originally got into mapping in order to add some more rock and metal maps to compete with the weeb and nightcore maps, only to end up making more weeb and nightcore maps. Testa le mappe a occasioni, sebbene abbia lo Stress Post Traumatico dal 1999 e sia il redattore ufficiale. Creator of the [Beginner's Guide to Mapping tutorial series](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm).
+
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c852683) | [BeastSaber](https://bsaber.com/members/fruhead/)
 
 ## Helen Carnate
-The plushie queen who organized the majority of the mapping resources. The guides wouldn't be like they are today without them!  
+The plushie queen who organized the majority of the mapping resources. The guides wouldn't be like they are today without them!
+
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c8553d2) | [BeastSaber](https://bsaber.com/members/helencarnate/) | [Etsy Shop](https://www.etsy.com/shop/HelenCarnateDesigns)
 
 ## Skeelie
-Bringer of eye damage with his flashy light shows, he can help you make your map shine!  
+Bringer of eye damage with his flashy light shows, he can help you make your map shine!
+
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f) | [BeastSaber](https://bsaber.com/members/skeelie/) | [YouTube](https://www.youtube.com/user/xSkeelie) | [Twitch](https://www.twitch.tv/skeelie)
 
 ::: tip See Also **Supports:** [Kolezan](./supports.md#kolezan)  

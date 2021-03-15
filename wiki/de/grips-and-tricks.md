@@ -3,7 +3,7 @@ sidebar: auto
 ---
 
 # Griffe und Tricks
-_Eine Zusammenfassung von Inhalten die dir helfen, Blöcke zu treffen_
+_Eine Zusammenfassung von Inhalten die dir helfen, Blöcke richtig zu treffen._
 
 ## Rangaufstieg Mega-Tutorial
 Eine unglaubliche Zusammenfassung, geschrieben von TeknozFR um dir dabei zu helfen PP zu bekommen. [Ranglisten & Punkte Guide](./ranking-guide)
@@ -15,15 +15,15 @@ Schau dieses Video von [Cube Community YT](https://www.youtube.com/channel/UCdG9
 
 Zusätzlich, hier ist ein Bild von den Entwicklern, wie [Hitboxen](https://twitter.com/Split82/status/979365834324889600) funktionieren
 
-![Bloq Trefferbereiche](~@images/mapping/hitbox-from-split.jpg)
+![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
 
 ## Ranglisten
 *Wie funktioniert die globale Rangliste? Was sind Performance Punkte? Was sind die Zahlen in den Klammern? Warum sind meine PP so niedrig?*
 
-Du kannst deinen eigenen Rang und deine PP auf [ScoreSaber](https://scoresaber.com/global) finen. Suche hier einfach nach deinem Namen. Dein Scoresaber Account ist an denen Steam / Occulus Nutzernamen gebunden.
+Du kannst deinen eigenen Rang und deine PP auf [ScoreSaber](https://scoresaber.com/global) finen. Suche hier einfach nach deinem Namen. Dein Scoresaber Account ist an deinem Steam / Occulus Nutzernamen gebunden.
 
-1. Bewerteten Songs werden PP (Performance Punkte) zugeordnet. Die genaue Anzahl der gewonnenen PP wird durch die Genauigkeit bestimmt, mit der du einen Bewerteten Song beendest. Wie viele PP ein Song wert ist wird durch einen geheimen Algorithmus, entwickelt von Umbranox, unserem Panda-Gott, bestimmt.
-2. Um zu vermeiden das sehr gute Spieler nur sehr einfache Songs in Massen spielen, die aber nur wenige Punkte wert sind, wird eine Kurve für deine Versuche angewendet. Diese Kuve ist 0.965^(x-1) wobei x die Position des jeweiligen Songs auf deiner Punkteliste ist. z.B. Wenn dein Bester Song dir 260PP gebracht hat, bekommst du 260 gewichtete PP. Das sind dann 100% der rohen PP dieses Versuchs. Wenn dein zweitbester Song 247 rohe PP hat, bekommst du 287 gewichtete PP. Dies ist die tatsächliche Menge an Punkten, die du bekommst, nachdem die Kurve angewendet wurde. Hier ist eine Liste meiner 4 Besten Songs, wobei die rohen PP in kursiv und die gewichteten PP in fett, dargestellt sind.
+1. Bewertete Songs werden PP (Performance Punkte) zugeordnet. Die genaue Anzahl der gewonnenen PP wird durch die Genauigkeit bestimmt, mit der du einen bewerteten Song beendest. Wie viele PP ein Song wert ist, wird durch einen geheimen Algorithmus entwickelt, von Umbranox, unserem Panda-Gott bestimmt.
+2. Um zu vermeiden, das sehr gute Spieler nur sehr einfache Songs in Massen spielen, die aber nur wenige Punkte wert sind, wird eine Kurve für deine Versuche angewendet. Diese Kurve ist 0.965^(x-1), wobei x die Position des jeweiligen Songs auf deiner Punkteliste ist. z.B. wenn dein Bester Song dir 260PP gebracht hat, bekommst du 260 gewichtete PP. Das sind dann 100% der rohen PP dieses Versuchs. Wenn dein zweitbester Song 247 rohe PP hat, bekommst du 238 gewichtete PP. Dies ist die tatsächliche Menge an Punkten, die du bekommst, nachdem die Kurve angewendet wurde. Hier ist eine Tabelle um dieses System zu illustrieren:
 
 | Rohe PP | Gewichtete PP                   |
 | ------- | ------------------------------- |
@@ -32,11 +32,11 @@ Du kannst deinen eigenen Rang und deine PP auf [ScoreSaber](https://scoresaber.c
 | 246pp   | **229pp** (93.1% der rohen PP)  |
 | 244pp   | **219pp**  (89.9% der rohen PP) |
 
-3. Um Ränge aufzusteigen, bekomme Punkte in neuen Songs, die mehr oder ähnlich viele PP bringen wie deine Top-Scores. Wenn du keine Songs mit vielen verfügbaren PP zum Spielen mehr hast, spiele Songs auf deinen ersten Seiten erneut um bessere Punktzahlen zu erreichen. Hier ist eine [Tabelle von DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) aller Bewerteten Songs und wie viel PP sie wert sind. Diese Liste wird alle 24 Stunden aktualisiert.
+3. Um dich zu verbessern und einen besseren Rang im globalen Ranking zu erlangen, gibt es eine ganze Reihe von Tools, die du benutzen kannst, um Songs zu finden, die deinem Skilllevel entsprechen. Zuerst einmal ist es immer gut, auf dein [ScoreSaber](https://scoresaber.com/global)-Profil zu schauen um immer zu wissen, welche Songs du seit langem nicht mehr gespielt hast oder auf denen du dich verbessern könntest. Außerdem kannst du hier nach deinen insgesamt besten Punktzahlen schauen. Die [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) oder die [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme) Browsererweiterung kann die Funktionalität deines Profils erweitern. [BaliBilo's ScoreSaber-Seite](https://scoresaber.balibalo.xyz/peepee) und [Beat Savior](https://www.beatsavior.io/) sind externe Seiten, die dir helfen können Songs zu finden, die dir beim Verbessern helfen können und dich deine Performance besser verfolgen lassen.
 
-Hier ist eine weitere Seite von [DuoVR](https://duovr.github.io/BigPP/) auf der du dein Scoresaber Profil eingeben kannst und es zeigt dir Songs an, die du für eine Menge PP spielen solltest.
+Weitere Informationen findest du im [Ranking & Scoring Guide](./ranking-guide.md).
 
-*Dieser Abschnitt ist angelehnt an Tek's Ausführung im Beat Saber Canadian discord.*
+*Dieser Abschnitt ist angelehnt an Tek's Ausführung im Beat Saber Canadian Discord.*
 
 ::: tip Songs werden vom Team im [ScoreSaber Discord](https://discord.gg/WpuDMwU) eingestuft. Du kannst diesem Server folgen, um zu sehen, welche Änderungen passieren! :::
 
@@ -76,7 +76,7 @@ Dein Körper kann eine Basisstation davon abhalten, einen deiner Controller zu s
 Dies trifft auch auf Oculus Sensoren zu.
 
 ## Touch Controller Batterie Verbindungsfehler
-Zu viel Kraft deiner Schwünge in Beat Saber kann dazu führen, dass die Federn in den Controllern an Spannung verlieren und die Verbindung zum Akku kurzzeitig getrennt wird. Ebenfalls können aber auch Schläge gegen Objekte im Raum dazu führen, dass die Batterien die Feder zu sehr nutzt und sie dadurch ausleiern und brechen. Das passiert wenn dein Schwert kurzzeitig die Positionserkennung verliert und sich auf der Stelle dreht. Um diesen Effekt zu verringern empfiehlt ragesaq zusätzliche Federn in das Batteriefach einzusetzen und so die Wahrscheinlichkeit von Verbindungsabbrüchen zu verringern. Er erklärt dies in diesem [Reddit post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
+Zu viel Kraft in deinen Swings in Beat Saber kann dazu führen, dass die Federn in den Controllern an Spannung verlieren und die Verbindung zum Akku kurzzeitig getrennt wird. Ebenfalls können aber auch Cuts gegen Objekte im Raum dazu führen, dass die Batterien die Feder zu sehr nutzt und sie dadurch ausleiern und brechen. Das passiert wenn dein Schwert kurzzeitig die Positionserkennung verliert und sich auf der Stelle dreht. Um diesen Effekt zu verringern empfiehlt ragesaq zusätzliche Federn in das Batteriefach einzusetzen und so die Wahrscheinlichkeit von Verbindungsabbrüchen zu verringern. Er erklärt dies in diesem [Reddit Post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
 
 ## Bedenke außerdem
 ![Bedenke außerdem](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)

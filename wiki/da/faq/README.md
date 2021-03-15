@@ -1,4 +1,5 @@
 # Ofte Stillede Spørgsmål
+
 ## Jeg har lige fået spillet. Hvordan kommer jeg i gang?
 Check out our [beginner's guide](/beginners-guide.md)!
 
@@ -12,18 +13,23 @@ Hvis du henter baner manuelt fra BeatSaver, så udpak dem i en mappe og placér 
 
 ### Sangstyringsværktøjer
 The following are programs to be used on the desktop to help you download custom songs, with some other features as well.
+
 * [Beat Saber Downloader](https://drive.google.com/file/d/1QWedF77hWYbqcigIWa2UcpXlhqGTjwR1/view) a map downloader by Sturdyfool0.
 * [BeatList](https://github.com/Alaanor/beatlist) is an app to manage playlist and beatmaps, by Alaanor.
 
 ## Hvordan installere jeg playlister?
-**For pc-brugere:**  
-Du skal installere `PlaylistLoaderLite` mod. Then you can either
+
+### PC
+You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod.
+
+Then you can either:
+
 * Brug værktøjet `Install Playlist` i fanen Indstillinger i Mod Assistant.
-* Place the playlist file into `Beat Saber/Playlists` and select it in BeatList, then hit download all.
+* Place the playlist file into `Beat Saber/Playlists`, select it in-game, then hit download all songs.
 
-You should now see the playlist next to the Custom Levels album's in-game. If there are levels missing from the playlist, you will need to download them manually either using BeatList or directly from Beatsaver or Bsaber.
+You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
 
-**For Quest users:**  
+### Quest
 You can use [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) to manage the playlists on your Quest. Note that a custom level can only appear once in-game due to a limitation with BMBF.
 
 :::warning WARNING for Quest Users Reloading your Custom Songs Folder resets all playlist organization. :::
@@ -39,7 +45,7 @@ Officially, multiplayer is limited to playing with other people in the store ver
 
 The BeatTogether mod is the current solution for cross-platform play between the modded game versions. Join their [Discord server](https://discord.com/invite/gezGrFG4tz) and check the `#install-instructions` channel for more information.
 
-## My game updated and now none of my mods are working!
+## My game updated and now none of my mods are working
 Each time the game updates it is possible *(and very likely)* that your existing mods will stop working and need to be updated. The game developers realized this, so when the game updates and you run it for the first time, everything in the `Plugins` folder is moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins in there!**
 
 To get mods back, simply **run the installer again.**  
@@ -50,7 +56,7 @@ If you're confused by any of this, visit [Beginners Guide](/beginners-guide.md).
 ## How does the scoring system work in Beat Saber? How does global ranking work?
 We have sections on the [grips and tricks](/grips-and-tricks.md) page dedicated to the scoring and ranking systems, check them out!
 
-## My menus are blank and I have nothing to click on!
+## My menus are blank and I have nothing to click on
 If the main window in your game is blank, your save file likely got corrupted.
 
 To fix it, navigate to: `%AppData%\..\LocalLow\Hyperbolic Magnetism`

@@ -6,7 +6,9 @@ description: Guia do Assistant para adicionar Full Body Avatars no Beat Saber!
 ---
 
 # Guia dos Custom Avatars
-_Guia do Assistant para adicionar Full Body Avatars no Beat Saber_
+_Assistant's Guide to adding Full Body Avatars to Beat Saber._
+
+::: danger This guide may have outdated fragments. If you run into issues don't be afraid to ask in the `#pc-3d-modeling` channel in the [BSMG Discord](https://discord.gg/beatsabermods) :::
 
 ## Introdução
 Alright boys and girls, your favorite Assistant is going to teach you how to take your favorite anime models and put them into 3D Osu!
@@ -43,9 +45,9 @@ Then hit Stop Pose Mode.
 ![Stop pose mode](~@images/models/avatars/stoppose.png)
 
 ## Para Unity e Além
-Abra o [Avatar Unity Project](https://bs.assistant.moe/Avatars/resources/UnityProject.zip).
+Download and extract the `BeatSaberCustomAvatars-vx.x.x-UnityProject.zip` from the [Custom Avatars Release](https://github.com/nicoco007/BeatSaberCustomAvatars/releases/latest). This zip contains a barebones Unity project to get started with creating avatars. You will need to copy `FinalIK.dll` and `DynamicBone.dll` from the game's installation folder into the `Assets\Libraries` folder of the extracted zip **before opening the project in Unity** to get it working.
 
-::: danger IMPORTANTE Use a versão da Unity [2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe). E certifique-se de seguir [estas instruções](#unity-2018). :::
+::: danger IMPORTANT Use Unity version [2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe). And make sure to follow [these instructions](#unity-2018). :::
 
 Import the fbx file with your waifu, and create an empty game object with her name, but don't drag her in yet.
 
@@ -172,7 +174,9 @@ These Objects work exactly the same way as the hand objects, you want to positio
 
 ![Tracker axis](~@images/models/avatars/trackeraxis.png)
 
-Now that they're in the correct place, you'll want to create the targets by navigating the Armature to the feet and pelvis bones, the ones the IK calls `Left Foot`, `Right Foot`, and `Pelvis`. Right click on those bones and select `Create Empty`. an Object called `GameObject` will appear as a child to the bones, you want to rename them into `LeftLegTarget`, `RightLegTarget`, and `PelvisTarget` and drag them into `LeftLeg`, `RightLeg`, and `Pelvis` respectively. Once complete your hierarchy should look something like this:
+Now that they're in the correct place, you'll want to create the targets by navigating the Armature to the feet and pelvis bones, the ones the IK calls `Left Foot`, `Right Foot`, and `Pelvis`. Right click on those bones and select `Create Empty`. An Object called `GameObject` will appear as a child to the bones, you want to rename them into `LeftLegTarget`, `RightLegTarget`, and `PelvisTarget` and drag them into `LeftLeg`, `RightLeg`, and `Pelvis` respectively.
+
+Once complete your hierarchy should look something like this:
 
 ![Full body hierarchy](~@images/models/avatars/fullbodyhierarchy.png)
 
@@ -186,7 +190,7 @@ So, you're probably wonder why now I'm telling you to use Unity 2018.1.6f1, when
 
 ![Script runtime](~@images/models/avatars/scriptruntime.png)
 
-You're going to need to use the new version of `CustomAvatar.dll` in your Unity project. Delete the old one if you have it—this project contains the correct one—and replace it with this one. Preferably in the assets folder while Unity isn't running. You might have to re-add your components. If the asset doesn't have the arrow that lets you see all the scripts, right click it and select `Reimport`.
+You're going to need to use the new version of `CustomAvatar.dll` in your Unity project. Delete the old one if you have it; this project contains the correct one—and replace it with this one. Preferably in the assets folder while Unity isn't running. You might have to re-add your components. If the asset doesn't have the arrow that lets you see all the scripts, right click it and select `Reimport`.
 
 ![New asset](~@images/models/avatars/newasset.png)
 
@@ -195,13 +199,13 @@ You're going to need to use the new version of `CustomAvatar.dll` in your Unity 
 ### PureDark's avatar plugin?
 PureDark's plugin has been integrated into the main plugin. A few things have changed. `Make Children Visible` is no longer needed, first person view is enabled by default, and is toggleable with the `Home` key on your keyboard. To add exclusions to the first person view, you can use the `First Person Exclusion` component. `Avatar VRIK Fix` is now called `IK Manager Advanced`, and since it's all in one plugin it's no longer needed to provide cross compatiblity, so only one of either `IK Manager` or `IK Manager Advanced` is needed. The controller events components were removed, and will appear on their own plugin.
 
-### I can't find the IK scripts or the Avatar exporter.
+### I can't find the IK scripts or the Avatar exporter
 Make sure you're using Unity 2018.1.6f1, not 5.6.3p1, not 2017, and you've followed these directions. If your CustomAvatar.dll asset doesn't have the arrow that you click to show the scripts, try deleting and re-importing the CustomAvatar.dll Asset to Unity.
 
 ### I can export avatars but they're invisible in game. ↵
 You can toggle first person view by pressing `Home`. If they're invisible in your desktop window, make sure that you used the correct Beat Saber shaders, and Unity 2018.1.6f1.
 
-### Only my avatars are T-Posed.
+### Only my avatars are T-Posed
 Well I'm very sorry, but this means that you did something wrong while creating your avatar. There's no way to know just what you did wrong, because so many things have the same effect. The only advice we can give you is make sure that you followed the guides exactly, and maybe watch a video to follow along.
 
 ## Vídeos
@@ -213,14 +217,9 @@ Here is a video of me making an avatar, narrated by Megalon. [5:57]
 
 ## ♥ Agradecimentos Especiais
 
-**ikeiwa**, for creating this fantastic plugin.
-
-**xyonico**, for rewriting this fantastic plugin.
-
-**PureDark**, for making the fantastic plugin that fixes many issues.
-
-**Emma**, for making the first guide that led me to figuring this out, and helping with this one.
-
-**Megalon**, for providing the ASMR for the video.
-
-**Ella**, for making fun of me until I got gud, helping with the website design, parts of this guide, and putting up with all my dumb questions.
+* **ikeiwa**, for creating this fantastic plugin.
+* **xyonico**, for rewriting this fantastic plugin.
+* **PureDark**, for making the fantastic plugin that fixes many issues.
+* **Emma**, for making the first guide that led me to figuring this out, and helping with this one.
+* **Megalon**, for providing the ASMR for the video.
+* **Ella**, for making fun of me until I got gud, helping with the website design, parts of this guide, and putting up with all my dumb questions.

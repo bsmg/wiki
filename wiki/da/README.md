@@ -17,34 +17,40 @@ tags:
   - hvordan er beat saber baner lavet?
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class='features'>
 
-::: feature Kom i gang
+::: feature Getting Started
+
 * [PC Modding](./pc-modding.md)
 * [Quest Modding](./quest-modding.md)
-* [Typiske problemer](./support/)
-* [Greb og Tricks](./grips-and-tricks.md)
-* [Rangering & Scoringsguide](./ranking-guide.md)
+* [Common Problems](./support/)
+* [Grips and Tricks](./grips-and-tricks.md)
+* [Ranking & Scoring Guide](./ranking-guide.md)
 :::
 
-::: feature Skab nyt indhold
-* [Modder's Guide](/da/modding/)
-* [Banelavers Ressourcer](/da/mapping/)
-* [3D Modelguide](/da/models/)
+::: feature Creating new Content
+
+* [Modder's Guide](/modding/)
+* [Mapper Resources](/mapping/)
+* [3D Models Guide](/models/)
 :::
 
 ::: feature Other Resources
-* [Om Os](/da/about/)
-* [Helbred og Sikkerhed](./health-and-safety.md)
-* [Ofte Stillede Spørgsmål](/da/faq/)
-* [Fællesskaber](/da/communities/)
+
+* [About Us](/about/)
+* [Health and Safety](./health-and-safety.md)
+* [Frequently Asked Questions](/faq/)
+* [Communities](/communities/)
 :::
 
 </div>
+<!-- markdownlint-enable MD033 -->
 
-<hr />
+---
 
 ## Eksterne links
+
 * [Tilmeld dig Discord-serveren!](https://discord.gg/beatsabermods)
 * [BSMG Patreon](https://www.patreon.com/beatsabermods) - Støt BSMG Ydelser!
 * [BeatMods](https://beatmods.com) - Opbevaringssted for PC mods, der er afspejles i installationsprogrammer såsom ModAssistant

@@ -17,34 +17,40 @@ tags:
   - '¿cómo se hacen los mapas?'
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class='features'>
 
-::: feature Comenzando
-* [Modeando en PC](./pc-modding.md)
-* [Modeando en Quest](./quest-modding.md)
-* [Problemas comunes](. support/)
-* [Agarres y trucos](./grips-and-tricks.md)
-* [Guía de clasificación y puntuación](./ranking-guide. d)
+::: feature Getting Started
+
+* [PC Modding](./pc-modding.md)
+* [Quest Modding](./quest-modding.md)
+* [Common Problems](./support/)
+* [Grips and Tricks](./grips-and-tricks.md)
+* [Ranking & Scoring Guide](./ranking-guide.md)
 :::
 
-::: feature Creando nuevo contenido
-* [Guía del Modder](/modding/)
-* [Recursos del Mapper](/mapping/)
-* [Guía de Modelos 3D](/models/)
+::: feature Creating new Content
+
+* [Modder's Guide](/modding/)
+* [Mapper Resources](/mapping/)
+* [3D Models Guide](/models/)
 :::
 
 ::: feature Other Resources
-* [Acerca de nosotros](/about/)
-* [Salud y seguridad](. health-and-nby.md)
-* [Preguntas Frecuentes](/faq/)
+
+* [About Us](/about/)
+* [Health and Safety](./health-and-safety.md)
+* [Frequently Asked Questions](/faq/)
 * [Communities](/communities/)
 :::
 
 </div>
+<!-- markdownlint-enable MD033 -->
 
-<hr />
+---
 
 ## Enlaces externos
+
 * [Únete al servidor de Discord!](https://discord.gg/beatsabermods)
 * [Patreon de BSMG](https://www.patreon.com/beatsabermods) - ¡Apoya los servicios de BSMG!
 * [BeatMods](https://beatmods.com) - Repositorio de mods de PC que se reflejan en instaladores como ModAssistant

@@ -4,6 +4,7 @@ Vraagt u zich eens af wie uw favoriete mod heeft gemaakt of het mod installatie 
 > *Opmerking: sommige mensen zouden onder meerdere secties kunnen horen, dus ik heb geprobeerd deze pagina's zo goed mogelijk te sorteren. Als je iets in jouw sectie wilt veranderen, neem dan gerust contact met ons op of verander het zelf!*
 
 ## Wie zijn wij.
+
 ### [Staff](./staff.md)
 Het team dat de show uitvoert op de voorgrond en achter de schermen. Of het nu gaat om projectbeheer, mod goedkeuring, het beheer van de kerndiensten, de coördinatie van gebeurtenissen of veel van de andere geheime projecten. Er is altijd veel werk te doen. De community zou niet bestaan zonder de ontelbare uren die zijn bijgedragen door deze ongelooflijke personen, geef hun dus een virtueel applaus (en help met het betalen van de diensten als u kunt...)
 
@@ -34,5 +35,4 @@ Een groep ervaren mappers die de tijd hebben genomen om hun kennis op te schrijv
 Winnaars van wedstrijden/evenementen die gehouden worden/zijn gehouden in de discord. Houd `#server-announcements` goed in de gaten voor dit soort evenementen die nu of in te toekomst bezig zijn!
 
 ## Over deze Wiki.
-
 Dit is een wiki voor alle dingen die te maken hebben met het modden van het spel Beat Saber. Het was oorspronkelijk gemaakt om de `#beginners-guide` en `#faq` kanalen van de [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) te vervangen.

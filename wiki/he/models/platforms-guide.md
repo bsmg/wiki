@@ -6,7 +6,7 @@ description: Emma's Guide to making Custom Platforms!
 ---
 
 # Custom Platforms Guide
-_Emma's Guide to making Custom Platforms_
+_Emma's Guide to making Custom Platforms._
 
 ## Project
 Open the current [Custom Platforms Project](https://github.com/affederaffe/CustomPlatformsUnityProject/releases/) with [Unity 2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe).
@@ -49,6 +49,8 @@ The spectrogram script works like the track rings script and also requires a pre
 
 ![Saving](~@images/models/platforms/Save.png)
 
-Export the platform trough the script that you previously added to the gameObject to the location of your choosing. Preferably the game's directory `Beat Saber/CustomPlatforms`. ::: tip NOTE **Once you've got your new sabers working**, [upload them to ModelSaber](https://modelsaber.com) if you want to share them with the world. :::
+Export the platform trough the script that you previously added to the gameObject to the location of your choosing. Preferably the game's directory `Beat Saber/CustomPlatforms`.
+
+::: tip NOTE **Once you've got your new platform working**, [upload them to ModelSaber](https://modelsaber.com) if you want to share them with the world. :::
 
 ![Cat](~@images/models/platforms/Cat.png)

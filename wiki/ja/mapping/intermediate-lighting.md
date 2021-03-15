@@ -20,6 +20,7 @@ It's common for new lighters to overlook the importance of the timing of Off eve
 ::: tip NOTE Once established, it's essential to apply decisions about Off block placement consistently throughout the entire show. :::
 
 **Tips for optimizing Off timing:**
+
 * Avoid placing Off events exactly halfway between regularly repeating On events, since this can easily produce an unintended strobe effect.
 * Try using different baseline Off timings for different instruments (especially different drum types) as a subtle way to make them more distinct from each other.
 * Try shortening anything not on the main beat very slightly (Off ~1/16 earlier than similar sounds on the main beat, for example) as a subtle way to honor the emphasis.
@@ -30,6 +31,7 @@ or contribute to translation effort [here](https://github.com/bsmg/wiki). :::
 Strobing Ring Spin events at 1/64 interval or more will produce extremely fast but inconsistent ring spins. The timing/interval are tempo dependant,
 
 **How to Light Fast Spins:**
+
 1. Use your editor's strobe tool at at least 1/64 precision.
 2. Find the starting point of your spin:
    1. If your environment has rings that extend behind the player, start the spin ~1/2 beat before the desired effect.
@@ -37,6 +39,7 @@ Strobing Ring Spin events at 1/64 interval or more will produce extremely fast b
 3. Set the strobe duration for the period of time you want the effect.
 
 **Tips for Fast Spins:**
+
 * On slower songs (below 100 BPM) you may need to exceed 1/64 strobed ring spins to achieve the desired effect.
 * Like most ring spinning, you will be at the mercy of randomization, and can't expect to get the same exact results each time
 * A single Ring Spin event will usually (but not always) interrupt an ongoing fast spin, which is often actually desirable. Ending a fast spin can be applied with as much impact as beginning one.
@@ -59,11 +62,12 @@ You can produce a pulsating glow effect by strobing Flash and On events in seque
 
 Flash events start ~37.1% brighter than On events and then quickly fades to the intensity of On. An On event placed at any point during the Flash animation will disrupt the ongoing transition, immediately set the intensity to On. Therefore, you can produce very different results by strobing these two events at different intervals, ranging from a pulsating glow at ~1/4 interval to something of a vibrating "hum" at ~1/16 (tempo dependant).
 
-* Example of 1/4 interval at ~0:17: Don't Give Up On Me - Jason Ross ft. Dia Frampton mapped by Baxter and lighted by LittleAsi  
-  [Streamable](https://streamable.com/d1jm6) | [BeatSaver](https://beatsaver.com/beatmap/7c00)
+* Example of 1/4 interval at ~0:17: Don't Give Up On Me - Jason Ross ft. Dia Frampton mapped by Baxter and lighted by LittleAsi <br/>[Streamable](https://streamable.com/d1jm6) | [BeatSaver](https://beatsaver.com/beatmap/7c00)
 
 ### On/Off and Flash/Off Strobing
-::: tip NOTE This is a stub section. If you'd like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform). ::: **On/Off** and **Flash/Off** strobes are considered "true" strobes, alternating bright light and darkness in rapid succession. Strobing should be used cautiously as overuse can make it very difficult to concentrate on your map or even harm players with neurological conditions.
+::: tip NOTE This is a stub section. If you'd like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform). :::
+
+**On/Off** and **Flash/Off** strobes are considered "true" strobes, alternating bright light and darkness in rapid succession. Strobing should be used cautiously as overuse can make it very difficult to concentrate on your map or even harm players with neurological conditions.
 
 As discussed in the [Flash/On](#flash-on-strobing) section, "on" lights are at 100% brightness while "Flash" lights begin ~37.1% brighter than On events and then quickly fades to the intensity of On. Flash/Offs produce a more intense strobe than On/Offs.
 
@@ -82,25 +86,29 @@ As a baseline guide, turn each on in sequence at 1/16 interval, and turn each of
   [Streamable](https://streamable.com/zx1sf) | [BeatSaver](https://beatsaver.com/beatmap/5bb2)
 
 ### Laser Rotation Speed
+
 * Vary laser rotation speed consistently based on some meaningful parameter, such as the pitch or length of the notes.
 * Try to avoid picking speeds randomly, setting them inconsistently, or using such high speeds that the variations you do include become imperceptible.
 * Slow speeds tend to match better with higher pitch and longer notes, with fast speeds especially for short notes.
 * Aside from their application in laser spins and similar multi-light effects, speed 0 lasers tend to work best for transitory or staccato notes.
 
 ## Contrast
-High impact/high energy moments are the result of high contrast, not any specific pattern, technique, or level of saturation.  For example, sticking to one dominant color then switching has more impact than mixing colors throughout; or strobing lights constantly produces a flat energy level, whereas suddenly switching to a strobe effect will seem highly energetic if you otherwise stick mainly to normal lighting. Basically, it's not high volume that creates impact, it's the change in volume that counts. You can create contrast in any number of ways, so be encouraged to experiment.
+High impact/high energy moments are the result of high contrast, not any specific pattern, technique, or level of saturation. For example, sticking to one dominant color then switching has more impact than mixing colors throughout; or strobing lights constantly produces a flat energy level, whereas suddenly switching to a strobe effect will seem highly energetic if you otherwise stick mainly to normal lighting. Basically, it's not high volume that creates impact, it's the change in volume that counts. You can create contrast in any number of ways, so be encouraged to experiment.
 
 **Contrast Practices:**
+
 * Pick a dominant color, keeping most lights that color and using the secondary for emphasis (accents, maybe snare hits, etc.)
   * Switch which color is dominant and which is secondary for emphasis at big moments and for contrast between different parts of the song (e.g. verse vs. chorus).
 * Have all the lights totally black-out momentarily before a key moment.
 * Employ major stylistic changes between different sections of the music; for example, map each light type to a different instrument in a dubstep song throughout the verse and build-up, then once the drop hits, switch to using fewer lights at a time to highlight key sounds.
 
 This show features many major stylistic changes throughout, but see the section starting ~1:46 into the one ~1:54 for one example, and even more obvious at ~2:23.
+
 * Example: Into the Fire ft. Miss Lina - Getsix (Lightshow Only) lighted by LittleAsi  
   [Streamable](https://streamable.com/0qsto) | [BeatSaver](https://beatsaver.com/beatmap/7be2)
 
 This one demonstrates a change from 1:1 instrument:light mapping to a focused emphasis-only style at the drop ~1:17; also note the use of total blackouts after the drop for increased impact despite the fact that the song never actually goes silent during that period.
+
 * Example: Virtual Friends - DROELOE mapped by Skyler Wallace and lighted by LittleAsi  
   [Streamable](https://streamable.com/6f429) | [BeatSaver](https://beatsaver.com/beatmap/7cd5)
 
@@ -108,6 +116,7 @@ This one demonstrates a change from 1:1 instrument:light mapping to a focused em
 When lighting for an environment, you may have wanted to remove unwanted parts of the environment. With the use of the Chroma mod, you can do just that! By specifying the `_environmentRemoval` field under the `_customData` of each difficulty in the `Info.dat`, you can remove specific parts of the environment. Note that Chroma must be listed as a suggestion or requirement in order for environment removal to work.
 
 Example removing the Monstercat logo from the environment:
+
 ```json
 "_customData" : {
   "_suggestions": [
@@ -137,5 +146,3 @@ Some common elements that are removed from environments:
 
 ## Credits
 Content on this page was contributed by [LittleAsi](./mapping-credits.md#littleasi), [Puds](./mapping-credits.md#puds), and [Bullet](./mapping-credits.md#bullet).
-
-

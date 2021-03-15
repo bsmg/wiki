@@ -2,11 +2,11 @@
 sidebar: auto
 prev: ./avatars-guide.md
 next: ./notes-guide.md
-description: Emma's gids voor het maken van custom platformen!
+description: Emma's gids voor het maken van custom platforms!
 ---
 
 # De Custom Platforms gids
-_Emma's gids voor het maken van custom platformen_
+_Emma's gids voor het maken van custom platforms._
 
 ## Project
 Open het huidige [Custom Platforms Project](https://github.com/affederaffe/CustomPlatformsUnityProject/releases/) met [Unity 2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe).
@@ -49,6 +49,8 @@ Het spectrogram script werkt zoals het track rings script en vereist ook een pre
 
 ![Opslaan](~@images/models/platforms/Save.png)
 
-Exporteer het platform doormiddel van het script dat je eerder aan het gameObject hebt toegevoegd op de locatie van jouw keuze. Bij voorkeur de map van het spel `Beat Saber/CustomPlatforms`. ::: tip TIP **Wanneer je nieuwe platforms werken**, [kan je ze naar ModelSaber uploaden](https://modelsaber.com) als je ze wil delen met de hele wereld. :::
+Exporteer het platform doormiddel van het script dat je eerder aan het gameObject hebt toegevoegd op de locatie van jouw keuze. Bij voorkeur de map van het spel `Beat Saber/CustomPlatforms`.
+
+::: tip TIP **Wanneer je nieuwe platforms werken**, [kan je ze naar ModelSaber uploaden](https://modelsaber.com) als je ze wil delen met de hele wereld. :::
 
 ![Kat](~@images/models/platforms/Cat.png)

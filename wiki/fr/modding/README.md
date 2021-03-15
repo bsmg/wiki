@@ -1,4 +1,5 @@
 # Créer des mods
+
 ## Injection de mods
 Beat Saber _**ne supporte pas**_ nativement les mods.
 
@@ -15,13 +16,16 @@ Utilisez les [liens ci-dessous](#autres-liens) pour de la documentation relative
 ## Arguments de lancement
 Des arguments de lancement utile qui vous aideront à faire des mods / déboguer facilement.
 
+<!-- markdownlint-disable MD013 -->
 | Argument&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description                                                                                                                                                                                                           |
 | -------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `--verbose`                                                                                  | Active la fenêtre de sortie des logs d'IPA. Cela affichera la console de débogage que les mods utilisent.                                                                                                             |
 | `fpfc`                                                                                       | "First Person Flying Controller"<br /><br />Cela vous permet d'utiliser WASD et la souris pour naviguer dans le menu en jeu. C'est beaucoup plus facile de tester avec, pas besoin de mettre son casque ! |
 | `-vrmode oculus`                                                                             | Si vous lancez Beat Saber à travers Steam, cela vous permet de jouer le jeu dans un casque Oculus.                                                                                                                    |
+<!-- markdownlint-enable MD013 -->
 
 ## Autres liens
+
 * [BeatMods](https://beatmods.com)
 * [Lignes directrices pour l'approbation sur BeatMods](https://docs.google.com/document/d/15RBVesZdS-U94AvesJ2DJqcnAtgh9E2PZOcbjrQle5Y/edit?usp=sharing)
 * [API Unity Scripting](https://docs.unity3d.com/ScriptReference/index.html)

@@ -3,27 +3,27 @@ sidebar: auto
 ---
 
 # Uchopení a triky
-_Zdroje, které vám pomůžou pořádně sekat bloky_
+_A compilation of resources to help you to hit bloq._
 
 ## Umístění ve světovém žebříčku MEGA-NÁVOD
 Neuvěřitelný článek napsaný uživatelem TeknozFR, který vám pomůže získat více PP. [Průvodce umístění & hodnocení](./ranking-guide)
 
 ## Hodnocení
-Podívejte se na tohle video od [Cube Community](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) o tom, jak funguje systém hodnocení.
+See this video by the [Cube Community YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) about how the scoring system works.
 
 <YouTube url='https://www.youtube.com/watch?v=rVbXCGddspA' />
 
-Případně zde ještě přikládáme obrázek od vývojářu, který vám ukáže, jak fungují [hitboxy](https://twitter.com/Split82/status/979365834324889600)
+Additionally, here's an image from the game developers about how the [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
 
 ![Hitboxy bloků](~@images/mapping/hitbox-from-split.jpg)
 
 ## Umístění
 *Jak vlastně funguje světové umístění? Co jsou to body za výkon (PP)? Co jsou ta čísla vedle mých skóre? Proč jsou mé PP tak malé?*
 
-Své světové umístění a své PP můžete najít na [ScoreSaberu](https://scoresaber.com/global) - zde můžete vyhledat své jméno. Váš ScoreSaber účet se váže k vašemu Steam / Oculus uživatelskému jménu.
+Své světové umístění a své PP můžete najít na [ScoreSaberu](https://scoresaber.com/global) - zde můžete vyhledat své jméno. Your ScoreSaber account is tied to your Steam / Oculus username.
 
-1. K ranked mapám jsou přiřazované PP (PP = body za výkon, performance points). Přesný počet PP, který za mapu dostanete se odvozuje z přesnosti, kterou jste na dané ranked mapě měli. Kolik PP je ranked mapa hodna je rozhodnuto soukromým algoritmem vytvořeným uživatelem Umbranox, naším pandím bohem.
-2. Aby se zamezilo nabírání spousty PP zkušeným hráčům na lehčích mapách, které nedávají tolik PP, je na vaše odehrané mapy aplikována určitá křivka. Tato křivka se rovná 0.965^(x-1), kdy x je pozice daného skóre v seznamu vašich odehraných map. Např. pokud je váš top play 260 PP, dostanete za něj 260 čistého PP, které je 100% z vašeho hrubého PP daného skóre. Pokud je váš druhý top play 247 hrubého PP, dostanete za něj 238 čistého PP, což je pravý počet PP, který dostanete po aplikování křivky na vaše skóre. Zde je seznam mých momentálních 4 top playů, kdy hrubé PP je napsáno kurzívou a čísté PP je napsáno tučně.
+1. Ranked songs are assigned PP (PP = performance points). The exact amount of PP gained is determined by the accuracy you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by Umbranox, our Panda God.
+2. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays. This curve is `0.965^(x-1)` where `x` is the position of that score on your song list. e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play. If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get after the curve applies. Here is a table to illustrate this system:
 
 | Hrubé PP | Čisté PP                        |
 | -------- | ------------------------------- |
@@ -32,9 +32,9 @@ Své světové umístění a své PP můžete najít na [ScoreSaberu](https://sc
 | 246pp    | **229pp** (93.1% z hrubého PP)  |
 | 244pp    | **219pp**  (89.9% z hrubého PP) |
 
-3. Abyste získali lepší světové umístění, hrajte nové mapy, které mají hodnotu více nebo stejně PP, jako vaše top skóre. Pokud už nemáte co hrát, hrajte mapy z vašich několika prvních stránek top playů, abyste na nich získali lepší skóre. Zde jsou [tabulky od DuoVR](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) se všema ranked mapama a kolik PP jsou hodny. Tyto tabulky se aktualizují každých 24 hodin.
+3. To get a better rank, there are quite a few tools you can use to find ranked songs that fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global) profile to see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like. The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) or [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme) browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep track of your performance.
 
-Zde máte další stránky od [DuoVR](https://duovr.github.io/BigPP/), kde můžete zadat váš ScoreSaber profil a vám se ukážou mapy, které byste měli hrát, abyste získali spoustu PP.
+You can find more information in the [Ranking & Scoring Guide](./ranking-guide.md).
 
 *Tato sekce je přizpůsobena z článku na kanadském Beat Saber Discordu napsaným uživatelem Tek.*
 
@@ -62,7 +62,7 @@ Video o uchopení Index ovladačů zatím nebylo vytvořeno, ale můžete najít
 ### Oculus Quest 2 ovladače
 Video o uchopení Quest 2 ovladačů zatím nebylo vytvořeno, ale níže můžete najít pár příkladů! ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
 
-Podívejte se do kanálu `#tips-and-grips` na [Cube Community Discord](https://discord.gg/dwe8mbC) serveru pro více příkladů. Mějte prosím na vědomí, že každý má jiný styl hraní a jiný typ těla; uchopení ovladačů někoho jiného vám nebude muset vyhovovat. Nebojte se experimentovat a najít, co je správné pro vás!
+Podívejte se do kanálu `#tips-and-grips` na [Cube Community Discord](https://discord.gg/dwe8mbC) serveru pro více příkladů. Please remember that everyone's playstyle and body is different; someone else's grip might not work exactly like you need it to. Nebojte se experimentovat a najít, co je správné pro vás!
 
 ## Jak zlepšit HTC Vive tracking
 Je možné, že vaše tělo brání jedné ze stanic, aby snímala jeden z vašich ovladačů. Zde je pár kroků, které by vám mohly pomoct zlepšit tracking.
@@ -76,7 +76,7 @@ Je možné, že vaše tělo brání jedné ze stanic, aby snímala jeden z vaši
 Toto může platit i pro Oculus senzory.
 
 ## Oculus Touch nechtěné odpojení baterek z ovladačů
-Síla vašeho máchání v Beat Saberu může způsobit, že se pružinka ve vašich Touch ovladačích stlačí a odpojí vaši baterku na nepatrný moment. Přesně tohle se děje, pokud vidíte váš meč ztratit poziční tracking, ale pořád s ním můžete otáčet. Abyste toto zmírnili, ragesaq doporučuje přidat extra pružinky do přihrádky s baterkami, aby se snížila šance odpojení baterek. Vysvětleno v tomto [Reddit článku](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
+The force of your swings in Beat Saber can cause the spring in the touch controllers to compress and disconnect the battery for a brief moment. Přesně tohle se děje, pokud vidíte váš meč ztratit poziční tracking, ale pořád s ním můžete otáčet. To alleviate this, ragesaq recommends adding extra springs inside the battery compartment to decrease the likelihood of battery disconnects happening, explained in this [Reddit post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
 
 ## Také zvažte
 ![Také zvažte](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)

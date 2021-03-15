@@ -4,6 +4,7 @@ Har du någonsin undrat vem som skapade ditt favoritmod eller modinstallatören?
 > *Obs: vissa personer passar in på flera sektioner, så jag försökte sortera sidorna så gott jag kunde. Om du vill ha något med din sektion ändrat, tveka inte att kontakta oss eller bidra själv!*
 
 ## Vem Vi Är
+
 ### [Personal](./staff.md)
 Teamet som driver showen i framkant och bakom kulisserna. Oavsett om det gäller projektledning, godkännande av plugins, hantering av de centrala tjänsterna, planering av evenemang, eller många av de andra hemliga projekten, finns det alltid mycket arbete att göra. Vårt community skulle inte existera utan de oräkneliga timmar som dessa otroliga individer bidragit med, så ge dem en virtuell applåd (och hjälp betala för tjänsterna om du kan...)
 
@@ -34,5 +35,4 @@ En grupp erfarna mappare som tog sig tid att skriva ner och dela med sig av sina
 Vinnare av tidigare tävlingar/evenemang som hölls i discordservern. Håll dig uppdaterad med `#server-notiser` för sådana händelser som händer nu eller i framtiden!
 
 ## Om Denna Wikin
-
 Detta är en wiki för alla saker som rör moddning av spelet Beat Saber. Den skapades ursprungligen för att ersätta kanalerna `#nybörjarguiden` och `#faq`i [Beat Saber Modding Groups Discordserver](https://discord.gg/beatsabermods).

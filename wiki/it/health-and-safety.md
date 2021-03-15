@@ -3,12 +3,12 @@ sidebar: auto
 ---
 
 # Salute e Sicurezza
-_Non colpire bloq con armi vegetali_
+_Can't hit bloq with vegetable arms!_
 
 ## Consigli Generali
-Beat Saber può essere un gioco piuttosto impegnativo fisicamente ed è importante trattare le sessioni di gioco proprio come un allenamento. Consigliamo fortemente di fare allungamenti e riscaldarsi prima di ogni sessione di gioco per evitare lesioni fisiche, danni ai polsi e le spalle inclusi. Lesioni comuni includono lesioni da sforzo ripetitivo (RSI) ai polsi e le spalle.
+Beat Saber può essere un gioco piuttosto impegnativo fisicamente ed è importante trattare le sessioni di gioco proprio come un allenamento. We strongly recommend that you stretch and warm up before each play session to avoid physical injury, including damage to the wrist and shoulders. Lesioni comuni includono lesioni da sforzo ripetitivo (RSI) ai polsi e le spalle.
 
-Allungarsi non si limita solo alle persone con folli canzoni personalizzate, potete farvi male anche se una mappa sembra breve o semplice.
+Stretching isn't just limited to people playing crazy custom songs either, you can injure yourself even if a map seems short or simple.
 
 > _Ricorda di rimanere idratato e di respirare!_
 
@@ -16,13 +16,14 @@ Allungarsi non si limita solo alle persone con folli canzoni personalizzate, pot
 Tino è uno dei 10 migliori giocatori in Canada che ha gentilmente scritto una guida molto dettagliata che copre il riscaldamento, recupero e sollievo da lesioni opportuno. [Dai un'occhiata qui!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
 
 ## Cura del Polso
-### Pesi?
-Generalmente, **non consigliamo** di usare pesi per questo gioco. Beat Saber è già un allenamento e le persone si fanno sempre male senza pesi. Fondamentalmente sottoponete i vostri polsi a frusta costante e aggiungere pesi peggiora soltanto le cose.
 
-Se insistete sull'usare i pesi allora siete almeno pregati di dare un'occhiata a [questa guida](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) di VR Fitness Insider per minimizzare il rischio di lesioni.
+### Pesi?
+Generalmente, **non consigliamo** di usare pesi per questo gioco. Beat Saber is already a workout and people hurt themselves all the time without weights. You're basically subjecting your wrists to constant whiplash, and adding weights is only going to make things worse.
+
+If you insist on using weights then please at least check out [this guide](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) by VR Fitness Insider to minimize the risk of injury.
 
 ### Suggerimenti del Dr. Levi Harrison
-Dr. Levi ha salvato il polso di innumerevoli giocatori con i suoi video e ha creato un video che copre specificamente alcuni esercizi per aiutare a prevenire l'infortunio giocando a Beat Saber! Consigliamo **altamente** i suoi suggerimenti!
+Dr. Levi has saved the wrist of countless players with his videos, and he's made a video specifically covering some exercises to help prevent injury from playing Beat Saber! Consigliamo **altamente** i suoi suggerimenti!
 
 <YouTube url='https://www.youtube.com/watch?v=IoL1NOKUmoU' />
 

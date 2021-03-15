@@ -1,5 +1,5 @@
 # Introdução de Modding
-_Aprenda a começar a escrever seus próprios mods para PC_
+_Aprenda a começar a escrever seus próprios mods para PC._
 
 ## Começando
 ::: warning Aviso Este guia é para fazer mods para a versão de **PC** do Beat Saber!
@@ -34,7 +34,7 @@ Depois, vais precisar de definir o teu diretório do Beat Saber no Visual Studio
 
 ![Setup Beat Saber Directory](~@images/modding/setup-bs-directory.png "Setup Beat Saber Directory")
 
-Neste ponto, **tenta compilar o projeto**, e ele deve encontrar automaticamente as referências para ti e a compilação deve ter sucesso.
+Neste ponto, **tente compilar o projeto**, e ele deve encontrar automaticamente as referências para ti e a compilação deve ter sucesso.
 
 Se a sua compilação não tiver sucesso, verifique se você não tem nenhuma referência faltando.
 
@@ -79,6 +79,7 @@ Ao iniciar o jogo, você deverá ver BSIPA carregar seu mod na janela do console
 
 ## Próximos passos
 Aqui estão alguns recursos úteis para continuar sua carreira de mods.
+
 * Se você precisar de ajuda para desenvolver mods, você pode perguntar em `#pc-mod-dev` no [Discord do BSMG](https://discord.gg/beatsabermods).
 * Se você quiser descompilar o código, confira o [dnSpy](https://github.com/dnSpy/dnSpy/releases)
 * Veja a documentação do BSIPA para mais informações sobre o [sistema de configuração](https://bsmg.github.io/BeatSaber-IPA-Reloaded/tags/4.1.3/articles/start-dev.html#configuring-your-plugin).

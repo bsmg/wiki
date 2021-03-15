@@ -1,109 +1,109 @@
 # Moderadores
 Con un servidor tan grande, se requiere mucha moderación para mantener todo bajo control. Puedes dar las gracias a este equipo por mantener las calles limpias.
 
-## BeigeAnimal
-Tuvimos que azotar a este chico para darle forma, pero ahora es uno de los moderadores más efectivos. No está realmente especializado en ningún campo, pero está dispuesto a prestar una ayuda **siempre que pregunten en el canal correcto.** También odia los enlaces sketchfab.
-
-**Roles:** Moderador, Artista 3D
-
-[Twitch](https://www.twitch.tv/beigeanimaltv) | [Paypal](https://paypal.me/beigeanimal)
-
 ## Caeden117
-¿Cuántas estadísticas podríamos encajar en un solo mod? Aparentemente muchas. También es responsable de los tutoriales de modelado en esta wiki y ChroMapper, un software de mapeo que pronto será lanzado con soporte para la luz RGB de Chroma.
+How many statistics could we fit into a single counters mod? A lot apparently. He's also responsible for the modding tutorials on this wiki and ChroMapper, a soon to be released mapping software with Chroma RGB light support.
 
-**Roles:** Modder, Moderador  
-**Contribuciones:** Contadores+, tutoriales de modding wiki
+**Roles:** Modder, Moderator  
+**Contributions:** Counters+, wiki modding tutorials
 
-[GitHub](https://github.com/caeden117) | [Donar](https://ko-fi.com/Caeden117)
+[GitHub](https://github.com/caeden117) | [Donate](https://ko-fi.com/Caeden117)
 
 ## Chara_
 brrrrrr
 
-**Roles:** Soporte, Artistas 3D, Moderador
+**Roles:** Support, 3D Artists, Moderator
 
-[Comunidad Qosmética](https://discord.gg/qosmetics) | [YouTube](https://www.youtube.com/c/CharaHere)
-
-## DeeJay
-Pepega
-
-**Roles:** Moderador
-
-[Twitch](https://www.twitch.tv/deejayvr)
+[Qosmetics Community](https://discord.gg/qosmetics) | [YouTube](https://www.youtube.com/c/CharaHere)
 
 ## Eradawn
-"Findus dice hai"
+"Findus says hai"
 
-**Roles:** Moderador, Soporte
-
-## Guatapuri
-"Vine por el juego, me quedé por los abrazos"
-
-**Roles:** Mapeador, Moderador
+**Roles:** Moderator, Support
 
 ## Hydrand
-Camellia es SourPls
+Camellia is SourPls
 
-**Roles:** Mapeador, Moderador
+**Roles:** Mapper, Moderator
 
 [Twitch](https://www.twitch.tv/hydrandvr)
-
-## joelseph
-\+ joelseph
-
-**Roles:** Moderador
-
-[Twitch](https://www.twitch.tv/tehjoelseph)
 
 ## 𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯
 Poi!
 
-**Roles:** Artista 3D, Soporte, Moderador
+**Roles:** 3D Artist, Support, Moderator
 
 [Twitch](https://www.twitch.tv/br3uker)
 
 ## Maladaze
-No puede dar saltos
+Can't hit jumps
 
-**Roles:** Moderador
+**Roles:** Moderator
 
 [Twitch](https://www.twitch.tv/infjager)
 
 ## Olaf
-¿Algún stroopwafels?
+Any stroopwafels?
 
-**Roles:** Moderador
+**Roles:** Moderator
 
 [Twitch](https://twitch.tv/olafstad)
 
 ## Pink
-El único moderador que nos ghosteo cuando le preguntamos por una descripción para esta página.
+The only Moderator to ghost us when asked for a description for this page.
 
-**Roles:** Artistas 3D, Moderador, Soporte, Modder
+**Roles:** 3D Artists, Moderator, Support, Modder
 
-**Contribuciones:** Un montón de mods y modelos de Quest
+**Contributions:** A bunch of Quest mods and models
 
 ## Pyrowarfare
-Un administrador de BeastSaber que escribió la mayoría del contenido para [Cómo hacer pruebas de juego](./how-to-testplay.md), [La ansiedad de mapear](./mapping-anxiety.md)y ha contribuido en otras páginas varias. Advertencia: se te pedirá que hables de tus sentimientos.
+A BeastSaber admin who wrote the majority of content for [How to Playtest](./how-to-testplay.md), [Mapping Anxiety](./mapping-anxiety.md), and contibuted on various other pages. Be warned: you will be asked to talk about your feelings.
 
-**Roles:** Moderador, Soporte de Mapeo
+**Roles:** Moderator, Mapping Support
 
 [BeatSaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf) | [BeastSaber](https://bsaber.com/members/pyrowarfare/)
 
 ## RangeValley
-"Mi padre trabajó durante años como administrador, pero fue despedido cuando los robots tomaron el poder. Volvió a casa esa noche y me dijo que teníamos que mudarnos a la furgoneta, ya que ya no podíamos permitirnos el alquiler, entonces me pego una paliza con unas pinzas para la bateria. El shitpost deberia ser legal."
+> My dad worked for years as an admin, but he got laid off when bots took over. He came home that night and told me we had to move into the van, since we couldn't afford rent anymore, then he beat the shit out of me with jumper cables. Shitposting should be legal.
 
 **Roles:** Moderador
 
 ## Razor
-Literalmente no sabe lo que está haciendo cuando se trata de programar, pero puede arreglar un plugin.
+Literally no clue what he's doing when it comes to coding, at all, but he can fix ploogin.
 
-**Roles:** Soporte, Moderador
+**Roles:** Support, Moderator
 
-[Twitch](https://www.twitch.tv/sarpest_razor) | [Donar](https://streamelements.com/sarpest_razor/tip)
+[Twitch](https://www.twitch.tv/sarpest_razor) | [Donate](https://streamelements.com/sarpest_razor/tip)
 
 ## Shad
-"Cada canal es sólo #pc-mod-support"
+"Every channel is just #pc-mod-support"
 
-**Roles:** Moderador, Mapeador
+**Roles:** Moderator, Mapper
 
 [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [YouTube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ) | [Twitch](https://www.twitch.tv/shadlive)
+
+## BeigeAnimal (Retired)
+We had to whip this boy into a bit of shape but he's now one of the most effective moderators. He's not really specialized in any field but he's willing to lend a helping **provided they ask in the right channel.** Also hates sketchfab links.
+
+**Roles:** Moderator, 3D Artist
+
+[Twitch](https://www.twitch.tv/beigeanimaltv) | [Paypal](https://paypal.me/beigeanimal)
+
+## DeeJay (Retired)
+Pepega
+
+**Roles:** Moderator
+
+[Twitch](https://www.twitch.tv/deejayvr)
+
+## Guatapuri (Retired)
+"Came for the game, Stayed for the hugs"
+
+**Roles:** Mapper, Moderator
+
+## joelseph (Retired)
+\+ joelseph
+
+**Roles:** Moderator
+
+[Twitch](https://www.twitch.tv/tehjoelseph)

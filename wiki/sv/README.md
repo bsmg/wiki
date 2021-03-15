@@ -17,34 +17,40 @@ tags:
   - hur är beatmaps gjorda?
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class='features'>
 
-::: feature Komma igång
-* [Modda PC](./pc-modding.md)
-* [Mooda Quest](./quest-modding.md)
-* [Vanliga problem](./support/)
-* [Grepp och Trick](./grips-and-tricks.md)
-* [Ranking & Poängguide](./ranking-guide.md)
+::: feature Getting Started
+
+* [PC Modding](./pc-modding.md)
+* [Quest Modding](./quest-modding.md)
+* [Common Problems](./support/)
+* [Grips and Tricks](./grips-and-tricks.md)
+* [Ranking & Scoring Guide](./ranking-guide.md)
 :::
 
-::: feature Skapa nytt Innehåll
-* [Guide för Moddare](/sv/modding/)
-* [Resurser för Beatmap-skapare](/sv/mapping/)
-* [3D Models Guide](/sv/models/)
+::: feature Creating new Content
+
+* [Modder's Guide](/modding/)
+* [Mapper Resources](/mapping/)
+* [3D Models Guide](/models/)
 :::
 
 ::: feature Other Resources
-* [Om Oss](/sv/about/)
-* [Hälsa och Säkerhet](./health-and-safety.md)
-* [Vanliga Frågor](/sv/faq/)
-* [Gemenskap](/sv/communities/)
+
+* [About Us](/about/)
+* [Health and Safety](./health-and-safety.md)
+* [Frequently Asked Questions](/faq/)
+* [Communities](/communities/)
 :::
 
 </div>
+<!-- markdownlint-enable MD033 -->
 
-<hr />
+---
 
 ## Externa Länkar
+
 * [Gå med i Discord-servern!](https://discord.gg/beatsabermods)
 * [BSMG Patreon](https://www.patreon.com/beatsabermods) - Stöd våra BSMG-tjänster!
 * [BeatMods](https://beatmods.com) - Samling av PC-mods som finns i olika installatörer, till exempel ModAssistant

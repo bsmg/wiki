@@ -17,6 +17,7 @@ tags:
   - como são feitos os mapas para o beat saber?
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class='features'>
 
 ::: feature Começando
@@ -27,10 +28,10 @@ tags:
 * [Ranking & Guia de Pontuação](./ranking-guide.md)
 :::
 
-::: feature Creating new Content
-* [Modder's Guide](/modding/)
-* [Mapper Resources](/mapping/)
-* [3D Models Guide](/models/)
+::: feature Creating novo Conteúdo
+* Guia de Modder](/modding/)
+* [Recursos de Mapper](/mapping/)
+* [Guia de 3D Models](/models/)
 :::
 
 ::: feature Other Resources
@@ -41,10 +42,12 @@ tags:
 :::
 
 </div>
+<!-- markdownlint-enable MD033 -->
 
-<hr />
+---
 
 ## Links externos
+
 * [Junta-te ao nosso servidor de Discord!](https://discord.gg/beatsabermods)
 * [Patreon BSMG](https://www.patreon.com/beatsabermods) - Apoia os serviços BSMG!
 * [BeatMods](https://beatmods.com) - Repositório de mods para PC que se refletem em instaladores como o ModAssistant

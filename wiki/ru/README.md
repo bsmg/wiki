@@ -17,37 +17,40 @@ tags:
   - how are beat maps make?
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class='features'>
 
-::: feature С чего начать
-* [Моддинг ПК-версии](./pc-modding.md)
-* [Моддинг версии для Oculus Quest](./quest-modding.md)
-* [Проблемы](./support/)
-* [Хваты и трюки](./grips-and-tricks.md)
-* [Руководство по подсчету очков и рейтингу](./ranking-guide.md)
+::: feature Getting Started
+
+* [PC Modding](./pc-modding.md)
+* [Quest Modding](./quest-modding.md)
+* [Common Problems](./support/)
+* [Grips and Tricks](./grips-and-tricks.md)
+* [Ranking & Scoring Guide](./ranking-guide.md)
 :::
 
-::: feature Создание нового
-* [Руководство для создателей модов](/modding/)
-* [Руководство для создателей карт](/mapping/)
-* [Руководство для создания 3D моделей](/models/)
+::: feature Creating new Content
+
+* [Modder's Guide](/modding/)
+* [Mapper Resources](/mapping/)
+* [3D Models Guide](/models/)
 :::
 
-::: feature Другие ресурсы
-* [О нас](/about/)
-* [Здоровье и безопасность](./health-and-safety.md)
-* [Часто задаваемые вопросы](/faq/)
-* [Сообщества](/communities/)
+::: feature Other Resources
+
+* [About Us](/about/)
+* [Health and Safety](./health-and-safety.md)
+* [Frequently Asked Questions](/faq/)
+* [Communities](/communities/)
 :::
- 
-Block element text (div)
-XPath: /div[2]:::
 
 </div>
+<!-- markdownlint-enable MD033 -->
 
-<hr />
+---
 
 ## Внешние ссылки
+
 * [Заходите на наш сервер Discord!](https://discord.gg/beatsabermods)
 * [BSMG Patreon](https://www.patreon.com/beatsabermods) - поддержите услуги, предоставляемые BSMG!
 * [BeatMods](https://beatmods.com) - Repository of PC mods that are reflected in installers like ModAssistant

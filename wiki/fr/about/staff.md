@@ -2,18 +2,11 @@
 _Que ce soit la gestion des projets, la validation des extensions, la gestion des services principaux, la coordination d'évènements, ou bien d'autres projets secrets, il y a toujours beaucoup de travail à faire. La communauté n'existerait pas sans ces indénombrables heures de contributions fournies par ces individus géniaux, alors, s'il-vous-plaît, offrez-leur une ovation virtuelle (et aidez à payer les services si vous pouvez...)._
 
 ## +1 Rabbit
-Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)
+Créateur du [prévisualiseur de carte dans le navigateur](https://skystudioapps.com/bs-viewer/) et de divers [outils de mappage](https://skystudioapps.com/mapping-tools/)
 
 **Roles:** Staff, Modder **Contributions:** BS-Viewer, Mapping Tools
 
-[GitHub](https://github.com/PlusOneRabbit) | [Twitch](https://www.twitch.tv/plusonerabbit) | [Donate](https://ko-fi.com/plusonerabbit)
-
-## Assistant
-Superviseur des services principaux, incluant BeatSaver et les serveurs BeatMods. Le Support original et créateur du guide sur les avatars personnalisés, Mod Assistant et ModelSaber.
-
-**Rôles :** Staff, Support, Artiste 3D **Contributions :** Approbateur BeatMods, Guides de création Multijoueur/Sabre/Avatar/Plateforme, Modération, ModelSaber, Admin BeatSaver, Podcasts BSMG
-
-[GitHub](https://github.com/Assistant) | [Faire un don](https://bs.assistant.moe/Donate) | [Patreon](https://www.patreon.com/AssistantMoe)
+[GitHub](https://github.com/PlusOneRabbit) | [Twitch](https://www.twitch.tv/plusonerabbit) | [Faire un don](https://ko-fi.com/plusonerabbit)
 
 ## Bloodcloak
 A mapper that is really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps. *Totally* hasn't fallen into the vTuber hole.
@@ -21,7 +14,7 @@ A mapper that is really into Japanese and EDM music with the occasional K-pop so
 **Roles:** Staff, Mapping Support, Mapper  
 **Contributions:** Wiki Management, Mapping Resources Maintainer
 
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
+[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Faire un don](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
 
 ## Bobbie
 Remind him to watch his glucose.
@@ -29,7 +22,7 @@ Remind him to watch his glucose.
 **Rôles :** Staff, Moddeur, Artiste 3D, Modérateur  
 **Contributions :** Custom Notes, Admin de ModelSaber
 
-Assurez-vous qu'il surveille son glucose. [Important](https://i.imgur.com/REWmoI9.jpg) | [GitHub](https://github.com/legoandmars/) | [Twitter](https://twitter.com/vrbobbie) | [YouTube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ)
+Assurez-vous qu'il surveille son glucose. [Important](https://i.imgur.com/REWmoI9.jpg) | [Twitter](https://twitter.com/vrbobbie) | [YouTube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ) | [Faire un don](https://ko-fi.com/bobbievr)
 
 ## elliotttate
 "Official BSMG PR Guy". Les évènements comme le Tournoi des 100k n'auraient pas pu être possibles sans ses efforts et ses compétences en réseau. Il a également lancé BeastSaber pour vous aider à trouver les meilleurs maps.
@@ -48,12 +41,12 @@ Makes mods for quest and likes to PP farm in her free time.
 [GitHub](https://github.com/Rugtveit)
 
 ## lolPants
-One hell of a developer and a lover of socks. lolPants laid the groundwork for many of the policies and procedures during his time as Staff, and continues to help out when his services are needed.
+One hell of a developer and a lover of socks. lolPants laid the groundwork for many of the policies and procedures during their time as Staff, and continues to help out when their services are needed.
 
 **Roles:** Modder, Admin (Retired), Staff, Moderator  
 **Contributions** CMB, ModSaber, Moderation, BeatSaver Reloaded
 
-[GitHub](https://github.com/lolPants) | [Twitch](https://twitch.tv/lolpants_) | [PayPal](https://www.paypal.me/jackbarondev) | [Ko-fi](https://ko-fi.com/lolpants) | [Patreon](https://www.patreon.com/JackBaron) | [Donate](https://monzo.me/jackbaron)
+[GitHub](https://github.com/lolPants) | [Twitch](https://twitch.tv/lolpants_) | [PayPal](https://www.paypal.me/jackbarondev) | [Ko-fi](https://ko-fi.com/lolpants) | [Patreon](https://www.patreon.com/JackBaron) | [Faire un don](https://monzo.me/jackbaron)
 
 ## Megalon
 Co-créateur de BSMG et du Channel Monitor Bot (CMB). Il est connu pour ses overlays de stream créatifs et sa superbe voix ASMR.
@@ -67,7 +60,7 @@ Likes pies, tartes, and helping people fix their mods!
 
 **Rôles :** Staff, Support, Modérateur
 
-[Twitch](https://www.twitch.tv/mamamelo) | [Faire un don](https://streamlabs.com/mamamelo)
+[Twitch](https://www.twitch.tv/mamamelo) | [Faire un don](https://ko-fi.com/melopod)
 
 ## OrangeW
 Le premier joueur Beat Saber professionnel, représentant la Team Gravity. Ex-administrateur du classement général de ScoreSaber.
@@ -85,11 +78,10 @@ Propriétaire du serveur BSMG et fanatique des jeux de rythme. Nous ne serions p
 
 [GitHub](https://github.com/reaxt) | [Twitch](https://twitch.tv/reaxt)
 
-
 ## Sam
 Il est soit en train de parler de Steven, soit en train d'être bien trop patriotique dans le chat (admin de BS Nordic par ailleurs). Ne l'appelez pas _cute_, il déteste ça. Il fait aussi des maps, allez jeter un oeil ci-dessous.
 
-**Rôles :** Staff, Modérateur, Mapper
+**Rôles :** Staff, Modérateur, Mappeur
 
 [Twitch](https://twitch.tv/justsamuelok) | [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850326)
 
@@ -114,6 +106,13 @@ Chef de projet, éditeur du wiki, chef boulanger. Malgré ce que tout le monde d
 **Contributions :** Gestion du wiki, Modération, Gestion de tournoi, Approbateur BeatMods
 
 [Twitch](https://www.twitch.tv/williums/) | [Faire un don](https://ko-fi.com/williums)
+
+## Assistant (Retired)
+Superviseur des services principaux, incluant BeatSaver et les serveurs BeatMods. Le Support original et créateur du guide sur les avatars personnalisés, Mod Assistant et ModelSaber.
+
+**Rôles :** Staff, Support, Artiste 3D **Contributions :** Approbateur BeatMods, Guides de création Multijoueur/Sabre/Avatar/Plateforme, Modération, ModelSaber, Admin BeatSaver, Podcasts BSMG
+
+[GitHub](https://github.com/Assistant) | [Faire un don](https://bs.assistant.moe/Donate) | [Patreon](https://www.patreon.com/AssistantMoe)
 
 ## Balsa (retraité)
 Créateur de BeatSaver - il est la première raison pour laquelle nous avons un endroit où récupérer nos chansons personnalisées. Il n'apparaît qu'une fois de temps en temps pour vanter les chiffres de BeatSaver, nous traiter de *nerds* et présenter sa collection de vieux mèmes qualitatifs. Il s'est depuis retiré de l'équipe du Staff mais nous ne serions pas là sans lui.

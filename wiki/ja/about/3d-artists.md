@@ -1,5 +1,5 @@
 # 3D Artists（3Dモデル制作者）
-translation-done: false
+From sabers to notes, custom models have always been a popular aspect of modded beat saber which wouldn't be possible without them.
 
 ## AkaRaiden
 ::: danger Sorry, this page has not been translated yet, you can either:
@@ -41,7 +41,9 @@ One of the first creators to mass produce avatars, and thus give birth to this r
 **Roles:** 3D Artist
 
 ## RedBrumbler
-"The guy who made giant glowing dicks in beat saber" ~Emulamer 12th of July 2019 As you can read I make sabers for quest, but generally I've been active in the asset modding part of beat saber, I've also done some for other games but Beat saber is my main love. If you ever need help making sabers specifically for quest you can always ask me over in the quest modeling channel (until we get that qsaber mod anyways) keep on sabering that meat till it's real tender!
+"The guy who made giant glowing dicks in beat saber" ~Emulamer 12th of July 2019
+
+As you can read I make sabers for quest, but generally I've been active in the asset modding part of beat saber, I've also done some for other games but Beat saber is my main love. If you ever need help making sabers specifically for quest you can always ask me over in the quest modeling channel (until we get that qsaber mod anyways) keep on sabering that meat till it's real tender!
 
 **Roles:** 3D Artist, Support
 
@@ -66,6 +68,7 @@ Tons and tons of Full Body Tracking support!
 
 ---
 
+<!-- markdownlint-disable MD013 -->
 ::: tip See Also **Support:** [Emma](./supports.md#emma)  
 **Moderators:** [DeeJay](./moderators.md#deejay) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)  
 **Staff:** [Assistant](./staff.md#assistant) | [Bobbie](./staff.md#bobbie) :::

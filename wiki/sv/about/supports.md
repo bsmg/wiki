@@ -1,10 +1,12 @@
 # Support
-Supportrollen är en symbol för tacksamhet. Tack för alla tusentals meddelanden och hundratals timmar spenderade för att hjälpa andra att sortera ut deras mods, och för att bygga kunskapen om felsökningsbasen genom macros och wikin. Vi ger vanligtvis inte ut denna roll, men när vi gör det så är det för att någon har gått över och bortom för servern.
+_The Support role is a symbol of thanks. Thanks for the thousands of messages and hundreds of hours spent helping people sort out their mods, and for for building a knowledge of troubleshooting base through macros and the wiki. We don't typically give this role out, but when we do it's because someone has gone above and beyond for the server._
 
 ## boulders2000
-"Även om hans hjärna är rörig så känner han till sina saker (typ)" något liknande (men lägg inte till något som den delen, okej?)
+> "even though his brain is a mess he knows his stuff (kinda)"
+> 
+> something like that (but don't add something like that part, ok?)
 
-**Roll:** Support
+**Roles:** Support
 
 ## ComputerElite
 He makes programs to support people faster and some others for them to make all easier. (likes to eat BMBF Logs)
@@ -32,8 +34,8 @@ He'll teach you to fix your plugins and your terribly off-beat first map. We've 
 
 [Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
 
-## Nobby76
-Heart of gold, nerves of steel.... And a knob of butter
+## OneEyed
+2 truths and a lie: Pink cute, CMB sentient, OneEyed has good spelling
 
 **Roles:** Support
 
@@ -65,6 +67,18 @@ He has no life and he's pretty dumb but he can help with your bmbf and that's al
 
 ## Simme63
 "Coke Head"
+
+**Roles:** Support
+
+## Squares
+I swear i'm good at Beat Saber and helping just ask Boulders!
+
+**Roles:** Support
+
+[YouTube](https://www.youtube.com/channel/UCaQ7PLj4AqGHZnqQVjc_XBQ)
+
+## Toblersto
+I decided I wanted to help one day, and have been slightly addicted ever since.
 
 **Roles:** Support
 

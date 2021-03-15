@@ -3,7 +3,7 @@ sidebar: auto
 ---
 
 # Heywf Awn Sayftew
-_Cawn't hyt bwok wiv veyjtibw awms_
+_Can't hit bloq with vegetable arms!_
 
 ## Genewaw Typs
 Beat Saber can be a pretty physically demanding game and it is important to treat play sessions just like a workout. We strongly recommend that you stretch and warm up before each play session to avoid physical injury, including damage to the wrist and shoulders. Common injuries include repetitive strain injury (RSI) to the wrist and shoulders.
@@ -16,6 +16,7 @@ Stretching isn't just limited to people playing crazy custom songs either, you c
 Tino is a top 10 player in Canada who kindly wrote a very detailed guide covering proper warm up, recovery, and injury relief. [Check it out here!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
 
 ## Wist Cawe
+
 ### Weyghts?
 Generally, we **do not recommend** using weights for this game. Beat Saber is already a workout and people hurt themselves all the time without weights. You're basically subjecting your wrists to constant whiplash, and adding weights is only going to make things worse.
 

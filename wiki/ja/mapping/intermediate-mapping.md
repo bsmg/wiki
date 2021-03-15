@@ -6,9 +6,10 @@ description: A more in-depth look at many mapping topics to take your maps to th
 ---
 
 # Intermediate Mapping
-_A more in-depth look at many mapping topics_
+_A more in-depth look at many mapping topics._
 
-Mapping is level design. Design is both an art and a science. There is no “best” answer, but there are many “wrong” answers.  
+Mapping is level design. Design is both an art and a science. There is no "best" answer, but there are many "wrong" answers.
+
 The [Basic Mapping](./basic-mapping.md) page is useful for learning what not to do as a new mapper. Once you have a bit of experience it’s time to take your understanding of mapping principles to the next level. Ultimately, the best way to learn to map is to simply keep at it.
 
 **Try. Adjust. Listen. Repeat.**
@@ -38,13 +39,14 @@ If you’d like to explore this more in depth, checkout [pishifat's video](https
 
 ## Emphasis
 While big towers, windows, doubles, fast jumps, and fast streams are fun. Consider whether the patterns being mapped reflect the intensity level of the music.
-  1. Within a section, the most prominent sounds should be emphasized more, and the less prominent less emphasized. Emphasis can be done in a variety of ways, such as:
-      * Spacing notes further apart to induce bigger swings.
-      * Adding doubles and stacks for oomph.
-      * Mapping faster rhythms to induce faster swinging.
-      * Not mapping less significant sounds or segments so the more important sounds or segments stand out more.
-  2. The intensity of the mapping in each section relative to other sections should be somewhat in line with the intensity of the music. Try to rate the intensity of each section in your map from 1-10 and see if it lines up with the intensity you feel from the song.
-  3. Deviation from the intensity of the music is fine as long as sections are not excessively elevated or lowered relative to the intensity of the rest of the song. An example would be fully mapping very quiet 1/4 drums when the rest of the map is mapped to 1/1 or 1/2 would unnecessarily elevate it in intensity above the rest of the song.
+
+1. Within a section, the most prominent sounds should be emphasized more, and the less prominent less emphasized. Emphasis can be done in a variety of ways, such as:
+   * Spacing notes further apart to induce bigger swings.
+   * Adding doubles and stacks for oomph.
+   * Mapping faster rhythms to induce faster swinging.
+   * Not mapping less significant sounds or segments so the more important sounds or segments stand out more.
+2. The intensity of the mapping in each section relative to other sections should be somewhat in line with the intensity of the music. Try to rate the intensity of each section in your map from 1-10 and see if it lines up with the intensity you feel from the song.
+3. Deviation from the intensity of the music is fine as long as sections are not excessively elevated or lowered relative to the intensity of the rest of the song. An example would be fully mapping very quiet 1/4 drums when the rest of the map is mapped to 1/1 or 1/2 would unnecessarily elevate it in intensity above the rest of the song.
 
 If you want to explore this more in depth, checkout [pishifat's video](https://www.youtube.com/watch?v=rAYm50d6XMw) on osu! spacing emphasis. While it is an osu! video, the concepts do translate to intensity in Beat Saber.
 
@@ -75,34 +77,38 @@ Offset is used to adjust a song’s spawn distance while keeping the NJS the sam
 ## Understanding Flow
 In [Basic Mapping](./basic-mapping.md#do-mapping-with-flow) we covered the bare essentials of parity. Now we’ll dig deeper and explore why some hits just feel bad.
 
-Flow is arguably the most important concept in mapping - how each arm travels to move from one hit to the next. This can be as simple as alternating between “forehand” and “backhand” notes, or as complicated as thinking about how one arm interacts with the other at the edges of the playspace. Since the player must see blocks in order to react to them, flow highly depends on speed and difficulty. Slower songs are far more forgiving and flexible with regards to flow, while a fast song is highly limited.
+Flow is arguably the most important concept in mapping - how each arm travels to move from one hit to the next. This can be as simple as alternating between "forehand" and "backhand" notes, or as complicated as thinking about how one arm interacts with the other at the edges of the playspace. Since the player must see blocks in order to react to them, flow highly depends on speed and difficulty. Slower songs are far more forgiving and flexible with regards to flow, while a fast song is highly limited.
 
-:::tip TIP Still learning and not seeing some of the errors testplayers point out? Check out [GalaxyMaster's parity checker](https://galaxymaster2.github.io/bs-parity/) to spot any parity breaks! :::
+::: tip TIP Still learning and not seeing some of the errors testplayers point out? Check out [GalaxyMaster's parity checker](https://galaxymaster2.github.io/bs-parity/) to spot any parity breaks! :::
 
 ### Block Directions & Positions
 Each swing a player makes leaves their arm in a new position. At hard difficulty and higher, the player will leave their arms in this new position while waiting for the next motion. The block that follows must consider the position of the arm.
 
-|                                  **Poor Positioning**                                   |                                   **Poor Angles**                                   |                     **Good Position & Angle**                      |
-|:---------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:------------------------------------------------------------------:|
-|                       ![](~@images/mapping/poor_positioning.jpg)                        |                        ![](~@images/mapping/poor_angle.jpg)                         |          ![](~@images/mapping/good_positioning_angle.jpg)          |
-| You can see here that the arm is not ready to hit down from the position it is left in. | In order to hit the next block, the arm has to do a lot of extra motion to wind up. | Taking both into consideration, you are left with a smooth motion. |
+<!-- markdownlint-disable MD013 -->
+|                                  **Poor Positioning**                                   |                                   **Poor Angles**                                   |                               **Good Position & Angle**                               |
+|:---------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
+|          ![Example of Poor Positioning](~@images/mapping/poor_positioning.jpg)          |              ![Example of Poor Angle](~@images/mapping/poor_angle.jpg)              | ![Example of Good Positioning and Angle](~@images/mapping/good_positioning_angle.jpg) |
+| You can see here that the arm is not ready to hit down from the position it is left in. | In order to hit the next block, the arm has to do a lot of extra motion to wind up. |          Taking both into consideration, you are left with a smooth motion.           |
+<!-- markdownlint-enable MD013 -->
 
-* refer to the [original English version](../../mapping/intermediate-mapping.md),
-* wait for a translation to be done,
+* Each block has a limited selection of following blocks that feel good to play.
+* It takes longer wind up for less optimal hits and more suggested motion to play, be it from another block, bombs, or walls.
 * Faster songs have less time to see and comprehend the next block, leaving the mapper with more limited options for patterns. Vision blocking notes/walls are risky for this same reason.
 * Counter-clockwise wrist motions are preferred with the right hand and clockwise wrist motions are preferred with the left hand. Try it yourself and feel the difference!
 
-Sorted by how awkward they are for the right hand, left being the most awkward and right being the least. Note that this is mirrored for the left hand (Red Notes).  
-**Awkward Backhands:** ![](~@images/mapping/bndl.png) ![](~@images/mapping/bnd.png) ![](~@images/mapping/bnl.png)  
-**Questionable Backhands:** ![](~@images/mapping/bndr.png)  
-**Awkward Forehands:** ![](~@images/mapping/bnur.png) ![](~@images/mapping/bnu.png) ![](~@images/mapping/bnr.png)  
-**Questionable Forehands:** ![](~@images/mapping/bnul.png)
+Sorted by how awkward they are for the right hand, left being the most awkward and right being the least. Note that this is mirrored for the left hand (Red Notes).
+
+<!-- markdownlint-disable MD013 -->
+**Awkward Backhands:** ![Blue Note Down-left](~@images/mapping/bndl.png) ![Blue Note Down](~@images/mapping/bnd.png) ![Blue Note Left](~@images/mapping/bnl.png)  
+**Questionable Backhands:** ![Blue Note Down-right](~@images/mapping/bndr.png)  
+**Awkward Forehands:** ![Blue Note Up-right](~@images/mapping/bnur.png) ![Blue Note Up](~@images/mapping/bnu.png) ![Blue Note Right](~@images/mapping/bnr.png)  
+**Questionable Forehands:** ![Blue Note Up-left](~@images/mapping/bnul.png)
+<!-- markdownlint-enable MD013 -->
 
 If you have to make either a double backhand/forehand or one of the awkward backhands/forehands, the result is a DD or a triangle pattern.
 
 ### Suggested vs. Required Motion
-When mapping unusual patterns that break typical conventions for flow, extra motion is suggested to make the pattern work.   
-An example is a scoop:  
+When mapping unusual patterns that break typical conventions for flow, extra motion is suggested to make the pattern work. An example is a scoop:  
 ![Scoop](~@images/mapping/scoop.png)  
 In order to hit the up note following the side note, the arm must take a longer scooping path to be in position. This motion is suggested, where an extra note block down would require the motion instead.
 
@@ -134,25 +140,27 @@ Walls are a way to encourage the player to move left, right, down, or a combinat
 
 #### Dodge Walls
 Left and right movement should feel natural and never be forced.
-  * The note pattern should already encourage the player to move in that direction.
-  * There should be enough space between walls if using left/right back to back.
-    * Often 1 beat between the end of one and the start of next is enough. Though depending on the BPM more space is required.
-  * Groove Walls are a situational exception to this but, are hard to execute correctly.
+
+* The note pattern should already encourage the player to move in that direction.
+* There should be enough space between walls if using left/right back to back.
+  * Often 1 beat between the end of one and the start of next is enough. Though depending on the BPM more space is required.
+* Groove Walls are a situational exception to this but, are hard to execute correctly.
 
 #### Crouch Walls
 Down movement is trickier as it is easier to do more harm than good.
-  * Most players dislike crouch walls, be very selective when using them.
-    * Crouch walls should be avoided when the spawn distance is very short and NJS is high as they make even fully telegraphed crouch walls too fast to react to.
-  * Keep them short, there’s rarely a good reason to have them longer than 1-2 beats.
-  * If you are ending a crouch wall with notes just after, be extremely careful with what direction you start (up/down).
-    * Starting down too quickly is uncomfortable and almost always unnecessary.
-    * Starting up too late is also awkward.
-  * It is easy to justify a crouch wall if the lyrics in a song say “down”, “under”, or any other reference to a downward motion.
-  * Side notes are more natural to hit while under a crouch wall than up/down notes.
-  * It is better to have a crouch wall end early than late as it plays better for any player in general. Especially those who have physical trouble crouching for too long.
-      * If your crouch wall is longer than 1 beat, shorten it by 0.5.
-      * If less than 1 beat and greater than 0.5, shorten by 0.25.
-      * Otherwise, leave it.
+
+* Most players dislike crouch walls, be very selective when using them.
+  * Crouch walls should be avoided when the spawn distance is very short and NJS is high as they make even fully telegraphed crouch walls too fast to react to.
+* Keep them short, there’s rarely a good reason to have them longer than 1-2 beats.
+* If you are ending a crouch wall with notes just after, be extremely careful with what direction you start (up/down).
+  * Starting down too quickly is uncomfortable and almost always unnecessary.
+  * Starting up too late is also awkward.
+* It is easy to justify a crouch wall if the lyrics in a song say "down", "under", or any other reference to a downward motion.
+* Side notes are more natural to hit while under a crouch wall than up/down notes.
+* It is better to have a crouch wall end early than late as it plays better for any player in general. Especially those who have physical trouble crouching for too long.
+  * If your crouch wall is longer than 1 beat, shorten it by 0.5.
+  * If less than 1 beat and greater than 0.5, shorten by 0.25.
+  * Otherwise, leave it.
 
 ### Aesthetic Walls
 These walls are one option for adding a visual element to the map close to the player. They narrow down the field to a smaller region, making notes feel closer together and faster approaching. They can also be used to represent sounds not mapped by notes, or even used to flesh out quiet/slow/vocal drifting sections.
@@ -185,23 +193,24 @@ Inverts are notes that are placed in a location which forces the player to swing
 Be aware that inverts can be quite hard to read especially in rapid succession or at higher speeds.
 
 **Example placements**  
-![invert example](~@images/mapping/invert-example-placements.png)
+![Invert Example](~@images/mapping/invert-example-placements.png)
 
 ## Note Alignment for MMA2
 It is not apparent in MMA2 but this is how some notes align in game.
 
-![mma2 alignment example](~@images/mapping/mma2-alignment-examples.jpg)
+![MMA2 Alignment Example](~@images/mapping/mma2-alignment-examples.jpg)
 
 ## Single Saber/Handedness Switches
 Alternating the hand leading a pattern can be highly effective at providing variety, interesting motions, or unique rhythms but have limitations.
 
-Typically the player expects patterns to be in the sequence of:   
-![blue down](~@images/mapping/bnd.png) To > ![red down](~@images/mapping/rnd.png) To > ![blue up](~@images/mapping/bnu.png) To > ![red up](~@images/mapping/rnu.png) Deviating from this can allow for unique motions and crossovers without tangling, but risks being challenging to read or play at higher speeds. For example if done mid-pattern, it requires one hand to flick twice as fast. While this might not be an issue for slower patterns, faster ones with less visibility or more aggressive motions can be problematic.
+Typically the player expects patterns to be in the sequence of: ![Blue Down](~@images/mapping/bnd.png) To > ![Red Down](~@images/mapping/rnd.png) To > ![Blue Up](~@images/mapping/bnu.png) To > ![Red Up](~@images/mapping/rnu.png)
+
+Deviating from this can allow for unique motions and crossovers without tangling, but risks being challenging to read or play at higher speeds. For example if done mid-pattern, it requires one hand to flick twice as fast. While this might not be an issue for slower patterns, faster ones with less visibility or more aggressive motions can be problematic.
 
 ## Reading vs. Reacting to Notes
 Fundamentally, the player needs to know how to swing in order to follow notes. As speeds increase, the time to read, process, and move accordingly decreases. This is tempered by following convention at higher speeds, such as following the alternating hand sequence as mentioned in the previous section.
 
-Triangles, switch-ups, unexpected doubles, bombs, walls, etc. can all throw off the expected “reaction” the player will have to incoming notes. This is the reason why offset is so important to consider as dancey, slower patterns need extra time to read and process what approaches while faster songs must keep the screen less cluttered to allow players to follow instinct.
+Triangles, switch-ups, unexpected doubles, bombs, walls, etc. can all throw off the expected "reaction" the player will have to incoming notes. This is the reason why offset is so important to consider as dancey, slower patterns need extra time to read and process what approaches while faster songs must keep the screen less cluttered to allow players to follow instinct.
 
 ## High Speed Mapping
 Playstyle slowly changes as the map reaches extreme speeds (around 200+ BPM). For slower songs, it is easier to perform large arm swings and contort the whole body to hit more unusual patterns. While at high speeds, there is very little time to process what approaches and the game becomes a combination of instinct, precision, and stamina. Patterns and placement gets more and more limited, and visibility becomes of the essence.
@@ -209,7 +218,6 @@ Playstyle slowly changes as the map reaches extreme speeds (around 200+ BPM). Fo
 Hidden blocks will be virtually invisible at extreme speeds due to the short amount of time that blocks remain on screen. Inlines, 2-column streams, hitbox-abusing patterns, and large spacing one-handed jumps all become exponentially more problematic as speeds approach extreme speeds. Other, normally innocuous patterns also become challenging including double spam, complex streams, wide hits, and sliders.
 
 While mapping, it is recommended to slow down playback speed of the song to time notes to the song as accurately as possible.
-
 
 ## Variable BPM Songs
 If, while mapping, you notice that your song was properly aligned but suddenly changes or starts to fall off beat, then it's likely a BPM issue.
@@ -230,19 +238,16 @@ You can check out the [Basic Mapping](./basic-mapping.md#pattern-complexity) gui
 ::: tip Tip Beat Saber’s five set difficulties can create issues for some spreads. It’s perfectly acceptable to have a spread that is considered to be very difficult, but you should consider pushing your labels up if this is the case. A hard player that is expecting to play a hard difficulty, but actually finds a low expert+, is not going to have a fun time. :::
 
 ### Easy
-
 Easy is, essentially, the "Grandma Difficulty". Players that can only pass easy maps likely have zero experience with video games, and especially not VR. It is very, very easy to take for granted how much innate knowledge you might have from growing up in a digital age. VR is extremely overwhelming for someone that has never experienced anything even remotely similar to it. Your map might be the first VR experience the player ever has!
 
 Keeping that in mind, it’s important to keep your easy difficulty as simple as you can. Easy players are soaking in the experience and are learning the most basic of fundamentals, including which arm is which, and even how to orient themselves within a virtual world. They prefer to play the game as a very slow drumming simulator. Outward horizontal swings are a nice way to keep things interesting, as are the occasional dot notes, which they will likely stab.
 
 ### Normal
-
 Most players will start playing Beat Saber on the normal difficulty. You can expect the normal player to be less distracted and have a larger grasp of Beat Saber’s core premise as a game. They are more likely to understand obstacles and actually read notes, as opposed to just swinging at them.
 
 That said, they still need a good amount of time to properly react and recover, especially from big moments in a map. They will reset at any given opportunity and predominantly enjoy the "drumming" style of play. Big, flashy movements with a lot of time before and after are a great way to win a normal player’s heart.
 
 ### Hard
-
 Hard is where Beat Saber as a game really begins. Players with any sort of background in VR, or even video games as a whole, will likely start off at this difficulty, or will very quickly graduate to it within a matter of hours. Core mapping principles become very important in hard, although the slower speed (compared to expert and above) can make some patterns less egregious. Flow, in particular, should become standard, and every swing should obey parity, although hard players will still reset given enough time.
 
 Hard players will have an understanding of the mechanics of the game, including how the scoring system is operated. Players in this range are starting to be introduced to different styles of mapping, and may begin to prefer certain styles or gravitate towards competitive play. It’s important to make sure your hard difficulty has some sort of identity, and properly represents the music. Some hard players will be more drawn towards dance maps and larger movements, while others will start to really enjoy very simple and short streams that rely on speed. Consider your hard difficulty to be the entrypoint for your specific mapping style. It should be an introduction to skills they will need in the later difficulties.
@@ -250,19 +255,19 @@ Hard players will have an understanding of the mechanics of the game, including 
 ::: tip Tip Hard and Expert are considered some of the hardest difficulties to map for. If you’re struggling, try finding a lower skilled player to play your map! You don’t need in-depth feedback; simply knowing if something is too difficult or unfun can be very important. :::
 
 ### Expert
-
 Your expert difficulty should continue to grow and expand upon the style introduced in hard. An expert player can typically do everything at some level; they can read complicated patterns, can play at 1/4 speeds for longer periods of time, and can generally play the game at a higher level. However, it is a trade off. Complicated crossovers, or dramatic jumps, for example, should not be done at high speeds. Sightreading is still a skill that is being developed for most expert players, and you should make sure you’re giving the player enough time to react.
 
-For non-dancy expert maps, standard mapping conventions become very, very important. Everything should be comfortable and flow well. Even on dancey maps, you should still very carefully weigh the pros and cons of utilizing anything like a 90 degree hit, for example.  Expert players tend to have higher standards and will expect more of the map. Most emphasis options are on the table for expert, but you may still need to make adjustments from your expert+ patterns to better suit expert players. As a whole, expert players tend to enjoy more horizontal movement and good usage of diagonals with flashy doubles as emphasis. Single saber patterns, especially simple polyrhythms, can be a great way to elevate an expert map in a way they enjoy. Be wary of cutting down fast streams from your Expert+ difficulty to slower jumps for Expert; this can be equally as difficult for Expert players, as a good portion play with a lot of arm movement. Excessive top lane hits at fast speed can also be very challenging.
+For non-dancy expert maps, standard mapping conventions become very, very important. Everything should be comfortable and flow well. Even on dancey maps, you should still very carefully weigh the pros and cons of utilizing anything like a 90 degree hit, for example.  Expert players tend to have higher standards and will expect more of the map. Most emphasis options are on the table for expert, but you may still need to make adjustments from your expert+ patterns to better suit expert players.
+
+As a whole, expert players tend to enjoy more horizontal movement and good usage of diagonals with flashy doubles as emphasis. Single saber patterns, especially simple polyrhythms, can be a great way to elevate an expert map in a way they enjoy. Be wary of cutting down fast streams from your Expert+ difficulty to slower jumps for Expert; this can be equally as difficult for Expert players, as a good portion play with a lot of arm movement. Excessive top lane hits at fast speed can also be very challenging.
 
 ### Expert+
-
 Expert+ can vary greatly and is quite open-ended. However, if you have a spread that works its way up to Expert, consider if the song can actually support an Expert+ difficulty. It's okay to not include one if the difference between your Expert and Expert+ would be minimal. Be wary of overmapping!
 
-
 ## Swing In a Song and How Shuffle Helps
-::: tip NOTE This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform). :::  
-See this guide by Sykes [What swing is, and how "shuffle" will make your mapping easier ](https://docs.google.com/document/d/1j7w1X-0QtnJDFVKzyyQc_KR7RE9H3C3JFesIXGR0s1c/edit) on how to use the built in shuffle feature to make mapping songs that have swing easier.
+::: tip NOTE This is a stub section. If you’d like to contribute, submit suggestions via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform). :::
+
+See this guide by Sykes [What swing is, and how "shuffle" will make your mapping easier](https://docs.google.com/document/d/1j7w1X-0QtnJDFVKzyyQc_KR7RE9H3C3JFesIXGR0s1c/edit) on how to use the built in shuffle feature to make mapping songs that have swing easier.
 
 ## Credits
 Content in this section was authored by [Checkthepan](./mapping-credits.md#checkthepan), [CyanSnow](./mapping-credits.md#cyansnow), [Uninstaller](./mapping-credits.md#uninstaller), [Skyler Wallace](./mapping-credits.md#skyler-wallace), [Kolezan](./mapping-credits.md#kolezan), [Pyrowarfare](./mapping-credits.md#pyrowarfare), [DarkGrisen](./mapping-credits.md#darkgrisen) and [Vaser888](./mapping-credits.md#Vaser888).

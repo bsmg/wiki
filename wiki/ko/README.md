@@ -17,9 +17,11 @@ tags:
   - how are beat maps make?
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class='features'>
 
 ::: feature Getting Started
+
 * [PC Modding](./pc-modding.md)
 * [Quest Modding](./quest-modding.md)
 * [Common Problems](./support/)
@@ -28,12 +30,14 @@ tags:
 :::
 
 ::: feature Creating new Content
+
 * [Modder's Guide](/modding/)
 * [Mapper Resources](/mapping/)
 * [3D Models Guide](/models/)
 :::
 
 ::: feature Other Resources
+
 * [About Us](/about/)
 * [Health and Safety](./health-and-safety.md)
 * [Frequently Asked Questions](/faq/)
@@ -41,10 +45,12 @@ tags:
 :::
 
 </div>
+<!-- markdownlint-enable MD033 -->
 
-<hr />
+---
 
 ## External Links
+
 * [Discord 서버에 가입](https://discord.gg/beatsabermods)
 * [BSMG Patreon](https://www.patreon.com/beatsabermods) - Support the BSMG Services!
 * [BeatMods](https://beatmods.com) - Repository of PC mods that are reflected in installers like ModAssistant

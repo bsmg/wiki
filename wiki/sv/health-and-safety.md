@@ -3,12 +3,12 @@ sidebar: auto
 ---
 
 # Hälsa och säkerhet
-_Kan inte träffa bloq med spaghettiarmar_
+_Can't hit bloq with vegetable arms!_
 
 ## Generella tips
-Beat Saber kan vara en ganska fysiskt krävande spel och det är viktigt att behandla det som ett vanligt träningspass. Vi rekommenderar starkt att du stretchar och värmer upp innan varje spelsession för att undvika fysiska skador, inklusive skador på handled och axlar. Vanliga skador inkluderar förslitningsskador på handled och axlar.
+Beat Saber kan vara en ganska fysiskt krävande spel och det är viktigt att behandla det som ett vanligt träningspass. We strongly recommend that you stretch and warm up before each play session to avoid physical injury, including damage to the wrist and shoulders. Vanliga skador inkluderar förslitningsskador på handled och axlar.
 
-Stretching är inte bara begränsat till människor som spelar helt galna banor heller. Du kan skada dig själv även om en bana verkar kort eller enkelt.
+Stretching isn't just limited to people playing crazy custom songs either, you can injure yourself even if a map seems short or simple.
 
 > _Kom ihåg att dricka vatten, och andas!_
 
@@ -16,13 +16,14 @@ Stretching är inte bara begränsat till människor som spelar helt galna banor 
 Tino är en topp 10 spelare i Kanada som vänligt skrev en mycket detaljerad guide som täcker ordentlig uppvärmning, återhämtning och skadebefrielse. [Kolla in den här!](https://docs.google.com/document/d/122rd-eU0mkwQ6fXUwSmo1_XAh73Jyqd1u6ncrUjtkD0/)
 
 ## Handledsvård
-### Vikter?
-Generellt rekommenderar vi **inte** att använda vikter för detta spel. Beat Saber är redan ett träningspass och människor skadar sig själva hela tiden utan vikter. Du utsätter i princip dina handleder för konstant whiplash, och att lägga till vikter kommer bara göra saker värre.
 
-Om du insisterar på att använda vikter bör du åtminstone kolla in [denna guide](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) av VR Fitness Insider för att minimera risken för skador.
+### Vikter?
+Generellt rekommenderar vi **inte** att använda vikter för detta spel. Beat Saber is already a workout and people hurt themselves all the time without weights. You're basically subjecting your wrists to constant whiplash, and adding weights is only going to make things worse.
+
+If you insist on using weights then please at least check out [this guide](https://www.vrfitnessinsider.com/beat-saber-weighted-gear/) by VR Fitness Insider to minimize the risk of injury.
 
 ### Dr Levi Harrisons tips
-Dr Levi har räddat handleden av otaliga spelare med sina videor, och han har gjort en video som specifikt täcker några övningar för att förhindra skador från Beat Saber! Vi rekommenderar **starkt** hans tips!
+Dr. Levi has saved the wrist of countless players with his videos, and he's made a video specifically covering some exercises to help prevent injury from playing Beat Saber! Vi rekommenderar **starkt** hans tips!
 
 <YouTube url='https://www.youtube.com/watch?v=IoL1NOKUmoU' />
 

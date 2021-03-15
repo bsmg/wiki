@@ -1,4 +1,5 @@
 # Często Zadawane Pytania
+
 ## Właśnie dostałem grę, jak zacząć?
 Zobacz nasz [poradnik dla początkujących](/beginners-guide.md)!
 
@@ -12,47 +13,52 @@ Jeśli pobierasz mapy ręcznie z BeatSaver, rozpakuj je do folderu i umieść pl
 
 ### Narzędzia do zarządzania utworami
 Poniżej znajdują się programy do użycia na komputerze, aby pomóc Ci m.in. w pobraniu customowych map.
+
 * [Beat Saber Downloader](https://drive.google.com/file/d/1QWedF77hWYbqcigIWa2UcpXlhqGTjwR1/view) do pobierania map stworzony przez Sturdyfool0.
 * [BeatList](https://github.com/Alaanor/beatlist) do zarządzania playlistą i beatmapami stworzony przez Alaanor.
 
 ## Jak zainstalować playlisty?
-**Dla użytkowników PC:**  
-Musisz zainstalować moda `PlaylistLoaderLite`. Wtedy będziesz mógł
+
+### PC
+You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod.
+
+Then you can either:
+
 * Korzystać z narzędzia `Install Playlist` w zakładce Opcje w Mod Assistant.
-* Umieścić plik playlisty w `Beat Saber/Playlists`, wybrać ją w BeatList i kliknąć "download all".
+* Place the playlist file into `Beat Saber/Playlists`, select it in-game, then hit download all songs.
 
-Powinieneś teraz widzieć playlistę w grze obok albumu z customowymi mapami. Jeśli brakuje którychś poziomów z playlisty, musisz pobrać je ręcznie za pomocą BeatList lub bezpośrednio z Beatsaver lub Bsaber.
+You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
 
-**Dla użytkowników Questa:**  
-Możesz korzystać z [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) do zarządzania playlistami na swoich goglach. Zauważ, że customowy poziom może pojawić się dopiero, kiedy będziesz w grze, ze względu na ograniczenie BMBF.
+### Quest
+You can use [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) to manage the playlists on your Quest. Note that a custom level can only appear once in-game due to a limitation with BMBF.
 
-:::warning OSTRZEŻENIE dla użytkowników Questa Odświeżenie folderu Custom Songs resetuje organizację wszystkich playlist. :::
+:::warning WARNING for Quest Users Reloading your Custom Songs Folder resets all playlist organization. :::
 
 ## Jak mogę stworzyć własne poziomy?
-Zobacz [mapowanie](/mapping/)!
+See [mapping](/mapping/)!
 
 ## Jak załadować wtyczki, których nie ma w Mod Assistant?
-Zobacz [tę sekcję](/pc-modding.md#manual-installation) w poradniku dla początkujących.
+See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 
 ## Czy tryb wielosobowy obsługuje grę międzyplatformową?
-Oficjalnie tryb wieloosobowy ogranicza możliwość do grania jedynie z osobami, które kupiły grę w tym samym sklepie (Oculus/Steam), co Ty. Ponadto, modowanie gry na platformie Quest wyłącza oficjalny tryb wieloosobowy.
+Officially, multiplayer is limited to playing with other people in the store version (Oculus/Steam) you purchased. Additionally, modifying the game on Quest disables official multiplayer.
 
-Mod BeatTogether jest obecnym rozwiązaniem na rozgrywkę międzyplatformową pomiędzy zmodowanymi wersjami gry. Dołącz do ich [serwera Discord](https://discord.com/invite/gezGrFG4tz) i sprawdź kanał `#install-instructions`, aby uzyskać więcej informacji.
+The BeatTogether mod is the current solution for cross-platform play between the modded game versions. Join their [Discord server](https://discord.com/invite/gezGrFG4tz) and check the `#install-instructions` channel for more information.
 
-## Po aktualizacji gry żaden z moich modów nie działa!
-Po każdej aktualizacji gry możliwe jest *(i bardzo prawdopodobne)*, że zainstalowane wcześniej mody przestaną działać i również będą musiały zostać zaktualizowane. Deweloperzy gry zdali sobie z tego sprawę, więc gdy gra się zaktualizuje i uruchomisz ją po raz pierwszy, wszystko w folderze `Plugins` jest przenoszone do nowego folderu o nazwie `Old 1.xx.x Plugins`. **Pozostaw wtyczki w tym folderze!**
+## My game updated and now none of my mods are working
+Each time the game updates it is possible *(and very likely)* that your existing mods will stop working and need to be updated. The game developers realized this, so when the game updates and you run it for the first time, everything in the `Plugins` folder is moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins in there!**
 
-Aby mody zaczęły ponownie działać **uruchom ponownie instalator.**  
-Repozytorium BeatMods zawiera tylko te mody, które na pewno działają z najnowszą wersją gry!
+To get mods back, simply **run the installer again.**  
+The BeatMods repository only includes mods that have been confirmed to work on the latest version of the game!
 
-Jeśli czegoś jeszcze nie rozumiesz, zobacz [Poradnik dla początkujących](/beginners-guide.md).
+If you're confused by any of this, visit [Beginners Guide](/beginners-guide.md).
 
 ## Jak działa system punktacji w Beat Saber? Jak działa globalny ranking?
-Na stronie [Chwyty i sztuczki](/grips-and-tricks.md) dostępne są sekcje poświęcone systemom punktacji i rankingu, sprawdź je!
+We have sections on the [grips and tricks](/grips-and-tricks.md) page dedicated to the scoring and ranking systems, check them out!
 
-## Moje menu są puste i nie mogę w nic kliknąć!
-Jeśli główne okno w grze jest puste, plik zapisu prawdopodobnie się uszkodził.
+## My menus are blank and I have nothing to click on
+If the main window in your game is blank, your save file likely got corrupted.
 
-Aby to naprawić, przejdź do: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
+To fix it, navigate to: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
 
-Usuń lub zmień nazwę folderu Beat Saber na coś innego. Po ponownym wejściu do gry, odtworzy ona plik zapisu i powinienna prawidłowo załadować menu główne.
+Delete or rename the Beat Saber folder to something else. When you re-enter the game, it'll recreate the save file and should load the main menu properly.

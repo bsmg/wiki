@@ -1,4 +1,5 @@
 # Making Mods
+
 ## Injecting Mods
 Beat Saber _**does not**_ have built in mod support.
 
@@ -15,13 +16,16 @@ Check out the [links below](#other-links) for documentation relating to Unity an
 ## Launch args
 Helpful launch arguments that will make modding / debugging easier.
 
+<!-- markdownlint-disable MD013 -->
 | Argument&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description                                                                                                                                                                                                           |
 | -------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `--verbose`                                                                                  | Enables the output log window for IPA. This will show the debug console that mods use.                                                                                                                                |
 | `fpfc`                                                                                       | "First Person Flying Controller"<br /><br />This allows you to use WASD and the mouse to navigate around the menu in game. This makes testing much easier, because you don't have to put on your headset! |
 | `-vrmode oculus`                                                                             | If you are running Beat Saber through Steam, this allows you to play the game on an Oculus headset.                                                                                                                   |
+<!-- markdownlint-enable MD013 -->
 
 ## Other Links
+
 * [BeatMods](https://beatmods.com)
 * [BeatMods Approval Guidelines](https://docs.google.com/document/d/15RBVesZdS-U94AvesJ2DJqcnAtgh9E2PZOcbjrQle5Y/edit?usp=sharing)
 * [Unity Scripting API](https://docs.unity3d.com/ScriptReference/index.html)

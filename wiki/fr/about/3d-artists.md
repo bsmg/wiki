@@ -41,7 +41,9 @@ L'un des premiers créateurs en masse d'avatars, donnant ainsi naissance à son 
 **Rôles :** Artiste 3D
 
 ## RedBrumbler
-*"The guy who made giant glowing dicks in beat saber"* ~ Emulamer le 12 Juillet 2019 Tel que vous pouvez le lire je fais des sabres pour Quest, mais j'ai été généralement actif dans le modding statique de Beat Saber, j'ai aussi réalisé des mods pour d'autres jeux mais Beat Saber est mon grand amour. Si vous avez besoin d'aide pour vous aider à faire des sabres spécifiquement pour Quest vous pouvez toujours me demander dans le canal dédié à la création de modèles sur Quest (jusqu'à ce qu'on ait ce mod qsaber en tout cas). Continuez de sabrer la viande jusqu'à ce qu'elle soit vraiment tendre !
+"The guy who made giant glowing dicks in beat saber" ~Emulamer 12th of July 2019
+
+Tel que vous pouvez le lire je fais des sabres pour Quest, mais j'ai été généralement actif dans le modding statique de Beat Saber, j'ai aussi réalisé des mods pour d'autres jeux mais Beat Saber est mon grand amour. Si vous avez besoin d'aide pour vous aider à faire des sabres spécifiquement pour Quest vous pouvez toujours me demander dans le canal dédié à la création de modèles sur Quest (jusqu'à ce qu'on ait ce mod qsaber en tout cas). Continuez de sabrer la viande jusqu'à ce qu'elle soit vraiment tendre !
 
 **Rôles :** Artiste 3D, Support
 
@@ -66,6 +68,5 @@ Artiste 3D et moddeur sur Quest. Je supporte la communauté VR comme je le peux 
 
 ---
 
-::: tip See Also **Support:** [Emma](./supports.md#emma)  
-**Moderators:** [DeeJay](./moderators.md#deejay) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)  
-**Staff:** [Assistant](./staff.md#assistant) | [Bobbie](./staff.md#bobbie) :::
+<!-- markdownlint-disable MD013 -->
+::: tip Voir aussi **Support :** [Emma](/fr/about/supports.md#emma) **Modérateurs :** [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](/fr/about/moderators.md#𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯) | [DeeJay](/fr/about/moderators.md#DeeJay) | [Pink](/fr/about/moderators.md#Pink) **Staff :** [Assistant](/fr/about/staff.md#assistant) | [bobbie](/fr/about/staff.md#bobbie) :::

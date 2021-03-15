@@ -1,11 +1,11 @@
 ---
 sidebar: auto
 prev: ./platforms-guide.md
-description: Bobbie's guide to making Custom Notes!
+description: Guia de Bobbie para fazer Custom Notes!
 ---
 
 # Custom Notes Guide
-_Bobbie's guide to making Custom Notes_
+_Bobbie's guide to making Custom Notes._
 
 ## Intro
 This guide requires basic knowledge on 3d modeling and the Unity Engine. A few things are needed:
@@ -29,16 +29,21 @@ When you click on one of these example notes, you'll see that it has a `NoteDesc
 ![NoteDescriptor](~@images/models/notes/03.png)
 
 Let's briefly go over what each of these settings do.
+
 ### Note Name & Author Name
-This one is simple enough. Whatever the note and author name is set to is what will appear in the CustomNotes note selection UI, as shown in the image below.
+This one is simple enough. Whatever the note and author name is set to is what will appear in the Custom Notes note selection UI, as shown in the image below.
 
 ![Ingame example of note name and author name](~@images/models/notes/04.png)
+
 ### Icon
-This setting takes an image that will be used as an icon. The icon will display in the CustomNotes note selection UI, as seen in the image above.
+This setting takes an image that will be used as an icon. The icon will display in the Custom Notes note selection UI, as seen in the image above.
+
 ### Disable Base Note Arrows
 When enabled, this setting will make the default arrows present on notes invisible. Note: you must have `NoteDotLeft` and `NoteDotRight` gameobjects in your note if you want to enable this option.
+
 ### Uses Note Color
 When this option is enabled, it uses the player's currently set note colors to tint your notes appropriately. This allows your notes to support `CustomColors`. If you want to use this properly, be sure to read the section dedicated to making your notes work with Custom Colors.
+
 ### Note Color Strength
 This option is only used if `Uses Note Color` is enabled. Note Color Strength defines how strong the tint applied upon your notes is and is one by default. The lower you make this number, the more subtle the tint will be.
 
@@ -71,7 +76,7 @@ Go ahead and drag and drop your imported mesh onto `NoteLeft` in the hierarchy v
 
 ![Dragging mesh onto NoteLeft](~@images/models/notes/56.png)
 
-You should now have your a child GameObject of `NoteLeft` containing your mesh. Depending on what modeling program you used, you may need to remove some non-mesh objects. If you see any objects in your mesh named `Camera` or `Lamp`, **MAKE SURE YOU DELETE THEM!** If you see a warning about "breaking the prefab instance", press "Continue".
+You should now have your imported mesh as a child GameObject of `NoteLeft`. Depending on what modeling program you used, you may need to remove some non-mesh objects. If you see any objects in your mesh named `Camera` or `Lamp`, **MAKE SURE YOU DELETE THEM!** If you see a warning about "breaking the prefab instance", press "Continue".
 
 ![Showing hierarchy and pointing out Camera](~@images/models/notes/64.png)
 
@@ -81,7 +86,9 @@ Click on the object you just added and make sure that it has a position of `(0,0
 
 ![Checking position](~@images/models/notes/61.png)
 
-Once you've selected the mesh you need to properly scale it to be the size of an note in-game. Select `NoteLeft` and move it near the `TemplateNoteSize`. The `TemplateNoteSize` should be the white square in your project. ::: warning WARNING Make sure you select `NoteLeft` when you're moving your note. If you accidentally move the children of `NoteLeft` instead, the meshes will not be aligned! The meshes inside of `NoteLeft` should almost ALWAYS be at position `(0,0,0)` unless you're purposefully adjusting them. :::
+Once you've selected the mesh you need to properly scale it to be the size of an note in-game. Select `NoteLeft` and move it near the `TemplateNoteSize`. The `TemplateNoteSize` should be the white square in your project.
+
+::: warning WARNING Make sure you select `NoteLeft` when you're moving your note. If you accidentally move the children of `NoteLeft` instead, the meshes will not be aligned! The meshes inside of `NoteLeft` should almost ALWAYS be at position `(0,0,0)` unless you're purposefully adjusting them. :::
 
 ![Showing the mesh next to TemplateNoteSize](~@images/models/notes/62.png)
 
@@ -97,7 +104,9 @@ With the GameObject inside of `NoteLeft` selected, click and drag on the gray sq
 
 ![Showing the correctly scaled mesh next to TemplateNoteSize](~@images/models/notes/66.png)
 
-As you can see, the scale that worked for my mesh is about `(0.65,0.65,0.65)`. This value will probably be different depending on what mesh you're using. If you can't get the mesh to be exactly the same size as the `TemplateNoteSize` don't worry too much because it doesn't need to be exact. Keep in mind that having a note be slightly too large is generally better than having it be slightly too small. ::: warning WARNING Make sure your notes are facing the correct direction. Look at the direction all of the other notes in the scene and ensure that your meshes are facing the same way. **REMEMBER**: The `NoteLeft` GameObject should always have a rotation of `(0,0,0)`. If you need to rotate your note, don't rotate `NoteLeft`, but instead rotate the meshes inside of it! :::
+As you can see, the scale that worked for my mesh is about `(0.65,0.65,0.65)`. This value will probably be different depending on what mesh you're using. If you can't get the mesh to be exactly the same size as the `TemplateNoteSize` don't worry too much because it doesn't need to be exact. Keep in mind that having a note be slightly too large is generally better than having it be slightly too small.
+
+::: warning WARNING Make sure your notes are facing the correct direction. Look at the direction all of the other notes in the scene and ensure that your meshes are facing the same way. **REMEMBER**: The `NoteLeft` GameObject should always have a rotation of `(0,0,0)`. If you need to rotate your note, don't rotate `NoteLeft`, but instead rotate the meshes inside of it! :::
 
 ## Adding materials
 Now that the mesh is properly scaled we can go ahead and add a material to it. In the project window, right click on `Materials` and then do `Create->Material`. Since this is going to be the material for the mesh of my `LeftNote`, I'll name it `LeftMaterial`.
@@ -195,9 +204,7 @@ Your note should be at the top of the `Note Exporter`. Once you're sure that all
 
 ![Exporting note](~@images/models/notes/40.png)
 
-::: tip TIP If you own beat saber on steam and want to see how your notes look ingame without putting on your headset, the `fpfc` launch argument is extremely helpful and allows you to control the ingame camera using your mouse :::
-
-Now that your notes are exported, you can start beat saber and see how they look ingame. In beat saber, click `Mods` and then `CustomNotes`. If you did everything correctly, you should see your notes in the list.
+Now that your notes are exported, you can start beat saber and see how they look ingame. In beat saber, click `Mods` and then `Custom Notes`. If you did everything correctly, you should see your notes in the list.
 
 ![Showing note preview ingame](~@images/models/notes/41.png)
 
@@ -205,12 +212,39 @@ Select your notes and try playing a song.
 
 ![Showing note ingame](~@images/models/notes/42.png)
 
+### Preview Your Note In-game without putting on your headset using FPFC
+First Person Flying Controller (FPFC) is a launch parameter that can be used by either Steam or Oculus users. FPFC will open an instance of Beat Saber on your desktop and allow you to control it with your keyboard and mouse. You will need the SiraUtil mod in order to interact while a map is playing.
+
+It allows you to use WASD to "fly" around, open the pause menu by hitting the <kbd>F2</kbd> key, or exit your level by hitting the <kbd>ESC</kbd> key (otherwise you must play your song to completion).
+
+Install SiraUtil from ModAssistant and run Beat Saber to create a config json file. Edit the `SiraUtil.json` file in your `UserData` folder and change `"Enabled": false` to `"Enabled": true` under FPFCToggle and SongControl then follow the store platform specific steps below.
+
+![SiraUtil JSON Setting](~@images/mapping/sirautil-FPFC.png)
+
+**For Steam Users:** Open the game properties and add `fpfc` to the Steam launch options. ![Fpfc launch options](~@images/mapping/fpfc.png)
+
+**For Oculus Users:**
+
+1. Right click on Beat Saber.exe and create a shortcut.
+2. Edit the Target to add "fpfc" to the end of it. For example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" fpfc`
+
+After installing the mods and adding the launch parameter you can then now move around and pause in a map. The toggle key to switch between headset and mouse/keyboard control is <kbd>G</kbd>.
+
+:::warning NOTE
+
+* If you go back into vr and the game doesn't load in the headset either:
+  * Press the <kbd>G</kbd> key until the headset displays the game  
+    **==OR==**
+  * Quit the game, remove the launch option, and relaunch the game.
+
+* If the mod doesn't seem to be working, make sure the in-game Smooth Camera setting is disabled. :::
+
 If everything looks good ingame, you should be finished! Make sure to try playing with your notes with your headset on at least once before releasing them.
 
 ## Custom Colors
 This section is assuming you already have a custom note fully set up and simply want to add support for custom colors, which is highly recommended because it will almost always enhance the user experience.
 
-CustomColor support works by tinting the notes the current player-set color. If your material has a texture, lighter colors will be tinted more, whilst darker colors will be tinted less.
+CustomColor support works by tinting the notes to the current player-set color. If your material has a texture, lighter colors will be tinted more, whilst darker colors will be tinted less.
 
 Go ahead and create a new material in the `Materials` folder. With CustomColor support, generally you're going to be using the same material for both the left and right note, so I'm going to name my material `NoteMaterial`.
 
@@ -228,7 +262,7 @@ Now apply this material to both your NoteLeft mesh and your NoteRight mesh. Make
 
 ![Selecting Material](~@images/models/notes/47.png)
 
-Now that you're done applying the material to all of your note's meshes, go back to the `NoteMaterial` in the inspector. To double check that your notes look good when using CustomColors, try messing around with the `Color` property - this is what property will be changed when the notes are tinted.
+Now that you're done applying the material to all of your note's meshes, go back to the `NoteMaterial` in the inspector. To double check that your notes look good when using CustomColors, try messing around with the `Color` property; this is what property will be changed when the notes are tinted.
 
 ![Changing color of material](~@images/models/notes/48.png)
 
@@ -244,7 +278,7 @@ Your note should now be compatible with Custom Colors! Go ahead and re-export it
 
 ### Disable Custom Colors on certain GameObjects
 
-In some cases, you may want CustomColors to not affect a certain mesh. For example, if you have a part of your model that needs to say the same color, such as an arrow needing to be white. There is a simple solution to this problem.
+In some cases, you may want CustomColors to not affect a certain mesh. For example, if you have a part of your model that needs to stay the same color, such as an arrow needing to be white. There is a simple solution to this problem.
 
 In this example, I have two meshes inside of my `LeftNote` object. I want the `TriangleMesh` to be affected by custom colors, but not `SmallerTriangleMesh`.
 
@@ -257,4 +291,3 @@ All you have to do is go into the GameObjects that you do not want to be affecte
 ::: warning WARNING Remember to apply these changes to all of the notes in your CustomNote! :::
 
 ![Adding a disable note color on gameobject component](~@images/models/notes/54.png)
-

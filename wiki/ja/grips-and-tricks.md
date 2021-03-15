@@ -3,7 +3,7 @@ sidebar: auto
 ---
 
 # 持ち方とコツ
-_ブロックを切るようの資料まとめ_
+_A compilation of resources to help you to hit bloq._
 
 ## ランキングを上げるためのチュートリアル
 PPを取るためのTeknozFRによる記事 [ランキング & スコアリングガイド](./ranking-guide)
@@ -23,7 +23,7 @@ PPを取るためのTeknozFRによる記事 [ランキング & スコアリン�
 グローバルランキングとPPは [ScoreSaber](https://scoresaber.com/global) で確認できます。 あなたのScoresaberアカウントはあなたのSteam / Oculusのユーザー名に関連付けられています。
 
 1. ランク付けされた曲にはPP(PP=パフォーマンスポイント) が割り当てられます。 得られるPPの量は、ランク付けされた曲のプレイの正確さによって決まります。 ランク付けされた曲のPPの値は、Umbranox, our Panda Godによって開発された秘密のアルゴリズムによって決定されます。
-2. 熟練したプレイヤーが簡単な曲で多くのPPを取るのを避けるために、各プレイヤーにある曲線を適用しています。 その曲線は0.965^(x-1) で、xはソングリストのスコアの位置です。 例） あなたの最高スコアの曲が260 PPの場合、 260PPを得ることができ、これは100%のPPです。 2番目のスコアの曲が247PPの場合、曲線を適応した237PP（＝247＊0.965）を得ることができます。 以下は私の現在の上位4曲のPPと獲得PPです。獲得したPPは太字で表示ています。
+2. 熟練したプレイヤーが簡単な曲で多くのPPを取るのを避けるために、各プレイヤーにある曲線を適用しています。 その曲線は0.965^(x-1) で、xはソングリストのスコアの位置です。 例） あなたの最高スコアの曲が260 PPの場合、 260PPを得ることができ、これは100%のPPです。 2番目のスコアの曲が247PPの場合、曲線を適応した237PP（＝247＊0.965）を得ることができます。 このシステムを説明する表は次のとおりです。
 
 | PP    | 重みのついたPP                |
 | ----- | ----------------------- |
@@ -32,9 +32,9 @@ PPを取るためのTeknozFRによる記事 [ランキング & スコアリン�
 | 246pp | **229pp** (元のPPの93.1%)  |
 | 244pp | **219pp**  (元のPPの89.9%) |
 
-3. ランクアップするには、新しい曲であなたのトップスコアのPPより多くまたは同じくらいのPPのスコアを取得しましょう。 新たにプレイするより高いPPを持つ曲がなくなったら、最初のページに戻ってよりよいスコアを取りましょう。 ここには、DuoVRによる [すべてのランク付けされた曲のスプレッドシート](https://docs.google.com/spreadsheets/d/1ufWgF2tWS0gD3pIr0_d37EkIcmCrUy1x6hyzPEZDPNc/edit#gid=1775412672) にPPの価値があります。 このリストは24時間ごとに更新されます。
+3. ランクを上げるためにあなたのスキルレベルに合ったランク付けされた曲を見つけるために使用できるツールはかなりあります。 最初に 自分の [ScoreSaber](https://scoresaber.com/global) プロフィールを見に行って、しばらくプレイしていない曲のプレイを改善するか、自分のトップスコアがどんなものかを知ることです。 [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) または [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme) ブラウザ拡張機能は、プロフィールの機能を拡張できます。 [BalibiloのScoreSaberサイト](https://scoresaber.balibalo.xyz/peepee) と [Beat Saveria](https://www.beatsavior.io/) は、地図を見つけて、あなたのパフォーマンスを 追跡するのに役立つ外部サイトです。
 
-こちらはDuoVRによる別の [サイト](https://duovr.github.io/BigPP/) で、 scoresaberのプロファイルを入力することができ、多くのPPを得るためにプレイするべき曲をお勧めしてくれます。
+[ランキング & 得点ガイド](./ranking-guide.md) に詳細情報があります。
 
 *このセクションは、Beat Saber Canadian discordのTekの書き込みによります。*
 
@@ -62,7 +62,7 @@ Indexコントローラ用のビデオはまだ作成されていませんが、
 ### Oculus Quest 2
 Quest２コントローラ用のビデオはまだ作成されていませんが、以下のいくつかの例を示します！ ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
 
-[Cube コミュニティのDiscord](https://discord.gg/dwe8mbC)のチャンネル`#tips-and-grips`でより多くの例が示されています。 誰もがプレイスタイルと体の動かし方が違うことを覚えておいてください。他の誰かの握り方があなた思うように機能しない場合があります。 あなたに合う方法をいろいろ試して探してください！
+[Cube コミュニティのDiscord](https://discord.gg/dwe8mbC)のチャンネル`#tips-and-grips`でより多くの例が示されています。 Please remember that everyone's playstyle and body is different; someone else's grip might not work exactly like you need it to. あなたに合う方法をいろいろ試して探してください！
 
 ## Vive コントローラーのトラッキングを改善
 あなたの体がコントローラーの1つの信号源を妨げているかもしれません。 ここでは、トラッキングを改善するためのいくつかの手順を示します。

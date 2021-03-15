@@ -1,4 +1,5 @@
 # Custom Sabers
+
 ## Instalação
 :::tip NOTA Sabres precisam ser feitos especificamente para a Quest ou PC e não podem ser trocados entre os dois. Você pode dizer para qual plataforma um sabor serve pela extensão do arquivo. Arquivos `.saber` são para o PC enquanto o Quest usa arquivos `.zip`. :::
 
@@ -15,7 +16,9 @@ Sabers personalizados para Quest são fornecidos pelo mod do Qosmetics. A versã
 ## Uso
 
 ### Usuários de PC
-Dentro do jogo no menu principal, você verá no lado esquerdo um botão `CUSTOM SABERS` ou `SABERFACTORY` na seção `Mods`. Pressioná-lo abrirá o menu que você pode usar para selecionar quais sabres você deseja usar. ::: tip NOTA Uma vez selecionado, os sabres só aparecerão enquanto uma música estiver tocando e não enquanto estiver no menu. :::
+Dentro do jogo no menu principal, você verá no lado esquerdo um botão `CUSTOM SABERS` ou `SABERFACTORY` na seção `Mods`. Pressioná-lo abrirá o menu que você pode usar para selecionar quais sabres você deseja usar.
+
+::: tip NOTA Uma vez selecionado, os sabres só aparecerão enquanto uma música estiver tocando e não enquanto estiver no menu. :::
 
 ### Usuários de Quest
 Carregue o arquivo zip do saber para a seu Quest usando a [Interface Web do BMBF](/quest-modding.md#installing-mods). Você pode selecionar qual sabre está ativo na aba mods do BMBF.
