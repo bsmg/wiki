@@ -38,6 +38,7 @@ To get leaderboards on custom songs and to be able to get Performance Points (PP
 [ScoreSaber](https://new.scoresaber.com/quest) mod. [This link](https://new.scoresaber.com/quest) will take you to the
 ScoreSaber page to set it up.
 ScoreSaber does not replace the base game leaderboards, it only adds leaderboards for custom songs.
+
 **Note:** Check the updates channel in the [ScoreSaber discord](https://discord.gg/WpuDMwU) to see if the mod is available
 for the current game version.
 :::
