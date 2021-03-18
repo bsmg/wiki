@@ -66,9 +66,9 @@ of headache while mapping. Look at the difference in quality for the same song, 
 
 | OGG Quality | YouTube Rip | MP3| WAV | FLAC |
 | :----: | :----: | :----: | :----: | :---: |
-| 1 | ![YouTube Rip 1](~@images/mapping/ytrip1.jpg) | ![MP3 1](~@images/mapping/mp31.jpg) | ![WAV 1](~@images/mapping/wav1.jpg) | ![Flac 1](~@images/mapping/flac1.jpg) |
-| 5 | ![YouTube Rip 5](~@images/mapping/ytrip5.jpg) | ![MP3 5](~@images/mapping/mp35.jpg) | ![WAV 5](~@images/mapping/wav5.jpg) | ![Flac 5](~@images/mapping/flac5.jpg) |
-| 10 | ![YouTube Rip 10](~@images/mapping/ytrip10.jpg) | ![MP3 10](~@images/mapping/mp310.jpg) | ![WAV 10](~@images/mapping/wav10.jpg) | ![Flac 10](~@images/mapping/flac10.jpg) |
+| 1 | ![YouTube Rip 1](~@images/mapping/ytrip1.jpg) | ![MP3 1](~@images/mapping/mp31.jpg) | ![WAV 1](~@images/mapping/wav1.jpg) | ![FLAC 1](~@images/mapping/flac1.jpg) |
+| 5 | ![YouTube Rip 5](~@images/mapping/ytrip5.jpg) | ![MP3 5](~@images/mapping/mp35.jpg) | ![WAV 5](~@images/mapping/wav5.jpg) | ![FLAC 5](~@images/mapping/flac5.jpg) |
+| 10 | ![YouTube Rip 10](~@images/mapping/ytrip10.jpg) | ![MP3 10](~@images/mapping/mp310.jpg) | ![WAV 10](~@images/mapping/wav10.jpg) | ![FLAC 10](~@images/mapping/flac10.jpg) |
 
 Can you see the difference? You cannot scale up audio quality;
 only starting with a high quality audio file can give you clean, percise lines.

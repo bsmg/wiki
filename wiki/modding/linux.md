@@ -101,7 +101,7 @@ Make sure you have [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
 3. When asked, select the Windows 10 ISO. and start it.
 ![VirtualBox](https://i.imgur.com/af0ikmV.png)
 4. After you are finished installing Windows, download a [mod installer](/beginners-guide.md#installers) inside the VM.
-![ModAssistant Install](https://i.imgur.com/juZzw1j.png)
+![Mod Assistant Install](https://i.imgur.com/juZzw1j.png)
 5. Make a shared folder by going to 'Devices > Shared Folders > Shared Folder Settings...'.
 Make a new shared folder with the common folder `/.local/share/Steam/steamapps/common/` and turn Auto-mount on.
 ![Shared Folder](https://i.imgur.com/FoV8BE3.png)

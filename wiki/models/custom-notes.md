@@ -7,7 +7,7 @@ a note is for by the file extension. `.bloq` files are for PC while Quest uses `
 :::
 
 ### PC Notes
-The latest Custom Notes plugin can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord
+The latest Custom Notes mod can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord
 or in [Mod Assistant](https://github.com/Assistant/ModAssistant).
 
 Once installed, you should see a `CustomNotes` folder in [your install folder](/faq/install-folder.md), with some sample

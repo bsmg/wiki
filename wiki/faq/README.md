@@ -28,7 +28,7 @@ You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistMa
 Then you can either:
 
 * Use the `Install Playlist` tool in the Options tab of Mod Assistant.
-* Place the playlist file into `Beat Saber/Playlists`, select it in-game, then hit download all songs.
+* Place the playlist file into `Beat Saber/Playlists`, select the playlist title header in-game, then hit download all songs.
 
 You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
 
@@ -43,7 +43,7 @@ Reloading your Custom Songs Folder resets all playlist organization.
 ## How do I make my own custom levels?
 See [mapping](/mapping/)!
 
-## How do I load plugins that aren't in Mod Assistant?
+## How do I load PC mods that aren't in Mod Assistant?
 See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 
 ## Does multiplayer have crossplay?
@@ -55,8 +55,9 @@ The BeatTogether mod is the current solution for cross-platform play between the
 
 ## My game updated and now none of my mods are working
 Each time the game updates it is possible *(and very likely)* that your existing mods will stop working and need to be updated.
-The game developers realized this, so when the game updates and you run it for the first time, everything in the `Plugins`
-folder is moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins in there!**
+To make sure your install will not break when the game runs on a new update for the first time, everything
+in the `Plugins` folder is automatically moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins/mods
+in there!**
 
 To get mods back, simply **run the installer again.**  
 The BeatMods repository only includes mods that have been confirmed to work on the latest version of the game!

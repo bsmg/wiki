@@ -6,7 +6,7 @@ tagline: Welcome to the Beat Saber Modding Group Wiki!
 description: Welcome to the Beat Saber Modding Group Wiki!
 actionText: Beginners Guide →
 actionLink: ./beginners-guide.md
-footer: Copyright © 2019-2020 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
+footer: Copyright © 2019-2021 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
 
 tags:
   - bsmg
@@ -53,8 +53,9 @@ tags:
 ## External Links
 
 * [Join the Discord server!](https://discord.gg/beatsabermods)
+* [Contact Us](http://bit.ly/MessageBSMG) - Offer your skills, sponsor us, appeal a server mute/ban, report a user, etc.
 * [BSMG Patreon](https://www.patreon.com/beatsabermods) - Support the BSMG Services!
-* [BeatMods](https://beatmods.com) - Repository of PC mods that are reflected in installers like ModAssistant
+* [BeatMods](https://beatmods.com) - Repository of PC mods that are reflected in installers like Mod Assistant
 * [BeatSaver](https://beatsaver.com/) - Download custom songs here
 * [BeastSaber](https://bsaber.com/) - Reviews, articles, playlists, and more!
 * [ModelSaber](https://modelsaber.com/) - Download PC custom sabers, avatars, bloqs, and platforms!

@@ -3,7 +3,7 @@ description: Installation, Usage, and Creation Guides for Model Mods!
 ---
 
 # 3D Models
-All custom model plugins were created separately by different people. Each mod has its own dedicated page detailing
+All custom model mods were created separately by different people. Each mod has its own dedicated page detailing
 installation and usage instructions. These are listed below and in the sidebar.
 
 * [Custom Sabers](./custom-sabers.md)

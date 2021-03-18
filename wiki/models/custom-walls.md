@@ -7,7 +7,7 @@ You can tell which platform a wall is for by the file extension. `.pixie` files 
 :::
 
 ### PC Walls
-The latest Custom Walls plugin can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord
+The latest Custom Walls mod can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord
 or in [Mod Assistant](https://github.com/Assistant/ModAssistant).
 
 Once installed, you should see a `CustomWalls` folder in [your install folder](/faq/install-folder.md).

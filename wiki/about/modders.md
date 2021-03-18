@@ -331,7 +331,7 @@ He's since moved on to develop other VR games, like [Waltz of the Wizard](https:
 **Roles:** Modder
 **Contributions:** SongLoader, CameraPlus
 
-[GitHub](https://github.com/xyonico/) [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
+[GitHub](https://github.com/xyonico/) | [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RRQ2MBEEEW63A)
 
 ---
 

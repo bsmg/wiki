@@ -206,7 +206,7 @@ the SiraUtil mod in order to interact while a map is playing.
 It allows you to use WASD to "fly" around in your map, open the pause menu by hitting the <kbd>F2</kbd> key, or exit your
 level by hitting the <kbd>ESC</kbd> key (otherwise you must play your song to completion).
 
-Install SiraUtil from ModAssistant and run Beat Saber to create a config json file. Edit the `SiraUtil.json` file in your
+Install SiraUtil from Mod Assistant and run Beat Saber to create a config json file. Edit the `SiraUtil.json` file in your
 `UserData` folder and change `"Enabled": false` to `"Enabled": true` under FPFCToggle and SongControl then follow the
 store platform specific steps below.
 

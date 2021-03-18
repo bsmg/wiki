@@ -30,7 +30,7 @@ He likes playing Beat Saber. He also likes helping people fix their problems so 
 **Roles:** Support
 
 ## Kolezan
-He'll teach you to fix your plugins and your terribly off-beat first map. We've all been there.
+He'll teach you to fix your mods and your terribly off-beat first map. We've all been there.
 
 **Roles:** Support, Mapping Support, Mapper
 
