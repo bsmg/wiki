@@ -59,14 +59,14 @@ custom levels experience.
 :::
 
 ### In-game Downloader
-The `BeatSaver Downloader` Plugin allows you to download maps in-game using the `MORE SONGS` menu button on
+The `BeatSaver Downloader` mod allows you to download maps in-game using the `MORE SONGS` menu button on
 the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com)
 
 ### BeatSaver
 [BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community.
 Many other tools and sites enhance the experience of downloading custom songs, but this site is where they are stored.
 To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.
- You can also use the in-game downloader plugin, BeatList, or Mod Assistant's OneClick™ Install feature.
+ You can also use the in-game downloader mod, or Mod Assistant's OneClick™ Install feature.
 
 ### Beast Saber
 [Beast Saber](https://www.bsaber.com) (bsaber.com) is a site that tries to help make finding fantastic maps to play easier.
@@ -108,7 +108,7 @@ Replace the drive letter `F` with the drive your game is installed on.
 
 ## Manual Installation
 A mod installer is the recommended way to install mods. See the section [above](#installers).
-If you have patched the game and just need to install Plugins that are not available in the installer, skip to step 4.
+If you have patched the game and just need to install mods that are not available in the installer, skip to step 4.
 
 **Run the game at least once** before trying to mod the game! This applies to reinstalling your game too.
 

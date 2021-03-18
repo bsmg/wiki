@@ -1,6 +1,6 @@
 # Staff
-_Whether it comes to project management, plugin approval, managing the core services, event coordination, or many of the
-other secret projects, there's always lots of work to be done. The community wouldn't exist without the countless hours
+_Whether it comes to project management, plugin/mod approval, managing the core services, event coordination, or many of
+the other secret projects, there's always lots of work to be done. The community wouldn't exist without the countless hours
 contributed by these incredible individuals, so please give them a virtual round of applause
 (and help pay for the services if you can)._
 
@@ -25,27 +25,18 @@ A mapper that is really into Japanese and EDM music with the occasional K-pop so
 ## Bobbie
 Remind him to watch his glucose.
 
-**Roles:** Staff, Modder, 3D Artist, Moderator  
+**Roles:** Staff, Modder, 3D Artists, Moderator  
 **Contributions:** Custom Notes, ModelSaber Admin
 
 Make sure he watches his glucose
 [Important](https://i.imgur.com/REWmoI9.jpg) | [Twitter](https://twitter.com/vrbobbie) | [YouTube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ)
 | [Donate](https://ko-fi.com/bobbievr)
 
-## elliotttate
-Official BSMG PR Guy. Events like the 100k Contest wouldn't have been possible without his efforts and networking skills.
-He also runs BeastSaber to help you find the best curated maps.
-
-**Roles:** Staff, BSMG PR  
-**Contributions:** BeastSaber, Contest Management
-
-[Patreon](https://www.patreon.com/beastsaber)
-
 ## Lillie
 Makes mods for quest and likes to PP farm in her free time.  
 *Lillie not cutest*
 
-**Roles:** Modder, Moderator  
+**Roles:** Staff, Modder, Moderator  
 **Contributions:** QuestSounds, QSettings+, FPSCounter.  
 
 [GitHub](https://github.com/Rugtveit)
@@ -140,6 +131,15 @@ BeatSaver numbers, call us nerds, and present his collection of finely aged meme
 team, but we wouldn't be here without him.
 
 **Contributions:** BeatSaver Creator.
+
+## elliotttate (Retired)
+Official BSMG PR Guy. Events like the 100k Contest wouldn't have been possible without his efforts and networking skills.
+He also runs BeastSaber to help you find the best curated maps.
+
+**Roles:** Staff, BSMG PR  
+**Contributions:** BeastSaber, Contest Management
+
+[Patreon](https://www.patreon.com/beastsaber)
 
 ## Klouder (Retired)
 Longtime server member and active contributor. She was the server mom!

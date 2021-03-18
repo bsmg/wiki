@@ -47,7 +47,7 @@ A place to plan, post, discuss, and get notifications for events in your area.
 ## Beat Saber League
 A League-style tournament for Beat Saber!
 
-[Discord](https://discord.gg/nFJDVqS)
+[Discord](https://discord.gg/rNmazdz)
 | [Website](https://beatsaberleague.com/)
 
 ---

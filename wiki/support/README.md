@@ -13,7 +13,7 @@ sidebar: auto
 5. [Still Having Issues](#_5-still-having-issues)
 
 ## 0. Updates
-After an update, the BSMG discord `#server-announcements` channel should have the most up to date instructions
+After an update, the BSMG discord `#modding-announcements` channel should have the most up to date information
 on the status of mods. The following are more detailed instructions of the most common procedure.
 
 ### Update broke my mods
@@ -43,9 +43,9 @@ If the details in section 1.1 above are correct, try the solutions below, in des
 * Go into your Beat Saber folder
 * Run `IPA.exe`
 
-##### Solution 2
+##### Solution 2 (Steam Only)
 
-* [Verify your game files](#verify-game-files-for-steam) (Steam only, Oculus users refer to Solution 4)
+* [Verify your game files](#verify-game-files-for-steam)
 * Update BSIPA to the latest version
 * Go into your Beat Saber folder
 * Run `IPA.exe`
@@ -57,14 +57,14 @@ If the details in section 1.1 above are correct, try the solutions below, in des
 * Delete UserData
 
 ::: warning
-This will reset all plugin settings!
+This will reset all mod settings!
 :::
 
 ##### Solution 4
 
 * Perform a [Clean Installation](#clean-installation)
 
-#### 1.2 Mod Assistant doesn't seem to be installing any plugins
+#### 1.2 Mod Assistant doesn't seem to be installing any mods
 The installers download mods to `Beat Saber/IPA/Pending`, BSIPA moves these files to root folder when you launch the game.
 If your game Plugins folder still is empty afterwards, run `IPA.exe` again and make sure that nothing is preventing it
 from running, e.g. `Anti-viruses, Admin permissions, etc.`
@@ -118,7 +118,7 @@ framerate, in no particular order:
   It may have set it to a higher number to 1.4 or 1.8 which significantly increases the GPU load.
 * Use a less complex custom avatar.
 * The custom saber **Plasma Katanas** have tons of custom events and are known to introduce lag if you miss.
-* CameraPlus can be very taxing, especially if you have multiple cameras and increase the FOV.
+* Camera2 or CameraPlus can be very taxing, especially if you have multiple cameras and increase the FOV.
 * Turn down Render Scale, Anti-Aliasing, mirror, fog, etc in the base game settings.
 * For Oculus Rift (CV1) players: consider using 2 sensors instead of 3+.
 * Reduce your total mod and song count.
@@ -126,7 +126,7 @@ framerate, in no particular order:
 * Low framerate can also be caused by something going wrong within your application data folder,
   to fix this refer to [Deleting The Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
 * Disable CountersPlus counters like score counter and swing speed as they can be expensive.
-* HTTPStatus mod can cause lag spikes. Test without this mod to see if the lag spikes go away.
+* HTTPStatus or DataPuller can cause lag spikes. Test without this mod to see if the lag spikes go away.
 
 VR is very CPU intensive, especially if you add mods. If you're struggling to run the game with the mods you want, consider
 upgrading your hardware. Note that Beat Saber doesn't utilize the GPU very much as visually it's a fairly simple game.
@@ -174,7 +174,7 @@ is why other games and menus might be fine. There is no clear-cut solution, so t
 Click the **Home** button on your keyboard with the game in focus to toggle visibility in the headset.
 
 #### 3.5 My Avatars Are Broken
-Make sure your custom avatars plugin is installed properly and updated, also make sure your dependencies are too.
+Make sure your custom avatars mod is installed properly and updated, also make sure your dependencies are too.
 You might have a corrupted/broken avatar, having one avatar break can break all of your avatars likewise with songs and sabers.
 
 ### Custom Songs
@@ -192,7 +192,7 @@ Alternatively you can manually convert them using [Song Converter](https://githu
 
 #### 3.7 Grayed Out Play Button
 Click the shiny blue question mark (?) button in the top right corner. This should tell you what mods are required to
-y the song, which you are missing and should install. If it is still not working, try re-installing the required plugin.
+y the song, which you are missing and should install. If it is still not working, try re-installing the required mod.
 Otherwise try a [Clean Install](#clean-installation).
 
 #### 3.8 Map details are infinitely loading
@@ -200,6 +200,9 @@ If this only happens on particular maps, you may be missing required mods or tho
  If it happens to all of your maps, delete your `Plugins` folder and reinstall fresh ones.
 
 ### CameraPlus
+:::warning NOTE
+This mod is no longer being maintained and has been replaced with [Camera2](https://github.com/kinsi55/CS_BeatSaber_Camera2#camera2).
+:::
 
 #### 3.9 CameraPlus Isn't Working/Past Health Screen
 Make sure the in-game setting for "Smooth Camera" is turned off in your in-game settings.
@@ -214,7 +217,7 @@ or right click the window and click "Fit to Canvas".
 #### 3.11 BeatSaver Downloader More Songs Button
 **The More Songs button is located in the main menu to the left under the Mods text.** If the button for More Songs is
 greyed out then make sure all your songs loaded first, as seen in by the rainbow progress bar on the main menu.
-If your Mods menu isn't there then make sure your plugins and dependencies are working and installed properly,
+If your Mods menu isn't there then make sure your mods and dependencies are working and installed properly,
 refer to the [No Mods?](#_1-no-mods) section.
 
 #### 3.12 Nothing Showing Up In The More Songs Menu
@@ -305,7 +308,7 @@ This will delete your scores and local data, but not your custom leaderboard/Sco
 Copy and paste everything from inside the bar above and paste it to your address bar in file explorer and delete it.
 
 You can also get to this folder by showing hidden items and navigating to your
-> Users > "USER" > AppData > Local Low > Hyperbolic-magnetism
+> Users > "USER" > AppData > LocalLow > Hyperbolic Magnetism
 
 <YouTube url='https://youtu.be/ONxJcD3Ir3Q' />
 

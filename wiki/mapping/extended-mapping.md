@@ -61,7 +61,7 @@ Here you will need to "trick" Mediocre Map Assistant 2 that your folder is a Bea
 
 Option 1:
 
-1. Download this zip for pre-formatted folders and Mapping Extensions Plugin [here](https://git.bsmg.dev/bloodcloak/mapping-qstart/releases/latest).
+1. Download this zip for pre-formatted folders and Mapping Extensions Mod [here](https://git.bsmg.dev/bloodcloak/mapping-qstart/releases/latest).
 2. Extract the zip to a location of your choice.
 3. Enter the path to the CustomLevels and CustomWIPLevels folder near the bottom of the Settings Bar.
     * Example Path: `C:\Users\bsmg\Documents\Beat Saber\Beat Saber_Data\CustomWIPLevels`

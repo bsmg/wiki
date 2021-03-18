@@ -38,7 +38,7 @@ One of your favorite songs is not available? Have a mod idea you want to impleme
 Learn how to create your own level by following our [mapping](./mapping/) guide!
 
 ### Making Mods
-Get started creating plugins for the game by following our [mod creation](./modding/) guide!
+Get started creating mods for the game by following our [mod creation](./modding/) guide!
 
 ### Making 3D Models
 Learn how to create 3D models for the game!
