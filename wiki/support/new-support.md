@@ -17,10 +17,10 @@ For help with the Quest version, please visit `#quest-help` on the [BSMG Discord
 After the game updates, mods may be broken. The `#modding-announcements` or `#server-announcements` channels on the BSMG Discord will have up-to-date information on the status of mods. If your favorite mod is broken, wait a few days and somebody will likely update it.
 
 ### Broken mods after an update
-When the game updates, mods are automatically disabled to prevent outdated mods from breaking your game. To fix, simply reinstall your mods using [ModAssistant](/beginners-guide.md#mod-assistant).
+When the game updates, mods are automatically disabled to prevent outdated mods from breaking your game. To fix, simply reinstall your mods using [Mod Assistant](/beginners-guide.md#mod-assistant).
 
 ::: warning TIP
-Make sure to only install mods for the current game version! You can see which version is selected in the bottom-right of the ModAssistant UI
+Make sure to only install mods for the current game version! You can see which version is selected in the bottom-right of the Mod Assistant UI
 :::
 
 ## Missing Mods
@@ -95,7 +95,7 @@ If the details in section 1.1 above are correct, try the solutions below, in des
 
 **Solution 1**
 
-- Update BSIPA to the latest version (in ModAssistant or manually)
+- Update BSIPA to the latest version (in Mod Assistant or manually)
 - Go into your Beat Saber folder
 - Run `IPA.exe`
 

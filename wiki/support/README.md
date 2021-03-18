@@ -39,7 +39,7 @@ If the details in section 1.1 above are correct, try the solutions below, in des
 
 ##### Solution 1
 
-* Update BSIPA to the latest version (in ModAssistant or manually)
+* Update BSIPA to the latest version (in Mod Assistant or manually)
 * Go into your Beat Saber folder
 * Run `IPA.exe`
 
@@ -224,6 +224,26 @@ The probable causes for beatsaver downloader not working are:
 2. Your anti-virus or firewall blocking access to BeatSaver.
 3. You have hit Beatsaver's rate limit and will have to wait before trying again.
 
+### Multiplayer Error Codes
+Here is a list of known error codes, what they mean, and what you can do to fix them.
+
+<!-- Disable line length rule because of table -->
+<!-- markdownlint-disable MD013 -->
+| Code&nbsp; | Description                                                                          |
+|:-------|:---------------------------------------------------------------------------------------|
+| CFR-1  | Unknown Error Occurred. Try restarting the game.                                               |
+| CFR-2  | The multiplayer connection was canceled.                                                       |
+| CFR-3  | Server is not reachable. There may be an issue with your internet connection or with Beat Saber's relay servers. Double check you are not offline and your firewall allows Beat Saber to connect to the internet. <details><summary>**Background Information**</summary>Beat Saber Multiplayer is peer-to-peer where you connect directly with each player in the lobby. When this is not possible Beat Saber starts a "relay" server to send the data. This error means both of these methods failed.</details> |
+| CFR-4  | The server already exists.                                                                     |
+| CFR-5  | Server does not exist. The lobby you were connecting to might have closed as you were joining. |
+| CFR-6  | The server is full. Chose a different lobby.                                                   |
+| CFR-7  | You are on a version of the game that is not supported by the servers.                         |
+| CFR-8  | Lobby password is incorrect. Double check you are entering the right password.                 |
+| CFR-9  | The matchmaking servers Beat Games run, which keeps track of open public and private lobbies, is offline. Try again later. |
+| CFR-10 | Your session key from Steam or Oculus is not valid. If you are playing on Quest and have modded your game, check out this [FAQ answer](/faq/README.md#does-multiplayer-have-crossplay) to work around this. Otherwise you are on a pirated copy of the game which is not supported. |
+| CFR-11 | Your internet connection is offline.                                                           |
+<!-- markdownlint-enable MD013 -->
+
 ## 4. Miscellaneous Troubleshooting
 
 ### Understanding Logs
@@ -326,6 +346,4 @@ The support role is in recognition of the knowledge and effort they have put for
 necessarily mean that they'll be around to help just because they're online.
 :::
 
-Thank you!
-
-> Thank you to Saber-Chan for their hard work on this page.
+Credit to Saber-Chan for their hard work on this page.

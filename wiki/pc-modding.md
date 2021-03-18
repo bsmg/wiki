@@ -49,7 +49,7 @@ __**Run the game at least once**__ before trying to mod the game! This applies t
 A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal and
 version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
 
-![ModAssistant](~@images/beginners-guide/modassistant.png)
+![Mod Assistant](~@images/beginners-guide/modassistant.png)
 
 ## How to get more songs
 ::: tip
