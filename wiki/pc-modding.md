@@ -77,7 +77,7 @@ ones that stand out, letting you [automatically download these in-game](https://
 
 ### Song Management Apps
 
-There are no maintained or working song management apps available at this time.
+There are no working song management apps available at this time.
 
 ### Playlists
 You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod.

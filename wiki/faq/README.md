@@ -16,7 +16,7 @@ You can also download playlists, follow mappers, find songs using advanced sorti
 
 ### Song Management Tools
 
-There are no maintained or working song management apps available at this time.
+There are no working song management apps available at this time.
 
 ## How do I install playlists?
 
