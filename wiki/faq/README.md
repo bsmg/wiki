@@ -15,10 +15,8 @@ This is the directory that the game natively reads custom maps from.
 You can also download playlists, follow mappers, find songs using advanced sorting methods and more.
 
 ### Song Management Tools
-The following are programs to be used on the desktop to help you download custom songs, with some other features as well.
 
-* [Beat Saber Downloader](https://drive.google.com/file/d/1QWedF77hWYbqcigIWa2UcpXlhqGTjwR1/view) a map downloader by Sturdyfool0.
-* [BeatList](https://github.com/Alaanor/beatlist) is an app to manage playlist and beatmaps, by Alaanor.
+There are no working song management apps available at this time.
 
 ## How do I install playlists?
 

@@ -16,7 +16,7 @@ You can download more platforms on [ModelSaber](https://modelsaber.com/Platforms
 ## Usage
 Inside the game in the main menu you will see a `PLATFORMS` button at the top left of the Mods menu over by the release notes.
 Pressing it will open up the menu you can use to select which platform you want to use. Note that if you intend to use
-Progress Counter from CountersPlus, most platforms will block the center song timer.
+Progress Counter from Counters+, most platforms will block the center song timer.
 
 ## Creating Platforms
 [Emma's Platform Guide](./platforms-guide.md) is a great resource for learning how to make your own platforms.

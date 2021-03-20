@@ -12,7 +12,7 @@ How many statistics could we fit into a single counters mod? A lot apparently. H
 on this wiki and ChroMapper, a soon to be released mapping software with Chroma RGB light support.
 
 **Roles:** Modder, Moderator  
-**Contributions:** CountersPlus, wiki modding tutorials
+**Contributions:** Counters+, wiki modding tutorials
 
 [GitHub](https://github.com/caeden117) | [Donate](https://ko-fi.com/Caeden117)
 

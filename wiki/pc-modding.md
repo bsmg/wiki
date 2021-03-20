@@ -77,7 +77,7 @@ ones that stand out, letting you [automatically download these in-game](https://
 
 ### Song Management Apps
 
-* [BeatList](https://github.com/Alaanor/beatlist) is an app to manage playlist and beatmaps, by Alaanor.
+There are no working song management apps available at this time.
 
 ### Playlists
 You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod.
