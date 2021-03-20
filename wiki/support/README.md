@@ -125,7 +125,7 @@ framerate, in no particular order:
 * Perform a [Clean Installation](#clean-installation) of the game files.
 * Low framerate can also be caused by something going wrong within your application data folder,
   to fix this refer to [Deleting The Beatsaber Folder Within Your AppData](#deleting-your-save-in-appdata)
-* Disable CountersPlus counters like score counter and swing speed as they can be expensive.
+* Disable Counters+ counters like score counter and swing speed as they can be expensive.
 * HTTPStatus or DataPuller can cause lag spikes. Test without this mod to see if the lag spikes go away.
 
 VR is very CPU intensive, especially if you add mods. If you're struggling to run the game with the mods you want, consider
