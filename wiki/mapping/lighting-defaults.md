@@ -8,8 +8,8 @@ _A list of the default color palettes used in each environment._
 
 ---
 
-## 1.13.4 Colors
-These are the colors used in the 1.13.4 version of the game.
+## 1.14.0 Colors
+These are the colors used in the 1.14.0 version of the game.
 
 ### The First (Default)
 ![Image of TheFirst colors](~@images/mapping/color-thefirst.png)  
@@ -592,6 +592,80 @@ This is used by the BTS environment.
   "r": 0.3490196,
   "g": 0.8078431,
   "b": 1
+ },
+```
+
+### Kaleidoscope
+![Image of BTS colors](~@images/mapping/color-kaleidoscope.png)  
+This is used by the Kaleidoscope environment.
+
+#### Left Side Block Color (Red)
+
+```json
+"_colorLeft": {
+  "r": 0.65882355,
+  "g": 0.1254902,
+  "b": 0.1254902,
+},
+```
+
+#### Right Side Block Color (Black)
+
+```json
+"_colorRight": {
+  "r": 0.28235295,
+  "g": 0.28235295,
+  "b": 0.28235295
+},
+```
+
+#### Left Side Light Color (Red)
+
+```json
+"_envColorLeft": {
+  "r": 0.65882355,
+  "g": 0.1254902,
+  "b": 0.1254902,
+},
+```
+
+#### Right Side Light Color (White)
+
+```json
+"_envColorRight": {
+  "r": 0.47058824,
+  "g": 0.47058824,
+  "b": 0.47058824
+},
+```
+
+#### Wall Color (Grey)
+
+```json
+"_obstacleColor": {
+  "r": 0.25098041,
+  "g": 0.25098041,
+  "b": 0.25098041
+ },
+```
+
+#### Left Side Boost Light Color (Red)
+
+```json
+"_envColorLeftBoost": {
+  "r": 0.50196081,
+  "g": 0,
+  "b": 0
+ },
+```
+
+#### Right Side Boost Light Color (Magenta)
+
+```json
+"_envColorRightBoost": {
+  "r": 0.49244517,
+  "g": 0,
+  "b": 0.53725493
  },
 ```
 
