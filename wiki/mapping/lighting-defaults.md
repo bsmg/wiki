@@ -150,7 +150,7 @@ This is used by the K/DA environment.
 "_envColorLeft": {
   "r": 1,
   "g": 0.3960785,
-  "b": 0.2431373,
+  "b": 0.2431373
 },
 ```
 
@@ -184,7 +184,7 @@ This is used by the Crab Rave environment.
 "_colorLeft": {
   "r": 0,
   "g": 0.7130001,
-  "b": 0.07806564,
+  "b": 0.07806564
 },
 ```
 
@@ -204,7 +204,7 @@ This is used by the Crab Rave environment.
 "_envColorLeft": {
   "r": 0.134568,
   "g": 0.756,
-  "b": 0.1557533,
+  "b": 0.1557533
 },
 ```
 
@@ -238,7 +238,7 @@ This is used by the Rocket League environment.
 "_colorLeft": {
   "r": 1,
   "g": 0.4980392,
-  "b": 0,
+  "b": 0
 },
 ```
 
@@ -258,7 +258,7 @@ This is used by the Rocket League environment.
 "_envColorLeft": {
   "r": 0.9,
   "g": 0.4866279,
-  "b": 0.3244186,
+  "b": 0.3244186
 },
 ```
 
@@ -292,7 +292,7 @@ This is used by the Green Day and Green Day Grenade environment.
 "_colorLeft": {
   "r": 0.2588235,
   "g": 0.7843138,
-  "b": 0.01960784,
+  "b": 0.01960784
 },
 ```
 
@@ -312,7 +312,7 @@ This is used by the Green Day and Green Day Grenade environment.
 "_envColorLeft": {
   "r": 0,
   "g": 0.7137255,
-  "b": 0.6705883,
+  "b": 0.6705883
 },
 ```
 
@@ -400,7 +400,7 @@ This is used by the FitBeat environment.
 "_colorLeft": {
   "r": 0.8000001,
   "g": 0.6078432,
-  "b": 0.1568628,
+  "b": 0.1568628
 },
 ```
 
@@ -420,7 +420,7 @@ This is used by the FitBeat environment.
 "_envColorLeft": {
   "r": 0.8,
   "g": 0.5594772,
-  "b": 0.5594772,
+  "b": 0.5594772
 },
 ```
 
@@ -531,7 +531,7 @@ This is used by the BTS environment.
 "_colorLeft": {
   "r": 1,
   "g": 0.09019607,
-  "b": 0.4059771,
+  "b": 0.4059771
 },
 ```
 
@@ -551,7 +551,7 @@ This is used by the BTS environment.
 "_envColorLeft": {
   "r": 0.7843137,
   "g": 0.1254902,
-  "b": 0.5010797,
+  "b": 0.5010797
 },
 ```
 
@@ -605,7 +605,7 @@ This is used by the Kaleidoscope environment.
 "_colorLeft": {
   "r": 0.65882355,
   "g": 0.1254902,
-  "b": 0.1254902,
+  "b": 0.1254902
 },
 ```
 
@@ -625,7 +625,7 @@ This is used by the Kaleidoscope environment.
 "_envColorLeft": {
   "r": 0.65882355,
   "g": 0.1254902,
-  "b": 0.1254902,
+  "b": 0.1254902
 },
 ```
 
@@ -679,7 +679,7 @@ This is not used by any environment.
 "_colorLeft": {
   "r": 0.1792453,
   "g": 0.1792453,
-  "b": 0.1792453,
+  "b": 0.1792453
 },
 ```
 
@@ -787,7 +787,7 @@ Differs to the colors in [Origins](#origins) slighty.
   "r": 0.32222217,
   "g": 0.6111111,
   "b": 0.75
-}
+},
 ```
 
 #### Right Side Light Color (Blue)
@@ -797,7 +797,7 @@ Differs to the colors in [Origins](#origins) slighty.
   "r":0.03844783,
   "g":0.62239975,
   "b":0.90566039
-}
+},
 ```
 
 ## Legacy Colors
@@ -870,7 +870,7 @@ These are not the full list of changes made to colors over Beat Saber's history.
 "_envColorLeft": {
   "r": 0.6745098,
   "g": 0.3647059,
-  "b": 0.2431373,
+  "b": 0.2431373
 },
 ```
 
@@ -902,7 +902,7 @@ These are not the full list of changes made to colors over Beat Saber's history.
 "_envColorLeft": {
   "r": 0,
   "g": 0.5019608,
-  "b": 1,
+  "b": 1
 },
 ```
 
@@ -924,7 +924,7 @@ These are not the full list of changes made to colors over Beat Saber's history.
 "_envColorLeft": {
   "r": 0.6,
   "g": 0.4176471,
-  "b": 0.4176471,
+  "b": 0.4176471
 },
 ```
 
@@ -947,7 +947,7 @@ These are not the full list of changes made to colors over Beat Saber's history.
   "r":0.2267711,
   "g":0.43114197,
   "b":0.52830189
-}
+},
 ```
 
 ## Credits
