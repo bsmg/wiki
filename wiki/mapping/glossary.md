@@ -84,6 +84,7 @@ let us know in #mapping-discussion!
 | **Fast Walls** | Walls with a negative duration value greater than the map's [Half Jump Duration](#h) that appear to move past the player at a slower speed than [Hyper Walls](#h). |
 | **First Person Flying Control** | A launch option available to SteamVR and Oculus users to launch Beat Saber and have limited keyboard and mouse control over the game in a first person view. Very helpful for getting an accurate preview of lighting or walls or accessing the official editor. Abbreviated FPFC |
 | **Fixed BPM** | A song with a consistent BPM from start to finish with no variation. Also known as [Single BPM](#s). See also [Variable BPM](#uv) |
+| **Flick** | A pattern of two or more notes of the same color, typically at 1/4 precision. <details><summary>**Example Image**</summary>![Picture of flick](~@images/mapping/flick-alt.png)</details>|
 | **Flow** | The concept of placing block patterns so that the next swing a player makes feels natural and allows the body to move in proper ways. |
 | **Forehand** | A swing where the majority of the work is done by the palm side of the hand. See this clip in [Fru's Tutorial Video](https://youtu.be/t9AFj4pfptM?t=454) for more info. Related: [Backhand](#b) |
 | **FPFC** | Acronym for First Person Flying Control |
