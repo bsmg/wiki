@@ -29,6 +29,10 @@ module.exports = {
       lang: 'fr-FR',
       title: 'Wiki BSMG',
     },
+    '/de/': {
+      lang: 'de-DE',
+      title: 'BSMG Wiki',
+    },
   },
 
   markdown: {
@@ -51,9 +55,9 @@ module.exports = {
 
     locales: {
       '/': {
-        selectText: 'Language',
+        selectText: 'English',
         label: 'English',
-        ariaLabel: 'Language',
+        ariaLabel: 'English',
         editLinkText: 'Help improve this page!',
         lastUpdated: 'Last Updated',
         nav: [
@@ -91,9 +95,9 @@ module.exports = {
         },
       },
       '/fr/': {
-        selectText: 'Langue',
+        selectText: 'Français',
         label: 'Français',
-        ariaLabel: 'Langue',
+        ariaLabel: 'Français',
         editLinkText: 'Aidez à améliorer cette page !',
         lastUpdated: 'Dernière mise à jour',
         nav: [
@@ -126,6 +130,46 @@ module.exports = {
             'custom-avatars',
             'custom-platforms',
             'custom-notes',
+          ]),
+        },
+      },
+      '/de/': {
+        selectText: 'Deutsch',
+        label: 'Deutsch',
+        ariaLabel: 'Deutsch',
+        editLinkText: 'Hilf uns die Seite zu verbessern!',
+        lastUpdated: 'Zuletzt aktualisiert am',
+        nav: [
+          { text: 'Startseite', link: '/de/' },
+          { text: 'Anfänger Guide', link: '/beginners-guide.md' },
+          { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
+        ],
+        sidebar: {
+          '/de/about/': generateSidebar('About', [
+            '',
+            'staff',
+            'moderators',
+            'modders',
+            'supports',
+            'mapping-supports',
+            '3d-artists',
+          ]),
+          '/de/faq/': generateSidebar('FAQ', [
+            '',
+            'install-folder',
+          ]),
+          '/de/modding/': generateSidebar('Modding', [
+            '',
+            'intro',
+            'linux',
+          ]),
+          '/de/models/': generateSidebar('3D Models', [
+            '',
+            'custom-sabers',
+            'custom-avatars',
+            'custom-platforms',
+            'custom-notes',
+            'custom-walls',
           ]),
         },
       },
