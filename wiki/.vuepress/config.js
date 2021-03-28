@@ -74,6 +74,7 @@ module.exports = {
             'supports',
             'mapping-supports',
             '3d-artists',
+            'translators',
           ]),
           '/faq/': generateSidebar('FAQ', [
             '',
