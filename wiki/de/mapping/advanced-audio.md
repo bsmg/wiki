@@ -15,7 +15,9 @@ Auf dieser Seite findest du zusätzliche Anleitungen und Ressourcen zum besseren
 ## Audio Qualität überprüfen
 Generell sollte man immer **WAV(E)- oder FLAC (verlustfrei unkomprimiert oder komprimiert)** Dateien als Quelle für deine Songs verwenden. Das liegt daran, dass **verlustbehaftete Formate wie MP3, AAC oder OGG bei der Konvertierung in ihre Formate immer Informationen verlieren** und nicht durch "Rückkonvertierung" wiederhergestellt werden. Aus diesem Grund sollte man exportierte OGG-Datei niemals dazu verwenden, neue Bearbeitungen am Audiomaterial vorzunehmen. Verwende daher wenn möglich, immer eine verlustfreie Quelldatei. Einige FLAC Quellen können jedoch aus verlustbehafteten Formaten "hochkonvertiert" werden. Es empfiehlt sich daher, Audiodatei(en) vor der Verwendung mit einem Spektralanalysetool zu überprüfen. Für weitere Informationen über Audioformate [wird dieser Artikel empfohlen](https://opentrackers.org/whatinterviewprep.com/prepare-for-the-interview/audio-formats/index.html).
 
-::: tip Speicher deine eigenen verlustfreien WAV(E)-Dateien bei jedem Bearbeitungsschritt, so dass du immer eine verlustfreie Quelle hast, mit der du die Bearbeitung fortsetzen kannst ohne alles von vorn beginnen zu müssen. So hast du immer eine verlustfreie Quelle, mit der du die Bearbeitung fortsetzen kannst, ohne alles von Anfang an neu machen zu müssen. :::
+::: tip TIPP
+Speicher deine eigenen verlustfreien WAV(E)-Dateien bei jedem Bearbeitungsschritt, so dass du immer eine verlustfreie Quelle hast, mit der du die Bearbeitung fortsetzen kannst ohne alles von vorn beginnen zu müssen. So hast du immer eine verlustfreie Quelle, mit der du die Bearbeitung fortsetzen kannst, ohne alles von Anfang an neu machen zu müssen.
+:::
 
 Die beste Möglichkeit die Qualität der Quelle und den Qualitätsverlust zu überprüfen, ist die Verwendung von [Spek](http://spek.cc/), ein kostenloses akustisches Spektrum-Analyse-Tool:
 
@@ -35,7 +37,7 @@ Um dieses Tool zu verwenden, öffne einfach Spek.exe und ziehe die Audiodatei au
 ### Auswahl der geeigneten OGG-Exportqualität
 Man sollte darauf abzielen, den größten Teil der Quell-Audiodaten zu erhalten und trotzdem die kleinste Dateigröße zu haben. Halte die Größe der OGG-Datei unter 14MB (für BeatSaver) oder 7MB (für Discord ohne Nitro).
 
-Um zu wissen, welcher Pegel für dein Song ideal ist, kannst du deine Spur mit verschiedenen Qualitäten exportieren und [die Spektren vergleichen](#checking-audio-quality). Als allgemeine Empfehlung solltest du jedoch diese Einstellungen befolgen:
+Um zu wissen, welcher Pegel für dein Song ideal ist, kannst du deine Spur mit verschiedenen Qualitäten exportieren und [die Spektren vergleichen](#audio-qualitat-uberprufen). Als allgemeine Empfehlung solltest du jedoch diese Einstellungen befolgen:
 
 * Quelle hoher Qualität (WAVE, FLAC oder MP3/AAC@+200kbps): Wähle eine OGG-Qualitätsstufe zwischen 9 und 6.
 * Quelle niedriger Qualität (MP3 / AAC / OGG): Wähle eine OGG-Qualitätsstufe zwischen 5 und 3.
@@ -43,14 +45,14 @@ Um zu wissen, welcher Pegel für dein Song ideal ist, kannst du deine Spur mit v
 Du kannst die Audioqualität nicht erhöhen, indem du einen verlustbehafteten Track mit einer höheren Bitrate speicherst. (z. B. Speichern eines von YouTube stammenden Tracks mit Stufe 10). Du wirst nur die Dateigröße vergrößern. Wie im vorherigen Kapitel erläutert, gehen beim Transkodieren in ein verlustbehaftetes Format Informationen verloren und können daher nicht wiederhergestellt werden. Die Transkodierung eines verlustfreien Formats in ein anderes verlustfreies Format ist jedoch in Ordnung, z. B. FLAC nach WAV(E).
 
 ## Audioverarbeitung erklären
-Für die Arbeit mit Audio und die Bearbeitung der Schallwellen stehen verschiedene Werkzeuge zur Verfügung, um das zu erreichen, was wir wollen oder brauchen. Zwei dieser Werkzeuge sind *Kompressor* und *Limiter*, die wir für die Lautstärkebearbeitung in [Lautstärkebearbeitung verwendet haben: Deinen Song lauter machen](./basic-audio.md#making-your-song-louder).
+Für die Arbeit mit Audio und die Bearbeitung der Schallwellen stehen verschiedene Werkzeuge zur Verfügung, um das zu erreichen, was wir wollen oder brauchen. Zwei dieser Werkzeuge sind *Kompressor* und *Limiter*, die wir für die Lautstärkebearbeitung in [Lautstärkebearbeitung verwendet haben: Deinen Song lauter machen](./basic-audio.md#mach-deinen-song-lauter).
 
 Im Folgenden werden diese Werkzeuge näher erläutert:
 
 ### Kompressor
 Im Wesentlichen reduziert ein Kompressor die Dynamik oberhalb eines bestimmten Schwellenwerts, wodurch das Audiosignal letztlich weniger dynamisch und die Lautstärke reduziert. Wenn du das Signal auch nach einem Kompressor anhebst (Make Up Gain/Normalize), kannst du den Klang noch lauter wahrnehmen.
 
-Der mit Audacity mitgelieferte Kompressor Effekt ist eigentlich nicht das beste Werkzeug für das Mastering von Musik, da er eher für sprachorientiertes Audio orientiert ist. Es ist jedoch sehr einfach zu verwenden, weshalb es in [Lautstärkemodifikation: Komprimierung](./basic-audio.md#compression) und grundlegende Einstellungen bereitgestellt wird, die für die meisten Fälle funktionieren. Wenn du dies jedoch liest, hast du entweder eine unangenehme Verzerrung im Klang bemerkt (Ton bricht nach lauten Spitzen) oder du bist neugierig auf die Einstellungen, die du in einem Kompressor vornehmen kannst, also lass uns einen Blick auf diese Einstellungen werfen, mit dem fortgeschrittenen [SC4-Plug-in](https://ttmanual.audacityteam.org/o/man/sc4.html) für Audacity (Du musst eventuell das [LADSPA-Bundle](http://www.audacityteam.org/download/plug-ins/#ladspa) installieren, um Zugriff auf dieses Tool zu erhalten).
+Der mit Audacity mitgelieferte Kompressor Effekt ist eigentlich nicht das beste Werkzeug für das Mastering von Musik, da er eher für sprachorientiertes Audio orientiert ist. Es ist jedoch sehr einfach zu verwenden, weshalb es in [Lautstärkemodifikation: Komprimierung](./basic-audio.md#kompression) und grundlegende Einstellungen bereitgestellt wird, die für die meisten Fälle funktionieren. Wenn du dies jedoch liest, hast du entweder eine unangenehme Verzerrung im Klang bemerkt (Ton bricht nach lauten Spitzen) oder du bist neugierig auf die Einstellungen, die du in einem Kompressor vornehmen kannst, also lass uns einen Blick auf diese Einstellungen werfen, mit dem fortgeschrittenen [SC4-Plug-in](https://ttmanual.audacityteam.org/o/man/sc4.html) für Audacity (Du musst eventuell das [LADSPA-Bundle](http://www.audacityteam.org/download/plug-ins/#ladspa) installieren, um Zugriff auf dieses Tool zu erhalten).
 
 ![SC4](https://i.imgur.com/koad1gL.png)
 
@@ -71,13 +73,15 @@ Ein Beispiel dafür, wie sich die Komprimierung auf den Ton auswirkt. Der hervor
 
 ![Kompression](https://i.imgur.com/6VMXy3j.png)
 
-::: tip Um die Dynamik des Liedes in dB visuell besser beurteilen zu können, kannst du den Schwellenwert auf Folgendes einstellen:
+::: tip TIPP
+Um die Dynamik des Liedes in dB visuell besser beurteilen zu können, kannst du den Schwellenwert auf Folgendes einstellen:
 
 1. Klicke mit der linken Maustaste auf die Spurbezeichnung und wähle `Wellenform (dB)`. Dadurch wird eine logarithmische Wellenform mit dB in der Skala anstelle einer linearen Skala angezeigt.
 2. Um die Skala zu erhöhen, klicke mit der rechten Maustaste auf die Skala links von der Reißzwecke und klicke auf `Halbe Welle`.
 3. Um die Spurhöhe zu maximieren, gehe auf `Ansicht -> Spurgröße -> An Höhe anpassen` oder drücke einfach `Strg + Umschalt + F`. Dadurch wird mehr von der Skala angezeigt.
 
-![Track](https://i.imgur.com/2zWoX9q.png) :::
+![Track](https://i.imgur.com/2zWoX9q.png)
+:::
 
 Ausführlichere Informationen über Kompressoren [findest du hier](https://www.practical-music-production.com/audio-compressor/).
 
@@ -117,14 +121,18 @@ Es gibt auch ein Video von diesem Prozess [hier](https://www.youtube.com/watch?v
 
 4. Richte die Spuren mit dem Zeitverschiebungswerkzeug aus (![Time Shift Tool](~@images/mapping/timeshift.png "Timeshift tool")) um die zweite Spur an eine Stelle zu verschieben, die ungefähr an der gleichen Stelle liegt, damit die ähnlichen Abschnitte nahe beieinander liegen. Zoome dann hinein und stelle erneut ein und wiederhole den Vorgang, bis die Wellenform beim Zoomen in Punkte übergehen. Richten die Punkte auf der unteren Spur mit den ähnlichen Spitzen und Tiefen mit der oberen Spur aus, wenn möglich.
 
-::: tip Verwende eine Klickspur um sicherzustellen, dass die Spuren im Takt zueinander sind.  
-Siehe [Audio-Vorbereitung: Hinzufügen von Click-Track](./basic-audio.md#Klickspur-hinzufuegen). :::
+::: tip TIPP
+Verwende eine Klickspur um sicherzustellen, dass die Spuren im Takt zueinander sind.  
+Siehe [Audio-Vorbereitung: Hinzufügen von Click-Track](./basic-audio.md#klickspur-hinzufugen).
+:::
 
 ![Vergrößerte Synchronisation](https://i.imgur.com/9jyrzzv.png "Vergrößerte Synchronisation")
 
 5. Der letzte Abschnitt der oberen Spur sollte nun identisch oder ähnlich wie der erste Abschnitt der unteren Spur sein, aber aus verschiedenen Zeiten im Song. Höre den überlappenden Bereich ab, um eine Übereinstimmung zu bestätigen und vergewisser dich, dass es kein Echo/Versatz von falsch ausgerichteten Spuren gibt.
 
-::: tip Um Übersteuerung/Clipping von zwei -0db spitzen Spuren zu vermeiden, kannst du die Fader für beide Spuren auf -6db stellen ![Fader](https://i.imgur.com/kvsHvMT.png) und später wieder auf +0db stellen, nachdem die Überblendung erfolgt ist. Doppelklicke auf den Fader, um die Nummer einzugeben. :::
+::: tip TIPP
+Um Übersteuerung/Clipping von zwei -0db spitzen Spuren zu vermeiden, kannst du die Fader für beide Spuren auf -6db stellen ![Fader](https://i.imgur.com/kvsHvMT.png) und später wieder auf +0db stellen, nachdem die Überblendung erfolgt ist. Doppelklicke auf den Fader, um die Nummer einzugeben.
+:::
 
 7. Wähle den überlappenden Bereich über beide Spuren aus.
 8. Gehen zu `Effektmenü -> Überblendspuren`. Setze die Fade-Richtung auf `Alternierend Aus / Ein`. Klicke dann auf OK, um die Überblendung anzuwenden.
@@ -133,7 +141,7 @@ Siehe [Audio-Vorbereitung: Hinzufügen von Click-Track](./basic-audio.md#Klicksp
 
 9. Hören dir die überschneidenden Abschnitte noch einmal an. Wenn alles gut gelaufen ist, solltest du nun einen perfekt überblendeten Übergang zwischen den beiden Spuren haben.
 10. Kombinieren die Spuren, indem du alles auswählst (`Menü auswählen -> Alle` oder `Strg+A`) dann in das Menü `Spuren -> Mischen` gehen und dann `Mischen und Rendern`.
-11. Fertig. Du könntest nun mit der weiterer [Audiobearbeitung](./basic-audio.md#optional-audio-editing) fortfahren oder mit [Exportieren](./basic-audio.md#exportieren) abschließen.
+11. Fertig. Du könntest nun mit der weiterer [Audiobearbeitung](./basic-audio.md#optionale-audio-bearbeitung) fortfahren oder mit [Exportieren](./basic-audio.md#exportieren) abschließen.
 
 ## Variable BPM
 Wenn der Song, den du versuchst zuzuordnen, ein Tempo hat, das nicht mit einem festen BPM-Wert übereinstimmt (z. B. auch bei BPM-Werten mit Dezimalstellen), wie z. B. (ältere) akustische Pop-, Rock- oder Metal-Songs, wurden sie höchstwahrscheinlich nicht mit einem Metronom aufgenommen und lassen sich daher nicht ohne weiteres in Audacity oder dem Map-Editor auf eine feste BPM zu synchronisieren. Dies erfordert viel Zeit und Geduld, also stelle sicher, dass es den Aufwand wert ist. Denn einige Lösungen beinhalten rohe Gewalt, indem die BPM (Tempospur) in Intervallen, manchmal jeden Beat, manuell angepasst wird, um den Song anzupassen.
@@ -142,7 +150,7 @@ Der Vorteil einer synchronisierten BPM/Tempo-Spur ist eine einfachere und konsis
 
 Es gibt mehrere Methoden, um variable BPM zu behandeln:
 
-* Verzerre den Sound mit Hilfe einer DAW Software zu einem festen BPM-Wert. Siehe [Verziehen mit Reaper](#verziehen-mit-reaper) für Informationen.
+* Verzerre den Sound mit Hilfe einer DAW Software zu einem festen BPM-Wert. Siehe [Verziehen mit Reaper](#verformung-mit-reaper) für Informationen.
 * Nimm die BPM-Änderungen in MMA2 manuell vor.
   * [Video-Tutorial von BennyDaBeast hier](https://www.youtube.com/watch?v=6AwR4SeaiHU)  
     **Hinweis:** Benny verwendet in diesem Tutorial einen älteren Editor, Mediocire Mapper. Einige UI-Elemente haben sich zwar im neuesten Editor, [MMA2](./#mediocre-map-assistant-2) verändert, aber der Rest des Inhalts ist großartig!
@@ -163,12 +171,14 @@ Hier werden wir seine Warp Funktion verwenden, um das Audio subtil an ein einhei
 
 ![Reaper Projekt Einstellungsfenster](~@images/mapping/reaperProjectSettings.png)
 
-:::danger Dies ist ein kritischer Schritt! **Du kannst deine Audio ruinieren, wenn du die anfänglichen BPM- und Timebase-Einstellungen nicht korrekt vornimmst!** :::
+:::danger WARNUNG
+Dies ist ein kritischer Schritt! **Du kannst deine Audio ruinieren, wenn du die anfänglichen BPM- und Timebase-Einstellungen nicht korrekt vornimmst!**
+:::
 
 4. Schalte "Am Raster ausrichten" aus. Es ist das grüne Magnetsymbol in der oberen linken Ecke.
 5. Fügen deine Audio zum Projekt hinzu. Fügen > Mediendatei ein und finde deinen Song.
 6. Ziehe die gesamte Audiospur entsprechend, um einen Heißstart oder ein zu langes Intro zu vermeiden.
-   * Siehe [Basic Audio: Plane deine erste Note](./basic-audio.md##plane-deine-erste-note) für weitere Informationen.
+   * Siehe [Basic Audio: Planen deine ersten Noten](./basic-audio.md#planen-deine-ersten-noten) für weitere Informationen.
 
 ![Ausrichten von Audio Start in Reaper](~@images/mapping/reaperFirstBeat.png)
 
@@ -191,7 +201,9 @@ Wenn dies der Fall ist, musst du folgendes tun:
 
 Das Warpen deines Songs ist einfach eine Sache der Wiederholung dieses Vorgangs für den gesamten Song. Du solltest damit beginnen, dies etwa alle 4 Schläge oder so zu tun. Meistens ist dies gut genug, um den ganzen Song aufzustellen, aber achte auf die Beats zwischen den Stretch Markierungen. Wenn sie zu driften beginnen, verwende einen weiteren Stretchmarker, um sie zu fixieren.
 
-:::warning HINWEIS Übermäßige Warps könnten Artefakte einführen oder den Song so stark verändern, dass er für den Hörer/Spieler wahrnehmbar ist. :::
+:::warning HINWEIS 
+Übermäßige Warps könnten Artefakte einführen oder den Song so stark verändern, dass er für den Hörer/Spieler wahrnehmbar ist.
+:::
 
 #### Dinge im Hinterkopf behalten
 Beim Warpen eines Songs kann es viele versteckte "Gochas" geben. Hier sind einige Dinge, die dir begegnen könnten, und mögliche Lösungen.

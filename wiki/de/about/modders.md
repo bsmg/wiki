@@ -278,6 +278,8 @@ Ursprünglicher Schöpfer von SongLoader und CameraPlus und einer der Hauptveran
 
 ---
 
-::: tip Siehe auch **Support:** [Pespiri](./supports.md#pespiri)  
+::: tip Siehe auch 
+**Support:** [Pespiri](./supports.md#pespiri)  
 **Moderator:** [Caeden117](./moderators.md#caeden117)  
-**Staff:** [+1 Rabbit](./staff.md#_1-rabbit) | [lolPants](./staff.md#lolpants) | [Megalon](./staff.md#megalon) | [Reaxt](./staff.md#reaxt) | [Lillie](./staff.md#lillie) | [Steven](./staff.md#steven-🎀) :::
+**Staff:** [+1 Rabbit](./staff.md#_1-rabbit) | [lolPants](./staff.md#lolpants) | [Megalon](./staff.md#megalon) | [Reaxt](./staff.md#reaxt) | [Lillie](./staff.md#lillie) | [Steven](./staff.md#steven-🎀)
+:::

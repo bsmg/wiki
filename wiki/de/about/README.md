@@ -28,7 +28,7 @@ Jeder deiner Lieblingssongs wird über viele Stunden von einem talentierten Mapp
 
 > Des Weiteren gibt es einen inoffiziellen Discord-Server der Community, durch den du dich mit Mappern oder Künstlern in Verbindung setzen kannst, falls du etwas in Auftrag geben möchtest. Wir raten dir, dich dazu im [Beat Saber Commissions server](https://discord.gg/4RbcH5G) umzuschauen.
 
-### [Mitwirkende für Mapping-Ressourcen ("Mapping Resources Contributors")](/mapping/mapping-credits.md)
+### [Mitwirkende für Mapping-Ressourcen ("Mapping Resources Contributors")](/de/mapping/mapping-credits.md)
 Eine Gruppe erfahrener Mapper, die sich die Zeit genommen haben, ihr Wissen aufzuschreiben und zu veröffentlichen, um anderen dabei zu helfen, anzufangen oder sich zu verbessern. Schau dir gerne deren Maps an und unterstütze sie!
 
 ### [Event Gewinner](./event-winner.md)

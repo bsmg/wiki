@@ -51,6 +51,8 @@ Das Spektrogramm Skript funktioniert wie das Skript "Track Rings" und benötigt 
 
 Exportiere die Plattform über das Skript, das du zuvor zum gameObject hinzugefügt hast, an einen Ort deiner Wahl. Vorzugsweise das Verzeichnis des Spiels `Beat Saber/CustomPlatforms`.
 
-::: tip HINWEIS **Wenn du deine neue Plattform zum Laufen gebracht hast**, [lade sie auf ModelSaber hoch](https://modelsaber.com), wenn du sie mit der Welt teilen möchtest. :::
+::: tip HINWEIS
+**Wenn du deine neue Plattform zum Laufen gebracht hast**, [lade sie auf ModelSaber hoch](https://modelsaber.com), wenn du sie mit der Welt teilen möchtest.
+:::
 
 ![Katze](~@images/models/platforms/Cat.png)

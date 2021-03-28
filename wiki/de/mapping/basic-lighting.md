@@ -14,7 +14,9 @@ _Machen Beat Saber zu einem helleren Ort, indem Du Deine Maps manuell beleuchtes
 
 Jede Karte muss eine Art von Beleuchtung haben. Wenn Du die Dir zur Verfügung stehenden Werkzeuge kennst, kann eine einfache manuelle Beleuchtung sehr einfach sein. [Dieser Link](https://streamable.com/s/x7zj0/vrugyj) ist ein Videobeispiel für eine sehr einfache manuelle Beleuchtung
 
-::: tip HINWEIS Das Beispiel verwendet [Map Color Overrides](#map-color-overrides). Du musst kein AaltopahWi oder Skeelie sein, um tolle Beleuchtung zu machen! :::
+::: tip HINWEIS
+Das Beispiel verwendet [Map Farbe überschreiben](#map-farbe-uberschreiben). Du musst kein AaltopahWi oder Skeelie sein, um tolle Beleuchtung zu machen!
+:::
 
 ## Beleuchtungsarten
 Die verfügbaren Beleuchtungstypen sind in jeder der eingebauten Spielumgebungen gleich, Diese können sich jedoch an leicht unterschiedlichen Positionen befinden oder in einigen Fällen nicht vorhanden sein.
@@ -37,7 +39,8 @@ Jeder Beleuchtungstyp kann vier verschiedene Beleuchtungsereignisse nutzen.
 * **Abblenden:** Blinkt kurz heller als ein Standard "Ein"-Ereignis und wird dann nach ein paar Sekunden ausgeblendet.
 
 ::: warning HINWEIS  
-Es ist nicht möglich, die Dauer einer Ausblendung zu steuern oder eine Einblendung mit Standardbeleuchtung zu verwenden. Für benutzerdefinierte Überblendzeiten ist Chroma erforderlich, das im Abschnitt "Erweiterte Beleuchtung" (Kommt bald) behandelt wird. :::
+Es ist nicht möglich, die Dauer einer Ausblendung zu steuern oder eine Einblendung mit Standardbeleuchtung zu verwenden. Für benutzerdefinierte Überblendzeiten ist Chroma erforderlich, das im Abschnitt "Erweiterte Beleuchtung" (Kommt bald) behandelt wird.
+:::
 
 ## Bewährte Praktiken & Techniken
 > "The only bad lights are **NO** lights.... or lightmap."  
@@ -47,14 +50,15 @@ Beleuchtung ist eine Kunst, was bedeutet, dass sie viel subjektiver ist als Mapp
 
 **TranquillizeMe** hat ein Beleuchtungs-Tutorial erstellt, [Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc), in dem nützliche Beleuchtungstechniken und allgemeine Tipps zur Beleuchtung beschrieben werden.
 
-::: warning NOTE  
-Die Beleuchtungsvorschau ist in den derzeit verfügbaren Editoren nicht realistisch, daher ist es wichtig, dass du deine Lichter oft im Spiel überprüfst. Unter [Previewing Your Lights](#vorschau-der-lichter) findest du einige Tools, die dir dabei helfen können. :::
+::: warning HINWEIS  
+Die Beleuchtungsvorschau ist in den derzeit verfügbaren Editoren nicht realistisch, daher ist es wichtig, dass du deine Lichter oft im Spiel überprüfst. Unter [Vorschau der Lichter](#vorschau-der-lichter) findest du einige Tools, die dir dabei helfen können.
+:::
 
 ### Tastenbelegung
 Jeder Map-Editor handhabt die Beleuchtung anders, daher sollte man sich mit den Tastenbelegungen und der Funktionsweise der Platzierung im Editor der Wahl vertraut machen. Die Tastenkombinationen für die Beleuchtung variieren je nach Editor. Konsultiere den User Guide oder die Readme Datei des Editors oder lies diese hilfreiche Liste [Editorübergreifende Tastaturbelegungen](./editor-keybinds.md).
 
 ### Licht-Ereignisse zuweisen
-Mapper, die ihre erste Map beleuchten, sollten damit beginnen, bestimmten [Beleuchtungstypen](##beleuchtungtypen) Instrumenten zuzuordnen, und dann mit zunehmender Erfahrung von dort aus weitergehen. Diese Methode führt normalerweise nicht zu den aufregendsten Shows, aber es ist schwer, es zu vermasseln. Das könnte so aussehen:
+Mapper, die ihre erste Map beleuchten, sollten damit beginnen, bestimmten [Beleuchtungstypen](#beleuchtungsarten) Instrumenten zuzuordnen, und dann mit zunehmender Erfahrung von dort aus weitergehen. Diese Methode führt normalerweise nicht zu den aufregendsten Shows, aber es ist schwer, es zu vermasseln. Das könnte so aussehen:
 
 * **Track Lights:** Bass oder Kick Drum
 * **Lasers:** Melodie
@@ -79,11 +83,15 @@ Sei vorsichtig, wenn du Ereignisse genau in der Mitte von zwei Leuchten absetzt,
 ## Standard Umgebungen
 In Beat Saber gibt es verschiedene eingebaute Umgebungen, die Teil des Basisspiels sind und mit wenigen Klicks genutzt werden können.
 
-::: warning HINWEIS Von der Community erstellte benutzerdefinierte Umgebungsmodelle (Plattformen) existieren, erfordern jedoch die Mod "Custom Platforms", die derzeit nicht über den Mod Assistant verfügbar ist. Eine Beta-Version kann im `#pc-mods` Kanal des BSMG-Discord verfügbar sein. :::
+::: warning HINWEIS
+Von der Community erstellte benutzerdefinierte Umgebungsmodelle (Plattformen) existieren, erfordern jedoch die Mod "Custom Platforms", die derzeit nicht über den Mod Assistant verfügbar ist. Eine Beta-Version kann im `#pc-mods` Kanal des BSMG-Discord verfügbar sein.
+:::
 
 Die Grundstruktur jeder Umgebung ist meist gleich. Im [Mediocre Map Assistant 2](./mediocre-map-assistant.md) Editor sieht die Beleuchtungsspur wie folgt aus:
 
-::: align center ![Screenshot of the MMA2 lighting track from the top down](~@images/mapping/mma2-lighting-track.jpg) :::
+::: align center
+![Screenshot of the MMA2 lighting track from the top down](~@images/mapping/mma2-lighting-track.jpg)
+:::
 
 ### Umgebungs-Vorschau
 |         Video und Screenshot (Anklicken zum Öffnen in voller Größe)         | Umgebung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -115,14 +123,16 @@ Neue Standardumgebungen werden relativ häufig verfügbar, was bedeutet, dass Ma
 3. Scrolle nach unten bis zum `"_environmentName":`Abschnitt.
 4. Füge den Namen ein, den du in Schritt 1 kopiert hast.
 
-> **HINWEIS:** Du kannst in diesem Feld keine eigene Plattform verwenden. Dies wird in [Erweiterte Beleuchtung](./advanced-lighting.md###benutzerdefinierte-umgebung) behandelt.
+> **HINWEIS:** Du kannst in diesem Feld keine eigene Plattform verwenden. Dies wird in [Erweiterte Beleuchtung](./advanced-lighting.md#benutzerdefinierte-umgebung) behandelt.
 
 ## Map Farbe überschreiben
 Du kannst dein eigenes Farbschema für die Map im Game erzwingen, solange der Benutzer die SongCore-Mod installiert und die Option `Enable Custom Song Colors` in den Mod-Einstellungen aktiviert hat.
 
 Seit Beat Saber Version 1.4 können Benutzer die Rot/Grün/Blau (RGB)-Farben von Noten, Lichtern und Wänden für ihr Spiel einstellen. Sie werden jedoch durch die in der `Info.dat` definierten Farben überschrieben, wenn der Benutzer die Option `Benutzerdefinierte Songfarben aktivieren` aktiviert hat.
 
-::: tip Bei der Auswahl von Farbüberlagerungen für die Noten. Es wird **HÖCHSTENS** empfohlen, rötliche/warme/aggressive Farben auf der linken Seite und bläuliche/kalte/weiche Farben auf der rechten Seite zu verwenden, um die Spieler nicht zu verwirren. :::
+::: tip TIPP
+Bei der Auswahl von Farbüberlagerungen für die Noten. Es wird **HÖCHSTENS** empfohlen, rötliche/warme/aggressive Farben auf der linken Seite und bläuliche/kalte/weiche Farben auf der rechten Seite zu verwenden, um die Spieler nicht zu verwirren.
+:::
 
 Unter [Umgebungs-Standardfarben](./lighting-defaults.md) findest du eine Liste der in den Umgebungen verwendeten Standardfarben.
 
@@ -168,7 +178,8 @@ Nach der Installation der Mods und dem Hinzufügen des Startparameters kannst du
     **==ODER==**
   * Beende das Spiel, entferne die Startoption, und starte das Spiel neu.
 
-* Wenn der Mod nicht zu funktionieren scheint, stelle sicher, dass die Einstellung "Smooth Camera" im Spiel deaktiviert ist. :::
+* Wenn der Mod nicht zu funktionieren scheint, stelle sicher, dass die Einstellung "Smooth Camera" im Spiel deaktiviert ist.
+:::
 
 ### Online mit BS Viewer
 Der [BS Viewer](https://skystudioapps.com/bs-viewer/) von **+1 Rabbit** ist ein Online-Tool, mit dem du bequem überprüfen kannst, wie deine Karte im Spiel aussehen könnte, ohne das Spiel zu starten. Lade einfach deine Karten ZIP auf die Website hoch und sieh dir die Vorschau an! Leider werden **IOS und Safari derzeit nicht unterstützt.**

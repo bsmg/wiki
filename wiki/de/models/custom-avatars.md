@@ -2,9 +2,11 @@
 
 ## Installation
 
-:::warning Custom Avatars ist ein PC-Only Mod. :::
+:::warning WARNUNG
+Custom Avatars ist ein PC-Only Mod.
+:::
 
-Das neueste Custom Avatars Plugin kann im [#pc-mods channel](https://discord.gg/beatsabermods) im BSMG Discord oder im [Mod Assistant](https://github.com/Assistant/ModAssistant) gefunden werden. Nach der Installation solltest du eine Datei namens `CustomAvatar.dll` in deinem `Plugins` Ordner sehen. Du solltest auch einen Ordner namens `CustomAvatars` in [deinem Installationsordner](/faq/install-folder.md) sehen - hier wirst du die `*.avatar` Dateien ablegen, die du verwenden möchtest.
+Das neueste Custom Avatars Plugin kann im [#pc-mods channel](https://discord.gg/beatsabermods) im BSMG Discord oder im [Mod Assistant](https://github.com/Assistant/ModAssistant) gefunden werden. Nach der Installation solltest du eine Datei namens `CustomAvatar.dll` in deinem `Plugins` Ordner sehen. Du solltest auch einen Ordner namens `CustomAvatars` in deinem [Installationsordner](/de/faq/install-folder.md) sehen - hier wirst du die `*.avatar` Dateien ablegen, die du verwenden möchtest.
 
 Weitere Avatare kannst du auf [ModelSaber](https://modelsaber.com/Avatars/) herunterladen.
 
@@ -14,7 +16,8 @@ Im Spiel siehst du im Hauptmenü eine `AVATARS` Schaltfläche links neben dem Ha
 :::warning HINWEIS
 
 * Avatare sind standardmäßig nicht ausgewählt. Stelle sicher, dass du in das rechte Menü gehst und auf einen Avatar umschaltest, falls zunächst keiner erscheint.
-* Einige Avatare wurden nicht mit Blick auf die Ego-Perspektive erstellt, so dass sie deine Sicht blockieren können, wenn sie aktiviert sind. :::
+* Einige Avatare wurden nicht mit Blick auf die Ego-Perspektive erstellt, so dass sie deine Sicht blockieren können, wenn sie aktiviert sind.
+:::
 
 ## Avatars erstellen
 [Assistant's Avatar Guide](./avatars-guide.md) ist eine gute Quelle, um zu lernen, wie man einen eigenen Avatar erstellt.

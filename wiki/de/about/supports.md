@@ -89,7 +89,9 @@ Der Bot, der alles zusammenhält. Erschaffen von Megalon, neu erschaffen von lol
 
 ---
 
-::: tip Siehe auch **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
+::: tip Siehe auch
+**3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
 **Modder:** [Kyle1413](./modders.md#kyle1413)  
 **Moderatoren:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink) | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)  
-**Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ) :::
+**Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
+:::

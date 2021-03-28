@@ -33,7 +33,8 @@ Bringer von Augenschäden mit seinen grellen Lichtshows, kann er Dir helfen, dei
 
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f) | [BeastSaber](https://bsaber.com/members/skeelie/) | [YouTube](https://www.youtube.com/user/xSkeelie) | [Twitch](https://www.twitch.tv/skeelie)
 
-::: tip Siehe auch **Supporter:** [Kolezan](./supports.md#kolezan)  
+::: tip Siehe auch
+**Supporter:** [Kolezan](./supports.md#kolezan)  
 **Moderatoren:** [Pyrowarfare](./moderators.md#pyrowarfare)  
 **Staff:** [Bloodcloak](./staff.md#bloodcloak)  
 :::

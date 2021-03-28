@@ -71,11 +71,18 @@ Ich werde nicht ins Detail gehen, um ein 3D-Modell zu erstellen. Wenn du noch ke
 
 Sobald das Saber fertig ist, kannst du ihn exportieren, indem du beim Datei-Export das gewünschte Dateiformat auswählst und die Datei bei Unity importieren.
 
-::: tip HINWEIS OBJ wird am besten für einfache Saber benutzt. FBX eignet sich am besten für komplexe Saber, die Rigging oder Animationen haben. :::
+::: tip HINWEIS
+OBJ wird am besten für einfache Saber benutzt. FBX eignet sich am besten für komplexe Saber, die Rigging oder Animationen haben.
+:::
 
 ![Exportiere die Saber als FBX Datei](~@images/models/sabers/09.png)
 
-::: tip HINWEIS Du musst nicht beide Saber exportieren, wenn sie die gleiche Form haben. Wenn sie identisch sind, sollte es reichen, eins zu exportieren. ::: ::: tip HINWEIS Das Zusammenfassen von Meshes, die dieselben Farb-/Leuchtattribute haben, wird auf Dauer sehr hilfreich sein. :::
+::: tip HINWEIS
+Du musst nicht beide Saber exportieren, wenn sie die gleiche Form haben. Wenn sie identisch sind, sollte es reichen, eins zu exportieren.
+::: 
+::: tip HINWEIS 
+Das Zusammenfassen von Meshes, die dieselben Farb-/Leuchtattribute haben, wird auf Dauer sehr hilfreich sein.
+:::
 
 ## Unity
 Um das Modell in Unity zu importieren, ziehe es einfach per Drag & Drop in das Assets-Fenster. Richte das Saber anschließend mit dem TemplateSaber aus. Video Beispiel:
@@ -93,9 +100,13 @@ Das Custom-Saber Unity Projekt kommt mit 4 verschiedenen Beat Saber kompatiblen 
 
 Das Material, das du benutzen willst hängt von den Eigenschaften ab, die du haben willst.
 
-::: warning WARNUNG Stelle sicher, dass du *EXKLUSIV* Shader benutzt, die kompatibel mit Beat Saber sind. Falls du einen Shader benutzt der nicht kompatibel ist (z. B. der Unity Standard Shader), wird das Material im Spiel nur als Weiß angezeigt. :::
+::: warning WARNUNG
+Stelle sicher, dass du *EXKLUSIV* Shader benutzt, die kompatibel mit Beat Saber sind. Falls du einen Shader benutzt der nicht kompatibel ist (z. B. der Unity Standard Shader), wird das Material im Spiel nur als Weiß angezeigt.
+:::
 
-::: tip HINWEIS Weitere Informationen zur Shader-Kompatibilität findest du im Abschnitt "Erweiterte Shader-Eigenschaften" in diesem Handbuch. :::
+::: tip HINWEIS
+Weitere Informationen zur Shader-Kompatibilität findest du im Abschnitt "Erweiterte Shader-Eigenschaften" in diesem Handbuch.
+:::
 
 Video Beispiel der Anwendung von Materialien:
 
@@ -105,7 +116,9 @@ Du kannst eine Textur zu einem Material hinzufügen, indem du eine Bilddatei in 
 
 ![Füge einem Saber eine Textur hinzu](~@images/models/sabers/10.png)
 
-::: tip HINWEIS Der `Glow` Schiebregler verändert, wie hell das Saber leuchtet. Zusätzlich, wenn der glow Wert über 0 ist wird das Material von den Custom Farben des Spielers betroffen. :::
+::: tip HINWEIS
+Der `Glow` Schiebregler verändert, wie hell das Saber leuchtet. Zusätzlich, wenn der glow Wert über 0 ist wird das Material von den Custom Farben des Spielers betroffen.
+:::
 
 Sobald du alles erledigt hast, kannst du dein Saber exportieren. Öffne den `Saber Exporter `im` Window` Tab und gebe dann den Saber-Namen und -Autor an.
 
@@ -113,7 +126,9 @@ Sobald du alles erledigt hast, kannst du dein Saber exportieren. Öffne den `Sab
 
 Packe das Saber in den `CustomSabers` Ordner und teste es im Spiel aus. Wenn es gut aussieht, bist du fertig!
 
-::: tip HINWEIS **Sobald deine neuen Saber funktionieren**, [lade sie bei ModelSaber hoch](https://modelsaber.com/Upload/) wenn du sie mit anderen teilen möchtest. :::
+::: tip HINWEIS
+**Sobald deine neuen Saber funktionieren**, [lade sie bei ModelSaber hoch](https://modelsaber.com/Upload/) wenn du sie mit anderen teilen möchtest.
+:::
 
 ## Erweitert
 Dieser Abschnitt behandelt Dinge, die nicht im Haupt-Tutorial enthalten sind, wie zum Beispiel das Hinzufügen von Events und Trails.

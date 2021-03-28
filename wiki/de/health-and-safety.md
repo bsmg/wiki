@@ -32,7 +32,9 @@ Halte deinen Spielbereich frei von Hindernissen und sorge für genügend Platz u
 
 ![Sorge für genug Platz um dich herum](~@images/health-and-safety/allow-adequate-room-around-you.png "Sorge für genug Platz um dich herum")
 
-::: warning HINWEIS Beat Saber ist nicht verfügbar für die Nintendo Wii. Dieses Bild ist nur zu informativen Zwecken. :::
+::: warning HINWEIS
+Beat Saber ist nicht verfügbar für die Nintendo Wii. Dieses Bild ist nur zu informativen Zwecken.
+:::
 
 ## Eine kurze Nachricht von TammyMatty
 Um die Risiken sich zu verletzten zu senken denke immer daran dich zu dehnen bevor und nachdem du Beat Saber spielst. Bitte beachte folgendes:

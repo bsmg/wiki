@@ -7,7 +7,9 @@ Geschrieben von Teknoz
 
 *Vielen Dank an Flee für die Korrektur von Grammatikfehlern und die Bereitstellung nützlicher Informationen.*
 
-:::warning Disclaimer Diese Anleitung wurde ursprünglich am 7. Februar 2019 geschrieben. Es wurde mehrfach aktualisiert. Einige Informationen können aber ungenau sein oder fehlen. Wenn du fehlerhafte/ungenaue oder fehlende Informationen in dieser Anleitung findest, kannst du einen Pull-Request auf dem [BSMG Wiki GitHub](https://github.com/bsmg/wiki#readme) einreichen oder mir eine Nachricht auf Discord (Teknoz#6900) schicken. :::
+:::warning WARNUNG
+Disclaimer Diese Anleitung wurde ursprünglich am 7. Februar 2019 geschrieben. Es wurde mehrfach aktualisiert. Einige Informationen können aber ungenau sein oder fehlen. Wenn du fehlerhafte/ungenaue oder fehlende Informationen in dieser Anleitung findest, kannst du einen Pull-Request auf dem [BSMG Wiki GitHub](https://github.com/bsmg/wiki#readme) einreichen oder mir eine Nachricht auf Discord (Teknoz#6900) schicken.
+:::
 
 ## Genauigkeit und Punktzahl
 
@@ -94,7 +96,7 @@ Die einzige Ausnahme ist, wenn du eine bessere Genauigkeit für dein aktuelles T
 ### Wie kann ich mich verbessern und mehr PP bekommen?
 Um dich zu verbessern und einen besseren Rang im globalen Ranking zu erlangen, gibt es eine ganze Reihe von Tools, die du benutzen kannst, um Songs zu finden, die deinem Skilllevel entsprechen. Zuerst einmal ist es immer gut, auf dein [ScoreSaber](https://scoresaber.com/global) Profil zu schauen, um immer zu wissen, welche Songs du seit langem nicht mehr gespielt hast, oder auf denen du dich verbessern könntest. Außerdem kannst du hier nach deinen insgesamt besten Punktzahlen schauen. Die [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) oder die [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme) Browsererweiterung kann die Funktionalität deines Profils erweitern. [BaliBilo's ScoreSaber-Seite](https://scoresaber.balibalo.xyz/peepee) und [Beat Savior](https://www.beatsavior.io/) sind externe Seiten, die dir helfen können, Songs zu finden, die dir beim Verbessern helfen können und dich deine Performance besser verfolgen lassen.
 
-Präzisere Tipps und Tricks findest du Im Kapitel [Useful Tips & Links](#useful-tips-links).
+Präzisere Tipps und Tricks findest du Im Kapitel [Nützliche Tipps & Links](#nutzliche-tipps-links).
 
 ## Modifier
 
@@ -123,7 +125,7 @@ Nun, hier ist eine Liste von allen Modifiern im Spiel und wie sie deine Punktzah
 Ein alternativer Grip kann eine Anpassung der Standartwinkel der Saber sein, eine alternative Methode zum Halten des Controllers, oder auch eine Kombination aus beidem. Bedenke, dass es kein Grip gibt, der für jeden funktioniert und dass dich ein alternativer Grip nicht wie von Zauberhand viel besser machen wird. Er muss nicht besser sein als die Standardeinstellung, wie der Controller gehalten werden soll, oder die Standardwinkel, die Beat Saber benutzt. Allerdings können alternative Grips viele Vorteile mit sich bringen, von der Bequemlichkeit über lange Spielzeiten bis hin zur Optimierung deiner Swings. Du kannst das Gewicht von schlecht ausgeglichenen Vive Wands umverteilen oder den maximal erreichbaren Winkel deiner Handgelenke mit den Touch Controllern erhöhen. Unten sind einige beliebte Grips, die in der kompetitiven Community verwendet werden. Hab keine Angst davor deinen Grip anzupassen oder zu experimentieren um herauszufinden, was am Besten für dich passt!
 
 ### Liste der Grips
-Schaue dich gerne im Bereich [Grips And Tricks](./grips-and-tricks.md) um, falls du dir ein paar Beispiele für oft benutzte Grips anschauen willst.
+Schaue dich gerne im Bereich [Griffe und Tricks](./grips-and-tricks.md) um, falls du dir ein paar Beispiele für oft benutzte Grips anschauen willst.
 
 ## Nützliche Tipps & Links
 

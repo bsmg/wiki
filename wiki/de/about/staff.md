@@ -22,7 +22,9 @@ Erinner ihn daran, auf seinen Blutzucker zu achten.
 **Rollen:** Staff, Modder, 3D Artist, Moderator  
 **Beiträge:** Custom Notes, ModelSaber Admin
 
-Stelle sicher, dass er auf seinen Blutzucker achtet. [Wichtig](https://i.imgur.com/REWmoI9.jpg) | [Twitter](https://twitter.com/vrbobbie) | [YouTube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ) | [Spenden](https://ko-fi.com/bobbievr)
+Stelle sicher, dass er auf seinen Blutzucker achtet. 
+
+[Wichtig](https://i.imgur.com/REWmoI9.jpg) | [Twitter](https://twitter.com/vrbobbie) | [YouTube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ) | [Spenden](https://ko-fi.com/bobbievr)
 
 ## Lillie
 Macht Mods für Quest und mag PP farmem in Ihrer Freizeit.  

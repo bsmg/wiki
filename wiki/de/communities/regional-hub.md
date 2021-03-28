@@ -93,7 +93,7 @@ Offizieller Beat Saber Server für Leute, die "rød grød med fløde" ausspreche
 #### Beat Saber FR
 Private französische Beat Saber Community für französischsprachige Spieler!
 
-[Bewerben](https://docs.google.com/forms/d/1Ro79QYJ83gAsT6m_hpRgCNyhKNZDlEiZJ3oSh5mwTG4)
+[Discord](https://discord.gg/8cAAa7J)
 
 ---
 

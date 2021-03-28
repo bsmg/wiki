@@ -1,6 +1,7 @@
-- - -
-sidebar: auto description: Starte in die richtige Richtung!
-- - -
+---
+sidebar: auto 
+description: Starte in die richtige Richtung!
+---
 
 # Anfänger Guide
 

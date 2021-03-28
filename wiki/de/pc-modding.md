@@ -6,7 +6,8 @@ sidebar: auto
 
 ## Vorwort
 
-::: danger BITTE BEACHTE Wenn du Mods verwendest, verstehst du das:
+::: danger BITTE BEACHTE
+Wenn du Mods verwendest, verstehst du das:
 
 * Du möglicherweise Probleme bekommst, die im normalen Spiel nicht existieren. 99,9% aller Fehler, Abstürzen und Verzögerungen passieren aufgrund von Mods.
 * Mods werden durch Updates oft unbrauchbar und das ist normal - Bitte sei geduldig und respektvoll wenn dies passiert. Modder sind Freiwillige mit einem richtigen Leben.
@@ -17,16 +18,18 @@ Bitte greife die Entwickler im Bezug mit Problemen bei Mods nicht an. Modder und
 
 Beat Saber unterstützt von Grund auf Custom Songs. Wenn du also nur danach suchst, brauchst du nicht mehr Mods! Es ist aber eine kluge Idee, `SongCore` zu installieren. Diese Mod erweitert die Basisspiel-Funktion, um die Ladezeiten zu verbessern und Funktionen für andere Mods wie den In-Game Downloader, Ranglisten, Playlisten, usw. bereitzustellen.
 
-::: warning Dieser Guide ist für PC Modding in Windows.  
+::: warning WARNUNG
+Dieser Guide ist für PC Modding in Windows.  
 Wenn du eine Quest hast, schau bitte auf der [Quest Modding Seite](/de/quest-modding.md).  
 Wenn du auf Linux bist schaue bitte auf die [Linux Seite](/de/modding/linux.md) oder [Qbeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md) 
 :::
 
 Wenn du an irgendeinem Punkt Probleme haben solltest, gehe einfach zur [Support Seite](./support) und schaue nach ob du herausfinden kannst was falsch lief, bevor du im Discord Server nachfragst. Es besteht die Möglichkeit, das die Antwort auf deine Frage dort bereits existiert!
 
-::: warning Ich habe mir ein Tutorial von Elite Eric angeschaut aber komme nicht weiter. Wie kommts? BSMG rät **stark** davon ab, jegliche Beat Saber Tutorials von Elite Eric zu verweden. Nach Überprüfung seiner Videos haben wir festgestellt, dass sie viele unvollständige, fehlerhafte oder geradezu falsche Informationen enthalten. Versuche, auf ihn zuzugehen, um diese Fehler zu korrigieren wurden leider mit schweigen und neuen (immer noch falschen) Tutorials erfüllt.
+::: warning Ich habe mir ein Tutorial von Elite Eric angeschaut aber komme nicht weiter. Wie kommts?
+BSMG rät **stark** davon ab, jegliche Beat Saber Tutorials von Elite Eric zu verweden. Nach Überprüfung seiner Videos haben wir festgestellt, dass sie viele unvollständige, fehlerhafte oder geradezu falsche Informationen enthalten. Versuche, auf ihn zuzugehen, um diese Fehler zu korrigieren wurden leider mit schweigen und neuen (immer noch falschen) Tutorials erfüllt.
 
-Stattdessen solltest du den schriftlichen Anleitungen hier im Wiki folgen oder Hilfe im [BSMG Discord](https://discord.gg/beatsabermods) suchen. 
+Stattdessen solltest du den schriftlichen Anleitungen hier im Wiki folgen oder Hilfe im [BSMG Discord](https://discord.gg/beatsabermods) suchen.
 :::
 
 ## Installationsprogramme
@@ -41,7 +44,8 @@ Ein einfacher Beat Saber Mod Installer, ähnlich dem Mod Manager aber mit zusät
 ![Mod Assistant](~@images/beginners-guide/modassistant.png)
 
 ## Wie bekomme ich mehr Songs
-::: tip Die meisten Maps in den Sortierfiltern "Top All", "Rating", "Downloads" oder "Plays" wurden erstellt, bevor gute Mapping-Praktiken etabliert wurden. Versuche Songs herunterzuladen, die zwischen Ende 2019 und jetzt veröffentlicht wurden, um die beste benutzerdefinierten Levels zu erleben. 
+::: tip TIPP
+Die meisten Maps in den Sortierfiltern "Top All", "Rating", "Downloads" oder "Plays" wurden erstellt, bevor gute Mapping-Praktiken etabliert wurden. Versuche Songs herunterzuladen, die zwischen Ende 2019 und jetzt veröffentlicht wurden, um die beste benutzerdefinierten Levels zu erleben.
 :::
 
 ### InGame Downloader
@@ -91,7 +95,7 @@ Ein Mod-Installer ist die empfohlene Methode, um Mods zu installieren. Siehe den
 ### BSIPA installieren
 
 1. Lade [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases) herunter.
-2. Begib dich zu deinem [Installationsordner.](#Installationsordner) und entpacke den Inhalt des Archivs in diesen Ordner. ![Directory Clean](~@images/beginners-guide/directory-clean.png "Directory Clean") ![Directory Ipa](~@images/beginners-guide/directory-ipa.png "Directory Ipa")
+2. Begib dich zu deinem [Installationsordner.](#installationspfad) und entpacke den Inhalt des Archivs in diesen Ordner. ![Directory Clean](~@images/beginners-guide/directory-clean.png "Directory Clean") ![Directory Ipa](~@images/beginners-guide/directory-ipa.png "Directory Ipa")
 3. Doppelklicke auf IPA.exe um das Spiel zu patchen. Alle Mods im Ordner `Plugins` werden ab sofort geladen, wenn das Spiel gestartet wird. Sollte es Fehler geben, hast du etwas in Schritt 2 nicht richtig gemacht. ![Directory Patched](~@images/beginners-guide/directory-patched.png "Directory Patched")
 
 ### Mods installieren

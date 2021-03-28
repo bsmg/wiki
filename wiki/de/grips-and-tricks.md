@@ -38,7 +38,9 @@ Weitere Informationen findest du im [Ranking & Scoring Guide](./ranking-guide.md
 
 *Dieser Abschnitt ist angelehnt an Tek's Ausführung im Beat Saber Canadian Discord.*
 
-::: tip Songs werden vom Team im [ScoreSaber Discord](https://discord.gg/WpuDMwU) eingestuft. Du kannst diesem Server folgen, um zu sehen, welche Änderungen passieren! :::
+::: tip TIPP
+Songs werden vom Team im [ScoreSaber Discord](https://discord.gg/WpuDMwU) eingestuft. Du kannst diesem Server folgen, um zu sehen, welche Änderungen passieren!
+:::
 
 ## Griffe
 Cube-Community hat einige Videos gemacht, die einige der populäreren Griffe für Oculus Touch Controller (CV1) und Vive Wand zeigen.

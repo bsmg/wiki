@@ -30,7 +30,9 @@ Du solltest die Playlist jetzt neben den Custom Levels im Spiel sehen. Der Mod u
 ### Quest
 Du kannst den [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) verwenden, um die Playlists deiner Quest zu verwalten. Beachte, dass ein Custom Song aufgrund Einschränkungen in BMBF nur einmal im Spiel vorhanden sein kann.
 
-:::warning WARNUNG Für Quest User Das Neuladen des Ordners für Custom Songs setzt alle Einstellungen für Playlists zurück. :::
+:::warning WARNUNG
+Für Quest User Das Neuladen des Ordners für Custom Songs setzt alle Einstellungen für Playlists zurück.
+:::
 
 ## Wie erstelle ich eigene Custom Level?
 Siehe [Mapping](/de/mapping/)!
