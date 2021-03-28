@@ -1,205 +1,236 @@
 ---
 sidebar: auto
 ---
+
 # Support
+
 ## Table des matières
-0. [Importantes notes](#0-mises-a-jour)
-1. [Problèmes d'installateur](#1-pas-de-mods)
-2. [Problèmes en jeu](#2-problemes-en-jeu-apres-modding)
+
+0. [Mises à jour](#0-mises-a-jour)
+1. [Pas de mods ?](#1-pas-de-mods)
+2. [Problèmes en jeu après modding](#2-problemes-en-jeu-apres-modding)
 3. [Questions fréquentes](#3-questions-frequentes)
 4. [Dépannage divers](#4-depannage-divers)
 5. [J'ai encore des problèmes](#5-j-ai-encore-des-problemes)
 
 ## 0. Mises à jour
-Après une mise à jour, le canal Discord BSMG `#server-annoucements` devrait avoir les dernières instructions à jour sur le statut des mods. Ce qui suit permet 
-After an update, the BSMG discord `#server-announcements` channel should have the most up to date instructions on the status of mods. The following are more detailed instructions of the most common procedure.
+Après une mise à jour, le salon `#modding-announcements` du Discord BSMG devrait avoir les instructions les plus récentes sur le statut des mods. Ce qui suit sont des instructions plus détaillées sur la procédure la plus courante.
 
-#### La mise à jour a cassé mes mods
-**Lancez le jeu une fois** après la nouvelle mise à jour. Puis, réinstallez les mods en utilisant un installateur mentionné dans le [guide du Débutant](/fr/beginners-guide), de préférence Mod Assistant.
+### La mise à jour a cassé mes mods
+**Lancez le jeu une fois** après la nouvelle mise à jour. Puis, réinstallez les mods en utilisant un installateur mentionné dans le [guide du Débutant](/fr/beginners-guide), tel que Mod Assistant.
 
 ## 1. Pas de mods ?
 
+### Questions diverses
+
 #### 1.1 Aucun mod n'apparaît sur une nouvelle installation du jeu
 Premièrement, assurez-vous que ce qui suit est correct :
-* **Vous avez lancez le jeu une première fois avant d'installer les mods**. BSIPA supprime tous les mods quand il est lancé pour la première fois sur une nouvelle installation pour éviter que les anciens mods cassés chargent avec la nouvelle version. Réinstallez encore les mods si c'est le cas.
-* Steam / Oculus lance Beat Saber depuis la **même installation** où les mods sont placés. *i.e les mods sont sur le disque D: mais Steam lance le jeu depuis le disque C:.* Indiquez le bon emplacement d'installation dans votre installateur favori.
+
+* **Vous avez lancé le jeu une première fois avant d'installer les mods**. BSIPA supprime tous les mods quand il est lancé pour la première fois sur une nouvelle installation pour éviter que les anciens mods cassés chargent avec la nouvelle version. Réinstallez encore les mods si c'est le cas.
+* Steam / Oculus lance Beat Saber depuis la **même installation** où les mods sont placés. *exemple: les mods sont sur le disque D: mais Steam lance le jeu depuis le disque C:.* Indiquez le bon emplacement d'installation dans votre installateur favori.
 * Si vous avez installé des mods à la main, assurez-vous que vous avez inclus tous les fichiers du téléchargement et les avez placés dans les dossiers appropriés, ainsi que leurs dépendances.
 
 #### 1.2 J'avais des mods installés sur une ancienne version, mais rien ne charge après la mise à jour
-
 Si les pré-requis détaillés dans la section 1.1 sont valides, essayez les solutions ci-dessous, en ordre descendant.
 
-**Solution 1**
-- Mettez à jour BSIPA à la dernière version (dans ModAssistant ou manuellement)
-- Allez dans votre dossier d'installation de Beat Saber
-- Lancez `IPA.exe`
+##### Solution 1
 
-**Solution 2.**
-- [Vérifiez vos fichiers du jeu](#verifier-les-fichiers-du-jeu-sur-steam) (Steam seulement, référez-vous à la solution 4 si vous utilisez Oculus)
-- Mettez à jour BSIPA à la dernière version
-- Allez dans votre dossier d'installation de Beat Saber
-- Lancez `IPA.exe`
+* Mettez à jour BSIPA à la dernière version (dans Mod Assistant ou manuellement)
+* Allez dans votre dossier d'installation de Beat Saber
+* Lancez `IPA.exe`
 
-**Solution 3.**
-- Allez dans votre dossier Beat Saber
-- Faites un backup du dossier `UserData` (optional)
-- Supprimer le dossier `UserData`
+##### Solution 2 (Steam uniquement)
 
-::: warning ATTENTION
-Cela va réinitialiser vos paramètres d'extensions !
-:::
+* [Vérifiez les fichiers du jeu](#verifier-les-fichiers-du-jeu-sur-steam)
+* Mettez à jour BSIPA à la dernière version
+* Allez dans votre dossier d'installation de Beat Saber
+* Lancez `IPA.exe`
 
-**Solution 4.**
-- Réalisez une [réinstallation complète](#installation-propre)
+##### Solution 3
 
-#### 1.3 Mod Assistant ne semble pas installer d'extension
-Les installateurs téléchargent les mods dans `Beat Saber/IPA/Pending`, BSIPA déplace ces fichiers à la racine du dossier quand vous lancez le jeu. Si votre dossier `Plugins` est toujours vide après, lancez `IPA.exe` une nouvelle fois pour vous assurer que rien ne l'empêche de s'exécuter, par exemple un antivirus, des permissions d'administrateur, etc.
+* Allez dans votre dossier Beat Saber
+* Faites une sauvegarde du dossier `UserData` (facultatif)
+* Supprimez le dossier `UserData`
+
+::: warning ATTENTION Ceci va réinitialiser les paramètres de vos mods ! :::
+
+##### Solution 4
+
+* Réalisez une [réinstallation propre](#installation-propre)
+
+#### 1.2 Mod Assistant ne semble pas installer les mods
+Les installateurs téléchargent les mods dans `Beat Saber/IPA/Pending`, BSIPA déplace ces fichiers à la racine du dossier quand vous lancez le jeu. Si votre dossier `Plugins` est toujours vide, lancez `IPA.exe` une nouvelle fois pour vous assurer que rien ne l'empêche de s'exécuter, par exemple un antivirus, des permissions d'administrateur, etc.
 
 ## 2. Problèmes en jeu après modding
+
 ### Le jeu ne se lance pas
 
 #### 2.1 Erreur GetThreadContext Failed
-Si une fenêtre s'affiche disant `GetThreadContext Failed` et / ou vous entendez un son d'erreur de Windows, il se peut que vous ayez un logiciel sur votre PC qui casse les mods Beat Saber. De nombreux logiciel d'anti-cheat tiers comme ESEA et FaceIt rendent BSIPA inopérant pour appliquer les mods à Beat Saber, même lorsqu'ils ne sont pas lancés. Certains logiciels d'antivirus semblent agir de manière similaire.
+Si une fenêtre s'affiche disant `GetThreadContext Failed` et / ou vous entendez un son d'erreur de Windows, il se peut que vous ayez un logiciel sur votre PC qui casse les mods Beat Saber. De nombreux logiciel d'anti-triche tiers comme ESEA et FaceIt rendent BSIPA inopérant pour appliquer les mods à Beat Saber, même lorsqu'ils ne sont pas lancés. Certains logiciels d'antivirus semblent agir de manière similaire.
 
 Pour résoudre ce problème :
+
 1. Désinstallez le logiciel d'anti-cheat.
 2. Redémarrez votre PC.
-3. Vérifiez s'il reste des pièces du logiciel dans vos dossiers dans `AppData`.
-4. Lancez le jeu.
-Si le problème persiste, vous pouvez tenter ce qui suit :
-`Note supplémentaire : Le problème peut persister pour cause de manque de permissions ou d'exceptions, tout programme qui peut bloquer BSIPA, ou les programmes marqués comme suspects peuvent mener à ce problème.`
-Steam : [Vérifiez les fichiers du jeu](#verifier-les-fichiers-du-jeu-sur-steam)
-Oculus : Réalisez une [réinstallation complète](#installation-propre)
+3. Vérifiez s'il reste des morceaux du logiciel dans vos dossiers dans `AppData`.
+4. Lancez le jeu. Si le problème persiste, vous pouvez tenter ce qui suit : `Note supplémentaire : Le problème peut persister pour cause de manque de permissions ou d'exceptions, tout programme qui peut bloquer BSIPA, ou les programmes marqués comme suspects peuvent mener à ce problème.` Steam : [Vérifiez les fichiers du jeu](#verifier-les-fichiers-du-jeu-sur-steam) Oculus : Réalisez une [réinstallation propre](#installation-propre)
 
 Ceci devrait réparer le problème.
 
 #### 2.2 Gel du jeu au démarrage
-Si le jeu est gelé sur l'écran *Health and Safety*, ou vous voyez un avatar en T-pose sans contrôle sur le jeu, [vérifiez vos fichiers](#verifier-les-fichiers-du-jeu-sur-steam) si vous avez le jeu sur Steam, ou réinstallez le jeu sur Oculus. Référez vous à la [réinstallation complète](#installation-propre).
-Cela semble survenir quand Beat Saber est mis à jour et que des mods ont été installés précédemment, mais pas aux utilisateurs avec une installation propre du jeu.
+Si le jeu est gelé sur l'écran *Health and Safety*, ou vous voyez un avatar en T-pose sans contrôle sur le jeu, [vérifiez vos fichiers](#verifier-les-fichiers-du-jeu-sur-steam) si vous avez le jeu sur Steam, ou réinstallez le jeu sur Oculus. Référez-vous à la section sur la [réinstallation propre](#installation-propre).
 
-### Problèmes de FPS
+Il semble que cela se produit lors en mettant à jour Beat Saber avec des mods précédemment installés, mais pas aux utilisateurs avec des installations propres du jeu.
+
+### Problèmes de performance
+
 #### 2.3 Le jeu ralentit beaucoup après avoir installé les mods
-Si le jeu est si ralenti (*lag*) que vous pouvez à peine cliquer sur le bouton `Continue` sur l'écran *Health and Safety*, vérifiez vos fichiers si vous avez le jeu sur Steam, ou réinstallez le jeu sur Oculus.
-Faites de même s'il ne démarre pas du tout et vous affiche des messages d'erreur quand vous essayez de lancer le jeu.
+Si le jeu est si ralenti (*lag*) que vous pouvez à peine cliquer sur le bouton `Continue` sur l'écran *Health & Safety*, vérifiez vos fichiers si vous avez le jeu sur Steam, ou réinstallez le jeu sur Oculus. Faites de même s'il ne démarre pas du tout et vous affiche des messages d'erreur quand vous essayez de lancer le jeu.
 
 Si le problème n'a pas été résolu, essayez la section 2.4.
 
 #### 2.4 Améliorer la fréquence d'images (FPS)
-Si la section 2.3 n'a pas amélioré la fréquence d'images, alors votre PC peut simplement avoir du mal à tenir la charge des mods. Voici quelques propositions que vous pouvez tenter pour améliorer votre fréquence d'affichage, sans ordre particulier :
+Si la [section 2.3](#2-3-le-jeu-ralentit-beaucoup-apres-avoir-installe-les-mods) n'a pas amélioré les performances, alors votre PC peut tout simplement ne pas être assez performant pour tenir le coup avec les mods. Voici quelques propositions que vous pouvez tenter pour améliorer les performances, sans ordre particulier :
 
-**NVIDIA GEFORCE EXPERIENCE OPTIMISE DÉSORMAIS BEAT SABER, IL PARAMÈTRE LE RENDU À L'ÉCHELLE (SCALE RENDERING) DU JEU AU-DELÀ DE 1.0 (PAR DÉFAUT), GÉNÉRALEMENT À 1.4 OU 1.8. ÇA A ÉTÉ LA RAISON PRINCIPALE DES LAGS CES DERNIERS TEMPS.**
-
+* Vérifiez si NVIDIA GeForce Experience a défini l'échelle de rendu pour Beat Saber au delà de la valeur par défaut de 1.0. Il est possible qu'il aie défini une valeur plus élevée telle que 1.4 ou 1.8, qui augmente considérablement la charge GPU.
 * Utilisez un avatar personnalisé moins complexe.
-* Le sabre personnalisé **Plasma Katanas** a des tas d'évènements personnalisés et est connu pour créer du lag si vous l'avez loupé.
-* CameraPlus peut être très gourmand, en particulier si vous avez de nombreuses caméras et un champ de vision (FOV) augmenté.
-* Désactivez le rendu à l'échelle (Render Scale), l'anti-aliasing, le miroir (Mirror), le brouillard (Fog) dans les paramètres du jeu de base.
-* Pour les joueurs sur Oculus Rift : essayez de n'utiliser que 2 capteurs plutôt que 3 ou plus.
-* Réduisez votre nombre de mods et de musiques. 
-* Réalisez une [réinstallation complète](#installation-propre) des fichiers du jeu.
-* Une fréquence d'images basse peut aussi être causée par quelque chose qui ne va pas dans le dossier des données d'application, pour y remédier référez vous à [comment supprimer le dossier Beatsaber dans votre AppData](#supprimer-les-sauvegardes-dans-appdata).
-* Les compteurs de CounterPlus comme ScoreCounter et SwingSpeed peuvent être gourmands en ressources. [Rendez-vous sur cette page du wiki sur la performance de Counters+](https://github.com/Caeden117/CountersPlus/wiki/Performance-and-Optimization) (en anglais).
-* Le mod HTTPStatus peut causer des pics de ralentissement (*lag spikes*). Testez le jeu sans ce mod pour voir si les pics de ralentissement disparaissent.
+* Les sabres personnalisés **Plasma Katanas** ont de nombreux évènements personnalisés et sont connus pour créer du lag en cas de note ratée.
+* Camera2/CameraPlus peuvent être très gourmands en ressources, en particulier si vous avez plusieurs caméras et agrandissez le champ de vision (ou FOV).
+* Baissez l'échelle de rendu (Render Scale), l'anticrénelage (Anti-Aliasing), le miroir (Mirror), le brouillard (Smoke) dans les paramètres de base du jeu.
+* Pour les joueurs Oculus Rift CV1 : pensez à utiliser 2 capteurs au lieu de 3 ou plus.
+* Réduisez votre nombre de mods et de chansons.
+* Réalisez une [réinstallation propre](#installation-propre) du jeu.
+* De faibles performances peuvent aussi être causées par quelque chose qui ne va pas dans le dossier des données d'application, pour y remédier référez vous à [comment supprimer le dossier BeatSaber dans votre AppData](#supprimer-les-sauvegardes-dans-appdata).
+* Désactivez des compteurs Counters+ tels que Score Counter et Swing Speed, car ils peuvent être gourmands en ressources.
+* HTTPStatus/DataPuller peuvent créer des saccades. Testez le jeu sans ce mod pour voir si les pics de ralentissement disparaissent.
 
-La réalité virtuelle est très consommatrice des ressources du processeur (CPU), surtout si vous y ajoutez des mods. Si vous vous battez pour lancerle jeu avec les mods que vous voulez, essayez de mettre à niveau votre matériel.
-Notez que Beat Saber n'utilise que très peu les ressources de la carte graphique (GPU), puisqu'il s'agit visuellement d'un jeu plutôt simple.
+La réalité virtuelle est très gourmande en processeur (CPU), surtout si vous ajoutez des mods. Si vous avez du mal à faire fonctionner le jeu avec les mods que vous voulez utiliser, pensez à améliorer votre matériel. Notez que Beat Saber n'utilise que peu de ressources graphiques (GPU) puisqu'il s'agit d'un jeu aux graphismes particulièrement simples.
 
 ## 3. Questions fréquentes
+
+### Divers
+
 #### 3.1 Menu vide, pas de bouton
-Si la fenêtre principale de votre est vide, vore fichier de sauvegarde est probablement corrompu.
-Pour pallier ce problème, référez-vous à [comment supprimer le dossier Beatsaber dans votre AppData](#supprimer-les-sauvegardes-dans-appdata).
+Si le menu principal de votre jeu est vide, votre fichier de sauvegarde est probablement corrompu. Pour résoudre ce problème, référez-vous à [comment supprimer le dossier Beatsaber dans votre AppData](#supprimer-les-sauvegardes-dans-appdata).
 
-::: warning ATTENTION
-Cela va supprimer vos scores locaux et vos statistiques.
-:::
+:::warning ATTENTION Cela va supprimer tous vos scores locaux ainsi que vos statistiques de jeu. :::
 
-#### 3.2 Comment utiliser `x` mod ?
-Si vous utilisez Mod Assistant, cliquez sur le mod puis sur le bouton "Mod Info". https://beatmods.com a également un bouton "More Info" pour chaque mod.
+#### 3.2 Comment utiliser le mod `x` ?
+Si vous utilisez Mod Assistant, cliquez sur le mod puis sur le bouton "Mod Info". [BeatMods](http://beatmods.com) a également un bouton "More Info" sur chaque mod.
 
 #### 3.3 Problèmes de vibration
-Le mod Gameplay Modifiers Plus ajoute le moyen d'activer / désactiver les vibrations des contrôleurs. Si vous l'avez désactivé puis que vous avez supprimé le od, vous devrez modifier le fichier de configuration manuellement. Ouvrez `%appdata%/../locallow/hyperbolic magnetism/beat saber` et placez le paramètre `controllerRumbleEnabled` à `true`.
+Le mod Gameplay Modifiers Plus avait une option permettant d'activer ou désactiver les vibrations des contrôleurs. Si vous l'aviez désactivé puis que vous avez supprimé le mod, vous devez modifier le fichier de sauvegarde manuellement. Ouvrez `%appdata%\..\LocalLow\Hyperbolic Magnetism\Beat Saber\settings.cfg` et définissez le paramètre `controllersRumbleEnabled` à `true`.
 
-Si ce n'est pas la cause de vos problèmes de vibration et si ce qui suit est bon concernant les tremblements :
+Si ceci n'est pas la cause de vos problèmes de vibration et si ce qui suit est correct concernant les vibrations :
+
 * les tremblements sont faibles
 * il n'y a pas de vibration quand vous tapez un ensemble de blocs
 * il y a un léger délai quand vous faites rencontrer les sabres
 * vous utilisez les contrôleurs Oculus Touch
 
-Dans ce cas il y a de bonnes chances que Beat Saber surcharge le contrôleur USB de votre carte mère. Oculus dévore la capacité des contrôleurs USB et la plupart des cartes mères sont fournies avec un contrôleur bon marché. Beat Saber pousse le bouchon plus loin que les autres jeux, ce qui explique pourquoi c'est OK avec d'autres jeux et dans les menus. Même s'il n'y a pas de solution miracle, essayez les propositions suivantes :
-* Changez les câbles USB du casque et des capteurs sur différents ports
-* Débranchez les appareils USB non nécessaires
+Dans ce cas, il y a des chances que Beat Saber surcharge le contrôleur USB de votre carte mère. Oculus dévore la bande passante des contrôleurs USB et la plupart des cartes mères sont fournies avec un contrôleur bon marché. Beat Saber le pousse plus loin que les autres jeux, ce qui explique pourquoi il y a pas de problème dans les menus ainsi que d'autres jeux. Il n'y a pas de solution miracle, donc essayez les propositions suivantes :
+
+* Essayez de connecter le casque et les capteurs sur d'autres ports USB
+* Débranchez les appareils USB non essentiels
 * Achetez un hub USB PCI-E
-* Utilisez `-vrmode oculus` si vous utilisez SteamVR pour éviter son utilisation et utiliser le SDK Oculus directement à la place
+* Utilisez `-vrmode oculus` si vous utilisez SteamVR pour le contourner et utiliser le SDK Oculus directement
 
 ### Avatars personnalisés
+
 #### 3.4 Les avatars personnalisés ne s'affichent pas en jeu
-Appuyez sur le bouton **Home** de votre clavier avec la fenêtre du jeu en premier-plan pour activer la visibilité dans le casque.
+Appuyez sur le bouton **Origine** de votre clavier avec la fenêtre du jeu en premier-plan pour activer la visibilité dans le casque.
 
 #### 3.5 Mes avatars sont cassés
-Assurez-vous que l'extension Custom Avatar est correctement installée et mise à jour, et idem pour les dépendances.
-Vous avez peut-être corrompu / cassé un avatar, avoir un avatar inutilisable peut rendre les autres inutilisables de la même manière que les musiques et les sabres.
-Référez-vous à [comment trouver les contenus cassés](#4-2-finding-broken-content) si vous pensez avoir des avatars corrompus ou si vous avez vérifié que vos mods et dépendances sont mises à jour mais les avatars ne fonctionnent toujours pas.
+Assurez-vous que le mod Custom Avatars est correctement installé est à jour, idem pour ses dépendances. Vous avez peut-être corrompu / cassé un avatar, avoir un avatar inutilisable peut rendre les autres inutilisables de la même manière que les chansons et les sabres.
 
 ### Musiques personnalisées
 
-#### 3.6 Mes musiques ne s'affichent pas
-Assurez-vous que vos musiques sont dans votre dossier `CustomLevels`, positionné dans `Beat Saber/ Beat Saber_Data/`. C'est ici que le jeu lit nativment les musiques personnalisées.
+#### 3.6 Mes chansons ne s'affichent pas
+Assurez-vous que vos chansons sont dans votre dossier `CustomLevels`, situé dans `Beat Saber/Beat Saber_Data/`. C'est ici que le jeu lit nativement les chansons personnalisées.
 
-**Ne placez pas** les musiques dans l'ancien dossier `Beat Saber/CustomSongs`. Cet emplacement est déprécié car le format des les musiques personnalisées a changé. Si vous avez des maps dans l'ancien format (fichiers `.json` et `.ogg` au lieu de `.dat` et `.egg`), convertissez-les d'abord en utilisant [Songe Converter](https://github.com/lolPants/songe-converter).
+**Ne placez pas** les chansons dans l'ancien dossier `Beat Saber/CustomSongs`. Cet emplacement est déprécié car le format des les chansons personnalisées a changé. Si vous avez des chansons dans l'ancien format (fichiers `.json` et `.ogg` au lieu de `.dat` et `.egg`), laissez-les dans l'ancien dossier `Beat Saber/CustomSongs`. Vous devrez les retélécharger depuis BeatSaver.
 
-#### 3.6 Bouton Play rouge
-Cliquez sur le point d'interrogation (?) rouge dans le coin en haut à droite. Cela devrait vous afficher quels mods sont nécessaires pour jouer la musique, et qui manquent.
-Essayez de réinstaller l'extension une nouvelle fois, si ça ne fonctionne pas [réinstallez le jeu](#installation-propre).
+Alternativement, vous pouvez manuellement les convertir en utilisant [Song Converter](https://github.com/lolPants/songe-converter), mais vous n'obtiendrez aucune aide en suivant cette méthode, et vous devrez compiler le programme vous-même.
 
-#### 3.7 Les caractéristiques de la map chargent indéfiniment
-Si cela n'apparaît que sur des maps en particuliers, les fichiers de la musique sont sûrement cassés. Si cela arrive pour toutes vos maps, supprimez votre dossier `Plugins` et réinstallez les extensions.
+#### 3.7 Bouton Play/Jouer grisé
+Cliquez sur le point d'interrogation (?) bleu dans le coin en haut à droite. Cela devrait vous indiquer quels mods sont nécessaires pour jouer la chanson, ceux que vous n'avez pas et que vous devrez installer. Si cela ne fonctionne toujours pas, essayez de réinstaller les mods nécessaires. Sinon, essayez une [réinstallation propre](#installation-propre).
 
-### Camera Plus
-#### 3.8 Camera Plus ne fonctionne pas
-Assurez-vous que le paramètre pour "*Smooth Camera*" est désactivé dans les paramètres de votre jeu de base.
-Si cela ne fonctionne pas, vérifiez que vous avez le mod correctement installé, essayez de le réinstaller ainsi que toutes ses dépendances.
+#### 3.8 Les détails de la map chargent indéfiniment
+Si cela ne se produit que sur certaines maps, vous n'avez peut-être pas les mods nécessaires, ou cette map peut être corrompue. Si cela se produit sur toutes vos maps, supprimez votre dossier `Plugins` et réinstallez vos mods.
 
-#### 3.9 Ma vue sur le PC ne prend qu'une petite portion de l'écran
-Votre affichage CameraPlus ne remplit pas votre écran. Tirez les coins de la fenêtre pour l'agrandir, ou bien faites un clic droit sur la fenêtre et cliquer sur "*Fit to Canvas*".
+### CameraPlus
+:::warning NOTE Ce mod n'est plus maintenant et a été remplacé par [Camera2](https://github.com/kinsi55/CS_BeatSaber_Camera2#camera2). :::
+
+#### 3.9 Camera Plus ne fonctionne pas / après l'écran Santé
+Assurez-vous que l'option "Smooth Camera" (Caméra lisse) du jeu de base est désactivée. Si cela ne fonctionne pas, essayez de réinstaller CameraPlus et ses dépendances.
+
+#### 3.10 Ma vue sur le PC ne prend qu'une petite portion de l'écran
+Votre affichage CameraPlus ne remplit pas votre écran. Tirez les coins de la fenêtre pour l'agrandir, ou cliquez droit sur la fenêtre et sélectionnez "Fit To Canvas" (Agrandir à l'écran).
 
 ### BeatSaver Downloader
-#### 3.10 Le bouton *More Songs* de BeatSaver Downloader
-**Le bouton *More Songs* est positionné dans le bouton Mods dans le menu principal**. Si le bouton *More Songs* est grisé, vérifiez que toutes vos musiques sont chargées préalablement, comme présenté dans la barre au-dessus du menu principal.
-Si votre bouton Mods n'y est pas, assurez-vous que vos extensions et dépendances fonctionnent et sont correctement installées, référez-vous à la section 1.1.
 
-#### 3.11 Rien n'apparaît dans le menu *More Songs*
-Les potentielles causes d'échec de BeatSaver Downloader sont :
-1. Assurez-vous que toutes vos musiques ont chargé préalabement, autrement le bouton *More Songs* sera grisé.
+#### 3.11 Le bouton More Songs de BeatSaver Downloader
+**Le bouton More Songs est placé dans le menu principal à gauche sous le texte Mods.** Si ce bouton est grisé, vérifiez que toutes vos chansons sont chargées à l'aide de la barre de progression arc-en-ciel visible sur le menu principal. Si votre bouton Mods n'est pas là, assurez-vous que vos extensions et dépendances fonctionnent et sont correctement installées, référez-vous à la section [Pas de mods ?](#1-pas-de-mods).
+
+#### 3.12 Rien n'apparaît dans le menu More Songs
+Les potentielles causes d'erreur de BeatSaver Downloader sont :
+
+1. Assurez-vous que toutes vos chansons sont chargées, autrement le bouton *More Songs* sera grisé.
 2. Votre antivirus ou pare-feu bloque l'accès à BeatSaver.
+3. Vous avez atteint le taux limite de BeatSaver et devrez attendre avant de réessayer.
+
+### Codes d'erreur multijoueur
+Voici une liste des codes d'erreurs connus, ce qu'ils représentent, et ce que vous pouvez faire pour résoudre le problème correspondant.
+
+<!-- Disable line length rule because of table -->
+<!-- markdownlint-disable MD013 -->
+| Code&nbsp; | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|:---------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CFR-1      | Une erreur inconnue s'est produite. Essayez de redémarrer le jeu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| CFR-2      | La connexion au multijoueur a été annulée.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| CFR-3      | Serveur indisponible. Il peut y avoir un problème avec votre connexion internet ou avec les serveurs relais de Beat Saber. Vérifiez que vous n'êtes pas hors ligne et que votre pare-feu permet à Beat Saber de se connecter à internet. <details><summary>**Informations supplémentaires**</summary>Le multijoueur de Beat Saber fonctionne en pair à pair : vous vous connectez donc directement à chaque joueur dans le salon multijoueur. Lorsque cela n'est pas possible, Beat Saber ouvre un serveur "relais" auquel envoyer les données. Cette erreur signifie que ces deux méthodes ont échoué.</details> |
+| CFR-4      | Le serveur existe déjà.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| CFR-5      | Le serveur n’existe pas. Il est possible que le salon multijoueur auquel vous essayiez de vous connecter a été fermé pendant que vous vous connectiez.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| CFR-6      | Le serveur est plein. Choisissez un salon multijoueur différent.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| CFR-7      | Vous êtes sur une version du jeu qui n'est pas compatible avec les serveurs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| CFR-8      | Le mot de passe du salon multijoueur est incorrect. Vérifiez que vous entrez le bon mot de passe.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| CFR-9      | Les serveurs de matchmaking de Beat Games, qui permettent de gérer les salons multijoueur publics et privés, sont hors ligne. Réessayez plus tard.                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| CFR-10     | Votre clé de session Steam ou Oculus est invalide. Si vous jouez sur Quest et avez moddé votre jeu, allez voir [ici](/fr/faq/README.md#est-ce-que-le-multijoueur-est-multiplateforme) pour contourner le problème. Sinon, vous êtes sur une version piratée du jeu, qui n'est pas prise en charge.                                                                                                                                                                                                                                                                                      |
+| CFR-11     | Vous ne semblez pas être connecté à internet.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+<!-- markdownlint-enable MD013 -->
 
 ## 4. Dépannage divers
+
 ### Comprendre les logs
 Si vous êtes sur Steam vous pouvez vous rendre dans :
->Beat Saber > Propriétés... > Définir les options de lancement... > Écrivez `--verbose` dans le champ de texte qui apparaît.
+> Beat Saber > Propriétés... > Définir les options de lancement... > Écrivez `--verbose` dans le champ de texte qui apparaît.
 
-Si vous êtes sur Oculus, faites un clic droit sur Beat Saber.exe et créez un raccourci. Éditez la Cible du raccourci en ajoutant "--verbose" à la fin de celle-ci.
-Par exemple `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" --verbose`
+Si vous êtes sur Oculus, faites un clic droit sur Beat Saber.exe et créez un raccourci. Modifiez la Cible pour ajouter `--verbose` à la fin, par exemple : `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" --verbose`
 
-Après avoir ajouter la verbosité à votre jeu, cela devrait afficher toute erreur liée à vos avatars, sabres et musiques.
+Après avoir effectué cette opération, le jeu devrait afficher toute erreur liée à vos avatars, sabres et chansons.
+
 * Cela peut ne pas s'afficher 100 % du temps pour les avatars et les sabres, et vous aurez peut-être à supprimer tous vos avatars / sabres et les essayer un à un pour voir lequel casse votre jeu.
 
 Ces messages sont également écrits dans `Beat Saber/Logs`.
 
-Une liste des erreurs les plus fréquentes peut être trouvée [ici](https://bsmg.wiki/support/exceptions) (en anglais).
+Une liste des erreurs les plus fréquentes peut être trouvée [ici](./exceptions.md).
 
 ### Vérifier les fichiers du jeu sur Steam
+Pour vérifier l'intégrité des fichiers du jeu, suivez ces étapes :
 
-Pour vérifier les fichiers de votre jeu sur Steam, suivez ces étapes :
 1. Assurez-vous que SteamVR est fermé, il ne vous laissera pas vérifier vos fichiers autrement.
 2. Allez dans votre bibliothèque Steam et trouvez Beat Saber.
 3. Faites un clic droit sur Beat Saber et cliquez sur Propriétés...
 4. Allez dans l'onglet "Fichiers locaux" de la fenêtre des propriétés
-5. Sélectionnez la dernière option "Vérifier l'intégrité des fichiers du jeu..."
+5. Sélectionnez l'option "Vérifier l'intégrité des fichiers du jeu..."
 6. Laissez le finir la vérification et télécharger les fichiers manquants et ça devrait être bon.
 
-<YouTube url='https://www.youtube.com/watch?v=EBFfT4-ZiIc' />
+Voici [un court guide vidéo (texte en anglais)](https://www.youtube.com/watch?v=EBFfT4-ZiIc) - bien que ça soit l'ancienne interface de Steam, les étapes restent identiques.
 
 ### Installation propre
-1. (Facultatif) Faites un backup du contenu personnalisé téléchargé en créant une copie des dossiers suivants :
+
+1. (Facultatif) Faites une sauvegarde du contenu personnalisé téléchargé en créant une copie des dossiers suivants :
+
 * `Beat Saber\Beat Saber_Data\CustomLevels`
 * `Beat Saber\CustomSabers`
 * `Beat Saber\CustomPlatforms`
@@ -207,51 +238,46 @@ Pour vérifier les fichiers de votre jeu sur Steam, suivez ces étapes :
 * `Beat Saber\CustomAvatars`
 
 2. **Supprimez la TOTALITÉ du dossier Beat Saber.** À la différence de la désinstallation du jeu, cette méthode supprime tout le contenu et pas uniquement les fichiers du jeu.
->Steam: 	`\steamapps\common\Beat Saber\`
->Oculus: 	`\hyperbolic-magnetism-beat-saber\`
+
+> Steam: ``\steamapps\common\Beat Saber\`
+  Oculus:``\hyperbolic-magnetism-beat-saber\`
 
 3. Réinstallez le jeu via Steam ou l'Oculus Store.
-4. **Avant de le modder, lancez le jeu une fois** 
+4. **Avant de le modder, lancez le jeu une fois**
 5. Lancez Mod Assistant, installez vos mods et lancez le jeu.
 
-(Facultatif) Si vous souhaitez approfondir la réinstallation, référez-vous à la [section suivante](#supprimer-les-sauvegardes-dans-appdata).
+(Facultatif) Si vous voulez aller plus loin dans la démarche, référez-vous à : [Supprimer le dossier BeatSaber dans AppData](#supprimer-les-sauvegardes-dans-appdata)
 
 ### Supprimer les sauvegardes dans AppData
-Cela va supprimer vos scores et données locales, mais pas vos statistiques de classement personnalisé de ScoreSaber. Vous pouvez trouver le dossier à l'emplacement suivant :
->`%appdata%/../locallow/hyperbolic magnetism/beat saber`
+Cela va supprimer vos scores et données locales, mais pas vos statistiques ni vos classements sur ScoreSaber. Vous pouvez trouver le dossier à l'emplacement suivant :
+> `%appdata%/../locallow/hyperbolic magnetism/beat saber`
 
 Dans votre explorateur de fichiers, copiez et collez le chemin ci-dessus dans la barre de navigation en haut et supprimez le dossier.
 
 Vous pouvez aussi vous rendre dans ce dossier en affichant les éléments masqués et en naviguant vers :
->Utilisateurs > "VOTRE UTILISATEUR" > AppData > Local Low > Hyperbolic-magnetism
+> Utilisateurs > "VOTRE UTILISATEUR" > AppData > LocalLow > Hyperbolic Magnetism
 
 <YouTube url='https://youtu.be/ONxJcD3Ir3Q' />
 
-::: warning ATTENTION
-Supprimer le dossier des données locales supprimera aussi vos scores locaux et statistiques de jeu.
-:::
+::: warning Supprimer le dossier des données locales supprimera aussi vos scores locaux et statistiques de jeu. :::
 
 #### Mesures désespérées
-::: warning ATTENTION
-Désactiver votre antivirus comporte des risques de sécurité, soyez sûr de ce que vous faites (c'est-à-dire ne téléchargez pas et n'ouvrez pas de fichier suspect tant qu'il est désactivé) et n'oubliez pas de le réactiver dès que vous en avez terminé.
-:::
+::: warning ATTENTION Désactiver votre antivirus comporte des risques de sécurité, soyez sûr de ce que vous faites (c'est-à-dire ne téléchargez pas et n'ouvrez pas de fichier suspect tant qu'il est désactivé) et n'oubliez pas de le réactiver dès que vous en avez terminé. :::
+
 * Assurez-vous que l'utilisateur courant **est un administrateur**
 * Désactivez votre antivirus (le temps d'un test), testez votre jeu, réactivez le
-* Assurez-vous que vous avez la permission de créer des dossiers et éditer des fichiers sur votre disque / votre PC (nous avons eu des problèmes récemment causés par des mises à jour Windows)
+* Assurez-vous que vous avez la permission de créer des dossiers et d'éditer des fichiers sur votre disque / votre PC (nous avons eu des problèmes récemment causés par des mises à jour Windows)
 * Assurez-vous que vos pilotes sont à jour.
 * Vérifiez que le problème n'est pas lié à votre casque, ou votre système d'exploitation, ou votre matériel / vos logiciels
 * Vérifiez votre connexion Internet, et que rien ne bloque ce qui est lié au Modding de Beat Saber, à Steam, etc.
 
 ## 5. J'ai encore des problèmes
-Si cette page ne couvre les bases, n'hésitez pas à poser une question sur le Discord ! Pour augmenter vos chances d'avoir votre réponse, n'oubliez pas :
-* Utilisez les bons canaux de discussion, `#pc-help` pour le support des mods sur PC et `#quest-help` pour le support des mods sur Quest. Utilisez `#pc-modeling` et `#quest-asset-dev` pour les questions sur **comment créer ses propres avatars, plateformes, notes ou sabres**, et `#mapping-discussion` pour les questions sur **la création de maps.**
+Si cette page ne couvre pas les bases, n'hésitez pas à poser une question sur le Discord ! Pour augmenter vos chances d'avoir votre réponse, n'oubliez pas ceci :
+
+* Utilisez les bons salons de discussion, `#pc-help` pour le support des mods sur PC et `#quest-help` pour le support des mods sur Quest. Posez vos questions sur `#pc-3d-modeling` et `#quest-3d-modeling` pour de l'aide sur la **création d'avatars, plateformes, notes ou sabres**, et `#mapping-discussion` pour les questions concernant la **création de niveaux.**
 * Soyez poli et respectueux
 * Décrivez votre problème en détail. "*It didn't work*" est aussi pertinent que dire à votre docteur que vous ne vous sentez pas bien. Qu'est-ce qui ne fonctionne pas, et qu'avez-vous essayé ? Y a-t-il des messages qui apparaissent sur l'écran ? Votre écran est-il devenu tout violet ?
 
-::: tip NOTE
-Les personnes avec le rôle `Support` sont des bénévoles qui peuvent choisir de vous aider sur leur temps libre. Ce rôle est une reconnaissance de la connaissance et les efforts qu'ils ont fournis jusque là, mais ça ne veut pas nécessairement dire qu'ils sont disponibles pour aider juste parce qu'ils sont en ligne.
-:::
+::: tip NOTE Les personnes avec le rôle `Support` sont des bénévoles qui peuvent choisir de vous aider sur leur temps libre. Ce rôle est une reconnaissance de la connaissance et des efforts qu'ils ont fournis jusque là, mais ça ne veut pas nécessairement dire qu'ils sont disponibles pour aider juste parce qu'ils sont en ligne. :::
 
-Merci !
-
-> Merci à Saber-Chan pour son dur labeur sur cette page.
+Merci à Saber-Chan pour son dur labeur sur cette page.

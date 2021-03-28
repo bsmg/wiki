@@ -1,12 +1,23 @@
 ---
 home: true
+title: Wiki BSMG
 heroText: Wiki BSMG
 tagline: Bienvenue sur le wiki du Beat Saber Modding Group!
+description: Bienvenue sur le wiki du Beat Saber Modding Group!
 actionText: Guide du Débutant →
 actionLink: ./beginners-guide.md
 footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
+tags:
+  - bsmg
+  - beat saber
+  - modding
+  - wiki
+  - support
+  - aide
+  - comment sont faites les maps ?
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class='features'>
 
 ::: feature Prise en main
@@ -14,6 +25,7 @@ footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 
 * [Utiliser les Mods sur Quest](./quest-modding.md)
 * [Problèmes fréquents](./support/)
 * [Grips et Astuces](./grips-and-tricks.md)
+* [Guide du classement et du score](./ranking-guide.md)
 :::
 
 ::: feature Créer du contenu
@@ -30,15 +42,21 @@ footer: Copyright © 2019 Beat Saber Modding Group | Licensed under CC BY-NC-SA 
 :::
 
 </div>
-<hr />
+<!-- markdownlint-enable MD033 -->
+
+---
 
 ## Liens externes
-* [Rejoindre le serveur Discord !](https://discord.gg/beatsabermods) (en anglais)
-* [BeatMods](https://beatmods.com) - Référentiel des mods téléchargés depuis les installeurs comme ModAssistant
-* [BeatSaver](https://beatsaver.com/) - Téléchargez les custom songs ici
+
+* [Rejoignez le serveur Discord ! (anglophone)](https://discord.gg/beatsabermods)
+* [Nous contacter](http://bit.ly/MessageBSMG) - Offrez vos compétences, sponsorisez-nous, faites appel d'une décision administrative (ban, mise au silence), etc.
+* [Patreon BSMG](https://www.patreon.com/beatsabermods) - Soutenez les services BSMG !
+* [BeatMods](https://beatmods.com) - Dépôt des mods sur PC que l'on retrouve dans les installateurs comme Mod Assistant
+* [BeatSaver](https://beatsaver.com/) - Téléchargez les chansons personnalisées ici
 * [BeastSaber](https://bsaber.com/) - Critiques, articles, playlists, et bien plus !
-* [ModelSaber](https://modelsaber.com/) - Téléchargez des sabres personnalisés, des avatars, des bloqs et des plateformes personnalisées !
-* [ScoreSaber](https://scoresaber.com/) - Classement et tableaux des scores
+* [ModelSaber](https://modelsaber.com/) - Téléchargez des sabres personnalisés, des avatars, des bloqs et des plateformes !
+* [Discord Qosmetics](https://discord.gg/qosmetics) - Téléchargez des sabres, murs et bloqs pour Quest !
+* [ScoreSaber](https://scoresaber.com/) - Classements pour les chansons personnalisées
+* [Postulez pour aider à traduire le wiki !](https://forms.gle/e3BqA3poMjESARe76) - Traduisez le wiki dans votre langue !
 * [Page du magasin Steam](https://store.steampowered.com/app/620980/Beat_Saber/)
 * [Page du magasin Oculus](https://www.oculus.com/experiences/rift/1304877726278670/)
-* [Historique des Mods](https://docs.google.com/spreadsheets/d/1eVRbCUyaXjKUJRSNPZWERUO9tULK415buU0q-H7Z0dY/edit#gid=0) (en anglais)
