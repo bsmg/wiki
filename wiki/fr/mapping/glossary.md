@@ -1,9 +1,14 @@
 ---
-sidebar: auto
-translation-done: false
+sidebar: false
 ---
-# Glossaire du mapping
 
-::: danger
-Cette page est en cours de traduction et n'est pas viable en l'état. Veuillez vous référer à la [version originale en anglais](/mapping/glossary.md) en attendant.
-:::
+# Traduction non disponible
+Désolé, cette page n'a pas encore été traduite.
+
+Vous pouvez :
+
+* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
+* attendre que cette page soit traduite,
+* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
+
+[Retourner à la page d'accueil](/fr/)

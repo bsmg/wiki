@@ -1,10 +1,14 @@
 ---
-sidebar: auto
-translation-done: false
+sidebar: false
 ---
-# Guide utilisateur de Mediocre Map Assistant
-_Des informations essentielles pour partir sur des bases saines en utilisant Mediocre Map Assistant 2_
 
-::: danger
-Cette page est en cours de traduction et n'est pas viable en l'état. Veuillez vous référer à la [version originale en anglais](/mapping/mediocre-map-assistant.md) en attendant.
-:::
+# Traduction non disponible
+Désolé, cette page n'a pas encore été traduite.
+
+Vous pouvez :
+
+* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
+* attendre que cette page soit traduite,
+* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
+
+[Retourner à la page d'accueil](/fr/)

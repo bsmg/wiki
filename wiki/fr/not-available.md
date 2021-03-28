@@ -12,9 +12,3 @@ Vous pouvez :
 * aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
 
 [Retourner à la page d'accueil](/fr/)
-
-Langue  
-Aidez à améliorer cette page!  
-Dernière mise à jour  
-Accueil  
-Discord BSMG
