@@ -6,12 +6,12 @@ sidebar: auto
 
 ## Table des matières
 
-0. [Mises à jour](#0-mises-a-jour)
-1. [Pas de mods ?](#1-pas-de-mods)
-2. [Problèmes en jeu après modding](#2-problemes-en-jeu-apres-modding)
-3. [Questions fréquentes](#3-questions-frequentes)
-4. [Dépannage divers](#4-depannage-divers)
-5. [J'ai encore des problèmes](#5-j-ai-encore-des-problemes)
+0. [Mises à jour](#_0-mises-a-jour)
+1. [Pas de mods ?](#_1-pas-de-mods)
+2. [Problèmes en jeu après modding](#_2-problemes-en-jeu-apres-modding)
+3. [Questions fréquentes](#_3-questions-frequentes)
+4. [Dépannage divers](#_4-depannage-divers)
+5. [J'ai encore des problèmes](#_5-j-ai-encore-des-problemes)
 
 ## 0. Mises à jour
 Après une mise à jour, le salon `#modding-announcements` du Discord BSMG devrait avoir les instructions les plus récentes sur le statut des mods. Ce qui suit sont des instructions plus détaillées sur la procédure la plus courante.
@@ -52,7 +52,9 @@ Si les pré-requis détaillés dans la section 1.1 sont valides, essayez les sol
 * Faites une sauvegarde du dossier `UserData` (facultatif)
 * Supprimez le dossier `UserData`
 
-::: warning ATTENTION Ceci va réinitialiser les paramètres de vos mods ! :::
+::: warning ATTENTION
+Ceci va réinitialiser les paramètres de vos mods !
+:::
 
 ##### Solution 4
 
@@ -90,7 +92,7 @@ Si le jeu est si ralenti (*lag*) que vous pouvez à peine cliquer sur le bouton 
 Si le problème n'a pas été résolu, essayez la section 2.4.
 
 #### 2.4 Améliorer la fréquence d'images (FPS)
-Si la [section 2.3](#2-3-le-jeu-ralentit-beaucoup-apres-avoir-installe-les-mods) n'a pas amélioré les performances, alors votre PC peut tout simplement ne pas être assez performant pour tenir le coup avec les mods. Voici quelques propositions que vous pouvez tenter pour améliorer les performances, sans ordre particulier :
+Si la [section 2.3](#_2-3-le-jeu-ralentit-beaucoup-apres-avoir-installe-les-mods) n'a pas amélioré les performances, alors votre PC peut tout simplement ne pas être assez performant pour tenir le coup avec les mods. Voici quelques propositions que vous pouvez tenter pour améliorer les performances, sans ordre particulier :
 
 * Vérifiez si NVIDIA GeForce Experience a défini l'échelle de rendu pour Beat Saber au delà de la valeur par défaut de 1.0. Il est possible qu'il aie défini une valeur plus élevée telle que 1.4 ou 1.8, qui augmente considérablement la charge GPU.
 * Utilisez un avatar personnalisé moins complexe.
@@ -113,7 +115,9 @@ La réalité virtuelle est très gourmande en processeur (CPU), surtout si vous 
 #### 3.1 Menu vide, pas de bouton
 Si le menu principal de votre jeu est vide, votre fichier de sauvegarde est probablement corrompu. Pour résoudre ce problème, référez-vous à [comment supprimer le dossier Beatsaber dans votre AppData](#supprimer-les-sauvegardes-dans-appdata).
 
-:::warning ATTENTION Cela va supprimer tous vos scores locaux ainsi que vos statistiques de jeu. :::
+:::warning ATTENTION
+Cela va supprimer tous vos scores locaux ainsi que vos statistiques de jeu.
+:::
 
 #### 3.2 Comment utiliser le mod `x` ?
 Si vous utilisez Mod Assistant, cliquez sur le mod puis sur le bouton "Mod Info". [BeatMods](http://beatmods.com) a également un bouton "More Info" sur chaque mod.
@@ -159,7 +163,6 @@ Cliquez sur le point d'interrogation (?) bleu dans le coin en haut à droite. Ce
 Si cela ne se produit que sur certaines maps, vous n'avez peut-être pas les mods nécessaires, ou cette map peut être corrompue. Si cela se produit sur toutes vos maps, supprimez votre dossier `Plugins` et réinstallez vos mods.
 
 ### CameraPlus
-:::warning NOTE Ce mod n'est plus maintenant et a été remplacé par [Camera2](https://github.com/kinsi55/CS_BeatSaber_Camera2#camera2). :::
 
 #### 3.9 Camera Plus ne fonctionne pas / après l'écran Santé
 Assurez-vous que l'option "Smooth Camera" (Caméra lisse) du jeu de base est désactivée. Si cela ne fonctionne pas, essayez de réinstaller CameraPlus et ses dépendances.
@@ -170,7 +173,7 @@ Votre affichage CameraPlus ne remplit pas votre écran. Tirez les coins de la fe
 ### BeatSaver Downloader
 
 #### 3.11 Le bouton More Songs de BeatSaver Downloader
-**Le bouton More Songs est placé dans le menu principal à gauche sous le texte Mods.** Si ce bouton est grisé, vérifiez que toutes vos chansons sont chargées à l'aide de la barre de progression arc-en-ciel visible sur le menu principal. Si votre bouton Mods n'est pas là, assurez-vous que vos extensions et dépendances fonctionnent et sont correctement installées, référez-vous à la section [Pas de mods ?](#1-pas-de-mods).
+**Le bouton More Songs est placé dans le menu principal à gauche sous le texte Mods.** Si ce bouton est grisé, vérifiez que toutes vos chansons sont chargées à l'aide de la barre de progression arc-en-ciel visible sur le menu principal. Si votre bouton Mods n'est pas là, assurez-vous que vos extensions et dépendances fonctionnent et sont correctement installées, référez-vous à la section [Pas de mods ?](#_1-pas-de-mods).
 
 #### 3.12 Rien n'apparaît dans le menu More Songs
 Les potentielles causes d'erreur de BeatSaver Downloader sont :
@@ -259,10 +262,14 @@ Vous pouvez aussi vous rendre dans ce dossier en affichant les éléments masqu�
 
 <YouTube url='https://youtu.be/ONxJcD3Ir3Q' />
 
-::: warning Supprimer le dossier des données locales supprimera aussi vos scores locaux et statistiques de jeu. :::
+::: warning ATTENTION
+Supprimer le dossier des données locales supprimera aussi vos scores locaux et statistiques de jeu.
+:::
 
 #### Mesures désespérées
-::: warning ATTENTION Désactiver votre antivirus comporte des risques de sécurité, soyez sûr de ce que vous faites (c'est-à-dire ne téléchargez pas et n'ouvrez pas de fichier suspect tant qu'il est désactivé) et n'oubliez pas de le réactiver dès que vous en avez terminé. :::
+::: warning ATTENTION
+Désactiver votre antivirus comporte des risques de sécurité, soyez sûr de ce que vous faites (c'est-à-dire ne téléchargez pas et n'ouvrez pas de fichier suspect tant qu'il est désactivé) et n'oubliez pas de le réactiver dès que vous en avez terminé.
+:::
 
 * Assurez-vous que l'utilisateur courant **est un administrateur**
 * Désactivez votre antivirus (le temps d'un test), testez votre jeu, réactivez le
@@ -278,6 +285,8 @@ Si cette page ne couvre pas les bases, n'hésitez pas à poser une question sur 
 * Soyez poli et respectueux
 * Décrivez votre problème en détail. "*It didn't work*" est aussi pertinent que dire à votre docteur que vous ne vous sentez pas bien. Qu'est-ce qui ne fonctionne pas, et qu'avez-vous essayé ? Y a-t-il des messages qui apparaissent sur l'écran ? Votre écran est-il devenu tout violet ?
 
-::: tip NOTE Les personnes avec le rôle `Support` sont des bénévoles qui peuvent choisir de vous aider sur leur temps libre. Ce rôle est une reconnaissance de la connaissance et des efforts qu'ils ont fournis jusque là, mais ça ne veut pas nécessairement dire qu'ils sont disponibles pour aider juste parce qu'ils sont en ligne. :::
+::: tip NOTE
+Les personnes avec le rôle `Support` sont des bénévoles qui peuvent choisir de vous aider sur leur temps libre. Ce rôle est une reconnaissance de la connaissance et des efforts qu'ils ont fournis jusque là, mais ça ne veut pas nécessairement dire qu'ils sont disponibles pour aider juste parce qu'ils sont en ligne.
+:::
 
 Merci à Saber-Chan pour son dur labeur sur cette page.

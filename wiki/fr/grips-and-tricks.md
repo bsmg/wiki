@@ -38,7 +38,9 @@ Vous pouvez trouver plus d'informations dans le [Guide du classement et du score
 
 *Cette section est adaptée du rapport de Tek du Discord Beat Saber canadien.*
 
-::: tip Les chansons sont classées/déclassées par une équipe de classement dans le [discord ScoreSaber](https://discord.gg/WpuDMwU) (serveur Discord anglophone). Vous pouvez suivre dans ce serveur les modifications apportées ! :::
+::: tip NOTE
+Les chansons sont classées/déclassées par une équipe de classement dans le [discord ScoreSaber](https://discord.gg/WpuDMwU) (serveur Discord anglophone). Vous pouvez suivre dans ce serveur les modifications apportées !
+:::
 
 ## Prises
 Cube Community a réalisé une vidéo de démonstration de certaines prises populaires pour les Oculus Touch (Oculus Rift CV1) et les Vive Wands (vidéos en anglais).

@@ -31,7 +31,9 @@ Vous devriez maintenant voir la playlist à côté de l'album des niveaux person
 **Pour les utilisateurs de Quest :**  
 Vous pouvez utiliser [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) pour gérer les playlists sur votre Quest. Notez qu'un niveau personnalisé ne peut apparaître qu'une seule fois en jeu en raison d'une limitation avec BMBF.
 
-:::warning ATTENTION pour les utilisateurs de Quest Recharger votre dossier des chansons personnalisées réinitialise toute organisation de playlist. :::
+:::warning ATTENTION
+Pour les utilisateurs de Quest Recharger votre dossier des chansons personnalisées réinitialise toute organisation de playlist.
+:::
 
 ## Comment faire mes propres niveaux personnalisés ?
 Rendez-vous dans la [catégorie mapping](/fr/mapping/) !
