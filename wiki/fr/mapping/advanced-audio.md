@@ -2,7 +2,6 @@
 sidebar: false
 ---
 
-# Traduction non disponible
 Désolé, cette page n'a pas encore été traduite.
 
 Vous pouvez :

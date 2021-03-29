@@ -2,7 +2,7 @@
 sidebar: false
 ---
 
-# Übersetzung nicht verfügbar
+
 Diese Seite wurde noch nicht übersetzt.
 
 Du kannst:
