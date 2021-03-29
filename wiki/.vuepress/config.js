@@ -115,6 +115,7 @@ module.exports = {
             'supports',
             'mapping-supports',
             '3d-artists',
+            'translators',
           ]),
           '/fr/faq/': generateSidebar('FAQ', [
             '',
@@ -154,6 +155,7 @@ module.exports = {
             'supports',
             'mapping-supports',
             '3d-artists',
+            'translators',
           ]),
           '/de/faq/': generateSidebar('FAQ', [
             '',
