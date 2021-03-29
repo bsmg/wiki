@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "lint:markdown": "markdownlint --ignore ./wiki/{fr,ja}/**/*.md ./wiki/**/*.md",
+    "lint:markdown": "markdownlint --ignore ./wiki/{fr,ja,de}/**/*.md ./wiki/**/*.md",
     "lint:images": "node ./scripts/checkImages.js",
     "lint": "yarn run lint:markdown && yarn run lint:images",
     "predev": "rimraf .temp",

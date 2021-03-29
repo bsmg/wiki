@@ -1,12 +1,14 @@
 ---
-sidebar: auto
-prev: false
-next: ./intermediate-mapping.md
-translation-done: false
+sidebar: false
 ---
-# Les bases du mapping
-_Un résumé rapide des bases du mapping_
 
-::: danger
-Cette page est en cours de traduction et n'est pas viable en l'état. Veuillez vous référer à la [version originale en anglais](/mapping/basic-mapping.md) en attendant.
-:::
+# Traduction non disponible
+Désolé, cette page n'a pas encore été traduite.
+
+Vous pouvez :
+
+* basculer vers la version anglaise de cette page à partir du sélecteur de langue,
+* attendre que cette page soit traduite,
+* aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
+
+[Retourner à la page d'accueil](/fr/)

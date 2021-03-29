@@ -30,6 +30,8 @@ Chacune de vos maps favorites est soigneusement confectionnée et testé de nomb
 ### [Contributeurs aux ressources de mapping](/fr/mapping/mapping-credits.md)
 Un groupe de mappeurs expérimentés qui ont pris le temps de noter et partager leur connaissance pour aider les autres à s'améliorer s'y mettre et s'améliorer. Allez voir leurs maps et n'hésitez pas à les supporter !
 
+### [Translators](./translators.md)
+
 ## À propos de ce Wiki
 Ce wiki est dédié à toute chose liée au modding du jeu Beat Saber.
 Il a été créé pour remplacer les canaux `#beginners-guide` et `#faq` du [Discord Beat Saber Modding Group](https://discord.gg/beatsabermods) (serveur en anglais).
