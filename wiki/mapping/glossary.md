@@ -27,14 +27,14 @@ let us know in #mapping-discussion!
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
 | **Backhand** | A swing where the majority of the work is done by the back of the hand. See this clip in [Fru's Tutorial Video](https://youtu.be/t9AFj4pfptM?t=454) for more info. See also: [Forehand](#f). |
-| **Beats Per Minute** | The number of beats that occur in one minute, defining the [Tempo](#t) of a song. Also known as [BPM](#b). |
 | **BeastSaber** | A website that categorizes the songs uploaded to [BeatSaver](#b) into different genres and attribute tags. Players can review songs and comment on them. A team of curators play through many songs each day and recommend the ones that stand out. Also known as *BSaber*. The link to BeastSaber can be found [here](https://bsaber.com/). |
+| **Beats Per Minute** | The number of beats that occur in one minute, defining the [Tempo](#t) of a song. Also known as [BPM](#b). |
 | **BeatSaver** | The repository for all custom songs in Beat Saber. Songs uploaded here automatically feed to [Beast Saber](#b). The link can be found [here](https://beatsaver.com/). |
 | **Block** | A cube with either an arrow or a dot on it. It is the primary element of gameplay. By default, blocks are either red or blue. Also known as [Note](#n). <details><summary>**Example Image**</summary>![Picture of block](~@images/mapping/arrow-block.png)</details> |
-| **BPM** | Abbreviation of [Beats Per Minute](#b). |
 | **Bomb** | A [Block](#b) that looks like a spiky circle that damages the player if their saber touches it. It is safe for a bomb to pass through the player’s body. Also known as [Mine](#m). <details><summary>**Example Image**</summary>![Picture of bomb](~@images/mapping/bomb.png)</details> |
 | **Bomb Reset** | [Bombs](#b) placed to forcibly [Reset](#r) the player’s arms. <details><summary>**Example Image**</summary>![Picture of bomb reset](~@images/mapping/bombreset.jpg)</details> |
 | **Bomb Spiral/Helix** | [Bombs](#b) placed in a spiral or helical [Pattern](#p), intended to force the player to move their arms in a large circle. Referred to as either *Bomb Spiral* or *Bomb Helix*. <details><summary>**Example Image**</summary>![Picture of bomb spiral](~@images/mapping/bombspiral.jpg)</details> |
+| **BPM** | Abbreviation of [Beats Per Minute](#b). |
 
 ## C
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
@@ -45,10 +45,10 @@ let us know in #mapping-discussion!
 | **Controller Clash/Smash** | Any [Pattern](#p) that directs the player's hands inward at each other on the same beat, often leading to the player smashing their hands together. Higher skilled players can sometimes avoid these, but they are still highly discouraged at all levels of mapping. Referred to as either *Controller Clash* or *Controller Smash*. Also known as [Handclap](#h). <details><summary>**Example Image**</summary>![Picture of controller clash](~@images/mapping/controller-smash-alt.png)</details> |
 | **Corner Crouch** | A [Wall](#wxyz) [Pattern](#p) that combines a [Dodge Wall](#d) and a [Crouch Wall](#c), leaving the player a small gap to squeeze into. <details><summary>**Example Image**</summary>![Picture of corner crouch](~@images/mapping/corner-crouch-alt.png)</details> |
 | **Cover Image** | The square image associated with the song loaded into the song browser. Must be a minimum of 256x256 pixels, but not recommended to be more than 512x512 pixels. |
-| **Crouch Wall** | A [Wall](#wxyz) blocking the upper portion of the playspace which forces the player to crouch to avoid. <details><summary>**Example Image**</summary>![Picture of corner crouch](~@images/mapping/crouch.jpg)</details> |
 | **Croissant** | A [Stream](#s) [Pattern](#p) that has the player swing in the shape of an X. The name is due to its shape and being very comfortable, or "tasty". <details><summary>**Example Image**</summary>![Picture of croissant](~@images/mapping/croissant-pattern.png)</details> |
 | **Crossover** | A [Block](#b) placed on its opposite-handed side. For example, a blue block placed in [Lanes](#l) one or two, or a red block placed in lanes three or four, primarily when the [Pattern](#p) forces the player's arms to "cross over" to play. <details><summary>**Example Image**</summary>![Picture of crossover](~@images/mapping/crossover.png)</details> |
 | **Crossover Scissor** | A [Pattern](#p) where a red and blue [Note](#n) are on opposite-handed sides and are hit simultaneously in opposite directions. Also known as [Pickle](#p). See also: [Scissor](#s). <details><summary>**Example Image**</summary>![Picture of crossover scissor](~@images/mapping/arm-tangle-alt.png)</details> |
+| **Crouch Wall** | A [Wall](#wxyz) blocking the upper portion of the playspace which forces the player to crouch to avoid. <details><summary>**Example Image**</summary>![Picture of corner crouch](~@images/mapping/crouch.jpg)</details> |
 | **Cucumber** | When a red and blue [Note](#n) are on the same timing, and are hit simultaneously in opposite directions. Also known as [Scissor](#s). See also: [Crossover Scissor](#c). <details><summary>**Example Image**</summary>![Picture of scissor](~@images/mapping/scissor-cucumber_example.png)</details> |
 | **Cursor Precision** | The musical duration of the spacing between [Notes](#n). Typically 1/1 (one note per beat), 1/2 (one note per half beat), or 1/4 (one note per quarter beat). Also known as [Precision](#p). |
 
@@ -56,15 +56,15 @@ let us know in #mapping-discussion!
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
 | **.dat File** | The text file containing most content for a certain difficulty or song info in the new 2.0 song format. It contains JSON format with a different structure compared to the 1.0 song format, and a different file extension. This file format is used for both song info and for map content. See also: [Difficulty File](#d), [Info File](#i). |
+| **DD** | Abbreviation of [Double Directional](#d). |
 | **Difficulty File** | The [.dat File](#d) containing most content for that difficulty. In the old, obsolete song format, this was a [.json File](#j). |
 | **Dodge Wall** | A vertical [Wall](#wxyz) that forces the player to move out of the way to avoid taking damage. See also: [Crouch Wall](#c), [Groove Wall](#g). <details><summary>**Example Image**</summary>![Picture of dodge wall](~@images/mapping/dodgewall.jpg)</details> |
 | **Dot Block/Note** | A [Block](#b) that can be hit from any direction. Often used as top [Row](#r) blocks in lower difficulty maps or in [Sliders](#s). Referred to as either *Dot Block* or *Dot Note*. <details><summary>**Example Image**</summary>![Picture of dot note](~@images/mapping/bndot.png)</details> |
 | **Dot Spam** | A [Pattern](#p) that overuses [Dot Blocks](#d) in a single or two adjacent [Rows](#r), typically due to mapper inexperience. <details><summary>**Example Image**</summary>![Picture of dot spam](~@images/mapping/dotspam.png)</details> |
-| **DD** | Abbreviation of [Double Directional](#d). |
-| **Double Directional** | A [Pattern](#p) where two sequential same-colored [Blocks](#b) have the same or close orientation, typically considered for blocks within 45 degree angles of each other. The playability of this pattern depends on the amount of time given to players to [Reset](#r). This pattern is discouraged within 1.5 beats (or longer in higher [BPM](#b) songs). Abbreviated as [DD](#d). Also known as [Drumsticking](#d), though this term is outdated. <details><summary>**Example Image**</summary>![Picture of double directionals](~@images/mapping/double-directionals.jpg)</details> |
 | **Double** | A [Pattern](#p) of two different colored [Notes](#n) on the same timing and hit simultaneously. <details><summary>**Example Image**</summary>![Picture of doubles](~@images/mapping/doubles.jpg)</details> |
-| **Drumsticking** | A [Pattern](#p) where two sequential same-colored [Blocks](#b) have the same or close orientation. This term is outdated. Also known as [Double Directional](#d). |
+| **Double Directional** | A [Pattern](#p) where two sequential same-colored [Blocks](#b) have the same or close orientation, typically considered for blocks within 45 degree angles of each other. The playability of this pattern depends on the amount of time given to players to [Reset](#r). This pattern is discouraged within 1.5 beats (or longer in higher [BPM](#b) songs). Abbreviated as [DD](#d). Also known as [Drumsticking](#d), though this term is outdated. <details><summary>**Example Image**</summary>![Picture of double directionals](~@images/mapping/double-directionals.jpg)</details> |
 | **Drifting BPM** | An unintentionally shifting song [BPM](#b) as a result of a live performance without a metronome. Also known as [Variable BPM](#uv) and [Multiple BPM](#m). See also: [Fixed BPM](#f). |
+| **Drumsticking** | A [Pattern](#p) where two sequential same-colored [Blocks](#b) have the same or close orientation. This term is outdated. Also known as [Double Directional](#d). |
 
 ## E
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
@@ -130,8 +130,8 @@ let us know in #mapping-discussion!
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
 | **Lane** | Horizontal divisions across the [Track](#t) in which [Blocks](#b) travel. The default track has four lanes. Also known as [Column](#c). See also: [Layer](#l), [Row](#r). |
-| **Layer** | Vertical divisions above the [Track](#t) in which [Blocks](#b) travel. The default track has three layers, commonly referred to as bottom, middle, and top. Also known as [Row](#r). See also: [Column](#c), [Lane](#l). |
 | **Lawless Mode** | A map characteristic where mappers can do crazy stuff that they would normally get downvoted into oblivion for in a standard map. This mode is not part of the base game and requires the [SongCore](#s) mod. |
+| **Layer** | Vertical divisions above the [Track](#t) in which [Blocks](#b) travel. The default track has three layers, commonly referred to as bottom, middle, and top. Also known as [Row](#r). See also: [Column](#c), [Lane](#l). |
 | **Lefty Stream** | A straight [Stream](#s) where each pair of successive [Notes](#n) going in the same direction starts with the left hand. See also: [Righty Stream](#r). <details><summary>**Example Image**</summary>![Picture of lefty stream](~@images/mapping/lefty-stream.jpg)</details> |
 | **Lighting** | A collective term for all of the lighting events and options available to mappers. A map is not considered complete without some form of lighting. See also: [Event](#e). |
 | **Lighting Track** | The area in most map editors where [Lighting](#l) events are placed. See also: [Track](#t). |
@@ -154,12 +154,12 @@ let us know in #mapping-discussion!
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
 | **NJS** | Abbreviation of [Note Jump Speed](#n). |
-| **NPS** | Abbreviation of [Notes Per Second](#n). |
 | **No Arrows Mode** | A map characteristic using only [Dot Notes](#d). Often used by new players or for alternate play styles like "maul mode." |
 | **Noodle Extensions** | A more advanced version of [Mapping Extensions](#m) that is only available on PC. |
 | **Note** | A cube with either an arrow or a dot on it. It is the primary element of gameplay. By default, blocks are either red or blue. Also known as [Block](#b). |
 | **Note Jump Speed** | The speed that objects approach the player in-game. Labeled in Info.dat as `_noteJumpMovementSpeed`. Abbreviated as [NJS](#n). |
 | **Notes Per Second** | A measure of map density. The number of [Notes](#n) that pass the player within one second. A very rough approximate measure of difficulty. Abbreviated as [NPS](#n). |
+| **NPS** | Abbreviation of [Notes Per Second](#n). |
 
 ## O
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
@@ -181,9 +181,9 @@ let us know in #mapping-discussion!
 | **Paul** | A sequence of inline [Blocks](#b) of the same direction placed at very high [Precision](#p). This forces the player to hit the sequence with a slow continuous swing. This [Pattern](#p) is very difficult to score well on. <details><summary>**Example Image**</summary>![Picture of paul](~@images/mapping/paul.jpg)</details> |
 | **Piano Stream** | A sequence of alternating color and direction [Blocks](#b) that progresses horizontally across [Lanes](#l) on the [Track](#t). <details><summary>**Example Image**</summary>![Picture of piano stream](~@images/mapping/pianostream.png)</details> |
 | **Pickle** | A [Pattern](#p) where a red and blue [Note](#n) are on opposite-handed sides and are hit simultaneously in opposite directions. Also known as [Pickle](#p). See also: [Crossover Scissor](#s). <details><summary>**Example Image**</summary>![Picture of pickle](~@images/mapping/arm-tangle-alt.png)</details> |
-| **Playtest** | The act of playing a [WIP](#wxyz) map to check for errors and improvements. Highly recommended for creating a quality product. Also known as [Testplay](#t). |
 | **Performance Points** | The metric determining ranking on the [ScoreSaber](#s) leaderboards. Abbreviated as [PP](#p). |
 | **Platform** | The in-game play area and associated [Track](#t) and [Lighting](#l). Also known as [Environment](#e). |
+| **Playtest** | The act of playing a [WIP](#wxyz) map to check for errors and improvements. Highly recommended for creating a quality product. Also known as [Testplay](#t). |
 | **PP** | Abbreviation of [Performance Points](#p). |
 | **Precision** | The musical duration of the spacing between [Notes](#n). Typically 1/1 (one note per beat), 1/2 (one note per half beat), or 1/4 (one note per quarter beat). Also known as [Cursor Precision](#c). |
 | **Precision Placement** | A style of mapping that requires [Mapping Extensions](#m), which allows the mapper to place [Blocks](#b) outside of the standard 4x3 grid. Not recommended for novice mappers. |
@@ -208,9 +208,9 @@ let us know in #mapping-discussion!
 ## S
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
-| **ScoreSaber** | The organization responsible for managing the ranked Beat Saber leaderboards. The Beat Saber leaderboards website can be found [here](https://scoresaber.com/). See also: [Performance Points](#p). |
 | **Scissor** | When a red and blue [Note](#n) are on the same timing, and are hit simultaneously in opposite directions. Also known as [Cucumber](#c). See also: [Crossover Scissor](#c). <details><summary>**Example Image**</summary>![Picture of scissor](~@images/mapping/scissor-cucumber_example.png)</details> |
 | **Scoop** | A [Pattern](#p) of [Blocks](#b) where the player makes a "scooping" motion to play the pattern. Typically a left or right note followed by an up note in the bottom row. Give the player an ample amount of time to react when using scoops - a half to full beat is recommended. <details><summary>**Example Image**</summary>![Picture of scoop](~@images/mapping/scoop_example.png)</details> |
+| **ScoreSaber** | The organization responsible for managing the ranked Beat Saber leaderboards. The Beat Saber leaderboards website can be found [here](https://scoresaber.com/). See also: [Performance Points](#p). |
 | **Setup** | The process of maneuvering the player's arms into position for a [Pattern](#p) via appropriate placement of the preceding [Blocks](#b). |
 | **Single** | A single [Block](#b) hit with one saber. Typically makes up the majority of [Patterns](#p) in a map. See also: [Double](#d). |
 | **Single BPM** | A song with a consistent [BPM](#b) from start to finish with no variation. Also known as [Fixed BPM](#f). See also: [Variable BPM](#uv). |
