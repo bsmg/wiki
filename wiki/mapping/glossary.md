@@ -85,12 +85,12 @@ let us know in #mapping-discussion!
 | **Face Wall** | A [Wall](#wxyz) occupying one of the two center [Lanes](#l). Also known as [Dodge Walls](#d). <details><summary>**Example Image**</summary>![Picture of face wall](~@images/mapping/facewall.jpg)</details> |
 | **Fake Wall** | A [Wall](#wxyz) with a negative width value, making it harmless to the player. |
 | **Fast Wall** | A [Wall](#wxyz) with a negative duration value greater than the map's [Half Jump Duration](#h) that appears to move past the player at a faster speed than normal walls, but at a slower speed than a [Hyper Wall](#h). |
-| **First Person Flying Control** | A launch option available to SteamVR and Oculus users to launch Beat Saber with limited keyboard and mouse control over the game in a first person view. Very helpful for getting an accurate preview of [Lighting](#l) or [Walls](#wxyz), or accessing the official [Editor](#e). Abbreviated as [FPFC](#f). |
+| **First Person Flying Controller** | A launch option available to SteamVR and Oculus users to launch Beat Saber with limited keyboard and mouse control over the game in a first person view. Very helpful for getting an accurate preview of [Lighting](#l) or [Walls](#wxyz), or accessing the official [Editor](#e). Abbreviated as [FPFC](#f). |
 | **Fixed BPM** | A song with a consistent [BPM](#b) from start to finish with no variation. Also known as [Single BPM](#s). See also: [Variable BPM](#uv). |
 | **Flick** | A [Pattern](#p) of two or more [Notes](#n) of the same color, typically at 1/4 [Precision](#p). <details><summary>**Example Image**</summary>![Picture of flick](~@images/mapping/flick-alt.png)</details> |
 | **Flow** | The concept of placing [Blocks](#b) and [Patterns](#p) so that the next swing a player makes feels natural and allows the body to move in proper ways. |
 | **Forehand** | A swing where the majority of the work is done by the palm side of the hand. See this clip in [Fru's Tutorial Video](https://youtu.be/t9AFj4pfptM?t=454) for more info. See also: [Backhand](#b). |
-| **FPFC** | Abbreviation of [First Person Flying Control](#f). |
+| **FPFC** | Abbreviation of [First Person Flying Controller](#f). |
 
 ## G
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
@@ -123,7 +123,7 @@ let us know in #mapping-discussion!
 | - | :- |
 | **.json File** | The text file containing most content for a certain difficulty or song info in the old 1.0 song format. It contains JSON format with a different structure to [.dat Files](#d), and a different file extension. This file format is used for both song info and for map content. See also: [Difficulty File](#d), [Info File](#i). |
 | **JSON Wall** | A style of mapping requiring the mod [Mapping Extensions](#m), in which the mapper can be extremely creative with non-standard [Wall](#wxyz) types and sizes. Not recommended for novice mappers. |
-| **Jump** | A [Pattern](#p) that moves across multiple [Columns](#l) horizontally or [Rows](#r) vertically in rapid succession. This pattern is not recommended below 1/2 [Precision](#p), especially at high [Tempos](#t). The faster the jumps are, the more difficult they are to execute. See also: [Jump Stream](#jk). <details><summary>**Example Image**</summary>![Picture of jump](~@images/mapping/jump.jpg)</details> |
+| **Jump** | A [Pattern](#p) that moves across multiple [Columns](#c) horizontally or [Rows](#r) vertically in rapid succession. See also: [Jump Stream](#jk). <details><summary>**Example Image**</summary>![Picture of jump](~@images/mapping/jump.jpg)</details> |
 | **Jump Stream** | A [Pattern](#p) that includes [Jumps](#jk) within a [Stream](#s). <details><summary>**Example Image**</summary>![Picture of jump stream](~@images/mapping/jumpstream.jpg)</details> |
 
 ## L
@@ -141,11 +141,11 @@ let us know in #mapping-discussion!
 ## M
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
-| **Map Blindness** | A condition that may occur when a mapper has spent so much time on a map. You know the patterns, you know your intentions, and you've self-tested it so many times. Eventually, muscle memory and your subconscious kick in, and you can play the map with your eyes closed, regardless of flaws. See also: [Playtest](#t). |
-| **Mapping Extensions** | A mod developed by Kyle1314 that allows mappers to access a number of unique utilities for advanced mapping. See also: [JSON Walls](#jk), [Precision Placement](#p), [Precision Rotation](#p). |
+| **Map Blindness** | A condition that may occur when a mapper has spent so much time on a map. You know the patterns, you know your intentions, and you've self-tested it so many times. Eventually, muscle memory and your subconscious kick in, and you can play the map with your eyes closed, regardless of flaws. See also: [Playtest](#p). |
+| **Mapping Extensions** | A mod developed by Kyle1413 that allows mappers to access a number of unique utilities for advanced mapping. See also: [JSON Walls](#jk), [Precision Placement](#p), [Precision Rotation](#p). |
 | **Mediocre Map Assistant 2** | A new fork of [Mediocre Mapper](#m) by Assistant. This is the primary map [Editor](#e) used by the mapping community. |
 | **Mediocre Mapper** | An outdated [Editor](#e), developed by squeaksies as a fork of the original EditSaber editor by Ikiewa. No longer in public development or supported by its author, it has been forked to created [Mediocre Map Assistant 2](#m). |
-| **Mine** | A [Block](#b) that looks like a spiky circle that damages the player if their saber touches it. It is safe for a bomb to pass through the player’s body. Also known as [Bomb](#b). |
+| **Mine** | A [Block](#b) that looks like a spiky circle that damages the player if their saber touches it. It is safe for a mine to pass through the player’s body. Also known as [Bomb](#b). |
 | **Mismap** | A mistake, incorrect, or faulty choice in a map. |
 | **Modding** | Modding is a term borrowed from [osu!](#o). It is the process of reviewing and providing feedback for a map via [editor](#e) and in-game analysis for rankability and/or general improvements. This term is unrelated to game mods that alter the UI or gameplay of Beat Saber. A guide on how to get started with modding can be found [here](https://bit.ly/ScoreSaberModding). See also: [Playtest](#p). |
 | **Multiple BPM** | A song with one or more [BPM](#b) changes as intended by the song’s composer. Also known as [Variable BPM](#uv) and [Drifting BPM](#d). See also: [Fixed BPM](#f). |
@@ -180,7 +180,7 @@ let us know in #mapping-discussion!
 | **Pattern** | A generic name for a sequence of [Blocks](#b). |
 | **Paul** | A sequence of inline [Blocks](#b) of the same direction placed at very high [Precision](#p). This forces the player to hit the sequence with a slow continuous swing. This [Pattern](#p) is very difficult to score well on. <details><summary>**Example Image**</summary>![Picture of paul](~@images/mapping/paul.jpg)</details> |
 | **Piano Stream** | A sequence of alternating color and direction [Blocks](#b) that progresses horizontally across [Lanes](#l) on the [Track](#t). <details><summary>**Example Image**</summary>![Picture of piano stream](~@images/mapping/pianostream.png)</details> |
-| **Pickle** | A [Pattern](#p) where a red and blue [Note](#n) are on opposite-handed sides and are hit simultaneously in opposite directions. Also known as [Pickle](#p). See also: [Crossover Scissor](#s). <details><summary>**Example Image**</summary>![Picture of pickle](~@images/mapping/arm-tangle-alt.png)</details> |
+| **Pickle** | A [Pattern](#p) where a red and blue [Note](#n) are on opposite-handed sides and are hit simultaneously in opposite directions. Also known as [Crossover Scissor](#c). See also: [Scissor](#s). <details><summary>**Example Image**</summary>![Picture of pickle](~@images/mapping/arm-tangle-alt.png)</details> |
 | **Performance Points** | The metric determining ranking on the [ScoreSaber](#s) leaderboards. Abbreviated as [PP](#p). |
 | **Platform** | The in-game play area and associated [Track](#t) and [Lighting](#l). Also known as [Environment](#e). |
 | **Playtest** | The act of playing a [WIP](#wxyz) map to check for errors and improvements. Highly recommended for creating a quality product. Also known as [Testplay](#t). |
@@ -215,7 +215,7 @@ let us know in #mapping-discussion!
 | **Single** | A single [Block](#b) hit with one saber. Typically makes up the majority of [Patterns](#p) in a map. See also: [Double](#d). |
 | **Single BPM** | A song with a consistent [BPM](#b) from start to finish with no variation. Also known as [Fixed BPM](#f). See also: [Variable BPM](#uv). |
 | **Sliders** | A series of same-colored [Dot Blocks](#d) or [Arrow Blocks](#a) spaced close enough together for the player to sweep the saber through in one motion. Placed at a [Precision](#p) of 1/12 or faster. <details><summary>**Example Image**</summary>![Picture of sliders](~@images/mapping/sliders.png)</details> |
-| **SongCore** | A mod developed by Kyle1314 for handling custom song additions in Beat Saber. |
+| **SongCore** | A mod developed by Kyle1413 for handling custom song additions in Beat Saber. |
 | **Spawn Distance** | The distance down the [Track](#t) where the [Blocks](#b) and [Obstacles](#o) spawn. Measured in beats, therefore varies in "spatial" distance by [BPM](#b). Also known as [Half Jump Duration](#h). See also: [NJS](#n), [Spawn Offset](#s), [Spawn Point](#s). |
 | **Spawn Distance Modifier** | A variable denoted as `_noteJumpStartBeatOffset` in the map's [Info File](#i) that modifies the [Spawn Distance](#d). Can be a floating value, typically between -1.0 and 1.0. Also known as [Spawn Offset](#s).
 | **Spawn Offset** | A variable denoted as `_noteJumpStartBeatOffset` in the map's [Info File](#i) that modifies the [Spawn Distance](#d). Can be a floating value, typically between -1.0 and 1.0. Also known as [Spawn Distance Modifier](#s). |
