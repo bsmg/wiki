@@ -109,12 +109,12 @@ Entferne entweder die dll vom `Plugins` Ordner oder klicke auf den `Deinstallier
 ## Hilfe von der Community
 
 * [Griffe und Tricks](./grips-and-tricks.md)
-* [Erstelle Beatmaps](/mapping/)
-* [Custom Sabers](/models/custom-sabers.md)
-* [Custom Avatars](/models/custom-avatars.md)
-* [Custom Platforms](/models/custom-platforms.md)
+* [Erstelle Beatmaps](/de/mapping/)
+* [Custom Sabers](/de/models/custom-sabers.md)
+* [Custom Avatars](/de/models/custom-avatars.md)
+* [Custom Platforms](/de/models/custom-platforms.md)
 * [Multiplayer einrichten](https://bs.assistant.moe/Multiplayer/)
-* [Mods erstellen](/modding/)
+* [Mods erstellen](/de/modding/)
 
 ## Hast Du Fragen?
 Besuche die Support-Kanäle im [BSMG Discord](https://discord.gg/beatsabermods)!
