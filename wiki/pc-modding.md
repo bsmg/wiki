@@ -58,6 +58,13 @@ good mapping practices were established. Try downloading songs released between 
 custom levels experience.
 :::
 
+::: warning
+It is a good idea to backup your `CustomLevels` folder periodically as there is a small chance it will be reset if the
+game updates!
+
+This folder is located in your game install: `Beat Saber/Beat Saber_Data/CustomLevels`
+:::
+
 ### In-game Downloader
 The `BeatSaver Downloader` mod allows you to download maps in-game using the `MORE SONGS` menu button on
 the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com)
@@ -141,7 +148,7 @@ Either remove the dll from the `Plugins` folder, or click the `Uninstall` button
 * [Custom Sabers](/models/custom-sabers.md)
 * [Custom Avatars](/models/custom-avatars.md)
 * [Custom Platforms](/models/custom-platforms.md)
-* [Setup Multiplayer](https://bs.assistant.moe/Multiplayer/)
+* [Play Customs in Multiplayer](https://discord.com/invite/gezGrFG4tz)
 * [Making Mods](/modding/)
 
 ## Have questions?

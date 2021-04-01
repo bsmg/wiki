@@ -28,8 +28,8 @@ Pressing it will open up the menu you can use to select which walls you want to 
 you can change, such as disabling the wall frames.
 
 ### Quest Users
-Upload the wall zip file to your Quest using the [BMBF Web Interface](/quest-modding.md#installing-mods).
-You can then select which wall is active under the mods tab in BMBF.
+Upload the `.qwall` file to your Quest using the [BMBF Web Interface](/quest-modding.md#installing-mods).
+You can then select which wall is active from the Qosmetics menu in-game.
 
 ## Creating Custom Walls
 Although there's not currently a guide on how to create custom walls, one is in the works.
