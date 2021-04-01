@@ -201,7 +201,7 @@ After generating the silence you can click the dark line in the song track to ge
 9. Done. You can now skip to [exporting](#exporting) or go to [optional audio editing](#optional-audio-editing).
 
 > If you are not comfortable with removing the exact amount, you can remove more than needed,
-> export the changed `.ogg` and [re-sync using your tool](#tool-assisted-bpm-calculation) with
+> export the changed `.ogg` and [re-sync using your tool](#sync-using-arrow-vortex) with
 > the new file to get a positive offset.
 
 ### Sync using a Click Track

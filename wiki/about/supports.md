@@ -36,6 +36,11 @@ He'll teach you to fix your mods and your terribly off-beat first map. We've all
 
 [Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
 
+## male
+is too uncreative to think of a bio
+
+**Roles:** Support
+
 ## OneEyed
 2 truths and a lie: Pink cute, CMB sentient, OneEyed has good spelling
 
