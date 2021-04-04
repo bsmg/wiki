@@ -2,7 +2,8 @@
 sidebar: false
 ---
 
-
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
 Désolé, cette page n'a pas encore été traduite.
 
 Vous pouvez :
@@ -12,3 +13,8 @@ Vous pouvez :
 * aider à traduire cette page et le reste du wiki depuis l'anglais en postulant [ici](https://forms.gle/e3BqA3poMjESARe76)
 
 [Retourner à la page d'accueil](/fr/)
+
+Aidez à améliorer cette page!  
+Dernière mise à jour  
+Accueil  
+Discord BSMG

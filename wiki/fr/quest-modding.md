@@ -19,12 +19,19 @@ En choisissant d'utiliser des mods, vous comprenez et acceptez que :
 N'attaquez pas les développeurs pour des problèmes relatifs aux mods, et inversement - les moddeurs et les développeurs sont deux groupes distincts. Ne sois pas idiot, d'accord ?
 :::
 
+:::warning J'ai regardé cette vidéo d'Elite Eric ou de FluffySez, mais je suis coincé/ça n'a pas fonctionné. Pourquoi ?
+Nous, chez BSMG, recommandons **fortement** d'éviter les tutoriels d'Elite Eric ou de FluffySez. Après avoir examiné une bonne partie de leur contenu, il y a une grande quantité d'informations incomplètes, erronées ou complètement fausses. Nous avons essayé de les contacter pour corriger ces erreurs mais nous n'avons malheureusement pas reçu de réponse.
+
+À la place, vous devriez suivre les guides écrits ici sur le wiki ou chercher de l'aide dans le [Discord BSMG](https://discord.gg/beatsabermods) (anglophone).
+:::
+
 ## Installation
-Actuellement, le seul moyen recommandé pour installer les mods et chansons personnalisées sont via BMBF, installé avec SideQuest sur un PC.
+Actuellement, le seul moyen recommandé pour installer les mods et chansons personnalisées sont via BMBF, installé avec SideQuest depuis un PC.
 
 Si vous n'avez pas accès à un ordinateur, vous pouvez utiliser [un téléphone Android](#installer-bmbf-avec-un-telephone-android).
 
 * [APK BMBF](https://bmbf.dev/stable)
+
 :::warning ATTENTION
 Installer BMBF et modifier votre jeu désactive le multijoueur officiel, ainsi que l'affichage et l'envoi de scores dans les classements du jeu de base. Si vous souhaitez jouer en multijoueur en étant moddé, vous aurez besoin du mod `Beat Together` qui permet de jouer en multijoueur avec des joueurs PC et Quest, et permet de jouer des chansons personnalisées si tous les joueurs les ont installées. Le mod peut être trouvé dans `#quest-mods` dans le Discord BSMG, ou bien sur [Questboard](https://questmodding.com).
 
@@ -34,7 +41,7 @@ Pour obtenir les classements sur les chansons personnalisées et gagner des poin
 :::
 
 ### Installer BMBF avec SideQuest
-Si ce n'est pas déjà fait, téléchargez et installez [SideQuest](https://sidequestvr.com/#/setup-howto) (site en anglais).
+Si ce n'est pas déjà fait, téléchargez et installez [SideQuest](https://sidequestvr.com/#/setup-howto) (en anglais).
 
 Ouvrez SideQuest et connectez votre Quest à votre PC.
 
@@ -42,13 +49,13 @@ Ouvrez SideQuest et connectez votre Quest à votre PC.
 Si vous avez précédemment moddé Beat Saber ou avez des scores à sauvegarder, [sauvegardez vos données d'abord](#sauvegarder-les-donnees-de-sauvegarde-avec-sidequest) !
 :::
 
-Si vous avez déjà moddé le jeu, vous devez également le désinstaller en appuyant sur le bouton `UNINSTALL APP`. Vous pourrez restaurer votre sauvegarde depuis le même menu, après l'installation des mods.
+Si vous avez déjà moddé le jeu, vous devez également le désinstaller en appuyant sur le bouton `UNINSTALL APP`. Vous pourrez restaurer votre sauvegarde depuis le même menu, après le modding.
 
 Cliquez sur le bouton `Install APK from folder` comme indiqué ci-dessous et sélectionnez le fichier APK BMBF que vous avez téléchargé, ou glissez simplement le fichier APK dans la fenêtre de SideQuest. Ces deux méthodes vont installer BMBF sur votre Quest.
 
 ![Installation d'APK](~@images/beginners-guide/apkfromfolder.png)
 
-Une fois installé, vérifiez que vous avez la dernière version de Beat Saber installée et non moddée.
+Une fois installé avec succès, assurez-vous que la dernière version de Beat Saber est installée et non moddée.
 
 :::warning ATTENTION
 Avant de modder, lancez Beat Saber une fois, jouez une chanson et perdez immédiatement !
@@ -56,9 +63,9 @@ Avant de modder, lancez Beat Saber une fois, jouez une chanson et perdez immédi
 
 Après avoir lancé Beat Saber une fois, ouvrez BMBF depuis les Sources inconnues comme indiqué ci-dessous.![Sources inconnues](~@images/beginners-guide/quest_home-menu.jpg)
 
-Suivez chaque étape exactement comme indiqué. Vous devriez voir apparaître [bsaber.com](https://www.bsaber.com). C'est ici que vous pouvez télécharger les chansons personnalisées disponibles. Vous pouvez également cliquer sur l'icône de globe dans le coin supérieur droit pour aller sur BeatSaver pour télécharger des chansons.
+Suivez chaque étape exactement comme indiqué. Vous devriez voir apparaître [bsaber.com](https://www.bsaber.com). C'est ici que vous pouvez télécharger les chansons personnalisées disponibles. Vous pouvez également cliquer sur l'icône de globe dans le coin supérieur droit et aller sur BeatSaver pour télécharger des chansons.
 
-Si à tout moment pendant l'installation vous voyez la pop-up "Restaurer l'app", cliquez sur Fermer. Cet avertissement vise principalement les versions piratées du jeu, donc si vous ne faites rien d'autre que modder le jeu, vous n'avez pas de souci à vous faire.
+Si à tout moment pendant l'installation vous voyez la pop-up `Restore App`, cliquez sur `Close`. Cet avertissement vise principalement les versions piratées du jeu, donc si vous moddez uniquement le jeu vous pouvez l'ignorer sans problème.
 
 ![Restaurer l'app](~@images/beginners-guide/restoreapp.png)
 
@@ -113,7 +120,7 @@ Ouvrez-le et autorisez l'accès au stockage si vous y êtes invité. Suivez ensu
 
 Si à tout moment pendant l'installation vous voyez la pop-up "Restaurer l'app", cliquez sur Fermer. Cet avertissement est principalement à l'intention des personnes qui ont piraté le jeu, il n'y a donc pas de quoi s'inquiéter si vous possédez une copie légitime du jeu.
 
-Continuez à l'étape [Mods essentiels](#mods-essentiels) du processus d'installation.
+Vous pouvez maintenant continuer à l'étape [Mods essentiels](#mods-essentiels) du processus d'installation.
 
 ## Gérer les données de sauvegarde
 
@@ -145,20 +152,20 @@ Avant d'installer des mods supplémentaires, vous devriez voir dans le coin sup�
 :::danger ATTENTION
 Les autres mods ne fonctionneront que si tous ces mods sont listés et activés.
 
-Si un des mods essentiels ne veut pas s'activer, supprimez-le et cliquez sur `Sync to Beat Saber` pour le retélécharger. Vérifiez qu'il a bien été téléchargé et activé. S'il ne fonctionne pas, ou si les mods semblent être activés mais ne fonctionnent pas en jeu, allez voir la section [Les mods essentiels ne fonctionnent pas](#les-mods-essentiels-ne-fonctionnent-pas) pour corriger le problème.
+Si un des mods essentiels ne veut pas s'activer, supprimez-le et cliquez sur `Sync to Beat Saber` pour le retélécharger. Vérifiez qu'il a bien été téléchargé et activé. S'il ne fonctionne toujours pas, ou si les mods semblent être activés mais ne fonctionnent pas en jeu, allez voir la section [Les mods essentiels ne fonctionnent pas](#les-mods-essentiels-ne-fonctionnent-pas) pour corriger le problème.
 :::
 
 ### Depuis votre Quest
 :::warning ATTENTION
 QuestBoard ne recense pas tous les mods qui existent !  
-Si un mod n'est pas disponible ici, vous devriez suivre la [méthode d'installation avec votre PC](#depuis-votre-pc) à la place.
+Si un mod n'est pas disponible ici, vous devriez suivre la [méthode d'installation avec votre PC](#avec-votre-pc) à la place.
 :::
 
 Ouvrez BMBF dans votre Quest et rendez vous dans l'onglet `Browser`, vous devriez y voir une icône de globe similaire à celle visible ci-dessous. Cliquez dessus, puis cliquez sur le bouton `QuestBoard`.
 
 ![Globe QuestBoard](~@images/beginners-guide/globequestboard.png)
 
-Vous devriez être accueilli avec le site web [QuestBoard](https://www.questmodding.com/) ci-dessous. Ensuite, sélectionnez l'onglet `DOWNLOAD MODS`.
+Vous devriez voir apparaître le site [QuestBoard](https://www.questmodding.com/). Ensuite, sélectionnez l'onglet `DOWNLOAD MODS`.
 
 ![Accueil QuestBoard](~@images/beginners-guide/questboardhome.png)
 
@@ -170,10 +177,10 @@ Défilez avec vos joysticks. Vous pouvez sélectionner n'importe quel mod dans l
 Vous pouvez trouver et télécharger d'autres mods pour Quest depuis le [Discord BSMG](https://discord.com/invite/beatsabermods) dans le salon `#quest-mods`.
 
 :::warning ATTENTION
-Assurez-vous que votre Quest et votre PC sont sur le même réseau et que vous utilisez http et pas https !
+Assurez vous que votre Quest et votre PC sont sur le même réseau, et que vous utilisez bien HTTP et non HTTPS !
 :::
 
-Ouvrez BMBF dans votre Quest et rendez vous dans l'onglet `Browser`, vous devriez y voir une icône de globe similaire à celle visible ci-dessous.
+Ouvrez BMBF dans votre Quest et rendez-vous dans l'onglet `Tools`, ici vous devriez voir une adresse web et un numéro de version similaires à ce qui est affiché ci-dessous.
 
 ![IP](~@images/beginners-guide/ip.png)
 
@@ -185,7 +192,7 @@ Si cela ne fonctionne pas, rendez-vous [ici](#l-interface-web-bmbf-ne-charge-pas
 
 ![BMBF Web](~@images/beginners-guide/bmbfweb.png)
 
-Maintenant, glissez simplement n'importe quel mod compatible Quest dans la zone d'upload et synchronisez. Si le mod a originalement été conçu pour une ancienne version du jeu, il ne sera pas activé automatiquement. Pour activer un mod obsolète, rendez-vous dans l'onglet `Mods` et activez-le d'ici.
+Maintenant, glissez simplement n'importe quel mod compatible avec le Quest dans la boîte d'upload et synchronisez. Si le mod est fait pour une autre version à la base, il ne s'activera pas automatiquement. Pour activer un ancien mod, rendez-vous dans l'onglet `Mods` et activez-le d'ici.
 
 ## Installer des maps
 ::: tip ASTUCE
@@ -193,19 +200,19 @@ La plupart des maps dans les catégories "Top All", "Rating", "Downloads" et "Pl
 :::
 
 ### Depuis votre Quest
-Il y a 2 sources pour installer des maps personnalisées dans votre Quest en utilisant le navigateur.
+Il y a 2 sources pour installer des maps personnalisées dans votre Quest en utilisant la fenêtre du navigateur.
 
 * Si vous cherchez des maps et des playlists organisées, visitez [BeastSaber](https://bsaber.com/)
 * Si vous n'aimez pas l'interface de BeastSaber vous pouvez aussi essayer [BeatSaver](https://beatsaver.com/)
 
-Ces deux sources ont un bouton OneClick qui permet d'installer aisément la chanson voulue sur votre Quest. Vous pouvez alterner entre ces deux sites en utilisant l'icône de globe en haut à droite de la fenêtre du navigateur.
+Ces deux sources ont un bouton OneClick qui permet d'installer aisément la chanson voulue sur votre Quest. Vous pouvez alterner entre les sites en utilisant l'icône de globe en haut à droite de la fenêtre de votre navigateur.
 
 Un moyen facile de télécharger des chansons est d'utiliser `Syncsaber` que vous pouvez utiliser depuis BMBF sur votre Quest, en allant dans l'onglet `Syncsaber`. Vous pouvez y télécharger plusieurs chansons d'un clic, en configurant différentes "options". Par exemple, vous pouvez télécharger le top 20 de la section "Hot" de [BeatSaver](https://beatsaver.com/) ou les 50 chansons classées les plus dures.
 
 Une autre méthode est d'utiliser la fonction `Bookmark` (Favori) sur [BeastSaber](https://bsaber.com/). Après avoir créé un compte, vous pouvez cliquer sur une icône de favori sur une chanson, et si vous supprimez toutes les chansons de votre Quest, vous pouvez retélécharger vos chansons favorites avec OneClick™.
 
 ### Depuis votre PC
-Si vous ne pouvez pas installer des chansons personnalisées depuis votre Quest, vous pouvez installer les maps en utilisant votre ordinateur de manière similaire aux mods.
+Si vous ne pouvez pas installer de chansons personnalisées depuis votre Quest, vous pouvez les installer avec votre PC de la même façon que vous installez des mods.
 
 1. Visitez [BeastSaber](https://bsaber.com/) ou [BeatSaver](https://beatsaver.com/) sur votre ordinateur
 2. Téléchargez le zip
@@ -233,10 +240,10 @@ Rejoignez la [communauté Qosmetics](https://discord.gg/qosmetics) (en anglais) 
 * [ScoreSaber](https://new.scoresaber.com/quest) - classements en jeu pour les chansons personnalisées
 
 ## Dépannage
-:::warning J'ai regardé cette vidéo par Elite Eric, mais je me suis retrouvé coincé/ça n'a pas fonctionné. Pourquoi ? 
-Nous, chez BSMG, nous **déconseillons fortement** de suivre les tutoriels d'Elite Eric. Après avoir examiné une bonne partie de son contenu, il y a une grande quantité d'informations incomplètes, erronées ou complètement fausses. Nos tentatives de le contacter pour corriger ces erreurs n'ont malheureusement pas reçu de réponse et d'autres tutoriels (incorrects également) sont apparus.
+:::warning J'ai regardé cette vidéo d'Elite Eric ou de FluffySez, mais je suis coincé/ça n'a pas fonctionné. Pourquoi ?
+Nous, chez BSMG, recommandons **fortement** d'éviter les tutoriels d'Elite Eric ou de FluffySez. Après avoir examiné une bonne partie de leur contenu, il y a une grande quantité d'informations incomplètes, erronées ou complètement fausses. Nous avons essayé de les contacter pour corriger ces erreurs mais nous n'avons malheureusement pas reçu de réponse.
 
-À la place, vous devriez suivre les guides écrits ici sur le wiki, regarder les tutoriels vérifiés par le BSMG au-dessus, ou aller chercher de l'aide sur le [Discord BSMG](https://discord.gg/beatsabermods).
+À la place, vous devriez suivre les guides écrits ici sur le wiki ou chercher de l'aide dans le [Discord BSMG](https://discord.gg/beatsabermods) (anglophone).
 :::
 
 ### Ajouter des mods de beatmods.com ou des modèles de modelsaber.com ne fonctionne pas
@@ -251,7 +258,7 @@ Vous devrez désinstaller la version installée de BMBF de votre Quest. Vous pou
 
 ### Les mods essentiels ne fonctionnent pas
 
-Si vous rencontrez des problèmes avec les mods essentiels, vérifiez que vous n'essayez pas d'utiliser de mods obsolètes. Tout mod conçu pour une version précédente du jeu est considéré comme obsolète. Une fois vous que vous les avez retirés :
+Si vous rencontrez des problèmes avec les mods essentiels, vérifiez que vous n'essayez pas d'utiliser de mods obsolètes. Tout mod conçu pour une version précédente du jeu est considéré comme obsolète. Une vous que vous les avez retirés :
 
 1. Allez dans `Tools`
 2. Cliquez `Exit BMBF`
@@ -268,7 +275,7 @@ Si vous rencontrez des problèmes avec les mods essentiels, vérifiez que vous n
 ---
 
 ### L'interface web BMBF ne charge pas
-Si l'interface de BMBF ne charge pas dans votre navigateur, vérifiez bien que vous avez tapé l'IP se trouvant dans l'onglet Tools de l'application BMBF dans votre casque, et que votre ordinateur est sur le même réseau. Assurez-vous également que :
+Si votre interface BMBF dans votre navigateur ne charge pas, vérifiez bien que vous avez tapé l'IP se trouvant dans l'onglet Tools dans votre navigateur sur un ordinateur connecté au même réseau. Assurez-vous que :
 
 1. Votre IP n'est pas `127.0.0.1`, si c'est le cas essayez de redémarrer votre casque et/ou votre routeur.
 2. BMBF est ouvert dans votre casque
@@ -282,7 +289,7 @@ Si rien de tout ça ne fonctionne, redémarrez votre Quest et suivez les étapes
 ---
 
 ### BMBF ne charge pas la configuration après quelques minutes
-C'est généralement dû à l'utilisation d'une mauvaise version de Beat Saber avec BMBF. Par exemple, utiliser BMBF pour la version `1.13.0` de Beat Saber alors que la version du jeu installé est `1.12.2` ne fonctionnera pas.  
+C'est généralement dû à l'utilisation d'une version de BMBF non conçue pour la version de Beat Saber actuellement installée. Par exemple, utiliser BMBF pour la version `1.13.0` de Beat Saber alors que la version du jeu installé est `1.12.2` ne fonctionnera pas.  
 Si la version du jeu correspond à ce que la page de téléchargement de BMBF indique, essayez de redémarrer votre casque. Si cela ne fonctionne toujours pas, utilisez [l'interface web BMBF](#installer-les-mods) et cliquez sur `Quick Fix` dans l'onglet Tools.
 
 ### Beat Saber est noir quand je le lance
@@ -307,7 +314,7 @@ Si votre jeu plante lorsque vous faites quelque chose, désactivez vos mods un �
 Si vous voyez uniquement un écran blanc en ouvrant BMBF depuis les sources inconnues, redémarrez votre Quest, cela devrait résoudre le problème.
 
 ### Beat Saber affiche 3 points au lancement
-Si votre jeu affiche les trois points au lancement du jeu, vérifiez que :
+Si votre jeu affiche les trois points au lancement, vérifiez que :
 
 1. Vous avez lancé et joué une chanson avant de modifier le jeu
 2. Vous n'utilisez pas une version piratée du jeu

@@ -1,14 +1,17 @@
-# Translators
+# Traducteurs
+Les personnes ayant travaillé dur pour traduire le contenu du wiki dans leur langue. Un grand merci pour votre temps ! Les personnes mentionnées sur cette pages sont ceux ayant contribué aux langues actuellement disponibles sur le wiki.
 
-## French | Français
+Si vous voulez aider à traduire dans votre langue, vous pouvez postuler [ici](https://forms.gle/e3BqA3poMjESARe76) !
 
-### Proofreaders
+## Français
+
+### Relecteurs
 
 * Awagi
 * Jeremiidesu
   * [Twitter](https://twitter.com/Jeremiidesu)
 
-### Translators
+### Traducteurs
 
 * COZAX
 * Cyborger
@@ -21,21 +24,21 @@
 * Pryd
 * risi
 
-## German | Deutsch
+## Allemand | Deutsch
 
-### Proofreaders
+### Relecteurs
 
 * Gregi
   * [Twitch](https://www.twitch.tv/grregi) | [Youtube](https://www.youtube.com/user/gregiplays)
 
-### Translators
+### Traducteurs
 
-* ComputerElite  
-* CookieDLX  
-* Jen (Br3uker)  
-* Raviolimann69  
-* RobertR11  
-* SasSao  
-* Syskoh  
+* ComputerElite
+* CookieDLX
+* Jen (Br3uker)
+* Raviolimann69
+* RobertR11
+* SasSao
+* Syskoh
 * Trolav
-  * [Twitter](twitter.com/Trolav1)
+  * [Twitter](https://twitter.com/Trolav1)
