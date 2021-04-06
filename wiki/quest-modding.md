@@ -21,10 +21,8 @@ Do not attack the game developers for issues related to mods, and vice versa -
 modders and game developers are two separate groups. Just don't be a jerk ok.
 :::
 
-:::warning I watched this video by Elite Eric or FluffySez, but I got stuck/it didn't work. What gives?
-We at BSMG **strongly** suggest against using any tutorials by Elite Eric or FluffySez. After reviewing much of their content,
-they contain a large amount of incomplete, erroneous, or straight up incorrect information. Attempts to reach out
-to correct these errors has unfortunately not been successful.
+:::warning I watched video tutorial on YouTube, but I got stuck/it didn't work. What gives?
+We at BSMG **strongly** advise against using any video tutorials for modding. Often, we find that they are either outdated or contain incomplete, erroneous, or straight up incorrect information.
 
 Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
 :::
