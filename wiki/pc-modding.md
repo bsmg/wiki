@@ -31,10 +31,9 @@ If you're on Linux, check out the [Linux page](/modding/linux.md) or [QBeat](htt
 If you run into problems at any point, please head to the [support page](./support) and see if you can identify what
 went wrong before asking in the Discord server. Chances are, your answer is on that page!
 
-::: warning I watched this video by Elite Eric, but I got stuck/it didn't work. What gives?
-We at BSMG **strongly** suggest against using any tutorials by Elite Eric. After reviewing much of his content, they contain
-a large amount of incomplete, erroneous, or straight up incorrect information. Attempts to reach out to him to correct these
-errors has unfortunately been met with silence and new (also incorrect) tutorials.
+::: warning I watched a video tutorial on YouTube, but I got stuck/it didn't work. What gives?
+We at BSMG **strongly** suggest against using video tutorials for modding. Often, we find they are outdated or contain
+a incomplete, erroneous, or straight up incorrect information. 
 
 Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
 :::
