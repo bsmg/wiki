@@ -68,8 +68,7 @@ The text guides on this wiki are always more up to date as it is easier and quic
 Other video tutorials may or may not contain accurate or up-to-date information,
 and should be followed at your own risk.
 
-Instead, you should follow the written guides here on the wiki, watch the vetted tutorials made by BSMG members linked
-above, or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
+If you would like to see if your tutorial can be listed here, please [contact us](http://bit.ly/MessageBSMG).
 :::
 
 #### Legacy Videos
