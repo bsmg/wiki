@@ -65,7 +65,7 @@ The text guides on this wiki are always more up to date as it is easier and quic
   Covers various lighting techniques and general lighting tips.
 
 :::warning Tutorials on this page have been vetted by BSMG.
-Other video tutorials may or may not contain accurate or up-to-date information, 
+Other video tutorials may or may not contain accurate or up-to-date information,
 and should be followed at your own risk.
 
 Instead, you should follow the written guides here on the wiki, watch the vetted tutorials made by BSMG members linked
