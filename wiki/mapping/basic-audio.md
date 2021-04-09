@@ -127,6 +127,8 @@ The steps listed below are the same as those used in Ryger’s [Arrow Vortex BPM
 
 * Install [vcredist_x86.exe](https://support.microsoft.com/en-us/help/4032938/update-for-visual-c-2013-redistributable-package)
 in your preferred language and try again.
+  * If it still does not work, make sure you are downloading the `x86` version near the bottom of the page. 
+  Not the `x64` version.
 
 :::danger
 **This is a critical step!**  

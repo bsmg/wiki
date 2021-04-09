@@ -22,7 +22,8 @@ modders and game developers are two separate groups. Just don't be a jerk ok.
 :::
 
 :::warning I watched a video tutorial on YouTube, but I got stuck/it didn't work. What gives?
-We at BSMG **strongly** advise against using any video tutorials for modding. Often, we find that they are either outdated or contain incomplete, erroneous, or straight up incorrect information.
+We at BSMG **strongly** advise against using any video tutorials for modding. Often, we find that they are either
+outdated or contain incomplete, erroneous, or straight up incorrect information.
 
 Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
 :::
@@ -300,7 +301,8 @@ Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your 
 
 ## Troubleshooting
 :::warning I watched a video tutorial on YouTube, but I got stuck/it didn't work. What gives?
-We at BSMG **strongly** advise against using any video tutorials for modding. Often, we find that they are either outdated or contain incomplete, erroneous, or straight up incorrect information.
+We at BSMG **strongly** advise against using any video tutorials for modding. Often, we find that they are either
+outdated or contain incomplete, erroneous, or straight up incorrect information.
 
 Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
 :::

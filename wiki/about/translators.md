@@ -37,7 +37,7 @@ If you would like to join for your language, you can [apply to help translate!](
 * ComputerElite  
 * CookieDLX  
 * Jen (Br3uker)  
-* Raviolimann69  
+* Ravioliman69  
 * RobertR11  
 * SasSao  
 * Syskoh  

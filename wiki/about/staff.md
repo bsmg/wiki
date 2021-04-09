@@ -119,7 +119,7 @@ Project manager, wiki maintainer, bread baker. Despite what everyone says, I lik
 Overseeer of core services, including BeatSaver and BeatMods servers.
 The original Support and creator of the custom avatar guide, Mod Assistant, and ModelSaber.
 
-**Roles:** Staff, Support, 3D Artist  
+**Roles:** Staff, Support, 3D Artists  
 **Contributions:** BeatMods Approval Staff, Multiplayer/Saber/Avatar/Platform Creation Guides, Moderation,
 ModelSaber, BeatSaver Admin, BSMG Podcasts
 

@@ -200,9 +200,6 @@ If this only happens on particular maps, you may be missing required mods or tho
  If it happens to all of your maps, delete your `Plugins` folder and reinstall fresh ones.
 
 ### CameraPlus
-:::warning NOTE
-This mod is no longer being maintained and has been replaced with [Camera2](https://github.com/kinsi55/CS_BeatSaber_Camera2#camera2).
-:::
 
 #### 3.9 CameraPlus Isn't Working/Past Health Screen
 Make sure the in-game setting for "Smooth Camera" is turned off in your in-game settings.

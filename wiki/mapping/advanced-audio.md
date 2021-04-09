@@ -96,7 +96,7 @@ install the [LADSPA bundle](http://www.audacityteam.org/download/plug-ins/#ladsp
 | - | :- |
 | **RMS/peak** | Somewhat unique to this particular plug-in, you can think of it as an aggressivness slider. For our purpose we want it set to Peak, **1.0**. |
 | **Attack time (ms)** | How soon the compressor starts to compress the dynamics after the threshold is exceeded, in milliseconds. To make the compressor as transparent as possible setting it to **1.5 ms** is recommended. |
-| **Release time (ms)** | How soon the compressor starts to release the volume level back to normal after the level drops below the threshold, in milliseconds. To make the compressor as transparent as possible setting it to **2.0 ms** is recommended. This setting is one reason the Compressor effect shipped with Audacity isn't optimal as it only allows Release times at shortest 1 second. |
+| **Release time (ms)** | How soon the compressor starts to release the volume level back to normal after the level drops below the threshold, in milliseconds. To make the compressor as transparent as possible setting it to **2.0 ms** is recommended. This setting is one reason the Compressor effect shipped with Audacity isn't optimal as it only allows Release times of at most 1 second (1000 ms). |
 | **Threshold level (dB)** | The level at which the compressor will start to apply. This is the value to adjust if you need less or more compression. |
 | **Ratio (1:n)** | The gain reduction ratio used when the signal level exceeds the threshold level. A good starting point is **1:3**. Turn this up to have an even more aggressive reduction. |
 | **Knee radius (dB)** | The distance from the threshold where the knee curve starts. Setting this to **1 dB** or less should be sufficient. |
@@ -150,9 +150,9 @@ enough to convince your ears (usually the sections aren’t perfectly the same, 
 a cross-fade between the sections usually helps. Any type of restructuring editing is easier in a DAW software that uses
 beat grid editing, but it is possible to do the same in the free software of Audacity as well, which we will show here.
 
-For those who don’t know, a cross-fade is when one audio track fades out while another simultaneously fades in. For best
-result find identical or near-identical sections on each end of the region you want to cut. Instrumental regions in electronic
-music better suited than regions with vocals. **Using the smallest segment possible, particularly a small section between
+For those who don’t know, a cross-fade is when one audio track fades out while another simultaneously fades in. For the best
+results, find identical or near-identical sections on each end of the region you want to cut. Instrumental regions in electronic
+music are better suited than regions with vocals. **Using the smallest segment possible, particularly a small section between
 two peaks/beats, is better to convince a listener.**
 
 There is also a video of this process [available here](https://www.youtube.com/watch?v=oSua4ITfPy8).
@@ -214,11 +214,11 @@ There are several methods to go about handling variable BPM:
 * Time warp the sound into a fixed BPM using DAW software. See [Warping with Reaper](#warping-with-reaper) for info.
 * Manually time the BPM changes in MMA2.  
   * [Video tutorial by BennyDaBeast here](https://www.youtube.com/watch?v=6AwR4SeaiHU)  
-**NOTE:** Benny uses an older editor, Mediocire Mapper, in this tutorial. Some UI elements may have changed in the latest
+**NOTE:** Benny uses an older editor, Mediocre Mapper, in this tutorial. Some UI elements may have changed in the latest
   editor, [MMA2](./#mediocre-map-assistant-2) but, the rest of the content is great!
 * Use DAW software and find all the tempo changes using a tempo track editor. Use Jumps instead of Ramps as that’s how
   MMA2 changes tempo. When you’ve found all the tempo changes input those into MMA2.
-  (Remember, DAW softwares usually display measures and beats, but MMA2 only displays beats.)
+  (Remember, DAW softwares usually displays measures and beats, but MMA2 only displays beats.)
 
 ### Warping with Reaper
 [Reaper](https://www.reaper.fm/) is a DAW (Digital Audio Workstation) that has a permanent free trial and is a great alternative
