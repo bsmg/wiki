@@ -278,7 +278,7 @@ This is the local location to the difficulty file, which contains the difficulty
 Similar to the [`_songFilename`](#songfilename) and [`_coverImageFilename`](#coverimagefilename) from earlier, in most
 cases this is just the name and extension (always `.dat`) to the map file.
 
-When creating *new* difficulties, it is recommended that the name be a the Characteristic name for this difficulty's parent
+When creating *new* difficulties, it is recommended that the name be the Characteristic name for this difficulty's parent
 [Beatmap Set](#difficulty-beatmap-sets), followed by the [`_difficulty`](#difficulty) value. For example, this particular
 difficulty should have it's difficulty file be named `StandardExpertPlus.dat`.
 

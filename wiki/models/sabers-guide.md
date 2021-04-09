@@ -155,7 +155,7 @@ This includes when you hit a note, miss a note, when you start a level, etc...
 To use it, click on the plus button to create a new event, drag the gameobject performing the action in the slot,
 and then choose the desired action.
 
-If you want more information on events, read the `Events` section in the Custom Avatars guide **link needed!!!**
+If you want more information on events, read the [Events](./avatars-guide.md#events) section in the Custom Avatars guide.
 
 ![Adding an event](~@images/models/sabers/13.png)
 

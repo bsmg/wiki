@@ -159,7 +159,7 @@ anything until the vanilla blue fade event happens. This functions as an orange 
 :::
 
 :::warning
-Do not place chroma events inside another event. It can cause issues when copy pasting and MM’s shoddy rounding can even
+Do not place chroma events inside another event. It can cause issues when copy pasting and MMA2’s shoddy rounding can even
 place the chroma after the actual event and it won’t change colour. Completely avoid it. ~Halcyon12
 :::
 

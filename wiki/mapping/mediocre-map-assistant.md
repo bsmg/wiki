@@ -226,7 +226,7 @@ Using these characters in song metadata or in bookmarks will cause problems.
 * **Audio File Name:** The name of the song file (including the extension) you have placed in
   `CustomWIPLevels > [Song Folder]`. Recommended to just name it *song.ogg* to avoid the pitfalls of special characters
 * **Preview Start Time:** Position in the song file, in seconds, of the start of the in-game menu song preview.
-  Defaults to 12s/
+  Defaults to 12s
 * **Preview Duration:** Duration, in seconds, of the in-game menu song preview. Defaults to 10s
 * **Cover Image Name:** The name of the image file (including the extension) you have placed in
   `CustomWIPLevels > [Song Folder]`. Must be perfectly square and at least 256 px
