@@ -55,6 +55,7 @@ let us know in #mapping-discussion!
 ## D
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
+| **Danger Dash** | A [Wall](#wxyz) that spans the two middle [Lanes](#l) or more, requiring the player to move out of the center of the [Track](#t) to avoid. This is considered never okay to use. See also: [3-Wide Wall](#a). <details><summary>**Example Image**</summary>![Picture of danger dash](~@images/mapping/danger-dash-alt.png)</details> |
 | **.dat File** | The text file containing most content for a certain difficulty or song info in the new 2.0 song format. It contains JSON format with a different structure compared to the 1.0 song format, and a different file extension. This file format is used for both song info and for map content. See also: [Difficulty File](#d), [Info File](#i). |
 | **DD** | Abbreviation of [Double Directional](#d). |
 | **Difficulty File** | The [.dat File](#d) containing most content for that difficulty. In the old, obsolete song format, this was a [.json File](#j). |
