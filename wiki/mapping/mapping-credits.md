@@ -112,6 +112,12 @@ Created a video tutorial on using the [Official Editor](./#official-editor) and 
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855407) | [BeastSaber](https://bsaber.com/members/megalon/)
 | [GitHub](https://github.com/megalon) | [Twitch](https://twitch.tv/megalonttv) | [Donate](https://ko-fi.com/megalon)
 
+## namaki mono
+Copyedits wiki pages to ensure that they are clean, clear, and consistent. Focuses on keeping the [Mapping Glossary](./glossary.md)
+up-to-date.  
+[BeatSaver](https://beatsaver.com/uploader/602f812246eb150006d933ca) | [YouTube](https://www.youtube.com/channel/UCwuqVWcrCgCzJTgM-0UHtuQ)
+| [Twitch](https://www.twitch.tv/namaki_mono)
+
 ## Nik/n3tman
 Makes playlists and dabbles in audio editing. Authored content in [Basic Audio Setup](./basic-audio.md) and
 [Advanced Audio Editing](./advanced-audio.md) with [Kolezan](#kolezan).  
