@@ -30,10 +30,12 @@ to the tube lights and mist.
 
 ### Track Rings
 The `Track Rings` script makes track rings like seen in the game. To achieve this, the script takes a prefab.
-To create one, drag and drop a GameObject from your `Hierarchy` into the `Assets/Models/` folder. After this the GameObject can safely be deleted.
+To create one, drag and drop a GameObject from your `Hierarchy` into the `Assets/Models/` folder.
+After this the GameObject can safely be deleted.
 Now once again drag and drop your newly created prefab onto the `Track Rings` script.
 
-Enabling the rotation effect, makes the rings rotate by the specified event, depending on the variables it's given. (I haven't played around with these yet so experiment).
+Enabling the rotation effect, makes the rings rotate by the specified event, depending on the variables it's given.
+(I haven't played around with these yet so experiment).
 
 Enabling the step effect changes the rings spacing when the specified event is called between 2 variables.
 
@@ -43,16 +45,20 @@ Enabling the step effect changes the rings spacing when the specified event is c
 ![Tube Light](~@images/models/platforms/TubeLightScript.png)
 
 This script enables blinking lights.
-Either put this on an empty GameObject and adjust the width, length and center parameters or on one with a mesh renderer attached. 
+Either put this on an empty GameObject and adjust the width, length and center parameters
+or on one with a mesh renderer attached.
 The colors will change according to the specified light ID.
 
 ### Song Events
 ![Song Event Handler](~@images/models/platforms/SongEventHandler.png)
 
 The `Event Manager` is the most useful script. With it you can trigger an action on any beat saber event (even unused).
-For adding an event press the + button underneath On Trigger (). Drag in the object you want to manipulate into the box that just got created.
-Press the dropdown menu to the right and choose what that object should do, by first selecting what component, then what action.
-There are more predefined events like the `Combo Reached Event`, `Text Event Filter` (useful for custom counters) or `Every Nth ComboFilter`.
+For adding an event press the + button underneath On Trigger ().
+Drag in the object you want to manipulate into the box that just got created.
+Press the dropdown menu to the right and choose what that object should do,
+by first selecting what component, then what action.
+There are more predefined events like the `Combo Reached Event`,
+`Text Event Filter` (useful for custom counters) or `Every Nth ComboFilter`.
 
 ### Spectogram
 ![Spectogram](~@images/models/platforms/Spectogram.png)
