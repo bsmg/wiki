@@ -44,6 +44,13 @@ Bringer of eye damage with his flashy light shows, he can help you make your map
 ## Top_Cat
 First time ChroMapper contributor and MMA2 maintainer. Might finish a map one day.
 
+## Vaser888
+"He's like batman. He shows up, drops testplays, vanishes into the night"
+
+[BeatSaver](https://beatsaver.com/uploader/5f63fb45103cbc00068ee060) |
+[BeastSaber](https://bsaber.com/members/vaser888/) |
+[YouTube](https://www.youtube.com/c/vaser888)
+
 ::: tip See Also
 **Supports:** [Kolezan](./supports.md#kolezan)  
 **Moderators:** [Pyrowarfare](./moderators.md#pyrowarfare)  
