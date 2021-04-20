@@ -72,6 +72,8 @@ Once it has been successfully installed, make sure you have the latest version o
 
 :::warning
 Before modding, run Beat Saber once, play a level and immediately fail!
+
+Make sure that you don't use the multi-user feature. Delete any other user except the main account. You can add them later again after completing modding.
 :::
 
 After running Beat Saber once, open BMBF from unknown sources as the picture below shows.
