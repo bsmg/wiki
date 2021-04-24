@@ -34,7 +34,7 @@ loading times and provide functionality for other mods like the in-game download
 ::: warning
 This guide is for PC-modding on Windows.  
 If you have a Quest, see the [Quest Modding page](/quest-modding.md).  
-If you're on Linux, check out the [Linux page](/modding/linux.md) or [QBeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md)
+If you're on Linux, check out the [Linux page](/modding/linux.md) or [Beataroni](https://github.com/geefr/beatsaber-linux-goodies/#readme)
 :::
 
 If you run into problems at any point, please head to the [support page](./support) and see if you can identify what

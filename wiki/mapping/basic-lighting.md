@@ -214,7 +214,8 @@ store platform specific steps below.
 ![SiraUtil JSON Setting](~@images/mapping/sirautil-FPFC.png)
 
 **For Steam Users:**
-Open the game properties and add `fpfc` to the Steam launch options.
+
+Open the game properties and add `fpfc` to the Steam launch options in the General tab.
 ![Fpfc launch options](~@images/mapping/fpfc.png)
 
 **For Oculus Users:**
