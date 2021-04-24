@@ -117,6 +117,8 @@ this table, adjust the offset as needed to reach the target spawn distance.
 In [Basic Mapping](./basic-mapping.md#do-mapping-with-flow) we covered the bare essentials of parity.
 Now we’ll dig deeper and explore why some hits just feel bad.  
 
+This video demonstrates some more advanced concepts of parity: [YouTube](https://youtu.be/NF8ESZRXI1c)
+
 Flow is arguably the most important concept in mapping - how each arm travels to move from one hit to the next. This can
 be as simple as alternating between "forehand" and "backhand" notes, or as complicated as thinking about how one arm
 interacts with the other at the edges of the playspace. Since the player must see blocks in order to react to them, flow
