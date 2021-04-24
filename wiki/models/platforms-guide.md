@@ -52,23 +52,24 @@ The colors will change according to the specified light ID.
 ### Song Events
 ![Song Event Handler](~@images/models/platforms/SongEventHandler.png)
 
-The `Event Manager` is the most useful script. With it you can trigger an action on any beat saber event (even unused).
-For adding an event press the + button underneath On Trigger ().
+The `Event Manager` is the most useful script. With it you can trigger an action on any Beat Saber event (even unused).
+For adding an event press the `+` button underneath `On Trigger ()`.
 Drag in the object you want to manipulate into the box that just got created.
 Press the dropdown menu to the right and choose what that object should do,
 by first selecting what component, then what action.
 There are more predefined events like the `Combo Reached Event`,
 `Text Event Filter` (useful for custom counters) or `Every Nth ComboFilter`.
 
-### Spectogram
-![Spectogram](~@images/models/platforms/Spectogram.png)
+### Spectrogram
+![Spectrogram](~@images/models/platforms/Spectrogram.png)
 
 The `Spectrogram` script works like the track rings script and also requires a prefab.
-This will get stretched and shrunk according to the sound of the game and the variables provided
+This will get stretched and shrunk according to the sound of the game and the variables provided.
 
-### Rotation Effetcs
-![Rotation Effetcs](~@images/models/platforms/RotationEffects.png)
-Both the `RotationEventEffect` and the `PairRotationEventEffec`t rotate your GameObjects based on the assigned song event.
+### Rotation Effects
+![Rotation Effects](~@images/models/platforms/RotationEffects.png)
+
+Both the `RotationEventEffect` and the `PairRotationEventEffect` rotate your GameObjects based on the assigned song event.
 Those scripts are useful to create rotating laser (pairs) like in default environments.
 
 ### Color Material
@@ -78,7 +79,7 @@ Use this if you want to create custom shaders.
 ::: tip NOTE
 You don't need to restart your game anymore in order for changes to take effect.
 When you remove, create or change a file in your CustomPlatforms directory,
-these actions are reflected in-game and the corrosponding platform is deleted, loaded or updated.
+these actions are reflected in-game and the corresponding platform is deleted, loaded or updated.
 :::
 
 ## Exporting
