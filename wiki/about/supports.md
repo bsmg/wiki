@@ -60,6 +60,11 @@ This guy came out of nowhere and started helping in support saying it was some k
 
 [Twitter](https://twitter.com/Radevirot) | [Donate](paypal.me/Radevirot)
 
+## Rex
+I really like to help people. Yeah that's all.
+
+**Roles:** Support
+
 ## rui2015
 Has no creativity and doesn't know what to put here. Is a cool person though.
 

@@ -44,7 +44,7 @@ on [BeastSaber](https://bsaber.com), or tell them personally! They'll really app
 
 ### [Mapping Resources Contributors](/mapping/mapping-credits.md)
 A group of experienced mappers that took the time to write down and share their knowledge to help others get started or improve.
-Checkout their maps and consider supporting them!
+Check out their maps and consider supporting them!
 
 ### [Translators](./translators.md)
 The hardworking people who took the time to translate the wiki content into their own languages. A heartfelt thank you
