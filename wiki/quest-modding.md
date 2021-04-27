@@ -93,7 +93,6 @@ for ignoring it.
 Continue to the [Core Mods](#core-mods) step of the installation process.
 
 ### Installing BMBF with an Android Phone
-This is **NOT** the recommended way to install BMBF and should only be used if you do not have access to a PC.
 
 * [Requirements](#requirements)
 * [Setup your Phone](#setup-your-phone)
@@ -109,16 +108,15 @@ Quest should work)
 
 #### Setup your Phone
 
-1. Download the [bugjaeger app from the Google Play store](https://play.google.com/store/apps/details?id=eu.sisik.hackendebug&hl=gsw&gl=US)
-2. Download the newest [BMBF APK from bmbf.dev/stable](https://bmbf.dev/stable)
-3. Follow [this written guide](https://github.com/ComputerElite/wiki/wiki/Enable-Developer-Mode-for-OQ) to Enable
+1. Download the [SideQuest app from the Google Play store](https://play.google.com/store/apps/details?id=side.quest.mobile)
+2. Follow [this written guide](https://github.com/ComputerElite/wiki/wiki/Enable-Developer-Mode-for-OQ) to Enable
 Developer Mode on your Quest.
-4. Enable Developer mode on your Phone
+3. Enable Developer mode on your Phone
     1. Go into your Android settings
     2. Scroll to "About phone" and open it
     3. Tap "Software information"
     4. Tap the "Build number" field until it says Developer mode enabled. This should take about 7 taps.
-5. Enable USB debugging on your Phone
+4. Enable USB debugging on your Phone
     1. Go back to settings
     2. Tap "Developer options"
     3. Activate USB debugging
@@ -128,15 +126,10 @@ Developer Mode on your Quest.
 Before modding, run Beat Saber once, play a level and immediately fail!
 :::
 
-Open bugjaeger on your Phone and connect your Quest.
+Open Sidequest on your Phone connect and your Quest with your phone via the USB Cord.
 You should get a USB debugging pop-up in your Quest and on your phone. Select allow on both devices and if you prefer,
 select always allow.
-Once bugjaeger picks your Quest up, install the BMBF APK by doing following:
-
-![installAPKusingPhone.png](~@images/beginners-guide/InstallAPK.png)
-
-After you pressed ok, allow file access and select the download APK file which should be labeled `com.weloveoculus.BMBF.apk`.
-The apk file should now install to your Quest.
+Now if SideQuest picked your Quest up you should see the SideQuest logo with a green dot next to it at the bottom of your Screen. Then install BMBF by clicking the search icon at the top of SideQuest and search for `BMBF`. You should see an app with an unicorn as symbol. Tap on that and click `INSTALL TO HEADSET`. Afterwards you should have BMBF installed on your Quest and are ready to mod Beat Saber.
 
 #### Setup Beat Saber
 After successfully installing BMBF onto your Quest you should be able to find it in your Quests library under unknown sources.
