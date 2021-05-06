@@ -80,9 +80,9 @@ all secondary accounts before modding the game. You can add them back later once
 After running Beat Saber once, open BMBF from unknown sources as the picture below shows.
 ![UnknownSources](~@images/beginners-guide/quest_home-menu.jpg)
 
-Follow each step exactly as you're told. Then, you should see [bsaber.com](https://www.bsaber.com).
+Once opened, follow each step in BMBF exactly as you're told to mod your game. Once completed, you should see [bsaber.com](https://www.bsaber.com) inside of the BMBF app.
 This is where you can download any custom songs available. You can also click on the globe icon in the top right and go
-to beatsaver to download songs too.
+to BeatSaver to download songs too.
 
 If at any point during the install process, you get the `Restore App` popup just click `Close`.
 This warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences
@@ -102,14 +102,14 @@ This is **NOT** the recommended way to install BMBF and should only be used if y
 
 #### Requirements
 
-* An Android Phone or Android Tablet (IPhones or IPads are not supported)
+* An Android Phone or Android Tablet (iPhones or iPads are not supported)
 * A **paid** Version of Beat Saber on the Oculus Quest Store
 * A Cable to connect your Quest to your Phone (If your phone charges over USB C the charger that was included with your
 Quest should work)
 
 #### Setup your Phone
 
-1. Download the [bugjaeger app from the Google Play store](https://play.google.com/store/apps/details?id=eu.sisik.hackendebug&hl=gsw&gl=US)
+1. Download the [Bugjaeger app from the Google Play store](https://play.google.com/store/apps/details?id=eu.sisik.hackendebug&hl=gsw&gl=US)
 2. Download the newest [BMBF APK from bmbf.dev/stable](https://bmbf.dev/stable)
 3. Follow [this written guide](https://github.com/ComputerElite/wiki/wiki/Enable-Developer-Mode-for-OQ) to Enable
 Developer Mode on your Quest.
@@ -128,10 +128,10 @@ Developer Mode on your Quest.
 Before modding, run Beat Saber once, play a level and immediately fail!
 :::
 
-Open bugjaeger on your Phone and connect your Quest.
+Open Bugjaeger on your Phone and connect your Quest.
 You should get a USB debugging pop-up in your Quest and on your phone. Select allow on both devices and if you prefer,
 select always allow.
-Once bugjaeger picks your Quest up, install the BMBF APK by doing following:
+Once Bugjaeger picks your Quest up, install the BMBF APK by doing following:
 
 ![installAPKusingPhone.png](~@images/beginners-guide/InstallAPK.png)
 
@@ -146,7 +146,7 @@ After successfully installing BMBF onto your Quest you should be able to find it
 Open it and allow file access after starting it if prompted. Now follow the on-screen instructions carefully.
 After you finished you should see [BeastSaber](https://bsaber.com).
 
-If at any point during the install process, you get the Restore App popup just click Close.
+If at any point during the install process, you get the `Restore App` popup just click `Close`.
 This warning is directed to pirated versions of the game so there will likely be no consequences for ignoring it if you
 have a legitimate copy.
 
@@ -182,7 +182,7 @@ says, `Sync to Beat Saber`.
 Click this and let it finish syncing. Then go to your `mods` tab in BMBF. Make sure that you have the 5 core mods:
 
 * Codegen
-* Goodbye bug
+* Goodbye Bug
 * PinkCore
 * QuestUI
 * Custom Types
@@ -258,12 +258,12 @@ There are 2 sources to getting custom maps inside your Quest using the browser w
 Both have a OneClick™ button that easily installs that song onto your Quest.
 You can switch between these websites using the globe icon in the top right of the browser window.
 
-An easy way to download different kinds of songs is to use `Syncsaber` you can access it by going into BMBF on your quest
+An easy way to download different kinds of songs is to use `Syncsaber` which you can access by going into BMBF on your quest
 and clicking the tab called `Syncsaber`. Here you can download songs with a click of a button, you can choose from
-different "settings". For example you can download the top 20 songs in [Beatsaver's](https://beatsaver.com/) "hot" section
+different "settings". For example, you can download the top 20 songs in [BeatSaver's](https://beatsaver.com/) "hot" section
 or the 50 hardest ranked songs.
 
-Another method is using the `Bookmark` feature on [Beastsaber](https://bsaber.com/). After creating an account you can click
+Another method is using the `Bookmark` feature on [BeastSaber](https://bsaber.com/). After creating an account you can click
 a little bookmark icon on a song and if you later delete all your songs from the Quest you can redownload the ones that
 are bookmarked with OneClick™.
 
@@ -273,12 +273,12 @@ If you are unable to install songs inside your Quest, you can install maps using
 1. Visit [BeastSaber](https://bsaber.com/) or [BeatSaver](https://beatsaver.com/) on your computer
 2. Download the zip
 3. Follow the [Installing mods using your PC](#using-your-pc) steps up to the upload files screen.
-4. Drag and drop the map zip in and it should be installed!
+4. Drag and drop the map zip in, and it should be installed!
 
 If the web interface doesn't load [click here](#bmbf-web-interface-not-loading) for some troubleshooting steps.
 
 :::tip
-You can also download playlists in the same way. You can find various playlists on [Beastsaber](https://bsaber.com/category/playlists/)
+You can also download playlists in the same way. You can find various playlists on [BeastSaber](https://bsaber.com/category/playlists/)
 or various community discords. You can also make your own using [BMBF Manager](https://github.com/ComputerElite/BM#bmbf-manager)
 or [Playlist Editor Pro](https://beatsaberquest.com/playlisteditor-pro/).
 
@@ -295,9 +295,9 @@ Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your 
   sabers, bloqs, and walls for Quest.
 * [Qosmetics Creation Guides](https://github.com/RedBrumbler/Qosmetics/wiki) - Guides to create your own custom
   sabers, bloqs, and walls for Quest.
-* [Questboard website](https://questmodding.com) - A place to get Beat Saber related news and info along with the latest
+* [QuestBoard website](https://questmodding.com) - A place to get Beat Saber related news and info along with the latest
   mods releases!
-* [Questboard discord server](https://discord.gg/P7sUKVnP) - A quest community to hangout and talk about Beat Saber
+* [QuestBoard discord server](https://discord.gg/P7sUKVnP) - A quest community to hangout and talk about Beat Saber
   related stuff, you can also get a role to get notified when a new mod gets released!
 * [Fixing Out of Sync Audio](https://bsaber.com/quest-out-of-sync/)
 * [ScoreSaber](https://new.scoresaber.com/quest) - In-game leaderboards for custom songs
@@ -389,7 +389,7 @@ If the BMBF version for your Beat Saber is not there then please wait a while fo
 If your game is crashing when doing something, disable your mods one by one, running your game each time to see if the
 issue is fixed before asking for help in a support channel.
 
-### I only see a white screen when i open BMBF
+### I only see a white screen when I open BMBF
 If you only see a white screen when you open BMBF from unknown sources, restart your quest and then it should be fixed
 
 ### My Beat Saber gets 3 dots when I launch
