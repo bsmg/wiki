@@ -52,7 +52,9 @@ Als de vermelde details in sectie 1.1 hierboven juist zijn, probeer dan de onder
 * Maak een back-up van de `UserData` map (optioneel).
 * Verwijder de `UserData` map.
 
-::: warning Waarschuwing Dit zal alle instellingen van je mods resetten! :::
+::: warning Waarschuwing 
+Dit zal alle instellingen van je mods resetten!
+:::
 
 ##### Oplossing 4
 
@@ -90,7 +92,7 @@ Als het spel zo erg blijft laggen dat je nauwelijks op de `Continue` knop op het
 Als dat het probleem niet oplost, bekijk dan sectie [2.4 framerate verbeteren](#framerate-problemen)
 
 #### 2.4 Framerate verbeteren
-Als [2.3](#2-3-het-spel-lagged-op-een-ondraaglijke-manier-na-het-installeren-van-mods) je fps niet verbetert, dan kan het zijn dat je PC misschien gewoon moeite heeft om de stress, die veroorzaakt word door mods, bij te houden. Hier zijn enkele dingen die je kunt doen om de framerate te verbeteren, zonder specifieke volgorde:
+Als [2.3](#_2-3-het-spel-lagged-op-een-ondraaglijke-manier-na-het-installeren-van-mods) je fps niet verbetert, dan kan het zijn dat je PC misschien gewoon moeite heeft om de stress, die veroorzaakt word door mods, bij te houden. Hier zijn enkele dingen die je kunt doen om de framerate te verbeteren, zonder specifieke volgorde:
 
 * Controleer of NVIDIA GEFORCE EXPERIENCE de renderingsschaal voor Beat Saber voorbij het standaard van 1.0 ingesteld heeft. Het kan het op een hoger nummer hebben ingesteld (bijvoorbeeld 1,4 of 1,8) waardoor de belasting op de GPU aanzienlijk toeneemd.
 * Gebruik een minder complexe custom avatar.
@@ -113,7 +115,9 @@ VR is zeer CPU intensief, vooral als je mods toevoegt. Als je moeite hebt om het
 #### 3.1 Leeg Menu, Geen knoppen
 Als het hoofdmenu van het spel leeg is, dan is jouw save file waarschijnlijk beschadigd. Om dit op te lossen, lees dan [Het verwijderen van jouw Beat Saber AppData map](#het-verwijderen-van-je-bestanden-in-appdata).
 
-:::: warning Waarschuwing Hierdoor worden je lokale scores en statistieken verwijderd. :::
+::: warning Waarschuwing
+Hierdoor worden je lokale scores en statistieken verwijderd.
+:::
 
 #### 3.2 Hoe gebruik ik mod `x`?
 Als je de Mod Assistant gebruikt, selecteer dan de mod en druk vervolgens op de "Mod Info" knop. [BeatMods](http://beatmods.com) heeft tevens ook een "More Info" knop voor elke mod.
@@ -194,7 +198,7 @@ Hieronder is een lijst met bekende foutcodes, wat ze betekenen en wat je kan doe
 | CFR-7      | Je hebt een versie van het spel dat niet wordt ondersteund door de servers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | CFR-8      | Wachtwoord voor de lobby is incorrect. Controleer of je het juiste wachtwoord invult.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | CFR-9      | De matchmaking servers die Beat Games beheren, die openstaande publieke en privé lobby's bijhouden, zijn offline. Probeer het later opnieuw.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| CFR-10     | Je sessiesleutel van Steam of Oculus is niet geldig. Als je op Quest speelt en je game hebt gemod, bekijk dan dit [FAQ antwoord](/faq/README.md#heeft-multiplayer-crossplay) om hier mee om te gaan. Anders heb je een illegaal verkregen kopie van het spel dat niet wordt ondersteund.                                                                                                                                                                                                                                                                                                                                                                                  |
+| CFR-10     | Je sessiesleutel van Steam of Oculus is niet geldig. Als je op Quest speelt en je game hebt gemod, bekijk dan dit [FAQ antwoord](/nl/faq/README.md#heeft-multiplayer-crossplay) om hier mee om te gaan. Anders heb je een illegaal verkregen kopie van het spel dat niet wordt ondersteund.                                                                                                                                                                                                                                                                                                                                                                                  |
 | CFR-11     | Jouw internetverbinding is offline.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 <!-- markdownlint-enable MD013 -->
 
@@ -258,10 +262,14 @@ Je kan ook naar deze map navigeren door verborgen items te weergeven en te navig
 
 <YouTube url='https://youtu.be/ONxJcD3Ir3Q' />
 
-::: warning Waarschuwing Als je de Appdata map verwijdert, dan worden ook uw lokale scores en statistieken verwijderd. :::
+::: warning Waarschuwing
+Als je de Appdata map verwijdert, dan worden ook uw lokale scores en statistieken verwijderd.
+:::
 
 #### Wanhopige maatregelen
-:::warning Waarschuwing Het uitschakelen van jouw anti-virus brengt veiligheidsrisico's met zich mee, zorg ervoor dat je zeker weet wat je doet (zoals: download of open geen verdachte bestanden terwijl het is uitgeschakeld) en vergeet het niet opnieuw aan te zetten zodra je klaar bent met deze stappen. :::
+:::warning Waarschuwing
+Het uitschakelen van jouw anti-virus brengt veiligheidsrisico's met zich mee, zorg ervoor dat je zeker weet wat je doet (zoals: download of open geen verdachte bestanden terwijl het is uitgeschakeld) en vergeet het niet opnieuw aan te zetten zodra je klaar bent met deze stappen.
+:::
 
 * Zorg ervoor dat jouw huidige gebruiker een **administrator** is.
 * Zet jouw anti-virus (voorlopig) **uit**.
@@ -277,6 +285,8 @@ Als deze pagina je niet kon helpen met het probleem op te lossen, voel je dan vr
 * Wees beleefd en respectvol.
 * Beschrijf je probleem gedetailleerd. "Het werkte niet" is ongeveer zo beschrijvend als je arts vertellen dat je je niet goed voelt. Wat werkt niet, en wat heb je geprobeerd? Zijn er berichten die op het scherm verschijnen? Is je hele scherm knal roze geworden?
 
-::: tip Opmerking De mensen met de `Support` rol zijn vrijwilligers die ervoor kunnen kiezen om in hun vrije tijd te helpen. De support rol is een erkenning van de kennis en inspanningen die zij hebben verricht, maar het betekent niet automatisch dat ze er zullen zijn om te helpen simpelweg omdat ze online zijn. :::
+::: tip Hint
+Opmerking De mensen met de `Support` rol zijn vrijwilligers die ervoor kunnen kiezen om in hun vrije tijd te helpen. De support rol is een erkenning van de kennis en inspanningen die zij hebben verricht, maar het betekent niet automatisch dat ze er zullen zijn om te helpen simpelweg omdat ze online zijn.
+:::
 
 Veel dank aan Saber-Chan voor hun harde werk op deze pagina.

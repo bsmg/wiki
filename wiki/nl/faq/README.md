@@ -30,13 +30,15 @@ Je zou in het spel de afspeellijst naast de custom levels albums moeten kunnen z
 ### Quest
 Je kan [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) gebruiken om afspeellijsten te beheren op je Quest. Houd er rekening mee dat een zelfgemaakt nummer slechts éénmaling in het spel kan worden weergegeven vanwege een beperking met BMBF.
 
-:::warning WAARSCHUWING voor Quest Gebruikers Het herladen van de custom levels, reset alle afspeellijsten. :::
+:::warning WAARSCHUWING 
+voor Quest Gebruikers Het herladen van de custom levels, reset alle afspeellijsten.
+:::
 
 ## Hoe maak ik mijn eigen levels?
 Zie [Levels maken](/nl/mapping/)!
 
 ## Hoe gebruik ik PC mods die niet in Mod Assistant beschikbaar zijn?
-Zie [deze sectie](/pc-modding.md#handmatige-installatie) in de Beginners Gids.
+Zie [deze sectie](/nl/pc-modding.md#handmatige-installatie) in de Beginners Gids.
 
 ## Heeft Multiplayer Crossplay?
 Officieel is multiplayer gelimiteerd tot het spelen met mensen die het spel via dezelfde winkel hebben gekocht (Oculus/Steam). Bovendien zorgt het modden van het spel op Quest er voor dat de officiële multiplayer niet meer werkt.
@@ -49,7 +51,7 @@ Elke keer als het spel update is het mogelijk *(en zeer waarschijnlijk)* dat je 
 Om mods terug te krijgen, hoef je simpelweg **de installer opnieuw uit te voeren.**  
 De BeatMods database bevat enkel mods waarvan gecontroleerd is dat ze werken op de nieuwste versie van het spel!
 
-Als je hierdoor in de war bent geraakt, bekijk dan de [Beginners Gids](/beginners-guide.md).
+Als je hierdoor in de war bent geraakt, bekijk dan de [Beginners Gids](/nl/beginners-guide.md).
 
 ## Hoe werkt het score systeem in Beat Saber? Hoe werkt de globale rang?
 We hebben paragrafen op de [grepen en trucks](/nl/grips-and-tricks.md) pagina toegewijd aan het scoren en rang systemen, bekijk het eens!
