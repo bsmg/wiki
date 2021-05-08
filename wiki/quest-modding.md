@@ -80,7 +80,8 @@ all secondary accounts before modding the game. You can add them back later once
 After running Beat Saber once, open BMBF from unknown sources as the picture below shows.
 ![UnknownSources](~@images/beginners-guide/quest_home-menu.jpg)
 
-Once opened, follow each step in BMBF exactly as you're told to mod your game. Once completed, you should see [bsaber.com](https://www.bsaber.com) inside of the BMBF app.
+Once opened, follow each step in BMBF exactly as you're told to mod your game. Once completed, you should see [Bsaber.com](https://www.bsaber.com)
+inside of the BMBF app.
 This is where you can download any custom songs available. You can also click on the globe icon in the top right and go
 to BeatSaver to download songs too.
 
