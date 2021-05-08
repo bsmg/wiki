@@ -33,6 +33,10 @@ module.exports = {
       lang: 'de-DE',
       title: 'BSMG Wiki',
     },
+    '/nl/': {
+      lang: 'nl-NL',
+      title: 'BSMG Wiki',
+    },
   },
 
   markdown: {
@@ -147,7 +151,7 @@ module.exports = {
           { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
         ],
         sidebar: {
-          '/de/about/': generateSidebar('About', [
+          '/de/about/': generateSidebar('Über uns', [
             '',
             'staff',
             'moderators',
@@ -166,7 +170,48 @@ module.exports = {
             'intro',
             'linux',
           ]),
-          '/de/models/': generateSidebar('3D Models', [
+          '/de/models/': generateSidebar('3D Modelle', [
+            '',
+            'custom-sabers',
+            'custom-avatars',
+            'custom-platforms',
+            'custom-notes',
+            'custom-walls',
+          ]),
+        },
+      },
+      '/nl/': {
+        selectText: 'Nederlands',
+        label: 'Nederlands',
+        ariaLabel: 'Nederlands',
+        editLinkText: 'Help deze pagina te verbeteren!',
+        lastUpdated: 'Laatste keer bijgewerkt',
+        nav: [
+          { text: 'Hoofdmenu', link: '/nl/' },
+          { text: 'Gids voor beginners', link: '/nl/beginners-guide.md' },
+          { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
+        ],
+        sidebar: {
+          '/nl/about/': generateSidebar('Over ons', [
+            '',
+            'staff',
+            'moderators',
+            'modders',
+            'supports',
+            'mapping-supports',
+            '3d-artists',
+            'translators',
+          ]),
+          '/nl/faq/': generateSidebar('Veel Gestelde Vragen', [
+            '',
+            'install-folder',
+          ]),
+          '/nl/modding/': generateSidebar('Modding', [
+            '',
+            'intro',
+            'linux',
+          ]),
+          '/nl/models/': generateSidebar('3D modellen', [
             '',
             'custom-sabers',
             'custom-avatars',
