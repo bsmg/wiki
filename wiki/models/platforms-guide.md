@@ -56,8 +56,8 @@ For adding an event press the `+` button underneath `On Trigger ()`. Drag in the
 that just got created. Press the dropdown menu to the right and choose what that object should do, by first selecting what
 component, then what action. Make sure that you only use 1 event Handler per gameObject, as only 1 will work per gameObject.
 
-### Spectogram
-![Spectogram](~@images/models/platforms/Spectogram.png)
+### Spectrogram
+![Spectrogram](~@images/models/platforms/Spectrogram.png)
 
 The spectrogram script works like the track rings script and also requires a prefab or gameObject. This will get stretched
 and shrunk according to the sound of the game and the variables provided. (Haven't played with this either).
