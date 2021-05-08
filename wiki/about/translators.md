@@ -43,3 +43,18 @@ If you would like to join for your language, you can [apply to help translate!](
 * Syskoh  
 * Trolav
   * [Twitter](twitter.com/Trolav1)
+
+## Dutch | Nederlands
+
+### Proofreaders
+
+* Eris
+
+### Translators
+
+* boulders2000
+* Jestro
+* Marrlain
+* OnderHond
+* RedBrumbler
+* Rusty69
