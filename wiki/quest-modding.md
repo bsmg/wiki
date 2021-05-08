@@ -129,7 +129,14 @@ Before modding, run Beat Saber once, play a level and immediately fail!
 Open Sidequest on your Phone connect and your Quest with your phone via the USB Cord.
 You should get a USB debugging pop-up in your Quest and on your phone. Select allow on both devices and if you prefer,
 select always allow.
-Now if SideQuest picked your Quest up you should see the SideQuest logo with a green dot next to it at the bottom of your Screen. Then install BMBF by clicking the search icon at the top of SideQuest and search for `BMBF`. You should see an app with an unicorn as symbol. Tap on that and click `INSTALL TO HEADSET`. Afterwards you should have BMBF installed on your Quest and are ready to mod Beat Saber.
+
+Now if SideQuest picked your Quest up you should see the SideQuest logo with a green dot next to it at the bottom of
+your Screen.
+
+Then install BMBF by clicking the search icon at the top of SideQuest and search for `BMBF`.
+You should see an app with an unicorn as symbol. Tap on that and click `INSTALL TO HEADSET`.
+
+Afterwards you should have BMBF installed on your Quest and are ready to mod Beat Saber.
 
 #### Setup Beat Saber
 After successfully installing BMBF onto your Quest you should be able to find it in your Quests library under unknown sources.
