@@ -1,44 +1,15 @@
-# Vertalers
-De hardwerkende mensen die de tijd hebben genomen om de inhoud van de wiki te vertalen in hun eigen taal. Hartelijk bedankt voor jouw tijd! Degene die hier vermeld zijn zijn voor de talen die op dit moment beschikbaar zijn op de website.
+---
+sidebar: false
+---
 
-Als je mee wilt doen met jouw taal, kan je [soliciteren voor het helpen met vertalen!](https://forms.gle/e3BqA3poMjESARe76)
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+Sorry, deze pagina is nog niet vertaald.
 
-## Frans | Français
+Je kan:
 
-### Proeflezers
+* Overschakelen naar de Engelse versie vanuit het taal menu.
+* Wachten totdat deze pagina is vertaald.
+* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
 
-* Awagi
-* Jeremiidesu
-  * [Twitter](https://twitter.com/Jeremiidesu)
-
-### Vertalers
-
-* COZAX
-* Cyborger
-* ghertz
-* leochr
-* megamaz
-* Melopod
-* Moreo
-* ponizin
-* Pryd
-* risi
-
-## Duits | Deutsch
-
-### Proeflezers
-
-* Gregi
-  * [Twitch](https://www.twitch.tv/grregi) | [Youtube](https://www.youtube.com/user/gregiplays)
-
-### Vertalers
-
-* ComputerElite
-* CookieDLX
-* Jen (Br3uker)
-* Ravioliman69
-* RobertR11
-* SasSao
-* Syskoh
-* Trolav
-  * [Twitter](twitter.com/Trolav1)
+[Ga terug naar de startpagina](/nl/)
