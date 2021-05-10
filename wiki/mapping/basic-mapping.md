@@ -334,6 +334,10 @@ that included these but that doesn't make them ok.
 |:----:|:----:|:---- |
 | ![Illustration of wide precision](~@images/mapping/wide-precision.png) | ![Editor view of wide precision](~@images/mapping/wide-precision-alt.png) | These bombs are incredibly hard to avoid for players with short arms. When the player swings through these blocks, their arms come inward, and hit the bombs. |
 
+### MAYBE: Highly Situational Patterns
+These patterns are OK to use but only in very specific circumstances or with very specific setup.
+It’s best to steer clear of these until you’re much more comfortable with mapping.
+
 #### Flicks
 | Illustration | Editor View | Explanation |
 |:----:|:----:|:---- |
@@ -343,15 +347,6 @@ that included these but that doesn't make them ok.
 | Illustration | Editor View | Explanation |
 |:----:|:----:|:---- |
 | ![Illustration of a triangle](~@images/mapping/triangle.png) | ![Editor view of a triangle](~@images/mapping/triangle-alt.png) | Triangles are patterns that cause incredibly uncomfortable wrist resets  when used at high precision and speed. The pattern breaks the forehand/backhand mechanic and can injure your player. See the [Mapping with Flow](#do-mapping-with-flow) to revisit this explanation.<br /><br />**Note 1:** Not all triangle shaped patterns are cursed triangles. Make sure you are always crossing the parity line with each swing.<br /><br />**Note 2:** This sort of pattern plays differently at hard difficulties and below when there are a couple of beats between each swing but stay away at Expert and ExpertPlus. |
-
-#### Right Triangle
-| Editor View | Explanation |
-|:----:|:---- |
-| ![Editor View of a Right Triangle](~@images/mapping/right-triangle.jpg) | A variation of a [Triangle](#triangle) that has a 90 degree hit on the first or third note. This is far worse in causing incredibly uncomfortable wrist resets at most speeds compared to a regular Triangle. The pattern breaks the forehand/backhand mechanic and can injure your player. See the [Mapping with Flow](#do-mapping-with-flow) to revisit this explanation.<br /><br />**Note:** This sort of pattern plays differently at hard difficulties and below when there are a couple of beats between each swing but **absolutely** stay away at Expert and ExpertPlus. |
-
-### MAYBE: Highly Situational Patterns
-These patterns are OK to use but only in very specific circumstances or with very specific setup.
-It’s best to steer clear of these until you’re much more comfortable with mapping.
 
 #### Incorrect Side Hits
 | Illustration | Editor View | Explanation |
@@ -460,8 +455,8 @@ them time to react before you throw something new at them at each level of diffi
 | Easy | &#8227; All cardinal directions (down, left, right, the occasional up)<br /> &#8227; Knock yourself out with DDs. Players will reset after every hit at this speed.<br />&#8227; Use up/down doubles for big emphasis if the music calls for it before or after a break.<br />&#8227; Blocks placed generally every other beat (depending on tempo)<br />&#8227; Very few obstacles, if any, which are easy to avoid with no simultaneous notes<br />&#8227; Almost all blocks should be in the bottom row. Use the middle row as a flourish for emphasis.Use the top row very sparingly with dot notes only<br />&#8227; Red stays in lanes 1 and 2, Blue stays in lanes 3 and 4 |
 | Normal | &#8227; All cardinal directions and the very occasional diagonal with lots of time to react and recover<br />&#8227; Begin to introduce up/down flow, especially anywhere you have notes that are close together, but DDs are still present especially after breaks<br />&#8227; Up/down and left/right doubles used for emphasis as appropriate<br />&#8227; Blocks generally placed every beat to two beats - mix it up a bit<br />&#8227; Keep your obstacles easy to avoid but start to introduce blocks sprinkled in with lots of time to react<br />&#8227; Almost all blocks still on the bottom row but higher use of middle row sides. Keep top notes rare and still as dots<br />&#8227; OK to let your red start drifting into lane 3 and your blues into lane 2 but still not crossing over each other |
 | Hard | &#8227; All cardinal directions and limited diagonals with time to react<br />&#8227; Flow is now critical unless you have a break of 5+ beats. Try to cross the parity line with every swing.<br />&#8227; All doubles are fair game including inverted doubles with sabers going opposite directions, ok to start introducing stacks with plenty of reaction time<br />&#8227; Notes mostly every beat with some 1/2 beats and the occasional 1/4 thrown in with the rhythm.<br />&#8227; Keep 1/2 sections short, no more than 6-8 beats without a break. If a burst of 1/4 is used, keep it to 3-4 blocks with a break.<br />&#8227; All obstacles are fair game but make sure you are not creating vision blocks<br />&#8227; Mixing bottom, middle, and top rows with top notes transitioning from dots to directional blocks<br />&#8227; Any color, any lane is fine but give lots of reaction time before any occasional "true" crossover where the players arms have to cross to hit. |
-| Expert | &#8227; Anything goes in expert but players are still improving sight reading skills. Keep patterns either fast and basic or slower and more technical... combine the two and you have an ExpertPlus!<br />&#8227; All note types viable here in any proportion<br />&#8227; Flow is critical; DDs will make or break your map<br />All emphasis options on the table including sliders with 1/12 or 1/16 precision<br />&#8227; Mostly 1/2 beats with 1/4 mixed in to fit the rhythm. Make sure there is the occasional break in long streams.<br />&#8227; All obstacles are fair game but make sure you are not creating vision blocks.<br />&#8227; Expert introduces a lot more jumps,  though they still require enough reaction time<br />&#8227; Crossovers should be used wisely and not combined with other weird patterns.|
-| ExpertPlus | &#8227; Welcome to the wild wild west! You can throw any good mapping practices at your player here.<br />&#8227; At high tempo and note density, patterns you could use effectively at hard and maybe expert start to become cursed. Players are often using their wrists instead of arm movements so body mechanics change at this level.<br />&#8227; Breaking the parity line with every swing is now crucial. You will get skewered if you don’t<br />&#8227; Stay away from any 90° hits, dot notes, triangles, DDs, VBs, same-lane crossovers, 1/4 precision gallops, top row far-lane crossovers (face-punchers), and 1/4 single hand hits (flicks).
+| Expert | &#8227; Anything goes in expert but players are still improving sight reading skills. Keep patterns either fast and basic or slower and more technical... combine the two and you have an ExpertPlus!<br />&#8227; All note types viable here in any proportion<br />&#8227; Flow is critical; DDs will make or break your map<br />All emphasis options on the table including sliders with 1/16 or greater precision<br />&#8227; Mostly 1/2 beats with 1/4 mixed in to fit the rhythm. Make sure there is the occasional break in long streams.<br />&#8227; All obstacles are fair game but make sure you are not creating vision blocks.<br />&#8227; Expert introduces a lot more jumps,  though they still require enough reaction time<br />&#8227; Crossovers should be used wisely and not combined with other weird patterns.|
+| ExpertPlus | &#8227; Welcome to the wild wild west! You can throw any good mapping practices at your player here.<br />&#8227; At high tempo and note density, patterns you could use effectively at hard and maybe expert start to become cursed. Players are often using their wrists instead of arm movements so body mechanics change at this level.<br />&#8227; Breaking the parity line with every swing is now crucial. You will get skewered if you don’t<br />&#8227; Stay away from triangles, DDs, and VBs.<br />&#8227; Be careful of sudden speed increases from 1/4 precision gallops and 1/4 single hand hits (flicks).
 <!-- markdownlint-enable MD013 -->
 
 ### Note Density
@@ -471,11 +466,11 @@ which shows NPS ranges for all OST, Extras, and DLC content.
 
 | Difficulty | Notes per Second |
 |:----:|:---- |
-| Easy | 0.8 - 2.4 NPS |
-| Normal | 1.0 - 3.2 NPS |
-| Hard | 1.6 - 3.9 NPS |
-| Expert | 2.2 - 5.7 NPS (yes, you read that right) |
-| ExpertPlus | 3.2 - 6.4 NPS (no upper limit here, really) |
+| Easy | 0.8 - 2.2 NPS |
+| Normal | 1.1 - 3.2 NPS |
+| Hard | 1.7 - 4.2 NPS |
+| Expert | 2.4 - 6.5 NPS (yes, you read that right) |
+| ExpertPlus | 3.2 - 8.7 NPS (no upper limit here, really) |
 
 ### Note Jump Speed
 There are several terms related to how the speed of gameplay feels.

@@ -275,11 +275,11 @@ immediately before the bomb reset guide the player to resetting more smoothly.
 Sliders are the use of multiple notes at different times all hit with the same swing.
 They fit well for sounds that are sustained for slightly longer than a normal note, but have significant restrictions.
 
-Conventionally, sliders are started with an arrow block and followed with dot blocks spaced at 1/12 or 1/16 from the
+Conventionally, sliders are started with an arrow block and followed with dot blocks spaced at 1/16 or 1/24 from the
 original block. Sliders slower than these precisions require the player to alter their swing speed to successfully hit,
 which is not desired. Sliders faster than these precisions are essentially stacks/towers.
 
-The using 1/12 vs. 1/16 precision depends on bpm though 1/16 is a safe choice for most speeds. **It is more important for
+The using 1/16 vs. 1/24 precision depends on bpm though 1/16 is a safe choice for most speeds. **It is more important for
 sliders to be playable than to match with the rhythm.** If a 1/8 sound is mapped with 1/8 sliders, it may be too slow to
 play comfortably in one swing.
 
