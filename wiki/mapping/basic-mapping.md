@@ -483,20 +483,20 @@ These are all interrelated and modified by the song’s tempo:
 
 * **Note Jump Speed (NJS)** is the rate at which blocks move down the track at the player.
   The higher the number the faster the blocks.
-* **Spawn Distance** is how far down the track the blocks will spawn in distance (meters).
+* **Jump Distance** (also known as **Spawn Distance**) is how far down the track the blocks will spawn in distance (meters).
 * **Half Jump Duration** is how far in advance blocks appear in time (beats).
-* **Spawn Distance Offset**  is a modifier which increases the spawn distance. This can make the NJS feel slower since
-  the blocks will spawn further away and the player has more time to react.
+* **Spawn Distance Offset** (also known as **Spawn Distance Modifier**) is a modifier which increases the jump distance.
+  This can make the NJS feel slower since the blocks will spawn further away and the player has more time to react.
 
 Summary video demonstrating the effect of these values in-game: [YouTube](https://youtu.be/S70CDoWjdwk), [Streamable](https://streamable.com/2l7fz9).
 
-Changing the NJS or Offset values will modify the half jump and spawn distance. Community editors will show you how these
+Changing the NJS or Offset values will modify the half jump and jump distance. Community editors will show you how these
 values change when making adjustments. Fine-tuned NJS and offset are a matter of personal taste but try to hit a half
-jump of 2 or 3 beats and a spawn distance of 26-30 meters.
+jump of 2 or 3 beats and a jump distance of 26-30 meters.
 
 ::: warning
-Spawn distance should run on the higher end of this range for expert and lower difficulties. Very dense ExpertPlus maps
-often have very short spawn distances to minimize clutter.
+Jump distance should run on the higher end of this range for expert and lower difficulties. Very dense ExpertPlus maps
+often have very short jump distances to minimize clutter.
 :::
 
 | Difficulty | Note Jump Speed Range |
@@ -515,7 +515,7 @@ Setting your NJS really high is **not** the right way to increase difficulty. Us
 patterns (with good flow).
 :::
 
-For more information, see the [Note Jump Speed & Spawn Distance](./intermediate-mapping.md#note-jump-speed-spawn-distance)
+For more information, see the [Note Jump Speed & Jump Distance](./intermediate-mapping.md#note-jump-speed-jump-distance)
 section in [Intermediate Mapping](./intermediate-mapping.md).
 
 ## Playtesting
