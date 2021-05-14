@@ -29,7 +29,7 @@ Hardware waarbij dit geld:
 ## Content maken
 Is één van je favoriete nummers niet beschikbaar? Heb je een idee voor een mod dat je wil maken? Wil je een custom model maken om in het spel te gebruiken? Dit kan je op twee manieren laten gebeuren.
 
-* Betaal iemand in de community om het voor jou te doen in de [Commissions Discord](/).
+* Betaal iemand in de community om het voor jou te doen in de Commissions Discord.
 * Leer hoe je het zelf kan maken met één van de onderstaande gidsen!
 
 ### Het maken van levels
