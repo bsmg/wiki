@@ -30,14 +30,6 @@ Que faisons-nous ?
 
 ---
 
-## Beat Saber Commissions
-
-Un modèle, une map ou un mod que vous aimeriez voir naître ? Entrez en contact avec les professionnels ici.
-
-[Discord](https://discord.gg/4RbcH5G) (serveur anglophone)
-
----
-
 ## Beat Saber Events
 
 Un endroit pour organiser, poster, discuter et être notifié des évènements de votre zone.
