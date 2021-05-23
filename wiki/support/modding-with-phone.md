@@ -1,6 +1,11 @@
-### Installing BMBF with an Android Phone
+---
+sidebar: auto
+---
+# Quest modding with Android
+## Installing BMBF with an Android Phone
 
 * [Requirements](#requirements)
+* [Enable Developer mode on your Quest](#how-to-enable-developer-mode-on-the-oculus-quest)
 * [Setup your Phone](#setup-your-phone)
 * [Installing BMBF with your Phone](#installing-bmbf-with-your-phone)
 * [Setup Beat Saber](#setup-beat-saber)
@@ -109,4 +114,4 @@ If at any point during the install process, you get the Restore App popup just c
 This warning is directed to pirated versions of the game so there will likely be no consequences for ignoring it if you
 have a legitimate copy.
 
-Now you can continue to the [Core Mods](#core-mods) step of the installation process.
+Now you can continue with the [Core Mods](/quest-modding.html#core-mods) step of the installation process as if you were modding with your PC.
