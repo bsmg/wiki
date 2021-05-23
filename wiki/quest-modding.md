@@ -106,6 +106,59 @@ Continue to the [Core Mods](#core-mods) step of the installation process.
 * A Cable to connect your Quest to your Phone (If your phone charges over USB C the charger that was included with your
 Quest should work)
 
+
+#### How to enable developer mode on the Oculus Quest
+First head to [the oculus dashboard](https://dashboard.oculus.com/) and sign in with your Facebook Account.
+You'll need to provide a credit card to verify.
+If you don't have a credit card you can do the steps [here](#i-have-no-credit-card).
+After you successfully logged in and verified you can create your new Organization.
+
+![DevModeDashboard](https://github.com/ComputerElite/wiki/blob/main/BM/DevModeDashboard.png)
+
+![DevModeCreateOrg](https://github.com/ComputerElite/wiki/blob/main/BM/DevModeCreateOrg.png)
+
+After you created it, you can enable Developer mode in the oculus app on your smartphone.
+
+##### Enable Developer mode in the oculus app
+
+![EnableDevMode](https://github.com/ComputerElite/wiki/blob/main/BM/EnableDevMode.png)
+
+#### I have no credit card
+[Original Source](https://www.reddit.com/r/sidequest/comments/jaxy4u/cant_verify_oculus_developer_account/?utm_source=amp&utm_medium=&utm_content=post_body).
+
+So please note that you have to create a second account (oculus developer account) and then add  your facebook profile to the organization created.
+It is a bit harder.
+
+**info:** If you have a friend who has a organization you can ask them to add you to their organization so you don't have to make a new account.
+If so tell your friend to check [Add yourself to the organization](#add-yourself-to-the-organization)
+
+##### Create a new developer account
+Go to the [sign up page for oculus developers](https://developer.oculus.com/sign-up/) and click "create a unmerged oculus developer account".
+Then Fill in all needed information.
+Then verify with the email you got sent and log in again with the account you just created.
+Then go to the [verify page](https://developer.oculus.com/manage/verify/) and set up Two Facto Authentication. 
+
+![2fa](https://github.com/ComputerElite/wiki/blob/main/BM/2fa.png)
+
+##### Create new organization
+After you did that head to the [oculus dashboard](https://dashboard.oculus.com/) and create a organization with (almost) any name you want.
+
+![DevModeDashboard](https://github.com/ComputerElite/wiki/blob/main/BM/DevModeDashboard.png)
+
+![DevModeCreateOrg](https://github.com/ComputerElite/wiki/blob/main/BM/DevModeCreateOrg.png)
+
+##### Add yourself to the organization
+After you created your Organization you have to add your Facebook profile to your Organization by Selecting your Organization in the drop down and then clicking on Members.
+There you add a new Member with the Role Admin and put in the Username of your Facebook profile. After that you click add and the user should be added.
+
+![DevModeCreateOrg](https://github.com/ComputerElite/wiki/blob/main/BM/addmember.png)
+
+## Enable Developer mode in the oculus app
+Then you should be able to enable the developer mode in your Oculus app on your smartphone.
+
+![EnableDevMode](https://github.com/ComputerElite/wiki/blob/main/BM/EnableDevMode.png)
+
+
 #### Setup your Phone
 
 1. Download the [SideQuest app from the Google Play store](https://play.google.com/store/apps/details?id=side.quest.mobile)
