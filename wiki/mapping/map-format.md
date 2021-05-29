@@ -487,9 +487,9 @@ An integer number which represents what exact kind of event this object represen
 |`3`|Controls lights in the `Right Rotating Lasers` group.|
 |`4`|Controls lights in the `Center Lights` group.|
 |`5`|(Previously unused) Controls boost light colors (secondary colors).|
-|`6`|Unused.|
-|`7`|Unused.|
-|`8`|Creates one ring spin in the environment. Is not affected by [`_value`](#value).|
+|`6`|(Previously unused) Controls extra left side lights in the Interscope environment.|
+|`7`|(Previously unused) Controls extra right side lights in the Interscope environment.|
+|`8`|Creates one ring spin in the environment.|
 |`9`|Controls zoom for applicable rings. Is not affected by [`_value`](#value).|
 |`10`|(Previously unused) Official BPM Changes.|
 |`11`|Unused.|
@@ -530,7 +530,21 @@ It's default behavior is controlling brightness and color of lights, and follows
 |`1`|Turns the event on - switches to second pair of colors.|
 
 ##### Controlling Rings
-When the event is used to control ring spin, or ring zoom, the `_value` of the event does nothing.
+When the event is used to control ring zoom, the `_value` of the event does nothing.
+
+When the event is used to control ring spin, the `_value` only affects cars in the Interscope environment and does
+nothing in other environments.
+
+|`value`|Result|
+|:-------------------:|-------------------|
+|`0`|Affects all the cars.|
+|`1`|Affects all the cars.|
+|`2`|Affects the left cars.|
+|`3`|Affects the right cars.|
+|`4`|Affects the front-most cars.|
+|`5`|Affects the front-middle cars.|
+|`6`|Affects the back-middle cars.|
+|`7`|Affects the back-most cars.|
 
 ##### Official BPM Changes
 When the event is used to control the BPM, the `_value` represents the new BPM.
