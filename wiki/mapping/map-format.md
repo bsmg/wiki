@@ -497,6 +497,8 @@ An integer number which represents what exact kind of event this object represen
 |`13`|Controls rotation speed for applicable lights in `Right Rotating Lasers`.|
 |`14`|(Previously unused) 360/90 Early rotation. Rotates future objects, while also rotating objects at the same time.|
 |`15`|(Previously unused) 360/90 Late rotation. Rotates future objects, but ignores rotating objects at the same time.|
+|`16`|Lowers car hydraulics in the Interscope environment.|
+|`17`|Raises car hydraulics in the Interscope environment.|
 
 :::danger
 Just because an event type is listed as unused, does *not* mean you are freely available to use it!
@@ -535,9 +537,10 @@ When the event is used to control ring zoom, the `_value` of the event does noth
 When the event is used to control ring spin, the `_value` only affects cars in the Interscope environment and does
 nothing in other environments.
 
+##### Controlling Cars
 |`value`|Result|
 |:-------------------:|-------------------|
-|`0`|Affects all the cars.|
+|`0`|Affects all the cars. Does not affect hydraulics.|
 |`1`|Affects all the cars.|
 |`2`|Affects the left cars.|
 |`3`|Affects the right cars.|
