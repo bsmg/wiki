@@ -83,7 +83,7 @@ He has no life and he's pretty dumb but he can help with your bmbf and that's al
 **Roles:** Support
 
 ## Squares
-I swear i'm good at Beat Saber and helping just ask Boulders!
+I swear i'm good at Beat Saber and helping just ask boulders!
 
 **Roles:** Support
 
