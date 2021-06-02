@@ -10,6 +10,13 @@ give this role out, but when we do it's because someone has gone above and beyon
 
 **Roles:** Support
 
+## Burrito
+Ironically doesn't like burritos, thinks tacos are better (true facts)
+
+**Roles:** Support
+
+[Twitter](https://twitter.com/BurritoSOFTWARE) | [Tip](https://streamelements.com/burritosoft/tip)
+
 ## ComputerElite
 He makes programs to support people faster and some others for them to make all easier. (likes to eat BMBF Logs)
 
