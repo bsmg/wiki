@@ -46,6 +46,13 @@ you!
 
 ---
 
+## Beat Saber Commissions
+Have a model, map, or mod that you'd like done? Get in contact with the professionals here.
+
+[Discord](https://discord.gg/e4f3WBBVnr)
+
+---
+
 ## Beat Saber Events
 A place to plan, post, discuss, and get notifications for events in your area.
 

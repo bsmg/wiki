@@ -29,7 +29,7 @@ Anwendbare Hardware umfasst:
 ## Inhalt erstellen
 Einer deiner Lieblings-Songs ist nicht verfügbar? Du hast eine Mod-Idee, die du umsetzen möchtest? Möchtest du ein Custom Modell, das du im Spiel verwenden möchtest? Dies kannst du auf zwei Arten erreichen.
 
-* Beauftrage jemanden in der Community im Commissions Discord
+* Beauftrage jemanden in der Community im [Commissions Discord](https://discord.gg/e4f3WBBVnr)
 * Erfahre wie du es selbst machen kannst, indem du die unten stehenden Ressourcen verwendest!
 
 ### Maps erstellen

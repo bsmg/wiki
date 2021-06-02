@@ -29,7 +29,7 @@ Les casques compatibles comprennent :
 ## Créer du contenu
 Une de vos chansons préférées n'est pas disponible ? Vous avez une idée pour un mod ? Vous voulez un modèle personnalisé à utiliser en jeu ? Vous pouvez le faire de deux façons :
 
-* Commissionnez quelqu'un dans le serveur Discord de commissions (en anglais) géré par la communauté
+* Commissionnez quelqu'un dans le [serveur Discord de commissions](https://discord.gg/e4f3WBBVnr) (en anglais) géré par la communauté
 * Apprenez à le faire vous-même en utilisant les guides ci-dessous
 
 ### Créer des maps
