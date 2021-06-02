@@ -8,13 +8,13 @@ _A list of the default color palettes used in each environment._
 
 ---
 
-## 1.14.0 Colors
+## 1.16.1 Colors
 These are the colors used in the 1.14.0 version of the game.
 
 ### The First (Default)
 ![Image of TheFirst colors](~@images/mapping/color-thefirst.png)  
 This is used by most environments. It it used by The First (Default), Triangle, Nice, Big Mirror, Imagine Dragons,
-Monstercat, and Panic at the Disco! environments.
+Monstercat, and Panic! at the Disco environments.
 
 #### Left Side Block Color (Red)
 
@@ -596,7 +596,7 @@ This is used by the BTS environment.
 ```
 
 ### Kaleidoscope
-![Image of BTS colors](~@images/mapping/color-kaleidoscope.png)  
+![Image of Kaleidoscope colors](~@images/mapping/color-kaleidoscope.png)  
 This is used by the Kaleidoscope environment.
 
 #### Left Side Block Color (Red)
@@ -666,6 +666,80 @@ This is used by the Kaleidoscope environment.
   "r": 0.49244517,
   "g": 0,
   "b": 0.53725493
+ },
+```
+
+### Interscope
+![Image of Interscope colors](~@images/mapping/color-interscope.png)  
+This is used by the Interscope environment.
+
+#### Left Side Block Color (Yellow)
+
+```json
+"_colorLeft": {
+  "r": 0.726415,
+  "g": 0.62691,
+  "b": 0.31181
+},
+```
+
+#### Right Side Block Color (Purple)
+
+```json
+"_colorRight": {
+  "r": 0.589571,
+  "g": 0.297888,
+  "b": 0.723
+},
+```
+
+#### Left Side Light Color (Pink)
+
+```json
+"_envColorLeft": {
+  "r": 0.724254,
+  "g": 0.319804,
+  "b": 0.913725
+},
+```
+
+#### Right Side Light Color (White)
+
+```json
+"_envColorRight": {
+  "r": 0.764706,
+  "g": 0.758971,
+  "b": 0.913725
+},
+```
+
+#### Wall Color (Purple)
+
+```json
+"_obstacleColor": {
+  "r": 0.588235,
+  "g": 0.298039,
+  "b": 0.721569
+ },
+```
+
+#### Left Side Boost Light Color (Cool Red)
+
+```json
+"_envColorLeftBoost": {
+  "r": 0.792453,
+  "g": 0.429686,
+  "b": 0.429868
+ },
+```
+
+#### Right Side Boost Light Color (Cool White)
+
+```json
+"_envColorRightBoost": {
+  "r": 0.7038,
+  "g": 0.715745,
+  "b": 0.765
  },
 ```
 
