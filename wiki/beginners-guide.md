@@ -29,7 +29,10 @@ Applicable hardware includes:
 
 ## Creating content
 One of your favorite songs is not available? Have a mod idea you want to implement? Want a custom model you want to use in-game?
- You can make it happen by learning how to make it yourself using the resources below!
+ You can make it happen in one of two ways.
+
+* Commission someone in the community run [Commissions Discord](https://discord.gg/e4f3WBBVnr)
+* Learn how to make it yourself using the resources below!
 
 ### Making Maps
 Learn how to create your own level by following our [mapping](./mapping/) guide!
