@@ -133,7 +133,7 @@ let us know in #mapping-discussion!
 | **Lane** | Horizontal divisions across the [Track](#t) in which [Blocks](#b) travel. The default track has four lanes. Also known as [Column](#c). See also: [Layer](#l), [Row](#r). |
 | **Lawless Mode** | A map characteristic where mappers can do crazy stuff that they would normally get downvoted into oblivion for in a standard map. This mode is not part of the base game and requires the [SongCore](#s) mod. |
 | **Layer** | Vertical divisions above the [Track](#t) in which [Blocks](#b) travel. The default track has three layers, commonly referred to as bottom, middle, and top. Also known as [Row](#r). See also: [Column](#c), [Lane](#l). |
-| **Lean** | Tilting a player's body to the left or the right, allowing for atypical angles to correctly follow [Parity](#p) and [Flow](#f) properly. Leans are an advanced parity concept and mappers should be cautious when implementing them. See this clip in [Bullet's Intermediate Parity video](https://youtu.be/NF8ESZRXI1c?t=25) for an example of leans. |
+| **Lean** | Tilting a player's body to the left or the right, allowing for atypical angles to correctly follow [Parity](#p) and [Flow](#f) properly. See this clip in [Bullet's Intermediate Parity video](https://youtu.be/NF8ESZRXI1c?t=25) for an example of leans. |
 | **Lefty Stream** | A straight [Stream](#s) where each pair of successive [Notes](#n) going in the same direction starts with the left hand. See also: [Righty Stream](#r). <details><summary>**Example Image**</summary>![Picture of lefty stream](~@images/mapping/lefty-stream.jpg)</details> |
 | **Lighting** | A collective term for all of the lighting events and options available to mappers. A map is not considered complete without some form of lighting. See also: [Event](#e). |
 | **Lighting Track** | The area in most map editors where [Lighting](#l) events are placed. See also: [Track](#t). |
@@ -205,7 +205,7 @@ let us know in #mapping-discussion!
 | **RGB** | A style of [Lighting](#l) that requires the [Chroma](#c) mod and allows lighting events to be of any color and to use more than two colors. |
 | **Right Triangle** | A variation of a [Triangle](#t) where there is a 90 degree hit in the sequence causing major comfort issues at lower [Precisions](#p). <details><summary>**Example Image**</summary>![Picture of right triangle](~@images/mapping/right-triangle.jpg)</details> |
 | **Righty Stream** | A straight [Stream](#s) where each pair of successive [Notes](#n) going in the same direction starts with the right hand. See also: [Lefty Stream](#l). <details><summary>**Example Image**</summary>![Picture of righty stream](~@images/mapping/righty-stream.jpg)</details> |
-| **Rotation** | Rotating the player's wrists to allow for [Patterns](#p) with unconventional [Parity](#p) to [Flow](#f) properly. Rotations are an advanced parity concept and mappers should be cautious when implementing them. See this clip in [Bullet's Intermediate Parity video](https://youtu.be/NF8ESZRXI1c?t=17) for examples of rotations. |
+| **Rotation** | The change in angle of the player's wrist going from one [Block](#b) to the next, assuming the [Pattern](#p) follows proper [Parity](#p). See this clip in [Bullet's Intermediate Parity video](https://youtu.be/NF8ESZRXI1c?t=17) for examples of larger rotations. |
 | **Row** | Vertical divisions above the [Track](#t) in which [Blocks](#b) travel. The default track has three layers, commonly referred to as bottom, middle, and top. Also known as [Layer](#l). See also: [Column](#c), [Lane](#l). |
 
 ## S
