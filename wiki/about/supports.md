@@ -10,13 +10,6 @@ give this role out, but when we do it's because someone has gone above and beyon
 
 **Roles:** Support
 
-## Burrito
-Ironically doesn't like burritos, thinks tacos are better (true facts)
-
-**Roles:** Support
-
-[Twitter](https://twitter.com/BurritoSOFTWARE) | [Tip](https://streamelements.com/burritosoft/tip)
-
 ## ComputerElite
 He makes programs to support people faster and some others for them to make all easier. (likes to eat BMBF Logs)
 
@@ -113,7 +106,7 @@ Created by Megalon, recreated by lolPants, and personified by Rolo!
 **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
 **Modders:** [Kyle1413](./modders.md#kyle1413)  
 **Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)
-  | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)  
+  | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn) | [Burrito](./moderators.md#burrito)  
 **Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon)
   | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
 :::

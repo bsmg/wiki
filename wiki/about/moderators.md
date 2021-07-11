@@ -7,6 +7,13 @@ You can thank this team for keeping the streets clean.
 
 **Roles:** Moderator  
 
+## Burrito
+Ironically doesn't like burritos, thinks tacos are better (true facts)
+
+**Roles:** Moderator, Support
+
+[Twitter](https://twitter.com/BurritoSOFTWARE) | [GitHub Sponsors](https://github.com/sponsors/burritosoftware) | [Tip](https://streamelements.com/burritosoft/tip)
+
 ## Caeden117
 How many statistics could we fit into a single counters mod? A lot apparently. He's also responsible for the modding tutorials
 on this wiki and ChroMapper, a soon to be released mapping software with Chroma RGB light support.
