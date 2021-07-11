@@ -36,9 +36,24 @@ Si vous voulez aider à traduire dans votre langue, vous pouvez postuler [ici](h
 * ComputerElite
 * CookieDLX
 * Jen (Br3uker)
-* Raviolimann69
+* Ravioliman69
 * RobertR11
 * SasSao
 * Syskoh
 * Trolav
   * [Twitter](https://twitter.com/Trolav1)
+
+## Néerlandais | Nederlands
+
+### Relecteurs
+
+* Eris
+
+### Traducteurs
+
+* boulders2000
+* Jestro
+* Marrlain
+* OnderHond
+* RedBrumbler
+* Rusty69
