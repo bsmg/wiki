@@ -347,7 +347,6 @@ He's since moved on to develop other VR games, like [Waltz of the Wizard](https:
 
 ::: tip See Also
 **Support:** [Pespiri](./supports.md#pespiri)  
-**Moderator:** [Caeden117](./moderators.md#caeden117)  
-**Staff:** [+1 Rabbit](./staff.md#_1-rabbit) | [lolPants](./staff.md#lolpants) | [Megalon](./staff.md#megalon) |
-  [Reaxt](./staff.md#reaxt) | [Lillie](./staff.md#lillie) | [Steven](./staff.md#steven-🎀)
+**Staff:** [+1 Rabbit](./staff.md#_1-rabbit) | [Caeden117](./staff.md#caeden117) | [lolPants](./staff.md#lolpants) |
+[Megalon](./staff.md#megalon) | [Pink](./staff.md#pink) |  [Reaxt](./staff.md#reaxt) | [Lillie](./staff.md#lillie) | [Steven](./staff.md#steven-🎀)
 :::
