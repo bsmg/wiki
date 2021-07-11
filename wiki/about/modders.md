@@ -89,7 +89,7 @@ Ended up maintaining a wild variety of mods after adopting them from their origi
 **Roles:** Modder
 **Contributions:** MorePrecisePlayerHeight, HitScoreVisualizer, ChatCore, EnhancedStreamChat, ...
 
-[GitHub](https://github.com/erisapps) | [Donate](https://ko-fi.com/erisapps)
+[GitHub](https://github.com/erisapps) | [Donate with Patreon](https://www.patreon.com/erisapps) | [Donate with Ko-fi](https://ko-fi.com/erisapps)
 
 ## Goobie
 Maintainer of the mods that help you play with friends the right way.
