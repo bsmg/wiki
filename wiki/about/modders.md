@@ -59,6 +59,15 @@ Enhanced Stream Chat mod. This man wants more hip hop songs, get on it people!
 
 [GitHub](https://github.com/brian91292) | [Donate](https://ko-fi.com/brian91292)
 
+## ckosmic
+Creator of CustomEnergyBars and SpectroSaber! Modding the funny cut block music game is cool. Also if you create any
+content for my mods I will probably remember you on my deathbed.
+
+**Roles:** Modder
+**Contributions:** CustomEnergyBars, SpectroSaber
+
+[GitHub](https://github.com/ckosmic) | [Donate](https://paypal.me/ckosmic)
+
 ## DaNike
 Creator of the custom-tailored version of IPA (illusion plugin architecture) BSIPA, a mod injector to allow Beat Saber
 to use mods. An incredible tool that makes modding beat saber as easy as it is.
