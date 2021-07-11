@@ -262,7 +262,8 @@ Our own LIV insider and creator of Saber Tailor and the original Custom Colors p
 [GitHub](https://github.com/sc2ad) | [Twitch](https://www.twitch.tv/sc2ad) | [PayPal](https://paypal.me/sc2ad) | [Ko-Fi](https://ko-fi.com/sc2ad_support)
 
 ## Shadnix
-Current maintainer of Saber Tailor and Particle Overdrive. Made some other small things that since have become part of the base game options.
+Current maintainer of Saber Tailor and Particle Overdrive. Made some other small things that since have become part of
+the base game options.
 
 **Roles:** Modder
 **Contributions:** Saber Tailor, Particle Overdrive, Level Pack Panel Mover, NoteSpawnEffectRemover, AdaptiveSFXRemover
