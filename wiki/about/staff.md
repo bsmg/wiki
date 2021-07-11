@@ -80,7 +80,8 @@ The only Staff to ghost us when asked for a description for this page.
 **Roles:** Staff, Moderator, Support, Modder, Event Winner
 **Contributions:** QuestBoard, PinkCore, BSMG YouTube, A bunch of Quest mods and models.
 
-[QuestBoard](https://www.questmodding.com) | [Patreon](https://www.patreon.com/moddingpink) | [YouTube](https://www.youtube.com/channel/UCTBR-IvVKylym05Dq0zFcaw) | [GitHub](https://github.com/BSMGPink) 
+[QuestBoard](https://www.questmodding.com) | [Patreon](https://www.patreon.com/moddingpink) | [YouTube](https://www.youtube.com/channel/UCTBR-IvVKylym05Dq0zFcaw)
+ | [GitHub](https://github.com/BSMGPink)
 
 ## Reaxt
 BSMG server owner and rhythm game fanatic. We wouldn't be here today without this very special boy.
