@@ -41,15 +41,6 @@ on this wiki and ChroMapper, a soon to be released mapping software with Chroma 
 
 [GitHub](https://github.com/caeden117) | [Donate](https://ko-fi.com/Caeden117)
 
-## Lillie
-Makes mods for quest and likes to PP farm in her free time.  
-*Lillie not cutest*
-
-**Roles:** Staff, Modder, Moderator  
-**Contributions:** QuestSounds, QSettings+, FPSCounter.  
-
-[GitHub](https://github.com/Rugtveit)
-
 ## lolPants
 One hell of a developer and a lover of socks. lolPants laid the groundwork for many of the policies and procedures during
 their time as Staff, and continues to help out when their services are needed.
@@ -84,11 +75,13 @@ The first professional Beat Saber player, representing Team Gravity. Former Admi
 [Twitch](https://twitch.tv/orangew2) | [Donate](https://streamlabs.com/orangew2)
 
 ## Pink
-The only Moderator to ghost us when asked for a description for this page.
+The only Staff to ghost us when asked for a description for this page.
 
-**Roles:** Staff, 3D Artists, Moderator, Support, Modder
+**Roles:** Staff, Moderator, Support, Modder, Event Winner
+**Contributions:** QuestBoard, PinkCore, BSMG YouTube, A bunch of Quest mods and models.
 
-**Contributions:** A bunch of Quest mods and models  
+[QuestBoard](https://www.questmodding.com) | [Patreon](https://www.patreon.com/moddingpink) | [YouTube](https://www.youtube.com/channel/UCTBR-IvVKylym05Dq0zFcaw)
+ | [GitHub](https://github.com/BSMGPink)
 
 ## Reaxt
 BSMG server owner and rhythm game fanatic. We wouldn't be here today without this very special boy.
@@ -163,3 +156,12 @@ Longtime server member and active contributor. She was the server mom!
 **Contributions:** ScoreSaber Admin, Moderation
 
 [Twitch](https://www.twitch.tv/klouderrr) | [Donate](https://streamlabs.com/klouderrr)
+
+## Lillie (Retired)
+Makes mods for quest and likes to PP farm in her free time.  
+*Lillie not cutest*
+
+**Roles:** Staff, Modder, Moderator  
+**Contributions:** QuestSounds, QSettings+, FPSCounter.  
+
+[GitHub](https://github.com/Rugtveit)
