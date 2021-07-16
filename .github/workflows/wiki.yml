@@ -40,41 +40,54 @@ jobs:
         run: |
           IMAGE_NAME=wiki
 
-          DOCKER_USER=`echo ${{ github.repository }} | cut -d "/" -f 1 | tr '[:upper:]' '[:lower:]'`
-          DOCKER_REPO=`echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]'`
-          DOCKER_IMAGE=docker.pkg.github.com/$DOCKER_REPO/$IMAGE_NAME
+          GIT_REPO='https://github.com/${{ github.repository }}'
+          DOCKER_USER=`echo ${{ github.repository_owner }} | tr '[:upper:]' '[:lower:]'`
+          DOCKER_IMAGE=ghcr.io/$DOCKER_USER/$IMAGE_NAME
 
           VERSION=`git rev-parse --short HEAD`
           if [[ $GITHUB_REF == refs/tags/* ]]; then
             VERSION=${GITHUB_REF#refs/tags/v}
           fi
 
+          echo ::set-output name=git_repo::${GIT_REPO}
           echo ::set-output name=docker_user::${DOCKER_USER}
           echo ::set-output name=docker_image::${DOCKER_IMAGE}
           echo ::set-output name=version::${VERSION}
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
       - name: Setup Docker Buildx
-        uses:  docker/setup-buildx-action@v1
-      - name: Cache Docker Layers
+        uses: docker/setup-buildx-action@v1
+      - name: Cache Docker layers
         uses: actions/cache@v2
         with:
           path: /tmp/.buildx-cache
           key: ${{ runner.os }}-buildx-${{ github.sha }}
           restore-keys: |
             ${{ runner.os }}-buildx-
-      - name: Build Docker Image
-        run: |
-          docker buildx build \
-            --cache-from "type=local,src=/tmp/.buildx-cache" \
-            --cache-to "type=local,dest=/tmp/.buildx-cache" \
-            --output "type=docker" \
-            --tag ${{ steps.prepare.outputs.docker_image }}:${{ steps.prepare.outputs.version }} \
-            --file Dockerfile .
       - name: Login to Docker Registry
+        uses: docker/login-action@v1
         if: github.ref == 'refs/heads/master'
-        run: echo ${{ secrets.GITHUB_TOKEN }} | docker login docker.pkg.github.com --username ${{ steps.prepare.outputs.docker_user }} --password-stdin
-      - name: Push to Docker Registry
-        if: github.ref == 'refs/heads/master'
-        run: docker push ${{ steps.prepare.outputs.docker_image }}:${{ steps.prepare.outputs.version }}
+        with:
+          registry: ghcr.io
+          username: ${{ steps.prepare.outputs.docker_user }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build and Push
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: ${{ github.ref == 'refs/heads/master' }}
+          tags: ${{ steps.prepare.outputs.docker_image }}:${{ steps.prepare.outputs.version }}
+          build-args: GIT_REPO=${{ steps.prepare.outputs.git_repo }}
+          cache-from: type=local,src=/tmp/.buildx-cache
+          cache-to: type=local,dest=/tmp/.buildx-cache-new
+          platforms: linux/amd64,linux/arm64
+      # Temp fix
+      # https://github.com/docker/build-push-action/issues/252
+      # https://github.com/moby/buildkit/issues/1896
+      - name: Move cache
+        run: |
+          rm -rf /tmp/.buildx-cache
+          mv /tmp/.buildx-cache-new /tmp/.buildx-cache
   deploy:
     if: github.ref == 'refs/heads/master'
     needs: build
