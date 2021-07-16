@@ -6,6 +6,9 @@
   "author": "Jack Baron <jackmbaron@gmail.com> (https://www.jackbaron.com)",
   "license": "MIT",
   "private": true,
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
     "lint:markdown": "markdownlint --ignore ./wiki/{fr,ja,de,nl}/**/*.md ./wiki/**/*.md",
     "lint:images": "node ./scripts/checkImages.js",
@@ -21,12 +24,12 @@
     "@vuepress/plugin-medium-zoom": "^1.8.2",
     "@vuepress/plugin-nprogress": "^1.8.2",
     "@vuepress/plugin-search": "^1.8.2",
-    "byte-size": "^7.0.1",
+    "byte-size": "^8.0.0",
     "cross-env": "^7.0.3",
     "dateformat": "^4.5.1",
-    "globby": "^11.0.2",
+    "globby": "^11.0.4",
     "kleur": "^4.1.4",
-    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-footnote": "^3.0.3",
     "markdown-it-mark": "^3.0.1",
     "markdown-it-task-lists": "^2.1.1",
     "markdownlint-cli": "^0.27.1",
@@ -37,6 +40,6 @@
     "vuepress-plugin-seo": "^0.1.4",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-smooth-scroll": "^0.0.10",
-    "vuepress-theme-yuu": "^3.0.1"
+    "vuepress-theme-yuu": "^3.1.1"
   }
 }
