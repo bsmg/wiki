@@ -17,15 +17,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node-version: 14.x
+          node-version: '14'
           registry-url: https://registry.npmjs.org
-      - name: Cache node_modules
-        uses: actions/cache@v2
-        with:
-          path: '**/node_modules'
-          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+          cache: yarn
       - name: Install packages
         run: yarn install --frozen-lockfile
       - name: Lint Markdown Files
