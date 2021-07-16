@@ -12,7 +12,7 @@ env:
 
 jobs:
   test:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -35,7 +35,7 @@ jobs:
 
   build:
     needs: test
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v1
@@ -82,7 +82,7 @@ jobs:
   deploy:
     if: github.ref == 'refs/heads/master'
     needs: build
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     env:
       ENABLE: ${{ secrets.ENABLE_CI_DEPLOY }}
     steps:
