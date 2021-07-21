@@ -532,6 +532,11 @@ by **+1 Rabbit** to make the one time adjustment!
       1. Download and run the [.NET Framework Repair Tool](https://docs.microsoft.com/dotnet/framework/install/repair).
       2. Restart your computer and rerun the DirectX driver installer.
 
+---
+
+### **When I open MMA2, it works fine for about a minute and then crashes with no error** 
+* After you launch MMA2, disconnect from the internet and wait a couple minutes before reconnecting.
+
 ## Credits
 Content in this section was authored by [Helen Carnate](./mapping-credits.md#helen-carnate),
 [Bloodcloak](./mapping-credits.md#bloodcloak), and [Gabmiral](./mapping-credits.md#gabmiral).
