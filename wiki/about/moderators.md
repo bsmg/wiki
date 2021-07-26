@@ -15,7 +15,7 @@ Ironically doesn't like burritos, thinks tacos are better (true facts)
 [Twitter](https://twitter.com/BurritoSOFTWARE) | [GitHub Sponsors](https://github.com/sponsors/burritosoftware) | [Tip](https://streamelements.com/burritosoft/tip)
 
 ## Chara_
-brrrrrr
+crippling destiny addiction
 
 **Roles:** Support, 3D Artists, Moderator
 
@@ -38,12 +38,27 @@ Camellia is SourPls
 
 **Roles:** Moderator
 
+## Kuru
+All they can say is that the R in Kuru stands for Rat
+
+**Roles:** Moderator
+
+## Nym
+"i like the gaymes. Addicted to many, don't like any of them, send cat pics."
+
+**Roles:** Moderator
+
 ## Olaf
 Any stroopwafels?  
 
 **Roles:** Moderator  
 
 [Twitch](https://twitch.tv/olafstad)
+
+## OneEyed
+2 truths and a lie: Pink cute, CMB sentient, OneEyed has good spelling
+
+**Roles:** Support, Moderator
 
 ## RangeValley
 > My dad worked for years as an admin, but he got laid off when bots took over. He came home that night and told me we
