@@ -77,7 +77,7 @@ The first professional Beat Saber player, representing Team Gravity. Former Admi
 ## Pink
 The only Staff to ghost us when asked for a description for this page.
 
-**Roles:** Staff, Moderator, Support, Modder, Event Winner
+**Roles:** Staff, Moderator, Support, Modder, Event Winner  
 **Contributions:** QuestBoard, PinkCore, BSMG YouTube, A bunch of Quest mods and models.
 
 [QuestBoard](https://www.questmodding.com) | [Patreon](https://www.patreon.com/moddingpink) | [YouTube](https://www.youtube.com/channel/UCTBR-IvVKylym05Dq0zFcaw)
