@@ -157,7 +157,7 @@ is a required field, even if the level does not include any 360 or 90 Degree dif
 
 #### _songTimeOffset
 This is Beat Saber's method for tackling off-sync audio. This offsets the audio in game,
-based off the value of `_songTimeOffset` in milliseconds.
+based off the value of `_songTimeOffset` in seconds.
 
 :::warning
 Hit sounds are also affected by the same offset. We recommend the mapper sync up their audio file *before* mapping, as
