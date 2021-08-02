@@ -182,11 +182,13 @@ Before installing any additional mods look in the top right of the BMBF web inte
 says, `Sync to Beat Saber`.
 Click this and let it finish syncing. Then go to your `mods` tab in BMBF. Make sure that you have the 5 core mods:
 
-* Codegen
-* Goodbye Bug
-* PinkCore
-* QuestUI
 * Custom Types
+* Codegen
+* SongLoader
+* Playlist Manager
+* QuestUI
+* SongDownloader
+* PinkCore
 
 :::danger
 All other mods will not work if these core mods are not listed and enabled.
@@ -249,6 +251,16 @@ Most maps in the "Top All", "Rating", "Downloads" or "Plays" sort filters were c
 good mapping practices were established. Try downloading songs released between late 2019 and now to get the best
 custom levels experience.
 :::
+### Inside BeatSaber
+You can now download songs Ingame using SongDownloader (CoreMod)
+There are a few steps to downloading songs ingame:
+    1. Open BeatSaber
+    2. Go into ModSettings (Settings -> ModSettings)
+    3. Open SongDownloader tab
+    4. Search for a song and download it.
+
+When downloading songs ingame you do not have to restart the game. It automatically loads the song using the SongLoader.
+![songdownloader](~@images/beginners-guide/songdownloader.png)
 
 ### Inside your Quest
 There are 2 sources to getting custom maps inside your Quest using the browser window.
