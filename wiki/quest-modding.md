@@ -180,7 +180,7 @@ Your scores and settings should now be restored.
 ### Core Mods
 Before installing any additional mods look in the top right of the BMBF web interface, you should see a red button that
 says, `Sync to Beat Saber`.
-Click this and let it finish syncing. Then go to your `mods` tab in BMBF. Make sure that you have the 5 core mods:
+Click this and let it finish syncing. Then go to your `mods` tab in BMBF. Make sure that you have the 7 core mods:
 
 * Custom Types
 * Codegen
