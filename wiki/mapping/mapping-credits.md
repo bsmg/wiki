@@ -9,6 +9,11 @@ their maps and consider supporting them!
 
 > Missed you? Want to update your bio? [Let us know!](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform)
 
+## 3Stans
+Three different stans or three stans in one?
+Contributed to the three mapping extension uses in [Extended Mapping](./extended-mapping.md)  
+[BeatSaver](https://beatsaver.com/profile/56092) | [BeastSaber](https://bsaber.com/members/3stans/)
+
 ## Aeroluna
 Contributed the environment screenshots from game version 1.6 to [Basic Lighting](./basic-lighting.md) and
 is the maintainer of Chroma and Noodle Extensions!  
