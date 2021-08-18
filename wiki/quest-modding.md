@@ -31,7 +31,8 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 ## Installation
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with [SideQuest using a PC](#installing-bmbf-with-sidequest).
 
-If you do not have access to a PC you can use an [Android Phone](#installing-bmbf-with-an-android-phone).
+If you do not have access to a PC you can use an [Android Phone or Tablet](/support/modding-with-android.md).
+iOS devices such as iPhones or iPads are not supported.
 
 :::warning
 Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
@@ -50,15 +51,14 @@ for the current game version.
 :::
 
 ### Installing BMBF with SideQuest
-_alternatively [install BMBF with your Android phone](/support/modding-with-android-phone.md)_
-
 If you haven't already, download and setup [SideQuest](https://sidequestvr.com/#/setup-howto)
 
-There are two methods available to obtain BMBF:
+There are three methods available to obtain BMBF:
 
-* [Download from the SideQuest Store](#download-from-the-sidequest-store)
-* [Download the from the BMBF website](#download-the-from-the-bmbf-website)
-
+* [The SideQuest Store on PC](#download-from-the-sidequest-store)
+* [The BMBF website](#download-the-from-the-bmbf-website)
+* If you do not have a PC, you can use [the SideQuest Store on Android](/support/modding-with-android.md) as a last resort
+  * iOS devices such as iPhones or iPads are not supported
 :::tip
 If you've previously modded Beat Saber or have scores you want to backup, [Backup your Save Data first!](#backup-save-data-using-sidequest)
 :::
@@ -113,70 +113,6 @@ for ignoring it.
 ![RestoreApp](~@images/beginners-guide/restoreapp.png)
 
 Continue to the [Core Mods](#core-mods) step of the installation process.
-
-### Installing BMBF with an Android Phone
-:::warning
-You cannot currently install BMBF on an iOS/iPadOS device
-:::
-
-This is **NOT** the recommended way to install BMBF and should only be used if you do not have access to a PC.
-
-* [Requirements](#requirements)
-* [Setup your Phone](#setup-your-phone)
-* [Installing BMBF with your Phone](#installing-bmbf-with-your-phone)
-* [Setup Beat Saber](#setup-beat-saber)
-
-#### Requirements
-
-* An Android Phone or Android Tablet (iPhones or iPads are not supported)
-* A **paid** Version of Beat Saber on the Oculus Quest Store
-* A Cable to connect your Quest to your Phone (If your phone charges over USB C the charger that was included with your
-Quest should work)
-
-#### Setup your Phone
-
-1. Download the [Bugjaeger app from the Google Play store](https://play.google.com/store/apps/details?id=eu.sisik.hackendebug&hl=gsw&gl=US)
-2. Download the newest [BMBF APK from bmbf.dev/stable](https://bmbf.dev/stable)
-3. Follow [this written guide](https://github.com/ComputerElite/wiki/wiki/Enable-Developer-Mode-for-OQ) to Enable
-Developer Mode on your Quest.
-4. Enable Developer mode on your Phone
-    1. Go into your Android settings
-    2. Scroll to "About phone" and open it
-    3. Tap "Software information"
-    4. Tap the "Build number" field until it says Developer mode enabled. This should take about 7 taps.
-5. Enable USB debugging on your Phone
-    1. Go back to settings
-    2. Tap "Developer options"
-    3. Activate USB debugging
-
-#### Installing BMBF with your Android Phone
-:::warning
-Before modding, run Beat Saber once, play a level and immediately fail!
-:::
-
-Open Bugjaeger on your Phone and connect your Quest.
-You should get a USB debugging pop-up in your Quest and on your phone. Select allow on both devices and if you prefer,
-select always allow.
-Once Bugjaeger picks your Quest up, install the BMBF APK by doing following:
-
-![installAPKusingPhone.png](~@images/beginners-guide/InstallAPK.png)
-
-After you pressed ok, allow file access and select the download APK file which should be labeled `com.weloveoculus.BMBF.apk`.
-The apk file should now install to your Quest.
-
-#### Setup Beat Saber
-After successfully installing BMBF onto your Quest you should be able to find it in your Quests library under unknown sources.
-
-![UnknownMenu](~@images/beginners-guide/quest_home-menu.jpg)
-
-Open it and allow file access after starting it if prompted. Now follow the on-screen instructions carefully.
-After you finished you should see [BeastSaber](https://bsaber.com).
-
-If at any point during the install process, you get the `Restore App` popup just click `Close`.
-This warning is directed to pirated versions of the game so there will likely be no consequences for ignoring it if you
-have a legitimate copy.
-
-Now you can continue to the [Core Mods](#core-mods) step of the installation process.
 
 ## Manage Save Data
 

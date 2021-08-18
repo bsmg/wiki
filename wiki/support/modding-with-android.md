@@ -1,7 +1,28 @@
 ---
 sidebar: auto
 ---
-# Quest Modding with an Android Phone
+# Quest Modding with Android
+
+:::warning
+Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
+base game leaderboards.
+If you would like to play modded multiplayer, you need the mod, `Beat Together`, which allows for cross-play between pc
+and quest and allows for custom songs to be used. The mod can be found in the
+[Beat Saber Modding Group](discord.gg/beatsabermods) in `#quest-mods` or on the [Questboard](https://questmodding.com) site.
+
+To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
+[ScoreSaber](https://new.scoresaber.com/quest) mod. [This link](https://new.scoresaber.com/quest) will take you to the
+ScoreSaber page to set it up.
+ScoreSaber does not replace the base game leaderboards, it only adds leaderboards for custom songs.
+
+**Note:** Check the updates channel in the [ScoreSaber Discord](https://discord.gg/WpuDMwU) to see if the mod is available
+for the current game version.
+:::
+
+::: tip NOTE
+The recommended way to install BMBF is with [SideQuest on a PC](/quest-modding.md#installing-bmbf-with-sidequest).
+This method should only be used if you do not have access to a PC.
+:::
 
 * [Requirements](#requirements)
 * [Enable Developer mode on your Quest](#how-to-enable-developer-mode-on-the-oculus-quest)
@@ -11,7 +32,8 @@ sidebar: auto
 
 ## Requirements
 
-* An Android Phone or Android Tablet (iPhones or iPads are not supported)
+* An Android Phone or Android Tablet
+    * iPhones or iPads are **NOT** supported
 * A **paid** Version of Beat Saber on the Oculus Quest Store
 * A Cable to connect your Quest to your Phone (If your phone charges over USB C the charger that was included with your
 Quest should work)
