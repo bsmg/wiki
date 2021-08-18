@@ -89,6 +89,7 @@ let us know in #mapping-discussion!
 | **First Person Flying Controller** | A launch option available to SteamVR and Oculus users to launch Beat Saber with limited keyboard and mouse control over the game in a first person view. Very helpful for getting an accurate preview of [Lighting](#l) or [Walls](#wxyz), or accessing the official [Editor](#e). Abbreviated as [FPFC](#f). |
 | **Fixed BPM** | A song with a consistent [BPM](#b) from start to finish with no variation. Also known as [Single BPM](#s). See also: [Variable BPM](#uv). |
 | **Flick** | A [Pattern](#p) of two or more [Notes](#n) of the same color, typically at 1/4 [Precision](#p). <details><summary>**Example Image**</summary>![Picture of flick](~@images/mapping/flick-alt.png)</details> |
+| **Flower** | A combination of two or more [Notes](#n) that are different directions at the same time, creating a flower like shape. <details><summary>**Example Image**</summary>![Picture of a flower](~@images/mapping/flower.jpg)</details>
 | **Flow** | The concept of placing [Blocks](#b) and [Patterns](#p) so that the next swing a player makes feels natural and allows the body to move in proper ways. |
 | **Forehand** | A swing where the majority of the work is done by the palm side of the hand. See this clip in [Fru's Tutorial Video](https://youtu.be/t9AFj4pfptM?t=454) for more info. See also: [Backhand](#b). |
 | **FPFC** | Abbreviation of [First Person Flying Controller](#f). |
