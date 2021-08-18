@@ -33,7 +33,7 @@ This method should only be used if you do not have access to a PC.
 ## Requirements
 
 * An Android Phone or Android Tablet
-    * iPhones or iPads are **NOT** supported
+  * iPhones or iPads are **NOT** supported
 * A **paid** Version of Beat Saber on the Oculus Quest Store
 * A Cable to connect your Quest to your Phone (If your phone charges over USB C the charger that was included with your
 Quest should work)
