@@ -158,8 +158,8 @@ You can think of it like changing your cursor precision.
   Say you want a specific pattern in your map, but it requires the note to be in a very certain spot that would not
   be accessible with normal placement - this is where precision placement comes in handy.
 
-* **Pauls:**
-  [Glossary Term](./glossary#p). You may have played a map with a Paul or Poodle (Noodle Extensions Paul) in it.
+* **[Pauls](./glossary.md#p):**
+  You may have played a map with a Paul or Poodle (Noodle Extensions Paul) in it.
   Although it is recommended to make Pauls with Noodle Extensions because of the tools that make it a lot easier,
   you can still make Pauls with mapping extensions.
 
@@ -498,4 +498,4 @@ via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eE
 Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi),
 [Bloodcloak](./mapping-credits.md#bloodcloak), [Spooky Ghost](./mapping-credits.md#spooky-ghost),
 [Caeden117](./mapping-credits.md#caeden117), [Kival Evan](./mapping-credits.md#kival-evan),
-[Checkthepan](./mapping-credits.md#checkthepan), and [3Stans](./mapping-credits.md#3stans)
+[Checkthepan](./mapping-credits.md#checkthepan), and [3Stans](./mapping-credits.md#_3stans)
