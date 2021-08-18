@@ -1,8 +1,7 @@
 ---
 sidebar: auto
 ---
-# Quest modding with Android
-## Installing BMBF with an Android Phone
+# Quest Modding with an Android Phone
 
 * [Requirements](#requirements)
 * [Enable Developer mode on your Quest](#how-to-enable-developer-mode-on-the-oculus-quest)
@@ -10,70 +9,83 @@ sidebar: auto
 * [Installing BMBF with your Phone](#installing-bmbf-with-your-phone)
 * [Setup Beat Saber](#setup-beat-saber)
 
-#### Requirements
+## Requirements
 
-* An Android Phone or Android Tablet (IPhones or IPads are not supported)
+* An Android Phone or Android Tablet (iPhones or iPads are not supported)
 * A **paid** Version of Beat Saber on the Oculus Quest Store
 * A Cable to connect your Quest to your Phone (If your phone charges over USB C the charger that was included with your
 Quest should work)
 
+## How to Enable Developer Mode on the Oculus Quest
+There are two methods, the first one requires a credit card. If you do not have one you can follow the
+[I have no Credit Card](#i-have-no-credit-card) steps instead.
 
-#### How to enable developer mode on the Oculus Quest
-First head to [the oculus dashboard](https://dashboard.oculus.com/) and sign in with your Facebook Account.
-You'll need to provide a credit card to verify.
-If you don't have a credit card you can do the steps [here](#i-have-no-credit-card).
+### Verify with a Credit Card
+Head to the [Oculus dashboard](https://dashboard.oculus.com/) and sign in with your Facebook Account.
+
 After you successfully logged in and verified you can create your new Organization.
 
 ![DevModeDashboard](~@images/beginners-guide/DevModeDashboard.png)
 
 ![DevModeCreateOrg](~@images/beginners-guide/DevModeCreateOrg.png)
 
-After you created it, you can enable Developer mode in the oculus app on your smartphone.
+After you created it, you can enable Developer mode in the Oculus app on your smartphone.
 
-##### Enable Developer mode in the oculus app
+#### Enable Developer mode in the Oculus App
 
 ![EnableDevMode](~@images/beginners-guide/EnableDevMode.png)
 
-#### I have no credit card
+You can now skip to [Setup your Phone](#setup-your-phone)
+
+### I have no Credit Card
 [Original Source](https://www.reddit.com/r/sidequest/comments/jaxy4u/cant_verify_oculus_developer_account/?utm_source=amp&utm_medium=&utm_content=post_body).
 
-So please note that you have to create a second account (oculus developer account) and then add  your facebook profile to the organization created.
+So please note that you have to create a second account (Oculus developer account) and then add your Facebook profile to
+the organization created.
 It is a bit harder.
 
-**info:** If you have a friend who has a organization you can ask them to add you to their organization so you don't have to make a new account.
-If so tell your friend to check [Add yourself to the organization](#add-yourself-to-the-organization)
+:::tip
+If you have a friend who has a organization you can ask them to add you so you do not have to make a new account.
+If so, tell your friend to follow the steps in [Add yourself to the organization](#add-yourself-to-the-organization)
+using your Facebook account instead.
+:::
 
-##### Create a new developer account
-Go to the [sign up page for oculus developers](https://developer.oculus.com/sign-up/) and click "create a unmerged oculus developer account".
-Then Fill in all needed information.
-Then verify with the email you got sent and log in again with the account you just created.
-Then go to the [verify page](https://developer.oculus.com/manage/verify/) and set up Two Facto Authentication. 
+#### Create a New Developer Account
+
+1. Go to the [sign up page for Oculus developers](https://developer.oculus.com/sign-up/) and click
+`Create an Unmerged Oculus Developer Account`.
+2. Fill in all required information.
+3. Verify with the email you got sent and log in again with the account you created.
+4. Go to the [verify page](https://developer.oculus.com/manage/verify/) and set up Two Factor Authentication.
 
 ![2fa](~@images/beginners-guide/2fa.png)
 
-##### Create new organization
-After you did that head to the [oculus dashboard](https://dashboard.oculus.com/) and create a organization with (almost) any name you want.
+#### Create New Organization
+After you did that head to the [Oculus Dashboard](https://dashboard.oculus.com/) and create a organization with *almost*
+any name you want.
 
 ![DevModeDashboard](~@images/beginners-guide/DevModeDashboard.png)
 
 ![DevModeCreateOrg](~@images/beginners-guide/DevModeCreateOrg.png)
 
-##### Add yourself to the organization
-After you created your Organization you have to add your Facebook profile to your Organization by Selecting your Organization in the drop down and then clicking on Members.
-There you add a new Member with the Role Admin and put in the Username of your Facebook profile. After that you click add and the user should be added.
+#### Add Yourself to the Organization
+After you created your Organization you have to add your Facebook profile to your Organization by Selecting your Organization
+in the drop down and then clicking on Members.
+There you add a new Member with the Role Admin and put in the Username of your Facebook profile. After that, click add
+and the user should be added.
 
 ![DevModeCreateOrg](~@images/beginners-guide/addmember.png)
 
-## Enable Developer mode in the oculus app
-Then you should be able to enable the developer mode in your Oculus app on your smartphone.
+#### Enable Developer Mode in the Oculus App
+You should now be able to enable the developer mode in the Oculus app on your smartphone.
 
 ![EnableDevMode](~@images/beginners-guide/EnableDevMode.png)
 
+You can now continue to [Setup your Phone](#setup-your-phone)
 
-#### Setup your Phone
+## Setup your Phone
 
 1. Download the [SideQuest app from the Google Play store](https://play.google.com/store/apps/details?id=side.quest.mobile)
-Developer Mode on your Quest.
 2. Enable Developer mode on your Phone
     1. Go into your Android settings
     2. Scroll to "About phone" and open it
@@ -84,7 +96,7 @@ Developer Mode on your Quest.
     2. Tap "Developer options"
     3. Activate USB debugging
 
-#### Installing BMBF with your Phone
+### Installing BMBF with your Phone
 :::warning
 Before modding, run Beat Saber once, play a level and immediately fail!
 :::
@@ -101,7 +113,7 @@ You should see an app with an unicorn as symbol. Tap on that and click `INSTALL 
 
 Afterwards you should have BMBF installed on your Quest and are ready to mod Beat Saber.
 
-#### Setup Beat Saber
+## Setup Beat Saber
 After successfully installing BMBF onto your Quest you should be able to find it in your Quests library under unknown sources.
 
 ![UnknownMenu](~@images/beginners-guide/quest_home-menu.jpg)
@@ -113,4 +125,5 @@ If at any point during the install process, you get the Restore App popup just c
 This warning is directed to pirated versions of the game so there will likely be no consequences for ignoring it if you
 have a legitimate copy.
 
-Now you can continue with the [Core Mods](/quest-modding.html#core-mods) step of the installation process as if you were modding with your PC.
+Now you can continue with the [Core Mods](/quest-modding.md#core-mods) step of the installation process as if you were
+modding with your PC.

@@ -51,7 +51,7 @@ for the current game version.
 :::
 
 ### Installing BMBF with SideQuest
-_alternatively [install BMBF with your Android phone](/support/modding-with-phone.md)_
+_alternatively [install BMBF with your Android phone](/support/modding-with-android-phone.md)_
 
 If you haven't already, download and setup [SideQuest](https://sidequestvr.com/#/setup-howto)
 
