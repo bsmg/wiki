@@ -59,6 +59,15 @@ Enhanced Stream Chat mod. This man wants more hip hop songs, get on it people!
 
 [GitHub](https://github.com/brian91292) | [Donate](https://ko-fi.com/brian91292)
 
+## ckosmic
+Creator of CustomEnergyBars and SpectroSaber! Modding the funny cut block music game is cool. Also if you create any
+content for my mods I will probably remember you on my deathbed.
+
+**Roles:** Modder
+**Contributions:** CustomEnergyBars, SpectroSaber
+
+[GitHub](https://github.com/ckosmic) | [Donate](https://paypal.me/ckosmic)
+
 ## DaNike
 Creator of the custom-tailored version of IPA (illusion plugin architecture) BSIPA, a mod injector to allow Beat Saber
 to use mods. An incredible tool that makes modding beat saber as easy as it is.
@@ -80,7 +89,7 @@ Ended up maintaining a wild variety of mods after adopting them from their origi
 **Roles:** Modder
 **Contributions:** MorePrecisePlayerHeight, HitScoreVisualizer, ChatCore, EnhancedStreamChat, ...
 
-[GitHub](https://github.com/erisapps) | [Donate](https://ko-fi.com/erisapps)
+[GitHub](https://github.com/erisapps) | [Donate with Patreon](https://www.patreon.com/erisapps) | [Donate with Ko-fi](https://ko-fi.com/erisapps)
 
 ## Goobie
 Maintainer of the mods that help you play with friends the right way.
@@ -262,12 +271,13 @@ Our own LIV insider and creator of Saber Tailor and the original Custom Colors p
 [GitHub](https://github.com/sc2ad) | [Twitch](https://www.twitch.tv/sc2ad) | [PayPal](https://paypal.me/sc2ad) | [Ko-Fi](https://ko-fi.com/sc2ad_support)
 
 ## Shadnix
-Current maintainer of Saber Tailor
+Current maintainer of Saber Tailor and Particle Overdrive. Made some other small things that since have become part of
+the base game options.
 
 **Roles:** Modder
-**Contributions:** Saber Tailor, Level Pack Mover
+**Contributions:** Saber Tailor, Particle Overdrive, Level Pack Panel Mover, NoteSpawnEffectRemover, AdaptiveSFXRemover
 
-[GitHub](https://github.com/Shadnix-was-taken)
+[GitHub](https://github.com/Shadnix-was-taken) | [Twitch](https://www.twitch.tv/shadnix)
 
 ## Shoko84
 Making sure we're all nice and hydrated after cutting the blocks.
@@ -337,7 +347,6 @@ He's since moved on to develop other VR games, like [Waltz of the Wizard](https:
 
 ::: tip See Also
 **Support:** [Pespiri](./supports.md#pespiri)  
-**Moderator:** [Caeden117](./moderators.md#caeden117)  
-**Staff:** [+1 Rabbit](./staff.md#_1-rabbit) | [lolPants](./staff.md#lolpants) | [Megalon](./staff.md#megalon) |
-  [Reaxt](./staff.md#reaxt) | [Lillie](./staff.md#lillie) | [Steven](./staff.md#steven-🎀)
+**Staff:** [+1 Rabbit](./staff.md#_1-rabbit) | [Caeden117](./staff.md#caeden117) | [lolPants](./staff.md#lolpants) |
+[Megalon](./staff.md#megalon) | [Pink](./staff.md#pink) |  [Reaxt](./staff.md#reaxt) | [Lillie](./staff.md#lillie) | [Steven](./staff.md#steven-🎀)
 :::

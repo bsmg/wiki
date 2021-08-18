@@ -30,7 +30,7 @@ Wir sind BeatKhana, eine Beat Saber Community die sich darauf konzentriert Turni
 ## Beat Saber Commissions
 Du hast ein Modell, eine Map oder einen Mod, den du gerne fertiggestellt hättest? Hier kannst du dich mit Fachleuten in Verbindung setzen.
 
-[Discord](https://discord.gg/4RbcH5G)
+[Discord](https://discord.gg/e4f3WBBVnr)
 
 ---
 

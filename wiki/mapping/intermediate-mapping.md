@@ -82,29 +82,29 @@ Players need to see the notes to comfortably prepare and react.
 Notes that are hidden until the last second are very jarring to play.
 
 ### Vision Blocks
-Speed influences visibility heavily, as the note jump speed and spawn distance dictate how much time the player has to see
+Speed influences visibility heavily, as the note jump speed and jump distance dictate how much time the player has to see
 incoming notes. The player will have too little time to react to notes that spawn too close and approach too quickly. Likewise,
 vision blocks are more severe as the song gets faster- when the note exists for a shorter time, any time that the block is
 obscured is more impactful. At extreme speeds and slower note jump speeds, even bottom row blocks can obscure other bottom
 row notes (the same can be said for top row notes, but those are rarely used at a density where this is a problem).
 
-### Note Jump Speed & Spawn Distance
-Note Jump Speed (NJS), Spawn Offset (or offset), and Spawn Distance are additional factors you need to consider for visibility.
+### Note Jump Speed & Jump Distance
+Note Jump Speed (NJS), Spawn Offset (or offset), and Jump Distance are additional factors you need to consider for visibility.
 
 Slower NJS is useful for visibility on easier songs where players need to see things coming to react. Faster NJS is useful
 for fast songs which would otherwise appear cluttered without note spacing. Faster NJS also helps for visually cluttered
 maps which heavily use elements such as bombs or sliders that otherwise create visual noise.
 
-Larger spawn distances are good for maps which need high visibility to catch unusual or large motions such as dancey maps.
-Shorter spawn distances are useful for maps which have simpler patterns but are faster- a shorter spawn distance means that
+Larger jump distances are good for maps which need high visibility to catch unusual or large motions such as dancey maps.
+Shorter jump distances are useful for maps which have simpler patterns but are faster- a shorter jump distance means that
 fewer notes are on screen, therefore being less cluttered.
 
-Offset is used to adjust a song’s spawn distance while keeping the NJS the same, since spawn distance varies with NJS and
+Offset is used to adjust a song’s jump distance while keeping the NJS the same, since jump distance varies with NJS and
 BPM. Spawn offsets can be positive or negative and usually don't go above 1 or below -1. Below is a table of NJS, spawn
-offset, and spawn distance values that can be used as a guide (but not as law) for determining your map’s parameters. Using
-this table, adjust the offset as needed to reach the target spawn distance.
+offset, and jump distance values that can be used as a guide (but not as law) for determining your map’s parameters. Using
+this table, adjust the offset as needed to reach the target jump distance.
 
-| **Speed & Style** | **Spawn Distance Target** | **Expert NJS** | **Expert+ NJS** |
+| **Speed & Style** | **Jump Distance Target** | **Expert NJS** | **Expert+ NJS** |
 |:----:|:----:|:----:|:----:|
 | Slow (< 100 BPM) Standard | 24-27 | 14-16 | 17-19 |
 | Slow (< 100 BPM) Dancey | 24-28 | 13-16 | 16-18 |
@@ -232,7 +232,7 @@ Left and right movement should feel natural and never be forced.
 Down movement is trickier as it is easier to do more harm than good.
 
 * Most players dislike crouch walls, be very selective when using them.
-  * Crouch walls should be avoided when the spawn distance is very short and NJS is high as they
+  * Crouch walls should be avoided when the jump distance is very short and NJS is high as they
     make even fully telegraphed crouch walls too fast to react to.
 * Keep them short, there’s rarely a good reason to have them longer than 1-2 beats.
 * If you are ending a crouch wall with notes just after, be extremely careful with what direction you start (up/down).
@@ -275,11 +275,11 @@ immediately before the bomb reset guide the player to resetting more smoothly.
 Sliders are the use of multiple notes at different times all hit with the same swing.
 They fit well for sounds that are sustained for slightly longer than a normal note, but have significant restrictions.
 
-Conventionally, sliders are started with an arrow block and followed with dot blocks spaced at 1/12 or 1/16 from the
+Conventionally, sliders are started with an arrow block and followed with dot blocks spaced at 1/16 or 1/24 from the
 original block. Sliders slower than these precisions require the player to alter their swing speed to successfully hit,
 which is not desired. Sliders faster than these precisions are essentially stacks/towers.
 
-The using 1/12 vs. 1/16 precision depends on bpm though 1/16 is a safe choice for most speeds. **It is more important for
+The using 1/16 vs. 1/24 precision depends on bpm though 1/16 is a safe choice for most speeds. **It is more important for
 sliders to be playable than to match with the rhythm.** If a 1/8 sound is mapped with 1/8 sliders, it may be too slow to
 play comfortably in one swing.
 

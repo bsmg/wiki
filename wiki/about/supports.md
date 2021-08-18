@@ -41,11 +41,6 @@ is too uncreative to think of a bio
 
 **Roles:** Support
 
-## OneEyed
-2 truths and a lie: Pink cute, CMB sentient, OneEyed has good spelling
-
-**Roles:** Support
-
 ## Pespiri
 He'll give me his bio later today, or so he says.
 
@@ -83,7 +78,7 @@ He has no life and he's pretty dumb but he can help with your bmbf and that's al
 **Roles:** Support
 
 ## Squares
-I swear i'm good at Beat Saber and helping just ask Boulders!
+I swear i'm good at Beat Saber and helping just ask boulders!
 
 **Roles:** Support
 
@@ -105,8 +100,8 @@ Created by Megalon, recreated by lolPants, and personified by Rolo!
 ::: tip See Also
 **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
 **Modders:** [Kyle1413](./modders.md#kyle1413)  
-**Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)
-  | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn)  
+**Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer-retired)
+  | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn) | [Burrito](./moderators.md#burrito) | [OneEyed](./moderators.md#oneeyed)
 **Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon)
-  | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
+  | [Pink](./staff.md#pink) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
 :::

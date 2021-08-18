@@ -34,7 +34,7 @@ Que faisons-nous ?
 
 Un modèle, une map ou un mod que vous aimeriez voir naître ? Entrez en contact avec les professionnels ici.
 
-[Discord](https://discord.gg/4RbcH5G) (serveur anglophone)
+[Discord](https://discord.gg/e4f3WBBVnr) (serveur anglophone)
 
 ---
 

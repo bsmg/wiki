@@ -53,6 +53,6 @@ First time ChroMapper contributor and MMA2 maintainer. Might finish a map one da
 
 ::: tip See Also
 **Supports:** [Kolezan](./supports.md#kolezan)  
-**Moderators:** [Pyrowarfare](./moderators.md#pyrowarfare)  
+**Moderators:** [Pyrowarfare](./moderators.md#pyrowarfare-retired)  
 **Staff:** [Bloodcloak](./staff.md#bloodcloak)  
 :::
