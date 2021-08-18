@@ -534,7 +534,8 @@ by **+1 Rabbit** to make the one time adjustment!
 
 ---
 
-### **When I open MMA2, it works fine for about a minute and then crashes with no error** 
+### **When I open MMA2, it works fine for about a minute and then crashes with no error**
+
 * After you launch MMA2, disconnect from the internet and wait a couple minutes before reconnecting.
 
 ## Credits
