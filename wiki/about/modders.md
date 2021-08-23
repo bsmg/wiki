@@ -242,6 +242,14 @@ does things sometimes ????
 
 [GitHub](https://github.com/raftario)
 
+## RedBrumbler
+Ever used Custom sabers for quest? this guy made the mod for that, 
+
+**Roles:** Modder, Support, 3D Artists
+**Contributions:** Qosmetics, Custom Pillows (quest), Inverted arrows, AntiVertigo
+
+[GitHub](https://github.com/RedBrumbler) | [PayPal](https://paypal.me/RedBrumblerOfficial) | [Patreon](https://www.patreon.com/Qosmetics)
+
 ## Rolo
 Creator of the Custom Platforms plugin and pumpkin carving extrordinaire.
 Also responsible for MVP so you can watch the Shrek movie as you play it in game!
