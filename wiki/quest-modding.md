@@ -261,7 +261,7 @@ Mapping Wiki section for steps on packing it up for testing!
 :::
 
 ## Installing Models
-Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your menu title, sabers, bloqs or walls look in-game!
+Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your <strike>menu title</strike> (doesn't work on 1.16.4, use Qu(e)stomMenuText mod), sabers, bloqs or walls look in-game!
 
 ## Useful Links
 
