@@ -32,7 +32,7 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with [SideQuest using a PC](#installing-bmbf-with-sidequest).
 
 If you do not have access to a PC you can use an [Android Phone or Tablet](/support/modding-with-android.md).
-iOS devices such as iPhones or iPads and Chromebooks are not supported.
+Chromebooks and iOS devices such as iPhones or iPads are not supported.
 
 :::warning
 Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
@@ -58,7 +58,7 @@ There are three methods available to obtain BMBF:
 * [The SideQuest Store on PC](#download-from-the-sidequest-store)
 * [The BMBF website](#download-the-from-the-bmbf-website)
 * If you do not have a PC, you can use [the SideQuest Store on Android](/support/modding-with-android.md) as a last resort
-  * iOS devices such as iPhones or iPads and Chromebooks are not supported.
+  * Chromebooks and iOS devices such as iPhones or iPads are not supported.
 :::tip
 If you've previously modded Beat Saber or have scores you want to backup, [backup your Save Data first!](#backup-save-data-using-sidequest)
 :::
@@ -99,9 +99,10 @@ all secondary accounts before modding the game. You can add them back later once
 :::
 
 After running Beat Saber once, open BMBF from unknown sources as the picture below shows.
-![UnknownSources](~@images/beginners-guide/quest_home-menu.png)
+![UnknownSources](~@images/beginners-guide/quest_home-menu.jpg)
 
-Once opened, follow each step in BMBF exactly as you're told to mod your game. Once completed, you should see [QuestBoard](https://www.questmodding.com/) with [BeastSaber](https://www.bsaber.com) loaded inside of the BMBF app.
+Once opened, follow each step in BMBF exactly as you're told to mod your game. Once completed, you should see
+[QuestBoard](https://www.questmodding.com/) with [BeastSaber](https://www.bsaber.com) loaded inside of the BMBF app.
 This is where you can download any custom songs available. You can also click the BeatSaver button to download songs too.
 
 If at any point during the install process you get the `Restore App` popup, just click `Close`.
@@ -161,7 +162,7 @@ Not all mods are available on QuestBoard!
 If a mod is not seen in here, you should follow the [Using Your PC](#using-your-pc) method instead.
 :::
 
-Open BMBF in your Quest and go to the `Browser` tab. You should automatically start at the QuestBoard website.  
+Open BMBF in your Quest and go to the `Browser` tab. The QuestBoard website should automatically open.  
 If not, click `Choose Website` at the top right, then click the `QuestBoard` button.
 
 ![globequestboard](~@images/beginners-guide/globequestboard.png)
@@ -171,9 +172,9 @@ Next, select the `Get Mods` tab.
 
 ![questboardhome](~@images/beginners-guide/questboardhome.png)
 
-Scroll down by clicking and dragging the pointer. You can now select any mod from the list, seen below, and download it by hitting the
-download button next to it. Some downloads may redirect you to a website or GitHub page. If so, follow the instructions
-onscreen, or select the latest `.qmod` in the Releases list, respectively.
+Scroll down by clicking and dragging the pointer. You can now select any mod from the list, seen below, and download it
+by hitting the download button next to it. Some downloads may redirect you to a website or GitHub page. If so, follow the
+instructions onscreen, or select the latest `.qmod` in the Releases list, respectively.
 
 ![questboardmods](~@images/beginners-guide/questboardmods.png)
 
@@ -258,7 +259,7 @@ Mapping Wiki section for steps on packing it up for testing!
 :::
 
 ## Installing Models
-Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your menu title, sabers, bloqs or walls look in-game!
+Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your sabers, bloqs or walls look in-game!
 
 ## Useful Links
 
