@@ -243,7 +243,7 @@ does things sometimes ????
 [GitHub](https://github.com/raftario)
 
 ## RedBrumbler
-Ever used Custom sabers for quest? this guy made the mod for that, 
+Ever used Custom sabers for quest? this guy made the mod for that.
 
 **Roles:** Modder, Support, 3D Artists
 **Contributions:** Qosmetics, Custom Pillows (quest), Inverted arrows, AntiVertigo
