@@ -32,7 +32,7 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with [SideQuest using a PC](#installing-bmbf-with-sidequest).
 
 If you do not have access to a PC you can use an [Android Phone or Tablet](/support/modding-with-android.md).
-iOS devices such as iPhones or iPads are not supported.
+iOS devices such as iPhones or iPads and Chromebooks are not supported.
 
 :::warning
 Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
@@ -51,25 +51,25 @@ for the current game version.
 :::
 
 ### Installing BMBF with SideQuest
-If you haven't already, download and setup [SideQuest](https://sidequestvr.com/#/setup-howto)
+If you haven't already, download and setup [SideQuest](https://sidequestvr.com/#/setup-howto).
 
 There are three methods available to obtain BMBF:
 
 * [The SideQuest Store on PC](#download-from-the-sidequest-store)
 * [The BMBF website](#download-the-from-the-bmbf-website)
 * If you do not have a PC, you can use [the SideQuest Store on Android](/support/modding-with-android.md) as a last resort
-  * iOS devices such as iPhones or iPads are not supported
+  * iOS devices such as iPhones or iPads and Chromebooks are not supported.
 :::tip
-If you've previously modded Beat Saber or have scores you want to backup, [Backup your Save Data first!](#backup-save-data-using-sidequest)
+If you've previously modded Beat Saber or have scores you want to backup, [backup your Save Data first!](#backup-save-data-using-sidequest)
 :::
 
 #### Download from the SideQuest Store
 
-1. Connect your Quest to your PC then go to [BMBF On SideQuest](https://sidequestvr.com/app/747).
-2. Click the `Install To Headset` button.
+1. Connect your Quest to your PC, then go to [BMBF On SideQuest](https://sidequestvr.com/app/747).
+2. Click the `Install To Headset` button. (Accept a prompt to open SideQuest if it appears.)
 3. Wait for BMBF to finish installing onto your headset.
 
-Once installed skip to the [BMBF Setup](#bmbf-setup) section of the guide.
+Once installed, skip to the [BMBF Setup](#bmbf-setup) section of the guide.
 
 #### Download the from the BMBF website
 First download the [BMBF APK](https://bmbf.dev/stable) on your PC.
@@ -99,14 +99,12 @@ all secondary accounts before modding the game. You can add them back later once
 :::
 
 After running Beat Saber once, open BMBF from unknown sources as the picture below shows.
-![UnknownSources](~@images/beginners-guide/quest_home-menu.jpg)
+![UnknownSources](~@images/beginners-guide/quest_home-menu.png)
 
-Once opened, follow each step in BMBF exactly as you're told to mod your game. Once completed, you should see [Bsaber.com](https://www.bsaber.com)
-inside of the BMBF app.
-This is where you can download any custom songs available. You can also click on the globe icon in the top right and go
-to BeatSaver to download songs too.
+Once opened, follow each step in BMBF exactly as you're told to mod your game. Once completed, you should see [QuestBoard](https://www.questmodding.com/) with [BeastSaber](https://www.bsaber.com) loaded inside of the BMBF app.
+This is where you can download any custom songs available. You can also click the BeatSaver button to download songs too.
 
-If at any point during the install process, you get the `Restore App` popup just click `Close`.
+If at any point during the install process you get the `Restore App` popup, just click `Close`.
 This warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences
 for ignoring it.
 
@@ -118,23 +116,21 @@ Continue to the [Core Mods](#core-mods) step of the installation process.
 
 ### Backup Save Data using SideQuest
 
-Open SideQuest and connect your Quest to your PC. Go to `My Apps` located in the top bar of the window and find Beat Saber.
+Open SideQuest and connect your Quest to your PC.
 
 Navigate to `sdcard/Android/data/com.beatgames.beatsaber/files` using the SideQuest file explorer.
+
+![SideQuest Files](~@images/beginners-guide/sqfiles.png)
 
 Save the files: `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` into a folder on your PC. Do not lose these, as they
 contain your scores and other settings!
 
 ### Restoring Save Data using SideQuest
 
-To restore your data, open SideQuest and connect your Quest to your PC.
-Go to `My Apps` located in the top bar of the window and find Beat Saber.
-Using the SideQuest file explorer take the 3 files you saved from the [Backup Save Data using SideQuest](#backup-save-data-using-sidequest)
+To restore your data, open SideQuest and connect your Quest to your PC.  
+Using the SideQuest file explorer, take the 3 files you saved from the [Backup Save Data using SideQuest](#backup-save-data-using-sidequest)
 steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
 `sdcard/Android/data/com.beatgames.beatsaber/files` folder.
-
-Go back to the menu and press the circular arrows located beside your latest backup.
-Your scores and settings should now be restored.
 
 ## Installing Mods
 
@@ -165,17 +161,17 @@ Not all mods are available on QuestBoard!
 If a mod is not seen in here, you should follow the [Using Your PC](#using-your-pc) method instead.
 :::
 
-Open BMBF in your Quest and go to the `Browser` tab, there you should see a globe icon similar to what's shown below.
-Click it, then click the `QuestBoard` button.
+Open BMBF in your Quest and go to the `Browser` tab. You should automatically start at the QuestBoard website.  
+If not, click `Choose Website` at the top right, then click the `QuestBoard` button.
 
 ![globequestboard](~@images/beginners-guide/globequestboard.png)
 
 You should be greeted with the [QuestBoard](https://www.questmodding.com/) website below.
-Next, select the `Released Mods` tab.
+Next, select the `Get Mods` tab.
 
 ![questboardhome](~@images/beginners-guide/questboardhome.png)
 
-Scroll down with your thumbsticks. You can now select any mod from the list, seen below, and download it by hitting the
+Scroll down by clicking and dragging the pointer. You can now select any mod from the list, seen below, and download it by hitting the
 download button next to it. Some downloads may redirect you to a website or GitHub page. If so, follow the instructions
 onscreen, or select the latest `.qmod` in the Releases list, respectively.
 
@@ -212,18 +208,19 @@ good mapping practices were established. Try downloading songs released between 
 custom levels experience.
 :::
 
-### In-game
-You can now download songs In-game using SongDownloader (CoreMod)
-There are a few steps to downloading songs in-game:
-    1. Open BeatSaber
-    2. Go into ModSettings (Settings -> ModSettings)
-    3. Open SongDownloader tab
-    4. Search for a song and download it.
+### In-Game
+You can now download songs in-game using SongDownloader (core mod)
+There are a few steps to downloading songs in-game:  
+
+1. Open Beat Saber  
+2. Go into Mod Settings (Settings -> Mod Settings)  
+3. Open the SongDownloader tab
+4. Search for a song and download it.
 
 When downloading songs in-game you do not have to restart the game. It automatically loads the song using the SongLoader.
 ![songdownloader](~@images/beginners-guide/songdownloader.png)
 
-### Inside your Quest
+### Inside BMBF
 There are 2 sources to getting custom maps inside your Quest using the browser window.
 
 * If you are looking for curated maps and playlists visit [BeastSaber](https://bsaber.com/)
@@ -232,12 +229,12 @@ There are 2 sources to getting custom maps inside your Quest using the browser w
 Both have a OneClick™ button that easily installs that song onto your Quest.
 You can switch between these websites using the globe icon in the top right of the browser window.
 
-An easy way to download different kinds of songs is to use `Syncsaber` which you can access by going into BMBF on your quest
-and clicking the tab called `Syncsaber`. Here you can download songs with a click of a button, you can choose from
+An easy way to download different kinds of songs is to use `SyncSaber`, which you can access by going into BMBF on your Quest
+and clicking the tab called `SyncSaber`. Here, you can download songs with a click of a button by choosing from
 different "settings". For example, you can download the top 20 songs in [BeatSaver's](https://beatsaver.com/) "hot" section
 or the 50 hardest ranked songs.
 
-Another method is using the `Bookmark` feature on [BeastSaber](https://bsaber.com/). After creating an account you can click
+Another method is using the `Bookmark` feature on [BeastSaber](https://bsaber.com/). After creating an account, you can click
 a little bookmark icon on a song and if you later delete all your songs from the Quest you can redownload the ones that
 are bookmarked with OneClick™.
 
@@ -271,7 +268,7 @@ Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your 
   sabers, bloqs, and walls for Quest.
 * [QuestBoard website](https://questmodding.com) - A place to get Beat Saber related news and info along with the latest
   mods releases!
-* [QuestBoard discord server](https://discord.gg/P7sUKVnP) - A quest community to hangout and talk about Beat Saber
+* [QuestBoard Discord server](https://discord.gg/P7sUKVnP) - A quest community to hangout and talk about Beat Saber
   related stuff, you can also get a role to get notified when a new mod gets released!
 * [Fixing Out of Sync Audio](https://bsaber.com/quest-out-of-sync/)
 * [ScoreSaber Mod](https://new.scoresaber.com/quest) - Get in-game leaderboards for custom songs
