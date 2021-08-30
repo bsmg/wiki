@@ -8,7 +8,7 @@ description: Emma's Guide to making Custom Platforms!
 _Emma's Guide to making Custom Platforms._
 
 ## Project
-Open the current [Custom Platforms Project](https://github.com/affederaffe/CustomPlatformsUnityProject/releases/) with
+Open the current [Custom Platforms Project](https://github.com/affederaffe/CustomPlatforms/releases/latest) with
 [Unity 2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe).
 
 ## First Steps
