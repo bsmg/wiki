@@ -363,7 +363,8 @@ There are multiple ways to map for 360°/90° mode. The following sections cover
 4. [JSON/DAT Editing](#json-dat-editing)
 
 #### ChroMapper
-ChroMapper, now in open Beta, natively supports 360°/90° mapping. See detailed support for extended mapping on the [ChroMapper Wiki](https://chromapper.atlassian.net/wiki/spaces/UG/pages/4685907/Extended+Mapping)
+ChroMapper, now in open Beta, natively supports 360°/90° mapping. See detailed support for extended mapping on the
+[ChroMapper Wiki](https://chromapper.atlassian.net/wiki/spaces/UG/pages/4685907/Extended+Mapping)
 
 * **Pro:** Natively supports 360°/90° mapping
 * **Pro:** Better visualisation of 360°/90° mapping.

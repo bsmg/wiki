@@ -101,10 +101,12 @@ Keyboard shortcuts for these editors are available inside their respective in-ed
 all of them [available here](./editor-keybinds.md).
 
 #### ChroMapper
-**Now in open beta!** A 3D editor that has stellar support for lighting, Chroma, Noodle Extensions, 360/90 mapping, and shares similar assets with Beat Saber, allowing for a
+**Now in open beta!** A 3D editor that has stellar support for lighting, Chroma, Noodle Extensions, 360/90 mapping, and
+shares similar assets with Beat Saber, allowing for a
 more accurate preview. By FAR the most feature-rich editor available to the community.
 
-Joining the [ChroMapper Discord](https://discord.gg/wFjZt4z) is encouraged to access plugins, scripts, and application support (mapping support is available in BSMG).
+Joining the [ChroMapper Discord](https://discord.gg/wFjZt4z) is encouraged to access plugins, scripts, and application
+support (mapping support is available in BSMG).
 
 * [ChroMapper Launcher Download](https://cm.topc.at/dl)
 * [ChroMapper Wiki](https://chromapper.atlassian.net/wiki)
@@ -249,7 +251,9 @@ released three solid/playable maps (collaborations are acceptable) and complete 
 time to be reviewed and approved.
 
 ### Curation
-Mappers can submit high quality maps, free of [objective issues](https://bsaber.com/getting-started/curation/#donts) to the #curation-request channel on the [BeastSaber Discord](https://discord.gg/VJZHUbt). Maps selected for curation are given extra visibility on the site and included in the Curator Recommended feed.
+Mappers can submit high quality maps, free of [objective issues](https://bsaber.com/getting-started/curation/#donts) to
+the #curation-request channel on the [BeastSaber Discord](https://discord.gg/VJZHUbt). Maps selected for curation are
+given extra visibility on the site and included in the Curator Recommended feed.
 
 ### Modding & Ranking
 Maps that meet specific [Ranking Criteria](https://scoresaber.com/criteria) and go through an intensive review process called
@@ -452,7 +456,7 @@ Once your song has been mapped, lighted, and playtested and it’s a finished pr
   * See the [Playtesting](#playtesting) section for instructions on testing your map.
 :::
 
-1. [Create an account](https://beatsaver.com/register) on BeatSaver with a username/password or by logging in via Discord.  
+1. [Create an account](https://beatsaver.com/register) on BeatSaver with a username/password or by logging in via Discord.
     * Beatsaver usernames may only have alphanumeric characters and `-`. Usernames with spaces or `_` for example, are
     not allowed.
 2. Click the <kbd>Upload</kbd> link in the top-right.
@@ -463,12 +467,13 @@ Once your song has been mapped, lighted, and playtested and it’s a finished pr
     * Putting a link to a playthrough video in the map description can help you get more downloads as it is easier
       to share your map to others and lets people know what to expect.
 4. Add your .zip file and identify whether your map was human-made or AI-assisted.
-	* AI maps intentionally uploaded as human-made will be deleted.
+    * AI maps intentionally uploaded as human-made will be deleted.
 5. Maps are initially uploaded to your unpublished tab. You must explicitly publish them to make them available to the public.
 
 ::: tip NOTE
 Map files can now be updated on BeatSaver!
-If you need to upload a new version of your map you must first recall the map to your unpublished tab before you can upload a new version. This will retain your map key and statistics but will reset all leaderboards.
+If you need to upload a new version of your map you must first recall the map to your unpublished tab before you can
+upload a new version. This will retain your map key and statistics but will reset all leaderboards.
 :::
 
 ### BeatSaver Troubleshooting
@@ -485,20 +490,21 @@ Encountered something not listed here? Drop into `#mapping-discussion` for assis
 
 ---
 
-**Map already uploaded!**
+#### Map already uploaded
 
 * The exact map files were uploaded previously. You must change something small in your map
   (i.e., remove a light block, save the map, replace the light block, and save again) to be able to upload.
   
 ---
 
-**_difficultyBeatmapSets[]._difficultyBeatmaps[].`Difficulty.dat`._version``: Must not be null.**
+#### _difficultyBeatmapSets[]._difficultyBeatmaps[].`Difficulty.dat`._version``: Must not be null
 
-* You are using an old, outdated editor that is not compliant with the current data schema. See [Community Editors](#community-editors) for the current options.
+* You are using an old, outdated editor that is not compliant with the current data schema.
+See [Community Editors](#community-editors) for the current options.
 
 ---
 
-**Internal Server Error**
+#### Internal Server Error
 This is the default error message, causes include:  
 
 * An upload that is close to or over the actual file size limit of 14.3 MB.
@@ -512,25 +518,26 @@ This is the default error message, causes include:
 
 ---
 
-**Could not verify user []**
+#### Could not verify user []
 
 * This error is related to recaptcha. Please reload the page.
 
 ---
 
-**``_difficultyBeatmapSets[]._difficultyBeatmaps[]`Difficulty.dat`._notes[]_time:`` Must be between 0 and x**
+#### ``_difficultyBeatmapSets[]._difficultyBeatmaps[]`Difficulty.dat`._notes[]_time:`` Must be between 0 and x
 
-* Your map contains notes outside of the playable map (usually from a copy and paste error). Remove them and reattempt your upload.
+* Your map contains notes outside of the playable map (usually from a copy and paste error).
+Remove them and reattempt your upload.
 
 ---
 
-**Beatmap zip contains an illegal file! OLD**
+#### Beatmap zip contains an illegal file! OLD
 
 * Usually caused by extra/unsupported files, such as gifs, in the zip.
 
 ---
 
-**Beatmap does not contain an Info.dat file! OLD**
+#### Beatmap does not contain an Info.dat file! OLD
 
 * Usually caused by having the files in a subfolder. You need to zip the files instead of the folder.
   [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead.
@@ -538,7 +545,7 @@ This is the default error message, causes include:
 
 ---
 
-**One or more beatmap difficulty files cannot be found! OLD**  
+#### One or more beatmap difficulty files cannot be found! OLD
 
 * You might have forgotten to include all of your difficulty files are in the zip.  
 * A difficulty's `"_beatmapFilename"` in the `Info.dat` might be using a different
@@ -548,7 +555,7 @@ This is the default error message, causes include:
 
 ---
 
-**Error in `MapDifficulty.dat`. Root should NOT have additional property: `_time`. OLD**
+#### Error in `MapDifficulty.dat`. Root should NOT have additional property: `_time`. OLD
 
 `_time` is the common error for this type of message. However, the same solution applies if a different property is flagged.
 
@@ -556,13 +563,13 @@ This is the default error message, causes include:
 
 ---
 
-**Beatmap could not be parsed! OLD**  
+#### Beatmap could not be parsed! OLD
 
 * This could be caused by extreme server load. Try again later or ask in `#mapping-discussion`.  
 
 ---
 
-**Field `._customData._contributors[]._iconPath` contains an invalid filename. OLD**  
+#### Field `._customData._contributors[]._iconPath` contains an invalid filename. OLD
 
 * Utilizing the contributors field requires all aspects to be included. Make sure all 3 aspects (Role, Name, iconPath)
   are filled and there is a unique square image for each iconPath entry in your zip.
