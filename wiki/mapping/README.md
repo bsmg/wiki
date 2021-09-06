@@ -100,8 +100,17 @@ Community editors often have more features and don't require a VR headset, but t
 Keyboard shortcuts for these editors are available inside their respective in-editor menus with a cross-reference between
 all of them [available here](./editor-keybinds.md).
 
+#### ChroMapper
+**Now in open beta!** A 3D editor that has stellar support for lighting, Chroma, Noodle Extensions, 360/90 mapping, and shares similar assets with Beat Saber, allowing for a
+more accurate preview. By FAR the most feature-rich editor available to the community.
+
+Joining the [ChroMapper Discord](https://discord.gg/wFjZt4z) is encouraged to access plugins, scripts, and application support (mapping support is available in BSMG).
+
+* [ChroMapper Launcher Download](https://cm.topc.at/dl)
+* [ChroMapper Wiki](https://chromapper.atlassian.net/wiki)
+
 #### Mediocre Map Assistant 2
-MMA2 is the most feature rich 3D editor and is used by the majority of the mapping community.
+MMA2 was used by the majority of the mapping community until the ChroMapper open beta.
 
 * [Mediocre Map Assistant 2 Download](https://git.bsmg.wiki/Top_Cat/MediocreMapAssistant2/releases/latest)
 * [Mediocre Map Assistant 2 User Guide](./mediocre-map-assistant.md)
@@ -112,10 +121,6 @@ any extensions, but new features are being added.
 
 * [Beatmapper Website](https://beatmapper.app/)
 * [Beatmapper User Manual](https://beatmapper.app/docs/manual/getting-started)
-
-#### ChroMapper - *Coming Soon*
-A 3D editor that has stellar support for lighting, Chroma RGB, and shares similar assets with Beat Saber, allowing for a
-more accurate preview. ChroMapper is currently in closed beta with no planned public release date.
 
 ::: tip Interested in making your own editor or converter?
 You may find the [Map Format Page](./map-format.md) and the
@@ -139,7 +144,7 @@ Keep in mind the following features that official does not have compared to the 
 * Regular autosave and recovery (Editor only autosaves when testing or saving)
 * Flexible mass select, copy, and paste
 * Edit in place (Change the direction of notes without needing to delete)
-* Chroma RGB Support
+* Chroma Support
 * Actual audio offset for syncing. (The parameter in official offsets/delays not only the song but also hitsounds)
 * Error Checker
 * Contributor Fields
@@ -201,9 +206,6 @@ A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily co
 
 #### Legacy Tools
 
-* [BPM Saber](https://github.com/zevdg/bpm-saber#readme) by **Zevdg**  
-  **Only works on old format .json files. For .dat maps use the Tempo Changer in +1 Rabbit's Mapping Tools.**
-  Change the BPM of an entire map and shift block placements accordingly
 * [BPM Saber](https://bsaber.com/bpmsaber/) by **Elliotttate**  
   A utility for finding the BPM of a song by upload or tapping.
 * [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
@@ -235,7 +237,7 @@ and then get creative, experiment, and innovate!
 All new mappers need to read this, **no exceptions!**
 
 ### [**Intermediate Mapping**](./intermediate-mapping.md)
-A more in-depth look at many mapping topics **(This page is still a work in progress!)**
+A more in-depth look at many mapping topics
 
 ### [**Extended Mapping**](./extended-mapping.md)
 Mapping Extensions, Extra Characteristics, and 360&deg;/90&deg; mapping
@@ -245,6 +247,9 @@ To apply for the **Mapper** role on the [Beat Saber Modding Group Discord](https
 released three solid/playable maps (collaborations are acceptable) and complete the
 [Mapper Role Submission Form](https://forms.gle/mj66J3UopTykFJjXA). Your application and maps may take a decent amount of
 time to be reviewed and approved.
+
+### Curation
+Mappers can submit high quality maps, free of [objective issues](https://bsaber.com/getting-started/curation/#donts) to the #curation-request channel on the [BeastSaber Discord](https://discord.gg/VJZHUbt). Maps selected for curation are given extra visibility on the site and included in the Curator Recommended feed.
 
 ### Modding & Ranking
 Maps that meet specific [Ranking Criteria](https://scoresaber.com/criteria) and go through an intensive review process called
@@ -262,6 +267,11 @@ Review the [Ranking Criteria](https://scoresaber.com/criteria) for some of the m
 * Once your map has been modded and revised, it’s ready to be presented to a ranking team member or recruit to review.
 * If the ranking team member deems the map acceptable it will be added to the ranking request queue to be voted
   on by the full ranking team.
+  
+### Mapping Anxiety
+If you're finding it difficult to muster up the courage to upload your map, or are finding it emotionally taxing coping
+with a lack of downloads or a lot of dislikes, you're not alone. Many mappers have experienced these feelings. You can read
+more about it on the [Coping with Mapping Anxiety](./mapping-anxiety.md) page.
 
 ## Lighting Practices
 A map is not finished until some form of lighting is included.
@@ -275,18 +285,6 @@ Take your lighting skills a bit further into strobing, ring spins, and contrast 
 
 ### [**Advanced Lighting**](./advanced-lighting.md)
 Advanced and nuanced techniques, lighting for custom platforms, and Chroma RGB **(This page is still a work in progress!)**
-
-### Additional Resources
-Older guides linked here as we migrate their content over to the wiki pages.
-
-* [Beginner's Guide to Lighting](https://docs.google.com/document/d/1wpZgBeOD1-UbJpXf-b6gX5ICNYygCd6UK6LOPm-t5QM/edit)
-  by Puds
-* [Lighting Environment Guide](https://bsaber.com/creating-lighting-environment-guide/)
-  by ManDynasty
-* [Using Flash & Fade Lighting Events](https://bsaber.com/creating-lighting-how-flash-fade-notes-actually-work-in-game/)
-  by ManDynasty
-* [Side Laser Speed Reference](https://docs.google.com/spreadsheets/d/1tIERmSyFI4ssjDkE-oJjBBvUZUJ7eoVhCQyM3_BsJwE/edit?usp=sharing)
-  by LittleAsi
 
 ### Automated Lights
 Not ready to make your own lighting? Here are some programs to do it for you. Keep in mind, creating simple manual lighting
@@ -444,7 +442,6 @@ Once your song has been mapped, lighted, and playtested and it’s a finished pr
 
 ### BeatSaver
 [BeatSaver](https://beatsaver.com/) is the public repository for all custom Beat Saber maps.
-Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be uploaded.
 
 #### How to Release a Map
 
@@ -455,11 +452,9 @@ Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be u
   * See the [Playtesting](#playtesting) section for instructions on testing your map.
 :::
 
-1. [Create an account](https://beatsaver.com/auth/register) on BeatSaver.  
+1. [Create an account](https://beatsaver.com/register) on BeatSaver with a username/password or by logging in via Discord.  
     * Beatsaver usernames may only have alphanumeric characters and `-`. Usernames with spaces or `_` for example, are
     not allowed.
-    * If you did not receive a verification email, fill out this [contact form](https://beatsaver.com/contact).  
-    **Note** you must provide a valid username *and* the email used to sign up in the form to complete the verification!
 2. Click the <kbd>Upload</kbd> link in the top-right.
 3. Add your BeatSaver map name and map description. Only the map name is searchable so be sure to include song name,
   song artist, and other terms that might make it easier to find your map.
@@ -467,11 +462,13 @@ Songs must be in the 2.0 song format (files are .dat and .ogg/.egg/.wav) to be u
       characteristics you want to highlight.
     * Putting a link to a playthrough video in the map description can help you get more downloads as it is easier
       to share your map to others and lets people know what to expect.
-4. Add your .zip file and click the <kbd>Upload</kbd> button.
+4. Add your .zip file and identify whether your map was human-made or AI-assisted.
+	* AI maps intentionally uploaded as human-made will be deleted.
+5. Maps are initially uploaded to your unpublished tab. You must explicitly publish them to make them available to the public.
 
 ::: tip NOTE
-Map files currently cannot be updated on BeatSaver.
-If you need to upload a new version of your map you will need to delete the old one and re-post.
+Map files can now be updated on BeatSaver!
+If you need to upload a new version of your map you must first recall the map to your unpublished tab before you can upload a new version. This will retain your map key and statistics but will reset all leaderboards.
 :::
 
 ### BeatSaver Troubleshooting
@@ -488,7 +485,20 @@ Encountered something not listed here? Drop into `#mapping-discussion` for assis
 
 ---
 
-**Something went wrong! Try again later.**
+**Map already uploaded!**
+
+* The exact map files were uploaded previously. You must change something small in your map
+  (i.e., remove a light block, save the map, replace the light block, and save again) to be able to upload.
+  
+---
+
+**_difficultyBeatmapSets[]._difficultyBeatmaps[].`Difficulty.dat`._version``: Must not be null.**
+
+* You are using an old, outdated editor that is not compliant with the current data schema. See [Community Editors](#community-editors) for the current options.
+
+---
+
+**Internal Server Error**
 This is the default error message, causes include:  
 
 * An upload that is close to or over the actual file size limit of 14.3 MB.
@@ -502,26 +512,25 @@ This is the default error message, causes include:
 
 ---
 
-**Field `._customData._customEnvironment` cannot be blank.**
+**Could not verify user []**
 
-* Your files are not compliant the map schema. See [Schema Change](#beatsaver-data-schema-change-october-27-2019) for solutions.
+* This error is related to recaptcha. Please reload the page.
 
 ---
 
-**Beatmap zip contains an illegal file!**
+**``_difficultyBeatmapSets[]._difficultyBeatmaps[]`Difficulty.dat`._notes[]_time:`` Must be between 0 and x**
+
+* Your map contains notes outside of the playable map (usually from a copy and paste error). Remove them and reattempt your upload.
+
+---
+
+**Beatmap zip contains an illegal file! OLD**
 
 * Usually caused by extra/unsupported files, such as gifs, in the zip.
 
 ---
 
-**Beatmap already exists!**
-
-* The exact map files were uploaded previously. You must change something small in your map
-  (i.e., remove a light block, save the map, replace the light block, and save again) to be able to upload.
-
----
-
-**Beatmap does not contain an Info.dat file!**
+**Beatmap does not contain an Info.dat file! OLD**
 
 * Usually caused by having the files in a subfolder. You need to zip the files instead of the folder.
   [How to Video](https://streamable.com/u20ci) Or use the handy export button in your editor instead.
@@ -529,7 +538,7 @@ This is the default error message, causes include:
 
 ---
 
-**One or more beatmap difficulty files cannot be found!**  
+**One or more beatmap difficulty files cannot be found! OLD**  
 
 * You might have forgotten to include all of your difficulty files are in the zip.  
 * A difficulty's `"_beatmapFilename"` in the `Info.dat` might be using a different
@@ -539,7 +548,7 @@ This is the default error message, causes include:
 
 ---
 
-**Error in `MapDifficulty.dat`. Root should NOT have additional property: `_time`.**
+**Error in `MapDifficulty.dat`. Root should NOT have additional property: `_time`. OLD**
 
 `_time` is the common error for this type of message. However, the same solution applies if a different property is flagged.
 
@@ -547,66 +556,24 @@ This is the default error message, causes include:
 
 ---
 
-**Beatmap could not be parsed!**  
+**Beatmap could not be parsed! OLD**  
 
 * This could be caused by extreme server load. Try again later or ask in `#mapping-discussion`.  
 
 ---
 
-**Field `._customData._contributors[]._iconPath` contains an invalid filename.**  
+**Field `._customData._contributors[]._iconPath` contains an invalid filename. OLD**  
 
 * Utilizing the contributors field requires all aspects to be included. Make sure all 3 aspects (Role, Name, iconPath)
   are filled and there is a unique square image for each iconPath entry in your zip.
 
 ---
 
-#### BeatSaver Data Schema Change - October 27, 2019
-BeatSaver now enforces a schema in order for your maps to be uploaded, of which public MediocreMapper is not
-compliant with. The most breaking change happened in the difficulty data files, where MM-specific fields were
-moved inside a `_customData` object.
-
-**Resolution #1:**  
-Switch to the [Mediocre Map Assistant 2](#mediocre-map-assistant-2) editor.
-Open each difficulty file and save it to correct the schema. Use MMA2 going forward.
-
-**Resolution #2:**  
-Use the [Schema Updater Utility](https://skystudioapps.com/mapping-tools/#schema-fixer) by **+1 Rabbit** to fix your
-files before uploading. Then switch to a [supported editor](#community-editors).
-
-**Resolution #3 (The Hard Way):**  
-If you wish to fix this yourself, here is a quick template which shows you where everything should go in order for your
-map to be compliant with BeatSaver's new schema.
-
-Alternatively, since `_customData` is **NOT** a required field, you can go ahead and remove everything that would be
-placed in there, and upload that result.
-
-```json
-{
-  "_version": "2.0.0",
-  "_notes": [],
-  "_obstacles": [],
-  "_events": [],
-  "_customData": {
-    "_bpmChanges": [],
-    "_bookmarks": [],
-    "_time": 0
-  }
-}
-```
-
-To be compliant with the new schema, please also find and remove or fill in any **blank fields**
-in your `Info.dat` or difficulty files.
-
 ### BeastSaber
 [BeastSaber](http://www.bsaber.com) is a song review and curation site with social features including reviewing and commenting
 on songs.
 All songs published on BeatSaver are mirrored to BeastSaber within 10-15 minutes. Additionally, maps
 deleted from BeatSaver may take up to a day to be removed from BeastSaber.
-
-### Mapping Anxiety
-If you're finding it difficult to muster up the courage to upload your map, or are finding it emotionally taxing coping
-with a lack of downloads or a lot of dislikes, you're not alone. Many mappers have experienced these feelings. You can read
-more about it on the [Coping with Mapping Anxiety](./mapping-anxiety.md) page.
 
 ## [Credits](./mapping-credits.md)
 Over *thirty* different mapping guides and tutorials have been combined into this wiki so that it can be maintained by

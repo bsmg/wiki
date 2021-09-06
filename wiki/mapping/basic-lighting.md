@@ -177,7 +177,7 @@ on the left and blueish/cold/soft colors on the right to avoid confusing players
 
 See [Environment Default Colours](./lighting-defaults.md) for a list of default colors used in the environments.
 
-[Beatmapper](./#beatmapper-app), [ChroMapper](./#chromapper-coming-soon), and [MMA2](./#mediocre-map-assistant-2) natively
+[ChroMapper](./#chromapper), [MMA2](./#mediocre-map-assistant-2), and [Beatmapper](./#beatmapper-app), natively
 support color overrides. Check their respective guides for more information.
 
 ### Manually Adding Color Overrides
