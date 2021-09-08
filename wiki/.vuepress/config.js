@@ -57,6 +57,11 @@ module.exports = {
 
     displayAllHeaders: true,
 
+    algolia: {
+      apiKey: 'dffb969ba044aec7fc82ee767ea7c750',
+      indexName: 'bsmg'
+    },
+
     locales: {
       '/': {
         selectText: 'English',
