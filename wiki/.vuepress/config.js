@@ -59,7 +59,10 @@ module.exports = {
 
     algolia: {
       apiKey: 'dffb969ba044aec7fc82ee767ea7c750',
-      indexName: 'bsmg'
+      indexName: 'bsmg',
+      algoliaOptions: {
+        hitsPerPage: 9,
+      },
     },
 
     locales: {
