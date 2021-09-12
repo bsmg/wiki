@@ -155,15 +155,6 @@ The official Swedish discord, right here!
 
 ---
 
-### Switzerland
-
-#### SwissSaber
-Official Beat Saber Discord for Swiss players, but people from other countries are also welcome.
-
-[Discord](https://discord.gg/eV6SUUF)
-
----
-
 ### UK
 
 #### British Beat Saber Discord
