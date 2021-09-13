@@ -40,11 +40,11 @@ include them here too, there are WAY too many of them. If you like someone's map
 on [BeastSaber](https://bsaber.com), or tell them personally! They'll really appreciate it.
 
 > Furthermore, there is a community run discord to help connect mappers/artists with clients if you would like to
-> commission something. We encourage you to reach out in the [Beat Saber Commissions server.](https://discord.gg/4RbcH5G)
+> commission something. We encourage you to reach out in the [Beat Saber Commissions server.](https://discord.gg/e4f3WBBVnr)
 
 ### [Mapping Resources Contributors](/mapping/mapping-credits.md)
 A group of experienced mappers that took the time to write down and share their knowledge to help others get started or improve.
-Checkout their maps and consider supporting them!
+Check out their maps and consider supporting them!
 
 ### [Translators](./translators.md)
 The hardworking people who took the time to translate the wiki content into their own languages. A heartfelt thank you

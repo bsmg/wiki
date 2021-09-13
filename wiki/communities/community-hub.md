@@ -49,7 +49,7 @@ you!
 ## Beat Saber Commissions
 Have a model, map, or mod that you'd like done? Get in contact with the professionals here.
 
-[Discord](https://discord.gg/4RbcH5G)
+[Discord](https://discord.gg/e4f3WBBVnr)
 
 ---
 
@@ -73,6 +73,14 @@ Welcome to the Beat Saber Legacy Group! Here we come together to relive the old 
 and tools to enhance your experience of Beat Saber! You can even downgrade your version here along with full mod support!
 
 [Discord](https://discord.gg/MrwMx5e) | [Website](https://bslegacy.com/)
+
+---
+
+## BeatSaver
+The BeatSaver discord provides a centralized location for site support, content reports, bug reports, and developer
+discussions related to the main repository of custom maps.
+
+[Discord](https://discord.gg/rjVDapkMmj) | [Website](https://beatsaver.com/)
 
 ---
 

@@ -41,7 +41,7 @@ Dieses Skript aktiviert blinkende Lichter. Wenn du dies auf ein leeres gameObjec
 Der Event-Manager ist das nützlichste Skript. Mit ihm kannst du bei jedem Beat Saber Event(auch bei unbenutzten) eine Aktion auslösen. Um ein Event hinzuzufügen, drücke die Taste `+` unterhalb von `Auslöser ()`. Ziehe das Objekt, das du manipulieren möchtest, in die soeben erstellte Box. Drücke das Dropdown-Menü auf der rechten Seite und wähle aus, was dieses Objekt tun soll, indem du zuerst die Komponente und dann die Aktion auswählst. Achte darauf, dass du nur 1 Event-Handler pro gameObject verwendest, da nur eins pro gameObject funktionieren wird.
 
 ### Spektogramm
-![Spektogramm](~@images/models/platforms/Spectogram.png)
+![Spektogramm](~@images/models/platforms/Spectrogram.png)
 
 Das Spektrogramm Skript funktioniert wie das Skript "Track Rings" und benötigt ebenfalls ein Prefab oder gameObject. Diese wird entsprechend dem Klang des Spiels und den bereitgestellten Variablen gedehnt und geschrumpft. (Auch damit habe ich noch nicht herumgespielt).
 

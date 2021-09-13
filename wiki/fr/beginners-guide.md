@@ -27,10 +27,10 @@ Les casques compatibles comprennent :
 * Oculus Quest / Quest 2
 
 ## Créer du contenu
-Une de vos chansons préférées n'est pas disponible ? Vous avez une idée pour un mod ? Vous voulez un modèle personnalisé à utiliser en jeu ? Vous pouvez le faire de deux façons :
+Une de vos chansons préférées n'est pas disponible ? Vous avez une idée pour un mod ? Vous voulez un modèle personnalisé à utiliser en jeu ? Vous pouvez procéder de deux façons :
 
-* Commissionnez quelqu'un dans le [serveur Discord de commissions](https://discord.gg/h8VMkhn) (en anglais) géré par la communauté
-* Apprenez à le faire vous-même en utilisant les guides ci-dessous
+* commissionnez quelqu'un dans le [serveur Discord de commissions](https://discord.gg/e4f3WBBVnr) (anglophone)
+* apprenez à les faire vous-mêmes avec les ressources ci-dessous
 
 ### Créer des maps
 Apprenez à créer vos propres maps en suivant le [guide de mapping](./mapping/) !
@@ -45,4 +45,4 @@ Apprenez à créer des modèles 3D pour le jeu !
 * [Avatars](./models/avatars-guide.md)
 * [Plateformes](./models/platforms-guide.md)
 * [Notes](./models/notes-guide.md)
-* **Murs** - guide non disponible à l'heure actuelle, mais en cours de rédaction.
+* **Obstacles** - guide actuellement en cours de rédaction

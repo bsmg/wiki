@@ -20,6 +20,10 @@ FROM nginx:alpine
 COPY ./nginx/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /usr/app/wiki/.vuepress/dist /usr/share/nginx/html
 
+# Add git repo to metadata
+ARG GIT_REPO
+LABEL org.opencontainers.image.source=${GIT_REPO}
+
 # Expose port and run
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
