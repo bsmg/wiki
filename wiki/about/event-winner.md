@@ -8,6 +8,44 @@ for such events happening now, or in the future!
 
 If you want to see us holding more fun events, please consider contributing to the events tier on our [Patreon](https://www.patreon.com/beatsabermods)!
 
+## 2021 Bloodcloak's Birthday Bash
+In celebration of Bloodcloak's Birthday, this was a stage vc triva game show hosted by them based on a small impromptu
+quiz they held in `#general` chat a few months before. The prize pool consisted of random Steam Game Keys, Steam Wallet
+Codes, and Full and Classic Discord Nitro. Funding and prizes were generously donated by Pink, Bobbie, and Stemisty with
+the rest covered by the events tier of our Patreon!
+
+Contestants had to answer 4 random questions from topics selected by Bloodcloak having only 20 seconds to respond. Topics
+included:
+
+* Music
+* Guess that Song from the audio clip
+* BSMG
+* Hololive
+* Food
+* Random Stuff Other Staff Came Up With
+
+Since it was celebrating Bloodcloak's Birthday, each contestant who participated got at least something from the prize pool.
+The value of what they got depended on their overall performance.
+
+The top 5 were brought back on stage for a head to head showdown for the role and grand prize of a Steam Wallet Code
+worth $50 USD!
+
+---
+
+[Victory Announcement](https://discord.com/channels/441805394323439646/441807344591044619/858482681993887764)
+
+### Top 5
+In no particular order... these people made it to the top 5 to battle for the role
+
+* Minicoot
+* Skeelie
+* Vinyl Scratch
+* Amankins
+* 3Stans
+
+### Trivia Master
+The one person who stood above the rest with their fast answers... Amankins
+
 ## 2021 Battle Royale
 Also known as *The Culling* this event was a Skyrim themed Battle Royale held during
 on the tail end of April Fools that went on for 5 hours. With over 100 participants, the prize pool of many game keys
