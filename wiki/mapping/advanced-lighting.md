@@ -96,10 +96,18 @@ with each event.
   [Streamable](https://streamable.com/zx1sf) | [BeatSaver](https://beatsaver.com/beatmap/5bb2)
 
 ## Custom Environments
-::: tip NOTE
-This is an empty section. If you’d like to contribute, submit suggestions via
-[this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
+
+### Environment Logs
+How to generate logs to get all the data in an environment:
+
+1. Open `Beat Saber/UserData/Beat Saber IPA.json` in a text editor and set `"CreateModLogs": true`.
+2. Open `Beat Saber/UserData/Chroma.json` and set `"PrintEnvironmentEnhancementDebug": true`.
+:::warning NOTE
+Now when you open any Chroma map in game, it will generate a log of its environment. 
 :::
+3. Open ChroMapper, select the environment you want to use and save the song info.
+4. Place a single light event in the map and change the light to a chroma color.
+5. Load Beat Saber and play the map for a second. The log is created in `Beat Saber/Logs/Chroma`.
 
 ## Chroma (RGB Lights)
 The Chroma mod allows you to use more than two colours for lighting! There are two versions, [Chroma 1.0](#chroma-1-0)
