@@ -478,8 +478,8 @@ These are all interrelated and modified by the song’s tempo:
 
 * **Note Jump Speed (NJS)** is the rate at which blocks move down the track at the player.
   The higher the number the faster the blocks.
-* **Jump Distance** (also known as **Spawn Distance**) is how far down the track the blocks will spawn in distance (meters).
-* **Half Jump Duration** is how far in advance blocks appear in time (beats).
+* **Jump Distance (JD)** (also known as **Spawn Distance**) is how far down the track the blocks will spawn in distance (meters).
+* **Half Jump Duration (HJD)** is how far in advance blocks appear in time (beats).
 * **Spawn Distance Offset** (also known as **Spawn Distance Modifier**) is a modifier which increases the jump distance.
   This can make the NJS feel slower since the blocks will spawn further away and the player has more time to react.
 
