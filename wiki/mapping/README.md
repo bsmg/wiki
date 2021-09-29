@@ -178,7 +178,6 @@ You are now ready to continue editing your map!
 
 * [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
   A convenient way to see how your map might look in game without the game.
-  * IOS and Safari are currently not supported
 * [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**  
   A suite of tools for mappers that includes:
   * **Schema Fixer:** Easily fix maps made in Mediocre Mapper Mk4.1 and Mk5 for upload to BeatSaver.
@@ -195,9 +194,9 @@ You are now ready to continue editing your map!
 * [Parity Checker](https://galaxymaster2.github.io/bs-parity/) by **GalaxyMaster**  
   An error checker tool that focuses on finding issues with parity in a map.
 * [Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) by **Kival Evan**  
-  An error checker tool that is much more versatile than the one built into MMA2
+  An error checker tool that is much more versatile than the one built into MMA2.
 * [BeatMapper Tools](https://mappers.beatmappertools.com/) by **Darkuni**  
-A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps
+A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps.
 * [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
   Easily compile a game playlist from a txt file containing BeatSaver map keys.
 * [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) by **DarkGrisen**  
@@ -507,8 +506,8 @@ See [Community Editors](#community-editors) for the current options.
 #### Internal Server Error
 This is the default error message, causes include:  
 
-* An upload that is close to or over the actual file size limit of 14.3 MB.
-  The 15 MB listed is not accurate at this time. Reduce the audio export quality slightly to make space.  
+* An upload that is close to or over the actual file size limit of 15 MB.
+  Reduce the audio export quality slightly to make space.  
 * Unsupported characters are present in a file. Make sure your metadata and bookmarks don't contain special characters
   such as, Japanese (日本語/にほんご), Kaomoji (٩(◕‿◕｡)۶), Chinese (汉语/漢語),
   Arabic (اَلْعَرَبِيَّةُ‎), and accented characters (Ä/é/õ/Æ/ø/ß/Œ/Ð/ƒ).  
