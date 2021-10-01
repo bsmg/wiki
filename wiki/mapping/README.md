@@ -56,9 +56,9 @@ The text guides on this wiki are always more up to date as it is easier and quic
 #### Recommended
 
 * [Helen Carnate's Mapping Tutorial](https://www.youtube.com/watch?v=6O3sXmh-kAA) -
-  A 17 minute guide to get started mapping!
+  A 17 minute guide to get started mapping using Mediocre Map Assistant 2!
 * [Fruhead's Beginners Guide to Mapping](https://www.youtube.com/playlist?list=PL5F3WJ0s0nscdpqiWlOpM_4tJcF-CnWbm) -
-  A comprehensive lecture series on making your first map.
+  A comprehensive lecture series on making your first map using Mediocre Map Assistant 2.
 * [Cyrix's Patterns to Avoid as a New Mapper](https://www.youtube.com/watch?v=mgGaqZ20Scw) -
   Covers the most common issues discussed in [Basic Mapping](./basic-mapping.md).
 * [TranquillizeMe's Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc) -
