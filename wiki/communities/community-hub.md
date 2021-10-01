@@ -53,13 +53,6 @@ Have a model, map, or mod that you'd like done? Get in contact with the professi
 
 ---
 
-## Beat Saber Events
-A place to plan, post, discuss, and get notifications for events in your area.
-
-[Discord](https://discord.gg/q92brWG)
-
----
-
 ## Beat Saber League
 A League-style tournament for Beat Saber!
 

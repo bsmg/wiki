@@ -50,7 +50,7 @@ Has large feet, maybe??
 
 [GitHub](https://github.com/bigfoott) | [Twitch](https://www.twitch.tv/bigfooott) | [Donate](https://streamlabs.com/bigfooott)
 
-## brian
+## brian (Retired)
 Creator of CustomUI, making the creation of new UI components a breeze for modders. He's also created some of the most
 useful streaming tools used today, including taking over CameraPlus in xyonico's absence and the widely used
 Enhanced Stream Chat mod. This man wants more hip hop songs, get on it people!
