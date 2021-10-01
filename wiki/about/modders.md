@@ -234,6 +234,14 @@ If you've ever played darth maul mode, you have this guy to thank.
 
 [GitHub](https://github.com/PureDark)
 
+## Raemien
+Behind some content creation improvements for Quest and experimental PC mods. Responsible for numerous duct tape bodges.
+
+**Roles:** Modder
+**Contributions:** MRCPlus, CustomBackgrounds, ARCompanion, Burnout, Puro, MouseSaber, DebrisTweaks
+
+[GitHub](https://github.com/Raemien) | [Patreon](https://www.patreon.com/Raemien) | [Ko-Fi](https://ko-fi.com/raemien)
+
 ## raftario
 does things sometimes ????
 
