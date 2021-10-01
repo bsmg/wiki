@@ -40,7 +40,7 @@ let us know in #mapping-discussion!
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
 | **Chroma** | A mod that makes custom [Lighting](#l) and lighting [Events](#e) available to mappers, most notably allowing for full [RGB](#r) color mapping. Chroma lighting can be viewed by using either the core Chroma mod, or the smaller ChromaLite mod. |
-| **ChroMapper** | A map [Editor](#e) created by Caeden117, specialized in modded map creation. The editor is currently still in development and in closed beta. More info can be found [here](https://github.com/Caeden117/ChroMapper). |
+| **ChroMapper** | A map [Editor](#e) created by Caeden117, is a feature-rich editor specialized in modded map creation. The editor is currently still in development and is in open beta. More info can be found [here](./readme.md#chromapper). |
 | **Column** | Horizontal divisions across the [Track](#t) in which [Blocks](#b) travel. The default track has four columns. Also known as [Lane](#l). See also: [Layer](#l), [Row](#r). |
 | **Controller Clash/Smash** | Any [Pattern](#p) that directs the player's hands inward at each other on the same beat, often leading to the player smashing their hands together. Higher skilled players can sometimes avoid these, but they are still highly discouraged at all levels of mapping. Referred to as either *Controller Clash* or *Controller Smash*. Also known as [Handclap](#h). <details><summary>**Example Image**</summary>![Picture of controller clash](~@images/mapping/controller-smash-alt.png)</details> |
 | **Corner Crouch** | A [Wall](#wxyz) [Pattern](#p) that combines a [Dodge Wall](#d) and a [Crouch Wall](#c), leaving the player a small gap to squeeze into. <details><summary>**Example Image**</summary>![Picture of corner crouch](~@images/mapping/corner-crouch-alt.png)</details> |
@@ -146,7 +146,7 @@ let us know in #mapping-discussion!
 | - | :- |
 | **Map Blindness** | A condition that may occur when a mapper has spent so much time on a map. You know the patterns, you know your intentions, and you've self-tested it so many times. Eventually, muscle memory and your subconscious kick in, and you can play the map with your eyes closed, regardless of flaws. See also: [Playtest](#p). |
 | **Mapping Extensions** | A mod developed by Kyle1413 that allows mappers to access a number of unique utilities for advanced mapping. See also: [JSON Walls](#jk), [Precision Placement](#p), [Precision Rotation](#p). |
-| **Mediocre Map Assistant 2** | A new fork of [Mediocre Mapper](#m) by Assistant. This is the primary map [Editor](#e) used by the mapping community. |
+| **Mediocre Map Assistant 2** | A new fork of [Mediocre Mapper](#m) by Assistant. This was the primary map [Editor](#e) used by the mapping community until [ChroMapper](#c) entered Open Beta. |
 | **Mediocre Mapper** | An outdated [Editor](#e), developed by squeaksies as a fork of the original EditSaber editor by Ikiewa. No longer in public development or supported by its author, it has been forked to created [Mediocre Map Assistant 2](#m). |
 | **Mine** | A [Block](#b) that looks like a spiky circle that damages the player if their saber touches it. It is safe for a mine to pass through the player’s body. Also known as [Bomb](#b). |
 | **Mismap** | A mistake, incorrect, or faulty choice in a map. |
