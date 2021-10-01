@@ -103,11 +103,11 @@ How to generate logs to get all the data in an environment:
 1. Open `Beat Saber/UserData/Beat Saber IPA.json` in a text editor and set `"CreateModLogs": true`.
 2. Open `Beat Saber/UserData/Chroma.json` and set `"PrintEnvironmentEnhancementDebug": true`.
 :::warning NOTE
-Now when you open any Chroma map in game, it will generate a log of its environment. 
+Now when you open any Chroma map in game, it will generate a log of its environment.
 :::
 3. Open ChroMapper, select the environment you want to use and save the song info.
 4. Place a single light event in the map and change the light to a chroma color.
-5. Load Beat Saber and play the map for a second. The log is created in `Beat Saber/Logs/Chroma`.
+5. Load Beat Saber and play the map for a second. The log is located in `Beat Saber/Logs/Chroma`.
 
 ## Chroma (RGB Lights)
 The Chroma mod allows you to use more than two colours for lighting! There are two versions, [Chroma 1.0](#chroma-1-0)
