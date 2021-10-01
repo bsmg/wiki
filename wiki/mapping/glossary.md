@@ -103,7 +103,7 @@ let us know in #mapping-discussion!
 ## H
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
-| **Half Jump Duration** | The distance down the [Track](#t) where the [Blocks](#b) and [Obstacles](#o) spawn. Measured in beats, therefore varies in "spatial" distance by [BPM](#b). Abbreviated as [HJD](#h). See also: [Jump Distance](#j), [NJS](#n), [Spawn Offset](#s), [Spawn Point](#s). |
+| **Half Jump Duration** | The distance down the [Track](#t) where the [Blocks](#b) and [Obstacles](#o) spawn. Measured in beats, therefore varies in "spatial" distance by [BPM](#b). Abbreviated as [HJD](#h). See also: [Jump Distance](#jk), [NJS](#n), [Spawn Offset](#s), [Spawn Point](#s). |
 | **Hammer Hit** | A [Pattern](#p) composed of an [Arrow Block](#a) pointing at a [Bomb](#b), forcing the player to swing their saber at the arrow block but stopping short to avoid the bomb,  making it impossible to get full points. This pattern is highly discouraged. <details><summary>**Example Image**</summary>![Picture of hammer hit](~@images/mapping/hammer-hit-alt.png)</details> |
 | **Handclap** | Any [Pattern](#p) that directs the player's hands inward at each other on the same beat, often leading to the player smashing their hands together. Higher skilled players can sometimes avoid these, but they are still highly discouraged at all levels of mapping. Also known as [Controller Clash/Smash](#c). <details><summary>**Example Image**</summary>![Picture of handclap](~@images/mapping/controller-smash-alt.png)</details> |
 | **Hitbox** | The region where the saber collides with an object. [Note](#n) hitboxes are larger than they visually appear, [Bomb](#b) hitboxes are smaller than they visually appear, and [Wall](#wxyz) hitboxes are exactly the size that they visually appear. |
@@ -127,9 +127,9 @@ let us know in #mapping-discussion!
 | **.json File** | The text file containing most content for a certain difficulty or song info in the old 1.0 song format. It contains JSON format with a different structure to [.dat Files](#d), and a different file extension. This file format is used for both song info and for map content. See also: [Difficulty File](#d), [Info File](#i). |
 | **JSON Wall** | A style of mapping requiring the mod [Mapping Extensions](#m), in which the mapper can be extremely creative with non-standard [Wall](#wxyz) types and sizes. Not recommended for novice mappers. |
 | **Jump** | A [Pattern](#p) that moves across multiple [Columns](#c) horizontally or [Rows](#r) vertically in rapid succession. See also: [Jump Stream](#jk). <details><summary>**Example Image**</summary>![Picture of jump](~@images/mapping/jump.jpg)</details> |
-| **Jump Distance** | The distance down the [Track](#t) where the [Blocks](#b) and [Obstacles](#o) spawn. Measured in meters. Abbreviated as [JD](#j). Also known as [Spawn Distance](#s). See also: [HJD](#h), [NJS](#n), [Spawn Offset](#s), [Spawn Point](#s). |
+| **Jump Distance** | The distance down the [Track](#t) where the [Blocks](#b) and [Obstacles](#o) spawn. Measured in meters. Abbreviated as [JD](#jk). Also known as [Spawn Distance](#s). See also: [HJD](#h), [NJS](#n), [Spawn Offset](#s), [Spawn Point](#s). |
 | **Jump Stream** | A [Pattern](#p) that includes [Jumps](#jk) within a [Stream](#s). <details><summary>**Example Image**</summary>![Picture of jump stream](~@images/mapping/jumpstream.jpg)</details> |
-| **JD** | Abbreviation of [Jump Distance](#j). |
+| **JD** | Abbreviation of [Jump Distance](#jk). |
 
 ## L
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
@@ -224,7 +224,7 @@ let us know in #mapping-discussion!
 | **Single BPM** | A song with a consistent [BPM](#b) from start to finish with no variation. Also known as [Fixed BPM](#f). See also: [Variable BPM](#uv). |
 | **Slider** | A series of same-colored [Dot Blocks](#d) or [Arrow Blocks](#a) spaced close enough together for the player to sweep a saber through in one motion. The [Precision](#p) of the blocks depends on the [BPM](#b) of the song, with higher BPM songs typically using lower precision (e.g. 1/16 precision at 250 BPM) and lower BPM songs typically using higher precision (e.g. 1/24 precision at 150 BPM). <details><summary>**Example Image**</summary>![Picture of slider](~@images/mapping/sliders.png)</details> |
 | **SongCore** | A mod developed by Kyle1413 for handling custom song additions in Beat Saber. |
-| **Spawn Distance** | The distance down the [Track](#t) where the [Blocks](#b) and [Obstacles](#o) spawn. Measured in meters. Also known as [Jump Distance](#j). See also: [HJD](#h), [NJS](#n), [Spawn Offset](#s), [Spawn Point](#s). |
+| **Spawn Distance** | The distance down the [Track](#t) where the [Blocks](#b) and [Obstacles](#o) spawn. Measured in meters. Also known as [Jump Distance](#jk). See also: [HJD](#h), [NJS](#n), [Spawn Offset](#s), [Spawn Point](#s). |
 | **Spawn Distance Modifier** | A variable denoted as `_noteJumpStartBeatOffset` in the map's [Info File](#i) that modifies the [Spawn Distance](#d). Can be a floating value, typically between -1.0 and 1.0. Also known as [Spawn Offset](#s).
 | **Spawn Offset** | A variable denoted as `_noteJumpStartBeatOffset` in the map's [Info File](#i) that modifies the [Spawn Distance](#d). Can be a floating value, typically between -1.0 and 1.0. Also known as [Spawn Distance Modifier](#s). |
 | **Spawn Point** | The location on the [Track](#t) where [Blocks](#b) and [Obstacles](#o) first appear, accompanied by a flash of light. See also: [Spawn Distance](#s). |
