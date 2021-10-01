@@ -41,6 +41,11 @@ on this wiki and ChroMapper, a soon to be released mapping software with Chroma 
 
 [GitHub](https://github.com/caeden117) | [Donate](https://ko-fi.com/Caeden117)
 
+## Eradawn
+"Findus says hai"
+
+**Roles:** Staff, Moderator, Support
+
 ## lolPants
 One hell of a developer and a lover of socks. lolPants laid the groundwork for many of the policies and procedures during
 their time as Staff, and continues to help out when their services are needed.
@@ -90,14 +95,6 @@ BSMG server owner and rhythm game fanatic. We wouldn't be here today without thi
 **Contributions:** Server Owner, Custom Sabers, PodCasts
 
 [GitHub](https://github.com/reaxt) | [Twitch](https://twitch.tv/reaxt)
-
-## Sam
-He's either talking about Steven or being way too patriotic in chat (BS Nordic Admin btw). Don't call him cute,
-he hates that. He also makes maps, check them out below.
-
-**Roles:** Staff, Moderator, Mapper
-
-[Twitch](https://twitch.tv/justsamuelok) | [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850326)
 
 ## Steven 🎀
 The manager of many, Steven's always around to lend a helping hand as long as you don't mess with the blue haired cute girls.
@@ -165,3 +162,11 @@ Makes mods for quest and likes to PP farm in her free time.
 **Contributions:** QuestSounds, QSettings+, FPSCounter.  
 
 [GitHub](https://github.com/Rugtveit)
+
+## Sam (Retired)
+He's either talking about Steven or being way too patriotic in chat (BS Nordic Admin btw). Don't call him cute,
+he hates that. He also makes maps, check them out below.
+
+**Roles:** Staff, Moderator, Mapper
+
+[Twitch](https://twitch.tv/justsamuelok) | [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850326)

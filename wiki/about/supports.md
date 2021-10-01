@@ -84,6 +84,11 @@ I swear i'm good at Beat Saber and helping just ask boulders!
 
 [YouTube](https://www.youtube.com/channel/UCaQ7PLj4AqGHZnqQVjc_XBQ)
 
+## StormPacer
+I can show you the world after you show me your _latest.log
+
+**Roles:** Support
+
 ## Toblersto
 I decided I wanted to help one day, and have been slightly addicted ever since.
 
@@ -101,7 +106,8 @@ Created by Megalon, recreated by lolPants, and personified by Rolo!
 **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
 **Modders:** [Kyle1413](./modders.md#kyle1413)  
 **Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer-retired)
-  | [Chara_](./moderators.md#chara) | [Eradawn](./moderators.md#eradawn) | [Burrito](./moderators.md#burrito) | [OneEyed](./moderators.md#oneeyed)
-**Staff:** [Assistant](./staff.md#assistant) | [Klouder](./staff.md#klouder-retired) | [Megalon](./staff.md#megalon)
-  | [Pink](./staff.md#pink) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums) | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
+  | [Chara_](./moderators.md#chara) | [Burrito](./moderators.md#burrito) | [OneEyed](./moderators.md#oneeyed-retired)  
+**Staff:** [Assistant](./staff.md#assistant-retired) | [Eradawn](./staff.md#eradawn) | [Klouder](./staff.md#klouder-retired)
+| [Megalon](./staff.md#megalon) | [Pink](./staff.md#pink) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums)
+| [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
 :::
