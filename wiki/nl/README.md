@@ -49,7 +49,7 @@ tags:
 ## Externe links
 
 * [Word lid van onze Discord-server!](https://discord.gg/beatsabermods)
-* [Neem contact met ons](http://bit.ly/MessageBSMG) - Bied je vaardigheden aan, sponsor ons, beroep doen tegen een server mute/ban, iemand rapporteren, etc.
+* [Neem contact met ons](https://bsmg.dev/contact) - Bied je vaardigheden aan, sponsor ons, beroep doen tegen een server mute/ban, iemand rapporteren, etc.
 * [BSMG Patreon](https://www.patreon.com/beatsabermods) - Ondersteun de BSMG Services!
 * [BeatMods](https://beatmods.com) - Een website die PC mods verzamelt en waar installatieprogramma's zoals Mod Assistant gebruik van maken.
 * [BeatSaver](https://beatsaver.com/) - Download custom nummers hier.
