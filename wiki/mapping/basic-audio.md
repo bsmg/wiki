@@ -452,19 +452,19 @@ To generate a compatible sound file to use we need to do the following:
 2. Click the `File menu -> Export -> Export as OGG.`  
 ![Export As Ogg Location](~@images/mapping/audacity-export.png)
 3. Name your file `song.ogg`.
-4. Choose an appropriate OGG quality ([more info here](./advanced-audio.md#choosing-appropriate-ogg-export-quality)):  
-  ![Export Quality Slider](~@images/mapping/export-quality.png)
+4. Choose an appropriate OGG quality ([more info here](./advanced-audio.md#choosing-appropriate-ogg-export-quality)).
    * High quality source (WAVE / FLAC / MP3 / AAC) use 6-9 (unless there is a file size issue.)
    * Low quality source (YouTube or such): use 3-5
-5. Click Save.
+5. Click Save.  
+![Export Quality Slider](~@images/mapping/export-quality.png)
 
 The song/audio file is now ready to be used in any map editor. Input the same BPM you got earlier in your map editor of
 choice and make sure to use 0ms offset for all difficulties (since the song is already synced to the beat).
 
 ::: warning NOTE
-Audio file should not be larger than ~12 MB due to the BeatSaver 14.3 MB ZIP file limit. The 15 MB listed is not accurate
-at this time. If this is the case export at a lower quality until the file meets the file size limit. ZIP files over 8 MB
-cannot be shared directly on Discord (without Nitro or Server Boost Level 2) for playtesting.
+Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file limit. If this is the case export at a
+lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord
+(without Nitro or Server Boost Level 2) for playtesting.
 :::
 
 ## Credits

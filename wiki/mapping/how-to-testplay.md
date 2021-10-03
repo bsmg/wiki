@@ -219,7 +219,7 @@ everyone’s map for them.
 
 **Where do I upload my testplay videos?**  
 Streamable and YouTube are the most common places to have testplays uploaded. Streamable has a video limit of 10 minutes
-and file size limit of 500MB without a premium account, and will delete videos after a couple months of inactivity. However,
+and file size limit of 250MB without a premium account, and will delete videos after a couple months of inactivity. However,
 YouTube takes a bit more work to upload, and you risk getting a copyright claim or strike (although it is very unlikely to
 harm your channel). Some testplayers will also stream their testplays on Twitch, and then link the vods, although that
 also risks copyright strikes.
