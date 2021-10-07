@@ -214,7 +214,7 @@ You can now download songs in-game using SongDownloader (core mod)
 There are a few steps to downloading songs in-game:  
 
 1. Open Beat Saber  
-2. Go into Mod Settings (Settings -> Mod Settings)  
+2. On the main menu, look at the Mods screen, on the left 
 3. Open the SongDownloader tab
 4. Search for a song and download it.
 
