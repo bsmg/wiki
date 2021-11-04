@@ -891,6 +891,79 @@ This is used by the Billie Eilish environment.
 },
 ```
 
+### Spooky
+This is used by the Spooky environment.
+
+#### Left Side Block Color (Orange)
+
+```json
+"_colorLeft": {
+  "r": 0.81960785,
+  "g": 0.49807876,
+  "b": 0.27702752
+},
+```
+
+#### Right Side Block Color (Black)
+
+```json
+"_colorRight": {
+  "r": 0.37894738,
+  "g": 0.35789475,
+  "b": 0.40
+},
+```
+
+#### Left Side Light Color (Red)
+
+```json
+"_envColorLeft": {
+  "r": 0.90196079,
+  "g": 0.23009226,
+  "b": 0
+},
+```
+
+#### Right Side Light Color (Light Blue)
+
+```json
+"_envColorRight": {
+  "r": 0.46005884,
+  "g": 0.56889427,
+  "b": 0.92941177
+},
+```
+
+#### Wall Color (Orange)
+
+```json
+"_obstacleColor": {
+  "r": 0.81960791,
+  "g": 0.44313729,
+  "b": 0.18431373
+},
+```
+
+#### Left Side Boost Light Color (Green)
+
+```json
+"_envColorLeftBoost": {
+  "r": 0.33768433,
+  "g": 0.63207543,
+  "b": 0.33690813
+},
+```
+
+#### Right Side Boost Light Color (Light Purple)
+
+```json
+"_envColorRightBoost": {
+  "r": 0.60209066,
+  "g": 0.3280082,
+  "b": 0.85849059
+},
+```
+
 ### Noir
 ![Image of Noir colors](~@images/mapping/color-noir.png)  
 This is not used by any environment.
