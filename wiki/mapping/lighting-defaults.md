@@ -8,8 +8,8 @@ _A list of the default color palettes used in each environment._
 
 ---
 
-## 1.17.0 Colors
-These are the colors used in the 1.17.0 version of the game.
+## 1.18.3 Colors
+These are the colors used in the 1.18.3 version of the game.
 
 ### The First (Default)
 ![Image of TheFirst colors](~@images/mapping/color-thefirst.png)  
@@ -815,6 +815,80 @@ This is used by the Skrillex environment.
   "g": 0.80000001,
   "b": 0.44597632
  },
+```
+
+### Billie Eilish
+![Image of Billie colors](~@images/mapping/color-billie.png)  
+This is used by the Billie Eilish environment.
+
+#### Left Side Block Color (Yellow)
+
+```json
+"_colorLeft": {
+  "r": 0.8,
+  "g": 0.64481932,
+  "b": 0.432
+},
+```
+
+#### Right Side Block Color (Light Grey)
+
+```json
+"_colorRight": {
+  "r": 0.54808509,
+  "g": 0.61276591,
+  "b": 0.64
+},
+```
+
+#### Left Side Light Color (Orange)
+
+```json
+"_envColorLeft": {
+  "r": 0.81960785,
+  "g": 0.442,
+  "b": 0.184
+},
+```
+
+#### Right Side Light Color (Cream)
+
+```json
+"_envColorRight": {
+  "r": 0.94117647,
+  "g": 0.70677096,
+  "b": 0.56470591
+},
+```
+
+#### Wall Color (Purple)
+
+```json
+"_obstacleColor": {
+  "r": 0.71325314,
+  "g": 0.56140977,
+  "b": 0.78301889
+},
+```
+
+#### Left Side Boost Light Color (Red)
+
+```json
+"_envColorLeftBoost": {
+  "r": 0.8,
+  "g": 0.0,
+  "b": 0.0
+},
+```
+
+#### Right Side Boost Light Color (White Blue)
+
+```json
+"_envColorRightBoost": {
+  "r": 0.55686277,
+  "g": 0.7019608,
+  "b": 0.77647066
+},
 ```
 
 ### Noir
