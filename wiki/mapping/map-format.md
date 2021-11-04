@@ -74,7 +74,7 @@ they'll be explained later down this page.
 ```
 
 #### _version
-This field describes the version of the map format we are using. Currently, Beat Saber's map format is on version `2.0.0`.
+This field describes the version of the map format we are using. Currently, Beat Saber's map info format is on version `2.0.0`.
 
 #### _songName
 This field describes the name of your song.
@@ -321,10 +321,11 @@ and other objects for that particular difficulty.
 
 ```json
 {
-  "_version": "2.0.0",
+  "_version": "2.5.0",
   "_notes": [],
   "_obstacles": [],
   "_events": [],
+  "_waypoints": [], // Introduced in version 2.2.0
   "_customData": {
     // Any custom data will go here.
     // If empty, this should be removed entirely.
@@ -343,6 +344,13 @@ This is an array of [Obstacle](#obstacles-2) objects for the map.
 
 #### _events
 This is an array of [Event](#events-2) objects for the map.
+
+#### _waypoints
+::: tip NOTE
+This is a stub section.
+:::
+This is used to control BTS TinyTAN figures. Some information can be found in this
+[document](https://docs.google.com/spreadsheets/d/1spW7LS-RvenLQBVXJl9w_iOwqr9r_ozxYo3JUlXq9Lc).
 
 #### _customData
 This is an optional field that contains data unrelated to the official Beat Saber level format.
@@ -466,6 +474,7 @@ community to find map editors, tools, or mods that use this `_customData` object
   "_time": 10,
   "_type": 1,
   "_value": 3,
+  "_floatValue" : 1.00, // Introduced in version 2.5.0
   "_customData": {
     // Any custom data will go here.
     // If empty, this should be removed entirely.
@@ -487,12 +496,12 @@ An integer number which represents what exact kind of event this object represen
 |`3`|Controls lights in the `Right Rotating Lasers` group.|
 |`4`|Controls lights in the `Center Lights` group.|
 |`5`|(Previously unused) Controls boost light colors (secondary colors).|
-|`6`|(Previously unused) Controls extra left side lights in the Interscope environment.|
-|`7`|(Previously unused) Controls extra right side lights in the Interscope environment.|
+|`6`|(Previously unused) Controls extra left side lights in some environments.|
+|`7`|(Previously unused) Controls extra right side lights in some environments.|
 |`8`|Creates one ring spin in the environment.|
 |`9`|Controls zoom for applicable rings. Is not affected by [`_value`](#value).|
-|`10`|(Previously unused) Official BPM Changes.|
-|`11`|Unused.|
+|`10`|(Previously unused) (Previously Official BPM Changes.)<br/>Controls left side lasers in Billie environment.|
+|`11`|(Previously unused) Controls right side lasers in Billie environment.|
 |`12`|Controls rotation speed for applicable lights in `Left Rotating Lasers`.|
 |`13`|Controls rotation speed for applicable lights in `Right Rotating Lasers`.|
 |`14`|(Previously unused) 360/90 Early rotation. Rotates future objects, while also rotating objects at the same time.|
@@ -520,10 +529,14 @@ It's default behavior is controlling brightness and color of lights, and follows
 |`1`|Changes the lights to blue, and turns the lights on.|
 |`2`|Changes the lights to blue, and flashes brightly before returning to normal.|
 |`3`|Changes the lights to blue, and flashes brightly before fading to black.|
-|`4`|Unused.|
+|`4`|(Previously Unused.)<br/>Changes the lights to blue by fading from the current state.|
 |`5`|Changes the lights to red, and turns the lights on.|
 |`6`|Changes the lights to red, and flashes brightly before returning to normal.|
 |`7`|Changes the lights to red, and flashes brightly before fading to black.|
+|`8`|Changes the lights to blue by fading from the current state.|
+
+`_value` 4 and 8 are introduced in [`_version`](#version-2) 2.5.0. These events will only transition from Off and On
+(0, 1, and 4 )events. They will do nothing if transitions fade and flash events (2, 3, 6, and 7).
 
 ##### Controlling Boost Colors
 |`_value`|Result|
@@ -549,7 +562,7 @@ nothing in other environments.
 |`6`|Affects the back-middle cars.|
 |`7`|Affects the back-most cars.|
 
-##### Official BPM Changes
+##### Official BPM Changes (before version 2.5.0)
 When the event is used to control the BPM, the `_value` represents the new BPM.
 
 The new BPM does not shift internal [`_time`](#time-2) values for future objects. Instead, it essentially recalculates
@@ -590,6 +603,20 @@ is used to add rotation equal to the following table:
 |`5`|30 Degrees Clockwise|
 |`6`|45 Degrees Clockwise|
 |`7`|60 Degrees Clockwise|
+
+#### _floatValue
+Depending on the aforementioned [`_type`](#type) of the event, the `_floatValue` of it can do different things.
+
+##### Controlling Lights
+When the event is used to control lights, the `_floatValue` determines the brightness of the light.
+
+##### Official BPM Changes
+:::danger
+As of Beat Saber `1.18.0`, Official BPM Changes are still not complete. An official mapper has advised against using this
+event in its current state.
+:::
+When the event is used to control the BPM, the `_floatValue` represents the new BPM. This will also alter the Note Jump Speed
+proportional to the change in BPM.
 
 #### _customData
 This is an optional field that contains data unrelated to the official Beat Saber level format.
