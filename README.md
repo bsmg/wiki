@@ -18,7 +18,7 @@ If you don't see your language available on Crowdin you can still [apply](https:
 ## 🧪 Development
 To run a local copy of the wiki:
 1. Install [Node.js](https://nodejs.org/en/download/)
-2. Install [Yarn](https://yarnpkg.com/en/docs/install)
+2. Install [Yarn](https://yarnpkg.com/getting-started/install)
 3. [Fork this repo](https://guides.github.com/activities/forking/), then clone it. **Make sure to do all work on [another branch](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch).**
 4. Open a command-line window in the directory you just cloned into, then run the command `yarn` to install required packages.
 5. After packages are installed, start the development server with the command `yarn dev`. You can kill the server by closing the terminal or by pressing <kbd>CTRL+C</kbd>
