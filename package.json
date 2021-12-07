@@ -10,7 +10,7 @@
     "node": ">=14"
   },
   "scripts": {
-    "lint:markdown": "markdownlint --ignore ./wiki/{fr,ja,de,nl}/**/*.md ./wiki/**/*.md",
+    "lint:markdown": "markdownlint --ignore './wiki/{fr,ja,de,nl}/**/*.md' './wiki/**/*.md'",
     "lint:images": "node ./scripts/checkImages.js",
     "lint": "yarn run lint:markdown && yarn run lint:images",
     "clean:temp": "rimraf .temp",
