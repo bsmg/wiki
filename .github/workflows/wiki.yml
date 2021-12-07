@@ -19,11 +19,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
           registry-url: https://registry.npmjs.org
           cache: yarn
+      - name: Upgrade Yarn
+        run: yarn set version stable
       - name: Install packages
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable
       - name: Lint Markdown Files
         run: yarn run lint:markdown
       - name: Lint Image Sizes

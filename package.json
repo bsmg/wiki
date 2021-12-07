@@ -10,14 +10,14 @@
     "node": ">=14"
   },
   "scripts": {
-    "lint:markdown": "markdownlint --ignore ./wiki/{fr,ja,de,nl}/**/*.md ./wiki/**/*.md",
+    "lint:markdown": "markdownlint --ignore './wiki/{fr,ja,de,nl}/**/*.md' './wiki/**/*.md'",
     "lint:images": "node ./scripts/checkImages.js",
     "lint": "yarn run lint:markdown && yarn run lint:images",
-    "predev": "rimraf .temp",
-    "dev": "vuepress dev wiki --temp .temp",
-    "prebuild": "rimraf wiki/.vuepress/dist",
-    "build": "vuepress build wiki",
-    "build:prod": "cross-env NODE_ENV=production yarn run build"
+    "clean:temp": "rimraf .temp",
+    "clean:dist": "rimraf wiki/.vuepress/dist",
+    "dev": "yarn run clean:temp && vuepress dev wiki --temp .temp",
+    "build": "yarn run clean:dist && vuepress build wiki",
+    "build:prod": "cross-env NODE_ENV=production yarn run clean:temp && yarn run build"
   },
   "devDependencies": {
     "@vuepress/plugin-last-updated": "^1.8.2",

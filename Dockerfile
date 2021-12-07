@@ -1,12 +1,13 @@
-# syntax = docker/dockerfile:1.2
-FROM node:14-alpine AS builder
+# syntax = docker/dockerfile:1.3
+FROM node:16-alpine AS builder
 
 # Create app directory
 WORKDIR /usr/app
 
 # Install app dependencies
-COPY package.json yarn.lock ./
-RUN yarn install --frozen-lockfile
+COPY package.json yarn.lock .yarnrc.yml ./
+RUN yarn set version stable
+RUN yarn install --immutable
 
 # Build source
 COPY ./.git ./.git
