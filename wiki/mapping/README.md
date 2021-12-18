@@ -242,6 +242,9 @@ All new mappers need to read this, **no exceptions!**
 ### [**Intermediate Mapping**](./intermediate-mapping.md)
 A more in-depth look at many mapping topics
 
+### [**Downmapping**](./downmapping.md)
+A comprehensive guide to making lower difficulties.
+
 ### [**Extended Mapping**](./extended-mapping.md)
 Mapping Extensions, Extra Characteristics, and 360&deg;/90&deg; mapping
 

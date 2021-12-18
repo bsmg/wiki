@@ -128,6 +128,10 @@ Makes playlists and dabbles in audio editing. Authored content in [Basic Audio S
 [Advanced Audio Editing](./advanced-audio.md) with [Kolezan](#kolezan).  
 [BeastSaber](https://bsaber.com/members/n3tman/)
 
+## officialMECH
+Authored the dedicated [Downmapping](./downmapping.md) page and updated existing content on downmapping.  
+[BeatSaver](https://beatsaver.com/profile/4284238) | [BeastSaber](https://bsaber.com/members/officialMECH/)
+
 ## Puds
 Wrote *Beginner's Lighting Guideline*, a guide that was integrated into [Basic Lighting](./basic-lighting.md).  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85380d) | [BeastSaber](https://bsaber.com/members/puds/)
