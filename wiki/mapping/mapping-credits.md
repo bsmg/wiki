@@ -117,6 +117,10 @@ Created a video tutorial on using the [Official Editor](./#official-editor) and 
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855407) | [BeastSaber](https://bsaber.com/members/megalon/)
 | [GitHub](https://github.com/megalon) | [Twitch](https://twitch.tv/megalonttv) | [Donate](https://ko-fi.com/megalon)
 
+## monstor
+Contributed to the [Downmapping](./downmapping.md) page.  
+[BeatSaver](https://beatsaver.com/profile/4234636) | [BeastSaber](https://bsaber.com/members/monstor/)
+
 ## namaki mono
 Copyedits wiki pages to ensure that they are clean, clear, and consistent. Focuses on keeping the [Mapping Glossary](./glossary.md)
 up-to-date.  
