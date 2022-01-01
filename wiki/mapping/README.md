@@ -340,50 +340,21 @@ Your changes will be loaded without needing to restart the game!
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have
 [SideQuest](https://sidequestvr.com) and [BMBF](https://bmbf.dev/stable) installed.
 
-1. Zip up the song as normal, only zipping the files and not the folder itself. [How to Video](https://streamable.com/u20ci)
-   * If you are using [MMA2](#mediocre-map-assistant-2) there is a `Package To Zip` button you can use
-    in the song info screen to do this for you.
-2. Establish a connection to your Quest from your PC. This can be done in two ways, [wired](#connect-wired-usb) and [wirelessly](#connect-wirelessly).
-
-#### Connect Wirelessly
-
-1. Open BMBF on the Oculus Quest. BMBF must be running for the connection to succeed.
-2. Inside BMBF go to the `Tools` tab. There you should see a web address and a version number similar to what is shown below.
-  <br/>![ip](~@images/mapping/ip.png)
-3. Open a modern web browser on your PC and type the address into the search bar. You should be greeted with this screen
-  below.<br/>![BMBF Web](~@images/mapping/bmbfweb.png)
-4. You are now connected! Continue on to the [Upload Test File to Quest](#upload-test-file-to-quest) steps below.
-
-#### Connect Wired USB
-
-1. Connect your Oculus Quest to the PC via USB and keep SideQuest open
-2. Open BMBF on the Oculus Quest. BMBF must be running for the connection to succeed
-3. Look at the top of SideQuest, which will give you the IP to get into BMBF. You can also access your IP through
-  the Tools tab of BMBF.
-4. Type into any web browser: "192.168.X.XXX:50000" with X being replaced with the IP displayed in SideQuest,
-  or the Tools tab<br/>![Quest IP](~@images/mapping/quest_ip.png)  
-  For example, from the picture you would enter `192.168.0.19:50000` into a web browser of choice (Chrome, Firefox, etc.).
-5. You are now connected! Continue on to the [Upload Test File to Quest](#upload-test-file-to-quest) steps below.
-
-#### Upload Test File to Quest
-
-1. Drag and drop the files into BMBF's upload page (indicated by /main/upload at the end of the link)
-2. Once uploaded, click Sync to Beat Saber at the top right corner of the page
-  <br/>![BMBF Browser](~@images/mapping/bmbf_browser.png)
-3. Access your map in-game via the Custom Songs playlist in the song pack menu. Use practice mode to play
-  (the button next to the play button).
+1. Locate your WIP song folder on your PC.
+2. Establish a connection to your Quest from your PC with a USB cable.
+3. Open SideQuest on your PC and click the folder icon on the top right.
+![SideQuest Files](~@images/beginners-guide/sqfiles.png)
+4. Navigate to `sdcard/ModData/com.beatgames.beatsaber/Mods/SongLoader/CustomWIPLevels`. If this folder does not exist,
+  you can create it yourself.
+5. Upload your WIP song folder from your PC to that folder on your Quest with SideQuest.
+    * **NOTE:** You need to upload the actual song folder, not a zip file!
+6. Your map will now show up on the CustomWIPLevels song pack inside your game. Keep in mind that you will only be able to
+  play your map using the practice mode, and not with the regular Play button!
 
 :::tip NOTE
-
-* If after deleting an old copy of a map and reuploading it with a new version on a quest still results with the old
-  version being played, rename the zip file before uploading it through BMBF.
-* BMBF may have issues importing your map if your song file or cover image name contains `-` or spaces. You may need to
-  rename these files and update the song info accordingly for a successful upload.
-* Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be
-  loaded by BMBF! Using Audacity and following the steps in [Basic Audio Setup](./basic-audio.md) is the easiest way to
-  ensure your map loads in-game.
-* If your song audio file was automatically converted to `.egg`, you may run into issues when uploading onto BMBF.
-  Try renaming the `.egg` back to `.ogg`.
+  Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be
+  loaded by the game! Using Audacity and following the steps in [Basic Audio Setup](./basic-audio.md) is the easiest way
+  to ensure your map loads in-game.
 :::
 
 ### Community / Third Party Testing
