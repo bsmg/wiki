@@ -24,7 +24,8 @@ Beat Saber will **NEVER** ask you to run it as Administrator.
 If you've downloaded and installed a mod and you get the
 User Account Control prompt, **DO NOT** click accept, and please report this. What you installed is a malicious mod!
 
-The only exception to this is that ModAssistant may ask to make changes to your computer when enabling OneClick™ installs, which requires administrator access.
+The only approved case is when activating/deactivating OneClick™ Install in Mod Assistant. Administrator access is required
+to register the program with your computer to handle OneClick™ Install links.
 
 If you're unsure if something you installed is malware or not, ***please ask someone in our discord***.
 :::
