@@ -5,8 +5,8 @@ FROM node:16-alpine AS builder
 WORKDIR /usr/app
 
 # Install app dependencies
+COPY .yarn .yarn
 COPY package.json yarn.lock .yarnrc.yml ./
-RUN yarn set version stable
 RUN yarn install --immutable
 
 # Build source
