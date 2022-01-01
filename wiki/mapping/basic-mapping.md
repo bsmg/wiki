@@ -413,23 +413,53 @@ It’s best to steer clear of these until you’re much more comfortable with ma
 |:----:|:---- |
 | ![Editor view of a face puncher](~@images/mapping/facepuncher-alt.png) | Face punchers are blocks placed in the opposite top corners pointing outwards. This placement requires the player to perform a large crossover in a direction that potentially causes their controllers to smash into their headset. <br></br> **Never** use a double of face punchers. |
 
-## Mapping Lower Difficulties
+## Gauging Difficulty & Down-Mapping
 
-Most mappers tend to map for the difficulty level at which they typically play, but there are lots of benefits to mapping lower difficulties:
+Many mappers tend to map the difficulty level at which they typically play, but there are plenty of benefits to mapping
+lower difficulties:
 
-* Full spreads are more enticing since they can be played and enjoyed by a wider audience (free upvotes).
+* Full spreads can be played and enjoyed by a wider audience.
 * They look professional when cruising for new maps, just like the base game maps.
 * Players who are good at the game can use your lower difficulties for training, such as accuracy players.
 
-The difficulty of a map is comprised of a combination of *density* (rhythm choice), *complexity* (pattern choice), and *readability* (NJS and Offset). There should be a smooth progression as you work your way down from Expert+ to Easy. When building lower difficulties, it’s important to understand what skills players at different levels have and try to preserve the map's identity as you work your way down the spread.
+The difficulty of a map is comprised of a combination of *density* (rhythm choice), *complexity* (pattern choice), and
+*readability* (NJS and Offset). There should be a smooth progression as you work your way down from Expert+ to Easy.
+When building lower difficulties, it’s important to understand what skills players at different levels have and try to
+preserve the map's identity as you work your way down the spread.
 
-For a more in-depth guide to mapping lower difficulties, you can check out the [Downmapping](./downmapping.md) page.
+For more information on mapping lower difficulties than what is on this page, check out [Downmapping](./downmapping.md).
 
-### Rhythm Choice
+### Pattern Complexity
 
-**NPS**, or notes per second, is a measure of note density, or the number of notes measured within a certain interval of time. The NPS ranges for each difficulty will fluctuate depending on the map, but you should try to reduce the note density of each difficulty by at least **20%** as you work your way down the spread.
+Maps should always have a progression of complexity from Easy through Expert+. The difficulty of a map is typically
+rooted in its complexity, with a great deal of attention given to what a player would typically expect at a respective
+difficulty level.
 
-The table below provides a range of NPS values calculated from all base game maps, so you can use these values as a recommended baseline for where your values may lie. For more information on the typical NPS ranges across each of the base game maps, check out the [Beat Saber Map Analysis](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4) spreadsheet.
+:::tip Remember
+You are teaching players different patterns and sight-reading skills with your maps. Make sure you give them time to
+react before you throw something new at them at each level of difficulty.
+:::
+
+<!-- markdownlint-disable MD013 -->
+| Difficulty | Pattern Notes |
+|:----:|:----|
+| Expert+ | &#8227; Welcome to the wild west! You can throw any good mapping practices at your player here.<br />&#8227; Parity is expected at this level, especially for high BPM songs. Lower BPM songs may be more lenient but parity breaks are discouraged.<br />&#8227; Always be mindful of common errors, such as resets and vision blocks. |
+| Expert | &#8227; All note directions are viable here in any proportion.<br />&#8227; All note positions viable here in any proportion. For patterns of wider spacing, give them enough reaction time and be mindful of the player’s stamina.<br />&#8227; Any color, any lane is fine. Crossovers should be used wisely and not combined with other weird patterns.<br />&#8227; Flow is critical. Parity will make or break your map.<br />&#8227; All emphasis options are on the table, including stacks and sliders.<br />&#8227; All obstacles are fair game, but be wary about creating vision blocks. |
+| Hard | &#8227; All cardinal directions are viable. Occasional diagonals are fine, but give plenty of time to react and recover.<br />&#8227; All note positions viable here in any proportion. Top row notes are fine, but make sure the spacing is not tiring for the player.<br />&#8227; Any color, any lane is fine. Always provide enough reaction time before a *true* crossover where the player’s arms have to physically cross over each other.<br />&#8227; Flow is critical unless you have an extended break. Try to cross the parity line with every swing.<br />&#8227; Most emphasis options are available, including inverted doubles with sabers going opposite directions. Stacks and sliders are fine, but keep them two notes long and don’t overuse them.<br />&#8227; All obstacles are fair game, but be wary about creating vision blocks. |
+| Normal | &#8227; All cardinal directions are viable. Diagonals are not recommended for this level. All side notes should be treated as forehand hits.<br />&#8227; Notes should lie mostly in the bottom row. Use the middle row as a flourish for emphasis. Use the top row sparingly with dot notes only.<br />&#8227; Keep red notes primarily on the left side and blue on the right. Avoid crossovers entirely.<br />&#8227; Players will tend to reset after every hit, but you can introduce flow when the notes are too close together.<br />&#8227; Inverted doubles are manageable, but don't overuse them. Stacks and sliders should be scarce.<br />&#8227; If obstacles are used, they should be easy to avoid. You can sprinkle in notes simultaneously, but give plenty of time to react and recover. |
+| Easy | &#8227; All cardinal directions are viable. Diagonals are not recommended for this level. All side notes should be treated as forehand hits.<br />&#8227; Notes should mostly lie in the bottom row. Use the middle row as a flourish for emphasis. Use the top row sparingly with dot notes only.<br />&#8227; Keep red notes primarily on the left side and blue on the right. Avoid crossovers entirely.<br />&#8227; Knock yourself out with parity breaks. Players will reset after every hit.<br />&#8227; Avoid inverted doubles. Sliders and stacks are not recommended.<br />&#8227; If obstacles are used, they should be easy to avoid with no simultaneous notes. |
+<!-- markdownlint-enable MD013 -->
+
+### Note Density
+
+**NPS** is a measure of note density, or the number of notes measured within a certain interval of
+time. The NPS ranges for each difficulty will fluctuate depending on the map, but it is common to reduce the note
+density of each difficulty by **20%** or more as you work your way down the spread.
+
+The table below provides a range of NPS values calculated from all base game maps, so you can use these values as a
+recommended baseline for where your values may lie. For more information on the typical NPS ranges across each of the
+base game maps, check out the [Beat Saber Map Analysis](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4)
+spreadsheet.
 
 | Difficulty  | NPS Ranges  |
 | :---------: | :---------: |
@@ -439,23 +469,10 @@ The table below provides a range of NPS values calculated from all base game map
 | **Expert**  | 2.42 - 6.49 |
 | **Expert+** | 3.21 - 8.69 |
 
-In general, the rhythm choices across the spread should fit the song. A 200 BPM speed map is going to have a higher note density than a 120 BPM dance map.
+In general, the rhythm choices across the spread should fit the song. A 200 BPM speed map is going to have a higher note
+density than a 120 BPM dance map.
 
-### Pattern Choice
-
-The difficulty of a map should typically be rooted in its complexity, with a great deal of attention given to what a player would typically expect at a respective difficulty level. Remember: you are teaching players different patterns and sight-reading skills with your maps. Make sure you give them time to react before you throw something new at them at each level of difficulty.
-
-<!-- markdownlint-disable MD013 -->
-| Difficulty | Pattern Notes |
-|:----:|:----|
-| Expert+ | &#8227; Welcome to the wild west! You can throw any good mapping practices at your player here.<br />&#8227; Parity is a MUST at this level. You will get skewered if you break parity.<br />&#8227; Always be mindful of common errors, such as resets and vision blocks. |
-| Expert | &#8227; All note directions are viable here in any proportion.<br />&#8227; All note positions viable here in any proportion. For patterns of wider spacing, give them enough reaction time and be mindful of the player’s stamina.<br />&#8227; Any color, any lane is fine. Crossovers should be used wisely and not combined with other weird patterns.<br />&#8227; Flow is critical. Parity will make or break your map.<br />&#8227; All emphasis options are on the table, including stacks and sliders.<br />&#8227; All obstacles are fair game, but be wary about creating vision blocks. |
-| Hard | &#8227; All cardinal directions are viable. Occasional diagonals are fine, but give plenty of time to react and recover.<br />&#8227; All note positions viable here in any proportion. Top row notes are fine, but make sure the spacing is not tiring for the player.<br />&#8227; Any color, any lane is fine. Always provide enough reaction time before a *true* crossover where the player’s arms have to physically cross over each other.<br />&#8227; Flow is critical unless you have an extended break. Try to cross the parity line with every swing.<br />&#8227; Most emphasis options are available, including inverted doubles with sabers going opposite directions. Stacks and sliders are fine, but keep them two notes long and don’t overuse them.<br />&#8227; All obstacles are fair game, but be wary about creating vision blocks. |
-| Normal | &#8227; All cardinal directions are viable. Diagonals are not recommended for this level. All side notes should be treated as forehand hits.<br />&#8227; Notes should lie mostly in the bottom row. Use the middle row as a flourish for emphasis. Use the top row sparingly with dot notes only.<br />&#8227; Keep red notes primarily on the left side and blue on the right. Avoid crossovers entirely.<br />&#8227; Players will tend to reset after every hit, but you can introduce flow when the notes are too close together.<br />&#8227; Inverted doubles are manageable, but don't overuse them. Stacks and sliders should be scarce.<br />&#8227; If obstacles are used, they should be easy to avoid. You can sprinkle in notes simultaneously, but give plenty of time to react and recover. |
-| Easy | &#8227; All cardinal directions are viable. Diagonals are not recommended for this level. All side notes should be treated as forehand hits.<br />&#8227; Notes should mostly lie in the bottom row. Use the middle row as a flourish for emphasis. Use the top row sparingly with dot notes only.<br />&#8227; Keep red notes primarily on the left side and blue on the right. Avoid crossovers entirely.<br />&#8227; Knock yourself out with parity breaks. Players will reset after every hit.<br />&#8227; Avoid inverted doubles. Sliders and stacks are not recommended.<br />&#8227; If obstacles are used, they should be easy to avoid with no simultaneous notes. |
-<!-- markdownlint-enable MD013 -->
-
-### NJS and Offset
+### Note Jump Speed
 
 There are several terms related to the speed and readability of the map. These terms are all interrelated and are typically influenced by the song’s tempo:
 
