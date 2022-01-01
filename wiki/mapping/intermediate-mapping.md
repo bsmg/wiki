@@ -81,11 +81,17 @@ spacing emphasis. While it is an osu! video, the concepts do translate to intens
 Players need to see the notes to comfortably prepare and react.
 Notes that are hidden until the last second are very jarring to play.
 
+### Vision Blocks
 Speed influences visibility heavily, as the note jump speed and jump distance dictate how much time the player has to see
 incoming notes. The player will have too little time to react to notes that spawn too close and approach too quickly. Likewise,
 vision blocks are more severe as the song gets faster- when the note exists for a shorter time, any time that the block is
 obscured is more impactful. At extreme speeds and slower note jump speeds, even bottom row blocks can obscure other bottom
 row notes (the same can be said for top row notes, but those are rarely used at a density where this is a problem).
+
+### Note Jump Speed & Jump Distance
+Note Jump Speed (NJS), Spawn Offset (or offset), and Jump Distance are additional factors you need to consider for visibility.
+
+For more information check out the [Downmapping: NJS & Offset](./downmapping.md#njs-offset) section.
 
 ## Understanding Flow
 In [Basic Mapping](./basic-mapping.md#do-mapping-with-flow) we covered the bare essentials of parity.
@@ -328,6 +334,15 @@ blocks to readjust the grid to align to the beat.
 However, if the grid is less consistent and drifts around being aligned with no dramatic changes, then it is likely your
 song has a drifting BPM. This is common in older songs. This can be more of a hassle to deal with, but it is possible to
 address. Please see the [variable BPM guide](./advanced-audio.md#variable-bpm) for more information.
+
+## Downmapping
+"Downmapping" is the process of taking your initial difficulty, and then breaking it down to be appropriate for other
+skill levels. As most mappers start with expert+ or expert, the process is usually referred to as "downmapping", since
+you work your way down through the difficulties. However, some people can and do work in the reverse, or even just map
+difficulties sporadically as they see fit. That said, starting from the top and working down gives you the benefit of
+saving time on timings, as expert+ is typically mapped to all of the most prominent rhythms.
+
+Check out the [Downmapping](./downmapping.md) page for a deep dive into this process.
 
 ## Swing In a Song and How Shuffle Helps
 ::: tip NOTE
