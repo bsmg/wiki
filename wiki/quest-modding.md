@@ -89,10 +89,12 @@ You can now continue to the [BMBF Setup](#bmbf-setup) section of the guide.
 
 #### BMBF Setup
 
-Once it has been successfully installed, make sure you have the latest version of Beat Saber installed and unmodded.
+Once BMBF has been successfully installed, make sure you have the latest supported version of Beat Saber installed and unmodded.
+Check the BSMG `#modding-announcements` channel or [QuestBoard](https://www.questmodding.com/) to see which game version
+this is and for other modding news.
 
 :::warning
-Before modding, run Beat Saber once, play a level and immediately fail! If this guide does not work make sure to check [here](https://www.questmodding.com/) for updated news such as what version of Beat Saber is currently supported.
+Before modding, run Beat Saber once, play a level and immediately fail!
 
 Modding currently does not work if the experimental multi-user feature is in use. You will need to temporarily remove
 all secondary accounts before modding the game. You can add them back later once you have installed your desired mods.
