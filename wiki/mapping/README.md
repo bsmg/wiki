@@ -351,6 +351,12 @@ Follow these steps to test any of your maps made with a community editor using a
 6. Your map will now show up on the CustomWIPLevels song pack inside your game. Keep in mind that you will only be able to
   play your map using the practice mode, and not with the regular Play button!
 
+:::tip NOTE
+  Using Online Websites to convert audio to `.ogg` may result in your audio file being treated as invalid and will not be
+  loaded by the game! Using Audacity and following the steps in [Basic Audio Setup](./basic-audio.md) is the easiest way
+  to ensure your map loads in-game.
+:::
+
 ### Community / Third Party Testing
 The `#testplays` channel in the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) makes it easy to have
 your work checked by knowledgeable mappers. Playtesters will provide constructive feedback on how to improve your map in
