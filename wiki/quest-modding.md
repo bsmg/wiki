@@ -355,7 +355,7 @@ If your game is crashing when doing something, disable your mods one by one, run
 issue is fixed before asking for help in a support channel.
 
 ### I only see a white screen when I open BMBF
-If you only see a white screen when you open BMBF from unknown sources, try waiting a few secconds.
+If you only see a white screen when you open BMBF from unknown sources, try waiting a few seconds.
 If that does not work, restart your quest and try opening BMBF again.
 
 ### My Beat Saber gets 3 dots when I launch
