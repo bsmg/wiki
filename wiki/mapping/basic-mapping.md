@@ -267,13 +267,12 @@ more info.
 | 0° Angle | 45° Angle | 90° Angle | 135° Angle | 180° Angle |
 |:----:|:----:|:----:|:----:|:----:|
 | ![0 degree angle change between blocks](~@images/mapping/0deg.png) | ![45 degree angle change between blocks](~@images/mapping/45deg.png) | ![90 degree angle change between blocks](~@images/mapping/90deg.png) | ![135 degree angle change between blocks](~@images/mapping/135deg.png) | ![180 degree angle change between blocks](~@images/mapping/180deg.png) |
-| No. (DD) | No. (DD) | Maybe in E/N/H. | Yes. | Yes. |
+| No. (DD) | No. (DD) | Maybe. | Yes. | Yes. |
 
 **Basic Flow Concepts:**
 
 * The higher your note precision, the more you want to stick to 180° (up/down) and 135° (up/down/diagonal) patterns.
-* 90° transitions that cross the parity line should only be considered with 1-2 beats in between,
-  more if your map is high tempo. Avoid 90° transitions entirely at Expert and ExpertPlus.
+* 90° transitions that cross the parity line should only be considered with enough time to play smoothy.
 * Make sure that you have the right setup (the pattern immediately before) and escape (the pattern immediately after)
   for a comfortable swing at whatever speed you’re mapping.
 * Be conscious of your timing, you can get away with more at sub-160 BPM tempos with lower note precision than you can
