@@ -474,19 +474,28 @@ density than a 120 BPM dance map.
 
 ### Note Jump Speed
 
-There are several terms related to the speed and readability of the map. These terms are all interrelated and are typically influenced by the song’s tempo:
+There are several terms related to the speed and readability of the map. These terms are all interrelated and are typically
+influenced by the song’s tempo:
 
-* **Note Jump Speed** (NJS) is the rate at which blocks move down the track at the player. A higher value will make the notes move faster, while a lower value will make the notes move slower.
-* **Jump Distance** (JD, also known as **Spawn Distance**) is a measure of the physical distance (in meters) that a note will travel to reach the player.
+* **Note Jump Speed** (NJS) is the rate at which blocks move down the track at the player. A higher value will make the
+notes move faster, while a lower value will make the notes move slower.
+* **Jump Distance** (JD, also known as **Spawn Distance**) is a measure of the physical distance (in meters) that a note
+will travel to reach the player.
 * **Half Jump Duration** (HJD) is a measure of time (in beats) from when a note spawns to when it reaches the player.
-* **Spawn Distance Offset** (Offset, also known as **Spawn Distance Modifier**) is a modifier that directly affects the Jump Distance. A higher value will make the notes spawn further away from the player, while a lower value will bring the notes closer.
+* **Spawn Distance Offset** (Offset, also known as **Spawn Distance Modifier**) is a modifier that directly affects the
+Jump Distance. A higher value will make the notes spawn further away from the player, while a lower value will bring the
+notes closer.
 
 The following video demonstrates the effect of these values in-game:  
 [YouTube](https://youtu.be/S70CDoWjdwk) | [Streamable](https://streamable.com/2l7fz9).
 
-Changing the NJS or Offset values will modify the HJD and JD of your map. Community editors will show you how these values change as you make adjustments. Fine-tuned NJS and Offset are a matter of personal taste, so you may need to rely on trial and error to find values that work for you. For lower difficulties, always be wary about putting too many notes on-screen at once based on the values you choose.
+Changing the NJS or Offset values will modify the HJD and JD of your map. Community editors will show you how these values
+change as you make adjustments. Fine-tuned NJS and Offset are a matter of personal taste, so you may need to rely on trial
+and error to find values that work for you. For lower difficulties, always be wary about putting too many notes on-screen
+at once based on the values you choose.
 
-The table below provides a range of NJS and JD values from typical community spreads, so you can use these values as a recommended baseline for where your values may lie.
+The table below provides a range of NJS and JD values from typical community spreads, so you can use these values as a
+recommended baseline for where your values may lie.
 
 | Difficulty  | NJS Ranges | JD Ranges   |
 | :---------: | :--------: | :---------: |
