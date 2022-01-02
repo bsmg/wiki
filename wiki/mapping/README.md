@@ -197,20 +197,20 @@ You are now ready to continue editing your map!
   An error checker tool that focuses on finding issues with parity in a map.
 * [Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) by **Kival Evan**  
   An error checker tool that is much more versatile than the one built into MMA2.
-* [BeatMapper Tools](https://mappers.beatmappertools.com/) by **Darkuni**  
-A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps.
 * [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
   Easily compile a game playlist from a txt file containing BeatSaver map keys.
+
+#### Legacy Tools
+These tools may no longer be supported, compatible with the latest software, or relevant with current practices, but could
+still fulfill a niche use case.
+
 * [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) by **DarkGrisen**  
   Ever thought that it is a lot of annoying work to make big maps with other people or to perfectly cut the audio files
   so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map.
 * [Cinder](https://github.com/zhaey/cinder#readme) by **zhaey**  
   Python program that converts stepmania `.sm` files to Beat Saber `.dat` files for timing notes.
-
-#### Legacy Tools
-
-* [BPM Saber](https://bsaber.com/bpmsaber/) by **Elliotttate**  
-  A utility for finding the BPM of a song by upload or tapping.
+* [BeatMapper Tools](https://beatmappertools.com/) by **Darkuni**  
+  A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps.
 * [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
   Video guide on using the timing feature of osu!'s editor to find map bpm.
 
@@ -297,6 +297,8 @@ is not difficult and will always be better at expressing the atmosphere of the s
 
 * [Lolighter](https://github.com/Loloppe/Lolighter#readme) by **Loloppe#6435** - Standalone program for automated lighting
   and has other features to modify your map.
+* [LiteMapper](https://litemapper.net/) by **ItsOrius** - A website that automatically generates lights based on pacing,
+emphasis, and note placement. For more information on the algorithm check out the [Readme](https://github.com/ItsOrius/LiteMapper#readme).
 * **Lightmap** - It is integrated into Mediocre Map Assistant 2 and can be accessed in the error checker menu.
 
 ## Playtesting
@@ -309,10 +311,9 @@ may be "map blind."
 You **DO NOT** need to upload your map to BeatSaver in order for you or anyone else to test.
 :::
 
-* If your map is using the 1.0 song format (your files are .json and .ogg) you must convert your map using one of several
-  available tools like [Songe Converter](https://github.com/lolPants/songe-converter) by lolPants or
-  [BeatMapper Tools](https://mappers.beatmappertools.com/) by Darkuni.
-  **Update your editor to MMA2 or Beatmapper**. See [Community Editors](.#community-editors) for links.
+* If your map is using the 1.0 song format (your files are .json and .ogg) you must convert your map by
+  **updating your editor**, opening and saving the map. See [Community Editors](.#community-editors) for links to modern
+  editors.
 * If your map is using the 2.0 song format (your files are .dat and .ogg/.egg) you’re ready to test.
 
 ### Testing on a PC
@@ -370,6 +371,8 @@ either video or text format in a DM or in the `#mapping-discussion` channel.
   not many playtesters at this skill level.
 * Please keep to serious posts where you are looking to improve your mapping skills.
   Meme or Shitpost maps do not belong as they end up wasting the testplayers time.
+* Make sure you have run your map through a checker program such as those built-in to your editor or external tools like
+Parity Checker or Map Check in [Additional Mapping Tools](#additional-mapping-tools)
 :::
 
 1. Create a compressed .zip file of the individual song files.

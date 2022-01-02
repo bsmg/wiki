@@ -86,6 +86,9 @@ Many other tools and sites enhance the experience of downloading custom songs, b
 To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.
  You can also use the in-game downloader mod, or Mod Assistant's OneClick™ Install feature.
 
+To enable and use Mod Assistant's OneClick™ Install see the picture below:
+![Mod Assistant](~@images/beginners-guide/modassistant-oneclick.png)
+
 ### Beast Saber
 [Beast Saber](https://www.bsaber.com) (bsaber.com) is a site that tries to help make finding fantastic maps to play easier.
 It does this by categorizing the thousands of songs on BeatSaver and lets you sort by a song's genre and many other

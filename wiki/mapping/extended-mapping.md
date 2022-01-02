@@ -261,6 +261,8 @@ These characteristics (with the exception of 360°/90° mode) take you beyond of
 NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the
 `Info.dat` file.
 
+You may find the [Map Format Page](./map-format.md) page to be useful in this process.
+
 ### To Add a New Characteristic
 
 1. Create your new difficulty file in your favorite editor.
