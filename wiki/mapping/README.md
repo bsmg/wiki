@@ -176,6 +176,28 @@ Although it is recommended to start setup again following the [Quick Start](#map
 
 You are now ready to continue editing your map!
 
+### Data Loss Prevention and Cloud Storage
+Updating your game may remove all Custom Level data, one way you can prevent complete data loss is with [Symbolic Links!](https://en.wikipedia.org/wiki/Symbolic_link)
+This allows you to store your maps in a different place on your computer, such as a folder synchronized to the cloud,
+and mirror them in the game directory. The link created will not delete your maps if it is removed due to
+updating or uninstalling the game however, recursive deletion will remove your maps.
+
+Using a cloud storage folder is useful if you jump between multiple computers or extra security for your files in case
+of storage disk corruption.
+
+The following instructions are for Windows 10 and 11.
+
+1. Move the current levels folder over to your new location. (`Ctrl + x` the folder instead of `Ctrl + c`)
+   * If this is a cloud location make sure to set the folder to be available offline!
+2. Open command prompt
+3. Run this command adjusting the parameters to match your situation.  
+`mklink /j "Path to Beat Saber Install folder" "Path to New Location"`
+    * Heres an example command:  
+`mklink /j "C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels" "C:\Users\cmb\CloudStorage\CustomLevels"`
+
+If it's on a network drive, replace `/j` with `/D`. Note that you will need to open command prompt as administrator for
+ this to succeed.
+
 ### Additional Mapping Tools
 
 * [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
