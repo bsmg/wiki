@@ -37,7 +37,7 @@ Extract the Custom Saber Unity project to your desired location.
 
 The Custom saber project should appear on the list. Make sure the Unity version is correct for the project.
 
-![Checking that the project version is correct](~@images/models/sabers/02-1.png)
+![Checking that the project version is correct](~@images/models/sabers/02.png)
 
 ![If the Unity version is incorrect, change this to match the project version.](~@images/models/sabers/02-2.png)
 
