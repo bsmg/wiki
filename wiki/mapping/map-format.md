@@ -500,14 +500,16 @@ An integer number which represents what exact kind of event this object represen
 |`7`|(Previously unused) Controls extra right side lights in some environments.|
 |`8`|Creates one ring spin in the environment.|
 |`9`|Controls zoom for applicable rings. Is not affected by [`_value`](#value).|
-|`10`|(Previously unused) (Previously Official BPM Changes.)<br/>Controls left side lasers in Billie environment.|
-|`11`|(Previously unused) Controls right side lasers in Billie environment.|
+|`10`|(Previously unused) (Previously Official BPM Changes.)<br/>Billie environment - Controls left side lasers|
+|`11`|(Previously unused) <br/>Billie environment - Controls right side lasers.|
 |`12`|Controls rotation speed for applicable lights in `Left Rotating Lasers`.|
 |`13`|Controls rotation speed for applicable lights in `Right Rotating Lasers`.|
 |`14`|(Previously unused) 360/90 Early rotation. Rotates future objects, while also rotating objects at the same time.|
 |`15`|(Previously unused) 360/90 Late rotation. Rotates future objects, but ignores rotating objects at the same time.|
-|`16`|Lowers car hydraulics in the Interscope environment.|
-|`17`|Raises car hydraulics in the Interscope environment.|
+|`16`|Interscope environment - Lowers car hydraulics<br/>Gaga environment - Controls middle left tower height|
+|`17`|Interscope environment - Raises car hydraulics<br/>Gaga environment - Controls middle right tower height|
+|`18`|Gaga environment - Controls outer left tower height|
+|`19`|Gaga environment - Controls outer right tower height|
 
 :::danger
 Just because an event type is listed as unused, does *not* mean you are freely available to use it!
