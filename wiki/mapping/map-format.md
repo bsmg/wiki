@@ -537,8 +537,8 @@ It's default behavior is controlling brightness and color of lights, and follows
 |`7`|Changes the lights to red, and flashes brightly before fading to black.|
 |`8`|Changes the lights to red by fading from the current state.|
 
-`_value` 4 and 8 are introduced in [`_version`](#version-2) 2.5.0. These events will only transition from Off and On
-(0, 1, and 4 )events. They will do nothing if transitions fade and flash events (2, 3, 6, and 7).
+`_value` 4 and 8 were introduced in Beat Saber version `1.18.0` (Billie Eilish patch). These events will only transition
+ from Off and On (0, 1, and 4 )events. They will do nothing if transitions fade and flash events (2, 3, 6, and 7).
 
 ##### Controlling Boost Colors
 |`_value`|Result|
