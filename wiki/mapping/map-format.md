@@ -533,7 +533,7 @@ It's default behavior is controlling brightness and color of lights, and follows
 |`5`|Changes the lights to red, and turns the lights on.|
 |`6`|Changes the lights to red, and flashes brightly before returning to normal.|
 |`7`|Changes the lights to red, and flashes brightly before fading to black.|
-|`8`|Changes the lights to blue by fading from the current state.|
+|`8`|Changes the lights to red by fading from the current state.|
 
 `_value` 4 and 8 are introduced in [`_version`](#version-2) 2.5.0. These events will only transition from Off and On
 (0, 1, and 4 )events. They will do nothing if transitions fade and flash events (2, 3, 6, and 7).
