@@ -240,18 +240,20 @@ Outside of easy and normal difficulties, mapping with flow is an absolute must. 
 there are certain ways that joints are meant to move and using patterns that violate those mechanics is a recipe for
 injuring your player.
 
-Parity is the concept that each block direction is played with either a backhand swing or a forehand swing. The black
-line in the diagram below illustrates this forehand (below the line)/backhand (above the line) divider for the left
-and right sides.
+Parity is the concept that each block direction is played with either a backhand swing or a forehand swing. Alternating
+between foreswing and backhand swings with each block gives a smooth motion between each hit:
 
-::: align center
-![Parity diagram showing the forehand/backhand line for each block color](~@images/mapping/parity_diagram.jpg)
-:::
+* A **forehand** swing is the motion where the block is hit with the **palm** of the hand
+* A **backhand** swing is the motion where the block is hit with the **back** of the hand
 
-When mapping with flow you are striving to always cross this parity line with the most natural movement possible.
-Effectively, your player should always be alternating between forehand and backhand every swing.
+The diagram below illustrates how straining it is playing a note as either swing (mirrored for red). Without proper lead
+in for harsher swings, the player is likely to reset:
 
-This video demonstrates the basics of parity: [YouTube](https://youtu.be/tLQK4gN3bDc)
+| Forehand Swings | Backhand Swings |
+| :-: | :-: |
+| ![Forehand Strain](~@images/mapping/forehand_strain.png) | ![Backhand Strain](~@images/mapping/backhand_strain.png) |
+
+This video illustrates the concept of parity: [YouTube](https://youtu.be/e0YlLwBz7Vk)
 
 A thing important to keep in mind, especially if you are new to the game or mapping, is that the concept of parity is
 most obvious for wrist players. If you do not play with your palm directly facing the ground, then you might struggle
