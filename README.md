@@ -38,3 +38,9 @@ The wiki is deployed using Docker. Pull the [latest image](https://github.com/bs
 * The code that generates the wiki is licensed under the [MIT License](https://github.com/bsmg/wiki/blob/master/LICENSE).  
 * The wiki content is licensed under the [Creative Commons BY-NC-SA 4.0 License](https://github.com/bsmg/wiki/blob/master/wiki/LICENSE).  
 * Translations of the wiki content is owned by the Beat Saber Modding Group (BSMG) and licensed under the [Creative Commons BY-NC-SA 4.0 License](https://github.com/bsmg/wiki/blob/master/wiki/LICENSE).
+
+TO DO
+Add more people in about us
+Fix the howsaber
+look over the communities to be added
+fix anything that is outdated.
