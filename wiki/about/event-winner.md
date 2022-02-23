@@ -10,6 +10,42 @@ If you want to see us holding more fun events, please consider contributing to t
 
 ---
 
+## 2021 Christmas Competition
+The fourth Christmas competition. Now with even more Padoru! (I can't believe it either)
+
+[Winners Announcement](please get me :pleadturd:
+
+### Map Winners
+
+#### Vanilla
+
+* **1st:** [Jingle Bells (ft. Scarlett Quinn)](x) by **Nixie.Korten**
+* **2nd:** [Christmas EveL](x) by **NotelEvil**
+* **3rd:** [Carol of the Cartels - Bossfight](x) by **Timeweaver**
+
+#### Modded
+
+* **1st:** [Merry Christmas](x) by **NFaded**
+* **2nd:** [12 Days of Christmas](x) by **Duodecillionare**
+* **3rd:** [Carol of the Bells](x) by **Goodluky**
+
+### Model Winners
+
+* **1st:** PC Saber [T-Winter](x) by **Tru**
+* **2nd:** PC Saber [Bush Noel](x) by **ToxicBush**
+
+And for the first time there was a tie for 3rd!
+
+* **3rd** Quest Saber [Silent Knight](x) by **Knight** and Platform [Snow Forest](x) by **Toni Macaroni**
+
+### Grand Prize Winner
+
+**NFaded's**
+
+Congrats to everyone that participated!
+
+---
+
 ## 2021 Halloween Competition
 The fourth Halloween contest. Even CMB got in the Halloween spirit by turning into a pumpkin!
 
