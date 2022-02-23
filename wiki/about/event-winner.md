@@ -8,10 +8,10 @@ for such events happening now, or in the future!
 
 If you want to see us holding more fun events, please consider contributing to the events tier on our [Patreon](https://www.patreon.com/beatsabermods)!
 
+---
+
 ## 2021 Halloween Competition
 The fourth Halloween contest. Even CMB got in the Halloween spirit by turning into a pumpkin!
-
----
 
 [Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/904113909131247729)
 
