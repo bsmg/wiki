@@ -8,6 +8,36 @@ for such events happening now, or in the future!
 
 If you want to see us holding more fun events, please consider contributing to the events tier on our [Patreon](https://www.patreon.com/beatsabermods)!
 
+## 2021 Halloween Competition
+The fourth Halloween contest. Even CMB got in the Halloween spirit by turning into a pumpkin!
+
+---
+
+[Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/904113909131247729)
+
+### Map Winners
+
+#### Vanilla
+
+* **1st:** [Avantasia - The Haunting](https://beatsaver.com/maps/1d616) by **Cyrix**
+* **2nd:** [t+pazolite - Party in the HOLLOWood (feat. Nanahira)](https://beatsaver.com/maps/1d5f1) by **That_Narwhal**
+* **3rd:** [Nanou - Happy Hollow and the God Club](https://beatsaver.com/maps/1d407) by **Aimedhades16**
+
+#### Modded
+
+* **1st:** [Dracula - f(x)](https://beatsaver.com/maps/1d60e) by **aggrogahu**
+* **2nd:** [Ghost Family Living In Graveyard](https://beatsaver.com/maps/1d61a) by **Reddek** and **Atmosophere**
+* **3rd:** [ReeK - Weeaboo Spookfest](https://beatsaver.com/maps/1cbbc) by **Jevk**
+
+### Model Winners
+
+* **1st:** [Curse](https://modelsaber.com/Sabers/?id=1635299789&pc) by **iSmellFood**
+* **2nd:** [Twins of Cthulhu](https://modelsaber.com/Sabers/?id=1635305833&pc) by **Clanps**
+* **3rd:** [T-Midnight](https://www.mediafire.com/file/iygz9cz2jtlkh99/T-Midnight.saber/file) by **Tru**
+
+### Grand Prize
+[Curse](https://modelsaber.com/Sabers/?id=1635299789&pc) by **iSmellFood**
+
 ## 2021 Bloodcloak's Birthday Bash
 In celebration of Bloodcloak's Birthday, this was a stage vc triva game show hosted by them based on a small impromptu
 quiz they held in `#general` chat a few months before. The prize pool consisted of random Steam Game Keys, Steam Wallet
