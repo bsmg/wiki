@@ -60,13 +60,6 @@ Any stroopwafels?
 
 **Roles:** Moderator
 
-## Razor
-Literally no clue what he's doing when it comes to coding, at all, but he can fix ploogin.
-
-**Roles:** Support, Moderator
-
-[Twitch](https://www.twitch.tv/sarpest_razor) | [Donate](https://streamelements.com/sarpest_razor/tip)
-
 ## Shad
 "Every channel is just #pc-mod-support"
 
@@ -123,7 +116,7 @@ Can't hit jumps
 [Twitch](https://www.twitch.tv/infjager)
 
 ## OneEyed (Retired)
-2 truths and a lie: Pink cute, CMB sentient, OneEyed has good spelling
+:emoji:
 
 **Roles:** Support, Moderator
 
@@ -134,3 +127,10 @@ and contibuted on various other pages. Be warned: you will be asked to talk abou
 **Roles:** Moderator, Mapping Support
 
 [BeatSaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf) | [BeastSaber](https://bsaber.com/members/pyrowarfare/)
+
+## Razor (Retired)
+Literally no clue what he's doing when it comes to coding, at all, but he can fix ploogin.
+
+**Roles:** Support, Moderator
+
+[Twitch](https://www.twitch.tv/sarpest_razor) | [Donate](https://streamelements.com/sarpest_razor/tip)

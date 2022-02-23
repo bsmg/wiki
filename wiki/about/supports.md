@@ -46,6 +46,10 @@ is too uncreative to think of a bio
 
 **Roles:** Support
 
+## Meivyn
+
+A very helpful individual
+
 ## Pespiri
 He'll give me his bio later today, or so he says.
 
@@ -59,6 +63,13 @@ This guy came out of nowhere and started helping in support saying it was some k
 **Roles:** Support
 
 [Twitter](https://twitter.com/Radevirot) | [Donate](paypal.me/Radevirot)
+
+## Raz0rBeam
+Just your average .saber connoisseur with a knowledge of troubleshooting
+
+**Roles:** Support
+
+[Twitter](https://www.twitter.com/Raz0rBeam) | [GitHub](https://www.github.com/Raz0rBeam)
 
 ## Rex
 I really like to help people. Yeah that's all.
@@ -82,8 +93,15 @@ He has no life and he's pretty dumb but he can help with your bmbf and that's al
 
 **Roles:** Support
 
+## SirSpam
+"Professional gamer, cat girl enjoyer, and adequate supporter"
+
+**Roles:** Support
+
+[GitHub](https://www.github.com/Sirspam) | [Twitch](https://www.twitch.tv/sirspam_) | [Twitter](https://www.twitter.com/Sirspamalot555)
+
 ## Squares
-I swear i'm good at Beat Saber and helping just ask boulders!
+SirSpam likes steak between two slices of bread!
 
 **Roles:** Support
 

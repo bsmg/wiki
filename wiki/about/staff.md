@@ -113,14 +113,6 @@ not enough rest. Remember to pat your Umbranox once a day!
 
 [Twitch](https://www.twitch.tv/umbranoxius) | [Twitter](https://twitter.com/Umbranoxus) | [Patreon](https://www.patreon.com/scoresaber)
 
-## williums
-Project manager, wiki maintainer, bread baker. Despite what everyone says, I like girls.
-
-**Roles:** Staff, Support  
-**Contributions:** Wiki Management, Moderation, Contest Management, BeatMods Approvals
-
-[Twitch](https://www.twitch.tv/williums/) | [Donate](https://ko-fi.com/williums)
-
 ## Assistant (Retired)
 Overseeer of core services, including BeatSaver and BeatMods servers.
 The original Support and creator of the custom avatar guide, Mod Assistant, and ModelSaber.
@@ -170,3 +162,11 @@ he hates that. He also makes maps, check them out below.
 **Roles:** Staff, Moderator, Mapper
 
 [Twitch](https://twitch.tv/justsamuelok) | [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850326)
+
+## williums (Retired)
+Project manager, wiki maintainer, bread baker. Despite what everyone says, I like girls. (this statement is false)
+
+**Roles:** Staff, Support  
+**Contributions:** Wiki Management, Moderation, Contest Management, BeatMods Approvals
+
+[Twitch](https://www.twitch.tv/williums/) | [Donate](https://ko-fi.com/williums)
