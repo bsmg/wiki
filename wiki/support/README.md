@@ -13,7 +13,7 @@ sidebar: auto
 5. [Still Having Issues](#_5-still-having-issues)
 
 ## 0. Updates
-After an update, the BSMG discord `#modding-announcements` channel should have the most up to date information
+After an update, the BSMG discord [#modding-announcements](https://discord.com/channels/441805394323439646/612468002243477505) channel should have the most up to date information
 on the status of mods. The following are more detailed instructions of the most common procedure.
 
 ### Update broke my mods
@@ -199,14 +199,14 @@ Otherwise try a [Clean Install](#clean-installation).
 If this only happens on particular maps, you may be missing required mods or those song files are broken.
  If it happens to all of your maps, delete your `Plugins` folder and reinstall fresh ones.
 
-### CameraPlus
+### Camera2
 
-#### 3.9 CameraPlus Isn't Working/Past Health Screen
+#### 3.9 Camera2 Isn't Working/Past Health Screen
 Make sure the in-game setting for "Smooth Camera" is turned off in your in-game settings.
 If that does not work, try reinstalling it and associated dependencies.
 
 #### 3.10 My desktop view only takes up a small section of the screen
-Your CameraPlus display isn't filling up your canvas. Either drag the corner to fit the screen,
+Your Camera2 display isn't filling up your canvas. Either drag the corner to fit the screen,
 or right click the window and click "Fit to Canvas".
 
 ### BeatSaver Downloader

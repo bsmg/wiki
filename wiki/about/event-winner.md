@@ -13,21 +13,21 @@ If you want to see us holding more fun events, please consider contributing to t
 ## 2021 Christmas Competition
 The fourth Christmas competition. Now with even more Padoru! (I can't believe it either)
 
-[Winners Announcement](please get me :pleadturd:
+[Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/924057004618678292)
 
 ### Map Winners
 
 #### Vanilla
 
-* **1st:** [Jingle Bells (ft. Scarlett Quinn)](x) by **Nixie.Korten**
-* **2nd:** [Christmas EveL](x) by **NotelEvil**
-* **3rd:** [Carol of the Cartels - Bossfight](x) by **Timeweaver**
+* **1st:** [Jingle Bells (ft. Scarlett Quinn)](https://beatsaver.com/maps/1ee43) by **Nixie.Korten**
+* **2nd:** [Christmas EveL](https://beatsaver.com/maps/1ee81) by **NotelEvil**
+* **3rd:** [Carol of the Cartels - Bossfight](https://beatsaver.com/maps/1efb3) by **Timeweaver**
 
 #### Modded
 
-* **1st:** [Merry Christmas](x) by **NFaded**
-* **2nd:** [12 Days of Christmas](x) by **Duodecillionare**
-* **3rd:** [Carol of the Bells](x) by **Goodluky**
+* **1st:** [Merry Christmas](https://beatsaver.com/maps/1eb49) by **NFaded**
+* **2nd:** [12 Days of Christmas](https://beatsaver.com/maps/1ef8a) by **Duodecillionare**
+* **3rd:** [Carol of the Bells](https://drive.google.com/file/d/1NrU9Hu2uldZ8JFsvFyj3nPG5FCLmCUxM/view?usp=sharing) by **Goodluky**
 
 ### Model Winners
 
@@ -36,13 +36,13 @@ The fourth Christmas competition. Now with even more Padoru! (I can't believe it
 
 And for the first time there was a tie for 3rd!
 
-* **3rd** Quest Saber [Silent Knight](x) by **Knight** and Platform [Snow Forest](x) by **Toni Macaroni**
+* **3rd:** Quest Saber [Silent Knight](x) by **Knight** and Platform [Snow Forest](x) by **Toni Macaroni**
 
 ### Grand Prize Winner
 
-**NFaded's**
+**NFaded's** map: [Merry Christmas](https://beatsaver.com/maps/1eb49)
 
-Congrats to everyone that participated!
+Congrats to all the finalists!
 
 ---
 
