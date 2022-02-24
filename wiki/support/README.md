@@ -201,23 +201,19 @@ If this only happens on particular maps, you may be missing required mods or tho
 
 ### Camera2
 
-#### 3.9 Camera2 Isn't Working/Past Health Screen
-Make sure the in-game setting for "Smooth Camera" is turned off in your in-game settings.
-If that does not work, try reinstalling it and associated dependencies.
-
-#### 3.10 My desktop view only takes up a small section of the screen
+#### 3.9 My desktop view only takes up a small section of the screen
 Your Camera2 display isn't filling up your canvas. Either drag the corner to fit the screen,
 or right click the window and click "Fit to Canvas".
 
 ### BeatSaver Downloader
 
-#### 3.11 BeatSaver Downloader More Songs Button
+#### 3.10 BeatSaver Downloader More Songs Button
 **The More Songs button is located in the main menu to the left under the Mods text.** If the button for More Songs is
 greyed out then make sure all your songs loaded first, as seen in by the rainbow progress bar on the main menu.
 If your Mods menu isn't there then make sure your mods and dependencies are working and installed properly,
 refer to the [No Mods?](#_1-no-mods) section.
 
-#### 3.12 Nothing Showing Up In The More Songs Menu
+#### 3.11 Nothing Showing Up In The More Songs Menu
 The probable causes for BeatSaver Downloader not working are:
 
 1. Make sure all of your songs have loaded in before, or else the More Songs button will be greyed out.
