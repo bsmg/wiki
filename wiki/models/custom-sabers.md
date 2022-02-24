@@ -24,7 +24,7 @@ hosted in the [Qosmetics Community Discord](https://discord.gg/qosmetics).
 ## Usage
 
 ### PC Users
-Inside the game in the main menu you will see on the left a `CUSTOM SABERS` or `SABERFACTORY` button under the `Mods` section.
+Inside the game in the main menu you will see on the left a `CUSTOM SABERS` or `SABER FACTORY` button under the `Mods` section.
 Pressing it will open up the menu you can use to select which sabers you want to use.
 
 ### Quest Users
