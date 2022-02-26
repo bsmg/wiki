@@ -28,6 +28,20 @@ outdated or contain incomplete, erroneous, or straight up incorrect information.
 Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
 :::
 
+**To get started:** make sure that you have a pc or laptop (you cannot use a chromebook or smart phone/tablet) with SideQuest installed, and a cable to connect your Quest to your computer.
+
+## Downgrading
+Check `#modding-announcements` in [BSMG](https://www.discord.gg/beatsabermods) to see if modding on the latest version of the game is possible. If mods are not updated for the latest version, you will need to downgrade to be able to mod. 
+
+The easiest method to get to the right version, is to go to the [QuestModding](https://www.questmodding.com/) page, click on How To Downgrade tab, and follow the steps.
+
+With these steps done, you can now start modding your game!
+
+::: tip Something not working?
+Go to the [BSLG Discord](https://discord.gg/MrwMx5e) for help.
+:::
+
+
 ## Installation
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with [SideQuest using a PC](#installing-bmbf-with-sidequest).
 
