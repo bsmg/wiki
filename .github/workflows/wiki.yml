@@ -6,6 +6,7 @@ on:
   push:
     branches-ignore:
       - cwdin-backups
+      - 'crowdin/**'
 
 env:
   DEPLOY_URL: 'https://bsmg.wiki/'
