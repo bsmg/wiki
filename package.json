@@ -42,5 +42,5 @@
     "vuepress-plugin-smooth-scroll": "^0.0.10",
     "vuepress-theme-yuu": "^3.1.1"
   },
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.2.0"
 }
