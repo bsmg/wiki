@@ -1,11 +1,15 @@
----
-translation-done: false
----
-::: danger
-Sorry, this page has not been translated yet, you can either:
-- refer to the [original English version](<../../models/custom-platforms.md>),
-- wait for a translation to be done,
-- or contribute to translation effort [here](https://github.com/bsmg/wiki).
-:::
+# カスタムプラットフォーム
 
-_Note for translators: this page was generated automatically, please remove this content before starting translation_
+## はじめに
+
+:::warning　警告 カスタムプラットフォームはPC専用のModです。 :::
+
+最新のカスタムプラットフォームModはBSMGのDiscordサーバーの[#pc-mods channel](https://discord.gg/beatsabermods)チャンネルか[Mod Assistant](https://github.com/Assistant/ModAssistant)から利用できます。 Modをインストールすると[インストールフォルダ](/faq/install-folder.md)内に`CustomPlatforms`というフルだが作成されます。 ここに使いたい`*.plat`ファイル形式のプラットフォームを入れてください。
+
+[ModelSaber](https://modelsaber.com/Platforms/)で多くのプラットフォームをインストールできます。
+
+## 使い方
+メインメニューの左に表示されているModメニューから`PLATFORMS`ボタンがあります。 それを押すとプラットフォームを選択する画面が表示されます。 Counters+のProgress Counter機能を使用したい場合は、ほとんどのプラットフォームは中央の時間表示を隠してしまうことに注意してください。
+
+## プラットフォームの作成
+[Emma's Platform Guide](./platforms-guide.md)はプラットフォームを作成する方法を学ぶ最高のガイドです。
