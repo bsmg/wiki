@@ -1,6 +1,7 @@
 {
   "name": "@bsmg/wiki",
   "version": "0.1.0",
+  "packageManager": "yarn@3.2.0",
   "description": "BSMG Wiki",
   "repository": "git@github.com:bsmg/wiki.git",
   "author": "Jack Baron <jackmbaron@gmail.com> (https://www.jackbaron.com)",
@@ -20,27 +21,26 @@
     "build:prod": "cross-env NODE_ENV=production yarn run clean:temp && yarn run build"
   },
   "devDependencies": {
-    "@vuepress/plugin-last-updated": "^1.8.2",
-    "@vuepress/plugin-medium-zoom": "^1.8.2",
-    "@vuepress/plugin-nprogress": "^1.8.2",
-    "@vuepress/plugin-search": "^1.8.2",
-    "byte-size": "^8.0.0",
+    "@vuepress/plugin-last-updated": "^1.9.7",
+    "@vuepress/plugin-medium-zoom": "^1.9.7",
+    "@vuepress/plugin-nprogress": "^1.9.7",
+    "@vuepress/plugin-search": "^1.9.7",
+    "byte-size": "^8.1.0",
     "cross-env": "^7.0.3",
-    "dateformat": "^4.5.1",
-    "globby": "^11.0.4",
+    "dateformat": "^4.6.3",
+    "globby": "^11.1.0",
     "kleur": "^4.1.4",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-mark": "^3.0.1",
     "markdown-it-task-lists": "^2.1.1",
-    "markdownlint-cli": "^0.27.1",
+    "markdownlint-cli": "^0.31.1",
     "rimraf": "^3.0.2",
-    "vuepress": "^1.8.2",
+    "vuepress": "^1.9.7",
     "vuepress-plugin-container": "^2.1.5",
     "vuepress-plugin-named-chunks": "^1.1.4",
-    "vuepress-plugin-seo": "^0.1.4",
+    "vuepress-plugin-seo": "^0.2.0",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-smooth-scroll": "^0.0.10",
     "vuepress-theme-yuu": "^3.1.1"
-  },
-  "packageManager": "yarn@3.2.0"
+  }
 }
