@@ -9,5 +9,7 @@
   "MD029": false,
   "MD033": { "allowed_elements": ["YouTube", "kbd", "br", "details", "summary"] },
   "MD035": { "style": "---" },
-  "MD048": { "style": "backtick" }
+  "MD048": { "style": "backtick" },
+  "MD049": false,
+  "MD050": false
 }
