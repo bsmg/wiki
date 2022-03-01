@@ -8,8 +8,8 @@ _A list of the default color palettes used in each environment._
 
 ---
 
-## 1.18.3 Colors
-These are the colors used in the 1.18.3 version of the game.
+## 1.19.0 Colors
+These are the colors used in the 1.19.0 version of the game.
 
 ### The First (Default)
 ![Image of TheFirst colors](~@images/mapping/color-thefirst.png)  
@@ -892,6 +892,7 @@ This is used by the Billie Eilish environment.
 ```
 
 ### Spooky
+![Image of Spooky colors](~@images/mapping/color-spooky.png)  
 This is used by the Spooky environment.
 
 #### Left Side Block Color (Orange)
@@ -961,6 +962,80 @@ This is used by the Spooky environment.
   "r": 0.60209066,
   "g": 0.3280082,
   "b": 0.85849059
+},
+```
+
+### Lady Gaga
+![Image of Gaga colors](~@images/mapping/color-gaga.png)  
+This is used by the Lady Gaga environment.
+
+#### Left Side Block Color (Pinkk)
+
+```json
+"_colorLeft": {
+  "r": 0.85,
+  "g": 0.4333333,
+  "b": 0.7833334
+},
+```
+
+#### Right Side Block Color (Green)
+
+```json
+"_colorRight": {
+  "r": 0.4705882,
+  "g": 0.8,
+  "b": 0.4078431
+},
+```
+
+#### Left Side Light Color (Yellow)
+
+```json
+"_envColorLeft": {
+  "r": 0.706,
+  "g": 0.649,
+  "b": 0.2394706
+},
+```
+
+#### Right Side Light Color (Magenta)
+
+```json
+"_envColorRight": {
+  "r": 0.894,
+  "g": 0.1625455,
+  "b": 0.7485644
+},
+```
+
+#### Wall Color (Magenta)
+
+```json
+"_obstacleColor": {
+  "r": 0.9921569,
+  "g": 0,
+  "b": 0.7719755
+},
+```
+
+#### Left Side Boost Light Color (Orange)
+
+```json
+"_envColorLeftBoost": {
+  "r": 0.754717,
+  "g": 0.3610244,
+  "b": 0.22071921
+},
+```
+
+#### Right Side Boost Light Color (Blue)
+
+```json
+"_envColorRightBoost": {
+    "r": 0,
+    "g": 0.7058824,
+    "b": 1
 },
 ```
 

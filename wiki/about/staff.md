@@ -13,14 +13,15 @@ Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) 
 [GitHub](https://github.com/PlusOneRabbit) | [Twitch](https://www.twitch.tv/plusonerabbit) | [Donate](https://ko-fi.com/plusonerabbit)
 
 ## Bloodcloak
-A mapper that is really into Japanese and EDM music with the occasional K-pop song and loves creating dance style maps.
-*Totally* hasn't fallen into the vTuber hole.
+A guy that is really into Japanese and EDM music with the occasional K-pop song.
+Loves creating dance style maps and playing rhythm games.
+_Totally_ hasn't fallen into the Vtuber hole and makes computer code that works! _"Most"_ of the time...
 
-**Roles:** Staff, Mapping Support, Mapper, Event Winner  
-**Contributions:** Server Operations, Wiki Management, Mapping Resources Maintainer
+**Roles:** Staff, Moderator, Mapping Support, Mapper, Event Winner  
+**Contributions:** Server Operations, Event Management, Contact System, Wiki Management, Mapping Resources Maintainer
 
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/)
-| [Donate](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
+[Github](https://github.com/bloodcloak) | [Twitter](https://twitter.com/B1oodc1oak) | [YouTube](https://www.youtube.com/c/Bloodcloak)
+| [BeatSaver](https://beatsaver.com/profile/71661) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Donate](https://ko-fi.com/bloodcloak)
 
 ## Bobbie
 Remind him to watch his glucose.
@@ -50,7 +51,7 @@ on this wiki and ChroMapper, a soon to be released mapping software with Chroma 
 One hell of a developer and a lover of socks. lolPants laid the groundwork for many of the policies and procedures during
 their time as Staff, and continues to help out when their services are needed.
 
-**Roles:** Modder, Admin (Retired), Staff, Moderator  
+**Roles:** Modder, Admin, Staff, Moderator  
 **Contributions** CMB, ModSaber, Moderation, BeatSaver Reloaded
 
 [GitHub](https://github.com/lolPants) | [Twitch](https://twitch.tv/lolpants_) | [PayPal](https://www.paypal.me/jackbarondev)

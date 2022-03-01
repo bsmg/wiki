@@ -250,8 +250,8 @@ Test frequently and try to keep the wall-count down to keep your experience acce
 While you could playtest your map ingame every time you make changes, this will be unpractically in the long run.
 Luckily there are some mods to help you out.
 
-* [FPFCToggle](https://github.com/DeadlyKitten/FPFCToggle) - lets you fly around the map without vr
-* [MusicEscape](https://github.com/DeadlyKitten/MusicEscape) - lets you quit to menu and pause-menu with your keyboard
+* **SiraUtil** - Allows camera movement while a map is playing when using FPFC. See [In-game with FPFC](./basic-lighting#in-game-with-fpfc)
+for setup and usage.
 * [ReLoader](https://github.com/Kylemc1413/ReLoader) - hot reloads the map
 * [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) - change Song time, playback speed and more from the
   pause menu

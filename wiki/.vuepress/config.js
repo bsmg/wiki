@@ -58,7 +58,8 @@ module.exports = {
     displayAllHeaders: true,
 
     algolia: {
-      apiKey: 'dffb969ba044aec7fc82ee767ea7c750',
+      appId: 'MDQBBYI18P',
+      apiKey: '0f36f096b83770eae78115f2d88bd394',
       indexName: 'bsmg',
       algoliaOptions: {
         hitsPerPage: 9,

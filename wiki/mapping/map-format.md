@@ -500,14 +500,16 @@ An integer number which represents what exact kind of event this object represen
 |`7`|(Previously unused) Controls extra right side lights in some environments.|
 |`8`|Creates one ring spin in the environment.|
 |`9`|Controls zoom for applicable rings. Is not affected by [`_value`](#value).|
-|`10`|(Previously unused) (Previously Official BPM Changes.)<br/>Controls left side lasers in Billie environment.|
-|`11`|(Previously unused) Controls right side lasers in Billie environment.|
+|`10`|(Previously unused) (Previously Official BPM Changes.)<br/>Billie environment - Controls left side lasers|
+|`11`|(Previously unused) <br/>Billie environment - Controls right side lasers.|
 |`12`|Controls rotation speed for applicable lights in `Left Rotating Lasers`.|
 |`13`|Controls rotation speed for applicable lights in `Right Rotating Lasers`.|
 |`14`|(Previously unused) 360/90 Early rotation. Rotates future objects, while also rotating objects at the same time.|
 |`15`|(Previously unused) 360/90 Late rotation. Rotates future objects, but ignores rotating objects at the same time.|
-|`16`|Lowers car hydraulics in the Interscope environment.|
-|`17`|Raises car hydraulics in the Interscope environment.|
+|`16`|Interscope environment - Lowers car hydraulics<br/>Gaga environment - Controls middle left tower height|
+|`17`|Interscope environment - Raises car hydraulics<br/>Gaga environment - Controls middle right tower height|
+|`18`|Gaga environment - Controls outer left tower height|
+|`19`|Gaga environment - Controls outer right tower height|
 
 :::danger
 Just because an event type is listed as unused, does *not* mean you are freely available to use it!
@@ -533,10 +535,10 @@ It's default behavior is controlling brightness and color of lights, and follows
 |`5`|Changes the lights to red, and turns the lights on.|
 |`6`|Changes the lights to red, and flashes brightly before returning to normal.|
 |`7`|Changes the lights to red, and flashes brightly before fading to black.|
-|`8`|Changes the lights to blue by fading from the current state.|
+|`8`|Changes the lights to red by fading from the current state.|
 
-`_value` 4 and 8 are introduced in [`_version`](#version-2) 2.5.0. These events will only transition from Off and On
-(0, 1, and 4 )events. They will do nothing if transitions fade and flash events (2, 3, 6, and 7).
+`_value` 4 and 8 were introduced in Beat Saber version `1.18.0` (Billie Eilish patch). These events will only transition
+ from Off and On (0, 1, and 4 )events. They will do nothing if transitions fade and flash events (2, 3, 6, and 7).
 
 ##### Controlling Boost Colors
 |`_value`|Result|
