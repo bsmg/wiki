@@ -247,7 +247,7 @@ let us know in #mapping-discussion!
 | **Timing Notes** | [Notes](#n) temporarily placed on every sound that the mapper intends to use in their map, helping them better prepare for actual note placement. |
 | **Tower** | Three same-colored, same-direction [Blocks](#b) placed in a line on the same beat. Results in the player swinging a larger, faster hit. See also: [Stack](#s). <details><summary>**Example Image**</summary>![Picture of tower](~@images/mapping/tower.jpg)</details>|
 | **Track** | The area in an [Editor](#e) where [Blocks](#b) are placed and the area in-game where blocks spawn and move towards the player. In most editors, there is a track for blocks and a separate track for [Lighting](#l). See also: [Lighting Track](#l). |
-| **Triangle** | Three or more [Notes](#n) forming a "triangle" [Pattern](#p) with position and orientation, causing a [Wrist Reset](#wxyz), especially if used in high [Precision](#p) (under 1/1). <details><summary>**Example Image**</summary>![Picture of triangle](~@images/mapping/triangle.png)</details> |
+| **Triangle** | Three or more [Notes](#n) forming a "triangle" [Pattern](#p) with position and orientation, causing a [Wrist Reset](#wxyz) due to excession rotation in one direction. <details><summary>**Example Image**</summary>![Picture of triangle](~@images/mapping/triangle.png)</details> |
 
 ## UV
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
