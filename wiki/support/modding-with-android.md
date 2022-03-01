@@ -6,7 +6,7 @@ sidebar: auto
 :::warning
 Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
 base game leaderboards.
-If you would like to play modded multiplayer, you need the mod, `Beat Together`, which allows for cross-play between pc
+If you would like to play modded multiplayer, you need the mod, `Beat Together` and `MultiQuestensions`, which allows for cross-play between pc
 and quest and allows for custom songs to be used. The mod can be found in the
 [Beat Saber Modding Group](discord.gg/beatsabermods) in `#quest-mods` or on the [Questboard](https://questmodding.com) site.
 
@@ -55,7 +55,7 @@ After you created it, you can enable Developer mode in the Oculus app on your sm
 
 #### Enable Developer mode in the Oculus App
 
-![EnableDevMode](~@images/beginners-guide/EnableDevMode.png)
+![EnableDevMode](~@images/beginners-guide/EnableDevModeAndroid.png)
 
 You can now skip to [Setup your Phone](#setup-your-phone)
 
@@ -101,7 +101,7 @@ and the user should be added.
 #### Enable Developer Mode in the Oculus App
 You should now be able to enable the developer mode in the Oculus app on your smartphone.
 
-![EnableDevMode](~@images/beginners-guide/EnableDevMode.png)
+![EnableDevMode](~@images/beginners-guide/EnableDevModeAndroid.png)
 
 You can now continue to [Setup your Phone](#setup-your-phone)
 
