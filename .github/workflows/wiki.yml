@@ -20,11 +20,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: 16.x
           registry-url: https://registry.npmjs.org
           cache: yarn
-      - name: Upgrade Yarn
-        run: yarn set version stable
       - name: Install packages
         run: yarn install --immutable
       - name: Lint Markdown Files
@@ -88,6 +86,7 @@ jobs:
         run: |
           rm -rf /tmp/.buildx-cache
           mv /tmp/.buildx-cache-new /tmp/.buildx-cache
+
   deploy:
     if: github.ref == 'refs/heads/master'
     needs: build
