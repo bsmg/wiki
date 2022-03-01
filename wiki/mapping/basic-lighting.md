@@ -206,17 +206,19 @@ Most editors do not show true-to-life lighting effects.
 
 ### In-game with FPFC
 First Person Flying Controller (FPFC) is a launch parameter that can be used by either Steam or Oculus users. FPFC will
-open an instance of Beat Saber on your desktop and allow you to control it with your keyboard and mouse. You will need
-the SiraUtil mod in order to interact while a map is playing.
+open an instance of Beat Saber on your desktop and allow you to control it with your keyboard and mouse.
 
-It allows you to use WASD to "fly" around in your map, open the pause menu by hitting the <kbd>F2</kbd> key, or exit your
-level by hitting the <kbd>ESC</kbd> key (otherwise you must play your song to completion).
+While a map is playing, pressing:
 
-Install SiraUtil from Mod Assistant and run Beat Saber to create a config json file. Edit the `SiraUtil.json` file in your
-`UserData` folder and change `"Enabled": false` to `"Enabled": true` under FPFCToggle and SongControl then follow the
-store platform specific steps below.
+* `P` **P**auses the map
+* `M` Returns to **m**enu if paused
+* `R` **R**estarts the map if paused
+* `C` Unpauses and **c**ontinues playing
 
-![SiraUtil JSON Setting](~@images/mapping/sirautil-FPFC.png)
+You will need the SiraUtil mod in order move the camera while a map is playing. Without it, the camera is fixed in the floor
+at an undesirable angle. Install SiraUtil from Mod Assistant and run Beat Saber to create a config json file. SiraUtil also
+adds additional useful features such as camera FOV, sensitivity, and rebindable pause and exit controls. Edit the `SiraUtil.json`
+file in your `UserData` folder to tweak settings.
 
 **For Steam Users:**
 
@@ -230,7 +232,7 @@ Open the game properties and add `fpfc` to the Steam launch options in the Gener
 For example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" fpfc`
 
 After installing the mods and adding the launch parameter you can then now move around and pause in a map.
-The toggle key to switch between headset and mouse/keyboard control is <kbd>G</kbd>.
+The default toggle key to switch between headset and mouse/keyboard control is <kbd>G</kbd>.
 
 :::warning NOTE
 
