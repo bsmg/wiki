@@ -311,9 +311,6 @@ The default toggle key to switch between headset and mouse/keyboard control is <
   * Quit the game, remove the launch option, and relaunch the game.
 
 * If the mod doesn't seem to be working, make sure the in-game Smooth Camera setting is disabled.
-
-* For difficulties other than Expert+, the game defaults to a `No Flicker` option for lighting which reduces the amount
-of strobes and ring spin events shown. Check to make sure this `Player Option` setting is set what you intend to view!
 :::
 
 If everything looks good ingame, you should be finished! Make sure to try playing with your notes with your
