@@ -167,21 +167,24 @@ goes silent during that period.
 * Example: Virtual Friends - DROELOE mapped by Skyler Wallace and lighted by LittleAsi  
   [Streamable](https://streamable.com/6f429) | [BeatSaver](https://beatsaver.com/beatmap/7cd5)
 
-## Environment Removal
-When lighting for an environment, you may have wanted to remove unwanted parts of the environment. With the use of the
-Chroma mod, you can do just that! By specifying the `_environmentRemoval` field under the `_customData` of each difficulty
-in the `Info.dat`, you can remove specific parts of the environment. Note that Chroma must be listed as a suggestion or
-requirement in order for environment removal to work.
+## Environment Enhancements
+When lighting for an environment, you may have wanted to modify parts of the environment. With the use of the Chroma mod,
+you can do just that! By specifying the `_environment` field under the `_customData` in the difficulty file, you can
+modify specific parts of the environment. Note that Chroma must be listed as a suggestion or requirement in order for
+environment enhancements to work. Check out the Chroma documentation for a list of possible modifications:
+[GitHub Wiki](https://github.com/Aeroluna/Heck/wiki/Environment).
 
 Example removing the Monstercat logo from the environment:
 
 ```json
-"_customData" : {
-  "_suggestions": [
-    "Chroma"
-  ],
-  "_environmentRemoval" : [
-    "MonstercatLogoL", "MonstercatLogoR"
+"_version": "2.0.0",
+"_customData": {
+  "_environment": [
+    {
+      "_id": "MonsterCatLogo",
+      "_lookupMethod": "Contains",
+      "_active": false
+    }
   ]
 }
 ```
@@ -198,7 +201,8 @@ Some common elements that are removed from environments:
 |`LinkinParkTextLogoL`<br> `LinkinParkTextLogoR`|The Linkin Park logo on the walls|
 |`LinkinParkSoldier`|The soldier art on the floor of the Linkin Park environment|
 
-*A full list of props that can be removed from environments is being worked on.*
+For a complete list of game objects, set `"PrintEnvironmentEnhancementDebug"` in the `Chroma.json` config file located in
+the `Beat Saber/UserData` folder to true. This will print environment enhancement information to your console.
 
 :::warning
 Removing the platform that the player stands on can limit the group of people that can play your map. This is because it
