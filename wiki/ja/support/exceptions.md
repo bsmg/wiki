@@ -1,11 +1,36 @@
 ---
-translation-done: false
+sidebar: auto
 ---
-::: danger
-Sorry, this page has not been translated yet, you can either:
-- refer to the [original English version](<../../support/exceptions.md>),
-- wait for a translation to be done,
-- or contribute to translation effort [here](https://github.com/bsmg/wiki).
-:::
 
-_Note for translators: this page was generated automatically, please remove this content before starting translation_
+# Exceptions
+Mod開発中に発生する例外エラーについての簡単な説明です。  
+　説明に番号が付いているものは、原因がいくつかある例外エラーである事を意味します。
+
+## ArgumentException
+Pathが、0文字か、半角スペースを含むか、`InvalidPathChars`にて定義されている無効な文字が含まれています。
+
+## ArgumentNullException
+Pathがnullとなっています。
+
+## DirectoryNotFoundException
+指定されたパスが無効な時に生じます。
+> 例：マウントされていないドライブにある。
+
+## IOException
+
+1. 指定されたファイルは使用中です。
+2. ファイルにオープンハンドルがあり、OSがWindowsXP以前の場合に生じます。 このオープンハンドルは、ディレクトリはファイルを列挙する事で生じる事があるようです。(訳注：エラー自体はXP以前特有のものであるため原則として起こり得ないとのこと。)
+
+## NotSupportedException
+Pathが無効なフォーマットとなっています。
+
+## PathTooLongException
+指定されたパス・ファイル名のいずれか、もしくは両方が、システムで定義できる最大文字数を超えています。
+
+## UnauthorizedAccessException
+
+1. 呼び出し側で必要な権限がありません。.  
+   これは、 `アンチウィルスソフトや、ブロッキングソフト`といったユーザがファイル・プログラム・プロセス・アクティビティへアクセスするのをブロックしている可能性があります。また、**管理者権限**といった権限を持っていない可能性もあります。 つまり、ファイル・データへの読み書きについて十分な権限が与えられていない状態です。
+2. ファイルを使用中のexeがあります。
+3. Pathにディレクトリを指定しています。
+4. Pathが読み取り専用のファイルを指定しています。

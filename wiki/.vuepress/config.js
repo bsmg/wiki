@@ -37,6 +37,10 @@ module.exports = {
       lang: 'nl-NL',
       title: 'BSMG Wiki',
     },
+    '/ja/': {
+      lang: 'ja-JP',
+      title: 'BSMG Wiki',
+    },
   },
 
   markdown: {
@@ -226,6 +230,46 @@ module.exports = {
             'custom-platforms',
             'custom-notes',
             'custom-walls',
+          ]),
+        },
+      },
+      '/ja/': {
+        selectText: '日本語',
+        label: '日本語',
+        ariaLabel: '日本語',
+        editLinkText: '言語このページの改善にご協力ください!',
+        lastUpdated: '最終更新日',
+        nav: [
+          { text: 'ホーム', link: '/ja/' },
+          { text: '初心者ガイド', link: '/ja/beginners-guide.md' },
+          { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
+        ],
+        sidebar: {
+          '/ja/about/': generateSidebar('私たちについて', [
+            '',
+            'staff',
+            'moderators',
+            'modders',
+            'supports',
+            'mapping-supports',
+            '3d-artists',
+            'translators',
+          ]),
+          '/ja/faq/': generateSidebar('よくある質問', [
+            '',
+            'install-folder',
+          ]),
+          '/ja/modding/': generateSidebar('Mod作成ガイド', [
+            '',
+            'intro',
+            'linux',
+          ]),
+          '/ja/models/': generateSidebar('3Dモデル', [
+            '',
+            'custom-sabers',
+            'custom-avatars',
+            'custom-platforms',
+            'custom-notes',
           ]),
         },
       },

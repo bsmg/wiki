@@ -1,11 +1,15 @@
 ---
-translation-done: false
+sidebar: false
 ---
-::: danger
-Sorry, this page has not been translated yet, you can either:
-- refer to the [original English version](<../../models/custom-avatars.md>),
-- wait for a translation to be done,
-- or contribute to translation effort [here](https://github.com/bsmg/wiki).
-:::
 
-_Note for translators: this page was generated automatically, please remove this content before starting translation_
+<!-- Disable header rule to hide page from search -->
+<!-- markdownlint-disable MD041 -->
+申し訳ありませんが、このページは翻訳されていません。
+
+あなたができることは。。。
+
+* 言語メニューから英語版に切り替えます。
+* そのページが翻訳されるまでお待ちください。
+* [こちら](https://forms.gle/e3BqA3poMjESARe76) を適用して、このページを英語から翻訳するのを手伝ってください！
+
+[トップページへ戻る](/ja/)
