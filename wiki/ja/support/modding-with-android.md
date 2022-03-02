@@ -13,14 +13,14 @@ BMBFをインストールすると公式のマルチプレイモードや公式�
 :::
 
 ::: tip
-BMBFをインストールする推奨方法は、[SideQuest を PC](/quest-modding.md#installing-bmbf-with-sidequest)でインストールすることです。 この方法はPCを利用できない場合のみ利用してください。
+BMBFをインストールする推奨方法は、[SideQuest を PC](/ja/quest-modding.md#sidequestでbmbfをインストールする)でインストールすることです。 この方法はPCを利用できない場合のみ利用してください。
 :::
 
-* [準備するもの](#requirements)
-* [Questで開発者モードを有効にする。](#how-to-enable-developer-mode-on-the-oculus-quest)
-* [携帯電話のセットアップ](#setup-your-phone)
-* [Android端末でBMBFをインストールする](#installing-bmbf-with-your-phone)
-* [Beat Saberのセットアップ](#setup-beat-saber)
+* [準備するもの](#準備するもの)
+* [Questで開発者モードを有効にする。](#questで開発者モードを有効にする)
+* [携帯電話のセットアップ](#携帯電話のセットアップ)
+* [Android端末でBMBFをインストールする](#端末にbmbfをインストールする)
+* [Beat Saberのセットアップ](#beat-saberのセットアップ)
 
 ## 準備するもの
 
@@ -84,11 +84,11 @@ BMBFをインストールする推奨方法は、[SideQuest を PC](/quest-moddi
 
 ![EnableDevMode](~@images/beginners-guide/EnableDevMode.png)
 
-次に[携帯電話のセットアップ](#setup-your-phone)を参照してください。
+次に[携帯電話のセットアップ](#携帯電話のセットアップ)を参照してください。
 
 ## 携帯電話のセットアップ
 
-1. [Bugjaeger app](https://play.google.com/store/apps/details?id=side.quest.mobile)をGoogleストアからダウンロードします。
+1. [SideQuest app](https://play.google.com/store/apps/details?id=side.quest.mobile)をGoogleストアからダウンロードします。
 2. 開発者モードを有効にする。
     1. Androidの設定をひらく
     2. 「デバイス情報」を開きます。
@@ -121,4 +121,4 @@ BMBFを正常にインストールし終えたら、クエストのライブラ�
 
 インストールプロセス中に Restore App ポップアップが表示されることがありますが、そのときは Close をクリックしてください。 この警告は海賊版を防止するために表示されるものなので、正規版を購入している場合は無視をしてもかまいません。
 
-これで、Modのインストールの[主要なMod](/quest-modding.md#core-mods)の手順を PCと同じ方法で実行できます。
+これで、Modのインストールの[主要なMod](/jp/quest-modding.md#コアmod)の手順を PCと同じ方法で実行できます。

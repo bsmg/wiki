@@ -96,7 +96,7 @@ PPシステムは、恐らくゲーム内のランキングについて、最も
 ### どうすればもっとPPを増やす事が出来ますか？
 世界ランキングでより高い順位になるために、自分の実力に合ったランク譜面を見つけるためのツールがいくつか存在します。 まず、自分の [ScoreSaber](https://scoresaber.com/global)のプロフィールを確認し、しばらくプレイしていない曲や、もっと上達できそうな曲を確認したり、自分の最高PPの曲を知る事はどんな時でも良い選択です。 また、[ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) や[ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme)といったブラウザ拡張機能は、プロフィールの機能を拡張できます。 [Balibilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) や [Beat Saveria](https://www.beatsavior.io/) は、改善するべき譜面や、パフォーマンスを記録するのに役立つ外部サイトです。
 
-より正確なヒントやコツについては、[お役立ち情報・リンク](#useful-tips-links) を参照してください。
+より正確なヒントやコツについては、[お役立ち情報・リンク](#お役立ち情報・リンク) を参照してください。
 
 ## プレイオプション
 

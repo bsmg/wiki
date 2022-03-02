@@ -6,7 +6,7 @@ sidebar: auto
 _ブロックを切るときの便利なまとめ_
 
 ## ランキングを上げるためのチュートリアル
-PPを取るためのTeknozFRによる記事 [ランキング & スコアリングガイド](./ranking-guide)
+PPを取るためのTeknozFRによる記事 [ランキング & スコアリングガイド](./ranking-guide.md)
 
 ## スコアを上げるには
 得点の仕組みについては、 [CubeCommunity YT](https://www.youtube.com/channel/UCdG9zS8jVcQIKl7plwWXUkg) のビデオをご覧ください。

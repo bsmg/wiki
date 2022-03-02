@@ -31,17 +31,17 @@ tags:
 
 ::: feature コンテンツ作成
 
-* [Mod作成ガイド](/modding/)
-* [譜面作成ガイド](/mapping/)
-* [3Dモデル作成ガイド](/models/)
+* [Mod作成ガイド](./modding/)
+* [譜面作成ガイド](./mapping/)
+* [3Dモデル作成ガイド](./models/)
 :::
 
 ::: feature その他
 
-* [私たちについて](/about/)
+* [私たちについて](./about/)
 * [安全と健康](./health-and-safety.md)
-* [よくある質問](/faq/)
-* [Communities](/communities/)
+* [よくある質問](./faq/)
+* [コミュニティ](./communities/)
 :::
 
 </div>

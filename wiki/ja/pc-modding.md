@@ -29,8 +29,8 @@ Beat Saberはカスタム曲をサポートしているので、カスタム曲�
 
 ::: warning 警告
 このガイドはWindows PC用のガイドです。  
-Oculus Questをお使いの方は[Quest用Mod](/quest-modding.md)を参照してください。  
-もしLinuxをお使いの場合は[Linux用Modガイド](/modding/linux.md) もしくは [Beataroni](https://github.com/geefr/beatsaber-linux-goodies/#readme)を参照してください。
+Oculus Questをお使いの方は[Quest用Mod](./quest-modding.md)を参照してください。  
+もしLinuxをお使いの場合は[Linux用Modガイド](./modding/linux.md) もしくは [Beataroni](https://github.com/geefr/beatsaber-linux-goodies/#readme)を参照してください。
 :::
 
 問題に遭遇した場合 [サポート ページ](./support) に行き、Discordサーバーで質問する前に何が間違っているのかを確認することができます。 解決法はそのページにある可能性があります！
@@ -105,7 +105,7 @@ _Beat Saberはどこにインストールされていますか？_
 | Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
 
 ## 手動でのインストール
-ModインストーラはModをインストールするための推奨方法です。 この[セクション](#installers) を参照してください。 ゲームにパッチが適用されていて、インストーラーで利用できないプラグインをインストールする必要がある場合は、ステップ 4 に進んでください。
+ModインストーラはModをインストールするための推奨方法です。 この[セクション](#インストーラー) を参照してください。 ゲームにパッチが適用されていて、インストーラーで利用できないプラグインをインストールする必要がある場合は、ステップ 4 に進んでください。
 
 ::: warning 安全にModをインストールするために `#pc-mods`などで入手できる検証されていないModをインストールすることはリスクを伴います。
 普通のModを装った悪意のあるModも存在します。
@@ -120,7 +120,7 @@ ModインストーラはModをインストールするための推奨方法で�
 ### BSIPAのインストール
 
 1. [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases) をダウンロード。
-2. [installフォルダ](#install-folder) を設定し、BSIPAの中身を解凍します。 ![Directory Clean](~@images/beginners-guide/directory-clean.png "Directory Clean") ![Directory Ipa](~@images/beginners-guide/directory-ipa.png "Directory Ipa")
+2. [インストール-フォルダ](#インストール-フォルダ) を設定し、BSIPAの中身を解凍します。 ![Directory Clean](~@images/beginners-guide/directory-clean.png "Directory Clean") ![Directory Ipa](~@images/beginners-guide/directory-ipa.png "Directory Ipa")
 3. IPA.exeをダブルクリックしてゲームにパッチを適用します。 ゲーム開始時に `プラグイン` フォルダ内のMODがロードされるようになります。 エラーがある場合は、おそらくステップ2を正しく実行できていません。 ![Directory Patched](~@images/beginners-guide/directory-patched.png "Directory Patched")
 
 ### Modをインストール
