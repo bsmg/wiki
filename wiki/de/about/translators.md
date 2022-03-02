@@ -39,3 +39,31 @@
 * Syskoh  
 * Trolav
   * [Twitter](twitter.com/Trolav1)
+
+## Dutch | Nederlands
+
+### Proofreaders
+
+* Eris
+  * [Twitter](https://twitter.com/ErisApps)
+
+### Translators
+
+* boulders2000
+* Jestro
+* Marrlain
+* OnderHond
+* RedBrumbler
+* Rusty69
+
+## Japanese | 日本語
+
+### Translators
+
+* azarashinomori
+* Korp13
+* mikuri
+  * [Twitter](https://twitter.com/mikuri_kuri)
+* oxamera
+* Syrayra
+  * [Twitter](https://twitter.com/Syrayra)

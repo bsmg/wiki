@@ -1,11 +1,16 @@
 ---
-translation-done: false
+description: インターネット上にある他のBeat Saberコミュニティの一覧をチェックしてみてください。
 ---
-::: danger
-Sorry, this page has not been translated yet, you can either:
-- refer to the [original English version](<../../communities/README.md>),
-- wait for a translation to be done,
-- or contribute to translation effort [here](https://github.com/bsmg/wiki).
-:::
 
-_Note for translators: this page was generated automatically, please remove this content before starting translation_
+# Beat Saber コミュニティ
+インターネット上にある他のBeat Saberコミュニティの一覧をチェックしてみてください。
+
+---
+
+## [コミュニティハブ](./community-hub.md)
+コミュニティハブはBeat Saberに焦点を当てたコミュニティのリストです。
+
+---
+
+## [各地域のハブ](./regional-hub.md)
+地域ハブは、特定の地域のパブリックまたはプライベートのBeat Saberに焦点を当てたコミュニティのリストです。
