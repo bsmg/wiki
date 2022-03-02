@@ -1,15 +1,69 @@
----
-sidebar: false
----
+# Translators
 
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
-Sorry, deze pagina is nog niet vertaald.
+## French | Français
 
-Je kan:
+### Proofreaders
 
-* Overschakelen naar de Engelse versie vanuit het taal menu.
-* Wachten totdat deze pagina is vertaald.
-* Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
+* Awagi
+* Noa
+  * [Twitter](https://twitter.com/AarcNoa)
 
-[Ga terug naar de startpagina](/nl/)
+### Translators
+
+* COZAX
+* Cyborger
+* ghertz
+* leochr
+* megamaz
+* Melopod
+* Moreo
+* ponizin
+* Pryd
+* risi
+
+## German | Deutsch
+
+### Proofreaders
+
+* Gregi
+  * [Twitch](https://www.twitch.tv/grregi) | [Youtube](https://www.youtube.com/user/gregiplays)
+
+### Translators
+
+* ComputerElite  
+* CookieDLX  
+* Jen (Br3uker)  
+* Ravioliman69  
+* RobertR11  
+* SasSao  
+* Syskoh  
+* Trolav
+  * [Twitter](twitter.com/Trolav1)
+
+## Dutch | Nederlands
+
+### Proofreaders
+
+* Eris
+  * [Twitter](https://twitter.com/ErisApps)
+
+### Translators
+
+* boulders2000
+* Jestro
+* Marrlain
+* OnderHond
+* RedBrumbler
+* Rusty69
+
+## Japanese | 日本語
+
+### Translators
+
+* azarashinomori
+* Korp13
+* mikuri
+  * [Twitter](https://twitter.com/mikuri_kuri)
+* oxamera
+* Syrayra
+  * [Twitter](https://twitter.com/Syrayra)

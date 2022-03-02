@@ -59,3 +59,15 @@ If you would like to join for your language, you can [apply to help translate!](
 * OnderHond
 * RedBrumbler
 * Rusty69
+
+## Japanese | 日本語
+
+### Translators
+
+* azarashinomori
+* Korp13
+* mikuri
+  * [Twitter](https://twitter.com/mikuri_kuri)
+* oxamera
+* Syrayra
+  * [Twitter](https://twitter.com/Syrayra)

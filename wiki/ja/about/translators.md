@@ -58,3 +58,15 @@ wikiのコンテンツを翻訳してくださる勤勉な人々。 時間を割
 * OnderHond
 * RedBrumbler
 * Rusty69
+
+## 日本語
+
+### Translators
+
+* azarashinomori
+* Korp13
+* mikuri
+  * [Twitter](https://twitter.com/mikuri_kuri)
+* oxamera
+* Syrayra
+  * [Twitter](https://twitter.com/Syrayra)
