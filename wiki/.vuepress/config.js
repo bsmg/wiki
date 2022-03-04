@@ -72,9 +72,9 @@ module.exports = {
 
     locales: {
       '/': {
-        selectText: 'English',
+        selectText: '🌐 English',
         label: 'English',
-        ariaLabel: 'English',
+        ariaLabel: 'Languages',
         editLinkText: 'Help improve this page!',
         lastUpdated: 'Last Updated',
         nav: [
@@ -113,9 +113,8 @@ module.exports = {
         },
       },
       '/fr/': {
-        selectText: 'Français',
+        selectText: '🌐 Français',
         label: 'Français',
-        ariaLabel: 'Français',
         editLinkText: 'Aidez à améliorer cette page !',
         lastUpdated: 'Dernière mise à jour',
         nav: [
@@ -153,9 +152,8 @@ module.exports = {
         },
       },
       '/de/': {
-        selectText: 'Deutsch',
+        selectText: '🌐 Deutsch',
         label: 'Deutsch',
-        ariaLabel: 'Deutsch',
         editLinkText: 'Hilf uns die Seite zu verbessern!',
         lastUpdated: 'Zuletzt aktualisiert am',
         nav: [
@@ -194,9 +192,8 @@ module.exports = {
         },
       },
       '/nl/': {
-        selectText: 'Nederlands',
+        selectText: '🌐 Nederlands',
         label: 'Nederlands',
-        ariaLabel: 'Nederlands',
         editLinkText: 'Help deze pagina te verbeteren!',
         lastUpdated: 'Laatste keer bijgewerkt',
         nav: [
@@ -235,9 +232,8 @@ module.exports = {
         },
       },
       '/ja/': {
-        selectText: '日本語',
+        selectText: '🌐 日本語',
         label: '日本語',
-        ariaLabel: '日本語',
         editLinkText: '言語このページの改善にご協力ください!',
         lastUpdated: '最終更新日',
         nav: [
