@@ -49,8 +49,8 @@ Chromebooks and iOS devices such as iPhones or iPads are not supported.
 :::warning
 Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
 base game leaderboards.
-If you would like to play modded multiplayer, you need the mod, `Beat Together` and `MultiQuestensions`, which allows for cross-play between PC
-and Quest and allows for custom songs to be used. The mod can be found in the
+If you would like to play modded multiplayer, you need the mods, `Beat Together` and `MultiQuestensions`, which allows for cross-play between PC
+and Quest and allows for custom songs to be used. These mods can be found in the
 [Beat Saber Modding Group](discord.gg/beatsabermods) in `#quest-mods` or on the [Questboard](https://questmodding.com) site.
 
 To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
