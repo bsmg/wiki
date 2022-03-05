@@ -62,6 +62,8 @@ tags:
 * [Qosmetics Discord](https://discord.gg/qosmetics) - Download Quest custom sabers, walls, and bloqs!
 * [QuestBoard Hub](https://discord.gg/hTZwsEEp) - The Discord for all things about Quest BeatSaber!
 * [ScoreSaber](https://scoresaber.com/) - Custom map leaderboards
+* [Contribution Page](https://docs.google.com/document/d/1r6IP6l3uo8rc__GxfLkpaToxheeXotdYaKEj3oWB2js/edit?usp=sharing) - A how-to guide on contributing to the wiki.
 * [Apply to Help Translate the Wiki!](https://forms.gle/e3BqA3poMjESARe76) - Localize the wiki to your language!
 * [Steam Store Page](https://store.steampowered.com/app/620980/Beat_Saber/)
 * [Oculus Store Page](https://www.oculus.com/experiences/rift/1304877726278670/)
+
