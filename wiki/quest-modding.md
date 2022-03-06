@@ -92,7 +92,7 @@ First download the [BMBF APK](https://bmbf.dev/stable) on your PC.
 
 Open SideQuest and connect your Quest to your PC.
 
-If you have a modded game, open BMBF, go into the `Tools` tab, and select `Uninstall BS`. You can then download BeatSaber again from the Quest store and the game will be on its latest version, completely unmodded.
+If you have a modded game you also need to uninstall it by going into the Apps tab on SideQuest (the waffle icon at the the top of the application), selecting the cog wheel next to BeatSaber, and then pressing the UNINSTALL APP button. You can then download BeatSaber again from the Quest Store and the game will be on its latest version, completely unmodded.
 You can later restore your save from the same menu, after modding.
 
 Select the `Install APK from folder` button shown below and find the latest BMBF apk you downloaded and click on it, or
