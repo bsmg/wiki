@@ -112,6 +112,8 @@ I can show you the world after you show me your _latest.log
 
 **Roles:** Support
 
+[Github](https://github.com/StormPacer)
+
 ## Toblersto
 I decided I wanted to help one day, and have been slightly addicted ever since.
 
