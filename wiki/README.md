@@ -60,7 +60,7 @@ tags:
 * [BeastSaber](https://bsaber.com/) - Reviews, articles, playlists, and more!
 * [ModelSaber](https://modelsaber.com/) - Download PC custom sabers, avatars, bloqs, and platforms!
 * [Qosmetics Discord](https://discord.gg/qosmetics) - Download Quest custom sabers, walls, and bloqs!
-* [QuestBoard Hub](https://discord.gg/hTZwsEEp) - The Discord for all things about Quest BeatSaber!
+* [QuestBoard Hub](https://discord.gg/d6DyW9v) - The Discord for all things about Quest BeatSaber!
 * [ScoreSaber](https://scoresaber.com/) - Custom map leaderboards
 * [Contribution Page](https://docs.google.com/document/d/1r6IP6l3uo8rc__GxfLkpaToxheeXotdYaKEj3oWB2js/edit?usp=sharing) - A how-to guide on contributing to the wiki.
 * [Apply to Help Translate the Wiki!](https://forms.gle/e3BqA3poMjESARe76) - Localize the wiki to your language!
