@@ -250,6 +250,14 @@ does things sometimes ????
 
 [GitHub](https://github.com/raftario)
 
+## Raine
+dumb girl who writes weird code, decided to rewrite ModelSaber
+
+**Roles:** Modder
+**Contrributions:** ScoreRequirement, updated/rewrote CustomMenuPointers
+
+[GitHub](https://github.com/sponsors/raineio), [Ko-Fi](https://ko-fi.com/rainymods)
+
 ## RedBrumbler
 Ever used Custom sabers for quest? this guy made the mod for that.
 
