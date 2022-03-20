@@ -20,6 +20,7 @@ let us know in #mapping-discussion!
 | **360 Mode** | A map characteristic that allows the [Track](#t) to rotate in 15 degree increments in a full circle. As of January 2021, these maps can only be made in [ChroMapper](#c) and in the official [Editor](#e). |
 | **4-Wide Wall** | A [Wall](#wxyz) that spans all four [Lanes](#l) and three [Rows](#r) of the standard [Track](#t), usually causing the player to fail the level unless the wall is thin. This is considered never okay to use. |
 | **90 Mode** | A map characteristic that allows the [Track](#t) to rotate in 15 degree increments, up to 45 degrees in either direction from the center. As of January 2021, these maps can only be made in [ChroMapper](#c) and in the official [Editor](#e). |
+| **Arc** | A curved line which connects to a [Block](#b). <details><summary>**Example Image**</summary>![Picture of arc](~@images/mapping/arc.png)</details> |
 | **Arrow Block/Note** | A [Block](#b) with an arrow on it indicating the direction in which it must be hit. Referred to as either *Arrow Block* or *Arrow Note*. See also: [Dot Block/Note](#d). <details><summary>**Example Image**</summary>![Picture of arrow blocks](~@images/mapping/arrowblocks.jpg)</details> |
 | **Arrow Vortex** | A free third party tool that can analyze a song's [BPM](#b) and calculate its [Offset](#o). The download and a guide on how to use the tool is available [here](./basic-audio.md#tool-assisted-bpm-calculation). |
 
@@ -39,6 +40,7 @@ let us know in #mapping-discussion!
 ## C
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
+| **Chain** | A [Block](#b) which consists of several [Link](#l) segments. <details><summary>**Example Image**</summary>![Picture of arc](~@images/mapping/chain.png)</details> |
 | **Chroma** | A mod that makes custom [Lighting](#l) and lighting [Events](#e) available to mappers, most notably allowing for full [RGB](#r) color mapping. Chroma lighting can be viewed by using either the core Chroma mod, or the smaller ChromaLite mod. |
 | **ChroMapper** | A map [Editor](#e) created by Caeden117, is a feature-rich editor specialized in modded map creation. The editor is currently still in development and is in open beta. More info can be found [here](./readme.md#chromapper). |
 | **Column** | Horizontal divisions across the [Track](#t) in which [Blocks](#b) travel. The default track has four columns. Also known as [Lane](#l). See also: [Layer](#l), [Row](#r). |
@@ -142,6 +144,7 @@ let us know in #mapping-discussion!
 | **Lighting** | A collective term for all of the lighting events and options available to mappers. A map is not considered complete without some form of lighting. See also: [Event](#e). |
 | **Lighting Track** | The area in most map editors where [Lighting](#l) events are placed. See also: [Track](#t). |
 | **Lightshow Mode** | A map characteristic where there are no [Blocks](#b), only [Lighting](#l). This mode is not part of the base game and requires the [SongCore](#s) mod. |
+| **Link** | The individual segments which make up a [Chain](#c). In the example image, the chain contains 5 links. <details><summary>**Example Image**</summary>![Picture of loloppe notes](~@images/mapping/chain.png)</details> |
 | **Loloppe Notes** | Two same-direction [Blocks](#b) placed side-by-side such that hitting both blocks requires abusing the block [Hitbox](#h). Named after the mapper who made them famous. <details><summary>**Example Image**</summary>![Picture of loloppe notes](~@images/mapping/loloppe.png)</details> |
 
 ## M
