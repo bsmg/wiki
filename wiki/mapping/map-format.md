@@ -342,25 +342,25 @@ This version was introduced in Beat Saber version 1.20.0.
 This field describes the version of the map format we are using.
 
 #### bpmEvents
-This is an array of [BPM Event](#events-2) objects for the map.
+This is an array of [BPM Event](#bpm-events) objects for the map.
 
 #### rotationEvents
-This is an array of [Rotation Event](#events-2) objects for the map.
+This is an array of [Rotation Event](#rotation-events) objects for the map.
 
 #### colorNotes
-This is an array of [Color Note](#events-2) objects for the map.
+This is an array of [Color Note](#color-notes) objects for the map.
 
 #### bombNotes
-This is an array of [Bomb Note](#events-2) objects for the map.
+This is an array of [Bomb Note](#bomb-notes) objects for the map.
 
 #### obstacles
-This is an array of [Obstacle](#events-2) objects for the map.
+This is an array of [Obstacle](#obstacles-2) objects for the map.
 
 #### sliders
-This is an array of [Slider](#events-2) objects for the map.
+This is an array of [Slider](#sliders-2) objects for the map.
 
 #### burstSliders
-This is an array of [Burst Slider](#events-2) objects for the map.
+This is an array of [Burst Slider](#burst-sliders) objects for the map.
 
 #### waypoints
 ::: tip NOTE
@@ -370,10 +370,10 @@ This is used to control BTS TinyTAN figures. Some information can be found in th
 [document](https://docs.google.com/spreadsheets/d/1spW7LS-RvenLQBVXJl9w_iOwqr9r_ozxYo3JUlXq9Lc).
 
 #### basicBeatMapEvents
-This is an array of [Basic Event](#events-2) objects for the map.
+This is an array of [Basic Event](#basic-beatmap-events) objects for the map.
 
 #### colorBoostBeatmapEvents
-This is an array of [Boost Event](#events-2) objects for the map.
+This is an array of [Boost Event](#color-boost-beatmap-events) objects for the map.
 
 #### lightColorEventBoxGroups
 This is an array of [Light Color Event](#events-2) objects for the map.
@@ -766,10 +766,10 @@ This field describes the version of the map format we are using.
 This is an array of [Note](#notes-2) objects for the map.
 
 #### _sliders
-This is an array of [Slider](#sliders-1) objects for the map.
+This is an array of [Slider](#sliders-4) objects for the map.
 
 #### _obstacles
-This is an array of [Obstacle](#obstacles-2) objects for the map.
+This is an array of [Obstacle](#obstacles-4) objects for the map.
 
 #### _events
 This is an array of [Event](#events-2) objects for the map.
