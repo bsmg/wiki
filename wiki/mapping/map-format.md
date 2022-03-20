@@ -314,13 +314,16 @@ As such, we cannot list all `_customData` fields here. You will have to do your 
 community to find map editors, tools, or mods that use this `_customData` object.
 
 ## Difficulty File (v3)
+Each Difficulty Beatmap contains a corresponding file which defines the notes, obstacles, events, and other objects
+for that particular difficulty.
+
 This version was introduced in Beat Saber version 1.20.0.
 
 ### Base Object
 
 ```json
 {
-  "version":"3.0.0", // Current bug there must be no whitespace after :
+  "version":"3.0.0", // There must be no whitespace after :
   "bpmEvents": [],
   "rotationEvents": [],
   "colorNotes": [],
@@ -376,23 +379,30 @@ This is an array of [Basic Event](#basic-beatmap-events) objects for the map.
 This is an array of [Boost Event](#color-boost-beatmap-events) objects for the map.
 
 #### lightColorEventBoxGroups
-This is an array of [Light Color Event](#events-2) objects for the map.
+This is an array of Light Color Group Event objects for the map.
+::: tip NOTE
+This is a stub section. Documentation is a work in progress.
+:::
+
+#### lightRotationEventBoxGroups
+This is an array of Light Rotation Group Event objects for the map.
 ::: tip NOTE
 This is a stub section. Documentation is a work in progress.
 :::
 
 #### basicEventTypesWithKeywords
 ::: tip NOTE
-This is a stub section. Functionality is unknown.
+This is a stub section. Documentation is a work in progress.
 :::
   
 #### useNormalEventsAsCompatibleEvents
 This is a boolean.
 ::: tip NOTE
-This is a stub section. Functionality is unknown.
+This is a stub section. Documentation is a work in progress.
 :::
 
 ### Bpm Events
+
 ```json
 {
   "b": 10.0,
@@ -412,11 +422,12 @@ The time, in beats, where this object reaches the player.
 A float representing the new bpm. Any `b` in objects after this point will be adjusted to the new bpm.
 
 ### Rotation Events
+
 ```json
 {
-  "b": 10.0,
-  "e": 0,
-  "r": 15.0,
+  "b": 10.0, // Beat
+  "e": 0,    // Event type
+  "r": 15.0, // Rotation
 }
 ```
 
@@ -436,12 +447,12 @@ A float which represents clockwise rotation.
 
 ```json
 {
-  "b": 10.0,
+  "b": 10.0, // Beat
   "x": 1,
   "y": 0,
-  "c": 0,
-  "d": 1,
-  "a": 0
+  "c": 0,    // Color
+  "d": 1,    // Direction
+  "a": 0     // Angle offset
 }
 ```
 
@@ -485,7 +496,7 @@ A integer number which represents the number of additional counter-clockwise ang
 
 ```json
 {
-  "b": 10.0,
+  "b": 10.0, // Beat
   "x": 1,
   "y": 0
 }
@@ -506,14 +517,15 @@ The bottommost layer is located at layer 0, and inceases to the topmost layer lo
 
 ```json
 {
-  "b": 10.0,
+  "b": 10.0, // Beat
   "x": 1,
   "y": 0,
-  "d": 5,
-  "w": 1,
-  "h": 3 
+  "d": 5,    // Duration
+  "w": 1,    // Width
+  "h": 3     // Height
 }
 ```
+
 #### b
 The time, in beats, where this object reaches the player.
 
@@ -535,7 +547,7 @@ The time, in beats, that the obstacle extends for (duration).
 While `d` can go into negative numbers, be aware that this has some unintended effects.
 
 #### w
-An integer which which represents the width of the obstacle. 
+An integer which which represents the width of the obstacle.
 While `w` can go into negative numbers, be aware that this has some unintended effects.
 
 #### h
@@ -543,22 +555,23 @@ An integer numbers from 1 to 5, which represents the height of the obstacle.
 While `h` can go into negative numbers, be aware that this has some unintended effects.
 
 ### Sliders
-These describe arcs. If the head or tail of an arc matches a note's time and position, then the arc will connect with the note and alter how the note is scored.
+These describe arcs. If the head or tail of an arc matches a note's time and position,
+then the arc will connect with the note and alter how the note is scored.
 
 ```json
 {
-  "b": 10.0,
-  "c": 0,
-  "x": 1,
-  "y": 0,
-  "d": 1,
-  "mu": 1.0,
-  "tb": 15,
-  "tx": 2,
-  "ty": 2,
-  "tc": 1,
-  "tmu": 1.0,
-  "m": 1,
+  "b": 10.0,  // Head Beat
+  "c": 0,     // Color
+  "x": 1,     // Head x
+  "y": 0,     // Head y
+  "d": 1,     // Head direction
+  "mu": 1.0,  // Head multiplier
+  "tb": 15.0, // Tail Beat
+  "tx": 2,    // Tail x
+  "ty": 2,    // Tail y
+  "tc": 1,    // Tail direction
+  "tmu": 1.0, // Tail Multiplier
+  "m": 1,     // Mid-anchor mode
 }
 ```
 
@@ -630,28 +643,28 @@ A float which represents how far the arc goes from the tail of the arc.
 #### m
 An integer number which represents how the arc curves from the head to the mid point of the arc.
 
-|`_sliderMidAnchorMode`|Result|
+|`m`|Result|
 |:-------------------:|-------------------|
 |`0`|Straight|
 |`1`|Clockwise|
 |`2`|Counter-Clockwise|
 
-
 ### Burst Sliders
-These describe chain and links. If the head of a chain matches a note's time and position, then the chain will connect with the note and alter how the note is scored.
+These describe chain and links. If the head of a chain matches a note's time and position,
+then the chain will connect with the note and alter how the note is scored.
 
 ```json
 {
-  "b": 10,
-  "x": 1,
-  "y": 0,
-  "c": 0,
-  "d": 1,
-  "tb": 15,
-  "tx": 2,
-  "ty": 2,
-  "sc": 3,
-  "s": 0.5
+  "b": 10.0,  // Beat
+  "x": 1,     // Head x
+  "y": 0,     // Head y
+  "c": 0,     // Color
+  "d": 1,     // Head direction
+  "tb": 15.0, // Tail Beat
+  "tx": 2,    // Tail x
+  "ty": 2,    // Tail y
+  "sc": 3,    // Segment count
+  "s": 0.5    // Squish factor
 }
 ```
 
@@ -704,8 +717,8 @@ An integer number, greater than 0, which represents the number of segments in th
 The head counts as a segment.
 
 #### s
-A float which represents squish factor. This is percentage of how much of the burst slider is contained in the path from `(x,y)` to `(tx, ty)`.
-High values can send the slider off the grid.
+A float which represents squish factor. This is percentage of how much of the burst slider is contained in the path
+from `(x,y)` to `(tx, ty)`. High values can send the slider off the grid.
 
 ### Basic BeatMap Events
 
@@ -717,6 +730,7 @@ High values can send the slider off the grid.
   "f": 1.0   // Equivalent to _floatValue
 }
 ```
+
 See [Events](#events-2) in v2 for information of what these equivalent properties represent.
 
 ### Color Boost Beatmap Events
@@ -850,7 +864,8 @@ As such, we cannot list all `_customData` fields here. You will have to do your 
 community to find map editors, tools, or mods that use this `_customData` object.
 
 ### Sliders
-These describe arcs. If the head or tail of an arc matches a note's time and position, then the arc will connect with the note and alter how the note is scored.
+These describe arcs. If the head or tail of an arc matches a note's time and position, then the arc will connect with
+the note and alter how the note is scored.
 
 ```json
 {
@@ -1165,4 +1180,6 @@ As such, we cannot list all `_customData` fields here. You will have to do your 
 community to find map editors, tools, or mods that use this `_customData` object.
 
 ## Credits
-The content on this page was authored by [Caeden117](./mapping-credits.md#caeden117), [KivalEvan](./mapping-credits.md#TODO), [GalaxyMaster](./mapping-credits.md#TODO), and [Bullet](./mapping-credits.md#TODO).
+The content on this page was authored by [Caeden117](./mapping-credits.md#caeden117) and
+[Bullet](./mapping-credits.md#bullet) with help from [Kival Evan](./mapping-credits.md#kival-evan)
+and GalaxyMaster.
