@@ -720,6 +720,10 @@ The head counts as a segment.
 A float which represents squish factor. This is percentage of how much of the burst slider is contained in the path
 from `(x,y)` to `(tx, ty)`. High values can send the slider off the grid.
 
+:::danger
+Do not set squish factor to 0. This will crash the game.
+:::
+
 ### Basic BeatMap Events
 
 ```json
