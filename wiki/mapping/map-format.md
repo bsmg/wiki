@@ -441,7 +441,7 @@ The time, in beats, where this object reaches the player.
 |`1`|Late rotation. Rotates future objects, but ignores rotating objects at the same time.|
 
 #### r
-A float which represents clockwise rotation.
+A float which represents clockwise rotation (as viewed from above).
 
 ### Color Notes
 
@@ -469,7 +469,7 @@ The bottommost layer is located at layer 0, and inceases to the topmost layer lo
 
 #### c
 An integer which represents the color of the note.
-|`_c`|Result|
+|`c`|Result|
 |:---:|-----|
 |`0`|Red|
 |`1`|Blue|
@@ -477,7 +477,7 @@ An integer which represents the color of the note.
 #### d
 This indicates the cut direction for the note.
 
-|`_d`|Result|
+|`d`|Result|
 |:-------------------:|-------------------|
 |`0`|Up|
 |`1`|Down|
@@ -490,7 +490,8 @@ This indicates the cut direction for the note.
 |`8`|Any (Dot Note)|
 
 #### a
-A integer number which represents the number of additional counter-clockwise angle offset of note
+An integer number which represents the additional counter-clockwise angle offset applied to the note's cut direction in degrees.
+This has no effect on angles created due to snapping (e.g. dot stack, slanted windows).
 
 ### Bomb Notes
 
@@ -538,9 +539,9 @@ An integer number, from 0 to 2, which represents the layer where base of the obs
 The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
 |`y`|Result|
 |:-------------------:|-------------------|
-|`1`|Grounded obstacle|
-|`2`|Prone obstacle|
-|`3`|Crouch obstacle|
+|`0`|Grounded obstacle|
+|`1`|Prone obstacle|
+|`2`|Crouch obstacle|
 
 #### d
 The time, in beats, that the obstacle extends for (duration).
@@ -580,7 +581,7 @@ The time, in beats, where this head of this object reaches the player.
 
 #### c
 An integer which represents the color of the note.
-|`_c`|Result|
+|`c`|Result|
 |:---:|-----|
 |`0`|Red|
 |`1`|Blue|
@@ -596,7 +597,7 @@ The bottommost layer is located at layer 0, and inceases to the topmost layer lo
 #### d
 An integer number which represents the head direction of the arc.
 
-|`_d`|Result|
+|`d`|Result|
 |:-------------------:|-------------------|
 |`0`|Up|
 |`1`|Down|
@@ -610,6 +611,7 @@ An integer number which represents the head direction of the arc.
 
 #### mu
 A float which represents how far the arc goes from the head of the arc.
+If tail direction is a dot, this does nothing.
 
 #### tb
 The time, in beats, where this tail of this object reaches the player.
@@ -625,7 +627,7 @@ The bottommost layer is located at layer 0, and inceases to the topmost layer lo
 #### tc
 An integer number which represents the tail direction of the arc.
 
-|`_d`|Result|
+|`tc`|Result|
 |:-------------------:|-------------------|
 |`0`|Up|
 |`1`|Down|
@@ -635,13 +637,27 @@ An integer number which represents the tail direction of the arc.
 |`5`|Up Right|
 |`6`|Down Left|
 |`7`|Down Right|
-|`8`|~~Any (Dot Note).~~ Functions as Down.|
+|`8`|Any (Dot Note)|
 
 #### tmu
 A float which represents how far the arc goes from the tail of the arc.
+If tail direction is a dot, this does nothing.
 
 #### m
-An integer number which represents how the arc curves from the head to the mid point of the arc.
+An integer number which represents how the arc curves from the head to the mid point of the arc under certain conditions:
+
+* Head and tail `x` are equal; and
+* Head and tail cut direction are equal **OR** their angle difference is 180
+
+:::warning NOTE
+Currently angle difference is NOT an absolute value. These means only half of the opposing direction pairs will
+meet these conditions. These pairs are (head -> tail):
+
+* Down -> Up
+* Right -> Left
+* DownRight -> UpLeft
+* UpRight -> DownLeft
+:::
 
 |`m`|Result|
 |:-------------------:|-------------------|
@@ -673,7 +689,7 @@ The time, in beats, where this head of this object reaches the player.
 
 #### c
 An integer which represents the color of the note.
-|`_c`|Result|
+|`c`|Result|
 |:---:|-----|
 |`0`|Red|
 |`1`|Blue|
@@ -689,7 +705,7 @@ The bottommost layer is located at layer 0, and inceases to the topmost layer lo
 #### d
 An integer number which represents the head direction of the arc.
 
-|`_d`|Result|
+|`d`|Result|
 |:-------------------:|-------------------|
 |`0`|Up|
 |`1`|Down|
@@ -699,7 +715,7 @@ An integer number which represents the head direction of the arc.
 |`5`|Up Right|
 |`6`|Down Left|
 |`7`|Down Right|
-|`8`|Any (Dot Note)|
+|`8`|~~Any (Dot Note)~~ Functions as down.|
 
 #### tb
 The time, in beats, where this tail of this object reaches the player.
@@ -717,8 +733,9 @@ An integer number, greater than 0, which represents the number of segments in th
 The head counts as a segment.
 
 #### s
-A float which represents squish factor. This is percentage of how much of the burst slider is contained in the path
-from `(x,y)` to `(tx, ty)`. High values can send the slider off the grid.
+A float which represents squish factor. This is the proportion of how much of the burst slider is contained in the path
+from `(x,y)` to `(tx, ty)`. This does not alter the shape of the path.
+Values greater than 1 will extend the path beyond the specified end point.
 
 :::danger
 Do not set squish factor to 0. This will crash the game.
@@ -917,7 +934,7 @@ A float which represents how far the arc goes from the head of the arc.
 #### headCutDirection
 An integer number which represents the head direction of the arc.
 
-|`_d`|Result|
+|`_headCutDirection`|Result|
 |:-------------------:|-------------------|
 |`0`|Up|
 |`1`|Down|
@@ -942,11 +959,12 @@ The bottommost layer is located at layer 0, and inceases to the topmost layer lo
 
 #### tailControlPointLengthMultiplier
 A float which represents how far the arc goes from the tail of the arc.
+If tail direction is a dot, this does nothing.
 
 #### tailCutDirection
 An integer number which represents the tail direction of the arc.
 
-|`_d`|Result|
+|`_tailCutDirection`|Result|
 |:-------------------:|-------------------|
 |`0`|Up|
 |`1`|Down|
@@ -956,10 +974,23 @@ An integer number which represents the tail direction of the arc.
 |`5`|Up Right|
 |`6`|Down Left|
 |`7`|Down Right|
-|`8`|~~Any (Dot Note).~~ Functions as Down.|
+|`8`|Any (Dot Note)|
 
 #### sliderMidAnchorMode
-An integer number which represents how the arc curves from the head to the mid point of the arc.
+An integer number which represents how the arc curves from the head to the mid point of the arc under certain conditions:
+
+* Head and tail `LineIndex` are equal; and
+* Head and tail `CutDirection` are equal **OR** their angle difference is 180
+
+:::warning NOTE
+Currently angle difference is NOT an absolute value. These means only half of the opposing direction pairs will meet
+these conditions. These pairs are (head -> tail):
+
+* Down -> Up
+* Right -> Left
+* DownRight -> UpLeft
+* UpRight -> DownLeft
+:::
 
 |`_sliderMidAnchorMode`|Result|
 |:-------------------:|-------------------|
