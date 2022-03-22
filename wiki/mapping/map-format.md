@@ -336,7 +336,7 @@ This version was introduced in Beat Saber version 1.20.0.
   "colorBoostBeatmapEvents": [],
   "lightColorEventBoxGroups": [],
   "lightRotationEventBoxGroups": [],
-  "basicEventTypesWithKeywords": [],
+  "basicEventTypesWithKeywords": {},
   "useNormalEventsAsCompatibleEvents": false
 }
 ```
