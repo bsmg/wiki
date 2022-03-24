@@ -969,7 +969,7 @@ This is used by the Spooky environment.
 ![Image of Gaga colors](~@images/mapping/color-gaga.png)  
 This is used by the Lady Gaga environment.
 
-#### Left Side Block Color (Pinkk)
+#### Left Side Block Color (Pink)
 
 ```json
 "_colorLeft": {

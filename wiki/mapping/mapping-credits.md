@@ -36,8 +36,8 @@ Also is a staff member that helps maintain and improve the resources.
 | [Donate](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
 
 ## Bullet
-Contributed environment lighting videos in [Basic Lighting](./basic-lighting.md) and Chroma sections in
-[Intermediate Lighting](./intermediate-lighting.md) and [Advanced Lighting](./advanced-lighting.md).
+Contributed environment lighting videos in [Basic Lighting](./basic-lighting.md), Chroma sections in
+[Intermediate Lighting](./intermediate-lighting.md) and [Advanced Lighting](./advanced-lighting.md), and various other pages.
 Has an interesting username...  
 [BeatSaver](https://beatsaver.com/uploader/5e84a9933f476a000645dd88) | [BeastSaber](https://bsaber.com/members/xace1337manx/)
 
