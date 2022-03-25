@@ -611,7 +611,7 @@ An integer number which represents the head direction of the arc.
 
 #### mu
 A float which represents how far the arc goes from the head of the arc.
-If tail direction is a dot, this does nothing.
+If head direction is a dot, this does nothing.
 
 #### tb
 The time, in beats, where this tail of this object reaches the player.
@@ -733,8 +733,8 @@ An integer number, greater than 0, which represents the number of segments in th
 The head counts as a segment.
 
 #### s
-A float which represents squish factor. This is the proportion of how much of the burst slider is contained in the path
-from `(x,y)` to `(tx, ty)`. This does not alter the shape of the path.
+A float which represents squish factor. This is the proportion of how much of the path from `(x,y)` to `(tx, ty)`
+is used by the chain. This does not alter the shape of the path.
 Values greater than 1 will extend the path beyond the specified end point.
 
 :::danger
@@ -930,6 +930,7 @@ The bottommost layer is located at layer 0, and inceases to the topmost layer lo
 
 #### headControlPointLengthMultiplier
 A float which represents how far the arc goes from the head of the arc.
+If head direction is a dot, this does nothing.
 
 #### headCutDirection
 An integer number which represents the head direction of the arc.
