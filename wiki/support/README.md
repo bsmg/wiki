@@ -13,7 +13,8 @@ sidebar: auto
 5. [Still Having Issues](#_5-still-having-issues)
 
 ## 0. Updates
-After an update, the BSMG discord `#modding-announcements` channel should have the most up to date information
+After an update, the BSMG discord [#modding-announcements](https://discord.com/channels/441805394323439646/612468002243477505)
+channel should have the most up to date information
 on the status of mods. The following are more detailed instructions of the most common procedure.
 
 ### Update broke my mods
@@ -199,25 +200,21 @@ Otherwise try a [Clean Install](#clean-installation).
 If this only happens on particular maps, you may be missing required mods or those song files are broken.
  If it happens to all of your maps, delete your `Plugins` folder and reinstall fresh ones.
 
-### CameraPlus
+### Camera2
 
-#### 3.9 CameraPlus Isn't Working/Past Health Screen
-Make sure the in-game setting for "Smooth Camera" is turned off in your in-game settings.
-If that does not work, try reinstalling it and associated dependencies.
-
-#### 3.10 My desktop view only takes up a small section of the screen
-Your CameraPlus display isn't filling up your canvas. Either drag the corner to fit the screen,
+#### 3.9 My desktop view only takes up a small section of the screen
+Your Camera2 display isn't filling up your canvas. Either drag the corner to fit the screen,
 or right click the window and click "Fit to Canvas".
 
 ### BeatSaver Downloader
 
-#### 3.11 BeatSaver Downloader More Songs Button
+#### 3.10 BeatSaver Downloader More Songs Button
 **The More Songs button is located in the main menu to the left under the Mods text.** If the button for More Songs is
 greyed out then make sure all your songs loaded first, as seen in by the rainbow progress bar on the main menu.
 If your Mods menu isn't there then make sure your mods and dependencies are working and installed properly,
 refer to the [No Mods?](#_1-no-mods) section.
 
-#### 3.12 Nothing Showing Up In The More Songs Menu
+#### 3.11 Nothing Showing Up In The More Songs Menu
 The probable causes for BeatSaver Downloader not working are:
 
 1. Make sure all of your songs have loaded in before, or else the More Songs button will be greyed out.

@@ -18,7 +18,8 @@ campaign for earning ranks in the server, how far can you get?
 
 ## Acc Champ Community
 We are an Acc focused community that plans to be the new hub for Acc related events, training, and a new ranking system
-to help give specific info on each player's strengths and weaknesses in Acc categories.
+to help give specific info on each player's strengths and weaknesses in Acc categories. We also hold a custom campaign
+for those wanting to test their acc abilities against difficult requirements.
 
 [Discord](https://discord.gg/zd8W4rr)
 
@@ -84,6 +85,12 @@ This is a place to discuss the mod and follow its progress and releases!
 [Discord](https://discord.com/invite/gezGrFG4tz)
 
 ---
+
+## ChroMapper
+ChroMapper is a community maintained map editor for Beat Saber. Built from the ground up, ChroMapper brings Beat Saber
+mapping to the next level with new visuals, graphics, and tools.
+
+[Discord](https://discord.gg/mMzzNSh) | [GitHub](https://www.github.com/Caeden117/ChroMapper)
 
 ## Cube Community
 Beat Saber gameplay spotlights, scoring guides, clip compilations, community events and more!
