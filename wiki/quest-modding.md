@@ -29,16 +29,17 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 :::
 
 ## Downgrading
-Check `#modding-announcements` in [BSMG](https://www.discord.gg/beatsabermods) to see if modding on the latest version of the game is possible. If mods are not updated for the latest version, you will need to downgrade to be able to mod. 
+Check `#modding-announcements` in [BSMG](https://www.discord.gg/beatsabermods) to see if modding on the latest version
+of the game is possible. If mods are not updated for the latest version, you will need to downgrade to be able to mod.
 
-The easiest method to get to the right version, is to go to the [QuestModding](https://www.questmodding.com/) page, click on How To Downgrade tab, and follow the steps.
+The easiest method to get to the right version, is to go to the [QuestModding](https://www.questmodding.com/) page, click
+on How To Downgrade tab, and follow the steps.
 
 With these steps done, you can now start modding your game!
 
 ::: tip Something not working?
 Go to the [BSLG Discord](https://discord.gg/MrwMx5e) for help.
 :::
-
 
 ## Installation
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with [SideQuest using a PC](#installing-bmbf-with-sidequest).
@@ -49,8 +50,8 @@ Chromebooks and iOS devices such as iPhones or iPads are not supported.
 :::warning
 Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
 base game leaderboards.
-If you would like to play modded multiplayer, you need the mods, `Beat Together` and `MultiQuestensions`, which allows for cross-play between PC
-and Quest and allows for custom songs to be used. These mods can be found in the
+If you would like to play modded multiplayer, you need the mods, `Beat Together` and `MultiQuestensions`, which allows
+for cross-play between PC and Quest and allows for custom songs to be used. These mods can be found in the
 [Beat Saber Modding Group](discord.gg/beatsabermods) in `#quest-mods` or on the [Questboard](https://questmodding.com) site.
 
 To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
@@ -92,7 +93,9 @@ First download the [BMBF APK](https://bmbf.dev/stable) on your PC.
 
 Open SideQuest and connect your Quest to your PC.
 
-If you have a modded game you also need to uninstall it by going into the Apps tab on SideQuest (the waffle icon at the the top of the application), selecting the cog wheel next to BeatSaber, and then pressing the UNINSTALL APP button. You can then download BeatSaber again from the Quest Store and the game will be on its latest version, completely unmodded.
+If you have a modded game you also need to uninstall it by going into the Apps tab on SideQuest (the waffle icon at the
+the top of the application), selecting the cog wheel next to BeatSaber, and then pressing the UNINSTALL APP button.
+You can then download BeatSaber again from the Quest Store and the game will be on its latest version, completely unmodded.
 
 Select the `Install APK from folder` button shown below and find the latest BMBF apk you downloaded and click on it, or
 simply drag the BMBF apk into SideQuest.
@@ -122,9 +125,11 @@ Once opened, follow each step in BMBF exactly as you're told to mod your game. O
 [QuestBoard](https://www.questmodding.com/) with [BeastSaber](https://www.bsaber.com) loaded inside of the BMBF app.
 This is where you can download any custom songs available. You can also click the BeatSaver button to download songs too.
 
-After successfully patching your game, you will get a Restore App popup. Just click Close. 
+After successfully patching your game, you will get a Restore App popup. Just click Close.
 
-When trying to launch BeatSaber after patching it, you will likely get the Restore App popup again. This time, select Open App instead (hitting Close again at this point will just do nothing). This warning is more directed to pirated versions of the game so if you're just modding there will likely be no consequences for ignoring it.
+When trying to launch BeatSaber after patching it, you will likely get the Restore App popup again. This time, select
+Open App instead (hitting Close again at this point will just do nothing). This warning is more directed to pirated
+versions of the game so if you're just modding there will likely be no consequences for ignoring it.
 
 ![RestoreApp](~@images/beginners-guide/restoreapp.png)
 
@@ -168,7 +173,8 @@ Click this and let it finish syncing. Then go to your `mods` tab in BMBF. Make s
 :::danger
 Other mods will not work without these Core Mods!
 
-If one of these mods are not listed, try the `Reload Mods` and `Check Core Mod Updates` button in the `Tools` Tab inside of BMBF.
+If one of these mods are not listed, try the `Reload Mods` and `Check Core Mod Updates` button in the `Tools` Tab inside
+of BMBF.
 If it still does not appear, or mods appear but not working in-game, see [Core Mods don't work](#core-mods-don-t-work)
 for troubleshooting steps.
 :::
@@ -308,8 +314,11 @@ If your Beat Saber is getting 3 dots when launching make sure that:
 2. You're not using a pirated version of the game
 3. Make sure you're using the latest version of BMBF
 4. Make sure you hit done instead of open when installing modded BeatSaber.
+
 > If you did not do these last two, reinstall Beat Saber, and redo the BMBF setup process.
-5. Make sure you have allowed Beat Saber permissions, you can check this by pressing the three dots next to beatsaber in the apps section and going into permissions.
+
+5. Make sure you have allowed Beat Saber permissions, you can check this by pressing the three dots next to beatsaber in
+the apps section and going into permissions.
 6. If you have, try pressing Quick Fix in the Tools tab of BMBF.
 7. Make sure you have given it 10-15 seconds to load.
 
@@ -343,14 +352,15 @@ If you had mods installed before this, turn them off then on again to reinstall 
 ---
 
 ### BMBF web interface not loading
-If your BMBF Web Interface is not loading, Make sure you are typing the ip from the tools tab in the quest into your browser before trying this below
+If your BMBF Web Interface is not loading, Make sure you are typing the ip from the tools tab in the quest into your browser
+before trying this below
 
-- BMBF is open in the headset
-- There is http:// at the beginning of the link, not https://
-- You have :50000 at the end of your link
-- Your pc and your quest are on the same Wifi
-- Your ip hasn't changed, as it changes from time to time
-- Your ip is not 127.0.0.1
+* BMBF is open in the headset
+* There is http:// at the beginning of the link, not https://
+* You have :50000 at the end of your link
+* Your pc and your quest are on the same Wifi
+* Your ip hasn't changed, as it changes from time to time
+* Your ip is not 127.0.0.1
 If none of these work restart your quest and try them all again
 
 ---
@@ -383,5 +393,3 @@ issue is fixed before asking for help in a support channel.
 ### I only see a white screen when I open BMBF
 If you only see a white screen when you open BMBF from unknown sources, try waiting a few seconds.
 If that does not work, restart your quest and try opening BMBF again.
-
-

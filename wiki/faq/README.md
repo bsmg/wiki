@@ -49,7 +49,8 @@ See [mapping](/mapping/)!
 See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 
 ## Does multiplayer have crossplay?
-Multiplayer now has the compatibility for cross-play between Quest and PC versions of the game, meaning all players will need to be on the latest version.
+Multiplayer now has the compatibility for cross-play between Quest and PC versions of the game, meaning all players will
+need to be on the latest version.
 Additionally, modifying the game on Quest disables official multiplayer.
 
 The BeatTogether mod is the current solution for cross-platform play between the modded game versions. Join their

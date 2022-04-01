@@ -8,14 +8,18 @@ A list of other communities outside of the Beat Saber Modding Group.
 ---
 
 ## 115 Guild
-A community for all accuracy related discussions and events. Whether you want to show off and compare your skills or seek to improve and learn, everyone is welcome! We also have an accuracy campaign for earning ranks in the server, how far can you get?
+A community for all accuracy related discussions and events. Whether you want to show off and compare your skills or seek
+to improve and learn, everyone is welcome! We also have an accuracy campaign for earning ranks in the server, how far
+can you get?
 
 [Discord](https://discord.gg/j8m8cxr)
 
 ---
 
 ## Acc Champ Community
-We are an Acc focused community that plans to be the new hub for Acc related events, training, and a new ranking system to help give specific info on each player's strengths and weaknesses in Acc categories. We also hold a custom campaign for those wanting to test their acc abilities against difficult requirements.
+We are an Acc focused community that plans to be the new hub for Acc related events, training, and a new ranking system
+to help give specific info on each player's strengths and weaknesses in Acc categories. We also hold a custom campaign
+for those wanting to test their acc abilities against difficult requirements.
 
 [Discord](https://discord.gg/zd8W4rr)
 
@@ -83,7 +87,8 @@ This is a place to discuss the mod and follow its progress and releases!
 ---
 
 ## ChroMapper
-ChroMapper is a community maintained map editor for Beat Saber. Built from the ground up, ChroMapper brings Beat Saber mapping to the next level with new visuals, graphics, and tools.
+ChroMapper is a community maintained map editor for Beat Saber. Built from the ground up, ChroMapper brings Beat Saber
+mapping to the next level with new visuals, graphics, and tools.
 
 [Discord](https://discord.gg/mMzzNSh) | [GitHub](https://www.github.com/Caeden117/ChroMapper)
 

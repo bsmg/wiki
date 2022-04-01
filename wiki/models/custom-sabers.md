@@ -7,14 +7,15 @@ a saber is for by the file extension. `.saber` files are for PC while Quest uses
 :::
 
 ### PC Sabers
-The latest mod for Custom Sabers is now called Saber Factory, and can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord
-or in [Mod Assistant](https://github.com/Assistant/ModAssistant). Run Mod Assistant, select the Saber Factory mod,
-and click Install. Once you've installed it you will see a folder called `CustomSabers` in
+The latest mod for Custom Sabers is now called Saber Factory, and can be found in the [#pc-mods channel](https://discord.gg/beatsabermods)
+in the BSMG Discord or in [Mod Assistant](https://github.com/Assistant/ModAssistant). Run Mod Assistant, select the Saber
+Factory mod, and click Install. Once you've installed it you will see a folder called `CustomSabers` in
 [your install folder](/faq/install-folder.md), this is where you should place the `*.saber` files you want to use.
 
 You can download more sabers on [ModelSaber](https://modelsaber.com/Sabers/).
 
-For those who want a simple custom saber mod, the Custom Sabers mod is still being updated by Nalulululuna, and can be found [here](https://twitter.com/nalulululuna/status/1493263219485405184).
+For those who want a simple custom saber mod, the Custom Sabers mod is still being updated by Nalulululuna, and can be
+found [here](https://twitter.com/nalulululuna/status/1493263219485405184).
 
 ### Quest Sabers
 Custom Sabers for Quest are provided by the Qosmetics mod. The latest version can be found in the

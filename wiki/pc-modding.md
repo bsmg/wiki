@@ -165,7 +165,8 @@ is malware or not, ***please ask someone in our discord***.
 
 ## Downgrading
 
-Check `#modding-announcements` in [BSMG](https://www.discord.gg/beatsabermods) to see if the latest version is moddable. If it is not, you can follow these tutorials to downgrade to a moddable version. 
+Check `#modding-announcements` in [BSMG](https://www.discord.gg/beatsabermods) to see if the latest version is moddable.
+If it is not, you can follow these tutorials to downgrade to a moddable version.
 
 Click on these links corresponding to where you own the game to see the tutorials.
 

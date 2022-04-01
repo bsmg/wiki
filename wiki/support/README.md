@@ -13,7 +13,8 @@ sidebar: auto
 5. [Still Having Issues](#_5-still-having-issues)
 
 ## 0. Updates
-After an update, the BSMG discord [#modding-announcements](https://discord.com/channels/441805394323439646/612468002243477505) channel should have the most up to date information
+After an update, the BSMG discord [#modding-announcements](https://discord.com/channels/441805394323439646/612468002243477505)
+channel should have the most up to date information
 on the status of mods. The following are more detailed instructions of the most common procedure.
 
 ### Update broke my mods
