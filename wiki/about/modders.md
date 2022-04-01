@@ -251,7 +251,7 @@ does things sometimes ????
 [GitHub](https://github.com/raftario)
 
 ## Raine
-dumb girl who writes weird code, decided to rewrite ModelSaber
+girl who writes weird code, decided to rewrite ModelSaber
 
 **Roles:** Modder
 **Contrributions:** ScoreRequirement, updated/rewrote CustomMenuPointers

@@ -66,9 +66,9 @@ for the current game version.
 ### Installing BMBF with SideQuest
 If you haven't already, download and setup [SideQuest](https://sidequestvr.com/#/setup-howto).
 
-*Note: If you are on iOS, do these steps instead when enabling developer mode:*
-
+:::tip If you are on iOS, on `Step 4: Enable Developer Mode and Reboot` follow this instead
 ![iOSHowTo](~@images/beginners-guide/EnableDevModeIOS.png)
+:::
 
 There are three methods available to obtain BMBF:
 
@@ -94,8 +94,8 @@ First download the [BMBF APK](https://bmbf.dev/stable) on your PC.
 Open SideQuest and connect your Quest to your PC.
 
 If you have a modded game you also need to uninstall it by going into the Apps tab on SideQuest (the waffle icon at the
-the top of the application), selecting the cog wheel next to BeatSaber, and then pressing the UNINSTALL APP button.
-You can then download BeatSaber again from the Quest Store and the game will be on its latest version, completely unmodded.
+the top of the application), selecting the cog wheel next to Beat Saber, and press the `UNINSTALL APP` button.
+You can then download Beat Saber from the Quest Store and the game will be on its latest version, completely unmodded.
 
 Select the `Install APK from folder` button shown below and find the latest BMBF apk you downloaded and click on it, or
 simply drag the BMBF apk into SideQuest.
@@ -125,10 +125,10 @@ Once opened, follow each step in BMBF exactly as you're told to mod your game. O
 [QuestBoard](https://www.questmodding.com/) with [BeastSaber](https://www.bsaber.com) loaded inside of the BMBF app.
 This is where you can download any custom songs available. You can also click the BeatSaver button to download songs too.
 
-After successfully patching your game, you will get a Restore App popup. Just click Close.
+After successfully modding your game, the `Restore App` popup will appear. You can just click `Close`.
 
-When trying to launch BeatSaber after patching it, you will likely get the Restore App popup again. This time, select
-Open App instead (hitting Close again at this point will just do nothing). This warning is more directed to pirated
+When trying to launch Beat Saber after modding it, you will likely get the Restore App popup again. This time, select
+Open App instead (hitting Close at this point will do nothing). This warning is more directed to pirated
 versions of the game so if you're just modding there will likely be no consequences for ignoring it.
 
 ![RestoreApp](~@images/beginners-guide/restoreapp.png)
@@ -352,8 +352,8 @@ If you had mods installed before this, turn them off then on again to reinstall 
 ---
 
 ### BMBF web interface not loading
-If your BMBF Web Interface is not loading, Make sure you are typing the ip from the tools tab in the quest into your browser
-before trying this below
+If your BMBF Web Interface is not loading, Make sure you are typing the ip from the tools tab in the quest into your browser.
+If it still does not load, make sure you are doing the following:
 
 * BMBF is open in the headset
 * There is http:// at the beginning of the link, not https://

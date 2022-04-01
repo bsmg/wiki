@@ -173,7 +173,7 @@ Click on these links corresponding to where you own the game to see the tutorial
 * [Oculus Store](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)
 * For Steam you have a few options to be able to downgrade. These two are supported by [BSLG](https://discord.gg/MrwMx5e).
   * [BSLegacyLauncher](https://www.youtube.com/watch?v=qjNU5aENHRU)
-  * [LegacyInstaller](https://github.com/Goobwabber/LegacyInstaller/blob/main/README.md)
+  * [LegacyInstaller](https://github.com/Goobwabber/LegacyInstaller#readme)
 
 ## How to uninstall mods
 Either remove the dll from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant.

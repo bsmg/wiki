@@ -8,9 +8,9 @@ A list of other communities outside of the Beat Saber Modding Group.
 ---
 
 ## 115 Guild
-A community for all accuracy related discussions and events. Whether you want to show off and compare your skills or seek
-to improve and learn, everyone is welcome! We also have an accuracy campaign for earning ranks in the server, how far
-can you get?
+A community for all accuracy related discussions and events. Whether you want to show off and
+compare your skills or seek to improve and learn, everyone is welcome! We also have an accuracy
+campaign for earning ranks in the server, how far can you get?
 
 [Discord](https://discord.gg/j8m8cxr)
 

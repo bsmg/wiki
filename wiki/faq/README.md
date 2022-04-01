@@ -49,8 +49,8 @@ See [mapping](/mapping/)!
 See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 
 ## Does multiplayer have crossplay?
-Multiplayer now has the compatibility for cross-play between Quest and PC versions of the game, meaning all players will
-need to be on the latest version.
+Cross-play between Quest and PC versions of the game is now available! All players will need to be on the latest version
+for this to work.
 Additionally, modifying the game on Quest disables official multiplayer.
 
 The BeatTogether mod is the current solution for cross-platform play between the modded game versions. Join their
@@ -60,7 +60,7 @@ The BeatTogether mod is the current solution for cross-platform play between the
 Each time the game updates it is possible *(and very likely)* that your existing mods will stop working and need to be updated.
 To make sure your install will not break when the game runs on a new update for the first time, everything
 in the `Plugins` folder is automatically moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins/mods
-in there!** Please do not drag these mods back into the `Plugins` folder is known to cause issues.
+in there!** Please do not drag these mods back into the `Plugins` folder, it is known to cause issues.
 
 To get mods back, simply **run the installer again.**  
 The BeatMods repository only includes mods that have been confirmed to work on the latest version of the game!

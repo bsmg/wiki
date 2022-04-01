@@ -11,7 +11,7 @@ If you want to see us holding more fun events, please consider contributing to t
 ---
 
 ## 2021 Christmas Competition
-The fourth Christmas competition. Now with even more Padoru! (I can't believe it either)
+The fourth Christmas competition. Now with 1000% more Padoru!
 
 [Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/924057004618678292)
 
@@ -31,12 +31,13 @@ The fourth Christmas competition. Now with even more Padoru! (I can't believe it
 
 ### Model Winners
 
-* **1st:** PC Saber [T-Winter](x) by **Tru**
-* **2nd:** PC Saber [Bush Noel](x) by **ToxicBush**
+* **1st:** PC Saber [T-Winter](https://www.mediafire.com/file/u8ragfzeanjx6ce/T-Winter_.saber/file) by **Tru**
+* **2nd:** PC Saber [Bush Noel](https://drive.google.com/file/d/18JiBXIpdTWY_TEud7OBfllhBDA-X6Dp0/view?usp=sharing) by **ToxicBush**
 
 And for the first time there was a tie for 3rd!
 
-* **3rd:** Quest Saber [Silent Knight](x) by **Knight** and Platform [Snow Forest](x) by **Toni Macaroni**
+* **3rd:** Quest Saber [Silent Knight](https://drive.google.com/file/d/1OSVWA2DnVwbbIx9rWpF361mCUuAO2dtj/view?usp=sharing)
+by **Knight** and Platform [Snow Forest](https://tonihub.com/SnowForest.zip) by **Toni Macaroni**
 
 ### Grand Prize Winner
 
@@ -47,7 +48,7 @@ Congrats to all the finalists!
 ---
 
 ## 2021 Halloween Competition
-The fourth Halloween contest. Even CMB got in the Halloween spirit by turning into a pumpkin!
+The fourth Halloween contest. CMB turned into a pumpkin!
 
 [Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/904113909131247729)
 
