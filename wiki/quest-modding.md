@@ -28,19 +28,6 @@ outdated or contain incomplete, erroneous, or straight up incorrect information.
 Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
 :::
 
-## Downgrading
-Check `#modding-announcements` in [BSMG](https://www.discord.gg/beatsabermods) to see if modding on the latest version
-of the game is possible. If mods are not updated for the latest version, you will need to downgrade to be able to mod.
-
-The easiest method to get to the right version, is to go to the [QuestModding](https://www.questmodding.com/) page, click
-on How To Downgrade tab, and follow the steps.
-
-With these steps done, you can now start modding your game!
-
-::: tip Something not working?
-Go to the [BSLG Discord](https://discord.gg/MrwMx5e) for help.
-:::
-
 ## Installation
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with [SideQuest using a PC](#installing-bmbf-with-sidequest).
 
@@ -66,9 +53,9 @@ for the current game version.
 ### Installing BMBF with SideQuest
 If you haven't already, download and setup [SideQuest](https://sidequestvr.com/#/setup-howto).
 
-:::tip If you are on iOS, on `Step 4: Enable Developer Mode and Reboot` follow this instead
+**Note:** If you are on iOS, for `Step 4: Enable Developer Mode and Reboot` follow these steps instead
+
 ![iOSHowTo](~@images/beginners-guide/EnableDevModeIOS.png)
-:::
 
 There are three methods available to obtain BMBF:
 
@@ -284,6 +271,19 @@ Mapping Wiki section for steps on packing it up for testing!
 
 ## Installing Models
 Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your sabers, bloqs or walls look in-game!
+
+## Downgrading
+Check `#modding-announcements` in [BSMG](https://www.discord.gg/beatsabermods) to see if modding on the latest version
+of the game is possible. If mods are not updated for the latest version, you will need to downgrade to be able to mod.
+
+The easiest method to get to the right version, is to go to the [QuestModding](https://www.questmodding.com/) page, click
+on How To Downgrade tab, and follow the steps.
+
+With these steps done, you can now start modding your game!
+
+::: tip Something not working?
+Go to the [BSLG Discord](https://discord.gg/MrwMx5e) for help.
+:::
 
 ## Useful Links
 

@@ -165,7 +165,7 @@ he hates that. He also makes maps, check them out below.
 [Twitch](https://twitch.tv/justsamuelok) | [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850326)
 
 ## williums (Retired)
-Project manager, wiki maintainer, bread baker. Despite what everyone says, I like girls. (this statement is false)
+Project manager, wiki maintainer, bread baker. Despite what everyone says, I like girls.
 
 **Roles:** Staff, Support  
 **Contributions:** Wiki Management, Moderation, Contest Management, BeatMods Approvals
