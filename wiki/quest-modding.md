@@ -291,6 +291,7 @@ Go to the [BSLG Discord](https://discord.gg/MrwMx5e) for help.
   sabers, bloqs, walls, and more for Quest.
 * [Qosmetics Creation Guides](https://github.com/RedBrumbler/Qosmetics/wiki) - Guides to create your own custom
   sabers, bloqs, and walls for Quest.
+* [Beat Saber Quest Modding Guide](https://bsqmg.cal117.me/) - Guides on how to create your own mods for Quest.
 * [QuestBoard website](https://questmodding.com) - A place to get Beat Saber related news and info along with the latest
   mods releases!
 * [QuestBoard Discord server](https://discord.gg/P7sUKVnP) - A quest community to hangout and talk about Beat Saber
