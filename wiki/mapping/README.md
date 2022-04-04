@@ -37,8 +37,7 @@ is provide you the tools with this wiki and clarify any questions you have to su
 
 1. Download the necessary tools for mapping: an [audio editor](https://www.audacityteam.org/) and a [map editor](#map-editing-resources).
 2. [Set up your audio file](#audio-editing-resources), find and confirm the BPM, and export in OGG format.
-3. Set up your song in your mapping editor (steps vary by editor but here's the
-  [user guide](./mediocre-map-assistant.md) for MMA2).
+3. Set up your song in your [mapping editor](#map-editing-resources) (steps vary by editor).
 4. Get mapping! Review [basic mapping practices](./basic-mapping.md) before you start.
   [Playtest](#playtesting) your own work early and often while mapping.
 5. Get lighting! Review [basic lighting information](#lighting-practices). Simple manual lighting is easier than you think!
