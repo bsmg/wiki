@@ -92,7 +92,7 @@ Ended up maintaining a wild variety of mods after adopting them from their origi
 [GitHub](https://github.com/erisapps) | [Donate with Patreon](https://www.patreon.com/erisapps) | [Donate with Ko-fi](https://ko-fi.com/erisapps)
 
 ## Exomanz
-Note to self: don't forget to add your description.
+Note: don't forget to add their description.
 
 **Roles:** Modder
 **Contributions:** UITweaks, MenuSaberColors
