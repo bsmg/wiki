@@ -91,6 +91,14 @@ Ended up maintaining a wild variety of mods after adopting them from their origi
 
 [GitHub](https://github.com/erisapps) | [Donate with Patreon](https://www.patreon.com/erisapps) | [Donate with Ko-fi](https://ko-fi.com/erisapps)
 
+## Exomanz
+Rainbows? Rainbows.
+
+**Roles:** Modder
+**Contributions:** UITweaks, MenuSaberColors
+
+[GitHub](https://github.com/Exomanz) | [Donate](https://ko-fi.com/exo_manz)
+
 ## Goobie
 Maintainer of the mods that help you play with friends the right way.
 Considers herself best girl but thinks that Zenject needs more simps instead.
