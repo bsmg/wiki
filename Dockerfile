@@ -1,7 +1,8 @@
-# syntax = docker/dockerfile:1.3
+# syntax = docker/dockerfile:1.4
 FROM node:16-alpine AS builder
 
 # Create app directory
+RUN apk add --no-cache git
 WORKDIR /usr/app
 
 # Install app dependencies
