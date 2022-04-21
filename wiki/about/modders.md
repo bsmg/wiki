@@ -267,10 +267,12 @@ girl who writes weird code, decided to rewrite ModelSaber
 [GitHub](https://github.com/sponsors/raineio), [Ko-Fi](https://ko-fi.com/rainymods)
 
 ## RedBrumbler
-Ever used Custom sabers for quest? this guy made the mod for that.
+It's pronounced Cosmetics, but spelled with a Q.
+
+Sabers, Bloqs, Walls, you use em, I make em work.
 
 **Roles:** Modder, Support, 3D Artists
-**Contributions:** Qosmetics, Custom Pillows (quest), Inverted arrows, AntiVertigo
+**Contributions:** Qosmetics, Custom Pillows (quest), Inverted arrows, AntiVertigo, Scribble, Songbrowser
 
 [GitHub](https://github.com/RedBrumbler) | [PayPal](https://paypal.me/RedBrumblerOfficial) | [Patreon](https://www.patreon.com/Qosmetics)
 
