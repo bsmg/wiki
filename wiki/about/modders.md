@@ -383,7 +383,6 @@ Girl who makes AI stuff and streams with her cats. Creator of JDFixer, AccessAbi
 
 [GitHub](https://github.com/zeph-yr) | [Twitch](https://www.twitch.tv/xeph_yr)
 
-
 ---
 
 ::: tip See Also
