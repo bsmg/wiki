@@ -412,7 +412,7 @@ It’s best to steer clear of these until you’re much more comfortable with ma
 #### Face Punchers
 | Editor View | Exaplanation |
 |:----:|:---- |
-| ![Editor view of a face puncher](~@images/mapping/facepuncher-alt.png) | Face punchers are blocks placed in the opposite top corners pointing outwards. This placement requires the player to perform a large crossover in a direction that potentially causes their controllers to smash into their headset. <br></br> **Never** use a double of face punchers. |
+| ![Editor view of a face puncher](~@images/mapping/facepuncher-alt.png) | Face punchers are blocks placed in the opposite top corners pointing outwards. This placement requires the player to perform a large crossover in a direction that potentially causes their controllers to smash into their headset. <br /> **Never** use a double of face punchers. |
 
 ## Gauging Difficulty & Down-Mapping
 

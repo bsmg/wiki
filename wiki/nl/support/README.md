@@ -253,7 +253,7 @@ Hier is een [video gids](https://www.youtube.com/watch?v=EBFfT4-ZiIc), hoewel de
 
 ### Het verwijderen van je bestanden in AppData
 Dit zal je scores en lokale data verwijderen, maar niet je Custom levels scorebord / ScoreSaber statistieken. Je kan de map vinden in:
-> `<code>%appdata%/../locallow/hyperbolic magnetism/beat saber`</code>
+> `%appdata%/../locallow/hyperbolic magnetism/beat saber`
 
 Kopieer alles van de bovenstaande pad, plak het in de adresbalk in van jouw bestandsverkenner en verwijder het.
 
