@@ -1,20 +1,35 @@
-const path = require('path')
+import { viteBundler } from '@vuepress/bundler-vite'
+import { containerPlugin } from '@vuepress/plugin-container'
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { path } from '@vuepress/utils'
+import { resolve } from 'path'
+import { defaultTheme, defineUserConfig, type SidebarConfigArray } from 'vuepress'
+import { sitemapPlugin as sitemap, type sitemap as Sitemap } from 'vuepress-plugin-sitemap2'
 
-/**
- * @param {string} title Sidebar Title
- * @param {string[]} routes Routes
- * @param {boolean} [collapsable] Collapsible Title
- * @returns {{}}
- */
-function generateSidebar(title, routes, collapsable = false) {
-  return [{
-    title,
-    collapsable,
-    children: routes,
-  }]
-}
+const sitemapPlugin = sitemap as unknown as typeof Sitemap
+const isProd = process.env.NODE_ENV === 'production'
 
-module.exports = {
+const generateSidebar: (
+  link: string,
+  title: string,
+  routes: string[],
+  collapsible?: boolean
+) => SidebarConfigArray = (link, title, routes, collapsible = false) => [{
+  text: title,
+  link,
+  collapsible,
+  children: [
+    link,
+    ...routes.map(r => `${link}${r}.md`),
+  ],
+}]
+
+export default defineUserConfig({
+  title: 'BSMG Wiki',
+
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['meta', { name: 'theme-color', content: '#2196f3' }],
@@ -43,48 +58,27 @@ module.exports = {
     },
   },
 
-  markdown: {
-    extendMarkdown: md => {
-      md.use(require('markdown-it-task-lists'))
-    }
-  },
-
-  theme: 'yuu',
-  themeConfig: {
-    yuu: {
-      defaultColorTheme: 'blue',
-    },
-
+  theme: defaultTheme({
     repo: 'bsmg/wiki',
     docsDir: 'wiki',
-    editLinks: true,
-
-    displayAllHeaders: true,
-
-    algolia: {
-      appId: 'MDQBBYI18P',
-      apiKey: '0f36f096b83770eae78115f2d88bd394',
-      indexName: 'bsmg',
-      algoliaOptions: {
-        hitsPerPage: 9,
-      },
-    },
+    docsBranch: 'master',
+    editLink: true,
+    contributors: false,
 
     locales: {
       '/': {
-        selectText: '🌐 English',
-        label: 'English',
-        ariaLabel: 'Languages',
+        selectLanguageText: '🌐 English',
+        selectLanguageName: 'English',
+        selectLanguageAriaLabel: 'Languages',
         editLinkText: 'Help improve this page!',
-        lastUpdated: 'Last Updated',
-        nav: [
+        lastUpdatedText: 'Last Updated',
+        navbar: [
           { text: 'Home', link: '/' },
           { text: 'Beginners Guide', link: '/beginners-guide.md' },
           { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
         ],
         sidebar: {
-          '/about/': generateSidebar('About', [
-            '',
+          '/about/': generateSidebar('/about/', 'About', [
             'staff',
             'moderators',
             'modders',
@@ -93,17 +87,14 @@ module.exports = {
             '3d-artists',
             'translators',
           ]),
-          '/faq/': generateSidebar('FAQ', [
-            '',
+          '/faq/': generateSidebar('/faq/', 'FAQ', [
             'install-folder',
           ]),
-          '/modding/': generateSidebar('Modding', [
-            '',
+          '/modding/': generateSidebar('/modding/', 'Modding', [
             'intro',
             'linux',
           ]),
-          '/models/': generateSidebar('3D Models', [
-            '',
+          '/models/': generateSidebar('/models/', '3D Models', [
             'custom-sabers',
             'custom-avatars',
             'custom-platforms',
@@ -113,18 +104,17 @@ module.exports = {
         },
       },
       '/fr/': {
-        selectText: '🌐 Français',
-        label: 'Français',
+        selectLanguageText: '🌐 Français',
+        selectLanguageName: 'Français',
         editLinkText: 'Aidez à améliorer cette page !',
-        lastUpdated: 'Dernière mise à jour',
+        lastUpdatedText: 'Dernière mise à jour',
         nav: [
           { text: 'Accueil', link: '/fr/' },
           { text: 'Guide du Débutant', link: '/fr/beginners-guide.md' },
           { text: 'Discord BSMG', link: 'https://discord.gg/beatsabermods' },
         ],
         sidebar: {
-          '/fr/about/': generateSidebar('À propos', [
-            '',
+          '/fr/about/': generateSidebar('/fr/about/', 'À propos', [
             'staff',
             'moderators',
             'modders',
@@ -133,17 +123,14 @@ module.exports = {
             '3d-artists',
             'translators',
           ]),
-          '/fr/faq/': generateSidebar('FAQ', [
-            '',
+          '/fr/faq/': generateSidebar('/fr/faq/', 'FAQ', [
             'install-folder',
           ]),
-          '/fr/modding/': generateSidebar('Modding', [
-            '',
+          '/fr/modding/': generateSidebar('/fr/modding/', 'Modding', [
             'intro',
             'linux',
           ]),
-          '/fr/models/': generateSidebar('Modèles 3D', [
-            '',
+          '/fr/models/': generateSidebar('/fr/models/', 'Modèles 3D', [
             'custom-sabers',
             'custom-avatars',
             'custom-platforms',
@@ -152,18 +139,17 @@ module.exports = {
         },
       },
       '/de/': {
-        selectText: '🌐 Deutsch',
-        label: 'Deutsch',
+        selectLanguageText: '🌐 Deutsch',
+        selectLanguageName: 'Deutsch',
         editLinkText: 'Hilf uns die Seite zu verbessern!',
-        lastUpdated: 'Zuletzt aktualisiert am',
+        lastUpdatedText: 'Zuletzt aktualisiert am',
         nav: [
           { text: 'Startseite', link: '/de/' },
           { text: 'Anfänger Guide', link: '/beginners-guide.md' },
           { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
         ],
         sidebar: {
-          '/de/about/': generateSidebar('Über uns', [
-            '',
+          '/de/about/': generateSidebar('/de/about/', 'Über uns', [
             'staff',
             'moderators',
             'modders',
@@ -172,17 +158,14 @@ module.exports = {
             '3d-artists',
             'translators',
           ]),
-          '/de/faq/': generateSidebar('FAQ', [
-            '',
+          '/de/faq/': generateSidebar('/de/faq/', 'FAQ', [
             'install-folder',
           ]),
-          '/de/modding/': generateSidebar('Modding', [
-            '',
+          '/de/modding/': generateSidebar('/de/modding/', 'Modding', [
             'intro',
             'linux',
           ]),
-          '/de/models/': generateSidebar('3D Modelle', [
-            '',
+          '/de/models/': generateSidebar('/de/models/', '3D Modelle', [
             'custom-sabers',
             'custom-avatars',
             'custom-platforms',
@@ -192,18 +175,17 @@ module.exports = {
         },
       },
       '/nl/': {
-        selectText: '🌐 Nederlands',
-        label: 'Nederlands',
+        selectLanguageText: '🌐 Nederlands',
+        selectLanguageName: 'Nederlands',
         editLinkText: 'Help deze pagina te verbeteren!',
-        lastUpdated: 'Laatste keer bijgewerkt',
+        lastUpdatedText: 'Laatste keer bijgewerkt',
         nav: [
           { text: 'Hoofdmenu', link: '/nl/' },
           { text: 'Gids voor beginners', link: '/nl/beginners-guide.md' },
           { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
         ],
         sidebar: {
-          '/nl/about/': generateSidebar('Over ons', [
-            '',
+          '/nl/about/': generateSidebar('/nl/about/', 'Over ons', [
             'staff',
             'moderators',
             'modders',
@@ -212,17 +194,14 @@ module.exports = {
             '3d-artists',
             'translators',
           ]),
-          '/nl/faq/': generateSidebar('Veel Gestelde Vragen', [
-            '',
+          '/nl/faq/': generateSidebar('/nl/faq/', 'Veel Gestelde Vragen', [
             'install-folder',
           ]),
-          '/nl/modding/': generateSidebar('Modding', [
-            '',
+          '/nl/modding/': generateSidebar('/nl/modding/', 'Modding', [
             'intro',
             'linux',
           ]),
-          '/nl/models/': generateSidebar('3D modellen', [
-            '',
+          '/nl/models/': generateSidebar('/nl/models/', '3D modellen', [
             'custom-sabers',
             'custom-avatars',
             'custom-platforms',
@@ -232,18 +211,17 @@ module.exports = {
         },
       },
       '/ja/': {
-        selectText: '🌐 日本語',
-        label: '日本語',
+        selectLanguageText: '🌐 日本語',
+        selectLanguageName: '日本語',
         editLinkText: '言語このページの改善にご協力ください!',
-        lastUpdated: '最終更新日',
+        lastUpdatedText: '最終更新日',
         nav: [
           { text: 'ホーム', link: '/ja/' },
           { text: '初心者ガイド', link: '/ja/beginners-guide.md' },
           { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
         ],
         sidebar: {
-          '/ja/about/': generateSidebar('私たちについて', [
-            '',
+          '/ja/about/': generateSidebar('/ja/about/', '私たちについて', [
             'staff',
             'moderators',
             'modders',
@@ -252,17 +230,14 @@ module.exports = {
             '3d-artists',
             'translators',
           ]),
-          '/ja/faq/': generateSidebar('よくある質問', [
-            '',
+          '/ja/faq/': generateSidebar('/ja/faq/', 'よくある質問', [
             'install-folder',
           ]),
-          '/ja/modding/': generateSidebar('Mod作成ガイド', [
-            '',
+          '/ja/modding/': generateSidebar('/ja/modding/', 'Mod作成ガイド', [
             'intro',
             'linux',
           ]),
-          '/ja/models/': generateSidebar('3Dモデル', [
-            '',
+          '/ja/models/': generateSidebar('/ja/models/', '3Dモデル', [
             'custom-sabers',
             'custom-avatars',
             'custom-platforms',
@@ -271,51 +246,50 @@ module.exports = {
         },
       },
     },
-  },
+  }),
+
   plugins: [
-    ['@vuepress/last-updated', {
-      transformer: timestamp => {
-        const dateformat = require('dateformat')
-        return dateformat(timestamp, 'yyyy/mm/dd hh:MM:ss TT')
+    // TODO: SEO, Smooth Scroll
+    sitemapPlugin({
+      hostname: 'https://bsmg.wiki/',
+    }),
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, 'components')
+    }),
+    mediumZoomPlugin({
+      zoomOptions: {
+        margin: 16,
       },
-    }],
-    ['@vuepress/medium-zoom', {
-      options: {
-        margin: 8,
-        background: '#21253073',
-      },
-    }],
-    '@vuepress/nprogress',
-    ['container', {
+    }),
+    containerPlugin({
       type: 'feature',
       before: info => `<div class="feature"><h2>${info}</h2>`,
-      after: '</div>',
-    }],
-    ['container', {
+      after: () => '</div>',
+    }),
+    containerPlugin({
       type: 'align',
       before: align => `<div align="${align}">`,
-      after: '</div>',
-    }],
-    ['named-chunks', {
-      pageChunkName: ({ key }) => `page${key.slice(1)}`,
-      layoutChunkName: ({ componentName }) => `layout-${componentName}`,
-    }],
-    ['sitemap', {
-      hostname: 'https://bsmg.wiki/'
-    }],
-    ['seo', {
-      customMeta: (add, context) => {
-        const [_, { title }] = Object.entries(context.$site.locales).find(([key, value]) => key === context.$page._localePath)
-        add('og:site_name', title)
-      },
-    }],
-    'smooth-scroll',
+      after: () => '</div>',
+    }),
+
+    isProd
+      ? docsearchPlugin({
+        appId: 'MDQBBYI18P',
+        apiKey: '0f36f096b83770eae78115f2d88bd394',
+        indexName: 'bsmg',
+      })
+      : searchPlugin({
+
+      })
   ],
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@images': path.resolve(__dirname, '../.assets/images'),
+
+  bundler: viteBundler({
+    viteOptions: {
+      resolve: {
+        alias: {
+          '@images': resolve(__dirname, '../.assets/images'),
+        }
       },
     },
-  },
-}
+  }),
+})

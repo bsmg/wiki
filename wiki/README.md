@@ -1,6 +1,5 @@
 ---
 home: true
-title: BSMG Wiki
 heroText: BSMG Wiki
 tagline: Welcome to the Beat Saber Modding Group Wiki!
 description: Welcome to the Beat Saber Modding Group Wiki!
