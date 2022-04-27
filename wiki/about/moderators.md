@@ -46,13 +46,6 @@ All they can say is that the R in Kuru stands for Rat
 
 **Roles:** Moderator
 
-## Olaf
-Any stroopwafels?  
-
-**Roles:** Moderator  
-
-[Twitch](https://twitch.tv/olafstad)
-
 ## RangeValley
 > My dad worked for years as an admin, but he got laid off when bots took over. He came home that night and told me we
 > had to move into the van, since we couldn't afford rent anymore, then he beat the shit out of me with jumper cables.
@@ -114,6 +107,13 @@ Can't hit jumps
 **Roles:** Moderator
 
 [Twitch](https://www.twitch.tv/infjager)
+
+## Olaf (Retired)
+Any stroopwafels?  
+
+**Roles:** Moderator  
+
+[Twitch](https://twitch.tv/olafstad)
 
 ## OneEyed (Retired)
 :emoji:
