@@ -148,14 +148,13 @@ Longtime server member and active contributor. She was the server mom!
 [Twitch](https://www.twitch.tv/klouderrr) | [Donate](https://streamlabs.com/klouderrr)
 
 ## Lillie (Retired)
-She was early in the quest modding scene, and helped shape the quest scene.  
+She was early in the quest modding scene, and helped shape the quest scene. 
 Often active in the quest-modding channel, and liked to experiment with the game.
 
 **Roles:** Staff, Modder, Moderator
 **Contributions:** QuestSounds, QSettings+, FPSCounter
 
 [GitHub](https://github.com/ilillie)
-
 
 ## Sam (Retired)
 He's either talking about Steven or being way too patriotic in chat (BS Nordic Admin btw). Don't call him cute,
