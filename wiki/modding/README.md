@@ -1,8 +1,10 @@
 # Making Mods
 
-:::warning This guide is for the creation of PC mods, for infomation on how to create quest mods, see the [Beat Saber Quest Modding Guide](https://bsqmg.cal117.me/)
+:::warning This guide is for the creation of PC mods, for infomation on how to create quest mods, 
+see the [Beat Saber Quest Modding Guide](https://bsqmg.cal117.me/)
 
-You can also ask for help in the `#quest-mod-dev` channel on the [BSMG disccord.](https://discord.gg/beatsabermods) :::
+You can also ask for help in the `#quest-mod-dev` channel on the 
+[BSMG disccord.](https://discord.gg/beatsabermods) :::
 
 ## Injecting Mods
 Beat Saber _**does not**_ have built in mod support.
