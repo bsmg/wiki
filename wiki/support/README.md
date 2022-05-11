@@ -193,7 +193,7 @@ Alternatively you can manually convert them using [Song Converter](https://githu
 
 #### 3.7 Grayed Out Play Button
 Click the shiny blue question mark (?) button in the top right corner. This should tell you what mods are required to
-y the song, which you are missing and should install. If it is still not working, try re-installing the required mod.
+play the song, which you are missing and should install. If it is still not working, try re-installing the required mod.
 Otherwise try a [Clean Install](#clean-installation).
 
 #### 3.8 Map details are infinitely loading
