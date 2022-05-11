@@ -6,7 +6,7 @@ tagline: Beat Saber Modding Group Wiki へようこそ!
 description: Beat Saber Modding Group Wiki へようこそ!
 actionText: 初心者向けガイド →
 actionLink: ./beginners-guide.md
-footer: Copyright © 2019-2021 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
+footer: Copyright © 2019-2022 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
 tags:
   - bsmg
   - beat saber
@@ -54,12 +54,23 @@ tags:
 * [Discordサーバーに参加する](https://discord.gg/beatsabermods)
 * [お問い合わせ](https://bsmg.dev/contact) スキルを提供したい、スポンサーになりたい、サーバー内のユーザーのミュート、Ban、報告など、その他問い合わせ
 * [BSMG Patreon](https://www.patreon.com/beatsabermods) - BSMGサービスを支援して下さい!
+
+---
+
 * [BeatMods](https://beatmods.com) - ModAssistantのようなインストーラーに反映されるPC用MODが保管されています
 * [BeatSaver](https://beatsaver.com/) - カスタムソングのダウンロード
 * [BeastSaber](https://bsaber.com/) - レビュー、記事、プレイリストなど！
 * [ModelSaber](https://modelsaber.com/) - PCのカスタムセーバー、アバター、ブロック、およびプラットフォームがダウンロードできます！
+
+---
+
 * [Qosmetics Discord](https://discord.gg/qosmetics) - Quest用のカスタムセイバー、壁、ブロックがダウンロードできます！
-* [ScoreSaber](https://scoresaber.com/) - カスタムマップのランキング
-* [Apply to Help Translate the Wiki!](https://forms.gle/e3BqA3poMjESARe76) - あなたの言語にこのwikiを翻訳しましょう！
+* [QuestBoard Hub](https://discord.gg/d6DyW9v) - QuestBeatSaberについてのすべてのもののためのDiscord!
+* [ScoreSaber](https://scoresaber.com/) - カスタムソングのランキング
 * [Steamストアページ](https://store.steampowered.com/app/620980/Beat_Saber/)
 * [Oculus ストアページ](https://www.oculus.com/experiences/rift/1304877726278670/)
+
+---
+
+* [wiki作成に協力する](https://docs.google.com/document/d/1r6IP6l3uo8rc__GxfLkpaToxheeXotdYaKEj3oWB2js/edit?usp=sharing) - wikiへの書き込みの方法
+* [Wikiの翻訳はこちら](https://forms.gle/e3BqA3poMjESARe76) - このwikiを翻訳しましょう！

@@ -46,7 +46,10 @@ Mod managerに似たシンプルなBeat Saber Modインストーラですが、M
 ![Mod Assistant](~@images/beginners-guide/modassistant.png)
 
 ## どうすればカスタム曲を追加できますか？
-::: tip 譜面の探し方 「すべての曲から」「レート順」「ダウンロード数」「プレイ数」によってソートできます。ここにあるほとんどの曲は「よいマップの作り方ガイド」ができる前に作られたものです。 2019年後半から今の間にリリースされた曲をダウンロードして、最高の カスタムマップを体験してみてください。 :::
+::: tip 譜面の探し方
+「すべての曲から」「レート順」「ダウンロード数」「プレイ数」によってソートできます。ここにあるほとんどの曲は「よいマップの作り方ガイド」ができる前に作られたものです。 2019年後半から今の間にリリースされた曲をダウンロードして、最高の
+カスタムマップを体験してみてください。
+:::
 
 ::: warning 定期的に `CustomLevels` フォルダのバックアップをしておくことをお勧めします。アップデートによってリセットされたときに役に立つ可能性があります。
 
@@ -115,13 +118,24 @@ ModインストーラはModをインストールするための推奨方法で�
 4. GitHub、[BSMG Discord](https://discord.com/invite/beatsabermods)の `#pc-mods` チャンネル、 [BeatMods](https://beatmods.com/#/mods)もしくはそのほかのソースから望みのModをダウンロードしてください。 **Modに必要な環境を確認してからダウンロードしてください。** ![Directory Plugins](~@images/beginners-guide/directory-plugins.png "Directory Plugins")
 5. 特別なインストール方法があるものもあれば、そうでないものもあります。 一般的に、zipコンテンツをビートセイバーのインストールフォルダにドラッグ&ドロップするだけで、ファイルは対応するフォルダに移動します。
 
+## ダウングレード
+
+[BSMG](https://www.discord.gg/beatsabermods)の`#modding-announcements`チャンネルで最新バージョンがModに対応しているかを確認してください。 そうでない場合は、次の手順に従ってMod対応可能なバージョンに落とすことができます。
+
+ゲームを購入した方法によって手順が異なります。
+
+* [Oculus ストア](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)
+* Steam版にはダウングレードする方法がいくつかあります。 これら2つは [BSLG](https://discord.gg/MrwMx5e) でサポートされています。
+  * [BSLegacyLauncher](https://www.youtube.com/watch?v=qjNU5aENHRU)
+  * [LegacyInstaller](https://github.com/Goobwabber/LegacyInstaller#readme)
+
 ## Modをアンインストールする方法
 `Plugins` フォルダから dll を削除するか、Mod Assistantの `Uninstall` ボタンをクリックします。
 
 ## より多くのことが知りたい方へ
 
 * [持ち方とコツ](./grips-and-tricks.md)
-* [譜面作成](/ja/mapping/)
+* [マッピング](/ja/mapping/)
 * [カスタムセイバー](/ja/models/custom-sabers.md)
 * [カスタムアバター](/ja/models/custom-avatars.md)
 * [カスタムプラットフォーム](/ja/models/custom-platforms.md)
