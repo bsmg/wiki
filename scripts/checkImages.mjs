@@ -1,7 +1,11 @@
-const path = require('path')
-const byteSize = require('byte-size')
-const globby = require('globby')
-const { underline, grey, red } = require('kleur')
+import byteSize from 'byte-size'
+import { globby } from 'globby'
+import kleur from 'kleur'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const { underline, grey, red } = kleur
 
 // 1MiB
 const MAX_IMAGE_SIZE = 1024 ** 2

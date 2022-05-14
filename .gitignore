@@ -26,7 +26,9 @@ node_modules
 wiki/.vuepress/dist
 
 # Temp files for dev build
-.temp
+.temp/
+wiki/.vuepress/.cache
+wiki/.vuepress/.temp
 
 # Visual Studio-created directory for... something?
 /.vs
