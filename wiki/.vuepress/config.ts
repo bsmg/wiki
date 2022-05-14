@@ -7,9 +7,8 @@ import { searchPlugin } from '@vuepress/plugin-search'
 import { path } from '@vuepress/utils'
 import { resolve } from 'path'
 import { defaultTheme, defineUserConfig, type SidebarConfigArray } from 'vuepress'
-import { sitemapPlugin as sitemap, type sitemap as Sitemap } from 'vuepress-plugin-sitemap2'
+import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
 
-const sitemapPlugin = sitemap as unknown as typeof Sitemap
 const isProd = process.env.NODE_ENV === 'production'
 
 const generateSidebar: (
