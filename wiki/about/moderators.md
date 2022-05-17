@@ -10,6 +10,11 @@ Fellow crippling Minecraft addict
 
 [Twitter](https://twitter.com/24Kings_Rock) | [Twitch](https://twitch.tv/24Kings) | [GitHub](https://github.com/The24Kings)
 
+## BlueRay
+"Tired at all times"
+
+**Roles:** Moderator
+
 ## Burrito
 Ironically doesn't like burritos, thinks tacos are better (true facts)
 
@@ -30,11 +35,6 @@ Camellia is SourPls
 **Roles:** Mapper, Moderator
 
 [Twitch](https://www.twitch.tv/hydrandvr)
-
-## John
-"Tired at all times"
-
-**Roles:** Moderator
 
 ## Kuru
 All they can say is that the R in Kuru stands for Rat
