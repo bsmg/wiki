@@ -89,10 +89,6 @@ export default defineUserConfig({
           '/faq/': generateSidebar('/faq/', 'FAQ', [
             'install-folder',
           ]),
-          '/modding/': generateSidebar('/modding/', 'Modding', [
-            'intro',
-            'linux',
-          ]),
           '/models/': generateSidebar('/models/', '3D Models', [
             'custom-sabers',
             'custom-avatars',
