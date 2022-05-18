@@ -1,14 +1,17 @@
+---
+sidebar: auto
+description: Learn how to create your own mods!
+---
+
 # Making Mods
 
-:::warning This guide is for making PC mods
-To make mods for the Quest version of the game, visit the [Beat Saber Quest Modding Guide](https://bsqmg.cal117.me/)
-
-You can also ask for help in the `#quest-mod-dev` channel in the [BSMG Discord](https://discord.gg/beatsabermods)
-:::
-
-## Injecting Mods
 Beat Saber _**does not**_ have built in mod support.
 
+Development for [PC](#pc-mod-development) and [Quest standalone](#quest-mod-development) are two vastly different workflows.
+
+## PC Mod Development
+
+### Injecting Mods
 Instead, most mods within the mod installer rely on
 [BSIPA (Beat Saber Illusion Plugin Architecture)](https://github.com/nike4613/BeatSaber-IPA-Reloaded/)
 to inject plugins into the game, as well as providing some useful tools for us modders.
@@ -19,15 +22,15 @@ plugins with the BepInEx plugin API, a generic guide exists on their
 [documentation site](https://bepinex.github.io/bepinex_docs/v5.0/articles/dev_guide/plugin_tutorial/index.html),
 but other than that you're kinda on your own.
 
-## Project Setup
+### Project Setup
 If you are interested in creating a Beat Saber mod, but do not have a template or Visual Studio template set up,
-[follow the Intro guide to get your project all set up](./intro.md).
+[follow the Intro guide to get your project all set up](./pc-mod-dev-intro.md).
 
-### Ready to go?
+#### Ready to go?
 Check out the [links below](#other-links) for documentation relating to Unity and related tooling. If you have any questions,
 the best place to ask is in the `#pc-mod-dev` channel on the [BSMG Discord](https://discord.gg/beatsabermods)
 
-## Launch args
+### Launch args
 Helpful launch arguments that will make modding / debugging easier.
 
 <!-- markdownlint-disable MD013 -->
@@ -38,7 +41,7 @@ Helpful launch arguments that will make modding / debugging easier.
 | `-vrmode oculus` | If you are running Beat Saber through Steam, this allows you to play the game on an Oculus headset. |
 <!-- markdownlint-enable MD013 -->
 
-## Other Links
+### Other Links
 
 * [BeatMods](https://beatmods.com)
 * [BeatMods Approval Guidelines](https://docs.google.com/document/d/15RBVesZdS-U94AvesJ2DJqcnAtgh9E2PZOcbjrQle5Y/edit?usp=sharing)
@@ -46,3 +49,15 @@ Helpful launch arguments that will make modding / debugging easier.
 * [dnSpy](https://github.com/0xd4d/dnSpy)
 * [Harmony](https://github.com/pardeike/Harmony)
 * [Beat Saber IPA](https://bsmg.github.io/BeatSaber-IPA-Reloaded/)
+
+## Quest Mod Development
+
+The following guide covers most of the concepts you will need for creating mods for the Quest. This includes but is not
+limited to:
+
+* Hooking
+* Configuration using `config-utils`
+* Manual configuration
+* User Interfaces using `questui` or `QUC`
+
+Visit the [Quest Mod Development Intro](./quest-mod-dev-intro.md) page for more information on getting started!
