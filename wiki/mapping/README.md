@@ -133,28 +133,17 @@ You may find the [Map Format Page](./map-format.md) and the
 
 ### Official Editor
 The official editor is developed and supported by Beat Games and pre-installed with the Steam VR or Oculus PC versions
-of Beat Saber. It makes playtesting convenient with one-click access to your work-in-progress in-game. The official editor
-is 2D and requires good visualization skills to translate well to a 3D play space, which can be challenging for new
-mappers. The vast majority of mappers use a [Community Editor](#community-editors).  
+of Beat Saber.
 
-* To access, launch the editor from within Beat Saber in your HMD
-  or use fpfc launch parameters to open directly from your PC
-* Check out Megalon's [Official Editor Tutorial Video](https://www.youtube.com/watch?v=5Ex6sOEVgrM)
-  for an overview of standard mapping!
-
-Keep in mind the following features that official does not have compared to the [Community Editors](#community-editors) available.
-
-* Uncommon Precision such as 1/5 and associated multiples.
-* Regular autosave and recovery (Editor only autosaves when testing or saving)
-* Flexible mass select, copy, and paste
-* Edit in place (Change the direction of notes without needing to delete)
-* Chroma Support
-* Actual audio offset for syncing. (The parameter in official offsets/delays not only the song but also hitsounds)
-* Error Checker
-* Contributor Fields
-* Mapping or Noodle Extensions Support
+:::tip Info Coming Soon
+Check back later for information on the new 3D official editor that supports the new note types and lighting system!
+:::
 
 #### Migrating from Official Editor to a Community Editor
+:::warning NOTE
+These instructions are for the old 2D editor that was retired since Beat Saber version 1.8.0
+:::
+
 Although it is recommended to start setup again following the [Quick Start](#mapping-quick-start) guides with a
 [Community Editor](#community-editors), it is possible to transfer your work in the Official Editor over.
 
