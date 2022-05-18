@@ -1,9 +1,16 @@
-# Modding Intro
+---
+sidebar: auto
+description: Learn how to create your own PC mods!
+---
+
+# PC Mod Development Intro
 _Learn how to get started writing your own PC Mods._
 
 ## Getting Started
 ::: warning
 This guide is for making mods for the **PC** version of Beat Saber!
+
+If you want to develop mods for the **Quest Standalone** version of the game, visit the [Quest Mod Development Guide](./quest-mod-dev-intro.md)
 
 Make sure your game is modded before trying to make a mod.  
 See instructions for [modding Beat Saber on PC.](/pc-modding.md)
