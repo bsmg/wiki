@@ -262,9 +262,9 @@ does things sometimes ????
 girl who writes weird code, decided to rewrite ModelSaber
 
 **Roles:** Modder
-**Contrributions:** ScoreRequirement, updated/rewrote CustomMenuPointers
+**Contributions:** AccSaber and Quest LeaderboardCore
 
-[GitHub](https://github.com/sponsors/raineio), [Ko-Fi](https://ko-fi.com/rainymods)
+[GitHub](https://github.com/sponsors/raineio) | [Ko-Fi](https://ko-fi.com/rainymods)
 
 ## RedBrumbler
 It's pronounced Cosmetics, but spelled with a Q.
