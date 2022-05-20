@@ -85,7 +85,7 @@ For our `Counter` type, this will look like so:
 DEFINE_TYPE(MyNamespace, Counter);
 ```
 
-We can now implement methods defined in the declaration.
+We can now define the methods that we have declared:
 
 * `OnUpdate` - OnUpdate Method, override from `MonoBehaviour` - Declared by `DECLARE_INSTANCE_METHOD(void, Update);`
 * `ctor` - Constructor - Declared by `DECLARE_CTOR(ctor);`
@@ -98,9 +98,15 @@ Our `Counter.cpp` file now looks like this:
 DEFINE_TYPE(MyNamespace, Counter);
 
 void MyNamespace::Counter::ctor() {
-  // This invokes the Il2CPP constructor - it initializes any fields
-  // such as the "counts" integer field we declared using "DECLARE_INSTANCE_FIELD(int, counts);" 
-  INVOKE_CTOR();
+  // YOU MUST ALWAYS CALL YOUR BASE CONSTRUCTOR UNLESS YOU ARE:
+  // 1. Overriding it entirely
+  // 2. It is a constructor which does nothing (ex: System.Object)
+  INVOKE_BASE_CTOR(classof(UnityEngine::MonoBehaviour*));
+  // INVOKE_CTOR calls the C++ constructor for your custom type.
+  // This should only be done if you have fields that are initialized on construction time or are otherwise initialized.
+  // In our case, we do NOT need to do this, as our custom type does NOT have any complex C++ fields (ex: std::vector)
+  // INVOKE_CTOR();
+  // Note that if you had such a field, you would also want to consider destructing it, see DECLARE_DTOR for more information.
 }
 
 void MyNamespace::Counter::OnUpdate() {
@@ -110,7 +116,10 @@ void MyNamespace::Counter::OnUpdate() {
 }
 ```
 
-### Registering the Type
+For more information on this concept (and Custom Types in general) see:
+[this link](https://github.com/Fernthedev/beatsaber-quest-porting-guide#custom-types-and-classes)
+
+### Registering your Custom Types
 
 You can register all the Custom Types you have created using the `custom_types::Register::AutoRegister()` method.
 
@@ -118,14 +127,17 @@ This method should be put in your `load()` like so:
 
 ```cpp
 extern "C" void load() {
-    // ... stuff like hooks above this
     custom_types::Register::AutoRegister();
+    // ... stuff like hooks below this
 }
 ```
 
+To ensure correct behavior, make sure you install hooks _after_ you register your Custom Types!
+
 ### Using the Type
 
-Types can be used as normal - for our `Counter` type, we can add it to a GameObject as it is a MonoBehaviour derivative.
+Custom Types can be used as if they were conventional, game types - for our `Counter` type,
+we can add it as a component to a `GameObject` as it inherits `MonoBehaviour`.
 
 ```cpp
 #include "UnityEngine/GameObject.hpp"
@@ -144,7 +156,6 @@ off on the following frame. [Unity Documentation](https://docs.unity3d.com/Manua
 Using Custom Types, coroutines are pretty much the same as their C# counterparts. Take a look at this example:
 
 ```cpp
-#include "System/Collections/IEnumerator.hpp"
 #include "custom-types/shared/coroutine.hpp"
 #include "UnityEngine/WaitForSeconds.hpp"
 
@@ -158,7 +169,7 @@ custom_types::Helpers::Coroutine counterCoroutine() {
       secondsPassed++;
       
       // Wait one second.
-      co_yield reinterpret_cast<System::Collections::IEnumerator*>(UnityEngine::WaitForSeconds::New_ctor(1));
+      co_yield UnityEngine::WaitForSeconds::New_ctor(1);
     }
     
     // Return
@@ -170,11 +181,11 @@ custom_types::Helpers::Coroutine counterCoroutine() {
 |----------------|-------------|
 | `yield return` | `co_yield`  |
 | `yield`        | `co_yield`  |
-| None           | `co_return` |
+| `yield break`  | `co_return` |
 
 `co_return` is used to return a `Coroutine`, C# automatically handles this during compilation, but c++ does not.
 
-You can also use `co_return` to exit a coroutine early, just like `return`.
+You can also use `co_return` to exit a coroutine early, just like `return` would in a typical function.
 
 Using normal `return` in a coroutine will not work.
 
