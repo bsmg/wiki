@@ -116,7 +116,8 @@ void MyNamespace::Counter::OnUpdate() {
 }
 ```
 
-For more information on this concept (and Custom Types in general) see: [this link](https://github.com/Fernthedev/beatsaber-quest-porting-guide#custom-types-and-classes)
+For more information on this concept (and Custom Types in general) see:
+[this link](https://github.com/Fernthedev/beatsaber-quest-porting-guide#custom-types-and-classes)
 
 ### Registering your Custom Types
 
@@ -135,7 +136,8 @@ To ensure correct behavior, make sure you install hooks _after_ you register you
 
 ### Using the Type
 
-Custom Types can be used as if they were conventional, game types - for our `Counter` type, we can add it as a component to a `GameObject` as it inherits `MonoBehaviour`.
+Custom Types can be used as if they were conventional, game types - for our `Counter` type,
+we can add it as a component to a `GameObject` as it inherits `MonoBehaviour`.
 
 ```cpp
 #include "UnityEngine/GameObject.hpp"
