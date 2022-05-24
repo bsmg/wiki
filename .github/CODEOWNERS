@@ -14,8 +14,8 @@ package.json          @lolpants
 yarn.lock             @lolpants
 
 # Wiki Admins
-/wiki/**/*.md          @megalon @williums @Assistant @bloodcloak
+/wiki/**/*.md          @megalon @williums @bloodcloak
 
 # Section Owners
-/wiki/modding/**/*.md  @megalon @williums @Assistant @aurosx @Caeden117
-/wiki/mapping/**/*.md  @megalon @williums @Assistant @bloodcloak @helencarnate
+/wiki/modding/**/*.md  @megalon @williums @bloodcloak @Auros @Caeden117
+/wiki/mapping/**/*.md  @megalon @williums @bloodcloak @helencarnate
