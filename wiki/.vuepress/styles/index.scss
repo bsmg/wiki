@@ -185,6 +185,12 @@ html.dark .DocSearch {
 // #endregion
 
 // #region Extra
+:root {
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+}
+
 svg.external-link-icon {
   margin-left: 2px;
 }

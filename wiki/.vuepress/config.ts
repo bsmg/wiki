@@ -244,7 +244,7 @@ export default defineUserConfig({
   }),
 
   plugins: [
-    // TODO: SEO, Smooth Scroll
+    // TODO: SEO
     sitemapPlugin({
       hostname: 'https://bsmg.wiki/',
     }),
