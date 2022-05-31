@@ -103,7 +103,7 @@ export default defineUserConfig({
         selectLanguageName: 'Français',
         editLinkText: 'Aidez à améliorer cette page !',
         lastUpdatedText: 'Dernière mise à jour',
-        nav: [
+        navbar: [
           { text: 'Accueil', link: '/fr/' },
           { text: 'Guide du Débutant', link: '/fr/beginners-guide.md' },
           { text: 'Discord BSMG', link: 'https://discord.gg/beatsabermods' },
@@ -138,7 +138,7 @@ export default defineUserConfig({
         selectLanguageName: 'Deutsch',
         editLinkText: 'Hilf uns die Seite zu verbessern!',
         lastUpdatedText: 'Zuletzt aktualisiert am',
-        nav: [
+        navbar: [
           { text: 'Startseite', link: '/de/' },
           { text: 'Anfänger Guide', link: '/beginners-guide.md' },
           { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
@@ -174,7 +174,7 @@ export default defineUserConfig({
         selectLanguageName: 'Nederlands',
         editLinkText: 'Help deze pagina te verbeteren!',
         lastUpdatedText: 'Laatste keer bijgewerkt',
-        nav: [
+        navbar: [
           { text: 'Hoofdmenu', link: '/nl/' },
           { text: 'Gids voor beginners', link: '/nl/beginners-guide.md' },
           { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
@@ -210,7 +210,7 @@ export default defineUserConfig({
         selectLanguageName: '日本語',
         editLinkText: '言語このページの改善にご協力ください!',
         lastUpdatedText: '最終更新日',
-        nav: [
+        navbar: [
           { text: 'ホーム', link: '/ja/' },
           { text: '初心者ガイド', link: '/ja/beginners-guide.md' },
           { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
