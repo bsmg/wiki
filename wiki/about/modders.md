@@ -321,6 +321,15 @@ Making sure we're all nice and hydrated after cutting the blocks.
 
 [GitHub](https://github.com/Shoko84) | [Twitch](https://www.twitch.tv/shoko84) | [Donate](https://streamlabs.com/shoko84)
 
+## Sirspam
+Cat girl enthusiast
+*(a little bit goofy)* ❤️
+
+**Roles:** Modder, Support
+**Contributions:** Nya, Greetings, MenuPillars, MultiCode-inator
+
+[GitHub](https://www.github.com/Sirspam) | [Twitch](https://www.twitch.tv/sirspam_) | [Twitter](https://www.twitter.com/Sirspamalot555)
+
 ## SkyKiwi
 The madman who started Chroma and Chromatoggle. He added things to the game that suggests that his head isn't screwed on
 right, as well as created RGB lighting for mappers to use.
