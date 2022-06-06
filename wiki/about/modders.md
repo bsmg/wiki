@@ -68,6 +68,14 @@ content for my mods I will probably remember you on my deathbed.
 
 [GitHub](https://github.com/ckosmic) | [Donate](https://paypal.me/ckosmic)
 
+## Cubic
+Does server-side code for BeatTogether multiplayer servers and quest modding. Mainly multiplayer stuff.
+
+**Roles:** Modder
+**Contributions:** MultiplayerCore (quest), MultiplayerQuestensions, BeatTogether servers
+
+[GitHub](https://github.com/cubicgraphics) | [Donate](https://ko-fi.com/cubicgraphics)
+
 ## DaNike
 Creator of the custom-tailored version of IPA (illusion plugin architecture) BSIPA, a mod injector to allow Beat Saber
 to use mods. An incredible tool that makes modding beat saber as easy as it is.
