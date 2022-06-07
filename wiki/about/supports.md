@@ -46,10 +46,6 @@ is too uncreative to think of a bio
 
 **Roles:** Support
 
-## Meivyn
-
-A very helpful individual
-
 ## Pespiri
 He'll give me his bio later today, or so he says.
 
@@ -124,6 +120,10 @@ The bot that holds it all together.
 Created by Megalon, recreated by lolPants, and personified by Rolo!
 
 [Merch!](https://www.redbubble.com/people/megalon-gaming/portfolio)
+
+## Meivyn (Retired)
+
+A very helpful individual
 
 ---
 
