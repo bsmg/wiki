@@ -1433,12 +1433,9 @@ Depending on the aforementioned [`_type`](#type-2) of the event, the `_floatValu
 When the event is used to control lights, the `_floatValue` determines the brightness of the light.
 
 ##### Official BPM Changes
-:::danger
-As of Beat Saber `1.18.0`, Official BPM Changes are still not complete. An official mapper has advised against using this
-event in its current state.
-:::
-When the event is used to control the BPM, the `_floatValue` represents the new BPM. This will also alter the Note Jump Speed
-proportional to the change in BPM.
+When the event is used to control the BPM, the `_floatValue` represents the new BPM.
+
+This will also alter the Note Jump Speed proportional to the change in BPM prior to Beat Saber version 1.20.0.
 
 #### _customData
 This is an optional field that contains data unrelated to the official Beat Saber level format.
