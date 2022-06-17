@@ -785,7 +785,7 @@ A boolean which determines whether boost lighting is on or off.
       "e": [    // Event Data
         {
           "b": 0.0, // Added beat
-          "i": 0,   // Transition type
+          "i": 0,   // Transition type from previous event state
           "c": 1,   // Color
           "s": 1.0, // Brightness
           "f": 0    // Flicker frequency
@@ -811,8 +811,8 @@ A json object containing data describes the lane filter.
 ###### f, p, t
 |`f`|Editor Name|Result|
 |---|-----------|------|
-|`0`|Sections|`p` determines how many sections the light groups is split into <br />`t` determines which section to use|
-|`1`|Step and Offset|`p` determines how many lights to skip<br />`t` determines which light to start from|
+|`1`|Sections|`p` determines how many sections the light groups is split into <br />`t` determines which section to use|
+|`2`|Step and Offset|`p` determines how many lights to skip<br />`t` determines which light to start from|
 
 ###### r
 A boolean which determines if the filter is applied in reverse order.
@@ -821,15 +821,15 @@ A boolean which determines if the filter is applied in reverse order.
 Theses values determine how the light take effect over time.
 |`d`|Editor Name|Result|
 |---|-----------|-----|
-|`0`|Wave| After `w` beats, the last step takes effect. |
-|`1`|Step| After `w` beats, the next step takes effect. |
+|`1`|Wave| After `w` beats, the last step takes effect. |
+|`2`|Step| After `w` beats, the next step takes effect. |
 
 ##### r, t
 These values determines the amount of additional brightness distributed over the group.
 |`t`|Editor Name|Result|
 |---|-----------|------|
-|`0`|Wave| `r` is the difference the last and first step. |
-|`1`|Step| `r` is the difference between each step. |
+|`1`|Wave| `r` is the difference the last and first step. |
+|`2`|Step| `r` is the difference between each step. |
 
 ##### b
 An integer which determines if the brightness distribution affects the first event in this lane.
@@ -891,7 +891,7 @@ An integer which determines the freqeuncy of the strobe (in beat time).
       "e": [  // Event data
         {
           "b": 0.0, // Add beat time
-          "p": 1,   // Use previous event rotation
+          "p": 1,   // Transition from previous event rotation behaviour
           "e": 1,   // Ease type
           "l": 1,   // Additional loops
           "r": 340, // Rotation value
@@ -918,8 +918,8 @@ A json object containing data describes the lane filter.
 ###### f, p, t
 |`f`|Editor Name|Result|
 |---|-----------|------|
-|`0`|Sections|`p` determines how many sections the light group is split into <br />`t` determines which section to use|
-|`1`|Step and Offset|`p` determines how many lights to skip<br />`t` determines which light to start from|
+|`1`|Sections|`p` determines how many sections the light group is split into <br />`t` determines which section to use|
+|`2`|Step and Offset|`p` determines how many lights to skip<br />`t` determines which light to start from|
 
 ###### r
 A boolean which determines if the filter is applied in reverse order.
@@ -928,15 +928,15 @@ A boolean which determines if the filter is applied in reverse order.
 Theses values determine how the rotation takes effect over time.
 |`d`|Editor Name|Result|
 |---|-----------|-----|
-|`0`|Wave| After `w` beats, the last step takes effect. |
-|`1`|Step| After `w` beats, the next step takes effect. |
+|`1`|Wave| After `w` beats, the last step takes effect. |
+|`2`|Step| After `w` beats, the next step takes effect. |
 
 ##### s, t
 These values determines the amount of additional rotation distributed over the group.
 |`t`|Editor Name|Result|
 |---|-----------|------|
-|`0`|Wave| `s` is the difference the last and first step. |
-|`1`|Step| `s` is the difference between each step. |
+|`1`|Wave| `s` is the difference the last and first step. |
+|`2`|Step| `s` is the difference between each step. |
 
 ##### b
 A boolean which determines if the rotation distribution affects the first event in this lane.
