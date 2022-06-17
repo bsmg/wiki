@@ -357,10 +357,10 @@ This is an array of [Color Note](#color-notes) objects for the map.
 This is an array of [Bomb Note](#bomb-notes) objects for the map.
 
 #### obstacles
-This is an array of [Obstacle](#obstacles-2) objects for the map.
+This is an array of [Obstacle](#obstacles-1) objects for the map.
 
 #### sliders
-This is an array of [Slider](#sliders-2) objects for the map.
+This is an array of [Slider](#sliders-1) objects for the map.
 
 #### burstSliders
 This is an array of [Burst Slider](#burst-sliders) objects for the map.
@@ -372,7 +372,7 @@ This is a stub section.
 This is used to control BTS TinyTAN figures. Some information can be found in this
 [document](https://docs.google.com/spreadsheets/d/1spW7LS-RvenLQBVXJl9w_iOwqr9r_ozxYo3JUlXq9Lc).
 
-#### basicBeatMapEvents
+#### basicBeatmapEvents
 This is an array of [Basic Event](#basic-beatmap-events) objects for the map.
 
 #### colorBoostBeatmapEvents
@@ -1025,16 +1025,16 @@ Version `2.2.0` was introduced in Beat Saber version 1.13.1.
 This field describes the version of the map format we are using.
 
 #### _notes
-This is an array of [Note](#notes-2) objects for the map.
+This is an array of [Note](#notes-1) objects for the map.
 
 #### _sliders
-This is an array of [Slider](#sliders-4) objects for the map.
+This is an array of [Slider](#sliders-3) objects for the map.
 
 #### _obstacles
-This is an array of [Obstacle](#obstacles-4) objects for the map.
+This is an array of [Obstacle](#obstacles-3) objects for the map.
 
 #### _events
-This is an array of [Event](#events-2) objects for the map.
+This is an array of [Event](#events-1) objects for the map.
 
 #### _waypoints
 ::: tip NOTE
@@ -1334,7 +1334,7 @@ that used Custom Platforms that took advantage of the unused event types.
 :::
 
 #### _value
-Depending on the aforementioned [`_type`](#type) of the event, the `_value` of it can do different things.
+Depending on the aforementioned [`_type`](#type-2) of the event, the `_value` of it can do different things.
 
 ##### Controlling Lights
 It's default behavior is controlling brightness and color of lights, and follows this table:
@@ -1427,7 +1427,7 @@ is used to add rotation equal to the following table:
 |`7`|60 Degrees Clockwise|
 
 #### _floatValue
-Depending on the aforementioned [`_type`](#type) of the event, the `_floatValue` of it can do different things.
+Depending on the aforementioned [`_type`](#type-2) of the event, the `_floatValue` of it can do different things.
 
 ##### Controlling Lights
 When the event is used to control lights, the `_floatValue` determines the brightness of the light.
