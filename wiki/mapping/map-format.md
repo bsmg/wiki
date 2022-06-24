@@ -357,10 +357,10 @@ This is an array of [Color Note](#color-notes) objects for the map.
 This is an array of [Bomb Note](#bomb-notes) objects for the map.
 
 #### obstacles
-This is an array of [Obstacle](#obstacles-2) objects for the map.
+This is an array of [Obstacle](#obstacles-1) objects for the map.
 
 #### sliders
-This is an array of [Slider](#sliders-2) objects for the map.
+This is an array of [Slider](#sliders-1) objects for the map.
 
 #### burstSliders
 This is an array of [Burst Slider](#burst-sliders) objects for the map.
@@ -372,23 +372,17 @@ This is a stub section.
 This is used to control BTS TinyTAN figures. Some information can be found in this
 [document](https://docs.google.com/spreadsheets/d/1spW7LS-RvenLQBVXJl9w_iOwqr9r_ozxYo3JUlXq9Lc).
 
-#### basicBeatMapEvents
+#### basicBeatmapEvents
 This is an array of [Basic Event](#basic-beatmap-events) objects for the map.
 
 #### colorBoostBeatmapEvents
 This is an array of [Boost Event](#color-boost-beatmap-events) objects for the map.
 
 #### lightColorEventBoxGroups
-This is an array of Light Color Group Event objects for the map.
-::: tip NOTE
-This is a stub section. Documentation is a work in progress.
-:::
+This is an array of [Light Color Box Group Event](#light-color-event-box) objects for the map.
 
 #### lightRotationEventBoxGroups
-This is an array of Light Rotation Group Event objects for the map.
-::: tip NOTE
-This is a stub section. Documentation is a work in progress.
-:::
+This is an array of [Light Rotation Box Group Event](#light-rotation-event-box) objects for the map.
 
 #### basicEventTypesWithKeywords
 ::: tip NOTE
@@ -769,6 +763,239 @@ The time, in beats, where this object reaches the player.
 #### o
 A boolean which determines whether boost lighting is on or off.  
 
+### Light Color Event Box
+
+```json
+{
+  "b": 2.0, // Beat
+  "g": 0,   // Group
+  "e": [    // Event box group
+    {
+      "f": {  // Filter
+        "f": 1, // Filter type
+        "p": 1, // Parameter 0
+        "t": 0, // Parameter 1
+        "r": 0  // Reverse
+      },
+      "w": 1.0, // Beat distribution
+      "d": 1,   // Beat distribution type
+      "r": 1.0, // Brightness distribution
+      "t": 1,   // Brightness distribution type
+      "b": 1,   // Brightness distribution affects first event
+      "e": [    // Event Data
+        {
+          "b": 0.0, // Added beat
+          "i": 0,   // Transition type from previous event state
+          "c": 1,   // Color
+          "s": 1.0, // Brightness
+          "f": 0    // Flicker frequency
+        }
+      ]
+    }
+  ]
+}
+```
+
+#### b (outer)
+The time, in beats, where this object reaches the player.
+
+##### g
+The group of this lighting event.
+
+##### e (outer)
+An array containing the different lanes in the group.
+
+##### f
+A json object containing data describes the lane filter.
+
+###### f, p, t
+|`f`|Editor Name|Result|
+|---|-----------|------|
+|`1`|Sections|`p` determines how many sections the light groups is split into <br />`t` determines which section to use|
+|`2`|Step and Offset|`p` determines how many lights to skip<br />`t` determines which light to start from|
+
+###### r
+A boolean which determines if the filter is applied in reverse order.
+
+##### w,d
+Theses values determine how the light take effect over time.
+|`d`|Editor Name|Result|
+|---|-----------|-----|
+|`1`|Wave| After `w` beats, the last step takes effect. |
+|`2`|Step| After `w` beats, the next step takes effect. |
+
+##### r, t
+These values determines the amount of additional brightness distributed over the group.
+|`t`|Editor Name|Result|
+|---|-----------|------|
+|`1`|Wave| `r` is the difference the last and first step. |
+|`2`|Step| `r` is the difference between each step. |
+
+##### b
+An integer which determines if the brightness distribution affects the first event in this lane.
+|`b`|Affects First Event|
+|---|----|
+|`0`|No|
+|`1`|Yes|
+
+##### e (inner)
+An array of event data objects which have the properties of the specified box group filters.
+
+###### b
+A float which determines the time this event takes effect relative to the start of the event box group.
+
+###### i
+An integer which determines the transition type of the event
+|`i`|Type|Result|
+|---|----|------|
+|`0`| Instant | The light instantly changes. |
+|`1`| Transition | The light transitions from the previous event to this event. |
+|`2`| Extend | The light holds the state of the previous light. |
+
+###### c
+An integer which determines the color of the light.
+|`c`|Result|
+|---|------|
+|`0`| Red  |
+|`1`| Blue |
+|`2`| White|
+
+###### s
+A float which determines the brightness of the light.
+
+###### f
+An integer which determines the freqeuncy of the strobe (in beat time).
+0 is static light.
+
+### Light Rotation Event Box
+
+```json
+{
+  "b": 2.0, // Beat
+  "g": 0,   // Group
+  "e": [    // Event group box
+    {
+      "f": {  // Filter
+        "f": 1, // Filter type
+        "p": 1, // Parameter 0
+        "t": 0, // Parameter 1
+        "r": 0  // Reverse
+      },
+      "w": 0, // Beat distribution
+      "d": 0, // Beat distribution type
+      "s": 0, // Rotation distribution
+      "t": 0, // Rotation distribution type
+      "b": 0, // Rotation distribution affects first event
+      "a": 1, // Axis
+      "r": 1, // Reverse rotation
+      "e": [  // Event data
+        {
+          "b": 0.0, // Add beat time
+          "p": 1,   // Transition from previous event rotation behaviour
+          "e": 1,   // Ease type
+          "l": 1,   // Additional loops
+          "r": 340, // Rotation value
+          "o": 1    // Rotation direction
+        }
+      ]
+    }
+  ]
+}
+```
+
+#### b (outer)
+The time, in beats, where this object reaches the player.
+
+##### g
+The group of this rotation event.
+
+##### e (outer)
+An array containing the different lanes in the group.
+
+##### f
+A json object containing data describes the lane filter.
+
+###### f, p, t
+|`f`|Editor Name|Result|
+|---|-----------|------|
+|`1`|Sections|`p` determines how many sections the light group is split into <br />`t` determines which section to use|
+|`2`|Step and Offset|`p` determines how many lights to skip<br />`t` determines which light to start from|
+
+###### r
+A boolean which determines if the filter is applied in reverse order.
+
+##### w,d
+Theses values determine how the rotation takes effect over time.
+|`d`|Editor Name|Result|
+|---|-----------|-----|
+|`1`|Wave| After `w` beats, the last step takes effect. |
+|`2`|Step| After `w` beats, the next step takes effect. |
+
+##### s, t
+These values determines the amount of additional rotation distributed over the group.
+|`t`|Editor Name|Result|
+|---|-----------|------|
+|`1`|Wave| `s` is the difference the last and first step. |
+|`2`|Step| `s` is the difference between each step. |
+
+##### b
+A boolean which determines if the rotation distribution affects the first event in this lane.
+|`b`|Affects First Event|
+|---|----|
+|`0`|No|
+|`1`|Yes|
+
+##### a
+An integer which determines the axis of rotation.
+|`a`|Axis|
+|---|----|
+|`0`|x|
+|`1`|y|
+
+##### r
+An integer which determines if the axis of rotation is flipped.
+|`r`|Flipped|
+|---|----|
+|`0`|No|
+|`1`|Yes|
+
+##### e (inner)
+An array of event data objects which have the properties of the specified box group filters.
+
+###### b
+A float which determines the time this event takes effect relative to the start of the event box group.
+
+###### p
+An integer which determines if the previous rotation is used.
+|`i`|Type|Result|
+|---|----|------|
+|`0`| Transition | The rotation transitions from the previous event to this event. |
+|`1`| Extend | The rotation holds the state of the previous rotation. |
+
+###### l
+An integer which determines the number of additional 360 degree rotations (loops).
+
+###### e
+An integer which determines the easing of the rotation.
+| `e`|Easing|
+|----|------|
+|`-1`| None |
+| `0`| Linear |
+| `1`| EaseInQuad |
+| `2`| EaseOutQuad |
+| `3`| EaseInOutQuad |
+
+###### r
+A float which determines the amount of rotation.
+
+###### o
+An integer which determines the easing of the rotation.
+|`o`|Easing|
+|----|------|
+|`0`| Automatic |
+|`1`| Clockwise |
+|`2`| Counter-clockwise |
+
 ## Difficulty File (v2)
 Each Difficulty Beatmap contains a corresponding file which defines the notes, obstacles, events,
 and other objects for that particular difficulty.
@@ -798,16 +1025,16 @@ Version `2.2.0` was introduced in Beat Saber version 1.13.1.
 This field describes the version of the map format we are using.
 
 #### _notes
-This is an array of [Note](#notes-2) objects for the map.
+This is an array of [Note](#notes-1) objects for the map.
 
 #### _sliders
-This is an array of [Slider](#sliders-4) objects for the map.
+This is an array of [Slider](#sliders-3) objects for the map.
 
 #### _obstacles
-This is an array of [Obstacle](#obstacles-4) objects for the map.
+This is an array of [Obstacle](#obstacles-3) objects for the map.
 
 #### _events
-This is an array of [Event](#events-2) objects for the map.
+This is an array of [Event](#events-1) objects for the map.
 
 #### _waypoints
 ::: tip NOTE
@@ -1107,7 +1334,7 @@ that used Custom Platforms that took advantage of the unused event types.
 :::
 
 #### _value
-Depending on the aforementioned [`_type`](#type) of the event, the `_value` of it can do different things.
+Depending on the aforementioned [`_type`](#type-2) of the event, the `_value` of it can do different things.
 
 ##### Controlling Lights
 It's default behavior is controlling brightness and color of lights, and follows this table:
@@ -1200,18 +1427,15 @@ is used to add rotation equal to the following table:
 |`7`|60 Degrees Clockwise|
 
 #### _floatValue
-Depending on the aforementioned [`_type`](#type) of the event, the `_floatValue` of it can do different things.
+Depending on the aforementioned [`_type`](#type-2) of the event, the `_floatValue` of it can do different things.
 
 ##### Controlling Lights
 When the event is used to control lights, the `_floatValue` determines the brightness of the light.
 
 ##### Official BPM Changes
-:::danger
-As of Beat Saber `1.18.0`, Official BPM Changes are still not complete. An official mapper has advised against using this
-event in its current state.
-:::
-When the event is used to control the BPM, the `_floatValue` represents the new BPM. This will also alter the Note Jump Speed
-proportional to the change in BPM.
+When the event is used to control the BPM, the `_floatValue` represents the new BPM.
+
+This will also alter the Note Jump Speed proportional to the change in BPM prior to Beat Saber version 1.20.0.
 
 #### _customData
 This is an optional field that contains data unrelated to the official Beat Saber level format.
