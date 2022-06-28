@@ -859,7 +859,7 @@ An integer which determines the color of the light.
 A float which determines the brightness of the light.
 
 ###### f
-An integer which determines the freqeuncy of the strobe (in beat time).
+An integer which determines the frequency of the strobe (in beat time).
 0 is static light.
 
 ### Light Rotation Event Box
@@ -883,7 +883,7 @@ An integer which determines the freqeuncy of the strobe (in beat time).
       "b": 0, // Rotation distribution affects first event
       "a": 1, // Axis
       "r": 1, // Reverse rotation
-      "e": [  // Event data
+      "l": [  // Event data
         {
           "b": 0.0, // Add beat time
           "p": 1,   // Transition from previous event rotation behaviour
@@ -984,8 +984,8 @@ An integer which determines the easing of the rotation.
 A float which determines the amount of rotation.
 
 ###### o
-An integer which determines the easing of the rotation.
-|`o`|Easing|
+An integer which determines the direction of the rotation.
+|`o`|Direction|
 |----|------|
 |`0`| Automatic |
 |`1`| Clockwise |
