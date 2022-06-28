@@ -404,11 +404,6 @@ This is a stub section. Documentation is a work in progress.
 }
 ```
 
-:::danger
-As of Beat Saber `1.20.0`, Official BPM Changes are still not complete. An official mapper has advised against using this
-event in its current state.
-:::
-
 #### b
 The time, in beats, where this object reaches the player.
 
