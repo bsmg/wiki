@@ -228,10 +228,10 @@ MAKE_HOOK_MATCH(MainMenuUIHook, &GlobalNamespace::MainMenuViewController::DidAct
     
     
     // Get the _soloButton text using the dyn_ method and simple unity jazz. dyn_ safely get fields and shouldn't change
-    much during updates.
+    // much during updates.
     
     UnityEngine::UI::Button *soloMenuButton = self->dyn__soloButton();
-    UnityEngine::GameObject *gameObject = soloMenuButton->get_gameobject();
+    UnityEngine::GameObject *gameObject = soloMenuButton->get_gameObject();
     HMUI::CurvedTextMeshPro *soloMenuText = gameObject->GetComponentInChildren<HMUI::CurvedTextMeshPro *>();
     
     // Set the text to "Skill Issue"
