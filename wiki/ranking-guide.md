@@ -136,7 +136,7 @@ A common question people seem to have when they get a new score worth, for examp
 not getting **+100 pp** on their total amount of performance points. As explained earlier, since the effect of the curve
 on your plays increases the further you go down your list, when you make a new play, it takes the place of an older play
 which makes all the plays that are under go down 1 place in the list. Even if you are getting **+100 pp** from this new play,
-all your lower plays are weighed down even more then before so you lose a certain amount of PP on them.
+all your lower plays are weighed down even more than before so you lose a certain amount of PP on them.
 This is why when getting a new play or making a better play on a map, you will never (one exception) get the same amount
 of PP on your total amount of performance points.
 
