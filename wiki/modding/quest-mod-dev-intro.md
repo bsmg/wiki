@@ -31,6 +31,7 @@ CMake for CLion.
 The following pieces of software are needed to follow this guide.
 
 * [QPM Rust](#qpm-rust) - Dependency Management
+* [Ninja](#ninja) - Build Tool
 * [Templatr](#templatr) - Templating Tool
 * [Android NDK](#android-ndk) - Native Development Kit for Android Devices
 
@@ -38,6 +39,11 @@ The following pieces of software are needed to follow this guide.
 
 [Download the latest QPM Rust binary for your system](https://github.com/RedBrumbler/QuestPackageManager-Rust) from the
 Actions tab and add it to your PATH variable.
+
+### Ninja
+
+[Download the latest Ninja binary for your system](https://github.com/ninja-build/ninja/releases) from the Releases tab
+and add it to your PATH variable.
 
 ### Templatr
 
@@ -228,10 +234,10 @@ MAKE_HOOK_MATCH(MainMenuUIHook, &GlobalNamespace::MainMenuViewController::DidAct
     
     
     // Get the _soloButton text using the dyn_ method and simple unity jazz. dyn_ safely get fields and shouldn't change
-    much during updates.
+    // much during updates.
     
     UnityEngine::UI::Button *soloMenuButton = self->dyn__soloButton();
-    UnityEngine::GameObject *gameObject = soloMenuButton->get_gameobject();
+    UnityEngine::GameObject *gameObject = soloMenuButton->get_gameObject();
     HMUI::CurvedTextMeshPro *soloMenuText = gameObject->GetComponentInChildren<HMUI::CurvedTextMeshPro *>();
     
     // Set the text to "Skill Issue"
