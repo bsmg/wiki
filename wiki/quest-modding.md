@@ -328,8 +328,8 @@ If it still does not load, make sure you are doing the following:
 * There is http:// at the beginning of the link, not https://
 * Your ip hasn't changed, as it changes from time to time
 * You have :50000 at the end of your link
-* Your pc and your quest are on the same network (keep in mind that ethernet *can* mess with the connection, try wireless or
-another device if you've tried all other fixes here)
+* Your pc and your quest are on the same network (keep in mind that ethernet *can* mess with the connection,
+try wireless or another device if you've tried all other fixes here)
 * You aren't using a VPN
 * Your ip is not 127.0.0.1
 If none of these work restart your quest and try them all again
