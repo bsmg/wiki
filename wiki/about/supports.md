@@ -29,6 +29,11 @@ He likes playing Beat Saber. He also likes helping people fix their problems so 
 
 **Roles:** Support
 
+## KodenameKRAK
+"Maybe in a couple years I could think of something to put here"
+
+**Roles:** Support
+
 ## Kolezan
 He'll teach you to fix your mods and your terribly off-beat first map. We've all been there.
 
