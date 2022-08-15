@@ -147,15 +147,20 @@ steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
 ### Core Mods
 Before installing any additional mods look in the top right of the BMBF web interface, you should see a red button that
 says, `Sync to Beat Saber`.
-Click this and let it finish syncing. Then go to your `mods` tab in BMBF. Make sure that you have the 7 core mods:
+Click this and let it finish syncing. Then go to your `Mods` tab in BMBF. Make sure that you have the 12 core mods:
 
 * Custom Types
 * Codegen
 * SongLoader
+* Playlist Core
 * Playlist Manager
 * QuestUI
 * SongDownloader
 * PinkCore
+* DataKeeper
+* BeatTogether
+* MultiplayerCore
+* Mod List
 
 :::danger
 Other mods will not work without these Core Mods!
