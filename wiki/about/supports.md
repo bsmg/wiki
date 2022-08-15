@@ -72,11 +72,6 @@ I really like to help people. Yeah that's all.
 
 **Roles:** Support
 
-## rui2015
-Has no creativity and doesn't know what to put here. Is a cool person though.
-
-**Roles:** Support
-
 ## Sands
 He has no life and he's pretty dumb but he can help with your bmbf and that's all that matters right?
 

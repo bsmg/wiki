@@ -53,6 +53,13 @@ All they can say is that the R in Kuru stands for Rat
 
 **Roles:** Moderator
 
+## rui2015
+Has no creativity and doesn't know what to put here. Is a cool person though.
+
+**Roles:** Moderator, Modder, Support
+
+[GitHub](https://github.com/FranciscoRibeiro03) | [Ko-Fi](https://ko-fi.com/rui2015) | [PayPal](https://paypal.me/rui2015)
+
 ## Shad
 "Every channel is just #pc-mod-support"
 
