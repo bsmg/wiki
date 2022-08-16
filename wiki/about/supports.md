@@ -29,6 +29,11 @@ He likes playing Beat Saber. He also likes helping people fix their problems so 
 
 **Roles:** Support
 
+## KodenameKRAK
+"Maybe in a couple years I could think of something to put here"
+
+**Roles:** Support
+
 ## Kolezan
 He'll teach you to fix your mods and your terribly off-beat first map. We've all been there.
 
@@ -72,11 +77,6 @@ I really like to help people. Yeah that's all.
 
 **Roles:** Support
 
-## rui2015
-Has no creativity and doesn't know what to put here. Is a cool person though.
-
-**Roles:** Support
-
 ## Sands
 He has no life and he's pretty dumb but he can help with your bmbf and that's all that matters right?
 
@@ -108,6 +108,11 @@ I decided I wanted to help one day, and have been slightly addicted ever since.
 
 **Roles:** Support
 
+## X
+🐸 🎉 _I don't know what to put here_
+
+**Roles:** Support
+
 ## Channel Monitor Bot
 The bot that holds it all together.
 Created by Megalon, recreated by lolPants, and personified by Rolo!
@@ -122,7 +127,7 @@ A very helpful individual
 
 ::: tip See Also
 **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
-**Modders:** [Kyle1413](./modders.md#kyle1413) | [Sirspam](./modders.md#sirspam)  
+**Modders:** [Kyle1413](./modders.md#kyle1413) | [Sirspam](./modders.md#sirspam) | [rui2015](./moderators.md#rui2015)  
 **Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer-retired)
   | [Chara_](./moderators.md#chara) | [Burrito](./moderators.md#burrito) | [OneEyed](./moderators.md#oneeyed-retired)  
 **Staff:** [Assistant](./staff.md#assistant-retired) | [Eradawn](./staff.md#eradawn) | [Klouder](./staff.md#klouder-retired)
