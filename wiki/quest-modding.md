@@ -38,8 +38,8 @@ Chromebooks and iOS devices such as iPhones or iPads are not supported.
 Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
 base game leaderboards.
 If you would like to play modded multiplayer, you need the mods, `Beat Together` and `MultiQuestensions`, which allows
-for cross-play between PC and Quest and allows for custom songs to be used. These mods should get automatically
-installed when settings up BMBF.
+for cross-play between PC and Quest and for custom songs to be used. These mods should automatically be
+installed when setting up BMBF.
 
 To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
 [ScoreSaber](https://new.scoresaber.com/quest) mod. [This link](https://new.scoresaber.com/quest) will take you to the
@@ -51,7 +51,7 @@ for the current game version.
 :::
 
 ### Installing BMBF with SideQuest
-If you haven't already, download and setup [the SideQuest Easy Installer](https://sidequestvr.com/setup-howto).
+If you haven't already, download and install the [SideQuest Easy Installer](https://sidequestvr.com/setup-howto).
 
 **Note:** If you are on iOS, for `Step 4: Enable Developer Mode and Reboot` follow these steps instead
 
@@ -68,8 +68,8 @@ If you've previously modded Beat Saber or have scores you want to backup, [backu
 
 #### Download from the SideQuest Store
 
-1. Once you set up SideQuest using the provided instructions in the easy installer search for `BMBF`
-2. Click the `Install` button.
+1. After setting up SideQuest, search for `BMBF` or locate it in the Games & Apps page in your headset.
+2. Click the `Download App (Sideload)` button on the page then the `Install` button when prompted.
 3. Wait for BMBF to finish installing onto your headset and allow app installation from unknown sources if needed.
 
 #### BMBF Setup
@@ -105,7 +105,7 @@ Continue to the [Core Mods](#core-mods) step of the installation process.
 ## Manage Save Data
 
 :::warning
-To manage your save data you need the SideQuest Advanced Installer. Get it from
+To manage your save data you need the SideQuest Advanced Installer. Get and install it from
 [the SideQuest site](https://sidequestvr.com/setup-howto) before continuing.
 :::
 
@@ -295,7 +295,7 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 
 ### Adding mods from beatmods.com or models from modelsaber.com does not work
 The reason adding mods from [BeatMods](https://beatmods.com/) or models from [ModelSaber](https://modelsaber.com/)
-**doesn't** work is because those mods and models are for PC Only.
+**DO NOT** work is because those mods and models are for PC Only.
 
 Get Quest compatible Mods from [QuestBoard](https://www.questmodding.com/) or `#quest-mods` in the
 [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods), with Quest compatible sabers,
@@ -331,7 +331,7 @@ If it still does not load, make sure you are doing the following:
 * You have :50000 at the end of your link
 * Your pc and your quest are on the same network (keep in mind that ethernet *can* mess with the connection,
 try wireless or another device if you've tried all other fixes here)
-* You aren't using a VPN
+* You are not using a VPN
 * Your ip is not 127.0.0.1
 If none of these work restart your quest and try them all again
 
