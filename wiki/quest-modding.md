@@ -261,8 +261,7 @@ Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your 
 Check `#modding-announcements` in [BSMG](https://www.discord.gg/beatsabermods) to see if modding on the latest version
 of the game is possible. If mods are not updated for the latest version, you will need to downgrade to be able to mod.
 
-The easiest method to get to the right version, is to go to the [QuestModding](https://www.questmodding.com/) page, click
-on How To Downgrade tab, and follow the steps.
+The easiest method to get to the right version, is to go to the [Following page](https://oculusdb.rui2015.me/guide/quest) and follow the steps. The Page will guide you through.
 
 With these steps done, you can now start modding your game!
 
