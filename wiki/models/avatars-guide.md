@@ -61,7 +61,7 @@ This zip contains a barebones Unity project to get started with creating avatars
 
 ::: danger IMPORTANT
 Use Unity version
-[2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe).
+[2019.3.15](https://download.unity3d.com/download_unity/59ff3e03856d/Windows64EditorInstaller/UnitySetup64-2019.3.15f1.exe).
 And make sure to follow [these instructions](#unity-2018).
 :::
 
@@ -276,11 +276,11 @@ but feel free to experiment with the values.
 
 ![Full body IK Manager](~@images/models/avatars/fullbodyIKmanager.png)
 
-## Unity 2018
+## Unity 2019
 
-So, you're probably wonder why now I'm telling you to use Unity 2018.1.6f1, when previously we said you shouldn't use any
-2018 version. Well, the game has changed, figuratively, and literally. Beat Saber now uses Unity 2018 instead of Unity 2017,
-and as such the avatars need to be created with Unity 2018 to work correctly. You will need to set the
+So, you're probably wonder why now I'm telling you to use Unity 2019.3.15f1, when previously we said you shouldn't use any
+2019 version. Well, the game has changed, figuratively, and literally. Beat Saber now uses Unity 2019 instead of Unity 2018 (or 2017),
+and as such the avatars need to be created with Unity 2019 to work correctly. You may need to set the
 `Scripting Runtime Version` to `.NET 4.x Equivalent` if it isn't already. For that you need to go to
 `Edit -> Project Settings -> Player` and in the window that appears open the `Other Settings` tab,
 and scroll down to the `Configuration` section.
