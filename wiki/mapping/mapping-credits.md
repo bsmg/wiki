@@ -91,7 +91,7 @@ Also is a ranking team member!
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f2fb) | [BeastSaber](https://bsaber.com/members/hexagonial/)
 
 ## Kival Evan
-Contributed to the [360&deg;/90&deg; best practices](./extended-mapping.md#_360°-90°-best-practices)
+Created useful utility tools for mapping and contributed to the [360&deg;/90&deg; best practices](./extended-mapping.md#_360°-90°-best-practices)
 thanks to extensive experimentation with the new mode.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855af3) | [BeastSaber](https://bsaber.com/members/kivalevan/)
 

@@ -8,6 +8,9 @@ _A list of the default color palettes used in each environment._
 
 ---
 
+## Current Colors
+Colors used by each environment and color palette can be found in Kival Evan's [Mapping Utility](https://kivalevan.me/BeatSaber-MappingUtility/#color-picker).
+
 ## 1.19.0 Colors
 These are the colors used in the 1.19.0 version of the game.
 
