@@ -232,7 +232,7 @@ Here are some mods that might make your mapping workflow a little easier.
   With the First Person Flying Controller (FPFC) launch parameter, this allows you to control the game while a map is playing
   with your keyboard and mouse without using a headset. See the section in [Basic Lighting](./basic-lighting.md#in-game-with-fpfc)
   for links to the mods and how to set it up.
-* [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) by **Kyle1413**  
+* [PracticePlugin](https://github.com/denpadokei/PracticePlugin) by **denpadokei**  
   Mod for Beat Saber to control playback speed, seek through songs and set up looping sections. Install the latest
   version from [Mod Assistant](https://github.com/Assistant/ModAssistant#readme)!
 * [ReLoader](https://github.com/Kylemc1413/ReLoader) by **Kyle1413**  
@@ -325,10 +325,10 @@ may be "map blind."
 You **DO NOT** need to upload your map to BeatSaver in order for you or anyone else to test.
 :::
 
-* If your map is using the 1.0 song format (your files are .json and .ogg) you must convert your map by
+* If your map is using the 1.0 map format (your files are `.json` and `.ogg`) you must convert your map by
   **updating your editor**, opening and saving the map. See [Community Editors](.#community-editors) for links to modern
   editors.
-* If your map is using the 2.0 song format (your files are .dat and .ogg/.egg) you’re ready to test.
+* If your map is using the 2.0 or 3.0 map format (your files are .dat and `.ogg`/`.egg`) you’re ready to test.
 
 ### Testing on a PC
 Follow these steps to test any of your maps made with a community editor using PC-based VR.
@@ -390,8 +390,11 @@ Parity Checker or Map Check in [Additional Mapping Tools](#additional-mapping-to
 :::
 
 1. Create a compressed .zip file of the individual song files.
+    * If you are using [CM](#chromapper), you can press the `Create Zip` button in the Song info Settings to create a
+    compressed `.zip` of your map.  
+    ![Create Zip button](~@images/mapping/cm-create-zip.jpg)  
     * If you are using [MMA2](./mediocre-map-assistant.md), you can press the `Package Song to Zip` button in the Song Info
-    Settings to create a compressed .zip of your map.  
+    Settings to create a compressed `.zip` of your map.  
     ![Package Song to Zip button](~@images/mapping/mma2-package-zip.jpg)  
     * If you are using [Beatmapper.app](#beatmapper-app), follow their [downloading instructions](https://beatmapper.app/docs/manual/publishing#downloading-your-map).
     * You can manually create the zip by following this [How to Video](https://streamable.com/u20ci) if you are not using
@@ -446,16 +449,14 @@ Once your song has been mapped, lighted, and playtested and it’s a finished pr
 :::
 
 1. [Create an account](https://beatsaver.com/register) on BeatSaver with a username/password or by logging in via Discord.
-    * Beatsaver usernames may only have alphanumeric characters and `-`. Usernames with spaces or `_` for example, are
-    not allowed.
-2. Click the <kbd>Upload</kbd> link in the top-right.
-3. Add your BeatSaver map name and map description. Only the map name is searchable so be sure to include song name,
-  song artist, and other terms that might make it easier to find your map.
+2. Click the <kbd>+</kbd> icon in the top-right and click <kbd>`Upload Map`</kbd>.
+3. Add your BeatSaver map name and map description. Both the title and description are searchable so be sure to include song
+  name, song artist, and other terms that might make it easier to find your map.
     * Use "tags" like (Chroma), (OneSaber), or (Mapping Extensions) if your map uses some special modifications or
       characteristics you want to highlight.
     * Putting a link to a playthrough video in the map description can help you get more downloads as it is easier
       to share your map to others and lets people know what to expect.
-4. Add your .zip file and identify whether your map was human-made or AI-assisted.
+4. Add your `.zip` file and identify whether your map was human-made or AI-assisted.
     * AI maps intentionally uploaded as human-made will be deleted.
 5. Maps are initially uploaded to your unpublished tab. You must explicitly publish them to make them available to the public.
 
@@ -472,6 +473,7 @@ Encountered something not listed here? Drop into `#mapping-discussion` for assis
 :::danger Remember:
 
 * You should have your map [playtested](#playtesting) before uploading!  
+  * WIP maps will be removed!
 * You do not need upload maps created by auto-generation software such as Deepsaber or Beat Sage to install them in your
  game. If you are on PC, you can unzip the files into your `CustomLevels` folder. If you are on Quest, follow the
  [Testing on a Quest](#testing-on-a-quest) steps to install the map.
@@ -486,10 +488,17 @@ Encountered something not listed here? Drop into `#mapping-discussion` for assis
   
 ---
 
-#### _difficultyBeatmapSets[]._difficultyBeatmaps[].`Difficulty.dat`._version``: Must not be null
+#### ``_difficultyBeatmapSets[]._difficultyBeatmaps[].`Difficulty.dat`._version``: Must not be null
 
 * You are using an old, outdated editor that is not compliant with the current data schema.
 See [Community Editors](#community-editors) for the current options.
+
+---
+
+#### ``_difficultyBeatmapSets[]._difficultyBeatmaps[]`Difficulty.dat`._notes[]_time``: Must be between 0 and x
+
+* Your map contains notes outside of the playable map (usually from a copy and paste error).
+Remove them and reattempt your upload.
 
 ---
 
@@ -510,13 +519,6 @@ This is the default error message, causes include:
 #### Could not verify user []
 
 * This error is related to recaptcha. Please reload the page.
-
----
-
-#### ``_difficultyBeatmapSets[]._difficultyBeatmaps[]`Difficulty.dat`._notes[]_time:`` Must be between 0 and x
-
-* Your map contains notes outside of the playable map (usually from a copy and paste error).
-Remove them and reattempt your upload.
 
 ---
 
