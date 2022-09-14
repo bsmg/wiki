@@ -102,7 +102,7 @@ precision to get your notes to line up then you have an issue with your audio fi
 
 | 1/1 Cursor Precision | 1/2 Cursor Precision | 1/3 Cursor Precision | 1/4 Cursor Precision |
 |:----:|:----:|:----:|:----:|
-| ![1/1 Cursor precision screenshot](~@images/mapping/1-1_precision.png) | ![1/2 Cursor precision screenshot](~@images/mapping/1-2_precision.png) | ![1/3 Cursor precision screenshot](~@images/mapping/1-3_precision.jpg) | ![1/4 Cursor precision screenshot](~@images/mapping/1-4_precision.png) |
+| ![1/1 Cursor precision screenshot](~@images/mapping/1-1_precision.png) | ![1/2 Cursor precision screenshot](~@images/mapping/1-2_precision.png) | ![1/3 Cursor precision screenshot](~@images/mapping/1-3_precision.png) | ![1/4 Cursor precision screenshot](~@images/mapping/1-4_precision.png) |
 | 1 block per beat | 2 blocks per beat | 3 blocks per beat | 4 blocks per beat |
 
 When timing out your map you’ll want to double check EARLY that the waveform in your editor is lined up with the major
