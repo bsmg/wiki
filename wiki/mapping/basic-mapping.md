@@ -41,9 +41,9 @@ Some editors will automatically create an `Autosaves` folder where you can retri
 When you’re ready to prepare your song for upload you must have a minimum of four files.
 
 ::: warning
-Special characters in languages such as, Japanese (日本語/にほんご), Kaomoji (٩(◕‿◕｡)۶), Chinese (汉语/漢語), Arabic
-(اَلْعَرَبِيَّةُ‎), and accent characters (Ä/é/ó) are not fully supported by BeatSaver. Using these characters in song
-metadata or in bookmarks can cause problems.
+While Beat Saber has support for multiple languages (English, French, German, Spanish, Japanese, and Korean), special characters
+in other languages such as Arabic(اَلْعَرَبِيَّةُ‎), Chinese (汉语/漢語), and Kaomoji (٩(◕‿◕｡)۶), are not fully supported.
+Using these characters in song metadata or in bookmarks can cause problems.
 :::
 
 ### Block Types
@@ -58,9 +58,9 @@ metadata or in bookmarks can cause problems.
 
 * Standard walls can be read by any headset and have the highest compatibility.
   New mappers should stick with these until they’re a bit more experienced.
-* There are a few types of "hack" walls that do not require the Mapping Extensions mod: fast walls (fly by you fast),
+* There are a few types of "hack" walls that do not require mods: fast walls (fly by you fast),
   hyper walls (fly by you SUPER fast), and fake walls (look like normal walls but don’t cause damage).
-* While these wall types are supported in some editors, they exploit base game mechanics and are considered unrankable.
+  * While these wall types are supported in community editors, they exploit base game mechanics and is not intended behaviour.
 * Read up more on base game walls in [Intermediate Mapping](./intermediate-mapping.md) and
   "fancy" mapping/noodle extensions walls in [Extended Mapping](./extended-mapping.md)
 
@@ -95,7 +95,7 @@ to tell from 1/4 to an inexperienced ear. You should not need to use less than 1
 *including* mapping to vocals.
 
 ::: warning  
-90% of the time, mapping with high precision (1/8, 1/16, 1/32, or 1/64) will make your song mistimed. If you need high
+90% of the time, mapping with high precision (1/16, 1/32, or 1/64) will make your song mistimed. If you need high
 precision to get your notes to line up then you have an issue with your audio file setup. STOP and review
 [Basic Audio Setup](./basic-audio.md) to ensure you’re in sync!
 :::  
@@ -144,7 +144,7 @@ understand at least the basic ideas of emphasis and consistency and how they imp
 * Consider the base sound your mapping to to be a single hit (one block), including quiet or chill sections
 * When the sound is "bigger" or you have two different instruments hitting on the same beat you can think about using a
   double hit or a stack (two blocks).
-* For only the biggest sounds in the song you could use a double tower (four blocks, two for each hand) or other
+* For only the biggest sounds in the song you could use a double tower (six blocks, three for each hand) or other
   heavyweight pattern, but many songs never need this amount of emphasis.
 
 Many new mappers instinctively want to use double hits all the time, but remember that those are heavy emphasis and if
@@ -159,7 +159,7 @@ that energy.
 
 **Consistency** is mapping the same sound with the same weight when it appears.  
 Mapping consistently does NOT always mean to copy/paste/mirror, though there are some times when that is appropriate.
-If you choose to map a particular big sound as a double, for example, that same sound should always be mapped with a double.
+If you choose to map a particular big sound as a double, for example, that same sound should usually be mapped with a double.
 
 ## Pattern Best Practices
 This section details the principles one should follow for a playable and enjoyable map.
@@ -169,14 +169,13 @@ of the most common issues that are covered in this section.
 
 ### Vision Blocks
 Vision blocks are any patterns that obscure the player’s vision and make it difficult to sight read a map, if not outright
-uncomfortable. The primary cause of vision blocks is use of the middle two positions of the track, but there’s risk of a
-block any time the middle row is used.
+uncomfortable. The primary cause of vision blocks is use of the middle two positions of the track.
 
 **Vision blocks can be avoided by:**
 
-* Not using the center two positions of the track or
-* Ensuring that blocks following anything in the middle row are either far enough away or in another position to the right
-  or left of the block.
+* Not using the center two positions of the track; or
+* Ensuring that blocks following anything in the centre are either far enough away or in another position on the
+  opposite half of the grid; or
 * Making sure that your player is pushed to the side with either obstacles or patterns so the center positions no longer
   completely block the player.
 
@@ -190,6 +189,8 @@ block any time the middle row is used.
 ::: tip  
 **Mediocre Map Assistant 2** has a built-in handy-dandy error checker that can find vision blocks.
 Learn more in the [MMA2 User Guide](./mediocre-map-assistant.md#error-checker).
+
+**ChroMapper** has plugins that can be used to find vision blocks.
 :::
 
 ### Double Directionals & Resets
@@ -223,15 +224,9 @@ If you’re using intentional DDs in a dance-style map you’ll need to make you
 the player enough time to react.
 :::
 
-::: danger
-Wrist resets are when you change the forehand/backhand flow of a a pattern mid-stream causing your player to roll their
-wrist to reset flow. They can break normal human body mechanics and put players at serious risk of joint damage. Do not
-use wrist resets at high precision!
-:::
-
-When long periods of time pass between notes, the player will reset their arm position so it’s often preferable to start
-the new section with a down block.  In gray areas of time, like 3 seconds without notes, it is up to the mapper to reset
-the player or to continue the flow.
+After a long break without notes, it is up to the mapper to whether reset the player or to continue the flow after the break.
+It is worth noting at higher difficulties, player are more inclined hold their position during a break and continue flow
+rather than reset.
 
 Want to learn more about resets? Read [Intermediate Mapping](./intermediate-mapping.md)!
 
@@ -428,10 +423,10 @@ lower difficulties:
 * They look professional when cruising for new maps, just like the base game maps.
 * Players who are good at the game can use your lower difficulties for training, such as accuracy players.
 
-The difficulty of a map is comprised of a combination of *density* (rhythm choice), *complexity* (pattern choice), and
-*readability* (NJS and Offset). There should be a smooth progression as you work your way down from Expert+ to Easy.
-When building lower difficulties, it’s important to understand what skills players at different levels have and try to
-preserve the map's identity as you work your way down the spread.
+The difficulty of a map is comprised of a combination of *density* (rhythm choice), *complexity* (pattern choice). There
+should be a smooth progression as you work your way down from Expert+ to Easy. When building lower difficulties, it’s
+important to understand what skills players at different levels have and try to preserve the map's identity as you work
+your way down the spread.
 
 For more information on mapping lower difficulties than what is on this page, check out [Downmapping](./downmapping.md).
 
@@ -450,10 +445,10 @@ react before you throw something new at them at each level of difficulty.
 | Difficulty | Pattern Notes |
 |:----:|:----|
 | Expert+ | &#8227; Welcome to the wild west! You can throw any good mapping practices at your player here.<br />&#8227; Parity is expected at this level, especially for high BPM songs. Lower BPM songs may be more lenient but parity breaks are discouraged.<br />&#8227; Always be mindful of common errors, such as resets and vision blocks. |
-| Expert | &#8227; All note directions are viable here in any proportion.<br />&#8227; All note positions viable here in any proportion. For patterns of wider spacing, give them enough reaction time and be mindful of the player’s stamina.<br />&#8227; Any color, any lane is fine. Crossovers should be used wisely and not combined with other weird patterns.<br />&#8227; Flow is critical. Parity will make or break your map.<br />&#8227; All emphasis options are on the table, including stacks and sliders.<br />&#8227; All obstacles are fair game, but be wary about creating vision blocks. |
-| Hard | &#8227; All cardinal directions are viable. Occasional diagonals are fine, but give plenty of time to react and recover.<br />&#8227; All note positions viable here in any proportion. Top row notes are fine, but make sure the spacing is not tiring for the player.<br />&#8227; Any color, any lane is fine. Always provide enough reaction time before a *true* crossover where the player’s arms have to physically cross over each other.<br />&#8227; Flow is critical unless you have an extended break. Try to maintain parity with every swing.<br />&#8227; Most emphasis options are available, including inverted doubles with sabers going opposite directions. Stacks and sliders are fine, but keep them two notes long and don’t overuse them.<br />&#8227; All obstacles are fair game, but be wary about creating vision blocks. |
-| Normal | &#8227; All cardinal directions are viable. Diagonals are not recommended for this level. All side notes should be treated as forehand hits.<br />&#8227; Notes should lie mostly in the bottom row. Use the middle row as a flourish for emphasis. Use the top row sparingly with dot notes only.<br />&#8227; Keep red notes primarily on the left side and blue on the right. Avoid crossovers entirely.<br />&#8227; Players will tend to reset after every hit, but you can introduce flow when the notes are too close together.<br />&#8227; Inverted doubles are manageable, but don't overuse them. Stacks and sliders should be scarce.<br />&#8227; If obstacles are used, they should be easy to avoid. You can sprinkle in notes simultaneously, but give plenty of time to react and recover. |
-| Easy | &#8227; All cardinal directions are viable. Diagonals are not recommended for this level. All side notes should be treated as forehand hits.<br />&#8227; Notes should mostly lie in the bottom row. Use the middle row as a flourish for emphasis. Use the top row sparingly with dot notes only.<br />&#8227; Keep red notes primarily on the left side and blue on the right. Avoid crossovers entirely.<br />&#8227; Knock yourself out with parity breaks. Players will reset after every hit.<br />&#8227; Avoid inverted doubles. Sliders and stacks are not recommended.<br />&#8227; If obstacles are used, they should be easy to avoid with no simultaneous notes. |
+| Expert | &#8227; All note directions are viable here in any proportion.<br />&#8227; All note positions viable here in any proportion. For patterns of wider spacing, give them enough reaction time and be mindful of the player’s stamina.<br />&#8227; Any color, any lane is fine. Crossovers are fair game however keep sections of extended crossovers short.<br />&#8227; Flow is critical. Parity will make or break your map.<br />&#8227; All emphasis options are on the table, including stacks and sliders.<br />&#8227; All obstacles are fair game, but be wary about creating vision blocks. |
+| Hard | &#8227; All cardinal directions are viable. Diagonals are less common.<br />&#8227; All note positions viable here in any proportion. Top row notes are fine though less common. Make sure the spacing is not tiring for the player.<br />&#8227; Any color, any lane is fine. Crossovers are simple and give the player enough time to react and recover afterwards.<br />&#8227; Flow is critical unless you have an extended break. Try to maintain parity with every swing.<br />&#8227; Most emphasis options are available, including inverted doubles with sabers going opposite directions. Stacks and sliders are fine, but keep them two notes long and don’t overuse them.<br />&#8227; All obstacles are fair game, but be wary about creating vision blocks. |
+| Normal | &#8227; All cardinal directions are viable. Diagonals are uncommon for this level.<br />&#8227; Notes should lie mostly in the bottom row. Use the middle row as a flourish for emphasis. Use the top row sparingly with dot notes only.<br />&#8227; Keep red notes primarily on the left side and blue on the right. Avoid crossovers entirely.<br />&#8227; Players will tend to reset after every hit, but you can introduce flow when the notes are close together.<br />&#8227; Inverted doubles are manageable, but don't overuse them. Stacks and sliders should be scarce.<br />&#8227; If obstacles are used, keep them simple. You can sprinkle in notes simultaneously, but give plenty of time to react and recover. |
+| Easy | &#8227; All cardinal directions are viable. Diagonals are very uncommon for this level.<br />&#8227; Notes should mostly lie in the bottom row. Use the middle row as a flourish for emphasis. Use the top row very sparingly with dot notes only.<br />&#8227; Keep red notes primarily on the left side and blue on the right. Avoid crossovers entirely.<br />&#8227; Knock yourself out with parity breaks. Players will reset after every hit.<br />&#8227; Avoid inverted doubles. Sliders and stacks are not recommended.<br />&#8227; If obstacles are used, keep them simple. Any simultaneous notes must be simple and clearly readable. |
 <!-- markdownlint-enable MD013 -->
 
 ### Note Density
@@ -471,9 +466,9 @@ spreadsheet.
 | :---------: | :---------: |
 | **Easy**    | 0.82 - 2.20 |
 | **Normal**  | 1.05 - 3.22 |
-| **Hard**    | 1.73 - 4.24 |
+| **Hard**    | 1.73 - 4.53 |
 | **Expert**  | 2.42 - 6.49 |
-| **Expert+** | 3.21 - 8.69 |
+| **Expert+** | 3.21 - 8.83 |
 
 In general, the rhythm choices across the spread should fit the song. A 200 BPM speed map is going to have a higher note
 density than a 120 BPM dance map.
@@ -488,9 +483,9 @@ notes move faster, while a lower value will make the notes move slower.
 * **Jump Distance** (JD, also known as **Spawn Distance**) is a measure of the physical distance (in meters) that a note
 will travel to reach the player.
 * **Half Jump Duration** (HJD) is a measure of time (in beats) from when a note spawns to when it reaches the player.
-* **Spawn Distance Offset** (Offset, also known as **Spawn Distance Modifier**) is a modifier that directly affects the
-Jump Distance. A higher value will make the notes spawn further away from the player, while a lower value will bring the
-notes closer.
+* **Start Beat Offset** (also known as **Spawn Distance Modifier**) is a modifier that directly affects the Half Jump Duration
+which in turns affects Jump Distance. A positive value will make the notes spawn further away from the player, while a negative
+value will bring the notes closer.
 
 The following video demonstrates the effect of these values in-game:  
 [YouTube](https://youtu.be/S70CDoWjdwk) | [Streamable](https://streamable.com/2l7fz9).
@@ -505,11 +500,11 @@ recommended baseline for where your values may lie.
 
 | Difficulty  | NJS Ranges | JD Ranges   |
 | :---------: | :--------: | :---------: |
-| **Easy**    | 10-12      | 27-30       |
-| **Normal**  | 10-12      | 27-30       |
-| **Hard**    | 10-15      | 24-30       |
-| **Expert**  | 12-18      | 24-27       |
-| **Expert+** | 15-23      | 24-27       |
+| **Easy**    | 10-12      | 25-30       |
+| **Normal**  | 10-12      | 25-30       |
+| **Hard**    | 10-15      | 23-30       |
+| **Expert**  | 12-18      | 23-27       |
+| **Expert+** | 15-23      | 21-27       |
 
 ## Playtesting
 Already mentioned in detail on the [Mapping Home Page](./#playtesting) it’s important enough to mention again here:
