@@ -96,13 +96,6 @@ SirSpam likes steak between two slices of bread!
 
 [YouTube](https://www.youtube.com/channel/UCaQ7PLj4AqGHZnqQVjc_XBQ)
 
-## StormPacer
-I can show you the world after you show me your _latest.log
-
-**Roles:** Support
-
-[Github](https://github.com/StormPacer)
-
 ## Toblersto
 I decided I wanted to help one day, and have been slightly addicted ever since.
 
@@ -129,7 +122,8 @@ A very helpful individual
 **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
 **Modders:** [Kyle1413](./modders.md#kyle1413) | [Sirspam](./modders.md#sirspam) | [rui2015](./moderators.md#rui2015)  
 **Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer-retired)
-  | [Chara_](./moderators.md#chara) | [Burrito](./moderators.md#burrito) | [OneEyed](./moderators.md#oneeyed-retired)  
+  | [Chara_](./moderators.md#chara-retired) | [Burrito](./moderators.md#burrito)
+  | [OneEyed](./moderators.md#oneeyed-retired) | [Storm](./moderators.md#storm)  
 **Staff:** [Assistant](./staff.md#assistant-retired) | [Eradawn](./staff.md#eradawn) | [Klouder](./staff.md#klouder-retired)
 | [Megalon](./staff.md#megalon) | [Pink](./staff.md#pink) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums)
 | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)

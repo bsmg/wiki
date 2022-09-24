@@ -22,12 +22,17 @@ Ironically doesn't like burritos, thinks tacos are better (true facts)
 
 [Twitter](https://twitter.com/BurritoSOFTWARE) | [GitHub Sponsors](https://github.com/sponsors/burritosoftware) | [Tip](https://streamelements.com/burritosoft/tip)
 
-## Chara_
-crippling destiny addiction
+## ezconfirmed
 
-**Roles:** Support, 3D Artists, Moderator
+**Roles:** Moderator
 
-[Qosmetics Community](https://discord.gg/qosmetics) | [YouTube](https://www.youtube.com/c/CharaHere) | [Twitter](https://twitter.com/ItsCharaHere)
+## fqrb
+
+**Roles:** Moderator
+
+## Gregi
+
+**Roles:** Moderator
 
 ## Hydrand
 Camellia is SourPls
@@ -36,13 +41,12 @@ Camellia is SourPls
 
 [Twitch](https://www.twitch.tv/hydrandvr)
 
-## Kuru
-All they can say is that the R in Kuru stands for Rat
+## iSmellFood
 
 **Roles:** Moderator
 
-## Nym
-"i like the gaymes. Addicted to many, don't like any of them, send cat pics."
+## Kuru
+All they can say is that the R in Kuru stands for Rat
 
 **Roles:** Moderator
 
@@ -60,6 +64,10 @@ Has no creativity and doesn't know what to put here. Is a cool person though.
 
 [GitHub](https://github.com/FranciscoRibeiro03) | [Ko-Fi](https://ko-fi.com/rui2015) | [PayPal](https://paypal.me/rui2015)
 
+## POV Sacrament
+
+**Roles:** Moderator
+
 ## Shad
 "Every channel is just #pc-mod-support"
 
@@ -67,6 +75,13 @@ Has no creativity and doesn't know what to put here. Is a cool person though.
 
 [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45) | [YouTube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ)
 | [Twitch](https://www.twitch.tv/shadlive)
+
+## Storm
+I can show you the world after you show me your _latest.log
+
+**Roles:** Moderator, Support
+
+[Github](https://github.com/StormPacer)
 
 ## Zion
 kinda vibing
@@ -81,6 +96,13 @@ Also hates sketchfab links.
 **Roles:** Moderator, 3D Artists
 
 [Twitch](https://www.twitch.tv/beigeanimaltv) | [Paypal](https://paypal.me/beigeanimal)
+
+## Chara_ (Retired)
+crippling destiny addiction
+
+**Roles:** Support, 3D Artists, Moderator
+
+[Qosmetics Community](https://discord.gg/qosmetics) | [YouTube](https://www.youtube.com/c/CharaHere) | [Twitter](https://twitter.com/ItsCharaHere)
 
 ## DeeJay (Retired)
 Pepega
@@ -114,6 +136,11 @@ Can't hit jumps
 **Roles:** Moderator
 
 [Twitch](https://www.twitch.tv/infjager)
+
+## Nym (Retired)
+"i like the gaymes. Addicted to many, don't like any of them, send cat pics."
+
+**Roles:** Moderator
 
 ## Olaf (Retired)
 Any stroopwafels?  
