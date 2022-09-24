@@ -796,8 +796,8 @@ A json object containing data describes the lane filter.
 ###### f, p, t
 |`f`|Editor Name|Result|
 |---|-----------|------|
-|`1`|Sections|`p` determines how many sections the light groups is split into <br />`t` determines which section to use|
-|`2`|Step and Offset|`p` determines how many lights to skip<br />`t` determines which light to start from|
+|`1`|Sections|`p` determines how many sections the light group is split into <br />`t` determines which section to use|
+|`2`|Step and Offset|`p` determines which light to start from <br />`t` determines how many lights to skip|
 
 ###### r
 A boolean which determines if the filter is applied in reverse order.
@@ -904,7 +904,7 @@ A json object containing data describes the lane filter.
 |`f`|Editor Name|Result|
 |---|-----------|------|
 |`1`|Sections|`p` determines how many sections the light group is split into <br />`t` determines which section to use|
-|`2`|Step and Offset|`p` determines how many lights to skip<br />`t` determines which light to start from|
+|`2`|Step and Offset|`p` determines which light to start from <br />`t` determines how many lights to skip|
 
 ###### r
 A boolean which determines if the filter is applied in reverse order.

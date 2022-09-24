@@ -37,28 +37,31 @@ Also is a staff member that helps maintain and improve the resources.
 
 ## Bullet
 Contributed environment lighting videos in [Basic Lighting](./basic-lighting.md), Chroma sections in
-[Intermediate Lighting](./intermediate-lighting.md) and [Advanced Lighting](./advanced-lighting.md), and various other pages.
+[Intermediate Lighting](./intermediate-lighting.md) and [Advanced Lighting](./advanced-lighting.md), and many edits on other
+pages.
 Has an interesting username...  
 [BeatSaver](https://beatsaver.com/uploader/5e84a9933f476a000645dd88) | [BeastSaber](https://bsaber.com/members/xace1337manx/)
 
 ## Caeden117
 Modder, Moderator, Mapper, EditorMaster... Caeden does it all. As the primary dev on the ChroMapper project
-(which natively supports 360) he contributed a TON for 360&deg;/90&deg; best practices.  
+(which natively supports 360) he contributed a TON for [360&deg;/90&deg; best practices](./extended-mapping.md#_360°-90°-best-practices)
+and the [Map Format](./map-format.md) documentation page.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ee26) | [BeastSaber](https://bsaber.com/members/caeden117/)
 | [Donate](https://ko-fi.com/Caeden117)
 
 ## Checkthepan
 Some nerd who spends more time writing about mapping than actually doing it. Adapted the theory of parity and wrote a
-guide on how it applies in Beat Saber mapping as well as contributing to 360&deg;/90&deg; best practices.  
+guide on how it applies in Beat Saber mapping as well as contributing to
+[360&deg;/90&deg; best practices](./extended-mapping.md#_360°-90°-best-practices).  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f3d5) | [BeastSaber](https://bsaber.com/members/checkthepan/)
 
 ## CyanSnow
 A furry on Mondays and Wednesdays, makes awesome maps with various gimmicks. Verified information on a lot of things and
-contributed to the walls section in Intermediate Mapping!  
+contributed to the walls section in [Intermediate Mapping](./intermediate-mapping.md)!  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8543ac) | [BeastSaber](https://bsaber.com/members/cyansnow/)
 
 ## DarkGrisen
-Contributed to the Intermediate Mapping page.  
+Contributed to the [Intermediate Mapping](./intermediate-mapping.md) page.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84fe44) | [BeastSaber](https://bsaber.com/members/darkgrisen/)
 
 ## Freeek
@@ -91,8 +94,8 @@ Also is a ranking team member!
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84f2fb) | [BeastSaber](https://bsaber.com/members/hexagonial/)
 
 ## Kival Evan
-Contributed to the [360&deg;/90&deg; best practices](./extended-mapping.md#_360°-90°-best-practices)
-thanks to extensive experimentation with the new mode.  
+Created useful utility tools for mapping and contributed to the [360&deg;/90&deg; best practices](./extended-mapping.md#_360°-90°-best-practices)
+and [Map Format](./map-format.md) thanks to extensive experimentation.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855af3) | [BeastSaber](https://bsaber.com/members/kivalevan/)
 
 ## Kolezan
