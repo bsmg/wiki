@@ -62,6 +62,16 @@ version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/Mo
 
 ![Mod Assistant](~@images/beginners-guide/modassistant.png)
 
+### BeatSaberModManager
+
+__**Run the game at least once**__ before trying to mod the game! This applies to reinstalling your game too.
+
+Yet another mod installer for Beat Saber, heavily inspired by ModAssistant.
+It strives to look more visually appealing and support both Windows and Linux, while still being as feature-rich as ModAssistant.
+Get it on [affederaffe's GitHub](https://github.com/affederaffe/BeatSaberModManager/releases/latest)
+
+![BeatSaberModManager](~@images/beginners-guide/beatsabermodmanager.png)
+
 ## How to get more songs
 ::: tip
 Most maps in the "Top All", "Rating", "Downloads" or "Plays" sort filters were created before
