@@ -51,6 +51,11 @@ is too uncreative to think of a bio
 
 **Roles:** Support
 
+## Nuggo
+A fine nugget... A tasty nugget
+
+**Roles:** Support
+
 ## Pespiri
 He'll give me his bio later today, or so he says.
 
