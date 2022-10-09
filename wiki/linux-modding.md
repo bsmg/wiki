@@ -23,7 +23,7 @@ extract it to a directory on your system.
 2. Run the executable.
 3. Read the Intro, then navigate to the `Mods` tab and select the mods you want to install, finally press `Refresh Mods`.
 
-![BeatSaberModManager Mods Tab](~@images/modding/beatsabermodmanager-mods-tab.png)
+![BeatSaberModManager Mods Tab](~@images/beginners-guide/beatsabermodmanager.png)
 
 4. Wait for your mods to finish installing.
 5. Start Beat Saber. Your mods should be installed.
