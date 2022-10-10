@@ -47,9 +47,9 @@ and add it to your PATH variable.
 
 ### Templatr
 
-You can download the [latest release here.](https://github.com/cal117/templatr/releases/latest)
+You can download the [latest release here.](https://github.com/QuestPackageManager/templatr/actions)
 
-Extract the executable and add it to your PATH variable.
+Click the most recent build, than scroll down and find the `.exe` for your OS. Extract the executable and add it to your PATH variable.
 
 Linux/MacOS users will need to run `chmod +x templatr` before using `templatr`.
 
