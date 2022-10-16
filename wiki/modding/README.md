@@ -48,7 +48,7 @@ Helpful launch arguments that will make modding / debugging easier.
 * [Unity Scripting API](https://docs.unity3d.com/ScriptReference/index.html)
 * [dnSpy](https://github.com/0xd4d/dnSpy)
 * [Harmony](https://github.com/pardeike/Harmony)
-* [Beat Saber IPA](https://bsmg.github.io/BeatSaber-IPA-Reloaded/)
+* [Beat Saber IPA](https://nike4613.github.io/BeatSaber-IPA-Reloaded/)
 
 ## Quest Mod Development
 
