@@ -490,6 +490,10 @@ value will bring the notes closer.
 The following video demonstrates the effect of these values in-game:  
 [YouTube](https://youtu.be/S70CDoWjdwk) | [Streamable](https://streamable.com/2l7fz9).
 
+The NJS of your map will affect both the spacing between notes and the timing windows provided for the player. A larger value
+will make your map more readable at the cost of being more timing-dependent for the player. Aim for the *lowest possible*
+value that would ensure a balance between the readability and playability of your map.
+
 Changing the NJS or Offset values will modify the HJD and JD of your map. Community editors will show you how these values
 change as you make adjustments. Fine-tuned NJS and Offset are a matter of personal taste, so you may need to rely on trial
 and error to find values that work for you. For lower difficulties, always be wary about putting too many notes on-screen
