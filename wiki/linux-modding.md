@@ -12,6 +12,22 @@ It is very similar to a Windows install, but you will need some workarounds.
 Using mods in Linux isn't supported by mod developers, so you might encounter bugs!
 :::
 
+### Using BeatSaberModManager
+::: danger
+**Run the game at least once** before trying to mod the game! This applies to reinstalling your game too.
+:::
+
+1. Download BeatSaberModManager from [Github](https://github.com/affederaffe/BeatSaberModManager/releases) and
+extract it to a directory on your system.
+
+2. Run the executable.
+3. Read the Intro, then navigate to the `Mods` tab and select the mods you want to install, finally press `Refresh Mods`.
+
+![BeatSaberModManager Mods Tab](~@images/beginners-guide/beatsabermodmanager.png)
+
+4. Wait for your mods to finish installing.
+5. Start Beat Saber. Your mods should be installed.
+
 ### Using Beataroni
 ::: danger
 **Run the game at least once** before trying to mod the game! This applies to reinstalling your game too.

@@ -37,7 +37,7 @@ loading times and provide functionality for other mods like the in-game download
 ::: warning
 This guide is for PC-modding on Windows.  
 If you have a Quest, see the [Quest Modding page](/quest-modding.md).  
-If you're on Linux, check out the [Linux page](./linux-modding.md) or [Beataroni](https://github.com/geefr/beatsaber-linux-goodies/#readme)
+If you're on Linux, check out the [Linux page](./linux-modding.md)
 :::
 
 If you run into problems at any point, please head to the [support page](./support/) and see if you can identify what
@@ -61,6 +61,16 @@ A simple Beat Saber Mod Installer similar to the mod manager, but with additiona
 version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
 
 ![Mod Assistant](~@images/beginners-guide/modassistant.png)
+
+### BeatSaberModManager
+
+__**Run the game at least once**__ before trying to mod the game! This applies to reinstalling your game too.
+
+Yet another mod installer for Beat Saber, heavily inspired by ModAssistant.
+It strives to look more visually appealing and support both Windows and Linux, while still being as feature-rich as ModAssistant.
+Get it on [affederaffe's GitHub](https://github.com/affederaffe/BeatSaberModManager/releases/latest)
+
+![BeatSaberModManager](~@images/beginners-guide/beatsabermodmanager.png)
 
 ## How to get more songs
 ::: tip
