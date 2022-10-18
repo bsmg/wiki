@@ -135,9 +135,7 @@ You may find the [Map Format Page](./map-format.md) and the
 The official editor is developed and supported by Beat Games and pre-installed with the Steam VR or Oculus PC versions
 of Beat Saber.
 
-:::tip Info Coming Soon
-Check back later for information on the new 3D official editor that supports the new note types and lighting system!
-:::
+* [Official Editor Documentation](https://beatsaber.com/documentation.html)
 
 #### Migrating from Official Editor to a Community Editor
 :::warning NOTE
