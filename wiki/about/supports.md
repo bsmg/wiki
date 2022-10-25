@@ -29,6 +29,11 @@ He likes playing Beat Saber. He also likes helping people fix their problems so 
 
 **Roles:** Support
 
+## KnuckleDF
+Answered one question. Then a few more. Now he's here.
+
+**Roles:** Support
+
 ## KodenameKRAK
 "Maybe in a couple years I could think of something to put here"
 
