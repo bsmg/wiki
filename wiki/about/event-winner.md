@@ -10,8 +10,50 @@ If you want to see us holding more fun events, please consider contributing to t
 
 ---
 
+## 2022 Halloween Competition
+The fifth annual Halloween contest. Helen provided some spooooky bloq plushies this year!
+
+---
+
+[Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/1036016453264080946)
+
+### Map Winners
+
+#### Vanilla
+
+* **1st:** [Betty Booom - Spooky Scary Skeletons](https://beatsaver.com/maps/2b1bc) by **Nixie.Korten**
+* **2nd:** [Hatsuki Yura - Halloween of the Dead](https://beatsaver.com/maps/2a5d8) by **EOP Glacier**
+* **3rd:** [Electron - Spellbound](https://beatsaver.com/maps/2b298) by **Kival Evan**
+
+#### Modded
+
+* **1st:** [acloudyskye - Dormant](https://beatsaver.com/maps/2b2b6) by **Swifter**
+* **2nd:** [2WEI & Edda Hayes - Burn](https://beatsaver.com/maps/2b0c1) by **Grantavious**
+
+#### Chroma/Lightshow
+
+* **1st** [Ampzer - Phere](https://beatsaver.com/maps/2b2b9) by **Bitz** and **Jabob**
+
+### Model Winners
+
+* **1st:** PC Platform [HalloweenTPLAT](https://tonihub.com/HalloweenTPLAT.zip) by **Toni Macaroni**
+* **2nd:** PC Saber [Verteblade](https://modelsaber.com/Sabers/?id=1665795896&pc) by **3.wav**
+* **3rd:** PC Platform [Pumpkin Alley](https://1drv.ms/u/s!ApEbyoqokdmZlhLUDCEFgGWw0EXE?e=dFcgKW) by **SmokyJoe**
+
+### Grand Prize
+
+PC Platform [HalloweenTPLAT](https://tonihub.com/HalloweenTPLAT.zip) by **Toni Macaroni**
+
+#### Download this year's submissions all together here
+
+[PC Models](https://drive.google.com/file/d/17gXYjz-iQv7no_0jsP-vZfjO1MICiRhb/view?usp=sharing)
+[Quest Model](https://drive.google.com/file/d/1gcjvmILzCeZyEaA_jNaX7dv8EUy79avW/view?usp=sharing)
+[Maps](https://beatsaver.com/playlists/9564)
+
 ## 2021 Christmas Competition
 The fourth Christmas competition. Now with 1000% more Padoru!
+
+---
 
 [Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/924057004618678292)
 
@@ -45,10 +87,16 @@ by **Knight** and Platform [Snow Forest](https://tonihub.com/SnowForest.zip) by 
 
 Congrats to all the finalists!
 
----
+#### Download this year's submissions all together here
+
+[PC Models](https://drive.google.com/file/d/1c07nCKHYjmdpsgWNqAv_mslokeyXHjsx/view?usp=sharing)
+[Quest Models](https://drive.google.com/file/d/1O4pCCoweQpO3_o3pVXW9yE1Aje35pWid/view?usp=sharing)
+[Maps](https://beatsaver.com/playlists/4425)
 
 ## 2021 Halloween Competition
 The fourth Halloween contest. CMB turned into a pumpkin!
+
+---
 
 [Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/904113909131247729)
 
@@ -74,6 +122,12 @@ The fourth Halloween contest. CMB turned into a pumpkin!
 
 ### Grand Prize
 [Curse](https://modelsaber.com/Sabers/?id=1635299789&pc) by **iSmellFood**
+
+#### Download this year's submissions all together here
+
+[PC Models](https://drive.google.com/file/d/1Go3lt6fJLe4_WWXhcGSAsR-1DzUevrcF/view?usp=sharing)
+[Quest Models](https://drive.google.com/file/d/11Gy6_dTDYJNR9QXDM0Oe6mFPhEyZuP7C/view?usp=sharing)
+[Maps](https://beatsaver.com/playlists/4424)
 
 ## 2021 Bloodcloak's Birthday Bash
 In celebration of Bloodcloak's Birthday, this was a stage vc triva game show hosted by them based on a small impromptu
@@ -168,6 +222,11 @@ The third Holiday/Winter contest, Christmas 2: Electric Padoru.
 ### Grand Prize
 [PENTATONIX - Sleigh Ride](https://beatsaver.com/beatmap/11c10) by **ETAN**
 
+#### Download this year's submissions all together here
+
+[Models](https://drive.google.com/file/d/1FO8kundrwt4PENKw6cB4crZ2h6Epzeaj/view?usp=sharing)
+[Maps](https://beatsaver.com/playlists/4423)
+
 ## 2020 Halloween Contest
 The third Halloween contest. This time with celebrity judges, LostVint, Protostar, Ikeiwa, C418, TougeVR, Mawntee, and PHIABunny.
 Also **a _whole pumpkin_** was given as part of the Grand Prize courtesy of **Steven 🎀**.
@@ -196,6 +255,10 @@ Also **a _whole pumpkin_** was given as part of the Grand Prize courtesy of **St
 
 ### Grand Prize
 [Code:Pandorum, Figure - RedRum](https://beatsaver.com/beatmap/1021f) by **nitronik.exe**
+
+#### Download this year's submissions all together here
+
+[Maps](https://beatsaver.com/playlists/4422)
 
 ## 2020 Battle Royale
 An all out Battle Royale managed by Reaxt that went for almost 9 hours. Challengers faced a variety of challenges
