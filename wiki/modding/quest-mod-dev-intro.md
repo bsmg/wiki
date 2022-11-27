@@ -40,10 +40,12 @@ The following pieces of software are needed to follow this guide.
 [Download the latest QPM Rust binary for your system](https://github.com/QuestPackageManager/QPM.CLI) from the
 Actions tab and add it to your PATH variable.
 
+Windows users may use the installer instead.
+
 ### Ninja
 
 #### QPM-Rust v2
-With qpm-rust v2, you can run `qpm-rust download ninja`, which will download `ninja` and place it within the same folder `qpm-rust` resides in.
+`qpm-rust download ninja`, which will download `ninja` and place it within the same folder `qpm-rust` resides in.
 
 #### Old method
 
@@ -53,7 +55,7 @@ and add it to your PATH variable.
 ### Templatr
 
 #### QPM-Rust v2
-QPM-Rust v2 now bundles `templatr` within itself, and can be invoked through `qpm-rust templatr`
+QPM-Rust v2 now bundles `templatr` within itself, and can be invoked through `qpm-rust templatr`.
 
 #### Standalone
 
@@ -73,6 +75,7 @@ templatr --help
 
 ### CMake
 CMake is generally easy to install on any OS it supports. Windows has installers and Linux through package repositories. However, QPM-Rust also allows for installing CMake and adding it to path automatically.
+
 `qpm-rust download cmake` (May possibly not work on Linux or Mac) 
 
 ### Android NDK
@@ -82,6 +85,8 @@ QPM-Rust v2 supports downloading and listing available NDK archives for your cur
 
 Example:
 `qpm-rust ndk download 25.1.8937393`
+
+#### Manual
 
 [Download the Android NDK](https://developer.android.com/ndk), unzip it and add it to your PATH variable.
 
