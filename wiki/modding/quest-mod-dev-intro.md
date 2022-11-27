@@ -37,15 +37,25 @@ The following pieces of software are needed to follow this guide.
 
 ### QPM Rust
 
-[Download the latest QPM Rust binary for your system](https://github.com/RedBrumbler/QuestPackageManager-Rust) from the
+[Download the latest QPM Rust binary for your system](https://github.com/QuestPackageManager/QPM.CLI) from the
 Actions tab and add it to your PATH variable.
 
 ### Ninja
+
+#### QPM-Rust v2
+With qpm-rust v2, you can run `qpm-rust download ninja`, which will download `ninja` and place it within the same folder `qpm-rust` resides in.
+
+#### Old method
 
 [Download the latest Ninja binary for your system](https://github.com/ninja-build/ninja/releases) from the Releases tab
 and add it to your PATH variable.
 
 ### Templatr
+
+#### QPM-Rust v2
+QPM-Rust v2 now bundles `templatr` within itself, and can be invoked through `qpm-rust templatr`
+
+#### Standalone
 
 You can download the [latest release here.](https://github.com/QuestPackageManager/templatr/actions)
 
@@ -61,7 +71,17 @@ To check if `templatr` was installed, run the help command in Powershell.
 templatr --help
 ```
 
+### CMake
+CMake is generally easy to install on any OS it supports. Windows has installers and Linux through package repositories. However, QPM-Rust also allows for installing CMake and adding it to path automatically.
+`qpm-rust download cmake` (May possibly not work on Linux or Mac) 
+
 ### Android NDK
+
+#### QPM-Rust v2
+QPM-Rust v2 supports downloading and listing available NDK archives for your current OS. See `qpm-rust ndk` for more details.
+
+Example:
+`qpm-rust ndk download 25.1.8937393`
 
 [Download the Android NDK](https://developer.android.com/ndk), unzip it and add it to your PATH variable.
 
@@ -71,7 +91,7 @@ Once you have setup your environment you can now generate a mod template. The te
 [Lauriethefish](https://github.com/Lauriethefish/quest-mod-template). To start run the following command in Powershell.
 
 ```powershell
-templatr use Lauriethefish/quest-mod-template
+[qpm-rust] templatr use Lauriethefish/quest-mod-template
 ```
 
 Templatr will then ask a series of questions to create a mod project.
@@ -104,7 +124,7 @@ In a Powershell terminal in the project directory run:
 qpm-rust restore
 ```
 
-### Migrate from qpm to qpm-rust
+### Migrate from qpm to qpm-rust (No longer required)
 If you had an install of qpm before following this guide and want to migrate to qpm-rust, you will need to fix the cache
 paths for old dependencies (such as codegen before Beat Saber version 1.17.0) by running the following command in the
 project directory.
