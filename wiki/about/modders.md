@@ -284,6 +284,16 @@ Sabers, Bloqs, Walls, you use em, I make em work.
 
 [GitHub](https://github.com/RedBrumbler) | [PayPal](https://paypal.me/RedBrumblerOfficial) | [Patreon](https://www.patreon.com/Qosmetics)
 
+## Reezonate
+If UI can be pretty, it will be pretty (and over engineered) 
+
+Creator and maintainer of EasyOffset. One of the founders of BeatLeader community
+
+**Roles:** Modder
+**Contributions:** EasyOffset, BeatLeader, CameraUtils
+
+[GitHub](https://github.com/Reezonate) | [Ko-Fi](https://ko-fi.com/reezonate)
+
 ## Rolo
 Creator of the Custom Platforms plugin and pumpkin carving extrordinaire.
 Also responsible for MVP so you can watch the Shrek movie as you play it in game!
