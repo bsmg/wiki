@@ -26,7 +26,7 @@ found [here](https://twitter.com/nalulululuna/status/1493263219485405184).
 
 ### Quest Sabers
 Custom Sabers for Quest are provided by the Qosmetics mod. The latest version can be found in the
-[#quest-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord. Sabers are called `qsabers` and are currently
+[#quest-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord. Sabers are called `whackers` and are currently
 hosted in the [Qosmetics Community Discord](https://discord.gg/qosmetics).
 
 ## Usage
@@ -36,7 +36,7 @@ Inside the game in the main menu you will see on the left a `CUSTOM SABERS` or `
 Pressing it will open up the menu you can use to select which sabers you want to use.
 
 ### Quest Users
-Upload the `.qsaber` file to your Quest using the [BMBF Web Interface](/quest-modding.md#installing-mods).
+Upload the `.whacker` file to your Quest using the [BMBF Web Interface](/quest-modding.md#installing-mods).
 You can then select which saber is active from the Qosmetics menu in-game.
 
 ## Creating Sabers
