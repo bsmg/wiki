@@ -42,11 +42,10 @@ for cross-play between PC and Quest and for custom songs to be used. These mods 
 installed when setting up BMBF.
 
 To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
-[ScoreSaber](https://new.scoresaber.com/quest) mod. [This link](https://new.scoresaber.com/quest) will take you to the
-ScoreSaber page to set it up.
-ScoreSaber does not replace the base game leaderboards, it only adds leaderboards for custom songs.
+[ScoreSaber](https://new.scoresaber.com/quest) or [BeatLeader](https://www.beatleader.xyz/) mod.
+These do not replace the base game leaderboards, they only adds leaderboards for custom songs.
 
-**Note:** Check the updates channel in the [ScoreSaber Discord](https://discord.gg/WpuDMwU) to see if the mod is available
+**Note:** Check the updates channel in the [ScoreSaber Discord](https://discord.gg/WpuDMwU) or [BeatLeader Discord](https://discord.gg/2RG5YVqtG6) to see if the mod is available
 for the current game version.
 :::
 
