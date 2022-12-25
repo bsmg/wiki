@@ -37,7 +37,7 @@ Chromebooks and iOS devices such as iPhones or iPads are not supported.
 :::warning
 Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
 base game leaderboards.
-If you would like to play modded multiplayer, you need the mods, `Beat Together` and `MultiQuestensions`, which allows
+If you would like to play modded multiplayer, you need the mods, `Beat Together` and `MultiplayerCore`, which allows
 for cross-play between PC and Quest and for custom songs to be used. These mods should automatically be
 installed when setting up BMBF.
 
@@ -267,7 +267,7 @@ by **ComputerElite** and follow the instructions.
 With these steps done, you can now start modding your game!
 
 ::: tip Something not working?
-Go to the [BSLG Discord](https://discord.gg/MrwMx5e) for help.
+Go to the [BSMG Discord](https://discord.gg/beatsabermods) and visit the `#quest-help` channel for help.
 :::
 
 ## Useful Links
