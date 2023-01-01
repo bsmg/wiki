@@ -67,10 +67,13 @@ All we have to do is include our `ModConfig.hpp`
 
 ```cpp
 #include "ModConfig.hpp"
-
 ```
-Now you can call it by doing `getModConfig().{#config_value}` and replace `{#config_value}` with a value you declared in you `ModConfig.hpp`
+
 ## Loading your Config
+
+Now you can call it by doing `getModConfig().{#config_value}` and replace `{#config_value}` with a value you declared in
+you `ModConfig.hpp`
+
 ```cpp
 extern "C" void load() {
     // Load the config - make sure this is after il2cpp_functions::Init();
