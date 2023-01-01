@@ -267,7 +267,10 @@ by **ComputerElite** and follow the instructions.
 With these steps done, you can now start modding your game!
 
 ::: tip Something not working?
-Go to the [BSMG Discord](https://discord.gg/beatsabermods) and visit the `#quest-help` channel for help.
+You can visit the `#quest-help` channel in the [BSMG Discord](https://discord.gg/beatsabermods) and ask.
+
+Remember that only the latest moddable version is supported. Downgrade support to other versions is on a voluntary basis
+and not guaranteed.
 :::
 
 ## Useful Links
