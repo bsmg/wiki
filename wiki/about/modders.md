@@ -285,7 +285,7 @@ Sabers, Bloqs, Walls, you use em, I make em work.
 [GitHub](https://github.com/RedBrumbler) | [PayPal](https://paypal.me/RedBrumblerOfficial) | [Patreon](https://www.patreon.com/Qosmetics)
 
 ## Reezonate
-If UI can be pretty, it will be pretty (and over engineered) 
+If UI can be pretty, it will be pretty (and over engineered)
 
 Creator and maintainer of EasyOffset. One of the founders of BeatLeader community
 
