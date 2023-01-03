@@ -105,7 +105,7 @@ jobs:
         if: env.ENABLE == '1ENABLED' && success()
         uses: chrnorm/deployment-status@releases/v2
         with:
-          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          deployment-id: ${{ steps.deployment.outputs.deployment_id }}
           token: '${{ github.token }}'
           state: success
           environment-url: ${{ env.DEPLOY_URL }}
@@ -113,7 +113,7 @@ jobs:
         if: env.ENABLE == '1ENABLED' && failure()
         uses: chrnorm/deployment-status@releases/v2
         with:
-          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          deployment-id: ${{ steps.deployment.outputs.deployment_id }}
           token: '${{ github.token }}'
           state: failure
           environment-url: ${{ env.DEPLOY_URL }}
