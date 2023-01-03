@@ -1,7 +1,7 @@
 {
   "name": "@bsmg/wiki",
   "version": "0.1.0",
-  "packageManager": "yarn@3.2.2",
+  "packageManager": "yarn@3.3.1",
   "description": "BSMG Wiki",
   "repository": "git@github.com:bsmg/wiki.git",
   "author": "Jack Baron <jackmbaron@gmail.com> (https://www.jackbaron.com)",
