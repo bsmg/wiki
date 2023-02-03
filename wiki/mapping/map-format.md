@@ -323,7 +323,7 @@ This version was introduced in Beat Saber version 1.20.0.
 
 ```json
 {
-  "version":"3.0.0", // There must be no whitespace after :
+  "version":"3.2.0", // There must be no whitespace after :
   "bpmEvents": [],
   "rotationEvents": [],
   "colorNotes": [],
@@ -336,10 +336,19 @@ This version was introduced in Beat Saber version 1.20.0.
   "colorBoostBeatmapEvents": [],
   "lightColorEventBoxGroups": [],
   "lightRotationEventBoxGroups": [],
+  "lightTranslationEventBoxGroups": [], // Introduced in version 3.2.0
   "basicEventTypesWithKeywords": {},
-  "useNormalEventsAsCompatibleEvents": false
+  "useNormalEventsAsCompatibleEvents": false,
+  "customData": {
+    // Any custom data will go here.
+    // If empty, this should be removed entirely.
+  }
 }
 ```
+
+Version `3.0.0` was introduced in Beat Saber version 1.20.0.  
+Version `3.1.0` was introduced in Beat Saber version 1.25.0.  
+Version `3.2.0` was introduced in Beat Saber version 1.26.0.
 
 #### version
 This field describes the version of the map format we are using.
@@ -384,16 +393,17 @@ This is an array of [Light Color Box Group Event](#light-color-event-box) object
 #### lightRotationEventBoxGroups
 This is an array of [Light Rotation Box Group Event](#light-rotation-event-box) objects for the map.
 
+#### lightTranslationEventBoxGroups
+This is an array of [Light Translation Box Group Event](#light-translation-event-box) objects for the map.
+
 #### basicEventTypesWithKeywords
 ::: tip NOTE
 This is a stub section. Documentation is a work in progress.
 :::
   
 #### useNormalEventsAsCompatibleEvents
-This is a boolean.
-::: tip NOTE
-This is a stub section. Documentation is a work in progress.
-:::
+This is a boolean which determines if [basicBeatmapEvents](#basic-beatmap-events) and [colorBoostBeatmapEvents](#color-boost-beatmap-events)
+apply to v2 environments when using environment override.
 
 ### Bpm Events
 
@@ -756,17 +766,13 @@ A boolean which determines whether boost lighting is on or off.
   "g": 0,   // Group
   "e": [    // Event box group
     {
-      "f": {  // Filter
-        "f": 1, // Filter type
-        "p": 1, // Parameter 0
-        "t": 0, // Parameter 1
-        "r": 0  // Reverse
-      },
+      "f": {},  // Filter Object
       "w": 1.0, // Beat distribution
       "d": 1,   // Beat distribution type
       "r": 1.0, // Brightness distribution
       "t": 1,   // Brightness distribution type
       "b": 1,   // Brightness distribution affects first event
+      "i": 0,   // Brightness distribution easing - Introduced in version 3.2.0
       "e": [    // Event Data
         {
           "b": 0.0, // Added beat
@@ -791,18 +797,9 @@ The group of this lighting event.
 An array containing the different lanes in the group.
 
 ##### f
-A json object containing data describes the lane filter.
+A [Filter Object](#filter-object) containing data describes the lane filter.
 
-###### f, p, t
-|`f`|Editor Name|Result|
-|---|-----------|------|
-|`1`|Sections|`p` determines how many sections the light group is split into <br />`t` determines which section to use|
-|`2`|Step and Offset|`p` determines which light to start from <br />`t` determines how many lights to skip|
-
-###### r
-A boolean which determines if the filter is applied in reverse order.
-
-##### w,d
+##### w, d
 Theses values determine how the light take effect over time.
 |`d`|Editor Name|Result|
 |---|-----------|-----|
@@ -822,6 +819,15 @@ An integer which determines if the brightness distribution affects the first eve
 |---|----|
 |`0`|No|
 |`1`|Yes|
+
+##### i
+An integer which determines the easing of the brightness distribution.
+| `i`|Easing|
+|----|----|
+| `0`| Linear |
+| `1`| EaseInQuad |
+| `2`| EaseOutQuad |
+| `3`| EaseInOutQuad |
 
 ##### e (inner)
 An array of event data objects which have the properties of the specified box group filters.
@@ -858,22 +864,18 @@ An integer which determines the frequency of the strobe (in beat time).
 {
   "b": 2.0, // Beat
   "g": 0,   // Group
-  "e": [    // Event group box
+  "e": [    // Event box group
     {
-      "f": {  // Filter
-        "f": 1, // Filter type
-        "p": 1, // Parameter 0
-        "t": 0, // Parameter 1
-        "r": 0  // Reverse
-      },
-      "w": 0, // Beat distribution
-      "d": 0, // Beat distribution type
-      "s": 0, // Rotation distribution
-      "t": 0, // Rotation distribution type
-      "b": 0, // Rotation distribution affects first event
-      "a": 1, // Axis
-      "r": 1, // Reverse rotation
-      "l": [  // Event data
+      "f": {},  // Filter Object
+      "w": 0.0, // Beat distribution
+      "d": 0,   // Beat distribution type
+      "s": 0.0, // Rotation distribution
+      "t": 0,   // Rotation distribution type
+      "b": 0,   // Rotation distribution affects first event
+      "i": 0,   // Rotation distribution easing - Introduced in version 3.2.0.
+      "a": 1,   // Axis
+      "r": 1,   // Reverse rotation
+      "l": [    // Event data
         {
           "b": 0.0, // Add beat time
           "p": 1,   // Transition from previous event rotation behaviour
@@ -900,16 +902,7 @@ An array containing the different lanes in the group.
 ##### f
 A json object containing data describes the lane filter.
 
-###### f, p, t
-|`f`|Editor Name|Result|
-|---|-----------|------|
-|`1`|Sections|`p` determines how many sections the light group is split into <br />`t` determines which section to use|
-|`2`|Step and Offset|`p` determines which light to start from <br />`t` determines how many lights to skip|
-
-###### r
-A boolean which determines if the filter is applied in reverse order.
-
-##### w,d
+##### w, d
 Theses values determine how the rotation takes effect over time.
 |`d`|Editor Name|Result|
 |---|-----------|-----|
@@ -930,12 +923,22 @@ A boolean which determines if the rotation distribution affects the first event 
 |`0`|No|
 |`1`|Yes|
 
+##### i
+An integer which determines the easing of the rotation distribution.
+| `i`|Easing|
+|----|----|
+| `0`| Linear |
+| `1`| EaseInQuad |
+| `2`| EaseOutQuad |
+| `3`| EaseInOutQuad |
+
 ##### a
 An integer which determines the axis of rotation.
 |`a`|Axis|
 |---|----|
 |`0`|x|
 |`1`|y|
+|`2`|z (Introduced in version 3.2.0.)|
 
 ##### r
 An integer which determines if the axis of rotation is flipped.
@@ -980,6 +983,178 @@ An integer which determines the direction of the rotation.
 |`0`| Automatic |
 |`1`| Clockwise |
 |`2`| Counter-clockwise |
+
+### Light Translation Box Group Event
+
+Introduced in version 3.2.0.
+
+```json
+{
+  "b": 2.0, // Beat
+  "g": 0,   // Group
+  "e": [    // Event box group
+    {
+      "f": {},  // Filter Object
+      "w": 1.0, // Beat distribution
+      "d": 1,   // Beat distribution type
+      "s": 0.0, // Translation distribution
+      "t": 0,   // Translation distribution type
+      "b": 0,   // Translation distribution affects first event
+      "i": 0,   // Translation distribution easing - Introduced in version 3.2.0
+      "a": 1,   // Axis
+      "r": 1,   // Reverse rotation
+      "l": [    // Event data
+        {
+          "b": 0.0, // Add beat time
+          "p": 1,   // Transition from previous event rotation behaviour
+          "e": 1,   // Ease type
+          "t": 1    // Translation valuen
+        }
+      ]
+    }
+  ]
+}
+```
+
+#### b (outer)
+The time, in beats, where this object reaches the player.
+
+##### g
+The group of this translation event.
+
+##### e (outer)
+An array containing the different lanes in the group.
+
+##### f
+A json object containing data describing the lane filter.
+
+##### w, d
+Theses values determine how the translation takes effect over time.
+|`d`|Editor Name|Result|
+|---|-----------|-----|
+|`1`|Wave| After `w` beats, the last step takes effect. |
+|`2`|Step| After `w` beats, the next step takes effect. |
+
+##### s, t
+These values determines the amount of additional translation distributed over the group.
+|`t`|Editor Name|Result|
+|---|-----------|------|
+|`1`|Wave| `s` is the difference the last and first step. |
+|`2`|Step| `s` is the difference between each step. |
+
+##### b
+A boolean which determines if the translation distribution affects the first event in this lane.
+|`b`|Affects First Event|
+|---|----|
+|`0`|No|
+|`1`|Yes|
+
+##### i
+An integer which determines the easing of the translation distribution.
+| `i`|Easing|
+|----|----|
+| `0`| Linear |
+| `1`| EaseInQuad |
+| `2`| EaseOutQuad |
+| `3`| EaseInOutQuad |
+
+##### a
+An integer which determines the axis of translation.
+|`a`|Axis|
+|---|----|
+|`0`|x|
+|`1`|y|
+|`2`|z (Introduced in version 3.2.0.)|
+
+##### r
+An integer which determines if the axis of translation is flipped.
+|`r`|Flipped|
+|---|----|
+|`0`|No|
+|`1`|Yes|
+
+##### l (inner)
+An array of event data objects which have the properties of the specified box group filters.
+
+###### b
+A float which determines the time this event takes effect relative to the start of the event box group.
+
+###### p
+An integer which determines if the previous rotation is used.
+|`i`|Type|Result|
+|---|----|------|
+|`0`| Transition | The rotation transitions from the previous event to this event. |
+|`1`| Extend | The rotation holds the state of the previous rotation. |
+
+###### e
+An integer which determines the easing of the rotation.
+| `e`|Easing|
+|----|------|
+|`-1`| None |
+| `0`| Linear |
+| `1`| EaseInQuad |
+| `2`| EaseOutQuad |
+| `3`| EaseInOutQuad |
+
+###### t
+A float which determines the amount of translation.
+
+### Filter Object
+A shared object for box group events. This specifies how group is filtered.
+
+```json
+{
+  "c": 1,   // Chunks - Introduced in version 3.1.0
+  "f": 1,   // Filter type
+  "p": 1,   // Parameter 0
+  "t": 0,   // Parameter 1
+  "r": 0,   // Reverse
+  "n": 0,   // Random behaviour - Introduced in version 3.1.0
+  "s": 0,   // Random seed - Introduced in version 3.1.0
+  "l": 0.0, // Limit percentage - Introduced in version 3.1.0
+  "d": 0    // Limit behaviour - Introduced in version 3.1.0
+}
+```
+
+#### c
+An integer which determines how many sections the light/rotation/translation group is split into before filter type.
+
+<!-- markdownlint-disable MD013 -->
+#### f, p, t
+|`f`|Editor Name|Result|
+|---|-----------|------|
+|`1`|Sections|`p` determines how many sections in each chunk the light group is split into <br />`t` determines which section to use|
+|`2`|Step and Offset|`p` determines which light in each chunk to start from <br />`t` determines how many lights to skip|
+<!-- markdownlint-enable MD013 -->
+
+#### r
+A boolean which determines if the filter is applied in reverse order.
+
+#### n
+An integer which determines ordering of lights in each section.
+
+|`n`|Result|
+|---|------|
+|`0`|Standard order|
+|`1`|Standard order|
+|`2`|Random order|
+|`3`|Random starting index|
+
+#### s
+An integer which is the seed for the random behaviour.
+
+#### l
+A float which determines the percentage of the group is lit up after filter type is applied.
+
+#### d
+An integer which determines how the limit is applied.
+
+|`d`|Result|
+|---|------|
+|`0`|Limit applies to sections|
+|`1`|Limit applies to sections and duration|
+|`2`|Limit applies to sections and brightness distribution|
+|`3`|Limit applies to sections, duration, and brightness distribution|
 
 ## Difficulty File (v2)
 Each Difficulty Beatmap contains a corresponding file which defines the notes, obstacles, events,
