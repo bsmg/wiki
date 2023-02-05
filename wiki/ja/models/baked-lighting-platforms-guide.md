@@ -146,7 +146,7 @@ Custom Platformのスクリプトのある**GameObject**に、新しい**Prefab 
 
 ビートセイバーの自身白いメニューライトはベイクしたライティングに干渉するかも。**Tweak55 MOD** の **UI タブ** から **Menu Light Color** を変更します。黒いに設定でライトを無効する、または他の色に設定でプラットフォームを照らす。
 
-![](~@images/models/baked/16.png)
+![](~@images/models/baked/16.jpg)
 
 ### ゲーム内のライトの色を変更する
 

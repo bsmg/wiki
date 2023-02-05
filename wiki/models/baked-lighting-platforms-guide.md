@@ -172,7 +172,7 @@ Copy the exported Custom Platform .plat file to your Beat Saber/CustomPlatforms 
 The Beat Saber menu light will reflect off of baked lighting while in the menu. Go to the **Tweak55 MOD**, the **UI tab**
 and change **Menu Light Color**. You can set the Beat Saber menu light to black to turn it off or set it to a certain color.
 
-![Tweak55 Color Change Demo](~@images/models/baked/16.png)
+![Tweak55 Color Change Demo](~@images/models/baked/16.jpg)
 
 ### Change the Colored Lights in Game
 
