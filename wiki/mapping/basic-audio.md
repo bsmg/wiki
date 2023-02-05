@@ -71,7 +71,7 @@ of headache while mapping. Look at the difference in quality for the same song, 
 | 10 | ![YouTube Rip 10](~@images/mapping/ytrip10.jpg) | ![MP3 10](~@images/mapping/mp310.jpg) | ![WAV 10](~@images/mapping/wav10.jpg) | ![FLAC 10](~@images/mapping/flac10.jpg) |
 
 Can you see the difference? You cannot scale up audio quality;
-only starting with a high quality audio file can give you clean, percise lines.
+only starting with a high quality audio file can give you clean, precise lines.
 
 See the [Advanced Audio Editing](./advanced-audio.md) page for more in-depth
 techniques and tools for analysing the audio quality of files.
