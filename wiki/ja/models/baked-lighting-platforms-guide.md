@@ -6,7 +6,6 @@ description: Kylonのベイクしたライティングのガイド
 ---
 # ベイクしたライティングプラットフォームのガイド
 カスタムプラットフォームの中でUnityのベイクライティングを使えます！
-[English](../../models/baked-lighting-platforms-guide.md)
 
 ## 最初に
 カスタムプラットフォームを作るためのUnityのバージョンは [2019.3.15f1](https://unity.com/releases/editor/archive#download-archive-2019). 最初に普通のカスタムプラットフォームのガイドでプラットフォームを作ります [Guide to making Custom Platforms 英語版](../../models/platforms-guide.md). 
@@ -21,9 +20,7 @@ description: Kylonのベイクしたライティングのガイド
 
 この部分で Unity 2019.3のベイク方法を説明しますので、すでに詳しい読者は[PrefabLightmapping](#prefablightmapping)まで読み飛ばしていただいて結構です。より詳しい情報は、[Unity Documentation on Baked Lighting](https://docs.unity3d.com/ja/2019.3/Manual/LightMode-Baked.html) を参照してください。
 
-<br />
-
-### **1. ライトをベイクに設定**
+### ライトをベイクに設定
 
 シーン内に多くの**Light**を配置してもすべての**Light**が影を落とすでもパフォーマンスに影響を与えません。全てのUnityの4種類の**Light**は全部ベイクに使用することができます。
 * Directional
@@ -47,10 +44,7 @@ Inspectorでベイクしたいの**Light**を**Mode**を**Baked**に設定しま
 
 ![](~@images/models/baked/03.png)
 
-<br />
-<br />
-
-### **2. 全部のGameObjectにライトマップUVを追加**
+### 全部のGameObjectにライトマップUVを追加
 
 Scene内の全ての**GameObject**の**Prefab**をベイクするには、
 [**ライトマップ UV**](https://docs.unity3d.com/ja/current/Manual/LightingGiUvs-GeneratingLightmappingUVs.html)が必要です。
@@ -59,10 +53,7 @@ Unityが自動的に生成ように、**Prefab**をクリックし、Inspector�
 
 ![](~@images/models/baked/04.png)
 
-<br />
-<br />
-
-### **3. 全部のライトとGameObjectをStaticに設定**
+### 全部のライトとGameObjectをStaticに設定
 
 Staticに設定したの**Light**と**GameObject**のみがベイクに使用されます。Hierarchyのリストの中のシーン内の**GameObject**をクリックします。
 
@@ -76,10 +67,7 @@ Staticに設定したの**Light**と**GameObject**のみがベイクに使用さ
 
 ![](~@images/models/baked/07.png)
 
-<br />
-<br />
-
-### **4. ベイクしたライティング互換のBeatSaberシェーダーを使用する**
+### ベイクしたライティング互換のBeatSaberシェーダーを使用する
 
 ビートセイバーと互換性のあるシェーダーが全てベイクしたライティングで動作するわけではありません。今のところ、BSMGの[BS_Shader_Pack (Discord Link)](https://discord.com/channels/441805394323439646/468249466865057802/732620241502339093) にある以下のシェーダーだけが動作することが分かっています。
 
@@ -94,7 +82,7 @@ Staticに設定したの**Light**と**GameObject**のみがベイクに使用さ
 
 ほとんどの設定が自動にコピーされるはずですが、再度設定を修正する必要があるかもしれません。
 
-### **5. ライトをベイクします**
+### ライトをベイクします
 
 最後に1～4の手順が終わったら、メニューの**Window**->**Rendering**->**Lighting**を選択して、**Lighting**のパネルを開きます。
 
@@ -128,10 +116,7 @@ Windowメニュー -> Rendering -> Light Settingsパネルを開きます。
 
 ![](~@images/models/baked/12.png)
 
-<br />
-<br />
-
-## PrefabLightmapping
+## Prefab Lightmapping
 
 次はベイクしたライティングマップをCustomPlatform内の**Prefab**に保存し、ビートセイバー内で使用してますための手順です。 ライトマップのデータは普通に**Scene**にエクスポートされます（VRChatのように）。 しかし、CustomPlatformは**AssetBundle**内の**Asset**しかエクスポートできないので、全てのデータを**Prefab**に付けます必要があります。
 
@@ -147,9 +132,6 @@ Custom Platformのスクリプトのある**GameObject**に、新しい**Prefab 
 
 ![](~@images/models/baked/15.png)
 
-<br />
-<br />
-
 ## ビートセイバーでカスタムプラットフォームをテストします
 
 ベイクしたライティングを使用するには、[Custom Platforms version 6.1.17](https://github.com/affederaffe/CustomPlatforms/releases/tag/v6.1.17)以降が必要です。
@@ -160,19 +142,19 @@ Custom Platformのスクリプトのある**GameObject**に、新しい**Prefab 
 
 エクスポートしたCustom Platformの.platファイルをBeat Saber/CustomPlatformsフォルダにコピーし、Beat Saberを起動します。
 
-### **1. Tweak55でメニューライトの色を変更する**
+### Tweak55でメニューライトの色を変更する
 
 ビートセイバーの自身白いメニューライトはベイクしたライティングに干渉するかも。**Tweak55 MOD** の **UI タブ** から **Menu Light Color** を変更します。黒いに設定でライトを無効する、または他の色に設定でプラットフォームを照らす。
 
 ![](~@images/models/baked/16.png)
 
-### **2. ゲーム内のライトの色を変更する**
+### ゲーム内のライトの色を変更する
 
 ゲーム内のライトもベイクしたライティングに干渉するかも。選曲の時左メニューの**Vanillaタブ**をクリック、**Colors**、**Override Default Colors**を選ぶ、色表示の行の横にある変更ボタンをクリックします。ここも黒いに設定でライトを無効する、または他の色に設定でプラットフォームを照らす。
 
 ![](~@images/models/baked/17.png)
 
-### **3. 他のMODはプラットフォームに影響を与えるライトを追加できる**
+### 他のMODはプラットフォームに影響を与えるライトを追加できる
 
 他のMODは新しいライトを追加することができます。新しいライトの「Culling Mask」が「Layer 1」に抜ければならないとベイクしたライティングに干渉する可能性があります。
 
