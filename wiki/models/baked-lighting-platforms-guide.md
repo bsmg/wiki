@@ -120,7 +120,7 @@ to stop it from constantly baking after every change.
 
 Press **Generate Lighting** to create the light maps.
 
-![Configure Renderer](~@images/models/baked/10.png)
+![Configure Renderer](~@images/models/baked/10.jpg)
 
 **Progressive GPU (Preview)** however, sometimes crashes.  So you can also **Enlighten** which uses your CPU but is much
 slower depending on your scene.  Both will make the appropriate light maps.
@@ -180,7 +180,7 @@ The colored lights during gameplay will also reflect off the baked lighting.  Du
 in the left menu, choose **Colors**, **Override Default Colors** and click the **Edit Button** beside the row of colors.
 You can set them to black to turn them off or set the colors to enhance the platform lighting.
 
-![In Game Color Change Demo](~@images/models/baked/17.png)
+![In Game Color Change Demo](~@images/models/baked/17.jpg)
 
 ### Other MODs Can Add Lights Which Affect the Platform
 
@@ -190,10 +190,10 @@ with baked lighting.
 Pictured here is VMCAvatar.  If you are using this MOD you can use my [VMCLightDisabler](https://github.com/Kylon99/VMCLightDisabler/releases/tag/0.1.0)
 to turn off the light whenever the scene changes.
 
-![Other Mod Color change Demo](~@images/models/baked/18.png)
+![Other Mod Color change Demo](~@images/models/baked/18.jpg)
 
 ## Play Beat Saber
 
 Have fun with your new platform!
 
-![Final Result](~@images/models/baked/19.png)
+![Final Result](~@images/models/baked/19.jpg)

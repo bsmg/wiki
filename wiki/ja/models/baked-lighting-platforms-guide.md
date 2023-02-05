@@ -14,8 +14,6 @@ description: Kylonのベイクしたライティングのガイド
 
 完成すると、プラットフォームの**GameObject**に*CustomPlatform*スクリプトがもう追加してます。
 
-![](~@images/models/baked/00.png)
-
 ## Unityのベイクしたライティング
 
 この部分で Unity 2019.3のベイク方法を説明しますので、すでに詳しい読者は[PrefabLightmapping](#prefablightmapping)まで読み飛ばしていただいて結構です。より詳しい情報は、[Unity Documentation on Baked Lighting](https://docs.unity3d.com/ja/2019.3/Manual/LightMode-Baked.html) を参照してください。
@@ -102,7 +100,7 @@ Windowメニュー -> Rendering -> Light Settingsパネルを開きます。
 
 **Generate Lighting**を押すと**LightMap**を作成します。
 
-![](~@images/models/baked/10.png)
+![](~@images/models/baked/10.jpg)
 
 **Progressive GPU (Preview)**は時々クラッシュのことがあるから**Enlighten**が使えますけどCPUでベイクするからシーンの複雑に場合GPUより遅い。どっちでも正しいライトマップができます。
 
@@ -152,7 +150,7 @@ Custom Platformのスクリプトのある**GameObject**に、新しい**Prefab 
 
 ゲーム内のライトもベイクしたライティングに干渉するかも。選曲の時左メニューの**Vanillaタブ**をクリック、**Colors**、**Override Default Colors**を選ぶ、色表示の行の横にある変更ボタンをクリックします。ここも黒いに設定でライトを無効する、または他の色に設定でプラットフォームを照らす。
 
-![](~@images/models/baked/17.png)
+![](~@images/models/baked/17.jpg)
 
 ### 他のMODはプラットフォームに影響を与えるライトを追加できる
 
@@ -160,10 +158,10 @@ Custom Platformのスクリプトのある**GameObject**に、新しい**Prefab 
 
 この画像でVMCAvatarのライトが表示します。このMODを使えれば、私のMOD[VMCLightDisabler](https://github.com/Kylon99/VMCLightDisabler/releases/tag/0.1.0) でいつもビートセイバーのシーンが変わるとライトに無効します。
 
-![](~@images/models/baked/18.png)
+![](~@images/models/baked/18.jpg)
 
 ### ビートセイバーをプレイする！
 
 新しいプラットフォームおつかれさまでした！
 
-![](~@images/models/baked/19.png)
+![](~@images/models/baked/19.jpg)
