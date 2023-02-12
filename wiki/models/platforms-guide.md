@@ -79,3 +79,8 @@ if you want to share them with the world.
 :::
 
 ![Cat](~@images/models/platforms/Cat.png)
+
+## Baked Lighting
+
+[Kylon's Baked Lighting Platforms Guide](./baked-lighting-platforms-guide.md)
+Use this to add Unity's Baked Lighting to your platform.
