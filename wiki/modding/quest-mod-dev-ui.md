@@ -32,7 +32,7 @@ void DidActivate(HMUI::ViewController* self, bool firstActivation, bool addedToH
     // Create our UI elements only when shown for the first time.
     if(firstActivation) {
         // Create a container that has a scroll bar.
-        UnityEngine::GameObject* container = QuestUI::BeatSaberUI::CreateScrollableSettingsContainer(get_transform());
+        UnityEngine::GameObject* container = QuestUI::BeatSaberUI::CreateScrollableSettingsContainer(self->get_transform());
        
         // Create a text that says "Hello World!" and set the parent to the container.
         QuestUI::BeatSaberUI::CreateText(container->get_transform(), "Hello World!");
