@@ -116,6 +116,13 @@ I decided I wanted to help one day, and have been slightly addicted ever since.
 
 **Roles:** Support
 
+## Alteran
+Just your random geek.  With a strong affinity towards music, and a love for Stargate that goes unmatched.
+Always happy to help if I have the ability.  
+Addicted to BeatSaber.
+
+**Roles:** Support
+
 ## Channel Monitor Bot
 The bot that holds it all together.
 Created by Megalon, recreated by lolPants, and personified by Rolo!
