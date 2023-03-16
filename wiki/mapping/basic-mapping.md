@@ -215,22 +215,23 @@ when you hit them and imaginary computer blocks... don’t. The game is called B
 | ![Image of standard up down flow](~@images/mapping/standard-flow.jpg) | ![Image of double directionals](~@images/mapping/double-directionals.jpg) |
 | A good mapping practice | Yikes! Don't do this. |
 
-**Resets**
+#### Resets
 
 DDs *do* have their uses if you give the player enough time to reset their hands back
 to neutral position and, more importantly, clearly communicate to them that they should reset.
 
-Resets are a motion that requires time to be performed and the player to know that they should do it, despite the lack of notes to cut.
-There are two main standard ways to make resets work:
+Resets are a motion that requires time to be performed and the player to know that they should do it,
+despite the lack of notes to cut. There are two main standard ways to make resets work:
 
-* **Bomb resets** (Preferred) Place a line of bombs that will make the player move their hands away from them, typically on the bottom row.
+* **Bomb resets** (Preferred) Place a line of bombs that will make the player move their hands away from them,
+typically on the bottom row.
 
-* **Low NJS and high JD** (Only for slower dancey maps) If your map is slow and floaty, you can make a reset work by giving the player time to see the
-following notes and react to them by resetting.
+* **Low NJS and high JD** (Only for slower dancey maps) If your map is slow and floaty, you can make a reset
+work by giving the player time to see the following notes and react to them by resetting.
 
 ::: warning  
-In bomb resets, the reset motion will happen *before* the bombs. Thus, you should place the bombs closer to the notes that come after than to the notes that come before.
-Normally at 3/4 or 2/3 of the distance.
+In bomb resets, the reset motion will happen *before* the bombs. Thus, you should place the bombs closer to
+the notes that come after than to the notes that come before. Normally at 3/4 or 2/3 of the distance.
 
 It is recommended that bomb resets are used sparingly and preferably with some sound associated to them.
 :::
@@ -242,7 +243,8 @@ It is recommended that bomb resets are used sparingly and preferably with some s
 
 ::: warning
 Implicit resets will work with lower NJS, higher JD, and adequate patterns; but this will have downsides for faster
-paced and higher difficulty maps (see [Note Jump Speed](./basic-mapping.md#note-jump-speed)) and should therefore be avoided in those cases.
+paced and higher difficulty maps (see [Note Jump Speed](./basic-mapping.md#note-jump-speed))
+and should therefore be avoided in those cases.
 :::
 
 Want to learn more about resets? Read [Intermediate Mapping](./intermediate-mapping.md)!
