@@ -135,21 +135,21 @@ Try to view things objectively; just because you don’t like sliders, doesn’t
 map is full of things you don’t like, considering leaving it for someone else!
 :::
 
-If you feel more comfortable going into it with a checklist, consider these:
+If you feel more comfortable going into it with a checklist, consider this list, in decreasing order of priority:
 
 <!-- markdownlint-disable MD013 -->
-| Priority | Item | Description |
-|:----:|:----:|:----:|
-| 🔴 | **Timing** | Is everything on-time? Is the audio setup properly? Is there a hot-start? |
-| 🔴 | **Overmapping** | Are all notes associated to sounds? Notes mapped to nothing should be avoided. |
-| 🔴 | **Dangerous patterns** | Handclaps, vibe checks, too fast walls, 3-wide dodge walls, etc. |
-| 🟠 | **Vision blocks** | Are there face blocks that prevent from seeing things behind? Are there notes hidden behind walls? |
-| 🟠 | **Parity breaks** | Are there blatant parity breaks, does the map follow parity in general? |
-| 🟡 | **Representation, emphasis & consistency** | Do similar sounds get mapped similarly? Do more prominent sounds get mapped more prominently? Can you tell what is a double, what is a stack, what is a single? Do different sections of the map feel too different? |
-| 🟡 | **Unfair patterns** | Wall dodges that were too fast, crouch walls that were too long, bombs that felt too close, hitbox abuse or otherwise badcutty patterns; all apply here.|
-| 🟣 | **Difficulty spikes** | Does something seem too difficult, or too easy, compared to the rest of the map? |
-| 🟣 | **Awkward patterns** | Is there anything really awkward or uncomfortable? This could be a weird angle on a note, or an improperly set up inward swing, or a nasty triangle. If you’re still learning how triangles and wrist resets work, it’s okay to simply note that something was uncomfortable at a certain point, and refer them to #mapping-discussion to get further opinions. |
-| 🟢 | **Enjoyment** | Did you have fun? Was there anything you thought worked well? Positive feedback is just as important as finding issues! Don’t nitpick just to find something for the mapper to ‘fix’, if you thought the map was fine. |
+| Item | Description |
+|:----:|:----:|
+| **Timing** | Is everything on-time? Is the audio setup properly? Is there a hot-start? |
+| **Overmapping** | Are all notes associated to sounds? Notes mapped to nothing should be avoided. |
+| **Dangerous patterns** | Handclaps, vibe checks, too fast walls, 3-wide dodge walls, etc. |
+| **Vision blocks** | Are there face blocks that prevent from seeing things behind? Are there notes hidden behind walls? |
+| **Parity breaks** | Are there blatant parity breaks, does the map follow parity in general? |
+| **Representation, emphasis & consistency** | Do similar sounds get mapped similarly? Do more prominent sounds get mapped more prominently? Can you tell what is a double, what is a stack, what is a single? Do different sections of the map feel too different? |
+| **Unfair patterns** | Wall dodges that were too fast, crouch walls that were too long, bombs that felt too close, hitbox abuse or otherwise badcutty patterns; all apply here.|
+| **Difficulty spikes** | Does something seem too difficult, or too easy, compared to the rest of the map? |
+| **Awkward patterns** | Is there anything really awkward or uncomfortable? This could be a weird angle on a note, or an improperly set up inward swing, or a nasty triangle. If you’re still learning how triangles and wrist resets work, it’s okay to simply note that something was uncomfortable at a certain point, and refer them to #mapping-discussion to get further opinions. |
+| **Enjoyment** | Did you have fun? Was there anything you thought worked well? Positive feedback is just as important as finding issues! Don’t nitpick just to find something for the mapper to ‘fix’, if you thought the map was fine. |
 <!-- markdownlint-enable MD013 -->
 
 ## Tips & Tricks
