@@ -3,7 +3,7 @@
 ## Installation
 :::tip NOTE
 Sabers need to be made specifically for Quest or PC and are not interchangeable between the two. You can tell which platform
-a saber is for by the file extension. `.saber` files are for PC while Quest uses `.zip` or `.qsaber` files.
+a saber is for by the file extension. `.saber` files are for PC while Quest uses `.qsaber` or `.whacker` files.
 :::
 
 ### PC Sabers
@@ -27,7 +27,8 @@ found [here](https://twitter.com/nalulululuna/status/1493263219485405184).
 ### Quest Sabers
 Custom Sabers for Quest are provided by the Qosmetics mod. The latest version can be found in the
 [#quest-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord. Sabers are called `whackers` and are currently
-hosted in the [Qosmetics Community Discord](https://discord.gg/qosmetics).
+hosted in the [Qosmetics Community Discord](https://discord.gg/qosmetics). Legacy filetypes like `.qsaber` made for older
+versions can still be used. `.zip` files can also be used but will require you to extract **only** the `.qsaber`.
 
 ## Usage
 
