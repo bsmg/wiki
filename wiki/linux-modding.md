@@ -84,24 +84,25 @@ winetricks dotnet472 d3dcompiler_47
 There will be multiple install prompts you will have to go through, this is normal!
 :::
 
-3. Download a [mod installer](/beginners-guide.md#installers) and put it in your [install folder](/faq/install-folder.md).
-  <br/>![Install Folder](https://i.imgur.com/ap2ofvE.png)
+3. Download a [mod installer](/pc-modding.md#installers) and put it in your [install folder](/faq/install-folder.md).
+  <br/>![Install Folder](https://i.imgur.com/uKKugXk.png)
 4. Move your Beat Saber folder onto your desktop and open a terminal
 5. Navigate to your Beat Saber folder in a terminal and run your installer in Wine.
 
 ```sh
-cd Desktop
+cd (YourSteamLibraryFolder)/steamapps/common
 cd "Beat Saber"
-wine BeatSaberModManager.exe
+wine ModAssistant.exe
 ```
 
-![BeatSaberModManager](https://i.imgur.com/sXUhA8x.png)
+![ModAssistant](https://i.imgur.com/OrUJY9N.png)
+![ModAssistant](https://i.imgur.com/SXtOKwg.png)
 
 4. Direct the installer to your Beat Saber directory
-![BeatSaberModManager](https://i.imgur.com/DzEaDaI.png)
+![ModAssistant](https://i.imgur.com/2JV9bMm.png)
 5. Install your mods. You should now have a Plugins folder.
 6. Close out of the installer and put the Beat Saber folder back into common.
-![Beat Saber folder](https://i.imgur.com/xWeN0TT.png)
+![Beat Saber folder](https://i.imgur.com/CjYdMNw.png)
 7. Start Beat Saber and check if the mods are installed. If they aren't you may need to [do a DLL override](#dll-override)
 
 ### Using a Virtual Machine
@@ -141,4 +142,4 @@ If you messed up the registry file, either verify your game files or reinstall B
 ![DLL Overrides](https://i.imgur.com/dgemtef.png "DLL Overrides")
 
 ## Have questions?
-Visit the [FAQ](/faq/) or drop by the `#support` tab in the [BSMG Discord](https://discord.gg/beatsabermods)!
+Visit the [FAQ](/faq/) or drop by the `#pc-help` tab in the [BSMG Discord](https://discord.gg/beatsabermods)!
