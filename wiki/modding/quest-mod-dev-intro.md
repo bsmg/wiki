@@ -37,7 +37,7 @@ The following pieces of software are needed to follow this guide.
 
 ### QPM Rust
 
-[Download the latest QPM Rust binary for your system](https://github.com/RedBrumbler/QuestPackageManager-Rust) from the
+[Download the latest QPM Rust binary for your system](https://github.com/QuestPackageManager/QPM.CLI) from the
 Actions tab and add it to your PATH variable.
 
 ### Ninja
