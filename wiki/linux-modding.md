@@ -78,14 +78,14 @@ wineboot -u
 winetricks dotnet472 d3dcompiler_47
 ```
 
-![dotnet472](https://i.imgur.com/r62nmZW.png)
+![dotnet472](~@images/beginners-guide/dotnet472.png)
 
 ::: warning
 There will be multiple install prompts you will have to go through, this is normal!
 :::
 
 3. Download a [mod installer](/pc-modding.md#installers) and put it in your [install folder](/faq/install-folder.md).
-  <br/>![Install Folder](https://i.imgur.com/uKKugXk.png)
+  <br/>![Install Folder](~@images/beginners-guide/linuxMAInstall.png)
 4. Move your Beat Saber folder onto your desktop and open a terminal
 5. Navigate to your Beat Saber folder in a terminal and run your installer in Wine.
 
@@ -95,14 +95,21 @@ cd "Beat Saber"
 wine ModAssistant.exe
 ```
 
-![ModAssistant](https://i.imgur.com/OrUJY9N.png)
-![ModAssistant](https://i.imgur.com/SXtOKwg.png)
+![ModAssistant](~@images/beginners-guide/linuxRunWine.png)
+
+After running the command, you should then see this error window. Click ok.
+
+![ModAssistant](~@images/beginners-guide/linuxMAnoInstall.png)
 
 4. Direct the installer to your Beat Saber directory
-![ModAssistant](https://i.imgur.com/2JV9bMm.png)
+
+![ModAssistant](~@images/beginners-guide/linuxGameDirectory.png)
+
 5. Install your mods. You should now have a Plugins folder.
 6. Close out of the installer and put the Beat Saber folder back into common.
-![Beat Saber folder](https://i.imgur.com/CjYdMNw.png)
+
+![Beat Saber folder](~@images/beginners-guide/linuxDirectoryCommon.png)
+
 7. Start Beat Saber and check if the mods are installed. If they aren't you may need to [do a DLL override](#dll-override)
 
 ### Using a Virtual Machine
@@ -114,17 +121,17 @@ Make sure you have [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
 
 1. Download a [Windows 10 ISO](https://www.microsoft.com/en-us/software-download/windows10ISO)
 2. Make a new Windows 10 virtual machine and start it.
-![VirtualBox](https://i.imgur.com/HJMwMSr.png)
+![VirtualBox](~@images/beginners-guide/linuxVirtualBox.png)
 3. When asked, select the Windows 10 ISO. and start it.
-![VirtualBox](https://i.imgur.com/af0ikmV.png)
+![VirtualBox](~@images/beginners-guide/linuxVBwinInstall.png)
 4. After you are finished installing Windows, download a [mod installer](/beginners-guide.md#installers) inside the VM.
-![Mod Assistant Install](https://i.imgur.com/juZzw1j.png)
+![Mod Assistant Install](~@images/beginners-guide/linuxVBMAdownload.png)
 5. Make a shared folder by going to 'Devices > Shared Folders > Shared Folder Settings...'.
 Make a new shared folder with the common folder `/.local/share/Steam/steamapps/common/` and turn Auto-mount on.
-![Shared Folder](https://i.imgur.com/FoV8BE3.png)
-![Shared Folder](https://i.imgur.com/rcpnROc.png)
+![Shared Folder](~@images/beginners-guide/linuxVBsharedfolder.png)
+![Shared Folder](~@images/beginners-guide/linuxVBfolderautomount.png)
 6. Run the mod installer you have downloaded, and manually select your Beat Saber folder, then install your mods.
-7. Exit the VM and start Beat Saber. Your mods should be installed. If they aren't, go to [DLL Override](./linux.md#dll-override)
+7. Exit the VM and start Beat Saber. Your mods should be installed. If they aren't, go to [DLL Override](#dll-override)
 
 ### DLL Override
 Wine doesn’t use DLLs the same way Windows does, so you have to change a few things to make the IPA injection work.
@@ -139,7 +146,7 @@ If you messed up the registry file, either verify your game files or reinstall B
   to get there more quickly
 3. Paste `"winhttp"="native,builtin"` on the bottom below the others, and save the file.
 
-![DLL Overrides](https://i.imgur.com/dgemtef.png "DLL Overrides")
+![DLL Overrides](~@images/beginners-guide/linuxDLLoverride.png "DLL Overrides")
 
 ## Have questions?
 Visit the [FAQ](/faq/) or drop by the `#pc-help` tab in the [BSMG Discord](https://discord.gg/beatsabermods)!
