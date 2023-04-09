@@ -71,7 +71,7 @@ Once you have setup your environment you can now generate a mod template. The te
 [Lauriethefish](https://github.com/Lauriethefish/quest-mod-template). To start run the following command in Powershell.
 
 ```powershell
-templatr --git https://github.com/Lauriethefish/quest-mod-template <destination>
+templatr --git https://github.com/Lauriethefish/quest-mod-template.git <destination>
 # Older templatr versions:
 templatr use Lauriethefish/quest-mod-template
 ```
