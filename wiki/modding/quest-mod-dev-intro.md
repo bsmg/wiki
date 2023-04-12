@@ -37,7 +37,7 @@ The following pieces of software are needed to follow this guide.
 
 ### QPM Rust
 
-[Download the latest QPM Rust binary for your system](https://github.com/RedBrumbler/QuestPackageManager-Rust) from the
+[Download the latest QPM Rust binary for your system](https://github.com/QuestPackageManager/QPM.CLI) from the
 Actions tab and add it to your PATH variable.
 
 ### Ninja
@@ -71,6 +71,8 @@ Once you have setup your environment you can now generate a mod template. The te
 [Lauriethefish](https://github.com/Lauriethefish/quest-mod-template). To start run the following command in Powershell.
 
 ```powershell
+templatr --git https://github.com/Lauriethefish/quest-mod-template.git <destination>
+# Older templatr versions:
 templatr use Lauriethefish/quest-mod-template
 ```
 

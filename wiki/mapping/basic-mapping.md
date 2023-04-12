@@ -215,18 +215,37 @@ when you hit them and imaginary computer blocks... don’t. The game is called B
 | ![Image of standard up down flow](~@images/mapping/standard-flow.jpg) | ![Image of double directionals](~@images/mapping/double-directionals.jpg) |
 | A good mapping practice | Yikes! Don't do this. |
 
-**Resets**
-DDs *do* have their uses (typically in more "dancey" maps) if you give the player enough time to reset their hands back
-to neutral position. This usually means no DD’s within 2 beats for "normal" bpm songs and longer for high bpm songs.
+#### Resets
+
+DDs *do* have their uses if you give the player enough time to reset their hands back
+to neutral position and, more importantly, clearly communicate to them that they should reset.
+
+Resets are a motion that requires time to be performed and the player to know that they should do it,
+despite the lack of notes to cut. There are two main standard ways to make resets work:
+
+* **Bomb resets** (Preferred) Place a line of bombs that will make the player move their hands away from them,
+typically on the bottom row.
+
+* **Low NJS and high JD** (Only for slower dancey maps) If your map is slow and floaty, you can make a reset
+work by giving the player time to see the following notes and react to them by resetting.
 
 ::: warning  
-If you’re using intentional DDs in a dance-style map you’ll need to make your NJS slower and spawn offset longer to give
-the player enough time to react.
+In bomb resets, the reset motion will happen *before* the bombs. Thus, you should place the bombs closer to
+the notes that come after than to the notes that come before. Normally at 3/4 or 2/3 of the distance.
+
+It is recommended that bomb resets are used sparingly and preferably with some sound associated to them.
 :::
 
-After a long break without notes, it is up to the mapper to whether reset the player or to continue the flow after the break.
-It is worth noting at higher difficulties, player are more inclined hold their position during a break and continue flow
-rather than reset.
+| 3/4 bomb reset | 1/2 bomb reset |
+|:----:|:----:|
+| ![Image of 3/4 bomb reset](~@images/mapping/34reset.png) | ![Image of double directionals](~@images/mapping/12reset.png) |
+| Enough time to reset comfortably | Too close! Jerky uncomfortable motion |
+
+::: warning
+Implicit resets will work with lower NJS, higher JD, and adequate patterns; but this will have downsides for faster
+paced and higher difficulty maps (see [Note Jump Speed](./basic-mapping.md#note-jump-speed))
+and should therefore be avoided in those cases.
+:::
 
 Want to learn more about resets? Read [Intermediate Mapping](./intermediate-mapping.md)!
 

@@ -54,10 +54,10 @@ jobs:
             VERSION=${GITHUB_REF#refs/tags/v}
           fi
 
-          echo ::set-output name=git_repo::${GIT_REPO}
-          echo ::set-output name=docker_user::${DOCKER_USER}
-          echo ::set-output name=docker_image::${DOCKER_IMAGE}
-          echo ::set-output name=version::${VERSION}
+          echo "git_repo=${GIT_REPO}" >> $GITHUB_OUTPUT
+          echo "docker_user=${DOCKER_USER}" >> $GITHUB_OUTPUT
+          echo "docker_image=${DOCKER_IMAGE}" >> $GITHUB_OUTPUT
+          echo "version=${VERSION}" >> $GITHUB_OUTPUT
       - name: Setup Docker Buildx
         uses: docker/setup-buildx-action@v2
       - name: Login to Docker Registry
@@ -92,28 +92,28 @@ jobs:
         uses: actions/checkout@v3
       - name: Create Deployment
         if: env.ENABLE == '1ENABLED'
-        uses: chrnorm/deployment-action@releases/v1
+        uses: chrnorm/deployment-action@releases/v2
         id: deployment
         with:
           token: '${{ github.token }}'
           environment: Production
-          target_url: ${{ env.DEPLOY_URL }}
+          environment-url: ${{ env.DEPLOY_URL }}
       - name: Deploy Wiki
         if: env.ENABLE == '1ENABLED'
         run: "curl --fail -X POST -H 'Authorization: Bearer ${{ secrets.HOOK_TOKEN }}' -d `git rev-parse --short HEAD` '${{ secrets.HOOK_URL }}'"
       - name: Update Deployment (Success)
         if: env.ENABLE == '1ENABLED' && success()
-        uses: chrnorm/deployment-status@releases/v1
+        uses: chrnorm/deployment-status@releases/v2
         with:
-          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          deployment-id: ${{ steps.deployment.outputs.deployment_id }}
           token: '${{ github.token }}'
           state: success
-          target_url: ${{ env.DEPLOY_URL }}
+          environment-url: ${{ env.DEPLOY_URL }}
       - name: Update Deployment (Failure)
         if: env.ENABLE == '1ENABLED' && failure()
-        uses: chrnorm/deployment-status@releases/v1
+        uses: chrnorm/deployment-status@releases/v2
         with:
-          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          deployment-id: ${{ steps.deployment.outputs.deployment_id }}
           token: '${{ github.token }}'
           state: failure
-          target_url: ${{ env.DEPLOY_URL }}
+          environment-url: ${{ env.DEPLOY_URL }}
