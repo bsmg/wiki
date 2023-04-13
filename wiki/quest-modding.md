@@ -258,8 +258,8 @@ If none of these work restart your quest and try them all again
 ---
 
 ### Beat Saber is crashing
-If your game is crashing when doing something, disable your mods one by one, running your game each time to see if the
-issue is fixed before asking for help in a support channel.
+If your game is crashing when doing something, disable all of your mods, and then see if it works. Then, enable your mods one by one,
+or in batches, and run the game each time to see if you can find the cause before going into a support channel
 
 ### I only see a white screen when I open BMBF
 If you only see a white screen when you open BMBF from unknown sources, try waiting a few seconds.
