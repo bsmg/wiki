@@ -42,7 +42,7 @@ modded your game
 
 To get leaderboards and to be able to get Performance Points (PP) from ranked songs you need the
 [ScoreSaber](https://new.scoresaber.com/quest) or [BeatLeader](https://www.beatleader.xyz/) mod.
-These do not replace the base game leaderboards, they only adds leaderboards for custom songs.
+These do not replace the base game leaderboards, they only add leaderboards for custom songs.
 
 **Note:** Check the updates channel in the [ScoreSaber Discord](https://discord.gg/WpuDMwU) or [BeatLeader Discord](https://discord.gg/2RG5YVqtG6) to see if the mod is available
 for the current game version.
@@ -60,9 +60,6 @@ There are two methods available to obtain QAVS:
 * [The SideQuest Store on PC and Mac](#download-from-the-sidequest-store)
 * If you do not have a PC, you can use [the SideQuest Store on Android](/support/modding-with-android.md)
   * Chromebooks and iOS devices such as iPhones or iPads are not supported.
-:::tip
-If you've previously modded Beat Saber or have scores you want to backup, [backup your Save Data first!](#backup-save-data-using-qavs)
-:::
 
 #### Download from the SideQuest Store
 
