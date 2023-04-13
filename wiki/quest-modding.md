@@ -162,7 +162,7 @@ When downloading songs in-game you do not have to restart the game. It automatic
 
 
 ## Installing Models
-Join the [Qosmetics Community](https://discord.gg/qosmetics) to change how your sabers, bloqs or walls look in-game!
+Join the [Qosmetics Community](https://discord.gg/JNuFC7XMTk) to change how your sabers, bloqs or walls look in-game!
 To install them go to the `Cosmetics & more tab` in QuestAppVersionSwitcher on your PC (similar to installing mods via your PC).
 Press `Install a Cosmetic from disk` and select a saber you downloaded. The models will now appear in-game
 in the Qosmetics mod
@@ -187,15 +187,13 @@ in the Qosmetics mod
 
 ## Useful Links
 
-* [Qosmetics Community](https://discord.gg/qosmetics) - Server dedicated to making and using
+* [Qosmetics Community](https://discord.gg/JNuFC7XMTk) - Server dedicated to making and using
   sabers, bloqs, walls, and more for Quest.
 * [Qosmetics Creation Guides](https://github.com/RedBrumbler/Qosmetics/wiki) - Guides to create your own custom
   sabers, bloqs, and walls for Quest.
 * [Quest Mod Development Guide](./modding/README.md#quest-mod-development) - Guides to create your own mods for Quest.
 * [QuestBoard website](https://questmodding.com) - A place to get Beat Saber related news and info along with the latest
   mods releases!
-* [QuestBoard Discord server](https://discord.gg/P7sUKVnP) - A quest community to hangout and talk about Beat Saber
-  related stuff, you can also get a role to get notified when a new mod gets released!
 * [Fixing Out of Sync Audio](https://bsaber.com/quest-out-of-sync/)
 * [ScoreSaber Mod](https://new.scoresaber.com/quest) - Get in-game leaderboards for custom songs
 * [ScoreSaber](https://scoresaber.com) - The website to view custom song leaderboards outside of the game.
@@ -258,6 +256,6 @@ If none of these work restart your quest and try them all again
 If your game is crashing when doing something, disable all of your mods, and then see if it works. Then, enable your mods one by one,
 or in batches, and run the game each time to see if you can find the cause before going into a support channel
 
-### I only see a white screen when I open BMBF
-If you only see a white screen when you open BMBF from unknown sources, try waiting a few seconds.
-If that does not work, restart your quest and try opening BMBF again.
+### I only see a white screen when I open QAVS
+If you only see a white screen when you open QAVS from unknown sources, try waiting a few seconds.
+If that does not work, restart your quest and try opening QAVS again.
