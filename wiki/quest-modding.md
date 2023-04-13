@@ -36,7 +36,7 @@ Chromebooks and iOS devices such as iPhones or iPads are not supported.
 
 :::warning
 Installing QAVS and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the base game leaderboards.
-If you would like to play modded multiplayer, you need the mod `Beat Together`, which allows
+If you would like to play modded multiplayer, you need the mod `BeatTogether`, which allows
 for cross-play between PC and Quest and for custom songs to be used. You'll have to download these mods when you've
 modded your game
 
@@ -101,13 +101,16 @@ You should now be asked to download an old Beat Saber version. Press yes and fol
 
 Wait for the download to finish.
 
-After the download is done, go to the `Backups` tab and select the version you just downloaded.
-Then press `Restore backup` and follow the on screen instructions. Your game is now downgraded.
+After the download is done, press `Install Version` and follow the on screen instructions.
+**Your game is now downgraded.**
+
+You'll need to mod it next
 
 ## Mod your game
 Go to the `Mod my game` tab and press `Patch my game`.
 Wait for it to finish and once again follow the on screen instructions.
-Your game is now modded.
+**Your game is now modded.**
+_This means you can now install mods_
 
 ## Installing Mods
 
@@ -117,10 +120,6 @@ Open QuestAppVersionSwitcher on your Quest and open the `Get mods & more` tab.
 Open the `Beat Saber mods page`.
 **Press the download all core mods button to download all essential mods!**
 You can then download any other mods you want.
-
-:::warning
-You currently also need to install the V51 custom types fix by pressing `Get V51 custom types fix` every time you downloaded a mod
-:::
 
 ### Using your PC
 You can find and download other Quest mods from the [BSMG Discord](https://discord.com/invite/beatsabermods) in
