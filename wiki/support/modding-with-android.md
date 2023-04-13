@@ -3,28 +3,6 @@ sidebar: auto
 ---
 # Quest Modding with Android
 
-:::warning
-Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
-base game leaderboards.
-If you would like to play modded multiplayer, you need the `Beat Together` and `MultiQuestensions` mods, which enables
-cross-play between PC
-and modded Quests and allows for custom songs to be played. The mod can be found in the
-[Beat Saber Modding Group](discord.gg/beatsabermods) in `#quest-mods` or on the [Questboard](https://questmodding.com) site.
-
-To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
-[ScoreSaber](https://new.scoresaber.com/quest) mod. [This link](https://new.scoresaber.com/quest) will take you to the
-ScoreSaber page to set it up.
-ScoreSaber does not replace the base game leaderboards, it only adds leaderboards for custom songs.
-
-**Note:** Check the updates channel in the [ScoreSaber Discord](https://discord.gg/WpuDMwU) to see if the mod is available
-for the current game version.
-:::
-
-::: tip NOTE
-The recommended way to install BMBF is with [SideQuest on a PC](/quest-modding.md#installing-bmbf-with-sidequest).
-This method should only be used if you do not have access to a PC.
-:::
-
 * [Requirements](#requirements)
 * [Enable Developer mode on your Quest](#how-to-enable-developer-mode-on-the-oculus-quest)
 * [Setup your Phone](#setup-your-phone)
@@ -51,8 +29,6 @@ After you successfully logged in and verified you can create your new Organizati
 ![DevModeDashboard](~@images/beginners-guide/DevModeDashboard.png)
 
 ![DevModeCreateOrg](~@images/beginners-guide/DevModeCreateOrg.png)
-
-After you created it, you can enable Developer mode in the Oculus app on your smartphone.
 
 #### Enable Developer mode in the Oculus App
 
@@ -119,10 +95,7 @@ You can now continue to [Setup your Phone](#setup-your-phone)
     2. Tap "Developer options"
     3. Activate USB debugging
 
-### Installing BMBF with your Phone
-:::warning
-Before modding, run Beat Saber once, play a level and immediately fail!
-:::
+### Installing QAVS with your Phone
 
 Open Sidequest on your Phone connect and your Quest with your phone via the USB Cord.
 You should get a USB debugging pop-up in your Quest and on your phone. Select allow on both devices and if you prefer,
@@ -131,22 +104,10 @@ select always allow.
 Now if SideQuest picked your Quest up you should see the SideQuest logo with a green dot next to it at the bottom of
 your Screen.
 
-Then install BMBF by clicking the search icon at the top of SideQuest and search for `BMBF`.
+Then install BMBF by clicking the search icon at the top of SideQuest and search for `QuestAppVersionSwitcher`.
 You should see an app with an unicorn as symbol. Tap on that and click `INSTALL TO HEADSET`.
 
-Afterwards you should have BMBF installed on your Quest and are ready to mod Beat Saber.
+Afterwards you should have QAVS installed on your Quest and are ready to mod Beat Saber.
 
-## Setup Beat Saber
-After successfully installing BMBF onto your Quest you should be able to find it in your Quests library under unknown sources.
-
-![UnknownMenu](~@images/beginners-guide/quest_home-menu.jpg)
-
-Open it and allow file access after starting it if prompted. Now follow the on-screen instructions carefully.
-After you finished you should see [BeastSaber](https://bsaber.com).
-
-If at any point during the install process, you get the Restore App popup just click Close.
-This warning is directed to pirated versions of the game so there will likely be no consequences for ignoring it if you
-have a legitimate copy.
-
-Now you can continue with the [Core Mods](/quest-modding.md#core-mods) step of the installation process as if you were
+Now you can continue with the [QAVS Setup](/quest-modding.md#qavs-setup) step of the installation process as if you were
 modding with your PC.
