@@ -3,6 +3,22 @@ sidebar: auto
 ---
 # Quest Modding with Android
 
+:::warning
+Installing QAVS and modding your game will disable Official Multiplayer as well as viewing and uploading scores
+on the base game leaderboards.
+If you would like to play modded multiplayer, you need the mod `BeatTogether`, which allows
+for cross-play between PC and Quest and for custom songs to be used. You'll have to download this mod when you've
+modded your game
+
+To get leaderboards and to be able to get Performance Points (PP) from ranked songs you need the
+[ScoreSaber](https://new.scoresaber.com/quest) or [BeatLeader](https://www.beatleader.xyz/) mod.
+These do not replace the base game leaderboards, they only add leaderboards for custom songs.
+
+**Note:** Check the updates channel in the [ScoreSaber Discord](https://discord.gg/WpuDMwU) or
+[BeatLeader Discord](https://discord.gg/2RG5YVqtG6) to see if the mod is available
+for the current game version.
+:::
+
 * [Requirements](#requirements)
 * [Enable Developer mode on your Quest](#how-to-enable-developer-mode-on-the-oculus-quest)
 * [Setup your Phone](#setup-your-phone)
