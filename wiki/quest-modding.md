@@ -61,7 +61,7 @@ There are two methods available to obtain QAVS:
 * If you do not have a PC, you can use [the SideQuest Store on Android](/support/modding-with-android.md)
   * Chromebooks and iOS devices such as iPhones or iPads are not supported.
 :::tip
-If you've previously modded Beat Saber or have scores you want to backup, [backup your Save Data first!](#backup-save-data-using-sidequest)
+If you've previously modded Beat Saber or have scores you want to backup, [backup your Save Data first!](#backup-save-data-using-qavs)
 :::
 
 #### Download from the SideQuest Store
@@ -79,11 +79,19 @@ all secondary accounts before modding the game. You can add them back later once
 Once QAVS has been successfully installed, open the app like shown below and allow it to manage your storage.
 ![UnknownSources](~@images/beginners-guide/quest_home-menu.jpg)
 
-Once opened, go to the `Change app` button and select `com.beatgames.beatsaber` (if you can't click it, click outside the list and try again).
+Once opened, go to the `Change app` button and select `com.beatgames.beatsaber` (if you can't click it,
+click outside the list and try again).
 After that's done, open the `Get Mods and Cosmetics tab` followed by `Open Beat Saber mods page`.
-Now do:
-a) You see a list of mods: Continue with [#mod-your-game](Modding your game)
-b) You see a prompt saying there are no mods available for your version? Follow along
+Now do one of the following based on what you see:
+### a) You see a list of mods:
+Continue with [Modding your game](#mod-your-game)
+
+### b) You see a prompt saying that your game isn't modded?
+Press `Mod my game` and follow the provided instructions
+then follow the [Installing mods section](#installing-mods)
+
+### c) You see a prompt saying there are no mods available for your version?
+Follow along!
 
 ## Downgrade your game
 On the prompt there's a button `Download latest moddable version`. Press that button and follow the instructions.
@@ -123,7 +131,8 @@ Make sure your Quest and PC are on the same network and that you are using http 
 :::
 
 Open QuestAppVersionSwitcher in your Quest and go to the `Tools & options` tab, there you should see a
-web address at the very bottom
+ip address at the top.
+It'll look something like `http://192.168.178.22:50002/` or `http://10.0.0.21:50002`
 
 On your PC, open your browser and type the address into the search bar.
 
@@ -131,7 +140,8 @@ You should be greeted with the same interface as in your quest.
 
 If this doesn't work [click here](#qavs-web-interface-not-loading) for some troubleshooting steps.
 
-Now just go to the `Installed mods` tab and install any mods by pressing `Install a mod from disk` and selecting the qmod file.
+Now just go to the `Installed mods` tab and install any mods by pressing `Install a mod from disk` 
+and selecting the qmod file.
 
 ## Installing Songs
 ::: tip
@@ -141,7 +151,8 @@ custom levels experience.
 :::
 
 ### In-Game
-You can now download songs in-game using SongDownloader (core mod)
+You can download songs in-game using
+SongDownloader (core mod) or BetterSongSearch (you'll need to download that mod yourself)
 There are a few steps to downloading songs in-game:  
 
 1. Open Beat Saber  
@@ -162,28 +173,21 @@ in the Qosmetics mod
 
 ## Manage Save Data
 
-:::warning
-To manage your save data you need the SideQuest Advanced Installer. Get and install it from
-[the SideQuest site](https://sidequestvr.com/setup-howto) before continuing.
-:::
+### Restoring Save Data using QAVS
 
-### Backup Save Data using SideQuest
+1. Open the `Backup` tab of QAVS.
+2. Click `Change app` and select `com.beatgames.beatsaber`
+3. Select the backup you made earlier from the list
+4. Press `Restore Backup` and follow the provided steps
 
-Open SideQuest and connect your Quest to your PC.
+### Save Data using QAVS
 
-Navigate to `sdcard/Android/data/com.beatgames.beatsaber/files` using the SideQuest file explorer.
+1. Open the `Backup` tab of QAVS.
+2. Click `Change app` and select `com.beatgames.beatsaber`
+3. At the bottom enter a backup name. e. g. `old_scores`
+4. Check `Only backup app data`
+5. Press create backup
 
-![SideQuest Files](~@images/beginners-guide/sqfiles.png)
-
-Save the files: `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` into a folder on your PC. Do not lose these, as they
-contain your scores and other settings!
-
-### Restoring Save Data using SideQuest
-
-To restore your data, open SideQuest and connect your Quest to your PC.  
-Using the SideQuest file explorer, take the 3 files you saved from the [Backup Save Data using SideQuest](#backup-save-data-using-sidequest)
-steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
-`sdcard/Android/data/com.beatgames.beatsaber/files` folder.
 
 ## Useful Links
 
@@ -218,7 +222,7 @@ bloqs, and walls in the [Qosmetics Community](https://discord.gg/qosmetics).
 Once you have your mod or model qmod use the [QAVS Web Interface](#using-your-pc) to install it.
 
 ### Sideloading QAVS failed
-When sideloading BMBF and you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.ComputerElite.questappversionswitcher
+When sideloading QAVS and you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.ComputerElite.questappversionswitcher
 signatures do not match the previously installed version; ignoring!`
 
 You will need to uninstall the QAVS version on your Quest. You can do this from SideQuest's `My Apps` menu.
