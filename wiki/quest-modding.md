@@ -83,6 +83,7 @@ Once opened, go to the `Change app` button and select `com.beatgames.beatsaber` 
 click outside the list and try again).
 After that's done, open the `Get Mods and Cosmetics tab` followed by `Open Beat Saber mods page`.
 Now do one of the following based on what you see:
+
 ### a) You see a list of mods?
 Continue with [Modding your game](#mod-your-game)
 
