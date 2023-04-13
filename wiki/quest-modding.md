@@ -40,7 +40,7 @@ If you would like to play modded multiplayer, you need the mod `BeatTogether`, w
 for cross-play between PC and Quest and for custom songs to be used. You'll have to download these mods when you've
 modded your game
 
-To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
+To get leaderboards and to be able to get Performance Points (PP) from ranked songs you need the
 [ScoreSaber](https://new.scoresaber.com/quest) or [BeatLeader](https://www.beatleader.xyz/) mod.
 These do not replace the base game leaderboards, they only adds leaderboards for custom songs.
 
