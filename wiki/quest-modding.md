@@ -37,7 +37,7 @@ Chromebooks and iOS devices such as iPhones or iPads are not supported.
 :::warning
 Installing QAVS and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the base game leaderboards.
 If you would like to play modded multiplayer, you need the mod `BeatTogether`, which allows
-for cross-play between PC and Quest and for custom songs to be used. You'll have to download these mods when you've
+for cross-play between PC and Quest and for custom songs to be used. You'll have to download this mod when you've
 modded your game
 
 To get leaderboards and to be able to get Performance Points (PP) from ranked songs you need the
