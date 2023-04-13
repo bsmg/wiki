@@ -51,7 +51,7 @@ for the current game version.
 ### Installing QAVS with SideQuest
 If you haven't already, download and install the [SideQuest Easy Installer](https://sidequestvr.com/setup-howto).
 
-**Note:** If you are on iOS, for `Step 4: Enable Developer Mode and Reboot` follow these steps instead
+**Note:** If your app looks different when following Step 4, follow this image instead
 
 ![iOSHowTo](~@images/beginners-guide/EnableDevModeIOS.png)
 
