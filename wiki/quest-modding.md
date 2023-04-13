@@ -29,13 +29,15 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 :::
 
 ## Installation
-Currently the only recommended way to install custom songs and mods is QuestAppVersionSwitcher (QAVS) sideloaded with [SideQuest using a PC](#installing-qavs-with-sidequest).
+Currently the only recommended way to install custom songs and mods is QuestAppVersionSwitcher (QAVS) sideloaded with
+[SideQuest using a PC](#installing-qavs-with-sidequest).
 
 If you do not have access to a PC you can use an [Android Phone or Tablet](/support/modding-with-android.md).
 Chromebooks and iOS devices such as iPhones or iPads are not supported.
 
 :::warning
-Installing QAVS and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the base game leaderboards.
+Installing QAVS and modding your game will disable Official Multiplayer as well as viewing and uploading scores
+on the base game leaderboards.
 If you would like to play modded multiplayer, you need the mod `BeatTogether`, which allows
 for cross-play between PC and Quest and for custom songs to be used. You'll have to download this mod when you've
 modded your game
@@ -44,7 +46,8 @@ To get leaderboards and to be able to get Performance Points (PP) from ranked so
 [ScoreSaber](https://new.scoresaber.com/quest) or [BeatLeader](https://www.beatleader.xyz/) mod.
 These do not replace the base game leaderboards, they only add leaderboards for custom songs.
 
-**Note:** Check the updates channel in the [ScoreSaber Discord](https://discord.gg/WpuDMwU) or [BeatLeader Discord](https://discord.gg/2RG5YVqtG6) to see if the mod is available
+**Note:** Check the updates channel in the [ScoreSaber Discord](https://discord.gg/WpuDMwU) or
+[BeatLeader Discord](https://discord.gg/2RG5YVqtG6) to see if the mod is available
 for the current game version.
 :::
 
@@ -80,7 +83,7 @@ Once opened, go to the `Change app` button and select `com.beatgames.beatsaber` 
 click outside the list and try again).
 After that's done, open the `Get Mods and Cosmetics tab` followed by `Open Beat Saber mods page`.
 Now do one of the following based on what you see:
-### a) You see a list of mods:
+### a) You see a list of mods?
 Continue with [Modding your game](#mod-your-game)
 
 ### b) You see a prompt saying that your game isn't modded?
@@ -136,7 +139,7 @@ You should be greeted with the same interface as in your quest.
 
 If this doesn't work [click here](#qavs-web-interface-not-loading) for some troubleshooting steps.
 
-Now just go to the `Installed mods` tab and install any mods by pressing `Install a mod from disk` 
+Now just go to the `Installed mods` tab and install any mods by pressing `Install a mod from disk`
 and selecting the qmod file.
 
 ## Installing Songs
@@ -160,10 +163,10 @@ When downloading songs in-game you do not have to restart the game. It automatic
 
 ![songdownloader](~@images/beginners-guide/songdownloader.png)
 
-
 ## Installing Models
 Join the [Qosmetics Community](https://discord.gg/JNuFC7XMTk) to change how your sabers, bloqs or walls look in-game!
-To install them go to the `Cosmetics & more tab` in QuestAppVersionSwitcher on your PC (similar to installing mods via your PC).
+To install them go to the `Cosmetics & more tab` in QuestAppVersionSwitcher on your PC
+(similar to installing mods via your PC).
 Press `Install a Cosmetic from disk` and select a saber you downloaded. The models will now appear in-game
 in the Qosmetics mod
 
@@ -183,7 +186,6 @@ in the Qosmetics mod
 3. At the bottom enter a backup name. e. g. `old_scores`
 4. Check `Only backup app data`
 5. Press create backup
-
 
 ## Useful Links
 
@@ -237,7 +239,8 @@ If you had mods installed before this, you'll need to download them again
 ---
 
 ### QAVS web interface not loading
-If your QAVS Web Interface is not loading, Make sure you are typing the ip from the tools & options tab in the quest into your browser.
+If your QAVS Web Interface is not loading, Make sure you are typing the ip from the
+tools & options tab in the quest into your browser.
 If it still does not load, make sure you are doing the following:
 
 * QAVS is open in the headset and that your headset isn't in sleep mode
@@ -253,7 +256,8 @@ If none of these work restart your quest and try them all again
 ---
 
 ### Beat Saber is crashing
-If your game is crashing when doing something, disable all of your mods, and then see if it works. Then, enable your mods one by one,
+If your game is crashing when doing something, disable all of your mods, and then see if it works.
+Then, enable your mods one by one,
 or in batches, and run the game each time to see if you can find the cause before going into a support channel
 
 ### I only see a white screen when I open QAVS
