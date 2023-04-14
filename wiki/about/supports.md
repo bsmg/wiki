@@ -68,6 +68,13 @@ A fine nugget... A tasty nugget
 
 **Roles:** Support
 
+## oli
+I broke my feet the day before I got support, its not related *I think*
+
+**Roles:** Support
+
+[YouTube](https://www.youtube.com/@gikmo8246) | [GitHub](https://github.com/oli-ctrl)
+
 ## Pespiri
 He'll give me his bio later today, or so he says.
 
