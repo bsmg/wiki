@@ -3,14 +3,6 @@ _The Support role is a symbol of thanks. Thanks for the thousands of messages an
 sort out their mods, and for for building a knowledge of troubleshooting base through macros and the wiki. We don't typically
 give this role out, but when we do it's because someone has gone above and beyond for the server._
 
-## oli
-I broke my feet the day before I got support, its not related *I think*
-
-**Roles:** Support 
-
-[YouTube](https://www.youtube.com/@gikmo8246) | [GitHub](https://github.com/oli-ctrl)
-
-
 ## Alteran
 Just your random geek.  With a strong affinity towards music, and a love for Stargate that goes unmatched.
 Always happy to help if I have the ability.  
@@ -75,6 +67,13 @@ is too uncreative to think of a bio
 A fine nugget... A tasty nugget
 
 **Roles:** Support
+
+## oli
+I broke my feet the day before I got support, its not related *I think*
+
+**Roles:** Support
+
+[YouTube](https://www.youtube.com/@gikmo8246) | [GitHub](https://github.com/oli-ctrl)
 
 ## Pespiri
 He'll give me his bio later today, or so he says.
