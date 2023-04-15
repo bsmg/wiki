@@ -190,6 +190,8 @@ For more precise tips and tricks, go refer to the [Useful Tips & Links](#useful-
 ## Modifiers
 
 ### Modifiers & Ranked songs
+
+#### ScoreSbaer
 When it comes to ranked maps, all the **Negative Modifiers** such as No Fail apply on the score. This means **Negative Modifiers**
 can be used on any ranked map but they will obviously penalize your score and reward less PP.
 **Positive Modifiers** only take effect on two ranked maps as of now;
@@ -199,7 +201,29 @@ other ranked maps. You can obviously play any other map (including ranked ones) 
 will only increase your score and PP on the two versions of Overkill. The modifiers used on any score on the leaderboards
 can be seen to the right of the score.
 
-With this said, here is a list of all the modifiers in the game, their effects on score and how they affect gameplay:
+#### BeatLeader
+Nearly all modifiers are **enabled** on BeatLeader for both unranked and ranked songs, although the scoring is handled differently depending on the status of the map.
+##### Ranked
+For Ranked maps, all **Negative** and most **Positive Modifiers** apply to scores. However, each map has it's own custom modifier values provided by the ranking team to better balance rewards.<br/>
+Rather than using a simple `score * modifier` calculation, the modifiers are applied to the maps and re-run through the algorithms to build more accurate PP curves. You can try this for yourself on the website by enabling modifiers on the curve on the bottom right of a map's [leaderboard page](https://www.beatleader.xyz/leaderboard/global/26d75x91/1)
+
+
+##### Unranked
+When it comes to unranked maps, in order to improve modifiers' effects on the leaderboard we use this multi-stage design. There are two main goals here: make modifiers more balanced and make them not required to compete.
+
+At BeatLeader, Modifiers only apply to the *remaining* score. 
+
+For example, you scored 100 points on a map using super fast (22% boost). The math goes like: 
+>100 + (115 - 100) * 0.22 = 103.3 points
+
+Or for example, you scores 114 points on a map using ghost notes (11% boost).
+>114 + (115 - 114) * 0.11 = 114.11 points
+
+This way, modded scores are still valued more than unmodded, but not unbeatable
+
+
+### Base Game Modifiers
+With all this said, here is a list of all the modifiers in the game, their effects on score and how they affect gameplay:
 
 <!-- markdownlint-disable MD013 -->
 | Modifier | Description |
