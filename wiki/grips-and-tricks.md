@@ -22,22 +22,22 @@ Additionally, here's an image from the game developers about how the
 ## Ranking Systems
 *How does global ranking work? What are performance points? What are the numbers in my brackets? Why is my PP so small?*
 
-There are 2 separate ranking systems knowns as [ScoreSaber](https://scoresaber.com/global) and [BeatLeader](https://www.beatleader.xyz/ranking/1).
+There are 2 separate ranking systems: [ScoreSaber](https://scoresaber.com/global) and [BeatLeader](https://www.beatleader.xyz/ranking/1).
 You can find your global ranking and PP on their respective sites where you can search for your name.
 
-On **PC**, your Beatleader account is tied to your Steam account and is by default, your steam name. <br/>
-On **Quest**, your Beatleader account is made by you in game using the BeatLeader Mod. <br/>
+On **PC**, your Beatleader account is tied to your Steam account and is your steam name by default. <br>
+On **Quest**, your Beatleader account is made by you in game using the BeatLeader Mod. <br>
 You can merge your Beatleader account with your Steam account to sync scores across devices
 
 Your ScoreSaber account is tied to your Steam / Oculus username.
 
 ### BeatLeader
-Ranked songs are assigned 3 difficulties (stars) based on the kinds of difficulty the map presents. These 3 numbers combined with the accuracy you finished the song with determines the exact amount of raw PP gained. <br/>
-The 3 difficulties represented for the purposes of PP rewards are: <br/>
+Ranked songs are assigned 3 difficulties (stars) based on the kinds of difficulty the map presents. These 3 numbers combined with the accuracy you finished the song with determines the exact amount of raw PP gained. <br>
+The 3 difficulties represented for the purposes of PP rewards are: <br>
 
-- Pass-ibility: How hard a map is to pass. Provides a base flat PP reward<br/>
-- Acc-ibility: How hard a map is to get a good accuracy. Provides PP based on your accuracy<br/>
-- Tech-iness: Purly a measurement of pattern difficulty devoid of speed. Provides bonus PP based on your accuracy <br/>
+- Pass-ibility: How hard a map is to pass. Provides a base flat PP reward<br>
+- Acc-ibility: How hard a map is to get a good accuracy. Provides PP based on your accuracy<br>
+- Tech-iness: Purly a measurement of pattern difficulty devoid of speed. Provides bonus PP based on your accuracy <br>
 
 The exact 3 difficulty numbers assigned to each map is done with an open source algorithm and AI combo developed by DzRamen and LackWiz
 
@@ -66,7 +66,7 @@ Ranked songs are assigned PP (PP = performance points). The exact amount of PP g
  fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global)/[BeatLeader](https://www.beatleader.xyz/ranking/1) profile to
  see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like.
 
-<br/>
+<br>
     
  **ScoreSaber Addons:**
 
@@ -81,7 +81,7 @@ You can find more information in the [Ranking & Scoring Guide](./ranking-guide.m
 *This section is adapted from Tek's writeup in the Beat Saber Canadian discord.*
 
 ::: tip
-**ScoreSaber** ranked songs are ranked by the team in the [ScoreSaber Discord](https://discord.gg/WpuDMwU). <br/>
+**ScoreSaber** ranked songs are ranked by the team in the [ScoreSaber Discord](https://discord.gg/WpuDMwU). <br>
 Similarly, **Beatleader** ranked songs are ranked by the team in the [BeatLeader Discord](https://discord.gg/2RG5YVqtG6). <br/>
 You can follow along in these servers to see what changes happen!
 :::
