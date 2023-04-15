@@ -25,6 +25,30 @@ for those wanting to test their acc abilities against difficult requirements.
 
 ---
 
+## BeastSaber
+**Who are we?**<br/>
+We are a team of passionate gamers, software engineers, designers, writers, community leaders (and more!) who want to continue to improve Beat Saber.
+
+**What do we do?**<br/>
+1. The BSMG Discord: We help grow and maintain the largest VR community on Discord, now with over 150,000 members. This central hub has brought together incredible talent from all over the world to build amazing mods, maps, sabers, environments / platforms, tournaments, contests and so much more 
+2. [bsaber.com:](https://bsaber.com)
+    * Curating
+    * Player Review System
+    * Algorithms
+    * SyncSaber
+    * Playlists and Campaigns
+3. Community Leading
+    * Lead and help mappers, modders, modelers, developers, etc
+    * Put together contests (100k, Christmas, Halloween, etc)
+    * Interviews with key members in the community
+    * Creating tutorials
+    * Build new tools like Beatdrop to let you create and share playlists
+    * Moderate BeastSaber Discord, BSMG Discord, Mapping Discord, r/BeatSaber subreddit, and more
+
+[Discord](https://discord.gg/5NjfSAC)
+
+---
+
 ## BeatKhana
 We are BeatKhana, a Beat Saber community focused around pushing tournaments forward!
 What do we do?
@@ -36,6 +60,15 @@ What do we do?
 * Manage a pleasant Beat Saber community
 
 [Discord](https://discord.gg/5NjfSAC)
+
+---
+
+## BeatLeader
+We're a small community of Beatsaber players who specilize in everything from tips and tricks, the competitive scene, and programming the tools we use to compete on the global leaderboard.
+
+If you're looking to get a map ranked, wanting to know more about how the ranking system works, or looking to help improve the leaderboard, we're always open for discussion!
+
+[Discord](https://discord.gg/2RG5YVqtG6) | [Website](https://www.beatleader.xyz/)
 
 ---
 
