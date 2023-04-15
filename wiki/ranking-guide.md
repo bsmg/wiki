@@ -72,13 +72,13 @@ Here is the connection between the letters and accuracy percentage:
 ### Ranked / Unranked
 A lot of people (like I did) will spend dozens and dozens of hours without knowing the difference between ranked and
 unranked maps when they start. While a map being ranked doesn’t make it better for any reason, it’s great for new
-players to learn what the difference is, especially if they ever decide to try ranking up.
+players to learn what the difference is, especially if they ever decide to try ranking up. There are 2 primary ranking systems that exist: [BeatLeader](https://www.beatleader.xyz/ranking/1) and [ScoreSaber](https://scoresaber.com/global)
 
 #### Ranked
 A ranked map is assigned a certain difficulty level measured in stars (★) and is worth a certain amount of PP
 (performance points) for that difficulty. An amount of that PP can be earned by a player for completing the map.
 More PP will be rewarded for a player that got a higher accuracy. Ranked maps *mostly* respect criteria and are
-considered as "good maps". They are the only way to climb the [global leaderboard](https://scoresaber.com/global).
+considered as "good maps". They are the only way to climb the global leaderboards [BL](https://www.beatleader.xyz/ranking/1)/[SS](https://scoresaber.com/global).
 
 #### Unranked
 An unranked map is any map that has been published on [BeatSaver](https://beatsaver.com/). It does not need to be actually
