@@ -180,8 +180,7 @@ To improve your skills and to get a spot in the global rankings, there are quite
     
  **ScoreSaber Addons:**
 
- The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) 
- browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee)
+[BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee)
  and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep
  track of your performance.
 

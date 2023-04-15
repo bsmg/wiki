@@ -70,8 +70,7 @@ Ranked songs are assigned PP (PP = performance points). The exact amount of PP g
     
  **ScoreSaber Addons:**
 
- The [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) 
- browser extension can extend the functionality of your profile. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee)
+[BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee)
  and [Beat Savior](https://www.beatsavior.io/) are external sites that can help you find maps to improve on and keep
  track of your performance.
 

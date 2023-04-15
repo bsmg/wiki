@@ -64,9 +64,9 @@ What do we do?
 ---
 
 ## BeatLeader
-We're a small community of Beatsaber players who specilize in everything from tips and tricks, the competitive scene, and programming the tools we use to compete on the global leaderboard.
+We're fun/competitive community of Beatsaber players who specilize in everything from tips and tricks, the competitive scene, and programming the tools we use to compete on the global leaderboard.
 
-If you're looking to get a map ranked, wanting to know more about how the ranking system works, or looking to help improve the leaderboard, we're always open for discussion!
+If you're looking to get a map ranked, wanting to know more about how the ranking system works, or looking to help improve the leaderboard, come on in. We'd love to have some discussions
 
 [Discord](https://discord.gg/2RG5YVqtG6) | [Website](https://www.beatleader.xyz/)
 
