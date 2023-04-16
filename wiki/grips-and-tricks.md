@@ -51,7 +51,7 @@ Ranked songs are assigned PP (PP = performance points). The exact amount of PP g
 
 ### Both Systems
 
-#### Weighted PP 
+#### Weighted PP
 To avoid having skilled players grinding lots of easier songs that are worth less PP, a __curve__ is applied to your plays.
 
   This curve is `0.965^(x-1)` where `x` is the position of that score on your song list.
@@ -66,8 +66,8 @@ To avoid having skilled players grinding lots of easier songs that are worth les
 | 246pp | **229pp** (93.1% of raw PP) |
 | 244pp | **219pp**  (89.9% of raw PP) |
 
-### Improving Your Rank 
-To get a better rank, there are quite a few tools you can use to find ranked songs that fit your skill level. 
+### Improving Your Rank
+To get a better rank, there are quite a few tools you can use to find ranked songs that fit your skill level.
 
 First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global)/
  [BeatLeader](https://www.beatleader.xyz/ranking/1) profile to

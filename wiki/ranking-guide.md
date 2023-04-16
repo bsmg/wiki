@@ -197,8 +197,8 @@ To improve your skills and position in the global rankings, there are quite a fe
  **ScoreSaber Addons:**
 
 [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee)
- and [Beat Savior](https://www.https://beat-savior.herokuapp.com/) are external sites that can help you find maps to improve on and keep
- track of your performance.
+ and [Beat Savior](https://www.https://beat-savior.herokuapp.com/) are external sites that can help you find maps
+ to improve on and keep track of your performance.
 
 For more precise tips and tricks, go refer to the [Useful Tips & Links](#useful-tips-links) chapter.
 
