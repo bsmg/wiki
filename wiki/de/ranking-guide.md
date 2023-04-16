@@ -76,7 +76,7 @@ Um zu verhindern, dass erfahrene Spieler Hunderte von einfacheren Maps mit wenig
 
 Vielleicht ist dir aufgefallen, dass es in deiner Liste 2 Nummern gibt, die mit PP enden. Eine dieser Zahlen ist **Blau** und stellt die "rohe" Menge an PP dar, die du aus diesem Play erhalten hast, bevor die Curve angewendet wird. Die zweite Zahl ist (Grau) und zeigt die tatsächliche gewichtete Menge an PP, die du aus diesem Play erhalten hast, nachdem die Curve angewendet wurde.
 
-![Rohe PP und Gewichtete PP](~@images/ranking-guide/raw&weighted_pp.png "Rohe & Gewichtete PP")
+![Rohe PP und Gewichtete PP](~@images/ranking-guide/SSraw&weighted_pp.png "Rohe & Gewichtete PP")
 
 Wie bereits erwähnt, wird die Menge der gewichteten PP die du erhältst durch die Curve und die Platzierung des Songs in deiner Liste bestimmt. Wenn dein Top-Play zum Beispiel ein **260 Raw-PP** Play ist, wirst du mit **260 gewichteten PP** belohnt, was **100%** der Raw PP dieses Plays entspricht. Wenn dein zweites Top-Play **247 Raw PP** ist, erhälst du **238 gewichtete PP**, was die tatsächliche Menge an PP ist, die du erhälst, nachdem die Curve darauf angewendet wurde.
 

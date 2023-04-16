@@ -76,7 +76,7 @@ Dans l'optique d'empêcher les joueurs expérimentés d'effectuer des centaines 
 
 Vous avez peut-être déjà remarqué que dans votre liste, deux nombres terminant par PP apparaissent. L'un d'entre eux est **bleu** et représente le nombre brut de PP que vous avez remporté lors de la partie, avant que la courbe ne soit appliquée. L'autre nombre est gris et montre le nombre de PP ajustés que vous allez récupérer à l'issue de la partie après que la courbe soit appliquée.
 
-![PP brut et ajusté](~@images/ranking-guide/raw&weighted_pp.png "PP brut et ajusté")
+![PP brut et ajusté](~@images/ranking-guide/SSraw&weighted_pp.png "PP brut et ajusté")
 
 Comme cela a déjà été dit, la quantité de PP ajustés reçus dépend de la courbe et de la position de la chanson au sein de votre liste. Par exemple, si votre meilleure partie vous a fait gagner **260 PP bruts**, vous allez recevoir **260 PP ajustés**, ce qui représente **100%** des PP bruts de cette partie. Cependant, si votre deuxième meilleure partie vous a rapporté **247 PP bruts**, vous allez recevoir **238 PP ajustés** après que la courbe soit appliquée.
 
