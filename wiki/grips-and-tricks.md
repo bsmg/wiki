@@ -19,7 +19,7 @@ Additionally, here's an image from the game developers about how the
 
 ![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
 
-## Ranking Systems
+## Ranking
 *How does global ranking work? What are performance points? What are the numbers in my brackets? Why is my PP so small?*
 
 There are 2 separate ranking systems: [ScoreSaber](https://scoresaber.com/global) and [BeatLeader](https://www.beatleader.xyz/ranking/1).
@@ -51,7 +51,9 @@ Ranked songs are assigned PP (PP = performance points). The exact amount of PP g
 
 ### Both Systems
 
-1. To avoid having skilled players grinding lots of easier songs that are worth less PP, a curve is applied to your plays.
+#### Weighted PP 
+To avoid having skilled players grinding lots of easier songs that are worth less PP, a __curve__ is applied to your plays.
+
   This curve is `0.965^(x-1)` where `x` is the position of that score on your song list.
   e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play.
   If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get
@@ -64,8 +66,10 @@ Ranked songs are assigned PP (PP = performance points). The exact amount of PP g
 | 246pp | **229pp** (93.1% of raw PP) |
 | 244pp | **219pp**  (89.9% of raw PP) |
 
-2. To get a better rank, there are quite a few tools you can use to find ranked songs that
- fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global)/
+### Improving Your Rank 
+To get a better rank, there are quite a few tools you can use to find ranked songs that fit your skill level. 
+
+First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global)/
  [BeatLeader](https://www.beatleader.xyz/ranking/1) profile to
  see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like.
 
