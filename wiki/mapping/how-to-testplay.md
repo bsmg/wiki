@@ -35,9 +35,7 @@ water, written feedback instead of video is totally acceptable as you learn the 
 
 :::warning
 It is important that you play the map in Practice Mode in order to prevent
-creating a new scoreboard on ScoreSaber if you have the mod installed! <br/>
-BeatLeader isn't effected so nothing to worry about
-
+creating a new scoreboard on ScoreSaber if you have the mod installed!
 
 ![Practice Mode Location](~@images/mapping/practice_mode-location.png)
 :::

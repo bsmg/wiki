@@ -69,19 +69,23 @@ Here is the connection between the letters and accuracy percentage:
 
 ## The Ranking Process
 
-There are 2 primary ranking systems that exist: [BeatLeader](https://www.beatleader.xyz/ranking/1) and [ScoreSaber](https://scoresaber.com/global)<br/>
+There are 2 primary ranking systems that exist: [BeatLeader](https://www.beatleader.xyz/ranking/1) and
+[ScoreSaber](https://scoresaber.com/global)
+
 Exact specifics vary between the systems but generally operate the same way
 
 ### Ranked / Unranked
 A lot of people (like I did) will spend dozens and dozens of hours without knowing the difference between ranked and
 unranked maps when they start. While a map being ranked doesn’t make it better for any reason, it’s great for new
-players to learn what the difference is, especially if they ever decide to try ranking up. 
+players to learn what the difference is, especially if they ever decide to try ranking up.
 
 #### Ranked
-A ranked map is assigned a certain difficulty levels by the respective ranking systems. Usually measured in stars (★) and is worth a certain amount of PP
-(performance points) for that difficulty; An amount of that PP can be earned by a player for completing the map.<br/>
+A ranked map is assigned a certain difficulty level by the respective ranking systems. Usually measured in stars (★)
+and is worth a certain amount of PP (performance points) for that difficulty; An amount of that PP can be earned by
+a player for completing the map.  
 More PP will be rewarded for a player that got a higher accuracy. Ranked maps *mostly* respect criteria and are
-considered as "good maps". They are the only way to climb the global leaderboards [BL](https://www.beatleader.xyz/ranking/1)/[SS](https://scoresaber.com/global).
+considered as "good maps". They are the only way to climb the global leaderboards
+[BL](https://www.beatleader.xyz/ranking/1)/[SS](https://scoresaber.com/global).
 
 #### Unranked
 An unranked map is any map that has been published on [BeatSaver](https://beatsaver.com/). It does not need to be actually
@@ -90,6 +94,7 @@ level of an unranked map except by looking at the difficulty name which is not a
 since the mapper chooses it.
 
 ### Criteria and the Ranking Process
+
 #### Scoresaber
 The ranking team ranks maps through a communal evaluation process. Those maps are then assigned PP based on an algorithm
 that determines the difficulty once they are ranked based on a variety of factors. PP, which stands for performance points,
@@ -97,14 +102,19 @@ is given for completing ranked maps based on how high you scored in the level. F
 criteria, and additional FAQs can be found in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
 
 #### BeatLeader
-After anyone completes a map, they may vote on the maps rankability. These votes are tallied to give the Nomination Quality Team (NQT) an idea of what maps the community think should be ranked. 
-Special votes from NQT determine if the map gets a nomination. <br/>
-Once a map is nominated, it gets forwarded to the ranking team for criteria assessment and gets it's 3 difficulty ratings:
-- Pass-ibility: How hard a map is to pass. Provides a base flat PP reward<br/>
-- Acc-ibility: How hard a map is to get a good accuracy. Provides PP based on your accuracy<br/>
-- Tech-iness: Purly a measurement of pattern difficulty devoid of speed. Provides bonus PP based on your accuracy <br/>
+After anyone completes a map, they may vote on the maps rankability. These votes are tallied to give the Nomination
+Quality Team (NQT) an idea of what maps the community think should be ranked.
+Special votes from NQT determine if the map gets a nomination.  
+Once a map is nominated, it gets forwarded to the ranking team for criteria assessment and gets it's 3 difficulty
+ratings:
 
-Assuming everything is in order and changes that need to be made are applied, a ranking team member will qualify the map. After qualification, the map must wait for a minimum of one week for players to try the map and provide feedback. Maps may be un-qualified if necessary.
+* Pass-ibility: How hard a map is to pass. Provides a base flat PP reward  
+* Acc-ibility: How hard a map is to get a good accuracy. Provides PP based on your accuracy  
+* Tech-iness: Purly a measurement of pattern difficulty devoid of speed. Provides bonus PP based on your accuracy  
+
+Assuming everything is in order and changes that need to be made are applied, a ranking team member will qualify the
+map. After qualification, the map must wait for a minimum of one week for players to try the map and provide feedback.
+Maps may be un-qualified if necessary.
 
 After a map passes the one week waiting period, it will be ranked Friday 10am UTC
 
@@ -114,23 +124,29 @@ it that people misunderstand it so often that I ended up writing a message about
 Discord so I wouldn’t need to explain it anymore, so here is "all" you need to know about it.
 
 ### How can I earn PP and how does the global ranking work?
-You can find your global ranking on [BeatLeader](https://www.beatleader.xyz/ranking/1)/[ScoreSaber](https://scoresaber.com/global) by typing your username in the search bar. ,<br/>
+You can find your global ranking on [BeatLeader](https://www.beatleader.xyz/ranking/1)/
+[ScoreSaber](https://scoresaber.com/global) by typing your username in the search bar.  
 
-###### Scoresaber
-Your ScoreSaber profile is tied to your Steam/Oculus profile on which you play the game. <br/><br/>
+#### Scoresaber
+Your ScoreSaber profile is tied to your Steam/Oculus profile on which you play the game.  
 As said earlier, you can earn PP (performance points) by playing ranked maps. The amount of PP a map is worth is determined
-when the map is ran through the PP algorithm. 
+when the map is ran through the PP algorithm.
 The algorithm is kept secret to prevent mappers from trying to intentionally
 make songs to only be worth a lot of PP (to avoid breaking the system basically). The exact amount of PP gained by a player
 is determined by their accuracy on that map and the curve it represents compared to the max amount of PP that map is worth.
 You can find more information in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
 
-###### BeatLeader
-On **PC**, your Beatleader account is tied to your Steam account and is your steam name by default. <br/>
-On **Quest**, your Beatleader account is made by you in game using the BeatLeader Mod.
-You can merge your Beatleader account with your Steam account to sync scores across devices<br/><br/>
-Just like ScoreSaber, you can earn PP (performance points) by playing ranked maps. The amount of PP a map is worth is determined by the maps 3 difficulty ratings and your accuracy. Unlike ScoreSaber, the algorithm is publiclly accessable and instead BeatLeader will constantly update the algorithm to discourage PP mapping. The exact amount of raw PP gained by the player is determined by their accuracy which has a corresponding PP value on the PP curve
+#### BeatLeader
+On **PC**, your Beatleader account is tied to your Steam / Oculus account and is your profile name by default.  
+On **Quest**, your Beatleader account is made by you in game using the BeatLeader Mod.  
+>You can merge your Beatleader account with your Steam account to sync scores across devices.  
+>If you're using an Oculus account and looking log in on the website, you'll need to
+[make a BL account](https://beatleader.wiki/en/account#website-1) or connect your steam account
 
+Just like ScoreSaber, you can earn PP (performance points) by playing ranked maps. The amount of PP a map is worth is
+determined by the maps 3 difficulty ratings and your accuracy. Unlike ScoreSaber, the algorithm is publiclly accessable
+and instead BeatLeader will constantly update the algorithm to discourage PP mapping. The exact amount of raw PP gained
+by the player is determined by their accuracy which has a corresponding PP value on the PP curve
 
 ### How does the PP system work and what is weighted PP?
 To prevent skilled players from grinding hundreds of easier maps worth less PP to rank up, a curve is applied
@@ -143,7 +159,6 @@ showing the actual weighted amount of PP you are getting from that play after th
 
 ![Raw and Weighted PP](~@images/ranking-guide/SSraw&weighted_pp.png "ScoreSaber Raw & Weighted PP")
 ![Raw and Weighted PP](~@images/ranking-guide/BLraw&weighted_pp.png "BeatLeader Raw & Weighted PP")
-
 
 As said before, the amount of weighted PP you will receive is determined by the curve and the placement of that song in
 your list. As an example, if your top play is a **260 raw PP** play, you will be rewarded **260 weighted PP** which is a
@@ -174,10 +189,11 @@ and you manage to get a better accuracy and that play is now worth **260 pp**, y
 amount of PP.
 
 ### How can I improve and get more PP?
-To improve your skills and to get a spot in the global rankings, there are quite a few tools you can use to find ranked songs that
- fit your skill level. First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global)/[BeatLeader](https://www.beatleader.xyz/ranking/1) profile to
+To improve your skills and position in the global rankings, there are quite a few tools you can use to find ranked
+ songs that fit your skill level. First, it’s always good to go see your own
+ [ScoreSaber](https://scoresaber.com/global)/[BeatLeader](https://www.beatleader.xyz/ranking/1) profile to
  see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like.
-    
+
  **ScoreSaber Addons:**
 
 [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee)
@@ -190,7 +206,7 @@ For more precise tips and tricks, go refer to the [Useful Tips & Links](#useful-
 
 ### Modifiers & Ranked songs
 
-#### ScoreSbaer
+#### ScoreSaber
 When it comes to ranked maps, all the **Negative Modifiers** such as No Fail apply on the score. This means **Negative Modifiers**
 can be used on any ranked map but they will obviously penalize your score and reward less PP.
 **Positive Modifiers** only take effect on two ranked maps as of now;
@@ -201,25 +217,29 @@ will only increase your score and PP on the two versions of Overkill. The modifi
 can be seen to the right of the score.
 
 #### BeatLeader
-Nearly all modifiers are **enabled** on BeatLeader for both unranked and ranked songs, although the scoring is handled differently depending on the status of the map.
-##### Ranked
-For Ranked maps, all **Negative** and most **Positive Modifiers** apply to scores. However, each map has it's own custom modifier values provided by the ranking team to better balance rewards.<br/>
-Rather than using a simple `score * modifier` calculation, the modifiers are applied to the maps and re-run through the algorithms to build more accurate PP curves. You can try this for yourself on the website by enabling modifiers on the curve on the bottom right of a map's [leaderboard page](https://www.beatleader.xyz/leaderboard/global/26d75x91/1)
+Nearly all modifiers are **enabled** on BeatLeader for both unranked and ranked songs, although the scoring is handled
+ differently depending on the status of the map.
 
+##### Ranked
+For Ranked maps, all **Negative** and most **Positive Modifiers** apply to scores. However, each map has it's own
+custom modifier values provided by the ranking team to better balance rewards.  
+Rather than using a simple `score * modifier` calculation, the modifiers are applied to the maps and re-run through the
+algorithms to build more accurate PP curves. You can try this for yourself on the website by enabling modifiers on the
+curve on the bottom right of a map's [leaderboard page](https://www.beatleader.xyz/leaderboard/global/26d75x91/1)
 
 ##### Unranked
-When it comes to unranked maps, in order to improve modifiers' effects on the leaderboard we use this multi-stage design. There are two main goals here: make modifiers more balanced and make them not required to compete.
+When it comes to unranked maps, in order to improve modifiers' effects on the leaderboard we use this multi-stage
+design. There are two main goals here: make modifiers more balanced and make them not required to compete.
 
-At BeatLeader, Modifiers only apply to the *remaining* score. 
+At BeatLeader, Modifiers only apply to the *remaining* score.
 
-For example, you scored 100 points on a map using super fast (22% boost). The math goes like: 
+For example, you scored 100 points on a map using super fast (22% boost). The math goes like:
 >100 + (115 - 100) * 0.22 = 103.3 points
 
 Or for example, you scores 114 points on a map using ghost notes (11% boost).
 >114 + (115 - 114) * 0.11 = 114.11 points
 
 This way, modded scores are still valued more than unmodded, but not unbeatable
-
 
 ### Base Game Modifiers
 With all this said, here is a list of all the modifiers in the game, their effects on score and how they affect gameplay:
@@ -305,11 +325,14 @@ the most. If you don’t care about rank, it’s all good, just have fun 🙂
 
 ### Links
 
-* [ScoreSaber](http://scoresaber.com/) The Official ScoreSaber website with the leaderboards for all the maps and the global ranking leaderboard
-* [BeatLeader](https://www.beatleader.xyz/) The Official BeatLeader website with the leaderboards for all the maps, the global ranking leaderboard, replays, statistics, and community voting for maps
+* [ScoreSaber](http://scoresaber.com/) The Official ScoreSaber website with the leaderboards for all the maps and the
+ global ranking leaderboard
+* [BeatLeader](https://www.beatleader.xyz/) The Official BeatLeader website with the leaderboards for all the maps,
+ the global ranking leaderboard, replays, statistics, and community voting for maps
 * [ScoreSaber Discord](https://discordapp.com/invite/WpuDMwU) Official ScoreSaber Discord to get informed about
   maps getting ranked, criteria, etc
-* [BeatLeader Discord](https://discord.gg/2RG5YVqtG6) Official BeatLeader Discord to talk with the ranked community and to stay informed about maps for ranked, criteria, events, and polls
+* [BeatLeader Discord](https://discord.gg/2RG5YVqtG6) Official BeatLeader Discord to talk with the ranked community
+ and to stay informed about maps for ranked, criteria, events, and polls
 * [BaliBilo's ScoreSaber Site](https://scoresaber.balibalo.xyz/peepee) Get play suggestions based on your scores
   to improve your global rank
 * [Beat Savior](https://www.beatsavior.io/) Track your ranked stats and performance

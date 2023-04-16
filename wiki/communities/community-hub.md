@@ -26,24 +26,11 @@ for those wanting to test their acc abilities against difficult requirements.
 ---
 
 ## BeastSaber
-**Who are we?**<br/>
-We are a team of passionate gamers, software engineers, designers, writers, community leaders (and more!) who want to continue to improve Beat Saber.
+**Who is BeastSaber?**  
+We are a team of passionate gamers, software engineers, designers, writers,  
+community leaders (and more!) who want to continue to improve Beat Saber.  
 
-**What do we do?**<br/>
-1. The BSMG Discord: We help grow and maintain the largest VR community on Discord, now with over 150,000 members. This central hub has brought together incredible talent from all over the world to build amazing mods, maps, sabers, environments / platforms, tournaments, contests and so much more 
-2. [bsaber.com:](https://bsaber.com)
-    * Curating
-    * Player Review System
-    * Algorithms
-    * SyncSaber
-    * Playlists and Campaigns
-3. Community Leading
-    * Lead and help mappers, modders, modelers, developers, etc
-    * Put together contests (100k, Christmas, Halloween, etc)
-    * Interviews with key members in the community
-    * Creating tutorials
-    * Build new tools like Beatdrop to let you create and share playlists
-    * Moderate BeastSaber Discord, BSMG Discord, Mapping Discord, r/BeatSaber subreddit, and more
+[bsaber.com:](https://bsaber.com)
 
 [Discord](https://discord.gg/5NjfSAC)
 
@@ -64,9 +51,11 @@ What do we do?
 ---
 
 ## BeatLeader
-We're fun/competitive community of Beatsaber players who specilize in everything from tips and tricks, the competitive scene, and programming the tools we use to compete on the global leaderboard.
+We're fun/competitive community of Beatsaber players who specilize in everything from tips and tricks, the competitive
+scene, and programming the tools we use to compete on the global leaderboard.
 
-If you're looking to get a map ranked, wanting to know more about how the ranking system works, or looking to help improve the leaderboard, come on in. We'd love to have some discussions
+If you're looking to get a map ranked, wanting to know more about how the ranking system works, or looking to help
+improve the leaderboard, come on in. We'd love to have some discussions
 
 [Discord](https://discord.gg/2RG5YVqtG6) | [Website](https://www.beatleader.xyz/)
 
