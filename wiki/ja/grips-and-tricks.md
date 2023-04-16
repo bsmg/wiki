@@ -32,7 +32,7 @@ PPを取るためのTeknozFRによる記事 [ランキング & スコアリン�
 | 246pp | **229pp** (元のPPの93.1%)  |
 | 244pp | **219pp**  (元のPPの89.9%) |
 
-3. ランクを上げるためにあなたのスキルレベルに合ったランク付けされた曲を見つけるために使用できるツールはかなりあります。 最初に 自分の [ScoreSaber](https://scoresaber.com/global) プロフィールを見に行って、しばらくプレイしていない曲のプレイを改善するか、自分のトップスコアがどんなものかを知ることです。 [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) または [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme) ブラウザ拡張機能は、プロフィールの機能を拡張できます。 [BalibiloのScoreSaberサイト](https://scoresaber.balibalo.xyz/peepee) と [Beat Saveria](https://www.beatsavior.io/) は、地図を見つけて、あなたのパフォーマンスを 追跡するのに役立つ外部サイトです。
+3. ランクを上げるためにあなたのスキルレベルに合ったランク付けされた曲を見つけるために使用できるツールはかなりあります。 最初に 自分の [ScoreSaber](https://scoresaber.com/global) プロフィールを見に行って、しばらくプレイしていない曲のプレイを改善するか、自分のトップスコアがどんなものかを知ることです。 [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) または [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme) ブラウザ拡張機能は、プロフィールの機能を拡張できます。 [BalibiloのScoreSaberサイト](https://scoresaber.balibalo.xyz/peepee) と [Beat Saveria](https://www.https://beat-savior.herokuapp.com/) は、地図を見つけて、あなたのパフォーマンスを 追跡するのに役立つ外部サイトです。
 
 [ランキング & 得点ガイド](./ranking-guide.md) に詳細情報があります。
 
