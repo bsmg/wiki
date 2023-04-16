@@ -49,7 +49,7 @@ Ranked songs are assigned PP (PP = performance points). The exact amount of PP g
   you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by
   Umbranox.
 
-#### Weighted PP
+### Weighted PP
 To avoid having skilled players grinding lots of easier songs that are worth less PP, a __curve__ is applied to your plays.
 
   This curve is `0.965^(x-1)` where `x` is the position of that score on your song list.
