@@ -217,7 +217,8 @@ can be seen to the right of the score.
 
 #### BeatLeader
 Nearly all modifiers are **enabled** on BeatLeader for both unranked and ranked songs, although the scoring is handled
- differently depending on the status of the map. BeatLeader will modify the values of any of the modifiers  to be more competitively viable
+ differently depending on the status of the map. BeatLeader will modify the values of any of the modifiers
+ to be more competitively viable
 
 ##### Ranked
 For Ranked maps, all **Negative** and most **Positive Modifiers** apply to scores. However, each map has it's own
@@ -263,7 +264,6 @@ and how they affect gameplay:
 | Small Notes (0.00) | Changes the notes to 50% normal size |
 | Zen Mode (-100) | No notes, walls, or bombs. Just the music and the lights! |
 <!-- markdownlint-enable MD013 -->
-
 
 ## Grips
 
