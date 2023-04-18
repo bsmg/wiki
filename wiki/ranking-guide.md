@@ -208,17 +208,16 @@ For more precise tips and tricks, go refer to the [Useful Tips & Links](#useful-
 
 #### ScoreSaber
 When it comes to ranked maps, all the **Negative Modifiers** such as No Fail apply on the score. This means **Negative Modifiers**
-can be used on any ranked map but they will obviously penalize your score and reward less PP.
-**Positive Modifiers** only take effect on two ranked maps as of now;
+can be used on any ranked map but they will penalize your score and reward less PP.
+**Positive Modifiers** are enabled on two ranked maps as of now;
 [Overkill mapped by Nuketime](http://scoresaber.com/leaderboard/87194) and [Overkill mapped by Kry](http://scoresaber.com/leaderboard/86492).
-They are used to test the effects of **Positive Modifiers** on ranked maps and to find a way to integrate them on all the
-other ranked maps. You can obviously play any other map (including ranked ones) and the modifiers will all work but they
-will only increase your score and PP on the two versions of Overkill. The modifiers used on any score on the leaderboards
+You can play any other map (including ranked ones) and the all modifiers will function but bonus score and PP are only awarded
+on the two versions of Overkill. The modifiers used on any score on the leaderboards
 can be seen to the right of the score.
 
 #### BeatLeader
 Nearly all modifiers are **enabled** on BeatLeader for both unranked and ranked songs, although the scoring is handled
- differently depending on the status of the map.
+ differently depending on the status of the map. BeatLeader will modify the values of any of the modifiers  to be more competitively viable
 
 ##### Ranked
 For Ranked maps, all **Negative** and most **Positive Modifiers** apply to scores. However, each map has it's own
@@ -242,7 +241,8 @@ Or for example, you scores 114 points on a map using ghost notes (11% boost).
 This way, modded scores are still valued more than unmodded, but not unbeatable
 
 ### Base Game Modifiers
-With all this said, here is a list of all the modifiers in the game, their effects on score and how they affect gameplay:
+With all this said, here is a list of all the modifiers in the game, their default values, their effects on score,
+and how they affect gameplay:
 
 <!-- markdownlint-disable MD013 -->
 | Modifier | Description |
@@ -258,11 +258,12 @@ With all this said, here is a list of all the modifiers in the game, their effec
 | Faster Song (+0.08) | Speeds up the song to 120% of the original speed. |
 | Super Fast Song (+0.10) | Speeds up the song to 150% of the original speed. |
 | Ghost Notes (+0.11) | Notes are invisible and the arrows disappear shortly before you hit them, similarly to Disappearing Arrows. |
-| Pro Mode (0.0) | Changes the hitboxes to match the notes precisely. |
-| Strict Angles (0.0) | Tolarace for a good cut angle is reduced |
-| Small Notes (0.0) | Changes the notes to 50% normal size |
+| Pro Mode (0.00) | Changes the hitboxes to match the notes precisely. |
+| Strict Angles (0.00) | Tolarace for a good cut angle is reduced |
+| Small Notes (0.00) | Changes the notes to 50% normal size |
 | Zen Mode (-100) | No notes, walls, or bombs. Just the music and the lights! |
 <!-- markdownlint-enable MD013 -->
+
 
 ## Grips
 
