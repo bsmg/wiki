@@ -96,10 +96,13 @@ since the mapper chooses it.
 ### Criteria and the Ranking Process
 
 #### Scoresaber
-The ranking team ranks maps through a communal evaluation process. Those maps are then assigned PP based on an algorithm
-that determines the difficulty once they are ranked based on a variety of factors. PP, which stands for performance points,
-is given for completing ranked maps based on how high you scored in the level. Full details about the ranking process,
-criteria, and additional FAQs can be found in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
+The Ranking Team looks for maps that adhere to the ScoreSaber criteria or fixes maps to abide to the criteria.
+The maps are queued and evaluated by the Ranking Team and Quality Assurance Team until they are qualified.
+Maps are then ranked in monthly batches and are then assigned a difficulty star rating based on an algorithm
+that determines the difficulty once they are ranked based on a variety of factors. PP (Performance Points) is
+given for completing ranked maps based on how high you scored in the level. Full details about the ranking process,
+criteria, and additional FAQs can be found in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU)
+or the [ScoreSaber Wiki](https://wiki.scoresaber.com/).
 
 #### BeatLeader
 After anyone completes a map, they may vote on the maps rankability. These votes are tallied to give the Nomination
