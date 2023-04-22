@@ -5,7 +5,7 @@ sidebar: auto
 _A compilation of resources to help you to hit bloq._
 
 ## Ranking Up Mega-Tutorial
-An incredible writeup by TeknozFR to help you get that PP.
+An incredible writeup to help you get that PP.
 [Ranking & Scoring Guide](./ranking-guide.md)
 
 ## Scoring

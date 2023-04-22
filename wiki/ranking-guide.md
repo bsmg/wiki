@@ -2,9 +2,6 @@
 sidebar: auto
 ---
 # Ranking & Scoring Guide
-Written by Teknoz
-
-*Big thanks to Flee for correcting grammar mistakes and providing useful information.*
 
 :::warning Disclaimer
 This guide was originally written on February 7th, 2019. It has been updated multiple times but some information may be
@@ -131,13 +128,12 @@ You can find your global ranking on [BeatLeader](https://www.beatleader.xyz/rank
 [ScoreSaber](https://scoresaber.com/global) by typing your username in the search bar.  
 
 #### Scoresaber
-Your ScoreSaber profile is tied to your Steam/Oculus profile on which you play the game.  
-As said earlier, you can earn PP (performance points) by playing ranked maps. The amount of PP a map is worth is determined
-when the map is ran through the PP algorithm.
-The algorithm is kept secret to prevent mappers from trying to intentionally
-make songs to only be worth a lot of PP (to avoid breaking the system basically). The exact amount of PP gained by a player
-is determined by their accuracy on that map and the curve it represents compared to the max amount of PP that map is worth.
-You can find more information in the [ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
+Your ScoreSaber profile is tied to your Steam/Oculus profile on which you play the game.
+You earn PP (performance points) by playing ranked maps based on your score and the maps difficulty
+(represented by a star value). The star value is determined when a map is ranked based on a private difficulty
+algorithm.
+The algorithm is only ran on maps when they are ranked or on map reweights. You can find more information in the
+[ScoreSaber Discord server](https://discord.com/invite/WpuDMwU).
 
 #### BeatLeader
 On **PC**, your Beatleader account is tied to your Steam / Oculus account and is your profile name by default.  
@@ -340,3 +336,10 @@ the most. If you don’t care about rank, it’s all good, just have fun 🙂
 * [BaliBilo's ScoreSaber Site](https://scoresaber.balibalo.xyz/peepee) Get play suggestions based on your scores
   to improve your global rank
 * [Beat Savior](https://beat-savior.herokuapp.com/) Track your ranked stats and performance
+
+## Authors
+Written by Teknoz
+Written and edited by LackWiz
+
+*Big thanks to Flee for correcting grammar mistakes and providing useful information.*
+
