@@ -26,13 +26,10 @@ for those wanting to test their acc abilities against difficult requirements.
 ---
 
 ## BeastSaber
-**Who is BeastSaber?**  
-We are a team of passionate gamers, software engineers, designers, writers,  
-community leaders (and more!) who want to continue to improve Beat Saber.  
+Home of the map curation team and annual mapping awards, BeastSaber aims to be a community hub to connect you to the more
+specialized areas of the community!
 
-[bsaber.com:](https://bsaber.com)
-
-[Discord](https://discord.gg/5NjfSAC)
+[Discord](https://discord.gg/5NjfSAC) | [Website](https://bsaber.com)
 
 ---
 
