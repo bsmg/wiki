@@ -29,6 +29,7 @@ let us know in #mapping-discussion!
 | - | :- |
 | **Backhand** | A swing where the majority of the work is done by the back of the hand. See this clip in [Fru's Tutorial Video](https://youtu.be/t9AFj4pfptM?t=454) for more info. See also: [Forehand](#f). |
 | **BeastSaber** | A website that categorizes the songs uploaded to [BeatSaver](#b) into different genres and attribute tags. Players can review songs and comment on them. A team of curators play through many songs each day and recommend the ones that stand out. Also known as *BSaber*. The link to BeastSaber can be found [here](https://bsaber.com/). |
+| **BeatLeader** | The organization responsible for managing the BeatLeader ranked Beat Saber leaderboards. The BeatLeader leaderboards website can be found [here](https://www.beatleader.xyz/). See also: [Performance Points](#p). |
 | **Beats Per Minute** | The number of beats that occur in one minute, defining the [Tempo](#t) of a song. Also known as [BPM](#b). |
 | **BeatSaver** | The repository for all custom songs in Beat Saber. Songs uploaded here automatically feed to [Beast Saber](#b). The link can be found [here](https://beatsaver.com/). |
 | **Block** | A cube with either an arrow or a dot on it. It is the primary element of gameplay. By default, blocks are either red or blue. Also known as [Note](#n). <details><summary>**Example Image**</summary>![Picture of block](~@images/mapping/arrow-block.png)</details> |
@@ -190,7 +191,7 @@ let us know in #mapping-discussion!
 | **Paul** | A sequence of inline [Blocks](#b) of the same direction placed at very high [Precision](#p). This forces the player to hit the sequence with a slow continuous swing. This [Pattern](#p) is very difficult to score well on. <details><summary>**Example Image**</summary>![Picture of paul](~@images/mapping/paul.jpg)</details> |
 | **Piano Stream** | A sequence of alternating color and direction [Blocks](#b) that progresses horizontally across [Lanes](#l) on the [Track](#t). <details><summary>**Example Image**</summary>![Picture of piano stream](~@images/mapping/pianostream.png)</details> |
 | **Pickle** | A [Pattern](#p) where a red and blue [Note](#n) are on opposite-handed sides and are hit simultaneously in opposite directions. Also known as [Crossover Scissor](#c). See also: [Scissor](#s). <details><summary>**Example Image**</summary>![Picture of pickle](~@images/mapping/arm-tangle-alt.png)</details> |
-| **Performance Points** | The metric determining ranking on the [ScoreSaber](#s) leaderboards. Abbreviated as [PP](#p). |
+| **Performance Points** | The metric determining ranking on the [BeatLeader](#b) and [ScoreSaber](#s) leaderboards. Abbreviated as [PP](#p). |
 | **Platform** | The in-game play area and associated [Track](#t) and [Lighting](#l). Also known as [Environment](#e). |
 | **Playtest** | The act of playing a [WIP](#wxyz) map to check for errors and improvements. Highly recommended for creating a quality product. Also known as [Testplay](#t). |
 | **PP** | Abbreviation of [Performance Points](#p). |
@@ -206,7 +207,7 @@ let us know in #mapping-discussion!
 ## R
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition |
 | - | :- |
-| **Ranked** | A map that has been [Modded](#m) and approved by the [ScoreSaber](#s) ranking team as having a quality appropriate of contributing to the [Performance Points](#p) leaderboard. Maps should be modded prior to submitting a rank request. |
+| **Ranked** | A map that has been [Modded](#m) and approved by either the [BeatLeader](#b) or [ScoreSaber](#s) ranking teams as having a quality appropriate of contributing to the [Performance Points](#p) leaderboard. Maps should be modded prior to submitting a rank request. |
 | **Release** | The act of publishing a finished map on [BeatSaver](#b). Once a map is released, it can be downloaded and played by anyone. Do not release unfinished or untested maps. |
 | **Reset** | The action of bringing your arms back to their "ready" position, as if no [Blocks](#b) have been hit recently. Mappers can also attempt to reset the player by using [Bombs](#b) to force arm movement. See also: [Bomb Reset](#b). |
 | **RGB** | A style of [Lighting](#l) that requires the [Chroma](#c) mod and allows lighting events to be of any color and to use more than two colors. |
@@ -220,7 +221,7 @@ let us know in #mapping-discussion!
 | - | :- |
 | **Scissor** | When a red and blue [Note](#n) are on the same timing, and are hit simultaneously in opposite directions. Also known as [Cucumber](#c). See also: [Crossover Scissor](#c). <details><summary>**Example Image**</summary>![Picture of scissor](~@images/mapping/scissor-cucumber_example.png)</details> |
 | **Scoop** | A [Pattern](#p) of [Blocks](#b) where the player makes a "scooping" motion to play the pattern. Typically a left or right note followed by an up note in the bottom row. Give the player an ample amount of time to react when using scoops - a half to full beat is recommended. <details><summary>**Example Image**</summary>![Picture of scoop](~@images/mapping/scoop_example.png)</details> |
-| **ScoreSaber** | The organization responsible for managing the ranked Beat Saber leaderboards. The Beat Saber leaderboards website can be found [here](https://scoresaber.com/). See also: [Performance Points](#p). |
+| **ScoreSaber** | The organization responsible for managing the ScoreSaber ranked Beat Saber leaderboards. The ScoreSaber leaderboards website can be found [here](https://scoresaber.com/). See also: [Performance Points](#p). |
 | **Setup** | The process of maneuvering the player's arms into position for a [Pattern](#p) via appropriate placement of the preceding [Blocks](#b). |
 | **Shrado Angle** | A [Pattern](#p) consisting of an outward-facing diagonal down [Block](#b) in a far [Lane](#l) followed by an up block of the same color in a closer lane, spanning 3 lanes or more. This pattern may cause the player to slash the up block diagonally rather than straight upwards, resulting in either low accuracy or a bad cut. The possibility of this issue occurring becomes more prominent at faster speeds. Named after the mapper who used this pattern in a [popular ranked map](https://beatsaver.com/beatmap/a544). <details><summary>**Example Image**</summary>![Picture of shrado angle](~@images/mapping/shrado-angle.png)</details> |
 | **Single** | A single [Block](#b) hit with one saber. Typically makes up the majority of [Patterns](#p) in a map. See also: [Double](#d). |

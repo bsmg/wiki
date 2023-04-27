@@ -76,7 +76,7 @@ PPシステムは、恐らくゲーム内のランキングについて、最も
 
 楽曲一覧に、PPで終わる2つの数値がある事に気づいたかもしれません。 1つ目の数値は**青色**で表示され、補正曲線が適用される以前の、そのままの楽曲PPが表示されています。 2つ目の数値は括弧内にグレーで表示され、補正曲線適用後のそのプレイから実際に得られる補正PP（Weighted PP） を示しています。
 
-![楽曲PPと補正PP](~@images/ranking-guide/raw&weighted_pp.png "楽曲PPと補正PP")
+![楽曲PPと補正PP](~@images/ranking-guide/SSraw&weighted_pp.png "楽曲PPと補正PP")
 
 前述したように、あなたが実際に得る補正PPは、補正曲線と曲一覧内での順位によって決定します。 例えば、あなたの曲一覧内で最大のPPが**260PP**だった場合、補正PPは**100%** である**260PP**そのままが付与されます。 そして、2番目に大きいPPが**247PP**だった場合、補正PPとして **238PP**が付与されます。
 
@@ -94,7 +94,7 @@ PPシステムは、恐らくゲーム内のランキングについて、最も
 唯一の例外としては、現在の最高PP曲の精度が上がった場合です。 最高PPの曲は補正の影響がなく、他の楽曲をプレイしたとしても、PPに補正はかからず減る事がありません。 例えばあなたの最高PP曲が「Avalance」の**250 pp**で、より高精度でプレイ出来て**260 pp**となった場合だと、あなたの合計PPに**+10 pp** がそのまま加算されます。
 
 ### どうすればもっとPPを増やす事が出来ますか？
-世界ランキングでより高い順位になるために、自分の実力に合ったランク譜面を見つけるためのツールがいくつか存在します。 まず、自分の [ScoreSaber](https://scoresaber.com/global)のプロフィールを確認し、しばらくプレイしていない曲や、もっと上達できそうな曲を確認したり、自分の最高PPの曲を知る事はどんな時でも良い選択です。 また、[ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) や[ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme)といったブラウザ拡張機能は、プロフィールの機能を拡張できます。 [Balibilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) や [Beat Saveria](https://www.beatsavior.io/) は、改善するべき譜面や、パフォーマンスを記録するのに役立つ外部サイトです。
+世界ランキングでより高い順位になるために、自分の実力に合ったランク譜面を見つけるためのツールがいくつか存在します。 まず、自分の [ScoreSaber](https://scoresaber.com/global)のプロフィールを確認し、しばらくプレイしていない曲や、もっと上達できそうな曲を確認したり、自分の最高PPの曲を知る事はどんな時でも良い選択です。 また、[ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) や[ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme)といったブラウザ拡張機能は、プロフィールの機能を拡張できます。 [Balibilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) や [Beat Saveria](https://beat-savior.herokuapp.com/) は、改善するべき譜面や、パフォーマンスを記録するのに役立つ外部サイトです。
 
 より正確なヒントやコツについては、[お役立ち情報・リンク](#お役立ち情報・リンク) を参照してください。
 
@@ -163,4 +163,4 @@ Cube Communityチャンネルの[Beat Saber Replay Analysis playlist](https://ww
 * [ScoreSaber](http://scoresaber.com/) 全てのマップと、世界ランキングのリーダーボードがあります。
 * [ScoreSaber Discord](https://discordapp.com/invite/WpuDMwU) ScoreSaber公式Discordでは、ランキング入りしたマップや、基準といった情報を見る事が出来ます。
 * [BaliBilo's ScoreSaber Site](https://scoresaber.balibalo.xyz/peepee) あなたのスコアに応じて、グローバルランキングを上げるための提案をします。
-* [Beat Savior](https://www.beatsavior.io/) あなたのランク情報や、パフォーマンスを追跡します。
+* [Beat Savior](https://beat-savior.herokuapp.com/) あなたのランク情報や、パフォーマンスを追跡します。

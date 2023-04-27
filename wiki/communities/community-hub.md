@@ -25,6 +25,14 @@ for those wanting to test their acc abilities against difficult requirements.
 
 ---
 
+## BeastSaber
+Home of the map curation team and annual mapping awards, BeastSaber aims to be a community hub to connect you to the more
+specialized areas of the community!
+
+[Discord](https://discord.gg/5NjfSAC) | [Website](https://bsaber.com)
+
+---
+
 ## BeatKhana
 We are BeatKhana, a Beat Saber community focused around pushing tournaments forward!
 What do we do?
@@ -36,6 +44,17 @@ What do we do?
 * Manage a pleasant Beat Saber community
 
 [Discord](https://discord.gg/5NjfSAC)
+
+---
+
+## BeatLeader
+We're fun/competitive community of Beatsaber players who specilize in everything from tips and tricks, the competitive
+scene, and programming the tools we use to compete on the global leaderboard.
+
+If you're looking to get a map ranked, wanting to know more about how the ranking system works, or looking to help
+improve the leaderboard, come on in. We'd love to have some discussions
+
+[Discord](https://discord.gg/2RG5YVqtG6) | [Website](https://www.beatleader.xyz/)
 
 ---
 

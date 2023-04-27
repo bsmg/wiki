@@ -76,7 +76,7 @@ Dans l'optique d'empêcher les joueurs expérimentés d'effectuer des centaines 
 
 Vous avez peut-être déjà remarqué que dans votre liste, deux nombres terminant par PP apparaissent. L'un d'entre eux est **bleu** et représente le nombre brut de PP que vous avez remporté lors de la partie, avant que la courbe ne soit appliquée. L'autre nombre est gris et montre le nombre de PP ajustés que vous allez récupérer à l'issue de la partie après que la courbe soit appliquée.
 
-![PP brut et ajusté](~@images/ranking-guide/raw&weighted_pp.png "PP brut et ajusté")
+![PP brut et ajusté](~@images/ranking-guide/SSraw&weighted_pp.png "PP brut et ajusté")
 
 Comme cela a déjà été dit, la quantité de PP ajustés reçus dépend de la courbe et de la position de la chanson au sein de votre liste. Par exemple, si votre meilleure partie vous a fait gagner **260 PP bruts**, vous allez recevoir **260 PP ajustés**, ce qui représente **100%** des PP bruts de cette partie. Cependant, si votre deuxième meilleure partie vous a rapporté **247 PP bruts**, vous allez recevoir **238 PP ajustés** après que la courbe soit appliquée.
 
@@ -94,7 +94,7 @@ Une question récurrente que les gens semblent se poser lorsqu'ils reçoivent un
 L'unique exception possible est si vous obtenez une meilleure précision que votre meilleur score actuel. Puisque votre meilleur score n'est pas affecté par la courbe, ce qui signifie qu'aucune de vos musiques ne changera de place dans votre liste, aucune répercussion en perte de PP n'aura lieu sur vos autres parties. Un exemple pour cela serait que si votre meilleure score soit sur Avalanche avec **250 PP** et que vous y réussissiez à améliorer votre précision et que ce score vaille désormais **260 PP**, vous obtiendrez **+10 PP** sur votre montant total de PP.
 
 ### Comment puis-je m'améliorer et obtenir plus de PP ?
-Afin de vous améliorer et d'obtenir un meilleur rang dans le classement général, il existe plusieurs outils capables de vous aider à trouver des musiques classées qui correspondent à votre niveau. Tout d'abord, vous pouvez vérifier votre propre profil sur [ScoreSaber](https://scoresaber.com/global) afin de voir les musiques auxquelles vous n'avez pas jouées depuis un certain moment ainsi que là où il est possible de vous améliorer, vous pouvez également vous y faire une idée de votre meilleur score. L'extension de navigateur [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) peut étendre les fonctionnalités de votre profil. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) et [Beat Savior](https://www.beatsavior.io/) sont des sites tiers capables de vous aider à trouver des niveaux à améliorer et de garder une trace de vos performances.
+Afin de vous améliorer et d'obtenir un meilleur rang dans le classement général, il existe plusieurs outils capables de vous aider à trouver des musiques classées qui correspondent à votre niveau. Tout d'abord, vous pouvez vérifier votre propre profil sur [ScoreSaber](https://scoresaber.com/global) afin de voir les musiques auxquelles vous n'avez pas jouées depuis un certain moment ainsi que là où il est possible de vous améliorer, vous pouvez également vous y faire une idée de votre meilleur score. L'extension de navigateur [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) peut étendre les fonctionnalités de votre profil. [BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) et [Beat Savior](https://beat-savior.herokuapp.com/) sont des sites tiers capables de vous aider à trouver des niveaux à améliorer et de garder une trace de vos performances.
 
 Pour des conseils et astuces plus précises, veuillez-vous référer au chapitre [Conseils utiles & Liens](#conseils-utiles-et-liens).
 
@@ -163,4 +163,4 @@ En fin de compte, il ne s'agit que d'un jeu. La partie la plus importante est qu
 * [ScoreSaber](http://scoresaber.com/) : Site officiel comprenant les classements de tous les niveaux ainsi que le classement général
 * [ScoreSaber Discord](https://discordapp.com/invite/WpuDMwU) : Discord officiel de ScoreSaber pour obtenir des informations à propos des niveaux devenant classés, les critères d'évaluation, etc
 * [BaliBilo's ScoreSaber Site](https://scoresaber.balibalo.xyz/peepee) : Obtenez des suggestions de jeu basées sur vos scores afin d'améliorer votre rang
-* [Beat Savior](https://www.beatsavior.io/) : Suivez vos statistiques et performances sur les niveaux classés
+* [Beat Savior](https://beat-savior.herokuapp.com/) : Suivez vos statistiques et performances sur les niveaux classés
