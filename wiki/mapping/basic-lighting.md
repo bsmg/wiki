@@ -19,9 +19,10 @@ The example uses [Map Color Overrides](#map-color-overrides).
 You don't need to be an AaltopahWi or a Skeelie to make great lighting!
 :::
 
-## Lighting Types
-The available lighting types are consistent across each of the built-in game environments,
-though they may be in slightly different positions or not present in some cases.
+## Lightable Objects
+In environments before Weave, the set of objects controllable are generally
+consistent, though may be in different positions or may be missing altogether.
+The controllable objects are as follows:
 
 * **Center Lights:** Generally lights along the side of the track, underneath the track, and sometimes a chevron at the
   back of the track. Sometimes called "Bottom/Back/Side" or "BBS" lights.
@@ -38,21 +39,66 @@ though they may be in slightly different positions or not present in some cases.
 * **Boost Event:** Changes lighting colors between two pairs of colors. Off uses the first pair of colors.
   On uses the second (boost) pair of colors. There is no fade or flash option for this event.
 
+In Weave and later environments, or v3 environments, the set of objects
+controllable are unique to each environment.
+
 ## Lighting Events
-Each lighting type can make use of four different lighting events.
 
-* **On:** Turns a light on that will stay on until you place a different event type.
-* **Off:** Turning a light off can have as much impact as turning it on, or more.
-* **Flash:** Briefly flashes brighter than a standard "on" event then stays on until you place a different event type.
-* **Fade:** Briefly flashes brighter than a standard "on" event then fades off after a couple of seconds.
+### Static Event System (Pre-v3)
+The Static Event System has two versions, v1 and v2.
 
-::: warning NOTE  
-It's impossible to control the duration of a fade out or use a fade in with standard lighting.
-Custom fade durations require Chroma, which will be discussed in Advanced Lighting (coming soon).
-:::
+Lighting v1 is the version of lighting that has general support from
+community editors. It supports the following events:
+
+* **On:** Turns a light on that will stay on until you place a different
+  event type.
+* **Off:** Turning a light off can have as much impact as turning it on,
+  or more.
+* **Flash:** Briefly flashes brighter than a standard "on" event then stays
+  on until you place a different event type.
+* **Fade:** Briefly flashes brighter than a standard "on" event then fades
+  off after a couple of seconds.
+
+Lighting v2 fully overhauls the lighting system. The official editor is
+generally used to create v2 lights. While v2 can be used with all classic
+environments, similar to v1, the four-event system has been replaced with
+only two types of events:
+
+* **On:** Sets a light to a specified level. The light will stay at the level,
+  unless another event is placed.
+* **Fade:** Fades a light to a specified level. The fade starts at the last
+  placed event and ends on the fade event.
+
+The level of a light ranges from 0 to 120. 0 means no light, and 100 is the
+level of a v1 On event. Off is simply On with a level of 0.
+
+### Group Lighting System (v3)
+v3 environments, in addition to Static Event System objects, introduces
+a new class of objects, hereby known as v3 objects, that offers more
+granular control.
+
+A v3 object can have one or both of its lights or rotation controllable.
+In addition, a v3 object can have multiple segments, and each segment can
+be controlled individually.
+
+Events in v3 must reside in groups. Each group can contain one or more
+lanes, each lane controlling one or more segments, on which lighting
+events are placed.
+
+Light events in v3, On and Fade, work as they are in v2. v3 introduces
+a new type of event, known as rotation event, that controls the angle
+of a v3 object. A rotation event has the following parameters:
+
+* **Rotation Angle**;
+* **Loop Count**, specifying how many full turns should the object
+  undertake before reaching the final angle;
+* **Direction**, which is either clockwise, counterclockwise, or decided
+  automatically; and
+* **Easing**, or how should the object transition from the angle of the
+  last event to the angle of this.
 
 ## Best Practices & Techniques
-> "The only bad lights are **NO** lights.... or lightmap."  
+> "The only bad lights are **NO** lights.... or lightmap."
 > ~ Skeelie
 
 Lighting truly is an art which means that it's much more subjective than mapping. There are relatively few best practices
@@ -61,7 +107,7 @@ to get started and simple manual lighting is almost impossible to do poorly.
 **TranquillizeMe** has created a lighting tutorial, [Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc),
 detailing useful lighting techniques and general tips for lighting.
 
-::: warning NOTE  
+::: warning NOTE
 Lighting previews are not realistic in the editors currently available to the public so it’s important to preview your
 lights in-game often. See [Previewing Your Lights](#previewing-your-lights) for some tools that can help.
 :::
@@ -199,7 +245,7 @@ support color overrides. Check their respective guides for more information.
    * The `"r":` and `"g":` values **must** have commas after them.
 
 See lines 29-60 and 69-100 of this [Pastebin clip](https://pastebin.com/x9zEiHxR) for an example of these code blocks
-in action in a `.DAT` file.  
+in action in a `.DAT` file.
 
 ## Previewing Your Lights
 These tools will help PC Beat Saber users preview their lighting more accurately.
@@ -238,7 +284,7 @@ The default toggle key to switch between headset and mouse/keyboard control is <
 :::warning NOTE
 
 * If you go back into vr and the game doesn't load in the headset either:
-  * Press the <kbd>G</kbd> key until the headset displays the game  
+  * Press the <kbd>G</kbd> key until the headset displays the game
 **==OR==**
   * Quit the game, remove the launch option, and relaunch the game.
 
