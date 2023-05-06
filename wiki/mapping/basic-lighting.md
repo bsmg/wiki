@@ -43,34 +43,43 @@ In Weave and later environments, or v3 environments, the set of objects
 controllable are unique to each environment.
 
 ## Lighting Events
+Lighting has went through several revisions. Originally, only the Static
+Event System is available. v3 introduces the Group Lighting System, usable
+with specific environments.
 
 ### Static Event System (Pre-v3)
-The Static Event System has two versions, v1 and v2.
+There are two major revisions of the Static Event System.
 
 Lighting v1 is the version of lighting that has general support from
-community editors. It supports the following events:
+community editors. It supports the following light events:
 
 * **On:** Turns a light on that will stay on until you place a different
   event type.
-* **Off:** Turning a light off can have as much impact as turning it on,
-  or more.
+* **Off:** Turns a light off that will stay off until you place a different
+  event type.
 * **Flash:** Briefly flashes brighter than a standard "on" event then stays
   on until you place a different event type.
 * **Fade:** Briefly flashes brighter than a standard "on" event then fades
   off after a couple of seconds.
 
+A light event have one of three available colors associated. Prior to
+v3.1, only two colors are available. v3.1 introduced a third color;
+it is currently white for all built-in environments.
+
 Lighting v2 fully overhauls the lighting system. The official editor is
-generally used to create v2 lights. While v2 can be used with all classic
+generally used to create v2 lights; support by community editors are
+currently under development. While v2 can be used with all classic
 environments, similar to v1, the four-event system has been replaced with
 only two types of events:
 
-* **On:** Sets a light to a specified level. The light will stay at the level,
-  unless another event is placed.
-* **Fade:** Fades a light to a specified level. The fade starts at the last
-  placed event and ends on the fade event.
+* **Static:** Sets a light to a specified level. The light will stay at
+  the level, unless another event is placed.
+* **Fade:** Fades a light to a specified level. The fade starts at the
+  event immediately before, or the start of the song if there is none,
+  and ends on the fade event.
 
-The level of a light ranges from 0 to 120. 0 means no light, and 100 is the
-level of a v1 On event. Off is simply On with a level of 0.
+The level of a light ranges from 0 to 120. 0 means no light, 100 is the
+level of a v1 On event, and 120 is the maximum.
 
 ### Group Lighting System (v3)
 v3 environments, in addition to Static Event System objects, introduces
@@ -82,12 +91,13 @@ In addition, a v3 object can have multiple segments, and each segment can
 be controlled individually.
 
 Events in v3 must reside in groups. Each group can contain one or more
-lanes, each lane controlling one or more segments, on which lighting
-events are placed.
+lanes, each lane controlling one or more segments, on which events are
+placed.
 
-Light events in v3, On and Fade, work as they are in v2. v3 introduces
-a new type of event, known as rotation event, that controls the angle
-of a v3 object. A rotation event has the following parameters:
+Light events in v3 are identical to those of v2, except that the
+intensity can be higher than 120. v3 introduces a new type of event,
+known as rotation event, allowing control of an object's rotation
+angle. A rotation event has the following parameters:
 
 * **Rotation Angle**;
 * **Loop Count**, specifying how many full turns should the object
