@@ -225,33 +225,489 @@ editor the lighting track looks like this:
 :::
 
 ### Environment Previews
-| Video and Screenshot (click to open full size) | Environment |
-|:----:|:---- |
-| ![Image of Default environment](~@images/mapping/default_env.jpg) |**The First (Default) Environment**<br />**Info.dat Name:** `DefaultEnvironment` <br />**Default Colors:** Red & Blue<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :white_check_mark: (both squares) <br />**Ring Zoom:** :white_check_mark: (inner square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top Lasers are below the Track Lasers <br /><br />**Video Preview:** [YouTube](https://youtu.be/ab7kjMsIBHA) |
-| ![Image of Origins environment](~@images/mapping/origins_env.jpg) | **Origins Environment**<br />**Info.dat Name:** `OriginsEnvironment`<br />**Default Colors:** Yellow & Pink notes, Blue & Light Blue lights<br /><br />**Lasers:** :white_check_mark:<br />**Ring Spin:** :white_check_mark:<br />**Ring Zoom:** :x:<br />**Equalizer:** :white_check_mark: <br /><br /> **Video Preview:** [YouTube](https://youtu.be/Ysvm5N9V1wU) |
-| ![Image of Triangle environment](~@images/mapping/triangle_env.jpg) | **Triangle Environment**<br />**Info.dat Name:** `TriangleEnvironment`<br />**Default Colors:** Red & Blue<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :white_check_mark: (square and triangle) <br />**Ring Zoom:** :white_check_mark: (triangle)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top Lasers are below the Track Lasers <br /><br />**Video Preview:** [YouTube](https://youtu.be/FhAg4Awl0k0) |
-| ![Image of Nice environment](~@images/mapping/nice_env.jpg) | **Nice Environment**<br />**Info.dat Name:** `NiceEnvironment`<br />**Default Colors:** Red & Blue<br /><br />**Lasers:** :white_check_mark: (top & bottom)<br />**Ring Spin:** :white_check_mark: (both squares)<br />**Ring Zoom:** :white_check_mark: (inner square)<br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top Lasers are below the Track Lasers <br /><br />**Video Preview:** [YouTube](https://youtu.be/LrLFf6fspiw) |
-| ![Image of Big Mirror environment](~@images/mapping/big-mirror_env.jpg) | **Big Mirror Environment**<br />**Info.dat Name:** `BigMirrorEnvironment`<br />**Default Colors:** Red & Blue<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :white_check_mark: <br />**Ring Zoom:** :x:<br />**Equalizer:** :white_check_mark: <br /><br />**Video Preview:** [YouTube](https://youtu.be/lmWeJL8Qxh4) |
-| ![Image of Imagine Dragons environment](~@images/mapping/dragons_env.jpg) | **Imagine Dragons Environment**<br />**Info.dat Name:** `DragonsEnvironment`<br />**Default Colors:** Red & Blue<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :white_check_mark: (square and helix)<br />**Ring Zoom:** :white_check_mark: (helix)<br />**Equalizer:** :white_check_mark:<br />**Note:** Back Top Laser position is the two rails on the far edges of the screen. It will always illuminate the opposite color of what you set it. <br /><br />**Video Preview:** [YouTube](https://youtu.be/tSzvvbDK71s) |
-| ![Image of K/DA environment](~@images/mapping/kda_env.jpg) | **K/DA Environment**<br />**Info.dat Name:** `KDAEnvironment`<br />**Default Colors:** Orange & Purple<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :x:<br />**Ring Zoom:** :x:<br />**Equalizer:** :x:<br />**Note:** Ring Light position illuminates the five rails at the top. The lights in the center of the arrows never turn off. <br /><br />**Video Preview:** [YouTube](https://youtu.be/knXgpnW5NWQ) |
-| ![Image of Monstercat environment](~@images/mapping/monstercat_env.jpg) | **Monstercat Environment**<br />**Info.dat Name:** `MonstercatEnvironment`<br />**Default Colors:** Red & Blue<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :white_check_mark:<br />**Ring Zoom:** :x: <br />**Equalizer:** :white_check_mark:<br />**Note:** As of 1.6 Back Top Lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top. <br /><br />**Video Preview:** [YouTube](https://youtu.be/Er3OCUmSK-0) |
-| ![Image of Crab Rave environment](~@images/mapping/crab-rave_env.jpg) | **Crab Rave Environment**<br />**Info.dat Name:** `CrabRaveEnvironment`<br />**Default Colors:** Green & Blue<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :white_check_mark:<br />**Ring Zoom:** :x: <br />**Equalizer:** :white_check_mark: <br />**Note:** As of 1.6 Back Top Lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top. <br /><br />**Video Preview:** [YouTube](https://youtu.be/xTXHCTBYkck) |
-| ![Image of Panic! at the Disco environment](~@images/mapping/panic_env.jpg) | **Panic! at the Disco Environment**<br />**Info.dat Name:** `PanicEnvironment`<br />**Default Colors:** Red & Blue<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :white_check_mark: <br />**Ring Zoom:** :white_check_mark: <br />**Equalizer:** :white_check_mark:<br />**Note:** Ring Lights are much brighter in this environment than in others. <br /><br />**Video Preview:** [YouTube](https://youtu.be/2UJ8-edr4xU) |
-| ![Image of Rocket League environment](~@images/mapping/rocket_env.jpg) | **Rocket League Environment**<br />**Info.dat Name:** `RocketEnvironment`<br />**Default Colors:** Orange & Blue<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :x:<br />**Ring Zoom:** :x:<br />**Equalizer:** :x: <br /><br />**Video Preview:** [YouTube](https://youtu.be/glgMeDJopIM)|
-| ![Image of Green Day environment](~@images/mapping/green-day_env.jpg) | **Green Day Environment**<br />**Info.dat Name:** `GreenDayEnvironment`<br />**Default Colors:** Green & Cyan<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :white_check_mark: <br />**Ring Zoom:** :white_check_mark:<br />**Equalizer:** :x:<br />**Video Preview:** [YouTube](https://youtu.be/QLw4Rg-mHKE) |
-| ![Image of Green Day Grenade environment](~@images/mapping/gd-grenade_env.jpg) |**Green Day Grenade Environment**<br />**Info.dat Name:** `GreenDayGrenadeEnvironment`<br />**Default Colors:** Green & Cyan<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :x:<br />**Ring Zoom:** :x: <br />**Equalizer:** :x:<br />**Video Preview:** [YouTube](https://youtu.be/DIzLR65HyN0) |
-| ![Image of Timbaland environment](~@images/mapping/timbaland_env.jpg) |**Timbaland Environment**<br />**Info.dat Name:** `TimbalandEnvironment`<br />**Default Colors:** Grey & Blue notes, Blue & Blue lights (same colors)<br /><br />**Lasers:** :white_check_mark: (left & right lights parellel to rings)<br />**Ring Spin:** :white_check_mark: <br />**Ring Zoom:** :white_check_mark: <br />**Equalizer:** :white_check_mark:<br />**Note:** "Timbaland" text on the sides never turns off. Laser speed affects the Back Top Lasers on the left and right rings. <br /><br />**Video Preview:** [YouTube](https://youtu.be/ZMNrCbSxBVM) |
-| ![Image of FitBeat environment](~@images/mapping/fitbeat_env.jpg) |**FitBeat Environment**<br />**Info.dat Name:** `FitBeatEnvironment`<br />**Default Colors:** Yellow & Pink notes, Orange & Blue lights<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :white_check_mark: (outer lasers and helex) <br />**Ring Zoom:** :white_check_mark: (helix) <br />**Equalizer:** :white_check_mark: <br />**Note:** Back Top Lasers will illuminate the opposite color of what you set it. <br /><br />**Video Preview:** [YouTube](https://youtu.be/PNucTPiPBn8) |
-| ![Image of Linkin Park environment](~@images/mapping/linkin-park_env.jpg) |**Linkin Park Environment**<br />**Info.dat Name:** `LinkinParkEnvironment`<br />**Default Colors:** Red & Blue-Grey notes, Beige & White lights, Orange & Blue boost lights <br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :white_check_mark: (controls laser spread) <br />**Ring Zoom:** :x: <br />**Equalizer:** :white_check_mark: (on side wall) <br /><br />**Video Preview:** [YouTube](https://youtu.be/nl8_sHYnP7k) <br /> **Official Showcase & Tutorial**: [YouTube](https://youtu.be/BhMQ8KS2rZk)|
-| ![Image of BTS environment](~@images/mapping/bts_env.jpg) |**BTS Environment**<br />**Info.dat Name:** `BTSEnvironment`<br />**Default Colors:** Pink & Purple notes, Pink & Purple lights, Light Pink & Light Blue boost lights<br /><br />**Lasers:** :white_check_mark: (left & right)<br />**Ring Spin:** :white_check_mark: (background pillars) <br />**Ring Zoom:** :white_check_mark: (track pillars) <br />**Equalizer:** :x: <br />**Note:** BTS logo in the center never turns off.<br /><br />**Video Preview:** [YouTube](https://youtu.be/HrGK2puKBhI) <br /> **Official Showcase & Tutorial**: [YouTube](https://youtu.be/HYnVROsLBBs)|
-| ![Image of Kaleidoscope environment](~@images/mapping/kaleidoscope_env.jpg) | **Kaleidoscope Environment**<br />**Info.dat Name:** `KaleidoscopeEnvironment`<br />**Default Colors:**  Red & Black notes, Red & White lights, Red & Magenta boost lights<br /><br />**Lasers:** :white_check_mark: <br />**Ring Spin:** :white_check_mark:<br />**Ring Zoom:** :white_check_mark:<br />**Equalizer:** :x:<br /><br />**Video Preview:** [YouTube](https://youtu.be/6zgH3QcN_T8) <br /> **Official Showcase & Tutorial**: [YouTube](https://youtu.be/eZBd7-yb284)|
-| ![Image of Interscope environment](~@images/mapping/interscope_env.jpg) | **Interscope Environment**<br />**Info.dat Name:** `InterscopeEnvironment`<br />**Default Colors:**  Yellow & Pink notes, Purple & White lights, Cool Red & Cool White boost lights<br /><br />**Lasers:** :white_check_mark: <br />**Ring Spin:** :white_check_mark: (cars) <br />**Ring Zoom:** :white_check_mark: (cars and extra laser spread) <br />**Equalizer:** :white_check_mark:<br />**Extra Events**: 6 and 7 control extra lights. 16 and 17 control car hydraulics.<br /><br />**Video Preview:** [YouTube](https://youtu.be/pnaNPD5ljqI)<br /> **Official Showcase & Tutorial**: [YouTube](https://youtu.be/GmJpF2VA-6E)|
-| ![Image of Skrillex environment](~@images/mapping/skrillex_env.jpg) | **Skrillex Environment**<br />**Info.dat Name:** `SkrillexEnvironment`<br />**Default Colors:**  Red & Black notes, Pink & Turquoise lights, Neon Red & Neon Green boost lights<br /><br />**Lasers:** :white_check_mark: <br />**Ring Spin:** :white_check_mark: (first ring spin)<br />**Ring Zoom:** :white_check_mark: (second ring spin) <br />**Equalizer:** :x:<br />**Extra Events**: 6 and 7 control extra lights. <br /><br />**Video Preview:** [YouTube](https://youtu.be/Uk0JugoZ3w4)<br /> **Official Showcase & Tutorial**: [YouTube](https://youtu.be/-SD5F3b7Q3g)|
-| ![Image of Billie Eilish environment](~@images/mapping/billie_env.jpg) | **Billie Eilish Environment**<br />**Info.dat Name:** `BillieEnvironment`<br />**Default Colors:**  Yellow & Light Grey notes, Orange & Cream lights, Red & White Blue boost lights<br /><br />**Lasers:** :white_check_mark: (sun rays)<br />**Ring Spin:** :white_check_mark: (controls rain)<br />**Ring Zoom:** :white_check_mark: (controls sun rays and side beams) <br />**Equalizer:** :x:<br />**Extra Events**: 6, 7, 10, and 11 control extra lights. <br />**Note:** This is the first environment use events 10 and 11 and these events only function on map version `2.5.0` or later.<br /><br />**Video Preview:** [YouTube](https://youtu.be/R53QcGlo80Q)<br /> **Official Showcase & Tutorial**: [YouTube](https://youtu.be/Kgm6Xn7xcNQ)|
-| ![Image of Spooky environment](~@images/mapping/spooky_env.jpg) | **Spooky Environment**<br />**Info.dat Name:** `HalloweenEnvironment`<br />**Default Colors:**  Orange & Black notes, Red & Light Blue lights, Green & Light Purple boost lights<br /><br />**Lasers:** :white_check_mark:<br />**Ring Spin:** :x:<br />**Ring Zoom:**:x: <br />**Equalizer:** :x:<br /><br />**Video Preview:** [YouTube](https://youtu.be/TbX3Z3mU2y8)<br />|
-| ![Image of Gaga environment](~@images/mapping/gaga_env.jpg) | **Lady Gaga Environment**<br />**Info.dat Name:** `GagaEnvironment`<br />**Default Colors:** Pink & Green notes, Yellow & Magenta lights, Orange & Blue boost lights<br /><br />**Lasers:** :white_check_mark: (electricity) <br />**Ring Spin:** :x:<br />**Ring Zoom:**:x: <br />**Equalizer:** :x:<br />**Extra Events**: 6, 7, 10, and 11 control additional lightning. 16, 17, 18, and 19 control additional tower height control. <br /><br />**Video Preview:** [YouTube](https://youtu.be/FRNLFW4P3RQ)<br /> **Official Showcase & Tutorial**: [YouTube](https://youtu.be/2DJmcQjjCl0)|
-| ![Image of Weave environment](~@images/mapping/weave_env.jpg) | **Weave Environment**<br />**Info.dat Name:** `WeaveEnvironment`<br />**Default Colors:** Red & Blue notes, Red & Blue lights, Magenta & White boost lights<br /><br />**Note** Lights require using the new lighting system in map version `3.0.0` to function.|
-| ![Image of Glass Desert environment](~@images/mapping/glass-desert_env.jpg) | **Glass Desert Environment**<br />**Info.dat Name:** `GlassDesertEnvironment`<br />**Default Colors:**  Yellow & Pink notes, Blue & Light Blue lights<br /><br />**Lasers:** :white_check_mark: <br />**Ring Spin:** :x:<br />**Ring Zoom:** :x:<br />**Equalizer:** :white_check_mark:<br />**Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels. Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top. <br /><br />**Video Preview:** [YouTube](https://youtu.be/K3rqWNG5pn8) |
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD033 -->
+<table>
+<thead>
+  <tr>
+    <th>Video and Screenshot (click to open full size)</th>
+    <th>Environment</th>
+  </tr>
+</thead>
+<tbody>
+<tr><td align="center">
+
+![Image of Default environment](~@images/mapping/default_env.jpg)
+
+</td><td>
+
+**The First (Default) Environment**<br />
+**Info.dat Name:** `DefaultEnvironment` <br />
+**Default Colors:** Red & Blue
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :white_check_mark: (both squares) <br />
+**Ring Zoom:** :white_check_mark: (inner square)<br />
+**Equalizer:** :white_check_mark:<br />
+**Note:** As of 1.6 Back Top Lasers are below the Track Lasers
+
+**Video Preview:** [YouTube](https://youtu.be/ab7kjMsIBHA)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Origins environment](~@images/mapping/origins_env.jpg)
+
+</td><td>
+
+**Origins Environment**<br />
+**Info.dat Name:** `OriginsEnvironment`<br />
+**Default Colors:** Yellow & Pink notes, Blue & Light Blue lights
+
+**Lasers:** :white_check_mark:<br />
+**Ring Spin:** :white_check_mark:<br />
+**Ring Zoom:** :x:<br />
+**Equalizer:** :white_check_mark:
+
+**Video Preview:** [YouTube](https://youtu.be/Ysvm5N9V1wU)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Triangle environment](~@images/mapping/triangle_env.jpg)
+
+</td><td>
+
+**Triangle Environment**<br />
+**Info.dat Name:** `TriangleEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :white_check_mark: (square and triangle) <br />
+**Ring Zoom:** :white_check_mark: (triangle)<br />
+**Equalizer:** :white_check_mark:<br />
+**Note:** As of 1.6 Back Top Lasers are below the Track Lasers
+
+**Video Preview:** [YouTube](https://youtu.be/FhAg4Awl0k0)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Nice environment](~@images/mapping/nice_env.jpg)
+
+</td><td>
+
+**Nice Environment**<br />
+**Info.dat Name:** `NiceEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lasers:** :white_check_mark: (top & bottom)<br />
+**Ring Spin:** :white_check_mark: (both squares)<br />
+**Ring Zoom:** :white_check_mark: (inner square)<br />
+**Equalizer:** :white_check_mark:<br />
+**Note:** As of 1.6 Back Top Lasers are below the Track Lasers
+
+**Video Preview:** [YouTube](https://youtu.be/LrLFf6fspiw)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Big Mirror environment](~@images/mapping/big-mirror_env.jpg)
+
+</td><td>
+
+**Big Mirror Environment**<br />
+**Info.dat Name:** `BigMirrorEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :white_check_mark: <br />
+**Ring Zoom:** :x:<br />
+**Equalizer:** :white_check_mark:
+
+**Video Preview:** [YouTube](https://youtu.be/lmWeJL8Qxh4)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Imagine Dragons environment](~@images/mapping/dragons_env.jpg)
+
+</td><td>
+
+**Imagine Dragons Environment**<br />
+**Info.dat Name:** `DragonsEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :white_check_mark: (square and helix)<br />
+**Ring Zoom:** :white_check_mark: (helix)<br />
+**Equalizer:** :white_check_mark:<br />
+**Note:** Back Top Laser position is the two rails on the far edges of the screen. It will always illuminate the
+opposite color of what you set it.
+
+**Video Preview:** [YouTube](https://youtu.be/tSzvvbDK71s)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of K/DA environment](~@images/mapping/kda_env.jpg)
+
+</td><td>
+
+**K/DA Environment**<br />
+**Info.dat Name:** `KDAEnvironment`<br />
+**Default Colors:** Orange & Purple
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :x:<br />
+**Ring Zoom:** :x:<br />
+**Equalizer:** :x:<br />
+**Note:** Ring Light position illuminates the five rails at the top. The lights in the center of the arrows never turn off.
+
+**Video Preview:** [YouTube](https://youtu.be/knXgpnW5NWQ)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Monstercat environment](~@images/mapping/monstercat_env.jpg)
+
+</td><td>
+
+**Monstercat Environment**<br />
+**Info.dat Name:** `MonstercatEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :white_check_mark:<br />
+**Ring Zoom:** :x: <br />
+**Equalizer:** :white_check_mark:<br />
+**Note:** As of 1.6 Back Top Lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top.
+
+**Video Preview:** [YouTube](https://youtu.be/Er3OCUmSK-0)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Crab Rave environment](~@images/mapping/crab-rave_env.jpg)
+
+</td><td>
+
+**Crab Rave Environment**<br />
+**Info.dat Name:** `CrabRaveEnvironment`<br />
+**Default Colors:** Green & Blue
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :white_check_mark:<br />
+**Ring Zoom:** :x: <br />
+**Equalizer:** :white_check_mark: <br />
+**Note:** As of 1.6 Back Top Lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top.
+
+**Video Preview:** [YouTube](https://youtu.be/xTXHCTBYkck)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Panic! at the Disco environment](~@images/mapping/panic_env.jpg)
+
+</td><td>
+
+**Panic! at the Disco Environment**<br />
+**Info.dat Name:** `PanicEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :white_check_mark: <br />
+**Ring Zoom:** :white_check_mark: <br />
+**Equalizer:** :white_check_mark:<br />
+**Note:** Ring Lights are much brighter in this environment than in others.
+
+**Video Preview:** [YouTube](https://youtu.be/2UJ8-edr4xU)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Rocket League environment](~@images/mapping/rocket_env.jpg)
+
+</td><td>
+
+**Rocket League Environment**<br />
+**Info.dat Name:** `RocketEnvironment`<br />
+**Default Colors:** Orange & Blue
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :x:<br />
+**Ring Zoom:** :x:<br />
+**Equalizer:** :x:
+
+**Video Preview:** [YouTube](https://youtu.be/glgMeDJopIM)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Green Day environment](~@images/mapping/green-day_env.jpg)
+
+</td><td>
+
+**Green Day Environment**<br />
+**Info.dat Name:** `GreenDayEnvironment`<br />
+**Default Colors:** Green & Cyan
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :white_check_mark: <br />
+**Ring Zoom:** :white_check_mark:<br />
+**Equalizer:** :x:<br />
+**Video Preview:** [YouTube](https://youtu.be/QLw4Rg-mHKE)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Green Day Grenade environment](~@images/mapping/gd-grenade_env.jpg)
+
+</td><td>
+
+**Green Day Grenade Environment**<br />
+**Info.dat Name:** `GreenDayGrenadeEnvironment`<br />
+**Default Colors:** Green & Cyan
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :x:<br />
+**Ring Zoom:** :x: <br />
+**Equalizer:** :x:<br />
+**Video Preview:** [YouTube](https://youtu.be/DIzLR65HyN0)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Timbaland environment](~@images/mapping/timbaland_env.jpg)
+
+</td><td>
+
+**Timbaland Environment**<br />
+**Info.dat Name:** `TimbalandEnvironment`<br />
+**Default Colors:** Grey & Blue notes, Blue & Blue lights (same colors)
+
+**Lasers:** :white_check_mark: (left & right lights parellel to rings)<br />
+**Ring Spin:** :white_check_mark: <br />
+**Ring Zoom:** :white_check_mark: <br />
+**Equalizer:** :white_check_mark:<br />
+**Note:** "Timbaland" text on the sides never turns off. Laser speed affects the Back Top Lasers on the left and right rings.
+
+**Video Preview:** [YouTube](https://youtu.be/ZMNrCbSxBVM)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of FitBeat environment](~@images/mapping/fitbeat_env.jpg)
+
+</td><td>
+
+**FitBeat Environment**<br />
+**Info.dat Name:** `FitBeatEnvironment`<br />
+**Default Colors:** Yellow & Pink notes, Orange & Blue lights
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :white_check_mark: (outer lasers and helex) <br />
+**Ring Zoom:** :white_check_mark: (helix) <br />
+**Equalizer:** :white_check_mark: <br />
+**Note:** Back Top Lasers will illuminate the opposite color of what you set it.
+
+**Video Preview:** [YouTube](https://youtu.be/PNucTPiPBn8)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Linkin Park environment](~@images/mapping/linkin-park_env.jpg)
+
+</td><td>
+
+**Linkin Park Environment**<br />
+**Info.dat Name:** `LinkinParkEnvironment`<br />
+**Default Colors:** Red & Blue-Grey notes, Beige & White lights, Orange & Blue boost lights
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :white_check_mark: (controls laser spread) <br />
+**Ring Zoom:** :x: <br />
+**Equalizer:** :white_check_mark: (on side wall)
+
+**Video Preview:** [YouTube](https://youtu.be/nl8_sHYnP7k) <br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/BhMQ8KS2rZk)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of BTS environment](~@images/mapping/bts_env.jpg)
+
+</td><td>
+
+**BTS Environment**<br />
+**Info.dat Name:** `BTSEnvironment`<br />
+**Default Colors:** Pink & Purple notes, Pink & Purple lights, Light Pink & Light Blue boost lights
+
+**Lasers:** :white_check_mark: (left & right)<br />
+**Ring Spin:** :white_check_mark: (background pillars) <br />
+**Ring Zoom:** :white_check_mark: (track pillars) <br />
+**Equalizer:** :x: <br />
+**Note:** BTS logo in the center never turns off.
+
+**Video Preview:** [YouTube](https://youtu.be/HrGK2puKBhI) <br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/HYnVROsLBBs)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Kaleidoscope environment](~@images/mapping/kaleidoscope_env.jpg)
+
+</td><td>
+
+**Kaleidoscope Environment**<br />
+**Info.dat Name:** `KaleidoscopeEnvironment`<br />
+**Default Colors:**  Red & Black notes, Red & White lights, Red & Magenta boost lights
+
+**Lasers:** :white_check_mark: <br />
+**Ring Spin:** :white_check_mark:<br />
+**Ring Zoom:** :white_check_mark:<br />
+**Equalizer:** :x:
+
+**Video Preview:** [YouTube](https://youtu.be/6zgH3QcN_T8) <br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/eZBd7-yb284)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Interscope environment](~@images/mapping/interscope_env.jpg)
+
+</td><td>
+
+**Interscope Environment**<br />
+**Info.dat Name:** `InterscopeEnvironment`<br />
+**Default Colors:**  Yellow & Pink notes, Purple & White lights, Cool Red & Cool White boost lights
+
+**Lasers:** :white_check_mark: <br />
+**Ring Spin:** :white_check_mark: (cars) <br />
+**Ring Zoom:** :white_check_mark: (cars and extra laser spread) <br />
+**Equalizer:** :white_check_mark:<br />
+**Extra Events**: 6 and 7 control extra lights. 16 and 17 control car hydraulics.
+
+**Video Preview:** [YouTube](https://youtu.be/pnaNPD5ljqI)<br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/GmJpF2VA-6E)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Skrillex environment](~@images/mapping/skrillex_env.jpg)
+
+</td><td>
+
+**Skrillex Environment**<br />
+**Info.dat Name:** `SkrillexEnvironment`<br />
+**Default Colors:**  Red & Black notes, Pink & Turquoise lights, Neon Red & Neon Green boost lights
+
+**Lasers:** :white_check_mark: <br />
+**Ring Spin:** :white_check_mark: (first ring spin)<br />
+**Ring Zoom:** :white_check_mark: (second ring spin) <br />
+**Equalizer:** :x:<br />
+**Extra Events**: 6 and 7 control extra lights.
+
+**Video Preview:** [YouTube](https://youtu.be/Uk0JugoZ3w4)<br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/-SD5F3b7Q3g)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Billie Eilish environment](~@images/mapping/billie_env.jpg)
+
+</td><td>
+
+**Billie Eilish Environment**<br />
+**Info.dat Name:** `BillieEnvironment`<br />
+**Default Colors:**  Yellow & Light Grey notes, Orange & Cream lights, Red & White Blue boost lights
+
+**Lasers:** :white_check_mark: (sun rays)<br />
+**Ring Spin:** :white_check_mark: (controls rain)<br />
+**Ring Zoom:** :white_check_mark: (controls sun rays and side beams) <br />
+**Equalizer:** :x:<br />
+**Extra Events**: 6, 7, 10, and 11 control extra lights. <br />
+**Note:** This is the first environment use events 10 and 11
+and these events only function on map version `2.5.0` or later.
+
+**Video Preview:** [YouTube](https://youtu.be/R53QcGlo80Q)<br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/Kgm6Xn7xcNQ)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Spooky environment](~@images/mapping/spooky_env.jpg)
+
+</td><td>
+
+**Spooky Environment**<br />
+**Info.dat Name:** `HalloweenEnvironment`<br />
+**Default Colors:**  Orange & Black notes, Red & Light Blue lights, Green & Light Purple boost lights
+
+**Lasers:** :white_check_mark:<br />
+**Ring Spin:** :x:<br />
+**Ring Zoom:**:x: <br />
+**Equalizer:** :x:
+
+**Video Preview:** [YouTube](https://youtu.be/TbX3Z3mU2y8)<br />
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Gaga environment](~@images/mapping/gaga_env.jpg)
+
+</td><td>
+
+**Lady Gaga Environment**<br />
+**Info.dat Name:** `GagaEnvironment`<br />
+**Default Colors:** Pink & Green notes, Yellow & Magenta lights, Orange & Blue boost lights
+
+**Lasers:** :white_check_mark: (electricity) <br />
+**Ring Spin:** :x:<br />
+**Ring Zoom:**:x: <br />
+**Equalizer:** :x:<br />
+**Extra Events**: 6, 7, 10, and 11 control additional lightning. 16, 17, 18, and 19 control additional tower height control.
+
+**Video Preview:** [YouTube](https://youtu.be/FRNLFW4P3RQ)<br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/2DJmcQjjCl0)
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Weave environment](~@images/mapping/weave_env.jpg)
+
+</td><td>
+
+**Weave Environment**<br />
+**Info.dat Name:** `WeaveEnvironment`<br />
+**Default Colors:** Red & Blue notes, Red & Blue lights, Magenta & White boost lights
+
+**Note** Lights require using the new lighting system in map version `3.0.0` to function.
+
+</td></tr>
+<tr><td align="center">
+
+![Image of Glass Desert environment](~@images/mapping/glass-desert_env.jpg)
+
+</td><td>
+
+**Glass Desert Environment**<br />
+**Info.dat Name:** `GlassDesertEnvironment`<br />
+**Default Colors:**  Yellow & Pink notes, Blue & Light Blue lights
+
+**Lasers:** :white_check_mark: <br />
+**Ring Spin:** :x:<br />
+**Ring Zoom:** :x:<br />
+**Equalizer:** :white_check_mark:<br />
+**Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels.
+Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top.
+
+**Video Preview:** [YouTube](https://youtu.be/K3rqWNG5pn8)
+
+</td></tr>
+</tbody>
+</table>
+<!-- markdownlint-restore -->
 
 ### Setting Your Environment
 New default environments become available reasonably often which means that map editors don't always have the complete
