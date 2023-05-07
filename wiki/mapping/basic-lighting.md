@@ -94,18 +94,34 @@ Events in v3 must reside in groups. Each group can contain one or more
 lanes, each lane controlling one or more segments, on which events are
 placed.
 
-Light events in v3 are identical to those of v2, except that the
-intensity can be higher than 120. v3 introduces a new type of event,
-known as rotation event, allowing control of an object's rotation
-angle. A rotation event has the following parameters:
+Light events in v3 are mostly identical to those of v2, with a few
+changes and additions. Firstly, the intensity of a light is no longer
+limited to 120 maximum, and can go above it. Another is the addition of
+strobing, allowing placement of a flickering light with a single event.
+
+v3 introduces rotation events, allowing control of an object's rotation
+angle. Rotation events cannot be grouped together with light events.
+When a rotation event is placed, the object will rotate starting at the
+rotation event immediately before (the start of the song if none), and
+completes at the time of the event, similar to a fade event. A
+rotation event has the following parameters:
 
 * **Rotation Angle**;
 * **Loop Count**, specifying how many full turns should the object
   undertake before reaching the final angle;
 * **Direction**, which is either clockwise, counterclockwise, or decided
   automatically; and
-* **Easing**, or how should the object transition from the angle of the
-  last event to the angle of this.
+* **Easing**: If set to *None*, the object rotates instantly. Setting to
+  other values lets the object rotate from the angle of the last event
+  in different ways. *Linear* lets it rotate at a linear speed, *InQuad*
+  starts slow and ends fast, *OutQuad* starts fast and ends slow, and
+  *InOutQuad* both accelerates and decelerates.
+
+Finally, a new type of event is added, usable with both light and
+rotation events:
+
+* **Extension**: Keep the intensity of a light or the angle of a
+  rotation fixed until this event.
 
 ## Best Practices & Techniques
 > "The only bad lights are **NO** lights.... or lightmap."
