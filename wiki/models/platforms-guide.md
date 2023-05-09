@@ -7,6 +7,10 @@ description: Emma's Guide to making Custom Platforms!
 # Custom Platforms Guide
 _Emma's Guide to making Custom Platforms._
 
+::: danger
+If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md) to avoid any shader issues
+:::
+
 ## Project
 Open the current [Custom Platforms Project](https://github.com/affederaffe/CustomPlatforms/releases/latest) with
 Unity [2019.3.15f1](https://unity3d.com/get-unity/download/archive)

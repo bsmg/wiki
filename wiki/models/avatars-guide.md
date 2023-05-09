@@ -8,6 +8,10 @@ description: Assistant's Guide to adding Full Body Avatars to Beat Saber!
 _Assistant's Guide to adding Full Body Avatars to Beat Saber._
 
 ::: danger
+If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md) to avoid any shader issues
+:::
+
+::: danger
 This guide may have outdated fragments. If you run into issues don't be afraid to ask in the `#pc-3d-modeling` channel
  in the [BSMG Discord](https://discord.gg/beatsabermods)
 :::

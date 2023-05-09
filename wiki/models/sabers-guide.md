@@ -6,6 +6,10 @@ description: MissRaynor's guide to making Custom Sabers!
 # Custom Sabers Guide
 _MissRaynor's guide to making Custom Sabers._
 
+::: danger
+If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md) to avoid any shader issues
+:::
+
 ## Intro
 Since people are still having trouble with making custom sabers, we think that it’s best to update our current tutorial.
 Thank you to angeliod0103 for making the previous guide. Additional contributions to this guide made by Bobbie and Mdot.
