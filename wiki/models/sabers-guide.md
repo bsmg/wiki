@@ -7,7 +7,8 @@ description: MissRaynor's guide to making Custom Sabers!
 _MissRaynor's guide to making Custom Sabers._
 
 ::: danger
-If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md) to avoid any shader issues
+If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md)
+to avoid any shader issues
 :::
 
 ## Intro

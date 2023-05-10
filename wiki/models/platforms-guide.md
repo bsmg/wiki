@@ -8,7 +8,8 @@ description: Emma's Guide to making Custom Platforms!
 _Emma's Guide to making Custom Platforms._
 
 ::: danger
-If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md) to avoid any shader issues
+If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md)
+to avoid any shader issues
 :::
 
 ## Project

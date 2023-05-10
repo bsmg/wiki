@@ -7,7 +7,8 @@ description: Bobbie's guide to making Custom Notes!
 _Bobbie's guide to making Custom Notes._
 
 ::: danger
-If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md) to avoid any shader issues
+If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md)
+to avoid any shader issues
 :::
 
 ## Intro

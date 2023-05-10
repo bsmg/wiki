@@ -8,7 +8,8 @@ description: Assistant's Guide to adding Full Body Avatars to Beat Saber!
 _Assistant's Guide to adding Full Body Avatars to Beat Saber._
 
 ::: danger
-If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md) to avoid any shader issues
+If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md)
+to avoid any shader issues
 :::
 
 ::: danger
