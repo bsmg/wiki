@@ -43,7 +43,7 @@ You can find a list of Unity Versions on the [Unity Download Archive](https://un
 page. Make sure to backup your project before upgrading!
 
 ::: warning
-If you're upgrading an older Unity project, an extremely common to see an error like
+If you're upgrading an older Unity project, an extremely common to see an error like  
 `Assembly 'Assets/Runtime/CustomNotes.dll' will not be loaded due to errors:`
 
 This error is very easy to fix - just go to the .dll in your project,
