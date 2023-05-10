@@ -5,14 +5,18 @@ sidebar: auto
 _Bobbie's Guide to migrating shaders on Beat Saber models_
 
 ## Intro
-When Beat Saber updated to 1.29.4, the developers changed the render type from `Single Pass` to `Single Pass Instanced`. Unfortunately, the Beat Saber community was not set up to handle this change gracefully, so all models created up until this point have invalid shaders.
+When Beat Saber updated to 1.29.4, the developers changed the render type from `Single Pass` to `Single Pass Instanced`. Unfortunately, the Beat Saber model projects were not set up to handle this change gracefully, so all models created up until this point have invalid shaders.
+
+These invalid shaders only show up in the left eye and completely ruin a model when wearing a VR headset.
 
 Fortunately, there is a library and `.unitypackage` that can help you make this transition easily, even with large model projects.
 
 ## AssetBundleLoadingTools
-The library [AssetBundleLoadingTools](https://github.com/legoandmars/AssetBundleLoadingTools) contains a library of pre-converted common shaders, such as `BeatSaber/Unlit Glow`, `BS_Uber`, and more.
+[AssetBundleLoadingTools](https://github.com/legoandmars/AssetBundleLoadingTools) is a library that aims to fix broken legacy models using pre-converted `.shaderbundle` files. 
 
-Unfortunately, this library of pre-converted common shaders doesn't include everything. If you've ever made a custom shader or downloaded one from a niche source, there's an extremely high chance it's *not* included.
+A `.shaderbundle` is a file that contains shaders that have been recompiled to comply with the Single Pass Instanced changes.
+
+Unfortunately, this library of pre-converted shaders only includes common shaders like `BeatSaber/Unlit` and `BS_Uber`. If you've ever made a custom shader or downloaded one from a niche source, there's an extremely high chance it's *not* included.
 
 You can fix this in one of two following ways:
 - [Exporting your own .shaderbundles to fix all of your old models at once (recommended)](#exporting-custom-shaderbundles)
@@ -174,4 +178,4 @@ After completing the official Unity instructions, follow the steps in [Check If 
 Shaders can be fairly complex and these rules don't always apply.
 
 
-If you're not familiar with shaders, have questions about the general shader conversion process, or need help converting a specific shader, you can ask in the `#pc-3d-modeling` channel in the [BSMG Discord](https://discord.gg/beatsabermods) 
+If you're not familiar with shaders, have questions about the general shader conversion process, or need help converting a specific shader, please ask in the `#pc-3d-modeling` channel in the [BSMG Discord](https://discord.gg/beatsabermods) 
