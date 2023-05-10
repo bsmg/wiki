@@ -37,4 +37,4 @@ Want to learn how to make your own models? Check out one of our guides down belo
 * [Making Quest Models Guide](https://github.com/RedBrumbler/Qosmetics/wiki)
 
 ### Migrating models
-Have you made models prior to Beat Saber 1.29.4? You may need to migrate your shaders, check out the [Shader Migration Guide](./shader-migration.md)
+Have you made models prior to Beat Saber 1.29.4? You may need to migrate your shaders using the [Shader Migration Guide](./shader-migration.md)
