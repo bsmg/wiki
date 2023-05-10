@@ -6,6 +6,11 @@ description: Bobbie's guide to making Custom Notes!
 # Custom Notes Guide
 _Bobbie's guide to making Custom Notes._
 
+::: danger
+If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md)
+to avoid any shader issues
+:::
+
 ## Intro
 This guide requires basic knowledge on 3d modeling and the Unity Engine. A few things are needed:
 
