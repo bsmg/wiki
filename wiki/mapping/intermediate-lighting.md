@@ -222,7 +222,7 @@ As discussed in the [Flash/On](#flash-on-strobing) section, "on" lights are at 1
 ~37.1% brighter than On events and then quickly fades to the intensity of On. Flash/Offs produce a more intense strobe
 than On/Offs.
 
-* Example: Bass Music - Umziky (Cytus II ver.) mapped and lighted by Skeelie (also uses Chroma RGB)
+* Example: Bass Music - Umziky (Cytus II ver.) mapped and lighted by Skeelie (also uses Chroma RGB)  
   [YouTube](https://www.youtube.com/watch?v=Set0lOZ5Yog) | [BeatSaver](https://beatsaver.com/beatmap/7bc4)
 
 ### Laser Practices
@@ -241,7 +241,7 @@ the interval as appropriate for the song and tempo, and experiment with the timi
 than On/Off entirely) for a variety of related effects. This show includes many distinct examples of laser spin effects
 throughout, but a basic example can be found at ~0:38:
 
-* Example: ShutEmDown - Celldweller mapped by Funrankable and lighted by LittleAsi
+* Example: ShutEmDown - Celldweller mapped by Funrankable and lighted by LittleAsi  
   [Streamable](https://streamable.com/zx1sf) | [BeatSaver](https://beatsaver.com/beatmap/5bb2)
 
 #### Laser Rotation Speed
@@ -273,14 +273,14 @@ it's the change in volume that counts. You can create contrast in any number of 
 This show features many major stylistic changes throughout, but see the section starting ~1:46 into the one ~1:54 for
 one example, and even more obvious at ~2:23.
 
-* Example: Into the Fire ft. Miss Lina - Getsix (Lightshow Only) lighted by LittleAsi
+* Example: Into the Fire ft. Miss Lina - Getsix (Lightshow Only) lighted by LittleAsi  
   [Streamable](https://streamable.com/0qsto) | [BeatSaver](https://beatsaver.com/beatmap/7be2)
 
 This one demonstrates a change from 1:1 instrument:light mapping to a focused emphasis-only style at the drop ~1:17;
 also note the use of total blackouts after the drop for increased impact despite the fact that the song never actually
 goes silent during that period.
 
-* Example: Virtual Friends - DROELOE mapped by Skyler Wallace and lighted by LittleAsi
+* Example: Virtual Friends - DROELOE mapped by Skyler Wallace and lighted by LittleAsi  
   [Streamable](https://streamable.com/6f429) | [BeatSaver](https://beatsaver.com/beatmap/7cd5)
 
 ### Environment Enhancements

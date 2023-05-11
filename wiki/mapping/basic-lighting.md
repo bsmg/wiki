@@ -124,7 +124,7 @@ rotation events:
   rotation fixed until this event.
 
 ## Best Practices & Techniques
-> "The only bad lights are **NO** lights.... or lightmap."
+> "The only bad lights are **NO** lights.... or lightmap."  
 > ~ Skeelie
 
 Lighting truly is an art which means that it's much more subjective than mapping. There are relatively few best practices
@@ -310,7 +310,7 @@ The default toggle key to switch between headset and mouse/keyboard control is <
 :::warning NOTE
 
 * If you go back into vr and the game doesn't load in the headset either:
-  * Press the <kbd>G</kbd> key until the headset displays the game
+  * Press the <kbd>G</kbd> key until the headset displays the game  
 **==OR==**
   * Quit the game, remove the launch option, and relaunch the game.
 
@@ -318,6 +318,7 @@ The default toggle key to switch between headset and mouse/keyboard control is <
 
 * For difficulties other than Expert+, the game defaults to a `No Flicker` option for lighting which reduces the amount
 of strobes and ring spin events shown. Check to make sure this `Player Option` setting is set what you intend to view!
+
 :::
 
 ### Online with BS Viewer
