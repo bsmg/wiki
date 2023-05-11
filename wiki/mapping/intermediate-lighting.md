@@ -60,12 +60,12 @@ every step. The size of a step is settable. If step is set to 2, then
 the 1st chunk would be controlled by the lane, the 2nd in turn would
 not, the 3rd would, the 4th would not, and so on. If it is 3 instead,
 the lane would control chunks 1, 3, 7, 10 and on. The selection do not
-need to start at the 1st chunk; the offset, titled <q>Light #</q>, is
-used to choose from which chunk do the filtering start, and all previous
-chunks would not be controlled by this lane. With a step of two, the
-offset 2 would cause chunks 2, 4, 6, 8 and on to be selected, while the
-offset three selects chunks 3, 5, 7, 9 and on, not affecting the first
-chunk.
+need to start at the 1st chunk; the offset, titled &ldquo;Light
+&num;&rdquo;, is used to choose from which chunk do the filtering start,
+and all previous chunks would not be controlled by this lane. With a
+step of  two, the offset 2 would cause chunks 2, 4, 6, 8 and on to be
+selected, while the offset 3 selects chunks 3, 5, 7, 9 and on, not
+affecting the first chunk.
 
 Segments and chunks are normally ordered from front to back or from
 left to right. Checking the checkbox Reverse would reverse the ordering
@@ -124,7 +124,7 @@ for the difference between a chunk and the next.
 Normally, the first event on the lane would not be affected by
 distribution; instead, the event sets all chunks' rotation or
 brightness to be the same. This is sometimes useful. When this
-is not desired, <q>Affect First</q> can be checked to make
+is not desired, &ldquo;Affect First&rdquo; can be checked to make
 distribution apply to the first event.
 
 Initially in wave mode, the intensity or rotation of chunks between
@@ -148,7 +148,6 @@ Once established, it's essential to apply decisions about Off block placement co
 :::
 
 ### Tips for optimizing Off timing
-
 * Avoid placing Off events exactly halfway between regularly repeating On events,
   since this can easily produce an unintended strobe effect.
 * Try using different baseline Off timings for different instruments (especially different drum types)
@@ -165,7 +164,6 @@ Strobing Ring Spin events at 1/64 interval or more will produce extremely fast b
 The timing/interval are tempo dependant,
 
 #### How to Light Fast Spins
-
 1. Use your editor's strobe tool at at least 1/64 precision.
 2. Find the starting point of your spin:
    1. If your environment has rings that extend behind the player, start the spin ~1/2 beat before the desired effect.
@@ -173,7 +171,6 @@ The timing/interval are tempo dependant,
 3. Set the strobe duration for the period of time you want the effect.
 
 #### Tips for Fast Spins
-
 * On slower songs (below 100 BPM) you may need to exceed 1/64 strobed ring spins to achieve the desired effect.
 * Like most ring spinning, you will be at the mercy of randomization,
   and can't expect to get the same exact results each time
@@ -263,8 +260,7 @@ or strobing lights constantly produces a flat energy level, whereas suddenly swi
 highly energetic if you otherwise stick mainly to normal lighting. Basically, it's not high volume that creates impact,
 it's the change in volume that counts. You can create contrast in any number of ways, so be encouraged to experiment.
 
-**Contrast Practices:**
-
+#### Contrast Practices
 * Pick a dominant color, keeping most lights that color and using the secondary for emphasis
   (accents, maybe snare hits, etc.)
   * Switch which color is dominant and which is secondary for emphasis at big moments and for contrast between different
