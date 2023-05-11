@@ -39,8 +39,8 @@ The controllable objects are as follows:
 * **Boost Event:** Changes lighting colors between two pairs of colors. Off uses the first pair of colors.
   On uses the second (boost) pair of colors. There is no fade or flash option for this event.
 
-In Weave and later environments, or v3 environments, the set of objects
-controllable are unique to each environment.
+In environments that use the v3 Group Lighting System (Weave and later),
+the set of objects controllable are unique to each environment.
 
 ## Lighting Events
 Lighting has went through several revisions. Originally, only the Static
