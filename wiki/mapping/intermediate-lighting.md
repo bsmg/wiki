@@ -148,6 +148,7 @@ Once established, it's essential to apply decisions about Off block placement co
 :::
 
 ### Tips for optimizing Off timing
+
 * Avoid placing Off events exactly halfway between regularly repeating On events,
   since this can easily produce an unintended strobe effect.
 * Try using different baseline Off timings for different instruments (especially different drum types)
@@ -164,6 +165,7 @@ Strobing Ring Spin events at 1/64 interval or more will produce extremely fast b
 The timing/interval are tempo dependant,
 
 #### How to Light Fast Spins
+
 1. Use your editor's strobe tool at at least 1/64 precision.
 2. Find the starting point of your spin:
    1. If your environment has rings that extend behind the player, start the spin ~1/2 beat before the desired effect.
@@ -171,6 +173,7 @@ The timing/interval are tempo dependant,
 3. Set the strobe duration for the period of time you want the effect.
 
 #### Tips for Fast Spins
+
 * On slower songs (below 100 BPM) you may need to exceed 1/64 strobed ring spins to achieve the desired effect.
 * Like most ring spinning, you will be at the mercy of randomization,
   and can't expect to get the same exact results each time
@@ -261,6 +264,7 @@ highly energetic if you otherwise stick mainly to normal lighting. Basically, it
 it's the change in volume that counts. You can create contrast in any number of ways, so be encouraged to experiment.
 
 #### Contrast Practices
+
 * Pick a dominant color, keeping most lights that color and using the secondary for emphasis
   (accents, maybe snare hits, etc.)
   * Switch which color is dominant and which is secondary for emphasis at big moments and for contrast between different
