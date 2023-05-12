@@ -20,6 +20,33 @@ You don't need to be an AaltopahWi or a Skeelie to make great lighting!
 :::
 
 ## Lightable Objects
+The following types of lanes exist in the Static Event System:
+
+* **Lights:** Controls the light intensity of lights, lasers, etc.
+  Events on these lanes have a color and a type associated. These
+  events light up the environment, and other events would create
+  minimal impact without lights.
+* **Value:** Events on these lanes hold an integer value from 0 to 9.
+  The classical example of this is Laser Speed, though this lane type
+  can be used for other things, for example the pillars in Lady Gaga
+  environment.
+* **Trigger:** An event on this lane triggers a change in an object.
+  Examples include Ring Spin and Ring Zoom.
+* **Boost:** Changes lighting colors between two pairs of colors. Off
+  uses the first pair of colors. On uses the second (boost) pair of
+  colors. There is no fade option for this effect.
+
+Objects in the Group Lighting System may have the following properties
+controllable:
+
+* **Lights:** Controls the intensity of lights, lasers, etc., similar
+  to how it works in the Static Event System.
+* **Rotation:** Unlike lanes that trigger rotation in environments
+  before Weave, more granular control of rotation is offered by the
+  Group Lighting System.
+* **Translation:** Debuting in The Weeknd environment, controls the
+  position of an object.
+
 In environments before Weave, the set of objects controllable are generally
 consistent, though may be in different positions or may be missing altogether.
 The controllable objects are as follows:

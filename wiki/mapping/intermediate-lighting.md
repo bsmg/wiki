@@ -119,18 +119,16 @@ There are two modes, wave and step, the meaning being similar to that
 for duration. With wave distribution, the number specifies the final
 intensity or rotation of the last chunk in order compared to that of
 the event itself. With step distribution, the number instead stands
-for the difference between a chunk and the next.
+for the difference between a chunk and the next. In wave mode, you can
+control the distribution further with easing. The default is linear;
+the other easings are In Quadratic, Out Quadratic, and In-out Quadratic.
+Each easing distributes the brightness or rotation in a different way.
 
 Normally, the first event on the lane would not be affected by
 distribution; instead, the event sets all chunks' rotation or
 brightness to be the same. This is sometimes useful. When this
 is not desired, &ldquo;Affect First&rdquo; can be checked to make
 distribution apply to the first event.
-
-Initially in wave mode, the intensity or rotation of chunks between
-the first and the last are evenly distributed. Beginning in `<unknown
-version>`, this can be controlled using easing; each mode of easing
-distributes the brightness or rotation in a different way.
 
 Curiously, the rotation axis a lane affects for rotation events is in
 the same section of distribution.
