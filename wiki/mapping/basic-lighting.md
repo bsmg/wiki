@@ -238,7 +238,7 @@ and boost lights.
   </tr>
 </thead>
 <tbody>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Default environment](~@images/mapping/default_env.jpg)
 
@@ -257,7 +257,7 @@ and boost lights.
 **Video Preview:** [YouTube](https://youtu.be/ab7kjMsIBHA)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Origins environment](~@images/mapping/origins_env.jpg)
 
@@ -275,7 +275,7 @@ and boost lights.
 **Video Preview:** [YouTube](https://youtu.be/Ysvm5N9V1wU)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Triangle environment](~@images/mapping/triangle_env.jpg)
 
@@ -294,7 +294,7 @@ and boost lights.
 **Video Preview:** [YouTube](https://youtu.be/FhAg4Awl0k0)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Nice environment](~@images/mapping/nice_env.jpg)
 
@@ -313,7 +313,7 @@ and boost lights.
 **Video Preview:** [YouTube](https://youtu.be/LrLFf6fspiw)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Big Mirror environment](~@images/mapping/big-mirror_env.jpg)
 
@@ -331,7 +331,7 @@ and boost lights.
 **Video Preview:** [YouTube](https://youtu.be/lmWeJL8Qxh4)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Imagine Dragons environment](~@images/mapping/dragons_env.jpg)
 
@@ -351,7 +351,7 @@ opposite color of what you set it.
 **Video Preview:** [YouTube](https://youtu.be/tSzvvbDK71s)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of K/DA environment](~@images/mapping/kda_env.jpg)
 
@@ -370,7 +370,7 @@ opposite color of what you set it.
 **Video Preview:** [YouTube](https://youtu.be/knXgpnW5NWQ)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Monstercat environment](~@images/mapping/monstercat_env.jpg)
 
@@ -389,7 +389,7 @@ opposite color of what you set it.
 **Video Preview:** [YouTube](https://youtu.be/Er3OCUmSK-0)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Crab Rave environment](~@images/mapping/crab-rave_env.jpg)
 
@@ -408,7 +408,7 @@ opposite color of what you set it.
 **Video Preview:** [YouTube](https://youtu.be/xTXHCTBYkck)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Panic! at the Disco environment](~@images/mapping/panic_env.jpg)
 
@@ -427,7 +427,7 @@ opposite color of what you set it.
 **Video Preview:** [YouTube](https://youtu.be/2UJ8-edr4xU)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Rocket League environment](~@images/mapping/rocket_env.jpg)
 
@@ -445,7 +445,7 @@ opposite color of what you set it.
 **Video Preview:** [YouTube](https://youtu.be/glgMeDJopIM)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Green Day environment](~@images/mapping/green-day_env.jpg)
 
@@ -462,7 +462,7 @@ opposite color of what you set it.
 **Video Preview:** [YouTube](https://youtu.be/QLw4Rg-mHKE)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Green Day Grenade environment](~@images/mapping/gd-grenade_env.jpg)
 
@@ -479,7 +479,7 @@ opposite color of what you set it.
 **Video Preview:** [YouTube](https://youtu.be/DIzLR65HyN0)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Timbaland environment](~@images/mapping/timbaland_env.jpg)
 
@@ -498,7 +498,7 @@ opposite color of what you set it.
 **Video Preview:** [YouTube](https://youtu.be/ZMNrCbSxBVM)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of FitBeat environment](~@images/mapping/fitbeat_env.jpg)
 
@@ -517,7 +517,7 @@ opposite color of what you set it.
 **Video Preview:** [YouTube](https://youtu.be/PNucTPiPBn8)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Linkin Park environment](~@images/mapping/linkin-park_env.jpg)
 
@@ -536,7 +536,7 @@ opposite color of what you set it.
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/BhMQ8KS2rZk)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of BTS environment](~@images/mapping/bts_env.jpg)
 
@@ -556,7 +556,7 @@ opposite color of what you set it.
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/HYnVROsLBBs)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Kaleidoscope environment](~@images/mapping/kaleidoscope_env.jpg)
 
@@ -575,7 +575,7 @@ opposite color of what you set it.
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/eZBd7-yb284)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Interscope environment](~@images/mapping/interscope_env.jpg)
 
@@ -595,7 +595,7 @@ opposite color of what you set it.
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/GmJpF2VA-6E)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Skrillex environment](~@images/mapping/skrillex_env.jpg)
 
@@ -615,7 +615,7 @@ opposite color of what you set it.
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/-SD5F3b7Q3g)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Billie Eilish environment](~@images/mapping/billie_env.jpg)
 
@@ -637,7 +637,7 @@ and these events only function on map version `2.5.0` or later.
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/Kgm6Xn7xcNQ)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Spooky environment](~@images/mapping/spooky_env.jpg)
 
@@ -655,7 +655,7 @@ and these events only function on map version `2.5.0` or later.
 **Video Preview:** [YouTube](https://youtu.be/TbX3Z3mU2y8)<br />
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Gaga environment](~@images/mapping/gaga_env.jpg)
 
@@ -675,7 +675,7 @@ and these events only function on map version `2.5.0` or later.
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/2DJmcQjjCl0)
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Weave environment](~@images/mapping/weave_env.jpg)
 
@@ -686,7 +686,7 @@ and these events only function on map version `2.5.0` or later.
 **Default Colors:** Red & Blue notes, Red & Blue lights, Magenta & White boost lights
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 </td><td>
 
@@ -698,7 +698,7 @@ and these events only function on map version `2.5.0` or later.
 **Note:** Fire is always Orange.
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 </td><td>
 
@@ -709,7 +709,7 @@ and these events only function on map version `2.5.0` or later.
 **Group Lighting System:** :white_check_mark:
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 </td><td>
 
@@ -720,7 +720,7 @@ and these events only function on map version `2.5.0` or later.
 **Group Lighting System:** :white_check_mark:
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 </td><td>
 
@@ -731,7 +731,7 @@ and these events only function on map version `2.5.0` or later.
 **Group Lighting System:** :white_check_mark:
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 </td><td>
 
@@ -742,7 +742,7 @@ and these events only function on map version `2.5.0` or later.
 **Group Lighting System:** :white_check_mark:
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 </td><td>
 
@@ -753,7 +753,7 @@ and these events only function on map version `2.5.0` or later.
 **Group Lighting System:** :white_check_mark:
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 </td><td>
 
@@ -764,7 +764,7 @@ and these events only function on map version `2.5.0` or later.
 **Group Lighting System:** :white_check_mark:
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 </td><td>
 
@@ -775,7 +775,7 @@ and these events only function on map version `2.5.0` or later.
 **Group Lighting System:** :white_check_mark:
 
 </td></tr>
-<tr><td align="center">
+<tr><td style="text-align: center;">
 
 ![Image of Glass Desert environment](~@images/mapping/glass-desert_env.jpg)
 
