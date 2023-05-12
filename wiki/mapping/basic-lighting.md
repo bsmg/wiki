@@ -225,6 +225,9 @@ editor the lighting track looks like this:
 :::
 
 ### Environment Previews
+Unless otherwise mentioned, the third default color is white for lights
+and boost lights.
+
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD033 -->
 <table>
@@ -682,7 +685,94 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `WeaveEnvironment`<br />
 **Default Colors:** Red & Blue notes, Red & Blue lights, Magenta & White boost lights
 
-**Note** Lights require using the new lighting system in map version `3.0.0` to function.
+</td></tr>
+<tr><td align="center">
+
+</td><td>
+
+**Fall Out Boy Environment**<br />
+**Info.dat Name:** `PyroEnvironment`<br />
+**Default Colors:** Red & Yellow notes, Red & Yellow lights, Red & White boost lights
+
+**Group Lighting System:** :white_check_mark:
+**Note:** Fire is always Orange.
+
+</td></tr>
+<tr><td align="center">
+
+</td><td>
+
+**EDM Environment**<br />
+**Info.dat Name:** `EDMEnvironment`<br />
+**Default Colors:** White & Teal notes, Green & Blue lights, Red & Magenta boost lights
+
+**Group Lighting System:** :white_check_mark:
+
+</td></tr>
+<tr><td align="center">
+
+</td><td>
+
+**The Second Environment**<br />
+**Info.dat Name:** `TheSecondEnvironment`<br />
+**Default Colors:** Red & Blue notes, Red & Blue lights, Magenta & Green boost lights
+
+**Group Lighting System:** :white_check_mark:
+
+</td></tr>
+<tr><td align="center">
+
+</td><td>
+
+**Lizzo Environment**<br />
+**Info.dat Name:** `LizzoEnvironment`<br />
+**Default Colors:** Yellow & Purple notes, Yellow & Purple lights, Pink & Blue boost lights
+
+**Group Lighting System:** :white_check_mark:
+
+</td></tr>
+<tr><td align="center">
+
+</td><td>
+
+**The Weeknd Environment**<br />
+**Info.dat Name:** `TheWeekndEnvironment`<br />
+**Default Colors:** Red & Dark Blue notes, Red & Blue lights, Yellow & Sky Blue boost lights
+
+**Group Lighting System:** :white_check_mark:
+
+</td></tr>
+<tr><td align="center">
+
+</td><td>
+
+**Rock Mixtape Environment**<br />
+**Info.dat Name:** `RockMixtapeEnvironment`<br />
+**Default Colors:** Yellow & White notes, Red & Yellow lights, Magenta & Cyan boost lights
+
+**Group Lighting System:** :white_check_mark:
+
+</td></tr>
+<tr><td align="center">
+
+</td><td>
+
+**Imagine Dragons Environment 2**<br />
+**Info.dat Name:** `Dragons2Environment`<br />
+**Default Colors:** Yellow & Green notes, Green & Blue lights, Red & Yellow boost lights
+
+**Group Lighting System:** :white_check_mark:
+
+</td></tr>
+<tr><td align="center">
+
+</td><td>
+
+**Panic! at the Disco Environment 2**<br />
+**Info.dat Name:** `Panic2Environment`<br />
+**Default Colors:** Pink & Dark Green notes, Pink & Cyan lights, Orange & Purple boost lights
+
+**Group Lighting System:** :white_check_mark:
 
 </td></tr>
 <tr><td align="center">
