@@ -219,3 +219,5 @@ way to JSON edit your map.
 Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi),
 [Caeden117](./mapping-credits.md#caeden117), and [Bloodcloak](./mapping-credits.md#bloodcloak).
 Idea by [Helen Carnate](./mapping-credits.md#helen-carnate).
+
+<!-- markdownlint-disable-file MD013 -->
