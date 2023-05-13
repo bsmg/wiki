@@ -696,7 +696,7 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `PyroEnvironment`<br />
 **Default Colors:** Red & Yellow notes, Red & Yellow lights, Red & White boost lights
 
-**Group Lighting System:** :white_check_mark:
+**Group Lighting System:** :white_check_mark:<br />
 **Note:** Fire is always Orange.
 
 </td></tr>
