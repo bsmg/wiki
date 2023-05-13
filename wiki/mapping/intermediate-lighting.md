@@ -44,8 +44,8 @@ splits the segment into two continuous chunks of 12 lights. Setting to
 3 splits it into chunks of 8, setting to 4 splits it into chunks of 6,
 and so on. Setting to 0 is the same as setting the number of chunks to
 be equal to the total number of segments, that is, each segment resides
-in its own chunk. Filtering, as well as duration and distribution told
-later on, work on chunks.
+in its own chunk. Filtering, as well as duration and distribution
+described later on, work on chunks.
 
 After the segments are grouped into chunks, filtering is applied to
 choose which chunks are affected by the lane. There are two modes of
@@ -63,15 +63,15 @@ the lane would control chunks 1, 3, 7, 10 and on. The selection do not
 need to start at the 1st chunk; the offset, titled &ldquo;Light
 &num;&rdquo;, is used to choose from which chunk do the filtering start,
 and all previous chunks would not be controlled by this lane. With a
-step of  two, the offset 2 would cause chunks 2, 4, 6, 8 and on to be
+step of two, the offset 2 would cause chunks 2, 4, 6, 8 and on to be
 selected, while the offset 3 selects chunks 3, 5, 7, 9 and on, not
 affecting the first chunk.
 
 Segments and chunks are normally ordered from front to back or from
 left to right. Checking the checkbox Reverse would reverse the ordering
 of chunks. If the backmost chunk is the last one in the normal order,
-then when Reverse is checked it would become the first chunk. Reverse
-affects both filtering, duration and distribution.
+it would become the first chunk when Reverse is checked. Reverse affects
+both filtering, duration and distribution.
 
 ### Limiting
 When the normal filtering selects too many chunks at one, limiting can
