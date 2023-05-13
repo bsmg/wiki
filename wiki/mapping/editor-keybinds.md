@@ -49,7 +49,7 @@ which this wiki page is based off of, is also available but is slightly out of d
 |                 Undo |                                   Ctrl+Z |       Ctrl+Z |                     Ctrl+Z |                      Ctrl+Z |
 |                 Redo |                             Ctrl+Shift+Z | Ctrl+Shift+Z |     Ctrl+Shift+Z or Ctrl+Y |                      Ctrl+Y |
 |         Quick Delete |                       Shift+Middle Mouse |  Right Click |         Shift+Middle Mouse |           Ctrl+Middle Mouse |
-|            Move Note | Alt+Drag or Select ⇒ Shift+Up/Down Arrow |              |    Ctrl+Arrows or Alt+Drag | Alt+Drag or Select > Arrows |
+|            Move Note | Alt+Drag or Select ⇒ Shift+Up/Down Arrow |              |    Ctrl+Arrows or Alt+Drag | Alt+Drag or Select ⇒ Arrows |
 |         Note Actions |                                          |   Alt+LClick |                            |                             |
 |     Change Direction |                    Alt+W/A/S/D over Note |              | Alt+Scroll Wheel over Note |                 Alt+W/A/S/D |
 |           Swap Color |                             Middle Mouse | Middle Mouse |               Middle Mouse |                             |
