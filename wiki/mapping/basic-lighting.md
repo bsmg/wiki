@@ -685,6 +685,8 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `WeaveEnvironment`<br />
 **Default Colors:** Red & Blue notes, Red & Blue lights, Magenta & White boost lights
 
+**Group Lighting System:** :white_check_mark:
+
 </td></tr>
 <tr><td style="text-align: center;">
 
