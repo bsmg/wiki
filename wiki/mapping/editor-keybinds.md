@@ -20,6 +20,9 @@ which this wiki page is based off of, is also available but is slightly out of d
 ## General Keybinds
 
 ### Basic
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD013 -->
+
 |                       |  Mediocre Map Assistant 2 |     Beatmapper      |         ChroMapper        |      Official Editor      |
 |-----------------------|:-------------------------:|:-------------------:|:-------------------------:|:-------------------------:|
 |           Move camera | Right Click+W/A/S/D/Mouse | Shift+W/A/S/D/Mouse | Right Click+W/A/S/D/Mouse | Right Click+W/A/S/D/Mouse |
@@ -33,14 +36,24 @@ which this wiki page is based off of, is also available but is slightly out of d
 |                 Chain |                           |                     |                           |                      Drag |
 |              Save map |                    Ctrl+S |     N/A (Autosaves) |                    Ctrl+S |                    Ctrl+S |
 
+<!-- markdownlint-restore -->
+
 ### Element Selection
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD013 -->
+
 |                   | Mediocre Map Assistant 2 |    Beatmapper    |                ChroMapper               | Official Editor |
 |-------------------|:------------------------:|:----------------:|:---------------------------------------:|:---------------:|
 |       Select item |             Shift+LClick |           LClick |                            Shift+LClick |    Shift+LClick |
 | Select many items |     Ctrl+LClick ⇒ Scroll | Q ⇒ Fill in info | Ctrl/Alt+LClick or Ctrl+LClick ⇒ Scroll |  Shift ⇒ Scroll |
 |          Deselect |         Ctrl+A or Ctrl+D |           LClick |                                  Ctrl+A |          Ctrl+A |
 
+<!-- markdownlint-restore -->
+
 ### Edit Notes
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD013 -->
+
 |                      |         Mediocre Map Assistant 2         |  Beatmapper  |         ChroMapper         |       Official Editor       |
 |----------------------|:----------------------------------------:|:------------:|:--------------------------:|:---------------------------:|
 |                  Cut |                                   Ctrl+X |       Ctrl+X |                     Ctrl+X |                      Ctrl+X |
@@ -53,6 +66,8 @@ which this wiki page is based off of, is also available but is slightly out of d
 |         Note Actions |                                          |   Alt+LClick |                            |                             |
 |     Change Direction |                    Alt+W/A/S/D over Note |              | Alt+Scroll Wheel over Note |                 Alt+W/A/S/D |
 |           Swap Color |                             Middle Mouse | Middle Mouse |               Middle Mouse |                             |
+
+<!-- markdownlint-restore -->
 
 ### Travel
 |               | Mediocre Map Assistant 2 | Beatmapper |      ChroMapper      |
@@ -219,5 +234,3 @@ way to JSON edit your map.
 Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi),
 [Caeden117](./mapping-credits.md#caeden117), and [Bloodcloak](./mapping-credits.md#bloodcloak).
 Idea by [Helen Carnate](./mapping-credits.md#helen-carnate).
-
-<!-- markdownlint-disable-file MD013 -->
