@@ -21,7 +21,7 @@ Speicher deine eigenen verlustfreien WAV(E)-Dateien bei jedem Bearbeitungsschrit
 
 Die beste Möglichkeit die Qualität der Quelle und den Qualitätsverlust zu überprüfen, ist die Verwendung von [Spek](http://spek.cc/), ein kostenloses akustisches Spektrum-Analyse-Tool:
 
-![Spektrum Beispiel](https://i.imgur.com/fdOZR2K.png "Spektrum Beispiel")
+![Spektrum Beispiel](~@images/mapping/advanced-spectrumexample.png "Spektrum Beispiel")
 
 Dieses Werkzeug zeigt die Zeit des Liedes von links nach rechts, die Frequenzen von unten nach oben und die Lautstärke der Frequenzen in Farbe (Legende rechts). Dieser Screenshot zeigt denselben Song, wobei der obere Graph eine WAVE Datei ist und das untere Diagramm ein OGG Dateiexport derselben WAVE Datei ist.
 
@@ -54,7 +54,7 @@ Im Wesentlichen reduziert ein Kompressor die Dynamik oberhalb eines bestimmten S
 
 Der mit Audacity mitgelieferte Kompressor Effekt ist eigentlich nicht das beste Werkzeug für das Mastering von Musik, da er eher für sprachorientiertes Audio orientiert ist. Es ist jedoch sehr einfach zu verwenden, weshalb es in [Lautstärkemodifikation: Komprimierung](./basic-audio.md#kompression) und grundlegende Einstellungen bereitgestellt wird, die für die meisten Fälle funktionieren. Wenn du dies jedoch liest, hast du entweder eine unangenehme Verzerrung im Klang bemerkt (Ton bricht nach lauten Spitzen) oder du bist neugierig auf die Einstellungen, die du in einem Kompressor vornehmen kannst, also lass uns einen Blick auf diese Einstellungen werfen, mit dem fortgeschrittenen [SC4-Plug-in](https://ttmanual.audacityteam.org/o/man/sc4.html) für Audacity (Du musst eventuell das [LADSPA-Bundle](http://www.audacityteam.org/download/plug-ins/#ladspa) installieren, um Zugriff auf dieses Tool zu erhalten).
 
-![SC4](https://i.imgur.com/koad1gL.png)
+![SC4](~@images/mapping/advanced-sc4.png)
 
 <!-- markdownlint-disable MD013 -->
 | Effekt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -71,7 +71,7 @@ Der mit Audacity mitgelieferte Kompressor Effekt ist eigentlich nicht das beste 
 
 Ein Beispiel dafür, wie sich die Komprimierung auf den Ton auswirkt. Der hervorgehobene Teil wurde mit einem Verhältnis von 1:3 mit einem Schwellenwert bei -30db (rote Linie) komprimiert.
 
-![Kompression](https://i.imgur.com/6VMXy3j.png)
+![Kompression](~@images/mapping/advanced-compression.png)
 
 ::: tip TIPP
 Um die Dynamik des Liedes in dB visuell besser beurteilen zu können, kannst du den Schwellenwert auf Folgendes einstellen:
@@ -80,7 +80,7 @@ Um die Dynamik des Liedes in dB visuell besser beurteilen zu können, kannst du 
 2. Um die Skala zu erhöhen, klicke mit der rechten Maustaste auf die Skala links von der Reißzwecke und klicke auf `Halbe Welle`.
 3. Um die Spurhöhe zu maximieren, gehe auf `Ansicht -> Spurgröße -> An Höhe anpassen` oder drücke einfach `Strg + Umschalt + F`. Dadurch wird mehr von der Skala angezeigt.
 
-![Track](https://i.imgur.com/2zWoX9q.png)
+![Track](~@images/mapping/advanced-track.png)
 :::
 
 Ausführlichere Informationen über Kompressoren [findest du hier](https://www.practical-music-production.com/audio-compressor/).
@@ -90,7 +90,7 @@ Ein Limiter ist im wesentlichen ein Kompressor-Effekt mit einem unendlichen Vers
 
 Werfen wir einen Blick auf den [Limiter](https://manual.audacityteam.org/man/limiter.html)-Effekt von Audacity:
 
-![Limiter](https://i.imgur.com/6fAwHCv.png)
+![Limiter](~@images/mapping/advanced-limiter.png)
 
 <!-- markdownlint-disable MD013 -->
 | Effekt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Beschreibung                                                                                                                                                                                                                                                                                           |
@@ -117,7 +117,7 @@ Es gibt auch ein Video von diesem Prozess [hier](https://www.youtube.com/watch?v
 2. Dupliziere die Songspur (`Menü auswählen -> Alles + Menü Bearbeiten -> Duplizieren`, oder drücke einfach `Strg+A` und dann `Strg+D`)
 3. Fülle das unerwünschte Ende der ersten Spur und den unerwünschten Anfang der zweiten Spur grob mit Stille (Auswählen, dann `Menü generieren -> Stille...`).
 
-![Songabschnitt schneiden](https://i.imgur.com/IRiNCz0.png "Songabschnitt schneiden")
+![Songabschnitt schneiden](~@images/mapping/advanced-cutsongsection.png "Songabschnitt schneiden")
 
 4. Richte die Spuren mit dem Zeitverschiebungswerkzeug aus (![Time Shift Tool](~@images/mapping/timeshift.png "Timeshift tool")) um die zweite Spur an eine Stelle zu verschieben, die ungefähr an der gleichen Stelle liegt, damit die ähnlichen Abschnitte nahe beieinander liegen. Zoome dann hinein und stelle erneut ein und wiederhole den Vorgang, bis die Wellenform beim Zoomen in Punkte übergehen. Richten die Punkte auf der unteren Spur mit den ähnlichen Spitzen und Tiefen mit der oberen Spur aus, wenn möglich.
 
@@ -126,18 +126,18 @@ Verwende eine Klickspur um sicherzustellen, dass die Spuren im Takt zueinander s
 Siehe [Audio-Vorbereitung: Hinzufügen von Click-Track](./basic-audio.md#klickspur-hinzufugen).
 :::
 
-![Vergrößerte Synchronisation](https://i.imgur.com/9jyrzzv.png "Vergrößerte Synchronisation")
+![Vergrößerte Synchronisation](~@images/mapping/advanced-zoomsync.png "Vergrößerte Synchronisation")
 
 5. Der letzte Abschnitt der oberen Spur sollte nun identisch oder ähnlich wie der erste Abschnitt der unteren Spur sein, aber aus verschiedenen Zeiten im Song. Höre den überlappenden Bereich ab, um eine Übereinstimmung zu bestätigen und vergewisser dich, dass es kein Echo/Versatz von falsch ausgerichteten Spuren gibt.
 
 ::: tip TIPP
-Um Übersteuerung/Clipping von zwei -0db spitzen Spuren zu vermeiden, kannst du die Fader für beide Spuren auf -6db stellen ![Fader](https://i.imgur.com/kvsHvMT.png) und später wieder auf +0db stellen, nachdem die Überblendung erfolgt ist. Doppelklicke auf den Fader, um die Nummer einzugeben.
+Um Übersteuerung/Clipping von zwei -0db spitzen Spuren zu vermeiden, kannst du die Fader für beide Spuren auf -6db stellen ![Fader](~@images/mapping/advanced-fader.png) und später wieder auf +0db stellen, nachdem die Überblendung erfolgt ist. Doppelklicke auf den Fader, um die Nummer einzugeben.
 :::
 
 7. Wähle den überlappenden Bereich über beide Spuren aus.
 8. Gehen zu `Effektmenü -> Überblendspuren`. Setze die Fade-Richtung auf `Alternierend Aus / Ein`. Klicke dann auf OK, um die Überblendung anzuwenden.
 
-![Überblendung](https://i.imgur.com/amqrj1I.png "Überblendung")
+![Überblendung](~@images/mapping/advanced-crossfade.png "Überblendung")
 
 9. Hören dir die überschneidenden Abschnitte noch einmal an. Wenn alles gut gelaufen ist, solltest du nun einen perfekt überblendeten Übergang zwischen den beiden Spuren haben.
 10. Kombinieren die Spuren, indem du alles auswählst (`Menü auswählen -> Alle` oder `Strg+A`) dann in das Menü `Spuren -> Mischen` gehen und dann `Mischen und Rendern`.
