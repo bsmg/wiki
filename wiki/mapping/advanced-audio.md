@@ -29,7 +29,7 @@ editing from without having to redo everything from the start.
 The best way to check for source quality and quality loss is using [Spek](http://spek.cc/),
 a free acoustic spectrum analyser tool:
 
-![Spectrum example](https://i.imgur.com/fdOZR2K.png "Spectrum example")
+![Spectrum example](~@images/mapping/advanced-spectrumexample.png "Spectrum example")
 
 This tool shows the time of the song from left to right, the frequencies from lowest at the bottom to highest at the top
 and the loudness of the frequencies in color (legend to the right). This screenshot shows the same song with the top graph
@@ -89,7 +89,7 @@ loud peaks) or you're curious about the settings you can adjust in a compressor,
 using the more advanced [SC4 plug-in](https://ttmanual.audacityteam.org/o/man/sc4.html) for Audacity (you may need to
 install the [LADSPA bundle](http://www.audacityteam.org/download/plug-ins/#ladspa) to get access to this tool).
 
-![SC4](https://i.imgur.com/koad1gL.png)
+![SC4](~@images/mapping/advanced-sc4.png)
 
 <!-- markdownlint-disable MD013 -->
 | Effect&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
@@ -107,7 +107,7 @@ install the [LADSPA bundle](http://www.audacityteam.org/download/plug-ins/#ladsp
 An example of how compression affects the audio, highlighted part has been compressed at 1:3
 ratio with a threshold at -30db (red line).
 
-![Compression](https://i.imgur.com/6VMXy3j.png)
+![Compression](~@images/mapping/advanced-compression.png)
 
 ::: tip
 To make it easier to visually judge the dynamics of the song in dB you can set the threshold at do the following:
@@ -118,7 +118,7 @@ To make it easier to visually judge the dynamics of the song in dB you can set t
 3. To maximize track height go to `View -> Track Size -> Fit to Height` or simply press `Ctrl + Shift + F`.
   This will show more of the scale.
 
-![Track](https://i.imgur.com/2zWoX9q.png)
+![Track](~@images/mapping/advanced-track.png)
 :::
 
 More in-depth information about compressors [can be found here](https://www.practical-music-production.com/audio-compressor/).
@@ -130,7 +130,7 @@ even louder.
 
 Let's take a look at Audacity's [Limiter](https://manual.audacityteam.org/man/limiter.html) effect:
 
-![Limiter](https://i.imgur.com/6fAwHCv.png)
+![Limiter](~@images/mapping/advanced-limiter.png)
 
 <!-- markdownlint-disable MD013 -->
 | Effect&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
@@ -164,7 +164,7 @@ There is also a video of this process [available here](https://www.youtube.com/w
 3. Roughly fill the unwanted end of the first track and unwanted start of the second track with silence
   (Select, then `Generate menu -> Silence...`).
 
-![Cut song section](https://i.imgur.com/IRiNCz0.png "Cut song section")
+![Cut song section](~@images/mapping/advanced-cutsongsection.png "Cut song section")
 
 4. Align the tracks by using the Time Shift Tool (![Time Shift Tool](~@images/mapping/timeshift.png "Timeshift tool"))
   to move the second track to a place roughly in place so the similar sections are close to each other. Then zoom in and
@@ -176,7 +176,7 @@ Utilize a Click Track to make sure the tracks are in time with each other.
 See [Audio Preparation: Adding Click Track](./basic-audio.md#add-a-click-track).
 :::
 
-![Zoomed syncing](https://i.imgur.com/9jyrzzv.png "Zoomed syncing")
+![Zoomed syncing](~@images/mapping/advanced-zoomsync.png "Zoomed syncing")
 
 5. The last section of the top track should now be identical or similar to the first section of the bottom track but from
   different times in the song. Listen to the overlapping area to confirm a match, making sure there is no echo/offset
@@ -184,14 +184,14 @@ See [Audio Preparation: Adding Click Track](./basic-audio.md#add-a-click-track).
 
 ::: tip
 To avoid overdrive/clipping from two -0db peaking tracks you can set the faders for both tracks to -6db
-![Fader](https://i.imgur.com/kvsHvMT.png) then later back to +0db after the crossfade has been applied.
+![Fader](~@images/mapping/advanced-fader.png) then later back to +0db after the crossfade has been applied.
 Double click the fader to type in the number.
 :::
 
 7. Select the overlapping region across both tracks.
 8. Go to `Effect menu -> Crossfade Tracks`. Set Fade direction to `Alternating Out / In`. Click OK to apply crossfade.
 
-![Crossfade](https://i.imgur.com/amqrj1I.png "Crossfade")
+![Crossfade](~@images/mapping/advanced-crossfade.png "Crossfade")
 
 9. Listen to the overlapping sections again. If all went well,
   you should now have a perfectly blended transition between the two tracks.
