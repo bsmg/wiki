@@ -74,7 +74,7 @@ Lighting has went through several revisions. Originally, only the Static
 Event System is available. v3 introduces the Group Lighting System, usable
 with specific environments.
 
-### Static Event System (Pre-v3)
+### Static Event System
 There are two major revisions of the Static Event System.
 
 Lighting v1 is the version of lighting that has general support from
@@ -110,12 +110,12 @@ level of a v1 On event, and 120 is the maximum.
 
 ### Group Lighting System (v3)
 v3 environments, in addition to Static Event System objects, introduces
-a new class of objects, hereby known as v3 objects, that offers more
-granular control.
+a new class of objects, hereby known as Group Lighting System (GLS)
+objects, that offers more granular control.
 
-A v3 object can have one or both of its lights or rotation controllable.
-In addition, a v3 object can have multiple segments, and each segment can
-be controlled individually.
+A GLS object can have one or more of lights, rotation and translation
+being available for control. In addition, a GLS object can have multiple
+segments, and each segment can be controlled individually.
 
 Events in v3 must reside in groups. Each group can contain one or more
 lanes, each lane controlling one or more segments, on which events are
