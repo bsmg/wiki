@@ -248,31 +248,14 @@ and boost lights.
 **Info.dat Name:** `DefaultEnvironment` <br />
 **Default Colors:** Red & Blue
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :white_check_mark: (both squares) <br />
-**Ring Zoom:** :white_check_mark: (inner square)<br />
-**Equalizer:** :white_check_mark:<br />
+**Lights:** Back lasers, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark:<br />
 **Note:** As of 1.6 Back Top Lasers are below the Track Lasers
 
 **Video Preview:** [YouTube](https://youtu.be/ab7kjMsIBHA)
-
-</td></tr>
-<tr><td style="text-align: center;">
-
-![Image of Origins environment](~@images/mapping/origins_env.jpg)
-
-</td><td>
-
-**Origins Environment**<br />
-**Info.dat Name:** `OriginsEnvironment`<br />
-**Default Colors:** Yellow & Pink notes, Blue & Light Blue lights
-
-**Lasers:** :white_check_mark:<br />
-**Ring Spin:** :white_check_mark:<br />
-**Ring Zoom:** :x:<br />
-**Equalizer:** :white_check_mark:
-
-**Video Preview:** [YouTube](https://youtu.be/Ysvm5N9V1wU)
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -285,10 +268,11 @@ and boost lights.
 **Info.dat Name:** `TriangleEnvironment`<br />
 **Default Colors:** Red & Blue
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :white_check_mark: (square and triangle) <br />
-**Ring Zoom:** :white_check_mark: (triangle)<br />
-**Equalizer:** :white_check_mark:<br />
+**Lights:** Back lasers, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark:<br />
 **Note:** As of 1.6 Back Top Lasers are below the Track Lasers
 
 **Video Preview:** [YouTube](https://youtu.be/FhAg4Awl0k0)
@@ -304,10 +288,11 @@ and boost lights.
 **Info.dat Name:** `NiceEnvironment`<br />
 **Default Colors:** Red & Blue
 
-**Lasers:** :white_check_mark: (top & bottom)<br />
-**Ring Spin:** :white_check_mark: (both squares)<br />
-**Ring Zoom:** :white_check_mark: (inner square)<br />
-**Equalizer:** :white_check_mark:<br />
+**Lights:** Back lasers, ring lights, bottom & top lasers, center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark:<br />
 **Note:** As of 1.6 Back Top Lasers are below the Track Lasers
 
 **Video Preview:** [YouTube](https://youtu.be/LrLFf6fspiw)
@@ -323,32 +308,13 @@ and boost lights.
 **Info.dat Name:** `BigMirrorEnvironment`<br />
 **Default Colors:** Red & Blue
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :white_check_mark: <br />
-**Ring Zoom:** :x:<br />
-**Equalizer:** :white_check_mark:
+**Lights:** Back lasers, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark:
 
 **Video Preview:** [YouTube](https://youtu.be/lmWeJL8Qxh4)
-
-</td></tr>
-<tr><td style="text-align: center;">
-
-![Image of Imagine Dragons environment](~@images/mapping/dragons_env.jpg)
-
-</td><td>
-
-**Imagine Dragons Environment**<br />
-**Info.dat Name:** `DragonsEnvironment`<br />
-**Default Colors:** Red & Blue
-
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :white_check_mark: (square and helix)<br />
-**Ring Zoom:** :white_check_mark: (helix)<br />
-**Equalizer:** :white_check_mark:<br />
-**Note:** Back Top Laser position is the two rails on the far edges of the screen. It will always illuminate the
-opposite color of what you set it.
-
-**Video Preview:** [YouTube](https://youtu.be/tSzvvbDK71s)
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -361,11 +327,12 @@ opposite color of what you set it.
 **Info.dat Name:** `KDAEnvironment`<br />
 **Default Colors:** Orange & Purple
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :x:<br />
-**Ring Zoom:** :x:<br />
-**Equalizer:** :x:<br />
-**Note:** Ring Light position illuminates the five rails at the top. The lights in the center of the arrows never turn off.
+**Lights:** Bottom & top lights, left & right lasers, center lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :x:<br />
+**Note:** Right Lasers control the lights in the center of the arrows.
 
 **Video Preview:** [YouTube](https://youtu.be/knXgpnW5NWQ)
 
@@ -380,11 +347,12 @@ opposite color of what you set it.
 **Info.dat Name:** `MonstercatEnvironment`<br />
 **Default Colors:** Red & Blue
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :white_check_mark:<br />
-**Ring Zoom:** :x: <br />
-**Equalizer:** :white_check_mark:<br />
-**Note:** As of 1.6 Back Top Lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top.
+**Lights:** Back lasers, top lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** As of 1.6 Back Top Lasers are below the Track Lasers.
 
 **Video Preview:** [YouTube](https://youtu.be/Er3OCUmSK-0)
 
@@ -399,13 +367,54 @@ opposite color of what you set it.
 **Info.dat Name:** `CrabRaveEnvironment`<br />
 **Default Colors:** Green & Blue
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :white_check_mark:<br />
-**Ring Zoom:** :x: <br />
-**Equalizer:** :white_check_mark: <br />
-**Note:** As of 1.6 Back Top Lasers are below the Track Lasers. Ring Light position illuminates the five rails at the top.
+**Lights:** Back lasers, top lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark: <br />
+**Note:** As of 1.6 Back Top Lasers are below the Track Lasers.
 
 **Video Preview:** [YouTube](https://youtu.be/xTXHCTBYkck)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Imagine Dragons environment](~@images/mapping/dragons_env.jpg)
+
+</td><td>
+
+**Imagine Dragons Environment**<br />
+**Info.dat Name:** `DragonsEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lights:** Side lights, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** Side lights (back top lights) always illuminate the opposite color of
+what you set it.
+
+**Video Preview:** [YouTube](https://youtu.be/tSzvvbDK71s)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Origins environment](~@images/mapping/origins_env.jpg)
+
+</td><td>
+
+**Origins Environment**<br />
+**Info.dat Name:** `OriginsEnvironment`<br />
+**Default Colors:** Yellow & Pink notes, Blue & Light Blue lights
+
+**Lights:** Bottom lights, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark:
+
+**Video Preview:** [YouTube](https://youtu.be/Ysvm5N9V1wU)
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -418,10 +427,11 @@ opposite color of what you set it.
 **Info.dat Name:** `PanicEnvironment`<br />
 **Default Colors:** Red & Blue
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :white_check_mark: <br />
-**Ring Zoom:** :white_check_mark: <br />
-**Equalizer:** :white_check_mark:<br />
+**Lights:** Bottom lights, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark:<br />
 **Note:** Ring Lights are much brighter in this environment than in others.
 
 **Video Preview:** [YouTube](https://youtu.be/2UJ8-edr4xU)
@@ -437,10 +447,11 @@ opposite color of what you set it.
 **Info.dat Name:** `RocketEnvironment`<br />
 **Default Colors:** Orange & Blue
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :x:<br />
-**Ring Zoom:** :x:<br />
-**Equalizer:** :x:
+**Lights:** Back lights, bottom lights, left & right lasers, center lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :x:
 
 **Video Preview:** [YouTube](https://youtu.be/glgMeDJopIM)
 
@@ -455,10 +466,11 @@ opposite color of what you set it.
 **Info.dat Name:** `GreenDayEnvironment`<br />
 **Default Colors:** Green & Cyan
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :white_check_mark: <br />
-**Ring Zoom:** :white_check_mark:<br />
-**Equalizer:** :x:<br />
+**Lights:** Bottom lights, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :x:<br />
 **Video Preview:** [YouTube](https://youtu.be/QLw4Rg-mHKE)
 
 </td></tr>
@@ -472,10 +484,11 @@ opposite color of what you set it.
 **Info.dat Name:** `GreenDayGrenadeEnvironment`<br />
 **Default Colors:** Green & Cyan
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :x:<br />
-**Ring Zoom:** :x: <br />
-**Equalizer:** :x:<br />
+**Lights:** Bottom lights, ambiance, left & right lasers, center lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :x:<br />
 **Video Preview:** [YouTube](https://youtu.be/DIzLR65HyN0)
 
 </td></tr>
@@ -489,11 +502,13 @@ opposite color of what you set it.
 **Info.dat Name:** `TimbalandEnvironment`<br />
 **Default Colors:** Grey & Blue notes, Blue & Blue lights (same colors)
 
-**Lasers:** :white_check_mark: (left & right lights parellel to rings)<br />
-**Ring Spin:** :white_check_mark: <br />
-**Ring Zoom:** :white_check_mark: <br />
-**Equalizer:** :white_check_mark:<br />
-**Note:** "Timbaland" text on the sides never turns off. Laser speed affects the Back Top Lasers on the left and right rings.
+**Lights:** Side lasers, intra-ring lasers, left & right ring lasers,
+  center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Side laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** "Timbaland" text on the sides never turns off.
 
 **Video Preview:** [YouTube](https://youtu.be/ZMNrCbSxBVM)
 
@@ -508,11 +523,13 @@ opposite color of what you set it.
 **Info.dat Name:** `FitBeatEnvironment`<br />
 **Default Colors:** Yellow & Pink notes, Orange & Blue lights
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :white_check_mark: (outer lasers and helex) <br />
-**Ring Zoom:** :white_check_mark: (helix) <br />
-**Equalizer:** :white_check_mark: <br />
-**Note:** Back Top Lasers will illuminate the opposite color of what you set it.
+**Lights:** Ring lasers, outer lasers, left & right lasers, chevron<br />
+**Triggers:** Spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark: <br />
+**Note:** Ring lasers (back top) will illuminate the opposite color of what
+  you set it.
 
 **Video Preview:** [YouTube](https://youtu.be/PNucTPiPBn8)
 
@@ -527,10 +544,11 @@ opposite color of what you set it.
 **Info.dat Name:** `LinkinParkEnvironment`<br />
 **Default Colors:** Red & Blue-Grey notes, Beige & White lights, Orange & Blue boost lights
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :white_check_mark: (controls laser spread) <br />
-**Ring Zoom:** :x: <br />
-**Equalizer:** :white_check_mark: (on side wall)
+**Lights:** Floor lights, ceiling lights, left & right lasers, center lights<br />
+**Triggers:** Laser mode<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark: (on side wall)
 
 **Video Preview:** [YouTube](https://youtu.be/nl8_sHYnP7k) <br />
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/BhMQ8KS2rZk)
@@ -546,11 +564,11 @@ opposite color of what you set it.
 **Info.dat Name:** `BTSEnvironment`<br />
 **Default Colors:** Pink & Purple notes, Pink & Purple lights, Light Pink & Light Blue boost lights
 
-**Lasers:** :white_check_mark: (left & right)<br />
-**Ring Spin:** :white_check_mark: (background pillars) <br />
-**Ring Zoom:** :white_check_mark: (track pillars) <br />
-**Equalizer:** :x: <br />
-**Note:** BTS logo in the center never turns off.
+**Lights:** Logo, center lasers, left and right lasers, runway<br />
+**Triggers:** Tower spin, pillar control<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :x:
 
 **Video Preview:** [YouTube](https://youtu.be/HrGK2puKBhI) <br />
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/HYnVROsLBBs)
@@ -566,10 +584,11 @@ opposite color of what you set it.
 **Info.dat Name:** `KaleidoscopeEnvironment`<br />
 **Default Colors:**  Red & Black notes, Red & White lights, Red & Magenta boost lights
 
-**Lasers:** :white_check_mark: <br />
-**Ring Spin:** :white_check_mark:<br />
-**Ring Zoom:** :white_check_mark:<br />
-**Equalizer:** :x:
+**Lights:** Back lights, center lights, left & right lights, front lights<br />
+**Triggers:** Spin, zoom<br />
+**Value controls:** :x:<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :x:
 
 **Video Preview:** [YouTube](https://youtu.be/6zgH3QcN_T8) <br />
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/eZBd7-yb284)
@@ -585,11 +604,14 @@ opposite color of what you set it.
 **Info.dat Name:** `InterscopeEnvironment`<br />
 **Default Colors:**  Yellow & Pink notes, Purple & White lights, Cool Red & Cool White boost lights
 
-**Lasers:** :white_check_mark: <br />
-**Ring Spin:** :white_check_mark: (cars) <br />
-**Ring Zoom:** :white_check_mark: (cars and extra laser spread) <br />
-**Equalizer:** :white_check_mark:<br />
-**Extra Events**: 6 and 7 control extra lights. 16 and 17 control car hydraulics.
+
+**Lights:** Gates, left & right lasers<br />
+**Triggers:** Laser mode, car hydraulics<br />
+**Value controls:** Cars, laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :white_check_mark:<br />
+**Notes**: Left & right lasers and car hydraulics are extra events 6, 7, 16
+  and 17, respectively. Car control takes the place of ring spin.
 
 **Video Preview:** [YouTube](https://youtu.be/pnaNPD5ljqI)<br />
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/GmJpF2VA-6E)
@@ -605,11 +627,13 @@ opposite color of what you set it.
 **Info.dat Name:** `SkrillexEnvironment`<br />
 **Default Colors:**  Red & Black notes, Pink & Turquoise lights, Neon Red & Neon Green boost lights
 
-**Lasers:** :white_check_mark: <br />
-**Ring Spin:** :white_check_mark: (first ring spin)<br />
-**Ring Zoom:** :white_check_mark: (second ring spin) <br />
-**Equalizer:** :x:<br />
-**Extra Events**: 6 and 7 control extra lights.
+**Lights:** Back lights, ceiling + primary ring lights, left & right lights,
+  floor + secondary ring lights, left & right lasers<br />
+**Triggers:** Primary ring spin, secondary ring spin + laser mode<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :x:<br />
+**Notes**: Extra events 6 and 7 control the lasers.
 
 **Video Preview:** [YouTube](https://youtu.be/Uk0JugoZ3w4)<br />
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/-SD5F3b7Q3g)
@@ -625,13 +649,14 @@ opposite color of what you set it.
 **Info.dat Name:** `BillieEnvironment`<br />
 **Default Colors:**  Yellow & Light Grey notes, Orange & Cream lights, Red & White Blue boost lights
 
-**Lasers:** :white_check_mark: (sun rays)<br />
-**Ring Spin:** :white_check_mark: (controls rain)<br />
-**Ring Zoom:** :white_check_mark: (controls sun rays and side beams) <br />
-**Equalizer:** :x:<br />
-**Extra Events**: 6, 7, 10, and 11 control extra lights. <br />
-**Note:** This is the first environment use events 10 and 11
-and these events only function on map version `2.5.0` or later.
+**Lights:** Water channel lights, left & right rays, sun/moon,
+  left & right lasers<br />
+**Triggers:** Rain, ray mode<br />
+**Value controls:** Ray + laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :x:<br />
+**Note:** Events 6 and 7 control extra water channel lights. Events 10 and 11
+  control left & right lasers.
 
 **Video Preview:** [YouTube](https://youtu.be/R53QcGlo80Q)<br />
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/Kgm6Xn7xcNQ)
@@ -647,10 +672,11 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `HalloweenEnvironment`<br />
 **Default Colors:**  Orange & Black notes, Red & Light Blue lights, Green & Light Purple boost lights
 
-**Lasers:** :white_check_mark:<br />
-**Ring Spin:** :x:<br />
-**Ring Zoom:**:x: <br />
-**Equalizer:** :x:
+**Lights:** Back lasers, moon, left & right lasers, walkway lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Laser speed<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :x:
 
 **Video Preview:** [YouTube](https://youtu.be/TbX3Z3mU2y8)<br />
 
@@ -665,11 +691,13 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `GagaEnvironment`<br />
 **Default Colors:** Pink & Green notes, Yellow & Magenta lights, Orange & Blue boost lights
 
-**Lasers:** :white_check_mark: (electricity) <br />
-**Ring Spin:** :x:<br />
-**Ring Zoom:**:x: <br />
-**Equalizer:** :x:<br />
-**Extra Events**: 6, 7, 10, and 11 control additional lightning. 16, 17, 18, and 19 control additional tower height control.
+**Lights:** Upper & lower auroras, tower lights, center lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Tower coil height<br />
+**GLS objects:** :x:<br />
+**Spectrum:** :x:<br />
+**Notes**: Events 6, 7, 10, and 11 control additional tower lights. 16, 17,
+  18, and 19 control additional coil heights.
 
 **Video Preview:** [YouTube](https://youtu.be/FRNLFW4P3RQ)<br />
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/2DJmcQjjCl0)
@@ -685,7 +713,11 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `WeaveEnvironment`<br />
 **Default Colors:** Red & Blue notes, Red & Blue lights, Magenta & White boost lights
 
-**Group Lighting System:** :white_check_mark:
+**Lights:** Platform lights<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Back & side spotlights (light & rotation)<br />
+**Spectrum:** :x:
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -696,8 +728,23 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `PyroEnvironment`<br />
 **Default Colors:** Red & Yellow notes, Red & Yellow lights, Red & White boost lights
 
-**Group Lighting System:** :white_check_mark:<br />
-**Note:** Fire is always Orange.
+**Lights:** Video, logo, left & right projector, runway lights, ambient lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Video clip selection<br />
+**GLS objects:** Stage (light), stage-top spotlights (light & rotation),
+  hall-top spotlights (light & rotation), truss-mount lights (light),
+  side panels (light), back spotlights (light & rotation), stage-side spotlights
+  (light & rotation), fire (light)<br />
+**Spectrum:** :x:<br />
+
+**Note:** Fire is always colored orange. Even-numbered segments fire burst
+  flames (when the first segment is numbered 1), while odd-numbered segments
+  fires continuously burning flames. Off events turn the flames off, while on
+  events of any value turn flames on and fire burst flames; the color and type
+  (static or fade) is ignored.
+
+  Rotation can be applied to the stage, the truss lights, the side panels and
+  the fire in the official editor, but does not work.
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -708,7 +755,15 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `EDMEnvironment`<br />
 **Default Colors:** White & Teal notes, Green & Blue lights, Red & Magenta boost lights
 
-**Group Lighting System:** :white_check_mark:
+**Lights:** Bottom & top lane lights, floor lights<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Front ring (light & rotation), top ring (light & rotation),
+  back rings (light & rotation), cone lasers (light & rotation), side lasers
+  (light & rotation)<br />
+**Spectrum:** :white_check_mark:
+**Note:** Extra rotation-only GLS objects exist for the rings and cone lasers,
+  which control the rotation of them as a whole.
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -719,7 +774,16 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `TheSecondEnvironment`<br />
 **Default Colors:** Red & Blue notes, Red & Blue lights, Magenta & Green boost lights
 
-**Group Lighting System:** :white_check_mark:
+**Lights:** Logo, runway fences, buildings, left & right flags<br />
+**Triggers:** :x:<br />
+**Value controls:** Ring zoom<br />
+**GLS objects:** Top & bottom lasers (light & rotation), outer rings (light &
+  rotation), inner rings (light & rotation), runway lights (light), spotlights
+  (light & rotation)<br />
+**Spectrum:** :white_check_mark:
+**Note:** The logo resembled a birthday cake in 1.23; it is replaced with a
+  chevron since 1.24. The banners are only visible in 1.23, with the number
+  4 written on it standing for the 4th anniversary.
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -730,7 +794,8 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `LizzoEnvironment`<br />
 **Default Colors:** Yellow & Purple notes, Yellow & Purple lights, Pink & Blue boost lights
 
-**Group Lighting System:** :white_check_mark:
+**GLS objects:** :white_check_mark:<br />
+**Spectrum:** :x:
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -741,7 +806,8 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `TheWeekndEnvironment`<br />
 **Default Colors:** Red & Dark Blue notes, Red & Blue lights, Yellow & Sky Blue boost lights
 
-**Group Lighting System:** :white_check_mark:
+**GLS objects:** :white_check_mark:<br />
+**Spectrum:** :x:
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -752,7 +818,8 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `RockMixtapeEnvironment`<br />
 **Default Colors:** Yellow & White notes, Red & Yellow lights, Magenta & Cyan boost lights
 
-**Group Lighting System:** :white_check_mark:
+**GLS objects:** :white_check_mark:<br />
+**Spectrum:** :white_check_mark:
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -763,7 +830,8 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `Dragons2Environment`<br />
 **Default Colors:** Yellow & Green notes, Green & Blue lights, Red & Yellow boost lights
 
-**Group Lighting System:** :white_check_mark:
+**GLS objects:** :white_check_mark:<br />
+**Spectrum:** :white_check_mark:
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -774,7 +842,8 @@ and these events only function on map version `2.5.0` or later.
 **Info.dat Name:** `Panic2Environment`<br />
 **Default Colors:** Pink & Dark Green notes, Pink & Cyan lights, Orange & Purple boost lights
 
-**Group Lighting System:** :white_check_mark:
+**GLS objects:** :white_check_mark:<br />
+**Spectrum:** :white_check_mark:
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -790,7 +859,7 @@ and these events only function on map version `2.5.0` or later.
 **Lasers:** :white_check_mark: <br />
 **Ring Spin:** :x:<br />
 **Ring Zoom:** :x:<br />
-**Equalizer:** :white_check_mark:<br />
+**Spectrum:** :white_check_mark:<br />
 **Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels.
 Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top.
 
