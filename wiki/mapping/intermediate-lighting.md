@@ -18,9 +18,10 @@ all... great! Welcome! This page will help you expand on your "vanilla" lighting
 it's time to start exploring and experimenting. Have fun with it!
 
 ## Grasping the Group Lighting System
-One of the most versatile aspects of the group lighting system is the
-ability to control individual segments of an object. This is realized
-by splitting an object into sections by filtering and limiting.
+The ability to make each segment act differently is the most wonderful
+aspect of the Group Lighting System. This is realized by a combination
+of using multiple lanes in one group, filtering & ordering, duration
+controlling and distribution controlling.
 
 ![The group info menu](~@images/mapping/groupinfo.png)
 
@@ -83,9 +84,10 @@ last chunk affected in order also considered the last chunk for duration
 and duration, respectively.
 
 ### Duration
-When multiple chunks are affected by a single lane, there are two set
-of tools, duration and distribution, that offer further control of the
-chunks in one lane.
+While filtering, ordering and limiting is enough for controlling
+individual segments, you would soon find it dauntingly time-consuming
+to work with. Fortunately, GLS provides two tools for saving effort:
+duration control and distribution control.
 
 Duration is used to control the time taken for an event to take effect
 across all chunks it affects. There are two types of durations: wave
