@@ -681,13 +681,12 @@ what you set it.
 **Info.dat Name:** `GlassDesertEnvironment`<br />
 **Default Colors:**  Yellow & Pink notes, Blue & Light Blue lights
 
-**Lasers:** :white_check_mark: <br />
-**Ring Spin:** :x:<br />
-**Ring Zoom:** :x:<br />
-
+**Lights:** Ceiling lights, back lasers, left & right lasers, chevron<br />
+**Triggers:** :x:<br />
+**Value controls:** Laser speed<br />
 **Spectrum:** :white_check_mark:<br />
-**Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels.
-Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top.
+**Note:** This is the first and currently only 360&deg; environment. 360&deg;
+  environments can only be used with 360&deg; and 90&deg; levels.
 
 **Video Preview:** [YouTube](https://youtu.be/K3rqWNG5pn8)
 
