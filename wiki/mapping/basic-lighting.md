@@ -761,7 +761,7 @@ what you set it.
 **GLS objects:** Front ring (light & rotation), top ring (light & rotation),
   back rings (light & rotation), cone lasers (light & rotation), side lasers
   (light & rotation)<br />
-**Spectrum:** :white_check_mark:
+**Spectrum:** :white_check_mark:<br />
 **Note:** Extra rotation-only GLS objects exist for the rings and cone lasers,
   which control the rotation of them as a whole.
 
@@ -780,7 +780,7 @@ what you set it.
 **GLS objects:** Top & bottom lasers (light & rotation), outer rings (light &
   rotation), inner rings (light & rotation), runway lights (light), spotlights
   (light & rotation)<br />
-**Spectrum:** :white_check_mark:
+**Spectrum:** :white_check_mark:<br />
 **Note:** The logo resembled a birthday cake in 1.23; it is replaced with a
   chevron since 1.24. The banners are only visible in 1.23, with the number
   4 written on it standing for the 4th anniversary.
@@ -859,6 +859,7 @@ what you set it.
 **Lasers:** :white_check_mark: <br />
 **Ring Spin:** :x:<br />
 **Ring Zoom:** :x:<br />
+**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark:<br />
 **Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels.
 Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top.
