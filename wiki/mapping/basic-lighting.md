@@ -225,11 +225,11 @@ editor the lighting track looks like this:
 :::
 
 ### Environment Previews
-Unless otherwise mentioned, the third default color is white for lights
-and boost lights.
-
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD033 -->
+
+#### Pre-Group Lighting System
+
 <table>
 <thead>
   <tr>
@@ -251,7 +251,6 @@ and boost lights.
 **Lights:** Back lasers, ring lights, left & right lasers, center lights<br />
 **Triggers:** Ring spin, ring zoom<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark:<br />
 **Note:** As of 1.6 Back Top Lasers are below the Track Lasers
 
@@ -271,7 +270,6 @@ and boost lights.
 **Lights:** Back lasers, ring lights, left & right lasers, center lights<br />
 **Triggers:** Ring spin, ring zoom<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark:<br />
 **Note:** As of 1.6 Back Top Lasers are below the Track Lasers
 
@@ -291,7 +289,6 @@ and boost lights.
 **Lights:** Back lasers, ring lights, bottom & top lasers, center lights<br />
 **Triggers:** Ring spin, ring zoom<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark:<br />
 **Note:** As of 1.6 Back Top Lasers are below the Track Lasers
 
@@ -311,7 +308,6 @@ and boost lights.
 **Lights:** Back lasers, ring lights, left & right lasers, center lights<br />
 **Triggers:** Ring spin<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark:
 
 **Video Preview:** [YouTube](https://youtu.be/lmWeJL8Qxh4)
@@ -330,7 +326,6 @@ and boost lights.
 **Lights:** Bottom & top lights, left & right lasers, center lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :x:<br />
 **Note:** Right Lasers control the lights in the center of the arrows.
 
@@ -350,7 +345,6 @@ and boost lights.
 **Lights:** Back lasers, top lights, left & right lasers, center lights<br />
 **Triggers:** Ring spin<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark:<br />
 **Note:** As of 1.6 Back Top Lasers are below the Track Lasers.
 
@@ -370,7 +364,6 @@ and boost lights.
 **Lights:** Back lasers, top lights, left & right lasers, center lights<br />
 **Triggers:** Ring spin<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark: <br />
 **Note:** As of 1.6 Back Top Lasers are below the Track Lasers.
 
@@ -390,7 +383,6 @@ and boost lights.
 **Lights:** Side lights, ring lights, left & right lasers, center lights<br />
 **Triggers:** Ring spin, ring zoom<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark:<br />
 **Note:** Side lights (back top lights) always illuminate the opposite color of
 what you set it.
@@ -411,7 +403,6 @@ what you set it.
 **Lights:** Bottom lights, ring lights, left & right lasers, center lights<br />
 **Triggers:** Ring spin<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark:
 
 **Video Preview:** [YouTube](https://youtu.be/Ysvm5N9V1wU)
@@ -430,7 +421,6 @@ what you set it.
 **Lights:** Bottom lights, ring lights, left & right lasers, center lights<br />
 **Triggers:** Ring spin, ring zoom<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark:<br />
 **Note:** Ring Lights are much brighter in this environment than in others.
 
@@ -450,7 +440,6 @@ what you set it.
 **Lights:** Back lights, bottom lights, left & right lasers, center lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :x:
 
 **Video Preview:** [YouTube](https://youtu.be/glgMeDJopIM)
@@ -469,7 +458,6 @@ what you set it.
 **Lights:** Bottom lights, ring lights, left & right lasers, center lights<br />
 **Triggers:** Ring spin, ring zoom<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :x:<br />
 **Video Preview:** [YouTube](https://youtu.be/QLw4Rg-mHKE)
 
@@ -487,7 +475,6 @@ what you set it.
 **Lights:** Bottom lights, ambiance, left & right lasers, center lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :x:<br />
 **Video Preview:** [YouTube](https://youtu.be/DIzLR65HyN0)
 
@@ -506,7 +493,6 @@ what you set it.
   center lights<br />
 **Triggers:** Ring spin, ring zoom<br />
 **Value controls:** Side laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark:<br />
 **Note:** "Timbaland" text on the sides never turns off.
 
@@ -526,7 +512,6 @@ what you set it.
 **Lights:** Ring lasers, outer lasers, left & right lasers, chevron<br />
 **Triggers:** Spin, ring zoom<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark: <br />
 **Note:** Ring lasers (back top) will illuminate the opposite color of what
   you set it.
@@ -547,7 +532,6 @@ what you set it.
 **Lights:** Floor lights, ceiling lights, left & right lasers, center lights<br />
 **Triggers:** Laser mode<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark: (on side wall)
 
 **Video Preview:** [YouTube](https://youtu.be/nl8_sHYnP7k) <br />
@@ -567,7 +551,6 @@ what you set it.
 **Lights:** Logo, center lasers, left and right lasers, runway<br />
 **Triggers:** Tower spin, pillar control<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :x:
 
 **Video Preview:** [YouTube](https://youtu.be/HrGK2puKBhI) <br />
@@ -587,7 +570,6 @@ what you set it.
 **Lights:** Back lights, center lights, left & right lights, front lights<br />
 **Triggers:** Spin, zoom<br />
 **Value controls:** :x:<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :x:
 
 **Video Preview:** [YouTube](https://youtu.be/6zgH3QcN_T8) <br />
@@ -608,7 +590,6 @@ what you set it.
 **Lights:** Gates, left & right lasers<br />
 **Triggers:** Laser mode, car hydraulics<br />
 **Value controls:** Cars, laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :white_check_mark:<br />
 **Notes**: Left & right lasers and car hydraulics are extra events 6, 7, 16
   and 17, respectively. Car control takes the place of ring spin.
@@ -631,7 +612,6 @@ what you set it.
   floor + secondary ring lights, left & right lasers<br />
 **Triggers:** Primary ring spin, secondary ring spin + laser mode<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :x:<br />
 **Notes**: Extra events 6 and 7 control the lasers.
 
@@ -653,7 +633,6 @@ what you set it.
   left & right lasers<br />
 **Triggers:** Rain, ray mode<br />
 **Value controls:** Ray + laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :x:<br />
 **Note:** Events 6 and 7 control extra water channel lights. Events 10 and 11
   control left & right lasers.
@@ -675,7 +654,6 @@ what you set it.
 **Lights:** Back lasers, moon, left & right lasers, walkway lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Laser speed<br />
-**GLS objects:** :x:<br />
 **Spectrum:** :x:
 
 **Video Preview:** [YouTube](https://youtu.be/TbX3Z3mU2y8)<br />
@@ -694,7 +672,7 @@ what you set it.
 **Lights:** Upper & lower auroras, tower lights, center lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Tower coil height<br />
-**GLS objects:** :x:<br />
+
 **Spectrum:** :x:<br />
 **Notes**: Events 6, 7, 10, and 11 control additional tower lights. 16, 17,
   18, and 19 control additional coil heights.
@@ -703,6 +681,40 @@ what you set it.
 **Official Showcase & Tutorial**: [YouTube](https://youtu.be/2DJmcQjjCl0)
 
 </td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Glass Desert environment](~@images/mapping/glass-desert_env.jpg)
+
+</td><td>
+
+**Glass Desert Environment**<br />
+**Info.dat Name:** `GlassDesertEnvironment`<br />
+**Default Colors:**  Yellow & Pink notes, Blue & Light Blue lights
+
+**Lasers:** :white_check_mark: <br />
+**Ring Spin:** :x:<br />
+**Ring Zoom:** :x:<br />
+
+**Spectrum:** :white_check_mark:<br />
+**Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels.
+Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top.
+
+**Video Preview:** [YouTube](https://youtu.be/K3rqWNG5pn8)
+
+</td></tr>
+</tbody>
+</table>
+
+#### Group Lighting System
+
+<table>
+<thead>
+  <tr>
+    <th>Video and Screenshot (click to open full size)</th>
+    <th>Environment</th>
+  </tr>
+</thead>
+<tbody>
 <tr><td style="text-align: center;">
 
 ![Image of Weave environment](~@images/mapping/weave_env.jpg)
@@ -846,29 +858,9 @@ what you set it.
 **Spectrum:** :white_check_mark:
 
 </td></tr>
-<tr><td style="text-align: center;">
-
-![Image of Glass Desert environment](~@images/mapping/glass-desert_env.jpg)
-
-</td><td>
-
-**Glass Desert Environment**<br />
-**Info.dat Name:** `GlassDesertEnvironment`<br />
-**Default Colors:**  Yellow & Pink notes, Blue & Light Blue lights
-
-**Lasers:** :white_check_mark: <br />
-**Ring Spin:** :x:<br />
-**Ring Zoom:** :x:<br />
-**GLS objects:** :x:<br />
-**Spectrum:** :white_check_mark:<br />
-**Note:** This is the first 360&deg; environment. 360 levels MUST use this and it's not useable for standard levels.
-Ring Light position controls the horizontal outer rail. Back Top Laser position controls the six rails at the top.
-
-**Video Preview:** [YouTube](https://youtu.be/K3rqWNG5pn8)
-
-</td></tr>
 </tbody>
 </table>
+
 <!-- markdownlint-restore -->
 
 ### Setting Your Environment
