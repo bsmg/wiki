@@ -217,19 +217,11 @@ Custom environment models (platforms) created by the community exist but require
 currently available through Mod Assistant. A beta version may be available in the `#pc-mods` channel of the BSMG Discord.
 :::
 
-The basic structure of each environment is mostly the same. In the [Mediocre Map Assistant 2](./mediocre-map-assistant.md)
-editor the lighting track looks like this:
-
-::: align center
-![Screenshot of the MMA2 lighting track from the top down](~@images/mapping/mma2-lighting-track.jpg)
-:::
-
 ### Environment Previews
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD033 -->
 
 #### Pre-Group Lighting System
-
 <table>
 <thead>
   <tr>
@@ -586,7 +578,6 @@ what you set it.
 **Info.dat Name:** `InterscopeEnvironment`<br />
 **Default Colors:**  Yellow & Pink notes, Purple & White lights, Cool Red & Cool White boost lights
 
-
 **Lights:** Gates, left & right lasers<br />
 **Triggers:** Laser mode, car hydraulics<br />
 **Value controls:** Cars, laser speed<br />
@@ -672,7 +663,6 @@ what you set it.
 **Lights:** Upper & lower auroras, tower lights, center lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Tower coil height<br />
-
 **Spectrum:** :x:<br />
 **Notes**: Events 6, 7, 10, and 11 control additional tower lights. 16, 17,
   18, and 19 control additional coil heights.
@@ -706,7 +696,6 @@ Ring Light position controls the horizontal outer rail. Back Top Laser position 
 </table>
 
 #### Group Lighting System
-
 <table>
 <thead>
   <tr>
