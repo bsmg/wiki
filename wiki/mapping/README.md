@@ -301,7 +301,10 @@ Learn the various aspects to lighting your map manually
 Take your lighting skills a bit further into strobing, ring spins, and contrast practices
 
 ### [**Advanced Lighting**](./advanced-lighting.md)
-Advanced and nuanced techniques, lighting for custom platforms, and Chroma RGB **(This page is still a work in progress!)**
+Advanced and nuanced techniques.
+
+### [**Extended Lighting**](./extended-lighting.md)
+Lighting for custom platforms and Chroma RGB.
 
 ### Automated Lights
 Not ready to make your own lighting? Here are some programs to do it for you. Keep in mind, creating simple manual lighting
