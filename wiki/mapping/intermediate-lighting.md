@@ -32,29 +32,39 @@ well as buttons for adding and deleting lanes.
 There are four subsections in the menu: Duration, Filter & Order, Limit
 and Brightness/Rotation Distribution.
 
+### Chunking
+The segments are first grouped into chunks, each chunk consisting of
+a set of adjacently-numbered segments. You are able to specify the
+total number of chunks, and the game will group the segments in a
+way as even as possible.
+
+For a light with 12 segments, setting the number of chunks to 1 would
+group all segments into one chunk. Setting to 2 instead splits the
+segment into two continuous chunks of 6 lights. Setting to 3 splits it
+into chunks of 4, setting to 4 splits it into chunks of 3, and so on.
+
+![How chunking groups segments](~@images/mapping/v3/chunks.svg)
+
+Setting to 0 is the same as setting the number of chunks to be equal to
+the total number of segments, that is, each segment resides in its own
+chunk.
+
+All other operations work on the level of chunks.
+
 ### Filter and Order
-Filter & Order is the main mechanism for choosing which segments a lane
-affects.
+Filter & Order is the main mechanism for choosing which segments a
+lane affects. After the segments are grouped into chunks, ordering
+and filtering is applied to select which chunks are affected by the
+lane.
 
-The segments are first split into chunks, each chunk consisting of
-adjacently-numbered segments. You are able to specify the total number
-of chunks, and the game will group the segments in a way as even as
-possible. For a light with 24 segments, setting the number of chunks
-to 1 would group all segments into one chunk. Setting to 2 instead
-splits the segment into two continuous chunks of 12 lights. Setting to
-3 splits it into chunks of 8, setting to 4 splits it into chunks of 6,
-and so on. Setting to 0 is the same as setting the number of chunks to
-be equal to the total number of segments, that is, each segment resides
-in its own chunk. Filtering, as well as duration and distribution
-described later on, work on chunks.
-
-After the segments are grouped into chunks, filtering is applied to
-choose which chunks are affected by the lane. There are two modes of
+There are two modes of
 filtering: sections and step/offset. In section mode, the chunks are
 divided into sections as even as possible, in a manner similar to how
 segments are grouped into chunks: section 2 affects the lights right
 after section 1, section 3 affects those right after section 2, and
 so on. The section controlled is given in the Id field.
+
+![Lights selected by section filter](~@images/mapping/v3/filter_section.svg)
 
 In step and offset mode, one chunk would be affected by the lane for
 every step. The size of a step is settable. If step is set to 2, then
@@ -68,11 +78,15 @@ step of two, the offset 2 would cause chunks 2, 4, 6, 8 and on to be
 selected, while the offset 3 selects chunks 3, 5, 7, 9 and on, not
 affecting the first chunk.
 
+![Lights selected by step-offset filter](~@images/mapping/v3/filter_stepoffset.svg)
+
 Segments and chunks are normally ordered from front to back or from
 left to right. Checking the checkbox Reverse would reverse the ordering
 of chunks. If the backmost chunk is the last one in the normal order,
 it would become the first chunk when Reverse is checked. Reverse affects
 both filtering, duration and distribution.
+
+![Effect of reverse](~@images/mapping/v3/reverse.svg)
 
 ### Limiting
 When the normal filtering selects too many chunks at one, limiting can
@@ -93,19 +107,29 @@ Duration is used to control the time taken for an event to take effect
 across all chunks it affects. There are two types of durations: wave
 duration and step duration.
 
-With wave duration, the time required for all the lights to do all
-the work on a lane, in beats, is specified. The final event for the
-last chunk in order will activate at the time specified; the other
-chunks controlled by the same lane will activate in-between, equally
-spaced between the start of the final event and the duration specified.
-The time taken between chunks for the final event is then applied to
-all events before. For a lane controlling 5 chunks, when a single on
-event is placed on beat 0 and the duration is set to 4, the first chunk
-will light up on beat 0, the last chunk will light up on beat 4, and
-the rest will light up in between, equally spaced across time: The 2nd
-would light up on beat 1, the 3rd on beat 2, and the 4th on beat 3.
+With wave duration, the time required for everything the lane wants to
+do, in beats, is specified.
 
-With step duration, the time between adjacent chunks is specified
+With one event on the lane, the first chunk acts when the event is
+placed, the last chunk acts at the time called duration, and every
+other chunks act in between. The time between subsequent chunks are
+identical. With 4 chunks, a duration of 3 and an event at beat 0,
+the 1st chunk acts at beat 0, the 2nd chunk at beat 1, and so on
+until the 4th and the final chunk acts at beat 3.
+
+![Wave duration with one event](~@images/mapping/v3/wave_duration.svg)
+
+When there are multiple events, the duration is when the last chunk
+acts according to the last event of the sequence. The first chunk still
+acts when each event is placed, as usual. All chunks act out the
+sequence identically, with an equal delay. With 4 chunks, a duration of
+6 and events at beats 0, 1 and 3, the first chunk acts at beats 0, 1 and
+3, the second chunk at 1, 2 and 4, the third at 2, 3 and 5 and the last
+at 3, 4 and the duration of 6.
+
+![Wave duration with multiple events](~@images/mapping/v3/wave_duration_multi.svg)
+
+With step duration, the time between subsequent chunks is specified
 instead as the duration. When an on event is placed on beat 0 and the
 duration is set to 1, the 1st chunk will light up on beat 0, the 2nd
 will on beat 1, the 3rd on beat 2, and so on until the last chunk lights
@@ -133,7 +157,7 @@ is not desired, &ldquo;Affect First&rdquo; can be checked to make
 distribution apply to the first event.
 
 Curiously, the rotation axis a lane affects for rotation events is in
-the same section of distribution.
+the same section as distribution in the official editor.
 
 ## Techniques
 

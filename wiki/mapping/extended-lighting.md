@@ -5,12 +5,14 @@ next: false
 description: Go beyond vanilla lighting.
 ---
 
-## Custom Environments
+# Extended Lighting
 _If you are fed up with vanilla lighting, this is the right place._
 
 ::: warning
 This is a stub page, content is a work in progress! Ask in `#mapping-discussion` if you want more info!
 :::
+
+## Custom Environments
 
 ### Environment Logs
 How to generate logs to get all the data in an environment:
