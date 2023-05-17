@@ -125,16 +125,16 @@ See [General Keybinds: Basic](#basic) for changing edit precision and
 [Element Selection](#element-selection) on how to select items.
 
 ### v2 and v3 Lights
-|                    | Chromapper |    Official Editor    |
-|--------------------|:----------:|:---------------------:|
-| Open Lighting Menu |        Tab |                    F3 |
-|           Static 0 |        Z+W |                     Q |
-|          Static 50 |        X+W |                     W |
-|         Static 100 |          W |                     E |
-|             Fade 0 |        Z+C |                     A |
-|            Fade 50 |        X+C |                     S |
-|           Fade 100 |          C |                     D |
-|  Change Brightness | Alt+Scroll |  Numpad or Alt+Scroll |
+|                    |  Chromapper  |    Official Editor    |
+|--------------------|:------------:|:---------------------:|
+| Open Lighting Menu |          Tab |                    F3 |
+|           Static 0 |  W ⇒ Z+Click |                     Q |
+|          Static 50 |  W ⇒ X+Click |                     W |
+|         Static 100 |            W |                     E |
+|             Fade 0 |  C ⇒ Z+Click |                     A |
+|            Fade 50 |  C ⇒ X+Click |                     S |
+|           Fade 100 |            C |                     D |
+|  Change Brightness |   Alt+Scroll |  Numpad or Alt+Scroll |
 
 ### GLS Top-level
 |                    |   Official Editor   |
