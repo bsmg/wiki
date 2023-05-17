@@ -32,7 +32,7 @@ well as buttons for adding and deleting lanes.
 There are four subsections in the menu: Duration, Filter & Order, Limit
 and Brightness/Rotation Distribution.
 
-### Chunking
+### Chunk and Order
 The segments are first grouped into chunks, each chunk consisting of
 a set of adjacently-numbered segments. You are able to specify the
 total number of chunks, and the game will group the segments in a
@@ -49,13 +49,21 @@ Setting to 0 is the same as setting the number of chunks to be equal to
 the total number of segments, that is, each segment resides in its own
 chunk.
 
-All other operations work on the level of chunks.
+Segments, and chunks by extension, are ordered in some manner. This can
+be from front to back, top to bottom, or something else. Regardless of
+how chunks are normally ordered, there are two modes of ordering, normal
+order and reversed order, where reverse order is the reverse of normal
+order.
 
-### Filter and Order
-Filter & Order is the main mechanism for choosing which segments a
-lane affects. After the segments are grouped into chunks, ordering
-and filtering is applied to select which chunks are affected by the
-lane.
+![Normal and reversed order](~@images/mapping/v3/reverse.svg)
+
+All other operations work on the level of chunks and respect the mode
+of ordering.
+
+### Filtering
+Filtering is the main mechanism for choosing which segments a lane
+affects. After the segments are grouped into chunks, filtering is
+applied to select which chunks are affected by the lane.
 
 There are two modes of
 filtering: sections and step/offset. In section mode, the chunks are
@@ -79,14 +87,6 @@ selected, while the offset 3 selects chunks 3, 5, 7, 9 and on, not
 affecting the first chunk.
 
 ![Lights selected by step-offset filter](~@images/mapping/v3/filter_stepoffset.svg)
-
-Segments and chunks are normally ordered from front to back or from
-left to right. Checking the checkbox Reverse would reverse the ordering
-of chunks. If the backmost chunk is the last one in the normal order,
-it would become the first chunk when Reverse is checked. Reverse affects
-both filtering, duration and distribution.
-
-![Effect of reverse](~@images/mapping/v3/reverse.svg)
 
 ### Limiting
 When the normal filtering selects too many chunks at one, limiting can
