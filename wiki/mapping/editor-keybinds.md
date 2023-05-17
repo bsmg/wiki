@@ -118,35 +118,23 @@ which this wiki page is based off of, is also available but is slightly out of d
 |                Off |          S |               S |                        D |                       2 |
 |               Edit |            |                 |                          |                       A |
 
-Official Editor would enter v1 mode only when opening maps containing v1 events.
+Official Editor can create v1 events only when editing maps containing v1
+events.
 
 See [General Keybinds: Basic](#basic) for changing edit precision and
 [Element Selection](#element-selection) on how to select items.
 
 ### v2 and v3 Lights
-|                    | Official Editor |
-|--------------------|:---------------:|
-| Open Lighting Menu |              F3 |
-|           Static 0 |               Q |
-|          Static 50 |               W |
-|         Static 100 |               E |
-|             Fade 0 |               A |
-|            Fade 50 |               S |
-|           Fade 100 |               D |
-|       Brightness 0 |        Numpad 0 |
-|      Brightness 10 |        Numpad 1 |
-|      Brightness 20 |        Numpad 2 |
-|      Brightness 30 |        Numpad 3 |
-|      Brightness 40 |        Numpad 4 |
-|      Brightness 50 |        Numpad 5 |
-|      Brightness 60 |        Numpad 6 |
-|      Brightness 70 |        Numpad 7 |
-|      Brightness 80 |        Numpad 8 |
-|      Brightness 90 |        Numpad 9 |
-|     Brightness 100 |        Numpad / |
-|     Brightness 120 |        Numpad * |
-|     Brightness 150 |        Numpad - |
-|  Change Brightness |      Alt+Scroll |
+|                    | Chromapper |    Official Editor    |
+|--------------------|:----------:|:---------------------:|
+| Open Lighting Menu |        Tab |                    F3 |
+|           Static 0 |        Z+W |                     Q |
+|          Static 50 |        X+W |                     W |
+|         Static 100 |          W |                     E |
+|             Fade 0 |        Z+C |                     A |
+|            Fade 50 |        X+C |                     S |
+|           Fade 100 |          C |                     D |
+|  Change Brightness | Alt+Scroll |  Numpad or Alt+Scroll |
 
 ### GLS Top-level
 |                    |   Official Editor   |
