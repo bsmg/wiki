@@ -371,29 +371,15 @@ ChroMapper, now in open Beta, natively supports 360°/90° mapping. See detailed
 * **Pro:** Natively supports 360°/90° mapping
 * **Pro:** Better visualisation of 360°/90° mapping.
 
-#### Official Level Editor
-The official editor is accessible to all PCVR users to natively map 360°/90° levels with the least amount
-of touching individual map files.
-
-![Official editor events panel](~@images/mapping/official_events.png)  
-*The official editor events panel.*  
-
-The two far right icons in the **EVENTS** section are the early and late spawn rotation events.
-There’s also rotation angle indication for each spawn rotation event.
-
-* **Pro:** Adding rotation events is very straightforward
-* **Con:** You have to map in 2D
-
 #### Mediocre Map Assistant 2
-This is the most preferred and easily accessible method of making 360/90 levels. Be sure to create a new characteristic,
-"360Degree" or "90Degree". If it’s not available, you may need to create one by replacing existing characteristic or
-creating a new one.
+Be sure to create a new characteristic, "360Degree" or "90Degree". If it’s not available, you may need to create one
+by replacing existing characteristic or creating a new one.
 
 **Option 1:** Complete the map in the MediocreMapper then apply rotation events in the Official Level Editor.
 
-* **Pro:** Easy and effective method.
-* **Con:** Can cause offset and BPM change rounding errors and any non-standard custom data will get deleted and need to
-  be edited in afterward.
+* **Pro:** Relatively easy and effective.
+* **Con:** Requires downgrading the game. Can cause offset and BPM change rounding errors and any non-standard custom
+  data will get deleted and need to be edited in afterward.
 
 **Option 2:** Using laser speed event as spawn rotation event (ADVANCED METHOD)
 
