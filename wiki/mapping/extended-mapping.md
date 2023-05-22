@@ -375,7 +375,7 @@ ChroMapper, now in open Beta, natively supports 360°/90° mapping. See detailed
 Be sure to create a new characteristic, "360Degree" or "90Degree". If it’s not available, you may need to create one
 by replacing existing characteristic or creating a new one.
 
-**Option 1:** Complete the map in the MediocreMapper then apply rotation events in the Official Level Editor.
+**Option 1:** Complete the map in the MediocreMapper then apply rotation events in the legacy official editor.
 
 * **Pro:** Relatively easy and effective.
 * **Con:** Requires downgrading the game. Can cause offset and BPM change rounding errors and any non-standard custom
