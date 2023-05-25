@@ -11,7 +11,7 @@ _You've dived into lighting and now you want to take it to the next level._
 This is a stub page, content is a work in progress! Ask in `#mapping-discussion` if you want more info!
 :::
 
-## Advanced Pre-GLS Lighting Techniques
+## Advanced Static Event System Techniques
 
 ### Double Duty Lasers
 You can overlap two laser "tracks" by using multiple colors in different patterns for an appearance of double the number
