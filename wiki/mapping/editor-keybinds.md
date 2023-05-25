@@ -15,110 +15,190 @@ There are usually multiple ways to accomplish the same action, however, keyboard
 
 If this format doesn't work for you, this
 [Google Sheet](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing),
-which this wiki page is based off of, is also available but is slightly out of date.
+which this wiki page is based off of, is also available but is out of date.
 
 ## General Keybinds
 
 ### Basic
-|                       |  Mediocre Map Assistant 2 |     Beatmapper     |         ChroMapper        |
-|-----------------------|:-------------------------:|:-------------------:|:-------------------------:|
-|           Move camera | Right Click+W/A/S/D/Mouse | Shift+W/A/S/D/Mouse | Right Click+W/A/S/D/Mouse |
-|    Set note direction |         W/A/S/D/F         |      W/A/S/D/F      |         W/A/S/D/F         |
-| Change edit precision |        Ctrl+Scroll        |     Ctrl+Scroll     |        Ctrl+Scroll        |
-|              Red note |             1            |          1   or R       |             1             |
-|             Blue note |             2             |          2   or B       |             2             |
-|                  Bomb |             3             |          3          |             3             |
-|                  Wall |             4             |          4          |             4             |
-|              Save map |           Ctrl+S          |   N/A (Autosaves)   |           Ctrl+S          |
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD013 -->
+
+|                       |         ChroMapper        |      Official Editor      |  Mediocre Map Assistant 2 |     Beatmapper      |
+|-----------------------|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------:|
+|           Move camera | Right Click+W/A/S/D/Mouse | Right Click+W/A/S/D/Mouse | Right Click+W/A/S/D/Mouse | Shift+W/A/S/D/Mouse |
+|    Set note direction |                 W/A/S/D/F |                 W/A/S/D/F |                 W/A/S/D/F |           W/A/S/D/F |
+| Change edit precision |               Ctrl+Scroll |               Ctrl+Scroll |               Ctrl+Scroll |         Ctrl+Scroll |
+|              Red note |                         1 |                         1 |                         1 |              1 or R |
+|             Blue note |                         2 |                         2 |                         2 |              2 or B |
+|                  Bomb |                         3 |                         3 |                         3 |                   3 |
+|                  Wall |                         4 |                         4 |                         4 |                   4 |
+|                   Arc |                           |                     Q/E/R |                           |                     |
+|                 Chain |                           |                      Drag |                           |                     |
+|              Save map |                    Ctrl+S |                    Ctrl+S |                    Ctrl+S |     N/A (Autosaves) |
+
+<!-- markdownlint-restore -->
 
 ### Element Selection
-|                   | Mediocre Map Assistant 2 |    Beatmapper   |                ChroMapper               |
-|-------------------|:------------------------:|:----------------:|:---------------------------------------:|
-|       Select item |             Shift+LClick |     LClick |                            Shift+LClick |
-| Select many items |     Ctrl+LClick ⇒ Scroll | Q ⇒ Fill in info | Ctrl/Alt+LClick or Ctrl+LClick ⇒ Scroll |
-|          Deselect |         Ctrl+A or Ctrl+D |           LClick |                                  Ctrl+A |
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD013 -->
+
+|                   |                ChroMapper               | Official Editor | Mediocre Map Assistant 2 |    Beatmapper    |
+|-------------------|:---------------------------------------:|:---------------:|:------------------------:|:----------------:|
+|       Select item |                            Shift+LClick |    Shift+LClick |             Shift+LClick |           LClick |
+| Select many items | Ctrl/Alt+LClick or Ctrl+LClick ⇒ Scroll |  Shift ⇒ Scroll |     Ctrl+LClick ⇒ Scroll | Q ⇒ Fill in info |
+|          Deselect |                                  Ctrl+A |          Ctrl+A |         Ctrl+A or Ctrl+D |           LClick |
+
+<!-- markdownlint-restore -->
 
 ### Edit Notes
-|                      |         Mediocre Map Assistant 2         |  Beatmapper |        ChroMapper       |
-|----------------------|:----------------------------------------:|:------------:|:-----------------------:|
-|                  Cut |                                   Ctrl+X |       Ctrl+X |                  Ctrl+X |
-|                 Copy |                                   Ctrl+C |       Ctrl+C |                  Ctrl+C |
-|                Paste |                                   Ctrl+V |       Ctrl+V |                  Ctrl+V |
-|                 Undo |                                   Ctrl+Z |       Ctrl+Z |                  Ctrl+Z |
-|                 Redo |                             Ctrl+Shift+Z | Ctrl+Shift+Z |  Ctrl+Shift+Z or Ctrl+Y |
-|         Quick Delete |                       Shift+Middle Mouse |  Right Click |      Shift+Middle Mouse |
-|            Move Note | Alt+Drag or Select ⇒ Shift+Up/Down Arrow |              | Ctrl+Arrows or Alt+Drag |
-|         Note Actions |                                          |   Alt+LClick |                         |
-|     Change Direction |                    Alt+W/A/S/D over Note |              | Alt+Scroll Wheel over Note |
-|           Swap Color |                             Middle Mouse | Middle Mouse |            Middle Mouse |
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD013 -->
+
+|                      |         ChroMapper         |       Official Editor       |         Mediocre Map Assistant 2         |  Beatmapper  |
+|----------------------|:--------------------------:|:---------------------------:|:----------------------------------------:|:------------:|
+|                  Cut |                     Ctrl+X |                      Ctrl+X |                                   Ctrl+X |       Ctrl+X |
+|                 Copy |                     Ctrl+C |                      Ctrl+C |                                   Ctrl+C |       Ctrl+C |
+|                Paste |                     Ctrl+V |                      Ctrl+V |                                   Ctrl+V |       Ctrl+V |
+|                 Undo |                     Ctrl+Z |                      Ctrl+Z |                                   Ctrl+Z |       Ctrl+Z |
+|                 Redo |     Ctrl+Shift+Z or Ctrl+Y |                      Ctrl+Y |                             Ctrl+Shift+Z | Ctrl+Shift+Z |
+|         Quick Delete |         Shift+Middle Mouse |           Ctrl+Middle Mouse |                       Shift+Middle Mouse |  Right Click |
+|            Move Note |    Ctrl+Arrows or Alt+Drag | Alt+Drag or Select ⇒ Arrows | Alt+Drag or Select ⇒ Shift+Up/Down Arrow |              |
+|         Note Actions |                            |                             |                                          |   Alt+LClick |
+|     Change Direction | Alt+Scroll Wheel over Note |                 Alt+W/A/S/D |                    Alt+W/A/S/D over Note |              |
+|           Swap Color |               Middle Mouse |                             |                             Middle Mouse | Middle Mouse |
+
+<!-- markdownlint-restore -->
 
 ### Travel
-|               | Mediocre Map Assistant 2 | Beatmapper |      ChroMapper      |
-|---------------|:------------------------:|:-----------:|:--------------------:|
-|  Jump to beat |                          |           J |                      |
-|      Bookmark |                        B |             |                    B |
-| Jump to Bookmark | Previous: `[` Next: `]` |             | Click on UI Bookmark |
-|  Jump to Item |          Alt+Shift+Click |             |                      |
+|                  |      ChroMapper      | Mediocre Map Assistant 2 | Beatmapper |
+|------------------|:--------------------:|:------------------------:|:----------:|
+|     Jump to beat |                      |                          |          J |
+|         Bookmark |                    B |                        B |            |
+| Jump to Bookmark | Click on UI Bookmark |  Previous: `[` Next: `]` |            |
+|     Jump to Item |                      |          Alt+Shift+Click |            |
 
 ### Useful Tricks
-|                        | Mediocre Map Assistant 2 | Beatmapper | ChroMapper |
-|------------------------|:------------------------:|:-----------:|:----------:|
-|    Custom event window |                          |             |     Ctrl+T |
-| Swap precision palette |                        X |             |            |
-|     Open error checker | Shift+Tab                |             |            |
-|           Reset camera |                Backspace |   Backspace |            |
+|                        | ChroMapper | Mediocre Map Assistant 2 | Beatmapper |
+|------------------------|:----------:|:------------------------:|:----------:|
+|    Custom event window |     Ctrl+T |                          |            |
+| Swap precision palette |            |                        X |            |
+|     Open error checker |            | Shift+Tab                |            |
+|           Reset camera |            |                Backspace |  Backspace |
 
 ### Mapping Extensions
-|                   | Mediocre Map Assistant 2 | Beatmapper |       ChroMapper       |
-|-------------------|:------------------------:|:-----------:|:----------------------:|
-| Swap to fake wall |         Ctrl+F over wall |             | Middle Click over Wall |
-|       Rotate note |     Alt+Scroll over note |             |   Alt+Scroll over note |
+|                   |       ChroMapper       | Mediocre Map Assistant 2 | Beatmapper |
+|-------------------|:----------------------:|:------------------------:|:----------:|
+| Swap to fake wall | Middle Click over Wall |         Ctrl+F over wall |            |
+|       Rotate note |   Alt+Scroll over note |     Alt+Scroll over note |            |
 
 ### Advanced
-|                | Mediocre Map Assistant 2 | Beatmapper | ChroMapper |
-|----------------|:------------------------:|:-----------:|:----------:|
-|  In-place edit |         Alt+ Right mouse |             |            |
-| Edit BPM block | Alt+Click over BPM block |             |            |
+|                | ChroMapper | Mediocre Map Assistant 2 | Beatmapper |
+|----------------|:----------:|:------------------------:|:----------:|
+|  In-place edit |            |         Alt+ Right mouse |            |
+| Edit BPM block |            | Alt+Click over BPM block |            |
 
 ## Lighting Keybinds
 
-### Basic
-|                       | Mediocre Map Assistant 2 |       Beatmapper       |      ChroMapper     |
-|-----------------------|:------------------------:|:-----------------------:|:-------------------:|
-| Open Lighting Menu    |                      Tab | "Events" Sidebar Button |                 Tab |
-|                    On |                        W |                       1 |                   W |
-|                 Flash |                        A |                       3 |                   A |
-|                  Fade |                        S |                       4 |                   D |
-|                   Off |                        D |                       2 |                   S |
-|                  Edit |                          |                       A |                     |
+### Color
+
+|                 | ChroMapper | Official Editor | Mediocre Map Assistant 2 | Beatmapper |
+|-----------------|:----------:|:---------------:|:------------------------:|:----------:|
+|   Color 1 (Red) |          1 |               1 |                        1 |          R |
+|  Color 2 (Blue) |          2 |               2 |                        2 |          B |
+| Color 3 (White) |            |               3 |                          |            |
+
+### v1 Lights
+
+|                    | ChroMapper | Official Editor | Mediocre Map Assistant 2 |        Beatmapper       |
+|--------------------|:----------:|:---------------:|:------------------------:|:-----------------------:|
+| Open Lighting Menu |        Tab |              F3 |                      Tab | "Events" Sidebar Button |
+|                 On |          W |               W |                        W |                       1 |
+|              Flash |          A |               D |                        A |                       3 |
+|               Fade |          D |               A |                        S |                       4 |
+|                Off |          S |               S |                        D |                       2 |
+|               Edit |            |                 |                          |                       A |
+
+Official Editor can create v1 events only when editing maps containing v1
+events.
 
 See [General Keybinds: Basic](#basic) for changing edit precision and
 [Element Selection](#element-selection) on how to select items.
 
+### v2 and v3 Lights
+|                    |  Chromapper  |    Official Editor    |
+|--------------------|:------------:|:---------------------:|
+| Open Lighting Menu |          Tab |                    F3 |
+|           Static 0 |  W ⇒ Z+Click |                     Q |
+|          Static 50 |  W ⇒ X+Click |                     W |
+|         Static 100 |            W |                     E |
+|             Fade 0 |  C ⇒ Z+Click |                     A |
+|            Fade 50 |  C ⇒ X+Click |                     S |
+|           Fade 100 |            C |                     D |
+|  Change Brightness |   Alt+Scroll |  Numpad or Alt+Scroll |
+
+### Group Lighting System Top-level
+|                    |   Official Editor   |
+|--------------------|:-------------------:|
+| Open Lighting Menu |                  F2 |
+|       Create Group |  LClick empty space |
+|        Enter Group |        LClick group |
+|         Exit Group |                 Esc |
+|       Delete Group |   Ctrl+Middle Mouse |
+
+### Group Lighting System Lights
+|                 | Official Editor |
+|-----------------|:---------------:|
+| Extension Event |               4 |
+|      Strobe Off |               R |
+|          Strobe |               F |
+
+### Group Lighting System Rotation
+|                  |       Official Editor        |
+|------------------|:----------------------------:|
+| Counterclockwise |                            1 |
+|        Clockwise |                            3 |
+|    Auto Rotation |                            2 |
+|  Extension Event |                            4 |
+|           0&deg; |                            W |
+|          45&deg; |                            E |
+|          90&deg; |                            D |
+|         135&deg; |                            C |
+|         180&deg; |                            X |
+|         225&deg; |                            Z |
+|         270&deg; |                            A |
+|         315&deg; |                            Q |
+|          No Loop |                            R |
+|             Loop |                            T |
+|      In Out Quad |                            F |
+|          In Quad | V (toggles between Out Quad) |
+|         Out Quad |  V (toggles between In Quad) |
+|           Linear |                            B |
+| Instant Rotation |                            G |
+
 ### Travel
-|              | Mediocre Map Assistant 2 | Beatmapper | ChroMapper |
-|--------------|:------------------------:|:-----------:|:----------:|
-| Jump to beat |                          |           J |            |
+|              | ChroMapper | Mediocre Map Assistant 2 | Beatmapper |
+|--------------|:----------:|:------------------------:|:----------:|
+| Jump to beat |            |                          |          J |
 
 ### Advanced Lighting
-|                      |   Mediocre Map Assistant 2  | Beatmapper |          ChroMapper         |
-|----------------------|:---------------------------:|:-----------:|:---------------------------:|
-|               Strobe |                     W/A/D+S |             | See [Strobe Generator](#strobe-generator) |
-|                 Loop |                             |           L |                             |
-|   Change laser speed | Alt+Scroll over Laser Speed |             | Alt+Scroll over Laser Speed |
-|  Color strobe toggle |                          F2 |             | See [Strobe Generator](#strobe-generator) |
-| No-off strobe toggle |                          F3 |             | See [Strobe Generator](#strobe-generator) |
+|                      |                 ChroMapper                |   Mediocre Map Assistant 2  | Beatmapper |
+|----------------------|:-----------------------------------------:|:---------------------------:|:----------:|
+|               Strobe | See [Strobe Generator](#strobe-generator) |                     W/A/D+S |            |
+|                 Loop |                                           |                             |          L |
+|   Change laser speed |               Alt+Scroll over Laser Speed | Alt+Scroll over Laser Speed |            |
+|  Color strobe toggle | See [Strobe Generator](#strobe-generator) |                          F2 |            |
+| No-off strobe toggle | See [Strobe Generator](#strobe-generator) |                          F3 |            |
 
 ### Chroma
-|                 | Mediocre Map Assistant 2 | Beatmapper |        ChroMapper        |
-|-----------------|:------------------------:|:-----------:|:------------------------:|
-|    Magenta note |                        Q |             |                          |
-|      Green note |                        E |             |                          |
-|       Gray note |                        R |             |                          |
-| Open RGB colors |                  Shift+C |             |                          |
-|      Save color |      Right Click palette |             | Left Click "+" Button    |
-|       Use color |       Left Click palette |             |       Left Click Palette |
-|    Remove color |                          |             | Shift+Left Click Palette |
+|                 |        ChroMapper        | Mediocre Map Assistant 2 | Beatmapper |
+|-----------------|:------------------------:|:------------------------:|:----------:|
+|    Magenta note |                          |                        Q |            |
+|      Green note |                          |                        E |            |
+|       Gray note |                          |                        R |            |
+| Open RGB colors |                          |                  Shift+C |            |
+|      Save color | Left Click "+" Button    |      Right Click palette |            |
+|       Use color |       Left Click Palette |       Left Click palette |            |
+|    Remove color | Shift+Left Click Palette |                          |            |
 
 ## Advanced
 

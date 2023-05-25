@@ -114,6 +114,10 @@ A lighting mentor and member of Funrankable, they authored a lot of content to t
 Wrote various guides on lighting that was integrated into [Basic Lighting](./basic-lighting.md).  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ffaa) | [BeastSaber](https://bsaber.com/members/mandynasty/)
 
+## McEndu
+Contributed sections on v3 lighting in [Basic Lighting](./basic-lighting.md) and
+[Intermediate Lighting](./intermediate-lighting.md)
+
 ## Megalon
 Co-creator of the BSMG as well as Channel Monitor Bot. He's known for his creative stream overlays and amazing ASMR voice.
 Created a video tutorial on using the [Official Editor](./#official-editor) and manages the wiki repository.  
