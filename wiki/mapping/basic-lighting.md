@@ -22,49 +22,42 @@ You don't need to be an AaltopahWi or a Skeelie to make great lighting!
 ## Lightable Objects
 The following types of lanes exist in the Static Event System:
 
-* **Lights:** Controls the light intensity of lights, lasers, etc.
-  Events on these lanes have a color and a type associated. These
-  events light up the environment, and other events would create
-  minimal impact without lights.
-* **Value:** Events on these lanes hold an integer value from 0 to 9.
-  The classical example of this is Laser Speed, though this lane type
-  can be used for other things, for example the pillars in Lady Gaga
-  environment.
-* **Trigger:** An event on this lane triggers a change in an object.
-  Examples include Ring Spin and Ring Zoom.
-* **Boost:** Changes lighting colors between two pairs of colors. Off
-  uses the first pair of colors. On uses the second (boost) pair of
-  colors. There is no fade option for this effect.
+<!-- markdownlint-disable MD013 -->
+| Object  | Description |
+|---------|----------|
+| Lights | Controls the light intensity of lights, lasers, etc. Events on these lanes have a color and a type associated. These events light up the environment, and other events would create minimal impact without lights. |
+| Value | Events on these lanes hold an integer value from 0 to 9. The classical example of this is Laser Speed, though this lane type can be used for other things, for example the pillars in Lady Gaga environment. |
+| Trigger | An event on this lane triggers a change in an object. Examples include Ring Spin and Ring Zoom. |
+| Boost | Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors. There is no fade option for this effect. |
+<!-- markdownlint-enable MD013 -->
 
 Objects in the Group Lighting System may have the following properties
 controllable:
 
-* **Lights:** Controls the intensity of lights, lasers, etc., similar
-  to how it works in the Static Event System.
-* **Rotation:** Unlike lanes that trigger rotation in environments
-  before Weave, more granular control of rotation is offered by the
-  Group Lighting System.
-* **Translation:** Debuting in The Weeknd environment, controls the
-  position of an object.
+<!-- markdownlint-disable MD013 -->
+| Object | Description |
+|------|------|
+| Lights | Controls the intensity of lights, lasers, etc., like in the Static Event System. |
+| Rotation | Unlike the randomized trigger in environments before Weave, the Group Lighting System allows for more granular control of rotation. |
+| Translation | Debuting in The Weeknd environment, controls the position of an object in the environment. |
+<!-- markdownlint-enable MD013 -->
 
 In environments before Weave, the set of objects controllable are generally
 consistent, though may be in different positions or may be missing altogether.
 The controllable objects are as follows:
 
-* **Center Lights:** Generally lights along the side of the track, underneath the track, and sometimes a chevron at the
-  back of the track. Sometimes called "Bottom/Back/Side" or "BBS" lights.
-* **Side/Top Lasers:** Sets of rotating lasers to the sides of the track or above/below the track, depending on which
-  environment you’ve selected. Rotation is set using the Laser Speed function.
-* **Back Lasers:** Static lasers, often in an "X" pattern at the back of the track, behind the chevron.
-* **Ring Lights:** Lights attached to the inside of the large outer rings that spin in almost all environments.
-* **Ring Spins:** Used to create movement in the rings. In environments with both an inner and an outer ring,
-  rings spins rotate both rings together.
-* **Ring Zooms:** Used to zoom and unzoom the inner ring in environments that have it. Does not affect the outer ring.
-* **Laser Speed:** Changes the speed of the side laser rotation from stationary (0) to very fast (20).
-  Set independently for the right and left side lasers. Back top lasers do not move. Laser speed increases linearly so
-  **2** is twice as fast as **1** and **5** is five times as fast as **1**.
-* **Boost Event:** Changes lighting colors between two pairs of colors. Off uses the first pair of colors.
-  On uses the second (boost) pair of colors. There is no fade or flash option for this event.
+<!-- markdownlint-disable MD013 -->
+| Object  | Description |
+|-----|------|
+| Center Lights | Generally lights along the side of the track, underneath the track, and sometimes a chevron at the back of the track. Sometimes called "Bottom/Back/Side" or "BBS" lights. |
+| Side/Top Lasers | Sets of rotating lasers to the sides of the track or above/below the track, depending on which environment you’ve selected. Rotation is set using the Laser Speed function. |
+| Back Lasers | Static lasers, often in an "X" pattern at the back of the track, behind the chevron. |
+| Ring Lights | Lights attached to the inside of the large outer rings that spin in almost all environments. |
+| Ring Spins | Used to create movement in the rings. In environments with both an inner and an outer ring, rings spins rotate both rings together. |
+| Ring Zooms | Used to zoom and unzoom the inner ring in environments that have it. Does not affect the outer ring. |
+| Laser Speed | Changes the speed of the side laser rotation from stationary (0) to very fast (20). <br>Set independently for the right and left side lasers. Back top lasers do not move. Laser speed increases linearly so **2** is twice as fast as **1** and **5** is five times as fast as **1**. |
+| Boost Event | Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors. There is no fade or flash option for this event. |
+<!-- markdownlint-enable MD013 -->
 
 In environments that use the v3 Group Lighting System (Weave and later),
 the set of objects controllable are unique to each environment.
@@ -80,14 +73,12 @@ There are two major revisions of the Static Event System.
 Lighting v1 is the version of lighting that has general support from
 community editors. It supports the following light events:
 
-* **On:** Turns a light on that will stay on until you place a different
-  event type.
-* **Off:** Turns a light off that will stay off until you place a different
-  event type.
-* **Flash:** Briefly flashes brighter than a standard "on" event then stays
-  on until you place a different event type.
-* **Fade:** Briefly flashes brighter than a standard "on" event then fades
-  off after a couple of seconds.
+| Event | Description |
+|-----|-----|
+| On | Turns a light on that will stay on until you place a different event type. |
+| Off | Turns a light off that will stay off until you place a different event type. |
+| Flash | Briefly flashes brighter than a standard "on" event then stays on until you place a different event type. |
+| Fade | Briefly flashes brighter than a standard "on" event then fades to off after a couple of seconds. |
 
 A light event have one of three available colors associated. Prior to
 v3.1, only two colors are available. v3.1 introduced a third color;
@@ -99,11 +90,12 @@ currently under development. While v2 can be used with all classic
 environments, similar to v1, the four-event system has been replaced with
 only two types of events:
 
-* **Static:** Sets a light to a specified level. The light will stay at
-  the level, unless another event is placed.
-* **Fade:** Fades a light to a specified level. The fade starts at the
-  event immediately before, or the start of the song if there is none,
-  and ends on the fade event.
+<!-- markdownlint-disable MD013 -->
+| Event | Description |
+|-----|-----|
+| Static | Sets a light to a specified level. The light will stay at the level, until the next event. |
+| Fade | Fades a light to a specified level. The fade starts at the event immediately before, or at the start of the song if there is none, and ends on the fade event. |
+<!-- markdownlint-enable MD013 -->
 
 The level of a light ranges from 0 to 120. 0 means no light, 100 is the
 level of a v1 On event, and 120 is the maximum.
@@ -133,22 +125,14 @@ rotation event immediately before (the start of the song if none), and
 completes at the time of the event, similar to a fade event. A
 rotation event has the following parameters:
 
-* **Rotation Angle**;
-* **Loop Count**, specifying how many full turns should the object
-  undertake before reaching the final angle;
-* **Direction**, which is either clockwise, counterclockwise, or decided
-  automatically; and
-* **Easing**: If set to *None*, the object rotates instantly. Setting to
-  other values lets the object rotate from the angle of the last event
-  in different ways. *Linear* lets it rotate at a linear speed, *InQuad*
-  starts slow and ends fast, *OutQuad* starts fast and ends slow, and
-  *InOutQuad* both accelerates and decelerates.
-
-Finally, a new type of event is added, usable with both light and
-rotation events:
-
-* **Extension**: Keep the intensity of a light or the angle of a
-  rotation fixed until this event.
+<!-- markdownlint-disable MD013 -->
+| Parameter | Description |
+|--------|-----|
+| Rotation Angle | Specifies the angle the object will finish at |
+| Loop Count | Specifies the spin direction to be clockwise, counterclockwise, or decided automatically |
+| Easing | Specifies the rate of change over time. Visit [easings.net](https://easings.net/) for a visualization of the Quad options. <br>`None` - rotates instantly<br>`Linear` - rotates at a constant speed<br>`InQuad` - starts slow and ends fast<br>`OutQuad` - starts fast and ends slow<br>`InOutQuad` - both accelerates and decelerates |
+| Extension | Useable with light and rotation events it keeps the intensity of a light or the angle of a rotation fixed until this event. |
+<!-- markdownlint-enable MD013 -->
 
 ## Best Practices & Techniques
 > "The only bad lights are **NO** lights.... or lightmap."  
