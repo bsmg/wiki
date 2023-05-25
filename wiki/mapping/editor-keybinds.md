@@ -15,7 +15,7 @@ There are usually multiple ways to accomplish the same action, however, keyboard
 
 If this format doesn't work for you, this
 [Google Sheet](https://docs.google.com/spreadsheets/d/1iZLs80IH-KXeXE3NcNQA5kcc591XgAT-BUK6vZXcPAs/edit?usp=sharing),
-which this wiki page is based off of, is also available but is slightly out of date.
+which this wiki page is based off of, is also available but is out of date.
 
 ## General Keybinds
 
@@ -136,7 +136,7 @@ See [General Keybinds: Basic](#basic) for changing edit precision and
 |           Fade 100 |            C |                     D |
 |  Change Brightness |   Alt+Scroll |  Numpad or Alt+Scroll |
 
-### GLS Top-level
+### Group Lighting System Top-level
 |                    |   Official Editor   |
 |--------------------|:-------------------:|
 | Open Lighting Menu |                  F2 |
@@ -145,14 +145,14 @@ See [General Keybinds: Basic](#basic) for changing edit precision and
 |         Exit Group |                 Esc |
 |       Delete Group |   Ctrl+Middle Mouse |
 
-### GLS Lights
+### Group Lighting System Lights
 |                 | Official Editor |
 |-----------------|:---------------:|
 | Extension Event |               4 |
 |      Strobe Off |               R |
 |          Strobe |               F |
 
-### GLS Rotation
+### Group Lighting System Rotation
 |                  |       Official Editor        |
 |------------------|:----------------------------:|
 | Counterclockwise |                            1 |
