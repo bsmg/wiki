@@ -838,14 +838,20 @@ what you set it.
 
 **Queen Environment**<br />
 **Info.dat Name:** `QueenEnvironment`<br />
-**Default Colors:** Gray & Purple notes, Gold & Cyan lights, Red & Purple boost lights
+**Default Colors:** Gray & Purple notes, Gold & Cyan lights, Red & Purple
+boost lights
 
 **Lights:** Ambient lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Silhouette<br />
-**GLS objects:** Tunnel lights (light, rotation & translation), silhouette (light & translation), back lasers (light & rotation), top lasers (light & rotation), runway lights (light & translation), vinyl discs (light, rotation & translation)<br />
+**GLS objects:** Tunnel lights (light, rotation & translation), silhouette
+(light & translation), back lasers (light & rotation), top lasers (light &
+rotation), runway lights (light & translation), vinyl discs (light, rotation
+& translation)<br />
 **Spectrum:** :x:<br />
-**Note:** Extra objects control rotation & translation of the back lasers as a whole, rotation of top lasers as a whole and rotation of individual vinyl rings.
+**Note:** Extra objects control rotation & translation of the back lasers as
+a whole, rotation of top lasers as a whole and rotation of individual vinyl
+rings.
 
 </td></tr>
 </tbody>
