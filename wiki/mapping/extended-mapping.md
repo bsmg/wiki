@@ -375,7 +375,7 @@ ChroMapper, now in open Beta, natively supports 360°/90° mapping. See detailed
 Be sure to create a new characteristic, "360Degree" or "90Degree". If it’s not available, you may need to create one
 by replacing existing characteristic or creating a new one.
 
-**Option 1:** Complete the map in the MediocreMapper then apply rotation events in the legacy official editor.
+**Option 1:** Complete the map in the MMA2 then apply rotation events in the legacy official editor.
 
 * **Pro:** Relatively easy and effective.
 * **Con:** Requires downgrading the game. Can cause offset and BPM change rounding errors and any non-standard custom
@@ -395,10 +395,6 @@ by replacing existing characteristic or creating a new one.
 This mimics laser speed events as spawn rotation events given the value (see above). It is recommended to use this method
 with an empty lighting event track to avoid mistakes. Lighting can be added once the laser speed events have been converted.
 
-[BeatMapper Tools](https://mappers.beatmappertools.com/) by **Darkuni** is an amazing utility for mapping 360°/90° mode
-in MMA2. You can easily make changes within the editor and test them in-game as it creates a copy of the map with 360°/90°
-mode converted leaving the original file untouched for the editor use.
-
 To manually replace the values, open the difficulty file in any text editor and replace `"_type":12` or `"_type":13` with
 `"_type":14` or `"_type":15`. This should be the last step you do otherwise you’ll have to revert the event swaps every
 time you have to make any changes in the editor. Always create backup in any case.
@@ -410,8 +406,8 @@ crashing the program or triggering weird behavior.
 
 #### JSON/DAT Editing
 If you’re feeling adventurous, rotation events can be manually edited into your `difficulty.dat` files. Just like with
-lighting events, this has to be sorted by time; otherwise the level will be broken. Use **+1 Rabbit’s**
-[Note Sorter](https://skystudioapps.com/mapping-tools#note-sorter) to fix your map before uploading.
+lighting events, this has to be sorted by time; otherwise the level will be broken.
+Use **+1 Rabbit’s** [Note Sorter](https://skystudioapps.com/mapping-tools#note-sorter) to fix your map before uploading.
 
 ```json
 {
