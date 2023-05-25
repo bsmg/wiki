@@ -31,7 +31,7 @@ The following types of lanes exist in the Static Event System:
 | Boost | Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors. There is no fade option for this effect. |
 <!-- markdownlint-enable MD013 -->
 
-Objects in the Group Lighting System may have the following properties
+Objects in the Group Lighting System (GLS) may have the following properties
 controllable:
 
 <!-- markdownlint-disable MD013 -->

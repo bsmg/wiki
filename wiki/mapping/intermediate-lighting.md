@@ -17,13 +17,11 @@ You've got your lighting feet wet in [Basic Lighting](./basic-lighting.md) and h
 all... great! Welcome! This page will help you expand on your "vanilla" lighting technique library but as Puds says, now
 it's time to start exploring and experimenting. Have fun with it!
 
-## Grasping the Group Lighting System
+## Understanding the Group Lighting System
 The ability to make each segment act differently is the most wonderful
-aspect of the Group Lighting System. This is realized by a combination
+aspect of the Group Lighting System (GLS). This is realized by a combination
 of using multiple lanes in one group, filtering & ordering, duration
 controlling and distribution controlling.
-
-![The group info menu](~@images/mapping/groupinfo.png)
 
 The group info menu is in the top-right corner of the official editor.
 To the left of the menu are tabs for settings of individual lanes, as
@@ -31,6 +29,8 @@ well as buttons for adding and deleting lanes.
 
 There are four subsections in the menu: Duration, Filter & Order, Limit
 and Brightness/Rotation Distribution.
+
+![The group info menu](~@images/mapping/groupinfo.png)
 
 ### Chunk and Order
 The segments are first grouped into chunks, each chunk consisting of
@@ -75,13 +75,14 @@ so on. The section controlled is given in the Id field.
 ![Lights selected by section filter](~@images/mapping/v3/filter_section.svg)
 
 In step and offset mode, one chunk would be affected by the lane for
-every step. The size of a step is settable. If step is set to 2, then
+every step. The size of a step is adjustable. If step is set to 2, then
 the 1st chunk would be controlled by the lane, the 2nd in turn would
 not, the 3rd would, the 4th would not, and so on. If it is 3 instead,
-the lane would control chunks 1, 3, 7, 10 and on. The selection do not
-need to start at the 1st chunk; the offset, titled &ldquo;Light
-&num;&rdquo;, is used to choose from which chunk do the filtering start,
-and all previous chunks would not be controlled by this lane. With a
+the lane would control chunks 1, 3, 7, 10 and on.
+
+The selection does not need to start at the 1st chunk; it can be offset with the `Light #`
+parameter to choose which chunk to start the filtering.
+All chunks before the light number will not be controlled by this lane. With a
 step of two, the offset 2 would cause chunks 2, 4, 6, 8 and on to be
 selected, while the offset 3 selects chunks 3, 5, 7, 9 and on, not
 affecting the first chunk.
@@ -89,13 +90,13 @@ affecting the first chunk.
 ![Lights selected by step-offset filter](~@images/mapping/v3/filter_stepoffset.svg)
 
 ### Limiting
-When the normal filtering selects too many chunks at one, limiting can
+When the normal filtering selects too many chunks at once, limiting can
 be used to further restrict the set of chunks affected. Inside this
-section is a numeric input. It ranges from 0 to 100, and indicates the
-percentage of chunks out of all chunks to be considered for filtering.
+section is a numeric input ranging from 0 to 100 representing the
+percentage of chunks out of all available chunks to be considered for filtering.
 It can also optionally affect duration and distribution, making the
-last chunk affected in order also considered the last chunk for duration
-and duration, respectively.
+last chunk affected also considered the last chunk for duration
+and duration respectively.
 
 ### Duration
 While filtering, ordering and limiting is enough for controlling
@@ -139,25 +140,28 @@ up.
 With distribution, you are able to make each chunk light up or rotate
 differently after an event completes. For lights, this section is known
 as brightness distribution; for rotation, this is instead rotation
-distribution.
+distribution. There are two modes, wave and step, the meaning being similar to that
+for duration.
 
-There are two modes, wave and step, the meaning being similar to that
-for duration. With wave distribution, the number specifies the final
+With wave distribution, the number specifies the final
 intensity or rotation of the last chunk in order compared to that of
 the event itself. With step distribution, the number instead stands
-for the difference between a chunk and the next. In wave mode, you can
+for the difference between a chunk and the next.
+
+In wave mode, you can
 control the distribution further with easing. The default is linear;
 the other easings are In Quadratic, Out Quadratic, and In-out Quadratic.
 Each easing distributes the brightness or rotation in a different way.
+Visualizations are available at [easings.net](https://easings.net/).
 
 Normally, the first event on the lane would not be affected by
 distribution; instead, the event sets all chunks' rotation or
 brightness to be the same. This is sometimes useful. When this
-is not desired, &ldquo;Affect First&rdquo; can be checked to make
+is not desired, the `Affect First` setting can be checked to make
 distribution apply to the first event.
 
-Curiously, the rotation axis a lane affects for rotation events is in
-the same section as distribution in the official editor.
+In the official editor, the rotation axis a lane affects for rotation events is in
+the same section as distribution.
 
 ## Techniques
 
