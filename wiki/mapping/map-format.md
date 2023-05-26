@@ -1460,30 +1460,28 @@ community to find map editors, tools, or mods that use this `_customData` object
 The time, in beats, where this object reaches the player.
 
 #### _type
-An integer number which represents what exact kind of event this object represents.
+An integer number which represents what exact kind of event this object
+represents.
 
-|`_type`|Result|
-|:-------------------:|-------------------|
-|`0`|Controls lights in the `Back Lasers` group.|
-|`1`|Controls lights in the `Ring Lights` group.|
-|`2`|Controls lights in the `Left Rotating Lasers` group.|
-|`3`|Controls lights in the `Right Rotating Lasers` group.|
-|`4`|Controls lights in the `Center Lights` group.|
-|`5`|(Previously unused) Controls boost light colors (secondary colors).|
-|`6`|(Previously unused) Controls extra left side lights in some environments.|
-|`7`|(Previously unused) Controls extra right side lights in some environments.|
-|`8`|Creates one ring spin in the environment.|
-|`9`|Controls zoom for applicable rings. Is not affected by [`_value`](#value).|
-|`10`|(Previously unused) (Previously Official BPM Changes.)<br/>Billie environment - Controls left side lasers|
-|`11`|(Previously unused) <br/>Billie environment - Controls right side lasers.|
-|`12`|Controls rotation speed for applicable lights in `Left Rotating Lasers`.|
-|`13`|Controls rotation speed for applicable lights in `Right Rotating Lasers`.|
-|`14`|(Previously unused) 360/90 Early rotation. Rotates future objects, while also rotating objects at the same time.|
-|`15`|(Previously unused) 360/90 Late rotation. Rotates future objects, but ignores rotating objects at the same time.|
-|`16`|Interscope environment - Lowers car hydraulics<br/>Gaga environment - Controls middle left tower height|
-|`17`|Interscope environment - Raises car hydraulics<br/>Gaga environment - Controls middle right tower height|
-|`18`|Gaga environment - Controls outer left tower height|
-|`19`|Gaga environment - Controls outer right tower height|
+The following are classical names for lanes numbers commonly used in
+pre-Group Lighting System (pre-GLS) environments.
+
+| `_type` | Name                          | Type                   |
+| :-----: | ----------------------------- | ---------------------- |
+|     `0` | Back Lasers                   | Light                  |
+|     `1` | Ring Lights                   | Light                  |
+|     `2` | Left Lasers                   | Light                  |
+|     `3` | Right Lasers                  | Light                  |
+|     `4` | Center Lights                 | Light                  |
+|     `5` | Boost Colors                  | Boost / Unused (V3)    |
+|     `8` | Ring Spin                     | Trigger / Value        |
+|     `9` | Ring Zoom                     | Trigger / Value        |
+|    `10` | V1 BPM Changes / Extra Lights | V1 BPM / Light         |
+|    `12` | Left Laser Speed              | Value                  |
+|    `13` | Right Laser Speed             | Value                  |
+|    `14` | 360°/90° Early rotation       | Rotation / Unused (V3) |
+|    `15` | 360°/90° Late rotation        | Rotation / Unused (V3) |
+|   `100` | V2 BPM Changes                | BPM / Unused (V3)      |
 
 :::danger
 Just because an event type is listed as unused, does *not* mean you are freely available to use it!
@@ -1497,72 +1495,36 @@ that used Custom Platforms that took advantage of the unused event types.
 Depending on the aforementioned [`_type`](#type-2) of the event, the `_value` of it can do different things.
 
 ##### Controlling Lights
-It's default behavior is controlling brightness and color of lights, and follows this table:
+It's most common behavior is controlling brightness and color of lights, and follows this table:
 
-|`_value`|Type|Result|
-|:------:|:---|------|
-|`0` | Off        | Turns the light group off.|
-|`1` | On         | Changes the lights to blue, and turns the lights on.|
-|`2` | Flash      | Changes the lights to blue, and flashes brightly before returning to normal.|
-|`3` | Fade       | Changes the lights to blue, and flashes brightly before fading to black.|
-|`4` | Transition | (Previously Unused.)<br/>Changes the lights to blue by fading from the current state.|
-|`5` | On         | Changes the lights to red, and turns the lights on.|
-|`6` | Flash      | Changes the lights to red, and flashes brightly before returning to normal.|
-|`7` | Fade       | Changes the lights to red, and flashes brightly before fading to black.|
-|`8` | Transition | Changes the lights to red by fading from the current state.|
-|`9` | On         | Changes the lights to white, and turns the lights on.|
-|`10`| Flash      | Changes the lights to white, and flashes brightly before returning to normal.|
-|`11`| Fade       | Changes the lights to white, and flashes brightly before fading to black.|
-|`12`| Transition | Changes the lights to white by fading from the current state.|
+| `_value` | Type       | Effect                                                                                |
+| :------: | :--------- | ------------------------------------------------------------------------------------- |
+|      `0` | Off        | Turns the light group off.                                                            |
+|      `1` | On         | Changes the lights to blue, and turns the lights on.                                  |
+|      `2` | Flash      | Changes the lights to blue, and flashes brightly before returning to normal.          |
+|      `3` | Fade       | Changes the lights to blue, and flashes brightly before fading to black.              |
+|      `4` | Transition | (Previously Unused.)<br/>Changes the lights to blue by fading from the current state. |
+|      `5` | On         | Changes the lights to red, and turns the lights on.                                   |
+|      `6` | Flash      | Changes the lights to red, and flashes brightly before returning to normal.           |
+|      `7` | Fade       | Changes the lights to red, and flashes brightly before fading to black.               |
+|      `8` | Transition | Changes the lights to red by fading from the current state.                           |
+|      `9` | On         | Changes the lights to white, and turns the lights on.                                 |
+|     `10` | Flash      | Changes the lights to white, and flashes brightly before returning to normal.         |
+|     `11` | Fade       | Changes the lights to white, and flashes brightly before fading to black.             |
+|     `12` | Transition | Changes the lights to white by fading from the current state.                         |
 
 `_value` 4 and 8 were introduced in Beat Saber version `1.18.0` (Billie Eilish patch). These transition events will only
  transition from off, on, or other transition events. They will do nothing if the previous event is a fade or flash event.
 
 `_value` 9, 10, 11, and 12 were introduced in Beat Saver version `1.22.0` (Electronic Mixtape patch).
 
-##### Controlling Boost Colors
-|`_value`|Result|
-|:-------------------:|-------------------|
-|`0`|Turns the event off - switches to first (default) pair of colors.|
-|`1`|Turns the event on - switches to second pair of colors.|
+##### Controlling Triggers
+Triggers, most notably Ring Spin and Ring Zoom, ignore `_value`.
 
-##### Controlling Rings
-When the event is used to control ring zoom, the `_value` of the event does nothing.
+Ring Spin usually causes an object to spin to a random position. Ring Zoom
+usually toggles an object between two states.
 
-When the event is used to control ring spin, the `_value` only affects cars in the Interscope environment and does
-nothing in other environments.
-
-##### Controlling Cars
-|`value`|Result|
-|:-------------------:|-------------------|
-|`0`|Affects all the cars. Does not affect hydraulics.|
-|`1`|Affects all the cars.|
-|`2`|Affects the left cars.|
-|`3`|Affects the right cars.|
-|`4`|Affects the front-most cars.|
-|`5`|Affects the front-middle cars.|
-|`6`|Affects the back-middle cars.|
-|`7`|Affects the back-most cars.|
-
-##### Official BPM Changes (before version 2.5.0)
-When the event is used to control the BPM, the `_value` represents the new BPM.
-
-The new BPM does not shift internal [`_time`](#time-2) values for future objects. Instead, it essentially recalculates
-internal game values (Such as Half Jump Duration and Jump Distance) to match the effect of playing the map at the new BPM.
-
-One caveat to this is that the `_value` must *always* be an integer, and does not support floating point numbers (No decimals).
-
-:::warning
-As of Beat Saber `1.10.0`, Official BPM Changes are broken, and produce unwanted effects when used in a level.
-
-If you absolutely want to work around this, you must create a new BPM Change event so that:
-
-1. This new event *must* have the same exact [`_time`](#time-2) as the BPM Change event you want to trigger correctly.
-2. This new event *must* have the same `_value` as the previous BPM Change,
-  or the [`_beatsPerMinute`](#beatsperminute) defined in [`Info.dat`](#info-dat).
-3. This new event *must* occur before the BPM Change you want to trigger correctly,
-  *even if they share the same [`_time`](#time-2) values.*
-:::
+Events 16 and 17 in Interscope, which control car hydraulics, are triggers.
 
 ##### Controlling Laser Rotation Speed
 When the event is used to control laser speed for a group of lights, the `_value`
@@ -1571,20 +1533,78 @@ is used as a multiplier to their base rotational velocity.
 If `_value` is `0`, the random rotation offset for each laser will also be reset,
 causing all rotating lasers to line up perfectly.
 
+##### Controlling Position
+When the event is used to control position of an object, the `_value`
+is used as a multiplier to their base position increment.
+
+Coil heights (Event 12, 13, 16, 17, 18 and 19) in Gaga and Ring Zoom
+(Event 9) in The Second are examples of position controls.
+
+##### Controlling Cars
+In Interscope environment, Event 8 (Ring Spin) controls cars. The effect of
+`_value` is as follows.
+
+| `value` | Effect                                            |
+| :-----: | ------------------------------------------------- |
+|     `0` | Affects all the cars. Does not affect hydraulics. |
+|     `1` | Affects all the cars.                             |
+|     `2` | Affects the left cars.                            |
+|     `3` | Affects the right cars.                           |
+|     `4` | Affects the front-most cars.                      |
+|     `5` | Affects the front-middle cars.                    |
+|     `6` | Affects the back-middle cars.                     |
+|     `7` | Affects the back-most cars.                       |
+
+##### Controlling Boost Colors
+| `_value` | Effect                                                            |
+| :------: | ----------------------------------------------------------------- |
+|      `0` | Turns the event off - switches to first (default) pair of colors. |
+|      `1` | Turns the event on - switches to second pair of colors.           |
+
 ##### Controlling 360/90 Rotation
 When the event is used to control rotation in a 360/90 degree level, the `_value`
 is used to add rotation equal to the following table:
 
-|`_value`|Result|
-|:-------------------:|-------------------|
-|`0`|60 Degrees Counterclockwise|
-|`1`|45 Degrees Counterclockwise|
-|`2`|30 Degrees Counterclockwise|
-|`3`|15 Degrees Counterclockwise|
-|`4`|15 Degrees Clockwise|
-|`5`|30 Degrees Clockwise|
-|`6`|45 Degrees Clockwise|
-|`7`|60 Degrees Clockwise|
+| `_value` | Effect                      |
+| :------: | --------------------------- |
+|      `0` | 60 Degrees Counterclockwise |
+|      `1` | 45 Degrees Counterclockwise |
+|      `2` | 30 Degrees Counterclockwise |
+|      `3` | 15 Degrees Counterclockwise |
+|      `4` | 15 Degrees Clockwise        |
+|      `5` | 30 Degrees Clockwise        |
+|      `6` | 45 Degrees Clockwise        |
+|      `7` | 60 Degrees Clockwise        |
+
+##### V1 Official BPM Changes
+When the event is used to control the BPM, the `_value` represents the new BPM.
+
+The new BPM does not shift internal [`_time`](#time-2) values for future objects. Instead, it essentially recalculates
+internal game values (Such as Half Jump Duration and Jump Distance) to match the effect of playing the map at the new BPM.
+
+One caveat to this is that the `_value` must *always* be an integer, and does not support floating point numbers (No decimals).
+
+:::danger NOTE
+This event cannot be used with V2 and V3 lighting; the ID for this event
+has since been repurposed for extra lights.
+
+[Event 100](#official-bpm-changes) for V2 and [BPM Events](#bpm-events)
+for V3 should be used instead.
+:::
+
+:::warning
+As of Beat Saber `1.10.0`, V1 Official BPM Changes are broken, and
+produce unwanted effects when used in a level.
+
+If you absolutely want to work around this, you must create a new V1 BPM Change event so that:
+
+1. This new event *must* have the same exact [`_time`](#time-2) as the
+  V1 BPM Change event you want to trigger correctly.
+2. This new event *must* have the same `_value` as the previous BPM Change,
+  or the [`_beatsPerMinute`](#beatsperminute) defined in [`Info.dat`](#info-dat).
+3. This new event *must* occur before the BPM Change you want to trigger correctly,
+  *even if they share the same [`_time`](#time-2) values.*
+:::
 
 #### _floatValue
 Depending on the aforementioned [`_type`](#type-2) of the event, the `_floatValue` of it can do different things.
@@ -1607,5 +1627,5 @@ community to find map editors, tools, or mods that use this `_customData` object
 
 ## Credits
 The content on this page was authored by [Caeden117](./mapping-credits.md#caeden117) and
-[Bullet](./mapping-credits.md#bullet) with help from [Kival Evan](./mapping-credits.md#kival-evan)
-and GalaxyMaster.
+[Bullet](./mapping-credits.md#bullet) with help from [Kival Evan](./mapping-credits.md#kival-evan),
+GalaxyMaster and [McEndu](./mapping-credits.md#mcendu).

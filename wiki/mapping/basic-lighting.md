@@ -960,6 +960,8 @@ how your map might look in game without the game. Just upload your map zip to th
 **IOS and Safari are currently not supported.**
 
 ## Credits
-Content in this section was authored by [LittleAsi](./mapping-credits.md#littleasi) and [Kolezan](./mapping-credits.md#kolezan)
-or derived from guides by [Puds](./mapping-credits.md#puds) and [MandyNasty](./mapping-credits.md#mandynasty). With visual
-media contributions from [Aeroluna](./mapping-credits.md#aeroluna) and [Bullet](./mapping-credits.md#bullet).
+Content in this section was authored by [LittleAsi](./mapping-credits.md#littleasi),
+[Kolezan](./mapping-credits.md#kolezan) and [McEndu](./mapping-credits.md#mcendu)
+or derived from guides by [Puds](./mapping-credits.md#puds) and
+[MandyNasty](./mapping-credits.md#mandynasty). With visual media contributions
+from [Aeroluna](./mapping-credits.md#aeroluna) and [Bullet](./mapping-credits.md#bullet).

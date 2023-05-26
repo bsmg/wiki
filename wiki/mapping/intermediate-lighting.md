@@ -358,5 +358,5 @@ can be rather terrifying if they are afraid of heights or cause motion sickness 
 :::
 
 ## Credits
-Content on this page was contributed by [LittleAsi](./mapping-credits.md#littleasi), [Puds](./mapping-credits.md#puds),
-and [Bullet](./mapping-credits.md#bullet).
+Content on this page was contributed by [LittleAsi](./mapping-credits.md#littleasi),
+[Puds](./mapping-credits.md#puds), [Bullet](./mapping-credits.md#bullet) and [McEndu](./mapping-credits.md#mcendu).

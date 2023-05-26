@@ -220,5 +220,5 @@ way to JSON edit your map.
 
 ## Credits
 Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi),
-[Caeden117](./mapping-credits.md#caeden117), and [Bloodcloak](./mapping-credits.md#bloodcloak).
-Idea by [Helen Carnate](./mapping-credits.md#helen-carnate).
+[Caeden117](./mapping-credits.md#caeden117), [Bloodcloak](./mapping-credits.md#bloodcloak)
+and [McEndu](./mapping-credits.md#mcendu). Idea by [Helen Carnate](./mapping-credits.md#helen-carnate).
