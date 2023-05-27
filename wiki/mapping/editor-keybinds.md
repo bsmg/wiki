@@ -66,6 +66,8 @@ which this wiki page is based off of, is also available but is out of date.
 |         Note Actions |                            |                             |                                          |   Alt+LClick |
 |     Change Direction | Alt+Scroll Wheel over Note |                 Alt+W/A/S/D |                    Alt+W/A/S/D over Note |              |
 |           Swap Color |               Middle Mouse |                             |                             Middle Mouse | Middle Mouse |
+|    Change Link Count |                 Alt+Scroll |                  Alt+Scroll |                                          |              |
+|  Change Chain Length |               Shift+Scroll |             Ctrl+Alt+Scroll |                                          |              |
 
 <!-- markdownlint-restore -->
 
