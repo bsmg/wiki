@@ -106,8 +106,8 @@ In a Powershell terminal in the project directory run:
 qpm-rust restore
 ```
 
-### Migrate from qpm to qpm-rust
-If you had an install of qpm before following this guide and want to migrate to qpm-rust, you will need to fix the cache
+### Migrate from QPM to QPM-rust
+If you had an install of QPM before following this guide and want to migrate to QPM-Rust, you will need to fix the cache
 paths for old dependencies (such as codegen before Beat Saber version 1.17.0) by running the following command in the
 project directory.
 
@@ -116,7 +116,7 @@ qpm-rust cache legacy-fix
 ```
 
 :::warning NOTE
-This is a one way conversion. Old qpm will no longer work for this project!
+This is a one way conversion. Old QPM will no longer work for this project!
 :::
 
 ## Project Contents
