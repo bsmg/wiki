@@ -40,11 +40,15 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 ### Setting up your RaspberryPi
 
 1. Make sure the raspberry pi is connected to the internet. This can either be done via ethernet or wifi.
-2. Make sure you got the ip and login information for the pi. The default login is `pi` and the default password is `raspberry`. If you don't know the ip, you can find it in your routers dashboard. If you're running RaspberryPi OS, you can try to use the hostname `raspberrypi` to connect to it.
+2. Make sure you got the ip and login information for the pi.
+ The default login is `pi` and the default password is `raspberry`. 
+ If you don't know the ip, you can find it in your routers dashboard.
+ If you're running RaspberryPi OS, you can try to use the hostname `raspberrypi` to connect to it.
 
 ### Installing Termius
 
-Termius is a SSH client for iOS. It's going to be used to connect to the RaspberryPi. **Note:** if you have a monitor and keyboard, you can skip this step.
+Termius is a SSH client for iOS. It's going to be used to connect to the RaspberryPi.
+**Note:** if you have a monitor and keyboard, you can skip this step.
 
 1. Download [Termius](https://apps.apple.com/de/app/termius-terminal-ssh-client/id549039908) from the App Store.
 2. Open the app. It may ask you to log in, which shouldn't be necessary.
@@ -70,7 +74,8 @@ sudo apt install wget
 
 ## Setting up a developer account
 
-In order to install APKs on your quest, you need to set up a developer account. This is free and easy to do. Just follow the steps below.
+In order to install APKs on your quest, you need to set up a developer account.
+This is free and easy to do. Just follow the steps below.
 
 1. Go to [https://dashboard.oculus.com/](https://dashboard.oculus.com/) and log in with your Oculus account.
 2. Click on `Create New Organization` and fill out the form. You can use your real name or a fake one, it doesn't matter.
@@ -88,7 +93,8 @@ In order to install APKs on your quest, you need to set up a developer account. 
 
 ### Downloading and Installing QAVS
 
-QAVS (Quest App Version Switcher) is a tool which can downgrade and mod BeatSaber. We are going to use it in this tutorial since it's the easiest way to downgrade.
+QAVS (Quest App Version Switcher) is a tool which can downgrade and mod BeatSaber.
+We are going to use it in this tutorial since it's the easiest way to downgrade.
 
 In order to download and install QAVS, run the following commands:
 
@@ -96,7 +102,8 @@ In order to download and install QAVS, run the following commands:
 ```bash
 wget https://github.com/ComputerElite/QuestAppVersionSwitcher/releases/download/1.13.20/com.ComputerElite.questappversionswitcher-Signed.apk
 ```
-2. Make sure the file was successfully downloaded by running `ls`. It should print out `com.ComputerElite.questappversionswitcher-Signed.apk`.
+2. Make sure the file was successfully downloaded by running `ls`.
+    It should print out `com.ComputerElite.questappversionswitcher-Signed.apk`.
 3. Install the APK by running the following command:
 ```bash
 adb install com.ComputerElite.questappversionswitcher-Signed.apk
@@ -113,19 +120,19 @@ adb install com.ComputerElite.questappversionswitcher-Signed.apk
 ## Troubleshooting
 
 ### I can't connect to my RaspberryPi
-- Make sure you're connected to the same network as your RaspberryPi.
-- Make sure you're using the correct ip.
-- Make sure you're using the correct username and password.
+* Make sure you're connected to the same network as your RaspberryPi.
+* Make sure you're using the correct ip.
+* Make sure you're using the correct username and password.
 
 
 ### I can't connect to my Quest
-- Make sure you're using a USB-C to USB-A cable.
-- Make sure you're using the correct cable.
-- Try runnung `adb kill-server` and then `adb devices` again.
+* Make sure you're using a USB-C to USB-A cable.
+* Make sure you're using the correct cable.
+* Try runnung `adb kill-server` and then `adb devices` again.
 
 ### My pi crashes when connecting the quest
-- Make sure the power supply is strong enough. The RaspberryPi needs at least 2.5A to run properly.
-- Try using a different cable.
+* Make sure the power supply is strong enough. The RaspberryPi needs at least 2.5A to run properly.
+* Try using a different cable.
 
 ### Other issues
 If you have any other issues, feel free to ask in the [BSMG Discord](https://discord.gg/beatsabermods).
