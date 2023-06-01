@@ -32,11 +32,12 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 
 ### What you need to get started
 
-* A RaspberryPi setup with RaspberryPi OS (formerly Raspbian) installed 
-    (other distros may work, but won't be covered here)
+* A RaspberryPi setup with RaspberryPi OS (formerly Raspbian) installed
 * A usb c to a cable
 * An internet connection
 * A phone if you don't have a monitor / keyboard
+
+**Note:** Other Distros may work, but this guide is only tested with RaspberryPi OS.
 
 ### Setting up your RaspberryPi
 
