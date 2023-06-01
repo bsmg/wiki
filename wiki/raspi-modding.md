@@ -32,10 +32,11 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 
 ### What you need to get started
 
-- A RaspberryPi setup with RaspberryPi OS (formerly Raspbian) installed (other distros may work, but won't be covered here)
-- A usb c to a cable
-- An internet connection
-- A phone if you don't have a monitor / keyboard
+* A RaspberryPi setup with RaspberryPi OS (formerly Raspbian) installed 
+    (other distros may work, but won't be covered here)
+* A usb c to a cable
+* An internet connection
+* A phone if you don't have a monitor / keyboard
 
 ### Setting up your RaspberryPi
 
@@ -54,7 +55,8 @@ Termius is a SSH client for iOS. It's going to be used to connect to the Raspber
 2. Open the app. It may ask you to log in, which shouldn't be necessary.
 3. Go to the `Hosts` tab and click on the `+` in the bottom left corner.
 4. Enter the ip of your RaspberryPi, the username and the password. Then click on `Save`.
-5. Click on the newly created host and then on `Connect`. If everything went well, you should now be connected to your RaspberryPi.
+5. Click on the newly created host and then on `Connect`.
+    If everything went well, you should now be connected to your RaspberryPi.
 
 ### Installing required packages
 
@@ -103,6 +105,7 @@ In order to download and install QAVS, run the following commands:
 ```bash
 wget https://github.com/ComputerElite/QuestAppVersionSwitcher/releases/download/1.13.20/com.ComputerElite.questappversionswitcher-Signed.apk
 ```
+
 2. Make sure the file was successfully downloaded by running `ls`.
     It should print out `com.ComputerElite.questappversionswitcher-Signed.apk`.
 3. Install the APK by running the following command:
@@ -118,22 +121,25 @@ adb install com.ComputerElite.questappversionswitcher-Signed.apk
 3. It may ask you to downgrade, if it does, you need to log in with your Meta account in the tools tab.
 4. Follow the Instructions given by QAVS and you should be good to go.
 
-
 ## Troubleshooting
 
 ### I can't connect to my RaspberryPi
+
 * Make sure you're connected to the same network as your RaspberryPi.
 * Make sure you're using the correct ip.
 * Make sure you're using the correct username and password.
 
 ### I can't connect to my Quest
+
 * Make sure you're using a USB-C to USB-A cable.
 * Make sure you're using the correct cable.
 * Try runnung `adb kill-server` and then `adb devices` again.
 
 ### My pi crashes when connecting the quest
+
 * Make sure the power supply is strong enough. The RaspberryPi needs at least 2.5A to run properly.
 * Try using a different cable.
 
 ### Other issues
+
 If you have any other issues, feel free to ask in the [BSMG Discord](https://discord.gg/beatsabermods).
