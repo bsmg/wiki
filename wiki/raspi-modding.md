@@ -41,7 +41,7 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 
 1. Make sure the raspberry pi is connected to the internet. This can either be done via ethernet or wifi.
 2. Make sure you got the ip and login information for the pi.
- The default login is `pi` and the default password is `raspberry`. 
+ The default login is `pi` and the default password is `raspberry`.
  If you don't know the ip, you can find it in your routers dashboard.
  If you're running RaspberryPi OS, you can try to use the hostname `raspberrypi` to connect to it.
 
@@ -99,12 +99,14 @@ We are going to use it in this tutorial since it's the easiest way to downgrade.
 In order to download and install QAVS, run the following commands:
 
 1. Download QAVS from the Official Release Page:
+
 ```bash
 wget https://github.com/ComputerElite/QuestAppVersionSwitcher/releases/download/1.13.20/com.ComputerElite.questappversionswitcher-Signed.apk
 ```
 2. Make sure the file was successfully downloaded by running `ls`.
     It should print out `com.ComputerElite.questappversionswitcher-Signed.apk`.
 3. Install the APK by running the following command:
+
 ```bash
 adb install com.ComputerElite.questappversionswitcher-Signed.apk
 ```
@@ -123,7 +125,6 @@ adb install com.ComputerElite.questappversionswitcher-Signed.apk
 * Make sure you're connected to the same network as your RaspberryPi.
 * Make sure you're using the correct ip.
 * Make sure you're using the correct username and password.
-
 
 ### I can't connect to my Quest
 * Make sure you're using a USB-C to USB-A cable.
