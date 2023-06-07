@@ -27,43 +27,27 @@ While this guide is for development on Windows, it is not dependent on an IDE. I
 IDE accordingly by referring to the documentation. For example, you would need to install C++ tools for VSCode or configure
 CMake for CLion.
 
-## Setup your Environment
+## Environment Setup
 The following pieces of software are needed to follow this guide.
 
-* [QPM Rust](#qpm-rust) - Dependency Management
+* [QPM](#qpm) - Dependency Management
 * [Ninja](#ninja) - Build Tool
-* [Templatr](#templatr) - Templating Tool
 * [Android NDK](#android-ndk) - Native Development Kit for Android Devices
 
-### QPM Rust
+### QPM
 
-[Download the latest QPM Rust binary for your system](https://github.com/QuestPackageManager/QPM.CLI) from the
-Actions tab and add it to your PATH variable.
+[Download the latest QPM binary for your system](https://github.com/QuestPackageManager/QPM.CLI) from the
+Actions tab, name it qpm.exe, and add it to your PATH variable, or alternatively download and run the Windows installer
+from the appropriate workflow.
 
 ### Ninja
 
 [Download the latest Ninja binary for your system](https://github.com/ninja-build/ninja/releases) from the Releases tab
 and add it to your PATH variable.
 
-### Templatr
-
-You can download the [latest release here.](https://github.com/QuestPackageManager/templatr/actions)
-
-Click the most recent build, than scroll down and download the artifact for your OS.
-
-Extract the zip and add the executable to your PATH variable.
-
-Linux/MacOS users will need to run `chmod +x templatr` before using `templatr`.
-
-To check if `templatr` was installed, run the help command in Powershell.
-
-```powershell
-templatr --help
-```
-
 ### Android NDK
 
-[Download the Android NDK](https://developer.android.com/ndk), unzip it and add it to your PATH variable.
+[Download the Android NDK](https://developer.android.com/ndk), unzip it, and add it to a new environment variable called ANDROID_NDK_HOME.
 
 ## Create a Project
 
@@ -71,9 +55,7 @@ Once you have setup your environment you can now generate a mod template. The te
 [Lauriethefish](https://github.com/Lauriethefish/quest-mod-template). To start run the following command in Powershell.
 
 ```powershell
-templatr --git https://github.com/Lauriethefish/quest-mod-template.git <destination>
-# Older templatr versions:
-templatr use Lauriethefish/quest-mod-template
+qpm templatr --git https://github.com/Lauriethefish/quest-mod-template.git <destination>
 ```
 
 Templatr will then ask a series of questions to create a mod project.
@@ -88,12 +70,18 @@ developing for.
 `beatsaber-hook` is a library that allows for modding il2cpp games. `codegen` is a library that allows modders to
 interface with the game's code.
 
-To update these, open a Powershell terminal in the project directory then run the following commands, adjusting the
-version numbers accordingly:
+To update these, open a Powershell terminal in the project directory then run the following commands to add the latest versions:
 
 ```powershell
-qpm-rust dependency add beatsaber-hook -v ^3.8.1
-qpm-rust dependency add codegen -v ^0.22.0
+qpm dependency add beatsaber-hook
+qpm dependency add codegen
+```
+
+If the latest versions do match those for the version you are developing for, add `-v ^x.x.x` after the command with the correct version
+instead of running those commands. For example, for Beat Saber version 1.28.0, the correct codegen version is 0.33.0:
+
+```powershell
+qpm dependency add codegen -v ^0.33.0
 ```
 
 ### Restore Dependencies
@@ -103,20 +91,19 @@ fully initializing the project.
 In a Powershell terminal in the project directory run:
 
 ```powershell
-qpm-rust restore
+qpm restore
 ```
 
-### Migrate from qpm to qpm-rust
-If you had an install of qpm before following this guide and want to migrate to qpm-rust, you will need to fix the cache
-paths for old dependencies (such as codegen before Beat Saber version 1.17.0) by running the following command in the
-project directory.
+### Migrating from very old QPM
+If you had an install of the very first version of qpm before following this guide and want to migrate to the newest qpm, you will need to
+fix the include paths for old dependencies in the cache (such as codegen before Beat Saber version 1.17.0) by running the following command.
 
 ```powershell
-qpm-rust cache legacy-fix
+qpm cache legacy-fix
 ```
 
 :::warning NOTE
-This is a one way conversion. Old qpm will no longer work for this project!
+This is a one way conversion. The old QPM will no longer fully work! (You don't need it.)
 :::
 
 ## Project Contents
@@ -134,67 +121,89 @@ src/
 └── main.cpp
 .gitignore
 build.ps1
-buildQMOD.ps1
-restart-game.ps1
-start-logging.ps1
-ndk-stack.ps1
 copy.ps1
 CMakeLists.txt
-mod.json
+createqmod.ps1
+mod.template.json
+ndk-stack.ps1
+pull-tombstone.ps1
 qpm.json
 README.md
+start-logging.ps1
+restart-game.ps1
+validate-modjson.ps1
 ```
 
 ### Code Breakdown
 
 #### src/main.cpp
 
-`main.cpp` contains the `setup()` and `load()` methods. These methods can exist anywhere as long as they are accessible by
-the modloader. Take a look inside of `main.cpp` for more information. Laurie has thankfully commented most of the code,
-which will greatly help you.
+`main.cpp` contains the `setup()` and `load()` methods. These methods can exist in any source file as long as they are accessible by
+the modloader. Take a look inside of `main.cpp` for more information as Laurie has thankfully commented most of the code.
 
 #### shared
 
-The shared folder can be exposed by QPM to other mods and published to the QPM dependency registry. Useful if you want
-to make an API to let other mods control your mod in certain ways (for example Qosmetics has a model loading API)
+The shared folder can be exposed by QPM to other mods and published to the QPM dependency registry. Useful if you want to make an API
+to let other mods control your mod in certain ways (for example Qosmetics has a model loading API). Speak to @Sc2ad if you want to publish something.
 
 #### extern
 
-The extern folder should be ignored (and or in some cases excluded), it contains dependencies, similarly to
-`node_modules (nodejs)` or `packages (.net core)`
+The extern folder should be ignored (and/or in some cases excluded). It contains dependencies, similarly to
+`node_modules` (nodejs) or `packages` (.net core).
 
 ### Script Breakdown
 
-It is recommended to run these scripts using Powershell Core (v7) - however, it is not required.
+It is recommended to run these scripts using Powershell Core (v7) - however, it is not required. All scripts can be run with the `--help`
+argument for a description of arguments and functionality.
 
 #### build.ps1
 
 Usage: `build.ps1`
 
-Builds your mod. Does not produce a `.qmod` file. See inside `build.ps1` for information on what arguments can be inputted.
-
-#### buildQMOD.ps1
-
-Usage: `buildQMOD.ps1 {file name}`
-
-Builds your mod, then generates a `.qmod` file that can be parsed by BMBF and or QuestPatcher.
+Builds your mod. Does not produce a QMOD file.
 
 #### copy.ps1
 
 Usage: `copy.ps1`
 
-Builds your mod, then copies it to your quest and launches Beat Saber if your quest is plugged in.
+Builds your mod, then copies it to your quest and launches Beat Saber if your quest is connected with ADB.
+
+#### createqmod.ps1
+
+Usage: `createqmod.ps1 (optionally) -qmodName {file name}`
+
+Generates a QMOD file that can be parsed by BMBF and or QuestPatcher. Will use the most recently built version of your mod.
+
+#### pull-tombstone.ps1
+
+Usage: `pull-tombstone.ps1`
+
+Finds the most recently modified Beat Saber crash tombstone and copies it to your device. If the build on your quest matches
+what you have most recently built locally, the `-analyze` argument can be provided to generate the source file locations of
+any lines mentioned in the backtrace.
+
+#### restart-game.ps1
+
+Usage: `restart-game.ps1`
+
+Closes and reopens Beat Saber on your quest if it is connected. Mostly used inside of `copy.ps1`. Does not have help text.
 
 #### start-logging.ps1
 
 Usage: `start-logging.ps1 -Self`
 
-Usage of `-Self` is recommended, it allows you to read logs from only your mod. Starts logging using adb logcat for Beat
-Saber output.
+Prints logs from Beat Saber, just your mod, or also crashes. Usage of `-self` is recommended.
+
+#### validate-modjson.ps1
+
+Usage: `validate-modjson.ps1`
+
+Generates a `mod.json` from `mod.template.json` if not present and verifies it against the QMOD schema. Mostly used inside of
+`createqmod.ps1`. Does not have help text.
 
 ## Hooking
 
-Hooking is core to modding. `beatsaber-hook` provides a simple way of hooking onto methods and other miscellaneous stuff
+Hooking is core to modding. `beatsaber-hook` provides a simple way of hooking methods and other miscellaneous stuff
 like constructors.
 
 > In computer programming, the term hooking covers a range of techniques used to alter or augment the behavior of an
@@ -202,54 +211,57 @@ like constructors.
 >passed between software components. Code that handles such intercepted function calls, events or messages is called a hook.
 > [Wikipedia](https://en.wikipedia.org/wiki/Hooking#:~:text=In%20computer%20programming%2C%20the%20term,events%20passed%20between%20software%20components.&text=Hooking%20can%20also%20be%20used%20by%20malicious%20code.)
 
-To view a list of classes, methods and fields you can hook onto,
-checkout [Phaze's hook viewer here.](https://modtools.phazed.xyz/browser)
+To view a list of methods and classes you can hook, the most convenient option is to use a C# decompiler such as [IlSpy](https://github.com/icsharpcode/ILSpy)
+if you own the game on PC, as it provides not only the classes and member names, but also the full contents of most methods.
+If you only own the game on the Quest, then you can still view all the classes and methods on [Phaze's hook viewer](https://modtools.phazed.xyz/browser)
+or in the `includes/codegen` directory in your `extern` folder.
 
 In this example, we will hook onto the initialization of the main menu and change the text on the solo button to
 something funny.
 
-The main menu runs the event `DidActivate` when it is fully initialized. This is useful for us because we can hook onto
-this event and extend it further.
+The main menu runs the event `DidActivate` when it is fully initialized. This is useful for us because we can hook
+this event and add our own functionality.
 
 Firstly, create your hook using the `MAKE_HOOK_MATCH` macro:
 
 ```cpp
-// Think of these as C#, using MainMenuViewController, using UnityEngine.UI.Button, using HMUI.CurvedTextMeshPro ect.
+// You can think of these as C# - using MainMenuViewController, using UnityEngine.UI.Button, using HMUI.CurvedTextMeshPro, etc.
 // Classes without a namespace are assigned to the GlobalNamespace
+// If you use a class and do not include it, you may get unclear compiler errors, so make sure to include what you use
 #include "GlobalNamespace/MainMenuViewController.hpp"
 #include "UnityEngine/UI/Button.hpp"
 #include "UnityEngine/GameObject.hpp"
 #include "HMUI/CurvedTextMeshPro.hpp"
 
-// Create a hook struct, named MainMenuUIHook.
-// Target "void MainMenuViewController::DidActivate" and takes the following arguments:
+// Create a hook struct named MainMenuUIHook
+// targeting the method "MainMenuViewController::DidActivate", which takes the following arguments:
 // bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling
+// and returns void.
 
-// General format: MAKE_HOOK_MATCH(HookName, method, method return type, method class pointer, arguments...) { 
-//  HookName(arguments...);
-//  // your code here 
-//}
+// General format: MAKE_HOOK_MATCH(hook name, hooked method, method return type, method class pointer, arguments...) { 
+//     HookName(self, arguments...);
+//     your code here
+// }
 
-MAKE_HOOK_MATCH(MainMenuUIHook, &GlobalNamespace::MainMenuViewController::DidActivate, void, GlobalNamespace::MainMenuViewController
-*self, bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
+MAKE_HOOK_MATCH(MainMenuUIHook, &GlobalNamespace::MainMenuViewController::DidActivate, void, GlobalNamespace::MainMenuViewController*
+ self, bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
     // Run the original method before our code.
-    // Note, you can run the original method after our code if you want to change arguments.
-    MainMenuUIHook(self, firstActivation, addedToHierarchy, screenSystemEnabling); 
+    // Note that you can run the original method after our code or even in the middle
+    // if you want to change arguments or do something before it runs.
+    MainMenuUIHook(self, firstActivation, addedToHierarchy, screenSystemEnabling);
     
-    
-    // Get the _soloButton text using the dyn_ method and simple unity jazz. dyn_ safely get fields and shouldn't change
-    // much during updates.
-    
-    UnityEngine::UI::Button *soloMenuButton = self->dyn__soloButton();
-    UnityEngine::GameObject *gameObject = soloMenuButton->get_gameObject();
-    HMUI::CurvedTextMeshPro *soloMenuText = gameObject->GetComponentInChildren<HMUI::CurvedTextMeshPro *>();
+    // Get the _soloButton text object by accessing the soloButton field and some simple Unity methods.
+    // Note that auto can be used instead of declaring the full type in many cases.
+    UnityEngine::UI::Button* soloMenuButton = self->soloButton;
+    UnityEngine::GameObject* gameObject = soloMenuButton->get_gameObject();
+    HMUI::CurvedTextMeshPro* soloMenuText = gameObject->GetComponentInChildren<HMUI::CurvedTextMeshPro*>();
     
     // Set the text to "Skill Issue"
     soloMenuText->SetText("Skill Issue");
 }
 ```
 
-Now, you have to install your hook. Usually, hooks are installed on `load()` in `main.cpp`:
+Now, you have to install your hook. Usually, hooks are installed in `load()` in `main.cpp`:
 
 ```cpp
 extern "C" void load() {
@@ -269,52 +281,53 @@ You can now test to see if this was successful!
 
 ### Without BMBF
 
-You can test your mod without BMBF quickly using the [copy.ps1](#copy-ps1) command. This is recommended whilst developing.
-You should always test using a QMOD and BMBF if you're about to release your mod.
+You can test your mod without BMBF quickly using [`copy.ps1`](#copy-ps1). This is recommended while developing
+for convenience. You should always test using a QMOD and BMBF if you're about to release your mod.
 
-What the [copy.ps1](#copy-ps1) command does, is copying the `libmodname.so` to the correct place, and launch your game
-for you. You can also specify while launching to log or not with the `-Log` argument and logging to only itself with the
-`-Log -Self` arguments. The following example is the recommended setup for [copy.ps1](#copy-ps1).
+What[`copy.ps1`](#copy-ps1) does specifically is copy the `libmodname.so` in the `build` folder to the correct place on your
+quest and then restart Beat Saber for you. You can also specify while launching to collect logs with the `-log` argument followed
+by any of the arguments supported by the `start-logging.ps1` script:
 
 ```powershell
-copy.ps1 -Log -Self > _latest.log
+copy.ps1 -log -self -file latest.log
 ```
 
 ### With BMBF
 
-Testing your mod with BMBF is useful to check if BMBF presents, or handles your mod.json correctly (copying files, etc.)
+Testing your mod with BMBF is useful to make sure BMBF shows and handles your QMOD correctly (copying files version, cover, etc.)
 
-You will need to [generate a QMOD file, using the `buildQMOD.ps1` command.](#buildqmod-ps1)
+You will need to generate a QMOD file using [`createqmod.ps1`](#createqmod-ps1).
 
-You can then upload the generated QMOD file to BMBF, BMBF should install your mod - it should appear on the mods list.
+You can then upload the generated QMOD file to BMBF and it should install your mod - it should appear on the mods list.
 
-You can start logging using the [`start-logging.ps1 -Self > latest.log` command.](#start-logging-ps1)
+You can still collect logs from your mod using the [`start-logging.ps1`](#start-logging-ps1) command after you launch the game.
 
-## Utilizing `mod.json`
+## Utilizing `mod.template.json`
 
-`mod.json` contains basic information on your mod. It can also allow you to define other features such as:
+`mod.template.json` contains basic information on your mod. It can also allow you to define other features such as:
 
 * Cover Image (the preview image shown on the BMBF Mods tab)
-* File Copies (extract files from the QMOD to a location on the quest device.)
-* Downloading dependency QMODs if missing.
+* File Copies (extract files from the QMOD to a location on the quest device)
+
+Some fields in it will be of the form `${x}` - those will be automatically filled by QPM based on the information in
+your `qpm.json` and written to the file `mod.json`. It's not recommended to edit the `mod.json` manually, and it can be
+updated at any time by running the command `qpm qmod build` (which only creates the `mod.json` file, not the QMOD itself.)
 
 ### Cover Image
 
 A cover image is used by certain mods and BMBF to show a preview of your mod.
 
-To add a cover image, simply create `cover.png` at any point in your project  and add the following to your mod.json:
+To add a cover image, simply name the image `cover.png`, put it in your project directory, and add the following to your `mod.template.json`:
 
 ```json
 "coverImage": "cover.png"
-// or
-"coverImage": "path/to/cover.png"
 ```
 
 :::tip Cover Image Recommendations
 
-* 1024x512 (BMBF will resize the image to be this size)
-* File format either png, jpg or gif.
-* Under 2mb to prevent load lag (larger `cover.png`, longer it'll take to show on BMBF)
+* 1024x512 (BMBF will resize/crop the image to be this size)
+* File format either png, jpg or gif
+* Under 2mb to prevent load lag (larger images will take longer to show with no advantage)
 :::
 
 #### Example Cover Images
@@ -334,21 +347,21 @@ Slice Details Quest
 
 ### File Copies
 
-File copies is an array that specifies what files should be copied where - you can include files by adding them to the
-files list in [buildqmod.ps1](#buildqmod-ps1).
+File copies is an array that can specify extra files in your QMOD to be copied to the quest, such as sabers included by default in Qosmetics.
+You can add files by editing `createqmod.ps1` and `mod.template.json`.
 
 #### Example
 
 This example will add `secret-data.json` to the QMOD and copy it to `/sdcard/ModData/com.beatgames.beatsaber/Mods/Secret/secret-data.json`
 
-Edit the [buildqmod.ps1](#buildqmod-ps1) script to include `secret-data.json`.
+Edit [createqmod.ps1](#createqmod-ps1) to include `secret-data.json`:
 
 ```powershell
-# This is line 41 of buildqmod.ps1
-$filelist = @($mod, "secret-data.json")
+# This is after line 59 of createqmod.ps1
+$filelist += "/path/to/secret-data.json"
 ```
 
-Next, add the following to your `mod.json`
+Update the following in your `mod.template.json`:
 
 ```json
 "fileCopies": [
@@ -359,33 +372,6 @@ Next, add the following to your `mod.json`
 ]
 ```
 
-This will extract `secret-data.json` from your QMOD file on installation and place it at the path defined at `destination`
-
-### Dependencies
-
-You can specify mod dependencies and how to download them using the `dependencies` field in `mod.json` like so:
-
-```json
-"dependencies": [
-    {
-        "version": ">=0.4.6",
-        "id": "tracks",
-        "downloadIfMissing": "https://github.com/StackDoubleFlow/Tracks/releases/download/v0.4.6/tracks.qmod"
-    },
-    {
-        "version": ">=0.14.2",
-        "id": "custom-json-data",
-        "downloadIfMissing": "https://github.com/StackDoubleFlow/CustomJSONData/releases/download/v0.14.2/custom-json-data.qmod"
-    }
-]
-```
-
-This example will download `custom-json-data` and `tracks` if the mods are missing. Useful if you want to split your mod
-up into modules and make the final QMOD file smaller.
-
-A disadvantage of this is that without internet, your mod will fail to install if the dependencies are missing and cannot
-be downloaded by BMBF.
-
 ## Mod Configuration
 Most mods require a configuration to allow users to change the functionality of the mod.
 
@@ -393,8 +379,9 @@ Visit the [Quest Mod Configuration](./quest-mod-dev-config.md) page to learn the
 a configuration for your mod.
 
 ## Custom Types
-Custom Types is a library that allows you to create C# types using macros. These types can extend classes such
-as `MonoBehaviour` and much more. Custom Types also allows you to create [coroutines.](https://docs.unity3d.com/Manual/Coroutines.html)
+`custom-types` is a library that allows you to create the equivalent of C# types using macros. These types can extend classes such
+as `MonoBehaviour` and much more. `custom-types` also allows you to create and use [coroutines](https://docs.unity3d.com/Manual/Coroutines.html)
+and [delegates](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/).
 
 Custom Types are complex and requires knowledge of basic C#. Visit the [Quest Custom Types](./quest-mod-dev-custom-types.md)
 page to learn more about integrating this into your mod.
@@ -405,5 +392,5 @@ page to see how to use `questui` to create a settings screen for your mod.
 
 ## Credits
 Initial guide content was integrated from the [Beat Saber Quest Modding Guide](https://github.com/cal117/bsqmg) by cal117
-with contributions from [Raine](https://github.com/raineio) and [Pangwen](https://github.com/PangwenE).
+with contributions from [Raine](https://github.com/raineio), [Pangwen](https://github.com/PangwenE), and [Metalit](https://github.com/Metalit/).
 Integration and editing was done by [Bloodcloak](/about/staff.md#bloodcloak).
