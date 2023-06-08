@@ -32,7 +32,9 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 Currently the only recommended way to install custom songs and mods is BMBF sideloaded with [SideQuest using a PC](#installing-bmbf-with-sidequest).
 
 If you do not have access to a PC you can use an [Android Phone or Tablet](/support/modding-with-android.md).
-Chromebooks and iOS devices such as iPhones or iPads are not supported.
+
+To use Chromebooks and iOS devices such as iPhones or iPads you need to have a [Raspberry Pi](https://www.raspberrypi.com/).
+When you have one, visit [Modding With a Raspberry Pi](./raspi-modding.md) to get started.
 
 :::warning
 Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
