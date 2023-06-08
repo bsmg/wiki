@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 ---
-# Quest Modding with a RaspberryPI
+# Quest Modding with a Raspberry Pi
 
 ## Preface
 
@@ -32,32 +32,32 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 
 ### What you need to get started
 
-* A RaspberryPi setup with RaspberryPi OS (formerly Raspbian) installed
+* A Raspberry Pi setup with Raspberry Pi OS (formerly Raspbian) installed
 * A usb c to a cable
 * An internet connection
 * A phone if you don't have a monitor / keyboard
 
-**Note:** Other Distros may work, but this guide is only tested with RaspberryPi OS.
+**Note:** Other Distros may work, but this guide is only tested with Raspberry Pi OS.
 
-### Setting up your RaspberryPi
+### Setting up your Raspberry Pi
 
 1. Make sure the raspberry pi is connected to the internet. This can either be done via ethernet or wifi.
 2. Make sure you got the ip and login information for the pi.
  The default login is `pi` and the default password is `raspberry`.
  If you don't know the ip, you can find it in your routers dashboard.
- If you're running RaspberryPi OS, you can try to use the hostname `raspberrypi` to connect to it.
+ If you're running Raspberry Pi OS, you can try to use the hostname `raspberrypi` to connect to it.
 
 ### Installing Termius
 
-Termius is a SSH client for iOS. It's going to be used to connect to the RaspberryPi.
+Termius is a SSH client for iOS. It's going to be used to connect to the Raspberry Pi.
 **Note:** if you have a monitor and keyboard, you can skip this step.
 
 1. Download [Termius](https://apps.apple.com/de/app/termius-terminal-ssh-client/id549039908) from the App Store.
 2. Open the app. It may ask you to log in, which shouldn't be necessary.
 3. Go to the `Hosts` tab and click on the `+` in the bottom left corner.
-4. Enter the ip of your RaspberryPi, the username and the password. Then click on `Save`.
+4. Enter the ip of your Raspberry Pi, the username and the password. Then click on `Save`.
 5. Click on the newly created host and then on `Connect`.
-    If everything went well, you should now be connected to your RaspberryPi.
+    If everything went well, you should now be connected to your Raspberry Pi.
 
 ### Installing required packages
 
@@ -88,11 +88,11 @@ This is free and easy to do. Just follow the steps below.
 
 ## Installing
 
-### Connecting the Quest to the RaspberryPi
+### Connecting the Quest to the Raspberry Pi
 
-1. Connect your Quest to your RaspberryPi using a USB-C to USB-A cable.
+1. Connect your Quest to your Raspberry Pi using a USB-C to USB-A cable.
 2. Check inside the headset if it asks you to allow the connection. If it does, click on `Allow`.
-3. Run `adb devices` on your RaspberryPi. If it prints out a device id, everything is working.
+3. Run `adb devices` on your Raspberry Pi. If it prints out a device id, everything is working.
 
 ### Downloading and Installing QAVS
 
@@ -124,9 +124,9 @@ adb install com.ComputerElite.questappversionswitcher-Signed.apk
 
 ## Troubleshooting
 
-### I can't connect to my RaspberryPi
+### I can't connect to my Raspberry Pi
 
-* Make sure you're connected to the same network as your RaspberryPi.
+* Make sure you're connected to the same network as your Raspberry Pi.
 * Make sure you're using the correct ip.
 * Make sure you're using the correct username and password.
 
@@ -138,7 +138,7 @@ adb install com.ComputerElite.questappversionswitcher-Signed.apk
 
 ### My pi crashes when connecting the quest
 
-* Make sure the power supply is strong enough. The RaspberryPi needs at least 2.5A to run properly.
+* Make sure the power supply is strong enough. The Raspberry Pi needs at least 2.5A to run properly.
 * Try using a different cable.
 
 ### Other issues
