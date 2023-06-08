@@ -57,7 +57,7 @@ limited to:
 
 * Hooking
 * Configuration using `config-utils`
-* Manual configuration
-* User Interfaces using `questui` or `QUC`
+* User Interfaces using `questui`
+* Custom types
 
 Visit the [Quest Mod Development Intro](./quest-mod-dev-intro.md) page for more information on getting started!
