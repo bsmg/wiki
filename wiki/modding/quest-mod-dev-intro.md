@@ -94,18 +94,6 @@ In a Powershell terminal in the project directory run:
 qpm restore
 ```
 
-### Migrating from very old QPM
-If you had an install of the very first version of qpm before following this guide and want to migrate to the newest qpm, you will need to
-fix the include paths for old dependencies in the cache (such as codegen before Beat Saber version 1.17.0) by running the following command.
-
-```powershell
-qpm cache legacy-fix
-```
-
-:::warning NOTE
-This is a one way conversion. The old QPM will no longer fully work! (You don't need it.)
-:::
-
 ## Project Contents
 
 Your project should contain the following structure:
