@@ -90,11 +90,11 @@ reduce their precision within reasonable expectations for players at their respe
 The common methods of simplifying rhythms include, but are not limited to, the following approaches:
 
 - Cut the precision of a section of notes in half.  
-  ![Method 1](~@images/mapping/density-reduction-1.png)
+  ![Method 1](/.assets/images/mapping/density-reduction-1.png)
 - Add small breaks between denser sections of notes within a measure.  
-  ![Method 2](~@images/mapping/density-reduction-2.png)
+  ![Method 2](/.assets/images/mapping/density-reduction-2.png)
 - Consolidate usage of note placements at higher precisions into more emphasized variations at lower precisions.  
-  ![Method 3](~@images/mapping/density-reduction-3.png)
+  ![Method 3](/.assets/images/mapping/density-reduction-3.png)
 
 ### Musically Founded
 
@@ -320,7 +320,7 @@ a player to consistently return to a more centralized position. As a result, you
 cue the player into shifting their centralized position to the left or right and allow for more comfortable note placements
 at the far lanes.
 
-![Examples of Lane Shifting](~@images/mapping/lane-shifting.png)
+![Examples of Lane Shifting](/.assets/images/mapping/lane-shifting.png)
 
 However, be wary about how you orient the player’s hand positions when drifting into the outside lanes. In most cases,
 you will never see a red/left note drift to lane four or similarly a blue/right note drift to lane one.

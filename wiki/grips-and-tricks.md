@@ -21,7 +21,7 @@ about how the scoring system works.
 Additionally, here's an image from the game developers about how the
 [hitboxes](https://twitter.com/Split82/status/979365834324889600) work
 
-![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
+![Bloq Hitbox](/.assets/images/mapping/hitbox-from-split.jpg)
 
 ## Ranking
 
@@ -105,18 +105,18 @@ Cube Community made some videos showing off some of the more popular grips for O
 
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
 
-![Vive Grips Guide](~@images/grips-and-tricks/vive-grips-guide.jpg)
+![Vive Grips Guide](/.assets/images/grips-and-tricks/vive-grips-guide.jpg)
 
 ### Oculus Rift
 
 <YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
 
-![Oculus Grips Guide](~@images/grips-and-tricks/oculus-grips-guide.jpg)
+![Oculus Grips Guide](/.assets/images/grips-and-tricks/oculus-grips-guide.jpg)
 
 ### Oculus Rift S and Quest
 
 A video has not yet been made for Rift S and Quest controllers, but you can find some examples below!
-![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/touch2-grips.jpg)
+![Oculus Rift S/Quest Guide](/.assets/images/grips-and-tricks/touch2-grips.jpg)
 
 ### Valve Index Controllers
 
@@ -126,7 +126,7 @@ A video has not yet been made for Index controllers, but you can find some examp
 ### Oculus Quest 2
 
 A video has not yet been made for the Quest 2's controllers, but you can find some examples below!
-![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
+![Oculus Quest 2](/.assets/images/grips-and-tricks/touch3-grips.jpg)
 
 Check out Cube Community's `#tips-and-grips` channel for more suggestions and examples in their [Discord](https://discord.gg/dwe8mbC).
 Please remember that everyone's playstyle and body is different; someone else's grip might not work exactly like you need
@@ -141,7 +141,7 @@ Here are some steps that may help improve tracking.
 2. Rotate your body 45 degrees so that your lighthouses can see both controllers.
 3. Rotate the room within Beat Saber's settings to compensate, so that you appear facing forward within the game.
 
-![Vive Tracking Help](~@images/grips-and-tricks/vive-tracking-help.gif)
+![Vive Tracking Help](/.assets/images/grips-and-tricks/vive-tracking-help.gif)
 
 This can apply to Oculus sensors too.
 
@@ -155,4 +155,4 @@ battery disconnects happening, explained in this
 
 ## Also Consider
 
-![Also Consider](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)
+![Also Consider](/.assets/images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)

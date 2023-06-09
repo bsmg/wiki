@@ -23,7 +23,7 @@ Speicher deine eigenen verlustfreien WAV(E)-Dateien bei jedem Bearbeitungsschrit
 
 Die beste Möglichkeit die Qualität der Quelle und den Qualitätsverlust zu überprüfen, ist die Verwendung von [Spek](http://spek.cc/), ein kostenloses akustisches Spektrum-Analyse-Tool:
 
-![Spektrum Beispiel](~@images/mapping/advanced-spectrumexample.png 'Spektrum Beispiel')
+![Spektrum Beispiel](/.assets/images/mapping/advanced-spectrumexample.png 'Spektrum Beispiel')
 
 Dieses Werkzeug zeigt die Zeit des Liedes von links nach rechts, die Frequenzen von unten nach oben und die Lautstärke der Frequenzen in Farbe (Legende rechts). Dieser Screenshot zeigt denselben Song, wobei der obere Graph eine WAVE Datei ist und das untere Diagramm ein OGG Dateiexport derselben WAVE Datei ist.
 
@@ -59,7 +59,7 @@ Im Wesentlichen reduziert ein Kompressor die Dynamik oberhalb eines bestimmten S
 
 Der mit Audacity mitgelieferte Kompressor Effekt ist eigentlich nicht das beste Werkzeug für das Mastering von Musik, da er eher für sprachorientiertes Audio orientiert ist. Es ist jedoch sehr einfach zu verwenden, weshalb es in [Lautstärkemodifikation: Komprimierung](./basic-audio.md#kompression) und grundlegende Einstellungen bereitgestellt wird, die für die meisten Fälle funktionieren. Wenn du dies jedoch liest, hast du entweder eine unangenehme Verzerrung im Klang bemerkt (Ton bricht nach lauten Spitzen) oder du bist neugierig auf die Einstellungen, die du in einem Kompressor vornehmen kannst, also lass uns einen Blick auf diese Einstellungen werfen, mit dem fortgeschrittenen [SC4-Plug-in](https://ttmanual.audacityteam.org/o/man/sc4.html) für Audacity (Du musst eventuell das [LADSPA-Bundle](http://www.audacityteam.org/download/plug-ins/#ladspa) installieren, um Zugriff auf dieses Tool zu erhalten).
 
-![SC4](~@images/mapping/advanced-sc4.png)
+![SC4](/.assets/images/mapping/advanced-sc4.png)
 
 <!-- markdownlint-disable MD013 -->
 
@@ -78,7 +78,7 @@ Der mit Audacity mitgelieferte Kompressor Effekt ist eigentlich nicht das beste 
 
 Ein Beispiel dafür, wie sich die Komprimierung auf den Ton auswirkt. Der hervorgehobene Teil wurde mit einem Verhältnis von 1:3 mit einem Schwellenwert bei -30db (rote Linie) komprimiert.
 
-![Kompression](~@images/mapping/advanced-compression.png)
+![Kompression](/.assets/images/mapping/advanced-compression.png)
 
 ::: tip TIPP
 Um die Dynamik des Liedes in dB visuell besser beurteilen zu können, kannst du den Schwellenwert auf Folgendes einstellen:
@@ -87,7 +87,7 @@ Um die Dynamik des Liedes in dB visuell besser beurteilen zu können, kannst du 
 2. Um die Skala zu erhöhen, klicke mit der rechten Maustaste auf die Skala links von der Reißzwecke und klicke auf `Halbe Welle`.
 3. Um die Spurhöhe zu maximieren, gehe auf `Ansicht -> Spurgröße -> An Höhe anpassen` oder drücke einfach `Strg + Umschalt + F`. Dadurch wird mehr von der Skala angezeigt.
 
-![Track](~@images/mapping/advanced-track.png)
+![Track](/.assets/images/mapping/advanced-track.png)
 :::
 
 Ausführlichere Informationen über Kompressoren [findest du hier](https://www.practical-music-production.com/audio-compressor/).
@@ -98,7 +98,7 @@ Ein Limiter ist im wesentlichen ein Kompressor-Effekt mit einem unendlichen Vers
 
 Werfen wir einen Blick auf den [Limiter](https://manual.audacityteam.org/man/limiter.html)-Effekt von Audacity:
 
-![Limiter](~@images/mapping/advanced-limiter.png)
+![Limiter](/.assets/images/mapping/advanced-limiter.png)
 
 <!-- markdownlint-disable MD013 -->
 
@@ -128,27 +128,27 @@ Es gibt auch ein Video von diesem Prozess [hier](https://www.youtube.com/watch?v
 2. Dupliziere die Songspur (`Menü auswählen -> Alles + Menü Bearbeiten -> Duplizieren`, oder drücke einfach `Strg+A` und dann `Strg+D`)
 3. Fülle das unerwünschte Ende der ersten Spur und den unerwünschten Anfang der zweiten Spur grob mit Stille (Auswählen, dann `Menü generieren -> Stille...`).
 
-![Songabschnitt schneiden](~@images/mapping/advanced-cutsongsection.png 'Songabschnitt schneiden')
+![Songabschnitt schneiden](/.assets/images/mapping/advanced-cutsongsection.png 'Songabschnitt schneiden')
 
-4. Richte die Spuren mit dem Zeitverschiebungswerkzeug aus (![Time Shift Tool](~@images/mapping/timeshift.png 'Timeshift tool')) um die zweite Spur an eine Stelle zu verschieben, die ungefähr an der gleichen Stelle liegt, damit die ähnlichen Abschnitte nahe beieinander liegen. Zoome dann hinein und stelle erneut ein und wiederhole den Vorgang, bis die Wellenform beim Zoomen in Punkte übergehen. Richten die Punkte auf der unteren Spur mit den ähnlichen Spitzen und Tiefen mit der oberen Spur aus, wenn möglich.
+4. Richte die Spuren mit dem Zeitverschiebungswerkzeug aus (![Time Shift Tool](/.assets/images/mapping/timeshift.png 'Timeshift tool')) um die zweite Spur an eine Stelle zu verschieben, die ungefähr an der gleichen Stelle liegt, damit die ähnlichen Abschnitte nahe beieinander liegen. Zoome dann hinein und stelle erneut ein und wiederhole den Vorgang, bis die Wellenform beim Zoomen in Punkte übergehen. Richten die Punkte auf der unteren Spur mit den ähnlichen Spitzen und Tiefen mit der oberen Spur aus, wenn möglich.
 
 ::: tip TIPP
 Verwende eine Klickspur um sicherzustellen, dass die Spuren im Takt zueinander sind.  
 Siehe [Audio-Vorbereitung: Hinzufügen von Click-Track](./basic-audio.md#klickspur-hinzufugen).
 :::
 
-![Vergrößerte Synchronisation](~@images/mapping/advanced-zoomsync.png 'Vergrößerte Synchronisation')
+![Vergrößerte Synchronisation](/.assets/images/mapping/advanced-zoomsync.png 'Vergrößerte Synchronisation')
 
 5. Der letzte Abschnitt der oberen Spur sollte nun identisch oder ähnlich wie der erste Abschnitt der unteren Spur sein, aber aus verschiedenen Zeiten im Song. Höre den überlappenden Bereich ab, um eine Übereinstimmung zu bestätigen und vergewisser dich, dass es kein Echo/Versatz von falsch ausgerichteten Spuren gibt.
 
 ::: tip TIPP
-Um Übersteuerung/Clipping von zwei -0db spitzen Spuren zu vermeiden, kannst du die Fader für beide Spuren auf -6db stellen ![Fader](~@images/mapping/advanced-fader.png) und später wieder auf +0db stellen, nachdem die Überblendung erfolgt ist. Doppelklicke auf den Fader, um die Nummer einzugeben.
+Um Übersteuerung/Clipping von zwei -0db spitzen Spuren zu vermeiden, kannst du die Fader für beide Spuren auf -6db stellen ![Fader](/.assets/images/mapping/advanced-fader.png) und später wieder auf +0db stellen, nachdem die Überblendung erfolgt ist. Doppelklicke auf den Fader, um die Nummer einzugeben.
 :::
 
 7. Wähle den überlappenden Bereich über beide Spuren aus.
 8. Gehen zu `Effektmenü -> Überblendspuren`. Setze die Fade-Richtung auf `Alternierend Aus / Ein`. Klicke dann auf OK, um die Überblendung anzuwenden.
 
-![Überblendung](~@images/mapping/advanced-crossfade.png 'Überblendung')
+![Überblendung](/.assets/images/mapping/advanced-crossfade.png 'Überblendung')
 
 9. Hören dir die überschneidenden Abschnitte noch einmal an. Wenn alles gut gelaufen ist, solltest du nun einen perfekt überblendeten Übergang zwischen den beiden Spuren haben.
 10. Kombinieren die Spuren, indem du alles auswählst (`Menü auswählen -> Alle` oder `Strg+A`) dann in das Menü `Spuren -> Mischen` gehen und dann `Mischen und Rendern`.
@@ -182,7 +182,7 @@ Hier werden wir seine Warp Funktion verwenden, um das Audio subtil an ein einhei
    - Datei > Projekteinstellungen
    - Lege die anfänglichen BPM des Songs fest und stelle beide Timebase-Dropdowns auf `Time` anstelle von `Beats`.
 
-![Reaper Projekt Einstellungsfenster](~@images/mapping/reaperProjectSettings.png)
+![Reaper Projekt Einstellungsfenster](/.assets/images/mapping/reaperProjectSettings.png)
 
 :::danger WARNUNG
 Dies ist ein kritischer Schritt! **Du kannst deine Audio ruinieren, wenn du die anfänglichen BPM- und Timebase-Einstellungen nicht korrekt vornimmst!**
@@ -193,7 +193,7 @@ Dies ist ein kritischer Schritt! **Du kannst deine Audio ruinieren, wenn du die 
 6. Ziehe die gesamte Audiospur entsprechend, um einen Heißstart oder ein zu langes Intro zu vermeiden.
    - Siehe [Basic Audio: Planen deine ersten Noten](./basic-audio.md#planen-deine-ersten-noten) für weitere Informationen.
 
-![Ausrichten von Audio Start in Reaper](~@images/mapping/reaperFirstBeat.png)
+![Ausrichten von Audio Start in Reaper](/.assets/images/mapping/reaperFirstBeat.png)
 
 #### Beats aufstellen
 
@@ -209,9 +209,9 @@ Wenn dies der Fall ist, musst du folgendes tun:
 2. Verwende <kbd>Umschalt + W</kbd>, um eine Dehnungsmarkierung hinzuzufügen.
 3. Ziehe den Dehnungsmarker auf die Beat-Linie.
 
-| Schritt 1                                                                    | Schritt 2                                                              | Schritt 3                                                                       |
-| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| ![Peak ist nicht auf Beat Marker](~@images/mapping/reaperWarpAudioStep1.png) | ![Streckmarker hinzugefügt](~@images/mapping/reaperWarpAudioStep2.png) | ![Marker bewegt sich auf Beat Linie](~@images/mapping/reaperWarpAudioStep3.png) |
+| Schritt 1                                                                           | Schritt 2                                                                     | Schritt 3                                                                              |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| ![Peak ist nicht auf Beat Marker](/.assets/images/mapping/reaperWarpAudioStep1.png) | ![Streckmarker hinzugefügt](/.assets/images/mapping/reaperWarpAudioStep2.png) | ![Marker bewegt sich auf Beat Linie](/.assets/images/mapping/reaperWarpAudioStep3.png) |
 
 Das Warpen deines Songs ist einfach eine Sache der Wiederholung dieses Vorgangs für den gesamten Song. Du solltest damit beginnen, dies etwa alle 4 Schläge oder so zu tun. Meistens ist dies gut genug, um den ganzen Song aufzustellen, aber achte auf die Beats zwischen den Stretch Markierungen. Wenn sie zu driften beginnen, verwende einen weiteren Stretchmarker, um sie zu fixieren.
 
@@ -231,13 +231,13 @@ Beim Warpen eines Songs kann es viele versteckte "Gochas" geben. Hier sind einig
   5. Verwende Trial und Fehler, um die Drift des nächsten Audiostücks zu minimieren.
   6. **Du musst die gleiche BPM-Änderung im Karteneditor hinzufügen!**
 
-![Tempo mitten im Song ändern](~@images/mapping/reaperChangeTempo.png)
+![Tempo mitten im Song ändern](/.assets/images/mapping/reaperChangeTempo.png)
 
 - Einige Peaks können vage sein, besonders, wenn mehrere Geräusche gleichzeitig auftreten. Es gibt mehrere Möglichkeiten, einen Peak zu testen, um herauszufinden, wo der Trommelschlag liegt.
 
   - Wenn du den Cursor über den Peak hin- und herziehst, solltest du ein Klopfen hören, wenn du den Peak triffst.
   - Wenn du kurz vor dem Peak klickst und dann die Leertaste drückst, um den Ton abzuspielen, solltest du sofort den Schlagzeuger hören.  
-    ![Vage Spitze](~@images/mapping/reaperVaguePeak.png)
+    ![Vage Spitze](/.assets/images/mapping/reaperVaguePeak.png)
 
 - Achte darauf, wie sich der Song anfühlen soll. Nicht jeder große Trommelschlag ist auf einem Beat Marker. Zum Beispiel haben einige Songs große Crash Beckenschläge einen halben oder viertel Takt vor dem Hauptschlag. Du kannst versuchen, Musiktabellen oder andere Ressourcen zu finden um das beabsichtigte Timing eines Songs herauszufinden. Sei dir nur bewusst, dass Online-Tabellen nicht garantiert korrekt sind. Einige Registerkarten auf songsterr sind komplett erfunden!
 
@@ -254,7 +254,7 @@ Wenn du mit der Bearbeitung deiner Audios fertig bist, möchtest du es als `.ogg
    - Quelle niedriger Qualität (YouTube o. ä.): verwende 0,3-0,5
 6. Klicke auf die Schaltfläche 1 Datei rendern. Nach einiger Zeit hast du eine OGG-Datei mit schön aufgereihten Beats!
 
-![Audio-Render/Export Einstellungen](~@images/mapping/reaperRenderAudio.png)
+![Audio-Render/Export Einstellungen](/.assets/images/mapping/reaperRenderAudio.png)
 
 ## Credits
 

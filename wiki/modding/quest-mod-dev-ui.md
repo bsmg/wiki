@@ -51,11 +51,11 @@ comments that document almost all the methods.
 `questui` contains a few locations you can register to:
 
 - Main Menu Mod Tabs
-  ![Main Menu Mod Tabs](~@images/modding/quest-menu-mod-tab.png)
+  ![Main Menu Mod Tabs](/.assets/images/modding/quest-menu-mod-tab.png)
 - Mod Settings
-  ![Mod Settings](~@images/modding/quest-mod-settings.jpg)
+  ![Mod Settings](/.assets/images/modding/quest-mod-settings.jpg)
 - Gameplay Setup
-  ![Gameplay Setup](~@images/modding/quest-gameplay-settings.jpg)
+  ![Gameplay Setup](/.assets/images/modding/quest-gameplay-settings.jpg)
 
 For `questui` to use your `DidActivate` method, you will need to register it using the `QuestUI::Register` class in your
 `load()` method.

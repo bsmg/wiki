@@ -127,10 +127,10 @@ arms in this new position while waiting for the next motion. The block that foll
 
 <!-- markdownlint-disable MD013 -->
 
-|                                  **Poor Positioning**                                   |                                   **Poor Angles**                                   |                               **Good Position & Angle**                               |
-| :-------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
-|          ![Example of Poor Positioning](~@images/mapping/poor_positioning.jpg)          |              ![Example of Poor Angle](~@images/mapping/poor_angle.jpg)              | ![Example of Good Positioning and Angle](~@images/mapping/good_positioning_angle.jpg) |
-| You can see here that the arm is not ready to hit down from the position it is left in. | In order to hit the next block, the arm has to do a lot of extra motion to wind up. |          Taking both into consideration, you are left with a smooth motion.           |
+|                                  **Poor Positioning**                                   |                                   **Poor Angles**                                   |                                  **Good Position & Angle**                                   |
+| :-------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
+|      ![Example of Poor Positioning](/.assets/images/mapping/poor_positioning.jpg)       |          ![Example of Poor Angle](/.assets/images/mapping/poor_angle.jpg)           | ![Example of Good Positioning and Angle](/.assets/images/mapping/good_positioning_angle.jpg) |
+| You can see here that the arm is not ready to hit down from the position it is left in. | In order to hit the next block, the arm has to do a lot of extra motion to wind up. |              Taking both into consideration, you are left with a smooth motion.              |
 
 <!-- markdownlint-enable MD013 -->
 
@@ -145,7 +145,7 @@ arms in this new position while waiting for the next motion. The block that foll
 
 When mapping unusual patterns that break typical conventions for flow, extra motion is suggested to make the pattern work.
 An example is a scoop:  
-![Scoop](~@images/mapping/scoop.png)  
+![Scoop](/.assets/images/mapping/scoop.png)  
 In order to hit the up note following the side note, the arm must take a longer scooping path to be in position.
 This motion is suggested, where an extra note block down would require the motion instead.
 
@@ -292,13 +292,13 @@ located in a more traditional position. They add emphasis to the map and require
 Be aware that inverts can be quite hard to read especially in rapid succession or at higher speeds.
 
 **Example placements**  
-![Invert Example](~@images/mapping/invert-example-placements.png)
+![Invert Example](/.assets/images/mapping/invert-example-placements.png)
 
 ## Note Alignment for MMA2
 
 It is not apparent in MMA2 but this is how some notes align in game.
 
-![MMA2 Alignment Example](~@images/mapping/mma2-alignment-examples.jpg)
+![MMA2 Alignment Example](/.assets/images/mapping/mma2-alignment-examples.jpg)
 
 ## Single Saber/Handedness Switches
 
@@ -306,8 +306,8 @@ Alternating the hand leading a pattern can be highly effective at providing vari
 rhythms but have limitations.
 
 Typically the player expects patterns to be in the sequence of:
-![Blue Down](~@images/mapping/bnd.png) To > ![Red Down](~@images/mapping/rnd.png) To > ![Blue Up](~@images/mapping/bnu.png)
-To > ![Red Up](~@images/mapping/rnu.png)
+![Blue Down](/.assets/images/mapping/bnd.png) To > ![Red Down](/.assets/images/mapping/rnd.png) To > ![Blue Up](/.assets/images/mapping/bnu.png)
+To > ![Red Up](/.assets/images/mapping/rnu.png)
 
 Deviating from this can allow for unique motions and crossovers without tangling, but risks being challenging to read or
 play at higher speeds. For example if done mid-pattern, it requires one hand to flick twice as fast. While this might not

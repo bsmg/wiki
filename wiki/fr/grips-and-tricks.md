@@ -18,7 +18,7 @@ Regardez cette vidéo, par la chaîne [Cube Community YT](https://www.youtube.co
 
 Par ailleurs, voici une image des développeurs du jeu précisant le système de [hitboxes](https://twitter.com/Split82/status/979365834324889600) (tweet en anglais).
 
-![Hitbox des bloqs](~@images/mapping/hitbox-from-split.jpg)
+![Hitbox des bloqs](/.assets/images/mapping/hitbox-from-split.jpg)
 
 ## Classement
 
@@ -54,17 +54,17 @@ Cube Community a réalisé une vidéo de démonstration de certaines prises popu
 
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
 
-![Guide sur les prises du Vive](~@images/grips-and-tricks/vive-grips-guide.jpg)
+![Guide sur les prises du Vive](/.assets/images/grips-and-tricks/vive-grips-guide.jpg)
 
 ### Oculus Rift
 
 <YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
 
-![Guide sur les prises de l'Oculus](~@images/grips-and-tricks/oculus-grips-guide.jpg)
+![Guide sur les prises de l'Oculus](/.assets/images/grips-and-tricks/oculus-grips-guide.jpg)
 
 ### Oculus Rift S et Quest
 
-Il n'existe pas encore de vidéo pour les contrôleurs du Rift S et du Quest, mais vous pouvez trouver des exemples supplémentaires à l'image ci-dessous dans leur canal `#tips-and-grips` !![Guide pour Oculus Rift S/Quest](~@images/grips-and-tricks/touch2-grips.jpg)
+Il n'existe pas encore de vidéo pour les contrôleurs du Rift S et du Quest, mais vous pouvez trouver des exemples supplémentaires à l'image ci-dessous dans leur canal `#tips-and-grips` !![Guide pour Oculus Rift S/Quest](/.assets/images/grips-and-tricks/touch2-grips.jpg)
 
 ### Contrôleurs du Valve Index
 
@@ -72,7 +72,7 @@ Il n'existe pas encore de vidéo pour les Index Controllers, mais vous trouverez
 
 ### Oculus Quest 2
 
-Il n'existe pas encore de vidéo pour les contrôleurs du Quest 2, mais vous pouvez trouver des exemples ci-dessous ! ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
+Il n'existe pas encore de vidéo pour les contrôleurs du Quest 2, mais vous pouvez trouver des exemples ci-dessous ! ![Oculus Quest 2](/.assets/images/grips-and-tricks/touch3-grips.jpg)
 
 Consultez le canal `#tips-and-grips` pour plus de suggestions et d'exemples dans leur [Discord](https://discord.gg/dwe8mbC). N'oubliez pas que le style de jeu et la morphologie du corps sont propres à chacun ; la prise de quelqu'un d'autre pourrait ne pas être exactement ce dont vous avez besoin. N'ayez pas peur d'expérimenter afin de trouver ce qui vous convient !
 
@@ -84,7 +84,7 @@ Votre corps peut obstruer la vision d'une _lighthouse_ (lighthouse = l'un des de
 2. Tournez votre corps de 45 degrés de sorte à ce que vos lighthouses puissent voir vos deux contrôleurs.
 3. Faire pivoter la pièce virtuelle dans les paramètres de Beat Saber pour compenser, de sorte à ce que vous fassiez face au menu dans le jeu.
 
-![Aide au suivi du Vive](~@images/grips-and-tricks/vive-tracking-help.gif)
+![Aide au suivi du Vive](/.assets/images/grips-and-tricks/vive-tracking-help.gif)
 
 Cette astuce peut s'appliquer avec les capteurs de l'Oculus Rift (CV1) également.
 
@@ -94,4 +94,4 @@ La force de vos gestes dans Beat Saber peut provoquer la compression du ressort 
 
 ## Pour aller plus loin
 
-![Pour aller plus loin](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)
+![Pour aller plus loin](/.assets/images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)

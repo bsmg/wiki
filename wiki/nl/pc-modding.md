@@ -50,7 +50,7 @@ In plaats daarvan is het beter de geschreven gidsen te volgen die hier op de wik
 
 Een simpel Beat Saber mod installatie programma vergelijkbaar met mod manager, maar met extra functies zoals het verwijderen van mods en het controleren van versies! Download het op [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
 
-![Mod Assistant](~@images/beginners-guide/modassistant.png)
+![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
 ## Hoe kom ik aan meer nummers
 
@@ -127,12 +127,12 @@ Als je een mod hebt gedownload en geïnstalleerd en je krijgt het Gebruikersacco
 ### BSIPA installeren
 
 1. Download [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
-2. Navigeer naar jouw [installatiemap.](#installatiemap) En pak de inhoud van de BSIPA zip hierin uit. ![Directory Clean](~@images/beginners-guide/directory-clean.png 'Directory Clean') ![Directory Ipa](~@images/beginners-guide/directory-ipa.png 'Directory Ipa')
-3. Dubbel-klik op IPA.exe om het spel te modden. Alle mods in de `Plugins` map worden nu geladen bij het starten van het spel. Als er foutmeldingen zijn, dan heb je waarschijnlijk stap 2 niet correct gevolgd. ![Directory Patched](~@images/beginners-guide/directory-patched.png 'Directory Patched')
+2. Navigeer naar jouw [installatiemap.](#installatiemap) En pak de inhoud van de BSIPA zip hierin uit. ![Directory Clean](/.assets/images/beginners-guide/directory-clean.png 'Directory Clean') ![Directory Ipa](/.assets/images/beginners-guide/directory-ipa.png 'Directory Ipa')
+3. Dubbel-klik op IPA.exe om het spel te modden. Alle mods in de `Plugins` map worden nu geladen bij het starten van het spel. Als er foutmeldingen zijn, dan heb je waarschijnlijk stap 2 niet correct gevolgd. ![Directory Patched](/.assets/images/beginners-guide/directory-patched.png 'Directory Patched')
 
 ### Mods Installeren
 
-4. Download de mod(s) die je wilt installeren, of ze nu komen van GitHub, het [BSMG Discord](https://discord.com/invite/beatsabermods) `#pc-mods` kanaal, [BeatMods](https://beatmods.com/#/mods) of andere bronnen. **Zorg ervoor dat je ook alle afhankelijkheden download die vereist zijn door de mod(s).** ![Directory Plugins](~@images/beginners-guide/directory-plugins.png 'Directory Plugins')
+4. Download de mod(s) die je wilt installeren, of ze nu komen van GitHub, het [BSMG Discord](https://discord.com/invite/beatsabermods) `#pc-mods` kanaal, [BeatMods](https://beatmods.com/#/mods) of andere bronnen. **Zorg ervoor dat je ook alle afhankelijkheden download die vereist zijn door de mod(s).** ![Directory Plugins](/.assets/images/beginners-guide/directory-plugins.png 'Directory Plugins')
 5. Sommige mods hebben installatie-instructies, sommigen niet. Over het algemeen kan je de inhoud van de zip naar je Beat Saber installatiemap slepen en neerzetten, de bestanden in de zip zouden naar de bijbehorende mappen moeten gaan.
 
 ## Het de-installeren van mods

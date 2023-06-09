@@ -18,7 +18,7 @@ Ce guide a originalement été écrit le 7 février 2019. Il a été mis à jour
 
 Votre multiplicateur de score est affiché ci-dessous, entouré d'un anneau. Comme indiqué dans le nom, le multiplicateur affecte votre score. Vous commencez la chanson avec un multiplicateur de **1x** et l'anneau montre la progression du prochain multiplicateur. Quand vous touchez la note qui vous amène au prochain multiplicateur, cette note est affectée par le nouveau multiplicateur et non l'ancien. Les différents multiplicateurs sont : **1x, 2x, 4x et 8x**. Chaque fois que vous perdez le combo, c'est-à-dire rater une note, couper dans la mauvaise direction ou avec le mauvais sabre, toucher une bombe ou passer à travers un obstacle, votre multiplicateur se réduit de moitié.
 
-![Multiplicateur de score](~@images/ranking-guide/score_multiplier.png 'Multiplicateur de score')
+![Multiplicateur de score](/.assets/images/ranking-guide/score_multiplier.png 'Multiplicateur de score')
 
 ### Score
 
@@ -37,7 +37,7 @@ Cela montre à quel point il est important de faire des gestes appropriés pour 
 
 Une idée reçue sur Beat Saber serait que la plupart des gens pensent que les zones de collision des notes sont les blocs eux-mêmes. Alors que c'était le cas auparavant, les zones de collision ont changé à plusieurs reprises à travers les différentes versions du jeu et beaucoup d'images se trompent. Voici une image montrant la zone de collision actuelle. Comme vous pouvez le voir, la zone de collision est plutôt grande et s'étend beaucoup sur les côtés et la face avant. Avec cette information, il est recommandé de frapper avec la pointe du sabre pour maximiser l'angle et obtenir la meilleure coupe possible.
 
-![Zones de collision](~@images/ranking-guide/hitbox.png 'Zones de collision')
+![Zones de collision](/.assets/images/ranking-guide/hitbox.png 'Zones de collision')
 
 ### Précision
 
@@ -88,7 +88,7 @@ Dans l'optique d'empêcher les joueurs expérimentés d'effectuer des centaines 
 
 Vous avez peut-être déjà remarqué que dans votre liste, deux nombres terminant par PP apparaissent. L'un d'entre eux est **bleu** et représente le nombre brut de PP que vous avez remporté lors de la partie, avant que la courbe ne soit appliquée. L'autre nombre est gris et montre le nombre de PP ajustés que vous allez récupérer à l'issue de la partie après que la courbe soit appliquée.
 
-![PP brut et ajusté](~@images/ranking-guide/SSraw&weighted_pp.png 'PP brut et ajusté')
+![PP brut et ajusté](/.assets/images/ranking-guide/SSraw&weighted_pp.png 'PP brut et ajusté')
 
 Comme cela a déjà été dit, la quantité de PP ajustés reçus dépend de la courbe et de la position de la chanson au sein de votre liste. Par exemple, si votre meilleure partie vous a fait gagner **260 PP bruts**, vous allez recevoir **260 PP ajustés**, ce qui représente **100%** des PP bruts de cette partie. Cependant, si votre deuxième meilleure partie vous a rapporté **247 PP bruts**, vous allez recevoir **238 PP ajustés** après que la courbe soit appliquée.
 

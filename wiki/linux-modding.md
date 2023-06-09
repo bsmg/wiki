@@ -25,7 +25,7 @@ Using mods in Linux isn't supported by mod developers, so you might encounter bu
 2. Run the executable.
 3. Read the Intro, then navigate to the `Mods` tab and select the mods you want to install, finally press `Refresh Mods`.
 
-![BeatSaberModManager Mods Tab](~@images/beginners-guide/beatsabermodmanager.png)
+![BeatSaberModManager Mods Tab](/.assets/images/beginners-guide/beatsabermodmanager.png)
 
 4. Wait for your mods to finish installing.
 5. Start Beat Saber. Your mods should be installed.
@@ -46,16 +46,16 @@ tar -xzf Beataroni-linux64-1.0.tar.gz
 2. Run `Beataroni-Linux.sh`.
 3. Type in your Beat Saber installation location and select the correct version then press **continue**.
 
-![Beataroni Beat Saber Installation and Version Select Screen](~@images/modding/beataroni-start.png)
+![Beataroni Beat Saber Installation and Version Select Screen](/.assets/images/modding/beataroni-start.png)
 
 4. Select the mods you want to install then press **continue**. You will need `BSIPA` (at the top of the list)
    as it is a dependency for all other mods.
 
-![Beataroni Mod List Screen](~@images/modding/beataroni-mod-list.png)
+![Beataroni Mod List Screen](/.assets/images/modding/beataroni-mod-list.png)
 
 5. Wait for your mods to finish installing.
 
-![Beataroni Log Screen](~@images/modding/beataroni-end.png)
+![Beataroni Log Screen](/.assets/images/modding/beataroni-end.png)
 
 6. Start Beat Saber. Your mods should be installed.
 
@@ -82,14 +82,14 @@ wineboot -u
 winetricks dotnet472 d3dcompiler_47
 ```
 
-![dotnet472](~@images/beginners-guide/dotnet472.png)
+![dotnet472](/.assets/images/beginners-guide/dotnet472.png)
 
 ::: warning
 There will be multiple install prompts you will have to go through, this is normal!
 :::
 
 3. Download a [mod installer](/pc-modding.md#installers) and put it in your [install folder](/faq/install-folder.md).
-   <br/>![Install Folder](~@images/beginners-guide/linuxMAInstall.png)
+   <br/>![Install Folder](/.assets/images/beginners-guide/linuxMAInstall.png)
 4. Move your Beat Saber folder onto your desktop and open a terminal
 5. Navigate to your Beat Saber folder in a terminal and run your installer in Wine.
 
@@ -99,20 +99,20 @@ cd "Beat Saber"
 wine ModAssistant.exe
 ```
 
-![ModAssistant](~@images/beginners-guide/linuxRunWine.png)
+![ModAssistant](/.assets/images/beginners-guide/linuxRunWine.png)
 
 After running the command, you should then see this error window. Click ok.
 
-![ModAssistant](~@images/beginners-guide/linuxMAnoInstall.png)
+![ModAssistant](/.assets/images/beginners-guide/linuxMAnoInstall.png)
 
 4. Direct the installer to your Beat Saber directory
 
-![ModAssistant](~@images/beginners-guide/linuxGameDirectory.png)
+![ModAssistant](/.assets/images/beginners-guide/linuxGameDirectory.png)
 
 5. Install your mods. You should now have a Plugins folder.
 6. Close out of the installer and put the Beat Saber folder back into common.
 
-![Beat Saber folder](~@images/beginners-guide/linuxDirectoryCommon.png)
+![Beat Saber folder](/.assets/images/beginners-guide/linuxDirectoryCommon.png)
 
 7. Start Beat Saber and check if the mods are installed. If they aren't you may need to [do a DLL override](#dll-override)
 
@@ -126,15 +126,15 @@ Make sure you have [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
 
 1. Download a [Windows 10 ISO](https://www.microsoft.com/en-us/software-download/windows10ISO)
 2. Make a new Windows 10 virtual machine and start it.
-   ![VirtualBox](~@images/beginners-guide/linuxVirtualBox.png)
+   ![VirtualBox](/.assets/images/beginners-guide/linuxVirtualBox.png)
 3. When asked, select the Windows 10 ISO. and start it.
-   ![VirtualBox](~@images/beginners-guide/linuxVBwinInstall.png)
+   ![VirtualBox](/.assets/images/beginners-guide/linuxVBwinInstall.png)
 4. After you are finished installing Windows, download a [mod installer](/beginners-guide.md#installers) inside the VM.
-   ![Mod Assistant Install](~@images/beginners-guide/linuxVBMAdownload.png)
+   ![Mod Assistant Install](/.assets/images/beginners-guide/linuxVBMAdownload.png)
 5. Make a shared folder by going to 'Devices > Shared Folders > Shared Folder Settings...'.
    Make a new shared folder with the common folder `/.local/share/Steam/steamapps/common/` and turn Auto-mount on.
-   ![Shared Folder](~@images/beginners-guide/linuxVBsharedfolder.png)
-   ![Shared Folder](~@images/beginners-guide/linuxVBfolderautomount.png)
+   ![Shared Folder](/.assets/images/beginners-guide/linuxVBsharedfolder.png)
+   ![Shared Folder](/.assets/images/beginners-guide/linuxVBfolderautomount.png)
 6. Run the mod installer you have downloaded, and manually select your Beat Saber folder, then install your mods.
 7. Exit the VM and start Beat Saber. Your mods should be installed. If they aren't, go to [DLL Override](#dll-override)
 
@@ -152,7 +152,7 @@ If you messed up the registry file, either verify your game files or reinstall B
    to get there more quickly
 3. Paste `"winhttp"="native,builtin"` on the bottom below the others, and save the file.
 
-![DLL Overrides](~@images/beginners-guide/linuxDLLoverride.png 'DLL Overrides')
+![DLL Overrides](/.assets/images/beginners-guide/linuxDLLoverride.png 'DLL Overrides')
 
 ## Have questions?
 

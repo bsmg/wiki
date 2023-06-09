@@ -25,7 +25,7 @@ Unity [2019.3.15f1](https://unity3d.com/get-unity/download/archive)
 
 ## First Steps
 
-![Custom Platform Script](~@images/models/platforms/CustomPlatformScript.png)
+![Custom Platform Script](/.assets/images/models/platforms/CustomPlatformScript.png)
 
 Create an `Empty GameObject` by right clicking in the Hierarchy window and selecting `Create Empty`. Make sure to set its
 position in the Inspector to the origin (0,0,0). Search in the inspector for the `Custom Platform` script and apply it to
@@ -35,7 +35,7 @@ In the script there are also Exporting options. These disable parts of the origi
 
 ## Adding Models
 
-![Objects](~@images/models/platforms/Objects.png)
+![Objects](/.assets/images/models/platforms/Objects.png)
 
 Drag all models you want in your Platform into the GameObject created in the second step and position them to your liking.
 For the materials of the models make sure to use Beat Saber compatible shaders or the ones that you can find in the Project
@@ -54,11 +54,11 @@ Enabling the rotation effect, makes the rings rotate by the specified event, dep
 
 Enabling the step effect changes the rings spacing when the specified event is called between 2 variables.
 
-![Track Rings Script](~@images/models/platforms/TrackRingsScript.png)
+![Track Rings Script](/.assets/images/models/platforms/TrackRingsScript.png)
 
 ### Tube Light
 
-![Tube Light](~@images/models/platforms/TubeLightScript.png)
+![Tube Light](/.assets/images/models/platforms/TubeLightScript.png)
 
 This script enables blinking lights. Putting this on an empty gameObject changes the background and adds a bit of color
 to that space, according to the light ID's. When there's also a mesh renderer on it, it'll change the meshes color according
@@ -66,7 +66,7 @@ to the light ID's. When using this no color adding is needed, so I change the si
 
 ### Song Events
 
-![Song Event Handler](~@images/models/platforms/SongEventHandler.png)
+![Song Event Handler](/.assets/images/models/platforms/SongEventHandler.png)
 
 The event manager is the most useful script. With it you can trigger an action on any beat saber event (even unused ones).
 For adding an event press the `+` button underneath `On Trigger ()`. Drag in the object you want to manipulate into the box
@@ -75,14 +75,14 @@ component, then what action. Make sure that you only use 1 event Handler per gam
 
 ### Spectrogram
 
-![Spectrogram](~@images/models/platforms/Spectrogram.png)
+![Spectrogram](/.assets/images/models/platforms/Spectrogram.png)
 
 The spectrogram script works like the track rings script and also requires a prefab or gameObject. This will get stretched
 and shrunk according to the sound of the game and the variables provided. (Haven't played with this either).
 
 ## Exporting
 
-![Saving](~@images/models/platforms/Save.png)
+![Saving](/.assets/images/models/platforms/Save.png)
 
 Export the platform trough the script that you previously added to the gameObject to the location of your choosing.
 Preferably the game's directory `Beat Saber/CustomPlatforms`.
@@ -92,7 +92,7 @@ Preferably the game's directory `Beat Saber/CustomPlatforms`.
 if you want to share them with the world.
 :::
 
-![Cat](~@images/models/platforms/Cat.png)
+![Cat](/.assets/images/models/platforms/Cat.png)
 
 ## Baked Lighting
 

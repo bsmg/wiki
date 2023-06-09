@@ -70,7 +70,7 @@ The ShaderBundleExporter adds some helpful shader warnings when exporting a mode
 
 If you export a model that contains unconverted shaders, a warning will pop up in the console:
 
-![Model Export Warnings](~@images/models/shaders/ModelExportWarnings.png)
+![Model Export Warnings](/.assets/images/models/shaders/ModelExportWarnings.png)
 
 It's important to pay attention to these, as these shaders have a high chance of only appearing in one eye ingame.
 For more about converting shaders, see the [converting project shaders](#converting-project-shaders) section.
@@ -90,7 +90,7 @@ check that section out first if this applies to you
 
 The ShaderBundleExporter contains some useful utilities to automate shader conversion:
 
-![shader convert window](~@images/models/shaders/ShaderWindow.png)
+![shader convert window](/.assets/images/models/shaders/ShaderWindow.png)
 
 - Convert All Shaders In Project
 - Convert All Shaders In Folder
@@ -115,7 +115,7 @@ backup your full project before making any big changes.
 After converting your shaders, the `Console` tab will contain useful information that tells you
 how much of your shader library was automatically converted.
 
-![shader convert export](~@images/models/shaders/ShaderConvertExport.png)
+![shader convert export](/.assets/images/models/shaders/ShaderConvertExport.png)
 
 As you can see, some of these shaders couldn't be autoconverted.
 Most shaders - especially shaders included by default in model Unity Projects - are fairly simple,
@@ -148,7 +148,7 @@ The exported files are also identical to any other model file. All of your shade
 and the source code isn't in the final product - exactly like a saber, platform, avatar, etc.
 
 The `Shaders/Create .shaderbundle` window contains three ways to build a `.shaderbundle`
-![Shader Bundle Window](~@images/models/shaders/ShaderBundlesWindow.png)
+![Shader Bundle Window](/.assets/images/models/shaders/ShaderBundlesWindow.png)
 
 - All Shaders In Project: The recommended way to export shaders. If you export this, you will have
   one .shaderbundle file that can fix the vast majority of your models!
@@ -167,10 +167,10 @@ After selecting one of these options, the `.shaderbundle` compiler will do the f
 Once you've exported a .shaderbundle, the `Console` tab will contain useful information to see how your bundle export went.
 
 There's a list of every shader that was successfully exported and some helpful stats:
-![.shaderbundle export info](~@images/models/shaders/ShaderExportInfo.png)
+![.shaderbundle export info](/.assets/images/models/shaders/ShaderExportInfo.png)
 
 If any of your shaders are unusual and unable to be autoconverted, they'll show errors in the console:
-![.shaderbundle export errors](~@images/models/shaders/ShaderExportErrors.png)
+![.shaderbundle export errors](/.assets/images/models/shaders/ShaderExportErrors.png)
 
 These errors are pretty verbose, and upon click will show more information on what exactly went wrong during the autoconversion.
 Read the [Manual Shader Conversion](#manually-converting-shaders) instructions to learn how to fix these.

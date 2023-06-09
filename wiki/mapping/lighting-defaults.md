@@ -20,7 +20,7 @@ These are the colors used in the 1.19.0 version of the game.
 
 ### The First (Default)
 
-![Image of TheFirst colors](~@images/mapping/color-thefirst.png)  
+![Image of TheFirst colors](/.assets/images/mapping/color-thefirst.png)  
 This is used by most environments. It it used by The First (Default), Triangle, Nice, Big Mirror, Imagine Dragons,
 Monstercat, and Panic! at the Disco environments.
 
@@ -76,7 +76,7 @@ Monstercat, and Panic! at the Disco environments.
 
 ### Origins
 
-![Image of Origins colors](~@images/mapping/color-origins.png)  
+![Image of Origins colors](/.assets/images/mapping/color-origins.png)  
 This is used by the Origins environment. These colors are also used in the Glass Desert environment.
 
 #### Left Side Block Color (Yellow)
@@ -131,7 +131,7 @@ This is used by the Origins environment. These colors are also used in the Glass
 
 ### KDA
 
-![Image of KDA colors](~@images/mapping/color-kda.png)  
+![Image of KDA colors](/.assets/images/mapping/color-kda.png)  
 This is used by the K/DA environment.
 
 #### Left Side Block Color (Orange)
@@ -186,7 +186,7 @@ This is used by the K/DA environment.
 
 ### Crab Rave
 
-![Image of Crabrave colors](~@images/mapping/color-crabrave.png)  
+![Image of Crabrave colors](/.assets/images/mapping/color-crabrave.png)  
 This is used by the Crab Rave environment.
 
 #### Left Side Block Color (Green)
@@ -241,7 +241,7 @@ This is used by the Crab Rave environment.
 
 ### Rocket
 
-![Image of Rocket colors](~@images/mapping/color-rocket.png)  
+![Image of Rocket colors](/.assets/images/mapping/color-rocket.png)  
 This is used by the Rocket League environment.
 
 #### Left Side Block Color (Orange)
@@ -296,7 +296,7 @@ This is used by the Rocket League environment.
 
 ### Green Day
 
-![Image of GreenDay colors](~@images/mapping/color-greenday.png)  
+![Image of GreenDay colors](/.assets/images/mapping/color-greenday.png)  
 This is used by the Green Day and Green Day Grenade environment.
 
 #### Left Side Block Color (Green)
@@ -351,7 +351,7 @@ This is used by the Green Day and Green Day Grenade environment.
 
 ### Timbaland
 
-![Image of Timbaland colors](~@images/mapping/color-timbaland.png)  
+![Image of Timbaland colors](/.assets/images/mapping/color-timbaland.png)  
 This is used by the Timbaland environment.
 
 #### Left Side Block Color (Grey)
@@ -406,7 +406,7 @@ This is used by the Timbaland environment.
 
 ### FitBeat
 
-![Image of FitBeat colors](~@images/mapping/color-fitbeat.png)  
+![Image of FitBeat colors](/.assets/images/mapping/color-fitbeat.png)  
 This is used by the FitBeat environment.
 
 #### Left Side Block Color (Yellow)
@@ -461,7 +461,7 @@ This is used by the FitBeat environment.
 
 ### Linkin Park
 
-![Image of Linkin Park colors](~@images/mapping/color-linkinpark.png)  
+![Image of Linkin Park colors](/.assets/images/mapping/color-linkinpark.png)  
 This is used by the Linkin Park environment.
 
 Introduced in this environment are the boost colors.
@@ -539,7 +539,7 @@ All other environments fallback to their respective environment colors for boost
 
 ### BTS
 
-![Image of BTS colors](~@images/mapping/color-bts.png)  
+![Image of BTS colors](/.assets/images/mapping/color-bts.png)  
 This is used by the BTS environment.
 
 #### Left Side Block Color (Red-Purple)
@@ -614,7 +614,7 @@ This is used by the BTS environment.
 
 ### Kaleidoscope
 
-![Image of Kaleidoscope colors](~@images/mapping/color-kaleidoscope.png)  
+![Image of Kaleidoscope colors](/.assets/images/mapping/color-kaleidoscope.png)  
 This is used by the Kaleidoscope environment.
 
 #### Left Side Block Color (Red)
@@ -689,7 +689,7 @@ This is used by the Kaleidoscope environment.
 
 ### Interscope
 
-![Image of Interscope colors](~@images/mapping/color-interscope.png)  
+![Image of Interscope colors](/.assets/images/mapping/color-interscope.png)  
 This is used by the Interscope environment.
 
 #### Left Side Block Color (Yellow)
@@ -764,7 +764,7 @@ This is used by the Interscope environment.
 
 ### Skrillex
 
-![Image of Skrillex colors](~@images/mapping/color-skrillex.png)  
+![Image of Skrillex colors](/.assets/images/mapping/color-skrillex.png)  
 This is used by the Skrillex environment.
 
 #### Left Side Block Color (Red)
@@ -839,7 +839,7 @@ This is used by the Skrillex environment.
 
 ### Billie Eilish
 
-![Image of Billie colors](~@images/mapping/color-billie.png)  
+![Image of Billie colors](/.assets/images/mapping/color-billie.png)  
 This is used by the Billie Eilish environment.
 
 #### Left Side Block Color (Yellow)
@@ -914,7 +914,7 @@ This is used by the Billie Eilish environment.
 
 ### Spooky
 
-![Image of Spooky colors](~@images/mapping/color-spooky.png)  
+![Image of Spooky colors](/.assets/images/mapping/color-spooky.png)  
 This is used by the Spooky environment.
 
 #### Left Side Block Color (Orange)
@@ -989,7 +989,7 @@ This is used by the Spooky environment.
 
 ### Lady Gaga
 
-![Image of Gaga colors](~@images/mapping/color-gaga.png)  
+![Image of Gaga colors](/.assets/images/mapping/color-gaga.png)  
 This is used by the Lady Gaga environment.
 
 #### Left Side Block Color (Pink)
@@ -1064,7 +1064,7 @@ This is used by the Lady Gaga environment.
 
 ### Noir
 
-![Image of Noir colors](~@images/mapping/color-noir.png)  
+![Image of Noir colors](/.assets/images/mapping/color-noir.png)  
 This is not used by any environment.
 
 #### Left Side Block Color (Dark Grey)
@@ -1119,7 +1119,7 @@ This is not used by any environment.
 
 ### Default Custom
 
-![Image of custom colors](~@images/mapping/color-custom0.png)  
+![Image of custom colors](/.assets/images/mapping/color-custom0.png)  
 This is not used by any environment. These are the colors used with an unmodified custom color profile.
 
 #### Left Side Block Color (Red)

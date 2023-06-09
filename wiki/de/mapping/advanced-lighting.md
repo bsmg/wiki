@@ -110,7 +110,7 @@ Der Text, den du in die Vorschläge eingibst, muss exakt sein, sonst werden die 
 8. Während du im Editor bist, drücke `Tab`, um in das Beleuchtungsmenü zu wechseln, und drücke dann `Umschalt+C`, um das RGB-Panel aufzurufen.
 
 ::: align center
-![Screenshot von MMA2 Chroma RGB Panels](~@images/mapping/mma2-chroma-rgb-panel.png)
+![Screenshot von MMA2 Chroma RGB Panels](/.assets/images/mapping/mma2-chroma-rgb-panel.png)
 
 RGB Panel
 :::
@@ -134,7 +134,7 @@ Es wird **HÖCHSTENS** empfohlen, dass du deine Map in das 2.0-Format konvertier
 Chroma-Events bewirken nichts von selbst. Chroma-Events fungieren als Lichtfilter für zukünftige Events und "färben" die normalen Beleuchtungsevents auf die angegebene Farbe. Im folgenden Beispiel bewirken die Ereignisse Orange und Pink nichts, bis das blaue Vanilla-Fade-Ereignis eintritt. Dies funktioniert als orangefarbene Überblendung und dann als Rosa Überblendung.
 
 ::: align center
-![Screenshot of the MMA2 lighting track with Chroma events](~@images/mapping/mma2-chroma.png)
+![Screenshot of the MMA2 lighting track with Chroma events](/.assets/images/mapping/mma2-chroma.png)
 :::
 
 :::warning WARNUNG
@@ -154,7 +154,7 @@ Farbverläufe mit einer 1/8-Präzision sind fein genug, um im Spiel glatt auszus
 Denke daran, dass du immer noch die normalen Beleuchtungsereignisse platzieren musst, damit die Chroma-Lights funktionieren!
 
 ::: align center
-![Screenshot of the MMA2 lighting track with a Chroma gradient](~@images/mapping/mma2-chroma-gradient.png)
+![Screenshot of the MMA2 lighting track with a Chroma gradient](/.assets/images/mapping/mma2-chroma-gradient.png)
 :::
 
 ### Custom Fades
@@ -164,9 +164,9 @@ Wenn du dunklere Schattierungen einer Farbe verwendest, kannst du einen benutzer
 ::: align center
 Vergleich der Rot-Töne.
 
-|                          100%er Wert                          |                         75%er Wert                          |                         50%er Wert                          |                         25%er Wert                          |                         0%er Wert                         |
-| :-----------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: | :-------------------------------------------------------: |
-| ![Bild von RGB 100% Rot](~@images/mapping/red-lights-100.jpg) | ![Bild von RGB 75% Rot](~@images/mapping/red-lights-75.jpg) | ![Bild von RGB 50% Rot](~@images/mapping/red-lights-50.png) | ![Bild von RGB 25% Rot](~@images/mapping/red-lights-25.png) | ![Bild von RGB 0% Rot](~@images/mapping/red-lights-0.png) |
+|                             100%er Wert                              |                             75%er Wert                             |                             50%er Wert                             |                             25%er Wert                             |                            0%er Wert                             |
+| :------------------------------------------------------------------: | :----------------------------------------------------------------: | :----------------------------------------------------------------: | :----------------------------------------------------------------: | :--------------------------------------------------------------: |
+| ![Bild von RGB 100% Rot](/.assets/images/mapping/red-lights-100.jpg) | ![Bild von RGB 75% Rot](/.assets/images/mapping/red-lights-75.jpg) | ![Bild von RGB 50% Rot](/.assets/images/mapping/red-lights-50.png) | ![Bild von RGB 25% Rot](/.assets/images/mapping/red-lights-25.png) | ![Bild von RGB 0% Rot](/.assets/images/mapping/red-lights-0.png) |
 
 :::
 
@@ -188,9 +188,9 @@ Im neuen Chroma-Format sind die Farbdaten in das Vanilla Lighting Event eingebau
 ::: align center
 Vergleich des gleichen Rots mit verschiedenen Alphas.
 
-|                              1.00 Alpha                               |                              0.75 Alpha                               |                              0.50 Alpha                               |                              0.25 Alpha                               |                              0.00 Alpha                               |
-| :-------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |
-| ![Bild von Rot 1.00 Alpha](~@images/mapping/red-lights-alpha-100.jpg) | ![Bild von Rot 0.75 Alpha](~@images/mapping/red-lights-alpha-075.png) | ![Bild von Rot 0.50 Alpha](~@images/mapping/red-lights-alpha-050.png) | ![Bild von Rot 0.25 Alpha](~@images/mapping/red-lights-alpha-025.png) | ![Bild von Rot 0.00 Alpha](~@images/mapping/red-lights-alpha-000.png) |
+|                                  1.00 Alpha                                  |                                  0.75 Alpha                                  |                                  0.50 Alpha                                  |                                  0.25 Alpha                                  |                                  0.00 Alpha                                  |
+| :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
+| ![Bild von Rot 1.00 Alpha](/.assets/images/mapping/red-lights-alpha-100.jpg) | ![Bild von Rot 0.75 Alpha](/.assets/images/mapping/red-lights-alpha-075.png) | ![Bild von Rot 0.50 Alpha](/.assets/images/mapping/red-lights-alpha-050.png) | ![Bild von Rot 0.25 Alpha](/.assets/images/mapping/red-lights-alpha-025.png) | ![Bild von Rot 0.00 Alpha](/.assets/images/mapping/red-lights-alpha-000.png) |
 
 :::
 

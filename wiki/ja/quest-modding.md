@@ -72,7 +72,7 @@ Mod がインストールされていたら`UNINSTALL APP`ボタンからアン�
 
 `Install APK from folder`ボタンを選択して最新の BMBF apk をみつけダウンロードしてください。もしくは SideQuest にドラッグしてください。 どちらの方法でも BMBF を Quest にインストールできます。
 
-![APKのインストール](~@images/beginners-guide/apkfromfolder.png)
+![APKのインストール](/.assets/images/beginners-guide/apkfromfolder.png)
 
 ガイドの [BMBF セットアップ](#bmbfのセットアップ) セクションに進んでください。
 
@@ -86,13 +86,13 @@ Mod を入れる前に、Beat Saber を一度起動し、任意の曲を一回�
 現状、マルチユーザー機能を利用している場合、Mod は動作しません。 Mod を導入する前に一時的にサブアカウントをすべて削除する必要があります。 希望の Mod をインストールし終えたらあとで元に戻すことができます。
 :::
 
-Beat Saber を一度実行した後、以下の写真のように、unknown sources(提供元不明) から BMBF を開きます。 ![不明なソース](~@images/beginners-guide/quest_home-menu.jpg)
+Beat Saber を一度実行した後、以下の写真のように、unknown sources(提供元不明) から BMBF を開きます。 ![不明なソース](/.assets/images/beginners-guide/quest_home-menu.jpg)
 
 開いたら、BMBF の各手順に沿って Mod を導入してください。 完了後[QuestBoard](https://www.questmodding.com/)と[BeastSaber](https://www.bsaber.com)が BMBF にアプリとしてロードされます。 そこから利用可能な任意のカスタム曲をダウンロードすることができます。 また、BeatSaver ボタンをクリックして曲をダウンロードすることもできます。
 
 インストールする手順の中で `Restore App` がポップアップ表示されることがありますが、そのときは `Close` をクリックしてください。 この警告は海賊版ゲームに向けられたものなので、Mod を導入しているだけの場合は、無視してもほとんど影響はありません。
 
-![RestoreApp](~@images/beginners-guide/restoreapp.png)
+![RestoreApp](/.assets/images/beginners-guide/restoreapp.png)
 
 引き続き[コア mod](#コアmod)のインストールステップに進んでください。
 
@@ -104,7 +104,7 @@ SideQuest を開き、Quest を PC に接続します。
 
 SideQuest ファイルエクスプローラを使用して、 `sdcard/Android/data/com.beatgames.beatsaber/files` に移動します。
 
-![SideQuestファイル](~@images/beginners-guide/sqfiles.png)
+![SideQuestファイル](/.assets/images/beginners-guide/sqfiles.png)
 
 `AvatarData.dat`と`PlayerData.dat` と `settings.cfg` を PC 上のフォルダに保存します。 これらにはあなたのスコアやそのほかのセッティングが含まれているのでなくさないでください。
 
@@ -143,15 +143,15 @@ SideQuest のファイルから[サイドクエストを利用したバックア
 クエストで BMBF を開き、`Browser` タブに移動します。 QuestBoard は自動的に開きます。  
 そうでない場合は、`Choose Website` をクリックし、`QuestBoard` ボタンをクリックします。
 
-![globequestboard](~@images/beginners-guide/globequestboard.png)
+![globequestboard](/.assets/images/beginners-guide/globequestboard.png)
 
 以下の [QuestBoard](https://www.questmodding.com/) ウェブサイトにアクセスしてください 次に、 `Get Mods` タブを選択します。
 
-![questboardhome](~@images/beginners-guide/questboardhome.png)
+![questboardhome](/.assets/images/beginners-guide/questboardhome.png)
 
 ポインタをドラッグして下にスクロールします。 そのリストから任意の Mod を選択し、その隣のダウンロードボタンを押してダウンロードすることができます。 一部のダウンロードは、ウェブサイトまたは GitHub ページにリダイレクトされる場合があります。 その場合は、画面上の指示に従うか、リリースリストで最新の `.qmod` をそれぞれ選択します。
 
-![questboardmods](~@images/beginners-guide/questboardmods.png)
+![questboardmods](/.assets/images/beginners-guide/questboardmods.png)
 
 ### PC を使った方法
 
@@ -163,7 +163,7 @@ SideQuest のファイルから[サイドクエストを利用したバックア
 
 Quest で BMBF を開き、 `Tools` タブに移動します そこにウェブアドレスとバージョン番号が表示されます
 
-![ip](~@images/beginners-guide/ip.png)
+![ip](/.assets/images/beginners-guide/ip.png)
 
 お使いの PC でブラウザを開き、検索バーにアドレスを入力します。
 
@@ -171,7 +171,7 @@ Quest で BMBF を開き、 `Tools` タブに移動します そこにウェブ�
 
 これがうまくいかない場合は、 [こちら](#bmbf-web-インターフェイスが読み込まれていません) をクリックしてトラブルシューティングの手順にしたがってください。
 
-![bmbfweb](~@images/beginners-guide/bmbfweb.png)
+![bmbfweb](/.assets/images/beginners-guide/bmbfweb.png)
 
 Quest 互換の Mod をアップロードボックスにドラッグして、同期してください。 もともと古いバージョン用に作られた Mod の場合は、自動的に有効にはなりません。 古い Mod を有効にするには、 `Mods` タブに移動し、そこから有効にします。
 
@@ -190,7 +190,7 @@ SongDownloader (コア mod) を使ってゲーム内で曲をダウンロード�
 3. SongDownloader タブを開く
 4. 曲を検索してダウンロードします。
 
-ゲーム内で曲をダウンロードするときは、ゲームを再起動する必要はありません。 SongLoader を使用して自動的に曲をロードします。 ![songDownloader](~@images/beginners-guide/songdownloader.png)
+ゲーム内で曲をダウンロードするときは、ゲームを再起動する必要はありません。 SongLoader を使用して自動的に曲をロードします。 ![songDownloader](/.assets/images/beginners-guide/songdownloader.png)
 
 ### BMBF からダウンロードする方法
 

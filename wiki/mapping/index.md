@@ -392,7 +392,7 @@ Follow these steps to test any of your maps made with a community editor using a
 1. Locate your WIP song folder on your PC.
 2. Establish a connection to your Quest from your PC with a USB cable.
 3. Open SideQuest on your PC and click the folder icon on the top right.
-   ![SideQuest Files](~@images/beginners-guide/sqfiles.png)
+   ![SideQuest Files](/.assets/images/beginners-guide/sqfiles.png)
 4. Navigate to `sdcard/ModData/com.beatgames.beatsaber/Mods/SongLoader/CustomWIPLevels`. If this folder does not exist,
    you can create it yourself.
 5. Upload your WIP song folder from your PC to that folder on your Quest with SideQuest.
@@ -427,10 +427,10 @@ either video or text format in a DM or in the `#mapping-discussion` channel.
 1. Create a compressed .zip file of the individual song files.
    - If you are using [CM](#chromapper), you can press the `Create Zip` button in the Song info Settings to create a
      compressed `.zip` of your map.  
-     ![Create Zip button](~@images/mapping/cm-create-zip.jpg)
+     ![Create Zip button](/.assets/images/mapping/cm-create-zip.jpg)
    - If you are using [MMA2](./mediocre-map-assistant.md), you can press the `Package Song to Zip` button in the Song Info
      Settings to create a compressed `.zip` of your map.  
-     ![Package Song to Zip button](~@images/mapping/mma2-package-zip.jpg)
+     ![Package Song to Zip button](/.assets/images/mapping/mma2-package-zip.jpg)
    - If you are using [Beatmapper.app](#beatmapper-app), follow their [downloading instructions](https://beatmapper.app/docs/manual/publishing#downloading-your-map).
    - You can manually create the zip by following this [How to Video](https://streamable.com/u20ci) if you are not using
      a web based editor.

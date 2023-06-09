@@ -43,14 +43,14 @@ First, create a new project using the template.
 We are going to use the `BSIPA4 Plugin (Core)` template, and we'll be calling our mod `BSPlugin1`.
 You should change the name to whatever you want to call your mod.
 
-![Modding Template Select](~@images/modding/modding-template-select.png 'Modding Template Select')  
-![Modding Template Name](~@images/modding/modding-template-name.png 'Modding Template Name')
+![Modding Template Select](/.assets/images/modding/modding-template-select.png 'Modding Template Select')  
+![Modding Template Name](/.assets/images/modding/modding-template-name.png 'Modding Template Name')
 
 You will then need to set your Beat Saber Directory in Visual Studio.
 Follow the instructions [on the template readme](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use),
 or see the screenshot below.
 
-![Setup Beat Saber Directory](~@images/modding/setup-bs-directory.png 'Setup Beat Saber Directory')
+![Setup Beat Saber Directory](/.assets/images/modding/setup-bs-directory.png 'Setup Beat Saber Directory')
 
 At this point, **try and build the project**, and it should automatically find the
 references for you and the build should succeed.
@@ -108,7 +108,7 @@ For more information on launch arguments, see [here](./#launch-args).
 
 When you launch the game, you should see BSIPA load your mod in the console window.
 
-![Testing console screenshot](~@images/modding/testing-console.png 'Testing console screenshot')
+![Testing console screenshot](/.assets/images/modding/testing-console.png 'Testing console screenshot')
 
 ## Next Steps
 

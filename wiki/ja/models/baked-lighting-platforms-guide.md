@@ -30,13 +30,13 @@ description: Kylonのベイクしたライティングのガイド
 - Spot
 - Area
 
-![](~@images/models/baked/01.png)
+![](/.assets/images/models/baked/01.png)
 
 Inspector でベイクしたいの**Light**を**Mode**を**Baked**に設定します。**Area Light**はベイクのみ使用可能ですから設定が必要はありません。
 
 影が落としたい**Light**の**Shadow Type**を**Soft Shadows**に設定します。
 
-![](~@images/models/baked/02.png)
+![](/.assets/images/models/baked/02.png)
 
 影を受けるや落とすの**GameObject**には、Inspector で Mesh Renderer の部分でこのオプションを設定する必要があります。
 
@@ -45,7 +45,7 @@ Inspector でベイクしたいの**Light**を**Mode**を**Baked**に設定し�
 - **Contribute Global Illumination** **チェック**
 - **Receive Global Illumination** **Lightmaps**
 
-![](~@images/models/baked/03.png)
+![](/.assets/images/models/baked/03.png)
 
 ### 全部の GameObject にライトマップ UV を追加
 
@@ -54,21 +54,21 @@ Scene 内の全ての**GameObject**の**Prefab**をベイクするには、
 
 Unity が自動的に生成ように、**Prefab**をクリックし、Inspector の Model タブを選びます、そして**Generate Lightmap UVs**をチェックします。最後に**Apply**をクリックします。複数の Prefab にクリックをしますと全部まとめてに設定を変われます。
 
-![](~@images/models/baked/04.png)
+![](/.assets/images/models/baked/04.png)
 
 ### 全部のライトと GameObject を Static に設定
 
 Static に設定したの**Light**と**GameObject**のみがベイクに使用されます。Hierarchy のリストの中のシーン内の**GameObject**をクリックします。
 
-![](~@images/models/baked/05.png)
+![](/.assets/images/models/baked/05.png)
 
 そして Inspector で Static をチェックします。
 
-![](~@images/models/baked/06.png)
+![](/.assets/images/models/baked/06.png)
 
 トップレベルの**GameObject**を Static に設定すると、すべての子**GameObject**も現れるのダイアログボックスで static に簡単に設定ができます。
 
-![](~@images/models/baked/07.png)
+![](/.assets/images/models/baked/07.png)
 
 ### ベイクしたライティング互換の BeatSaber シェーダーを使用する
 
@@ -81,7 +81,7 @@ Static に設定したの**Light**と**GameObject**のみがベイクに使用�
 
 シェーダを Unity プロジェクトにインポートまたはドラッグ＆ドロップします。すべて同時にのまたは個々のマテリアルをクリックします、Custom や BeatSaber/GlassRefraction シェーダを選択します。
 
-![](~@images//models/baked/08.png)
+![](/.assets/images//models/baked/08.png)
 
 ほとんどの設定が自動にコピーされるはずですが、再度設定を修正する必要があるかもしれません。
 
@@ -98,7 +98,7 @@ Window メニュー -> Rendering -> Light Settings パネルを開きます。
 - 「Environment Lighting」を「Color」に設定
 - 「Environment Reflections」を「Custom」に設定
 
-![](~@images//models/baked/09.png)
+![](/.assets/images//models/baked/09.png)
 
 4GB VRAM と OpenCL 1.2 をサポートする GPU が 1 つ以上あれば、**Progressive GPU (Preview)**を使用してベイクしたライティングができます。
 
@@ -106,11 +106,11 @@ Window メニュー -> Rendering -> Light Settings パネルを開きます。
 
 **Generate Lighting**を押すと**LightMap**を作成します。
 
-![](~@images/models/baked/10.jpg)
+![](/.assets/images/models/baked/10.jpg)
 
 **Progressive GPU (Preview)**は時々クラッシュのことがあるから**Enlighten**が使えますけど CPU でベイクするからシーンの複雑に場合 GPU より遅い。どっちでも正しいライトマップができます。
 
-![](~@images/models/baked/11.png)
+![](/.assets/images/models/baked/11.png)
 
 ベイクが成功すると、シーンのあるフォルダに同じ名前のフォルダができます。 ライトマップのデータファイルは、その中にあります。
 
@@ -118,7 +118,7 @@ Window メニュー -> Rendering -> Light Settings パネルを開きます。
 - Lightmap-0_comp_dir
 - Lightmap-0_comp_light
 
-![](~@images/models/baked/12.png)
+![](/.assets/images/models/baked/12.png)
 
 ## Prefab Lightmapping
 
@@ -126,15 +126,15 @@ Window メニュー -> Rendering -> Light Settings パネルを開きます。
 
 Custom Platform のスクリプトのある**GameObject**に、新しい**Prefab Lightmap Data**コンポーネントを追加します。
 
-![](~@images/models/baked/13.png)
+![](/.assets/images/models/baked/13.png)
 
 次、メニューから**Assets** -> **Bake Prefab Lightmaps** を選択します。 これが完了すると、**Prefab Lightmap Data** コンポーネントの項目が満たされます。
 
-![](~@images/models/baked/14.png)
+![](/.assets/images/models/baked/14.png)
 
 これで Custom Platform を**エクスポート**します。
 
-![](~@images/models/baked/15.png)
+![](/.assets/images/models/baked/15.png)
 
 ## ビートセイバーでカスタムプラットフォームをテストします
 
@@ -150,13 +150,13 @@ Custom Platform のスクリプトのある**GameObject**に、新しい**Prefab
 
 ビートセイバーの自身白いメニューライトはベイクしたライティングに干渉するかも。**Tweak55 MOD** の **UI タブ** から **Menu Light Color** を変更します。黒いに設定でライトを無効する、または他の色に設定でプラットフォームを照らす。
 
-![](~@images/models/baked/16.jpg)
+![](/.assets/images/models/baked/16.jpg)
 
 ### ゲーム内のライトの色を変更する
 
 ゲーム内のライトもベイクしたライティングに干渉するかも。選曲の時左メニューの**Vanilla タブ**をクリック、**Colors**、**Override Default Colors**を選ぶ、色表示の行の横にある変更ボタンをクリックします。ここも黒いに設定でライトを無効する、または他の色に設定でプラットフォームを照らす。
 
-![](~@images/models/baked/17.jpg)
+![](/.assets/images/models/baked/17.jpg)
 
 ### 他の MOD はプラットフォームに影響を与えるライトを追加できる
 
@@ -164,10 +164,10 @@ Custom Platform のスクリプトのある**GameObject**に、新しい**Prefab
 
 この画像で VMCAvatar のライトが表示します。この MOD を使えれば、私の MOD[VMCLightDisabler](https://github.com/Kylon99/VMCLightDisabler/releases/tag/0.1.0) でいつもビートセイバーのシーンが変わるとライトに無効します。
 
-![](~@images/models/baked/18.jpg)
+![](/.assets/images/models/baked/18.jpg)
 
 ### ビートセイバーをプレイする！
 
 新しいプラットフォームおつかれさまでした！
 
-![](~@images/models/baked/19.jpg)
+![](/.assets/images/models/baked/19.jpg)

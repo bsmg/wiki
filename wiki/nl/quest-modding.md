@@ -55,7 +55,7 @@ Als je al het spel hebt gemod, dan moet je het ook verwijderen door op de `UNINS
 
 Klik op de `Install APK from folder` knop, wat hieronder word aangeduid, en zoek de nieuwste BMBF apk die je hebt gedownload en klik er op, of sleep simpelweg de BMBF apk naar SideQuest. Beide methodes zullen BMBF op je Quest installeren.
 
-![Installeren van de APK](~@images/beginners-guide/apkfromfolder.png)
+![Installeren van de APK](/.assets/images/beginners-guide/apkfromfolder.png)
 
 Zodra het succesvol is geïnstalleerd, controleer dan zeker dat je de nieuwste versie van Beat Saber hebt geïnstalleerd en dat het niet is gemod.
 
@@ -65,13 +65,13 @@ Voordat je begint met modden, start Beat Saber een keer en speel en faal een lev
 Het modden werkt momenteel niet als de experimentele multi-user functie in gebruik is. Je zal tijdelijk alle secundaire accounts moeten verwijderen voordat je het spel mod. Je kan ze later opnieuw toevoegen wanneer je je gewenste mods hebt geïnstalleerd.
 :::
 
-Nadat je Beat Saber een keer hebt gestart, open je BMBF vanuit unknown sources zoals aangeduid op de afbeelding hieronder. ![Unknown Sources](~@images/beginners-guide/quest_home-menu.jpg)
+Nadat je Beat Saber een keer hebt gestart, open je BMBF vanuit unknown sources zoals aangeduid op de afbeelding hieronder. ![Unknown Sources](/.assets/images/beginners-guide/quest_home-menu.jpg)
 
 Eens geopend, volg je elke stap in BMBF zoals hierin wordt verteld om je spel te modden. Wanneer je klaar bent, zou je [bsaber.com](https://www.bsaber.com) moeten zien in de BMBF app. Dit is de website waarvan je alle beschikbare custom levels kan downloaden. Je kan ook op het wereldbol icoontje in de rechterbovenhoek klikken en naar BeatSaver gaan om nummers te downloaden.
 
 Als je op enig moment tijdens het installatieproces de `Restore App` pop-up krijgt te zien, klik dan op `Close`. Deze waarschuwing is meer gericht op illegale versies van het spel, dus als je alleen maar het spel mod, zullen er hoogstwaarschijnlijk geen consequenties zijn als je het negeert.
 
-![Restore App](~@images/beginners-guide/restoreapp.png)
+![Restore App](/.assets/images/beginners-guide/restoreapp.png)
 
 Ga verder naar de [Core mods](#core-mods) stap van het installatieproces.
 
@@ -113,7 +113,7 @@ Voordat je begint met modden, start Beat Saber een keer en speel en faal een lev
 
 Open Bugjaeger op jouw telefoon en verbindt jouw Quest. Je zou een USB-foutopsporingspop-up moeten krijgen in jouw Quest en op jouw telefoon. Selecteer 'allow' op beide apparaten, of als je het liever hebt, kan je ook op 'always allow' selecteren. Zodra Bugjaeger jouw Quest detecteert, installeer je de BMBF APK door het volgende te doen:
 
-![Installeren van de APK met een telefoon](~@images/beginners-guide/InstallAPK.png)
+![Installeren van de APK met een telefoon](/.assets/images/beginners-guide/InstallAPK.png)
 
 Nadat je op ok hebt gedrukt, geef dan toegang tot de bestanden en selecteer het gedownloade APK-bestand met de naam `com.weloveoculus.BMBF.apk`. Het apk-bestand zou nu geïnstalleerd moeten worden op jouw Quest.
 
@@ -121,7 +121,7 @@ Nadat je op ok hebt gedrukt, geef dan toegang tot de bestanden en selecteer het 
 
 Na het installeren van BMBF op je Quest, kan je het terugvinden in je Quest bibliotheek onder 'unknown sources'.
 
-![Unknown Menu](~@images/beginners-guide/quest_home-menu.jpg)
+![Unknown Menu](/.assets/images/beginners-guide/quest_home-menu.jpg)
 
 Open het en sta bestandstoegang toe als ernaar word gevraagd. Volg nu zorgvuldig de instructies op het scherm. Als je klaar bent zou je [BeastSaber](https://bsaber.com) moeten zien in de BMBF app.
 
@@ -172,15 +172,15 @@ Als een mod hier niet op staat, moet je de [Met behulp van jouw PC](#met-behulp-
 
 Open BMBF in je Quest en ga naar het tabblad `Browser`, daar zie je een wereldbol icoon, vergelijkbaar met wat hieronder word getoond. Klik hierop en klik vervolgens op de `QuestBoard` knop.
 
-![Wereldbol icoon naar QuestBoard](~@images/beginners-guide/globequestboard.png)
+![Wereldbol icoon naar QuestBoard](/.assets/images/beginners-guide/globequestboard.png)
 
 Je zou begroet moeten worden met de [QuestBoard](https://www.questmodding.com/) website zoals hieronder staat. Selecteer vervolgens het `DOWNLOAD MODS` tabblad.
 
-![QuestBoard hoofdpagina](~@images/beginners-guide/questboardhome.png)
+![QuestBoard hoofdpagina](/.assets/images/beginners-guide/questboardhome.png)
 
 Scroll naar beneden met je thumbsticks. Je kan nu elke mod selecteren uit de onderstaande lijst en deze downloaden door op de downloadknop te drukken. Sommige downloads kunnen je doorverwijzen naar een website of GitHub pagina. Als dat het geval is, volg dan de instructies op het scherm of selecteer de nieuwste `.zip` in de Releases lijst.
 
-![QuestBoard mods](~@images/beginners-guide/questboardmods.png)
+![QuestBoard mods](/.assets/images/beginners-guide/questboardmods.png)
 
 ### Met behulp van jouw PC
 
@@ -192,7 +192,7 @@ Zorg ervoor dat jouw Quest en PC op hetzelfde netwerk zijn en dat je "http" gebr
 
 Open BMBF in je Quest en ga naar het tabblad `Tools`, daar zie je een webadres en een versienummer vergelijkbaar met wat hieronder word getoond.
 
-![IP adres in BMBF](~@images/beginners-guide/ip.png)
+![IP adres in BMBF](/.assets/images/beginners-guide/ip.png)
 
 Open een browser op jouw PC, en typ het adres in de zoekbalk.
 
@@ -200,7 +200,7 @@ Je zou nu moeten worden begroet met het scherm hieronder.
 
 Als dit niet werkt klik dan [hier](#de-bmbf-webinterface-laad-niet) voor enkele stappen om problemen op te lossen.
 
-![BMBF webinterface](~@images/beginners-guide/bmbfweb.png)
+![BMBF webinterface](/.assets/images/beginners-guide/bmbfweb.png)
 
 Sleep nu alle mods die gemaakt zijn voor de Quest naar het uploadvak en synchroniseer. Als een mod oorspronkelijk is gemaakt voor een oudere versie van het spel, zal deze niet automatisch worden ingeschakeld. Om een mod in te schakelen die gemaakt is voor een oudere versie van het spel, ga je naar het tabblad `Mods` en schakel het daar in.
 

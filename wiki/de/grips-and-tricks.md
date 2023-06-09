@@ -18,7 +18,7 @@ Schau dieses Video von [Cube Community YT](https://www.youtube.com/channel/UCdG9
 
 Zusätzlich, hier ist ein Bild von den Entwicklern, wie [Hitboxen](https://twitter.com/Split82/status/979365834324889600) funktionieren
 
-![Bloq Hitbox](~@images/mapping/hitbox-from-split.jpg)
+![Bloq Hitbox](/.assets/images/mapping/hitbox-from-split.jpg)
 
 ## Ranglisten
 
@@ -54,17 +54,17 @@ Cube-Community hat einige Videos gemacht, die einige der populäreren Griffe fü
 
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
 
-![Vive Griffe Guide](~@images/grips-and-tricks/vive-grips-guide.jpg)
+![Vive Griffe Guide](/.assets/images/grips-and-tricks/vive-grips-guide.jpg)
 
 ### Oculus Rift
 
 <YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
 
-![Oculus Griffe Guide](~@images/grips-and-tricks/oculus-grips-guide.jpg)
+![Oculus Griffe Guide](/.assets/images/grips-and-tricks/oculus-grips-guide.jpg)
 
 ### Oculus Rift S und Quest
 
-Ein Video für Rift S und Quest Controller wurde noch nicht erstellt. Du kannst einige Beispiele unten finden! ![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/touch2-grips.jpg)
+Ein Video für Rift S und Quest Controller wurde noch nicht erstellt. Du kannst einige Beispiele unten finden! ![Oculus Rift S/Quest Guide](/.assets/images/grips-and-tricks/touch2-grips.jpg)
 
 ### Valve Index Controller
 
@@ -72,7 +72,7 @@ Es gibt bisher noch kein Video für Index Controller aber du kannst ein paar Bei
 
 ### Oculus Quest 2
 
-Ein Video für Rift S und Quest Controller wurde noch nicht erstellt. Du kannst einige Beispiele unten finden! ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
+Ein Video für Rift S und Quest Controller wurde noch nicht erstellt. Du kannst einige Beispiele unten finden! ![Oculus Quest 2](/.assets/images/grips-and-tricks/touch3-grips.jpg)
 
 Schaue dir den `#tips-and-grips` channel in der CubeCommunity an für weitere Vorschläge und Beispiele in ihrem [Discord](https://discord.gg/dwe8mbC). Bitte denke daran, das der Spielstil von jedem unterschiedlich sein kann und nicht jeder Griff für dich so gut funktioniert wie für jemanden anderes. Hab keine Angst zu experimentieren und herauszufinden was richtig für dich ist!
 
@@ -84,7 +84,7 @@ Dein Körper kann eine Basisstation davon abhalten, einen deiner Controller zu s
 2. Drehe deinen Körper um 45 Grad so dass beide Basisstationen deine Controller sehen können.
 3. Drehe den Raum innerhalb der Einstellungen von Beat Saber, um ihn so zu drehen, so dass du im Spiel nach vorne siehst.
 
-![Vive Tracking Hilfe](~@images/grips-and-tricks/vive-tracking-help.gif)
+![Vive Tracking Hilfe](/.assets/images/grips-and-tricks/vive-tracking-help.gif)
 
 Dies trifft auch auf Oculus Sensoren zu.
 
@@ -94,4 +94,4 @@ Zu viel Kraft in deinen Swings in Beat Saber kann dazu führen, dass die Federn 
 
 ## Bedenke außerdem
 
-![Bedenke außerdem](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)
+![Bedenke außerdem](/.assets/images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)

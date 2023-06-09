@@ -21,7 +21,7 @@ multiplier and not the old one. The different multipliers are : **1x, 2x, 4x and
 involves missing a note, cutting in the wrong direction or the with the wrong saber, hitting a bomb or going through an
 obstacle, your multiplier will be cut in half.
 
-![Score Multiplier](~@images/ranking-guide/score_multiplier.png 'Score Multiplier')
+![Score Multiplier](/.assets/images/ranking-guide/score_multiplier.png 'Score Multiplier')
 
 ### Scoring
 
@@ -48,7 +48,7 @@ a lot of the pictures out there are mistaken. Here is an image showing the curre
 pretty big and extends a lot on the sides and the front. With this information, it is recommended to hit with the tip of
 the saber to maximize the angle and get the best cut possible.
 
-![Hitboxes](~@images/ranking-guide/hitbox.png 'Hitboxes')
+![Hitboxes](/.assets/images/ranking-guide/hitbox.png 'Hitboxes')
 
 ### Accuracy
 
@@ -172,8 +172,8 @@ You might have noticed that in your list, there are 2 numbers which end with PP.
 represents the raw amount of PP you get from that play, before the curve is applied. The second number is gray and in parenthesis
 showing the actual weighted amount of PP you are getting from that play after the curve is applied.
 
-![Raw and Weighted PP](~@images/ranking-guide/SSraw&weighted_pp.png 'ScoreSaber Raw & Weighted PP')
-![Raw and Weighted PP](~@images/ranking-guide/BLraw&weighted_pp.png 'BeatLeader Raw & Weighted PP')
+![Raw and Weighted PP](/.assets/images/ranking-guide/SSraw&weighted_pp.png 'ScoreSaber Raw & Weighted PP')
+![Raw and Weighted PP](/.assets/images/ranking-guide/BLraw&weighted_pp.png 'BeatLeader Raw & Weighted PP')
 
 As said before, the amount of weighted PP you will receive is determined by the curve and the placement of that song in
 your list. As an example, if your top play is a **260 raw PP** play, you will be rewarded **260 weighted PP** which is a

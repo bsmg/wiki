@@ -42,7 +42,7 @@ Stattdessen solltest du den schriftlichen Anleitungen hier im Wiki folgen oder H
 
 Ein einfacher Beat Saber Mod Installer, ähnlich dem Mod Manager aber mit zusätzlichen Funktionen wie Deinstallation von Mods und Versionskontrolle! Hol es auf [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
 
-![Mod Assistant](~@images/beginners-guide/modassistant.png)
+![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
 ## Wie bekomme ich mehr Songs
 
@@ -105,12 +105,12 @@ Ein Mod-Installer ist die empfohlene Methode, um Mods zu installieren. Siehe den
 ### BSIPA installieren
 
 1. Lade [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases) herunter.
-2. Begib dich zu deinem [Installationsordner.](#installationspfad) und entpacke den Inhalt des Archivs in diesen Ordner. ![Directory Clean](~@images/beginners-guide/directory-clean.png 'Directory Clean') ![Directory Ipa](~@images/beginners-guide/directory-ipa.png 'Directory Ipa')
-3. Doppelklicke auf IPA.exe um das Spiel zu patchen. Alle Mods im Ordner `Plugins` werden ab sofort geladen, wenn das Spiel gestartet wird. Sollte es Fehler geben, hast du etwas in Schritt 2 nicht richtig gemacht. ![Directory Patched](~@images/beginners-guide/directory-patched.png 'Directory Patched')
+2. Begib dich zu deinem [Installationsordner.](#installationspfad) und entpacke den Inhalt des Archivs in diesen Ordner. ![Directory Clean](/.assets/images/beginners-guide/directory-clean.png 'Directory Clean') ![Directory Ipa](/.assets/images/beginners-guide/directory-ipa.png 'Directory Ipa')
+3. Doppelklicke auf IPA.exe um das Spiel zu patchen. Alle Mods im Ordner `Plugins` werden ab sofort geladen, wenn das Spiel gestartet wird. Sollte es Fehler geben, hast du etwas in Schritt 2 nicht richtig gemacht. ![Directory Patched](/.assets/images/beginners-guide/directory-patched.png 'Directory Patched')
 
 ### Mods installieren
 
-4. Lade die Mod(s) herunter die du installieren möchtest. Sei es von GitHub, dem [BSMG Discord](https://discord.com/invite/beatsabermods) `#pc-mods` Kanal, [BeatMods](https://beatmods.com/#/mods) oder anderen Quellen. **Stell sicher, dass du alle Dependncies herunterlädst, die vom Mod benötigt werden.** ![Directory Plugins](~@images/beginners-guide/directory-plugins.png 'Directory Plugins')
+4. Lade die Mod(s) herunter die du installieren möchtest. Sei es von GitHub, dem [BSMG Discord](https://discord.com/invite/beatsabermods) `#pc-mods` Kanal, [BeatMods](https://beatmods.com/#/mods) oder anderen Quellen. **Stell sicher, dass du alle Dependncies herunterlädst, die vom Mod benötigt werden.** ![Directory Plugins](/.assets/images/beginners-guide/directory-plugins.png 'Directory Plugins')
 5. Einige Mods haben Installationsanweisungen, andere nicht. In der Regel kann man einfach die ZIP-Datei im Beat Saber Installationsordner ziehen und entpacken. Die Dateien werden dann in die entsprechenden Ordner entpackt.
 
 ## Wie man Mods deinstalliert

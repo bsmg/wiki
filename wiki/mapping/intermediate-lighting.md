@@ -33,7 +33,7 @@ well as buttons for adding and deleting lanes.
 There are four subsections in the menu: Duration, Filter & Order, Limit
 and Brightness/Rotation Distribution.
 
-![The group info menu](~@images/mapping/groupinfo.png)
+![The group info menu](/.assets/images/mapping/groupinfo.png)
 
 ### Chunk and Order
 
@@ -47,7 +47,7 @@ group all segments into one chunk. Setting to 2 instead splits the
 segment into two continuous chunks of 6 lights. Setting to 3 splits it
 into chunks of 4, setting to 4 splits it into chunks of 3, and so on.
 
-![How chunking groups segments](~@images/mapping/v3/chunks.svg)
+![How chunking groups segments](/.assets/images/mapping/v3/chunks.svg)
 
 Setting to 0 is the same as setting the number of chunks to be equal to
 the total number of segments, that is, each segment resides in its own
@@ -59,7 +59,7 @@ how chunks are normally ordered, there are two modes of ordering, normal
 order and reversed order, where reverse order is the reverse of normal
 order.
 
-![Normal and reversed order](~@images/mapping/v3/reverse.svg)
+![Normal and reversed order](/.assets/images/mapping/v3/reverse.svg)
 
 All other operations work on the level of chunks and respect the mode
 of ordering.
@@ -77,7 +77,7 @@ segments are grouped into chunks: section 2 affects the lights right
 after section 1, section 3 affects those right after section 2, and
 so on. The section controlled is given in the Id field.
 
-![Lights selected by section filter](~@images/mapping/v3/filter_section.svg)
+![Lights selected by section filter](/.assets/images/mapping/v3/filter_section.svg)
 
 In step and offset mode, one chunk would be affected by the lane for
 every step. The size of a step is adjustable. If step is set to 2, then
@@ -92,7 +92,7 @@ step of two, the offset 2 would cause chunks 2, 4, 6, 8 and on to be
 selected, while the offset 3 selects chunks 3, 5, 7, 9 and on, not
 affecting the first chunk.
 
-![Lights selected by step-offset filter](~@images/mapping/v3/filter_stepoffset.svg)
+![Lights selected by step-offset filter](/.assets/images/mapping/v3/filter_stepoffset.svg)
 
 ### Limiting
 
@@ -125,7 +125,7 @@ identical. With 4 chunks, a duration of 3 and an event at beat 0,
 the 1st chunk acts at beat 0, the 2nd chunk at beat 1, and so on
 until the 4th and the final chunk acts at beat 3.
 
-![Wave duration with one event](~@images/mapping/v3/wave_duration.svg)
+![Wave duration with one event](/.assets/images/mapping/v3/wave_duration.svg)
 
 When there are multiple events, the duration is when the last chunk
 acts according to the last event of the sequence. The first chunk still
@@ -135,7 +135,7 @@ sequence identically, with an equal delay. With 4 chunks, a duration of
 3, the second chunk at 1, 2 and 4, the third at 2, 3 and 5 and the last
 at 3, 4 and the duration of 6.
 
-![Wave duration with multiple events](~@images/mapping/v3/wave_duration_multi.svg)
+![Wave duration with multiple events](/.assets/images/mapping/v3/wave_duration_multi.svg)
 
 With step duration, the time between subsequent chunks is specified
 instead as the duration. When an on event is placed on beat 0 and the

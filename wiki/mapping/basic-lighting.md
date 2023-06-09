@@ -250,7 +250,7 @@ currently available through Mod Assistant. A beta version may be available in th
 <tbody>
 <tr><td style="text-align: center;">
 
-![Image of Default environment](~@images/mapping/default_env.jpg)
+![Image of Default environment](/.assets/images/mapping/default_env.jpg)
 
 </td><td>
 
@@ -269,7 +269,7 @@ currently available through Mod Assistant. A beta version may be available in th
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Triangle environment](~@images/mapping/triangle_env.jpg)
+![Image of Triangle environment](/.assets/images/mapping/triangle_env.jpg)
 
 </td><td>
 
@@ -288,7 +288,7 @@ currently available through Mod Assistant. A beta version may be available in th
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Nice environment](~@images/mapping/nice_env.jpg)
+![Image of Nice environment](/.assets/images/mapping/nice_env.jpg)
 
 </td><td>
 
@@ -307,7 +307,7 @@ currently available through Mod Assistant. A beta version may be available in th
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Big Mirror environment](~@images/mapping/big-mirror_env.jpg)
+![Image of Big Mirror environment](/.assets/images/mapping/big-mirror_env.jpg)
 
 </td><td>
 
@@ -325,7 +325,7 @@ currently available through Mod Assistant. A beta version may be available in th
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of K/DA environment](~@images/mapping/kda_env.jpg)
+![Image of K/DA environment](/.assets/images/mapping/kda_env.jpg)
 
 </td><td>
 
@@ -344,7 +344,7 @@ currently available through Mod Assistant. A beta version may be available in th
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Monstercat environment](~@images/mapping/monstercat_env.jpg)
+![Image of Monstercat environment](/.assets/images/mapping/monstercat_env.jpg)
 
 </td><td>
 
@@ -363,7 +363,7 @@ currently available through Mod Assistant. A beta version may be available in th
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Crab Rave environment](~@images/mapping/crab-rave_env.jpg)
+![Image of Crab Rave environment](/.assets/images/mapping/crab-rave_env.jpg)
 
 </td><td>
 
@@ -382,7 +382,7 @@ currently available through Mod Assistant. A beta version may be available in th
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Imagine Dragons environment](~@images/mapping/dragons_env.jpg)
+![Image of Imagine Dragons environment](/.assets/images/mapping/dragons_env.jpg)
 
 </td><td>
 
@@ -402,7 +402,7 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Origins environment](~@images/mapping/origins_env.jpg)
+![Image of Origins environment](/.assets/images/mapping/origins_env.jpg)
 
 </td><td>
 
@@ -420,7 +420,7 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Panic! at the Disco environment](~@images/mapping/panic_env.jpg)
+![Image of Panic! at the Disco environment](/.assets/images/mapping/panic_env.jpg)
 
 </td><td>
 
@@ -439,7 +439,7 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Rocket League environment](~@images/mapping/rocket_env.jpg)
+![Image of Rocket League environment](/.assets/images/mapping/rocket_env.jpg)
 
 </td><td>
 
@@ -457,7 +457,7 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Green Day environment](~@images/mapping/green-day_env.jpg)
+![Image of Green Day environment](/.assets/images/mapping/green-day_env.jpg)
 
 </td><td>
 
@@ -474,7 +474,7 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Green Day Grenade environment](~@images/mapping/gd-grenade_env.jpg)
+![Image of Green Day Grenade environment](/.assets/images/mapping/gd-grenade_env.jpg)
 
 </td><td>
 
@@ -491,7 +491,7 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Timbaland environment](~@images/mapping/timbaland_env.jpg)
+![Image of Timbaland environment](/.assets/images/mapping/timbaland_env.jpg)
 
 </td><td>
 
@@ -511,7 +511,7 @@ center lights<br />
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of FitBeat environment](~@images/mapping/fitbeat_env.jpg)
+![Image of FitBeat environment](/.assets/images/mapping/fitbeat_env.jpg)
 
 </td><td>
 
@@ -531,7 +531,7 @@ you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Linkin Park environment](~@images/mapping/linkin-park_env.jpg)
+![Image of Linkin Park environment](/.assets/images/mapping/linkin-park_env.jpg)
 
 </td><td>
 
@@ -550,7 +550,7 @@ you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of BTS environment](~@images/mapping/bts_env.jpg)
+![Image of BTS environment](/.assets/images/mapping/bts_env.jpg)
 
 </td><td>
 
@@ -569,7 +569,7 @@ you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Kaleidoscope environment](~@images/mapping/kaleidoscope_env.jpg)
+![Image of Kaleidoscope environment](/.assets/images/mapping/kaleidoscope_env.jpg)
 
 </td><td>
 
@@ -588,7 +588,7 @@ you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Interscope environment](~@images/mapping/interscope_env.jpg)
+![Image of Interscope environment](/.assets/images/mapping/interscope_env.jpg)
 
 </td><td>
 
@@ -609,7 +609,7 @@ and 17, respectively. Car control takes the place of ring spin.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Skrillex environment](~@images/mapping/skrillex_env.jpg)
+![Image of Skrillex environment](/.assets/images/mapping/skrillex_env.jpg)
 
 </td><td>
 
@@ -630,7 +630,7 @@ floor + secondary ring lights, left & right lasers<br />
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Billie Eilish environment](~@images/mapping/billie_env.jpg)
+![Image of Billie Eilish environment](/.assets/images/mapping/billie_env.jpg)
 
 </td><td>
 
@@ -652,7 +652,7 @@ control left & right lasers.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Spooky environment](~@images/mapping/spooky_env.jpg)
+![Image of Spooky environment](/.assets/images/mapping/spooky_env.jpg)
 
 </td><td>
 
@@ -670,7 +670,7 @@ control left & right lasers.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Gaga environment](~@images/mapping/gaga_env.jpg)
+![Image of Gaga environment](/.assets/images/mapping/gaga_env.jpg)
 
 </td><td>
 
@@ -691,7 +691,7 @@ control left & right lasers.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Glass Desert environment](~@images/mapping/glass-desert_env.jpg)
+![Image of Glass Desert environment](/.assets/images/mapping/glass-desert_env.jpg)
 
 </td><td>
 
@@ -724,7 +724,7 @@ environments can only be used with 360&deg; and 90&deg; levels.
 <tbody>
 <tr><td style="text-align: center;">
 
-![Image of Weave environment](~@images/mapping/weave_env.jpg)
+![Image of Weave environment](/.assets/images/mapping/weave_env.jpg)
 
 </td><td>
 
@@ -928,7 +928,7 @@ the inner ring.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Queen environment](~@images/mapping/queen_env.jpg)
+![Image of Queen environment](/.assets/images/mapping/queen_env.jpg)
 
 </td><td>
 
@@ -1029,7 +1029,7 @@ file in your `UserData` folder to tweak settings.
 **For Steam Users:**
 
 Open the game properties and add `fpfc` to the Steam launch options in the General tab.
-![Fpfc launch options](~@images/mapping/fpfc.png)
+![Fpfc launch options](/.assets/images/mapping/fpfc.png)
 
 **For Oculus Users:**
 

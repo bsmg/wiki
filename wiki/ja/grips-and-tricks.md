@@ -18,7 +18,7 @@ PP を取るための TeknozFR による記事 [ランキング & スコアリ�
 
 さらに、 [hitbox](https://twitter.com/Split82/status/979365834324889600) がどのように動作するかの開発者が提供するイメージです。
 
-![ノーツ](~@images/mapping/hitbox-from-split.jpg)
+![ノーツ](/.assets/images/mapping/hitbox-from-split.jpg)
 
 ## ランキング
 
@@ -54,17 +54,17 @@ Cube コミュニティでは、Oculus Touch controller(CV1) や Vive Wands の�
 
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
 
-![Viveグリップガイド](~@images/grips-and-tricks/vive-grips-guide.jpg)
+![Viveグリップガイド](/.assets/images/grips-and-tricks/vive-grips-guide.jpg)
 
 ### Oculus Rift
 
 <YouTube url='https://www.youtube.com/watch?v=XFt90q69aEA' />
 
-![Oculus Grips Guide](~@images/grips-and-tricks/oculus-grips-guide.jpg)
+![Oculus Grips Guide](/.assets/images/grips-and-tricks/oculus-grips-guide.jpg)
 
 ### Oculus Rift S と Quest
 
-RiftS と Quest コントローラ用のビデオはまだ作成されていませんが、以下のいくつかの例を示します！ ![Oculus Rift S/Quest Guide](~@images/grips-and-tricks/touch2-grips.jpg)
+RiftS と Quest コントローラ用のビデオはまだ作成されていませんが、以下のいくつかの例を示します！ ![Oculus Rift S/Quest Guide](/.assets/images/grips-and-tricks/touch2-grips.jpg)
 
 ### Valve Index コントローラー
 
@@ -72,7 +72,7 @@ Index コントローラ用のビデオはまだ作成されていませんが�
 
 ### Oculus Quest 2
 
-Quest ２コントローラ用のビデオはまだ作成されていませんが、以下のいくつかの例を示します！ ![Oculus Quest 2](~@images/grips-and-tricks/touch3-grips.jpg)
+Quest ２コントローラ用のビデオはまだ作成されていませんが、以下のいくつかの例を示します！ ![Oculus Quest 2](/.assets/images/grips-and-tricks/touch3-grips.jpg)
 
 [Cube コミュニティの Discord](https://discord.gg/dwe8mbC)のチャンネル`#tips-and-grips`でより多くの例が示されています。 誰もがプレイスタイルと体の動かし方が違うことを覚えておいてください。他の誰かの握り方があなた思うように機能しない場合があります。 あなたに合う方法をいろいろ試して探してください！
 
@@ -84,7 +84,7 @@ Quest ２コントローラ用のビデオはまだ作成されていません�
 2. 両方のコントローラーが感知できるように体を 45 度回転させます。
 3. Beat Saber の設定でルームを回転させて補正し、ゲーム内で画面が前向きに表示されるようにします。
 
-![Vive トラッキング ヘルプ](~@images/grips-and-tricks/vive-tracking-help.gif)
+![Vive トラッキング ヘルプ](/.assets/images/grips-and-tricks/vive-tracking-help.gif)
 
 これは Oculus センサーにも適用できます。
 
@@ -94,4 +94,4 @@ Beat Saber のスイングで、Touch コントローラのバネが圧縮して
 
 ## 以下のことにも注意しましょう
 
-![以下のことにも注意しましょう](~@images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)
+![以下のことにも注意しましょう](/.assets/images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)

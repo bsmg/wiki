@@ -58,7 +58,7 @@ The text you enter in the suggestions has to be exact or the Chroma lighting eff
 8. While in the editor, press `Tab` to swap to the lighting menu and then press `Shift+C` to bring up the RGB panel.
 
 ::: align center
-![Screenshot of the MMA2 Chroma RGB Panel](~@images/mapping/mma2-chroma-rgb-panel.png)
+![Screenshot of the MMA2 Chroma RGB Panel](/.assets/images/mapping/mma2-chroma-rgb-panel.png)
 
 The RGB Panel
 :::
@@ -86,7 +86,7 @@ Chroma events don’t do anything on its own. Chroma events function by acting a
 anything until the vanilla blue fade event happens. This functions as an orange fade and then a pink fade.
 
 ::: align center
-![Screenshot of the MMA2 lighting track with Chroma events](~@images/mapping/mma2-chroma.png)
+![Screenshot of the MMA2 lighting track with Chroma events](/.assets/images/mapping/mma2-chroma.png)
 :::
 
 :::warning
@@ -108,7 +108,7 @@ Gradients using a 1/8 precision are fine enough to look smooth in game.
 Remember that you still need to place the normal lighting events for the Chroma lights to function!
 
 ::: align center
-![Screenshot of the MMA2 lighting track with a Chroma gradient](~@images/mapping/mma2-chroma-gradient.png)
+![Screenshot of the MMA2 lighting track with a Chroma gradient](/.assets/images/mapping/mma2-chroma-gradient.png)
 :::
 
 ### Custom Fades
@@ -120,9 +120,9 @@ feeling of a fade in / out event.
 ::: align center
 Comparison of shades of red.
 
-|                          100% Value                           |                          75% Value                          |                          50% Value                          |                          25% Value                          |                         0% Value                          |
-| :-----------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: | :-------------------------------------------------------: |
-| ![Image of RGB 100% Red](~@images/mapping/red-lights-100.jpg) | ![Image of RGB 75% Red](~@images/mapping/red-lights-75.jpg) | ![Image of RGB 50% Red](~@images/mapping/red-lights-50.png) | ![Image of RGB 25% Red](~@images/mapping/red-lights-25.png) | ![Image of RGB 0% Red](~@images/mapping/red-lights-0.png) |
+|                              100% Value                              |                             75% Value                              |                             50% Value                              |                             25% Value                              |                             0% Value                             |
+| :------------------------------------------------------------------: | :----------------------------------------------------------------: | :----------------------------------------------------------------: | :----------------------------------------------------------------: | :--------------------------------------------------------------: |
+| ![Image of RGB 100% Red](/.assets/images/mapping/red-lights-100.jpg) | ![Image of RGB 75% Red](/.assets/images/mapping/red-lights-75.jpg) | ![Image of RGB 50% Red](/.assets/images/mapping/red-lights-50.png) | ![Image of RGB 25% Red](/.assets/images/mapping/red-lights-25.png) | ![Image of RGB 0% Red](/.assets/images/mapping/red-lights-0.png) |
 
 :::
 
@@ -148,9 +148,9 @@ even more convincing fades or for more subtle lighting.
 ::: align center
 Comparison of the same red with different alphas.
 
-|                              1.00 Alpha                               |                              0.75 Alpha                               |                              0.50 Alpha                               |                              0.25 Alpha                               |                              0.00 Alpha                               |
-| :-------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |
-| ![Image of Red 1.00 Alpha](~@images/mapping/red-lights-alpha-100.jpg) | ![Image of Red 0.75 Alpha](~@images/mapping/red-lights-alpha-075.png) | ![Image of Red 0.50 Alpha](~@images/mapping/red-lights-alpha-050.png) | ![Image of Red 0.25 Alpha](~@images/mapping/red-lights-alpha-025.png) | ![Image of Red 0.00 Alpha](~@images/mapping/red-lights-alpha-000.png) |
+|                                  1.00 Alpha                                  |                                  0.75 Alpha                                  |                                  0.50 Alpha                                  |                                  0.25 Alpha                                  |                                  0.00 Alpha                                  |
+| :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
+| ![Image of Red 1.00 Alpha](/.assets/images/mapping/red-lights-alpha-100.jpg) | ![Image of Red 0.75 Alpha](/.assets/images/mapping/red-lights-alpha-075.png) | ![Image of Red 0.50 Alpha](/.assets/images/mapping/red-lights-alpha-050.png) | ![Image of Red 0.25 Alpha](/.assets/images/mapping/red-lights-alpha-025.png) | ![Image of Red 0.00 Alpha](/.assets/images/mapping/red-lights-alpha-000.png) |
 
 :::
 

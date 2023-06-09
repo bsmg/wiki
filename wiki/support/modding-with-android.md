@@ -51,15 +51,15 @@ Head to the [Oculus dashboard](https://dashboard.oculus.com/) and sign in with y
 
 After you successfully logged in and verified you can create your new Organization.
 
-![DevModeDashboard](~@images/beginners-guide/DevModeDashboard.png)
+![DevModeDashboard](/.assets/images/beginners-guide/DevModeDashboard.png)
 
-![DevModeCreateOrg](~@images/beginners-guide/DevModeCreateOrg.png)
+![DevModeCreateOrg](/.assets/images/beginners-guide/DevModeCreateOrg.png)
 
 After you created it, you can enable Developer mode in the Oculus app on your smartphone.
 
 #### Enable Developer mode in the Oculus App
 
-![EnableDevMode](~@images/beginners-guide/EnableDevMode.png)
+![EnableDevMode](/.assets/images/beginners-guide/EnableDevMode.png)
 
 You can now skip to [Setup your Phone](#setup-your-phone)
 
@@ -85,16 +85,16 @@ using your Facebook account instead.
 3. Verify with the email you got sent and log in again with the account you created.
 4. Go to the [verify page](https://developer.oculus.com/manage/verify/) and set up Two Factor Authentication.
 
-![2fa](~@images/beginners-guide/2fa.png)
+![2fa](/.assets/images/beginners-guide/2fa.png)
 
 #### Create New Organization
 
 After you did that head to the [Oculus Dashboard](https://dashboard.oculus.com/) and create a organization with _almost_
 any name you want.
 
-![DevModeDashboard](~@images/beginners-guide/DevModeDashboard.png)
+![DevModeDashboard](/.assets/images/beginners-guide/DevModeDashboard.png)
 
-![DevModeCreateOrg](~@images/beginners-guide/DevModeCreateOrg.png)
+![DevModeCreateOrg](/.assets/images/beginners-guide/DevModeCreateOrg.png)
 
 #### Add Yourself to the Organization
 
@@ -103,13 +103,13 @@ in the drop down and then clicking on Members.
 There you add a new Member with the Role Admin and put in the Username of your Facebook profile. After that, click add
 and the user should be added.
 
-![DevModeCreateOrg](~@images/beginners-guide/addmember.png)
+![DevModeCreateOrg](/.assets/images/beginners-guide/addmember.png)
 
 #### Enable Developer Mode in the Oculus App
 
 You should now be able to enable the developer mode in the Oculus app on your smartphone.
 
-![EnableDevMode](~@images/beginners-guide/EnableDevMode.png)
+![EnableDevMode](/.assets/images/beginners-guide/EnableDevMode.png)
 
 You can now continue to [Setup your Phone](#setup-your-phone)
 
@@ -148,7 +148,7 @@ Afterwards you should have BMBF installed on your Quest and are ready to mod Bea
 
 After successfully installing BMBF onto your Quest you should be able to find it in your Quests library under unknown sources.
 
-![UnknownMenu](~@images/beginners-guide/quest_home-menu.jpg)
+![UnknownMenu](/.assets/images/beginners-guide/quest_home-menu.jpg)
 
 Open it and allow file access after starting it if prompted. Now follow the on-screen instructions carefully.
 After you finished you should see [BeastSaber](https://bsaber.com).

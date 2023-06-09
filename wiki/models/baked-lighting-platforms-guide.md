@@ -38,14 +38,14 @@ in Unity can be baked:
 - Spot
 - Area
 
-![Example of each light type](~@images/models/baked/01.png)
+![Example of each light type](/.assets/images/models/baked/01.png)
 
 Set the **Mode** to **Baked** for the lights you want to be baked in the Inspector. **Area Lights** do not need to be set
 as they can only be used with Baked Lighting.
 
 For the lights you want to cast shadows set the **Shadow Type** to **Soft Shadows**.
 
-![Light Settings](~@images/models/baked/02.png)
+![Light Settings](/.assets/images/models/baked/02.png)
 
 For the **GameObjects** that cast and receive shadows in the Inspector in the **Mesh Render** section you must set these
 options.
@@ -55,7 +55,7 @@ options.
 - **Contribute Global Illumination** **Check**
 - **Receive Global Illumination** **Lightmaps**
 
-![Mesh Render Configuration](~@images/models/baked/03.png)
+![Mesh Render Configuration](/.assets/images/models/baked/03.png)
 
 ### Add UV Coordinates to All Objects
 
@@ -65,23 +65,23 @@ For all the prefabs of objects in your scene to be baked, you must have
 To let Unity automatically generate them for you click on each **Prefab** and in the Inspector under the Model tab,
 click **Generate Lightmap UVs** and click **Apply**.　 You can click on multiple prefabs to apply this all together.
 
-![Lightmap UV Configuration](~@images/models/baked/04.png)
+![Lightmap UV Configuration](/.assets/images/models/baked/04.png)
 
 ### Set All GameObjects and Lights to Static
 
 Only **GameObjects** and **Lights** that are set to static will be used for Baked Lighting. Click on the GameObjects in
 the scene in the Hierarchy list.
 
-![Select GameObject](~@images/models/baked/05.png)
+![Select GameObject](/.assets/images/models/baked/05.png)
 
 Then go to the Inspector and check Static.
 
-![Set Static](~@images/models/baked/06.png)
+![Set Static](/.assets/images/models/baked/06.png)
 
 If you change a top level GameObject to static, the Unity Editor will ask if you also want to also set all the children
 to static, so you can easily change all objects in your scene.
 
-![Apply to all Children Objects](~@images/models/baked/07.png)
+![Apply to all Children Objects](/.assets/images/models/baked/07.png)
 
 ### Use a Baked Lighting Compatible BeatSaber Shader
 
@@ -98,7 +98,7 @@ two will work for the majority of uses.
 Import or Drop the shaders into your Unity Project. Then click on one or all of your materials and choose the Custom or
 BeatSaber/GlassRefraction shader.
 
-![Set Shader to Custom](~@images/models/baked/08.png)
+![Set Shader to Custom](/.assets/images/models/baked/08.png)
 
 Most details should be copied over but you may have to fix the settings again.
 
@@ -113,7 +113,7 @@ reflections will influence your baking so set them to the right color or maps.
 - Set Environment Lighting source to color
 - Set Environment Reflections to Custom
 
-![Object Configuration](~@images/models/baked/09.png)
+![Object Configuration](/.assets/images/models/baked/09.png)
 
 You can use **Progressive GPU (Preview)** to do light baking if you have at least one GPU with 4GB VRAM and OpenCL 1.2
 support.
@@ -123,12 +123,12 @@ to stop it from constantly baking after every change.
 
 Press **Generate Lighting** to create the light maps.
 
-![Configure Renderer](~@images/models/baked/10.jpg)
+![Configure Renderer](/.assets/images/models/baked/10.jpg)
 
 **Progressive GPU (Preview)** however, sometimes crashes. So you can also **Enlighten** which uses your CPU but is much
 slower depending on your scene. Both will make the appropriate light maps.
 
-![Alternative Renderer](~@images/models/baked/11.png)
+![Alternative Renderer](/.assets/images/models/baked/11.png)
 
 If the bake is successful, in the folder where your scene is there will be a folder of the same name. The lightmap data
 files will be there.
@@ -137,7 +137,7 @@ files will be there.
 - Lightmap-0_comp_dir
 - Lightmap-0_comp_light
 
-![Lightmap Data Results](~@images/models/baked/12.png)
+![Lightmap Data Results](/.assets/images/models/baked/12.png)
 
 ## Prefab Lightmapping
 
@@ -147,16 +147,16 @@ Beat Saber. Lightmapping data is normally exported per **Scene** (like in VRChat
 
 In the **GameObject** with the Custom Platform script, add a new **Prefab Lightmap Data** component.
 
-![Add new Prefab Lightmap Data](~@images/models/baked/13.png)
+![Add new Prefab Lightmap Data](/.assets/images/models/baked/13.png)
 
 Then go to the menu and choose **Assets** -> **Bake Prefab Lightmaps**. Once this is done the entries in the
 **Prefab Lightmap Data** component will be filled.
 
-![Import Result](~@images/models/baked/14.png)
+![Import Result](/.assets/images/models/baked/14.png)
 
 Now you can **Export** the Custom Platform.
 
-![Export Prefab](~@images/models/baked/15.png)
+![Export Prefab](/.assets/images/models/baked/15.png)
 
 ## Testing Your Platform in Beat Saber
 
@@ -175,7 +175,7 @@ Copy the exported Custom Platform .plat file to your Beat Saber/CustomPlatforms 
 The Beat Saber menu light will reflect off of baked lighting while in the menu. Go to the **Tweak55 MOD**, the **UI tab**
 and change **Menu Light Color**. You can set the Beat Saber menu light to black to turn it off or set it to a certain color.
 
-![Tweak55 Color Change Demo](~@images/models/baked/16.jpg)
+![Tweak55 Color Change Demo](/.assets/images/models/baked/16.jpg)
 
 ### Change the Colored Lights in Game
 
@@ -183,7 +183,7 @@ The colored lights during gameplay will also reflect off the baked lighting. Dur
 in the left menu, choose **Colors**, **Override Default Colors** and click the **Edit Button** beside the row of colors.
 You can set them to black to turn them off or set the colors to enhance the platform lighting.
 
-![In Game Color Change Demo](~@images/models/baked/17.jpg)
+![In Game Color Change Demo](/.assets/images/models/baked/17.jpg)
 
 ### Other MODs Can Add Lights Which Affect the Platform
 
@@ -193,10 +193,10 @@ with baked lighting.
 Pictured here is VMCAvatar. If you are using this MOD you can use my [VMCLightDisabler](https://github.com/Kylon99/VMCLightDisabler/releases/tag/0.1.0)
 to turn off the light whenever the scene changes.
 
-![Other Mod Color change Demo](~@images/models/baked/18.jpg)
+![Other Mod Color change Demo](/.assets/images/models/baked/18.jpg)
 
 ## Play Beat Saber
 
 Have fun with your new platform!
 
-![Final Result](~@images/models/baked/19.jpg)
+![Final Result](/.assets/images/models/baked/19.jpg)

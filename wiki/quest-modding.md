@@ -60,7 +60,7 @@ If you haven't already, download and install the [SideQuest Easy Installer](http
 
 **Note:** If you are on iOS, for `Step 4: Enable Developer Mode and Reboot` follow these steps instead
 
-![iOSHowTo](~@images/beginners-guide/EnableDevModeIOS.png)
+![iOSHowTo](/.assets/images/beginners-guide/EnableDevModeIOS.png)
 
 There are two methods available to obtain BMBF:
 
@@ -91,7 +91,7 @@ all secondary accounts before modding the game. You can add them back later once
 :::
 
 After running Beat Saber once, open BMBF from unknown sources as the picture below shows.
-![UnknownSources](~@images/beginners-guide/quest_home-menu.jpg)
+![UnknownSources](/.assets/images/beginners-guide/quest_home-menu.jpg)
 
 Once opened, follow each step in BMBF exactly as you're told to mod your game. Once completed, you should see
 [QuestBoard](https://www.questmodding.com/) with [BeastSaber](https://www.bsaber.com) loaded inside of the BMBF app.
@@ -103,7 +103,7 @@ When trying to launch Beat Saber after modding it, you will likely get the Resto
 Open App instead (hitting Close at this point will do nothing). This warning is more directed to pirated
 versions of the game so if you're just modding there will likely be no consequences for ignoring it.
 
-![RestoreApp](~@images/beginners-guide/restoreapp.png)
+![RestoreApp](/.assets/images/beginners-guide/restoreapp.png)
 
 Continue to the [Core Mods](#core-mods) step of the installation process.
 
@@ -120,7 +120,7 @@ Open SideQuest and connect your Quest to your PC.
 
 Navigate to `sdcard/Android/data/com.beatgames.beatsaber/files` using the SideQuest file explorer.
 
-![SideQuest Files](~@images/beginners-guide/sqfiles.png)
+![SideQuest Files](/.assets/images/beginners-guide/sqfiles.png)
 
 Save the files: `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` into a folder on your PC. Do not lose these, as they
 contain your scores and other settings!
@@ -172,18 +172,18 @@ If a mod is not seen in here, you should follow the [Using Your PC](#using-your-
 Open BMBF in your Quest and go to the `Browser` tab. The QuestBoard website should automatically open.  
 If not, click `Choose Website` at the top right, then click the `QuestBoard` button.
 
-![globequestboard](~@images/beginners-guide/globequestboard.png)
+![globequestboard](/.assets/images/beginners-guide/globequestboard.png)
 
 You should be greeted with the [QuestBoard](https://www.questmodding.com/) website below.
 Next, select the `Get Mods` tab.
 
-![questboardhome](~@images/beginners-guide/questboardhome.png)
+![questboardhome](/.assets/images/beginners-guide/questboardhome.png)
 
 Scroll down by clicking and dragging the pointer. You can now select any mod from the list, seen below, and download it
 by hitting the download button next to it. Some downloads may redirect you to a website or GitHub page. If so, follow the
 instructions onscreen, or select the latest `.qmod` in the Releases list, respectively.
 
-![questboardmods](~@images/beginners-guide/questboardmods.png)
+![questboardmods](/.assets/images/beginners-guide/questboardmods.png)
 
 ### Using your PC
 
@@ -197,7 +197,7 @@ Make sure your Quest and PC are on the same network and that you are using http 
 Open BMBF in your Quest and go to the `Tools` tab, there you should see a
 web address and a version number similar to what's shown below.
 
-![ip](~@images/beginners-guide/ip.png)
+![ip](/.assets/images/beginners-guide/ip.png)
 
 On your PC, open your browser and type the address into the search bar.
 
@@ -205,7 +205,7 @@ You should be greeted with this screen below.
 
 If this doesn't work [click here](#bmbf-web-interface-not-loading) for some troubleshooting steps.
 
-![bmbfweb](~@images/beginners-guide/bmbfweb.png)
+![bmbfweb](/.assets/images/beginners-guide/bmbfweb.png)
 
 Now just drag any Quest compatible mods into the upload box and sync. If the mod was originally made for an older version,
 then it won't automatically enable. To enable an old mod, go to the `Mods` tab and enable it from there.
@@ -230,7 +230,7 @@ There are a few steps to downloading songs in-game:
 
 When downloading songs in-game you do not have to restart the game. It automatically loads the song using the SongLoader.
 
-![songdownloader](~@images/beginners-guide/songdownloader.png)
+![songdownloader](/.assets/images/beginners-guide/songdownloader.png)
 
 ### Inside BMBF
 

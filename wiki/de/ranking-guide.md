@@ -18,7 +18,7 @@ Disclaimer Diese Anleitung wurde ursprünglich am 7. Februar 2019 geschrieben. E
 
 Dein Punktemultiplikator ist unten zu sehen und wird von einem äußeren Ring umgeben. Wie der Name schon sagt wirkt sich der Multiplikator auf deine Punktzahl aus. Du beginnst den Song mit einem Multiplikator von**1x** und der äußere Ring zeigt den Fortschritt zum nächsten Multiplikator. Wenn du die Note schlägst, die dich zum nächsten Multiplikator bringt, wird diese Note durch den neuen Multiplikator beeinflusst und nicht durch den alten. Die verschiedenen Multiplikatoren sind: **1x, 2x, 4x und 8x**. Jedes Mal, wenn du deine Kombo verlierst bei der du eine Note verpasst, in die falsche Richtung oder mit dem falschen Saber triffst, eine Bombe triffst oder durch eine Wand gehst, wird dein Multiplikator halbiert.
 
-![Punkte-Multiplikator](~@images/ranking-guide/score_multiplier.png 'Punkte-Multiplikator')
+![Punkte-Multiplikator](/.assets/images/ranking-guide/score_multiplier.png 'Punkte-Multiplikator')
 
 ### Punktesystem
 
@@ -37,7 +37,7 @@ Dies zeigt, wie wichtig es ist richtige Cuts zu machen um den richtigen Winkel u
 
 Ein häufiges Missverständnis in Beat Saber wäre, dass die meisten Leute denken, dass die Hitboxen für die Noten die Blöcke selbst sind. Während das früher der Fall war, haben sich die Hitboxen durch die verschiedenen Versionen des Spiels einige Male geändert und viele der Bilder sind falsch. Hier ist ein Bild, das die aktuelle Hitbox zeigt. Wie du sehen kannst, ist die Hitbox ziemlich groß und erstreckt sich stark auf die Seiten und die Vorderseite. Mit diesen Informationen wird empfohlen, mit der Spitze vom Saber zu schlagen, um den Winkel zu maximieren und den bestmöglichen Cut zu bekommen.
 
-![Hitboxen](~@images/ranking-guide/hitbox.png 'Hitboxen')
+![Hitboxen](/.assets/images/ranking-guide/hitbox.png 'Hitboxen')
 
 ### Genauigkeit
 
@@ -88,7 +88,7 @@ Um zu verhindern, dass erfahrene Spieler Hunderte von einfacheren Maps mit wenig
 
 Vielleicht ist dir aufgefallen, dass es in deiner Liste 2 Nummern gibt, die mit PP enden. Eine dieser Zahlen ist **Blau** und stellt die "rohe" Menge an PP dar, die du aus diesem Play erhalten hast, bevor die Curve angewendet wird. Die zweite Zahl ist (Grau) und zeigt die tatsächliche gewichtete Menge an PP, die du aus diesem Play erhalten hast, nachdem die Curve angewendet wurde.
 
-![Rohe PP und Gewichtete PP](~@images/ranking-guide/SSraw&weighted_pp.png 'Rohe & Gewichtete PP')
+![Rohe PP und Gewichtete PP](/.assets/images/ranking-guide/SSraw&weighted_pp.png 'Rohe & Gewichtete PP')
 
 Wie bereits erwähnt, wird die Menge der gewichteten PP die du erhältst durch die Curve und die Platzierung des Songs in deiner Liste bestimmt. Wenn dein Top-Play zum Beispiel ein **260 Raw-PP** Play ist, wirst du mit **260 gewichteten PP** belohnt, was **100%** der Raw PP dieses Plays entspricht. Wenn dein zweites Top-Play **247 Raw PP** ist, erhälst du **238 gewichtete PP**, was die tatsächliche Menge an PP ist, die du erhälst, nachdem die Curve darauf angewendet wurde.
 

@@ -51,7 +51,7 @@ BSMG はビデオでのチュートリアルを利用しないことを**強く*
 
 Mod manager に似たシンプルな Beat Saber Mod インストーラですが、Mod の除去やバージョンチェックなどの追加機能があります! [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest) からダウンロードできます。
 
-![Mod Assistant](~@images/beginners-guide/modassistant.png)
+![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
 ## どうすればカスタム曲を追加できますか？
 
@@ -73,7 +73,7 @@ Mod manager に似たシンプルな Beat Saber Mod インストーラですが�
 
 [BeatSaver](https://beatsaver.com) はコミュニティによって作られたカスタム曲のまとめです。 他の多くのツールやサイトは、カスタム曲をダウンロードする方法をより詳細に説明していますが、この Wiki は、ツール作成者自ら運営しています。 サイトからダウンロードした曲をインストールするには、フォルダを解凍し、 `Beat Saber/Beat Saber_Data/CustomLevels` に配置します。 ゲーム内ダウンローダプラグイン、BeatList、Mod Assistant の OneClick™ インストール機能を使用することもできます。
 
-ModAssistant の OneClick™ インストール機能を有効にするには、下記画像を参照してください。: ![Mod Assistant](~@images/beginners-guide/modassistant-oneclick.png)
+ModAssistant の OneClick™ インストール機能を有効にするには、下記画像を参照してください。: ![Mod Assistant](/.assets/images/beginners-guide/modassistant-oneclick.png)
 
 ### Beast Saber
 
@@ -130,12 +130,12 @@ Mod インストーラは Mod をインストールするための推奨方法�
 ### BSIPA のインストール
 
 1. [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases) をダウンロード。
-2. [インストール-フォルダ](#インストール-フォルダ) を設定し、BSIPA の中身を解凍します。 ![Directory Clean](~@images/beginners-guide/directory-clean.png 'Directory Clean') ![Directory Ipa](~@images/beginners-guide/directory-ipa.png 'Directory Ipa')
-3. IPA.exe をダブルクリックしてゲームにパッチを適用します。 ゲーム開始時に `プラグイン` フォルダ内の MOD がロードされるようになります。 エラーがある場合は、おそらくステップ 2 を正しく実行できていません。 ![Directory Patched](~@images/beginners-guide/directory-patched.png 'Directory Patched')
+2. [インストール-フォルダ](#インストール-フォルダ) を設定し、BSIPA の中身を解凍します。 ![Directory Clean](/.assets/images/beginners-guide/directory-clean.png 'Directory Clean') ![Directory Ipa](/.assets/images/beginners-guide/directory-ipa.png 'Directory Ipa')
+3. IPA.exe をダブルクリックしてゲームにパッチを適用します。 ゲーム開始時に `プラグイン` フォルダ内の MOD がロードされるようになります。 エラーがある場合は、おそらくステップ 2 を正しく実行できていません。 ![Directory Patched](/.assets/images/beginners-guide/directory-patched.png 'Directory Patched')
 
 ### Mod をインストール
 
-4. GitHub、[BSMG Discord](https://discord.com/invite/beatsabermods)の `#pc-mods` チャンネル、 [BeatMods](https://beatmods.com/#/mods)もしくはそのほかのソースから望みの Mod をダウンロードしてください。 **Mod に必要な環境を確認してからダウンロードしてください。** ![Directory Plugins](~@images/beginners-guide/directory-plugins.png 'Directory Plugins')
+4. GitHub、[BSMG Discord](https://discord.com/invite/beatsabermods)の `#pc-mods` チャンネル、 [BeatMods](https://beatmods.com/#/mods)もしくはそのほかのソースから望みの Mod をダウンロードしてください。 **Mod に必要な環境を確認してからダウンロードしてください。** ![Directory Plugins](/.assets/images/beginners-guide/directory-plugins.png 'Directory Plugins')
 5. 特別なインストール方法があるものもあれば、そうでないものもあります。 一般的に、zip コンテンツをビートセイバーのインストールフォルダにドラッグ&ドロップするだけで、ファイルは対応するフォルダに移動します。
 
 ## ダウングレード

@@ -237,7 +237,7 @@ An advanced tool that allows you to easily generate a strobe or Chroma gradient 
 It allows you to set what two event types you want to strobe, as well as the two event types you wish to strobe between.
 You can control the strobe interval, whether or not chroma gradients can form, and much more.
 
-![Strobe Generator Window](~@images/mapping/cm_strobeGenerator.png)
+![Strobe Generator Window](/.assets/images/mapping/cm_strobeGenerator.png)
 
 #### Node Editor
 
@@ -245,7 +245,7 @@ An advanced tool that allows you to view and edit a selected object as it will a
 can manually edit each and every map object, allowing for a degree of control no other editor has. Essentially an easier
 way to JSON edit your map.
 
-![Node Editor Window](~@images/mapping/cm_nodeEditor.png)
+![Node Editor Window](/.assets/images/mapping/cm_nodeEditor.png)
 
 ## Credits
 

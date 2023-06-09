@@ -36,7 +36,7 @@ Dr. Levi のビデオは多くのプレイヤーの手首を守ってきまし�
 
 ゲームプレイの妨げになるようなものを片付け、十分なエリアを確保します。常にストラップを着用してください。
 
-![十分なプレイエリアを確保する](~@images/health-and-safety/allow-adequate-room-around-you.png '十分なプレイエリアを確保する')
+![十分なプレイエリアを確保する](/.assets/images/health-and-safety/allow-adequate-room-around-you.png '十分なプレイエリアを確保する')
 
 ::: warning 備考
 Beat Saber は Nintendo Wii では発売されておらず、あくまでもイメージとして当画像を利用しています。
@@ -46,4 +46,4 @@ Beat Saber は Nintendo Wii では発売されておらず、あくまでもイ�
 
 身体的な怪我のリスクを減らすために、常に Beat Saber をプレイする前と後にストレッチすることを忘れないでください。 以下の点を確認してください。
 
-![Wammy](~@images/health-and-safety/wammy.gif 'Wammy')
+![Wammy](/.assets/images/health-and-safety/wammy.gif 'Wammy')

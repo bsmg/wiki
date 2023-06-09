@@ -85,7 +85,7 @@ This is free and easy to do. Just follow the steps below.
 2. Click on `Create New Organization` and fill out the form. You can use your real name or a fake one, it doesn't matter.
 3. Enable the developer mode on your Quest by following the steps below.
 
-![iOSHowTo](~@images/beginners-guide/EnableDevModeIOS.png)
+![iOSHowTo](/.assets/images/beginners-guide/EnableDevModeIOS.png)
 
 ## Installing
 

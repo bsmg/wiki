@@ -53,11 +53,11 @@ Befolge diese allgemeinen Richtlinien, wenn du an deinen Maps arbeitest:
 
 Indem du eine qualitativ hochwertige Audiodatei kaufst und verwendest, unterstützt du nicht nur den Künstler, sondern ersparst dir auch eine Menge Kopfschmerzen beim Mapping. Sehe dir den Qualitätsunterschied für denselben Song mit demselben Beat an.
 
-| OGG Qualität |                   YouTube Rip                   |                  MP3                  |                  WAV                  |                  FLAC                   |
-| :----------: | :---------------------------------------------: | :-----------------------------------: | :-----------------------------------: | :-------------------------------------: |
-|      1       |  ![YouTube Rip 1](~@images/mapping/ytrip1.jpg)  |  ![MP3 1](~@images/mapping/mp31.jpg)  |  ![WAV 1](~@images/mapping/wav1.jpg)  |  ![FLAC 1](~@images/mapping/flac1.jpg)  |
-|      5       |  ![YouTube Rip 5](~@images/mapping/ytrip5.jpg)  |  ![MP3 5](~@images/mapping/mp35.jpg)  |  ![WAV 5](~@images/mapping/wav5.jpg)  |  ![FLAC 5](~@images/mapping/flac5.jpg)  |
-|      10      | ![YouTube Rip 10](~@images/mapping/ytrip10.jpg) | ![MP3 10](~@images/mapping/mp310.jpg) | ![WAV 10](~@images/mapping/wav10.jpg) | ![FLAC 10](~@images/mapping/flac10.jpg) |
+| OGG Qualität |                      YouTube Rip                       |                     MP3                      |                     WAV                      |                      FLAC                      |
+| :----------: | :----------------------------------------------------: | :------------------------------------------: | :------------------------------------------: | :--------------------------------------------: |
+|      1       |  ![YouTube Rip 1](/.assets/images/mapping/ytrip1.jpg)  |  ![MP3 1](/.assets/images/mapping/mp31.jpg)  |  ![WAV 1](/.assets/images/mapping/wav1.jpg)  |  ![FLAC 1](/.assets/images/mapping/flac1.jpg)  |
+|      5       |  ![YouTube Rip 5](/.assets/images/mapping/ytrip5.jpg)  |  ![MP3 5](/.assets/images/mapping/mp35.jpg)  |  ![WAV 5](/.assets/images/mapping/wav5.jpg)  |  ![FLAC 5](/.assets/images/mapping/flac5.jpg)  |
+|      10      | ![YouTube Rip 10](/.assets/images/mapping/ytrip10.jpg) | ![MP3 10](/.assets/images/mapping/mp310.jpg) | ![WAV 10](/.assets/images/mapping/wav10.jpg) | ![FLAC 10](/.assets/images/mapping/flac10.jpg) |
 
 Kannst du den Unterschied erkennen? Du kannst die Audioqualität nicht hochskalieren; Nur wenn du mit einer qualitativ hochwertigen Audiodatei beginnst, erhältst du saubere, scharfe Linien.
 
@@ -117,9 +117,9 @@ Wenn du keine `.ogg`-Datei verwendest oder die Exportfunktion in AV nutzt, **wir
 5. Gehen zum `Tempo` Menü und klicke auf `Sync einstellen...` oder drücke einfach <kbd>SHIFT</kbd>+<kbd>S</kbd>, um das Einstellfenster zu öffnen.
 6. Klicke auf die <kbd>Find BPM</kbd> Schaltfläche
    - Wenn du Glück hast, liefert AV mit 100 %iger Sicherheit einen einzelnen BPM-Wert.  
-     ![AV-Anpassungsfenster](~@images/mapping/adjustments.png)
+     ![AV-Anpassungsfenster](/.assets/images/mapping/adjustments.png)
    - Wenn du mehrere Optionen erhältst, solltest du dir die Optionen anhören, um zu sehen, ob sie mit dem Song übereinstimmen. In den meisten Fällen wird es die erste Option sein, aber folge den Schritten 7 und 8, um sicherzugehen.  
-     ![Mehrere BPM Werte](~@images/mapping/alternateAdjustments.png)
+     ![Mehrere BPM Werte](/.assets/images/mapping/alternateAdjustments.png)
 7. Klicke auf die <kbd>BPM anwenden</kbd> Schaltfläche
 8. Drücke <kbd>F3</kbd>, um Beat Ticks einzuschalten, und drücke <kbd>Leertaste</kbd>, um sich den Song anzuhören, um zu bestätigen, dass Anfang, Mitte und Ende deines Tracks aneinandergereiht sind.
    - Wenn nur ein einziges Ergebnis angegeben wurde und die Häkchen nicht übereinstimmen, deutet dies darauf hin, dass der Song eine variable BPM hat.
@@ -131,8 +131,8 @@ zu variablen BPM Es wird empfohlen, dass neuere Mapper einen anderen Song wähle
 Wenn du über die nötige Erfahrung verfügst, siehe [Erweiterte Audiobearbeitung: Variable BPM](./advanced-audio.md#variable-bpm) wie du dies berücksichtigen kannst.
 :::
 
-10. Gib dem Spieler etwa zwei Sekunden Zeit, sich vorzubereiten, indem auf die Schaltfläche `Ersten Beat bewegen` klickst ![Arrow Vortex move beat button](~@images/mapping/av_movebeat.png) so oft wie nötig, um deine Startzeit in die Nähe von 2.000 Sekunden zu bringen oder den Ton, auf den du die erste Note setzen willst, auf den ersten Takt auszurichten.  
-    ![Ausgerichtet am ersten Balken](~@images/mapping/av_aligned.png) ![Abwechselnd ausgerichtet am ersten Takt](~@images/mapping/av_altAligned2.png)
+10. Gib dem Spieler etwa zwei Sekunden Zeit, sich vorzubereiten, indem auf die Schaltfläche `Ersten Beat bewegen` klickst ![Arrow Vortex move beat button](/.assets/images/mapping/av_movebeat.png) so oft wie nötig, um deine Startzeit in die Nähe von 2.000 Sekunden zu bringen oder den Ton, auf den du die erste Note setzen willst, auf den ersten Takt auszurichten.  
+    ![Ausgerichtet am ersten Balken](/.assets/images/mapping/av_aligned.png) ![Abwechselnd ausgerichtet am ersten Takt](/.assets/images/mapping/av_altAligned2.png)
     - Nach dem Ausrichten solltest du den Song noch einmal überprüfen, um sicherzustellen, dass die Beats noch übereinstimmen.
 11. Da du nun die BPM und den Offset hast, musst du die richtige Menge an Stille zur Songspur hinzufügen oder entfernen.
 
@@ -140,10 +140,10 @@ Wenn du über die nötige Erfahrung verfügst, siehe [Erweiterte Audiobearbeitun
 
 **Wenn du einen positiven Offset hast**, musst du diesen Betrag zum Intro hinzufügen.
 
-1. Öffne den Song in Audacity, falls es noch nicht geschehen ist, und wechsele dann zum Auswahlwerkzeug (![Selection Tool](~@images/mapping/selection.png)).
+1. Öffne den Song in Audacity, falls es noch nicht geschehen ist, und wechsele dann zum Auswahlwerkzeug (![Selection Tool](/.assets/images/mapping/selection.png)).
 2. Platziere den Cursor an den Anfang der Songspur (Klicke auf die Songspur und drücke die <kbd>Home</kbd> Taste).
-3. Klicke auf `Generieren - > Stille...` ![Erzeuge Stille...](~@images/mapping/audacity-generate_silence.png)
-4. Gib den Sync `Musik-Offset` Wert ein, den du von Arrow Vortex (oder einem ähnlichen Werkzeug) erhalten hast, und klicke dann auf OK. ![Stille mit Audacity hinzufügen](~@images/mapping/av_audacity.png)
+3. Klicke auf `Generieren - > Stille...` ![Erzeuge Stille...](/.assets/images/mapping/audacity-generate_silence.png)
+4. Gib den Sync `Musik-Offset` Wert ein, den du von Arrow Vortex (oder einem ähnlichen Werkzeug) erhalten hast, und klicke dann auf OK. ![Stille mit Audacity hinzufügen](/.assets/images/mapping/av_audacity.png)
 5. Fertig. Du klannst nun zu [Exportieren](#exportieren) oder zu [Optionale Audio Bearbeitung](#optionale-audio-bearbeitung) wechseln.
 
 Nach dem Erzeugen der Stille kannst du auf die dunkle Linie in der Songspur klicken, um den Schnitt zu beseitigen.
@@ -152,17 +152,17 @@ Nach dem Erzeugen der Stille kannst du auf die dunkle Linie in der Songspur klic
 
 **Wenn du einen negativen Offset hast**, musst du diesen Betrag aus dem Intro entfernen.
 
-1. Öffne den Song in Audacity, falls noch nicht geschehen, und wechsele dann zum Auswahlwerkzeug (![Selection Tool](~@images/mapping/selection.png)).
-2. Füge einen neuen Mono Track hinzu ![Neuen Mono Track hinzufügen](~@images/mapping/audacity-add_new-mono-track.png)
+1. Öffne den Song in Audacity, falls noch nicht geschehen, und wechsele dann zum Auswahlwerkzeug (![Selection Tool](/.assets/images/mapping/selection.png)).
+2. Füge einen neuen Mono Track hinzu ![Neuen Mono Track hinzufügen](/.assets/images/mapping/audacity-add_new-mono-track.png)
 3. Wählen Sie die neue Spur aus und tippen Sie auf die <kbd>Home</kbd> Taste.
-4. Klicke auf `Generieren - > Stille...` ![Erzeuge Stille...](~@images/mapping/audacity-generate_silence.png)
-5. Geben den Betrag des negativen Offsets, den du in Arrow Vortex(oder einem ähnlichen Werkzeug) gefunden hast, in das Feld Dauer ein und klicke dann auf OK. ![Stille mit Audacity hinzufügen](~@images/mapping/av_audacity-negative.png)
+4. Klicke auf `Generieren - > Stille...` ![Erzeuge Stille...](/.assets/images/mapping/audacity-generate_silence.png)
+5. Geben den Betrag des negativen Offsets, den du in Arrow Vortex(oder einem ähnlichen Werkzeug) gefunden hast, in das Feld Dauer ein und klicke dann auf OK. ![Stille mit Audacity hinzufügen](/.assets/images/mapping/av_audacity-negative.png)
    - Du solltest etwas ähnliches wie das hier sehen  
-     ![Daraus resultierende Stille](~@images/mapping/audacity-neg-generated_silence.png)
-6. Wähle vom Ende der erzeugten Stille (gelbe vertikale Linie) bis zum Anfang der Songspur, wobei du den Inhalt beider Spuren auswählst.<br/>![Wähle bis zu erzeugten Stille](~@images/mapping/audacity-neg-select_silence.png)
+     ![Daraus resultierende Stille](/.assets/images/mapping/audacity-neg-generated_silence.png)
+6. Wähle vom Ende der erzeugten Stille (gelbe vertikale Linie) bis zum Anfang der Songspur, wobei du den Inhalt beider Spuren auswählst.<br/>![Wähle bis zu erzeugten Stille](/.assets/images/mapping/audacity-neg-select_silence.png)
 7. Drücke auf den <kbd>Löschen</kbd> Button.
 8. Klicke auf das X auf dem neuesten Track um diesen zu löschen.  
-   ![Track löschen](~@images/mapping/audacity-delete_track.png)
+   ![Track löschen](/.assets/images/mapping/audacity-delete_track.png)
 9. Fertig. Du kannst nun zu [Exportieren](#exportieren) oder zu [Optionale Audio Bearbeitung](#optionale-audio-bearbeitung) wechseln.
 
 > Wenn du nicht die exakte Menge entfernen möchtest, kannst du mehr als nötig entfernen, die geänderte `.ogg` exportieren und [mit deinem Tool neu synchronisieren](#tool-assisted-bpm-calculation), um einen positiven Offset zu erhalten.
@@ -186,15 +186,15 @@ Damit wird bestätigt, dass die BPM, die du online oder manuell gefunden hast, m
 2. Füge eine neue Mono Spur über `Spur Menü> Neue Mono Spur > hinzufügen` hinzu
 3. Setze den Cursor an den Anfang der neuen Spur (Klicke auf die Spur und drücke die Home-Taste) und klicke dann auf `Menü generieren > Rhythmus-Spur...`
 4. Gebe die nächstgelegene ganzen BPM in das Feld `Tempo (bpm)` ein und gebe die Dauer des Songs in das optionale Feld `Dauer der Rhythmus-Spur` ein (die Dauer wird oben rechts in der Zeitleiste angezeigt).
-5. Kopiere die anderen empfohlenen Einstellungen unten: ![Audacity Rhythm Track Menu](~@images/mapping/click-track-1.png)
+5. Kopiere die anderen empfohlenen Einstellungen unten: ![Audacity Rhythm Track Menu](/.assets/images/mapping/click-track-1.png)
 
-Wenn alles korrekt eingegeben wurde, erhältst etwa folgendes Ergebnis: ![Audacity Hauptbildschirm mit Song-Spur und Rhythmus Spur](~@images/mapping/song_rhythm.png)
+Wenn alles korrekt eingegeben wurde, erhältst etwa folgendes Ergebnis: ![Audacity Hauptbildschirm mit Song-Spur und Rhythmus Spur](/.assets/images/mapping/song_rhythm.png)
 
 Diese Klickspur ist vollständig mit den Beats im Karteneditor und im Spiel synchronisiert, aber der Song ist derzeit nicht synchronisiert. Weiter unten erfährst du, wie du das tun kannst.
 
 #### Synchronisiere den Song mit dem Beat
 
-1. Wähle das Zeitverschiebungswerkzeug (![Time Shift Tool](~@images/mapping/timeshift.png)).
+1. Wähle das Zeitverschiebungswerkzeug (![Time Shift Tool](/.assets/images/mapping/timeshift.png)).
 2. Klicke mit der linken Maustaste auf die Songspur und halte sie gedrückt. Ziehen dann die Audio so, dass die erste(n) geplante(n) gemappte(n) Note(n) in deinem Song innerhalb der entsprechenden Sekunden (siehe Zeitleiste über der Spur) endet, um einen "Hot Start" oder ein zu langes Intro zu vermeiden (siehe <a href='#plane-deine-erste-note'>Plane deine erste Note</a>, falls du das noch nicht getan hast).
 3. Lasse los, um den Ton an der neuen Position zu platzieren.
 4. Gib den Ton in dieser Position wieder. Der Song wird nicht synchron sein. Suche also den nächstgelegenen Beat in der Klickspur und richte den Song auf den Beat (Klickspur) aus, indem du ihn in kleinen Schritten zeitlich nach hinten oder vorne verschiebst. Zoome in für bessere Genauigkeit. Wiederhole das, bis es richtig klingt.
@@ -206,14 +206,14 @@ Wenn die BPM für den ersten Teil des Songs korrekt sind, sich aber plötzlich �
 
 Unten siehst du, wie es aussieht, wenn die erste(n) geplante(n) gemappte(n) Note(n) (Cursorposition) nach 2 Sekunden platziert werden und die Beats des Songs mit der BPM/Klickspur synchronisiert sind.
 
-![Audacity Song mit Rhythmus Track aufgereiht](~@images/mapping/synced_rhythm.png)
+![Audacity Song mit Rhythmus Track aufgereiht](/.assets/images/mapping/synced_rhythm.png)
 
 Wenn die Wellenform/der Audioclip eine Lücke zum Start der Timeline (0,0 Sekunden) hat, musst du Stille zur Audio hinzufügen, sonst exportiert Audacity vom Start des Audioclips und du verlierst jegliche Synchronisierung, die du vorgenommen hast. Gehe wie folgt vor, um Stille hinzuzufügen:
 
-1. Wechsele zum Auswahlwerkzeug (![Selection Tool](~@images/mapping/selection.png)).
+1. Wechsele zum Auswahlwerkzeug (![Selection Tool](/.assets/images/mapping/selection.png)).
 2. Wähle den leeren Bereich zwischen dem Audioclip und dem Anfang der Spur aus (gelbe vertikale Linien zeigen den Anfangs- und Endrand an, wenn du eine Auswahl triffst).  
-   ![Stille mit Audacity hinzufügen](~@images/mapping/add_silence.png)
-3. Klicke auf `Menü Generieren - > Stille...` ![Erzeuge Stille...](~@images/mapping/audacity-generate_silence.png)
+   ![Stille mit Audacity hinzufügen](/.assets/images/mapping/add_silence.png)
+3. Klicke auf `Menü Generieren - > Stille...` ![Erzeuge Stille...](/.assets/images/mapping/audacity-generate_silence.png)
 4. Die richtige Menge an Stille sollte bereits automatisch eingegeben werden, also drücke einfach auf OK.
 5. Fertig. Du kannst nun zu [Exportieren](#exportieren) oder zu [Optionale Audio Bearbeitung](#optionale-audio-bearbeitung) wechseln.
 
@@ -239,7 +239,7 @@ Um den RMS-Wert in deinem Song zu prüfen, gehe wie folgt vor:
 4. Im Feld `Volumenausgabe` findest du nun einen Wert. Vergleiche diesen Wert mit den oben empfohlenen Werten.
 5. Wenn dieser Wert kleiner (negativer) als die empfohlenen Werte ist, siehe [Lautstärkeänderung: Mache deinen Song lauter](#mach-deinen-song-lauter).
 6. Wenn dieser Wert größer (weniger negativ) als die empfohlenen Werte ist, siehe [Lautstärkeänderung: Mache deinen Song softer](#mache-deinen-song-softer).  
-   ![Analysieren der Lautstärke mit Audacity](~@images/mapping/contrast.png)
+   ![Analysieren der Lautstärke mit Audacity](/.assets/images/mapping/contrast.png)
 
 ### Volumen Modifikation
 
@@ -255,7 +255,7 @@ Wenn der Chorus des Songs einen niedrigeren RMS-Wert als den empfohlenen **-11db
 
 Um zu prüfen, ob du den Kompressor vor dem Limiter anwenden musst, analysiere die Wellenform visuell. Wenn es viele scharfe Spitzen mit einem ziemlich konstanten Körper im gesamten Song gibt, wie im Beispiel unten gezeigt, dann brauchst du keinen Kompressor anzuwenden. Nur ein Limiter reicht aus (überspringe bis zu [Limiter](#limiter)).
 
-![Anschauen eines zu leisen Liedes](~@images/mapping/louder.png)
+![Anschauen eines zu leisen Liedes](/.assets/images/mapping/louder.png)
 
 Wenn die Wellenform jedoch stark zwischen leisen und lauten Teilen variiert, wird wahrscheinlich zuerst eine Kompression benötigt.
 
@@ -264,9 +264,9 @@ Wenn die Wellenform jedoch stark zwischen leisen und lauten Teilen variiert, wir
 1. Wähle den gesamten Song aus, indem Sie auf die Song-Spur doppelklicken.
 2. Gehe zu `Effektmenü -> Kompressor`
 3. Kopiere als Ausgangspunkt die unten stehenden Einstellungen und klicke dann auf OK. Stelle sicher, dass `Komprimieren auf Basis von Peaks` aktiviert ist.  
-   ![Komprimierung verstehen](~@images/mapping/compression.png)
+   ![Komprimierung verstehen](/.assets/images/mapping/compression.png)
 
-Hier ist ein Vergleich vor(oben) und nach(unten) dem Kompressor:![Vor und nach der Komprimierung](~@images/mapping/bna_compression.png)
+Hier ist ein Vergleich vor(oben) und nach(unten) dem Kompressor:![Vor und nach der Komprimierung](/.assets/images/mapping/bna_compression.png)
 
 Hören Sie sich den Song noch einmal an und achten Sie auf unnatürliche Verzerrungen, wie z. B. Lautstärkeaussetzern nach lauten Peaks. Wenn ja, mache es wieder rückgängig (`Strg-Z`), ändere die Einstellung `Schwellenwert` auf einen lauteren Wert (weniger negativ) und wende es erneut an. Wenn du mehr über die Einstellungen erfahren möchtest, siehe hier die [Erweiterte Audiobearbeitung: Kompressor](./advanced-audio.md#kompressor) Seite.
 
@@ -277,7 +277,7 @@ Der Kompressor reduziert viele der unnötigen Spitzen und macht die wichtigeren 
 1. Wähle den gesamten Song aus, indem du auf die Song-Spur doppelklickst.
 2. Gehe zu `Effektmenü -> Limiter...`
 3. Kopiere als Ausgangspunkt die folgenden Einstellungen:  
-   ![Limiter in Audacity](~@images/mapping/limiter.png)
+   ![Limiter in Audacity](/.assets/images/mapping/limiter.png)
 4. Klicke auf OK, um den Limiter anzuwenden.
 
 Prüfe den Song erneut und achte auf unnatürliche Verzerrungen, wie z. B. gequetschte/stark verzerrte Spitzen. Wenn dies der Fall ist, mache den Vorgang rückgängig (`Strg-Z`), stelle die `Eingangsverstärkung` auf einen niedrigeren Wert ein (immer noch über 0db) und wende ihn erneut an. Stelle sicher, dass beide `Eingangsverstärkung` Werte gleich sind, da sonst das Stereobild verzerrt wird. Wenn du mehr über die Einstellungen des Limiter-Effekts wissen möchtest, kannst du gerne die Seite [Erweiterte Audiobearbeitung: Limiter](./advanced-audio.md#limiter) Seite lesen.
@@ -289,7 +289,7 @@ Um zu wissen, ob du nach dem Komprimieren und Begrenzen die richtige Lautstärke
 3. Klicke auf eine der Schaltflächen zur Auswahl von Messungen. (Wir müssen nur einen verwenden.)
 4. Im Feld `Volumenausgabe` findest du nun einen Wert. Dieser Wert sollte für einen optimalen Pegel zwischen -8,5db und -9,5db liegen. Wenn nicht, mache den Limiter Vorgang rückgängig und erhöhe die `Eingangsverstärkung` um +/-0,5db und versuche es erneut.
 
-Nach der Begrenzung hast du etwa sowas: ![Song nach Limiting](~@images/mapping/bna_limiting.png)
+Nach der Begrenzung hast du etwa sowas: ![Song nach Limiting](/.assets/images/mapping/bna_limiting.png)
 
 #### Mache deinen Song softer
 
@@ -307,7 +307,7 @@ Jetzt lass uns den Verstärkungseffekt nutzen, um die Lautstärke zu verringern:
 
 1. Wähle den gesamten Song aus, indem du auf die Song-Spur doppelklickst.
 2. Gehe zu `Effektmenü -> Verstärker...`
-3. Gib den Differenzwert, den du zuvor berechnet hast (er sollte negativ sein), in das Feld `Amplifikation` ein. `Neue Spitzenwertverstärkung` Feld wiederholt, was das erste Eingabefeld sagt, dies ist normal für einen Song, der bereits bei 0db spitzt. ![Verstärkung's Menü](~@images/mapping/amplify.png)
+3. Gib den Differenzwert, den du zuvor berechnet hast (er sollte negativ sein), in das Feld `Amplifikation` ein. `Neue Spitzenwertverstärkung` Feld wiederholt, was das erste Eingabefeld sagt, dies ist normal für einen Song, der bereits bei 0db spitzt. ![Verstärkung's Menü](/.assets/images/mapping/amplify.png)
 4. Klicke auf OK, um einen negativen Verstärkungseffekt anzuwenden.
 5. Fertig.
 
@@ -318,7 +318,7 @@ Um zu wissen, ob du die richtige Lautstärke erreicht hast, prüfe den Song erne
 3. Klicke auf eine der `Messauswahl` Buttons. (Wir müssen nur einen verwenden.)
 4. Im Feld `Volumenausgabe` findest du nun einen Wert. Dieser Wert sollte für einen optimalen Pegel zwischen -8,5db und -9,5db liegen. Wenn nicht, machen Sie den Verstärkungsvorgang rückgängig, erhöhe den Eingangswert um +/- 0,5db und versuche es erneut.
 
-Nach dem negativen Wert Amplify-Effekt sieht dein Song etwa so aus: ![Verstärkungs Effekt](~@images/mapping/bna_amplify.png)
+Nach dem negativen Wert Amplify-Effekt sieht dein Song etwa so aus: ![Verstärkungs Effekt](/.assets/images/mapping/bna_amplify.png)
 
 ### Trimmen des Outros
 
@@ -342,14 +342,14 @@ Dieser Schritt kann nützlich sein, wenn du einen anmutigeres Fade-In für deine
 Wenn deine Spur am Anfang Pfeile hat, die nach links zeigen, bedeutet das, dass du das Audiomaterial zeitlich nach vorne außerhalb der Zeitachse verschoben hast. Wenn du das gemacht hast, um das Intro zu verkürzen, ist es zwar nicht notwendig, aber vorteilhaft, den Soundclip zu schneiden und eine Einblendung hinzuzufügen. Um den Song zu trimmen und eine Einblendung hinzuzufügen (optional), gehe wie folgt vor:
 
 1. Ziehe eine Auswahl von 0,0 Sekunden bis zum Ende der Audiospur (gelbe vertikale Linien).
-2. Klicke auf die Audio (![Trim audio to selection](~@images/mapping/trim.png)). Die Pfeile sollten jetzt verschwinden.
+2. Klicke auf die Audio (![Trim audio to selection](/.assets/images/mapping/trim.png)). Die Pfeile sollten jetzt verschwinden.
 3. (Optional) Treffe eine Auswahl vom Track Start (vertikale gelbe Linie) bis etwa 0,5-1 Sekunden (je nach Intro).
 4. (Optional) Gehe zu `Effektmenü -> Einblenden`.
 5. Fertig.
 
 Vorher(links) und nach dem Schnitt und der Einblendung(rechts):
 
-![Trimmen des Intro's](~@images/mapping/trim_fade.png)
+![Trimmen des Intro's](/.assets/images/mapping/trim_fade.png)
 
 ## Exportieren
 
@@ -359,10 +359,10 @@ Um eine kompatible Ton Datei zu erzeugen, die du verwenden kannst, musst du wie 
 
 1. Lösche die Klickspur (falls du das noch nicht bereits getan hast).
 2. Klicke auf's Menü `Datei -> Exportieren -> Als OGG exportieren.`  
-   ![Als OGG Standort exportieren](~@images/mapping/audacity-export.png)
+   ![Als OGG Standort exportieren](/.assets/images/mapping/audacity-export.png)
 3. Nenne die Datei `song.ogg`.
 4. Wähle eine geeignete OGG-Qualität ([mehr Infos hier](./advanced-audio.md#auswahl-der-geeigneten-ogg-exportqualitat)):  
-   ![Export Qualitäts-Slider](~@images/mapping/export-quality.png)
+   ![Export Qualitäts-Slider](/.assets/images/mapping/export-quality.png)
    - Hochwertige Quellen (WAVE / FLAC / MP3 / AAC) verwenden 6-9 (es sei denn, es gibt ein Problem mit der Dateigröße)
    - Quelle niedriger Qualität (YouTube o. ä.): verwenden 3-5
 5. Klicke Speichern.

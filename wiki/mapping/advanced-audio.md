@@ -32,7 +32,7 @@ editing from without having to redo everything from the start.
 The best way to check for source quality and quality loss is using [Spek](http://spek.cc/),
 a free acoustic spectrum analyser tool:
 
-![Spectrum example](~@images/mapping/advanced-spectrumexample.png 'Spectrum example')
+![Spectrum example](/.assets/images/mapping/advanced-spectrumexample.png 'Spectrum example')
 
 This tool shows the time of the song from left to right, the frequencies from lowest at the bottom to highest at the top
 and the loudness of the frequencies in color (legend to the right). This screenshot shows the same song with the top graph
@@ -95,7 +95,7 @@ loud peaks) or you're curious about the settings you can adjust in a compressor,
 using the more advanced [SC4 plug-in](https://ttmanual.audacityteam.org/o/man/sc4.html) for Audacity (you may need to
 install the [LADSPA bundle](http://www.audacityteam.org/download/plug-ins/#ladspa) to get access to this tool).
 
-![SC4](~@images/mapping/advanced-sc4.png)
+![SC4](/.assets/images/mapping/advanced-sc4.png)
 
 <!-- markdownlint-disable MD013 -->
 
@@ -115,7 +115,7 @@ install the [LADSPA bundle](http://www.audacityteam.org/download/plug-ins/#ladsp
 An example of how compression affects the audio, highlighted part has been compressed at 1:3
 ratio with a threshold at -30db (red line).
 
-![Compression](~@images/mapping/advanced-compression.png)
+![Compression](/.assets/images/mapping/advanced-compression.png)
 
 ::: tip
 To make it easier to visually judge the dynamics of the song in dB you can set the threshold at do the following:
@@ -126,7 +126,7 @@ To make it easier to visually judge the dynamics of the song in dB you can set t
 3. To maximize track height go to `View -> Track Size -> Fit to Height` or simply press `Ctrl + Shift + F`.
    This will show more of the scale.
 
-![Track](~@images/mapping/advanced-track.png)
+![Track](/.assets/images/mapping/advanced-track.png)
 :::
 
 More in-depth information about compressors [can be found here](https://www.practical-music-production.com/audio-compressor/).
@@ -139,7 +139,7 @@ even louder.
 
 Let's take a look at Audacity's [Limiter](https://manual.audacityteam.org/man/limiter.html) effect:
 
-![Limiter](~@images/mapping/advanced-limiter.png)
+![Limiter](/.assets/images/mapping/advanced-limiter.png)
 
 <!-- markdownlint-disable MD013 -->
 
@@ -176,9 +176,9 @@ There is also a video of this process [available here](https://www.youtube.com/w
 3. Roughly fill the unwanted end of the first track and unwanted start of the second track with silence
    (Select, then `Generate menu -> Silence...`).
 
-![Cut song section](~@images/mapping/advanced-cutsongsection.png 'Cut song section')
+![Cut song section](/.assets/images/mapping/advanced-cutsongsection.png 'Cut song section')
 
-4. Align the tracks by using the Time Shift Tool (![Time Shift Tool](~@images/mapping/timeshift.png 'Timeshift tool'))
+4. Align the tracks by using the Time Shift Tool (![Time Shift Tool](/.assets/images/mapping/timeshift.png 'Timeshift tool'))
    to move the second track to a place roughly in place so the similar sections are close to each other. Then zoom in and
    adjust again, then repeat till the waveform changes to dots when you zoom. Align the dots on the bottom track with the
    similar peaks and lows with the top track, if possible.
@@ -188,7 +188,7 @@ Utilize a Click Track to make sure the tracks are in time with each other.
 See [Audio Preparation: Adding Click Track](./basic-audio.md#add-a-click-track).
 :::
 
-![Zoomed syncing](~@images/mapping/advanced-zoomsync.png 'Zoomed syncing')
+![Zoomed syncing](/.assets/images/mapping/advanced-zoomsync.png 'Zoomed syncing')
 
 5. The last section of the top track should now be identical or similar to the first section of the bottom track but from
    different times in the song. Listen to the overlapping area to confirm a match, making sure there is no echo/offset
@@ -196,14 +196,14 @@ See [Audio Preparation: Adding Click Track](./basic-audio.md#add-a-click-track).
 
 ::: tip
 To avoid overdrive/clipping from two -0db peaking tracks you can set the faders for both tracks to -6db
-![Fader](~@images/mapping/advanced-fader.png) then later back to +0db after the crossfade has been applied.
+![Fader](/.assets/images/mapping/advanced-fader.png) then later back to +0db after the crossfade has been applied.
 Double click the fader to type in the number.
 :::
 
 7. Select the overlapping region across both tracks.
 8. Go to `Effect menu -> Crossfade Tracks`. Set Fade direction to `Alternating Out / In`. Click OK to apply crossfade.
 
-![Crossfade](~@images/mapping/advanced-crossfade.png 'Crossfade')
+![Crossfade](/.assets/images/mapping/advanced-crossfade.png 'Crossfade')
 
 9. Listen to the overlapping sections again. If all went well,
    you should now have a perfectly blended transition between the two tracks.
@@ -250,7 +250,7 @@ Reducing the amount of BPM changes you will need to set in editor.
    - File > Project Settings
    - Set the initial BPM of the song, and set both Timebase dropdowns to `Time` instead of `Beats`.
 
-![Reaper Project Settings Window](~@images/mapping/reaperProjectSettings.png)
+![Reaper Project Settings Window](/.assets/images/mapping/reaperProjectSettings.png)
 
 :::danger
 This is a critical step! **You can ruin your audio if you do not set the initial BPM and Timebase settings correctly!**
@@ -261,7 +261,7 @@ This is a critical step! **You can ruin your audio if you do not set the initial
 6. Drag the whole audio track accordingly to prevent a hot start or too-long of an intro.
    - See [Basic Audio: Plan Your First Note](./basic-audio.md#plan-your-first-note) for more info.
 
-![Align Audio Start in Reaper](~@images/mapping/reaperFirstBeat.png)
+![Align Audio Start in Reaper](/.assets/images/mapping/reaperFirstBeat.png)
 
 #### Lining Up Beats
 
@@ -278,9 +278,9 @@ When they do, you will need to:
 2. Use <kbd>Shift + W</kbd> to add a stretch marker.
 3. Drag the stretch marker onto the beat line.
 
-| Step 1                                                                   | Step 2                                                             | Step 3                                                                    |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------- |
-| ![Peak is not on beat marker](~@images/mapping/reaperWarpAudioStep1.png) | ![Stretch Marker Added](~@images/mapping/reaperWarpAudioStep2.png) | ![Marker moved onto beat line](~@images/mapping/reaperWarpAudioStep3.png) |
+| Step 1                                                                          | Step 2                                                                    | Step 3                                                                           |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| ![Peak is not on beat marker](/.assets/images/mapping/reaperWarpAudioStep1.png) | ![Stretch Marker Added](/.assets/images/mapping/reaperWarpAudioStep2.png) | ![Marker moved onto beat line](/.assets/images/mapping/reaperWarpAudioStep3.png) |
 
 Warping your song is simply a matter of repeating this for the whole song. You should start by doing this every 4 beats
 or so. Most of the time this is good enough to line up the whole song but, keep an eye out for beats in between stretch
@@ -303,14 +303,14 @@ There can be many hidden "gochas" when warping a song. Here are some things you 
   5. Use trial and error to minimize the amount of drifting over the next chunk of audio.
   6. **You will need to add the same BPM change in the map editor!**
 
-![Change tempo mid-song](~@images/mapping/reaperChangeTempo.png)
+![Change tempo mid-song](/.assets/images/mapping/reaperChangeTempo.png)
 
 - Some Peaks can be vague, especially when there are several sounds happening at once.
   There are a couple of ways to test a peak to find where the drum hit is.
 
   - By dragging the cursor back and forth over the peak, you should hear a thump as you hit the peak.
   - If you click just before the peak, then hit spacebar to play the audio, you should instantly hear the drum hit.  
-    ![Vague Peak](~@images/mapping/reaperVaguePeak.png)
+    ![Vague Peak](/.assets/images/mapping/reaperVaguePeak.png)
 
 - Pay attention to how the song is supposed to feel. Not every big drum beat is on a beat marker. For example, some songs
   have big crash cymbal hits a half or quarter beat before the main beat. You can try finding music tabs or other resources
@@ -331,7 +331,7 @@ Once you are done editing your audio, you will want to render it as a `.ogg` fil
    - Low quality source (YouTube or such): use 0.3-0.5
 6. Click the Render 1 file button. After some time, you’ll have an OGG file with nicely lined up beats!
 
-![Audio Render/Export Settings](~@images/mapping/reaperRenderAudio.png)
+![Audio Render/Export Settings](/.assets/images/mapping/reaperRenderAudio.png)
 
 ## Credits
 

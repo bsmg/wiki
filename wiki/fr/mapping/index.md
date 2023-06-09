@@ -237,11 +237,11 @@ Suivez ces étapes pour tester n'importe quelle map faites avec un éditeur comm
 3. Ouvrez BMBF. BMBF doit être lancé pour que la connexion avec l'Oculus Quest fonctionne.
 4. Regardez en haut de SideQuest pour trouvez l'IP que vous devrez rentrer dans BMBF.
 5. Écrivez dans n'importe quel navigateur: "192.168.X.XXX:50000" en remplaçant les X avec l'IP affichée sur SideQuest.
-   ![](~@images/mapping/quest_ip.png)  
+   ![](/.assets/images/mapping/quest_ip.png)  
    En prenant l'image comme exemple, vous devriez entrer `192.168.0.19:50000` dans le navigateur de votre choix (Chrome, Firefox, etc.).
 6. Glissez et déposez les fichiers dans la page de mise en ligne de BMBF (indiqué par /main/upload à la fin du lien).
 7. Une fois mis en ligne, cliquez sur le bouton Sync to Beat Saber dans le coin en haut à droite de la page
-   ![](~@images/mapping/bmbf_browser.png)
+   ![](/.assets/images/mapping/bmbf_browser.png)
 8. Accédez à vos maps en jeu via la catégorie CustomWIPLevels en bas dans le menu des musiques. Utilisez le mode entrainement pour jouer (le petit bouton à côté du bouton play jaune).
 
 ::: tip NOTE

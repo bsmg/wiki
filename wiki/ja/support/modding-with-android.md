@@ -39,15 +39,15 @@ BMBF をインストールする推奨方法は、[SideQuest を PC](/ja/quest-m
 
 ログイン後、新しい組織を作成することができます。
 
-![DevModeDashboard](~@images/beginners-guide/DevModeDashboard.png)
+![DevModeDashboard](/.assets/images/beginners-guide/DevModeDashboard.png)
 
-![DevModeCreateOrg](~@images/beginners-guide/DevModeCreateOrg.png)
+![DevModeCreateOrg](/.assets/images/beginners-guide/DevModeCreateOrg.png)
 
 作成後、スマートフォンの Oculus アプリで開発者モードを有効にできます。
 
 #### Oculus で開発者モードを有効にする
 
-![EnableDevMode](~@images/beginners-guide/EnableDevMode.png)
+![EnableDevMode](/.assets/images/beginners-guide/EnableDevMode.png)
 
 次に[携帯電話の設定](#setup-your-phone)を参照してください。
 
@@ -68,27 +68,27 @@ BMBF をインストールする推奨方法は、[SideQuest を PC](/ja/quest-m
 3. メールからアカウントを有効にし、作成したアカウントで再度ログインします。
 4. [ページの確認](https://developer.oculus.com/manage/verify/) に移動し、2 段階認証を設定します。
 
-![2fa](~@images/beginners-guide/2fa.png)
+![2fa](/.assets/images/beginners-guide/2fa.png)
 
 #### 新しい組織を作成する
 
 その後[Oculus ダッシュボード](https://dashboard.oculus.com/)から*任意の*名前で組織を作成してください。
 
-![DevModeDashboard](~@images/beginners-guide/DevModeDashboard.png)
+![DevModeDashboard](/.assets/images/beginners-guide/DevModeDashboard.png)
 
-![DevModeCreateOrg](~@images/beginners-guide/DevModeCreateOrg.png)
+![DevModeCreateOrg](/.assets/images/beginners-guide/DevModeCreateOrg.png)
 
 #### 組織にアカウントを追加する
 
 組織を作成したら自分の Facebook アカウントを組織にドロップダウンしてください。 そこに管理者の役割を追加し、あなたの Facebook アカウント名を入力します。 その後追加をクリックするとユーザーが追加されます。
 
-![DevModeCreateOrg](~@images/beginners-guide/addmember.png)
+![DevModeCreateOrg](/.assets/images/beginners-guide/addmember.png)
 
 #### Oculus で開発者モードを有効にする
 
 これで、スマートフォンの Oculus アプリで開発者モードを有効にできるようになります。
 
-![EnableDevMode](~@images/beginners-guide/EnableDevMode.png)
+![EnableDevMode](/.assets/images/beginners-guide/EnableDevMode.png)
 
 次に[携帯電話のセットアップ](#携帯電話のセットアップ)を参照してください。
 
@@ -123,7 +123,7 @@ SideQuest が Quest を認識したら、画面の下に緑色の点が付いた
 
 BMBF を正常にインストールし終えたら、クエストのライブラリ内に提供元不明としてアプリを見つけることができます。
 
-![UnknownMenu](~@images/beginners-guide/quest_home-menu.jpg)
+![UnknownMenu](/.assets/images/beginners-guide/quest_home-menu.jpg)
 
 それを起動するとファイルへのアクセス許可を促すポップが表示されます 画面上の指示に従ってください。 その後 [BeastSaber](https://bsaber.com) を見てください
 

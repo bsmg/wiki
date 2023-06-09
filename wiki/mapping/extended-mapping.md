@@ -132,15 +132,15 @@ you must choose your placements wisely.
   as this can be very difficult or uncomfortable to play.
   Instead, patterns should encourage or even force the player to move or lean to a side.
 
-  |               Awkward Wide Stretch                |                       Lean/Move Wall                       |
-  | :-----------------------------------------------: | :--------------------------------------------------------: |
-  | ![Wide Pattern](~@images/mapping/wide-stream.png) | ![Lean/Move Pattern](~@images/mapping/6lane-move-wall.png) |
+  |                   Awkward Wide Stretch                   |                          Lean/Move Wall                           |
+  | :------------------------------------------------------: | :---------------------------------------------------------------: |
+  | ![Wide Pattern](/.assets/images/mapping/wide-stream.png) | ![Lean/Move Pattern](/.assets/images/mapping/6lane-move-wall.png) |
 
 - **Emphasis:**
   There is a lot of variety in representing emphasis in a pattern. One way of emphasizing a pattern is through width,
   and with an extra amount of lanes, you can really take advantage of that.
 
-  ![Wide Emphasis Example](~@images/mapping/wide-emphasis-hit.png)
+  ![Wide Emphasis Example](/.assets/images/mapping/wide-emphasis-hit.png)
 
 ### Precision Placement
 
@@ -153,12 +153,12 @@ _Before continuing setup for precision placement, ensure that you have followed 
 
 After completing those steps, enter the editor and press the `ESC` key.
 On the left side of the escape menu, you should see a precision snap option that looks like this:
-![MMA2 Precision Snap](~@images/mapping/mma2-precision-snap.png).  
+![MMA2 Precision Snap](/.assets/images/mapping/mma2-precision-snap.png).  
 The default value is 1/1, which means that the note will snap into the squares on the grid.
 The more you increase the number, the more precise you can get and the less it directly snaps into the squares.
 You can think of it like changing your cursor precision.
 
-![Precision Placement Example](~@images/mapping/precision-placement-example1.png)
+![Precision Placement Example](/.assets/images/mapping/precision-placement-example1.png)
 
 #### What Can You Do With Precision Placement?
 
@@ -411,7 +411,7 @@ by replacing existing characteristic or creating a new one.
 - **Pro:** Retains custom map data.
 - **Con:** Can be confusing at first but gets easier the more you work with it.
 
-![Laser speed events acting as rotation events](~@images/mapping/laser-rotation-360.png)  
+![Laser speed events acting as rotation events](/.assets/images/mapping/laser-rotation-360.png)  
 _Laser speed events being used as spawn rotation events._
 
 - Left Laser Speed Position is Spawn Rotation Event 14
@@ -450,7 +450,7 @@ Use **+1 Rabbit’s** [Note Sorter](https://skystudioapps.com/mapping-tools#note
 via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::
 
-![lane rotation overlap](~@images/mapping/360-note-overlap.png)  
+![lane rotation overlap](/.assets/images/mapping/360-note-overlap.png)  
 _Notes overlap, be aware of them. Image for reference (each note row is 1/4 apart at 15° rotation)._
 
 #### DO'S
@@ -465,7 +465,7 @@ _Notes overlap, be aware of them. Image for reference (each note row is 1/4 apar
 - Stick to 15° rotational changes and occasionally 30°, given hints and enough time to adjust.
 - Use walls or bombs to telegraph large angle changes if you use them and keep notes to the center 2 lanes
   - Having notes in the outer lanes is similar to using 6 lanes where the player has to stretch out to hit the notes.
-    ![Using walls to telegraph rotation](~@images/mapping/wall-telegraph.png)
+    ![Using walls to telegraph rotation](/.assets/images/mapping/wall-telegraph.png)
 - Side hits in the direction of rotation are one of the best ways to indicate rotational change.
 - Use sliders to indicate (big) rotational change.
   - Instead of a conventional slider pattern, the notes are on at the same lane and same row while having rotational

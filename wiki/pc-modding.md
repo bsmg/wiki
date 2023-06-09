@@ -62,7 +62,7 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal and
 version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
 
-![Mod Assistant](~@images/beginners-guide/modassistant.png)
+![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
 ### BeatSaberModManager
 
@@ -72,7 +72,7 @@ Yet another mod installer for Beat Saber, heavily inspired by ModAssistant.
 It strives to look more visually appealing and support both Windows and Linux, while still being as feature-rich as ModAssistant.
 Get it on [affederaffe's GitHub](https://github.com/affederaffe/BeatSaberModManager/releases/latest)
 
-![BeatSaberModManager](~@images/beginners-guide/beatsabermodmanager.png)
+![BeatSaberModManager](/.assets/images/beginners-guide/beatsabermodmanager.png)
 
 ## How to get more songs
 
@@ -102,7 +102,7 @@ To install songs downloaded from the site, unzip them into a folder and place it
 You can also use the in-game downloader mod, or Mod Assistant's OneClick™ Install feature.
 
 To enable and use Mod Assistant's OneClick™ Install see the picture below:
-![Mod Assistant](~@images/beginners-guide/modassistant-oneclick.png)
+![Mod Assistant](/.assets/images/beginners-guide/modassistant-oneclick.png)
 
 ### Beast Saber
 
@@ -169,18 +169,18 @@ is malware or not, **_please ask someone in our discord_**.
 
 1. Download [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
 2. Navigate to your [install folder.](#install-folder) and extract the contents of BSIPA into it.
-   ![Directory Clean](~@images/beginners-guide/directory-clean.png 'Directory Clean')
-   ![Directory Ipa](~@images/beginners-guide/directory-ipa.png 'Directory Ipa')
+   ![Directory Clean](/.assets/images/beginners-guide/directory-clean.png 'Directory Clean')
+   ![Directory Ipa](/.assets/images/beginners-guide/directory-ipa.png 'Directory Ipa')
 3. Double click IPA.exe to patch the game. Any mods in the `Plugins` folder will now be loaded when starting the game.
    If there are errors, you probably didn't follow step 2 correctly.
-   ![Directory Patched](~@images/beginners-guide/directory-patched.png 'Directory Patched')
+   ![Directory Patched](/.assets/images/beginners-guide/directory-patched.png 'Directory Patched')
 
 ### Install Mods
 
 4. Download the mod(s) you wish to install, whether it be from GitHub, the [BSMG Discord](https://discord.com/invite/beatsabermods)
    `#pc-mods` channel, [BeatMods](https://beatmods.com/#/mods) or other sources.
    **Make sure to download any dependencies required by the mod.**
-   ![Directory Plugins](~@images/beginners-guide/directory-plugins.png 'Directory Plugins')
+   ![Directory Plugins](/.assets/images/beginners-guide/directory-plugins.png 'Directory Plugins')
 5. Some mods have installation instructions, some don't. Generally you can just drag and drop the zip contents into your
    beat saber install folder, and the files should go into the corresponding folders.
 

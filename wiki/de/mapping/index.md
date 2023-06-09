@@ -309,8 +309,8 @@ Befolge diese Schritte, um deine mit einem Community-Editor erstellten Maps auf 
 #### Kabellose Verbindung
 
 1. Öffne BMBF auf der Oculus Quest. BMBF muss geöffnet sein, damit die Verbindung hergestellt werden kann.
-2. Gehe zum `Tools` Tab in BMBF. Du solltest dort eine wie unten angezeigte Webadresse und Versionsnummer sehen. <br/>![ip](~@images/mapping/ip.png)
-3. Öffne einen modernen Webbrowser auf deinem PC und gebe die Adresse in der Suchleiste ein. Dort solltest du folgenden Bildschirm sehen.<br/>![BMBF Web](~@images/mapping/bmbfweb.png)
+2. Gehe zum `Tools` Tab in BMBF. Du solltest dort eine wie unten angezeigte Webadresse und Versionsnummer sehen. <br/>![ip](/.assets/images/mapping/ip.png)
+3. Öffne einen modernen Webbrowser auf deinem PC und gebe die Adresse in der Suchleiste ein. Dort solltest du folgenden Bildschirm sehen.<br/>![BMBF Web](/.assets/images/mapping/bmbfweb.png)
 4. Du bist nun verbunden! Fahre mit den Schritten unter [Hochladen der Testdatei auf die Quest](#hochladen-der-testdatei-auf-die-quest) fort.
 
 #### Kabelgebundene Verbindung
@@ -318,14 +318,14 @@ Befolge diese Schritte, um deine mit einem Community-Editor erstellten Maps auf 
 1. Verbinde deine Oculus Quest mit dem PC über USB und lass SideQuest geöffnet
 2. Öffne BMBF auf der Oculus Quest. BMBF muss geöffnet sein, damit die Verbindung hergestellt werden kann
 3. Schaue auf die obere Seite von SideQuest um die IP-Adresse zu finden, mit der du auf BMBF kommst. Du kannst die IP-Adresse auch über den Tools Tab in BMBF einsehen.
-4. Gebe "192.168.X.XXX:50000" in einen Webbrowser ein, wobei die "X" mit der IP-Adresse ersetzt werden muss, die in SideQuest oder dem Tools Tab angegeben ist<br/> ![Quest IP](~@images/mapping/quest_ip.png)  
+4. Gebe "192.168.X.XXX:50000" in einen Webbrowser ein, wobei die "X" mit der IP-Adresse ersetzt werden muss, die in SideQuest oder dem Tools Tab angegeben ist<br/> ![Quest IP](/.assets/images/mapping/quest_ip.png)  
    Auf dem Bild muss beispielsweise `192.168.0.19:50000` im Webbrowser deiner Wahl (Chrome, Firefox, etc.) eingegeben werden.
 5. Du bist nun verbunden! Fahre mit den Schritten unter [Hochladen der Testdatei auf die Quest](#hochladen-der-testdatei-auf-die-quest) fort.
 
 #### Hochladen der Testdatei auf die Quest
 
 1. Ziehe und lege die Dateien auf BMBFs Upload-Seite ab (gekennzeichnet durch "/main/upload" am Ende des Links)
-2. Nachdem sie hochgeladen wurde, drücke auf "Sync to Beat Saber" in der oberen rechten Ecke der Seite <br/>![BMBF Browser](~@images/mapping/bmbf_browser.png)
+2. Nachdem sie hochgeladen wurde, drücke auf "Sync to Beat Saber" in der oberen rechten Ecke der Seite <br/>![BMBF Browser](/.assets/images/mapping/bmbf_browser.png)
 3. Greife auf deine Map im Spiel über die Custom Songs-Playlist im Song Pack-Menü zu. Benutze den Trainingsmodus, um die Map zu spielen (der Button neben dem "Play"-Button).
 
 :::tip HINWEIS
@@ -349,7 +349,7 @@ Der `#testplays` Channel auf dem [Beat Saber Modding Group Discord](https://disc
 
 1. Erstelle eine komprimierte .zip-Datei mit den Mapdateien.
    - Wenn du [MMA2](./mediocre-map-assistant.md) verwendest, kannst du den `Package Song to Zip` Button in den Songinfo-Einstellungen benutzen, um eine komprimierte .zip-Datei deiner Map zu erstellen.  
-     !["Package Song to Zip"-Button](~@images/mapping/mma2-package-zip.jpg)
+     !["Package Song to Zip"-Button](/.assets/images/mapping/mma2-package-zip.jpg)
    - Wenn du [Beatmapper.app](#beatmapper-app) verwendest, folge deren [Download-Anweisungen](https://beatmapper.app/docs/manual/publishing#downloading-your-map).
    - Du kannst die Zip manuell erstellen, indem du dieser [Video-Anleitung](https://streamable.com/u20ci) folgst, falls du keinen webbasierten Editor verwendest.
 2. Lade deine Map im `#testplays` Channel mit dem folgendem Format hoch:

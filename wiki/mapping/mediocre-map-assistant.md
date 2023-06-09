@@ -73,7 +73,7 @@ You have several options available to you:
 - Alternatively, you can make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them.
 
 ::: align center
-![Screenshot of Mediocre Mapper path entry](~@images/mapping/mma2-folder-path.jpg)
+![Screenshot of Mediocre Mapper path entry](/.assets/images/mapping/mma2-folder-path.jpg)
 :::
 
 All of your working map files will go into a song name folder within this CustomWIPLevels folder.
@@ -115,7 +115,7 @@ You have several options available to you:
     `Z:/home/bsmg/MMA2/CustomLevels` and `Z:/home/bsmg/MMA2/CustomWIPLevels`
 
 ::: align center
-![Screenshot of Mediocre Mapper path entry for Linux](~@images/mapping/mma2-linux-path.png)
+![Screenshot of Mediocre Mapper path entry for Linux](/.assets/images/mapping/mma2-linux-path.png)
 :::
 
 All of your working map files will go into a song name folder within this CustomWIPLevels folder.
@@ -126,7 +126,7 @@ The path given from setup may not carry over from the main screen. Make sure the
 are not blank. If blank, add the path(s) from [First Time Setup](#first-time-setup) and press <kbd>Enter</kbd> to confirm!
 
 ::: align center
-![Check Paths Not Blank](~@images/mapping/mma2-checkWipSongPath.png)
+![Check Paths Not Blank](/.assets/images/mapping/mma2-checkWipSongPath.png)
 :::
 
 ### Editor Settings
@@ -135,7 +135,7 @@ Once you've set up your paths, these core settings are all available from the so
 you first open the program.
 
 ::: align center
-![Song Selection screen in Mediocre Map Assistant 2](~@images/mapping/mma2-song-setup.jpg)
+![Song Selection screen in Mediocre Map Assistant 2](/.assets/images/mapping/mma2-song-setup.jpg)
 :::
 
 #### Map Selection
@@ -205,7 +205,7 @@ You have two options to create your song folder:
 
 1. Enter your desired folder name in the 'Create New Level' pane and click <kbd>Create Level</kbd>.
    Your new folder will automatically appear in your map list.  
-   ![Using "Create A New Level" to make a song folder](~@images/mapping/mma2-create-new-level.jpg)
+   ![Using "Create A New Level" to make a song folder](/.assets/images/mapping/mma2-create-new-level.jpg)
 2. Navigate to your `CustomWIPLevels` folder and make a folder with your desired folder name.
    You will need to click <kbd>Refresh Song List</kbd> to see your folder.
 
@@ -216,7 +216,7 @@ Click <kbd>Edit</kbd> to enter your song information and metadata.
 The `Song Info` page is the first screen you see every time you edit a map.
 
 ::: align center
-![Mediocre Map Assistant 2 song setup screen](~@images/mapping/mma2-song-info.jpg)
+![Mediocre Map Assistant 2 song setup screen](/.assets/images/mapping/mma2-song-info.jpg)
 :::
 
 #### Whole Map Settings
@@ -308,7 +308,7 @@ toggled using the <kbd>ESC</kbd> key. These settings persist throughout your map
 time you open the editor. The `Mapping Settings` pane also includes a comprehensive list of keybindings.
 
 ::: align center
-![Mapping Setting screen in Mediocre Map Assistant 2](~@images/mapping/mma2-mapping-settings.jpg)
+![Mapping Setting screen in Mediocre Map Assistant 2](/.assets/images/mapping/mma2-mapping-settings.jpg)
 :::
 
 - **<kbd>Move WaveForm to Other Side</kbd>**: This button will shift the wave form from the left of the mapping track to
@@ -357,7 +357,7 @@ This section walks you through basic usage of the error checker's primary functi
 Here is the main panel for the Error Checker:
 
 ::: align center
-![Error Checker main panel](~@images/mapping/mma2-ec-panel.png)
+![Error Checker main panel](/.assets/images/mapping/mma2-ec-panel.png)
 :::
 
 1. **Minimum Time:** The minimum amount of time in beats that will be checked. Leave it alone.
@@ -382,7 +382,7 @@ Once you click <kbd>Check for {error of your choice}</kbd> pay attention to the 
 Red text will pop up that tells you how many errors were found within the specified number of beats:
 
 ::: align center
-![122 errors found... don't do this. This is bad.](~@images/mapping/mma2-errors_found.png)
+![122 errors found... don't do this. This is bad.](/.assets/images/mapping/mma2-errors_found.png)
 :::
 
 - Only one error can be highlighted at a time.
@@ -396,9 +396,9 @@ the error. Once you’ve made your change you can click "Check for Double Direct
 resolved. You can change the max time value to suit the speed of your song. 2.0 beats is a good baseline for new mappers
 but the faster the song the more beats you may need for a reasonable reset (if that is your intention).
 
-|                            Example                             | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| :------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Double directional example](~@images/mapping/dd_example.png) | In this example, max time is set to 0.75 beats.<br />There is a set of down notes 1/2 beat apart and then a set of diagonal notes 1/2 beat after that. The first set of blocks isn't flagged but the next two are because they are double directionals within 3/4 (0.75) of a beat after the first set.<br />You have two options:<br />_Change one of the blocks<br />_ Force the player to "reset" (return their arms/hands to a neutral position) if there’s enough time. |
+|                                Example                                | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| :-------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Double directional example](/.assets/images/mapping/dd_example.png) | In this example, max time is set to 0.75 beats.<br />There is a set of down notes 1/2 beat apart and then a set of diagonal notes 1/2 beat after that. The first set of blocks isn't flagged but the next two are because they are double directionals within 3/4 (0.75) of a beat after the first set.<br />You have two options:<br />_Change one of the blocks<br />_ Force the player to "reset" (return their arms/hands to a neutral position) if there’s enough time. |
 
 ::: tip
 Keep clicking the "Check for Double Directionals" button... sometimes fixing one error can create a new error out of your
@@ -411,9 +411,9 @@ in the center two positions as those are at eye-height for the player in-game an
 "facenotes." Blocks in other positions can be vision blocks as well but the two center positions are the most likely
 culprits. Depending on your BPM, 1-2 beats is fine.
 
-|                         Example                          | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| :------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Vision block example](~@images/mapping/vb_example.png) | In this example, I have my max beats set to 2 beats<br />At beat 150 there are facenotes blocking everything behind them. At beats 151 and 151.5 there are highlighted red and blue blocks indicating that the previous blocks are a problem.<br />You have two options:<br />_Move/delete the top two blocks (removing the vision block)<br />_ Move the back two blocks further out in time so the player has a chance to react to them |
+|                             Example                             | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| :-------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Vision block example](/.assets/images/mapping/vb_example.png) | In this example, I have my max beats set to 2 beats<br />At beat 150 there are facenotes blocking everything behind them. At beats 151 and 151.5 there are highlighted red and blue blocks indicating that the previous blocks are a problem.<br />You have two options:<br />_Move/delete the top two blocks (removing the vision block)<br />_ Move the back two blocks further out in time so the player has a chance to react to them |
 
 ### Stats Panel
 
@@ -429,9 +429,9 @@ You can get information by hovering over each title.
   for the latest (and greatly increased) NPS ranges.
   :::
 
-|                             Example                              | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| :--------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Stats panel screenshot](~@images/mapping/mma2-stats-panel.png) | **Notes:** The total number of notes in your map.<br />**Notes per Second:** The number of notes in your map divided by the number of seconds in your map. This number isn’t accurate until you’ve finished mapping, unless you've only selected a small section.<br />**Bombs, Walls, and Lighting:** The number of each event you have in your map.<br />**R/B Ratio:** If you have exactly the same number of red and blue blocks this will be 1.00. Greater than 1 you have more reds. Less than 1 you have more blues.<br />**Vision Block:** The percentage of your map’s blocks that are vision blocks at 0.75 beats. Use the vision block checker to highlight these blocks.<br />**Vision Block (A):** The percentage of your map’s blocks that are vision blocks at 1.25 beats. Useful for faster songs. Use the vision block checker with a max time of 1.25 to highlight these blocks.<br />**Top/Middle/Bottom Notes:** The percentage of your blocks that are placed in each row. |
+|                                 Example                                 | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Stats panel screenshot](/.assets/images/mapping/mma2-stats-panel.png) | **Notes:** The total number of notes in your map.<br />**Notes per Second:** The number of notes in your map divided by the number of seconds in your map. This number isn’t accurate until you’ve finished mapping, unless you've only selected a small section.<br />**Bombs, Walls, and Lighting:** The number of each event you have in your map.<br />**R/B Ratio:** If you have exactly the same number of red and blue blocks this will be 1.00. Greater than 1 you have more reds. Less than 1 you have more blues.<br />**Vision Block:** The percentage of your map’s blocks that are vision blocks at 0.75 beats. Use the vision block checker to highlight these blocks.<br />**Vision Block (A):** The percentage of your map’s blocks that are vision blocks at 1.25 beats. Useful for faster songs. Use the vision block checker with a max time of 1.25 to highlight these blocks.<br />**Top/Middle/Bottom Notes:** The percentage of your blocks that are placed in each row. |
 
 ## Troubleshooting
 
@@ -505,11 +505,11 @@ by **+1 Rabbit** to make the one time adjustment!
 
 ### **Your audio file name is wrong. Enter only the name NOT the path.**
 
-![Audio File Name Wrong](~@images/mapping/mma2-wrongPath.png)
+![Audio File Name Wrong](/.assets/images/mapping/mma2-wrongPath.png)
 
 - You might have unintentionally named your audio file `song.ogg.ogg`. Turn on file extensions in file explorer to make
   sure it is named `song.ogg`. The option is located here:  
-  ![Turn on File Extensions](~@images/mapping/turnOnFileExtend.png)
+  ![Turn on File Extensions](/.assets/images/mapping/turnOnFileExtend.png)
 
 - [Check both folder paths](#check-the-wip-file-path) are complete on the Song Selection screen and add the path(s) from
   [First Time Setup](#first-time-setup) if blank. There is a known bug that deletes the CustomWIPLevels folder path on
@@ -526,7 +526,7 @@ by **+1 Rabbit** to make the one time adjustment!
 
 ### **When I open the editor, all I see is a grid and block and can't interact with it**
 
-![Broken Editor](~@images/mapping/mma2BrokenApp.png)
+![Broken Editor](/.assets/images/mapping/mma2BrokenApp.png)
 
 - Navigate to your `\AppData\Local` and delete the `MediocreMapAssistant2` folder. Then run `mediocremapassistant2.exe`
   and follow [First Time Setup](#first-time-setup) again.
@@ -540,12 +540,12 @@ by **+1 Rabbit** to make the one time adjustment!
 
 <!-- markdownlint-enable MD013 -->
 
-![FatalError](~@images/mapping/mma2-no_directx.jpg)
+![FatalError](/.assets/images/mapping/mma2-no_directx.jpg)
 
 - If your error matches what is shown in the picture. Close out of the dialog and install this
   [Unreal Engine 4 Prerequisite Package](https://mma2.topc.at/UE4PrereqSetup_x64.exe).
   - If you get this error while installing the driver.  
-    ![directX Install Error](~@images/mapping/mma2-directXError.png)
+    ![directX Install Error](/.assets/images/mapping/mma2-directXError.png)
     1. Download and run the [.NET Framework Repair Tool](https://docs.microsoft.com/dotnet/framework/install/repair).
     2. Restart your computer and rerun the DirectX driver installer.
 
@@ -553,11 +553,11 @@ by **+1 Rabbit** to make the one time adjustment!
 
 ### **When I open the editor, it crashes with a LowLevelFatalError: [Line XX] Failed to load module**
 
-![FatalError](~@images/mapping/mma2-physXerror.png)
+![FatalError](/.assets/images/mapping/mma2-physXerror.png)
 
 - If your error matches what is shown in the picture. Close out of the dialog and install this [DirectX driver](https://www.microsoft.com/download/details.aspx?id=35).
   - If you get this error while installing the driver.  
-    ![directX Install Error](~@images/mapping/mma2-directXError.png)
+    ![directX Install Error](/.assets/images/mapping/mma2-directXError.png)
     1. Download and run the [.NET Framework Repair Tool](https://docs.microsoft.com/dotnet/framework/install/repair).
     2. Restart your computer and rerun the DirectX driver installer.
 

@@ -55,7 +55,7 @@ Si vous avez déjà moddé le jeu, vous devez également le désinstaller en app
 
 Cliquez sur le bouton `Install APK from folder` comme indiqué ci-dessous et sélectionnez le fichier APK BMBF que vous avez téléchargé, ou glissez simplement le fichier APK dans la fenêtre de SideQuest. Ces deux méthodes vont installer BMBF sur votre Quest.
 
-![Installation d'APK](~@images/beginners-guide/apkfromfolder.png)
+![Installation d'APK](/.assets/images/beginners-guide/apkfromfolder.png)
 
 Une fois installé avec succès, assurez-vous que la dernière version de Beat Saber est installée et non moddée.
 
@@ -65,13 +65,13 @@ Avant de modder, lancez Beat Saber une fois, jouez une chanson et perdez immédi
 Il est actuellement impossible de modder le jeu si la fonctionnalité expérimentale du multi-utilisateur est utilisée. Vous devrez temporairement retirer tous les comptes secondaires avant de modder le jeu. Vous pourrez ensuite les rajouter une fois que vous avez installé les mods de votre choix.
 :::
 
-Après avoir lancé Beat Saber une fois, ouvrez BMBF depuis les Sources inconnues comme indiqué ci-dessous.![Sources inconnues](~@images/beginners-guide/quest_home-menu.jpg)
+Après avoir lancé Beat Saber une fois, ouvrez BMBF depuis les Sources inconnues comme indiqué ci-dessous.![Sources inconnues](/.assets/images/beginners-guide/quest_home-menu.jpg)
 
 Une fois ouvert, suivez chaque étape dans BMBF tel qu'indiqué pour modder votre jeu. Vous devriez ensuite voir [Bsaber.com](https://www.bsaber.com) dans BMBF. C'est ici que vous pouvez télécharger les chansons personnalisées disponibles. Vous pouvez également cliquer sur l'icône de globe dans le coin supérieur droit pour aller sur BeatSaver pour télécharger des chansons.
 
 Si à tout moment pendant l'installation vous voyez la pop-up `Restaurer l'app`, cliquez sur `Fermer`. Cet avertissement vise principalement les versions piratées du jeu, donc si vous ne faites rien d'autre que modder le jeu, vous n'avez pas de souci à vous faire.
 
-![Restaurer l'app](~@images/beginners-guide/restoreapp.png)
+![Restaurer l'app](/.assets/images/beginners-guide/restoreapp.png)
 
 Continuez à l'étape [Mods essentiels](#mods-essentiels) du processus d'installation.
 
@@ -113,7 +113,7 @@ Avant de modder, lancez Beat Saber une fois, jouez une chanson et perdez immédi
 
 Ouvrez Bugjaeger sur votre téléphone et connectez votre Quest. Vous devriez avoir une pop-up à propos du débogage USB sur votre Quest et votre téléphone. Sélectionnez "Autoriser" sur les deux appareils, et si vous préférez, vous pouvez cocher "Toujours autoriser". Une fois que Bugjaeger détecte votre Quest, installez le fichier APK de BMBF en suivant les instructions ci-dessous :
 
-![Installation d'un APK avec le téléphone](~@images/beginners-guide/InstallAPK.png)
+![Installation d'un APK avec le téléphone](/.assets/images/beginners-guide/InstallAPK.png)
 
 Après avoir validé, autorisez l'accès au stockage et sélectionnez le fichier APK téléchargé qui devrait se nommer `com.weloveoculus.BMBF.apk`. Le fichier APK devrait désormais s'installer sur votre Quest.
 
@@ -121,7 +121,7 @@ Après avoir validé, autorisez l'accès au stockage et sélectionnez le fichier
 
 Après avoir installé BMBF sur votre Quest, vous devriez pouvoir le trouver dans les Sources inconnues de votre bibliothèque.
 
-![Menu sources inconnues ](~@images/beginners-guide/quest_home-menu.jpg)
+![Menu sources inconnues ](/.assets/images/beginners-guide/quest_home-menu.jpg)
 
 Ouvrez-le et autorisez l'accès au stockage si vous y êtes invité. Suivez ensuite attentivement les instructions indiquées à l'écran. Vous devriez finalement voir apparaître [BeastSaber](https://bsaber.com).
 
@@ -172,15 +172,15 @@ Si le mod que vous cherchez n'est pas visible sur QuestBoard, vous devrez instal
 
 Ouvrez BMBF dans votre Quest et rendez vous dans l'onglet `Browser`, vous devriez y voir une icône de globe similaire à celle visible ci-dessous. Cliquez dessus, puis cliquez sur le bouton `QuestBoard`.
 
-![Globe QuestBoard](~@images/beginners-guide/globequestboard.png)
+![Globe QuestBoard](/.assets/images/beginners-guide/globequestboard.png)
 
 Vous devriez être accueilli avec le site web [QuestBoard](https://www.questmodding.com/) ci-dessous. Ensuite, sélectionnez l'onglet `DOWNLOAD MODS`.
 
-![Accueil QuestBoard](~@images/beginners-guide/questboardhome.png)
+![Accueil QuestBoard](/.assets/images/beginners-guide/questboardhome.png)
 
 Défilez avec vos joysticks. Vous pouvez sélectionner n'importe quel mod dans la liste visible ci-dessous, et le télécharger en cliquant sur le bouton de téléchargement visible en bout de ligne. Certains téléchargements peuvent vous rediriger vers un site internet ou une page Github. Dans ce cas, suivez les instructions à l'écran, ou téléchargez le dernier `.zip` dans la liste des Releases respectivement.
 
-![Mods QuestBoard](~@images/beginners-guide/questboardmods.png)
+![Mods QuestBoard](/.assets/images/beginners-guide/questboardmods.png)
 
 ### Depuis votre PC
 
@@ -192,7 +192,7 @@ Assurez vous que votre Quest et votre PC sont sur le même réseau, et que vous 
 
 Ouvrez BMBF dans votre Quest et rendez-vous dans l'onglet `Tools`, vous devriez y voir une adresse web et un numéro de version similaires à ce qui est affiché ci-dessous.
 
-![IP](~@images/beginners-guide/ip.png)
+![IP](/.assets/images/beginners-guide/ip.png)
 
 Sur votre PC, ouvrez votre navigateur et entrez l'adresse dans la barre de recherche.
 
@@ -200,7 +200,7 @@ Vous devriez être accueilli par l'écran ci-dessous.
 
 Si cela ne fonctionne pas, rendez-vous [ici](#l-interface-web-bmbf-ne-charge-pas) pour corriger le problème.
 
-![BMBF Web](~@images/beginners-guide/bmbfweb.png)
+![BMBF Web](/.assets/images/beginners-guide/bmbfweb.png)
 
 Maintenant, glissez simplement n'importe quel mod compatible Quest dans la zone d'upload et synchronisez. Si le mod a originalement été conçu pour une ancienne version du jeu, il ne sera pas activé automatiquement. Pour activer un mod obsolète, rendez-vous dans l'onglet `Mods` et activez-le d'ici.
 
