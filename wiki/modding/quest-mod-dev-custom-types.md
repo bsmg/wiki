@@ -43,9 +43,9 @@ With those includes, we can now declare our `Counter` type. Types are declared u
 ```cpp
 // parameters are (namespace, class name, parent class, contents)
 DECLARE_CLASS_CODEGEN(MyNamespace, Counter, UnityEngine::MonoBehaviour,
-    // DECLARE_INSTANCE_METHOD creates methods 
+    // DECLARE_INSTANCE_METHOD creates methods
     DECLARE_INSTANCE_METHOD(void, Update);
-    
+
     // DECLARE_INSTANCE_FIELD creates fields
     DECLARE_INSTANCE_FIELD(int, counts);
 )
@@ -54,15 +54,15 @@ DECLARE_CLASS_CODEGEN(MyNamespace, Counter, UnityEngine::MonoBehaviour,
 In C#, this would translate to the following:
 
 ```csharp
-namespace MyNamespace 
+namespace MyNamespace
 {
-    public class Counter : MonoBehaviour 
+    public class Counter : MonoBehaviour
     {
         public int counts;
-        
-        public void Update() 
+
+        public void Update()
         {
-            
+
         }
     }
 }
@@ -119,9 +119,13 @@ a virtual method that is commonly overriden is `HMUI::ViewController::DidActivat
 DECLARE_CLASS_CODEGEN(MyNamespace, CustomMenu, HMUI::ViewController,
     // to override a method, we need the MethodInfo* of the original
     // there are two common ways to get it, but unfortunately both of them make for relatively long lines
-    DECLARE_OVERRIDE_METHOD(void, DidActivate, il2cpp_utils::il2cpp_type_check::MetadataGetter<&HMUI::ViewController::DidActivate>::get(), bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    DECLARE_OVERRIDE_METHOD(void, DidActivate,
+        il2cpp_utils::il2cpp_type_check::MetadataGetter<&HMUI::ViewController::DidActivate>::get(),
+        bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // OR
-    DECLARE_OVERRIDE_METHOD(void, DidActivate, il2cpp_utils::FindMethodUnsafe("HMUI", "ViewController", "DidActivate", 3), bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    DECLARE_OVERRIDE_METHOD(void, DidActivate,
+        il2cpp_utils::FindMethodUnsafe("HMUI", "ViewController", "DidActivate", 3),
+        bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // note that both of these seem to be calling methods at the global level, outside of any functions or hooks,
     // that you normally cannot call until at least after load() --
     // but actually, since these are macros, the code is actually moved inside of internal functions
@@ -137,24 +141,23 @@ and instead there is a different macro for it:
 ```cpp
 #include "HMUI/TableView_IDataSource.hpp"
 
-// to prevent the macro from expanding things incorrectly (if there were multiple interfaces)
-// we need to wrap the interface list in this std::vector declaration
-// in this case simply { classof(HMUI::ISaberMovementData*) } could be used
-// also, if there is no required parent class, Il2CppObject can be used to equal a plain object with no parent
-DECLARE_CLASS_CODEGEN_INTERFACES(MyNamespace, TableData, Il2CppObject, std::vector<Il2CppClass*>({ classof(HMUI::ISaberMovementData*) }),
+// if there is no required parent class, Il2CppObject can be used to equal a plain object with no parent
+// also, to inherit from multiple interfaces, they need to be wrapped with std::vector<Il2CppClass*>({ ... })
+// to prevent the macro from expanding them incorrectly
+DECLARE_CLASS_CODEGEN_INTERFACES(MyNamespace, TableData, Il2CppObject, { classof(HMUI::ISaberMovementData*) },
     // rest of the custom type as normal
 )
 ```
 
 ## Constructors
 
-Some simple custom types do not necessarily need constructors, but there are a lot of cases where one does 
+Some simple custom types do not necessarily need constructors, but there are a lot of cases where one does
 need to be defined. You can create a fully custom one with the `DECLARE_CTOR` macro:
 
 ```cpp
 DECLARE_CLASS_CODEGEN(MyNamespace, Counter, UnityEngine::MonoBehaviour,
     // other members
-    
+
     // can have arguments the same as any other method
     // but the return type is always void so it is omitted from the macro
     DECLARE_CTOR(ctor);
@@ -174,8 +177,8 @@ void MyNamespace::Counter::ctor() {
 In the case of `MonoBehaviour`, this isn't necessary as it doesn't do anything in its constructor. If you inherit
 other types, though, not invoking their constructors can cause hard to track down bugs.
 
-Another case where the constructor would be used is if you use `DECLARE_INSTANCE_FIELD_DEFAULT` or have c++ style fields in your class that need special
-initialization, such as `std::vector` or something with a default value, ex:
+Another case where the constructor would be used is if you use `DECLARE_INSTANCE_FIELD_DEFAULT` or have c++ style fields
+in your class that need special initialization, such as `std::vector` or something with a default value, ex:
 
 ```cpp
 DECLARE_CLASS_CODEGEN(MyNamespace, Counter, UnityEngine::MonoBehaviour,
@@ -201,10 +204,10 @@ just use `DECLARE_DEFAULT_CTOR`:
 ```cpp
 DECLARE_CLASS_CODEGEN(MyNamespace, Counter, UnityEngine::MonoBehaviour,
     // C# members
-    
+
     // invokes the MonoBehaviour constructor and sets counts to 5
     DECLARE_DEFAULT_CTOR();
-    
+
     public:
     int counts = 5;
 )
@@ -234,7 +237,7 @@ This method should be put in your `load()` like so:
 extern "C" void load() {
     // make sure this is after il2cpp_functions::Init()
     custom_types::Register::AutoRegister();
-    
+
     // other code
 }
 ```
@@ -275,7 +278,7 @@ custom_types::Helpers::Coroutine counterCoroutine() {
     // loop 30 times
     for (int i = 0; i < 30; i++) {
         secondsPassed++;
-        
+
         // wait one second
         // arguments passed to co_yield must be cast to this type
         // you can also use co_yield nullptr; to wait a single frame
@@ -324,7 +327,7 @@ You can use `SharedCoroutineStarter` to start a coroutine without the need of an
 
 // in a hook somewhere
 auto coroutine = custom_types::Helpers::CoroutineHelper::New(counterCoroutine());
-SharedCoroutineStarter::get_instance()->StartCoroutine(coroutine);
+GlobalNamespace::SharedCoroutineStarter::get_instance()->StartCoroutine(coroutine);
 ```
 
 ## Other

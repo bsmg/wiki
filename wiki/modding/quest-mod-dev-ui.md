@@ -36,7 +36,7 @@ void DidActivate(HMUI::ViewController* self, bool firstActivation, bool addedToH
     if(firstActivation) {
         // Create a container that has a scroll bar
         UnityEngine::GameObject* container = QuestUI::BeatSaberUI::CreateScrollableSettingsContainer(self->get_transform());
-       
+
         // Create a text that says "Hello World!" and set the parent to the container.
         QuestUI::BeatSaberUI::CreateText(container->get_transform(), "Hello World!");
     }
@@ -57,7 +57,8 @@ comments that document almost all the methods.
 * Gameplay Setup
 ![Gameplay Setup](~@images/modding/quest-gameplay-settings.jpg)
 
-For `questui` to use your `DidActivate` method, you will need to register it using the `QuestUI::Register` class in your `load()` method.
+For `questui` to use your `DidActivate` method, you will need to register it using the `QuestUI::Register` class in your
+`load()` method.
 
 ```cpp
 #include "questui/shared/QuestUI.hpp"
@@ -68,7 +69,7 @@ extern "C" void load() {
     // make sure this is after il2cpp_functions::Init()
     QuestUI::Init();
     QuestUI::Register::RegisterModSettingsViewController(modInfo, DidActivate);
-    
+
     // other code
 }
 ```

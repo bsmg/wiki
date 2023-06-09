@@ -47,7 +47,8 @@ and add it to your PATH variable.
 
 ### Android NDK
 
-[Download the Android NDK](https://developer.android.com/ndk), unzip it, and add it to a new environment variable called ANDROID_NDK_HOME.
+[Download the Android NDK](https://developer.android.com/ndk), unzip it, and add it to a new environment variable called
+ANDROID_NDK_HOME.
 
 ## Create a Project
 
@@ -77,8 +78,9 @@ qpm dependency add beatsaber-hook
 qpm dependency add codegen
 ```
 
-If the latest versions do match those for the version you are developing for, add `-v ^x.x.x` after the command with the correct version
-instead of running those commands. For example, for Beat Saber version 1.28.0, the correct codegen version is 0.33.0:
+If the latest versions do match those for the version you are developing for, add `-v ^x.x.x` after the command with the
+correct version instead of running those commands. For example, for Beat Saber version 1.28.0, the correct codegen
+version is 0.33.0:
 
 ```powershell
 qpm dependency add codegen -v ^0.33.0
@@ -126,13 +128,15 @@ validate-modjson.ps1
 
 #### src/main.cpp
 
-`main.cpp` contains the `setup()` and `load()` methods. These methods can exist in any source file as long as they are accessible by
-the modloader. Take a look inside of `main.cpp` for more information as Laurie has thankfully commented most of the code.
+`main.cpp` contains the `setup()` and `load()` methods. These methods can exist in any source file as long as they are
+accessible by the modloader. Take a look inside of `main.cpp` for more information as Laurie has thankfully commented
+most of the code.
 
 #### shared
 
-The shared folder can be exposed by QPM to other mods and published to the QPM dependency registry. Useful if you want to make an API
-to let other mods control your mod in certain ways (for example Qosmetics has a model loading API). Speak to @Sc2ad if you want to publish something.
+The shared folder can be exposed by QPM to other mods and published to the QPM dependency registry. Useful if you want
+to make an API to let other mods control your mod in certain ways (for example Qosmetics has a model loading API).
+Speak to @Sc2ad if you want to publish something.
 
 #### extern
 
@@ -141,8 +145,8 @@ The extern folder should be ignored (and/or in some cases excluded). It contains
 
 ### Script Breakdown
 
-It is recommended to run these scripts using Powershell Core (v7) - however, it is not required. All scripts can be run with the `--help`
-argument for a description of arguments and functionality.
+It is recommended to run these scripts using Powershell Core (v7) - however, it is not required. All scripts can be run
+with the `--help` argument for a description of arguments and functionality.
 
 #### build.ps1
 
@@ -167,8 +171,8 @@ Generates a QMOD file that can be parsed by BMBF and or QuestPatcher. Will use t
 Usage: `pull-tombstone.ps1`
 
 Finds the most recently modified Beat Saber crash tombstone and copies it to your device. If the build on your quest matches
-what you have most recently built locally, the `-analyze` argument can be provided to generate the source file locations of
-any lines mentioned in the backtrace.
+what you have most recently built locally, the `-analyze` argument can be provided to generate the source file locations
+of any lines mentioned in the backtrace.
 
 #### restart-game.ps1
 
@@ -186,8 +190,8 @@ Prints logs from Beat Saber, just your mod, or also crashes. Usage of `-self` is
 
 Usage: `validate-modjson.ps1`
 
-Generates a `mod.json` from `mod.template.json` if not present and verifies it against the QMOD schema. Mostly used inside of
-`createqmod.ps1`. Does not have help text.
+Generates a `mod.json` from `mod.template.json` if not present and verifies it against the QMOD schema. Mostly used
+inside of `createqmod.ps1`. Does not have help text.
 
 ## Hooking
 
@@ -213,7 +217,7 @@ this event and add our own functionality.
 Firstly, create your hook using the `MAKE_HOOK_MATCH` macro:
 
 ```cpp
-// You can think of these as C# - using MainMenuViewController, using UnityEngine.UI.Button, using HMUI.CurvedTextMeshPro, etc.
+// You can think of these as C# - using MainMenuViewController, using HMUI.CurvedTextMeshPro, etc.
 // Classes without a namespace are assigned to the GlobalNamespace
 // If you use a class and do not include it, you may get unclear compiler errors, so make sure to include what you use
 #include "GlobalNamespace/MainMenuViewController.hpp"
@@ -226,24 +230,24 @@ Firstly, create your hook using the `MAKE_HOOK_MATCH` macro:
 // bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling
 // and returns void.
 
-// General format: MAKE_HOOK_MATCH(hook name, hooked method, method return type, method class pointer, arguments...) { 
+// General format: MAKE_HOOK_MATCH(hook name, hooked method, method return type, method class pointer, arguments...) {
 //     HookName(self, arguments...);
 //     your code here
 // }
 
-MAKE_HOOK_MATCH(MainMenuUIHook, &GlobalNamespace::MainMenuViewController::DidActivate, void, GlobalNamespace::MainMenuViewController*
- self, bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
+MAKE_HOOK_MATCH(MainMenuUIHook, &GlobalNamespace::MainMenuViewController::DidActivate, void,
+ GlobalNamespace::MainMenuViewController* self, bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
     // Run the original method before our code.
     // Note that you can run the original method after our code or even in the middle
     // if you want to change arguments or do something before it runs.
     MainMenuUIHook(self, firstActivation, addedToHierarchy, screenSystemEnabling);
-    
+
     // Get the _soloButton text object by accessing the soloButton field and some simple Unity methods.
     // Note that auto can be used instead of declaring the full type in many cases.
     UnityEngine::UI::Button* soloMenuButton = self->soloButton;
     UnityEngine::GameObject* gameObject = soloMenuButton->get_gameObject();
     HMUI::CurvedTextMeshPro* soloMenuText = gameObject->GetComponentInChildren<HMUI::CurvedTextMeshPro*>();
-    
+
     // Set the text to "Skill Issue"
     soloMenuText->SetText("Skill Issue");
 }
@@ -256,9 +260,9 @@ extern "C" void load() {
     il2cpp_functions::Init();
 
     getLogger().info("Installing hooks...");
-    
+
     INSTALL_HOOK(getLogger(), MainMenuUIHook);
-    
+
     getLogger().info("Installed all hooks!");
 }
 ```
@@ -273,8 +277,8 @@ You can test your mod without BMBF quickly using [`copy.ps1`](#copy-ps1). This i
 for convenience. You should always test using a QMOD and BMBF if you're about to release your mod.
 
 What[`copy.ps1`](#copy-ps1) does specifically is copy the `libmodname.so` in the `build` folder to the correct place on your
-quest and then restart Beat Saber for you. You can also specify while launching to collect logs with the `-log` argument followed
-by any of the arguments supported by the `start-logging.ps1` script:
+quest and then restart Beat Saber for you. You can also specify while launching to collect logs with the `-log` argument
+followed by any of the arguments supported by the `start-logging.ps1` script:
 
 ```powershell
 copy.ps1 -log -self -file latest.log
@@ -282,13 +286,15 @@ copy.ps1 -log -self -file latest.log
 
 ### With BMBF
 
-Testing your mod with BMBF is useful to make sure BMBF shows and handles your QMOD correctly (copying files version, cover, etc.)
+Testing your mod with BMBF is useful to make sure BMBF shows and handles your QMOD correctly (copying files,
+version, cover, etc.)
 
 You will need to generate a QMOD file using [`createqmod.ps1`](#createqmod-ps1).
 
 You can then upload the generated QMOD file to BMBF and it should install your mod - it should appear on the mods list.
 
-You can still collect logs from your mod using the [`start-logging.ps1`](#start-logging-ps1) command after you launch the game.
+You can still collect logs from your mod using the [`start-logging.ps1`](#start-logging-ps1) command after you launch
+the game.
 
 ## Utilizing `mod.template.json`
 
@@ -305,7 +311,8 @@ updated at any time by running the command `qpm qmod build` (which only creates 
 
 A cover image is used by certain mods and BMBF to show a preview of your mod.
 
-To add a cover image, simply name the image `cover.png`, put it in your project directory, and add the following to your `mod.template.json`:
+To add a cover image, simply name the image `cover.png`, put it in your project directory, and add the following to your
+`mod.template.json`:
 
 ```json
 "coverImage": "cover.png"
@@ -335,8 +342,8 @@ Slice Details Quest
 
 ### File Copies
 
-File copies is an array that can specify extra files in your QMOD to be copied to the quest, such as sabers included by default in Qosmetics.
-You can add files by editing `createqmod.ps1` and `mod.template.json`.
+File copies is an array that can specify extra files in your QMOD to be copied to the quest, such as sabers included by
+default in Qosmetics. You can add files by editing `createqmod.ps1` and `mod.template.json`.
 
 #### Example
 
@@ -367,8 +374,8 @@ Visit the [Quest Mod Configuration](./quest-mod-dev-config.md) page to learn the
 a configuration for your mod.
 
 ## Custom Types
-`custom-types` is a library that allows you to create the equivalent of C# types using macros. These types can extend classes such
-as `MonoBehaviour` and much more. `custom-types` also allows you to create and use [coroutines](https://docs.unity3d.com/Manual/Coroutines.html)
+`custom-types` is a library that allows you to create the equivalent of C# types using macros. These types can extend
+classes such as `MonoBehaviour` and much more. `custom-types` also allows you to create and use [coroutines](https://docs.unity3d.com/Manual/Coroutines.html)
 and [delegates](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/).
 
 Custom Types are complex and requires knowledge of basic C#. Visit the [Quest Custom Types](./quest-mod-dev-custom-types.md)

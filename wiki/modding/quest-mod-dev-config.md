@@ -51,9 +51,9 @@ DECLARE_CONFIG(ModConfig,
     CONFIG_VALUE(VariableFloat, float, "Float Example", 1.5f);
     CONFIG_VALUE(VariableBoolean, bool, "Bool Example", false);
     CONFIG_VALUE(VariableDouble, double, "Double Example", 0.39221);
-    
+
     // dividing by 255 in color constructor because UnityEngine::Color represents RGBA as values in the range of 0 to 1
-    CONFIG_VALUE(VariableColor, UnityEngine::Color, "Color Example", UnityEngine::Color(10.0 / 255, 155.0 / 255, 90.0 / 255 , 0));
+    CONFIG_VALUE(VariableColor, UnityEngine::Color, "Color Example", UnityEngine::Color(10.0/255, 155.0/255, 90.0/255, 0));
     CONFIG_VALUE(VariableVector2, UnityEngine::Vector2, "Vector2 Example", UnityEngine::Vector2(1, 2));
     CONFIG_VALUE(VariableVector3, UnityEngine::Vector3, "Vector3 Example", UnityEngine::Vector3(1, 2, 3));
     CONFIG_VALUE(VariableVector4, UnityEngine::Vector4, "Vector4 Example", UnityEngine::Vector4(1, 2, 3, 4));
@@ -73,7 +73,7 @@ You can run this in `setup()`, `load()`, or even anytime later if you really wan
 extern "C" void load() {
     // Initialize and load the config
     getModConfig().Init(modInfo);
-    
+
     // other code.
 }
 ```
