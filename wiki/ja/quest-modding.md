@@ -32,9 +32,9 @@ BSMG では、改造のためにビデオチュートリアルを使用しない
 PC を使えない場合は、 [Android 端末で Mod を導入する](./support/modding-with-android.md) を参照してください。 iPhone や iPad などの Chromebook や iOS デバイスはサポートされていません。
 
 :::warning 警告
-BMBF をインストールすると公式のマルチプレイモードや公式のリーダーボードへのスコアの送信、リプレイの記録ができなくなります。 もし Mod が導入された状態でマルチプレイを行いたい場合は`Beat Together`が必要になります。これは PC と Quest のクロスプレイを可能にします。また、両方とものカスタムソングで遊ぶことができます。 ディスコードの[Beat Saber Modding Group](discord.gg/beatsabermods)の`#quest-mods`チャンネルもしくは[Questboard](https://questmodding.com)のサイトで入手できます。
+BMBF をインストールすると公式のマルチプレイモードや公式のリーダーボードへのスコアの送信、リプレイの記録ができなくなります。 もし Mod が導入された状態でマルチプレイを行いたい場合は`Beat Together`が必要になります。これは PC と Quest のクロスプレイを可能にします。また、両方とものカスタムソングで遊ぶことができます。 ディスコードの[Beat Saber Modding Group](https://discord.gg/beatsabermods)の`#quest-mods`チャンネルもしくは[Questboard](https://questmodding.com)のサイトで入手できます。
 
-ランク付けされた曲からパフォーマンスポイント(PP)を得るためには、 [ScoreSaber](https://new.scoresaber.com/quest) mod が必要です。 [このリンク](https://new.scoresaber.com/quest) では、 ScoreSaber ページに移動して設定する方法が書いてあります。 Scoresaber は公式のリーダーボードを置き換えるものではなく、カスタム曲のリーダーボードだけが追加されます。
+ランク付けされた曲からパフォーマンスポイント(PP)を得るためには、 [ScoreSaber](https://scoresaber.com/quest) mod が必要です。 [このリンク](https://scoresaber.com/quest) では、 ScoreSaber ページに移動して設定する方法が書いてあります。 Scoresaber は公式のリーダーボードを置き換えるものではなく、カスタム曲のリーダーボードだけが追加されます。
 
 **注意** [ScoreSaber Discord](https://discord.gg/WpuDMwU)のサーバーで Mod が現在のゲームバージョンで使えるかチェックしてください。
 :::
@@ -233,7 +233,7 @@ Quest 内でマップをインストールできない場合は、mod のイン�
 - [Questboard website](https://questmodding.com) - Beat Saber 関連のニュースや最新の mods リリースの情報など！
 - [Questboard discord server](https://discord.gg/P7sUKVnP) - BeatSaber のクエストに関係する情報があります。また Mod がリリースされたときに通知を受けることもできます。
 - [オーディオ同期ズレの修正](https://bsaber.com/quest-out-of-sync/)
-- [ScoreSaber](https://new.scoresaber.com/quest) - カスタムマップのゲーム内ランキング
+- [ScoreSaber](https://scoresaber.com/quest) - カスタムマップのゲーム内ランキング
 - [ScoreSaber](https://scoresaber.com) - カスタムマップのリーダーボードを閲覧できるウェブサイト。
 
 ## トラブルシューティング

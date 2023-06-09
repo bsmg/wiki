@@ -31,7 +31,7 @@ Ce guide est pour le modding sur un PC Windows.
 Si vous êtes sur Quest, voyez plutôt la [guide de modding Quest](/fr/quest-modding.md) Si vous êtes sur Linux, dirigez vous vers la [guide pour Linux](/fr/modding/linux.md) ou [Beataroni](https://github.com/geefr/beatsaber-linux-goodies/#readme).
 :::
 
-Si à tout moment vous rencontrez des problèmes, dirigez-vous vers la [page d'aide](./support) pour essayer d'identifier ce qui ne va pas avant de demander dans le serveur Discord. Avec un peu de chance, la réponse que vous cherchez est déjà sur cette page !
+Si à tout moment vous rencontrez des problèmes, dirigez-vous vers la [page d'aide](../support/) pour essayer d'identifier ce qui ne va pas avant de demander dans le serveur Discord. Avec un peu de chance, la réponse que vous cherchez est déjà sur cette page !
 
 :::warning J'ai suivi un tutoriel vidéo sur YouTube, mais je suis coincé/ça n'a pas marché. Pourquoi ?
 Au BSMG, nous recommandons **fortement** d'éviter les tutoriels vidéos pour modder votre jeu. Nous remarquons bien souvent que ces tutoriels sont obsolètes, ou contiennent des informations incomplètes, erronées ou complètement fausses.

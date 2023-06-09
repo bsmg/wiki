@@ -38,7 +38,7 @@
 - SasSao
 - Syskoh
 - Trolav
-  - [Twitter](twitter.com/Trolav1)
+  - [Twitter](https://twitter.com/Trolav1)
 
 ## Dutch | Nederlands
 

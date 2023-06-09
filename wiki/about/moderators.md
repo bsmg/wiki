@@ -169,7 +169,7 @@ Any stroopwafels?
 
 ## Pyrowarfare (Retired)
 
-A BeastSaber admin who wrote the majority of content for [How to Playtest](./how-to-testplay.md), [Mapping Anxiety](./mapping-anxiety.md),
+A BeastSaber admin who wrote the majority of content for [How to Playtest](../mapping/how-to-testplay.md), [Mapping Anxiety](../mapping/mapping-anxiety.md),
 and contibuted on various other pages. Be warned: you will be asked to talk about your feelings.
 
 **Roles:** Moderator, Mapping Support

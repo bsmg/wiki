@@ -36,7 +36,7 @@ Si vous n'avez pas accès à un ordinateur, vous pouvez utiliser [un téléphone
 :::warning ATTENTION
 Installer BMBF et modifier votre jeu désactive le multijoueur officiel, ainsi que l'affichage et l'envoi de scores dans les classements du jeu de base. Si vous souhaitez jouer en multijoueur en étant moddé, vous aurez besoin du mod `Beat Together` qui permet de jouer en multijoueur avec des joueurs PC et Quest, et permet de jouer des chansons personnalisées si tous les joueurs les ont installées. Le mod peut être trouvé dans `#quest-mods` dans le Discord BSMG, ou bien sur [Questboard](https://questmodding.com).
 
-Pour obtenir les classements sur les chansons personnalisées et gagner des points de performance (PP) sur les chansons classées, vous avez besoin du mod [ScoreSaber](https://new.scoresaber.com/quest). [Ce lien](https://new.scoresaber.com/quest) (en anglais) vous enverra sur la page du site ScoreSaber vous permettant de l'installer. ScoreSaber ne remplace pas les classements du jeu de base, il ne fait qu'ajouter les classements pour les chansons personnalisées.
+Pour obtenir les classements sur les chansons personnalisées et gagner des points de performance (PP) sur les chansons classées, vous avez besoin du mod [ScoreSaber](https://scoresaber.com/quest). [Ce lien](https://scoresaber.com/quest) (en anglais) vous enverra sur la page du site ScoreSaber vous permettant de l'installer. ScoreSaber ne remplace pas les classements du jeu de base, il ne fait qu'ajouter les classements pour les chansons personnalisées.
 
 **Note :** Consultez le salon _#updates_ du [serveur Discord ScoreSaber](https://discord.gg/WpuDMwU) pour vérifier si le mod est disponible pour la version actuelle du jeu.
 :::
@@ -251,7 +251,7 @@ Rejoignez la [communauté Qosmetics](https://discord.gg/qosmetics) (en anglais) 
 - [Site de QuestBoard](https://questmodding.com) - un site pour obtenir des nouvelles sur Beat Saber ainsi que les derniers mods publiés
 - [Serveur Discord QuestBoard](https://discord.gg/P7sUKVnP) - une communauté Quest pour discuter de choses en lien avec Beat Saber, où vous pouvez également obtenir un rôle pour être notifié des nouveaux mods publiés
 - [Corriger les problèmes de synchronisation audio (en anglais)](https://bsaber.com/quest-out-of-sync/)
-- [ScoreSaber](https://new.scoresaber.com/quest) - classements en jeu pour les chansons personnalisées
+- [ScoreSaber](https://scoresaber.com/quest) - classements en jeu pour les chansons personnalisées
 
 ## Dépannage
 

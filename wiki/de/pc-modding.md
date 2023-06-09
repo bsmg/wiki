@@ -24,7 +24,7 @@ Wenn du eine Quest hast, schau bitte auf der [Quest Modding Seite](/de/quest-mod
 Wenn du auf Linux bist schaue bitte auf die [Linux Seite](/de/modding/linux.md) oder [Qbeat](https://github.com/geefr/beatsaber-linux-goodies/blob/master/README.md)
 :::
 
-Wenn du an irgendeinem Punkt Probleme haben solltest, gehe einfach zur [Support Seite](./support) und schaue nach ob du herausfinden kannst was falsch lief, bevor du im Discord Server nachfragst. Es besteht die Möglichkeit, das die Antwort auf deine Frage dort bereits existiert!
+Wenn du an irgendeinem Punkt Probleme haben solltest, gehe einfach zur [Support Seite](../support/) und schaue nach ob du herausfinden kannst was falsch lief, bevor du im Discord Server nachfragst. Es besteht die Möglichkeit, das die Antwort auf deine Frage dort bereits existiert!
 
 ::: warning Ich habe mir ein Tutorial von Elite Eric angeschaut aber komme nicht weiter. Wie kommts?
 BSMG rät **stark** davon ab, jegliche Beat Saber Tutorials von Elite Eric zu verweden. Nach Überprüfung seiner Videos haben wir festgestellt, dass sie viele unvollständige, fehlerhafte oder geradezu falsche Informationen enthalten. Versuche, auf ihn zuzugehen, um diese Fehler zu korrigieren wurden leider mit schweigen und neuen (immer noch falschen) Tutorials erfüllt.

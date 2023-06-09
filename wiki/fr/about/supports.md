@@ -24,7 +24,7 @@ Ce type est arrivé de nulle part et a commencé à aider dans le support disant
 
 **Rôles :** Support
 
-[Twitter](https://twitter.com/Radevirot) | [Faire un don](paypal.me/Radevirot)
+[Twitter](https://twitter.com/Radevirot) | [Faire un don](https://paypal.me/Radevirot)
 
 ## Emma
 

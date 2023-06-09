@@ -32,7 +32,7 @@ Als je een Quest hebt, ga dan naar de [Quest modding pagina](/nl/quest-modding.m
 Als je Linux gebruikt, ga dan naar de [Linux pagina](/nl/modding/linux.md) of [Beataroni](https://github.com/geefr/beatsaber-linux-goodies/#readme)
 :::
 
-Als je tegen problemen aanloopt, ga dan naar de [ondersteuningspagina](./support) en probeer de oorzaak van het probleem te identificeren voordat je het vraagt in de Discord server. De kans is groot dat het antwoord dat je zoekt al op die pagina staat!
+Als je tegen problemen aanloopt, ga dan naar de [ondersteuningspagina](../support/) en probeer de oorzaak van het probleem te identificeren voordat je het vraagt in de Discord server. De kans is groot dat het antwoord dat je zoekt al op die pagina staat!
 
 ::: warning Ik heb een video tutorial bekeken op YouTube, maar ik liep vast / het werkte niet. Waarom?
 Wij van de BSMG raden het **sterk** af om video tutorials te gebruiken voor het modden. Vaak vinden we dat de inhoud is verouderd, of dat ze incompleet zijn, of dat ze foute of gewoon incorrecte informatie bevatten.

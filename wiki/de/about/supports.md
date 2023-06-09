@@ -60,7 +60,7 @@ Dieser Typ kam aus dem nichts und fing an zu helfen indem er sagte, es sei eine 
 
 **Rollen:** Support
 
-[Twitter](https://twitter.com/Radevirot) | [Spenden](paypal.me/Radevirot)
+[Twitter](https://twitter.com/Radevirot) | [Spenden](https://paypal.me/Radevirot)
 
 ## rui2015
 

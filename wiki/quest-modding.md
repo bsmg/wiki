@@ -46,7 +46,7 @@ for cross-play between PC and Quest and for custom songs to be used. These mods 
 installed when setting up BMBF.
 
 To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
-[ScoreSaber](https://new.scoresaber.com/quest) mod. [This link](https://new.scoresaber.com/quest) will take you to the
+[ScoreSaber](https://scoresaber.com/quest) mod. [This link](https://scoresaber.com/quest) will take you to the
 ScoreSaber page to set it up.
 ScoreSaber does not replace the base game leaderboards, it only adds leaderboards for custom songs.
 
@@ -293,13 +293,13 @@ and not guaranteed.
   sabers, bloqs, walls, and more for Quest.
 - [Qosmetics Creation Guides](https://github.com/RedBrumbler/Qosmetics/wiki) - Guides to create your own custom
   sabers, bloqs, and walls for Quest.
-- [Quest Mod Development Guide](./modding/README.md#quest-mod-development) - Guides to create your own mods for Quest.
+- [Quest Mod Development Guide](./modding/#quest-mod-development) - Guides to create your own mods for Quest.
 - [QuestBoard website](https://questmodding.com) - A place to get Beat Saber related news and info along with the latest
   mods releases!
 - [QuestBoard Discord server](https://discord.gg/P7sUKVnP) - A quest community to hangout and talk about Beat Saber
   related stuff, you can also get a role to get notified when a new mod gets released!
 - [Fixing Out of Sync Audio](https://bsaber.com/quest-out-of-sync/)
-- [ScoreSaber Mod](https://new.scoresaber.com/quest) - Get in-game leaderboards for custom songs
+- [ScoreSaber Mod](https://scoresaber.com/quest) - Get in-game leaderboards for custom songs
 - [ScoreSaber](https://scoresaber.com) - The website to view custom song leaderboards outside of the game.
 
 ## Troubleshooting

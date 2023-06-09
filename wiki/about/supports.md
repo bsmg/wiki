@@ -102,7 +102,7 @@ This guy came out of nowhere and started helping in support saying it was some k
 
 **Roles:** Support
 
-[Twitter](https://twitter.com/Radevirot) | [Donate](paypal.me/Radevirot)
+[Twitter](https://twitter.com/Radevirot) | [Donate](https://paypal.me/Radevirot)
 
 ## Raz0rBeam
 

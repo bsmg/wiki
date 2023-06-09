@@ -36,7 +36,7 @@ Als je geen toegang hebt tot een PC, kan je ook een [Android telefoon](#het-inst
 :::warning Waarschuwing
 Het installeren van BMBF en het modden van je spel zal de officiële multiplayer, en het bekijken en uploaden van scores op de officiële scoreborden van het spel uitschakelen. Als je modded multiplayer wil spelen, dan heb je de `Beat Together` mod nodig. Deze mod maakt het mogelijk om multiplayer samen te kunnen spelen ongeacht het platform, dus zowel met spelers die gebruik maken van Quest of PC, en het zorgt ervoor dat custom levels kunnen worden gespeeld op voorwaarde dat iedereen het liedje al gedownload heeft. De mod kan worden gevonden in de Beat Saber Modding Group in het `#quest-mods` kanaal of op de [Questboard](https://questmodding.com) website.
 
-Je hebt de [ScoreSaber](https://new.scoresaber.com/quest) mod nodig als je scoreborden voor custom levels wil hebben en Performance Points (PP) van gerangschikte nummers wil kunnen verdienen. [Deze link](https://new.scoresaber.com/quest) zal je naar de ScoreSaber pagina brengen om het in te stellen. ScoreSaber vervangt de de officiële scoreborden van het spel niet, het voegt alleen scoreborden voor custom levels toe.
+Je hebt de [ScoreSaber](https://scoresaber.com/quest) mod nodig als je scoreborden voor custom levels wil hebben en Performance Points (PP) van gerangschikte nummers wil kunnen verdienen. [Deze link](https://scoresaber.com/quest) zal je naar de ScoreSaber pagina brengen om het in te stellen. ScoreSaber vervangt de de officiële scoreborden van het spel niet, het voegt alleen scoreborden voor custom levels toe.
 
 **Opmerking:** Controleer het updates kanaal in de [ScoreSaber discord](https://discord.gg/WpuDMwU) om te zien of de mod beschikbaar is voor de huidige versie van het spel.
 :::
@@ -251,7 +251,7 @@ Wordt lid van de [Qosmetics Community](https://discord.gg/qosmetics) om te aan t
 - [QuestBoard website](https://questmodding.com) - Een plek om gerelateerd nieuws en informatie te krijgen over zowel Beat Saber als de nieuwste mods releases!
 - [QuestBoard discord server](https://discord.gg/P7sUKVnP) - Een Quest community om in rond te hangen en te praten over Beat Saber gerelateerde zaken, je kan ook een rol krijgen om een notificatie te krijgen wanneer er een nieuwe mod wordt vrijgegeven!
 - [Het oplossen van out-of-sync audio.](https://bsaber.com/quest-out-of-sync/)
-- [ScoreSaber](https://new.scoresaber.com/quest) - In-game scoreborden voor custom levels.
+- [ScoreSaber](https://scoresaber.com/quest) - In-game scoreborden voor custom levels.
 
 ## Probleemoplossing
 

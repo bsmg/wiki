@@ -29,7 +29,7 @@ Wenn du keinen Zugang zu einem PC hast, kannst du ein [Android Handy](#bmbf-mit-
   :::warning WARNUNG
   Wenn du BMBF installierst und du das Spiel modifizierst, wird der offizielle Multiplayer sowie das Anzeigen und Hochladen von Spielständen in den Basis-Spiel-Ranglisten deaktiviert. Wenn du den modifizierten Multiplayer spielen möchtest, benötigst du den Mod `Beat Together`, die Cross-Play zwischen Pc und Quest erlaubt und die Verwendung von Custom Songs, wenn beide Parteien den Song besitzen. Den Mod findest du in der Beat Saber Modding Group in `#quest-mods` oder auf der [Questboard](https://questmodding.com) Seite.
 
-Um Ranglisten für Custom Songs zu erhalten und um Performance-Punkte (PP) aus gerankten Songs zu erhalten, benötigst du den [ScoreSaber](https://new.scoresaber.com/quest) Mod. [Dieser Link](https://new.scoresaber.com/quest) bringt dich auf die ScoreSaber Seite, um es einzurichten. ScoreSaber ersetzt nicht die Bestenlisten des Basis Games, sondern fügt nur Bestenlisten für Custom Songs hinzu.
+Um Ranglisten für Custom Songs zu erhalten und um Performance-Punkte (PP) aus gerankten Songs zu erhalten, benötigst du den [ScoreSaber](https://scoresaber.com/quest) Mod. [Dieser Link](https://scoresaber.com/quest) bringt dich auf die ScoreSaber Seite, um es einzurichten. ScoreSaber ersetzt nicht die Bestenlisten des Basis Games, sondern fügt nur Bestenlisten für Custom Songs hinzu.
 
 **Hinweis:** Überprüfe den Aktualisierungskanal im [ScoreSaber Discord](https://discord.gg/WpuDMwU) , um zu sehen, ob die Mod für die aktuelle Spielversion verfügbar ist.
 :::
@@ -242,7 +242,7 @@ Trete der [Qosmetics Community](https://discord.gg/qosmetics) bei um zu ändern 
 - [Questboard website](https://questmodding.com) - Ein Ort um die neuesten Informationen und Nachrichten zum Thema Beat Saber und die neuesten Mod Versionen!
 - [Questboard Discord Server](https://discord.gg/P7sUKVnP) - Eine Quest-Community zum chillen und reden über Beat Saber und ähnliches. Du kannst auch eine Rolle bekommen um benachrichtigt zu werden, wenn eine neue Mod veröffentlicht wird!
 - [Beheben von Audiosynchronisationsfehlern](https://bsaber.com/quest-out-of-sync/)
-- [ScoreSaber](https://new.scoresaber.com/quest) - Ranglisten für eigene Songs im Spiel
+- [ScoreSaber](https://scoresaber.com/quest) - Ranglisten für eigene Songs im Spiel
 
 ## Problembehandlung
 

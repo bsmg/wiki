@@ -358,7 +358,7 @@ You **DO NOT** need to upload your map to BeatSaver in order for you or anyone e
 :::
 
 - If your map is using the 1.0 map format (your files are `.json` and `.ogg`) you must convert your map by
-  **updating your editor**, opening and saving the map. See [Community Editors](.#community-editors) for links to modern
+  **updating your editor**, opening and saving the map. See [Community Editors](#community-editors) for links to modern
   editors.
 - If your map is using the 2.0 or 3.0 map format (your files are .dat and `.ogg`/`.egg`) you’re ready to test.
 

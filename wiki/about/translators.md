@@ -43,7 +43,7 @@ If you would like to join for your language, you can [apply to help translate!](
 - SasSao
 - Syskoh
 - Trolav
-  - [Twitter](twitter.com/Trolav1)
+  - [Twitter](https://twitter.com/Trolav1)
 
 ## Dutch | Nederlands
 

@@ -5,9 +5,9 @@ sidebar: auto
 # Android で Quest に Mod を導入する
 
 :::warning 警告
-BMBF をインストールすると公式のマルチプレイモードや公式のリーダーボードへのスコアの送信、リプレイの記録ができなくなります。 もし Mod が導入された状態でマルチプレイを行いたい場合は`Beat Together`が必要になります。これは PC と Quest のクロスプレイを可能にします。また、両方とものカスタムソングで遊ぶことができます。 ディスコードの[Beat Saber Modding Group](discord.gg/beatsabermods)の`#quest-mods`チャンネルもしくは[Questboard](https://questmodding.com)のサイトで入手できます。
+BMBF をインストールすると公式のマルチプレイモードや公式のリーダーボードへのスコアの送信、リプレイの記録ができなくなります。 もし Mod が導入された状態でマルチプレイを行いたい場合は`Beat Together`が必要になります。これは PC と Quest のクロスプレイを可能にします。また、両方とものカスタムソングで遊ぶことができます。 ディスコードの[Beat Saber Modding Group](https://discord.gg/beatsabermods)の`#quest-mods`チャンネルもしくは[Questboard](https://questmodding.com)のサイトで入手できます。
 
-ランク付けされた曲からパフォーマンスポイント(PP)を得るためには、 [ScoreSaber](https://new.scoresaber.com/quest) mod が必要です。 [このリンク](https://new.scoresaber.com/quest) では、 ScoreSaber のホームページに移動して設定する方法が書いてあります。 Scoresaber は公式のリーダーボードを置き換えるものではなく、カスタム曲のリーダーボードだけが追加されます。
+ランク付けされた曲からパフォーマンスポイント(PP)を得るためには、 [ScoreSaber](https://scoresaber.com/quest) mod が必要です。 [このリンク](https://scoresaber.com/quest) では、 ScoreSaber のホームページに移動して設定する方法が書いてあります。 Scoresaber は公式のリーダーボードを置き換えるものではなく、カスタム曲のリーダーボードだけが追加されます。
 
 **注意** [ScoreSaber Discord](https://discord.gg/WpuDMwU)のサーバーで Mod が現在のゲームバージョンで使えるかチェックしてください。
 :::
@@ -129,4 +129,4 @@ BMBF を正常にインストールし終えたら、クエストのライブラ
 
 インストールプロセス中に Restore App ポップアップが表示されることがありますが、そのときは Close をクリックしてください。 この警告は海賊版を防止するために表示されるものなので、正規版を購入している場合は無視をしてもかまいません。
 
-これで、Mod のインストールの[主要な Mod](/jp/quest-modding.md#コアmod)の手順を PC と同じ方法で実行できます。
+これで、Mod のインストールの[主要な Mod](/ja/quest-modding.md#コアmod)の手順を PC と同じ方法で実行できます。

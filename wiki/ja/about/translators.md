@@ -42,7 +42,7 @@ wiki のコンテンツを翻訳してくださる勤勉な人々。 時間を�
 - SasSao
 - Syskoh
 - Trolav
-  - [Twitter](twitter.com/Trolav1)
+  - [Twitter](https://twitter.com/Trolav1)
 
 ## オランダ語 - Nederlands
 

@@ -73,7 +73,7 @@ Der einzige Moderator, der uns geghosted hat, wenn er nach einer Beschreibung f�
 
 ## Pyrowarfare
 
-Ein BeastSaber-Admin, der den Großteil des Inhalts für [How to Playtest](./how-to-testplay.md), [Mapping Angst](./mapping-anxiety.md) geschrieben und an verschiedenen anderen Seiten mitgewirkt hat. Sei gewarnt: Du wirst aufgefordert werden, über deine Gefühle zu sprechen.
+Ein BeastSaber-Admin, der den Großteil des Inhalts für [How to Playtest](../mapping/how-to-testplay.md), [Mapping Angst](../mapping/mapping-anxiety.md) geschrieben und an verschiedenen anderen Seiten mitgewirkt hat. Sei gewarnt: Du wirst aufgefordert werden, über deine Gefühle zu sprechen.
 
 **Rollen:** Moderator, Mapping Support
 
