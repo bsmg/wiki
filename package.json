@@ -6,17 +6,21 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "scripts": {
     "dev": "vitepress dev wiki",
     "preview": "vitepress preview wiki",
     "build": "vitepress build wiki",
+    "lint:images": "node ./scripts/checkImages.mjs",
     "lint": "prettier --check . && markdownlint-cli2 'wiki/**/*.md'",
     "fmt": "prettier --write . && markdownlint-cli2-fix 'wiki/**/*.md'"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",
+    "byte-size": "^8.1.1",
+    "globby": "^13.1.4",
+    "kleur": "^4.1.5",
     "markdownlint-cli2": "^0.7.1",
     "prettier": "^2.8.8",
     "vitepress": "^1.0.0-beta.1",
