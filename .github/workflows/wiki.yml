@@ -22,14 +22,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
-          cache: yarn
+          node-version: 18.x
+          cache: npm
       - name: Install packages
-        run: yarn install --immutable
+        run: npm ci
       - name: Lint Markdown Files
-        run: yarn run lint:markdown
+        run: npm run lint
       - name: Lint Image Sizes
-        run: yarn run lint:images
+        run: npm run lint:images
 
   build:
     name: Docker Build
