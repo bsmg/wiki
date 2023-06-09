@@ -34,7 +34,7 @@
   }
 </style>
 
-<script>
+<script lang="ts">
 const rx = /^.*(?:(?:youtu.be\/)|(?:v\/)|(?:\/u\/\w\/)|(?:embed\/)|(?:watch\?))\??v?=?([^#\&\?]*).*/
 
 export default {

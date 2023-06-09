@@ -1,0 +1,6 @@
+# VSCode
+.vscode/
+
+# Generated
+wiki/.vitepress/dist
+wiki/.vitepress/cache
