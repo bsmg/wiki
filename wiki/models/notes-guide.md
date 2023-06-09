@@ -3,7 +3,9 @@ sidebar: auto
 prev: ./platforms-guide.md
 description: Bobbie's guide to making Custom Notes!
 ---
+
 # Custom Notes Guide
+
 _Bobbie's guide to making Custom Notes._
 
 ::: danger
@@ -12,16 +14,18 @@ to avoid any shader issues
 :::
 
 ## Intro
+
 This guide requires basic knowledge on 3d modeling and the Unity Engine. A few things are needed:
 
-* The Unity Editor - specifically, [Unity version 2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe)
-* The [custom notes Unity project](https://github.com/legoandmars/CustomNotesUnityProject/archive/master.zip)
-* If you don't already have a mesh you want to use, you'll need a 3d modeling program. I personally suggest [Blender](https://www.blender.org/)
-* Depending on what exactly you're modeling, photo editing software such as
+- The Unity Editor - specifically, [Unity version 2018.1.6f1](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe)
+- The [custom notes Unity project](https://github.com/legoandmars/CustomNotesUnityProject/archive/master.zip)
+- If you don't already have a mesh you want to use, you'll need a 3d modeling program. I personally suggest [Blender](https://www.blender.org/)
+- Depending on what exactly you're modeling, photo editing software such as
   [Photoshop](https://www.adobe.com/products/photoshop.html) or
   [GIMP](https://www.gimp.org/downloads/) may be required.
 
 ## Unity Project
+
 ::: danger DISCLAIMER
 Make sure you're using Unity version 2018.1.6f1!
 :::
@@ -40,29 +44,35 @@ When you click on one of these example notes, you'll see that it has a `NoteDesc
 Let's briefly go over what each of these settings do.
 
 ### Note Name & Author Name
+
 This one is simple enough. Whatever the note and author name is set to is what will appear in the Custom Notes note
 selection UI, as shown in the image below.
 
 ![Ingame example of note name and author name](~@images/models/notes/04.png)
 
 ### Icon
+
 This setting takes an image that will be used as an icon. The icon will display in the Custom Notes note selection UI,
 as seen in the image above.
 
 ### Disable Base Note Arrows
+
 When enabled, this setting will make the default arrows present on notes invisible. Note: you must have `NoteDotLeft` and
 `NoteDotRight` gameobjects in your note if you want to enable this option.
 
 ### Uses Note Color
+
 When this option is enabled, it uses the player's currently set note colors to tint your notes appropriately.
 This allows your notes to support `CustomColors`. If you want to use this properly, be sure to read the section dedicated
 to making your notes work with Custom Colors.
 
 ### Note Color Strength
+
 This option is only used if `Uses Note Color` is enabled. Note Color Strength defines how strong the tint applied upon
 your notes is and is one by default. The lower you make this number, the more subtle the tint will be.
 
 ## Creating a note
+
 You should already have a 3d model that you're going to use for your note. For this tutorial I'm going to be using a simple
 triangle mesh I made in blender. Go ahead and import your model into the project.
 
@@ -149,6 +159,7 @@ If you need to rotate your note, don't rotate `NoteLeft`, but instead rotate the
 :::
 
 ## Adding materials
+
 Now that the mesh is properly scaled we can go ahead and add a material to it. In the project window, right click on
 `Materials` and then do `Create->Material`. Since this is going to be the material for the mesh of my `LeftNote`,
 I'll name it `LeftMaterial`.
@@ -163,10 +174,10 @@ they won't show up ingame properly, so we have to use one of the `BeatSaber` sha
 For my LeftMaterial, I'm going to use `Unlit Glow`. However, you may want to use a different shader depending on your mesh.
 Here are the main differences between the shaders:
 
-* Lit glow is lit and has shadows. You can change the direction the light comes from and how strong it is
-* Metallic makes the material slightly darker and allows you to add a metallic reflection
-* Unlit glow is similar to lit glow but it doesn't have any lighting effects.
-* Unlit glow cutout dither is the same as unlit glow but allows you to add transparency to your material.
+- Lit glow is lit and has shadows. You can change the direction the light comes from and how strong it is
+- Metallic makes the material slightly darker and allows you to add a metallic reflection
+- Unlit glow is similar to lit glow but it doesn't have any lighting effects.
+- Unlit glow cutout dither is the same as unlit glow but allows you to add transparency to your material.
 
 All four of these shaders also allow you to use textures, although Metallic uses the texture for
 the reflection instead of applying it directly.
@@ -279,15 +290,16 @@ Select your notes and try playing a song.
 ![Showing note ingame](~@images/models/notes/42.png)
 
 ### Preview Your Note In-game without putting on your headset using FPFC
+
 First Person Flying Controller (FPFC) is a launch parameter that can be used by either Steam or Oculus users. FPFC will
 open an instance of Beat Saber on your desktop and allow you to control it with your keyboard and mouse.
 
 While a map is playing, pressing:
 
-* `P` **P**auses the map
-* `M` Returns to **m**enu if paused
-* `R` **R**estarts the map if paused
-* `C` Unpauses and **c**ontinues playing
+- `P` **P**auses the map
+- `M` Returns to **m**enu if paused
+- `R` **R**estarts the map if paused
+- `C` Unpauses and **c**ontinues playing
 
 You will need the SiraUtil mod in order move the camera while a map is playing. Without it, the camera is fixed in the floor
 at an undesirable angle. Install SiraUtil from Mod Assistant and run Beat Saber to create a config json file. SiraUtil also
@@ -303,25 +315,27 @@ Open the game properties and add `fpfc` to the Steam launch options in the Gener
 
 1. Right click on Beat Saber.exe and create a shortcut.
 2. Edit the Target to add "fpfc" to the end of it.
-For example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" fpfc`
+   For example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" fpfc`
 
 After installing the mods and adding the launch parameter you can then now move around and pause in a map.
 The default toggle key to switch between headset and mouse/keyboard control is <kbd>G</kbd>.
 
 :::warning NOTE
 
-* If you go back into vr and the game doesn't load in the headset either:
-  * Press the <kbd>G</kbd> key until the headset displays the game  
-**==OR==**
-  * Quit the game, remove the launch option, and relaunch the game.
+- If you go back into vr and the game doesn't load in the headset either:
 
-* If the mod doesn't seem to be working, make sure the in-game Smooth Camera setting is disabled.
-:::
+  - Press the <kbd>G</kbd> key until the headset displays the game  
+    **==OR==**
+  - Quit the game, remove the launch option, and relaunch the game.
+
+- If the mod doesn't seem to be working, make sure the in-game Smooth Camera setting is disabled.
+  :::
 
 If everything looks good ingame, you should be finished! Make sure to try playing with your notes with your
 headset on at least once before releasing them.
 
 ## Custom Colors
+
 This section is assuming you already have a custom note fully set up and simply want to add support for custom
 colors, which is highly recommended because it will almost always enhance the user experience.
 

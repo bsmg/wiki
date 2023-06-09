@@ -10,7 +10,7 @@ Une liste de communautés régionales en dehors du Beat Saber Modding Group.
 
 ## Africa
 
-*Aucune pour le moment*
+_Aucune pour le moment_
 
 ---
 
@@ -132,6 +132,6 @@ Nous prenons le thé !
 
 ## Oceania
 
-*Aucune pour le moment*
+_Aucune pour le moment_
 
 ---

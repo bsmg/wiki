@@ -3,17 +3,22 @@ sidebar: auto
 ---
 
 # Ausnahmen
+
 Kurze Erklärung zu Ausnahmefehlern, die üblicherweise beim Modden des Spiels auftreten.  
 Nummerierte Erklärungen bedeuten, dass es sich um eines der aufgeführten Probleme handeln könnte.
 
 ## ArgumentException
+
 Der Pfad ist eine Zeichenkette mit der Länge Null, enthält nur Leerzeichen oder enthält ein oder mehrere ungültige Zeichen, wie durch `InvalidPathChars` definiert.
 
 ## ArgumentNullException
+
 Pfad ist null.
 
 ## DirectoryNotFoundException
+
 Der angegebene Pfad ist ungültig.
+
 > Beispiel: Es befindet sich auf einem nicht zugeordneten Laufwerk.
 
 ## IOException
@@ -22,9 +27,11 @@ Der angegebene Pfad ist ungültig.
 2. Es gibt ein "open handle" auf die Datei, und das Betriebssystem ist Windows XP oder früher. Dieser "open handle" kann durch Aufzählung von Verzeichnissen und Dateien entstehen.
 
 ## NotSupportedException
+
 Pfad ist in einem ungültigen Format.
 
 ## PathTooLongException
+
 Der angegebene Pfad, Dateiname oder beides überschreitet die vom System definierte Maximallänge.
 
 ## UnauthorizedAccessException

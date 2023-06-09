@@ -4,7 +4,9 @@ prev: ./avatars-guide.md
 next: ./notes-guide.md
 description: Emma's Guide to making Custom Platforms!
 ---
+
 # Custom Platforms Guide
+
 _Emma's Guide to making Custom Platforms._
 
 ::: danger
@@ -13,14 +15,16 @@ to avoid any shader issues
 :::
 
 ## Project
+
 Open the current [Custom Platforms Project](https://github.com/affederaffe/CustomPlatforms/releases/latest) with
 Unity [2019.3.15f1](https://unity3d.com/get-unity/download/archive)
-  
-* You need to go to the tab that says `Unity 2019.x` and scroll down to 2019.3.15. This has to be installed with
-[Unity Hub](https://unity3d.com/get-unity/download).
-* Need a guide on how to install? [Check out this Unity guide to Unity Hub.](https://docs.unity3d.com/Manual/LicensesAndActivation.html)
+
+- You need to go to the tab that says `Unity 2019.x` and scroll down to 2019.3.15. This has to be installed with
+  [Unity Hub](https://unity3d.com/get-unity/download).
+- Need a guide on how to install? [Check out this Unity guide to Unity Hub.](https://docs.unity3d.com/Manual/LicensesAndActivation.html)
 
 ## First Steps
+
 ![Custom Platform Script](~@images/models/platforms/CustomPlatformScript.png)
 
 Create an `Empty GameObject` by right clicking in the Hierarchy window and selecting `Create Empty`. Make sure to set its
@@ -30,6 +34,7 @@ In the script there are also Exporting options. These disable parts of the origi
 (For when you want to replace something partially).
 
 ## Adding Models
+
 ![Objects](~@images/models/platforms/Objects.png)
 
 Drag all models you want in your Platform into the GameObject created in the second step and position them to your liking.
@@ -38,6 +43,7 @@ called `_dark_replace` and `_glow_replace`. These are custom Materials that act 
 to the tube lights and mist.
 
 ### Track Rings
+
 The `Track Rings` script makes track rings like seen in the game. To achieve this, the script takes a prefab. Currently
 I haven't been able to figure out how to use a prefab in it, so I used a gameObject, that is part of the platform hierarchy,
 that I later moved off to `y = -1000`. For the ring-preview to show correctly, move this gameObject to (0,0,0) and adjust
@@ -51,6 +57,7 @@ Enabling the step effect changes the rings spacing when the specified event is c
 ![Track Rings Script](~@images/models/platforms/TrackRingsScript.png)
 
 ### Tube Light
+
 ![Tube Light](~@images/models/platforms/TubeLightScript.png)
 
 This script enables blinking lights. Putting this on an empty gameObject changes the background and adds a bit of color
@@ -58,6 +65,7 @@ to that space, according to the light ID's. When there's also a mesh renderer on
 to the light ID's. When using this no color adding is needed, so I change the size on the script to 0.
 
 ### Song Events
+
 ![Song Event Handler](~@images/models/platforms/SongEventHandler.png)
 
 The event manager is the most useful script. With it you can trigger an action on any beat saber event (even unused ones).
@@ -66,6 +74,7 @@ that just got created. Press the dropdown menu to the right and choose what that
 component, then what action. Make sure that you only use 1 event Handler per gameObject, as only 1 will work per gameObject.
 
 ### Spectrogram
+
 ![Spectrogram](~@images/models/platforms/Spectrogram.png)
 
 The spectrogram script works like the track rings script and also requires a prefab or gameObject. This will get stretched

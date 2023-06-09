@@ -3,18 +3,23 @@ sidebar: auto
 prev: ./basic-lighting.md
 description: A list of the default color palettes used in each environment.
 ---
+
 # Environment Default Colors
+
 _A list of the default color palettes used in each environment._
 
 ---
 
 ## Current Colors
+
 Colors used by each environment and color palette can be found in Kival Evan's [Mapping Utility](https://kivalevan.me/BeatSaber-MappingUtility/#color-picker).
 
 ## 1.19.0 Colors
+
 These are the colors used in the 1.19.0 version of the game.
 
 ### The First (Default)
+
 ![Image of TheFirst colors](~@images/mapping/color-thefirst.png)  
 This is used by most environments. It it used by The First (Default), Triangle, Nice, Big Mirror, Imagine Dragons,
 Monstercat, and Panic! at the Disco environments.
@@ -70,6 +75,7 @@ Monstercat, and Panic! at the Disco environments.
 ```
 
 ### Origins
+
 ![Image of Origins colors](~@images/mapping/color-origins.png)  
 This is used by the Origins environment. These colors are also used in the Glass Desert environment.
 
@@ -124,6 +130,7 @@ This is used by the Origins environment. These colors are also used in the Glass
 ```
 
 ### KDA
+
 ![Image of KDA colors](~@images/mapping/color-kda.png)  
 This is used by the K/DA environment.
 
@@ -178,6 +185,7 @@ This is used by the K/DA environment.
 ```
 
 ### Crab Rave
+
 ![Image of Crabrave colors](~@images/mapping/color-crabrave.png)  
 This is used by the Crab Rave environment.
 
@@ -232,6 +240,7 @@ This is used by the Crab Rave environment.
 ```
 
 ### Rocket
+
 ![Image of Rocket colors](~@images/mapping/color-rocket.png)  
 This is used by the Rocket League environment.
 
@@ -286,6 +295,7 @@ This is used by the Rocket League environment.
 ```
 
 ### Green Day
+
 ![Image of GreenDay colors](~@images/mapping/color-greenday.png)  
 This is used by the Green Day and Green Day Grenade environment.
 
@@ -340,6 +350,7 @@ This is used by the Green Day and Green Day Grenade environment.
 ```
 
 ### Timbaland
+
 ![Image of Timbaland colors](~@images/mapping/color-timbaland.png)  
 This is used by the Timbaland environment.
 
@@ -394,6 +405,7 @@ This is used by the Timbaland environment.
 ```
 
 ### FitBeat
+
 ![Image of FitBeat colors](~@images/mapping/color-fitbeat.png)  
 This is used by the FitBeat environment.
 
@@ -448,6 +460,7 @@ This is used by the FitBeat environment.
 ```
 
 ### Linkin Park
+
 ![Image of Linkin Park colors](~@images/mapping/color-linkinpark.png)  
 This is used by the Linkin Park environment.
 
@@ -470,7 +483,7 @@ All other environments fallback to their respective environment colors for boost
 "_colorRight": {
   "r": 0.3870196,
   "g": 0.5168997,
-  "b": 0.5568628 
+  "b": 0.5568628
 },
 ```
 
@@ -525,6 +538,7 @@ All other environments fallback to their respective environment colors for boost
 ```
 
 ### BTS
+
 ![Image of BTS colors](~@images/mapping/color-bts.png)  
 This is used by the BTS environment.
 
@@ -599,6 +613,7 @@ This is used by the BTS environment.
 ```
 
 ### Kaleidoscope
+
 ![Image of Kaleidoscope colors](~@images/mapping/color-kaleidoscope.png)  
 This is used by the Kaleidoscope environment.
 
@@ -673,6 +688,7 @@ This is used by the Kaleidoscope environment.
 ```
 
 ### Interscope
+
 ![Image of Interscope colors](~@images/mapping/color-interscope.png)  
 This is used by the Interscope environment.
 
@@ -747,6 +763,7 @@ This is used by the Interscope environment.
 ```
 
 ### Skrillex
+
 ![Image of Skrillex colors](~@images/mapping/color-skrillex.png)  
 This is used by the Skrillex environment.
 
@@ -821,6 +838,7 @@ This is used by the Skrillex environment.
 ```
 
 ### Billie Eilish
+
 ![Image of Billie colors](~@images/mapping/color-billie.png)  
 This is used by the Billie Eilish environment.
 
@@ -895,6 +913,7 @@ This is used by the Billie Eilish environment.
 ```
 
 ### Spooky
+
 ![Image of Spooky colors](~@images/mapping/color-spooky.png)  
 This is used by the Spooky environment.
 
@@ -969,6 +988,7 @@ This is used by the Spooky environment.
 ```
 
 ### Lady Gaga
+
 ![Image of Gaga colors](~@images/mapping/color-gaga.png)  
 This is used by the Lady Gaga environment.
 
@@ -1043,6 +1063,7 @@ This is used by the Lady Gaga environment.
 ```
 
 ### Noir
+
 ![Image of Noir colors](~@images/mapping/color-noir.png)  
 This is not used by any environment.
 
@@ -1097,6 +1118,7 @@ This is not used by any environment.
 ```
 
 ### Default Custom
+
 ![Image of custom colors](~@images/mapping/color-custom0.png)  
 This is not used by any environment. These are the colors used with an unmodified custom color profile.
 
@@ -1151,6 +1173,7 @@ This is not used by any environment. These are the colors used with an unmodifie
 ```
 
 ### Glass Desert
+
 Differs to the colors in [Origins](#origins) slighty.
 
 #### Left Side Light Color (Light Blue)
@@ -1174,6 +1197,7 @@ Differs to the colors in [Origins](#origins) slighty.
 ```
 
 ## Legacy Colors
+
 This section lists environment colors only if there are different from the section above.
 
 ::: tip NOTE
@@ -1324,5 +1348,6 @@ These are not the full list of changes made to colors over Beat Saber's history.
 ```
 
 ## Credits
+
 Content in this section was authored by [Bullet](./mapping-credits.md#bullet)
 with the use of [Aeroluna](./mapping-credits.md#aeroluna)'s PrintColorScheme mod.

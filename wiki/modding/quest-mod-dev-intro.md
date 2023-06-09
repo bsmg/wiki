@@ -4,9 +4,11 @@ description: Learn how to create your own Quest mods!
 ---
 
 # Quest Mod Development Intro
+
 _Learn how to get started writing your own Quest Mods._
 
 ## Getting Started
+
 ::: warning
 This guide is for making mods for the **Quest Standalone** version of Beat Saber!
 
@@ -16,10 +18,10 @@ the PC version of the game.
 
 This guide assumes you have a basic to intermediate understanding of the following:
 
-* [C++](https://www.w3schools.com/CPP/default.asp)
-* [CMake](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
-* [ADB](https://developer.android.com/studio/command-line/adb)
-* [Powershell](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/)
+- [C++](https://www.w3schools.com/CPP/default.asp)
+- [CMake](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+- [ADB](https://developer.android.com/studio/command-line/adb)
+- [Powershell](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/)
 
 You may have difficulty understanding what is covered here if you do not have this foundation.
 
@@ -28,11 +30,12 @@ IDE accordingly by referring to the documentation. For example, you would need t
 CMake for CLion.
 
 ## Environment Setup
+
 The following pieces of software are needed to follow this guide.
 
-* [QPM](#qpm) - Dependency Management
-* [Ninja](#ninja) - Build Tool
-* [Android NDK](#android-ndk) - Native Development Kit for Android Devices
+- [QPM](#qpm) - Dependency Management
+- [Ninja](#ninja) - Build Tool
+- [Android NDK](#android-ndk) - Native Development Kit for Android Devices
 
 ### QPM
 
@@ -64,6 +67,7 @@ Templatr will then ask a series of questions to create a mod project.
 ![Templatr Example](~@images/modding/quest-mod-template-example.png)
 
 ### Add and Update Dependencies
+
 Once the project has been generated, you should now update the following two dependencies, [beatsaber-hook](https://github.com/sc2ad/beatsaber-hook)
 and [codegen](https://github.com/sc2ad/BeatSaber-Quest-Codegen), to the version best suited for the game version you are
 developing for.
@@ -87,6 +91,7 @@ qpm dependency add codegen -v ^0.33.0
 ```
 
 ### Restore Dependencies
+
 Before you can open the project in an IDE, you must restore all of the dependencies. Consider this step similar to
 fully initializing the project.
 
@@ -199,8 +204,8 @@ Hooking is core to modding. `beatsaber-hook` provides a simple way of hooking me
 like constructors.
 
 > In computer programming, the term hooking covers a range of techniques used to alter or augment the behavior of an
->operating system, of applications, or of other software components by intercepting function calls or messages or events
->passed between software components. Code that handles such intercepted function calls, events or messages is called a hook.
+> operating system, of applications, or of other software components by intercepting function calls or messages or events
+> passed between software components. Code that handles such intercepted function calls, events or messages is called a hook.
 > [Wikipedia](https://en.wikipedia.org/wiki/Hooking#:~:text=In%20computer%20programming%2C%20the%20term,events%20passed%20between%20software%20components.&text=Hooking%20can%20also%20be%20used%20by%20malicious%20code.)
 
 To view a list of methods and classes you can hook, the most convenient option is to use a C# decompiler such as [IlSpy](https://github.com/icsharpcode/ILSpy)
@@ -300,8 +305,8 @@ the game.
 
 `mod.template.json` contains basic information on your mod. It can also allow you to define other features such as:
 
-* Cover Image (the preview image shown on the BMBF Mods tab)
-* File Copies (extract files from the QMOD to a location on the quest device)
+- Cover Image (the preview image shown on the BMBF Mods tab)
+- File Copies (extract files from the QMOD to a location on the quest device)
 
 Some fields in it will be of the form `${x}` - those will be automatically filled by QPM based on the information in
 your `qpm.json` and written to the file `mod.json`. It's not recommended to edit the `mod.json` manually, and it can be
@@ -320,24 +325,28 @@ To add a cover image, simply name the image `cover.png`, put it in your project 
 
 :::tip Cover Image Recommendations
 
-* 1024x512 (BMBF will resize/crop the image to be this size)
-* File format either png, jpg or gif
-* Under 2mb to prevent load lag (larger images will take longer to show with no advantage)
-:::
+- 1024x512 (BMBF will resize/crop the image to be this size)
+- File format either png, jpg or gif
+- Under 2mb to prevent load lag (larger images will take longer to show with no advantage)
+  :::
 
 #### Example Cover Images
+
 Click on the arrow beside the mod name to see the image.
+
 <details><summary>
 Noodle Extensions
 </summary>
 
 ![Noodle Extensions](~@images/modding/quest-ne-cover.jpg)
+
 </details>
 <details><summary>
 Slice Details Quest
 </summary>
 
 ![Slice Details Quest](~@images/modding/quest-slice-details.jpg)
+
 </details>
 
 ### File Copies
@@ -368,12 +377,14 @@ Update the following in your `mod.template.json`:
 ```
 
 ## Mod Configuration
+
 Most mods require a configuration to allow users to change the functionality of the mod.
 
 Visit the [Quest Mod Configuration](./quest-mod-dev-config.md) page to learn the basics of using `config-utils` to create
 a configuration for your mod.
 
 ## Custom Types
+
 `custom-types` is a library that allows you to create the equivalent of C# types using macros. These types can extend
 classes such as `MonoBehaviour` and much more. `custom-types` also allows you to create and use [coroutines](https://docs.unity3d.com/Manual/Coroutines.html)
 and [delegates](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/).
@@ -382,10 +393,12 @@ Custom Types are complex and requires knowledge of basic C#. Visit the [Quest Cu
 page to learn more about integrating this into your mod.
 
 ## User Interface
+
 A user interface (UI) is used by many mods to show configuration options. Visit the [Quest User Interface](./quest-mod-dev-ui.md)
 page to see how to use `questui` to create a settings screen for your mod.
 
 ## Credits
+
 Initial guide content was integrated from the [Beat Saber Quest Modding Guide](https://github.com/cal117/bsqmg) by cal117
 with contributions from [Raine](https://github.com/raineio), [Pangwen](https://github.com/PangwenE), and [Metalit](https://github.com/Metalit/).
 Integration and editing was done by [Bloodcloak](/about/staff.md#bloodcloak).

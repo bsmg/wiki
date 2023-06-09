@@ -13,7 +13,7 @@
     "preview": "vitepress preview wiki",
     "build": "vitepress build wiki",
     "lint": "prettier --check . && markdownlint-cli2 'wiki/**/*.md'",
-    "fmt": "prettier --write . markdownlint-cli2-fix 'wiki/**/*.md'"
+    "fmt": "prettier --write . && markdownlint-cli2-fix 'wiki/**/*.md'"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",

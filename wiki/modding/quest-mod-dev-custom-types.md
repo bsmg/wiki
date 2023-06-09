@@ -13,7 +13,7 @@ Custom Types are complex and requires knowledge of basic C#.
 
 ## Prerequisites
 
-* Install `custom-types` by running `qpm dependency add custom-types` in your project directory.
+- Install `custom-types` by running `qpm dependency add custom-types` in your project directory.
 
 Make sure to restore after adding the dependency.
 
@@ -89,7 +89,7 @@ DEFINE_TYPE(MyNamespace, Counter);
 
 We can now define the methods that we have declared:
 
-* `Update` - Unity's update method, declared by `DECLARE_INSTANCE_METHOD(void, Update);`
+- `Update` - Unity's update method, declared by `DECLARE_INSTANCE_METHOD(void, Update);`
 
 Our `Counter.cpp` file now looks like this:
 
@@ -259,6 +259,7 @@ gameObject->AddComponent<MyNamespace::Counter*>();
 ```
 
 ## Coroutines
+
 In Unity, a coroutine is a method that can pause execution and return control to Unity but then continue where it left
 off on the following frame. [Unity Documentation](https://docs.unity3d.com/Manual/Coroutines.html)
 
@@ -289,7 +290,7 @@ custom_types::Helpers::Coroutine counterCoroutine() {
 ```
 
 | C#             | C++         |
-|----------------|-------------|
+| -------------- | ----------- |
 | `yield return` | `co_yield`  |
 | `yield`        | `co_yield`  |
 | `yield break`  | `co_return` |

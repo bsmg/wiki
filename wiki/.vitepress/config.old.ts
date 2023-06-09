@@ -6,7 +6,11 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { path } from '@vuepress/utils'
 import { resolve } from 'path'
-import { defaultTheme, defineUserConfig, type SidebarConfigArray } from 'vuepress'
+import {
+  defaultTheme,
+  defineUserConfig,
+  type SidebarConfigArray,
+} from 'vuepress'
 import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
 
 const isProd = process.env.NODE_ENV === 'production'
@@ -15,16 +19,15 @@ const generateSidebar: (
   link: string,
   title: string,
   routes: string[],
-  collapsible?: boolean
-) => SidebarConfigArray = (link, title, routes, collapsible = false) => [{
-  text: title,
-  link,
-  collapsible,
-  children: [
+  collapsible?: boolean,
+) => SidebarConfigArray = (link, title, routes, collapsible = false) => [
+  {
+    text: title,
     link,
-    ...routes.map(r => `${link}${r}.md`),
-  ],
-}]
+    collapsible,
+    children: [link, ...routes.map(r => `${link}${r}.md`)],
+  },
+]
 
 export default defineUserConfig({
   title: 'BSMG Wiki',
@@ -86,9 +89,7 @@ export default defineUserConfig({
             '3d-artists',
             'translators',
           ]),
-          '/faq/': generateSidebar('/faq/', 'FAQ', [
-            'install-folder',
-          ]),
+          '/faq/': generateSidebar('/faq/', 'FAQ', ['install-folder']),
           '/models/': generateSidebar('/models/', '3D Models', [
             'custom-sabers',
             'custom-avatars',
@@ -118,9 +119,7 @@ export default defineUserConfig({
             '3d-artists',
             'translators',
           ]),
-          '/fr/faq/': generateSidebar('/fr/faq/', 'FAQ', [
-            'install-folder',
-          ]),
+          '/fr/faq/': generateSidebar('/fr/faq/', 'FAQ', ['install-folder']),
           '/fr/modding/': generateSidebar('/fr/modding/', 'Modding', [
             'intro',
             'linux',
@@ -153,9 +152,7 @@ export default defineUserConfig({
             '3d-artists',
             'translators',
           ]),
-          '/de/faq/': generateSidebar('/de/faq/', 'FAQ', [
-            'install-folder',
-          ]),
+          '/de/faq/': generateSidebar('/de/faq/', 'FAQ', ['install-folder']),
           '/de/modding/': generateSidebar('/de/modding/', 'Modding', [
             'intro',
             'linux',
@@ -249,7 +246,7 @@ export default defineUserConfig({
       hostname: 'https://bsmg.wiki/',
     }),
     registerComponentsPlugin({
-      componentsDir: path.resolve(__dirname, 'components')
+      componentsDir: path.resolve(__dirname, 'components'),
     }),
     mediumZoomPlugin({
       zoomOptions: {
@@ -269,13 +266,11 @@ export default defineUserConfig({
 
     isProd
       ? docsearchPlugin({
-        appId: 'MDQBBYI18P',
-        apiKey: '0f36f096b83770eae78115f2d88bd394',
-        indexName: 'bsmg',
-      })
-      : searchPlugin({
-
-      })
+          appId: 'MDQBBYI18P',
+          apiKey: '0f36f096b83770eae78115f2d88bd394',
+          indexName: 'bsmg',
+        })
+      : searchPlugin({}),
   ],
 
   bundler: viteBundler({
@@ -283,7 +278,7 @@ export default defineUserConfig({
       resolve: {
         alias: {
           '@images': resolve(__dirname, '../.assets/images'),
-        }
+        },
       },
     },
   }),

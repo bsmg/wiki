@@ -1,9 +1,9 @@
 ---
 sidebar: auto
-tags: 
-- full spread
-- lower difficulties
-- lower difficulty
+tags:
+  - full spread
+  - lower difficulties
+  - lower difficulty
 description: |
   A robust guide on mapping lower difficulties.
 ---
@@ -16,12 +16,12 @@ then translating those ideas as appropriate for other respective skill levels.
 While the process of downmapping may look daunting to the average mapper as opposed to releasing just a single difficulty,
 there are a variety of benefits that draw many to the process.
 
-* Having multiple difficulties can make your map more enticing for a greater audience of players, regardless of their
-skill level and experience with the game.
-* A solid difficulty curve keeps players coming back to your maps over and over again as they improve, and allows you to
-build a reputation among all levels of players that will stick with them for all your future maps.
-* The process can also reinforce fundamental mapping skills with greater consideration for musical representation, body
-mechanics, and accessibility to the wider playerbase.
+- Having multiple difficulties can make your map more enticing for a greater audience of players, regardless of their
+  skill level and experience with the game.
+- A solid difficulty curve keeps players coming back to your maps over and over again as they improve, and allows you to
+  build a reputation among all levels of players that will stick with them for all your future maps.
+- The process can also reinforce fundamental mapping skills with greater consideration for musical representation, body
+  mechanics, and accessibility to the wider playerbase.
 
 While some mappers may not be concerned with big download numbers or cultivating a larger playerbase, downmapping is
 still something to consider at any point in a mapper’s journey.
@@ -38,15 +38,15 @@ For a more simplified explanation on the basics of downmapping, you can check ou
 ## Know Your Demographic
 
 Truthfully, the guidelines you will want to incorporate when building lower difficulties will depend on the demographic
-of players you tailor your map for. Most mappers will rely on methodologies that are directed towards *accessibility*,
+of players you tailor your map for. Most mappers will rely on methodologies that are directed towards _accessibility_,
 modeled after a community interpretation of conventional mapping practices from the base game. While some of these guidelines
 may not be adopted by the official mapping team verbatim, they were formed from observations of various players, watching
 as they play through a wide range of lower difficulties and taking into account their natural tendencies for a wide range
 of patterns.
 
-When creating lower difficulties, the goal of a *mapper* is to work within the expectations of your target audience of
+When creating lower difficulties, the goal of a _mapper_ is to work within the expectations of your target audience of
 players at a respective difficulty level, while gradually introducing new concepts and mechanics of the game to provide
-a fair challenge. The goal of a *player* is to learn the various facets of the game at a comfortable pace without being
+a fair challenge. The goal of a _player_ is to learn the various facets of the game at a comfortable pace without being
 subjected to too many complexities at once. When a mapper expects too much out of a lower-difficulty player, the player
 may be too overwhelmed in their limited experience with the game and ultimately fail out of the difficulty. By limiting
 the scope of what you expect out of a lower-difficulty player, you allow the player to learn at their own pace, which
@@ -82,19 +82,19 @@ spreadsheet.
 For any series of dense patterns at high precision values (such as streams or jumps), you should simplify their usage or
 reduce their precision within reasonable expectations for players at their respective skill levels.
 
-* For **Expert**, you should simplify sustained usage of 1/8 and 1/6 timings from your Expert+ difficulty.
-* For **Hard**, simplify usage of 1/4 from Expert.
-* For **Normal**, simplify usage of 1/2 from Hard.
-* For **Easy**, simplify additional usage of 1/2 and/or 1/1 from Normal.
+- For **Expert**, you should simplify sustained usage of 1/8 and 1/6 timings from your Expert+ difficulty.
+- For **Hard**, simplify usage of 1/4 from Expert.
+- For **Normal**, simplify usage of 1/2 from Hard.
+- For **Easy**, simplify additional usage of 1/2 and/or 1/1 from Normal.
 
 The common methods of simplifying rhythms include, but are not limited to, the following approaches:
 
-* Cut the precision of a section of notes in half.  
-![Method 1](~@images/mapping/density-reduction-1.png)
-* Add small breaks between denser sections of notes within a measure.  
-![Method 2](~@images/mapping/density-reduction-2.png)
-* Consolidate usage of note placements at higher precisions into more emphasized variations at lower precisions.  
-![Method 3](~@images/mapping/density-reduction-3.png)
+- Cut the precision of a section of notes in half.  
+  ![Method 1](~@images/mapping/density-reduction-1.png)
+- Add small breaks between denser sections of notes within a measure.  
+  ![Method 2](~@images/mapping/density-reduction-2.png)
+- Consolidate usage of note placements at higher precisions into more emphasized variations at lower precisions.  
+  ![Method 3](~@images/mapping/density-reduction-3.png)
 
 ### Musically Founded
 
@@ -104,18 +104,18 @@ NPS ranges (for example, "Father of All..." from the Green Day Music Pack flaunt
 and Expert+ difficulties). This is by design, as the foundations of rhythm choice for lower difficulties correlate with
 a basic understanding of music theory.
 
-* You will find **Expert+** to be the *all-encompassing* difficulty, providing a more robust syncopation of rhythms as
-the mapper aims to emphasize every sound and flourish they deem appropriate.
-* **Expert** is interpreted as the *basic* understanding of the song’s structure, so if the mapper chooses not to retain
-the same rhythm choices established in Expert+, you may instead find the difficulty anchored to a sole musical structure
-or instrument within the composition, such as the percussion or melody.
-* **Hard** and below is where simplicity starts to play a more imperative role than musicality, so a more structural
-rhythm choice may be established, one that would compliment the expectations of note density for the respective difficulty
-level.
+- You will find **Expert+** to be the _all-encompassing_ difficulty, providing a more robust syncopation of rhythms as
+  the mapper aims to emphasize every sound and flourish they deem appropriate.
+- **Expert** is interpreted as the _basic_ understanding of the song’s structure, so if the mapper chooses not to retain
+  the same rhythm choices established in Expert+, you may instead find the difficulty anchored to a sole musical structure
+  or instrument within the composition, such as the percussion or melody.
+- **Hard** and below is where simplicity starts to play a more imperative role than musicality, so a more structural
+  rhythm choice may be established, one that would compliment the expectations of note density for the respective difficulty
+  level.
 
 ::: tip
 As most mappers tend to start with Expert+ or Expert, the process is usually referred to as "downmapping", since you work
-your way *down* through the difficulties. However, some mappers can and do work in the reverse, or even just map difficulties
+your way _down_ through the difficulties. However, some mappers can and do work in the reverse, or even just map difficulties
 sporadically as they see fit. That said, starting from the top gives you the benefit of saving time on timings, as
 Expert+ will typically encompass all of the song’s most prominent rhythms and syncopations.
 :::
@@ -151,22 +151,22 @@ For **Expert**, most of the patterns should be similar to your Expert+ counterpa
 that is easier for a player to interpret. Do not be afraid to oversimplify a pattern if it ends up being too complex than
 what would be expected out of your target audience.
 
-* For patterns that involve a higher density of notes involving more rapid swings (*streams*), it’s better to direct the
-player's focus on timing rather than readability. You should try to compact the swinging paths of the notes to less demanding
-positions, and always maintain a clear line of sight for all notes within the section. When sustained over a long period
-of time, try to incorporate breaks so that the player can recover if they end up losing track of the flow.
-* For patterns that involve a more pronounced reach of the player (*jumps* or *inverts*), establish a clear reduction in
-the spacing between the notes. Stamina is a big contributing factor to the limitations of this group of players, and players
-at this level are still trying to maintain full control of their swings. Reducing the spacing between notes or incorporating
-proper breaks can help make these sections more forgiving.
+- For patterns that involve a higher density of notes involving more rapid swings (_streams_), it’s better to direct the
+  player's focus on timing rather than readability. You should try to compact the swinging paths of the notes to less demanding
+  positions, and always maintain a clear line of sight for all notes within the section. When sustained over a long period
+  of time, try to incorporate breaks so that the player can recover if they end up losing track of the flow.
+- For patterns that involve a more pronounced reach of the player (_jumps_ or _inverts_), establish a clear reduction in
+  the spacing between the notes. Stamina is a big contributing factor to the limitations of this group of players, and players
+  at this level are still trying to maintain full control of their swings. Reducing the spacing between notes or incorporating
+  proper breaks can help make these sections more forgiving.
 
 For **Hard**, the style should follow the same simplicity-driven approach used in Expert, and reductions in spacing and
 complexity should be more noticeable in comparison.
 
-In addition, Hard is generally the skill level where the concept of parity will be *reinforced*, but not yet mastered,
+In addition, Hard is generally the skill level where the concept of parity will be _reinforced_, but not yet mastered,
 by the player. While players may be working to maintain flow at this difficulty level, there may be instances where
 natural tendencies may prompt a player to reset when patterns are getting too dense or too complex. For sections with
-enough spacing after a pattern, for patterns that resolve to opposite parity on each hand (*scissors* or *side doubles*),
+enough spacing after a pattern, for patterns that resolve to opposite parity on each hand (_scissors_ or _side doubles_),
 or even for the purposes of representation, you may find that using a reset to reorient the player may be more effective
 than maintaining proper parity.
 
@@ -180,12 +180,12 @@ are not immediately obvious to the player on how to swing for them.
 Do not expect a player at this level to be able to maneuver
 their hands behind each other to unwind themselves out of crossovers, and be wary of creating unintentional arm tangles
 with more lax setups. If you decide to use full-body crossovers, they should be isolated hits with plenty of room for setup
-and recovery, and make sure that you *properly unwind the player's hands* and lead them back into a more comfortable position.
+and recovery, and make sure that you _properly unwind the player's hands_ and lead them back into a more comfortable position.
 
 ### Easy & Normal
 
 **Easy** is, essentially, the "New to VR Difficulty". Players that can only pass Easy maps likely have zero experience
-with video games or VR. It is *very* easy to take for granted how much innate knowledge you might have
+with video games or VR. It is _very_ easy to take for granted how much innate knowledge you might have
 from growing up in a digital age. VR is extremely overwhelming for someone that has never experienced anything even
 remotely similar to it, and your map might be the first VR experience the player ever has! Keeping that in mind, it’s
 important to keep your Easy difficulty as simple as you can. Easy players are soaking in the experience and are learning
@@ -214,19 +214,19 @@ nature of the game’s mechanics that would be required to advance to the higher
 perspective, this relies on two primary reasons:
 
 1. **Limiting Factors**. These will be described in more detail below, but refer to the indirect “rules” for pattern
-creation that you should account for when making accessible lower difficulties. Grounding the mapping style to a perfect
-flow state as you would typically do in the upper difficulties may limit the potential in how you can build a lower difficulty,
-especially when limiting factors and rhythm choice already impose enough restrictions on their own. By using parity breaks
-as a tool for representation, you will have more options to preserve the map’s identity across the spread and make each
-difficulty feel more like a “progression” of the same core ideas. For some, this proves to be more beneficial for
-reception than trying to impress a concept that a new player may not be able to easily grasp.
+   creation that you should account for when making accessible lower difficulties. Grounding the mapping style to a perfect
+   flow state as you would typically do in the upper difficulties may limit the potential in how you can build a lower difficulty,
+   especially when limiting factors and rhythm choice already impose enough restrictions on their own. By using parity breaks
+   as a tool for representation, you will have more options to preserve the map’s identity across the spread and make each
+   difficulty feel more like a “progression” of the same core ideas. For some, this proves to be more beneficial for
+   reception than trying to impress a concept that a new player may not be able to easily grasp.
 
 2. **Player Freedom and Leniency**. The goal of using parity breaks in lower difficulties is not necessarily to break the
-fundamental flow of a map, but instead aiming to establish a neutral, or ambiguous, flow. The mapper is not necessarily
-trying to force the player to swing for patterns in any particular way, but rather allow the player to swing in whatever
-way feels more natural to them. This approach allows for more flexibility in the map’s design for how a player can
-“correctly” play through the map, while also making patterns more forgiving in the event the player misinterprets the
-intended flow.
+   fundamental flow of a map, but instead aiming to establish a neutral, or ambiguous, flow. The mapper is not necessarily
+   trying to force the player to swing for patterns in any particular way, but rather allow the player to swing in whatever
+   way feels more natural to them. This approach allows for more flexibility in the map’s design for how a player can
+   “correctly” play through the map, while also making patterns more forgiving in the event the player misinterprets the
+   intended flow.
 
 With these considerations in mind, don’t be afraid to break parity. Like, a lot. In fact, typical **Easy** difficulties
 will almost be entirely composed of parity breaks with very little notions of proper flow.
@@ -340,7 +340,7 @@ a swing syncopated with physical movement.
 
 The NJS of your map will affect both the spacing between notes and the timing windows provided for the player. A larger
 value will make your map more readable at the cost of being more timing-dependent for the player. The best way to determine
-the ideal NJS value for your map is to aim for the *lowest possible value* that would ensure a balance between the
+the ideal NJS value for your map is to aim for the _lowest possible value_ that would ensure a balance between the
 readability and playability of your map. Make sure the NJS value you choose can provide a clear line of sight for notes
 in the densest sections of your map, while also giving the player a fair and lenient timing window to comfortably and
 accurately swing for.
@@ -372,19 +372,19 @@ Even within the scope of base game maps, the typical values for Offset and JD ev
 as each official mapper seems to establish a unique series of preferences for a spread.
 
 A good anchoring point to determine the most viable offset value would be to aim for a Jump Distance within the range of
-**24-30** for *any* difficulty within a spread, settling on the higher end of this range for lower intensity maps and vice
+**24-30** for _any_ difficulty within a spread, settling on the higher end of this range for lower intensity maps and vice
 versa. A larger value will provide more space for a player to parse your patterns, but may create visual clutter with notes
 at higher precisions. A smaller Jump Distance will provide fewer notes to parse at one time but will require a quicker
 reaction time out of the player. Ideally, you would want the Jump Distance values for each difficulty to decrease as you
 work your way down the spread, but this may not be practical for some spreads.
 
 If you prefer a more semantic interpretation of what would be considered appropriate, you can instead ground the offset
-based on the number of *unique patterns* within an HJD interval of the difficulty. We will define a unique pattern as any
+based on the number of _unique patterns_ within an HJD interval of the difficulty. We will define a unique pattern as any
 series of notes that lie on a specific point of time, regardless of what type of pattern they make up.
 
-* For **Easy**, try to aim for no more than 2-3 unique patterns within an HJD interval.
-* For **Normal**, try to aim for no more than 4-5 unique patterns within an HJD interval.
-* For **Hard** and above, this attribute does not play a necessary role.
+- For **Easy**, try to aim for no more than 2-3 unique patterns within an HJD interval.
+- For **Normal**, try to aim for no more than 4-5 unique patterns within an HJD interval.
+- For **Hard** and above, this attribute does not play a necessary role.
 
 ::: tip
 Some players will tend to utilize the base game offset modifier to nudge the offset of a difficulty closer or farther
@@ -392,11 +392,11 @@ based on their own playstyle preferences. As a mapper, it may be wise to anchor 
 recommended range and give players the sole authority to find a suitable offset value, rather than forcing the preferences
 of the mapper onto them.
 
-* If you typically prefer a Jump Distance lower than **24**, your offset value should allow you to comfortably play your
-difficulty with the *Closer* offset modifier (`-0.25`).
-* If you typically prefer a Jump Distance higher than **30**, your offset value should allow you to comfortably play your
-difficulty with the *Farther* offset modifier (`+0.25`).
-:::
+- If you typically prefer a Jump Distance lower than **24**, your offset value should allow you to comfortably play your
+  difficulty with the _Closer_ offset modifier (`-0.25`).
+- If you typically prefer a Jump Distance higher than **30**, your offset value should allow you to comfortably play your
+  difficulty with the _Farther_ offset modifier (`+0.25`).
+  :::
 
 ## Conclusion
 
@@ -408,11 +408,12 @@ aspects of a lower difficulty resonated with them and with players, and through 
 a mentality and workflow to apply to a suite of difficulty spreads.
 
 The primary way to improve your skills beyond that point is to keep making lower difficulties; as tricky as it is to develop
-a separate mindset for mapping lower difficulties, it *will* start to become second nature as you start to refine the workflow,
+a separate mindset for mapping lower difficulties, it _will_ start to become second nature as you start to refine the workflow,
 and the reception will speak for itself. All it takes is the motivation to hone your skills in downmapping, the research
 to make it happen, and the drive to see it through until the end.
 
 ## Credits
+
 Content in this section was authored by [officialMECH](./mapping-credits.md#officialmech), with additional contributions
 from [Pyrowarfare](./mapping-credits.md#pyrowarfare), [Skyler Wallace](./mapping-credits.md#skyler-wallace),
 [monstor](./mapping-credits.md#monstor), and other contributors.

@@ -1,16 +1,19 @@
 # Supports
+
 _The Support role is a symbol of thanks. Thanks for the thousands of messages and hundreds of hours spent helping people
 sort out their mods, and for for building a knowledge of troubleshooting base through macros and the wiki. We don't typically
 give this role out, but when we do it's because someone has gone above and beyond for the server._
 
 ## Alteran
-Just your random geek.  With a strong affinity towards music, and a love for Stargate that goes unmatched.
+
+Just your random geek. With a strong affinity towards music, and a love for Stargate that goes unmatched.
 Always happy to help if I have the ability.  
 Addicted to BeatSaber.
 
 **Roles:** Support
 
 ## boulders2000
+
 > "even though his brain is a mess he knows his stuff (kinda)"
 >
 > something like that (but don't add something like that part, ok?)
@@ -18,6 +21,7 @@ Addicted to BeatSaber.
 **Roles:** Support
 
 ## ComputerElite
+
 He makes programs to support people faster and some others for them to make all easier. (likes to eat BMBF Logs)
 
 **Roles:** Support
@@ -25,6 +29,7 @@ He makes programs to support people faster and some others for them to make all 
 [Github](https://github.com/ComputerElite/)
 
 ## Emma
+
 You might know them for their spectacular platforms, or for more refined individuals: yeet sabers.
 
 **Roles:** Support, 3D Artist
@@ -32,21 +37,25 @@ You might know them for their spectacular platforms, or for more refined individ
 [Twitch](https://www.twitch.tv/therealkleinba)
 
 ## Johnny0403
+
 He likes playing Beat Saber. He also likes helping people fix their problems so they can play Beat Saber.
 
 **Roles:** Support
 
 ## KnuckleDF
+
 Answered one question. Then a few more. Now he's here.
 
 **Roles:** Support
 
 ## KodenameKRAK
+
 "Maybe in a couple years I could think of something to put here"
 
 **Roles:** Support
 
 ## Kolezan
+
 He'll teach you to fix your mods and your terribly off-beat first map. We've all been there.
 
 **Roles:** Support, Mapping Support, Mapper
@@ -54,28 +63,33 @@ He'll teach you to fix your mods and your terribly off-beat first map. We've all
 [Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
 
 ## Luna
+
 She's often forgetful, but happy to help
 
 **Roles:** Support
 
 ## male
+
 is too uncreative to think of a bio
 
 **Roles:** Support
 
 ## Nuggo
+
 A fine nugget... A tasty nugget
 
 **Roles:** Support
 
 ## oli
-I broke my feet the day before I got support, its not related *I think*
+
+I broke my feet the day before I got support, its not related _I think_
 
 **Roles:** Support
 
 [YouTube](https://www.youtube.com/@gikmo8246) | [GitHub](https://github.com/oli-ctrl)
 
 ## Pespiri
+
 He'll give me his bio later today, or so he says.
 
 **Roles:** Support, Modder
@@ -83,6 +97,7 @@ He'll give me his bio later today, or so he says.
 [GitHub](https://github.com/pespiri)
 
 ## Radevirot
+
 This guy came out of nowhere and started helping in support saying it was some kind of addiction, what a loon.
 
 **Roles:** Support
@@ -90,6 +105,7 @@ This guy came out of nowhere and started helping in support saying it was some k
 [Twitter](https://twitter.com/Radevirot) | [Donate](paypal.me/Radevirot)
 
 ## Raz0rBeam
+
 Just your average .saber connoisseur with a knowledge of troubleshooting
 
 **Roles:** Support
@@ -97,11 +113,13 @@ Just your average .saber connoisseur with a knowledge of troubleshooting
 [Twitter](https://www.twitter.com/Raz0rBeam) | [GitHub](https://www.github.com/Raz0rBeam)
 
 ## Rex
+
 I really like to help people. Yeah that's all.
 
 **Roles:** Support
 
 ## Sands
+
 He has no life and he's pretty dumb but he can help with your bmbf and that's all that matters right?
 
 **Roles:** Support
@@ -109,11 +127,13 @@ He has no life and he's pretty dumb but he can help with your bmbf and that's al
 [YouTube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
 
 ## Simme63
+
 "Coke Head"
 
 **Roles:** Support
 
 ## Squares
+
 SirSpam likes steak between two slices of bread!
 
 **Roles:** Support
@@ -121,16 +141,19 @@ SirSpam likes steak between two slices of bread!
 [YouTube](https://www.youtube.com/channel/UCaQ7PLj4AqGHZnqQVjc_XBQ)
 
 ## Toblersto
+
 I decided I wanted to help one day, and have been slightly addicted ever since.
 
 **Roles:** Support
 
 ## X
+
 🐸 🎉 _I don't know what to put here_
 
 **Roles:** Support
 
 ## Channel Monitor Bot
+
 The bot that holds it all together.
 Created by Megalon, recreated by lolPants, and personified by Rolo!
 
@@ -146,8 +169,8 @@ A very helpful individual
 **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
 **Modders:** [Kyle1413](./modders.md#kyle1413) | [Sirspam](./modders.md#sirspam) | [rui2015](./moderators.md#rui2015)  
 **Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer-retired)
-  | [Chara_](./moderators.md#chara-retired) | [Burrito](./moderators.md#burrito)
-  | [OneEyed](./moderators.md#oneeyed-retired) | [Storm](./moderators.md#storm)  
+| [Chara\_](./moderators.md#chara-retired) | [Burrito](./moderators.md#burrito)
+| [OneEyed](./moderators.md#oneeyed-retired) | [Storm](./moderators.md#storm)  
 **Staff:** [Assistant](./staff.md#assistant-retired) | [Eradawn](./staff.md#eradawn) | [Klouder](./staff.md#klouder-retired)
 | [Megalon](./staff.md#megalon) | [Pink](./staff.md#pink) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums)
 | [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)

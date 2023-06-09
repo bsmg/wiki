@@ -1,20 +1,21 @@
 ---
 sidebar: auto
 ---
+
 # Quest Modding with a Raspberry Pi
 
 ## Preface
 
-* This guide is for both Quest 1 and Quest 2.
-* Nobody has yet been banned for modding.
+- This guide is for both Quest 1 and Quest 2.
+- Nobody has yet been banned for modding.
 
 ::: danger DISCLAIMER
 By choosing to use mods, you understand that:
 
-* You may experience problems that don't exist in the vanilla game. 99.9% of bugs, crashes, and lag are due to mods.
-* Mods are subject to being broken by updates and that's normal - be patient and respectful when this happens,
+- You may experience problems that don't exist in the vanilla game. 99.9% of bugs, crashes, and lag are due to mods.
+- Mods are subject to being broken by updates and that's normal - be patient and respectful when this happens,
   as modders are volunteers with real lives.
-* Beat Games aren't purposefully trying to break mods. They wish to work on the codebase and sometimes this breaks mods,
+- Beat Games aren't purposefully trying to break mods. They wish to work on the codebase and sometimes this breaks mods,
   but they are not out to kill mods.
 
 Do not attack the game developers for issues related to mods, and vice versa -
@@ -32,10 +33,10 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 
 ### What you need to get started
 
-* A Raspberry Pi setup with Raspberry Pi OS (formerly Raspbian) installed
-* A usb c to a cable
-* An internet connection
-* A phone if you don't have a monitor / keyboard
+- A Raspberry Pi setup with Raspberry Pi OS (formerly Raspbian) installed
+- A usb c to a cable
+- An internet connection
+- A phone if you don't have a monitor / keyboard
 
 **Note:** Other Distros may work, but this guide is only tested with Raspberry Pi OS.
 
@@ -43,9 +44,9 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 
 1. Make sure the raspberry pi is connected to the internet. This can either be done via ethernet or wifi.
 2. Make sure you got the ip and login information for the pi.
- The default login is `pi` and the default password is `raspberry`.
- If you don't know the ip, you can find it in your routers dashboard.
- If you're running Raspberry Pi OS, you can try to use the hostname `raspberrypi` to connect to it.
+   The default login is `pi` and the default password is `raspberry`.
+   If you don't know the ip, you can find it in your routers dashboard.
+   If you're running Raspberry Pi OS, you can try to use the hostname `raspberrypi` to connect to it.
 
 ### Installing Termius
 
@@ -57,7 +58,7 @@ Termius is a SSH client for iOS. It's going to be used to connect to the Raspber
 3. Go to the `Hosts` tab and click on the `+` in the bottom left corner.
 4. Enter the ip of your Raspberry Pi, the username and the password. Then click on `Save`.
 5. Click on the newly created host and then on `Connect`.
-    If everything went well, you should now be connected to your Raspberry Pi.
+   If everything went well, you should now be connected to your Raspberry Pi.
 
 ### Installing required packages
 
@@ -108,7 +109,7 @@ wget https://github.com/ComputerElite/QuestAppVersionSwitcher/releases/latest/do
 ```
 
 2. Make sure the file was successfully downloaded by running `ls`.
-    It should print out `com.ComputerElite.questappversionswitcher-Signed.apk`.
+   It should print out `com.ComputerElite.questappversionswitcher-Signed.apk`.
 3. Install the APK by running the following command:
 
 ```bash
@@ -126,20 +127,20 @@ adb install com.ComputerElite.questappversionswitcher-Signed.apk
 
 ### I can't connect to my Raspberry Pi
 
-* Make sure you're connected to the same network as your Raspberry Pi.
-* Make sure you're using the correct ip.
-* Make sure you're using the correct username and password.
+- Make sure you're connected to the same network as your Raspberry Pi.
+- Make sure you're using the correct ip.
+- Make sure you're using the correct username and password.
 
 ### I can't connect to my Quest
 
-* Make sure you're using a USB-C to USB-A cable.
-* Make sure you're using the correct cable.
-* Try runnung `adb kill-server` and then `adb devices` again.
+- Make sure you're using a USB-C to USB-A cable.
+- Make sure you're using the correct cable.
+- Try runnung `adb kill-server` and then `adb devices` again.
 
 ### My pi crashes when connecting the quest
 
-* Make sure the power supply is strong enough. The Raspberry Pi needs at least 2.5A to run properly.
-* Try using a different cable.
+- Make sure the power supply is strong enough. The Raspberry Pi needs at least 2.5A to run properly.
+- Try using a different cable.
 
 ### Other issues
 

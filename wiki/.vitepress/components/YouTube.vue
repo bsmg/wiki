@@ -1,10 +1,10 @@
 <template>
-  <div v-if='valid' class='container'>
+  <div v-if="valid" class="container">
     <iframe
-      class='video'
-      :src='link'
-      frameborder='0'
-      allow='autoplay; encrypted-media'
+      class="video"
+      :src="link"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
       allowfullscreen
     >
     </iframe>
@@ -16,26 +16,27 @@
 </template>
 
 <style scoped>
-  .container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
+.container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
 
-    margin: 12px 0;
-  }
+  margin: 12px 0;
+}
 
-  .video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 </style>
 
 <script lang="ts">
-const rx = /^.*(?:(?:youtu.be\/)|(?:v\/)|(?:\/u\/\w\/)|(?:embed\/)|(?:watch\?))\??v?=?([^#\&\?]*).*/
+const rx =
+  /^.*(?:(?:youtu.be\/)|(?:v\/)|(?:\/u\/\w\/)|(?:embed\/)|(?:watch\?))\??v?=?([^#\&\?]*).*/
 
 export default {
   name: 'YouTube',

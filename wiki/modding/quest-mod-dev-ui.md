@@ -14,8 +14,8 @@ settings screen for your mod.
 
 ## Prerequisites
 
-* Install `questui` by running `qpm dependency add questui` in your project directory.
-* You also need to install `custom-types` even if you don't use it in your mod: `qpm dependency add custom-types`
+- Install `questui` by running `qpm dependency add questui` in your project directory.
+- You also need to install `custom-types` even if you don't use it in your mod: `qpm dependency add custom-types`
 
 Make sure to restore after adding the dependencies.
 
@@ -25,8 +25,8 @@ Make sure to restore after adding the dependencies.
 
 Take a look at this example:
 
-* You should only create your components on first activation to prevent duplication.
-* You can utilize containers (such as Scrollable, HorizontalLayout and VerticalLayout) to manipulate the locations of components.
+- You should only create your components on first activation to prevent duplication.
+- You can utilize containers (such as Scrollable, HorizontalLayout and VerticalLayout) to manipulate the locations of components.
 
 ```cpp
 #include "questui/shared/BeatSaberUI.hpp"
@@ -50,12 +50,12 @@ comments that document almost all the methods.
 
 `questui` contains a few locations you can register to:
 
-* Main Menu Mod Tabs
-![Main Menu Mod Tabs](~@images/modding/quest-menu-mod-tab.png)
-* Mod Settings
-![Mod Settings](~@images/modding/quest-mod-settings.jpg)
-* Gameplay Setup
-![Gameplay Setup](~@images/modding/quest-gameplay-settings.jpg)
+- Main Menu Mod Tabs
+  ![Main Menu Mod Tabs](~@images/modding/quest-menu-mod-tab.png)
+- Mod Settings
+  ![Mod Settings](~@images/modding/quest-mod-settings.jpg)
+- Gameplay Setup
+  ![Gameplay Setup](~@images/modding/quest-gameplay-settings.jpg)
 
 For `questui` to use your `DidActivate` method, you will need to register it using the `QuestUI::Register` class in your
 `load()` method.

@@ -20,6 +20,7 @@ Une communauté pour toutes discussions et évènements liés à l'accuracy (ou 
 
 Nous sommes BeatKhana, une communauté Beat Saber concentrée sur l'avancée des tournois !
 Que faisons-nous ?
+
 - Nous mettons à jour et annonçons les prochains tournois en ligne, vous apportant toute information nécessaire
 - Archivons les vieux tournois afin que vous puissiez toujours les trouver
 - Fournissons un endroit pour que les gens puissent promouvoir leurs propres tournois et trouver des coordinateurs et des présentateurs

@@ -1,67 +1,78 @@
 # よくある質問
 
 ## ゲームを始めたばかりですが、なにから始めるのですか?
+
 [初心者ガイド](/ja/beginners-guide.md)
 
 ## どうすれば曲が追加出来る？
+
 > [BeatSaver](https://beatsaver.com) はコミュニティによって作られたカスタム曲のまとめです。 他の多くのツールやサイトは、カスタム曲をダウンロードする方法をより詳細に説明します, しかし、この場所は、ツール作成者自らが運営しています。
 
-BeatSaverから手動でマップをダウンロードする場合は、それらを解凍し、 `Beat Saber/Beat Saber_Data/CustomLevels`にファイルを置きます。 ここは、ゲームがカスタム曲を読み込むディレクトリです。
+BeatSaver から手動でマップをダウンロードする場合は、それらを解凍し、 `Beat Saber/Beat Saber_Data/CustomLevels`にファイルを置きます。 ここは、ゲームがカスタム曲を読み込むディレクトリです。
 
 ### BeastSaber
-[Beast Saber](https://www.bsaber.com) は、BeatSaver上のすべての曲を評価することを目的としたレビューサイトです。 プレイリストをダウンロードしたり、マップ製作者をフォローしたり、様々なソートを使用して曲を見つけたりすることもできます。
+
+[Beast Saber](https://www.bsaber.com) は、BeatSaver 上のすべての曲を評価することを目的としたレビューサイトです。 プレイリストをダウンロードしたり、マップ製作者をフォローしたり、様々なソートを使用して曲を見つけたりすることもできます。
 
 ### カスタム曲管理ツール
 
 カスタム曲・プレイリストの管理には、下記のような方法があります。
 
-* [BeatList](https://github.com/ranmd9a/beatlist/releases/latest) はカスタム曲・プレイリストを管理するデスクトップアプリで、**ranmd9a**氏によって管理されています。
-* [BeaterList](https://syltaris.github.io/beaterlist)はブラウザ上でプレイリストを管理する**zexurge**氏作成のサービスです。
+- [BeatList](https://github.com/ranmd9a/beatlist/releases/latest) はカスタム曲・プレイリストを管理するデスクトップアプリで、**ranmd9a**氏によって管理されています。
+- [BeaterList](https://syltaris.github.io/beaterlist)はブラウザ上でプレイリストを管理する**zexurge**氏作成のサービスです。
 
 ## プレイリストをインストールするにはどうすればいいですか?
 
 ### PC
-[PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) modをインストールする必要があります。
+
+[PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod をインストールする必要があります。
 
 次に、どちらかを選択できます。
 
-* ModAssistantのOptionsタブで `プレイリストインストール` ツールを使用します。
-* プレイリストファイルを `Beat Saber/Playlists` に配置し、BeatListで選択し、すべてダウンロードします。
+- ModAssistant の Options タブで `プレイリストインストール` ツールを使用します。
+- プレイリストファイルを `Beat Saber/Playlists` に配置し、BeatList で選択し、すべてダウンロードします。
 
-ゲーム内のカスタムレベルの横にプレイリストが表示されます。 Modはまた、ゲーム内のプレイリストの管理をサポートしています。
+ゲーム内のカスタムレベルの横にプレイリストが表示されます。 Mod はまた、ゲーム内のプレイリストの管理をサポートしています。
 
 ### Quest
-Questのプレイリストを管理するには [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) を使用します。 BMBFの機能により、ゲーム内で一度だけカスタムレベルが表示されることに注意してください。
+
+Quest のプレイリストを管理するには [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) を使用します。 BMBF の機能により、ゲーム内で一度だけカスタムレベルが表示されることに注意してください。
 
 :::warning Quest ユーザーへの注意
 カスタムソングフォルダを再読み込みすると、すべてのプレイリストの組み合わせがリセットされます。
 :::
 
 ## カスタム曲を作成するにはどうすればいいですか?
+
 [譜面作成](/ja/mapping/) を参照してください
 
-## Mod Assistantにないプラグインをどのようにロードしますか？
+## Mod Assistant にないプラグインをどのようにロードしますか？
+
 初心者ガイドの [このセクション](/ja/pc-modding.md#手動でのインストール) を参照してください。
 
 ## マルチプレイにクロスプレイはありますか？
-クエストとPC版のクロスプレイが可能になりました！ これを行うには、すべてのプレイヤーが最新バージョン を使用する必要があります。 また、QuestでModを導入すると、公式のマルチプレイヤーが無効になります。
 
-BeatTogetherModは、Modが導入されたプラットフォームのクロスプレイのための現行の解決法です。 [Discordサーバー](https://discord.com/invite/gezGrFG4tz) に参加し、詳細については `#install-instructions` チャンネルを確認してください。
+クエストと PC 版のクロスプレイが可能になりました！ これを行うには、すべてのプレイヤーが最新バージョン を使用する必要があります。 また、Quest で Mod を導入すると、公式のマルチプレイヤーが無効になります。
 
-## ゲームのアップデート後、どのModも動作しなくなりました
-ゲームがアップデートされるときに、 *（そして非常によく）* 既存のModが動作を停止し、アップデートする必要があります。 アップデート後初めてゲームを起動するとき、ゲームのディベロッパーは `Plugins`にあるすべてのファイルを新しく`Old 1.xx.x Plugins`ファイルに移動させます。 **プラグインやModはそこに残しておいてください!**その中にあるファイルを`Plugins`に戻すと問題が起こることがあります。
+BeatTogetherMod は、Mod が導入されたプラットフォームのクロスプレイのための現行の解決法です。 [Discord サーバー](https://discord.com/invite/gezGrFG4tz) に参加し、詳細については `#install-instructions` チャンネルを確認してください。
 
-Modを取り戻すには、 **インストーラを再度実行してください。**  
-BeatModリポジトリには、ゲームの最新バージョンで動作することが確認されたModのみが含まれています。
+## ゲームのアップデート後、どの Mod も動作しなくなりました
+
+ゲームがアップデートされるときに、 _（そして非常によく）_ 既存の Mod が動作を停止し、アップデートする必要があります。 アップデート後初めてゲームを起動するとき、ゲームのディベロッパーは `Plugins`にあるすべてのファイルを新しく`Old 1.xx.x Plugins`ファイルに移動させます。 **プラグインや Mod はそこに残しておいてください!**その中にあるファイルを`Plugins`に戻すと問題が起こることがあります。
+
+Mod を取り戻すには、 **インストーラを再度実行してください。**  
+BeatMod リポジトリには、ゲームの最新バージョンで動作することが確認された Mod のみが含まれています。
 
 上記で困ったことがある場合は、 [初心者ガイド](/ja/beginners-guide.md) をご覧ください。
 
-## Beat Saberで得点のシステムはどのようなものですか? グローバルランキングの仕組みは?
+## Beat Saber で得点のシステムはどのようなものですか? グローバルランキングの仕組みは?
+
 [グリップとトリック](/ja/grips-and-tricks.md) のセクションには、スコアリングとランキングシステム専用のセクションがあります。チェックしてください！
 
 ## メニューは表示されず、クリックするものは何もありません！
+
 ゲームのメインウィンドウが表示されない場合、保存ファイルが破損している可能性があります。
 
 修正するには、次の場所に移動します: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
 
-Beat Saberフォルダを削除または名前を変更します。 ゲームを再度起動すると、セーブファイルが再作成され、メインメニューが正しく読み込まれます。
+Beat Saber フォルダを削除または名前を変更します。 ゲームを再度起動すると、セーブファイルが再作成され、メインメニューが正しく読み込まれます。

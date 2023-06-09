@@ -6,6 +6,7 @@ description: Go beyond vanilla lighting.
 ---
 
 # Extended Lighting
+
 _If you are fed up with vanilla lighting, this is the right place._
 
 ::: warning
@@ -15,22 +16,25 @@ This is a stub page, content is a work in progress! Ask in `#mapping-discussion`
 ## Custom Environments
 
 ### Environment Logs
+
 How to generate logs to get all the data in an environment:
 
 1. Open `Beat Saber/UserData/Beat Saber IPA.json` in a text editor and set `"CreateModLogs": true`.
 2. Open `Beat Saber/UserData/Chroma.json` and set `"PrintEnvironmentEnhancementDebug": true`.
-:::warning NOTE
-Now when you open any Chroma map in game, it will generate a log of its environment.
-:::
+   :::warning NOTE
+   Now when you open any Chroma map in game, it will generate a log of its environment.
+   :::
 3. Open ChroMapper, select the environment you want to use and save the song info.
 4. Place a single light event in the map and change the light to a chroma color.
 5. Load Beat Saber and play the map for a second. The log is located in `Beat Saber/Logs/Chroma`.
 
 ## Chroma (RGB Lights)
+
 The Chroma mod allows you to use more than two colours for lighting! There are two versions, [Chroma 1.0](#chroma-1-0)
 and [Chroma 2.0](#chroma-2-0) which are not compatible with each other.
 
 ## Chroma 1.0
+
 Chroma 1.0 events are less efficient and can affect editor performance once you have more than about 20 thousand events.
 Additionally, it is not recommended for use in modern maps as support may be dropped at any time.
 
@@ -42,7 +46,7 @@ A one way converter to 2.0 is available for use before releasing your map.
 1. Open MMA2.
 2. In the Settings bar on the right, under the Legacy section, click on the ChromaToggle checkbox.
 3. Select the level you want to map in and click on the ExtraFields tab to the right of the difficulty select.
-4. Click on the Suggestions tab and then type in `Chroma`.  
+4. Click on the Suggestions tab and then type in `Chroma`.
 
 :::warning NOTE
 The text you enter in the suggestions has to be exact or the Chroma lighting effects will not appear in game
@@ -60,6 +64,7 @@ The RGB Panel
 :::
 
 #### Controls
+
 Select a Chroma event by clicking on the color wheel or adjusting the sliders to get the color you want.
 
 Save a Chroma color by right clicking on a square on the top of the RGB panel. Click on a square to select the saved color.
@@ -75,6 +80,7 @@ Be sure to make a backup before using this as the new format does not function i
 :::
 
 ### How Chroma 1.0 Events Function
+
 Chroma events don’t do anything on its own. Chroma events function by acting as a light filter for future events essentially
 "dying" the normal lighting events to the specified color. In the following example, the orange and pink events don’t do
 anything until the vanilla blue fade event happens. This functions as an orange fade and then a pink fade.
@@ -89,6 +95,7 @@ place the chroma after the actual event and it won’t change colour. Completely
 :::
 
 ### Gradients
+
 How to place a gradient using Chroma events:
 
 1. Underneath the gradient button, place the initial colour in the left box and the ending/final colour on the right box.
@@ -113,12 +120,14 @@ feeling of a fade in / out event.
 ::: align center
 Comparison of shades of red.
 
-| 100% Value | 75% Value | 50% Value | 25% Value | 0% Value |
-| :----: | :----: | :----: | :----: | :----: |
+|                          100% Value                           |                          75% Value                          |                          50% Value                          |                          25% Value                          |                         0% Value                          |
+| :-----------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: | :-------------------------------------------------------: |
 | ![Image of RGB 100% Red](~@images/mapping/red-lights-100.jpg) | ![Image of RGB 75% Red](~@images/mapping/red-lights-75.jpg) | ![Image of RGB 50% Red](~@images/mapping/red-lights-50.png) | ![Image of RGB 25% Red](~@images/mapping/red-lights-25.png) | ![Image of RGB 0% Red](~@images/mapping/red-lights-0.png) |
+
 :::
 
 ## Chroma 2.0
+
 Chroma 2.0 is the latest version of Chroma providing even more options to spice up your lighting. This includes the ability
 to: create gradients without hundreds of events, individually light lasers, use precise laser events, and use precise
 rotation events.
@@ -131,6 +140,7 @@ Opening a map in MMA2 will remove any Chroma 2.0 events from the difficulty.
 :::
 
 ### Color Data
+
 In the new Chroma format, the colour data is built into the vanilla lighting event. There's no need to place a Chroma event
 before the actual lighting event. The color data format now has an optional forth value for alpha. These can be used for
 even more convincing fades or for more subtle lighting.
@@ -138,12 +148,14 @@ even more convincing fades or for more subtle lighting.
 ::: align center
 Comparison of the same red with different alphas.
 
-| 1.00 Alpha | 0.75 Alpha | 0.50 Alpha | 0.25 Alpha | 0.00 Alpha |
-| :----: | :----: | :----: | :----: | :----: |
+|                              1.00 Alpha                               |                              0.75 Alpha                               |                              0.50 Alpha                               |                              0.25 Alpha                               |                              0.00 Alpha                               |
+| :-------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |
 | ![Image of Red 1.00 Alpha](~@images/mapping/red-lights-alpha-100.jpg) | ![Image of Red 0.75 Alpha](~@images/mapping/red-lights-alpha-075.png) | ![Image of Red 0.50 Alpha](~@images/mapping/red-lights-alpha-050.png) | ![Image of Red 0.25 Alpha](~@images/mapping/red-lights-alpha-025.png) | ![Image of Red 0.00 Alpha](~@images/mapping/red-lights-alpha-000.png) |
+
 :::
 
 ### Chroma 2.0 Gradients
+
 In comparison to the older format, gradients can be created with a single event using the `_lightGradient` property.
 Example gradient linearly easing from red to blue over 2 beats:
 
@@ -159,18 +171,22 @@ Example gradient linearly easing from red to blue over 2 beats:
 ```
 
 ### Ring Prop / Light Prop
+
 Chroma 2.0 allows you to control individual lights if an event normally triggers multiple lights.
 This effect is most visible on the ring lights.
 
 ### CM Node Editor
+
 Many of Chroma's features are far easier to implement and edit using ChroMapper's Node editor.
 
 ## Technical Info (JSON Editing)
+
 It can be helpful to know how a lighting event is encoded in the `.dat` files if you want to edit the file directly or
 make a script to change the file.
 
 The internal format for a lighting event is described in the dedicated [Map Format page](./map-format.md#events-2).
 
 ## Credits
+
 The content on this page was authored by [LittleAsi](./mapping-credits.md#littleasi), [Puds](./mapping-credits.md#puds),
 [Skeelie](./mapping-credits.md#skeelie), and [Bullet](./mapping-credits.md#bullet).

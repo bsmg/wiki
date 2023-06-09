@@ -1,24 +1,30 @@
 # 3D Artists
+
 From sabers to notes, custom models have always been a popular aspect of
 modded beat saber which wouldn't be possible without them.
 
 ## AkaRaiden
+
 **Roles:** 3D Artist
 
 ## angeloid0103
+
 Wrote the custom saber creation guide among other fantastic contributions.
 
 **Roles:** 3D Artist
 
 ## Derpy Hooves
+
 **Roles:** 3D Artist
 
 ## Fusion
+
 They've got some impressive shaders and they're not afraid to use them.
 
 **Roles:** 3D Artist
 
 ## Ibodan
+
 Most well known for their incredibly flashy dance platform and space opera sabers,
 but it's a little known fact that they also make mods!
 
@@ -26,6 +32,7 @@ but it's a little known fact that they also make mods!
 **Contributions:** Bloom Mod
 
 ## JJ | hi
+
 I’ve been modeling for almost 3 years and make mostly private and collab sabers.
 
 **Roles:** 3D Artist
@@ -33,6 +40,7 @@ I’ve been modeling for almost 3 years and make mostly private and collab saber
 [ModelSaber](https://modelsaber.com/Profile/?user=366411130962313216)
 
 ## laugexd
+
 Developer of ModelSaber 2.0 and crafter of many sabers and bloqs.
 
 **Roles:** 3D Artist
@@ -40,17 +48,21 @@ Developer of ModelSaber 2.0 and crafter of many sabers and bloqs.
 [Twitter](https://twitter.com/laugexd) | [YouTube](https://www.youtube.com/channel/UCr_JES9nBCUaAR9-UbgDMRw) | [ModelSaber](https://modelsaber.com/Profile/?user=146243483898871808)
 
 ## MissRaynor
+
 **Roles:** 3D Artist
 
 ## Mordred
+
 One of the first creators to mass produce avatars, and thus give birth to this role.
 
 **Roles:** 3D Artist
 
 ## Oshi
+
 **Roles:** 3D Artist
 
 ## RedBrumbler
+
 "The guy who made giant glowing dicks in beat saber" ~Emulamer 12th of July 2019
 
 As you can read I make sabers for quest, but generally I've been active in the asset modding part of beat saber,
@@ -66,6 +78,7 @@ keep on sabering that meat till it's real tender!
 [GitHub](https://github.com/RedBrumbler/BeatOnCustomSabers) | [Reddit](https://www.reddit.com/user/RedBrumbler/)
 
 ## SeventyTwo
+
 Tons and tons of Full Body Tracking support!
 
 **Roles:** 3D Artist
@@ -73,9 +86,11 @@ Tons and tons of Full Body Tracking support!
 [Donate](https://paypal.me/theseventytwo)
 
 ## Tachrayonic
+
 **Roles:** 3D Artist
 
 ## Yuuki
+
 3D Artist and Quest Modder. Supporting the VR community in any way that I can!
 Primarily focusing on offering niche Beat Saber mods for the Quest and helping enhance gameplay through 3D models.
 
@@ -86,6 +101,7 @@ Primarily focusing on offering niche Beat Saber mods for the Quest and helping e
 ---
 
 <!-- markdownlint-disable MD013 -->
+
 ::: tip See Also
 **Support:** [Emma](./supports.md#emma)  
 **Moderators:** [DeeJay](./moderators.md#deejay) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)  

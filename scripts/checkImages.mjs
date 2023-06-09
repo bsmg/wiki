@@ -27,7 +27,7 @@ function toStringFn() {
   const files = paths.map(x => ({
     name: x.name,
     file: path.join(cwd, x.path),
-    size: x.stats.size
+    size: x.stats.size,
   }))
 
   const flagged = files.filter(({ size }) => size >= MAX_IMAGE_SIZE)
