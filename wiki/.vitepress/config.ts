@@ -60,6 +60,8 @@ export default defineConfig({
           { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
         ],
 
+        outline: [2, 3],
+
         // sidebar: sidebar(
         //   {
         //     name: 'About Us',
