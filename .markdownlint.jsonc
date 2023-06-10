@@ -4,6 +4,7 @@
   "extends": "markdownlint/style/prettier",
 
   "heading-style": { "style": "atx" },
+  "line-length": { "line_length": 120 },
   "link-fragments": false,
   "no-duplicate-heading": false,
   "no-inline-html": {
