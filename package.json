@@ -13,8 +13,8 @@
     "preview": "vitepress preview wiki",
     "build": "vitepress build wiki",
     "lint:images": "node ./scripts/checkImages.mjs",
-    "lint": "prettier --check . && markdownlint-cli2 'wiki/**/*.md'",
-    "fmt": "prettier --write . && markdownlint-cli2-fix 'wiki/**/*.md'"
+    "lint": "prettier --check . && markdownlint-cli2 \"wiki/**/*.md\"",
+    "fmt": "prettier --write . && markdownlint-cli2-fix \"wiki/**/*.md\""
   },
   "devDependencies": {
     "@types/node": "^20.2.5",
