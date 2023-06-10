@@ -1,3 +1,6 @@
+# Lockfile
+package-lock.json
+
 # VSCode
 .vscode/
 

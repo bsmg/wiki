@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json",
   "default": true,
-  "extends": "markdownlint/style/prettier",
+  "extends": "./node_modules/markdownlint/style/prettier.json",
 
   "heading-style": { "style": "atx" },
   "link-fragments": false,
@@ -9,5 +9,5 @@
   "no-inline-html": {
     "allowed_elements": ["YouTube", "kbd", "br", "details", "summary"]
   },
-  "ul-style": { "style": "asterisk" }
+  "ul-style": false
 }
