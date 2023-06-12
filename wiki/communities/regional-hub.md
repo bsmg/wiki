@@ -1,18 +1,15 @@
 ---
 sidebar: auto
+description: A list of other regional communities outside of the Beat Saber Modding Group
 ---
 
 # Regional Hub
 
 A list of other regional communities outside of the Beat Saber Modding Group.
 
----
-
 ## Africa
 
 _None yet._
-
----
 
 ## Americas
 
@@ -24,8 +21,6 @@ The official Discord for the Canadian Beat Saber community!
 
 [Discord](https://discord.gg/vvq7wX3)
 
----
-
 ## Asia
 
 ### Beat Saber Asia
@@ -35,8 +30,6 @@ We have a limited quota for International members depending on our server size.
 
 [Application](https://forms.gle/Ga3jWoCkugPBD6BZ6)
 
----
-
 ### Israel
 
 #### Beat Saber Israel
@@ -44,8 +37,6 @@ We have a limited quota for International members depending on our server size.
 A server made to bring Isreali Beat Saber players together. International players welcome.
 
 [Discord](https://discord.gg/HHH7sK8)
-
----
 
 ### Korea
 
@@ -55,8 +46,6 @@ A community of Korean players :) information sharing and problem solving between
 
 [Discord](https://discord.gg/SEFBZrG)
 
----
-
 ### Middle East
 
 #### Beat Saber Middle East
@@ -64,8 +53,6 @@ A community of Korean players :) information sharing and problem solving between
 A private Discord for the saber beaters from / in the Middle East
 
 [Application form](http://bit.ly/BSME_Application)
-
----
 
 ## Europe
 
@@ -78,8 +65,6 @@ Unofficial Austrian Beat Saber discord that just recently opened doors for every
 
 [Discord](https://discord.gg/TvRkNY2)
 
----
-
 ### Belgium
 
 #### Belgian Beat Saber Community
@@ -87,8 +72,6 @@ Unofficial Austrian Beat Saber discord that just recently opened doors for every
 Official (private) Belgian Beat Saber Community for our fellow Belgian Beat Saber players
 
 [Application Form](https://forms.gle/26VXi4HmnZnDoPZN7)
-
----
 
 ### Denmark
 
@@ -99,8 +82,6 @@ International players welcome too!
 
 [Discord](https://discord.gg/QNzRMukPSP)
 
----
-
 ### Finland
 
 #### Tahti Sapeli
@@ -108,8 +89,6 @@ International players welcome too!
 Finnish Beat Saber community, everyone welcome!
 
 [Discord](https://discord.gg/qCtX7yBv7J)
-
----
 
 ### France
 
@@ -119,8 +98,6 @@ Discord server for the French Beat Saber community.
 
 [Discord](https://discord.gg/8cAAa7J)
 
----
-
 ### Germany
 
 #### German Beat Saber Community
@@ -128,8 +105,6 @@ Discord server for the French Beat Saber community.
 German Beat Saber Community, JOIN US NOW! We have Magician! 😎
 
 [Discord](https://discord.gg/NkYn6tkvMh)
-
----
 
 ### Italy
 
@@ -139,8 +114,6 @@ A chill and accessible place for Italian players to hang around and meet each ot
 
 [Discord](https://discord.gg/asdJZ7cTxe)
 
----
-
 ### Russia
 
 #### Beato Saba
@@ -149,8 +122,6 @@ Community for Russian speaking players
 
 [Discord](https://discord.gg/5JXRY8z)
 
----
-
 ### Spain
 
 #### Beat Saber España
@@ -158,8 +129,6 @@ Community for Russian speaking players
 Discord server for the Spanish Beat Saber community, people from other countries are welcome too :D
 
 [Discord](https://discord.com/invite/x6mChxk)
-
----
 
 ### Sweden
 
@@ -170,8 +139,6 @@ The official Swedish discord, right here!
 
 [Discord](https://discord.gg/9HavEGBzZz)
 
----
-
 ### The Netherlands
 
 #### Dutch Beat Saber Group
@@ -181,8 +148,6 @@ Compare your ScoreSaber profile with other players using their custom BeatSaber 
 
 [Discord](https://discord.gg/sDa7xrE)
 
----
-
 ### UK
 
 #### British Beat Saber Discord
@@ -190,8 +155,6 @@ Compare your ScoreSaber profile with other players using their custom BeatSaber 
 We have tea!
 
 [Discord](https://discord.gg/FC2pzeN)
-
----
 
 ### Norway
 
@@ -201,8 +164,6 @@ We are a small community based in the relatively small country of Norway.
 We want to have an accepting community of people from all countries with the use of our bot made by Rocker!
 
 [Discord](https://discord.gg/nZuY3yM)
-
----
 
 ### Ireland
 

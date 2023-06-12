@@ -6,13 +6,9 @@ description: Check out these lists of other Beat Saber communities around the in
 
 Check out these lists of other Beat Saber communities around the internet!
 
----
-
 ## [Community Hub](./community-hub.md)
 
 The Community Hub is a list of public Beat Saber focused communities.
-
----
 
 ## [Regional Hub](./regional-hub.md)
 
