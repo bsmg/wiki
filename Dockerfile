@@ -3,6 +3,7 @@ FROM node:18-alpine AS builder
 
 # Create app directory
 RUN apk add --no-cache git
+RUN npm i -g npm
 WORKDIR /usr/app
 
 # Install app dependencies
