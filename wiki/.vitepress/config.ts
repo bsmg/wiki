@@ -46,6 +46,7 @@ const sidebar = (
 export default defineConfig({
   title: 'BSMG Wiki',
   description: 'BSMG Wiki',
+  lastUpdated: true,
 
   head: [['link', { rel: 'icon', href: '/icon.png' }]],
 
