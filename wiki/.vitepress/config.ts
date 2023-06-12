@@ -45,6 +45,7 @@ const sidebar = (
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'BSMG Wiki',
+  description: 'BSMG Wiki',
 
   head: [['link', { rel: 'icon', href: '/icon.png' }]],
 
