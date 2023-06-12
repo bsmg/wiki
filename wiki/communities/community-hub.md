@@ -81,14 +81,6 @@ A League-style tournament for Beat Saber!
 
 ---
 
-## Beat Saber Legacy Group
-Welcome to the Beat Saber Legacy Group! Here we come together to relive the old days of Beat Saber by creating assets, mods,
-and tools to enhance your experience of Beat Saber! You can even downgrade your version here along with full mod support!
-
-[Discord](https://discord.gg/MrwMx5e) | [Website](https://bslegacy.com/)
-
----
-
 ## BeatSaver
 The BeatSaver discord provides a centralized location for site support, content reports, bug reports, and developer
 discussions related to the main repository of custom maps.
