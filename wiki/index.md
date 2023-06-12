@@ -1,55 +1,48 @@
 ---
-home: true
-heroText: BSMG Wiki
-tagline: Welcome to the Beat Saber Modding Group Wiki!
-description: Welcome to the Beat Saber Modding Group Wiki!
-actions:
-  - text: Beginners Guide →
-    link: ./beginners-guide.md
-    type: secondary
-footer: Copyright © 2019-2022 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
+layout: home
 
-tags:
-  - bsmg
-  - beat saber
-  - modding
-  - wiki
-  - support
-  - help
-  - how are beat maps make?
+hero:
+  text: BSMG Wiki
+  tagline: Welcome to the Beat Saber Modding Group Wiki!
+  description: Welcome to the Beat Saber Modding Group Wiki!
+
+  actions:
+    - theme: brand
+      text: Beginners Guide
+      link: ./beginners-guide.md
+    - theme: alt
+      text: Edit on GitHub
+      link: https://github.com/bsmg/wiki
 ---
 
-<!-- markdownlint-disable MD041 -->
-<!-- markdownlint-disable MD033 -->
-<div class='features'>
+<script setup lang="ts">
+  import Home from './.vitepress/components/Home.vue'
+  import HomeGroup from './.vitepress/components/HomeGroup.vue'
+  import HomeItem from './.vitepress/components/HomeItem.vue'
+</script>
 
-::: feature Getting Started
+<Home>
+  <HomeGroup title="Getting Started">
+    <HomeItem name="PC Modding" href="./pc-modding.html" />
+    <HomeItem name="Quest Modding" href="./quest-modding.html" />
+    <HomeItem name="Common Problems" href="./support/" />
+    <HomeItem name="Grips and Tricks" href="./grips-and-tricks.html" />
+    <HomeItem name="Ranking and Scoring Guide" href="./ranking-guide.html" />
+  </HomeGroup>
 
-- [PC Modding](./pc-modding.md)
-- [Quest Modding](./quest-modding.md)
-- [Common Problems](./support/)
-- [Grips and Tricks](./grips-and-tricks.md)
-- [Ranking & Scoring Guide](./ranking-guide.md)
-  :::
+  <HomeGroup title="Creating Content">
+    <HomeItem name="Modder's Guide" href="./modding/" />
+    <HomeItem name="Mapper Resources" href="./mapping/" />
+    <HomeItem name="3D Models Guide" href="./models//" />
+  </HomeGroup>
 
-::: feature Creating new Content
-
-- [Modder's Guide](/modding/)
-- [Mapper Resources](/mapping/)
-- [3D Models Guide](/models/)
-  :::
-
-::: feature Other Resources
-
-- [About Us](/about/)
-- [Health and Safety](./health-and-safety.md)
-- [Frequently Asked Questions](/faq/)
-- [Communities](/communities/)
-  :::
-
-</div>
-
----
+  <HomeGroup title="Other Resources">
+    <HomeItem name="About Us" href="./about/" />
+    <HomeItem name="Health and Safety" href="./health-and-safety.html" />
+    <HomeItem name="Frequently Asked Questions" href="./faq/" />
+    <HomeItem name="Communities" href="./communities/" />
+  </HomeGroup>
+</Home>
 
 <h2 class='noborder'>External Links</h2>
 <!-- markdownlint-enable MD033 -->
