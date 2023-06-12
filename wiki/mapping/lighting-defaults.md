@@ -4,11 +4,9 @@ next: false
 description: A list of the default color palettes used in each environment.
 ---
 
-# Environment Default Colors
+# Default Environment Colors
 
 _A list of the default color palettes used in each environment._
-
----
 
 ## Current Colors
 
