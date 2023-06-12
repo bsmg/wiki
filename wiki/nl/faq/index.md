@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Veel Gestelde Vragen
 
 ## Ik heb zojuist het spel gekocht, hoe begin ik?

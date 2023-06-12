@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Installatie Map
 
 _Waar is Beat Saber geïnstalleerd?_

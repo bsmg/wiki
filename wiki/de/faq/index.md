@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Häufig gestellte Fragen
 
 ## Ich habe das Spiel gerade bekommen, wie kann ich loslegen?

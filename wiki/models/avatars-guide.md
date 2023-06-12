@@ -1,7 +1,6 @@
 ---
-sidebar: auto
-prev: ./sabers-guide.md
-next: ./platforms-guide.md
+prev: false
+next: false
 description: Assistant's Guide to adding Full Body Avatars to Beat Saber!
 ---
 

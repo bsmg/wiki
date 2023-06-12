@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 description: Starte in die richtige Richtung!
 ---
 

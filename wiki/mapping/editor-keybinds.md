@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 description: The list of keyboard shortcuts for modern community editors!
 ---
 

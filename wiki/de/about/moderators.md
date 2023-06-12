@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Moderatoren
 
 Mit so riesigen Servern wird einiges an Moderation benötigt, damit nichts aus dem Ruder läuft. Du kannst diesem Team dafür danken, dass alles sauber bleibt.

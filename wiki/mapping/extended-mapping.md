@@ -1,6 +1,5 @@
 ---
-sidebar: auto
-prev: ./intermediate-mapping.md
+prev: false
 next: false
 tags:
   - Noodle Extensions

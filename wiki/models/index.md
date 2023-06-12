@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 description: Installation, Usage, and Creation Guides for Model Mods!
 ---
 

@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 description: Voici d'autres communautés Beat Saber à connaître sur Internet !
 ---
 
@@ -6,13 +8,9 @@ description: Voici d'autres communautés Beat Saber à connaître sur Internet !
 
 Voici d'autres communautés Beat Saber à connaître sur Internet !
 
----
-
 ## [Hub communautaire](./community-hub.md)
 
 Le hub communautaire est une liste de communautés publiques axées sur Beat Saber.
-
----
 
 ## [Hub régional](./regional-hub.md)
 

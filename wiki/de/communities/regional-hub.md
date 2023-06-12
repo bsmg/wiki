@@ -1,18 +1,15 @@
 ---
-sidebar: auto
+prev: false
+next: false
 ---
 
 # Regionales Zentrum
 
 Eine Liste von anderen Communities außerhalb der Beat Saber Modding Group.
 
----
-
 ## Afrika
 
 _Bisher keine._
-
----
 
 ## Amerika
 
@@ -24,8 +21,6 @@ Der offizielle Discord für die kanadische Beat Saber Community!
 
 [Discord](https://discord.gg/vvq7wX3)
 
----
-
 ## Asien
 
 ### Beat Saber Asia
@@ -33,8 +28,6 @@ Der offizielle Discord für die kanadische Beat Saber Community!
 Community für asiatische Spieler und VR Organisationen. Wir haben eine begrenzte Anzahl für internationale Mitglieder abhängig von unserer Servergröße.
 
 [Bewerben](https://forms.gle/Ga3jWoCkugPBD6BZ6)
-
----
 
 ### Israel
 
@@ -44,8 +37,6 @@ Ein Server, der gemacht wurde um israelische Beat Saber Spieler zusammenzubringe
 
 [Discord](https://discord.gg/HHH7sK8)
 
----
-
 ### Korea
 
 #### B.S. Community für KOR
@@ -54,8 +45,6 @@ Eine Gemeinschaft von koreanischen Spielern :) Informationsaustausch und Problem
 
 [Discord](https://discord.gg/SEFBZrG)
 
----
-
 ### Mittlerer Osten
 
 #### Beat Saber Middle East
@@ -63,8 +52,6 @@ Eine Gemeinschaft von koreanischen Spielern :) Informationsaustausch und Problem
 Ein privater Discord für die Saber Beater aus / im Nahen Osten
 
 [Bewerbungsformular](http://bit.ly/BSME_Application)
-
----
 
 ## Europa
 
@@ -76,8 +63,6 @@ Inoffizieller österreichischer Beat Saber Discord, der erst kürzlich seine Pfo
 
 [Discord](https://discord.gg/TvRkNY2)
 
----
-
 ### Belgien
 
 #### Belgian Beat Saber Community
@@ -85,8 +70,6 @@ Inoffizieller österreichischer Beat Saber Discord, der erst kürzlich seine Pfo
 Offizielle (Privater) Belgische Beat Saber Community für unsere belgischen Beat Saber Mitspieler
 
 [Bewerbungsformular](https://forms.gle/26VXi4HmnZnDoPZN7)
-
----
 
 ### Dänemark
 
@@ -96,8 +79,6 @@ Offizieller Beat Saber Server für Leute, die "rød grød med fløde" ausspreche
 
 [Bewerbungsformular](https://forms.gle/AhgBFSK7RnRDDMHa9)
 
----
-
 ### Frankreich
 
 #### Beat Saber FR
@@ -105,8 +86,6 @@ Offizieller Beat Saber Server für Leute, die "rød grød med fløde" ausspreche
 Private französische Beat Saber Community für französischsprachige Spieler!
 
 [Discord](https://discord.gg/8cAAa7J)
-
----
 
 ### Deutschland
 
@@ -116,8 +95,6 @@ Offizieller Deutscher Beat Saber Discord für deutsche Spieler, aber auch Leute 
 
 [Discord](https://discord.gg/y4G6ruN)
 
----
-
 ### Niederlande
 
 #### Dutch Beat Saber Group
@@ -125,8 +102,6 @@ Offizieller Deutscher Beat Saber Discord für deutsche Spieler, aber auch Leute 
 Die Dutch Beat Saber Group bietet Multiplayer, Filmnächte, VRChat Nächte und mehr! Vergleiche dein ScoreSaber Profil mit dem anderer Spieler, die ihren eigenen Beat Saber Bot verwenden.
 
 [Discord](https://discord.gg/sDa7xrE)
-
----
 
 ### Schweden
 
@@ -137,8 +112,6 @@ Der offizielle schwedische Discord, genau hier!
 
 [Discord](https://discord.gg/9HavEGBzZz)
 
----
-
 ### Schweiz
 
 #### SwissSaber
@@ -146,8 +119,6 @@ Der offizielle schwedische Discord, genau hier!
 Offizieller Schweizer Beat Saber Discord für Spieler aus der Schweiz, aber auch Leute aus anderen Ländern sind willkommen.
 
 [Discord](https://discord.gg/eV6SUUF)
-
----
 
 ### Vereinigtes Königreich
 
@@ -157,8 +128,6 @@ Wir haben Tee!
 
 [Discord](https://discord.gg/FC2pzeN)
 
----
-
 ### Norwegen
 
 #### Beat Saber Norge
@@ -167,8 +136,6 @@ Wir sind eine kleine Gemeinde mit Sitz im relativ kleinen Land Norwegen. Wir wol
 
 [Discord](https://discord.gg/nZuY3yM)
 
----
-
 ### Irland
 
 #### Beat Saber Ireland
@@ -176,8 +143,6 @@ Wir sind eine kleine Gemeinde mit Sitz im relativ kleinen Land Norwegen. Wir wol
 Discord Server für die Irische Beat Saber Community. Es sind auch internationale Spieler willkommen!
 
 [Discord](https://discord.gg/uKQzjRQ)
-
----
 
 ## Ozeanien
 

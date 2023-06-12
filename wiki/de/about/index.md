@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Über uns
 
 Hast du dich schon mal gefragt, wer deine Lieblings Mods oder den Mod-Installer erstellt hat? Diese Seite erzählt dir ein bisschen über einige der Wichtigsten Beat Saber Modding Community Mitwirkenden. Diese Community würde nicht existieren ohne das Blut, Schweiß und Tränen dieser erstaunlichen Freiwilligen.

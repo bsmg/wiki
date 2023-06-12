@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 description: A list of other communities outside of the Beat Saber Modding Group
 ---
 

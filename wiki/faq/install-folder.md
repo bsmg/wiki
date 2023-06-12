@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Install Folder
 
 _Where is Beat Saber installed?_

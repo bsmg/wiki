@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Créer des mods
 
 ## Injection de mods

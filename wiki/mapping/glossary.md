@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 description: The dictionary of most mapping lingo.
 ---
 

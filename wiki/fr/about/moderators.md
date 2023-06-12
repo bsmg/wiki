@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Moderators
 
 Avec un serveur aussi vaste, énormément de modération est nécessaire pour faire respecter l'ordre. Vous pouvez remercier cette équipe pour garder les rues propres.

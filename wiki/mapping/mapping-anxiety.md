@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 tags:
   - mental health
   - beat saber mapping

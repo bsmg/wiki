@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 description: Get Started in the Right Direction!
 ---
 

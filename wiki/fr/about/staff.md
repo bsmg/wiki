@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Staff
 
 _Que ce soit la gestion des projets, la validation des extensions, la gestion des services principaux, la coordination d'évènements, ou bien d'autres projets secrets, il y a toujours beaucoup de travail à faire. La communauté n'existerait pas sans ces indénombrables heures de contributions fournies par ces individus géniaux, alors, s'il-vous-plaît, offrez-leur une ovation virtuelle (et aidez à payer les services si vous pouvez...)._

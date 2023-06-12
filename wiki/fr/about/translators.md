@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Traducteurs
 
 Les personnes ayant travaillé dur pour traduire le contenu du wiki dans leur langue. Un grand merci pour votre temps ! Les personnes mentionnées sur cette pages sont ceux ayant contribué aux langues actuellement disponibles sur le wiki.

@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Installationspfad
 
 _Wo ist Beat Saber installiert?_

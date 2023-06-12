@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Translators
 
 The hardworking people who took the time to translate the wiki content into their own languages. A heartfelt thank you

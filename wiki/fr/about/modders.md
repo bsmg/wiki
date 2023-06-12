@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Moddeurs
 
 Nous nous assurons que nos jeux apparaissent tels que nous voulons qu'ils soient, une extension à la fois.

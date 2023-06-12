@@ -1,7 +1,6 @@
 ---
-sidebar: auto
-prev: ./platforms-guide.md
-next: ./notes-guide.md
+prev: false
+next: false
 description: Kylonのベイクしたライティングのガイド
 ---
 

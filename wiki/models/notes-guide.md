@@ -1,6 +1,6 @@
 ---
-sidebar: auto
-prev: ./platforms-guide.md
+prev: false
+next: false
 description: Bobbie's guide to making Custom Notes!
 ---
 

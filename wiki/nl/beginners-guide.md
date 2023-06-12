@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 description: Ga aan de slag in de juiste richting!
 ---
 

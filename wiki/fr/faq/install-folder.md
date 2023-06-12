@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Dossier d'installation
 
 _Où est donc installé Beat Saber ?_

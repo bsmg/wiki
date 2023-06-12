@@ -1,6 +1,6 @@
 ---
-sidebar: auto
-prev: ./basic-lighting.md
+prev: false
+next: false
 description: A list of the default color palettes used in each environment.
 ---
 

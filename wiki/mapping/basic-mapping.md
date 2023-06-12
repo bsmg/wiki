@@ -1,7 +1,6 @@
 ---
-sidebar: auto
-prev: ./basic-audio.md
-next: ./intermediate-mapping.md
+prev: false
+next: false
 description: Learn all the info and best practices you need to make a solid first map!
 ---
 

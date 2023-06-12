@@ -1,7 +1,6 @@
 ---
-sidebar: auto
-prev: ./basic-lighting.md
-next: ./advanced-lighting.md
+prev: false
+next: false
 description: Learn about taking your lighting to the next level!
 ---
 

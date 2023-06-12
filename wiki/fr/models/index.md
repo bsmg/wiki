@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 description: Installation, utilisation, et guides de créations de modèles
 ---
 

@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Custom Walls
 
 ## Installation

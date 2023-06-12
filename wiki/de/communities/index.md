@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 description: Schau dir diese Listen anderer Beat Saber Communities im Internet an!
 ---
 
@@ -6,13 +8,9 @@ description: Schau dir diese Listen anderer Beat Saber Communities im Internet a
 
 Schau dir diese Listen anderer Beat Saber Communities im Internet an!
 
----
-
 ## [Community-Zentrum](./community-hub.md)
 
 Das Community-Zentrum ist eine Liste von öffentlichen Beat Saber fokussierten Communities.
-
----
 
 ## [Regional-Zentrum](./regional-hub.md)
 

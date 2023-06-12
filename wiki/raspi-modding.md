@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 ---
 
 # Quest Modding with a Raspberry Pi

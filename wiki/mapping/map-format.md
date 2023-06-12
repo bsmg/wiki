@@ -1,6 +1,5 @@
 ---
-sidebar: auto
-prev: ./intermediate-mapping.md
+prev: false
 next: false
 description: Take a deep dive into the format for a Beat Saber map.
 ---

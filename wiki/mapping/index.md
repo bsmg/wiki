@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 tags:
   - bsmg
   - beat saber

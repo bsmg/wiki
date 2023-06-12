@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 description: Check out these lists of other Beat Saber communities around the internet!
 ---
 

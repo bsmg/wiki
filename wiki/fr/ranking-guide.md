@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 ---
 
 # Guide du classement et du score

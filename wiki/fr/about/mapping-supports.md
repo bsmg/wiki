@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Mapping Supports
 
 Le rôle Mapping Support est un symbole de remerciement. Merci aux milliers de messages envoyés dans le canal de discussion sur le mapping et le temps passé à construire et maintenir les ressources sur le mapping pour aider les personnes à apprendre à faire des maps. Nous ne distribuons pas ce rôle à tout va, mais quand nous le faisons c'est que quelqu'un a énormément donné de soi-même pour le serveur.

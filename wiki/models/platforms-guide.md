@@ -1,7 +1,6 @@
 ---
-sidebar: auto
-prev: ./avatars-guide.md
-next: ./notes-guide.md
+prev: false
+next: false
 description: Emma's Guide to making Custom Platforms!
 ---
 

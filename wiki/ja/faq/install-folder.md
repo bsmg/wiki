@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # インストール フォルダ:
 
 _Beat Saber はどこにインストールされていますか？_

@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Supports
 
 Le rôle Support est un symbole de remerciement. Merci pour les milliers de messages envoyés dans les canaux de soutien aux personnes en difficulté avec leurs mods, et pour construire une base de connaissance pour le dépannage à travers des macros et le wiki. Nous ne distribuons pas ce rôle à tout va, mais quand nous le faisons c'est que quelqu'un a énormément donné de soi-même pour le serveur.

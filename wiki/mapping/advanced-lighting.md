@@ -1,7 +1,6 @@
 ---
-sidebar: auto
-prev: ./intermediate-lighting.md
-next: ./extended-lighting.md
+prev: false
+next: false
 description: Learn about taking your lighting up to 11.
 ---
 

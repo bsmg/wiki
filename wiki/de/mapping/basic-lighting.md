@@ -1,7 +1,6 @@
 ---
-sidebar: auto
-prev: ./basic-mapping.md
-next: ./intermediate-lighting.md
+prev: false
+next: false
 description: Lerne, wie du deine Map manuell zum leuchten bringen kannst!
 ---
 

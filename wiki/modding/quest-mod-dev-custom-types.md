@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 description: Learn how to create C# macros for your Quest Mod!
 ---
 

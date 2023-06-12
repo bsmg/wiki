@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Artistes 3D
 
 Des sabres aux notes, les modèles personnalisés ont toujours été un aspect populaire du modding Beat Saber, ce qui ne serait pas possible sans eux.

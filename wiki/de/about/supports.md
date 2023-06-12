@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Supporter
 
 _Die Support-Rolle ist ein Symbol des Dankes. Danke für die tausenden von Nachrichten und hunderten von Stunden die damit verbracht wurden, Leuten beim Sortieren ihrer Mods zu helfen und für den Aufbau eines Wissens über die Fehlerbehebungsbasis durch Makros und das Wiki. Normalerweise vergeben wir diese Rolle nicht. Aber wenn wir es tun, dann weil jemand für den Server über sich hinausgewachsen ist._

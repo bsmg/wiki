@@ -1,7 +1,6 @@
 ---
-sidebar: auto
-prev: ./basic-mapping.md
-next: ./extended-mapping.md
+prev: false
+next: false
 description: A more in-depth look at many mapping topics to take your maps to the next level!
 ---
 

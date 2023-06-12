@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Staff
 
 _Egal ob es um Projekt Management, Plugin Freigabe, Verwaltung von Kern Services, Event Koordination oder viele andere geheime Projekte geht, es gibt immer viel zu tun. Die Community würde nicht existieren ohne die zahllosen Stunden dieser unglaublichen Individuen, also bitte geben ihnen eine Virtuelle Runde Applaus (und helfe für die Services zu zahlen wenn du kannst)._

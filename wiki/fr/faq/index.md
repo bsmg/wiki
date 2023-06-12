@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Foire aux Questions
 
 ## Je viens d'acheter le jeu, que dois-je faire ?

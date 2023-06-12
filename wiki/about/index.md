@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # About Us
 
 Ever wonder who made your favorite mod or created the mod installer? This page tells you a little bit about some of the

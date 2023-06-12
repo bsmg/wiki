@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 ---
 
 # 持ち方とコツ

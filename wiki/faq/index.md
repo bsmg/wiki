@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Frequently Asked Questions
 
 ## I just got the game, how do I get started?

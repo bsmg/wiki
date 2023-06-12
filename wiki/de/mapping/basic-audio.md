@@ -1,7 +1,6 @@
 ---
-sidebar: auto
 prev: false
-next: ./advanced-audio.md
+next: false
 description: Wie du deine Audiodatei einrichtest und für das Mapping vorbereitest.
 ---
 

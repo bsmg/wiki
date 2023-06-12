@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Mapping Supports
 
 The Mapping Support role is a symbol of thanks. Thanks for the thousands of messages sent in the mapping discussion

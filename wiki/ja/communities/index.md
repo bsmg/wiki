@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 description: インターネット上にある他のBeat Saberコミュニティの一覧をチェックしてみてください。
 ---
 
@@ -6,13 +8,9 @@ description: インターネット上にある他のBeat Saberコミュニティ
 
 インターネット上にある他の Beat Saber コミュニティの一覧をチェックしてみてください。
 
----
-
 ## [コミュニティハブ](./community-hub.md)
 
 コミュニティハブは Beat Saber に焦点を当てたコミュニティのリストです。
-
----
 
 ## [各地域のハブ](./regional-hub.md)
 

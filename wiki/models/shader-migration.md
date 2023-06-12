@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 description: Bobbie's Guide to migrating shaders on Beat Saber models!
 ---
 

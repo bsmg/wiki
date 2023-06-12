@@ -1,20 +1,17 @@
 ---
-sidebar: auto
+prev: false
+next: false
 ---
 
 # Community-Zentrum
 
 Eine Liste von anderen Communities außerhalb der Beat Saber Modding Group.
 
----
-
 ## 115 Guild
 
 Eine Community für alle Diskussionen und Veranstaltungen rund um das Thema Accuracy. Egal, ob du deine Fähigkeiten zeigen und vergleichen willst oder du dich verbessern und lernen willst, jeder ist willkommen! Wir haben auch eine Accuracy Kampagne zum Verdienen von Rängen auf dem Server. Wie weit kommst du?
 
 [Discord](https://discord.gg/j8m8cxr)
-
----
 
 ## BeatKhana
 
@@ -28,15 +25,11 @@ Wir sind BeatKhana, eine Beat Saber Community die sich darauf konzentriert Turni
 
 [Discord](https://discord.gg/5NjfSAC)
 
----
-
 ## Beat Saber Commissions
 
 Du hast ein Modell, eine Map oder einen Mod, den du gerne fertiggestellt hättest? Hier kannst du dich mit Fachleuten in Verbindung setzen.
 
 [Discord](https://discord.gg/e4f3WBBVnr)
-
----
 
 ## Beat Saber Events
 
@@ -44,15 +37,11 @@ Ein Ort zum Planen, Posten, Diskutieren und Erhalten von Benachrichtigungen für
 
 [Discord](https://discord.gg/q92brWG)
 
----
-
 ## Beat Saber League
 
 Ein Turnier im Liga-Stil für Beat Saber!
 
 [Discord](https://discord.gg/rNmazdz) | [Website](https://beatsaberleague.com/)
-
----
 
 ## BeatTogether Community
 
@@ -60,15 +49,11 @@ Community für den BeatTogether Mod. Dieser Mod erlaubt Crossplay zwischen PC Pl
 
 [Discord](https://discord.com/invite/gezGrFG4tz)
 
----
-
 ## Cube Community
 
 Beat Saber Gameplay-Spotlights, Scoring Guides, Clip-Compilations, Community-Events und mehr!
 
 [Discord](https://discord.gg/dwe8mbC) | [YouTube](https://youtube.com/CubeCommunity)
-
----
 
 ## KPOP Beat Saber
 
@@ -76,23 +61,17 @@ Hi! Wir sind eine kleine Community, die sich der Zuordnung von Songs für Beat S
 
 [Discord](https://discord.gg/c9uHGYP)
 
----
-
 ## ScoreSaber
 
 Benutzerdefinierte Rangliste und Globales Ranking!
 
 [Discord](https://discord.gg/WpuDMwU) | [Twitter](https://twitter.com/scoresaber)
 
----
-
 ## Qosmetics Community
 
 Qosmetics Community ist eine Community, die sich auf die Bereitstellung von Custom-Modellen, einschließlich Sabern, Bloqs und Walls auf die Suche macht! Wir sind bestrebt, die Community der Quest Custom Content auf eine ganz neue Ebene zu erweitern und zu verbessern. Komm und spielen auf deiner Art!
 
 [Discord](https://discord.gg/NXnPYEh)
-
----
 
 ## QuestBoard
 

@@ -1,6 +1,5 @@
 ---
-sidebar: auto
-prev: ./basic-audio.md
+prev: false
 next: false
 description: Tauche tiefer in die Audio-Bearbeitung ein.
 ---

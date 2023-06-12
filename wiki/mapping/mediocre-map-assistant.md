@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 description: Essential information to get up and running using Mediocre Map Assistant 2
 
 tags:

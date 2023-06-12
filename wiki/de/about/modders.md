@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Modder
 
 Stellen sicher, dass unsere Spiele so aussehen wie wir sie haben wollen. Ein Plugin nach dem anderen.

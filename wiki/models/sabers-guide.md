@@ -1,6 +1,6 @@
 ---
-sidebar: auto
-next: ./avatars-guide.md
+prev: false
+next: false
 description: MissRaynor's guide to making Custom Sabers!
 ---
 

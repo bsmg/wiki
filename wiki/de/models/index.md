@@ -1,4 +1,6 @@
 ---
+prev: false
+next: false
 description: Installation, Verwendung und Erstellungsanleitung für Modelle!
 ---
 

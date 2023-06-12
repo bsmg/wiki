@@ -1,6 +1,6 @@
 ---
-sidebar: auto
-next: ./avatars-guide.md
+prev: false
+next: false
 description: MissRaynors Anleitung zum Erstellen von Custom Sabern!
 ---
 

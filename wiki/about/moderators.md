@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Moderators
 
 With a server so large, a lot of moderation is required to keep everything under control.

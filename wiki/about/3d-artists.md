@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # 3D Artists
 
 From sabers to notes, custom models have always been a popular aspect of

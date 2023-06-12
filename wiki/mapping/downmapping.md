@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 tags:
   - full spread
   - lower difficulties

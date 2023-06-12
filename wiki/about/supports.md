@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Supports
 
 _The Support role is a symbol of thanks. Thanks for the thousands of messages and hundreds of hours spent helping people

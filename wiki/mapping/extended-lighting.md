@@ -1,6 +1,5 @@
 ---
-sidebar: auto
-prev: ./advanced-lighting.md
+prev: false
 next: false
 description: Go beyond vanilla lighting.
 ---

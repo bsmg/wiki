@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # 3D Artists
 
 Von Sabern zu Noten, eigene Modelle waren immer ein beliebter Aspekt von gemoddetem Beat Saber, was ohne sie nicht möglich wäre.

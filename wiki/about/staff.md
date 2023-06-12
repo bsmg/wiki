@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Staff
 
 _Whether it comes to project management, plugin/mod approval, managing the core services, event coordination, or many of

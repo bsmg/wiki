@@ -1,6 +1,5 @@
 ---
-sidebar: auto
-prev: ./intermediate-lighting.md
+prev: false
 next: false
 description: Erfahre, wie du deine Beleuchtung auf 11 erhöhen kannst.
 ---
