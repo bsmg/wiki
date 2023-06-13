@@ -135,8 +135,8 @@ ModインストーラはModをインストールするための推奨方法で�
 ゲームを購入した方法によって手順が異なります。
 
 * [Oculus ストア](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)
-* Steam版にはダウングレードする方法がいくつかあります。 これら2つは [BSLG](https://discord.gg/MrwMx5e) でサポートされています。
-  * [BSLegacyLauncher](https://www.youtube.com/watch?v=qjNU5aENHRU)
+* Steam版にはダウングレードする方法がいくつかあります。
+  * [BSManager](https://github.com/Zagrios/bs-manager#readme)
   * [LegacyInstaller](https://github.com/Goobwabber/LegacyInstaller#readme)
 
 ## Modをアンインストールする方法
