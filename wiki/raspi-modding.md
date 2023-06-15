@@ -104,7 +104,7 @@ In order to download and install QAVS, run the following commands:
 1. Download QAVS from the Official Release Page:
 
 ```bash
-wget https://github.com/ComputerElite/QuestAppVersionSwitcher/releases/download/1.13.20/com.ComputerElite.questappversionswitcher-Signed.apk
+wget https://github.com/ComputerElite/QuestAppVersionSwitcher/releases/latest/download/com.ComputerElite.questappversionswitcher-Signed.apk
 ```
 
 2. Make sure the file was successfully downloaded by running `ls`.
