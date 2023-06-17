@@ -186,6 +186,14 @@ Contributor to the beatsaber hooks used in quest modding and assists with creati
 
 **Roles:** Modder
 
+## Millzy
+The starter of projects that never get finished. The creator of that one mod with the rainbow frogs, ThinSaberCore and Slogans.
+
+**Roles:** Modder
+**Contributions:** ThinSaberCore, Slogans, BetterSongSearch (Quest), Tweakaroo
+
+[Github](https://github.com/MillzyDev) | [Ko-Fi](https://ko-fi.com/millzy)
+
 ## monkeymanboy
 monkey
 
@@ -193,6 +201,7 @@ monkey
 **Contributions:** Perfection Display, Custom Campaign, CustomUI
 
 [GitHub](https://github.com/monkeymanboy) | [Twitch](https://www.twitch.tv/monkeymanboy) | [Donate](https://ko-fi.com/monkeymanboy)
+
 
 ## Moon
 Does a lot of work with community plugins, like the BS Community Discord event plugins and the Christmas contest voting mod!
