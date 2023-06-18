@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 defineProps<{
   name: string
   href: string
@@ -7,7 +6,9 @@ defineProps<{
 </script>
 
 <template>
-  <li><a :href="href">{{ name }}</a></li>
+  <li>
+    <a :href="href">{{ name }}</a>
+  </li>
 </template>
 
 <style scoped>
