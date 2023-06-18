@@ -15,10 +15,14 @@ hero:
       link: https://github.com/bsmg/wiki
 ---
 
+<!-- markdownlint-disable-file MD033 -->
+<!-- markdownlint-disable MD041 -->
+
 <script setup lang="ts">
   import Home from './.vitepress/components/Home.vue'
   import HomeGroup from './.vitepress/components/HomeGroup.vue'
   import HomeItem from './.vitepress/components/HomeItem.vue'
+  import HomeLinks from './.vitepress/components/HomeLinks.vue'
 </script>
 
 <Home>
@@ -44,8 +48,7 @@ hero:
   </HomeGroup>
 </Home>
 
-<h2 class='noborder'>External Links</h2>
-<!-- markdownlint-enable MD033 -->
+<HomeLinks>
 
 - [Join the Discord server!](https://discord.gg/beatsabermods)
 - [Contact Us](https://bsmg.dev/contact) - Offer your skills, sponsor us, appeal a server mute/ban, report a user, etc.
@@ -72,3 +75,5 @@ hero:
 - [Contribution Page](https://docs.google.com/document/d/1r6IP6l3uo8rc__GxfLkpaToxheeXotdYaKEj3oWB2js/edit?usp=sharing) -
   A how-to guide on contributing to the wiki.
 - [Apply to Help Translate the Wiki!](https://forms.gle/e3BqA3poMjESARe76) - Localize the wiki to your language!
+
+</HomeLinks>
