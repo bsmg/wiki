@@ -8,6 +8,7 @@ import Theme from 'vitepress/theme'
 import YouTube from '../components/YouTube.vue'
 
 import './style.css'
+import './custom.css'
 
 export default {
   ...Theme,
