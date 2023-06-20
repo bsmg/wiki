@@ -735,7 +735,7 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of EDN environment](~@images/mapping/edm_env.jpg)
+![Image of EDM environment](~@images/mapping/edm_env.jpg)
 
 </td><td>
 
@@ -756,7 +756,7 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of TheSecond environment](~@images/mapping/the-second_env.jpg)
+![Image of The Second environment](~@images/mapping/the-second_env.jpg)
 
 </td><td>
 
@@ -851,7 +851,7 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Dragons2 environment](~@images/mapping/dragons2_env.jpg)
+![Image of Dragons 2 environment](~@images/mapping/dragons2_env.jpg)
 
 </td><td>
 
@@ -871,7 +871,7 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Panic2 environment](~@images/mapping/panic2_env.jpg)
+![Image of Panic 2 environment](~@images/mapping/panic2_env.jpg)
 
 </td><td>
 
