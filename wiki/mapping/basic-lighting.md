@@ -706,6 +706,8 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
+![Image of Pyro environment](~@images/mapping/pyro_env.jpg)
+
 </td><td>
 
 **Fall Out Boy Environment**<br />
@@ -733,6 +735,8 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
+![Image of EDN environment](~@images/mapping/edm_env.jpg)
+
 </td><td>
 
 **EDM Environment**<br />
@@ -751,6 +755,8 @@ what you set it.
 
 </td></tr>
 <tr><td style="text-align: center;">
+
+![Image of TheSecond environment](~@images/mapping/the-second_env.jpg)
 
 </td><td>
 
@@ -771,6 +777,8 @@ what you set it.
 
 </td></tr>
 <tr><td style="text-align: center;">
+
+![Image of Lizzo environment](~@images/mapping/lizzo_env.jpg)
 
 </td><td>
 
@@ -793,6 +801,8 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
+![Image of The Weeknd environment](~@images/mapping/the-weeknd_env.jpg)
+
 </td><td>
 
 **The Weeknd Environment**<br />
@@ -814,6 +824,8 @@ what you set it.
 
 </td></tr>
 <tr><td style="text-align: center;">
+
+![Image of Rock Mixtape environment](~@images/mapping/rock-mixtape_env.jpg)
 
 </td><td>
 
@@ -839,6 +851,8 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
+![Image of Dragons2 environment](~@images/mapping/dragons2_env.jpg)
+
 </td><td>
 
 **Imagine Dragons Environment 2**<br />
@@ -856,6 +870,8 @@ what you set it.
 
 </td></tr>
 <tr><td style="text-align: center;">
+
+![Image of Panic2 environment](~@images/mapping/panic2_env.jpg)
 
 </td><td>
 
