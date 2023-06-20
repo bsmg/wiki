@@ -186,6 +186,9 @@ See [General Keybinds: Basic](#basic) for changing edit precision and
 | Jump to beat |            |                          |          J |
 
 ### Useful Tricks
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD013 -->
+
 |                      |                 ChroMapper                |        Official Editor        |   Mediocre Map Assistant 2  | Beatmapper |
 |----------------------|:-----------------------------------------:|:-----------------------------:|:---------------------------:|:----------:|
 |               Strobe | See [Strobe Generator](#strobe-generator) |                               |                     W/A/D+S |            |
@@ -194,6 +197,8 @@ See [General Keybinds: Basic](#basic) for changing edit precision and
 |  Color strobe toggle | See [Strobe Generator](#strobe-generator) |                               |                          F2 |            |
 | No-off strobe toggle | See [Strobe Generator](#strobe-generator) |                               |                          F3 |            |
 |    Quick group setup |                                           | Shift + Left Click "+" Button |                             |            |
+
+<!-- markdownlint-restore -->
 
 ### Chroma
 |                 |        ChroMapper        | Mediocre Map Assistant 2 | Beatmapper |
