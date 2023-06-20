@@ -113,6 +113,15 @@ Events in v3 must reside in groups. Each group can contain one or more
 lanes, each lane controlling one or more segments, on which events are
 placed.
 
+The Official Editor features two views: the top view in which all groups
+for all objects are visible, and the group view showing individual events
+in a single group. The group view is entered by clicking a group, and can
+be exited by pressing <kbd>Esc</kbd>.
+
+A group defaults to controlling all lights at once. If you want to
+control individual lights, you can simply hold <kbd>Shift</kbd> and
+click the `+` button near the top right menu.
+
 Light events in v3 are mostly identical to those of v2, with a few
 changes and additions. Firstly, the intensity of a light is no longer
 limited to 120 maximum, and can go above it. Another is the addition of
