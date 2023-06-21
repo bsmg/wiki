@@ -116,13 +116,6 @@ Pepega
 
 **Roles:** Mapper, Moderator
 
-## 𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯 (Retired)
-Poi!
-
-**Roles:** 3D Artists, Support, Moderator
-
-[Twitch](https://www.twitch.tv/br3uker)
-
 ## joelseph (Retired)
 \+ joelseph
 
