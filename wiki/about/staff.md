@@ -47,15 +47,15 @@ on this wiki and ChroMapper, a soon to be released mapping software with Chroma 
 
 **Roles:** Staff, Moderator, Support
 
-## lolPants
-One hell of a developer and a lover of socks. lolPants laid the groundwork for many of the policies and procedures during
+## Lulu
+One hell of a developer and a lover of socks. They laid the groundwork for many of the policies and procedures during
 their time as Staff, and continues to help out when their services are needed.
 
-**Roles:** Modder, Admin, Staff, Moderator  
+**Roles:** Admin, Staff, Moderator, Modder  
 **Contributions** CMB, ModSaber, Moderation, BeatSaver Reloaded
 
-[GitHub](https://github.com/lolPants) | [Twitch](https://twitch.tv/lolpants_) | [PayPal](https://www.paypal.me/jackbarondev)
-| [Ko-fi](https://ko-fi.com/lolpants) | [Patreon](https://www.patreon.com/JackBaron) | [Donate](https://monzo.me/jackbaron)
+[GitHub](https://github.com/luludotdev) | [Twitch](https://twitch.tv/lulu_dev) | [PayPal](https://www.paypal.me/jackbarondev)
+| [Ko-fi](https://ko-fi.com/lolpants) | [Donate](https://monzo.me/jackbaron)
 
 ## Megalon
 Co-creator of the BSMG as well as Channel Monitor Bot. He's known for his creative stream overlays and amazing ASMR voice.
