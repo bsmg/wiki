@@ -47,6 +47,13 @@ on this wiki and ChroMapper, a soon to be released mapping software with Chroma 
 
 **Roles:** Staff, Moderator, Support
 
+## 𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯
+The embodiment of poi! Message for poi related questions.
+
+**Roles:** Staff, Moderator
+
+[Twitch](https://www.twitch.tv/br3uker)
+
 ## lolPants
 One hell of a developer and a lover of socks. lolPants laid the groundwork for many of the policies and procedures during
 their time as Staff, and continues to help out when their services are needed.
