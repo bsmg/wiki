@@ -47,7 +47,7 @@ on this wiki and ChroMapper, a soon to be released mapping software with Chroma 
 
 **Roles:** Staff, Moderator, Support
 
-## 𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯 (Retired)
+## 𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯
 The embodiment of poi! Message for poi related questions.
 
 **Roles:** Staff, Moderator
