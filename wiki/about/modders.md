@@ -202,7 +202,6 @@ monkey
 
 [GitHub](https://github.com/monkeymanboy) | [Twitch](https://www.twitch.tv/monkeymanboy) | [Donate](https://ko-fi.com/monkeymanboy)
 
-
 ## Moon
 Does a lot of work with community plugins, like the BS Community Discord event plugins and the Christmas contest voting mod!
 
