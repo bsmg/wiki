@@ -113,6 +113,15 @@ Events in v3 must reside in groups. Each group can contain one or more
 lanes, each lane controlling one or more segments, on which events are
 placed.
 
+The Official Editor features two views: the top view in which all groups
+for all objects are visible, and the group view showing individual events
+in a single group. The group view is entered by clicking a group, and can
+be exited by pressing <kbd>Esc</kbd>.
+
+A group defaults to controlling all lights at once. If you want to
+control individual lights, you can simply hold <kbd>Shift</kbd> and
+click the `+` button near the top right menu.
+
 Light events in v3 are mostly identical to those of v2, with a few
 changes and additions. Firstly, the intensity of a light is no longer
 limited to 120 maximum, and can go above it. Another is the addition of
@@ -706,6 +715,8 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
+![Image of Pyro environment](~@images/mapping/pyro_env.jpg)
+
 </td><td>
 
 **Fall Out Boy Environment**<br />
@@ -733,6 +744,8 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
+![Image of EDM environment](~@images/mapping/edm_env.jpg)
+
 </td><td>
 
 **EDM Environment**<br />
@@ -751,6 +764,8 @@ what you set it.
 
 </td></tr>
 <tr><td style="text-align: center;">
+
+![Image of The Second environment](~@images/mapping/the-second_env.jpg)
 
 </td><td>
 
@@ -772,17 +787,30 @@ what you set it.
 </td></tr>
 <tr><td style="text-align: center;">
 
+![Image of Lizzo environment](~@images/mapping/lizzo_env.jpg)
+
 </td><td>
 
 **Lizzo Environment**<br />
 **Info.dat Name:** `LizzoEnvironment`<br />
 **Default Colors:** Yellow & Purple notes, Yellow & Purple lights, Pink & Blue boost lights
 
-**GLS objects:** :white_check_mark:<br />
-**Spectrum:** :x:
+**Lights:** Top square, rainbow rings, runway, ambient lights, signs<br />
+**Triggers:** Balloon particles<br />
+**Value controls:** :x:<br />
+**GLS objects:** Floor (light), top lasers (light & rotation), side
+  lasers (light & rotation), rainbow (light), rainbow lasers (light
+  & rotation), rainbow rings (rotation), ring lasers (light), stands
+  (light), stand lasers (light & rotation), clouds (light) <br />
+**Spectrum:** :x:<br />
+**Note:** Rainbow lights have a color associated with each arc. The
+  color of a rainbow light can only be white or that of its associated
+  color.
 
 </td></tr>
 <tr><td style="text-align: center;">
+
+![Image of The Weeknd environment](~@images/mapping/the-weeknd_env.jpg)
 
 </td><td>
 
@@ -790,11 +818,23 @@ what you set it.
 **Info.dat Name:** `TheWeekndEnvironment`<br />
 **Default Colors:** Red & Dark Blue notes, Red & Blue lights, Yellow & Sky Blue boost lights
 
-**GLS objects:** :white_check_mark:<br />
-**Spectrum:** :x:
+**Lights:** Runway, ambient lights<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Building windows (light), center ring (light, rotation
+  & translation), center ring lasers (light & rotation), lane markings
+  (light), arrows (light & translation), side lasers (light, rotation &
+  translation), poles (light & translation), side rings (light, rotation
+  & translation), building height (translation), roof (light), far
+  buildings (light), side buildings (translation)<br />
+**Spectrum:** :x:<br />
+**Note:** Side rings have two sets of translations, one for a set of
+  rings as a whole and one for individual rings in a set.
 
 </td></tr>
 <tr><td style="text-align: center;">
+
+![Image of Rock Mixtape environment](~@images/mapping/rock-mixtape_env.jpg)
 
 </td><td>
 
@@ -802,11 +842,25 @@ what you set it.
 **Info.dat Name:** `RockMixtapeEnvironment`<br />
 **Default Colors:** Yellow & White notes, Red & Yellow lights, Magenta & Cyan boost lights
 
-**GLS objects:** :white_check_mark:<br />
-**Spectrum:** :white_check_mark:
+**Lights:** Aurora, ambient lights, back bloom<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Mountains (light), Rock God arms (light, rotation,
+  translation), Rock God face (light, translation), runway strings
+  (light), runway frets (light), runway dots (light), spectrogram
+  (light), tunnel (light & translation), spikes (light, rotation &
+  translation), side lasers (light, rotation & translation), back
+  lasers (light, rotation & translation), screens (light, rotation
+  & translation)<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** Side lasers have two objects for light and rotation but
+  only one for translation. Screens have two sets of rotation and
+  translation.
 
 </td></tr>
 <tr><td style="text-align: center;">
+
+![Image of Dragons 2 environment](~@images/mapping/dragons2_env.jpg)
 
 </td><td>
 
@@ -814,11 +868,19 @@ what you set it.
 **Info.dat Name:** `Dragons2Environment`<br />
 **Default Colors:** Yellow & Green notes, Green & Blue lights, Red & Yellow boost lights
 
-**GLS objects:** :white_check_mark:<br />
+**Lights:** Floor lasers, chevron, ambient lights<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Inner ring (light, rotation & translation), outer ring
+  (light, rotation & translation), lasers (light & rotation), spotlights
+  (light & rotation), runway lights (light), particles (light), floor
+  tiles (translation)<br />
 **Spectrum:** :white_check_mark:
 
 </td></tr>
 <tr><td style="text-align: center;">
+
+![Image of Panic 2 environment](~@images/mapping/panic2_env.jpg)
 
 </td><td>
 
@@ -826,8 +888,16 @@ what you set it.
 **Info.dat Name:** `Panic2Environment`<br />
 **Default Colors:** Pink & Dark Green notes, Pink & Cyan lights, Orange & Purple boost lights
 
-**GLS objects:** :white_check_mark:<br />
-**Spectrum:** :white_check_mark:
+**Lights:** Ambient lights<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Side & center cones (light, rotation & translation),
+  inner ring (light, rotation & translation), lasers (light, rotation &
+  translation), side runway lights (light & translation), inner runway
+  lights (light), spectrogram (light), back windows (light)<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** Two sets of rotation and translation exist for cones and
+the inner ring.
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -844,14 +914,14 @@ boost lights
 **Lights:** Ambient lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Silhouette<br />
-**GLS objects:** Tunnel lights (light, rotation & translation), silhouette
-(light & translation), back lasers (light & rotation), top lasers (light &
-rotation), runway lights (light & translation), vinyl discs (light, rotation
-& translation)<br />
+**GLS objects:** Tunnel lights (light, rotation & translation),
+  silhouette (light & translation), back lasers (light & rotation),
+  top lasers (light & rotation), runway lights (light & translation),
+  vinyl discs (light, rotation & translation)<br />
 **Spectrum:** :x:<br />
 **Note:** Extra objects control rotation & translation of the back lasers as
-a whole, rotation of top lasers as a whole and rotation of individual vinyl
-rings.
+  a whole, rotation of top lasers as a whole and rotation of individual vinyl
+  rings.
 
 </td></tr>
 </tbody>
@@ -960,6 +1030,8 @@ how your map might look in game without the game. Just upload your map zip to th
 **IOS and Safari are currently not supported.**
 
 ## Credits
-Content in this section was authored by [LittleAsi](./mapping-credits.md#littleasi) and [Kolezan](./mapping-credits.md#kolezan)
-or derived from guides by [Puds](./mapping-credits.md#puds) and [MandyNasty](./mapping-credits.md#mandynasty). With visual
-media contributions from [Aeroluna](./mapping-credits.md#aeroluna) and [Bullet](./mapping-credits.md#bullet).
+Content in this section was authored by [LittleAsi](./mapping-credits.md#littleasi),
+[Kolezan](./mapping-credits.md#kolezan) and [McEndu](./mapping-credits.md#mcendu)
+or derived from guides by [Puds](./mapping-credits.md#puds) and
+[MandyNasty](./mapping-credits.md#mandynasty). With visual media contributions
+from [Aeroluna](./mapping-credits.md#aeroluna) and [Bullet](./mapping-credits.md#bullet).

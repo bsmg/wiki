@@ -298,13 +298,13 @@ Lighting can range from very basic to incredibly detailed using additional mods 
 Learn the various aspects to lighting your map manually
 
 ### [**Intermediate Lighting**](./intermediate-lighting.md)
-Take your lighting skills a bit further into strobing, ring spins, and contrast practices
+Master more environments and get into strobing, ring spins and contrast practices
 
 ### [**Advanced Lighting**](./advanced-lighting.md)
-Advanced and nuanced techniques.
+Advanced and nuanced techniques
 
 ### [**Extended Lighting**](./extended-lighting.md)
-Lighting for custom platforms and Chroma RGB.
+Lighting for custom platforms and Chroma RGB
 
 ### Automated Lights
 Not ready to make your own lighting? Here are some programs to do it for you. Keep in mind, creating simple manual lighting

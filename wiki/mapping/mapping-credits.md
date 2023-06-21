@@ -116,7 +116,8 @@ Wrote various guides on lighting that was integrated into [Basic Lighting](./bas
 
 ## McEndu
 Contributed sections on v3 lighting in [Basic Lighting](./basic-lighting.md) and
-[Intermediate Lighting](./intermediate-lighting.md)
+[Intermediate Lighting](./intermediate-lighting.md).  
+[BeatSaver](https://beatsaver.com/profile/143440)
 
 ## Megalon
 Co-creator of the BSMG as well as Channel Monitor Bot. He's known for his creative stream overlays and amazing ASMR voice.

@@ -66,6 +66,8 @@ which this wiki page is based off of, is also available but is out of date.
 |         Note Actions |                            |                             |                                          |   Alt+LClick |
 |     Change Direction | Alt+Scroll Wheel over Note |                 Alt+W/A/S/D |                    Alt+W/A/S/D over Note |              |
 |           Swap Color |               Middle Mouse |                             |                             Middle Mouse | Middle Mouse |
+|    Change Link Count |                 Alt+Scroll |                  Alt+Scroll |                                          |              |
+|  Change Chain Length |               Shift+Scroll |             Ctrl+Alt+Scroll |                                          |              |
 
 <!-- markdownlint-restore -->
 
@@ -145,10 +147,14 @@ See [General Keybinds: Basic](#basic) for changing edit precision and
 |         Exit Group |                 Esc |
 |       Delete Group |   Ctrl+Middle Mouse |
 
-### Group Lighting System Lights
+### Group Lighting System Group-level
 |                 | Official Editor |
 |-----------------|:---------------:|
 | Extension Event |               4 |
+
+### Group Lighting System Lights
+|                 | Official Editor |
+|-----------------|:---------------:|
 |      Strobe Off |               R |
 |          Strobe |               F |
 
@@ -158,7 +164,6 @@ See [General Keybinds: Basic](#basic) for changing edit precision and
 | Counterclockwise |                            1 |
 |        Clockwise |                            3 |
 |    Auto Rotation |                            2 |
-|  Extension Event |                            4 |
 |           0&deg; |                            W |
 |          45&deg; |                            E |
 |          90&deg; |                            D |
@@ -180,14 +185,20 @@ See [General Keybinds: Basic](#basic) for changing edit precision and
 |--------------|:----------:|:------------------------:|:----------:|
 | Jump to beat |            |                          |          J |
 
-### Advanced Lighting
-|                      |                 ChroMapper                |   Mediocre Map Assistant 2  | Beatmapper |
-|----------------------|:-----------------------------------------:|:---------------------------:|:----------:|
-|               Strobe | See [Strobe Generator](#strobe-generator) |                     W/A/D+S |            |
-|                 Loop |                                           |                             |          L |
-|   Change laser speed |               Alt+Scroll over Laser Speed | Alt+Scroll over Laser Speed |            |
-|  Color strobe toggle | See [Strobe Generator](#strobe-generator) |                          F2 |            |
-| No-off strobe toggle | See [Strobe Generator](#strobe-generator) |                          F3 |            |
+### Useful Tricks
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD013 -->
+
+|                      |                 ChroMapper                |        Official Editor        |   Mediocre Map Assistant 2  | Beatmapper |
+|----------------------|:-----------------------------------------:|:-----------------------------:|:---------------------------:|:----------:|
+|               Strobe | See [Strobe Generator](#strobe-generator) |                               |                     W/A/D+S |            |
+|                 Loop |                                           |                               |                             |          L |
+|   Change laser speed |               Alt+Scroll over Laser Speed |                               | Alt+Scroll over Laser Speed |            |
+|  Color strobe toggle | See [Strobe Generator](#strobe-generator) |                               |                          F2 |            |
+| No-off strobe toggle | See [Strobe Generator](#strobe-generator) |                               |                          F3 |            |
+|    Quick group setup |                                           | Shift + Left Click "+" Button |                             |            |
+
+<!-- markdownlint-restore -->
 
 ### Chroma
 |                 |        ChroMapper        | Mediocre Map Assistant 2 | Beatmapper |
@@ -220,5 +231,5 @@ way to JSON edit your map.
 
 ## Credits
 Content in this section was authored by [The Good Boi](./mapping-credits.md#the-good-boi),
-[Caeden117](./mapping-credits.md#caeden117), and [Bloodcloak](./mapping-credits.md#bloodcloak).
-Idea by [Helen Carnate](./mapping-credits.md#helen-carnate).
+[Caeden117](./mapping-credits.md#caeden117), [Bloodcloak](./mapping-credits.md#bloodcloak)
+and [McEndu](./mapping-credits.md#mcendu). Idea by [Helen Carnate](./mapping-credits.md#helen-carnate).
