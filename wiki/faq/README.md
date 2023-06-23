@@ -11,7 +11,9 @@ If you download maps manually from BeatSaver, extract them into a folder and pla
 This is the directory that the game natively reads custom maps from.
 
 ### BeastSaber
-[Beast Saber](https://www.bsaber.com) is a review site that aims to curate all of the songs on BeatSaver.
+[Beast Saber](https://www.bsaber.com) is the home of the map curation team and annual mapping awards, BeastSaber aims
+to be a community hub to connect you to the more specialized areas of the community!
+
 You can also download playlists, follow mappers, find songs using advanced sorting methods and more.
 
 ### Song Management Tools
@@ -35,11 +37,20 @@ Then you can either:
 You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
 
 ### Quest
-You can use [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) to manage the playlists
-on your Quest. Note that a custom level can only appear once in-game due to a limitation with BMBF.
+Drag the `.bplist` or `.json` playlist file into the BMBF upload tab. A confirmation message that your playlist has been
+installed should appear. You can then sync the playlist into your game by pressing the
+`Sync to Beat Saber` button.
+
+Once in game after custom levels has been loaded, a prompt from PlaylistCore to apply the
+playlist settings from BMBF should appear. After you accept the prompt, you should see the playlist next to the Custom
+Levels album's in game. Managing installed playlists can be done in-game or in the BMBF `Playlists` tab.
 
 :::warning WARNING for Quest Users
-Reloading your Custom Songs Folder resets all playlist organization.
+Using the in game or manual playlist management methods can cause BMBF and PlaylistCore to be out of sync!
+
+If you added or modified a playlist manually or in-game, you have to select the `Reload Playlists Folder`
+button in BMBF’s `Tools` tab to sync changes. Otherwise, BMBF will override your settings with an outdated copy the
+next time you sync your playlists through BMBF.
 :::
 
 ## How do I make my own custom levels?
