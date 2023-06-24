@@ -40,14 +40,14 @@ being a WAVE file and the bottom graph being an OGG file export of the same WAVE
 How to spot low quality:
 
 - The biggest difference between the two graphs is the frequency cut off at the top of the graph of the lossy format.
-  This is a common technique for lossy formats to save on data as these high frequencies aren’t as important for the overall
+  This is a common technique for lossy formats to save on data as these high frequencies aren't as important for the overall
   sound reproduction. This is also because the human hearing range, which spans from 20hz to 20khz at birth, can be affected
   by [noise-induced hearing loss](https://en.wikipedia.org/wiki/Noise-induced_hearing_loss) and/or [age](https://en.wikipedia.org/wiki/Presbycusis)
   which leads some people to lose hearing in frequencies above 15khz gradually with time. So it saves data by not using these
   freqencies, something an unaware listener wouldn't notice anyway.
 - More importantly, if you look more closely at the frequencies in the audible spectrum (20hz to 20khz) you can see that
   the top graph looks a lot smoother with good gradients and dark blue areas (faint sounds) compared to the bottom graph
-  which is more jagged and doesn’t include much of the finer gradients, most faint blue areas are black here instead.
+  which is more jagged and doesn't include much of the finer gradients, most faint blue areas are black here instead.
 
 These two characteristics are what you can look for this when analysing your source sound files.
 For more info on spectrum analysis
@@ -67,9 +67,9 @@ To know what level is ideal for your song you can export your track with differe
 - High quality source (WAVE, FLAC or MP3/AAC@+200kbps): choose an OGG quality level between 9 to 6.
 - Low quality source (MP3 / AAC / OGG): choose an OGG quality level between 5 to 3.
 
-You can’t increase audio quality by saving a lossy track with a higher bitrate (e.g. saving a YouTube-sourced track with
+You can't increase audio quality by saving a lossy track with a higher bitrate (e.g. saving a YouTube-sourced track with
 level 10 quality), you will only bloat the file size. As explained in the previous chapter, information is lost when transcoding
-to any lossy format and thus can’t be restored. Transcoding one lossless format to another lossless format is fine though,
+to any lossy format and thus can't be restored. Transcoding one lossless format to another lossless format is fine though,
 e.g. FLAC to WAV(E).
 
 ## Explaining Audio Processing
@@ -156,12 +156,12 @@ More in-depth information about limiters [can be found here](https://www.practic
 
 ## Song Editing using Cross-fades
 
-When editing a shorter version of a song and a simple hard immediate cut between two similar sections of a song isn’t
-enough to convince your ears (usually the sections aren’t perfectly the same, usually in non-electronic music) then applying
+When editing a shorter version of a song and a simple hard immediate cut between two similar sections of a song isn't
+enough to convince your ears (usually the sections aren't perfectly the same, usually in non-electronic music) then applying
 a cross-fade between the sections usually helps. Any type of restructuring editing is easier in a DAW software that uses
 beat grid editing, but it is possible to do the same in the free software of Audacity as well, which we will show here.
 
-For those who don’t know, a cross-fade is when one audio track fades out while another simultaneously fades in. For the best
+For those who don't know, a cross-fade is when one audio track fades out while another simultaneously fades in. For the best
 results, find identical or near-identical sections on each end of the region you want to cut. Instrumental regions in electronic
 music are better suited than regions with vocals. **Using the smallest segment possible, particularly a small section between
 two peaks/beats, is better to convince a listener.**
@@ -212,7 +212,7 @@ Double click the fader to type in the number.
 
 ## Variable BPM
 
-If the song you’re trying to map has a tempo that doesn’t sync up with a fixed BPM (as in, even with BPM values with decimals),
+If the song you're trying to map has a tempo that doesn't sync up with a fixed BPM (as in, even with BPM values with decimals),
 such as (older) acoustic pop, rock or metal songs, they were most likely not recorded to a metronome and will thus not easily
 sync up to a fixed BPM in Audacity or the map editor. This takes a lot of time and patience, so make sure it's worth the
 extra effort as some solutions involve brute force by manually adjusting the BPM (tempo track) at intervals, sometimes every
@@ -228,8 +228,8 @@ There are several methods to go about handling variable BPM:
   - [Video tutorial by BennyDaBeast here](https://www.youtube.com/watch?v=6AwR4SeaiHU)  
     **NOTE:** Benny uses an older editor, Mediocre Mapper, in this tutorial. Some UI elements may have changed in the latest
     editor, [MMA2](./#mediocre-map-assistant-2) but, the rest of the content is great!
-- Use DAW software and find all the tempo changes using a tempo track editor. Use Jumps instead of Ramps as that’s how
-  MMA2 changes tempo. When you’ve found all the tempo changes input those into MMA2.
+- Use DAW software and find all the tempo changes using a tempo track editor. Use Jumps instead of Ramps as that's how
+  MMA2 changes tempo. When you've found all the tempo changes input those into MMA2.
   (Remember, DAW softwares usually displays measures and beats, but MMA2 only displays beats.)
 
 ### Warping with Reaper
@@ -255,7 +255,7 @@ Reducing the amount of BPM changes you will need to set in editor.
 This is a critical step! **You can ruin your audio if you do not set the initial BPM and Timebase settings correctly!**
 :::
 
-4. Turn off Snap To Grid. It’s the green magnet icon in the top left corner.
+4. Turn off Snap To Grid. It's the green magnet icon in the top left corner.
 5. Add your audio to the project. Insert > Media File, and find your song.
 6. Drag the whole audio track accordingly to prevent a hot start or too-long of an intro.
    - See [Basic Audio: Plan Your First Note](./basic-audio.md#plan-your-first-note) for more info.
@@ -294,7 +294,7 @@ Excessive warps could introduce artifacts or significantly alter the song that i
 There can be many hidden "gochas" when warping a song. Here are some things you might encounter and their possible solutions.
 
 - If you are warping the beats and notice that the drifting becomes larger and larger, you may want a tempo change so
-  that you don’t warp the audio as much. This might be caused by a BPM change in the song or some bands not caring about tempo.
+  that you don't warp the audio as much. This might be caused by a BPM change in the song or some bands not caring about tempo.
   1. Click where you want the tempo change to begin.
   2. <kbd>Shift + C</kbd> to add a tempo change.
   3. Edit the position of the change to be exactly on the start of the beat.
@@ -328,7 +328,7 @@ Once you are done editing your audio, you will want to render it as a `.ogg` fil
    However, principals outlined in [Basic Audio: Exporting](./basic-audio.md#exporting) still apply.
    - High quality source (WAVE / FLAC / MP3 / AAC) use 0.6-0.9 (unless there is a file size issue.)
    - Low quality source (YouTube or such): use 0.3-0.5
-6. Click the Render 1 file button. After some time, you’ll have an OGG file with nicely lined up beats!
+6. Click the Render 1 file button. After some time, you'll have an OGG file with nicely lined up beats!
 
 ![Audio Render/Export Settings](/.assets/images/mapping/reaperRenderAudio.png)
 

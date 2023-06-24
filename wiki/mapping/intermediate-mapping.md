@@ -11,7 +11,7 @@ _A more in-depth look at many mapping topics._
 Mapping is level design. Design is both an art and a science. There is no "best" answer, but there are many "wrong" answers.
 
 The [Basic Mapping](./basic-mapping.md) page is useful for learning what not to do as a new mapper. Once you have a bit of
-experience it’s time to take your understanding of mapping principles to the next level. Ultimately, the best way to learn
+experience it's time to take your understanding of mapping principles to the next level. Ultimately, the best way to learn
 to map is to simply keep at it.
 
 **Try. Adjust. Listen. Repeat.**
@@ -58,7 +58,7 @@ changes in music are core techniques of intermediate mapping.
    4. Varying the mapping appropriately when the music changes is also important. When a change in the music happens,
       the effect is a lot stronger when the change is reflected in the mapping.
 
-If you’d like to explore this more in depth, checkout [pishifat's video](https://www.youtube.com/watch?v=Z7IY0gDwSQo) on
+If you'd like to explore this more in depth, checkout [pishifat's video](https://www.youtube.com/watch?v=Z7IY0gDwSQo) on
 mapping variety in osu!. While it is an osu! video, the concepts translate over to Beat Saber mapping quite well.
 
 ## Emphasis
@@ -104,7 +104,7 @@ For more information check out the [Downmapping: NJS & Offset](./downmapping.md#
 ## Understanding Flow
 
 In [Basic Mapping](./basic-mapping.md#do-mapping-with-flow) we covered the bare essentials of parity.
-Now we’ll dig deeper and explore why some hits just feel bad.
+Now we'll dig deeper and explore why some hits just feel bad.
 
 This video demonstrates some more advanced concepts of parity: [YouTube](https://youtu.be/NF8ESZRXI1c)
 
@@ -167,8 +167,8 @@ a large offset to see them approaching.
 
 ### Arm Tangles
 
-Arm tangles happen when a pattern requires one arm to swing through another arm’s spot. Care must be taken to ensure that
-crossovers at risk of tangling are either kept above/below the other arm, or returned to their side before the other arm’s
+Arm tangles happen when a pattern requires one arm to swing through another arm's spot. Care must be taken to ensure that
+crossovers at risk of tangling are either kept above/below the other arm, or returned to their side before the other arm's
 next hit.
 
 Slower maps typically reward dancier and larger arm motions, causing arm tangles to have a stronger negative impact. On
@@ -222,7 +222,7 @@ Down movement is trickier as it is easier to do more harm than good.
 - Most players dislike crouch walls, be very selective when using them.
   - Crouch walls should be avoided when the jump distance is very short and NJS is high as they
     make even fully telegraphed crouch walls too fast to react to.
-- Keep them short, there’s rarely a good reason to have them longer than 1-2 beats.
+- Keep them short, there's rarely a good reason to have them longer than 1-2 beats.
 - If you are ending a crouch wall with notes just after, be extremely careful with what direction you start (up/down).
   - Starting down too quickly is uncomfortable and almost always unnecessary.
   - Starting up too late is also awkward.
@@ -365,7 +365,7 @@ Check out the [Downmapping](./downmapping.md) page for a deep dive into this pro
 ## Swing In a Song and How Shuffle Helps
 
 ::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via
+This is a stub section. If you'd like to contribute, submit suggestions via
 [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::
 

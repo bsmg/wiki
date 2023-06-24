@@ -8,13 +8,13 @@ tags:
   - 360 degree beat saber levels
   - 90 degree beat saber levels
 description: |
-  Now that you know the rules, it’s time to break them. 
+  Now that you know the rules, it's time to break them. 
   Learn more about Noodle and Mapping Extensions, 360/90 mapping, and Extended Characteristics!
 ---
 
 # Extended Mapping
 
-_Now that you know the rules, it’s time to break them._
+_Now that you know the rules, it's time to break them._
 
 - [Glossary of Terms](./glossary.md)
 
@@ -194,7 +194,7 @@ This is often used in tandem with [Precision Placement](#precision-placement).
 ### Wall Mapping
 
 ::: tip NOTE
-This is a stub section. If you’d like to contribute, submit suggestions via
+This is a stub section. If you'd like to contribute, submit suggestions via
 [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::
 
@@ -355,7 +355,7 @@ Two new "official" event types were introduced in v1.6.0 as part of the lighting
 - **Event Type 14 (Early Rotation):** Rotates spawn point at the same time as the notes/obstacle.
 - **Event Type 15 (Late Rotation):** Rotates spawn point while ignoring the notes/obstacles at the same time as the event.
 
-Each event has a value for spawn rotation which is always relative to the player’s current position:
+Each event has a value for spawn rotation which is always relative to the player's current position:
 
 - **[0]** 60° rotation counter-clockwise (Left)
 - **[1]** 45° rotation counter-clockwise (Left)
@@ -373,9 +373,9 @@ The chevron in the 360° [Glass Desert environment](./basic-lighting.md#environm
 the rotation event time, both 14 and 15. This is important as it guides the player where to face in gameplay.
 :::
 
-**Do not use spawn rotation events outside of 360°/90° mode.** While they will work, it’s highly recommended that mappers
+**Do not use spawn rotation events outside of 360°/90° mode.** While they will work, it's highly recommended that mappers
 not use this. Standard environments do not have a rotating chevron to indicate movement and the environment itself will
-block the player’s view.
+block the player's view.
 
 ### Editing 360°/90° Maps
 
@@ -396,7 +396,7 @@ ChroMapper, now in open Beta, natively supports 360°/90° mapping. See detailed
 
 #### Mediocre Map Assistant 2
 
-Be sure to create a new characteristic, "360Degree" or "90Degree". If it’s not available, you may need to create one
+Be sure to create a new characteristic, "360Degree" or "90Degree". If it's not available, you may need to create one
 by replacing existing characteristic or creating a new one.
 
 **Option 1:** Complete the map in the MMA2 then apply rotation events in the legacy official editor.
@@ -420,7 +420,7 @@ This mimics laser speed events as spawn rotation events given the value (see abo
 with an empty lighting event track to avoid mistakes. Lighting can be added once the laser speed events have been converted.
 
 To manually replace the values, open the difficulty file in any text editor and replace `"_type":12` or `"_type":13` with
-`"_type":14` or `"_type":15`. This should be the last step you do otherwise you’ll have to revert the event swaps every
+`"_type":14` or `"_type":15`. This should be the last step you do otherwise you'll have to revert the event swaps every
 time you have to make any changes in the editor. Always create backup in any case.
 
 ::: danger  
@@ -430,9 +430,9 @@ crashing the program or triggering weird behavior.
 
 #### JSON/DAT Editing
 
-If you’re feeling adventurous, rotation events can be manually edited into your `difficulty.dat` files. Just like with
+If you're feeling adventurous, rotation events can be manually edited into your `difficulty.dat` files. Just like with
 lighting events, this has to be sorted by time; otherwise the level will be broken.
-Use **+1 Rabbit’s** [Note Sorter](https://skystudioapps.com/mapping-tools#note-sorter) to fix your map before uploading.
+Use **+1 Rabbit's** [Note Sorter](https://skystudioapps.com/mapping-tools#note-sorter) to fix your map before uploading.
 
 ```json
 {
@@ -445,7 +445,7 @@ Use **+1 Rabbit’s** [Note Sorter](https://skystudioapps.com/mapping-tools#note
 ### 360°/90° Best Practices
 
 ::: tip NOTE
-360&deg;/90&deg; mapping is still new and these best practices continue to evolve. If you’d like to contribute, submit suggestions
+360&deg;/90&deg; mapping is still new and these best practices continue to evolve. If you'd like to contribute, submit suggestions
 via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform).
 :::
 
@@ -454,7 +454,7 @@ _Notes overlap, be aware of them. Image for reference (each note row is 1/4 apar
 
 #### DO'S
 
-- Keep the user’s field of view in mind. They can only see +/-15° with full vision and +/- 30° with peripheral vision.
+- Keep the user's field of view in mind. They can only see +/-15° with full vision and +/- 30° with peripheral vision.
 - Primarily use event 15 (late rotation). This allows you to direct the player where the next lane rotation is with the
   chevron after the next block hit.
 - Make use of both event 14 (early rotation) and 15 (late rotation):
@@ -473,25 +473,25 @@ _Notes overlap, be aware of them. Image for reference (each note row is 1/4 apar
 - Wide stream patterns help readability when using rotation events during streams.
 - Playtest your map way more frequently then mapping regularly
   - Using 1/3 precision, BPM changes, or editor offset can cause precision errors which lead to unintended results.
-  - NJS and offset value is important for readability. You’ll have to do plenty of adjustments to get the value that
+  - NJS and offset value is important for readability. You'll have to do plenty of adjustments to get the value that
     feels natural to read on different spawn rotations.
 - Give the player enough time to read/prepare where the next rotation will be.
   - Using both -15° and 15° on a section at the same time can be hard to read, especially at speed.
   - If you have the player to turn >30° rotation, give the player time to adjust and prepare for the next note.
-  - The more you place rotation events that go outside the player's FOV, the more disorienting it gets; it isn’t a bad
-    mapping practice but it’s something to be aware of.
+  - The more you place rotation events that go outside the player's FOV, the more disorienting it gets; it isn't a bad
+    mapping practice but it's something to be aware of.
 - Be sure to keep in mind where the player's cable will be. While full rotations are fine for Quest, rotating a headset
   with a cable can cause tangles, which can be a hazard. You can avoid this by spinning the player back around after a
   full rotation.
 
 #### DONT'S
 
-- Don’t force rotational movement on fast paced section. Players’ brains can only handle so much at once.
+- Don't force rotational movement on fast paced section. Players' brains can only handle so much at once.
 - Using rotation events too quickly (less than 1/2 a beat between events) or too often can be disorienting
   - Exception: E+ given plenty of playtesting or when using them for cosmetics such as walls or a chevron spin
 - Don't disembody notes too much,
 - Avoid using dodge wall or bombs that may interfere with the player motion
-- Don’t mix multi-lane with 360°/90° unless the extra lanes are dedicated to walls
+- Don't mix multi-lane with 360°/90° unless the extra lanes are dedicated to walls
 - Avoid using extreme single rotation events (+/- 45/60 degrees).
   Instead, consider using multiple 15 degree increments with walls to guide the player.
   - Exception: Plenty of time/warning on any difficulty
@@ -501,9 +501,9 @@ _Notes overlap, be aware of them. Image for reference (each note row is 1/4 apar
   - Exception: This technique can work ok on lower density (i.e., dancey) maps,
     though it will still need some adjustments to play well in 360°.
 - Middle row outer lane notes are most likely going to be a vision block.
-  - If you have a middle row block on the outer left lane and you’re rotating to the left, everything on the left will
+  - If you have a middle row block on the outer left lane and you're rotating to the left, everything on the left will
     be a vision blocked, and vice versa.
-  - You can have middle row block on the left outer lane and rotating to the right as it won’t be a vision block.
+  - You can have middle row block on the left outer lane and rotating to the right as it won't be a vision block.
 
 ## Credits
 

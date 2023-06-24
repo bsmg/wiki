@@ -26,7 +26,7 @@ obstacle, your multiplier will be cut in half.
 
 ### Scoring
 
-Scoring well in Beat Saber isn’t as simple as keeping a high combo and not missing notes, it is also determined by your
+Scoring well in Beat Saber isn't as simple as keeping a high combo and not missing notes, it is also determined by your
 score per block. The maximum score possible to achieve while slicing a block is **115** (without counting the score multiplier).
 While cutting a block, you must achieve the correct swing angles and you must slice it in the center to achieve the best
 score for that cut.
@@ -39,7 +39,7 @@ Here is how score is calculated for a cut:
 | Cutting in Half | 15 Points |
 
 This shows how important it is to do proper swings to get the right angles and the best score possible.
-Remember, it’s better to get a bad cut than a miss since a miss counts as **0 points** and breaks your combo.
+Remember, it's better to get a bad cut than a miss since a miss counts as **0 points** and breaks your combo.
 
 ### Hitboxes
 
@@ -56,7 +56,7 @@ the saber to maximize the angle and get the best cut possible.
 Accuracy is shown on the left after enabling the **Advanced HUD** option in the Player Settings. Accuracy is shown by a
 percentage and a letter. While the best "possible" accuracy is **100%**, it is practically impossible since it would require
 no combo break and 115 cuts on every block. Even then, accuracy is still a great way to measure performance on a map
-and one’s ability to score properly and avoid missing notes.
+and one's ability to score properly and avoid missing notes.
 Accuracy is calculated using information such as the scores per hit, the score multiplier and the amount of miss.
 
 Here is the connection between the letters and accuracy percentage:
@@ -80,7 +80,7 @@ Exact specifics vary between the systems but generally operate the same way
 ### Ranked / Unranked
 
 A lot of people (like I did) will spend dozens and dozens of hours without knowing the difference between ranked and
-unranked maps when they start. While a map being ranked doesn’t make it better for any reason, it’s great for new
+unranked maps when they start. While a map being ranked doesn't make it better for any reason, it's great for new
 players to learn what the difference is, especially if they ever decide to try ranking up.
 
 #### Ranked
@@ -133,7 +133,7 @@ After a map passes the one week waiting period, it will be ranked Friday 10am UT
 
 The PP system is probably one of the most misunderstood things when it comes to ranking in the game. Personally, I find
 it that people misunderstand it so often that I ended up writing a message about it and pinned it on the Beat Saber Canadian
-Discord so I wouldn’t need to explain it anymore, so here is "all" you need to know about it.
+Discord so I wouldn't need to explain it anymore, so here is "all" you need to know about it.
 
 ### How can I earn PP and how does the global ranking work?
 
@@ -208,9 +208,9 @@ amount of PP.
 ### How can I improve and get more PP?
 
 To improve your skills and position in the global rankings, there are quite a few tools you can use to find ranked
-songs that fit your skill level. First, it’s always good to go see your own
+songs that fit your skill level. First, it's always good to go see your own
 [ScoreSaber](https://scoresaber.com/global)/[BeatLeader](https://www.beatleader.xyz/ranking/1) profile to
-see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like.
+see songs that you haven't played in a while or that you could improve on and to know what your top scores look like.
 
 **ScoreSaber Addons:**
 
@@ -313,7 +313,7 @@ the community.
 
 ### Tips & tricks
 
-After all this time playing Beat Saber, I’ve hit many walls. Hitting a wall can be really annoying since it can take
+After all this time playing Beat Saber, I've hit many walls. Hitting a wall can be really annoying since it can take
 time to figure out what to do to keep improving. Here is a small list of tips to improve as a player.
 
 #### Challenge yourself
@@ -328,7 +328,7 @@ more will improve pattern recognition, condition your body, and build muscle mem
 
 #### Evaluate your own gameplay
 
-Recording yourself is great to see where you could improve, whichever it’s only your gameplay or it is with a webcam.
+Recording yourself is great to see where you could improve, whichever it's only your gameplay or it is with a webcam.
 Analyzing yourself play can be really useful to see your common mistakes. You can also watch your own replays by
 clicking the info icon next to your score in the leaderboard, then the button in the top right corner of the info card.
 
@@ -337,12 +337,12 @@ Note: Quest currently requires an additional mod to record and watch replays.
 #### Watch better players play and ask them tips
 
 If you have an opportunity, try to watch better players and use some of their techniques to improve. Copying everything
-about a pro player won’t make you one but can surely help you improve. Watch their replays and compare their movements
-to your own. Also if you ever have the opportunity, always ask for tips (just don’t be annoying or disrespectful).
+about a pro player won't make you one but can surely help you improve. Watch their replays and compare their movements
+to your own. Also if you ever have the opportunity, always ask for tips (just don't be annoying or disrespectful).
 
-#### Don’t overthink it
+#### Don't overthink it
 
-If you can’t finish a map or can’t achieve a higher score, don’t overthink it. I made the mistake of getting angry over
+If you can't finish a map or can't achieve a higher score, don't overthink it. I made the mistake of getting angry over
 this way too many times and it will create a mental wall. Simply play another song and come back to it another day.
 
 #### Practice hard patterns
@@ -358,9 +358,9 @@ This series help viewers understand how top Beat Saber plays are made and how th
 #### Have fun
 
 At the end of the day, this is a game. The important part is that you have fun and enjoy playing it. If you hate playing
-this "one ranked map that sucks but is worth so much PP", then simply don’t play it. Don’t try to force yourself to play
-songs you dislike and play however you want. It’s when you have fun that you’ll see the time fly by and you’ll improve
-the most. If you don’t care about rank, it’s all good, just have fun 🙂
+this "one ranked map that sucks but is worth so much PP", then simply don't play it. Don't try to force yourself to play
+songs you dislike and play however you want. It's when you have fun that you'll see the time fly by and you'll improve
+the most. If you don't care about rank, it's all good, just have fun 🙂
 
 ### Links
 

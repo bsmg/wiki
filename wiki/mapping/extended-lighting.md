@@ -80,8 +80,8 @@ Be sure to make a backup before using this as the new format does not function i
 
 ### How Chroma 1.0 Events Function
 
-Chroma events don’t do anything on its own. Chroma events function by acting as a light filter for future events essentially
-"dying" the normal lighting events to the specified color. In the following example, the orange and pink events don’t do
+Chroma events don't do anything on its own. Chroma events function by acting as a light filter for future events essentially
+"dying" the normal lighting events to the specified color. In the following example, the orange and pink events don't do
 anything until the vanilla blue fade event happens. This functions as an orange fade and then a pink fade.
 
 ::: align center
@@ -89,8 +89,8 @@ anything until the vanilla blue fade event happens. This functions as an orange 
 :::
 
 :::warning
-Do not place chroma events inside another event. It can cause issues when copy pasting and MMA2’s shoddy rounding can even
-place the chroma after the actual event and it won’t change colour. Completely avoid it. ~Halcyon12
+Do not place chroma events inside another event. It can cause issues when copy pasting and MMA2's shoddy rounding can even
+place the chroma after the actual event and it won't change colour. Completely avoid it. ~Halcyon12
 :::
 
 ### Gradients
@@ -102,7 +102,7 @@ How to place a gradient using Chroma events:
 3. Click on the starting point and again on the ending point (similar to placing a wall).
 
 Gradients using a 1/8 precision are fine enough to look smooth in game.
-(Using too many events or too high of a precision can impact the game’s performance)
+(Using too many events or too high of a precision can impact the game's performance)
 
 Remember that you still need to place the normal lighting events for the Chroma lights to function!
 

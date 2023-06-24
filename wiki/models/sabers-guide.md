@@ -15,7 +15,7 @@ to avoid any shader issues
 
 ## Intro
 
-Since people are still having trouble with making custom sabers, we think that it’s best to update our current tutorial.
+Since people are still having trouble with making custom sabers, we think that it's best to update our current tutorial.
 Thank you to angeliod0103 for making the previous guide. Additional contributions to this guide made by Bobbie and Mdot.
 
 ## Preparation
@@ -67,7 +67,7 @@ The current scene should contain a GameObject called `TemplateSaber`.
 
 ![Red circle around TemplateSaber](/.assets/images/models/sabers/06.png)
 
-If it’s your first time opening this project, the Unity viewport will be very far away from the saber.
+If it's your first time opening this project, the Unity viewport will be very far away from the saber.
 To see the template saber in the viewport, doubleclick on the `TemplateSaber` GameObject.
 
 Click both the `RightSaber` and `LeftSaber` GameObjects and make sure that they have an `Event Manager` component attached.
@@ -78,11 +78,11 @@ Now try exporting the Template Saber into your `CustomSabers` folder with the Sa
 
 ![Exporting TemplateSaber](/.assets/images/models/sabers/08.png)
 
-If the Template Saber appears and works properly ingame, setup is complete and you’re ready for the next part.
+If the Template Saber appears and works properly ingame, setup is complete and you're ready for the next part.
 
 ## Modeling
 
-I won’t go into detail about making a 3d model. If you don't have already have a model and want to learn how to make one,
+I won't go into detail about making a 3d model. If you don't have already have a model and want to learn how to make one,
 you can find tutorials here:
 
 ### Blender

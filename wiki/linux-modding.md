@@ -141,7 +141,7 @@ Make sure you have [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
 
 ### DLL Override
 
-Wine doesn’t use DLLs the same way Windows does, so you have to change a few things to make the IPA injection work.
+Wine doesn't use DLLs the same way Windows does, so you have to change a few things to make the IPA injection work.
 
 ::: danger DANGER
 Messing with registry files can be dangerous, make sure you don't touch anything besides what the guide tells you to.  

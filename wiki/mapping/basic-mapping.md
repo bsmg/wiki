@@ -16,7 +16,7 @@ This page will give you all the info and best practices you need to make a solid
 **Have you...**
 
 1. [x] [Downloaded Audacity](https://www.audacityteam.org/) and chosen a [map editor](./#map-editing-resources)?
-2. [x] [Set up your audio file](./basic-audio.md) to confirm your bpm and make sure you’ve got a good intro/outro?
+2. [x] [Set up your audio file](./basic-audio.md) to confirm your bpm and make sure you've got a good intro/outro?
 3. [x] [Exported](./basic-audio.md#exporting) your song file as an OGG?
 
 ::: tip Are all these things done?
@@ -42,7 +42,7 @@ Regardless of what editor you choose to map with, every map needs:
   (i.e., note placement, light placement, etc.). These files are automatically created by your editor.
 
 Some editors will automatically create an `Autosaves` folder where you can retrieve older copies of your work if needed.
-When you’re ready to prepare your song for upload you must have a minimum of four files.
+When you're ready to prepare your song for upload you must have a minimum of four files.
 
 ::: warning
 While Beat Saber has support for multiple languages (English, French, German, Spanish, Japanese, and Korean), special characters
@@ -64,9 +64,9 @@ Using these characters in song metadata or in bookmarks can cause problems.
 **A few notes about walls:**
 
 - Standard walls can be read by any headset and have the highest compatibility.
-  New mappers should stick with these until they’re a bit more experienced.
+  New mappers should stick with these until they're a bit more experienced.
 - There are a few types of "hack" walls that do not require mods: fast walls (fly by you fast),
-  hyper walls (fly by you SUPER fast), and fake walls (look like normal walls but don’t cause damage).
+  hyper walls (fly by you SUPER fast), and fake walls (look like normal walls but don't cause damage).
   - While these wall types are supported in community editors, they exploit base game mechanics and is not intended behaviour.
 - Read up more on base game walls in [Intermediate Mapping](./intermediate-mapping.md) and
   "fancy" mapping/noodle extensions walls in [Extended Mapping](./extended-mapping.md)
@@ -74,7 +74,7 @@ Using these characters in song metadata or in bookmarks can cause problems.
 **A few notes about bombs:**
 
 - Bomb hitboxes are smaller than block hitboxes, smaller even than the bomb model itself.
-- Bombs are hard to see when there are no lighting events active. Make sure your map isn’t dark when bombs are coming up.
+- Bombs are hard to see when there are no lighting events active. Make sure your map isn't dark when bombs are coming up.
   See [Basic Lighting](./basic-lighting.md) for more tips.
 - Bombs can still be hit once they have passed the player.
 
@@ -88,17 +88,17 @@ difficulty level.
 For more on row usage in different difficulties, see [Gauging Difficulty](#gauging-difficulty-down-mapping).
 
 ::: tip
-If you’re using [Mediocre Map Assistant 2](./mediocre-map-assistant.md) as your editor you can hit
+If you're using [Mediocre Map Assistant 2](./mediocre-map-assistant.md) as your editor you can hit
 <kbd>SHIFT</kbd>+<kbd>TAB</kbd> to open the error checker then click the <kbd>Stat Panel</kbd> button
 to see this breakdown.
 :::
 
 ## Timing & Rhythm
 
-Before you start mapping in earnest you need to think about the rhythm of the song you want to map. You’ll place blocks
+Before you start mapping in earnest you need to think about the rhythm of the song you want to map. You'll place blocks
 on one or more of the main instruments in the song: the drum beat, lead instrument, bass, synths, or even vocals.
 
-To place blocks in time with the rhythm you’ll need to change your cursor precision. Most (but not all) songs will use
+To place blocks in time with the rhythm you'll need to change your cursor precision. Most (but not all) songs will use
 1/1, 1/2, or 1/4 cursor precision to get on beat. Some songs may use "triplets" or 1/3 cursor precision which can be hard
 to tell from 1/4 to an inexperienced ear. You should not need to use less than 1/4 cursor precision for most songs
 _including_ mapping to vocals.
@@ -106,7 +106,7 @@ _including_ mapping to vocals.
 ::: warning  
 90% of the time, mapping with high precision (1/16, 1/32, or 1/64) will make your song mistimed. If you need high
 precision to get your notes to line up then you have an issue with your audio file setup. STOP and review
-[Basic Audio Setup](./basic-audio.md) to ensure you’re in sync!
+[Basic Audio Setup](./basic-audio.md) to ensure you're in sync!
 :::
 
 |                             1/1 Cursor Precision                              |                             1/2 Cursor Precision                              |                             1/3 Cursor Precision                              |                             1/4 Cursor Precision                              |
@@ -114,19 +114,19 @@ precision to get your notes to line up then you have an issue with your audio fi
 | ![1/1 Cursor precision screenshot](/.assets/images/mapping/1-1_precision.png) | ![1/2 Cursor precision screenshot](/.assets/images/mapping/1-2_precision.png) | ![1/3 Cursor precision screenshot](/.assets/images/mapping/1-3_precision.png) | ![1/4 Cursor precision screenshot](/.assets/images/mapping/1-4_precision.png) |
 |                               1 block per beat                                |                               2 blocks per beat                               |                               3 blocks per beat                               |                               4 blocks per beat                               |
 
-When timing out your map you’ll want to double check EARLY that the waveform in your editor is lined up with the major
+When timing out your map you'll want to double check EARLY that the waveform in your editor is lined up with the major
 lines of the editor track. If your waveform isn't lined up, revisit the [Basic Audio Setup](./basic-audio.md) page of
 the wiki for tips.
 
 ::: danger CAUTION  
-If your waveform isn’t lined up it will make it **very** difficult to place blocks in time with the music.
+If your waveform isn't lined up it will make it **very** difficult to place blocks in time with the music.
 Get this right before you start or risk remapping later!
 :::
 
 |                                   Audio Not Lined Up                                    |                                     Audio Properly Synced                                      |
 | :-------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
 | ![Editor view with audio not properly synced](/.assets/images/mapping/audio-broken.png) | ![Editor view with audio synced to the editor track](/.assets/images/mapping/audio-synced.png) |
-|                    Needs audio edits, start offset, or has wrong bpm                    |                                      You’re ready to map!                                      |
+|                    Needs audio edits, start offset, or has wrong bpm                    |                                      You're ready to map!                                      |
 
 ### Timing Notes
 
@@ -141,14 +141,14 @@ Not everyone uses timing notes but they can be a helpful way to ensure your maps
 ### Overmapping & Undermapping
 
 Deliberately place blocks that match the music. Don't place more blocks than necessary just for the sake of making the
-map difficult. Some songs were never meant to be super-dense ExpertPlus maps and that’s ok.
+map difficult. Some songs were never meant to be super-dense ExpertPlus maps and that's ok.
 
-- **Overmapping** is the (bad) practice of placing more blocks than there are sounds. Don’t do it.
+- **Overmapping** is the (bad) practice of placing more blocks than there are sounds. Don't do it.
 - **Undermapping** is the very acceptable practice of skipping some notes/beats (especially at lower difficulties).
 
 ### Emphasis & Consistency
 
-We’ll go into more detail on this in [Intermediate Mapping](./intermediate-mapping.md) but, as a new mapper you should
+We'll go into more detail on this in [Intermediate Mapping](./intermediate-mapping.md) but, as a new mapper you should
 understand at least the basic ideas of emphasis and consistency and how they impact your map.
 
 **Emphasis** is how much "weight" you give each hit.
@@ -182,7 +182,7 @@ of the most common issues that are covered in this section.
 
 ### Vision Blocks
 
-Vision blocks are any patterns that obscure the player’s vision and make it difficult to sight read a map, if not outright
+Vision blocks are any patterns that obscure the player's vision and make it difficult to sight read a map, if not outright
 uncomfortable. The primary cause of vision blocks is use of the middle two positions of the track.
 
 **Vision blocks can be avoided by:**
@@ -198,7 +198,7 @@ uncomfortable. The primary cause of vision blocks is use of the middle two posit
 |                         Ideal Block Placement                          |                    Vision Block Placement                     |
 | :--------------------------------------------------------------------: | :-----------------------------------------------------------: |
 |   ![No Vision Blocks](/.assets/images/mapping/no-vision-blocks.jpg)    |     ![Face Notes](/.assets/images/mapping/face-notes.jpg)     |
-| When you’re getting started, stick<br />to the perimeter of the track. | These are called face notes.<br />Avoid them as a new mapper. |
+| When you're getting started, stick<br />to the perimeter of the track. | These are called face notes.<br />Avoid them as a new mapper. |
 
 <!-- markdownlint-enable MD013 -->
 
@@ -225,7 +225,7 @@ swing downwards, then bring their hand back up to swing downwards again, which i
 the direction of every other block for better flow.
 
 Many new mappers use DDs to simulate the feel of drumming. While this _feels_ like it makes sense, drums have rebound
-when you hit them and imaginary computer blocks... don’t. The game is called Beat Saber, not Beat Drummer!
+when you hit them and imaginary computer blocks... don't. The game is called Beat Saber, not Beat Drummer!
 
 |                                Standard Flow                                 |                               Double Directionals                                |
 | :--------------------------------------------------------------------------: | :------------------------------------------------------------------------------: |
@@ -294,7 +294,7 @@ different grips and styles. Proper parity feels good for everyone, not just some
 
 ::: tip  
 When proper flow is achieved the player should be physically capable of getting full points on each block, even if they
-don’t have the skill or interest in doing so. See the [Scoring](/grips-and-tricks.md#scoring) section of the wiki for
+don't have the skill or interest in doing so. See the [Scoring](/grips-and-tricks.md#scoring) section of the wiki for
 more info.
 :::
 
@@ -308,11 +308,11 @@ more info.
 - The higher your note precision, the more you want to stick to 180° (up/down) and 135° (up/down/diagonal) patterns.
 - Larger angle changes should only be considered with enough time to play smoothy.
 - Make sure that you have the right setup (the pattern immediately before) and escape (the pattern immediately after)
-  for a comfortable swing at whatever speed you’re mapping.
+  for a comfortable swing at whatever speed you're mapping.
 - Be conscious of your timing, you can get away with more in slower BPM songs with the same note precision than you can
-  in high BPM songs. Map for the style of song you’ve selected.
+  in high BPM songs. Map for the style of song you've selected.
 
-### DON’T: Forbidden Patterns
+### DON'T: Forbidden Patterns
 
 These are called forbidden patterns for a reason. There is no reason in the world to use these because they're dangerous
 to either the player's hardware, the player's joints, or they go against the scoring system. You may have played maps
@@ -322,7 +322,7 @@ that included these but that doesn't make them ok.
 
 |                                Illustration                                 |                                  Editor View                                   | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | :-------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Illustration of a handclap](/.assets/images/mapping/controller-smash.png) | ![Editor view of a handclap](/.assets/images/mapping/controller-smash-alt.png) | Do not place blocks that point to each other in close proximity. This motion tells the player to smash their controllers together when playing for max points. Don’t do it, no exceptions.<br /><br />Note: Different VR sets have different controllers. Vive wands are much bigger than Oculus touch controllers and Index knuckles... don’t put your players’ hardware at risk! _AKA Controller clash, Controller smash_ |
+| ![Illustration of a handclap](/.assets/images/mapping/controller-smash.png) | ![Editor view of a handclap](/.assets/images/mapping/controller-smash-alt.png) | Do not place blocks that point to each other in close proximity. This motion tells the player to smash their controllers together when playing for max points. Don't do it, no exceptions.<br /><br />Note: Different VR sets have different controllers. Vive wands are much bigger than Oculus touch controllers and Index knuckles... don't put your players' hardware at risk! _AKA Controller clash, Controller smash_ |
 
 #### Cross
 
@@ -334,7 +334,7 @@ that included these but that doesn't make them ok.
 
 |                              Illustration                               |                                Editor View                                 | Explanation                                                                                                                                                       |
 | :---------------------------------------------------------------------: | :------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Illustration of a hammer hit](/.assets/images/mapping/hammer-hit.png) | ![Editor view of a hammer hit](/.assets/images/mapping/hammer-hit-alt.png) | Do not place a directional block that points towards a bomb on the same plane. This undermines the scoring system (and is just evil). Don’t do it. No exceptions. |
+| ![Illustration of a hammer hit](/.assets/images/mapping/hammer-hit.png) | ![Editor view of a hammer hit](/.assets/images/mapping/hammer-hit-alt.png) | Do not place a directional block that points towards a bomb on the same plane. This undermines the scoring system (and is just evil). Don't do it. No exceptions. |
 
 #### Disembodied notes
 
@@ -346,13 +346,13 @@ that included these but that doesn't make them ok.
 
 |                                   Illustration                                    |                                     Editor View                                      | Explanation                                                                                                                                                                                                                                                                                                                          |
 | :-------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Illustration of rapid wall dodge](/.assets/images/mapping/rapid-wall-dodge.png) | ![Editor view of rapid wall dodge](/.assets/images/mapping/rapid-wall-dodge-alt.png) | Do not force the player to very quickly move from one side of their play space to the other. Keep head movement smooth and predictable. Wall dodges are fine (and fun!) to use but allow ample time for the player to switch sides especially for higher BPM songs. You don’t want to risk them bumping into things or falling over. |
+| ![Illustration of rapid wall dodge](/.assets/images/mapping/rapid-wall-dodge.png) | ![Editor view of rapid wall dodge](/.assets/images/mapping/rapid-wall-dodge-alt.png) | Do not force the player to very quickly move from one side of their play space to the other. Keep head movement smooth and predictable. Wall dodges are fine (and fun!) to use but allow ample time for the player to switch sides especially for higher BPM songs. You don't want to risk them bumping into things or falling over. |
 
 #### Danger Dash
 
 |                              Illustration                               |                                Editor View                                 | Explanation                                                                                                                                                                                                                                                                                                  |
 | :---------------------------------------------------------------------: | :------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Illustration of danger dash](/.assets/images/mapping/danger-dash.png) | ![Editor view of danger dash](/.assets/images/mapping/danger-dash-alt.png) | Never force the player into the far edge of their playspace with 3-width walls or a 2-width wall in the middle. Walls that encompass the two middle columns gives the player very little room to play, and you don’t know how large their play area is or how far they will dash in response to these walls. |
+| ![Illustration of danger dash](/.assets/images/mapping/danger-dash.png) | ![Editor view of danger dash](/.assets/images/mapping/danger-dash-alt.png) | Never force the player into the far edge of their playspace with 3-width walls or a 2-width wall in the middle. Walls that encompass the two middle columns gives the player very little room to play, and you don't know how large their play area is or how far they will dash in response to these walls. |
 
 #### Bomb Spam
 
@@ -387,7 +387,7 @@ that included these but that doesn't make them ok.
 ### MAYBE: Highly Situational Patterns
 
 These patterns are OK to use but only in very specific circumstances or with very specific setup.
-It’s best to steer clear of these until you’re much more comfortable with mapping.
+It's best to steer clear of these until you're much more comfortable with mapping.
 
 #### Triangle
 
@@ -411,7 +411,7 @@ It’s best to steer clear of these until you’re much more comfortable with ma
 
 |                                   Illustration                                   |                                     Editor View                                     | Explanation                                                                                                                                                                                                                                                                                   |
 | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Illustration of rapid crossovers](/.assets/images/mapping/rapid-crossover.png) | ![Editor view of rapid crossovers](/.assets/images/mapping/rapid-crossover-alt.png) | Give the player time to prepare, and don’t make them cross sides too fast or too often. This pattern takes time to process and it’s a larger motion in-game than it looks in the editor. It's also recommended to offset the hits and place each note different rows to reduce handclap risk. |
+| ![Illustration of rapid crossovers](/.assets/images/mapping/rapid-crossover.png) | ![Editor view of rapid crossovers](/.assets/images/mapping/rapid-crossover-alt.png) | Give the player time to prepare, and don't make them cross sides too fast or too often. This pattern takes time to process and it's a larger motion in-game than it looks in the editor. It's also recommended to offset the hits and place each note different rows to reduce handclap risk. |
 
 #### Wide Inward Doubles
 
@@ -435,13 +435,13 @@ It’s best to steer clear of these until you’re much more comfortable with ma
 
 |                                 Illustration                                  |                                   Editor View                                    | Explanation                                                                                                                                                          |
 | :---------------------------------------------------------------------------: | :------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Illustration of detached walls](/.assets/images/mapping/detached-walls.png) | ![Editor view of detached walls](/.assets/images/mapping/detached-walls-alt.png) | Combine your adjacent/touching walls for a cleaner, less visually cluttered experience. Don’t ever cover the entire grid with walls as depicted in the illustration. |
+| ![Illustration of detached walls](/.assets/images/mapping/detached-walls.png) | ![Editor view of detached walls](/.assets/images/mapping/detached-walls-alt.png) | Combine your adjacent/touching walls for a cleaner, less visually cluttered experience. Don't ever cover the entire grid with walls as depicted in the illustration. |
 
 #### Extended Crouch
 
 |                                  Illustration                                   |                                    Editor View                                     | Explanation                                                                                                                                                                                                                                                                                                                                                           |
 | :-----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Illustration of extended crouch](/.assets/images/mapping/extended-crouch.png) | ![Editor view of extended crouch](/.assets/images/mapping/extended-crouch-alt.png) | Consider your target audience when using extended sections of crouch walls. You can't predict all players' physical ability, so use this in moderation. If you have notes during or immediately following a crouching section, consider visibility due to the player’s lower position. When the player is crouched, centre blocks in bottom row become vision blocks. |
+| ![Illustration of extended crouch](/.assets/images/mapping/extended-crouch.png) | ![Editor view of extended crouch](/.assets/images/mapping/extended-crouch-alt.png) | Consider your target audience when using extended sections of crouch walls. You can't predict all players' physical ability, so use this in moderation. If you have notes during or immediately following a crouching section, consider visibility due to the player's lower position. When the player is crouched, centre blocks in bottom row become vision blocks. |
 
 #### Corner Crouch
 
@@ -459,7 +459,7 @@ It’s best to steer clear of these until you’re much more comfortable with ma
 
 |                                 Illustration                                  |                                   Editor View                                    | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | :---------------------------------------------------------------------------: | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Illustration of visual clutter](/.assets/images/mapping/visual-clutter.png) | ![Editor view of visual clutter](/.assets/images/mapping/visual-clutter-alt.png) | Avoid unnecessary visual clutter. Having a directional block point towards/away from a dot block does not serve any functional purpose, and it’s hard to read at a glance. If you’re telling the player to slice in a particular direction, be consistent and make both blocks directional to increase readability.<br /><br />**Note:** When making sliders, the established community convention is to start with an arrow then use dots afterward. |
+| ![Illustration of visual clutter](/.assets/images/mapping/visual-clutter.png) | ![Editor view of visual clutter](/.assets/images/mapping/visual-clutter-alt.png) | Avoid unnecessary visual clutter. Having a directional block point towards/away from a dot block does not serve any functional purpose, and it's hard to read at a glance. If you're telling the player to slice in a particular direction, be consistent and make both blocks directional to increase readability.<br /><br />**Note:** When making sliders, the established community convention is to start with an arrow then use dots afterward. |
 
 #### Easy to Miss Patterns
 
@@ -471,7 +471,7 @@ It’s best to steer clear of these until you’re much more comfortable with ma
 
 |                              Illustration                              |                                Editor View                                | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | :--------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Illustration of arm tangles](/.assets/images/mapping/arm-tangle.png) | ![Editor view of arm tangles](/.assets/images/mapping/arm-tangle-alt.png) | Crossing hands is usually fine, but crossing hands and going in opposite directions vertically involves more risk. These patterns require very careful setup to avoid players clapping their controllers or arms. Reverse these colors and you’re good to go. This is only one example of an arm tangle. Always be aware of where you're leaving your player's arms and how they are going to escape from that position to hit the next pattern. |
+| ![Illustration of arm tangles](/.assets/images/mapping/arm-tangle.png) | ![Editor view of arm tangles](/.assets/images/mapping/arm-tangle-alt.png) | Crossing hands is usually fine, but crossing hands and going in opposite directions vertically involves more risk. These patterns require very careful setup to avoid players clapping their controllers or arms. Reverse these colors and you're good to go. This is only one example of an arm tangle. Always be aware of where you're leaving your player's arms and how they are going to escape from that position to hit the next pattern. |
 
 #### Face Punchers
 
@@ -489,7 +489,7 @@ lower difficulties:
 - Players who are good at the game can use your lower difficulties for training, such as accuracy players.
 
 The difficulty of a map is comprised of a combination of _density_ (rhythm choice), _complexity_ (pattern choice). There
-should be a smooth progression as you work your way down from Expert+ to Easy. When building lower difficulties, it’s
+should be a smooth progression as you work your way down from Expert+ to Easy. When building lower difficulties, it's
 important to understand what skills players at different levels have and try to preserve the map's identity as you work
 your way down the spread.
 
@@ -511,8 +511,8 @@ react before you throw something new at them at each level of difficulty.
 | Difficulty | Pattern Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | :--------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |  Expert+   | &#8227; Welcome to the wild west! You can throw any good mapping practices at your player here.<br />&#8227; Parity is expected at this level, especially for high BPM songs. Lower BPM songs may be more lenient but parity breaks are discouraged.<br />&#8227; Always be mindful of common errors, such as resets and vision blocks.                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|   Expert   | &#8227; All note directions are viable here in any proportion.<br />&#8227; All note positions viable here in any proportion. For patterns of wider spacing, give them enough reaction time and be mindful of the player’s stamina.<br />&#8227; Any color, any lane is fine. Crossovers are fair game however keep sections of extended crossovers short.<br />&#8227; Flow is critical. Parity will make or break your map.<br />&#8227; All emphasis options are on the table, including stacks and sliders.<br />&#8227; All obstacles are fair game, but be wary about creating vision blocks.                                                                                                                                                                       |
-|    Hard    | &#8227; All cardinal directions are viable. Diagonals are less common.<br />&#8227; All note positions viable here in any proportion. Top row notes are fine though less common. Make sure the spacing is not tiring for the player.<br />&#8227; Any color, any lane is fine. Crossovers are simple and give the player enough time to react and recover afterwards.<br />&#8227; Flow is critical unless you have an extended break. Try to maintain parity with every swing.<br />&#8227; Most emphasis options are available, including inverted doubles with sabers going opposite directions. Stacks and sliders are fine, but keep them two notes long and don’t overuse them.<br />&#8227; All obstacles are fair game, but be wary about creating vision blocks. |
+|   Expert   | &#8227; All note directions are viable here in any proportion.<br />&#8227; All note positions viable here in any proportion. For patterns of wider spacing, give them enough reaction time and be mindful of the player's stamina.<br />&#8227; Any color, any lane is fine. Crossovers are fair game however keep sections of extended crossovers short.<br />&#8227; Flow is critical. Parity will make or break your map.<br />&#8227; All emphasis options are on the table, including stacks and sliders.<br />&#8227; All obstacles are fair game, but be wary about creating vision blocks.                                                                                                                                                                       |
+|    Hard    | &#8227; All cardinal directions are viable. Diagonals are less common.<br />&#8227; All note positions viable here in any proportion. Top row notes are fine though less common. Make sure the spacing is not tiring for the player.<br />&#8227; Any color, any lane is fine. Crossovers are simple and give the player enough time to react and recover afterwards.<br />&#8227; Flow is critical unless you have an extended break. Try to maintain parity with every swing.<br />&#8227; Most emphasis options are available, including inverted doubles with sabers going opposite directions. Stacks and sliders are fine, but keep them two notes long and don't overuse them.<br />&#8227; All obstacles are fair game, but be wary about creating vision blocks. |
 |   Normal   | &#8227; All cardinal directions are viable. Diagonals are uncommon for this level.<br />&#8227; Notes should lie mostly in the bottom row. Use the middle row as a flourish for emphasis. Use the top row sparingly with dot notes only.<br />&#8227; Keep red notes primarily on the left side and blue on the right. Avoid crossovers entirely.<br />&#8227; Players will tend to reset after every hit, but you can introduce flow when the notes are close together.<br />&#8227; Inverted doubles are manageable, but don't overuse them. Stacks and sliders should be scarce.<br />&#8227; If obstacles are used, keep them simple. You can sprinkle in notes simultaneously, but give plenty of time to react and recover.                                         |
 |    Easy    | &#8227; All cardinal directions are viable. Diagonals are very uncommon for this level.<br />&#8227; Notes should mostly lie in the bottom row. Use the middle row as a flourish for emphasis. Use the top row very sparingly with dot notes only.<br />&#8227; Keep red notes primarily on the left side and blue on the right. Avoid crossovers entirely.<br />&#8227; Knock yourself out with parity breaks. Players will reset after every hit.<br />&#8227; Avoid inverted doubles. Sliders and stacks are not recommended.<br />&#8227; If obstacles are used, keep them simple. Any simultaneous notes must be simple and clearly readable.                                                                                                                        |
 
@@ -543,7 +543,7 @@ density than a 120 BPM dance map.
 ### Note Jump Speed
 
 There are several terms related to the speed and readability of the map. These terms are all interrelated and are typically
-influenced by the song’s tempo:
+influenced by the song's tempo:
 
 - **Note Jump Speed** (NJS) is the rate at which blocks move down the track at the player. A higher value will make the
   notes move faster, while a lower value will make the notes move slower.
@@ -579,15 +579,15 @@ recommended baseline for where your values may lie.
 
 ## Playtesting
 
-Already mentioned in detail on the [Mapping Home Page](./#playtesting) it’s important enough to mention again here:
+Already mentioned in detail on the [Mapping Home Page](./#playtesting) it's important enough to mention again here:
 
-1. Test your own work early and often, especially when you’re just starting out!
-2. If you can’t test your own work have a friend play it. Just remember that a friend may be more likely to say "that’s
-   awesome, man!" than to give you honest advice and risk hurting your feelings... even if that’s what you need.
+1. Test your own work early and often, especially when you're just starting out!
+2. If you can't test your own work have a friend play it. Just remember that a friend may be more likely to say "that's
+   awesome, man!" than to give you honest advice and risk hurting your feelings... even if that's what you need.
 3. Even if you test your own work you can become "map blind" because you know it so well and may not see playability issues
 4. Use the `#testplays` channel on BSMG wisely. There are experienced mappers who will play your pre-release map and
-   provide constructive feedback. Sometimes there’s a LOT of constructive feedback and that’s ok. Those experienced mappers
-   were once newbies with terrible maps themselves. If you’ve read and absorbed the info on this page you will be much
+   provide constructive feedback. Sometimes there's a LOT of constructive feedback and that's ok. Those experienced mappers
+   were once newbies with terrible maps themselves. If you've read and absorbed the info on this page you will be much
    better off!
 
 **HAPPY MAPPING!** Visit `#mapping-discussion` on the BSMG Discord with questions!

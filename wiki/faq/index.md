@@ -59,7 +59,7 @@ Levels album's in game. Managing installed playlists can be done in-game or in t
 Using the in game or manual playlist management methods can cause BMBF and PlaylistCore to be out of sync!
 
 If you added or modified a playlist manually or in-game, you have to select the `Reload Playlists Folder`
-button in BMBF’s `Tools` tab to sync changes. Otherwise, BMBF will override your settings with an outdated copy the
+button in BMBF's `Tools` tab to sync changes. Otherwise, BMBF will override your settings with an outdated copy the
 next time you sync your playlists through BMBF.
 :::
 

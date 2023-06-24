@@ -78,9 +78,9 @@ after the curve applies. Here is a table to illustrate this system:
 
 To get a better rank, there are quite a few tools you can use to find ranked songs that fit your skill level.
 
-First, it’s always good to go see your own [ScoreSaber](https://scoresaber.com/global)/
+First, it's always good to go see your own [ScoreSaber](https://scoresaber.com/global)/
 [BeatLeader](https://www.beatleader.xyz/ranking/1) profile to
-see songs that you haven’t played in a while or that you could improve on and to know what your top scores look like.
+see songs that you haven't played in a while or that you could improve on and to know what your top scores look like.
 
 **ScoreSaber Addons:**
 

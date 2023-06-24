@@ -57,7 +57,7 @@ The controllable objects are as follows:
 | Object          | Description                                                                                                                                                                                                                                                                            |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Center Lights   | Generally lights along the side of the track, underneath the track, and sometimes a chevron at the back of the track. Sometimes called "Bottom/Back/Side" or "BBS" lights.                                                                                                             |
-| Side/Top Lasers | Sets of rotating lasers to the sides of the track or above/below the track, depending on which environment you’ve selected. Rotation is set using the Laser Speed function.                                                                                                            |
+| Side/Top Lasers | Sets of rotating lasers to the sides of the track or above/below the track, depending on which environment you've selected. Rotation is set using the Laser Speed function.                                                                                                            |
 | Back Lasers     | Static lasers, often in an "X" pattern at the back of the track, behind the chevron.                                                                                                                                                                                                   |
 | Ring Lights     | Lights attached to the inside of the large outer rings that spin in almost all environments.                                                                                                                                                                                           |
 | Ring Spins      | Used to create movement in the rings. In environments with both an inner and an outer ring, rings spins rotate both rings together.                                                                                                                                                    |
@@ -170,13 +170,13 @@ to get started and simple manual lighting is almost impossible to do poorly.
 detailing useful lighting techniques and general tips for lighting.
 
 ::: warning NOTE
-Lighting previews are not realistic in the editors currently available to the public so it’s important to preview your
+Lighting previews are not realistic in the editors currently available to the public so it's important to preview your
 lights in-game often. See [Previewing Your Lights](#previewing-your-lights) for some tools that can help.
 :::
 
 ### Key Bindings
 
-Each map editor handles lighting differently so you’ll want to get to know the key bindings and how placements work in
+Each map editor handles lighting differently so you'll want to get to know the key bindings and how placements work in
 your editor of choice. Lighting keybinds vary by editor. Consult your editor's user guide or readme or refer to this
 helpful list [Cross-Editor Keybindings](./editor-keybinds.md).
 
@@ -740,7 +740,7 @@ environments can only be used with 360&deg; and 90&deg; levels.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Pyro environment](~@images/mapping/pyro_env.jpg)
+![Image of Pyro environment](/.assets/images/mapping/pyro_env.jpg)
 
 </td><td>
 
@@ -769,7 +769,7 @@ the fire in the official editor, but does not work.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of EDM environment](~@images/mapping/edm_env.jpg)
+![Image of EDM environment](/.assets/images/mapping/edm_env.jpg)
 
 </td><td>
 
@@ -790,7 +790,7 @@ which control the rotation of them as a whole.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of The Second environment](~@images/mapping/the-second_env.jpg)
+![Image of The Second environment](/.assets/images/mapping/the-second_env.jpg)
 
 </td><td>
 
@@ -812,7 +812,7 @@ chevron since 1.24. The banners are only visible in 1.23, with the number
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Lizzo environment](~@images/mapping/lizzo_env.jpg)
+![Image of Lizzo environment](/.assets/images/mapping/lizzo_env.jpg)
 
 </td><td>
 
@@ -835,7 +835,7 @@ color.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of The Weeknd environment](~@images/mapping/the-weeknd_env.jpg)
+![Image of The Weeknd environment](/.assets/images/mapping/the-weeknd_env.jpg)
 
 </td><td>
 
@@ -859,7 +859,7 @@ rings as a whole and one for individual rings in a set.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Rock Mixtape environment](~@images/mapping/rock-mixtape_env.jpg)
+![Image of Rock Mixtape environment](/.assets/images/mapping/rock-mixtape_env.jpg)
 
 </td><td>
 
@@ -885,7 +885,7 @@ translation.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Dragons 2 environment](~@images/mapping/dragons2_env.jpg)
+![Image of Dragons 2 environment](/.assets/images/mapping/dragons2_env.jpg)
 
 </td><td>
 
@@ -905,7 +905,7 @@ tiles (translation)<br />
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Panic 2 environment](~@images/mapping/panic2_env.jpg)
+![Image of Panic 2 environment](/.assets/images/mapping/panic2_env.jpg)
 
 </td><td>
 

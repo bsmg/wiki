@@ -46,7 +46,7 @@ is provide you the tools with this wiki and clarify any questions you have to su
 5. Get lighting! Review [basic lighting information](#lighting-practices). Simple manual lighting is easier than you think!
 6. Get your map [playtested](#playtesting)! Third-party playtesting via the [BSMG Discord](https://discord.gg/beatsabermods)
    is highly recommended to get constructive feedback and to get past your own "map blindness."
-7. Once your song has been mapped, lighted, and playtested you’re ready to [release](#publishing-songs)
+7. Once your song has been mapped, lighted, and playtested you're ready to [release](#publishing-songs)
    your song to the world on BeatSaver.
 
 ### Video Tutorials
@@ -305,7 +305,7 @@ information and an in-depth FAQ is available on the [ScoreSaber Discord](https:/
 Review the [Ranking Criteria](https://scoresaber.com/criteria) for some of the more ambiguous ranking considerations.
 :::
 
-- Once your map has been modded and revised, it’s ready to be presented to a ranking team member or recruit to review.
+- Once your map has been modded and revised, it's ready to be presented to a ranking team member or recruit to review.
 - If the ranking team member deems the map acceptable it will be added to the ranking request queue to be voted
   on by the full ranking team.
 
@@ -361,13 +361,13 @@ You **DO NOT** need to upload your map to BeatSaver in order for you or anyone e
 - If your map is using the 1.0 map format (your files are `.json` and `.ogg`) you must convert your map by
   **updating your editor**, opening and saving the map. See [Community Editors](#community-editors) for links to modern
   editors.
-- If your map is using the 2.0 or 3.0 map format (your files are .dat and `.ogg`/`.egg`) you’re ready to test.
+- If your map is using the 2.0 or 3.0 map format (your files are .dat and `.ogg`/`.egg`) you're ready to test.
 
 ### Testing on a PC
 
 Follow these steps to test any of your maps made with a community editor using PC-based VR.
 
-1. If your WIP song folder isn’t already in `Beat Saber_Data\CustomWIPLevels` then place a copy there.
+1. If your WIP song folder isn't already in `Beat Saber_Data\CustomWIPLevels` then place a copy there.
 2. Access your map in-game via the CustomWIPLevels category in the song pack menu. Use practice mode to play
    (the button next to the play button).
 
@@ -472,7 +472,7 @@ mapping community? Consider becoming a testplayer! Check out the [How to Testpla
 
 ## Publishing Songs
 
-Once your song has been mapped, lighted, and playtested and it’s a finished product you’re ready to release it to the world!
+Once your song has been mapped, lighted, and playtested and it's a finished product you're ready to release it to the world!
 
 ### BeatSaver
 

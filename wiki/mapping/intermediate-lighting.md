@@ -10,7 +10,7 @@ _You've learned the basics and now you want more!_
 
 - [Glossary of Terms](./glossary.md)
 
-> "The first thing when getting into lighting is that you need to learn that you should learn your own style. Don’t think
+> "The first thing when getting into lighting is that you need to learn that you should learn your own style. Don't think
 > you need to copy others to become decent. Explore a bit."
 > ~ Puds, Lighting Mentor
 

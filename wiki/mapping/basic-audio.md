@@ -38,15 +38,15 @@ that can be done at any time, if they're needed.
 ## Song Selection for New Mappers
 
 Below are recommendations, **not** requirements, and will help to ease you into mapping. If you want to map 17 minutes of
-"In A Gadda Da Vida" for your first map then have at it but know that you’ll face a **lot** of additional challenges.
+"In A Gadda Da Vida" for your first map then have at it but know that you'll face a **lot** of additional challenges.
 
 - Choose a song that has a clear beat to map to. Some genres work better than others.
 - Choose a song with a consistent tempo (for example songs with electronic drums).
   Songs that have tempo/BPM changes over time can be very complicated to map.
 - Choose a song on the shorter side (less than 3 minutes is better).
   Mapping a 10-minute epic to start with may lead to frustration and/or burn out.
-- Finally, choose a song that you don’t mind listening to over and over and over and over again.
-  But avoid mapping your favorite song as your first few maps, save that for when you’re more experienced.
+- Finally, choose a song that you don't mind listening to over and over and over and over again.
+  But avoid mapping your favorite song as your first few maps, save that for when you're more experienced.
 
 ## Audio Quality
 
@@ -61,7 +61,7 @@ Follow these general guidelines as you work on your maps:
 - Use a YouTube rip **only** as a last resort. The bitrate is low and the volume is seldom right.
   In this case some audio editing might be required (see [Optional Audio Editing](#optional-audio-editing)).
 
-> Sites where you can buy the tracks/album, such as an artist’s [Bandcamp](https://bandcamp.com/), usually will have the
+> Sites where you can buy the tracks/album, such as an artist's [Bandcamp](https://bandcamp.com/), usually will have the
 > highest quality source available. If the artist does not have a Bandcamp available, Google Play Music, Amazon Music and
 > iTunes are alternatives for high quality MP3 files.
 
@@ -112,11 +112,11 @@ There are two ways to sync your audio:
 
 ### Sync using Arrow Vortex
 
-[Arrow Vortex](https://arrowvortex.ddrnl.com/) is a free tool to analyze a song’s BPM automatically.
+[Arrow Vortex](https://arrowvortex.ddrnl.com/) is a free tool to analyze a song's BPM automatically.
 It will also find the offset needed to line the audio up to the beat in Audacity or your map editor.
 
 **Using Arrow Vortex to find BPM and offset:**  
-The steps listed below are the same as those used in Ryger’s [Arrow Vortex BPM Analysis Video Tutorial](https://youtu.be/Z49UKFefu5c)
+The steps listed below are the same as those used in Ryger's [Arrow Vortex BPM Analysis Video Tutorial](https://youtu.be/Z49UKFefu5c)
 (which also includes BPM confirmation).
 
 1. Download Arrow Vortex (AV), extract the file, and open `ArrowVortex.exe`
@@ -253,12 +253,12 @@ Continue below for how to do that.
 1. Select the Time Shift Tool (![Time Shift Tool](/.assets/images/mapping/timeshift.png)).
 2. Left click on the song track and hold, then drag the audio so that the first planned mapped note(s) in your song ends
    up within the appropriate seconds (see timeline above the track) to avoid a "Hot Start" or too long intro
-   (See [Plan Your First Notes](#plan-your-first-note) if you haven’t already).
+   (See [Plan Your First Notes](#plan-your-first-note) if you haven't already).
 3. Release to place the audio in the new position.
 4. Play back the audio in this position. The song will be out of sync, so find the closest beat in the click track and
    align your song to the beat (click track) by moving it backward or forwards in time by small increments. Zoom in for
    better accuracy. Repeat until it sounds spot on.
-5. When you think you’ve found the beats of the song to match the Click Track review the whole song to ensure that the
+5. When you think you've found the beats of the song to match the Click Track review the whole song to ensure that the
    BPM you have is the correct one and that the song is in the same fixed BPM throughout the whole song. If not, you might
    have gotten the wrong BPM, in which case try to tap out the BPM manually (again), see "Manual BPM Calculation".
 
@@ -298,7 +298,7 @@ can improve the player's experience by:
 
 ### Check Song Volume
 
-To ensure that your song isn’t too soft, or even too loud for that matter, we can measure it using RMS (Root Mean Squared)
+To ensure that your song isn't too soft, or even too loud for that matter, we can measure it using RMS (Root Mean Squared)
 in Audacity. To have a good balance between note slice sounds and your song the RMS value should be **louder than -11db**
 (in the verses and/or choruses) or **softer than -8.5db** (at the loudest parts).
 
@@ -316,8 +316,8 @@ To check the RMS value in your song do the following:
 
 Before you continue with the next steps with the song editing it highly recommended to save your current progress as a
 WAVE file as a backup. This is to ensure that you if you need to go back and redo some of the editing you will have a
-high quality source to use. (Don’t load the OGG you exported as it will have lost a lot of the source quality.) Remove
-the Click Track if you haven’t already done so, then go to `File menu -> Export -> Export as WAV`, then save the file
+high quality source to use. (Don't load the OGG you exported as it will have lost a lot of the source quality.) Remove
+the Click Track if you haven't already done so, then go to `File menu -> Export -> Export as WAV`, then save the file
 to a location of your choice.
 
 ::: tip NOTE
@@ -327,7 +327,7 @@ your players the best map and song experience.
 
 #### Making Your Song Louder
 
-If your song’s chorus has a lower RMS value than the recommended **-11db** then you will need to do Compression and/or
+If your song's chorus has a lower RMS value than the recommended **-11db** then you will need to do Compression and/or
 Limiting to bring the volume up. (Note: Amplify/Gain is not used for this, as anything above 0db will create an unpleasant
 distortion.)
 
@@ -346,7 +346,7 @@ However, if the waveform varies a lot between soft and loud parts then compressi
 3. As a starting point, copy the settings below and click OK. Make sure that `Compress based on Peaks` is checked.
    ![Understanding compression](/.assets/images/mapping/compression.png)
 
-Here’s a before (top) and after (bottom) Compressor comparison:
+Here's a before (top) and after (bottom) Compressor comparison:
 ![Before and after compression](/.assets/images/mapping/bna_compression.png)
 
 Check the song again and listen for any unnatural distortions, such as volume cut outs after loud peaks. If so, undo
@@ -355,7 +355,7 @@ the settings check the [Advanced Audio Editing: Compressor](./advanced-audio.md#
 
 #### Limiter
 
-The compressor reduces many of the unnecessary peaks and makes the more important sounds louder. However, we still haven’t
+The compressor reduces many of the unnecessary peaks and makes the more important sounds louder. However, we still haven't
 reached the right RMS volume for the song. To achieve this we will remove more of the headroom using the Limiter effect:
 
 1. Select the whole song by double clicking the song track.
@@ -369,7 +369,7 @@ tweak the `Input Gain` settings to a lower value (still above 0db) and apply aga
 the same or else the stereo image will be skewed. If you want to know more about the settings of the Limiter effect check
 the [Advanced Audio Editing: Limiter](./advanced-audio.md#limiter) page.
 
-To know if you’ve reached the right volume after compressing and limiting check again with the RMS volume tool:
+To know if you've reached the right volume after compressing and limiting check again with the RMS volume tool:
 
 1. Open Contrast Analyzer in `Analyze menu -> Contrast...`
 2. With the Contrast Analysis window still open, select a part of the chorus section (about 15-20 seconds) of your song.
@@ -397,7 +397,7 @@ Do this by checking with the RMS volume tool:
    -8.5db and remember this value.
 5. Close the Contrast Analysis window.
 
-Now let’s use the Amplify effect to lower the volume:
+Now let's use the Amplify effect to lower the volume:
 
 1. Select the whole song by double clicking the song track.
 2. Go to `Effects menu -> Amplify...`
@@ -408,7 +408,7 @@ Now let’s use the Amplify effect to lower the volume:
 4. Click OK to apply a negative Amplify effect.
 5. Done.
 
-To know if you’ve reached the right volume check again with the RMS volume tool:
+To know if you've reached the right volume check again with the RMS volume tool:
 
 1. Open Contrast Analyzer in `Analyze menu -> Contrast...`
 2. With the Contrast Analysis window still open, select a part of the chorus section (about 15-20 seconds) of your song.
@@ -423,7 +423,7 @@ After the negative value Amplify effect your song will look something like this:
 
 In Beat Saber the map will continue for as long as the audio file lasts. E.g. this means that having silence for five
 seconds after the song has ended the map will still play for five seconds before terminating and bringing the player to
-the score view. This is why it’s important to mind the time from the last note to when the audio track ends.
+the score view. This is why it's important to mind the time from the last note to when the audio track ends.
 
 Go to the end of your song and play the last part and outro. From the point where you intend to have the last note(s)
 count to 3 or 4 seconds and pause the playback. Where your playback cursor is now located is where you should generally
@@ -444,8 +444,8 @@ results much faster.
 
 This step can be useful if you need to make a more graceful fade-in for your song.
 
-If your track has arrows pointing to the left at the start it means you’ve time shifted the audio forward in time outside
-the timeline. If you’ve done this to shorten the intro, although not necessary, it is beneficial to trim the sound clip
+If your track has arrows pointing to the left at the start it means you've time shifted the audio forward in time outside
+the timeline. If you've done this to shorten the intro, although not necessary, it is beneficial to trim the sound clip
 and add a fade in. To trim and add a fade in to the song (optional) do the following:
 
 1. Drag a selection from 0.0 seconds to the end of the audio track (yellow vertical lines).
@@ -466,7 +466,7 @@ WAVE file backup just in case you need to export to OGG again with a different q
 
 To generate a compatible sound file to use we need to do the following:
 
-1. Delete the Click Track (if you haven’t already done so).
+1. Delete the Click Track (if you haven't already done so).
 2. Click the `File menu -> Export -> Export as OGG.`  
    ![Export As Ogg Location](/.assets/images/mapping/audacity-export.png)
 3. Name your file `song.ogg`.

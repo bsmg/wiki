@@ -38,7 +38,7 @@ but it's a little known fact that they also make mods!
 
 ## JJ | hi
 
-I’ve been modeling for almost 3 years and make mostly private and collab sabers.
+I've been modeling for almost 3 years and make mostly private and collab sabers.
 
 **Roles:** 3D Artist
 

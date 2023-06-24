@@ -63,7 +63,7 @@ You have several options available to you:
   - Steam Example: `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels`
   - Oculus Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber_Data\CustomWIPLevels`
 
-**If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
+**If you have the Quest version -OR- don't have Beat Saber installed on the computer:**
 
 1. Download `mapping-folders.zip` from [BSMG Git](https://git.bsmg.dev/bloodcloak/mapping-qstart/releases/latest) which
    contains pre-formatted folders that mimics a game install.
@@ -108,7 +108,7 @@ You have several options available to you:
 - To find where Beat Saber is installed, right-click Beat Saber in Steam, go to `Manage > Browse Local Files`.
 - The folders should be located under the `Beat Saber_Data` directory.
 
-**If you have the Quest version -OR- don’t have Beat Saber installed on the computer:**
+**If you have the Quest version -OR- don't have Beat Saber installed on the computer:**
 
 - Make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them. Note that the usual Linux
   paths need to be prefixed with `Z:`.
@@ -363,14 +363,14 @@ Here is the main panel for the Error Checker:
 
 1. **Minimum Time:** The minimum amount of time in beats that will be checked. Leave it alone.
 2. **Maximum Time:** The maximum amount of time in beats that will be checked.
-   You’ll need to adjust this based on both the BPM and NJS (Note Jump Speed) of your song/level.
+   You'll need to adjust this based on both the BPM and NJS (Note Jump Speed) of your song/level.
    **_1.5 beats is the minimum recommended for new mappers._**
 3. **Double-Directional Checker:** Highlights any instances of a block of the same color pointing in the same direction
    within the number of beats specified in _Maximum Time_.
 4. **Vision Block Checker:** Highlights any instances of blocks or walls obscuring or hiding a block within the number
    of beats specified in _Maximum Time_.
 5. **Stacked Block Checker:** Highlights any instances where multiple blocks are stacked on top of each other.
-6. **Clear Errors:** Clears highlighting from all error blocks. They’re still errors, just not marked.
+6. **Clear Errors:** Clears highlighting from all error blocks. They're still errors, just not marked.
 7. **Previous/Next:** Jumps you backwards or forwards through your map to each highlighted error.
 8. **Stat Panel:** A wondrous box of delicious statistical information that can help you ensure that your map is leveled
    appropriately and follows row placement best practices.
@@ -393,13 +393,13 @@ Red text will pop up that tells you how many errors were found within the specif
 
 **For Double-Directionals:** The highlighted block is the second instance of a same color-same direction, so look back in
 time to see the first block in the sequence. You can change either the first instance or the second instance to correct
-the error. Once you’ve made your change you can click "Check for Double Directionals" again to see if the issue is
+the error. Once you've made your change you can click "Check for Double Directionals" again to see if the issue is
 resolved. You can change the max time value to suit the speed of your song. 2.0 beats is a good baseline for new mappers
 but the faster the song the more beats you may need for a reasonable reset (if that is your intention).
 
 |                                Example                                | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | :-------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Double directional example](/.assets/images/mapping/dd_example.png) | In this example, max time is set to 0.75 beats.<br />There is a set of down notes 1/2 beat apart and then a set of diagonal notes 1/2 beat after that. The first set of blocks isn't flagged but the next two are because they are double directionals within 3/4 (0.75) of a beat after the first set.<br />You have two options:<br />_Change one of the blocks<br />_ Force the player to "reset" (return their arms/hands to a neutral position) if there’s enough time. |
+| ![Double directional example](/.assets/images/mapping/dd_example.png) | In this example, max time is set to 0.75 beats.<br />There is a set of down notes 1/2 beat apart and then a set of diagonal notes 1/2 beat after that. The first set of blocks isn't flagged but the next two are because they are double directionals within 3/4 (0.75) of a beat after the first set.<br />You have two options:<br />_Change one of the blocks<br />_ Force the player to "reset" (return their arms/hands to a neutral position) if there's enough time. |
 
 ::: tip
 Keep clicking the "Check for Double Directionals" button... sometimes fixing one error can create a new error out of your
@@ -407,7 +407,7 @@ line of sight. Check early and often!
 :::
 
 **For Vision Blocks:** The highlighted block is being obscured by the blocks immediately in front of it within the specified
-distance. This guide won’t get into details on vision blocks but mappers should be very selective when placing any blocks
+distance. This guide won't get into details on vision blocks but mappers should be very selective when placing any blocks
 in the center two positions as those are at eye-height for the player in-game and are not-so-affectionately referred to as
 "facenotes." Blocks in other positions can be vision blocks as well but the two center positions are the most likely
 culprits. Depending on your BPM, 1-2 beats is fine.
@@ -418,7 +418,7 @@ culprits. Depending on your BPM, 1-2 beats is fine.
 
 ### Stats Panel
 
-When you’re ready, click the Stat Panel button to open an incredibly helpful information window.
+When you're ready, click the Stat Panel button to open an incredibly helpful information window.
 You can get information by hovering over each title.
 
 ::: tip
@@ -432,7 +432,7 @@ You can get information by hovering over each title.
 
 |                                 Example                                 | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Stats panel screenshot](/.assets/images/mapping/mma2-stats-panel.png) | **Notes:** The total number of notes in your map.<br />**Notes per Second:** The number of notes in your map divided by the number of seconds in your map. This number isn’t accurate until you’ve finished mapping, unless you've only selected a small section.<br />**Bombs, Walls, and Lighting:** The number of each event you have in your map.<br />**R/B Ratio:** If you have exactly the same number of red and blue blocks this will be 1.00. Greater than 1 you have more reds. Less than 1 you have more blues.<br />**Vision Block:** The percentage of your map’s blocks that are vision blocks at 0.75 beats. Use the vision block checker to highlight these blocks.<br />**Vision Block (A):** The percentage of your map’s blocks that are vision blocks at 1.25 beats. Useful for faster songs. Use the vision block checker with a max time of 1.25 to highlight these blocks.<br />**Top/Middle/Bottom Notes:** The percentage of your blocks that are placed in each row. |
+| ![Stats panel screenshot](/.assets/images/mapping/mma2-stats-panel.png) | **Notes:** The total number of notes in your map.<br />**Notes per Second:** The number of notes in your map divided by the number of seconds in your map. This number isn't accurate until you've finished mapping, unless you've only selected a small section.<br />**Bombs, Walls, and Lighting:** The number of each event you have in your map.<br />**R/B Ratio:** If you have exactly the same number of red and blue blocks this will be 1.00. Greater than 1 you have more reds. Less than 1 you have more blues.<br />**Vision Block:** The percentage of your map's blocks that are vision blocks at 0.75 beats. Use the vision block checker to highlight these blocks.<br />**Vision Block (A):** The percentage of your map's blocks that are vision blocks at 1.25 beats. Useful for faster songs. Use the vision block checker with a max time of 1.25 to highlight these blocks.<br />**Top/Middle/Bottom Notes:** The percentage of your blocks that are placed in each row. |
 
 ## Troubleshooting
 
