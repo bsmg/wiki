@@ -166,11 +166,20 @@ export default defineConfig({
         path: '/mapping/',
         routes: [
           [
+            'Audio',
+            [
+              ['Basic Audio Setup', './basic-audio'],
+              ['Advanced Audio Editing', './advanced-audio'],
+            ],
+          ],
+          [
             'Mapping',
             [
               ['Basic Mapping', './basic-mapping'],
+              ['Downmapping', './downmapping'],
               ['Intermediate Mapping', './intermediate-mapping'],
               ['Extended Mapping', './extended-mapping'],
+              ['Mapping Glossary', './glossary'],
             ],
           ],
           [
@@ -180,24 +189,21 @@ export default defineConfig({
               ['Intermediate Lighting', './intermediate-lighting'],
               ['Advanced Lighting', './advanced-lighting'],
               ['Extended Lighting', './extended-lighting'],
+              ['Default Environment Colors', './lighting-defaults'],
             ],
           ],
           [
-            'Audio',
+            'Editing Resources',
             [
-              ['Basic Audio Setup', './basic-audio'],
-              ['Advanced Audio Editing', './advanced-audio'],
-            ],
+              ['Map Format', './map-format'],
+              ['Editor Keybinds', './editor-keybinds'],
+              ['MMA2 User Guide', './mediocre-map-assistant'],
+            ]
           ],
-          ['Downmapping', './downmapping'],
-          ['Editor Keybinds', './editor-keybinds'],
-          ['Mapping Glossary', './glossary'],
-          ['How to Testplay', './how-to-testplay'],
-          ['Default Environment Colors', './lighting-defaults'],
-          ['Map Format', './map-format'],
+          ['Help Playtest Other Maps', './how-to-testplay'],
           ['Coping with Mapping Anxiety', './mapping-anxiety'],
           ['Mapping Resources Contributors', './mapping-credits'],
-          ['MMA2 User Guide', './mediocre-map-assistant'],
+
         ],
       },
       {
@@ -220,13 +226,18 @@ export default defineConfig({
         name: 'Models',
         path: '/models/',
         routes: [
-          ['Custom Sabers', './custom-sabers'],
-          ['Custom Avatars', './custom-avatars'],
-          ['Custom Platforms', './custom-platforms'],
-          ['Custom Notes', './custom-notes'],
-          ['Custom Walls', './custom-walls'],
           [
-            'Guides',
+            'Installation Guides',
+            [
+              ['Custom Sabers', './custom-sabers'],
+              ['Custom Avatars', './custom-avatars'],
+              ['Custom Platforms', './custom-platforms'],
+              ['Custom Notes', './custom-notes'],
+              ['Custom Walls', './custom-walls'],
+            ]
+          ],
+          [
+            'Model Creation Guides',
             [
               ['Custom Sabers Guide', './sabers-guide'],
               ['Custom Avatars Guide', './avatars-guide'],
