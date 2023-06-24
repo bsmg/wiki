@@ -229,15 +229,16 @@ Certain characteristics, which are marked in the list below, do not belong to th
 external mods such as SongCore. These modded characteristics will only work if the user has installed mods that add them,
 and will _not_ appear on unmodded copies of Beat Saber and could cause the map to not load.
 
-| Characteristic Name | Included in Base Game | Intended Purpose                                                                           |
-| :-----------------: | :-------------------: | ------------------------------------------------------------------------------------------ |
-|     `Standard`      |          ✔️           | Vanilla maps following standard mapping guidelines.                                        |
-|     `NoArrows`      |          ✔️           | Restrict notes to Dot (any direction) notes.                                               |
-|     `OneSaber`      |          ✔️           | Restrict notes to Right (Blue) notes, and disables the Left (Red) saber.                   |
-|     `360Degree`     |          ✔️           | Enables rotation events, with no restriction on total rotation.                            |
-|     `90Degree`      |          ✔️           | Enables rotation events, but restricts total rotation to 45 degrees to the left and right. |
-|     `Lightshow`     |          ❌           | Place for maps that only contains lighting events.                                         |
-|      `Lawless`      |          ❌           | Modded maps and modcharts can safely go here. No rules should apply.                       |
+<!-- prettier-ignore -->
+| Characteristic Name | Included in Base Game | Intended Purpose |
+| :-: | :-: | - |
+| `Standard` | ✔️ | Vanilla maps following standard mapping guidelines. |
+| `NoArrows` | ✔️ | Restrict notes to Dot (any direction) notes. |
+| `OneSaber` | ✔️ | Restrict notes to Right (Blue) notes, and disables the Left (Red) saber. |
+| `360Degree` | ✔️ | Enables rotation events, with no restriction on total rotation. |
+| `90Degree` | ✔️ | Enables rotation events, but restricts total rotation to 45 degrees to the left and right. |
+| `Lightshow` | ❌ | Place for maps that only contains lighting events. |
+| `Lawless` | ❌ | Modded maps and modcharts can safely go here. No rules should apply. |
 
 #### \_difficultyBeatmaps
 

@@ -68,8 +68,9 @@ Follow these general guidelines as you work on your maps:
 By purchasing and using a high quality audio file, not only are you supporting your artist, but you save yourself a lot
 of headache while mapping. Look at the difference in quality for the same song, at the same beat.
 
-| OGG Quality |                      YouTube Rip                       |                     MP3                      |                     WAV                      |                      FLAC                      |
-| :---------: | :----------------------------------------------------: | :------------------------------------------: | :------------------------------------------: | :--------------------------------------------: |
+<!-- prettier-ignore -->
+| OGG Quality | YouTube Rip | MP3 | WAV | FLAC |
+| :-: | :-: | :-: | :-: | :-: |
 |      1      |  ![YouTube Rip 1](/.assets/images/mapping/ytrip1.jpg)  |  ![MP3 1](/.assets/images/mapping/mp31.jpg)  |  ![WAV 1](/.assets/images/mapping/wav1.jpg)  |  ![FLAC 1](/.assets/images/mapping/flac1.jpg)  |
 |      5      |  ![YouTube Rip 5](/.assets/images/mapping/ytrip5.jpg)  |  ![MP3 5](/.assets/images/mapping/mp35.jpg)  |  ![WAV 5](/.assets/images/mapping/wav5.jpg)  |  ![FLAC 5](/.assets/images/mapping/flac5.jpg)  |
 |     10      | ![YouTube Rip 10](/.assets/images/mapping/ytrip10.jpg) | ![MP3 10](/.assets/images/mapping/mp310.jpg) | ![WAV 10](/.assets/images/mapping/wav10.jpg) | ![FLAC 10](/.assets/images/mapping/flac10.jpg) |
@@ -160,8 +161,8 @@ on how to account for this.
 :::
 
 10. Give the player about two seconds to get ready by clicking the `Move first beat` button
-    ![Arrow Vortex move beat button](/.assets/images/mapping/av_movebeat.png) however many times needed to get your start time
-    close to 2.000 seconds or the sound you want to place your first note on aligned with the first bar.  
+    ![Arrow Vortex move beat button](/.assets/images/mapping/av_movebeat.png){.inline} however many times needed to get your
+    start time close to 2.000 seconds or the sound you want to place your first note on aligned with the first bar.  
     ![Aligned with first bar](/.assets/images/mapping/av_aligned.png) ![Alternate Aligned with first bar](/.assets/images/mapping/av_altAligned2.png)
     - After aligning, you should check the song again to verify that the beats still match.
 11. Now that you have the BPM and offset, you will need to add or remove the right amount of silence to the song track.
@@ -170,7 +171,7 @@ on how to account for this.
 
 **If you have a positive offset**, you will need to add that amount to the intro.
 
-1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](/.assets/images/mapping/selection.png)).
+1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](/.assets/images/mapping/selection.png){.inline}).
 2. Place the cursor at the start of the song track (Click on the song track and press your <kbd>Home</kbd> key).
 3. Click `Generate – > Silence...`  
    ![Generate Silence...](/.assets/images/mapping/audacity-generate_silence.png)
@@ -184,7 +185,7 @@ After generating the silence you can click the dark line in the song track to ge
 
 **If you have a negative offset**, you will need to remove that amount from the intro.
 
-1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](/.assets/images/mapping/selection.png)).
+1. Open the song in Audacity if you haven't already done so, then switch to the Selection Tool (![Selection Tool](/.assets/images/mapping/selection.png){.inline}).
 2. Add a new mono track
    ![Add new mono track](/.assets/images/mapping/audacity-add_new-mono-track.png)
 3. Select the new track and tap the <kbd>Home</kbd> key.
@@ -250,7 +251,7 @@ Continue below for how to do that.
 
 #### Sync the Song to the Beat
 
-1. Select the Time Shift Tool (![Time Shift Tool](/.assets/images/mapping/timeshift.png)).
+1. Select the Time Shift Tool (![Time Shift Tool](/.assets/images/mapping/timeshift.png){.inline}).
 2. Left click on the song track and hold, then drag the audio so that the first planned mapped note(s) in your song ends
    up within the appropriate seconds (see timeline above the track) to avoid a "Hot Start" or too long intro
    (See [Plan Your First Notes](#plan-your-first-note) if you haven't already).
@@ -276,7 +277,7 @@ If the waveform/audio clip has a gap to the timeline start (0,0 seconds) you wil
 else Audacity will export from the start of the audio clip and you will lose any sync you've done. Do the following
 to add silence:
 
-1. Switch to the Selection Tool (![Selection Tool](/.assets/images/mapping/selection.png)).
+1. Switch to the Selection Tool (![Selection Tool](/.assets/images/mapping/selection.png){.inline}).
 2. Select the empty space between the audio clip and the start of the track (Yellow vertical lines will indicate the
    start and end edges when you make a selection).  
    ![Adding silence with Audacity](/.assets/images/mapping/add_silence.png)
@@ -449,7 +450,8 @@ the timeline. If you've done this to shorten the intro, although not necessary, 
 and add a fade in. To trim and add a fade in to the song (optional) do the following:
 
 1. Drag a selection from 0.0 seconds to the end of the audio track (yellow vertical lines).
-2. Click Trim audio outside selection (![Trim audio to selection](/.assets/images/mapping/trim.png)). The arrows should now disappear.
+2. Click Trim audio outside selection (![Trim audio to selection](/.assets/images/mapping/trim.png){.inline}).
+   The arrows should now disappear.
 3. (Optional) Make a selection from track start (vertical yellow line) to about 0.5-1 seconds (depending on intro).
 4. (Optional) Go to `Effect menu -> Fade In`.
 5. Done.

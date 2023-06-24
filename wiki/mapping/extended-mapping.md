@@ -131,8 +131,9 @@ you must choose your placements wisely.
   as this can be very difficult or uncomfortable to play.
   Instead, patterns should encourage or even force the player to move or lean to a side.
 
-  |                   Awkward Wide Stretch                   |                          Lean/Move Wall                           |
-  | :------------------------------------------------------: | :---------------------------------------------------------------: |
+  <!-- prettier-ignore -->
+  | Awkward Wide Stretch | Lean/Move Wall |
+  | :-: | :-: |
   | ![Wide Pattern](/.assets/images/mapping/wide-stream.png) | ![Lean/Move Pattern](/.assets/images/mapping/6lane-move-wall.png) |
 
 - **Emphasis:**

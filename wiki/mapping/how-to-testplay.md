@@ -31,10 +31,11 @@ water, written feedback instead of video is totally acceptable as you learn the 
    You can choose to unzip the map and place it into your CustomWIPLevels folder yourself and continue the testplay, or @
    (ping) the mapper and let them know they need to zip _only_ the files, not the folder.
    [How to Zip Map Files Video](https://streamable.com/u20ci)
-5. Play the map 1-2 times in practice mode ![Practice Mode Icon](/.assets/images/mapping/practice_mode-icon.png), **NOT the big
-   'Play' button.** Ideally, you should only look to play the map once. You want to collect your first impressions and
-   general feedback. If you're not sure if something is 'correct', it's okay to replay a section, but repeatedly playing
-   the map will skew your muscle memory and cause you to overlook things as you become too adjusted to the map.
+5. Play the map 1-2 times in practice mode ![Practice Mode Icon](/.assets/images/mapping/practice_mode-icon.png),
+   **NOT the big 'Play' button.** Ideally, you should only look to play the map once. You want to collect your first
+   impressions and general feedback. If you're not sure if something is 'correct', it's okay to replay a section, but
+   repeatedly playing the map will skew your muscle memory and cause you to overlook things as you become too adjusted
+   to the map.
 
 :::warning
 It is important that you play the map in Practice Mode in order to prevent

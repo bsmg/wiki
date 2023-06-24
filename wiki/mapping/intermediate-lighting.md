@@ -355,6 +355,8 @@ Example removing the Monstercat logo from the environment:
 
 Some common elements that are removed from environments:
 
+<!-- markdownlint-disable MD013 -->
+
 | **Object Name**                                                                         | **Description**                                             |
 | --------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | `Spectrograms`                                                                          | The audio visualisers                                       |
@@ -364,6 +366,8 @@ Some common elements that are removed from environments:
 | `TimbalandLogo`<br> `TimbalandLogo (1)`<br> `TimbalandLogo (2)`<br> `TimbalandLogo (3)` | The logo of the Timbaland environment                       |
 | `LinkinParkTextLogoL`<br> `LinkinParkTextLogoR`                                         | The Linkin Park logo on the walls                           |
 | `LinkinParkSoldier`                                                                     | The soldier art on the floor of the Linkin Park environment |
+
+<!-- markdownlint-enable MD013 -->
 
 For a complete list of game objects, set `"PrintEnvironmentEnhancementDebug"` in the `Chroma.json` config file located in
 the `Beat Saber/UserData` folder to true. This will print environment enhancement information to your console.

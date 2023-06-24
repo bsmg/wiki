@@ -277,8 +277,9 @@ When they do, you will need to:
 2. Use <kbd>Shift + W</kbd> to add a stretch marker.
 3. Drag the stretch marker onto the beat line.
 
-| Step 1                                                                          | Step 2                                                                    | Step 3                                                                           |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Step 1 | Step 2 | Step 3 |
+| - | - | - |
 | ![Peak is not on beat marker](/.assets/images/mapping/reaperWarpAudioStep1.png) | ![Stretch Marker Added](/.assets/images/mapping/reaperWarpAudioStep2.png) | ![Marker moved onto beat line](/.assets/images/mapping/reaperWarpAudioStep3.png) |
 
 Warping your song is simply a matter of repeating this for the whole song. You should start by doing this every 4 beats
@@ -294,7 +295,8 @@ Excessive warps could introduce artifacts or significantly alter the song that i
 There can be many hidden "gochas" when warping a song. Here are some things you might encounter and their possible solutions.
 
 - If you are warping the beats and notice that the drifting becomes larger and larger, you may want a tempo change so
-  that you don't warp the audio as much. This might be caused by a BPM change in the song or some bands not caring about tempo.
+  that you don't warp the audio as much. This might be caused by a BPM change in the song or some bands not caring
+  about tempo.
   1. Click where you want the tempo change to begin.
   2. <kbd>Shift + C</kbd> to add a tempo change.
   3. Edit the position of the change to be exactly on the start of the beat.

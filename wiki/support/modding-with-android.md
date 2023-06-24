@@ -11,7 +11,8 @@ base game leaderboards.
 If you would like to play modded multiplayer, you need the `Beat Together` and `MultiQuestensions` mods, which enables
 cross-play between PC
 and modded Quests and allows for custom songs to be played. The mod can be found in the
-[Beat Saber Modding Group](https://discord.gg/beatsabermods) in `#quest-mods` or on the [Questboard](https://questmodding.com) site.
+[Beat Saber Modding Group](https://discord.gg/beatsabermods) in `#quest-mods` or on the
+[Questboard](https://questmodding.com) site.
 
 To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
 [ScoreSaber](https://scoresaber.com/quest) mod. [This link](https://scoresaber.com/quest) will take you to the

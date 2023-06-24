@@ -109,10 +109,11 @@ precision to get your notes to line up then you have an issue with your audio fi
 [Basic Audio Setup](./basic-audio.md) to ensure you're in sync!
 :::
 
-|                             1/1 Cursor Precision                              |                             1/2 Cursor Precision                              |                             1/3 Cursor Precision                              |                             1/4 Cursor Precision                              |
-| :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
+<!-- prettier-ignore -->
+| 1/1 Cursor Precision | 1/2 Cursor Precision | 1/3 Cursor Precision | 1/4 Cursor Precision |
+| :-: | :-: | :-: | :-: |
 | ![1/1 Cursor precision screenshot](/.assets/images/mapping/1-1_precision.png) | ![1/2 Cursor precision screenshot](/.assets/images/mapping/1-2_precision.png) | ![1/3 Cursor precision screenshot](/.assets/images/mapping/1-3_precision.png) | ![1/4 Cursor precision screenshot](/.assets/images/mapping/1-4_precision.png) |
-|                               1 block per beat                                |                               2 blocks per beat                               |                               3 blocks per beat                               |                               4 blocks per beat                               |
+| 1 block per beat | 2 blocks per beat | 3 blocks per beat | 4 blocks per beat |
 
 When timing out your map you'll want to double check EARLY that the waveform in your editor is lined up with the major
 lines of the editor track. If your waveform isn't lined up, revisit the [Basic Audio Setup](./basic-audio.md) page of
@@ -123,10 +124,11 @@ If your waveform isn't lined up it will make it **very** difficult to place bloc
 Get this right before you start or risk remapping later!
 :::
 
-|                                   Audio Not Lined Up                                    |                                     Audio Properly Synced                                      |
-| :-------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
+<!-- prettier-ignore -->
+| Audio Not Lined Up | Audio Properly Synced |
+| :-: | :-: |
 | ![Editor view with audio not properly synced](/.assets/images/mapping/audio-broken.png) | ![Editor view with audio synced to the editor track](/.assets/images/mapping/audio-synced.png) |
-|                    Needs audio edits, start offset, or has wrong bpm                    |                                      You're ready to map!                                      |
+| Needs audio edits, start offset, or has wrong bpm | You're ready to map! |
 
 ### Timing Notes
 
@@ -216,8 +218,8 @@ very short span of time. Diagonals, or any change of only 45 degrees between blo
 the cardinal directions they combine.
 
 ::: align center
-![Blue up right diagonal block](/.assets/images/mapping/bnur.png)is a DD with both ![Blue up block](/.assets/images/mapping/bnu.png)
-and ![Blue diagonal block](/.assets/images/mapping/bnr.png)
+![Blue up right diagonal block](/.assets/images/mapping/bnur.png){.inline} is a DD with both ![Blue up block](/.assets/images/mapping/bnu.png){.inline}
+and ![Blue diagonal block](/.assets/images/mapping/bnr.png){.inline}
 :::
 
 Double directionals cause the player to double their swing speed compared to a "standard" up/down pattern. They have to
@@ -227,10 +229,11 @@ the direction of every other block for better flow.
 Many new mappers use DDs to simulate the feel of drumming. While this _feels_ like it makes sense, drums have rebound
 when you hit them and imaginary computer blocks... don't. The game is called Beat Saber, not Beat Drummer!
 
-|                                Standard Flow                                 |                               Double Directionals                                |
-| :--------------------------------------------------------------------------: | :------------------------------------------------------------------------------: |
+<!-- prettier-ignore -->
+| Standard Flow | Double Directionals |
+| :-: | :-: |
 | ![Image of standard up down flow](/.assets/images/mapping/standard-flow.jpg) | ![Image of double directionals](/.assets/images/mapping/double-directionals.jpg) |
-|                           A good mapping practice                            |                              Yikes! Don't do this.                               |
+| A good mapping practice | Yikes! Don't do this. |
 
 #### Resets
 
@@ -253,10 +256,11 @@ the notes that come after than to the notes that come before. Normally at 3/4 or
 It is recommended that bomb resets are used sparingly and preferably with some sound associated to them.
 :::
 
-|                         3/4 bomb reset                          |                            1/2 bomb reset                            |
-| :-------------------------------------------------------------: | :------------------------------------------------------------------: |
+<!-- prettier-ignore -->
+| 3/4 bomb reset | 1/2 bomb reset |
+| :-: | :-: |
 | ![Image of 3/4 bomb reset](/.assets/images/mapping/34reset.png) | ![Image of double directionals](/.assets/images/mapping/12reset.png) |
-|                Enough time to reset comfortably                 |                Too close! Jerky uncomfortable motion                 |
+| Enough time to reset comfortably | Too close! Jerky uncomfortable motion |
 
 ::: warning
 Implicit resets will work with lower NJS, higher JD, and adequate patterns; but this will have downsides for faster
@@ -281,8 +285,9 @@ between foreswing and backhand swings with each block gives a smooth motion betw
 The diagram below illustrates how straining it is playing a note as either swing (mirrored for red). Without proper lead
 in for harsher swings, the player is likely to reset:
 
-|                         Forehand Swings                         |                         Backhand Swings                         |
-| :-------------------------------------------------------------: | :-------------------------------------------------------------: |
+<!-- prettier-ignore -->
+| Forehand Swings | Backhand Swings |
+| :-: | :-: |
 | ![Forehand Strain](/.assets/images/mapping/forehand_strain.png) | ![Backhand Strain](/.assets/images/mapping/backhand_strain.png) |
 
 This video illustrates the concept of parity: [YouTube](https://youtu.be/e0YlLwBz7Vk)
@@ -298,10 +303,11 @@ don't have the skill or interest in doing so. See the [Scoring](/grips-and-trick
 more info.
 :::
 
-|                                 0° Angle                                  |                                  45° Angle                                  |                                  90° Angle                                  |                                  135° Angle                                   |                                  180° Angle                                   |
-| :-----------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
+<!-- prettier-ignore -->
+| 0° Angle | 45° Angle | 90° Angle | 135° Angle | 180° Angle |
+| :-: | :-: | :-: | :-: | :-: |
 | ![0 degree angle change between blocks](/.assets/images/mapping/0deg.png) | ![45 degree angle change between blocks](/.assets/images/mapping/45deg.png) | ![90 degree angle change between blocks](/.assets/images/mapping/90deg.png) | ![135 degree angle change between blocks](/.assets/images/mapping/135deg.png) | ![180 degree angle change between blocks](/.assets/images/mapping/180deg.png) |
-|                                 No. (DD)                                  |                                  No. (DD)                                   |                                   Maybe.                                    |                                     Yes.                                      |                                     Yes.                                      |
+| No. (DD) | No. (DD) | Maybe. | Yes. | Yes. |
 
 **Basic Flow Concepts:**
 
@@ -320,68 +326,79 @@ that included these but that doesn't make them ok.
 
 #### Handclaps
 
-|                                Illustration                                 |                                  Editor View                                   | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| :-------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of a handclap](/.assets/images/mapping/controller-smash.png) | ![Editor view of a handclap](/.assets/images/mapping/controller-smash-alt.png) | Do not place blocks that point to each other in close proximity. This motion tells the player to smash their controllers together when playing for max points. Don't do it, no exceptions.<br /><br />Note: Different VR sets have different controllers. Vive wands are much bigger than Oculus touch controllers and Index knuckles... don't put your players' hardware at risk! _AKA Controller clash, Controller smash_ |
 
 #### Cross
 
-|                        Illustration                         |                          Editor View                           | Explanation                                                                                                                                                                                                          |
-| :---------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of cross](/.assets/images/mapping/cross.png) | ![Editor view of cross](/.assets/images/mapping/cross-alt.png) | The pattern is a handclap which can lead to smashed controllers. It can also cause tangled arms and ugly vision blocks. Inexperienced players will likely not read it correctly. Use a different pattern altogether. |
 
 #### Hammer Hits
 
-|                              Illustration                               |                                Editor View                                 | Explanation                                                                                                                                                       |
-| :---------------------------------------------------------------------: | :------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of a hammer hit](/.assets/images/mapping/hammer-hit.png) | ![Editor view of a hammer hit](/.assets/images/mapping/hammer-hit-alt.png) | Do not place a directional block that points towards a bomb on the same plane. This undermines the scoring system (and is just evil). Don't do it. No exceptions. |
 
 #### Disembodied notes
 
-|                                    Illustration                                     |                                      Editor View                                       | Explanation                                                                                                                                                                                                                                        |
-| :---------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of disembodied notes](/.assets/images/mapping/disembodied-notes.png) | ![Editor view of disembodied notes](/.assets/images/mapping/disembodied-notes-alt.png) | Do not hide blocks on the other side of walls. Walls obscure vision and it can be very difficult to see blocks on the other side. The player also loses haptic feedback of hitting a block correctly as the saber must also move through the wall. |
 
 #### Rapid Wall Dodge
 
-|                                   Illustration                                    |                                     Editor View                                      | Explanation                                                                                                                                                                                                                                                                                                                          |
-| :-------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of rapid wall dodge](/.assets/images/mapping/rapid-wall-dodge.png) | ![Editor view of rapid wall dodge](/.assets/images/mapping/rapid-wall-dodge-alt.png) | Do not force the player to very quickly move from one side of their play space to the other. Keep head movement smooth and predictable. Wall dodges are fine (and fun!) to use but allow ample time for the player to switch sides especially for higher BPM songs. You don't want to risk them bumping into things or falling over. |
 
 #### Danger Dash
 
-|                              Illustration                               |                                Editor View                                 | Explanation                                                                                                                                                                                                                                                                                                  |
-| :---------------------------------------------------------------------: | :------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of danger dash](/.assets/images/mapping/danger-dash.png) | ![Editor view of danger dash](/.assets/images/mapping/danger-dash-alt.png) | Never force the player into the far edge of their playspace with 3-width walls or a 2-width wall in the middle. Walls that encompass the two middle columns gives the player very little room to play, and you don't know how large their play area is or how far they will dash in response to these walls. |
 
 #### Bomb Spam
 
-|                            Illustration                             |                              Editor View                               | Explanation                                                                                                                                                                                   |
-| :-----------------------------------------------------------------: | :--------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of bomb spam](/.assets/images/mapping/bomb-spam.png) | ![Editor view of bomb spam](/.assets/images/mapping/bomb-spam-alt.png) | Bombs are good for forcing precision, or for punctuating silence, but overuse of bombs should be avoided. Also note that some people hate bombs in general, so they should be used sparingly. |
 
 #### Bomb Wall
 
-|                             Illustration                             |                               Editor View                               | Explanation                                                                                                                                                                                                               |
-| :------------------------------------------------------------------: | :---------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of bomb wall](/.assets/images/mapping/bomb-donut.png) | ![Editor view of bomb wall](/.assets/images/mapping/bomb-donut-alt.png) | Do not fill the entire playspace with bombs. In addition, bombs that force the player to point their sabers straight ahead are heavily discouraged. This creates a poor and ambiguous setup to hit any blocks afterwards. |
 
 #### Hidden Blocks
 
-|                                 Illustration                                 |                                   Editor View                                   | Explanation                                                                                                                                                                                                                                                                                                                    |
-| :--------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of hidden blocks](/.assets/images/mapping/stacked-hidden.png) | ![Editor view of hidden blocks](/.assets/images/mapping/stacked-hidden-alt.png) | Blocks should never be stacked on top of one another or in walls. These hinder visibility of blocks. Any combination of blocks are technically stackable in the editor (including bombs and walls). These are hard to spot if two identical blocks are stacked. Use the error checker in MMA2 or a plugin in CM to find these! |
 
 #### Hitbox Abuse
 
-|                                  Illustration                                  |                                         Editor View                                         | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| :----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of some hitbox abuse](/.assets/images/mapping/hitbox-abuse.png) | ![Alternate llustration of some hitbox abuse](/.assets/images/mapping/hitbox-abuse-alt.png) | Ensure there is room for the player to swing at each block. In the patterns depicted here, there is not enough room for the saber to slice each block without hitting the other. These are technically still possible to hit, but only by coming in at an angle, and if you have to come in at an angle, you may as well change the block direction to a diagonal anyway.<br /><br />The illustration below from Split, one of the game developers, shows the size of the block hitbox. The **large** outer box is for good hits and the small inner box is for bad hits.<br />![Illustration of block collider hitboxes](/.assets/images/mapping/hitbox-from-split.jpg) |
 
 #### Wide Precision
 
-|                                 Illustration                                  |                                   Editor View                                    | Explanation                                                                                                                                                   |
-| :---------------------------------------------------------------------------: | :------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of wide precision](/.assets/images/mapping/wide-precision.png) | ![Editor view of wide precision](/.assets/images/mapping/wide-precision-alt.png) | These bombs are incredibly hard to avoid for players with short arms. When the player swings through these blocks, their arms come inward, and hit the bombs. |
 
 ### MAYBE: Highly Situational Patterns
@@ -391,92 +408,107 @@ It's best to steer clear of these until you're much more comfortable with mappin
 
 #### Triangle
 
-|                            Illustration                             |                              Editor View                               | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| :-----------------------------------------------------------------: | :--------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of a triangle](/.assets/images/mapping/triangle.png) | ![Editor view of a triangle](/.assets/images/mapping/triangle-alt.png) | Triangles are patterns that cause incredibly uncomfortable resets due to excession rotation in one direction. The pattern breaks the forehand/backhand mechanic. See the [Mapping with Flow](#do-mapping-with-flow) to revisit this explanation.<br /><br />**Note 1:** Not all triangle shaped patterns are cursed triangles. <br /><br />**Note 2:** This sort of pattern plays differently at Hard difficulties and below when there are a couple of beats between each swing but stay away at Expert and ExpertPlus. |
 
 #### Flicks
 
-|                         Illustration                          |                           Editor View                            | Explanation                                                                                                                                                                                                                                                               |
-| :-----------------------------------------------------------: | :--------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of a flick](/.assets/images/mapping/flick.png) | ![Editor view of a flick](/.assets/images/mapping/flick-alt.png) | "Flicks" of two or more blocks of the same color at high precision (like 1/4 or faster) require very fast movement on one hand. Keep in mind whether the player can hit these blocks at faster speeds to ensure that this pattern is not an unwarranted difficulty spike. |
 
 #### Incorrect Side Hits
 
-|                                        Illustration                                         |                                          Editor View                                           | Explanation                                                                                                                                                                                                                                                                                                                                                                                     |
-| :-----------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of upside down side hits](/.assets/images/mapping/upside-down-side-hits.png) | ![Editor view of upside down side hits](/.assets/images/mapping/upside-down-side-hits-alt.png) | Generally speaking, when making a double crossover, you should put RED on top when slicing left, and put BLUE on top when slicing right. This is because the saber that swings into the opposite lane naturally swings at a slight downward angle rather than perfect horizontal. The exception is Expert/ExpertPlus, but **only** if the flow of patterns leads to these placements naturally. |
 
 #### Rapid Crossovers
 
-|                                   Illustration                                   |                                     Editor View                                     | Explanation                                                                                                                                                                                                                                                                                   |
-| :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of rapid crossovers](/.assets/images/mapping/rapid-crossover.png) | ![Editor view of rapid crossovers](/.assets/images/mapping/rapid-crossover-alt.png) | Give the player time to prepare, and don't make them cross sides too fast or too often. This pattern takes time to process and it's a larger motion in-game than it looks in the editor. It's also recommended to offset the hits and place each note different rows to reduce handclap risk. |
 
 #### Wide Inward Doubles
 
-|                                    Illustration                                    |                                        Editor View                                         | Explanation                                                                                                                                                                                                                                                                                                          |
-| :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of inward doubles](/.assets/images/mapping/wide-inward-doubles.png) | ![Editor view of wide inward doubles](/.assets/images/mapping/wide-inward-doubles-alt.png) | Inward facing double blocks on the edges or downward facing blocks on the top row are very difficult to hit for small/short players, and uncomfortable for the rest. This should generally be avoided. The exception is Expert/ExpertPlus, but **only** if the flow of patterns leads to these placements naturally. |
 
 #### Excessive Towers
 
-|                                   Illustration                                    |                                     Editor View                                      | Explanation                                                                                                                                                                                                                                        |
-| :-------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of excessive towers](/.assets/images/mapping/excessive-towers.png) | ![Editor view of excessive towers](/.assets/images/mapping/excessive-towers-alt.png) | Be mindful when using many towers in succession. Placing 3-4 blocks of the same color, vertically or horizontally, require larger _and_ faster swings. Overusing towers can lead to [overemphasis](#overmapping--undermapping) and player fatigue. |
 
 #### Awkward Curves
 
-|                                        Illustration                                         |                                          Editor View                                           | Explanation                                                                                                                                                                                                                                                                                                                |
-| :-----------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of awkward curved swings](/.assets/images/mapping/awkward-curved-swings.png) | ![Editor view of awkward curved swings](/.assets/images/mapping/awkward-curved-swings-alt.png) | Do not place two or more blocks of the same color together that do not properly lead into each other. Hitting these blocks properly requires the player to abuse the angle lenciency by ignoring the direction and playing if as they were the same direction. Because of this, you should these blocks in same direction. |
 
 #### Detached Walls
 
-|                                 Illustration                                  |                                   Editor View                                    | Explanation                                                                                                                                                          |
-| :---------------------------------------------------------------------------: | :------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of detached walls](/.assets/images/mapping/detached-walls.png) | ![Editor view of detached walls](/.assets/images/mapping/detached-walls-alt.png) | Combine your adjacent/touching walls for a cleaner, less visually cluttered experience. Don't ever cover the entire grid with walls as depicted in the illustration. |
 
 #### Extended Crouch
 
-|                                  Illustration                                   |                                    Editor View                                     | Explanation                                                                                                                                                                                                                                                                                                                                                           |
-| :-----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of extended crouch](/.assets/images/mapping/extended-crouch.png) | ![Editor view of extended crouch](/.assets/images/mapping/extended-crouch-alt.png) | Consider your target audience when using extended sections of crouch walls. You can't predict all players' physical ability, so use this in moderation. If you have notes during or immediately following a crouching section, consider visibility due to the player's lower position. When the player is crouched, centre blocks in bottom row become vision blocks. |
 
 #### Corner Crouch
 
-|                                Illustration                                 |                                  Editor View                                   | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| :-------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of corner crouch](/.assets/images/mapping/corner-crouch.png) | ![Editor view of corner crouch](/.assets/images/mapping/corner-crouch-alt.png) | Consider your target audience when forcing the player to crouch in one corner. As stated above, crouching sections should be kept short because you can't predict all players' physical ability. Forcing the player to additionally move left/right while crouching increases the threshold of full-body range of motion. While this tactic may be fun for some, be mindful that some players are incapable of this motion. |
 
 #### Sky Streams
 
-|                              Illustration                               |                                Editor View                                 | Explanation                                                                                                                                                                                                                                   |
-| :---------------------------------------------------------------------: | :------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of sky streams](/.assets/images/mapping/sky-streams.png) | ![Editor view of sky streams](/.assets/images/mapping/sky-streams-alt.png) | Avoid repetitive use of blocks in the top row. This causes shoulder strain in addition to top row down notes requiring large swings to score well on.<br /><br />**Note:** Blocks on the top row in Easy and Normal should be used sparingly. |
 
 #### Visual Clutter
 
-|                                 Illustration                                  |                                   Editor View                                    | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| :---------------------------------------------------------------------------: | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of visual clutter](/.assets/images/mapping/visual-clutter.png) | ![Editor view of visual clutter](/.assets/images/mapping/visual-clutter-alt.png) | Avoid unnecessary visual clutter. Having a directional block point towards/away from a dot block does not serve any functional purpose, and it's hard to read at a glance. If you're telling the player to slice in a particular direction, be consistent and make both blocks directional to increase readability.<br /><br />**Note:** When making sliders, the established community convention is to start with an arrow then use dots afterward. |
 
 #### Easy to Miss Patterns
 
-|                                       Illustration                                        |                                         Editor View                                          | Explanation                                                                                                                                                                                                                                                                                                                                                                  |
-| :---------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of overlapping hitboxes](/.assets/images/mapping/overlapping-hitboxes.png) | ![Editor view of overlapping hitboxes](/.assets/images/mapping/overlapping-hitboxes-alt.png) | Generally, try to avoid patterns with overlapping hitboxes, as this makes the pattern difficult to hit consistently. The hitboxes are larger than the note, and most players rarely hit the actual note when they swing, making it easy to hit the smaller hitbox within notes that detects bad hits on patterns like this. See [Hitbox Abuse](#hitbox-abuse) for more info. |
 
 #### Arm Tangles
 
-|                              Illustration                              |                                Editor View                                | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| :--------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Illustration of arm tangles](/.assets/images/mapping/arm-tangle.png) | ![Editor view of arm tangles](/.assets/images/mapping/arm-tangle-alt.png) | Crossing hands is usually fine, but crossing hands and going in opposite directions vertically involves more risk. These patterns require very careful setup to avoid players clapping their controllers or arms. Reverse these colors and you're good to go. This is only one example of an arm tangle. Always be aware of where you're leaving your player's arms and how they are going to escape from that position to hit the next pattern. |
 
 #### Face Punchers
 
-|                                  Editor View                                  | Exaplanation                                                                                                                                                                                                                                                                                                                |
-| :---------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<!-- prettier-ignore -->
+| Illustration | Editor View | Explanation |
+| :-: | :-: | :- |
 | ![Editor view of a face puncher](/.assets/images/mapping/facepuncher-alt.png) | Face punchers are blocks placed in the opposite top corners pointing outwards. Without proper setup, this placement requires the player to perform a large crossover in a direction that potentially causes their controllers to smash into their headset. A double of face punchers is an especially uncomfortable motion. |
 
 ## Gauging Difficulty & Down-Mapping
@@ -551,8 +583,8 @@ influenced by the song's tempo:
   will travel to reach the player.
 - **Half Jump Duration** (HJD) is a measure of time (in beats) from when a note spawns to when it reaches the player.
 - **Start Beat Offset** (also known as **Spawn Distance Modifier**) is a modifier that directly affects the Half Jump Duration
-  which in turns affects Jump Distance. A positive value will make the notes spawn further away from the player, while a negative
-  value will bring the notes closer.
+  which in turns affects Jump Distance. A positive value will make the notes spawn further away from the player, while
+  a negative value will bring the notes closer.
 
 The following video demonstrates the effect of these values in-game:  
 [YouTube](https://youtu.be/S70CDoWjdwk) | [Streamable](https://streamable.com/2l7fz9).

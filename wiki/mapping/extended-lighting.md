@@ -119,8 +119,9 @@ feeling of a fade in / out event.
 ::: align center
 Comparison of shades of red.
 
-|                              100% Value                              |                             75% Value                              |                             50% Value                              |                             25% Value                              |                             0% Value                             |
-| :------------------------------------------------------------------: | :----------------------------------------------------------------: | :----------------------------------------------------------------: | :----------------------------------------------------------------: | :--------------------------------------------------------------: |
+<!-- prettier-ignore -->
+| 100% Value | 75% Value | 50% Value | 25% Value | 0% Value |
+| :-: | :-: | :-: | :-: | :-: |
 | ![Image of RGB 100% Red](/.assets/images/mapping/red-lights-100.jpg) | ![Image of RGB 75% Red](/.assets/images/mapping/red-lights-75.jpg) | ![Image of RGB 50% Red](/.assets/images/mapping/red-lights-50.png) | ![Image of RGB 25% Red](/.assets/images/mapping/red-lights-25.png) | ![Image of RGB 0% Red](/.assets/images/mapping/red-lights-0.png) |
 
 :::
@@ -147,8 +148,9 @@ even more convincing fades or for more subtle lighting.
 ::: align center
 Comparison of the same red with different alphas.
 
-|                                  1.00 Alpha                                  |                                  0.75 Alpha                                  |                                  0.50 Alpha                                  |                                  0.25 Alpha                                  |                                  0.00 Alpha                                  |
-| :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
+<!-- prettier-ignore -->
+| 1.00 Alpha | 0.75 Alpha | 0.50 Alpha | 0.25 Alpha | 0.00 Alpha |
+| :-: | :-: | :-: | :-: | :-: |
 | ![Image of Red 1.00 Alpha](/.assets/images/mapping/red-lights-alpha-100.jpg) | ![Image of Red 0.75 Alpha](/.assets/images/mapping/red-lights-alpha-075.png) | ![Image of Red 0.50 Alpha](/.assets/images/mapping/red-lights-alpha-050.png) | ![Image of Red 0.25 Alpha](/.assets/images/mapping/red-lights-alpha-025.png) | ![Image of Red 0.00 Alpha](/.assets/images/mapping/red-lights-alpha-000.png) |
 
 :::
