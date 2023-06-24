@@ -56,7 +56,7 @@ The text you enter in the suggestions has to be exact or the Chroma lighting eff
 7. Click Edit Level.
 8. While in the editor, press `Tab` to swap to the lighting menu and then press `Shift+C` to bring up the RGB panel.
 
-::: align center
+::: center
 ![Screenshot of the MMA2 Chroma RGB Panel](/.assets/images/mapping/mma2-chroma-rgb-panel.png)
 
 The RGB Panel
@@ -84,7 +84,7 @@ Chroma events don't do anything on its own. Chroma events function by acting as 
 "dying" the normal lighting events to the specified color. In the following example, the orange and pink events don't do
 anything until the vanilla blue fade event happens. This functions as an orange fade and then a pink fade.
 
-::: align center
+::: center
 ![Screenshot of the MMA2 lighting track with Chroma events](/.assets/images/mapping/mma2-chroma.png)
 :::
 
@@ -106,7 +106,7 @@ Gradients using a 1/8 precision are fine enough to look smooth in game.
 
 Remember that you still need to place the normal lighting events for the Chroma lights to function!
 
-::: align center
+::: center
 ![Screenshot of the MMA2 lighting track with a Chroma gradient](/.assets/images/mapping/mma2-chroma-gradient.png)
 :::
 
@@ -116,7 +116,7 @@ Using darker shades of a color, allows you to emulate a custom fade in/out effec
 value will emanate less light (appearing darker). Using a gradient that starts or ends with a black color can give the
 feeling of a fade in / out event.
 
-::: align center
+::: center
 Comparison of shades of red.
 
 <!-- prettier-ignore -->
@@ -145,7 +145,7 @@ In the new Chroma format, the colour data is built into the vanilla lighting eve
 before the actual lighting event. The color data format now has an optional forth value for alpha. These can be used for
 even more convincing fades or for more subtle lighting.
 
-::: align center
+::: center
 Comparison of the same red with different alphas.
 
 <!-- prettier-ignore -->

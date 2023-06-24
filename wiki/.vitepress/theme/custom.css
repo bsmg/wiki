@@ -32,3 +32,10 @@
 html.dark .vp-doc :not(pre) > kbd {
   border-color: rgba(0, 0, 0, 0.7);
 }
+
+/**
+ * Center Align
+ * -------------------------------------------------------------------------- */
+.vp-doc div.center {
+  text-align: center;
+}

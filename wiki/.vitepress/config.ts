@@ -1,5 +1,6 @@
-import { resolve } from 'node:path'
 import { env } from 'node:process'
+import type Token from 'markdown-it/lib/token'
+import container from 'markdown-it-container'
 import { defineConfig } from 'vitepress'
 import type { DefaultTheme } from 'vitepress'
 
@@ -253,5 +254,11 @@ export default defineConfig({
     },
 
     search: search(),
+  },
+
+  markdown: {
+    config: md => {
+      md.use(container, 'center')
+    },
   },
 })

@@ -217,7 +217,7 @@ Double directionals (or DDs) are what you get when you have two blocks of the sa
 very short span of time. Diagonals, or any change of only 45 degrees between blocks, are considered to be DDs with both
 the cardinal directions they combine.
 
-::: align center
+::: center
 ![Blue up right diagonal block](/.assets/images/mapping/bnur.png){.inline} is a DD with both ![Blue up block](/.assets/images/mapping/bnu.png){.inline}
 and ![Blue diagonal block](/.assets/images/mapping/bnr.png){.inline}
 :::

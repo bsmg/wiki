@@ -98,7 +98,7 @@ Von der Community erstellte benutzerdefinierte Umgebungsmodelle (Plattformen) ex
 
 Die Grundstruktur jeder Umgebung ist meist gleich. Im [Mediocre Map Assistant 2](./mediocre-map-assistant.md) Editor sieht die Beleuchtungsspur wie folgt aus:
 
-::: align center
+::: center
 ![Screenshot of the MMA2 lighting track from the top down](/.assets/images/mapping/mma2-lighting-track.jpg)
 :::
 

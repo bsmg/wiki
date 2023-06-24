@@ -73,7 +73,7 @@ You have several options available to you:
 
 - Alternatively, you can make two folders called `CustomLevels` and `CustomWIPLevels` and then provide the path to them.
 
-::: align center
+::: center
 ![Screenshot of Mediocre Mapper path entry](/.assets/images/mapping/mma2-folder-path.jpg)
 :::
 
@@ -115,7 +115,7 @@ You have several options available to you:
   - Example: `/home/bsmg/MMA2/CustomLevels` and `/home/bsmg/MMA2/CustomWIPLevels` should be entered as
     `Z:/home/bsmg/MMA2/CustomLevels` and `Z:/home/bsmg/MMA2/CustomWIPLevels`
 
-::: align center
+::: center
 ![Screenshot of Mediocre Mapper path entry for Linux](/.assets/images/mapping/mma2-linux-path.png)
 :::
 
@@ -126,7 +126,7 @@ All of your working map files will go into a song name folder within this Custom
 The path given from setup may not carry over from the main screen. Make sure the fields have the paths from your setup and
 are not blank. If blank, add the path(s) from [First Time Setup](#first-time-setup) and press <kbd>Enter</kbd> to confirm!
 
-::: align center
+::: center
 ![Check Paths Not Blank](/.assets/images/mapping/mma2-checkWipSongPath.png)
 :::
 
@@ -135,7 +135,7 @@ are not blank. If blank, add the path(s) from [First Time Setup](#first-time-set
 Once you've set up your paths, these core settings are all available from the song selection page when
 you first open the program.
 
-::: align center
+::: center
 ![Song Selection screen in Mediocre Map Assistant 2](/.assets/images/mapping/mma2-song-setup.jpg)
 :::
 
@@ -216,7 +216,7 @@ Click <kbd>Edit</kbd> to enter your song information and metadata.
 
 The `Song Info` page is the first screen you see every time you edit a map.
 
-::: align center
+::: center
 ![Mediocre Map Assistant 2 song setup screen](/.assets/images/mapping/mma2-song-info.jpg)
 :::
 
@@ -308,7 +308,7 @@ Mapping settings can be accessed by clicking the hamburger menu in the top right
 toggled using the <kbd>ESC</kbd> key. These settings persist throughout your mapping session but will be reset the next
 time you open the editor. The `Mapping Settings` pane also includes a comprehensive list of keybindings.
 
-::: align center
+::: center
 ![Mapping Setting screen in Mediocre Map Assistant 2](/.assets/images/mapping/mma2-mapping-settings.jpg)
 :::
 
@@ -357,7 +357,7 @@ This section walks you through basic usage of the error checker's primary functi
 
 Here is the main panel for the Error Checker:
 
-::: align center
+::: center
 ![Error Checker main panel](/.assets/images/mapping/mma2-ec-panel.png)
 :::
 
@@ -382,7 +382,7 @@ Here is the main panel for the Error Checker:
 Once you click <kbd>Check for {error of your choice}</kbd> pay attention to the bottom center of your screen.
 Red text will pop up that tells you how many errors were found within the specified number of beats:
 
-::: align center
+::: center
 ![122 errors found... don't do this. This is bad.](/.assets/images/mapping/mma2-errors_found.png)
 :::
 
