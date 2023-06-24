@@ -1,8 +1,10 @@
 # CRLF Normalisation
-text eol=lf
+* text=auto eol=lf
+*.svg text -diff
 *.png binary -text -eol
 *.jpg binary -text -eol
 *.jpeg binary -text -eol
+*.gif binary -text -eol
 *.mp4 binary -text -eol
 
 # Ignore meta files in ZIP export
