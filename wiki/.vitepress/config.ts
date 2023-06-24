@@ -198,12 +198,11 @@ export default defineConfig({
               ['Map Format', './map-format'],
               ['Editor Keybinds', './editor-keybinds'],
               ['MMA2 User Guide', './mediocre-map-assistant'],
-            ]
+            ],
           ],
           ['Help Playtest Other Maps', './how-to-testplay'],
           ['Coping with Mapping Anxiety', './mapping-anxiety'],
           ['Mapping Resources Contributors', './mapping-credits'],
-
         ],
       },
       {
@@ -234,7 +233,7 @@ export default defineConfig({
               ['Custom Platforms', './custom-platforms'],
               ['Custom Notes', './custom-notes'],
               ['Custom Walls', './custom-walls'],
-            ]
+            ],
           ],
           [
             'Model Creation Guides',
