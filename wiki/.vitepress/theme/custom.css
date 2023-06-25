@@ -1,8 +1,8 @@
 /**
  * Smooth Scrolling
  * -------------------------------------------------------------------------- */
-:root {
-  @media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
+  :root {
     scroll-behavior: smooth;
   }
 }
