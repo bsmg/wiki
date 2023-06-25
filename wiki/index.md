@@ -37,7 +37,7 @@ hero:
   <HomeGroup title="Creating Content">
     <HomeItem name="Modder's Guide" href="./modding/" />
     <HomeItem name="Mapper Resources" href="./mapping/" />
-    <HomeItem name="3D Models Guide" href="./models//" />
+    <HomeItem name="3D Models Guide" href="./models/" />
   </HomeGroup>
 
   <HomeGroup title="Other Resources">
