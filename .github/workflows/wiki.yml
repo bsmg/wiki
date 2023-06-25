@@ -9,6 +9,9 @@ on:
       - cwdin-backups
       - 'crowdin/**'
 
+env:
+  NODE_VERSION: 18.x
+
 jobs:
   test:
     name: Run Tests
@@ -19,7 +22,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18.x
+          node-version: ${{ env.NODE_VERSION }}
           cache: npm
       - name: Install packages
         run: npm ci
@@ -44,7 +47,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18.x
+          node-version: ${{ env.NODE_VERSION }}
           cache: npm
       - name: Install packages
         run: npm ci
