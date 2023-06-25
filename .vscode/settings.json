@@ -1,0 +1,9 @@
+{
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    "editor.renderFinalNewline": "off",
+    "files.trimTrailingWhitespace": false,
+  }
+}

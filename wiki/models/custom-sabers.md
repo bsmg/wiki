@@ -1,12 +1,19 @@
+---
+prev: false
+next: false
+---
+
 # Custom Sabers
 
 ## Installation
+
 :::tip NOTE
 Sabers need to be made specifically for Quest or PC and are not interchangeable between the two. You can tell which platform
 a saber is for by the file extension. `.saber` files are for PC while Quest uses `.qsaber` or `.whacker` files.
 :::
 
 ### PC Sabers
+
 The latest mod for Custom Sabers is now called Saber Factory,
 and can be found in the [#pc-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord
 or in [Mod Assistant](https://github.com/Assistant/ModAssistant). Run Mod Assistant, select the Saber
@@ -25,6 +32,7 @@ For those who want a simple custom saber mod, the Custom Sabers mod is still bei
 found [here](https://twitter.com/nalulululuna/status/1493263219485405184).
 
 ### Quest Sabers
+
 Custom Sabers for Quest are provided by the Qosmetics mod. The latest version can be found in the
 [#quest-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord. Sabers are called `whackers` and are currently
 hosted in the [Qosmetics Community Discord](https://discord.gg/qosmetics). Legacy filetypes like `.qsaber` made for older
@@ -33,12 +41,15 @@ versions can still be used. `.zip` files can also be used but will require you t
 ## Usage
 
 ### PC Users
+
 Inside the game in the main menu you will see on the left a `CUSTOM SABERS` or `SABER FACTORY` button under the `Mods` section.
 Pressing it will open up the menu you can use to select which sabers you want to use.
 
 ### Quest Users
+
 Upload the `.whacker` file to your Quest using the [BMBF Web Interface](/quest-modding.md#installing-mods).
 You can then select which saber is active from the Qosmetics menu in-game.
 
 ## Creating Sabers
+
 [MissRaynor's Saber Guide](./sabers-guide.md) is an excellent resource for learning how to make your own sabers.

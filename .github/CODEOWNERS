@@ -1,21 +1,26 @@
-# Vuepress and Repo Setup
-.github/**/*          @lolpants
-/wiki/.vuepress/**/*  @lolpants
-nginx/**/*            @lolpants
-.dockerignore         @lolpants
-.editorconfig         @lolpants
-.eslintignore         @lolpants
-.eslintrc.js          @lolpants
-.gitattributes        @lolpants
-.gitignore            @lolpants
-Dockerfile            @lolpants
-LICENSE               @lolpants
-package.json          @lolpants
-yarn.lock             @lolpants
+# Vitepress and Repo Setup
+.github/**/*            @lolpants
+/wiki/.vitepress/**/*   @lolpants
+nginx/**/*              @lolpants
+scripts/**/*            @lolpants
+.dockerignore           @lolpants
+.editorconfig           @lolpants
+.gitattributes          @lolpants
+.gitignore              @lolpants
+.markdownlint.json      @lolpants
+.prettierignore         @lolpants
+.prettierrc.json        @lolpants
+Dockerfile              @lolpants
+LICENSE                 @lolpants
+package.json            @lolpants
+package-lock.json       @lolpants
+
+# Translation
+crowdin.yml             @bloodcloak
 
 # Wiki Admins
-/wiki/**/*.md          @megalon @williums @bloodcloak
+/wiki/**/*.md           @bloodcloak
 
 # Section Owners
-/wiki/modding/**/*.md  @megalon @williums @bloodcloak @Auros @Caeden117
-/wiki/mapping/**/*.md  @megalon @williums @bloodcloak @helencarnate
+/wiki/modding/**/*.md   @bloodcloak @Auros @Caeden117
+/wiki/mapping/**/*.md   @bloodcloak @helencarnate

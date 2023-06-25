@@ -1,18 +1,15 @@
 ---
-sidebar: auto
+prev: false
+next: false
 ---
 
 # Regional Hub
 
 Une liste de communautés régionales en dehors du Beat Saber Modding Group.
 
----
-
 ## Africa
 
-*Aucune pour le moment*
-
----
+_Aucune pour le moment_
 
 ## Amériques
 
@@ -24,8 +21,6 @@ Le discord officiel (privé) pour la communauté Beat Saber canadienne !
 
 [Formulaire d'inscription](https://docs.google.com/forms/d/e/1FAIpQLSfWhARJyoYJ_FcbChiVUTAPPkBlVsENsBF2bs5twkJkrbjbGQ/viewform)
 
----
-
 ## Asie
 
 **Beat Saber Asia**
@@ -34,8 +29,6 @@ Communauté pour les joueurs asiatiques et organisations VR. Nous avons un quota
 
 [Inscription](https://forms.gle/Ga3jWoCkugPBD6BZ6)
 
----
-
 ### Moyen-Orient
 
 **Beat Saber Middle East**
@@ -43,8 +36,6 @@ Communauté pour les joueurs asiatiques et organisations VR. Nous avons un quota
 Un Discord privé pour les joueurs Beat Saber du ou au Moyen-Orient.
 
 [Formulaire d'inscription](http://bit.ly/BSME_Application)
-
----
 
 ## Europe
 
@@ -56,8 +47,6 @@ Un Discord privé pour les joueurs Beat Saber du ou au Moyen-Orient.
 
 [Discord](https://discord.gg/TvRkNY2)
 
----
-
 ### Belgique
 
 **Belgian Beat Saber Community**
@@ -65,8 +54,6 @@ Un Discord privé pour les joueurs Beat Saber du ou au Moyen-Orient.
 Communauté Beat Saber belge officielle (privée) pour tout joueur de Beat Saber confrère belge.
 
 [Formulaire d'inscription](https://forms.gle/26VXi4HmnZnDoPZN7)
-
----
 
 ### Danemark
 
@@ -76,8 +63,6 @@ Serveur Beat Saber officiel pour celles et ceux qui savent prononcer "rød grød
 
 [Formulaire d'inscription](https://forms.gle/AhgBFSK7RnRDDMHa9)
 
----
-
 ### France
 
 **Beat Saber FR**
@@ -86,8 +71,6 @@ Une communauté Beat Saber francophone privée pour les joueurs francophones !
 
 [Inscription](https://docs.google.com/forms/d/1Ro79QYJ83gAsT6m_hpRgCNyhKNZDlEiZJ3oSh5mwTG4)
 
----
-
 ### Allemagne
 
 **German Beat Saber Community**
@@ -95,8 +78,6 @@ Une communauté Beat Saber francophone privée pour les joueurs francophones !
 Discord Beat Saber allemand officiel, mais les personnes d'autres pays sont également bienvenues :)
 
 [Discord](https://discord.gg/y4G6ruN)
-
----
 
 ### Les Pays-Bas
 
@@ -108,8 +89,6 @@ Quand vous rejoignez le Discord, nous vérifions si vous êtes néerlandais en u
 
 [Discord](https://discord.gg/sDa7xrE)
 
----
-
 ### Suisse
 
 **SwissSaber**
@@ -117,8 +96,6 @@ Quand vous rejoignez le Discord, nous vérifions si vous êtes néerlandais en u
 Discord Beat Saber officiel pour les joueurs suisses, mais les personnes d'autres pays sont bienvenues.
 
 [Discord](https://discord.gg/eV6SUUF)
-
----
 
 ### Royaume-Uni
 
@@ -128,10 +105,6 @@ Nous prenons le thé !
 
 [Discord](https://discord.gg/FC2pzeN)
 
----
-
 ## Oceania
 
-*Aucune pour le moment*
-
----
+_Aucune pour le moment_

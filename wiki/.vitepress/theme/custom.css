@@ -1,0 +1,41 @@
+/**
+ * Smooth Scrolling
+ * -------------------------------------------------------------------------- */
+:root {
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+}
+
+/**
+ * Inline Images
+ * -------------------------------------------------------------------------- */
+.vp-doc img.inline {
+  display: inline-block;
+}
+
+/**
+ * Keypress Component
+ * -------------------------------------------------------------------------- */
+.vp-doc :not(pre) > kbd {
+  font-size: var(--vp-code-font-size);
+  border-radius: 4px;
+  padding: 3px 6px;
+  color: var(--vp-c-text-code);
+  background-color: var(--vp-c-mute);
+  transition: color 0.5s, background-color 0.5s;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.3);
+  border-bottom-width: 3px;
+}
+
+html.dark .vp-doc :not(pre) > kbd {
+  border-color: rgba(0, 0, 0, 0.7);
+}
+
+/**
+ * Center Align
+ * -------------------------------------------------------------------------- */
+.vp-doc div.center {
+  text-align: center;
+}

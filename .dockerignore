@@ -16,4 +16,4 @@ crowdin.yml
 !.yarn/sdks
 !.yarn/versions
 
-wiki/.vuepress/dist
+wiki/.vitepress/dist

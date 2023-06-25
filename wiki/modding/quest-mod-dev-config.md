@@ -1,5 +1,6 @@
 ---
-sidebar: auto
+prev: false
+next: false
 description: Learn how to create create mod configs for your Quest Mod!
 ---
 
@@ -11,7 +12,7 @@ This section will guide you through the basics of using `config-utils` to create
 
 ## Prerequisites
 
-* Install `config-utils` by running `qpm dependency add config-utils` in your project directory.
+- Install `config-utils` by running `qpm dependency add config-utils` in your project directory.
 
 Make sure to restore after adding the dependencies.
 
