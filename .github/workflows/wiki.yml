@@ -1,5 +1,6 @@
 name: Wiki CI
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - master
@@ -7,10 +8,6 @@ on:
     branches-ignore:
       - cwdin-backups
       - 'crowdin/**'
-  workflow_dispatch:
-
-env:
-  DEPLOY_URL: 'https://bsmg.wiki/'
 
 jobs:
   test:
@@ -31,89 +28,34 @@ jobs:
       - name: Lint Image Sizes
         run: npm run lint:images
 
-  build:
-    name: Docker Build
-    needs: test
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - name: Prepare
-        id: prepare
-        run: |
-          IMAGE_NAME=wiki
-
-          GIT_REPO='https://github.com/${{ github.repository }}'
-          DOCKER_USER=`echo ${{ github.repository_owner }} | tr '[:upper:]' '[:lower:]'`
-          DOCKER_IMAGE=ghcr.io/$DOCKER_USER/$IMAGE_NAME
-
-          VERSION=`git rev-parse --short HEAD`
-          if [[ $GITHUB_REF == refs/tags/* ]]; then
-            VERSION=${GITHUB_REF#refs/tags/v}
-          fi
-
-          echo "git_repo=${GIT_REPO}" >> $GITHUB_OUTPUT
-          echo "docker_user=${DOCKER_USER}" >> $GITHUB_OUTPUT
-          echo "docker_image=${DOCKER_IMAGE}" >> $GITHUB_OUTPUT
-          echo "version=${VERSION}" >> $GITHUB_OUTPUT
-      - name: Setup Docker Buildx
-        uses: docker/setup-buildx-action@v2
-      - name: Login to Docker Registry
-        uses: docker/login-action@v2
-        with:
-          registry: ghcr.io
-          username: ${{ steps.prepare.outputs.docker_user }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Build and Push
-        uses: docker/build-push-action@v3
-        with:
-          context: .
-          push: ${{ github.ref == 'refs/heads/master' }}
-          tags: ${{ steps.prepare.outputs.docker_image }}:${{ steps.prepare.outputs.version }}
-          build-args: GIT_REPO=${{ steps.prepare.outputs.git_repo }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-
   deploy:
     name: Deploy
     if: github.ref == 'refs/heads/master'
-    needs: build
     runs-on: ubuntu-latest
-    env:
-      ENABLE: ${{ secrets.ENABLE_CI_DEPLOY }}
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Skipping Deployment Warning
-        if: env.ENABLE != '1ENABLED'
-        run: echo "::warning::ENABLE_CI_DEPLOY Secret not set to 1ENABLED, skipping deployment..."
       - name: Checkout
-        if: env.ENABLE == '1ENABLED'
         uses: actions/checkout@v3
-      - name: Create Deployment
-        if: env.ENABLE == '1ENABLED'
-        uses: chrnorm/deployment-action@releases/v2
-        id: deployment
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          token: '${{ github.token }}'
-          environment: Production
-          environment-url: ${{ env.DEPLOY_URL }}
+          node-version: 18.x
+          cache: npm
+      - name: Install packages
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v2
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: wiki/.vitepress/dist
       - name: Deploy Wiki
-        if: env.ENABLE == '1ENABLED'
-        run: "curl --fail -X POST -H 'Authorization: Bearer ${{ secrets.HOOK_TOKEN }}' -d `git rev-parse --short HEAD` '${{ secrets.HOOK_URL }}'"
-      - name: Update Deployment (Success)
-        if: env.ENABLE == '1ENABLED' && success()
-        uses: chrnorm/deployment-status@releases/v2
-        with:
-          deployment-id: ${{ steps.deployment.outputs.deployment_id }}
-          token: '${{ github.token }}'
-          state: success
-          environment-url: ${{ env.DEPLOY_URL }}
-      - name: Update Deployment (Failure)
-        if: env.ENABLE == '1ENABLED' && failure()
-        uses: chrnorm/deployment-status@releases/v2
-        with:
-          deployment-id: ${{ steps.deployment.outputs.deployment_id }}
-          token: '${{ github.token }}'
-          state: failure
-          environment-url: ${{ env.DEPLOY_URL }}
+        id: deployment
+        uses: actions/deploy-pages@v1
