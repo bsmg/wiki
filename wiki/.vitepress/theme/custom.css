@@ -39,3 +39,22 @@ html.dark .vp-doc :not(pre) > kbd {
 .vp-doc div.center {
   text-align: center;
 }
+
+/**
+ * medium-zoom
+ * -------------------------------------------------------------------------- */
+.medium-zoom-overlay {
+  z-index: var(--vp-z-index-sidebar);
+  transition: opacity 0.5s;
+
+  /* images with transparent backdrop should stay legible */
+  background-color: var(--vp-c-bg);
+}
+
+.medium-zoom--opened .medium-zoom-overlay {
+  opacity: 0.875;
+}
+
+.medium-zoom-image {
+  z-index: calc(var(--vp-z-index-sidebar) + 1);
+}
