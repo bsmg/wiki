@@ -52,21 +52,23 @@ they'll be explained later down this page.
 
 ```json
 {
-  "_version": "2.0.0",
+  "_version": "2.1.0",
   "_songName": "Example Song",
   "_songSubName": "",
   "_songAuthorName": "Song Artist",
   "_levelAuthorName": "You",
   "_beatsPerMinute": 120,
-  "_shuffle": 0,
+  "_shuffle": 0.0,
   "_shufflePeriod": 0.5,
   "_previewStartTime": 31.5,
-  "_previewDuration": 7,
+  "_previewDuration": 7.0,
   "_songFilename": "song.ogg",
   "_coverImageFilename": "cover.jpg",
   "_environmentName": "BigMirrorEnvironment",
   "_allDirectionsEnvironmentName": "GlassDesertEnvironment",
-  "_songTimeOffset": 0,
+  "_songTimeOffset": 0.0,
+  "_environmentNames": [], // Introduced in version 2.1.0
+  "_colorSchemes": [], // Introduced in version 2.1.0
   "_customData": {
     // Any custom data will go here.
     // If empty, this should be removed entirely.
@@ -80,7 +82,9 @@ they'll be explained later down this page.
 
 #### \_version
 
-This field describes the version of the map format we are using. Currently, Beat Saber's map info format is on version `2.0.0`.
+This field describes the version of the map format we are using. Currently, Beat Saber's map info format is on version `2.1.0`.
+
+Version `2.1.0` was introduced in Beat Saber version 1.31.0.
 
 #### \_songName
 
@@ -166,13 +170,13 @@ This is the local location to your map's cover image. Both `.jpg` and `.png` are
 #### \_environmentName
 
 This defines the internal ID for the environment that the map uses. To get a complete list of valid environments, see the
-`Info.dat Name`s of each environment in the [Environment Previews section](./basic-lighting.md#environment-previews).
+`Info.dat` names of each environment in the [Environment Previews section](./basic-lighting.md#environment-previews).
 
 #### \_allDirectionsEnvironmentName
 
 This defines the internal ID for the environment that the map uses when playing in 360 Degree or 90 Degree levels. This
 is a required field, even if the level does not include any 360 or 90 Degree difficulties. To get a complete list of valid
-360 environments, see the `Info.dat Name`s of each environment in the [Environment Previews section](./basic-lighting.md#environment-previews).
+360 environments, see the `Info.dat` names of each environment in the [Environment Previews section](./basic-lighting.md#environment-previews).
 
 #### \_songTimeOffset
 
@@ -183,6 +187,15 @@ based off the value of `_songTimeOffset` in seconds.
 Hit sounds are also affected by the same offset. We recommend the mapper sync up their audio file _before_ mapping, as
 described in the [Basic Audio Setup guide](./basic-audio.md), to circumvent any need for `_songTimeOffset` and related alternatives.
 :::
+
+#### \_environmentNames
+
+This defines a list of internal ID for the environments that the map uses. To get a complete list of valid environments,
+see the `Info.dat` names of each environment in the [Environment Previews section](./basic-lighting.md#environment-previews).
+
+#### \_colorSchemes
+
+This defines a list of [Color Schemes](#color-schemes) that the map uses.
 
 #### \_customData
 
@@ -197,6 +210,80 @@ community to find map editors, tools, or mods that use this `_customData` object
 
 This is an array of all [Difficulty Beatmap Sets](#difficulty-beatmap-sets) defined in the map.
 
+### Color Schemes
+
+```json
+{
+  "useOverride": true,
+  "colorScheme": {
+    "colorSchemeId": "Hello world!",
+    "saberAColor": {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "saberBColor": {
+      "r": 0.0,
+      "g": 1.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "obstaclesColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "environmentColor0": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "environmentColor1": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "environmentColor0Boost": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "environmentColor1Boost": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    }
+  }
+}
+```
+
+#### useOverride
+
+A boolean which determines if the color scheme is used. If this is false, [colorScheme](#colorscheme) values are ignored
+and will use the environment's color scheme.
+
+#### colorScheme
+
+An object which contains information on the color scheme the difficulty beatmap can use. `colorSchemeId` has no in-game
+effect and is only used for label UI in the official editor. Colors are described by the value of the red, green, blue,
+and alpha components.
+
+| Name                     | Effect                               |
+| :----------------------- | ------------------------------------ |
+| `saberAColor`            | The color of the left saber.         |
+| `saberBColor`            | The color of the right saber.        |
+| `obstaclesColor`         | The color of the obstacles.          |
+| `environmentColor0`      | The color of the "Red" event.        |
+| `environmentColor1`      | The color of the "Blue" event.       |
+| `environmentColor0Boost` | The boost color of the "Red" event.  |
+| `environmentColor1Boost` | The boost color of the "Blue" event. |
+
 ### Difficulty Beatmap Sets
 
 Difficulty Beatmap Sets are groups of difficulties, all under one characteristic.
@@ -205,7 +292,7 @@ These represent your Standard, No Arrow, One Saber, and other characteristics.
 ```json
 {
   // ... Rest of Info.dat ...
-  "_songTimeOffset": 0,
+  "_songTimeOffset": 0.0,
   "_difficultyBeatmapSets": [
     {
       "_beatmapCharacteristicName": "Standard",
@@ -237,6 +324,7 @@ and will _not_ appear on unmodded copies of Beat Saber and could cause the map t
 | `OneSaber` | ✔️ | Restrict notes to Right (Blue) notes, and disables the Left (Red) saber. |
 | `360Degree` | ✔️ | Enables rotation events, with no restriction on total rotation. |
 | `90Degree` | ✔️ | Enables rotation events, but restricts total rotation to 45 degrees to the left and right. |
+| `Legacy`| ✔️ | Old versions of standard maps. Introduced in Beat Saber version 1.31.0. |
 | `Lightshow` | ❌ | Place for maps that only contains lighting events. |
 | `Lawless` | ❌ | Modded maps and modcharts can safely go here. No rules should apply. |
 
@@ -252,7 +340,7 @@ such as [Note Jump Speed](#notejumpmovementspeed), and the location of the diffi
 ```json
 {
   // ... Rest of Info.dat ...
-  "_songTimeOffset": 0,
+  "_songTimeOffset": 0.0,
   "_difficultyBeatmapSets": [
     {
       "_beatmapCharacteristicName": "Standard",
@@ -261,8 +349,10 @@ such as [Note Jump Speed](#notejumpmovementspeed), and the location of the diffi
           "_difficulty": "ExpertPlus",
           "_difficultyRank": 9,
           "_beatmapFilename": "StandardExpertPlus.dat",
-          "_noteJumpMovementSpeed": 18,
-          "_noteJumpStartBeatOffset": 0,
+          "_noteJumpMovementSpeed": 18.0,
+          "_noteJumpStartBeatOffset": 0.0,
+          "_beatmapColorSchemeIdx": 0, // Introduced in version 2.1.0
+          "_environmentNameIdx": 0, // Introduced in verision 2.1.0
           "_customData": {
             // Any custom data will go here.
             // If empty, this should be removed entirely.
@@ -337,6 +427,16 @@ it more convenient to have Half Jump Distance and Half Jump Duration.
 This value acts as a direct offset to the Half Jump Duration, explained in [`_noteJumpMovementSpeed`](#notejumpmovementspeed),
 which in turn affects the Jump Distance. This can be a floating point number to achieve a precise Jump Duration.
 
+#### \_beatmapColorSchemeIdx
+
+The value determines by index which color scheme in the [`_colorSchemes`](#color-schemes) list to use. If a color scheme
+cannot be found, this will fallback to the color scheme of the selected environment.
+
+#### \_environmentNameIdx
+
+This value determines by index which environment in the [`_environmentNames`](#_environmentnames) list to use. If an
+environment name cannot be found, this will fallback to the environment listed in [`_environmentName`](#_environmentname).
+
 #### \_customData
 
 This is an optional field that contains data unrelated to the official Beat Saber level format.
@@ -380,13 +480,13 @@ This version was introduced in Beat Saber version 1.20.0.
 }
 ```
 
-Version `3.0.0` was introduced in Beat Saber version 1.20.0.  
-Version `3.1.0` was introduced in Beat Saber version 1.25.0.  
-Version `3.2.0` was introduced in Beat Saber version 1.26.0.
-
 #### version
 
 This field describes the version of the map format we are using.
+
+Version `3.0.0` was introduced in Beat Saber version 1.20.0.  
+Version `3.1.0` was introduced in Beat Saber version 1.25.0.  
+Version `3.2.0` was introduced in Beat Saber version 1.26.0.
 
 #### bpmEvents
 
@@ -584,7 +684,7 @@ The bottommost layer is located at layer 0, and inceases to the topmost layer lo
   "b": 10.0, // Beat
   "x": 1,
   "y": 0,
-  "d": 5, // Duration
+  "d": 5.0, // Duration
   "w": 1, // Width
   "h": 3 // Height
 }
@@ -995,7 +1095,7 @@ An integer which determines the frequency of the strobe (in beat time).
           "p": 1, // Transition from previous event rotation behaviour
           "e": 1, // Ease type
           "l": 1, // Additional loops
-          "r": 340, // Rotation value
+          "r": 340.0, // Rotation value
           "o": 1 // Rotation direction
         }
       ]
@@ -1141,7 +1241,7 @@ Introduced in version 3.2.0.
           "b": 0.0, // Add beat time
           "p": 1, // Transition from previous event rotation behaviour
           "e": 1, // Ease type
-          "t": 1 // Translation valuen
+          "t": 1.0 // Translation value
         }
       ]
     }
@@ -1319,10 +1419,6 @@ An integer which determines how the limit is applied.
 Each Difficulty Beatmap contains a corresponding file which defines the notes, obstacles, events,
 and other objects for that particular difficulty.
 
-Version `2.6.0` was introduced in Beat Saber version 1.20.0.  
-Version `2.5.0` was introduced in Beat Saber version 1.18.0.  
-Version `2.2.0` was introduced in Beat Saber version 1.13.1.
-
 ### Base Object
 
 ```json
@@ -1343,6 +1439,10 @@ Version `2.2.0` was introduced in Beat Saber version 1.13.1.
 #### \_version
 
 This field describes the version of the map format we are using.
+
+Version `2.6.0` was introduced in Beat Saber version 1.20.0.  
+Version `2.5.0` was introduced in Beat Saber version 1.18.0.  
+Version `2.2.0` was introduced in Beat Saber version 1.13.1.
 
 #### \_notes
 
@@ -1381,7 +1481,7 @@ community to find map editors, tools, or mods that use this `_customData` object
 
 ```json
 {
-  "_time": 10,
+  "_time": 10.0,
   "_lineIndex": 1,
   "_lineLayer": 0,
   "_type": 0,
@@ -1555,16 +1655,6 @@ An integer number which represents how the arc curves from the head to the mid p
 - Head and tail `LineIndex` are equal; and
 - Head and tail `CutDirection` are equal **OR** their angle difference is 180
 
-:::warning NOTE
-Currently angle difference is NOT an absolute value. These means only half of the opposing direction pairs will meet
-these conditions. These pairs are (head -> tail):
-
-- Down -> Up
-- Right -> Left
-- DownRight -> UpLeft
-- UpRight -> DownLeft
-  :::
-
 | `_sliderMidAnchorMode` | Result            |
 | :--------------------: | ----------------- |
 |          `0`           | Straight          |
@@ -1584,10 +1674,10 @@ community to find map editors, tools, or mods that use this `_customData` object
 
 ```json
 {
-  "_time": 10,
+  "_time": 10.0,
   "_lineIndex": 1,
   "_type": 0,
-  "_duration": 10,
+  "_duration": 10.0,
   "_width": 1,
   "_customData": {
     // Any custom data will go here.
