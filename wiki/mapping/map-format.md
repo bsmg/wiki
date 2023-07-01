@@ -58,15 +58,15 @@ they'll be explained later down this page.
   "_songAuthorName": "Song Artist",
   "_levelAuthorName": "You",
   "_beatsPerMinute": 120,
-  "_shuffle": 0,
+  "_shuffle": 0.0,
   "_shufflePeriod": 0.5,
   "_previewStartTime": 31.5,
-  "_previewDuration": 7,
+  "_previewDuration": 7.0,
   "_songFilename": "song.ogg",
   "_coverImageFilename": "cover.jpg",
   "_environmentName": "BigMirrorEnvironment",
   "_allDirectionsEnvironmentName": "GlassDesertEnvironment",
-  "_songTimeOffset": 0,
+  "_songTimeOffset": 0.0,
   "_customData": {
     // Any custom data will go here.
     // If empty, this should be removed entirely.
@@ -205,7 +205,7 @@ These represent your Standard, No Arrow, One Saber, and other characteristics.
 ```json
 {
   // ... Rest of Info.dat ...
-  "_songTimeOffset": 0,
+  "_songTimeOffset": 0.0,
   "_difficultyBeatmapSets": [
     {
       "_beatmapCharacteristicName": "Standard",
@@ -252,7 +252,7 @@ such as [Note Jump Speed](#notejumpmovementspeed), and the location of the diffi
 ```json
 {
   // ... Rest of Info.dat ...
-  "_songTimeOffset": 0,
+  "_songTimeOffset": 0.0,
   "_difficultyBeatmapSets": [
     {
       "_beatmapCharacteristicName": "Standard",
@@ -261,8 +261,8 @@ such as [Note Jump Speed](#notejumpmovementspeed), and the location of the diffi
           "_difficulty": "ExpertPlus",
           "_difficultyRank": 9,
           "_beatmapFilename": "StandardExpertPlus.dat",
-          "_noteJumpMovementSpeed": 18,
-          "_noteJumpStartBeatOffset": 0,
+          "_noteJumpMovementSpeed": 18.0,
+          "_noteJumpStartBeatOffset": 0.0,
           "_customData": {
             // Any custom data will go here.
             // If empty, this should be removed entirely.
@@ -584,7 +584,7 @@ The bottommost layer is located at layer 0, and inceases to the topmost layer lo
   "b": 10.0, // Beat
   "x": 1,
   "y": 0,
-  "d": 5, // Duration
+  "d": 5.0, // Duration
   "w": 1, // Width
   "h": 3 // Height
 }
@@ -995,7 +995,7 @@ An integer which determines the frequency of the strobe (in beat time).
           "p": 1, // Transition from previous event rotation behaviour
           "e": 1, // Ease type
           "l": 1, // Additional loops
-          "r": 340, // Rotation value
+          "r": 340.0, // Rotation value
           "o": 1 // Rotation direction
         }
       ]
@@ -1141,7 +1141,7 @@ Introduced in version 3.2.0.
           "b": 0.0, // Add beat time
           "p": 1, // Transition from previous event rotation behaviour
           "e": 1, // Ease type
-          "t": 1 // Translation valuen
+          "t": 1.0 // Translation value
         }
       ]
     }
@@ -1381,7 +1381,7 @@ community to find map editors, tools, or mods that use this `_customData` object
 
 ```json
 {
-  "_time": 10,
+  "_time": 10.0,
   "_lineIndex": 1,
   "_lineLayer": 0,
   "_type": 0,
@@ -1584,10 +1584,10 @@ community to find map editors, tools, or mods that use this `_customData` object
 
 ```json
 {
-  "_time": 10,
+  "_time": 10.0,
   "_lineIndex": 1,
   "_type": 0,
-  "_duration": 10,
+  "_duration": 10.0,
   "_width": 1,
   "_customData": {
     // Any custom data will go here.
