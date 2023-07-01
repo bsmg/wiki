@@ -380,13 +380,13 @@ This version was introduced in Beat Saber version 1.20.0.
 }
 ```
 
-Version `3.0.0` was introduced in Beat Saber version 1.20.0.  
-Version `3.1.0` was introduced in Beat Saber version 1.25.0.  
-Version `3.2.0` was introduced in Beat Saber version 1.26.0.
-
 #### version
 
 This field describes the version of the map format we are using.
+
+Version `3.0.0` was introduced in Beat Saber version 1.20.0.  
+Version `3.1.0` was introduced in Beat Saber version 1.25.0.  
+Version `3.2.0` was introduced in Beat Saber version 1.26.0.
 
 #### bpmEvents
 
@@ -1319,10 +1319,6 @@ An integer which determines how the limit is applied.
 Each Difficulty Beatmap contains a corresponding file which defines the notes, obstacles, events,
 and other objects for that particular difficulty.
 
-Version `2.6.0` was introduced in Beat Saber version 1.20.0.  
-Version `2.5.0` was introduced in Beat Saber version 1.18.0.  
-Version `2.2.0` was introduced in Beat Saber version 1.13.1.
-
 ### Base Object
 
 ```json
@@ -1343,6 +1339,10 @@ Version `2.2.0` was introduced in Beat Saber version 1.13.1.
 #### \_version
 
 This field describes the version of the map format we are using.
+
+Version `2.6.0` was introduced in Beat Saber version 1.20.0.  
+Version `2.5.0` was introduced in Beat Saber version 1.18.0.  
+Version `2.2.0` was introduced in Beat Saber version 1.13.1.
 
 #### \_notes
 
