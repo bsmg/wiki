@@ -1555,16 +1555,6 @@ An integer number which represents how the arc curves from the head to the mid p
 - Head and tail `LineIndex` are equal; and
 - Head and tail `CutDirection` are equal **OR** their angle difference is 180
 
-:::warning NOTE
-Currently angle difference is NOT an absolute value. These means only half of the opposing direction pairs will meet
-these conditions. These pairs are (head -> tail):
-
-- Down -> Up
-- Right -> Left
-- DownRight -> UpLeft
-- UpRight -> DownLeft
-  :::
-
 | `_sliderMidAnchorMode` | Result            |
 | :--------------------: | ----------------- |
 |          `0`           | Straight          |
