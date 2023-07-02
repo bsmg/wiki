@@ -258,6 +258,7 @@ export default defineConfig({
       copyright: 'Licensed under CC BY-NC-SA 4.0',
     },
 
+    externalLinkIcon: true,
     socialLinks: [{ icon: 'github', link: 'https://github.com/bsmg/wiki' }],
     editLink: {
       pattern: 'https://github.com/bsmg/wiki/edit/master/wiki/:path',
