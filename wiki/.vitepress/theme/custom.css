@@ -45,10 +45,6 @@ html.dark .vp-doc :not(pre) > kbd {
  * -------------------------------------------------------------------------- */
 .medium-zoom-overlay {
   z-index: var(--vp-z-index-sidebar);
-  transition: opacity 0.5s;
-
-  /* images with transparent backdrop should stay legible */
-  background-color: var(--vp-c-bg);
 }
 
 .medium-zoom--opened .medium-zoom-overlay {
