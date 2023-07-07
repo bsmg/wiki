@@ -20,5 +20,5 @@ crowdin.yml             @bloodcloak
 /wiki/**/*.md           @bloodcloak
 
 # Section Owners
-/wiki/modding/**/*.md   @bloodcloak @Auros @Caeden117
-/wiki/mapping/**/*.md   @bloodcloak @helencarnate
+# /wiki/modding/**/*.md   @bloodcloak @Auros @Caeden117
+# /wiki/mapping/**/*.md   @bloodcloak @helencarnate
