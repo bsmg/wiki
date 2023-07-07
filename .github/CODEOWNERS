@@ -3,14 +3,12 @@
 /wiki/.vitepress/**/*   @luludotdev
 nginx/**/*              @luludotdev
 scripts/**/*            @luludotdev
-.dockerignore           @luludotdev
 .editorconfig           @luludotdev
 .gitattributes          @luludotdev
 .gitignore              @luludotdev
 .markdownlint.json      @luludotdev
 .prettierignore         @luludotdev
 .prettierrc.json        @luludotdev
-Dockerfile              @luludotdev
 LICENSE                 @luludotdev
 package.json            @luludotdev
 package-lock.json       @luludotdev

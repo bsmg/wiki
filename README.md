@@ -35,10 +35,6 @@ The Wiki has a built-in linter that runs automatically when you push commits to 
 
 Once you have finished making changes, you can either commit them directly using `git` tools, or copy them into the GitHub web interface if you don't know how to use `git`.
 
-## 🚀 Deploying
-
-The wiki is deployed using Docker. Pull the [latest image](https://github.com/bsmg/wiki/packages/54581) and run it. It exposes port 80, which can be remapped to whatever.
-
 ## 🔐 Licensing
 
 - The code that generates the wiki is licensed under the [MIT License](https://github.com/bsmg/wiki/blob/master/LICENSE).
