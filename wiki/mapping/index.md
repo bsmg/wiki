@@ -528,14 +528,14 @@ Encountered something not listed here? Drop into `#mapping-discussion` for assis
 
 ---
 
-#### `` _difficultyBeatmapSets[]._difficultyBeatmaps[].`Difficulty.dat`._version ``: Must not be null
+#### ``_difficultyBeatmapSets[]._difficultyBeatmaps[].`Difficulty.dat`._version``: Must not be null
 
 - You are using an old, outdated editor that is not compliant with the current data schema.
   See [Community Editors](#community-editors) for the current options.
 
 ---
 
-#### `` _difficultyBeatmapSets[]._difficultyBeatmaps[]`Difficulty.dat`._notes[]_time ``: Must be between 0 and x
+#### ``_difficultyBeatmapSets[]._difficultyBeatmaps[]`Difficulty.dat`._notes[]_time``: Must be between 0 and x
 
 - Your map contains notes outside of the playable map (usually from a copy and paste error).
   Remove them and reattempt your upload.

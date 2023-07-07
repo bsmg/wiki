@@ -18,15 +18,15 @@
   },
   "devDependencies": {
     "@types/markdown-it-container": "^2.0.5",
-    "@types/node": "^20.3.3",
+    "@types/node": "^20.4.0",
     "byte-size": "^8.1.1",
-    "globby": "^13.2.1",
+    "globby": "^13.2.2",
     "kleur": "^4.1.5",
     "markdown-it-container": "^3.0.0",
     "markdownlint-cli2": "^0.8.1",
     "medium-zoom": "^1.0.8",
-    "prettier": "^2.8.8",
-    "vitepress": "1.0.0-beta.4",
+    "prettier": "^3.0.0",
+    "vitepress": "1.0.0-beta.5",
     "vue": "^3.3.4"
   }
 }

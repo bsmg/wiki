@@ -1,8 +1,8 @@
-# Lockfile
-package-lock.json
-
-# VSCode
-.vscode/
+# Localisation
+wiki/de
+wiki/fr
+wiki/ja
+wiki/nl
 
 # Generated
 wiki/.vitepress/dist
