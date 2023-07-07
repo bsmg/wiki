@@ -1,19 +1,19 @@
 # Vitepress and Repo Setup
-.github/**/*            @lolpants
-/wiki/.vitepress/**/*   @lolpants
-nginx/**/*              @lolpants
-scripts/**/*            @lolpants
-.dockerignore           @lolpants
-.editorconfig           @lolpants
-.gitattributes          @lolpants
-.gitignore              @lolpants
-.markdownlint.json      @lolpants
-.prettierignore         @lolpants
-.prettierrc.json        @lolpants
-Dockerfile              @lolpants
-LICENSE                 @lolpants
-package.json            @lolpants
-package-lock.json       @lolpants
+.github/**/*            @luludotdev
+/wiki/.vitepress/**/*   @luludotdev
+nginx/**/*              @luludotdev
+scripts/**/*            @luludotdev
+.dockerignore           @luludotdev
+.editorconfig           @luludotdev
+.gitattributes          @luludotdev
+.gitignore              @luludotdev
+.markdownlint.json      @luludotdev
+.prettierignore         @luludotdev
+.prettierrc.json        @luludotdev
+Dockerfile              @luludotdev
+LICENSE                 @luludotdev
+package.json            @luludotdev
+package-lock.json       @luludotdev
 
 # Translation
 crowdin.yml             @bloodcloak
