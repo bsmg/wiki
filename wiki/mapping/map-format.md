@@ -4,6 +4,8 @@ next: false
 description: Take a deep dive into the format for a Beat Saber map.
 ---
 
+<!-- markdownlint-disable MD036 -->
+
 # Map Format
 
 There's some cases where, available tools and map editors do not provide some functionality that you want.
