@@ -208,9 +208,17 @@ export default defineConfig({
           [
             'Editing Resources',
             [
-              ['Map Format', './map-format'],
               ['Editor Keybinds', './editor-keybinds'],
               ['MMA2 User Guide', './mediocre-map-assistant'],
+            ],
+          ],
+          [
+            'Map Format',
+            [
+              ['Overview', './map-format'],
+              ['Info.dat', './infodat-format'],
+              ['v3 Difficulty File', './difficulty-format-v3'],
+              ['v2 Difficulty File', './difficulty-format-v2'],
             ],
           ],
           ['Help Playtest Other Maps', './how-to-testplay'],
