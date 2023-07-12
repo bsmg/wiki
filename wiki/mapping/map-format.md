@@ -80,36 +80,36 @@ they'll be explained later down this page.
 }
 ```
 
-#### \_version
+**\_version**
 
 This field describes the version of the map format we are using. Currently, Beat Saber's map info format is on version `2.1.0`.
 
 Version `2.1.0` was introduced in Beat Saber version 1.31.0.
 
-#### \_songName
+**\_songName**
 
 This field describes the name of your song.
 
-#### \_songSubName
+**\_songSubName**
 
 This field describes any additional titles that could go into your song. These can include the following:
 
 - Additional artists (Such as featured artists)
 - Any variation in production (Song remix, VIP, etc.)
 
-#### \_songAuthorName
+**\_songAuthorName**
 
 This field describes the main artist, group, band, brand, etc. for the song.
 
-#### \_levelAuthorName
+**\_levelAuthorName**
 
 This field describes the person who created the map. That's you! Or, whoever makes a map using your tool or level editor.
 
-#### \_beatsPerMinute
+**\_beatsPerMinute**
 
 This describes the Beats Per Minute (BPM) of your song. This is a floating point number, so decimal BPMs are supported.
 
-#### \_shuffle
+**\_shuffle**
 
 This and [`_shufflePeriod`](#shuffleperiod) are uncommon in the community. If your song has "swing" in it, where some beats
 in a measure are intentionally offset from the rest, you can correct potential timing issues in your map by utilizing
@@ -121,7 +121,7 @@ they will be shifted forward in time, and a negative value means they will be sh
 The total amount they will be offset by is described in [`_shufflePeriod`](#shuffleperiod),
 since they both work together to produce that value.
 
-#### \_shufflePeriod
+**\_shufflePeriod**
 
 `_shufflePeriod` is used to determine _when_ a swing beat will occur. More specifically, it is the time (in beats)
 where a swing beat will occur.
@@ -147,38 +147,38 @@ is `0.2`, and `_shufflePeriod` is `0.25`.
 | 1.5                | No             | 1.5            |
 | 1.75               | Yes            | 1.8            |
 
-#### \_previewStartTime
+**\_previewStartTime**
 
 This controls the start time (in seconds) for the in-game preview of your map.
 This is a floating point number, so decimals are supported.
 
-#### \_previewDuration
+**\_previewDuration**
 
 This controls the duration (in seconds) of the in-game preview of your map.
 This is a floating point number, so decimals are supported.
 
-#### \_songFilename
+**\_songFilename**
 
 This is the local location to your map's audio file. The standard practice is to have every map file in the same directory,
 so in most cases, this is just the name and extension for your audio file (For example, `song.ogg`).
 
-#### \_coverImageFilename
+**\_coverImageFilename**
 
 This is the local location to your map's cover image. Both `.jpg` and `.png` are supported image types. Similar to
 [`_songFilename`](#songfilename), this is most often just the name and extension for the cover image (For example, `cover.jpg`).
 
-#### \_environmentName
+**\_environmentName**
 
 This defines the internal ID for the environment that the map uses. To get a complete list of valid environments, see the
 `Info.dat` names of each environment in the [Environment Previews section](./basic-lighting.md#environment-previews).
 
-#### \_allDirectionsEnvironmentName
+**\_allDirectionsEnvironmentName**
 
 This defines the internal ID for the environment that the map uses when playing in 360 Degree or 90 Degree levels. This
 is a required field, even if the level does not include any 360 or 90 Degree difficulties. To get a complete list of valid
 360 environments, see the `Info.dat` names of each environment in the [Environment Previews section](./basic-lighting.md#environment-previews).
 
-#### \_songTimeOffset
+**\_songTimeOffset**
 
 This is Beat Saber's method for tackling off-sync audio. This offsets the audio in game,
 based off the value of `_songTimeOffset` in seconds.
@@ -188,16 +188,16 @@ Hit sounds are also affected by the same offset. We recommend the mapper sync up
 described in the [Basic Audio Setup guide](./basic-audio.md), to circumvent any need for `_songTimeOffset` and related alternatives.
 :::
 
-#### \_environmentNames
+**\_environmentNames**
 
 This defines a list of internal ID for the environments that the map uses. To get a complete list of valid environments,
 see the `Info.dat` names of each environment in the [Environment Previews section](./basic-lighting.md#environment-previews).
 
-#### \_colorSchemes
+**\_colorSchemes**
 
 This defines a list of [Color Schemes](#color-schemes) that the map uses.
 
-#### \_customData
+**\_customData**
 
 This is an optional field that contains data unrelated to the official Beat Saber level format.
 If no custom data exists, this object should be removed entirely.
@@ -206,7 +206,7 @@ The exact specifics of what goes in `_customData` is entirely dependent on commu
 As such, we cannot list all `_customData` fields here. You will have to do your own searching throughout the Beat Saber
 community to find map editors, tools, or mods that use this `_customData` object.
 
-#### \_difficultyBeatmapSets
+**\_difficultyBeatmapSets**
 
 This is an array of all [Difficulty Beatmap Sets](#difficulty-beatmap-sets) defined in the map.
 
@@ -263,12 +263,12 @@ This is an array of all [Difficulty Beatmap Sets](#difficulty-beatmap-sets) defi
 }
 ```
 
-#### useOverride
+**useOverride**
 
 A boolean which determines if the color scheme is used. If this is false, [colorScheme](#colorscheme) values are ignored
 and will use the environment's color scheme.
 
-#### colorScheme
+**colorScheme**
 
 An object which contains information on the color scheme the difficulty beatmap can use. `colorSchemeId` has no in-game
 effect and is only used for label UI in the official editor. Colors are described by the value of the red, green, blue,
@@ -305,7 +305,7 @@ These represent your Standard, No Arrow, One Saber, and other characteristics.
 }
 ```
 
-#### \_beatmapCharacteristicName
+**\_beatmapCharacteristicName**
 
 This is the name of the characteristic attached to this beatmap set.
 
@@ -328,7 +328,7 @@ and will _not_ appear on unmodded copies of Beat Saber and could cause the map t
 | `Lightshow` | ❌ | Place for maps that only contains lighting events. |
 | `Lawless` | ❌ | Modded maps and modcharts can safely go here. No rules should apply. |
 
-#### \_difficultyBeatmaps
+**\_difficultyBeatmaps**
 
 This is an array of [Difficulty Beatmaps](#difficulty-beatmaps) defined within this beatmap set.
 
@@ -364,7 +364,7 @@ such as [Note Jump Speed](#notejumpmovementspeed), and the location of the diffi
 }
 ```
 
-#### \_difficulty
+**\_difficulty**
 
 This is the internal difficulty, read by Beat Saber.
 
@@ -376,7 +376,7 @@ Contrary to what you might think, this is _not_ just a normal string, but rather
 - `Expert`
 - `ExpertPlus`
 
-#### \_difficultyRank
+**\_difficultyRank**
 
 This is the sorting order in the song select screen in Beat Saber.
 
@@ -391,7 +391,7 @@ based off of the aforementioned [`_difficulty`](#difficulty) value:
 | `Expert`      |                   7                    |
 | `ExpertPlus`  |                   9                    |
 
-#### \_beatmapFilename
+**\_beatmapFilename**
 
 This is the local location to the difficulty file, which contains the difficulty's notes, obstacles, and lighting events.
 
@@ -402,7 +402,7 @@ When creating _new_ difficulties, it is recommended that the name be the Charact
 [Beatmap Set](#difficulty-beatmap-sets), followed by the [`_difficulty`](#difficulty) value. For example, this particular
 difficulty should have it's difficulty file be named `StandardExpertPlus.dat`.
 
-#### \_noteJumpMovementSpeed
+**\_noteJumpMovementSpeed**
 
 Note Jump Movement Speed (Shortened to "Note Jump Speed", or just "NJS") is the velocity of objects approaching the player,
 in meters per second. Info on recommended NJS values can be found on the
@@ -422,22 +422,22 @@ it more convenient to have Half Jump Distance and Half Jump Duration.
 - Half Jump Duration is the amount of beats that is needed to reach the Player. It is also the amount of beats,
   forward in time, where objects spawn.
 
-#### \_noteJumpStartBeatOffset
+**\_noteJumpStartBeatOffset**
 
 This value acts as a direct offset to the Half Jump Duration, explained in [`_noteJumpMovementSpeed`](#notejumpmovementspeed),
 which in turn affects the Jump Distance. This can be a floating point number to achieve a precise Jump Duration.
 
-#### \_beatmapColorSchemeIdx
+**\_beatmapColorSchemeIdx**
 
 The value determines by index which color scheme in the [`_colorSchemes`](#color-schemes) list to use. If a color scheme
 cannot be found, this will fallback to the color scheme of the selected environment.
 
-#### \_environmentNameIdx
+**\_environmentNameIdx**
 
 This value determines by index which environment in the [`_environmentNames`](#_environmentnames) list to use. If an
 environment name cannot be found, this will fallback to the environment listed in [`_environmentName`](#_environmentname).
 
-#### \_customData
+**\_customData**
 
 This is an optional field that contains data unrelated to the official Beat Saber level format.
 If no custom data exists, this object should be removed entirely.
@@ -480,7 +480,7 @@ This version was introduced in Beat Saber version 1.20.0.
 }
 ```
 
-#### version
+**version**
 
 This field describes the version of the map format we are using.
 
@@ -488,35 +488,35 @@ Version `3.0.0` was introduced in Beat Saber version 1.20.0.
 Version `3.1.0` was introduced in Beat Saber version 1.25.0.  
 Version `3.2.0` was introduced in Beat Saber version 1.26.0.
 
-#### bpmEvents
+**bpmEvents**
 
 This is an array of [BPM Event](#bpm-events) objects for the map.
 
-#### rotationEvents
+**rotationEvents**
 
 This is an array of [Rotation Event](#rotation-events) objects for the map.
 
-#### colorNotes
+**colorNotes**
 
 This is an array of [Color Note](#color-notes) objects for the map.
 
-#### bombNotes
+**bombNotes**
 
 This is an array of [Bomb Note](#bomb-notes) objects for the map.
 
-#### obstacles
+**obstacles**
 
 This is an array of [Obstacle](#obstacles-1) objects for the map.
 
-#### sliders
+**sliders**
 
 This is an array of [Slider](#sliders-1) objects for the map.
 
-#### burstSliders
+**burstSliders**
 
 This is an array of [Burst Slider](#burst-sliders) objects for the map.
 
-#### waypoints
+**waypoints**
 
 ::: tip NOTE
 This is a stub section.
@@ -524,33 +524,33 @@ This is a stub section.
 This is used to control BTS TinyTAN figures. Some information can be found in this
 [document](https://docs.google.com/spreadsheets/d/1spW7LS-RvenLQBVXJl9w_iOwqr9r_ozxYo3JUlXq9Lc).
 
-#### basicBeatmapEvents
+**basicBeatmapEvents**
 
 This is an array of [Basic Event](#basic-beatmap-events) objects for the map.
 
-#### colorBoostBeatmapEvents
+**colorBoostBeatmapEvents**
 
 This is an array of [Boost Event](#color-boost-beatmap-events) objects for the map.
 
-#### lightColorEventBoxGroups
+**lightColorEventBoxGroups**
 
 This is an array of [Light Color Box Group Event](#light-color-event-box) objects for the map.
 
-#### lightRotationEventBoxGroups
+**lightRotationEventBoxGroups**
 
 This is an array of [Light Rotation Box Group Event](#light-rotation-event-box) objects for the map.
 
-#### lightTranslationEventBoxGroups
+**lightTranslationEventBoxGroups**
 
 This is an array of [Light Translation Box Group Event](#light-translation-event-box) objects for the map.
 
-#### basicEventTypesWithKeywords
+**basicEventTypesWithKeywords**
 
 ::: tip NOTE
 This is a stub section. Documentation is a work in progress.
 :::
 
-#### useNormalEventsAsCompatibleEvents
+**useNormalEventsAsCompatibleEvents**
 
 This is a boolean which determines if [basicBeatmapEvents](#basic-beatmap-events) and [colorBoostBeatmapEvents](#color-boost-beatmap-events)
 apply to v2 environments when using environment override.
@@ -564,11 +564,11 @@ apply to v2 environments when using environment override.
 }
 ```
 
-#### b
+**b**
 
 The time, in beats, where this object reaches the player.
 
-#### m
+**m**
 
 A float representing the new bpm. Any `b` in objects after this point will be adjusted to the new bpm.
 
@@ -582,18 +582,18 @@ A float representing the new bpm. Any `b` in objects after this point will be ad
 }
 ```
 
-#### b
+**b**
 
 The time, in beats, where this object reaches the player.
 
-#### e
+**e**
 
 | `e` | Result                                                                                |
 | :-: | ------------------------------------------------------------------------------------- |
 | `0` | Early rotation. Rotates future objects, while also rotating objects at the same time. |
 | `1` | Late rotation. Rotates future objects, but ignores rotating objects at the same time. |
 
-#### r
+**r**
 
 A float which represents clockwise rotation (as viewed from above).
 
@@ -610,21 +610,21 @@ A float which represents clockwise rotation (as viewed from above).
 }
 ```
 
-#### b
+**b**
 
 The time, in beats, where this object reaches the player.
 
-#### x
+**x**
 
 An integer number, from 0 to 3, which represents the column where this note is located.
 The far left column is located at index 0, and increases to the far right column located at index 3.
 
-#### y
+**y**
 
 An integer number, from 0 to 2, which represents the layer where this note is located.
 The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
 
-#### c
+**c**
 
 An integer which represents the color of the note.
 |`c`|Result|
@@ -632,7 +632,7 @@ An integer which represents the color of the note.
 |`0`|Red|
 |`1`|Blue|
 
-#### d
+**d**
 
 This indicates the cut direction for the note.
 
@@ -648,7 +648,7 @@ This indicates the cut direction for the note.
 | `7` | Down Right     |
 | `8` | Any (Dot Note) |
 
-#### a
+**a**
 
 An integer number which represents the additional counter-clockwise angle offset applied to the note's cut direction in degrees.
 This has no effect on angles created due to snapping (e.g. dot stack, slanted windows).
@@ -663,16 +663,16 @@ This has no effect on angles created due to snapping (e.g. dot stack, slanted wi
 }
 ```
 
-#### b
+**b**
 
 The time, in beats, where this object reaches the player.
 
-#### x
+**x**
 
 An integer number, from 0 to 3, which represents the column where this note is located.
 The far left column is located at index 0, and increases to the far right column located at index 3.
 
-#### y
+**y**
 
 An integer number, from 0 to 2, which represents the layer where this note is located.
 The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
@@ -690,16 +690,16 @@ The bottommost layer is located at layer 0, and inceases to the topmost layer lo
 }
 ```
 
-#### b
+**b**
 
 The time, in beats, where this object reaches the player.
 
-#### x
+**x**
 
 An integer number, from 0 to 3, which represents the column where this obstacle is located.
 The far left column is located at index 0, and increases to the far right column located at index 3.
 
-#### y
+**y**
 
 An integer number, from 0 to 2, which represents the layer where base of the obstacle is located.
 The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
@@ -709,17 +709,17 @@ The bottommost layer is located at layer 0, and inceases to the topmost layer lo
 |`1`|Prone obstacle|
 |`2`|Crouch obstacle|
 
-#### d
+**d**
 
 The time, in beats, that the obstacle extends for (duration).
 While `d` can go into negative numbers, be aware that this has some unintended effects.
 
-#### w
+**w**
 
 An integer which which represents the width of the obstacle.
 While `w` can go into negative numbers, be aware that this has some unintended effects.
 
-#### h
+**h**
 
 An integer numbers from 1 to 5, which represents the height of the obstacle.
 While `h` can go into negative numbers, be aware that this has some unintended effects.
@@ -746,11 +746,11 @@ then the arc will connect with the note and alter how the note is scored.
 }
 ```
 
-#### b
+**b**
 
 The time, in beats, where this head of this object reaches the player.
 
-#### c
+**c**
 
 An integer which represents the color of the note.
 |`c`|Result|
@@ -758,17 +758,17 @@ An integer which represents the color of the note.
 |`0`|Red|
 |`1`|Blue|
 
-#### x
+**x**
 
 An integer number, from 0 to 3, which represents the column where the head of the arc is located.
 The far left column is located at index 0, and increases to the far right column located at index 3.
 
-#### y
+**y**
 
 An integer number, from 0 to 2, which represents the layer where the head of the arc is located.
 The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
 
-#### d
+**d**
 
 An integer number which represents the head direction of the arc.
 
@@ -784,26 +784,26 @@ An integer number which represents the head direction of the arc.
 | `7` | Down Right     |
 | `8` | Any (Dot Note) |
 
-#### mu
+**mu**
 
 A float which represents how far the arc goes from the head of the arc.
 If head direction is a dot, this does nothing.
 
-#### tb
+**tb**
 
 The time, in beats, where this tail of this object reaches the player.
 
-#### tx
+**tx**
 
 An integer number, from 0 to 3, which represents the column where the tail of the arc is located.
 The far left column is located at index 0, and increases to the far right column located at index 3.
 
-#### ty
+**ty**
 
 An integer number, from 0 to 2, which represents the layer where the tail of the arc is located.
 The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
 
-#### tc
+**tc**
 
 An integer number which represents the tail direction of the arc.
 
@@ -819,12 +819,12 @@ An integer number which represents the tail direction of the arc.
 | `7`  | Down Right     |
 | `8`  | Any (Dot Note) |
 
-#### tmu
+**tmu**
 
 A float which represents how far the arc goes from the tail of the arc.
 If tail direction is a dot, this does nothing.
 
-#### m
+**m**
 
 An integer number which represents how the arc curves from the head to the mid point of the arc under certain conditions:
 
@@ -857,11 +857,11 @@ then the chain will connect with the note and alter how the note is scored.
 }
 ```
 
-#### b
+**b**
 
 The time, in beats, where this head of this object reaches the player.
 
-#### c
+**c**
 
 An integer which represents the color of the note.
 |`c`|Result|
@@ -869,17 +869,17 @@ An integer which represents the color of the note.
 |`0`|Red|
 |`1`|Blue|
 
-#### x
+**x**
 
 An integer number, from 0 to 3, which represents the column where the head of the arc is located.
 The far left column is located at index 0, and increases to the far right column located at index 3.
 
-#### y
+**y**
 
 An integer number, from 0 to 2, which represents the layer where the head of the arc is located.
 The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
 
-#### d
+**d**
 
 An integer number which represents the head direction of the arc.
 
@@ -895,26 +895,26 @@ An integer number which represents the head direction of the arc.
 | `7` | Down Right                            |
 | `8` | ~~Any (Dot Note)~~ Functions as down. |
 
-#### tb
+**tb**
 
 The time, in beats, where this tail of this object reaches the player.
 
-#### tx
+**tx**
 
 An integer number, from 0 to 3, which represents the column where the tail of the arc is located.
 The far left column is located at index 0, and increases to the far right column located at index 3.
 
-#### ty
+**ty**
 
 An integer number, from 0 to 2, which represents the layer where the tail of the arc is located.
 The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
 
-#### sc
+**sc**
 
 An integer number, greater than 0, which represents the number of segments in the burst slider.
 The head counts as a segment.
 
-#### s
+**s**
 
 A float which represents squish factor. This is the proportion of how much of the path from `(x,y)` to `(tx, ty)`
 is used by the chain. This does not alter the shape of the path.
@@ -946,11 +946,11 @@ See [Events](#events-2) in v2 for information of what these equivalent propertie
 }
 ```
 
-#### b
+**b**
 
 The time, in beats, where this object reaches the player.
 
-#### o
+**o**
 
 A boolean which determines whether boost lighting is on or off.
 
@@ -985,23 +985,23 @@ A boolean which determines whether boost lighting is on or off.
 }
 ```
 
-#### b (outer)
+**b (outer)**
 
 The time, in beats, where this object reaches the player.
 
-##### g
+**g**
 
 The group of this lighting event.
 
-##### e (outer)
+**e (outer)**
 
 An array containing the different lanes in the group.
 
-##### f
+**f**
 
 A [Filter Object](#filter-object) containing data describes the lane filter.
 
-##### w, d
+**w, d**
 
 Theses values determine how the light take effect over time.
 |`d`|Editor Name|Result|
@@ -1009,7 +1009,7 @@ Theses values determine how the light take effect over time.
 |`1`|Wave| After `w` beats, the last step takes effect. |
 |`2`|Step| After `w` beats, the next step takes effect. |
 
-##### r, t
+**r, t**
 
 These values determines the amount of additional brightness distributed over the group.
 |`t`|Editor Name|Result|
@@ -1017,7 +1017,7 @@ These values determines the amount of additional brightness distributed over the
 |`1`|Wave| `r` is the difference the last and first step. |
 |`2`|Step| `r` is the difference between each step. |
 
-##### b
+**b**
 
 An integer which determines if the brightness distribution affects the first event in this lane.
 |`b`|Affects First Event|
@@ -1025,7 +1025,7 @@ An integer which determines if the brightness distribution affects the first eve
 |`0`|No|
 |`1`|Yes|
 
-##### i
+**i**
 
 An integer which determines the easing of the brightness distribution.
 | `i`|Easing|
@@ -1035,15 +1035,15 @@ An integer which determines the easing of the brightness distribution.
 | `2`| EaseOutQuad |
 | `3`| EaseInOutQuad |
 
-##### e (inner)
+**e (inner)**
 
 An array of event data objects which have the properties of the specified box group filters.
 
-###### b
+**b**
 
 A float which determines the time this event takes effect relative to the start of the event box group.
 
-###### i
+**i**
 
 An integer which determines the transition type of the event
 |`i`|Type|Result|
@@ -1052,7 +1052,7 @@ An integer which determines the transition type of the event
 |`1`| Transition | The light transitions from the previous event to this event. |
 |`2`| Extend | The light holds the state of the previous light. |
 
-###### c
+**c**
 
 An integer which determines the color of the light.
 |`c`|Result|
@@ -1061,11 +1061,11 @@ An integer which determines the color of the light.
 |`1`| Blue |
 |`2`| White|
 
-###### s
+**s**
 
 A float which determines the brightness of the light.
 
-###### f
+**f**
 
 An integer which determines the frequency of the strobe (in beat time).
 0 is static light.
@@ -1104,23 +1104,23 @@ An integer which determines the frequency of the strobe (in beat time).
 }
 ```
 
-#### b (outer)
+**b (outer)**
 
 The time, in beats, where this object reaches the player.
 
-##### g
+**g**
 
 The group of this rotation event.
 
-##### e (outer)
+**e (outer)**
 
 An array containing the different lanes in the group.
 
-##### f
+**f**
 
 A json object containing data describes the lane filter.
 
-##### w, d
+**w, d**
 
 Theses values determine how the rotation takes effect over time.
 |`d`|Editor Name|Result|
@@ -1128,7 +1128,7 @@ Theses values determine how the rotation takes effect over time.
 |`1`|Wave| After `w` beats, the last step takes effect. |
 |`2`|Step| After `w` beats, the next step takes effect. |
 
-##### s, t
+**s, t**
 
 These values determines the amount of additional rotation distributed over the group.
 |`t`|Editor Name|Result|
@@ -1136,7 +1136,7 @@ These values determines the amount of additional rotation distributed over the g
 |`1`|Wave| `s` is the difference the last and first step. |
 |`2`|Step| `s` is the difference between each step. |
 
-##### b
+**b**
 
 A boolean which determines if the rotation distribution affects the first event in this lane.
 |`b`|Affects First Event|
@@ -1144,7 +1144,7 @@ A boolean which determines if the rotation distribution affects the first event 
 |`0`|No|
 |`1`|Yes|
 
-##### i
+**i**
 
 An integer which determines the easing of the rotation distribution.
 | `i`|Easing|
@@ -1154,7 +1154,7 @@ An integer which determines the easing of the rotation distribution.
 | `2`| EaseOutQuad |
 | `3`| EaseInOutQuad |
 
-##### a
+**a**
 
 An integer which determines the axis of rotation.
 |`a`|Axis|
@@ -1163,7 +1163,7 @@ An integer which determines the axis of rotation.
 |`1`|y|
 |`2`|z (Introduced in version 3.2.0.)|
 
-##### r
+**r**
 
 An integer which determines if the axis of rotation is flipped.
 |`r`|Flipped|
@@ -1171,15 +1171,15 @@ An integer which determines if the axis of rotation is flipped.
 |`0`|No|
 |`1`|Yes|
 
-##### e (inner)
+**e (inner)**
 
 An array of event data objects which have the properties of the specified box group filters.
 
-###### b
+**b**
 
 A float which determines the time this event takes effect relative to the start of the event box group.
 
-###### p
+**p**
 
 An integer which determines if the previous rotation is used.
 |`i`|Type|Result|
@@ -1187,11 +1187,11 @@ An integer which determines if the previous rotation is used.
 |`0`| Transition | The rotation transitions from the previous event to this event. |
 |`1`| Extend | The rotation holds the state of the previous rotation. |
 
-###### l
+**l**
 
 An integer which determines the number of additional 360 degree rotations (loops).
 
-###### e
+**e**
 
 An integer which determines the easing of the rotation.
 | `e`|Easing|
@@ -1202,11 +1202,11 @@ An integer which determines the easing of the rotation.
 | `2`| EaseOutQuad |
 | `3`| EaseInOutQuad |
 
-###### r
+**r**
 
 A float which determines the amount of rotation.
 
-###### o
+**o**
 
 An integer which determines the direction of the rotation.
 |`o`|Direction|
@@ -1249,23 +1249,23 @@ Introduced in version 3.2.0.
 }
 ```
 
-#### b (outer)
+**b (outer)**
 
 The time, in beats, where this object reaches the player.
 
-##### g
+**g**
 
 The group of this translation event.
 
-##### e (outer)
+**e (outer)**
 
 An array containing the different lanes in the group.
 
-##### f
+**f**
 
 A json object containing data describing the lane filter.
 
-##### w, d
+**w, d**
 
 Theses values determine how the translation takes effect over time.
 |`d`|Editor Name|Result|
@@ -1273,7 +1273,7 @@ Theses values determine how the translation takes effect over time.
 |`1`|Wave| After `w` beats, the last step takes effect. |
 |`2`|Step| After `w` beats, the next step takes effect. |
 
-##### s, t
+**s, t**
 
 These values determines the amount of additional translation distributed over the group.
 |`t`|Editor Name|Result|
@@ -1281,7 +1281,7 @@ These values determines the amount of additional translation distributed over th
 |`1`|Wave| `s` is the difference the last and first step. |
 |`2`|Step| `s` is the difference between each step. |
 
-##### b
+**b**
 
 A boolean which determines if the translation distribution affects the first event in this lane.
 |`b`|Affects First Event|
@@ -1289,7 +1289,7 @@ A boolean which determines if the translation distribution affects the first eve
 |`0`|No|
 |`1`|Yes|
 
-##### i
+**i**
 
 An integer which determines the easing of the translation distribution.
 | `i`|Easing|
@@ -1299,7 +1299,7 @@ An integer which determines the easing of the translation distribution.
 | `2`| EaseOutQuad |
 | `3`| EaseInOutQuad |
 
-##### a
+**a**
 
 An integer which determines the axis of translation.
 |`a`|Axis|
@@ -1308,7 +1308,7 @@ An integer which determines the axis of translation.
 |`1`|y|
 |`2`|z (Introduced in version 3.2.0.)|
 
-##### r
+**r**
 
 An integer which determines if the axis of translation is flipped.
 |`r`|Flipped|
@@ -1316,15 +1316,15 @@ An integer which determines if the axis of translation is flipped.
 |`0`|No|
 |`1`|Yes|
 
-##### l (inner)
+**l (inner)**
 
 An array of event data objects which have the properties of the specified box group filters.
 
-###### b
+**b**
 
 A float which determines the time this event takes effect relative to the start of the event box group.
 
-###### p
+**p**
 
 An integer which determines if the previous rotation is used.
 |`i`|Type|Result|
@@ -1332,7 +1332,7 @@ An integer which determines if the previous rotation is used.
 |`0`| Transition | The rotation transitions from the previous event to this event. |
 |`1`| Extend | The rotation holds the state of the previous rotation. |
 
-###### e
+**e**
 
 An integer which determines the easing of the rotation.
 | `e`|Easing|
@@ -1343,7 +1343,7 @@ An integer which determines the easing of the rotation.
 | `2`| EaseOutQuad |
 | `3`| EaseInOutQuad |
 
-###### t
+**t**
 
 A float which determines the amount of translation.
 
@@ -1365,13 +1365,13 @@ A shared object for box group events. This specifies how group is filtered.
 }
 ```
 
-#### c
+**c**
 
 An integer which determines how many sections the light/rotation/translation group is split into before filter type.
 
 <!-- markdownlint-disable MD013 -->
 
-#### f, p, t
+**f, p, t**
 
 | `f` | Editor Name     | Result                                                                                                                 |
 | --- | --------------- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -1380,11 +1380,11 @@ An integer which determines how many sections the light/rotation/translation gro
 
 <!-- markdownlint-enable MD013 -->
 
-#### r
+**r**
 
 A boolean which determines if the filter is applied in reverse order.
 
-#### n
+**n**
 
 An integer which determines ordering of lights in each section.
 
@@ -1395,15 +1395,15 @@ An integer which determines ordering of lights in each section.
 | `2` | Random order          |
 | `3` | Random starting index |
 
-#### s
+**s**
 
 An integer which is the seed for the random behaviour.
 
-#### l
+**l**
 
 A float which determines the percentage of the group is lit up after filter type is applied.
 
-#### d
+**d**
 
 An integer which determines how the limit is applied.
 
@@ -1436,7 +1436,7 @@ and other objects for that particular difficulty.
 }
 ```
 
-#### \_version
+**\_version**
 
 This field describes the version of the map format we are using.
 
@@ -1444,23 +1444,23 @@ Version `2.6.0` was introduced in Beat Saber version 1.20.0.
 Version `2.5.0` was introduced in Beat Saber version 1.18.0.  
 Version `2.2.0` was introduced in Beat Saber version 1.13.1.
 
-#### \_notes
+**\_notes**
 
 This is an array of [Note](#notes-1) objects for the map.
 
-#### \_sliders
+**\_sliders**
 
 This is an array of [Slider](#sliders-3) objects for the map.
 
-#### \_obstacles
+**\_obstacles**
 
 This is an array of [Obstacle](#obstacles-3) objects for the map.
 
-#### \_events
+**\_events**
 
 This is an array of [Event](#events-1) objects for the map.
 
-#### \_waypoints
+**\_waypoints**
 
 ::: tip NOTE
 This is a stub section.
@@ -1468,7 +1468,7 @@ This is a stub section.
 This is used to control BTS TinyTAN figures. Some information can be found in this
 [document](https://docs.google.com/spreadsheets/d/1spW7LS-RvenLQBVXJl9w_iOwqr9r_ozxYo3JUlXq9Lc).
 
-#### \_customData
+**\_customData**
 
 This is an optional field that contains data unrelated to the official Beat Saber level format.
 If no custom data exists, this object should be removed entirely.
@@ -1493,21 +1493,21 @@ community to find map editors, tools, or mods that use this `_customData` object
 }
 ```
 
-#### \_time
+**\_time**
 
 The time, in beats, where this object reaches the player.
 
-#### \_lineIndex
+**\_lineIndex**
 
 An integer number, from 0 to 3, which represents the column where this note is located.
 The far left column is located at index 0, and increases to the far right column located at index 3.
 
-#### \_lineLayer
+**\_lineLayer**
 
 An integer number, from 0 to 2, which represents the layer where this note is located.
 The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
 
-#### \_type
+**\_type**
 
 This indicates the type of note there is. Currently, there are 4 known types, but 1 remains unused:
 
@@ -1518,7 +1518,7 @@ This indicates the type of note there is. Currently, there are 4 known types, bu
 |   `2`   | Unused            |
 |   `3`   | Bomb              |
 
-#### \_cutDirection
+**\_cutDirection**
 
 This indicates the cut direction for the note.
 
@@ -1534,7 +1534,7 @@ This indicates the cut direction for the note.
 |       `7`       | Down Right     |
 |       `8`       | Any (Dot Note) |
 
-#### \_customData
+**\_customData**
 
 This is an optional field that contains data unrelated to the official Beat Saber level format.
 If no custom data exists, this object should be removed entirely.
@@ -1569,7 +1569,7 @@ the note and alter how the note is scored.
 }
 ```
 
-#### colorType
+**colorType**
 
 This indicates the color of the arc:
 
@@ -1578,26 +1578,26 @@ This indicates the color of the arc:
 |     `0`      | Left (Red) Note   |
 |     `1`      | Right (Blue) Note |
 
-#### headTime
+**headTime**
 
 The time, in beats, where this head of this object reaches the player.
 
-#### headLineIndex
+**headLineIndex**
 
 An integer number, from 0 to 3, which represents the column where the head of the arc is located.
 The far left column is located at index 0, and increases to the far right column located at index 3.
 
-#### headLineLayer
+**headLineLayer**
 
 An integer number, from 0 to 2, which represents the layer where the head of the arc is located.
 The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
 
-#### headControlPointLengthMultiplier
+**headControlPointLengthMultiplier**
 
 A float which represents how far the arc goes from the head of the arc.
 If head direction is a dot, this does nothing.
 
-#### headCutDirection
+**headCutDirection**
 
 An integer number which represents the head direction of the arc.
 
@@ -1613,26 +1613,26 @@ An integer number which represents the head direction of the arc.
 |         `7`         | Down Right     |
 |         `8`         | Any (Dot Note) |
 
-#### tailTime
+**tailTime**
 
 The time, in beats, where this tail of this object reaches the player.
 
-#### tailLineIndex
+**tailLineIndex**
 
 An integer number, from 0 to 3, which represents the column where the tail of the arc is located.
 The far left column is located at index 0, and increases to the far right column located at index 3.
 
-#### tailLineLayer
+**tailLineLayer**
 
 An integer number, from 0 to 2, which represents the layer where the tail of the arc is located.
 The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
 
-#### tailControlPointLengthMultiplier
+**tailControlPointLengthMultiplier**
 
 A float which represents how far the arc goes from the tail of the arc.
 If tail direction is a dot, this does nothing.
 
-#### tailCutDirection
+**tailCutDirection**
 
 An integer number which represents the tail direction of the arc.
 
@@ -1648,7 +1648,7 @@ An integer number which represents the tail direction of the arc.
 |         `7`         | Down Right     |
 |         `8`         | Any (Dot Note) |
 
-#### sliderMidAnchorMode
+**sliderMidAnchorMode**
 
 An integer number which represents how the arc curves from the head to the mid point of the arc under certain conditions:
 
@@ -1661,7 +1661,7 @@ An integer number which represents how the arc curves from the head to the mid p
 |          `1`           | Clockwise         |
 |          `2`           | Counter-Clockwise |
 
-#### customData
+**customData**
 
 This is an optional field that contains data unrelated to the official Beat Saber level format.
 If no custom data exists, this object should be removed entirely.
@@ -1686,16 +1686,16 @@ community to find map editors, tools, or mods that use this `_customData` object
 }
 ```
 
-#### \_time
+**\_time**
 
 The time, in beats, where this object reaches the player.
 
-#### \_lineIndex
+**\_lineIndex**
 
 An integer number, from 0 to 3, which represents the column where the left side of the obstacle is located.
 The far left column is located at index 0, and increases to the far right column located at index 3.
 
-#### \_type
+**\_type**
 
 An integer number which represents the state of the obstacle.
 
@@ -1704,17 +1704,17 @@ An integer number which represents the state of the obstacle.
 |   `0`   | Full height wall |
 |   `1`   | Crouch/duck wall |
 
-#### \_duration
+**\_duration**
 
 The time, in beats, that the obstacle extends for. While `_duration` can go into negative numbers,
 be aware that this has some unintended effects.
 
-#### \_width
+**\_width**
 
 How many columns the obstacle takes up. A `_width` of `4` will mean that this wall will extend the entire playable grid.
 While `_width` can go into negative numbers, be aware that this has some unintended effects.
 
-#### \_customData
+**\_customData**
 
 This is an optional field that contains data unrelated to the official Beat Saber level format.
 If no custom data exists, this object should be removed entirely.
@@ -1738,11 +1738,11 @@ community to find map editors, tools, or mods that use this `_customData` object
 }
 ```
 
-#### \_time
+**\_time**
 
 The time, in beats, where this object reaches the player.
 
-#### \_type
+**\_type**
 
 An integer number which represents what exact kind of event this object
 represents.
@@ -1775,11 +1775,11 @@ Beat Games is known to repurpose previously unused event types for certain featu
 that used Custom Platforms that took advantage of the unused event types.
 :::
 
-#### \_value
+**\_value**
 
 Depending on the aforementioned [`_type`](#type-2) of the event, the `_value` of it can do different things.
 
-##### Controlling Lights
+**Controlling Lights**
 
 It's most common behavior is controlling brightness and color of lights, and follows this table:
 
@@ -1804,7 +1804,7 @@ transition from off, on, or other transition events. They will do nothing if the
 
 `_value` 9, 10, 11, and 12 were introduced in Beat Saver version `1.22.0` (Electronic Mixtape patch).
 
-##### Controlling Triggers
+**Controlling Triggers**
 
 Triggers, most notably Ring Spin and Ring Zoom, ignore `_value`.
 
@@ -1813,7 +1813,7 @@ usually toggles an object between two states.
 
 Events 16 and 17 in Interscope, which control car hydraulics, are triggers.
 
-##### Controlling Laser Rotation Speed
+**Controlling Laser Rotation Speed**
 
 When the event is used to control laser speed for a group of lights, the `_value`
 is used as a multiplier to their base rotational velocity.
@@ -1821,7 +1821,7 @@ is used as a multiplier to their base rotational velocity.
 If `_value` is `0`, the random rotation offset for each laser will also be reset,
 causing all rotating lasers to line up perfectly.
 
-##### Controlling Position
+**Controlling Position**
 
 When the event is used to control position of an object, the `_value`
 is used as a multiplier to their base position increment.
@@ -1829,7 +1829,7 @@ is used as a multiplier to their base position increment.
 Coil heights (Event 12, 13, 16, 17, 18 and 19) in Gaga and Ring Zoom
 (Event 9) in The Second are examples of position controls.
 
-##### Controlling Cars
+**Controlling Cars**
 
 In Interscope environment, Event 8 (Ring Spin) controls cars. The effect of
 `_value` is as follows.
@@ -1845,14 +1845,14 @@ In Interscope environment, Event 8 (Ring Spin) controls cars. The effect of
 |   `6`   | Affects the back-middle cars.                     |
 |   `7`   | Affects the back-most cars.                       |
 
-##### Controlling Boost Colors
+**Controlling Boost Colors**
 
 | `_value` | Effect                                                            |
 | :------: | ----------------------------------------------------------------- |
 |   `0`    | Turns the event off - switches to first (default) pair of colors. |
 |   `1`    | Turns the event on - switches to second pair of colors.           |
 
-##### Controlling 360/90 Rotation
+**Controlling 360/90 Rotation**
 
 When the event is used to control rotation in a 360/90 degree level, the `_value`
 is used to add rotation equal to the following table:
@@ -1868,7 +1868,7 @@ is used to add rotation equal to the following table:
 |   `6`    | 45 Degrees Clockwise        |
 |   `7`    | 60 Degrees Clockwise        |
 
-##### V1 Official BPM Changes
+**V1 Official BPM Changes**
 
 When the event is used to control the BPM, the `_value` represents the new BPM.
 
@@ -1901,17 +1901,17 @@ If you absolutely want to work around this, you must create a new V1 BPM Change 
 
 Depending on the aforementioned [`_type`](#type-2) of the event, the `_floatValue` of it can do different things.
 
-##### Controlling Lights
+**Controlling Lights**
 
 When the event is used to control lights, the `_floatValue` determines the brightness of the light.
 
-##### Official BPM Changes
+**Official BPM Changes**
 
 When the event is used to control the BPM, the `_floatValue` represents the new BPM.
 
 This will also alter the Note Jump Speed proportional to the change in BPM prior to Beat Saber version 1.20.0.
 
-#### \_customData
+**\_customData**
 
 This is an optional field that contains data unrelated to the official Beat Saber level format.
 If no custom data exists, this object should be removed entirely.
