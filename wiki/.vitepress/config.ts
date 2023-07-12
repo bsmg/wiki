@@ -1,5 +1,5 @@
 import { env } from 'node:process'
-import type Token from 'markdown-it/lib/token'
+import { generateSitemap } from 'sitemap-ts'
 import container from 'markdown-it-container'
 import { defineConfig } from 'vitepress'
 import type { DefaultTheme } from 'vitepress'
@@ -271,5 +271,12 @@ export default defineConfig({
     config: md => {
       md.use(container, 'center')
     },
+  },
+
+  buildEnd(siteConfig) {
+    generateSitemap({
+      hostname: 'https://bsmg.wiki',
+      outDir: siteConfig.outDir,
+    })
   },
 })
