@@ -16,6 +16,8 @@ let us know in #mapping-discussion!
 <!-- Disable line length rule because lots of tables -->
 <!-- markdownlint-disable MD013 -->
 
+**((TO ADD: Rhythm choice, Target audience, Representation, Emphasis, Consistency, Music and Map Structure))**
+
 ## A
 
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition                                                                                                                                                                                                                                                                                          |

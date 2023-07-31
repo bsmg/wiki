@@ -6,23 +6,171 @@ description: A more in-depth look at many mapping topics to take your maps to th
 
 # Intermediate Mapping
 
-_A more in-depth look at many mapping topics._
-
-Mapping is level design. Design is both an art and a science. There is no "best" answer, but there are many "wrong" answers.
-
 The [Basic Mapping](./basic-mapping.md) page is useful for learning what not to do as a new mapper. Once you have a bit of
 experience it's time to take your understanding of mapping principles to the next level. Ultimately, the best way to learn
 to map is to simply keep at it.
 
 **Try. Adjust. Listen. Repeat.**
 
-## !Notice! This is a Stub Page
+In this page you will find an introduction to most topics that mappers usually think about. For some of them, you will find a link to an advanced page.
 
-:::warning
-This is a stub page, content is a work in progress! Ask in `#mapping-discussion` if you want more info!
+**((Throughout, there needs to be: more structure, more examples and more actionable advice))**
+
+## What makes a good Beat Saber map?
+
+There are so many aspects that matter to this question, but generally speaking, we can classify all or most of these into two main categories:
+
+- [**Representation**](#representation) - Does the map represent the song's rhythm, mood and feel? Topics about the relation between the music and the map.
+- [**Gameplay**](#gameplay) - Does the map play well? Is it comfortable, fun and has an appropriate difficulty? Topics about the way the map feels to play, more or less independently of the music.
+
+A good map will do well in both of these aspects, and will make them work together.
+
+Arguably, there is a third, much more subjective, aspect, that relates to the two above and that differentiates competent maps from great maps:
+
+- [**Identity**](#identity) - Is the map memorable? Does it leave an impression on the player? Does it offer something that other maps do not?
+
+### Accounting for playstyle and taste: Target audience
+
+In the above, we have not qualified what *good*, *comfortable*, *fun*, *appropriate* and *memorable* mean. All of these are highly subjective and will vary a lot between players.
+There is no map that everybody will love or that nobody will dislike. Fast, slow, move a lot, optimize scoring, difficult, easy, complicated patterns, simple. Many different tastes.
+Mapping is level design. Design is both an art and a science. There is no "best" answer, but there are many "wrong" answers.
+
+This is why you need to keep in mind your *target audience*. This is the conceptual set of players that you want to make the map for. While it is good to keep the target audience
+large, often mappers will constrain their audience to make the map better for those in it by prioritizing their core ideas.
+
+Most concepts in this page are relevant to most playstyles and tastes, but what is good and bad in each case and how much priority you give to them will vary.
+
+::: tip TIP
+There is no map that everybody will love. Identify and focus on your target audience.
 :::
 
+### Mapping is a balancing act
+
+You can't have the cake and eat it too. Usually there are trade-offs that you need to decide on in your map. Better representation might require less comfortable gameplay,
+or making your ideas playable might make them too easy. At a finer level, in order to make vision work you may have to use less than ideal positioning, for example;
+or have less consistent emphasis to achieve better body motion.
+
+You should attempt to find solutions that offer the best of all worlds, but accept that you will not always find them.
+
+::: tip TIP
+Aim for the best you can in all aspects, but accept imperfection when you must.
+:::
+
+## Representation
+
+*Representation* refers to the correspondence between the map and the song. Representation happens at multiple levels:
+
+- How do the individual notes represent individual sounds.
+- How do the transitions between notes represent the progression of the music.
+- How does the general structure of the map relate to the structure of the song.
+
+There is no singular recipe to do good representation, but there are a few core concepts that most mappers consider.
+
+### Rhythm choice
+
+*Rhythm choice* is the choice of which sounds to represent in the map (or a part of it).
+
+This is one of the most important decisions to make. It should be well justified and will condition most other aspects of the map.
+Here are some principles to consider when deciding rhythm choice:
+
+- What are the most prominent or central sounds that you hear in the song?
+- Rhythm choice does not need to be the same for the whole map, but it should not change abruptly.
+- Does your rhythm choice allow you to produce a map of the adequate intensity for the feel of the song?
+
+As a result, rhythm choice usually corresponds to either a single instrument (including voice) or a few of them working together, though other options are also valid, for example:
+
+- Focus on some instruments, and fall back to the others when they are silent.
+- Focus on some instruments, and occasionally map some important sounds of the others.
+
+::: tip TIP
+Don't try to map every sound. This usually creates unplayable maps. Focus on what's most important, and consider using bombs, walls and lights to fill in the gaps.
+:::
+
+**((Example of a map or maps of the same song with varying rhythm choices that are all good, explain briefly))**
+
+### Emphasis
+
+*Emphasis* is matching the relative intensity of different sounds and/or song sections with the mapping that represents them.
+
+While big towers, windows, doubles, fast jumps, and fast streams are fun, consider whether the patterns being mapped
+reflect the intensity level of the music.
+
+- Within a section, the most prominent sounds should be emphasized more, and the less prominent less emphasized.
+   Emphasis can be done in a variety of ways, such as:
+   - Adding larger hits (doubles, stacks, windows...) for oomph.
+   - Spacing notes further apart to induce bigger swings.
+   - Producing larger rotations between note angles.
+   - Mapping faster rhythms to induce faster swinging.
+   - Not mapping less significant sounds or segments so the more important sounds or segments stand out more.
+   - Using walls to induce body motion.
+   - Using bombs to generate tension or secondary movements.
+- The intensity of the mapping in each section relative to other sections should be somewhat in line with the intensity
+   of the music.
+- Deviation from the intensity of the music is fine as long as sections are not excessively elevated or lowered relative
+   to the intensity of the rest of the song.
+
+::: tip TIP
+Emphasis is about relative intensity. If everything is emphasized, nothing is emphasized.
+:::
+
+**((Example of a map with good emphasis choices with much variation in it))**
+
+### Consistency
+
+*Consistency* is using the same or similar map elements to represent the same or similar song elements.
+
+Consistency contrasts with *variation*, which is also a desirable quality to a certain degree.
+For example, mapping every instance of the same sound exactly the same is not enough variation.
+For example, mapping each instance of the same sound as completely different things is not enough consistency.
+Consistency is about similarity and familiarity, not about exact correspondence. Variation is about nuanced representation
+and keeping things fresh, not about arbitrary changes.
+
+Consistency comes into play in two places, within a section and when comparing separate sections of a song.
+   - Within a section, rhythm choice should generally stay consistent as it allows players to establish
+      that rhythm and follow it.
+   - Within a section, consistency in patterns is desirable as well, but some variety within the bounds of the established patterns and rhythms is appreciated.
+   - Similar sections of the song usually benefit from having similar mapping.
+   - Contrasting sections of the song will need to have contrasting mapping.
+   - Representing small variations in the music over different sections through small variations in the mapping while preserving consistency is ideal.   
+
+::: tip TIP
+Use familiar patterns for familiar sounds and sections, but do not obsess over exact correspondence.
+:::
+
+**((Example of a map with similar but different sections with good consistency and good variety simultaneously))**
+
+### Structure
+
+Music has a high-level *structure*. A song is normally divided in *sections*, which have different intensities and fulfill different roles within it.
+
+Even if you do not know much about music theory, normally you can identify the different parts of a song, how they are made of smaller parts and how they relate to each other.
+This is a great tool for representation, as it gives you a scaffholding under which to understand and examine the music and plan your map.
+
+These are some of the typical sections present in songs:
+- The *introduction* introduces the listener/player to the vibe and basic rules of the song/map.
+- The *verses* usually work at an intermediate intensity, developing the ideas of the song/map.
+- In some genres, some verses (sometimes called *build-up*) work to increase the intensity of the music/map in preparation for the main part of the song/map.
+- The *chorus* (in some genres replaced by a *drop*) is the main part of the song/map and usually has more intensity.
+- The *bridge* is normally an intermediate intensity section that changes the tone of the song/map and resets our expectations. Sometimes introducing new elements of the
+song/map not present before.
+- Some songs/maps will have an *outro* that allow us to slowly disengage from it.
+
+:::tip TIP
+When you begin a map, spend some time understanding what sections the song has and how they relate to each other. This will inform your mapping.
+:::
+
+## Gameplay
+
+asd
+
+## Identity
+
+
+
 ## Rule Breaking
+
+**((What is here is not wrong and is relevant, but I think the phrasing makes it feel more emphasized on breaking the rules itself than on understanding them and their reasons before making choices, which I think would be better.))**
+**((Move this to the Identity section))**
 
 Rules are made to be broken. However, they must be thoroughly understood before you can break rules and some have virtually
 no cases where breaking them is preferred. With experience and [outside](./#community-third-party-testing) feedback, there
@@ -32,60 +180,13 @@ Outside feedback is **critical** as the mapper! You know the rhythm and patterns
 ready to perform the motion before the notes ever show up. By getting [third party feedback](./#community-third-party-testing)
 on broken rules, such as in the BSMG `#testplays` channel, you can have confidence in your unique patterns and in your map.
 
-## Consistency & Variety
-
-Representing music via consistent note placement when there are similarities in the music and varying mapping when there
-changes in music are core techniques of intermediate mapping.
-
-1. **Representation** is tied to music that your notes are following.  
-   At the basic level, the sounds that are mapped within each section should follow some kind of rule, such as following
-   an instrument. You can get more complicated, such as mapping the left hand to drums, and the right hand to vocals, but
-   there should be a rule for the mapping within each section.
-
-2. **Consistency** and **Variety** come into play in two places,
-   within a section and when comparing separate sections of a song.
-   1. Within a section, representation rhythm-wise should generally stay consistent as it allows players to establish
-      that rhythm and enjoy the map. Being consistent with patterns is acceptable as well, but some variety of note
-      placements within the bounds of the established patterns and rhythms is appreciated.
-   2. Consistency and variety are more important when comparing sections of a song, as properly varying your mapping
-      between sections will help the song shine via the map.
-   3. Repeated sections of music should play similarly, and contrasting sections should play differently. The degree of
-      this contrast is up to the mapper.
-      - This does not mean that the exact same patterns need to be used, but players should be able to feel the
-        similarities between sections with similar music. This can be done in a variety of ways, primarily it is
-        achieved by mapping the same rhythms. If you choose to map a different rhythm, using similar patterns and
-        motions will provide a similar effect.
-   4. Varying the mapping appropriately when the music changes is also important. When a change in the music happens,
-      the effect is a lot stronger when the change is reflected in the mapping.
-
-If you'd like to explore this more in depth, checkout [pishifat's video](https://www.youtube.com/watch?v=Z7IY0gDwSQo) on
-mapping variety in osu!. While it is an osu! video, the concepts translate over to Beat Saber mapping quite well.
-
-## Emphasis
-
-While big towers, windows, doubles, fast jumps, and fast streams are fun. Consider whether the patterns being mapped
-reflect the intensity level of the music.
-
-1. Within a section, the most prominent sounds should be emphasized more, and the less prominent less emphasized.
-   Emphasis can be done in a variety of ways, such as:
-   - Spacing notes further apart to induce bigger swings.
-   - Adding doubles and stacks for oomph.
-   - Mapping faster rhythms to induce faster swinging.
-   - Not mapping less significant sounds or segments so the more important sounds or segments stand out more.
-2. The intensity of the mapping in each section relative to other sections should be somewhat in line with the intensity
-   of the music. Try to rate the intensity of each section in your map from 1-10 and see if it lines up with the intensity
-   you feel from the song.
-3. Deviation from the intensity of the music is fine as long as sections are not excessively elevated or lowered relative
-   to the intensity of the rest of the song. An example would be fully mapping very quiet 1/4 drums when the rest of the
-   map is mapped to 1/1 or 1/2 would unnecessarily elevate it in intensity above the rest of the song.
-
-If you want to explore this more in depth, checkout [pishifat's video](https://www.youtube.com/watch?v=rAYm50d6XMw) on osu!
-spacing emphasis. While it is an osu! video, the concepts do translate to intensity in Beat Saber.
 
 ## Visibility
 
 Players need to see the notes to comfortably prepare and react.
 Notes that are hidden until the last second are very jarring to play.
+
+**((Mention ArcViewer here))**
 
 ### Vision Blocks
 
@@ -102,6 +203,8 @@ Note Jump Speed (NJS), Spawn Offset (or offset), and Jump Distance are additiona
 For more information check out the [Downmapping: NJS & Offset](./downmapping.md#njs-offset) section.
 
 ## Understanding Flow
+
+**((This section is in my opinion the one that needs most extra detail from what it has now))**
 
 In [Basic Mapping](./basic-mapping.md#do-mapping-with-flow) we covered the bare essentials of parity.
 Now we'll dig deeper and explore why some hits just feel bad.
@@ -140,6 +243,8 @@ arms in this new position while waiting for the next motion. The block that foll
 - Counter-clockwise wrist motions are preferred with the right hand and clockwise wrist motions are preferred with the
   left hand. Try it yourself and feel the difference!
 
+**((There is a section needed here on what identifies a swing (handedness, type of swing, position, angle))**
+
 ### Suggested vs. Required Motion
 
 When mapping unusual patterns that break typical conventions for flow, extra motion is suggested to make the pattern work.
@@ -155,6 +260,8 @@ Clever use of bombs, walls, or crossovers can help suggest more strongly the int
 to avoid vision, tangle, or flow issues.
 
 #### Soft Resets
+
+**((Honestly, remove. This is outdated mapping practices))**
 
 Soft resets are resets where implied motion strongly suggests resetting the hand. The most common example of this is a
 half-double, present in many maps. This is where a down double followed by a single up followed by a down double, where
@@ -176,6 +283,8 @@ the other hand, faster maps typically are hit with less full-arm motion and can 
 of the saber hit crossovers.
 
 ### Crossovers
+
+**((Requires update, potentially merge with arm tangles))**
 
 Crossovers happen when one arm swings to the opposite side of the playspace. This is a challenging motion reserved for
 harder difficulties or slower maps. Crossovers open up the playspace for many interesting patterns so long as they are
@@ -202,6 +311,8 @@ cannot safely move out of the way within their playspace. Even players who are a
 the amount of movement required.
 
 ### Moving the Player with Walls
+
+**((There are important aspects missing here))**
 
 Walls are a way to encourage the player to move left, right, down, or a combination of the three while playing.
 They are extremely powerful at doing this since players cannot touch them for too long.
@@ -246,6 +357,8 @@ See [Extended Mapping](./extended-mapping.md#wall-mapping) for more info.
 
 ## Bombs
 
+**((Can definitely do with some more specificity))**
+
 The opposite of notes, bombs count as misses when they are hit. This opens up more opportunities for patterns, but have
 significant limitations. Notes specify the direction, timing, and hand all in one block. Bombs, on the other hand, have
 very little limitation imposed on the player.
@@ -283,7 +396,11 @@ Sliders can also cause significant vision blocks when use in bulk even if the ce
 how much visual space the dots fill. Window sliders (3-note sliders that omit the center note) can be used to avoid face
 notes and clear up vision, but risk being hard to read.
 
+**((If we preserve it, we should add sections here on chains and arcs))**
+
 ## Inverts
+
+**((This should probably go higher up. Also, expand.))**
 
 Inverts are notes that are placed in a location which forces the player to swing considerably more than if they were
 located in a more traditional position. They add emphasis to the map and require proper setup to play comfortably.
@@ -295,11 +412,15 @@ Be aware that inverts can be quite hard to read especially in rapid succession o
 
 ## Note Alignment for MMA2
 
+**((Yeet))**
+
 It is not apparent in MMA2 but this is how some notes align in game.
 
 ![MMA2 Alignment Example](/.assets/images/mapping/mma2-alignment-examples.jpg)
 
 ## Single Saber/Handedness Switches
+
+**((Replace with a section on handedness))**
 
 Alternating the hand leading a pattern can be highly effective at providing variety, interesting motions, or unique
 rhythms but have limitations.
@@ -322,6 +443,8 @@ Triangles, switch-ups, unexpected doubles, bombs, walls, etc. can all throw off 
 have to incoming notes. This is the reason why offset is so important to consider as dancey, slower patterns need extra
 time to read and process what approaches while faster songs must keep the screen less cluttered to allow players to
 follow instinct.
+
+**((Probably throw in a section on playstyle here))**
 
 ## High Speed Mapping
 
@@ -377,5 +500,5 @@ on how to use the built in shuffle feature to make mapping songs that have swing
 
 Content in this section was authored by [Checkthepan](./mapping-credits.md#checkthepan), [CyanSnow](./mapping-credits.md#cyansnow),
 [Uninstaller](./mapping-credits.md#uninstaller), [Skyler Wallace](./mapping-credits.md#skyler-wallace),
-[Kolezan](./mapping-credits.md#kolezan), [Pyrowarfare](./mapping-credits.md#pyrowarfare), [DarkGrisen](./mapping-credits.md#darkgrisen)
-and [Vaser888](./mapping-credits.md#Vaser888).
+[Kolezan](./mapping-credits.md#kolezan), [Pyrowarfare](./mapping-credits.md#pyrowarfare), [DarkGrisen](./mapping-credits.md#darkgrisen),
+[Vaser888](./mapping-credits.md#Vaser888) and Undeceiver.
