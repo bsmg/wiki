@@ -14,8 +14,6 @@ to map is to simply keep at it.
 
 In this page you will find an introduction to most topics that mappers usually think about. For some of them, you will find a link to an advanced page.
 
-**((Throughout, there needs to be: more structure, more examples and more actionable advice))**
-
 ## What makes a good Beat Saber map?
 
 There are so many aspects that matter to this question, but generally speaking, we can classify all or most of these into two main categories:
@@ -32,8 +30,8 @@ Arguably, there is a third, much more subjective, aspect, that relates to the tw
 ### Accounting for playstyle and taste: Target audience
 
 In the above, we have not qualified what *good*, *comfortable*, *fun*, *appropriate* and *memorable* mean. All of these are highly subjective and will vary a lot between players.
-There is no map that everybody will love or that nobody will dislike. Fast, slow, move a lot, optimize scoring, difficult, easy, complicated patterns, simple. Many different tastes.
-Mapping is level design. Design is both an art and a science. There is no "best" answer, but there are many "wrong" answers.
+There is no map that everybody will love or that nobody will dislike. Fast, slow, move a lot, optimize scoring, difficult, easy, complicated patterns, simple. Many different tastes
+and many different ways to play. Mapping is level design. Design is both an art and a science. There is no "best" answer, but there are many "wrong" answers.
 
 This is why you need to keep in mind your *target audience*. This is the conceptual set of players that you want to make the map for. While it is good to keep the target audience
 large, often mappers will constrain their audience to make the map better for those in it by prioritizing their core ideas.
@@ -97,13 +95,13 @@ reflect the intensity level of the music.
 
 - Within a section, the most prominent sounds should be emphasized more, and the less prominent less emphasized.
    Emphasis can be done in a variety of ways, such as:
-   - Adding larger hits (doubles, stacks, windows...) for oomph.
-   - Spacing notes further apart to induce bigger swings.
-   - Producing larger rotations between note angles.
-   - Mapping faster rhythms to induce faster swinging.
+   - Adding [larger hits](#handedness-and-types-of-patterns) (doubles, stacks, windows...) for oomph.
+   - [Spacing](#spacing) notes further apart to induce bigger swings.
+   - Producing larger [rotations](#rotations) between note angles.
+   - Mapping faster rhythms to induce [faster swinging](#swing-speed).
    - Not mapping less significant sounds or segments so the more important sounds or segments stand out more.
-   - Using walls to induce body motion.
-   - Using bombs to generate tension or secondary movements.
+   - Using walls to induce [body motion](#full-body-motion).
+   - Using [bombs](#bombs) to generate tension or secondary movements.
 - The intensity of the mapping in each section relative to other sections should be somewhat in line with the intensity
    of the music.
 - Deviation from the intensity of the music is fine as long as sections are not excessively elevated or lowered relative
@@ -161,24 +159,261 @@ When you begin a map, spend some time understanding what sections the song has a
 
 ## Gameplay
 
-asd
+When we talk about *gameplay*, we talk about how the map plays. Gameplay can largely be understood independently of the music it represents, although in
+practice, good representation will also make a map more natural to play.
+
+There are dozens of dimensions that can describe how a map plays, even at the most abstract level. We normally include at least the following:
+
+- Is the map [*physically comfortable*](#flow)? Maps can be uncomfortable on purpose, but it should be a conscious and calculated choice, not a consequence of sloppy mapping.
+- How [*fast*](#speed) does the player need to move?
+- Is the map [*readable*](#readability)? This means whether players are able to understand the movements they are meant to do when playing the map.
+Maps can be difficult to read on purpose, but yet again, it should be a conscious and calculated choice.
+- In general, how [*difficult*](#difficulty) is the map?
+- Is it possible/easy to [*score well*](#scoring) on the map? Many maps don't worry much about scoring, but for some target audiences, this might matter.
+
+Awareness of how the choices you make when mapping affect these dimensions can be critical to making maps that play exactly the way you want them to play.
+Unlike topics relating to Representation, topics relating to Gameplay are usually more objective and can be described and predicted in more technical ways,
+even though there is still plenty of subjectivity involved.
+
+### Flow
+
+*Flow* may easily be the hardest to define, but still widely used, term in Beat Saber mapping jargon. A minimal definition would describe it as the way in which the movements
+produced by the map's notes, bombs and walls transition into each other over time.
+
+Normally, we say that a map "flows well" to mean that it is comfortable and natural to play, that the movements are intuitive and physically pleasant.
+
+However, there is no written rule that a map must "flow well" to be a better map. Sometimes, more or less uncomfortable flow can be used as a tool for emphasis and representation,
+or simply as a means to increase the difficulty of the map.
+
+Pretty much every aspect of a map affects flow, and so providing a list or summary here would not make it justice. Instead, in the more [technical sections](#technical-aspects-of-a-map) below we consistently refer to flow.
+
+:::tip TIP
+To understand flow, think about the relation between subsequent notes, not about individual patterns.
+:::
+
+### Speed
+
+When talking about map *speed*, we usually refer to the speed at which the player must swing the notes.
+
+However, at a general level, there are other aspects to speed, such as the speed of [full body movement](#full-body-motion) or
+the *sensation of speed* that the specific patterns produce.
+
+Speed is one of the most easily quantifiable ways to measure a map, in terms of difficulty, in terms of its relation to the rhythm choice and in terms
+of how intense it feels to play it. Therefore, a mapper should always be aware of the speed of their map. However, speed is not fully determined by
+rhythm choice, as it also depends on the choice of how the sounds are mapped to the two hands and/or to full body movement.
+
+Playstyle changes with map speed. For slower songs, it is easier to perform large [arm swings](#arm-and-hand-position), [curved swings](#rotations), [hand repositioning](#arm-and-hand-positioning),
+and contort the [whole body](#full-body-motion) to hit more unusual patterns. At high speeds, there is very little time to process and adapt to what approaches, mentally and physically.
+Thus, fast maps and patterns tend to be considerably more *linear*.
+
+The section on [swing speed](#swing-speed) contains more technical concepts that are usually used to discuss a map's speed.
+
+### Readability
+
+*Readability* refers to how well a map communicates its intended motions to the players.
+
+Since readability is about communication, it depends on the receiver (the player) almost as much as it does on the sender (the mapper, via the map).
+Moreover, it relies on the mapper and the player speaking a common language. A Beat Saber map is a message with a limited vocabulary between the mapper,
+trying to communicate a motion, to the player, trying to perform it. To make matters worse, players have limited time and processing ability to read
+what the map is trying to convey while playing, specially when *sight reading* the map (playing it for the first time).
+
+Thus, it is not enough that a map *can* be played well, it must also do a good job of communicating its intended motions to the player. Most players will play
+a map once ever, or once every few weeks or months. Expecting players to remember or expect the types of movements that the map requires without communicating
+them adequately is a recipe for disappointment. By the same token, target audience is particularly relevant when considering readability, as it will condition
+the particular dialects of Beat Saber maps that they understand.
+
+A perfect example of perfectly playable but difficult to read, and usually problematic, patterns are implicit [parity](#parity) resets, and particularly triangles.
+![Triangle](/.assets/images/mapping/triangle-alt.png)
+
+The pattern is notably ambiguous as it requires a reset motion at some point but it is unclear to the player at which point would it be best to do so.
+
+Note that, like flow, a map can be hard to read on purpose. This is a risky choice but it may work to provide identity, help representation or simply provide
+a more memorable experience.
+
+#### Mapper blindness
+
+A condition that most mappers, specially novice mappers, will experience, is called *mapper blindness*, where a mapper
+will often struggle to identify readability issues in their map because they already know what the intended motion is when they testplay it.
+This will be worse with ambiguous or jump-scary patterns that can be played in multiple different ways or catch the player unprepared, respectively.
+While mapper blindness can be reduced with good understanding of best mapping practices, nothing replaces having other players and mappers testplay your map
+and analyzing their reactions to the patterns the first time they see them.
+
+:::tip TIP
+Just because a map can be played well it does not make it a good map. It must also be readable.
+:::
+
+#### Suggested / intended motions
+
+It would be useful to explain what *suggested or intended motion* means. For some sequences of patterns, extra motion is suggested to make the pattern play comfortably.
+An example is a scoop:  
+![Scoop](/.assets/images/mapping/scoop.png)  
+In order to hit the up note following the side note, the [arm](#arm-and-hand-position) must take a longer scooping path to be in position.
+
+Suggested motion is risky because players will read and react to patterns differently. One
+player may hit a scoop as intended, but another player may recoil and flinch given the pattern and have a negative
+experience. This problem can never be entirely avoided when using suggested motion, but clever use of [bombs](#bombs),
+[walls](#full-body-motion), [momentum](#momentum-and-tension) and managing the player's [expectations](#map-context) can help to communicate the intended motion.
+
+The scoop pattern above might play well in a map that goes into the pattern in a way that encourages big movement or a map that trains the player to
+expect these kinds of movements, but be completely unexpected in a different map.
+
+#### Clutter
+
+Another important challenge to readability is *clutter*. Clutter is more likely to happen when a map is faster, as it will have more notes approaching the player
+at a given moment. Good [positioning](#spacing) to space out the notes over the player's view, adequately managing [vision blocks](#vision) and optimizing [jump settings](#jump-settings) are the main ways to reduce clutter,
+though sometimes it can be very difficult to avoid.
+
+### Difficulty
+
+*Difficulty* ultimately is a combination of other aspects, but it can be useful to identify it independently.
+
+Readability, flow and speed are arguably the main factors conditioning a map's difficulty. Difficulty should normally be a consequence of other aspects of the map, but be accounted for.
+We say that a map has *artificial difficulty* if it introduces elements that make it more difficult without enhancing any other aspect of the map (i.e. it does not play better or represent
+the music better). You should normally avoid artificial difficulty. Instead, consider whether your map can represent more, or whether you can up the intensity of the gameplay.
+
+:::tip TIP
+Avoid artificial difficulty. If your map feels too simple you can up the intensity and/or increase representation.
+:::
+
+Difficulty is very important to consider with respect to your target audience. If your audience finds the map too hard they will not be able to play it. While a map can be too easy, this
+normally is a side effect of reduced representation or simplified gameplay.
+
+Similarly, adding multiple difficulties to your map can be a great way to expand your target audience without watering down your map.
+*Downmapping* is the process of taking your initial difficulty, and then breaking it down to be appropriate for other
+skill levels. Most mappers start with Expert+ and downmap from there. Check out the [Downmapping](./downmapping.md) page for a deep dive into this process.
+
+### Scoring
+
+The particular mechanics of Beat Saber, as well as the predominant and natural playstyles of players, make it so that certain patterns and maps are
+easier to achieve a higher score on than others. In most cases, considerations about the ability to score begin when considerations about the inherent difficulty
+of the map become less relevant. In other words, being able to hit the notes to begin with is orders of magnitude more relevant than how easy it is to achieve
+a good score on them. Therefore, scoring concerns typically become relevant when players are performing a full combo of the map or close to it.
+
+At these levels, scorability of a map (often called *accability*) relates to how easy / possible it is to get high *accuracy* on the notes.
+That is, how easy / possible it is to hit the notes in the center.
+
+Generally speaking, most maps do not need to worry about how accable they are. You should mostly worry about it if it is part of your target audience.
+These maps are sometimes called *Accuracy* maps.
+
+**((Add link to advanced section on making Accable maps))**
 
 ## Identity
 
+*Identity* refers to a map being memorable, leaving a mark in the player, encouraging players to replay it and differentiating itself from other maps.
+
+To a large degree, this can be achieved through good representation and gameplay. However, it may be argued that there are additional, subtle details that help
+a map generate identity. Highly specific and well executed representation choices, encouraging unusual playstyles, perfectly executing a very specific gameplay idea,
+memorable visuals, etc.
+
+Sometimes, it is precisely the ways in which maps cleverly break standard rules of mapping that produces the most memorable maps. In order to do this, good understanding
+of these rules and how they can be broken without producing unplayable maps
+
+There is not much science to describe identity, as it is on the far artistic side of mapping, but it should be noted that it will often matter.
+The most popular and renowned maps will often be those that have great identity on top of competent representation and gameplay.
+
+**((Examples of maps with great identity))**
 
 
-## Rule Breaking
+## Technical aspects of a map
 
-**((What is here is not wrong and is relevant, but I think the phrasing makes it feel more emphasized on breaking the rules itself than on understanding them and their reasons before making choices, which I think would be better.))**
-**((Move this to the Identity section))**
+In the following sections, we describe more specific details about the aspects of maps that contribute to producing good representation and gameplay.
+For some of these, you will find links to more advanced guides.
 
-Rules are made to be broken. However, they must be thoroughly understood before you can break rules and some have virtually
-no cases where breaking them is preferred. With experience and [outside](./#community-third-party-testing) feedback, there
-is always value to exploring the full design space of beat saber mapping and pushing the limits of the rules.
+### Note timing
 
-Outside feedback is **critical** as the mapper! You know the rhythm and patterns better than any other person and will be
-ready to perform the motion before the notes ever show up. By getting [third party feedback](./#community-third-party-testing)
-on broken rules, such as in the BSMG `#testplays` channel, you can have confidence in your unique patterns and in your map.
+asd
+
+**((Probably just link to a couple of advanced sections on variable BPM, Swing and other things))**
+
+### Handedness and types of patterns
+
+asd
+
+### Parity
+
+asd
+
+### Rotations
+
+asd
+
+**((Link to momentum and tension section))**
+
+### Swing speed
+
+asd
+
+### Spacing
+
+asd
+
+**((Link to momentum and tension section))**
+
+### Arm and hand position
+
+asd
+
+### Full body motion
+
+asd
+
+**((Probably add an advanced page for it))**
+
+### Bombs
+
+asd
+
+**((Probably add an advanced page for it))**
+
+### Arcs
+
+asd
+
+### Posture
+
+asd
+
+### Momentum and tension
+
+asd
+
+**((Definitely add an advanced page for it))**
+
+### Pattern setup
+
+asd
+
+### Jump settings
+
+asd
+
+### Vision
+
+asd
+
+### Map context
+
+asd
+
+### 90/360 mode
+
+asd
+
+**((Probably add an advanced page for it))**
+
+
+
+**--------------------------**
+
+**--------------------------**
+
+**(( THESE ARE OLD BITS THAT MAY GET REUSED LATER, IGNORE))**
+
+**--------------------------**
+
+**--------------------------**
+
+## -- IGNORE EVERYTHING BELOW THIS --
 
 
 ## Visibility
@@ -244,20 +479,6 @@ arms in this new position while waiting for the next motion. The block that foll
   left hand. Try it yourself and feel the difference!
 
 **((There is a section needed here on what identifies a swing (handedness, type of swing, position, angle))**
-
-### Suggested vs. Required Motion
-
-When mapping unusual patterns that break typical conventions for flow, extra motion is suggested to make the pattern work.
-An example is a scoop:  
-![Scoop](/.assets/images/mapping/scoop.png)  
-In order to hit the up note following the side note, the arm must take a longer scooping path to be in position.
-This motion is suggested, where an extra note block down would require the motion instead.
-
-Suggested motion is risky due to the fact that players will read and react to patterns differently than intended. One
-player may hit a scoop as intended, but another player may recoil and flinch given the pattern and have a negative
-experience from the pattern. This problem can never be entirely avoided when suggesting motion rather than requiring.
-Clever use of bombs, walls, or crossovers can help suggest more strongly the intended motion, but must be used with care
-to avoid vision, tangle, or flow issues.
 
 #### Soft Resets
 
@@ -433,18 +654,6 @@ Deviating from this can allow for unique motions and crossovers without tangling
 play at higher speeds. For example if done mid-pattern, it requires one hand to flick twice as fast. While this might not
 be an issue for slower patterns, faster ones with less visibility or more aggressive motions can be problematic.
 
-## Reading vs. Reacting to Notes
-
-Fundamentally, the player needs to know how to swing in order to follow notes. As speeds increase, the time to read,
-process, and move accordingly decreases. This is tempered by following convention at higher speeds, such as following
-the alternating hand sequence as mentioned in the previous section.
-
-Triangles, switch-ups, unexpected doubles, bombs, walls, etc. can all throw off the expected "reaction" the player will
-have to incoming notes. This is the reason why offset is so important to consider as dancey, slower patterns need extra
-time to read and process what approaches while faster songs must keep the screen less cluttered to allow players to
-follow instinct.
-
-**((Probably throw in a section on playstyle here))**
 
 ## High Speed Mapping
 
@@ -475,15 +684,6 @@ However, if the grid is less consistent and drifts around being aligned with no 
 song has a drifting BPM. This is common in older songs. This can be more of a hassle to deal with, but it is possible to
 address. Please see the [variable BPM guide](./advanced-audio.md#variable-bpm) for more information.
 
-## Downmapping
-
-"Downmapping" is the process of taking your initial difficulty, and then breaking it down to be appropriate for other
-skill levels. As most mappers start with expert+ or expert, the process is usually referred to as "downmapping", since
-you work your way down through the difficulties. However, some people can and do work in the reverse, or even just map
-difficulties sporadically as they see fit. That said, starting from the top and working down gives you the benefit of
-saving time on timings, as expert+ is typically mapped to all of the most prominent rhythms.
-
-Check out the [Downmapping](./downmapping.md) page for a deep dive into this process.
 
 ## Swing In a Song and How Shuffle Helps
 
