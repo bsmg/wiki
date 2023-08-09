@@ -493,7 +493,7 @@ Do not set squish factor to 0. This will crash the game.
 }
 ```
 
-See [Events](#events-2) in v2 for information of what these equivalent properties represent.
+See [Events](./difficulty-format-v2.md#events-1) in v2 for information of what these equivalent properties represent.
 
 ### Color Boost Beatmap Events
 
