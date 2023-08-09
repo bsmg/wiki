@@ -107,9 +107,9 @@ Primarily focusing on offering niche Beat Saber mods for the Quest and helping e
 
 ## gamesequence
 
-That is professor to you! Updated the Custom platforms guide. I consider myself a 3d artist. Ive made sabers, custom platforms, 
+That is professor to you! Updated the Custom platforms guide. I consider myself a 3d artist. Ive made sabers, custom platforms,
 vrc avatars and so much more. Also the creator of the Crystallized platform (You can find it on my patreon). I embrace creativity
-so much I sometimes forget to take breaks while working! If you need help with anything modeling related I'm usually active in 
+so much I sometimes forget to take breaks while working! If you need help with anything modeling related I'm usually active in
 [#pc-3d-modeling](https://discord.com/channels/441805394323439646/468249466865057802) in bsmg.
 
 [Patreon](https://www.patreon.com/games_plats) | [Twitter](https://twitter.com/gamesequence)

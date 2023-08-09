@@ -15,7 +15,7 @@ to avoid any shader issues
 
 ### A note about the updated guide
 
-Big thanks to Emma on making the starting guide. Any further contributions are made by me, gamesequence. 
+Big thanks to Emma on making the starting guide. Any further contributions are made by me, gamesequence.
 
 ## Project
 
@@ -37,8 +37,9 @@ In the script there are also Exporting options. These disable parts of the origi
 (For when you want to replace something partially).
 
 ## Scaling (optional)
-This is optional but I (gamesequence) have taken the liberty of making a [humanoid cmb model](https://www.mediafire.com/file/ngv6xrh11ppdin7/Cmb_full_body.fbx/file) that scales to a real life 5' 10" human irl. I reccomend using it in your projects to get your platform to the right scale. 
-Make sure not to drop him under your platforms gameObject. 
+
+This is optional but I (gamesequence) have taken the liberty of making a [humanoid cmb model](https://www.mediafire.com/file/ngv6xrh11ppdin7/Cmb_full_body.fbx/file) that scales to a real life 5' 10" human irl. I reccomend using it in your projects to get your platform to the right scale.
+Make sure not to drop him under your platforms gameObject.
 
 ![Untitled56_20230808020447](https://github.com/bsmg/wiki/assets/141610826/150deb7d-1218-4b9e-8f61-a7a45ed77ec7)
 
@@ -68,8 +69,8 @@ your `Track Rings` gameObject to `Track Lane Ring Prefab`.
 
 ![Screenshot 2023-08-08 014534](https://github.com/bsmg/wiki/assets/141610826/8ce2fb3f-5a02-4e2e-9e57-2e323a7d4fa7)
 
-Your track rings will now appear in the scene and you can adjust how many rings are present as well as other settings 
-to effect how they behave. 
+Your track rings will now appear in the scene and you can adjust how many rings are present as well as other settings
+to effect how they behave.
 
 Note that your Track rings gameObject is where your track rings appear ingame. Move any childeren of this gameObject out of view.
 
@@ -102,7 +103,6 @@ unoptimized material will make the game lag.
 
 ![Screenshot 2023-08-08 013800](https://github.com/bsmg/wiki/assets/141610826/327aad39-8af1-4355-8fe4-a5155574caa0)
 
-
 ### Tube Light
 
 ![Tube Light](/.assets/images/models/platforms/TubeLightScript.png)
@@ -129,16 +129,16 @@ For controlling the glow, we are only going to need these two.
 
 ![Screenshot 2023-08-08 022209](https://github.com/bsmg/wiki/assets/141610826/90fbd6f7-0b1d-4529-b5bf-b7e8e0df916b)
 
-Duplicate the gameObject that you want to manipulate the glow with. For me it is going to be `Glow models`. 
+Duplicate the gameObject that you want to manipulate the glow with. For me it is going to be `Glow models`.
 
 ![Screenshot 2023-08-08 022355](https://github.com/bsmg/wiki/assets/141610826/d00f3f58-0bf4-4e0d-923c-a03fde4dec0c)
 
-In the event manager under where it says `On Blue Light On()` hit the `+` icon twice. 
+In the event manager under where it says `On Blue Light On()` hit the `+` icon twice.
 
 ![Screenshot 2023-08-08 022607](https://github.com/bsmg/wiki/assets/141610826/21d5c58b-5547-45ed-8b9f-a171bc16d980)
 
-I recommend that you rename your gameObjects that you want to manipulate to differentiate between the two. For example 
-I am going to name mine `Blue glow models` and `Red glow models`. 
+I recommend that you rename your gameObjects that you want to manipulate to differentiate between the two. For example
+I am going to name mine `Blue glow models` and `Red glow models`.
 
 ![Untitled58_20230808022926](https://github.com/bsmg/wiki/assets/141610826/67b8633a-c21a-488f-97ea-a03bdc365d08)
 
@@ -184,8 +184,8 @@ Use this to add Unity's Baked Lighting to your platform.
 
 Note that unity's baked lighting may not always provide the best results if working with more complex models.
 You can also bake lights in blender (I find this to not only be much easier but also produces much better
-results). I will demonstrate. Make sure you have light sources. These can be point lights, area lights or suns. 
-In the shading tab, select the object that you want to bake the lights on. 
+results). I will demonstrate. Make sure you have light sources. These can be point lights, area lights or suns.
+In the shading tab, select the object that you want to bake the lights on.
 
 ![Screenshot 2023-08-08 034049](https://github.com/bsmg/wiki/assets/141610826/20040e8d-1158-4cf3-8a1c-3b189642624b)
 
@@ -199,7 +199,7 @@ of the image.
 
 ![Untitled59_20230808035009](https://github.com/bsmg/wiki/assets/141610826/33fe0be5-5c5d-48ad-89ad-68e18c592d99)
 
-If done correctly you will get a nice result such as this one: 
+If done correctly you will get a nice result such as this one:
 
 ![Screenshot 2023-08-08 040507](https://github.com/bsmg/wiki/assets/141610826/0e9cee44-8192-4a23-9b07-ec0e310110c5)
 
