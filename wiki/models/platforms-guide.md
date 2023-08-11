@@ -1,21 +1,17 @@
 ---
 prev: false
 next: false
-description: Emma amd gamesequence's Guide to making Custom Platforms!
+description: Guide to making Custom Platforms!
 ---
 
 # Custom Platforms Guide
 
-_Emma amd gamesequence's Guide to making Custom Platforms._
+Emma's Guide to making Custom Platforms with additional contributions by gamesequence
 
 ::: danger
 If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md)
 to avoid any shader issues
 :::
-
-### A note about the updated guide
-
-Big thanks to Emma on making the starting guide. Any further contributions are made by me, gamesequence.
 
 ## Project
 
@@ -36,43 +32,46 @@ this GameObject. Everything inside this Object will be exported when the button 
 In the script there are also Exporting options. These disable parts of the original platform
 (For when you want to replace something partially).
 
-## Scaling (optional)
-
-This is optional but I (gamesequence) have taken the liberty of making a [humanoid cmb model](https://www.mediafire.com/file/ngv6xrh11ppdin7/Cmb_full_body.fbx/file) that scales to a real life 5' 10" human irl. I reccomend using it in your projects to get your platform to the right scale.
-Make sure not to drop him under your platforms gameObject.
-
-![Untitled56_20230808020447](https://github.com/bsmg/wiki/assets/141610826/150deb7d-1218-4b9e-8f61-a7a45ed77ec7)
-
 ## Adding Models
 
 ![Objects](/.assets/images/models/platforms/Objects.png)
 
-Drag all models you want in your Platform into your custom platforms GameObject and position them to your liking.
+Drag all models you want in your Platform into the custom platforms GameObject and position them to your liking.
 For the materials of the models make sure to use Beat Saber compatible shaders or the ones that you can find in the Project
 called `_dark_replace` and `_glow_replace`. These are custom Materials that act like the Beat Saber materials, aka react
-to the tube lights and mist. You can also find more beat saber compatible shaders if you check the pins in [#pc-3d-modeling](https://discord.com/channels/441805394323439646/468249466865057802)
+to the tube lights and mist. You can also find more Beat Saber compatible shaders if you check the pins in [#pc-3d-modeling](https://discord.com/channels/441805394323439646/468249466865057802)
+
+### Scaling Reference
+
+If you want to use a player reference to scale your platform to, gamesequence has created a [humanoid CMB model](https://drive.google.com/file/d/1pO4kvQWlWNUhzQwOLQvJ8duLfgAvUJcI/view?usp=drive_link)
+which is 5 ft 10 in (177.8 cm) tall in real life. Note when you add the file to your project, make sure you keep it
+separate from the custom platform project as shown below.
+
+![cmbHumanoidPlacement](/.assets/images/models/platforms/cmbHumanoidPlacement.png)
 
 ### Track Rings
 
-The `Track Rings` script makes track rings like seen in the game. To achieve this, the script takes a prefab (See making
-a prefab in this guide). Make a seperate gameObject and attach the `Track Rings` script to it. For this guide, I named my
-gameObject to "Track Rings".
+The `Track Rings` script makes track rings like those seen in the game. To achieve this, the script takes a [prefab](#making-a-prefab).
+Make a separate gameObject and attach the `Track Rings` script to it.
+While the gameObject is named _"Track Rings"_ in the images below, you can use any name that helps you keep things organized.
 
-![Screenshot 2023-08-08 014133](https://github.com/bsmg/wiki/assets/141610826/aa72fd4c-7aab-4624-b351-66226989c8e1)
+![TrackRings](/.assets/images/models/platforms/TrackRings.png)
 
-![Screenshot 2023-08-08 014251](https://github.com/bsmg/wiki/assets/141610826/0a587a16-a78f-4570-8803-f3fa08e97d8f)
+![TrackRingsComponent](/.assets/images/models/platforms/TrackRingsComponent.png)
 
-Next, drag the prefab you want to use under your `Track Rings` gameObject. Then drag the prefab that you just put under
-your `Track Rings` gameObject to `Track Lane Ring Prefab`.
+Next, drag the [prefab](#making-a-prefab) you want to use under your `Track Rings` gameObject.
 
-![Screenshot 2023-08-08 014413](https://github.com/bsmg/wiki/assets/141610826/a3ecc537-6497-49f2-ad43-26a8bc6ba355)
+![prefabTogameObject](/.assets/images/models/platforms/prefabTogameObject.png)
+
+Then drag it to the `Track Lane Ring Prefab` field in the inspector menu.
 
 ![Screenshot 2023-08-08 014534](https://github.com/bsmg/wiki/assets/141610826/8ce2fb3f-5a02-4e2e-9e57-2e323a7d4fa7)
 
 Your track rings will now appear in the scene and you can adjust how many rings are present as well as other settings
 to effect how they behave.
 
-Note that your Track rings gameObject is where your track rings appear ingame. Move any childeren of this gameObject out of view.
+Note that your Track rings gameObject is where your track rings appear in-game.
+Move any children of this gameObject out of view.
 
 ![Screenshot 2023-08-08 014756](https://github.com/bsmg/wiki/assets/141610826/3703cdc1-1ee5-4418-bed5-d82aaaa78ad9)
 
@@ -113,13 +112,15 @@ to the light ID's. When using this no color adding is needed, so I changed the s
 
 ### Event Manager
 
-If you want to make things happen in your platform then this is the most useful script to make this work. To demonstrate, I will
-show you how to make an event that controls the glow colors as seen ingame. The `Glow models` are what we want to change color.
+If you want to make things happen in your platform then this is the most useful script to make this work. To demonstrate
+, I will show you how to make an event that controls the glow colors as seen ingame. The `Glow models` are what we
+want to change color.
 
 ![Screenshot 2023-08-08 021241](https://github.com/bsmg/wiki/assets/141610826/fb56d757-e05d-44a0-8c21-f07de7e89204)
 
-The event manager has different functions you can control based on different kinds of events. Such as when a level starts or the environments
-glow changes from red to blue. Add the event manager to your custom platform gameObject.
+The event manager has different functions you can control based on different kinds of events.
+Such as when a level starts or the environments glow changes from red to blue.
+Add the event manager to your custom platform gameObject.
 
 ![Untitled57_20230809010345](https://github.com/bsmg/wiki/assets/141610826/52fce7ef-7124-43e4-8c1c-73d85f438242)
 
