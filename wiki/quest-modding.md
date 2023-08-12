@@ -64,6 +64,24 @@ follow the steps below:
 This is only required if you mod with a PC (Windows / Mac / Linux). Go to [Sidequest's Download Page](https://sidequestvr.com/setup-howto)
 and download the Sidequest Advanced Installer. Once it's finished downloading, install it.
 
+### Backup Save Data using SideQuest
+
+Open SideQuest and connect your Quest to your PC.
+
+Navigate to `sdcard/Android/data/com.beatgames.beatsaber/files` using the SideQuest file explorer.
+
+![SideQuest Files](/.assets/images/beginners-guide/sqfiles.png)
+
+Save the files: `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` into a folder on your PC. Do not lose these, as they
+contain your scores and other settings!
+
+### Restoring Save Data using SideQuest
+
+To restore your data, open SideQuest and connect your Quest to your PC.  
+Using the SideQuest file explorer, take the 3 files you saved from the [Backup Save Data using SideQuest](#backup-save-data-using-sidequest)
+steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
+`sdcard/Android/data/com.beatgames.beatsaber/files` folder.
+
 ## Ways to Mod BeatSaber
 
 Currently, there are two ways to mod your game: you can either use BMBF or QAVS (QuestAppVersionSwitcher).

@@ -47,3 +47,15 @@ Open SideQuest. In the top right of the navigation bar, click the icon with nine
 currently installed on your headset. Locate `com.beatgames.beatsaber` and click the settings icon on the
 right. On the page that opens, there should be a button to uninstall BeatSaber. Click it and wait for SideQuest to
 confirm the uninstallation.
+
+#### Downloading the Downgraded Version
+
+Visit [OculusDB](https://oculusdb.rui2015.me/id/2448060205267927) and click "Download Latest Moddable Version." If you encounter
+a 404 error page, you need to log in with your Meta account [here](https://www.oculus.com/experiences/quest). Save the
+downloaded APK file to a location where you can easily locate it.
+
+#### Installing the Downgraded Version
+
+Open SideQuest again and click the Install APK icon (a box with an arrow pointing downward). An explorer window will
+appear. Select the APK file you downloaded from OculusDB. Once the installation is complete, you can disconnect the
+Quest from your PC.
