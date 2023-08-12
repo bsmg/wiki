@@ -66,6 +66,7 @@ Quest from your PC.
    the steps mentioned above.
 2. Go to the app menu in your headset. In the top right corner, you should see a filter option where you can select
    "unknown sources." If "BMBF" doesn't appear there, try installing it via SideQuest again.
+   ![UnknownSources](/.assets/images/beginners-guide/quest_home-menu.jpg)
 3. Open BMBF. It might take up to 1-2 minutes to load. It will prompt you for folder permissions. If it does, click the "Use
    This Folder" button at the bottom. **Do not** navigate to another folder!
 4. Follow the steps provided by BMBF. It may also ask for app permissions. If it does, enable the slider and click the
@@ -74,7 +75,8 @@ Quest from your PC.
 ## Installing Mods, Custom Songs, Models and external sources
 
 :::warning Syncing BMBF
-Regardless of what you install using BMBF, remember to sync it with BeatSaber by clicking the "Sync" button in the top right corner.
+Regardless of what you install using BMBF, remember to sync it with BeatSaber by clicking the "Sync" button in the top
+right corner.
 :::
 
 ### Installing Mods
@@ -129,16 +131,74 @@ If you encounter issues while modding BeatSaber, you can always seek help in the
 You can ask any questions in the quest-help channel. Please note that we are all volunteers and there is no on-call
 support. So, if no one responds immediately, please be patient. In addition, here are a few troubleshooting steps:
 
-### My Game Doesn't Start or Immediately Crashes
+### Sideloading BMBF failed
 
-There are likely mods causing these issues. Try disabling them one by one to identify which one is causing the problem.
+When sideloading BMBF and you get the error `INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.weloveoculus.BMBF
+signatures do not match the previously installed version; ignoring!`
 
-### I Can't Find the Mod Options in the Game
+You will need to uninstall the BMBF version on your Quest. You can do this from SideQuest's `My Apps` menu.
 
-Something may have gone wrong during the modding process. Go to the "Tools and Options" tab in BMBF and click
-"Uninstall All Mods." Once the process has finished, click "Download Core Mods".
+---
+
+### Core mods don't work
+
+If you are having problems with core mods, please verify that you are not trying to use any outdated mods.
+Any mod made for a previous game version is considered outdated. Once you have removed them:
+
+1. Go to `Tools`
+2. Click `Delete Mods`
+3. Click `Sync to Beat Saber`
+
+If you had mods installed before this, turn them off then on again to reinstall them.
+
+---
+
+### BMBF web interface not loading
+
+If your BMBF Web Interface is not loading, Make sure you are typing the ip from the tools tab in the quest into your browser.
+If it still does not load, make sure you are doing the following:
+
+- BMBF is open in the headset and that your headset isn't in sleep mode
+- There is http:// at the beginning of the link, not https://
+- Your ip hasn't changed, as it changes from time to time
+- You have :50000 at the end of your link
+- Your pc and your quest are on the same network (keep in mind that ethernet _can_ mess with the connection,
+  try wireless or another device if you've tried all other fixes here)
+- You are not using a VPN
+- Your ip is not 127.0.0.1
+  If none of these work restart your quest and try them all again
+
+---
+
+### My Sabers and Mods wont enable/work
+
+This is most likely due to having an outdated BMBF App, grab the latest BMBF Release by downloading it from SideQuest.
+If the BMBF version for your Beat Saber is not there then please wait a while for the unicorns to update BMBF.
+
+- If you can't press the Play button on a map press the question mark at the top right to see which mods are missing and
+  install them.
+- If your BMBF is on the latest version and mods wont be enabled in game, uninstall Beat Saber with the uninstall BS button
+  in the BMBF Tools tab then reinstall and remod.
+
+---
+
+### Beat Saber is crashing
+
+If your game is crashing when doing something, disable your mods one by one, running your game each time to see if the
+issue is fixed before asking for help in a support channel.
+
+---
+
+### I only see a white screen when I open BMBF
+
+If you only see a white screen when you open BMBF from unknown sources, try waiting a few seconds.
+If that does not work, restart your quest and try opening BMBF again.
+
+---
 
 ### The Mods Don't Appear in the Game
 
 After installing mods, be sure to press the "Sync" button in BMBF. Additionally, not all mods have visible effects. Some
 mods place their settings on the left side of the main menu, while others can be found in the mod settings under Quest UI.
+
+---

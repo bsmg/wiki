@@ -38,6 +38,7 @@ is complete, a green notification will appear in the top right corner. Now you c
 
 Go to the app menu in your headset. In the top right corner, there should be a filter option where you can select
 "unknown sources." If "Quest App Version Switcher" doesn't appear there, try installing it via SideQuest again.
+![UnknownSources](/.assets/images/beginners-guide/quest_home-menu.jpg)
 
 Start QAVS. If you have BeatSaber installed, you should see a screen that asks if you want to start
 modding BeatSaber. Depending on the latest moddable version, you might be prompted to downgrade. You'll need to log in with
@@ -116,8 +117,37 @@ support. So, if no one responds immediately, please be patient. In addition, her
 
 There are likely mods causing these issues. Try disabling them one by one to identify which one is causing the problem.
 
+---
+
 ### I Can't Find the Mod Options in the Game
 
 Something may have gone wrong during the modding process. Go to the "Tools" tab in QAVS and click "Uninstall All Mods."
 Then open the mod download page and click "Download Core Mods." If that doesn't resolve the issue, you may need to
 restart the modding process.
+
+---
+
+### QAVS web interface not loading
+
+If your QAVS Web Interface is not loading, Make sure you are typing the ip from the tools tab in the quest into your browser.
+If it still does not load, make sure you are doing the following:
+
+- BMBF is open in the headset and that your headset isn't in sleep mode
+- There is http:// at the beginning of the link, not https://
+- Your ip hasn't changed, as it changes from time to time
+- You have :50002 at the end of your link
+- Your pc and your quest are on the same network (keep in mind that ethernet _can_ mess with the connection,
+  try wireless or another device if you've tried all other fixes here)
+- You are not using a VPN
+- Your ip is not 127.0.0.1
+  If none of these work restart your quest and try them all again
+
+---
+
+### The Mods Don't Appear in the Game
+
+After installing mods, be sure to wait for QAVS finishing installing them. Additionally, not all mods have visible
+effects. Some mods place their settings on the left side of the main menu, while others can be found in the mod settings
+under Quest UI.
+
+---

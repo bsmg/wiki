@@ -30,6 +30,16 @@ outdated or contain incomplete, erroneous, or straight up incorrect information.
 Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
 :::
 
+:::warning
+Modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
+base game leaderboards.
+If you would like to play modded multiplayer, you need the mods, `Beat Together` and `MultiplayerCore`, which allows
+for cross-play between PC and Quest and for custom songs to be used.
+
+To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
+[ScoreSaber](https://scoresaber.com/quest) or [BeatLeader](https://beatleader.xyz) mod.
+:::
+
 ## Requirements
 
 Modding BeatSaber involves installing APKs on your Quest. Therefore, you will need a PC (Windows / Mac / Linux)
