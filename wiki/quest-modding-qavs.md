@@ -50,6 +50,12 @@ of the screen. **Do not** navigate into another folder when doing this, as it co
 Once modding is done, you will be brought to the main menu. It will probably still install dependencys, so don't close it
 immediately. You should get a notification once it's finished.
 
+:::warning Restoring Popup
+You might encounter a popup that informs you about having an unofficial version of BeatSaber installed. If this happens,
+**do not** click on "Restore", as doing so will uninstall the modded version of BeatSaber. The same caution applies to
+the "Update App" popup. Clicking "Update" will lead to the same outcome.
+:::
+
 ## Installing Mods, Custom Songs and Models and external sources
 
 ### Installing Mods
@@ -69,6 +75,12 @@ where you can see all mods compatible with your version. Find the mods you want 
 This can help prevent crashes and troubleshooting. After downloading the desired mods, click
 "Quest App Version Switcher" at the top to return to QAVS. Finally, check if the mods appear in the "Installed Mods" tab.
 It might take a moment for them to finish installing.
+
+### Downloading Songs
+
+In the main menu of BeatSaber is a "More Songs" button in the menu on the left. There you can download every Song listed
+on [BeatSaver](https://beatsaver.com). It's recommended to install the "BetterSongSearch" mod since it provides more
+search features.
 
 ### Installing Models
 
@@ -93,3 +105,19 @@ your browser (e.g., `http://10.0.0.2:50002`). Make sure to use `http:` and not `
 
 If everything is set up correctly, a page should open that resembles QAVS. You can access most of QAVS's features from there
 and upload your own files (`.qmod`, `.whacker`, etc.).
+
+## Troubleshooting
+
+If you encounter issues while modding BeatSaber, you can always seek help in the [BSMG Discord](https://discord.gg/beatsabermods).
+You can ask any questions in the quest-help channel. Please note that we are all volunteers and there is no on-call
+support. So, if no one responds immediately, please be patient. In addition, here are a few troubleshooting steps:
+
+### My Game Doesn't Start or Immediately Crashes
+
+There are likely mods causing these issues. Try disabling them one by one to identify which one is causing the problem.
+
+### I Can't Find the Mod Options in the Game
+
+Something may have gone wrong during the modding process. Go to the "Tools" tab in QAVS and click "Uninstall All Mods."
+Then open the mod download page and click "Download Core Mods." If that doesn't resolve the issue, you may need to
+restart the modding process.
