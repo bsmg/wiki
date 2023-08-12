@@ -56,7 +56,7 @@ You might encounter a popup that informs you about having an unofficial version 
 the "Update App" popup. Clicking "Update" will lead to the same outcome.
 :::
 
-## Installing Mods, Custom Songs and Models and external sources
+## Installing Mods, Custom Songs, Models and external sources
 
 ### Installing Mods
 
