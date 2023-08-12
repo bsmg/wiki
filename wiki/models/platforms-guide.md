@@ -41,19 +41,19 @@ For the materials of the models make sure to use Beat Saber compatible shaders o
 called `_dark_replace` and `_glow_replace`. These are custom Materials that act like the Beat Saber materials, aka react
 to the tube lights and mist. You can also find more Beat Saber compatible shaders if you check the pins in [#pc-3d-modeling](https://discord.com/channels/441805394323439646/468249466865057802)
 
-### Scaling Reference
+### Scaling Reference 
 
 If you want to use a player reference to scale your platform to, gamesequence has created a [humanoid CMB model](https://drive.google.com/file/d/1pO4kvQWlWNUhzQwOLQvJ8duLfgAvUJcI/view?usp=drive_link)
 which is 5 ft 10 in (177.8 cm) tall in real life. Note when you add the file to your project, make sure you keep it
-separate from the custom platform project as shown below.
+separate from the custom platform gameObject as shown below.
 
 ![cmbHumanoidPlacement](/.assets/images/models/platforms/cmbHumanoidPlacement.png)
 
 ### Track Rings
 
-The `Track Rings` script makes track rings like those seen in the game. To achieve this, the script takes a [prefab](#making-a-prefab).
+The `Track Rings` script makes track rings like those seen in the game. To achieve this, the script uses a [prefab](#making-a-prefab).
+Note that while the gameObject is named _"Track Rings"_ in the images below, you can use any name that helps you keep things organized.
 Make a separate gameObject and attach the `Track Rings` script to it.
-While the gameObject is named _"Track Rings"_ in the images below, you can use any name that helps you keep things organized.
 
 ![TrackRings](/.assets/images/models/platforms/TrackRings.png)
 
@@ -78,7 +78,7 @@ Move any children of this gameObject out of view.
 ![Untitled55_20230809005042](https://github.com/bsmg/wiki/assets/141610826/86aa671e-adf5-412d-ad53-de3b6f0f53d7)
 
 Enabling the rotation effect, makes the rings rotate by the specified event, depending on the variables it's given.
-(I haven't played around with these yet so experiment).
+(Be sure to experiment with the settings).
 
 Enabling the step effect changes the rings spacing when the specified event is called between 2 variables.
 
@@ -86,7 +86,7 @@ Enabling the step effect changes the rings spacing when the specified event is c
 
 ## Making a prefab
 
-What I did was I duplicated one of the existing prefabs under `Assets/Models/Playground`.
+One way of making a prefab is by duplicating one of the existing prefabs under `Assets/Models/Playground`.
 
 ![Screenshot 2023-08-08 013030](https://github.com/bsmg/wiki/assets/141610826/bd684b84-18f4-4666-90b8-8a5084414fee)
 
@@ -95,7 +95,7 @@ Open the prefab and delete everything under the gameObject that says `Ring 1`.
 ![Screenshot 2023-08-08 013506](https://github.com/bsmg/wiki/assets/141610826/4f81191d-f285-44e1-b451-7c91ab9821af)
 
 Drag and drop your track rings model on `Ring 1`. You can add any material that you choose to your track rings.
-Do note that you will need to use an optimized material if you are makeing a prefab for track rings as using an
+Note that you will need to use an optimized material if you are makeing a prefab for track rings as using an
 unoptimized material will make the game lag.
 
 ![Screenshot 2023-08-08 013705](https://github.com/bsmg/wiki/assets/141610826/768c6579-ec76-4605-b5d6-942c37111cf2)
@@ -107,41 +107,43 @@ unoptimized material will make the game lag.
 ![Tube Light](/.assets/images/models/platforms/TubeLightScript.png)
 
 This script enables blinking lights. Putting this on an empty gameObject changes the background and adds a bit of color
-to that space, according to the light ID's. When there's also a mesh renderer on it, it'll change the meshes color according
-to the light ID's. When using this no color adding is needed, so I changed the size on the script to 0.
+to that space, according to the light ID's. When there's a mesh renderer on it, it'll change the meshes color according
+to the light ID's. When using this no color adding is needed, so the size on the script was changed to 0.
 
 ### Event Manager
 
-If you want to make things happen in your platform then this is the most useful script to make this work. To demonstrate
-, I will show you how to make an event that controls the glow colors as seen ingame. The `Glow models` are what we
+If you want to add actions to in-game events in your platform then this is the most useful script to make this work. To demonstrate
+, lets make an event that controls the glow colors as seen ingame. The `Glow models` are what we
 want to change color.
 
 ![Screenshot 2023-08-08 021241](https://github.com/bsmg/wiki/assets/141610826/fb56d757-e05d-44a0-8c21-f07de7e89204)
 
 The event manager has different functions you can control based on different kinds of events.
 Such as when a level starts or the environments glow changes from red to blue.
-Add the event manager to your custom platform gameObject.
+Add the Event `Manager script` to your custom platform gameObject.
 
 ![Untitled57_20230809010345](https://github.com/bsmg/wiki/assets/141610826/52fce7ef-7124-43e4-8c1c-73d85f438242)
 
+The image below shows different events you can add functions to.
+
 ![Screenshot 2023-08-08 022104](https://github.com/bsmg/wiki/assets/141610826/cef616d6-197f-44b8-b05c-ac15adc05036)
 
-For controlling the glow, we are only going to need these two.
+For controlling the glow, only these two events are needed.
 
 ![Screenshot 2023-08-08 022209](https://github.com/bsmg/wiki/assets/141610826/90fbd6f7-0b1d-4529-b5bf-b7e8e0df916b)
 
-Duplicate the gameObject that you want to manipulate the glow with. For me it is going to be `Glow models`.
+Duplicate the gameObject that you want to manipulate the glow with. In this case, it is going to be `Glow models`.
 
 ![Screenshot 2023-08-08 022355](https://github.com/bsmg/wiki/assets/141610826/d00f3f58-0bf4-4e0d-923c-a03fde4dec0c)
+
+It is recommend that you rename your gameObjects that you want to manipulate to differentiate between the two. For example
+these are named `Blue glow models` and `Red glow models`.
+
+![Untitled58_20230812010957](https://github.com/bsmg/wiki/assets/141610826/61aa415d-7ea6-49e8-ad32-c2261e2e9cb9)
 
 In the event manager under where it says `On Blue Light On()` hit the `+` icon twice.
 
 ![Screenshot 2023-08-08 022607](https://github.com/bsmg/wiki/assets/141610826/21d5c58b-5547-45ed-8b9f-a171bc16d980)
-
-I recommend that you rename your gameObjects that you want to manipulate to differentiate between the two. For example
-I am going to name mine `Blue glow models` and `Red glow models`.
-
-![Untitled58_20230808022926](https://github.com/bsmg/wiki/assets/141610826/67b8633a-c21a-488f-97ea-a03bdc365d08)
 
 Go ahead and drag both of your glow model gameObjects into each of the two functions you added when you hit the `+` icon.
 
@@ -149,20 +151,20 @@ Go ahead and drag both of your glow model gameObjects into each of the two funct
 
 Click on `No Function` and navigate to `GameObject` and then select `SetActive(bool)`. After that go ahead and click
 the check mark. The check mark turns the object on and off. When it is checked, it means that its turning the object on
-while being unchecked it turns the object off. Do the same with your other gameObject and then do the exact same thing
-you did on `On Red Light On` until you get something that looks like this.
+while being unchecked it turns the object off. Do the same with your other gameObject, but this time make sure the box is unchecked
+and then do the exact same thing you did on `On Red Light On` until you get something that looks like this.
 
 ![Screenshot 2023-08-08 024354](https://github.com/bsmg/wiki/assets/141610826/952faee8-a599-4e1b-bb9b-977720f2a6af)
 
 Now you will have changing lights in your platform! There are many options so go ahead and play around with them a bit.
-(I might make a more in depth guide on the event manager eventually.)
 
 ### Spectrogram
 
 ![Spectrogram](/.assets/images/models/platforms/Spectrogram.png)
 
 The spectrogram script works like the track rings script and also requires a prefab or gameObject. This will get stretched
-and shrunk according to the sound of the game and the variables provided. (Haven't played with this either).
+and shrunk according to the sound of the game and the variables provided. (Little is documented about it so be sure to test
+different things).
 
 ## Exporting
 
@@ -184,8 +186,8 @@ if you want to share them with the world.
 Use this to add Unity's Baked Lighting to your platform.
 
 Note that unity's baked lighting may not always provide the best results if working with more complex models.
-You can also bake lights in blender (I find this to not only be much easier but also produces much better
-results). I will demonstrate. Make sure you have light sources. These can be point lights, area lights or suns.
+You can also bake lights in blender (Not only is this much easier but also produces much better
+results). Make sure you have light sources. These can be point lights, area lights or suns.
 In the shading tab, select the object that you want to bake the lights on.
 
 ![Screenshot 2023-08-08 034049](https://github.com/bsmg/wiki/assets/141610826/20040e8d-1158-4cf3-8a1c-3b189642624b)
@@ -194,7 +196,7 @@ Add an image texture node and then click `New`. Change the resolution to how you
 
 ![Screenshot 2023-08-08 034442](https://github.com/bsmg/wiki/assets/141610826/24885636-c5de-4d63-8a0b-97bacfbc1232)
 
-Make sure to set the rendering engine to Cycles. Make sure you select both the object and the image texture you are
+Make sure to set the rendering engine to Cycles and that you select both the object and the image texture you are
 baking. Then click the `bake` button under the baking tab. Note that this will take some time depending on the resolution
 of the image.
 
