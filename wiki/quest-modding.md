@@ -43,6 +43,8 @@ Raspberry Pi OS (Debian) and might be different on other distros. If you plan to
 
 ## Preparations
 
+### Developer Mode
+
 To mod your game, you'll need to activate Developer Mode on your Quest. If you haven't done this already,
 follow the steps below:
 
@@ -55,6 +57,11 @@ follow the steps below:
    Developer Mode. Refer to the illustrated guide below:
 
    ![iOSHowTo](/.assets/images/beginners-guide/EnableDevModeIOS.png)
+
+### SideQuest
+
+This is only required if you mod with a PC (Windows / Mac / Linux). Go to [Sidequest's Download Page](https://sidequestvr.com/setup-howto)
+and download the Sidequest Advanced Installer. Once it's finished downloading, install it.
 
 ## Ways to Mod BeatSaber
 
