@@ -32,24 +32,42 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 
 ## Requirements
 
-Since modding BeatSaber involves Installing APKs on your Quest, you will need an PC (Windows / Mac / Linux) or Android
-Phone at least once.
-To use Chromebooks and iOS devices such as iPhones or iPads you need to have a [Raspberry Pi](https://www.raspberrypi.com/).
-When you have one, visit [Modding With a Raspberry Pi](./raspi-modding.md) to get started.
+Modding BeatSaber involves installing APKs on your Quest. Therefore, you will need a PC (Windows / Mac / Linux)
+or an Android device at least once.
 
-## Ways to mod BeatSaber
+To use Chromebooks and iOS devices, such as iPhones or iPads, you need to have a
+[Raspberry Pi](https://www.raspberrypi.com/). Once you have one, visit [Modding With a Raspberry Pi](./raspi-modding.md)
+to get started. If you want to mod on Linux computers, you can also follow that guide. Note that it was only tested on
+Raspberry Pi OS (Debian) and might be different on other distros. If you plan to mod using an Android device, visit
+[Modding with Android](./support/modding-with-android.md).
 
-Currently there are two ways to mod you game. You can either use BMBF or QAVS (QuestAppVersionSwitcher).
+## Preparations
 
-#### QAVS
+To mod your game, you'll need to activate Developer Mode on your Quest. If you haven't done this already,
+follow the steps below:
 
-QAVS is recommended for people who are using an Android Phone or don't have access to a computer at all times.
-It has build in downgrading which means you don't need to use a PC or Phone everytime you want to update BeatSaber
-to the latest moddable version.
-Visit [Modding With QAVS](./quest-modding-qavs.md) to get started.
+1. Go to the [Meta's Developer Website](https://developer.oculus.com/manage/organizations/create/) and log in with the
+   Meta account that your Quest is bound to.
+2. If you haven't already, set up 2FA (Two-Factor Authentication) on your Meta Account, as it's required to create an Organization.
+3. Return to the [Meta's Developer Website](https://developer.oculus.com/manage/organizations/create/) and create a new
+   Organization. The name you choose for it doesn't matter.
+4. Open the Meta Quest Phone app and navigate to the Quest's settings. You should find an option to enable
+   Developer Mode. Refer to the illustrated guide below:
 
-#### BMBF
+   ![iOSHowTo](/.assets/images/beginners-guide/EnableDevModeIOS.png)
+
+## Ways to Mod BeatSaber
+
+Currently, there are two ways to mod your game: you can either use BMBF or QAVS (QuestAppVersionSwitcher).
+
+### QAVS
+
+QAVS is recommended for people who are using an Android device or don't have access to a computer at all times. It has
+built-in downgrading, which means you don't need to use a PC or phone every time you want to update BeatSaber to the
+latest moddable version. Visit [Modding With QAVS](./quest-modding-qavs.md) to get started.
+
+### BMBF
 
 BMBF is similar to QAVS but lacks the downgrading option. It has a simpler UI than QAVS and is generally easier to
-understand for beginners. If you want to use BMBF to mod, you will need a PC everytime you update BeatSaber.
+understand for beginners. If you want to use BMBF to mod, you will need a PC every time you update BeatSaber.
 Visit [Modding With BMBF](./quest-modding-bmbf.md) to get started.
