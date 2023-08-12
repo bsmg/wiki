@@ -122,3 +122,23 @@ You'll find an IP address that you can enter into your browser (e.g., `http://10
 Make sure to use `http:` and not `https:` at the beginning.
 
 ![BMBFWeb](/.assets/images/beginners-guide/bmbfweb.png)
+
+## Troubleshooting
+
+If you encounter issues while modding BeatSaber, you can always seek help in the [BSMG Discord](https://discord.gg/beatsabermods).
+You can ask any questions in the quest-help channel. Please note that we are all volunteers and there is no on-call
+support. So, if no one responds immediately, please be patient. In addition, here are a few troubleshooting steps:
+
+### My Game Doesn't Start or Immediately Crashes
+
+There are likely mods causing these issues. Try disabling them one by one to identify which one is causing the problem.
+
+### I Can't Find the Mod Options in the Game
+
+Something may have gone wrong during the modding process. Go to the "Tools and Options" tab in BMBF and click
+"Uninstall All Mods." Once the process has finished, click "Download Core Mods".
+
+### The Mods Don't Appear in the Game
+
+After installing mods, be sure to press the "Sync" button in BMBF. Additionally, not all mods have visible effects. Some
+mods place their settings on the left side of the main menu, while others can be found in the mod settings under Quest UI.
