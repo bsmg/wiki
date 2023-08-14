@@ -9,8 +9,9 @@ next: false
 
 If you haven't already, go to [Preparations](./quest-modding.md#preparations) and follow those steps.
 You should now have Developer Mode enabled and SideQuest Advanced installed on your PC.
-It's recommended to tape up the proximity sensor between the lenses of your Quest. This prevents it from
-going into sleep mode during the modding process.
+It's recommended to disable the proximity sensor of your quest in the sidequest device settings.
+This prevents it from going into sleep mode during the modding process. Alternatively you can tape
+up the sensor between the lenses.
 
 Make sure you do not have multiple accounts an your Quest! Modding currently doesn't work with multiple accounts.
 You can add them back once the modding process is completed.
