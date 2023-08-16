@@ -41,7 +41,7 @@ For the materials of the models make sure to use Beat Saber compatible shaders o
 called `_dark_replace` and `_glow_replace`. These are custom Materials that act like the Beat Saber materials, aka react
 to the tube lights and mist. You can also find more Beat Saber compatible shaders if you check the pins in [#pc-3d-modeling](https://discord.com/channels/441805394323439646/468249466865057802)
 
-### Scaling Reference 
+### Scaling Reference
 
 If you want to use a player reference to scale your platform to, gamesequence has created a [humanoid CMB model](https://drive.google.com/file/d/1pO4kvQWlWNUhzQwOLQvJ8duLfgAvUJcI/view?usp=drive_link)
 which is 5 ft 10 in (177.8 cm) tall in real life. Note when you add the file to your project, make sure you keep it
@@ -52,8 +52,8 @@ separate from the custom platform gameObject as shown below.
 ### Track Rings
 
 The `Track Rings` script makes track rings like those seen in the game. To achieve this, the script uses a [prefab](#making-a-prefab).
-Note that while the gameObject is named _"Track Rings"_ in the images below, you can use any name that helps you keep things organized.
-Make a separate gameObject and attach the `Track Rings` script to it.
+Note that while the gameObject is named _"Track Rings"_ in the images below, you can use any name that helps you keep
+things organized. Make a separate gameObject and attach the `Track Rings` script to it.
 
 ![TrackRings](/.assets/images/models/platforms/TrackRings.png)
 
@@ -65,7 +65,7 @@ Next, drag the [prefab](#making-a-prefab) you want to use under your `Track Ring
 
 Then drag it to the `Track Lane Ring Prefab` field in the inspector menu.
 
-![Screenshot 2023-08-08 014534](https://github.com/bsmg/wiki/assets/141610826/8ce2fb3f-5a02-4e2e-9e57-2e323a7d4fa7)
+![Track Lane Ring Prefab](/.assets/images/models/platforms/TrackLanePrefabDrag.png)
 
 Your track rings will now appear in the scene and you can adjust how many rings are present as well as other settings
 to effect how they behave.
@@ -73,9 +73,9 @@ to effect how they behave.
 Note that your Track rings gameObject is where your track rings appear in-game.
 Move any children of this gameObject out of view.
 
-![Screenshot 2023-08-08 014756](https://github.com/bsmg/wiki/assets/141610826/3703cdc1-1ee5-4418-bed5-d82aaaa78ad9)
+![TrackRingOrigin](/.assets/images/models/platforms/TrackRingOrigin.png)
 
-![Untitled55_20230809005042](https://github.com/bsmg/wiki/assets/141610826/86aa671e-adf5-412d-ad53-de3b6f0f53d7)
+![TrackRingOutOfView](/.assets/images/models/platforms/TrackRingOutOfView.png)
 
 Enabling the rotation effect, makes the rings rotate by the specified event, depending on the variables it's given.
 (Be sure to experiment with the settings).
@@ -88,19 +88,19 @@ Enabling the step effect changes the rings spacing when the specified event is c
 
 One way of making a prefab is by duplicating one of the existing prefabs under `Assets/Models/Playground`.
 
-![Screenshot 2023-08-08 013030](https://github.com/bsmg/wiki/assets/141610826/bd684b84-18f4-4666-90b8-8a5084414fee)
+![DuplicateExistingPrefab](/.assets/images/models/platforms/DuplicateExistingPrefab.png)
 
 Open the prefab and delete everything under the gameObject that says `Ring 1`.
 
-![Screenshot 2023-08-08 013506](https://github.com/bsmg/wiki/assets/141610826/4f81191d-f285-44e1-b451-7c91ab9821af)
+![DeleteDuplicateCubes](/.assets/images/models/platforms/DeleteDuplicateCubes.png)
 
 Drag and drop your track rings model on `Ring 1`. You can add any material that you choose to your track rings.
 Note that you will need to use an optimized material if you are makeing a prefab for track rings as using an
 unoptimized material will make the game lag.
 
-![Screenshot 2023-08-08 013705](https://github.com/bsmg/wiki/assets/141610826/768c6579-ec76-4605-b5d6-942c37111cf2)
+![DragDropPrefab](/.assets/images/models/platforms/DragDropPrefab.png)
 
-![Screenshot 2023-08-08 013800](https://github.com/bsmg/wiki/assets/141610826/327aad39-8af1-4355-8fe4-a5155574caa0)
+![DragDropPrefabResult](/.assets/images/models/platforms/DragDropPrefabResult.png)
 
 ### Tube Light
 
@@ -116,45 +116,45 @@ If you want to add actions to in-game events in your platform then this is the m
 , lets make an event that controls the glow colors as seen ingame. The `Glow models` are what we
 want to change color.
 
-![Screenshot 2023-08-08 021241](https://github.com/bsmg/wiki/assets/141610826/fb56d757-e05d-44a0-8c21-f07de7e89204)
+![Glow Models](/.assets/images/models/platforms/GlowModels.png)
 
 The event manager has different functions you can control based on different kinds of events.
 Such as when a level starts or the environments glow changes from red to blue.
 Add the Event `Manager script` to your custom platform gameObject.
 
-![Untitled57_20230809010345](https://github.com/bsmg/wiki/assets/141610826/52fce7ef-7124-43e4-8c1c-73d85f438242)
+![AddEventManagerScript](/.assets/images/models/platforms/AddEventManagerScript.png)
 
 The image below shows different events you can add functions to.
 
-![Screenshot 2023-08-08 022104](https://github.com/bsmg/wiki/assets/141610826/cef616d6-197f-44b8-b05c-ac15adc05036)
+![AvailableEventScripts](/.assets/images/models/platforms/AvailableEventScripts.png)
 
 For controlling the glow, only these two events are needed.
 
-![Screenshot 2023-08-08 022209](https://github.com/bsmg/wiki/assets/141610826/90fbd6f7-0b1d-4529-b5bf-b7e8e0df916b)
+![GlowEvents](/.assets/images/models/platforms/GlowEvents.png)
 
 Duplicate the gameObject that you want to manipulate the glow with. In this case, it is going to be `Glow models`.
 
-![Screenshot 2023-08-08 022355](https://github.com/bsmg/wiki/assets/141610826/d00f3f58-0bf4-4e0d-923c-a03fde4dec0c)
+![DuplicateGlowObject](/.assets/images/models/platforms/DuplicateGlowObject.png)
 
 It is recommend that you rename your gameObjects that you want to manipulate to differentiate between the two. For example
 these are named `Blue glow models` and `Red glow models`.
 
-![Untitled58_20230812010957](https://github.com/bsmg/wiki/assets/141610826/61aa415d-7ea6-49e8-ad32-c2261e2e9cb9)
+![DuplicatedGlowModelsResult](/.assets/images/models/platforms/DuplicatedGlowModelsResult.png)
 
 In the event manager under where it says `On Blue Light On()` hit the `+` icon twice.
 
-![Screenshot 2023-08-08 022607](https://github.com/bsmg/wiki/assets/141610826/21d5c58b-5547-45ed-8b9f-a171bc16d980)
+![AddGlowModelEvents](/.assets/images/models/platforms/AddGlowModelEvents.png)
 
 Go ahead and drag both of your glow model gameObjects into each of the two functions you added when you hit the `+` icon.
 
-![Screenshot 2023-08-08 023339](https://github.com/bsmg/wiki/assets/141610826/cbc0e021-dac7-4615-9bf6-c27335933da2)
+![AssignGlowModelsToEvents](/.assets/images/models/platforms/AssignGlowModelsToEvents.png)
 
 Click on `No Function` and navigate to `GameObject` and then select `SetActive(bool)`. After that go ahead and click
 the check mark. The check mark turns the object on and off. When it is checked, it means that its turning the object on
-while being unchecked it turns the object off. Do the same with your other gameObject, but this time make sure the box is unchecked
-and then do the exact same thing you did on `On Red Light On` until you get something that looks like this.
+while being unchecked it turns the object off. Do the same with your other gameObject, but this time make sure the box is
+unchecked and then do the exact same thing you did on `On Red Light On` until you get something that looks like this.
 
-![Screenshot 2023-08-08 024354](https://github.com/bsmg/wiki/assets/141610826/952faee8-a599-4e1b-bb9b-977720f2a6af)
+![SetActiveObject](/.assets/images/models/platforms/SetActiveObject.png)
 
 Now you will have changing lights in your platform! There are many options so go ahead and play around with them a bit.
 
@@ -182,7 +182,7 @@ if you want to share them with the world.
 
 ## Baked Lighting
 
-[Kylon's Baked Lighting Platforms Guide](./baked-lighting-platforms-guide.md)
+[Kylon's Baked Lighting Platforms Guide](./baked-lighting-platforms-guide.md)  
 Use this to add Unity's Baked Lighting to your platform.
 
 Note that unity's baked lighting may not always provide the best results if working with more complex models.
@@ -190,20 +190,20 @@ You can also bake lights in blender (Not only is this much easier but also produ
 results). Make sure you have light sources. These can be point lights, area lights or suns.
 In the shading tab, select the object that you want to bake the lights on.
 
-![Screenshot 2023-08-08 034049](https://github.com/bsmg/wiki/assets/141610826/20040e8d-1158-4cf3-8a1c-3b189642624b)
+![SelectObjectToBakeLighting](/.assets/images/models/platforms/SelectObjectToBakeLighting.png)
 
 Add an image texture node and then click `New`. Change the resolution to how you see fit and then click ok.
 
-![Screenshot 2023-08-08 034442](https://github.com/bsmg/wiki/assets/141610826/24885636-c5de-4d63-8a0b-97bacfbc1232)
+![AddTextureNode](/.assets/images/models/platforms/AddTextureNode.png)
 
 Make sure to set the rendering engine to Cycles and that you select both the object and the image texture you are
 baking. Then click the `bake` button under the baking tab. Note that this will take some time depending on the resolution
 of the image.
 
-![Untitled59_20230808035009](https://github.com/bsmg/wiki/assets/141610826/33fe0be5-5c5d-48ad-89ad-68e18c592d99)
+![BakedLightingSettings](/.assets/images/models/platforms/BakedLightingSettings.png)
 
 If done correctly you will get a nice result such as this one:
 
-![Screenshot 2023-08-08 040507](https://github.com/bsmg/wiki/assets/141610826/0e9cee44-8192-4a23-9b07-ec0e310110c5)
+![BakedLightingResult](/.assets/images/models/platforms/BakedLightingResult.png)
 
-Youre done!
+You're done!
