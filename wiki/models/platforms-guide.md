@@ -190,7 +190,7 @@ You can also bake lights in blender (Not only is this much easier but also produ
 results). Make sure you have light sources. These can be point lights, area lights or suns.
 In the shading tab, select the object that you want to bake the lights on.
 
-![SelectObjectToBakeLighting](/.assets/images/models/platforms/SelectObjectToBakeLighting.png)
+![SelectObjectToBakeLighting](/.assets/images/models/platforms/SelectObjectToBakeLighting.jpg)
 
 Add an image texture node and then click `New`. Change the resolution to how you see fit and then click ok.
 
@@ -200,7 +200,7 @@ Make sure to set the rendering engine to Cycles and that you select both the obj
 baking. Then click the `bake` button under the baking tab. Note that this will take some time depending on the resolution
 of the image.
 
-![BakedLightingSettings](/.assets/images/models/platforms/BakedLightingSettings.png)
+![BakedLightingSettings](/.assets/images/models/platforms/BakedLightingSettings.jpg)
 
 If done correctly you will get a nice result such as this one:
 
