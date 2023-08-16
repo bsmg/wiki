@@ -95,7 +95,7 @@ Open the prefab and delete everything under the gameObject that says `Ring 1`.
 ![DeleteDuplicateCubes](/.assets/images/models/platforms/DeleteDuplicateCubes.png)
 
 Drag and drop your track rings model on `Ring 1`. You can add any material that you choose to your track rings.
-Note that you will need to use an optimized material if you are makeing a prefab for track rings as using an
+Note that you will need to use an optimized material if you are making a prefab for track rings as using an
 unoptimized material will make the game lag.
 
 ![DragDropPrefab](/.assets/images/models/platforms/DragDropPrefab.png)
@@ -107,13 +107,13 @@ unoptimized material will make the game lag.
 ![Tube Light](/.assets/images/models/platforms/TubeLightScript.png)
 
 This script enables blinking lights. Putting this on an empty gameObject changes the background and adds a bit of color
-to that space, according to the light ID's. When there's a mesh renderer on it, it'll change the meshes color according
+to that space, according to the light ID's. When a mesh renderer is applied, it will change the meshes color according
 to the light ID's. When using this no color adding is needed, so the size on the script was changed to 0.
 
 ### Event Manager
 
 If you want to add actions to in-game events in your platform then this is the most useful script to make this work. To demonstrate
-, lets make an event that controls the glow colors as seen ingame. The `Glow models` are what we
+, lets make an event that controls the glow colors as seen in-game. The `Glow models` are what we
 want to change color.
 
 ![Glow Models](/.assets/images/models/platforms/GlowModels.png)
