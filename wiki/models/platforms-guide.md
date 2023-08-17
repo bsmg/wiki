@@ -86,7 +86,13 @@ Enabling the step effect changes the rings spacing when the specified event is c
 
 ## Making a prefab
 
-One way of making a prefab is by duplicating one of the existing prefabs under `Assets/Models/Playground`.
+Prefabs act as a template where it can be used to create new Prefab instances in a scene. Prefabs are useful for
+saving configured gameObjects across projects or needing to make changes to many copies of the same gameObject 
+at once. 
+
+### Track ring prefab
+
+One way of making a track ring prefab is by duplicating one of the existing prefabs under `Assets/Models/Playground`.
 
 ![DuplicateExistingPrefab](/.assets/images/models/platforms/DuplicateExistingPrefab.png)
 
@@ -95,12 +101,21 @@ Open the prefab and delete everything under the gameObject that says `Ring 1`.
 ![DeleteDuplicateCubes](/.assets/images/models/platforms/DeleteDuplicateCubes.png)
 
 Drag and drop your track rings model on `Ring 1`. You can add any material that you choose to your track rings.
-Note that you will need to use an optimized material if you are making a prefab for track rings as using an
-unoptimized material will make the game lag.
 
 ![DragDropPrefab](/.assets/images/models/platforms/DragDropPrefab.png)
 
 ![DragDropPrefabResult](/.assets/images/models/platforms/DragDropPrefabResult.png)
+
+Note that different shaders can have different effects on materials including performance. In the case of track
+rings, you should use a more simple shader, otherwise the game will lag.
+
+As you can see in the image, the Beat Saber Standard shader is an example of a more performance costly shader.
+
+![CostlyShaderExample](/.assets/images/models/platforms/CostlyShaderExample.png)
+
+In this image, the Unlit Glow shader is a good example of a more performant shader.
+
+![PerformantShaderExample](/.assets/images/models/platforms/PerformantShaderExample.png)
 
 ### Tube Light
 
