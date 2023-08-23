@@ -105,11 +105,12 @@ Drag and drop your track rings model on `Ring 1`. You can add any material that 
 
 ![DragDropPrefabResult](/.assets/images/models/platforms/DragDropPrefabResult.png)
 
-Note that different shaders can have different effects on materials including performance. In the case of track
-rings, you should use a simpler shader otherwise the game will lag for a significant number of users.
+Note that different shaders can have different effects on materials including performance. For track rings,
+you should use a less intensive shader otherwise the game will lag for a significant number of users.
 
-An example of this is the Beat Saber Standard shader on the left which has a bigger impact to performance
-compared to the Unlit Glow shader on the right.
+An example of this is the Beat Saber Standard shader on the left. It has a bigger impact to performance
+because its using things like normal maps, ambiance, smoothness, rimlights, etc. The image on the right
+is using an Unlit Glow shader which only uses a flat texture.
 
 ![CostlyShaderExample](/.assets/images/models/platforms/ShaderPerformanceExample.jpg)
 
