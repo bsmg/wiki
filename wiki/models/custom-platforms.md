@@ -26,7 +26,7 @@ Progress Counter from Counters+, most platforms will block the center song timer
 
 ## Creating Platforms
 
-[Emma's Platform Guide](./platforms-guide.md) is a great resource for learning how to make your own platforms.
+[Emma and gamesequence's Platform Guide](./platforms-guide.md) is a great resource for learning how to make your own platforms.
 
 ## Baked Lighting
 
