@@ -109,7 +109,7 @@ Note that different shaders can have different effects on materials including pe
 you should use a less intensive shader otherwise the game will lag for a significant number of users.
 
 An example of this is the Beat Saber Standard shader on the left. It has a bigger impact to performance
-because it is using things normal maps, ambiance, smoothness, rim lights, etc. The image on the right
+because it is using things like normal maps, ambiance, smoothness, rim lights, etc. The image on the right
 is using an Unlit Glow shader which only uses a flat texture.
 
 ![CostlyShaderExample](/.assets/images/models/platforms/ShaderPerformanceExample.jpg)
