@@ -45,11 +45,16 @@ To get leaderboards on custom songs and to be able to get Performance Points (PP
 Modding BeatSaber involves installing APKs on your Quest. Therefore, you will need a PC (Windows / Mac / Linux)
 or an Android device at least once.
 
+If you plan to mod using an Android device, visit the [Modding with Android](./support/modding-with-android.md) page.
+
 To use Chromebooks and iOS devices, such as iPhones or iPads, you need to have a
-[Raspberry Pi](https://www.raspberrypi.com/). Once you have one, visit [Modding With a Raspberry Pi](./raspi-modding.md)
-to get started. If you want to mod on Linux computers, you can also follow that guide. Note that it was only tested on
-Raspberry Pi OS (Debian) and might be different on other distros. If you plan to mod using an Android device, visit
-[Modding with Android](./support/modding-with-android.md).
+[Raspberry Pi](https://www.raspberrypi.com/). Once you have one, visit [Modding with a Raspberry Pi](./raspi-modding.md)
+to get started.
+
+If you want to use a Linux based computer, you can follow the Raspberry Pi guide. Note that it has only been tested
+on Raspberry Pi OS (Debian) and the process may be different on other distros.
+
+For Windows and Macs, continue reading below.
 
 ## Preparations
 
@@ -71,8 +76,8 @@ follow the steps below:
 
 ### SideQuest
 
-This is only required if you mod with a PC (Windows / Mac / Linux). Go to [Sidequest's Download Page](https://sidequestvr.com/setup-howto)
-and download the Sidequest Advanced Installer. Once it's finished downloading, install it.
+This is only required if you mod with a PC (Windows / Mac / Linux). Go to [SideQuest's Download Page](https://sidequestvr.com/setup-howto)
+and download the SideQuest Advanced Installer. Once it's finished downloading, install it.
 
 ### Backup Save Data using SideQuest
 
