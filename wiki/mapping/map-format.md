@@ -30,7 +30,7 @@ what we are going to break down.
 However, members of the community have gone together and made their own schema, which re-enforces rules set by Beat Saber's
 own schema, but also standardizes and sets _new_ rules to follow.
 
-This community-made schema is used by BeatSaver, which [you can find here](https://github.com/lolPants/beatmap-schemas).
+This community-made schema is used by BeatSaver, which [you can find here](https://github.com/luludotdev/beatmap-schemas).
 When uploading your map to BeatSaver, it checks against these schema files to determine whether or not it is appropriate
 for upload. A major change in this schema is the inclusion of `_customData` objects scattered throughout map files, which
 is covered in this breakdown.

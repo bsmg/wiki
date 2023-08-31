@@ -8,7 +8,14 @@
   "link-fragments": false,
   "no-duplicate-heading": false,
   "no-inline-html": {
-    "allowed_elements": ["YouTube", "kbd", "br", "details", "summary"]
+    "allowed_elements": [
+      "YouTube",
+      "AboutLinks",
+      "kbd",
+      "br",
+      "details",
+      "summary"
+    ]
   },
   "ul-style": false
 }
