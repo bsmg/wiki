@@ -41,6 +41,13 @@ For the materials of the models make sure to use Beat Saber compatible shaders o
 called `_dark_replace` and `_glow_replace`. These are custom Materials that act like the Beat Saber materials, aka react
 to the tube lights and mist. You can also find more Beat Saber compatible shaders if you check the pins in [#pc-3d-modeling](https://discord.com/channels/441805394323439646/468249466865057802)
 
+## 3d Modeling
+
+If you are new to the 3d modeling scene and would like to learn how to make 3d models, this video
+is a good place to start. 
+
+<YouTube url='https://www.youtube.com/watch?v=9xAumJRKV6A&t=215s' />
+
 ### Scaling Reference
 
 If you want to use a player reference to scale your platform to, gamesequence has created a [humanoid CMB model](https://drive.google.com/file/d/1pO4kvQWlWNUhzQwOLQvJ8duLfgAvUJcI/view?usp=drive_link)
@@ -212,7 +219,7 @@ Make sure to set the rendering engine to Cycles and that you select both the obj
 baking. Then click the `bake` button under the baking tab. Note that this will take some time depending on the resolution
 of the image.
 
-![BakedLightingSettings](/.assets/images/models/platforms/BakedLightingSettings.jpg)
+![BakedLightingSettings](/.assets/images/models/platforms/BakedLightingSettings.png)
 
 If done correctly you will get a nice result such as this one:
 
