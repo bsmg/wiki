@@ -32,12 +32,14 @@ The other dialog asks if you want to trust the computer. Click "Always Trust" so
 Once you have done that, open SideQuest. Look at the top left corner. If there is a green dot, everything is
 working and your Quest is connected. If it is red, try reconnecting the Quest. Alternatively, restart SideQuest
 and/or your PC or try a different cable.
-![SidequestConnected](/.assets/images/beginners-guide/sqConnected.jpeg)
+![SidequestConnected](/.assets/images/beginners-guide/sqConnected.png)
 
 ## Installing QAVS
 
 Navigate to the SideQuest start page within the app. You should find a search field there. Type "Quest App Version Switcher"
-and press Enter. In the search results, you should see a program by ComputerElite. Click the download/sideload button.
+and press Enter.
+![sqSearch](/.assets/images/beginners-guide/sqSearch.png)
+In the search results, you should see a program by ComputerElite. Click the download/sideload button.
 You will see a red notification at the top of the app indicating that the app is being installed. Once the installation
 is complete, a green notification will appear in the top right corner. Now you can disconnect the Quest from your PC.
 

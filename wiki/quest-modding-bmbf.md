@@ -31,12 +31,14 @@ The other dialog asks if you want to trust the computer. Click "Always Trust" so
 Once you have done that, open SideQuest. Look at the top left corner. If there is a green dot, everything is
 working and your Quest is connected. If it is red, try reconnecting the Quest. Alternatively, restart SideQuest
 and/or your PC or try a different cable.
-![SidequestConnected](/.assets/images/beginners-guide/sqConnected.jpeg)
+![SidequestConnected](/.assets/images/beginners-guide/sqConnected.png)
 
 ## Installing BMBF
 
 Navigate to the SideQuest start page within the app. You should find a search field there. Type "BMBF"
-and press Enter. In the search results, you should see a program with a Unicorn as the icon. Click the download/sideload
+and press Enter.
+![sqSearch](/.assets/images/beginners-guide/sqSearch.png)
+In the search results, you should see a program with a Unicorn as the icon. Click the download/sideload
 button. You will see a red notification at the top of the app indicating that the app is being installed. Once the installation
 is complete, a green notification will appear in the top right corner.
 
@@ -52,11 +54,13 @@ If you do not have Beat Saber installed you can skip to [Download the Downgraded
 ### Uninstall Beat Saber
 
 Open SideQuest. In the top right of the navigation bar, click the icon with nine squares. This will display all the apps
-currently installed on your headset. Locate `com.beatgames.beatsaber` and click the settings icon on the
+currently installed on your headset. Locate `Beat Saber` and click the settings icon on the
 right.
 
 On the page that opens, there should be a button to uninstall Beat Saber. Click it and wait for SideQuest to
 confirm the game has been uninstalled.
+
+![sqUninstall](/.assets/images/beginners-guide/sqUninstall.png)
 
 ### Download the Downgraded Version
 
