@@ -31,7 +31,11 @@ He makes programs to support people faster and some others for them to make all 
 
 **Roles:** Support
 
-[Github](https://github.com/ComputerElite/)
+<AboutLinks>
+
+[GitHub](https://github.com/ComputerElite/)
+
+</AboutLinks>
 
 ## Emma
 
@@ -39,7 +43,11 @@ You might know them for their spectacular platforms, or for more refined individ
 
 **Roles:** Support, 3D Artist
 
+<AboutLinks>
+
 [Twitch](https://www.twitch.tv/therealkleinba)
+
+</AboutLinks>
 
 ## Johnny0403
 
@@ -65,7 +73,12 @@ He'll teach you to fix your mods and your terribly off-beat first map. We've all
 
 **Roles:** Support, Mapping Support, Mapper
 
-[Twitch](https://www.twitch.tv/kolezan) | [Donate](https://paypal.me/kolezan)
+<AboutLinks>
+
+[Twitch](https://www.twitch.tv/kolezan)
+[PayPal](https://paypal.me/kolezan)
+
+</AboutLinks>
 
 ## Luna
 
@@ -91,7 +104,12 @@ I broke my feet the day before I got support, its not related _I think_
 
 **Roles:** Support
 
-[YouTube](https://www.youtube.com/@gikmo8246) | [GitHub](https://github.com/oli-ctrl)
+<AboutLinks>
+
+[YouTube](https://www.youtube.com/@gikmo8246)
+[GitHub](https://github.com/oli-ctrl)
+
+</AboutLinks>
 
 ## Pespiri
 
@@ -99,7 +117,11 @@ He'll give me his bio later today, or so he says.
 
 **Roles:** Support, Modder
 
+<AboutLinks>
+
 [GitHub](https://github.com/pespiri)
+
+</AboutLinks>
 
 ## Radevirot
 
@@ -107,7 +129,12 @@ This guy came out of nowhere and started helping in support saying it was some k
 
 **Roles:** Support
 
-[Twitter](https://twitter.com/Radevirot) | [Donate](https://paypal.me/Radevirot)
+<AboutLinks>
+
+[Twitter](https://twitter.com/Radevirot)
+[PayPal](https://paypal.me/Radevirot)
+
+</AboutLinks>
 
 ## Raz0rBeam
 
@@ -115,7 +142,12 @@ Just your average .saber connoisseur with a knowledge of troubleshooting
 
 **Roles:** Support
 
-[Twitter](https://www.twitter.com/Raz0rBeam) | [GitHub](https://www.github.com/Raz0rBeam)
+<AboutLinks>
+
+[Twitter](https://www.twitter.com/Raz0rBeam)
+[GitHub](https://www.github.com/Raz0rBeam)
+
+</AboutLinks>
 
 ## Rex
 
@@ -129,7 +161,11 @@ He has no life and he's pretty dumb but he can help with your bmbf and that's al
 
 **Roles:** Support
 
+<AboutLinks>
+
 [YouTube](https://www.youtube.com/channel/UCiZEAQOgVABYs1-u3psPezg)
+
+</AboutLinks>
 
 ## Simme63
 
@@ -143,7 +179,11 @@ SirSpam likes steak between two slices of bread!
 
 **Roles:** Support
 
+<AboutLinks>
+
 [YouTube](https://www.youtube.com/channel/UCaQ7PLj4AqGHZnqQVjc_XBQ)
+
+</AboutLinks>
 
 ## Toblersto
 
@@ -162,7 +202,11 @@ I decided I wanted to help one day, and have been slightly addicted ever since.
 The bot that holds it all together.
 Created by [Megalon](./staff.md#megalon), recreated by [Lulu](./staff.md#lulu), and personified by [Rolo](./modders.md#rolo)!
 
+<AboutLinks>
+
 [Merch!](https://www.redbubble.com/people/megalon-gaming/portfolio)
+
+</AboutLinks>
 
 ## Meivyn (Retired)
 
@@ -172,11 +216,10 @@ A very helpful individual
 
 ::: tip See Also
 **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
-**Modders:** [Kyle1413](./modders.md#kyle1413) | [Sirspam](./modders.md#sirspam) | [rui2015](./moderators.md#rui2015)  
-**Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer-retired)
-| [Chara\_](./moderators.md#chara-retired) | [Burrito](./moderators.md#burrito)
-| [OneEyed](./moderators.md#oneeyed-retired) | [Storm](./moderators.md#storm)  
-**Staff:** [Assistant](./staff.md#assistant-retired) | [Eradawn](./staff.md#eradawn) | [Klouder](./staff.md#klouder-retired)
-| [Megalon](./staff.md#megalon) | [Pink](./staff.md#pink) | [Steven](./staff.md#steven-🎀) | [williums](./staff.md#williums)
-| [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
+**Modders:** [Kyle1413](./modders.md#kyle1413), [Sirspam](./modders.md#sirspam), [rui2015](./moderators.md#rui2015)  
+**Moderators:** [Razor](./moderators.md#razor), [Chara\_](./moderators.md#chara-retired),
+[Burrito](./moderators.md#burrito), [OneEyed](./moderators.md#oneeyed-retired), [Storm](./moderators.md#storm)  
+**Staff:** [Assistant](./staff.md#assistant-retired), [Eradawn](./staff.md#eradawn),
+[𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./staff.md#jennifer), [Klouder](./staff.md#klouder-retired), [Megalon](./staff.md#megalon),
+[Pink](./staff.md#pink), [Steven](./staff.md#steven-🎀), [williums](./staff.md#williums), [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
 :::
