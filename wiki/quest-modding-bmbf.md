@@ -31,7 +31,7 @@ The other dialog asks if you want to trust the computer. Click "Always Trust" so
 Once you have done that, open SideQuest. Look at the top left corner. If there is a green dot, everything is
 working and your Quest is connected. If it is red, try reconnecting the Quest. Alternatively, restart SideQuest
 and/or your PC or try a different cable.
-![UnknownSources](/.assets/images/beginners-guide/sqConnected.jpeg)
+![SidequestConnected](/.assets/images/beginners-guide/sqConnected.jpeg)
 
 ## Installing BMBF
 
