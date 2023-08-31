@@ -205,7 +205,7 @@ This is where the game natively reads custom songs from.
 songs has changed. If you have maps in the old format (`.json` and `.ogg` files instead of `.dat` and `.egg`),
 leave them in the old `Beat Saber/CustomSongs` folder. You will need to download them again from BeatSaver.
 
-Alternatively you can manually convert them using [Song Converter](https://github.com/lolPants/songe-converter) however,
+Alternatively you can manually convert them using [Song Converter](https://github.com/luludotdev/songe-converter) however,
 you will not get any help with this method and need to compile the program yourself.
 
 #### 3.7 Grayed Out Play Button

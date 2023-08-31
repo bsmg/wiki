@@ -160,7 +160,7 @@ I decided I wanted to help one day, and have been slightly addicted ever since.
 ## Channel Monitor Bot
 
 The bot that holds it all together.
-Created by Megalon, recreated by lolPants, and personified by Rolo!
+Created by [Megalon](./staff.md#megalon), recreated by [Lulu](./staff.md#lulu), and personified by [Rolo](./modders.md#rolo)!
 
 [Merch!](https://www.redbubble.com/people/megalon-gaming/portfolio)
 
