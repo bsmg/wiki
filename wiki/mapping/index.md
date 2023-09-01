@@ -233,8 +233,6 @@ still fulfill a niche use case.
   so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map.
 - [Cinder](https://github.com/zhaey/cinder#readme) by **zhaey**  
   Python program that converts stepmania `.sm` files to Beat Saber `.dat` files for timing notes.
-- [BeatMapper Tools](https://beatmappertools.com/) by **Darkuni**  
-  A utility for users of Mediocre Mapper and Mediocre Map Assistant 2 to easily convert, test, and package their maps.
 - [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) by **Fayhe**  
   Video guide on using the timing feature of osu!'s editor to find map bpm.
 
