@@ -1,23 +1,9 @@
-import { createWriteStream } from 'node:fs'
-import { resolve } from 'node:path'
 import { env } from 'node:process'
 import container from 'markdown-it-container'
-import { EnumChangefreq, SitemapStream } from 'sitemap'
-import type { SitemapItem } from 'sitemap'
 import { defineConfig } from 'vitepress'
 import type { DefaultTheme } from 'vitepress'
 
 const IS_DEV = env.NODE_ENV === 'production'
-const sitemapItems: SitemapItem[] = []
-
-const transformLastUpdated = (
-  lastUpdated: number | undefined,
-): string | undefined => {
-  if (lastUpdated === undefined) return undefined
-
-  const date = new Date(lastUpdated)
-  return date.toISOString()
-}
 
 const search = (): DefaultTheme.Config['search'] => {
   if (IS_DEV) return { provider: 'local' }
@@ -267,6 +253,7 @@ export default defineConfig({
                 'Baked Lighting Platforms Guide',
                 './baked-lighting-platforms-guide',
               ],
+              [`Materials Guide`, `./materials-guide`],
             ],
           ],
           ['Shader Migration Guide', './shader-migration'],
@@ -288,41 +275,13 @@ export default defineConfig({
     search: search(),
   },
 
+  sitemap: {
+    hostname: 'https://bsmg.wiki/',
+  },
+
   markdown: {
     config: md => {
       md.use(container, 'center')
     },
-  },
-
-  transformHtml(_, id, { pageData }) {
-    if (/[\\/]404\.html$/.test(id)) return
-
-    const url = pageData.relativePath
-      .replace(/\/index\.md$/, '/')
-      .replace(/\.md$/, '.html')
-
-    const item: SitemapItem = {
-      url,
-      changefreq: EnumChangefreq.DAILY,
-      lastmod: transformLastUpdated(pageData.lastUpdated),
-
-      img: [],
-      video: [],
-      links: [],
-    }
-
-    sitemapItems.push(item)
-  },
-
-  async buildEnd({ outDir }) {
-    const sitemap = new SitemapStream({ hostname: 'https://bsmg.wiki/' })
-
-    const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
-    sitemap.pipe(writeStream)
-
-    sitemapItems.forEach(item => sitemap.write(item))
-    sitemap.end()
-
-    await new Promise(r => writeStream.on('finish', r))
   },
 })
