@@ -133,6 +133,52 @@ This is a current bug with version 1.1.16 of Melodi. Here is a quick fix:
 
 <YouTube url='https://www.youtube.com/watch?v=3axnNpdRb8w' />
 
+### Audio Link Setup
+
+::: tip NOTE
+When testing in-game the results will not look exactly like they did while testing in the project. Be
+sure to test it in-game to get proper results.
+:::
+
+It is recommended to download the [minimal unity package](https://github.com/llealloo/vrc-udon-audio-link/releases) for easy setup. Import the
+package in unity. Once imported you will want to go into your projects packages and
+locate the `AudioLinkAvatar` prefab in `Packages/AudioLink/Runtime` and drag it into your
+scene.
+
+![AudioLinkAvatarDrag.png](/.assets/images/models/materials/AudioLinkAvatarDrag.png)
+
+You have 2 options for using audio. One of them is using an audio clip by selecting
+`AudioLinkInput`. Then drag your audio clip into `AudioCLip`.
+
+![AudioClipDrag.png](/.assets/images/models/materials/AudioClipDrag.png)
+
+The other option is using a Youtube link to play an audio clip. Select `AudioLinkYtdlpPlayer`
+and paste a Youtube link in the `YtdlpPlayer` script.
+
+![YoutubeLinkExample.png](/.assets/images/models/materials/YoutubeLinkExample.png)
+
+When you click play in unity, your audio should start playing.
+
+- Audio Link Settings
+
+    - Diffuse Texture Animation: This will make the texture rotate based on the audio band
+    settings.
+    - Color Flashing: This will make your material flash based on the audio band settings
+    and the color assigned to it.
+    - Glow Pump: This is an additive effect that will scale on top of initial glow value (This
+    feature is only seen in-game). Parts of the effect can be changed with the audio band
+    settings.
+
+    ![GlowPumpExample.gif](/.assets/images/models/materials/GlowPumpExample.gif)
+
+    - Object Scale: This will change the objects scale based on the audio band settings.
+    - Object Rotation: This will change the objects rotation based on the audio band
+    settings.
+
+    <YouTube url='https://www.youtube.com/watch?v=hYcM8pP0lak' />
+    
+    Song used in the video: Code Red - [longestsoloever](https://www.youtube.com/@longestsoloever)
+
 The Melodi shader is useful for all kinds of things. Get creative!
 
 ![MelodiExample.gif](/.assets/images/models/materials/MelodiExample.gif)
