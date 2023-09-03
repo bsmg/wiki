@@ -29,16 +29,24 @@ Take a USB cable and connect your Quest to your PC. Inside your Quest, two dialo
 step for the first time). One dialog asks for permission for the PC to access the Quest's files. Click "Accept".
 The other dialog asks if you want to trust the computer. Click "Always Trust" so it does not show up again.
 
-Once you have done that, open SideQuest. Look at the top left corner. If there is a green dot, everything is
-working and your Quest is connected. If it is red, try reconnecting the Quest. Alternatively, restart SideQuest
-and/or your PC or try a different cable.
+Once you have done that, open SideQuest and look at the top left corner. If there is a green dot, everything is
+working and your Quest is connected.
+
 ![SidequestConnected](/.assets/images/beginners-guide/sqConnected.png)
+
+If it is red, try the following troubleshooting options:
+
+- Reconnect the Quest to your PC
+- Restart SideQuest and/or your PC
+- Try using a different USB cable
 
 ## Installing QAVS
 
 Navigate to the SideQuest start page within the app. You should find a search field there. Type "Quest App Version Switcher"
 and press Enter.
+
 ![sqSearch](/.assets/images/beginners-guide/sqSearch.png)
+
 In the search results, you should see a program by ComputerElite. Click the download/sideload button.
 You will see a red notification at the top of the app indicating that the app is being installed. Once the installation
 is complete, a green notification will appear in the top right corner. Now you can disconnect the Quest from your PC.
@@ -47,6 +55,7 @@ is complete, a green notification will appear in the top right corner. Now you c
 
 Go to the app menu in your headset. In the top right corner, there should be a filter option where you can select
 "unknown sources." If "Quest App Version Switcher" does not appear there, try installing it via SideQuest again.
+
 ![UnknownSources](/.assets/images/beginners-guide/quest_home-menu.jpg)
 
 Start QAVS. If you have BeatSaber installed, you should see a screen that asks if you want to start

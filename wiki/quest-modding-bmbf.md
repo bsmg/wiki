@@ -28,16 +28,24 @@ Take a USB cable and connect your Quest to your PC. Inside your Quest, two dialo
 step for the first time). One dialog asks for permission for the PC to access the Quest's files. Click "Accept".
 The other dialog asks if you want to trust the computer. Click "Always Trust" so it does not show up again.
 
-Once you have done that, open SideQuest. Look at the top left corner. If there is a green dot, everything is
-working and your Quest is connected. If it is red, try reconnecting the Quest. Alternatively, restart SideQuest
-and/or your PC or try a different cable.
+Once you have done that, open SideQuest and look at the top left corner. If there is a green dot, everything is
+working and your Quest is connected.
+
 ![SidequestConnected](/.assets/images/beginners-guide/sqConnected.png)
+
+If it is red, try the following troubleshooting options:
+
+- Reconnect the Quest to your PC
+- Restart SideQuest and/or your PC
+- Try using a different USB cable
 
 ## Installing BMBF
 
 Navigate to the SideQuest start page within the app. You should find a search field there. Type "BMBF"
 and press Enter.
+
 ![sqSearch](/.assets/images/beginners-guide/sqSearch.png)
+
 In the search results, you should see a program with a Unicorn as the icon. Click the download/sideload
 button. You will see a red notification at the top of the app indicating that the app is being installed. Once the installation
 is complete, a green notification will appear in the top right corner.
@@ -73,6 +81,7 @@ downloaded APK file to a location where you can easily locate it.
 Open SideQuest again and click the Install APK icon (a box with an arrow pointing downward). An explorer window will
 appear. Select the APK file you downloaded from OculusDB. Once the installation is complete, you can disconnect the
 Quest from your PC.
+
 ![apkfromfolder](/.assets/images/beginners-guide/apkfromfolder.png)
 
 ## Starting the Modding Process

@@ -101,14 +101,17 @@ steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
 
 Currently, there are two ways to mod your game: you can either use BMBF or QAVS (QuestAppVersionSwitcher).
 
+### BMBF
+
+BMBF is generally easier to understand for beginners with a simpler UI compared to QAVS, but lacks a built-in downgrading
+option. If you use BMBF to mod, you will need a PC every time you update BeatSaber.
+
+Visit [Modding With BMBF](./quest-modding-bmbf.md) to get started.
+
 ### QAVS
 
 QAVS is recommended for people who are using an Android device or don't have access to a computer at all times. It has
 built-in downgrading, which means you don't need to use a PC or phone every time you want to update BeatSaber to the
-latest moddable version. Visit [Modding With QAVS](./quest-modding-qavs.md) to get started.
+latest moddable version.
 
-### BMBF
-
-BMBF is similar to QAVS but lacks the downgrading option. It has a simpler UI than QAVS and is generally easier to
-understand for beginners. If you want to use BMBF to mod, you will need a PC every time you update BeatSaber.
-Visit [Modding With BMBF](./quest-modding-bmbf.md) to get started.
+Visit [Modding With QAVS](./quest-modding-qavs.md) to get started.
