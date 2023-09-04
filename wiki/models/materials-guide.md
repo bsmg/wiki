@@ -172,6 +172,16 @@ When you click play in unity, your audio should start playing.
     ![GlowPumpExample.gif](/.assets/images/models/materials/GlowPumpExample.gif)
 
     - Object Scale: This will change the objects scale based on the audio band settings.
+
+    ::: tip NOTE
+    VERY IMPORTANT!!!! This option uses vertex based animation. It scales it based on how
+    the normals are set up. To keep this simple, these two examples show a smooth shaded
+    object (left) and a flat shaded object (right). They both behave very differently!!!!
+
+    ![ObjectNormalsExample.gif](/.assets/images/models/materials/ObjectNormalsExample.gif)
+
+    :::
+
     - Object Rotation: This will change the objects rotation based on the audio band
     settings.
 
