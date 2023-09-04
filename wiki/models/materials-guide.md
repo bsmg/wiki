@@ -148,12 +148,12 @@ scene.
 ![AudioLinkAvatarDrag.png](/.assets/images/models/materials/AudioLinkAvatarDrag.png)
 
 You have 2 options for using audio. One of them is using an audio clip by selecting
-`AudioLinkInput`. Then drag your audio clip into `AudioCLip`.
+the `AudioLinkInput` gameObject. Then drag your audio clip into `AudioCLip`.
 
 ![AudioClipDrag.png](/.assets/images/models/materials/AudioClipDrag.png)
 
-The other option is using a Youtube link to play an audio clip. Select `AudioLinkYtdlpPlayer`
-and paste a Youtube link in the `YtdlpPlayer` script.
+The other option is using a Youtube link to play an audio clip. Select the
+`AudioLinkYtdlpPlayer` gameObject and paste a Youtube link in the `YtdlpPlayer` script.
 
 ![YoutubeLinkExample.png](/.assets/images/models/materials/YoutubeLinkExample.png)
 
@@ -182,6 +182,8 @@ When you click play in unity, your audio should start playing.
 The Melodi shader is useful for all kinds of things. Get creative!
 
 ![MelodiExample.gif](/.assets/images/models/materials/MelodiExample.gif)
+
+![AudioLinkExamples.gif](/.assets/images/models/materials/AudioLinkExamples.gif)
 
 ## [Fire Trail Shader](https://github.com/Ikeiwa/BeatSaber-shaders/blob/master/sh_trail_custom.shader) - Ikeiwa
 
