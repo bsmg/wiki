@@ -265,6 +265,21 @@ that some streamers use to show you how to cut bloq properly.
 
 </AboutLinks>
 
+## Kaitlyn
+
+Created various mods/ports for Quest and PC. Also loves being a part-time bunnygirl 🐇 and drinking *lots* of Dr Pepper.
+
+**Roles:** Modder
+**Contributions:** Old School Beat Saber, AnyTweaks, EditorEX, FixEverything, SmoothCamPlus, Beat Saber Shader Tools and much more.
+
+<AboutLinks>
+
+[GitHub](https://github.com/kaitlyndotmoe)
+[Twitter](https://twitter.com/kaitlyndotmoe)
+[Patreon](https://www.patreon.com/ItsKaitlyn03)
+
+</AboutLinks>
+
 ## kOF.Readie
 
 Creator of the [BSDataPuller](https://github.com/kOFReadie/BSDataPuller/) mod used for streaming and recording overlays.
