@@ -50,6 +50,19 @@ Creator of the Song Request Manager, which makes twitch requests possible. Check
 
 </AboutLinks>
 
+## Arimodu
+
+Uhh... What to write about myself... I like slicing bloqs, I guess. If you see a mod from me as "Coming soon", it is NOT coming soon
+
+**Roles:** Modder
+**Contributions:** PrioritySetter, AwayPlayer (Coming soon...)
+
+<AboutLinks>
+
+[GitHub](https://github.com/arimodu)
+
+</AboutLinks>
+
 ## Arti
 
 Somone say text customization mods?
