@@ -189,6 +189,20 @@ Rainbows? Rainbows.
 
 </AboutLinks>
 
+## FutureMapper
+
+Currently maintaining the mods for BSChallenger and Saber Quest, alongside some one-off mods.
+
+**Roles:** Modder
+**Contributions:** BSChallenger, Saber Quest, Pause Music, Cover Color Saber, ReeSabers.CustomColors, NoteLimiter
+
+<AboutLinks>
+
+[GitHub](https://github.com/Futuremappermydud)
+[Twitter](https://twitter.com/Futuremapper_)
+
+</AboutLinks>
+
 ## Goobie
 
 Maintainer of the mods that help you play with friends the right way.
