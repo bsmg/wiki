@@ -258,6 +258,22 @@ export default defineConfig({
           ['Shader Migration Guide', './shader-migration'],
         ],
       },
+      {
+        name: 'Quest Modding',
+        path: '/',
+        routes: [
+          ['Overview', '/quest-modding'],
+          [
+            'Using a Windows PC or Mac',
+            [
+              ['Modding With BMBF', '/quest-modding-bmbf'],
+              ['Modding With QAVS', '/quest-modding-qavs'],
+            ],
+          ],
+          ['Modding With Android', '/support/modding-with-android'],
+          ['Modding With a Raspberry Pi', '/raspi-modding'],
+        ],
+      },
     ),
 
     footer: {

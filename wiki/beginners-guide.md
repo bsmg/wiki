@@ -29,7 +29,8 @@ If you are using the Oculus Quest version of the game, follow our [Quest Modding
 
 Applicable hardware includes:
 
-- Oculus Quest/Quest 2
+- Meta Quest
+- Meta Quest 2
 
 ## Creating content
 
