@@ -52,7 +52,7 @@ Creator of the Song Request Manager, which makes twitch requests possible. Check
 
 ## Arimodu
 
-Uhh... What to write about myself... I like slicing bloqs, I guess. If you see a mod from me as "Coming soon", it is NOT coming soon
+I like slicing bloqs, I guess. If you see a mod from me as "Coming soon", it is NOT coming soon
 
 **Roles:** Modder
 **Contributions:** PrioritySetter, AwayPlayer (Coming soon...)
