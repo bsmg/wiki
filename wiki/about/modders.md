@@ -267,10 +267,11 @@ that some streamers use to show you how to cut bloq properly.
 
 ## Kaitlyn
 
-Created various mods/ports for Quest and PC. Also loves being a part-time bunnygirl 🐇 and drinking *lots* of Dr Pepper.
+Created various mods/ports for Quest and PC. Also loves being a part-time bunnygirl 🐇 and drinking _lots_ of Dr Pepper.
 
 **Roles:** Modder
-**Contributions:** Old School Beat Saber, AnyTweaks, EditorEX, FixEverything, SmoothCamPlus, Beat Saber Shader Tools and much more.
+**Contributions:** Old School Beat Saber, AnyTweaks, EditorEX, FixEverything, SmoothCamPlus, Beat Saber Shader Tools and
+much more.
 
 <AboutLinks>
 
