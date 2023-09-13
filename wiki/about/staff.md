@@ -10,21 +10,6 @@ the other secret projects, there's always lots of work to be done. The community
 contributed by these incredible individuals, so please give them a virtual round of applause
 (and help pay for the services if you can)._
 
-## +1 Rabbit
-
-Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)
-
-**Roles:** Staff, Modder
-**Contributions:** BS-Viewer, Mapping Tools
-
-<AboutLinks>
-
-[GitHub](https://github.com/PlusOneRabbit)
-[Twitch](https://www.twitch.tv/plusonerabbit)
-[Donate](https://ko-fi.com/plusonerabbit)
-
-</AboutLinks>
-
 ## Bloodcloak
 
 A guy that is really into Japanese and EDM music with the occasional K-pop song.
@@ -42,22 +27,6 @@ _Totally_ hasn't fallen into the Vtuber hole and makes computer code that works!
 [BeatSaver](https://beatsaver.com/profile/71661)
 [BeastSaber](https://bsaber.com/members/bloodcloak/)
 [Donate](https://ko-fi.com/bloodcloak)
-
-</AboutLinks>
-
-## Bobbie
-
-Remind him to watch his glucose.
-
-**Roles:** Staff, Modder, 3D Artists, Moderator  
-**Contributions:** Custom Notes, ModelSaber Admin
-
-<AboutLinks>
-
-[Important](https://i.imgur.com/REWmoI9.jpg)
-[Twitter](https://twitter.com/vrbobbie)
-[YouTube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ)
-[Donate](https://ko-fi.com/bobbievr)
 
 </AboutLinks>
 
@@ -199,6 +168,21 @@ The manager of many, Steven's always around to lend a helping hand as long as yo
 
 </AboutLinks>
 
+## +1 Rabbit (Retired)
+
+Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)
+
+**Roles:** Staff, Modder
+**Contributions:** BS-Viewer, Mapping Tools
+
+<AboutLinks>
+
+[GitHub](https://github.com/PlusOneRabbit)
+[Twitch](https://www.twitch.tv/plusonerabbit)
+[Donate](https://ko-fi.com/plusonerabbit)
+
+</AboutLinks>
+
 ## Assistant (Retired)
 
 Overseeer of core services, including BeatSaver and BeatMods servers.
@@ -223,6 +207,22 @@ BeatSaver numbers, call us nerds, and present his collection of finely aged meme
 team, but we wouldn't be here without him.
 
 **Contributions:** BeatSaver Creator.
+
+## Bobbie (Retired)
+
+Remind him to watch his glucose.
+
+**Roles:** Staff, Modder, 3D Artists, Moderator  
+**Contributions:** Custom Notes, ModelSaber Admin
+
+<AboutLinks>
+
+[Important](https://i.imgur.com/REWmoI9.jpg)
+[Twitter](https://twitter.com/vrbobbie)
+[YouTube](https://www.youtube.com/channel/UCdpHoaYSHm2GwgvapMsXgsQ)
+[Donate](https://ko-fi.com/bobbievr)
+
+</AboutLinks>
 
 ## elliotttate (Retired)
 
