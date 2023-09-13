@@ -68,7 +68,7 @@ right.
 On the page that opens, there should be a button to uninstall Beat Saber. Click it and wait for SideQuest to
 confirm the game has been uninstalled.
 
-![sqUninstall](/.assets/images/beginners-guide/sqUninstall.png)
+![sqUninstall](/.assets/images/beginners-guide/squninstall.png)
 
 ### Download the Downgraded Version
 
