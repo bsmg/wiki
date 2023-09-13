@@ -73,7 +73,7 @@ confirm the game has been uninstalled.
 ### Download the Downgraded Version
 
 Visit [OculusDB](https://oculusdb.rui2015.me/id/2448060205267927) and click "Download Latest Moddable Version." If you encounter
-a 404 error page, you need to log in with your Meta account [here](https://www.oculus.com/experiences/quest). Save the
+a 404 error page, you need to log in with your Meta account [here](https://developer.oculus.com/manage). Save the
 downloaded APK file to a location where you can easily locate it.
 
 ### Install the Downgraded Version

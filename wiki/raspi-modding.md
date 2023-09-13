@@ -136,7 +136,7 @@ adb install com.ComputerElite.questappversionswitcher-Signed.apk
 
 - Make sure you're using a USB-C to USB-A cable.
 - Make sure you're using the correct cable.
-- Try runnung `adb kill-server` and then `adb devices` again.
+- Try running `adb kill-server` and then `adb devices` again.
 
 ### My pi crashes when connecting the quest
 
