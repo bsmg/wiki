@@ -182,6 +182,19 @@ When you click play in unity, your audio should start playing.
 
     :::
 
+    There are 2 types of volume sensitivity in the audio band settings for object scale:
+    Default and curve based (for the premium version). 
+
+    ![CurveExample.png](/.assets/images/models/materials/CurveExample.png)
+
+    You can change the way the object scale behaves by adjusting the curve. There are a
+    lot of effects you can achieve. If, for example, you want your objects to have a roll
+    effect, you can loop the curve like shown:
+
+    <YouTube url='https://youtu.be/6Hx4BRGb6hM' />
+
+    Song used in the video: Overthrone (Metal Version) - [longestsoloever](https://www.youtube.com/@longestsoloever)
+
     - Object Rotation: This will change the objects rotation based on the audio band
     settings.
 
