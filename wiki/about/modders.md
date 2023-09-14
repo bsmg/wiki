@@ -441,6 +441,15 @@ Mother of the original `!bsr` mod.
 
 [GitHub](https://github.com/soliel) | [Donate](https://streamlabs.com/soliela)
 
+## Speecil
+
+That upside down man who sometimes writes good code.
+
+**Roles:** Modder
+**Contributions:** LocalLeaderboard, SpeecilTweaks
+
+[GitHub](https://github.com/speecil)
+
 ## StarGazer1258
 
 Creator of BeatDrop, everyone's favorite desktop application for custom song management!
