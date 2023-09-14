@@ -178,6 +178,15 @@ that some streamers use to show you how to cut bloq properly.
 
 [GitHub](https://github.com/ItsNovaHere) | [Ko-Fi](https://ko-fi.com/itsnovahere)
 
+## KodenameKRAK
+
+"Maybe in a couple years I could think of something to put here"
+
+**Roles:** Modder, Support
+**Contributions:** SongChartVisualizer (Quest), SongRankedBadge (Quest), ParticleTuner, QonsistentSaberColors
+
+[GitHub](https://github.com/KodenameKRAK)
+
 ## kOF.Readie
 
 Creator of the [BSDataPuller](https://github.com/kOFReadie/BSDataPuller/) mod used for streaming and recording overlays.
@@ -257,6 +266,15 @@ Puts both way too much time and not enough time into Custom Avatars.
 **Contributions:** Custom Avatars, SiraLocalizer, and a few lines here and there in other mods
 
 [GitHub](https://github.com/nicoco007)
+
+## Nuggo
+
+A fine nugget... A tasty nugget
+
+**Roles:** Modder, Support
+**Contributions:** Colour Switcher, DebrisTweaks
+
+[GitHub](https://github.com/NuggoDEV)
 
 ## opl
 
