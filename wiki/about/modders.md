@@ -202,6 +202,20 @@ Rainbows? Rainbows.
 
 </AboutLinks>
 
+## FrozenAlex
+
+Brought ~~the first~~ GIF support to Quest just for cat girls. Finished the BetterSongSearch Quest port. Serial cherry-picker. 
+
+**Roles:** Modder
+**Contributions:** BetterSongSearch (Quest), Nya (Quest)
+
+<AboutLinks>
+
+[GitHub](https://github.com/FrozenAlex)
+[Ko-fi](https://ko-fi.com/frozenalex)
+
+</AboutLinks>
+
 ## FutureMapper
 
 Currently maintaining the mods for BSChallenger and Saber Quest, alongside some one-off mods.
