@@ -636,8 +636,7 @@ Making sure we're all nice and hydrated after cutting the blocks.
 
 ## Sirspam
 
-Cat girl enthusiast
-_(a little bit goofy)_ ❤️
+Full time dumbnut with an IDE, responsible for the infamous Nya mod.
 
 **Roles:** Modder, Support
 **Contributions:** Nya, Greetings, MenuPillars, MultiCode-inator
