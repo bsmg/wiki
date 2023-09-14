@@ -160,7 +160,8 @@ A very helpful individual
 
 ::: tip See Also
 **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
-**Modders:** [Kyle1413](./modders.md#kyle1413) | [Sirspam](./modders.md#sirspam) | [rui2015](./moderators.md#rui2015) | [KodenameKRAK](./modders.md#kodenamekrak) | [Nuggo](./modders.md#nuggo)  
+**Modders:** [Kyle1413](./modders.md#kyle1413) | [Sirspam](./modders.md#sirspam) | [rui2015](./moderators.md#rui2015) |
+[KodenameKRAK](./modders.md#kodenamekrak) | [Nuggo](./modders.md#nuggo)  
 **Moderators:** [Razor](./moderators.md#razor) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer-retired)
 | [Chara\_](./moderators.md#chara-retired) | [Burrito](./moderators.md#burrito)
 | [OneEyed](./moderators.md#oneeyed-retired) | [Storm](./moderators.md#storm)  
