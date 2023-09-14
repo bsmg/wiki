@@ -322,6 +322,19 @@ much more.
 
 </AboutLinks>
 
+## KodenameKRAK
+
+"Maybe in a couple years I could think of something to put here"
+
+**Roles:** Modder, Support
+**Contributions:** SongChartVisualizer (Quest), SongRankedBadge (Quest), ParticleTuner, QonsistentSaberColors
+
+<AboutLinks>
+
+[GitHub](https://github.com/KodenameKRAK)
+
+</AboutLinks>
+
 ## kOF.Readie
 
 Creator of the [BSDataPuller](https://github.com/kOFReadie/BSDataPuller/) mod used for streaming and recording overlays.
@@ -437,6 +450,19 @@ Puts both way too much time and not enough time into Custom Avatars.
 <AboutLinks>
 
 [GitHub](https://github.com/nicoco007)
+
+</AboutLinks>
+
+## Nuggo
+
+A fine nugget... A tasty nugget
+
+**Roles:** Modder, Support
+**Contributions:** Colour Switcher, DebrisTweaks
+
+<AboutLinks>
+
+[GitHub](https://github.com/NuggoDEV)
 
 </AboutLinks>
 
@@ -690,6 +716,19 @@ Mother of the original `!bsr` mod.
 
 [GitHub](https://github.com/soliel)
 [Donate](https://streamlabs.com/soliela)
+
+</AboutLinks>
+
+## Speecil
+
+That upside down man who sometimes writes good code.
+
+**Roles:** Modder
+**Contributions:** LocalLeaderboard, SpeecilTweaks
+
+<AboutLinks>
+
+[GitHub](https://github.com/speecil)
 
 </AboutLinks>
 

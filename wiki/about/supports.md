@@ -61,12 +61,6 @@ Answered one question. Then a few more. Now he's here.
 
 **Roles:** Support
 
-## KodenameKRAK
-
-"Maybe in a couple years I could think of something to put here"
-
-**Roles:** Support
-
 ## Kolezan
 
 He'll teach you to fix your mods and your terribly off-beat first map. We've all been there.
@@ -89,12 +83,6 @@ She's often forgetful, but happy to help
 ## male
 
 is too uncreative to think of a bio
-
-**Roles:** Support
-
-## Nuggo
-
-A fine nugget... A tasty nugget
 
 **Roles:** Support
 
@@ -216,7 +204,8 @@ A very helpful individual
 
 ::: tip See Also
 **3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
-**Modders:** [Kyle1413](./modders.md#kyle1413), [Sirspam](./modders.md#sirspam), [rui2015](./moderators.md#rui2015)  
+**Modders:** [Kyle1413](./modders.md#kyle1413), [Sirspam](./modders.md#sirspam), [rui2015](./moderators.md#rui2015),
+[KodenameKRAK](./modders.md#kodenamekrak), [Nuggo](./modders.md#nuggo)
 **Moderators:** [Razor](./moderators.md#razor), [Chara\_](./moderators.md#chara-retired),
 [Burrito](./moderators.md#burrito), [OneEyed](./moderators.md#oneeyed-retired), [Storm](./moderators.md#storm)  
 **Staff:** [Assistant](./staff.md#assistant-retired), [Eradawn](./staff.md#eradawn),
