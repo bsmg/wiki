@@ -204,7 +204,7 @@ Rainbows? Rainbows.
 
 ## FrozenAlex
 
-Brought ~~the first~~ GIF support to Quest just for cat girls. Finished the BetterSongSearch Quest port. Serial cherry-picker. 
+Brought ~~the first~~ GIF support to Quest just for cat girls. Finished the BetterSongSearch Quest port. Serial cherry-picker.
 
 **Roles:** Modder
 **Contributions:** BetterSongSearch (Quest), Nya (Quest)
