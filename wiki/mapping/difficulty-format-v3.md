@@ -180,7 +180,7 @@ The far left column is located at index 0, and increases to the far right column
 #### y
 
 An integer number, from 0 to 2, which represents the layer where this note is located.
-The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+The bottommost layer is located at layer 0, and increases to the topmost layer located at index 2.
 
 #### c
 
@@ -233,7 +233,7 @@ The far left column is located at index 0, and increases to the far right column
 #### y
 
 An integer number, from 0 to 2, which represents the layer where this note is located.
-The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+The bottommost layer is located at layer 0, and increases to the topmost layer located at index 2.
 
 ### Obstacles
 
@@ -260,7 +260,7 @@ The far left column is located at index 0, and increases to the far right column
 #### y
 
 An integer number, from 0 to 2, which represents the layer where base of the obstacle is located.
-The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+The bottommost layer is located at layer 0, and increases to the topmost layer located at index 2.
 |`y`|Result|
 |:-------------------:|-------------------|
 |`0`|Grounded obstacle|
@@ -324,7 +324,7 @@ The far left column is located at index 0, and increases to the far right column
 #### y
 
 An integer number, from 0 to 2, which represents the layer where the head of the arc is located.
-The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+The bottommost layer is located at layer 0, and increases to the topmost layer located at index 2.
 
 #### d
 
@@ -359,7 +359,7 @@ The far left column is located at index 0, and increases to the far right column
 #### ty
 
 An integer number, from 0 to 2, which represents the layer where the tail of the arc is located.
-The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+The bottommost layer is located at layer 0, and increases to the topmost layer located at index 2.
 
 #### tc
 
@@ -435,7 +435,7 @@ The far left column is located at index 0, and increases to the far right column
 #### y
 
 An integer number, from 0 to 2, which represents the layer where the head of the arc is located.
-The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+The bottommost layer is located at layer 0, and increases to the topmost layer located at index 2.
 
 #### d
 
@@ -465,7 +465,7 @@ The far left column is located at index 0, and increases to the far right column
 #### ty
 
 An integer number, from 0 to 2, which represents the layer where the tail of the arc is located.
-The bottommost layer is located at layer 0, and inceases to the topmost layer located at index 2.
+The bottommost layer is located at layer 0, and increases to the topmost layer located at index 2.
 
 #### sc
 
