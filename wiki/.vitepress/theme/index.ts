@@ -5,6 +5,7 @@ import { useRoute } from 'vitepress'
 import type { EnhanceAppContext } from 'vitepress'
 import Theme from 'vitepress/theme'
 
+import AboutLinks from '../components/AboutLinks.vue'
 import YouTube from '../components/YouTube.vue'
 
 import './style.css'
@@ -33,6 +34,7 @@ export default {
     )
   },
   enhanceApp({ app, router, siteData }: EnhanceAppContext) {
+    app.component('AboutLinks', AboutLinks)
     app.component('YouTube', YouTube)
   },
 }

@@ -1,8 +1,9 @@
 {
   "name": "@bsmg/wiki",
   "description": "BSMG Wiki",
+  "type": "module",
   "repository": "git@github.com:bsmg/wiki.git",
-  "author": "Jack Baron <jackmbaron@gmail.com> (https://www.jackbaron.com)",
+  "author": "Jack Baron <jackmbaron@gmail.com> (https://lulu.dev)",
   "license": "MIT",
   "private": true,
   "engines": {
@@ -17,17 +18,16 @@
     "fmt": "prettier --write . && markdownlint-cli2-fix \"wiki/**/*.md\" \"#wiki/{de,fr,ja,nl}/**/*.md\""
   },
   "devDependencies": {
-    "@types/markdown-it-container": "^2.0.5",
-    "@types/node": "^20.4.0",
+    "@types/markdown-it-container": "^2.0.6",
+    "@types/node": "^20.5.7",
     "byte-size": "^8.1.1",
     "globby": "^13.2.2",
     "kleur": "^4.1.5",
     "markdown-it-container": "^3.0.0",
-    "markdownlint-cli2": "^0.8.1",
+    "markdownlint-cli2": "^0.9.2",
     "medium-zoom": "^1.0.8",
-    "prettier": "^3.0.0",
-    "sitemap": "^7.1.1",
-    "vitepress": "1.0.0-beta.5",
+    "prettier": "^3.0.3",
+    "vitepress": "1.0.0-rc.10",
     "vue": "^3.3.4"
   }
 }
