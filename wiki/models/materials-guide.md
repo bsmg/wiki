@@ -121,7 +121,7 @@ This is a current bug with version 1.1.16 of Melodi. Here is a quick fix:
     for making water or adding any other distortion effects.
   - Normal Scale: This will change how much distortion you are giving your object.
 
-![DiffuseDistortionExample.gif](/.assets/images/models/materials/DiffuseDistortionExample.gif)
+<YouTube url='https://www.youtube.com/watch?v=xbMIzPK2jwc' />
 
 - Beat Saber Settings
   - Color Type: Can change between using a solid color or a gradiant.
@@ -169,7 +169,7 @@ When you click play in unity, your audio should start playing.
     feature is only seen in-game). Parts of the effect can be changed with the audio band
     settings.
 
-  ![GlowPumpExample.gif](/.assets/images/models/materials/GlowPumpExample.gif)
+    <YouTube url='https://youtu.be/MTjwqI7rUYA' />
 
   - Object Scale: This will change the objects scale based on the audio band settings.
 
@@ -178,9 +178,9 @@ When you click play in unity, your audio should start playing.
   the normals are set up. To keep this simple, these two examples show a smooth shaded
   object (left) and a flat shaded object (right). They both behave very differently!!!!
 
-  ![ObjectNormalsExample.gif](/.assets/images/models/materials/ObjectNormalsExample.gif)
+    <YouTube url='https://youtu.be/aK0Rnfs0Kbs' />
 
-  :::
+    :::
 
   There are 2 types of volume sensitivity in the audio band settings for object scale:
   Default and curve based (for the premium version).
@@ -204,9 +204,9 @@ When you click play in unity, your audio should start playing.
 
 The Melodi shader is useful for all kinds of things. Get creative!
 
-![MelodiExample.gif](/.assets/images/models/materials/MelodiExample.gif)
+<YouTube url='https://youtu.be/KtZ8onsptMg' />
 
-![AudioLinkExamples.gif](/.assets/images/models/materials/AudioLinkExamples.gif)
+<YouTube url='https://youtu.be/9X7pus4WXUQ' />
 
 ## [Fire Trail Shader](https://github.com/Ikeiwa/BeatSaber-shaders/blob/master/sh_trail_custom.shader) - Ikeiwa
 
@@ -231,7 +231,7 @@ Breakdown of the Fire Trail Shader:
 When making an animated trail, make sure that your trail image's wrap mode is set to clamp
 otherwise your trail will have unwanted edges.
 
-![ClampExample.gif](/.assets/images/models/materials/ClampExample.gif)
+<YouTube url='https://youtu.be/VL9rWhPEL4M' />
 :::
 
 Here is the template trail:
@@ -261,11 +261,11 @@ simple):
 - Distortion Parameters: You can add effects to the glass that distort the objects behind it
   using a normal map.
 
-![DistortionParametersExample.gif](/.assets/images/models/materials/DistortionParametersExample.gif)
+<YouTube url='https://youtu.be/Z1kkpaw2jXQ' />
 
 - Refraction Parameters: Adds additional glass effects.
 
-![RefractionParametersExample.gif](/.assets/images/models/materials/RefractionParametersExample.gif)
+<YouTube url='https://youtu.be/xwdo7ZAgg5w' />
 
 - Fresnel Parameters: Adds Fresnel to your glass.
   - Fresnel Power and Scale: Can change how the fresnel looks.
