@@ -48,7 +48,7 @@ Here is a breakdown of the Uber Shader (Not everything is listed to keep things 
 - Light Direction: can change the direction of the light.
 - Ambiant Light: Can add some additional light effects.
 - Main Maps: This is where you put your image texture along with all the respective maps.
-    - Emission: This adds a light effect to your object.
+  - Emission: This adds a light effect to your object.
 - Secondary Maps: You can add extra maps to add on to your effects.
 
 <YouTube url='https://www.youtube.com/watch?v=bVaVaPi8Ke8' />
@@ -91,15 +91,15 @@ custom colors.
 Here is a breakdown of some parts of the shader (Not all are listed to keep things simple):
 
 - Shader options
-    - Shader lit mode: Can change between Unlit and physical (if you have the premium
+  - Shader lit mode: Can change between Unlit and physical (if you have the premium
     version).
-    - Cull Mode: Can change the culling to front, back, or off.
+  - Cull Mode: Can change the culling to front, back, or off.
 
 <YouTube url='https://www.youtube.com/watch?v=a2qCEbmmKP4' />
 
-   - Alpha mode: Can change between opague, cutout, transparent and more.
-   - Cutoff(If cutout is selected): This slider is for adjusting how much of the image is
-    being cut out when using a transparent image texture.
+- Alpha mode: Can change between opague, cutout, transparent and more.
+- Cutoff(If cutout is selected): This slider is for adjusting how much of the image is
+  being cut out when using a transparent image texture.
 
 ::: tip NOTE
 This is a current bug with version 1.1.16 of Melodi. Here is a quick fix:
@@ -108,28 +108,28 @@ This is a current bug with version 1.1.16 of Melodi. Here is a quick fix:
 :::
 
 - Diffuse Texture
-    - This is where you put your image texture.
+  - This is where you put your image texture.
 - Diffuse Texture Settings
-    - Texture Mode: Can switch between Matcap, Surface and Screen Space (if you have
+  - Texture Mode: Can switch between Matcap, Surface and Screen Space (if you have
     the premium version).
-    - Shift Texture Angle: This changes the angle that the texture shifts when animating it.
-    - Animation Speed: Changes the textures animation speed.
-    - Shift Animation Direction: Changes the direction that the texture is animated.
+  - Shift Texture Angle: This changes the angle that the texture shifts when animating it.
+  - Animation Speed: Changes the textures animation speed.
+  - Shift Animation Direction: Changes the direction that the texture is animated.
     Checking the `Invert Direction` checkbox will reverse the direction of the animation.
 - Diffuse Distortion Parameters
-    - Normal Map: Adding a normal map adds distortion to your object. This can be used
+  - Normal Map: Adding a normal map adds distortion to your object. This can be used
     for making water or adding any other distortion effects.
-    - Normal Scale: This will change how much distortion you are giving your object.
+  - Normal Scale: This will change how much distortion you are giving your object.
 
 ![DiffuseDistortionExample.gif](/.assets/images/models/materials/DiffuseDistortionExample.gif)
 
 - Beat Saber Settings
-    - Color Type: Can change between using a solid color or a gradiant.
-    - Custom Colors: Uses the players set of colors they choose in-game.
+  - Color Type: Can change between using a solid color or a gradiant.
+  - Custom Colors: Uses the players set of colors they choose in-game.
 - Fresnel Parameters
-    - Fresnel Power and Scale: Can change how the fresnel looks.
-    - Fresnel Mask Settings: Can add textures to your fresnel for additional effects.
-    - Color Options: This changes the color of your fresnel.
+  - Fresnel Power and Scale: Can change how the fresnel looks.
+  - Fresnel Mask Settings: Can add textures to your fresnel for additional effects.
+  - Color Options: This changes the color of your fresnel.
 
 <YouTube url='https://www.youtube.com/watch?v=3axnNpdRb8w' />
 
@@ -140,8 +140,8 @@ When testing in-game the results will not look exactly like they did while testi
 sure to test it in-game to get proper results.
 :::
 
-It is recommended to download the [minimal unity package](https://github.com/llealloo/vrc-udon-audio-link/releases) for easy setup. Import the
-package in unity. Once imported you will want to go into your projects packages and
+It is recommended to download the [minimal unity package](https://github.com/llealloo/vrc-udon-audio-link/releases) for
+easy setup. Import the package in unity. Once imported you will want to go into your projects packages and
 locate the `AudioLinkAvatar` prefab in `Packages/AudioLink/Runtime` and drag it into your
 scene.
 
@@ -161,45 +161,45 @@ When you click play in unity, your audio should start playing.
 
 - Audio Link Settings
 
-    - Diffuse Texture Animation: This will make the texture rotate based on the audio band
+  - Diffuse Texture Animation: This will make the texture rotate based on the audio band
     settings.
-    - Color Flashing: This will make your material flash based on the audio band settings
+  - Color Flashing: This will make your material flash based on the audio band settings
     and the color assigned to it.
-    - Glow Pump: This is an additive effect that will scale on top of initial glow value (This
+  - Glow Pump: This is an additive effect that will scale on top of initial glow value (This
     feature is only seen in-game). Parts of the effect can be changed with the audio band
     settings.
 
-    ![GlowPumpExample.gif](/.assets/images/models/materials/GlowPumpExample.gif)
+  ![GlowPumpExample.gif](/.assets/images/models/materials/GlowPumpExample.gif)
 
-    - Object Scale: This will change the objects scale based on the audio band settings.
+  - Object Scale: This will change the objects scale based on the audio band settings.
 
-    ::: tip NOTE
-    VERY IMPORTANT!!!! This option uses vertex based animation. It scales it based on how
-    the normals are set up. To keep this simple, these two examples show a smooth shaded
-    object (left) and a flat shaded object (right). They both behave very differently!!!!
+  ::: tip NOTE
+  VERY IMPORTANT!!!! This option uses vertex based animation. It scales it based on how
+  the normals are set up. To keep this simple, these two examples show a smooth shaded
+  object (left) and a flat shaded object (right). They both behave very differently!!!!
 
-    ![ObjectNormalsExample.gif](/.assets/images/models/materials/ObjectNormalsExample.gif)
+  ![ObjectNormalsExample.gif](/.assets/images/models/materials/ObjectNormalsExample.gif)
 
-    :::
+  :::
 
-    There are 2 types of volume sensitivity in the audio band settings for object scale:
-    Default and curve based (for the premium version). 
+  There are 2 types of volume sensitivity in the audio band settings for object scale:
+  Default and curve based (for the premium version).
 
-    ![CurveExample.png](/.assets/images/models/materials/CurveExample.png)
+  ![CurveExample.png](/.assets/images/models/materials/CurveExample.png)
 
-    You can change the way the object scale behaves by adjusting the curve. There are a
-    lot of effects you can achieve. If, for example, you want your objects to have a roll
-    effect, you can loop the curve like shown:
+  You can change the way the object scale behaves by adjusting the curve. There are a
+  lot of effects you can achieve. If, for example, you want your objects to have a roll
+  effect, you can loop the curve like shown:
 
     <YouTube url='https://youtu.be/6Hx4BRGb6hM' />
 
-    Song used in the video: Overthrone (Metal Version) - [longestsoloever](https://www.youtube.com/@longestsoloever)
+  Song used in the video: Overthrone (Metal Version) - [longestsoloever](https://www.youtube.com/@longestsoloever)
 
-    - Object Rotation: This will change the objects rotation based on the audio band
+  - Object Rotation: This will change the objects rotation based on the audio band
     settings.
 
     <YouTube url='https://www.youtube.com/watch?v=hYcM8pP0lak' />
-    
+
     Song used in the video: Code Red - [longestsoloever](https://www.youtube.com/@longestsoloever)
 
 The Melodi shader is useful for all kinds of things. Get creative!
@@ -252,14 +252,14 @@ simple):
 
 - Color: Changes the base color of the glass.
 - Custom Colors: Allows the player to adjust the base color of the glass based on their
-presets in-game.
+  presets in-game.
 - Custom Colors Override: Enabling this option will override custom colors in favor of the
-color source chosen. These are:
-    - Object Vertex Color: Changes the color of the glass to the objects base color.
-    - Saber Left: Changes the color of the glass to the same color as the Left Saber.
-    - Saber Right: Changes the color of the glass to the same color as the Right Saber.
+  color source chosen. These are:
+  - Object Vertex Color: Changes the color of the glass to the objects base color.
+  - Saber Left: Changes the color of the glass to the same color as the Left Saber.
+  - Saber Right: Changes the color of the glass to the same color as the Right Saber.
 - Distortion Parameters: You can add effects to the glass that distort the objects behind it
-using a normal map.
+  using a normal map.
 
 ![DistortionParametersExample.gif](/.assets/images/models/materials/DistortionParametersExample.gif)
 
@@ -268,10 +268,10 @@ using a normal map.
 ![RefractionParametersExample.gif](/.assets/images/models/materials/RefractionParametersExample.gif)
 
 - Fresnel Parameters: Adds Fresnel to your glass.
-    - Fresnel Power and Scale: Can change how the fresnel looks.
-    - Fresnel Mask : Can add textures to your fresnel for additional effects.
-    - Color: This changes the color of your fresnel.
-    - Fresnel Distortion: Can distort your fresnel for addtional effects.
+  - Fresnel Power and Scale: Can change how the fresnel looks.
+  - Fresnel Mask : Can add textures to your fresnel for additional effects.
+  - Color: This changes the color of your fresnel.
+  - Fresnel Distortion: Can distort your fresnel for addtional effects.
 
 <YouTube url='https://www.youtube.com/watch?v=LuBPlU53m8c' />
 
@@ -321,5 +321,5 @@ the sand. If you want your objects to be seen through the glass refraction shade
 sure your objects render queue is set to a value lower than the glass refraction's!
 
 ::: tip NOTE
-The default ui in-game has a render queue set to 3000. 
+The default ui in-game has a render queue set to 3000.
 :::

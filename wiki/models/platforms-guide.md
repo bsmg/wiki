@@ -13,19 +13,19 @@ If you're creating models, it's extremely important that you read the [Shader Mi
 to avoid any shader issues
 :::
 
-# Intro
+## Intro
 
 This guide was written under the assumtion that you have basic blender and unity knowledge.
 
 Here is what you need:
 
 - [Unity 2019.3.15f1](https://unity3d.com/get-unity/download/archive) best installed with [Unity Hub](https://unity3d.com/get-unity/download).
-An [Installation guide](https://docs.unity3d.com/Manual/LicensesAndActivation.html) can be found here.
+  An [Installation guide](https://docs.unity3d.com/Manual/LicensesAndActivation.html) can be found here.
 - The [Custom Platforms Project](https://github.com/affederaffe/CustomPlatforms/releases/latest)
 - If you dont have any models you can make your own with [Blender](https://www.blender.org/).
 
 If you are new to the 3d modeling scene and would like to learn how to make 3d models, this video
-is a good place to start. 
+is a good place to start.
 
 <YouTube url='https://www.youtube.com/watch?v=9xAumJRKV6A&t=215s' />
 
@@ -131,8 +131,8 @@ to the light ID's. When using this no color adding is needed, so the size on the
 
 ### Event Manager
 
-If you want to add actions to in-game events in your platform, then this is the most useful script to make this work. To demonstrate
-, lets make an event that controls the glow colors as seen in-game. The `Glow models` are what we
+If you want to add actions to in-game events in your platform, then this is the most useful script to make this work. To
+demonstrate, lets make an event that controls the glow colors as seen in-game. The `Glow models` are what we
 want to change color.
 
 ![Glow Models](/.assets/images/models/platforms/GlowModels.png)
