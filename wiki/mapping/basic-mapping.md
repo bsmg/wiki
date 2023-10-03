@@ -558,8 +558,8 @@ density of each difficulty by **20%** or more as you work your way down the spre
 
 The table below provides a range of NPS values calculated from all base game maps, so you can use these values as a
 recommended baseline for where your values may lie. For more information on the typical NPS ranges across each of the
-base game maps, check out the [Beat Saber Map Analysis](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4)
-spreadsheet.
+base game maps, check out the [Beat Saber Map Analysis](https://officialmech.github.io/bs-analysis/ost/data)
+tracker.
 
 | Difficulty  | NPS Ranges  |
 | :---------: | :---------: |
