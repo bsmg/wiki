@@ -140,7 +140,7 @@ There is a bug with version 1.1.16 of Melodi when first adding an Image Texture 
 ### Audio Link Setup
 
 :::warning
-The testing preview in the project will not exactly match the behavior in-game.  
+The testing preview in the project may not exactly match the behavior in-game.  
 Be sure to test your model in-game to see the actual results!
 :::
 
@@ -161,7 +161,8 @@ The other option is using a Youtube link to play an audio clip. Select the
 
 ![YoutubeLinkExample.png](/.assets/images/models/materials/YoutubeLinkExample.png)
 
-When you click play in unity, your audio should start playing.
+Make sure to add an audio listener component to the `AudioLinkAvatar` gameObject. When
+you click play in unity, your audio should start playing.
 
 - Audio Link Settings
 
