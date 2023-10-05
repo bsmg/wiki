@@ -35,5 +35,4 @@ Use this to add Unity's Baked Lighting to your platform.
 
 ## Materials
 
-[gamesequence's guide to materials](./materials-guide.md) is an excellent guide for making materials for your
-models.
+Check out [gamesequence's guide to materials](./materials-guide.md) to learn how to make materials for your models.

@@ -7,11 +7,11 @@ next: false
 
 ## Intro
 
-::: tip NOTE
+:::warning NOTE
 This guide was made under the assumption that you have basic knowledge of materials in unity.
 :::
 
-Materials are what make our models look nice in-game. Material effects are ahieved by using
+Materials are what make our models look nice in-game. Material effects are achieved by using
 shaders. There will be examples shown that are designed to either teach you how to achieve
 certain effects or give you inspiration on what effects you want to give your models. The
 shaders used for each effect will be listed.
@@ -29,9 +29,11 @@ Breakdown of the Unlit Glow Shader:
 
 ![UnlitGlowProperties.png](/.assets/images/models/materials/UnlitGlowProperties.png)
 
-## [Uber Shader](https://discord.com/channels/441805394323439646/468249466865057802/737713961364881418) - Ikeiwa
+## Uber Shader - Ikeiwa
 
-This is useful for making terrian or realism effects. All this can be done with the Uber Shader.
+You can obtain this shader in the BSMG's [`#pc-3d-modeling` channel.](https://discord.com/channels/441805394323439646/468249466865057802/737713961364881418)
+
+This is useful for making terrain or realism effects.
 
 ![UberShaderProperties.png](/.assets/images/models/materials/UberShaderProperties.png)
 
@@ -43,30 +45,31 @@ environment.
 
 Here is a breakdown of the Uber Shader (Not everything is listed to keep things simple):
 
-- Rendering mode: Can change between Opague, Cutout, and Transparent.
+- Rendering mode: Can change between Opaque, Cutout, and Transparent.
 - Light Color: Can change the color of the light cast on the material.
 - Light Direction: can change the direction of the light.
-- Ambiant Light: Can add some additional light effects.
+- Ambient Light: Can add some additional light effects.
 - Main Maps: This is where you put your image texture along with all the respective maps.
   - Emission: This adds a light effect to your object.
 - Secondary Maps: You can add extra maps to add on to your effects.
 
 <YouTube url='https://www.youtube.com/watch?v=bVaVaPi8Ke8' />
 
-### [Materialize](https://boundingboxsoftware.com/materialize/getkey.php)
+### Materialize
 
-A good tool for creating normal maps, height maps, occlusion, etc. is materialize. It
-takes any image and can make these maps directly from the image automatically!
+[Materialize](https://boundingboxsoftware.com/materialize/getkey.php) is a good tool for creating normal maps,
+height maps, occlusion, etc. It automatically generates these maps directly from any image you provide!
 
 ::: tip NOTE
-The materials previewed in materialize will not look exactly like they do when previewed in unity.
+The material preview in Unity will not match the material preview in Materialize. The preview in Unity is how your material
+will look in-game!
 :::
 
 This video will explain how materialize works:
 
 <YouTube url='https://www.youtube.com/watch?v=zKYr3Ca-xqg&t=1s' />
 
-A tip for adujusting the map settings; By default the settings will look like this:
+A tip for adjusting the map settings; By default the settings will look like this:
 
 ![HeightMapExample.png](/.assets/images/models/materials/HeightMapExample.png)
 
@@ -81,10 +84,11 @@ A harder image will result in much more influence while a softer image would res
 
 You can change the settings of the other maps too by adjusting any sliders that have "contrast" in the name.
 
-## [Melodi Unlit](https://discord.com/channels/755895757252591656/1112997773130879006/1112997773130879006) - AlexxSeven
+## Melodi Unlit- AlexxSeven
 
-Melodi is a good shader that can achieve many effects. Not to mention is has audiolink and
-custom colors.
+You can obtain this from [AlexxSeven's Discord](https://alexxseven.com/discord) in [this channel.](https://discord.com/channels/755895757252591656/1112997773130879006/1112997773130879006)
+
+Melodi is a good shader that can achieve many effects including Audio Link and custom colors.
 
 ![MelodiUnlitExample.png](/.assets/images/models/materials/MelodiUnlitExample.png)
 
@@ -97,18 +101,18 @@ Here is a breakdown of some parts of the shader (Not all are listed to keep thin
 
 <YouTube url='https://www.youtube.com/watch?v=a2qCEbmmKP4' />
 
-- Alpha mode: Can change between opague, cutout, transparent and more.
+- Alpha mode: Can change between opaque, cutout, transparent and more.
 - Cutoff(If cutout is selected): This slider is for adjusting how much of the image is
   being cut out when using a transparent image texture.
+- Diffuse Texture
+  - This is where you put your image texture.
 
-::: tip NOTE
-This is a current bug with version 1.1.16 of Melodi. Here is a quick fix:
+:::warning NOTE
+There is a bug with version 1.1.16 of Melodi when first adding an Image Texture to the Diffuse Texture. Here is a quick fix:
 
 <YouTube url='https://www.youtube.com/watch?v=iQfuHDWiS0o' />
 :::
 
-- Diffuse Texture
-  - This is where you put your image texture.
 - Diffuse Texture Settings
   - Texture Mode: Can switch between Matcap, Surface and Screen Space (if you have
     the premium version).
@@ -124,7 +128,7 @@ This is a current bug with version 1.1.16 of Melodi. Here is a quick fix:
 <YouTube url='https://www.youtube.com/watch?v=xbMIzPK2jwc' />
 
 - Beat Saber Settings
-  - Color Type: Can change between using a solid color or a gradiant.
+  - Color Type: Can change between using a solid color or a gradient.
   - Custom Colors: Uses the players set of colors they choose in-game.
 - Fresnel Parameters
   - Fresnel Power and Scale: Can change how the fresnel looks.
@@ -135,9 +139,9 @@ This is a current bug with version 1.1.16 of Melodi. Here is a quick fix:
 
 ### Audio Link Setup
 
-::: tip NOTE
-When testing in-game the results will not look exactly like they did while testing in the project. Be
-sure to test it in-game to get proper results.
+:::warning
+The testing preview in the project will not exactly match the behavior in-game.  
+Be sure to test your model in-game to see the actual results!
 :::
 
 It is recommended to download the [minimal unity package](https://github.com/llealloo/vrc-udon-audio-link/releases) for
@@ -173,10 +177,10 @@ When you click play in unity, your audio should start playing.
 
   - Object Scale: This will change the objects scale based on the audio band settings.
 
-  ::: tip NOTE
-  VERY IMPORTANT!!!! This option uses vertex based animation. It scales it based on how
-  the normals are set up. To keep this simple, these two examples show a smooth shaded
-  object (left) and a flat shaded object (right). They both behave very differently!!!!
+  :::danger IMPORTANT NOTE
+  This option uses vertex based animation. It scales it based on how
+  the normals are set up. The following examples show a smooth shaded
+  object (left) and a flat shaded object (right). Compared to each other they behave very differently!!!!
 
     <YouTube url='https://youtu.be/aK0Rnfs0Kbs' />
 
@@ -202,15 +206,17 @@ When you click play in unity, your audio should start playing.
 
     Song used in the video: Code Red - [longestsoloever](https://www.youtube.com/@longestsoloever)
 
-The Melodi shader is useful for all kinds of things. Get creative!
+Here are some examples using the Melodi shader. Get creative!
 
 <YouTube url='https://youtu.be/KtZ8onsptMg' />
 
 <YouTube url='https://youtu.be/9X7pus4WXUQ' />
 
-## [Fire Trail Shader](https://github.com/Ikeiwa/BeatSaber-shaders/blob/master/sh_trail_custom.shader) - Ikeiwa
+## Fire Trail Shader - Ikeiwa
 
-This is one of the most well known shader for making animated trails for sabers. It is super
+You can obtain this shader from [Ikeiwa's GitHub.](https://github.com/Ikeiwa/BeatSaber-shaders/blob/master/sh_trail_custom.shader)
+
+This is one of the most well known shaders for making animated trails for sabers. It is super
 simple to use.
 
 ![FireTrailShaderProperties.png](/.assets/images/models/materials/FireTrailShaderProperties.png)
@@ -240,10 +246,12 @@ Here is the template trail:
 
 To preview a trail simply just drag your trail material onto a plane.
 
-## [Glass Refraction](https://alexxseven.com/discord) (Premium Only) - AlexxSeven
+## Glass Refraction (Premium Only) - AlexxSeven
+
+This is a paid shader you can obtain from [AlexxSeven's Discord](https://alexxseven.com/discord)
 
 This shader is great for adding glass effects to your models. You can also add distortion
-to your glass to give it some extra effect. This also has custom color support.
+to your glass to give it some extra effect and it has custom color support.
 
 ![GlassRefractionParameters.png](/.assets/images/models/materials/GlassRefractionParameters.png)
 
@@ -271,7 +279,7 @@ simple):
   - Fresnel Power and Scale: Can change how the fresnel looks.
   - Fresnel Mask : Can add textures to your fresnel for additional effects.
   - Color: This changes the color of your fresnel.
-  - Fresnel Distortion: Can distort your fresnel for addtional effects.
+  - Fresnel Distortion: Can distort your fresnel for additional effects.
 
 <YouTube url='https://www.youtube.com/watch?v=LuBPlU53m8c' />
 
