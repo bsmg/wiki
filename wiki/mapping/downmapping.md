@@ -75,8 +75,8 @@ difficulty of a level should be more heavily influenced by pattern choice rather
 you should aim to reduce the overall note density of each difficulty by approximately **20%** as you work your way down
 the spread, but this range is not absolute and will vary depending on the feel of the song.
 
-For more information on the NPS ranges across all maps within the base game, check out the [Beat Saber Map Analysis](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4)
-spreadsheet.
+For more information on the NPS ranges across all maps within the base game, check out the [Beat Saber Map Analysis](https://officialmech.github.io/bs-analysis/ost/data)
+tracker.
 
 ### Density Reduction
 
@@ -359,8 +359,8 @@ For **Hard** and **Expert**, the NJS will vary depending on what values are esta
 spread. Some mappers have found it effective to find values that would create a linear curve of values between the highest
 and lowest ends of the difficulty spread, but you should always be aiming for the lowest possible value where applicable.
 
-For more information on the NJS ranges across all maps within the base game, check out the [Beat Saber Map Analysis](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4)
-spreadsheet.
+For more information on the NJS ranges across all maps within the base game, check out the [Beat Saber Map Analysis](https://officialmech.github.io/bs-analysis/ost/data)
+tracker.
 
 ::: warning NOTE
 For **Hard**, the typical NJS per OST conventions is locked to **10**, but for the standards of community maps this may

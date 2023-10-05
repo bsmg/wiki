@@ -427,9 +427,9 @@ You can get information by hovering over each title.
 
 - Use <kbd>CTRL</kbd>+scroll to select a section you want to check the stats for, hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd>
   and click the <kbd>Stats Panel</kbd> button to see values for that section only.
-- Hover over the **NPS** value to see the difficulty ranges for OST1 tracks.
-  See this [updated list of OST tracks](https://docs.google.com/spreadsheets/d/13wyoviJAplYOrsMocOA7YNXJxVRHd74G7z4U2jhCZa4/edit?usp=sharing)
-  for the latest (and greatly increased) NPS ranges.
+- Hover over the **NPS** value to see the difficulty ranges for OST 1 tracks.
+  Consult the [Beat Saber Map Analysis](https://officialmech.github.io/bs-analysis/ost/data) tracker
+  for the latest (and greatly increased) NPS ranges of **all** base game maps.
   :::
 
 <!-- prettier-ignore -->
