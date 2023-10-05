@@ -180,7 +180,7 @@ When you click play in unity, your audio should start playing.
 
     <YouTube url='https://youtu.be/aK0Rnfs0Kbs' />
 
-    :::
+  :::
 
   There are 2 types of volume sensitivity in the audio band settings for object scale:
   Default and curve based (for the premium version).
