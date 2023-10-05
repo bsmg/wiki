@@ -219,7 +219,7 @@ Make sure to set the rendering engine to Cycles and that you select both the obj
 baking. Then click the `bake` button under the baking tab. Note that this will take some time depending on the resolution
 of the image.
 
-![BakedLightingSettings](/.assets/images/models/platforms/BakedLightingSettings.png)
+![BakedLightingSettings](/.assets/images/models/platforms/BakedLightingSettings.jpg)
 
 If done correctly you will get a nice result such as this one:
 
