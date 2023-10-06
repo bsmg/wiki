@@ -15,7 +15,7 @@ to avoid any shader issues
 
 ## Intro
 
-This guide was written under the assumtion that you have basic blender and unity knowledge.
+This guide was written under the assumtion that you have basic blender and Unity knowledge.
 
 Here is what you need:
 
@@ -204,7 +204,7 @@ if you want to share them with the world.
 [Kylon's Baked Lighting Platforms Guide](./baked-lighting-platforms-guide.md)  
 Use this to add Unity's Baked Lighting to your platform.
 
-Note that unity's baked lighting may not always provide the best results if working with more complex models.
+Note that Unity's baked lighting may not always provide the best results if working with more complex models.
 You can also bake lights in blender (Not only is this much easier but also produces much better
 results). Make sure you have light sources. These can be point lights, area lights or suns.
 In the shading tab, select the object that you want to bake the lights on.

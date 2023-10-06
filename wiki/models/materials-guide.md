@@ -8,7 +8,7 @@ next: false
 ## Intro
 
 :::warning NOTE
-This guide was made under the assumption that you have basic knowledge of materials in unity.
+This guide was made under the assumption that you have basic knowledge of materials in Unity.
 :::
 
 Materials are what make our models look nice in-game. Material effects are achieved by using
@@ -37,7 +37,7 @@ This is useful for making terrain or realism effects.
 
 ![UberShaderProperties.png](/.assets/images/models/materials/UberShaderProperties.png)
 
-The uber shader is just like the standard shader in unity. You can use normal maps, height
+The uber shader is just like the standard shader in Unity. You can use normal maps, height
 maps, etc. The only difference is that the lighting is local to the shader and not the
 environment.
 
@@ -144,8 +144,8 @@ The testing preview in the project may not exactly match the behavior in-game.
 Be sure to test your model in-game to see the actual results!
 :::
 
-It is recommended to download the [minimal unity package](https://github.com/llealloo/vrc-udon-audio-link/releases) for
-easy setup. Import the package in unity. Once imported you will want to go into your projects packages and
+It is recommended to download the [minimal Unity package](https://github.com/llealloo/vrc-udon-audio-link/releases) for
+easy setup. Import the package in Unity. Once imported you will want to go into your projects packages and
 locate the `AudioLinkAvatar` prefab in `Packages/AudioLink/Runtime` and drag it into your
 scene.
 
@@ -162,7 +162,7 @@ The other option is using a Youtube link to play an audio clip. Select the
 ![YoutubeLinkExample.png](/.assets/images/models/materials/YoutubeLinkExample.png)
 
 Make sure to add an audio listener component to the `AudioLinkAvatar` gameObject. When
-you click play in unity, your audio should start playing.
+you click play in Unity, your audio should start playing.
 
 - Audio Link Settings
 
