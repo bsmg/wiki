@@ -253,6 +253,7 @@ export default defineConfig({
                 'Baked Lighting Platforms Guide',
                 '/models/baked-lighting-platforms-guide',
               ],
+              [`Materials Guide`, `./materials-guide`],
             ],
           ],
           ['Shader Migration Guide', '/models/shader-migration'],

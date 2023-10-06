@@ -220,6 +220,10 @@ to display correctly ingame, you need to strip the `Alpha` channel out.
 Each shader is different, so there's no universal approach to doing this. If you're not sure
 exactly how to do this, feel free to discuss the process in #pc-3d-modeling in the [Beat Saber Modding Group](https://discord.gg/beatsabermods).
 
+### Materials
+
+For more advanced information on how to make materials, check out [gamesequence's guide to materials](./materials-guide.md).
+
 ## Still Stuck?
 
 Check out this video created by Raz0rBeam and Parapass for a more visual walkthrough.

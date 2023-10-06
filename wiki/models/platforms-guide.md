@@ -13,14 +13,21 @@ If you're creating models, it's extremely important that you read the [Shader Mi
 to avoid any shader issues
 :::
 
-## Project
+## Intro
 
-Open the current [Custom Platforms Project](https://github.com/affederaffe/CustomPlatforms/releases/latest) with
-Unity [2019.3.15f1](https://unity3d.com/get-unity/download/archive)
+This guide was written under the assumtion that you have basic blender and Unity knowledge.
 
-- You need to go to the tab that says `Unity 2019.x` and scroll down to 2019.3.15. This has to be installed with
-  [Unity Hub](https://unity3d.com/get-unity/download).
-- Need a guide on how to install? [Check out this Unity guide to Unity Hub.](https://docs.unity3d.com/Manual/LicensesAndActivation.html)
+Here is what you need:
+
+- [Unity 2019.3.15f1](https://unity3d.com/get-unity/download/archive) best installed with [Unity Hub](https://unity3d.com/get-unity/download).
+  An [Installation guide](https://docs.unity3d.com/Manual/LicensesAndActivation.html) can be found here.
+- The [Custom Platforms Project](https://github.com/affederaffe/CustomPlatforms/releases/latest)
+- If you dont have any models you can make your own with [Blender](https://www.blender.org/).
+
+If you are new to the 3d modeling scene and would like to learn how to make 3d models, this video
+is a good place to start.
+
+<YouTube url='https://www.youtube.com/watch?v=9xAumJRKV6A&t=215s' />
 
 ## First Steps
 
@@ -39,7 +46,7 @@ In the script there are also Exporting options. These disable parts of the origi
 Drag all models you want in your Platform into the custom platforms GameObject and position them to your liking.
 For the materials of the models make sure to use Beat Saber compatible shaders or the ones that you can find in the Project
 called `_dark_replace` and `_glow_replace`. These are custom Materials that act like the Beat Saber materials, aka react
-to the tube lights and mist. You can also find more Beat Saber compatible shaders if you check the pins in [#pc-3d-modeling](https://discord.com/channels/441805394323439646/468249466865057802)
+to the tube lights and mist. You can also find more Beat Saber compatible shaders if you check the pins in [#pc-3d-modeling](https://discord.com/channels/441805394323439646/468249466865057802).
 
 ### Scaling Reference
 
@@ -109,7 +116,7 @@ Note that different shaders can have different effects on materials including pe
 you should use a less intensive shader otherwise the game will lag for a significant number of users.
 
 An example of this is the Beat Saber Standard shader on the left. It has a bigger impact to performance
-because it is using things normal maps, ambiance, smoothness, rim lights, etc. The image on the right
+because it is using things like normal maps, ambiance, smoothness, rim lights, etc. The image on the right
 is using an Unlit Glow shader which only uses a flat texture.
 
 ![CostlyShaderExample](/.assets/images/models/platforms/ShaderPerformanceExample.jpg)
@@ -124,15 +131,15 @@ to the light ID's. When using this no color adding is needed, so the size on the
 
 ### Event Manager
 
-If you want to add actions to in-game events in your platform then this is the most useful script to make this work. To demonstrate
-, lets make an event that controls the glow colors as seen in-game. The `Glow models` are what we
+If you want to add actions to in-game events in your platform, then this is the most useful script to make this work. To
+demonstrate, lets make an event that controls the glow colors as seen in-game. The `Glow models` are what we
 want to change color.
 
 ![Glow Models](/.assets/images/models/platforms/GlowModels.png)
 
 The event manager has different functions you can control based on different kinds of events.
 Such as when a level starts or the environments glow changes from red to blue.
-Add the Event `Manager script` to your custom platform gameObject.
+Add the `Event Manager script` to your custom platform gameObject.
 
 ![AddEventManagerScript](/.assets/images/models/platforms/AddEventManagerScript.png)
 
@@ -162,7 +169,7 @@ Go ahead and drag both of your glow model gameObjects into each of the two funct
 ![AssignGlowModelsToEvents](/.assets/images/models/platforms/AssignGlowModelsToEvents.png)
 
 Click on `No Function` and navigate to `GameObject` and then select `SetActive(bool)`. After that go ahead and click
-the check mark. The check mark turns the object on and off. When it is checked, it means that its turning the object on
+the check mark. The check mark turns the object on and off. When it is checked, it turns the object on and
 while being unchecked it turns the object off. Do the same with your other gameObject, but this time make sure the box is
 unchecked and then do the exact same thing you did on `On Red Light On` until you get something that looks like this.
 
@@ -197,7 +204,7 @@ if you want to share them with the world.
 [Kylon's Baked Lighting Platforms Guide](./baked-lighting-platforms-guide.md)  
 Use this to add Unity's Baked Lighting to your platform.
 
-Note that unity's baked lighting may not always provide the best results if working with more complex models.
+Note that Unity's baked lighting may not always provide the best results if working with more complex models.
 You can also bake lights in blender (Not only is this much easier but also produces much better
 results). Make sure you have light sources. These can be point lights, area lights or suns.
 In the shading tab, select the object that you want to bake the lights on.

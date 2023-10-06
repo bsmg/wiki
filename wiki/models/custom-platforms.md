@@ -32,3 +32,7 @@ Progress Counter from Counters+, most platforms will block the center song timer
 
 [Kylon's Baked Lighting Platforms Guide](./baked-lighting-platforms-guide.md)
 Use this to add Unity's Baked Lighting to your platform.
+
+## Materials
+
+Check out [gamesequence's guide to materials](./materials-guide.md) to learn how to make materials for your models.

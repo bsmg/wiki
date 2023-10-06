@@ -30,9 +30,10 @@ They've got some impressive shaders and they're not afraid to use them.
 
 ## gamesequence
 
-That is professor to you! Updated the Custom platforms guide. I consider myself a 3d artist. Ive made sabers, custom platforms,
-vrc avatars and so much more. Also the creator of the [Crystallized platform](https://www.patreon.com/games_plats).
-I embrace creativity so much I sometimes forget to take breaks while working! If you need help with anything modeling
+That is professor to you! Updated the Custom platforms guide and created the materials
+guide. I consider myself a 3d artist. Ive made sabers, custom platforms, vrc avatars and so
+much more. Also the creator of the [Crystallized platform](https://www.patreon.com/games_plats). I embrace creativity so
+much I sometimes forget to take breaks while working! If you need help with anything modeling
 related I'm usually active in [#pc-3d-modeling](https://discord.com/channels/441805394323439646/468249466865057802) in BSMG.
 
 <AboutLinks>
