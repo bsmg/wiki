@@ -5,6 +5,12 @@ next: false
 
 # Quest Modding
 
+::: danger Modding on the Quest 3 doesnt work as explained in this guide!
+Modding on the Quest 3 is currently WIP and quite Complicated.
+The modding tools will be updated soon.
+:::
+
+
 ## Preface
 
 - This guide is for both Quest 1 and Quest 2.
