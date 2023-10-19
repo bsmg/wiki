@@ -26,9 +26,13 @@ Progress Counter from Counters+, most platforms will block the center song timer
 
 ## Creating Platforms
 
-[Emma's Platform Guide](./platforms-guide.md) is a great resource for learning how to make your own platforms.
+[Emma and gamesequence's Platform Guide](./platforms-guide.md) is a great resource for learning how to make your own platforms.
 
 ## Baked Lighting
 
 [Kylon's Baked Lighting Platforms Guide](./baked-lighting-platforms-guide.md)
 Use this to add Unity's Baked Lighting to your platform.
+
+## Materials
+
+Check out [gamesequence's guide to materials](./materials-guide.md) to learn how to make materials for your models.

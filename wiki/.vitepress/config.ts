@@ -1,23 +1,9 @@
-import { createWriteStream } from 'node:fs'
-import { resolve } from 'node:path'
 import { env } from 'node:process'
 import container from 'markdown-it-container'
-import { EnumChangefreq, SitemapStream } from 'sitemap'
-import type { SitemapItem } from 'sitemap'
 import { defineConfig } from 'vitepress'
 import type { DefaultTheme } from 'vitepress'
 
 const IS_DEV = env.NODE_ENV === 'production'
-const sitemapItems: SitemapItem[] = []
-
-const transformLastUpdated = (
-  lastUpdated: number | undefined,
-): string | undefined => {
-  if (lastUpdated === undefined) return undefined
-
-  const date = new Date(lastUpdated)
-  return date.toISOString()
-}
 
 const search = (): DefaultTheme.Config['search'] => {
   if (IS_DEV) return { provider: 'local' }
@@ -152,27 +138,27 @@ export default defineConfig({
         name: 'About Us',
         path: '/about/',
         routes: [
-          ['Staff', './staff'],
-          ['Moderators', './moderators'],
-          ['Modders', './modders'],
-          ['Supports', './supports'],
-          ['Mapping Supports', './mapping-supports'],
-          ['3D Artists', './3d-artists'],
-          ['Translators', './translators'],
+          ['Staff', '/about/staff'],
+          ['Moderators', '/about/moderators'],
+          ['Modders', '/about/modders'],
+          ['Supports', '/about/supports'],
+          ['Mapping Supports', '/about/mapping-supports'],
+          ['3D Artists', '/about/3d-artists'],
+          ['Translators', '/about/translators'],
         ],
       },
       {
         name: 'Communities',
         path: '/communities/',
         routes: [
-          ['Community Hub', './community-hub'],
-          ['Regional Hub', './regional-hub'],
+          ['Community Hub', '/communities/community-hub'],
+          ['Regional Hub', '/communities/regional-hub'],
         ],
       },
       {
         name: 'Frequently Asked Questions',
         path: '/faq/',
-        routes: [['Install Folder', './install-folder']],
+        routes: [['Install Folder', '/faq/install-folder']],
       },
       {
         name: 'Mapping',
@@ -181,63 +167,63 @@ export default defineConfig({
           [
             'Audio',
             [
-              ['Basic Audio Setup', './basic-audio'],
-              ['Advanced Audio Editing', './advanced-audio'],
+              ['Basic Audio Setup', '/mapping/basic-audio'],
+              ['Advanced Audio Editing', '/mapping/advanced-audio'],
             ],
           ],
           [
             'Mapping',
             [
-              ['Basic Mapping', './basic-mapping'],
-              ['Downmapping', './downmapping'],
-              ['Intermediate Mapping', './intermediate-mapping'],
-              ['Extended Mapping', './extended-mapping'],
-              ['Mapping Glossary', './glossary'],
+              ['Basic Mapping', '/mapping/basic-mapping'],
+              ['Downmapping', '/mapping/downmapping'],
+              ['Intermediate Mapping', '/mapping/intermediate-mapping'],
+              ['Extended Mapping', '/mapping/extended-mapping'],
+              ['Mapping Glossary', '/mapping/glossary'],
             ],
           ],
           [
             'Lighting',
             [
-              ['Basic Lighting', './basic-lighting'],
-              ['Intermediate Lighting', './intermediate-lighting'],
-              ['Advanced Lighting', './advanced-lighting'],
-              ['Extended Lighting', './extended-lighting'],
-              ['Default Environment Colors', './lighting-defaults'],
+              ['Basic Lighting', '/mapping/basic-lighting'],
+              ['Intermediate Lighting', '/mapping/intermediate-lighting'],
+              ['Advanced Lighting', '/mapping/advanced-lighting'],
+              ['Extended Lighting', '/mapping/extended-lighting'],
+              ['Default Environment Colors', '/mapping/lighting-defaults'],
             ],
           ],
           [
             'Editing Resources',
             [
-              ['Editor Keybinds', './editor-keybinds'],
-              ['MMA2 User Guide', './mediocre-map-assistant'],
+              ['Editor Keybinds', '/mapping/editor-keybinds'],
+              ['MMA2 User Guide', '/mapping/mediocre-map-assistant'],
             ],
           ],
           [
             'Map Format',
             [
-              ['Overview', './map-format'],
-              ['Info.dat', './infodat-format'],
-              ['v3 Difficulty File', './difficulty-format-v3'],
-              ['v2 Difficulty File', './difficulty-format-v2'],
+              ['Overview', '/mapping/map-format'],
+              ['Info.dat', '/mapping/infodat-format'],
+              ['v3 Difficulty File', '/mapping/difficulty-format-v3'],
+              ['v2 Difficulty File', '/mapping/difficulty-format-v2'],
             ],
           ],
-          ['Help Playtest Other Maps', './how-to-testplay'],
-          ['Coping with Mapping Anxiety', './mapping-anxiety'],
-          ['Mapping Resources Contributors', './mapping-credits'],
+          ['Help Playtest Other Maps', '/mapping/how-to-testplay'],
+          ['Coping with Mapping Anxiety', '/mapping/mapping-anxiety'],
+          ['Mapping Resources Contributors', '/mapping/mapping-credits'],
         ],
       },
       {
         name: 'Modding',
         path: '/modding/',
         routes: [
-          ['PC', './pc-mod-dev-intro'],
+          ['PC', '/modding/pc-mod-dev-intro'],
           [
             'Quest',
-            './quest-mod-dev-intro',
+            '/modding/quest-mod-dev-intro',
             [
-              ['Config', './quest-mod-dev-config'],
-              ['Custom Types', './quest-mod-dev-custom-types'],
-              ['UI', './quest-mod-dev-ui'],
+              ['Config', '/modding/quest-mod-dev-config'],
+              ['Custom Types', '/modding/quest-mod-dev-custom-types'],
+              ['UI', '/modding/quest-mod-dev-ui'],
             ],
           ],
         ],
@@ -249,27 +235,66 @@ export default defineConfig({
           [
             'Installation Guides',
             [
-              ['Custom Sabers', './custom-sabers'],
-              ['Custom Avatars', './custom-avatars'],
-              ['Custom Platforms', './custom-platforms'],
-              ['Custom Notes', './custom-notes'],
-              ['Custom Walls', './custom-walls'],
+              ['Custom Sabers', '/models/custom-sabers'],
+              ['Custom Avatars', '/models/custom-avatars'],
+              ['Custom Platforms', '/models/custom-platforms'],
+              ['Custom Notes', '/models/custom-notes'],
+              ['Custom Walls', '/models/custom-walls'],
             ],
           ],
           [
             'Model Creation Guides',
             [
-              ['Custom Sabers Guide', './sabers-guide'],
-              ['Custom Avatars Guide', './avatars-guide'],
-              ['Custom Platforms Guide', './platforms-guide'],
-              ['Custom Notes Guide', './notes-guide'],
+              ['Custom Sabers Guide', '/models/sabers-guide'],
+              ['Custom Avatars Guide', '/models/avatars-guide'],
+              ['Custom Platforms Guide', '/models/platforms-guide'],
+              ['Custom Notes Guide', '/models/notes-guide'],
               [
                 'Baked Lighting Platforms Guide',
-                './baked-lighting-platforms-guide',
+                '/models/baked-lighting-platforms-guide',
               ],
+              [`Materials Guide`, `./materials-guide`],
             ],
           ],
-          ['Shader Migration Guide', './shader-migration'],
+          ['Shader Migration Guide', '/models/shader-migration'],
+        ],
+      },
+      {
+        name: 'Home Page',
+        path: '/',
+        routes: [
+          ['Beginners Guide', '/beginners-guide'],
+          [
+            'PC Modding',
+            [
+              ['Using a Windows PC', '/pc-modding'],
+              ['Using a Linux PC', '/linux-modding'],
+              ['Common Problems', '/support/'],
+            ],
+          ],
+          [
+            'Quest Modding',
+            [
+              ['Overview', '/quest-modding'],
+              [
+                'Using a Windows PC or Mac',
+                [
+                  ['Modding With BMBF', '/quest-modding-bmbf'],
+                  ['Modding With QAVS', '/quest-modding-qavs'],
+                ],
+              ],
+              ['Modding With Android', '/support/modding-with-android'],
+              ['Modding With a Raspberry Pi', '/raspi-modding'],
+            ],
+          ],
+          [
+            'Other Resources',
+            [
+              ['Grips and Tricks', '/grips-and-tricks'],
+              ['Health and Safety', '/health-and-safety'],
+              ['Ranking Guide', '/ranking-guide'],
+            ],
+          ],
         ],
       },
     ),
@@ -288,41 +313,13 @@ export default defineConfig({
     search: search(),
   },
 
+  sitemap: {
+    hostname: 'https://bsmg.wiki/',
+  },
+
   markdown: {
     config: md => {
       md.use(container, 'center')
     },
-  },
-
-  transformHtml(_, id, { pageData }) {
-    if (/[\\/]404\.html$/.test(id)) return
-
-    const url = pageData.relativePath
-      .replace(/\/index\.md$/, '/')
-      .replace(/\.md$/, '.html')
-
-    const item: SitemapItem = {
-      url,
-      changefreq: EnumChangefreq.DAILY,
-      lastmod: transformLastUpdated(pageData.lastUpdated),
-
-      img: [],
-      video: [],
-      links: [],
-    }
-
-    sitemapItems.push(item)
-  },
-
-  async buildEnd({ outDir }) {
-    const sitemap = new SitemapStream({ hostname: 'https://bsmg.wiki/' })
-
-    const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
-    sitemap.pipe(writeStream)
-
-    sitemapItems.forEach(item => sitemap.write(item))
-    sitemap.end()
-
-    await new Promise(r => writeStream.on('finish', r))
   },
 })

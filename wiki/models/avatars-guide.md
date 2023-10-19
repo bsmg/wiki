@@ -24,7 +24,7 @@ Alright boys and girls, your favorite Assistant is going to teach you how to tak
 your favorite anime models and put them into 3D Osu!
 
 I will be assuming you have a basic grasp of blender and Unity and have made avatars for VRChat in the past. If not there's
-[plenty of tutorials out there](http://bfy.tw/IQ0F). This guide will start at the point when you're ready to export a fbx
+plenty of tutorials out there. This guide will start at the point when you're ready to export a fbx
 file to use on Unity. There is [a video](#videos) of me creating an avatar if you'd like something to follow along with.
 It is narrated by Megalon since a freak accident took away my ability to speak and edit videos. CC's coming soon™.
 

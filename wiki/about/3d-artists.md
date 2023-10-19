@@ -28,6 +28,23 @@ They've got some impressive shaders and they're not afraid to use them.
 
 **Roles:** 3D Artist
 
+## gamesequence
+
+That is professor to you! Updated the Custom platforms guide and created the materials
+guide. I consider myself a 3d artist. Ive made sabers, custom platforms, vrc avatars and so
+much more. Also the creator of the [Crystallized platform](https://www.patreon.com/games_plats). I embrace creativity so
+much I sometimes forget to take breaks while working! If you need help with anything modeling
+related I'm usually active in [#pc-3d-modeling](https://discord.com/channels/441805394323439646/468249466865057802) in BSMG.
+
+<AboutLinks>
+
+[Patreon](https://www.patreon.com/games_plats)
+[Twitter](https://twitter.com/gamesequence)
+
+</AboutLinks>
+
+**Roles:** 3D Artist
+
 ## Ibodan
 
 Most well known for their incredibly flashy dance platform and space opera sabers,
@@ -42,7 +59,11 @@ I've been modeling for almost 3 years and make mostly private and collab sabers.
 
 **Roles:** 3D Artist
 
+<AboutLinks>
+
 [ModelSaber](https://modelsaber.com/Profile/?user=366411130962313216)
+
+</AboutLinks>
 
 ## laugexd
 
@@ -50,7 +71,13 @@ Developer of ModelSaber 2.0 and crafter of many sabers and bloqs.
 
 **Roles:** 3D Artist
 
-[Twitter](https://twitter.com/laugexd) | [YouTube](https://www.youtube.com/channel/UCr_JES9nBCUaAR9-UbgDMRw) | [ModelSaber](https://modelsaber.com/Profile/?user=146243483898871808)
+<AboutLinks>
+
+[Twitter](https://twitter.com/laugexd)
+[YouTube](https://www.youtube.com/channel/UCr_JES9nBCUaAR9-UbgDMRw)
+[ModelSaber](https://modelsaber.com/Profile/?user=146243483898871808)
+
+</AboutLinks>
 
 ## MissRaynor
 
@@ -77,10 +104,18 @@ keep on sabering that meat till it's real tender!
 
 **Roles:** 3D Artist, Support
 
-[PayPal](https://paypal.me/RedBrumblerOfficial?locale.x=nl_NL) | [Patreon](https://www.patreon.com/RedBrumbler) |
-[Ko-Fi](https://ko-fi.com/redbrumbler) | [YouTube](https://www.youtube.com/channel/UCYmzlDob8BQYWrOQWkHtCpQ) |
-[Facebook](https://www.facebook.com/red.brumbler.7) | [Twitter](https://twitter.com/RedBrumbler) |
-[GitHub](https://github.com/RedBrumbler/BeatOnCustomSabers) | [Reddit](https://www.reddit.com/user/RedBrumbler/)
+<AboutLinks>
+
+[PayPal](https://paypal.me/RedBrumblerOfficial?locale.x=nl_NL)
+[Patreon](https://www.patreon.com/RedBrumbler)
+[Ko-fi](https://ko-fi.com/redbrumbler)
+[YouTube](https://www.youtube.com/channel/UCYmzlDob8BQYWrOQWkHtCpQ)
+[Facebook](https://www.facebook.com/red.brumbler.7)
+[Twitter](https://twitter.com/RedBrumbler)
+[GitHub](https://github.com/RedBrumbler/BeatOnCustomSabers)
+[Reddit](https://www.reddit.com/user/RedBrumbler/)
+
+</AboutLinks>
 
 ## SeventyTwo
 
@@ -101,7 +136,13 @@ Primarily focusing on offering niche Beat Saber mods for the Quest and helping e
 
 **Roles:** 3D Artist
 
-[YouTube](https://www.youtube.com/channel/UCIH4NTKdVNjnJpfuMrk71Fw) | [Patreon](https://www.patreon.com/yuukisaves) | [Ko-Fi](https://ko-fi.com/supportyuuki)
+<AboutLinks>
+
+[YouTube](https://www.youtube.com/channel/UCIH4NTKdVNjnJpfuMrk71Fw)
+[Patreon](https://www.patreon.com/yuukisaves)
+[Ko-fi](https://ko-fi.com/supportyuuki)
+
+</AboutLinks>
 
 ---
 
@@ -109,6 +150,6 @@ Primarily focusing on offering niche Beat Saber mods for the Quest and helping e
 
 ::: tip See Also
 **Support:** [Emma](./supports.md#emma)  
-**Moderators:** [DeeJay](./moderators.md#deejay) | [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./moderators.md#jennifer) | [Pink](./moderators.md#pink)  
-**Staff:** [Assistant](./staff.md#assistant) | [Bobbie](./staff.md#bobbie) | [Pink](./staff.md#pink)
+**Moderators:** [DeeJay](./moderators.md#deejay-retired)  
+**Staff:** [Assistant](./staff.md#assistant-retired), [Bobbie](./staff.md#bobbie), [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./staff.md#jennifer), [Pink](./staff.md#pink)
 :::
