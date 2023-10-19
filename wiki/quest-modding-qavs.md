@@ -7,6 +7,11 @@ next: false
 
 ## Before You Begin
 
+:::tip Quest 3 modding is NOT yet available.
+Please be patient as modders explore the possibility and keep an eye on the `#modding-announcements`
+channel in the [BSMG Discord](https://discord.gg/beatsabermods) for up to date information!
+:::
+
 If you have not already, go to [Preparations](./quest-modding.md#preparations) and follow those steps.
 You should now have Developer Mode enabled and SideQuest Advanced installed on your PC.
 It is recommended to disable the proximity sensor of your quest in the SideQuest device settings.
