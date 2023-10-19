@@ -5,6 +5,11 @@ next: false
 
 # Quest Modding with Android
 
+:::tip Quest 3 modding is NOT yet available.
+Please be patient as modders explore the possibility and keep an eye on the `#modding-announcements`
+channel in the [BSMG Discord](https://discord.gg/beatsabermods) for up to date information!
+:::
+
 :::warning
 Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
 base game leaderboards.

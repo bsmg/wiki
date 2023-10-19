@@ -8,6 +8,12 @@ next: false
 ## Preface
 
 - This guide is for both Quest 1 and Quest 2.
+
+:::tip Quest 3 modding is NOT yet available.
+Please be patient as modders explore the possibility and keep an eye on the `#modding-announcements`
+channel in the [BSMG Discord](https://discord.gg/beatsabermods) for up to date information!
+:::
+
 - Nobody has yet been banned for modding.
 
 ::: danger DISCLAIMER
