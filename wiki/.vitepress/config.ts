@@ -177,6 +177,7 @@ export default defineConfig({
               ['Basic Mapping', '/mapping/basic-mapping'],
               ['Downmapping', '/mapping/downmapping'],
               ['Intermediate Mapping', '/mapping/intermediate-mapping'],
+              ['Advanced Mapping', '/mapping/advanced-mapping'],
               ['Extended Mapping', '/mapping/extended-mapping'],
               ['Mapping Glossary', '/mapping/glossary'],
             ],

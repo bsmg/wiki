@@ -16,7 +16,7 @@ let us know in #mapping-discussion!
 <!-- Disable line length rule because lots of tables -->
 <!-- markdownlint-disable MD013 -->
 
-**((TO ADD: Rhythm choice, Target audience, Representation, Emphasis, Consistency, Music and Map Structure, Suggested/intended motion, Linear swings, sightread, jumpscare, artificial difficulty, accability, clutter))**
+**((TO ADD: Rhythm choice, Target audience, Representation, Emphasis, Consistency, Music and Map Structure, Suggested/intended motion, Linear swings, sightread, jumpscare, artificial difficulty, accability, clutter, intended rhythm, swing force, swing curvature))**
 
 ## A
 
