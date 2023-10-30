@@ -122,7 +122,7 @@ Kansas made [an incomplete list](https://docs.google.com/document/d/16hydw1Vob9u
 
 ### Speed
 
-When talking about map *speed*, we usually refer to the speed at which the player must swing the notes.
+When talking about map *speed*, we usually refer to the speed at which the player must [swing](#swing-speed) the notes.
 
 However, there are other aspects to speed, such as the speed of [full body movement](#full-body-motion) or
 the *sensation of speed* that the specific patterns produce.
@@ -132,11 +132,13 @@ of how intense it feels to play it. Therefore, a mapper should always be aware o
 
 However, speed is not fully determined by rhythm choice, as it also depends on the choice of how the sounds are mapped to the two hands and/or to full body movement.
 
-Playstyle changes with map speed. For slower songs, it is easier to perform large [arm swings](#arm-and-hand-position), [curved swings](#rotations), [hand repositioning](#arm-and-hand-positioning),
+Playstyle changes with map speed. For slower songs, it is easier to perform large [arm swings](#hand-repositioning), [curved swings](#rotations), [hand repositioning](#hand-repositioning),
 and contort the [whole body](#full-body-motion) to hit more unusual patterns. At high speeds, there is very little time to process and adapt to what approaches, mentally and physically.
 Thus, fast maps and patterns tend to be considerably more *linear*.
 
 The section on [swing speed](#swing-speed) contains more technical concepts that are usually used to discuss a map's speed.
+
+The feeling of speed can also be affected by a map's [jump settings](#jump-settings).
 
 :::tip TIP
 A good mapper is always aware of how fast their map is.
@@ -190,7 +192,7 @@ Just because a map *can* be played well it does not make it readable. Maps need 
 For some sequences of patterns, extra motion is suggested to make the pattern play comfortably.
 An example is a scoop:  
 ![Scoop](/.assets/images/mapping/scoop.png)  
-In order to hit the up note following the side note, the [arm](#arm-and-hand-position) must take a longer scooping path to be in position.
+In order to hit the up note following the side note, the [arm](#hand-repositioning) must take a longer scooping path to be in position.
 
 *Suggested or intended motion* is risky because players will read and react to patterns differently. One
 player may hit a scoop as intended, but another player may recoil and flinch given the pattern and have a negative
@@ -529,24 +531,28 @@ On top of the blurred out emphasis; from a gameplay perspective, abusing large s
 The most important aspect about *parity* is covered in the [basic mapping page](./basic-mapping.md#double-directionals-resets), which is: keep it.
 
 :::tip TIP
-Adapting your vision to keep parity consistently is almost universally better than breaking parity for the sake of representation or vision.
+Adapting your creative vision to keep parity consistently is almost universally better than breaking parity for the sake of representation or identity.
 :::
 
-However, keeping parity does not mean that you cannot play around it. By changing the [handedness](#handedness-and-hit-type) of patterns before or after a certain pattern, you can
+Keeping parity affects the choice of patterns, but it does not strictly limit it. Up swings can be forehand and down swings can be backhand.
+These are sometimes called *palm-up* swings, because the palm is pointing upwards.
+This video demonstrates some more advanced concepts of parity: [YouTube](https://youtu.be/NF8ESZRXI1c)
+
+You also can and should play around parity when mapping. By changing the [handedness](#handedness-and-hit-type) of patterns before or after a certain pattern, you can
 make a certain pattern have the exact parity that you want. This is a powerful tool, both for representation and gameplay purposes. As described [at the beginning of this page](#mapping-is-a-balancing-act),
 this usually has other downsides and constraints that will make it tricky. But the payoff is often worth it.
 
 Forehand and backhand hits are not interchangeable. They are inherently asymmetric.
 
 Comfortable angles and positions are different for forehand and backhand hits. Backhand hits tend to be friendlier to outer lanes and forehand hits friendlier to inner lanes.
-Palm-out backhand hits are a lot more difficult and physically intense to play than palm-out forehand hits, whereas palm-up backhand hits can be more satisfying than palm-up
+[Palm-out](#posture) backhand hits are a lot more difficult and physically intense to play than palm-out forehand hits, whereas palm-up backhand hits can be more satisfying than palm-up
 forehand hits. This relates to *swing curvature*, described in the section on [momentum](#momentum-and-tension).
 
 Perhaps more importantly, forehand hits are more comfortable to emphasize more and typically carry the initiative in terms of rotations and postures. That is, it is normally easier
 for the player to follow the movements you are trying to communicate if you use forehand hits to establish the critical swings for those motions.
 
 :::tip TIP
-It is easier to establish rotations and postures on forehand swings than on backhand hits.
+It is easier to establish rotations and postures on forehand swings than on backhand swings.
 :::
 
 As an example, initiating a [lean](#full-body-motion) is much more natural on a forehand swing than a backhand swing. Conversely,
@@ -568,8 +574,9 @@ Rotation angle naturally discounts parity. That is, subsequent hits with opposit
 and will have an 180 degree rotation when the arrows are the same direction. Rotations also have a *direction* (clockwise or counter-clockwise).
 
 <!-- prettier-ignore -->
-| ![No rotation](/.assets/images/mapping/no_rotation.png) | No (0 degrees) rotation (forehand to backhand) |
+| | |
 | :-: | :-: |
+| ![No rotation](/.assets/images/mapping/no_rotation.png) | No (0 degrees) rotation (forehand to backhand) |
 | ![45 degrees CW](/.assets/images/mapping/45_degree_cw.png) | 45 degrees clockwise (forehand to backhand) |
 | ![45 degrees CCW](/.assets/images/mapping/45_degree_ccw.png) | 45 degrees counter-clockwise (forehand to backhand) |
 | ![45 degrees CW](/.assets/images/mapping/45_degree_cw_2.png) | 45 degrees clockwise (forehand to backhand), different starting angle |
@@ -619,19 +626,174 @@ By contrast, all rotations on negative curvature are at most 45 degrees in this 
 really smoothly with fast, snappy swings, despite having large rotations.
 :::
 
+:::details Read more...
+This [incomplete glossary](https://docs.google.com/document/d/16hydw1Vob9uDK3VTpwXn9ov0o-kp_xgm9jpPduOwOJ4/edit?usp=sharing) by Kansas contains definitions for some of the concepts explained here.
+:::
+
 ### Swing speed
 
-asd
+*Swing speed* describes the amount of time between subsequent swings of the same hand.
+
+It does not relate to the actual speed at which the saber moves. Saber speed varies between players, and is much more related to [spacing](#spacing) and [hit types](#handedness-and-hit-type).
+
+Swing speed is the easiest and most relevant way to measure a map's [speed](#speed). It will normally have a close relation to the BPM of the song, but it depends on other factors.
+
+We normally measure swing speed using *effective BPM* (abbreviated eBPM), which describes the swing speed of a stream (at 1/4 precision) with a given BPM.
+Effective BPM is measured for each hand separately, between each two subsequents swings of that hand. We say that the effective BPM of a section is the maximum effective BPM
+between both hands (so if one hand is fast, the map is fast, even if the other is slow). A hand will have eBPM equal to the song's BPM when it does one forehand and one backhand swing per beat.
+
+Here are some examples of patterns and their effective BPM:
+
+<!-- prettier-ignore -->
+| Pattern | Example | eBPM multiplier | eBPM at 120 BPM | Notes|
+| :-: | :-: | :-: | :-: | :-: |
+| Stream (1/4 precision) | ![Stream](/.assets/images/mapping/stream.png) | 1 x BPM | 120 | Basis for eBPM |
+| One-hand jumps (1/4 precision) | ![Jumps](/.assets/images/mapping/onehandjumps.png) | 2 x BPM | 240 | The hand is doing double work. |
+| Triplet jumps (1/3 precision) | ![Triplet jumps](/.assets/images/mapping/tripletjumps.png) | 1.5 x BPM | 180 | Similar to regular jumps but slightly slower. |
+| Flick | ![Flick](/.assets/images/mapping/flick-alt.png) | 2 x BPM | 240 | While this spreads the effort across both hands, the speed of each flick is the same as jumps. |
+| Gallop | ![Gallop](/.assets/images/mapping/gallop.png) | 2 x BPM | 240 | A gallop is still a flick on one of the hands. It also makes one hand feel double the speed of the other, which is normally undesirable. |
+| Half speed stream (1/2 precision) | ![Half speed stream](/.assets/images/mapping/halfspeedstream.png) | 0.5 x BPM | 60 | Half the notes, half the speed. |
+| 1/2 single hand | ![Single hand slow](/.assets/images/mapping/halfonehand.png) | 1 x BPM | 120 | In terms of speed, it's like a stream where we removed one hand. |
+| Burst stream (1/8 precision) | ![Burst](/.assets/images/mapping/burst.png) | 2 x BPM | 240 | Bursts can be nice to represent very short intense sections of the map with fast sounds, but they are often a difficulty spike. |
+| Bomb resets (1 beat) | ![Bomb resets](/.assets/images/mapping/beatbombreset.png) | 1 x BPM | 120 | Bomb resets have a movement associated with them, which we count as a swing for measuring eBPM. |
+
+In most maps, patterns with eBPM = song's BPM should be the basis of speed for the map, with higher eBPM patterns reserved for more intense sections.
+For example, if a whole section has 4 sounds per beat consistently, mapping it all to one hand is probably overemphasizing it: Use a stream or similar.
+Perhaps add jumps or flicks to emphasize specific notes. If, on the contrary, a section only has sounds every half beat, but it still feels like standard intensity,
+consider mapping multiple swings of the same hand together to avoid it feeling undermapped. A half speed stream will feel very slow.
+
+:::tip TIP
+Use patterns with eBPM = BPM for basic speed, and go over and below that for emphasis.
+:::
+
+While swing speed is mostly related to the speed of the song, there are some general ballparks for what swing speeds players will consider fast / slow.
+The following is an approximation:
+
+<!-- prettier-ignore -->
+| eBPM range | Feeling of speed |
+| :-: | :-: |
+| 0 - 60 | Extremely slow. Ambient. Easy to get high accuracy score. |
+| 60 - 100 | Slow. Floaty. Slow dancing. |
+| 100 - 150 | Medium-slow speed. A majority of songs lie in this range. Dancey. The body most naturally moves at this swing speed. |
+| 150 - 200 | Moderately fast and tense. The map will feel intense, but most Expert+ players can handle it. Tiring over prolonged periods. |
+| 200 - 300 | Midspeed. Speed becomes challenging, but many players are comfortable within this range. Complex patterns are increasingly difficult to play. |
+| 300 - 400 | Speed mapping. Speed is one of the main challenges. Many players cannot play this fast. Very difficult to play complex patterns. |
+| 400+ | Extreme speed. Even the best players will struggle and quickly tire in this range. |
 
 ### Spacing
 
-asd
+*Spacing* describes the relative positions of notes, specially those of the same hand. How close or far they are from each other, as well as relative
+horizontal and vertical position.
 
-**((Link to momentum and tension section))**
+At basic mapping levels, it is easy to let [vision](#vision) and [parity](#parity) entirely determine the positioning
+of notes in the grid, since they present major constraints. As a consequence, spacing is easily the most overlooked fundamental concept in mapping,
+and one of the hardest to learn for newer mappers.
 
-### Arm and hand position
+In this section we focus mostly on the general distance between subsequent swings, and in [Hand repositioning](#hand-repositioning), we
+discuss how note positioning affects the way the player moves their arms and hands in more detail. These concepts are also fundamental for
+[momentum mapping](./momentum-mapping.md).
 
-asd
+Spacing is very relevant for gameplay reasons in various ways. Most importantly, larger swings require faster and more intense swings,
+even with the same [swing speed](#swing-speed). Even with pure wrist swings (which are not possible or desirable most of the time), larger swings require more precise timing.
+Very small spacing (for example, inline notes) can also be challenging to read, time, and adequately score.
+Normally, one lane/row (horizontally, vertically, or diagonally) is the least intense *swing distance*. Two lanes/rows (e.g. bottom row to top row) is standard but more intense.
+Three or more lanes/rows is reserved for the most extreme swings.
+
+:::tip TIP
+Be aware of how large the swings in your map are.
+:::
+
+<!-- prettier-ignore -->
+| Swing distance | Example | Gameplay properties |
+| :-: | :-: | :-: |
+| 0 (Inline) | ![Inline spacing](/.assets/images/mapping/0-spacing.png) | Low physical effort. Harder to read, time, and score. |
+| 1 | ![1-spacing](/.assets/images/mapping/1-spacing.png) | Low physical effort. Easy to read and score. Low emphasis. |
+| 2 ("Jumps") | ![2-spacing](/.assets/images/mapping/2-spacing.png) | Moderate physical effort. Intermediate emphasis. |
+| 3+ | ![3-spacing](/.assets/images/mapping/3-spacing.png) | Very large swings, usually requires arm movement. Big emphasis. |
+
+Spacing also affects [readability](#readability) in multiple ways. When notes are cramped, it is more difficult to tell them apart and their relative timing and direction.
+When notes are flying all over the playspace with little order, it divides the focus of the player and adds a processing overhead. Moreover, spacing can be the best way
+to make important variations in your patterns more obvious. For example, if there is an unexpected pause in the rhythm.
+
+:::tip TIP
+Use spacing to help the player follow your mapping. Tell a visual story.
+:::
+
+Spacing can also be a great way to introduce representation and emphasis, in more and less obvious ways, by simply introducing variation with a purpose.
+
+:::details Read more...
+GalaxyMaster has published [some thoughts](https://docs.google.com/document/d/1qdRGk8QR48hx0ng05Z45tv-6KvMFPYxiAY8l441j3Mk/edit#heading=h.avqur9mqldw6) on spacing.
+:::
+
+### Hand repositioning
+
+For most Beat Saber players in most maps, *wrist movement* is the most important aspect of note swinging, but it is to a greater or lesser degree aided by
+*arm movement*.
+
+However, even when swinging purely from the wrist, arm movement still plays a major role in *repositioning* the hand, which is the base position from which swings take place. While
+the hands will not be brought all the way to the notes nor move as much as the full distance between subsequent notes, the arm will need to work to reposition the hand both to bring it closer to the notes,
+to make swings more comfortable, and to enable swinging the notes in the right angles.
+
+:::tip TIP
+Even with pure wrist swings, hand repositioning still requires arm movement.
+:::
+
+While repositioning is relevant for most patterns, some require more repositioning than others. Since repositioning requires arm movement, it is harder to do faster and it involves more momentum (arms are heavy).
+
+A perfect example of repositioning is *arm circles*. In their simplest form, circles involve horizontal repositioning of the hand while swinging vertically.
+
+<!-- prettier-ignore -->
+| Arm circles |
+| :-: |
+| ![Arm circles](/.assets/images/mapping/circle.png) |
+| The hand repositions horizontally (left and right) using arm movement, while the wrist swings up and down. |
+
+Another pattern where hand positioning plays a relevant role are *inverts*. An *inverted note* is one where the arrow points inwards from outside the grid, while a swing between
+two subsequent notes pointing at each other is called an *invert* or *inversion*. Due to how Beat Saber [scoring](#scoring) works, a player will aim to do relatively large
+pre-swing and post-swing angles. With inverts, the player will need to reposition their hand inbetween the notes in order to guarantee enough pre-swing angle of the second note.
+This makes inverts more physically demanding and harder to both time and score well on.
+
+<!-- prettier-ignore -->
+| Non-invert | Invert |
+| :-: | :-: |
+| ![Non-inverted swing](/.assets/images/mapping/non-inverted-swing.png) | ![Inverted swing](/.assets/images/mapping/inverted-swing.png) |
+| The hand stays mostly static while the wrist swings. | The hand moves down significantly to guarantee enough pre-swing angle on the second note. |
+
+Hand positioning is very relevant in *crossover* patterns as well, specially on Dance or Tech maps that encourage lots of arm movement.
+Apart from the risk of hands colliding in a *handclap* when using arm to swing, even with pure wrist swings, crossover patterns may produce
+*arm tangles*, where one arm is on top of the other and the notes require the player to move the arms through each other (which is obviously impossible and will lead
+to gameplay issues).
+
+There are two ways to handle arm tangles.
+
+- The **safest** way to prevent arm tangles is to keep track of relative arm position (which arm is on top) in crossover patterns, and always *resolve* the hand on top first, by making it swing first after the crossover pattern,
+putting it away from the tangle.
+
+<!-- prettier-ignore -->
+| Safely resolved arm tangle | Problematic arm tangle |
+| :-: | :-: |
+| ![Safe arm tangle](/.assets/images/mapping/tangle_resolve.png) | ![Problematic arm tangle](/.assets/images/mapping/tangle_problem.png) |
+| The right hand crosses on top, so it is resolved before the left hand moves. | The left hand will try to move through the right hand, which will create problems. |
+
+:::tip TIP
+The safest way to avoid arm tangles is to always resolve the top hand first.
+:::
+
+- The **most flexible** way to prevent arm tangles is to only use crossover patterns that do not require the arms to actually cross. This can be done through safer patterns (less wide, less centred)
+or by encouraging and communicating exclusive wrist swinging by adequately using [map context](#map-context). This is more risky as the experience will vary between different players,
+but it can work pretty well if there is enough certainty that players in the target audience will not actually cross their arms.
+
+Hand repositioning can be used quite successfully to communicate [sway](#full-body-motion) or simply to add variety in representation to the map.
+
+:::details Example
+In https://allpoland.github.io/ArcViewer/?id=3628f&t=59, the map frequently utilizes 3-wide patterns that move right and left,
+heavily encouraging hand repositioning for both hands and providing additional variety and representation to the map,
+while also keeping the swing distance limited, which helps cope with the speed of the map.
+:::
+
+:::details Read more...
+This [incomplete glossary](https://docs.google.com/document/d/16hydw1Vob9uDK3VTpwXn9ov0o-kp_xgm9jpPduOwOJ4/edit?usp=sharing) by Kansas contains definitions for some of the concepts explained here.
+:::
 
 ### Full body motion
 
@@ -758,20 +920,6 @@ arms in this new position while waiting for the next motion. The block that foll
 - Counter-clockwise wrist motions are preferred with the right hand and clockwise wrist motions are preferred with the
   left hand. Try it yourself and feel the difference!
 
-**((There is a section needed here on what identifies a swing (handedness, type of swing, position, angle))**
-
-#### Soft Resets
-
-**((Honestly, remove. This is outdated mapping practices))**
-
-Soft resets are resets where implied motion strongly suggests resetting the hand. The most common example of this is a
-half-double, present in many maps. This is where a down double followed by a single up followed by a down double, where
-its implied that both arms should raise on the single up despite only 1 note being there.
-
-While these patterns allow for more freeform dancey motion, they are very difficult to sightread and throw the player
-off of their natural rhythm. This is due to the fact that only one of the two hands on a soft reset feels the haptic
-feedback of slashing a note. These are best used when the player is familiar with the rhythm and motion, and requires
-a large offset to see them approaching.
 
 ### Arm Tangles
 
@@ -793,14 +941,6 @@ handled with care.
 
 When swinging far from the natural position of the arms, bad flow is more pronounced. Additionally, the risk of arm
 tangles arises when crossovers do not consider the positions of notes to unwind the player during or after the sequence.
-
-## Spacing
-
-Spacing is the distance between notes on the grid. The further apart two notes are on the grid (ignoring time), the larger
-the spacing. In general, larger spacing requires larger motions to hit and requires either larger arm motion or very
-precise wrist motion. Spacing is larger horizontally than vertically due to the extra rows. Inverted notes (up arrows in
-the bottom row and down arrows in the top row) create the largest spacing due to the fact that the player must swing from
-outside the grid to hit these blocks.
 
 ## Walls
 
