@@ -9,6 +9,14 @@ next: false
 
 Check out our [beginner's guide](/beginners-guide.md)!
 
+## What versions of the game can be modded?
+
+On the PC, the latest version that can be modded is 1.31.1. Downgrading instructions are located (here.)[https://bsmg.wiki/pc-modding.html#downgrading]
+
+On the Quest, the latest version that can be modded is 1.28.0. Downgrading instructions are located (here.)[https://bsmg.wiki/quest-modding.html#downgrading]
+
+Beat saber changelogs can be found on the [BSMG Discord Server](https://discord.gg/beatsabermods). Please refer to respective downgrading guides on instructions to downgrade versions.
+
 ## How do I get more songs?
 
 > [BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community.
