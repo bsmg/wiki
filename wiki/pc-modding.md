@@ -65,6 +65,14 @@ version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/Mo
 
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
+### BSManager
+
+\***\*Make sure you own the game on Steam\*\*** before trying to download Beat Saber!
+
+A all-in-one tool that lets you easly manage BeatSaber versions, maps, mods, and even more. Get it on [Zangrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
+
+***image will be placed here for the BSManager logo!***
+
 ### BeatSaberModManager
 
 \***\*Run the game at least once\*\*** before trying to mod the game! This applies to reinstalling your game too.
