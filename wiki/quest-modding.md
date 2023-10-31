@@ -51,6 +51,10 @@ To get leaderboards on custom songs and to be able to get Performance Points (PP
 Modding BeatSaber involves installing APKs on your Quest. Therefore, you will need a PC (Windows / Mac / Linux)
 or an Android device at least once.
 
+:::warning 
+The latest version of Beat Saber that can be modded on the Quest is 1.28.0. If you are on a later version, please refer to the (Downgrading Guide.)[https://bsmg.wiki/quest-modding.html#downgrading]
+:::
+
 If you plan to mod using an Android device, visit the [Modding with Android](./support/modding-with-android.md) page.
 
 To use Chromebooks and iOS devices, such as iPhones or iPads, you need to have a
