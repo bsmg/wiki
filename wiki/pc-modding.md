@@ -45,6 +45,10 @@ If you're on Linux, check out the [Linux page](./linux-modding.md)
 If you run into problems at any point, please head to the [support page](./support/) and see if you can identify what
 went wrong before asking in the Discord server. Chances are, your answer is on that page!
 
+::: warning
+The latest version of Beat Saber that can be modded on the PC is 1.31.1. If you are on an earlier version, please refer to the (Downgrading Guide.)[https://bsmg.wiki/pc-modding.html#downgrading].
+:::
+
 ::: warning I watched a video tutorial on YouTube, but I got stuck/it didn't work. What gives?
 We at BSMG **strongly** suggest against using video tutorials for modding. Often, we find they are outdated or contain
 a incomplete, erroneous, or straight up incorrect information.
