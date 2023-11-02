@@ -217,7 +217,7 @@ help representation or simply provide a more memorable experience.
 The best way to evaluate a map's readability is to get fresh testplays from players that have not seen the map before.
 :::
 
-###### Mapper blindness
+#### Mapper blindness
 
 A condition that most mappers, specially novice mappers, will experience, is called _mapper blindness_, where a mapper
 will often struggle to identify readability issues in their map because they already know
@@ -229,7 +229,7 @@ and analyzing their reactions to the patterns the first time they see them.
 Just because a map _can_ be played well it does not make it readable. Maps need to communicate their motions properly.
 :::
 
-###### Suggested / intended motions
+#### Suggested / intended motions
 
 For some sequences of patterns, extra motion is suggested to make the pattern play comfortably.
 An example is a scoop:  
@@ -246,7 +246,7 @@ can help to communicate the intended motion.
 The scoop pattern above might play well in a map that goes into the pattern in a way that encourages big movement
 or a map that trains the player to expect these kinds of movements, but be completely unexpected in a different map.
 
-###### Clutter
+#### Clutter
 
 An important challenge to readability is _clutter_, caused by an overload of information on the player.
 Clutter is more likely to happen when a map is faster, as it will have more notes approaching the player
@@ -514,7 +514,7 @@ or 1/4 precision (with occasional 1/6 or 1/8), if the audio setup is adequate. W
 do use more complex timings, this is very rare. In almost every case where a mapper thinks this is the case,
 they either didn't align the sound properly, or they are overthinking / not listening to the song properly.
 
-###### Vocals and live recordings
+#### Vocals and live recordings
 
 In fact, even when the sounds in the song do happen outwith simple precisions, you will often still want to map
 the notes to the simple precisions, or _intended rhythm_. This is often the case with live recorded songs
@@ -531,7 +531,7 @@ When mapping vocals and/or live recordings, stick to the intended rhythm rather 
 | :-: |
 | Map to the intended rhythm over precise variations in timing |
 
-###### Identifying timings
+#### Identifying timings
 
 There are three main methods for determining the specific timing of a note.
 
@@ -539,10 +539,16 @@ There are three main methods for determining the specific timing of a note.
   Slowing down the audio may help in some cases, but may also distort the sound too much.
 - Understand the **rhythm and intervals** between notes in the song, and use that to deduce the timings.
   This can be great to sanity check or to produce accurate timings quickly when the rhythm is simple.
+
+  <!-- markdownlint-disable MD013 -->
+
   <!-- prettier-ignore -->
   |                                                        ![Intervals in the rhythm](/.assets/images/mapping/intervals.png) |
   | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
   | This syncopated sequence of intervals (3/4 - 3/4 - 1/2 - 2 beats) is common in Dubstep and repeats consistently throughout the song. Understanding that helps with note timing. |
+
+  <!-- markdownlint-enable MD013 -->
+
 - Use the **spectrogram** to validate or help you identify specific timings. This method should be used with care,
   as the spectrogram will often not represent some sounds accurately (like deep bass and vocals)
   and present a lot of spurious sounds. The spectrogram should never be the only method you use to time your notes.
@@ -715,17 +721,21 @@ Swing curvature is discussed in more detail in the page on [momentum mapping](./
 Large rotations without setup are easier on positive curvature.
 :::
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | **Right hand** | Forehand | Backhand |
 | :-: | :-: | :-: |
-| Clockwise | ![Right forehand CW](/.assets/images/mapping/right_forehand_cw.png) <font color="CC8800">**Moderately harsh**</font><br>Negative curvature | ![Right backhand CW](/.assets/images/mapping/right_backhand_cw.png) <font color="00AA00">**Smooth**</font><br>Positive curvature |
-| Counter-clockwise | ![Right forehand CCW](/.assets/images/mapping/right_forehand_ccw.png) <font color="00AA00">**Smooth**</font><br>Positive curvature | ![Right backhand CCW](/.assets/images/mapping/right_backhand_ccw.png) <font color="AA0000">**Harsh**</font><br>Negative curvature |
+| Clockwise | ![Right forehand CW](/.assets/images/mapping/right_forehand_cw.png) **Moderately harsh**. Negative curvature. | ![Right backhand CW](/.assets/images/mapping/right_backhand_cw.png) **Smooth**. Positive curvature. |
+| Counter-clockwise | ![Right forehand CCW](/.assets/images/mapping/right_forehand_ccw.png) **Smooth**. Positive curvature. | ![Right backhand CCW](/.assets/images/mapping/right_backhand_ccw.png) **Harsh**. Negative curvature. |
 
 <!-- prettier-ignore -->
 | **Left hand** | Forehand | Backhand |
 | :-: | :-: | :-: |
-| Clockwise | ![Left forehand CW](/.assets/images/mapping/left_forehand_cw.png) <font color="00AA00">**Smooth**</font><br>Positive curvature | ![Left backhand CW](/.assets/images/mapping/left_backhand_cw.png) <font color="AA0000">**Harsh**</font><br>Negative curvature |
-| Counter-clockwise | ![Left forehand CCW](/.assets/images/mapping/left_forehand_ccw.png) <font color="CC8800">**Moderately harsh**</font><br>Negative curvature | ![Left backhand CCW](/.assets/images/mapping/left_backhand_ccw.png) <font color="00AA00">**Smooth**</font><br>Positive curvature |
+| Clockwise | ![Left forehand CW](/.assets/images/mapping/left_forehand_cw.png) **Smooth**. Positive curvature. | ![Left backhand CW](/.assets/images/mapping/left_backhand_cw.png) **Harsh**. Negative curvature. |
+| Counter-clockwise | ![Left forehand CCW](/.assets/images/mapping/left_forehand_ccw.png) **Moderately harsh**. Negative curvature. | ![Left backhand CCW](/.assets/images/mapping/left_backhand_ccw.png) **Smooth**. Positive curvature. |
+
+<!-- markdownlint-enable MD013 -->
 
 :::details Example
 Take a look at <https://allpoland.github.io/ArcViewer/?id=327f6&t=30>. In this section it is easy to see that
@@ -791,6 +801,8 @@ While swing speed is mostly related to the speed of the song, there are some gen
 players will consider fast / slow.
 The following is an approximation:
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | eBPM range | Feeling of speed |
 | :-: | :-: |
@@ -801,6 +813,8 @@ The following is an approximation:
 | 200 - 300 | Midspeed. Speed becomes challenging, but many players are comfortable within this range. Complex patterns are increasingly difficult to play. |
 | 300 - 400 | Speed mapping. Speed is one of the main challenges. Many players cannot play this fast. Very difficult to play complex patterns. |
 | 400+ | Extreme speed. Even the best players will struggle and quickly tire in this range. |
+
+<!-- markdownlint-enable MD013 -->
 
 ### Spacing
 
@@ -874,11 +888,15 @@ Since repositioning requires arm movement, it is harder to do faster and it invo
 A perfect example of repositioning is _arm circles_. In their simplest form, circles involve horizontal repositioning
 of the hand while swinging vertically.
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | Arm circles |
 | :-: |
 | ![Arm circles](/.assets/images/mapping/circle.png) |
 | The hand repositions horizontally (left and right) using arm movement, while the wrist swings up and down. |
+
+<!-- markdownlint-enable MD013 -->
 
 Another pattern where hand positioning plays a relevant role are _inverts_. An _inverted note_ is one where
 the arrow points inwards from outside the grid, while a swing between two subsequent notes pointing at each other
@@ -887,11 +905,15 @@ relatively large pre-swing and post-swing angles. With inverts, the player will 
 inbetween the notes in order to guarantee enough pre-swing angle of the second note.
 This makes inverts more physically demanding and harder to both time and score well on.
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | Non-invert | Invert |
 | :-: | :-: |
 | ![Non-inverted swing](/.assets/images/mapping/non-inverted-swing.png) | ![Inverted swing](/.assets/images/mapping/inverted-swing.png) |
 | The hand stays mostly static while the wrist swings. | The hand moves down significantly to guarantee enough pre-swing angle on the second note. |
+
+<!-- markdownlint-enable MD013 -->
 
 Hand positioning is very relevant in _crossover_ patterns as well, specially on Dance or Tech maps that encourage
 lots of arm movement. Apart from the risk of hands colliding in a _handclap_ when using arm to swing,
@@ -905,11 +927,15 @@ There are two ways to handle arm tangles.
   in crossover patterns, and always _resolve_ the hand on top first, by making it swing first after the crossover pattern,
   putting it away from the tangle.
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | Safely resolved arm tangle | Problematic arm tangle |
 | :-: | :-: |
 | ![Safe arm tangle](/.assets/images/mapping/tangle_resolve.png) | ![Problematic arm tangle](/.assets/images/mapping/tangle_problem.png) |
 | The right hand crosses on top, so it is resolved before the left hand moves. | The left hand will try to move through the right hand, which will create problems. |
+
+<!-- markdownlint-enable MD013 -->
 
 :::tip TIP
 The safest way to avoid arm tangles is to always resolve the top hand first.
@@ -946,7 +972,7 @@ Maps requiring feet play are very uncommon and outwith the considerations of thi
 
 Most full body motions require more regularity and predictability than arm and wrist motions.
 
-###### Leaning
+#### Leaning
 
 _Leaning_ is probably the least physically involved full body motion. It involves rotating the torso and shoulders
 so as to change the horizontal line between the hands.
@@ -1001,7 +1027,7 @@ as well as the lean parity (how long leans are sustained, and the variation betw
 lean directions).
 :::
 
-###### Swaying
+#### Swaying
 
 _Swaying_ refers to side to side body motion, performed by shifting the weight between both legs, without rotating the body.
 
@@ -1014,11 +1040,15 @@ through three interconnected tools:
 - Regularity. While leaning can have more irregular timing as long as lean parity is preserved,
   swaying benefits greatly from regular side to side timing.
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | Sway |
 | :-: | 
 | ![Sway](/.assets/images/mapping/sway.png) |
 | The vertical notes on the sides (not centre-focused), the dodge walls, and the regularity of the movement, work together to encourage sway. |
+
+<!-- markdownlint-enable MD013 -->
 
 Sway can be achieved without dodge walls or without notes, but regularity of the movement is much more important.
 
@@ -1035,7 +1065,7 @@ From 0:15 onwards, it introduces dodge walls to accentuate it. The motion become
 by adding lean on top of the pre-existing sway.
 :::
 
-###### Dodge walls
+#### Dodge walls
 
 _Dodge walls_ are walls that cover one of the two middle lanes, and force the player's head to move to the opposite side.
 
@@ -1069,7 +1099,7 @@ Dodge walls should always appear _after_ the sound they are associated with.
 
 Dodge walls have relevant effects on [vision](#vision), discussed in said section.
 
-###### Crouching
+#### Crouching
 
 _Crouching_ or _squatting_ is achieved by adequately named _crouch_, _squat_ or _duck_ walls. It involves the player
 significantly lowering their head position. This is a very physically demanding motion that also has a range
@@ -1092,19 +1122,27 @@ _Having enough time_ to perform the crouch motion is the most important one. Thi
 There are swings that will help communicate and perform crouches. While there are no hard rules on this,
 typically swings that point downwards will help, specially if they are forehand swings.
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | Crouch wall setup |
 | :-: |
 | ![Good crouch wall](/.assets/images/mapping/good-crouch.png) |
 | A standard crouch wall setup. The down swing helps the crouch, and the wall is 1/2 beat after the associated sound/motion. |
 
+<!-- markdownlint-enable MD013 -->
+
 Sometimes, side walls can be used to slowly build the crouch, alerting players ahead of time that something is going to happen.
+
+<!-- markdownlint-disable MD013 -->
 
 <!-- prettier-ignore -->
 | Crouch signposting |
 | :-: |
 | ![Crouch signposting](/.assets/images/mapping/crouch-signposting.png) |
 | Crouches can be signposted by having walls that slowly build into the crouch, bringing more visual attention from the player into it. |
+
+<!-- markdownlint-enable MD013 -->
 
 Finally, establishing the expectation of a crouch by using it for regularly timed sounds, and/or using well established
 patterns of movement that lead into crouches, can turn crouch walls from a jump scare to a core element of the enjoyment
@@ -1170,11 +1208,15 @@ Sabers move involuntarily inbetween swings. In particular, they naturally will m
 Cosmetic bombs should account for this small movement and avoid being in the way.
 :::
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | Problematic cosmetic bombs |
 | :-: |
 | ![Problematic cosmetic bombs](/.assets/images/mapping/cosmetic-bomb-bad.png) |
 | It might seem that the bombs are out of the left hand's way after this swing, but the saber will naturally move back to the left slowly, very likely hitting the bombs. |
+
+<!-- markdownlint-enable MD013 -->
 
 :::details Example
 The bomb field at <https://allpoland.github.io/ArcViewer/?id=2f77b&t=172> is quite aggressive, but it is entirely
@@ -1247,11 +1289,15 @@ When a bomb spiral is used to slowly make the player move their sabers, you have
 will avoid the bombs but use the minimal amount of movements. Therefore, spirals should conceptually be _behind_ the sabers
 current position and slowly and clearly moving towards them, effectively **pushing** them.
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | Bomb spiral |
 | :-: |
 | ![Bomb spiral path](/.assets/images/mapping/bomb-spiral-path.png) |
 | The bomb spiral will effectively "chase" the sabers and "push" them, with the sabers being slightly ahead of the spiral. |
+
+<!-- markdownlint-enable MD013 -->
 
 :::tip TIP
 Think of a bomb spiral as "chasing" the sabers, always slightly behind them, "pushing" them.
@@ -1333,11 +1379,15 @@ At its most basic, rotational momentum is the notion that after a hand [rotates]
 it will build momentum, making it more comfortable to _continue rotating in the same direction_.
 The larger and faster a rotation is, the more momentum it generates.
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | Rotational momentum | |
 | :-: | :-: | 
 | ![Playing with momentum](/.assets/images/mapping/momentum-yes.png) | This sequence *follows* momentum. The counter-clockwise rotation between the first two notes will make it more natural to continue into another counter-clockwise rotation. |
 | ![Playing against momentum](/.assets/images/mapping/momentum-no.png) | This sequence *breaks* momentum. After the first counter-clockwise rotation, trying to do a heavy rotation in the opposite direction will feel unnatural. Moreover, since this is done on negative curvature, it will make this sequence particularly awkward and have very bad flow for most players. |
+
+<!-- markdownlint-enable MD013 -->
 
 :::tip TIP
 Following momentum by continuing rotating in the same direction after a rotation creates better flow.
@@ -1347,11 +1397,15 @@ Another aspect that significantly affects rotational momentum is relative [posit
 This is mostly realized through the effect of _arm circles_. While this effect is more relative and depends on other factors,
 as a general rule, a circling motion in a direction will help generate rotational momentum in the same direction.
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | Momentum and arm circles |
 | :-: |
 | ![Momentum in arm circles](/.assets/images/mapping/momentum-circle.png) |
 | The counter-clockwise arm circle will generate some rotational momentum that makes the rotation on the third swing more natural. |
+
+<!-- markdownlint-enable MD013 -->
 
 :::tip TIP
 Use arm circles to help generate rotational momentum.
@@ -1369,11 +1423,15 @@ than linear patterns.
 Of course, if we just followed momentum forever, we would endlessly rotate in the same direction and never look back.
 Do not do this.
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | Endless momentum |
 | :-: |
 | ![Endless momentum](/.assets/images/mapping/momentum-lol.png) |
 | Technically, this pattern follows momentum. However, it is obviously unplayable without resetting for essentially everybody. |
+
+<!-- markdownlint-enable MD013 -->
 
 The issue here is clear: the more we rotate, the more difficult it is to continue rotating. This is due to _tension_.
 While momentum depends mostly only on the angle transition and relative position of the notes, tension relates to the
@@ -1390,11 +1448,15 @@ of and that will relate to emphasis and consistency in the map.
 The apex of rotations relates to the intensity, emphasis and consistency of the swings.
 :::
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | Momentum apex |
 | :-: |
 | ![Momentum apex](/.assets/images/mapping/apex.png) |
 | In this very intense sequence, the apex hits are on quite extreme postures, where all momentum has transformed into a lot of postural tension that is then released on the opposite direction. |
+
+<!-- markdownlint-enable MD013 -->
 
 Readers familiar with physics might see a familiar pattern here. This is very similar to periodic systems
 where energy oscillates between two different forms of energy (typically, potential and kinetic energy). For example,
@@ -1508,6 +1570,8 @@ There is, however, such a thing as too low NJS, depending on the map's speed, wh
 to read and incentivize early swinging.
 We normally start from a baseline and adjust from there. Here are some recommended NJS ranges:
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | NJS range | When to use | Example |
 | :-: | :-: | :-: |
@@ -1521,6 +1585,8 @@ We normally start from a baseline and adjust from there. Here are some recommend
 | 20-22 | **Very high NJS**. The effect on timing is very noticeable, changing the tension and stiffness of the player; as well as significantly increasing the difficulty of the map. However, for very fast and very complex maps, this NJS might be warranted. | <https://allpoland.github.io/ArcViewer/?id=3628f> |
 | 22-25 | **Extremely high NJS**. Arguably, no map should need to go this high, but for particularly extreme challenge or speed maps, some people might feel that this range is warranted. Timing is extremely tight and most players will have issues with it. | <https://allpoland.github.io/ArcViewer/?id=2d64a> |
 | 25+ | **Do not use**. There is essentially no good reason to use NJS above 25 for any map. NJS becomes one of the main difficulties in the map. |
+
+<!-- markdownlint-enable MD013 -->
 
 The third and last degree of freedom is _reaction time_, which is directly linked to _half jump duration_, _spawn offset_
 and _jump distance_. Feel free to skip the following explanation, as it is not very relevant for most mappers.
@@ -1562,6 +1628,8 @@ and the physicality of the movements:
 
 Here are some general reaction time ballparks:
 
+<!-- markdownlint-disable MD013 -->
+
 <!-- prettier-ignore -->
 | RT range | When to use |
 | :-: | :-: |
@@ -1572,6 +1640,8 @@ Here are some general reaction time ballparks:
 | 600-750 ms | **Long RT**. This can be used for Expert+ maps if they involve particularly large or hard to process movements, but many players might struggle with early swinging or being confused with the amount of clutter. |
 | 750-1200 ms | **Very long RT**. Reserved for very floaty maps, or lower difficulties with lower note density and lower NJS. Easy and Normal difficulties will normally be in this range. |
 | 1200+ ms | **Extremely long RT**. While there is nothing inherently wrong with extremely long reaction time, a lot of players will dislike it, and at this range, it will hardly make any positive difference. To be used mostly for aesthetic purposes, if at all. |
+
+<!-- markdownlint-enable MD013 -->
 
 :::tip TIP
 First, setup the map audio, including BPM. Then, choose an NJS setting. Finally, adjust the reaction time.
