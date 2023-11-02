@@ -13,6 +13,7 @@ to map is to simply keep at it.
 **Try. Adjust. Listen. Repeat.**
 
 In this page you will find a summary of most topics that mappers usually think about. Some of those topics also have an advanced page.
+This page is long. Don't try to read it all in one sitting. Skim through it at your own pace, or consult specific topics directly.
 
 ## What makes a good Beat Saber map?
 
@@ -424,7 +425,7 @@ Instead, it is more important to set up your audio adequately and identify the r
 The best way to achieve good timing is to do a proper [audio setup](./basic-audio.md).
 :::
 
-A good audio setup may involve introducing all the necessary [BPM changes](./advanced-timing.md) to keep the map aligned to the tempo of the song.
+A good audio setup may involve introducing all the necessary [BPM changes](./advanced-mapping.md#advanced-timing) to keep the map aligned to the tempo of the song.
 
 The vast majority of songs (even those with variable tempo) use simple timings that require only 1/2, 1/3, or 1/4 precision (with occasional 1/6 or 1/8), if the audio setup is adequate.
 While there exist songs that do use more complex timings, this is very rare. In almost every case where a mapper thinks this is the case, they either didn't align the sound properly,
@@ -462,7 +463,7 @@ and present a lot of spurious sounds. The spectrogram should never be the only m
 Time to what you **hear** above everything else.
 :::
 
-The [Advanced Timing](./advanced-timing.md) page contains some additional topics like variable BPM and Swing in songs.
+The [Advanced Timing](./advanced-mapping.md#advanced-timing) page contains some additional topics like variable BPM and Swing in songs.
 
 :::details Read more...
 GalaxyMaster has [some tips](https://docs.google.com/document/d/1qdRGk8QR48hx0ng05Z45tv-6KvMFPYxiAY8l441j3Mk/edit#heading=h.uwcmzkca2fv) for determining timings.
@@ -545,7 +546,7 @@ this usually has other downsides and constraints that will make it tricky. But t
 Forehand and backhand hits are not interchangeable. They are inherently asymmetric.
 
 Comfortable angles and positions are different for forehand and backhand hits. Backhand hits tend to be friendlier to outer lanes and forehand hits friendlier to inner lanes.
-[Palm-out](#posture) backhand hits are a lot more difficult and physically intense to play than palm-out forehand hits, whereas palm-up backhand hits can be more satisfying than palm-up
+Palm-out backhand hits are a lot more difficult and physically intense to play than palm-out forehand hits, whereas palm-up backhand hits can be more satisfying than palm-up
 forehand hits. This relates to *swing curvature*, described in the section on [momentum](#momentum-and-tension).
 
 Perhaps more importantly, forehand hits are more comfortable to emphasize more and typically carry the initiative in terms of rotations and postures. That is, it is normally easier
@@ -597,7 +598,7 @@ The angle (degrees) of a rotation is not the only measure of its playability. Ap
 the starting angle / posture and the **direction** matter dramatically. There is a particular relation between which hand is rotating, parity, and direction of the rotation, that affects its intensity and feel.
 Sometimes we call this *swing curvature*, which we say can be *positive* or *negative*. While both positive and negative curvature can and should be used, it is easier to implement big rotations on positive curvature without setup.
 
-Swing curvature is discussed in more detail in the page on [momentum mapping](./momentum-mapping.md).
+Swing curvature is discussed in more detail in the page on [momentum mapping](./advanced-mapping.md#momentum-mapping).
 
 :::tip TIP
 Large rotations without setup are easier on positive curvature.
@@ -691,7 +692,7 @@ and one of the hardest to learn for newer mappers.
 
 In this section we focus mostly on the general distance between subsequent swings, and in [Hand repositioning](#hand-repositioning), we
 discuss how note positioning affects the way the player moves their arms and hands in more detail. These concepts are also fundamental for
-[momentum mapping](./momentum-mapping.md).
+[momentum mapping](./advanced-mapping.md#momentum-mapping).
 
 Spacing is very relevant for gameplay reasons in various ways. Most importantly, larger swings require faster and more intense swings,
 even with the same [swing speed](#swing-speed). Even with pure wrist swings (which are not possible or desirable most of the time), larger swings require more precise timing.
@@ -781,7 +782,8 @@ The safest way to avoid arm tangles is to always resolve the top hand first.
 
 - The **most flexible** way to prevent arm tangles is to only use crossover patterns that do not require the arms to actually cross. This can be done through safer patterns (less wide, less centred)
 or by encouraging and communicating exclusive wrist swinging by adequately using [map context](#map-context). This is more risky as the experience will vary between different players,
-but it can work pretty well if there is enough certainty that players in the target audience will not actually cross their arms.
+but it can work pretty well if there is enough certainty that players in the target audience will not actually cross their arms. This is less likely to work on slower, dancier maps, and in those,
+properly resolving tangles is encouraged.
 
 Hand repositioning can be used quite successfully to communicate [sway](#full-body-motion) or simply to add variety in representation to the map.
 
@@ -797,297 +799,658 @@ This [incomplete glossary](https://docs.google.com/document/d/16hydw1Vob9uDK3VTp
 
 ### Full body motion
 
-asd
+Apart from wrists and arms, many Beat Saber maps include moving the torso through *swaying*, *leaning*, *crouching*, and similar movements.
+This is more typical of *fitness* and *dance* maps.
 
-**((Probably add an advanced page for it))**
+For the purposes of this section, we are assuming that the players' feet don't ever leave the ground or move around. Maps requiring feet play are very uncommon
+and outwith the considerations of this page.
+
+Most full body motions require more regularity and predictability than arm and wrist motions. 
+
+###### Leaning
+
+*Leaning* is probably the least physically involved full body motion. It involves rotating the torso and shoulders so as to change the horizontal line between the hands.
+
+For anatomical reasons, leaning is most necessary and comfortable when there are *palm-out* hits involved. These are hits where the palm is facing outwards towards the
+right for the right hand or the left for the left hand.
+
+:::tip TIP
+Leans are mostly governed by palm-out swings.
+:::
+
+<!-- prettier-ignore -->
+| | |
+| :-: | :-: |
+| ![No lean](/.assets/images/mapping/no-lean.png) | (Starting forehands). All hits are palm-in. Even with large rotations, leaning is not generally required. |
+| ![Left lean](/.assets/images/mapping/left-lean.png) | (Starting forehands). The palm-out hits on the right hand incentivize/force the lean to the left (counter-clockwise). |
+| ![Right lean](/.assets/images/mapping/right-lean.png) | (Starting forehands). The palm-out hits on the left hand incentivize/force the lean to the right (clockwise). |
+
+While leans do closely relate to *dodge walls*, their relation is not as straightforward. We discuss the relation between leaning, swaying, and dodge walls in the section about [dodge walls](#dodge-walls).
+
+For various reasons, discussed in the sections on [parity](#parity) and [rotations](#rotations), it is generally more comfortable to initiate / increase lean on forehand swings.
+While backhand palm-out swings are playable and acceptable, they are more natural after the palm-out posture has already been established through forehand swings.
+Similarly, it is generally more natural to come out of leans (sometimes called *unleaning*) on backhand swings.
+
+:::tip TIP
+It is normally most natural to initiate leans on forehand swings, and come out of them on backhand swings.
+:::
+
+When both hands are simultaneously going palm-out, we say that we have a *conflicting lean*. While this can be a completely legitimate pattern, the mapper should be aware of the physical intensity and emphasis that it carries,
+creating a lot of tension on the player's shoulders.
+
+As described before, leaning benefits from regularity and predictability. In the case of leaning, this relates to what we sometimes call *lean parity*, which establishes two principles:
+
+- Holding a lean for a long time tends to be uncomfortable. We call these *sustained leans*.
+- After finishing a lean, the player will naturally want to lean *in the opposite direction*. Chaining multiple same-direction leans is physically unnatural.
+
+The reasons behind this are explained in more detail on the section on [momentum and tension](#momentum-and-tension).
+
+:::danger DON'T
+Avoid sustained leans or chained same-direction leans, except for very specific gimmick maps.
+:::
+
+:::details Example
+https://allpoland.github.io/ArcViewer/?id=2c25a has impeccable lean management. As an exercise, slowly go through the map and note all palm-out hits,
+their parity, and how they contribute to leaning in each direction; as well as the lean parity (how long leans are sustained, and the variation between both
+lean directions).
+:::
+
+###### Swaying
+
+*Swaying* refers to side to side body motion, performed by shifting the weight between both legs, without rotating the body.
+
+There is not such a clear cut way of communicating or encouraging sway as lean, but it is usually done through three interconnected tools:
+
+- Vertical swings on the sides, or more in general, swings where the arrows are not pointing from the centre of the play area, encouraging body repositioning.
+- Dodge walls. Differentiating or combining lean and sway is complicated and we discuss it in [a later section](#dodge-walls).
+- Regularity. While leaning can have more irregular timing as long as lean parity is preserved, swaying benefits greatly from regular side to side timing.
+
+<!-- prettier-ignore -->
+| Sway |
+| :-: | 
+| ![Sway](/.assets/images/mapping/sway.png) |
+| The vertical notes on the sides (not centre-focused), the dodge walls, and the regularity of the movement, work together to encourage sway. |
+
+Sway can be achieved without dodge walls or without notes, but regularity of the movement is much more important.
+
+:::tip TIP
+If you want to encourage sway, keep your side to side motion **regular**.
+:::
+
+The frequency of sway is also physically limited. Normally, players will struggle to move from one side to the other in less than ~500ms (half a second).
+Faster sway will feel unnatural and bothering.
+
+:::details Example
+https://allpoland.github.io/ArcViewer/?id=3071e&t=0 establishes a very regular sway motion from the beginning of the map. From 0:15 onwards, it introduces dodge walls to accentuate it.
+The motion becomes more complex from 0:30 onwards by adding lean on top of the pre-existing sway.
+:::
+###### Dodge walls
+
+*Dodge walls* are walls that cover one of the two middle lanes, and force the player's head to move to the opposite side.
+
+At a basic level, dodge walls require very little head motion, and they are normally used as an additional element to communicate intended motion
+or enhance the full body motion in the map.
+
+The relation between dodge walls, [leaning](#leaning) and [swaying](#swaying) can be a bit paradoxical, though, to the point where certain ambiguities can lead to players
+feeling like they are being led into a wall. This is summarized by the following simplified patterns:
+
+<!-- prettier-ignore -->
+| Dodge walls | |
+| :-: | :-: | 
+| ![Simple sway](/.assets/images/mapping/simple-sway-wall.png) | **Simple sway** motion. The pattern and the wall encourage the player to shift the weight to the right. |
+| ![Simple lean](/.assets/images/mapping/simple-lean-wall.png) | **Simple lean** motion. The pattern encourages leaning clockwise, which works well with the dodge wall putting the player's head out of harm's way through the rotation. |
+| ![Hard dodge](/.assets/images/mapping/hard-dodge-wall.png) | **Hard dodge** motion. This pattern requires much more violent motion, with the player needing to unnaturally put the head out of the way while hitting the notes. This will be problematic if it fights an established lean or sway pattern. |
+| ![Sway lean](/.assets/images/mapping/sway-lean-wall.png) | **Sway lean** motion / anti-lean wall. This pattern can be played well, but it requires a simultaneous counter-clockwise *lean* motion and a heavy *sway* motion to the right to avoid hitting the wall. Thus, it is quite physical. If the sway motion is not established, this will unfairly push the player's head into the wall. |
+
+:::danger DON'T
+Make sure that your established body motion will not push players into a dodge wall.
+:::
+
+In terms of representation, dodge walls should normally be associated with a sound, and it is common to also have notes associated to the same sound.
+Regardless of this choice, since the motion associated to a dodge wall happens *before* the wall, the wall should be placed *after* the sound,
+so that the motion coincides with the sound. Typically, 1/4 or 1/2 beats later is suggested.
+
+:::tip TIP
+Dodge walls should always appear *after* the sound they are associated with.
+:::
+
+Dodge walls have relevant effects on [vision](#vision), discussed in said section.
+
+###### Crouching
+
+*Crouching* or *squatting* is achieved by adequately named *crouch*, *squat* or *duck* walls. It involves the player significantly lowering their head position.
+This is a very physically demanding motion that also has a range of secondary effects. It is almost exclusively reserved for fitness maps.
+
+While the wall itself is the fundamental trigger of a crouch, there are a series of aspects that can make it easier or more comfortable to play.
+
+*Having enough time* to perform the crouch motion is the most important one. This involves:
+
+- Seeing the wall in time. For this, adjusting the [jump settings](#jump-settings) of maps with crouch walls can be important.
+- Avoiding motions that challenge the crouching motion shortly before the wall. For example, top row backhand swings.
+- Like dodge walls, crouch walls should appear *after* the motion they are related to. In fact, crouch walls will typically be placed at least 1/2 beat after their associated sound to allow enough time to perform the motion.
+- The frequency of crouch walls should be quite low. Apart from being physically demanding, seeing a crouch wall, crouching, letting it end, and standing back up, takes a while.
+Typically, there should be at least about ~3 seconds between crouch walls, with anything below 2 seconds being extremely challenging to play.
+
+There are swings that will help communicate and perform crouches. While there are no hard rules on this, typically swings that point downwards will help,
+specially if they are forehand swings.
+
+<!-- prettier-ignore -->
+| Crouch wall setup |
+| :-: |
+| ![Good crouch wall](/.assets/images/mapping/good-crouch.png) |
+| A standard crouch wall setup. The down swing helps the crouch, and the wall is 1/2 beat after the associated sound/motion. |
+
+Sometimes, side walls can be used to slowly build the crouch, alerting players ahead of time that something is going to happen.
+
+<!-- prettier-ignore -->
+| Crouch signposting |
+| :-: |
+| ![Crouch signposting](/.assets/images/mapping/crouch-signposting.png) |
+| Crouches can be signposted by having walls that slowly build into the crouch, bringing more visual attention from the player into it. |
+
+Finally, establishing the expectation of a crouch by using it for regularly timed sounds, and/or using well established patterns of movement that lead into crouches,
+can turn crouch walls from a jump scare to a core element of the enjoyment of a map. We discuss this a little further in the section on [context](#map-context).
+
+:::danger DON'T
+Do not just randomly throw in crouch walls in your map. This will alienate players. Make sure they are adequately contextualized, built into and the motion is helped.
+If crouch walls are not a core element of your map, consider whether you really need them.
+:::
+
+Some other aspects of the map are changed during crouches. First of all, *extended crouches* (crouches that last several seconds) can be okay but are fundamentally more noticeable to play
+and should be reserved for heavy fitness maps, and even in those cases their use should be limited.
+
+[Vision](#vision) is significantly changed while crouching, with the position of the player moving approximately one whole lane down. Therefore, 
+the notion of what constitutes a vision block is modified before, during and after a crouch wall.
+
+:::tip TIP
+Crouching changes how vision blocks work.
+:::
+
+Similarly, the arms have less space to move and tend to be more on the sides while crouching. Reach is reduced in all directions, but specially vertically upwards.
+For example, it is not normally recommended to have top row swings right after a crouch wall ends.
+
+:::tip TIP
+Avoid top row right after a crouch wall ends.
+:::
 
 ### Bombs
 
-asd
+*Bombs* can be a really cool way to represent additional sounds, generate a feeling of tension or produce secondary movements. However,
+they come with a lot of pitfalls and caveats. Good bomb usage requires very careful thought and being very considerate with the player.
 
-**((Probably add an advanced page for it))**
+Unlike notes, bombs have very little information regarding what movement should exactly be performed.
+Bombs should be placed with flow in mind just as much as notes are.
 
-### Arcs
+You could divide bomb usage into three categories:
 
-asd
+- Bombs not meant to interfere with the movement of the player. *Cosmetic bombs*.
+- Bombs meant to prevent the player from doing a certain movement. *Bomb holds*.
+- Bombs meant to make the player do a certain movement. (Typically, *bomb resets*).
 
-### Posture
+These may sometimes be used in tandem, but for each particular bomb, the goal should clearly be one of these three, and should do it adequately.
+Moreover, in the majority of cases you want the bombs to serve a representation purpose, which normally includes representing some particular sound.
 
-asd
-
-### Momentum and tension
-
-asd
-
-**((Definitely add an advanced page for it))**
-
-### Pattern setup
-
-asd
-
-### Jump settings
-
-asd
-
-### Vision
-
-asd
-
-### Map context
-
-asd
-
-### 90/360 mode
-
-asd
-
-**((Probably add an advanced page for it))**
-
-
-
-**--------------------------**
-
-**--------------------------**
-
-**(( THESE ARE OLD BITS THAT MAY GET REUSED LATER, IGNORE))**
-
-**--------------------------**
-
-**--------------------------**
-
-## -- IGNORE EVERYTHING BELOW THIS --
-
-
-## Visibility
-
-Players need to see the notes to comfortably prepare and react.
-Notes that are hidden until the last second are very jarring to play.
-
-**((Mention ArcViewer here))**
-
-### Vision Blocks
-
-Speed influences visibility heavily, as the note jump speed and jump distance dictate how much time the player has to see
-incoming notes. The player will have too little time to react to notes that spawn too close and approach too quickly. Likewise,
-vision blocks are more severe as the song gets faster- when the note exists for a shorter time, any time that the block is
-obscured is more impactful. At extreme speeds and slower note jump speeds, even bottom row blocks can obscure other bottom
-row notes (the same can be said for top row notes, but those are rarely used at a density where this is a problem).
-
-### Note Jump Speed & Jump Distance
-
-Note Jump Speed (NJS), Spawn Offset (or offset), and Jump Distance are additional factors you need to consider for visibility.
-
-For more information check out the [Downmapping: NJS & Offset](./downmapping.md#njs-offset) section.
-
-## Understanding Flow
-
-**((This section is in my opinion the one that needs most extra detail from what it has now))**
-
-In [Basic Mapping](./basic-mapping.md#do-mapping-with-flow) we covered the bare essentials of parity.
-Now we'll dig deeper and explore why some hits just feel bad.
-
-This video demonstrates some more advanced concepts of parity: [YouTube](https://youtu.be/NF8ESZRXI1c)
-
-Flow is arguably the most important concept in mapping - how each arm travels to move from one hit to the next. This can
-be as simple as alternating between "forehand" and "backhand" notes, or as complicated as thinking about how one arm
-interacts with the other at the edges of the playspace. Since the player must see blocks in order to react to them, flow
-highly depends on speed and difficulty. Slower songs are far more forgiving and flexible with regards to flow, while a
-fast song is highly limited.
-
-::: tip TIP
-Still learning and not seeing some of the errors testplayers point out?
-Check out [GalaxyMaster's parity checker](https://galaxymaster2.github.io/bs-parity/) to spot any parity breaks!
+:::tip TIP
+Ambiguous bombs are inherently problematic. You should always have a clear idea of whether the bombs are meant to be purely cosmetic, prevent a movement, or produce a movement;
+and the bombs should communicate this very clearly.
 :::
 
-### Block Directions & Positions
+*Cosmetic bombs* are the easiest to understand. They should be completely out of the way of the sabers. This should be understood in the broadest sense. For example, if one hand
+just did a forehand swing, you may want to avoid having cosmetic bombs in the whole of the bottom row.
 
-Each swing a player makes leaves their arm in a new position. At hard difficulty and higher, the player will leave their
-arms in this new position while waiting for the next motion. The block that follows must consider the position of the arm.
+:::warning
+Sabers move involuntarily inbetween swings. In particular, they naturally will move towards a *neutral position* (down after a forehand, up after a backhand).
+Cosmetic bombs should account for this small movement and avoid being in the way.
+:::
 
-<!-- markdownlint-disable MD013 -->
+<!-- prettier-ignore -->
+| Problematic cosmetic bombs |
+| :-: |
+| ![Problematic cosmetic bombs](/.assets/images/mapping/cosmetic-bomb-bad.png) |
+| It might seem that the bombs are out of the left hand's way after this swing, but the saber will naturally move back to the left slowly, very likely hitting the bombs. |
 
-|                                  **Poor Positioning**                                   |                                   **Poor Angles**                                   |                                  **Good Position & Angle**                                   |
-| :-------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
-|      ![Example of Poor Positioning](/.assets/images/mapping/poor_positioning.jpg)       |          ![Example of Poor Angle](/.assets/images/mapping/poor_angle.jpg)           | ![Example of Good Positioning and Angle](/.assets/images/mapping/good_positioning_angle.jpg) |
-| You can see here that the arm is not ready to hit down from the position it is left in. | In order to hit the next block, the arm has to do a lot of extra motion to wind up. |              Taking both into consideration, you are left with a smooth motion.              |
+:::details Example
+The bomb field at https://allpoland.github.io/ArcViewer/?id=2f77b&t=172 is quite aggressive, but it is entirely out of the sabers' paths and therefore it is almost
+impossible for the players to hit it. Don't do this at lower difficulties, though, as bombs towards the face will terrify lower skill players.
+:::
 
-<!-- markdownlint-enable MD013 -->
+For all types of bombs, but specially cosmetic bombs, it's normally very risky to have bombs at all whenever either of the sabers
+is swinging. These bombs will effectively play as precision bombs, enforcing a much stricter motion that, in many cases, will play badly.
+Saber swings take up a lot more space than it seems, and bombs are easy to hit by accident. When doing bomb spirals over a long period of time, consider pausing them
+(i.e. having no bombs) around the notes that require swinging.
 
-- Each block has a limited selection of following blocks that feel good to play.
-- It takes longer wind up for less optimal hits and more suggested motion to play, be it from another block, bombs, or walls.
-- Faster songs have less time to see and comprehend the next block, leaving the mapper with more limited options for patterns.
-  Vision blocking notes/walls are risky for this same reason.
-- Counter-clockwise wrist motions are preferred with the right hand and clockwise wrist motions are preferred with the
-  left hand. Try it yourself and feel the difference!
+:::warning
+Any bombs present at the same time as a saber is swinging will be inherently risky. To be safe, leave approximately 1/4 beats before and after any note free of bombs.
+:::
 
+*Bomb holds* are sets of bombs meant to communicate to the player that they should not do a certain movement. Bomb holds work best when:
 
-### Arm Tangles
+- They start very soon after the previous swing. This allows the player to read them as part of the swing and prevents the player moving the sabers
+after the swing but before the bombs.
+- They keep the space where the sabers are right after the swing clearly safe from bombs.
+- They have a lot of bombs, visually indicating very clearly that the sabers are not to be moved back.
 
-Arm tangles happen when a pattern requires one arm to swing through another arm's spot. Care must be taken to ensure that
-crossovers at risk of tangling are either kept above/below the other arm, or returned to their side before the other arm's
-next hit.
+:::details Example
+In https://allpoland.github.io/ArcViewer/?id=34847&t=75 very large fields of precision placed bombs with Noodle Extensions are used to communicate that the posture should be held after the swings.
+:::
 
-Slower maps typically reward dancier and larger arm motions, causing arm tangles to have a stronger negative impact. On
-the other hand, faster maps typically are hit with less full-arm motion and can cheat arm tangles by having just the tip
-of the saber hit crossovers.
+The most normal type of bombs meant to indicate an active movement are *bomb resets*. In many ways, the rules for making bomb resets work are the opposite of bomb holds,
+so as to avoid the ambiguity:
 
-### Crossovers
+- They should give some time after the previous swing for the player to read the bombs and perform the reset motion.
+- They clearly cover the area where the sabers are right after the swing.
+- They only cover the area where the sabers were, leaving the rest of the play area safe, giving flexibility on the specific
+positioning of the sabers after the reset.
 
-**((Requires update, potentially merge with arm tangles))**
+As the name indicates, bomb resets will reset the parity. Due to how bomb spawning works (starting on the bottom row), and due to the comfort of different postures, bomb resets will mostly
+only work when they *enforce a forehand parity* on the swing after the bombs (*bottom resets*). While *top resets* can work, they are considerably more risky and will alienate a lot of players.
 
-Crossovers happen when one arm swings to the opposite side of the playspace. This is a challenging motion reserved for
-harder difficulties or slower maps. Crossovers open up the playspace for many interesting patterns so long as they are
-handled with care.
+<!-- prettier-ignore -->
+| Bomb resets | |
+| :-: | :-: |
+| ![Bottom reset](/.assets/images/mapping/bottom-reset.png) | Bottom resets are easier to read (due to bomb spawning) and play (due to parity being asymmetric). |
+| ![Top reset](/.assets/images/mapping/top-reset.png) | While top resets can work, they are considerably more difficult to read and play, and they will alienate many players. You should not use them lightly. |
 
-When swinging far from the natural position of the arms, bad flow is more pronounced. Additionally, the risk of arm
-tangles arises when crossovers do not consider the positions of notes to unwind the player during or after the sequence.
+:::warning
+Top resets are a lot harder to read and play, and a lot of players dislike them.
+:::
 
-## Walls
+Like with walls, the motion associated with bomb resets happens *before* the bombs, and therefore the bombs should be placed *after* the sound associated with them, to make
+the motion happen at the same time as the sound. If there is no specific sound associated with the reset, the bombs should be closer to the notes *after* than to the notes *before*.
 
-Walls are a versatile tool in maps that are often overlooked. They provide the most direct way to influence full body motion,
-as well as an immersive visual element. Overuse/misuse can lead to visual clutter or full vision blocking- so care must
-be taken. Treat any wall placed in either of the middle two lanes as a vision block for that lane, as they block the same
-(if not more) space. Additionally, walls placed in both middle lanes at the same time are never acceptable - most players
-cannot safely move out of the way within their playspace. Even players who are able to dodge these walls will not enjoy
-the amount of movement required.
+:::danger DON'T
+Do not place bomb resets at the middle point between the swings. They should always be closer to the latter swing. 2/3 is typically used.
+:::
 
-### Moving the Player with Walls
+Sometimes, bomb fields that last a longer time and move through the play area are used to communicate multiple things as time goes by. This can be very flavourful and also keep the player's attention
+on the bombs throughout, communicating the motions more clearly. We often call these *bomb spirals*.
 
-**((There are important aspects missing here))**
+When a bomb spiral is used to slowly make the player move their sabers, you have to account for the fact that players will avoid the bombs but use the minimal amount of movements. Therefore,
+spirals should conceptually be *behind* the sabers current position and slowly and clearly moving towards them, effectively **pushing** them.
 
-Walls are a way to encourage the player to move left, right, down, or a combination of the three while playing.
-They are extremely powerful at doing this since players cannot touch them for too long.
+<!-- prettier-ignore -->
+| Bomb spiral |
+| :-: |
+| ![Bomb spiral path](/.assets/images/mapping/bomb-spiral-path.png) |
+| The bomb spiral will effectively "chase" the sabers and "push" them, with the sabers being slightly ahead of the spiral. |
 
-#### Dodge Walls
+:::tip TIP
+Think of a bomb spiral as "chasing" the sabers, always slightly behind them, "pushing" them.
+:::
 
-Left and right movement should feel natural and never be forced.
+:::warning
+The parity after a bomb spiral can easily be ambiguous, since the movement they induce does not have strict parity.
+Try to make sure you communicate exactly what parity the player should have when a bomb spiral ends.
+:::
 
-- The note pattern should already encourage the player to move in that direction.
-- There should be enough space between walls if using left/right back to back.
-  - Often 1 beat between the end of one and the start of next is enough. Though depending on the BPM more space is required.
-- Groove Walls are a situational exception to this but, are hard to execute correctly.
+:::details Example
+The following map uses bombs throughout on the sections with the most complex flow. These are mostly bomb holds to prevent the player from resetting to a neutral posture,
+with slight hints of bomb spirals that help communicate what the next motion should be. They are also very flavourful, representing the growling sound.
 
-#### Crouch Walls
+You can see this in multiple sections of the map, used in different ways but with the same purpose:
 
-Down movement is trickier as it is easier to do more harm than good.
+- https://allpoland.github.io/ArcViewer/?id=2d4e6&t=94
+- https://allpoland.github.io/ArcViewer/?id=2d4e6&t=227
+- https://allpoland.github.io/ArcViewer/?id=2d4e6&t=271
+:::
 
-- Most players dislike crouch walls, be very selective when using them.
-  - Crouch walls should be avoided when the jump distance is very short and NJS is high as they
-    make even fully telegraphed crouch walls too fast to react to.
-- Keep them short, there's rarely a good reason to have them longer than 1-2 beats.
-- If you are ending a crouch wall with notes just after, be extremely careful with what direction you start (up/down).
-  - Starting down too quickly is uncomfortable and almost always unnecessary.
-  - Starting up too late is also awkward.
-- It is easy to justify a crouch wall if the lyrics in a song say "down", "under", or any other reference to a downward motion.
-- Side notes are more natural to hit while under a crouch wall than up/down notes.
-- It is better to have a crouch wall end early than late as it plays better for any player in general.
-  Especially those who have physical trouble crouching for too long.
-  - If your crouch wall is longer than 1 beat, shorten it by 0.5.
-  - If less than 1 beat and greater than 0.5, shorten by 0.25.
-  - Otherwise, leave it.
+### Cosmetic Walls
 
-### Aesthetic Walls
-
-These walls are one option for adding a visual element to the map close to the player. They narrow down the field to a
+These walls are one option for adding a visual element to the map close to the player.  They narrow down the field to a
 smaller region, making notes feel closer together and faster approaching. They can also be used to represent sounds not
 mapped by notes, or even used to flesh out quiet/slow/vocal drifting sections.
 
-Using Mapping or Noodle Extensions opens up a huge space of possibilities by allowing walls to be of almost any height,
-width, and location but, requires a significantly larger amount of effort and is not playable without the respective mod.
+When making v3 maps, or using Mapping or Noodle Extensions, a huge space of possibilities is opened up, by allowing walls to be of almost any height,
+width, and location. However, this requires a significantly larger amount of effort and is not playable without the respective mod / game version.
 See [Extended Mapping](./extended-mapping.md#wall-mapping) for more info.
 
-## Bombs
+### Arcs
 
-**((Can definitely do with some more specificity))**
+*Arcs*' main function is representational, used for long dragging sounds or sequences of sounds that feel linked.
 
-The opposite of notes, bombs count as misses when they are hit. This opens up more opportunities for patterns, but have
-significant limitations. Notes specify the direction, timing, and hand all in one block. Bombs, on the other hand, have
-very little limitation imposed on the player.
+They can also serve some minor gameplay functionalities. On one hand, arcs can help readability by guiding the hands inbetween notes.
+This is dependent on the player and works best for slow transitions lasting several seconds. It should not be used as a clutch
+to try to produce otherwise unreadable swings. Arcs also affect [scoring](#scoring), by giving full score for the post-swing of the head
+note and the pre-swing of the tail note. This is, however, a minor effect.
 
-Just as notes are placed with flow in mind, bombs should be placed as well! Bombs located where the sabers will be after
-swinging will not flow well due to the abrupt motion required to avoid it. Bombs placed at the same time as notes are
-particularly limiting as they either will restrict the swing path or offer little value to the map other than decoration.
+:::danger DON'T
+While arcs can help readability, you should not rely on them to be the only thing communicating an otherwise unreadable motion.
+:::
 
-Note that since bombs do not strictly define any motion, different players will approach bomb patterns with different
-motions. Care must be taken to ensure bomb patterns are easy to read and smooth to play, otherwise they will cause frustration.
+Arcs do come with some downside, though. If abused, they can severely increase [clutter](#clutter), and for some players, they can even produce
+[vision blocks](#vision). Therefore, they should be reserved for select swings or parts of the song. They can also be tweaked by using the right
+positions and angles for head and tail notes to make the path more suitable, and their head and tail *multipliers* should be adjusted to make the path
+more adequate.
 
-As a result, bombs are not often used in maps other than for bomb resets. Bomb resets are a way to reset both hands to
-the same direction, but if used too quickly will feel abrupt and uncomfortable. This can be remedied by having notes
-immediately before the bomb reset guide the player to resetting more smoothly.
+:::danger DON'T
+Do not abuse arc usage. They will affect vision and create clutter, on top of blurring out representation. Reserve them for select swings or parts.
+:::
 
-## Sliders
+:::tip TIP
+Adjust head and tail multipliers for arcs to ensure best aesthetics and readability.
+:::
 
-Sliders are the use of multiple notes at different times all hit with the same swing.
-They fit well for sounds that are sustained for slightly longer than a normal note, but have significant restrictions.
+Note that most environments will also introduce *clamping*, whereby large arcs get flattened to avoid intersecting with environment objects.
+This can be very aesthetically unpleasant for some people.
 
-Conventionally, sliders are started with an arrow block and followed with dot blocks spaced at 1/16 or 1/24 from the
-original block. Sliders slower than these precisions require the player to alter their swing speed to successfully hit,
-which is not desired. Sliders faster than these precisions are essentially stacks/towers.
+The following environments do not have clamping, and thus you can trust the arcs will look smooth. For other environments, check ingame:
 
-The using 1/16 vs. 1/24 precision depends on bpm though 1/16 is a safe choice for most speeds. **It is more important for
-sliders to be playable than to match with the rhythm.** If a 1/8 sound is mapped with 1/8 sliders, it may be too slow to
-play comfortably in one swing.
+- Skrillex
+- Weave
 
-Note that there are directions that work more comfortably than others. Namely, sliders should travel clockwise for the
-left hand, and counterclockwise for the right hand. Sliders are almost always restricted to 3 notes or less, as changing
-directions mid-slider is extremely difficult to score well on. Sliders that end in the opposite lane (Such as left (Red)
-sliders ending in the rightmost lane) are easy to miss.
+### Momentum and tension
 
-Sliders can also cause significant vision blocks when use in bulk even if the center two positions are not used due to
-how much visual space the dots fill. Window sliders (3-note sliders that omit the center note) can be used to avoid face
-notes and clear up vision, but risk being hard to read.
+*Momentum* can refer to multiple concepts, most of which in one way or another are related to the physical notion of momentum. If you have
+physical intuitions about momentum, these will be useful to understand this section. However, keep in mind that there is more at play
+than pure physics when a player is playing a Beat Saber map. Several of the notions of momentum are relevant for [momentum mapping](./advanced-mapping.md#momentum-mapping),
+but in this section we focus on the one that is usually the most important: *Rotational momentum*.
 
-**((If we preserve it, we should add sections here on chains and arcs))**
+At its most basic, rotational momentum is the notion that after a hand [rotates](#rotations) in one direction, it will build momentum, making it more
+comfortable to *continue rotating in the same direction*. The larger and faster a rotation is, the more momentum it generates.
 
-## Inverts
+<!-- prettier-ignore -->
+| Rotational momentum | |
+| :-: | :-: | 
+| ![Playing with momentum](/.assets/images/mapping/momentum-yes.png) | This sequence *follows* momentum. The counter-clockwise rotation between the first two notes will make it more natural to continue into another counter-clockwise rotation. |
+| ![Playing against momentum](/.assets/images/mapping/momentum-no.png) | This sequence *breaks* momentum. After the first counter-clockwise rotation, trying to do a heavy rotation in the opposite direction will feel unnatural. Moreover, since this is done on negative curvature, it will make this sequence particularly awkward and have very bad flow for most players. |
 
-**((This should probably go higher up. Also, expand.))**
+:::tip TIP
+Following momentum by continuing rotating in the same direction after a rotation creates better flow.
+:::
 
-Inverts are notes that are placed in a location which forces the player to swing considerably more than if they were
-located in a more traditional position. They add emphasis to the map and require proper setup to play comfortably.
+Another aspect that significantly affects rotational momentum is relative [positioning](#hand-repositioning) of notes. This is mostly realized through the effect of
+*arm circles*. While this effect is more relative and depends on other factors, as a general rule, a circling motion in a direction will help generate rotational
+momentum in the same direction.
 
-Be aware that inverts can be quite hard to read especially in rapid succession or at higher speeds.
+<!-- prettier-ignore -->
+| Momentum and arm circles |
+| :-: |
+| ![Momentum in arm circles](/.assets/images/mapping/momentum-circle.png) |
+| The counter-clockwise arm circle will generate some rotational momentum that makes the rotation on the third swing more natural. |
 
-**Example placements**  
-![Invert Example](/.assets/images/mapping/invert-example-placements.png)
+:::tip TIP
+Use arm circles to help generate rotational momentum.
+:::
 
-## Note Alignment for MMA2
+In a more general sense, more inverted and horizontally displaced patterns generate more rotational momentum than linear patterns.
 
-**((Yeet))**
+<!-- prettier-ignore -->
+| Exploiting positioning to build momentum | |
+| :-: | :-: | 
+| ![Mediocre momentum](/.assets/images/mapping/momentum-meh.png) | While this sequence follows momentum, it does not build a lot of it due to the linearity of the second swing. |
+| ![Good momentum](/.assets/images/mapping/momentum-nice.png) | Making the second swing an inversion and horizontally displaced generates a circling motion that greatly helps the rotation on the last swing. |
 
-It is not apparent in MMA2 but this is how some notes align in game.
+Of course, if we just followed momentum forever, we would endlessly rotate in the same direction and never look back. Do not do this.
 
-![MMA2 Alignment Example](/.assets/images/mapping/mma2-alignment-examples.jpg)
+<!-- prettier-ignore -->
+| Endless momentum |
+| :-: |
+| ![Endless momentum](/.assets/images/mapping/momentum-lol.png) |
+| Technically, this pattern follows momentum. However, it is obviously unplayable without resetting for essentially everybody. |
 
-## Single Saber/Handedness Switches
+The issue here is clear: the more we rotate, the more difficult it is to continue rotating. This is due to *tension*.  While momentum depends mostly only
+on the angle transition and relative position of the notes, tension relates to the *absolute rotation* of each individual swing. That is, the further away
+(in rotation) that we are from the *neutral posture* (typically, up/down or slightly palm-in), the more tension there is to rotate back towards the neutral
+position.
 
-**((Replace with a section on handedness))**
+Tension will build up as we continue rotating, and fight against momentum, until we reach a limit, or *apex*, and begin rotating in the opposite direction (which we sometimes
+call *momentum reversal*). At that point, all the accumulated tension will work with the rotations, generating back momentum in the opposite direction. The point of the apex depends
+on how much momentum was built up, but is an aspect that mappers should be conscious of and that will relate to emphasis and consistency in the map.
 
-Alternating the hand leading a pattern can be highly effective at providing variety, interesting motions, or unique
-rhythms but have limitations.
+:::tip TIP
+The apex of rotations relates to the intensity, emphasis and consistency of the swings.
+:::
 
-Typically the player expects patterns to be in the sequence of:
-![Blue Down](/.assets/images/mapping/bnd.png) To > ![Red Down](/.assets/images/mapping/rnd.png) To > ![Blue Up](/.assets/images/mapping/bnu.png)
-To > ![Red Up](/.assets/images/mapping/rnu.png)
+<!-- prettier-ignore -->
+| Momentum apex |
+| :-: |
+| ![Momentum apex](/.assets/images/mapping/apex.png) |
+| In this very intense sequence, the apex hits are on quite extreme postures, where all momentum has transformed into a lot of postural tension that is then released on the opposite direction. |
 
-Deviating from this can allow for unique motions and crossovers without tangling, but risks being challenging to read or
-play at higher speeds. For example if done mid-pattern, it requires one hand to flick twice as fast. While this might not
-be an issue for slower patterns, faster ones with less visibility or more aggressive motions can be problematic.
+Readers familiar with physics might see a familiar pattern here. This is very similar to periodic systems where energy oscillates between two different
+forms of energy (typically, potential and kinetic energy). For example, a *pendulum* or a *spring*. Potential energy gets transformed into kinetic energy, accelerating
+the system, which then is used to accumulate potential energy on the other side, until an apex is reached, and a reversal happens.
 
+![Pendulum](https://upload.wikimedia.org/wikipedia/commons/5/57/PendulumMecanicalEnergy.gif)
 
-## High Speed Mapping
+The physics interpretation should be taken with a grain of salt, though. There are two main caveats to consider:
 
-Playstyle slowly changes as the map reaches extreme speeds (around 200+ BPM). For slower songs, it is easier to perform
-large arm swings and contort the whole body to hit more unusual patterns. While at high speeds, there is very little time
-to process what approaches and the game becomes a combination of instinct, precision, and stamina. Patterns and placement
-gets more and more limited, and visibility becomes of the essence.
+- Momentum is not only related to how the map plays. It can also be a great way to communicate intended motions, and thus significantly help readability.
+This effect can be as much or more noticeable than the effect on gameplay (specially on slower maps). [Momentum mapping](./advanced-mapping.md#momentum-mapping) heavily relies on this to
+create a sublanguage of mapping where extreme hits are a lot more predictable due to the rules of momentum.
+- There are many other factors in a Beat Saber map. Breaking momentum will generally reduce readability and produce awkward patterns, but this does not make them unplayable.
+The effect might be unperceivable, worth it for other reasons, or actually purposeful. It is good to be aware of how momentum and tension work, but
+like most other rules in mapping, you can choose to break them in clever ways to enhance your representation or gameplay and give your map identity.
 
-Hidden blocks will be virtually invisible at extreme speeds due to the short amount of time that blocks remain on screen.
-Inlines, 2-column streams, hitbox-abusing patterns, and large spacing one-handed jumps all become exponentially more
-problematic as speeds approach extreme speeds. Other, normally innocuous patterns also become challenging including
-double spam, complex streams, wide hits, and sliders.
+:::tip TIP
+Momentum and tension relate as much to readability as they do to physical gameplay.
+:::
 
-While mapping, it is recommended to slow down playback speed of the song to time notes to the song as accurately as possible.
+:::warning
+A good map can still break momentum. But it will do so purposefully and intelligently.
+:::
+
+You can find a systematic approach to momentum, tension, and many other topics on the page on [momentum mapping](./advanced-mapping.md#momentum-mapping).
+
+:::details Example
+Many mappers will follow momentum quite religiously in their maps. GalaxyMaster is considered in many ways the father of momentum mapping, and you can
+see the principles at work in maps like https://allpoland.github.io/ArcViewer/?id=362c5&t=31 .
+:::
+
+:::details Read more...
+- GalaxyMaster is considered in many ways the father of momentum mapping. He has published [a summary](https://docs.google.com/document/d/1qdRGk8QR48hx0ng05Z45tv-6KvMFPYxiAY8l441j3Mk/edit#heading=h.oqckjf2globh) of what he considers the main principles of momentum mapping.
+- Kansas' [incomplete glossary](https://docs.google.com/document/d/16hydw1Vob9uDK3VTpwXn9ov0o-kp_xgm9jpPduOwOJ4/edit?usp=sharing) is heavily focused on momentum and related concepts.
+:::
+
+### Pattern setup
+
+*Pattern setup* refers to the immediate preparation before a pattern that helps read it and play it better.
+It is an abstract concept and it relates to all the things we have talked about so far, but it is worth to consider conceptually by itself.
+
+Pattern setup can be achieved by things like:
+
+- Cleverly using [handedness](#handedness-and-hit-type) before the pattern to make it clear what the handedness of the pattern will be, for example through predictable handedness variations.
+- Using [handedness](#handedness-and-hit-type) before the pattern to enforce a certain [parity](#parity) on the pattern.
+- Carefully tailoring sequences of [rotations](#rotations) to achieve a particular angle or emphasis on the pattern.
+- Playing with [spacing](#spacing) to achieve a certain position or communicate certain emphasis.
+- Establishing a clear pattern of where [the hands should be](#hand-repositioning) that the player can understand and engage with.
+- Using [rotations](#rotations) and [positioning](#hand-repositioning) to aid [full body motion](#full-body-motion).
+- Using [bombs](#bombs) to better communicate motions and make them more natural.
+- Etc.
+
+One key idea to consider when thinking about pattern setup is that you can work **both forwards and backwards in time**.
+You can place later patterns in the map based on what setup the earlier patterns produced; or you can retroactively modify
+earlier patterns to ensure certain properties that you want for later patterns.
+
+:::tip TIP
+Pattern setup is often about adjusting earlier patterns to achieve a certain desired situation for a later pattern.
+:::
+
+### Jump settings
+
+*Jump settings* are the settings affecting the whole map that change how fast the objects move towards the player
+and how far they spawn from the player.
+
+While there are more parameters, they depend on each other, and there are only 3 degrees of freedom on a map's jump settings:
+**BPM**, **Note Jump Speed (NJS)** and **Reaction Time (RT)**.
+
+*BPM* is the tempo of the song. This should be set as part of your [audio setup](./basic-audio.md) and completely determined by the song itself,
+so while it varies between songs, it is not something you can adjust.
+
+*Note Jump Speed (NJS)* controls the speed at which objects approach the player. It is measured in meters per second. 
+It should be the first parameter you adjust after you do the audio setup, and if you readjust it later, you should also readjust other
+jump parameters.
+
+NJS affects playability in two different and contradicting ways, but one of said effects is normally much more noticeable than the other:
+
+- Higher NJS reduces the timing window to hit notes, making timing stricter. This can have cascading effects on gameplay, incentivizing more stiff play,
+making [hand repositioning](#hand-repositioning) harder and ultimately increasing the amount of misses the player will make. This effect might be hard
+for players to clearly identify while playing, but will dramatically change the feel of the map even with small adjustments to NJS, quickly making it unplayable.
+
+- When a map is very dense and/or complex, creating lots of [clutter](#clutter), slightly higher NJS settings can help readability by increasing the visual spacing between
+notes. This effect is small and will not compensate for heavily cluttered maps, which should be fixed in other, more relevant, ways; but it can be a useful tool when the map
+is inherently heavily populated and some extra help is required. Faster maps will also inherently impose more strict timing on the swings, so a small increase in NJS will
+not have as dramatic an effect on timing as it would on slower maps.
+
+Thus, the recommended approach to deciding NJS is to keep it *as low as possible, as long as the map is not too cluttered*.
+
+:::tip TIP
+Keep NJS as low as possible, and increase it only in small amounts when there is no better way to reduce clutter. 16 is a good starting point for Expert+.
+:::
+
+There is, however, such a thing as too low NJS, depending on the map's speed, which will make timing harder to read and incentivize early swinging.
+We normally start from a baseline and adjust from there. Here are some recommended NJS ranges:
+
+<!-- prettier-ignore -->
+| NJS range | When to use | Example |
+| :-: | :-: | :-: |
+| 0-8 | **Do not use**. Excessively low. Timing becomes difficult and notes will easily clump together. | |
+| 8-12 | **Very low NJS**. Adequate for Easy or Normal difficulty maps with very low note density. | https://allpoland.github.io/ArcViewer/?id=27e38&mode=Standard&difficulty=Easy |
+| 12-14 | **Low NJS**. Adequate for Normal or Hard difficulty maps, or Expert maps with low note density. | https://allpoland.github.io/ArcViewer/?id=2eda5&mode=Standard&difficulty=Hard |
+| 14-16 | **Mid-low NJS**. Most Hard and Expert maps will have NJS in this range. Some Expert+ maps with low note density and a floaty feel can also have this NJS. | https://allpoland.github.io/ArcViewer/?id=2ddb0&mode=Standard&difficulty=Expert |
+| 16 | **Standard Expert+ NJS**. This is normally the baseline NJS most people start from for Expert+ maps. An Expert+ map of standard note density should probably have this NJS. | https://allpoland.github.io/ArcViewer/?id=35136 |
+| 16-18 | **Mid-high NJS**. A lot of Expert+ maps will be in this range. The effect on timing is not very noticeable and it may help readability slightly. | https://allpoland.github.io/ArcViewer/?id=322e6 |
+| 18-20 | **High NJS**. The effect on timing begins to be noticeable, but most people can play it. Use for moderately cluttered maps. | https://allpoland.github.io/ArcViewer/?id=2cc29 |
+| 20-22 | **Very high NJS**. The effect on timing is very noticeable, changing the tension and stiffness of the player; as well as significantly increasing the difficulty of the map. However, for very fast and very complex maps, this NJS might be warranted. | https://allpoland.github.io/ArcViewer/?id=3628f |
+| 22-25 | **Extremely high NJS**. Arguably, no map should need to go this high, but for particularly extreme challenge or speed maps, some people might feel that this range is warranted. Timing is extremely tight and most players will have issues with it. | https://allpoland.github.io/ArcViewer/?id=2d64a |
+| 25+ | **Do not use**. There is essentially no good reason to use NJS above 25 for any map. NJS becomes one of the main difficulties in the map. |
+
+The third and last degree of freedom is *reaction time*, which is directly linked to *half jump duration*, *spawn offset* and *jump distance*. Feel free
+to skip the following explanation, as it is not very relevant for most mappers.
+
+:::details
+Technically, a map has its base half jump duration calculated through an algorithm, based on the BPM and NJS. Then, the spawn offset gets added to it,
+to produce the final half jump duration, measured in beats, which is the number of beats ahead of their song time that objects spawns.
+The jump distance is then a consequence of the final half jump duration and NJS, and is measured in meters, being double the distance from the player to the notes when they spawn.
+The *reaction time* is the amount of time, in milliseconds, ahead of an object's song time that it spawns. Basically, the amount of time a player has to see and process an object
+before it reaches them.
+
+For example, for a map with 120 BPM and an NJS of 16, the base half jump duration will be calculated to be 2 beats. If the map has an offset of -0.5, that makes the final
+half jump duration 1.5 beats. At 120 BPM, that is 750 ms of reaction time (1.5 beats at 120 BPM takes 750 ms). At 16 NJS, that is 24 jump distance
+(at 16 meters per second, in 750 ms an object moves 12 meters, and the double of 12 is 24).
+:::
+
+In practice, the recommended approach is to choose your preferred reaction time, and adjust the spawn offset to reach the desired reaction time.
+Some editors, like Chromapper, allow you to directly modify reaction time, and will automatically adjust spawn offset in accordance.
+
+:::tip TIP
+Generally it's simplest to focus on **reaction time**, and ignore jump distance, half jump duration and spawn offset; letting them be automatically calculated.
+:::
+
+Reaction time preferences vary quite a bit between players. A shorter reaction time will make a map feel faster, will often help players time their swings
+more accurately, and reduce the amount of clutter. However, it will also make a map feel more tense and players might struggle to process the objects and move
+in time. Many players use mods to adjust the reaction time of maps they play to their own taste. The reaction time of your map should be a reasonable reaction time
+for players that do not adjust it, based on the map's speed, the amount of clutter, and the physicality of the movements:
+
+- Faster maps encourage shorter reaction times, for the sensation of speed and to reduce clutter.
+- More dense maps encourage shorter reaction times, to reduce clutter.
+- Maps with larger and more physical movements encourage larger reaction times, to be able to process the required motion and perform it.
+
+Here are some general reaction time ballparks:
+
+<!-- prettier-ignore -->
+| RT range | When to use |
+| :-: | :-: |
+| 0-350 ms | **Do not use**. Very few players can comfortably play at this range, and those who do will use mods to adjust it. |
+| 350-425 ms | **Very short RT**. It is rarely justified to set this as the default reaction time of a map, since players who require it will use mods. However, for extremely fast and very cluttered maps, it can make sense. |
+| 425-500 ms | **Short RT**. This is below what most players will use, but it might be reasonable for very fast maps. |
+| 500-600 ms | **Standard Expert+ RT**. Most Expert+ maps will be in this range, with 500 ms being more adequate for fast maps and 600 ms for slow maps with large movements. |
+| 600-750 ms | **Long RT**. This can be used for Expert+ maps if they involve particularly large or hard to process movements, but many players might struggle with early swinging or being confused with the amount of clutter. |
+| 750-1200 ms | **Very long RT**. Reserved for very floaty maps, or lower difficulties with lower note density and lower NJS. Easy and Normal difficulties will normally be in this range. |
+| 1200+ ms | **Extremely long RT**. While there is nothing inherently wrong with extremely long reaction time, a lot of players will dislike it, and at this range, it will hardly make any positive difference. To be used mostly for aesthetic purposes, if at all. |
+
+:::tip TIP
+First, setup the map audio, including BPM. Then, choose an NJS setting. Finally, adjust the reaction time.
+If you modify the NJS, readjust the reaction time.
+:::
+
+### Vision
+
+*Vision blocks* happen when the objects block each other on the player's vision, preventing the player from properly seeing and reading the map.
+The [basic page on vision blocks](./basic-mapping.md#vision-blocks) contains the most important notions on avoiding vision blocks. Vision blocks
+constitute one of the most critical challenges to [readability](#readability), and they can be one of the most alienating aspects of a map for players.
+
+Vision can also constitute one of the biggest [constraints](#mapping-is-a-balancing-act) to mapping. Therefore, it can be very tempting to have worse vision for the sake of better
+[spacing](#spacing), [hand position](#hand-repositioning) or [momentum](#momentum-and-tension). However, this is discouraged. If something truly is a vision problem, fixing that should be a priority.
+Ideally, you want to find solutions that keep acceptable vision while having better properties in the other dimensions.
+
+:::danger DON'T
+Don't sacrifice vision for the sake of pattern setup. This alienates players and is harder to notice the effect of due to mapper blindness.
+Find solutions that are within acceptable vision ranges.
+:::
+
+But what truly constitutes a vision issue? This question is really difficult to answer accurately. Here are some general principles, though
+all of them have exceptions:
+
+- Vision blocks are almost always produced by face notes (notes in the middle two lanes) blocking notes in the same half of the play area.
+- Inline notes can also produce vision blocks (notes in the same grid position with short time distance between them).
+- Vision blocks depend on NJS.
+- When the note behind is very close in time to the one in front, it might be possible to see it on the side as it approaches, avoiding a vision block.
+- When there is enough time between the notes, the player might be able to see the note behind in time to process it after swinging through the previous one.
+- Vision blocks are subjective. Different players will have different experiences.
+- Vision blocks become a smaller issue with replays of the map.
+- Vision blocks can be much less problematic with better [pattern setup](#pattern-setup), specially when using good [momentum](#momentum-and-tension) and [context](#map-context).
+
+The best approach to vision blocks is **practical**. Try, evaluate, adjust. There are two main aspects to this:
+
+- Check the vision on any potentially problematic patterns while mapping. This can be done by checking ingame, or by using [ArcViewer](https://allpoland.github.io/ArcViewer/),
+a map preview tool that is geometrically accurate to the game's positions, sizes and spawning animations, making it a great tool to judge vision.
+- Get external testplays from other players or mappers. Preferably, sight reads where they are not familiar with the map, to be able to evaluate the raw effect of vision
+blocks.
+
+:::tip TIP
+The best approach to vision blocks is **practical**. Check ingame, use vision accurate previews and external testplays to determine the effect of potentially problematic vision blocks.
+:::
+
+### Map context
+
+Where [pattern setup](#pattern-setup) refers to the immediate preparation of the player before a pattern, *map context* refers to a more abstract
+notion of setting expectations within the map by establishing regular conceptual approaches and patterns that the player understands and interiorizes.
+
+Map context can mainly affect the [readability](#readability) of patterns, with the very same pattern turning from unreadable to obvious if it appears
+in different maps after different contextualizations. Context can also even affect other aspects of playability. For example, by having the player expect
+larger [rotations](#rotations), more [full body motion](#full-body-motion), being consistent about how much [hand repositioning](#hand-repositioning)
+the patterns require to avoid handclaps and arm tangles, or establishing whether [momentum](#momentum-and-tension) is respected and should be expected
+or not.
+
+It would be difficult to provide a full list of all aspects where map context is relevant, but we can point out some typical aspects where map context
+can greatly help make certain patterns playable, by establishing implicit rules that are followed throughout the map:
+
+- When making hard to follow [parity](#parity) (for example, by using palm-up swings, resets, or both), be consistent about it.
+- Establish the expected [intensity of rotations](#rotations) early on, and keep it consistent, with respect to the intensity of the music.
+- Use [spacing](#spacing) consistently to signpost specific patterns and make them stand out more, making them easier to read.
+- Keep a regular and clearly understandable policy for when the [hands should be repositioned](#hand-repositioning) horizontally that makes the map more comfortable to play.
+- Establish your [full body motion](#full-body-motion) patterns clearly from the beginning of the map.
+- When using [bombs](#bombs), be consistent about how you present bombs that are cosmetic, bombs that should hold postures, and
+bombs that should produce resets. That way, players will learn the pattern and read bombs much more easily.
+- Be consistent in the intensity of [apex rotations](#momentum-and-tension), with respect to the intensity of the music, so that players
+will find it easier to predict when to continue rotating and when to reverse momentum.
+
+Map context is particularly critical in "gimmick" maps, or maps that aim to break some conventional rule about mapping, so that the way in which the rule
+is broken is clear to the player.
+
+:::tip TIP
+If you want to use risky, unconventional, or extreme patterns, it is very advisable to introduce them early on in the map in clear ways.
+:::
+
+:::details Example
+https://allpoland.github.io/ArcViewer/?id=35b26 uses very unconventional flow, with lots of palm-out hits, some of which are also inverted.
+However, it establishes a clear pattern of swaying and leaning in a sort of conflicting way very early and keeps it going through the whole map,
+with consistency on how the swings transition and both their parity and angles. This allows the player to engage with this style of movement
+early on and have a much better time playing the map.
+:::
+
+:::details Read more...
+GalaxyMaster has published [some thoughts](https://docs.google.com/document/d/1qdRGk8QR48hx0ng05Z45tv-6KvMFPYxiAY8l441j3Mk/edit#heading=h.xgmqt8pm7xku) on pattern setup versus map context.
+:::
+
+### 90/360 mode
+
+Unfortunately, the current writer of this page (Undeceiver) does not have enough experience in these modes to feel comfortable giving advice on them.
+
+[This guide](https://docs.google.com/document/d/1U2nhsYyzTPW2zl4sXIHi2gKnTdB9Gcdlf-Fag40Ap9g/edit?usp=sharing) written by EmotionalFlight should be useful for people
+looking to learn to map 90/360 maps.
+
 
 ## Credits
 
