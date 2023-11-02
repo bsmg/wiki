@@ -62,6 +62,7 @@ const sidebar = (...items: SidebarItem[]): DefaultTheme.SidebarMulti => {
 export default defineConfig({
   title: 'BSMG Wiki',
   description: 'BSMG Wiki',
+  base: '/BSMGwiki/',
   lastUpdated: true,
 
   head: [['link', { rel: 'icon', href: '/icon.png' }]],
@@ -315,7 +316,7 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://bsmg.wiki/',
+    hostname: 'https://undeceiver.github.io/BSMGwiki/',
   },
 
   markdown: {
