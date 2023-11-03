@@ -7,29 +7,30 @@ description: A more in-depth look at many mapping topics to take your maps to th
 # Intermediate Mapping
 
 The [Basic Mapping](./basic-mapping.md) page is useful for learning what not to do as a new mapper. Once you have a bit of
-experience it's time to take your understanding of mapping principles to the next level. Ultimately, the best way to learn
-to map is to simply keep at it.
+experience, it's time to take your understanding of mapping principles to the next level. Ultimately, the best way to learn to map is to simply keep at it.
 
 **Try. Adjust. Listen. Repeat.**
 
 In this page you will find a summary of most topics that mappers usually think about.
-Some of those topics also have an advanced page. This page is long. Don't try to read it all in one sitting.
+Some of these topics also have an advanced page.
+
+This page is long. Don't try to read it all in one sitting.
 Skim through it at your own pace, or consult specific topics directly.
 
 ## What makes a good Beat Saber map?
 
-There are so many aspects that matter to this question, but generally speaking,
+There are many aspects that matter to this question, but generally speaking,
 we can classify all or most of these into two main categories:
 
-- [**Gameplay**](#gameplay) - Does the map play well? Is it comfortable, fun, and has an appropriate difficulty?
-  Topics about the way the map feels to play, more or less independently of the music.
+- [**Gameplay**](#gameplay) - Does the map play well? Is it comfortable, fun, and an appropriate difficulty?
+  Topics about the way the map feels to play, more or less independent of the music.
 - [**Representation**](#representation) - Does the map represent the song's rhythm, mood, and feel?
   Topics about the relation between the music and the map.
 
 A good map will do well in both of these aspects, and will make them work together.
 
-Arguably, there is a third, much more subjective, aspect, that relates to the two above and that
-differentiates competent maps from great maps:
+Arguably, there is a third, much more subjective aspect that relates to the two above, and
+separates _good_ maps from _great_ maps:
 
 - [**Identity**](#identity) - Is the map memorable? Does it leave an impression on the player?
   Does it offer something that other maps do not?
@@ -41,18 +42,17 @@ on this question.
 
 ### Target audience: Accounting for playstyle and taste
 
-It is hard to quantify what _good_, _comfortable_, _fun_, _appropriate_, and _memorable_ mean. All of these are
+It's hard to quantify what _good_, _comfortable_, _fun_, _appropriate_, and _memorable_ mean. All of these are
 highly subjective and will vary wildly between players. There is no map that everybody will love or that nobody will dislike.
-Fast, slow, move a lot, optimize scoring, difficult, easy, complicated patterns, simple. Many different tastes
-and many different ways to play. Mapping is level design. Design is both an art and a science.
+There are many different tastes and many ways to play: fast or slow, move a lot or optimize scoring, difficult or easy, complicated or simple patterns. Mapping is level design - both an art and a science.
 There is no "best" answer, but there are many "wrong" answers.
 
-Keep in mind your _target audience_: the players that you want to make the map for.
+Keep in mind your _target audience_: the players who you want to make the map for.
 While keeping the target audience large can be good, mappers will often constrain their audience to make the map better
-for those in it by prioritizing their core ideas.
+for those within it and prioritize their core ideas.
 
-Most concepts in this page are relevant to most playstyles and tastes, but what is good and bad in each case
-and how much priority you give to them will vary.
+Most concepts in this page are relevant to most playstyles and tastes, but which ones are good or bad
+and how much priority you give them will vary.
 
 ::: tip TIP
 There is no map that everybody will love. Identify and focus on your target audience.
@@ -76,7 +76,7 @@ Better representation might require less comfortable gameplay, or making your id
 In order to make vision work you may have to use suboptimal positioning,
 or you may have less consistent emphasis to achieve better body motion.
 
-You should attempt to find solutions that offer the best of all worlds, but accept that you will not always find them.
+You should attempt to find solutions that offer the best of all worlds, but accept that you won't always find them.
 
 ::: tip TIP
 Aim for the best you can in all aspects, but accept imperfection when you must.
@@ -89,16 +89,16 @@ There are kicks on beats 8, 11, 16, 19, 24, 27, 32, 35 and finally 40.
 All of them are mapped as doubles with scissor parity, **except** 40, which is mapped as a stack.
 
 This is because this last one comes after a slightly fast section, and mapping 40 as a double as well would have
-created a _gallop_ pattern which would have been a bit uncomfortable to play. Moreover, the mapper was interested
+created a _gallop_ pattern which would have been a bit uncomfortable to play, and the mapper was interested
 in a particular parity on the right hand for the representation and gameplay of the following patterns.
 
 Thus, the mapper decided to be a little loose on representation,
 mapping it as a stack instead of a double on this occasion.
 :::
 
-On the flip side, sometimes there are improvements that you can do at almost no cost in other aspects,
-even if it is not part of your original vision. Whenever you are faced with a small choice between your vision
-and an objective improvement, it is almost universally better to go with the latter.
+On the flip side, sometimes there are improvements that you can do at almost no cost to other aspects,
+even if it's not part of your original vision. Whenever you're faced with a small choice between your vision
+and an objective improvement, it's almost always better to go with the latter.
 
 ::: tip TIP
 Rather than asking yourself "do I really need to change it?", try asking "do I really need to keep it?".
@@ -106,46 +106,45 @@ Rather than asking yourself "do I really need to change it?", try asking "do I r
 
 ## Gameplay
 
-When we talk about _gameplay_, we talk about how the map plays.
-Gameplay can largely be understood independently of the music it represents, although in
-practice, good representation will also make a map more natural to play.
+When we talk about _gameplay_, we talk about how the map plays,
+and can be mostly understood independently from the music it represents. However, in
+practice, strong representation can also make a map feel better to play.
 
-There are dozens of dimensions that can describe how a map plays, even at the most abstract level.
+There are dozens of aspects that can describe how a map plays, even at the simplest level.
 We normally include at least the following:
 
 - Is the map [_physically comfortable_](#flow)? Maps can be uncomfortable on purpose,
   but it should be a conscious and calculated choice, not a consequence of sloppy mapping.
 - How [_fast_](#speed) does the player need to move?
 - Is the map [_readable_](#readability)?
-  Are players able to understand the movements they are expected to do when playing the map?
+  Are players able to understand the movements they are expected to do without memorizing the map?
 - How [_difficult_](#difficulty) is the map?
 - Is it possible/easy to [_score well_](#scoring) on the map? Many maps don't worry much about scoring,
   but for some target audiences, this might matter.
 
-Awareness of how the choices you make when mapping affect these dimensions can be critical to making maps
-that play exactly the way you want them to play.
-Unlike topics relating to Representation, topics relating to Gameplay are usually more objective and can be
-described and predicted in more technical ways,
-even though there is still plenty of subjectivity involved.
+Awareness of how your mapping choices affect these aspects can be critical to making your map play exactly the way you want.
+Unlike Representation, topics relating to Gameplay are usually more objective and can be
+described in more technical ways,
+even though there is still subjectivity involved.
 
 ### Flow
 
-_Flow_ may easily be the hardest to define, but still widely used, term in Beat Saber mapping jargon.
-A minimal definition would describe it as the way in which the movements
-produced by the map's notes, bombs, and walls transition into each other over time.
+_Flow_ is one of the hardest to define - but still widely used - terms in Beat Saber mapping jargon.
+A general definition is the way in which the movements
+implied by the map's notes, bombs, and walls transition into and between each other over time.
 
-Normally, we say that a map "flows well" to mean that it is comfortable and natural to play,
-that the movements are intuitive and physically pleasant.
+Usually, we say that a map "flows well" when it's comfortable and natural to play,
+and the movements are intuitive and physically pleasant.
 
-However, there is no written rule that a map must "flow well" to be a better map. Sometimes,
-more or less uncomfortable flow can be used as a tool for emphasis and representation,
+However, there's no written rule that a map must "flow well" to be a better map. Sometimes,
+less comfortable flow can be used as a tool for emphasis and representation,
 or simply as a means to increase the difficulty of the map.
 
-Pretty much every aspect of a map affects flow, so providing a list or summary here would not make it justice.
+Nearly every aspect of a map affects flow, so providing a list or summary here would not make it justice.
 Instead, in the more [technical sections](#technical-aspects-of-a-map) below we consistently refer to flow.
 
 :::tip TIP
-To understand flow, think about the relation between subsequent notes, not about individual patterns.
+To understand flow, think about the relation between sequences of notes, not about individual patterns.
 :::
 
 :::details Read more...
@@ -155,26 +154,24 @@ of some of the terminology often used when discussing flow.
 
 ### Speed
 
-When talking about map _speed_, we usually refer to the speed at which the player must [swing](#swing-speed) the notes.
+When talking about map _speed_, we usually refer to the speed that the player must [swing](#swing-speed) to hit the notes.
 
-However, there are other aspects to speed, such as the speed of [full body movement](#full-body-motion) or
-the _sensation of speed_ that the specific patterns produce.
+Speed is one of the most easily quantifiable measures of a map in terms of difficulty,
+its relation to the rhythm choice, and in terms of how intense it feels to play it.
+It's not fully determined by rhythm choice, though; it also depends on
+how the sounds are mapped between the two hands.
 
-Speed is one of the most easily quantifiable measures of a map. Both in terms of difficulty,
-in terms of its relation to the rhythm choice and in terms of how intense it feels to play it.
-Therefore, a mapper should always be aware of the speed of their map.
-
-However, speed is not fully determined by rhythm choice, as it also depends on the choice of
-how the sounds are mapped to the two hands and/or to full body movement.
-
-Playstyle changes with map speed. For slower songs, it is easier to perform large [arm swings](#hand-repositioning),
-[curved swings](#rotations), [hand repositioning](#hand-repositioning), and contort the [whole body](#full-body-motion)
-to hit more unusual patterns. At high speeds, there is very little time to process and adapt to what approaches,
-mentally and physically. Thus, fast maps and patterns tend to be considerably more _linear_.
-
-The section on [swing speed](#swing-speed) contains more technical concepts that are usually used to discuss a map's speed.
+There are other aspects to speed as well, such as the speed of [full body movement](#full-body-motion) or
+the _sensation of speed_ that certain patterns produce.
 
 The feeling of speed can also be affected by a map's [jump settings](#jump-settings).
+
+Playstyle changes with map speed. For slower songs, it's easier to perform large [arm swings](#hand-repositioning),
+[curved swings](#rotations), [hand repositioning](#hand-repositioning), and contort the [whole body](#full-body-motion)
+to hit more unusual patterns. At high speeds, there is less time to process and adapt to the next hit,
+mentally and physically. Thus, fast maps and patterns tend to be made more _linear_.
+
+The section on [swing speed](#swing-speed) contains more technical concepts that are usually used to discuss a map's speed.
 
 :::tip TIP
 A good mapper is always aware of how fast their map is.
@@ -189,94 +186,96 @@ any remaining tension from the drop. Using jumps as a representation choice allo
 
 ### Readability
 
-A Beat Saber map is a message with a limited vocabulary between the mapper, trying to communicate a motion, to the player,
-trying to perform it. _Readability_ refers to how well a map communicates its intended motions to the players.
+A Beat Saber map is a message with limited vocabulary between the mapper - trying to communicate a motion - and the player - trying to perform it. _Readability_ refers to how well a map communicates its intended movement to players.
 
-Since readability is about communication, it depends on the receiver (the player) almost as much as it does
-on the sender (the mapper, via the map). Moreover, it relies on the mapper and the player speaking a common language.
-To make matters worse, players have limited time and processing ability to read what the map is trying to convey while playing,
-specially when _sight reading_ the map (playing it for the first time).
+Since readability is about communication, it depends on the receiver (the player) almost as much as the sender (the mapper). It relies on the mapper and the player speaking a common language.
 
-Thus, it is not enough that a map _can_ be played well, it must also do a good job of communicating
-its intended motions to the player. Most players will play a map once ever, or once every few weeks or months.
-Expecting players to know the types of movements that the map requires without communicating
-them adequately leads to disappointment. By the same token, target audience is particularly relevant
-when considering readability, as it will condition the particular dialects of Beat Saber maps that players understand.
+To make matters worse, players have limited time and ability to read and process the map while playing,
+especially when _sight reading_ (playing the map for the first time).
 
-A perfect example of perfectly playable but difficult to read, and usually problematic,
-patterns are implicit [parity](#parity) resets, and particularly triangles.
+Thus, it's not enough that a map _can_ be played well, it also needs to do a good job of showing
+the intended movement to the player. Most players will play a map once ever,
+or once every few weeks or months, so expecting them to know the types of movements that the map
+requires without making them adequately readable leads to disappointment.
+
+By the same token, target audience is particularly relevant when considering readability, as it will determine the particular dialects of Beat Saber maps that players understand.
+
+An example of perfectly playable, but difficult to read, and usually problematic,
+patterns are implicit [parity](#parity) resets, particularly triangles.
 ![Triangle](/.assets/images/mapping/triangle-alt.png)
 
-The pattern is notably ambiguous as it requires a reset motion at some point but it is unclear to the player
-at which point would it be best to do so.
+This pattern is ambiguous as it requires a reset motion at some point, but it's unclear to the player
+when would it be best to do so.
 
-Note that, like flow, a map can be hard to read on purpose. This is a risky choice but it may work to provide identity,
-help representation or simply provide a more memorable experience.
+Note that, like flow, a map can be hard to read on purpose. This is a risky choice but it may work to provide identity, help representation or provide a more memorable experience.
 
 :::tip TIP
-The best way to evaluate a map's readability is to get fresh testplays from players that have not seen the map before.
+The best way to evaluate a map's readability is to get fresh testplays from players who have not seen the map before.
 :::
 
 #### Mapper blindness
 
-A condition that most mappers, specially novice mappers, will experience, is called _mapper blindness_, where a mapper
-will often struggle to identify readability issues in their map because they already know
-what the intended motion is when they testplay it. While mapper blindness can be reduced with good understanding
+A condition that most mappers, especially novices, experience, is called _mapper blindness_: where a mapper
+will struggle to identify readability issues in their map because they already know
+the intended motion when they testplay it.
+
+While mapper blindness can be reduced with good understanding
 of best mapping practices, nothing replaces having other players and mappers testplay your map
-and analyzing their reactions to the patterns the first time they see them.
+and analyzing their reactions to patterns the first time they see them.
 
 :::warning WARNING
 Just because a map _can_ be played well it does not make it readable. Maps need to communicate their motions properly.
 :::
 
-#### Suggested / intended motions
+#### Suggested / implied motions
 
-For some sequences of patterns, extra motion is suggested to make the pattern play comfortably.
+In some cases, extra motion is suggested to make the pattern play comfortably.
 An example is a scoop:  
 ![Scoop](/.assets/images/mapping/scoop.png)  
 In order to hit the up note following the side note, the [arm](#hand-repositioning) must take
-a longer scooping path to be in position.
+a longer scooping path to get into position.
 
-_Suggested or intended motion_ is risky because players will read and react to patterns differently. One
-player may hit a scoop as intended, but another player may recoil and flinch given the pattern and have a negative
+_Suggested or implied motion_ is risky because players will read and react to patterns differently. One
+player may hit a scoop as intended, but another may recoil or flinch and have a negative
 experience. This problem can never be entirely avoided when using suggested motion, but clever use of [bombs](#bombs),
-[walls](#full-body-motion), [momentum](#momentum-and-tension), and managing the player's [expectations](#map-context)
-can help to communicate the intended motion.
+[walls](#full-body-motion), and [momentum](#momentum-and-tension), and managing the player's [expectations](#map-context)
+can all help with communication.
 
-The scoop pattern above might play well in a map that goes into the pattern in a way that encourages big movement
-or a map that trains the player to expect these kinds of movements, but be completely unexpected in a different map.
+The scoop pattern above might play well in a map that regularly encourages big movements and trains the player to expect this kind of motion, but could be completely unexpected in a different map.
 
 #### Clutter
 
 An important challenge to readability is _clutter_, caused by an overload of information on the player.
 Clutter is more likely to happen when a map is faster, as it will have more notes approaching the player
-at a given moment. Good [positioning](#spacing) to space out the notes over the player's view and clearly emphasize
-the most important ones, adequately managing [vision blocks](#vision), and optimizing [jump settings](#jump-settings)
-are the main ways to reduce clutter, though sometimes it can be very difficult to avoid.
+at any given moment.
+
+Good [positioning](#spacing) to space out the notes over the player's view, clearly emphasizing
+the most important hits, adequately managing [vision blocks](#vision), and optimizing [jump settings](#jump-settings)
+are the main ways to reduce clutter, although it can sometimes be very difficult to avoid.
 
 ### Difficulty
 
-_Difficulty_ is ultimately a combination of other aspects, but it can be useful to identify it independently.
+_Difficulty_ is ultimately a combination of other aspects, but it can be useful to identify independently.
 
-Readability, flow, and speed are arguably the main factors conditioning a map's difficulty.
-Difficulty should normally be a consequence of other aspects of the map, but be accounted for.
-We say that a map has _artificial difficulty_ if it introduces elements that make it more difficult
+Readability, flow, and speed are the main factors conditioning a map's difficulty.
+Difficulty should normally be a consequence of other aspects of the map, and be accounted for.
+
+We say that a map has _artificial difficulty_ if it includes elements that make it more difficult
 without enhancing any other aspect of the map (i.e. it does not play better or represent the music better).
-You should normally avoid artificial difficulty. Instead, consider whether your map can represent more,
-or whether you can up the intensity of the gameplay.
+You should normally avoid artificial difficulty. Instead, consider whether your map can represent more of
+the song, or whether you can up the intensity of the gameplay.
 
 :::danger DON'T
-Avoid artificial difficulty. If your map feels too simple you can up the intensity and/or increase representation.
+Don't artificially increase difficulty. If your map feels too simple you can up the intensity of movements and/or represent more parts of the music, but ensure these changes add value.
 :::
 
 Difficulty is very important to consider with respect to your target audience. If your audience finds the map
-too hard they will not be able to play it. While a map can be too easy, this normally is a side effect of
-reduced representation or simplified gameplay.
+too hard they will not be able to play it. Although some players might find a map to be too easy, this is
+normally a side effect of under-representation or overly simplified gameplay, and not because of raw difficulty.
 
-Similarly, adding multiple difficulties to your map can be a great way to expand your target audience
-without watering down your map.
-_Downmapping_ is the process of taking your initial difficulty, and then breaking it down to be appropriate for other
-skill levels. Most mappers start with Expert+ and downmap from there. Check out the
+Adding multiple difficulties to your mapset can be a great way to expand your target audience
+without watering down your main vision.
+_Downmapping_ is the process of taking your top difficulty, and then breaking it down to be appropriate for lower skill levels. Most mappers start with Expert+ and downmap from there. Check out the
 [Downmapping](./downmapping.md) page for a deep dive into this process.
 
 :::tip TIP
@@ -290,29 +289,29 @@ on map difficulty, mostly from a competitive/ranking perspective.
 
 ### Scoring
 
-Due to the particular mechanics of Beat Saber and the predominant and natural playstyles of players,
+Due to the mechanics of Beat Saber and the predominant playstyles of players,
 certain patterns and maps are easier to achieve a higher score on than others.
-Scoring concerns typically become more relevant when players are close to
-achieving a full combo of the map or close to it.
+Scoring concerns typically become more relevant when the target audience regularly
+achieves a full combo on the map, or is close to it.
 
 At these levels, scorability of a map (often called _accability_) relates to how easy / possible
 it is to get high _accuracy_ on the notes. That is, how easy / possible it is to hit the notes in the center.
 
-Generally speaking, most maps do not need to worry about how accable they are, unless it is relevant to your target audience.
-These maps are sometimes called _Accuracy_ maps.
+Generally, most maps don't need to worry about how accable they are, unless it's relevant to your target audience.
+Maps that focus on improving accability are called _Accuracy_ maps.
 
 The easiest ways to increase accability include making swings more linear and ensuring the cut direction
 of notes goes from the centre outwards.
 
 ## Representation
 
-_Representation_ refers to the correspondence between the map and the song. Representation happens at multiple levels:
+_Representation_ refers to the relationship between the map and the song. Representation happens at multiple levels:
 
-- How do the individual notes represent individual sounds.
-- How do the transitions between notes represent the progression of the music.
-- How does the general structure of the map relate to the structure of the song.
+- How do the individual notes represent individual sounds?
+- How do the transitions between notes represent the progression of the music?
+- How does the overall structure of the map relate to the structure of the song?
 
-There is no singular recipe to do good representation, but there are a few core concepts that most mappers consider.
+There is no one recipe to good representation, but there are a few core concepts that most mappers consider.
 
 :::details Read more...
 GalaxyMaster has published [his perspective](https://docs.google.com/document/d/19YrYY4dl_dKfk--7bMpWNqKW2bZx93kvzegP6h7XN8M/edit?usp=sharing)
@@ -321,21 +320,21 @@ on Representation, covering most topics included in this section.
 
 ### Rhythm choice
 
-_Rhythm choice_ is the choice of which sounds and instruments to represent in the map (or a part of it).
+_Rhythm choice_ is deciding which sounds and instruments to represent.
 
 This is one of the most important decisions to make. It should be well justified and will condition
 most other aspects of the map.
 Here are some principles to consider when deciding rhythm choice:
 
 - What are the most prominent or central sounds that you hear in the song?
-- Rhythm choice does not need to be the same for the whole map, but it should not change abruptly.
-- Does your rhythm choice allow you to produce a map of the adequate intensity for the feel of the song?
+- Rhythm choice doesn't need to be the same for the whole map, but it shouldn't change abruptly.
+- Does your rhythm choice allow you to produce a map of adequate intensity for the feel of the song?
 
-As a result, rhythm choice usually corresponds to either a single instrument (vocals are another instrument)
+As a result, rhythm choice usually corresponds to either a single instrument (vocals are an instrument)
 or a few of them working together, though other options are also valid, for example:
 
 - Focus on some instruments, and fall back to the others when they are silent.
-- Focus on some instruments, and occasionally map some important sounds of the others.
+- Focus on some instruments, and occasionally map some important from of the others.
 
 Rhythm choice can also be used to _enhance_ the experience of the music. It may be used to highlight
 elements of the music that would normally go unnoticed but which are relevant.
@@ -362,8 +361,8 @@ of rhythm choice, by GalaxyMaster.
 
 _Emphasis_ is matching the relative intensity of different sounds and/or song sections with the mapping that represents them.
 
-While big towers, windows, doubles, fast jumps, and fast streams are fun, consider whether the patterns being mapped
-reflect the intensity level of the music.
+While big towers, windows, doubles, fast jumps, and fast streams are fun, consider whether the patterns
+reflect the intensity of the music.
 
 - Within a section, the most prominent sounds should be emphasized more, and the less prominent less emphasized.
   Emphasis can be done in a variety of ways, such as:
@@ -371,16 +370,16 @@ reflect the intensity level of the music.
   - [Spacing](#spacing) notes further apart to induce bigger swings.
   - Producing larger [rotations](#rotations) between note angles.
   - Mapping faster rhythms to induce [faster swinging](#swing-speed).
-  - Not mapping less significant sounds or segments so the more important sounds or segments stand out more.
+  - Not mapping less significant sounds so the more important sounds stand out more.
   - Using walls to induce [body motion](#full-body-motion).
   - Using [bombs](#bombs) to generate tension or secondary movements.
-- The intensity of the mapping in each section relative to other sections should be somewhat in line with the intensity
+- The intensity of the mapping in each section, relative to other sections, should be somewhat in line with the intensity
   of the music.
-- Deviation from the intensity of the music is fine as long as sections are not excessively elevated or lowered relative
-  to the intensity of the rest of the song.
+- Deviation from the intensity of the music is fine, so long as sections are not excessively more or less intense relative
+  to the rest of the map.
 
 ::: tip TIP
-Emphasis is about relative intensity. If everything is emphasized, nothing is emphasized.
+Emphasis is relative. If everything is emphasized, nothing is emphasized.
 :::
 
 :::details Example
@@ -394,21 +393,22 @@ relative intensity of the notes within each section and the sections between the
 
 _Consistency_ is using the same or similar map elements to represent the same or similar song elements.
 
-Consistency contrasts with _variation_, which is also a desirable quality to a certain degree.
+Consistency contrasts with _variation_, which is also desirable to a certain degree.
 Mapping every instance of the same sound exactly the same is not enough variation,
 but mapping each instance of the same sound as completely different things is not enough consistency.
-Consistency is about similarity and familiarity, not about exact correspondence. Variation is about nuanced representation
-and keeping things fresh, not about arbitrary changes.
 
-Consistency comes into play in two places, within a section and when comparing separate sections of a song.
+Consistency is about similarity and familiarity, not exact repetition. Variation is about nuanced
+representation and keeping things fresh, not arbitrary changes.
+
+Consistency comes into play in two places: within a section and when comparing separate sections of a song.
 
 - Within a section, rhythm choice should generally stay consistent as it allows players to establish
   that rhythm and follow it.
 - Within a section, consistency in patterns is desirable as well, but some variety within the bounds of
   the established patterns and rhythms is appreciated.
 - Similar sections of the song usually benefit from having similar mapping.
-- Contrasting sections of the song will need to have contrasting mapping.
-- Representing small variations in the music over different sections through small variations in the mapping
+- Contrasting sections of the song benefit from contrasting mapping.
+- Representing small variations in the music through small variations in the mapping
   while preserving consistency is ideal.
 
 ::: tip TIP
@@ -430,17 +430,17 @@ providing great variety while preserving familiarity and consistency.
 Music has a high-level _structure_. A song is normally divided in _sections_, which have different intensities
 and fulfill different roles within it.
 
-Even without a music theory background, you can normally identify the different parts of a song,
+Even without a music theory background, with practice you can identify the different parts of a song,
 how they are made of smaller parts and how they relate to each other. This is a great tool for representation,
-as it gives you a scaffholding under which to understand and examine the music and plan your map.
+as it gives you an outline for examining the music and planning your map.
 
 These are some of the typical sections present in songs:
 
 - The _introduction_ introduces the listener/player to the vibe and basic rules of the song/map.
-- The _verses_ usually work at an intermediate intensity, developing the ideas of the song/map.
+- The _verses_ usually work at an intermediate intensity, applying the ideas of the song/map.
 - In some genres, some verses (sometimes called _build-up_) work to increase the intensity of the music/map
   in preparation for the main part of the song/map.
-- The _chorus_ (in some genres replaced by a _drop_) is the main part of the song/map and usually has more intensity.
+- The _chorus_ (in some genres replaced by a _drop_) is the "heart" of the song/map and usually has the most intensity.
 - The _bridge_ is normally an intermediate intensity section that changes the tone of the song/map and resets our expectations.
   Sometimes introducing new elements of the
   song/map not present before.
@@ -448,7 +448,7 @@ These are some of the typical sections present in songs:
 
 :::tip TIP
 When you begin a map, spend some time understanding what sections the song has and how they relate to each other.
-This will inform your mapping.
+This will help you make better use of consistency and variation.
 :::
 
 ## Identity
@@ -456,16 +456,15 @@ This will inform your mapping.
 _Identity_ refers to a map being memorable, leaving a mark in the player, encouraging players to replay it
 and differentiating itself from other maps.
 
-This can be achieved through good representation and gameplay. However, it may be argued that there are additional,
-subtle details that help a map generate identity. Highly specific and well executed representation choices,
+This can be achieved through good representation and gameplay. However, there are additional,
+subtle details that may help a map generate identity. Highly specific and well executed representation choices,
 encouraging unusual playstyles, perfectly executing a very specific gameplay idea, memorable visuals, etc.
 
-Sometimes, it is precisely the ways in which maps cleverly break standard rules of mapping that produces
-the most memorable maps. In order to do this, good understanding of these rules and how they can be broken
-without producing unplayable maps is necessary.
+Sometimes, it's precisely the ways in which maps cleverly break standard rules of mapping that they become memorable. Good understanding of these rules and how they can be broken
+without making the map unplayable is key to pulling this off.
 
-There is not much science to describe identity, as it is on the far artistic side of mapping,
-but it should be noted that it will often matter. The most popular and renowned maps will often be those
+There is not much science to describe identity, as it's on the far artistic side of mapping,
+but it should be noted that it does often matter. The most popular and renowned maps tend to be those
 that have great identity on top of competent representation and gameplay.
 
 :::details Examples
