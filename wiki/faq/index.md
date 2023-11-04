@@ -11,11 +11,11 @@ Check out our [beginner's guide](/beginners-guide.md)!
 
 ## What versions of the game can be modded?
 
-On the PC, the latest version that can be modded is 1.31.1. Downgrading instructions are located (here.)[https://bsmg.wiki/pc-modding.html#downgrading]
+The latest moddable Beat Saber version for PC is `1.31.1`. You can also downgrade to `1.29.1` if you prefer.
 
-On the Quest, the latest version that can be modded is 1.28.0. Downgrading instructions are located (here.)[https://bsmg.wiki/quest-modding.html#downgrading]
+The latest moddable Beat Saber version for Quest is `1.28.0`.
 
-Beat saber changelogs can be found on the [BSMG Discord Server](https://discord.gg/beatsabermods). Please refer to respective downgrading guides on instructions to downgrade versions.
+For more information on modding and/or downgrading visit the respective [modding guide.](/beginners-guide.md)
 
 ## How do I get more songs?
 
