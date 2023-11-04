@@ -7,7 +7,8 @@ description: A more in-depth look at many mapping topics to take your maps to th
 # Intermediate Mapping
 
 The [Basic Mapping](./basic-mapping.md) page is useful for learning what not to do as a new mapper. Once you have a bit of
-experience, it's time to take your understanding of mapping principles to the next level. Ultimately, the best way to learn to map is to simply keep at it.
+experience, it's time to take your understanding of mapping principles to the next level. Ultimately, the best way to learn
+to map is to simply keep at it.
 
 **Try. Adjust. Listen. Repeat.**
 
@@ -22,7 +23,7 @@ Skim through it at your own pace, or consult specific topics directly.
 There are many aspects that matter to this question, but generally speaking,
 we can classify all or most of these into two main categories:
 
-- [**Gameplay**](#gameplay) - Does the map play well? Is it comfortable, fun, and an appropriate difficulty?
+- [**Gameplay**](#gameplay) - Does the map play well? Is it comfortable, fun, and of appropriate difficulty?
   Topics about the way the map feels to play, more or less independent of the music.
 - [**Representation**](#representation) - Does the map represent the song's rhythm, mood, and feel?
   Topics about the relation between the music and the map.
@@ -44,7 +45,8 @@ on this question.
 
 It's hard to quantify what _good_, _comfortable_, _fun_, _appropriate_, and _memorable_ mean. All of these are
 highly subjective and will vary wildly between players. There is no map that everybody will love or that nobody will dislike.
-There are many different tastes and many ways to play: fast or slow, move a lot or optimize scoring, difficult or easy, complicated or simple patterns. Mapping is level design - both an art and a science.
+There are many different tastes and many ways to play: fast or slow, move a lot or optimize scoring, difficult or easy,
+complicated or simple patterns. Mapping is level design - both an art and a science.
 There is no "best" answer, but there are many "wrong" answers.
 
 Keep in mind your _target audience_: the players who you want to make the map for.
@@ -186,9 +188,12 @@ any remaining tension from the drop. Using jumps as a representation choice allo
 
 ### Readability
 
-A Beat Saber map is a message with limited vocabulary between the mapper - trying to communicate a motion - and the player - trying to perform it. _Readability_ refers to how well a map communicates its intended movement to players.
+A Beat Saber map is a message with limited vocabulary between the mapper - trying to
+communicate a motion - and the player - trying to perform it. _Readability_ refers to how well a map communicates
+its intended movement to players.
 
-Since readability is about communication, it depends on the receiver (the player) almost as much as the sender (the mapper). It relies on the mapper and the player speaking a common language.
+Since readability is about communication, it depends on the player almost as much as the mapper, and it relies
+on them speaking a common language.
 
 To make matters worse, players have limited time and ability to read and process the map while playing,
 especially when _sight reading_ (playing the map for the first time).
@@ -198,7 +203,8 @@ the intended movement to the player. Most players will play a map once ever,
 or once every few weeks or months, so expecting them to know the types of movements that the map
 requires without making them adequately readable leads to disappointment.
 
-By the same token, target audience is particularly relevant when considering readability, as it will determine the particular dialects of Beat Saber maps that players understand.
+By the same token, target audience is particularly relevant when considering readability, as it will determine
+the particular dialects of Beat Saber maps that players understand.
 
 An example of perfectly playable, but difficult to read, and usually problematic,
 patterns are implicit [parity](#parity) resets, particularly triangles.
@@ -207,7 +213,8 @@ patterns are implicit [parity](#parity) resets, particularly triangles.
 This pattern is ambiguous as it requires a reset motion at some point, but it's unclear to the player
 when would it be best to do so.
 
-Note that, like flow, a map can be hard to read on purpose. This is a risky choice but it may work to provide identity, help representation or provide a more memorable experience.
+Note that, like flow, a map can be hard to read on purpose. This is a risky choice but it may work to provide identity,
+help representation or provide a more memorable experience.
 
 :::tip TIP
 The best way to evaluate a map's readability is to get fresh testplays from players who have not seen the map before.
@@ -241,7 +248,8 @@ experience. This problem can never be entirely avoided when using suggested moti
 [walls](#full-body-motion), and [momentum](#momentum-and-tension), and managing the player's [expectations](#map-context)
 can all help with communication.
 
-The scoop pattern above might play well in a map that regularly encourages big movements and trains the player to expect this kind of motion, but could be completely unexpected in a different map.
+The scoop pattern above might play well in a map that regularly encourages big movements and trains the player to expect
+this kind of motion, but could be completely unexpected in a different map.
 
 #### Clutter
 
@@ -266,7 +274,8 @@ You should normally avoid artificial difficulty. Instead, consider whether your 
 the song, or whether you can up the intensity of the gameplay.
 
 :::danger DON'T
-Don't artificially increase difficulty. If your map feels too simple you can up the intensity of movements and/or represent more parts of the music, but ensure these changes add value.
+Don't artificially increase difficulty. If your map feels too simple you can up the intensity of movements and/or represent
+more parts of the music, but ensure these changes add value.
 :::
 
 Difficulty is very important to consider with respect to your target audience. If your audience finds the map
@@ -275,7 +284,8 @@ normally a side effect of under-representation or overly simplified gameplay, an
 
 Adding multiple difficulties to your mapset can be a great way to expand your target audience
 without watering down your main vision.
-_Downmapping_ is the process of taking your top difficulty, and then breaking it down to be appropriate for lower skill levels. Most mappers start with Expert+ and downmap from there. Check out the
+_Downmapping_ is the process of taking your top difficulty, and then breaking it down to be appropriate for lower skill levels.
+Most mappers start with Expert+ and downmap from there. Check out the
 [Downmapping](./downmapping.md) page for a deep dive into this process.
 
 :::tip TIP
@@ -334,7 +344,7 @@ As a result, rhythm choice usually corresponds to either a single instrument (vo
 or a few of them working together, though other options are also valid, for example:
 
 - Focus on some instruments, and fall back to the others when they are silent.
-- Focus on some instruments, and occasionally map some important from of the others.
+- Focus on some instruments, and occasionally map some important sounds from the others.
 
 Rhythm choice can also be used to _enhance_ the experience of the music. It may be used to highlight
 elements of the music that would normally go unnoticed but which are relevant.
@@ -460,8 +470,8 @@ This can be achieved through good representation and gameplay. However, there ar
 subtle details that may help a map generate identity. Highly specific and well executed representation choices,
 encouraging unusual playstyles, perfectly executing a very specific gameplay idea, memorable visuals, etc.
 
-Sometimes, it's precisely the ways in which maps cleverly break standard rules of mapping that they become memorable. Good understanding of these rules and how they can be broken
-without making the map unplayable is key to pulling this off.
+Sometimes, it's precisely the ways in which maps cleverly break standard rules of mapping that they become memorable.
+Good understanding of these rules and how they can be broken without making the map unplayable is key to pulling this off.
 
 There is not much science to describe identity, as it's on the far artistic side of mapping,
 but it should be noted that it does often matter. The most popular and renowned maps tend to be those
