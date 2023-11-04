@@ -180,7 +180,7 @@ A good mapper is always aware of how fast their map is.
 :::
 
 :::details Example
-In <https://allpoland.github.io/ArcViewer/?id=34dc5&t=126>, the mapper uses a standard pattern (one-handed jumps)
+In <https://allpoland.github.io/ArcViewer/?id=34dc5&t=124>, the mapper uses a standard pattern (one-handed jumps)
 to increase the sensation of speed at the end of the drop, without overmapping. The song does not, technically,
 go faster in this section than before, but it feels more intense due to the repetitive sound to release
 any remaining tension from the drop. Using jumps as a representation choice allows the mapper to convey that in the mapping.
@@ -273,7 +273,7 @@ without enhancing any other aspect of the map (i.e. it does not play better or r
 You should normally avoid artificial difficulty. Instead, consider whether your map can represent more of
 the song, or whether you can up the intensity of the gameplay.
 
-:::danger DON'T
+:::danger Bad Practice
 Don't artificially increase difficulty. If your map feels too simple you can up the intensity of movements and/or represent
 more parts of the music, but ensure these changes add value.
 :::
@@ -349,7 +349,7 @@ or a few of them working together, though other options are also valid, for exam
 Rhythm choice can also be used to _enhance_ the experience of the music. It may be used to highlight
 elements of the music that would normally go unnoticed but which are relevant.
 
-::: danger DON'T
+::: danger Bad Practice
 Don't try to map every sound. This usually creates unplayable maps. Focus on what's most important,
 and consider using bombs, walls and lights to fill in the gaps.
 :::
@@ -503,7 +503,7 @@ to blocks cut with the sabers, explicitly excluding walls and bombs.
 
 There is only one (mostly) absolute rule in note timing:
 
-:::danger DON'T
+:::danger Bad Practice
 Don't place notes when there are no identifiable sounds. This is called overmapping and is almost universally problematic.
 :::
 
@@ -608,10 +608,10 @@ the typical hit types and their precise meaning. We just do not have a word for 
 | :-: | :-: | :-: |
 | Single | ![Single](/.assets/images/mapping/single.png) | Base pattern, for normal or small sounds. |
 | Slider | ![Sliders](/.assets/images/mapping/sliders.png) | Sounds with longer duration, reverberation or echo. "Slashy" sounds. |
-| Chain | ![Chain](/.assets/images/mapping/chain.png) | Similar use to sliders. |
-| Stack | ![Stack](/.assets/images/mapping/stacks.jpg) | Sounds with moderate emphasis. Percussion. |
-| Window | ![Window](/.assets/images/mapping/window.jpg) | Intense sounds. Good for avoiding vision blocks. |
-| Tower | ![Tower](/.assets/images/mapping/tower.jpg) | Very intense sounds. Maximum emphasis. |
+| Chain | ![Chain](/.assets/images/mapping/chain_cm.png) | Similar use to sliders. |
+| Stack | ![Stack](/.assets/images/mapping/stack.png) | Sounds with moderate emphasis. Percussion. |
+| Window | ![Window](/.assets/images/mapping/window.png) | Intense sounds. Good for avoiding vision blocks. |
+| Tower | ![Tower](/.assets/images/mapping/tower.png) | Very intense sounds. Maximum emphasis. |
 
 While not set in stone, typically mappers/players understand there is an ordering of intensity between these:
 
@@ -695,8 +695,10 @@ Rotation angle naturally discounts parity. That is, subsequent hits with opposit
 no rotation when the arrows between them are 180 degrees, and will have an 180 degree rotation when the arrows
 are the same direction. Rotations also have a _direction_ (clockwise or counter-clockwise).
 
+The following are some explained examples of rotations.
+
 <!-- prettier-ignore -->
-| | |
+| Rotation examples | |
 | :-: | :-: |
 | ![No rotation](/.assets/images/mapping/no_rotation.png) | No (0 degrees) rotation (forehand to backhand) |
 | ![45 degrees CW](/.assets/images/mapping/45_degree_cw.png) | 45 degrees clockwise (forehand to backhand) |
@@ -733,13 +735,13 @@ Large rotations without setup are easier on positive curvature.
 <!-- markdownlint-disable MD013 -->
 
 <!-- prettier-ignore -->
-| **Right hand** | Forehand | Backhand |
+| **Right hand** | Backhand to forehand | Forehand to backhand |
 | :-: | :-: | :-: |
 | Clockwise | ![Right forehand CW](/.assets/images/mapping/right_forehand_cw.png) **Moderately harsh**. Negative curvature. | ![Right backhand CW](/.assets/images/mapping/right_backhand_cw.png) **Smooth**. Positive curvature. |
 | Counter-clockwise | ![Right forehand CCW](/.assets/images/mapping/right_forehand_ccw.png) **Smooth**. Positive curvature. | ![Right backhand CCW](/.assets/images/mapping/right_backhand_ccw.png) **Harsh**. Negative curvature. |
 
 <!-- prettier-ignore -->
-| **Left hand** | Forehand | Backhand |
+| **Left hand** | Backhand to forehand | Forehand to backhand |
 | :-: | :-: | :-: |
 | Clockwise | ![Left forehand CW](/.assets/images/mapping/left_forehand_cw.png) **Smooth**. Positive curvature. | ![Left backhand CW](/.assets/images/mapping/left_backhand_cw.png) **Harsh**. Negative curvature. |
 | Counter-clockwise | ![Left forehand CCW](/.assets/images/mapping/left_forehand_ccw.png) **Moderately harsh**. Negative curvature. | ![Left backhand CCW](/.assets/images/mapping/left_backhand_ccw.png) **Smooth**. Positive curvature. |
@@ -994,9 +996,9 @@ Leans are mostly governed by palm-out swings.
 :::
 
 <!-- prettier-ignore -->
-| | |
+| Leaning | |
 | :-: | :-: |
-| ![No lean](/.assets/images/mapping/no-lean.png) | (Starting forehands). All hits are palm-in. Even with large rotations, leaning is not generally required. |
+| ![No lean](/.assets/images/mapping/no-lean.png) | (Starting forehand right and backhand left). All hits are palm-in. Even with large rotations, leaning is not generally required. |
 | ![Left lean](/.assets/images/mapping/left-lean.png) | (Starting forehands). The palm-out hits on the right hand incentivize/force the lean to the left (counter-clockwise). |
 | ![Right lean](/.assets/images/mapping/right-lean.png) | (Starting forehands). The palm-out hits on the left hand incentivize/force the lean to the right (clockwise). |
 
@@ -1025,8 +1027,9 @@ to what we sometimes call _lean parity_, which establishes two principles:
 
 The reasons behind this are explained in more detail on the section on [momentum and tension](#momentum-and-tension).
 
-:::danger DON'T
-Avoid sustained leans or chained same-direction leans, except for very specific gimmick maps.
+:::danger Bad Practice
+Avoid excessive sustained leans. Keep in mind they are physically demanding and use them only
+for specific reasons.
 :::
 
 :::details Example
@@ -1093,7 +1096,7 @@ This is summarized by the following simplified patterns:
 | ![Hard dodge](/.assets/images/mapping/hard-dodge-wall.png) | **Hard dodge** motion. This pattern requires much more violent motion, with the player needing to unnaturally put the head out of the way while hitting the notes. This will be problematic if it fights an established lean or sway pattern. |
 | ![Sway lean](/.assets/images/mapping/sway-lean-wall.png) | **Sway lean** motion / anti-lean wall. This pattern can be played well, but it requires a simultaneous counter-clockwise *lean* motion and a heavy *sway* motion to the right to avoid hitting the wall. Thus, it is quite physical. If the sway motion is not established, this will unfairly push the player's head into the wall. |
 
-:::danger DON'T
+:::danger Bad Practice
 Make sure that your established body motion will not push players into a dodge wall.
 :::
 
@@ -1157,7 +1160,7 @@ Finally, establishing the expectation of a crouch by using it for regularly time
 patterns of movement that lead into crouches, can turn crouch walls from a jump scare to a core element of the enjoyment
 of a map. We discuss this a little further in the section on [context](#map-context).
 
-:::danger DON'T
+:::danger Bad Practice
 Do not just randomly throw in crouch walls in your map. This will alienate players. Make sure they are
 adequately contextualized, built into and the motion is helped. If crouch walls are not a core element of your map,
 consider whether you really need them.
@@ -1181,6 +1184,12 @@ For example, it is not normally recommended to have top row swings right after a
 
 :::tip TIP
 Avoid top row right after a crouch wall ends.
+:::
+
+:::details Read more...
+Irahi, a well known fitness mapper, has]
+[a document](https://onedrive.live.com/view.aspx?resid=2358CE686FD33B6A!22239&ithint=file%2cdocx&authkey=!ABmIq6BqrKxyYVY)
+with some useful tips on mapping fitness.
 :::
 
 ### Bombs
@@ -1223,7 +1232,7 @@ Cosmetic bombs should account for this small movement and avoid being in the way
 | Problematic cosmetic bombs |
 | :-: |
 | ![Problematic cosmetic bombs](/.assets/images/mapping/cosmetic-bomb-bad.png) |
-| It might seem that the bombs are out of the left hand's way after this swing, but the saber will naturally move back to the left slowly, very likely hitting the bombs. |
+| It might seem that the bombs are out of the left hand's way after this swing, but the saber will naturally move back to the left slowly, very likely hitting the bombs and making many players reset. The parity afterwards is ambiguous. |
 
 <!-- markdownlint-enable MD013 -->
 
@@ -1285,7 +1294,7 @@ Like with walls, the motion associated with bomb resets happens _before_ the bom
 _after_ the sound associated with them, to make the motion happen at the same time as the sound. If there is no
 specific sound associated with the reset, the bombs should be closer to the notes _after_ than to the notes _before_.
 
-:::danger DON'T
+:::danger Bad Practice
 Do not place bomb resets at the middle point between the swings. They should always be closer to the latter swing.
 2/3 is typically used.
 :::
@@ -1340,6 +1349,13 @@ by allowing walls to be of almost any height, width, and location. However, this
 of effort and is not playable without the respective mod / game version.
 See [Extended Mapping](./extended-mapping.md#wall-mapping) for more info.
 
+:::details Examples
+These are some maps that use vanilla v3 walls for cosmetic purposes:
+
+- <https://allpoland.github.io/ArcViewer/?id=31fbd&t=155>
+- <https://allpoland.github.io/ArcViewer/?id=2be44&t=206>
+  :::
+
 ### Arcs
 
 _Arcs_' main function is representational, used for long dragging sounds or sequences of sounds that feel linked.
@@ -1349,7 +1365,7 @@ the hands inbetween notes. This is dependent on the player and works best for sl
 It should not be used as a clutch to try to produce otherwise unreadable swings. Arcs also affect [scoring](#scoring),
 by giving full score for the post-swing of the head note and the pre-swing of the tail note. This is, however, a minor effect.
 
-:::danger DON'T
+:::danger Bad Practice
 While arcs can help readability, you should not rely on them to be the only thing communicating an otherwise unreadable motion.
 :::
 
@@ -1358,7 +1374,7 @@ they can even produce [vision blocks](#vision). Therefore, they should be reserv
 They can also be tweaked by using the right positions and angles for head and tail notes to make the path more suitable,
 and their head and tail _multipliers_ should be adjusted to make the path more adequate.
 
-:::danger DON'T
+:::danger Bad Practice
 Do not abuse arc usage. They will affect vision and create clutter, on top of blurring out representation.
 Reserve them for select swings or parts.
 :::
@@ -1463,7 +1479,7 @@ The apex of rotations relates to the intensity, emphasis and consistency of the 
 | Momentum apex |
 | :-: |
 | ![Momentum apex](/.assets/images/mapping/apex.png) |
-| In this very intense sequence, the apex hits are on quite extreme postures, where all momentum has transformed into a lot of postural tension that is then released on the opposite direction. |
+| In this very intense sequence, the apex hits (which are all forehand hits here) are on quite extreme postures, where all momentum has transformed into a lot of postural tension that is then released on the opposite direction. |
 
 <!-- markdownlint-enable MD013 -->
 
@@ -1497,14 +1513,14 @@ You can find a systematic approach to momentum, tension, and many other topics o
 [momentum mapping](./advanced-mapping.md#momentum-mapping).
 
 :::details Example
-Many mappers will follow momentum quite religiously in their maps. GalaxyMaster is considered in many ways the father
-of momentum mapping, and you can see the principles at work in maps like
+Many mappers will follow momentum quite religiously in their maps. GalaxyMaster is a prominent example,
+and you can see the principles at work in maps like
 <https://allpoland.github.io/ArcViewer/?id=362c5&t=31> .
 :::
 
 :::details Read more...
 
-- GalaxyMaster is considered in many ways the father of momentum mapping. He has published
+- GalaxyMaster has published
   [a summary](https://docs.google.com/document/d/1qdRGk8QR48hx0ng05Z45tv-6KvMFPYxiAY8l441j3Mk/edit#heading=h.oqckjf2globh)
   of what he considers the main principles of momentum mapping.
 - Kansas' [incomplete glossary](https://docs.google.com/document/d/16hydw1Vob9uDK3VTpwXn9ov0o-kp_xgm9jpPduOwOJ4/edit?usp=sharing)
@@ -1671,7 +1687,7 @@ Therefore, it can be very tempting to have worse vision for the sake of better [
 If something truly is a vision problem, fixing that should be a priority.
 Ideally, you want to find solutions that keep acceptable vision while having better properties in the other dimensions.
 
-:::danger DON'T
+:::danger Bad Practice
 Don't sacrifice vision for the sake of pattern setup. This alienates players and is harder to notice the effect of
 due to mapper blindness. Find solutions that are within acceptable vision ranges.
 :::
