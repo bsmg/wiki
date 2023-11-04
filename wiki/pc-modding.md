@@ -52,6 +52,12 @@ a incomplete, erroneous, or straight up incorrect information.
 Instead, you should follow the written guides here on the wiki or seek out help in the [BSMG Discord](https://discord.gg/beatsabermods).
 :::
 
+:::tip NOTE
+The latest moddable Beat Saber version for PC is `1.31.1`. You can also downgrade to `1.29.1` if you prefer.
+
+Visit the [Downgrading](#downgrading) section on this page for more information.
+:::
+
 ## Installers
 
 ### Mod Assistant
@@ -190,12 +196,49 @@ is malware or not, **_please ask someone in our discord_**.
 Check `#modding-announcements` in [BSMG](https://www.discord.gg/beatsabermods) to see if the latest version is moddable.
 If it is not, you can follow these tutorials to downgrade to a moddable version.
 
+### Game Managers
+
 Click on these links corresponding to where you own the game to see the tutorials.
 
 - [Oculus Store](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)
 - For Steam you have a few options to be able to downgrade.
   - [BSManager](https://github.com/Zagrios/bs-manager#readme)
   - [LegacyInstaller](https://github.com/Goobwabber/LegacyInstaller#readme)
+
+### Legacy Branch
+
+If you want to downgrade to `1.29.1` you can use the legacy branch method.
+
+#### Steam Users
+
+1. Open ModAssistant go to the options tab and Uninstall BSIPA
+
+- If you have 1.30+ mods installed, press the Remove All Mods button instead.
+
+2. Right click Beat Saber in the game library
+3. Select Properties
+4. Select Betas in the window
+5. Select the `legacy1.29.1_unity_ver2019.4.28f1 - pre unity upgrade build`
+6. Click ok and exit the window
+7. Let the download complete then run the game once
+8. Follow the regular modding process
+
+![Steam Branch Setting](/.assets/images/beginners-guide/1291_steambranch.jpg 'Steam Branch Setting')
+
+#### Oculus Store Users
+
+1. Open ModAssistant go to the options tab and Uninstall BSIPA
+
+- If you have 1.30+ mods installed, press the Remove All Mods button instead.
+
+2. Go to the Beat Saber store page
+3. Scroll down to `Versions + Release Notes`
+4. Click on the word `(LIVE)` next to the current version number
+5. Select the `legacy1.29.1_unity_ver2019.4.28f1: 1.29.1_4575554838` option
+6. Let the download complete and run the game once
+7. Follow the regular modding process
+
+![Oculus Branch Setting](/.assets/images/beginners-guide/1291_oculusbranch.jpg 'Oculus Branch Setting')
 
 ## How to uninstall mods
 

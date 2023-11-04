@@ -9,6 +9,14 @@ next: false
 
 Check out our [beginner's guide](/beginners-guide.md)!
 
+## What versions of the game can be modded?
+
+The latest moddable Beat Saber version for PC is `1.31.1`. You can also downgrade to `1.29.1` if you prefer.
+
+The latest moddable Beat Saber version for Quest is `1.28.0`.
+
+For more information on modding and/or downgrading visit the respective [modding guide.](/beginners-guide.md)
+
 ## How do I get more songs?
 
 > [BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community.
