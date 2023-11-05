@@ -91,7 +91,7 @@ and download the SideQuest Advanced Installer. Once it's finished downloading, i
 ### Backup Save Data using SideQuest
 
 :::tip This is an optional step!
-If you are modding for the first time you can skip to [Ways to Mod Beat Saber](#ways-to-mod-beatsaber)
+If you are modding for the first time you can skip to [Ways to Mod Beat Saber](#ways-to-mod-beat-saber)
 :::
 
 Open SideQuest and connect your Quest to your PC.
