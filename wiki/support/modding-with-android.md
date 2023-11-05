@@ -164,5 +164,5 @@ If at any point during the install process, you get the Restore App popup just c
 This warning is directed to pirated versions of the game so there will likely be no consequences for ignoring it if you
 have a legitimate copy.
 
-Now you can continue with the [Core Mods](/quest-modding.md#core-mods) step of the installation process as if you were
-modding with your PC.
+Now you can continue with the [installing mods](/quest-modding-bmbf.md#installing-mods-custom-songs-models-and-external-sources)
+step of the installation process as if you were modding with your PC.
