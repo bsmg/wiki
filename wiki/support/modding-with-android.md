@@ -5,9 +5,9 @@ next: false
 
 # Quest Modding with Android
 
-:::tip Quest 3 modding is NOT yet available.
-Please be patient as modders explore the possibility and keep an eye on the `#modding-announcements`
-channel in the [BSMG Discord](https://discord.gg/beatsabermods) for up to date information!
+:::warning Quest 3 Modding Information
+BMBF does not support Quest 3 at this time.  
+Quest 3 modding is only possible using [QuestPatcher](./quest-modding.md#questpatcher) with a computer.
 :::
 
 :::warning
