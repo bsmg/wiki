@@ -7,7 +7,7 @@ next: false
 
 :::warning Quest 3 Modding Information
 BMBF does not support Quest 3 at this time.  
-Quest 3 modding is only possible using [QuestPatcher](./quest-modding.md#questpatcher) with a computer.
+Quest 3 modding is only possible using [QuestPatcher](/quest-modding.md#questpatcher) with a computer.
 :::
 
 :::warning
