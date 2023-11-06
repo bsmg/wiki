@@ -14,20 +14,21 @@
     "preview": "vitepress preview wiki",
     "build": "vitepress build wiki",
     "lint:images": "node ./scripts/checkImages.mjs",
-    "lint": "prettier --check . && markdownlint-cli2 \"wiki/**/*.md\" \"#wiki/{de,fr,ja,nl}/**/*.md\"",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:prettier && markdownlint-cli2 \"wiki/**/*.md\" \"#wiki/{de,fr,ja,nl}/**/*.md\"",
     "fmt": "prettier --write . && markdownlint-cli2-fix \"wiki/**/*.md\" \"#wiki/{de,fr,ja,nl}/**/*.md\""
   },
   "devDependencies": {
-    "@types/markdown-it-container": "^2.0.6",
-    "@types/node": "^20.5.7",
+    "@types/markdown-it-container": "^2.0.8",
+    "@types/node": "^20.8.10",
     "byte-size": "^8.1.1",
     "globby": "^13.2.2",
     "kleur": "^4.1.5",
     "markdown-it-container": "^3.0.0",
-    "markdownlint-cli2": "^0.9.2",
+    "markdownlint-cli2": "^0.10.0",
     "medium-zoom": "^1.0.8",
     "prettier": "^3.0.3",
-    "vitepress": "1.0.0-rc.10",
-    "vue": "^3.3.4"
+    "vitepress": "1.0.0-rc.24",
+    "vue": "^3.3.7"
   }
 }

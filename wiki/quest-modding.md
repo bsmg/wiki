@@ -7,12 +7,7 @@ next: false
 
 ## Preface
 
-- This guide is for both Quest 1 and Quest 2.
-
-:::tip Quest 3 modding is NOT yet available.
-Please be patient as modders explore the possibility and keep an eye on the `#modding-announcements`
-channel in the [BSMG Discord](https://discord.gg/beatsabermods) for up to date information!
-:::
+- This guide is for both Quest 1, Quest 2, and Quest 3.
 
 - Nobody has yet been banned for modding.
 
@@ -48,8 +43,16 @@ To get leaderboards on custom songs and to be able to get Performance Points (PP
 
 ## Requirements
 
-Modding BeatSaber involves installing APKs on your Quest. Therefore, you will need a PC (Windows / Mac / Linux)
+Modding Beat Saber involves installing APKs on your Quest. Therefore, you will need a PC (Windows / Mac / Linux)
 or an Android device at least once.
+
+:::tip NOTE
+The latest moddable Beat Saber version for Quest is `1.28.0`.
+
+- If you are using BMBF and want to downgrade, refer to the [Downgrading Guide for BMBF](./quest-modding-bmbf.md#downgrading-beat-saber).
+- QAVS walks you through the downgrade process automatically.
+
+:::
 
 If you plan to mod using an Android device, visit the [Modding with Android](./support/modding-with-android.md) page.
 
@@ -87,6 +90,10 @@ and download the SideQuest Advanced Installer. Once it's finished downloading, i
 
 ### Backup Save Data using SideQuest
 
+:::tip This is an optional step!
+If you are modding for the first time you can skip to [Ways to Mod Beat Saber](#ways-to-mod-beat-saber)
+:::
+
 Open SideQuest and connect your Quest to your PC.
 
 Navigate to `sdcard/Android/data/com.beatgames.beatsaber/files` using the SideQuest file explorer.
@@ -98,26 +105,57 @@ contain your scores and other settings!
 
 ### Restoring Save Data using SideQuest
 
+:::tip This is an optional step!
+This is only needed if you have [backup save data](#backup-save-data-using-sidequest) you want to restore.
+:::
+
 To restore your data, open SideQuest and connect your Quest to your PC.  
 Using the SideQuest file explorer, take the 3 files you saved from the [Backup Save Data using SideQuest](#backup-save-data-using-sidequest)
 steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
 `sdcard/Android/data/com.beatgames.beatsaber/files` folder.
 
-## Ways to Mod BeatSaber
+## Ways to Mod Beat Saber
 
-Currently, there are two ways to mod your game: you can either use BMBF or QAVS (QuestAppVersionSwitcher).
+Currently, there are three ways to mod your game: you can either use BMBF, QAVS (QuestAppVersionSwitcher), or QuestPatcher.
+
+:::warning Quest 3 Modding Information
+Quest 3 modding is only possible using [QuestPatcher](#questpatcher). BMBF and QAVS does not support Quest 3 at this time.
+:::
 
 ### BMBF
 
 BMBF is generally easier to understand for beginners with a simpler UI compared to QAVS, but lacks a built-in downgrading
-option. If you use BMBF to mod, you will need a PC every time you update BeatSaber.
+option. If you use BMBF to mod, you will need a PC every time you update Beat Saber.
 
 Visit [Modding With BMBF](./quest-modding-bmbf.md) to get started.
 
 ### QAVS
 
 QAVS is recommended for people who are using an Android device or don't have access to a computer at all times. It has
-built-in downgrading, which means you don't need to use a PC or phone every time you want to update BeatSaber to the
+built-in downgrading, which means you don't need to use a PC or phone every time you want to update Beat Saber to the
 latest moddable version.
 
 Visit [Modding With QAVS](./quest-modding-qavs.md) to get started.
+
+### QuestPatcher
+
+QuestPatcher is a GUI based mod installer for any il2cpp unity app on the Oculus Quest that runs on Windows, Linux, or macOS.
+
+If you have not already, go to [Preparations](./quest-modding.md#preparations) and follow those steps.
+You should now have Developer Mode enabled and SideQuest Advanced installed on your PC.
+It is recommended to disable the proximity sensor of your quest in the SideQuest device settings.
+This prevents it from going into sleep mode during the modding process. Alternatively you can tape
+up the sensor between the lenses.
+
+:::warning
+Make sure you do not have multiple accounts an your Quest!
+
+Modding currently does not work with multiple accounts.
+You will need to temporarily remove all secondary accounts before modding the game.
+You can add them back once the modding process is completed.
+:::
+
+1. Download and install [QuestPatcher](https://github.com/Lauriethefish/QuestPatcher/releases/latest)
+2. When patching, make sure `QuestLoader` is selected, or your mods will not load.
+3. Patch Beat Saber (or re-patch in the tools tab if you have already)
+4. Install the core mods, and other mods you would like from [this page.](https://computerelite.github.io/tools/Beat_Saber/questmods.html)

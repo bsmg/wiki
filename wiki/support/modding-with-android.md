@@ -5,9 +5,9 @@ next: false
 
 # Quest Modding with Android
 
-:::tip Quest 3 modding is NOT yet available.
-Please be patient as modders explore the possibility and keep an eye on the `#modding-announcements`
-channel in the [BSMG Discord](https://discord.gg/beatsabermods) for up to date information!
+:::warning Quest 3 Modding Information
+BMBF does not support Quest 3 at this time.  
+Quest 3 modding is only possible using [QuestPatcher](/quest-modding.md#questpatcher) with a computer.
 :::
 
 :::warning
@@ -164,5 +164,5 @@ If at any point during the install process, you get the Restore App popup just c
 This warning is directed to pirated versions of the game so there will likely be no consequences for ignoring it if you
 have a legitimate copy.
 
-Now you can continue with the [Core Mods](/quest-modding.md#core-mods) step of the installation process as if you were
-modding with your PC.
+Now you can continue with the [installing mods](/quest-modding-bmbf.md#installing-mods-custom-songs-models-and-external-sources)
+step of the installation process as if you were modding with your PC.

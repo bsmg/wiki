@@ -7,9 +7,9 @@ next: false
 
 ## Before You Begin
 
-:::tip Quest 3 modding is NOT yet available.
-Please be patient as modders explore the possibility and keep an eye on the `#modding-announcements`
-channel in the [BSMG Discord](https://discord.gg/beatsabermods) for up to date information!
+:::warning Quest 3 Modding Information
+QAVS does not support Quest 3 at this time.  
+Quest 3 modding is only possible using [QuestPatcher](./quest-modding.md#questpatcher).
 :::
 
 If you have not already, go to [Preparations](./quest-modding.md#preparations) and follow those steps.

@@ -26,8 +26,15 @@ jobs:
           cache: npm
       - name: Install packages
         run: npm ci
-      - name: Lint Markdown Files
-        run: npm run lint
+      - name: Lint with Prettier
+        run: npm run lint:prettier
+      - name: Lint with markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v13
+        with:
+          config: ./.markdownlint.jsonc
+          globs: |
+            wiki/**/*.md
+            #wiki/{de,fr,ja,nl}/**/*.md
       - name: Lint Image Sizes
         run: npm run lint:images
 
