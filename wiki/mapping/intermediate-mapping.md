@@ -430,7 +430,7 @@ In <https://allpoland.github.io/ArcViewer/?id=338fe&t=49> similar but different 
 providing great variety while preserving familiarity and consistency.
 
 - On beat 172, lean scissor doubles are used for 4 iterations.
-- On beat 204, scissor dobles with horizontal displacement are used for 4 iterations.
+- On beat 204, scissor doubles with horizontal displacement are used for 4 iterations.
 - On beat 332, lean same parity doubles are used for 4 iterations.
 - On beat 364, palm-in same parity alternating side doubles are used for the remaining iterations.
   :::
@@ -785,17 +785,17 @@ A hand will have eBPM equal to the song's BPM when it does one forehand and one 
 Here are some examples of patterns and their effective BPM:
 
 <!-- prettier-ignore -->
-| Pattern | Example | eBPM multiplier | eBPM at 120 BPM | Notes|
-| :-: | :-: | :-: | :-: | :-: |
-| Stream (1/4 precision) | ![Stream](/.assets/images/mapping/stream.png) | 1 x BPM | 120 | Basis for eBPM |
-| One-hand jumps (1/4 precision) | ![Jumps](/.assets/images/mapping/onehandjumps.png) | 2 x BPM | 240 | The hand is doing double work. |
-| Triplet jumps (1/3 precision) | ![Triplet jumps](/.assets/images/mapping/tripletjumps.png) | 1.5 x BPM | 180 | Similar to regular jumps but slightly slower. |
-| Flick | ![Flick](/.assets/images/mapping/flick-alt.png) | 2 x BPM | 240 | While this spreads the effort across both hands, the speed of each flick is the same as jumps. |
-| Gallop | ![Gallop](/.assets/images/mapping/gallop.png) | 2 x BPM | 240 | A gallop is still a flick on one of the hands. It also makes one hand feel double the speed of the other, which is normally undesirable. |
-| Half speed stream (1/2 precision) | ![Half speed stream](/.assets/images/mapping/halfspeedstream.png) | 0.5 x BPM | 60 | Half the notes, half the speed. |
-| 1/2 single hand | ![Single hand slow](/.assets/images/mapping/halfonehand.png) | 1 x BPM | 120 | In terms of speed, it's like a stream where we removed one hand. |
-| Burst stream (1/8 precision) | ![Burst](/.assets/images/mapping/burst.png) | 2 x BPM | 240 | Bursts can be nice to represent very short intense sections of the map with fast sounds, but they are often a difficulty spike. |
-| Bomb resets (1 beat) | ![Bomb resets](/.assets/images/mapping/beatbombreset.png) | 1 x BPM | 120 | Bomb resets have a movement associated with them, which we count as a swing for measuring eBPM. |
+| Pattern | Example | Example (top view) | eBPM multiplier | eBPM at 120 BPM | Notes|
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| Stream (1/4 precision) | ![Stream](/.assets/images/mapping/stream.png) | ![Stream](/.assets/images/mapping/stream_top.png) | 1 x BPM | 120 | Basis for eBPM |
+| One-hand jumps (1/4 precision) | ![Jumps](/.assets/images/mapping/onehandjumps.png) | ![Jumps](/.assets/images/mapping/onehandjumps_top.png) | 2 x BPM | 240 | The hand is doing double work. |
+| 1/3 jumps | ![Triplet jumps](/.assets/images/mapping/tripletjumps.png) | ![Triplet jumps](/.assets/images/mapping/tripletjumps_top.png) | 1.5 x BPM | 180 | Similar to regular jumps but slightly slower. |
+| Flick | ![Flick](/.assets/images/mapping/flick-alt.png) | ![Flick](/.assets/images/mapping/flick-alt_top.png) | 2 x BPM | 240 | While this spreads the effort across both hands, the speed of each flick is the same as jumps. |
+| Gallop | ![Gallop](/.assets/images/mapping/gallop.png) | ![Gallop](/.assets/images/mapping/gallop_top.png) | 2 x BPM | 240 | A gallop is still a flick on one of the hands. It also makes one hand feel double the speed of the other, which is normally undesirable. |
+| Half speed stream (1/2 precision) | ![Half speed stream](/.assets/images/mapping/halfspeedstream.png) | ![Half speed stream](/.assets/images/mapping/halfspeedstream_top.png) | 0.5 x BPM | 60 | Half the notes, half the speed. |
+| 1/2 single hand | ![Single hand slow](/.assets/images/mapping/halfonehand.png) | ![Single hand slow](/.assets/images/mapping/halfonehand_top.png) | 1 x BPM | 120 | In terms of speed, it's like a stream where we removed one hand. |
+| Burst stream (1/8 precision) | ![Burst](/.assets/images/mapping/burst.png) | ![Burst](/.assets/images/mapping/burst_top.png) | 2 x BPM | 240 | Bursts can be nice to represent very short intense sections of the map with fast sounds, but they are often a difficulty spike. |
+| Bomb resets (1 beat) | ![Bomb resets](/.assets/images/mapping/beatbombreset.png) | ![Bomb resets](/.assets/images/mapping/beatbombreset_top.png) | 1 x BPM | 120 | Bomb resets have a movement associated with them, which we count as a swing for measuring eBPM. |
 
 In most maps, patterns with eBPM = song's BPM should be the basis of speed for the map, with higher
 eBPM patterns reserved for more intense sections. For example, if a whole section has 4 sounds per beat consistently,
