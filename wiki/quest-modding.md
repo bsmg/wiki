@@ -155,7 +155,17 @@ You will need to temporarily remove all secondary accounts before modding the ga
 You can add them back once the modding process is completed.
 :::
 
+:::tip NOTE
+Ensure you are running the latest moddable Beat Daber version for Quest. ([Requirements](#requirements))
+
+- If you want to downgrade you can refer to the [Downgrading Beat Saber section of the BMBF guide](./quest-modding-bmbf.md#downgrading-beat-saber).
+  - Only perform the downgrade steps. Do not perform any steps related to BMBF installation or configuration. 
+
+:::
+
 1. Download and install [QuestPatcher](https://github.com/Lauriethefish/QuestPatcher/releases/latest)
 2. When patching, make sure `QuestLoader` is selected, or your mods will not load.
 3. Patch Beat Saber (or re-patch in the tools tab if you have already)
-4. Install the core mods, and other mods you would like from [this page.](https://computerelite.github.io/tools/Beat_Saber/questmods.html)
+4. Install the core mods, and other mods you would like from [this page.](https://computerelite.github.io/tools/Beat_Saber/questmods.html).
+    - It is recommended to install the "BetterSongSearch" mod since it provides more search features.
+    - You will have to download the mods, then load them using QuestPatcher. 
