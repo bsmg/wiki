@@ -75,7 +75,7 @@ version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/Mo
 
 \***\*Make sure you own the game on Steam\*\*** before trying to download Beat Saber!
 
-A all-in-one tool that lets you easly manage BeatSaber versions, maps, mods, and even more. Get it on [Zangrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
+A all-in-one tool that lets you easly manage BeatSaber versions, maps, mods, and even more. Get it on [Zagrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
 
 ### BeatSaberModManager
 
