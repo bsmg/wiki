@@ -54,6 +54,15 @@ Mod manager に似たシンプルな Beat Saber Mod インストーラですが�
 
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
+### BSManager
+
+\***\*Beat Saberをダウンロードしようとする前に、SteamまたはOculus（PCVR）でゲームを所有していることを確認してください！\*\***
+
+Beat Saberのバージョン、マップ、モッズなどを簡単に管理できるオールインワンツールです。[ZagriosのGitHub](https://github.com/Zagrios/bs-manager/releases/latest)から入手できます。
+
+![BSManager](/.assets/images/beginners-guide/bsmanager.png)
+
+
 ## どうすればカスタム曲を追加できますか？
 
 ::: tip

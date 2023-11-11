@@ -45,6 +45,15 @@ Ein einfacher Beat Saber Mod Installer, ähnlich dem Mod Manager aber mit zusät
 
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
+### BSManager
+
+\***\*Stellen Sie sicher, dass Sie das Spiel auf Steam oder Oculus (PCVR)\*\*** besitzen, bevor Sie versuchen, Beat Saber herunterzuladen!
+
+Ein All-in-One-Tool, mit dem Sie BeatSaber-Versionen, Karten, Mods und noch mehr einfach verwalten können. Holen Sie es sich auf [GitHub von Zagrios](https://github.com/Zagrios/bs-manager/releases/latest)
+
+![BSManager](/.assets/images/beginners-guide/bsmanager.png)
+
+
 ## Wie bekomme ich mehr Songs
 
 ::: tip TIPP
