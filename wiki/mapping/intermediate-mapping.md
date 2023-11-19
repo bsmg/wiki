@@ -23,7 +23,7 @@ Skim through it at your own pace, or consult specific topics directly.
 There are many aspects that matter to this question, but generally speaking,
 we can classify all or most of these into two main categories:
 
-- [**Gameplay**](#gameplay) - Does the map play well? Is it comfortable, fun, and of appropriate difficulty?
+- [**Gameplay**](#gameplay) - Does the map play well? Is it comfortable, fun, and of an appropriate difficulty?
   Topics about the way the map feels to play, more or less independent of the music.
 - [**Representation**](#representation) - Does the map represent the song's rhythm, mood, and feel?
   Topics about the relation between the music and the map.
@@ -498,8 +498,8 @@ For some of these, you will find links to more advanced guides.
 
 ### Note timing
 
-Note timing is the selection of the specific times of notes to swing by the player. We refer here exclusively
-to blocks cut with the sabers, explicitly excluding walls and bombs.
+Note timing is the specific timing for notes swung at by the player. Here, we refer exclusively
+to blocks cut with the sabers - excluding walls and bombs.
 
 There is only one (mostly) absolute rule in note timing:
 
@@ -508,31 +508,32 @@ Don't place notes when there are no identifiable sounds. This is called overmapp
 :::
 
 While it would be reasonable to think that "Always map sounds to the exact time when they happen" is a good rule,
-there are several important exceptions to this rule. Instead, it is more important to set up your audio adequately
-and identify the rhythms of the song, and make good choices about which sounds to map with what timings.
+there are several important exceptions to this. Instead, it's much more important to identify the rhythms in the song and make good choices about which rhythms to map.
+
+The majority of songs (even those with variable tempo) use simple timings that require only 1/2, 1/3,
+or 1/4 editor precision (or occasionally 1/6 or 1/8). While there exist songs that
+do use more complex timings, this is rare. In many cases where a mapper thinks higher precision is required,
+they either didn't align the audio properly, or they are overthinking the rhythms of the song.
+
+So long as you've done proper audio setup (which may involve adding all the necessary [BPM changes](./advanced-mapping.md#advanced-timing)
+to keep the map aligned with the changing tempo of the song), mapping to the most clearly identifiable rhythms with simple precision will usually provide a good result.
 
 :::tip TIP
-The best way to achieve good timing is to do a proper [audio setup](./basic-audio.md).
+In order to achieve good timing, you must do proper [audio setup](./basic-audio.md).
 :::
-
-A good audio setup may involve introducing all the necessary [BPM changes](./advanced-mapping.md#advanced-timing)
-to keep the map aligned to the tempo of the song.
-
-The vast majority of songs (even those with variable tempo) use simple timings that require only 1/2, 1/3,
-or 1/4 precision (with occasional 1/6 or 1/8), if the audio setup is adequate. While there exist songs that
-do use more complex timings, this is very rare. In almost every case where a mapper thinks this is the case,
-they either didn't align the sound properly, or they are overthinking / not listening to the song properly.
 
 #### Vocals and live recordings
 
-In fact, even when the sounds in the song do happen outwith simple precisions, you will often still want to map
-the notes to the simple precisions, or _intended rhythm_. This is often the case with live recorded songs
-with imperfect timing and, specially, when timing **vocals**. Vocals are normally difficult to time
-and may include some smaller variations. It usually makes the map worse to try to accurately map these smaller variations.
-Instead, stick to the intended, simple rhythm.
+Even when the sounds in the song don't align to simple precisions, you will often still want to snap
+the notes to a simpler precision, or the _intended rhythm_. This is often the case with live recorded songs
+with imperfect timing, and especially when timing **vocals**.
+
+Vocals are normally difficult to time
+because they are generally a low attack (slow to begin) sound, and vary slightly from the beat because of human error. Trying to accurately map these smaller timing variations usually makes the map feel worse to play.
+Instead, stick to the intended rhythm implied by the music.
 
 :::tip TIP
-When mapping vocals and/or live recordings, stick to the intended rhythm rather than precise timings.
+When mapping vocals and/or live recordings, stick to the intended rhythm and simple precisions, rather than precise timings.
 :::
 
 <!-- prettier-ignore -->
@@ -560,7 +561,7 @@ There are three main methods for determining the specific timing of a note.
 
 - Use the **spectrogram** to validate or help you identify specific timings. This method should be used with care,
   as the spectrogram will often not represent some sounds accurately (like deep bass and vocals)
-  and present a lot of spurious sounds. The spectrogram should never be the only method you use to time your notes.
+  and over-represent a lot of background sounds. The spectrogram should never be the only method you use to time your notes.
 
 :::tip TIP
 Time to what you **hear** above everything else.
@@ -576,7 +577,7 @@ for determining timings.
 
 ### Handedness and hit type
 
-The _handedness_ of a pattern refers to which hand or hands swing on that pattern.
+The _handedness_ of a hit refers to which hand (or hands) swing on that hit.
 Thus, there are three possible values for handedness:
 
 - Left hand.
@@ -585,122 +586,121 @@ Thus, there are three possible values for handedness:
 
 There are many ways in which handedness is particularly relevant:
 
-- Handedness is a simple tool for representation. While sometimes problematic, mapping different instruments
-  to each hand can produce decent mapping. More flexible approaches will instead focus on how handedness varies
-  between subsequent swings and how that relates to the variations in the music as a means of representation.
-- Double swings are one of the main ways to increase [emphasis](#emphasis).
-- The relative handedness of subsequent patterns determines the [swing speed](#swing-speed).
-  A section where all notes have the same handedness will feel considerably faster than one
+- Handedness is a simple tool for representation. While not ideal, mapping different instruments
+  to either hand is a simple way to produce decent mapping. More flexible approaches will instead focus on how handedness changes
+  between swings, and how that relates to the variations in the music as a means of representation.
+- Double swings are a great way to increase [emphasis](#emphasis).
+- Changes in handedness between hits can influence the [swing speed](#swing-speed).
+  A section where all hits have the same handedness will feel considerably faster than one
   where they are alternating hands (a stream).
 
-In close relation with handedness, we can consider a pattern's _hit type_. Larger swings require a faster swing
-with more distance and swing angle to perform.
+In close relation with handedness, we can consider _hit type_. Larger swings require a faster swing
+with more distance and precise swing angle to perform.
 The following is a list of standard hit types that mappers consider:
-
-:::tip NOTE
-The expression "hit type" is not standard at the time of writing. There is no standard term to refer to this concept,
-though all or most mappers know the names of all
-the typical hit types and their precise meaning. We just do not have a word for the abstract concept.
-:::
 
 <!-- prettier-ignore -->
 | Name | Example | Typical uses |
 | :-: | :-: | :-: |
 | Single | ![Single](/.assets/images/mapping/single.png) | Base pattern, for normal or small sounds. |
-| Slider | ![Sliders](/.assets/images/mapping/sliders.png) | Sounds with longer duration, reverberation or echo. "Slashy" sounds. |
+| Slider | ![Sliders](/.assets/images/mapping/sliders.png) | Sounds with longer duration, reverberation or echo. "Burst" sounds. |
 | Chain | ![Chain](/.assets/images/mapping/chain_cm.png) | Similar use to sliders. |
 | Stack | ![Stack](/.assets/images/mapping/stack.png) | Sounds with moderate emphasis. Percussion. |
 | Window | ![Window](/.assets/images/mapping/window.png) | Intense sounds. Good for avoiding vision blocks. |
 | Tower | ![Tower](/.assets/images/mapping/tower.png) | Very intense sounds. Maximum emphasis. |
 
+:::tip NOTE
+The expression "hit type" is not standard at the time of writing.
+Though most or all mappers know the names of
+the typical hit types and their precise meaning, there is no agreed upon word for the abstract concept.
+:::
+
 While not set in stone, typically mappers/players understand there is an ordering of intensity between these:
 
-Single < 2-slider/chain < Stack < 3-slider/chain < Window < Tower
+Single < 2 note slider/chain < Stack < 3 note slider/chain < Window < Tower
 
-In addition to these, dots instead of arrows are often used to slightly decrease the conceptual intensity of a pattern,
+In addition to these, dots instead of arrows are often used to slightly decrease the feeling of intensity in a hit,
 even if it has very little gameplay difference.
-There are also patterns that do not explicitly fall into any of these hit types. There is nothing wrong with using them
+There are also hits that do not explicitly fall into any of these hit types. There is nothing wrong with using them
 if you feel they help you represent the song better.
 
 Hit type is one of the most basic ways to provide [emphasis](#emphasis). It is generally good practice
 to be consistent with which instruments/types of sounds you represent with which hit type.
 
-Hit type is also relevant for gameplay, difficulty, and sensation of speed. With larger swings...
+Hit type is also relevant for difficulty and sensation of speed. With larger swings:
 
-- The saber needs to move a larger distance. This may be achieved through arm displacement or larger swing angle.
-- The rotation angle of the pattern is enforced more strictly.
+- The saber needs to move a larger distance, forcing faster swings.
+- The angle of the swing is enforced more strictly.
 
 <!-- prettier-ignore -->
 | ![Angle enforcement](/.assets/images/mapping/angle_enforcement.png) |
 | :-: |
-| Larger swings enforce angles more strictly if all notes are hit, specially when playing for accuracy. |
+| Larger swings enforce angles more strictly if all notes are hit, especially when playing for accuracy. |
 
-- The timing of the swing is stricter, as the player will need to cut through more notes in the same timing window.
+- The timing of the swing is stricter, as the player will need to cut more notes in the same amount of time.
 
-As a result, larger swings are more physically intense, which is, alongside visuals, the main reason
-why hit type is used for emphasis. On top of the blurred out emphasis; from a gameplay perspective, abusing large swings
-will make the map unnecessarily tiring to play and introduce artificial difficulty.
+As a result, larger swings are more physically intense, which is a big reason
+why hit type is used for emphasis. From a gameplay perspective, however, abusing large swings
+can make the map unnecessarily tiring to play and introduce artificial difficulty.
 
 ### Parity
 
-The most important aspect about _parity_ is covered in the [basic mapping page](./basic-mapping.md#double-directionals-resets),
-which is: keep it.
+The most important aspect about _parity_ is covered in the [basic mapping page](./basic-mapping.md#double-directionals-resets).
+In short, keep it.
 
 :::tip TIP
-Adapting your creative vision to keep parity consistently is almost universally better than breaking parity
+Adapting your creative vision to keep parity consistently is almost always better than breaking parity
 for the sake of representation or identity.
 :::
 
 Keeping parity affects the choice of patterns, but it does not strictly limit it. Up swings can be forehand
-and down swings can be backhand. These are sometimes called _palm-up_ swings, because the palm is pointing upwards.
+and down swings can be backhand - these are sometimes called _palm-up_ swings because the palm is pointing upwards.
 This video demonstrates some more advanced concepts of parity: [YouTube](https://youtu.be/NF8ESZRXI1c)
 
-You also can and should play around parity when mapping. By changing the [handedness](#handedness-and-hit-type)
-of patterns before or after a certain pattern, you can make a certain pattern have the exact parity that you want.
+You can and should also play around parity when mapping. By changing the [handedness](#handedness-and-hit-type)
+of patterns (i.e. swapping doubles for stacks and vice versa), you can make a certain pattern have the exact parity that you want.
 This is a powerful tool, both for representation and gameplay purposes.
-As described [at the beginning of this page](#mapping-is-a-balancing-act), this usually has other downsides and constraints
-that will make it tricky. But the payoff is often worth it.
 
-Forehand and backhand hits are not interchangeable. They are inherently asymmetric.
+As described [at the beginning of this page](#mapping-is-a-balancing-act), controlling parity this way usually has other downsides and constraints
+that will make it tricky, but the payoff can be worth it.
+
+Forehand and backhand hits are not interchangeable, they are inherently asymmetric.
 
 Comfortable angles and positions are different for forehand and backhand hits. Backhand hits tend to be
-friendlier to outer lanes and forehand hits friendlier to inner lanes. Palm-out backhand hits are a lot more difficult
-and physically intense to play than palm-out forehand hits, whereas palm-up backhand hits can be more satisfying than palm-up
+more comfortable in the outer lanes and forehand hits more comfortable in the inner lanes.
+
+Palm-out backhand hits are a lot more difficult to play than palm-out forehand hits, whereas palm-up backhand hits can be easier than palm-up
 forehand hits. This relates to _swing curvature_, described in the section on [momentum](#momentum-and-tension).
 
-Perhaps more importantly, forehand hits are more comfortable to emphasize more and typically carry the initiative
-in terms of rotations and postures. That is, it is normally easier for the player to follow the movements you are
-trying to communicate if you use forehand hits to establish the critical swings for those motions.
+Perhaps more importantly, forehand hits are more comfortable to put emphasis on and typically carry more initiative
+in rotations and positioning. That is, it's normally easier for the player to follow the movements of the map if you use forehand hits to communicate the key swings for those motions.
 
 :::tip TIP
-It is easier to establish rotations and postures on forehand swings than on backhand swings.
+It's easier to establish rotations and postures on forehand swings than on backhand swings.
 :::
 
-As an example, initiating a [lean](#full-body-motion) is much more natural on a forehand swing than a backhand swing. Conversely,
-finishing a lean is more natural on a backhand swing than a forehand swing.
+As an example, entering a [lean](#full-body-motion) is much more natural on a forehand swing than on a backhand swing, whereas
+exiting a lean is more natural on a backhand swing than a forehand swing.
 
 <!-- prettier-ignore -->
 | ![Lean on forehand](/.assets/images/mapping/lean_forehand.png) | ![Lean on backhand](/.assets/images/mapping/lean_backhand.png) |
 | :-: | :-: |
 | Starting a lean on a forehand is quite natural | Starting a lean on a backhand may feel forceful and challenging |
 
-Unlike keeping parity, these are not rules that you must follow. Instead, they are notions that you can use to set up
-the patterns to achieve the exact feeling you are looking for.
+Unlike keeping parity, these aren't rules that you must follow. Instead, they're notions that you can use to set up
+your patterns and achieve the exact feeling you're looking for.
 
 ### Rotations
 
-_Rotations_ are variations in the angle of the cutting plane of the saber between subsequent hits for the same hand.
+_Rotations_ are changes in the angle of the note direction between subsequent hits for the same hand.
 
-Rotation angle naturally discounts parity. That is, subsequent hits with opposite parity on the same hand will have
-no rotation when the arrows between them are 180 degrees, and will have an 180 degree rotation when the arrows
+Rotation angle naturally assumes parity - that is, subsequent hits with opposite parity on the same hand will have
+no rotation when the arrows are 180 degrees apart, and have a 180 degree rotation when the arrows
 are the same direction. Rotations also have a _direction_ (clockwise or counter-clockwise).
-
-The following are some explained examples of rotations.
 
 <!-- prettier-ignore -->
 | Rotation examples | |
 | :-: | :-: |
-| ![No rotation](/.assets/images/mapping/no_rotation.png) | No (0 degrees) rotation (forehand to backhand) |
+| ![No rotation](/.assets/images/mapping/no_rotation.png) | No (0 degree) rotation (forehand to backhand) |
 | ![45 degrees CW](/.assets/images/mapping/45_degree_cw.png) | 45 degrees clockwise (forehand to backhand) |
 | ![45 degrees CCW](/.assets/images/mapping/45_degree_ccw.png) | 45 degrees counter-clockwise (forehand to backhand) |
 | ![45 degrees CW](/.assets/images/mapping/45_degree_cw_2.png) | 45 degrees clockwise (forehand to backhand), different starting angle |
@@ -708,23 +708,24 @@ The following are some explained examples of rotations.
 | ![45 degrees CW](/.assets/images/mapping/45_degree_cw_4.png) | 45 degrees clockwise (backhand to forehand) |
 | ![135 degrees CW](/.assets/images/mapping/135_degree_cw.png) | 135 degrees clockwise (forehand to backhand) |
 | ![180 degrees CW](/.assets/images/mapping/180_degree_cw.png) | 180 degrees clockwise (forehand to backhand) |
-| ![270 degrees CW](/.assets/images/mapping/270_degree_cw.png) | 270 degrees clockwise (forehand to backhand). If this was backhand to forehand, then it would be a mere 90 degree rotation. Parity matters as it drastically changes how it is played. |
+| ![270 degrees CW](/.assets/images/mapping/270_degree_cw.png) | 270 degrees clockwise (forehand to backhand). If this were backhand to forehand, it would only be a 90 degree rotation. Parity matters as it drastically changes how it is played. |
 
-Rotations are one of the most important aspects that affect [flow](#flow), for better and for worse.
-They are also closely related to [leaning](#full-body-motion). They can be an element of representation
-and provide some emphasis as well, though smaller rotations have very little emphasis.
+Rotations are one of the most important aspects that affect [flow](#flow),
+and are closely related to [leaning](#full-body-motion). Large rotations can also be a form of representation
+and provide some emphasis.
 
 :::tip TIP
 A map with good flow will keep rotations reasonable and consistent throughout, in both angle and direction,
 with harsher rotations happening for more emphasized swings and giving enough time to execute them.
 :::
 
-The angle (degrees) of a rotation is not the only measure of its playability. Apart from the particular [positioning](#spacing)
-of the notes and the relative speed of the swing, the starting angle / posture and the **direction** matter dramatically.
-There is a particular relation between which hand is rotating, parity, and direction of the rotation,
-that affects its intensity and feel. Sometimes we call this _swing curvature_, which we say can be _positive_ or _negative_.
-While both positive and negative curvature can and should be used, it is easier to implement big rotations
-on positive curvature without setup.
+The angle (degrees) of a rotation is not the only measure of its playability. On top of the particular [positioning](#spacing)
+of the notes and the speed of the swing, the starting angle and the **direction** matter dramatically.
+
+There is a particular relation between which hand is rotating, parity, and direction of the rotation
+that affects its intensity and feel. This is called _swing curvature_, which can be _positive_ or _negative_.
+While both positive and negative curvature can and should be used, it is easier to implement big rotations without setup
+on positive curvature.
 
 Swing curvature is discussed in more detail in the page on [momentum mapping](./advanced-mapping.md#momentum-mapping).
 
@@ -749,7 +750,7 @@ Large rotations without setup are easier on positive curvature.
 <!-- markdownlint-enable MD013 -->
 
 :::details Example
-Take a look at <https://allpoland.github.io/ArcViewer/?id=327f6&t=30>. In this section it is easy to see that
+Take a look at <https://allpoland.github.io/ArcViewer/?id=327f6&t=30>. In this section,
 the larger rotations are always done on positive curvature. For example:
 
 - 90 degree transition on left hand on beats 108-109.
