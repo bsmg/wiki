@@ -132,7 +132,7 @@ Cela va supprimer tous vos scores locaux ainsi que vos statistiques de jeu.
 
 #### 3.2 Comment utiliser le mod `x` ?
 
-Si vous utilisez Mod Assistant, cliquez sur le mod puis sur le bouton "Mod Info". [BeatMods](http://beatmods.com) a également un bouton "More Info" sur chaque mod.
+Si vous utilisez Mod Assistant ou BSManager, cliquez sur le mod puis sur le bouton "Mod Info"/"Plus d'info". [BeatMods](http://beatmods.com) a également un bouton "More Info" sur chaque mod.
 
 #### 3.3 Problèmes de vibration
 
@@ -275,7 +275,7 @@ Voici [un court guide vidéo (texte en anglais)](https://www.youtube.com/watch?v
 
 3. Réinstallez le jeu via Steam ou l'Oculus Store.
 4. **Avant de le modder, lancez le jeu une fois**
-5. Lancez Mod Assistant, installez vos mods et lancez le jeu.
+5. Lancez Mod Assistant ou BSManager, installez vos mods et lancez le jeu.
 
 (Facultatif) Si vous voulez aller plus loin dans la démarche, référez-vous à : [Supprimer le dossier BeatSaber dans AppData](#supprimer-les-sauvegardes-dans-appdata)
 

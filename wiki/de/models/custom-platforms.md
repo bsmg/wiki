@@ -11,7 +11,7 @@ next: false
 Custom Platforms ist ein PC-Only Mod.
 :::
 
-Die neueste Version des Custom Platforms Mod kann im [#pc-mods channel](https://discord.gg/beatsabermods) im BSMG Discord oder im [Mod Assistant](https://github.com/Assistant/ModAssistant) gefunden werden. Nach der Installation siehst du einen Ordner namens `CustomPlatforms` in deinem [Installationsordner](/de/faq/install-folder.md). Hier solltest du die `*.plat` Dateien ablegen, die du verwenden möchtest.
+Die neueste Version des Custom Platforms Mod kann im [#pc-mods channel](https://discord.gg/beatsabermods) im BSMG Discord, [Mod Assistant](https://github.com/Assistant/ModAssistant) oder im [BSManager](https://github.com/Zagrios/bs-manager) gefunden werden. Nach der Installation siehst du einen Ordner namens `CustomPlatforms` in deinem [Installationsordner](/de/faq/install-folder.md). Hier solltest du die `*.plat` Dateien ablegen, die du verwenden möchtest.
 
 Weitere Plattformen kannst du auf [ModelSaber](https://modelsaber.com/Platforms/) herunterladen.
 

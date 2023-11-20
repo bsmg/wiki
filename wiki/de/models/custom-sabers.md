@@ -13,7 +13,7 @@ Saber müssen speziell für Quest oder PC angefertigt werden und sind nicht zwis
 
 ### PC Saber
 
-Die neueste Version des Custom Saber Mod kann im [#pc-mods Channel](https://discord.gg/beatsabermods) im BSMG Discord oder im [Mod Assistant](https://github.com/Assistant/ModAssistant) gefunden werden. Starte Mod Assistant, wähle die Custom Saber Mod aus und klicke auf Installieren. Nach der Installation sehen Sie einen Ordner namens `CustomSabers` in Ihrem [Installationsordner](/de/faq/install-folder.md). Hier sollten Sie die `*.saber`-Dateien ablegen, die Sie verwenden möchten.
+Die neueste Version des Custom Saber Mod kann im [#pc-mods Channel](https://discord.gg/beatsabermods) im BSMG Discord, [Mod Assistant](https://github.com/Assistant/ModAssistant) oder im [BSManager](https://github.com/Zagrios/bs-manager) gefunden werden. Starte Mod Assistant oder BSManager, wähle die Custom Saber Mod aus und klicke auf Installieren. Nach der Installation sehen Sie einen Ordner namens `CustomSabers` in Ihrem [Installationsordner](/de/faq/install-folder.md). Hier sollten Sie die `*.saber`-Dateien ablegen, die Sie verwenden möchten.
 
 Weitere Saber kannst du auf [ModelSaber](https://modelsaber.com/Sabers/) herunterladen.
 

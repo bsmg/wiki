@@ -199,7 +199,7 @@ Hier sind einige Mods, die deinen Mapping Workflow erleichtern.
 - [SiraUtil](./basic-lighting.md#in-game-mit-fpfc) von **auros**  
   Erlaubt es dir mit dem "First Person Flying Controller (FPFC)", die Kamera frei mit Maus und Tastatur ohne VR-Headset zu steuern, während eine Map abgespielt wird. Den Link für den Mod findest du unter [Lighting-Grundlagen](./basic-lighting.md#in-game-mit-fpfc).
 - [PracticePlugin](https://github.com/Kylemc1413/PracticePlugin) von **Kyle1413**  
-  Ein Plugin für Beat Saber, mit dem du Wiedergabegeschwindigkeit verändern, durch das Lied springen und Wiedergabeschleifen erzeugen kannst. Installiere die neueste Version mit dem [Mod Assistant](https://github.com/Assistant/ModAssistant#readme)!
+  Ein Plugin für Beat Saber, mit dem du Wiedergabegeschwindigkeit verändern, durch das Lied springen und Wiedergabeschleifen erzeugen kannst. Installiere die neueste Version mit dem [Mod Assistant](https://github.com/Assistant/ModAssistant#readme) oder im [BSManager](https://github.com/Zagrios/bs-manager) !
 - [ReLoader](https://github.com/Kylemc1413/ReLoader) von **Kyle1413**  
   Erlaubt es dir, Veränderungen in deiner Map schnell neu zu laden ohne in das Menü zurückkehren zu müssen. Äußerst praktisch für Wall-Mapping.
 

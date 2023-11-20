@@ -66,7 +66,7 @@ Das `BeatSaver Downloader` Plugin erlaubt dir Songs im Spiel herunterzuladen, in
 
 ### BeatSaver
 
-[BeatSaver](https://beatsaver.com) ist die Haupt-Datenbank für Custom Songs, die von der Community erstellt worden ist. Viele andere Tools und Webseiten verbessern die Erfahrung beim Herunterladen von Custom Songs. BeatSaver ist aber die Seite, auf der sie zur Verfügung gestellt werden. Um gedownloadete Songs von der Seite zu installieren, entpacke und platziere diese in `Beat Saber/Beat Saber_Data/CustomLevels`. Du kannst auch das eingebaute Downloader-Plugin, BeatList oder das OneClick™ Install-Feature von Mod Assistant verwenden.
+[BeatSaver](https://beatsaver.com) ist die Haupt-Datenbank für Custom Songs, die von der Community erstellt worden ist. Viele andere Tools und Webseiten verbessern die Erfahrung beim Herunterladen von Custom Songs. BeatSaver ist aber die Seite, auf der sie zur Verfügung gestellt werden. Um gedownloadete Songs von der Seite zu installieren, entpacke und platziere diese in `Beat Saber/Beat Saber_Data/CustomLevels`. Du kannst auch das eingebaute Downloader-Plugin, das OneClick™ Install-Feature von Mod Assistant oder BSManager verwenden, oder im "maps" Tab von BSManager.
 
 ### Beast Saber
 
@@ -125,7 +125,8 @@ Ein Mod-Installer ist die empfohlene Methode, um Mods zu installieren. Siehe den
 
 ## Wie man Mods deinstalliert
 
-Entferne entweder die dll vom `Plugins` Ordner oder klicke auf den `Deinstallieren` Knopf im Mod Assistant.
+Entferne entweder die dll vom `Plugins` Ordner oder klicke auf den `Deinstallieren` Knopf im Mod Assistant oder BSManager (nachdem du deine Version ausgewählt hast, gehe zum 'Mods' Tab).
+
 
 ## Hilfe von der Community
 

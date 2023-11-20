@@ -93,7 +93,7 @@ Sei vorsichtig, wenn du Ereignisse genau in der Mitte von zwei Leuchten absetzt,
 In Beat Saber gibt es verschiedene eingebaute Umgebungen, die Teil des Basisspiels sind und mit wenigen Klicks genutzt werden können.
 
 ::: warning HINWEIS
-Von der Community erstellte benutzerdefinierte Umgebungsmodelle (Plattformen) existieren, erfordern jedoch die Mod "Custom Platforms", die derzeit nicht über den Mod Assistant verfügbar ist. Eine Beta-Version kann im `#pc-mods` Kanal des BSMG-Discord verfügbar sein.
+Von der Community erstellte benutzerdefinierte Umgebungsmodelle (Plattformen) existieren, erfordern jedoch die Mod "Custom Platforms", die derzeit nicht über den Mod Assistant oder BSManager verfügbar ist. Eine Beta-Version kann im `#pc-mods` Kanal des BSMG-Discord verfügbar sein.
 :::
 
 Die Grundstruktur jeder Umgebung ist meist gleich. Im [Mediocre Map Assistant 2](./mediocre-map-assistant.md) Editor sieht die Beleuchtungsspur wie folgt aus:
@@ -172,7 +172,7 @@ First Person Flying Controller (FPFC) ist ein Startparameter, der sowohl von Ste
 
 Damit kannst du mit WASD in der Karte "herumfliegen", mit der Taste <kbd>F2</kbd> das Pausenmenü öffnen oder mit der Taste <kbd>ESC</kbd> das Level verlassen (andernfalls musst du den Song zu Ende spielen).
 
-Installiere SiraUtil von Mod Assistant und führe Beat Saber aus, um eine config json-Datei zu erstellen. Bearbeite die Datei `SiraUtil.json` in deinem Ordner `UserData` und ändere `"Enabled": false` in `"Enabled": true` unter FPFCToggle und SongControl und folde dann den unten aufgeführten speicherplattenspezifischen Schritten.
+Installiere SiraUtil von Mod Assistant oder BSManager und führe Beat Saber aus, um eine config json-Datei zu erstellen. Bearbeite die Datei `SiraUtil.json` in deinem Ordner `UserData` und ändere `"Enabled": false` in `"Enabled": true` unter FPFCToggle und SongControl und folde dann den unten aufgeführten speicherplattenspezifischen Schritten.
 
 ![SiraUtil JSON Setting](/.assets/images/mapping/sirautil-FPFC.png)
 
