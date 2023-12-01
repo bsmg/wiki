@@ -146,7 +146,7 @@ Nearly every aspect of a map affects flow, so providing a list or summary here w
 Instead, in the more [technical sections](#technical-aspects-of-a-map) below we consistently refer to flow.
 
 :::tip TIP
-To understand flow, think about the relation between sequences of notes, not about individual patterns.
+To understand flow, think about the relation between sequences of notes, not about individual hits.
 :::
 
 :::details Read more...
@@ -376,7 +376,7 @@ reflect the intensity of the music.
 
 - Within a section, the most prominent sounds should be emphasized more, and the less prominent less emphasized.
   Emphasis can be done in a variety of ways, such as:
-  - Adding [larger hits](#handedness-and-types-of-patterns) (doubles, stacks, windows...) for oomph.
+  - Adding [larger hits](#handedness-and-hit-type) (doubles, stacks, windows...) for oomph.
   - [Spacing](#spacing) notes further apart to induce bigger swings.
   - Producing larger [rotations](#rotations) between note angles.
   - Mapping faster rhythms to induce [faster swinging](#swing-speed).
@@ -394,7 +394,7 @@ Emphasis is relative. If everything is emphasized, nothing is emphasized.
 
 :::details Example
 Map <https://allpoland.github.io/ArcViewer/?id=34f56> uses a wide variety of tools for emphasis, including faster patterns,
-heavier rotations, larger swings, bombs in various forms, arcs, cross-over patterns, dancier patterns, inlines,
+heavier rotations, larger swings, bombs in various forms, arcs, cross-over hits, dancier patterns, inlines,
 and palm-up and palm-out swings; to represent the variety of mood throughout the song and the
 relative intensity of the notes within each section and the sections between them.
 :::
@@ -480,9 +480,9 @@ that have great identity on top of competent representation and gameplay.
 :::details Examples
 
 - <https://allpoland.github.io/ArcViewer/?id=2853e&mode=Lawless&difficulty=ExpertPlus> is extremely memorable
-  because it introduces actual physical jump patternsin a fitness map in a song called "Jump Around" while
+  because it introduces actual physical jump patterns in a fitness map in a song called "Jump Around" while
   still being playable and fun.
-- <https://allpoland.github.io/ArcViewer/?id=2dd7f> focuses entirely on palm-out patterns that require a lot
+- <https://allpoland.github.io/ArcViewer/?id=2dd7f> focuses entirely on palm-out hits that require a lot
   of physicality to play,
   while still providing an interesting map; giving it very clear identity.
 - <https://allpoland.github.io/ArcViewer/?id=32901> takes a very slow song with growing intensity and heavy
@@ -606,7 +606,7 @@ The following is a list of standard hit types that mappers consider:
 <!-- prettier-ignore -->
 | Name | Example | Typical uses |
 | :-: | :-: | :-: |
-| Single | ![Single](/.assets/images/mapping/single.png) | Base pattern, for normal or small sounds. |
+| Single | ![Single](/.assets/images/mapping/single.png) | Base hit, for normal or small sounds. |
 | Slider | ![Sliders](/.assets/images/mapping/sliders.png) | Sounds with longer duration, reverberation or echo. "Burst" sounds. |
 | Chain | ![Chain](/.assets/images/mapping/chain_cm.png) | Similar use to sliders. |
 | Stack | ![Stack](/.assets/images/mapping/stack.png) | Sounds with moderate emphasis. Percussion. |
@@ -662,7 +662,7 @@ and down swings can be backhand - these are sometimes called _palm-up_ swings be
 This video demonstrates some more advanced concepts of parity: [YouTube](https://youtu.be/NF8ESZRXI1c)
 
 You can and should also play around parity when mapping. By changing the [handedness](#handedness-and-hit-type)
-of patterns (i.e. swapping doubles for stacks and vice versa), you can make a certain pattern have the exact parity
+of patterns (i.e. swapping doubles for stacks and vice versa), you can make a certain hit have the exact parity
 that you want.
 This is a powerful tool, both for representation and gameplay purposes.
 
@@ -1673,6 +1673,11 @@ and will automatically adjust spawn offset in accordance.
 Generally it's simplest to focus on **reaction time**, and ignore jump distance, half jump duration and spawn offset;
 letting them be automatically calculated.
 :::
+
+However, some mappers and players prefer that the half jump duration is aligned with the tempo
+of the music, typically on quarters of a beat. This will make the notes spawn in synchronization
+with the music. Many players do not care and/or do not notice this effect at all, while others do.
+Aiming for a precise reaction time or aligning the half jump duration with the music are both acceptable approaches.
 
 Reaction time preferences vary quite a bit between players. A shorter reaction time will make a map feel faster,
 will often help players time their swings more accurately, and reduce the amount of clutter. However, it will also
