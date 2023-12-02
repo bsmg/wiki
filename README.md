@@ -35,6 +35,21 @@ The Wiki has a built-in linter that runs automatically when you push commits to 
 
 Once you have finished making changes, you can either commit them directly using `git` tools, or copy them into the GitHub web interface if you don't know how to use `git`.
 
+## 🖧 Deployment
+
+To deploy your fork of the wiki to GitHub pages (for example to allow others to preview your changes):
+
+1. Open `/wiki/.vitepress/config.ts`.
+2. Search for `export default defineConfig({`.
+3. Add an entry to this dictionary with `base: '<reponame>'` where `<reponame>` is the name of your forked repository.
+4. In the same file, search for `sitemap: {`.
+5. Change the `hostname` entry to `https://<username>.github.io/<reponame>/)` where `<username>` is your GitHub username and `<reponame>` is the name of your forked repository.
+6. Enable GitHub pages from GitHub actions on your repository.
+![image](https://github.com/Undeceiver/BSMGwiki/assets/22258580/fb242848-1445-41c2-a065-ba00fc3e73d4)
+7. Whenever you push changes to the repository, GitHub will automatically attempt to deploy it. You can check the state in the Actions tab of your repository on GitHub.
+8. When you make a push request to the main repository, remember to exclude these changes!!
+
+
 ## 🔐 Licensing
 
 - The code that generates the wiki is licensed under the [MIT License](https://github.com/bsmg/wiki/blob/master/LICENSE).
