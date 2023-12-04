@@ -12,6 +12,92 @@ If you want to see us holding more fun events, please consider contributing to t
 
 ---
 
+## 2023 Halloween Competition
+
+The sixth annual Halloween contest. Now with spooky merch featuring art by JessyJams!
+
+---
+
+[Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/1167889624903991317)
+
+### Map Winners
+
+#### Vanilla
+
+- **1st:** [brz1128 - Howlin' Pumpkin](https://beatsaver.com/maps/36842) by **Dereknalox123**
+- **2nd:** [L'Orchestra Cinematique - This Is Halloween](https://beatsaver.com/maps/3681b) by **Xavier**
+- **3rd:** [Happy Halloween - More More Jump! ft. Kagamine Rin](https://beatsaver.com/maps/3683c) by **Joetastic**
+
+#### Lightshow
+
+- **1st:** [Lord Laharl's Hymn - Tenpei Sato ft. YURIA](https://beatsaver.com/maps/3685b) by **swukpuff**
+- **2nd:** [Azari - Whisper Whisper Whisper](https://beatsaver.com/maps/36872) by **shad**
+
+#### Modded
+
+- **1st:** [The Return - NIVIRO](https://beatsaver.com/maps/362e5) by **MadChase** and **Phøenix**
+- **2nd:** [C418 - Dead Voxel](https://beatsaver.com/maps/359ce) by **Phøenix**
+
+### Model Winners
+
+- **1st:** PC Platform [Saw Platform](https://bsmg.dev/RQ7ic) | [No jump scares](https://bsmg.dev/MrWMX) by **gamesequence**
+- **2nd:** PC Saber [jSpooky](https://bsmg.dev/tON2Q) by **joshibra**
+
+### Grand Prize
+
+**Dereknalox123's** map: [brz1128 - Howlin' Pumpkin](https://beatsaver.com/maps/36842)
+
+#### Download this year's submissions all together here
+
+Download the platform entry using the above link.  
+[PC Sabers](https://bsmg.dev/2023-Halloween-PC-Sabers) |
+[jSpooky Saber Quest Version](https://bsmg.dev/jSpooky-Quest-Ver) |
+[Maps](https://beatsaver.com/playlists/203171)
+
+## 2022 Christmas Competition
+
+The fifth annual Christmas contest. Helen provided an amazing Christmas themed plushie set this year!
+
+---
+
+[Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/1055930128384933990)
+
+### Map Winners
+
+#### Vanilla
+
+- **1st:** [Sunrise Skater Kids - 12 Days of a Pop Punk Christmas](https://beatsaver.com/maps/2ce79) by **JRE_McNuggies**
+- **2nd:** [NMIXX - Funky Glitter Christmas](https://beatsaver.com/maps/2cb55) by **eurnkung**
+- **3rd:** [Something Corporate - Forget December](https://beatsaver.com/maps/2cb99) by **TetsuBeats**
+
+#### Modded
+
+- **1st:** [Spaced Out Studio & Vizzwar - Carol Of The Bells (Dubstep)](https://beatsaver.com/maps/2cf71) by **Grantavious**
+
+_This category had a tie for 2nd place!_
+
+- **2nd:** [Ronettes - Sleigh Bells (Trap Remix)](https://beatsaver.com/maps/2cd79) by **Loopymtb**
+- **2nd:** [YuNi - Winter Berry](https://beatsaver.com/maps/2cdac) by **mikuri**
+
+#### Chroma/Lightshow
+
+- **1st** [O Come All Ye Faithful- Bad Religion](https://beatsaver.com/maps/2ccac) by **Popey**
+
+### Model Winners
+
+- **1st:** PC Platform [Winter Wonderland](https://modelsaber.com/Platforms/?id=1670536373&pc) by **SmokyJoe**
+- **2nd:** PC Saber [r_Happy Crimbo!](https://drive.google.com/file/d/1qZL620WOIoEchTTtJAeSRvtOGBGzlEC0/view?usp=sharing)
+  by **raz0rbeam.1763**
+
+### Grand Prize
+
+**Grantavious's** map: [Spaced Out Studio & Vizzwar - Carol Of The Bells (Dubstep)](https://beatsaver.com/maps/2cf71)
+
+#### Download this year's submissions all together here
+
+[PC Models](https://drive.google.com/file/d/1euUhT3PtgWmuwitk0QK2li-q2GK_Htft/view?usp=share_link) |
+[Maps](https://beatsaver.com/playlists/11230)
+
 ## 2022 Halloween Competition
 
 The fifth annual Halloween contest. Helen provided some spooooky bloq plushies this year!
@@ -49,8 +135,8 @@ PC Platform [HalloweenTPLAT](https://tonihub.com/HalloweenTPLAT.zip) by **Toni M
 
 #### Download this year's submissions all together here
 
-[PC Models](https://drive.google.com/file/d/17gXYjz-iQv7no_0jsP-vZfjO1MICiRhb/view?usp=sharing)
-[Quest Model](https://drive.google.com/file/d/1gcjvmILzCeZyEaA_jNaX7dv8EUy79avW/view?usp=sharing)
+[PC Models](https://drive.google.com/file/d/17gXYjz-iQv7no_0jsP-vZfjO1MICiRhb/view?usp=sharing) |
+[Quest Model](https://drive.google.com/file/d/1gcjvmILzCeZyEaA_jNaX7dv8EUy79avW/view?usp=sharing) |
 [Maps](https://beatsaver.com/playlists/9564)
 
 ## 2021 Christmas Competition
@@ -93,8 +179,8 @@ Congrats to all the finalists!
 
 #### Download this year's submissions all together here
 
-[PC Models](https://drive.google.com/file/d/1c07nCKHYjmdpsgWNqAv_mslokeyXHjsx/view?usp=sharing)
-[Quest Models](https://drive.google.com/file/d/1O4pCCoweQpO3_o3pVXW9yE1Aje35pWid/view?usp=sharing)
+[PC Models](https://drive.google.com/file/d/1c07nCKHYjmdpsgWNqAv_mslokeyXHjsx/view?usp=sharing) |
+[Quest Models](https://drive.google.com/file/d/1O4pCCoweQpO3_o3pVXW9yE1Aje35pWid/view?usp=sharing) |
 [Maps](https://beatsaver.com/playlists/4425)
 
 ## 2021 Halloween Competition
@@ -131,8 +217,8 @@ The fourth Halloween contest. CMB turned into a pumpkin!
 
 #### Download this year's submissions all together here
 
-[PC Models](https://drive.google.com/file/d/1Go3lt6fJLe4_WWXhcGSAsR-1DzUevrcF/view?usp=sharing)
-[Quest Models](https://drive.google.com/file/d/11Gy6_dTDYJNR9QXDM0Oe6mFPhEyZuP7C/view?usp=sharing)
+[PC Models](https://drive.google.com/file/d/1Go3lt6fJLe4_WWXhcGSAsR-1DzUevrcF/view?usp=sharing) |
+[Quest Models](https://drive.google.com/file/d/11Gy6_dTDYJNR9QXDM0Oe6mFPhEyZuP7C/view?usp=sharing) |
 [Maps](https://beatsaver.com/playlists/4424)
 
 ## 2021 Bloodcloak's Birthday Bash
@@ -239,7 +325,7 @@ The third Holiday/Winter contest, Christmas 2: Electric Padoru.
 
 #### Download this year's submissions all together here
 
-[Models](https://drive.google.com/file/d/1FO8kundrwt4PENKw6cB4crZ2h6Epzeaj/view?usp=sharing)
+[Models](https://drive.google.com/file/d/1FO8kundrwt4PENKw6cB4crZ2h6Epzeaj/view?usp=sharing) |
 [Maps](https://beatsaver.com/playlists/4423)
 
 ## 2020 Halloween Contest
