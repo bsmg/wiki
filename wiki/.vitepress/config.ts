@@ -145,6 +145,7 @@ export default defineConfig({
           ['Mapping Supports', '/about/mapping-supports'],
           ['3D Artists', '/about/3d-artists'],
           ['Translators', '/about/translators'],
+          ['Event Winners', '/about/event-winner'],
         ],
       },
       {
