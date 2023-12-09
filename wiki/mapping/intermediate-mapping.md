@@ -222,7 +222,7 @@ The best way to evaluate a map's readability is to get fresh testplays from play
 
 #### Mapper blindness
 
-A condition that most mappers, especially novices, experience, is called _mapper blindness_: where a mapper
+A condition experienced by most mappers, especially novices, is called _mapper blindness_: where a mapper
 will struggle to identify readability issues in their map because they already know
 the intended motion when they testplay it.
 
@@ -1429,33 +1429,35 @@ The following environments do not have clamping, so you can trust the arcs will 
 
 ### Momentum and tension
 
-_Momentum_ can refer to multiple concepts, most of which in one way or another are related to the physical
-notion of momentum. If you have physical intuitions about momentum, these will be useful to understand this section.
-However, keep in mind that there is more at play than pure physics when a player is playing a Beat Saber map.
-Several of the notions of momentum are relevant for [momentum mapping](./advanced-mapping.md#momentum-mapping),
-but in this section we focus on the one that is usually the most important: _Rotational momentum_.
+_Momentum_ can refer to multiple concepts, most of which relate in one way or another to the physical
+momentum of the body. If you have physical intuitions about momentum, these will be useful for understanding this section.
 
-At its most basic, rotational momentum is the notion that after a hand [rotates](#rotations) in one direction,
+Keep in mind, however, that there is more at play than pure physics when a player is playing a Beat Saber map.
+
+Several concepts are relevant for [momentum mapping](./advanced-mapping.md#momentum-mapping),
+but in this section we'll focus on one of the most intergal ones: _Rotational momentum_.
+
+At its most basic, rotational momentum is the idea that after a hand [rotates](#rotations) in one direction,
 it will build momentum, making it more comfortable to _continue rotating in the same direction_.
-The larger and faster a rotation is, the more momentum it generates.
+The larger a rotation is, the more momentum it generates.
 
 <!-- markdownlint-disable MD013 -->
 
 <!-- prettier-ignore -->
 | Rotational momentum | |
 | :-: | :-: | 
-| ![Playing with momentum](/.assets/images/mapping/momentum-yes.png) | This sequence *follows* momentum. The counter-clockwise rotation between the first two notes will make it more natural to continue into another counter-clockwise rotation. |
-| ![Playing against momentum](/.assets/images/mapping/momentum-no.png) | This sequence *breaks* momentum. After the first counter-clockwise rotation, trying to do a heavy rotation in the opposite direction will feel unnatural. Moreover, since this is done on negative curvature, it will make this sequence particularly awkward and have very bad flow for most players. |
+| ![Playing with momentum](/.assets/images/mapping/momentum-yes.png) | This sequence *follows* momentum. The counter-clockwise rotation between the first two notes makes it more natural to continue with another counter-clockwise rotation. |
+| ![Playing against momentum](/.assets/images/mapping/momentum-no.png) | This sequence *breaks* momentum. After the first counter-clockwise rotation, trying to do a heavy rotation in the opposite direction feels unnatural. Additionally, since this is done on negative curvature, it will make this sequence particularly awkward for most players. |
 
 <!-- markdownlint-enable MD013 -->
 
 :::tip TIP
-Following momentum by continuing rotating in the same direction after a rotation creates better flow.
+After a rotation, following momentum by continuing to rotate in the same direction creates better flow.
 :::
 
 Another aspect that significantly affects rotational momentum is relative [positioning](#hand-repositioning) of notes.
-This is mostly realized through the effect of _arm circles_. While this effect is more relative and depends on other factors,
-as a general rule, a circling motion in a direction will help generate rotational momentum in the same direction.
+This is mostly seen through the effect of _arm circles_. While this effect is more relative and depends on other factors,
+as a general rule, a circling motion in one direction will help generate rotational momentum in the same direction.
 
 <!-- markdownlint-disable MD013 -->
 
@@ -1468,7 +1470,7 @@ as a general rule, a circling motion in a direction will help generate rotationa
 <!-- markdownlint-enable MD013 -->
 
 :::tip TIP
-Use arm circles to help generate rotational momentum.
+Use arm circles in the same direction as rotation to help generate rotational momentum.
 :::
 
 In a more general sense, more inverted and horizontally displaced patterns generate more rotational momentum
@@ -1478,10 +1480,10 @@ than linear patterns.
 | Exploiting positioning to build momentum | |
 | :-: | :-: | 
 | ![Mediocre momentum](/.assets/images/mapping/momentum-meh.png) | While this sequence follows momentum, it does not build a lot of it due to the linearity of the second swing. |
-| ![Good momentum](/.assets/images/mapping/momentum-nice.png) | Making the second swing an inversion and horizontally displaced generates a circling motion that greatly helps the rotation on the last swing. |
+| ![Good momentum](/.assets/images/mapping/momentum-nice.png) | Making the second swing an inversion and horizontally displaced makes a circling motion that helps the rotation on the last swing. |
 
-Of course, if we just followed momentum forever, we would endlessly rotate in the same direction and never look back.
-Do not do this.
+Of course, if we just followed momentum forever, we would endlessly rotate in the same direction and never go back.
+Don't do this.
 
 <!-- markdownlint-disable MD013 -->
 
@@ -1489,23 +1491,26 @@ Do not do this.
 | Endless momentum |
 | :-: |
 | ![Endless momentum](/.assets/images/mapping/momentum-lol.png) |
-| Technically, this pattern follows momentum. However, it is obviously unplayable without resetting for essentially everybody. |
+| Technically, this pattern follows momentum, but it's obviously unplayable without resetting for essentially everybody. |
 
 <!-- markdownlint-enable MD013 -->
 
-The issue here is clear: the more we rotate, the more difficult it is to continue rotating. This is due to _tension_.
-While momentum depends mostly only on the angle transition and relative position of the notes, tension relates to the
-_absolute rotation_ of each individual swing. That is, the further away (in rotation) that we are from the _neutral posture_
-(typically, up/down or slightly palm-in), the more tension there is to rotate back towards the neutral position.
+The issue here is: the more we rotate, the more difficult it is to continue rotating. This is because of _tension_.
 
-Tension will build up as we continue rotating, and fight against momentum, until we reach a limit, or _apex_,
-and begin rotating in the opposite direction (which we sometimes call _momentum reversal_). At that point,
-all the accumulated tension will work with the rotations, generating back momentum in the opposite direction.
-The point of the apex depends on how much momentum was built up, but is an aspect that mappers should be conscious
-of and that will relate to emphasis and consistency in the map.
+While momentum depends mostly only on the angle transition and relative position of the notes, tension relates to the
+_absolute rotation_ of each swing. The further the swing angle is from a _neutral angle_
+(typically up/down or slightly palm-in), the more tension there is to rotate back towards a neutral position.
+
+Tension will build up as we continue rotating, and fight against momentum until we reach a limit, or _apex_,
+and begin rotating in the opposite direction (which we call a _momentum reversal_).
+
+At this point,
+all the built-up tension will work against the rotation, generating rotational momentum back in the opposite direction.
+The apex angle depends on how much momentum was built up, but is an aspect that mappers should be conscious
+of and can relate to the emphasis and consistency of a map.
 
 :::tip TIP
-The apex of rotations relates to the intensity, emphasis and consistency of the swings.
+Use the apex of rotations to control intensity, emphasis and consistency.
 :::
 
 <!-- markdownlint-disable MD013 -->
@@ -1514,7 +1519,7 @@ The apex of rotations relates to the intensity, emphasis and consistency of the 
 | Momentum apex |
 | :-: |
 | ![Momentum apex](/.assets/images/mapping/apex.png) |
-| In this very intense sequence, the apex hits (which are all forehand hits here) are on quite extreme postures, where all momentum has transformed into a lot of postural tension that is then released on the opposite direction. |
+| In this very intense sequence, the apex hits (which are all forehand hits here) are on quite extreme angles. Momentum has transformed into tension that is then released on the opposite direction. |
 
 <!-- markdownlint-enable MD013 -->
 
@@ -1527,14 +1532,14 @@ which then is used to accumulate potential energy on the other side, until an ap
 
 The physics interpretation should be taken with a grain of salt, though. There are two main caveats to consider:
 
-- Momentum is not only related to how the map plays. It can also be a great way to communicate intended motions,
-  and thus significantly help readability. This effect can be as much or more noticeable than the effect on gameplay
-  (specially on slower maps). [Momentum mapping](./advanced-mapping.md#momentum-mapping) heavily relies on this to
-  create a sublanguage of mapping where extreme hits are a lot more predictable due to the rules of momentum.
-- There are many other factors in a Beat Saber map. Breaking momentum will generally reduce readability and produce
-  awkward patterns, but this does not make them unplayable. The effect might be unperceivable, worth it for other reasons,
-  or actually purposeful. It is good to be aware of how momentum and tension work, but like most other rules in mapping,
-  you can choose to break them in clever ways to enhance your representation or gameplay and give your map identity.
+- Momentum is not only related to how the map plays. It can also be a great way to communicate intended motion,
+  significantly helping readability. This effect can have the same or even more impact on playability
+  (especially in slower maps). [Momentum mapping](./advanced-mapping.md#momentum-mapping) relies on this
+  "sublanguage" of mapping to make extreme hits a lot more predictable due to the rules of momentum.
+- There are many other factors in a Beat Saber map. Breaking momentum will theoretically reduce readability and cause
+  awkward patterns, but this doesn't make them unplayable. A momentum break might be imperceivable, worth it for other reasons,
+  or actually purposeful. It's good to be aware of how momentum and tension work, but like most other rules in mapping,
+  you can break them in clever ways to enhance your representation, gameplay, and map identity.
 
 :::tip TIP
 Momentum and tension relate as much to readability as they do to physical gameplay.
@@ -1548,7 +1553,7 @@ You can find a systematic approach to momentum, tension, and many other topics o
 [momentum mapping](./advanced-mapping.md#momentum-mapping).
 
 :::details Example
-Many mappers will follow momentum quite religiously in their maps. GalaxyMaster is a prominent example,
+Many mappers will follow momentum almost exclusively in their maps. GalaxyMaster is a prominent example,
 and you can see the principles at work in maps like
 <https://allpoland.github.io/ArcViewer/?id=362c5&t=31> .
 :::
@@ -1564,37 +1569,37 @@ and you can see the principles at work in maps like
 
 ### Pattern setup
 
-_Pattern setup_ refers to the immediate preparation before a pattern that helps read it and play it better.
-It is an abstract concept and it relates to all the things we have talked about so far, but it is worth to consider
-conceptually by itself.
+_Pattern setup_ refers to any immediate preparation before a pattern that helps readability and playability.
+It's an abstract concept that relates to all the things we've talked about so far, but it's worth considering
+the concept by itself.
 
 Pattern setup can be achieved by things like:
 
-- Cleverly using [handedness](#handedness-and-hit-type) before the pattern to make it clear what the handedness
-  of the pattern will be, for example through predictable handedness variations.
-- Using [handedness](#handedness-and-hit-type) before the pattern to enforce a certain [parity](#parity) on the pattern.
-- Carefully tailoring sequences of [rotations](#rotations) to achieve a particular angle or emphasis on the pattern.
-- Playing with [spacing](#spacing) to achieve a certain position or communicate certain emphasis.
+- Cleverly using [handedness](#handedness-and-hit-type) before a pattern to make it clear what handedness
+  the pattern will be, mainly by keeping variations consistent and predictable.
+- Using [handedness](#handedness-and-hit-type) to enforce a certain [parity](#parity) for a pattern.
+- Carefully tailoring sequences of [rotations](#rotations) to get a certain angle for a pattern.
+- Playing with [spacing](#spacing) to achieve a certain position.
 - Establishing a clear pattern of where [the hands should be](#hand-repositioning) that the player can
-  understand and engage with.
+  understand.
 - Using [rotations](#rotations) and [positioning](#hand-repositioning) to aid [full body motion](#full-body-motion).
 - Using [bombs](#bombs) to better communicate motions and make them more natural.
 - Etc.
 
 One key idea to consider when thinking about pattern setup is that you can work **both forwards and backwards in time**.
-You can place later patterns in the map based on what setup the earlier patterns produced; or you can retroactively modify
-earlier patterns to ensure certain properties that you want for later patterns.
+You can place patterns in the map in order, based on what setup the previous patterns produced; you can also create a
+specific pattern idea, and retroactively modify earlier patterns to ensure proper setup.
 
 :::tip TIP
-Pattern setup is often about adjusting earlier patterns to achieve a certain desired situation for a later pattern.
+Pattern setup is often about adjusting earlier patterns to create the desired situation for a later pattern.
 :::
 
 ### Jump settings
 
-_Jump settings_ are the settings affecting the whole map that change how fast the objects move towards the player
-and how far they spawn from the player.
+_Jump settings_ are settings affecting the whole map which change how fast the objects move towards the player
+and how far away they spawn.
 
-While there are more parameters, they depend on each other, and there are only 3 degrees of freedom on a map's
+While there are many jump parameters, most of them depend on each other. There are only 3 degrees of freedom in a map's
 jump settings: **BPM**, **Note Jump Speed (NJS)** and **Reaction Time (RT)**.
 
 _BPM_ is the tempo of the song. This should be set as part of your [audio setup](./basic-audio.md) and
