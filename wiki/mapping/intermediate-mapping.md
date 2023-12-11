@@ -1596,42 +1596,43 @@ Pattern setup is often about adjusting earlier patterns to create the desired si
 
 ### Jump settings
 
-_Jump settings_ are settings affecting the whole map which change how fast the objects move towards the player
+_Jump settings_ affect the whole map and change both how fast the objects move towards the player,
 and how far away they spawn.
 
-While there are many jump parameters, most of them depend on each other. There are only 3 degrees of freedom in a map's
-jump settings: **BPM**, **Note Jump Speed (NJS)** and **Reaction Time (RT)**.
+While there are many values that describe jump settings, most of them depend on each other.
+There are 3 parameters the game uses to define a map's
+jump settings: **BPM**, **Note Jump Speed (NJS)**, and **Spawn Offset**.
 
 _BPM_ is the tempo of the song. This should be set as part of your [audio setup](./basic-audio.md) and
 completely determined by the song itself, so while it varies between songs, it is not something you can adjust.
 
-_Note Jump Speed (NJS)_ controls the speed at which objects approach the player. It is measured in meters per second.
-It should be the first parameter you adjust after you do the audio setup, and if you readjust it later, you should
+_Note Jump Speed (NJS)_ controls the speed at which objects approach the player, in meters per second.
+It should be the first parameter you adjust after you do the audio setup. If you readjust it later, you should
 also readjust other jump parameters.
 
-NJS affects playability in two different and contradicting ways, but one of said effects is normally much more
+NJS affects playability in two different and contradicting ways, with one of of these normally being more
 noticeable than the other:
 
 - Higher NJS reduces the timing window to hit notes, making timing stricter. This can have cascading effects on gameplay,
-  incentivizing more stiff play, making [hand repositioning](#hand-repositioning) harder and ultimately increasing
+  incentivizing more stiff play, making [hand repositioning](#hand-repositioning) harder, and overall increasing
   the amount of misses the player will make. This effect might be hard for players to clearly identify while playing,
-  but will dramatically change the feel of the map even with small adjustments to NJS, quickly making it unplayable.
+  but will dramatically change the feel of the map even with small adjustments to NJS.
 
 - When a map is very dense and/or complex, creating lots of [clutter](#clutter), slightly higher NJS settings can
-  help readability by increasing the visual spacing between notes. This effect is small and will not compensate
-  for heavily cluttered maps, which should be fixed in other, more relevant, ways; but it can be a useful tool when the map
-  is inherently heavily populated and some extra help is required. Faster maps will also inherently impose
-  more strict timing on the swings, so a small increase in NJS will not have as dramatic an effect on timing
-  as it would on slower maps.
+  help readability by increasing the spacing between notes. This effect is small and won't compensate
+  for heavily cluttered maps, which should be fixed in more relevant ways, but it can be a useful tool when the map
+  is inherently very dense and some extra help is required. Faster maps will also naturally force
+  more strict timing on swings, so a small increase in NJS won't have as dramatic an effect on timing
+  compared to slower maps.
 
-Thus, the recommended approach to deciding NJS is to keep it _as low as possible, as long as the map is not too cluttered_.
+The recommended approach to deciding NJS is to _keep it as low as possible without the map getting too cluttered_.
 
 :::tip TIP
 Keep NJS as low as possible, and increase it only in small amounts when there is no better way to reduce clutter.
 16 is a good starting point for Expert+.
 :::
 
-There is, however, such a thing as too low NJS, depending on the map's speed, which will make timing harder
+There is, however, such a thing as too low NJS which will make timing harder
 to read and incentivize early swinging.
 We normally start from a baseline and adjust from there. Here are some recommended NJS ranges:
 
@@ -1640,29 +1641,38 @@ We normally start from a baseline and adjust from there. Here are some recommend
 <!-- prettier-ignore -->
 | NJS range | When to use | Example |
 | :-: | :-: | :-: |
-| 0-8 | **Do not use**. Excessively low. Timing becomes difficult and notes will easily clump together. | |
+| 0-8 | **Do not use**. Excessively low. Reading timing is difficult and notes will easily clump together. | |
 | 8-12 | **Very low NJS**. Adequate for Easy or Normal difficulty maps with very low note density. | <https://allpoland.github.io/ArcViewer/?id=27e38&mode=Standard&difficulty=Easy> |
 | 12-14 | **Low NJS**. Adequate for Normal or Hard difficulty maps, or Expert maps with low note density. | <https://allpoland.github.io/ArcViewer/?id=2eda5&mode=Standard&difficulty=Hard> |
-| 14-16 | **Mid-low NJS**. Most Hard and Expert maps will have NJS in this range. Some Expert+ maps with low note density and a floaty feel can also have this NJS. | <https://allpoland.github.io/ArcViewer/?id=2ddb0&mode=Standard&difficulty=Expert> |
+| 14-16 | **Mid-low NJS**. Most Hard and Expert maps will have NJS in this range, as well as some Expert+ maps with low note density and a floaty feel. | <https://allpoland.github.io/ArcViewer/?id=2ddb0&mode=Standard&difficulty=Expert> |
 | 16 | **Standard Expert+ NJS**. This is normally the baseline NJS most people start from for Expert+ maps. An Expert+ map of standard note density should probably have this NJS. | <https://allpoland.github.io/ArcViewer/?id=35136> |
 | 16-18 | **Mid-high NJS**. A lot of Expert+ maps will be in this range. The effect on timing is not very noticeable and it may help readability slightly. | <https://allpoland.github.io/ArcViewer/?id=322e6> |
 | 18-20 | **High NJS**. The effect on timing begins to be noticeable, but most people can play it. Use for moderately cluttered maps. | <https://allpoland.github.io/ArcViewer/?id=2cc29> |
-| 20-22 | **Very high NJS**. The effect on timing is very noticeable, changing the tension and stiffness of the player; as well as significantly increasing the difficulty of the map. However, for very fast and very complex maps, this NJS might be warranted. | <https://allpoland.github.io/ArcViewer/?id=3628f> |
-| 22-25 | **Extremely high NJS**. Arguably, no map should need to go this high, but for particularly extreme challenge or speed maps, some people might feel that this range is warranted. Timing is extremely tight and most players will have issues with it. | <https://allpoland.github.io/ArcViewer/?id=2d64a> |
+| 20-22 | **Very high NJS**. The effect on timing is very noticeable, affecting the player's swings; as well as significantly increasing the map's difficulty. For very fast and complex maps, this NJS might be warranted. | <https://allpoland.github.io/ArcViewer/?id=3628f> |
+| 22-25 | **Extremely high NJS**. Arguably, no map needs to go this high, but for particularly extreme challenge or speed maps, some people might feel that this range is warranted. Timing is extremely tight and most players will have issues with it. | <https://allpoland.github.io/ArcViewer/?id=2d64a> |
 | 25+ | **Do not use**. There is essentially no good reason to use NJS above 25 for any map. NJS becomes one of the main difficulties in the map. |
 
 <!-- markdownlint-enable MD013 -->
 
-The third and last degree of freedom is _reaction time_, which is directly linked to _half jump duration_, _spawn offset_
-and _jump distance_. Feel free to skip the following explanation, as it is not very relevant for most mappers.
+The third and last parameter is _spawn offset_, which is directly linked to 3 other values:
+
+- _half jump duration_ - how far away in beats objects spawn
+- _jump distance_ - how far away in meters objects spawn
+- _reaction time_ - how far away in milliseconds objects spawn
+
+In this dropdown is a technical explanation of these values, but it's not very relevant for most mappers.
 
 :::details
-Technically, a map has its base half jump duration calculated through an algorithm, based on the BPM and NJS.
-Then, the spawn offset gets added to it, to produce the final half jump duration, measured in beats, which is
-the number of beats ahead of their song time that objects spawns. The jump distance is then a consequence of the final
+A map's jump distance is technically defined by a value called half jump duration, which is
+the number of beats ahead of their song time that objects spawn.
+A map has a "base" half jump duration calculated through an algorithm, based on the BPM and NJS.
+Then, the spawn offset (also measured in beats) gets added to it, to produce the final half jump duration.
+
+The jump distance is then a consequence of the final
 half jump duration and NJS, and is measured in meters, being double the distance from the player to the notes when they spawn.
+
 The _reaction time_ is the amount of time, in milliseconds, ahead of an object's song time that it spawns.
-Basically, the amount of time a player has to see and process an object before it reaches them.
+Basically, the actual amount of time a player has to see and process an object before it reaches them.
 
 For example, for a map with 120 BPM and an NJS of 16, the base half jump duration will be calculated to be 2 beats.
 If the map has an offset of -0.5, that makes the final half jump duration 1.5 beats. At 120 BPM, that is 750 ms
@@ -1681,12 +1691,14 @@ letting them be automatically calculated.
 
 However, some mappers and players prefer that the half jump duration is aligned with the tempo
 of the music, typically on quarters of a beat. This will make the notes spawn in synchronization
-with the music. Many players do not care and/or do not notice this effect at all, while others do.
+with the music. Many players don't care and/or don't notice this effect at all, while others do.
 Aiming for a precise reaction time or aligning the half jump duration with the music are both acceptable approaches.
 
 Reaction time preferences vary quite a bit between players. A shorter reaction time will make a map feel faster,
 will often help players time their swings more accurately, and reduce the amount of clutter. However, it will also
-make a map feel more tense and players might struggle to process the objects and move in time. Many players use mods
+make a map feel more tense and players might struggle to process the objects and move in time.
+
+Many players use mods or in-game settings
 to adjust the reaction time of maps they play to their own taste. The reaction time of your map should be a reasonable
 reaction time for players that do not adjust it, based on the map's speed, the amount of clutter,
 and the physicality of the movements:
@@ -1703,8 +1715,8 @@ Here are some general reaction time ballparks:
 <!-- prettier-ignore -->
 | RT range | When to use |
 | :-: | :-: |
-| 0-350 ms | **Do not use**. Very few players can comfortably play at this range, and those who do will use mods to adjust it. |
-| 350-425 ms | **Very short RT**. It is rarely justified to set this as the default reaction time of a map, since players who require it will use mods. However, for extremely fast and very cluttered maps, it can make sense. |
+| 0-350 ms | **Do not use**. Very few players can comfortably play at this range, and those who can will use mods to adjust it themselves. |
+| 350-425 ms | **Very short RT**. It's rarely justified to set this as the default reaction time of a map, since players who require it will use mods. However, for extremely fast and very cluttered maps, it can make sense. |
 | 425-500 ms | **Short RT**. This is below what most players will use, but it might be reasonable for very fast maps. |
 | 500-600 ms | **Standard Expert+ RT**. Most Expert+ maps will be in this range, with 500 ms being more adequate for fast maps and 600 ms for slow maps with large movements. |
 | 600-750 ms | **Long RT**. This can be used for Expert+ maps if they involve particularly large or hard to process movements, but many players might struggle with early swinging or being confused with the amount of clutter. |
