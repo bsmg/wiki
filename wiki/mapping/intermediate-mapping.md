@@ -1732,25 +1732,27 @@ If you modify the NJS, readjust the reaction time.
 
 ### Vision
 
-_Vision blocks_ happen when the objects block each other on the player's vision, preventing the player from properly
-seeing and reading the map.
-The [basic page on vision blocks](./basic-mapping.md#vision-blocks) contains the most important notions on
-avoiding vision blocks. Vision blocks constitute one of the most critical challenges to [readability](#readability),
-and they can be one of the most alienating aspects of a map for players.
+_Vision blocks_ happen when an object obstructs the player's vision of another objects, preventing the ability to properly
+see and read the map. Vision blocks are one of the most critical challenges to [readability](#readability),
+and can be one of the most alienating aspects of a map for players.
 
-Vision can also constitute one of the biggest [constraints](#mapping-is-a-balancing-act) to mapping.
-Therefore, it can be very tempting to have worse vision for the sake of better [spacing](#spacing),
-[hand position](#hand-repositioning) or [momentum](#momentum-and-tension). However, this is discouraged.
+The [basic page on vision blocks](./basic-mapping.md#vision-blocks) contains the most important guidance on
+avoiding vision blocks.
+
+Vision are sometimes one of the biggest sources of [constraints](#mapping-is-a-balancing-act) to mapping,
+so it can be very tempting to have worse vision for the sake of better [spacing](#spacing),
+[hand position](#hand-repositioning) or [momentum](#momentum-and-tension). This is discouraged, though.
+
 If something truly is a vision problem, fixing that should be a priority.
-Ideally, you want to find solutions that keep acceptable vision while having better properties in the other dimensions.
+Ideally, you want to find a solution that keeps acceptable vision while having the best possible properties in other aspects.
 
 :::danger Bad Practice
-Don't sacrifice vision for the sake of pattern setup. This alienates players and is harder to notice the effect of
-due to mapper blindness. Find solutions that are within acceptable vision ranges.
+Don't sacrifice vision for the sake of pattern setup. This alienates players and the effects are harder to notice
+due to mapper blindness. Find patterns that are within acceptable vision ranges.
 :::
 
-But what truly constitutes a vision issue? This question is really difficult to answer accurately.
-Here are some general principles, though all of them have exceptions:
+But what truly constitutes a vision issue? This is really difficult to answer accurately.
+There are some general principles, though all of them have exceptions:
 
 - Vision blocks are almost always produced by face notes (notes in the middle two lanes) blocking notes
   in the same half of the play area.
@@ -1761,8 +1763,8 @@ Here are some general principles, though all of them have exceptions:
 - When there is enough time between the notes, the player might be able to see the note behind in time to process it
   after swinging through the previous one.
 - Vision blocks are subjective. Different players will have different experiences.
-- Vision blocks become a smaller issue with replays of the map.
-- Vision blocks can be much less problematic with better [pattern setup](#pattern-setup), specially when using good
+- Vision blocks become a smaller issue when replaying the map.
+- Vision blocks can be made less problematic with better [pattern setup](#pattern-setup), especially when using good
   [momentum](#momentum-and-tension) and [context](#map-context).
 
 The best approach to vision blocks is **practical**. Try, evaluate, adjust. There are two main aspects to this:
@@ -1770,8 +1772,8 @@ The best approach to vision blocks is **practical**. Try, evaluate, adjust. Ther
 - Check the vision on any potentially problematic patterns while mapping. This can be done by checking ingame,
   or by using [ArcViewer](https://allpoland.github.io/ArcViewer/), a map preview tool that is geometrically accurate
   to the game's positions, sizes and spawning animations, making it a great tool to judge vision.
-- Get external testplays from other players or mappers. Preferably, sight reads where they are not familiar with the map,
-  to be able to evaluate the raw effect of vision blocks.
+- Get external testplays from other players or mappers, preferably sight reads where they are not familiar with the map,
+  to evaluate the actual effect of vision blocks.
 
 :::tip TIP
 The best approach to vision blocks is **practical**. Check ingame, use vision accurate previews and external testplays
@@ -1780,48 +1782,49 @@ to determine the effect of potentially problematic vision blocks.
 
 ### Map context
 
-Where [pattern setup](#pattern-setup) refers to the immediate preparation of the player before a pattern, _map context_
-refers to a more abstract notion of setting expectations within the map by establishing regular conceptual approaches
-and patterns that the player understands and interiorizes.
+Where [pattern setup](#pattern-setup) refers to the immediate preparation before a pattern, _map context_
+refers to the more abstract idea of setting expectations within the map by using repeating concepts
+and/or patterns that the player understands and internalizes.
 
-Map context can mainly affect the [readability](#readability) of patterns, with the very same pattern turning
-from unreadable to obvious if it appears in different maps after different contextualizations. Context can also even affect
-other aspects of playability. For example, by having the player expect larger [rotations](#rotations),
+Map context can mainly affect the [readability](#readability) of patterns, with the same pattern changing
+from unreadable to obvious if it appears in a different map with different context.
+
+Context can also affect
+other aspects of playability by influencing the player's playstyle. For example, by setting the expectation for
+larger [rotations](#rotations),
 more [full body motion](#full-body-motion), being consistent about how much [hand repositioning](#hand-repositioning)
 the patterns require to avoid handclaps and arm tangles, or establishing whether [momentum](#momentum-and-tension)
-is respected and should be expected or not.
+should be expected or not.
 
-It would be difficult to provide a full list of all aspects where map context is relevant, but we can point out
-some typical aspects where map context can greatly help make certain patterns playable,
-by establishing implicit rules that are followed throughout the map:
+It would be difficult to provide a full list of all aspects where context is relevant, but we can point out
+some typical aspects where it's helpful for making certain patterns playable:
 
-- When making hard to follow [parity](#parity) (for example, by using palm-up swings, resets, or both),
+- When making hard-to-follow [parity](#parity) (for example, by using palm-up swings, resets, or both),
   be consistent about it.
-- Establish the expected [intensity of rotations](#rotations) early on, and keep it consistent,
+- Establish the expected [intensity of rotations](#rotations) early on, and keep it consistent
   with respect to the intensity of the music.
-- Use [spacing](#spacing) consistently to signpost specific patterns and make them stand out more,
-  making them easier to read.
-- Keep a regular and clearly understandable policy for when the [hands should be repositioned](#hand-repositioning)
-  horizontally that makes the map more comfortable to play.
-- Establish your [full body motion](#full-body-motion) patterns clearly from the beginning of the map.
-- When using [bombs](#bombs), be consistent about how you present bombs that are cosmetic,
-  bombs that should hold postures, and bombs that should produce resets. That way, players will learn the pattern
+- Use [spacing](#spacing) consistently to signpost specific patterns, making them stand out more and easier to read.
+- Keep a regular and clear policy for when the [hands should be repositioned](#hand-repositioning)
+  horizontally, making the map more comfortable to play.
+- Establish your [full body motion](#full-body-motion) patterns clearly from the start of the map.
+- When using [bombs](#bombs), be consistent about how you present cosmetic bombs,
+  hold bombs, and bomb resets. That way, players will learn the pattern
   and read bombs much more easily.
-- Be consistent in the intensity of [apex rotations](#momentum-and-tension), with respect to the intensity of the music,
-  so that players will find it easier to predict when to continue rotating and when to reverse momentum.
+- Be consistent in the intensity of [apex rotations](#momentum-and-tension) with respect to the intensity of the music,
+  so players can predict when to continue rotating and when to reverse momentum.
 
-Map context is particularly critical in "gimmick" maps, or maps that aim to break some conventional rule about mapping,
-so that the way in which the rule is broken is clear to the player.
+Map context is particularly critical in "gimmick" maps, or maps that aim to break some conventional rules about mapping,
+so that the way in which the rules are broken is clear to the player.
 
 :::tip TIP
-If you want to use risky, unconventional, or extreme patterns, it is very advisable to introduce them early on
+If you want to use risky, unconventional, or extreme patterns, it's usually best to introduce them early on
 in the map in clear ways.
 :::
 
 :::details Example
 <https://allpoland.github.io/ArcViewer/?id=35b26> uses very unconventional flow, with lots of palm-out hits,
 some of which are also inverted. However, it establishes a clear pattern of swaying and leaning in a sort of
-conflicting way very early and keeps it going through the whole map, with consistency on how the swings transition
+conflicting way very early and keeps it going through the whole map, with consistency in how the swings transition
 and both their parity and angles. This allows the player to engage with this style of movement
 early on and have a much better time playing the map.
 :::
