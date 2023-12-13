@@ -74,7 +74,7 @@ The following are all good but very different maps, because they target very dif
 ### Mapping is a balancing act
 
 Usually, there are trade-offs that you need to decide on in your map.
-Better representation might require less comfortable gameplay, or making your ideas playable might make them too easy.
+Better representation might require less comfortable gameplay, or making your ideas playable might make them too simplistic.
 In order to make vision work you may have to use suboptimal positioning,
 or you may have less consistent emphasis to achieve better body motion.
 
@@ -90,9 +90,8 @@ Consider <https://allpoland.github.io/ArcViewer/?id=2c25a&t=0> on beats 0-40 and
 There are kicks on beats 8, 11, 16, 19, 24, 27, 32, 35 and finally 40.
 All of them are mapped as doubles with scissor parity, **except** 40, which is mapped as a stack.
 
-This is because this last one comes after a slightly fast section, and mapping 40 as a double as well would have
-created a _gallop_ pattern which would have been a bit uncomfortable to play, and the mapper was interested
-in a particular parity on the right hand for the representation and gameplay of the following patterns.
+The main reason behind this is to prevent the right hand from starting on a forehand swing in this section,
+which would have made the parity opposite to what it was in the previous iteration of the same musical structure.
 
 Thus, the mapper decided to be a little loose on representation,
 mapping it as a stack instead of a double on this occasion.
@@ -133,7 +132,7 @@ even though there is still subjectivity involved.
 
 _Flow_ is one of the hardest to define - but still widely used - terms in Beat Saber mapping jargon.
 A general definition is the way in which the movements
-implied by the map's notes, bombs, and walls transition into and between each other over time.
+implied by the map's notes, bombs, and walls transition between each other over time.
 
 Usually, we say that a map "flows well" when it's comfortable and natural to play,
 and the movements are intuitive and physically pleasant.
@@ -142,7 +141,7 @@ However, there's no written rule that a map must "flow well" to be a better map.
 less comfortable flow can be used as a tool for emphasis and representation,
 or simply as a means to increase the difficulty of the map.
 
-Nearly every aspect of a map affects flow, so providing a list or summary here would not make it justice.
+Nearly every aspect of a map affects flow, so providing a list or summary here would not do it justice.
 Instead, in the more [technical sections](#technical-aspects-of-a-map) below we consistently refer to flow.
 
 :::tip TIP
@@ -159,7 +158,7 @@ of some of the terminology often used when discussing flow.
 When talking about map _speed_, we usually refer to the speed that the player must [swing](#swing-speed) to hit the notes.
 
 Speed is one of the most easily quantifiable measures of a map in terms of difficulty,
-its relation to the rhythm choice, and in terms of how intense it feels to play it.
+its relation to the rhythm choice, and how intense it feels to play.
 It's not fully determined by rhythm choice, though; it also depends on
 how the sounds are mapped between the two hands.
 
@@ -253,7 +252,7 @@ this kind of motion, but could be completely unexpected in a different map.
 
 #### Clutter
 
-An important challenge to readability is _clutter_, caused by an overload of information on the player.
+An important challenge to readability is _clutter_, where patterns are visually difficult to process by the player.
 Clutter is more likely to happen when a map is faster, as it will have more notes approaching the player
 at any given moment.
 
@@ -265,7 +264,7 @@ are the main ways to reduce clutter, although it can sometimes be very difficult
 
 _Difficulty_ is ultimately a combination of other aspects, but it can be useful to identify independently.
 
-Readability, flow, and speed are the main factors conditioning a map's difficulty.
+Readability, flow, and speed are the main factors affecting a map's difficulty.
 Difficulty should normally be a consequence of other aspects of the map, and be accounted for.
 
 We say that a map has _artificial difficulty_ if it includes elements that make it more difficult
@@ -304,11 +303,10 @@ certain patterns and maps are easier to achieve a higher score on than others.
 Scoring concerns typically become more relevant when the target audience regularly
 achieves a full combo on the map, or is close to it.
 
-At these levels, scorability of a map (often called _accability_) relates to how easy / possible
+At these levels, _accability_ relates to how easy / possible
 it is to get high _accuracy_ on the notes. That is, how easy / possible it is to hit the notes in the center.
 
 Generally, most maps don't need to worry about how accable they are, unless it's relevant to your target audience.
-Maps that focus on improving accability are called _Accuracy_ maps.
 
 The easiest ways to increase accability include making swings more linear and ensuring the cut direction
 of notes goes from the centre outwards.
@@ -385,8 +383,6 @@ reflect the intensity of the music.
   - Using [bombs](#bombs) to generate tension or secondary movements.
 - The intensity of the mapping in each section, relative to other sections, should be somewhat in line with the intensity
   of the music.
-- Deviation from the intensity of the music is fine, so long as sections are not excessively more or less intense relative
-  to the rest of the map.
 
 ::: tip TIP
 Emphasis is relative. If everything is emphasized, nothing is emphasized.
@@ -418,7 +414,7 @@ Consistency comes into play in two places: within a section and when comparing s
   the established patterns and rhythms is appreciated.
 - Similar sections of the song usually benefit from having similar mapping.
 - Contrasting sections of the song benefit from contrasting mapping.
-- Representing small variations in the music through small variations in the mapping
+- Representing variations in the music through variations in the mapping
   while preserving consistency is ideal.
 
 ::: tip TIP
@@ -1847,4 +1843,4 @@ written by EmotionalFlight should be useful for people looking to learn to map 9
 Content in this section was authored by [Checkthepan](./mapping-credits.md#checkthepan), [CyanSnow](./mapping-credits.md#cyansnow),
 [Uninstaller](./mapping-credits.md#uninstaller), [Skyler Wallace](./mapping-credits.md#skyler-wallace),
 [Kolezan](./mapping-credits.md#kolezan), [Pyrowarfare](./mapping-credits.md#pyrowarfare), [DarkGrisen](./mapping-credits.md#darkgrisen),
-[Vaser888](./mapping-credits.md#Vaser888) and Undeceiver.
+[Vaser888](./mapping-credits.md#Vaser888), Undeceiver and AllPoland.
