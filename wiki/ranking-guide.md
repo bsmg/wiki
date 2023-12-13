@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: Learn how Beat Saber's scoring system and community ranking works!
 ---
 
 # Ranking & Scoring Guide

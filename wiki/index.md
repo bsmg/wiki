@@ -4,8 +4,8 @@ titleTemplate: false
 
 hero:
   text: BSMG Wiki
-  tagline: Welcome to the Beat Saber Modding Group Wiki!
-  description: Welcome to the Beat Saber Modding Group Wiki!
+  tagline: Welcome to the Beat Saber Modding Group Wiki! Learn how to mod Beat Saber, create custom content, and get involved in the community!
+  description: Welcome to the Beat Saber Modding Group Wiki! Learn how to mod Beat Saber, create custom content, and get involved in the community!
 
   actions:
     - theme: brand

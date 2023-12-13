@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: Learn how to mod Beat Saber on your Quest using a Raspberry Pi!
 ---
 
 # Quest Modding with a Raspberry Pi

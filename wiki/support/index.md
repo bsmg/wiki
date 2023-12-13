@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: Common troubleshooting steps and tips when modding the game on PC.
 ---
 
 # Support
