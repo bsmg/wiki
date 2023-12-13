@@ -1830,14 +1830,6 @@ GalaxyMaster has published [some thoughts](https://docs.google.com/document/d/1q
 on pattern setup versus map context.
 :::
 
-### 90/360 mode
-
-Unfortunately, the current writer of this page (Undeceiver) does not have enough experience in these modes
-to feel comfortable giving advice on them.
-
-[This guide](https://docs.google.com/document/d/1U2nhsYyzTPW2zl4sXIHi2gKnTdB9Gcdlf-Fag40Ap9g/edit?usp=sharing)
-written by EmotionalFlight should be useful for people looking to learn to map 90/360 maps.
-
 ## Credits
 
 Content in this section was authored by [Checkthepan](./mapping-credits.md#checkthepan), [CyanSnow](./mapping-credits.md#cyansnow),
