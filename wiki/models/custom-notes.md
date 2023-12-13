@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: Information on how to get and use custom notes in-game!
 ---
 
 # Custom Notes

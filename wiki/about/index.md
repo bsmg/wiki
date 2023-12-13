@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: Learn about some of the major Beat Saber modding community contributors as the community wouldn't exist without the blood, sweat, and tears of these amazing volunteers.
 ---
 
 # About Us

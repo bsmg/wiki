@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: Information on how to get and use custom sabers in-game!
 ---
 
 # Custom Sabers

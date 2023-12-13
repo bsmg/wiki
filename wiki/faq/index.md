@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: Frequently Asked Questions relating to modding, the community, and the game!
 ---
 
 # Frequently Asked Questions

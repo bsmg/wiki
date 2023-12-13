@@ -1,7 +1,7 @@
 ---
 prev: false
 next: false
-description: Get Started in the Right Direction!
+description: Get started in the right direction modding Beat Saber!
 ---
 
 # Beginners Guide
