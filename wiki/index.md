@@ -4,9 +4,10 @@ titleTemplate: false
 description: The Beat Saber Modding Group Wiki. Learn how to mod Beat Saber, create custom content, and get involved in the community!
 
 hero:
-  text: Welcome to the Beat Saber Modding Group Wiki!
+  text: |
+    Welcome to the
+    Beat Saber Modding Group Wiki!
   tagline: Learn how to mod Beat Saber, create custom content, and get involved in the community!
-
   actions:
     - theme: brand
       text: Beginners Guide
