@@ -61,7 +61,8 @@ const sidebar = (...items: SidebarItem[]): DefaultTheme.SidebarMulti => {
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'BSMG Wiki',
-  description: 'BSMG Wiki',
+  description:
+    'Guides on how to mod Beat Saber, create custom content, and get involved in the community!',
   lastUpdated: true,
 
   head: [['link', { rel: 'icon', href: '/icon.png' }]],
