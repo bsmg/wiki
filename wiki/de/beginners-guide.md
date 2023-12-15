@@ -1,8 +1,6 @@
----
-prev: false
-next: false
-description: Starte in die richtige Richtung!
----
+- - -
+prev: false next: false description: Get started in the right direction modding Beat Saber!
+- - -
 
 # Anfänger Guide
 
@@ -28,14 +26,15 @@ Wenn du die Oculus Quest Version des Spiels verwendest, folge unserer [Quest Mod
 
 Anwendbare Hardware umfasst:
 
-- Oculus Quest/Quest 2
+- Meta Quest
+- Meta Quest 2
 
 ## Inhalt erstellen
 
 Einer deiner Lieblings-Songs ist nicht verfügbar? Du hast eine Mod-Idee, die du umsetzen möchtest? Möchtest du ein Custom Modell, das du im Spiel verwenden möchtest? Dies kannst du auf zwei Arten erreichen.
 
 - Beauftrage jemanden in der Community im [Commissions Discord](https://discord.gg/e4f3WBBVnr)
-- Erfahre wie du es selbst machen kannst, indem du die unten stehenden Ressourcen verwendest!
+- Erfahre, wie du es selbst machen kannst, indem du die unten stehenden Ressourcen nutzt!
 
 ### Maps erstellen
 
@@ -53,4 +52,4 @@ Lerne, wie man 3D-Modelle für das Spiel erstellt!
 - [Avatare](./models/avatars-guide.md)
 - [Plattformen](./models/platforms-guide.md)
 - [Notes](./models/notes-guide.md)
-- **Custom Walls** Zurzeit ist noch keine Anleitung verfügbar, aber eine ist in Arbeit.
+- **Custom Walls** Derzeit ist noch keine Anleitung verfügbar, es ist aber eine in Arbeit.

@@ -1,37 +1,29 @@
 ---
-prev: false
-next: false
+sidebar: auto
 ---
 
 # Erreurs
-
 Explications rapides des erreurs qui surviennent généralement quand on modde notre jeu. Les explications portant des numéros signifient que l'une d'elles peut être la cause.
 
 ## ArgumentException
-
 Le chemin est une chaîne de caractère vide (taille 0), ne contient que des espaces ou contient un ou des caractères invalides définis par `InvalidPathChars`.
 
 ## ArgumentNullException
-
 Le chemin est `null`.
 
 ## DirectoryNotFoundException
-
 Le chemin indique est invalide.
-
 > Exemple : ce n'est pas un disque existant.
 
 ## IOException
 
 1. Le fichier spécifié est utilisé.
-2. Il y a un _handle_ ouvert sur le fichier, et le système d'exploitation est Windows XP ou antérieur. Ce _handl_ ouvert peut résulter en l'énumération des répertoires et fichiers.
+2. Il y a un *handle* ouvert sur le fichier, et le système d'exploitation est Windows XP ou antérieur. Ce *handl* ouvert peut résulter en l'énumération des répertoires et fichiers.
 
 ## NotSupportedException
-
 Le chemin a un format invalide.
 
 ## PathTooLongException
-
 Le chemin spécifié, le nom du fichier ou les deux cumulés excèdent la taille maximum définie par le système.
 
 ## UnauthorizedAccessException

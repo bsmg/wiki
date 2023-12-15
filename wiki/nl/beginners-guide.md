@@ -1,8 +1,6 @@
----
-prev: false
-next: false
-description: Ga aan de slag in de juiste richting!
----
+- - -
+prev: false next: false description: Get started in the right direction modding Beat Saber!
+- - -
 
 # Gids voor beginners
 
@@ -28,7 +26,8 @@ Als je de Oculus Quest versie van het spel gebruikt, volg dan onze [Quest Moddin
 
 Hardware waarbij dit geld:
 
-- Oculus Quest/Quest 2.
+- Meta Quest
+- Meta Quest 2
 
 ## Content maken
 

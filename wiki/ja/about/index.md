@@ -1,60 +1,79 @@
 ---
 prev: false
 next: false
+description: Learn about some of the major Beat Saber modding community contributors as the community wouldn't exist without the blood, sweat, and tears of these amazing volunteers.
 ---
 
-# 私たちについて
+# About Us
 
-あの素晴らしい Mod の作者や Mod インストーラーの開発者をご存じですか？ このページではいくつかの主要な Beat Saber modding community の貢献してくださる方々について紹介します。 この素晴らしいボランティアの血と汗と涙がなければこのコミュニティは存在しません。
+Ever wonder who made your favorite mod or created the mod installer? This page tells you a little bit about some of the
+major Beat Saber modding community contributors. The community wouldn't exist without the blood, sweat,
+and tears of these amazing volunteers.
 
-> _Note: 何人かは複数の所属をもつので、できる限りページを見やすく並べ替えました。 もし変更された項目に何かご希望の場合は、お気軽にお問い合わせください。_
+> _Note: some people could go under multiple sections, so I tried to sort these pages the best I could.
+> If you'd like anything about your section changed, feel free to contact us or contribute yourself!_
 
-## 私たちについて
+## Who We Are
 
 ### [Staff](./staff.md)
 
-いくつかのシーンの最前線と裏方を運営するチームです。 プロジェクトの管理、プラグインの承認、中枢サービスの管理、イベントの調整、そのほか多くの見えないプロジェクトなどたくさんのタスクがあります。 この素晴らしい個人が貢献した膨大な時間がなければ、このコミュニティは存在しないでしょう。 彼らに感謝をしましょう。(そして、可能なら支援をお願いします)
+The team that runs the show at the forefront and behind the scenes. Whether it comes to project management, plugin/mod approval,
+managing the core services, event coordination, or many of the other secret projects, there's always lots of work to be done.
+The community wouldn't exist without the countless hours contributed by these incredible individuals, so please give them
+a virtual round of applause (and help pay for the services if you can...)
 
-### [Moderators（モデレーター）](./moderators.md)
+### [Moderators](./moderators.md)
 
-非常に大きなサーバーでは、すべてを制御するために多くのモデレーションが必要です。 このチームがサーバーをクリーンにしてくれることに感謝します。
+With a server so large, a lot of moderation is required to keep everything under control.
+You can thank this team for keeping the streets clean.
 
-### [Modders（Mod 製作者）](./modders.md)
+### [Modders](./modders.md)
 
-私たちが知っているようなゲームは、Mod 製作者が自分のスピンを追加しなかったら存在しません。 こちらはゲームを快適にするために数え切れないほどの時間を費やしてきた MOD 製作者です。
+The game as we know it wouldn't exist if people didn't want to add their own spin to it. These are the modders who have
+spent countless of their own hours to help us personalize the game.
 
-### [Supports（サポート）](./supports.md)
+### [Supports](./supports.md)
 
-「サポート」の役割は感謝のシンボルです。 Mod を整理するのを助けるため、 マクロや wiki によるトラブルシューティングの基礎知識を得るためにサポートチャンネルに送信された何千ものメッセージをありがとうございました。
+The Support role is a symbol of thanks. Thanks for the thousands of messages sent in the support channels to help people
+sort out their mods, and for building a knowledge of troubleshooting base through macros and the wiki.
 
-### [Mapping Supports（マッピングのサポート）](./mapping-supports.md)
+### [Mapping Supports](./mapping-supports.md)
 
-「マッピングのサポート」の役割は感謝のシンボルです。 マッピングのディスカッションチャンネルで送ってくださった何千ものメッセージと、マップの作成方法を学ぶためのマッピングリソースの構築と維持に費やされた労力に感謝します。
+The Mapping Support role is a symbol of thanks. Thanks for the thousands of messages sent in the mapping discussion channel
+and time spent building and maintaining the mapping resources to help people learn how to make maps.
 
-### [3D Artists（3D モデル制作者）](./3d-artists.md)
+### [3D Artists](./3d-artists.md)
 
-セイバーからノーツまで、カスタムモデルもまた MOD ビートセイバーの側面であり、彼らなしではなしえません。
+From sabers to notes, custom models have always been a popular aspect of modded beat saber which wouldn't
+be possible without them.
 
-### Mappers（マップ製作者）
+### Mappers
 
-あなたの好きな譜面は、才能のあるマップ製作者によって時間をかけて慎重に作成され、テストされています。 もしここに彼らを含めたいと思っているのであれば、方法たくさんあります。 誰かのマップが気に入ったら、ゲーム内で評価したり、 [BeastSaber](https://bsaber.com)でレビューしたり、個人的に伝えてみてください！ 彼らはとても感謝すると思います。
+Each of your favorite maps is carefully crafted and tested over many hours by a talented mapper. As much as we'd love to
+include them here too, there are WAY too many of them. If you like someone's maps, give it a thumbs up in game, review it
+on [BeastSaber](https://bsaber.com), or tell them personally! They'll really appreciate it.
 
-> さらに、コミュニティが運営する Discord では、マップ製作者/アーティストと依頼人を繋ぐことが出来ます。 ぜひ、[Beat Saber Commissions server](https://discord.gg/e4f3WBBVnr)で声をかけてみてください。
+> Furthermore, there is a community run discord to help connect mappers/artists with clients if you would like to
+> commission something. We encourage you to reach out in the [Beat Saber Commissions server.](https://discord.gg/e4f3WBBVnr)
 
-### [Mapping Resources Contributors（譜面作成の知識を提供してくれた方々）](/ja/mapping/mapping-credits.md)
+### [Mapping Resources Contributors](/mapping/mapping-credits.md)
 
-この経験豊富なマッパーのグループは、他の人が譜面作成を始めたり、改善するために自分の知識を共有してくださいました。 彼らの譜面をチェックし、サポートの検討をお願いします!
+A group of experienced mappers that took the time to write down and share their knowledge to help others get started or improve.
+Check out their maps and consider supporting them!
 
-### [Translators（翻訳）](./translators.md)
+### [Translators](./translators.md)
 
-wiki のコンテンツを翻訳してくださる勤勉な人々。 時間を割いてくださったことに感謝いたします。 このページに記載されているものは、現在ウェブサイト上で利用可能な言語用です。
+The hardworking people who took the time to translate the wiki content into their own languages. A heartfelt thank you
+for your time! The ones listed on this page are for languages currently available on the website.
 
-あなたの言語に参加したい場合は、 [こちらから翻訳を手伝ってください！](https://forms.gle/e3BqA3poMjESARe76)
+If you would like to join for your language, you can [apply to help translate!](https://forms.gle/e3BqA3poMjESARe76)
 
-### [Event Winners（イベント受賞者）](./event-winner.md)
+### [Event Winners](./event-winner.md)
 
-Discord で開催された過去のコンテストやイベントの受賞者。 今後行われるイベントは`#server-announcements` でチェックしましょう！
+Winners of past contests/events held in the discord. Keep up with `#server-announcements` for such events happening now,
+or in the future!
 
-## この Wiki について
+## About This Wiki
 
-この wiki は Beat Saber の MOD に関連するすべてのもののためです。 もともとは、 `#beginners-guide` と `#faq` チャンネルを [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods) に置き換えるために作成されました。
+This is a wiki for all things relating to modding the game Beat Saber.
+It was originally created to replace the `#beginners-guide` and `#faq` channels of the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods).

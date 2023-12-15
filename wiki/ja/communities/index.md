@@ -1,17 +1,17 @@
 ---
 prev: false
 next: false
-description: インターネット上にある他のBeat Saberコミュニティの一覧をチェックしてみてください。
+description: Check out these lists of other Beat Saber communities around the internet!
 ---
 
-# Beat Saber コミュニティ
+# Beat Saber Communities
 
-インターネット上にある他の Beat Saber コミュニティの一覧をチェックしてみてください。
+Check out these lists of other Beat Saber communities around the internet!
 
-## [コミュニティハブ](./community-hub.md)
+## [Community Hub](./community-hub.md)
 
-コミュニティハブは Beat Saber に焦点を当てたコミュニティのリストです。
+The Community Hub is a list of public Beat Saber focused communities.
 
-## [各地域のハブ](./regional-hub.md)
+## [Regional Hub](./regional-hub.md)
 
-地域ハブは、特定の地域のパブリックまたはプライベートの Beat Saber に焦点を当てたコミュニティのリストです。
+The Regional Hub is a list of public or private Beat Saber focused communities for a specific geographic region.

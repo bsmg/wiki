@@ -14,35 +14,112 @@ _Machen Beat Saber zu einem helleren Ort, indem Du Deine Maps manuell beleuchtes
 
 Jede Karte muss eine Art von Beleuchtung haben. Wenn Du die Dir zur Verfügung stehenden Werkzeuge kennst, kann eine einfache manuelle Beleuchtung sehr einfach sein. [Dieser Link](https://streamable.com/s/x7zj0/vrugyj) ist ein Videobeispiel für eine sehr einfache manuelle Beleuchtung
 
-::: tip HINWEIS
-Das Beispiel verwendet [Map Farbe überschreiben](#map-farbe-uberschreiben). Du musst kein AaltopahWi oder Skeelie sein, um tolle Beleuchtung zu machen!
-:::
+::: tip HINWEIS Das Beispiel verwendet [Map Color Overrides](#map-color-overrides). Du musst kein AaltopahWi oder Skeelie sein, um tolle Beleuchtung zu machen! :::
 
-## Beleuchtungsarten
+## Lightable Objects
 
-Die verfügbaren Beleuchtungstypen sind in jeder der eingebauten Spielumgebungen gleich, Diese können sich jedoch an leicht unterschiedlichen Positionen befinden oder in einigen Fällen nicht vorhanden sein.
+The following types of lanes exist in the Static Event System:
 
-- **Zentrumslichter:** Allgemeine Lichter entlang der Seite der Schiene, unterhalb der Schiene und manchmal ein Chevron an der Rückseite der Schiene. Manchmal auch "Bottom/Back/Side"- oder "BBS"-Leuchten genannt.
-- **Seiten/Aufsatzlaser:** Sätze von rotierenden Lasern an den Seiten der Strecke oder oberhalb/unterhalb der Strecke, je nachdem, welche Umgebung Du ausgewählt hast. Die Rotation wird mit der Funktion Lasergeschwindigkeit eingestellt.
-- **Hintergrundlaser:** Statische Laser, oft in einem "X"-Muster am hinteren Teil der Strecke, hinter dem Chevron.
-- **Ringlichter:** Lichter, die an der Innenseite der großen Außenringe angebracht sind, die sich in fast allen Umgebungen drehen.
-- **Ringdrehungen:** Wird verwendet, um Bewegung in den Ringen zu erzeugen. In Umgebungen mit einem inneren und einem äußeren Ring, beide Ringe drehen sich gemeinsam.
-- **Ring Zooms:** Wird verwendet, um den inneren Ring in Umgebungen, die ihn haben, zu zoomen und zu entzoomen. Hat keinen Einfluss auf den Außenring.
-- **Lasergeschwindigkeit:** Ändert die Geschwindigkeit der Rotation des Seitenlasers von stationär (0) bis sehr schnell (20). Unabhängig für den rechten und linken Seitenlaser einstellen. Back-Top Laser bewegen sich nicht. Die Lasergeschwindigkeit steigt linear an, so dass **2** doppelt so schnell ist wie **1** und **5** ist fünfmal so schnell wie **1**.
-- **Boost-Ereignis:** Ändert Beleuchtungsfarben zwischen zwei Farbpaaren. Aus verwendet er das erste Paar von Farben. An verwendet er das zweite (Boost-)Farbpaar. Für dieses Ereignis gibt es keine Überblend- oder Blitzoption.
+<!-- markdownlint-disable MD013 -->
+
+| Object  | Description                                                                                                                                                                                                        |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Lights  | Controls the light intensity of lights, lasers, etc. Events on these lanes have a color and a type associated. These events light up the environment, and other events would create minimal impact without lights. |
+| Value   | Events on these lanes hold an integer value from 0 to 9. The classical example of this is Laser Speed, though this lane type can be used for other things, for example the pillars in Lady Gaga environment.       |
+| Trigger | An event on this lane triggers a change in an object. Examples include Ring Spin and Ring Zoom.                                                                                                                    |
+| Boost   | Changes lighting colors between two pairs of colors. Aus verwendet er das erste Paar von Farben. An verwendet er das zweite (Boost-)Farbpaar. There is no fade option for this effect.                             |
+
+<!-- markdownlint-enable MD013 -->
+
+Objects in the Group Lighting System (GLS) may have the following properties controllable:
+
+<!-- markdownlint-disable MD013 -->
+
+| Object      | Description                                                                                                                         |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Lights      | Controls the intensity of lights, lasers, etc., like in the Static Event System.                                                    |
+| Rotation    | Unlike the randomized trigger in environments before Weave, the Group Lighting System allows for more granular control of rotation. |
+| Translation | Debuting in The Weeknd environment, controls the position of an object in the environment.                                          |
+
+<!-- markdownlint-enable MD013 -->
+
+In environments before Weave, the set of objects controllable are generally consistent, though may be in different positions or may be missing altogether. The controllable objects are as follows:
+
+<!-- markdownlint-disable MD013 -->
+
+| Object          | Description                                                                                                                                                                                                                                                                                        |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Center Lights   | Generally lights along the side of the track, underneath the track, and sometimes a chevron at the back of the track. Manchmal auch "Bottom/Back/Side"- oder "BBS"-Leuchten genannt.                                                                                                               |
+| Side/Top Lasers | Sets of rotating lasers to the sides of the track or above/below the track, depending on which environment you've selected. Die Rotation wird mit der Funktion Lasergeschwindigkeit eingestellt.                                                                                                   |
+| Back Lasers     | Static lasers, often in an "X" pattern at the back of the track, behind the chevron.                                                                                                                                                                                                               |
+| Ring Lights     | Lights attached to the inside of the large outer rings that spin in almost all environments.                                                                                                                                                                                                       |
+| Ring Spins      | Used to create movement in the rings. In environments with both an inner and an outer ring, rings spins rotate both rings together.                                                                                                                                                                |
+| Ring Zooms      | Used to zoom and unzoom the inner ring in environments that have it. Hat keinen Einfluss auf den Außenring.                                                                                                                                                                                        |
+| Laser Speed     | Changes the speed of the side laser rotation from stationary (0) to very fast (20). <br>Set independently for the right and left side lasers. Back-Top Laser bewegen sich nicht. Laser speed increases linearly so **2** is twice as fast as **1** and **5** is five times as fast as **1**. |
+| Boost Event     | Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors. Für dieses Ereignis gibt es keine Überblend- oder Blitzoption.                                                                                                  |
+
+<!-- markdownlint-enable MD013 -->
+
+In environments that use the v3 Group Lighting System (Weave and later), the set of objects controllable are unique to each environment.
 
 ## Lighting Events
 
-Jeder Beleuchtungstyp kann vier verschiedene Beleuchtungsereignisse nutzen.
+Lighting has went through several revisions. Originally, only the Static Event System is available. v3 introduces the Group Lighting System, usable with specific environments.
 
-- **An:** Schaltet ein Licht ein, das eingeschaltet bleibt, bis du einen anderen Ereignistyp platzierst.
-- **Aus:** Das Ausschalten eines Lichts kann die gleiche Wirkung haben wie das Einschalten, oder sogar mehr.
-- **Blinken:** Blinkt kurz heller als ein Standard-Ereignis "Ein" und bleibt dann an, bis du einen anderen Ereignistyp platzierst.
-- **Abblenden:** Blinkt kurz heller als ein Standard "Ein"-Ereignis und wird dann nach ein paar Sekunden ausgeblendet.
+### Static Event System
 
-::: warning HINWEIS  
-Es ist nicht möglich, die Dauer einer Ausblendung zu steuern oder eine Einblendung mit Standardbeleuchtung zu verwenden. Für benutzerdefinierte Überblendzeiten ist Chroma erforderlich, das im Abschnitt "Erweiterte Beleuchtung" (Kommt bald) behandelt wird.
-:::
+There are two major revisions of the Static Event System.
+
+Lighting v1 is the version of lighting that has general support from community editors. It supports the following light events:
+
+| Event | Description                                                                                               |
+| ----- | --------------------------------------------------------------------------------------------------------- |
+| On    | Turns a light on that will stay on until you place a different event type.                                |
+| Off   | Turns a light off that will stay off until you place a different event type.                              |
+| Flash | Briefly flashes brighter than a standard "on" event then stays on until you place a different event type. |
+| Fade  | Briefly flashes brighter than a standard "on" event then fades to off after a couple of seconds.          |
+
+A light event have one of three available colors associated. Prior to v3.1, only two colors are available. v3.1 introduced a third color; it is currently white for all built-in environments.
+
+Lighting v2 fully overhauls the lighting system. The official editor is generally used to create v2 lights; support by community editors are currently under development. While v2 can be used with all classic environments, similar to v1, the four-event system has been replaced with only two types of events:
+
+<!-- markdownlint-disable MD013 -->
+
+| Event  | Description                                                                                                                                                    |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Static | Sets a light to a specified level. The light will stay at the level, until the next event.                                                                     |
+| Fade   | Fades a light to a specified level. The fade starts at the event immediately before, or at the start of the song if there is none, and ends on the fade event. |
+
+<!-- markdownlint-enable MD013 -->
+
+The level of a light ranges from 0 to 120. 0 means no light, 100 is the level of a v1 On event, and 120 is the maximum.
+
+### Group Lighting System (v3)
+
+v3 environments, in addition to Static Event System objects, introduces a new class of objects, hereby known as Group Lighting System (GLS) objects, that offers more granular control.
+
+A GLS object can have one or more of lights, rotation and translation being available for control. In addition, a GLS object can have multiple segments, and each segment can be controlled individually.
+
+Events in v3 must reside in groups. Each group can contain one or more lanes, each lane controlling one or more segments, on which events are placed.
+
+The Official Editor features two views: the top view in which all groups for all objects are visible, and the group view showing individual events in a single group. The group view is entered by clicking a group, and can be exited by pressing <kbd>Esc</kbd>.
+
+A group defaults to controlling all lights at once. If you want to control individual lights, you can simply hold <kbd>Shift</kbd> and click the `+` button near the top right menu.
+
+Light events in v3 are mostly identical to those of v2, with a few changes and additions. Firstly, the intensity of a light is no longer limited to 120 maximum, and can go above it. Another is the addition of strobing, allowing placement of a flickering light with a single event.
+
+v3 introduces rotation events, allowing control of an object's rotation angle. Rotation events cannot be grouped together with light events. When a rotation event is placed, the object will rotate starting at the rotation event immediately before (the start of the song if none), and completes at the time of the event, similar to a fade event. A rotation event has the following parameters:
+
+<!-- markdownlint-disable MD013 -->
+
+| Parameter      | Description                                                                                                                                                                                                                                                                                                                                                          |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Rotation Angle | Specifies the angle the object will finish at                                                                                                                                                                                                                                                                                                                        |
+| Loop Count     | Specifies the spin direction to be clockwise, counterclockwise, or decided automatically                                                                                                                                                                                                                                                                             |
+| Easing         | Specifies the rate of change over time. Visit [easings.net](https://easings.net/) for a visualization of the Quad options. <br>`None` - rotates instantly<br>`Linear` - rotates at a constant speed<br>`InQuad` - starts slow and ends fast<br>`OutQuad` - starts fast and ends slow<br>`InOutQuad` - both accelerates and decelerates |
+| Extension      | Useable with light and rotation events it keeps the intensity of a light or the angle of a rotation fixed until this event.                                                                                                                                                                                                                                          |
+
+<!-- markdownlint-enable MD013 -->
 
 ## Bewährte Praktiken & Techniken
 
@@ -53,17 +130,15 @@ Beleuchtung ist eine Kunst, was bedeutet, dass sie viel subjektiver ist als Mapp
 
 **TranquillizeMe** hat ein Beleuchtungs-Tutorial erstellt, [Beat Saber Lighting Techniques Tutorial](https://www.youtube.com/watch?v=EDbPRN_u3jc), in dem nützliche Beleuchtungstechniken und allgemeine Tipps zur Beleuchtung beschrieben werden.
 
-::: warning HINWEIS  
-Die Beleuchtungsvorschau ist in den derzeit verfügbaren Editoren nicht realistisch, daher ist es wichtig, dass du deine Lichter oft im Spiel überprüfst. Unter [Vorschau der Lichter](#vorschau-der-lichter) findest du einige Tools, die dir dabei helfen können.
-:::
+::: warning NOTE Lighting previews are not realistic in the editors currently available to the public so it's important to preview your lights in-game often. Unter [Previewing Your Lights](#vorschau-der-lichter) findest du einige Tools, die dir dabei helfen können. :::
 
 ### Tastenbelegung
 
-Jeder Map-Editor handhabt die Beleuchtung anders, daher sollte man sich mit den Tastenbelegungen und der Funktionsweise der Platzierung im Editor der Wahl vertraut machen. Die Tastenkombinationen für die Beleuchtung variieren je nach Editor. Konsultiere den User Guide oder die Readme Datei des Editors oder lies diese hilfreiche Liste [Editorübergreifende Tastaturbelegungen](./editor-keybinds.md).
+Each map editor handles lighting differently so you'll want to get to know the key bindings and how placements work in your editor of choice. Die Tastenkombinationen für die Beleuchtung variieren je nach Editor. Konsultiere den User Guide oder die Readme Datei des Editors oder lies diese hilfreiche Liste [Editorübergreifende Tastaturbelegungen](./editor-keybinds.md).
 
 ### Licht-Ereignisse zuweisen
 
-Mapper, die ihre erste Map beleuchten, sollten damit beginnen, bestimmten [Beleuchtungstypen](#beleuchtungsarten) Instrumenten zuzuordnen, und dann mit zunehmender Erfahrung von dort aus weitergehen. Diese Methode führt normalerweise nicht zu den aufregendsten Shows, aber es ist schwer, es zu vermasseln. Das könnte so aussehen:
+Mapper, die ihre erste Map beleuchten, sollten damit beginnen, bestimmten [Beleuchtungstypen](##beleuchtungtypen) Instrumenten zuzuordnen, und dann mit zunehmender Erfahrung von dort aus weitergehen. Diese Methode führt normalerweise nicht zu den aufregendsten Shows, aber es ist schwer, es zu vermasseln. Das könnte so aussehen:
 
 - **Track Lights:** Bass oder Kick Drum
 - **Lasers:** Melodie
@@ -92,38 +167,729 @@ Sei vorsichtig, wenn du Ereignisse genau in der Mitte von zwei Leuchten absetzt,
 
 In Beat Saber gibt es verschiedene eingebaute Umgebungen, die Teil des Basisspiels sind und mit wenigen Klicks genutzt werden können.
 
-::: warning HINWEIS
-Von der Community erstellte benutzerdefinierte Umgebungsmodelle (Plattformen) existieren, erfordern jedoch die Mod "Custom Platforms", die derzeit nicht über den Mod Assistant verfügbar ist. Eine Beta-Version kann im `#pc-mods` Kanal des BSMG-Discord verfügbar sein.
-:::
-
-Die Grundstruktur jeder Umgebung ist meist gleich. Im [Mediocre Map Assistant 2](./mediocre-map-assistant.md) Editor sieht die Beleuchtungsspur wie folgt aus:
-
-::: center
-![Screenshot of the MMA2 lighting track from the top down](/.assets/images/mapping/mma2-lighting-track.jpg)
-:::
+::: warning HINWEIS Von der Community erstellte benutzerdefinierte Umgebungsmodelle (Plattformen) existieren, erfordern jedoch die Mod "Custom Platforms", die derzeit nicht über den Mod Assistant verfügbar ist. Eine Beta-Version kann im `#pc-mods` Kanal des BSMG-Discord verfügbar sein. :::
 
 ### Umgebungs-Vorschau
 
-|            Video und Screenshot (Anklicken zum Öffnen in voller Größe)             | Umgebung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| :--------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|       ![Bild der Standard Umgebung](/.assets/images/mapping/default_env.jpg)       | **Das erste (Default) Environment**<br />**Info.dat Name:** `DefaultEnvironment` <br />**Standardfarben:** Rot & Blau<br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (links & rechts)<br />**Track Ring:** :white_check_mark: (Quadrat)<br />**Inner Ring:** :white_check_mark: (Quadrat)<br />**Equalizer:** :white_check_mark:<br />**Hinweis:** Ab 1.6 Back Top Laser sind unter den Track Lasern <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/iqo91i), [YouTube](https://youtu.be/wPejfEKf7zo)                                                                                                                                                                        |
-|      ![Bild der Ursprungs Umgebung](/.assets/images/mapping/origins_env.jpg)       | **Origins Environment**<br />**Info.dat Name:** `OriginsEnvironment`<br />**Standardfarben:** Gelb & Pinke Noten, Blau & Hellblaue Lichter<br />**Center Lighting:** :white_check_mark:<br />**Lasers:** :white_check_mark:<br />**Track Ring:** :white_check_mark:<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark: <br /><br /> **Video Vorschau:** [Streamable](https://streamable.com/okmjdo), [YouTube](https://youtu.be/SCKHRwOTuG8)                                                                                                                                                                                                                                                                         |
-|      ![Bild der Triangle Umgebung](/.assets/images/mapping/triangle_env.jpg)       | **Triangle Environment**<br />**Info.dat Name:** `TriangleEnvironment`<br />**Standardfarben:** Rot & Blau<br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (links & rechts)<br />**Track Ring:** :white_check_mark: (kompaktes Quadrat) <br />**Inner Ring:** :white_check_mark: (triangle)<br />**Equalizer:** :white_check_mark:<br />**Hinweis:** Ab 1.6 Back Top Laser sind unter den Track Lasern <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/ejjr22), [YouTube](https://youtu.be/BDntVrG3QpM)                                                                                                                                                                       |
-|          ![Bild der Nice Umgebung](/.assets/images/mapping/nice_env.jpg)           | **Nice Environment**<br />**Info.dat Name:** `NiceEnvironment`<br />**Standardfarben:** Rot & Blau<br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (Oben & Unten)<br />**Track Ring:** :white_check_mark: (Kreis)<br />**Inner Ring:** :white_check_mark: (Form)<br />**Equalizer:** :white_check_mark:<br />**Hinweis:** Ab 1.6 Back Top Laser sind unter den Track Lasern <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/plqtv0), [YouTube](https://youtu.be/-0sOBcO4oUs)                                                                                                                                                                                                  |
-|    ![Bild der Big Mirror Umgebung](/.assets/images/mapping/big-mirror_env.jpg)     | **Big Mirror Environment**<br />**Info.dat Name:** `BigMirrorEnvironment`<br />**Standardfarben:** Rot & Blau<br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (Links & Rechts)<br />**Track Ring:** :white_check_mark: (Quadrat)<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark: <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/cbw6cj), [YouTube](https://youtu.be/dqMo03TLLtk)                                                                                                                                                                                                                                                                             |
-|   ![Bild der Imagine Dragons Umgebung](/.assets/images/mapping/dragons_env.jpg)    | **Imagine Dragons Environment**<br />**Info.dat Name:** `DragonsEnvironment`<br />**Standardfarben:** Rot & Blau<br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (Links & Rechts)<br />**Track Ring:** :white_check_mark: (Quadrat)<br />**Inner Ring:** :white_check_mark: (Spirale)<br />**Equalizer:** :white_check_mark:<br />**Hinweis:** Die Back Top Laserposition sind die beiden Schienen an den äußersten Rändern des Bildschirms. Es leuchtet immer die entgegengesetzte Farbe dessen, was du eingestellt hast. <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/a0rw2o), [YouTube](https://youtu.be/L-9gTWGY_FQ)                                                   |
-|           ![Bild der K/DA Umgebung](/.assets/images/mapping/kda_env.jpg)           | **K/DA Environment**<br />**Info.dat Name:** `KDAEnvironment`<br />**Default Colors:** Orange & Lila<br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (Links & Rechts)<br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :x:<br />**Hinweis:** Die Ringlicht Position beleuchtet die fünf Schienen an der Oberseite. Die Lichter in der Mitte der Pfeile gehen nie aus. <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/dibv17), [YouTube](https://youtu.be/ZWfZQfx5MqY)                                                                                                                                                                                   |
-|    ![Bild der Monstercat Umgebung](/.assets/images/mapping/monstercat_env.jpg)     | **Monstercat Environment**<br />**Info.dat Name:** `MonstercatEnvironment`<br />**Standardfarben:** Rot & Blau<br />**Center Lighting:** :white_check_mark: (& Monstercat Logo)<br />**Laser:** :white_check_mark: (Links & Rechts)<br />**Track Ring:** :x:<br />**Inner Ring:** :white_check_mark: (Quadrat)<br />**Equalizer:** :white_check_mark:<br />**Hinweis:** Ab 1.6 befinden sich die Back-Top-Laser unterhalb der Track-Laser. Die Ringlichter beleuchten die fünf Schienen an der Oberseite. <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/9g84m6), [YouTube](https://youtu.be/QSYw41_1EmM)                                                                                                    |
-|     ![Bild der Crab Rave Umgebung](/.assets/images/mapping/crab-rave_env.jpg)      | **Crab Rave Environment**<br />**Info.dat Name:** `CrabRaveEnvironment`<br />**Standardfarben:** Grün & Blau<br />**Center Lighting:** :white_check_mark: (& Monstercat Logo)<br />**Laser:** :white_check_mark: (Links & Rechts)<br />**Track Ring:** :x:<br />**Inner Ring:** :white_check_mark: (Quadrat)<br />**Equalizer:** :white_check_mark:<br />**Hinweis:** Ab 1.6 befinden sich die Back-Top-Laser unterhalb der Track-Laser. Die Ringlichter beleuchten die fünf Schienen an der Oberseite. <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/5d46nv), [YouTube](https://youtu.be/AAPtI8SAE6s)                                                                                                      |
-| ![Bild von Panic at the Disco! environment](/.assets/images/mapping/panic_env.jpg) | **Panic at the Disco! Environment**<br />**Info.dat Name:** `PanicEnvironment`<br />**Standardfarben:** Rot & Blau<br />**Center Lighting:** :white_check_mark: (& windows)<br />**Laser:** :white_check_mark: (Links & Rechts)<br />**Track Ring:** :white_check_mark: (Spirale)<br />**Inner Ring:** :white_check_mark: (Spirale)<br />**Equalizer:** :white_check_mark:<br />**Hinweis:** Ringlichter sind in dieser Umgebung viel heller als in anderen. <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/8lvbda), [YouTube](https://youtu.be/hOhOFgvxSrU)                                                                                                                                                 |
-|     ![Bild der Rocket League Umgebung](/.assets/images/mapping/rocket_env.jpg)     | **Rocket League Environment**<br />**Info.dat Name:** `RocketEnvironment`<br />**Standardfarben:** Orange & Blau<br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (Links & Rechts)<br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :x: <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/qfgemd), [YouTube](https://youtu.be/9lX5nOhIv8o)                                                                                                                                                                                                                                                                                                                  |
-|     ![Bild der Green Day Umgebung](/.assets/images/mapping/green-day_env.jpg)      | **Green Day Environment**<br />**Info.dat Name:** `GreenDayEnvironment`<br />**Standardfarben:** Grün & Türkis<br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (Links & Rechts)<br />**Track Ring:** :white_check_mark: (Spirale)<br />**Inner Ring:** :x:<br />**Equalizer:** :x:<br />**Hinweis:** "Green Day" Text in der Mitte schaltet sich nie aus. <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/npgn2p), [YouTube](https://youtu.be/jkaeINyLMo0)                                                                                                                                                                                                                    |
-| ![Bild der Green Day Grenade Umgebung](/.assets/images/mapping/gd-grenade_env.jpg) | **Green Day Grenade Environment**<br />**Info.dat Name:** `GreenDayGrenadeEnvironment`<br />**Default Colors:** Grün & Türkis<br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (Links & Rechts)<br />**Track Ring:** :x:<br />**Inner Ring:** :x: <br />**Equalizer:** :x:<br />**Hinweis:** Grenade und "Green Day" Text in der Mitte schaltet sich nie aus. <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/ew43z1), [YouTube](https://youtu.be/ocnD-WdrrOw)                                                                                                                                                                                                                 |
-|     ![Bild der Timmaland Umgebung](/.assets/images/mapping/timbaland_env.jpg)      | **Timbaland Environment**<br />**Info.dat Name:** `TimbalandEnvironment`<br />**Standardfarben:** Grau & Blaue Noten, Blau & Blaue Lichter(Selbe Farben)<br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (Links & Rechts Ringe)<br />**Track Ring:** :white_check_mark: (Rechteck)<br />**Inner Ring:** :white_check_mark: (Rechteck)<br />**Equalizer:** :white_check_mark:<br />**Hinweis:** "Timbaland" Schriftzug an den Seiten schaltet sich nie aus. Die Lasergeschwindigkeit wirkt sich auf die Back-Top Laser am linken und rechten Ring aus. <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/2fjejm), [YouTube](https://youtu.be/vLYybHUh5Nw)                        |
-|       ![Bild der FitBeat Umgebung](/.assets/images/mapping/fitbeat_env.jpg)        | **FitBeat Environment**<br />**Info.dat Name:** `FitBeatEnvironment`<br />**Standardfarben:** Gelb & Pinke Noten, Orange & Blaue Lichter <br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (Links & Rechts)<br />**Track Ring:** :white_check_mark: (Außenlaser) <br />**Inner Ring:** :white_check_mark: (Spirale) <br />**Equalizer:** :white_check_mark: <br />**Hinweis:** Back Top Lasers leuchten in der entgegengesetzten Farbe der eingestellten Farbe. <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/75sxr3), [YouTube](https://youtu.be/FA0ZjR1_3LA)                                                                                                               |
-|   ![Bild der Linkin Park Umgebung](/.assets/images/mapping/linkin-park_env.jpg)    | **Linkin Park Environment**<br />**Info.dat Name:** `LinkinParkEnvironment`<br />**Standardfarben:** Rot & Blau-Graue Noten, Beige & Weiße Lichter<br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (Links & Rechts)<br />**Track Ring:** :x: <br />**Inner Ring:** :x: <br />**Equalizer:** :white_check_mark: (An der Seitenwand) <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/kn47ci), [YouTube](https://youtu.be/BhAIQ6FQunw)                                                                                                                                                                                                                                           |
-|         ![Bild der BTS Park Umgebung](/.assets/images/mapping/bts_env.jpg)         | **BTS Environment**<br />**Info.dat Name:** `BTSEnvironment`<br />**Standardfarben:** Pink & Lila Noten, Pink & Lila Lichter<br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: (Links & Rechts)<br />**Track Ring:** :white_check_mark: (Hintergrundpfeiler) <br />**Inner Ring:** :white_check_mark: (Schienenstützen) <br />**Equalizer:** :x: <br />**Hinweis:** Das BTS-Logo in der Mitte schaltet sich nie aus.<br /><br />**Video Vorschau:** [Streamable](https://streamable.com/458qt5), [YouTube](https://youtu.be/jkTUvCfH0yE)                                                                                                                                                            |
-|  ![Bild der Glass Desert Umgebung](/.assets/images/mapping/glass-desert_env.jpg)   | **Glass Desert Environment**<br />**Info.dat Name:** `GlassDesertEnvironment`<br />**Standardfarben:** Gelb & Pinke Noten, Blau & Hellblaue Lichter <br />**Center Lighting:** :white_check_mark:<br />**Laser:** :white_check_mark: <br />**Track Ring:** :x:<br />**Inner Ring:** :x:<br />**Equalizer:** :white_check_mark:<br />**Hinweis:** Dies ist die erste 360&deg; Umgebung. 360-Levels MÜSSEN dies verwenden und für Standard-Levels ist es nicht verwendbar. Die Ringlichtposition steuern die horizontale Außenschiene. Die Back Top Laserposition steuert die sechs Schienen an der Oberseite. <br /><br />**Video Vorschau:** [Streamable](https://streamable.com/8hlr6x), [YouTube](https://youtu.be/WGSxgVvazNM) |
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable MD033 -->
+
+#### Pre-Group Lighting System
+
+<table>
+<thead>
+  <tr>
+    <th>Video und Screenshot (Anklicken zum Öffnen in voller Größe)</th>
+    <th>Umgebung</th>
+  </tr>
+</thead>
+<tbody>
+<tr><td style="text-align: center;">
+
+![Image of Default environment](/.assets/images/mapping/default_env.jpg)
+
+</td><td>
+
+**The First (Default) Environment**<br />
+**Info.dat Name:** `DefaultEnvironment` <br />
+**Default Colors:** Red & Blue
+
+**Lights:** Back lasers, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** As of 1.6 Back Top Lasers are below the Track Lasers
+
+**Video Preview:** [YouTube](https://youtu.be/ab7kjMsIBHA)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Triangle environment](/.assets/images/mapping/triangle_env.jpg)
+
+</td><td>
+
+**Triangle Environment**<br />
+**Info.dat Name:** `TriangleEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lights:** Back lasers, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** As of 1.6 Back Top Lasers are below the Track Lasers
+
+**Video Preview:** [YouTube](https://youtu.be/FhAg4Awl0k0)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Nice environment](/.assets/images/mapping/nice_env.jpg)
+
+</td><td>
+
+**Nice Environment**<br />
+**Info.dat Name:** `NiceEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lights:** Back lasers, ring lights, bottom & top lasers, center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** As of 1.6 Back Top Lasers are below the Track Lasers
+
+**Video Preview:** [YouTube](https://youtu.be/LrLFf6fspiw)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Big Mirror environment](/.assets/images/mapping/big-mirror_env.jpg)
+
+</td><td>
+
+**Big Mirror Environment**<br />
+**Info.dat Name:** `BigMirrorEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lights:** Back lasers, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :white_check_mark:
+
+**Video Preview:** [YouTube](https://youtu.be/lmWeJL8Qxh4)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of K/DA environment](/.assets/images/mapping/kda_env.jpg)
+
+</td><td>
+
+**K/DA Environment**<br />
+**Info.dat Name:** `KDAEnvironment`<br />
+**Default Colors:** Orange & Purple
+
+**Lights:** Bottom & top lights, left & right lasers, center lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :x:<br />
+**Note:** Right Lasers control the lights in the center of the arrows.
+
+**Video Preview:** [YouTube](https://youtu.be/knXgpnW5NWQ)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Monstercat environment](/.assets/images/mapping/monstercat_env.jpg)
+
+</td><td>
+
+**Monstercat Environment**<br />
+**Info.dat Name:** `MonstercatEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lights:** Back lasers, top lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** As of 1.6 Back Top Lasers are below the Track Lasers.
+
+**Video Preview:** [YouTube](https://youtu.be/Er3OCUmSK-0)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Crab Rave environment](/.assets/images/mapping/crab-rave_env.jpg)
+
+</td><td>
+
+**Crab Rave Environment**<br />
+**Info.dat Name:** `CrabRaveEnvironment`<br />
+**Default Colors:** Green & Blue
+
+**Lights:** Back lasers, top lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :white_check_mark: <br />
+**Note:** As of 1.6 Back Top Lasers are below the Track Lasers.
+
+**Video Preview:** [YouTube](https://youtu.be/xTXHCTBYkck)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Imagine Dragons environment](/.assets/images/mapping/dragons_env.jpg)
+
+</td><td>
+
+**Imagine Dragons Environment**<br />
+**Info.dat Name:** `DragonsEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lights:** Side lights, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** Side lights (back top lights) always illuminate the opposite color of
+what you set it.
+
+**Video Preview:** [YouTube](https://youtu.be/tSzvvbDK71s)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Origins environment](/.assets/images/mapping/origins_env.jpg)
+
+</td><td>
+
+**Origins Environment**<br />
+**Info.dat Name:** `OriginsEnvironment`<br />
+**Default Colors:** Yellow & Pink notes, Blue & Light Blue lights
+
+**Lights:** Bottom lights, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :white_check_mark:
+
+**Video Preview:** [YouTube](https://youtu.be/Ysvm5N9V1wU)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Panic! at the Disco environment](/.assets/images/mapping/panic_env.jpg)
+
+</td><td>
+
+**Panic! at the Disco Environment**<br />
+**Info.dat Name:** `PanicEnvironment`<br />
+**Default Colors:** Red & Blue
+
+**Lights:** Bottom lights, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** Ring Lights are much brighter in this environment than in others.
+
+**Video Preview:** [YouTube](https://youtu.be/2UJ8-edr4xU)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Rocket League environment](/.assets/images/mapping/rocket_env.jpg)
+
+</td><td>
+
+**Rocket League Environment**<br />
+**Info.dat Name:** `RocketEnvironment`<br />
+**Default Colors:** Orange & Blue
+
+**Lights:** Back lights, bottom lights, left & right lasers, center lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :x:
+
+**Video Preview:** [YouTube](https://youtu.be/glgMeDJopIM)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Green Day environment](/.assets/images/mapping/green-day_env.jpg)
+
+</td><td>
+
+**Green Day Environment**<br />
+**Info.dat Name:** `GreenDayEnvironment`<br />
+**Default Colors:** Green & Cyan
+
+**Lights:** Bottom lights, ring lights, left & right lasers, center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :x:<br />
+**Video Preview:** [YouTube](https://youtu.be/QLw4Rg-mHKE)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Green Day Grenade environment](/.assets/images/mapping/gd-grenade_env.jpg)
+
+</td><td>
+
+**Green Day Grenade Environment**<br />
+**Info.dat Name:** `GreenDayGrenadeEnvironment`<br />
+**Default Colors:** Green & Cyan
+
+**Lights:** Bottom lights, ambiance, left & right lasers, center lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :x:<br />
+**Video Preview:** [YouTube](https://youtu.be/DIzLR65HyN0)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Timbaland environment](/.assets/images/mapping/timbaland_env.jpg)
+
+</td><td>
+
+**Timbaland Environment**<br />
+**Info.dat Name:** `TimbalandEnvironment`<br />
+**Default Colors:** Grey & Blue notes, Blue & Blue lights (same colors)
+
+**Lights:** Side lasers, intra-ring lasers, left & right ring lasers,
+center lights<br />
+**Triggers:** Ring spin, ring zoom<br />
+**Value controls:** Side laser speed<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** "Timbaland" text on the sides never turns off.
+
+**Video Preview:** [YouTube](https://youtu.be/ZMNrCbSxBVM)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of FitBeat environment](/.assets/images/mapping/fitbeat_env.jpg)
+
+</td><td>
+
+**FitBeat Environment**<br />
+**Info.dat Name:** `FitBeatEnvironment`<br />
+**Default Colors:** Yellow & Pink notes, Orange & Blue lights
+
+**Lights:** Ring lasers, outer lasers, left & right lasers, chevron<br />
+**Triggers:** Spin, ring zoom<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :white_check_mark: <br />
+**Note:** Ring lasers (back top) will illuminate the opposite color of what
+you set it.
+
+**Video Preview:** [YouTube](https://youtu.be/PNucTPiPBn8)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Linkin Park environment](/.assets/images/mapping/linkin-park_env.jpg)
+
+</td><td>
+
+**Linkin Park Environment**<br />
+**Info.dat Name:** `LinkinParkEnvironment`<br />
+**Default Colors:** Red & Blue-Grey notes, Beige & White lights, Orange & Blue boost lights
+
+**Lights:** Floor lights, ceiling lights, left & right lasers, center lights<br />
+**Triggers:** Laser mode<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :white_check_mark: (on side wall)
+
+**Video Preview:** [YouTube](https://youtu.be/nl8_sHYnP7k) <br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/BhMQ8KS2rZk)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of BTS environment](/.assets/images/mapping/bts_env.jpg)
+
+</td><td>
+
+**BTS Environment**<br />
+**Info.dat Name:** `BTSEnvironment`<br />
+**Default Colors:** Pink & Purple notes, Pink & Purple lights, Light Pink & Light Blue boost lights
+
+**Lights:** Logo, center lasers, left and right lasers, runway<br />
+**Triggers:** Tower spin, pillar control<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :x:
+
+**Video Preview:** [YouTube](https://youtu.be/HrGK2puKBhI) <br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/HYnVROsLBBs)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Kaleidoscope environment](/.assets/images/mapping/kaleidoscope_env.jpg)
+
+</td><td>
+
+**Kaleidoscope Environment**<br />
+**Info.dat Name:** `KaleidoscopeEnvironment`<br />
+**Default Colors:** Red & Black notes, Red & White lights, Red & Magenta boost lights
+
+**Lights:** Back lights, center lights, left & right lights, front lights<br />
+**Triggers:** Spin, zoom<br />
+**Value controls:** :x:<br />
+**Spectrum:** :x:
+
+**Video Preview:** [YouTube](https://youtu.be/6zgH3QcN_T8) <br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/eZBd7-yb284)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Interscope environment](/.assets/images/mapping/interscope_env.jpg)
+
+</td><td>
+
+**Interscope Environment**<br />
+**Info.dat Name:** `InterscopeEnvironment`<br />
+**Default Colors:** Yellow & Pink notes, Purple & White lights, Cool Red & Cool White boost lights
+
+**Lights:** Gates, left & right lasers<br />
+**Triggers:** Laser mode, car hydraulics<br />
+**Value controls:** Cars, laser speed<br />
+**Spectrum:** :white_check_mark:<br />
+**Notes**: Left & right lasers and car hydraulics are extra events 6, 7, 16
+and 17, respectively. Car control takes the place of ring spin.
+
+**Video Preview:** [YouTube](https://youtu.be/pnaNPD5ljqI)<br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/GmJpF2VA-6E)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Skrillex environment](/.assets/images/mapping/skrillex_env.jpg)
+
+</td><td>
+
+**Skrillex Environment**<br />
+**Info.dat Name:** `SkrillexEnvironment`<br />
+**Default Colors:** Red & Black notes, Pink & Turquoise lights, Neon Red & Neon Green boost lights
+
+**Lights:** Back lights, ceiling + primary ring lights, left & right lights,
+floor + secondary ring lights, left & right lasers<br />
+**Triggers:** Primary ring spin, secondary ring spin + laser mode<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :x:<br />
+**Notes**: Extra events 6 and 7 control the lasers.
+
+**Video Preview:** [YouTube](https://youtu.be/Uk0JugoZ3w4)<br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/-SD5F3b7Q3g)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Billie Eilish environment](/.assets/images/mapping/billie_env.jpg)
+
+</td><td>
+
+**Billie Eilish Environment**<br />
+**Info.dat Name:** `BillieEnvironment`<br />
+**Default Colors:** Yellow & Light Grey notes, Orange & Cream lights, Red & White Blue boost lights
+
+**Lights:** Water channel lights, left & right rays, sun/moon,
+left & right lasers<br />
+**Triggers:** Rain, ray mode<br />
+**Value controls:** Ray + laser speed<br />
+**Spectrum:** :x:<br />
+**Note:** Events 6 and 7 control extra water channel lights. Events 10 and 11
+control left & right lasers.
+
+**Video Preview:** [YouTube](https://youtu.be/R53QcGlo80Q)<br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/Kgm6Xn7xcNQ)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Spooky environment](/.assets/images/mapping/spooky_env.jpg)
+
+</td><td>
+
+**Spooky Environment**<br />
+**Info.dat Name:** `HalloweenEnvironment`<br />
+**Default Colors:** Orange & Black notes, Red & Light Blue lights, Green & Light Purple boost lights
+
+**Lights:** Back lasers, moon, left & right lasers, walkway lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :x:
+
+**Video Preview:** [YouTube](https://youtu.be/TbX3Z3mU2y8)<br />
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Gaga environment](/.assets/images/mapping/gaga_env.jpg)
+
+</td><td>
+
+**Lady Gaga Environment**<br />
+**Info.dat Name:** `GagaEnvironment`<br />
+**Default Colors:** Pink & Green notes, Yellow & Magenta lights, Orange & Blue boost lights
+
+**Lights:** Upper & lower auroras, tower lights, center lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Tower coil height<br />
+**Spectrum:** :x:<br />
+**Notes**: Events 6, 7, 10, and 11 control additional tower lights. 16, 17,
+18, and 19 control additional coil heights.
+
+**Video Preview:** [YouTube](https://youtu.be/FRNLFW4P3RQ)<br />
+**Official Showcase & Tutorial**: [YouTube](https://youtu.be/2DJmcQjjCl0)
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Glass Desert environment](/.assets/images/mapping/glass-desert_env.jpg)
+
+</td><td>
+
+**Glass Desert Environment**<br />
+**Info.dat Name:** `GlassDesertEnvironment`<br />
+**Default Colors:** Yellow & Pink notes, Blue & Light Blue lights
+
+**Lights:** Ceiling lights, back lasers, left & right lasers, chevron<br />
+**Triggers:** :x:<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** This is the first and currently only 360&deg; environment. 360&deg;
+environments can only be used with 360&deg; and 90&deg; levels.
+
+**Video Preview:** [YouTube](https://youtu.be/K3rqWNG5pn8)
+
+</td></tr>
+</tbody>
+</table>
+
+#### Group Lighting System
+
+<table>
+<thead>
+  <tr>
+    <th>Video and Screenshot (click to open full size)</th>
+    <th>Environment</th>
+  </tr>
+</thead>
+<tbody>
+<tr><td style="text-align: center;">
+
+![Image of Weave environment](/.assets/images/mapping/weave_env.jpg)
+
+</td><td>
+
+**Weave Environment**<br />
+**Info.dat Name:** `WeaveEnvironment`<br />
+**Default Colors:** Red & Blue notes, Red & Blue lights, Magenta & White boost lights
+
+**Lights:** Platform lights<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Back & side spotlights (light & rotation)<br />
+**Spectrum:** :x:
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Pyro environment](/.assets/images/mapping/pyro_env.jpg)
+
+</td><td>
+
+**Fall Out Boy Environment**<br />
+**Info.dat Name:** `PyroEnvironment`<br />
+**Default Colors:** Red & Yellow notes, Red & Yellow lights, Red & White boost lights
+
+**Lights:** Video, logo, left & right projector, runway lights, ambient lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Video clip selection<br />
+**GLS objects:** Stage (light), stage-top spotlights (light & rotation),
+hall-top spotlights (light & rotation), truss-mount lights (light),
+side panels (light), back spotlights (light & rotation), stage-side spotlights
+(light & rotation), fire (light)<br />
+**Spectrum:** :x:<br />
+
+**Note:** Fire is always colored orange. Even-numbered segments fire burst
+flames (when the first segment is numbered 1), while odd-numbered segments
+fires continuously burning flames. Off events turn the flames off, while on
+events of any value turn flames on and fire burst flames; the color and type
+(static or fade) is ignored.
+
+Rotation can be applied to the stage, the truss lights, the side panels and
+the fire in the official editor, but does not work.
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of EDM environment](/.assets/images/mapping/edm_env.jpg)
+
+</td><td>
+
+**EDM Environment**<br />
+**Info.dat Name:** `EDMEnvironment`<br />
+**Default Colors:** White & Teal notes, Green & Blue lights, Red & Magenta boost lights
+
+**Lights:** Bottom & top lane lights, floor lights<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Front ring (light & rotation), top ring (light & rotation),
+back rings (light & rotation), cone lasers (light & rotation), side lasers
+(light & rotation)<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** Extra rotation-only GLS objects exist for the rings and cone lasers,
+which control the rotation of them as a whole.
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of The Second environment](/.assets/images/mapping/the-second_env.jpg)
+
+</td><td>
+
+**The Second Environment**<br />
+**Info.dat Name:** `TheSecondEnvironment`<br />
+**Default Colors:** Red & Blue notes, Red & Blue lights, Magenta & Green boost lights
+
+**Lights:** Logo, runway fences, buildings, left & right flags<br />
+**Triggers:** :x:<br />
+**Value controls:** Ring zoom<br />
+**GLS objects:** Top & bottom lasers (light & rotation), outer rings (light &
+rotation), inner rings (light & rotation), runway lights (light), spotlights
+(light & rotation)<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** The logo resembled a birthday cake in 1.23; it is replaced with a
+chevron since 1.24. The banners are only visible in 1.23, with the number
+4 written on it standing for the 4th anniversary.
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Lizzo environment](/.assets/images/mapping/lizzo_env.jpg)
+
+</td><td>
+
+**Lizzo Environment**<br />
+**Info.dat Name:** `LizzoEnvironment`<br />
+**Default Colors:** Yellow & Purple notes, Yellow & Purple lights, Pink & Blue boost lights
+
+**Lights:** Top square, rainbow rings, runway, ambient lights, signs<br />
+**Triggers:** Balloon particles<br />
+**Value controls:** :x:<br />
+**GLS objects:** Floor (light), top lasers (light & rotation), side
+lasers (light & rotation), rainbow (light), rainbow lasers (light
+& rotation), rainbow rings (rotation), ring lasers (light), stands
+(light), stand lasers (light & rotation), clouds (light) <br />
+**Spectrum:** :x:<br />
+**Note:** Rainbow lights have a color associated with each arc. The
+color of a rainbow light can only be white or that of its associated
+color.
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of The Weeknd environment](/.assets/images/mapping/the-weeknd_env.jpg)
+
+</td><td>
+
+**The Weeknd Environment**<br />
+**Info.dat Name:** `TheWeekndEnvironment`<br />
+**Default Colors:** Red & Dark Blue notes, Red & Blue lights, Yellow & Sky Blue boost lights
+
+**Lights:** Runway, ambient lights<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Building windows (light), center ring (light, rotation
+& translation), center ring lasers (light & rotation), lane markings
+(light), arrows (light & translation), side lasers (light, rotation &
+translation), poles (light & translation), side rings (light, rotation
+& translation), building height (translation), roof (light), far
+buildings (light), side buildings (translation)<br />
+**Spectrum:** :x:<br />
+**Note:** Side rings have two sets of translations, one for a set of
+rings as a whole and one for individual rings in a set.
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Rock Mixtape environment](/.assets/images/mapping/rock-mixtape_env.jpg)
+
+</td><td>
+
+**Rock Mixtape Environment**<br />
+**Info.dat Name:** `RockMixtapeEnvironment`<br />
+**Default Colors:** Yellow & White notes, Red & Yellow lights, Magenta & Cyan boost lights
+
+**Lights:** Aurora, ambient lights, back bloom<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Mountains (light), Rock God arms (light, rotation,
+translation), Rock God face (light, translation), runway strings
+(light), runway frets (light), runway dots (light), spectrogram
+(light), tunnel (light & translation), spikes (light, rotation &
+translation), side lasers (light, rotation & translation), back
+lasers (light, rotation & translation), screens (light, rotation
+& translation)<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** Side lasers have two objects for light and rotation but
+only one for translation. Screens have two sets of rotation and
+translation.
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Dragons 2 environment](/.assets/images/mapping/dragons2_env.jpg)
+
+</td><td>
+
+**Imagine Dragons Environment 2**<br />
+**Info.dat Name:** `Dragons2Environment`<br />
+**Default Colors:** Yellow & Green notes, Green & Blue lights, Red & Yellow boost lights
+
+**Lights:** Floor lasers, chevron, ambient lights<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Inner ring (light, rotation & translation), outer ring
+(light, rotation & translation), lasers (light & rotation), spotlights
+(light & rotation), runway lights (light), particles (light), floor
+tiles (translation)<br />
+**Spectrum:** :white_check_mark:
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Panic 2 environment](/.assets/images/mapping/panic2_env.jpg)
+
+</td><td>
+
+**Panic! at the Disco Environment 2**<br />
+**Info.dat Name:** `Panic2Environment`<br />
+**Default Colors:** Pink & Dark Green notes, Pink & Cyan lights, Orange & Purple boost lights
+
+**Lights:** Ambient lights<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Side & center cones (light, rotation & translation),
+inner ring (light, rotation & translation), lasers (light, rotation &
+translation), side runway lights (light & translation), inner runway
+lights (light), spectrogram (light), back windows (light)<br />
+**Spectrum:** :white_check_mark:<br />
+**Note:** Two sets of rotation and translation exist for cones and
+the inner ring.
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Queen environment](/.assets/images/mapping/queen_env.jpg)
+
+</td><td>
+
+**Queen Environment**<br />
+**Info.dat Name:** `QueenEnvironment`<br />
+**Default Colors:** Gray & Purple notes, Gold & Cyan lights, Red & Purple
+boost lights
+
+**Lights:** Ambient lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Silhouette<br />
+**GLS objects:** Tunnel lights (light, rotation & translation),
+silhouette (light & translation), back lasers (light & rotation),
+top lasers (light & rotation), runway lights (light & translation),
+vinyl discs (light, rotation & translation)<br />
+**Spectrum:** :x:<br />
+**Note:** Extra objects control rotation & translation of the back lasers as
+a whole, rotation of top lasers as a whole and rotation of individual vinyl
+rings.
+
+</td></tr>
+</tbody>
+</table>
+
+<!-- markdownlint-restore -->
 
 ### Einstellen deiner Umgebung
 
@@ -134,7 +900,7 @@ Neue Standardumgebungen werden relativ häufig verfügbar, was bedeutet, dass Ma
 3. Scrolle nach unten bis zum `"_environmentName":`Abschnitt.
 4. Füge den Namen ein, den du in Schritt 1 kopiert hast.
 
-> **HINWEIS:** Du kannst in diesem Feld keine eigene Plattform verwenden. Dies wird in [Erweiterte Beleuchtung](./advanced-lighting.md#benutzerdefinierte-umgebung) behandelt.
+> **HINWEIS:** Du kannst in diesem Feld keine eigene Plattform verwenden. Dies wird in [Erweiterte Beleuchtung](./advanced-lighting.md###benutzerdefinierte-umgebung) behandelt.
 
 ## Map Farbe überschreiben
 
@@ -142,13 +908,11 @@ Du kannst dein eigenes Farbschema für die Map im Game erzwingen, solange der Be
 
 Seit Beat Saber Version 1.4 können Benutzer die Rot/Grün/Blau (RGB)-Farben von Noten, Lichtern und Wänden für ihr Spiel einstellen. Sie werden jedoch durch die in der `Info.dat` definierten Farben überschrieben, wenn der Benutzer die Option `Benutzerdefinierte Songfarben aktivieren` aktiviert hat.
 
-::: tip TIPP
-Bei der Auswahl von Farbüberlagerungen für die Noten. Es wird **HÖCHSTENS** empfohlen, rötliche/warme/aggressive Farben auf der linken Seite und bläuliche/kalte/weiche Farben auf der rechten Seite zu verwenden, um die Spieler nicht zu verwirren.
-:::
+::: tip Bei der Auswahl von Farbüberlagerungen für die Noten. Es wird **HÖCHSTENS** empfohlen, rötliche/warme/aggressive Farben auf der linken Seite und bläuliche/kalte/weiche Farben auf der rechten Seite zu verwenden, um die Spieler nicht zu verwirren. :::
 
 Unter [Umgebungs-Standardfarben](./lighting-defaults.md) findest du eine Liste der in den Umgebungen verwendeten Standardfarben.
 
-[Beatmapper](./#beatmapper-app), [ChroMapper](./#chromapper-coming-soon), und [MMA2](./#mediocre-map-assistant-2) unterstützen nativ Farb-Überschreibungen. Weitere Informationen findest du in den jeweiligen Handbüchern.
+[ChroMapper](./#chromapper), [MMA2](./#mediocre-map-assistant-2), and [Beatmapper](./#beatmapper-app), natively support color overrides. Weitere Informationen findest du in den jeweiligen Handbüchern.
 
 ### Manuelles Hinzufügen von Farb-Überschreibungen
 
@@ -157,7 +921,7 @@ Unter [Umgebungs-Standardfarben](./lighting-defaults.md) findest du eine Liste d
 2. Öffnen die `Info.dat` Datei im Texteditor deiner Wahl
 3. Blättere nach unten zum `"_customData": {` Abschnitt der Schwierigkeit, die du einfärben möchtest.
    - Die Verwendung der globalen `"_customData": {` außerhalb des `"_difficultyBeatmapSets": ` Arrays funktioniert möglicherweise nicht wie erwartet.
-4. Füge die Codeblöcke ein, die den Farben entsprechen, die du innerhalb der geschweiften Klammern `_customData` erzwingen möchtest (`{` und `}`), und ersetze dann die Werte `"r":`, `"g":` und `"b":` durch die in Schritt 1 gewählten Werte.
+4. Paste whichever code blocks below correspond to the colors you want to force within the `_customData` curly brackets (`{` and `}`) then replace the `"r":`, `"g":`, and `"b":` values with whatever you chose in Step 1.
    - Die Werte `"r":` und `"g":` **müssen** mit Kommas versehen werden.
 
 In den Zeilen 29-60 und 69-100 dieses [Pastebin-Clips](https://pastebin.com/x9zEiHxR) findest du ein Beispiel für diese Codeblöcke in Aktion in einer `.DAT` Datei.
@@ -168,38 +932,46 @@ Diese Werkzeuge hilft PC Beat Saber Spielern, eine genauere Vorschau ihrer Beleu
 
 ### In-Game mit FPFC
 
-First Person Flying Controller (FPFC) ist ein Startparameter, der sowohl von Steam- als auch von Oculus-Benutzern verwendet werden kann. FPFC öffnet eine Instanz von Beat Saber auf deinem Desktop und erlaubt dir, es mit deiner Tastatur und Maus zu steuern. Du benötigst die SiraUtil Mod, um während der Wiedergabe einer Karte interagieren zu können.
+First Person Flying Controller (FPFC) ist ein Startparameter, der sowohl von Steam- als auch von Oculus-Benutzern verwendet werden kann. FPFC öffnet eine Instanz von Beat Saber auf deinem Desktop und erlaubt dir, es mit deiner Tastatur und Maus zu steuern.
 
-Damit kannst du mit WASD in der Karte "herumfliegen", mit der Taste <kbd>F2</kbd> das Pausenmenü öffnen oder mit der Taste <kbd>ESC</kbd> das Level verlassen (andernfalls musst du den Song zu Ende spielen).
+While a map is playing, pressing:
 
-Installiere SiraUtil von Mod Assistant und führe Beat Saber aus, um eine config json-Datei zu erstellen. Bearbeite die Datei `SiraUtil.json` in deinem Ordner `UserData` und ändere `"Enabled": false` in `"Enabled": true` unter FPFCToggle und SongControl und folde dann den unten aufgeführten speicherplattenspezifischen Schritten.
+- `P` **P**auses the map
+- `M` Returns to **m**enu if paused
+- `R` **R**estarts the map if paused
+- `C` Unpauses and **c**ontinues playing
 
-![SiraUtil JSON Setting](/.assets/images/mapping/sirautil-FPFC.png)
+You will need the SiraUtil mod in order move the camera while a map is playing. Without it, the camera is fixed in the floor at an undesirable angle. Install SiraUtil from Mod Assistant and run Beat Saber to create a config json file. SiraUtil also adds additional useful features such as camera FOV, sensitivity, and rebindable pause and exit controls. Edit the `SiraUtil.json` file in your `UserData` folder to tweak settings.
 
-**Für Steam-Benutzer:** Öffne die Spieleigenschaften und fügen `fpfc` zu den Steam Startoptionen hinzu. ![FPFC Startoptionen](/.assets/images/mapping/fpfc.png)
+**For Steam Users:**
 
-**Für Oculus Besitzer:**
+Open the game properties and add `fpfc` to the Steam launch options in the General tab. ![Fpfc launch options](/.assets/images/mapping/fpfc.png)
+
+**For Oculus Users:**
 
 1. Klicke mit der rechten Maustaste auf Beat Saber.exe und erstelle eine Verknüpfung.
 2. Bearbeite das Ziel, um "fpfc" am Ende hinzuzufügen. Zum Beispiel: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" fpfc`
 
-Nach der Installation der Mods und dem Hinzufügen des Startparameters kannst du dich nun in einer Karte bewegen und pausieren. Die Umschalttaste zum Umschalten zwischen Headset- und Maus-/Tastatursteuerung ist <kbd>G</kbd>.
+After installing the mods and adding the launch parameter you can then now move around and pause in a map. The default toggle key to switch between headset and mouse/keyboard control is <kbd>G</kbd>.
 
-:::warning HINWEIS
+:::warning NOTE
 
-- Wenn du zurück in VR gehst und das Spiel auch im Headset nicht geladen wird:
+- If you go back into vr and the game doesn't load in the headset either:
 
-  - Drücke die Taste <kbd>G</kbd>, bis das Headset das Spiel anzeigt  
-    **==ODER==**
-  - Beende das Spiel, entferne die Startoption, und starte das Spiel neu.
+  - Press the <kbd>G</kbd> key until the headset displays the game  
+    **==OR==**
+  - Quit the game, remove the launch option, and relaunch the game.
 
-- Wenn der Mod nicht zu funktionieren scheint, stelle sicher, dass die Einstellung "Smooth Camera" im Spiel deaktiviert ist.
-  :::
+- If the mod doesn't seem to be working, make sure the in-game Smooth Camera setting is disabled.
+
+- For difficulties other than Expert+, the game defaults to a `No Flicker` option for lighting which reduces the amount of strobes and ring spin events shown. Check to make sure this `Player Option` setting is set what you intend to view!
+
+:::
 
 ### Online mit BS Viewer
 
-Der [BS Viewer](https://skystudioapps.com/bs-viewer/) von **+1 Rabbit** ist ein Online-Tool, mit dem du bequem überprüfen kannst, wie deine Karte im Spiel aussehen könnte, ohne das Spiel zu starten. Lade einfach deine Karten ZIP auf die Website hoch und sieh dir die Vorschau an! Leider werden **IOS und Safari derzeit nicht unterstützt.**
+[BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit** is an online tool that is a convenient way to checkout how your map might look in game without the game. Just upload your map zip to the website and preview! Unfortunately **IOS and Safari are currently not supported.**
 
 ## Credits
 
-Die Inhalte in diesem Abschnitt wurden von [LittleAsi](./mapping-credits.md#littleasi) und [Kolezan](./mapping-credits.md#kolezan) oder von Anleitungen von [Puds](./mapping-credits.md#puds) und [MandyNasty](./mapping-credits.md#mandynasty) abgeleitet. Mit visuellen Medienbeiträgen von [Aeroluna](./mapping-credits.md#aeroluna) und [Bullet](./mapping-credits.md#bullet).
+Content in this section was authored by [LittleAsi](./mapping-credits.md#littleasi), [Kolezan](./mapping-credits.md#kolezan) and [McEndu](./mapping-credits.md#mcendu) or derived from guides by [Puds](./mapping-credits.md#puds) and [MandyNasty](./mapping-credits.md#mandynasty). With visual media contributions from [Aeroluna](./mapping-credits.md#aeroluna) and [Bullet](./mapping-credits.md#bullet).

@@ -1,80 +1,116 @@
 ---
 prev: false
 next: false
+description: Frequently Asked Questions relating to modding, the community, and the game!
 ---
 
-# Veel Gestelde Vragen
+# Frequently Asked Questions
 
-## Ik heb zojuist het spel gekocht, hoe begin ik?
+## I just got the game, how do I get started?
 
-Bekijk onze [Gids voor beginners](/nl/beginners-guide.md)!
+Check out our [beginner's guide](/beginners-guide.md)!
 
-## Hoe verkrijg ik meer nummers?
+## What versions of the game can be modded?
 
-> [BeatSaver](https://beatsaver.com) is de hoofd database van custom levels die gemaakt zijn door de community. Veel andere programma's en websites verbeteren de ervaring van het downloaden van zelfgemaakte nummers, maar BeatSaver is de plek waar deze gehost worden.
+The latest moddable Beat Saber version for PC is `1.31.1`. You can also downgrade to `1.29.1` if you prefer.
 
-Als je de nummers handmatig download van BeatSaver, pak deze dan uit naar een map en plaats deze map in `Beat Saber/Beat Saber_Data/CustomLevels`. Dit is de map waarvan het spel zelfgemaakte nummers uit leest.
+The latest moddable Beat Saber version for Quest is `1.28.0`.
+
+For more information on modding and/or downgrading visit the respective [modding guide.](/beginners-guide.md)
+
+## How do I get more songs?
+
+> [BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community.
+> Many other tools and sites enhance the experience of downloading custom songs, but this place is where they are hosted.
+
+If you download maps manually from BeatSaver, extract them into a folder and place the files in `Beat Saber/Beat Saber_Data/CustomLevels`.
+This is the directory that the game natively reads custom maps from.
 
 ### BeastSaber
 
-[Beast Saber](https://www.bsaber.com) is een review website die probeert om alle nummers op BeatSaver te cureren. Je kan ook afspeellijsten downloaden, mappers volgen, nummers vinden met geavanceerdere sorteer mogelijkheden en meer.
+[Beast Saber](https://www.bsaber.com) is the home of the map curation team and annual mapping awards, BeastSaber aims
+to be a community hub to connect you to the more specialized areas of the community!
 
-### Hulpmiddelen voor het beheren van nummers
+You can also download playlists, follow mappers, find songs using advanced sorting methods and more.
 
-Er zijn op dit moment geen werkende apps voor het beheren van je nummers beschikbaar.
+### Song Management Tools
 
-## Hoe kan ik een afspeellijst installeren?
+The following can be used to help you manage custom songs or playlists.
+
+- [BeatList](https://github.com/ranmd9a/beatlist/releases/latest) is a desktop app to manage custom songs and playlists,
+  maintained by **ranmd9a**.
+- [BeaterList](https://syltaris.github.io/beaterlist) is a browser based service by **zexurge** to manage playlists.
+
+## How do I install playlists?
 
 ### PC
 
-Hiervoor moet je de [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod installeren.
+You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod.
 
-Daarna kan je één van de onderstaande twee dingen doen:
+Then you can either:
 
-- Gebruik de `Install Playlist` knop in het Options tabblad in Mod Assistant.
-- Plaats de afspeellijst in `Beat Saber/Playlists`, selecteer de titel van de afspeellijst in het spel en klik vervolgens op de download all songs knop.
+- Use the `Install Playlist` tool in the Options tab of Mod Assistant.
+- Place the playlist file into `Beat Saber/Playlists`, select the playlist title header in-game, then hit download all songs.
 
-Je zou in het spel de afspeellijst naast de custom levels albums moeten kunnen zien. De mod ondersteunt ook het beheren van afspeellijsten in het spel.
+You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
 
 ### Quest
 
-Je kan [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) gebruiken om afspeellijsten te beheren op je Quest. Houd er rekening mee dat een zelfgemaakt nummer slechts éénmaling in het spel kan worden weergegeven vanwege een beperking met BMBF.
+Drag the `.bplist` or `.json` playlist file into the BMBF upload tab. A confirmation message that your playlist has been
+installed should appear. You can then sync the playlist into your game by pressing the
+`Sync to Beat Saber` button.
 
-:::warning WAARSCHUWING
-voor Quest Gebruikers Het herladen van de custom levels, reset alle afspeellijsten.
+Once in game after custom levels has been loaded, a prompt from PlaylistCore to apply the
+playlist settings from BMBF should appear. After you accept the prompt, you should see the playlist next to the Custom
+Levels album's in game. Managing installed playlists can be done in-game or in the BMBF `Playlists` tab.
+
+:::warning WARNING for Quest Users
+
+If you added or modified a playlist manually or in-game, you have to select the `Reload Playlists Folder`
+button in BMBF's `Tools` tab to sync changes. Otherwise, BMBF will override your settings with an outdated copy the
+next time you sync your playlists through BMBF.
 :::
 
-## Hoe maak ik mijn eigen levels?
+## How do I make my own custom levels?
 
-Zie [Levels maken](/nl/mapping/)!
+See [mapping](/mapping/)!
 
-## Hoe gebruik ik PC mods die niet in Mod Assistant beschikbaar zijn?
+## How do I load PC mods that aren't in Mod Assistant?
 
-Zie [deze sectie](/nl/pc-modding.md#handmatige-installatie) in de Beginners Gids.
+See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 
-## Heeft Multiplayer Crossplay?
+## Does multiplayer have crossplay?
 
-Officieel is multiplayer gelimiteerd tot het spelen met mensen die het spel via dezelfde winkel hebben gekocht (Oculus/Steam). Bovendien zorgt het modden van het spel op Quest er voor dat de officiële multiplayer niet meer werkt.
+Cross-play between Quest and PC versions of the game is now available! All players will need to be on the latest version
+for this to work.
+Additionally, modifying the game on Quest disables official multiplayer.
 
-De BeatTogether mod is de huidige oplossing voor multiplayer tussen verschillende platformen en gemodde versies. Word lid van hun [Discord server](https://discord.com/invite/gezGrFG4tz) en bekijk het `#install-instructions` kanaal voor meer informatie.
+The BeatTogether mod is the current solution for cross-platform play between the modded game versions. Join their
+[Discord server](https://discord.com/invite/gezGrFG4tz) and check the `#install-instructions` channel for more information.
 
-## Mijn game is geüpdatet en nu werken de mods niet meer
+## My game updated and now none of my mods are working
 
-Elke keer als het spel update is het mogelijk _(en zeer waarschijnlijk)_ dat je bestaande mods niet meer werken en ook moeten worden geüpdatet. Om er voor te zorgen dat je installatie niet breekt als het spel voor het eerst na een nieuwe update word gestart, word alles automatisch uit de `Plugins` map verplaatst naar een nieuwe map met een naam als `Old 1.xx.x Plugins`. **Laat die plugins/mods daar staan!**
+Each time the game updates it is possible _(and very likely)_ that your existing mods will stop working and need to be updated.
+To make sure your install will not break when the game runs on a new update for the first time, everything
+in the `Plugins` folder is automatically moved into a new folder called `Old 1.xx.x Plugins`. **Leave those plugins/mods
+in there!** Please do not drag these mods back into the `Plugins` folder, as it is known to cause issues.
 
-Om mods terug te krijgen, hoef je simpelweg **de installer opnieuw uit te voeren.**  
-De BeatMods database bevat enkel mods waarvan gecontroleerd is dat ze werken op de nieuwste versie van het spel!
+To get mods back, simply **run the installer again.**\
+The BeatMods repository only includes mods that have been confirmed to work on the latest version of the game!
 
-Als je hierdoor in de war bent geraakt, bekijk dan de [Beginners Gids](/nl/beginners-guide.md).
+If you're confused by any of this, visit [Beginners Guide](/beginners-guide.md).
 
-## Hoe werkt het score systeem in Beat Saber? Hoe werkt de globale rang?
+## How does the scoring system work in Beat Saber? How does global ranking work?
 
-We hebben paragrafen op de [grepen en trucks](/nl/grips-and-tricks.md) pagina toegewijd aan het scoren en rang systemen, bekijk het eens!
+We have sections on the [grips and tricks](/grips-and-tricks.md) page dedicated to the scoring and ranking systems,
+check them out!
 
-## Mijn menu's zijn leeg en ik kan nergens op klikken
+## My menus are blank and I have nothing to click on
 
-Als het hoofdmenu in je spel leeg is, dan is je save file waarschijnlijk beschadigd.
+If the main window in your game is blank, your save file likely got corrupted.
 
-Om het op te lossen, ga je naar: `%AppData%\..\LocalLow\Hyperbolic Magnetism`
+To fix it, navigate to:
+`%AppData%\..\LocalLow\Hyperbolic Magnetism`
 
-Verwijder of hernoem de Beat Saber map naar iets anders. Wanneer je de game weer opnieuw opent, maakt het de save file opnieuw aan en zou het hoofdmenu correct moeten laden.
+Delete or rename the Beat Saber folder to something else. When you re-enter the game,
+it'll recreate the save file and should load the main menu properly.

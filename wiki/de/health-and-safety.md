@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: Learn how to stay safe and prevent injuring yourself while playing Beat Saber!
 ---
 
 # Gesundheit und Sicherheit
@@ -37,7 +38,7 @@ Dr. Levi hat schon die Handgelenke von unzähligen Spielern mit seinen Videos ge
 
 Halte deinen Spielbereich frei von Hindernissen und sorge für genügend Platz um dich herum während du spielst. Vergesse nicht, immer deine Handgelenkschlaufen zu tragen.
 
-![Sorge für genug Platz um dich herum](/.assets/images/health-and-safety/allow-adequate-room-around-you.png 'Sorge für genug Platz um dich herum')
+![Sorge für genug Platz um dich herum](/.assets/images/health-and-safety/allow-adequate-room-around-you.png "Sorge für genug Platz um dich herum")
 
 ::: warning HINWEIS
 Beat Saber ist nicht verfügbar für die Nintendo Wii. Dieses Bild ist nur zu informativen Zwecken.
@@ -47,4 +48,4 @@ Beat Saber ist nicht verfügbar für die Nintendo Wii. Dieses Bild ist nur zu in
 
 Um die Risiken sich zu verletzten zu senken denke immer daran dich zu dehnen bevor und nachdem du Beat Saber spielst. Bitte beachte folgendes:
 
-![Wammy](/.assets/images/health-and-safety/wammy.gif 'Wammy')
+![Wammy](/.assets/images/health-and-safety/wammy.gif "Wammy")

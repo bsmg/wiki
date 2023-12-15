@@ -1,17 +1,17 @@
 ---
 prev: false
 next: false
-description: Voici d'autres communautés Beat Saber à connaître sur Internet !
+description: Check out these lists of other Beat Saber communities around the internet!
 ---
 
-# Communautés Beat Saber
+# Beat Saber Communities
 
-Voici d'autres communautés Beat Saber à connaître sur Internet !
+Check out these lists of other Beat Saber communities around the internet!
 
-## [Hub communautaire](./community-hub.md)
+## [Community Hub](./community-hub.md)
 
-Le hub communautaire est une liste de communautés publiques axées sur Beat Saber.
+The Community Hub is a list of public Beat Saber focused communities.
 
-## [Hub régional](./regional-hub.md)
+## [Regional Hub](./regional-hub.md)
 
-Le hub régional est une liste de communautés publiques ou privées axées sur Beat Saber dans une région géographique spécifique.
+The Regional Hub is a list of public or private Beat Saber focused communities for a specific geographic region.

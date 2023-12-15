@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: A compilation of resources to help you play more difficult songs and achieve a higher score!
 ---
 
 # 持ち方とコツ
@@ -9,7 +10,7 @@ _ブロックを切るときの便利なまとめ_
 
 ## ランキングを上げるためのチュートリアル
 
-PP を取るための TeknozFR による記事 [ランキング & スコアリングガイド](./ranking-guide.md)
+An incredible writeup to help you get that PP. [Ranking & Scoring Guide](./ranking-guide.md)
 
 ## スコアを上げるには
 
@@ -23,39 +24,70 @@ PP を取るための TeknozFR による記事 [ランキング & スコアリ�
 
 ## ランキング
 
-_グローバルランキングの仕組みは? パフォーマンスポイントとは何ですか? 括弧内の数字は何ですか? なぜ私の PP はそんなに小さいのですか?_
+_グローバルランキングの仕組みは? パフォーマンスポイントとは何ですか? 括弧内の数字は何ですか? なぜ私のPPはそんなに小さいのですか?_
 
-グローバルランキングと PP は [ScoreSaber](https://scoresaber.com/global) で確認できます。 あなたの Scoresaber アカウントはあなたの Steam / Oculus のユーザー名に関連付けられています。
+There are 2 separate ranking systems: [ScoreSaber](https://scoresaber.com/global) and [BeatLeader](https://www.beatleader.xyz/ranking/1). You can find your global ranking and PP on their respective sites where you can search for your name.
 
-1. ランク付けされた曲には PP(PP=パフォーマンスポイント) が割り当てられます。 得られる PP の量は、ランク付けされた曲のプレイの正確さによって決まります。 ランク付けされた曲の PP の値は、Umbranox, our Panda God によって開発された秘密のアルゴリズムによって決定されます。
-2. 熟練したプレイヤーが簡単な曲で多くの PP を取るのを避けるために、各プレイヤーにある曲線を適用しています。 その曲線は 0.965^(x-1) で、x はソングリストのスコアの位置です。 例） あなたの最高スコアの曲が 260 PP の場合、 260PP を得ることができ、これは 100%の PP です。 2 番目のスコアの曲が 247PP の場合、曲線を適応した 237PP（＝ 247＊0.965）を得ることができます。 このシステムを説明する表は次のとおりです。
+On **PC**, your Beatleader account is tied to your Steam / Oculus account and is your profile name by default.  
+On **Quest**, your Beatleader account is made by you in game using the BeatLeader Mod.
 
-| PP    | 重みのついた PP              |
-| ----- | ---------------------------- |
-| 260pp | **260pp** (元の PP の 100%)  |
-| 247pp | **238pp** (元の PP の 96.5%) |
-| 246pp | **229pp** (元の PP の 93.1%) |
-| 244pp | **219pp** (元の PP の 89.9%) |
+> You can merge your Beatleader account with your Steam account to sync scores across devices.  
+> If you're using an Oculus account and looking log in on the website, you'll need to [make a BL account](https://beatleader.wiki/en/account#website-1) or connect your steam account
 
-3. ランクを上げるためにあなたのスキルレベルに合ったランク付けされた曲を見つけるために使用できるツールはかなりあります。 最初に 自分の [ScoreSaber](https://scoresaber.com/global) プロフィールを見に行って、しばらくプレイしていない曲のプレイを改善するか、自分のトップスコアがどんなものかを知ることです。 [ScoreSaberEnhanced](https://github.com/Splamy/ScoreSaberEnhanced#readme) または [ScoreSaber Country Leaderboard](https://github.com/motzel/ScoreSaberCountryLeaderboard#readme) ブラウザ拡張機能は、プロフィールの機能を拡張できます。 [Balibilo の ScoreSaber サイト](https://scoresaber.balibalo.xyz/peepee) と [Beat Saveria](https://beat-savior.herokuapp.com/) は、地図を見つけて、あなたのパフォーマンスを 追跡するのに役立つ外部サイトです。
+Your ScoreSaber account is tied to your Steam / Oculus username.
 
-[ランキング & 得点ガイド](./ranking-guide.md) に詳細情報があります。
+### BeatLeader
 
-_このセクションは、Beat Saber Canadian discord の Tek の書き込みによります。_
+Ranked songs are assigned 3 difficulties (stars) based on the kinds of difficulty the map presents. These 3 numbers combined with the accuracy you finished the song with determines the exact amount of raw PP gained. The 3 difficulties represented for the purposes of PP rewards are:
 
-::: tip
-曲は [ScoreSaber Discord](https://discord.gg/WpuDMwU) のチームによってランク付けされています。 このサーバーをフォローすると、更新を確認できます。
-:::
+- Pass-ibility: How hard a map is to pass. Provides a base flat PP reward
+- Acc-ibility: How hard a map is to get a good accuracy. Provides PP based on your accuracy
+- Tech-iness: Purly a measurement of pattern difficulty devoid of speed. Provides bonus PP based on your accuracy
+
+The exact 3 difficulty numbers assigned to each map is done with an open source AI algorithm developed by DzRamen and LackWiz
+
+### ScoreSaber
+
+Ranked songs are assigned PP (PP = performance points). The exact amount of PP gained is determined by the accuracy you finish a ranked song with. How much PP a ranked song is worth is determined by a secret algorithm developed by Umbranox.
+
+### Weighted PP
+
+To avoid having skilled players grinding lots of easier songs that are worth less PP, a **curve** is applied to your plays.
+
+This curve is `0.965^(x-1)` where `x` is the position of that score on your song list. e.g. If your top play is a 260 PP play, you will be rewarded 260 weighted PP which is a 100% of the raw PP of that play. If your second top play is 247 raw PP, you will be rewarded 238 weighted PP which is the actual amount of PP you get after the curve applies. Here is a table to illustrate this system:
+
+| PP    | 重みのついたPP                    |
+| ----- | --------------------------- |
+| 260pp | **260pp** (元のPPの100%)       |
+| 247pp | **238pp** (元のPPの96.5%)      |
+| 246pp | **229pp** (元のPPの93.1%)      |
+| 244pp | **219pp** (89.9% of raw PP) |
+
+### Improving Your Rank
+
+To get a better rank, there are quite a few tools you can use to find ranked songs that fit your skill level.
+
+First, it's always good to go see your own [ScoreSaber](https://scoresaber.com/global)/ [BeatLeader](https://www.beatleader.xyz/ranking/1) profile to see songs that you haven't played in a while or that you could improve on and to know what your top scores look like.
+
+**ScoreSaber Addons:**
+
+[BaliBilo's ScoreSaber site](https://scoresaber.balibalo.xyz/peepee) and [Beat Savior](https://beat-savior.herokuapp.com/) are external sites that can help you find maps to improve on and keep track of your performance.
+
+You can find more information in the [Ranking & Scoring Guide](./ranking-guide.md).
+
+_This section is adapted from Tek's writeup in the Beat Saber Canadian discord._
+
+::: tip **ScoreSaber** ranked songs are ranked by the team in the [ScoreSaber Discord](https://discord.gg/WpuDMwU). Similarly, **Beatleader** ranked songs are ranked by the team in the [BeatLeader Discord](https://discord.gg/2RG5YVqtG6). You can follow along in these servers to see what changes happen! :::
 
 ## 握り方
 
-Cube コミュニティでは、Oculus Touch controller(CV1) や Vive Wands の人気のあるグリップをいくつか紹介するビデオを制作しました。
+Cube Community made some videos showing off some of the more popular grips for Oculus Touch controllers (CV1) and Vive Wands.
 
 ### HTC Vive Wands
 
 <YouTube url='https://www.youtube.com/watch?v=G7x_wb7RrgU' />
 
-![Viveグリップガイド](/.assets/images/grips-and-tricks/vive-grips-guide.jpg)
+![Vive Grips Guide](/.assets/images/grips-and-tricks/vive-grips-guide.jpg)
 
 ### Oculus Rift
 
@@ -63,36 +95,36 @@ Cube コミュニティでは、Oculus Touch controller(CV1) や Vive Wands の�
 
 ![Oculus Grips Guide](/.assets/images/grips-and-tricks/oculus-grips-guide.jpg)
 
-### Oculus Rift S と Quest
+### Oculus Rift S and Quest
 
-RiftS と Quest コントローラ用のビデオはまだ作成されていませんが、以下のいくつかの例を示します！ ![Oculus Rift S/Quest Guide](/.assets/images/grips-and-tricks/touch2-grips.jpg)
+A video has not yet been made for Rift S and Quest controllers, but you can find some examples below! ![Oculus Rift S/Quest Guide](/.assets/images/grips-and-tricks/touch2-grips.jpg)
 
-### Valve Index コントローラー
+### Valve Index Controllers
 
-Index コントローラ用のビデオはまだ作成されていませんが、いくつかの例は `#tips-and-grips` チャンネルにあります！ [CC Discord](https://discord.gg/dwe8mbC)
+A video has not yet been made for Index controllers, but you can find some examples in their `#tips-and-grips` channel! [CC Discord](https://discord.gg/dwe8mbC)
 
 ### Oculus Quest 2
 
-Quest ２コントローラ用のビデオはまだ作成されていませんが、以下のいくつかの例を示します！ ![Oculus Quest 2](/.assets/images/grips-and-tricks/touch3-grips.jpg)
+A video has not yet been made for the Quest 2's controllers, but you can find some examples below! ![Oculus Quest 2](/.assets/images/grips-and-tricks/touch3-grips.jpg)
 
-[Cube コミュニティの Discord](https://discord.gg/dwe8mbC)のチャンネル`#tips-and-grips`でより多くの例が示されています。 誰もがプレイスタイルと体の動かし方が違うことを覚えておいてください。他の誰かの握り方があなた思うように機能しない場合があります。 あなたに合う方法をいろいろ試して探してください！
+Check out Cube Community's `#tips-and-grips` channel for more suggestions and examples in their [Discord](https://discord.gg/dwe8mbC). Please remember that everyone's playstyle and body is different; someone else's grip might not work exactly like you need it to. Don't be afraid to experiment and find what's right for you!
 
 ## Vive コントローラーのトラッキングを改善
 
-あなたの体がコントローラーの 1 つの信号源を妨げているかもしれません。 ここでは、トラッキングを改善するためのいくつかの手順を示します。
+Your body may be blocking one lighthouse from seeing one of your controllers. Here are some steps that may help improve tracking.
 
-1. プレイスペースの隅に移動します。
-2. 両方のコントローラーが感知できるように体を 45 度回転させます。
-3. Beat Saber の設定でルームを回転させて補正し、ゲーム内で画面が前向きに表示されるようにします。
+1. Move into the corner of your playspace.
+2. Rotate your body 45 degrees so that your lighthouses can see both controllers.
+3. Rotate the room within Beat Saber's settings to compensate, so that you appear facing forward within the game.
 
-![Vive トラッキング ヘルプ](/.assets/images/grips-and-tricks/vive-tracking-help.gif)
+![Vive Tracking Help](/.assets/images/grips-and-tricks/vive-tracking-help.gif)
 
-これは Oculus センサーにも適用できます。
+This can apply to Oculus sensors too.
 
-## Touch コントローラーのバッテリー切断
+## Touchコントローラーのバッテリー切断
 
-Beat Saber のスイングで、Touch コントローラのバネが圧縮して電池との接触が途切れることがあります。 セイバーの位置のトラッキングが外れ、回転のトラッキングが残るような現象が起こります。 ragesaq によると、これを軽減するには 電池を格納する部分に追加のばねを入れることで電池の接触不良が起こりにくくなります。詳しくはここで説明されています。[Reddit post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
+The force of your swings in Beat Saber can cause the spring in the touch controllers to compress and disconnect the battery for a brief moment. This is what happens when you see your saber lose positional tracking but still rotate in place. To alleviate this, ragesaq recommends adding extra springs inside the battery compartment to decrease the likelihood of battery disconnects happening, explained in this [Reddit post](https://www.reddit.com/r/oculus/comments/a2h7o4/psa_adding_an_additional_spring_to_the_battery/?st=JR9Q7OEZ&sh=a7a3d091)
 
 ## 以下のことにも注意しましょう
 
-![以下のことにも注意しましょう](/.assets/images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)
+![Also Consider](/.assets/images/grips-and-tricks/allow-adequate-room-around-you-during-game-play-put-on-27689465.png)

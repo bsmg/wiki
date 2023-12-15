@@ -1,14 +1,12 @@
----
-prev: false
-next: false
-description: Commencez au bon endroit !
----
+- - -
+prev: false next: false description: Get started in the right direction modding Beat Saber!
+- - -
 
 # Guide du Débutant
 
 ## Modder votre jeu
 
-Beat Saber est disponible sur PC et Oculus Quest. La scène du modding étant différente sur les deux plateformes, le guide du débutant est séparé en deux : [Modding sur PC](#modding-sur-pc) et [Modding sur Quest](#modding-sur-quest).
+Beat Saber est disponible sur PC et Oculus Quest. La scène du modding étant différente sur les deux plateformes, le guide du débutant est séparé en deux : [Modding sur PC](#pc-modding) et [Modding sur Quest](#quest-modding).
 
 ### Modding sur PC
 
@@ -28,7 +26,8 @@ Si vous utilisez la version Oculus Quest du jeu, suivez le [guide de modding sur
 
 Les casques compatibles comprennent :
 
-- Oculus Quest / Quest 2
+- Meta Quest
+- Meta Quest 2
 
 ## Créer du contenu
 

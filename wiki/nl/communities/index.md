@@ -1,16 +1,17 @@
 ---
-sidebar: false
+prev: false
+next: false
+description: Check out these lists of other Beat Saber communities around the internet!
 ---
 
-<!-- Disable header rule to hide page from search -->
-<!-- markdownlint-disable MD041 -->
+# Beat Saber Communities
 
-Sorry, deze pagina is nog niet vertaald.
+Check out these lists of other Beat Saber communities around the internet!
 
-Je kan:
+## [Community Hub](./community-hub.md)
 
-- Overschakelen naar de Engelse versie vanuit het taal menu.
-- Wachten totdat deze pagina is vertaald.
-- Helpen met het vertalen van deze pagina vanuit het Engels, samen met de rest van de wiki, door [hier](https://forms.gle/e3BqA3poMjESARe76) te solliciteren!
+The Community Hub is a list of public Beat Saber focused communities.
 
-[Ga terug naar de startpagina](/nl/)
+## [Regional Hub](./regional-hub.md)
+
+The Regional Hub is a list of public or private Beat Saber focused communities for a specific geographic region.

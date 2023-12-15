@@ -1,60 +1,79 @@
 ---
 prev: false
 next: false
+description: Learn about some of the major Beat Saber modding community contributors as the community wouldn't exist without the blood, sweat, and tears of these amazing volunteers.
 ---
 
-# À propos de nous
+# About Us
 
-Vous êtes-vous déjà demandé qui faisait votre mod favori ou créé l'installateur de mod ? Cette page vous en dit un peu plus sur les principaux contributeurs de la communauté modding de Beat Saber. Cette communauté n'existerait pas sans le sang, la sueur et les larmes de ces incroyables bénévoles.
+Ever wonder who made your favorite mod or created the mod installer? This page tells you a little bit about some of the
+major Beat Saber modding community contributors. The community wouldn't exist without the blood, sweat,
+and tears of these amazing volunteers.
 
-> _Note : certaines personnes pourraient apparaître dans plusieurs sections, donc j'ai essayé de trier ces pages du mieux que j'ai pu. Si vous souhaitez un changement dans l'une des sections, n'hésitez pas à nous contacter ou à contribuer vous-même !_
+> _Note: some people could go under multiple sections, so I tried to sort these pages the best I could.
+> If you'd like anything about your section changed, feel free to contact us or contribute yourself!_
 
-## Qui sommes-nous ?
+## Who We Are
 
 ### [Staff](./staff.md)
 
-L'équipe qui mène le bal sur scène et en coulisse. Que ce soit la gestion des projets, la validation des mods, la gestion des services principaux, la coordination d'évènements, ou bien d'autres projets secrets, il y a toujours beaucoup de travail à faire. La communauté n'existerait pas sans ces indénombrables heures de contributions fournies par ces individus géniaux, alors, s'il-vous-plaît, offrez-leur une ovation virtuelle (et aidez à payer les services si vous pouvez...).
+The team that runs the show at the forefront and behind the scenes. Whether it comes to project management, plugin/mod approval,
+managing the core services, event coordination, or many of the other secret projects, there's always lots of work to be done.
+The community wouldn't exist without the countless hours contributed by these incredible individuals, so please give them
+a virtual round of applause (and help pay for the services if you can...)
 
-### [Modérateurs](./moderators.md)
+### [Moderators](./moderators.md)
 
-Avec un serveur aussi vaste, énormément de modération est nécessaire pour faire respecter l'ordre. Vous pouvez remercier cette équipe pour garder les rues propres.
+With a server so large, a lot of moderation is required to keep everything under control.
+You can thank this team for keeping the streets clean.
 
-### [Moddeurs](./modders.md)
+### [Modders](./modders.md)
 
-Le jeu tel que nous le connaissons n'existerait pas si les gens ne voulaient pas apporter leur pierre à l'édifice. Ce sont les moddeurs qui ont passé le plus clair de leur temps à nous permettre de personnaliser le jeu.
+The game as we know it wouldn't exist if people didn't want to add their own spin to it. These are the modders who have
+spent countless of their own hours to help us personalize the game.
 
 ### [Supports](./supports.md)
 
-Le rôle Support est un symbole de remerciement. Merci pour les milliers de messages envoyés dans les salons de support pour aider les joueurs en difficulté avec leurs mods, ainsi que pour avoir construit une base de connaissances pour aider via les macros et le wiki.
+The Support role is a symbol of thanks. Thanks for the thousands of messages sent in the support channels to help people
+sort out their mods, and for building a knowledge of troubleshooting base through macros and the wiki.
 
 ### [Mapping Supports](./mapping-supports.md)
 
-Le rôle Mapping Support est un symbole de remerciement. Merci aux milliers de messages envoyés dans le canal de discussion sur le mapping et le temps passé à créer et entretenir les ressources sur le mapping pour aider les personnes à apprendre à faire des maps.
+The Mapping Support role is a symbol of thanks. Thanks for the thousands of messages sent in the mapping discussion channel
+and time spent building and maintaining the mapping resources to help people learn how to make maps.
 
-### [Artistes 3D](./3d-artists.md)
+### [3D Artists](./3d-artists.md)
 
-Des sabres aux notes, les modèles personnalisés ont toujours été populaires dans nos versions moddées de Beat Saber, ce qui n'aurait pas pu être possible sans eux.
+From sabers to notes, custom models have always been a popular aspect of modded beat saber which wouldn't
+be possible without them.
 
-### Mappeurs
+### Mappers
 
-Chacune de vos maps favorites est soigneusement confectionnée et testé de nombreuses heures par un talentueux mappeur. Autant que nous souhaiterions les inclure ici aussi, ils sont BEAUCOUP trop. Si vous aimez les maps de quelqu'un, récompensez-le d'un pouce en l'air en jeu, passez-les en revue sur [BeastSaber](https://bsaber.com), ou dites-le lui personnellement ! Ce sera vraiment apprécié.
+Each of your favorite maps is carefully crafted and tested over many hours by a talented mapper. As much as we'd love to
+include them here too, there are WAY too many of them. If you like someone's maps, give it a thumbs up in game, review it
+on [BeastSaber](https://bsaber.com), or tell them personally! They'll really appreciate it.
 
-> De plus, il existe une communauté qui aide à connecter les mappeurs et artistes avec des clients, si vous souhaitez demander quelque chose. Nous vous encourageons à les contacter sur le [serveur Discord Beat Saber Commissions](https://discord.gg/e4f3WBBVnr) (serveur en anglais).
+> Furthermore, there is a community run discord to help connect mappers/artists with clients if you would like to
+> commission something. We encourage you to reach out in the [Beat Saber Commissions server.](https://discord.gg/e4f3WBBVnr)
 
-### [Contributeurs aux ressources de mapping](/fr/mapping/mapping-credits.md)
+### [Mapping Resources Contributors](/mapping/mapping-credits.md)
 
-Un groupe de mappeurs expérimentés qui ont pris le temps de noter et partager leur connaissance pour aider les autres à s'améliorer s'y mettre et s'améliorer. Allez voir leurs maps et n'hésitez pas à les supporter !
+A group of experienced mappers that took the time to write down and share their knowledge to help others get started or improve.
+Check out their maps and consider supporting them!
 
-### [Traducteurs](./translators.md)
+### [Translators](./translators.md)
 
-Les personnes ayant travaillé dur pour traduire le contenu du wiki dans leur langue. Un grand merci pour votre temps ! Les personnes mentionnées sur cette pages sont ceux ayant contribué aux langues actuellement disponibles sur le wiki.
+The hardworking people who took the time to translate the wiki content into their own languages. A heartfelt thank you
+for your time! The ones listed on this page are for languages currently available on the website.
 
-Si vous voulez aider à traduire dans votre langue, vous pouvez postuler [ici](https://forms.gle/e3BqA3poMjESARe76) !
+If you would like to join for your language, you can [apply to help translate!](https://forms.gle/e3BqA3poMjESARe76)
 
-### [Vainqueurs d'évènements](./event-winner.md)
+### [Event Winners](./event-winner.md)
 
-Les vainqueurs des compétitions et événements passés qui se sont déroulés dans le serveur Discord. Suivez `#server-announcements` pour connaître les événements en cours ou ceux à venir !
+Winners of past contests/events held in the discord. Keep up with `#server-announcements` for such events happening now,
+or in the future!
 
-## À propos de ce Wiki
+## About This Wiki
 
-Ce wiki est dédié à toute chose liée au modding du jeu Beat Saber. A l'origine, celui-ci a été créé pour remplacer les canaux `#beginners-guide` et `#faq` du [serveur Discord Beat Saber Modding Group](https://discord.gg/beatsabermods).
+This is a wiki for all things relating to modding the game Beat Saber.
+It was originally created to replace the `#beginners-guide` and `#faq` channels of the [Beat Saber Modding Group Discord](https://discord.gg/beatsabermods).
