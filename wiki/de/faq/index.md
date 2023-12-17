@@ -48,7 +48,7 @@ Für Quest User Das Neuladen des Ordners für Custom Songs setzt alle Einstellun
 
 Siehe [Mapping](/de/mapping/)!
 
-## Wie lade ich Mods, die nicht in Mod Assistant oder BSManager zu finden sind?
+## Wie lade ich Mods, die nicht in Mod Assistant zu finden sind?
 
 Siehe [Diesen Abschnitt](/de/pc-modding.md#manuelle-installation) in unserer Anleitung für Anfänger.
 

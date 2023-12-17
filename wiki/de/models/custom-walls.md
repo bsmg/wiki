@@ -13,7 +13,7 @@ Die Walls müssen speziell für Quest oder PC angefertigt werden und sind nicht 
 
 ### PC Walls
 
-Den neuesten Custom Walls Mod findest du im [#pc-mods Channel](https://discord.gg/beatsabermods) im BSMG Discord, [Mod Assistant](https://github.com/Assistant/ModAssistant) oder im [BSManager](https://github.com/Zagrios/bs-manager).
+Den neuesten Custom Walls Mod findest du im [#pc-mods Channel](https://discord.gg/beatsabermods) im BSMG Discord oder im [Mod Assistant](https://github.com/Assistant/ModAssistant).
 
 Nach der Installation solltest du einen `CustomWalls` Ordner in deinem [Installationsordner](/de/faq/install-folder.md) sehen. In diesem Ordner werden die `*.pixie` Dateien abgelegt.
 

@@ -132,7 +132,7 @@ Dies löscht deine lokalen Scores im Leaderboard und Statistiken.
 
 #### 3.2 Wie verwende ich `x` Mod?
 
-- Wenn Du Mod Assistant oder BSManager nutzt, klick einfach auf "Mod Info". [BeatMods](http://beatmods.com) hat ebenfalls eine solche Schaltfläche.
+- Wenn Du Mod Assistant nutzt, klick einfach auf "Mod Info". [BeatMods](http://beatmods.com) hat ebenfalls eine solche Schaltfläche.
 
 #### 3.3 Vibrationsfehler
 
@@ -275,7 +275,7 @@ Hier ist eine [Video Anleitung](https://www.youtube.com/watch?v=EBFfT4-ZiIc), ob
 
 3. Installiere das Spiel noch einmal über Steam oder den Oculus Store
 4. **Bevor du Moddest, starte das Spiel einmal**
-5. Starte Mod Assistant oder BSManager, installiere deine Mods und starte das Spiel.
+5. Starte Mod Assistant, installiere deine Mods und starte das Spiel.
 
 (Optional) Falls du noch einen Schritt weiter gehen willst, verweise auf: [Das Löschen des Beat Saber Ordners im Appdata Ordner](#das-loschen-deines-spielstandes-in-appdata)
 

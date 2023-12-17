@@ -13,7 +13,7 @@ Noten müssen speziell für die Quest oder PC erstellt werden. Du kannst also ke
 
 ### PC-Noten
 
-Das neueste Custom Avatars Plugin kann im [#pc-mods channel](https://discord.gg/beatsabermods) im BSMG Discord, [Mod Assistant](https://github.com/Assistant/ModAssistant) oder im [BSManager](https://github.com/Zagrios/bs-manager) gefunden werden.
+Das neueste Custom Avatars Plugin kann im [#pc-mods channel](https://discord.gg/beatsabermods) im BSMG Discord oder im [Mod Assistant](https://github.com/Assistant/ModAssistant) gefunden werden.
 
 Einmal installiert, solltest du einen `CustomNotes` Ordner in deinem [Installationsordner](/de/faq/install-folder.md) mit einigen vorinstallierten Noten sehen. In diesen Ordner müssen auch deine `*.bloq` Dateien gezogen werden.
 

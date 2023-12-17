@@ -78,10 +78,3 @@ Qosmetics Community ist eine Community, die sich auf die Bereitstellung von Cust
 Wir sind ein Quest-fokussierter Beat Saber Community Server, der sich der Verbesserung der Erfahrung für so viele Spieler wie möglich widmet.
 
 [Discord](https://discord.gg/d6DyW9v) | [Website](https://www.questmodding.com/)
-
-## BSManager 
-
-BSManager ist eine Community von Beat Saber-Fans, die BSManager verwenden, um ihre Mods zu verwalten und ihr Spielerlebnis anzupassen. Es ist ein freundlicher Ort, an dem Benutzer Tipps austauschen, Fragen stellen, technische Unterstützung erhalten und alles rund um Beat Saber besprechen können.
-
-[Discord](https://discord.gg/uSqbHVpKdV)
-| [GitHub](https://bsmg.wiki/bsmanager/)
