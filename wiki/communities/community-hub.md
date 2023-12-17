@@ -88,6 +88,14 @@ This is a place to discuss the mod and follow its progress and releases!
 
 [Discord](https://discord.com/invite/gezGrFG4tz)
 
+## BSManager
+
+BSManager is a community of Beat Saber fans who use BSManager to manage their mods and customize their gaming experience.
+It is a friendly space where users can exchange tips, ask questions, get technical assistance, and discuss anything
+related to Beat Saber.
+
+[Discord](https://discord.gg/uSqbHVpKdV) | [GitHub](https://github.com/Zagrios/bs-manager)
+
 ## ChroMapper
 
 ChroMapper is a community maintained map editor for Beat Saber. Built from the ground up, ChroMapper brings Beat Saber
@@ -137,10 +145,3 @@ We are a quest-focused beat saber community server, dedicated to improving the e
 
 [Discord](https://discord.gg/d6DyW9v)
 | [Website](https://www.questmodding.com/)
-
-## BSManager 
-
-BSManager is a community of Beat Saber fans who use BSManager to manage their mods and customize their gaming experience. It is a friendly space where users can exchange tips, ask questions, get technical assistance, and discuss anything related to Beat Saber.
-
-[Discord](https://discord.gg/uSqbHVpKdV)
-| [GitHub](https://bsmg.wiki/bsmanager/)
