@@ -75,9 +75,9 @@ version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/Mo
 
 \***\*Make sure you own the game on Steam or Oculus (PCVR)\*\*** before trying to download Beat Saber!
 
-An all-in-one tool that lets you easly manage BeatSaber versions, maps, mods, and even more. Get it on [Zagrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
+An all-in-one tool that lets you easily manage BeatSaber versions, maps, mods, and even more. Get it on [Zagrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
 
-![BSManager](/.assets/images/beginners-guide/bsmanager.png)
+![BSManager](/.assets/images/beginners-guide/bsmanager.jpg)
 
 ### BeatSaberModManager
 
@@ -120,8 +120,8 @@ tab of BSManager.
 To enable and use Mod Assistant's OneClick™ Install see the picture below:
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant-oneclick.png)
 
-To enbale and use BSManager's OneClick™ Install see the picture below:
-![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.png)
+To enable and use BSManager's OneClick™ Install see the picture below:
+![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.jpg)
 
 ### Beast Saber
 
@@ -254,7 +254,7 @@ If you want to downgrade to `1.29.1` you can use the legacy branch method.
 
 ## How to uninstall mods
 
-Either remove the DLL file from the Plugins folder, or click the Uninstall button in Mod Assistant or BSManager
+Either remove the `.dll` file from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant or BSManager
 (after selecting your version, go to the 'Mods' tab).
 
 ## Where to go from here
