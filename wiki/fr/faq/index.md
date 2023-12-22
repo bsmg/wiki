@@ -49,7 +49,7 @@ Pour les utilisateurs de Quest Recharger votre dossier des chansons personnalis√
 
 Rendez-vous dans la [cat√©gorie mapping](/fr/mapping/) !
 
-## Comment charger des extensions / mods qui ne sont pas dans Mod Assistant ?
+## Comment charger des extensions / mods qui ne sont pas dans Mod Assistant ou BSManager ?
 
 Voir [cette section](/fr/pc-modding.md#installation-manuelle) dans le Guide de modding PC.
 

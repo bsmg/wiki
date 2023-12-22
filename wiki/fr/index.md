@@ -54,7 +54,7 @@ tags:
 - [Rejoignez le serveur Discord ! (anglophone)](https://discord.gg/beatsabermods)
 - [Nous contacter](https://bsmg.dev/contact) - Offrez vos compétences, sponsorisez-nous, faites appel d'une décision administrative (ban, mise au silence), etc.
 - [Patreon BSMG](https://www.patreon.com/beatsabermods) - Soutenez les services BSMG !
-- [BeatMods](https://beatmods.com) - Dépôt des mods sur PC que l'on retrouve dans les installateurs comme Mod Assistant
+- [BeatMods](https://beatmods.com) - Dépôt des mods sur PC que l'on retrouve dans les installateurs comme Mod Assistant ou BSManager.
 - [BeatSaver](https://beatsaver.com/) - Téléchargez les chansons personnalisées ici
 - [BeastSaber](https://bsaber.com/) - Critiques, articles, playlists, et bien plus !
 - [ModelSaber](https://modelsaber.com/) - Téléchargez des sabres personnalisés, des avatars, des bloqs et des plateformes !

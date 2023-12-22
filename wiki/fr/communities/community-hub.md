@@ -45,6 +45,12 @@ Un tournoi au format ligue pour Beat Saber !
 [Discord](https://discord.gg/nFJDVqS) (serveur anglophone)
 [Website](https://beatsaberleague.com/)
 
+## BSManager 
+
+BSManager est une communauté de fans de Beat Saber qui utilisent BSManager pour gérer leurs mods et personnaliser leur expérience de jeu. C'est un espace convivial où les utilisateurs peuvent échanger des astuces, poser des questions, obtenir de l'aide technique et discuter de tout ce qui concerne Beat Saber.
+
+[Discord](https://discord.gg/uSqbHVpKdV) | [GitHub](https://github.com/Zagrios/bs-manager)
+
 ## Chroma
 
 Un serveur dédié à la suite de mods Chroma, qui sont principalement conçus pour ajouter plus de couleur à vos vies bicolores. Appréciez l'éclairage et les notes multicolores !

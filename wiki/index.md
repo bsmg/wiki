@@ -60,7 +60,7 @@ hero:
 
 ---
 
-- [BeatMods](https://beatmods.com) - Repository of PC mods that are reflected in installers like Mod Assistant
+- [BeatMods](https://beatmods.com) - Repository of PC mods that are reflected in installers like Mod Assistant or BSManager.
 - [BeatSaver](https://beatsaver.com/) - Download custom songs here
 - [BeastSaber](https://bsaber.com/) - Reviews, articles, playlists, and more!
 - [ModelSaber](https://modelsaber.com/) - Download PC custom sabers, avatars, bloqs, and platforms!

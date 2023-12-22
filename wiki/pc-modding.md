@@ -74,9 +74,11 @@ version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/Mo
 
 ### BSManager
 
-\***\*Make sure you own the game on Steam\*\*** before trying to download Beat Saber!
+\***\*Make sure you own the game on Steam or Oculus (PCVR)\*\*** before trying to download Beat Saber!
 
-A all-in-one tool that lets you easly manage BeatSaber versions, maps, mods, and even more. Get it on [Zangrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
+An all-in-one tool that lets you easily manage BeatSaber versions, maps, mods, and even more. Get it on [Zagrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
+
+![BSManager](/.assets/images/beginners-guide/bsmanager.jpg)
 
 ### BeatSaberModManager
 
@@ -113,10 +115,14 @@ the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsa
 [BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community.
 Many other tools and sites enhance the experience of downloading custom songs, but this site is where they are stored.
 To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.
-You can also use the in-game downloader mod, or Mod Assistant's OneClick™ Install feature.
+You can also use the in-game downloader mod, the OneClick™ Install feature of Mod Assistant or BSManager, or in the "maps"
+tab of BSManager.
 
 To enable and use Mod Assistant's OneClick™ Install see the picture below:
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant-oneclick.png)
+
+To enable and use BSManager's OneClick™ Install see the picture below:
+![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.jpg)
 
 ### Beast Saber
 
@@ -249,7 +255,8 @@ If you want to downgrade to `1.29.1` you can use the legacy branch method.
 
 ## How to uninstall mods
 
-Either remove the dll from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant.
+Either remove the `.dll` file from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant or BSManager
+(after selecting your version, go to the 'Mods' tab).
 
 ## Where to go from here
 

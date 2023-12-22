@@ -52,6 +52,15 @@ Un installateur de mod Beat Saber simple, similaire à l'ancien Mod Manager, mai
 
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
+### BSManager
+
+\***\*Assurez-vous de posséder le jeu sur Steam ou Oculus (PCVR)\*\*** avant d'essayer de télécharger Beat Saber !
+
+Un outil tout-en-un qui vous permet de gérer facilement les versions, les cartes, les mods et bien plus encore de Beat Saber. Obtenez-le sur [GitHub de Zagrios](https://github.com/Zagrios/bs-manager/releases/latest)
+
+![BSManager](/.assets/images/beginners-guide/bsmanager.png)
+
+
 ## Comment avoir plus de chansons
 
 ::: tip ASTUCE
@@ -70,7 +79,7 @@ Le mod `BeatSaver Downloader` vous permet de télécharger des maps directement 
 
 ### BeatSaver
 
-[BeatSaver](https://beatsaver.com) est le dépôt principal des chansons personnalisées créées par la communauté. Bien d'autres outils et sites rendent le téléchargement des chansons personnalisées plus riche, mais c'est d'ici qu'elles sont récupérées. Pour installer les chansons personnalisées depuis le site, décompressez-les dans un dossier et placez-le dans `Beat Saber/Beat Saber_Data/CustomLevels`. Vous pouvez également utiliser le mod BeatSaver Downloader mentionné ci-dessus, ou la fonctionnalité OneClick™ de Mod Assistant.
+[BeatSaver](https://beatsaver.com) est le dépôt principal des chansons personnalisées créées par la communauté. Bien d'autres outils et sites rendent le téléchargement des chansons personnalisées plus riche, mais c'est d'ici qu'elles sont récupérées. Pour installer les chansons personnalisées depuis le site, décompressez-les dans un dossier et placez-le dans `Beat Saber/Beat Saber_Data/CustomLevels`. Vous pouvez également utiliser le mod BeatSaver Downloader mentionné ci-dessus, la fonctionnalité d'installation OneClick™ de Mod Assistant ou de BSManager, ou dans l'onglet "maps" de BSManager.
 
 ### Beast Saber
 
@@ -137,7 +146,7 @@ Si vous avez installé un mod et vous voyez la fenêtre de contrôle de compte d
 
 ## Comment désinstaller les mods
 
-Supprimez le fichier DLL du dossier `Plugins`, ou bien cliquez sur le bouton `Uninstall` dans Mod Assistant.
+Supprimez le fichier DLL du dossier `Plugins`, ou bien cliquez sur le bouton `Uninstall` dans Mod Assistant ou BSManager.
 
 ## Où se rendre d'ici
 
