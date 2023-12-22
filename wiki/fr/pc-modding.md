@@ -58,7 +58,7 @@ Un installateur de mod Beat Saber simple, similaire à l'ancien Mod Manager, mai
 
 Un outil tout-en-un qui vous permet de gérer facilement les versions, les cartes, les mods et bien plus encore de Beat Saber. Obtenez-le sur [GitHub de Zagrios](https://github.com/Zagrios/bs-manager/releases/latest)
 
-![BSManager](/.assets/images/beginners-guide/bsmanager.png)
+![BSManager](/.assets/images/beginners-guide/bsmanager.jpg)
 
 
 ## Comment avoir plus de chansons
