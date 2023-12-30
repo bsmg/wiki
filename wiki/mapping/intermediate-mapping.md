@@ -503,16 +503,17 @@ There is only one (mostly) absolute rule in note timing:
 Don't place notes when there are no identifiable sounds. This is called overmapping and is almost universally problematic.
 :::
 
-While it would be reasonable to think that "Always map sounds to the exact time when they happen" is a good rule,
-there are several important exceptions to this. Instead, it's much more important to identify the rhythms in the song
-and make good choices about which rhythms to map.
+While you should map sounds to the exact time that they appear most of the time, the focus should be on
+identifying the rhythms in the song and making good choices about how to map them. This may sometimes mean
+mapping sounds snapped to a regular rhythm rather than the exact time when they appear. There
+are [various reasons](#vocals-and-live-recordings) why this may happen.
 
 The majority of songs (even those with variable tempo) use simple timings that require only 1/2, 1/3,
 or 1/4 editor precision (or occasionally 1/6 or 1/8). While there exist songs that
 do use more complex timings, this is rare. In many cases where a mapper thinks higher precision is required,
 they either didn't align the audio properly, or they are overthinking the rhythms of the song.
 
-So long as you've done proper audio setup (which may involve adding all the necessary
+So long as you've done [proper audio setup](./basic-audio.md) (which may involve adding all the necessary
 [BPM changes](./advanced-mapping.md#advanced-timing)
 to keep the map aligned with the changing tempo of the song), mapping to the most clearly identifiable rhythms with
 simple precision will usually provide a good result.
@@ -546,7 +547,8 @@ When mapping vocals and/or live recordings, stick to the intended rhythm and sim
 There are three main methods for determining the specific timing of a note.
 
 - **Listen** to when the sound happens. This should always be the authoritative and primary method.
-  Slowing down the audio may help in some cases, but may also distort the sound too much.
+  Turning on note hitsounds on the editor and checking whether the mapped sound and hitsound align in time is a
+  good way to check your timings. Slowing down the audio may help in some cases, but may also distort the sound too much.
 - Understand the **rhythm and intervals** between notes in the song, and use that to deduce the timings.
   This can be great to sanity check or to produce accurate timings quickly when the rhythm is simple.
 
@@ -597,7 +599,7 @@ There are many ways in which handedness is particularly relevant:
 
 In close relation with handedness, we can consider _hit type_. Larger swings require a faster swing
 with more distance and precise swing angle to perform.
-The following is a list of standard hit types that mappers consider:
+The following is a list of some standard hit types that mappers consider:
 
 <!-- prettier-ignore -->
 | Name | Example | Typical uses |
@@ -607,7 +609,7 @@ The following is a list of standard hit types that mappers consider:
 | Chain | ![Chain](/.assets/images/mapping/chain_cm.png) | Similar use to sliders. |
 | Stack | ![Stack](/.assets/images/mapping/stack.png) | Sounds with moderate emphasis. Percussion. |
 | Window | ![Window](/.assets/images/mapping/window.png) | Intense sounds. Good for avoiding vision blocks. |
-| Tower | ![Tower](/.assets/images/mapping/tower.png) | Very intense sounds. Maximum emphasis. |
+| Tower | ![Tower](/.assets/images/mapping/tower.png) | Very intense sounds. Very strong emphasis. |
 
 :::tip NOTE
 The expression "hit type" is not standard at the time of writing.
@@ -637,7 +639,8 @@ Hit type is also relevant for difficulty and sensation of speed. With larger swi
 | :-: |
 | Larger swings enforce angles more strictly if all notes are hit, especially when playing for accuracy. |
 
-- The timing of the swing is stricter, as the player will need to cut more notes in the same amount of time.
+- The timing of the swing is stricter, as the player will need to cut through more notes that are further apart
+  within the same time window.
 
 As a result, larger swings are more physically intense, which is a big reason
 why hit type is used for emphasis. From a gameplay perspective, however, abusing large swings
@@ -653,13 +656,14 @@ Adapting your creative vision to keep parity consistently is almost always bette
 for the sake of representation or identity.
 :::
 
-Keeping parity affects the choice of patterns, but it does not strictly limit it. Up swings can be forehand
-and down swings can be backhand - these are sometimes called _palm-up_ swings because the palm is pointing upwards.
+Keeping parity affects the choice of patterns, but it does not strictly limit the direction of the swings.
+Up swings can be forehand and down swings can be backhand - these are sometimes called _palm-up_ swings
+because the palm is pointing upwards.
 This video demonstrates some more advanced concepts of parity: [YouTube](https://youtu.be/NF8ESZRXI1c)
 
 You can and should also play around parity when mapping. By changing the [handedness](#handedness-and-hit-type)
-of patterns (i.e. swapping doubles for stacks and vice versa), you can make a certain hit have the exact parity
-that you want.
+of patterns (e.g. swapping doubles for stacks and vice versa, or swapping left and right hand), you can make
+a certain hit have the exact parity that you want.
 This is a powerful tool, both for representation and gameplay purposes.
 
 As described [at the beginning of this page](#mapping-is-a-balancing-act), controlling parity this way usually has
@@ -905,7 +909,7 @@ which is the base position where swings happen.
 
 While the hands will not be brought all the way to the notes,
 nor move the full distance between subsequent notes, the arm will need to work to reposition
-the hand both to bring it in line for the swing. This is needed to make swings more comfortable, and allow swinging
+the hand to bring it in line for the swing. This is needed to make swings more comfortable, and allow swinging
 at the right angles.
 
 :::tip TIP
@@ -914,6 +918,8 @@ Even with pure wrist swings, hand repositioning still requires arm movement.
 
 While repositioning is relevant for most patterns, some require more repositioning than others.
 Since it requires arm movement, repositioning is harder to do faster, and involves more momentum (arms are heavy).
+Hand repositioning can be used to communicate [sway](#full-body-motion)
+or simply to add variety in representation to the map.
 
 A perfect example of repositioning is _arm circles_. In their simplest form, arm circles are large horizontal repositioning
 of the hand while swinging vertically.
@@ -978,9 +984,6 @@ The safest way to avoid arm tangles is to always resolve the top hand first.
   will vary between different players, but it can work well if there is enough certainty that
   the target audience will not actually cross their arms. This is less likely to work on slower, dancier maps.
 
-Hand repositioning can be used to communicate [sway](#full-body-motion)
-or simply to add variety in representation to the map.
-
 :::details Example
 In <https://allpoland.github.io/ArcViewer/?id=3628f&t=59>, the map frequently utilizes 3-wide patterns that
 move right and left, heavily encouraging hand repositioning for both hands and providing additional variety
@@ -1004,8 +1007,7 @@ Most full body motions require more regularity and predictability than arm and w
 
 #### Leaning
 
-_Leaning_ is probably the least physically involved full body motion. It involves rotating the upper body
-so as to change the horizontal line between the hands.
+_Leaning_ involves rotating the upper body so as to change the horizontal line between the hands.
 
 For anatomical reasons, leaning is most necessary and comfortable when there are _palm-out_ hits involved.
 These are hits where the palm is facing outwards towards the right for the right hand or the left for the left hand.
@@ -1017,9 +1019,9 @@ Leans are mostly defined by palm-out swings.
 <!-- prettier-ignore -->
 | Leaning | |
 | :-: | :-: |
-| ![No lean](/.assets/images/mapping/no-lean.png) | (Starting forehand right and backhand left). All hits are palm-in. Even with large rotations, leaning is not generally required. |
 | ![Left lean](/.assets/images/mapping/left-lean.png) | (Starting forehands). The palm-out hits on the right hand incentivize/force a lean to the left (counter-clockwise). |
 | ![Right lean](/.assets/images/mapping/right-lean.png) | (Starting forehands). The palm-out hits on the left hand incentivize/force a lean to the right (clockwise). |
+| ![No lean](/.assets/images/mapping/no-lean.png) | (Starting forehand right and backhand left). All hits are palm-in. Even with large rotations, leaning is not generally required. |
 
 While leans do closely relate to _dodge walls_, their relation isn't straightforward. We discuss the relation
 between leaning, swaying, and dodge walls in the section about [dodge walls](#dodge-walls).
@@ -1034,8 +1036,9 @@ Similarly, it's generally more natural to come out of leans (sometimes called _u
 It's normally most natural to start leans on forehand swings, and come out of them on backhand swings.
 :::
 
-When both hands are going palm-out at the same time, we say that we have a _conflicting lean_. While this can be
-a completely legitimate pattern, the mapper should be aware of the physical intensity and emphasis that it carries by
+When both hands are going palm-out at the same time, since the body cannot lean in both directions simultaneously,
+it will produce a tense posture. While this can be a completely legitimate pattern, the mapper should be aware
+of the physical intensity and emphasis that it carries by
 creating a lot of tension on the player's shoulders.
 
 As described before, leaning benefits from regularity and predictability. In this case, this relates
@@ -1063,7 +1066,7 @@ lean directions).
 
 _Swaying_ refers to side to side body motion, performed by shifting the weight between both legs without rotating the body.
 
-There is not such a clear cut way of communicating or encouraging sway as lean, but it is usually done
+There is not such a clear cut way of communicating or encouraging sway as there is for lean, but it is usually done
 through three interconnected tools:
 
 - Vertical swings on the sides, or more generally, swings where the arrows are not pointing away from the centre
@@ -1193,7 +1196,7 @@ Some other aspects of the map are changed during crouches. Firstly, _extended cr
 and should be reserved for heavy fitness maps, and even in those cases their use should be limited.
 
 [Vision](#vision) is significantly changed while crouching, with the position of the player moving
-about one whole lane down. Therefore, the criteria of what counts as a vision block is modified before,
+about one whole row down. Therefore, the criteria of what counts as a vision block is modified before,
 during and after a crouch wall.
 
 :::tip TIP
@@ -1266,12 +1269,13 @@ out of the sabers' paths and therefore it is almost impossible for the players t
 Don't do this at lower difficulties, though, as bombs towards the face will terrify lower skill players.
 :::
 
-For all types of bombs, but especially cosmetic bombs, it's very risky to have bombs at all whenever
-either of the sabers is swinging. These bombs will effectively play as precision bombs, enforcing a much stricter motion
-which, in many cases, will play badly.
+For all types of bombs, but especially cosmetic bombs, it can be risky to have bombs at all whenever
+either of the sabers is swinging. These bombs will effectively play as precision bombs, which can enforce a stricter motion.
+In many cases, this will play badly.
 
-Saber swings take up a lot more space than it seems, and bombs are easy
-to hit by accident. When doing bomb spirals over a long period of time, consider pausing them (i.e. having no bombs)
+Saber swings take up a lot more space than it seems, as well as vary between different players or even different swings
+by the same player. Bombs are easy to hit by accident.
+When doing bomb spirals over a long period of time, consider pausing them (i.e. having no bombs)
 around the notes that require swinging.
 
 :::warning
@@ -1371,10 +1375,10 @@ Cosmetic walls are one option for adding a visual element to the map close to th
 smaller region, making notes feel closer together and faster approaching. They can also be used to represent sounds not
 mapped by notes, or even to flesh out quiet or slow drifting sections.
 
-When making v3 maps, or using Mapping or Noodle Extensions, a huge space of possibilities is opened up
-by allowing walls to be of almost any height, width, and location. However, this requires a significantly larger amount
-of effort and is not playable without the respective mod / game version.
-See [Extended Mapping](./extended-mapping.md#wall-mapping) for more info.
+When making v3 maps, or using Mapping or Noodle Extensions, a large space of possibilities is opened up
+by allowing walls to be of almost any height, width, and location. v3 walls can extend horizontally as far as you wish,
+where [extended mapping walls](./extended-mapping.md#wall-mapping) also enable unlimited height, precision placement,
+and more.
 
 :::details Examples
 These are some maps that use vanilla v3 walls for cosmetic purposes:
@@ -1418,10 +1422,11 @@ Note that most environments will also introduce _clamping_, where large arcs get
 with environment objects. This can be very aesthetically unpleasant for some people.
 
 The following environments do not have clamping, so you can trust the arcs will look smooth.
-(For other environments, check ingame):
 
 - Skrillex
 - Weave
+
+You can also tweak multipliers and check ingame to prevent clamping on other environments.
 
 ### Momentum and tension
 
@@ -1545,9 +1550,6 @@ Momentum and tension relate as much to readability as they do to physical gamepl
 A good map can still break momentum. But it will do so purposefully and intelligently.
 :::
 
-You can find a systematic approach to momentum, tension, and many other topics on the page on
-[momentum mapping](./advanced-mapping.md#momentum-mapping).
-
 :::details Example
 Many mappers will follow momentum almost exclusively in their maps. GalaxyMaster is a prominent example,
 and you can see the principles at work in maps like
@@ -1590,6 +1592,60 @@ specific pattern idea, and retroactively modify earlier patterns to ensure prope
 Pattern setup is often about adjusting earlier patterns to create the desired situation for a later pattern.
 :::
 
+### Map context
+
+Where [pattern setup](#pattern-setup) refers to the immediate preparation before a pattern, _map context_
+refers to the more abstract idea of setting expectations within the map by using repeating concepts
+and/or patterns that the player understands and internalizes.
+
+Map context can mainly affect the [readability](#readability) of patterns, with the same pattern changing
+from unreadable to obvious if it appears in a different map with different context.
+
+Context can also affect
+other aspects of playability by influencing the player's playstyle. For example, by setting the expectation for
+larger [rotations](#rotations),
+more [full body motion](#full-body-motion), being consistent about how much [hand repositioning](#hand-repositioning)
+the patterns require to avoid handclaps and arm tangles, or establishing whether [momentum](#momentum-and-tension)
+should be expected or not.
+
+It would be difficult to provide a full list of all aspects where context is relevant, but we can point out
+some typical aspects where it's helpful for making certain patterns playable:
+
+- When making hard-to-follow [parity](#parity) (for example, by using palm-up swings, resets, or both),
+  be consistent about it.
+- Establish the expected [intensity of rotations](#rotations) early on, and keep it consistent
+  with respect to the intensity of the music.
+- Use [spacing](#spacing) consistently to signpost specific patterns, making them stand out more and easier to read.
+- Keep a regular and clear policy for when the [hands should be repositioned](#hand-repositioning)
+  horizontally, making the map more comfortable to play.
+- Establish your [full body motion](#full-body-motion) patterns clearly from the start of the map.
+- When using [bombs](#bombs), be consistent about how you present cosmetic bombs,
+  hold bombs, and bomb resets. That way, players will learn the pattern
+  and read bombs much more easily.
+- Be consistent in the intensity of [apex rotations](#momentum-and-tension) with respect to the intensity of the music,
+  so players can predict when to continue rotating and when to reverse momentum.
+
+Map context is particularly critical in "gimmick" maps, or maps that aim to break some conventional rules about mapping,
+so that the way in which the rules are broken is clear to the player.
+
+:::tip TIP
+If you want to use risky, unconventional, or extreme patterns, it's usually best to introduce them early on
+in the map in clear ways.
+:::
+
+:::details Example
+<https://allpoland.github.io/ArcViewer/?id=35b26> uses very unconventional flow, with lots of palm-out hits,
+some of which are also inverted. However, it establishes a clear pattern of swaying and leaning in a sort of
+conflicting way very early and keeps it going through the whole map, with consistency in how the swings transition
+and both their parity and angles. This allows the player to engage with this style of movement
+early on and have a much better time playing the map.
+:::
+
+:::details Read more...
+GalaxyMaster has published [some thoughts](https://docs.google.com/document/d/1qdRGk8QR48hx0ng05Z45tv-6KvMFPYxiAY8l441j3Mk/edit#heading=h.xgmqt8pm7xku)
+on pattern setup versus map context.
+:::
+
 ### Jump settings
 
 _Jump settings_ affect the whole map and change both how fast the objects move towards the player,
@@ -1610,8 +1666,8 @@ NJS affects playability in two different and contradicting ways, with one of of 
 noticeable than the other:
 
 - Higher NJS reduces the timing window to hit notes, making timing stricter. This can have cascading effects on gameplay,
-  incentivizing more stiff play, making [hand repositioning](#hand-repositioning) harder, and overall increasing
-  the amount of misses the player will make. This effect might be hard for players to clearly identify while playing,
+  incentivizing more stiff play, making [hand repositioning](#hand-repositioning) harder, and causing more
+  missed notes. This effect might be hard for players to clearly identify while playing,
   but will dramatically change the feel of the map even with small adjustments to NJS.
 
 - When a map is very dense and/or complex, creating lots of [clutter](#clutter), slightly higher NJS settings can
@@ -1728,19 +1784,21 @@ If you modify the NJS, readjust the reaction time.
 
 ### Vision
 
-_Vision blocks_ happen when an object obstructs the player's vision of another objects, preventing the ability to properly
+_Vision blocks_ happen when an object obstructs the player's vision of other objects, preventing the ability to properly
 see and read the map. Vision blocks are one of the most critical challenges to [readability](#readability),
 and can be one of the most alienating aspects of a map for players.
 
 The [basic page on vision blocks](./basic-mapping.md#vision-blocks) contains the most important guidance on
 avoiding vision blocks.
 
-Vision are sometimes one of the biggest sources of [constraints](#mapping-is-a-balancing-act) to mapping,
+Vision is sometimes one of the biggest sources of [constraints](#mapping-is-a-balancing-act) to mapping,
 so it can be very tempting to have worse vision for the sake of better [spacing](#spacing),
 [hand position](#hand-repositioning) or [momentum](#momentum-and-tension). This is discouraged, though.
+A mapper should always try to simultaneously achieve good vision, setup, flow, and representation.
+Only when no better solution can be found, should borderline vision be considered, and this should be done on
+a case by case basis rather than a systematic approach.
 
 If something truly is a vision problem, fixing that should be a priority.
-Ideally, you want to find a solution that keeps acceptable vision while having the best possible properties in other aspects.
 
 :::danger Bad Practice
 Don't sacrifice vision for the sake of pattern setup. This alienates players and the effects are harder to notice
@@ -1761,7 +1819,7 @@ There are some general principles, though all of them have exceptions:
 - Vision blocks are subjective. Different players will have different experiences.
 - Vision blocks become a smaller issue when replaying the map.
 - Vision blocks can be made less problematic with better [pattern setup](#pattern-setup), especially when using good
-  [momentum](#momentum-and-tension) and [context](#map-context).
+  [momentum](#momentum-and-tension), and [context](#map-context).
 
 The best approach to vision blocks is **practical**. Try, evaluate, adjust. There are two main aspects to this:
 
@@ -1776,63 +1834,12 @@ The best approach to vision blocks is **practical**. Check ingame, use vision ac
 to determine the effect of potentially problematic vision blocks.
 :::
 
-### Map context
-
-Where [pattern setup](#pattern-setup) refers to the immediate preparation before a pattern, _map context_
-refers to the more abstract idea of setting expectations within the map by using repeating concepts
-and/or patterns that the player understands and internalizes.
-
-Map context can mainly affect the [readability](#readability) of patterns, with the same pattern changing
-from unreadable to obvious if it appears in a different map with different context.
-
-Context can also affect
-other aspects of playability by influencing the player's playstyle. For example, by setting the expectation for
-larger [rotations](#rotations),
-more [full body motion](#full-body-motion), being consistent about how much [hand repositioning](#hand-repositioning)
-the patterns require to avoid handclaps and arm tangles, or establishing whether [momentum](#momentum-and-tension)
-should be expected or not.
-
-It would be difficult to provide a full list of all aspects where context is relevant, but we can point out
-some typical aspects where it's helpful for making certain patterns playable:
-
-- When making hard-to-follow [parity](#parity) (for example, by using palm-up swings, resets, or both),
-  be consistent about it.
-- Establish the expected [intensity of rotations](#rotations) early on, and keep it consistent
-  with respect to the intensity of the music.
-- Use [spacing](#spacing) consistently to signpost specific patterns, making them stand out more and easier to read.
-- Keep a regular and clear policy for when the [hands should be repositioned](#hand-repositioning)
-  horizontally, making the map more comfortable to play.
-- Establish your [full body motion](#full-body-motion) patterns clearly from the start of the map.
-- When using [bombs](#bombs), be consistent about how you present cosmetic bombs,
-  hold bombs, and bomb resets. That way, players will learn the pattern
-  and read bombs much more easily.
-- Be consistent in the intensity of [apex rotations](#momentum-and-tension) with respect to the intensity of the music,
-  so players can predict when to continue rotating and when to reverse momentum.
-
-Map context is particularly critical in "gimmick" maps, or maps that aim to break some conventional rules about mapping,
-so that the way in which the rules are broken is clear to the player.
-
-:::tip TIP
-If you want to use risky, unconventional, or extreme patterns, it's usually best to introduce them early on
-in the map in clear ways.
-:::
-
-:::details Example
-<https://allpoland.github.io/ArcViewer/?id=35b26> uses very unconventional flow, with lots of palm-out hits,
-some of which are also inverted. However, it establishes a clear pattern of swaying and leaning in a sort of
-conflicting way very early and keeps it going through the whole map, with consistency in how the swings transition
-and both their parity and angles. This allows the player to engage with this style of movement
-early on and have a much better time playing the map.
-:::
-
-:::details Read more...
-GalaxyMaster has published [some thoughts](https://docs.google.com/document/d/1qdRGk8QR48hx0ng05Z45tv-6KvMFPYxiAY8l441j3Mk/edit#heading=h.xgmqt8pm7xku)
-on pattern setup versus map context.
-:::
-
 ## Credits
 
-Content in this section was authored by [Checkthepan](./mapping-credits.md#checkthepan), [CyanSnow](./mapping-credits.md#cyansnow),
-[Uninstaller](./mapping-credits.md#uninstaller), [Skyler Wallace](./mapping-credits.md#skyler-wallace),
-[Kolezan](./mapping-credits.md#kolezan), [Pyrowarfare](./mapping-credits.md#pyrowarfare), [DarkGrisen](./mapping-credits.md#darkgrisen),
-[Vaser888](./mapping-credits.md#Vaser888), Undeceiver and AllPoland.
+Content in this section was mainly authored by Undeceiver and AllPoland, with feedback from multiple members
+of the mapping Discord.
+An earlier version of this page (that was partly reused) was authored by [Checkthepan](./mapping-credits.md#checkthepan),
+[CyanSnow](./mapping-credits.md#cyansnow), [Uninstaller](./mapping-credits.md#uninstaller),
+[Skyler Wallace](./mapping-credits.md#skyler-wallace), [Kolezan](./mapping-credits.md#kolezan),
+[Pyrowarfare](./mapping-credits.md#pyrowarfare), [DarkGrisen](./mapping-credits.md#darkgrisen), and
+[Vaser888](./mapping-credits.md#Vaser888)
