@@ -63,6 +63,7 @@ export default defineConfig({
   title: 'BSMG Wiki',
   description:
     'Guides on how to mod Beat Saber, create custom content, and get involved in the community!',
+  base: '/BSMGwiki/',
   lastUpdated: true,
 
   head: [['link', { rel: 'icon', href: '/icon.png' }]],
@@ -179,6 +180,7 @@ export default defineConfig({
               ['Basic Mapping', '/mapping/basic-mapping'],
               ['Downmapping', '/mapping/downmapping'],
               ['Intermediate Mapping', '/mapping/intermediate-mapping'],
+              ['Advanced Mapping', '/mapping/advanced-mapping'],
               ['Extended Mapping', '/mapping/extended-mapping'],
               ['Mapping Glossary', '/mapping/glossary'],
             ],
@@ -316,7 +318,7 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://bsmg.wiki/',
+    hostname: 'https://undeceiver.github.io/BSMGwiki/',
   },
 
   markdown: {
