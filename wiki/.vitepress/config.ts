@@ -63,6 +63,7 @@ export default defineConfig({
   title: 'BSMG Wiki',
   description:
     'Guides on how to mod Beat Saber, create custom content, and get involved in the community!',
+  // Remove the following when pushing back to main repo
   base: '/BSMGwiki/',
   lastUpdated: true,
 
@@ -318,6 +319,7 @@ export default defineConfig({
   },
 
   sitemap: {
+    // hostname: 'https://bsmg.wiki/',
     hostname: 'https://undeceiver.github.io/BSMGwiki/',
   },
 
