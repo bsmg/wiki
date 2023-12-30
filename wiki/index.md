@@ -1,12 +1,13 @@
 ---
 layout: home
 titleTemplate: false
+description: The Beat Saber Modding Group Wiki. Learn how to mod Beat Saber, create custom content, and get involved in the community!
 
 hero:
-  text: BSMG Wiki
-  tagline: Welcome to the Beat Saber Modding Group Wiki!
-  description: Welcome to the Beat Saber Modding Group Wiki!
-
+  text: |
+    Welcome to the
+    Beat Saber Modding Group Wiki!
+  tagline: Learn how to mod Beat Saber, create custom content, and get involved in the community!
   actions:
     - theme: brand
       text: Beginners Guide
@@ -54,10 +55,12 @@ hero:
 - [Join the Discord server!](https://discord.gg/beatsabermods)
 - [Contact Us](https://bsmg.dev/contact) - Offer your skills, sponsor us, appeal a server mute/ban, report a user, etc.
 - [BSMG Patreon](https://www.patreon.com/beatsabermods) - Support the BSMG Services!
+- [BSMG Store](https://bsmgstore.com/) - Help support us and get cool merch!
+- [BSMG Map Playlists](https://beatsaver.com/profile/4329735#playlists) - Contest and event maps in a convenient place.
 
 ---
 
-- [BeatMods](https://beatmods.com) - Repository of PC mods that are reflected in installers like Mod Assistant
+- [BeatMods](https://beatmods.com) - Repository of PC mods that are reflected in installers like Mod Assistant or BSManager.
 - [BeatSaver](https://beatsaver.com/) - Download custom songs here
 - [BeastSaber](https://bsaber.com/) - Reviews, articles, playlists, and more!
 - [ModelSaber](https://modelsaber.com/) - Download PC custom sabers, avatars, bloqs, and platforms!

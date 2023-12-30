@@ -61,8 +61,8 @@ const sidebar = (...items: SidebarItem[]): DefaultTheme.SidebarMulti => {
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'BSMG Wiki',
-  description: 'BSMG Wiki',
-  base: '/BSMGwiki/',
+  description:
+    'Guides on how to mod Beat Saber, create custom content, and get involved in the community!',
   lastUpdated: true,
 
   head: [['link', { rel: 'icon', href: '/icon.png' }]],
@@ -146,6 +146,7 @@ export default defineConfig({
           ['Mapping Supports', '/about/mapping-supports'],
           ['3D Artists', '/about/3d-artists'],
           ['Translators', '/about/translators'],
+          ['Event Winners', '/about/event-winner'],
         ],
       },
       {
@@ -178,7 +179,6 @@ export default defineConfig({
               ['Basic Mapping', '/mapping/basic-mapping'],
               ['Downmapping', '/mapping/downmapping'],
               ['Intermediate Mapping', '/mapping/intermediate-mapping'],
-              ['Advanced Mapping', '/mapping/advanced-mapping'],
               ['Extended Mapping', '/mapping/extended-mapping'],
               ['Mapping Glossary', '/mapping/glossary'],
             ],
@@ -316,7 +316,7 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://undeceiver.github.io/BSMGwiki/',
+    hostname: 'https://bsmg.wiki/',
   },
 
   markdown: {

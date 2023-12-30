@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: Frequently Asked Questions relating to modding, the community, and the game!
 ---
 
 # Frequently Asked Questions
@@ -75,7 +76,7 @@ next time you sync your playlists through BMBF.
 
 See [mapping](/mapping/)!
 
-## How do I load PC mods that aren't in Mod Assistant?
+## How do I load PC mods that aren't in Mod Assistant or BSManager?
 
 See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 

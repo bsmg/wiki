@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: gamesequence's guide to using materials on your models
 ---
 
 # gamesequence's guide to materials

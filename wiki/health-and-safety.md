@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: Learn how to stay safe and prevent injuring yourself while playing Beat Saber!
 ---
 
 # Health and Safety

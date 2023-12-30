@@ -25,3 +25,4 @@ wiki/.vitepress/cache
 
 # Visual Studio-created directory for... something?
 /.vs
+/wiki/.vitepress/config-undeceiver.ts

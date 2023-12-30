@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: A compilation of resources to help you play more difficult songs and achieve a higher score!
 ---
 
 # Grips And Tricks

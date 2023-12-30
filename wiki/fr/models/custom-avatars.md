@@ -7,7 +7,7 @@ next: false
 
 ## Installation
 
-La dernière version de l'extension Custom Avatar peut être trouvée dans le [canal textuel #pc-mods](https://discord.gg/beatsabermods) du Discord BSMG ou dans [Mod Assistant](https://github.com/Assistant/ModAssistant).
+La dernière version de l'extension Custom Avatar peut être trouvée dans le [canal textuel #pc-mods](https://discord.gg/beatsabermods) du Discord BSMG, [Mod Assistant](https://github.com/Assistant/ModAssistant) ou dans [BSManager](https://github.com/Zagrios/bs-manager).
 Une fois installée, vous trouverez un fichier nommé `CustomAvatar.dll` dans votre dossier `Plugins`. Vous devriez aussi voir un dossier nommé `CustomAvatars` dans le dossier d'installation principal — c'est ici que vous placerez les fichiers `*.avatar` que vous souhaitez utiliser. Vous pouvez télécharger plus d'avatars sur [ModelSaber](https://modelsaber.com/Avatars/).
 
 ## Utilisation

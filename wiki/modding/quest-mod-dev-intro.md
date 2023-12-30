@@ -400,6 +400,6 @@ page to see how to use `questui` to create a settings screen for your mod.
 
 ## Credits
 
-Initial guide content was integrated from the [Beat Saber Quest Modding Guide](https://github.com/cal117/bsqmg) by cal117
+Initial guide content was integrated from the Beat Saber Quest Modding Guide by [Calum](https://github.com/mineblock11)
 with contributions from [Raine](https://github.com/raineio), [Pangwen](https://github.com/PangwenE), and [Metalit](https://github.com/Metalit/).
 Integration and editing was done by [Bloodcloak](/about/staff.md#bloodcloak).

@@ -121,8 +121,7 @@ The steps listed below are the same as those used in Ryger's [Arrow Vortex BPM A
 (which also includes BPM confirmation).
 
 1. Download Arrow Vortex (AV), extract the file, and open `ArrowVortex.exe`
-   - Discord [Zip Download](https://cdn.discordapp.com/attachments/443569023951568906/662417326771273728/ArrowVortex.zip)
-     (Recommended Method)
+   - BSMG Re-packed [Zip Download](https://bsmg.dev/zY55r) (Recommended Method)
    - Arrow Vortex Website [Rar Download](https://arrowvortex.ddrnl.com/)
    - You will need additional software such as [7zip](https://www.7-zip.org/) to extract `.rar` files such as this one.
    - If Arrow Vortex does not open see [troubleshooting](#troubleshooting-arrow-vortex).

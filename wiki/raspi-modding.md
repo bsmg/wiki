@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+description: Learn how to mod Beat Saber on your Quest using a Raspberry Pi!
 ---
 
 # Quest Modding with a Raspberry Pi
@@ -41,7 +42,7 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 ### What you need to get started
 
 - A Raspberry Pi setup with Raspberry Pi OS (formerly Raspbian) installed
-- A usb c to a cable
+- A USB-C to USB-A cable
 - An internet connection
 - A phone if you don't have a monitor / keyboard
 
