@@ -640,7 +640,7 @@ Hit type is also relevant for difficulty and sensation of speed. With larger swi
 | Larger swings enforce angles more strictly if all notes are hit, especially when playing for accuracy. |
 
 - The timing of the swing is stricter, as the player will need to move the saber a longer distance in order to cut
-through all the notes within the same time window.
+  through all the notes within the same time window.
 
 As a result, larger swings are more physically intense, which is a big reason
 why hit type is used for emphasis. From a gameplay perspective, however, abusing large swings
