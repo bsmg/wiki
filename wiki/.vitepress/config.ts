@@ -64,7 +64,7 @@ export default defineConfig({
   description:
     'Guides on how to mod Beat Saber, create custom content, and get involved in the community!',
   // If deploying to GitHub pages, uncomment this and replace with the name of your repository.
-  // base: '/<nameofyourrepo>/',  
+  // base: '/<nameofyourrepo>/',
   lastUpdated: true,
 
   head: [['link', { rel: 'icon', href: '/icon.png' }]],
@@ -320,7 +320,7 @@ export default defineConfig({
 
   sitemap: {
     // Replace this with the URL of your GitHub pages deployment
-    hostname: 'https://bsmg.wiki/',    
+    hostname: 'https://bsmg.wiki/',
   },
 
   markdown: {
