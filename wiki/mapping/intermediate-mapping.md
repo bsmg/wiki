@@ -503,10 +503,10 @@ There is only one (mostly) absolute rule in note timing:
 Don't place notes when there are no identifiable sounds. This is called overmapping and is almost universally problematic.
 :::
 
-While you should map sounds to the exact time that they appear most of the time, the focus should be on
-identifying the rhythms in the song and making good choices about how to map them. This may sometimes mean
-mapping sounds snapped to a regular rhythm rather than the exact time when they appear. There
-are [various reasons](#vocals-and-live-recordings) why this may happen.
+When timing, the focus should be on identifying the rhythms in the song and making good choices about how to map them.
+Most of the time, this means placing notes at the exact time that sounds appear in the song, but sometimes it may mean
+mapping to a regular rhythm rather than precise timings. There are [various reasons](#vocals-and-live-recordings)
+why this may happen, and it should be dealt with on a case by case basis by understanding the music properly.
 
 The majority of songs (even those with variable tempo) use simple timings that require only 1/2, 1/3,
 or 1/4 editor precision (or occasionally 1/6 or 1/8). While there exist songs that
@@ -639,8 +639,8 @@ Hit type is also relevant for difficulty and sensation of speed. With larger swi
 | :-: |
 | Larger swings enforce angles more strictly if all notes are hit, especially when playing for accuracy. |
 
-- The timing of the swing is stricter, as the player will need to cut through more notes that are further apart
-  within the same time window.
+- The timing of the swing is stricter, as the player will need to move the saber a longer distance in order to cut
+through all the notes within the same time window.
 
 As a result, larger swings are more physically intense, which is a big reason
 why hit type is used for emphasis. From a gameplay perspective, however, abusing large swings
@@ -1269,12 +1269,10 @@ out of the sabers' paths and therefore it is almost impossible for the players t
 Don't do this at lower difficulties, though, as bombs towards the face will terrify lower skill players.
 :::
 
-For all types of bombs, but especially cosmetic bombs, it can be risky to have bombs at all whenever
-either of the sabers is swinging. These bombs will effectively play as precision bombs, which can enforce a stricter motion.
-In many cases, this will play badly.
-
+It can be risky to have cosmetic bombs simultaneously to the sabers swinging (notes).
 Saber swings take up a lot more space than it seems, as well as vary between different players or even different swings
 by the same player. Bombs are easy to hit by accident.
+
 When doing bomb spirals over a long period of time, consider pausing them (i.e. having no bombs)
 around the notes that require swinging.
 
