@@ -341,8 +341,10 @@ is not difficult and will always be better at expressing the atmosphere of the s
 
 - [Lolighter](https://github.com/Loloppe/Lolighter#readme) by **Loloppe#6435** - Standalone program for automated lighting
   and has other features to modify your map.
-- [LiteMapper](https://litemapper.net/) by **ItsOrius** - A website that automatically generates lights based on pacing,
-  emphasis, and note placement. For more information on the algorithm check out the [Readme](https://github.com/ItsOrius/LiteMapper#readme).
+- ~~[LiteMapper](https://litemapper.net/) by **ItsOrius** - A website that automatically generates lights based on pacing,
+  emphasis, and note placement. For more information on the algorithm check out the [Readme](https://github.com/ItsOrius/LiteMapper#readme).~~
+  (Litemapper is no longer being maintained by **ItsOrius**, another person has picked up the project and is now actively
+  maintaining the project. Please visit the new site [here](https://litemapper.vercel.app/) and its new repo [here](https://github.com/cloudwithax/LiteMapper)
 - **Lightmap** - It is integrated into Mediocre Map Assistant 2 and can be accessed in the error checker menu.
 
 ## Playtesting
