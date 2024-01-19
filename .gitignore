@@ -25,4 +25,6 @@ wiki/.vitepress/cache
 
 # Visual Studio-created directory for... something?
 /.vs
-/wiki/.vitepress/config-undeceiver.ts
+
+# Ignore config copies forks may keep to deploy a test instance
+/wiki/.vitepress/config.*.ts
