@@ -44,8 +44,7 @@ To deploy your fork of the wiki to GitHub pages (for example to allow others to 
 3. Add an entry to this dictionary with `base: '<reponame>'` where `<reponame>` is the name of your forked repository.
 4. In the same file, search for `sitemap: {`.
 5. Change the `hostname` entry to `https://<username>.github.io/<reponame>/)` where `<username>` is your GitHub username and `<reponame>` is the name of your forked repository.
-6. Enable GitHub pages from GitHub actions on your repository.
-   ![image](https://github.com/Undeceiver/BSMGwiki/assets/22258580/fb242848-1445-41c2-a065-ba00fc3e73d4)
+6. [Enable GitHub pages from GitHub actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) on your repository.
 7. Whenever you push changes to the repository, GitHub will automatically attempt to deploy it. You can check the state in the Actions tab of your repository on GitHub.
 8. When you make a push request to the main repository, remember to exclude these changes!!
 
