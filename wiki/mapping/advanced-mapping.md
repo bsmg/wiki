@@ -6,15 +6,19 @@ description: Advanced topics in mapping.
 
 # Advanced Mapping
 
+:::warning NOTE
 If you are looking to begin mapping, please start by reading the [Basic Mapping](./basic-mapping.md) page.
 
 If you know the basics and are looking for a complete overview of all the important mapping topics,
 check the [Intermediate Mapping](./intermediate-mapping.md) page.
+:::
 
-This page is and will probably always be _incomplete_, and instead contain a collection of individual
-detailed guides on specific topics from an advanced perspective. If you think you have some wisdom to
-share about something you are a master of, please consider contributing by modifying the existing pages
-or adding a new one.
+This page is a collection of individual detailed guides on specific topics from an advanced perspective and does not have
+a straightforward structure as the previous mapping pages. Feel free to skip around between the topics that interest you
+the most.
+
+If you think you have some wisdom to share about something you are a master of, please consider contributing by
+modifying the existing pages or adding a new one.
 
 ## Advanced Timing
 
