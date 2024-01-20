@@ -137,7 +137,7 @@ less comfortable flow can be used as a tool for emphasis and representation,
 or simply as a means to increase the difficulty of the map.
 
 Nearly every aspect of a map affects flow, so providing a list or summary here would not do it justice.
-Instead, you can learn more in how each of the [technical aspects of a map](#technical-aspects-of-a-map) affect flow.
+Instead, you can learn about how each of the [technical aspects of a map](#technical-aspects-of-a-map) affect flow.
 
 :::tip TIP
 To understand flow, think about the relation between sequences of notes, not about individual hits.
@@ -186,7 +186,7 @@ A Beat Saber map is a message with limited vocabulary between the mapper - tryin
 communicate a motion - and the player - trying to perform it. _Readability_ refers to how well a map communicates
 its intended movement to players.
 
-Since readability is about communication, it depends on the player almost as much as the mapper speaking a common language.
+Since readability is about communication, it depends on both the player and the mapper speaking a common language.
 
 To make matters worse, players have limited time and ability to read and process the map while playing,
 especially when _sight reading_ (playing the map for the first time).
@@ -199,7 +199,7 @@ requires without making them adequately readable often leads to disappointment.
 The target audience is particularly relevant when considering readability, as it will determine
 the particular dialects of Beat Saber maps that players understand.
 
-An example of a playable, but usually problematic and difficult to read, patterns are implicit [parity](#parity) resets,
+An example of playable, but usually problematic and difficult to read patterns are implicit [parity](#parity) resets,
 particularly triangles.
 ![Triangle](/.assets/images/mapping/triangle-alt.png)
 
@@ -392,13 +392,13 @@ dancier patterns, inlines, and palm-up and palm-out swings.
 
 ### Consistency
 
-_Consistency_ is about familiarity using the same or similar map elements to represent the same or similar song elements,
+_Consistency_ is using the same or similar map elements to represent the same or similar song elements,
 not exact repetition. This contrasts _variation_ which is about nuanced representation and keeping things fresh,
 not arbitrary changes.
 
 It is important to strike a balance between the two as you want to have a clear consistent vision for your map
-while keeping the player engaged with some variation. Mapping every instance of the same sound exactly the same becomes boring,
-while mapping each instance of the same sound completely different can be frustrating for the player to read.
+while keeping the player engaged with some variation. Mapping every instance of the same sound exactly the same can become
+boring, while mapping each instance of the same sound completely different loses out on representation and structure.
 
 Consistency comes into play in two places: within a section and when comparing separate sections of a song.
 
@@ -492,8 +492,8 @@ Note timing refers to the specific timing for notes swung at by the player.
 This excludes walls and bombs that may be used to guide the player/sabers.
 
 When timing, the focus should be on identifying and mapping to the rhythms in the song.
-This means placing notes at the exact time that sounds appear in the song, however there are cases where you
-may need to map to a regular rhythm on the grid rather than precise timings. There are [various reasons](#vocals-and-live-recordings)
+Most of the time, this means placing notes at the exact time that sounds appear in the song, however there are cases where
+you may need to map to a regular rhythm on the grid rather than precise timings. There are [various reasons](#vocals-and-live-recordings)
 as to why this may happen, and it should be dealt with on a case by case basis by understanding the music properly.
 
 :::danger Bad Practice
@@ -604,7 +604,7 @@ Though most or all mappers know the names of
 the typical hit types and their precise meaning, there is no agreed upon word for the abstract concept.
 :::
 
-While not set in stone, typically mappers/players understand order of intensity to be:
+While not set in stone, mappers/players typically understand order of intensity to be:
 
 Single < 2 note slider/chain < Stack < 3 note slider/chain < Window < Tower
 
@@ -726,7 +726,7 @@ on positive curvature.
 Swing curvature is discussed in more detail in the page on [momentum mapping](./advanced-mapping.md#momentum-mapping).
 
 :::tip TIP
-Large rotations without setup are easier to map with positive curvature.
+Large rotations without setup are generally easier with positive curvature.
 :::
 
 <!-- markdownlint-disable MD013 -->
@@ -795,12 +795,11 @@ Here are some examples of patterns and their effective BPM:
 | Burst stream (1/8 precision) | ![Burst](/.assets/images/mapping/burst.png) | ![Burst](/.assets/images/mapping/burst_top.png) | 2 x BPM | 240 | Bursts can be nice to represent very short intense sections of the map with fast sounds, but they are often a difficulty spike. |
 | Bomb resets (1 beat) | ![Bomb resets](/.assets/images/mapping/beatbombreset.png) | ![Bomb resets](/.assets/images/mapping/beatbombreset_top.png) | 1 x BPM | 120 | Bomb resets have a movement associated with them, which we count as a swing for measuring eBPM. |
 
-In most maps, patterns where eBPM matches the song's BPM should be the base of speed for the map, with higher
+In most maps, patterns where eBPM matches the song's BPM should be the base speed for the map, with higher
 eBPM patterns reserved for more intense sections.
 
-For example, if a whole section has 4 sounds per beat consistently,
-mapping it all to one hand might be overemphasizing it. Consider a stream or similar pattern, adding jumps, or flicks
-to emphasize specific notes instead.
+For example, if a whole section has 4 sounds per beat consistently, mapping it all to one hand might be overemphasizing
+it. Consider a using a stream, adding jumps or flicks, or other similar patterns to emphasize specific notes instead.
 
 If a section only has sounds every half beat but still feels
 like standard intensity, consider mapping [doubles](#handedness-and-hit-type) to avoid it feeling undermapped as a half
@@ -1028,7 +1027,7 @@ of the physical intensity and emphasis it carries by creating a lot of tension o
 As described before, leaning benefits from regularity and predictability. This relates
 to what is sometimes called _lean parity_, which has two principles:
 
-- Holding a lean for a long time, known as _sustained leans_, tend to be uncomfortable.
+- Holding a lean for a long time, known as _sustained leans_, tends to be uncomfortable.
 - After finishing a lean, the player will naturally want to lean _in the opposite direction_.
   Chaining multiple same-direction leans is physically unnatural.
 
@@ -1122,9 +1121,9 @@ Also note that dodge walls have relevant effects on [vision](#vision).
 
 #### Crouching
 
-_Crouching_ or _squatting_ is achieved by adequately the named _crouch_, _squat_, or _duck_ walls which involve the player
+_Crouching_ or _squatting_ is achieved by the adequately named _crouch_, _squat_, or _duck_ walls which involve the player
 significantly lowering their head. This is a very physically demanding motion that has a range
-of secondary effects.
+of secondary effects, and is generally used in dancy and fitness maps.
 
 While the wall itself is the fundamental trigger of a crouch, there are a series of aspects that can
 make it easier or more comfortable to play.
@@ -1266,10 +1265,10 @@ leave approximately 1/4 beats before and after any note free of bombs.
 _Bomb holds_ are meant to communicate to the player that they should _not_ do a certain movement.
 Bomb holds work best when:
 
-- They start very soon after the previous swing. Allowing the player to read them as part of the pattern
-  and prevents them from moving in the time between the swing and bombs.
+- They start very soon after the previous swing. This allows the player to read the bombs as part of the pattern and
+  prevents them from resetting their sabers to a neutral position.
 - They keep the area where the sabers are positioned after the swing safe from hitting a bomb.
-- They are a large wave bombs, clearly indicating that the sabers cannot be moved back.
+- There are a lot of bombs, clearly indicating that the sabers cannot be moved back.
 
 :::details Example
 In <https://allpoland.github.io/ArcViewer/?id=34847&t=75> very large fields of precision placed bombs with
@@ -1389,7 +1388,7 @@ Arcs can be tweaked by adjusting the positions and angles for head and tail note
 Their head and tail _multipliers_ should also be adjusted to make the curve size more adequate.
 
 :::danger Bad Practice
-**Do not** abuse arc usage. They will affect vision and create clutter, blurring out representation.
+**Do not** abuse arc usage. They will affect vision, create clutter, and blur out representation.
 Reserve them for select swings or parts.
 :::
 
@@ -1436,7 +1435,7 @@ After a rotation, following momentum by continuing to rotate in the same directi
 :::
 
 Another aspect that significantly affects rotational momentum is relative [positioning](#hand-repositioning) of notes.
-This can seen through the effect of _arm circles_. While this effect is more relative and depends on other factors,
+This can be seen through the effect of _arm circles_. While this effect is more relative and depends on other factors,
 as a general rule, a circling motion in one direction will help generate rotational momentum in the same direction.
 
 <!-- markdownlint-disable MD013 -->
@@ -1472,7 +1471,7 @@ This is because of _tension_ which relates to the _absolute rotation_ of each sw
 | Endless Momentum |
 | :-: |
 | ![Endless momentum](/.assets/images/mapping/momentum-lol.png) |
-| While this pattern technically follows momentum, it is unplayable without resetting for all players due to tension. |
+| While this pattern technically follows momentum, it is unplayable without resetting due to tension. |
 
 <!-- markdownlint-enable MD013 -->
 
@@ -1482,10 +1481,9 @@ The further the swing angle is from a _neutral angle_
 Tension will build as we continue rotating, and fights against momentum until we reach a limit, or _apex_,
 and begin rotating in the opposite direction (called a _momentum reversal_).
 
-At this point,
-all the built-up tension will generate rotational momentum back in the opposite direction.
-The apex angle depends on how much momentum was built up and is an aspect that mappers should be conscious
-of as it can relate to the emphasis and consistency of a map.
+At this point, all the built-up tension will generate rotational momentum back in the opposite direction.
+The apex angle depends on context and the amount of momentum built up. Mappers should be conscious
+of this as it can relate to the emphasis and consistency of a map.
 
 :::tip TIP
 Use the apex of rotations to control intensity, emphasis and consistency.
@@ -1603,8 +1601,8 @@ Map context is critical in maps that aim to break some conventional rules about 
 so that the way in which the rules are broken is clear to the player.
 
 :::tip TIP
-If you want to use risky, unconventional, or extreme patterns, it is best to introduce them early on
-in the map in clear ways most of the time.
+If you want to use risky, unconventional, or extreme patterns, it is usually best to introduce them early on
+in the map in clear ways.
 :::
 
 :::details Example
@@ -1644,7 +1642,7 @@ noticeable than the other:
   missed notes. This effect might be hard for players to clearly identify while playing,
   but will dramatically change the feel of the map even with small adjustments to NJS.
 
-- When a map is very dense and/or complex, resulting lots of [clutter](#clutter), slightly higher NJS settings can
+- When a map is very dense and/or complex, resulting in lots of [clutter](#clutter), slightly higher NJS settings can
   help readability by increasing the spacing between notes. This effect is small and will not compensate
   for heavily cluttered maps, which should be fixed in more relevant ways, but it can be a useful tool when the map
   is inherently very dense and extra help is required. Faster maps will also naturally force
@@ -1708,7 +1706,7 @@ of reaction time (1.5 beats at 120 BPM takes 750 ms). At 16 NJS, that is 24 jump
 
 In practice, the recommended approach is to choose your preferred reaction time, and adjust the spawn offset
 to reach the desired reaction time. Some editors, like [ChroMapper](./index.md#chromapper), allow you to directly modify
-reaction time, and automatically adjusts the spawn offset accordingly.
+reaction time, automatically adjusting the spawn offset accordingly.
 
 :::tip TIP
 Generally it is simplest to focus on **reaction time**, and ignore jump distance, half jump duration and spawn offset;
@@ -1764,8 +1762,8 @@ and can be one of the most alienating aspects of a map for players.
 The [basic page on vision blocks](./basic-mapping.md#vision-blocks) contains the most important guidance on
 avoiding vision blocks.
 
-Vision is sometimes one of the biggest [constraints](#mapping-is-a-balancing-act) to mapping,
-so while it can be very tempting to have worse vision for the sake of better [spacing](#spacing),
+Vision is sometimes one of the biggest [constraints](#mapping-is-a-balancing-act) to mapping.
+While it can be very tempting to have worse vision for the sake of better [spacing](#spacing),
 [hand position](#hand-repositioning) or [momentum](#momentum-and-tension) this is discouraged.
 
 A mapper should always try to simultaneously achieve good vision, setup, flow, and representation.
