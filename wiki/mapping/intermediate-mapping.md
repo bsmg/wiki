@@ -910,7 +910,7 @@ of the hand while swinging vertically.
 <!-- markdownlint-disable MD013 -->
 
 <!-- prettier-ignore -->
-| Arm circles |
+| Arm Circles |
 | :-: |
 | ![Arm circles](/.assets/images/mapping/circle.png) |
 | The hand repositions horizontally (left and right) using arm movement, while the wrist swings up and down. |
