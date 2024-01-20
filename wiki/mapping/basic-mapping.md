@@ -509,7 +509,7 @@ It's best to steer clear of these until you're much more comfortable with mappin
 <!-- prettier-ignore -->
 | Illustration | Editor View | Explanation |
 | :-: | :-: | :- |
-| ![Editor view of a face puncher](/.assets/images/mapping/facepuncher-alt.png) | Face punchers are blocks placed in the opposite top corners pointing outwards. Without proper setup, this placement requires the player to perform a large crossover in a direction that potentially causes their controllers to smash into their headset. A double of face punchers is an especially uncomfortable motion. |
+| ![Editor view of a face puncher](/.assets/images/mapping/facepuncher-alt.png) | Face punchers are blocks placed in the opposite top corners pointing outwards. Without proper setup, this placement requires the player to perform a large crossover in a direction that potentially causes their controllers to smash into their headset. A double of face punchers is an especially uncomfortable motion. | |
 
 ## Gauging Difficulty & Down-Mapping
 
