@@ -16,7 +16,7 @@
     "lint:images": "node ./scripts/checkImages.mjs",
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:prettier && markdownlint-cli2 \"wiki/**/*.md\" \"#wiki/{de,fr,ja,nl}/**/*.md\"",
-    "fmt": "prettier --write . && markdownlint-cli2-fix \"wiki/**/*.md\" \"#wiki/{de,fr,ja,nl}/**/*.md\""
+    "fmt": "prettier --write . && markdownlint-cli2 --fix \"wiki/**/*.md\" \"#wiki/{de,fr,ja,nl}/**/*.md\""
   },
   "devDependencies": {
     "@types/markdown-it-container": "^2.0.9",
