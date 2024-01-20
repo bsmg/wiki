@@ -1674,7 +1674,7 @@ It is recommended to start from a baseline and adjust from there based on feel. 
 | 18-20 | **High NJS**. The effect on timing begins to be noticeable, but most people can play it. Use for moderately cluttered maps. | [Link](https://allpoland.github.io/ArcViewer/?id=2cc29) |
 | 20-22 | **Very high NJS**. The effect on timing is very noticeable, affecting the player's swings; as well as significantly increasing the map's difficulty. For very fast and complex maps, this NJS might be warranted. | [Link](https://allpoland.github.io/ArcViewer/?id=3628f) |
 | 22-25 | **Extremely high NJS**. Arguably, no map needs to go this high, but for particularly extreme challenge or speed maps, some may feel that this range is warranted. Timing is extremely tight and most players will have issues with it. | [Link](https://allpoland.github.io/ArcViewer/?id=2d64a) |
-| 25+ | **Do not use**. There is essentially no good reason to use NJS above 25 for any map. NJS becomes one of the main difficulties in the map. |
+| 25+ | **Do not use**. There is essentially no good reason to use NJS above 25 for any map. NJS becomes one of the main difficulties in the map. | |
 
 <!-- markdownlint-enable MD013 -->
 
