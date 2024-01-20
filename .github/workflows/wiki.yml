@@ -10,7 +10,7 @@ on:
       - 'crowdin/**'
 
 env:
-  NODE_VERSION: 18.x
+  NODE_VERSION: 20.x
 
 jobs:
   test:
@@ -18,9 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
@@ -29,7 +29,7 @@ jobs:
       - name: Lint with Prettier
         run: npm run lint:prettier
       - name: Lint with markdownlint
-        uses: DavidAnson/markdownlint-cli2-action@v13
+        uses: DavidAnson/markdownlint-cli2-action@v15
         with:
           config: ./.markdownlint.jsonc
           globs: |
@@ -51,9 +51,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
@@ -62,11 +62,11 @@ jobs:
       - name: Build
         run: npm run build
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v4
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: wiki/.vitepress/dist
       - name: Deploy Wiki
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
