@@ -14,8 +14,8 @@
       "kbd",
       "br",
       "details",
-      "summary"
-    ]
+      "summary",
+    ],
   },
-  "ul-style": false
+  "ul-style": false,
 }
