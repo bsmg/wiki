@@ -9,7 +9,7 @@ description: A more in-depth look at many mapping topics to take your maps to th
 :::warning NOTE
 This page builds on the information covered in the [Basic Mapping](./basic-mapping.md) page of the wiki.
 
-If you are just starting out as a new mapper it is recommended to lean the [basics](./basic-mapping.md) then come
+If you are just starting out as a new mapper it is recommended to learn the [basics](./basic-mapping.md) then come
 back later once you have gained some experience.
 :::
 
@@ -1008,7 +1008,7 @@ Leans are mostly defined by palm-out swings.
 | ![No lean](/.assets/images/mapping/no-lean.png) | (Starting forehand right and backhand left). All hits are palm-in. Even with large rotations, leaning is not generally required. |
 
 While leans do closely relate to _dodge walls_, their relation is not straightforward. The relation
-between leaning, swaying, and dodge walls is discussed the [dodge walls](#dodge-walls) section.
+between leaning, swaying, and dodge walls is discussed in the [dodge walls](#dodge-walls) section.
 
 For various reasons discussed in the sections on [parity](#parity) and [rotations](#rotations), it is generally
 more comfortable to start / increase lean on forehand swings. While backhand palm-out swings are playable and acceptable,
