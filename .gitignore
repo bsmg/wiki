@@ -25,3 +25,6 @@ wiki/.vitepress/cache
 
 # Visual Studio-created directory for... something?
 /.vs
+
+# Ignore config copies forks may keep to deploy a test instance
+/wiki/.vitepress/config.*.ts
