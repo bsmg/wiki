@@ -9,7 +9,7 @@ description: MissRaynor's guide to making Custom Sabers!
 _MissRaynor's guide to making Custom Sabers._
 
 ::: danger
-If you're creating models, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md)
+If you're creating models for versions above 1.29.1, it's extremely important that you read the [Shader Migration Guide](./shader-migration.md)
 to avoid any shader issues
 :::
 
@@ -32,7 +32,7 @@ YOU MUST HAVE:
 
 Optional:
 
-- 3d modeling software: Blender is a good free option, or 3dsmax if you have a license for it (educational license is fine)
+- 3D modeling software: Blender is a good free option, or 3dsmax if you have a license for it (educational license is fine)
 - Image editor: [Photoshop](https://www.adobe.com/products/photoshop.html) or
   [GIMP](https://www.gimp.org/downloads/) work if you want to make your own saber texture
 - The saber model used in [this tutorial.](https://bs.assistant.moe/Sabers/resources/Tutorial_Saber.zip)
@@ -45,7 +45,7 @@ Extract the Custom Saber Unity project to your desired location.
 
 ![Adding Custom Saber project](/.assets/images/models/sabers/01.png)
 
-The Custom saber project should appear on the list. Make sure the Unity version is correct for the project.
+The Custom Saber project should appear on the list. Make sure the Unity version is correct for the project.
 
 ![Checking that the project version is correct](/.assets/images/models/sabers/02.png)
 
@@ -53,7 +53,7 @@ The Custom saber project should appear on the list. Make sure the Unity version 
 
 ### Opening and setting up the project in the Editor
 
-Open the Custom saber project, it should show up like this:
+Open the Custom Saber project, it should show up like this:
 
 ![Checking that the project shows up correctly](/.assets/images/models/sabers/03.png)
 
@@ -82,7 +82,7 @@ If the Template Saber appears and works properly ingame, setup is complete and y
 
 ## Modeling
 
-I won't go into detail about making a 3d model. If you don't have already have a model and want to learn how to make one,
+I won't go into detail about making a 3D model. If you don't have already have a model and want to learn how to make one,
 you can find tutorials here:
 
 ### Blender
@@ -112,14 +112,14 @@ Merging meshes that share the same color/glowing attributes will help a LOT in t
 
 ## Unity
 
-To import the model into unity, simply drag and drop it into the Assets window.
+To import the model into Unity, simply drag and drop it into the Assets window.
 Afterwards, line the saber up with the TemplateSaber. Video example:
 
 <YouTube url='https://www.youtube.com/watch?v=mphD87zOer4' />
 
 Next, you need to add Beat Saber compatible materials to your sabers.
 
-The custom sabers unity project comes with 4 different beat saber compatible shaders.
+The Custom Sabers unity project comes with 4 different Beat Saber compatible shaders.
 Here are the main differences between them:
 
 - Lit glow is lit and has shadows. You can change the direction the light comes from and how strong it is
@@ -130,7 +130,7 @@ Here are the main differences between them:
 The materials you use will depend on what traits you're looking for.
 
 ::: warning WARNING
-Make sure you _ONLY_ use shaders that are compatible with beat saber. If you use a shader that isn't compatible
+Make sure you _ONLY_ use shaders that are compatible with Beat Saber. If you use a shader that isn't compatible
 (the Unity Standard shader, for example) your material will simply show up as white in-game.
 :::
 
