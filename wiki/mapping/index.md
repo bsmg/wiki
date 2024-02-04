@@ -201,8 +201,8 @@ this to succeed.
 
 ### Additional Mapping Tools
 
-- [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
-  A convenient way to see how your map might look in game without the game.
+- [ArcViewer](https://allpoland.github.io/ArcViewer/) by **AllPoland**  
+  An open source 3D Beat Saber map previewer, designed to give users an accurate representation of Beat Saber maps.
 - [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**  
   A suite of tools for mappers that includes:
   - **Schema Fixer:** Easily fix maps made in Mediocre Mapper Mk4.1 and Mk5 for upload to BeatSaver.
@@ -220,14 +220,16 @@ this to succeed.
   An error checker tool that focuses on finding issues with parity in a map.
 - [Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) by **Kival Evan**  
   An error checker tool that is much more versatile than the one built into MMA2.
-- [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
-  Easily compile a game playlist from a txt file containing BeatSaver map keys.
 
 #### Legacy Tools
 
 These tools may no longer be supported, compatible with the latest software, or relevant with current practices, but could
 still fulfill a niche use case.
 
+- [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
+  A convenient way to see how your map might look in game without the game.
+- [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
+  Easily compile a game playlist from a text file containing BeatSaver map keys.
 - [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) by **DarkGrisen**  
   Ever thought that it is a lot of annoying work to make big maps with other people or to perfectly cut the audio files
   so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map.

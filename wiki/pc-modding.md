@@ -54,7 +54,7 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 :::
 
 :::tip NOTE
-The latest moddable Beat Saber version for PC is `1.31.1`. You can also downgrade to `1.29.1` if you prefer.
+The latest moddable Beat Saber version for PC is `1.34.2`. You can also downgrade to `1.29.1` if you prefer.
 
 Visit the [Downgrading](#downgrading) section on this page for more information.
 :::
