@@ -62,7 +62,7 @@ Follow these general guidelines as you work on your maps:
   In this case some audio editing might be required (see [Optional Audio Editing](#optional-audio-editing)).
 
 > Sites where you can buy the tracks/album, such as an artist's [Bandcamp](https://bandcamp.com/), usually will have the
-> highest quality source available. If the artist does not have a Bandcamp available, Google Play Music, Amazon Music and
+> highest quality source available. If they are signed to a record label you might be able to find them on [HDTracks](https://www.hdtracks.com). If the artist does not have a Bandcamp or HDTracks available, Google Play Music, Amazon Music
 > iTunes are alternatives for high quality MP3 files.
 
 By purchasing and using a high quality audio file, not only are you supporting your artist, but you save yourself a lot
