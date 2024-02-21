@@ -220,7 +220,7 @@ Viele Funktionen von Chroma lassen sich viel einfacher mit dem Noten-Editor von 
 
 Es kann hilfreich sein zu wissen, wie ein Beleuchtungsereignis in den `.dat`-Dateien kodiert ist, wenn du die Datei direkt bearbeiten willst oder ein Skript erstellst, um die Datei zu ändern.
 
-Das interne Format für ein Beleuchtungsereignis wird auf der speziellen [Map-Format-Seite](./map-format.md#events-2) beschrieben.
+Das interne Format für ein Beleuchtungsereignis wird auf der speziellen [Map-Format-Seite](./map-format/lightshow#basic-events) beschrieben.
 
 ## Credits
 

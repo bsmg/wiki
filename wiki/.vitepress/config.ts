@@ -1,7 +1,8 @@
-import { env } from 'node:process'
 import container from 'markdown-it-container'
-import { defineConfig } from 'vitepress'
+import { env } from 'node:process'
 import type { DefaultTheme } from 'vitepress'
+import { defineConfig } from 'vitepress'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 const IS_DEV = env.NODE_ENV === 'production'
 
@@ -63,8 +64,6 @@ export default defineConfig({
   title: 'BSMG Wiki',
   description:
     'Guides on how to mod Beat Saber, create custom content, and get involved in the community!',
-  // If deploying to GitHub pages, uncomment this and replace with the name of your repository.
-  // base: '/<nameofyourrepo>/',
   lastUpdated: true,
 
   head: [['link', { rel: 'icon', href: '/icon.png' }]],
@@ -181,7 +180,6 @@ export default defineConfig({
               ['Basic Mapping', '/mapping/basic-mapping'],
               ['Downmapping', '/mapping/downmapping'],
               ['Intermediate Mapping', '/mapping/intermediate-mapping'],
-              ['Advanced Mapping', '/mapping/advanced-mapping'],
               ['Extended Mapping', '/mapping/extended-mapping'],
               ['Mapping Glossary', '/mapping/glossary'],
             ],
@@ -207,9 +205,10 @@ export default defineConfig({
             'Map Format',
             [
               ['Overview', '/mapping/map-format'],
-              ['Info.dat', '/mapping/infodat-format'],
-              ['v3 Difficulty File', '/mapping/difficulty-format-v3'],
-              ['v2 Difficulty File', '/mapping/difficulty-format-v2'],
+              ['Info', '/mapping/map-format/info'],
+              ['Audio', '/mapping/map-format/audio'],
+              ['Beatmap', '/mapping/map-format/beatmap'],
+              ['Lightshow', '/mapping/map-format/lightshow'],
             ],
           ],
           ['Help Playtest Other Maps', '/mapping/how-to-testplay'],
@@ -319,13 +318,12 @@ export default defineConfig({
   },
 
   sitemap: {
-    // Replace this with the URL of your GitHub pages deployment
     hostname: 'https://bsmg.wiki/',
   },
 
   markdown: {
     config: md => {
-      md.use(container, 'center')
+      md.use(container, 'center'), md.use(tabsMarkdownPlugin)
     },
   },
 })

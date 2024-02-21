@@ -55,7 +55,7 @@ Has an interesting username...
 
 Modder, Moderator, Mapper, EditorMaster... Caeden does it all. As the primary dev on the ChroMapper project
 (which natively supports 360) he contributed a TON for [360&deg;/90&deg; best practices](./extended-mapping.md#_360°-90°-best-practices)
-and the [Map Format](./map-format.md) documentation page.  
+and the [Map Format](./map-format) documentation page.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7398cc5a672c84ee26) | [BeastSaber](https://bsaber.com/members/caeden117/)
 | [Donate](https://ko-fi.com/Caeden117)
 
@@ -114,7 +114,7 @@ Also is a ranking team member!
 ## Kival Evan
 
 Created useful utility tools for mapping and contributed to the [360&deg;/90&deg; best practices](./extended-mapping.md#_360°-90°-best-practices)
-and [Map Format](./map-format.md) thanks to extensive experimentation.  
+and [Map Format](./map-format) thanks to extensive experimentation.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855af3) | [BeastSaber](https://bsaber.com/members/kivalevan/)
 
 ## Kolezan

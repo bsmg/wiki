@@ -1,0 +1,21 @@
+{
+  "version": "4.0.0",
+  "songChecksum": "",
+  "songSampleCount": 1149214,
+  "songFrequency": 44100,
+  "bpmData": [
+    {
+      "si": 0,
+      "ei": 1149214,
+      "sb": 0,
+      "eb": 26
+    }
+  ],
+  "lufsData": [
+    {
+      "si": 0,
+      "ei": 1149214,
+      "l": 0
+    }
+  ]
+}

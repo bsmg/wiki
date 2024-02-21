@@ -1,15 +1,16 @@
 // https://vitepress.dev/guide/custom-theme
 import mediumZoom from 'medium-zoom'
-import { h, nextTick, onMounted, watch } from 'vue'
-import { useRoute } from 'vitepress'
 import type { EnhanceAppContext } from 'vitepress'
+import { useRoute } from 'vitepress'
+import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 import Theme from 'vitepress/theme'
+import { h, nextTick, onMounted, watch } from 'vue'
 
 import AboutLinks from '../components/AboutLinks.vue'
 import YouTube from '../components/YouTube.vue'
 
-import './style.css'
 import './custom.css'
+import './style.css'
 
 export default {
   ...Theme,
@@ -36,5 +37,6 @@ export default {
   enhanceApp({ app, router, siteData }: EnhanceAppContext) {
     app.component('AboutLinks', AboutLinks)
     app.component('YouTube', YouTube)
+    enhanceAppWithTabs(app)
   },
 }
