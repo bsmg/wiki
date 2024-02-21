@@ -792,7 +792,7 @@ Controls the magnitude and direction of the lane rotation.
 A negative value will turn the player counter-clockwise, and a positive value will turn clockwise.
 
 ::: tip
-For v2, the magnitude is determined by an enumerated value, 
+For v2, the magnitude is determined by an enumerated value,
 of which all possible values are listed in the corresponding table for [Basic Events](./lightshow.md#rotation-events-legacy-value).
 :::
 
