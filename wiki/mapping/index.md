@@ -139,7 +139,7 @@ any extensions, but new features are being added.
 - [Beatmapper User Manual](https://beatmapper.app/docs/manual/getting-started)
 
 ::: tip Interested in making your own editor or converter?
-You may find the [Map Format Page](map-format/index.md) and the
+You may find the [Map Format Page](./map-format) and the
 [SongCore Readme](https://github.com/Kylemc1413/SongCore/blob/master/README.md) helpful!
 :::
 
