@@ -39,9 +39,7 @@ Once you have finished making changes, you can either commit them directly using
 
 To preview your changes, you'll need to [enable GitHub Pages from GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) for your forked repository.
 
-Once the workflow is complete, any changes made to the `master` branch will be deployed to the following URL automatically:
-
-`https://{username}.github.io/{repository_name}/`
+Once the workflow is complete, any changes made to the `master` branch will be deployed to `https://{username}.github.io/{repository_name}/`, where `{username}` is your GitHub username and `{repository_name}` is the name of your forked repository.
 
 ## 🔐 Licensing
 
