@@ -8,9 +8,11 @@ description: Learn how to mod Beat Saber on your Quest using BMBF!
 
 ## Before You Begin
 
-:::warning Quest 3 Modding Information
+:::danger Quest Modding Information
 BMBF does not support Quest 3 at this time.  
-Quest 3 modding is only possible using [QuestPatcher](./quest-modding.md#questpatcher).
+As of the Quest v63 update, the Quest 2 and Pro are no longer moddable using BMBF.
+
+Quest 2, Pro, and 3 modding is only possible using [QuestPatcher](./quest-modding.md#questpatcher) at this time.
 :::
 
 If you have not already, go to [Preparations](./quest-modding.md#preparations) and follow those steps.
