@@ -1,0 +1,47 @@
+{
+  "songName": "Magic",
+  "songSubName": "ft. Meredith Bull",
+  "authorName": "Jaroslav Beck",
+  "beatsPerMinute": 208,
+  "previewStartTime": 0,
+  "previewDuration": 0,
+  "coverImagePath": "cover.png",
+  "environmentName": "WeaveEnvironment",
+  "difficultyLevels": [
+    {
+      "characteristic": "Standard",
+      "difficulty": "Easy",
+      "difficultyRank": 1,
+      "audioPath": "Magic.wav",
+      "jsonPath": "Easy.json"
+    },
+    {
+      "characteristic": "Standard",
+      "difficulty": "Normal",
+      "difficultyRank": 3,
+      "audioPath": "Magic.wav",
+      "jsonPath": "Normal.json"
+    },
+    {
+      "characteristic": "Standard",
+      "difficulty": "Hard",
+      "difficultyRank": 5,
+      "audioPath": "Magic.wav",
+      "jsonPath": "Hard.json"
+    },
+    {
+      "characteristic": "Standard",
+      "difficulty": "Expert",
+      "difficultyRank": 7,
+      "audioPath": "Magic.wav",
+      "jsonPath": "Expert.json"
+    },
+    {
+      "characteristic": "Standard",
+      "difficulty": "ExpertPlus",
+      "difficultyRank": 9,
+      "audioPath": "Magic.wav",
+      "jsonPath": "ExpertPlus.json"
+    }
+  ]
+}

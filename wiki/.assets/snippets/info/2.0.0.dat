@@ -1,0 +1,59 @@
+{
+  "_version": "2.0.0",
+  "_songName": "Magic",
+  "_songSubName": "ft. Meredith Bull",
+  "_songAuthorName": "Jaroslav Beck",
+  "_levelAuthorName": "Freeek",
+  "_beatsPerMinute": 208,
+  "_songTimeOffset": 0,
+  "_shuffle": 0,
+  "_shufflePeriod": 0,
+  "_previewStartTime": 0,
+  "_previewDuration": 0,
+  "_songFilename": "Magic.wav",
+  "_coverImageFilename": "cover.png",
+  "_environmentName": "WeaveEnvironment",
+  "_allDirectionsEnvironmentName": "GlassDesertEnvironment",
+  "_difficultyBeatmapSets": [
+    {
+      "_beatmapCharacteristicName": "Standard",
+      "_difficultyBeatmaps": [
+        {
+          "_difficulty": "Easy",
+          "_difficultyRank": 1,
+          "_beatmapFilename": "Easy.dat",
+          "_noteJumpMovementSpeed": 10,
+          "_noteJumpStartBeatOffset": 0
+        },
+        {
+          "_difficulty": "Normal",
+          "_difficultyRank": 3,
+          "_beatmapFilename": "Normal.dat",
+          "_noteJumpMovementSpeed": 10,
+          "_noteJumpStartBeatOffset": 0
+        },
+        {
+          "_difficulty": "Hard",
+          "_difficultyRank": 5,
+          "_beatmapFilename": "Hard.dat",
+          "_noteJumpMovementSpeed": 10,
+          "_noteJumpStartBeatOffset": 0
+        },
+        {
+          "_difficulty": "Expert",
+          "_difficultyRank": 7,
+          "_beatmapFilename": "Expert.dat",
+          "_noteJumpMovementSpeed": 16,
+          "_noteJumpStartBeatOffset": 1
+        },
+        {
+          "_difficulty": "ExpertPlus",
+          "_difficultyRank": 9,
+          "_beatmapFilename": "ExpertPlus.dat",
+          "_noteJumpMovementSpeed": 18,
+          "_noteJumpStartBeatOffset": 0.5
+        }
+      ]
+    }
+  ]
+}

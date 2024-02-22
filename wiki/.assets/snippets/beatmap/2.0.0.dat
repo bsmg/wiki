@@ -1,0 +1,55 @@
+{
+  "_version": "2.0.0",
+  "_notes": [
+    {
+      "_time": 10,
+      "_lineIndex": 1,
+      "_lineLayer": 0,
+      "_type": 0,
+      "_cutDirection": 1
+    },
+    {
+      "_time": 10,
+      "_lineIndex": 1,
+      "_lineLayer": 0,
+      "_type": 3,
+      "_cutDirection": 0
+    }
+  ],
+  "_obstacles": [
+    {
+      "_type": 0,
+      "_time": 10,
+      "_duration": 5,
+      "_lineIndex": 1,
+      "_width": 1
+    }
+  ],
+  "_events": [
+    {
+      "_time": 10,
+      "_type": 1,
+      "_value": 3
+    },
+    {
+      "_time": 10,
+      "_type": 5,
+      "_value": 1
+    },
+    {
+      "_time": 10,
+      "_type": 14,
+      "_value": 4
+    },
+    {
+      "_time": 15,
+      "_type": 15,
+      "_value": 4
+    },
+    {
+      "_time": 10,
+      "_type": 10,
+      "_value": 128
+    }
+  ]
+}
