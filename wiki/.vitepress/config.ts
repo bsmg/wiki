@@ -317,9 +317,7 @@ export default defineConfig({
     search: search(),
   },
 
-  sitemap: {
-    hostname: 'https://bsmg.wiki/',
-  },
+  sitemap: { hostname: 'https://bsmg.wiki/' },
 
   markdown: {
     config: md => {
