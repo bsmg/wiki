@@ -21,32 +21,11 @@ If you don't see your language available on Crowdin you can still [apply](https:
 
 ## 🧪 Development
 
-To run a local copy of the wiki:
+To preview your changes, you'll need to [enable GitHub Pages from GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) for your forked repository.
 
-1. Install [Node.js](https://nodejs.org/en/download/) (using [Volta](https://volta.sh/) is recommended)
-2. [Fork this repo](https://guides.github.com/activities/forking/), then clone it. **Make sure to do all work on [another branch](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch).**
-3. Open a command-line window in the directory you just cloned into, then run the command `npm install` to install required packages.
-4. After packages are installed, start the development server with the command `npm run dev`. You can kill the server by closing the terminal or by pressing <kbd>CTRL+C</kbd>
-5. Open the link to `localhost` that appears in the console once the development server is running.
-
-When you make changes to your local wiki files, the local website will update those pages as soon as they are saved!
-
-The Wiki has a built-in linter that runs automatically when you push commits to enforce formatting rules. You can run this on your local copy with the command `npm run lint` to flag issues. You can also run `npm run fmt` to have the linter try to resolve the issues automatically. If you need assistance with interpreting or fixing the errors, [submit an issue](https://github.com/bsmg/wiki/issues) with a screenshot of the errors attached.
-
-Once you have finished making changes, you can either commit them directly using `git` tools, or copy them into the GitHub web interface if you don't know how to use `git`.
+Once the workflow is complete, any changes made to the `master` branch will be deployed to `https://{username}.github.io/{repository_name}/`, where `{username}` is your GitHub username and `{repository_name}` is the name of your forked repository.
 
 ## 🖧 Deployment
-
-To deploy your fork of the wiki to GitHub pages (for example to allow others to preview your changes):
-
-1. Open `/wiki/.vitepress/config.ts`.
-2. Search for `export default defineConfig({`.
-3. Add an entry to this dictionary with `base: '<reponame>'` where `<reponame>` is the name of your forked repository.
-4. In the same file, search for `sitemap: {`.
-5. Change the `hostname` entry to `https://<username>.github.io/<reponame>/)` where `<username>` is your GitHub username and `<reponame>` is the name of your forked repository.
-6. [Enable GitHub pages from GitHub actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) on your repository.
-7. Whenever you push changes to the repository, GitHub will automatically attempt to deploy it. You can check the state in the Actions tab of your repository on GitHub.
-8. When you make a push request to the main repository, remember to exclude these changes!!
 
 ## 🔐 Licensing
 

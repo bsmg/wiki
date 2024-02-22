@@ -60,7 +60,7 @@ jobs:
       - name: Install packages
         run: npm ci
       - name: Build
-        run: npm run build
+        run: npm run build -- --base="/${{ github.event.repository.name }}/"
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
       - name: Upload Pages Artifact
