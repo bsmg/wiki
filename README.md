@@ -37,16 +37,11 @@ Once you have finished making changes, you can either commit them directly using
 
 ## 🖧 Deployment
 
-To deploy your fork of the wiki to GitHub pages (for example to allow others to preview your changes):
+To preview your changes, you'll need to [enable GitHub Pages from GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) for your forked repository.
 
-1. Open `/wiki/.vitepress/config.ts`.
-2. Search for `export default defineConfig({`.
-3. Add an entry to this dictionary with `base: '<reponame>'` where `<reponame>` is the name of your forked repository.
-4. In the same file, search for `sitemap: {`.
-5. Change the `hostname` entry to `https://<username>.github.io/<reponame>/)` where `<username>` is your GitHub username and `<reponame>` is the name of your forked repository.
-6. [Enable GitHub pages from GitHub actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) on your repository.
-7. Whenever you push changes to the repository, GitHub will automatically attempt to deploy it. You can check the state in the Actions tab of your repository on GitHub.
-8. When you make a push request to the main repository, remember to exclude these changes!!
+Once the workflow is complete, any changes made to the `master` branch will be deployed to the following URL automatically:
+
+`https://{username}.github.io/{repository_name}/`
 
 ## 🔐 Licensing
 
