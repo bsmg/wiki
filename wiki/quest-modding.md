@@ -117,10 +117,12 @@ steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
 
 ## Ways to Mod Beat Saber
 
-Currently, there are three ways to mod your game: you can either use BMBF, QAVS (QuestAppVersionSwitcher), or QuestPatcher.
+There are three ways to mod your game: you can either use BMBF, QAVS (QuestAppVersionSwitcher), or QuestPatcher.
 
-:::warning Quest 3 Modding Information
-Quest 3 modding is only possible using [QuestPatcher](#questpatcher). BMBF and QAVS does not support Quest 3 at this time.
+:::warning NOTE
+As of the Quest v63 update, the Quest 2 and Pro are not moddable using BMBF or QAVS.
+
+Quest 2, Pro, and 3 modding is only possible using [QuestPatcher](./quest-modding.md#questpatcher) at this time.
 :::
 
 ### BMBF
