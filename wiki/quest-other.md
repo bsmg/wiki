@@ -36,7 +36,7 @@ Click it to allow access to the Quest.
 
 ## Downgrading
 
-Make sure Beat Saber is installed\_
+Make sure Beat Saber is installed
 
 1. Download "QuestAppVersionSwitcher" from SideQuest onto your Quest.
 2. Open QAVS. If it asks you if you want to start modding, exit the dialog.
