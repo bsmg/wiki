@@ -26,7 +26,6 @@ You can add them back once the modding process is completed.
 
 Make sure you have an unmodded version of Beat Saber installed on your Quest.
 
-
 ## Downgrading and Modding information
 
 Due to changes in Metas authentication system it is no longer possible to download downgraded apks
@@ -37,18 +36,17 @@ as "QAVS"
 There are two ways to mod Beat Saber on Quest 1.
 
 - Option 1: You Follow QAVS setup assistant and let it patch the game for you. QAVS is capable of installing
-mods, models, etc. and has most features BMBF has.
+  mods, models, etc. and has most features BMBF has.
 
 - Option 2: You only downgrade the game using QAVS and mod with BMBF.
 
-
 ## Downgrading and Modding with QAVS
 
-*Make sure Beat Saber is installed*
+Make sure Beat Saber is installed\_
 
 1. Download "QuestAppVersionSwitcher" from SideQuest onto your Quest.
 2. Open QAVS. If you have Beat Saber installed, it will most likely ask you if you want to start modding.
-Click Start. It will take you step by step through the modding process.
+   Click Start. It will take you step by step through the modding process.
 
 **Note:** QAVS asks you to log in with your Meta account. Make sure to use the account which owns Beat Saber,
 otherwise downgrading will not work. This is **required** to authenticate with Meta allowing you to download
@@ -58,7 +56,7 @@ If QAVS doesn't ask you to start modding Beat Saber, go to the "Tools & Options"
 App to manage and then press the "Start setup assistant" button.
 
 3. Go to the "Get Mods" tab and click "open mods page". On that Page you can find all mods currently compatible
-with the version of Beat Saber. Click "Download all Core mods" at the top.
+   with the version of Beat Saber. Click "Download all Core mods" at the top.
 
 :::danger Do not use BMBF to manage Mods
 When modding with QAVS and installing mods with it, switching to BMBF is **not** possible unless you uninstall
@@ -66,10 +64,9 @@ all mods installed with QAVS first. Then you can go to BMBF and install them aga
 lead to problems!
 :::
 
-
 ## Downgrading using QAVS and modding using BMBF
 
-*Make sure Beat Saber is installed*
+Make sure Beat Saber is installed\_
 
 1. Download "QuestAppVersionSwitcher" from SideQuest onto your Quest.
 2. Open QAVS. If it asks you if you want to start modding, exit the dialog.
@@ -82,7 +79,6 @@ The latest moddable version on Quest 1 is 1.28. The Quest 1 **does not** support
 :::
 
 6. Once the downgraded version is installed, close QAVS and patch the game using BMBF.
-
 
 ## Troubleshooting
 
@@ -98,7 +94,8 @@ There are likely mods causing these issues. Try disabling them one by one to ide
 
 ### I Can Not Find the Mod Options in the Game
 
-Something may have gone wrong during the modding process. Go to the "Tools" tab in QAVS or BMBF and click "Uninstall All Mods."
+Something may have gone wrong during the modding process. Go to the "Tools" tab in QAVS or BMBF and click
+"Uninstall All Mods."
 Then open the mod download page and click "Download Core Mods." on QAVS or reinstall core mods in the Tools tab of BMBF.
 If that does not resolve the issue, you may need to restart the modding process.
 

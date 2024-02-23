@@ -15,8 +15,7 @@ This guide is for the following VR Headsets:
 - Quest 3
 - Quest Pro
 
-*Nobody has yet been banned for modding.*
-
+_Nobody has yet been banned for modding._
 
 ::: danger DISCLAIMER
 By choosing to use mods, you understand that:
@@ -105,7 +104,6 @@ Using the SideQuest file explorer, take the 3 files you saved from the [Backup S
 steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
 `sdcard/Android/data/com.beatgames.beatsaber/files` folder.
 
-
 ## Modding BeatSaber
 
 If you want to mod Beat Saber on Quest 1 with an Android Device, follow [this Guide](./support/modding-with-android.md)
@@ -113,5 +111,3 @@ If you want to mod Beat Saber on Quest 1 with an Android Device, follow [this Gu
 If you want to mod Beat Saber on Quest 1 with a PC, follow [this Guide](./quest-one-pc.md)
 
 If you want to mod Beat Saber on Quest 2, 3 or Pro, follow [this Guide](./quest-other.md)
-
-

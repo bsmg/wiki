@@ -281,19 +281,14 @@ export default defineConfig({
             'Quest Modding',
             [
               ['Overview', '/quest-modding'],
-              [
-                'Quest 2, 3 and Pro',
-                [
-                  ['Modding using a PC', '/quest-other'],
-                ],
-              ],
+              ['Quest 2, 3 and Pro', [['Modding using a PC', '/quest-other']]],
               [
                 'Quest 1',
                 [
                   ['Modding With Android', '/support/modding-with-android'],
-                  ['Modding With a PC', '/quest-one-pc']
-                ]
-              ]
+                  ['Modding With a PC', '/quest-one-pc'],
+                ],
+              ],
             ],
           ],
           [
