@@ -8,9 +8,15 @@ description: Learn how to mod Beat Saber on your Quest!
 
 ## Preface
 
-- This guide is for both Quest 1, Quest 2, and Quest 3.
+This guide is for the following VR Headsets:
 
-- Nobody has yet been banned for modding.
+- Quest 1
+- Quest 2
+- Quest 3
+- Quest Pro
+
+*Nobody has yet been banned for modding.*
+
 
 ::: danger DISCLAIMER
 By choosing to use mods, you understand that:
@@ -44,27 +50,10 @@ To get leaderboards on custom songs and to be able to get Performance Points (PP
 
 ## Requirements
 
-Modding Beat Saber involves installing APKs on your Quest. Therefore, you will need a PC (Windows / Mac / Linux)
-or an Android device at least once.
+**Due to recent Changes it is currently not possible to mod Beat Saber on Quest 2, Quest 3 or Quest Pro without a PC!**
 
-:::tip NOTE
-The latest moddable Beat Saber version for Quest is `1.28.0`.
-
-- If you are using BMBF and want to downgrade, refer to the [Downgrading Guide for BMBF](./quest-modding-bmbf.md#downgrading-beat-saber).
-- QAVS walks you through the downgrade process automatically.
-
-:::
-
-If you plan to mod using an Android device, visit the [Modding with Android](./support/modding-with-android.md) page.
-
-To use Chromebooks and iOS devices, such as iPhones or iPads, you need to have a
-[Raspberry Pi](https://www.raspberrypi.com/). Once you have one, visit [Modding with a Raspberry Pi](./raspi-modding.md)
-to get started.
-
-If you want to use a Linux based computer, you can follow the Raspberry Pi guide. Note that it has only been tested
-on Raspberry Pi OS (Debian) and the process may be different on other distros.
-
-For Windows and Macs, continue reading below.
+The Quest 1 can still be done with a mobile Phone or Tablet.
+**Note:** iOS devices like iPhones or iPads, Apple Watches or the Apple Vision Pro are not supported!
 
 ## Preparations
 
@@ -86,7 +75,8 @@ follow the steps below:
 
 ### SideQuest
 
-This is only required if you mod with a PC (Windows / Mac / Linux). Go to [SideQuest's Download Page](https://sidequestvr.com/setup-howto)
+This is only required if you mod with a PC or want to back up your data.
+Go to [SideQuest's Download Page](https://sidequestvr.com/setup-howto)
 and download the SideQuest Advanced Installer. Once it's finished downloading, install it.
 
 ### Backup Save Data using SideQuest
@@ -115,55 +105,13 @@ Using the SideQuest file explorer, take the 3 files you saved from the [Backup S
 steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
 `sdcard/Android/data/com.beatgames.beatsaber/files` folder.
 
-## Ways to Mod Beat Saber
 
-Currently, there are three ways to mod your game: you can either use BMBF, QAVS (QuestAppVersionSwitcher), or QuestPatcher.
+## Modding BeatSaber
 
-:::warning Quest 3 Modding Information
-Quest 3 modding is only possible using [QuestPatcher](#questpatcher). BMBF and QAVS does not support Quest 3 at this time.
-:::
+If you want to mod Beat Saber on Quest 1 with an Android Device, follow [this Guide](./support/modding-with-android.md)
 
-### BMBF
+If you want to mod Beat Saber on Quest 1 with a PC, follow [this Guide](./quest-one-pc.md)
 
-BMBF is generally easier to understand for beginners with a simpler UI compared to QAVS, but lacks a built-in downgrading
-option. If you use BMBF to mod, you will need a PC every time you update Beat Saber.
+If you want to mod Beat Saber on Quest 2, 3 or Pro, follow [this Guide](./quest-other.md)
 
-Visit [Modding With BMBF](./quest-modding-bmbf.md) to get started.
 
-### QAVS
-
-QAVS is recommended for people who are using an Android device or don't have access to a computer at all times. It has
-built-in downgrading, which means you don't need to use a PC or phone every time you want to update Beat Saber to the
-latest moddable version.
-
-Visit [Modding With QAVS](./quest-modding-qavs.md) to get started.
-
-### QuestPatcher
-
-QuestPatcher is a GUI based mod installer for any il2cpp unity app on the Oculus Quest that runs on Windows, Linux, or macOS.
-
-If you have not already, go to [Preparations](./quest-modding.md#preparations) and follow those steps.
-You should now have Developer Mode enabled and SideQuest Advanced installed on your PC.
-It is recommended to disable the proximity sensor of your quest in the SideQuest device settings.
-This prevents it from going into sleep mode during the modding process. Alternatively you can tape
-up the sensor between the lenses.
-
-:::warning
-Make sure you do not have multiple accounts an your Quest!
-
-Modding currently does not work with multiple accounts.
-You will need to temporarily remove all secondary accounts before modding the game.
-You can add them back once the modding process is completed.
-:::
-
-1.  Download and install QuestPatcher from [here](https://github.com/Lauriethefish/QuestPatcher/releases/latest)
-2.  Download [QuestAppVersionSwitcher](https://sidequestvr.com/app/5333/questappversionswitcher-qavs)
-3.  Open QuestAppVersionSwitcher and follow the setup assistant to downgrade to `1.28.0`.
-    :::danger WARNING
-    **DO NOT** let QuestAppVersionSwitcher patch Beat Saber or install mods.  
-    You are going to switch to QuestPatcher now.
-    :::
-4.  Go to tools and click `Quick Fix`.
-5.  Patch Beat Saber (or repatch in the tools tab if you have already)
-    - Make sure `QuestLoader` is selected as the ModLoader.
-6.  Install the core mods, and other mods from [this page](https://bsquest.xyz/mods)

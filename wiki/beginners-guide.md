@@ -25,7 +25,7 @@ Applicable hardware includes:
 
 ### Quest Modding
 
-If you are using the Oculus Quest version of the game, follow our [Quest Modding](./quest-modding.md) guide.
+If you are using the Oculus Quest version of the game, follow our [Quest Modding](./quest-modding-old) guide.
 
 Applicable hardware includes:
 
