@@ -1,7 +1,7 @@
-import { env } from 'node:process'
 import container from 'markdown-it-container'
-import { defineConfig } from 'vitepress'
+import { env } from 'node:process'
 import type { DefaultTheme } from 'vitepress'
+import { defineConfig } from 'vitepress'
 
 const IS_DEV = env.NODE_ENV === 'production'
 
@@ -63,8 +63,6 @@ export default defineConfig({
   title: 'BSMG Wiki',
   description:
     'Guides on how to mod Beat Saber, create custom content, and get involved in the community!',
-  // If deploying to GitHub pages, uncomment this and replace with the name of your repository.
-  // base: '/<nameofyourrepo>/',
   lastUpdated: true,
 
   head: [['link', { rel: 'icon', href: '/icon.png' }]],
@@ -318,10 +316,7 @@ export default defineConfig({
     search: search(),
   },
 
-  sitemap: {
-    // Replace this with the URL of your GitHub pages deployment
-    hostname: 'https://bsmg.wiki/',
-  },
+  sitemap: { hostname: 'https://bsmg.wiki/' },
 
   markdown: {
     config: md => {
