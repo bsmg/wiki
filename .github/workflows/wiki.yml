@@ -39,8 +39,41 @@ jobs:
         run: npm run lint:images
 
   deploy:
-    name: Deploy
-    if: github.ref == 'refs/heads/master'
+    name: Deploy Main
+    if: ${{ (github.ref == 'refs/heads/master') && (github.repository == 'bsmg/wiki') }}
+    runs-on: ubuntu-latest
+    needs: test
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - name: Install packages
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v4
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: wiki/.vitepress/dist
+      - name: Deploy Wiki
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  deployf:
+    name: Deploy Fork
+    if: ${{ (github.ref == 'refs/heads/master') && (github.repository != 'bsmg/wiki') }}
     runs-on: ubuntu-latest
     needs: test
     permissions:
