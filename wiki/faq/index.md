@@ -28,10 +28,21 @@ This is the directory that the game natively reads custom maps from.
 
 ### BeastSaber
 
-[Beast Saber](https://www.bsaber.com) is the home of the map curation team and annual mapping awards, BeastSaber aims
-to be a community hub to connect you to the more specialized areas of the community!
+[Beast Saber](https://www.bsaber.com) is the home of the Curation Team, Map of the Week, playlist featuring, and the annual
+mapping awards, "The Beasties Awards". BeastSaber aims to be a community hub to connect you to the more specialized areas
+of the community!
 
-You can also download playlists, follow mappers, find songs using advanced sorting methods and more.
+You can download playlists and songs from the BeastSaber site which are mirrored from the BeatSaver repository, however,
+much of the functionality behind the BeastSaber site is currently broken. The site is undergoing a full re-write which is
+expected to be available soon.
+
+Features that previously required a BeastSaber account such as bookmarks, reviews,
+following mappers & curators have moved to BeatSaver. The BeastSaber Team recommends you create an account on BeatSaver
+to use these features and more.
+
+> As of November, 2023, account registration on BeastSaber has been disabled.
+
+To keep up to date with the progress of the new site and all other things BeastSaber related, join their [Discord server](https://discord.gg/VJZHUbt).
 
 ### Song Management Tools
 

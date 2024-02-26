@@ -156,7 +156,14 @@ You will need to temporarily remove all secondary accounts before modding the ga
 You can add them back once the modding process is completed.
 :::
 
-1. Download and install [QuestPatcher](https://github.com/Lauriethefish/QuestPatcher/releases/latest)
-2. When patching, make sure `QuestLoader` is selected, or your mods will not load.
-3. Patch Beat Saber (or re-patch in the tools tab if you have already)
-4. Install the core mods, and other mods you would like from [this page.](https://computerelite.github.io/tools/Beat_Saber/questmods.html)
+1.  Download and install QuestPatcher from [here](https://github.com/Lauriethefish/QuestPatcher/releases/latest)
+2.  Download [QuestAppVersionSwitcher](https://sidequestvr.com/app/5333/questappversionswitcher-qavs)
+3.  Open QuestAppVersionSwitcher and follow the setup assistant to downgrade to `1.28.0`.
+    :::danger WARNING
+    **DO NOT** let QuestAppVersionSwitcher patch Beat Saber or install mods.  
+    You are going to switch to QuestPatcher now.
+    :::
+4.  Go to tools and click `Quick Fix`.
+5.  Patch Beat Saber (or repatch in the tools tab if you have already)
+    - Make sure `QuestLoader` is selected as the ModLoader.
+6.  Install the core mods, and other mods from [this page](https://bsquest.xyz/mods)
