@@ -281,7 +281,10 @@ export default defineConfig({
             'Quest Modding',
             [
               ['Overview', '/quest-modding'],
-              ['Quest 2, 3, and Pro', [['Modding With a PC', '/quest/modding-with-qavs-pc']]],
+              [
+                'Quest 2, 3, and Pro',
+                [['Modding With a PC', '/quest/modding-with-qavs-pc']],
+              ],
               [
                 'Quest 1',
                 [
