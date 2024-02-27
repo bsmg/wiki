@@ -49,10 +49,28 @@ To get leaderboards on custom songs and to be able to get Performance Points (PP
 
 ## Requirements
 
-**Due to recent Changes it is currently not possible to mod Beat Saber on Quest 2, Quest 3 or Quest Pro without a PC!**
+Modding Beat Saber involves installing APKs on your Quest. Therefore you will need an additional device at least once.
 
-The Quest 1 can still be done with a mobile Phone or Tablet.
-**Note:** iOS devices like iPhones or iPads, Apple Watches or the Apple Vision Pro are not supported!
+### Quest 2, 3, and Pro
+
+:::danger NOTE
+As of the Quest v63 update, it is currently not possible to mod Beat Saber on Quest 2, Quest 3, or Quest Pro
+without a PC!
+:::
+
+For Windows PC's and Macs continue on to [Preparations](#preparations).
+
+### Quest 1
+
+If you are using a Windows PC or Mac continue to [Preparations](#preparations).
+If you are using an Android device, visit the [Modding with Android](./quest/modding-with-android.md) page.
+
+To use Chromebooks and iOS devices, such as iPhones or iPads, you need to have a
+[Raspberry Pi](https://www.raspberrypi.com/). Once you have one, visit [Modding with a Raspberry Pi](./raspi-modding.md)
+to get started.
+
+If you want to use a Linux based computer, you can follow the Raspberry Pi guide. Note that it has only been tested
+on Raspberry Pi OS (Debian) and the process may be different on other distros.
 
 ## Preparations
 
@@ -75,6 +93,7 @@ follow the steps below:
 ### SideQuest
 
 This is only required if you mod with a PC or want to back up your data.
+
 Go to [SideQuest's Download Page](https://sidequestvr.com/setup-howto)
 and download the SideQuest Advanced Installer. Once it's finished downloading, install it.
 
@@ -104,10 +123,12 @@ Using the SideQuest file explorer, take the 3 files you saved from the [Backup S
 steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
 `sdcard/Android/data/com.beatgames.beatsaber/files` folder.
 
-## Modding BeatSaber
+## Modding Beat Saber with a PC
 
-If you want to mod Beat Saber on Quest 1 with an Android Device, follow [this Guide](./support/modding-with-android.md)
+### Quest 2, 3, or Pro Modding
 
-If you want to mod Beat Saber on Quest 1 with a PC, follow [this Guide](./quest-one-pc.md)
+Follow [this guide](./quest/modding-with-qavs-pc.md) on using QAVS (QuestAppVersionSwitcher) and QuestPatcher.
 
-If you want to mod Beat Saber on Quest 2, 3 or Pro, follow [this Guide](./quest-other.md)
+### Quest 1 Modding
+
+Follow [this guide](./quest/modding-q1-pc.md) on using QAVS to downgrade and mod your game.

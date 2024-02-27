@@ -21,16 +21,18 @@ Applicable hardware includes:
 - HTC Vive/Vive Pro/Vive Pro Eye/Cosmos
 - Oculus Rift/Rift S
 - Windows Mixed Reality headsets
-- Oculus Quest/Quest 2 using [Oculus Link](https://support.oculus.com/444256562873335/)
+- Meta Quest headsets using [Oculus Link](https://support.oculus.com/444256562873335/)
 
 ### Quest Modding
 
-If you are using the Oculus Quest version of the game, follow our [Quest Modding](./quest-modding-old) guide.
+If you are using the Oculus Quest version of the game, follow our [Quest Modding](./quest-modding.md) guide.
 
 Applicable hardware includes:
 
 - Meta Quest
 - Meta Quest 2
+- Meta Quest 3
+- Meta Quest Pro
 
 ## Creating content
 
