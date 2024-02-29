@@ -31,6 +31,7 @@ Applicable hardware includes:
 
 - Meta Quest
 - Meta Quest 2
+- Meta Quest 3
 
 ## Creating content
 
