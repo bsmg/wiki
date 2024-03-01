@@ -20,14 +20,23 @@ A _schema_, by definition, is a declarative format for defining how your beatmap
 You can think of it like a "blueprint"
 that defines the rules for how your objects and their corresponding properties should be modeled.
 
-When uploading your map to BeatSaver,
-these schemas are enforced for all related files to determine whether or not it is appropriate for upload.
+The base game will parse and validate the contents of your map files using an internal **compatibility layer**
+to ensure that legacy versions of a schema will work as intended in future updates to the game.
+
+These schemas are also enforced when uploading your map to [BeatSaver](https://beatsaver.com/)
+in order to determine whether or not your map is appropriate for upload.
+
+::: warning
+While legacy schemas are internally supported by the base game,
+it's recommended that mappers and developers prioritize support for the latest available version(s) of the schema,
+as **legacy schemas are not guaranteed to receive proper support or maintenance for new features or bugfixes**.
+:::
 
 ### v2
 
 The "v2" schema was introduced in the **1.0.0** update.
 It is the oldest supported schema for the game,
-which makes it compatible with most available tooling and editors.
+which makes it compatible with legacy tooling and editors.
 
 ### v3
 
@@ -149,9 +158,9 @@ especially for copy/pasted objects or more heavily nested data structures.
 
 ## Serialization
 
-The base game will apply specific serialization behaviors to your map files and contents.
+The base game supports the following behaviors for serializaing the contents of your map files.
 
-### Format
+### File Format
 
 All metadata files are serialized as [JSON](https://www.json.org/) by default,
 and any file extension may be used when attempting to serialize related metadata files within your map.
@@ -160,7 +169,7 @@ of which the file must specifically be named `Info.dat` for the game to properly
 
 ### Defaulted Properties
 
-Starting from the **1.31.0** update, the base game has support **defaulted properties** when parsing beatmap entities.
+Starting from the **1.31.0** update, the base game has support for **defaulted properties** when parsing beatmap entities.
 This means that any fields that are omitted in your metadata will be autopopulated with fallback values,
 to allow the user to safely omit unused or unchanged properties of any particular object.
 
@@ -211,28 +220,11 @@ This behavior means that the following objects will be equivalent when serialize
 
 <!-- markdownlint-enable MD033 -->
 
-The v4 format also extends this functionality to **collections** under this schema.
-Any undefined array values will automatically fallback to an empty array,
-meaning you can safely omit collections that are not explicitly used in your beatmap.
-
-```jsonc
-// This is a valid beatmap/lightshow file in v4.
-{ "version": "4.0.0" }
-```
-
 ::: warning
-For certain statistics, such as NPS or note/bomb/obstacle counts, to be displayed properly on the song selection screen,
-**all three top-level collections (`colorNotes`, `bombNotes`, and `obstacles`) must be explicitly defined**.
-
-Metadata fields can be safely omitted,
-but the base game requires all three top-level fields to display these stats correctly.
-:::
-
-::: warning
-For Quest users who have CustomJSONData installed,
+For Quest users who have [CustomJSONData](https://github.com/StackDoubleFlow/CustomJSONData) installed,
 there is currently a known bug where maps using defaulted values will load incorrectly with unintended behaviors.
 
-A known fix for these values will be released in the near future,
+A known [fix](https://mods.bsquest.xyz/Alteran/custom_json_data.qmod) for these values will be released in the near future,
 but until then mappers should be wary of how to better control or prevent this behavior.
 
 - The Official Editor (**1.31.0+**) will **always** save your maps with defaulted properties.
@@ -245,17 +237,39 @@ Any maps using defaulted values should still be compatible on un-modded instance
 allegedly as far back as 1.20.0, but proceed with caution!
 :::
 
+The v4 format also extends this functionality to **collections** under this schema.
+Any undefined array values will automatically fallback to an empty array,
+meaning you can safely omit collections that are not explicitly used in your beatmap.
+
+```jsonc
+// This is a valid beatmap/lightshow file in v4.
+{ "version": "4.0.0" }
+```
+
+::: warning
+For NPS and note/bomb/obstacle counts to be displayed properly on the song selection screen,
+**all three corresponding top-level collections (`colorNotes`, `bombNotes`, and `obstacles`) must be explicitly defined**.
+
+Metadata fields can be safely omitted,
+but the base game requires all three top-level fields to be defined in order to properly display these statistics.
+:::
+
 ### Checksums
 
-In official levels, a checksum is associated with all corresponding map files
-for verifying internal relationships and leaderboard integrity for OST and DLC maps.
+A **checksum** is associated with all corresponding map files
+for verifying internal relationships and leaderboard integrity for OST/DLC maps.
 
 While remants of these checksums can be found within current or previous iterations of the v4 schema,
 these fields are either ignored or explicitly set to an empty string
-when parsing the data for custom levels on un-modded instances.
+when parsing metadata files for custom levels on un-modded instances.
 
-As such, we will not be listing information on checksums here,
-as any custom levels can safely ignore these fields and maintain compatibility with the base game.
+### File Deflation
+
+As of the **1.34.5** update,
+nearly all of the OST/DLC levels use [gzip](https://www.gzip.org/) compression
+to deflate the contents of associated metadata files (audio data, beatmaps, and lightshows).
+While not directly used or supported by certain editors,
+the base game will support any custom levels which use deflated metadata files.
 
 ## Map Files
 
@@ -271,7 +285,7 @@ as well as point to other files to use for difficulties, cover art, audio, and o
 The audio file stores all information regarding how your audio file should be processed.
 
 This file was introduced alognside the beta release of the Official Editor in the **1.22.2** update,
-and is typically referenced as `BPMInfo.dat` by most editors.
+and is typically referenced as `BPMInfo.dat` or `AudioData.dat` by most editors.
 
 ### [Beatmap](./map-format/beatmap.md)
 
@@ -289,24 +303,16 @@ This file was introduced alongside the v4 format in the **1.34.5** update.
 ## Custom Data
 
 You may find maps that contain `customData` fields within various structures in the map files.
-This functionality is provided by [**CustomJSONData**](https://github.com/Aeroluna/CustomJSONData),
-which allows external mods or plugins to extend the basic functionality of a beatmap
+This functionality is provided by **CustomJSONData** for
+[PC](https://github.com/Aeroluna/CustomJSONData) and [Quest](https://github.com/StackDoubleFlow/CustomJSONData),
+which allows external mods or plugins to extend the basic functionality of a map
 by parsing any arbitrary metadata listed in these fields.
 
 <!-- markdownlint-disable MD033 -->
 
-<table style="display: table; width: 100%;">
-<thead>
-<tr>
-<th style="text-align: center; width: 50%;"> v2 </th>
-<th style="text-align: center; width: 50%;"> v3 </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="vertical-align: text-top;">
+::: code-group
 
-```json
+```jsonc [v2]
 {
   ...
   "_customData": {
@@ -315,10 +321,7 @@ by parsing any arbitrary metadata listed in these fields.
 }
 ```
 
-</td>
-<td style="vertical-align: text-top;">
-
-```json
+```jsonc [v3]
 {
   ...
   "customData": {
@@ -327,10 +330,7 @@ by parsing any arbitrary metadata listed in these fields.
 }
 ```
 
-</td>
-</tr>
-</tbody>
-</table>
+:::
 
 <!-- markdownlint-enable MD033 -->
 
@@ -343,12 +343,19 @@ as different mods and plugins will tend to utilize these fields in a variety of 
 
 As such, we will not be providing any documentation surrounding these capabilities ourselves,
 and highly recommend you read through the existing documentation on the various mods and tools
-that support or utilize custom data behaviors:
+that support or utilize custom data and their behaviors:
 
-- [SongCore](https://github.com/Kylemc1413/SongCore)
-- [PinkCore](https://github.com/ModdingPink/PinkCore)
+- [SongCore](https://github.com/Kylemc1413/SongCore/blob/master/README.md)
 - [Heck (Chroma, Noodle Extensions)](https://github.com/Aeroluna/Heck/wiki)
 - [Cinema](https://github.com/Kevga/BeatSaberCinema/blob/master/README.md#info-for-mappers)
+
+## Tools & Frameworks {#tools-and-frameworks}
+
+Community members have developed various tools and scripting frameworks
+to better support the processing and validation of map files, which may serve useful to developers.
+
+- [Beat Saber Deno](https://github.com/KivalEvan/BeatSaber-Deno/)
+- [ReMapper](https://github.com/Swifter1243/ReMapper/)
 
 ## Credits
 

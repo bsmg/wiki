@@ -107,33 +107,33 @@ Contrary to popular belief,
 the values for these events are predefined to ensure compatibility across legacy environments.
 The following table lists those values which are compatible and their corresponding effects:
 
-| Value | Behavior                     |
-| :---: | :--------------------------- |
-|  `0`  | Light                        |
-|  `1`  | Light                        |
-|  `2`  | Light                        |
-|  `3`  | Light                        |
-|  `4`  | Light                        |
-|  `5`  | Color Boost (Legacy)         |
-|  `6`  | Light                        |
-|  `7`  | Light                        |
-|  `8`  | Value / Trigger              |
-|  `9`  | Value / Trigger              |
+| Value |            Result            |
+| :---: | :--------------------------: |
+|  `0`  |            Light             |
+|  `1`  |            Light             |
+|  `2`  |            Light             |
+|  `3`  |            Light             |
+|  `4`  |            Light             |
+|  `5`  |     Color Boost (Legacy)     |
+|  `6`  |            Light             |
+|  `7`  |            Light             |
+|  `8`  |       Value / Trigger        |
+|  `9`  |       Value / Trigger        |
 | `10`  | Light / BPM Change (Legacy)  |
-| `11`  | Light                        |
-| `12`  | Value                        |
-| `13`  | Value                        |
+| `11`  |            Light             |
+| `12`  |            Value             |
+| `13`  |            Value             |
 | `14`  | Early Lane Rotation (Legacy) |
 | `15`  | Late Lane Rotation (Legacy)  |
-| `16`  | Value                        |
-| `17`  | Value                        |
-| `18`  | Value                        |
-| `19`  | Value                        |
-| `40`  | Special                      |
-| `41`  | Special                      |
-| `42`  | Special                      |
-| `43`  | Special                      |
-| `100` | BPM Change (Legacy)          |
+| `16`  |            Value             |
+| `17`  |            Value             |
+| `18`  |            Value             |
+| `19`  |            Value             |
+| `40`  |           Special            |
+| `41`  |           Special            |
+| `42`  |           Special            |
+| `43`  |           Special            |
+| `100` |     BPM Change (Legacy)      |
 
 ::: tip
 For more information on how these events are assigned on a per-environment level, you can check out the
@@ -173,7 +173,7 @@ The following table can be used to determine its effect:
 
 <!-- markdownlint-disable MD013 -->
 
-| Value |        Behavior        | Result                                                                                      |
+| Value |         Result         | Behavior                                                                                    |
 | :---: | :--------------------: | :------------------------------------------------------------------------------------------ |
 |  `0`  |          Off           | Turns the light group off.                                                                  |
 |  `1`  |   Static (Secondary)   | Changes the lights to the secondary color, and turns the lights on.                         |
@@ -207,8 +207,8 @@ See [Special Event Keywords](#special-event-keywords) for more details.
 The value is used to toggle the color boost effect.
 See [Color Boost Events](#color-boost-events) for more details.
 
-| Value | Behavior            |
-| :---: | :------------------ |
+| Value |       Result        |
+| :---: | :-----------------: |
 |  `0`  | Disable Color Boost |
 |  `1`  | Enable Color Boost  |
 
@@ -221,16 +221,16 @@ These events are deprecated in v3 or later, in favor of more robust implementati
 The value is used to control the magnitude and direction of the lane rotation.
 See [Spawn Rotations](./beatmap#spawn-rotations) for more details.
 
-| Value | Behavior                     |
-| :---: | :--------------------------- |
+| Value |            Result            |
+| :---: | :--------------------------: |
 |  `0`  | 60 Degrees Counter-Clockwise |
 |  `1`  | 45 Degrees Counter-Clockwise |
 |  `2`  | 30 Degrees Counter-Clockwise |
 |  `3`  | 15 Degrees Counter-Clockwise |
-|  `4`  | 15 Degrees Clockwise         |
-|  `5`  | 30 Degrees Clockwise         |
-|  `6`  | 45 Degrees Clockwise         |
-|  `7`  | 60 Degrees Clockwise         |
+|  `4`  |     15 Degrees Clockwise     |
+|  `5`  |     30 Degrees Clockwise     |
+|  `6`  |     45 Degrees Clockwise     |
+|  `7`  |     60 Degrees Clockwise     |
 
 ::: warning
 These events are deprecated in v3 or later,
@@ -382,16 +382,16 @@ The indices run from 0 to 2, with 0 being the bottom-most lane.
 
 The direction that the figure is expected to move towards at the start of its movement path.
 
-| Value |    Behavior    |
-| :---: | :------------: |
-|  `0`  |     **Up**     |
-|  `1`  |    **Down**    |
-|  `2`  |    **Left**    |
-|  `3`  |   **Right**    |
-|  `4`  |  **Up Left**   |
-|  `5`  |  **Up Right**  |
-|  `6`  | **Down Left**  |
-|  `7`  | **Down Right** |
+| Value |   Result   |
+| :---: | :--------: |
+|  `0`  |     Up     |
+|  `1`  |    Down    |
+|  `2`  |    Left    |
+|  `3`  |   Right    |
+|  `4`  |  Up Left   |
+|  `5`  |  Up Right  |
+|  `6`  | Down Left  |
+|  `7`  | Down Right |
 
 ## Special Event Keywords
 
@@ -399,7 +399,8 @@ A configurable set of overrides to basic event lanes that unlock special behavio
 
 Each special event lane requires a secret keyword for proper functionality.
 By providing a valid keyword,
-[Basic Events](#special-event-keywords)
+any [Basic Events](#special-event-keywords) assigned to these special event lanes
+can produce their corresponding effects.
 
 ::: code-group
 
@@ -446,11 +447,12 @@ By providing a valid keyword,
 
 ### Keyword {#special-event-keywords-keyword}
 
-When valid, used to activate the special event lanes for the selected environment when valid.
+Used to activate the special event lanes for the selected environment when valid.
 
 ::: info
-We will not be listing any of the secret keywords here,
-as some special effects incorporate branding/licensed elements that are not intended to be used outside of an official capacity.
+We will not be listing any of the valid keywords here,
+as some special effects incorporate literal branding elements or other copyrighted assets
+that are not intended to be used outside of an official capacity.
 :::
 
 ### Event Types {#special-event-keywords-event-types}
@@ -465,7 +467,8 @@ Controls how certain lighting effects are distributed across a group of associat
 
 - In v3, all Event Box Groups have their own dedicated collections, despite sharing similar structures.
 - In v4, all Event Box Groups are co-located in the same collection,
-  with additional metadata referenced using the new template-like syntax.
+  where an additional field is used to determine its type
+  and any metadata is referenced using the new template-like syntax.
 
 ::: code-group
 
@@ -522,13 +525,13 @@ An integer value which represents what group of environment objects are affected
 The type of event box that the data is associated with.
 Used in schemas where all event boxes are co-located in the same collection.
 
-| Value |       Behavior        |
-| :---: | :-------------------: |
-|  `0`  |       **None**        |
-|  `1`  |    **Light Color**    |
-|  `2`  |  **Light Rotation**   |
-|  `3`  | **Light Translation** |
-|  `4`  |     **Float FX**      |
+| Value |      Result       |
+| :---: | :---------------: |
+|  `0`  |       None        |
+|  `1`  |    Light Color    |
+|  `2`  |  Light Rotation   |
+|  `3`  | Light Translation |
+|  `4`  |     Float FX      |
 
 ## Index Filters
 
@@ -610,10 +613,10 @@ An integer value which determines how the environment objects will be filtered w
 
 The functionality of the two "parameter" fields will change depending on the type.
 
-| Value |      Behavior       |
-| :---: | :-----------------: |
-|  `0`  |    **Division**     |
-|  `1`  | **Step and Offset** |
+| Value |     Result      |
+| :---: | :-------------: |
+|  `0`  |    Division     |
+|  `1`  | Step and Offset |
 
 #### Division {#index-filters-type-1}
 
@@ -640,11 +643,11 @@ A binary integer value (0 or 1) which determines whether the distribution of eff
 
 A bitmask which determines how randomization should be applied to filtered objects.
 
-| Value |      Behavior       |
-| :---: | :-----------------: |
-|  `0`  |    **No Random**    |
-|  `1`  |   **Keep Order**    |
-|  `2`  | **Random Elements** |
+| Value |     Result      |
+| :---: | :-------------: |
+|  `0`  |    No Random    |
+|  `1`  |   Keep Order    |
+|  `2`  | Random Elements |
 
 ### Randomization Seed {#index-filters-random-seed}
 
@@ -658,11 +661,11 @@ A normalized value (0.0 to 1.0) which determines the percentage of filtered obje
 
 A bitmask which determines whether the limit should affect the distributions within its event boxes.
 
-| Value |     Behavior     |
-| :---: | :--------------: |
-|  `0`  |     **None**     |
-|  `1`  |   **Duration**   |
-|  `2`  | **Distribution** |
+| Value |    Result    |
+| :---: | :----------: |
+|  `0`  |     None     |
+|  `1`  |   Duration   |
+|  `2`  | Distribution |
 
 ## Light Color Event Boxes
 
@@ -819,21 +822,21 @@ Allows you to control the lighting properties of filtered environment objects, i
 
 ### Beat Distribution {#light-color-event-boxes-beat-distribution}
 
-Determines how the effects will be processed over time, in relation to the starting [beat](#event-box-groups-beat).
+Determines how the effects will be processed over time, in relation to the starting beat.
 
-| Type | Behavior | Description                                  |
-| :--: | :------: | :------------------------------------------- |
-| `1`  | **Wave** | After `w` beats, the last step takes effect. |
-| `2`  | **Step** | After `w` beats, the next step takes effect. |
+| Value | Behavior | Result                                       |
+| :---: | :------: | :------------------------------------------- |
+|  `1`  |   Wave   | After `w` beats, the last step takes effect. |
+|  `2`  |   Step   | After `w` beats, the next step takes effect. |
 
 ### Brightness Distribution {#light-color-event-boxes-effect-distribution}
 
 Determines how the brightness of all filtered objects should be adjusted when iterating through the sequence.
 
-| Type | Behavior | Description                                    |
-| :--: | :------: | :--------------------------------------------- |
-| `1`  | **Wave** | `r` is the difference the last and first step. |
-| `2`  | **Step** | `r` is the difference between each step.       |
+| Value | Behavior | Result                                  |
+| :---: | :------: | :-------------------------------------- |
+|  `1`  |   Wave   | The difference the last and first step. |
+|  `2`  |   Step   | The difference between each step.       |
 
 #### Affects First {#light-color-event-boxes-effect-distribution-affects-first}
 
@@ -852,25 +855,25 @@ An event which allows you to control the color and brightness of filtered object
 
 #### Beat Offset {#light-color-events-beat}
 
-A specific point in time, relative to the starting [beat](#event-box-groups-beat) of the group,
+A specific point in time, relative to the starting beat of the group,
 when this event should produce its effect.
 
 #### Transition Type {#light-color-events-type}
 
 An integer value which determines the behavior of the effect, relative to the previous effect.
 
-| Value |    Behavior    | Description                                                  |
-| :---: | :------------: | :----------------------------------------------------------- |
-|  `0`  |  **Instant**   | The state instantly changes.                                 |
-|  `1`  | **Transition** | The state transitions from the previous event to this event. |
-|  `2`  |   **Extend**   | The state of the previous event is preserved.                |
+| Value |   Result   | Behavior                                                     |
+| :---: | :--------: | :----------------------------------------------------------- |
+|  `0`  |  Instant   | The state instantly changes.                                 |
+|  `1`  | Transition | The state transitions from the previous event to this event. |
+|  `2`  |   Extend   | The state of the previous event is preserved.                |
 
 In v4, the syntax is altered to be more consistent with other event boxes, and mappings are as follows:
 
-| Value |    Behavior    | Description                                                  |
-| :---: | :------------: | :----------------------------------------------------------- |
-|  `0`  | **Transition** | The state transitions from the previous event to this event. |
-|  `1`  |   **Extend**   | The state of the previous event is preserved.                |
+| Value |   Result   | Behavior                                                     |
+| :---: | :--------: | :----------------------------------------------------------- |
+|  `0`  | Transition | The state transitions from the previous event to this event. |
+|  `1`  |   Extend   | The state of the previous event is preserved.                |
 
 #### Easing {#light-color-events-easing}
 
@@ -882,11 +885,11 @@ An integer value which determines the interpolation of the transition between st
 
 An integer value which controls the color of the filtered objects.
 
-| Value |      Behavior       |
-| :---: | :-----------------: |
-|  `0`  |  **Primary Color**  |
-|  `1`  | **Secondary Color** |
-|  `2`  |      **White**      |
+| Value |     Result      |
+| :---: | :-------------: |
+|  `0`  |  Primary Color  |
+|  `1`  | Secondary Color |
+|  `2`  |      White      |
 
 #### Brightness {#light-color-events-brightness}
 
@@ -1033,21 +1036,21 @@ Allows you to control the rotational properties of filtered environment objects.
 
 ### Beat Distribution {#light-rotation-event-boxes-beat-distribution}
 
-Determines how the effects will be processed over time, in relation to the starting [beat](#event-box-groups-beat).
+Determines how the effects will be processed over time, in relation to the starting beat.
 
-| Type | Behavior | Description                                  |
-| :--: | :------: | :------------------------------------------- |
-| `1`  | **Wave** | After `w` beats, the last step takes effect. |
-| `2`  | **Step** | After `w` beats, the next step takes effect. |
+| Value | Result | Behavior                                     |
+| :---: | :----: | :------------------------------------------- |
+|  `1`  |  Wave  | After `w` beats, the last step takes effect. |
+|  `2`  |  Step  | After `w` beats, the next step takes effect. |
 
 ### Rotation Distribution {#light-rotation-event-boxes-effect-distribution}
 
 Determines how the rotation of all filtered objects should be adjusted when iterating through the sequence.
 
-| Type | Behavior | Description                                    |
-| :--: | :------: | :--------------------------------------------- |
-| `1`  | **Wave** | `s` is the difference the last and first step. |
-| `2`  | **Step** | `s` is the difference between each step.       |
+| Value | Result | Behavior                                |
+| :---: | :----: | :-------------------------------------- |
+|  `1`  |  Wave  | The difference the last and first step. |
+|  `2`  |  Step  | The difference between each step.       |
 
 #### Affects First {#light-rotation-event-boxes-effect-distribution-affects-first}
 
@@ -1064,11 +1067,11 @@ or the behavior for how to traverse the sequence.
 
 An integer value which controls the axis of rotation.
 
-| Value | Behavior |
-| :---: | :------: |
-|  `0`  |  **X**   |
-|  `1`  |  **Y**   |
-|  `2`  |  **Z**   |
+| Value | Result |
+| :---: | :----: |
+|  `0`  |   X    |
+|  `1`  |   Y    |
+|  `2`  |   Z    |
 
 #### Invert Axis {#light-rotation-event-boxes-mirror}
 
@@ -1080,17 +1083,17 @@ An event which allows you to control the relative rotation of an object.
 
 #### Beat Offset {#light-rotation-events-beat}
 
-A specific point in time, relative to the starting [beat](#event-box-groups-beat) of the group,
+A specific point in time, relative to the starting beat of the group,
 when this event should produce its effect.
 
 #### Transition Type {#light-rotation-events-type}
 
 An integer value which determines the behavior of the effect, relative to the previous effect.
 
-| Value |    Behavior    | Description                                                  |
-| :---: | :------------: | :----------------------------------------------------------- |
-|  `0`  | **Transition** | The state transitions from the previous event to this event. |
-|  `1`  |   **Extend**   | The state of the previous event is preserved.                |
+| Value |   Result   | Behavior                                                     |
+| :---: | :--------: | :----------------------------------------------------------- |
+|  `0`  | Transition | The state transitions from the previous event to this event. |
+|  `1`  |   Extend   | The state of the previous event is preserved.                |
 
 #### Easing {#light-rotation-events-easing}
 
@@ -1106,11 +1109,11 @@ A float value which controls the magnitude of rotation for the filtered objects.
 
 An integer value which determines the direction of rotation.
 
-| Value |       Behavior        |
-| :---: | :-------------------: |
-|  `0`  |     **Automatic**     |
-|  `1`  |     **Clockwise**     |
-|  `2`  | **Counter-Clockwise** |
+| Value |      Result       |
+| :---: | :---------------: |
+|  `0`  |     Automatic     |
+|  `1`  |     Clockwise     |
+|  `2`  | Counter-Clockwise |
 
 #### Loop Count {#light-rotation-events-loop-count}
 
@@ -1201,21 +1204,21 @@ Allows you to control the translational properties of filtered environment objec
 
 ### Beat Distribution {#light-translation-event-boxes-beat-distribution}
 
-Determines how the effects will be processed over time, in relation to the starting [beat](#event-box-groups-beat).
+Determines how the effects will be processed over time, in relation to the starting beat.
 
-| Type | Behavior | Description                                  |
-| :--: | :------: | :------------------------------------------- |
-| `1`  | **Wave** | After `w` beats, the last step takes effect. |
-| `2`  | **Step** | After `w` beats, the next step takes effect. |
+| Value | Result | Behavior                                     |
+| :---: | :----: | :------------------------------------------- |
+|  `1`  |  Wave  | After `w` beats, the last step takes effect. |
+|  `2`  |  Step  | After `w` beats, the next step takes effect. |
 
 ### Gap Distribution {#light-translation-event-boxes-effect-distribution}
 
 Determines how the translation of all filtered objects should be adjusted when iterating through the sequence.
 
-| Type | Behavior | Description                                    |
-| :--: | :------: | :--------------------------------------------- |
-| `1`  | **Wave** | `s` is the difference the last and first step. |
-| `2`  | **Step** | `s` is the difference between each step.       |
+| Value | Result | Behavior                                |
+| :---: | :----: | :-------------------------------------- |
+|  `1`  |  Wave  | The difference the last and first step. |
+|  `2`  |  Step  | The difference between each step.       |
 
 #### Affects First {#light-translation-event-boxes-effect-distribution-affects-first}
 
@@ -1232,11 +1235,11 @@ or the behavior for how to traverse the sequence.
 
 An integer value which controls the axis of translation.
 
-| Value | Behavior |
-| :---: | :------: |
-|  `0`  |  **X**   |
-|  `1`  |  **Y**   |
-|  `2`  |  **Z**   |
+| Value | Result |
+| :---: | :----: |
+|  `0`  |   X    |
+|  `1`  |   Y    |
+|  `2`  |   Z    |
 
 #### Invert Axis {#light-translation-event-boxes-mirror}
 
@@ -1248,17 +1251,17 @@ An event which allows you to control the relative position of an object.
 
 #### Beat Offset {#light-translation-events-beat}
 
-A specific point in time, relative to the starting [beat](#event-box-groups-beat) of the group,
+A specific point in time, relative to the starting beat of the group,
 when this event should produce its effect.
 
 #### Transition Type
 
 An integer value which determines the behavior of the effect, relative to the previous effect.
 
-| Value |    Behavior    | Description                                                  |
-| :---: | :------------: | :----------------------------------------------------------- |
-|  `0`  | **Transition** | The state transitions from the previous event to this event. |
-|  `1`  |   **Extend**   | The state of the previous event is preserved.                |
+| Value |   Result   | Behavior                                                     |
+| :---: | :--------: | :----------------------------------------------------------- |
+|  `0`  | Transition | The state transitions from the previous event to this event. |
+|  `1`  |   Extend   | The state of the previous event is preserved.                |
 
 #### Easing
 
@@ -1272,9 +1275,9 @@ A float value which controls the magnitude of translation for the filtered objec
 
 ## FX Event Boxes
 
-Allows you to control the animations of filtered environment objects.
+Allows you to control the predefined animations of filtered environment objects.
 
-Unlike other event boxes, the base events are referenced using a template-like syntax,
+Unlike other event boxes in v3, the base events are referenced using a template-like syntax,
 where all base events used by any event boxes are collectively defined in the corresponding "collection" array.
 This allows the event box to pull its corresponding base event data from the collection via the "indices" defined.
 
@@ -1372,21 +1375,21 @@ and support was subsequently removed in v4.
 
 ### Beat Distribution {#fx-event-boxes-beat-distribution}
 
-Determines how the effects will be processed over time, in relation to the starting [beat](#event-box-groups-beat).
+Determines how the effects will be processed over time, in relation to the starting beat.
 
-| Type | Behavior | Description                                  |
-| :--: | :------: | :------------------------------------------- |
-| `1`  | **Wave** | After `w` beats, the last step takes effect. |
-| `2`  | **Step** | After `w` beats, the next step takes effect. |
+| Value | Result | Behavior                                     |
+| :---: | :----: | :------------------------------------------- |
+|  `1`  |  Wave  | After `w` beats, the last step takes effect. |
+|  `2`  |  Step  | After `w` beats, the next step takes effect. |
 
 ### FX Distribution {#fx-event-boxes-effect-distribution}
 
 Determines how the animation of all filtered objects should be adjusted when iterating through the sequence.
 
-| Type | Behavior | Description                                    |
-| :--: | :------: | :--------------------------------------------- |
-| `1`  | **Wave** | `s` is the difference the last and first step. |
-| `2`  | **Step** | `s` is the difference between each step.       |
+| Value | Result | Behavior                                |
+| :---: | :----: | :-------------------------------------- |
+|  `1`  |  Wave  | The difference the last and first step. |
+|  `2`  |  Step  | The difference between each step.       |
 
 #### Affects First {#fx-event-boxes-effect-distribution-affects-first}
 
@@ -1405,21 +1408,21 @@ An event which allows you to control the animation state of an object.
 
 #### Beat Offset {#float-fx-events-beat}
 
-A specific point in time, relative to the starting [beat](#event-box-groups-beat) of the group,
+A specific point in time, relative to the starting beat of the group,
 when this event should produce its effect.
 
 #### Transition Type {#float-fx-events-type}
 
 An integer value which determines the behavior of the effect, relative to the previous effect.
 
-| Value |    Behavior    | Description                                                  |
-| :---: | :------------: | :----------------------------------------------------------- |
-|  `0`  | **Transition** | The state transitions from the previous event to this event. |
-|  `1`  |   **Extend**   | The state of the previous event is preserved.                |
+| Value |   Result   | Behavior                                                     |
+| :---: | :--------: | :----------------------------------------------------------- |
+|  `0`  | Transition | The state transitions from the previous event to this event. |
+|  `1`  |   Extend   | The state of the previous event is preserved.                |
 
 #### Easing {#float-fx-events-easing}
 
-An integer value which determines the interpolation of the transition between states.
+An integer value which determines the interpolation of the transition between keyframes.
 
 <!--@include: @/.assets/parts/easings.md-->
 
@@ -1433,10 +1436,17 @@ When `false`, all lighting events will be disabled
 when overriding the environment to a different one than what was assigned in the [Info](./info.md) metadata.
 
 Any environments that feature event box groups will have this setting disabled by default in the Official Editor,
-while use of other environments will leave this setting enabled.
+while use of "legacy" environments will leave this setting enabled.
 
-The motivation is to provide the mapper with an explicit means of forcing the player
-to view the lightshow with the intended environment and mitigate any unintended effects.
+::: info
+Unlike the [basic lighting system](#basic-events), the [group lighting system](#event-box-groups) does not guarantee
+that group assignments will be cross-compatible with other environments,
+which may cause certain lightshows to produce unintended effects and unwanted behaviors as a result.
+
+The motivation for this setting is to provide the mapper with an explicit means of indication
+that their lightshow _will_ be cross-compatible with other environments,
+as well as encourage the player to view the lightshow with the intended environment for the ideal experience.
+:::
 
 ::: code-group
 

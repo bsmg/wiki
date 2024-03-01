@@ -170,26 +170,26 @@ The indices run from `0` to `2`, with `0` being the bottom-most lane.
 
 Indicates which saber should be able to successfully cut the note.
 
-| Value | Result             |
-| :---: | :----------------- |
-|  `0`  | Left Saber (Red)   |
-|  `1`  | Right Saber (Blue) |
+| Value |   Result    |
+| :---: | :---------: |
+|  `0`  | Left Saber  |
+|  `1`  | Right Saber |
 
 ### Cut Direction {#color-notes-cut-direction}
 
 Indicates the direction the player should swing to successfully cut the note.
 
-| Value | Result     |
-| :---: | :--------- |
-|  `0`  | Up         |
-|  `1`  | Down       |
-|  `2`  | Left       |
-|  `3`  | Right      |
-|  `4`  | Up Left    |
-|  `5`  | Up Right   |
+| Value |   Result   |
+| :---: | :--------: |
+|  `0`  |     Up     |
+|  `1`  |    Down    |
+|  `2`  |    Left    |
+|  `3`  |   Right    |
+|  `4`  |  Up Left   |
+|  `5`  |  Up Right  |
 |  `6`  | Down Left  |
 |  `7`  | Down Right |
-|  `8`  | Any        |
+|  `8`  |    Any     |
 
 ### Angle Offset {#color-notes-angle-offset}
 
@@ -358,10 +358,10 @@ Determines the vertical bounds of the walls in legacy schemas.
 If this value is set to `2`, the [Line Layer](#line-layer-2) and [Height](#height-2) values **must** be provided
 for the walls to function correctly.
 
-| Value | Result                 |
-| :---: | :--------------------- |
-|  `0`  | "Full-Height" Walls    |
-|  `1`  | "Crouch" Walls         |
+| Value |         Result         |
+| :---: | :--------------------: |
+|  `0`  |  "Full-Height" Walls   |
+|  `1`  |     "Crouch" Walls     |
 |  `2`  | "Free" Walls (v3-like) |
 
 ::: warning
@@ -470,11 +470,11 @@ In v4, the metadata for the head and tail notes are pulled from the [Color Notes
       "hb": 10.0, // Head Beat
       "tb": 15.0, // Tail Beat
       "hr": 0, // Head Rotation Lane
-      "tr": 0 // Tail Rotation Lane
+      "tr": 0, // Tail Rotation Lane
       "hi": 0, // Head Note Metadata Index
       "ti": 1, // Tail Note Metadata Index
       "ai": 0, // Arc Metadata Index
-    }
+    },
   ],
   "colorNotesData": [
     {
@@ -490,15 +490,15 @@ In v4, the metadata for the head and tail notes are pulled from the [Color Notes
       "c": 0, // Color
       "d": 0, // Tail Cut Direction
       "a": 0,
-    }
+    },
   ],
   "arcsData": [
     {
       "m": 1.0, // Head Control Point Length Multiplier
       "tm": 1.0, // Tail Control Point Length Multiplier
       "a": 0, // Mid-Anchor Mode
-    }
-  ]
+    },
+  ],
 }
 ```
 
@@ -529,46 +529,48 @@ The indices run from `0` to `2`, with `0` being the bottom-most lane.
 
 Indicates which saber this arc should attach to.
 
-| Value | Result             |
-| :---: | :----------------- |
-|  `0`  | Left Saber (Red)   |
-|  `1`  | Right Saber (Blue) |
+| Value |   Result    |
+| :---: | :---------: |
+|  `0`  | Left Saber  |
+|  `1`  | Right Saber |
 
 ### Cut Direction {#arcs-cut-direction}
 
 Indicates the direction the head/tail should curve from relative to the note it's attached to.
 
-| Value | Result     |
-| :---: | :--------- |
-|  `0`  | Up         |
-|  `1`  | Down       |
-|  `2`  | Left       |
-|  `3`  | Right      |
-|  `4`  | Up Left    |
-|  `5`  | Up Right   |
+| Value |   Result   |
+| :---: | :--------: |
+|  `0`  |     Up     |
+|  `1`  |    Down    |
+|  `2`  |    Left    |
+|  `3`  |   Right    |
+|  `4`  |  Up Left   |
+|  `5`  |  Up Right  |
 |  `6`  | Down Left  |
 |  `7`  | Down Right |
-|  `8`  | No Curve   |
+|  `8`  |  No Curve  |
 
-### Control Point Length Multiplier {#arcs-control-ooint-length-multiplier}
+### Control Point Length Multiplier {#arcs-control-point-length-multiplier}
 
 A value that controls the magnitude of the curve approaching the head/tail respectively.
+
 If the [Cut Direction](#arcs-cut-direction) is set to `8`, this value is ignored.
 
 ### Mid-Anchor Mode {#arcs-mid-anchor-mode}
 
 A value that determines how the arc curves from the head/tail to the midpoint of the arc.
+
 The following conditions must be met for this effect to be rendered properly:
 
 - The [Line Index](#arcs-line-index) of the head and tail must be equal.
 - The [Cut Direction](#arcs-cut-direction) of the head and tail must be equal
   OR have an angle difference of 180 degrees.
 
-| Value | Result                |
-| :---: | :-------------------- |
-|  `0`  | **Straight**          |
-|  `1`  | **Clockwise**         |
-|  `2`  | **Counter-Clockwise** |
+| Value |      Result       |
+| :---: | :---------------: |
+|  `0`  |     Straight      |
+|  `1`  |     Clockwise     |
+|  `2`  | Counter-Clockwise |
 
 ## Chains
 
@@ -661,26 +663,26 @@ The indices run from `0` to `2`, with `0` being the bottom-most lane.
 
 Indicates which saber should be able to successfully cut the chain.
 
-| Value | Result             |
-| :---: | :----------------- |
-|  `0`  | Left Saber (Red)   |
-|  `1`  | Right Saber (Blue) |
+| Value |   Result    |
+| :---: | :---------: |
+|  `0`  | Left Saber  |
+|  `1`  | Right Saber |
 
 ### Cut Direction {#chains-cut-direction}
 
 Indicates the direction the player should swing to successfully cut the head of the chain.
 
-| Value | Result     |
-| :---: | :--------- |
-|  `0`  | Up         |
-|  `1`  | Down       |
-|  `2`  | Left       |
-|  `3`  | Right      |
-|  `4`  | Up Left    |
-|  `5`  | Up Right   |
+| Value |   Result   |
+| :---: | :--------: |
+|  `0`  |     Up     |
+|  `1`  |    Down    |
+|  `2`  |    Left    |
+|  `3`  |   Right    |
+|  `4`  |  Up Left   |
+|  `5`  |  Up Right  |
 |  `6`  | Down Left  |
 |  `7`  | Down Right |
-|  `8`  | Down       |
+|  `8`  |    Down    |
 
 ### Slice Count {#chains-slice-count}
 
@@ -780,10 +782,10 @@ Determines when the lane rotation will be applied to interactable objects placed
 
 In v2 or earlier, these effects will be applied to basic event types `14` and `15` respectively.
 
-| Value | Behavior  | Result                                                        |
-| :---: | :-------: | :------------------------------------------------------------ |
-|  `0`  | **Early** | The objects will change lanes at the same time as this event. |
-|  `1`  | **Late**  | The objects will remain in its original lane.                 |
+| Value | Result | Behavior                                                      |
+| :---: | :----: | :------------------------------------------------------------ |
+|  `0`  | Early  | The objects will change lanes at the same time as this event. |
+|  `1`  |  Late  | The objects will remain in its original lane.                 |
 
 ### Magnitude {#spawn-rotations-magnitude}
 
@@ -831,10 +833,6 @@ in favor of automated BPM calculations as determined by the [Audio](./audio.md) 
 }
 ```
 
-```jsonc [4.0.0]
-NOT AVAILABLE
-```
-
 :::
 
 ### Beat {#bpm-events-beat}
@@ -847,7 +845,5 @@ Alters the BPM to the defined value at the indicated beat.
 
 ## Lightshow
 
-::: warning
 As of v4, all non-interactable beatmap objects have been migrated to the [Lightshow](./lightshow.md) file.
 As such, information pertaining to these events have been moved to those pages for better consolidation of scope.
-:::

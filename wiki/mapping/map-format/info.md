@@ -641,13 +641,13 @@ The list of acceptable values and their corresponding ranks are listed below:
 
 <!-- markdownlint-disable MD013 -->
 
-|   Name    | Rank |
-| :-------: | :--: |
-|  `Easy`   |  1   |
-| `Normal`  |  3   |
-|  `Hard`   |  5   |
-| `Expert`  |  7   |
-| `Expert+` |  9   |
+|   Name    | Rank  |
+| :-------: | :---: |
+|  `Easy`   |   1   |
+| `Normal`  |   3   |
+|  `Hard`   |   5   |
+| `Expert`  |   7   |
+| `Expert+` |   9   |
 
 <!-- markdownlint-enable MD013 -->
 
