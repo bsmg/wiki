@@ -280,14 +280,17 @@ export default defineConfig({
             [
               ['Overview', '/quest-modding'],
               [
-                'Using a Windows PC or Mac',
+                'Quest 2, 3, and Pro',
+                [['Modding With a PC', '/quest/modding-with-qavs-pc']],
+              ],
+              [
+                'Quest 1',
                 [
-                  ['Modding With BMBF', '/quest-modding-bmbf'],
-                  ['Modding With QAVS', '/quest-modding-qavs'],
+                  ['Modding With a PC', '/quest/modding-q1-pc'],
+                  ['Modding With Android', '/quest/modding-with-android'],
+                  ['Modding With a Raspberry Pi', '/quest/modding-with-raspi'],
                 ],
               ],
-              ['Modding With Android', '/support/modding-with-android'],
-              ['Modding With a Raspberry Pi', '/raspi-modding'],
             ],
           ],
           [
