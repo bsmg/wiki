@@ -10,7 +10,8 @@ description: Learn how to mod Beat Saber on your Quest using an Android device!
 BMBF does not support Quest 3 at this time.  
 As of the Quest v63 update, the Quest 2 and Pro are no longer moddable using BMBF.
 
-Quest 2, Pro, and 3 modding is only possible using [QuestPatcher](../quest-modding-old#questpatcher) with a computer.
+Quest 2, Pro, and 3 modding is only possible using [QAVS and QuestPatcher](../quest-modding.md#quest-2-3-or-pro-modding)
+with a computer.
 :::
 
 :::warning
@@ -32,7 +33,7 @@ for the current game version.
 :::
 
 ::: tip NOTE
-The recommended way to install BMBF is with [SideQuest on a PC](/quest-modding.md#installing-bmbf-with-sidequest).
+The recommended way to mod the game is [on a PC](./modding-q1-pc.md).
 This method should only be used if you do not have access to a PC.
 :::
 

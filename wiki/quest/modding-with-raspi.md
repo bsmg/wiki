@@ -14,7 +14,8 @@ description: Learn how to mod Beat Saber on your Quest using a Raspberry Pi!
 QAVS does not support Quest 3 at this time.  
 As of the Quest v63 update, the Quest 2 and Pro are no longer moddable using QAVS.
 
-Quest 2, Pro, and 3 modding is only possible using [QuestPatcher](./quest-modding-old#questpatcher) at this time.
+Quest 2, Pro, and 3 modding is only possible using [QAVS and QuestPatcher](../quest-modding.md#quest-2-3-or-pro-modding)
+at this time.
 :::
 
 - Nobody has yet been banned for modding.
