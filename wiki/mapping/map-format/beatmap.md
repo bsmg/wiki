@@ -6,7 +6,7 @@
 The beatmap file defines collections and associated metadata for all _interactable_ beatmap items,
 such as notes and obstacles.
 
-::: warning
+::: info
 In v4 and later,
 any collections for non-interactable beatmap objects are located in the corresponding [Lightshow](./lightshow.md) file.
 You can refer to the sample files included there
@@ -581,7 +581,7 @@ If the head of a chain matches a note's time and position,
 then the chain will connect with the note and alter how the note is scored.
 
 ::: tip
-In v4, the metadata for the head and tail notes are pulled from the [Color Notes](#color-notes) collection.
+In v4, the metadata for the head note is pulled from the [Color Notes](#color-notes) collection.
 :::
 
 ::: code-group
@@ -688,8 +688,10 @@ Indicates the direction the player should swing to successfully cut the head of 
 
 An integer value which represents the number of segments in the chain. The head counts as a segment.
 
-- A value of `1` will create a chain with no links,
-  but will still affect the visual look and scoring potential of the head note.
+::: warning
+A value of `1` will create a chain with no links,
+but will still affect the visual look and scoring potential of the head note.
+:::
 
 ### Squish Factor {#chains-squish-factor}
 
@@ -697,15 +699,18 @@ An integer value which represents the proportion of
 how much of the path from `(x, y)` to `(tx, ty)` is used by the chain.
 This does not alter the shape of the path.
 
-- A value greater than `1` will extend the path beyond the specified end point.
-- A value of `0` will crash the game.
+Any value greater than `1` will extend the path beyond the specified end point.
+
+::: danger
+A value of `0` will crash the game.
+:::
 
 ## Spawn Rotations
 
 Allows you to rotate the position where interactable objects should spawn.
 
-::: warning
-These events are assumed to be deprecated starting from v4,
+::: info
+While these events are technically available in v4, they are assumed to be deprecated
 in favor of a new object-level syntax for assigning lane rotations to individual objects.
 :::
 
@@ -793,7 +798,7 @@ Controls the magnitude and direction of the lane rotation.
 
 A negative value will turn the player counter-clockwise, and a positive value will turn clockwise.
 
-::: tip
+::: info
 For v2, the magnitude is determined by an enumerated value,
 of which all possible values are listed in the corresponding table for [Basic Events](./lightshow.md#rotation-events-legacy-value).
 :::
@@ -802,7 +807,7 @@ of which all possible values are listed in the corresponding table for [Basic Ev
 
 Allows you to alter the BPM of the chart at the indicated time.
 
-::: warning
+::: info
 These events are deprecated in v4 or later,
 in favor of automated BPM calculations as determined by the [Audio](./audio.md) file.
 :::

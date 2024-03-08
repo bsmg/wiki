@@ -115,7 +115,7 @@ The artist(s) of your song.
 
 ## Related Files
 
-::: tip
+::: info
 All filename references are assumed to be located in the same relative directory as the info file.
 :::
 
@@ -361,10 +361,10 @@ which can be defined on a per-beatmap level using the same template-like index a
 All color properties are normalized to a range of `0-1`.
 
 ::: warning
-Any colors in the scheme that are not defined will appear as a "null" color in-game, and may cause unintended effects.
+Any colors in a scheme that are not defined will appear as a "null" color in-game, and may cause unintended effects.
 :::
 
-::: warning
+::: danger
 For v4, **you must define at least one valid color scheme for your map to load properly**,
 regardless of whether the map explicitly sets a color scheme override.
 :::
@@ -514,8 +514,9 @@ organized by their [characteristic](#characteristic) and [difficulty](#difficult
 For v2, all beatmaps are grouped into "sets",
 which dictate corresponding behaviors to apply at a higher level to all beatmaps located within that set.
 
-This behavior went unused in the base-game throughout the lifetime of the schema,
-and support was subsequently removed in v4.
+Support for beatmap sets was subsequently removed in v4,
+due to set-specific behaviors being exclusively controlled by the defined characteristic
+and no additional fields being introduced for beatmap sets throughout the lifetime of the schema.
 
 ::: code-group
 
@@ -542,12 +543,18 @@ and support was subsequently removed in v4.
 The level file associated with your map.
 Must point to a valid JSON file.
 
-::: tip
+::: info
 Starting from v4, all corresponding beatmap data will be divided into two separate files:
 
-- A [Beatmap](./beatmap.md) file, for interactable objects.
-- A [Lightshow](./lightshow.md) file, for non-interactable objects.
-  :::
+- A [Beatmap](./beatmap.md) file, for interactable objects (such as notes and obstacles).
+- A [Lightshow](./lightshow.md) file, for non-interactable objects (such as lighting and environment effects).
+
+:::
+
+::: info
+If a v2 or v3 beatmap file is defined, the lightshow file will subsequently be ignored,
+since v2 and v3 beatmap files already contain the relevant lighting objects for the beatmap.
+:::
 
 ::: code-group
 
@@ -597,13 +604,14 @@ The list of acceptable values and their corresponding behaviors are listed below
 
 <!-- markdownlint-enable MD013 -->
 
-::: warning
+::: danger
 Some mods may add additional characteristics that are not supported within the base game,
 such as SongCore's `Lightshow` and `Lawless` characteristics.
 
 When loading maps with these characteristics on un-modded versions of the game,
 affected maps will not be compatible with the Official Editor,
-and affected beatmaps may be filtered out of the available difficulties for the player to select in-game.
+and affected beatmaps may be filtered out of the available difficulties for the player to select in-game
+or fail to load correctly on un-modded instances.
 :::
 
 ::: code-group

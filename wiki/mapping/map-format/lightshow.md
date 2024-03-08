@@ -9,7 +9,7 @@ Similar to the beatmap file,
 the lightshow file defines collections and associated metadata for all _non-interactable_ beatmap items,
 such as environment objects and lighting effects.
 
-::: warning
+::: info
 In v3 and earlier,
 any collections for non-interactable beatmap objects are located in the corresponding [Beatmap](./beatmap.md) file.
 You can refer to the sample files included there
@@ -140,7 +140,7 @@ For more information on how these events are assigned on a per-environment level
 [Environment Previews](../basic-lighting.md#environment-previews) section.
 :::
 
-::: warning
+::: info
 Types `5`, `14`, `15`, and `100` are deprecated in v3 or later,
 in favor of more flexible data structures for the respective behaviors.
 :::
@@ -212,7 +212,7 @@ See [Color Boost Events](#color-boost-events) for more details.
 |  `0`  | Disable Color Boost |
 |  `1`  | Enable Color Boost  |
 
-::: warning
+::: info
 These events are deprecated in v3 or later, in favor of more robust implementations and data structures in future schemas.
 :::
 
@@ -232,7 +232,7 @@ See [Spawn Rotations](./beatmap#spawn-rotations) for more details.
 |  `6`  |     45 Degrees Clockwise     |
 |  `7`  |     60 Degrees Clockwise     |
 
-::: warning
+::: info
 These events are deprecated in v3 or later,
 in favor of an updated syntax that allows for more freedom for the available increments of lane changes.
 :::
@@ -248,7 +248,7 @@ A value of 0 will turn the light off.
 
 #### BPM Events (Legacy) {#bpm-events-legacy-float-value}
 
-The value is used to alter the BPM at the indicated beat. See [BPM Events](#bpm-events) for more details.
+The value is used to alter the BPM at the indicated beat. See [BPM Events](./beatmap.md#bpm-events) for more details.
 
 <!-- markdownlint-enable MD013 -->
 
@@ -312,7 +312,7 @@ Determines whether the color boost effect is enabled.
 Used to control the TinyTAN figures that are exclusive to the BTS environment.
 
 ::: tip
-For more detailed information on implementation, check out the following [document](https://docs.google.com/spreadsheets/d/1spW7LS-RvenLQBVXJl9w_iOwqr9r_ozxYo3JUlXq9Lc).
+For more detailed information on how to control the TinyTAN figures, check out the following [document](https://docs.google.com/spreadsheets/d/1spW7LS-RvenLQBVXJl9w_iOwqr9r_ozxYo3JUlXq9Lc).
 :::
 
 ::: code-group
@@ -1284,9 +1284,9 @@ This allows the event box to pull its corresponding base event data from the col
 For example, setting `l` to `[0, 1]` will pull the data from the first two base events defined in the collection,
 where those base events will become children of the event box.
 
-::: warning
-While this schema supports defining a collection of "integer" FX events, their implementation went unused in v3,
-and support was subsequently removed in v4.
+::: info
+While v3 technically supports defining a collection of "integer" FX events,
+their implementation went unused, and support was subsequently removed in v4.
 :::
 
 ::: code-group
@@ -1438,7 +1438,7 @@ when overriding the environment to a different one than what was assigned in the
 Any environments that feature event box groups will have this setting disabled by default in the Official Editor,
 while use of "legacy" environments will leave this setting enabled.
 
-::: info
+::: tip
 Unlike the [basic lighting system](#basic-events), the [group lighting system](#event-box-groups) does not guarantee
 that group assignments will be cross-compatible with other environments,
 which may cause certain lightshows to produce unintended effects and unwanted behaviors as a result.

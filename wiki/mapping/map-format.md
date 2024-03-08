@@ -26,7 +26,7 @@ to ensure that legacy versions of a schema will work as intended in future updat
 These schemas are also enforced when uploading your map to [BeatSaver](https://beatsaver.com/)
 in order to determine whether or not your map is appropriate for upload.
 
-::: warning
+::: tip
 While legacy schemas are internally supported by the base game,
 it's recommended that mappers and developers prioritize support for the latest available version(s) of the schema,
 as **legacy schemas are not guaranteed to receive proper support or maintenance for new features or bugfixes**.
@@ -89,6 +89,16 @@ For all collections, objects use abbreviated fields to define subsequent propert
 <!-- markdownlint-enable MD033 -->
 
 ### v4
+
+::: danger DISCLAIMER
+While support for this schema has been officially introduced to custom levels as of the latest update,
+some aspects of its implementation are still relatively unknown or have been deemed unstable
+based on community testing and indications from the official developers.
+
+This means that any potential support or widespread adoption of the schema by mods, editors, or other services
+(Offical Editor, ChroMapper, BeatSaver, etc.)
+may either be unavailable or delayed at this time.
+:::
 
 The "v4" schema was introduced in the **1.34.5** update,
 and completely reworks the serialization of all beatmap items.
