@@ -684,6 +684,11 @@ Indicates the direction the player should swing to successfully cut the head of 
 |  `7`  | Down Right |
 |  `8`  |    Down    |
 
+::: warning
+A value of `8` will change the visual look of the head note to a dot as expected,
+but its cut direction will still point downwards.
+:::
+
 ### Slice Count {#chains-slice-count}
 
 An integer value which represents the number of segments in the chain. The head counts as a segment.

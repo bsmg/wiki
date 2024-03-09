@@ -833,10 +833,10 @@ Determines how the effects will be processed over time, in relation to the start
 
 Determines how the brightness of all filtered objects should be adjusted when iterating through the sequence.
 
-| Value | Behavior | Result                                  |
-| :---: | :------: | :-------------------------------------- |
-|  `1`  |   Wave   | The difference the last and first step. |
-|  `2`  |   Step   | The difference between each step.       |
+| Value | Behavior | Result                                          |
+| :---: | :------: | :---------------------------------------------- |
+|  `1`  |   Wave   | The difference between the last and first step. |
+|  `2`  |   Step   | The difference between each step.               |
 
 #### Affects First {#light-color-event-boxes-effect-distribution-affects-first}
 
@@ -1047,10 +1047,10 @@ Determines how the effects will be processed over time, in relation to the start
 
 Determines how the rotation of all filtered objects should be adjusted when iterating through the sequence.
 
-| Value | Result | Behavior                                |
-| :---: | :----: | :-------------------------------------- |
-|  `1`  |  Wave  | The difference the last and first step. |
-|  `2`  |  Step  | The difference between each step.       |
+| Value | Result | Behavior                                        |
+| :---: | :----: | :---------------------------------------------- |
+|  `1`  |  Wave  | The difference between the last and first step. |
+|  `2`  |  Step  | The difference between each step.               |
 
 #### Affects First {#light-rotation-event-boxes-effect-distribution-affects-first}
 
@@ -1215,10 +1215,10 @@ Determines how the effects will be processed over time, in relation to the start
 
 Determines how the translation of all filtered objects should be adjusted when iterating through the sequence.
 
-| Value | Result | Behavior                                |
-| :---: | :----: | :-------------------------------------- |
-|  `1`  |  Wave  | The difference the last and first step. |
-|  `2`  |  Step  | The difference between each step.       |
+| Value | Result | Behavior                                        |
+| :---: | :----: | :---------------------------------------------- |
+|  `1`  |  Wave  | The difference between the last and first step. |
+|  `2`  |  Step  | The difference between each step.               |
 
 #### Affects First {#light-translation-event-boxes-effect-distribution-affects-first}
 
@@ -1386,10 +1386,10 @@ Determines how the effects will be processed over time, in relation to the start
 
 Determines how the animation of all filtered objects should be adjusted when iterating through the sequence.
 
-| Value | Result | Behavior                                |
-| :---: | :----: | :-------------------------------------- |
-|  `1`  |  Wave  | The difference the last and first step. |
-|  `2`  |  Step  | The difference between each step.       |
+| Value | Result | Behavior                                        |
+| :---: | :----: | :---------------------------------------------- |
+|  `1`  |  Wave  | The difference between the last and first step. |
+|  `2`  |  Step  | The difference between each step.               |
 
 #### Affects First {#fx-event-boxes-effect-distribution-affects-first}
 
