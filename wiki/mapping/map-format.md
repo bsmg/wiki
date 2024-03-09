@@ -96,7 +96,7 @@ some aspects of its implementation are still relatively unknown or have been dee
 based on community testing and indications from the official developers.
 
 This means that any potential support or widespread adoption of the schema by mods, editors, or other services
-(Offical Editor, ChroMapper, BeatSaver, etc.)
+(Official Editor, ChroMapper, BeatSaver, etc.)
 may either be unavailable or delayed at this time.
 :::
 
@@ -269,7 +269,7 @@ but the base game requires all three top-level fields to be defined in order to 
 A **checksum** is associated with all corresponding map files
 for verifying internal relationships and leaderboard integrity for OST/DLC maps.
 
-While remants of these checksums can be found within current or previous iterations of the v4 schema,
+While remnants of these checksums can be found within current or previous iterations of the v4 schema,
 these fields are either ignored or explicitly set to an empty string
 when parsing metadata files for custom levels on un-modded instances.
 
@@ -294,7 +294,7 @@ as well as point to other files to use for difficulties, cover art, audio, and o
 
 The audio file stores all information regarding how your audio file should be processed.
 
-This file was introduced alognside the beta release of the Official Editor in the **1.22.2** update,
+This file was introduced alongside the beta release of the Official Editor in the **1.22.2** update,
 and is typically referenced as `BPMInfo.dat` or `AudioData.dat` by most editors.
 
 ### [Beatmap](./map-format/beatmap.md)

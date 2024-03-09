@@ -201,7 +201,7 @@ This property is ignored for notes affected by snapping (such as stacks and slan
 
 ## Bomb Notes
 
-A spiked sphere that that player needs to avoid with their sabers.
+A spiked sphere that the player needs to avoid with their sabers.
 
 ::: tip
 In v2 and earlier, any notes with a `_type` set to `3` will be parsed as a bomb note.
