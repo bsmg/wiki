@@ -2,6 +2,7 @@ import container from 'markdown-it-container'
 import { env } from 'node:process'
 import type { DefaultTheme } from 'vitepress'
 import { defineConfig } from 'vitepress'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 const IS_DEV = env.NODE_ENV === 'production'
 
@@ -179,7 +180,6 @@ export default defineConfig({
               ['Basic Mapping', '/mapping/basic-mapping'],
               ['Downmapping', '/mapping/downmapping'],
               ['Intermediate Mapping', '/mapping/intermediate-mapping'],
-              ['Advanced Mapping', '/mapping/advanced-mapping'],
               ['Extended Mapping', '/mapping/extended-mapping'],
               ['Mapping Glossary', '/mapping/glossary'],
             ],
@@ -205,9 +205,10 @@ export default defineConfig({
             'Map Format',
             [
               ['Overview', '/mapping/map-format'],
-              ['Info.dat', '/mapping/infodat-format'],
-              ['v3 Difficulty File', '/mapping/difficulty-format-v3'],
-              ['v2 Difficulty File', '/mapping/difficulty-format-v2'],
+              ['Info', '/mapping/map-format/info'],
+              ['Audio', '/mapping/map-format/audio'],
+              ['Beatmap', '/mapping/map-format/beatmap'],
+              ['Lightshow', '/mapping/map-format/lightshow'],
             ],
           ],
           ['Help Playtest Other Maps', '/mapping/how-to-testplay'],
@@ -320,7 +321,7 @@ export default defineConfig({
 
   markdown: {
     config: md => {
-      md.use(container, 'center')
+      md.use(container, 'center'), md.use(tabsMarkdownPlugin)
     },
   },
 })

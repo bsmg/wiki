@@ -185,7 +185,7 @@ Many of Chroma's features are far easier to implement and edit using ChroMapper'
 It can be helpful to know how a lighting event is encoded in the `.dat` files if you want to edit the file directly or
 make a script to change the file.
 
-The internal format for a lighting event is described in the dedicated [Map Format page](./map-format.md#events-2).
+The internal format for a lighting event is described in the dedicated [Map Format page](map-format/lightshow#basic-events).
 
 ## Credits
 

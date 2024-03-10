@@ -279,7 +279,7 @@ These characteristics (with the exception of 360°/90° mode) take you beyond of
 NoArrows. Not all editors have the same capabilities. You may need to manually insert characteristic data in the
 `Info.dat` file.
 
-You may find the [Map Format Page](./map-format.md) page to be useful in this process.
+You may find the [Map Format Page](./map-format/info.md#characteristic) page to be useful in this process.
 
 ### To Add a New Characteristic
 
@@ -367,7 +367,7 @@ Each event has a value for spawn rotation which is always relative to the player
 - **[6]** 45° rotation clockwise (Right)
 - **[7]** 60° rotation clockwise (Right)
 
-The specific format for a rotation event is defined in the [Map Format page](./map-format.md#controlling-360-90-rotation).
+The specific format for a rotation event is defined in the [Map Format page](map-format/beatmap#spawn-rotations).
 
 ::: tip NOTE  
 The chevron in the 360° [Glass Desert environment](./basic-lighting.md#environment-previews) rotates corresponding to
