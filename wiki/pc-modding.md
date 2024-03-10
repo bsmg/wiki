@@ -68,7 +68,7 @@ Visit the [Downgrading](#downgrading) section on this page for more information.
 \***\*Run the game at least once\*\*** before trying to mod the game! This applies to reinstalling your game too.
 
 A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal and
-version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
+version checking! Get it on [BSMG's GitHub](https://github.com/bsmg/ModAssistant/releases/latest)
 
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 

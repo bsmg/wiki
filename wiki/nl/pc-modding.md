@@ -49,7 +49,7 @@ In plaats daarvan is het beter de geschreven gidsen te volgen die hier op de wik
 
 **Start het spel minstens 1 keer op** voordat je probeert het spel te modden! Dit geldt ook als je je spel opnieuw installeert.
 
-Een simpel Beat Saber mod installatie programma vergelijkbaar met mod manager, maar met extra functies zoals het verwijderen van mods en het controleren van versies! Download het op [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
+Een simpel Beat Saber mod installatie programma vergelijkbaar met mod manager, maar met extra functies zoals het verwijderen van mods en het controleren van versies! Download het op [BSMG's GitHub](https://github.com/bsmg/ModAssistant/releases/latest)
 
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 

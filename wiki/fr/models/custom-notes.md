@@ -7,7 +7,7 @@ next: false
 
 ## Installation
 
-La dernière version de l'extension Custom Notes peut être trouvée dans [Mod Assistant](https://github.com/Assistant/ModAssistant/releases/latest), le [canal textuel #pc-mods](https://discord.gg/beatsabermods) du Discord BSMG ou dans [BSManager](https://github.com/Zagrios/bs-manager).
+La dernière version de l'extension Custom Notes peut être trouvée dans [Mod Assistant](https://github.com/bsmg/ModAssistant/releases/latest), le [canal textuel #pc-mods](https://discord.gg/beatsabermods) du Discord BSMG ou dans [BSManager](https://github.com/Zagrios/bs-manager).
 
 Une fois installée, vous devez trouver un dossier `CustomNotes` dans votre [répertoire d'installation Beat Saber](/fr/faq/install-folder.md), avec quelques échantillons de notes installés pour vous. Ce dossier est aussi l'endroit où placer les fichier `.bloq`.
 

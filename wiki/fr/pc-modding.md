@@ -48,7 +48,7 @@ Vous devriez à la place suivre les guides écrits ici sur le wiki ou demander d
 
 \_\_**Lancez le jeu au moins une fois\*\*** avant d'essayer de modder votre jeu ! Cela s'applique aussi après chaque réinstallation du jeu.
 
-Un installateur de mod Beat Saber simple, similaire à l'ancien Mod Manager, mais avec des fonctionnalités additionnelles telles que la suppression de mods et la vérification de version ! Téléchargez-le sur [le GitHub d'Assistant](https://github.com/Assistant/ModAssistant/releases/latest).
+Un installateur de mod Beat Saber simple, similaire à l'ancien Mod Manager, mais avec des fonctionnalités additionnelles telles que la suppression de mods et la vérification de version ! Téléchargez-le sur [le GitHub d'BSMG](https://github.com/bsmg/ModAssistant/releases/latest).
 
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
