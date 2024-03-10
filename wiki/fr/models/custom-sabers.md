@@ -7,7 +7,7 @@ next: false
 
 ## Installation
 
-Si vous êtes sur PC, la dernière version de l'extension Custom Saber peut être trouvée dans [Mod Assistant](https://github.com/Assistant/ModAssistant/releases/latest) ou dans [BSManager](https://github.com/Zagrios/bs-manager). Si vous êtes sur Quest, le mod Custom Sabers peut être trouvé sur [BMBF](/fr/quest-modding.html). Lancez ModAssistant, sélectionnez l'extension Custom Saber et cliquez sur Installer.
+Si vous êtes sur PC, la dernière version de l'extension Custom Saber peut être trouvée dans [Mod Assistant](https://github.com/bsmg/ModAssistant/releases/latest) ou dans [BSManager](https://github.com/Zagrios/bs-manager). Si vous êtes sur Quest, le mod Custom Sabers peut être trouvé sur [BMBF](/fr/quest-modding.html). Lancez ModAssistant, sélectionnez l'extension Custom Saber et cliquez sur Installer.
 Une fois installée, vous pouvez trouver un dossier nommé `CustomSabers` dans votre [dossier d'installation](/fr/faq/install-folder.md), c'est ici que vous placerez les fichiers `*.saber` que vous souhaitez utiliser. Vous pouvez télécharger plus de sabres sur [ModelSaber](https://modelsaber.com/Sabers/).
 
 ## Utilisation

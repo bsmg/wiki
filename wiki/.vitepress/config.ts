@@ -304,7 +304,7 @@ export default defineConfig({
     ),
 
     footer: {
-      message: 'Copyright © 2019-2023 Beat Saber Modding Group',
+      message: 'Copyright © 2019-2024 Beat Saber Modding Group',
       copyright: 'Licensed under CC BY-NC-SA 4.0',
     },
 
