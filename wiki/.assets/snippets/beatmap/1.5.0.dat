@@ -1,0 +1,41 @@
+{
+  "_version": "1.5.0",
+  "_beatsPerMinute": 120,
+  "_beatsPerBar": 4,
+  "_shuffle": 0,
+  "_shufflePeriod": 0,
+  "_noteJumpSpeed": 18,
+  "_noteJumpStartBeatOffset": 0.5,
+  "_events": [
+    {
+      "_time": 10,
+      "_type": 1,
+      "_value": 3
+    }
+  ],
+  "_notes": [
+    {
+      "_time": 10,
+      "_lineIndex": 1,
+      "_lineLayer": 0,
+      "_type": 0,
+      "_cutDirection": 1
+    },
+    {
+      "_time": 10,
+      "_lineIndex": 1,
+      "_lineLayer": 0,
+      "_type": 3,
+      "_cutDirection": 0
+    }
+  ],
+  "_obstacles": [
+    {
+      "_type": 0,
+      "_time": 10,
+      "_duration": 5,
+      "_lineIndex": 1,
+      "_width": 1
+    }
+  ]
+}

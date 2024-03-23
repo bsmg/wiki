@@ -29,6 +29,7 @@
     "medium-zoom": "^1.1.0",
     "prettier": "^3.2.4",
     "vitepress": "1.0.0-rc.39",
+    "vitepress-plugin-tabs": "^0.5.0",
     "vue": "^3.4.15"
   }
 }

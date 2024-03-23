@@ -50,7 +50,7 @@ BSMG はビデオでのチュートリアルを利用しないことを**強く*
 
 ゲームに Mod を導入する前に、\_\_**少なくとも一度は\*\*** ゲームを実行してください！ これはゲームの再インストール時にも同じことが言えます。
 
-Mod manager に似たシンプルな Beat Saber Mod インストーラですが、Mod の除去やバージョンチェックなどの追加機能があります! [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest) からダウンロードできます。
+Mod manager に似たシンプルな Beat Saber Mod インストーラですが、Mod の除去やバージョンチェックなどの追加機能があります! [BSMG's GitHub](https://github.com/bsmg/ModAssistant/releases/latest) からダウンロードできます。
 
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 

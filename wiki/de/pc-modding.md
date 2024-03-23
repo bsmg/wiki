@@ -41,7 +41,7 @@ Stattdessen solltest du den schriftlichen Anleitungen hier im Wiki folgen oder H
 
 \_\_**Starte das Spiel mindestens einmal\*\*** bevor du versuchst Mods zu installieren! Dies trifft auch zu wenn du dein Spiel neu installierst.
 
-Ein einfacher Beat Saber Mod Installer, ähnlich dem Mod Manager aber mit zusätzlichen Funktionen wie Deinstallation von Mods und Versionskontrolle! Hol es auf [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
+Ein einfacher Beat Saber Mod Installer, ähnlich dem Mod Manager aber mit zusätzlichen Funktionen wie Deinstallation von Mods und Versionskontrolle! Hol es auf [BSMG's GitHub](https://github.com/bsmg/ModAssistant/releases/latest)
 
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
