@@ -64,7 +64,7 @@ limited to:
 
 - Hooking
 - Configuration using `config-utils`
-- User Interfaces using `questui`
+- User Interfaces using `bsml`
 - Custom types
 
 Visit the [Quest Mod Development Intro](./quest-mod-dev-intro.md) page for more information on getting started!

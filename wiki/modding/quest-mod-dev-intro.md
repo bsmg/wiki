@@ -51,7 +51,7 @@ and add it to your PATH variable.
 
 ### Android NDK
 
-[Download the Android NDK](https://developer.android.com/ndk), unzip it, and add it to a new environment variable called
+[Download the Android NDK](https://github.com/QuestPackageManager/ndk-canary-archive/releases/tag/27.0.1), unzip it, and add it to a new environment variable called
 ANDROID_NDK_HOME.
 
 ## Create a Project
@@ -69,26 +69,26 @@ Templatr will then ask a series of questions to create a mod project.
 
 ### Add and Update Dependencies
 
-Once the project has been generated, you should now update the following two dependencies, [beatsaber-hook](https://github.com/sc2ad/beatsaber-hook)
-and [codegen](https://github.com/sc2ad/BeatSaber-Quest-Codegen), to the version best suited for the game version you are
+Once the project has been generated, you should now update the following two dependencies, [beatsaber-hook](https://github.com/QuestPackageManager/beatsaber-hook/)
+and [bs-cordl](https://github.com/QuestPackageManager/bs-cordl), to the version best suited for the game version you are
 developing for.
 
-`beatsaber-hook` is a library that allows for modding il2cpp games. `codegen` is a library that allows modders to
+`beatsaber-hook` is a library that allows for modding il2cpp games. `bs-cordl` is a library that allows modders to
 interface with the game's code.
 
 To update these, open a Powershell terminal in the project directory then run the following commands to add the latest versions:
 
 ```powershell
 qpm dependency add beatsaber-hook
-qpm dependency add codegen
+qpm dependency add bs-cordl
 ```
 
 If the latest versions do match those for the version you are developing for, add `-v ^x.x.x` after the command with the
-correct version instead of running those commands. For example, for Beat Saber version 1.28.0, the correct codegen
-version is 0.33.0:
+correct version instead of running those commands. For example, for Beat Saber version 1.35.0, the correct codegen
+version is 3500.0.0:
 
 ```powershell
-qpm dependency add codegen -v ^0.33.0
+qpm dependency add bs-cordl -v ^3500.0.0
 ```
 
 ### Restore Dependencies
@@ -108,33 +108,29 @@ Your project should contain the following structure:
 
 ```properties
 // Files in .gitignore have been excluded
+cmake/
+└── ... project cmake files
 extern/
 └── ... dependencies should be here
 include/
 └── main.hpp
+scripts/
+└── ... utility scripts
 shared
 src/
 └── main.cpp
 .gitignore
-build.ps1
-copy.ps1
 CMakeLists.txt
-createqmod.ps1
 mod.template.json
-ndk-stack.ps1
-pull-tombstone.ps1
 qpm.json
 README.md
-start-logging.ps1
-restart-game.ps1
-validate-modjson.ps1
 ```
 
 ### Code Breakdown
 
 #### src/main.cpp
 
-`main.cpp` contains the `setup()` and `load()` methods. These methods can exist in any source file as long as they are
+`main.cpp` contains the `setup()` and `late_load()` methods. These methods can exist in any source file as long as they are
 accessible by the modloader. Take a look inside of `main.cpp` for more information as Laurie has thankfully commented
 most of the code.
 
@@ -152,29 +148,30 @@ The extern folder should be ignored (and/or in some cases excluded). It contains
 ### Script Breakdown
 
 It is recommended to run these scripts using Powershell Core (v7) - however, it is not required. All scripts can be run
-with the `--help` argument for a description of arguments and functionality.
+with the `--help` argument for a description of arguments and functionality. Scripts can be manually invoked from the 
+`scripts` folder or via qpm scripts inside `qpm.json`
 
 #### build.ps1
 
-Usage: `build.ps1`
+Usage: `qpm s build`
 
 Builds your mod. Does not produce a QMOD file.
 
 #### copy.ps1
 
-Usage: `copy.ps1`
+Usage: `qpm s copy`
 
 Builds your mod, then copies it to your quest and launches Beat Saber if your quest is connected with ADB.
 
 #### createqmod.ps1
 
-Usage: `createqmod.ps1 (optionally) -qmodName {file name}`
+Usage: `qpm s qmod`
 
 Generates a QMOD file that can be parsed by BMBF and or QuestPatcher. Will use the most recently built version of your mod.
 
 #### pull-tombstone.ps1
 
-Usage: `pull-tombstone.ps1`
+Usage: `qpm s tomb`
 
 Finds the most recently modified Beat Saber crash tombstone and copies it to your device. If the build on your quest matches
 what you have most recently built locally, the `-analyze` argument can be provided to generate the source file locations
@@ -182,19 +179,19 @@ of any lines mentioned in the backtrace.
 
 #### restart-game.ps1
 
-Usage: `restart-game.ps1`
+Usage: `qpm s restart`
 
 Closes and reopens Beat Saber on your quest if it is connected. Mostly used inside of `copy.ps1`. Does not have help text.
 
 #### start-logging.ps1
 
-Usage: `start-logging.ps1 -Self`
+Usage: `qpm s logcat`
 
 Prints logs from Beat Saber, just your mod, or also crashes. Usage of `-self` is recommended.
 
 #### validate-modjson.ps1
 
-Usage: `validate-modjson.ps1`
+Usage: `qpm s validate`
 
 Generates a `mod.json` from `mod.template.json` if not present and verifies it against the QMOD schema. Mostly used
 inside of `createqmod.ps1`. Does not have help text.
@@ -223,16 +220,17 @@ this event and add our own functionality.
 Firstly, create your hook using the `MAKE_HOOK_MATCH` macro:
 
 ```cpp
-// You can think of these as C# - using MainMenuViewController, using HMUI.CurvedTextMeshPro, etc.
+// You can think of these as C# - using HMUI, UnityEngine, etc, but with individual classes
 // Classes without a namespace are assigned to the GlobalNamespace
 // If you use a class and do not include it, you may get unclear compiler errors, so make sure to include what you use
-#include "GlobalNamespace/MainMenuViewController.hpp"
+#include "GlobalNamespace/StandardLevelDetailView.hpp"
+#include "GlobalNamespace/StandardLevelDetailViewController.hpp"
 #include "UnityEngine/UI/Button.hpp"
 #include "UnityEngine/GameObject.hpp"
 #include "HMUI/CurvedTextMeshPro.hpp"
 
-// Create a hook struct named MainMenuUIHook
-// targeting the method "MainMenuViewController::DidActivate", which takes the following arguments:
+// Create a hook struct named LevelUIHook
+// targeting the method "StandardLevelDetailViewController::DidActivate", which takes the following arguments:
 // bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling
 // and returns void.
 
@@ -241,28 +239,30 @@ Firstly, create your hook using the `MAKE_HOOK_MATCH` macro:
 //     your code here
 // }
 
-MAKE_HOOK_MATCH(MainMenuUIHook, &GlobalNamespace::MainMenuViewController::DidActivate, void,
- GlobalNamespace::MainMenuViewController* self, bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
+
+MAKE_HOOK_MATCH(LevelUIHook, &GlobalNamespace::StandardLevelDetailViewController::DidActivate, void,
+ GlobalNamespace::StandardLevelDetailViewController* self, bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
     // Run the original method before our code.
     // Note that you can run the original method after our code or even in the middle
     // if you want to change arguments or do something before it runs.
-    MainMenuUIHook(self, firstActivation, addedToHierarchy, screenSystemEnabling);
+    LevelUIHook(self, firstActivation, addedToHierarchy, screenSystemEnabling);
 
-    // Get the _soloButton text object by accessing the soloButton field and some simple Unity methods.
+    // Get the actionButton text object by accessing the actionButton field and some simple Unity methods.
     // Note that auto can be used instead of declaring the full type in many cases.
-    UnityEngine::UI::Button* soloMenuButton = self->soloButton;
-    UnityEngine::GameObject* gameObject = soloMenuButton->get_gameObject();
-    HMUI::CurvedTextMeshPro* soloMenuText = gameObject->GetComponentInChildren<HMUI::CurvedTextMeshPro*>();
+    GlobalNamespace::StandardLevelDetailView* standardLevelDetailView = self->_standardLevelDetailView;
+    UnityEngine::UI::Button* actionButton = standardLevelDetailView->actionButton;
+    UnityEngine::GameObject* gameObject = actionButton->get_gameObject();
+    HMUI::CurvedTextMeshPro* actionButtonText = gameObject->GetComponentInChildren<HMUI::CurvedTextMeshPro*>();
 
     // Set the text to "Skill Issue"
-    soloMenuText->SetText("Skill Issue");
+    actionButtonText->set_text("Skill Issue");
 }
 ```
 
-Now, you have to install your hook. Usually, hooks are installed in `load()` in `main.cpp`:
+Now, you have to install your hook. Usually, hooks are installed in `load()` or `late_load()` in `main.cpp`:
 
 ```cpp
-extern "C" void load() {
+extern "C" void late_load() {
     il2cpp_functions::Init();
 
     getLogger().info("Installing hooks...");
@@ -396,7 +396,7 @@ page to learn more about integrating this into your mod.
 ## User Interface
 
 A user interface (UI) is used by many mods to show configuration options. Visit the [Quest User Interface](./quest-mod-dev-ui.md)
-page to see how to use `questui` to create a settings screen for your mod.
+page to see how to use `bsml` to create a settings screen for your mod.
 
 ## Credits
 
