@@ -208,13 +208,12 @@ like constructors.
 
 To view a list of methods and classes you can hook, the most convenient option is to use a C# decompiler such as [IlSpy](https://github.com/icsharpcode/ILSpy)
 if you own the game on PC, as it provides not only the classes and member names, but also the full contents of most methods.
-If you only own the game on the Quest, then you can still view all the classes and methods on [Phaze's hook viewer](https://modtools.phazed.xyz/browser)
-or in the `includes/codegen` directory in your `extern` folder.
+If you only own the game on the Quest, then you can still view all the classes and methods in the `includes/codegen` directory in your `extern` folder.
 
-In this example, we will hook onto the initialization of the main menu and change the text on the solo button to
+In this example, we will hook onto the initialization of the level screen and change the text on the play button to
 something funny.
 
-The main menu runs the event `DidActivate` when it is fully initialized. This is useful for us because we can hook
+The level screen runs the event `DidActivate` when it is fully initialized. This is useful for us because we can hook
 this event and add our own functionality.
 
 Firstly, create your hook using the `MAKE_HOOK_MATCH` macro:
