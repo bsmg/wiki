@@ -390,8 +390,8 @@ Your changes will be loaded without needing to restart the game!
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have
 [SideQuest](https://sidequestvr.com) and [BMBF](https://bmbf.dev/stable) installed.
 
-:::tip NOTE
-When [downloading SideQuest](https://sidequestvr.com/setup-howto), be sure to download the "Advanced Installer". We'll
+:::warning NOTE
+When [downloading SideQuest](https://sidequestvr.com/setup-howto), be sure to download the 'Advanced Installer'. We'll
 walk you through how to use it below.
 :::
 
