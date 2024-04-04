@@ -220,8 +220,8 @@ about running the base class destructor, though.
 
 ::: warning
 To create a new object, _do not_ run `ctor` yourself or create it in c++ with `new` or any similar operator,
-but instead use `il2cpp_utils::New<MyNamespace::Counter*>(...constructor arguments);`, `Counter::New_ctor(...constructor arguments);`,
-or any C# method that would
+but instead use `il2cpp_utils::New<MyNamespace::Counter*>(...constructor arguments);`, `Counter::New_ctor(...constructor
+arguments);`, or any C# method that would
 create an object, such as `AddComponent`.
 :::
 

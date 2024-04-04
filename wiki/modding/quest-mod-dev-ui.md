@@ -44,8 +44,8 @@ void DidActivate(HMUI::ViewController* self, bool firstActivation, bool addedToH
 }
 ```
 
-There are too many UI components and methods to document in this guide. However, the files in the `BSML-Lite/Creation` folder have
-comments that document almost all the methods.
+There are too many UI components and methods to document in this guide. However, the files in the `BSML-Lite/Creation`
+folder have comments that document almost all the methods.
 
 ## Registering `DidActivate`
 

@@ -64,7 +64,8 @@ DECLARE_CONFIG(ModConfig,
 ## Loading your Config
 
 Make sure to initialize the config! If you attempt to get values from it before it's loaded, your game will crash.
-You can run this in `setup()`, `load()`, `late_load()`, or even anytime later if you really want to, but it only ever needs to be run once.
+You can run this in `setup()`, `load()`, `late_load()`, or even anytime later if you really want to, but it only ever
+needs to be run once.
 
 ```cpp
 #include "modconfig.hpp"

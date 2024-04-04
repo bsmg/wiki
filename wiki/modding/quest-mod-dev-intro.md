@@ -51,8 +51,8 @@ and add it to your PATH variable.
 
 ### Android NDK
 
-[Download the Android NDK](https://github.com/QuestPackageManager/ndk-canary-archive/releases/tag/27.0.1), unzip it, and add it to a new environment variable called
-ANDROID_NDK_HOME.
+[Download the Android NDK](https://github.com/QuestPackageManager/ndk-canary-archive/releases/tag/27.0.1), unzip it, and
+add it to a new environment variable called ANDROID_NDK_HOME.
 
 ## Create a Project
 
@@ -148,7 +148,7 @@ The extern folder should be ignored (and/or in some cases excluded). It contains
 ### Script Breakdown
 
 It is recommended to run these scripts using Powershell Core (v7) - however, it is not required. All scripts can be run
-with the `--help` argument for a description of arguments and functionality. Scripts can be manually invoked from the 
+with the `--help` argument for a description of arguments and functionality. Scripts can be manually invoked from the
 `scripts` folder or via qpm scripts inside `qpm.json`
 
 #### build.ps1
@@ -208,7 +208,8 @@ like constructors.
 
 To view a list of methods and classes you can hook, the most convenient option is to use a C# decompiler such as [IlSpy](https://github.com/icsharpcode/ILSpy)
 if you own the game on PC, as it provides not only the classes and member names, but also the full contents of most methods.
-If you only own the game on the Quest, then you can still view all the classes and methods in the `includes/codegen` directory in your `extern` folder.
+If you only own the game on the Quest, then you can still view all the classes and methods in the `includes/codegen`
+directory in your `extern` folder.
 
 In this example, we will hook onto the initialization of the level screen and change the text on the play button to
 something funny.
@@ -217,6 +218,8 @@ The level screen runs the event `DidActivate` when it is fully initialized. This
 this event and add our own functionality.
 
 Firstly, create your hook using the `MAKE_HOOK_MATCH` macro:
+
+<!-- markdownlint-disable MD013 -->
 
 ```cpp
 // You can think of these as C# - using HMUI, UnityEngine, etc, but with individual classes
@@ -257,6 +260,8 @@ MAKE_HOOK_MATCH(LevelUIHook, &GlobalNamespace::StandardLevelDetailViewController
     actionButtonText->set_text("Skill Issue");
 }
 ```
+
+<!-- markdownlint-enable MD013 -->
 
 Now, you have to install your hook. Usually, hooks are installed in `load()` or `late_load()` in `main.cpp`:
 
