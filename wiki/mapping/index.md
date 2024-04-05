@@ -391,8 +391,7 @@ Follow these steps to test any of your maps made with a community editor using a
 [SideQuest](https://sidequestvr.com) and [BMBF](https://bmbf.dev/stable) installed.
 
 :::warning NOTE
-When [downloading SideQuest](https://sidequestvr.com/setup-howto), be sure to download the `Advanced Installer`. We'll
-walk you through how to use it below.
+When [downloading SideQuest](https://sidequestvr.com/setup-howto), be sure to download the `Advanced Installer`.
 :::
 
 1. Establish a connection to your Quest from your PC with a USB cable.
