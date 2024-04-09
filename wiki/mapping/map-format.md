@@ -90,18 +90,14 @@ For all collections, objects use abbreviated fields to define subsequent propert
 
 ### v4
 
-::: danger DISCLAIMER
-While support for this schema has been officially introduced to custom levels as of the latest update,
-some aspects of its implementation are still relatively unknown or have been deemed unstable
-based on community testing and indications from the official developers.
-
-This means that any potential support or widespread adoption of the schema by mods, editors, or other services
-(Official Editor, ChroMapper, BeatSaver, etc.)
-may either be unavailable or delayed at this time.
+::: warning DISCLAIMER
+While this schema is officially supported by the Official Editor and custom levels on vanilla instances,
+any proper support of the schema by mods, community editors, or other services
+may be unavailable or significantly delayed at this time.
 :::
 
 The "v4" schema was introduced in the **1.34.5** update,
-and completely reworks the serialization of all beatmap items.
+and utilizes a manual compression strategy for the serialization of all beatmap items.
 
 Any specialized metadata for an object is now stored in a dedicated "metadata" array for each corresponding object type.
 Within the defined object,
