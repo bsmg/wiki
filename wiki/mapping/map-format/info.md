@@ -361,7 +361,7 @@ which can be defined on a per-beatmap level using the same template-like index a
 - In v2, colors are represented in object notation, where each color channel is normalized to a range of `0-1`.
 - In v4, colors are represented in [hex](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet) notation.
 
-If no color schemes are defined or you prefer inheriting the color scheme of the selected environment, 
+If no color schemes are defined or you prefer inheriting the color scheme of the selected environment,
 you'll want to set the index to `-1` or, if available, set the `useOverride` field to `false`.
 
 ::: warning
@@ -445,7 +445,7 @@ Any colors in a scheme that are not defined will appear as a `null` color in-gam
       "environmentColor0": "#D91616FF",
       "environmentColor1": "#30ACFFFF",
       "environmentColor0Boost": "#D216D9FF",
-      "environmentColor1Boost": "#00FFA5FF"
+      "environmentColor1Boost": "#00FFA5FF",
     },
   ],
   "difficultyBeatmaps": [
