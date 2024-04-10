@@ -283,8 +283,7 @@ export default defineConfig({
               [
                 'Using a Windows PC or Mac',
                 [
-                  ['Modding With BMBF', '/quest-modding-bmbf'],
-                  ['Modding With QAVS', '/quest-modding-qavs'],
+                  ['Modding With ModsBeforeFriday', '/quest-modding-mbf'],
                 ],
               ],
               ['Modding With Android', '/support/modding-with-android'],
