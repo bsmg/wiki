@@ -9,9 +9,11 @@ description: Currently, QAVS cannot be used for modding Beat Saber.
 ## Before You Begin
 
 :::danger Quest Modding Information
-QAVS does not support Quest 3 at this time and of the Quest v63 update, the Quest 2 and Pro are no longer moddable using QAVS.
+QAVS does not support Quest 3 at this time.
+Additionally, as of the Quest v63 update, the Quest 2 and Pro are no longer moddable using QAVS.
 
-If you don't know exactly why you want to use QAVS, then head back to [Preparations](./quest-modding.md#Preparations) and choose a different tool.
+If you don't know exactly why you want to use QAVS,
+head back to [Preparations](./quest-modding.md#Preparations) and choose a different tool.
 :::
 
 If you have not already, go to [Preparations](./quest-modding.md#preparations) and follow those steps.

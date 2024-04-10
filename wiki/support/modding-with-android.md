@@ -118,8 +118,9 @@ You can now continue to [Setup your Phone](#setup-your-phone)
 ## Installing mods with ModsBeforeFriday
 
 1. Plug your Quest into your phone using your cable.
-2. Open the [ModsBeforeFriday website](https://lauriethefish.github.io/ModsBeforeFriday/) on your phone and click the `Connect to Device` button. Your screen should look like this:
-   ![A prompt indicating that MBF wants to connect to a device. One device is listed named "Quest 2". There is a "Connect" button at the bottom.](/.assets/images/beginners-guide/mbf-android-quest-found.png)
+2. Open the [ModsBeforeFriday website](https://lauriethefish.github.io/ModsBeforeFriday/) on your phone
+   and click the `Connect to Device` button. Your screen should look like this:
+   ![MBFAndroidDevicesList](/.assets/images/beginners-guide/mbf-android-quest-found.png)
    ::: tip
    You will be notified at this stage if your browser is incompatible with ModsBeforeFriday.
    :::
@@ -127,18 +128,22 @@ You can now continue to [Setup your Phone](#setup-your-phone)
 
 ### No compatible devices
 
-If no devices show up in the list, then you're experiencing an issue where the Quest doesn't know whether to consider itself as the host for the USB connection. This can be fixed by swiping down from the top of your screen and tapping the following message:
-![A notification screen with one notification labelled "Charging this device via USB"](/.assets/images/beginners-guide/mbf-android-usb-tray.png)
+If no devices show up in the list, then you're experiencing an issue where the Quest doesn't know
+whether to consider itself as the host for the USB connection.
+This can be fixed by swiping down from the top of your screen and tapping the following message:
+![MBFUsbTray](/.assets/images/beginners-guide/mbf-android-usb-tray.png)
 
 You'll then be met by a screen a bit like what's below:
 
-- If `USB controlled by` is already set to `Connected device` as in the picture, tap `This device`, then tap `Connected Device` again.
+- If `USB controlled by` is already set to `Connected device` as in the picture,
+  tap `This device`, then tap `Connected Device` again.
 - If `Connected Device` is `This device`, just tap `Connected device` to update the preference.
 
 :::tip
-If you're told that the setting could not be changed, try using your cable the other way around. (Quest end in your phone, phone end in your Quest.)
+If you're told that the setting could not be changed, try using your cable the other way around.
+(Quest end in your phone, phone end in your Quest.)
 :::
-![A page of Android settings titled "USB Preferences". There is an option called "USB controlled by" and the options are "Connected device" and "This device"](/.assets/images/beginners-guide/mbf-android-preferences-changed.png)
+![MBFUsbSettings](/.assets/images/beginners-guide/mbf-android-preferences-changed.png)
 
 ### Patching
 
@@ -147,7 +152,7 @@ If you're told that the setting could not be changed, try using your cable the o
    Make sure you read all of the advice that MBF provides you about the risks of using mods.
    :::
 
-![A page warning about the bugs/issues that can be caused by modding the game. There's a button labelled "Mod the app" at the bottom](/.assets/images/beginners-guide/mbf-android-ready-to-mod.png)
+![MBFReadyToPatch](/.assets/images/beginners-guide/mbf-android-ready-to-mod.png)
 
 5. Assuming everything worked, you're all done!
 
@@ -155,4 +160,4 @@ If you're told that the setting could not be changed, try using your cable the o
 
 In the MBF home page, you can install additional mods with only one-click: Tap the `Install` button.
 
-![The MBF home page, featuring 3 tabs: "Add mods", a cog icon (mod settings) and "Your mods" (selected). The mods available to install are listed.](/.assets/images/beginners-guide/mbf-android-modding-complete.png)
+![MBFHomeAndroid](/.assets/images/beginners-guide/mbf-android-modding-complete.png)

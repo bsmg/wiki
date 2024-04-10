@@ -44,7 +44,8 @@ To get leaderboards on custom songs and to be able to get Performance Points (PP
 
 ## Requirements
 
-Modding Beat Saber requires accessing your Quest via the Android debug bridge. Therefore, you will need a PC (Windows / Mac / Linux)
+Modding Beat Saber requires accessing your Quest via the Android debug bridge.
+Therefore, you will need a PC (Windows / Mac / Linux)
 or an Android device.
 
 - If you have a Windows, Mac or Linux computer, visit [Modding on a PC](#preparations)
@@ -56,19 +57,21 @@ or an Android device.
   to get started.
 
 ::: warning Multiple Accounts
-Beat Saber **cannot** be modded if you have multiple accounts on your device! You will need to temporarily remove any secondary accounts before modding.
+Beat Saber **cannot** be modded if you have multiple accounts on your device!
+You will need to temporarily remove any secondary accounts before modding.
 :::
 
 ::: warning Quest 1 users
-Modding on Quest 1 is only possible on version 1.28 or below of Beat Saber. Right now, there is no way to obtain version 1.28 legally, so **you cannot mod if you have a Quest 1.**
+Modding on Quest 1 is only possible on version 1.28 or below of Beat Saber.
+Right now, there is no way to obtain version 1.28 legally, so **you cannot mod if you have a Quest 1.**
 :::
 
 ## Preparations
 
 ### Developer Mode
 
-To mod your game, you'll need to activate Developer Mode on your Quest. If you haven't done this already,
-follow the steps below:
+To mod your game, you'll need to activate Developer Mode on your Quest.
+If you haven't done this already, follow the steps below:
 
 1. Go to the [Meta's Developer Website](https://developer.oculus.com/manage/organizations/create/) and log in with the
    Meta account that your Quest is bound to.
@@ -84,7 +87,9 @@ follow the steps below:
 ### SideQuest (optional)
 
 :::tip
-This is not required to mod at this time, but is useful for managing any modded games or other content on your Quest, so it's good idea to install it.
+This is not required to mod at this time,
+but is useful for managing any modded games or other content on your Quest,
+so it's good idea to install it.
 :::
 
 Go to [SideQuest's Download Page](https://sidequestvr.com/setup-howto)
@@ -108,7 +113,8 @@ contain your scores and other settings!
 #### Restoring Save Data using SideQuest
 
 :::tip This is an optional step!
-This is only needed if you have [backup save data](#backup-save-data-using-sidequest) you want to restore. Most mod installers will do this for you, but it's good to have the backup in case something goes wrong!
+This is only needed if you have [backup save data](#backup-save-data-using-sidequest) you want to restore.
+Most mod installers will do this for you, but it's good to have the backup in case something goes wrong!
 :::
 
 To restore your data, open SideQuest and connect your Quest to your PC.  
@@ -118,20 +124,32 @@ steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
 
 ## Ways to Mod Beat Saber
 
-Currently, the easiest way to mod your game is using [ModsBeforeFriday](./quest-modding-mbf.md), a simple browser app that can get your mods installed in minutes.
+Currently, the easiest way to mod your game is using [ModsBeforeFriday](./quest-modding-mbf.md),
+a simple browser app that can get your mods installed in minutes.
 
-[QuestPatcher](#questpatcher) is a more advanced tool that runs as an app on your PC. It's a good option if your internet connection is unstable and you need an offline solution to managing your mods, however it **cannot downgrade Beat Saber** so it might not be possible to use if the latest Beat Saber version isn't moddable.
+[QuestPatcher](#questpatcher) is a more advanced tool that runs as an app on your PC.
+It's a good option if your internet connection is unstable
+and you need an offline solution to managing your mods,
+however it **cannot downgrade Beat Saber** so it might not be possible to use
+if the latest Beat Saber version isn't moddable.
 
 If your game has not yet been modded, you should use [ModsBeforeFriday](./quest-modding-mbf.md) to downgrade it if necessary.
 
 :::danger BMBF Deprecation
-BMBF no longer works for modding Beat Saber on the Quest 2 or 3! Do not attempt to mod with BMBF because it **will not work**. You need to use [ModsBeforeFriday](#modsbeforefriday) instead.
+BMBF no longer works for modding Beat Saber on the Quest 2 or 3!
+Do not attempt to mod with BMBF because it **will not work**.
+You need to use [ModsBeforeFriday](#modsbeforefriday) instead.
 :::
 
 :::warning
-QAVS currently cannot be used to correctly downgrade Beat Saber to the latest moddable version or patch Beat Saber. This is a temporary situation and may change soon. You need to downgrade **and patch** with [ModsBeforeFriday](#modsbeforefriday) instead.
+QAVS currently cannot be used to correctly downgrade Beat Saber
+to the latest moddable version or patch Beat Saber.
 
-If you have been instructed by somebody who knows what they're talking about to use QAVS, head to [Modding With QAVS](./quest-modding-qavs.md) to get started.
+This is a temporary situation and may change soon.
+You need to downgrade **and patch** with [ModsBeforeFriday](#modsbeforefriday) instead.
+
+If you have been instructed by somebody who knows what they're talking about to use QAVS,
+head to [Modding With QAVS](./quest-modding-qavs.md) to get started.
 :::
 
 ### ModsBeforeFriday
@@ -148,7 +166,8 @@ You should now have Developer Mode enabled and SideQuest Advanced installed on y
 
 1.  Download and install QuestPatcher from [here](https://github.com/Lauriethefish/QuestPatcher/releases/latest)
     :::danger WARNING
-    QuestPatcher **cannot** be used to downgrade your Beat Saber, so only use it if you are confident that you already have the latest moddable version installed!
+    QuestPatcher **cannot** be used to downgrade your Beat Saber,
+    so only use it if you are confident that you already have the latest moddable version installed!
     :::
 2.  If you have ever used QuestPatcher before for any purpose, go to tools and click `Quick Fix`.
 3.  Patch Beat Saber (or repatch in the tools tab if you have already)
@@ -158,5 +177,6 @@ You should now have Developer Mode enabled and SideQuest Advanced installed on y
 ### QAVS
 
 ::: warning
-Due to a software update, QAVS **cannot** be used to patch Beat Saber at this time. Use [ModsBeforeFriday](./quest-modding-mbf.md) instead.
+Due to a software update, QAVS **cannot** be used to patch Beat Saber at this time.
+Use [ModsBeforeFriday](./quest-modding-mbf.md) instead.
 :::
