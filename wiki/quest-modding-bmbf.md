@@ -1,10 +1,15 @@
 ---
 prev: false
 next: false
-description: Learn how to mod Beat Saber on your Quest using BMBF!
+description: "Deprecated: BMBF cannot currently be used for modding Beat Saber."
 ---
 
 # Quest Modding using BMBF
+
+:::danger
+BMBF is legacy software and currently **WILL NOT WORK** for modding Beat Saber on any Quest.
+Head back to [Preparations](./quest-modding.md#Preparations) and choose a different tool.
+:::
 
 ## Before You Begin
 

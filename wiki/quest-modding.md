@@ -135,6 +135,11 @@ QAVS currently cannot be used to correctly downgrade Beat Saber to the latest mo
 If you have been instructed by somebody who knows what they're talking about to use QAVS, head to [Modding With QAVS](./quest-modding-qavs.md) to get started.
 :::
 
+### ModsBeforeFriday
+
+ModsBeforeFriday (MBF) is an easy to use tool for modding Beat Saber that runs in your browser.
+Head to [Modding with ModsBeforeFriday](./quest-modding-mbf.md) to get started.
+
 ### QuestPatcher
 
 QuestPatcher is a GUI based mod installer for any il2cpp unity app on the Oculus Quest that runs on Windows, Linux, or macOS.

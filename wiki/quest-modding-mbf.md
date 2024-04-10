@@ -1,7 +1,7 @@
 ---
 prev: false
 next: false
-description: Learn how to mod Beat Saber on your Quest using QAVS!
+description: Learn how to mod Beat Saber on your Quest using ModsBeforeFriday!
 ---
 
 # Quest Modding using ModsBeforeFriday
