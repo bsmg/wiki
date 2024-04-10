@@ -152,4 +152,4 @@ Make sure you read all of the advice that MBF provides you about the risks of us
 
 In the MBF home page, you can install additional mods with only one-click: Tap the `Install` button.
 
-![The MBF home page, featuring 3 tabs: "Add mods", a cog icon (mod settings) and "Your mods" (selected). There are several mods listed to install.](/.assets/images/beginners-guide/mbf-android-modding-complete.png)
+![The MBF home page, featuring 3 tabs: "Add mods", a cog icon (mod settings) and "Your mods" (selected). The mods available to install are listed.](/.assets/images/beginners-guide/mbf-android-modding-complete.png)
