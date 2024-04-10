@@ -1,7 +1,7 @@
 ---
 prev: false
 next: false
-description: "Deprecated: BMBF cannot currently be used for modding Beat Saber."
+description: 'Deprecated: BMBF cannot currently be used for modding Beat Saber.'
 ---
 
 # Quest Modding using BMBF

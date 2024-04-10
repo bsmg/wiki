@@ -50,10 +50,10 @@ or an Android device.
 - If you have a Windows, Mac or Linux computer, visit [Modding on a PC](#preparations)
 - If you plan to mod using an Android device, visit the [Modding with Android](./support/modding-with-android.md) page.
 - If you want to use a Linux based computer, you can follow the Raspberry Pi guide. Note that it has only been tested
-on Raspberry Pi OS (Debian) and the process may be different on other distros.
+  on Raspberry Pi OS (Debian) and the process may be different on other distros.
 - To use an iOS devices, such as an iPhone or iPad, you need to have a
-[Raspberry Pi](https://www.raspberrypi.com/). Once you have one, visit [Modding with a Raspberry Pi](./raspi-modding.md)
-to get started.
+  [Raspberry Pi](https://www.raspberrypi.com/). Once you have one, visit [Modding with a Raspberry Pi](./raspi-modding.md)
+  to get started.
 
 ::: warning Multiple Accounts
 Beat Saber **cannot** be modded if you have multiple accounts on your device! You will need to temporarily remove any secondary accounts before modding.
@@ -80,7 +80,6 @@ follow the steps below:
 4. Open the Meta Quest Phone app and navigate to the Quest's settings. You should find an option to enable
    Developer Mode. Refer to the illustrated guide below:
    ![iOSHowTo](/.assets/images/beginners-guide/EnableDevModeIOS.png)
-
 
 ### SideQuest (optional)
 
@@ -155,7 +154,6 @@ You should now have Developer Mode enabled and SideQuest Advanced installed on y
 3.  Patch Beat Saber (or repatch in the tools tab if you have already)
     - Make sure `Scotland2` is selected as the ModLoader.
 4.  Install the core mods, and other mods from [this page](https://bsquest.xyz/mods)
-
 
 ### QAVS
 

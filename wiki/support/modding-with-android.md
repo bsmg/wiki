@@ -38,9 +38,9 @@ for the current game version.
 - A Cable to connect your Quest to your Phone (If your phone charges over USB C the charger that was included with your
   Quest should work)
 - An up-to-date browser. It's recommended that you update/install the latest version of [Google Chrome](https://play.google.com/store/apps/details?id=com.android.chrome).
-:::warning
-Firefox will NOT work with MBF as it does not support accessing devices via USB. You will need a Chromium browser.
-:::
+  :::warning
+  Firefox will NOT work with MBF as it does not support accessing devices via USB. You will need a Chromium browser.
+  :::
 
 ## How to Enable Developer Mode on the Oculus Quest
 
@@ -119,12 +119,14 @@ You can now continue to [Setup your Phone](#setup-your-phone)
 
 1. Plug your Quest into your phone using your cable.
 2. Open the [ModsBeforeFriday website](https://lauriethefish.github.io/ModsBeforeFriday/) on your phone and click the `Connect to Device` button. Your screen should look like this:
-![A prompt indicating that MBF wants to connect to a device. One device is listed named "Quest 2". There is a "Connect" button at the bottom.](/.assets/images/beginners-guide/mbf-android-quest-found.png)
-::: tip
-You will be notified at this stage if your browser is incompatible with ModsBeforeFriday.
-:::
+   ![A prompt indicating that MBF wants to connect to a device. One device is listed named "Quest 2". There is a "Connect" button at the bottom.](/.assets/images/beginners-guide/mbf-android-quest-found.png)
+   ::: tip
+   You will be notified at this stage if your browser is incompatible with ModsBeforeFriday.
+   :::
 3. Tap your device and click the `Connect` button. Wait a few seconds for the next page to load.
+
 ### No compatible devices
+
 If no devices show up in the list, then you're experiencing an issue where the Quest doesn't know whether to consider itself as the host for the USB connection. This can be fixed by swiping down from the top of your screen and tapping the following message:
 ![A notification screen with one notification labelled "Charging this device via USB"](/.assets/images/beginners-guide/mbf-android-usb-tray.png)
 
@@ -139,10 +141,11 @@ If you're told that the setting could not be changed, try using your cable the o
 ![A page of Android settings titled "USB Preferences". There is an option called "USB controlled by" and the options are "Connected device" and "This device"](/.assets/images/beginners-guide/mbf-android-preferences-changed.png)
 
 ### Patching
+
 4. At the next page, tap `Mod the app` to install mods/setup your game for custom songs. (See screenshot of page below)
-::: warning
-Make sure you read all of the advice that MBF provides you about the risks of using mods.
-:::
+   ::: warning
+   Make sure you read all of the advice that MBF provides you about the risks of using mods.
+   :::
 
 ![A page warning about the bugs/issues that can be caused by modding the game. There's a button labelled "Mod the app" at the bottom](/.assets/images/beginners-guide/mbf-android-ready-to-mod.png)
 
