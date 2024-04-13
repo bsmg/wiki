@@ -549,6 +549,19 @@ does things sometimes ????
 
 </AboutLinks>
 
+## Qwasyx
+
+Likes to automate away humans as much as possible, be it checking maps for errors or assessing maps difficulties.
+
+**Roles:** Modder
+**Contributions:** ScoreSaber
+
+<AboutLinks>
+
+[GitHub](https://github.com/Qwasyx)
+
+</AboutLinks>
+
 ## Raine
 
 girl who writes weird code, decided to rewrite ModelSaber
