@@ -22,6 +22,7 @@
   ],
   "colorSchemes": [
     {
+      "useOverride": true,
       "colorSchemeName": "Weave",
       "saberAColor": "#C81414FF",
       "saberBColor": "#288ED2FF",

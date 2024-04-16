@@ -362,7 +362,7 @@ which can be defined on a per-beatmap level using the same template-like index a
 - In v4, colors are represented in [hex](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet) notation.
 
 If no color schemes are defined or you prefer inheriting the color scheme of the selected environment,
-you'll want to set the index to `-1` or, if available, set the `useOverride` field to `false`.
+you'll want to set the index to `-1`.
 
 ::: warning
 Any colors in a scheme that are not defined will appear as a `null` color in-game, and may cause unintended effects.
@@ -438,6 +438,7 @@ Any colors in a scheme that are not defined will appear as a `null` color in-gam
 {
   "colorSchemes": [
     {
+      "useOverride": true,
       "colorSchemeName": "Weave",
       "saberAColor": "#C81414FF",
       "saberBColor": "#288ED2FF",
