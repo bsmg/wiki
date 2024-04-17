@@ -807,7 +807,7 @@ Allows you to control the lighting properties of filtered environment objects, i
   "lightColorEvents": [
     {
       "p": 0, // Transition Type
-      "e": 0, // [!code ++] // Easing
+      "e": -1, // [!code ++] // Easing
       "c": 1, // Color
       "b": 1.0, // Brightness
       "f": 0, // Strobe Frequency
