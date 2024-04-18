@@ -19,3 +19,11 @@ Help improve this page!
 Last Updated  
 Home  
 BSMG Discord
+Edit on GitHub
+
+Welcome to the
+Beat Saber Modding Group Wiki!
+
+Learn how to mod Beat Saber, create custom content, and get involved in the community!
+
+The Beat Saber Modding Group Wiki. Learn how to mod Beat Saber, create custom content, and get involved in the community!
