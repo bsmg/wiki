@@ -65,7 +65,7 @@ Follow these general guidelines as you work on your maps:
 > will usually have the highest quality source available.
 > If the song is not available on those sites, Google Play Music, Amazon Music, and
 > iTunes are alternatives for high quality MP3 files.
-> Importing physical media like CDs and cassettes could work, but the audio quality depends on what type of media (CD often sounds the best).
+> Importing physical media is another option, but the audio quality depends on the type of media (CDs are recommended).
 
 By purchasing and using a high quality audio file, not only are you supporting your artist, but you save yourself a lot
 of headache while mapping. Look at the difference in quality for the same song, at the same beat.
