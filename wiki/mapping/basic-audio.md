@@ -64,7 +64,7 @@ Follow these general guidelines as you work on your maps:
 > Sites where you can buy the tracks/album, such as an artist's [Bandcamp](https://bandcamp.com/) or on [HDTracks](https://www.hdtracks.com),
 > will usually have the highest quality source available.
 > If the song is not available on those sites, Google Play Music, Amazon Music, and
-> iTunes are alternatives for high quality MP3 files.
+> iTunes are alternatives for high quality MP3 files. You may also rip bought music CDs to iTunes for files. [View how to do so here.](https://www.lifewire.com/how-to-copy-a-music-cd-to-itunes-2438865)
 
 By purchasing and using a high quality audio file, not only are you supporting your artist, but you save yourself a lot
 of headache while mapping. Look at the difference in quality for the same song, at the same beat.
