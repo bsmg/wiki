@@ -380,7 +380,8 @@ to better support the processing and validation of map files, which may serve us
 - [Beat Saber Deno](https://github.com/KivalEvan/BeatSaber-Deno/tree/main/converter) - A collection of TypeScript scripts
   that support conversion between _all_ supported schemas.
   See [README](https://github.com/KivalEvan/BeatSaber-Deno/blob/main/README.md) for instructions on setup and general usage.
-- [V4-to-V3-lighting](https://github.com/benzhenwen/V4-to-V3-lighting) - A simple Python script to convert v4 lightshows to v3 format.
+- [V4-to-V3-lighting](https://github.com/benzhenwen/V4-to-V3-lighting) - A simple Python script
+  to convert v4 lightshows to v3 format.
 
 ## Credits
 
