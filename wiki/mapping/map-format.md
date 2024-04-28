@@ -93,7 +93,7 @@ For all collections, objects use abbreviated fields to define subsequent propert
 ::: warning DISCLAIMER
 While this schema is officially supported by the Official Editor and custom levels on vanilla instances,
 any proper support of the schema by mods, community editors, or other services
-may be unavailable or significantly delayed at this time.
+may be unavailable or unstable at this time.
 :::
 
 The "v4" schema was introduced in the **1.34.5** update,
@@ -328,6 +328,15 @@ by parsing any arbitrary metadata listed in these fields.
 ```
 
 ```jsonc [v3]
+{
+  ...
+  "customData": {
+    "foo": "bar"
+  }
+}
+```
+
+```jsonc [v4]
 {
   ...
   "customData": {
