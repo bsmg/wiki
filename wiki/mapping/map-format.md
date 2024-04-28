@@ -355,13 +355,23 @@ that support or utilize custom data and their behaviors:
 - [Heck (Chroma, Noodle Extensions)](https://github.com/Aeroluna/Heck/wiki)
 - [Cinema](https://github.com/Kevga/BeatSaberCinema/blob/master/README.md#info-for-mappers)
 
-## Tools & Frameworks {#tools-and-frameworks}
+## Useful Tools
 
 Community members have developed various tools and scripting frameworks
-to better support the processing and validation of map files, which may serve useful to developers.
+to better support the processing and validation of map files, which may serve useful for mappers and/or developers.
 
-- [Beat Saber Deno](https://github.com/KivalEvan/BeatSaber-Deno/)
-- [ReMapper](https://github.com/Swifter1243/ReMapper/)
+### Frameworks
+
+- [Beat Saber Deno](https://github.com/KivalEvan/BeatSaber-Deno) - A general-purpose scripting framework for Beat Saber maps.
+- [ReMapper](https://github.com/Swifter1243/ReMapper) - A scripting framework with more involved utilities for modcharting.
+
+### Conversion Tools
+
+- [bs-map-converter](https://converter.stormpacer.xyz) - A web-based tool that converts v4 maps to v3 format.
+- [Beat Saber Deno](https://github.com/KivalEvan/BeatSaber-Deno/tree/main/converter) - A collection of TypeScript scripts
+  that support conversion between _all_ supported schemas.
+  See [README](https://github.com/KivalEvan/BeatSaber-Deno/blob/main/README.md) for instructions on setup and general usage.
+- [V4-to-V3-lighting](https://github.com/benzhenwen/V4-to-V3-lighting) - A simple Python script to convert v4 lightshows to v3 format.
 
 ## Credits
 
