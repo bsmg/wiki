@@ -491,7 +491,7 @@ Controls how certain lighting effects are distributed across a group of associat
       "b": 2.0, // Beat
       "g": 0, // Group
       "t": 0, // Type
-      "i": {
+      "e": [{
         "f": 0, // Index Filter Metadata Index
         "e": 0, // Event Box Metadata Index
         "l": [
@@ -500,7 +500,7 @@ Controls how certain lighting effects are distributed across a group of associat
             "i": 0, // Event Metadata Index
           }
         ],
-      }
+      }]
     }
   ],
   "indexFilters": [...],
@@ -807,9 +807,9 @@ Allows you to control the lighting properties of filtered environment objects, i
   "lightColorEvents": [
     {
       "p": 0, // Transition Type
-      "e": 0, // [!code ++] // Easing
+      "e": -1, // [!code ++] // Easing
       "c": 1, // Color
-      "s": 1.0, // Brightness
+      "b": 1.0, // Brightness
       "f": 0, // Strobe Frequency
       "sb": 0, // Strobe Brightness
       "sf": 0, // Strobe Fade
@@ -875,6 +875,19 @@ In v4, the syntax is altered to be more consistent with other event boxes, and m
 |  `0`  | Transition | The state transitions from the previous event to this event. |
 |  `1`  |   Extend   | The state of the previous event is preserved.                |
 
+::: tip
+
+If you're converting between v3 and v4 schemas,
+you can use the following table to determine how the v3 "transition type" field will correspond to its v4 counterparts:
+
+| v3 Transition Type | v4 Transition Type |  v4 Easing   |
+| :----------------: | :----------------: | :----------: |
+|   `0` (Instant)    |      IGNORED       | `-1` (None)  |
+|  `1` (Transition)  |      IGNORED       | `0` (Linear) |
+|    `2` (Extend)    |    `1` (Extend)    |   IGNORED    |
+
+:::
+
 #### Easing {#light-color-events-easing}
 
 An integer value which determines the interpolation of the transition between states.
@@ -938,7 +951,7 @@ Allows you to control the rotational properties of filtered environment objects.
               "p": 0, // Transition Type
               "e": 1, // Easing
               "r": 340.0, // Magnitude
-              "d": 1, // Direction
+              "o": 1, // Direction
               "l": 1, // Loop Count
             }
           ]
@@ -973,7 +986,7 @@ Allows you to control the rotational properties of filtered environment objects.
               "p": 0, // Transition Type
               "e": 1, // Easing
               "r": 340.0, // Magnitude
-              "d": 1, // Direction
+              "o": 1, // Direction
               "l": 1, // Loop Count
             }
           ]
@@ -1017,7 +1030,7 @@ Allows you to control the rotational properties of filtered environment objects.
       "b": 1, // Rotation Distribution: Affects First
       "e": 0, // Rotation Distribution: Easing
       "a": 0, // Axis
-      "r": 1, // Invert Axis
+      "f": 1, // Invert Axis
     }
   ],
   "lightRotationEvents": [
@@ -1136,12 +1149,14 @@ Allows you to control the translational properties of filtered environment objec
           "f": {...}, // Index Filter
           "w": 1.0, // Beat Distribution: Value
           "d": 1, // Beat Distribution: Type
-          "r": 1.0, // Gap Distribution: Value
+          "s": 1.0, // Gap Distribution: Value
           "t": 1, // Gap Distribution: Type
           "b": 1, // Gap Distribution: Affects First
           "i": 0, // Gap Distribution: Easing
-          // Light Translation Events
-          "e": [
+          "a": 0, // Axis
+          "r": 1, // Invert Axis
+         // Light Translation Events
+          "l": [
             {
               "b": 0.0, // Beat Offset
               "p": 0, // Transition Type
@@ -1188,6 +1203,8 @@ Allows you to control the translational properties of filtered environment objec
       "t": 1, // Gap Distribution: Type
       "b": 1, // Gap Distribution: Affects First
       "e": 0, // Gap Distribution: Easing
+      "a": 0, // Axis
+      "f": 1, // Invert Axis
     }
   ],
   "lightTranslationEvents": [
@@ -1317,7 +1334,7 @@ their implementation went unused, and support was subsequently removed in v4.
       {
         "b": 0.0, // Beat Offset
         "p": 0, // Transition Type
-        "e": 1, // Easing
+        "i": 1, // Easing
         "v": 100.0, // Value
       }
     ],

@@ -358,15 +358,14 @@ which can be defined on a global level _or_ per-beatmap basis.
 The color palette used across in-game objects,
 which can be defined on a per-beatmap level using the same template-like index as defined for the environments.
 
-All color properties are normalized to a range of `0-1`.
+- In v2, colors are represented in object notation, where each color channel is normalized to a range of `0-1`.
+- In v4, colors are represented in [hex](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet) notation.
+
+If no color schemes are defined or you prefer inheriting the color scheme of the selected environment,
+you'll want to set the index to `-1`.
 
 ::: warning
-Any colors in a scheme that are not defined will appear as a "null" color in-game, and may cause unintended effects.
-:::
-
-::: danger
-For v4, **you must define at least one valid color scheme for your map to load properly**,
-regardless of whether the map explicitly sets a color scheme override.
+Any colors in a scheme that are not defined will appear as a `null` color in-game, and may cause unintended effects.
 :::
 
 ::: code-group
@@ -440,51 +439,14 @@ regardless of whether the map explicitly sets a color scheme override.
   "colorSchemes": [
     {
       "useOverride": true,
-      "colorScheme": {
-        "colorSchemeName": "Weave",
-        "saberAColor": {
-          "r": 0.7843137,
-          "g": 0.07843138,
-          "b": 0.07843138,
-          "a": 1,
-        },
-        "saberBColor": {
-          "r": 0.1568627,
-          "g": 0.5568627,
-          "b": 0.8235294,
-          "a": 1,
-        },
-        "environmentColor0": {
-          "r": 0.85,
-          "g": 0.08499997,
-          "b": 0.08499997,
-          "a": 1,
-        },
-        "environmentColor1": {
-          "r": 0.1882353,
-          "g": 0.675294,
-          "b": 1,
-          "a": 1,
-        },
-        "obstaclesColor": {
-          "r": 1,
-          "g": 0.1882353,
-          "b": 0.1882353,
-          "a": 1,
-        },
-        "environmentColor0Boost": {
-          "r": 0.8218409,
-          "g": 0.08627451,
-          "b": 0.8509804,
-          "a": 1,
-        },
-        "environmentColor1Boost": {
-          "r": 0.5320754,
-          "g": 0.5320754,
-          "b": 0.5320754,
-          "a": 1,
-        },
-      },
+      "colorSchemeName": "Weave",
+      "saberAColor": "#C81414FF",
+      "saberBColor": "#288ED2FF",
+      "obstaclesColor": "#FF3030FF",
+      "environmentColor0": "#D91616FF",
+      "environmentColor1": "#30ACFFFF",
+      "environmentColor0Boost": "#D216D9FF",
+      "environmentColor1Boost": "#00FFA5FF",
     },
   ],
   "difficultyBeatmaps": [

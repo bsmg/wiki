@@ -146,9 +146,9 @@
   "lightColorEvents": [
     {
       "p": 0,
-      "e": 0,
+      "e": -1,
       "c": 1,
-      "s": 1,
+      "b": 1,
       "f": 0,
       "sb": 0,
       "sf": 0
@@ -163,7 +163,7 @@
       "b": 1,
       "e": 0,
       "a": 0,
-      "r": 1
+      "f": 1
     }
   ],
   "lightRotationEvents": [
@@ -182,7 +182,9 @@
       "s": 1,
       "t": 1,
       "b": 1,
-      "e": 0
+      "e": 0,
+      "a": 0,
+      "f": 1
     }
   ],
   "lightTranslationEvents": [
