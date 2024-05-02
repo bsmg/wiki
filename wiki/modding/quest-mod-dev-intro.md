@@ -269,11 +269,11 @@ Now, you have to install your hook. Usually, hooks are installed in `load()` or 
 extern "C" void late_load() {
     il2cpp_functions::Init();
 
-    getLogger().info("Installing hooks...");
+    PaperLogger.info("Installing hooks...");
 
-    INSTALL_HOOK(getLogger(), MainMenuUIHook);
+    INSTALL_HOOK(PaperLogger, LevelUIHook);
 
-    getLogger().info("Installed all hooks!");
+    PaperLogger.info("Installed all hooks!");
 }
 ```
 
