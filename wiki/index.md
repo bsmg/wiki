@@ -69,7 +69,7 @@ hero:
 
 - [Qosmetics Discord](https://discord.gg/qosmetics) - Download Quest custom sabers, walls, and bloqs!
 - [QuestBoard Hub](https://discord.gg/d6DyW9v) - The Discord for all things about Quest BeatSaber!
-- [BeatLeader](https://www.beatleader.xyz/) - Custom map leaderboard, replays, and statistics
+- [BeatLeader](https://www.beatleader.xyz/) - Custom map leaderboards, replays, and statistics
 - [ScoreSaber](https://scoresaber.com/) - Custom map leaderboards
 - [Steam Store Page](https://store.steampowered.com/app/620980/Beat_Saber/)
 - [Oculus Store Page](https://www.oculus.com/experiences/rift/1304877726278670/)

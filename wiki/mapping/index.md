@@ -390,15 +390,18 @@ Your changes will be loaded without needing to restart the game!
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have
 [SideQuest](https://sidequestvr.com) and [BMBF](https://bmbf.dev/stable) installed.
 
-1. Locate your WIP song folder on your PC.
-2. Establish a connection to your Quest from your PC with a USB cable.
-3. Open SideQuest on your PC and click the folder icon on the top right.
+:::warning NOTE
+When [downloading SideQuest](https://sidequestvr.com/setup-howto), be sure to download the `Advanced Installer`.
+:::
+
+1. Establish a connection to your Quest from your PC with a USB cable.
+2. Open SideQuest on your PC and click the folder icon on the top right.
    ![SideQuest Files](/.assets/images/beginners-guide/sqfiles.png)
-4. Navigate to `sdcard/ModData/com.beatgames.beatsaber/Mods/SongLoader/CustomWIPLevels`. If this folder does not exist,
+3. Navigate to `sdcard/ModData/com.beatgames.beatsaber/Mods/SongLoader/CustomWIPLevels`. If this folder does not exist,
    you can create it yourself.
-5. Upload your WIP song folder from your PC to that folder on your Quest with SideQuest.
+4. Upload your WIP song folder from your PC to that folder on your Quest with SideQuest.
    - **NOTE:** You need to upload the actual song folder, not a zip file!
-6. Your map will now show up on the CustomWIPLevels song pack inside your game. Keep in mind that you will only be able to
+5. Your map will now show up on the CustomWIPLevels song pack inside your game. Keep in mind that you will only be able to
    play your map using the practice mode, and not with the regular Play button!
 
 :::tip NOTE
