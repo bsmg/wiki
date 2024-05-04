@@ -50,7 +50,7 @@ creating a new scoreboard on ScoreSaber if you have the mod installed!
    to receive your feedback.
 
 7. Find the mapper's name, and @ (ping) them in the `#mapping-discussion` channel, or DM them, with your feedback. Make
-   sure to remind them to mark their map with `:octagonal_sign:` (:octagonal_sign:) upon editing or releasing their map.
+   sure to remind them to mark their map with `:octagonal_sign:` (:stop_sign:) upon editing or releasing their map.
 
 8. Once you're done, go back to the post and mark it with `:white_check_mark:` (:white_check_mark:) to indicate you've
    completed the map and given feedback. As well, make sure to mark the map with the letter indicative of the difficulty
