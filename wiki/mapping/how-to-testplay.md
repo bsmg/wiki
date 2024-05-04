@@ -50,7 +50,7 @@ creating a new scoreboard on ScoreSaber if you have the mod installed!
    to receive your feedback.
 
 7. Find the mapper's name, and @ (ping) them in the `#mapping-discussion` channel, or DM them, with your feedback. Make
-   sure to remind them to mark their map with `:octagonal_sign:` upon editing or releasing their map.
+   sure to remind them to mark their map with `:octagonal_sign:` (:octagonal_sign:) upon editing or releasing their map.
 
 8. Once you're done, go back to the post and mark it with `:white_check_mark:` (:white_check_mark:) to indicate you've
    completed the map and given feedback. As well, make sure to mark the map with the letter indicative of the difficulty
@@ -102,7 +102,7 @@ video recorder output set to `.mkv` since others have had corruption issues with
 
 ### Using Windows Built-In Screen Recorder
 
-This is feature is only available on Windows 10.
+This feature is only available on Windows 10.
 
 While in Beatsaber (or any program) Press <kbd>Win+g</kbd> on your keyboard to bring up the Windows Game Bar, at the top
 of the bar click on Capture and Audio. Set up your audio so that it's recording the game and make sure that you have the
@@ -124,10 +124,9 @@ recording. All recordings are saved in `C:\Users\"your user"\Videos\Captures`.
   - Can be found in Mod Assistant under the Core category allows for various perspectives and tuning, such as a main
     third person perspective, and a secondary first person perspective in the corner.
 - [OBSControl](https://github.com/Zingabopp/OBSControl#readme)
-  - A plugin for OBS users that can automatically start and stop recording when you begin the map, and leave/complete
-    the map. You can pause as many times as you like with no issues. I always pause my playthrough at the very beginning
-    to briefly discuss the difficulty and NJS, as you do not have any time spent in the menu to discuss these aspects
-    with this mod installed.
+  -   - A plugin for OBS users that can automatically start/stop recording when you play a song. If the map is ever paused,
+    it will continue recording and only stop when you leave or complete the map. You can load into the song and pause at
+    the very beginning to discuss anything that you noticed in the menu such as the difficulty or the NJS.
 
 With this setup, and real time voice commentary, you can easily cut your playtest time down in half. Having a video will
 take your testplays to the next level and is the best way to give mappers great feedback.
