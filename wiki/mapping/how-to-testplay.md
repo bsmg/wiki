@@ -124,9 +124,9 @@ recording. All recordings are saved in `C:\Users\"your user"\Videos\Captures`.
   - Can be found in Mod Assistant under the Core category allows for various perspectives and tuning, such as a main
     third person perspective, and a secondary first person perspective in the corner.
 - [OBSControl](https://github.com/Zingabopp/OBSControl#readme)
-  -   - A plugin for OBS users that can automatically start/stop recording when you play a song. If the map is ever paused,
-    it will continue recording and only stop when you leave or complete the map. You can load into the song and pause at
-    the very beginning to discuss anything that you noticed in the menu such as the difficulty or the NJS.
+  - - A plugin for OBS users that can automatically start/stop recording when you play a song. If the map is ever paused,
+      it will continue recording and only stop when you leave or complete the map. You can load into the song and pause at
+      the very beginning to discuss anything that you noticed in the menu such as the difficulty or the NJS.
 
 With this setup, and real time voice commentary, you can easily cut your playtest time down in half. Having a video will
 take your testplays to the next level and is the best way to give mappers great feedback.
