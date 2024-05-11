@@ -86,6 +86,10 @@ follow the steps below:
 
 ### SideQuest
 
+:::tip Mods Before Friday
+No need for SideQuest if using Mods Before Friday
+:::
+
 This is only required if you mod with a PC (Windows / Mac / Linux). Go to [SideQuest's Download Page](https://sidequestvr.com/setup-howto)
 and download the SideQuest Advanced Installer. Once it's finished downloading, install it.
 
@@ -137,6 +141,15 @@ built-in downgrading, which means you don't need to use a PC or phone every time
 latest moddable version.
 
 Visit [Modding With QAVS](./quest-modding-qavs.md) to get started.
+
+## Mods Before Friday
+
+Mods Before Friday is a WebUSB-based tool that lets you mod Beat Saber from a browser
+:::warning Supported Browsers
+Some browsers aren't supported and some say they are but then corrupt your Beat Saber.
+Use the latest Google Chrome for a good experience
+:::
+Visit [Modding With Mods Before Friday](./quest-modding-modsbf.md) to get started.
 
 ### QuestPatcher
 
