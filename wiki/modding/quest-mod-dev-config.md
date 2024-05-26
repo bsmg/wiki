@@ -64,14 +64,15 @@ DECLARE_CONFIG(ModConfig,
 ## Loading your Config
 
 Make sure to initialize the config! If you attempt to get values from it before it's loaded, your game will crash.
-You can run this in `setup()`, `load()`, or even anytime later if you really want to, but it only ever needs to be run once.
+You can run this in `setup()`, `load()`, `late_load()`, or even anytime later if you really want to, but it only ever
+needs to be run once.
 
 ```cpp
 #include "modconfig.hpp"
 
 // other code
 
-extern "C" void load() {
+extern "C" void late_load() {
     // Initialize and load the config
     getModConfig().Init(modInfo);
 
@@ -103,5 +104,5 @@ getModConfig().VariableVector2.SetValue(vec);
 
 Setting a config variable will automatically save the configuration file.
 
-The configuration file is usually stored at `~/ModData/com.beatgames.beatsaber/Config/` on the Quest.
+The configuration file is usually stored at `~/ModData/com.beatgames.beatsaber/Configs/` on the Quest.
 Your mod id will be used to create the configuration file, eg: `qosmetics.json`.

@@ -220,7 +220,8 @@ about running the base class destructor, though.
 
 ::: warning
 To create a new object, _do not_ run `ctor` yourself or create it in c++ with `new` or any similar operator,
-but instead use `il2cpp_utils::New<MyNamespace::Counter*>(...constructor arguments);`, or any C# method that would
+but instead use `il2cpp_utils::New<MyNamespace::Counter*>(...constructor arguments);`, `Counter::New_ctor(...constructor
+arguments);`, or any C# method that would
 create an object, such as `AddComponent`.
 :::
 
@@ -228,14 +229,14 @@ create an object, such as `AddComponent`.
 
 You can register all the custom types you have created using the `custom_types::Register::AutoRegister()` method.
 
-This method should be put in your `load()` like so:
+This method should be put in your `load()` or `late_load()` like so:
 
 ```cpp
 #include "custom-types/shared/register.hpp"
 
 // other code
 
-extern "C" void load() {
+extern "C" void late_load() {
     // make sure this is after il2cpp_functions::Init()
     custom_types::Register::AutoRegister();
 
