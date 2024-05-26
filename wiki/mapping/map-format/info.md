@@ -330,9 +330,9 @@ which can be defined on a global level _or_ per-beatmap basis.
   "_environmentNames": ["DefaultEnvironment", "GlassDesertEnvironment"], // Collection
   "_difficultyBeatmapSets": [
     {
-      "difficultyBeatmaps": [
+      "_difficultyBeatmaps": [
         {
-          "environmentNameIdx": 0, // Index
+          "_environmentNameIdx": 0, // Index
         },
       ],
     },
