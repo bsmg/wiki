@@ -723,7 +723,7 @@ that affects its intensity and feel. This is called _swing curvature_, which can
 
 #### Positive Swing Curvature
 
-On a backhand to forehand rotation, a swing is said to have a _positive curvature_ if the rotation of the **left hand wrist** is clockwise. On a forehand to backhand rotation, it occurs if the rotation is counter-clockwise. 
+On a backhand to forehand rotation, a swing is said to have a _positive curvature_ if the rotation of the **left hand wrist** is clockwise. On a forehand to backhand rotation, it occurs if the rotation is counter-clockwise.
 The same can be said of the **right hand wrist**, though with opposite direction of rotation.
 
 In general, positive curvature swings feel smoother thanks to how they follow the natural arm trajectory better. In practice, this allows for larger rotations without setup.
@@ -741,7 +741,7 @@ Positive curvature can be boiled down to both wrists tracing `)(` shaped arcs.
 
 #### Negative Swing Curvature
 
-On a backhand to forehand rotation, a swing is said to have a _negative curvature_ if the rotation of the **left hand wrist** is counter-clockwise. On a forehand to backhand rotation, it occurs if the rotation is clockwise. 
+On a backhand to forehand rotation, a swing is said to have a _negative curvature_ if the rotation of the **left hand wrist** is counter-clockwise. On a forehand to backhand rotation, it occurs if the rotation is clockwise.
 The same can be said of the **right hand wrist**, though with opposite direction of rotation.
 
 Because negative curvature swings work against the natural arm trajectory, they are often more taxing to execute. Negative curvature swings with a backhand hit or with large rotations are especially harsh when mapped without proper setup.
@@ -785,7 +785,7 @@ on negative curvature are very possible, this choice allows this section to play
 snappy swings, despite having large rotations.
 :::
 
-While the awareness of swing curvature is valuable when figuring out why some rotations may feel better than others, it should not be taken as a hard rule and limit what patterns are being used. 
+While the awareness of swing curvature is valuable when figuring out why some rotations may feel better than others, it should not be taken as a hard rule and limit what patterns are being used.
 Negative curvature swings can feel more natural than positive curvature swings on specific setups, and it is through map context and setting expectations that the mapper can exploit both swing curvatures to their full potential while preserving flow.
 
 ### Swing Speed
