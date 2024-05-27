@@ -733,7 +733,7 @@ In general, positive curvature swings feel smoother thanks to how they follow th
 
 | **Left Hand** | **Right Hand** |
 | :-: | :-: |
-| ![left positive curvature](wiki/.assets/images/mapping/left-positive-curvature.gif) | ![right positive curvature](wiki/.assets/images/mapping/right-positive-curvature.gif) |
+| ![left positive curvature](/wiki/.assets/images/mapping/left-positive-curvature.gif) | ![right positive curvature](/wiki/.assets/images/mapping/right-positive-curvature.gif) |
 
 <!-- prettier-ignore -->
 
@@ -753,7 +753,7 @@ Because negative curvature swings work against the natural arm trajectory, they 
 
 | **Left Hand** | **Right Hand** |
 | :-: | :-: |
-| ![left negative curvature](wiki/.assets/images/mapping/left-negative-curvature.gif) | ![right negative curvature](wiki/.assets/images/mapping/right-negative-curvature.gif) |
+| ![left negative curvature](/wiki/.assets/images/mapping/left-negative-curvature.gif) | ![right negative curvature](/wiki/.assets/images/mapping/right-negative-curvature.gif) |
 
 <!-- prettier-ignore -->
 
@@ -767,12 +767,12 @@ Negative curvature can be boiled down to both wrists tracing `()` shaped arcs.
 
 | **Example** | **Swing Type** | **Notes** |
 | :-: | :-: | :-: |
-| ![positive curvature spam](wiki/.assets/images/mapping/positive-curvature-spam.png) | 45° positive | Fluid. |
-| ![negative curvature spam](wiki/.assets/images/mapping/negative-curvature-spam.png) | 45° negative | Mildly unpleasant. |
-| ![negative curvature 45](wiki/.assets/images/mapping/negative-curvature-45.png) | 45° negative | Fluid, thanks to short rotation and forehand hit. |
-| ![negative curvature 135](wiki/.assets/images/mapping/negative-curvature-135.png) | 135° negative | _(Starting forehand)_ Fluid, thanks to [momentum](#momentum-and-tension). |
-| ![negative curvature 90](wiki/.assets/images/mapping/negative-curvature-90.png) | 90° negative | Very uncomfortable. |
-| ![negative curvature 90 ok](wiki/.assets/images/mapping/negative-curvature-90-ok.png) | 90° negative | _(Starting forehand)_ Same as previous swing. Technical but more feasible thanks to proper setup. |
+| ![positive curvature spam](/wiki/.assets/images/mapping/positive-curvature-spam.png) | 45° positive | Fluid. |
+| ![negative curvature spam](/wiki/.assets/images/mapping/negative-curvature-spam.png) | 45° negative | Mildly unpleasant. |
+| ![negative curvature 45](/wiki/.assets/images/mapping/negative-curvature-45.png) | 45° negative | Fluid, thanks to short rotation and forehand hit. |
+| ![negative curvature 135](/wiki/.assets/images/mapping/negative-curvature-135.png) | 135° negative | _(Starting forehand)_ Fluid, thanks to [momentum](#momentum-and-tension). |
+| ![negative curvature 90](/wiki/.assets/images/mapping/negative-curvature-90.png) | 90° negative | Very uncomfortable. |
+| ![negative curvature 90 ok](/wiki/.assets/images/mapping/negative-curvature-90-ok.png) | 90° negative | _(Starting forehand)_ Same as previous swing. Technical but more feasible thanks to proper setup. |
 
 :::
 
