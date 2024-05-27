@@ -753,7 +753,6 @@ Because negative curvature swings work against the natural arm trajectory, they 
 
 <!-- markdownlint-enable MD013 -->
 
-
 Negative curvature can be boiled down to both wrists tracing `()` shaped arcs.
 
 :::details Examples
