@@ -733,7 +733,7 @@ In general, positive curvature swings feel smoother thanks to how they follow th
 
 | **Left Hand** | **Right Hand** |
 | :-: | :-: |
-| ![left positive curvature](/wiki/.assets/images/mapping/left-positive-curvature.gif) | ![right positive curvature](/wiki/.assets/images/mapping/right-positive-curvature.gif) |
+| ![left positive curvature](/.assets/images/mapping/left-positive-curvature.gif) | ![right positive curvature](/.assets/images/mapping/right-positive-curvature.gif) |
 
 <!-- prettier-ignore -->
 
@@ -753,7 +753,7 @@ Because negative curvature swings work against the natural arm trajectory, they 
 
 | **Left Hand** | **Right Hand** |
 | :-: | :-: |
-| ![left negative curvature](/wiki/.assets/images/mapping/left-negative-curvature.gif) | ![right negative curvature](/wiki/.assets/images/mapping/right-negative-curvature.gif) |
+| ![left negative curvature](/.assets/images/mapping/left-negative-curvature.gif) | ![right negative curvature](/.assets/images/mapping/right-negative-curvature.gif) |
 
 <!-- prettier-ignore -->
 
@@ -767,16 +767,13 @@ Negative curvature can be boiled down to both wrists tracing `()` shaped arcs.
 
 | **Example** | **Swing Type** | **Notes** |
 | :-: | :-: | :-: |
-| ![positive curvature spam](/wiki/.assets/images/mapping/positive-curvature-spam.png) | 45° positive | Fluid. |
-| ![negative curvature spam](/wiki/.assets/images/mapping/negative-curvature-spam.png) | 45° negative | Mildly unpleasant. |
-| ![negative curvature 45](/wiki/.assets/images/mapping/negative-curvature-45.png) | 45° negative | Fluid, thanks to short rotation and forehand hit. |
-| ![negative curvature 135](/wiki/.assets/images/mapping/negative-curvature-135.png) | 135° negative | _(Starting forehand)_ Fluid, thanks to [momentum](#momentum-and-tension). |
-| ![negative curvature 90](/wiki/.assets/images/mapping/negative-curvature-90.png) | 90° negative | Very uncomfortable. |
-| ![negative curvature 90 ok](/wiki/.assets/images/mapping/negative-curvature-90-ok.png) | 90° negative | _(Starting forehand)_ Same as previous swing. Technical but more feasible thanks to proper setup. |
+| ![positive curvature spam](/.assets/images/mapping/positive-curvature-spam.png) | 90° positive | Fluid. |
+| ![negative curvature spam](/.assets/images/mapping/negative-curvature-spam.png) | 90° negative | Mildly harsh. |
+| ![negative curvature 45](/.assets/images/mapping/negative-curvature-45.png) | 45° negative | Fluid, thanks to short rotation and forehand hit. |
+| ![negative curvature 135](/.assets/images/mapping/negative-curvature-135.png) | 135° negative | _(Starting forehand)_ Fluid, thanks to [momentum](#momentum-and-tension). |
+| ![negative curvature 90](/.assets/images/mapping/negative-curvature-90.png) | 90° negative | Very harsh. |
+| ![negative curvature 90 ok](/.assets/images/mapping/negative-curvature-90-ok.png) | 90° negative | _(Starting forehand)_ Same as previous swing. Technical but more feasible thanks to proper setup. |
 
-:::
-
-:::details Example
 Take a look at <https://allpoland.github.io/ArcViewer/?id=327f6&t=30>. In this section,
 the larger rotations are always done on positive curvature. For example:
 
@@ -787,11 +784,6 @@ the larger rotations are always done on positive curvature. For example:
 By contrast, all rotations on negative curvature are at most 45 degrees in this section. While larger rotations
 on negative curvature are very possible, this choice allows this section to play really smoothly with fast,
 snappy swings, despite having large rotations.
-:::
-
-:::details Read more...
-This [incomplete glossary](https://docs.google.com/document/d/16hydw1Vob9uDK3VTpwXn9ov0o-kp_xgm9jpPduOwOJ4/edit?usp=sharing)
-by Kansas contains definitions for some of the concepts explained here.
 :::
 
 While the awareness of swing curvature is valuable when figuring out why some rotations may feel better than others, it should not be taken as a hard rule and limit what patterns are being used. Negative curvature swings can feel more natural than positive curvature swings on specific setups, and it is through map context and setting expectations that the mapper can exploit both swing curvatures to their full potential while preserving flow.
