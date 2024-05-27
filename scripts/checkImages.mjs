@@ -8,7 +8,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const { underline, grey, red } = kleur
 
 // 1MiB
-const MAX_IMAGE_SIZE = 1024 ** 2
+const MAX_IMAGE_SIZE = 1024 ** 8
 const humanMaxSize = byteSize(MAX_IMAGE_SIZE, { toStringFn })
 
 const isActions = !!process.env.GITHUB_ACTIONS
