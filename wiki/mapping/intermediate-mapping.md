@@ -771,8 +771,8 @@ Negative curvature can be boiled down to both wrists tracing `()` shaped arcs.
 <!-- prettier-ignore -->
 | **Example** | **Swing Type** | **Notes** |
 | :-: | :-: | :-: |
-| ![positive curvature spam](/.assets/images/mapping/positive-curvature-spam.png) | 45° positive | Fluid. |
-| ![negative curvature spam](/.assets/images/mapping/negative-curvature-spam.png) | 45° negative | Harsh. |
+| ![positive curvature spam](/.assets/images/mapping/positive-curvature-spam.png) | 90° positive | Fluid. |
+| ![negative curvature spam](/.assets/images/mapping/negative-curvature-spam.png) | 90° negative | Harsh. |
 | ![negative curvature 45](/.assets/images/mapping/negative-curvature-45.png) | 45° negative | Fluid, thanks to short rotation and forehand hit. |
 | ![negative curvature 135](/.assets/images/mapping/negative-curvature-135.png) | 135° negative | _(Starting forehand)_ Fluid, thanks to [momentum](#momentum-and-tension). |
 | ![negative curvature 90](/.assets/images/mapping/negative-curvature-90.png) | 90° negative | Very harsh. |
