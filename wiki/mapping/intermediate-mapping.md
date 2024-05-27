@@ -734,7 +734,6 @@ In general, positive curvature swings feel smoother thanks to how they follow th
 | :-: | :-: |
 | ![left positive curvature](/.assets/images/mapping/left-positive-curvature.gif) | ![right positive curvature](/.assets/images/mapping/right-positive-curvature.gif) |
 
-<!-- prettier-ignore -->
 <!-- markdownlint-enable MD013 -->
 
 Positive curvature can be boiled down to both wrists tracing `)(` shaped arcs.
@@ -752,15 +751,16 @@ Because negative curvature swings work against the natural arm trajectory, they 
 | :-: | :-: |
 | ![left negative curvature](/.assets/images/mapping/left-negative-curvature.gif) | ![right negative curvature](/.assets/images/mapping/right-negative-curvature.gif) |
 
-<!-- prettier-ignore -->
 <!-- markdownlint-enable MD013 -->
 
-<!-- markdownlint-disable MD013 -->
 
 Negative curvature can be boiled down to both wrists tracing `()` shaped arcs.
 
 :::details Examples
 
+<!-- markdownlint-disable MD013 -->
+
+<!-- prettier-ignore -->
 | **Example** | **Swing Type** | **Notes** |
 | :-: | :-: | :-: |
 | ![positive curvature spam](/.assets/images/mapping/positive-curvature-spam.png) | 45° positive | Fluid. |
@@ -769,6 +769,8 @@ Negative curvature can be boiled down to both wrists tracing `()` shaped arcs.
 | ![negative curvature 135](/.assets/images/mapping/negative-curvature-135.png) | 135° negative | _(Starting forehand)_ Fluid, thanks to [momentum](#momentum-and-tension). |
 | ![negative curvature 90](/.assets/images/mapping/negative-curvature-90.png) | 90° negative | Very harsh. |
 | ![negative curvature 90 ok](/.assets/images/mapping/negative-curvature-90-ok.png) | 90° negative | _(Starting forehand)_ Same as previous swing. Technical but more feasible thanks to proper setup. |
+
+<!-- markdownlint-enable MD013 -->
 
 Take a look at <https://allpoland.github.io/ArcViewer/?id=327f6&t=30>. In this section,
 the larger rotations are always done on positive curvature. For example:
