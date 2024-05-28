@@ -794,7 +794,8 @@ While the awareness of swing curvature is valuable when figuring out why some ro
 it should not be taken as a hard rule and limit what patterns are being used.
 Negative curvature swings can feel more natural than positive curvature swings on specific setups,
 and it is through map context
-and setting expectations that the mapper can exploit both swing curvatures to their full potential while preserving good flow.
+and setting expectations that the mapper can exploit both swing curvatures
+to their full potential while preserving good flow.
 
 ### Swing Speed
 
