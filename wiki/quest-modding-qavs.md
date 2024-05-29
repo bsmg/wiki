@@ -12,7 +12,7 @@ description: Learn how to mod Beat Saber on your Quest using QAVS!
 QAVS does not support Quest 3 at this time.  
 As of the Quest v63 update, the Quest 2 and Pro are no longer moddable using QAVS.
 
-Quest 2, Pro, and 3 modding is only possible using [QuestPatcher](./quest-modding.md#questpatcher) at this time.
+Quest 2, Pro, and 3 modding is only possible using [ModsBeforeFriday](./quest-modding.md#MBF) or [QuestPatcher](./quest-modding.md#questpatcher) at this time.
 :::
 
 If you have not already, go to [Preparations](./quest-modding.md#preparations) and follow those steps.
