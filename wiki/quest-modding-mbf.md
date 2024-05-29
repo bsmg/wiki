@@ -10,9 +10,7 @@ To begin with, make sure that you have the latest version of (vanilla) Beat Sabe
 
 MBF will automatically downgrade this version to the latest moddable version.
 
-:::warning
-
-## Browser Support
+:::warning Browser Support
 
 MBF needs an up-to-date chromium browser to work. For example:
 
@@ -45,11 +43,13 @@ Select your device and continue to the next step.
 If you don't already have the latest moddable version of Beat Saber, you will prompted to downgrade the game.
 
 This happens automatically, just follow the guide as normal!
-::: 4. Click "Mod the app" and wait until it finishes.
+:::
+4. Click "Mod the app" and wait until it finishes.
 
 :::warning
 Do not unplug your cable while the game is being modded!
-::: 5. You're all done!
+:::
+5. You're all done!
 
 You can now install custom songs inside the game using the SongDownloader mod, which is installed by default.
 
