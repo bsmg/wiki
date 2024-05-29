@@ -44,11 +44,13 @@ If you don't already have the latest moddable version of Beat Saber, you will pr
 
 This happens automatically, just follow the guide as normal!
 :::
+
 4. Click "Mod the app" and wait until it finishes.
 
 :::warning
 Do not unplug your cable while the game is being modded!
 :::
+
 5. You're all done!
 
 You can now install custom songs inside the game using the SongDownloader mod, which is installed by default.
