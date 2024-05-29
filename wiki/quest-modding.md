@@ -8,7 +8,7 @@ description: Learn how to mod Beat Saber on your Quest!
 
 ## Preface
 
-- This guide is for both Quest 1, Quest 2, Quest 3, and Quest Pro.
+- This guide is for Quest 1, Quest 2, Quest 3, and Quest Pro.
 
 - Nobody has yet been banned for modding.
 
