@@ -8,7 +8,7 @@ description: Learn how to mod Beat Saber on your Quest!
 
 ## Preface
 
-- This guide is for both Quest 1, Quest 2, and Quest 3.
+- This guide is for both Quest 1, Quest 2, Quest 3, and Quest Pro.
 
 - Nobody has yet been banned for modding.
 
@@ -48,10 +48,7 @@ Modding Beat Saber involves installing APKs on your Quest. Therefore, you will n
 or an Android device at least once.
 
 :::tip NOTE
-The latest moddable Beat Saber version for Quest is `1.28.0`.
-
-- If you are using BMBF and want to downgrade, refer to the [Downgrading Guide for BMBF](./quest-modding-bmbf.md#downgrading-beat-saber).
-- QAVS walks you through the downgrade process automatically.
+The latest moddable Beat Saber version for Quest is `1.35.0`. `1.28.0` has greater amounts of mods, and is also a valid option for modding if you desire certain mods not yet updated on the latest moddable version. 
 
 :::
 
@@ -117,26 +114,13 @@ steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
 
 ## Ways to Mod Beat Saber
 
-Currently, there are three ways to mod your game: you can either use BMBF, QAVS (QuestAppVersionSwitcher), or QuestPatcher.
+Currently, there are three ways to mod your game: you can either use QAVS (QuestAppVersionSwitcher) specifically for Quest 1 only, QP (QuestPatcher), or MBF (ModsBeforeFriday).
 
-:::warning Quest 3 Modding Information
-Quest 3 modding is only possible using [QuestPatcher](#questpatcher). BMBF and QAVS does not support Quest 3 at this time.
-:::
+### MBF
 
-### BMBF
+MBF is generally easiest to understand for beginners. It can only mod for 1.35+, but will automatically do all steps of downgrading and modding for you. MBF requires connecting your Quest to a computer or Android device and then accessing [the website](https://lauriethefish.github.io/ModsBeforeFriday/). 
 
-BMBF is generally easier to understand for beginners with a simpler UI compared to QAVS, but lacks a built-in downgrading
-option. If you use BMBF to mod, you will need a PC every time you update Beat Saber.
-
-Visit [Modding With BMBF](./quest-modding-bmbf.md) to get started.
-
-### QAVS
-
-QAVS is recommended for people who are using an Android device or don't have access to a computer at all times. It has
-built-in downgrading, which means you don't need to use a PC or phone every time you want to update Beat Saber to the
-latest moddable version.
-
-Visit [Modding With QAVS](./quest-modding-qavs.md) to get started.
+Visit [Modding With MBF](./quest-modding-mbf.md) to get started.
 
 ### QuestPatcher
 
@@ -160,10 +144,19 @@ You can add them back once the modding process is completed.
 2.  Download [QuestAppVersionSwitcher](https://sidequestvr.com/app/5333/questappversionswitcher-qavs)
 3.  Open QuestAppVersionSwitcher and follow the setup assistant to downgrade to `1.28.0`.
     :::danger WARNING
-    **DO NOT** let QuestAppVersionSwitcher patch Beat Saber or install mods.  
+    **DO NOT** let QuestAppVersionSwitcher patch Beat Saber or install mods.
+    If you receive a pop-up asking to select a folder, just press the B button to go back and ensure you are only selecting the options to Downgrade
     You are going to switch to QuestPatcher now.
     :::
-4.  Go to tools and click `Quick Fix`.
-5.  Patch Beat Saber (or repatch in the tools tab if you have already)
+5.  Go to tools and click `Quick Fix`.
+6.  Patch Beat Saber (or repatch in the tools tab if you have already)
     - Make sure `QuestLoader` is selected as the ModLoader.
-6.  Install the core mods, and other mods from [this page](https://bsquest.xyz/mods)
+7.  Install the core mods, and other mods from [this page](https://bsquest.xyz/mods)
+
+### QAVS
+
+QAVS can only be used for patching and modding your game for Quest 1 devices. People using the Quest 2, Quest 3, or Quest Pro will have to use MBF or QuestPatcher. It has
+built-in downgrading, which means you don't need to use a PC or phone every time you want to update Beat Saber to the
+latest moddable version.
+
+Visit [Modding With QAVS](./quest-modding-qavs.md) to get started.
