@@ -114,13 +114,33 @@ steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
 
 ## Ways to Mod Beat Saber
 
-Currently, there are three ways to mod your game: you can either use QAVS (QuestAppVersionSwitcher) specifically for Quest 1 only, QP (QuestPatcher), or MBF (ModsBeforeFriday).
+Currently, there are three ways to mod your game: you can either use MBF (ModsBeforeFriday), QP (QuestPatcher), or QAVS (QuestAppVersionSwitcher) specifically for Quest 1 only.
 
 ### MBF
 
-MBF is generally easiest to understand for beginners. It can only mod for 1.35+, but will automatically do all steps of downgrading and modding for you. MBF requires connecting your Quest to a computer or Android device and then accessing [the website](https://lauriethefish.github.io/ModsBeforeFriday/). 
+MBF is generally easiest to understand for beginners. It can only mod for 1.35+, but will automatically do all steps of downgrading and modding for you. MBF requires connecting your Quest to a computer or Android device and then accessing [the website](https://lauriethefish.github.io/ModsBeforeFriday/) with an up-to-date, chromium-based browser such as Google Chrome or Microsoft Edge. Please note that **Firefox will NOT work**. 
 
-Visit [Modding With MBF](./quest-modding-mbf.md) to get started.
+If you have not already, go to [Preparations](./quest-modding.md#preparations) and follow those steps.
+You should now have Developer Mode enabled and SideQuest Advanced installed on your PC.
+It is recommended to disable the proximity sensor of your quest in the SideQuest device settings.
+This prevents it from going into sleep mode during the modding process. Alternatively you can tape
+up the sensor between the lenses.
+
+:::warning
+Make sure you do not have multiple accounts an your Quest!
+
+Modding currently does not work with multiple accounts.
+You will need to temporarily remove all secondary accounts before modding the game.
+You can add them back once the modding process is completed.
+:::
+
+1. Go to the [ModsBeforeFriday website](https://lauriethefish.github.io/ModsBeforeFriday/).
+2. Plug your Quest into your PC or Android phone with a USB cable.
+3. Click "Connect to Quest".
+4. Choose your Quest in the window that appears and wait until it's finished loading.
+5. Click "Mod the app" and wait until it's finished running.
+6. You can click on the install button for any other available mods in the Add Mods tab to add them to your game.
+7. To upload any files to your Quest, such as custom sabers or songs, you can use the Upload button. 
 
 ### QuestPatcher
 
@@ -151,7 +171,7 @@ You can add them back once the modding process is completed.
 5.  Go to tools and click `Quick Fix`.
 6.  Patch Beat Saber (or repatch in the tools tab if you have already)
     - Make sure `QuestLoader` is selected as the ModLoader.
-7.  Install the core mods, and other mods from [this page](https://bsquest.xyz/mods)
+7.  Install the core mods, and other mods from [this page](https://bsquest.xyz/mods). Ensure you select 1.28.0 at the top for the correct version of the mods. 
 
 ### QAVS
 
