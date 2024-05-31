@@ -4,7 +4,7 @@ next: false
 description: Learn how to mod Beat Saber on your Quest using an Android device!
 ---
 
-# Quest Modding with Android & ModsBeforeFriday
+# Quest Modding with Android
 
 :::warning
 Installing MBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
@@ -23,12 +23,6 @@ ScoreSaber does not replace the base game leaderboards, it only adds leaderboard
 **Note:** Check the updates channel in the [ScoreSaber Discord](https://discord.gg/scoresaber) to see if the mod is available
 for the current game version.
 :::
-
-- [Requirements](#requirements)
-- [Enable Developer mode on your Quest](#how-to-enable-developer-mode-on-the-oculus-quest)
-- [Setup your Phone](#setup-your-phone)
-- [Installing BMBF with your Phone](#installing-bmbf-with-your-phone)
-- [Setup Beat Saber](#setup-beat-saber)
 
 ## Requirements
 
@@ -63,7 +57,7 @@ After you created it, you can enable Developer mode in the Oculus app on your sm
 
 ![EnableDevMode](/.assets/images/beginners-guide/EnableDevMode.png)
 
-You can now skip to [Setup your Phone](#setup-your-phone)
+You can now skip to [Installing Mods with ModsBeforeFriday](#installing-mods-with-modsbeforefriday)
 
 ### I have no Credit Card
 
@@ -113,9 +107,9 @@ You should now be able to enable the developer mode in the Oculus app on your sm
 
 ![EnableDevMode](/.assets/images/beginners-guide/EnableDevMode.png)
 
-You can now continue to [Setup your Phone](#setup-your-phone)
+You can now continue to [Installing Mods with ModsBeforeFriday](#installing-mods-with-modsbeforefriday)
 
-## Installing mods with ModsBeforeFriday
+## Installing Mods with ModsBeforeFriday
 
 1. Plug your Quest into your phone using your cable.
 2. Open the [ModsBeforeFriday website](https://lauriethefish.github.io/ModsBeforeFriday/) on your phone
@@ -126,14 +120,15 @@ You can now continue to [Setup your Phone](#setup-your-phone)
    :::
 3. Tap your device and click the `Connect` button. Wait a few seconds for the next page to load.
 
-### No compatible devices
+### No Compatible Devices
 
 If no devices show up in the list, then you're experiencing an issue where the Quest doesn't know
 whether to consider itself as the host for the USB connection.
+
 This can be fixed by swiping down from the top of your screen and tapping the following message:
 ![MBFUsbTray](/.assets/images/beginners-guide/mbf-android-usb-tray.png)
 
-You'll then be met by a screen a bit like what's below:
+You will then be met by a screen a bit like what's below:
 
 - If `USB controlled by` is already set to `Connected device` as in the picture,
   tap `This device`, then tap `Connected Device` again.

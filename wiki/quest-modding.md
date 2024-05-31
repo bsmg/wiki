@@ -8,7 +8,7 @@ description: Learn how to mod Beat Saber on your Quest!
 
 ## Preface
 
-- This guide is for both Quest 1, Quest 2, and Quest 3.
+- This guide is for Quest 1, Quest 2, Quest Pro, and Quest 3.
 
 - Nobody has yet been banned for modding, however modding does violate Meta's terms of service.
 
@@ -49,11 +49,11 @@ Therefore, you will need a PC (Windows / Mac / Linux)
 or an Android device.
 
 - If you have a Windows, Mac or Linux computer, visit [Modding on a PC](#preparations)
-- If you plan to mod using an Android device, visit the [Modding with Android](./support/modding-with-android.md) page.
+- If you plan to mod using an Android device, visit the [Modding with Android](./quest/modding-with-android.md) page.
 - If you want to use a Linux based computer, you can follow the Raspberry Pi guide. Note that it has only been tested
   on Raspberry Pi OS (Debian) and the process may be different on other distros.
 - To use an iOS devices, such as an iPhone or iPad, you need to have a
-  [Raspberry Pi](https://www.raspberrypi.com/). Once you have one, visit [Modding with a Raspberry Pi](./raspi-modding.md)
+  [Raspberry Pi](https://www.raspberrypi.com/). Once you have one, visit [Modding with a Raspberry Pi](./quest/modding-with-raspi.md)
   to get started.
 
 ::: warning Multiple Accounts
@@ -61,9 +61,10 @@ Beat Saber **cannot** be modded if you have multiple accounts on your device!
 You will need to temporarily remove any secondary accounts before modding.
 :::
 
-::: warning Quest 1 users
+::: danger Quest 1 Users
 Modding on Quest 1 is only possible on version 1.28 or below of Beat Saber.
-Right now, there is no way to obtain version 1.28 legally, so **you cannot mod if you have a Quest 1.**
+
+Visit the [Modding Quest 1 page](./quest/modding-quest1.md) for modding instructions.
 :::
 
 ## Preparations
@@ -84,12 +85,11 @@ If you haven't done this already, follow the steps below:
    Developer Mode. Refer to the illustrated guide below:
    ![iOSHowTo](/.assets/images/beginners-guide/EnableDevModeIOS.png)
 
-### SideQuest (optional)
+### SideQuest
 
-:::tip
-This is not required to mod at this time,
-but is useful for managing any modded games or other content on your Quest,
-so it's good idea to install it.
+:::warning This is an optional step!
+SideQuest is not required to mod at this time, but is useful for managing any modded games or other content on your Quest,
+so it is good idea to install it.
 :::
 
 Go to [SideQuest's Download Page](https://sidequestvr.com/setup-howto)
@@ -124,16 +124,16 @@ steps `AvatarData.dat`, `PlayerData.dat` and `settings.cfg` and put them in the
 
 ## Ways to Mod Beat Saber
 
-Currently, the easiest way to mod your game is using [ModsBeforeFriday](./quest-modding-mbf.md),
+Currently, the easiest way to mod your game is using [ModsBeforeFriday](#modsbeforefriday),
 a simple browser app that can get your mods installed in minutes.
 
 [QuestPatcher](#questpatcher) is a more advanced tool that runs as an app on your PC.
-It's a good option if your internet connection is unstable
+It is a good option if your internet connection is unstable
 and you need an offline solution to managing your mods,
 however it **cannot downgrade Beat Saber** so it might not be possible to use
 if the latest Beat Saber version isn't moddable.
 
-If your game has not yet been modded, you should use [ModsBeforeFriday](./quest-modding-mbf.md) to downgrade it if necessary.
+If your game has not yet been modded, you should use [ModsBeforeFriday](#modsbeforefriday) to downgrade it if necessary.
 
 :::danger BMBF Deprecation
 BMBF no longer works for modding Beat Saber on the Quest 2 or 3!
@@ -155,7 +155,10 @@ head to [Modding With QAVS](./quest-modding-qavs.md) to get started.
 ### ModsBeforeFriday
 
 ModsBeforeFriday (MBF) is an easy to use tool for modding Beat Saber that runs in your browser.
-Head to [Modding with ModsBeforeFriday](./quest-modding-mbf.md) to get started.
+
+If you are using a PC or Mac head to [Modding with ModsBeforeFriday](./quest/modding-with-mbf.md) to get started.
+
+Android users should visit [Modding with Android](./quest/modding-with-android.md) instead.
 
 ### QuestPatcher
 
