@@ -287,8 +287,10 @@ export default defineConfig({
               ['Modding With Android', '/quest/modding-with-android'],
               [
                 'Legacy',
-                [['Modding Quest 1', '/quest/modding-quest1'],
-                ['Modding With a Raspberry Pi', '/quest/modding-with-raspi'],],
+                [
+                  ['Modding Quest 1', '/quest/modding-quest1'],
+                  ['Modding With a Raspberry Pi', '/quest/modding-with-raspi'],
+                ],
               ],
             ],
           ],
