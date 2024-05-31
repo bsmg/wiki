@@ -723,12 +723,11 @@ that affects its intensity and feel. This is called _swing curvature_, which can
 
 #### Positive Swing Curvature
 
-On a backhand to forehand rotation, a swing is said to have a _positive curvature_ if
-the rotation of the **left hand** is clockwise. On a forehand to backhand rotation,
-it occurs if the rotation is counter-clockwise.
-The same can be said of the **right hand**, but with the opposite direction of rotation.
+A _positive curvature_ for the **left hand** is when the rotation is clockwise for a backhand to forehand rotation and
+counter-clockwise for a forehand to backhand rotation. The rotation direction is flipped for the **right hand**.
 
-In general, positive curvature swings tend to be smoother, which allows for larger rotations without setup.
+In other words, positive curvature can be boiled down to both wrists tracing `)(` shaped arcs.
+Generally, these swings tend to be smoother allowing for larger rotations without much setup.
 
 <!-- markdownlint-disable MD013 -->
 
@@ -739,17 +738,14 @@ In general, positive curvature swings tend to be smoother, which allows for larg
 
 <!-- markdownlint-enable MD013 -->
 
-Positive curvature can be boiled down to both wrists tracing `)(` shaped arcs.
-
 #### Negative Swing Curvature
 
-On a backhand to forehand rotation, a swing is said to have a _negative curvature_ if
-the rotation of the **left hand** is counter-clockwise. On a forehand to backhand rotation,
-it occurs if the rotation is clockwise.
-The same can be said of the **right hand**, but with the opposite direction of rotation.
+A _negative curvature_ for the **left hand** is when the rotation is counter-clockwise for a backhand to forehand rotation
+and clockwise for a forehand to backhand rotation. The rotation direction is flipped for the **right hand**.
 
-Negative curvature swings are often more taxing to execute, and those with a backhand hit or with large rotations are
-especially harsh when mapped without proper setup.
+In other words, negative curvature can be boiled down to both wrists tracing `()` shaped arcs.
+These swings are often more taxing to execute, and those with a backhand hit or large rotations are
+especially harsh on the player without proper setup.
 
 <!-- markdownlint-disable MD013 -->
 
@@ -759,8 +755,6 @@ especially harsh when mapped without proper setup.
 | ![left negative curvature](/.assets/images/mapping/left-negative-curvature.gif) | ![right negative curvature](/.assets/images/mapping/right-negative-curvature.gif) |
 
 <!-- markdownlint-enable MD013 -->
-
-Negative curvature can be boiled down to both wrists tracing `()` shaped arcs.
 
 :::details Examples
 
@@ -791,11 +785,11 @@ snappy swings, despite having large rotations.
 :::
 
 While the awareness of swing curvature is valuable when figuring out why some rotations may feel better than others,
-it should not be taken as a hard rule and limit what patterns are being used.
-Negative curvature swings can feel more natural than positive curvature swings on specific setups,
-and it is through map context
-and setting expectations that the mapper can exploit both swing curvatures
-to their full potential while preserving good flow.
+it should not be taken as a hard rule as it limits negative curvature swings can feel more natural than positive curvature
+swings on specific setups.
+
+By setting expectations and through map context you can use both swing curvatures to their full potential while preserving
+good flow.
 
 ### Swing Speed
 
