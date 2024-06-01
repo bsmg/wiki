@@ -785,11 +785,11 @@ snappy swings, despite having large rotations.
 :::
 
 While the awareness of swing curvature is valuable when figuring out why some rotations may feel better than others,
-it should not be taken as a hard rule as it limits negative curvature swings can feel more natural than positive curvature
+it should not be taken as a hard rule as negative curvature swings can feel more natural than positive curvature
 swings on specific setups.
 
-By setting expectations and through map context you can use both swing curvatures to their full potential while preserving
-good flow.
+It is by setting expectations and through map context that you can use both swing curvatures to their full potential while
+preserving good flow.
 
 ### Swing Speed
 
