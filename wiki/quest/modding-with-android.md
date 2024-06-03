@@ -6,15 +6,8 @@ description: Learn how to mod Beat Saber on your Quest using an Android device!
 
 # Quest Modding with Android
 
-:::danger Quest Modding Information
-BMBF does not support Quest 3 at this time.  
-As of the Quest v63 update, the Quest 2 and Pro are no longer moddable using BMBF.
-
-Quest 2, Pro, and 3 modding is only possible using [QuestPatcher](../quest-modding.md#questpatcher) with a computer.
-:::
-
 :::warning
-Installing BMBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
+Installing MBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
 base game leaderboards.
 If you would like to play modded multiplayer, you need the `Beat Together` and `MultiQuestensions` mods, which enables
 cross-play between PC
@@ -31,24 +24,17 @@ ScoreSaber does not replace the base game leaderboards, it only adds leaderboard
 for the current game version.
 :::
 
-::: tip NOTE
-The recommended way to install BMBF is with [SideQuest on a PC](/quest-modding.md#installing-bmbf-with-sidequest).
-This method should only be used if you do not have access to a PC.
-:::
-
-- [Requirements](#requirements)
-- [Enable Developer mode on your Quest](#how-to-enable-developer-mode-on-the-oculus-quest)
-- [Setup your Phone](#setup-your-phone)
-- [Installing BMBF with your Phone](#installing-bmbf-with-your-phone)
-- [Setup Beat Saber](#setup-beat-saber)
-
 ## Requirements
 
-- An Android Phone or Android Tablet
+- An Android Phone or Android Tablet.
   - iPhones or iPads are **NOT** supported
 - A **paid** Version of Beat Saber on the Oculus Quest Store
 - A Cable to connect your Quest to your Phone (If your phone charges over USB C the charger that was included with your
   Quest should work)
+- An up-to-date browser. It's recommended that you update/install the latest version of [Google Chrome](https://play.google.com/store/apps/details?id=com.android.chrome).
+  :::warning
+  Firefox will NOT work with MBF as it does not support accessing devices via USB. You will need a Chromium browser.
+  :::
 
 ## How to Enable Developer Mode on the Oculus Quest
 
@@ -71,7 +57,7 @@ After you created it, you can enable Developer mode in the Oculus app on your sm
 
 ![EnableDevMode](/.assets/images/beginners-guide/EnableDevMode.png)
 
-You can now skip to [Setup your Phone](#setup-your-phone)
+You can now skip to [Installing Mods with ModsBeforeFriday](#installing-mods-with-modsbeforefriday)
 
 ### I have no Credit Card
 
@@ -121,51 +107,52 @@ You should now be able to enable the developer mode in the Oculus app on your sm
 
 ![EnableDevMode](/.assets/images/beginners-guide/EnableDevMode.png)
 
-You can now continue to [Setup your Phone](#setup-your-phone)
+You can now continue to [Installing Mods with ModsBeforeFriday](#installing-mods-with-modsbeforefriday)
 
-## Setup your Phone
+## Installing Mods with ModsBeforeFriday
 
-1. Download the [SideQuest app from the Google Play store](https://play.google.com/store/apps/details?id=side.quest.mobile)
-2. Enable Developer mode on your Phone
-   1. Go into your Android settings
-   2. Scroll to "About phone" and open it
-   3. Tap "Software information"
-   4. Tap the "Build number" field until it says Developer mode enabled. This should take about 7 taps.
-3. Enable USB debugging on your Phone
-   1. Go back to settings
-   2. Tap "Developer options"
-   3. Activate USB debugging
+1. Plug your Quest into your phone using your cable.
+2. Open the [ModsBeforeFriday website](https://lauriethefish.github.io/ModsBeforeFriday/) on your phone
+   and click the `Connect to Device` button. Your screen should look like this:
+   ![MBFAndroidDevicesList](/.assets/images/beginners-guide/mbf-android-quest-found.png)
+   ::: tip
+   You will be notified at this stage if your browser is incompatible with ModsBeforeFriday.
+   :::
+3. Tap your device and click the `Connect` button. Wait a few seconds for the next page to load.
 
-### Installing BMBF with your Phone
+### No Compatible Devices
 
-:::warning
-Before modding, run Beat Saber once, play a level and immediately fail!
+If no devices show up in the list, then you're experiencing an issue where the Quest doesn't know
+whether to consider itself as the host for the USB connection.
+
+This can be fixed by swiping down from the top of your screen and tapping the following message:
+![MBFUsbTray](/.assets/images/beginners-guide/mbf-android-usb-tray.png)
+
+You will then be met by a screen a bit like what's below:
+
+- If `USB controlled by` is already set to `Connected device` as in the picture,
+  tap `This device`, then tap `Connected Device` again.
+- If `Connected Device` is `This device`, just tap `Connected device` to update the preference.
+
+:::tip
+If you're told that the setting could not be changed, try using your cable the other way around.
+(Quest end in your phone, phone end in your Quest.)
 :::
+![MBFUsbSettings](/.assets/images/beginners-guide/mbf-android-preferences-changed.png)
 
-Open Sidequest on your Phone connect and your Quest with your phone via the USB Cord.
-You should get a USB debugging pop-up in your Quest and on your phone. Select allow on both devices and if you prefer,
-select always allow.
+### Patching
 
-Now if SideQuest picked your Quest up you should see the SideQuest logo with a green dot next to it at the bottom of
-your Screen.
+4. At the next page, tap `Mod the app` to install mods/setup your game for custom songs. (See screenshot of page below)
+   ::: warning
+   Make sure you read all of the advice that MBF provides you about the risks of using mods.
+   :::
 
-Then install BMBF by clicking the search icon at the top of SideQuest and search for `BMBF`.
-You should see an app with an unicorn as symbol. Tap on that and click `INSTALL TO HEADSET`.
+![MBFReadyToPatch](/.assets/images/beginners-guide/mbf-android-ready-to-mod.png)
 
-Afterwards you should have BMBF installed on your Quest and are ready to mod Beat Saber.
+5. Assuming everything worked, you're all done!
 
-## Setup Beat Saber
+### Installing additional mods
 
-After successfully installing BMBF onto your Quest you should be able to find it in your Quests library under unknown sources.
+In the MBF home page, you can install additional mods with only one-click: Tap the `Install` button.
 
-![UnknownMenu](/.assets/images/beginners-guide/quest_home-menu.jpg)
-
-Open it and allow file access after starting it if prompted. Now follow the on-screen instructions carefully.
-After you finished you should see [BeastSaber](https://bsaber.com).
-
-If at any point during the install process, you get the Restore App popup just click Close.
-This warning is directed to pirated versions of the game so there will likely be no consequences for ignoring it if you
-have a legitimate copy.
-
-Now you can continue with the [installing mods](/quest-modding-bmbf.md#installing-mods-custom-songs-models-and-external-sources)
-step of the installation process as if you were modding with your PC.
+![MBFHomeAndroid](/.assets/images/beginners-guide/mbf-android-modding-complete.png)

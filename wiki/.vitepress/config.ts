@@ -282,13 +282,16 @@ export default defineConfig({
               ['Overview', '/quest-modding'],
               [
                 'Using a Windows PC or Mac',
+                [['Modding With ModsBeforeFriday', '/quest/modding-with-mbf']],
+              ],
+              ['Modding With Android', '/quest/modding-with-android'],
+              [
+                'Legacy',
                 [
-                  ['Modding With BMBF', '/quest-modding-bmbf'],
-                  ['Modding With QAVS', '/quest-modding-qavs'],
+                  ['Modding Quest 1', '/quest/modding-quest1'],
+                  ['Modding With a Raspberry Pi', '/quest/modding-with-raspi'],
                 ],
               ],
-              ['Modding With Android', '/support/modding-with-android'],
-              ['Modding With a Raspberry Pi', '/raspi-modding'],
             ],
           ],
           [
