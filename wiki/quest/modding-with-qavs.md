@@ -13,10 +13,10 @@ QAVS does not support Quest 3 at this time.
 Additionally, as of the Quest v63 update, the Quest 2 and Pro are no longer moddable using QAVS.
 
 If you do not know exactly why you want to use QAVS,
-head back to [Preparations](./quest-modding.md#Preparations) and choose a different tool.
+head back to [Preparations](../quest-modding.md#Preparations) and choose a different tool.
 :::
 
-If you have not already, go to [Preparations](./quest-modding.md#preparations) and follow those steps.
+If you have not already, go to [Preparations](../quest-modding.md#preparations) and follow those steps.
 You should now have Developer Mode enabled and SideQuest Advanced installed on your PC.
 It is recommended to disable the proximity sensor of your quest in the SideQuest device settings.
 This prevents it from going into sleep mode during the modding process. Alternatively you can tape

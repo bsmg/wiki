@@ -149,7 +149,7 @@ This is a temporary situation and may change soon.
 You need to downgrade **and patch** with [ModsBeforeFriday](#modsbeforefriday) instead.
 
 If you have been instructed by somebody who knows what they're talking about to use QAVS,
-head to [Modding With QAVS](./quest-modding-qavs.md) to get started.
+head to [Modding With QAVS](./quest/modding-with-qavs.md) to get started.
 :::
 
 ### ModsBeforeFriday
@@ -181,5 +181,5 @@ You should now have Developer Mode enabled and SideQuest Advanced installed on y
 
 ::: warning
 Due to a software update, QAVS **cannot** be used to patch Beat Saber at this time.
-Use [ModsBeforeFriday](./quest-modding-mbf.md) instead.
+Use [ModsBeforeFriday](./quest/modding-with-mbf.md) instead.
 :::
