@@ -1,59 +1,62 @@
 ---
-home: true
-title: BSMG Wiki
-heroText: BSMG Wiki
-tagline: Beat Saber Modding Group Wiki へようこそ!
+layout: home
+titleTemplate: false
 description: Beat Saber Modding Group Wiki へようこそ!
-actionText: 初心者向けガイド →
-actionLink: ./beginners-guide.md
-footer: Copyright © 2019-2022 Beat Saber Modding Group | Licensed under CC BY-NC-SA 4.0
-tags:
-  - bsmg
-  - beat saber
-  - modding
-  - wiki
-  - サポート
-  - ヘルプ
-  - 譜面の作り方
+
+hero:
+  text: |
+    Beat Saber Modding Group Wiki
+    へようこそ!
+  tagline: Beat Saber Modding Group Wiki へようこそ!
+  actions:
+    - theme: brand
+      text: 初心者向けガイド
+      link: ./beginners-guide.md
+    - theme: alt
+      text: Edit on GitHub
+      link: https://github.com/bsmg/wiki
 ---
 
-<!-- markdownlint-disable MD033 -->
-<div class='features'>
+<!-- markdownlint-disable-file MD033 -->
+<!-- markdownlint-disable MD041 -->
 
-::: feature はじめに
+<script setup lang="ts">
+  import Home from '../.vitepress/components/Home.vue'
+  import HomeGroup from '../.vitepress/components/HomeGroup.vue'
+  import HomeItem from '../.vitepress/components/HomeItem.vue'
+  import HomeLinks from '../.vitepress/components/HomeLinks.vue'
+</script>
 
-- [PC 用 Mod](./pc-modding.md)
-- [Quest 用 Mod](./quest-modding.md)
-- [よくある問題](./support/)
-- [持ち方とコツ](./grips-and-tricks.md)
-- [ランキングとスコア](./ranking-guide.md)
-  :::
+<Home>
+  <HomeGroup title="はじめに">
+    <HomeItem name="PC 用 Mod" href="./pc-modding.html" />
+    <HomeItem name="Quest 用 Mod" href="./quest-modding.html" />
+    <HomeItem name="よくある問題" href="./support/" />
+    <HomeItem name="持ち方とコツ" href="./grips-and-tricks.html" />
+    <HomeItem name="ランキングとスコア" href="./ranking-guide.html" />
+  </HomeGroup>
 
-::: feature コンテンツ作成
+  <HomeGroup title="コンテンツ作成">
+    <HomeItem name="Mod 作成ガイド" href="./modding/" />
+    <HomeItem name="譜面作成ガイド" href="./mapping/" />
+    <HomeItem name="3D モデル作成ガイド" href="./models/" />
+  </HomeGroup>
 
-- [Mod 作成ガイド](./modding/)
-- [譜面作成ガイド](./mapping/)
-- [3D モデル作成ガイド](./models/)
-  :::
+  <HomeGroup title="その他">
+    <HomeItem name="私たちについて" href="./about/" />
+    <HomeItem name="安全と健康" href="./health-and-safety.html" />
+    <HomeItem name="よくある質問" href="./faq/" />
+    <HomeItem name="コミュニティ" href="./communities/" />
+  </HomeGroup>
+</Home>
 
-::: feature その他
-
-- [私たちについて](./about/)
-- [安全と健康](./health-and-safety.md)
-- [よくある質問](./faq/)
-- [コミュニティ](./communities/)
-  :::
-
-</div>
-<!-- markdownlint-enable MD033 -->
-
----
-
-## 外部リンク
+<HomeLinks>
 
 - [Discord サーバーに参加する](https://discord.gg/beatsabermods)
 - [お問い合わせ](https://bsmg.dev/contact) スキルを提供したい、スポンサーになりたい、サーバー内のユーザーのミュート、Ban、報告など、その他問い合わせ
 - [BSMG Patreon](https://www.patreon.com/beatsabermods) - BSMG サービスを支援して下さい!
+- [BSMG Store](https://bsmgstore.com/)
+- [BSMG Map Playlists](https://beatsaver.com/profile/4329735#playlists)
 
 ---
 
@@ -66,6 +69,7 @@ tags:
 
 - [Qosmetics Discord](https://discord.gg/qosmetics) - Quest 用のカスタムセイバー、壁、ブロックがダウンロードできます！
 - [QuestBoard Hub](https://discord.gg/d6DyW9v) - QuestBeatSaber についてのすべてのもののための Discord!
+- [BeatLeader](https://www.beatleader.xyz/) - カスタムソングのランキング
 - [ScoreSaber](https://scoresaber.com/) - カスタムソングのランキング
 - [Steam ストアページ](https://store.steampowered.com/app/620980/Beat_Saber/)
 - [Oculus ストアページ](https://www.oculus.com/experiences/rift/1304877726278670/)
@@ -74,3 +78,5 @@ tags:
 
 - [wiki 作成に協力する](https://docs.google.com/document/d/1r6IP6l3uo8rc__GxfLkpaToxheeXotdYaKEj3oWB2js/edit?usp=sharing) - wiki への書き込みの方法
 - [Wiki の翻訳はこちら](https://forms.gle/e3BqA3poMjESARe76) - この wiki を翻訳しましょう！
+
+</HomeLinks>

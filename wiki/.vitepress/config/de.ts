@@ -17,7 +17,7 @@ export const de = defineConfig({
 
     footer: {
       message: 'Copyright © 2019-2024 Beat Saber Modding Group',
-      copyright: 'Licensed under CC BY-NC-SA 4.0',
+      copyright: 'Lizenziert unter CC BY-NC-SA 4.0',
     },
 
     editLink: {
