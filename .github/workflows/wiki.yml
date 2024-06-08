@@ -37,6 +37,8 @@ jobs:
             #wiki/{de,fr,ja,nl}/**/*.md
       - name: Lint Image Sizes
         run: npm run lint:images
+      - name: Build Check
+        run: npm run build
 
   deploy:
     name: Deploy Main
