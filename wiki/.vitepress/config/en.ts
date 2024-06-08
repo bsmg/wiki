@@ -1,139 +1,28 @@
-import container from 'markdown-it-container'
-import { env } from 'node:process'
-import type { DefaultTheme } from 'vitepress'
 import { defineConfig } from 'vitepress'
-import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
-
-const IS_DEV = env.NODE_ENV === 'production'
-
-const search = (): DefaultTheme.Config['search'] => {
-  if (IS_DEV) return { provider: 'local' }
-
-  return {
-    provider: 'algolia',
-    options: {
-      appId: 'MDQBBYI18P',
-      apiKey: '0f36f096b83770eae78115f2d88bd394',
-      indexName: 'bsmg',
-    },
-  }
-}
-
-type Route =
-  | readonly [name: string, path: string, routes?: Route[]]
-  | readonly [name: string, routes: Route[]]
-
-interface SidebarItem {
-  name: string
-  path: string
-  routes: Route[]
-}
-
-const convert = ([text, link, routes]: Route): DefaultTheme.SidebarItem => {
-  if (typeof link === 'string') {
-    return {
-      text,
-      link,
-      items: routes?.map(route => convert(route)),
-    }
-  }
-
-  return {
-    text,
-    items: (link ?? routes)?.map(route => convert(route)),
-  }
-}
-
-const sidebar = (...items: SidebarItem[]): DefaultTheme.SidebarMulti => {
-  return Object.fromEntries(
-    items.map(({ name, path, routes }) => [
-      path,
-      [
-        {
-          text: name,
-          link: '.',
-          items: routes?.map(route => convert(route)),
-        },
-      ],
-    ]),
-  )
-}
+import { sidebar } from './shared'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: 'BSMG Wiki',
+export const en = defineConfig({
+  lang: 'en',
   description:
     'Guides on how to mod Beat Saber, create custom content, and get involved in the community!',
-  lastUpdated: true,
-
-  head: [['link', { rel: 'icon', href: '/icon.png' }]],
-
-  locales: {
-    root: {
-      label: 'English',
-      lang: 'en',
-
-      themeConfig: {
-        nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Beginners Guide', link: '/beginners-guide.md' },
-          { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
-        ],
-      },
-    },
-    fr: {
-      label: 'Français',
-      title: 'Wiki BSMG',
-
-      themeConfig: {
-        nav: [
-          { text: 'Accueil', link: '/fr/' },
-          { text: 'Guide du Débutant', link: '/fr/beginners-guide.md' },
-          { text: 'Discord BSMG', link: 'https://discord.gg/beatsabermods' },
-        ],
-      },
-    },
-    de: {
-      label: 'Deutsch',
-      title: 'Wiki BSMG',
-
-      themeConfig: {
-        nav: [
-          { text: 'Startseite', link: '/de/' },
-          { text: 'Anfänger Guide', link: '/beginners-guide.md' },
-          { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
-        ],
-      },
-    },
-    nl: {
-      label: 'Nederlands',
-      title: 'Wiki BSMG',
-
-      themeConfig: {
-        nav: [
-          { text: 'Hoofdmenu', link: '/nl/' },
-          { text: 'Gids voor beginners', link: '/nl/beginners-guide.md' },
-          { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
-        ],
-      },
-    },
-    ja: {
-      label: '日本語',
-      title: 'Wiki BSMG',
-
-      themeConfig: {
-        nav: [
-          { text: 'ホーム', link: '/ja/' },
-          { text: '初心者ガイド', link: '/ja/beginners-guide.md' },
-          { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
-        ],
-      },
-    },
-  },
 
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    outline: [2, 3],
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Beginners Guide', link: '/beginners-guide.md' },
+      { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
+    ],
+
+    footer: {
+      message: 'Copyright © 2019-2024 Beat Saber Modding Group',
+      copyright: 'Licensed under CC BY-NC-SA 4.0',
+    },
+
+    editLink: {
+      pattern: 'https://github.com/bsmg/wiki/edit/master/wiki/:path',
+      text: 'Edit this page on GitHub',
+    },
 
     sidebar: sidebar(
       {
@@ -305,26 +194,5 @@ export default defineConfig({
         ],
       },
     ),
-
-    footer: {
-      message: 'Copyright © 2019-2024 Beat Saber Modding Group',
-      copyright: 'Licensed under CC BY-NC-SA 4.0',
-    },
-
-    externalLinkIcon: true,
-    socialLinks: [{ icon: 'github', link: 'https://github.com/bsmg/wiki' }],
-    editLink: {
-      pattern: 'https://github.com/bsmg/wiki/edit/master/wiki/:path',
-    },
-
-    search: search(),
-  },
-
-  sitemap: { hostname: 'https://bsmg.wiki/' },
-
-  markdown: {
-    config: md => {
-      md.use(container, 'center'), md.use(tabsMarkdownPlugin)
-    },
   },
 })
