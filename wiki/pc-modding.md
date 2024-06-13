@@ -213,9 +213,8 @@ If it is not, you can follow these tutorials to downgrade to a moddable version.
 
 Click on these links corresponding to where you own the game to see the tutorials.
 
-- For Steam you can use either:
+- For Steam you can use:
   - [BSManager](https://github.com/Zagrios/bs-manager#readme)
-  - [LegacyInstaller](https://github.com/Goobwabber/LegacyInstaller#readme)
 - For Oculus Store you can use either:
   - [BSManager](https://github.com/Zagrios/bs-manager#readme)
   - [Oculus downgrader](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)
