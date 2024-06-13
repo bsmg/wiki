@@ -215,7 +215,6 @@ Click on these links corresponding to where you own the game to see the tutorial
 
 - For Steam you can use either:
   - [BSManager](https://github.com/Zagrios/bs-manager#readme)
-  - [LegacyInstaller](https://github.com/Goobwabber/LegacyInstaller#readme)
 - For Oculus Store you can use either:
   - [BSManager](https://github.com/Zagrios/bs-manager#readme)
   - [Oculus downgrader](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)
