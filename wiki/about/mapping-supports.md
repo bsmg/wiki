@@ -16,7 +16,6 @@ For some reason, spends way more time talking about mapping then actually mappin
 <AboutLinks>
 
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c855ce3)
-[BeastSaber](https://bsaber.com/members/alzaraf/)
 
 </AboutLinks>
 
@@ -27,7 +26,6 @@ Contributed lots of stuff to the Mapping section of the wiki. Has an interesting
 <AboutLinks>
 
 [BeatSaver](https://beatsaver.com/uploader/5e84a9933f476a000645dd88)
-[BeastSaber](https://bsaber.com/members/xace1337manx/)
 
 </AboutLinks>
 
@@ -38,7 +36,6 @@ A furry on Mondays and Wednesdays, makes awesome maps with various gimmicks push
 <AboutLinks>
 
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8543ac)
-[BeastSaber](https://bsaber.com/members/cyansnow/)
 
 </AboutLinks>
 
@@ -49,7 +46,6 @@ A mapper and testplayer who focuses on metal music, and lots of multi-diff maps.
 <AboutLinks>
 
 [BeatSaver](https://beatsaver.com/uploader/5eb6eb9a7abb000006c85add)
-[BeastSaber](https://bsaber.com/members/cyrix/)
 
 </AboutLinks>
 
@@ -63,7 +59,6 @@ Creator of the [Beginner's Guide to Mapping tutorial series](https://www.youtube
 <AboutLinks>
 
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7598cc5a672c852683)
-[BeastSaber](https://bsaber.com/members/fruhead/)
 
 </AboutLinks>
 
@@ -75,7 +70,6 @@ The guides wouldn't be like they are today without them!
 <AboutLinks>
 
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7798cc5a672c8553d2)
-[BeastSaber](https://bsaber.com/members/helencarnate/)
 [Etsy Shop](https://www.etsy.com/shop/HelenCarnateDesigns)
 
 </AboutLinks>
@@ -87,7 +81,6 @@ Bringer of eye damage with his flashy light shows, he can help you make your map
 <AboutLinks>
 
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c85507f)
-[BeastSaber](https://bsaber.com/members/skeelie/)
 [YouTube](https://www.youtube.com/user/xSkeelie)
 [Twitch](https://www.twitch.tv/skeelie)
 
@@ -104,7 +97,6 @@ First time ChroMapper contributor and MMA2 maintainer. Might finish a map one da
 <AboutLinks>
 
 [BeatSaver](https://beatsaver.com/uploader/5f63fb45103cbc00068ee060)
-[BeastSaber](https://bsaber.com/members/vaser888/)
 [YouTube](https://www.youtube.com/c/vaser888)
 
 </AboutLinks>

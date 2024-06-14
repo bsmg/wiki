@@ -84,7 +84,6 @@ The UI and some processes have changed in the latest recommended editor, [MMA2](
 but the rest of the content is great!
 :::
 
-- [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/)
 - [Freeek's Mapping and Editor Tutorials](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
 
 ## Audio Editing Resources
@@ -287,9 +286,17 @@ time to be reviewed and approved.
 
 ### Curation
 
-Mappers can submit high quality maps, free of [objective issues](https://bsaber.com/getting-started/curation/#donts) to
-the #curation-request channel on the [BeastSaber Discord](https://discord.gg/VJZHUbt). Maps selected for curation are
-given extra visibility on the site and included in the Curator Recommended feed.
+The BeastSaber Curation team strives to recommend maps that meet a minimum quality standard and subjectively have that
+extra “fun factor” for that individual Curator.
+
+Mappers can submit high quality maps, free of [objective issues](https://bsaber.com/curation) by submitting a [request
+or recommendation](https://forms.gle/ppkhbA9TG4GmN3jS7). Once you've made your submission, you can track the status
+of the request in the [Curation Requests & Suggestions Queue](https://docs.google.com/spreadsheets/d/1IBZNJUae94FjJGMmnc94JsH3SN7iBufW-CzrU2zJPEk/edit?usp=sharing)
+
+Maps selected for curation are given extra visibility on BeatSaver; as well as BeastSaber where the 8 most recently
+published and curated maps are mirrored.
+
+Need to get in contact with the Curation Team? Join the [BeastSaber Discord Server](https://discord.gg/VJZHUbt)
 
 ### Modding & Ranking
 
@@ -613,10 +620,9 @@ This is the default error message, causes include:
 
 ### BeastSaber
 
-[BeastSaber](http://www.bsaber.com) is a song review and curation site with social features including reviewing and commenting
-on songs.
-All songs published on BeatSaver are mirrored to BeastSaber within 10-15 minutes. Additionally, maps
-deleted from BeatSaver may take up to a day to be removed from BeastSaber.
+[BeastSaber](http://www.bsaber.com) aims to be the hub of the Beat Saber community; featuring Curator map
+recommendations, featured map packs/playlists, essential articles for getting started with Beat Saber, and other
+community news and articles.
 
 ## [Credits](./mapping-credits.md)
 
