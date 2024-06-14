@@ -22,7 +22,7 @@ Ein Mapper, der sehr auf japanische und EDM-Musik mit gelegentlichem K-Pop-Song 
 **Rollen:** Staff, Mapping Support, Mapper  
 **Beiträge:** Wiki Management, Mapping Resources Maintainer
 
-[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [BeastSaber](https://bsaber.com/members/bloodcloak/) | [Spenden](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
+[BeatSaver](https://beatsaver.com/uploader/5cff0b7698cc5a672c8551d3) | [Spenden](https://www.paypal.me/bloodcloak) | [Ko-Fi](https://ko-fi.com/bloodcloak)
 
 ## Bobbie
 

@@ -251,7 +251,6 @@ Wordt lid van de [Qosmetics Community](https://discord.gg/qosmetics) om te aan t
 - [Qosmetics Creatie gidsen](https://github.com/RedBrumbler/Qosmetics/wiki) - Handleidingen om je eigen custom sabers, blokken en muren voor de Quest te maken.
 - [QuestBoard website](https://questmodding.com) - Een plek om gerelateerd nieuws en informatie te krijgen over zowel Beat Saber als de nieuwste mods releases!
 - [QuestBoard discord server](https://discord.gg/P7sUKVnP) - Een Quest community om in rond te hangen en te praten over Beat Saber gerelateerde zaken, je kan ook een rol krijgen om een notificatie te krijgen wanneer er een nieuwe mod wordt vrijgegeven!
-- [Het oplossen van out-of-sync audio.](https://bsaber.com/quest-out-of-sync/)
 - [ScoreSaber](https://scoresaber.com/quest) - In-game scoreborden voor custom levels.
 
 ## Probleemoplossing

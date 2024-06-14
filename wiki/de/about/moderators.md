@@ -82,7 +82,7 @@ Ein BeastSaber-Admin, der den Großteil des Inhalts für [How to Playtest](../ma
 
 **Rollen:** Moderator, Mapping Support
 
-[BeatSaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf) | [BeastSaber](https://bsaber.com/members/pyrowarfare/)
+[BeatSaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf)
 
 ## RangeValley
 

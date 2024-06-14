@@ -68,7 +68,6 @@ Stattdessen solltest du den Anleitungen auf dem Wiki folgen, überprüfte Tutori
 Diese Serien verwende ältere Editoren in den Tutorials (Mediocre Mapper and EditSaber). Die Benutzeroberfläche und einige Abläufe haben sich in den derzeit empfohlenen Editor, [MMA2](./mediocre-map-assistant.md), verändert, der Rest des Inhalts ist jedoch hilfreich!
 :::
 
-- [BennyDaBeast's Mapping Tutorials (Englisch)](https://bsaber.com/benny-custom-mapping/)
 - [Freeek's Mapping and Editor Tutorials (Englisch)](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
 
 ## Hilfsmittel für Audiobearbeitung
@@ -187,8 +186,6 @@ Du kannst jetzt du mit dem Mappen fortfahren!
 
 - [BPM Saber](https://github.com/zevdg/bpm-saber#readme) von **Zevdg**  
   **Funktioniert nur mit dem alten .json-Dateiformat. Benutze für .dat-Maps den Tempo Changer in +1 Rabbit's Mapping Tools.** Es ändert die BPM der gesamten Map und verschiebt die Blöcke dementsprechend
-- [BPM Saber](https://bsaber.com/bpmsaber/) von **Elliotttate**  
-  Ein Dienstprogramm, um die BPM eines Liedes durch Hochladen oder Antippen zu finden.
 - [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t) von **Fayhe**  
   Video-Anleitung zur Verwendung der Timing-Funktion des osu!-Editors, um die Bpm der Map zu finden.
 
@@ -260,8 +257,6 @@ Fortgeschritten und nuancierte Techniken, Beleuchtung für benutzerdefinierte Pl
 Ältere Anleitung sind hier verlinkt, solange wir deren Inhalte in das Wiki migrieren.
 
 - [Beginner's Guide to Lighting (Englisch)](https://docs.google.com/document/d/1wpZgBeOD1-UbJpXf-b6gX5ICNYygCd6UK6LOPm-t5QM/edit) von Puds
-- [Lighting Environment Guide (Englisch)](https://bsaber.com/creating-lighting-environment-guide/) von ManDynasty
-- [Using Flash & Fade Lighting Events (Englisch)](https://bsaber.com/creating-lighting-how-flash-fade-notes-actually-work-in-game/) von ManDynasty
 - [Side Laser Speed Reference (Englisch)](https://docs.google.com/spreadsheets/d/1tIERmSyFI4ssjDkE-oJjBBvUZUJ7eoVhCQyM3_BsJwE/edit?usp=sharing) von LittleAsi
 
 ### Automatisierte Beleuchtung
