@@ -49,12 +49,6 @@ You might know them for their spectacular platforms, or for more refined individ
 
 </AboutLinks>
 
-## iamded
-
-He plays Beat Saber and helps people in the afterlife. He's not dead.
-
-**Roles:** Support
-
 ## Johnny0403
 
 He likes playing Beat Saber. He also likes helping people fix their problems so they can play Beat Saber.
