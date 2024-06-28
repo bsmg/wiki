@@ -25,7 +25,6 @@ _Totally_ hasn't fallen into the Vtuber hole and makes computer code that works!
 [Twitter](https://twitter.com/B1oodc1oak)
 [YouTube](https://www.youtube.com/c/Bloodcloak)
 [BeatSaver](https://beatsaver.com/profile/71661)
-[BeastSaber](https://bsaber.com/members/bloodcloak/)
 [Donate](https://ko-fi.com/bloodcloak)
 
 </AboutLinks>

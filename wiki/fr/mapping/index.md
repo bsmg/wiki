@@ -40,7 +40,6 @@ Les guides écrits ne sont pas votre truc ? Regardez cette série de vidéos !
 Ces séries utilisent de vieux éditeurs dans leurs tutoriels (Mediocre Mapper et EditSaber). L'interface et certaines fonctions ont changé dans [MMA2](/fr/mapping/mediocre-map-assistant.md), l'éditeur recommandé, mais le reste du contenu est super !
 :::
 
-- [Tutoriel de mapping de BennyDaBeast](https://bsaber.com/benny-custom-mapping/) (en anglais)
 - [Tutoriels de mapping et d'édition de Freeek](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b) (en anglais)
 
 ## Ressources pour l'édition audio
@@ -142,7 +141,6 @@ Vous êtes maintenant prêt à continuer à éditer vos map !
   Compile une playlist une playlist du jeu à partir d'un fichier txt contenant des entrées de BeatSaver.
 - [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) de **DarkGrisen**
   Vous vous êtes déjà dit que c'était beaucoup de boulot de faire des grosses maps avec d'autres personnes ou de couper parfaitement les fichiers audio afin de pouvoir les fusionner manuellement ensuite ? Cet outils vous permet de fusionner deux maps ou plus en une seule super longue map.
-- [BPM Saber](https://bsaber.com/bpmsaber/) de **Elliotttate**
   Un outil pour trouver le BPM d'une musique en la mettant en ligne ou en la recherchant.
 - [osu! Editor Timing Tutorial](https://www.youtube.com/watch?v=nIX0koHzW8c&t=) de **Fayhe**
   Un guide (en anglais) pour savoir utiliser la fonction "timing" de l'éditeur d'osu! pour trouver le BPM d'une map.
@@ -190,8 +188,6 @@ Une map n'est pas complète jusqu'à ce qu'on y ajoute une forme d'éclairage. L
 Ci-dessous se trouvent des ressources concernant l'éclairage le temps que nous mettions en place d'autres pages sur le wiki.
 
 - [Beginner's Guide to Lighting](https://docs.google.com/document/d/1wpZgBeOD1-UbJpXf-b6gX5ICNYygCd6UK6LOPm-t5QM/edit) de Puds (en anglais)
-- [Lighting Environnement Guide](https://bsaber.com/creating-lighting-environment-guide/) de ManDynasty (en anglais)
-- [Using Flash & Fade Lighting Events](https://bsaber.com/creating-lighting-how-flash-fade-notes-actually-work-in-game/) de ManDynasty (en anglais)
 - [Side Laser Speed Reference](https://docs.google.com/spreadsheets/d/1tIERmSyFI4ssjDkE-oJjBBvUZUJ7eoVhCQyM3_BsJwE/edit#gid=0) de LittleAsi (en anglais)
 
 ### Éclairage automatique

@@ -240,7 +240,6 @@ and contibuted on various other pages. Be warned: you will be asked to talk abou
 <AboutLinks>
 
 [BeatSaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf)
-[BeastSaber](https://bsaber.com/members/pyrowarfare/)
 
 </AboutLinks>
 

@@ -233,7 +233,6 @@ Quest 内でマップをインストールできない場合は、mod のイン�
 - [Qosmetics Creation Guides](https://github.com/RedBrumbler/Qosmetics/wiki) - Quest 用に独自のカスタムセイバー、ノーツ、壁を作成するためのガイド。
 - [Questboard website](https://questmodding.com) - Beat Saber 関連のニュースや最新の mods リリースの情報など！
 - [Questboard discord server](https://discord.gg/P7sUKVnP) - BeatSaber のクエストに関係する情報があります。また Mod がリリースされたときに通知を受けることもできます。
-- [オーディオ同期ズレの修正](https://bsaber.com/quest-out-of-sync/)
 - [ScoreSaber](https://scoresaber.com/quest) - カスタムマップのゲーム内ランキング
 - [ScoreSaber](https://scoresaber.com) - カスタムマップのリーダーボードを閲覧できるウェブサイト。
 

@@ -127,10 +127,10 @@ To enable and use BSManager's OneClick™ Install see the picture below:
 ### Beast Saber
 
 [Beast Saber](https://www.bsaber.com) (bsaber.com) is a site that tries to help make finding fantastic maps to play easier.
-It does this by categorizing the thousands of songs on BeatSaver and lets you sort by a song's genre and many other
-attribute tags. It also has a full social feature where players can review songs and comment on them. One of the most used
-features is the "Curator Recommended" feature where a team plays through most songs released each day and recommends the
-ones that stand out, letting you [automatically download these in-game](https://bsaber.com/beatsync/).
+The most used feature is the "Recently Curated Maps" feed where a team of curators plays through most songs released
+each day and recommends the ones that meet a minimum quality standard and have that subjective "fun factor" for them.
+BeastSaber also features the most recent maps from verified mappers, a collection of Maps of the Week, and
+featured/curated map packs/playlists.
 
 ### Song Management Apps
 
