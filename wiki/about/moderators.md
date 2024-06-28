@@ -67,6 +67,18 @@ Camellia is SourPls
 
 </AboutLinks>
 
+## iamded
+
+While I enjoy peace and quiet, I also enjoy looking out for people. I'm not dead.
+
+**Roles:** Support, Moderator
+
+<AboutLinks>
+
+[Github](https://github.com/IAMDEDJUSTTOGETFILES)
+
+</AboutLinks>
+
 ## iSmellFood
 
 **Roles:** Moderator
