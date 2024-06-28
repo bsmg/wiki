@@ -43,18 +43,6 @@ Ironically doesn't like burritos, thinks tacos are better (true facts)
 
 </AboutLinks>
 
-## iamded
-
-While I enjoy peace and quiet, I also enjoy looking out for people. I'm not dead.
-
-**Roles:** Support, Moderator
-
-<AboutLinks>
-
-[Github](https://github.com/IAMDEDJUSTTOGETFILES)
-
-</AboutLinks>
-
 ## ezconfirmed
 
 **Roles:** Moderator
@@ -76,6 +64,18 @@ Camellia is SourPls
 <AboutLinks>
 
 [Twitch](https://www.twitch.tv/hydrandvr)
+
+</AboutLinks>
+
+## iamded
+
+While I enjoy peace and quiet, I also enjoy looking out for people. I'm not dead.
+
+**Roles:** Support, Moderator
+
+<AboutLinks>
+
+[Github](https://github.com/IAMDEDJUSTTOGETFILES)
 
 </AboutLinks>
 
