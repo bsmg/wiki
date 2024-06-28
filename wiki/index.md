@@ -2,6 +2,7 @@
 layout: home
 titleTemplate: false
 description: The Beat Saber Modding Group Wiki. Learn how to mod Beat Saber, create custom content, and get involved in the community!
+markdownStyles: false
 
 hero:
   text: |
