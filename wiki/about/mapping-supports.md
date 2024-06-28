@@ -101,10 +101,16 @@ First time ChroMapper contributor and MMA2 maintainer. Might finish a map one da
 
 </AboutLinks>
 
----
+## Also Check Out
 
-::: tip See Also
-**Supports:** [Kolezan](./supports.md#kolezan)  
-**Moderators:** [Pyrowarfare](./moderators.md#pyrowarfare-retired)  
-**Staff:** [Bloodcloak](./staff.md#bloodcloak)  
-:::
+### Supports
+
+[Kolezan](./supports.md#kolezan)
+
+### Moderators
+
+[Pyrowarfare](./moderators.md#pyrowarfare-retired)
+
+### Staff
+
+[Bloodcloak](./staff.md#bloodcloak)

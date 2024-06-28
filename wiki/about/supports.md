@@ -200,15 +200,24 @@ Created by [Megalon](./staff.md#megalon), recreated by [Lulu](./staff.md#lulu), 
 
 A very helpful individual
 
----
+## Also Check Out
 
-::: tip See Also
-**3D Artists:** [RedBrumbler](./3d-artists.md#redbrumbler)  
-**Modders:** [Kyle1413](./modders.md#kyle1413), [Sirspam](./modders.md#sirspam), [rui2015](./moderators.md#rui2015),
+### 3D Artists
+
+[RedBrumbler](./3d-artists.md#redbrumbler)
+
+### Modders
+
+[Kyle1413](./modders.md#kyle1413), [Sirspam](./modders.md#sirspam), [rui2015](./moderators.md#rui2015),
 [KodenameKRAK](./modders.md#kodenamekrak), [Nuggo](./modders.md#nuggo)
-**Moderators:** [Razor](./moderators.md#razor), [Chara\_](./moderators.md#chara-retired),
-[Burrito](./moderators.md#burrito), [OneEyed](./moderators.md#oneeyed-retired), [Storm](./moderators.md#storm)  
-**Staff:** [Assistant](./staff.md#assistant-retired), [Eradawn](./staff.md#eradawn),
-[𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./staff.md#jennifer), [Klouder](./staff.md#klouder-retired), [Megalon](./staff.md#megalon),
+
+### Moderators
+
+[Razor](./moderators.md#razor), [Chara\_](./moderators.md#chara),
+[Burrito](./moderators.md#burrito), [OneEyed](./moderators.md#oneeyed), [Storm](./moderators.md#storm)
+
+### Staff
+
+[Assistant](./staff.md#assistant), [Eradawn](./staff.md#eradawn),
+[𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./staff.md#jennifer), [Klouder](./staff.md#klouder), [Megalon](./staff.md#megalon),
 [Pink](./staff.md#pink), [Steven](./staff.md#steven-🎀), [williums](./staff.md#williums), [Melopod ƸӜƷ](./staff.md#melopod-ƹжʒ)
-:::

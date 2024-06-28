@@ -144,12 +144,16 @@ Primarily focusing on offering niche Beat Saber mods for the Quest and helping e
 
 </AboutLinks>
 
----
+## Also Check Out
 
-<!-- markdownlint-disable MD013 -->
+### Support
 
-::: tip See Also
-**Support:** [Emma](./supports.md#emma)  
-**Moderators:** [DeeJay](./moderators.md#deejay-retired)  
-**Staff:** [Assistant](./staff.md#assistant-retired), [Bobbie](./staff.md#bobbie), [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./staff.md#jennifer), [Pink](./staff.md#pink)
-:::
+[Emma](./supports.md#emma)
+
+### Moderators
+
+[DeeJay](./moderators.md#deejay)
+
+### Staff
+
+[Assistant](./staff.md#assistant), [Bobbie](./staff.md#bobbie), [𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯](./staff.md#jennifer), [Pink](./staff.md#pink)
