@@ -10,7 +10,43 @@ for such events happening now, or in the future!
 
 If you want to see us holding more fun events, please consider contributing to the events tier on our [Patreon](https://www.patreon.com/beatsabermods)!
 
+## 2023 Christmas Competition
+
+The sixth and final Christmas contest. The playlist cover featuring art by JessyJams!
+
 ---
+
+[Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/1187881380294709469)
+
+### Map Winners
+
+#### Standard Maps
+
+- **1st:** [Wolfgang Lohr - What Will Santa Claus Say [Electro Swing]](https://beatsaver.com/maps/37f6c) by **Nixie**
+- **2nd:** [Camellia - I don't care about Christmas though](https://beatsaver.com/maps/37dc4) by **chikinbiskit**
+- **3rd:** [Chloe Adams - Last Christmas (Nightcore)](https://beatsaver.com/maps/38039) by **Joetastic** and **Tpenny68**
+
+#### Visual Experience Maps
+
+- **1st:** [clayekea - snow trails](https://beatsaver.com/maps/37c61) by **Phøenix**
+- **2nd:** [Mitchie M - Suki! Yuki! Maji Magic (kotoha cover)](https://beatsaver.com/maps/37fc4) by **Ken_Monogatari**
+
+#### Gameplay Experience Maps
+
+- **1st:** [Pentatonix - Sleigh Ride](https://beatsaver.com/maps/37f14) by **MadChase**
+
+### Model Winners
+
+- **1st:** PC Saber [T7-Hoarfrost](https://modelsaber.com/Sabers/?id=1703274407&pc) by **Terra**
+
+### Grand Prize
+
+**Phøenix's** map: [clayekea - snow trails](https://beatsaver.com/maps/37c61)
+
+#### Download this year's submissions all together here
+
+[PC Models](https://modelsaber.com/Sabers/?id=1703274407&pc) |
+[Maps](https://beatsaver.com/playlists/255124)
 
 ## 2023 Halloween Competition
 

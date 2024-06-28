@@ -823,11 +823,17 @@ Girl who makes AI stuff and streams with her cats. Creator of JDFixer, AccessAbi
 
 </AboutLinks>
 
----
+## Also Check Out
 
-::: tip See Also
-**Support:** [Pespiri](./supports.md#pespiri)  
-**Moderators:** [rui2015](./moderators.md#rui2015)  
-**Staff:** [+1 Rabbit](./staff.md#_1-rabbit), [Caeden117](./staff.md#caeden117), [Lulu](./staff.md#lulu), [Megalon](./staff.md#megalon),
-[Pink](./staff.md#pink), [Reaxt](./staff.md#reaxt), [Lillie](./staff.md#lillie-retired), [Steven](./staff.md#steven-🎀)
-:::
+### Supports
+
+[Pespiri](./supports.md#pespiri)
+
+### Moderators
+
+[rui2015](./moderators.md#rui2015)
+
+### Staff
+
+[+1 Rabbit](./staff.md#_1-rabbit), [Caeden117](./staff.md#caeden117), [Lulu](./staff.md#lulu), [Megalon](./staff.md#megalon),
+[Pink](./staff.md#pink), [Reaxt](./staff.md#reaxt), [Lillie](./staff.md#lillie), [Steven](./staff.md#steven-🎀)

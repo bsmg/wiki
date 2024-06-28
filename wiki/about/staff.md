@@ -167,11 +167,13 @@ The manager of many, Steven's always around to lend a helping hand as long as yo
 
 </AboutLinks>
 
-## +1 Rabbit (Retired)
+## === Retired ===
+
+### +1 Rabbit
 
 Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)
 
-**Roles:** Staff, Modder
+**Roles:** Staff (Retired), Modder
 **Contributions:** BS-Viewer, Mapping Tools
 
 <AboutLinks>
@@ -182,12 +184,12 @@ Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) 
 
 </AboutLinks>
 
-## Assistant (Retired)
+### Assistant
 
 Overseeer of core services, including BeatSaver and BeatMods servers.
 The original Support and creator of the custom avatar guide, Mod Assistant, and ModelSaber.
 
-**Roles:** Staff, Support, 3D Artists  
+**Roles:** Staff (Retired), Support, 3D Artists  
 **Contributions:** BeatMods Approval Staff, Multiplayer/Saber/Avatar/Platform Creation Guides, Moderation,
 ModelSaber, BeatSaver Admin, BSMG Podcasts
 
@@ -199,7 +201,7 @@ ModelSaber, BeatSaver Admin, BSMG Podcasts
 
 </AboutLinks>
 
-## Balsa (Retired)
+### Balsa
 
 He's the reason we have somewhere to get our custom songs in the first place. He shows up in once in a while to show off
 BeatSaver numbers, call us nerds, and present his collection of finely aged memes. He's since stepped down from the staff
@@ -207,11 +209,11 @@ team, but we wouldn't be here without him.
 
 **Contributions:** BeatSaver Creator.
 
-## Bobbie (Retired)
+### Bobbie
 
 Remind him to watch his glucose.
 
-**Roles:** Staff, Modder, 3D Artists, Moderator  
+**Roles:** Staff (Retired), Modder, 3D Artists, Moderator  
 **Contributions:** Custom Notes, ModelSaber Admin
 
 <AboutLinks>
@@ -223,23 +225,17 @@ Remind him to watch his glucose.
 
 </AboutLinks>
 
-## elliotttate (Retired)
+### elliotttate
 
 Official BSMG PR Guy. Events like the 100k Contest wouldn't have been possible without his efforts and networking skills.
 He also runs BeastSaber to help you find the best curated maps.
 
-**Roles:** Staff, BSMG PR  
+**Roles:** Staff (Retired), BSMG PR  
 **Contributions:** BeastSaber, Contest Management
 
-<AboutLinks>
+### Klouder
 
-[Patreon](https://www.patreon.com/beastsaber)
-
-</AboutLinks>
-
-## Klouder (Retired)
-
-Longtime server member and active contributor. She was the server mom!
+Longtime server member and active contributor. Now retired, she was the server mom!
 
 **Contributions:** ScoreSaber Admin, Moderation
 
@@ -250,12 +246,12 @@ Longtime server member and active contributor. She was the server mom!
 
 </AboutLinks>
 
-## Lillie (Retired)
+### Lillie
 
 She was early in the quest modding scene, and helped shape the quest scene.  
 Often active in the quest-modding channel, and liked to experiment with the game.
 
-**Roles:** Staff, Modder, Moderator
+**Roles:** Staff (Retired), Modder, Moderator
 **Contributions:** QuestSounds, QSettings+, FPSCounter
 
 <AboutLinks>
@@ -264,12 +260,12 @@ Often active in the quest-modding channel, and liked to experiment with the game
 
 </AboutLinks>
 
-## Sam (Retired)
+### Sam
 
 He's either talking about Steven or being way too patriotic in chat (BS Nordic Admin btw). Don't call him cute,
 he hates that. He also makes maps, check them out below.
 
-**Roles:** Staff, Moderator, Mapper
+**Roles:** Staff (Retired), Moderator, Mapper
 
 <AboutLinks>
 
@@ -278,11 +274,11 @@ he hates that. He also makes maps, check them out below.
 
 </AboutLinks>
 
-## williums (Retired)
+### williums
 
 Project manager, wiki maintainer, bread baker. Despite what everyone says, I like girls.
 
-**Roles:** Staff, Support  
+**Roles:** Staff (Retired), Support  
 **Contributions:** Wiki Management, Moderation, Contest Management, BeatMods Approvals
 
 <AboutLinks>
@@ -292,12 +288,12 @@ Project manager, wiki maintainer, bread baker. Despite what everyone says, I lik
 
 </AboutLinks>
 
-## Umbranox (Retired)
+### Umbranox
 
 ScoreSaber Supreme Leader, creator of the custom leaderboards/rank system. Always trying to do way too much work with
 not enough rest. Remember to pat your Umbranox once a day!
 
-**Roles:** Staff  
+**Roles:** Staff (Retired)  
 **Contributions:** ScoreSaber
 
 <AboutLinks>
