@@ -266,7 +266,7 @@ MAKE_HOOK_MATCH(LevelUIHook, &GlobalNamespace::StandardLevelDetailViewController
 Now, you have to install your hook. Usually, hooks are installed in `load()` or `late_load()` in `main.cpp`:
 
 ```cpp
-extern "C" void late_load() {
+MOD_EXTERN_FUNC void late_load() {
     il2cpp_functions::Init();
 
     PaperLogger.info("Installing hooks...");
