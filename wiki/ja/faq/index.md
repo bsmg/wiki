@@ -41,7 +41,7 @@ BeatSaver から手動でマップをダウンロードする場合は、それ�
 
 ### Quest
 
-Quest のプレイリストを管理するには [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) を使用します。 BMBF の機能により、ゲーム内で一度だけカスタムレベルが表示されることに注意してください。
+Quest のプレイリストを管理するには [QuestSongManager](https://github.com/exelix11/QuestSongManager) を使用します。
 
 :::warning Quest ユーザーへの注意
 カスタムソングフォルダを再読み込みすると、すべてのプレイリストの組み合わせがリセットされます。
