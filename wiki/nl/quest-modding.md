@@ -236,7 +236,7 @@ Als je geen levels kan installeren vanuit je Quest, kan je dat ook proberen met 
 Als het webinterface niet laad, klik dan [hier](#de-bmbf-webinterface-laad-niet) voor enkele stappen die het probleem kunnen oplossen.
 
 :::tip Hint
-Je kan ook afspeellijsten op dezelfde manier downloaden. Je kan verschillende afspeellijsten vinden op [BeastSaber](https://bsaber.com/category/playlists/) of in verschillende community discords. Je kan ook je eigen afspeellijsten maken met [BMBF Manager](https://github.com/ComputerElite/BM#bmbf-manager) of [Playlist Editor Pro](https://beatsaberquest.com/playlisteditor-pro/).
+Je kan ook afspeellijsten op dezelfde manier downloaden. Je kan verschillende afspeellijsten vinden op [BeatSaver](https://beatsaver.com/playlists) of in verschillende community discords. Je kan ook je eigen afspeellijsten maken met [BMBF Manager](https://github.com/ComputerElite/BM#bmbf-manager) of [QuestSongManager](https://github.com/exelix11/QuestSongManager).
 
 Als je een level wilt testen, bekijk dan de [nummers testen op een Quest](/nl/mapping/#testing-on-a-quest) sectie in de mapping wiki voor stappen voor het klaar maken om nummers te testen!
 :::
