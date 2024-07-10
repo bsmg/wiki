@@ -227,7 +227,7 @@ Wenn du keine Songs auf deiner Quest installieren kannst, kannst du sie über de
 Wenn dies nicht funktioniert, [klicke hier](#problembehandlung) für einige Schritte zur Fehlerbehebung.
 
 :::tip TIPP
-Du kannst Playlists auch auf die gleiche Weise herunterladen. Du kannst verschiedene Playlists auf [BeastSaber](https://bsaber.com/category/playlists/) oder verschiedenen Community Discords finden. Du kannst auch deine eigenen erstellen, indem du den [BMBF Manager](https://github.com/ComputerElite/BM#bmbf-manager) oder [Playlist Editor Pro](https://beatsaberquest.com/playlisteditor-pro/) verwendest.
+Du kannst Playlists auch auf die gleiche Weise herunterladen. Du kannst verschiedene Playlists auf [BeatSaver](https://beatsaver.com/playlists) oder verschiedenen Community Discords finden. Du kannst auch deine eigenen erstellen, indem du den [BMBF Manager](https://github.com/ComputerElite/BM#bmbf-manager) oder [QuestSongManager](https://github.com/exelix11/QuestSongManager/) verwendest.
 
 Wenn du eine von deinen erstellte Map testen möchtest, findest du im Abschnitt [Testen auf einer Quest](/de/mapping/#testen-auf-einer-quest) im Mapping Wiki Abschnitt für Schritte zum Verpacken für das Testen!
 :::

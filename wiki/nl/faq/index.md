@@ -38,7 +38,7 @@ Je zou in het spel de afspeellijst naast de custom levels albums moeten kunnen z
 
 ### Quest
 
-Je kan [Playlist Editor Pro](https://beatsaberquest.com/bmbf/my-tools/playlist-editor-pro/) gebruiken om afspeellijsten te beheren op je Quest. Houd er rekening mee dat een zelfgemaakt nummer slechts éénmaling in het spel kan worden weergegeven vanwege een beperking met BMBF.
+Je kan [QuestSongManager](https://github.com/exelix11/QuestSongManager) gebruiken om afspeellijsten te beheren op je Quest.
 
 :::warning WAARSCHUWING
 voor Quest Gebruikers Het herladen van de custom levels, reset alle afspeellijsten.
