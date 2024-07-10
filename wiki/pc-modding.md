@@ -74,6 +74,8 @@ version checking! Get it on [BSMG's GitHub](https://github.com/bsmg/ModAssistant
 
 ### BSManager
 
+> **THIS IS CURRENTLY THE RECOMMENDED DOWNGRADER.**
+
 \***\*Make sure you own the game on Steam or Oculus (PCVR)\*\*** before trying to download Beat Saber!
 
 An all-in-one tool that lets you easily manage BeatSaber versions, maps, mods, and even more. Get it on [Zagrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
@@ -217,11 +219,11 @@ Click on these links corresponding to where you own the game to see the tutorial
   - [BSManager](https://github.com/Zagrios/bs-manager#readme)
 - For Oculus Store you can use either:
   - [BSManager](https://github.com/Zagrios/bs-manager#readme)
-  - [Oculus downgrader](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)
+  - [OculusDowngrader](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)
 
 ### Legacy Branch
 
-If you want to downgrade to `1.29.1` you can use the legacy branch method.
+If you want to downgrade to `1.34.2` or `1.29.1` you can use the legacy branch method.
 
 #### Steam Users
 
@@ -232,8 +234,8 @@ If you want to downgrade to `1.29.1` you can use the legacy branch method.
 2. Right click Beat Saber in the game library
 3. Select Properties
 4. Select Betas in the window
-5. Select the `legacy1.29.1_unity_ver2019.4.28f1 - pre unity upgrade build`
-6. Click ok and exit the window
+5. Select either the `1.34.2_legacy` or the `legacy1.29.1` option
+6. Exit the window
 7. Let the download complete then run the game once
 8. Follow the regular modding process
 
@@ -248,7 +250,7 @@ If you want to downgrade to `1.29.1` you can use the legacy branch method.
 2. Go to the Beat Saber store page
 3. Scroll down to `Versions + Release Notes`
 4. Click on the word `(LIVE)` next to the current version number
-5. Select the `legacy1.29.1_unity_ver2019.4.28f1: 1.29.1_4575554838` option
+5. Select either the `1.34.2_legacy` or the `legacy1.29.1` option
 6. Let the download complete and run the game once
 7. Follow the regular modding process
 
