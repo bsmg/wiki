@@ -250,7 +250,7 @@ If you want to downgrade to `1.34.2` or `1.29.1` you can use the legacy branch m
 2. Go to the Beat Saber store page
 3. Scroll down to `Versions + Release Notes`
 4. Click on the word `(LIVE)` next to the current version number
-5. Select the either the `1.34.2_legacy` or the `legacy1.29.1` option
+5. Select either the `1.34.2_legacy` or the `legacy1.29.1` option
 6. Let the download complete and run the game once
 7. Follow the regular modding process
 
