@@ -84,10 +84,13 @@ Get it on [affederaffe's GitHub](https://github.com/affederaffe/BeatSaberModMana
 ### ModAssistant
 
 ::: danger DEPRECATION
-ModAssistant will be phased out in the future, as it has bugs and we no longer recommend it. We recommend switching to [BSManager](https://bsmg.wiki/pc-modding.html#bsmanager), as it will be less prone to bugs and will have the same modding capabilities as ModAssistant.
+ModAssistant will be phased out in the future, as it has bugs and we no longer recommend it.
+We recommend switching to [BSManager](https://bsmg.wiki/pc-modding.html#bsmanager), as it will be less prone to bugs and
+will have the same modding capabilities as ModAssistant.
 :::
 
-A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal and version checking! Get it on [BSMG's GitHub](https://github.com/bsmg/ModAssistant/releases/latest)
+A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal
+and version checking! Get it on [BSMG's GitHub](https://github.com/bsmg/ModAssistant/releases/latest)
 
 ## How to get more songs
 
