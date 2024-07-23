@@ -87,8 +87,6 @@ Get it on [affederaffe's GitHub](https://github.com/affederaffe/BeatSaberModMana
 ModAssistant will be phased out in the future, as it has bugs and we no longer recommend it. We recommend switching to [BSManager](https://bsmg.wiki/pc-modding.html#bsmanager), as it will be less prone to bugs and will have the same modding capabilities as ModAssistant.
 :::
 
-\***\*Run the game at least once\*\*** before trying to mod the game! This applies to reinstalling your game too.
-
 A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal and version checking! Get it on [BSMG's GitHub](https://github.com/bsmg/ModAssistant/releases/latest)
 
 ## How to get more songs
@@ -233,7 +231,7 @@ If you want to downgrade to `1.34.2` or `1.29.1` you can use the legacy branch m
 2. Right click Beat Saber in the game library
 3. Select Properties
 4. Select Betas in the window
-5. Select either the `1.34.2_legacy` or the `legacy1.29.1_unity_ver2019.4.28f1 - pre unity upgrade build` option
+5. Select either the `1.34.2_legacy` or the `legacy1.29.1_unity_ver2019.4.28f1` option
 6. Exit the window
 7. Let the download complete then run the game once
 8. Follow the regular modding process
