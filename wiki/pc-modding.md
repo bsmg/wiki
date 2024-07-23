@@ -234,7 +234,7 @@ If you want to downgrade to `1.34.2` or `1.29.1` you can use the legacy branch m
 2. Right click Beat Saber in the game library
 3. Select Properties
 4. Select Betas in the window
-5. Select either the `1.34.2_legacy` or the `legacy1.29.1_unity_ver2019.4.28f1` option
+5. Select either the `1.34.2_legacy` or the `legacy1.29.1_unity_ver2019.4.28f1` branch
 6. Exit the window
 7. Let the download complete then run the game once
 8. Follow the regular modding process
@@ -250,7 +250,7 @@ If you want to downgrade to `1.34.2` or `1.29.1` you can use the legacy branch m
 2. Go to the Beat Saber store page
 3. Scroll down to `Versions + Release Notes`
 4. Click on the word `(LIVE)` next to the current version number
-5. Select either the `1.34.2_legacy` or the `legacy1.29.1_unity_ver2019.4.28f1: 1.29.1_4575554838` option
+5. Select either the `1.34.2_legacy` or the `legacy1.29.1_unity_ver2019.4.28f1: 1.29.1_4575554838` branch
 6. Let the download complete and run the game once
 7. Follow the regular modding process
 
