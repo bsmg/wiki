@@ -16,7 +16,7 @@ export const nl = defineConfig({
     ],
 
     footer: {
-      message: 'Copyright © 2019-2024 Beat Saber Modding Group',
+      message: 'Copyright © 2019-2024 BSMG Community LLC (Beat Saber Modding Group)',
       copyright: 'Gelicenseerd onder CC BY-NC-SA 4.0',
     },
 
