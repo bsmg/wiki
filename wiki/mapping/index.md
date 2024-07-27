@@ -404,7 +404,7 @@ When [downloading SideQuest](https://sidequestvr.com/setup-howto), be sure to do
 1. Establish a connection to your Quest from your PC with a USB cable.
 2. Open SideQuest on your PC and click the folder icon on the top right.
    ![SideQuest Files](/.assets/images/beginners-guide/sqfiles.png)
-3. Navigate to `sdcard/ModData/com.beatgames.beatsaber/Mods/SongLoader/CustomWIPLevels`. If this folder does not exist,
+3. Navigate to `sdcard/ModData/com.beatgames.beatsaber/Mods/SongCore/CustomWIPLevels`. If this folder does not exist,
    you can create it yourself.
 4. Upload your WIP song folder from your PC to that folder on your Quest with SideQuest.
    - **NOTE:** You need to upload the actual song folder, not a zip file!
