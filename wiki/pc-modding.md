@@ -83,10 +83,9 @@ Get it on [affederaffe's GitHub](https://github.com/affederaffe/BeatSaberModMana
 
 ### ModAssistant
 
-::: danger DEPRECATION
-ModAssistant will be phased out in the future, as it has bugs and we no longer recommend it.
-We recommend switching to [BSManager](https://bsmg.wiki/pc-modding.html#bsmanager), as it will be less prone to bugs and
-will have the same modding capabilities as ModAssistant.
+:::warning
+ModAssistant will be phased out in the future and is no longer recommended.  
+Consider switching to one of the options above instead!
 :::
 
 A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal
