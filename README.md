@@ -46,4 +46,6 @@ To deploy your fork of the wiki to GitHub pages (for example to allow others to 
 
 - The code that generates the wiki is licensed under the [MIT License](https://github.com/bsmg/wiki/blob/master/LICENSE).
 - The wiki content is licensed under the [Creative Commons BY-NC-SA 4.0 License](https://github.com/bsmg/wiki/blob/master/wiki/LICENSE).
-- Translations of the wiki content is owned by the Beat Saber Modding Group (BSMG) and licensed under the [Creative Commons BY-NC-SA 4.0 License](https://github.com/bsmg/wiki/blob/master/wiki/LICENSE).
+  - While you own the copyright to content you contribute, you agree to license it in perpetuity under the CC BY-NC-SA 4.0 license. Attribution is tracked by Commit/Pull Request history of the repository.
+- Copyright of the wiki content translations are owned by the respective contributors and licensed in perpetuity under the [Creative Commons BY-NC-SA 4.0 License](https://github.com/bsmg/wiki/blob/master/wiki/LICENSE).
+  - Due to the nature of the translation process contributions are not individually attributed, but are listed as a whole team in the About Us [Translators Page](/wiki/about/translators.md).
