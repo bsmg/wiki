@@ -35,8 +35,10 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 :::warning
 Modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
 base game leaderboards.
+
 If you would like to play modded multiplayer, you need the mods, `Beat Together` and `MultiplayerCore`, which allows
-for cross-play between PC and Quest and for custom songs to be used.
+for cross-play between PC and Quest and for custom songs to be used. If multiplayer is important to you,
+be sure to check those mods are available for the version of Beat Saber you are updating to as these are not core mods!
 
 To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
 [ScoreSaber](https://scoresaber.com/quest) or [BeatLeader](https://beatleader.xyz) mod.
