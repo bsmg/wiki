@@ -54,9 +54,10 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 :::
 
 :::tip NOTE
-The latest moddable Beat Saber version for PC is `1.37.0`. You can also downgrade to `1.34.2` or `1.29.1` if you prefer.
+The latest Beat Saber version may not be moddable, in this case you will have to downgrade to the latest moddable version
+You can check what the latest moddable version is by going to the [BSMG Discord's](https://discord.gg/beatsabermods) [modding-announcements channel.](https://discord.com/channels/441805394323439646/612468002243477505)
 
-Visit the [Downgrading](#downgrading) section on this page for more information.
+Visit the [Downgrading](#downgrading) section on this page for more information regarding downgrading.
 :::
 
 ## Installers
