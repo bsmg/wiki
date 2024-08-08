@@ -51,7 +51,8 @@ Install them like you would a normal `.saber` file. Note that `.qsaber` files ar
 
 ### PC Users
 
-Inside the game in the main menu you will see on the left a `CUSTOM SABERS` or `CUSTOMSABERSLITE` button under the `Mods` section.
+Inside the game in the main menu you will see on the left a `CUSTOM SABERS` or `CUSTOMSABERSLITE` button under
+the `Mods` section.
 Pressing it will open up the menu you can use to select which sabers you want to use.
 
 ### Quest Users
