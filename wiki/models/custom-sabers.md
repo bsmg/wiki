@@ -35,8 +35,6 @@ in [your install folder](/faq/install-folder.md), this is where you should place
 You can download more sabers on [ModelSaber](https://modelsaber.com/Sabers/), [BSManager](https://bsmanager.io),
 or the [#pc-models channel](https://discord.gg/beatsabermods) in the BSMG Discord.
 
-
-
 ### Quest Sabers
 
 Custom Sabers for Quest are provided by the Qosmetics mod. The latest version can be found in the
