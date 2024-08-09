@@ -27,6 +27,11 @@ All models are manually approved before appearing on the site.
 Please do not reupload any already existing models to the website.
 :::
 
+### BSManager
+
+[BSManager](https://bsmanager.io) can install models from [ModelSaber](https://modelsaber.com/). It can install
+Avatars, Sabers, Platforms, and Blocks, directly from the app or its OneClick&trade; feature.
+
 ### Discord
 
 You can also find an uncurated list _(with potentially more items)_ in the `#pc-models` channel on the

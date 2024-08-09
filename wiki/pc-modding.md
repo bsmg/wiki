@@ -240,7 +240,7 @@ If you want to downgrade to `1.37.1`, `1.34.2`, or `1.29.1` you can use the lega
 7. Let the download complete then run the game once
 8. Follow the regular modding process
 
-![Steam Branch Setting](/.assets/images/beginners-guide/1291_steambranch.jpg 'Steam Branch Setting')
+![Steam Branch Setting](/.assets/images/beginners-guide/BetaOptions_SteamBranch.jpg 'Steam Branch Setting')
 
 #### Oculus Store Users
 
@@ -255,7 +255,7 @@ If you want to downgrade to `1.37.1`, `1.34.2`, or `1.29.1` you can use the lega
 6. Let the download complete and run the game once
 7. Follow the regular modding process
 
-![Oculus Branch Setting](/.assets/images/beginners-guide/1291_oculusbranch.jpg 'Oculus Branch Setting')
+![Oculus Branch Setting](/.assets/images/beginners-guide/BetaOptions_OculusBranch.jpg 'Oculus Branch Setting')
 
 ## How to uninstall mods
 
