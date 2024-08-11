@@ -73,6 +73,12 @@ An all-in-one tool that lets you easily manage BeatSaber versions, maps, mods, a
 
 ### BeatSaberModManager
 
+:::warning DEPRECATION
+BeatSaberModManager has broken on versions `1.37.2` and above, and because of this,
+BeatSaberModManager will be phased out in the future and is no longer recommended.  
+Consider switching to [BSManager](#bsmanager) instead!
+:::
+
 \***\*Run the game at least once\*\*** before trying to mod the game! This applies to reinstalling your game too.
 
 Yet another mod installer for Beat Saber, heavily inspired by ModAssistant.
@@ -83,10 +89,10 @@ Get it on [affederaffe's GitHub](https://github.com/affederaffe/BeatSaberModMana
 
 ### ModAssistant
 
-:::warning
+:::warning DEPRECATION
 ModAssistant has broken on versions `1.37.2` and above, and because of this and other issues, ModAssistant will be
 phased out in the future and is no longer recommended.  
-Consider switching to one of the options above instead!
+Consider switching to [BSManager](#bsmanager) instead!
 :::
 
 A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal
