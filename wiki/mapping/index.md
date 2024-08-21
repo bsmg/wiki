@@ -145,11 +145,39 @@ You may find the [Map Format Page](./map-format) and the
 ### Official Editor
 
 The official editor is developed and supported by Beat Games and pre-installed with the Steam VR or Oculus PC versions
-of Beat Saber.
+of Beat Saber. Quest Standalone Users will need to use the Oculus PC version of the game which is available for free as
+a cross buy.
 
 - [Official Editor Documentation](https://beatsaber.com/documentation.html)
+- [V3 Lighting Overview Video](https://www.youtube.com/watch?v=NJPPBvyHJjg) by **Bullet**
+
+#### Launching directly into the Official Editor
+
+You can follow this method to avoid getting into VR to edit maps.
+
+:::warning
+You may run into issues with mods when launching the game with this argument!
+:::
+
+For Steam:
+
+1. Right click Beat Saber.
+2. In the properties window type out `editor` in the Launch Options field and start the game.
+
+For Oculus PC:
+
+1. Right click on Beat Saber.exe and create a shortcut.
+2. Edit the Target to add "editor" to the end of it.
+   - Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" editor`
 
 #### Migrating from Official Editor to a Community Editor
+
+> 3D editor instructions coming soon
+
+<details>
+<summary>
+Old 2D editor instructions (Beat Saber version 1.7.0 and below)
+</summary>
 
 :::warning NOTE
 These instructions are for the old 2D editor that was retired since Beat Saber version 1.8.0
@@ -175,6 +203,8 @@ Although it is recommended to start setup again following the [Quick Start](#map
 5. Open the map in the community editor and change the song file name to `song.ogg` and click the save button.
 
 You are now ready to continue editing your map!
+
+</details>
 
 ### Data Loss Prevention and Cloud Storage
 
