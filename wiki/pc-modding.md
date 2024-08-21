@@ -83,8 +83,9 @@ Get it on [affederaffe's GitHub](https://github.com/affederaffe/BeatSaberModMana
 
 ### ModAssistant
 
-:::warning
-ModAssistant will be phased out in the future and is no longer recommended.  
+:::warning NOTICE  
+ModAssistant is no longer recommended and being phased out as it cannot reliably mod Beat Saber versions
+`1.37.2` and above.  
 Consider switching to one of the options above instead!
 :::
 
