@@ -73,6 +73,9 @@ An all-in-one tool that lets you easily manage BeatSaber versions, maps, mods, a
 
 ### BeatSaberModManager
 
+:::warning NOTICE  
+BeatSaberMOdManager does not work at this moment. Please use an older version or temporary switch to one of the other options on this page.
+
 \***\*Run the game at least once\*\*** before trying to mod the game! This applies to reinstalling your game too.
 
 Yet another mod installer for Beat Saber, heavily inspired by ModAssistant.
