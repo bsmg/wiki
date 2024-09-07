@@ -484,7 +484,7 @@ choice and make sure to use 0ms offset for all difficulties (since the song is a
 
 ::: warning NOTE
 Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file limit. If this is the case export at a
-lower quality until the file meets the file size limit. ZIP files over 25 MB cannot be shared directly on Discord
+lower quality until the file meets the file size limit. ZIP files over 10 MB cannot be shared directly on Discord
 (without Nitro or Server Boost Level 2) for playtesting.
 :::
 
