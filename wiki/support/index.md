@@ -209,13 +209,14 @@ VR is very CPU intensive, especially if you add mods. If you're struggling to ru
 upgrading your hardware. Note that Beat Saber doesn't utilize the GPU very much as visually it's a fairly simple game.
 
 To check if your PC meets the recommended specs, go
-to the [Steam Page](https://store.steampowered.com/app/620980/Beat_Saber/)
+to the [Steam Page](https://store.steampowered.com/app/620980/Beat_Saber/) and scroll down until you
+see the `System Requirements` section, which tells you the recommended specs.
 
 ## 3. Common Questions
 
 ### Misc
 
-#### 3.1 Blank Menu, No Buttons
+#### 3.1 Blank Menu, No Buttons or Gray Environment
 
 If your main window in game is blank or your menu looks gray and no buttons work, your mod installer
 likely didn't patch the game files properly.
