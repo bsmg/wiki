@@ -253,10 +253,11 @@ is why other games and menus might be fine. There is no clear-cut solution, so t
 
 :::tip NOTE
 `-vrmode oculus` only works on `1.29.1` and below! If you are on any higher version, do this instead:
+
 - Go to your Oculus Software
 - Go to Settings > General
 - Click the `Set Meta Quest Link as active OpenXR Runtime` button
-:::
+  :::
 
 ### Custom Avatars
 
