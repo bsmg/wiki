@@ -26,7 +26,7 @@ YOU MUST HAVE:
   - You need to go to the tab that says `Unity 2019.x` and scroll down to 2019.3.15. This has to be installed with
     [Unity Hub](https://unity3d.com/get-unity/download).
   - Need a guide on how to install? [Check out this Unity guide to Unity Hub.](https://docs.unity3d.com/Manual/LicensesAndActivation.html)
-- [The Custom Saber Unity project.](https://cdn.discordapp.com/attachments/468249466865057802/935252103935434762/Unity2019.3.15-CustomSaber-4.3.0.zip)
+- [The Custom Saber Unity project.](https://bsmg.dev/LPe7w)
 - A 3d model file of the saber of your choice. The most common and acceptable file formats are .obj and .fbx files.
   You can download your saber from 3d model hosting/showcase sites like Sketchfab or turbosquid.
 

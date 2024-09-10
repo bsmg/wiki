@@ -36,7 +36,7 @@ You can fix this in one of two following ways:
 
 ## Setting Up ShaderBundleExporter
 
-The ShaderBundleExporter `.unitypackage` is what you'll need to fix your shaders, [and can be downloaded here](https://cdn.discordapp.com/attachments/268155161560612865/1105617762174369802/ShaderBundleExporter.unitypackage)
+The ShaderBundleExporter `.unitypackage` is what you'll need to fix your shaders, [and can be downloaded here](https://bsmg.dev/V984m)
 
 ### Before Installation
 

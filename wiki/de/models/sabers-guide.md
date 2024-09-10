@@ -17,7 +17,7 @@ Da die Leute immer noch Probleme mit der Erstellung von Custom Sabern haben denk
 DAS MUSST DU HABEN:
 
 - Unity 2018.1.6f1 um eine benutzerdefinierte Saber Datei (\*.saber) zu erstellen. [HIER Downloaden](https://download.unity3d.com/download_unity/57cc34175ccf/Windows64EditorInstaller/UnitySetup64-2018.1.6f1.exe)
-- Das Custom Saber Unity Projekt. [HIER Downloaden](https://cdn.discordapp.com/attachments/468249466865057802/703747388556181534/Custom_Sabers-4.3.0-UnityProject.zip)
+- Das Custom Saber Unity Projekt. [HIER Downloaden](https://bsmg.dev/LPe7w)
 - Eine 3D-Modell-Datei des Sabers Deiner Wahl. Die gängigsten und akzeptablen Dateiformate sind .obj- und .fbx-Dateien. Du kannst dein Saber von 3D Modell Hosting/Showcase Seiten wie Sketchfab oder Turbosquid herunterladen.
 
 Optional:

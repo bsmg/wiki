@@ -448,7 +448,7 @@ In no particular order...
 ### Model Winners
 
 - **Avatar:** [Christmas Miku](https://modelsaber.com/Avatars/?id=1576887435) by **williums**
-- **Note:** [Present Notes](https://cdn.discordapp.com/attachments/588846710273605645/656635539705036854/Present_Note.bloq)
+- **Note:** [Present Notes](https://bsmg.dev/unMjG)
   by **CyanSnow**
 - **Platform:** [Christmas Lights](https://modelsaber.com/Platforms/?id=1576253435) by **Halcyon12**
 - **Sabers:** [Frozen Sabers](https://modelsaber.com/Sabers/?id=1575735225) by **Raphpower**
@@ -490,7 +490,7 @@ In no particular order...
 
 - **Sabers:** [Harvesters Reaper](https://modelsaber.com/Sabers/?id=1572253878) by **Tachrayonic**
 - **Platform:** [Halloween Platform](https://modelsaber.com/Platforms/?id=1571862883) by **Pixelguy**
-- **Note:** [uwu Pumpkin Notes](https://cdn.discordapp.com/attachments/588846710273605645/639139278844198932/uwu_Pumpkin_Notes.bloq)
+- **Note:** [uwu Pumpkin Notes](https://bsmg.dev/20XCt)
   by **Pixelguy**
 
 ### Mod Winners
@@ -517,17 +517,17 @@ but the names of the winners and their submissions will continue on here.
 
 ### Saber Winner
 
-[Silent Candy Cane Saber](https://cdn.discordapp.com/attachments/446478074125746176/524087064560402432/Silent_Cane_Blade_XA.saber)
+[Silent Candy Cane Saber](https://bsmg.dev/LCawW)
 by **Tachrayonic** | [Preview Video](https://www.youtube.com/watch?v=hNiuIf_jU2c)
 
 ### Avatar Winner
 
-[ChristmasMonitorBot](https://cdn.discordapp.com/attachments/450344263453245440/518014914174910465/ChristmasMonitorBot.avatar)
+[ChristmasMonitorBot](https://bsmg.dev/angqg)
 by **DeeJay**
 
 ### Platform Winner
 
-[Christmas Platform](https://cdn.discordapp.com/attachments/452948292641488897/522475725610024965/Christmas_Platform.plat)
+[Christmas Platform](https://bsmg.dev/yP5gC)
 by **AkaRaiden** | [Preview Video](https://www.youtube.com/watch?v=HihTOipgE18)
 
 ## 2018 Halloween Contest

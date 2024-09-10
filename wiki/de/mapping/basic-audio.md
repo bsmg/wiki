@@ -93,7 +93,7 @@ Es gibt zwei Möglichkeiten, Audio zu synchronisieren:
 Die unten aufgeführten Schritte sind die gleichen wie in Rygers [Arrow Vortex BPM Analysis Video Tutorial](https://youtu.be/Z49UKFefu5c) (das auch die BPM-Bestätigung enthält).
 
 1. Lade dir Arrow Vortex (AV) herunter, entpacke die Datei und öffne `ArrowVortex.exe`
-   - Discord [Zip Download](https://cdn.discordapp.com/attachments/443569023951568906/662417326771273728/ArrowVortex.zip) (Empfohlene Methode)
+   - BSMG Repack [Zip Download](https://bsmg.dev/zY55r) (Empfohlene Methode)
    - Arrow Vortex Website [RAR Download](https://arrowvortex.ddrnl.com/)
    - Du benötigst zusätzliche Software wie [7zip](https://www.7-zip.org/), um `.rar` Dateien wie diese zu entpacken.
 2. Exportiere deinen Song als `.ogg` mit [Audacity](https://www.audacityteam.org/)
