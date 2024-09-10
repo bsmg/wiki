@@ -113,7 +113,7 @@ In keiner besonderen Reihenfolge...
 ### Model Gewinner
 
 - **Avatar:** [Christmas Miku](https://modelsaber.com/Avatars/?id=1576887435) by **williums**
-- **Note:** [Present Notes](https://cdn.discordapp.com/attachments/588846710273605645/656635539705036854/Present_Note.bloq) by **CyanSnow**
+- **Note:** [Present Notes](https://bsmg.dev/unMjG) by **CyanSnow**
 - **Platform:** [Christmas Lights](https://modelsaber.com/Platforms/?id=1576253435) by **Halcyon12**
 - **Sabers:** [Frozen Sabers](https://modelsaber.com/Sabers/?id=1575735225) by **Raphpower**
 
@@ -152,7 +152,7 @@ In keiner besonderen Reihenfolge...
 
 - **Sabers:** [Harvesters Reaper](https://modelsaber.com/Sabers/?id=1572253878) by **Tachrayonic**
 - **Platform:** [Halloween Platform](https://modelsaber.com/Platforms/?id=1571862883) by **Pixelguy**
-- **Note:** [uwu Pumpkin Notes](https://cdn.discordapp.com/attachments/588846710273605645/639139278844198932/uwu_Pumpkin_Notes.bloq) by **Pixelguy**
+- **Note:** [uwu Pumpkin Notes](https://bsmg.dev/20XCt) by **Pixelguy**
 
 ### Mod Gewinner
 
@@ -175,15 +175,15 @@ Der allererste Holiday/Winter-Wettbewerb, der von BSMG veranstaltet wird. Einige
 
 ### Saber Gewinner
 
-[Silent Candy Cane Saber](https://cdn.discordapp.com/attachments/446478074125746176/524087064560402432/Silent_Cane_Blade_XA.saber) by **Tachrayonic** | [Vorschau-Video](https://www.youtube.com/watch?v=hNiuIf_jU2c)
+[Silent Candy Cane Saber](https://bsmg.dev/LCawW) by **Tachrayonic** | [Vorschau-Video](https://www.youtube.com/watch?v=hNiuIf_jU2c)
 
 ### Avatar Gewinner
 
-[ChristmasMonitorBot](https://cdn.discordapp.com/attachments/450344263453245440/518014914174910465/ChristmasMonitorBot.avatar) by **DeeJay**
+[ChristmasMonitorBot](https://bsmg.dev/angqg) by **DeeJay**
 
 ### Plattform Gewinner
 
-[Christmas Platform](https://cdn.discordapp.com/attachments/452948292641488897/522475725610024965/Christmas_Platform.plat) by **AkaRaiden** | [Vorschau-Video](https://www.youtube.com/watch?v=HihTOipgE18)
+[Christmas Platform](https://bsmg.dev/yP5gC) by **AkaRaiden** | [Vorschau-Video](https://www.youtube.com/watch?v=HihTOipgE18)
 
 ## 2018 Halloween-Wettbewerb
 
