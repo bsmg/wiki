@@ -78,12 +78,8 @@ If you see red text in the command prompt that appears when running the executab
 If you are using Mod Assistant and are modding versions `1.37.2` and above, try the following:
 
 - Uninstall all mods by going to the `Options` tab, and then selecting `Remove All Mods`
-- Switch to a different mod installer, such as [BSManager](https://bsmanager.io)
-
-:::warning DISCLAIMER
-The reason why you are switching to a different mod installer is because Mod Assistant cannot reliably mod versions
-`1.37.2` and above. This usually results in installing incorrect mods.
-:::
+- Switch to a different mod installer, such as [BSManager](https://bsmanager.io), as Mod Assistant
+  cannot reliably mod versions `1.37.2` and above.
 
 ##### Solution 5
 
@@ -103,9 +99,12 @@ The installers download mods to `Beat Saber/IPA/Pending`, BSIPA moves these file
 If your game Plugins folder still is empty afterwards, run `IPA.exe` again and make sure that nothing is preventing it
 from running, e.g. `Anti-viruses, Admin permissions, etc.`
 
-What also could be the problem is that Mod Assistant has issues with modding versions `1.37.2` and above. If you
-are on one of these versions, then try uninstalling all mods, and switching to a different mod installer entirely,
-such as [BSManager](https://bsmanager.io).
+:::warning NOTE
+Mod Assistant has issues reliably modding versions `1.37.2` and above.
+
+If you are on one of these versions, consider uninstalling all mods and switching to another mod manager
+such as [BSManager](https://bsmanager.io) instead.
+:::
 
 ## 2. Game Issues Post-Modding
 
@@ -149,7 +148,8 @@ If the game auto-closes on startup with the popup below, then try these steps on
 ##### Fixes for Game Version 1.29.1 and Below
 
 - Press WIN+R on your keyboard, and paste in the following command: `reg delete "HKCU\Software\Hyperbolic Magnetism"`
-  - Press enter. This will bring up a confirmation prompt. Before selecting Yes, be sure that it says it's
+  and press enter.
+  - This will bring up a confirmation prompt. Before selecting Yes, be sure that it says it is
     deleting `HKEY_CURRENT_USER\Software\Hyperbolic Magnetism`!
 - If you have multiple monitors, you can try these fixes:
   - Set the game to play on your main monitor by changing your primary display in Windows to your 1st monitor.
@@ -160,17 +160,19 @@ If the game auto-closes on startup with the popup below, then try these steps on
 
 - Having some specific sabers in your `CustomSabers` folder can crash your game (mostly iSF Sabers), check with
   the [BSMG Discord](https://discord.gg/beatsabermods) for a list of known sabers that can cause this.
-  - To remove them, try removing some or all sabers from your `CustomSabers` folder.
+  - To determine the culprit, try removing all sabers from your `CustomSabers` folder and adding them back in one by one.
 
 ##### Fixes for Any Version
 
 - Try verifying the game's file integrity by following these steps:
-  - If you're using Steam, go to `Properties > Installed Files > Verify integrity of game files`
-  - If you're using BSManager, verify the install's files by going to the gear icon in the top-right
+  - If you are using Steam, go to `Properties > Installed Files > Verify integrity of game files`
+  - If you are using BSManager, verify the install's files by going to the gear icon in the top-right
     corner, and selecting `Verify files`.
   - If you are on Oculus, and are not using BSManager, you can skip this step.
 - Try restarting your PC.
-  - Note that shutting down and powering back on is not the same as restarting.
+  :::tip NOTE
+  Shutting down and powering back on is not the same as using the restart button!
+  :::
 - Make sure that your graphics drivers are up-to-date.
 
 If none of the steps worked here, seek out help in the [BSMG Discord.](https://discord.gg/beatsabermods)
@@ -223,6 +225,7 @@ likely didn't patch the game files properly.
 To fix this, try uninstalling and reinstalling BSIPA, and verifying the game files.
 
 ![Blank Menu Environment](/.assets/images/support/BlankMenuEnvironment.png)
+
 ![Gray Menu Environment](/.assets/images/support/GrayMenuEnvironment.png)
 
 #### 3.2 How do I use `x` mod?
@@ -381,10 +384,11 @@ the steps are still the same.
 
 ### Clean Installation
 
-:::tip NOTE
-If you are reinstalling the Oculus version of the game, then uninstalling and reinstalling the game from the Oculus
-Software effectively clean reinstalls the game entirely, so no need to follow this.
-Note that this won't delete your Beat Saber AppData folder. To delete that, follow this guide:
+:::tip PC Oculus Users
+Uninstalling and reinstalling the game from the Oculus Software effectively clean reinstalls the game,
+so no need to follow this.
+
+Note that this will not delete your Beat Saber AppData folder. To delete that, follow this guide:
 [Deleting the Beat Saber AppData Folder](#deleting-your-save-in-appdata).
 :::
 
