@@ -140,11 +140,11 @@ To solve this problem:
 
    Steam: [Verify Game Files](#verify-game-files)
    Oculus: Perform a [Clean Installation](#clean-installation)
-   
-    :::tip NOTE
-    The problem can continue to persist due to lacking permissions or exceptions, or programs marked suspicious
-    can make this problem persist.
-    :::
+
+   :::tip NOTE
+   The problem can continue to persist due to lacking permissions or exceptions, or programs marked suspicious
+   can make this problem persist.
+   :::
 
 This should fix the problem.
 
@@ -253,6 +253,7 @@ If you use a Rift S or Quest 1, then you will not have any haptics if you are us
 runtime. This is due to an update to the Oculus Software that has not been fixed yet.
 
 In the meantime, you can try the following:
+
 - Switch to the SteamVR OpenXR Runtime
 - Apply the fix listed below _(not recommended)_
 
@@ -269,6 +270,7 @@ _Keep in mind that there can be unknown side effects when using this fix!_
 
   Before moving the files, be sure to make a backup of the existing files first!
   :::
+
 - Reopen Oculus, and your game should work after this!
 
 If this isn't the cause of your rumble issues and the following are true regarding your haptics:
@@ -414,15 +416,16 @@ If you use Steam:
     6. Let it finish verifying and downloading any missing files
       and you should be good to go.
 
-  If you use BSManager:
-    
+If you use BSManager:
+
     1. Select the version in which you want to verify your files
     2. Click on the gear icon in the top right corner, and select `Verify files`
     3. Let it finish verifying and downloading any missing files
       and you should be good to go.
 
-  If you use Oculus and are not using BSManager, then you can:
-  - Download BSManager and verify your files from there.
+If you use Oculus and are not using BSManager, then you can:
+
+- Download BSManager and verify your files from there.
 
 Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it is on the old steam UI,
 the steps are still the same.
