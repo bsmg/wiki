@@ -48,7 +48,7 @@ If the details in section 1.1 above are correct, try the solutions below, in des
 
 ##### Solution 1 (Steam Only)
 
-- [Verify your game files](#verify-game-files-for-steam)
+- [Verify your game files](#verify-game-files)
 - Update your mods in your mod installer by pressing `Install or Update`
 
 ##### Solution 2
@@ -110,7 +110,21 @@ such as [BSManager](https://bsmanager.io) instead.
 
 ### Game Won't Start
 
-#### 2.1 GetThreadContext Failed Error
+#### 2.1 Black Screen
+
+If the game is just an infinite black screen when launching the game, this may be the cause of various things.
+Here is a list of various common things that can cause this:
+
+- Too New/Outdated Mods
+  - If you're using a mod installer, try removing all of your mods, and reinstalling them again.
+- Needing to Verify Game Files
+  - Refer to this: [Verifying Files](#verify-game-files)
+- Unity Crash
+  - If a popup appears on startup on your computer, then refer to [Unity Crash](#23-unity-crash)
+
+If none of the methods work here, seek out help in the [BSMG Discord.](https://discord.gg/beatsabermods)
+
+#### 2.2 GetThreadContext Failed Error
 
 If a window pops up saying `GetThreadContext Failed` and/or you hear a Windows error sound, you may have software on your
 PC that breaks Beat Saber mods. Many third-party anti-cheat software like ESEA and FaceIt disrupt BSIPA from applying mods
@@ -123,25 +137,29 @@ To solve this problem:
 3. Check if any remnants of the software still exist in your `AppData` folders.
 4. Run the game.
    If problems persist then try the following:
-   `Additional Note: The problem can continue to persist due to lacking permissions or exceptions, any program that can
-block BSIPA, or programs marked suspicious can make this problem persist`
-   Steam: [Verify Steam Game Files](#verify-game-files-for-steam)
+
+   Steam: [Verify Game Files](#verify-game-files)
    Oculus: Perform a [Clean Installation](#clean-installation)
+   
+    :::tip NOTE
+    The problem can continue to persist due to lacking permissions or exceptions, or programs marked suspicious
+    can make this problem persist.
+    :::
 
 This should fix the problem.
 
-#### 2.2 Frozen on Startup
+#### 2.3 Frozen on Startup
 
 If the game is frozen at the Health and Safety screen, or you see an avatar T-posing with no control of the game,
-[verify your files](#verify-game-files-for-steam) if you have the game on Steam, or reinstall the game from the
+[verify your files](#verify-game-files) if you have the game on Steam, or reinstall the game from the
 Oculus Software if you are on the Oculus PC version of the game. Refer to [Clean Installation](#clean-installation)
 
 This seems to happen when updating Beat Saber and having mods installed previously,
 but not to users with clean installs of the game.
 
-#### 2.3 Unity Crash
+#### 2.4 Unity Crash
 
-If the game auto-closes on startup with the popup below, then try these steps one at a time:
+If the game auto-closes/black screens on startup with the popup below, then try these steps one at a time:
 
 ![Unity Crash Popup](/.assets/images/support/UnityCrashPopup.png)
 
@@ -164,11 +182,7 @@ If the game auto-closes on startup with the popup below, then try these steps on
 
 ##### Fixes for Any Version
 
-- Try verifying the game's file integrity by following these steps:
-  - If you are using Steam, go to `Properties > Installed Files > Verify integrity of game files`
-  - If you are using BSManager, verify the install's files by going to the gear icon in the top-right
-    corner, and selecting `Verify files`.
-  - If you are on Oculus, and are not using BSManager, you can skip this step.
+- Try verifying the game's file integrity by following the steps here: [Verifying Files](#verify-game-files)
 - Try restarting your PC.
   :::tip NOTE
   Shutting down and powering back on is not the same as using the restart button!
@@ -179,17 +193,17 @@ If none of the steps worked here, seek out help in the [BSMG Discord.](https://d
 
 ### Framerate Issues
 
-#### 2.4 The game stutters unbearably after installing mods
+#### 2.5 The game stutters unbearably after installing mods
 
-If the game lags so badly that you can barely click the `Continue` button on the Health & Safety screen, then verify files
+If the game lags so badly that you can barely click the `Continue` button on the Health & Safety screen, then [verify files](#verify-game-files)
 if you have the game on Steam, or reinstall the game on Oculus Home. Do the same if it won't start up at all and shows
 no error messages when trying to launch the game.
 
 If that didn't solve the issue, then check section [2.5 Improving framerate](#_2-5-improving-framerate)
 
-#### 2.5 Improving Framerate
+#### 2.6 Improving Framerate
 
-If [2.4](#2-4-the-game-stutters-unbearably-after-installing-mods) didn't improve your fps, then your PC might
+If [2.5](#2-5-the-game-stutters-unbearably-after-installing-mods) didn't improve your fps, then your PC might
 simply be struggling to keep up with the stress caused by mods. Here are some things you can do to improve
 framerate, in no particular order:
 
@@ -222,7 +236,7 @@ see the `System Requirements` section, which tells you the recommended specs.
 
 If your main window in game is blank or your menu looks gray and no buttons work, your mod installer
 likely didn't patch the game files properly.
-To fix this, try uninstalling and reinstalling BSIPA, and verifying the game files.
+To fix this, try uninstalling and reinstalling BSIPA, and [verifying the game files.](#verify-game-files)
 
 ![Blank Menu Environment](/.assets/images/support/BlankMenuEnvironment.png)
 
@@ -235,9 +249,27 @@ If you're using a mod installer, click the mod and hit the "Mod Info/More info" 
 
 #### 3.3 Rumble Issues
 
-Gameplay Modifiers Plus had a toggle to enable/disable controller rumble. If you disabled it then removed the mod,
-you'll need to modify the save data file that it writes to manually.
-Open `%appdata%\..\LocalLow\Hyperbolic Magnetism\Beat Saber\settings.cfg` and set `controllersRumbleEnabled` to `true`.
+If you use a Rift S or Quest 1, then you will not have any haptics if you are using Oculus as your current OpenXR
+runtime. This is due to an update to the Oculus Software that has not been fixed yet.
+
+In the meantime, you can try the following:
+- Switch to the SteamVR OpenXR Runtime
+- Apply the fix listed below _(not recommended)_
+
+If switching to SteamVR as the current OpenXR runtime didn't work, then you can try the following:
+
+_Keep in mind that there can be unknown side effects when using this fix!_
+
+- Close all instances of Oculus in Task Manager, and then download [this zip file,](https://tinyurl.com/Ocufix)
+  which has the DLL files in order to fix this.
+- Open the zip file and copy the DLLs inside it to this folder: `%OculusBase%Support\oculus-runtime`
+
+  :::tip NOTE
+  Copy and paste the filepath into the address bar at the top of File Explorer!
+
+  Before moving the files, be sure to make a backup of the existing files first!
+  :::
+- Reopen Oculus, and your game should work after this!
 
 If this isn't the cause of your rumble issues and the following are true regarding your haptics:
 
@@ -368,16 +400,29 @@ These messages are also written to `Beat Saber/Logs`.
 
 A list of common exceptions can be found [here](./exceptions.md).
 
-### Verify Game Files For Steam
+### Verify Game Files
 
-To verify integrity of game files follow these steps:
+To verify the integrity of the game files follow these steps:
 
-1. Make sure SteamVR is closed as it wont let you verify your games otherwise.
-2. Go to your steam library and find Beat Saber
-3. Right click Beat Saber and click on Properties
-4. Go to the "Local Files" tab in properties
-5. Select the "Verify Integrity Of Game Files" option.
-6. Let it finish verifying and downloading any missing files and you should be good to go.
+If you use Steam:
+
+    1. Make sure SteamVR is closed, as it won't let you verify your games otherwise.
+    2. Go to your Steam library and find Beat Saber
+    3. Right click Beat Saber and click on Properties
+    4. Go to the "Installed Files" tab in Properties
+    5. Select the "Verify Integrity Of Game Files" option.
+    6. Let it finish verifying and downloading any missing files
+      and you should be good to go.
+
+  If you use BSManager:
+    
+    1. Select the version in which you want to verify your files
+    2. Click on the gear icon in the top right corner, and select `Verify files`
+    3. Let it finish verifying and downloading any missing files
+      and you should be good to go.
+
+  If you use Oculus and are not using BSManager, then you can:
+  - Download BSManager and verify your files from there.
 
 Here is a [Video Guide](https://www.youtube.com/watch?v=EBFfT4-ZiIc) although it is on the old steam UI,
 the steps are still the same.
