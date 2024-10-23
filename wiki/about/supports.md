@@ -109,6 +109,8 @@ What? I need to put a bio here?
 
 [GitHub](https://github.com/overlappingd)
 
+</AboutLinks>
+
 ## Pespiri
 
 He'll give me his bio later today, or so he says.
