@@ -101,7 +101,7 @@ I broke my feet the day before I got support, its not related _I think_
 
 ## overlap
 
-What? I need to put a bio here?
+Your average amateur batch coder, with a changing music taste every now and then.
 
 **Roles:** Support
 
