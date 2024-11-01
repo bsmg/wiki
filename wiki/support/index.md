@@ -408,20 +408,20 @@ To verify the integrity of the game files follow these steps:
 
 If you use Steam:
 
-    1. Make sure SteamVR is closed, as it won't let you verify your games otherwise.
-    2. Go to your Steam library and find Beat Saber
-    3. Right click Beat Saber and click on Properties
-    4. Go to the "Installed Files" tab in Properties
-    5. Select the "Verify Integrity Of Game Files" option.
-    6. Let it finish verifying and downloading any missing files
-      and you should be good to go.
+  1. Make sure SteamVR is closed, as it won't let you verify your games otherwise.
+  2. Go to your Steam library and find Beat Saber
+  3. Right click Beat Saber and click on Properties
+  4. Go to the "Installed Files" tab in Properties
+  5. Select the "Verify Integrity Of Game Files" option.
+  6. Let it finish verifying and downloading any missing files
+     and you should be good to go.
 
 If you use BSManager:
 
-    1. Select the version in which you want to verify your files
-    2. Click on the gear icon in the top right corner, and select `Verify files`
-    3. Let it finish verifying and downloading any missing files
-      and you should be good to go.
+  1. Select the version in which you want to verify your files
+  2. Click on the gear icon in the top right corner, and select `Verify files`
+  3. Let it finish verifying and downloading any missing files
+     and you should be good to go.
 
 If you use Oculus and are not using BSManager, then you can:
 
