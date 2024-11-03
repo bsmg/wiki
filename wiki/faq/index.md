@@ -12,9 +12,15 @@ Check out our [beginner's guide](/beginners-guide.md)!
 
 ## What versions of the game can be modded?
 
-The latest moddable Beat Saber version for PC is `1.34.2`. You can also downgrade to `1.29.1` if you prefer.
+The latest Beat Saber version may not be moddable, in this case you will have to downgrade to the latest moddable version.
+Visit the [PC Modding](/pc-modding.md#downgrading) page for more information.
 
-The latest moddable Beat Saber version for Quest is `1.28.0`.
+:::tip NOTE
+The link to the PC Modding page should automatically scroll to the Downgrading section. If it doesn't, scroll down
+until you see it.
+:::
+
+The latest moddable Beat Saber version for Quest is `1.37.0`.
 
 For more information on modding and/or downgrading visit the respective [modding guide.](/beginners-guide.md)
 
@@ -45,8 +51,7 @@ To keep up to date with all things BeastSaber related, join their [Discord serve
 
 The following can be used to help you manage custom songs or playlists.
 
-- [BeatList](https://github.com/ranmd9a/beatlist/releases/latest) is a desktop app to manage custom songs and playlists,
-  maintained by **ranmd9a**.
+- [BSManager](https://bsmanager.io) is a desktop app by **Zagrios** that allows you to manage mods, songs, and playlists!
 - [BeaterList](https://syltaris.github.io/beaterlist) is a browser based service by **zexurge** to manage playlists.
 
 ## How do I install playlists?
@@ -57,10 +62,13 @@ You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistMa
 
 Then you can either:
 
-- Use the `Install Playlist` tool in the Options tab of Mod Assistant.
+- Install playlists through the Maps tab in BSManager.
+  ::: tip NOTE
+  This feature is only on the alpha version of BSManager!
+  :::
 - Place the playlist file into `Beat Saber/Playlists`, select the playlist title header in-game, then hit download all songs.
 
-You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
+You should see the playlist next to the Custom Levels albums in-game. The mod also supports managing playlists in-game.
 
 ### Quest
 
@@ -84,7 +92,7 @@ next time you sync your playlists through BMBF.
 
 See [mapping](/mapping/)!
 
-## How do I load PC mods that aren't in Mod Assistant or BSManager?
+## How do I load PC mods that aren't in my mod installer?
 
 See [this section](/pc-modding.md#manual-installation) in the beginners guide.
 
