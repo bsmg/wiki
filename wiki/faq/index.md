@@ -63,9 +63,9 @@ You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistMa
 Then you can either:
 
 - Install playlists through the Maps tab in BSManager.
-    ::: tip NOTE
-    This feature is only on the alpha version of BSManager!
-    :::
+  ::: tip NOTE
+  This feature is only on the alpha version of BSManager!
+  :::
 - Place the playlist file into `Beat Saber/Playlists`, select the playlist title header in-game, then hit download all songs.
 
 You should see the playlist next to the Custom Levels albums in-game. The mod also supports managing playlists in-game.
