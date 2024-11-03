@@ -30,8 +30,9 @@ You can download more walls from the [#pc-walls channel](https://discord.gg/beat
 ### Quest Walls
 
 Custom Walls for Quest are provided by the Qosmetics mod. The latest version can be found in the
-[#quest-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord. Walls are called `qwalls` and are currently
-hosted in the [Qosmetics Community Discord](https://discord.gg/qosmetics).
+[#quest-mods channel](https://discord.gg/beatsabermods) in the BSMG Discord. Walls are called `boxes` and are currently
+hosted in the [Qosmetics Community Discord](https://discord.gg/qosmetics). Legacy filetypes like `.qwall` made for older
+versions can still be used.
 
 ## Usage
 
@@ -43,7 +44,7 @@ you can change, such as disabling the wall frames.
 
 ### Quest Users
 
-Upload the `.qwall` file to your Quest using the [BMBF Web Interface](/quest-modding.md#installing-mods).
+Upload the `.box` or `.qwall` file to your Quest using [ModsBeforeFriday](../quest/modding-with-mbf.md).
 You can then select which wall is active from the Qosmetics menu in-game.
 
 ## Creating Custom Walls

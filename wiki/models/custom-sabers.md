@@ -57,7 +57,7 @@ Pressing it will open up the menu you can use to select which sabers you want to
 
 ### Quest Users
 
-Upload the `.whacker` file to your Quest using the [BMBF Web Interface](/quest-modding.md#installing-mods).
+Upload the `.whacker` or `.qsaber` file to your Quest using [ModsBeforeFriday](../quest/modding-with-mbf.md).
 You can then select which saber is active from the Qosmetics menu in-game.
 
 ## Creating Sabers
