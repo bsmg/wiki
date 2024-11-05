@@ -284,18 +284,8 @@ Either remove the `.dll` file from the `Plugins` folder, or click the `Uninstall
 
 Visit the support channels in the [BSMG Discord](https://discord.gg/beatsabermods)!
 
-To increase the chance that you'll have your questions answered, consider the following:
-
-- Use the correct channels please, `#pc-help` for pc mod support and `#quest-help` for quest mod support. Use `#pc-3d-modeling`
-  and `#quest-3d-modeling` for questions about **making your own avatars, platforms, notes, or sabers**, and `#mapping-discussion`
-  for questions about **making maps.**
-- Be polite and respectful.
-- Describe your problem in detail. "It didn't work" is about as descriptive as telling your doctor you don't feel well.
-  What's not working, and what did you try? Are there any messages that come up on screen?
-  Did your entire screen turn bright purple?
-
 ::: tip NOTE
-Those with the `Support` and/or `Mapping Support` role are volunteers that might choose to help out in their free time.
+Those with the `Support` and/or `Mapping Support` roles are volunteers that might choose to help out in their free time.
 The support roles are in recognition of the knowledge and effort they have put forth, but it doesn't
 necessarily mean that they'll be around to help just because they're online.
 :::
