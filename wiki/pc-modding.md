@@ -111,8 +111,12 @@ This folder is located in your game install: `Beat Saber/Beat Saber_Data/CustomL
 
 ### In-game Downloader
 
-The `BeatSaver Downloader` mod allows you to download maps in-game using the `MORE SONGS` menu button on
-the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com)
+The `BeatSaverDownloader` or `BetterSongSearch` mod allows you to download maps in-game using the `MORE SONGS` menu
+button on the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com).
+
+:::tip NOTE
+If you're using BetterSongSearch, the menu button might be called `BETTERSONGSEARCH` instead of `MORE SONGS`.
+:::
 
 ### BeatSaver
 
@@ -121,9 +125,6 @@ Many other tools and sites enhance the experience of downloading custom songs, b
 To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.
 You can also use the in-game downloader mod, the OneClick™ Install feature of Mod Assistant or BSManager, or in the "maps"
 tab of BSManager.
-
-To enable and use Mod Assistant's OneClick™ Install see the picture below:
-![Mod Assistant](/.assets/images/beginners-guide/modassistant-oneclick.png)
 
 To enable and use BSManager's OneClick™ Install see the picture below:
 ![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.jpg)
@@ -146,8 +147,11 @@ You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistMa
 
 Then you can either:
 
-- Use the `Install Playlist` tool in the Options tab of Mod Assistant.
-- Place the playlist file into `Beat Saber/Playlists`, select it in-game, then hit download all songs.
+- Install playlists through the Maps tab in BSManager.
+  ::: tip NOTE
+  This feature is only on the alpha version of BSManager!
+  :::
+- Place the playlist file into `Beat Saber/Playlists`, select the playlist title header in-game, then hit download all songs.
 
 You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
 
@@ -157,10 +161,11 @@ _Where is Beat Saber installed?_
 
 ### Default Location
 
-|        |                                                                              |
-| ------ | ---------------------------------------------------------------------------- |
-| Steam  | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\`                  |
-| Oculus | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+|           |                                                                              |
+| --------- | ---------------------------------------------------------------------------- |
+| Steam     | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\`                  |
+| Oculus    | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+| BSManager | `C:\Users\[USERNAME]\BSManager\BSInstances\`                                 |
 
 ### Other Locations
 
@@ -170,6 +175,7 @@ Replace the drive letter `F` with the drive your game is installed on.
 | --- | --- |
 | Steam | `F:\SteamLibrary\steamapps\common\Beat Saber\` |
 | Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+| BSManager | `F:\BSManager\BSInstances\` |
 
 ## Manual Installation
 
@@ -270,9 +276,26 @@ Either remove the `.dll` file from the `Plugins` folder, or click the `Uninstall
 - [Custom Sabers](/models/custom-sabers.md)
 - [Custom Avatars](/models/custom-avatars.md)
 - [Custom Platforms](/models/custom-platforms.md)
+- [CustomWalls](/models/custom-walls.md)
 - [Play Customs in Multiplayer](https://discord.com/invite/gezGrFG4tz)
 - [Making Mods](/modding/)
 
 ## Have questions?
 
 Visit the support channels in the [BSMG Discord](https://discord.gg/beatsabermods)!
+
+To increase the chance that you'll have your questions answered, consider the following:
+
+- Use the correct channels please, `#pc-help` for pc mod support and `#quest-help` for quest mod support. Use `#pc-3d-modeling`
+  and `#quest-3d-modeling` for questions about **making your own avatars, platforms, notes, or sabers**, and `#mapping-discussion`
+  for questions about **making maps.**
+- Be polite and respectful.
+- Describe your problem in detail. "It didn't work" is about as descriptive as telling your doctor you don't feel well.
+  What's not working, and what did you try? Are there any messages that come up on screen?
+  Did your entire screen turn bright purple?
+
+::: tip NOTE
+Those with the `Support` and/or `Mapping Support` role are volunteers that might choose to help out in their free time.
+The support roles are in recognition of the knowledge and effort they have put forth, but it doesn't
+necessarily mean that they'll be around to help just because they're online.
+:::
