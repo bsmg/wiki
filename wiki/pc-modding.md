@@ -27,9 +27,6 @@ Beat Saber will **NEVER** ask you to run it as Administrator.
 If you've downloaded and installed a mod and you get the
 User Account Control prompt, **DO NOT** click accept, and please report this. What you installed is a malicious mod!
 
-The only approved case is when activating/deactivating OneClick™ Install in Mod Assistant. Administrator access is required
-to register the program with your computer to handle OneClick™ Install links.
-
 If you're unsure if something you installed is malware or not, **_please ask someone in our discord_**.
 :::
 
@@ -123,7 +120,7 @@ If you're using BetterSongSearch, the menu button might be called `BETTERSONGSEA
 [BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community.
 Many other tools and sites enhance the experience of downloading custom songs, but this site is where they are stored.
 To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.
-You can also use the in-game downloader mod, the OneClick™ Install feature of Mod Assistant or BSManager, or in the "maps"
+You can also use the in-game downloader mod, the OneClick™ Install feature of BSManager, or in the "maps"
 tab of BSManager.
 
 To enable and use BSManager's OneClick™ Install see the picture below:
@@ -266,8 +263,13 @@ If you want to downgrade to `1.37.1`, `1.34.2`, or `1.29.1` you can use the lega
 
 ## How to uninstall mods
 
-Either remove the `.dll` file from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant or BSManager
+Either remove the `.dll` file from the `Plugins` folder, or click the trash icon button in BSManager
 (after selecting your version, go to the 'Mods' tab).
+
+:::tip NOTE
+If you manually installed a mod, you will have to remove that mod by removing the `.dll` file from
+the `Plugins` folder.
+:::
 
 ## Where to go from here
 
