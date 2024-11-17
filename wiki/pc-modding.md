@@ -27,9 +27,6 @@ Beat Saber will **NEVER** ask you to run it as Administrator.
 If you've downloaded and installed a mod and you get the
 User Account Control prompt, **DO NOT** click accept, and please report this. What you installed is a malicious mod!
 
-The only approved case is when activating/deactivating OneClick™ Install in Mod Assistant. Administrator access is required
-to register the program with your computer to handle OneClick™ Install links.
-
 If you're unsure if something you installed is malware or not, **_please ask someone in our discord_**.
 :::
 
@@ -111,19 +108,20 @@ This folder is located in your game install: `Beat Saber/Beat Saber_Data/CustomL
 
 ### In-game Downloader
 
-The `BeatSaver Downloader` mod allows you to download maps in-game using the `MORE SONGS` menu button on
-the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com)
+The `BeatSaverDownloader` or `BetterSongSearch` mod allows you to download maps in-game using the `MORE SONGS` menu
+button on the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com).
+
+:::tip NOTE
+If you're using BetterSongSearch, the menu button might be called `BETTERSONGSEARCH` instead of `MORE SONGS`.
+:::
 
 ### BeatSaver
 
 [BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community.
 Many other tools and sites enhance the experience of downloading custom songs, but this site is where they are stored.
 To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.
-You can also use the in-game downloader mod, the OneClick™ Install feature of Mod Assistant or BSManager, or in the "maps"
+You can also use the in-game downloader mod, the OneClick™ Install feature of BSManager, or in the "maps"
 tab of BSManager.
-
-To enable and use Mod Assistant's OneClick™ Install see the picture below:
-![Mod Assistant](/.assets/images/beginners-guide/modassistant-oneclick.png)
 
 To enable and use BSManager's OneClick™ Install see the picture below:
 ![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.jpg)
@@ -146,8 +144,11 @@ You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistMa
 
 Then you can either:
 
-- Use the `Install Playlist` tool in the Options tab of Mod Assistant.
-- Place the playlist file into `Beat Saber/Playlists`, select it in-game, then hit download all songs.
+- Install playlists through the Maps tab in BSManager.
+  ::: tip NOTE
+  This feature is only on the alpha version of BSManager!
+  :::
+- Place the playlist file into `Beat Saber/Playlists`, select the playlist title header in-game, then hit download all songs.
 
 You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
 
@@ -157,10 +158,11 @@ _Where is Beat Saber installed?_
 
 ### Default Location
 
-|        |                                                                              |
-| ------ | ---------------------------------------------------------------------------- |
-| Steam  | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\`                  |
-| Oculus | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+|           |                                                                              |
+| --------- | ---------------------------------------------------------------------------- |
+| Steam     | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\`                  |
+| Oculus    | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+| BSManager | `C:\Users\[USERNAME]\BSManager\BSInstances\`                                 |
 
 ### Other Locations
 
@@ -170,6 +172,7 @@ Replace the drive letter `F` with the drive your game is installed on.
 | --- | --- |
 | Steam | `F:\SteamLibrary\steamapps\common\Beat Saber\` |
 | Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+| BSManager | `F:\BSManager\BSInstances\` |
 
 ## Manual Installation
 
@@ -260,8 +263,13 @@ If you want to downgrade to `1.37.1`, `1.34.2`, or `1.29.1` you can use the lega
 
 ## How to uninstall mods
 
-Either remove the `.dll` file from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant or BSManager
+Either remove the `.dll` file from the `Plugins` folder, or click the trash icon button in BSManager
 (after selecting your version, go to the 'Mods' tab).
+
+:::tip NOTE
+If you manually installed a mod, you will have to remove that mod by removing the `.dll` file from
+the `Plugins` folder.
+:::
 
 ## Where to go from here
 
@@ -270,9 +278,16 @@ Either remove the `.dll` file from the `Plugins` folder, or click the `Uninstall
 - [Custom Sabers](/models/custom-sabers.md)
 - [Custom Avatars](/models/custom-avatars.md)
 - [Custom Platforms](/models/custom-platforms.md)
+- [CustomWalls](/models/custom-walls.md)
 - [Play Customs in Multiplayer](https://discord.com/invite/gezGrFG4tz)
 - [Making Mods](/modding/)
 
 ## Have questions?
 
 Visit the support channels in the [BSMG Discord](https://discord.gg/beatsabermods)!
+
+::: tip NOTE
+Those with the `Support` and/or `Mapping Support` roles are volunteers that might choose to help out in their free time.
+The support roles are in recognition of the knowledge and effort they have put forth, but it doesn't
+necessarily mean that they'll be around to help just because they're online.
+:::
