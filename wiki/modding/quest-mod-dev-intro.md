@@ -33,6 +33,7 @@ CMake for CLion.
 ## Environment Setup
 
 The following pieces of software are needed to follow this guide.
+
 - [Powershell](#powershell-core) - Cross Platform utility scripts
 - [CMake](#cmake) - Build Automation
 - [QPM](#qpm) - Dependency Management
@@ -42,10 +43,11 @@ The following pieces of software are needed to follow this guide.
 ### Powershell Core
 
 ::: warning
-You must download Powershell Core, the default windows Powershell will *not* work.
+You must download Powershell Core, the default windows Powershell will _not_ work.
 :::
 
-[Download the latest Powershell binary for your system](https://github.com/PowerShell/PowerShell/releases/latest) and add it to your PATH variable, or
+[Download the latest Powershell binary for your system](https://github.com/PowerShell/PowerShell/releases/latest) and add
+it to your PATH variable, or
 alternatively download and run the windows installer.
 
 ### CMake
@@ -63,12 +65,13 @@ from the appropriate workflow.
 
 Download ninja via qpm using `qpm download ninja`.
 
-Alternatively you can [Download the latest Ninja binary for your system](https://github.com/ninja-build/ninja/releases) from the Releases tab
+Alternatively you can [Download the latest Ninja binary for your system](https://github.com/ninja-build/ninja/releases)
+from the Releases tab
 and add it to your PATH variable.
 
 ### Android NDK
 
-Download the Andoid NDK via qpm using `qpm ndk download 27`, and add the extracted directory to a new environment variable 
+Download the Andoid NDK via qpm using `qpm ndk download 27`, and add the extracted directory to a new environment variable
 called ANDROID_NDK_HOME.
 
 Alternatively you can run `qpm ndk pin 27` in a project directory to only apply the NDK in the current project.
