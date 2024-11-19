@@ -33,10 +33,25 @@ CMake for CLion.
 ## Environment Setup
 
 The following pieces of software are needed to follow this guide.
-
+- [Powershell](#powershell-core) - Cross Platform utility scripts
+- [CMake](#cmake) - Build Automation
 - [QPM](#qpm) - Dependency Management
 - [Ninja](#ninja) - Build Tool
 - [Android NDK](#android-ndk) - Native Development Kit for Android Devices
+
+### Powershell Core
+
+::: warning
+You must download Powershell Core, the default windows Powershell will *not* work.
+:::
+
+[Download the latest Powershell binary for your system](https://github.com/PowerShell/PowerShell/releases/latest) and add it to your PATH variable, or
+alternatively download and run the windows installer.
+
+### CMake
+
+[Download the latest CMake binary for your system](https://cmake.org/download/) and add it to your PATH variable, or
+alternatively download and run the windows installer.
 
 ### QPM
 
@@ -46,13 +61,19 @@ from the appropriate workflow.
 
 ### Ninja
 
-[Download the latest Ninja binary for your system](https://github.com/ninja-build/ninja/releases) from the Releases tab
+Download ninja via qpm using `qpm download ninja`.
+
+Alternatively you can [Download the latest Ninja binary for your system](https://github.com/ninja-build/ninja/releases) from the Releases tab
 and add it to your PATH variable.
 
 ### Android NDK
 
-[Download the Android NDK](https://github.com/QuestPackageManager/ndk-canary-archive/releases/tag/27.0.1), unzip it, and
-add it to a new environment variable called ANDROID_NDK_HOME.
+Download the Andoid NDK via qpm using `qpm ndk download 27`, and add the extracted directory to a new environment variable 
+called ANDROID_NDK_HOME.
+
+Alternatively you can run `qpm ndk pin 27` in a project directory to only apply the NDK in the current project.
+
+If you wish you can instead download the NDK manually from the [Android NDK Downloads page](https://developer.android.com/ndk/downloads).
 
 ## Create a Project
 
