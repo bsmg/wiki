@@ -54,7 +54,7 @@ hero:
 <HomeLinks>
 
 - [Join the Discord server!](https://discord.gg/beatsabermods)
-- [Contact Us](https://bsmg.dev/contact) - Offer your skills, sponsor us, appeal a server mute/ban, report a user, etc.
+- [Contact Us](./contact-us.md) - Offer your skills, sponsor us, appeal a server mute/ban, report a user, etc.
 - [BSMG Patreon](https://www.patreon.com/beatsabermods) - Support the BSMG Services!
 - [BSMG Store](https://bsmgstore.com/) - Help support us and get cool merch!
 - [BSMG Map Playlists](https://beatsaver.com/profile/4329735#playlists) - Contest and event maps in a convenient place.
