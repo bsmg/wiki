@@ -65,6 +65,6 @@ Visit [https://bsmg.dev/roleappsguide](https://bsmg.dev/roleappsguide) for more 
 The Support and Modder roles use a nomination system, as a result applications are closed and submissions will not be reviewed.
 
 If you want to get nominated, participate and contribute to our community in the respective channels! (Help channels for
-support and mod developmebt channels for Modder) There are regular check-ins with existing members to discuss who is
+support and mod development channels for Modder) There are regular check-ins with existing members to discuss who is
 eligible and should get the role.
 :::
