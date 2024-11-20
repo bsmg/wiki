@@ -20,7 +20,7 @@ Visit the `#pc-help` or `#quest-help` channels instead!
 
 ## Reporting a User
 
-If want to report someone in the server or community use the contact system in the [BSMG Discord Server](https://discord.gg/beatsabermods)
+If you want to report someone in the server or community, use the contact system in the [BSMG Discord Server](https://discord.gg/beatsabermods)
 
 Visit the `#📗-contact-us` channel to get started.
 
@@ -62,9 +62,9 @@ If you want to apply for the following roles:
 Visit [https://bsmg.dev/roleappsguide](https://bsmg.dev/roleappsguide) for more information.
 
 :::tip NOTE
-The Support and Modder roles use a nomination system as a result applications are closed and submissions will not be reviewed.
+The Support and Modder roles use a nomination system, as a result applications are closed and submissions will not be reviewed.
 
 If you want to get nominated, participate and contribute to our community in the respective channels! (Help channels for
-support and Mod development channels for Modder) There are regular check-ins with existing members to discuss who is
+support and mod developmebt channels for Modder) There are regular check-ins with existing members to discuss who is
 eligible and should get the role.
 :::
