@@ -139,7 +139,7 @@ Do not remove the dependency on BSIPA. This is required by BSIPA itself.
   ensure you don't try to interact with them before they are loaded by BSIPA.
 - Similarly, you can add `LoadAfter` members to make your mod load after the specified mod.
 - If you want to move `Plugin.cs` to somewhere else in the project, use `PluginHint` to specify where it is so that
-BSIPA can find it.
+  BSIPA can find it.
 
 Once you've set all of this, BSMT will automatically generate an embedded `manifest.json` in your mod during build,
 which is required by BSIPA and can be used to pull information about the mod.
