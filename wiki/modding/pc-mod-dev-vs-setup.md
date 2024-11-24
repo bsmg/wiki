@@ -1,4 +1,9 @@
-## Modding Tools Setup for Visual Studio
+---
+prev: false
+next: false
+---
+
+# Modding Tools Setup for Visual Studio
 
 We will be using the BeatSaberModdingTools (BSMT) extension in this tutorial,
 as it comes with modding templates and useful features, like saving your Beat Saber directory.
@@ -50,7 +55,7 @@ manager [here](https://github.com/Zingabopp/BeatSaberModdingTools/wiki/Adding-Re
 You should have 5 files open automatically with the template.
 
 | Filename                 | About                                                                          |
-|--------------------------|--------------------------------------------------------------------------------|
+| ------------------------ | ------------------------------------------------------------------------------ |
 | `manifest.json`          | Information about your mod for BSIPA.                                          |
 | `Plugin.cs`              | The main file that is loaded for your mod.                                     |
 | `AssemblyInfo.cs`        | File information about your mod. This is mostly managed by Modding Tools.      |
@@ -64,7 +69,8 @@ The `name` and `id` keys are used to identify your mod.
 The ID should match the ID used when uploading your mod to BeatMods.
 
 ::: warning
-Do **not** remove the dependency on BSIPA. As of BSIPA v4.1 this is required for your mod to load. 
+Do **not** remove the dependency on BSIPA. As of BSIPA v4.1 this is required for your mod to load.
 :::
 
-After you're done with the setup, you can return to the main [PC mod dev intro page](pc-mod-dev-intro.md#compiling) to find out how to run your mod in game!
+After you're done with the setup, you can return to the main
+[PC mod dev intro page](pc-mod-dev-intro.md#compiling) to find out how to run your mod in game!
