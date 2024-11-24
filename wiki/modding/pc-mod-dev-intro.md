@@ -179,7 +179,7 @@ For now, here are some useful resources in continuing your modding career.
   the [BSMG Discord](https://discord.gg/beatsabermods).
 - If you want to decompile code, check out [dnSpy](https://github.com/dnSpy/dnSpy/releases)
 - See the BSIPA Documentation for more information about
-  the [configuration system](https://bsmg.github.io/BeatSaber-IPA-Reloaded/tags/4.1.3/articles/start-dev.html#configuring-your-plugin).
+  the [configuration system](https://nike4613.github.io/BeatSaber-IPA-Reloaded/articles/start-dev.html#configuring-your-plugin).
 - If you need to patch the game's code for your mod, you should
   use [Harmony](https://github.com/pardeike/Harmony#readme).
   The `0Harmony.dll` is already installed for modded games.
