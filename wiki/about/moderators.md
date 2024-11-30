@@ -51,10 +51,6 @@ Ironically doesn't like burritos, thinks tacos are better (true facts)
 
 **Roles:** Moderator
 
-## Gregi
-
-**Roles:** Moderator
-
 ## Hydrand
 
 Camellia is SourPls
@@ -129,6 +125,10 @@ kinda vibing
 
 ## === Retired ===
 
+### Amankins
+
+**Roles:** Moderator (Retired)
+
 ### BeigeAnimal
 
 We had to whip this boy into a bit of shape but he's was one of the most effective moderators.
@@ -171,6 +171,10 @@ Pepega
 </AboutLinks>
 
 ### ezconfirmed
+
+**Roles:** Moderator (Retired)
+
+### Gregi
 
 **Roles:** Moderator (Retired)
 
