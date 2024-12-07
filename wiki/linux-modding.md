@@ -35,9 +35,9 @@ mods not work in game.
    then click on the `Download` button.
 
 > **NOTE: It's recommended to mod a downloaded Beat Saber version instead of the original Steam version since the Steam might
-update Beat Saber and break some of the mods installed.**
+> update Beat Saber and break some of the mods installed.**
 
-![BSManager Install Version](/.assets/images/beginners-guide/bsmanager-install-version.png)
+![BSManager Install Version](/.assets/images/beginners-guide/bsmanager.png)
 
 3. Once done downloading, you will see the downloaded version on the left side panel. Click on that version and navigate
    to the `Mods` tab.
@@ -46,7 +46,7 @@ update Beat Saber and break some of the mods installed.**
 
 4. Select the mods you want to download and click on the `Install or update` button.
 
-![BSManager Install Mods](/.assets/images/beginners-guide/bsmanager-install-mods.png)
+![BSManager Install Mods](/.assets/images/beginners-guide/bsmanager-mods.png)
 
 5. Start Beat Saber from BSManager. Your mods should be installed.
 
