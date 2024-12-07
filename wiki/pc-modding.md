@@ -66,7 +66,7 @@ Visit the [Downgrading](#downgrading) section on this page for more information.
 
 An all-in-one tool that lets you easily manage BeatSaber versions, maps, mods, and even more. Get it on [Zagrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
 
-![BSManager](/.assets/images/beginners-guide/bsmanager.jpg)
+![BSManager](/.assets/images/beginners-guide/bsmanager.png)
 
 ### BeatSaberModManager
 
@@ -124,7 +124,7 @@ You can also use the in-game downloader mod, the OneClick™ Install feature of 
 tab of BSManager.
 
 To enable and use BSManager's OneClick™ Install see the picture below:
-![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.jpg)
+![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.png)
 
 ### Beast Saber
 

@@ -15,6 +15,41 @@ It is very similar to a Windows install, but you will need some workarounds.
 Using mods in Linux isn't supported by mod developers, so you might encounter bugs!
 :::
 
+:::info
+You only need to install one of these mod managers. Installing multiple of these might conflict with each other making
+mods not work in game.
+:::
+
+### Using BSManager
+
+::: danger
+**Run the game at least once** before trying to mod the game! This applies to reinstalling your game too.
+:::
+
+> **THIS IS CURRENTLY THE RECOMMENDED MOD INSTALLER AND DOWNGRADER.**
+
+1. To install [BSManager](https://github.com/Zagrios/bs-manager) in your specific distro, just follow the
+   instructions within the wiki guide located [here](https://github.com/Zagrios/bs-manager/wiki/Linux#installation).
+
+2. Open BSManager and install the latest Beat Saber version with the recommended label. Click on the recommended version
+   then click on the `Download` button.
+
+> **NOTE: It's recommended to mod a downloaded Beat Saber version instead of the original Steam version since the Steam might
+> update Beat Saber and break some of the mods installed.**
+
+![BSManager Install Version](/.assets/images/beginners-guide/bsmanager.png)
+
+3. Once done downloading, you will see the downloaded version on the left side panel. Click on that version and navigate
+   to the `Mods` tab.
+
+> **NOTE: A popup that will appear to warn you about modding the first time you try to install mods, accept this to continue.**
+
+4. Select the mods you want to download and click on the `Install or update` button.
+
+![BSManager Install Mods](/.assets/images/beginners-guide/bsmanager-mods.png)
+
+5. Start Beat Saber from BSManager. Your mods should be installed.
+
 ### Using BeatSaberModManager
 
 ::: danger
