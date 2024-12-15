@@ -109,11 +109,11 @@ German Beat Saber Community, JOIN US NOW! We have Magician! 😎
 
 ### Italy
 
-#### Italian Beat Saber Community
+#### BSITA
 
-A chill and accessible place for Italian players to hang around and meet each other
+A community for Italian Beat Saber players (Gio is here)
 
-[Discord](https://discord.gg/asdJZ7cTxe)
+[Discord](https://discord.gg/m6NPkrhVFy)
 
 ### Russia
 
