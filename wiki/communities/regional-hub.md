@@ -111,7 +111,7 @@ German Beat Saber Community, JOIN US NOW! We have Magician! 😎
 
 #### BSITA
 
-A community for Italian Beat Saber players (Gio is here)
+The official server of Beat Saber Italia! Open for international players too!
 
 [Discord](https://discord.gg/m6NPkrhVFy)
 
