@@ -865,7 +865,8 @@ Alters the BPM to the defined value at the indicated beat.
 
 ## NJS Events
 
-Allows you to alter the [NJS](info.md#note-jump-metadata) of the chart easing from the previous NJS event's time to the current NJS event's time.
+Allows you to alter the [NJS](info.md#note-jump-metadata) of the chart easing from the previous NJS event's time to the
+current NJS event's time.
 
 ::: code-group
 
