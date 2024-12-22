@@ -25,6 +25,7 @@ to know where the corresponding collections are located.
 <<< @/.assets/snippets/beatmap/3.2.0.dat{json} [3.2.0]
 <<< @/.assets/snippets/beatmap/3.3.0.dat{json} [3.3.0]
 <<< @/.assets/snippets/beatmap/4.0.0.dat{json} [4.0.0]
+<<< @/.assets/snippets/beatmap/4.1.0.dat{json} [4.1.0]
 :::
 ::::
 
@@ -86,6 +87,12 @@ Introduced in **1.34.5**
 
 - Beatmap objects now use a template-like structure for serialization.
 - All non-interactable beatmap objects were relocated to the [Lightshow](./lightshow.md) file.
+
+== 4.1.0
+Introduced in **1.40.0**
+
+- Added support for [NJS Events](#njs-events)
+- Removed support for [Spawn Rotations](#spawn-rotations)
 
 :::
 
@@ -852,6 +859,50 @@ A specific point in time, as determined by the [BPM](info.md#bpm) of the song, w
 ### BPM {#bpm-events-bpm}
 
 Alters the BPM to the defined value at the indicated beat.
+
+## NJS Events
+
+Allows you to alter the [NJS](info.md#note-jump-metadata) of the chart easing from the previous NJS event's time to the current NJS event's time.
+
+::: code-group
+
+```jsonc [4.1.0]
+{
+  "njsEvents": [
+    {
+      "b": 1.0, // Beat
+      "i": 0, // NJS Event Metadata Index Index
+    },
+  ],
+  "njsEventData": [
+    {
+      "p": 1, // Extend (Use previous NJS event values)
+      "e": 1, // Easing
+      "d": 2.0, // Relative NJS difference from base NJS in Info.dat
+    },
+  ],
+}
+```
+
+### Beat {#njs-events-beat}
+
+A specific point in time, as determined by the [BPM](info.md#bpm) of the song, when this event should produce its effect.
+
+### Easing {#njs-events-easing}
+
+An integer value which determines the interpolation of the transition between states.
+
+<!--@include: @/.assets/parts/easings.md-->
+
+### Relative NJS Difference {#njs-events-difference}
+
+Alters the NJS to the value relative to the [base NJS](info.md#note-jump-metadata) of the song.
+A positive value increases the NJS. A negative value decreases the NJS.
+
+When the NJS decreases below base NJS the [Jump Distance](../intermediate-mapping.md#jump-settings) of objects remains
+constant.
+When the NJS increases above base NJS the [Reaction Time](../intermediate-mapping.md#jump-settings) of objects remains
+constant.
 
 ## Lightshow
 
