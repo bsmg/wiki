@@ -1,4 +1,7 @@
 ---
+prev: false
+next: false
+description: Take a deep dive into the info file format for a Beat Saber map.
 ---
 
 # Info
