@@ -22,11 +22,12 @@
   ],
   "colorSchemes": [
     {
-      "useOverride": true,
       "colorSchemeName": "Weave",
+      "overrideNotes": true,
       "saberAColor": "C81414FF",
       "saberBColor": "288ED2FF",
       "obstaclesColor": "FF3030FF",
+      "overrideLights": true,
       "environmentColor0": "D91616FF",
       "environmentColor1": "30ACFFFF",
       "environmentColor0Boost": "D216D9FF",
