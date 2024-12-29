@@ -13,7 +13,7 @@ _Learn how to get started writing your own Quest Mods._
 ::: warning
 This guide is for making mods for the **Quest Standalone** version of Beat Saber!
 
-If you use Oculus Link or similar, you want to visit the [PC Mod Development Guide](../pc/intro.md) as that uses
+If you use Oculus Link or similar, you want to visit the [PC Mod Development Guide](../pc/index.md) as that uses
 the PC version of the game.
 :::
 

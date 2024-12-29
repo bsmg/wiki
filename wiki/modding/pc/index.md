@@ -15,10 +15,23 @@ A proposed alternative to BSIPA, [BepInEx for BSIPA](https://github.com/BepInEx/
 had been created by Bepis. You can read more about BepInEx [here](https://github.com/BepInEx/BepInEx). As for developing
 Beat Saber plugins with the BepInEx plugin API, it is not currently supported and you would be on your own.
 
+## List of contents
+
+- [Getting a setup ready for creating PC mods](#getting-started)
+- [Useful launch arguments](#launch-args)
+- [Using Runtime Unity Editor](./rue.md)
+- [Inspecting the game code with a decompiler](./decompiling.md)
+- [Harmony patching](./harmony-patching.md)
+- [Creating user interfaces with BeatSaberMarkupLanguage](./bsml.md)
+- [The essentials of Zenject through SiraUtil](./zenject-essentials.md)
+- [Writing a functioning mod step-by-step](./full-mod-guide.md)
+- [Uploading your mod to BeatMods](./beatmods.md)
+- [Other links](#other-links)
+
 ## Getting Started
 
 If you are interested in creating a Beat Saber mod, but do not have a template or Visual Studio template set up,
-[follow the Intro guide to get your project all set up](./intro.md).
+follow the [setup guide](./setup.md) to get your project all set up.
 
 If you have any questions at any point, the best place to ask is in the `#pc-mod-dev` channel on the
 [BSMG Discord](https://discord.gg/beatsabermods), another modder may be able to help you solve your problem.

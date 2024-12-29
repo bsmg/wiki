@@ -111,7 +111,20 @@ export const en = defineConfig({
         name: 'Modding',
         path: '/modding/',
         routes: [
-          ['PC', '/modding/pc/intro'],
+          [
+            'PC',
+            '/modding/pc/setup',
+            [
+              ['Setup Guide', '/modding/pc/setup'],
+              ['RUE', '/modding/pc/rue'],
+              ['Decompiling', '/modding/pc/decompiling'],
+              ['Harmony Patching', '/modding/pc/harmony-patching'],
+              ['BSML', '/modding/pc/bsml'],
+              ['Zenject Intro', '/modding/pc/zenject-essentials'],
+              ['Full Guide', '/modding/pc/full-mod-guide'],
+              ['BeatMods', '/modding/pc/beatmods'],
+            ],
+          ],
           [
             'Quest',
             '/modding/quest/intro',

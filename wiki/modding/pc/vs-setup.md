@@ -73,4 +73,4 @@ Do **not** remove the dependency on BSIPA. As of BSIPA v4.1 this is required for
 :::
 
 After you're done with the setup, you can return to the main
-[PC mod dev intro page](./intro.md#compiling) to find out how to run your mod in game!
+[PC mod dev intro page](./setup.md#compiling) to find out how to run your mod in game!
