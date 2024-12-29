@@ -24,14 +24,14 @@ First, create a new project and find a template. We are going to use the `BSIPA4
 calling our mod `BSPlugin1`.
 You should change the name to whatever you want to call your mod.
 
-![VS Modding Template Select](/wiki/.assets/images/modding/modding-template-select.png 'Modding Template Select')  
-![VS Modding Template Name](/wiki/.assets/images/modding/modding-template-name.png 'Modding Template Name')
+![VS Modding Template Select](../..images/modding/modding-template-select.png 'Modding Template Select')  
+![VS Modding Template Name](../../.assets/images/modding/modding-template-name.png 'Modding Template Name')
 
 You will then need to set your Beat Saber Directory in Visual Studio.
 Follow the instructions [on the template readme](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use),
 or see the screenshot below.
 
-![Setup Beat Saber Directory](/wiki/.assets/images/modding/setup-bs-directory.png 'Setup Beat Saber Directory')
+![Setup Beat Saber Directory](../../.assets/images/modding/setup-bs-directory.png 'Setup Beat Saber Directory')
 
 At this point, **try and build the project**, and it should automatically find the
 references for you and the build should succeed.
