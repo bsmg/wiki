@@ -24,7 +24,7 @@ First, create a new project and find a template. We are going to use the `BSIPA4
 calling our mod `BSPlugin1`.
 You should change the name to whatever you want to call your mod.
 
-![VS Modding Template Select](../..images/modding/modding-template-select.png 'Modding Template Select')  
+![VS Modding Template Select](../../.assets/images/modding/modding-template-select.png 'Modding Template Select')  
 ![VS Modding Template Name](../../.assets/images/modding/modding-template-name.png 'Modding Template Name')
 
 You will then need to set your Beat Saber Directory in Visual Studio.
