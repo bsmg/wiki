@@ -1,7 +1,6 @@
 ---
 prev: false
 next: false
-description: Learn how to create your own PC mods!
 ---
 
 # PC Mod Development Intro
@@ -161,7 +160,7 @@ To test if your mod is loaded in-game, you will need to launch Beat Saber with t
 add `--verbose` as a launch argument, or if you're running from BSManager, simply enable debug mode from the launch
 screen, and then run the game.
 
-For more information on launch arguments, see [here](../index.md#launch-args).
+For more information on launch arguments, see [here](./index.md#launch-args).
 
 When you launch the game, you should see BSIPA load your mod in the console window.
 
