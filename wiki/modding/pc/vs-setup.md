@@ -24,14 +24,14 @@ First, create a new project and find a template. We are going to use the `BSIPA4
 calling our mod `BSPlugin1`.
 You should change the name to whatever you want to call your mod.
 
-![VS Modding Template Select](../.assets/images/modding/modding-template-select.png 'Modding Template Select')  
-![VS Modding Template Name](../.assets/images/modding/modding-template-name.png 'Modding Template Name')
+![VS Modding Template Select](../../.assets/images/modding/modding-template-select.png 'Modding Template Select')  
+![VS Modding Template Name](../../.assets/images/modding/modding-template-name.png 'Modding Template Name')
 
 You will then need to set your Beat Saber Directory in Visual Studio.
 Follow the instructions [on the template readme](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use),
 or see the screenshot below.
 
-![Setup Beat Saber Directory](../.assets/images/modding/setup-bs-directory.png 'Setup Beat Saber Directory')
+![Setup Beat Saber Directory](../../.assets/images/modding/setup-bs-directory.png 'Setup Beat Saber Directory')
 
 At this point, **try and build the project**, and it should automatically find the
 references for you and the build should succeed.
@@ -40,7 +40,7 @@ If your build does not succeed, check that you don't have any missing references
 
 ::: tip
 BeatSaberModdingTools will automatically handle references. If your references could not be
-found, [double-check the instructions](https://github.com/Zingabopp/BeatSaberModdingTools#how-to-use).
+found, [double-check the instructions](https://github.com/Zingabopp/BeatSaberModdingTools#beat-saber-modding-tools).
 
 If you need to manually add references, right click on `References` in the Project folder, then
 `Beat Saber Reference Manager...`.
@@ -73,4 +73,4 @@ Do **not** remove the dependency on BSIPA. As of BSIPA v4.1 this is required for
 :::
 
 After you're done with the setup, you can return to the main
-[PC mod dev intro page](pc-mod-dev-intro.md#compiling) to find out how to run your mod in game!
+[PC mod dev intro page](./intro.md#compiling) to find out how to run your mod in game!

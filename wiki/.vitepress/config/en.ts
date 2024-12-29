@@ -111,14 +111,14 @@ export const en = defineConfig({
         name: 'Modding',
         path: '/modding/',
         routes: [
-          ['PC', '/modding/pc-mod-dev-intro'],
+          ['PC', '/modding/pc/intro'],
           [
             'Quest',
-            '/modding/quest-mod-dev-intro',
+            '/modding/quest/intro',
             [
-              ['Config', '/modding/quest-mod-dev-config'],
-              ['Custom Types', '/modding/quest-mod-dev-custom-types'],
-              ['UI', '/modding/quest-mod-dev-ui'],
+              ['Config', '/modding/quest/config'],
+              ['Custom Types', '/modding/quest/custom-types'],
+              ['UI', '/modding/quest/ui'],
             ],
           ],
         ],

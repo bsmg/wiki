@@ -14,16 +14,16 @@ _Learn how to get started writing your own PC Mods._
 This guide is for making mods for the **PC** version of Beat Saber!
 
 If you want to develop mods for the **Quest Standalone** version of the game, visit
-the [Quest Mod Development Guide](./quest-mod-dev-intro.md)
+the [Quest Mod Development Guide](../quest/intro.md)
 
 Make sure your game is modded before trying to make a mod.  
-See instructions for [modding Beat Saber on PC.](../pc-modding.md)
+See instructions for [modding Beat Saber on PC.](../../pc-modding.md)
 
 This guide assumes you have a basic to intermediate understanding of C# and Unity.  
 You may have difficulty understanding what is covered here if you do not have this foundation.
 :::
 
-Beat Saber is made in Unity 2022.3 using C# with .NET framework 4.7.2. To make writing and building mods as simple ~~~~as
+Beat Saber is made in Unity 2022.3 using C# with .NET framework 4.7.2. To make writing and building mods as simple as
 possible you will need to download an IDE that supports Unity.
 
 This guide
@@ -32,7 +32,7 @@ use [Microsoft Visual Studio Community](https://visualstudio.microsoft.com/). Bo
 the guide for Rider users is more up-to-date.
 
 We will now cover setting up Rider for modding. For Visual Studio users, refer to the
-[Visual Studio Setup](pc-mod-dev-vs-setup.md) page.
+[Visual Studio Setup](./vs-setup.md) page.
 
 ## Modding Tools Setup
 
@@ -49,7 +49,7 @@ Next to `Marketplace` and `Installed` there will be a settings icon, click this,
 `Install Plugin from Disk...`. From here, find the BSMT Rider zip you downloaded and select it, this will install the
 plugin in Rider.
 
-![Install Disk Plugin](../.assets/images/modding/pc-mod-rider-plugin.png 'Install Disk Plugin')
+![Install Disk Plugin](../../.assets/images/modding/pc-mod-rider-plugin.png 'Install Disk Plugin')
 
 ## Template setup
 
@@ -58,7 +58,7 @@ BSMT comes with some working plugin templates to get you started as quickly as p
 Create a new solution and, if you installed BSMT correctly, you should be able to select a plugin template from the
 `Custom Templates` list.
 
-![Rider Modding Template Select](../.assets/images/modding/pc-mod-template-rider.png 'Modding Template Select')
+![Rider Modding Template Select](../../.assets/images/modding/pc-mod-template-rider.png 'Modding Template Select')
 
 Choose a name for your mod and the location you want to save it. Do not save the solution in your Beat Saber
 installation folder.
@@ -66,7 +66,7 @@ installation folder.
 Once you're done, click `Create` and the mod template will open. Next, you will receive a popup asking you to set your
 Beat Saber Directory.
 
-![Rider Beat Saber Directory](../.assets/images/modding/pc-mod-directory-rider.png 'Rider Beat Saber Directory')
+![Rider Beat Saber Directory](../../.assets/images/modding/pc-mod-directory-rider.png 'Rider Beat Saber Directory')
 
 Select your Beat Saber game's installation, you can also use a BSManager instance here too. If you select
 `Store this beat saber folder in config`, BSMT will remember this directory whenever you reopen a project.
@@ -75,30 +75,30 @@ At this point, **try and build the project**, and it should automatically find t
 references for you and the build should succeed if you set a valid Beat Saber installation directory. You can do this
 with the build hotkey or the button on the top bar.
 
-![Rider Build](../.assets/images/modding/pc-mod-build-rider.png 'Rider Build')
+![Rider Build](../../.assets/images/modding/pc-mod-build-rider.png 'Rider Build')
 
 If you need to manually add Beat Saber assembly or other mod references, right click on `Dependencies` in the Project
 folder, then `Add Beat Saber assembly references`. This will let you search for Beat Saber assemblies, and it will add
 them to the `.csproj` for you.
 
-![Rider References](../.assets/images/modding/pc-mod-references-rider.png 'Rider References')
+![Rider References](../../.assets/images/modding/pc-mod-references-rider.png 'Rider References')
 
 ## Inspecting the Code
 
 Open the explorer on the right side of Rider and you should see all the project files.
 
-| Filename                 | About                                                                             |
-| ------------------------ | --------------------------------------------------------------------------------- |
-| `PluginName.csproj`      | This is the C# project that contains build information.                           |
-| `PluginName.csproj.user` | This is where the Beat Saber directory is saved. BSMT will manage this for you.   |
-| `Plugin.cs`              | The main file that is loaded for your mod. This is t~~~~he entry point for BSIPA. |
-| `Directory.Build.props`  | Contains metadata for your plugin like the version, links, dependencies etc.      |
+| Filename                 | About                                                                           |
+| ------------------------ | ------------------------------------------------------------------------------- |
+| `PluginName.csproj`      | This is the C# project that contains build information.                         |
+| `PluginName.csproj.user` | This is where the Beat Saber directory is saved. BSMT will manage this for you. |
+| `Plugin.cs`              | The main file that is loaded for your mod. This is the entry point for BSIPA.   |
+| `Directory.Build.props`  | Contains metadata for your plugin like the version, links, dependencies etc.    |
 
 ## Edit your mod's manifest
 
 ### Defining Metadata
 
-Open `Directoy.Build.props` and fill in your mod's information in the Plugin Metadata `PropertyGroup`:
+Open `Directory.Build.props` and fill in your mod's information in the Plugin Metadata `PropertyGroup`:
 
 - The `PluginId` and `PluginName` keys are used to identify your mod. Mods that will be uploaded to BeatMods typically
   should have these be exactly the same and have no spaces.
@@ -114,9 +114,9 @@ There are also some optional properties you can add:
 - The `ProjectSource` is a URL to the source code of your mod. Most mods have their source code open on GitHub, for
   instance.
 - The `ProjectHome` can be a URL to a website where your mod is downloaded from or hosted.
-- You can also specify a `Dontate` URL, which if you want to, you can set up a way for people to support your modding
+- You can also specify a `Donate` URL, which if you want to, you can set up a way for people to support your modding
   work.
-- The `Icon` path is currently not utilised by anything for now.
+- The `Icon` path is currently not utilized by anything for now.
 
 ### Defining Dependencies
 
@@ -133,7 +133,7 @@ Do not remove the dependency on BSIPA. This is required by BSIPA itself.
 
 ### Additional Properties
 
-- If your mod breaks in the presence of another mod due to conflicting behaviour, you should add it as a `ConflictsWith`
+- If your mod breaks in the presence of another mod due to conflicting behavior, you should add it as a `ConflictsWith`
   member, which will make your plugin not load if the specified conflicting mod is installed.
 - If your mod interacts with other mods but does not need them in order to function, consider adding `LoadBefore` to
   ensure you don't try to interact with them before they are loaded by BSIPA.
@@ -161,15 +161,15 @@ To test if your mod is loaded in-game, you will need to launch Beat Saber with t
 add `--verbose` as a launch argument, or if you're running from BSManager, simply enable debug mode from the launch
 screen, and then run the game.
 
-For more information on launch arguments, see [here](../modding/index.md/#launch-args).
+For more information on launch arguments, see [here](../../modding/index.md#launch-args).
 
 When you launch the game, you should see BSIPA load your mod in the console window.
 
-![Testing console screenshot](../.assets/images/modding/testing-console.png 'Testing console screenshot')
+![Testing console screenshot](../../.assets/images/modding/testing-console.png 'Testing console screenshot')
 
 ## Next Steps
 
-There is a continuation of this guide being made, which will go into more detail about how to utilise parts of the game
+There is a continuation of this guide being made, which will go into more detail about how to utilize parts of the game
 as well as libraries created by the community, decompile and read the game's code, and creating a simple but functional
 mod from scratch, so come back later to check it out!
 
