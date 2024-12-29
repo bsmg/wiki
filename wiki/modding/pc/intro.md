@@ -49,7 +49,7 @@ Next to `Marketplace` and `Installed` there will be a settings icon, click this,
 `Install Plugin from Disk...`. From here, find the BSMT Rider zip you downloaded and select it, this will install the
 plugin in Rider.
 
-![Install Disk Plugin](../../.assets/images/modding/pc-mod-rider-plugin.png 'Install Disk Plugin')
+![Install Disk Plugin](/wiki/.assets/images/modding/pc-mod-rider-plugin.png 'Install Disk Plugin')
 
 ## Template setup
 
@@ -58,7 +58,7 @@ BSMT comes with some working plugin templates to get you started as quickly as p
 Create a new solution and, if you installed BSMT correctly, you should be able to select a plugin template from the
 `Custom Templates` list.
 
-![Rider Modding Template Select](../../.assets/images/modding/pc-mod-template-rider.png 'Modding Template Select')
+![Rider Modding Template Select](/wiki/.assets/images/modding/pc-mod-template-rider.png 'Modding Template Select')
 
 Choose a name for your mod and the location you want to save it. Do not save the solution in your Beat Saber
 installation folder.
@@ -66,7 +66,7 @@ installation folder.
 Once you're done, click `Create` and the mod template will open. Next, you will receive a popup asking you to set your
 Beat Saber Directory.
 
-![Rider Beat Saber Directory](../../.assets/images/modding/pc-mod-directory-rider.png 'Rider Beat Saber Directory')
+![Rider Beat Saber Directory](/wiki/.assets/images/modding/pc-mod-directory-rider.png 'Rider Beat Saber Directory')
 
 Select your Beat Saber game's installation, you can also use a BSManager instance here too. If you select
 `Store this beat saber folder in config`, BSMT will remember this directory whenever you reopen a project.
@@ -75,13 +75,13 @@ At this point, **try and build the project**, and it should automatically find t
 references for you and the build should succeed if you set a valid Beat Saber installation directory. You can do this
 with the build hotkey or the button on the top bar.
 
-![Rider Build](../../.assets/images/modding/pc-mod-build-rider.png 'Rider Build')
+![Rider Build](/wiki/.assets/images/modding/pc-mod-build-rider.png 'Rider Build')
 
 If you need to manually add Beat Saber assembly or other mod references, right click on `Dependencies` in the Project
 folder, then `Add Beat Saber assembly references`. This will let you search for Beat Saber assemblies, and it will add
 them to the `.csproj` for you.
 
-![Rider References](../../.assets/images/modding/pc-mod-references-rider.png 'Rider References')
+![Rider References](/wiki/.assets/images/modding/pc-mod-references-rider.png 'Rider References')
 
 ## Inspecting the Code
 
@@ -161,11 +161,11 @@ To test if your mod is loaded in-game, you will need to launch Beat Saber with t
 add `--verbose` as a launch argument, or if you're running from BSManager, simply enable debug mode from the launch
 screen, and then run the game.
 
-For more information on launch arguments, see [here](../../modding/index.md#launch-args).
+For more information on launch arguments, see [here](/wiki/modding/index.md#launch-args).
 
 When you launch the game, you should see BSIPA load your mod in the console window.
 
-![Testing console screenshot](../../.assets/images/modding/testing-console.png 'Testing console screenshot')
+![Testing console screenshot](/wiki/.assets/images/modding/testing-console.png 'Testing console screenshot')
 
 ## Next Steps
 

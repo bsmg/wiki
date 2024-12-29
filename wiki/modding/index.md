@@ -27,7 +27,7 @@ but other than that you're kinda on your own.
 ### Project Setup
 
 If you are interested in creating a Beat Saber mod, but do not have a template or Visual Studio template set up,
-[follow the Intro guide to get your project all set up](./pc/pc-mod-dev-intro.md).
+[follow the Intro guide to get your project all set up](./pc/intro.md).
 
 #### Ready to go?
 
@@ -67,4 +67,4 @@ limited to:
 - User Interfaces using `bsml`
 - Custom types
 
-Visit the [Quest Mod Development Intro](./quest/quest-mod-dev-intro.md) page for more information on getting started!
+Visit the [Quest Mod Development Intro](./quest/intro.md) page for more information on getting started!
