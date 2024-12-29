@@ -367,7 +367,7 @@ Click on the arrow beside the mod name to see the image.
 Noodle Extensions
 </summary>
 
-![Noodle Extensions](../..images/modding/quest-ne-cover.jpg)
+![Noodle Extensions](../../.assets/images/modding/quest-ne-cover.jpg)
 
 </details>
 <details><summary>
