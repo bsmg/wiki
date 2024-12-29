@@ -89,7 +89,7 @@ qpm templatr --git https://github.com/Lauriethefish/quest-mod-template.git <dest
 
 Templatr will then ask a series of questions to create a mod project.
 
-![Templatr Example](../..images/modding/quest-mod-template-example.png)
+![Templatr Example](../../.assets/images/modding/quest-mod-template-example.png)
 
 ### Add and Update Dependencies
 
