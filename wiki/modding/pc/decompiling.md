@@ -12,7 +12,7 @@ the game's code itself. There are some tools to help with this.
 
 Rider and Visual Studio do have built-in decompilers to let you see under the hood of types.
 
-![Rider Decompiling](../../.assets/images/modding/pc-mod-rider-decompiling.jpg 'Rider Decompiling')
+![Rider Decompiling](/.assets/images/modding/pc-mod-rider-decompiling.jpg 'Rider Decompiling')
 
 This will only have limited usage and won't help you browse the types the game has to offer, or see how different
 parts of the game's code interact.
@@ -26,7 +26,7 @@ from the [releases](https://github.com/icsharpcode/ILSpy/releases) and install I
 Once you have ILSpy opened, find the `Manage Assembly Lists` icon in the top bar and create a new list. You can name it
 after the Beat Saber version you are working on. Once created, double click it to open the list.
 
-![ILSpy List Screenshot](../../.assets/images/modding/pc-mod-ilspy-list.jpg 'ILSpy List Screenshot')
+![ILSpy List Screenshot](/.assets/images/modding/pc-mod-ilspy-list.jpg 'ILSpy List Screenshot')
 
 To add binaries, click the `Open` icon in the top bar and navigate to your game folder. You are looking for
 `/Beat Saber_Data/Managed`, select everything in this folder and open them into ILSpy. This will also include the
@@ -54,18 +54,18 @@ Beat Saber is a complex game with a lot of different assemblies, but it is prett
 find what you are looking for where it should be. Something that may help is to find an object in game using RUE,
 and by checking the MonoBehaviours attached to them, you can search for them in ILSpy.
 
-![ILSpy Search Screenshot](../../.assets/images/modding/pc-mod-ilspy-search.jpg 'ILSpy Search Screenshot')
+![ILSpy Search Screenshot](/.assets/images/modding/pc-mod-ilspy-search.jpg 'ILSpy Search Screenshot')
 
 If you double click a type in the search window, or in the assembly list, you will see the decompiler's interpretation
 of that type and the corresponding C# code.
 
-![ILSpy Code Screenshot](../../.assets/images/modding/pc-mod-ilspy-code.jpg 'ILSpy Code Screenshot')
+![ILSpy Code Screenshot](/.assets/images/modding/pc-mod-ilspy-code.jpg 'ILSpy Code Screenshot')
 
 An important trick to know is analyzing members of a type. By pressing `Ctrl+R` or right-clicking and `Analyze` on,
 for example, a public method, you will see the usages of that member. In the example below, the method
 `FlyingScoreEffect.InitAndPresent` is called by `FlyingScoreSpawner.SpawnFlyingScore`.
 
-![ILSpy Analyze Screenshot](../../.assets/images/modding/pc-mod-ilspy-analyze.jpg 'ILSpy Analyze Screenshot')
+![ILSpy Analyze Screenshot](/.assets/images/modding/pc-mod-ilspy-analyze.jpg 'ILSpy Analyze Screenshot')
 
 This tool will be very important when writing [Harmony patches](./harmony-patching.md), which will be covered in the next
 section of this wiki. You will want to be able to know how different parts of the code interact so that you can work out
