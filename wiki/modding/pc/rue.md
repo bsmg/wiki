@@ -31,5 +31,5 @@ the default keybinding for SiraUtil's FPFC toggle feature.
 
 An alternative to Runtime Unity Editor is [UnityExplorer](https://github.com/yukieiji/UnityExplorer),
 which is also regularly used for Beat Saber modding. You can find all details on how to install UnityExplorer
-[here](https://github.com/yukieiji/UnityExplorer#standalone), but, because we use BSIPA, you will have to either build
-it yourself or search around in BSMG for someone who has already done this.
+[here](https://github.com/yukieiji/UnityExplorer?tab=readme-ov-file#standalone), but, because we use BSIPA, you will
+have to either build it yourself or search around in BSMG for someone who has already done this.
