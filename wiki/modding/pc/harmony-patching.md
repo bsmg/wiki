@@ -1,6 +1,6 @@
 ---
 prev: Decompiling
-next: BeatSaberMarkupLanguage
+next: Creating UI
 ---
 
 # Harmony Patching

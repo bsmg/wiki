@@ -119,7 +119,7 @@ export const en = defineConfig({
               ['RUE', '/modding/pc/rue'],
               ['Decompiling', '/modding/pc/decompiling'],
               ['Harmony Patching', '/modding/pc/harmony-patching'],
-              ['BSML', '/modding/pc/bsml'],
+              ['Creating UI', '/modding/pc/bsml'],
               ['Zenject Intro', '/modding/pc/zenject-essentials'],
               ['Full Guide', '/modding/pc/full-mod-guide'],
               ['BeatMods', '/modding/pc/beatmods'],
