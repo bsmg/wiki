@@ -24,6 +24,10 @@ that can be done at any time, if they're needed.
   your audio file works as expected.
   :::
 
+::: tip
+Use [BeatTimer](https://beat-timer.webry.com/) to do steps 1-3 in one go more easily without needing to install any additional software.
+:::
+
 1. Download and Install [Audacity](https://www.audacityteam.org/)
    - Optionally install the [ffmpeg for windows](https://manual.audacityteam.org/man/installing_ffmpeg_for_windows.html)
      addon to open additional file types such as `.aac` or `.m4a` from iTunes.

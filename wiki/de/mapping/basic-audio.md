@@ -19,6 +19,10 @@ Auf dieser Seite finden sowohl neue als auch erfahrene Mapper allgemeine Empfehl
 - Die Schritte 1-3 **MÜSSEN** abgeschlossen sein, bevor du mit dem Mapping beginnst, sonst ist deine Audio nicht mehr synchron und kann einen [_Hot Start_](./glossary.md#h) haben.
 - Die Verwendung von Online-Websites zur Konvertierung von Audio in `.ogg` kann dazu führen, dass deine Audiodatei als ungültig behandelt wird und nicht vom Spiel geladen werden kann! Das Bearbeiten und Exportieren von [Audacity](https://www.audacityteam.org/) ist der einfachste Weg, um sicherzustellen, dass deine Audiodatei wie erwartet funktioniert.
   :::
+  
+::: tip TIPP
+Nutze [BeatTimer](https://beat-timer.webry.com/), um die Schritte 1-3 auf einmal durchzuführen, ohne zusätzliche Software installieren zu müssen.
+:::
 
 1. Lade [Audacity](https://www.audacityteam.org/) herunter und installiere es
    - Installiere optional das [ffmpeg für Windows](https://manual.audacityteam.org/man/installing_ffmpeg_for_windows.html) Addon, um zusätzliche Dateitypen wie `.aac` oder `.m4a` aus iTunes zu öffnen.
