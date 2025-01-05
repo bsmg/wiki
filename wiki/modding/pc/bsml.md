@@ -1,6 +1,6 @@
 ---
 prev: Harmony Patching
-next: Zenject Essentials
+next: Zenject and SiraUtil
 ---
 
 # Creating Beat Saber UI

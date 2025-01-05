@@ -1,5 +1,5 @@
 ---
-prev: Zenject Essentials
+prev: Zenject and SiraUtil
 next: Uploading Your Mod
 ---
 
