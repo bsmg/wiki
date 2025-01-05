@@ -416,8 +416,7 @@ Container.BindInstance(registration).AsSingle();
 Chroma to set the color of sabers to the color of Chroma-colored notes.
 
 ```c#
-internal class CustomSaberModelController
-    : SaberModelController, IColorable
+internal class CustomSaberModelController : SaberModelController, IColorable
 {
     public Color Color { get; set; } // Add behaviour on the setter
 }
@@ -431,12 +430,9 @@ want the original `Init` to run, otherwise return `false`.
 
 ```c#
 internal class CustomSaberModelController
-    : SaberModelController, IColorable, IPreSaberModelInit, IPostSaberModelInit
+    : SaberModelController, IPreSaberModelInit, IPostSaberModelInit
 {
-    public Color Color { get; set; } // Add behaviour on the setter
-
     public bool PreInit(Transform parent, Saber saber) => true;
-
     public void PostInit(Transform parent, Saber saber) { }
 }
 ```

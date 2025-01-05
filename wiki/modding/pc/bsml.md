@@ -230,10 +230,7 @@ We are going to add a [button](https://monkeymanboy.github.io/BSML-Docs/Tags/But
 And add the corresponding method in the object host or view controller:
 
 ```c#
-public void ButtonClicked()
-{
-    Plugin.Log.Info("Button Clicked");
-}
+public void ButtonClicked() => Plugin.Log.Info("Button Clicked");
 ```
 
 Now, `ButtonClicked()` will get called whenever our button is clicked.
@@ -243,7 +240,7 @@ If you want to run a different method or a method with a different name to the o
 
 ```c#
 [UIAction("ButtonClicked")]
-public void SomeMethodName() ...
+public void SomeMethodName() { }
 ```
 
 ### UI Components
@@ -322,7 +319,7 @@ annotation and specify the name:
 
 ```c#
 [UIValue("ToggleValue")]
-public bool SomePropertyName ...
+public bool SomePropertyName { get; set; }
 ```
 
 ### Displaying Data
