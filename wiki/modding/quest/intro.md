@@ -89,7 +89,7 @@ qpm templatr --git https://github.com/Lauriethefish/quest-mod-template.git <dest
 
 Templatr will then ask a series of questions to create a mod project.
 
-![Templatr Example](../../.assets/images/modding/quest-mod-template-example.png)
+![Templatr Example](/.assets/images/modding/quest-mod-template-example.png)
 
 ### Add and Update Dependencies
 
@@ -367,14 +367,14 @@ Click on the arrow beside the mod name to see the image.
 Noodle Extensions
 </summary>
 
-![Noodle Extensions](../../.assets/images/modding/quest-ne-cover.jpg)
+![Noodle Extensions](/.assets/images/modding/quest-ne-cover.jpg)
 
 </details>
 <details><summary>
 Slice Details Quest
 </summary>
 
-![Slice Details Quest](../../.assets/images/modding/quest-slice-details.jpg)
+![Slice Details Quest](/.assets/images/modding/quest-slice-details.jpg)
 
 </details>
 
