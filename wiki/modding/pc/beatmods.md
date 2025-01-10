@@ -3,6 +3,6 @@ prev: Full Mod Guide
 next: false
 ---
 
-# Under Construction
+# Uploading Your Mod
 
-Under construction.
+Under Construction.
