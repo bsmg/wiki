@@ -535,7 +535,10 @@ internal class MenuButtonManager : IInitializable, IDisposable
     private readonly MenuButtons menuButtons;
     private readonly MenuButton menuButton;
 
-    public MenuButtonManager(MainFlowCoordinator mainFlowCoordinator, MissTextChangerFlowCoordinator missTextChangerFlowCoordinator, MenuButtons menuButtons)
+    public MenuButtonManager(
+        MainFlowCoordinator mainFlowCoordinator,
+        MissTextChangerFlowCoordinator missTextChangerFlowCoordinator,
+        MenuButtons menuButtons)
     {
         this.mainFlowCoordinator = mainFlowCoordinator;
         this.missTextChangerFlowCoordinator = missTextChangerFlowCoordinator;
