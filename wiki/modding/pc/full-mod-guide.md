@@ -203,7 +203,7 @@ If we were to patch in to the `GameplayCoreInstaller`, we can access the prefabs
 the instance of the `FlyingSpriteSpawner` to get the fields we need for our custom components.
 
 Since we're using SiraUtil for this mod, let's make an [affinity patch](./zenject.md#affinity-patching)
-into the `InstallBindings()` method. We can take the fields from the prefabs and bind their values with an id,
+into the `InstallBindings()` method. We can take the fields from the prefabs and bind their values with an ID,
 so that we can inject them into our own components.
 
 ```c#

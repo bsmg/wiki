@@ -5,7 +5,9 @@ next: Step-by-step Mod Tutorial
 
 # Zenject Introduction
 
-Zenject is what is called a Dependency Injection (DI) Framework, and Beat Saber's code uses it extensively.
+Zenject is what is called a Dependency Injection (DI) Framework, and Beat Saber's code uses it extensively. You can read
+more about DI on [Microsoft's docs](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) and
+on [Wikipedia](https://en.wikipedia.org/wiki/Dependency_injection).
 
 ## What Is Dependency Injection
 

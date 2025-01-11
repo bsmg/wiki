@@ -60,9 +60,20 @@ BSManager also already provides FPFC and Debug modes, which correspond to `fpfc`
 
 ## Other Links
 
+Notable links mentioned in the PC modding wiki:
+
+- [BSIPA Documentation](https://nike4613.github.io/BeatSaber-IPA-Reloaded/articles/start-dev.html)
+- [JetBrains Rider](https://www.jetbrains.com/rider/)
+- [BSMT For JetBrains Rider](https://github.com/Fernthedev/BSMT-Rider/)
+- [BSMT For Visual Studio](https://github.com/Zingabopp/BeatSaberTemplates/)
+- [C# Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/)
+- [Unity Scripting API](https://docs.unity3d.com/ScriptReference/index.html)
+- [Runtime Unity Editor](https://github.com/ManlyMarco/RuntimeUnityEditor)
+- [ILSpy](https://github.com/icsharpcode/ILSpy)
+- [dnSpy](https://github.com/dnSpyEx/dnSpy)
+- [Harmony](https://github.com/pardeike/Harmony)
+- [Harmony Documentation](https://harmony.pardeike.net/articles/patching.html)
+- [Zenject](https://github.com/Mathijs-Bakker/Extenject)
+- [BSMG Discord](https://discord.gg/beatsabermods)
 - [BeatMods](https://beatmods.com)
 - [BeatMods Approval Guidelines](https://docs.google.com/document/d/15RBVesZdS-U94AvesJ2DJqcnAtgh9E2PZOcbjrQle5Y/edit?usp=sharing)
-- [Unity Scripting API](https://docs.unity3d.com/ScriptReference/index.html)
-- [dnSpy](https://github.com/0xd4d/dnSpy)
-- [Harmony](https://github.com/pardeike/Harmony)
-- [Beat Saber IPA](https://nike4613.github.io/BeatSaber-IPA-Reloaded/)
