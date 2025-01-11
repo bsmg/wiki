@@ -126,3 +126,95 @@ make changes in the middle of methods.
 This type of patch is much more complicated, and we won't provide an example here (for now), but we can recommend
 checking out transpilers from other mods. As always, if you want to learn more about transpilers, check the
 [documentation](https://harmony.pardeike.net/articles/patching-transpiler.html).
+
+## Accessing Private Code
+
+When making mods you often will need to alter `private` fields, or call `private` methods. Thankfully, in C# there are
+some methods that allow us to do this.
+
+### Publicizing Assemblies
+
+The easiest and recommended way to access `private` members is by utilizing the `BepInEx.AssemblyPublicizer.MSBuild`
+NuGet package. To add this to your project, do one of the following:
+
+- Navigate to your project dependencies in the assembly explorer, right click it, and select `Manage NuGet Packages`.
+  Then, search for "BepInEx.AssemblyPublicizer.MSBuild", right click it, and select install;
+- or navigate to the top bar and look for `Tools | NuGet | Manage NuGet Packages for Solution` and search for it there.
+
+Alternatively, you can add it manually in the `.csproj` project file manually by adding a `PackageReference`:
+
+```xml
+<PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.2">
+    <PrivateAssets>all</PrivateAssets>
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+</PackageReference>
+```
+
+Once installed, all you have to do is add the `Publicize` property to an assembly reference like this:
+
+```xml
+<Reference Include="Main" Publicize="true">
+    <HintPath>$(BeatSaberDir)\Beat Saber_Data\Managed\Main.dll</HintPath>
+    <Private>false</Private>
+</Reference>
+```
+
+Now, anything that was `private` or `protected` will be seen as `public` by the compiler, allowing you to bypass this
+restriction.
+
+The only restriction you will run in to now is with `readonly` fields and auto-computed properties (see below).
+If you want to set the value of these, you will have to use [reflection](#reflection).
+
+```c#
+public readonly float _field;
+public float Property { get; }
+
+```
+
+::: danger IMPORTANT
+**Do not use the assembly publicizer to publicize other mods**. This can cause some problems with the mod loader. Instead,
+use [reflection](#reflection) or make a request to the mod's maintainer to add a change if you need it.
+:::
+
+### Reflection
+
+Reflection is a special feature of C# that lets you read code at runtime by making types into objects which you can access
+members from. There is a lot you can do with reflection, and something that it is commonly used for is checking if certain
+parts of another mod's code are running without actually having to reference that mod's assembly.
+
+If you want to read more about reflection you can check
+[Microsoft's docs](https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/reflection-and-attributes/).
+
+IPA provides some utilities to use reflection to get and set values of members, and invoke methods, even if they are private.
+
+```c#
+using IPA.Utilities;
+```
+
+Now we can use the `ReflectionUtil` class, which provides a couple extension methods to pretty easily access private members
+of an object.
+
+```c#
+public class SomeClass
+{
+    private float someValue = 0.25f;
+
+    public float SomeValue => someValue;
+}
+```
+
+Let's say we had a reference to an object of type `SomeClass`, we can access and set the private field by using `SetField`,
+this works even when the field is `readonly`.
+
+```c#
+var someClass = new SomeClass();
+someClass.SetField("someValue", 0.5f);
+```
+
+Other useful methods include `GetField`, `SetProperty`, `GetProperty`, `CopyComponent`, and `InvokeMethod`.
+
+::: tip NOTE
+If you are just reading the values of members, accessing methods, or setting the values of **non-readonly** fields and properties,
+you should use the [Assembly Publicizer](#publicizing-assemblies), because it is easier to read, is faster, and creates less
+garbage.
+:::
