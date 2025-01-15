@@ -12,7 +12,7 @@ export const en = defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Beginners Guide', link: '/beginners-guide.md' },
       { text: 'BSMG Discord', link: 'https://discord.gg/beatsabermods' },
-      { text: 'Contact Us', link: './contact-us.md' },
+      { text: 'Contact Us', link: '/contact-us.md' },
     ],
 
     footer: {
