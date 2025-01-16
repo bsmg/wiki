@@ -168,11 +168,12 @@ _Where is Beat Saber installed?_
 
 **If you have moved your install folder to a different drive, it might be in the location below.**
 Replace the drive letter `F` with the drive your game is installed on.
-| | |
-| --- | --- |
-| Steam | `F:\SteamLibrary\steamapps\common\Beat Saber\` |
-| Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
-| BSManager | `F:\BSManager\BSInstances\` |
+
+|           |                                                                |
+| --------- | -------------------------------------------------------------- |
+| Steam     | `F:\SteamLibrary\steamapps\common\Beat Saber\`                 |
+| Oculus    | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+| BSManager | `F:\BSManager\BSInstances\`                                    |
 
 ## Manual Installation
 

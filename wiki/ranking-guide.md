@@ -33,11 +33,12 @@ While cutting a block, you must achieve the correct swing angles and you must sl
 score for that cut.
 
 Here is how score is calculated for a cut:
-| Component | Point Value |
-|-------------------|-------------|
-| 100° Approach | 70 Points |
-| 60° Follow Through | 30 Points |
-| Cutting in Half | 15 Points |
+
+| Component          | Point Value |
+| ------------------ | ----------- |
+| 100° Approach      | 70 Points   |
+| 60° Follow Through | 30 Points   |
+| Cutting in Half    | 15 Points   |
 
 This shows how important it is to do proper swings to get the right angles and the best score possible.
 Remember, it's better to get a bad cut than a miss since a miss counts as **0 points** and breaks your combo.
@@ -61,15 +62,16 @@ and one's ability to score properly and avoid missing notes.
 Accuracy is calculated using information such as the scores per hit, the score multiplier and the amount of miss.
 
 Here is the connection between the letters and accuracy percentage:
+
 | Letter Grade | Accuracy Percentage |
-|--------------|---------------------|
-| SS | 90-99.99% |
-| S | 80-89.99% |
-| A | 65-79.99% |
-| B | 50-64.99% |
-| C | 35-49.99% |
-| D | 20-34.99% |
-| E | < 19.99% |
+| ------------ | ------------------- |
+| SS           | 90-99.99%           |
+| S            | 80-89.99%           |
+| A            | 65-79.99%           |
+| B            | 50-64.99%           |
+| C            | 35-49.99%           |
+| D            | 20-34.99%           |
+| E            | < 19.99%            |
 
 ## The Ranking Process
 
@@ -183,12 +185,13 @@ your list. As an example, if your top play is a **260 raw PP** play, you will be
 which is the actual amount of PP you get after the curve is applied on it.
 
 Here is an example of how the curve works:
-|Raw PP | Weighted PP |
-| --- | --- |
-| 260pp | **260pp** (100% of raw PP) |
-| 247pp | **238pp** (96.5% of raw PP) |
-| 246pp | **229pp** (93.1% of raw PP) |
-| 244pp | **219pp** (89.9% of raw PP) |
+
+| Raw PP | Weighted PP                 |
+| ------ | --------------------------- |
+| 260pp  | **260pp** (100% of raw PP)  |
+| 247pp  | **238pp** (96.5% of raw PP) |
+| 246pp  | **229pp** (93.1% of raw PP) |
+| 244pp  | **219pp** (89.9% of raw PP) |
 
 ### Why is my total PP not increasing as much as the weighted PP I got on my new score?
 
