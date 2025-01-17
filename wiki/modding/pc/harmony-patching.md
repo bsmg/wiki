@@ -211,10 +211,24 @@ var someClass = new SomeClass();
 someClass.SetField("someValue", 0.5f);
 ```
 
-Other useful methods include `GetField`, `SetProperty`, `GetProperty`, `CopyComponent`, and `InvokeMethod`.
-
 ::: tip NOTE
 If you are just reading the values of members, accessing methods, or setting the values of **non-readonly** fields and properties,
 you should use the [Assembly Publicizer](#publicizing-assemblies), because it is easier to read, is faster, and creates less
 garbage.
 :::
+
+If you must set a field often or repetitively with reflection, you should use the `FieldAccessor` to reduce the performance cost.
+You create the accessor by providing the type of the object the field is on, and the backing type of the field, as well as the
+name of the field itself.
+
+```c#
+private static FieldAccessor<SomeClass, float>.Accessor SomeValueAccessor { get; } =
+    FieldAccessor<SomeClass, float>.GetAccessor("someValue");
+
+private SomeClass someClass = new();
+
+public void SomeMethod()
+{
+    SomeValueAccessor(ref someClass) = 1f;
+}
+```
