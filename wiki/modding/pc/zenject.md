@@ -441,4 +441,64 @@ internal class CustomSaberModelController
 
 ## Object Redecorating
 
-Under construction
+Similarly to registering saber models, SiraUtil provides a way to modify the prefabs for various GameObjects before
+they are bound in their installers.
+
+As well as a priority, you can decide if it should be chained, which is useful if your redecoration doesn't causes
+conflicts. SiraUtil will start at the registration with the highest priority, and if it has chaining, it will continue
+to the next highest priority registration until it encounters a registration that doesn't have chaining.
+
+The following example simply takes the `GameObject` of the `BombController` provided by the param of the `BombNoteRegistration`,
+and adds a `CustomBombBehaviour` to it.
+
+```c#
+var bombNoteRegistration = new BombNoteRegistration(
+    redecorateCall: bomb =>
+    {
+        bomb.gameObject.AddComponent<CustomBombBehaviour>();
+        return bombNoteController;
+    },
+    priority: int.MaxValue,
+    chain: true);
+
+Container.RegisterRedecorator(bombNoteRegistration);
+```
+
+Below is a collection of all possible redecorators provided by SiraUtil as of v3.1.14.
+
+### Notes
+
+| Name                              | Backing Prefab Type                            |
+| --------------------------------- | ---------------------------------------------- |
+| `BasicNoteRegistration`           | `GameNoteController`                           |
+| `ProModeNoteRegistration`         | `GameNoteController`                           |
+| `BurstSliderHeadNoteRegistration` | `GameNoteController`                           |
+| `BombNoteRegistration`            | `BombNoteRegistration`                         |
+| `BurstSliderNoteRegistration`     | `BurstSliderGameNoteController`                |
+| `LongSliderNoteRegistration`      | `SliderController`                             |
+| `MediumSliderNoteRegistration`    | `SliderController`                             |
+| `ShortSliderNoteRegistration`     | `SliderController`                             |
+| `ConnectedPlayerNoteRegistration` | `MultiplayerConnectedPlayerGameNoteController` |
+
+### Debris
+
+| Name                                      | Backing Prefab Type |
+| ----------------------------------------- | ------------------- |
+| `NormalNoteDebrisHDRegistration`          | `NoteDebris`        |
+| `NormalNoteDebrisLWRegistration`          | `NoteDebris`        |
+| `BurstSliderHeadNoteDebrisHDRegistration` | `NoteDebris`        |
+| `BurstSliderHeadNoteDebrisLWRegistration` | `NoteDebris`        |
+| `BurstSliderElementNoteHDRegistration`    | `NoteDebris`        |
+| `BurstSliderElementNoteLWRegistration`    | `NoteDebris`        |
+
+### Multiplayer
+
+| Name                                | Backing Prefab Type                    |
+| ----------------------------------- | -------------------------------------- |
+| `LocalActivePlayerRegistration`     | `MultiplayerLocalActivePlayerFacade`   |
+| `LocalActivePlayerDuelRegistration` | `MultiplayerLocalActivePlayerFacade`   |
+| `ConnectedPlayerRegistration`       | `MultiplayerConnectedPlayerFacade`     |
+| `ConnectedPlayerDuelRegistration`   | `MultiplayerConnectedPlayerFacade`     |
+| `LobbyAvatarPlaceRegistration`      | `MultiplayerLobbyAvatarPlace`          |
+| `LobbyAvatarRegistration`           | `MultiplayerLobbyAvatarController`     |
+| `LocalInactivePlayerRegistration`   | `MultiplayerLocalInactivePlayerFacade` |
