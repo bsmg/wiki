@@ -170,7 +170,7 @@ internal class PlayerInstaller : Installer
         var prefabObject = new GameObject("MissTextEffect");
         var textEffect = prefabObject.AddComponent<MissTextEffect>();
 
-        var textObject = new GameObject("Text");
+        var textObject = new GameObject("Text") { layer = 5 };
         textObject.transform.SetParent(prefabObject.transform, false);
 
         textEffect.textMesh = textObject.AddComponent<TextMeshPro>();
@@ -188,7 +188,19 @@ own class but for now this is fine to demonstrate what we're doing.
 Remember to add the zenjector to the `Plugin` init too.
 
 ```c#
-zenjector.Install<PlayerInstaller>(Location.Player);
+[Plugin(RuntimeOptions.SingleStartInit), NoEnableDisable]
+internal class Plugin
+{
+    [Init]
+    public Plugin(Logger log, Config config,
+                  PluginMetadata metadata, Zenjector zenjector)
+    {
+        log.Info($"{metadata.Name} {metadata.HVersion} initialized.");
+
+        zenjector.UseLogger(log);
+        zenjector.Install<PlayerInstaller>(Location.Player);
+    }
+}
 ```
 
 Now that we have the main components of the mod outlined, we need to set their fields. There are two ways
@@ -210,7 +222,7 @@ so that we can inject them into our own components.
 internal class GameCoreInstallerHook : IAffinity
 {
     [AffinityPrefix]
-    [AffinityPatch(typeof(GameplayCoreInstaller), nameof(GameplayCoreInstaller.InstallBindings))]
+    [AffinityPatch(typeof(GameplayCoreInstaller), "InstallBindings")]
     private void InstallBindingsPostfix(GameplayCoreInstaller __instance)
     {
         var container = __instance.Container;
@@ -225,6 +237,7 @@ internal class GameCoreInstallerHook : IAffinity
         const float fontSize = 4.5f; // Miss text is a sprite; estimate the font size
         var fadeAnimationCurve = flyingTextEffect._fadeAnimationCurve;
         var moveAnimationCurve = flyingTextEffect._moveAnimationCurve;
+
         container.BindInstance(duration).WithId("missEffectDuration").AsCached();
         container.BindInstance(spread).WithId("missEffectSpread").AsCached();
         container.BindInstance(targetYPos).WithId("missEffectTargetYPos").AsCached();
@@ -382,17 +395,12 @@ internal class PluginConfig
 }
 ```
 
-Then add it to the `Plugin` class:
+Then add it to the `Plugin` init:
 
 ```c#
-[Init]
-public Plugin(Logger log, Config config,
-              PluginMetadata metadata, Zenjector zenjector)
-{
-    var pluginConfig = config.Generated<PluginConfig>();
+var pluginConfig = config.Generated<PluginConfig>();
 
-    zenjector.Install<AppInstaller>(Location.App, pluginConfig);
-    /* ... */
+zenjector.Install<AppInstaller>(Location.App, pluginConfig);
 ```
 
 And in the installer:
@@ -470,7 +478,10 @@ internal class SettingsViewController : BSMLAutomaticViewController
     [UIComponent("MissText")] private readonly TextMeshProUGUI missText = null!;
 
     [UIAction("#post-parse")]
-    private void PostParse() => SetMissTextPreview(pluginConfig.MissText);
+    private void PostParse()
+    {
+        SetMissTextPreview(pluginConfig.MissText);
+    }
 
     private bool Enabled
     {
@@ -510,7 +521,7 @@ internal class MissTextChangerFlowCoordinator : FlowCoordinator
         if (firstActivation)
         {
             showBackButton = true;
-            SetTitle(nameof(MissTextChanger));
+            SetTitle("MissTextChanger");
         }
 
         if (addedToHierarchy)
@@ -519,8 +530,10 @@ internal class MissTextChangerFlowCoordinator : FlowCoordinator
         }
     }
 
-    protected override void BackButtonWasPressed(ViewController topViewController) =>
+    protected override void BackButtonWasPressed(ViewController topViewController)
+    {
         DidFinish?.Invoke();
+    }
 }
 ```
 
@@ -543,7 +556,7 @@ internal class MenuButtonManager : IInitializable, IDisposable
         this.mainFlowCoordinator = mainFlowCoordinator;
         this.missTextChangerFlowCoordinator = missTextChangerFlowCoordinator;
         this.menuButtons = menuButtons;
-        menuButton = new(nameof(MissTextChanger), PresentFlowCoordinator);
+        menuButton = new("MissTextChanger", PresentFlowCoordinator);
     }
 
     public void Initialize()
@@ -552,8 +565,10 @@ internal class MenuButtonManager : IInitializable, IDisposable
         missTextChangerFlowCoordinator.DidFinish += DismissFlowCoordinator;
     }
 
-    public void Dispose() =>
+    public void Dispose()
+    {
         missTextChangerFlowCoordinator.DidFinish -= DismissFlowCoordinator;
+    }
 
     private void PresentFlowCoordinator() =>
         mainFlowCoordinator.PresentFlowCoordinator(missTextChangerFlowCoordinator);
