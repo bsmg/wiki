@@ -217,9 +217,9 @@ you should use the [Assembly Publicizer](#publicizing-assemblies), because it is
 garbage.
 :::
 
-If you must set a field often or repetitively with reflection, you should use the `FieldAccessor` to reduce the performance cost.
-You create the accessor by providing the type of the object the field is on, and the backing type of the field, as well as the
-name of the field itself.
+If you must set a field often or repetitively with reflection, you should use the `FieldAccessor` to reduce the
+performance cost. You create the accessor by providing the type of the object the field is on, and the backing type of
+the field, as well as the name of the field itself.
 
 ```c#
 private static FieldAccessor<SomeClass, float>.Accessor SomeValueAccessor { get; } =
