@@ -1,6 +1,6 @@
 ---
 prev: Zenject and SiraUtil
-next: Uploading Your Mod
+next: false
 ---
 
 # Full Mod Guide
