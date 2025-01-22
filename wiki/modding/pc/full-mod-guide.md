@@ -598,6 +598,17 @@ And of course, remember to add this to the `Plugin` init.
 zenjector.Install<MenuInstaller>(Location.Menu);
 ```
 
+![Tutorial Menu Screenshot](/.assets/images/modding/pc-mod-tutorial-menu.jpg 'Tutorial Menu Screenshot')
+
 ## Closing Remarks
 
-Under construction.
+We have now covered every step of creating a new Beat Saber mod.
+
+This example mod has been designed in a way which allows easy changes and extension to its features. When designing a mod,
+it's important to figure out what you want to do so that development doesn't reach a halt.
+
+If you want to learn more we highly recommend checking the source code for other mods to learn more about different APIs
+and how Beat Saber works. You can find that most mods are open source, and you can find that source by visiting
+[BeatMods](https://beatmods.com/) and going to the more info section for any given mod.
+
+You can view all of the source code used in this guide [here](https://github.com/qqrz997/TutorialPCMod).

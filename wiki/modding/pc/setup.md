@@ -125,7 +125,7 @@ There are also some optional properties you can add:
 - The `ProjectHome` can be a URL to a website where your mod is downloaded from or hosted.
 - You can also specify a `Donate` URL, which if you want to, you can set up a way for people to support your modding
   work.
-- The `Icon` path is currently not utilized by anything for now.
+- The `PluginIcon` is a path to a `.png` file that can be pulled from your plugin.
 
 ### Defining Dependencies
 
@@ -150,6 +150,7 @@ game objects and build robust large plugins. These will be briefly covered with 
 - Similarly, you can add `LoadBefore` members to make your mod load before the specified mod.
 - If you want to move `Plugin.cs` to somewhere else in the project, use `PluginHint` to specify where it is so that
   BSIPA can find it.
+- You can add numerous `RequiredFile` properties to specify external files required by the mod, typically used for libraries.
 
 Once you've set all of this, BSMT will automatically generate an embedded `manifest.json` in your mod during build,
 which is required by BSIPA and can be used to pull information about the mod.
@@ -176,3 +177,7 @@ When you launch the game, you should see BSIPA load your mod in the console wind
 ![Testing console screenshot](/.assets/images/modding/pc-mod-console-testing.png 'Testing console screenshot')
 
 If you got this far, congratulations! You are now set up to create mods for Beat Saber.
+
+From here, you should consider checking out the other pages of this wiki to learn about some of the libraries modders
+use to add functionality to their mods, as well as learning to use some essential tools. If it helps, you can follow
+the [full mod guide](./full-mod-guide.md) too, which will cover designing a mod from scratch.
