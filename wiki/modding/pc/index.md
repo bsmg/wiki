@@ -25,7 +25,6 @@ Beat Saber plugins with the BepInEx plugin API, it is not currently supported an
 - [Creating user interfaces with BeatSaberMarkupLanguage](./bsml.md)
 - [The essentials of Zenject through SiraUtil](./zenject.md)
 - [Writing a functioning mod step-by-step](./full-mod-guide.md)
-- [Uploading your mod to BeatMods](./beatmods.md)
 - [Other links](#other-links)
 
 ## Getting Started
