@@ -75,21 +75,13 @@ If you see red text in the command prompt that appears when running the executab
 
 ##### Solution 4
 
-If you are using Mod Assistant and are modding versions `1.37.2` and above, try the following:
-
-- Uninstall all mods by going to the `Options` tab, and then selecting `Remove All Mods`
-- Switch to a different mod installer, such as [BSManager](https://bsmanager.io), as Mod Assistant
-  cannot reliably mod versions `1.37.2` and above.
-
-##### Solution 5
-
 :::tip NOTE
 You only need to try this once!
 :::
 
 - Click `Install or Update` again in your mod installer
 
-##### Solution 6
+##### Solution 5
 
 - If all else fails, perform a [Clean Installation](#clean-installation)
 
@@ -98,13 +90,6 @@ You only need to try this once!
 The installers download mods to `Beat Saber/IPA/Pending`, BSIPA moves these files to root folder when you launch the game.
 If your game Plugins folder still is empty afterwards, run `IPA.exe` again and make sure that nothing is preventing it
 from running, e.g. `Anti-viruses, Admin permissions, etc.`
-
-:::warning NOTE
-Mod Assistant has issues reliably modding versions `1.37.2` and above.
-
-If you are on one of these versions, consider uninstalling all mods and switching to another mod manager
-such as [BSManager](https://bsmanager.io) instead.
-:::
 
 ## 2. Game Issues Post-Modding
 

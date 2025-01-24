@@ -80,12 +80,6 @@ Get it on [affederaffe's GitHub](https://github.com/affederaffe/BeatSaberModMana
 
 ### ModAssistant
 
-:::warning NOTICE  
-ModAssistant is no longer recommended and being phased out as it cannot reliably mod Beat Saber versions
-`1.37.2` and above.  
-Consider switching to one of the options above instead!
-:::
-
 A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal
 and version checking! Get it on [BSMG's GitHub](https://github.com/bsmg/ModAssistant/releases/latest)
 
@@ -233,9 +227,9 @@ If you want to downgrade to `1.37.1`, `1.34.2`, or `1.29.1` you can use the lega
 
 #### Steam Users
 
-1. Open ModAssistant go to the options tab and Uninstall BSIPA
+1. Open your mod installer and uninstall the mod BSIPA
 
-- If you have 1.30+ mods installed, press the Remove All Mods button instead.
+- If you have 1.30+ mods installed, uninstall all of your mods instead.
 
 2. Right click Beat Saber in the game library
 3. Select Properties
@@ -249,9 +243,9 @@ If you want to downgrade to `1.37.1`, `1.34.2`, or `1.29.1` you can use the lega
 
 #### Oculus Store Users
 
-1. Open ModAssistant go to the options tab and Uninstall BSIPA
+1. Open your mod installer and uninstall the mod BSIPA
 
-- If you have 1.30+ mods installed, press the Remove All Mods button instead.
+- If you have 1.30+ mods installed, uninstall all of your mods instead.
 
 2. Go to the Beat Saber store page
 3. Scroll down to `Versions + Release Notes`
