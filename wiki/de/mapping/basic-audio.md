@@ -21,7 +21,8 @@ Auf dieser Seite finden sowohl neue als auch erfahrene Mapper allgemeine Empfehl
   :::
   
 ::: tip TIPP
-Nutze [BeatTimer](https://beat-timer.webry.com/), um die Schritte 1-3 auf einmal durchzuführen, ohne zusätzliche Software installieren zu müssen.
+Nutze [BeatTimer](https://beat-timer.webry.com/), um die Schritte 1-3 auf einmal durchzuführen, ohne zusätzliche
+ Software installieren zu müssen.
 :::
 
 1. Lade [Audacity](https://www.audacityteam.org/) herunter und installiere es

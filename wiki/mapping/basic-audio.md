@@ -25,7 +25,8 @@ that can be done at any time, if they're needed.
   :::
 
 ::: tip
-Use [BeatTimer](https://beat-timer.webry.com/) to do steps 1-3 in one go more easily without needing to install any additional software.
+Use [BeatTimer](https://beat-timer.webry.com/) to do steps 1-3 in one go more easily without needing to install any
+additional software.
 :::
 
 1. Download and Install [Audacity](https://www.audacityteam.org/)
