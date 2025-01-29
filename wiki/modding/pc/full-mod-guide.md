@@ -315,9 +315,14 @@ and patch it to replace the `FlyingSpriteSpawner` with our spawner by using a pa
 By using an affinity patch we can inject the `MissTextEffectSpawner` and use it within the patch with ease.
 
 ```c#
-internal class OnMissEffectPatch(MissTextEffectSpawner missTextEffectSpawner) : IAffinity
+internal class OnMissEffectPatch : IAffinity
 {
-    private readonly MissTextEffectSpawner missTextEffectSpawner = missTextEffectSpawner;
+    private readonly MissTextEffectSpawner missTextEffectSpawner;
+
+    public OnMissEffectPatch(MissTextEffectSpawner missTextEffectSpawner)
+    {
+        this.missTextEffectSpawner = missTextEffectSpawner;
+    }
 
     [AffinityPrefix]
     [AffinityPatch(typeof(MissedNoteEffectSpawner), nameof(MissedNoteEffectSpawner.HandleNoteWasMissed))]
@@ -406,9 +411,12 @@ zenjector.Install<AppInstaller>(Location.App, pluginConfig);
 And in the installer:
 
 ```c#
-internal class AppInstaller(PluginConfig pluginConfig) : Installer
+internal class AppInstaller : Installer
 {
-    private readonly PluginConfig pluginConfig = pluginConfig;
+    public AppInstaller(PluginConfig pluginConfig)
+    {
+        this.pluginConfig = pluginConfig;
+    }
 
     public override void InstallBindings()
     {
@@ -422,9 +430,14 @@ Before we mess around with the UI, let's make sure we can make these new feature
 into the `PlayerInstaller` so we can use it to stop our bindings from being made:
 
 ```c#
-internal class PlayerInstaller(PluginConfig pluginConfig) : Installer
+internal class PlayerInstaller : Installer
 {
-    private readonly PluginConfig pluginConfig = pluginConfig;
+    private readonly PluginConfig pluginConfig;
+
+    public PlayerInstaller(PluginConfig pluginConfig)
+    {
+        this.pluginConfig = pluginConfig;
+    }
 
     public override void InstallBindings()
     {

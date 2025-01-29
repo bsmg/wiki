@@ -36,20 +36,25 @@ internal class ServiceImplementation : IService
 Now, we have an interface that provides the result of `GetNumber()`. Let's say we needed this behaviour in another object:
 
 ```c#
-internal class SomeObject(IService service)
+internal class SomeObject
 {
-    private readonly IService _service = service;
-    private readonly List<int> _numbers = [];
+    private readonly IService service;
+    private readonly List<int> numbers = [];
+
+    public SomeObject(IService service)
+    {
+        this.service = service;
+    }
 
     void Update()
     {
-        if (_numbers.Count > 5)
+        if (numbers.Count > 5)
         {
-            _numbers.Clear();
+            numbers.Clear();
         }
 
         int number = _service.GetNumber();
-        _numbers.Add(number);
+        numbers.Add(number);
     }
 }
 ```
@@ -105,7 +110,7 @@ internal class Test : IInitializable
 {
     private readonly SiraLog log;
 
-    public Test(SiraLog log) => this.log = log;
+    public Test(SiraLog log) { this.log = log; }
 
     public void Initialize() => log.Info("Initializable test");
 }
@@ -192,9 +197,11 @@ at object creation, the dependencies are immediately apparent, and they guarante
 encourages better design.
 
 ```c#
-internal class SomeObject(IService service)
+internal class SomeObject
 {
-    private readonly IService service = service;
+    private readonly IService service;
+
+    public SomeObject(IService service) { this.service = service; }
 }
 
 internal record SomeOtherObject(IService Service);
@@ -213,7 +220,7 @@ internal class SomeBehavior : MonoBehaviour
     private IService service = null!;
 
     [Inject]
-    public void Init(IService service) => this.service = service
+    public void Init(IService service) { this.service = service; }
 }
 ```
 
@@ -354,9 +361,15 @@ Below is an example of an affinity patch taken from the SiraUtil documentation. 
 the game to pause every 10 misses and cancels the miss by using a [prefix](./harmony-patching.md#prefix).
 
 ```c#
-internal class PauseOnXMisses(PauseController pauseController) : IAffinity
+internal class PauseOnXMisses : IAffinity
 {
-    private readonly PauseController pauseController = pauseController;
+    private readonly PauseController pauseController;
+
+    public PauseOnXMisses(PauseController pauseController)
+    {
+        this.pauseController = pauseController;
+    }
+
     private int misses = 0;
 
     [AffinityPrefix]
