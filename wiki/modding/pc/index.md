@@ -11,10 +11,6 @@ Currently, all mods are made using the
 to inject plugins into the game. It makes the process of executing code in game much easier, and provides many useful
 tools, some of which will be covered in this section of the wiki.
 
-A proposed alternative to BSIPA, [BepInEx for BSIPA](https://github.com/BepInEx/BepInEx.BSIPA.Loader),
-had been created by Bepis. You can read more about BepInEx [here](https://github.com/BepInEx/BepInEx). As for developing
-Beat Saber plugins with the BepInEx plugin API, it is not currently supported and you would be on your own.
-
 ## List of contents
 
 - [Getting a setup ready for creating PC mods](#getting-started)
