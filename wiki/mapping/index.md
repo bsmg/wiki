@@ -398,7 +398,7 @@ You **DO NOT** need to upload your map to BeatSaver in order for you or anyone e
 - If your map is using the 1.0 map format (your files are `.json` and `.ogg`) you must convert your map by
   **updating your editor**, opening and saving the map. See [Community Editors](#community-editors) for links to modern
   editors.
-- If your map is using the 2.0 or 3.0 map format (your files are .dat and `.ogg`/`.egg`) you're ready to test.
+- If your map is using the 2.0, 3.0, or 4.0 map format (your files are .dat and `.ogg`/`.egg`) you're ready to test.
 
 ### Testing on a PC
 
@@ -525,7 +525,8 @@ Once your song has been mapped, lighted, and playtested and it's a finished prod
 - Please **DO NOT** upload an incomplete WIP map to BeatSaver!
   - Uploading to BeatSaver equates to "Putting it on the store shelf" and should **only** be your final version.
   - See the [Playtesting](#playtesting) section for instructions on testing your map.
-    :::
+
+:::
 
 1. [Create an account](https://beatsaver.com/register) on BeatSaver with a username/password or by logging in via Discord.
 2. Click the <kbd>+</kbd> icon in the top-right and click <kbd>`Upload Map`</kbd>.
