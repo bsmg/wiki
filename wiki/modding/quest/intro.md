@@ -13,7 +13,7 @@ _Learn how to get started writing your own Quest Mods._
 ::: warning
 This guide is for making mods for the **Quest Standalone** version of Beat Saber!
 
-If you use Oculus Link or similar, you want to visit the [PC Mod Development Guide](./pc-mod-dev-intro.md) as that uses
+If you use Oculus Link or similar, you want to visit the [PC Mod Development Guide](../pc/index.md) as that uses
 the PC version of the game.
 :::
 
@@ -409,7 +409,7 @@ Update the following in your `mod.template.json`:
 
 Most mods require a configuration to allow users to change the functionality of the mod.
 
-Visit the [Quest Mod Configuration](./quest-mod-dev-config.md) page to learn the basics of using `config-utils` to create
+Visit the [Quest Mod Configuration](./config.md) page to learn the basics of using `config-utils` to create
 a configuration for your mod.
 
 ## Custom Types
@@ -418,12 +418,12 @@ a configuration for your mod.
 classes such as `MonoBehaviour` and much more. `custom-types` also allows you to create and use [coroutines](https://docs.unity3d.com/Manual/Coroutines.html)
 and [delegates](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/).
 
-Custom Types are complex and requires knowledge of basic C#. Visit the [Quest Custom Types](./quest-mod-dev-custom-types.md)
+Custom Types are complex and requires knowledge of basic C#. Visit the [Quest Custom Types](./custom-types.md)
 page to learn more about integrating this into your mod.
 
 ## User Interface
 
-A user interface (UI) is used by many mods to show configuration options. Visit the [Quest User Interface](./quest-mod-dev-ui.md)
+A user interface (UI) is used by many mods to show configuration options. Visit the [Quest User Interface](./ui.md)
 page to see how to use `bsml` to create a settings screen for your mod.
 
 ## Credits
