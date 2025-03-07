@@ -34,6 +34,12 @@ and Brightness/Rotation Distribution.
 
 ![The group info menu](/.assets/images/mapping/groupinfo.png)
 
+::: info
+For more information and examples, several lighters have created a
+[detailed guide](https://docs.google.com/document/d/1NQzXNsQ0VhnCoUBhEb_Qx0gONsqaD8drOMWIXJk79vE)
+going over the group lighting system in the official editor.
+:::
+
 ### Chunk and Order
 
 The segments are first grouped into chunks, each chunk consisting of

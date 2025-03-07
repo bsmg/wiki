@@ -66,7 +66,7 @@ Visit the [Downgrading](#downgrading) section on this page for more information.
 
 An all-in-one tool that lets you easily manage BeatSaber versions, maps, mods, and even more. Get it on [Zagrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
 
-![BSManager](/.assets/images/beginners-guide/bsmanager.jpg)
+![BSManager](/.assets/images/beginners-guide/bsmanager.png)
 
 ### BeatSaberModManager
 
@@ -79,12 +79,6 @@ Get it on [affederaffe's GitHub](https://github.com/affederaffe/BeatSaberModMana
 ![BeatSaberModManager](/.assets/images/beginners-guide/beatsabermodmanager.png)
 
 ### ModAssistant
-
-:::warning NOTICE  
-ModAssistant is no longer recommended and being phased out as it cannot reliably mod Beat Saber versions
-`1.37.2` and above.  
-Consider switching to one of the options above instead!
-:::
 
 A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal
 and version checking! Get it on [BSMG's GitHub](https://github.com/bsmg/ModAssistant/releases/latest)
@@ -124,7 +118,7 @@ You can also use the in-game downloader mod, the OneClick™ Install feature of 
 tab of BSManager.
 
 To enable and use BSManager's OneClick™ Install see the picture below:
-![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.jpg)
+![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.png)
 
 ### Beast Saber
 
@@ -168,11 +162,12 @@ _Where is Beat Saber installed?_
 
 **If you have moved your install folder to a different drive, it might be in the location below.**
 Replace the drive letter `F` with the drive your game is installed on.
-| | |
-| --- | --- |
-| Steam | `F:\SteamLibrary\steamapps\common\Beat Saber\` |
-| Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
-| BSManager | `F:\BSManager\BSInstances\` |
+
+|           |                                                                |
+| --------- | -------------------------------------------------------------- |
+| Steam     | `F:\SteamLibrary\steamapps\common\Beat Saber\`                 |
+| Oculus    | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+| BSManager | `F:\BSManager\BSInstances\`                                    |
 
 ## Manual Installation
 
@@ -232,9 +227,9 @@ If you want to downgrade to `1.37.1`, `1.34.2`, or `1.29.1` you can use the lega
 
 #### Steam Users
 
-1. Open ModAssistant go to the options tab and Uninstall BSIPA
+1. Open your mod installer and uninstall the mod BSIPA
 
-- If you have 1.30+ mods installed, press the Remove All Mods button instead.
+- If you have 1.30+ mods installed, uninstall all of your mods instead.
 
 2. Right click Beat Saber in the game library
 3. Select Properties
@@ -248,9 +243,9 @@ If you want to downgrade to `1.37.1`, `1.34.2`, or `1.29.1` you can use the lega
 
 #### Oculus Store Users
 
-1. Open ModAssistant go to the options tab and Uninstall BSIPA
+1. Open your mod installer and uninstall the mod BSIPA
 
-- If you have 1.30+ mods installed, press the Remove All Mods button instead.
+- If you have 1.30+ mods installed, uninstall all of your mods instead.
 
 2. Go to the Beat Saber store page
 3. Scroll down to `Versions + Release Notes`

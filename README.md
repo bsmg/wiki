@@ -8,16 +8,13 @@ Don't know where to start? Checkout this [crash course](https://docs.google.com/
 
 Alternatively, users who are unsure on how to work with Git can [submit an issue](https://github.com/bsmg/wiki/issues) that contains a link to a shared google document with the text you would like to contribute. Note this will take longer to process than submitting a pull request.
 
-### 🌐 Localization &nbsp;[![Crowdin](https://badges.crowdin.net/bsmg-wiki/localized.svg)](https://crowdin.com/project/bsmg-wiki)
+### 🌐 Localization
 
-Translation efforts are managed using [Crowdin](https://crowdin.com/project/bsmg-wiki).
-There you can see the status of each language available that needs translating.
+Translation efforts are managed using [Lingohub](https://lingohub.com/).
 
 #### Want to Help Translate?
 
 [Apply Here](https://forms.gle/e3BqA3poMjESARe76) and make sure you are in the [BSMG Discord](https://discord.gg/beatsabermods). We will be in touch!
-
-If you don't see your language available on Crowdin you can still [apply](https://forms.gle/e3BqA3poMjESARe76) and we will add it once you are accepted!
 
 ## 🧪 Development
 

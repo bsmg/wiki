@@ -1,4 +1,7 @@
 ---
+prev: false
+next: false
+description: Take a deep dive into the info file format for a Beat Saber map.
 ---
 
 # Info
@@ -11,6 +14,7 @@ as well as point to other files such as beatmaps, lightshows, cover art, audio d
 <<< @/.assets/snippets/info/2.0.0.dat{json} [2.0.0]
 <<< @/.assets/snippets/info/2.1.0.dat{json} [2.1.0]
 <<< @/.assets/snippets/info/4.0.0.dat{json} [4.0.0]
+<<< @/.assets/snippets/info/4.0.0.dat{json} [4.0.1]
 :::
 ::::
 
@@ -42,6 +46,11 @@ Introduced in **1.34.5**
 - Support for [Song Time Offset](#song-time-offset) and [Shuffle](#shuffle) was removed.
 - All beatmaps are once again co-located in a flat collection.
 - [Mappers and lighters](#beatmap-authors) are individually credited on a per-beatmap basis.
+
+== 4.0.1
+Introduced in **1.40.0**
+
+- Colours overrides for applied separately for notes and lights in [Color Scheme](#color-schemes).
 
 :::
 
@@ -440,13 +449,38 @@ Any colors in a scheme that are not defined will appear as a `null` color in-gam
     {
       "useOverride": true,
       "colorSchemeName": "Weave",
-      "saberAColor": "#C81414FF",
-      "saberBColor": "#288ED2FF",
-      "obstaclesColor": "#FF3030FF",
-      "environmentColor0": "#D91616FF",
-      "environmentColor1": "#30ACFFFF",
-      "environmentColor0Boost": "#D216D9FF",
-      "environmentColor1Boost": "#00FFA5FF",
+      "saberAColor": "C81414FF",
+      "saberBColor": "288ED2FF",
+      "obstaclesColor": "FF3030FF",
+      "environmentColor0": "D91616FF",
+      "environmentColor1": "30ACFFFF",
+      "environmentColor0Boost": "D216D9FF",
+      "environmentColor1Boost": "00FFA5FF",
+    },
+  ],
+  "difficultyBeatmaps": [
+    {
+      "beatmapColorSchemeIdx": 0,
+    },
+  ],
+}
+```
+
+```jsonc [4.0.1]
+{
+  "colorSchemes": [
+    {
+      "useOverride": true, // [!code --]
+      "colorSchemeName": "Weave",
+      "overrideNotes": true, // [!code ++]
+      "saberAColor": "C81414FF",
+      "saberBColor": "288ED2FF",
+      "obstaclesColor": "FF3030FF",
+      "overrideLights": true, // [!code ++]
+      "environmentColor0": "D91616FF",
+      "environmentColor1": "30ACFFFF",
+      "environmentColor0Boost": "D216D9FF",
+      "environmentColor1Boost": "00FFA5FF",
     },
   ],
   "difficultyBeatmaps": [
