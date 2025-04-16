@@ -122,6 +122,7 @@ export const en = defineConfig({
               ['Creating UI', '/modding/pc/bsml'],
               ['Zenject and SiraUtil', '/modding/pc/zenject'],
               ['Full Guide', '/modding/pc/full-mod-guide'],
+              ['Testing', '/modding/pc/testing'],
             ],
           ],
           [
