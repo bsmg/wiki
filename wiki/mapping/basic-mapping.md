@@ -84,7 +84,7 @@ Using these characters in song metadata or in bookmarks can cause problems.
 - Bomb hitboxes are smaller than block hitboxes, smaller even than the bomb model itself.
 - Bombs are hard to see when there are no lighting events active. Make sure your map isn't dark when bombs are coming up.
   See [Basic Lighting](./basic-lighting.md) for more tips.
-- Before Beat Saver version 1.37.0 bombs could still be hit after they have passed the player.
+- Before Beat Saber version 1.37.0 bombs could still be hit after they have passed the player.
 
 **A few notes about arcs:**
 
@@ -430,7 +430,7 @@ It's best to steer clear of these until you're much more comfortable with mappin
 <!-- prettier-ignore -->
 | Illustration | Editor View | Explanation |
 | :-: | :-: | :- |
-| ![Illustration of a triangle](/.assets/images/mapping/triangle.png) | ![Editor view of a triangle](/.assets/images/mapping/triangle-alt.png) | Triangles are patterns that cause incredibly uncomfortable resets due to excession rotation in one direction. The pattern breaks the forehand/backhand mechanic. See the [Mapping with Flow](#do-mapping-with-flow) to revisit this explanation.<br /><br />**Note 1:** Not all triangle shaped patterns are cursed triangles. <br /><br />**Note 2:** This sort of pattern plays differently at Hard difficulties and below when there are a couple of beats between each swing but stay away at Expert and ExpertPlus. |
+| ![Illustration of a triangle](/.assets/images/mapping/triangle.png) | ![Editor view of a triangle](/.assets/images/mapping/triangle-alt.png) | Triangles are patterns that cause incredibly uncomfortable resets due to excession rotation in one direction. The pattern breaks the forehand/backhand mechanic. See the [Parity](#parity) section to revisit this explanation.<br /><br />**Note 1:** Not all triangle shaped patterns are cursed triangles. <br /><br />**Note 2:** This sort of pattern plays differently at Hard difficulties and below when there are a couple of beats between each swing but stay away at Expert and ExpertPlus. |
 
 #### Flicks
 
