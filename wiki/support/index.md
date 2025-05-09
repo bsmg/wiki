@@ -53,17 +53,6 @@ If the details in section 1.1 above are correct, try the solutions below, in des
 
 ##### Solution 2
 
-:::tip NOTE
-This only works if you downgraded to `1.29.1` using the beta branch methods!
-:::
-
-- Go into your Beat Saber folder
-- Delete the `IPA\Backups` folder
-- Uninstall BSIPA
-- Reinstall and follow the regular modding process
-
-##### Solution 3
-
 - Go into your Beat Saber folder
 - Run `IPA.exe`
 
@@ -73,7 +62,7 @@ If you see red text in the command prompt that appears when running the executab
 [BSMG Discord](https://discord.gg/beatsabermods) for help.
 :::
 
-##### Solution 4
+##### Solution 3
 
 :::tip NOTE
 You only need to try this once!
@@ -81,7 +70,7 @@ You only need to try this once!
 
 - Click `Install or Update` again in your mod installer
 
-##### Solution 5
+##### Solution 4
 
 - If all else fails, perform a [Clean Installation](#clean-installation)
 
@@ -147,17 +136,6 @@ but not to users with clean installs of the game.
 If the game auto-closes/black screens on startup with the popup below, then try these steps one at a time:
 
 ![Unity Crash Popup](/.assets/images/support/UnityCrashPopup.png)
-
-##### Fixes for Game Version 1.29.1 and Below
-
-- Press WIN+R on your keyboard, and paste in the following command: `reg delete "HKCU\Software\Hyperbolic Magnetism"`
-  and press enter.
-  - This will bring up a confirmation prompt. Before selecting Yes, be sure that it says it is
-    deleting `HKEY_CURRENT_USER\Software\Hyperbolic Magnetism`!
-- If you have multiple monitors, you can try these fixes:
-  - Set the game to play on your main monitor by changing your primary display in Windows to your 1st monitor.
-  - Change your UI scaling of your 2nd monitor to the same as your main monitor.
-  - Disconnect your other monitors altogether.
 
 ##### Fix for Game Versions between 1.29.4 and 1.37.1
 
@@ -275,7 +253,8 @@ is why other games and menus might be fine. There is no clear-cut solution, so t
 - Use `-vrmode oculus` if you're using SteamVR to bypass it and use the Oculus SDK instead
 
 :::tip NOTE
-`-vrmode oculus` only works on `1.29.1` and below! If you are on any higher version, do this instead:
+`-vrmode oculus` only works on `1.29.1` and below, which is no longer supported.
+If you are on any higher version, do this instead:
 
 - Go to your Oculus Software
 - Go to Settings > General
