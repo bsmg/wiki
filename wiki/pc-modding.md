@@ -64,7 +64,7 @@ Visit the [Downgrading](#downgrading) section on this page for more information.
 
 \***\*Make sure you own the game on Steam or Oculus (PCVR)\*\*** before trying to download Beat Saber!
 
-An all-in-one tool that lets you easily manage BeatSaber versions, maps, mods, and even more. Get it on [Zagrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
+An all-in-one tool that lets you easily manage Beat Saber versions, maps, mods, and even more. Get it on [Zagrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
 
 ![BSManager](/.assets/images/beginners-guide/bsmanager.png)
 
@@ -72,15 +72,15 @@ An all-in-one tool that lets you easily manage BeatSaber versions, maps, mods, a
 
 \***\*Run the game at least once\*\*** before trying to mod the game! This applies to reinstalling your game too.
 
-Yet another mod installer for Beat Saber, heavily inspired by ModAssistant.
-It strives to look more visually appealing and support both Windows and Linux, while still being as feature-rich as ModAssistant.
+Yet another mod installer for Beat Saber, heavily inspired by Mod Assistant.
+It strives to look more visually appealing and support both Windows and Linux, while still being as feature-rich as Mod Assistant.
 Get it on [affederaffe's GitHub](https://github.com/affederaffe/BeatSaberModManager/releases/latest)
 
 ![BeatSaberModManager](/.assets/images/beginners-guide/beatsabermodmanager.png)
 
 ### ModAssistant
 
-A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal
+A simple Beat Saber mod installer similar to the mod manager, but with additional features such as mod removal
 and version checking! Get it on [BSMG's GitHub](https://github.com/bsmg/ModAssistant/releases/latest)
 
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
@@ -130,7 +130,9 @@ featured/curated map packs/playlists.
 
 ### Song Management Apps
 
-There are no working song management apps available at this time.
+BSManager has a Maps tab which allows you to manage your songs on a specific version. Simply select your version and
+click the Maps tab. From there you can delete songs, preview their audio or mapping, and get their Twitch BSR
+code for requesting songs on livestreams.
 
 ### Playlists
 
@@ -189,7 +191,8 @@ is malware or not, **_please ask someone in our discord_**.
 
 ### Install BSIPA
 
-1. Download [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases).
+1. Download [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases). Make sure that the version you download
+   is compatible with your game version.
 2. Navigate to your [install folder.](#install-folder) and extract the contents of BSIPA into it.
    ![Directory Clean](/.assets/images/beginners-guide/directory-clean.png 'Directory Clean')
    ![Directory Ipa](/.assets/images/beginners-guide/directory-ipa.png 'Directory Ipa')
