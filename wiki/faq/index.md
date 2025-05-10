@@ -20,7 +20,7 @@ The link to the PC Modding page should automatically scroll to the Downgrading s
 until you see it.
 :::
 
-The latest moddable Beat Saber version for Quest is `1.37.0`.
+The latest moddable Beat Saber version for Quest is `1.40.4`.
 
 For more information on modding and/or downgrading visit the respective [modding guide.](/beginners-guide.md)
 
@@ -63,30 +63,18 @@ You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistMa
 Then you can either:
 
 - Install playlists through the Maps tab in BSManager.
-  ::: tip NOTE
-  This feature is only on the alpha version of BSManager!
-  :::
 - Place the playlist file into `Beat Saber/Playlists`, select the playlist title header in-game, then hit download all songs.
 
 You should see the playlist next to the Custom Levels albums in-game. The mod also supports managing playlists in-game.
 
 ### Quest
 
-Drag the `.bplist` or `.json` playlist file into the BMBF upload tab. A confirmation message that your playlist has been
-installed should appear. You can then sync the playlist into your game by pressing the
-`Sync to Beat Saber` button.
+Install the PlaylistManager mod from ModsBeforeFriday. Then, press the "Upload Files" button in ModsBeforeFriday. A file
+selection prompt should appear. Select your `.bplist`
+or `.json` file and click OK. A popup should appear telling you that the file was uploaded successfully.
 
-Once in game after custom levels has been loaded, a prompt from PlaylistCore to apply the
-playlist settings from BMBF should appear. After you accept the prompt, you should see the playlist next to the Custom
-Levels album's in game. Managing installed playlists can be done in-game or in the BMBF `Playlists` tab.
-
-:::warning WARNING for Quest Users
-Using the in game or manual playlist management methods can cause BMBF and PlaylistCore to be out of sync!
-
-If you added or modified a playlist manually or in-game, you have to select the `Reload Playlists Folder`
-button in BMBF's `Tools` tab to sync changes. Otherwise, BMBF will override your settings with an outdated copy the
-next time you sync your playlists through BMBF.
-:::
+Once in game after custom levels has been loaded, you should see the playlist next to the Custom Levels album's in game.
+Download any missing songs by selecting the spinning arrow icon at the bottom of the cover of the playlist.
 
 ## How do I make my own custom levels?
 
@@ -121,13 +109,3 @@ If you're confused by any of this, visit [Beginners Guide](/beginners-guide.md).
 
 We have sections on the [grips and tricks](/grips-and-tricks.md) page dedicated to the scoring and ranking systems,
 check them out!
-
-## My menus are blank and I have nothing to click on
-
-If the main window in your game is blank, your save file likely got corrupted.
-
-To fix it, navigate to:
-`%AppData%\..\LocalLow\Hyperbolic Magnetism`
-
-Delete or rename the Beat Saber folder to something else. When you re-enter the game,
-it'll recreate the save file and should load the main menu properly.
