@@ -154,6 +154,22 @@ If the game auto-closes/black screens on startup with the popup below, then try 
 
 If none of the steps worked here, seek out help in the [BSMG Discord.](https://discord.gg/beatsabermods)
 
+##### Fixes for Game Versions 1.29.1 and Below
+
+:::warning DISCLAIMER
+Versions 1.29.1 and below have been made legacy versions in terms of modding support and support for these versions
+won't be provided if you continue to have further issues. We suggest updating your game to a more recent/recommended version.
+:::
+
+- Press WIN+R on your keyboard, and paste in the following command: `reg delete "HKCU\Software\Hyperbolic Magnetism"`
+  and press enter.
+  - This will bring up a confirmation prompt. Before selecting Yes, be sure that it says it is
+    deleting `HKEY_CURRENT_USER\Software\Hyperbolic Magnetism`!
+- If you have multiple monitors, you can try these fixes:
+  - Set the game to play on your main monitor by changing your primary display in Windows to your 1st monitor.
+  - Change your UI scaling of your 2nd monitor to the same as your main monitor.
+  - Disconnect your other monitors altogether.
+
 ### Framerate Issues
 
 #### 2.5 The game stutters unbearably after installing mods
