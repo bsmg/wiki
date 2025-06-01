@@ -24,11 +24,6 @@ that can be done at any time, if they're needed.
   your audio file works as expected.
   :::
 
-::: tip
-Use [BeatTimer](https://beat-timer.webry.com/) to do steps 1-5 in one go more easily without needing to install any
-additional software.
-:::
-
 1. Download and Install [Audacity](https://www.audacityteam.org/)
    - Optionally install the [ffmpeg for windows](https://manual.audacityteam.org/man/installing_ffmpeg_for_windows.html)
      addon to open additional file types such as `.aac` or `.m4a` from iTunes.
@@ -39,6 +34,11 @@ additional software.
 4. [Check your song volume](#check-song-volume) and make it [louder](#making-your-song-louder) or
 [softer](#making-your-song-softer) as needed  
 5. Check the length of your song outro and [trim it](#trimming-the-outro) if needed
+
+::: tip NOTE
+Alternatively you can use [BeatTimer](https://beat-timer.webry.com/) to setup your audio without needing
+to install any additional software.
+:::
 
 ## Song Selection for New Mappers
 
