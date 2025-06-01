@@ -35,6 +35,11 @@ that can be done at any time, if they're needed.
 [softer](#making-your-song-softer) as needed  
 5. Check the length of your song outro and [trim it](#trimming-the-outro) if needed
 
+::: tip NOTE
+Alternatively you can use [BeatTimer](https://beat-timer.webry.com/) to setup your audio without needing
+to install any additional software.
+:::
+
 ## Song Selection for New Mappers
 
 Below are recommendations, **not** requirements, and will help to ease you into mapping. If you want to map 17 minutes of

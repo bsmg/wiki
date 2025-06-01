@@ -29,6 +29,11 @@ Auf dieser Seite finden sowohl neue als auch erfahrene Mapper allgemeine Empfehl
 4. [Prüfe deine Song-Lautstärke](#songlautstarke-prufen) und stelle sie je nach Bedarf [Lauter](#mach-deinen-song-lauter) oder [Leiser](#mache-deinen-song-softer) ein.  
 5. Überprüfe die Länge deines Song-Outros und [kürze es bei Bedarf](#trimmen-des-outros).
 
+::: tip TIPP
+Nutze [BeatTimer](https://beat-timer.webry.com/), um die Schritte 1-3 auf einmal durchzuführen, ohne zusätzliche
+ Software installieren zu müssen.
+:::
+
 ## Songauswahl für neue Mapper
 
 Die folgenden Angaben sind Empfehlungen, **nicht** Anforderungen, und sollen dir den Einstieg ins Mapping erleichtern. Wenn du 17 Minuten von "In A Gadda Da Vida" mappen willst, dann nur zu, aber sei dir bewusst, dass du vor einer **viel** zu großen Herausforderungen stehen wirst.
