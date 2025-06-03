@@ -258,7 +258,9 @@ If you are seeing a waveform, it is recommended to switch to the spectrogram vie
 ![Tempora's spectrogram toggle](/.assets/images/mapping/temporaSpectrogramSetting.jpg)
 
 5. Navigate and playback the audio using the scroll wheel, right-click and spacebar.
-6. Each row of audio represents one musical measure. 
+
+#### Timing the song
+Each row of audio represents one musical measure. 
 Each measure can be separted into multiple grid lines, representing divisions of the musical timeline, such as whole measures, quarter notes, third notes, etc.
 The grid division can be selected using the "Grid" bar in the top of the window:
 
@@ -268,17 +270,17 @@ The downbeat is always shown as a bright, red line. If you have set the Grid to 
 
 ![Tempora with quarter note grid lines](/.assets/images/mapping/temporaQuarterNotes.jpg)
 
-7. Listen to the audio to find a downbeat. It may be helpful to turn off the metronome sounds (either using the volume bar in the top of the window, or the Z key).
+Listen to the audio to find a downbeat. It may be helpful to turn off the metronome sounds (either using the volume bar in the top of the window, or the Z key).
 
 Let's say you found a downbeat here, marked by the purple line:
 ![First downbeat found](/.assets/images/mapping/temporaDownbeatFound.jpg)
 
-8. Left-click on the downbeat to create a timing point. The timing point will snap to the nearest grid line with a default BPM of 120. 
+Left-click on the downbeat to create a timing point. The timing point will snap to the nearest grid line with a default BPM of 120. 
 If you have set the Grid setting to something else than 4/4, you may need to drag the timing point to the bright red line, instead of whatever line it snapped to.
 
 ![First downbeat placed](/.assets/images/mapping/temporaDownbeatPlaced.jpg)
 
-9. Listen to the audio until you hear the next downbeat, and left-click and drag it to the next downbeat. 
+Listen to the audio until you hear the next downbeat, and left-click and drag it to the next downbeat. 
 
 In this example, the second downbeat is marked by the purple line:
 
@@ -290,7 +292,7 @@ After left-clicking (and then changing the Grid to 1/4), it looks like this:
 
 Notice how the song's audio starts to line up with the grid lines. 
 
-10. Now, the objective is to line up the rest of the song with the grid, such that i.e. each downbeat lines up with a bright red line, and other notes line up with other grid lines appropriately. 
+Now, the objective is to line up the rest of the song with the grid, such that i.e. each downbeat lines up with a bright red line, and other notes line up with other grid lines appropriately. 
 Use the grid lines and the metronome sounds to judge whether any particular section of the audio is timed correctly.
 It is generally recommended to use as few timing points as possible, and to prioritize downbeats.
 
@@ -300,10 +302,10 @@ The example could look like this once fully timed:
 
 Note that not all transients have to line up perfectly. If it sounds fine with the metronome (even at slow playback speed, see the top of the window, or press X), the timing is good enough.
 
-11. To make adjustments to individual timing points, such as changing the offset, hold Ctrl and left-click drag the points or use  Ctrl + scroll wheel while having your mouse close to the point you want to change. 
+To make adjustments to individual timing points, such as changing the offset, hold Ctrl and left-click drag the points or use  Ctrl + scroll wheel while having your mouse close to the point you want to change. 
 To delete a timing point, double-click it.
 
-12. There are additional features such as time signature changes (left side of window), and advanced methods such as selecting multiple timing points and doubling BPM. 
+There are additional features such as time signature changes (left side of window), and advanced methods such as selecting multiple timing points and doubling BPM. 
 You can click the **?** icon in the top-right of the window to learn more.
 
 ### Warping with Reaper
