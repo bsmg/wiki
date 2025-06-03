@@ -301,6 +301,7 @@ The example could look like this once fully timed:
 Note that not all transients have to line up perfectly. If it sounds fine with the metronome (even at slow playback speed, see the top of the window, or press X), the timing is good enough.
 
 11. To make adjustments to individual timing points, such as changing the offset, hold Ctrl and left-click drag the points or use  Ctrl + scroll wheel while having your mouse close to the point you want to change. 
+To delete a timing point, double-click it.
 
 12. There are additional features such as time signature changes (left side of window), and advanced methods such as selecting multiple timing points and doubling BPM. 
 You can click the **?** icon in the top-right of the window to learn more.
