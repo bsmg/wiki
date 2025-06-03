@@ -238,7 +238,8 @@ There are several methods to go about handling variable BPM:
 The benefits of using Tempora lie in the simplicity of the UI and the speed at which songs can be timed.
 
 Tempora was originally developed for osu!, and you can watch the release video [here](https://www.youtube.com/watch?v=4_UN0Rxjv-w), 
-which explains the program and includes a short tutorial, as well as a link to a longer video tutorial in the description (see also [Getting Started](#getting-started)).
+which explains the program and includes a short tutorial, as well as a link to a longer video tutorial in the description (see also [Getting Started](#getting-started)). 
+There is also a link to a discord community where you can get help with the program, report bugs, or suggest new features.
 
 As of May 30, 2025, Tempora officially supports Beat Saber, meaning that it can export .zip files that include all the necessary files to get started with mapping, 
 including `AudioData.dat`, `ExpertPlusStandard.dat`, `Info.dat`, `LightShow.dat` as well as the audio file itself.
@@ -277,8 +278,7 @@ If you have set the Grid setting to something else than 4/4, you may need to dra
 
 ![First downbeat placed](/.assets/images/mapping/temporaDownbeatPlaced.jpg)
 
-9. Now, the objective is to line up the rest of the song with the grid, such that each downbeat lines up with a bright red line. 
-Listen to the audio until you hear the next downbeat, and left-click and drag it to the next downbeat. 
+9. Listen to the audio until you hear the next downbeat, and left-click and drag it to the next downbeat. 
 
 In this example, the second downbeat is marked by the purple line:
 
@@ -290,7 +290,7 @@ After left-clicking (and then changing the Grid to 1/4), it looks like this:
 
 Notice how the song's audio starts to line up with the grid lines. 
 
-10. Time the rest of the song using this method. 
+10. Now, the objective is to line up the rest of the song with the grid, such that i.e. each downbeat lines up with a bright red line, and other notes line up with other grid lines appropriately. 
 Use the grid lines and the metronome sounds to judge whether any particular section of the audio is timed correctly.
 It is generally recommended to use as few timing points as possible, and to prioritize downbeats.
 
