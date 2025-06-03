@@ -261,7 +261,7 @@ If you are seeing a waveform, it is recommended to switch to the spectrogram vie
 
 #### Timing the song
 Each row of audio represents one musical measure. 
-Each measure can be separted into multiple grid lines, representing divisions of the musical timeline, such as whole measures, quarter notes, third notes, etc.
+Each measure can be separated into multiple grid lines, representing divisions of the musical timeline, such as whole measures, quarter notes, third notes, etc.
 The grid division can be selected using the "Grid" bar in the top of the window:
 
 ![Tempora's grid bar](/.assets/images/mapping/temporaGridBar.jpg)
