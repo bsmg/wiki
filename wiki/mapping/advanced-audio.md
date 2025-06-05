@@ -223,6 +223,7 @@ consistent lighting editing, especially with more than one difficulty in a map.
 
 There are several methods to go about handling variable BPM:
 
+- Manually time the BPM changes in Tempora. See [Timing with Tempora](#timing-with-tempora) for info.
 - Time warp the sound into a fixed BPM using DAW software. See [Warping with Reaper](#warping-with-reaper) for info.
 - Manually time the BPM changes in MMA2.
   - [Video tutorial by BennyDaBeast here](https://www.youtube.com/watch?v=6AwR4SeaiHU)  
@@ -231,6 +232,97 @@ There are several methods to go about handling variable BPM:
 - Use DAW software and find all the tempo changes using a tempo track editor. Use Jumps instead of Ramps as that's how
   MMA2 changes tempo. When you've found all the tempo changes input those into MMA2.
   (Remember, DAW softwares usually displays measures and beats, but MMA2 only displays beats.)
+
+### Timing with Tempora
+
+[Tempora](https://github.com/teamkongehund/Tempora) is an open-source application specifically designed for timing
+variable-BPM songs.
+The benefits of using Tempora lie in the simplicity of the UI and the speed at which songs can be timed.
+
+Tempora was originally developed for osu!, and you can watch the [release video](https://www.youtube.com/watch?v=4_UN0Rxjv-w),
+which explains the program and includes a short tutorial, as well as a link to a longer video tutorial in the description
+(see also [Getting Started](#getting-started)).
+There is also a link to a discord community where you can get help with the program, report bugs, or suggest new features.
+
+As of May 30, 2025, Tempora officially supports Beat Saber, meaning that it can export .zip files that include all the
+necessary files to get started with mapping,
+including `AudioData.dat`, `ExpertPlusStandard.dat`, `Info.dat`, `LightShow.dat` as well as the audio file itself.
+
+#### Getting Started
+
+1. Download [Tempora](https://github.com/teamkongehund/Tempora/releases/)
+2. Open Tempora
+3. Drag and drop an .ogg audio file from a file explorer into the Tempora window. Note that .wav files are not supported
+   as of May 30, 2025.
+4. You should now see the audio in Tempora.
+
+![Tempora screenshot](/.assets/images/mapping/tempora.jpg)
+
+If you are seeing a waveform, it is recommended to switch to the spectrogram view, as this will make it clearer where tempo
+changes occur.
+
+![Tempora's spectrogram toggle](/.assets/images/mapping/temporaSpectrogramSetting.jpg)
+
+5. Navigate and playback the audio using the scroll wheel, right-click and spacebar.
+
+#### Timing the song
+
+Each row of audio represents one musical measure.
+Each measure can be separated into multiple grid lines, representing divisions of the musical timeline, such as whole measures,
+quarter notes, third notes, etc.
+The grid division can be selected using the "Grid" bar in the top of the window:
+
+![Tempora's grid bar](/.assets/images/mapping/temporaGridBar.jpg)
+
+The downbeat is always shown as a bright, red line. If you have set the Grid to 1/4, it will also show the quarter notes
+of each measure, marked as darker red lines:
+
+![Tempora with quarter note grid lines](/.assets/images/mapping/temporaQuarterNotes.jpg)
+
+Listen to the audio to find a downbeat. It may be helpful to turn off the metronome sounds (either using the volume bar
+in the top of the window, or the Z key).
+
+Let's say you found a downbeat here, marked by the purple line:
+![First downbeat found](/.assets/images/mapping/temporaDownbeatFound.jpg)
+
+Left-click on the downbeat to create a timing point. The timing point will snap to the nearest grid line with a default
+BPM of 120.
+If you have set the Grid setting to something else than 4/4, you may need to drag the timing point to the bright red line,
+instead of whatever line it snapped to.
+
+![First downbeat placed](/.assets/images/mapping/temporaDownbeatPlaced.jpg)
+
+Listen to the audio until you hear the next downbeat, and left-click and drag it to the next downbeat.
+
+In this example, the second downbeat is marked by the purple line:
+
+![Second downbeat found](/.assets/images/mapping/temporaSecondDownbeatFound.jpg)
+
+After left-clicking (and then changing the Grid to 1/4), it looks like this:
+
+![The transients roughly line up with the grid](/.assets/images/mapping/temporaRoughLineUp.jpg)
+
+Notice how the song's audio starts to line up with the grid lines.
+
+Now, the objective is to line up the rest of the song with the grid, such that each downbeat lines up with a bright
+red line, and other notes line up with other grid lines appropriately.
+Use the grid lines and the metronome sounds to judge whether any particular section of the audio is timed correctly.
+It is generally recommended to use as few timing points as possible, and to prioritize downbeats.
+
+The example could look like this once fully timed:
+
+![A fully timed section in Tempora](/.assets/images/mapping/temporaFullyTimed.jpg)
+
+Note that not all transients have to line up perfectly. If it sounds fine with the metronome (even at slow playback speed,
+see the top of the window, or press X), the timing is good enough.
+
+To make adjustments to individual timing points, such as changing the offset, hold Ctrl and left-click drag the points or
+use Ctrl + scroll wheel while having your mouse close to the point you want to change.
+To delete a timing point, double-click it.
+
+There are additional features such as time signature changes (left side of window), and advanced methods such as selecting
+multiple timing points and doubling BPM.
+You can click the **?** icon in the top-right of the window to learn more.
 
 ### Warping with Reaper
 
