@@ -17,7 +17,7 @@ package-lock.json       @luludotdev
 crowdin.yml             @bloodcloak
 
 # Wiki Admins
-/wiki/**/*.md           @bloodcloak @IAMDEDJUSTTOGETFILES
+/wiki/**/*.md           @bloodcloak @IAMDEDJUSTTOGETFILES @overlappingd
 
 # Section Owners
 # /wiki/modding/**/*.md   @bloodcloak @Auros @Caeden117
