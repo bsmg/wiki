@@ -23,7 +23,7 @@ description: 了解如何给你Quest一体机上的节奏光剑添加模组！
 
 - 你可能会遇到原版游戏中不存在的问题。99.9%的bug、崩溃或卡顿都是由于模组引起的。
 - 游戏更新可能会导致模组失效，这很正常 — 当这种情况发生时，请保持耐心与尊重，因为模组开发者都是用爱发电的志愿者，他们也都有自己的生活。
-- 游戏厂商Beat Games并非故意让模组失效。他们致力于优化游戏代码，而这可能会让模组无法工作，他们的目的并不是故意去封杀模组。
+- 游戏厂商Beat Games并非故意让模组失效。他们致力于优化游戏代码，而这可能会让模组无法工作，他们的目的并不是去封杀模组。
 
 不要因为模组有问题而去责怪游戏开发者 —— 反之亦然，不要犯病。
 :::
@@ -39,7 +39,7 @@ description: 了解如何给你Quest一体机上的节奏光剑添加模组！
 
 如果你有安装模组后联机的需求，则需要安装`Beat Together`和`MultiplayerCore`这两个模组
 
->这些模组支持PC和Quest跨平台联机，或使用自行导入的歌曲
+> 这些模组支持PC和Quest跨平台联机，或使用自行导入的歌曲
 
 如果联机对你来说非常重要，则请确保这些模组兼容你当前版本的节奏光剑，因为它们并非主要mod。
 
@@ -52,13 +52,16 @@ description: 了解如何给你Quest一体机上的节奏光剑添加模组！
 因此你需要一台Windows/Mac/Linux系统的电脑或一台安卓设备.
 
 - 如果你使用Windows、Macos或者Linux系统的电脑，请看[使用电脑添加模组](#准备工作)
->Linux的电脑也可以参考[通过树莓派添加模组](../quest/modding-with-raspi.md)来添加模组。但这只在Raspberry Pi OS (基于Debian) 上进行过测试，其它系统可能有区别。
+
+> Linux的电脑也可以参考[通过树莓派添加模组](../quest/modding-with-raspi.md)来添加模组。但这只在Raspberry Pi OS (基于Debian) 上进行过测试，其它系统可能有区别。
+
 - 如果你打算用安卓设备来给Quest上的节奏光剑添加模组，请看[使用安卓设备添加模组](../quest/modding-with-android.md)
 - 如果你只有iOS设备，比如iPhone或者iPad，你需要买一块[树莓派](https://www.raspberrypi.com/)。并参考[通过树莓派添加模组](../quest/modding-with-raspi.md)。
->此处仅为直译原文，以中国大陆的环境来说更建议购买一台安卓备用机。
 
-::: warning 多账户
-**无法**为同时登录多个账户的Quest安装模组！在添加模组前请移除全部的次要账户。
+> 此处仅为直译原文，以中国大陆的环境来说更建议购买一台安卓备用机。
+
+::: warning 多账户须知
+无法为同时登录多个账户的Quest安装模组！在添加模组前请移除全部的次要账户。
 :::
 
 ::: danger Quest 1 用户需注意
@@ -94,7 +97,7 @@ description: 了解如何给你Quest一体机上的节奏光剑添加模组！
 #### 使用 SideQuest 备份存档数据
 
 :::tip 可选步骤
-如果这是你首次安装模组，可以跳过此部分，直接前往 [**为节奏光剑添加模组的方案**](#为节奏光剑添加模组的方案)
+如果这是你首次安装模组，可以跳过此部分，直接前往 [**为节奏光剑安装模组的方案**](#为节奏光剑安装模组的方案)
 :::
 
 打开SideQuest，并将Quest连接到电脑。
@@ -110,18 +113,18 @@ description: 了解如何给你Quest一体机上的节奏光剑添加模组！
 #### 使用 SideQuest 恢复存档数据
 
 :::tip 可选步骤
-若你在 [使用 SideQuest 备份存档数据](#使用-SideQuest-备份存档数据) 中备份了一些数据需要恢复，则请执行这一步骤。
+若你在 [使用 SideQuest 备份存档数据](#使用-sidequest-备份存档数据) 中备份了一些数据需要恢复，则请执行这一步骤。
 大多数的模组安装工具都会自动帮你恢复数据，但仍建议保留备份来以防万一。
 :::
 
 如需恢复游戏存档，请打开SideQuest并将Quest连接至电脑。
-使用SideQuest的文件管理器将在 [使用 SideQuest 来备份存档数据](#使用-SideQuest-备份存档数据) 中备份的三个文件 `AvatarData.dat`，`PlayerData.dat`和`settings.cfg` 拷贝至
+使用SideQuest的文件管理器将在 [使用 SideQuest 来备份存档数据](#使用-sidequest-备份存档数据) 中备份的三个文件 `AvatarData.dat`，`PlayerData.dat`和`settings.cfg` 拷贝至
 `sdcard/Android/data/com.beatgames.beatsaber/files`路径。
 
 ## 为节奏光剑安装模组的方案
 
 - 目前为节奏光剑安装模组，最简单的方式是使用 [ModsBeforeFriday](#modsbeforefriday) 工具，
-这是一个运行于浏览器网页的应用，只用几分钟完成模组的安装。
+  这是一个运行于浏览器网页的应用，只用几分钟完成模组的安装。
 
 - 其次，若需要更高级的管理功能，也可选择 [QuestPatcher](#questpatcher) ，此工具运行于Windows、Macos或者Linux系统的电脑。
 
@@ -168,16 +171,17 @@ QuestPatcher是一款运行于Windows、Linux或macOS上的模组安装程序，
 
 你应提前启用开发者模式，并在电脑上安装 SideQuest 。
 
-1.  [点击这个页面](https://github.com/Lauriethefish/QuestPatcher/releases/latest) 后下载并安装QuestPatcher。
-    :::danger 警告
-    QuestPatcher**无法**降级你的节奏光剑，
-    因此你需要确保你已经安装了支持安装模组的游戏版本。
+1. [点击这个页面](https://github.com/Lauriethefish/QuestPatcher/releases/latest) 后下载并安装QuestPatcher。
+   :::danger 警告
+   QuestPatcher**无法**降级你的节奏光剑，
+   因此你需要确保你已经安装了支持安装模组的游戏版本。
 
-    如果你以前用过 QuestPatcher，请先跳转到工具并点击 `Quick Fix` 以修复软件
-    :::
-2.  修补节奏光剑（若曾修补过软件，请先进行修复）
-    - 确保在菜单内选择了 `Scotland2` 作为 ModLoader。
- 3. 安装核心模组，以及在 [这个页面内](https://bsquest.xyz/mods)安装其它模组。
+   如果你以前用过 QuestPatcher，请先跳转到工具并点击 `Quick Fix` 以修复软件
+   :::
+
+2. 修补节奏光剑（若曾修补过软件，请先进行修复）
+   - 确保在菜单内选择了 `Scotland2` 作为 ModLoader。
+3. 安装核心模组，以及在 [这个页面内](https://bsquest.xyz/mods)安装其它模组。
 
 ### QAVS
 
