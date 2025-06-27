@@ -1,7 +1,7 @@
 import container from 'markdown-it-container'
 import { env } from 'node:process'
 import type { DefaultTheme } from 'vitepress'
-import { defineConfig } from 'vitepress'
+import { defineConfigWithTheme } from 'vitepress'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 const IS_DEV = env.NODE_ENV === 'production'
@@ -59,8 +59,16 @@ export const sidebar = (...items: SidebarItem[]): DefaultTheme.SidebarMulti => {
   )
 }
 
+export interface BSMGConfig {
+  external_links?: string
+}
+
+export interface BSMGThemeConfig extends DefaultTheme.Config {
+  bsmg?: BSMGConfig
+}
+
 // https://vitepress.dev/reference/site-config
-export const shared = defineConfig({
+export const shared = defineConfigWithTheme<BSMGThemeConfig>({
   title: 'BSMG Wiki',
 
   lastUpdated: true,
