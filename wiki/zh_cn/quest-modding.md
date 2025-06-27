@@ -8,168 +8,180 @@ description: 了解如何给你Quest一体机上的节奏光剑添加模组！
 
 :::warning 当前正在浏览的是[原页面](../quest-modding.md)的翻译版本
 建议检查页面尾部的最后修改时间，以确保其内容没有过时。
+
+点击文章内带有箭头的特殊文字可直接前往原网址。( 建议提前开启代理 )
 :::
 
 ## 前言
 
 - 此指南适用于Quest 1，Quest 2，Quest Pro以及Quest 3.
 
-- 目前尚无玩家因添加模组而被封禁，但添加模组确实违反了Meta的服务条款。
+- 目前还没有人因添加模组而被封禁，但添加模组确实违反了Meta的服务条款。
 
 ::: danger 免责声明
 如果要使用模组，那么你应当理解:
 
-- 你可能会遇到原版游戏中不存在的问题。99.9%的bug、崩溃或缺陷是由于模组引起的。
-- 游戏更新会破坏模组，这很正常——当这件事发生时请耐心等待并予以尊重，因为模组开发者都是用爱发电的志愿者，他们也都有自己的生活。
-- 游戏开发者Beat Games并不是故意破坏模组的。它们需要开发游戏代码，这可能会让模组无法工作，但他们并非故意去抹除模组。
+- 你可能会遇到原版游戏中不存在的问题。99.9%的bug、崩溃或卡顿都是由于模组引起的。
+- 游戏更新可能会导致模组失效，这很正常 — 当这种情况发生时，请保持耐心与尊重，因为模组开发者都是用爱发电的志愿者，他们也都有自己的生活。
+- 游戏厂商Beat Games并非故意让模组失效。他们致力于优化游戏代码，而这可能会让模组无法工作，他们的目的并不是故意去封杀模组。
 
-不要因为模组去攻击游戏开发者，亦或是模组开发者——他们是两个完全没有交集的团体。请保持理智，不要发神经。
+不要因为模组有问题而去责怪游戏开发者 —— 反之亦然，不要犯病。
 :::
 
-:::warning 我在B站/其它地方看了一个视频教程，但现在卡住了/没有用，我该怎么办？
-在BSMG，我们**强烈**反对任何有关添加模组的视频教程. 我们经常发现这些东西是过时的，或者是不完整、错误甚至包含误导信息的。
+:::warning 我在B站看了一个视频教程，但现在卡住了/没有用，我该怎么办？
+在BSMG，我们**强烈建议**不要使用任何视频教程来安装模组. 我们经常发现这些教程要么已经过时，要么包含不完整、有错误或误导他人的信息。
 
-此外，你应该跟着这个wiki上的指南，或者在（英文社区）[BSMG Discord](https://discord.gg/beatsabermods)寻求帮助。
+相反，你应当遵循本wiki上的指南，或前往 [BSMG Discord (英文社区)](https://discord.gg/beatsabermods)寻求帮助。
 :::
 
-:::warning
-为游戏添加模组会停用官方的多人游戏，同时也会无法浏览或上传分数至原版游戏排行榜。
+:::warning 警告
+为游戏安装模组会导致你无法使用官方的联机功能，也无法浏览或上传分数至游戏的官方排行榜。
 
-如果你需要带模组游玩多人模式，就要安装这些模组：`Beat Together`和`MultiplayerCore`，它们能够让你跨PC/Quest平台对自制谱面进行多人游戏。
-如果你很看重多人游戏，请确保这些模组在你要添加模组的节奏光剑版本上可以使用，因为它们不是核心模组！
+如果你有安装模组后联机的需求，则需要安装`Beat Together`和`MultiplayerCore`这两个模组
 
-如果想要在自制谱面上使用排行榜或者打rank曲目赚取Performance Point(PP)，你需要[ScoreSaber](https://scoresaber.com/quest)或者[BeatLeader](https://beatleader.xyz)模组。
+>这些模组支持PC和Quest跨平台联机，或使用自行导入的歌曲
+
+如果联机对你来说非常重要，则请确保这些模组兼容你当前版本的节奏光剑，因为它们并非主要mod。
+
+如果想要在自制谱面上获得排名，或者在rank曲目中获得表现积分(Performance Point,PP)，则需要安装 [ScoreSaber](https://scoresaber.com/quest) 或着 [BeatLeader](https://beatleader.xyz) 模组。
 :::
 
 ## 前置要求
 
-如果要给节奏光剑添加模组，需要能通过ADB（安卓调试桥）访问Quest设备。
-所以你需要提前准备一个PC(Windows / Mac / Linux)或者安卓设备.
+安装模组需要能够使用 ADB（安卓调试桥）访问Quest设备。
+因此你需要一台Windows/Mac/Linux系统的电脑或一台安卓设备.
 
-- 如果你有一台Windows、Max或者Linux系统的电脑，看[通过PC添加模组](#准备工作)
-- 如果你想要用一个安卓设备来给Quest添加模组，看[通过安卓添加模组](../quest/modding-with-android.md)
-- 如果你想要用Linux的计算机来添加模组，可以参考树莓派指南。注意这只在Raspberry Pi OS (Debian)上进行过测试，其它系统可能有区别。
-- 如果想要用iOS设备，比如iPhone或者iPad，你需要买一个[树莓派](https://www.raspberrypi.com/)。这样就可以参考[通过树莓派添加模组](../quest/modding-with-raspi.md)。
+- 如果你使用Windows、Macos或者Linux系统的电脑，请看[使用电脑添加模组](#准备工作)
+>Linux的电脑也可以参考[通过树莓派添加模组](../quest/modding-with-raspi.md)来添加模组。但这只在Raspberry Pi OS (基于Debian) 上进行过测试，其它系统可能有区别。
+- 如果你打算用安卓设备来给Quest上的节奏光剑添加模组，请看[使用安卓设备添加模组](../quest/modding-with-android.md)
+- 如果你只有iOS设备，比如iPhone或者iPad，你需要买一块[树莓派](https://www.raspberrypi.com/)。并参考[通过树莓派添加模组](../quest/modding-with-raspi.md)。
+>此处仅为直译原文，以中国大陆的环境来说更建议购买一台安卓备用机。
 
 ::: warning 多账户
-节奏光剑**无法**在有多个账户的设备上添加模组！
-你在添加模组前，需要暂时移除掉所有的非主要账户。
+**无法**为同时登录多个账户的Quest安装模组！在添加模组前请移除全部的次要账户。
 :::
 
-::: danger Quest 1用户
-在Quest 1上只能给节奏光剑1.28或以下版本添加模组。
+::: danger Quest 1 用户需注意
+在Quest 1上只能给1.28或以下版本的节奏光剑添加模组。
 
-前往[为Quest 1添加模组](../quest/modding-quest1.md)阅读说明。
+前往 [为 Quest 1 添加模组](../quest/modding-quest1.md) 阅读说明。
 :::
 
 ## 准备工作
 
 ### 开发者模式
 
-你需要先启用Quest的开发者模式，才能添加模组。
-如果没做过，按照以下步骤进行操作：
+你需要先启用Quest的开发者模式后才能添加模组。
 
-1. 前往[Meta's Developer Website](https://developer.oculus.com/manage/organizations/create/)并登录与你的Quest绑定的Meta账户。
-2. 如果没有的话，开启Meta账户的两步验证2FA (Two-Factor Authentication)，因为要创建组织（Organization）这是必须步骤。
+如果尚未启用，请提前按照以下步骤进行操作：
+
+1. 前往 [Meta's Developer Website](https://developer.oculus.com/manage/organizations/create/) 并登录与你的 Quest 绑定的 Meta 账户。
+2. 请提前开启开启 Meta 账户的两步验证 ( Two-Factor Authentication , 2FA ) ，这是创建组织 (Organization) 的必须前提。
    ![2FA](/.assets/images/beginners-guide/2fa.png)
-3. 回到[Meta's Developer Website](https://developer.oculus.com/manage/organizations/create/)然后创建一个新的Organization。名字随意。
+3. 回到 [Meta's Developer Website](https://developer.oculus.com/manage/organizations/create/) 并创建一个新的组织，再随便起个名字。
    ![DevModeCreateOrg](/.assets/images/beginners-guide/DevModeCreateOrg.png)
-4. 打开Meta Quest手机app，并转到Quest的设置页面。就能找到一个启用
-   Developer Mode的选项。参考下面的说明：
+4. 打开Quest的手机app，并点开Quest的设置页面，可以找到一个启用开发者模式的选项。可参考以下图片指南：
    ![iOSHowTo](/.assets/images/beginners-guide/EnableDevModeIOS.png)
 
 ### SideQuest
 
-:::warning 这个步骤是可以跳过/可选的！
-现在添加模组并不要求安装SideQuest，但它可以用于管理打过mod的游戏，或者管理Quest上的内容，所以安装一下也不错。
+:::warning 这是一个可选步骤！
+目前安装模组不强制需要安装SideQuest，但它在管理打过模组的游戏，或管理Quest上的内容时非常实用，因此安装他是个好主意。
 :::
 
-跳转至[SideQuest下载页面](https://sidequestvr.com/setup-howto)下载并安装SideQuest Advanced Installer。下载完成后安装即可。
+前往 [SideQuest下载页面](https://sidequestvr.com/setup-howto) 下载SideQuest的安装程序，然后按提示安装即可。
 
-#### 使用SideQuest来备份存档数据
+#### 使用 SideQuest 备份存档数据
 
-:::tip 这个步骤是可以跳过/可选的！
-如果你是第一次打mod，可以直接跳转到[为节奏光剑添加模组的方案](#为节奏光剑添加模组的方案)
+:::tip 可选步骤
+如果这是你首次安装模组，可以跳过此部分，直接前往 [**为节奏光剑添加模组的方案**](#为节奏光剑添加模组的方案)
 :::
 
-打开SideQuest并将Quest连接到PC上。
+打开SideQuest，并将Quest连接到电脑。
 
-使用SideQuest上的文件浏览器跳转到`sdcard/Android/data/com.beatgames.beatsaber/files`。
+使用SideQuest上的文件管理器跳转到 `sdcard/Android/data/com.beatgames.beatsaber/files` 路径。
 
 ![SideQuest Files](/.assets/images/beginners-guide/sqfiles.png)
 
-把这些文件保存到PC上的一个文件夹里：`AvatarData.dat`，`PlayerData.dat`和`settings.cfg`。确保它们不会丢失，这些文件保存了你的分数和其它设置！
+并把 `AvatarData.dat` ，`PlayerData.dat` ，`settings.cfg` 这些文件保存至电脑的某个文件夹里。
 
-#### 使用SideQuest来恢复存档数据
+**请确保不会丢失它们，这些文件里保存了你的分数和其它设置**。
 
-:::tip 这个步骤是可以跳过/可选的！
-如果你在[使用SideQuest来备份存档数据](#使用SideQuest来备份存档数据)中备份了一些数据想要恢复，就可以做这一步。
-大多数的模组安装工具都会自动帮你做这个，但防范于未然总还是好的！
+#### 使用 SideQuest 恢复存档数据
+
+:::tip 可选步骤
+若你在 [使用 SideQuest 备份存档数据](#使用-SideQuest-备份存档数据) 中备份了一些数据需要恢复，则请执行这一步骤。
+大多数的模组安装工具都会自动帮你恢复数据，但仍建议保留备份来以防万一。
 :::
 
-想恢复数据的话，打开SideQuest然后把Quest连接到PC上。
-使用SideQuest的文件浏览器将[使用SideQuest来备份存档数据](#使用SideQuest来备份存档数据)中备份的三个文件`AvatarData.dat`，`PlayerData.dat`以及`settings.cfg`拷贝至
-`sdcard/Android/data/com.beatgames.beatsaber/files`文件夹。
+如需恢复游戏存档，请打开SideQuest并将Quest连接至电脑。
+使用SideQuest的文件管理器将在 [使用 SideQuest 来备份存档数据](#使用-SideQuest-备份存档数据) 中备份的三个文件 `AvatarData.dat`，`PlayerData.dat`和`settings.cfg` 拷贝至
+`sdcard/Android/data/com.beatgames.beatsaber/files`路径。
 
-## 为节奏光剑添加模组的方案
+## 为节奏光剑安装模组的方案
 
-目前最简单的方式是使用[ModsBeforeFriday](#modsbeforefriday)，
-这是一个浏览器应用，只要几分钟就能装好模组。
+- 目前为节奏光剑安装模组，最简单的方式是使用 [ModsBeforeFriday](#modsbeforefriday) 工具，
+这是一个运行于浏览器网页的应用，只用几分钟完成模组的安装。
 
-[QuestPatcher](#questpatcher)是一个能在PC上直接运行的app。
-如果网络连接不好的话，这个软件可以用来离线安装或者管理模组，
-但是，它**不能降级节奏光剑**，所以如果最新版本的节奏光剑不能注入模组的话，
-它可能就无法使用。
+- 其次，若需要更高级的管理功能，也可选择 [QuestPatcher](#questpatcher) ，此工具运行于Windows、Macos或者Linux系统的电脑。
 
-如果你现在的游戏版本没办法注入模组，那就应该用[ModsBeforeFriday](#modsbeforefriday)来进行降级。
+  这个软件可以用来在网络不好的情况下 离线安装或者管理模组。
 
-:::danger BMBF已过时
-BMBF已经无法为Quest 2/3上的节奏光剑注入模组！
-不要再去尝试使用BMBF了，它**无法使用**。你应该用[ModsBeforeFriday](#modsbeforefriday)。
+  但是，它**无法降级节奏光剑**。因此如果当前游戏版本不支持安装模组，可能无法使用该工具。
+
+如果你没有安装过模组，或当前版本需要降级，则请先使用 [ModsBeforeFriday](#modsbeforefriday) 完成降级操作。
+
+:::danger BMBF 已被废弃
+BMBF已不再适用于为 Quest2 或 Quest3 上的节奏光剑安装模组！
+请不要再去使用BMBF了，它**无法正常工作**。你应该用 [ModsBeforeFriday](#modsbeforefriday)。
 :::
 
-:::warning
-QAVS现在**无法**将节奏光剑降级至最新可打模组的版本。
+:::warning 关于 QAVS
+你可能在某些地方看到过使用QAVS进行降级操作的教程
 
-这是一个临时状况，也可能会很快有变化。This is a temporary situation and may change soon.
+目前，QAVS**无法**将节奏光剑降级至最新可安装模组的版本，也无法对其打补丁。
+
+这是一个暂时性的问题，在未来可能恢复。
+
 你应该用[ModsBeforeFriday](#modsbeforefriday)来降级并**打补丁**。
 
-如果有人告诉你要用QAVS来进行降级，
-去看[Modding With QAVS](../quest/modding-with-qavs.md)。
+如果有人让你用QAVS来进行降级，请前往 [Modding With QAVS](../quest/modding-with-qavs.md)。
 :::
 
 ### ModsBeforeFriday
 
-:::tip 译者注
-网络需求：这个工具需要你的Quest设备能够访问github网站。
+:::tip 注意
+在中国大陆的某些环境下，可能无法直接使用此工具。**请提前开启代理以访问github。**
 :::
 
-ModsBeforeFriday (MBF)是给节奏光剑注入模组的一个简单易用的浏览器应用。
+ModsBeforeFriday (MBF) 是一个运行于浏览器网页的节奏光剑模组工具。
 
-如果你正在使用PC或者Mac，可以去看[使用ModsBeforeFriday添加模组](../quest/modding-with-mbf.md)。
+若你正在使用电脑，请前往 [使用ModsBeforeFriday添加模组](../quest/modding-with-mbf.md)。
 
-安卓用户可以参考[使用Android添加模组](../quest/modding-with-android.md)。
+安卓用户请参考 [使用Android添加模组](../quest/modding-with-android.md)。
 
 ### QuestPatcher
 
-QuestPatcher是Oculus Quest上可以为任意基于il2cpp的unity应用添加模组的软件，可以运行在Windows、Linux或macOS上。
+QuestPatcher是一款运行于Windows、Linux或macOS上的模组安装程序，适用于Quest上任何基于il2cpp的unity应用。
 
-如果你没有准备好，去看[准备工作](./quest-modding.md#准备工作)并跟着做。
-你现在应该启用了开发者模式，并且在PC上安装了SideQuest Advanced。
+在使用此工具前，请确保已阅读并完成 [准备工作](./quest-modding.md#准备工作) 其中的步骤。
 
-1.  在[这里](https://github.com/Lauriethefish/QuestPatcher/releases/latest)下载并安装QuestPatcher。
+你应提前启用开发者模式，并在电脑上安装 SideQuest 。
+
+1.  [点击这个页面](https://github.com/Lauriethefish/QuestPatcher/releases/latest) 后下载并安装QuestPatcher。
     :::danger 警告
-    QuestPatcher**无法**降级节奏光剑，
-    所以你需要确认你已经安装了最新的可以注入模组的游戏版本！
+    QuestPatcher**无法**降级你的节奏光剑，
+    因此你需要确保你已经安装了支持安装模组的游戏版本。
+
+    如果你以前用过 QuestPatcher，请先跳转到工具并点击 `Quick Fix` 以修复软件
     :::
-2.  如果你之前因为任何原因已经用过了QuestPatcher，跳转到tools并点击`Quick Fix`。
-3.  给节奏光剑打补丁（或如果之前打过的话，在tools选项卡里repatch重新打补丁）
-    - 确保选中了`Scotland2`作为ModLoader。
-4.  安装核心模组，以及在[这个页面](https://bsquest.xyz/mods)安装其它模组。
+2.  修补节奏光剑（若曾修补过软件，请先进行修复）
+    - 确保在菜单内选择了 `Scotland2` 作为 ModLoader。
+ 3. 安装核心模组，以及在 [这个页面内](https://bsquest.xyz/mods)安装其它模组。
 
 ### QAVS
 
 ::: warning
-由于软件更新，QAVS当前**无法**为节奏光剑添加补丁。
-使用[ModsBeforeFriday](../quest/modding-with-mbf.md)进行替代。
+由于软件更新后的限制，目前 QAVS **无法**为节奏光剑添加补丁。
+请使用 [ModsBeforeFriday](../quest/modding-with-mbf.md) 进行替代。
 :::
