@@ -43,7 +43,9 @@ description: 了解如何给你Quest一体机上的节奏光剑添加模组！
 
 如果联机对你来说非常重要，则请确保这些模组兼容你当前版本的节奏光剑，因为它们并非主要mod。
 
-如果想要在自制谱面上获得排名，或者在rank曲目中获得表现积分(Performance Point,PP)，则需要安装 [ScoreSaber](https://scoresaber.com/quest) 或着 [BeatLeader](https://beatleader.xyz) 模组。
+如果想要在自制谱面上获得排名，或者在rank曲目中获得表现积分(Performance Point,PP)，  
+则需要安装 [ScoreSaber](https://scoresaber.com/quest)  
+或者 [BeatLeader](https://beatleader.xyz) 模组。
 :::
 
 ## 前置要求
@@ -118,7 +120,9 @@ description: 了解如何给你Quest一体机上的节奏光剑添加模组！
 :::
 
 如需恢复游戏存档，请打开SideQuest并将Quest连接至电脑。
-使用SideQuest的文件管理器将在 [使用 SideQuest 来备份存档数据](#使用-sidequest-备份存档数据) 中备份的三个文件 `AvatarData.dat`，`PlayerData.dat`和`settings.cfg` 拷贝至
+使用SideQuest的文件管理器将在  
+[使用 SideQuest 来备份存档数据](#使用-sidequest-备份存档数据)  
+中备份的三个文件 `AvatarData.dat`，`PlayerData.dat`和`settings.cfg` 拷贝至
 `sdcard/Android/data/com.beatgames.beatsaber/files`路径。
 
 ## 为节奏光剑安装模组的方案
