@@ -87,12 +87,7 @@ export async function transformPageDataForLocalize(
     if (existsSync(original_full_path)) {
       function getGitTimestamp(file) {
         return new Promise((resolve, reject) => {
-          let child = spawn('git', [
-            'log',
-            '-1',
-            '--pretty="%ai"',
-            file,
-          ])
+          let child = spawn('git', ['log', '-1', '--pretty="%ai"', file])
           child.stdout.setEncoding('utf-8')
           let output = ''
           child.stdout.on('data', data => (output += String(data)))
