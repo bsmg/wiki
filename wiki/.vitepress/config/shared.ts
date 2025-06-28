@@ -9,7 +9,7 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 const IS_DEV = env.NODE_ENV === 'production'
 
-const search = (): DefaultTheme.Config['search'] => {
+export const search = (): DefaultTheme.Config['search'] => {
   if (IS_DEV) return { provider: 'local' }
 
   return {

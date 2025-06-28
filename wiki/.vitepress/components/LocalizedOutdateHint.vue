@@ -4,7 +4,7 @@ import { useData } from 'vitepress'
 const { page, theme, lang } = useData()
 
 const date = computed(() => new Date(page.value.lastUpdated))
-console.log(page.value.frontmatter)
+
 const originalFileLink = computed(() => {
   let url = page.value.frontmatter.originalFile
   if (!url.endsWith('.md')) {

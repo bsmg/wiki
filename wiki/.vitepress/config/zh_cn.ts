@@ -1,6 +1,28 @@
 import { defineConfigWithTheme } from 'vitepress'
-import { BSMGThemeConfig, transformPageDataForLocalize } from './shared'
+import { BSMGThemeConfig, search } from './shared'
 import { sidebar } from './shared'
+
+let searchobj = search()
+searchobj!.options!.translations = {
+  button: {
+    buttonText: '搜索',
+    buttonAriaLabel: '搜索',
+  },
+  modal: {
+    startScreen: {
+      noRecentSearchesText: '没有最近搜索',
+    },
+    noResultsScreen: {
+      noResultsText: '没有找到以下条目的搜索结果',
+    },
+    footer: {
+      selectText: '跳转',
+      navigateText: '选择',
+      closeText: '关闭',
+      searchByText: '搜索提供者',
+    },
+  },
+}
 
 // https://vitepress.dev/reference/site-config
 export const zh_cn = defineConfigWithTheme<BSMGThemeConfig>({
@@ -19,6 +41,10 @@ export const zh_cn = defineConfigWithTheme<BSMGThemeConfig>({
       original_page_updated: '这篇文章可能存在过时信息，原文更新于',
       to_original_page: '点击跳转原文',
     },
+    lastUpdated: {
+      text: '最后更新于',
+    },
+    search: searchobj,
     nav: [
       { text: '主页', link: './' },
       { text: '新手指南', link: './beginners-guide.md' },
@@ -43,17 +69,6 @@ export const zh_cn = defineConfigWithTheme<BSMGThemeConfig>({
     editLink: {
       pattern: 'https://github.com/bsmg/wiki/edit/master/wiki/:path',
       text: '在GitHub上编辑这个页面',
-    },
-    search: {
-      provider: 'local',
-      options: {
-        translations: {
-          button: {
-            buttonText: '搜索',
-            buttonAriaLabel: '搜索',
-          },
-        },
-      },
     },
     sidebar: sidebar(
       {
