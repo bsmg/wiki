@@ -4,6 +4,8 @@ next: false
 description: 用正确的方式来为节奏光剑添加模组！
 ---
 
+<!-- markdownlint-disable-file MD033 -->
+<!-- markdownlint-disable MD041 -->
 <script setup lang="ts">
   import LocalizedOutdateHint from '../.vitepress/components/LocalizedOutdateHint.vue'
 </script>
