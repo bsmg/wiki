@@ -16,8 +16,8 @@ export const zh_cn = defineConfigWithTheme<BSMGThemeConfig>({
     darkModeSwitchLabel: '外观',
     bsmg: {
       external_links: '外部链接',
-      original_page_updated: '原始页面已经有更新版本，最后更新于',
-      to_original_page: '点我跳转至原页面',
+      original_page_updated: '这篇文章可能存在过时信息，原文更新于',
+      to_original_page: '点击跳转原文',
     },
     nav: [
       { text: '主页', link: './' },

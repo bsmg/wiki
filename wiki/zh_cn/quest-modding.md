@@ -157,7 +157,7 @@ BMBF已不再适用于为 Quest2 或 Quest3 上的节奏光剑安装模组！
 ### ModsBeforeFriday
 
 :::tip 注意
-在中国大陆的某些环境下，可能无法直接使用此工具。**请提前开启代理以访问github。**
+在中国大陆的某些环境下，可能无法直接使用此工具。**请为PC/Quest设备开启代理以访问github。**
 :::
 
 ModsBeforeFriday (MBF) 是一个运行于浏览器网页的节奏光剑模组工具。
