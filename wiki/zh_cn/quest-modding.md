@@ -4,13 +4,12 @@ next: false
 description: 了解如何给你Quest一体机上的节奏光剑添加模组！
 ---
 
+<script setup lang="ts">
+  import LocalizedOutdateHint from '../.vitepress/components/LocalizedOutdateHint.vue'
+</script>
+<LocalizedOutdateHint />
+
 # Quest模组
-
-:::warning 当前正在浏览的是[原页面](../quest-modding.md)的翻译版本
-建议检查页面尾部的最后修改时间，以确保其内容没有过时。
-
-点击文章内带有箭头的特殊文字可直接前往原网址。( 建议提前开启代理 )
-:::
 
 ## 前言
 

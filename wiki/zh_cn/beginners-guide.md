@@ -4,6 +4,11 @@ next: false
 description: 用正确的方式来为节奏光剑添加模组！
 ---
 
+<script setup lang="ts">
+  import LocalizedOutdateHint from '../.vitepress/components/LocalizedOutdateHint.vue'
+</script>
+<LocalizedOutdateHint />
+
 # 新手指南
 
 ## 为游戏添加模组

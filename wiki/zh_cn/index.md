@@ -26,6 +26,7 @@ hero:
   import HomeGroup from '../.vitepress/components/HomeGroup.vue'
   import HomeItem from '../.vitepress/components/HomeItem.vue'
   import HomeLinks from '../.vitepress/components/HomeLinks.vue'
+  import LocalizedOutdateHint from '../.vitepress/components/LocalizedOutdateHint.vue'
 </script>
 
 <Home>
@@ -86,5 +87,7 @@ hero:
 - [贡献页面](https://docs.google.com/document/d/1r6IP6l3uo8rc__GxfLkpaToxheeXotdYaKEj3oWB2js/edit?usp=sharing) -
   一个关于如何向wiki做出贡献的指南。
 - [申请翻译wiki！](https://forms.gle/e3BqA3poMjESARe76) - 将wiki翻译到您的语言！
+
+<LocalizedOutdateHint />
 
 </HomeLinks>

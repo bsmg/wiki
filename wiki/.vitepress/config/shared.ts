@@ -1,6 +1,9 @@
 import container from 'markdown-it-container'
+import { spawn } from 'node:child_process'
+import { existsSync } from 'node:fs'
+import path, { basename } from 'node:path'
 import { env } from 'node:process'
-import type { DefaultTheme } from 'vitepress'
+import type { DefaultTheme, PageData, TransformPageContext } from 'vitepress'
 import { defineConfigWithTheme } from 'vitepress'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
@@ -61,10 +64,50 @@ export const sidebar = (...items: SidebarItem[]): DefaultTheme.SidebarMulti => {
 
 export interface BSMGConfig {
   external_links?: string
+  original_page_updated?: string
+  to_original_page?: string
 }
 
 export interface BSMGThemeConfig extends DefaultTheme.Config {
   bsmg?: BSMGConfig
+}
+
+export async function transformPageDataForLocalize(
+  pageData: PageData,
+  context: TransformPageContext,
+) {
+  let file_path = pageData.relativePath // zh_cn/foo/bar/quest-modding.md
+  let m = new RegExp('^[a-z_]+?/(.*)$').exec(file_path)
+  if (m) {
+    let path_without_prefix = m[1] // foo/bar/quest-modding.md
+    let original_full_path = path.join(
+      context.siteConfig.srcDir,
+      path_without_prefix,
+    )
+    if (existsSync(original_full_path)) {
+      function getGitTimestamp(file) {
+        return new Promise((resolve, reject) => {
+          let child = spawn('git', [
+            'log',
+            '-1',
+            '--pretty="%ai"',
+            original_full_path,
+          ])
+          child.stdout.setEncoding('utf-8')
+          let output = ''
+          child.stdout.on('data', data => (output += String(data)))
+          child.on('close', () => resolve(+new Date(output)))
+          child.on('error', err => reject(err))
+        })
+      }
+
+      try {
+        let timestamp = await getGitTimestamp(original_full_path)
+        pageData.frontmatter.originalFile = path_without_prefix
+        pageData.frontmatter.originalFileTimestamp = timestamp
+      } catch (e) {}
+    }
+  }
 }
 
 // https://vitepress.dev/reference/site-config
@@ -90,4 +133,5 @@ export const shared = defineConfigWithTheme<BSMGThemeConfig>({
       md.use(container, 'center'), md.use(tabsMarkdownPlugin)
     },
   },
+  transformPageData: transformPageDataForLocalize,
 })

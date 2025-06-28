@@ -1,5 +1,5 @@
 import { defineConfigWithTheme } from 'vitepress'
-import { BSMGThemeConfig } from './shared'
+import { BSMGThemeConfig, transformPageDataForLocalize } from './shared'
 import { sidebar } from './shared'
 
 // https://vitepress.dev/reference/site-config
@@ -16,6 +16,8 @@ export const zh_cn = defineConfigWithTheme<BSMGThemeConfig>({
     darkModeSwitchLabel: '外观',
     bsmg: {
       external_links: '外部链接',
+      original_page_updated: '原始页面已经有更新版本，最后更新于',
+      to_original_page: '点我跳转至原页面',
     },
     nav: [
       { text: '主页', link: './' },
