@@ -231,8 +231,8 @@ export const zh_cn = defineConfigWithTheme<BSMGThemeConfig>({
             '其它资源（英文）',
             [
               ['抓握及技巧', '/grips-and-tricks'],
-              ['监控及安全', '/health-and-safety'],
-              ['排名指南', '/ranking-guide'],
+              ['健康及安全', '/health-and-safety'],
+              ['打分指南', '/ranking-guide'],
               ['联系我们', '/contact-us'],
             ],
           ],

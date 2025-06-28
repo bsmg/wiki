@@ -6,9 +6,6 @@ description: 了解如何给你Quest一体机上的节奏光剑添加模组！
 
 <!-- markdownlint-disable-file MD033 -->
 <!-- markdownlint-disable MD041 -->
-<script setup lang="ts">
-  import LocalizedOutdateHint from '../.vitepress/components/LocalizedOutdateHint.vue'
-</script>
 <LocalizedOutdateHint />
 
 # Quest模组

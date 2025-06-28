@@ -26,7 +26,6 @@ hero:
   import HomeGroup from '../.vitepress/components/HomeGroup.vue'
   import HomeItem from '../.vitepress/components/HomeItem.vue'
   import HomeLinks from '../.vitepress/components/HomeLinks.vue'
-  import LocalizedOutdateHint from '../.vitepress/components/LocalizedOutdateHint.vue'
 </script>
 
 <Home>
