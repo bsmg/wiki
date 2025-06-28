@@ -91,7 +91,7 @@ export async function transformPageDataForLocalize(
             'log',
             '-1',
             '--pretty="%ai"',
-            original_full_path,
+            file,
           ])
           child.stdout.setEncoding('utf-8')
           let output = ''
@@ -105,7 +105,9 @@ export async function transformPageDataForLocalize(
         let timestamp = await getGitTimestamp(original_full_path)
         pageData.frontmatter.originalFile = path_without_prefix
         pageData.frontmatter.originalFileTimestamp = timestamp
-      } catch (e) {}
+      } catch (e) {
+        pageData.frontmatter.originalFileTimestamp = 0
+      }
     }
   }
 }
