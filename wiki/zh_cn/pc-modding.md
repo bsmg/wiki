@@ -118,32 +118,19 @@ BeastSaber 还设有板块：认证普师推荐谱面；每周谱面合集；精
 
 ### Song Management Apps
 
-BSManager 的「谱面管理」功能  
-在 BSManager 中，你可以通过 Maps（谱面） 标签页管理特定游戏版本的歌曲：  
-
-1.版本选择  
-   ·先选择你的游戏版本  
-   ·点击 Maps 标签页进入管理界面  
-
-2.核心功能  
-   ·删除歌曲：清理不需要的谱面  
-   ·预览功能：试听音频或查看谱面演示  
-   ·直播点歌码：获取谱面的 Twitch BSR 代码（用于直播点歌）  
+BSManager 有一个 Maps 选项卡可以让你管理特定版本中的歌曲。只需选择你的版本并点击 Maps 选项卡。在那里你可以删除歌曲、预览它们的音频或谱面，以及获取它们的 Twitch BSR 代码用于在直播中点歌。
 
 ### Playlists
 
-你需要先安装 [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) 模组。
-安装后，你可以通过以下两种方式使用歌单：
-1.通过BSManager的Maps标签页安装歌单
-   ::: 注意
-   此功能仅在BSManager的alpha测试版中可用！
-   :::
-2.手动安装歌单文件
-   ·将歌单文件放入 Beat Saber/Playlists 文件夹
-   ·在游戏中选中歌单标题
-   ·点击"下载全部歌曲"
+你需要安装 [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) 模组。
+然后你可以选择以下任一方式安装歌单：
+- 通过 BSManager 中的 Maps 选项卡安装歌单。
+  ::: tip 注意
+  此功能仅在 BSManager 的 alpha 版本中可用！
+  :::
+- 将歌单文件放入 `Beat Saber/Playlists` 文件夹，在游戏中选择歌单标头，然后点击下载所有歌曲。
 
-安装成功后，你可以在游戏的"自定义歌曲"专辑旁边看到这些歌单。PlaylistManager模组还支持在游戏内直接管理歌单。
+你会在游戏中看到歌单显示在 Custom Levels 专辑旁边。该模组还支持在游戏内管理歌单。
 
 ## Install Folder
 
