@@ -87,46 +87,34 @@ BSMG 社区**强烈建议**不要使用任何视频教程来安装模组。很�
 :::
 
 ::: 警告
-建议定期备份你的 CustomLevels（自定义歌曲）文件夹，因为游戏更新时有小概率会重置该文件夹！
+建议定期备份你的 `CustomLevels`（自定义歌曲）文件夹，因为游戏更新时有小概率会重置该文件夹！
 该文件夹位于游戏安装目录下：
 Beat Saber/Beat Saber_Data/CustomLevels
 :::
 
 ### 从游戏内下载歌曲
 
-你可以通过安装 BeatSaverDownloader 或 BetterSongSearch 模组，直接在游戏内下载谱面。只需在游戏主菜单的 MODS 模组界面点击 MORE SONGS（更多歌曲）按钮，即可从 BeatSaver 平台直接获取自定义地图。(BeatSaver网址 https://beatsaver.com)
+你可以通过安装 `BeatSaverDownloader` 或 `BetterSongSearch` 模组，直接在游戏内下载谱面。只需在游戏主菜单的 MODS 模组界面点击 `MORE SONGS`（更多歌曲）按钮，即可从 [BeatSaver](https://beatsaver.com) 平台直接获取自定义歌曲。
 
 :::提示说明
-如果你使用的是 BetterSongSearch 模组，菜单按钮可能会显示为 BETTERSONGSEARCH 而不是 MORE SONGS。
+如果你使用的是 `BetterSongSearch` 模组，菜单按钮可能会显示为 `BETTERSONGSEARCH` 而不是 `MORE SONGS`。
 :::
 
 ### BeatSaver
 
 [BeatSaver](https://beatsaver.com) 是社区自制歌曲的核心资源库。
 虽然有许多其他工具和网站能优化自定义歌曲的下载体验，但所有谱面最终都存储于此。
+想要安装从这个网站下载的歌曲，只需要解压下载的内容到文件夹，然后把文件夹放到`Beat Saber/Beat Saber_Data/CustomLevels`。
+你也可以用游戏内下载歌曲模组，BSManager的OneClick™ 一键安装功能，或是BSManager的"maps"标签页找歌曲。
 
-安装方法：
-
-1.手动安装：
-下载谱面压缩包 → 解压 → 将文件夹放入
-Beat Saber/Beat Saber_Data/CustomLevels
-2.自动安装：
-·使用游戏内下载模组（如 BeatSaverDownloader）
-·通过 BSManager 的 OneClick™ 一键安装功能
-·在 BSManager 的 "maps"（谱面） 标签页操作
-启用 BSManager 的 OneClick™ 一键安装：
-https:///.assets/images/beginners-guide/bsmanager-oneclick.png
+开启和使用BSManager的OneClick™ 一键安装功能方法请参考：
+![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.png)
 
 ### Beast Saber
 
-[Beast Saber](https://www.bsaber.com) 是一个致力于帮助玩家轻松发现优质谱面的平台。
-主要功能：
-·「近期精选谱面」推荐 
-  专业评审团队每日试玩新发布的谱面，精选出符合质量标准且具备"趣味性"的优质内容。  
-·「认证谱师」最新作品
-  展示经验丰富的谱面作者（Verified Mappers）的最新创作。  
-·精选内容合集
-  包括每周推荐谱面（Maps of the Week）、官方精选谱包（Curated Packs）和特色歌单（Playlists）。
+[Beast Saber](https://www.bsaber.com) (bsaber.com) 是一个致力于帮助玩家更轻松找到优质谱面的网站。  
+其最常用的功能 “Recently Curated Maps”(近期精选谱面) 推送是由精选团队每日试玩绝大多数新发布的歌曲，并推荐符合最低质量标准且具备主观“fun factor”（趣味因素）的谱面。  
+BeastSaber 还设有板块：认证普师推荐谱面；每周谱面合集；精选/严选 谱面 包/歌曲列表。
 
 ### Song Management Apps
 
