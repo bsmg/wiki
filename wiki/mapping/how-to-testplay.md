@@ -12,6 +12,16 @@ best maps they can.
 Have you been interested in helping out but, don't know where to begin? Fear not! This page will help you to get started.
 No matter your skill level, both as a player or as a mapper, your feedback will be appreciated.
 
+In the [Getting Started section](#getting-started) you can find information on how to set up your game and additional
+tools to be able to testplay maps comfortably and effectively. In
+[Stepping it up with Video](#stepping-it-up-with-video) and [Sharing replay files](#sharing-replay-files) you can
+get additional information on how to include video and replay files in this.
+
+In the [What to Look For](#what-to-look-for) section you can find more technical and principled information on how to
+make sure your testplay feedback is as useful as possible to mappers. The
+[Things to keep in mind](#things-to-keep-in-mind) and [Tips & Tricks](#tips-&-tricks) sections also have valuable
+concepts that will make your playtests better.
+
 ## Getting Started
 
 The only real things you need to get started with testplaying is a willingness to help, and a modded copy of Beat Saber
@@ -21,7 +31,8 @@ water, written feedback instead of video is totally acceptable as you learn the 
 1. Head to the `#testplays` channel and pick out a map(s) that's within your skill range. As you are getting started,
    **DO NOT** download any maps that the bot does not respond to. Additionally, it is best to avoid maps that are labelled
    as a first map until you have an understanding of basic mapping practices, to prevent maps with common rookie errors
-   being overlooked, and then published.
+   being overlooked, and then published. You can also use Chart Monitor Bot's `\listpending` command to get a list of
+   maps awaiting testing.
 2. On the map(s) you have downloaded, drop an `:eyes:` (:eyes:) reaction on the post to indicate that you have downloaded
    the map and will be reviewing it. You can do this by hovering over the post.
    ![Eyes Reaction Location](/.assets/images/mapping/eyes_emote-location.png)
@@ -57,6 +68,10 @@ creating a new scoreboard on ScoreSaber if you have the mod installed!
    you tested, if the map has multiple difficulties and you did not test them all. You can find these in the pins of the
    `#testplays` channel.  
    ![Feedback Reactions](/.assets/images/mapping/feedback_reactions.png)
+
+If you have technical issues with any step of this process, ask for help from more experienced mappers/testplayers. They
+would rather teach you to testplay than testplay everything themselves. It is definitely a good use of their time to
+help people who are willing to testplay get things running.
 
 :::tip NOTE
 If you are not confident with your feedback and feel the map should get another playtest, you can indicate a completed
@@ -131,6 +146,17 @@ recording. All recordings are saved in `C:\Users\"your user"\Videos\Captures`.
 With this setup, and real time voice commentary, you can easily cut your playtest time down in half. Having a video will
 take your testplays to the next level and is the best way to give mappers great feedback.
 
+## Sharing replay files
+
+If you have the BeatLeader mod installed, you can turn on a configuration option to save replays for practice mode plays
+as well. The replay files can be shared with the mapper and they can play them back with
+[ArcViewer](https://github.com/AllPoland/ArcViewer/releases/). Replays allow to slow down the song, rewind easily,
+see which notes exactly were missed, and change the angle of the camera to better understand the movements of the player
+when playing the map. This can provide additional insights that neither written feedback nor a video will highlight.
+
+After setting the option to save practice mode replays on your BeatLeader mod, you can find saved replays in the
+`UserData/BeatLeader/Replays` folder within your Beat Saber installation (on PC).
+
 ## What to Look For
 
 So you're all set up, you've learnt the steps to posting a testplay, and you're familiar with all of the mapping basics.
@@ -143,7 +169,8 @@ Try to view things objectively; just because you don't like sliders, doesn't mea
 map is full of things you don't like, considering leaving it for someone else!
 :::
 
-If you feel more comfortable going into it with a checklist, consider this list, in decreasing order of priority:
+If you feel more comfortable going into it with a checklist, consider this list, in decreasing order of priority
+(not everything worth mentioning is in the list, though!):
 
 <!-- markdownlint-disable MD013 -->
 
@@ -159,6 +186,23 @@ If you feel more comfortable going into it with a checklist, consider this list,
 |           **Difficulty spikes**            |                                                                                                                                        Does something seem too difficult, or too easy, compared to the rest of the map?                                                                                                                                         |
 |            **Awkward patterns**            | Is there anything really awkward or uncomfortable? This could be a weird angle on a note, or an improperly set up inward swing, or a nasty triangle. If you're still learning how triangles and wrist resets work, it's okay to simply note that something was uncomfortable at a certain point, and refer them to #mapping-discussion to get further opinions. |
 |               **Enjoyment**                |                                                                     Did you have fun? Was there anything you thought worked well? Positive feedback is just as important as finding issues! Don't nitpick just to find something for the mapper to 'fix', if you thought the map was fine.                                                                      |
+
+<!-- markdownlint-enable MD013 -->
+
+## Things to keep in mind
+
+<!-- markdownlint-disable MD013 -->
+
+|                Principle                 |                                                                                                                                                                                                                                         Description                                                                                                                                                                                                                                         |
+| :--------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|         **Respect and kindness**         |                                                                                                                   Feedback should be about the map, not the mapper. Respect the map's identity and the vision of the mapper. Don't make demands, and make sure any feedback that you give is actionable but you also give them an option they might be okay with taking.                                                                                                                    |
+|  **Target audience and mapper vision**   |                                                                                                                                Try to give feedback that helps them achieve that vision and reach their target audience. The goal is for the mapper to make the best version of the map they want to make, not make the one you wish they had made instead.                                                                                                                                 |
+|  **Adjust the depth of your feedback**   |                         For most maps you could spend days talking about good and bad things and potential alternatives. Try to be efficient. If a map has a lot of objective issues like timing or handclaps, focus on those, and maybe skip other more abstract notions. If a map is very polished already, you may prefer to focus on advanced representation aspects instead. Aim for an amount of feedback that is useful but not overwhelming to the mapper.                          |
+|         **Embrace subjectivity**         |               This works both ways. Your opinion is valid even if you can't justify it objectively. Don't be afraid to say how _you_ feel about the map (minding the other principles, of course). But also, accept that the mapper might disagree and disregard parts of your feedback, and that is fine. Accepting subjectivity and willingness to listen to each other is how constructive criticism and discussions happen. Being ready to agree to disagree is crucial.                |
+|     **Use precise mapping concepts**     |                                                                                                 If you feel comfortable with it, try to use the concepts described in the [Intermediate Mapping page](./intermediate-mapping) to be precise about your feedback, including why you are making it. Use notions like _emphasis_, _flow_, or _rhythm choice_ to be clear about what you mean.                                                                                                  |
+|       **Mapping is not your job**        | You are not the mapper of this map. Some issues with the map might be hard to figure out or require further time spent analysing. For example, you might realize a note is off-time, but not be sure of what the right timing would be. It is not your responsibility to do this work for the mapper. Your feedback does not need to give a prescriptive solution to every problem. Try to be constructive but it is okay if you leave some things open-ended for the mapper to figure out. |
+| **Give feedback that has future value**  |                                                                                         The best feedback is not exclusive to a single map, but helps the mapper grow as a mapper. Explaining _why_ you think something can or should be improved, _why_ you think something is good, and discussing alternatives, allows mappers to learn beyond what is necessary to improve this particular map.                                                                                         |
+| **Discuss pros and cons and prioritize** |                                                                                                                       Often, improving one aspect of a map might make another one more difficult to improve. Try to discuss this, keeping the mapper's vision in mind, and offering your own view of which alternatives seem best based on the priorities of the map.                                                                                                                       |
 
 <!-- markdownlint-enable MD013 -->
 
@@ -244,7 +288,16 @@ discussion per map, and that you are recording videos with real time voice comme
 recording. Doing written feedback for 20 maps could be anywhere from 3-4 hours, depending on how frequently you write
 notes, and how much detail you go into.
 
+## Additional resources
+
+- [BeastSaber's Guide to Constructive Reviews](https://bsaber.com/posts/how-to-write-constructive-map-reviews) can also
+  be useful for giving constructive testplay feedback.
+- [ScoreSaber's QAT Guidelines](https://wiki.scoresaber.com/ranking/qat-guidelines.html), aimed at more advanced
+  feedback giving in the context of map ranking, are very applicable to general testplays and feedback about maps.
+- Similarly, [BeatLeader's NQT Guidelines](https://beatleader.wiki/en/ranking/rules/nqt-guidelines) also have
+  valuable thoughts that can be applied to any map feedback giving.
+
 ## Credits
 
 Content in this section was authored by [Pyrowarfare](./mapping-credits.md#pyrowarfare) and [Vaser888](./mapping-credits.md#Vaser888).
-Some later modifications by Undeceiver.
+Some later modifications by Undeceiver (also partly based on the resources listed in Additional resources).

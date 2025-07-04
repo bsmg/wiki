@@ -32,3 +32,7 @@ wiki/.vitepress/cache
 
 # Ignore config copies forks may keep to deploy a test instance
 /wiki/.vitepress/config.*.ts
+Dockerfile
+startWikiDev.bat
+wiki/.vs/slnx.sqlite
+wiki/.vs/wiki/FileContentIndex/fc82a162-b747-4c11-ae00-c45f44587f51.vsidx
