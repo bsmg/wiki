@@ -12,15 +12,11 @@ best maps they can.
 Have you been interested in helping out but, don't know where to begin? Fear not! This page will help you to get started.
 No matter your skill level, both as a player or as a mapper, your feedback will be appreciated.
 
-In the [Getting Started section](#getting-started) you can find information on how to set up your game and additional
-tools to be able to testplay maps comfortably and effectively. In
-[Stepping it up with Video](#stepping-it-up-with-video) and [Sharing replay files](#sharing-replay-files) you can
-get additional information on how to include video and replay files in this.
-
-In the [What to Look For](#what-to-look-for) section you can find more technical and principled information on how to
-make sure your testplay feedback is as useful as possible to mappers. The
-[Things to keep in mind](#things-to-keep-in-mind) and [Tips & Tricks](#tips-&-tricks) sections also have valuable
-concepts that will make your playtests better.
+- Find out how to setup your game and additional tools to test maps in the [Getting Started](#getting-started) section.
+- Level up your feedback by [Stepping it up with Video](#stepping-it-up-with-video) and [Sharing replay files](#sharing-replay-files)
+- Learn [What to Look For](#what-to-look-for) to make sure your testplay feedback is as useful as possible to mappers
+- Finally [Things to keep in mind](#things-to-keep-in-mind) and [Tips & Tricks](#tips-&-tricks) sections have some common
+  pointers to help improve your feedback to mappers!
 
 ## Getting Started
 
@@ -195,12 +191,12 @@ If you feel more comfortable going into it with a checklist, consider this list,
 
 |                Principle                 |                                                                                                                                                                                                                                         Description                                                                                                                                                                                                                                         |
 | :--------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|         **Respect and kindness**         |                                                                                                                   Feedback should be about the map, not the mapper. Respect the map's identity and the vision of the mapper. Don't make demands, and make sure any feedback that you give is actionable but you also give them an option they might be okay with taking.                                                                                                                    |
+|         **Respect and kindness**         |                                                                                                                       Feedback should be about the map, not the mapper. Respect the map's identity and the vision of the mapper. Don't make demands, and make sure any feedback that you give is actionable but gives them an option they might be okay with taking.                                                                                                                        |
 |  **Target audience and mapper vision**   |                                                                                                                                Try to give feedback that helps them achieve that vision and reach their target audience. The goal is for the mapper to make the best version of the map they want to make, not make the one you wish they had made instead.                                                                                                                                 |
 |  **Adjust the depth of your feedback**   |                         For most maps you could spend days talking about good and bad things and potential alternatives. Try to be efficient. If a map has a lot of objective issues like timing or handclaps, focus on those, and maybe skip other more abstract notions. If a map is very polished already, you may prefer to focus on advanced representation aspects instead. Aim for an amount of feedback that is useful but not overwhelming to the mapper.                          |
-|         **Embrace subjectivity**         |               This works both ways. Your opinion is valid even if you can't justify it objectively. Don't be afraid to say how _you_ feel about the map (minding the other principles, of course). But also, accept that the mapper might disagree and disregard parts of your feedback, and that is fine. Accepting subjectivity and willingness to listen to each other is how constructive criticism and discussions happen. Being ready to agree to disagree is crucial.                |
-|     **Use precise mapping concepts**     |                                                                                                 If you feel comfortable with it, try to use the concepts described in the [Intermediate Mapping page](./intermediate-mapping) to be precise about your feedback, including why you are making it. Use notions like _emphasis_, _flow_, or _rhythm choice_ to be clear about what you mean.                                                                                                  |
-|       **Mapping is not your job**        | You are not the mapper of this map. Some issues with the map might be hard to figure out or require further time spent analysing. For example, you might realize a note is off-time, but not be sure of what the right timing would be. It is not your responsibility to do this work for the mapper. Your feedback does not need to give a prescriptive solution to every problem. Try to be constructive but it is okay if you leave some things open-ended for the mapper to figure out. |
+|         **Embrace subjectivity**         |                        This works both ways. Your opinion is valid even if you can't justify it objectively. Don't be afraid to say how _you_ feel about the map (minding the other principles, of course). But also, accept that the mapper might disagree and disregard parts of your feedback. Accepting subjectivity and willingness to listen to each other is how constructive criticism and discussions happen. Being ready to agree to disagree is crucial.                         |
+|     **Use precise mapping concepts**     |                                                                                                     If you feel comfortable, try to use the concepts described in the [Intermediate Mapping page](./intermediate-mapping) to be precise about your feedback, including why you are making it. Use notions like _emphasis_, _flow_, or _rhythm choice_ to be clear about what you mean.                                                                                                      |
+|       **Mapping is not your job**        | You are not the mapper of this map. Some issues with the map might be hard to figure out or require further time spent analyzing. For example, you might realize a note is off-time, but not be sure of what the right timing would be. It is not your responsibility to do this work for the mapper. Your feedback does not need to give a prescriptive solution to every problem. Try to be constructive but it is okay if you leave some things open-ended for the mapper to figure out. |
 | **Give feedback that has future value**  |                                                                                         The best feedback is not exclusive to a single map, but helps the mapper grow as a mapper. Explaining _why_ you think something can or should be improved, _why_ you think something is good, and discussing alternatives, allows mappers to learn beyond what is necessary to improve this particular map.                                                                                         |
 | **Discuss pros and cons and prioritize** |                                                                                                                       Often, improving one aspect of a map might make another one more difficult to improve. Try to discuss this, keeping the mapper's vision in mind, and offering your own view of which alternatives seem best based on the priorities of the map.                                                                                                                       |
 
@@ -219,7 +215,7 @@ If you feel more comfortable going into it with a checklist, consider this list,
   is not the main purpose of a testplay. Collect your thoughts from your first playthrough, and roll with it.
 - Don't overwork yourself! You may feel fine doing 20 maps at once, more than a few times a week, but it will catch up to
   you. You will find that you repeat yourself almost entirely every 2 maps, and it can be emotionally exhausting, even if
-  you don't realise it at first. Try not to let it get to you, and if it becomes too much, take a break.
+  you don't realize it at first. Try not to let it get to you, and if it becomes too much, take a break.
 - Warm up on a couple easy maps, then work up to the difficult ones, but save the rest of the easy ones for the end. This
   will ensure you're playing to your peak for the most difficult maps. I also like to go back and forth between maps when
   testing maps with full spreads, to prevent myself from going insane listening to the same song 5 times in a row.
@@ -275,7 +271,7 @@ everyone's map for them.
 Streamable and YouTube are the most common places to have testplays uploaded. Streamable has a video limit of 10 minutes
 and file size limit of 250MB without a premium account, and will delete videos after a couple months of inactivity. However,
 YouTube takes a bit more work to upload, and you risk getting a copyright claim or strike (although it is very unlikely to
-harm your channel). Some testplayers will also stream their testplays on Twitch, and then link the vods, although that
+harm your channel). Some testplayers will also stream their testplays on Twitch, and then link the VODs, although that
 also risks copyright strikes.
 
 ---
