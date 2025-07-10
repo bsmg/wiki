@@ -80,74 +80,63 @@ BSMG 社区**强烈建议**不要使用任何视频教程来安装模组。很�
 
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
-## How to get more songs
+## 如何获取更多歌曲?
 
-::: tip
-Most maps in the "Top All", "Rating", "Downloads" or "Plays" sort filters were created before
-good mapping practices were established. Try downloading songs released between late 2019 and now to get the best
-custom levels experience.
+::: 小提示
+在"Top All"（总排行）、"Rating"（评分）、"Downloads"（下载量）或"Plays"（游玩次数）等筛选中的多数谱面，是在优质谱面规范标准订立前诞生的。建议下载2019年末至今发布的新曲目，以获得最佳的自定义歌曲体验。
 :::
 
-::: warning
-It is a good idea to backup your `CustomLevels` folder periodically as there is a small chance it will be reset if the
-game updates!
-
-This folder is located in your game install: `Beat Saber/Beat Saber_Data/CustomLevels`
+::: 警告
+建议定期备份你的 `CustomLevels`（自定义歌曲）文件夹，因为游戏更新时有小概率会重置该文件夹！
+该文件夹位于游戏安装目录下：
+Beat Saber/Beat Saber_Data/CustomLevels
 :::
 
-### In-game Downloader
+### 从游戏内下载歌曲
 
-The `BeatSaverDownloader` or `BetterSongSearch` mod allows you to download maps in-game using the `MORE SONGS` menu
-button on the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com).
+你可以通过安装 `BeatSaverDownloader` 或 `BetterSongSearch` 模组，直接在游戏内下载谱面。只需在游戏主菜单的 MODS 模组界面点击 `MORE SONGS`（更多歌曲）按钮，即可从 [BeatSaver](https://beatsaver.com) 平台直接获取自定义歌曲。
 
-:::tip NOTE
-If you're using BetterSongSearch, the menu button might be called `BETTERSONGSEARCH` instead of `MORE SONGS`.
+:::提示说明
+如果你使用的是 `BetterSongSearch` 模组，菜单按钮可能会显示为 `BETTERSONGSEARCH` 而不是 `MORE SONGS`。
 :::
 
 ### BeatSaver
 
-[BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community.
-Many other tools and sites enhance the experience of downloading custom songs, but this site is where they are stored.
-To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.
-You can also use the in-game downloader mod, the OneClick™ Install feature of BSManager, or in the "maps"
-tab of BSManager.
+[BeatSaver](https://beatsaver.com) 是社区自制歌曲的核心资源库。
+虽然有许多其他工具和网站能优化自定义歌曲的下载体验，但所有谱面最终都存储于此。
+想要安装从这个网站下载的歌曲，只需要解压下载的内容到文件夹，然后把文件夹放到`Beat Saber/Beat Saber_Data/CustomLevels`。
+你也可以用游戏内下载歌曲模组，BSManager的OneClick™ 一键安装功能，或是BSManager的"maps"标签页找歌曲。
 
-To enable and use BSManager's OneClick™ Install see the picture below:
+开启和使用BSManager的OneClick™ 一键安装功能方法请参考：
 ![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.png)
 
 ### Beast Saber
 
-[Beast Saber](https://www.bsaber.com) (bsaber.com) is a site that tries to help make finding fantastic maps to play easier.
-The most used feature is the "Recently Curated Maps" feed where a team of curators plays through most songs released
-each day and recommends the ones that meet a minimum quality standard and have that subjective "fun factor" for them.
-BeastSaber also features the most recent maps from verified mappers, a collection of Maps of the Week, and
-featured/curated map packs/playlists.
+[Beast Saber](https://www.bsaber.com) (bsaber.com) 是一个致力于帮助玩家更轻松找到优质谱面的网站。  
+其最常用的功能 “Recently Curated Maps”(近期精选谱面) 推送是由精选团队每日试玩绝大多数新发布的歌曲，并推荐符合最低质量标准且具备主观“fun factor”（趣味因素）的谱面。  
+BeastSaber 还设有板块：认证普师推荐谱面；每周谱面合集；精选/严选 谱面 包/歌曲列表。
 
 ### Song Management Apps
 
-BSManager has a Maps tab which allows you to manage your songs on a specific version. Simply select your version and
-click the Maps tab. From there you can delete songs, preview their audio or mapping, and get their Twitch BSR
-code for requesting songs on livestreams.
+BSManager 有一个 Maps 选项卡可以让你管理特定版本中的歌曲。只需选择你的版本并点击 Maps 选项卡。在那里你可以删除歌曲、预览它们的音频或谱面，以及获取它们的 Twitch BSR 代码用于在直播中点歌。
 
 ### Playlists
 
-You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) mod.
-
-Then you can either:
-
-- Install playlists through the Maps tab in BSManager.
-  ::: tip NOTE
-  This feature is only on the alpha version of BSManager!
+你需要安装 [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) 模组。
+然后你可以选择以下任一方式安装歌单：
+- 通过 BSManager 中的 Maps 选项卡安装歌单。
+  ::: tip 注意
+  此功能仅在 BSManager 的 alpha 版本中可用！
   :::
-- Place the playlist file into `Beat Saber/Playlists`, select the playlist title header in-game, then hit download all songs.
+- 将歌单文件放入 `Beat Saber/Playlists` 文件夹，在游戏中选择歌单标头，然后点击下载所有歌曲。
 
-You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
+你会在游戏中看到歌单显示在 Custom Levels 专辑旁边。该模组还支持在游戏内管理歌单。
 
 ## Install Folder
 
-_Where is Beat Saber installed?_
+游戏安装位置文件夹
 
-### Default Location
+### 默认游戏安装路径
 
 |           |                                                                              |
 | --------- | ---------------------------------------------------------------------------- |
@@ -155,132 +144,142 @@ _Where is Beat Saber installed?_
 | Oculus    | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
 | BSManager | `C:\Users\[USERNAME]\BSManager\BSInstances\`                                 |
 
-### Other Locations
+### 其他位置的情况
 
-**If you have moved your install folder to a different drive, it might be in the location below.**
-Replace the drive letter `F` with the drive your game is installed on.
-
+若你已将游戏安装目录移动至其他驱动器，可以参考以下路径：
+（请将驱动器盘符 F 替换为你实际的游戏安装盘符）
+示例:
 |           |                                                                |
 | --------- | -------------------------------------------------------------- |
 | Steam     | `F:\SteamLibrary\steamapps\common\Beat Saber\`                 |
 | Oculus    | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
 | BSManager | `F:\BSManager\BSInstances\`                                    |
 
-## Manual Installation
+## 手动安装Mod
+**推荐使用模组安装器安装模组**，具体方法请参考[上文](#安装器)章节。  
+若你已打过模组补丁，只需安装安装器中未提供的模组，请**直接跳至步骤4**。
 
-A mod installer is the recommended way to install mods. See the section [above](#安装器).
-If you have patched the game and just need to install mods that are not available in the installer, skip to step 4.
+::: 模组安装安全警告  
+安装未经认证的模组（如来自 `#pc-mods` 频道的模组）存在风险，可能包含伪装成普通模组的恶意软件。  
 
-::: warning STAY SAFE WHEN INSTALLING MODS
-Modding your game with unverified mods such as mods found in the `#pc-mods` channel comes with risks, including the
-possibility for malicious software that acts like a regular mod.
-
-Beat Saber will **NEVER** ask you to run it as Administrator.
-
-If you've downloaded and installed a mod and you get the
-User Account Control prompt, **DO NOT** click accept, and please report this. If you're unsure if something you installed
-is malware or not, **_please ask someone in our discord_**.
+重要安全须知：  
+- **《Beat Saber》永远不会要求你以管理员权限运行**  
+- 如果安装模组时出现**用户账户控制（UAC）弹窗**：  
+  **立即点击"取消"**  
+  并向我们举报该情况  
+- 若不确定所安装内容是否安全：  
+  **请务必在Discord服务器中咨询确认**  
 :::
 
-**Run the game at least once** before trying to mod the game! This applies to reinstalling your game too.
+必备步骤  
+在安装模组**前**，请务必：  
+**至少完整运行游戏一次**（重新安装游戏后也需执行此操作） 
 
-### Install BSIPA
 
-1. Download [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases). Make sure that the version you download
-   is compatible with your game version.
-2. Navigate to your [install folder.](#install-folder) and extract the contents of BSIPA into it.
-   ![Directory Clean](/.assets/images/beginners-guide/directory-clean.png 'Directory Clean')
-   ![Directory Ipa](/.assets/images/beginners-guide/directory-ipa.png 'Directory Ipa')
-3. Double click IPA.exe to patch the game. Any mods in the `Plugins` folder will now be loaded when starting the game.
-   If there are errors, you probably didn't follow step 2 correctly.
-   ![Directory Patched](/.assets/images/beginners-guide/directory-patched.png 'Directory Patched')
+### 安装 BSIPA
 
-### Install Mods
+1. 下载 [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases)。 请确保下载的版本与你的游戏版本兼容。
+2. 进入你的[游戏安装目录](#install-folder)，将BSIPA压缩包内的文件解压至此。
+   ![干净目录](/.assets/images/beginners-guide/directory-clean.png '干净目录')
+   ![IPA目录](/.assets/images/beginners-guide/directory-ipa.png 'IPA目录')
+3. 双击运行IPA.exe为游戏打补丁。此后启动游戏时，将自动加载`Plugins`文件夹中的所有模组。
+   如果出现错误，可能是步骤2操作有误。
+   ![已打补丁目录](/.assets/images/beginners-guide/directory-patched.png '已打补丁目录')
 
-4. Download the mod(s) you wish to install, whether it be from GitHub, the [BSMG Discord](https://discord.com/invite/beatsabermods)
-   `#pc-mods` channel, [BeatMods](https://beatmods.com/#/mods) or other sources.
-   **Make sure to download any dependencies required by the mod.**
-   ![Directory Plugins](/.assets/images/beginners-guide/directory-plugins.png 'Directory Plugins')
-5. Some mods have installation instructions, some don't. Generally you can just drag and drop the zip contents into your
-   beat saber install folder, and the files should go into the corresponding folders.
+### 安装模组
+
+4. 下载你需要安装的模组，可以从以下渠道获取：
+   - [GitHub](https://github.com)
+   - [BSMG Discord](https://discord.com/invite/beatsabermods) 的`#pc-mods`频道  
+   - [BeatMods](https://beatmods.com/#/mods)  
+   - 其他来源  
+   **请务必下载模组所需的所有依赖项**  
+   ![插件目录](/.assets/images/beginners-guide/directory-plugins.png '插件目录')
+
+5. 部分模组会附带安装说明，部分则没有。通常情况下，你只需：
+   - 将压缩包内容直接拖拽至Beat Saber安装目录
+   - 文件会自动归类到相应的文件夹中
 
 ## 降级
 
-Check `#modding-announcements` in [BSMG](https://www.discord.gg/beatsabermods) to see if the latest version is moddable.
-If it is not, you can follow these tutorials to downgrade to a moddable version.
+请查看 [BSMG Discord](https://www.discord.gg/beatsabermods) 的 `#modding-announcements` 频道，确认当前最新游戏版本是否支持模组安装。
 
-### Game Managers
+若需要降级，请参考下面的降级方法：
 
-Click on these links corresponding to where you own the game to see the tutorials.
+### 游戏版本
 
-- For Steam you can use:
-  - [BSManager](https://github.com/Zagrios/bs-manager#readme)
-- For Oculus Store you can use either:
-  - [BSManager](https://github.com/Zagrios/bs-manager#readme)
-  - [OculusDowngrader](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)
+请根据你的游戏购买平台选择对应的降级教程：
 
-### Legacy Branch
+**Steam版用户可使用：**  
+- [BSManager 降级教程](https://github.com/Zagrios/bs-manager#readme)
 
-If you want to downgrade to `1.37.1`, `1.34.2`, or `1.29.1` you can use the legacy branch method.
+**Oculus商店版用户可选择：**  
+- [BSManager 降级教程](https://github.com/Zagrios/bs-manager#readme)  
+- [OculusDowngrader 专用工具](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)  
 
-#### Steam Users
+### 历史版本
 
-1. Open your mod installer and uninstall the mod BSIPA
+如果你想降级到`1.37.1`,`1.34.2`,`1.29.1`，可以使用历史版本降级
 
-- If you have 1.30+ mods installed, uninstall all of your mods instead.
+#### Steam版用户
 
-2. Right click Beat Saber in the game library
-3. Select Properties
-4. Select Betas in the window
-5. Select either the `legacy1.37.1_unity_v2021.3.16f1`, `1.34.2_legacy` or the `legacy1.29.1_unity_ver2019.4.28f1` branch
-6. Exit the window
-7. Let the download complete then run the game once
-8. Follow the regular modding process
+1. 打开模组安装器，卸载 BSIPA 模组
+   - 如果已安装 1.30+ 版本的模组，请卸载所有模组
 
-![Steam Branch Setting](/.assets/images/beginners-guide/BetaOptions_SteamBranch.jpg 'Steam Branch Setting')
+2. 在游戏库中右键点击 Beat Saber
+3. 选择"属性"
+4. 在弹出窗口中选择"测试版"
+5. 选择你需要的版本：
+   - `legacy1.37.1_unity_v2021.3.16f1`
+   - `1.34.2_legacy` 
+   - `legacy1.29.1_unity_ver2019.4.28f1`
+6. 关闭窗口
+7. 等待下载完成后运行游戏一次
+8. 按照常规模组安装流程操作
 
-#### Oculus Store Users
+![Steam分支设置](/.assets/images/beginners-guide/BetaOptions_SteamBranch.jpg 'Steam分支设置')
 
-1. Open your mod installer and uninstall the mod BSIPA
+#### Oculus商店版用户
 
-- If you have 1.30+ mods installed, uninstall all of your mods instead.
+1. 打开模组安装器并卸载 BSIPA 模组
+   - 如果已安装 1.30+ 版本的模组，请卸载所有模组
 
-2. Go to the Beat Saber store page
-3. Scroll down to `Versions + Release Notes`
-4. Click on the word `(LIVE)` next to the current version number
-5. Select either the `legacy1.37.1_unity_v2021.3.16f1`, `1.34.2_legacy` or the `legacy1.29.1_unity_ver2019.4.28f1` branch
-6. Let the download complete and run the game once
-7. Follow the regular modding process
+2. 前往 Beat Saber 商店页面
+3. 滚动至"版本 + 更新说明"部分
+4. 点击当前版本号旁的"(LIVE)"字样
+5. 选择你需要的版本：
+   - `legacy1.37.1_unity_v2021.3.16f1`
+   - `1.34.2_legacy`
+   - `legacy1.29.1_unity_ver2019.4.28f1`
+6. 等待下载完成后运行游戏一次
+7. 按照常规模组安装流程操作
 
-![Oculus Branch Setting](/.assets/images/beginners-guide/BetaOptions_OculusBranch.jpg 'Oculus Branch Setting')
+![Oculus 分支设置](/.assets/images/beginners-guide/BetaOptions_OculusBranch.jpg 'Oculus 分支设置')
 
-## How to uninstall mods
+## 怎样卸载模组
 
-Either remove the `.dll` file from the `Plugins` folder, or click the trash icon button in BSManager
-(after selecting your version, go to the 'Mods' tab).
+可以从 `Plugins` 文件夹中删除对应的 `.dll` 文件的方式卸载，也可以在BSManager点击删除图标来卸载(需要先则对应的游戏版本，再打开模组标签页)
 
-:::tip NOTE
-If you manually installed a mod, you will have to remove that mod by removing the `.dll` file from
-the `Plugins` folder.
+:::tip 注意
+若模组是手动安装的，你必须通过从 `Plugins` 文件夹删除相应 `.dll` 文件的方式卸载。
 :::
 
-## Where to go from here
+## 接下来可以做什么
 
-- [Grips and Tricks](./grips-and-tricks.md)
-- [Making Beatmaps](/mapping/)
-- [Custom Sabers](/models/custom-sabers.md)
-- [Custom Avatars](/models/custom-avatars.md)
-- [Custom Platforms](/models/custom-platforms.md)
-- [CustomWalls](/models/custom-walls.md)
-- [Play Customs in Multiplayer](https://discord.com/invite/gezGrFG4tz)
-- [Making Mods](/modding/)
+- [握法与技巧](./grips-and-tricks.md)
+- [制作谱面](/mapping/)
+- [自定义光剑](/models/custom-sabers.md)
+- [自定义虚拟形象](/models/custom-avatars.md)
+- [自定义平台](/models/custom-platforms.md)
+- [自定义墙壁](/models/custom-walls.md)
+- [多人模式游玩自制内容](https://discord.com/invite/gezGrFG4tz)
+- [制作模组](/modding/)
 
-## Have questions?
+## 遇到问题？
 
-Visit the support channels in the [BSMG Discord](https://discord.gg/beatsabermods)!
+请访问 [BSMG Discord](https://discord.gg/beatsabermods) 的支持频道！
 
-::: tip NOTE
-Those with the `Support` and/or `Mapping Support` roles are volunteers that might choose to help out in their free time.
-The support roles are in recognition of the knowledge and effort they have put forth, but it doesn't
-necessarily mean that they'll be around to help just because they're online.
+::: tip 注意
+拥有 `Support`（支持）和/或 `Mapping Support`（谱面支持）身份的用户是自愿在空闲时间提供帮助的志愿者。
+这些支持身份是对他们付出知识和努力的认可，但并不代表他们在线时就一定能够提供帮助。
 :::
