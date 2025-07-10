@@ -93,7 +93,8 @@ BSMG 社区**强烈建议**不要使用任何视频教程来安装模组。很�
 
 ### 从游戏内下载歌曲
 
-你可以通过安装 `BeatSaverDownloader` 或 `BetterSongSearch` 模组，直接在游戏内下载谱面。只需在游戏主菜单的 MODS 模组界面点击 `MORE SONGS`（更多歌曲）按钮，即可从 [BeatSaver](https://beatsaver.com) 平台直接获取自定义歌曲。
+你可以通过安装 `BeatSaverDownloader` 或 `BetterSongSearch` 模组，直接在游戏内下载谱面。
+只需在游戏主菜单的 MODS 模组界面点击 `MORE SONGS`（更多歌曲）按钮，即可从 [BeatSaver](https://beatsaver.com) 平台直接获取自定义歌曲。
 
 :::tip 注意
 如果你使用的是 `BetterSongSearch` 模组，菜单按钮可能会显示为 `BETTERSONGSEARCH` 而非 `MORE SONGS`。
@@ -185,7 +186,8 @@ _节奏光剑游戏安装在哪里？_
 
 ### 安装模组
 
-4. 从某些地方下载你需要安装的模组，包括GitHub、[BSMG Discord](https://discord.com/invite/beatsabermods) 的`#pc-mods`频道、[BeatMods](https://beatmods.com/#/mods) 或者其它来源。
+4. 从某些地方下载你需要安装的模组，包括GitHub、[BSMG Discord](https://discord.com/invite/beatsabermods) 的`#pc-mods`频道、
+   [BeatMods](https://beatmods.com/#/mods) 或者其它来源。
    ![插件目录](/.assets/images/beginners-guide/directory-plugins.png '插件目录')
 
 5. 部分模组会附带安装说明，部分则没有。通常情况下，你只需将压缩包内容拖拽至Beat Saber安装目录，文件会被自动放置在正确位置。
