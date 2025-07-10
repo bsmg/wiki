@@ -36,7 +36,7 @@ description: Learn how to mod Beat Saber on PC!
 ::: warning 警告
 此指南仅适用于 Windows 系统上的 PC 模组。
 如果你是Quest设备上的游戏，请参考[Quest模组页面](/quest-modding.md)。  
-如果你用的是Linux系统，请参考[Linux页面](./linux-modding.md)。
+如果你用的是Linux系统，请参考[Linux页面](../linux-modding.md)。
 :::
 
 如果你现在遇到了问题，请先去[支持页](../support/)寻求解决方案，然后再到Discord服务器进行提问。 或许你的问题已经有答案了！
@@ -250,7 +250,7 @@ _节奏光剑游戏安装在哪里？_
 
 ## 接下来可以做什么
 
-- [握法与技巧](./grips-and-tricks.md)
+- [握法与技巧](../grips-and-tricks.md)
 - [制作谱面](/mapping/)
 - [自定义光剑](/models/custom-sabers.md)
 - [自定义虚拟形象](/models/custom-avatars.md)
