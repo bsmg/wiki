@@ -1,7 +1,7 @@
 ---
 prev: false
 next: false
-description: Learn how to mod Beat Saber on PC!
+description: 了解如何在PC上为节奏光剑注入模组!
 ---
 
 <!-- markdownlint-disable-file MD033 -->

@@ -101,7 +101,6 @@ export function fixSidebarForLocalization(
         ;(route as any)[1] = localizedPath
       } else if (decorate_no_translated_text) {
         ;(route as any)[0] = decorate_no_translated_text(text)
-        //if this is a folder,
       }
 
       routes?.forEach(HandleRoute)
