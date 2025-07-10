@@ -82,29 +82,28 @@ BSMG 社区**强烈建议**不要使用任何视频教程来安装模组。很�
 
 ## 如何获取更多歌曲?
 
-::: 小提示
-在"Top All"（总排行）、"Rating"（评分）、"Downloads"（下载量）或"Plays"（游玩次数）等筛选中的多数谱面，是在优质谱面规范标准订立前诞生的。建议下载2019年末至今发布的新曲目，以获得最佳的自定义歌曲体验。
+::: tip
+在"Top All"（总排行）、"Rating"（评分）、"Downloads"（下载量）或"Plays"（游玩次数）等筛选中的大部分谱面，是在优质谱面规范标准订立之前制作的。建议下载2019年末至今发布的新曲目，以获得最佳的自定义歌曲体验。
 :::
 
-::: 警告
+::: warning
 建议定期备份你的 `CustomLevels`（自定义歌曲）文件夹，因为游戏更新时有小概率会重置该文件夹！
-该文件夹位于游戏安装目录下：
-Beat Saber/Beat Saber_Data/CustomLevels
+该文件夹位于游戏安装目录下：`Beat Saber/Beat Saber_Data/CustomLevels`
 :::
 
 ### 从游戏内下载歌曲
 
 你可以通过安装 `BeatSaverDownloader` 或 `BetterSongSearch` 模组，直接在游戏内下载谱面。只需在游戏主菜单的 MODS 模组界面点击 `MORE SONGS`（更多歌曲）按钮，即可从 [BeatSaver](https://beatsaver.com) 平台直接获取自定义歌曲。
 
-:::提示说明
-如果你使用的是 `BetterSongSearch` 模组，菜单按钮可能会显示为 `BETTERSONGSEARCH` 而不是 `MORE SONGS`。
+:::tip 注意
+如果你使用的是 `BetterSongSearch` 模组，菜单按钮可能会显示为 `BETTERSONGSEARCH` 而非 `MORE SONGS`。
 :::
 
 ### BeatSaver
 
-[BeatSaver](https://beatsaver.com) 是社区自制歌曲的核心资源库。
-虽然有许多其他工具和网站能优化自定义歌曲的下载体验，但所有谱面最终都存储于此。
-想要安装从这个网站下载的歌曲，只需要解压下载的内容到文件夹，然后把文件夹放到`Beat Saber/Beat Saber_Data/CustomLevels`。
+[BeatSaver](https://beatsaver.com) 是社区自制谱面的核心仓库。
+虽说有一些别的工具和网站能优化自定义歌曲的下载体验，但所有谱面最终都存储在这里。
+想要加载从这个网站下载的歌曲，只需要下载并解压到一个文件夹，然后把文件夹放到`Beat Saber/Beat Saber_Data/CustomLevels`。
 你也可以用游戏内下载歌曲模组，BSManager的OneClick™ 一键安装功能，或是BSManager的"maps"标签页找歌曲。
 
 开启和使用BSManager的OneClick™ 一键安装功能方法请参考：
@@ -112,29 +111,30 @@ Beat Saber/Beat Saber_Data/CustomLevels
 
 ### Beast Saber
 
-[Beast Saber](https://www.bsaber.com) (bsaber.com) 是一个致力于帮助玩家更轻松找到优质谱面的网站。  
-其最常用的功能 “Recently Curated Maps”(近期精选谱面) 推送是由精选团队每日试玩绝大多数新发布的歌曲，并推荐符合最低质量标准且具备主观“fun factor”（趣味因素）的谱面。  
-BeastSaber 还设有板块：认证普师推荐谱面；每周谱面合集；精选/严选 谱面 包/歌曲列表。
+[Beast Saber](https://www.bsaber.com) (bsaber.com) 是一个辅助寻找优质谱面的网站。  
+其最常用的功能是 “Recently Curated Maps”(近期精选谱面) 推送。这是由精选团队对每天发布的新曲目进行试玩，并对质量合格且主观上具备“有趣程度”的谱面给出的推荐。  
+BeastSaber 还设有以下板块：认证谱师的最近发布谱面；每周谱面合集；精选/严选曲目打包/歌单。
 
-### Song Management Apps
+### 歌曲管理软件
 
-BSManager 有一个 Maps 选项卡可以让你管理特定版本中的歌曲。只需选择你的版本并点击 Maps 选项卡。在那里你可以删除歌曲、预览它们的音频或谱面，以及获取它们的 Twitch BSR 代码用于在直播中点歌。
+BSManager 有一个 Maps 选项卡可用于管理指定版本中的歌曲。只需选择版本并点击 Maps 选项卡即可使用。可用于删除歌曲、预览音频或谱面，以及获取对应的 Twitch BSR 代码以便在直播中点歌。
 
-### Playlists
+### 歌单
 
-你需要安装 [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) 模组。
-然后你可以选择以下任一方式安装歌单：
-- 通过 BSManager 中的 Maps 选项卡安装歌单。
+需要安装 [PlaylistManager](https://github.com/rithik-b/PlaylistManager/releases/latest) 模组。
+
+然后即可选择以下任一方式添加歌单：
+- 通过 BSManager 中的 Maps 选项卡添加歌单。
   ::: tip 注意
   此功能仅在 BSManager 的 alpha 版本中可用！
   :::
-- 将歌单文件放入 `Beat Saber/Playlists` 文件夹，在游戏中选择歌单标头，然后点击下载所有歌曲。
+- 将歌单文件放入 `Beat Saber/Playlists` 文件夹，在游戏中选择歌单标题，然后点击下载全部歌曲。
 
-你会在游戏中看到歌单显示在 Custom Levels 专辑旁边。该模组还支持在游戏内管理歌单。
+在游戏中，歌单会显示在 Custom Levels 专辑旁边。该模组还支持在游戏内管理歌单。
 
-## Install Folder
+## 安装文件夹
 
-游戏安装位置文件夹
+_节奏光剑游戏安装在哪里？_
 
 ### 默认游戏安装路径
 
@@ -144,124 +144,108 @@ BSManager 有一个 Maps 选项卡可以让你管理特定版本中的歌曲。�
 | Oculus    | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
 | BSManager | `C:\Users\[USERNAME]\BSManager\BSInstances\`                                 |
 
-### 其他位置的情况
+### 其它位置
 
-若你已将游戏安装目录移动至其他驱动器，可以参考以下路径：
-（请将驱动器盘符 F 替换为你实际的游戏安装盘符）
-示例:
+**若你已将游戏安装目录移动至其它驱动器，可以参考以下路径：**
+（请将驱动器盘符 `F` 替换为你实际的游戏安装盘符）
+
 |           |                                                                |
 | --------- | -------------------------------------------------------------- |
 | Steam     | `F:\SteamLibrary\steamapps\common\Beat Saber\`                 |
 | Oculus    | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
 | BSManager | `F:\BSManager\BSInstances\`                                    |
 
-## 手动安装Mod
-**推荐使用模组安装器安装模组**，具体方法请参考[上文](#安装器)章节。  
-若你已打过模组补丁，只需安装安装器中未提供的模组，请**直接跳至步骤4**。
+## 手动安装模组
+推荐使用模组安装器安装模组，具体方法请参考[上文](#安装器)章节。  
+若你已打过模组补丁，想要安装安装器未提供的模组，请**直接跳至步骤4**。
 
-::: 模组安装安全警告  
-安装未经认证的模组（如来自 `#pc-mods` 频道的模组）存在风险，可能包含伪装成普通模组的恶意软件。  
+::: warning 在安装模组时确认安全  
+安装未经认证的模组（例如来自 `#pc-mods` 频道的模组）存在风险，包括可能存在伪装成普通模组的恶意软件。  
 
-重要安全须知：  
-- **《Beat Saber》永远不会要求你以管理员权限运行**  
-- 如果安装模组时出现**用户账户控制（UAC）弹窗**：  
-  **立即点击"取消"**  
-  并向我们举报该情况  
-- 若不确定所安装内容是否安全：  
-  **请务必在Discord服务器中咨询确认**  
+节奏光剑**永远不会**要求使用管理员权限启动自身。
+
+如果你下载并安装的模组触发了用户账户控制（UAC），**不要**允许，请向我们报告这件事情。你正在安装的是有病毒的模组。
+
+如果你不确定你正在安装的东西是否真的有毒，**请询问discord社群中的人**。
 :::
 
-必备步骤  
-在安装模组**前**，请务必：  
-**至少完整运行游戏一次**（重新安装游戏后也需执行此操作） 
-
+在安装模组补丁之前，需要**至少启动一次游戏**！在重新安装游戏之后也需如此操作。
 
 ### 安装 BSIPA
 
-1. 下载 [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases)。 请确保下载的版本与你的游戏版本兼容。
-2. 进入你的[游戏安装目录](#install-folder)，将BSIPA压缩包内的文件解压至此。
+1. 下载 [BSIPA](https://github.com/bsmg/BeatSaber-IPA-Reloaded/releases)。 需要确保下载的版本与你的游戏版本兼容。
+2. 打开[游戏安装目录](#install-folder)，将BSIPA压缩包内的文件解压到此文件夹。
    ![干净目录](/.assets/images/beginners-guide/directory-clean.png '干净目录')
    ![IPA目录](/.assets/images/beginners-guide/directory-ipa.png 'IPA目录')
-3. 双击运行IPA.exe为游戏打补丁。此后启动游戏时，将自动加载`Plugins`文件夹中的所有模组。
+3. 双击运行 IPA.exe 为游戏打补丁。此后启动游戏时，将自动加载`Plugins`文件夹中的所有模组。
    如果出现错误，可能是步骤2操作有误。
    ![已打补丁目录](/.assets/images/beginners-guide/directory-patched.png '已打补丁目录')
 
 ### 安装模组
 
-4. 下载你需要安装的模组，可以从以下渠道获取：
-   - [GitHub](https://github.com)
-   - [BSMG Discord](https://discord.com/invite/beatsabermods) 的`#pc-mods`频道  
-   - [BeatMods](https://beatmods.com/#/mods)  
-   - 其他来源  
-   **请务必下载模组所需的所有依赖项**  
+4. 从某些地方下载你需要安装的模组，包括GitHub、[BSMG Discord](https://discord.com/invite/beatsabermods) 的`#pc-mods`频道、[BeatMods](https://beatmods.com/#/mods) 或者其它来源。
    ![插件目录](/.assets/images/beginners-guide/directory-plugins.png '插件目录')
 
-5. 部分模组会附带安装说明，部分则没有。通常情况下，你只需：
-   - 将压缩包内容直接拖拽至Beat Saber安装目录
-   - 文件会自动归类到相应的文件夹中
+5. 部分模组会附带安装说明，部分则没有。通常情况下，你只需将压缩包内容拖拽至Beat Saber安装目录，文件会被自动放置在正确位置。
 
 ## 降级
 
 请查看 [BSMG Discord](https://www.discord.gg/beatsabermods) 的 `#modding-announcements` 频道，确认当前最新游戏版本是否支持模组安装。
 
-若需要降级，请参考下面的降级方法：
+若不支持，则需要根据以下方法对游戏进行降级。
 
-### 游戏版本
+### 游戏管理软件
 
-请根据你的游戏购买平台选择对应的降级教程：
+请根据你的游戏购买平台选择对应的降级教程。
 
-**Steam版用户可使用：**  
-- [BSManager 降级教程](https://github.com/Zagrios/bs-manager#readme)
+- Steam可以使用：
+  - [BSManager](https://github.com/Zagrios/bs-manager#readme)
 
-**Oculus商店版用户可选择：**  
-- [BSManager 降级教程](https://github.com/Zagrios/bs-manager#readme)  
-- [OculusDowngrader 专用工具](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)  
+- Oculus商店版可以用：  
+  - [BSManager](https://github.com/Zagrios/bs-manager#readme)  
+  - [OculusDowngrader](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)  
 
-### 历史版本
+### 远古版本
 
-如果你想降级到`1.37.1`,`1.34.2`,`1.29.1`，可以使用历史版本降级
+如果你想降级到`1.37.1`,`1.34.2`,`1.29.1`，可以使用远古版本降级方案。
 
-#### Steam版用户
+#### Steam用户
 
 1. 打开模组安装器，卸载 BSIPA 模组
-   - 如果已安装 1.30+ 版本的模组，请卸载所有模组
+
+- 如果已安装 1.30或更高版本的模组，请卸载所有模组。
 
 2. 在游戏库中右键点击 Beat Saber
 3. 选择"属性"
 4. 在弹出窗口中选择"测试版"
-5. 选择你需要的版本：
-   - `legacy1.37.1_unity_v2021.3.16f1`
-   - `1.34.2_legacy` 
-   - `legacy1.29.1_unity_ver2019.4.28f1`
+5. 选择这些分支中的一个：`legacy1.37.1_unity_v2021.3.16f1`、`1.34.2_legacy`或者`legacy1.29.1_unity_ver2019.4.28f1`
 6. 关闭窗口
 7. 等待下载完成后运行游戏一次
 8. 按照常规模组安装流程操作
 
 ![Steam分支设置](/.assets/images/beginners-guide/BetaOptions_SteamBranch.jpg 'Steam分支设置')
 
-#### Oculus商店版用户
+#### Oculus商店用户
 
-1. 打开模组安装器并卸载 BSIPA 模组
-   - 如果已安装 1.30+ 版本的模组，请卸载所有模组
+1. 打开模组安装器，卸载 BSIPA 模组
+
+- 如果已安装 1.30或更高版本的模组，请卸载所有模组。
 
 2. 前往 Beat Saber 商店页面
-3. 滚动至"版本 + 更新说明"部分
-4. 点击当前版本号旁的"(LIVE)"字样
-5. 选择你需要的版本：
-   - `legacy1.37.1_unity_v2021.3.16f1`
-   - `1.34.2_legacy`
-   - `legacy1.29.1_unity_ver2019.4.28f1`
+3. 滚动至"Versions + Release Notes"部分
+4. 点击当前版本号旁的`(LIVE)`
+5. 选择这些分支中的一个：`legacy1.37.1_unity_v2021.3.16f1`、`1.34.2_legacy`或者`legacy1.29.1_unity_ver2019.4.28f1`
 6. 等待下载完成后运行游戏一次
 7. 按照常规模组安装流程操作
 
 ![Oculus 分支设置](/.assets/images/beginners-guide/BetaOptions_OculusBranch.jpg 'Oculus 分支设置')
 
-## 怎样卸载模组
+## 如何卸载模组
 
-可以从 `Plugins` 文件夹中删除对应的 `.dll` 文件的方式卸载，也可以在BSManager点击删除图标来卸载(需要先则对应的游戏版本，再打开模组标签页)
+可以从 `Plugins` 文件夹中直接删除对应的 `.dll` 文件，也可以在BSManager点击删除图标来卸载(需要先则对应的游戏版本，再打开Mods标签页)
 
 :::tip 注意
-若模组是手动安装的，你必须通过从 `Plugins` 文件夹删除相应 `.dll` 文件的方式卸载。
+若模组是手动安装的，则需要从 `Plugins` 文件夹删除相应 `.dll` 文件来进行卸载。
 :::
 
 ## 接下来可以做什么
@@ -277,9 +261,9 @@ BSManager 有一个 Maps 选项卡可以让你管理特定版本中的歌曲。�
 
 ## 遇到问题？
 
-请访问 [BSMG Discord](https://discord.gg/beatsabermods) 的支持频道！
+访问 [BSMG Discord](https://discord.gg/beatsabermods) 的支持频道！
 
 ::: tip 注意
-拥有 `Support`（支持）和/或 `Mapping Support`（谱面支持）身份的用户是自愿在空闲时间提供帮助的志愿者。
+拥有 `Support`和/或 `Mapping Support`身份的用户是自愿在空闲时间提供帮助的志愿者。
 这些支持身份是对他们付出知识和努力的认可，但并不代表他们在线时就一定能够提供帮助。
 :::
