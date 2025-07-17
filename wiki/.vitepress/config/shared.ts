@@ -1,6 +1,6 @@
 import container from 'markdown-it-container'
 import { spawn } from 'node:child_process'
-import { existsSync } from 'node:fs'
+import { existsSync, glob } from 'node:fs'
 import path, { basename } from 'node:path'
 import { env } from 'node:process'
 import type { DefaultTheme, PageData, TransformPageContext } from 'vitepress'
@@ -9,8 +9,23 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 const IS_DEV = env.NODE_ENV === 'production'
 
-export const search = (): DefaultTheme.Config['search'] => {
-  if (IS_DEV) return { provider: 'local' }
+const wiki_root_folder = path.join(__dirname, '..', '..')
+
+export const search = (
+  algoliaTranslation:
+    | undefined
+    | DefaultTheme.AlgoliaSearchOptions['translations'] = undefined,
+  localTranslation:
+    | undefined
+    | DefaultTheme.LocalSearchOptions['translations'] = undefined,
+): DefaultTheme.Config['search'] => {
+  if (IS_DEV)
+    return {
+      provider: 'local',
+      options: {
+        translations: localTranslation || algoliaTranslation,
+      },
+    }
 
   return {
     provider: 'algolia',
@@ -18,6 +33,7 @@ export const search = (): DefaultTheme.Config['search'] => {
       appId: 'MDQBBYI18P',
       apiKey: '0f36f096b83770eae78115f2d88bd394',
       indexName: 'bsmg',
+      translations: algoliaTranslation,
     },
   }
 }
@@ -98,9 +114,11 @@ export function fixSidebarForLocalization(
     if (typeof link == 'string') {
       let localizedPath = GetLocalizedPath(link)
       if (localizedPath) {
-        ;(route as any)[1] = localizedPath
+        let mutable_route = route as any
+        mutable_route[1] = localizedPath
       } else if (decorate_no_translated_text) {
-        ;(route as any)[0] = decorate_no_translated_text(text)
+        let mutable_route = route as any
+        mutable_route[0] = decorate_no_translated_text(text)
       }
 
       routes?.forEach(HandleRoute)

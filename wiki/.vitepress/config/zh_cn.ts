@@ -7,33 +7,6 @@ import {
 } from './shared'
 import { sidebar } from './shared'
 
-let searchobj = search()
-if (searchobj) {
-  if (!searchobj.options) {
-    searchobj.options = {}
-  }
-  searchobj.options.translations = {
-    button: {
-      buttonText: '搜索',
-      buttonAriaLabel: '搜索',
-    },
-    modal: {
-      startScreen: {
-        noRecentSearchesText: '没有最近搜索',
-      },
-      noResultsScreen: {
-        noResultsText: '没有找到以下条目的搜索结果',
-      },
-      footer: {
-        selectText: '跳转',
-        navigateText: '选择',
-        closeText: '关闭',
-        searchByText: '搜索提供者',
-      },
-    },
-  }
-}
-
 let _sidebar: SidebarItem[] = [
   {
     name: '关于我们',
@@ -241,7 +214,26 @@ export const zh_cn = defineConfigWithTheme<BSMGThemeConfig>({
     lastUpdated: {
       text: '最后更新于',
     },
-    search: searchobj,
+    search: search({
+      button: {
+        buttonText: '搜索',
+        buttonAriaLabel: '搜索',
+      },
+      modal: {
+        startScreen: {
+          noRecentSearchesText: '没有最近搜索',
+        },
+        noResultsScreen: {
+          noResultsText: '没有找到以下条目的搜索结果',
+        },
+        footer: {
+          selectText: '跳转',
+          navigateText: '选择',
+          closeText: '关闭',
+          searchByText: '搜索提供者',
+        },
+      },
+    }),
     nav: [
       { text: '主页', link: './' },
       { text: '新手指南', link: './beginners-guide.md' },
