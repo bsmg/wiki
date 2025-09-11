@@ -77,3 +77,9 @@ If you would like to join for your language, you can [apply to help translate!](
 - oxamera
 - Syrayra
   - [Twitter](https://twitter.com/Syrayra)
+
+## Simplified Chinese | 简体中文
+
+### Translators
+
+- frto027
