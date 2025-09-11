@@ -178,11 +178,11 @@ If the game lags so badly that you can barely click the `Continue` button on the
 if you have the game on Steam, or reinstall the game on Oculus Home. Do the same if it won't start up at all and shows
 no error messages when trying to launch the game.
 
-If that didn't solve the issue, then check section [2.5 Improving framerate](#_2-5-improving-framerate)
+If that didn't solve the issue, then check section [2.6 Improving framerate](#_2-6-improving-framerate)
 
 #### 2.6 Improving Framerate
 
-If [2.5](#2-5-the-game-stutters-unbearably-after-installing-mods) didn't improve your fps, then your PC might
+If [2.5](#_2-5-the-game-stutters-unbearably-after-installing-mods) didn't improve your fps, then your PC might
 simply be struggling to keep up with the stress caused by mods. Here are some things you can do to improve
 framerate, in no particular order:
 
@@ -228,36 +228,12 @@ If you're using a mod installer, click the mod and hit the "Mod Info/More info" 
 
 #### 3.3 Rumble Issues
 
-If you use a Rift S or Quest 1, then you will not have any haptics if you are using Oculus as your current OpenXR
-runtime. This is due to an update to the Oculus Software that has not been fixed yet.
+If the following is true regarding your haptics:
 
-In the meantime, you can try the following:
-
-- Switch to the SteamVR OpenXR Runtime
-- Apply the fix listed below _(not recommended)_
-
-If switching to SteamVR as the current OpenXR runtime didn't work, then you can try the following:
-
-_Keep in mind that there can be unknown side effects when using this fix!_
-
-- Close all instances of Oculus in Task Manager, and then download [this zip file,](https://tinyurl.com/Ocufix)
-  which has the DLL files in order to fix this.
-- Open the zip file and copy the DLLs inside it to this folder: `%OculusBase%Support\oculus-runtime`
-
-  :::tip NOTE
-  Copy and paste the filepath into the address bar at the top of File Explorer!
-
-  Before moving the files, be sure to make a backup of the existing files first!
-  :::
-
-- Reopen Oculus, and your game should work after this!
-
-If this isn't the cause of your rumble issues and the following are true regarding your haptics:
-
-- haptics are miniscule
-- there is no vibration when hitting multiple blocks
-- there is a slight delay when touching sabers together
-- you are using Oculus touch controllers
+- Haptics are miniscule
+- There is no vibration when hitting multiple blocks
+- There is a slight delay when touching sabers together
+- You are using Oculus touch controllers
 
 Then there is a good chance that Beat Saber is overloading your motherboard's USB controller. Oculus devours your USB controller
 bandwidth and most motherboards come with a very cheap controller. Beat Saber pushes it harder than any other game, which
