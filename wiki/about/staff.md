@@ -29,6 +29,13 @@ _Totally_ hasn't fallen into the Vtuber hole and makes computer code that works!
 
 </AboutLinks>
 
+## BlueRay
+
+"Tired at all times"
+
+**Roles:** Staff, Moderator
+**Contributions:**
+
 ## Caeden117
 
 How many statistics could we fit into a single counters mod? A lot apparently. He's also responsible for the modding tutorials
@@ -49,18 +56,6 @@ on this wiki and ChroMapper, a soon to be released mapping software with Chroma 
 "Findus says hai"
 
 **Roles:** Staff, Moderator, Support
-
-## 𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯
-
-The embodiment of poi! Message for poi related questions.
-
-**Roles:** Staff, Moderator
-
-<AboutLinks>
-
-[Twitch](https://www.twitch.tv/br3uker)
-
-</AboutLinks>
 
 ## Lulu
 
@@ -232,6 +227,18 @@ He also runs BeastSaber to help you find the best curated maps.
 
 **Roles:** Staff (Retired), BSMG PR  
 **Contributions:** BeastSaber, Contest Management
+
+## 𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯
+
+The embodiment of poi! Message for poi related questions.
+
+**Roles:** Staff (Retired)
+
+<AboutLinks>
+
+[Twitch](https://www.twitch.tv/br3uker)
+
+</AboutLinks>
 
 ### Klouder
 
