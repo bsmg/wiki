@@ -34,7 +34,6 @@ _Totally_ hasn't fallen into the Vtuber hole and makes computer code that works!
 "Tired at all times"
 
 **Roles:** Staff, Moderator
-**Contributions:**
 
 ## Caeden117
 
