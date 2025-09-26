@@ -23,12 +23,6 @@ Fellow crippling Minecraft addict
 
 </AboutLinks>
 
-## BlueRay
-
-"Tired at all times"
-
-**Roles:** Moderator
-
 ## BombardToo
 
 **Roles:** Moderator
@@ -46,6 +40,10 @@ Ironically doesn't like burritos, thinks tacos are better (true facts)
 [Tip](https://streamelements.com/burritosoft/tip)
 
 </AboutLinks>
+
+## Cyn
+
+**Roles:** Moderator
 
 ## fqrb
 
