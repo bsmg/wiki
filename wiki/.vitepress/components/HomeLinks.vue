@@ -1,7 +1,17 @@
+<script setup>
+import { computed } from 'vue'
+import { useData } from 'vitepress'
+const { theme } = useData()
+
+const title = computed(
+  () => theme.value.bsmg?.external_links ?? 'External Links',
+)
+</script>
+
 <template>
   <div class="container">
     <div class="vp-doc">
-      <h2>External Links</h2>
+      <h2>{{ title }}</h2>
       <slot />
     </div>
   </div>
