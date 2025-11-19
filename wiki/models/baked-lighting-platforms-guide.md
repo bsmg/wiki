@@ -165,16 +165,16 @@ or later.
 You will also need [Tweaks55](https://github.com/kinsi55/BeatSaber_Tweaks55/releases/tag/v0.3.8) to control the Beat Saber
 menu lights which can interfere with Baked Lighting.
 
-Install these MODs in your Beat Saber/Plugins folder first. You can also install them through ModAssistant.
+Install these mods in your Beat Saber install's `Plugins` folder first. You can also install them through [BSManager](https://github.com/Zagrios/bs-manager/releases/latest).
 
 Copy the exported Custom Platform .plat file to your Beat Saber/CustomPlatforms folder and start Beat Saber.
 
-### Use Tweak55 to Change the Menu Light
+### Use Tweaks55 to Change the Menu Light
 
-The Beat Saber menu light will reflect off of baked lighting while in the menu. Go to the **Tweak55 MOD**, the **UI tab**
+The Beat Saber menu light will reflect off of baked lighting while in the menu. Go to the **Tweaks55 MOD**, the **UI tab**
 and change **Menu Light Color**. You can set the Beat Saber menu light to black to turn it off or set it to a certain color.
 
-![Tweak55 Color Change Demo](/.assets/images/models/baked/16.jpg)
+![Tweaks55 Color Change Demo](/.assets/images/models/baked/16.jpg)
 
 ### Change the Colored Lights in Game
 
@@ -184,9 +184,9 @@ You can set them to black to turn them off or set the colors to enhance the plat
 
 ![In Game Color Change Demo](/.assets/images/models/baked/17.jpg)
 
-### Other MODs Can Add Lights Which Affect the Platform
+### Other Mods Can Add Lights Which Affect the Platform
 
-Other MODs can add extra lights into the scene. If they don't have a Culling Mask set to limit Layer 1 they can interfere
+Other mods can add extra lights into the scene. If they don't have a Culling Mask set to limit Layer 1 they can interfere
 with baked lighting.
 
 Pictured here is VMCAvatar. If you are using this MOD you can use my [VMCLightDisabler](https://github.com/Kylon99/VMCLightDisabler/releases/tag/0.1.0)
