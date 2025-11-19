@@ -277,7 +277,7 @@ Here are some mods that might make your mapping workflow a little easier.
   for links to the mods and how to set it up.
 - [PracticePlugin](https://github.com/denpadokei/PracticePlugin) by **denpadokei**  
   Mod for Beat Saber to control playback speed, seek through songs and set up looping sections. Install the latest
-  version from [Mod Assistant](https://github.com/Assistant/ModAssistant#readme)!
+  version from your mod installer.
 - [ReLoader](https://github.com/Kylemc1413/ReLoader) by **Kyle1413**  
   Allows you to hot reload beatmaps in practice mode without needing to return to the menu to refresh.
   Really convenient for wall mapping.

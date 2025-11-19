@@ -48,13 +48,15 @@ your maps in a different location.
 
 1. Start Beat Saber and then close out after the game finishes loading.
    This is to ensure the game is ready for mods to be installed.
-2. Open [Mod Assistant](https://github.com/bsmg/ModAssistant/releases/latest)
-3. Make sure the version selected in the dropdown is compatible with the Beat Saber version installed on your computer.
-4. Check the checkbox for MappingExtensions. (You can select additional mods to install as well.)
-5. Click Install and Update and make sure there are no errors.
+2. Install and run your mod installer, we recommend using [BSManager](https://github.com/Zagrios/bs-manager/releases/latest).
+3. Select the game version you wish to use on the sidebar.
+4. Go to the Mods tab, and check the checkbox for `MappingExtensions`. (You can select additional mods to install as well.)
+5. Click `Install or update` and make sure there are no errors. If you do have any errors, seek out help
+   in the [BSManager Discord](https://discord.gg/uSqbHVpKdV).
 6. Open Beat Saber again to initialize the mods you have installed then quit the game.
 
-To check if it worked navigate to your Beat Saber install and make sure that a MappingExtensions.dll file is present.
+To check if it worked navigate to your Beat Saber install and make sure that a MappingExtensions.dll file is present
+in the `Plugins` folder.
 Not sure where Beat Saber is installed? See [FAQ: Install Folder](/faq/install-folder.md).
 
 7. You are now ready to do [map setup!](#map-setup-in-mediocre-map-assistant-2)
