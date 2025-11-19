@@ -85,6 +85,10 @@ and version checking! Get it on [BSMG's GitHub](https://github.com/bsmg/ModAssis
 
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
+::: warning NOTICE
+ModAssistant is legacy software and is no longer recommended. Instead use one of the other mod installers linked above.
+:::
+
 ## How to get more songs
 
 ::: tip
