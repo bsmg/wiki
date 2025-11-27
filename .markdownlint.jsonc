@@ -18,4 +18,7 @@
     ],
   },
   "ul-style": false,
+  "check-internal-link": {
+    "warn_only": true,
+  },
 }
