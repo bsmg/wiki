@@ -37,7 +37,7 @@ On **Quest**, your Beatleader account is made by you in game using the BeatLeade
 
 > You can merge your Beatleader account with your Steam account to sync scores across devices.  
 > If you're using an Oculus account and looking log in on the website, you'll need to
-> [make a BL account](https://beatleader.wiki/en/account#website-1) or connect your steam account
+> [make a BL account](https://beatleader.wiki/en/accounts/signup#website-1) or connect your steam account
 
 Your ScoreSaber account is tied to your Steam / Oculus username.
 
