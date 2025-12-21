@@ -8,6 +8,7 @@ import { h, nextTick, onMounted, watch } from 'vue'
 
 import AboutLinks from '../components/AboutLinks.vue'
 import YouTube from '../components/YouTube.vue'
+import LocalizedOutdateHint from '../components/LocalizedOutdateHint.vue'
 
 import './custom.css'
 import './style.css'
@@ -37,6 +38,7 @@ export default {
   enhanceApp({ app, router, siteData }: EnhanceAppContext) {
     app.component('AboutLinks', AboutLinks)
     app.component('YouTube', YouTube)
+    app.component('LocalizedOutdateHint', LocalizedOutdateHint)
     enhanceAppWithTabs(app)
   },
 }
