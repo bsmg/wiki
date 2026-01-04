@@ -259,8 +259,6 @@ If you want to downgrade to `1.40.8`, `1.37.1`, `1.34.2`, or `1.29.1`, you can u
 6. Let the download complete and run the game once
 7. Follow the regular modding process
 
-![Oculus Branch Setting](/.assets/images/beginners-guide/BetaOptions_OculusBranch.jpg 'Oculus Branch Setting')
-
 ## How to uninstall mods
 
 Either remove the `.dll` file from the `Plugins` folder, or click the trash icon button in BSManager
