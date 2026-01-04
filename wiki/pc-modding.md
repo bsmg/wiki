@@ -237,12 +237,13 @@ If you want to downgrade to `1.40.8`, `1.37.1`, `1.34.2`, or `1.29.1`, you can u
 2. Right click Beat Saber in the game library
 3. Select Properties
 4. Select Betas in the window
-5. Select either the `legacy1.40.8_unity_v2021.3.16f1`, `legacy1.37.1_unity_v2021.3.16f1`, `1.34.2_legacy` or the `legacy1.29.1_unity_ver2019.4.28f1` branch
+5. Select either the `legacy1.40.8_unity_v2021.3.16f1`, `legacy1.37.1_unity_v2021.3.16f1`, `1.34.2_legacy` or
+   the `legacy1.29.1_unity_ver2019.4.28f1` branch
 6. Exit the window
 7. Let the download complete then run the game once
 8. Follow the regular modding process
 
-![Steam Branch Setting](/.assets/images/beginners-guide/BetaOptions_SteamBranch.png 'Steam Branch Setting')
+![Steam Branch Setting](/.assets/images/beginners-guide/BetaOptions_SteamBranch.jpg 'Steam Branch Setting')
 
 #### Oculus Store Users
 
@@ -253,7 +254,8 @@ If you want to downgrade to `1.40.8`, `1.37.1`, `1.34.2`, or `1.29.1`, you can u
 2. Go to the Beat Saber store page
 3. Scroll down to `Versions + Release Notes`
 4. Click on the word `(LIVE)` next to the current version number
-5. Select either the `legacy1.40.8_unity_v2021.3.16f1`, `legacy1.37.1_unity_v2021.3.16f1`, `1.34.2_legacy` or the `legacy1.29.1_unity_ver2019.4.28f1` branch
+5. Select either the `legacy1.40.8_unity_v2021.3.16f1`, `legacy1.37.1_unity_v2021.3.16f1`, `1.34.2_legacy` or
+   the `legacy1.29.1_unity_ver2019.4.28f1` branch
 6. Let the download complete and run the game once
 7. Follow the regular modding process
 
