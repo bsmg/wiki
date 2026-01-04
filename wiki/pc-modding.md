@@ -230,7 +230,7 @@ Click on these links corresponding to where you own the game to see the tutorial
 
 ### Legacy Branch
 
-If you want to downgrade to `1.40.8`, `1.37.1`, `1.34.2`, or `1.29.1`, you can use the legacy branch method.
+If you want to downgrade to `1.37.1`, `1.34.2`, or `1.29.1` you can use the legacy branch method.
 
 #### Steam Users
 
@@ -247,7 +247,7 @@ If you want to downgrade to `1.40.8`, `1.37.1`, `1.34.2`, or `1.29.1`, you can u
 7. Let the download complete then run the game once
 8. Follow the regular modding process
 
-![Steam Branch Setting](/.assets/images/beginners-guide/BetaOptions_SteamBranch.jpg 'Steam Branch Setting')
+![Steam Branch Setting](/.assets/images/beginners-guide/BetaOptions_SteamBranch.png 'Steam Branch Setting')
 
 #### Oculus Store Users
 
@@ -262,6 +262,8 @@ If you want to downgrade to `1.40.8`, `1.37.1`, `1.34.2`, or `1.29.1`, you can u
    the `legacy1.29.1_unity_ver2019.4.28f1` branch
 6. Let the download complete and run the game once
 7. Follow the regular modding process
+
+![Oculus Branch Setting](/.assets/images/beginners-guide/BetaOptions_OculusBranch.jpg 'Oculus Branch Setting')
 
 ## How to uninstall mods
 
