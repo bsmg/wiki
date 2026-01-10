@@ -89,20 +89,6 @@ While I enjoy peace and quiet, I also enjoy looking out for people. I'm not dead
 
 **Roles:** Moderator
 
-## Shad
-
-"Every channel is just #pc-mod-support"
-
-**Roles:** Moderator, Mapper, Support
-
-<AboutLinks>
-
-[Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45)
-[YouTube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ)
-[Twitch](https://www.twitch.tv/shadlive)
-
-</AboutLinks>
-
 ## Storm
 
 I can show you the world after you show me your \_latest.log
@@ -277,5 +263,19 @@ Has no creativity and doesn't know what to put here. Is a cool person though.
 [GitHub](https://github.com/FranciscoRibeiro03)
 [Ko-fi](https://ko-fi.com/rui2015)
 [PayPal](https://paypal.me/rui2015)
+
+</AboutLinks>
+
+## Shad
+
+"Every channel is just #pc-mod-support"
+
+**Roles:** Moderator (Retired), Mapper, Support
+
+<AboutLinks>
+
+[Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850a45)
+[YouTube](https://www.youtube.com/channel/UCLiwd2iGUDl2kvw8FM2qwFQ)
+[Twitch](https://www.twitch.tv/shadlive)
 
 </AboutLinks>
