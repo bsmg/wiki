@@ -134,7 +134,7 @@ The only Staff to ghost us when asked for a description for this page.
 
 ## Saeraphinx
 
-**Roles:** Staff, Modder
+**Roles:** Staff, Modder<br>
 **Contributions:** BeatMods
 
 ## Steven 🎀
@@ -158,7 +158,7 @@ The manager of many, Steven's always around to lend a helping hand as long as yo
 
 Creator of the [in-browser map previewer](https://skystudioapps.com/bs-viewer/) and various [mapping tools](https://skystudioapps.com/mapping-tools/)
 
-**Roles:** Staff (Retired), Modder
+**Roles:** Staff (Retired), Modder<br>
 **Contributions:** BS-Viewer, Mapping Tools
 
 <AboutLinks>
@@ -218,7 +218,7 @@ He also runs BeastSaber to help you find the best curated maps.
 **Roles:** Staff (Retired), BSMG PR  
 **Contributions:** BeastSaber, Contest Management
 
-## 𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯
+### 𝔍𝔢𝔫𝔫𝔦𝔣𝔢𝔯
 
 The embodiment of poi! Message for poi related questions.
 
@@ -248,7 +248,7 @@ Longtime server member and active contributor. Now retired, she was the server m
 She was early in the quest modding scene, and helped shape the quest scene.  
 Often active in the quest-modding channel, and liked to experiment with the game.
 
-**Roles:** Staff (Retired), Modder, Moderator
+**Roles:** Staff (Retired), Modder, Moderator<br>
 **Contributions:** QuestSounds, QSettings+, FPSCounter
 
 <AboutLinks>
