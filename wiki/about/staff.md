@@ -132,19 +132,10 @@ The only Staff to ghost us when asked for a description for this page.
 
 </AboutLinks>
 
-## Reaxt
+## Saeraphinx
 
-BSMG server owner and rhythm game fanatic. We wouldn't be here today without this very special girl.
-
-**Roles:** Admin, Staff, Modder  
-**Contributions:** Server Owner, Custom Sabers, Podcasts
-
-<AboutLinks>
-
-[GitHub](https://github.com/reaxt)
-[Twitch](https://twitch.tv/reaxt)
-
-</AboutLinks>
+**Roles:** Staff, Modder
+**Contributions:** BeatMods
 
 ## Steven 🎀
 
@@ -277,6 +268,20 @@ he hates that. He also makes maps, check them out below.
 
 [Twitch](https://twitch.tv/justsamuelok)
 [Maps](https://beatsaver.com/uploader/5cff0b7498cc5a672c850326)
+
+</AboutLinks>
+
+### Reaxt
+
+BSMG server owner and rhythm game fanatic. We wouldn't be here today without this very special girl.
+
+**Roles:** Staff (Retired), Modder  
+**Contributions:** Server Owner, Custom Sabers, Podcasts
+
+<AboutLinks>
+
+[GitHub](https://github.com/reaxt)
+[Twitch](https://twitch.tv/reaxt)
 
 </AboutLinks>
 
