@@ -8,10 +8,6 @@ next: false
 With a server so large, a lot of moderation is required to keep everything under control.
 You can thank this team for keeping the streets clean.
 
-## BombardToo
-
-**Roles:** Moderator
-
 ## Burrito
 
 Ironically doesn't like burritos, thinks tacos are better (true facts)
@@ -123,6 +119,10 @@ Also hates sketchfab links.
 [PayPal](https://paypal.me/beigeanimal)
 
 </AboutLinks>
+
+### BombardToo
+
+**Roles:** Moderator
 
 ### Chara\_
 
