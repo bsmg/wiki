@@ -15,8 +15,8 @@
     "build": "vitepress build wiki",
     "lint:images": "node ./scripts/checkImages.mjs",
     "lint:prettier": "prettier --check .",
-    "lint": "npm run lint:prettier && markdownlint-cli2 \"wiki/**/*.md\" \"#wiki/{de,fr,ja,nl}/**/*.md\"",
-    "fmt": "prettier --write . && markdownlint-cli2 --fix \"wiki/**/*.md\" \"#wiki/{de,fr,ja,nl}/**/*.md\""
+    "lint": "npm run lint:prettier && markdownlint-cli2 \"wiki/**/*.md\" \"#wiki/{de,fr,ja,nl,zh_cn}/**/*.md\"",
+    "fmt": "prettier --write . && markdownlint-cli2 --fix \"wiki/**/*.md\" \"#wiki/{de,fr,ja,nl,zh_cn}/**/*.md\""
   },
   "devDependencies": {
     "@types/markdown-it-container": "^2.0.10",
