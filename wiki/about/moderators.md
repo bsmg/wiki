@@ -58,10 +58,6 @@ While I enjoy peace and quiet, I also enjoy looking out for people. I'm not dead
 
 </AboutLinks>
 
-## iSmellFood
-
-**Roles:** Moderator
-
 ## oli
 
 **Roles:** Moderator
@@ -167,6 +163,10 @@ Pepega
 "Came for the game, Stayed for the hugs"
 
 **Roles:** Mapper, Moderator (Retired)
+
+### iSmellFood
+
+**Roles:** Moderator (Retired), 3D Artists
 
 ### joelseph
 
