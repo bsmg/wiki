@@ -9,6 +9,48 @@ Winners of past contests/events held in the discord. Keep up with `#server-annou
 for such events happening now, or in the future!
 
 If you want to see us holding more fun events, please consider contributing to the events tier on our [Patreon](https://www.patreon.com/beatsabermods)!
+
+## 2025 Holiday Contest
+
+The seventh and final Holiday contest. The theme for that contest was: _"The Longest Night."_
+
+---
+
+[Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/1433536119261102234)
+
+### Map Winners
+
+#### Standard Maps
+
+:::tip NOTE
+The following 2 maps tied for 1st place.
+:::
+
+- **1st:** [Au5 & Tasha Baxter - Snowblind (Teminite & Nasko Remix)](https://beatsaver.com/maps/4b68f) by **TheGeriatricGedi**
+- **1st:** [Labrinth - Dracula (Nate Sees Cassie)](https://beatsaver.com/maps/4adb3) by **benson2022**
+- **2nd:** [缶缶 & FAKE TYPE. - 不夜城](https://beatsaver.com/maps/4a654) by **okazu**
+- **3rd:** [Ice Nine Kills - A Work Of Art](https://beatsaver.com/maps/4ac1f) **nitronik.exe** and **TaylorGaming**
+
+### Model Winners
+
+- **1st:** PC Saber [T7-Eternal Construct](https://bsmg.dev/t7-eternalconstruct) by **Terra-7‾**
+- **2nd:** Quest Saber [YLM - Ghostly](https://discord.com/channels/691791384922816594/1012478123549393006/1429873379753590895)
+  by **Yluem**
+
+:::tip NOTE
+Please note that the second model is from the [Qosmetics server](https://discord.gg/JNuFC7XMTk), you will need to be
+in that server to download the model.
+:::
+
+### Grand Prize
+
+**Terra-7‾'s** model: PC Saber [T7-Eternal Construct](https://bsmg.dev/t7-eternalconstruct)
+
+#### Download this year's submissions all together here
+
+Download the model entries using the above links.<br>
+[Maps](https://beatsaver.com/playlists/1055178)
+
 ## 2024 Summer Contest
 
 The first ever Summer contest! Featuring merch of _"BSMG-chan"_, designed in partnership with Ivanmz!
@@ -45,7 +87,7 @@ Download the model entries using the above links.<br>
 
 ## 2023 Christmas Competition
 
-The sixth and final Christmas contest. The playlist cover featuring art by JessyJams!
+The sixth Christmas contest. The playlist cover featuring art by JessyJams!
 
 ---
 
