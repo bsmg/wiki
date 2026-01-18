@@ -34,13 +34,7 @@ The following 2 maps tied for 1st place.
 ### Model Winners
 
 - **1st:** PC Saber [T7-Eternal Construct](https://bsmg.dev/t7-eternalconstruct) by **Terra-7‾**
-- **2nd:** Quest Saber [YLM - Ghostly](https://discord.com/channels/691791384922816594/1012478123549393006/1429873379753590895)
-  by **Yluem**
-
-:::tip NOTE
-Please note that the second model is from the [Qosmetics server](https://discord.gg/JNuFC7XMTk), you will need to be
-in that server to download the model.
-:::
+- **2nd:** Quest Saber [YLM - Ghostly](https://bsmg.dev/YLM-Ghostly) by **Yluem**
 
 ### Grand Prize
 
