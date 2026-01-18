@@ -9,6 +9,39 @@ Winners of past contests/events held in the discord. Keep up with `#server-annou
 for such events happening now, or in the future!
 
 If you want to see us holding more fun events, please consider contributing to the events tier on our [Patreon](https://www.patreon.com/beatsabermods)!
+## 2024 Summer Contest
+
+The first ever Summer contest! Featuring merch of _"BSMG-chan"_, designed in partnership with Ivanmz!
+
+---
+
+[Winners Announcement](https://discord.com/channels/441805394323439646/441807344591044619/1279520242045030411)
+
+### Map Winners
+
+#### Standard Maps
+
+- **1st:** [litmus\* - Vibey-Vibey EX](https://beatsaver.com/maps/3fb8c) by **Dereknalox123** and **Brakepie**
+- **2nd:** [wotoha - Happy (fam) 2](https://beatsaver.com/maps/3f830) by **ZeCube**
+- **3rd:** [aespa - BAHAMA](https://beatsaver.com/maps/3fbe8) by **eurnkung**
+
+#### Gameplay Experience Maps
+
+- **1st:** [JEON SOMI - Ice Cream](https://beatsaver.com/maps/3f1c9) by **Jonas**
+
+### Model Winners
+
+- **1st:** PC Saber [YLM - Summer Sabers](https://bsmg.dev/ZSkpK) by **Yluem**
+- **2nd:** PC Saber [Parapass's Summer Saber](https://bsmg.dev/TEXgf) by **Parapass**
+
+### Grand Prize
+
+**Jonas's** map: [JEON SOMI - Ice Cream](https://beatsaver.com/maps/3f1c9)
+
+#### Download this year's submissions all together here
+
+Download the model entries using the above links.<br>
+[Maps](https://beatsaver.com/playlists/665714)
 
 ## 2023 Christmas Competition
 
