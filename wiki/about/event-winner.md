@@ -12,7 +12,7 @@ If you want to see us holding more fun events, please consider contributing to t
 
 ## 2025 Holiday Contest
 
-The seventh and final Holiday contest. The theme for that contest was: _"The Longest Night."_
+The seventh Holiday contest. The theme for that contest was: _"The Longest Night."_
 
 ---
 
