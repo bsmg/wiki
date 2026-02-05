@@ -15,9 +15,11 @@ This page will give you all the info and best practices you need to make a solid
 
 **Have you...**
 
-1. [x] [Downloaded Audacity](https://www.audacityteam.org/) and chosen a [map editor](./#map-editing-resources)?
-2. [x] [Set up your audio file](./basic-audio.md) to confirm your bpm and make sure you've got a good intro/outro?
-3. [x] [Exported](./basic-audio.md#exporting) your song file as an OGG?
+1. [Downloaded Tenacity](https://nightly.link/tenacityteam/tenacity/workflows/cmake_build/main) and chosen a [map editor](./#map-editing-resources).
+2. [Export to a OGG File] Open Tenacity and export the song to a OGG File (**THIS STEP IS REQUIRED TO PREVENT LATER STEPS CAUSING THE SONG TO NOT SYNC PROPERLY**).
+3. [Download Arrow Vortex](https://arrowvortex.ddrnl.com/) Download Arrow Vortex and follow steps as shown in [Basic Audio Setup](./basic-audio.md).
+4. [Syncing The Song] You will take the number from Arrow Vortex that it gives you and under the top tab Click Generate – > Silence... and input the number from Arrow Vortex.
+5. [Exported] Do any file touch ups you wish to the file and Export the file as an OGG file once more you are then ready to put it in the editor and map.
 
 ::: tip Are all these things done?
 GREAT! You're ready to dive into your favorite editor and start mapping!
