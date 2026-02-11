@@ -29,7 +29,7 @@ The following 2 maps tied for 1st place.
 - **1st:** [Au5 & Tasha Baxter - Snowblind (Teminite & Nasko Remix)](https://beatsaver.com/maps/4b68f) by **TheGeriatricGedi**
 - **1st:** [Labrinth - Dracula (Nate Sees Cassie)](https://beatsaver.com/maps/4adb3) by **benson2022**
 - **2nd:** [缶缶 & FAKE TYPE. - 不夜城](https://beatsaver.com/maps/4a654) by **okazu**
-- **3rd:** [Ice Nine Kills - A Work Of Art](https://beatsaver.com/maps/4ac1f) **nitronik.exe** and **TaylorGaming**
+- **3rd:** [Ice Nine Kills - A Work Of Art](https://beatsaver.com/maps/4ac1f) by **nitronik.exe** and **TaylorGaming**
 
 ### Model Winners
 
