@@ -958,16 +958,14 @@ rings.
 **Linkin Park 2 Environment**<br />
 **Info.dat Name:** `LinkinPark2Environment`<br />
 **Default Colors:** Red & Grey notes, Red & Light Grey lights, Yellow & Blue
-boost lights
+boost lights, Beige white light
 
 **Lights:** Ambient lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Logos, Floor Logos<br />
-**GLS objects:** Tunnels (light, rotation & translation), Big Arcs (light & rotation), Circular Lasers Local (light, rotation & Tr) <br />
+**GLS objects:** Tunnels (light, rotation & translation), Big Arcs (light & rotation), Circular Lasers Local (light, rotation & translation), Circular Lasers Global (rotation & translation), Laser Beams Local (light, rotation & translation), Laser Beams Global (rotation), Floor Lasers (color), Logo (color & translation), Spectrograms (color) <br />
 **Spectrum:** :x:<br />
-**Note:** Extra objects control rotation & translation of the back lasers as
-a whole, rotation of top lasers as a whole and rotation of individual vinyl
-rings.
+**Note:** The Logos require a keyword in the code in order to display copyrighted material.
 
 </td></tr>
 </tbody>
