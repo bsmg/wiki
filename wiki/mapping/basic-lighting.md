@@ -949,6 +949,29 @@ a whole, rotation of top lasers as a whole and rotation of individual vinyl
 rings.
 
 </td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Linkin Part 2 environment](/.assets/images/mapping/lp2_env.png)
+
+</td><td>
+
+**Linkin Park 2 Environment**<br />
+**Info.dat Name:** `LinkinPark2Environment`<br />
+**Default Colors:** Red & Grey notes, Red & Light Grey lights, Yellow & Blue
+boost lights
+
+**Lights:** Ambient lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Logos, Floor Logos<br />
+**GLS objects:** Tunnels (light, rotation & translation), Big Arcs (light & rotation), Circular Lasers Local (light, rotation & Tr) <br />
+**Spectrum:** :x:<br />
+**Note:** Extra objects control rotation & translation of the back lasers as
+a whole, rotation of top lasers as a whole and rotation of individual vinyl
+rings.
+
+</td></tr>
+</tbody>
+</table>
 </tbody>
 </table>
 
