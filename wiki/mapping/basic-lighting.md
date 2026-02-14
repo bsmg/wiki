@@ -963,9 +963,28 @@ boost lights, Beige white light
 **Lights:** Ambient lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Logos, Floor Logos<br />
-**GLS objects:** Tunnels (light, rotation & translation), Big Arcs (light & rotation), Circular Lasers Local (light, rotation & translation), Circular Lasers Global (rotation & translation), Laser Beams Local (light, rotation & translation), Laser Beams Global (rotation), Floor Lasers (color), Logo (color & translation), Spectrograms (color) <br />
+**GLS objects:** Tunnels (light, rotation & translation), Big Arcs (light & rotation), Circular Lasers Local (light, rotation & translation), Circular Lasers Global (rotation & translation), Laser Beams Local (light, rotation & translation), Laser Beams Global (rotation), Floor Lasers (light), Logo (color & translation), Spectrograms (light) <br />
 **Spectrum:** :x:<br />
 **Note:** The Logos require a keyword in the code in order to display copyrighted material.
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of The Rolling Stones environment](/.assets/images/mapping/trs_env.png)
+
+</td><td>
+
+**The Rolling Stones Environment**<br />
+**Info.dat Name:** `TheRollingStonesEnvironment`<br />
+**Default Colors:** Red & Purple notes, Pink & Lavender Blue lights, Dark Yellow & Aqua
+boost lights
+
+**Lights:** Ambient lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Logo<br />
+**GLS objects:** Cube (light, rotation & translation), Heart (light, rotation & translation), Logo (light, rotation & translation), Columns (light, rotation & translation), Lasers (light, rotation & translation), Spheres (light, rotation & translation), Floor (light & translation), Splinters (light, rotation & translation) <br />
+**Spectrum:** :x:<br />
+**Note:** The Logo requires a keyword in the code in order to display copyrighted material.
 
 </td></tr>
 </tbody>
