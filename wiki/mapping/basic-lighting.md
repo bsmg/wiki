@@ -1031,7 +1031,7 @@ boost lights
 </td><td>
 
 **Hip Hop Environment**<br />
-**Info.dat Name:** `DaftPunkEnvironment`<br />
+**Info.dat Name:** `HipHopEnvironment`<br />
 **Default Colors:** Orange & Turquoise notes, Orange, Green & Off White lights, Aqua, Blue & White boost lights
 
 **Lights:** Ambient lights <br />
@@ -1048,15 +1048,15 @@ boost lights
 </td><td>
 
 **Collider Environment**<br />
-**Info.dat Name:** `DaftPunkEnvironment`<br />
+**Info.dat Name:** `ColliderEnvironment`<br />
 **Default Colors:** Orange & Blue notes, Orange & Blue lights, Red & Purple boost lights
 
 **Lights:** Ambient lights <br />
 **Triggers:** :x:<br />
 **Value controls:** :x: <br />
-**GLS objects:** Center Blocks (light & translation), Lights (light, rotation & translation), Trains (light, rotation, translation & floatfx), Hoops (light, rotation & translation), Balls (light, rotation & translation), Geo (translation), Graffiti (light & translation)  <br />
+**GLS objects:** Center Blocks (light, rotation, translation & floatfx), Side Blocks (light, rotation, translation & floatfx), Colliders (light, rotation & translation), Runway (light & floatfx), Chevron (light, rotation, translation & floatfx) <br />
 **Spectrum:** :x:<br />
-**Note:** Boombox can be replaced with an Eminem logo with the right keyword, Geo controls the environment, and FloatFX puts a "light mask" pattern on objects.
+**Note:** FloatFX adds lightmasks onto any affected objects, with another one to manipulate the position of said mask.
 </tbody>
 </table>
 </tbody>
