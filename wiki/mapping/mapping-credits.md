@@ -217,6 +217,12 @@ Managed the first anniversary pack and a founder of Bloq Busters. Skyler makes i
 Authored _The Ultimate Beat Saber Mapping Guide_ which has been integrated across many of the resources.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84ea67)
 
+## Sonoluminn
+
+Rookie Lighter of 2024, looking to document the v3 process in more detail for beginners through documentation and support. Expanded the list of V3 environments in [Basic Lighting](./basic-lighting.md) from Queen to current latest environment (as of February 2026)
+[BeatSaver](https://beatsaver.com/profile/124961)
+| [YouTube](https://www.youtube.com/@Sonoluminnn) | [Twitch](https://www.twitch.tv/sonoluminn)
+
 ## Spooky Ghost
 
 Creator of beatwalls, a command line tool to easily create awesome Mapping Extensions walls. Contributed content in
