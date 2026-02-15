@@ -1032,12 +1032,29 @@ boost lights
 
 **Hip Hop Environment**<br />
 **Info.dat Name:** `DaftPunkEnvironment`<br />
-**Default Colors:** Red & Turquoise notes, Yellow, Purple & Light Blue lights, Pink, Aqua & Light Yellow boost lights
+**Default Colors:** Orange & Turquoise notes, Orange, Green & Off White lights, Aqua, Blue & White boost lights
 
-**Lights:** Ambient lights, Helmet 01 Switch, Helmet 02 Switch <br />
+**Lights:** Ambient lights <br />
 **Triggers:** :x:<br />
-**Value controls:** Helmet 01 Text, Helmet 02 Text <br />
+**Value controls:** :x: <br />
 **GLS objects:** Environment (light & translation), Lights (light, rotation & translation), Trains (light, rotation, translation & floatfx), Hoops (light, rotation & translation), Balls (light, rotation & translation), Geo (translation), Graffiti (light & translation)  <br />
+**Spectrum:** :x:<br />
+**Note:** Boombox can be replaced with an Eminem logo with the right keyword, Geo controls the environment, and FloatFX puts a "light mask" pattern on objects.
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Collider environment](/.assets/images/mapping/collider_env.png)
+
+</td><td>
+
+**Collider Environment**<br />
+**Info.dat Name:** `DaftPunkEnvironment`<br />
+**Default Colors:** Orange & Blue notes, Orange & Blue lights, Red & Purple boost lights
+
+**Lights:** Ambient lights <br />
+**Triggers:** :x:<br />
+**Value controls:** :x: <br />
+**GLS objects:** Center Blocks (light & translation), Lights (light, rotation & translation), Trains (light, rotation, translation & floatfx), Hoops (light, rotation & translation), Balls (light, rotation & translation), Geo (translation), Graffiti (light & translation)  <br />
 **Spectrum:** :x:<br />
 **Note:** Boombox can be replaced with an Eminem logo with the right keyword, Geo controls the environment, and FloatFX puts a "light mask" pattern on objects.
 </tbody>
