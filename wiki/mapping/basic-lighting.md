@@ -982,11 +982,64 @@ boost lights
 **Lights:** Ambient lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Logo<br />
-**GLS objects:** Cube (light, rotation & translation), Heart (light, rotation & translation), Logo (light, rotation & translation), Columns (light, rotation & translation), Lasers (light, rotation & translation), Spheres (light, rotation & translation), Floor (light & translation), Splinters (light, rotation & translation) <br />
+**GLS objects:** Cube (light, rotation, translation & floatfx), Heart (light, rotation, translation & floatfx), Logo (light, rotation, translation & floatfx), Columns (light, rotation & translation), Lasers (light, rotation & translation), Spheres (light, rotation, translation & floatfx), Floor (light & translation), Splinters (light, rotation, translation & floatfx) <br />
 **Spectrum:** :x:<br />
-**Note:** The Logo requires a keyword in the code in order to display copyrighted material.
+**Note:** Introduces FloatFX as a track, used in this environment to fracture objects apart into peices.
 
 </td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Lattice environment](/.assets/images/mapping/lattice_env.png)
+
+</td><td>
+
+**Lattice Environment**<br />
+**Info.dat Name:** `LatticeEnvironment`<br />
+**Default Colors:** Pink & Blue notes, Pink & Blue lights, Purple & Aqua
+boost lights
+
+**Lights:** Ambient lights<br />
+**Triggers:** :x:<br />
+**Value controls:** :x:<br />
+**GLS objects:** Cubes (light, rotation, translation & floatfx), Runway (light, rotation & translation), Chevron (light & translation) <br />
+**Spectrum:** :x:<br />
+**Note:** Uses "Radial" instead of "Global" for labelling, maps before and after this use Global. FloatFX splits apart the Cubes into smaller Cubes with lights inside.
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Daft Punk environment](/.assets/images/mapping/daftpunk_env.png)
+
+</td><td>
+
+**Daft Punk Environment**<br />
+**Info.dat Name:** `DaftPunkEnvironment`<br />
+**Default Colors:** Red & Turquoise notes, Yellow, Purple & Light Blue lights, Pink, Aqua & Light Yellow boost lights
+
+**Lights:** Ambient lights, Helmet 01 Switch, Helmet 02 Switch <br />
+**Triggers:** :x:<br />
+**Value controls:** Helmet 01 Text, Helmet 02 Text <br />
+**GLS objects:** Lasers *(top and bottom)* (light & rotation), Tris Wall (light & translation), Runway (light & translation), Helmets (light, rotation, translation & floatfx), Text (light & floatfx), Stars (light), Orbits (light, rotation & translation)  <br />
+**Spectrum:** :x:<br />
+**Note:** Text Requires a Keyword to activate, text tab in GLS is used to modify said text. FloatFX on the Heads is used to make them partially or fully invisible.
+
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Hip Hop environment](/.assets/images/mapping/hiphop_env.png)
+
+</td><td>
+
+**Hip Hop Environment**<br />
+**Info.dat Name:** `DaftPunkEnvironment`<br />
+**Default Colors:** Red & Turquoise notes, Yellow, Purple & Light Blue lights, Pink, Aqua & Light Yellow boost lights
+
+**Lights:** Ambient lights, Helmet 01 Switch, Helmet 02 Switch <br />
+**Triggers:** :x:<br />
+**Value controls:** Helmet 01 Text, Helmet 02 Text <br />
+**GLS objects:** Environment (light & translation), Lights (light, rotation & translation), Trains (light, rotation, translation & floatfx), Hoops (light, rotation & translation), Balls (light, rotation & translation), Geo (translation), Graffiti (light & translation)  <br />
+**Spectrum:** :x:<br />
+**Note:** Boombox can be replaced with an Eminem logo with the right keyword, Geo controls the environment, and FloatFX puts a "light mask" pattern on objects.
 </tbody>
 </table>
 </tbody>
