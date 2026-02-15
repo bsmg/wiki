@@ -1142,6 +1142,9 @@ boost lights
 **GLS objects:** Spheres (light, rotation, translation & floatfx), Color Points (translation & floatfx), Hemisphere (light, translation & floatfx), Circle Ribbons (light, rotation, translation & floatfx), Spiral Ribbons (light, rotation, translation & floatfx), Lasers/Infinite Lasers (light, rotation, translation & floatfx), Top Spotlights (light, rotation & translation), Misc (light, rotation, translation & floatfx), Moonrise (light & floatfx), Hearts (light, rotation, translation & floatfx) <br />
 **Spectrum:** :x:<br />
 **Note:** Introduces another new application of FloatFX, that being 3D noise Modification. Adds the ability to have many objects of the environment switch to different colors not in the color pallette using said 3D noise. alongside scaling and many other previously introduced FloatFX gimmicks, this environment is a moderately big undertaking.
+</td></tr>
+<tr><td style="text-align: center;">
+  test
 </tbody>
 </table>
 </tbody>
