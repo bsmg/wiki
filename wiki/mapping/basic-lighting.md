@@ -1060,7 +1060,7 @@ boost lights
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Collider environment](/.assets/images/mapping/britney_env.png)
+![Image of Britney environment](/.assets/images/mapping/britney_env.png)
 
 </td><td>
 
