@@ -1128,7 +1128,7 @@ boost lights
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Cube environment](/.assets/images/mapping/cube_env.png)
+![Image of Coldplay environment](/.assets/images/mapping/coldplay_env.png)
 
 </td><td>
 
