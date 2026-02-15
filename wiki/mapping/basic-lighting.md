@@ -1074,6 +1074,74 @@ boost lights
 **GLS objects:** Cubes (light, rotation, translation & floatfx), Display (light, rotation, translation & floatfx), Top Lasers (light, rotation, translation & floatfx), Spirals (light, rotation, translation & floatfx), Outer Cylinders (light, rotation, translation & floatfx), Stage and Runway (light & floatfx), Chevron (light, rotation, translation & floatfx), Stars (light) <br />
 **Spectrum:** :x:<br />
 **Note:** Adds FloatFX to lasers, which expands them out to be spotlight esque. Remember that they still collide with objects as spotlights, and cut off irregularly if they do, as well as the fact that they squish if you don't turn down the FloatFX on them at the same rate as the color. Another thing to note is that Icons do not need a keyword and can be used freely, with the Espresso shock drop specific only working after they were introduced (1.40.8)
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Monstercat 2 environment](/.assets/images/mapping/mcat2_env.png)
+
+</td><td>
+
+**Monstercat 2 Environment**<br />
+**Info.dat Name:** `Monstercat2Environment`<br />
+**Default Colors:** Pink & Purple notes, Purple & Green lights, Red & Turquoise boost lights
+
+**Lights:** Ambient lights, Player place <br />
+**Triggers:** :x:<br />
+**Value controls:** :x: <br />
+**GLS objects:** Screens (light, rotation, translation & floatfx), Runway (light, rotation, translation & floatfx), Light Pillars (light, rotation, translation & floatfx), Head (light, rotation, translation & floatfx), Lasers (light, rotation & translation), Screens (light, rotation, translation & floatfx) <br />
+**Spectrum:** :x:<br />
+**Note:** FloatFX controls distortion of hatching patterns of objects and rising of "Teeth" (spectrograms). Light Pillars are automatically set to have 4 sections spaced out from each other, requiring some effort to group all IDs back into one singular object.
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Metallica environment](/.assets/images/mapping/metallica_env.png)
+
+</td><td>
+
+**Metallica Environment**<br />
+**Info.dat Name:** `MetallicaEnvironment`<br />
+**Default Colors:** Grey & Light Grey notes, Orange & Blue lights, Red & Purple boost lights (boost lights vary in the metallica pack)
+
+**Lights:** Ambient lights, Player place <br />
+**Triggers:** :x:<br />
+**Value controls:** Pillar Switch <br />
+**GLS objects:** Pillars (light, rotation, translation & floatfx), Center Stage (light, rotation, translation & floatfx), Stage BG Lasers (light, rotation, translation & floatfx), Runway/Chevron (light, rotation, translation & floatfx), BG Lighting/Construction (light & floatfx), Effects (light, translation & floatfx), Scaffolding (rotation & translation), Infinite Lasers (light, rotation & translation) <br />
+**Spectrum:** :x:<br />
+**Note:** FloatFX controls spotlight lasers and lightmask patterns on objects.
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Cube environment](/.assets/images/mapping/cube_env.png)
+
+</td><td>
+
+**Cube Environment**<br />
+**Info.dat Name:** `GridEnvironment`<br />
+**Default Colors:** Yellow & Purple notes, Yellow & Purple lights, Red & Blue boost lights
+
+**Lights:** Ambient lights, Player place <br />
+**Triggers:** :x:<br />
+**Value controls:** :x: <br />
+**GLS objects:** Chevrons (light, rotation, translation & floatfx), Cubes (light, rotation, translation & floatfx), Lasers & Infinite Lasers (light, rotation, translation & floatfx), Motion Tab (floatfx), Floor (light & floatfx), Runway (light, rotation, translation & floatfx) <br />
+**Spectrum:** :x:<br />
+**Note:** Introduces a new application of FloatFX: Scaling. Also introduces a Motion tab, which allows for grid-based patterns in the Cubes. It is very complex and not neccecary for lighting in this environment, so approach with the idea that you will likely not understand it at first.
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Cube environment](/.assets/images/mapping/cube_env.png)
+
+</td><td>
+
+**Coldplay Environment**<br />
+**Info.dat Name:** `ColdplayEnvironment`<br />
+**Default Colors:** Pink & Blue notes, Indigo & Blue lights, Yellow & Green boost lights (lights vary throughout the Coldplay pack)
+
+**Lights:** Ambient lights, Player place <br />
+**Triggers:** :x:<br />
+**Value controls:** :x: <br />
+**GLS objects:** Spheres (light, rotation, translation & floatfx), Color Points (translation & floatfx), Hemisphere (light, translation & floatfx), Circle Ribbons (light, rotation, translation & floatfx), Spiral Ribbons (light, rotation, translation & floatfx), Lasers/Infinite Lasers (light, rotation, translation & floatfx), Top Spotlights (light, rotation & translation), Misc (light, rotation, translation & floatfx), Moonrise (light & floatfx), Hearts (light, rotation, translation & floatfx) <br />
+**Spectrum:** :x:<br />
+**Note:** Introduces another new application of FloatFX, that being 3D noise Modification. Adds the ability to have many objects of the environment switch to different colors not in the color pallette using said 3D noise. alongside scaling and many other previously introduced FloatFX gimmicks, this environment is a moderately big undertaking.
 </tbody>
 </table>
 </tbody>
