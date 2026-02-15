@@ -1057,6 +1057,23 @@ boost lights
 **GLS objects:** Center Blocks (light, rotation, translation & floatfx), Side Blocks (light, rotation, translation & floatfx), Colliders (light, rotation & translation), Runway (light & floatfx), Chevron (light, rotation, translation & floatfx) <br />
 **Spectrum:** :x:<br />
 **Note:** FloatFX adds lightmasks onto any affected objects, with another one to manipulate the position of said mask.
+</td></tr>
+<tr><td style="text-align: center;">
+
+![Image of Collider environment](/.assets/images/mapping/britney_env.png)
+
+</td><td>
+
+**Britney Environment**<br />
+**Info.dat Name:** `BritneyEnvironment`<br />
+**Default Colors:** Pink & Blue notes, Pink & Blue lights, Salmon Pink & Aqua boost lights
+
+**Lights:** Ambient lights, Player place, Dust particles <br />
+**Triggers:** :x:<br />
+**Value controls:** Icons <br />
+**GLS objects:** Cubes (light, rotation, translation & floatfx), Display (light, rotation, translation & floatfx), Top Lasers (light, rotation, translation & floatfx), Spirals (light, rotation, translation & floatfx), Outer Cylinders (light, rotation, translation & floatfx), Stage and Runway (light & floatfx), Chevron (light, rotation, translation & floatfx), Stars (light) <br />
+**Spectrum:** :x:<br />
+**Note:** Adds FloatFX to lasers, which expands them out to be spotlight esque. Remember that they still collide with objects as spotlights, and cut off irregularly if they do, as well as the fact that they squish if you don't turn down the FloatFX on them at the same rate as the color. Another thing to note is that Icons do not need a keyword and can be used freely, with the Espresso shock drop specific only working after they were introduced (1.40.8)
 </tbody>
 </table>
 </tbody>
