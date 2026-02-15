@@ -1143,7 +1143,7 @@ boost lights
 **Spectrum:** :x:<br />
 **Note:** Introduces another new application of FloatFX, that being 3D noise Modification. Adds the ability to have many objects of the environment switch to different colors not in the color pallette using said 3D noise. alongside scaling and many other previously introduced FloatFX gimmicks, this environment is a moderately big undertaking.
 </tr><td align="center" colspan="2">
-  You can find more details on V3/GLS environments in the [Guide to the Group Lighting System]([https://www.easyrgb.com/en/convert.php](https://docs.google.com/document/d/1NQzXNsQ0VhnCoUBhEb_Qx0gONsqaD8drOMWIXJk79vE/edit?usp=sharing)) Document.
+  You can find more details on V3/GLS environments in the [Guide to the Group Lighting System](https://docs.google.com/document/d/1NQzXNsQ0VhnCoUBhEb_Qx0gONsqaD8drOMWIXJk79vE/edit?usp=sharing) Document.
 </tbody>
 </table>
 </tbody>
