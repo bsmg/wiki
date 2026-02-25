@@ -7,8 +7,8 @@ description: List of all the people who contributed to the Mapping Resources!
 # Mapping Resources Contributors
 
 Over _thirty_ different mapping guides and tutorials have been combined into this wiki so that it can be maintained by
-the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content. Check out
-their maps and consider supporting them!
+the community as a whole. Many many **MANY** thanks to the mappers who blazed this trail and contributed content. Check
+out their maps and consider supporting them!
 
 > Missed you? Want to update your bio? [Let us know!](https://docs.google.com/forms/d/e/1FAIpQLSfVS6_EMZOujxthR3lTa2eEwHg5C3x1INouLgnbHhBDpv1M5A/viewform)
 
@@ -216,6 +216,13 @@ Bringer of eye damage with his flashy light shows, he can help you make your map
 Managed the first anniversary pack and a founder of Bloq Busters. Skyler makes it a point to do full spread mapping.  
 Authored _The Ultimate Beat Saber Mapping Guide_ which has been integrated across many of the resources.  
 [BeatSaver](https://beatsaver.com/uploader/5cff0b7298cc5a672c84ea67)
+
+## Sonoluminn
+
+Rookie Lighter of 2024, looking to document the v3 process in more detail for beginners through documentation and support.
+Contributed to the list of V3 environments in [Basic Lighting](./basic-lighting.md).
+[BeatSaver](https://beatsaver.com/profile/124961)
+| [YouTube](https://www.youtube.com/@Sonoluminnn) | [Twitch](https://www.twitch.tv/sonoluminn)
 
 ## Spooky Ghost
 
