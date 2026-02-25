@@ -1146,8 +1146,6 @@ boost lights
   You can find more details on V3/GLS environments in the <a href="https://docs.google.com/document/d/1NQzXNsQ0VhnCoUBhEb_Qx0gONsqaD8drOMWIXJk79vE/edit?usp=sharing">Guide to the Group Lighting System</a> Document.
 </tbody>
 </table>
-</tbody>
-</table>
 
 <!-- markdownlint-restore -->
 
