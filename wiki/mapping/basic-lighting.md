@@ -4,6 +4,8 @@ next: false
 description: Learn how to get started manually lighting your map!
 ---
 
+<!-- markdownlint-disable MD013 -->
+
 # Basic Lighting
 
 _Make Beat Saber a brighter place by manually lighting your maps._
@@ -24,8 +26,6 @@ You don't need to be an AaltopahWi or a Skeelie to make great lighting!
 
 The following types of lanes exist in the Static Event System:
 
-<!-- markdownlint-disable MD013 -->
-
 | Object  | Description                                                                                                                                                                                                        |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Lights  | Controls the light intensity of lights, lasers, etc. Events on these lanes have a color and a type associated. These events light up the environment, and other events would create minimal impact without lights. |
@@ -33,12 +33,8 @@ The following types of lanes exist in the Static Event System:
 | Trigger | An event on this lane triggers a change in an object. Examples include Ring Spin and Ring Zoom.                                                                                                                    |
 | Boost   | Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors. There is no fade option for this effect.                                        |
 
-<!-- markdownlint-enable MD013 -->
-
 Objects in the Group Lighting System (GLS) may have the following properties
 controllable:
-
-<!-- markdownlint-disable MD013 -->
 
 | Object      | Description                                                                                                                         |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------- |
@@ -46,13 +42,11 @@ controllable:
 | Rotation    | Unlike the randomized trigger in environments before Weave, the Group Lighting System allows for more granular control of rotation. |
 | Translation | Debuting in The Weeknd environment, controls the position of an object in the environment.                                          |
 
-<!-- markdownlint-enable MD013 -->
-
 In environments before Weave, the set of objects controllable are generally
 consistent, though may be in different positions or may be missing altogether.
 The controllable objects are as follows:
 
-<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD033 -->
 
 | Object          | Description                                                                                                                                                                                                                                                                            |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,7 +59,7 @@ The controllable objects are as follows:
 | Laser Speed     | Changes the speed of the side laser rotation from stationary (0) to very fast (20). <br>Set independently for the right and left side lasers. Back top lasers do not move. Laser speed increases linearly so **2** is twice as fast as **1** and **5** is five times as fast as **1**. |
 | Boost Event     | Changes lighting colors between two pairs of colors. Off uses the first pair of colors. On uses the second (boost) pair of colors. There is no fade or flash option for this event.                                                                                                    |
 
-<!-- markdownlint-enable MD013 -->
+<!-- markdownlint-enable MD033 -->
 
 In environments that use the v3 Group Lighting System (Weave and later),
 the set of objects controllable are unique to each environment.
@@ -100,14 +94,10 @@ currently under development. While v2 can be used with all classic
 environments, similar to v1, the four-event system has been replaced with
 only two types of events:
 
-<!-- markdownlint-disable MD013 -->
-
 | Event  | Description                                                                                                                                                    |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Static | Sets a light to a specified level. The light will stay at the level, until the next event.                                                                     |
 | Fade   | Fades a light to a specified level. The fade starts at the event immediately before, or at the start of the song if there is none, and ends on the fade event. |
-
-<!-- markdownlint-enable MD013 -->
 
 The level of a light ranges from 0 to 120. 0 means no light, 100 is the
 level of a v1 On event, and 120 is the maximum.
@@ -129,11 +119,13 @@ placed.
 The Official Editor features two views: the top view in which all groups
 for all objects are visible, and the group view showing individual events
 in a single group. The group view is entered by clicking a group, and can
+<!-- markdownlint-disable MD033 -->
 be exited by pressing <kbd>Esc</kbd>.
 
 A group defaults to controlling all lights at once. If you want to
 control individual lights, you can simply hold <kbd>Shift</kbd> and
 click the `+` button near the top right menu.
+<!-- markdownlint-enable MD033 -->
 
 Light events in v3 are mostly identical to those of v2, with a few
 changes and additions. Firstly, the intensity of a light is no longer
@@ -147,7 +139,7 @@ rotation event immediately before (the start of the song if none), and
 completes at the time of the event, similar to a fade event. A
 rotation event has the following parameters:
 
-<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD033 -->
 
 | Parameter      | Description                                                                                                                                                                                                                                                                                                                            |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -156,7 +148,7 @@ rotation event has the following parameters:
 | Easing         | Specifies the rate of change over time. Visit [easings.net](https://easings.net/) for a visualization of the Quad options. <br>`None` - rotates instantly<br>`Linear` - rotates at a constant speed<br>`InQuad` - starts slow and ends fast<br>`OutQuad` - starts fast and ends slow<br>`InOutQuad` - both accelerates and decelerates |
 | Extension      | Useable with light and rotation events it keeps the intensity of a light or the angle of a rotation fixed until this event.                                                                                                                                                                                                            |
 
-<!-- markdownlint-enable MD013 -->
+<!-- markdownlint-enable MD033 -->
 
 ## Best Practices & Techniques
 
@@ -1019,7 +1011,7 @@ boost lights
 **Lights:** Ambient lights, Helmet 01 Switch, Helmet 02 Switch <br />
 **Triggers:** :x:<br />
 **Value controls:** Helmet 01 Text, Helmet 02 Text <br />
-**GLS objects:** Lasers *(top and bottom)* (light & rotation), Tris Wall (light & translation), Runway (light & translation), Helmets (light, rotation, translation & floatfx), Text (light & floatfx), Stars (light), Orbits (light, rotation & translation)  <br />
+**GLS objects:** Lasers _(top and bottom)_ (light & rotation), Tris Wall (light & translation), Runway (light & translation), Helmets (light, rotation, translation & floatfx), Text (light & floatfx), Stars (light), Orbits (light, rotation & translation)  <br />
 **Spectrum:** :x:<br />
 **Note:** Text Requires a Keyword to activate, text tab in GLS is used to modify said text. FloatFX on the Heads is used to make them partially or fully invisible.
 
@@ -1142,7 +1134,8 @@ boost lights
 **GLS objects:** Spheres (light, rotation, translation & floatfx), Color Points (translation & floatfx), Hemisphere (light, translation & floatfx), Circle Ribbons (light, rotation, translation & floatfx), Spiral Ribbons (light, rotation, translation & floatfx), Lasers/Infinite Lasers (light, rotation, translation & floatfx), Top Spotlights (light, rotation & translation), Misc (light, rotation, translation & floatfx), Moonrise (light & floatfx), Hearts (light, rotation, translation & floatfx) <br />
 **Spectrum:** :x:<br />
 **Note:** Introduces another new application of FloatFX, that being 3D noise Modification. Adds the ability to have many objects of the environment switch to different colors not in the color pallette using said 3D noise. alongside scaling and many other previously introduced FloatFX gimmicks, this environment is a moderately big undertaking.
-</tr><td align="center" colspan="2">
+</td></tr>
+<tr><td align="center" colspan="2">
   You can find more details on V3/GLS environments in the <a href="https://docs.google.com/document/d/1NQzXNsQ0VhnCoUBhEb_Qx0gONsqaD8drOMWIXJk79vE/edit?usp=sharing">Guide to the Group Lighting System</a> Document.
 </tbody>
 </table>
@@ -1232,6 +1225,7 @@ Open the game properties and add `fpfc` to the Steam launch options in the Gener
    For example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" fpfc`
 
 After installing the mods and adding the launch parameter you can then now move around and pause in a map.
+<!-- markdownlint-disable MD033 -->
 The default toggle key to switch between headset and mouse/keyboard control is <kbd>G</kbd>.
 
 :::warning NOTE
@@ -1241,6 +1235,8 @@ The default toggle key to switch between headset and mouse/keyboard control is <
   - Press the <kbd>G</kbd> key until the headset displays the game  
     **==OR==**
   - Quit the game, remove the launch option, and relaunch the game.
+
+<!-- markdownlint-enable MD033 -->
 
 - If the mod doesn't seem to be working, make sure the in-game Smooth Camera setting is disabled.
 
