@@ -225,7 +225,8 @@ effect.
 
 ## Default Environments
 
-There are various built-in environments in Beat Saber which are part of the base game and can be used easily with a few clicks.
+There are various built-in environments in Beat Saber which are part of the base game and can be used easily with a
+few clicks.
 
 ::: warning NOTE
 Custom environment models (platforms) created by the community exist but require the Custom Platforms mod which is not
@@ -963,7 +964,10 @@ boost lights, Beige white light
 **Lights:** Ambient lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Logos, Floor Logos<br />
-**GLS objects:** Tunnels (light, rotation & translation), Big Arcs (light & rotation), Circular Lasers Local (light, rotation & translation), Circular Lasers Global (rotation & translation), Laser Beams Local (light, rotation & translation), Laser Beams Global (rotation), Floor Lasers (light), Logo (color & translation), Spectrograms (light) <br />
+**GLS objects:** Tunnels (light, rotation & translation), Big Arcs (light & rotation), Circular Lasers Local
+(light, rotation & translation), Circular Lasers Global (rotation & translation), Laser Beams Local
+(light, rotation & translation), Laser Beams Global (rotation), Floor Lasers (light), Logo (color & translation),
+Spectrograms (light) <br />
 **Spectrum:** :x:<br />
 **Note:** The Logos require a keyword in the code in order to display copyrighted material.
 
@@ -982,9 +986,12 @@ boost lights
 **Lights:** Ambient lights<br />
 **Triggers:** :x:<br />
 **Value controls:** Logo<br />
-**GLS objects:** Cube (light, rotation, translation & floatfx), Heart (light, rotation, translation & floatfx), Logo (light, rotation, translation & floatfx), Columns (light, rotation & translation), Lasers (light, rotation & translation), Spheres (light, rotation, translation & floatfx), Floor (light & translation), Splinters (light, rotation, translation & floatfx) <br />
+**GLS objects:** Cube (light, rotation, translation & floatfx), Heart (light, rotation, translation & floatfx), Logo
+(light, rotation, translation & floatfx), Columns (light, rotation & translation), Lasers (light, rotation & translation),
+Spheres (light, rotation, translation & floatfx), Floor (light & translation), Splinters (light, rotation, translation &
+floatfx)<br />
 **Spectrum:** :x:<br />
-**Note:** Introduces FloatFX as a track, used in this environment to fracture objects apart into peices.
+**Note:** Introduces FloatFX as a track, used in this environment to fracture objects apart into pieces.
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -1001,9 +1008,11 @@ boost lights
 **Lights:** Ambient lights<br />
 **Triggers:** :x:<br />
 **Value controls:** :x:<br />
-**GLS objects:** Cubes (light, rotation, translation & floatfx), Runway (light, rotation & translation), Chevron (light & translation) <br />
+**GLS objects:** Cubes (light, rotation, translation & floatfx), Runway (light, rotation & translation), Chevron (light
+& translation) <br />
 **Spectrum:** :x:<br />
-**Note:** Uses "Radial" instead of "Global" for labelling, maps before and after this use Global. FloatFX splits apart the Cubes into smaller Cubes with lights inside.
+**Note:** Uses "Radial" instead of "Global" for labelling, maps before and after this use Global. FloatFX splits apart
+the Cubes into smaller Cubes with lights inside.
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -1019,9 +1028,12 @@ boost lights
 **Lights:** Ambient lights, Helmet 01 Switch, Helmet 02 Switch <br />
 **Triggers:** :x:<br />
 **Value controls:** Helmet 01 Text, Helmet 02 Text <br />
-**GLS objects:** Lasers *(top and bottom)* (light & rotation), Tris Wall (light & translation), Runway (light & translation), Helmets (light, rotation, translation & floatfx), Text (light & floatfx), Stars (light), Orbits (light, rotation & translation)  <br />
+**GLS objects:** Lasers _(top and bottom)_ (light & rotation), Tris Wall (light & translation), Runway (light & translation),
+Helmets (light, rotation, translation & floatfx), Text (light & floatfx), Stars (light), Orbits
+(light, rotation & translation) <br />
 **Spectrum:** :x:<br />
-**Note:** Text Requires a Keyword to activate, text tab in GLS is used to modify said text. FloatFX on the Heads is used to make them partially or fully invisible.
+**Note:** Text Requires a Keyword to activate, text tab in GLS is used to modify said text. FloatFX on the Heads is used
+to make them partially or fully invisible.
 
 </td></tr>
 <tr><td style="text-align: center;">
@@ -1037,9 +1049,13 @@ boost lights
 **Lights:** Ambient lights <br />
 **Triggers:** :x:<br />
 **Value controls:** :x: <br />
-**GLS objects:** Environment (light & translation), Lights (light, rotation & translation), Trains (light, rotation, translation & floatfx), Hoops (light, rotation & translation), Balls (light, rotation & translation), Geo (translation), Graffiti (light & translation)  <br />
+**GLS objects:** Environment (light & translation), Lights (light, rotation & translation), Trains (light, rotation,
+translation & floatfx), Hoops (light, rotation & translation), Balls (light, rotation & translation), Geo (translation),
+Graffiti (light & translation) <br />
 **Spectrum:** :x:<br />
-**Note:** Boombox can be replaced with an Eminem logo with the right keyword, Geo controls the environment, and FloatFX puts a "light mask" pattern on objects.
+**Note:** Boombox can be replaced with an Eminem logo with the right keyword, Geo controls the environment, and FloatFX
+puts a "light mask" pattern on objects.
+
 </td></tr>
 <tr><td style="text-align: center;">
 
@@ -1054,9 +1070,12 @@ boost lights
 **Lights:** Ambient lights <br />
 **Triggers:** :x:<br />
 **Value controls:** :x: <br />
-**GLS objects:** Center Blocks (light, rotation, translation & floatfx), Side Blocks (light, rotation, translation & floatfx), Colliders (light, rotation & translation), Runway (light & floatfx), Chevron (light, rotation, translation & floatfx) <br />
+**GLS objects:** Center Blocks (light, rotation, translation & floatfx), Side Blocks (light, rotation, translation & floatfx),
+Colliders (light, rotation & translation), Runway (light & floatfx),
+Chevron (light, rotation, translation & floatfx) <br />
 **Spectrum:** :x:<br />
 **Note:** FloatFX adds lightmasks onto any affected objects, with another one to manipulate the position of said mask.
+
 </td></tr>
 <tr><td style="text-align: center;">
 
@@ -1071,9 +1090,16 @@ boost lights
 **Lights:** Ambient lights, Player place, Dust particles <br />
 **Triggers:** :x:<br />
 **Value controls:** Icons <br />
-**GLS objects:** Cubes (light, rotation, translation & floatfx), Display (light, rotation, translation & floatfx), Top Lasers (light, rotation, translation & floatfx), Spirals (light, rotation, translation & floatfx), Outer Cylinders (light, rotation, translation & floatfx), Stage and Runway (light & floatfx), Chevron (light, rotation, translation & floatfx), Stars (light) <br />
+**GLS objects:** Cubes (light, rotation, translation & floatfx), Display (light, rotation, translation & floatfx),
+Top Lasers (light, rotation, translation & floatfx), Spirals (light, rotation, translation & floatfx), Outer Cylinders
+(light, rotation, translation & floatfx), Stage and Runway (light & floatfx), Chevron (light, rotation, translation & floatfx),
+Stars (light) <br />
 **Spectrum:** :x:<br />
-**Note:** Adds FloatFX to lasers, which expands them out to be spotlight esque. Remember that they still collide with objects as spotlights, and cut off irregularly if they do, as well as the fact that they squish if you don't turn down the FloatFX on them at the same rate as the color. Another thing to note is that Icons do not need a keyword and can be used freely, with the Espresso shock drop specific only working after they were introduced (1.40.8)
+**Note:** Adds FloatFX to lasers, which expands them out to be spotlight esque. Remember that they still collide with
+objects as spotlights, and cut off irregularly if they do, as well as the fact that they squish if you don't turn down
+the FloatFX on them at the same rate as the color. Another thing to note is that Icons do not need a keyword and can be
+used freely, with the Espresso shock drop specific only working after they were introduced (1.40.8)
+
 </td></tr>
 <tr><td style="text-align: center;">
 
@@ -1088,9 +1114,14 @@ boost lights
 **Lights:** Ambient lights, Player place <br />
 **Triggers:** :x:<br />
 **Value controls:** :x: <br />
-**GLS objects:** Screens (light, rotation, translation & floatfx), Runway (light, rotation, translation & floatfx), Light Pillars (light, rotation, translation & floatfx), Head (light, rotation, translation & floatfx), Lasers (light, rotation & translation), Screens (light, rotation, translation & floatfx) <br />
+**GLS objects:** Screens (light, rotation, translation & floatfx), Runway (light, rotation, translation & floatfx), Light
+Pillars (light, rotation, translation & floatfx), Head (light, rotation, translation & floatfx), Lasers (light, rotation
+& translation), Screens (light, rotation, translation & floatfx) <br />
 **Spectrum:** :x:<br />
-**Note:** FloatFX controls distortion of hatching patterns of objects and rising of "Teeth" (spectrograms). Light Pillars are automatically set to have 4 sections spaced out from each other, requiring some effort to group all IDs back into one singular object.
+**Note:** FloatFX controls distortion of hatching patterns of objects and rising of "Teeth" (spectrograms). Light Pillars
+are automatically set to have 4 sections spaced out from each other, requiring some effort to group all IDs back into one
+singular object.
+
 </td></tr>
 <tr><td style="text-align: center;">
 
@@ -1100,14 +1131,19 @@ boost lights
 
 **Metallica Environment**<br />
 **Info.dat Name:** `MetallicaEnvironment`<br />
-**Default Colors:** Grey & Light Grey notes, Orange & Blue lights, Red & Purple boost lights (boost lights vary in the metallica pack)
+**Default Colors:** Grey & Light Grey notes, Orange & Blue lights, Red & Purple boost lights (boost lights vary in the
+metallica pack)
 
 **Lights:** Ambient lights, Player place <br />
 **Triggers:** :x:<br />
 **Value controls:** Pillar Switch <br />
-**GLS objects:** Pillars (light, rotation, translation & floatfx), Center Stage (light, rotation, translation & floatfx), Stage BG Lasers (light, rotation, translation & floatfx), Runway/Chevron (light, rotation, translation & floatfx), BG Lighting/Construction (light & floatfx), Effects (light, translation & floatfx), Scaffolding (rotation & translation), Infinite Lasers (light, rotation & translation) <br />
+**GLS objects:** Pillars (light, rotation, translation & floatfx), Center Stage (light, rotation, translation & floatfx),
+Stage BG Lasers (light, rotation, translation & floatfx), Runway/Chevron (light, rotation, translation & floatfx), BG
+Lighting/Construction (light & floatfx), Effects (light, translation & floatfx), Scaffolding (rotation & translation),
+Infinite Lasers (light, rotation & translation) <br />
 **Spectrum:** :x:<br />
 **Note:** FloatFX controls spotlight lasers and lightmask patterns on objects.
+
 </td></tr>
 <tr><td style="text-align: center;">
 
@@ -1122,9 +1158,14 @@ boost lights
 **Lights:** Ambient lights, Player place <br />
 **Triggers:** :x:<br />
 **Value controls:** :x: <br />
-**GLS objects:** Chevrons (light, rotation, translation & floatfx), Cubes (light, rotation, translation & floatfx), Lasers & Infinite Lasers (light, rotation, translation & floatfx), Motion Tab (floatfx), Floor (light & floatfx), Runway (light, rotation, translation & floatfx) <br />
+**GLS objects:** Chevrons (light, rotation, translation & floatfx), Cubes (light, rotation, translation & floatfx), Lasers
+& Infinite Lasers (light, rotation, translation & floatfx), Motion Tab (floatfx), Floor (light & floatfx), Runway (light,
+rotation, translation & floatfx) <br />
 **Spectrum:** :x:<br />
-**Note:** Introduces a new application of FloatFX: Scaling. Also introduces a Motion tab, which allows for grid-based patterns in the Cubes. It is very complex and not neccecary for lighting in this environment, so approach with the idea that you will likely not understand it at first.
+**Note:** Introduces a new application of FloatFX: Scaling. Also introduces a Motion tab, which allows for grid-based
+patterns in the Cubes. It is very complex and not necessary for lighting in this environment, so approach with the idea
+that you will likely not understand it at first.
+
 </td></tr>
 <tr><td style="text-align: center;">
 
@@ -1134,20 +1175,30 @@ boost lights
 
 **Coldplay Environment**<br />
 **Info.dat Name:** `ColdplayEnvironment`<br />
-**Default Colors:** Pink & Blue notes, Indigo & Blue lights, Yellow & Green boost lights (lights vary throughout the Coldplay pack)
+**Default Colors:** Pink & Blue notes, Indigo & Blue lights, Yellow & Green boost lights (lights vary throughout the
+Coldplay pack)
 
 **Lights:** Ambient lights, Player place <br />
 **Triggers:** :x:<br />
 **Value controls:** :x: <br />
-**GLS objects:** Spheres (light, rotation, translation & floatfx), Color Points (translation & floatfx), Hemisphere (light, translation & floatfx), Circle Ribbons (light, rotation, translation & floatfx), Spiral Ribbons (light, rotation, translation & floatfx), Lasers/Infinite Lasers (light, rotation, translation & floatfx), Top Spotlights (light, rotation & translation), Misc (light, rotation, translation & floatfx), Moonrise (light & floatfx), Hearts (light, rotation, translation & floatfx) <br />
+**GLS objects:** Spheres (light, rotation, translation & floatfx), Color Points (translation & floatfx), Hemisphere
+(light, translation & floatfx), Circle Ribbons (light, rotation, translation & floatfx), Spiral Ribbons (light, rotation,
+translation & floatfx), Lasers/Infinite Lasers (light, rotation, translation & floatfx), Top Spotlights (light, rotation
+& translation), Misc (light, rotation, translation & floatfx), Moonrise (light & floatfx), Hearts (light, rotation, translation
+& floatfx) <br />
 **Spectrum:** :x:<br />
-**Note:** Introduces another new application of FloatFX, that being 3D noise Modification. Adds the ability to have many objects of the environment switch to different colors not in the color pallette using said 3D noise. alongside scaling and many other previously introduced FloatFX gimmicks, this environment is a moderately big undertaking.
-</td></tr>
-</tr><td align="center" colspan="2">
-  You can find more details on V3/GLS environments in the <a href="https://docs.google.com/document/d/1NQzXNsQ0VhnCoUBhEb_Qx0gONsqaD8drOMWIXJk79vE/edit?usp=sharing">Guide to the Group Lighting System</a> Document.
+**Note:** Introduces another new application of FloatFX, that being 3D noise Modification. Adds the ability to have many
+objects of the environment switch to different colors not in the color pallette using said 3D noise. alongside scaling
+and many other previously introduced FloatFX gimmicks, this environment is a moderately big undertaking.
+
 </td></tr>
 </tbody>
 </table>
+
+:::tip NOTE
+You can find more information on the Group Lighting System environments in this
+[Guide to the Group Lighting System](https://docs.google.com/document/d/1NQzXNsQ0VhnCoUBhEb_Qx0gONsqaD8drOMWIXJk79vE).
+:::
 
 <!-- markdownlint-restore -->
 
