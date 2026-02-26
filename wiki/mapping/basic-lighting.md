@@ -691,7 +691,7 @@ control left & right lasers.
 </td></tr>
 <tr><td style="text-align: center;">
 
-![Image of Spoooky environment](/.assets/images/mapping/spoooky_env.png)
+![Image of Spoooky environment](/.assets/images/mapping/spoooky_env.jpg)
 
 </td><td>
 
