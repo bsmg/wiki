@@ -88,7 +88,7 @@ In step and offset mode, one chunk would be affected by the lane for
 every step. The size of a step is adjustable. If step is set to 2, then
 the 1st chunk would be controlled by the lane, the 2nd in turn would
 not, the 3rd would, the 4th would not, and so on. If it is 3 instead,
-the lane would control chunks 1, 3, 7, 10 and on.
+the lane would control chunks 1, 4, 7, 10 and on.
 
 The selection does not need to start at the 1st chunk; it can be offset with the `Light #`
 parameter to choose which chunk to start the filtering.
