@@ -64,9 +64,9 @@ You will need to temporarily remove any secondary accounts before modding.
 :::
 
 ::: danger Quest 1 Users
-Modding on Quest 1 is only possible on version 1.28 or below of Beat Saber.
+Quest 1 can be upgraded to **Beat Saber v1.40.8** and modded, but **only** using
+**ModsBeforeFriday (MBF)** because it requires a special compatibility patch.
 
-Visit the [Modding Quest 1 page](./quest/modding-quest1.md) for modding instructions.
 :::
 
 ## Preparations
@@ -165,6 +165,13 @@ Android users should visit [Modding with Android](./quest/modding-with-android.m
 ### QuestPatcher
 
 QuestPatcher is a GUI based mod installer for any il2cpp unity app on the Oculus Quest that runs on Windows, Linux, or macOS.
+
+:::warning Quest 1 Users
+Quest 1 can be upgraded to **Beat Saber v1.40.8** and modded, but **only**
+using **ModsBeforeFriday (MBF)** because it requires a special compatibility patch.
+
+Use: [Modding with ModsBeforeFriday](./quest/modding-with-mbf.md)
+:::
 
 If you have not already, go to [Preparations](./quest-modding.md#preparations) and follow those steps.
 You should now have Developer Mode enabled and SideQuest Advanced installed on your PC.
