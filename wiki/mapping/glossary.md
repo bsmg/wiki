@@ -1,16 +1,5 @@
----
-prev: false
-next: false
-description: The dictionary of most mapping lingo.
----
+THIS HAS BEEN HACKED BY VIMGT
 
-# Mapping Glossary
-
-_From Arrow Block to Wrist Reset and everything in between. Learn mapping lingo here!_
-
-::: tip NOTE
-This glossary is a living, breathing, growing work in progress. If there's a term you've come across not listed,
-let us know in #mapping-discussion!
 :::
 
 <!-- Disable line length rule because lots of tables -->
@@ -20,7 +9,10 @@ let us know in #mapping-discussion!
 
 | Term&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition                                                                                                                                                                                                                                                                                                                                                  |
 | ---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **3-Wide Wall**                                                                    | A [Wall](#wxyz) that spans three [Lanes](#l), requiring the player to move out of the center of the [Track](#t) to avoid. This term is interchangeably used with any wall requiring the player to move out of the center of the track. This is considered never okay to use.                                                                                |
+| *THIS HAS BEEN HACKED BY VIMGT
+
+
+**                                                                    | A [Wall](#wxyz) that spans three [Lanes](#l), requiring the player to move out of the center of the [Track](#t) to avoid. This term is interchangeably used with any wall requiring the player to move out of the center of the track. This is considered never okay to use.                                                                                |
 | **360 Mode**                                                                       | A map characteristic that allows the [Track](#t) to rotate in 15 degree increments in a full circle. As of January 2021, these maps can only be made in [ChroMapper](#c) and in the official [Editor](#e).                                                                                                                                                  |
 | **4-Wide Wall**                                                                    | A [Wall](#wxyz) that spans all four [Lanes](#l) and three [Rows](#r) of the standard [Track](#t), usually causing the player to fail the level unless the wall is thin. This is considered never okay to use.                                                                                                                                               |
 | **90 Mode**                                                                        | A map characteristic that allows the [Track](#t) to rotate in 15 degree increments, up to 45 degrees in either direction from the center. As of January 2021, these maps can only be made in [ChroMapper](#c) and in the official [Editor](#e).                                                                                                             |
