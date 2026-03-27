@@ -103,7 +103,7 @@ _Beat Saber はどこにインストールされていますか？_
 
 |        |                                                                              |
 | ------ | ---------------------------------------------------------------------------- |
-| Steam  | `C:\Program Files (x86)\Steam\steamaps\common\Beat Saber\'                   |
+| Steam  | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\'                   |
 | Oculus | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\' |
 
 ### その他の場所
