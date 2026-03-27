@@ -94,7 +94,7 @@ Here is a list of various common things that can cause this:
 - Needing to Verify Game Files
   - Refer to this: [Verifying Files](#verify-game-files)
 - Unity Crash
-  - If a popup appears on startup on your computer, then refer to [Unity Crash](#23-unity-crash)
+  - If a popup appears on startup on your computer, then refer to [Unity Crash](#_2-4-unity-crash)
 
 If none of the methods work here, seek out help in the [BSMG Discord.](https://discord.gg/beatsabermods)
 
