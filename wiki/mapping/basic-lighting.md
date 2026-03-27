@@ -691,6 +691,24 @@ control left & right lasers.
 </td></tr>
 <tr><td style="text-align: center;">
 
+![Image of Spoooky environment](/.assets/images/mapping/spoooky_env.jpg)
+
+</td><td>
+
+**Spoooky Environment**<br />
+**Info.dat Name:** `Halloween2Environment`<br />
+**Default Colors:** Orange & Purple notes, Orange & Steel Blue lights, Turquoise & Light Purple boost lights
+
+**Lights:** Back lasers, moon, left & right lasers, walkway lights<br />
+**Triggers:** :x:<br />
+**Value controls:** Laser speed<br />
+**Spectrum:** :x:
+
+**Video Preview:** [YouTube](https://youtu.be/sg1ml6w7DC0)<br />
+
+</td></tr>
+<tr><td style="text-align: center;">
+
 ![Image of Glass Desert environment](/.assets/images/mapping/glass-desert_env.jpg)
 
 </td><td>
