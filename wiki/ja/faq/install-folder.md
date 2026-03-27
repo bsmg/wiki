@@ -11,7 +11,7 @@ _Beat Saber はどこにインストールされていますか？_
 
 |        |                                                                              |
 | ------ | ---------------------------------------------------------------------------- |
-| Steam  | `C:\Program Files (x86)\Steam\steamaps\common\Beat Saber\'                   |
+| Steam  | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\'                   |
 | Oculus | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
 
 ## 他の保存場所
@@ -19,5 +19,5 @@ _Beat Saber はどこにインストールされていますか？_
 **インストールフォルダを別のドライブに移動した場合は、以下の場所にある可能性があります。 ** ゲームがインストールされているドライブのドライブ文字を `F` を置き換えてください。
 | | |
 | ------ | -------------------------------------------------------------------- |
-| Steam | `F:\SteamLibrary\steamaps\common\Beat Saber\'                  |
+| Steam | `F:\SteamLibrary\steamapps\common\Beat Saber\'                  |
 | Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\' |
