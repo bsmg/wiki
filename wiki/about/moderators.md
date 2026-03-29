@@ -152,7 +152,11 @@ Pepega
 
 **Roles:** Mapper, Moderator (Retired)
 
-## iamded
+### iSmellFood
+
+**Roles:** Moderator (Retired), 3D Artists
+
+### Jalapeña
 
 While I enjoy peace and quiet, I also enjoy looking out for people. I'm not dead.
 
@@ -163,10 +167,6 @@ While I enjoy peace and quiet, I also enjoy looking out for people. I'm not dead
 [Github](https://github.com/IAMDEDJUSTTOGETFILES)
 
 </AboutLinks>
-
-### iSmellFood
-
-**Roles:** Moderator (Retired), 3D Artists
 
 ### joelseph
 
