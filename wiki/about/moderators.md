@@ -12,20 +12,6 @@ You can thank this team for keeping the streets clean.
 
 **Roles:** Moderator
 
-## Burrito
-
-Ironically doesn't like burritos, thinks tacos are better (true facts)
-
-**Roles:** Moderator, Support
-
-<AboutLinks>
-
-[Twitter](https://twitter.com/BurritoSOFTWARE)
-[GitHub Sponsors](https://github.com/sponsors/burritosoftware)
-[Tip](https://streamelements.com/burritosoft/tip)
-
-</AboutLinks>
-
 ## Cyn
 
 **Roles:** Moderator
@@ -43,18 +29,6 @@ Camellia is SourPls
 <AboutLinks>
 
 [Twitch](https://www.twitch.tv/hydrandvr)
-
-</AboutLinks>
-
-## iamded
-
-While I enjoy peace and quiet, I also enjoy looking out for people. I'm not dead.
-
-**Roles:** Support, Moderator
-
-<AboutLinks>
-
-[Github](https://github.com/IAMDEDJUSTTOGETFILES)
 
 </AboutLinks>
 
@@ -124,6 +98,20 @@ Also hates sketchfab links.
 
 </AboutLinks>
 
+### Burrito
+
+Ironically doesn't like burritos, thinks tacos are better (true facts)
+
+**Roles:** Moderator, Support
+
+<AboutLinks>
+
+[Twitter](https://twitter.com/BurritoSOFTWARE)
+[GitHub Sponsors](https://github.com/sponsors/burritosoftware)
+[Tip](https://streamelements.com/burritosoft/tip)
+
+</AboutLinks>
+
 ### Chara\_
 
 crippling destiny addiction
@@ -167,6 +155,18 @@ Pepega
 ### iSmellFood
 
 **Roles:** Moderator (Retired), 3D Artists
+
+### Jalapeña
+
+While I enjoy peace and quiet, I also enjoy looking out for people. I'm not dead.
+
+**Roles:** Moderator (Retired), Support
+
+<AboutLinks>
+
+[Github](https://github.com/IAMDEDJUSTTOGETFILES)
+
+</AboutLinks>
 
 ### joelseph
 
