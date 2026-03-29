@@ -12,20 +12,6 @@ You can thank this team for keeping the streets clean.
 
 **Roles:** Moderator
 
-## Burrito
-
-Ironically doesn't like burritos, thinks tacos are better (true facts)
-
-**Roles:** Moderator, Support
-
-<AboutLinks>
-
-[Twitter](https://twitter.com/BurritoSOFTWARE)
-[GitHub Sponsors](https://github.com/sponsors/burritosoftware)
-[Tip](https://streamelements.com/burritosoft/tip)
-
-</AboutLinks>
-
 ## Cyn
 
 **Roles:** Moderator
@@ -109,6 +95,20 @@ Also hates sketchfab links.
 
 [Twitch](https://www.twitch.tv/beigeanimaltv)
 [PayPal](https://paypal.me/beigeanimal)
+
+</AboutLinks>
+
+### Burrito
+
+Ironically doesn't like burritos, thinks tacos are better (true facts)
+
+**Roles:** Moderator, Support
+
+<AboutLinks>
+
+[Twitter](https://twitter.com/BurritoSOFTWARE)
+[GitHub Sponsors](https://github.com/sponsors/burritosoftware)
+[Tip](https://streamelements.com/burritosoft/tip)
 
 </AboutLinks>
 
