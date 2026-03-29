@@ -46,18 +46,6 @@ Camellia is SourPls
 
 </AboutLinks>
 
-## iamded
-
-While I enjoy peace and quiet, I also enjoy looking out for people. I'm not dead.
-
-**Roles:** Support, Moderator
-
-<AboutLinks>
-
-[Github](https://github.com/IAMDEDJUSTTOGETFILES)
-
-</AboutLinks>
-
 ## oli
 
 **Roles:** Moderator
@@ -163,6 +151,18 @@ Pepega
 "Came for the game, Stayed for the hugs"
 
 **Roles:** Mapper, Moderator (Retired)
+
+## iamded
+
+While I enjoy peace and quiet, I also enjoy looking out for people. I'm not dead.
+
+**Roles:** Moderator (Retired), Support
+
+<AboutLinks>
+
+[Github](https://github.com/IAMDEDJUSTTOGETFILES)
+
+</AboutLinks>
 
 ### iSmellFood
 
