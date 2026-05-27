@@ -86,7 +86,8 @@ and version checking! Get it on [BSMG's GitHub](https://github.com/bsmg/ModAssis
 ![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
 ::: warning NOTICE
-ModAssistant is legacy software and is no longer recommended. Instead use one of the other mod installers linked above.
+ModAssistant is legacy software and is no longer recommended as it contains bugs. Instead use one of the other mod
+installers linked above.
 :::
 
 ## How to get more songs
@@ -145,9 +146,6 @@ You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistMa
 Then you can either:
 
 - Install playlists through the Maps tab in BSManager.
-  ::: tip NOTE
-  This feature is only on the alpha version of BSManager!
-  :::
 - Place the playlist file into `Beat Saber/Playlists`, select the playlist title header in-game, then hit download all songs.
 
 You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
@@ -230,7 +228,7 @@ Click on these links corresponding to where you own the game to see the tutorial
 
 ### Legacy Branch
 
-If you want to downgrade to `1.37.1`, `1.34.2`, or `1.29.1` you can use the legacy branch method.
+If you want to downgrade to `1.40.8`, `1.37.1`, `1.34.2`, or `1.29.1` you can use the legacy branch method.
 
 #### Steam Users
 
