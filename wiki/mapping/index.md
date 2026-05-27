@@ -232,7 +232,7 @@ this to succeed.
 
 - [ArcViewer](https://allpoland.github.io/ArcViewer/) by **AllPoland**  
   An open source 3D Beat Saber map previewer, designed to give users an accurate representation of Beat Saber maps.
-- [BeatSketch](https://beatsketch.github.io)
+- [BeatSketch](https://beatsketch.github.io) (Beta)
   A free and open source VR-based map maker, to create a first map draft by playing it in VR, with your movements converted into blocks
 - [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**  
   A suite of tools for mappers that includes:
