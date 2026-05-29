@@ -10,12 +10,11 @@ description: Learn how to mod Beat Saber on your Quest 1!
 
 **This guide is for Quest 1 only!** Head back to the [Quest Modding](../quest-modding.md) page for other headsets!
 
-:::danger Quest 1 is No Longer Supported!
-The last vanilla game version that supports Quest 1 was `1.36.2`. Additionally since the unity engine update, the Quest 1
-uses its own, unique build of the game, different from what modding tools are targeting. This means the latest and last version
-of the game you can mod your Quest 1 to is `1.28.0`.
+:::danger Legacy guide (QAVS)
+This guide is **legacy/outdated** and only covers modding Quest 1 to **Beat Saber `1.28.0`** using QAVS.
 
-This guide walks you through how to mod the game to `1.28.0` on your Quest 1.
+For most users, Quest 1 can be upgraded to **`1.40.8`** and modded using **ModsBeforeFriday** instead:
+[Modding with ModsBeforeFriday](./modding-with-mbf.md)
 :::
 
 If you have not already, go to [Preparations](../quest-modding.md#preparations) and follow those steps.
@@ -25,7 +24,7 @@ This prevents it from going into sleep mode during the modding process. Alternat
 up the sensor between the lenses.
 
 :::warning
-Make sure you do not have multiple accounts an your Quest!
+Make sure you do not have multiple accounts on your Quest!
 
 Modding currently does not work with multiple accounts.
 You will need to temporarily remove all secondary accounts before modding the game.
