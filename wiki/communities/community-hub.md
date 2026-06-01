@@ -22,7 +22,7 @@ We are an Acc focused community that plans to be the new hub for Acc related eve
 to help give specific info on each player's strengths and weaknesses in Acc categories. We also hold a custom campaign
 for those wanting to test their acc abilities against difficult requirements.
 
-[Discord](https://discord.gg/zd8W4rr)
+[Discord](https://discord.gg/zd8W4rr) | [Website](https://accsaber.com/)
 
 ## BeastSaber
 
@@ -50,9 +50,9 @@ We're fun/competitive community of Beatsaber players who specilize in everything
 scene, and programming the tools we use to compete on the global leaderboard.
 
 If you're looking to get a map ranked, wanting to know more about how the ranking system works, or looking to help
-improve the leaderboard, come on in. We'd love to have some discussions
+improve the leaderboard, come on in. We'd love to have some discussions!
 
-[Discord](https://discord.gg/2RG5YVqtG6) | [Website](https://www.beatleader.xyz/)
+[Discord](https://discord.gg/2RG5YVqtG6) | [Website](https://www.beatleader.com/)
 
 ## Beat Saber Clan Hub
 
@@ -61,7 +61,7 @@ you!
 
 [Discord](https://discord.gg/2a89Nmm3PC)
 
-## Beat Saber Commissions
+## Beat Saber Commissions Center
 
 Have a model, map, or mod that you'd like done? Get in contact with the professionals here.
 
@@ -73,6 +73,19 @@ A League-style tournament for Beat Saber!
 
 [Discord](https://discord.gg/rNmazdz)
 | [Website](https://beatsaberleague.com/)
+
+## Beat Saber Mapping
+
+The Beat Saber Mapping server is a place for in depth discussion regarding Beat Saber mapping and lighting. A place for
+community driven constructive feedback on your freshly created maps and lightshows.
+
+[Discord](https://discord.gg/ArT4BTQ)
+
+## Beat Saber Tournament Server
+
+A Tournament Server hosting all kinds of tourneys!
+
+[Discord](https://discord.gg/jv3gBRGF4Y)
 
 ## BeatSaver
 
@@ -94,7 +107,14 @@ BSManager is a community of Beat Saber fans who use BSManager to manage their mo
 It is a friendly space where users can exchange tips, ask questions, get technical assistance, and discuss anything
 related to Beat Saber.
 
-[Discord](https://discord.gg/uSqbHVpKdV) | [GitHub](https://github.com/Zagrios/bs-manager)
+[Discord](https://discord.gg/uSqbHVpKdV) | [GitHub](https://github.com/Zagrios/bs-manager) | [Website](https://bsmanager.io/)
+
+## Challenge Saber
+
+Challenge Saber is a community and ranking system for challenge maps. Our community is focused on providing the resources
+to help players improve and track their progress through the ranking.
+
+[Discord](https://discord.gg/VfngF6tsXd)
 
 ## ChroMapper
 
@@ -118,13 +138,6 @@ themed sabers and recent Kpop maps.
 
 [Discord](https://discord.gg/c9uHGYP)
 
-## Saber Factory
-
-Welcome to the Saber Factory server! Here you find all resources dedicated to the Saber Factory mod. Get help with the
-usage and creation of content, keep in touch with new updates, leave suggestions and much more.
-
-[Discord](https://discord.gg/PjD7WcChH3)
-
 ## ScoreSaber
 
 Custom leaderboards and global ranking!
@@ -145,3 +158,24 @@ We are a quest-focused beat saber community server, dedicated to improving the e
 
 [Discord](https://discord.gg/d6DyW9v)
 | [Website](https://www.questmodding.com/)
+
+## The Group Lighting Dojo
+
+A server meant to assist users in improving and learning V3/GLS Lighting. It provides many methods to learn, and help channels
+with community support for all your lighting needs! We’d love to see you there!
+
+[Discord](https://discord.gg/jc9PHQjxAZ) | [Group Lighting System Guide (V3/4)](https://docs.google.com/document/d/1NQzXNsQ0VhnCoUBhEb_Qx0gONsqaD8drOMWIXJk79vE/edit?usp=sharing)
+
+## The Poodle Hub
+
+The Poodle Community is a group of people who enjoy the niche pattern of long slider notes in Beat Saber (known as Poodles).
+Here you can find a place to discuss, share scores, and get tips for improving and competing
+on the Official Poodle leaderboard on HitBloq!
+
+[Discord](https://discord.gg/QcqtNSV4Nr) | [Poodle Map Pool](https://hitbloq.com/map_pool/poodles)
+
+## TVMG Community Server
+
+The community server of The Vivify Mapping Group!
+
+[Discord](https://discord.gg/xZmSt8SG47)
