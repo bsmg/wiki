@@ -59,12 +59,17 @@ A private Discord for the saber beaters from / in the Middle East
 
 ### Austria
 
-#### Hit bloq Community Austria
+#### Beat Saber Austria
 
-Unofficial Austrian Beat Saber discord that just recently opened doors for every Beat Saber fan all over the world!
-(We also have a Linus Tech Tip!)
+Official discord for the Austrian Beat Saber community. Also, we are not Australia!
 
 [Discord](https://discord.gg/TvRkNY2)
+
+### Beat Saber Europe
+
+BSEU welcomes all Beat Saber players in Europe. Join us for tournaments and to build an amazing community.
+
+[Discord](https://discord.gg/zFMsUZK9MZ)
 
 ### Belgium
 
@@ -101,7 +106,7 @@ Discord server for the French Beat Saber community.
 
 ### Germany
 
-#### German Beat Saber Community
+#### Beat Saber Germany
 
 German Beat Saber Community, JOIN US NOW! We have Magician! 😎
 
@@ -130,6 +135,12 @@ Community for Russian speaking players
 Discord server for the Spanish Beat Saber community, people from other countries are welcome too :D
 
 [Discord](https://discord.com/invite/x6mChxk)
+
+#### Beat Saber Hispanic Community
+
+Discord server to bring together all the Spanish-speaking countries and players, everyone is welcome!
+
+[Discord](https://discord.gg/5GrjCTdg97)
 
 ### Sweden
 
@@ -174,8 +185,22 @@ Discord server for the Irish Beat Saber community, international players are wel
 
 [Discord](https://discord.gg/uKQzjRQ)
 
----
-
 ## Oceania
 
-_None yet._
+### Oceania Beat Saber
+
+Our Community is made up of Gamers from the Oceania Region Australia and New Zealand and we are 400+ members strong
+
+[Application Form](https://forms.gle/1SXDzwck3RnuKJrB6)
+
+## South America
+
+### Argentina
+
+#### VR Argentina
+
+A very friendly and active community where Beat Saber and VR players in general from Argentina and other Spanish speaking
+countries participate on a daily basis. Within the server, we have a very complete wiki system with tips and tricks for
+Beat Saber, and a fun competitive announcements bot.
+
+[Discord](https://discord.gg/vEmATnAj5z)
