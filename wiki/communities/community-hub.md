@@ -29,7 +29,7 @@ for those wanting to test their acc abilities against difficult requirements.
 Home of the map curation team and annual mapping awards, BeastSaber aims to be a community hub to connect you to the more
 specialized areas of the community!
 
-[Discord](https://discord.gg/5NjfSAC) | [Website](https://bsaber.com)
+[Discord](https://discord.gg/VJZHUbt) | [Website](https://bsaber.com)
 
 ## BeatKhana
 
@@ -52,7 +52,7 @@ scene, and programming the tools we use to compete on the global leaderboard.
 If you're looking to get a map ranked, wanting to know more about how the ranking system works, or looking to help
 improve the leaderboard, come on in. We'd love to have some discussions!
 
-[Discord](https://discord.gg/2RG5YVqtG6) | [Website](https://www.beatleader.com/)
+[Discord](https://discord.gg/beatleader) | [Website](https://www.beatleader.com/)
 
 ## Beat Saber Clan Hub
 
@@ -99,7 +99,7 @@ discussions related to the main repository of custom maps.
 Community for the BeatTogether mod. This mod allows crossplay between PC platforms and Quest.
 This is a place to discuss the mod and follow its progress and releases!
 
-[Discord](https://discord.com/invite/gezGrFG4tz)
+[Discord](https://discord.gg/gezGrFG4tz)
 
 ## BSManager
 

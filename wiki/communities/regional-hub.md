@@ -29,7 +29,7 @@ The official Discord for the Canadian Beat Saber community!
 Community for Asian players and VR organizations.
 We have a limited quota for International members depending on our server size.
 
-[Application](https://forms.gle/Ga3jWoCkugPBD6BZ6)
+[Application Form](https://forms.gle/Ga3jWoCkugPBD6BZ6)
 
 ### Israel
 
@@ -53,7 +53,7 @@ A community of Korean players :) information sharing and problem solving between
 
 A private Discord for the saber beaters from / in the Middle East
 
-[Application form](http://bit.ly/BSME_Application)
+[Application Form](http://bit.ly/BSME_Application)
 
 ## Europe
 
