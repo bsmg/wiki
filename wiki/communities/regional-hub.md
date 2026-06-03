@@ -53,7 +53,7 @@ A community of Korean players :) information sharing and problem solving between
 
 A private Discord for the saber beaters from / in the Middle East
 
-[Application Form](http://bit.ly/BSME_Application)
+[Application Form](https://bit.ly/BSME_Application)
 
 ## Europe
 
