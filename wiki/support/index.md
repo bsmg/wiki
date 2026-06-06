@@ -74,7 +74,7 @@ You only need to try this once!
 
 - If all else fails, perform a [Clean Installation](#clean-installation)
 
-#### 1.2 Mod Assistant doesn't seem to be installing any mods
+#### 1.2 My mod installer doesn't seem to be installing any mods
 
 The installers download mods to `Beat Saber/IPA/Pending`, BSIPA moves these files to root folder when you launch the game.
 If your game Plugins folder still is empty afterwards, run `IPA.exe` again and make sure that nothing is preventing it

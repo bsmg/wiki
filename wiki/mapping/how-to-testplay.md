@@ -127,12 +127,12 @@ recording. All recordings are saved in `C:\Users\"your user"\Videos\Captures`.
 ### Recommended Mods to Install
 
 - **PracticePlugin**
-  - Can be found in Mod Assistant under the Practice/Training category that gives you the option to replay sections of a
-    map, and adjust NJS and offset while in game. If it is not there, you can try to ask in `#mapping-discussion` if any
-    other testplayers have a beta version of the mod. You'll be seeing a lot of 12 NJS maps from new mappers, so this mod
-    is a real help!
+  - Can be found in your mod installer under the Practice/Training category that gives you the option to replay sections
+    of a map, and adjust NJS and offset while in game. If it is not there, you can try to ask in `#mapping-discussion`
+    if any other testplayers have a beta version of the mod. You'll be seeing a lot of 12 NJS maps from new mappers, so\
+    this mod is a real help!
 - **Camera2**
-  - Can be found in Mod Assistant under the Core category allows for various perspectives and tuning, such as a main
+  - Can be found in your mod installer under the Core category allows for various perspectives and tuning, such as a main
     third person perspective, and a secondary first person perspective in the corner.
 - [OBSControl](https://github.com/Zingabopp/OBSControl#readme)
   - A plugin for OBS users that can automatically start/stop recording when you play a song. If the map is ever paused,

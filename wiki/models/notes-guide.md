@@ -302,9 +302,9 @@ While a map is playing, pressing:
 - `C` Unpauses and **c**ontinues playing
 
 You will need the SiraUtil mod in order move the camera while a map is playing. Without it, the camera is fixed in the floor
-at an undesirable angle. Install SiraUtil from Mod Assistant and run Beat Saber to create a config json file. SiraUtil also
-adds additional useful features such as camera FOV, sensitivity, and rebindable pause and exit controls. Edit the `SiraUtil.json`
-file in your `UserData` folder to tweak settings.
+at an undesirable angle. Install SiraUtil from your mod installer and run Beat Saber to create a `config.json` file.
+SiraUtil alsoa dds additional useful features such as camera FOV, sensitivity, and rebindable pause and exit controls.
+Edit the `SiraUtil.json` file in your `UserData` folder to tweak settings.
 
 **For Steam Users:**
 
