@@ -49,6 +49,19 @@ You might know them for their spectacular platforms, or for more refined individ
 
 </AboutLinks>
 
+## Empoleon
+
+Some blue penguin (and sometimes, a Ford Focus). Often helps around in support channels in his spare time.
+
+**Roles:** Support
+
+<AboutLinks>
+
+[Twitch](https://twitch.tv/empoleonics)
+[GitHub](https://twitch.tv/mercurialworld)
+
+</AboutLinks>
+
 ## Johnny0403
 
 He likes playing Beat Saber. He also likes helping people fix their problems so they can play Beat Saber.
