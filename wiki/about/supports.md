@@ -114,7 +114,8 @@ I broke my feet the day before I got support, its not related _I think_
 
 ## overlap
 
-Your average amateur batch coder, with a changing music taste every now and then.
+Has the amateur expertise to code JavaScript stuff but has no ideas. Balances out his
+free time and workaholic addiction by helping with PCVR mods.
 
 **Roles:** Support
 
