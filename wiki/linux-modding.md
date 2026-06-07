@@ -193,4 +193,4 @@ If you messed up the registry file, either verify your game files or reinstall B
 
 ## Have questions?
 
-Visit the [FAQ](/faq/) or drop by the `#pc-help` tab in the [BSMG Discord](https://discord.gg/beatsabermods)!
+Visit the [FAQ](/faq/) or drop by the `#pcvr-help` tab in the [BSMG Discord](https://discord.gg/beatsabermods)!

@@ -143,8 +143,8 @@ and upload your own files (`.qmod`, `.whacker`, etc.).
 ## Troubleshooting
 
 If you encounter issues while modding BeatSaber, you can always seek help in the [BSMG Discord](https://discord.gg/beatsabermods).
-You can ask any questions in the quest-help channel. Please note that we are all volunteers and there is no on-call
-support. So, if no one responds immediately, please be patient. In addition, here are a few troubleshooting steps:
+You can ask any questions in the `#quest-standalone-help` channel. Please note that we are all volunteers and there is
+no on-call support. So, if no one responds immediately, please be patient. In addition, here are a few troubleshooting steps:
 
 ### My Game Does Not Start or Immediately Crashes
 

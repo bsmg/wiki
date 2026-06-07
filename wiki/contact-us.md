@@ -15,7 +15,7 @@ Visit the `#📗-contact-us` channel to get started.
 
 :::warning NOTE
 This is **NOT** for getting help with modding the game!  
-Visit the `#pc-help` or `#quest-help` channels instead!
+Visit the `#pcvr-help` or `#quest-standalone-help` channels instead!
 :::
 
 ## Reporting a User
