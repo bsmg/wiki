@@ -6,9 +6,7 @@ description: Learn how to mod Beat Saber on your Quest using ModsBeforeFriday!
 
 # Quest Modding using ModsBeforeFriday
 
-This guide is for Quest 2, 3, and Pro headsets only!
-
-Quest 1 Users should follow the [Quest 1 modding](./modding-quest1.md) guide.
+This guide is for Quest 1, 2, 3, 3S and Pro headsets only!
 
 :::warning
 Installing MBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
@@ -33,6 +31,23 @@ for the current game version.
 To begin, make sure that you have the latest version of (vanilla) Beat Saber on your Quest.
 
 MBF will automatically downgrade this version to the latest moddable version.
+
+:::danger Quest 1
+
+Quest 1 requires a different flow: **ModsBeforeFriday (MBF)** can update/patch
+Quest 1 up to **Beat Saber `1.40.8`** (last officially supported Quest 1 version is `1.37.101`).
+
+If you previously modded (or switched release channels) and
+your version doesn’t match what MBF expects, make sure you are **not on the legacy release channel**.
+
+**How to leave the legacy release channel:**
+
+1. Go to [Beat Saber store page](https://www.meta.com/experiences/beat-saber/2448060205267927/)
+2. Log in with the account used on your headset.
+3. Scroll down to **Version + release notes** (you can use Ctrl+F on the page to find it)
+4. Open the version dropdown and select **LIVE**.
+5. Reinstall Beat Saber on your headset, then return to this guide.
+   :::
 
 :::warning Browser Support
 
