@@ -29,7 +29,7 @@ mods not work in game.
 > **THIS IS CURRENTLY THE RECOMMENDED MOD INSTALLER AND DOWNGRADER.**
 
 1. To install [BSManager](https://github.com/Zagrios/bs-manager) in your specific distro, just follow the
-   instructions within the wiki guide located [here](https://github.com/Zagrios/bs-manager/wiki/Linux#installation).
+   instructions within the wiki guide located [here](https://github.com/Zagrios/bs-manager/wiki/install-bsmanager-on-linux).
 
 2. Open BSManager and install the latest Beat Saber version with the recommended label. Click on the recommended version
    then click on the `Download` button.
