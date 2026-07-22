@@ -37,6 +37,20 @@ He makes programs to support people faster and some others for them to make all 
 
 </AboutLinks>
 
+## Delta984
+
+Enjoys helping people out and giving back to the community.
+Always looking for ways to improve the accuracy and clarity of information surrounding various modding tools and resources.
+Mediocre BeatSaber player.
+
+**Roles:** Support
+
+<AboutLinks>
+
+[GitHub](https://github.com/delta-984)
+
+</AboutLinks>
+
 ## Emma
 
 You might know them for their spectacular platforms, or for more refined individuals: yeet sabers.
