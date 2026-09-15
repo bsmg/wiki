@@ -66,6 +66,10 @@ kinda vibing
 
 **Roles:** Moderator
 
+## Yluem
+
+**Roles:** Moderator, 3D Artists
+
 ## === Retired ===
 
 ### 24Kings
