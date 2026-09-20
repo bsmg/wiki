@@ -64,7 +64,7 @@ Visit the [Downgrading](#downgrading) section on this page for more information.
 
 \***\*Make sure you own the game on Steam or Oculus (PCVR)\*\*** before trying to download Beat Saber!
 
-An all-in-one tool that lets you easily manage Beat Saber versions, maps, mods, and even more. Get it on [Zagrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
+An all-in-one tool that lets you easily manage Beat Saber versions, maps, mods, and even more. Get it on the [BSManager website](https://bsmanager.io)
 
 ![BSManager](/.assets/images/beginners-guide/bsmanager.png)
 
