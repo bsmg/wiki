@@ -20,7 +20,7 @@ The link to the PC Modding page should automatically scroll to the Downgrading s
 until you see it.
 :::
 
-The latest moddable Beat Saber version for Quest is `1.40.4`.
+The latest moddable Beat Saber version for Quest is `1.40.8`.
 
 For more information on modding and/or downgrading visit the respective [modding guide.](/beginners-guide.md)
 
