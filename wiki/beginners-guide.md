@@ -21,7 +21,7 @@ Applicable hardware includes:
 - HTC Vive/Vive Pro/Vive Pro Eye/Cosmos
 - Oculus Rift/Rift S
 - Windows Mixed Reality headsets
-- Oculus Quest/Quest 2/Quest 3 using [Oculus Link](https://support.oculus.com/444256562873335/)
+- Oculus Quest/ Meta Quest 2/ Meta Quest 3/ Meta Quest 3S using [Oculus Link](https://support.oculus.com/444256562873335/)
 
 ### Quest Modding
 
@@ -29,9 +29,10 @@ If you are using the Oculus Quest version of the game, follow our [Quest Modding
 
 Applicable hardware includes:
 
-- Meta Quest
+- Oculus Quest
 - Meta Quest 2
 - Meta Quest 3
+- Meta Quest 3S
 
 ## Creating content
 
