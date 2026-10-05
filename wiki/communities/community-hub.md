@@ -138,6 +138,14 @@ themed sabers and recent Kpop maps.
 
 [Discord](https://discord.gg/c9uHGYP)
 
+## Saber Sorcery
+
+Server specifically dedicated to 3D modelling for Beat Saber! Contains free resources, tutorials/guides, regular
+competitions, and lots of experienced creators willing to help out. A great place to check out if you want to
+get into/improve at saber making/3D modelling!
+
+[Discord](https://discord.gg/eKST55Fb3K)
+
 ## ScoreSaber
 
 Custom leaderboards and global ranking!
