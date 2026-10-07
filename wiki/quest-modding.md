@@ -8,7 +8,7 @@ description: Learn how to mod Beat Saber on your Quest!
 
 ## Preface
 
-- This guide is for Quest 1, Quest 2, Quest Pro, and Quest 3.
+- This guide is for Quest 1, Quest 2, Quest Pro, Quest 3, and Quest 3S.
 
 - Nobody has yet been banned for modding, however modding does violate Meta's terms of service.
 
@@ -138,8 +138,11 @@ if the latest Beat Saber version isn't moddable.
 If your game has not yet been modded, you should use [ModsBeforeFriday](#modsbeforefriday) to downgrade it if necessary.
 
 :::danger BMBF Deprecation
-BMBF no longer works for modding Beat Saber on the Quest 2 or 3!
-Do not attempt to mod with BMBF because it **will not work**.
+BMBF is now deprecated and **we no longer support it**.
+
+This is a result of the the v63 update, which broke BMBF.
+Do not attempt to mod your game with BMBF because it **will not work**.
+
 You need to use [ModsBeforeFriday](#modsbeforefriday) instead.
 :::
 
