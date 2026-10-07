@@ -9,21 +9,22 @@ description: Learn how to mod Beat Saber on your Quest using ModsBeforeFriday!
 This guide is for Quest 1, 2, 3, 3S and Pro headsets only!
 
 :::warning
-Installing MBF and modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
+Modding your game will disable Official Multiplayer as well as viewing and uploading scores on the
 base game leaderboards.
-If you would like to play modded multiplayer, you need the `Beat Together` and `MultiQuestensions` mods, which enables
-cross-play between PC
-and modded Quests and allows for custom songs to be played. The mod can be found in the
-[Beat Saber Modding Group](https://discord.gg/beatsabermods) in `#quest-mods` or on the
-[Questboard](https://questmodding.com) site.
+
+If you would like to play modded multiplayer, you need the mods, `Beat Together` and `MultiplayerCore`, which allows
+for cross-play between PC and Quest and for custom songs to be used. 
+
+Bear in mind that these are not core mods, so they may not be available on your desired version yet!
+
+You can check the [BSQMods](https://mods.bsquest.xyz) repository, or MBF's "Add Mods" tab to see if these are available for the version you want to mod.
 
 To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
-[ScoreSaber](https://scoresaber.com/quest) mod. [This link](https://scoresaber.com/quest) will take you to the
-ScoreSaber page to set it up.
-ScoreSaber does not replace the base game leaderboards, it only adds leaderboards for custom songs.
+[ScoreSaber](https://scoresaber.com/quest) or [BeatLeader](https://beatleader.xyz) mod.
 
-**Note:** Check the updates channel in the [ScoreSaber Discord](https://discord.gg/scoresaber) to see if the mod is available
-for the current game version.
+You can grab ScoreSaber from their website linked above.
+
+BeatLeader can be found on MBF or the [BSQMods](https://mods.bsquest.xyz) repository.
 :::
 
 ## Requirements
@@ -98,6 +99,6 @@ You can now install custom songs inside the game using the SongDownloader mod, w
 
 MBF has a built-in mod browser that you can use to add additional mods.
 
-Simply select "Add mods" in the main menu and hit "Install" on any mods you want!
+Simply select "Add Mods" in the main menu and hit "Install" on any mods you want!
 
 ![MBFModBrowser](/.assets/images/beginners-guide/mbfModBrowser.png)
