@@ -17,7 +17,7 @@ for cross-play between PC and Quest and for custom songs to be used.
 
 Bear in mind that these are not core mods, so they may not be available on your desired version yet!
 
-You can check the [BSQMods](https://mods.bsquest.xyz) repository, or MBF's "Add Mods" tab to see if these are available for the version you want to mod.
+You can check the [BSQMods](https://mods.bsquest.xyz) repo or MBF to see if these are available for your version.
 
 To get leaderboards on custom songs and to be able to get Performance Points (PP) from ranked songs you need the
 [ScoreSaber](https://scoresaber.com/quest) or [BeatLeader](https://beatleader.xyz) mod.
