@@ -62,8 +62,8 @@ hero:
 ---
 
 - [BeatMods](https://beatmods.com) - Repository of PC mods that are reflected in installers like BSManager.
-- [BSQMods](https://mods.bsquest.xyz) - Repository of Quest mods that are reflected in installers like ModsBeforeFriday
-- [BeatSaver](https://beatsaver.com/) - Download custom songs here
+- [BSQMods](https://mods.bsquest.xyz) - Repository of Quest mods that are reflected in installers like ModsBeforeFriday.
+- [BeatSaver](https://beatsaver.com/) - Download custom songs here!
 - [BeastSaber](https://bsaber.com/) - Curation, articles, playlists, and more!
 - [ModelSaber](https://modelsaber.com/) - Download PC custom sabers, avatars, bloqs, and platforms!
 
