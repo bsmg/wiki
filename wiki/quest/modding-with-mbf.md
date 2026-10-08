@@ -13,7 +13,7 @@ Modding your game will disable Official Multiplayer as well as viewing and uploa
 base game leaderboards.
 
 If you would like to play modded multiplayer, you need the mods, `Beat Together` and `MultiplayerCore`, which allows
-for cross-play between PC and Quest and for custom songs to be used. 
+for cross-play between PC and Quest and for custom songs to be used.
 
 Bear in mind that these are not core mods, so they may not be available on your desired version yet!
 
