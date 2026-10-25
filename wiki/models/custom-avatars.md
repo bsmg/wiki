@@ -17,7 +17,7 @@ or in your mod installer. Once installed you should see a file called `CustomAva
 inside your `Plugins` folder. You should also see a folder called `CustomAvatars` in
 [your install folder](/faq/install-folder.md) — this is where you will be placing the `*.avatar` files you want to use.
 
-You can download more avatars on [ModelSaber](https://modelsaber.com/Avatars/), [BSManager](https://bsmanager.io),
+You can download more avatars on [BeatMods](https://beatmods.com/assets), [BSManager](https://bsmanager.io),
 or the [#pc-models channel](https://discord.gg/beatsabermods) in the BSMG Discord.
 
 ## Usage

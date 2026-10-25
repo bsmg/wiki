@@ -159,7 +159,7 @@ Open up the `Saber Exporter` in the `Window` tab and then fill in the saber's na
 Put your sabers in your `CustomSabers` folder and test them out in game. If they look good ingame, you're all done!
 
 ::: tip NOTE
-**Once you've got your new sabers working**, [upload them to ModelSaber](https://modelsaber.com/Upload/)
+**Once you've got your new sabers working**, [upload them to BeatMods](https://beatmods.com/create/asset)
 if you want to share them with the world.
 :::
 

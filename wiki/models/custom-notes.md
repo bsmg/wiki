@@ -21,7 +21,7 @@ or in your mod installer.
 Once installed, you should see a `CustomNotes` folder in [your install folder](/faq/install-folder.md), with some sample
 notes installed for you. This folder is also where you will place `*.bloq` files.
 
-You can download more bloqs from [ModelSaber](https://modelsaber.com/Bloqs/), [BSManager](https://bsmanager.io),
+You can download more bloqs from [BeatMods](https://beatmods.com/assets), [BSManager](https://bsmanager.io),
 or the [#pc-models channel](https://discord.gg/beatsabermods) in the BSMG Discord.
 
 ### Quest Notes

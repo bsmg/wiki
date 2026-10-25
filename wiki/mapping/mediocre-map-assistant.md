@@ -247,7 +247,7 @@ Using these characters in song metadata or in bookmarks will cause problems.
   `CustomWIPLevels > [Song Folder]`. Must be perfectly square and at least 256 px
 - **Environment Name:** A dropdown menu of the default environments or platforms available.
   See [Basic Lighting Practices](./basic-lighting.md#environment-previews) for an overview of these environments
-- **Custom Platform:** The copy/pasted name of a custom platform from [ModelSaber](https://modelsaber.com/Platforms/).
+- **Custom Platform:** The copy/pasted name of a custom platform from [BeatMods](https://beatmods.com/assets).
   This feature is glitchy and it's recommended that you JSON edit any custom platform information
 
 The <kbd>Open Song Folder</kbd> button will open your song folder in Windows Explorer.

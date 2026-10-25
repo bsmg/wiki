@@ -17,9 +17,9 @@ installation and usage instructions. These are listed below and in the sidebar.
 
 ## Where to find models
 
-### ModelSaber
+### BeatMods
 
-[ModelSaber](https://modelsaber.com/) is the current repository for sabers, avatars, bloqs, and platforms.
+[BeatMods](https://beatmods.com/assets) is the current repository for sabers, avatars, bloqs, and platforms.
 It includes preview images, and OneClick&trade; install links.
 
 ::: tip NOTE
@@ -29,7 +29,7 @@ Please do not reupload any already existing models to the website.
 
 ### BSManager
 
-[BSManager](https://bsmanager.io) can install models from [ModelSaber](https://modelsaber.com/). It can install
+[BSManager](https://bsmanager.io) pulls models from [BeatMods](https://beatmods.com/assets). It can install
 Avatars, Sabers, Platforms, and Blocks, directly from the app or its OneClick&trade; feature.
 
 ### Discord
