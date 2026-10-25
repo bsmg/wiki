@@ -32,7 +32,7 @@ Once you have downloaded the mod, put the mod in [your install folder](/faq/inst
 Once the mod is installed you will see a folder called `CustomSabers`
 in [your install folder](/faq/install-folder.md), this is where you should place the `*.saber` files you want to use.
 
-You can download more sabers on [ModelSaber](https://modelsaber.com/Sabers/), [BSManager](https://bsmanager.io),
+You can download more sabers on [BeatMods](https://beatmods.com/assets), [BSManager](https://bsmanager.io),
 or the [#pc-models channel](https://discord.gg/beatsabermods) in the BSMG Discord.
 
 ### Quest Sabers

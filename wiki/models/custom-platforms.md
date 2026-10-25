@@ -17,7 +17,7 @@ in the BSMG Discord or in your mod installer. Once you've installed it you will
 see a folder called `CustomPlatforms` in [your install folder](/faq/install-folder.md). This is where you should place
 the `*.plat` files you want to use.
 
-You can download more platforms on [ModelSaber](https://modelsaber.com/Platforms/).
+You can download more platforms on [BeatMods](https://beatmods.com/assets).
 
 ## Usage
 

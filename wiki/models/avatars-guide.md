@@ -182,7 +182,7 @@ If you're re-exporting an avatar make sure to delete the previous file, it will 
 :::
 
 ::: tip NOTE
-Once you've got your avatar exported, [upload them to ModelSaber](https://modelsaber.com)
+Once you've got your avatar exported, [upload them to BeatMods](https://beatmods.com/create/asset)
 if you want to share it with the world.
 :::
 
