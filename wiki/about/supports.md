@@ -37,20 +37,6 @@ He makes programs to support people faster and some others for them to make all 
 
 </AboutLinks>
 
-## Delta984
-
-Enjoys helping people out and giving back to the community.
-Always looking for ways to improve the accuracy and clarity of information surrounding various modding tools and resources.
-Mediocre BeatSaber player.
-
-**Roles:** Support
-
-<AboutLinks>
-
-[GitHub](https://github.com/delta-984)
-
-</AboutLinks>
-
 ## Emma
 
 You might know them for their spectacular platforms, or for more refined individuals: yeet sabers.
@@ -123,19 +109,6 @@ I broke my feet the day before I got support, its not related _I think_
 
 [YouTube](https://www.youtube.com/@gikmo8246)
 [GitHub](https://github.com/oli-ctrl)
-
-</AboutLinks>
-
-## overlap
-
-Has the amateur expertise to code JavaScript stuff but has no ideas. Balances out his
-free time and workaholic addiction by helping with PCVR mods.
-
-**Roles:** Support
-
-<AboutLinks>
-
-[GitHub](https://github.com/overlappingd)
 
 </AboutLinks>
 
@@ -254,7 +227,8 @@ A very helpful individual
 ### Moderators
 
 [Razor](./moderators.md#razor), [Chara\_](./moderators.md#chara),
-[Burrito](./moderators.md#burrito), [OneEyed](./moderators.md#oneeyed), [Storm](./moderators.md#storm)
+[Burrito](./moderators.md#burrito), [OneEyed](./moderators.md#oneeyed), [Storm](./moderators.md#storm),
+[Delta984](./moderators.md#delta984), [overlap](./moderators.md#overlap)
 
 ### Staff
 
