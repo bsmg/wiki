@@ -16,6 +16,20 @@ You can thank this team for keeping the streets clean.
 
 **Roles:** Moderator
 
+## Delta984
+
+Enjoys helping people out and giving back to the community.
+Always looking for ways to improve the accuracy and clarity of information surrounding various modding tools and resources.
+Mediocre BeatSaber player.
+
+**Roles:** Moderator, Support
+
+<AboutLinks>
+
+[GitHub](https://github.com/delta-984)
+
+</AboutLinks>
+
 ## fqrb
 
 **Roles:** Moderator
@@ -39,6 +53,19 @@ Camellia is SourPls
 ## oli
 
 **Roles:** Moderator
+
+## overlap
+
+Has the amateur expertise to code JavaScript stuff but has no ideas. Balances out his
+free time, workaholic addiction, and funk addiction by helping with PCVR mods.
+
+**Roles:** Moderator, Support
+
+<AboutLinks>
+
+[GitHub](https://github.com/overlappingd)
+
+</AboutLinks>
 
 ## RangeValley
 
