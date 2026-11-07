@@ -99,19 +99,6 @@ is too uncreative to think of a bio
 
 **Roles:** Support
 
-## oli
-
-I broke my feet the day before I got support, its not related _I think_
-
-**Roles:** Support
-
-<AboutLinks>
-
-[YouTube](https://www.youtube.com/@gikmo8246)
-[GitHub](https://github.com/oli-ctrl)
-
-</AboutLinks>
-
 ## Pespiri
 
 He'll give me his bio later today, or so he says.
@@ -228,7 +215,7 @@ A very helpful individual
 
 [Razor](./moderators.md#razor), [Chara\_](./moderators.md#chara),
 [Burrito](./moderators.md#burrito), [OneEyed](./moderators.md#oneeyed), [Storm](./moderators.md#storm),
-[Delta984](./moderators.md#delta984), [overlap](./moderators.md#overlap)
+[Delta984](./moderators.md#delta984), [overlap](./moderators.md#overlap), [fqrb](./moderators.md#fqrb). [oli](./moderators.md#oli)
 
 ### Staff
 

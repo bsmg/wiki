@@ -32,7 +32,7 @@ Mediocre BeatSaber player.
 
 ## fqrb
 
-**Roles:** Moderator
+**Roles:** Moderator, Support
 
 ## Hydrand
 
@@ -49,10 +49,6 @@ Camellia is SourPls
 ## iSmellFood
 
 **Roles:** Moderator, 3D Artists
-
-## oli
-
-**Roles:** Moderator
 
 ## overlap
 
@@ -244,6 +240,19 @@ Any stroopwafels?
 <AboutLinks>
 
 [Twitch](https://twitch.tv/olafstad)
+
+</AboutLinks>
+
+### oli
+
+I broke my feet the day before I got support, its not related _I think_
+
+**Roles:** Support, Moderator (Retired)
+
+<AboutLinks>
+
+[YouTube](https://www.youtube.com/@gikmo8246)
+[GitHub](https://github.com/oli-ctrl)
 
 </AboutLinks>
 
